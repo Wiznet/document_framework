@@ -14,8 +14,8 @@ module.exports = {
         src: 'img/wiznet-logo.svg',
       },
       links: [
-        {to: 'docs/test/doc1', label: 'Docs', position: 'left'},
-        {to: 'blog', label: 'Blog1', position: 'left'},
+        {to: 'docs/overview', label: 'Docs', position: 'left'},
+        {to: 'blog', label: 'Blog', position: 'left'},
         {
           href: 'https://github.com/facebook/docusaurus',
           label: 'GitHub',

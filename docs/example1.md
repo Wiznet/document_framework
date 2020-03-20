@@ -1,4 +1,4 @@
-# ST AZURE Dashboard 가이드 tomtom
+# ST AZURE Dashboard 가이드
 
 ## 목차
 
