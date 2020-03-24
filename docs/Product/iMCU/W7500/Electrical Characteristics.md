@@ -6,8 +6,6 @@ date: 2020-03-
 
 
 ## Content
-\<markdown\>
-
     <head>
       <meta charset="utf-8">
       <title>MathJax</title>
