@@ -78,4 +78,3 @@ You may find following indexes to start with:
 
   - [WIZnet Official Website](http://www.wiznet.io/)
   - [WIZnet Developer Forum](http://forum.wiznet.io/)
-  - [[<http://wiznetm>
