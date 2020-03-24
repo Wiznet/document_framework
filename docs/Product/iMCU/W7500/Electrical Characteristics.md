@@ -6,6 +6,8 @@ date: 2020-03-
 
 
 ## Content
+ \<markdown\>
+
     <head>
       <meta charset="utf-8">
       <title>MathJax</title>
@@ -74,4 +76,4 @@ class="tg"\>
       <td class="tg-s6z2">mV</td>
     </tr>
     <tr>
-      <td class="tg-s6z2"><a href="http://www.codecogs.com/eqnedit.php?lat 
+      <td class="tg-s6z2"><a href="http://www.codecogs.com/eqnedit.php?lat   
