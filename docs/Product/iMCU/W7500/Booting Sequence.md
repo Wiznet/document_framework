@@ -6,8 +6,7 @@ date: 2020-03-
 
 
 ## Content
-
-\<markdown\> \# Booting Sequence
+ \# Booting Sequence
 
 W7500 has three different boot modes that can be selected through the
 BOOT pin and TEST pin.
@@ -54,4 +53,4 @@ embedded boot code.
 Configuration\](<http://wizwiki.net/wiki/lib/exe/fetch.php?media=products:w7500:documents:boot.jpg>
 "Figure 1 operation of boot code")
 
-\</markdown\>
+
