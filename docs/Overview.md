@@ -27,10 +27,10 @@ You may find following indexes to start with:
 
 ### Products
 
-[Products Home](products) - A collection of product information
-including datasheets, source files, application notes and related
-application info.
-  - **[WIZwiki-W7500]**
+  - [Products Home](products) - A collection of product information
+    including datasheets, source files, application notes and related
+    application info.
+  - **[WIZwiki-W7500](/products/wizwiki_w7500/start)**
   - **[WIZwiki-W7500P](/products/wizwiki_w7500p/start)**
   - [WIZwiki-W7500ECO](/products/wizwiki-w7500eco/start)
   - [WIZwiki-W7500 mbed Starter Kit](/products/wizwiki_mbed_kit/start)
@@ -51,7 +51,7 @@ application info.
 
 ### Open Source Hardware
 
-  -[Open Source Hardware Home](osh) - Materials and information on WIZnet
+    [Open Source Hardware Home](osh) - Materials and information on WIZnet
     open source hardware products.
   - **[W5500 Ethernet Shield](/osh/w5500_ethernet_shield/start)**
   - [ioShield-A](/osh/ioshield-a/start) for Arduino
