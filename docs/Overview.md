@@ -15,7 +15,7 @@ registered account would receive our appreciations.
 
 **Most of the materials of Open Source Hardware are hosted on the
 [WIZnet GitHub site](https://github.com/Wiznet)**
-![](/products/w5500/w5500_evb/icons/github.png)
+:earth_asia:
 
 -----
 
@@ -23,7 +23,7 @@ You may find following indexes to start with:
 
 -----
 
-\<WRAP group\> \<WRAP half column\>
+
 
 ### Products
 
@@ -31,18 +31,15 @@ You may find following indexes to start with:
 including datasheets, source files, application notes and related
 application info.
 
-  - **[WIZwiki-W7500](/products/wizwiki_w7500/start)**
-    ![](/etc/star.png)
+  - **[WIZwiki-W7500]
   - **[WIZwiki-W7500P](/products/wizwiki_w7500p/start)**
-    ![](/etc/star.png)
   - [WIZwiki-W7500ECO](/products/wizwiki-w7500eco/start)
   - [WIZwiki-W7500 mbed Starter Kit](/products/wizwiki_mbed_kit/start)
   - [W7500](/products/w7500/start)
   - [W7500P](/products/w7500p/start)
   - **[W6100](/products/w6100/start): Hardwired TCP/IP Chip(IPv4/6 Dual
-    Stack)** ![](/etc/star.png) 
+    Stack)** 
   - **[W5100S](/products/w5100s/start): Hardwired TCP/IP Chip**
-    ![](/etc/star.png) 
   - [W5500](/products/w5500/start): Hardwired TCP/IP Chip
   - [W5500-EVB](/products/w5500/w5500_evb/start): W5500 Evaluation Board
   - [WIZ550io](/products/wiz550io/start): Plug-in Network Module 
@@ -50,11 +47,8 @@ application info.
   - [WIZ550web](/products/wiz550web/start): Embedded Web Server
   - [WizFi250](/products/WizFi250/start): Wi-Fi Module
   - **[WizFi360](/products/WizFi360/start): Wi-Fi Module(Release
-    1/8/19)** ![](/etc/star.png)
+    1/8/19)**
 
-\</WRAP\>
-
-\<WRAP half column\>
 
 ### Open Source Hardware
 
@@ -62,7 +56,6 @@ application info.
 open source hardware products.
 
   - **[W5500 Ethernet Shield](/osh/w5500_ethernet_shield/start)**
-    ![](/etc/star.png)
   - [ioShield-A](/osh/ioshield-a/start) for Arduino
   - [ioShield-K](/osh/ioshield-k/start) for Gadget Renesas KURUMI
   - [ioShield-L](/osh/ioshield-l/start) for TI’s MSP430 LaunchPad
@@ -70,9 +63,7 @@ open source hardware products.
   - [EnergyMicro](/osh/energymicro/start)
   - [WIZnet Eagle CAD Library](/design_guide/hardware/eaglecadlib/start)
 
-\</WRAP\> \</WRAP\>
 
-\<WRAP group\> \<WRAP half column\>
 
 ### VAR Products
 
@@ -81,17 +72,13 @@ open source hardware products.
   - [WiFi Shield](/oshw_using_wiznet/wifi)
   - [Third-party](/oshw_using_wiznet/var_products)
 
-\</WRAP\>
 
-\<WRAP half column\>
 
 ### Application References
 
   - [BLE to Ethernet](/oshw_using_wiznet/bletoethernet)
 
-\</WRAP\> \</WRAP\>
 
-\<WRAP group\> \<WRAP half column\>
 
 ### External Links
 
