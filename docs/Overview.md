@@ -4,10 +4,6 @@ title: Overview
 date: 2020-03-
 ---
 
-
-## Content
-# WIZnet Document Wiki
-
 This site is an open information collection platform hosting information
 on [WIZnet products](products) and [Open Source Hardware](osh) works.
 Please feel free to improve the contents, contributions from the
