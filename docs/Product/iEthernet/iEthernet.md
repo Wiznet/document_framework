@@ -18,7 +18,7 @@ Core & MAC (\&PHY).
 
 ## Product Family
 
-  - [W6100](/docs/Product/iEthernet/W6100/W6100.md): IPv4/IPv6,Hardwired TCP/IP w/ 802.3
+  - [W6100](./W6100/W6100.md): IPv4/IPv6,Hardwired TCP/IP w/ 802.3
     Ethernet MAC and PHY, 8-sockets, Fast SPI/BUS
   - [W5100S](/products/w5100s/start): Hardwired TCP/IP w/ 802.3 Ethernet
     MAC and PHY, 4-sockets, Fast SPI/BUS
