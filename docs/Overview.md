@@ -30,8 +30,7 @@ You may find following indexes to start with:
 [Products Home](products) - A collection of product information
 including datasheets, source files, application notes and related
 application info.
-
-  - **[WIZwiki-W7500]
+  - **[WIZwiki-W7500]**
   - **[WIZwiki-W7500P](/products/wizwiki_w7500p/start)**
   - [WIZwiki-W7500ECO](/products/wizwiki-w7500eco/start)
   - [WIZwiki-W7500 mbed Starter Kit](/products/wizwiki_mbed_kit/start)
@@ -52,9 +51,8 @@ application info.
 
 ### Open Source Hardware
 
-[Open Source Hardware Home](osh) - Materials and information on WIZnet
-open source hardware products.
-
+  -[Open Source Hardware Home](osh) - Materials and information on WIZnet
+    open source hardware products.
   - **[W5500 Ethernet Shield](/osh/w5500_ethernet_shield/start)**
   - [ioShield-A](/osh/ioshield-a/start) for Arduino
   - [ioShield-K](/osh/ioshield-k/start) for Gadget Renesas KURUMI
@@ -84,4 +82,4 @@ open source hardware products.
 
   - [WIZnet Official Website](http://www.wiznet.io/)
   - [WIZnet Developer Forum](http://forum.wiznet.io/)
-  - \[\[<http://wiznetm>
+  - [[<http://wiznetm>
