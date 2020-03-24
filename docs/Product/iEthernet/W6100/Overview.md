@@ -9,7 +9,7 @@ date: 2020-03-
 
 ## Overview
 
-![](/products/w6100/w6100_4.jpg) \<markdown\> --- \</markdown\>
+![](/products/w6100/w6100_4.jpg)
 **Hardwired Dual TCP/IP Stack Controller**
 
 W6100 is a hardwired Internet controller chip supporting IPv4/IPv6 dual
