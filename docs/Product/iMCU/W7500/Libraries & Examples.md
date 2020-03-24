@@ -6,3 +6,57 @@ date: 2020-03-
 
 
 ## Content
+ \#Library and Peripheral Example
+
+\#\#Overview The W7500 provides the CMSIS, driver and Peripheral
+Example. The W7500 Standard Peripherals library provides a rich set of
+examples covering the main features of each peripheral. All the examples
+are independent from the WIZwiki-W7500 platform. Only source files are
+provided for each example and user can tailor the provided project
+template to run the selected example with his preferred tool chain.
+
+1.  Directory Structure
+
+\!\[Fig.directory\_structure\](<http://wizwiki.net/wiki/lib/exe/fetch.php?media=products:w7500:libsturcture.png>}})
+
+1.  ioLibrary
+    1.  Application
+        1.  loopback
+    2.  Ethernet
+    3.  Internet
+        1.  DHCP
+        2.  DNS
+        3.  httpServer
+    4.  MDIO
+2.  Libraries
+    1.  CMSIS :CMSIS Library
+    2.  W7500x\_stdPeriph\_Driver
+
+<!-- end list -->
+
+``` 
+      - Each peripheral has a source code file W7500x_XXX.c and a header file W7500x_XXX.h. 
+                The W7500x_XXX.c file contains all the firmware functions required to use the XXX peripheral.
+      - A single memory mapping file, W7500x.h, is supplied for all peripherals. 
+                It contains all the register declarations and bit definition. 
+                This is the only file that needs to be included in the user application to interface with the library.
+- Projects
+  - peripheral_Examples
+    - The W7500 standard Peripherals library provides a rich set of examples covering the main features of each peripheral. 
+- Utilities
+  - w7500_flash_algo_mdk
+    - The W7500 standard library provides W7500 128KB flash algorithm project to debug WIZwiki-W7500 with using ULINK debugger and CMSIS-DAP debugger.
+```
+
+\#\#Download
+
+**Library GitHub Repository**
+
+Release Version
+
+\- \[W7500x Github Latest Release
+Version\](<https://github.com/Wiznet/W7500x_StdPeriph_Lib>)
+
+\#\#Peripheral description and examples -
+\[Peripherals\](<http://wizwiki.net/wiki/doku.php?id=products:w7500:peripherals>)
+
