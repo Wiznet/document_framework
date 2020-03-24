@@ -6,7 +6,7 @@ date: 2020-03-
 
 
 ## Content
-\<markdown\> \#System and Memory overview \#\# System architecture Main
+ \#System and Memory overview \#\# System architecture Main
 system consists of:
 
   - Two masters:
@@ -56,4 +56,4 @@ Main purposes of the system configuration controller are the following
   - The ability to enable an automatic reset if the system locks up
   - Information about the cause of the last reset
 
-\</markdown\>
+\
