@@ -2,7 +2,7 @@ module.exports = {
   title: 'My Site',
   tagline: 'The tagline of my site',
   url: 'https://Wiznet.github.io',
-  baseUrl: '/',
+  baseUrl: '/document_framework/',
   favicon: 'img/favicon.ico',
   organizationName: 'Wiznet', // Usually your GitHub org/user name.
   projectName: 'document_framework', // Usually your repo name.
