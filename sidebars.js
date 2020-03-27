@@ -7,13 +7,7 @@
 
 module.exports = {
   someSidebar: {
-    Link_TEST: [
-	{
-    type: 'link',
-    label: 'link_test', // string - the label that should be displayed.
-    href: 'https://example.com' // string - the target URL.
-	}
-	],
+	'WIZnet Document Wiki': ['introduction'],
     Products: [
 	'Product/products',
 	{
@@ -55,6 +49,11 @@ module.exports = {
 		'Product/iMCU/W7500P/libraries_examples',
 		'Product/iMCU/W7500P/all_pages'
 		],
+		},
+		{
+			type: 'link',
+			label: 'W7100A(Link)', // string - the label that should be displayed.
+			href: 'http://www.wiznet.io/product-item/w7100a/' // string - the target URL.
 		}
 		],
     },
@@ -147,6 +146,21 @@ module.exports = {
 		],
 		}
 		],
+		},
+		{
+			type: 'link',
+			label: 'W5300(Link)', // string - the label that should be displayed.
+			href: 'http://www.wiznet.io/product-item/w5300/' // string - the target URL.
+		},
+		{
+			type: 'link',
+			label: 'W5100(Link)', // string - the label that should be displayed.
+			href: 'https://www.wiznet.io/product-item/w5100/' // string - the target URL.
+		},
+		{
+			type: 'link',
+			label: 'W3150A+(Link)', // string - the label that should be displayed.
+			href: 'https://www.wiznet.io/product-item/w3150a+/' // string - the target URL.
 		}
 		],
     },
@@ -326,6 +340,51 @@ module.exports = {
 		'Product/S2E Module/WIZ550S2E/tutorial_eng',
 		'Product/S2E Module/WIZ550S2E/download'
 		],
+		},
+		{
+			type: 'link',
+			label: 'WIZ107SR(Link)', // string - the label that should be displayed.
+			href: 'https://www.wiznet.io/product-item/wiz107sr/' // string - the target URL.
+		},
+		{
+			type: 'link',
+			label: 'WIZ108SR(Link)', // string - the label that should be displayed.
+			href: 'https://www.wiznet.io/product-item/wiz108sr/' // string - the target URL.
+		},
+		{
+			type: 'link',
+			label: 'WIZ100SR(Link)', // string - the label that should be displayed.
+			href: 'http://www.wiznet.io/product-item/wiz100sr/' // string - the target URL.
+		},
+		{
+			type: 'link',
+			label: 'WIZ105SR(Link)', // string - the label that should be displayed.
+			href: 'https://www.wiznet.io/product-item/wiz105sr/' // string - the target URL.
+		},
+		{
+			type: 'link',
+			label: 'WIZ110SR(Link)', // string - the label that should be displayed.
+			href: 'https://www.wiznet.io/product-item/wiz110sr/' // string - the target URL.
+		},
+		{
+			type: 'link',
+			label: 'WIZ120SR(Link)', // string - the label that should be displayed.
+			href: 'http://www.wiznet.io/product-item/wiz120sr/' // string - the target URL.
+		},
+		{
+			type: 'link',
+			label: 'WIZ125SR(Link)', // string - the label that should be displayed.
+			href: 'https://www.wiznet.io/product-item/wiz125sr/' // string - the target URL.
+		},
+		{
+			type: 'link',
+			label: 'WIZ140SR(Link)', // string - the label that should be displayed.
+			href: 'https://www.wiznet.io/product-item/wiz140sr/' // string - the target URL.
+		},
+		{
+			type: 'link',
+			label: 'WIZ145SR(Link)', // string - the label that should be displayed.
+			href: 'https://www.wiznet.io/product-item/wiz145sr/' // string - the target URL.
 		}
 		],
     },
@@ -383,6 +442,36 @@ module.exports = {
 		'Product/ioModule/WIZ550io/related_products',
 		'Product/ioModule/WIZ550io/all_pages'
 		],
+		},
+		{
+			type: 'link',
+			label: 'WIZ820io(Link)', // string - the label that should be displayed.
+			href: 'http://www.wiznet.io/product-item/wiz820io/' // string - the target URL.
+		},
+		{
+			type: 'link',
+			label: 'WIZ810MJ(Link)', // string - the label that should be displayed.
+			href: 'https://www.wiznet.io/product-item/wiz810mj/' // string - the target URL.
+		},
+		{
+			type: 'link',
+			label: 'WIZ811MJ(Link)', // string - the label that should be displayed.
+			href: 'https://www.wiznet.io/product-item/wiz811mj/' // string - the target URL.
+		},
+		{
+			type: 'link',
+			label: 'WIZ812MJ(Link)', // string - the label that should be displayed.
+			href: 'http://www.wiznet.io/product-item/wiz812mj/' // string - the target URL.
+		},
+		{
+			type: 'link',
+			label: 'WIZ830MJ(Link)', // string - the label that should be displayed.
+			href: 'https://www.wiznet.io/product-item/wiz830mj/' // string - the target URL.
+		},
+		{
+			type: 'link',
+			label: 'NM7010B+(Link)', // string - the label that should be displayed.
+			href: 'https://www.wiznet.io/product-item/nm7010b+/' // string - the target URL.
 		}
 		],
     },
@@ -423,6 +512,11 @@ module.exports = {
 		'Product/Wi-Fi Module/WizFi360/wizfi360',
 		'Product/Wi-Fi Module/WizFi360/documents',
 		'Product/Wi-Fi Module/WizFi360/application_examples',
+		{
+			type: 'link',
+			label: 'AT-Command Firmware release(Link)', // string - the label that should be displayed.
+			href: 'https://github.com/wizfi/Release/tree/master/Binary' // string - the target URL.
+		},
 		'Product/Wi-Fi Module/WizFi360/wizfi360_evb_shield',
 		'Product/Wi-Fi Module/WizFi360/wizfi360_evb_mini',
 		'Product/Wi-Fi Module/WizFi360/wizfi360io',
