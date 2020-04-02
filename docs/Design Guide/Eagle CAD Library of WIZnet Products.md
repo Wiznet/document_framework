@@ -6,7 +6,7 @@ date: 2020-03-
 
 
 ## Content
-/document_framework/img/design_guide/mii.jpg
+
 # WIZnet Eagle CAD Library
 
 -----
