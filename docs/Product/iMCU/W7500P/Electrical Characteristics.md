@@ -7,16 +7,6 @@ date: 2020-03-
 
 ## Content
 
-<head>
-    <meta charset="utf-8">
-    <title>MathJax</title>
-    <script type="text/x-mathjax-config">
-      MathJax.Hub.Config({
-        tex2jax: {inlineMath: [['$','$'], ['\(','\)']]}
-      });
-    </script>
-    <script src="http://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML"></script>
-  </head>
 # Electrical Characteristics
 
 ## Absolute maximum ratings
@@ -25,13 +15,6 @@ These are stress ratings only and functional operation of the device at these co
 
 ### Voltage Characteristics
 
-<style type="text/css">
-.tg  {border-collapse:collapse;border-spacing:0;border-color:#ccc;}
-.tg td{font-family:Arial, sans-serif;font-size:14px;padding:10px 5px;border-style:solid;border-width:1px;overflow:hidden;word-break:normal;border-color:#ccc;color:#333;background-color:#fff;}
-.tg th{font-family:Arial, sans-serif;font-size:14px;font-weight:normal;padding:10px 5px;border-style:solid;border-width:1px;overflow:hidden;word-break:normal;border-color:#ccc;color:#333;background-color:#f0f0f0;}
-.tg .tg-s6z2{text-align:center}
-.tg .tg-huh2{font-size:14px;text-align:center;border-color:#ccc;color:#333;background-color:#fff}
-</style>
 <table class="tg">
   <tr>
     <th class="tg-huh2">Symbol</th>
@@ -127,13 +110,6 @@ These are stress ratings only and functional operation of the device at these co
 
 ###Thermal Characteristics
 
-<style type="text/css">
-.tg  {border-collapse:collapse;border-spacing:0;border-color:#ccc;}
-.tg td{font-family:Arial, sans-serif;font-size:14px;padding:10px 5px;border-style:solid;border-width:1px;overflow:hidden;word-break:normal;border-color:#ccc;color:#333;background-color:#fff;}
-.tg th{font-family:Arial, sans-serif;font-size:14px;font-weight:normal;padding:10px 5px;border-style:solid;border-width:1px;overflow:hidden;word-break:normal;border-color:#ccc;color:#333;background-color:#f0f0f0;}
-.tg .tg-s6z2{text-align:center}
-.tg .tg-huh2{font-size:14px;text-align:center}
-</style>
 <table class="tg">
   <tr>
     <th class="tg-huh2">Symbol</th>
@@ -162,13 +138,6 @@ These are stress ratings only and functional operation of the device at these co
 
 ### General Operating Conditions
 
-<style type="text/css">
-.tg  {border-collapse:collapse;border-spacing:0;border-color:#ccc;}
-.tg td{font-family:Arial, sans-serif;font-size:14px;padding:10px 5px;border-style:solid;border-width:1px;overflow:hidden;word-break:normal;border-color:#ccc;color:#333;background-color:#fff;}
-.tg th{font-family:Arial, sans-serif;font-size:14px;font-weight:normal;padding:10px 5px;border-style:solid;border-width:1px;overflow:hidden;word-break:normal;border-color:#ccc;color:#333;background-color:#f0f0f0;}
-.tg .tg-s6z2{text-align:center}
-.tg .tg-huh2{font-size:14px;text-align:center}
-</style>
 <table class="tg">
   <tr>
     <th class="tg-huh2">Symbol</th>
@@ -224,13 +193,6 @@ These are stress ratings only and functional operation of the device at these co
 
 #### Normal operation
 
-<style type="text/css">
-.tg  {border-collapse:collapse;border-spacing:0;border-color:#ccc;}
-.tg td{font-family:Arial, sans-serif;font-size:14px;padding:10px 5px;border-style:solid;border-width:1px;overflow:hidden;word-break:normal;border-color:#ccc;color:#333;background-color:#fff;}
-.tg th{font-family:Arial, sans-serif;font-size:14px;font-weight:normal;padding:10px 5px;border-style:solid;border-width:1px;overflow:hidden;word-break:normal;border-color:#ccc;color:#333;background-color:#f0f0f0;}
-.tg .tg-s6z2{vertical-align:middle; text-align:center}
-.tg .tg-huh2{font-size:14px;text-align:center}
-</style>
 <table class="tg">
   <tr>
     <th class="tg-huh2">Symbol</th>
@@ -262,13 +224,6 @@ These are stress ratings only and functional operation of the device at these co
 
 #### Sleep mode
 
-<style type="text/css">
-.tg  {border-collapse:collapse;border-spacing:0;border-color:#ccc;}
-.tg td{font-family:Arial, sans-serif;font-size:14px;padding:10px 5px;border-style:solid;border-width:1px;overflow:hidden;word-break:normal;border-color:#ccc;color:#333;background-color:#fff;}
-.tg th{font-family:Arial, sans-serif;font-size:14px;font-weight:normal;padding:10px 5px;border-style:solid;border-width:1px;overflow:hidden;word-break:normal;border-color:#ccc;color:#333;background-color:#f0f0f0;}
-.tg .tg-s6z2{vertical-align:middle; text-align:center}
-.tg .tg-huh2{font-size:14px;text-align:center}
-</style>
 <table class="tg">
   <tr>
     <th class="tg-huh2">Symbol<br>  </th>
@@ -300,13 +255,7 @@ These are stress ratings only and functional operation of the device at these co
 
 #### Deep sleep mode
 
-<style type="text/css">
-.tg  {border-collapse:collapse;border-spacing:0;border-color:#ccc;}
-.tg td{font-family:Arial, sans-serif;font-size:14px;padding:10px 5px;border-style:solid;border-width:1px;overflow:hidden;word-break:normal;border-color:#ccc;color:#333;background-color:#fff;}
-.tg th{font-family:Arial, sans-serif;font-size:14px;font-weight:normal;padding:10px 5px;border-style:solid;border-width:1px;overflow:hidden;word-break:normal;border-color:#ccc;color:#333;background-color:#f0f0f0;}
-.tg .tg-s6z2{vertical-align:middle; text-align:center}
-.tg .tg-huh2{font-size:14px;text-align:center}
-</style>
+
 <table class="tg">
   <tr>
     <th class="tg-huh2">Symbol<br>  </th>
@@ -330,13 +279,6 @@ These are stress ratings only and functional operation of the device at these co
 
 ### DC Specification
 
-<style type="text/css">
-.tg  {border-collapse:collapse;border-spacing:0;border-color:#ccc;}
-.tg td{font-family:Arial, sans-serif;font-size:14px;padding:10px 5px;border-style:solid;border-width:1px;overflow:hidden;word-break:normal;border-color:#ccc;color:#333;background-color:#fff;}
-.tg th{font-family:Arial, sans-serif;font-size:14px;font-weight:normal;padding:10px 5px;border-style:solid;border-width:1px;overflow:hidden;word-break:normal;border-color:#ccc;color:#333;background-color:#f0f0f0;}
-.tg .tg-s6z2{vertical-align:middle; text-align:center}
-.tg .tg-huh2{font-size:14px;text-align:center}
-</style>
 <table class="tg">
   <tr>
     <th class="tg-huh2">Symbol<br>  </th>
@@ -512,13 +454,7 @@ These are stress ratings only and functional operation of the device at these co
 
 ### ADC Electrical characteristics
 
-<style type="text/css">
-.tg  {border-collapse:collapse;border-spacing:0;border-color:#ccc;}
-.tg td{font-family:Arial, sans-serif;font-size:14px;padding:10px 5px;border-style:solid;border-width:1px;overflow:hidden;word-break:normal;border-color:#ccc;color:#333;background-color:#fff;}
-.tg th{font-family:Arial, sans-serif;font-size:14px;font-weight:normal;padding:10px 5px;border-style:solid;border-width:1px;overflow:hidden;word-break:normal;border-color:#ccc;color:#333;background-color:#f0f0f0;}
-.tg .tg-s6z2{text-align:center}
-.tg .tg-huh2{font-size:14px;text-align:center}
-</style>
+
 <table class="tg">
   <tr>
     <th class="tg-huh2">Symbol<br>  </th>
@@ -654,14 +590,6 @@ These are stress ratings only and functional operation of the device at these co
 
 ## I2C interface Characteristics
 
-<style type="text/css">
-.tg  {border-collapse:collapse;border-spacing:0;border-color:#ccc;}
-.tg td{font-family:Arial, sans-serif;font-size:14px;padding:10px 5px;border-style:solid;border-width:1px;overflow:hidden;word-break:normal;border-color:#ccc;color:#333;background-color:#fff;}
-.tg th{font-family:Arial, sans-serif;font-size:14px;font-weight:normal;padding:10px 5px;border-style:solid;border-width:1px;overflow:hidden;word-break:normal;border-color:#ccc;color:#333;background-color:#f0f0f0;}
-.tg .tg-s6z2{text-align:center}
-.tg .tg-031e{vertical-align:middle; text-align:center}
-.tg .tg-huh2{vertical-align:middle; font-size:14px;text-align:center}
-</style>
 <table class="tg">
   <tr>
     <th class="tg-huh2" rowspan="2">Symbol</th>
@@ -790,13 +718,6 @@ These are stress ratings only and functional operation of the device at these co
 
 ## SSP Interface Characteristics
 
-<style type="text/css">
-.tg  {border-collapse:collapse;border-spacing:0;border-color:#ccc;}
-.tg td{font-family:Arial, sans-serif;font-size:14px;padding:10px 5px;border-style:solid;border-width:1px;overflow:hidden;word-break:normal;border-color:#ccc;color:#333;background-color:#fff;}
-.tg th{font-family:Arial, sans-serif;font-size:14px;font-weight:normal;padding:10px 5px;border-style:solid;border-width:1px;overflow:hidden;word-break:normal;border-color:#ccc;color:#333;background-color:#f0f0f0;}
-.tg .tg-s6z2{text-align:center}
-.tg .tg-huh2{font-size:14px;text-align:center}
-</style>
 <table class="tg">
   <tr>
     <th class="tg-huh2">Symbol</th>
