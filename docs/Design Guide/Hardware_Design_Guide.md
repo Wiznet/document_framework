@@ -23,7 +23,7 @@ performance.
 -----
 ## MDI signal Schematic
 
-![MDI signal Schematic](img/design_guide/schematic.png)  
+![MDI signal Schematic](/document_framework/img/design_guide/schematic.jpg)  
   * The above circuit is the most used for Ethernet implementation.
 
   - W5100, W5300, W7100 should be configured as shown above.
