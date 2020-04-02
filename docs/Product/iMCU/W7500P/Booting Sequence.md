@@ -11,13 +11,6 @@ date: 2020-03-
 
 W7500P has three different boot modes that can be selected through the BOOT pin and TEST pin.
 
-<style type="text/css">
-.tg  {border-collapse:collapse;border-spacing:0;}
-.tg td{font-family:Arial, sans-serif;font-size:14px;padding:10px 5px;border-style:solid;border-width:1px;overflow:hidden;word-break:normal;}
-.tg th{font-family:Arial, sans-serif;font-size:14px;font-weight:normal;padding:10px 5px;border-style:solid;border-width:1px;overflow:hidden;word-break:normal;}
-.tg .tg-s6z2{text-align:center; vertical-align:middle}
-.tg .tg-huh2{font-size:14px;text-align:center; vertical-align:middle}
-</style>
 <table class="tg">
   <tr>
     <th class="tg-huh2" colspan="2">Mode Selection</th>
