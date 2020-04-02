@@ -123,7 +123,7 @@ performance.
 -----
 ## MII routing (Only W7500)
 
-![MII routing](/img/design_guide/mii.png)
+![MII routing](/img/design_guide/spi_timing.jpg)
 
   - MII (Media Independent Interface) connects to the PHY MAC (Media
     Access Controller).
