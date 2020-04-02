@@ -7,7 +7,7 @@ date: 2020-03-
 
 ## Content
 
-#System and Memory overview
+# System and Memory overview
 ## System architecture
 Main system consists of:
 
@@ -40,11 +40,11 @@ Two APB BUSs
 Program memory, data memory, registers and I/O ports are organized within the same linear 4-Gbyte address space.
 The bytes are coded in memory in Little Endian format. The lowest numbered byte in a word is considered the word’s least significant byte and the highest numbered byte the most significant.
 
-###Memory map
+### Memory map
 
 ![w7500_memory_map](w7500_memory_map.png "Figure 2 W7500 Memory map")
 
-##System Configuration Controller (SYSCFG)
+## System Configuration Controller (SYSCFG)
 
 Main purposes of the system configuration controller are the following
 
