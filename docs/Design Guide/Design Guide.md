@@ -23,7 +23,7 @@ performance.
 -----
 ## MDI signal Schematic
 
-![MDI signal Schematic](/design_guide/hardware/schematic.png)  
+![MDI signal Schematic](img/design_guide/schematic.png)  
   * The above circuit is the most used for Ethernet implementation.
 
   - W5100, W5300, W7100 should be configured as shown above.
@@ -42,7 +42,7 @@ performance.
 -----
 ## Parts Placement
 
-![Parts Placement](/design_guide/hardware/placement.png)  
+![Parts Placement](img/design_guide/placement.png)  
   * Place A and B parts as close as possible to the Transformer.
 
   - If you are using a RJ-45 Connector which is separated from the
@@ -90,7 +90,7 @@ performance.
 
 ## MDI routing
 
-![MDI routing](/design_guide/hardware/trace_2.png)  
+![MDI routing](img/design_guide/trace_2.png)  
 
 -----
 
@@ -123,7 +123,7 @@ performance.
 -----
 ## MII routing (Only W7500)
 
-![MII routing](/design_guide/hardware/mii.png)  
+![MII routing](img/design_guide/ii.png)  
 
   - MII (Media Independent Interface) connects to the PHY MAC (Media
     Access Controller).
