@@ -8,7 +8,7 @@ date: 2020-03-
 ## Content
 # Power supply
 
-##Introduction
+## Introduction
 
 W7500 embeds a voltage regulator in order to supply the internal 1.5V digital power domain.
 
