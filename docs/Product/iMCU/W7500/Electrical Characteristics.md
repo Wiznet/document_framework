@@ -7,18 +7,6 @@ date: 2020-03-
 
 ## Content
 
-
-   <head>
-      <meta charset="utf-8">
-      <title>MathJax</title>
-      <script type="text/x-mathjax-config">
-        MathJax.Hub.Config({
-          tex2jax: {inlineMath: [['$','$'], ['\(','\)']]}
-        });
-      </script>
-      <script src="http://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML"></script>
-    </head>
-
 # Electrical Characteristics
 
 ## Absolute maximum ratings
