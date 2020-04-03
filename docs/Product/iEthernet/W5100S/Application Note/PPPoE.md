@@ -22,11 +22,8 @@ Communication by Telephone Line, it is used widely.
 
 -----
 
-- MCU : - Used program:
-
-``` 
-  -
-```
+- MCU :
+- Used program:-
 
 ## Application note
 
