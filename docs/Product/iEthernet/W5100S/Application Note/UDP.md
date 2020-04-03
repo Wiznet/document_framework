@@ -274,7 +274,58 @@ Interrupt Register(IR), Interrupt Mask Register (IMR) and Socket n Interrupt Reg
 */
 }
 ```
+#### Check Finished / SOCKET close
 
+If user doesn’t need the communication any more, close the SOCKET n.
 
+``` c
+{
+/* clear remained interrupts */
+Sn_IR = 0x00FF;
+IR(n) = ‘1’;
+/* set CLOSE command */
+Sn_CR = CLOSE;
+}
+```
 
+### Multicast
 
+The broadcast communication communicates with many and unspecified
+others. But the multicast communication communicates with many specified
+others who registered at a multicast-group. Suppose that A, B, and C are
+registered at a specified multicast-group. If user transmits data to
+multicast-group (contains A), B and C also receive the DATA for A. To
+use multicast communication, the destination list registers to
+multicast-group by using IGMP protocol. The multicast-group consists of
+‘Group hardware address,’ ‘Group IP address,’ and ‘Group port number.’
+User cannot change the ‘Group hardware address’ and ‘Group IP address.’
+But the ‘Group port number’ can be changed.  
+The ‘Group hardware address’ is selected at the assigned range (From
+“01:00:5e:00:00:00”to “01:00:5e:7f:ff:ff”) and the ‘Group IP address’
+is selected in D-class IP address (From “224.0.0.0” to
+“239.255.255.255”, please refer to the website;
+<http://www.iana.org/assignments/multicast-addresses>).  
+When selecting, the upper 23bits of 6bytes ‘Group hardware address’ and
+the 4bytes ‘Group IP address’ must be the same. For example, if the user
+selects the ‘Group IP address’ to “244.1.1.11,” the ‘Group hardware
+address’ is selected to “01:00:5e:01:01:0b.” Please refer to the
+“RFC1112” (<http://www.ietf.org/rfc.html>).  
+In the W5100S, IGMP processing to register the multicast-group is
+internally (automatically) processed. When the user opens the SOCKET n
+with multicast mode, the “Join” message is internally transmitted. If
+the user closes it, the “Leave” message is internally transmitted. After
+the SOCKET opens, the “Report” message is periodically and internally
+transmitted when the user communicates.  
+The W5100S support IGMP version 1 and version 2 only. If user wants use
+an updated version, the host processes IGMP directly by using the IPRAW
+mode SOCKET.
+
+##### SOCKET Initialization
+
+Choose one SOCKET for multicast communication among 4 SOCKETs of W5100S.
+Set the Sn\_DHAR0 to ‘Multicast-group hardware address’ and set the
+Sn\_DIPR0 to ‘Multicastgroup IP address.’ Then set the Sn\_PORT0 and
+Sn\_DPORT0 to ‘Multicast-group port number.’ Set the Sn\_MR(P3:P0) to
+UDP and set the Sn\_MR(MULTI) to ‘1.’ Finally, execute OPEN command. If
+the state of Sn\_SR is changed to SOCK\_UDP after the OPEN command, the
+SOCKET initialization is completed.
