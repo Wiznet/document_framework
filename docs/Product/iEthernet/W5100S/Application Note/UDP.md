@@ -105,5 +105,112 @@ address. At this time, there is no need to get the destination hardware
 address about destination A, B and C, and also ARP<sub>TO</sub>is not
 occurred.
 
+##### Note: Broadcast IP
+
+\=\> The Broadcast IP address can be obtained by performing a bit-wise
+logical OR operation between the bit complement of the subnet mask and
+the host’s IP address.  
+ex\> If IP:”222.98.173.123” and the subnet mask:“255.255.255.0”,
+broadcast IP is “222.98.173.255”
+
+| Description                | Decimal         | Binary                              |
+| -------------------------- | --------------- | ----------------------------------- |
+| HOST IP                    | 222.098.173.123 | 11011110.01100010.10101101.01111011 |
+| Bit Complement Subnet mask | 000.000.000.255 | 00000000.00000000.00000000.11111111 |
+| Bitwise OR                 | \-              | \-                                  |
+| Broadcast IP               | 222.098.173.255 | 11011110.01100010.10101101.11111111 |
+
+##### SOCKET Initialization
+
+For the UDP data communication, SOCKET initialization is required; it
+opens the SOCKET. The SOCKET open process is as followed. At first,
+choose one SOCKET among the 4 SOCKETS of W5100S, then set the protocol
+mode (Sn\_MR(P3:P0)) of the chosen SOCKET and set the source port number
+Sn\_PORT0 for communication. Finally, execute the OPEN command. After
+the OPEN command, the state of Sn\_SR is changed to SOCK\_UDP. Then the
+SOCKET initialization is complete.
+
+``` c
+{
+START:
+Sn_MR = 0x02; /* sets UDP mode */
+Sn_PORT0 = source_port; /* sets source port number */
+Sn_CR = OPEN; /* sets OPEN command */
+/* wait until Sn_SR is changed to SOCK_UDP */
+if (Sn_SR != SOCK_UDP) Sn_CR = CLOSE; goto START;
+}
+```
+
+##### Check received data
+
+Check the reception of UDP data from destination. User can also check
+for received data via TCP communication. It is strongly recommended to
+use the second method because of the same reasoning from TCP. Please
+refer to the “TCP SERVER” section. [TCP
+SERVER](http://wizwiki.net/wiki/doku.php?id=products:W5100S:application:tcp_function)
+
+``` c
+First method :
+{
+if (Sn_IR(RECV) == ‘1’) Sn_IR(RECV) = ‘1’; goto Receiving Process stage;
+/* In this case, if the interrupt of Socket n is activated, interrupt occurs. Refer to IR, IMR
+Sn_IMR and Sn_IR. */
+}
+Second Method :
+{
+if (Sn_RX_RSR0 != 0x0000) goto Receiving Process stage;
+}
+```
+##### Receiving process
+
+Process the received UDP data in Internal RX memory.  
+The structure of received UDP data is as below.
+
+![The Received UDP data
+format](/products/w5500/application/received_udp_data.jpg)
+
+The received UDP data consists of 8bytes PACKET-INFO, and DATA packet.
+The PACKET-INFO contains transmitter’s information (IP address, Port
+number) and the length of DATA packet. The UDP can receive UDP data from
+many others. User can classify the transmitter by transmitter’s
+information of PACKET-INFO. It also receives broadcast SOCKET by using
+“255.255.255.255” IP address. So the host should ignore unwanted
+reception by analysis of transmitter’s information. If the DATA size of
+SOCKET n is larger than Internal RX memory free size, user cannot
+receive that DATA and also cannot receive fragmented DATA.
+
+``` c
+{
+/* Get offset address */
+src_ptr = Sn_RX_RD;
+/* select RX memory, refer to RMSR(Rx Memory Size Register) */
+cntl_byte = Socket_n_RX_Buffer 
+/* read head information (8 bytes) */
+header_size = 8;
+/* copy header_size bytes of get_start_address to header_address */
+for(i=0; i<header_size; i++)
+{
+  header[i] = W5100S_READ(src_ptr, header);
+}
+/* update src_ptr */
+src_ptr += header_size;
+
+/* save remote peer information & received data size */
+peer_ip = header[0 to 3];
+peer_port = header[4 to 5];
+get_size = header[6 to 7];
+
+/* copy len bytes of src_ptr to destination_address */
+for(i=0; i<get_size; i++)
+{
+  *(dst_ptr+i) = W5100S_READ(addr, cntl_byte, src_ptr+1);
+}
+/* increase Sn_RX_RD as length of len+ header_size */
+Sn_RX_RD += get_size;
+/* set RECV command */
+Sn_CR = RECV;
+}
+```
+
 
 
