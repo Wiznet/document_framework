@@ -367,3 +367,55 @@ Since the user sets the information about multicast-group at SOCKET
 initialization, user does not need to set IP address and port number for
 destination any more. Therefore, copy the transmission data to internal
 TX memory and executes SEND command.
+
+``` c
+{
+/* first, get the free TX memory size */
+FREESIZE:
+freesize = Sn_TX_FSR;
+if (freesize<len) goto FREESIZE; // len is send size
+/* calculate offset address */
+dst_mask = Sn_TX_WR0 &gSn_TX_MASK; // dst_mask is offset address
+/* calculate start address(physical address) */
+dst_ptr = gSn_TX_BASE + dst_mask; // dst_ptr is physical start address
+/* if overflow SOCKETTX memory */
+if ( (dst_mask + len) > (gSn_TX_MASK + 1) )
+{
+/* copy upper_size bytes of source_addr to destination_address */
+upper_size = (gSn_TX_MASK + 1) ? dst_mask;
+memcpy((0x0000 + source_addr), (0x0000 + dst_ptr), upper_size);
+/* update source_addr*/
+source_addr += upper_size;
+/* copy left_size bytes of source_addr to gSn_TX_BASE */
+left_size = len ? upper_size;
+memcpy( source_addr, gSn_TX_BASE, left_size);
+}
+else
+{
+/* copy len bytes of source_addr to dst_ptr */
+memcpy( source_addr, dst_ptr, len);
+}
+/* increase Sn_TX_WR as length of len */
+Sn_TX_WR0 += send_size;
+/* set SEND command */
+Sn_CR = SEND;
+}
+```
+
+##### Check complete sending / Timeout
+
+Since the host manages all protocol process for data communication,
+timeout cannot occur.
+
+``` c
+{
+/* check SEND command completion */
+while(S0_IR(SENDOK)==‘0’); /* wait interrupt of SEND completion */
+S0_IR(SENDOK) = ‘1’; /* clear previous interrupt of SEND completion */
+}
+```
+
+##### Check finished / SOCKET close
+
+Refer to the “Unicast & Broadcast.” section. [Unicast &
+Broadcast](http://wizwiki.net/wiki/doku.php?id=products:w5100s:application:udp_function#unicast_and_broadcast)
