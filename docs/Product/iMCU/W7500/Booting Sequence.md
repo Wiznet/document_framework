@@ -14,7 +14,7 @@ BOOT pin and TEST pin.
 
 <table class="tg">
 
-    <tr>
+  <tr>
       <th class="tg-huh2" colspan="2">Mode Selection</th>
       <th class="tg-s6z2" rowspan="2">Mode</th>
       <th class="tg-huh2" rowspan="2">Aliasing</th>
@@ -36,13 +36,11 @@ BOOT pin and TEST pin.
       <td class="tg-031e">In this mode, W7500 can support ISP function in order to control flash using serial interface.</td>
     </tr>
 
-<table\>
+</table>
 
 When W7500 is reset by hardware, it will be operated as below in
 embedded boot code.
 
-![Figure 1 I2C Bus
-Configuration\](<http://wizwiki.net/wiki/lib/exe/fetch.php?media=products:w7500:documents:boot.jpg>
-"Figure 1 operation of boot code")
+![Figure 1 I2C BusConfiguration\](<http://wizwiki.net/wiki/lib/exe/fetch.php?media=products:w7500:documents:boot.jpg> "Figure 1 operation of boot code")
 
 
