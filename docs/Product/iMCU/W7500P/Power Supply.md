@@ -57,22 +57,22 @@ Two of them are almost the same except the clock gated peripherals kinds.
   </tr>
   <tr>
     <td rowspan="2">Sleep mode</td>
-    <td>DEEPSLEEP = 0<br>Enable WFI</td>
+    <td>DEEPSLEEP = 0<br />Enable WFI</td>
     <td>Any interrupt</td>
-    <td rowspan="2">CPU Clock OFF<br>APB Bus Clock ON<br>AHB Bus Clock ON<br>Memory Clock ON</td>
+    <td rowspan="2">CPU Clock OFF<br />APB Bus Clock ON<br />AHB Bus Clock ON<br />Memory Clock ON</td>
   </tr>
   <tr>
-    <td>DEEPSLEEP = 0<br>Enable WFE</td>
+    <td>DEEPSLEEP = 0<br />Enable WFE</td>
     <td>Wakeup event</td>
   </tr>
   <tr>
     <td rowspan="2">Deep Sleep mode</td>
-    <td>DEEPSLEEP = 1<br>Enable WFI</td>
+    <td>DEEPSLEEP = 1<br />Enable WFI</td>
     <td>Any interrupt</td>
-    <td rowspan="2">CPU Clock OFF<br>APB Bus Clock OFF<br>AHB Bus Clock OFF<br>Memory Clock OFF</td>
+    <td rowspan="2">CPU Clock OFF<br />APB Bus Clock OFF<br />AHB Bus Clock OFF<br />Memory Clock OFF</td>
   </tr>
   <tr>
-    <td>DEEPSLEEP = 1<br>Enable WFE</td>
+    <td>DEEPSLEEP = 1<br />Enable WFE</td>
     <td>Wakeup event</td>
   </tr>
 </table>
