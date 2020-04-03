@@ -50,3 +50,7 @@ basic network information.
 This stage sets the socket TX/RX memory information. The base address
 and mask address of each SOCKET are fixed and saved in this stage.
 
+<B>*In case of, assign 2Kbytes TX/RX memory per SOCKET*</B>
+
+
+
