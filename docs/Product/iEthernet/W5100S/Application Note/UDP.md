@@ -211,6 +211,70 @@ Sn_RX_RD += get_size;
 Sn_CR = RECV;
 }
 ```
+##### Check send data / sending process
+
+The size of DATA that the user wants to transmit cannot be larger than
+Internal TX memory. If it is larger than MTU, it is automatically
+divided by MTU unit and transmitted. The Sn\_DIPR0 is set
+“255.255.255.255” when user wants to broadcast.
+
+``` c
+{
+/* first, get the free TX memory size */
+FREESIZE:
+freesize = Sn_TX_FSR0;
+if (freesize<len) goto FREESIZE; // len is send size
+
+/* Write the value of remote_ip, remote_port to the Socket n Destination IP Address
+Register(Sn_DIPR), Socket n Destination Port Register(Sn_DPORT). */
+Sn_DIPR0 = remote_ip;
+Sn_DPORT0 = remote_port;
+
+/* Get offset address */
+dst_ptr = Sn_TX_WR;
+/* select TX memory, refer to TMSR(Tx Memory Size Register) */
+cntl_byte = Socket_n_TX_Buffer 
+/* copy len bytes of source_address to dst_ptr */
+for(i=0; i<len; i++)
+{
+  W5100S_WRITE(addr, cntl_byte, dst_ptr+i);
+}
+/* increase Sn_TX_WR0 as length of len */
+Sn_TX_WR += len;
+/* set SEND command */
+Sn_CR = SEND;
+}
+```
+
+##### Check complete sending / Timeout
+
+To transmit the next data, user must check that the prior SEND command
+is completed. The larger the data size, the more time to complete the
+SEND command. Therefore, the user must properly divide the data to
+transmit. The ARP<sub>TO</sub> can occur when user transmits UDP data.
+If ARP<sub>TO</sub> occurs, the UDP data transmission has failed.
+
+``` c
+First method :
+{
+/* check SEND command completion */
+while(Sn_IR(SENDOK)==‘0’) /* wait interrupt of SEND completion */
+{
+/* check ARPTO */
+if (Sn_IR(TIMEOUT)==‘1’) Sn_IR(TIMEOUT)=‘1’; goto Next stage;
+}
+Sn_IR(SENDOK) = ‘1’; /* clear previous interrupt of SEND completion */
+}
+Second method :
+{
+If (Sn_CR == 0x00) transmission is completed.
+If (Sn_IR(TIMEOUT bit) == ‘1’) goto next stage;
+/* In this case, if the interrupt of Socket n is activated, interrupt occurs. Refer to
+Interrupt Register(IR), Interrupt Mask Register (IMR) and Socket n Interrupt Register (Sn_IR).
+*/
+}
+```
+
 
 
 
