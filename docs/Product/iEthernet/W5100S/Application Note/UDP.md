@@ -329,3 +329,41 @@ Sn\_DPORT0 to ‘Multicast-group port number.’ Set the Sn\_MR(P3:P0) to
 UDP and set the Sn\_MR(MULTI) to ‘1.’ Finally, execute OPEN command. If
 the state of Sn\_SR is changed to SOCK\_UDP after the OPEN command, the
 SOCKET initialization is completed.
+
+``` c
+{
+START:
+/* set Multicast-Group information */
+/* set Multicast-Group H/W address(01:00:5e:01:01:0b) */
+Sn_DHAR[0:5] = {0x01,0x00,0x5e,0x01,0x01,0x0b}; 
+
+/* set Multicast-Group IP address(211.1.1.11) */
+Sn_DIPR[0:3] = {211,1,1,11};
+
+Sn_DPORT[0:1] ={0x0B,0xB8}; /* set Multicast-GroupPort number(3000) */
+Sn_PORT[0:1] = {0x0B,0xB8}; /* set SourcePort number(3000) */
+Sn_MR = 0x02 | 0x80; /* set UDP mode & Multicast on Socket n Mode Register */
+Sn_CR = OPEN; /* set OPEN command */
+/* wait until Sn_SR is changed to SOCK_UDP */
+if (Sn_SR != SOCK_UDP) Sn_CR = CLOSE; goto START;
+}
+```
+
+##### Check received data
+
+Refer to the “Unicast & Broadcast.” section.
+
+[Unicast &
+Broadcast](http://wizwiki.net/wiki/doku.php?id=products:w5100s:application:udp_function#unicast_and_broadcast)
+
+##### Receiving process
+
+Refer to the “Unicast & Broadcast.” section. [Unicast &
+Broadcast](http://wizwiki.net/wiki/doku.php?id=products:w5100s:application:udp_function#unicast_and_broadcast)
+
+##### Check send data / Sending Process
+
+Since the user sets the information about multicast-group at SOCKET
+initialization, user does not need to set IP address and port number for
+destination any more. Therefore, copy the transmission data to internal
+TX memory and executes SEND command.
