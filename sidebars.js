@@ -131,10 +131,10 @@ module.exports = {
 		'Product/iEthernet/W5500/Application/udp',
 		'Product/iEthernet/W5500/Application/ipraw',
 		'Product/iEthernet/W5500/Application/pppoe',
-		'Product/iEthernet/W5500/Application/spi_performance',
-		'Product/iEthernet/W5500/Application/esd_test_document',
+		'Product/iEthernet/W5500/Application/spi_performance'
 		],
 		},
+		'Product/iEthernet/W5500/esd_test_document'
 		'Product/iEthernet/W5500/all_pages',
 		{
         type: 'category',
