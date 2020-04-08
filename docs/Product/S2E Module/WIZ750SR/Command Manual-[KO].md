@@ -2023,3 +2023,501 @@ column\>
   - `> SEG:GW Mode`
 
 \</WRAP\> \</WRAP\>
+
+-----
+
+#### SV
+
+-----
+
+  - **Format:** `SV[CR][LF]`
+  - **Meaning:** 변경 사항 저장
+  - **Command Type:** Write only (Control)
+  - **Parameter / Return:** None
+  - **Response**
+
+\<WRAP indent\>\<WRAP indent\> \<WRAP round box group\>
+
+  - **Without Parameter**
+      - No response
+      - 변경된 설정 항목의 저장 수행
+
+\</WRAP\> \</WRAP\> \</WRAP\>
+
+-----
+
+#### RT
+
+-----
+
+  - **Format:** `RT[CR][LF]`
+  - **Meaning:** 제품의 리부트 (Reboot)
+  - **Command Type:** Write only (Control)
+  - **Parameter / Return:** None
+  - **Response**
+
+\<WRAP indent\>\<WRAP indent\> \<WRAP round box group\>
+
+  - **Without Parameter**
+      - No response
+      - 제품의 모든 동작 종료 후 재시작 됩니다.
+
+\</WRAP\>
+
+  - 만약 시리얼 디버그 메시지를 사용 중인 경우, Data UART 포트를 통해 다음과 같은 메시지를 출력합니다.
+  - `> REBOOT`
+
+\</WRAP\> \</WRAP\>
+
+-----
+
+#### FR
+
+-----
+
+  - **Format:** `FR[CR][LF]`
+  - **Meaning:** 제품의 공장 초기화 (Factory reset)
+  - **Command Type:** Write only (Control)
+  - **Parameter / Return:** None
+  - **Response**
+
+\<WRAP indent\>\<WRAP indent\> \<WRAP round box group\>
+
+  - **Without Parameter**
+      - No response
+      - 제품의 동작 설정을 공장 초기화 상태(출고 시 초기 상태)로 변경합니다.
+
+\</WRAP\>
+
+  - 제품의 초기 설정 값은 **[WIZ750SR Factory
+    Settings](/products/wiz750sr/gettingstarted/ko#wiz750sr_factory_settings)**에서
+    확인 할 수 있습니다.
+  - 공장 초기화 수행 시, **[RT](#rt)** 커맨드를 수행 한 것과 동일하게 제품을 재시작 합니다.
+      - 만약 시리얼 디버그 메시지를 사용 중인 경우, Data UART 포트를 통해 다음과 같은 메시지를 출력합니다.
+      - `> REBOOT`
+
+\</WRAP\> \</WRAP\>
+
+### User I/O Settings
+
+-----
+
+#### CA - CD
+
+-----
+
+  - **Format:** `Cx<Parameter>[CR][LF] (CA ~ CD 동일)`
+  - **Meaning:** 사용자 I/O 핀의 설정 (type / direction)
+  - **Command Type:** Read / Write
+  - **Parameter / Return Type:** Number (0 \~ 2)
+  - **Parameter / Return Value:**
+
+\<WRAP indent\>\<WRAP indent\>
+
+<table>
+<thead>
+<tr class="header">
+<th>Parameter /<br />
+Return value</th>
+<th>I/O Setting</th>
+<th>Remarks</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>0</td>
+<td>Digital input</td>
+<td>-</td>
+</tr>
+<tr class="even">
+<td>1</td>
+<td>Digital output</td>
+<td>-</td>
+</tr>
+<tr class="odd">
+<td>2</td>
+<td>Analog input</td>
+<td>-</td>
+</tr>
+</tbody>
+</table>
+
+\</WRAP\> \</WRAP\>
+
+  - **Response**
+
+\<WRAP indent\>\<WRAP indent\> \<WRAP round box group\> \<WRAP half
+column\>
+
+  - **Without Parameter (Get)**
+      - In ASCII: `CA2\r\n` `CB0\r\n`
+
+\</WRAP\> \<WRAP half column\>
+
+  - **With Parameter (Set)**
+      - No response
+      - 사용자 I/O의 설정 변경
+
+\</WRAP\> \</WRAP\> \</WRAP\> \</WRAP\>
+
+  
+  
+  
+  
+
+### User I/O Status / Value
+
+-----
+
+#### GA - GD
+
+-----
+
+  - **Format:** `Gx<Parameter>[CR][LF] (GA ~ GD 동일)`
+  - **Meaning:** 사용자 I/O 핀의 상태 / 값 정보
+  - **Command Type:** Read / Write
+  - **Parameter / Return Type:** Number (Digital in/out: 0/1, Analog in:
+    0 \~ 4095)
+  - **Parameter / Return Value:**
+
+\<WRAP indent\>\<WRAP indent\>
+
+<table>
+<thead>
+<tr class="header">
+<th>I/O Setting</th>
+<th>Parameter /<br />
+Return value</th>
+<th>Remarks</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>Digital in/out</td>
+<td>0</td>
+<td>Low</td>
+</tr>
+<tr class="even">
+<td>:::</td>
+<td>1</td>
+<td>High</td>
+</tr>
+<tr class="odd">
+<td>Analog in</td>
+<td>0 ~ 4095</td>
+<td>12-bit ADC resolution</td>
+</tr>
+</tbody>
+</table>
+
+  - Digital out: R/W
+  - Digital in: Read only 
+  - Analog in: Read only
+
+\</WRAP\> \</WRAP\>
+
+  - **Response**
+
+\<WRAP indent\>\<WRAP indent\> \<WRAP round box group\> \<WRAP half
+column\>
+
+  - **Without Parameter (Get)**
+      - In ASCII: `GA4095\r\n (Analog input)`
+      - In ASCII: `GC0\r\n (Digital input)`
+
+\</WRAP\> \<WRAP half column\>
+
+  - **With Parameter (Set)**
+      - No response
+      - 사용자 I/O 상태 값 변경 (**Digital output only**)
+
+\</WRAP\> \</WRAP\> \</WRAP\> \</WRAP\>
+
+### Status I/O
+
+-----
+
+#### SC
+
+-----
+
+  - **Format:** `SC<Parameter_0><Parameter_1>[CR][LF]`
+  - **Meaning:** 상태 I/O **[S0](#s0)(PA\_10)**핀과 **[S1](#s1)(PA\_01)**핀의
+    동작 모드 설정
+  - **Command Type:** Read / Write
+  - **Parameter / Return Type:** Number (0/1)
+  - **Parameter / Return Value:**
+
+\<WRAP indent\>\<WRAP indent\>
+
+  - **Parameter\_0** (upper byte)
+
+<table>
+<thead>
+<tr class="header">
+<th>Parameter /<br />
+Return value</th>
+<th>Meaning</th>
+<th>Remarks</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>0</td>
+<td>PHY link status</td>
+<td>Default</td>
+</tr>
+<tr class="even">
+<td>1</td>
+<td>DTR</td>
+<td>Data Terminal Ready<br />
+(RS-232/TTL only)</td>
+</tr>
+</tbody>
+</table>
+
+  - **Parameter\_1** (lower byte)
+
+<table>
+<thead>
+<tr class="header">
+<th>Parameter /<br />
+Return value</th>
+<th>Meaning</th>
+<th>Remarks</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>0</td>
+<td>TCP connection status</td>
+<td>Default</td>
+</tr>
+<tr class="even">
+<td>1</td>
+<td>DSR</td>
+<td>Data Set Ready<br />
+(RS-232/TTL only)</td>
+</tr>
+</tbody>
+</table>
+
+\</WRAP\> \</WRAP\>
+
+  - **Response**
+
+\<WRAP indent\>\<WRAP indent\> \<WRAP round box group\> \<WRAP half
+column\>
+
+  - **Without Parameter (Get)**
+      - In ASCII: (Connection Status) `SC00\r\n`
+      - In ASCII: (DTR / DSR) `SC11\r\n`
+
+\</WRAP\> \<WRAP half column\>
+
+  - **With Parameter (Set)**
+      - No response
+      - 상태 I/O의 동작 모드 변경
+
+\</WRAP\> \</WRAP\> \</WRAP\> \</WRAP\>
+
+-----
+
+#### S0
+
+-----
+
+  - **Format:** `S0<Parameter>[CR][LF]`
+  - **Meaning:** 상태 I/O **S0(PA\_10)**핀의 상태 값
+  - **Command Type:** Read only
+  - **Parameter / Return Type:** Number (0/1)
+  - **Parameter / Return Value:**
+
+\<WRAP indent\>\<WRAP indent\>
+
+  - **PHY link status 핀으로 동작하는 경우**
+
+| Return value | Meaning       | Remarks |
+| ------------ | ------------- | ------- |
+| 0            | PHY link up   | \-      |
+| 1            | PHY link down | \-      |
+
+  - \*\* DTR(Data Terminal Ready) 핀으로 동작하는 경우\*\*
+      - 해당 장비의 통신 준비가 완료 됨을 상대방 장치에 알리는 신호 (RS-232, Output)
+      - 상대 장비의 DSR과 연결함
+
+| Return value | Meaning            | Remarks |
+| ------------ | ------------------ | ------- |
+| 0            | 통신 불가              | \-      |
+| 1            | 해당 장비의 통신 준비가 완료 됨 | \-      |
+
+\</WRAP\> \</WRAP\>
+
+  - **Response**
+
+\<WRAP indent\>\<WRAP indent\> \<WRAP round box group\> \<WRAP half
+column\>
+
+  - **Without Parameter (Get)**
+      - In ASCII: `S00\r\n`
+
+\</WRAP\> \<WRAP half column\> \</WRAP\> \</WRAP\> \</WRAP\> \</WRAP\>
+
+-----
+
+#### S1
+
+-----
+
+  - **Format:** `S1<Parameter>[CR][LF]`
+  - **Meaning:** 상태 I/O **S1(PA\_01)**핀의 상태 값
+  - **Command Type:** Read only
+  - **Parameter / Return Type:** Number (0/1)
+  - **Parameter / Return Value:**
+
+\<WRAP indent\>\<WRAP indent\>
+
+  - **TCP connection status 핀으로 동작하는 경우**
+      - TCP server / client / mixed mode only 
+
+| Return value | Meaning            | Remarks |
+| ------------ | ------------------ | ------- |
+| 0            | TCP 연결 성립 상태       | \-      |
+| 1            | TCP 통신이 연결되어 있지 않음 | \-      |
+
+  - \*\* DSR(Data Set Ready) 핀으로 동작하는 경우\*\*
+      - 상대 장비의 통신 준비가 완료 되었는지 확인하는 신호 (RS-232, Input)
+      - 상대 장비의 DTR과 연결함
+
+| Return value | Meaning            | Remarks |
+| ------------ | ------------------ | ------- |
+| 0            | 통신 불가              | \-      |
+| 1            | 상대 장비의 통신 준비가 완료 됨 | \-      |
+
+\</WRAP\> \</WRAP\>
+
+  - **Response**
+
+\<WRAP indent\>\<WRAP indent\> \<WRAP round box group\> \<WRAP half
+column\>
+
+  - **Without Parameter (Get)**
+      - In ASCII: `S10\r\n`
+
+\</WRAP\> \<WRAP half column\> \</WRAP\> \</WRAP\> \</WRAP\> \</WRAP\>
+
+-----
+
+## Navigation
+
+-----
+
+\<WRAP group\> \<WRAP centeralign third column\>
+[![arrow\_back.png](/etc/arrow_back.png)](/products/wiz750sr/configtoolmanual/ko)  
+**Prev Page**  
+[Configuration Tool Manual](/products/wiz750sr/configtoolmanual/ko)
+\</WRAP\>
+
+\<WRAP centeralign third column\>
+[![arrow\_upward.png](/etc/arrow_upward.png)](#wiz750sr_command_manual)  
+**Scroll to Top** \</WRAP\>
+
+\<WRAP centeralign third column\>
+[![arrow\_forward.png](/etc/arrow_forward.png)](/products/wiz750sr/troubleshooting/ko)  
+**Next Page**  
+[Troubleshooting Guide](/products/wiz750sr/troubleshooting/ko) \</WRAP\>
+\</WRAP\>
+
+\<WRAP group\> \<WRAP centeralign half column\>
+[![arrow\_refresh.png](/etc/arrow_refresh.png)](/products/wiz750sr/start)  
+**Back to Product Main**  
+[WIZ750SR](/products/wiz750sr/start) \</WRAP\>
+
+\<WRAP centeralign half column\>
+[![arrow\_refresh.png](/etc/arrow_refresh.png)](/products/wiz750sr-100/start)  
+**Back to Product Main**  
+[WIZ750SR-100](/products/wiz750sr-100/start) \</WRAP\>
+
+\<WRAP group\> \<WRAP centeralign half column\>
+[![arrow\_refresh.png](/etc/arrow_refresh.png)](/products/wiz750sr-105/start)  
+**Back to Product Main**  
+[WIZ750SR-105](/products/wiz750sr-105/start) \</WRAP\>
+
+\<WRAP centeralign half column\>
+[![arrow\_refresh.png](/etc/arrow_refresh.png)](/products/wiz750sr-110/start)  
+**Back to Product Main**  
+[WIZ750SR-110](/products/wiz750sr-110/start) \</WRAP\>
+
+-----
+
+\<WRAP round box group\> \<WRAP half column\> \<WRAP centeralign\> \*\*
+WIZ750SR series Common Documents \*\* \</WRAP\>
+
+  - **[User's Manual](/products/wiz750sr/usermanual/ko)** 
+
+<!-- end list -->
+
+  - **[Device Command Manual](/products/wiz750sr/commandmanual/ko)**
+
+<!-- end list -->
+
+  - **[Troubleshooting Guide](/products/wiz750sr/troubleshooting/ko)**
+
+<!-- end list -->
+
+  - **[Update History](/products/wiz750sr/history/ko)**
+  
+  -----
+
+\<WRAP centeralign\> \*\* WIZ750SR series Downloads \*\* \</WRAP\>
+
+  - **[Software Downloads](/products/wiz750sr/download/start)**
+
+<!-- end list -->
+
+  - **[Technical Reference](/products/wiz750sr/reference/start)**
+
+\</WRAP\>
+
+\<WRAP half column\> \<WRAP centeralign\> \*\* WIZ750SR Individual
+documents \*\* \</WRAP\>
+
+  - **[WIZ750SR Product Overview](/products/wiz750sr/overview/ko)**
+  - **[WIZ750SR Getting Started
+    Guide](/products/wiz750sr/gettingstarted/ko)**
+  - **[WIZ750SR Datasheet](/products/wiz750sr/datasheet/start)**
+
+-----
+
+\<WRAP centeralign\> \*\* WIZ750SR-100 Individual documents \*\*
+\</WRAP\>
+
+  - **[WIZ750SR-100 Product
+    Overview](/products/wiz750sr-100/overview/ko)**
+  - **[WIZ750SR-100 Getting Started
+    Guide](/products/wiz750sr-100/gettingstarted/ko)**
+  - **[WIZ750SR-100 Datasheet](/products/wiz750sr-100/datasheet/start)**
+
+-----
+
+\<WRAP centeralign\> \*\* WIZ750SR-105 Individual documents \*\*
+\</WRAP\>
+
+  - **[WIZ750SR-105 Product
+    Overview](/products/wiz750sr-105/overview/ko)**
+  - **[WIZ750SR-105 Getting Started
+    Guide](/products/wiz750sr-105/gettingstarted/ko)**
+  - **[WIZ750SR-105 Datasheet](/products/wiz750sr-105/datasheet/start)**
+
+-----
+
+\<WRAP centeralign\> \*\* WIZ750SR-110 Individual documents \*\*
+\</WRAP\>
+
+  - **[WIZ750SR-110 Product
+    Overview](/products/wiz750sr-110/overview/ko)**
+  - **[WIZ750SR-110 Getting Started
+    Guide](/products/wiz750sr-110/gettingstarted/ko)**
+  - **[WIZ750SR-110 Datasheet](/products/wiz750sr-110/datasheet/start)**
+
+\</WRAP\> \</WRAP\> \</WRAP\> \</WRAP\>
