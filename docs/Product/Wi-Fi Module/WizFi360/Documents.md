@@ -37,7 +37,7 @@ Comparison Sheet** provides comparison with ESP8266 AT command.
       - Edited “5. Pin Definitions”
           - No.11 & No.19
 
-\++++ Old Datasheet History |
+**Old Datasheet History**
 
   - 2019-10-18 V1.03 Edited “Figure3. WizFi360 Pinout”
   - 2019-10-10 V1.02 Edited “Table 1. Description on Power Consumption”
@@ -56,126 +56,96 @@ Comparison Sheet** provides comparison with ESP8266 AT command.
       - Edited “Table4. WizFi360 Pin Function”
       - Edited “Table6. Initial Value of GPIO Pins”
 
-\++++
-
-\<WRAP group\>
 
 ### WizFi360-EVB-Shield
 
-\<WRAP half column\>
 
-``` 
-  * {{products:wizfi360:wizfi360ds:wizfi360-evb-shield_ds_112_en.pdf|WizFi360-EVB-Shield Datasheet}}
-```
 
-\</WRAP\>
 
-\<WRAP half column\>
+  * [WizFi360-EVB-Shield Datasheet]()
+
+
+
 
 | Version | Date    | Decription      |
 | ------- | ------- | --------------- |
 | V 1.1.2 | SEP2019 | Initial Release |
 
-\</WRAP\> \</WRAP\>
 
-\<WRAP group\>
 ### WizFi360-EVB-Mini
 
-\<WRAP half column\>
 
-``` 
-  * {{:products:wizfi360:wizfi360ds:wizfi360-evb-mini_ds_100_en.pdf|WizFi360-EVB-Mini Datasheet}}
-```
+  * [WizFi360-EVB-Mini Datasheet]()
 
-\</WRAP\>
 
-\<WRAP half column\>
 
 | Version | Date    | Decription      |
 | ------- | ------- | --------------- |
 | V 1.0.0 | SEP2019 | Initial Release |
 
-\</WRAP\> \</WRAP\>
-
-\<WRAP group\>
 
 ### WizFi360io Series
 
-\<WRAP half column\>
+
 
 #### WizFi360io-C
 
-``` 
-  * {{:products:wizfi360:wizfi360ds:wizfi360io-c_ds_102_en.pdf|WizFi360io-C Datasheet}}
-```
 
-\</WRAP\>
+  * [WizFi360io-C Datasheet]
 
-\<WRAP half column\>
+
+
 
 | Version | Date    | Decription      |
 | ------- | ------- | --------------- |
 | V 1.0.2 | SEP2019 | Initial Release |
 
-\</WRAP\>
 
-\<WRAP half column\>
 
 #### WizFi360io-H
 
-``` 
-  * {{:products:wizfi360:wizfi360ds:wizfi360io-h_ds_101_en.pdf|WizFi360io-H Datasheet}}
-```
 
-\</WRAP\>
+  * [WizFi360io-H Datasheet]()
 
-\<WRAP half column\>
+
+
 
 | Version | Date    | Decription      |
 | ------- | ------- | --------------- |
 | V 1.0.1 | AUG2019 | Initial Release |
 
-\</WRAP\> \</WRAP\>
+
 
 -----
 
 ## Certification
 
-\<WRAP group\> \<WRAP half column\>
+
 
 ### CE
 
   - ![WizFi360
     Certification](/products/wizfi360/wizfi360ds/emc104756_red_evaluation.pdf)
 
-\</WRAP\>
-
-\<WRAP half column\>
 
 | Date    | Decription |
 | ------- | ---------- |
 | AUG2019 | \-         |
 
-\</WRAP\>\</WRAP\>
 
-\<WRAP group\> \<WRAP half column\>
 
 ### FCC
 
   - ![WizFi360
     Certification](/products/wizfi360/wizfi360ds/certificate_sts1906023e_fcc_sdoc_cer.pdf)
 
-\</WRAP\>
 
-\<WRAP half column\>
 
 | Date    | Decription |
 | ------- | ---------- |
 | AUG2019 | \-         |
 
-\</WRAP\>\</WRAP\>
 
-\<WRAP group\> \<WRAP half column\>
 
 ### KC
 
@@ -184,17 +154,13 @@ Comparison Sheet** provides comparison with ESP8266 AT command.
   - ![WizFi360-CON\_EMC
     Certification](/products/wizfi360/wizfi360ds/인증서_wizfi360-con_emc_안테나_추가.pdf)
 
-\</WRAP\>
 
-\<WRAP half column\>
 
 | Date    | Decription |
 | ------- | ---------- |
 | NOV2019 | \-         |
 
-\</WRAP\>\</WRAP\>
 
-\<WRAP group\> \<WRAP half column\>
 
 ### J-MIC(TELEC)
 
@@ -203,50 +169,35 @@ Comparison Sheet** provides comparison with ESP8266 AT command.
   - ![WizFi360-CON
     Certification](/products/wizfi360/wizfi360ds/certificate_022-190205_wizfi360-con_20191111.pdf)
 
-\</WRAP\>
-
-\<WRAP half column\>
 
 | Date    | Decription |
 | ------- | ---------- |
 | NOV2019 | \-         |
 
-\</WRAP\>\</WRAP\>
 
-\<WRAP group\> \<WRAP half column\>
 ### RoHS
 
   - ![SGS RoHS Test
     Report](/products/wizfi360/wizfi360ds/rohs_ayn19-14878201_4000_4920_ayaa19-57264.pdf)
 
-\</WRAP\>
 
-\<WRAP half column\>
 
 | Date    | Decription |
 | ------- | ---------- |
 | NOV2019 | \-         |
 
-\</WRAP\>\</WRAP\>
-
-\<WRAP group\> \<WRAP half column\>
 
 ### REACH
 
   - ![SGS REACH SVHC Test
     Report](/products/wizfi360/wizfi360ds/SVHC%20시험%20성적서%20AYN19-156716_4000_4920_AYAA19-59688.pdf)
 
-\</WRAP\>
-
-\<WRAP half column\>
 
 | Date    | Decription |
 | ------- | ---------- |
 | NOV2019 | \-         |
 
-\</WRAP\>\</WRAP\>
 
-\<WRAP group\> \<WRAP half column\>
 
 ### Reliability Test Report
 
@@ -259,25 +210,22 @@ Comparison Sheet** provides comparison with ESP8266 AT command.
   - ![KETI Operation Test -
     English](/products/wizfi360/wizfi360ds/2019-0479F%20WizFi360PA_Operation%20Test%20Report_\(Reliability%20test\)_EN.pdf)
 
-\</WRAP\>
-
-\<WRAP half column\>
 
 | Date    | Decription |
 | ------- | ---------- |
 | NOV2019 | \-         |
 
-\</WRAP\>\</WRAP\>
+
 
 -----
 
 ## Program Guide
 
-\<WRAP group\>
+
 
 ### AT Instruction set
 
-\<WRAP half column\> The AT Instruction set include the description of
+The AT Instruction set include the description of
 AT command. WizFi360 basically provides a command compatible with
 ESP8266. In addition, commands are provided for using MQTT and Azure IoT
 Hub.
@@ -287,18 +235,17 @@ Hub.
   - ![AT Instruction set V1.0.7.2 -
     Korean](/products/wizfi360/wizfi360ds/wizfi360_atset_v107.2k.pdf)
 
-\</WRAP\> \<WRAP half column\>
+
 
 | Version   | Date    | Decription                                                                     |
 | --------- | ------- | ------------------------------------------------------------------------------ |
 | V 1.0.7.2 | MAR2020 | Modify AT+WIZ\_NETCONFIG, Modify AT+CWSTARTSMART, Modify minor typos and error |
 
-\</WRAP\> \</WRAP\> \<WRAP group\>
 
-\<WRAP half column\> \<wrap classes \#id width :language\> \</wrap\>
-\</WRAP\>
 
-\++++ Old Datasheet History |
+
+
+**Old Datasheet History**
 
 | Version | Date    | Decription                                                                                  |
 | ------- | ------- | ------------------------------------------------------------------------------------------- |
@@ -311,32 +258,28 @@ Hub.
 | V 1.0.6 | OCT2019 | Add Azure commands, AT+SSLCONF command and AT+CASEND command, Fix typo, Add Command History |
 | V 1.0.7 | MAR2020 | Add AT+WIZ\_NETCONFIG, Modify AT+CWSTARTSMART, Modify minor typos and error                 |
 
-\++++ \</WRAP\>
 
-\<WRAP group\>
+
 ### AT Command Comparison Sheet
 
-\<WRAP half column\> The AT Command Comparison Sheet provides comparison
+The AT Command Comparison Sheet provides comparison
 with ESP8266 AT command.
 
-``` 
- *{{products:wizfi360:wizfi360ds:wizfi360_atcp_v101.pdf|AT Command Comparison Sheet V1.0.1}}
-```
+ 
+ * [AT Command Comparison Sheet V1.0.1]()
 
-\</WRAP\> \<WRAP half column\>
+
+
 
 | Version | Date    | Decription                                                             |
 | ------- | ------- | ---------------------------------------------------------------------- |
 | V1.0.0  | AUG2019 | Initial Release                                                        |
 | V1.0.1  | OCT2019 | Modify AT+CIPSSLCCONF and Add AT+AZCON, AT+AZSET and AT+CASEND command |
 
-\</WRAP\> \</WRAP\>
-
-\<WRAP group\>
 
 ### AT Command examples
 
-\<WRAP half column\> The AT command examples document include
+The AT command examples document include
 TCP/UDP/SSL connection result and AT command used example.
 
   - ![AT Command Examples V1.0.3 -
@@ -344,17 +287,14 @@ TCP/UDP/SSL connection result and AT command used example.
   - ![AT Command Examples V1.0.3 -
     Korean](/products/wizfi360/wizfi360ds/wizfi360atcomex_v103k.pdf)
 
-\</WRAP\>
-
-\<WRAP half column\>
 
 | Version | Date    | Decription                                    |
 | ------- | ------- | --------------------------------------------- |
 | V1.0.3  | OCT2019 | Add “Auto TCP Connection on Transparent Mode” |
 
-\</WRAP\> \</WRAP\> \<WRAP group\> \<WRAP half column\> \<wrap classes
-\#id width :language\> \</wrap\> \</WRAP\>
-\++++ Old Datasheet History |
+
+ 
+**Old Datasheet History**
 
 | Version | Date    | Decription                    |
 | ------- | ------- | ----------------------------- |
@@ -362,35 +302,29 @@ TCP/UDP/SSL connection result and AT command used example.
 | V1.0.1  | OCT2019 | Fixed typo                    |
 | V1.0.2  | OCT2019 | Modified Overview description |
 
-\++++ \</WRAP\>
-
 -----
 
 ## Quick Start Guide
 
-\<WRAP group\>
+
 
 ### WizFi360-EVB-Shield / WizFi360-EVB-Mini
 
-\<WRAP half column\>
 
-``` 
- *{{products:wizfi360:wizfi360ds:wizfi360qs_v113e.pdf|Quick Start Guide V1.1.3 - English}}
- *{{products:wizfi360:wizfi360ds:wizfi360qs_v113k.pdf|Quick Start Guide V1.1.3 - Korean}}
-```
 
-\</WRAP\>
 
-\<WRAP half column\>
+ * [Quick Start Guide V1.1.3 - English]()
+ * [Quick Start Guide V1.1.3 - Korean]()
+
+
+
 
 | Version | Date    | Decription                                       |
 | ------- | ------- | ------------------------------------------------ |
 | V1.1.3  | SEP2019 | Modified the Environment setting and the Example |
 
-\</WRAP\>
 
-\<WRAP half column\> \<wrap classes \#id width :language\> \</wrap\>
-\</WRAP\> ++++ Old Reference Manual History|
+**Old Reference Manual History**
 
 | Version | Date    | Decription                                    |
 | ------- | ------- | --------------------------------------------- |
@@ -399,29 +333,25 @@ TCP/UDP/SSL connection result and AT command used example.
 | V1.1.1  | OCT2019 | Fixed Typo                                    |
 | V1.1.2  | OCT2019 | Fixed Typo and Modified Section 1 description |
 
-\++++
 
 ### Firmware Update Guide
 
-\<WRAP half column\>
 
-``` 
- *{{products:wizfi360:wizfi360ds:wizfi360FUG_v124e.pdf|Firmware Update Guide V1.2.4 - English}}
- *{{products:wizfi360:wizfi360ds:wizfi360FUG_v124k.pdf|Firmware Update Guide V1.2.4 - Korean}}
-```
 
-\</WRAP\> \<WRAP half column\>
+ * [Firmware Update Guide V1.2.4 - English]()
+ * [Firmware Update Guide V1.2.4 - Korean]()
+
+
+
 
 | Version | Date    | Decription                                        |
 | ------- | ------- | ------------------------------------------------- |
 | V1.2.4  | OCT2019 | Modified to WizFi360-EVB-Shield from WizFi360-EVB |
 
-\</WRAP\>
 
-\</WRAP\> \<WRAP group\>
 
-\<WRAP half column\> \<wrap classes \#id width :language\> \</wrap\>
-\</WRAP\> ++++ Old Reference Manual History|
+
+**Old Reference Manual History**
 
 | Version | Date    | Decription                                               |
 | ------- | ------- | -------------------------------------------------------- |
@@ -432,26 +362,25 @@ TCP/UDP/SSL connection result and AT command used example.
 | V1.2.2  | SEP2019 | Added explanation about UART1                            |
 | V1.2.3  | SEP2019 | Fixed typo and Modified github link                      |
 
-\++++ \</WRAP\>
 
 -----
 
 ## Hardware Design Guide
 
-\<WRAP group\> \<WRAP half column\>
+
 
   - ![Hardware Design
     Guide](/products/wizfi360/wizfi360ds/wizfi360_hardware_design_guide_v103_en.pdf)
 
-\</WRAP\> \<WRAP half column\>
+
 
 | Version | Date    | Decription      |
 | ------- | ------- | --------------- |
 | V1.0.3  | NOV2019 | Initial Release |
 
-\</WRAP\> \</WRAP\>
+
 
 -----
 
-\<WRAP group\> ![start](/page\>products/wizfi360/wizfi360app/start)
-\</WRAP\>
+ ![start](/page\>products/wizfi360/wizfi360app/start)
+
