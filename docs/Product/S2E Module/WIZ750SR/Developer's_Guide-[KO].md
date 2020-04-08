@@ -89,11 +89,11 @@ ISP(In-System Programming) 동작을 수행할 수 있습니다.
 
 ### How to re-enter the MAC address on your devices
 
-\++++ 펼쳐보기 |
+++++ 펼쳐보기 |
 
 ![ko\&inline](/page\>products/wiz750sr/developers/restore-mac/ko&inline)
 
-\++++
+++++
 
 -----
 
