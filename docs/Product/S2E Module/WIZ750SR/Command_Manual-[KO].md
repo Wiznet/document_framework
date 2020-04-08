@@ -1,6 +1,6 @@
 ---
 id: command_manual-[KO]
-title: Command_Manual-[KO]
+title: Command Manual-[KO]
 date: 2020-03-
 ---
 
