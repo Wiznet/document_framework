@@ -1,6 +1,6 @@
 ---
 id: command_manual-[EN]
-title: Command_Manual-[EN]
+title: Command Manual-[EN]
 date: 2020-03-
 ---
 
