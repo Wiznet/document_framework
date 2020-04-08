@@ -383,7 +383,6 @@ RS-485</td>
 | :::         | :::    | PDF      | ![](/products/w5500/w5500_evb/icons/download.png) ![Download](/products/wiz750sr/datasheet/wiz750sr_v1.0_pl_160421_rs422_485.pdf) | :::     |
 | 1.1         | TTL    | Excel    | ![](/products/w5500/w5500_evb/icons/download.png) ![Download](/products/wiz750sr/datasheet/wiz750sr_v1.1_pl_ttl_20171214.xls)     | \-      |
 | ::: | :::    | PDF   | ![](/products/w5500/w5500_evb/icons/download.png) ![Download](/products/wiz750sr/datasheet/wiz750sr_v1.1_pl_ttl_20171214.pdf)    | :::                    |
-| --- | ------ | ----- | -------------------------------------------------------------------------------------------------------------------------------- | ---------------------- |
 | ::: | RS-232 | Excel | ![](/products/w5500/w5500_evb/icons/download.png) ![Download](/products/wiz750sr/datasheet/wiz750sr_v1.1_pl_rs232_20171214.xls)  | :::                    |
 | ::: | :::    | PDF   | ![](/products/w5500/w5500_evb/icons/download.png) ![Download](/products/wiz750sr/datasheet/wiz750sr_v1.1_pl_rs232_20171214.pdf)  | :::                    |
 | ::: | RS-485 | Excel | ![](/products/w5500/w5500_evb/icons/download.png) ![Download](/products/wiz750sr/datasheet/wiz750sr_v1.1_pl_rs485_20171214.xls)  | :::                    |
