@@ -49,3 +49,4 @@ Responses are listed below.
 |[Link-Up Event]	|WiFi Connection was established|
 |[Link-Down Event]	|WiFi Connection was closed|
 |[Reset Event]	|System reset occurred (not by user)|
+
