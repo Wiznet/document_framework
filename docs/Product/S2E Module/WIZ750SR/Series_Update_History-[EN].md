@@ -3,8 +3,8 @@ id: series_update_history-[EN]
 title: Series Update History-[EN]
 date: 2020-03-
 ---
-## Content
 
+## Content
 
 # WIZ750SR Series Update History
 
