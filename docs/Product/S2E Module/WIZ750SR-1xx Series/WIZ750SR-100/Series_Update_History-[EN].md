@@ -6,7 +6,6 @@ date: 2020-03-
 
 ## Content
 
-
 # WIZ750SR Series Update History
 
 \*\* Supported Languages \*\*  
