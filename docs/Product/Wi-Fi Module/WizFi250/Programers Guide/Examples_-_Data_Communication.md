@@ -21,11 +21,15 @@ If you enter <O> or <SO> value to <Open Type> parameter, WizFi250 will try to co
       
 But when using <S> value, WizFi250 will try to connect to TCP Server after reboot and you have to set <SocketType>,<RemoteIP>,<RemotePort> and <LocalPort> as below
       
-In order to set WizFi250 to data mode, you have to enter 1 value to <Data Mode> parameter of <AT+SCON> command. For detailed information to this command, refer to AT+SCON.     
-              * Mode: Data Mode, TCP Client
-              * Remote IP : 192.168.12.102
-              * Remote Port : 5000
-              * Local Port : 5001
+In order to set WizFi250 to data mode, you have to enter 1 value to <Data Mode> parameter of <AT+SCON> command. For detailed information to this command, refer to AT+SCON. 
+      
+ 
+ 
+ * Mode: Data Mode, TCP Client
+ * Remote IP : 192.168.12.102
+ * Remote Port : 5000
+ * Local Port : 5001
+  
   >
   
               AP Association                    ( Refers to Association & Disassociation Example )
