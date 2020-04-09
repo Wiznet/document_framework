@@ -179,28 +179,43 @@ Maximum input level(PER ≤ 10 %)|-|	-10	|-	|dBM||
 
 #### 802.11n HT40 Mode
 
-ITEMS	CONTENTS
-Specification	IEEE802.11n HT40@2.4Ghz
-Mode	OFDM
-Channel	CH1 to CH13
-Data rate	MCS0/1/2/3/4/5/6/7/8/9/10/11/12/13/14/15
-Power level(calibrated)	Minimum	Typical	Maximum	Unit	Note
-16dBm Target(For each antenna Port)	12	14	16	dBm	
-Constellation error(EVM)@target power	Minimum	Typical	Maximum	Unit	Note
-MCS7	-	-30	-28	dB	
-Frequency error	-25	0	+25	kHz	
-Minimum input level sensitivity	Minimum	Typical	Maximum	Unit	Note
-MCS7(PER ≤ 10 %)	-	-74	-	dBm	
-Maximum input level(PER ≤ 10 %)	-	-10	-	dBM	
-NVM specification
-ITEMS	CONTENTS
-Specification	NVM Flash
-Space	160KByte
-Operate write times	Total 10000 times
+|ITEMS|	CONTENTS|
+|------|--------|
+|Specification	|IEEE802.11n HT40@2.4Ghz|
+|Mode|	OFDM|
+|Channel	|CH1 to CH13\
+|Data rate	|MCS0/1/2/3/4/5/6/7/8/9/10/11/12/13/14/15|
+
+---
+|Power level(calibrated)|	Minimum|	Typical|	Maximum	|Unit	|Note|
+|--------------------------|------|--------|-----------|-----|---|
+|16dBm Target(For each antenna Port)|	12|	14|	16|	dBm||	
+
+---
+|Constellation error(EVM)@target power	|Minimum|	Typical|	Maximum	|Unit|	Note|
+|---------------------------------------|-------|---------|---------|----|-----|
+|MCS7|	-	|-30|	-28|	dB|	
+|Frequency error	|-25|	0	|+25|	kHz	|
+
+---
+|Minimum input level sensitivity|	Minimum	|Typical|	Maximum|	Unit|	Note|
+|-------------------------------|----------|-------|-------|------|------|
+|MCS7(PER ≤ 10 %)|	-	|-74|	-	|dBm	|
+|Maximum input level(PER ≤ 10 %)|	-|	-10	|-	|dBM|	
+
+#### NVM specification
+
+|ITEMS|	CONTENTS|
+|-----|---------|
+|Specification|	NVM Flash|
+|Space	|160KByte|
+|Operate write times|	Total 10000 times|
+
 Note: NVM flash is used to store user configuration or firmware, do not use to store these often changed configuration or user data.
 
-Power Consumption
-State	Current(3.3V)	Description
+#### Power Consumption
+
+|State|	Current(3.3V)|	Description|
 Deep Sleep	5.5uA	Low Power Timer and GPIO Event Wake up
 Deep Standby	25uA	Low Power Timer and GPIO Event Wake up
 Associated Idle(DTIM=1)	3.3mA	Associated with AP but no traffic
