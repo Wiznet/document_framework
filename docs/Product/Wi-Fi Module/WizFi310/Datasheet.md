@@ -151,21 +151,34 @@ For software and driver development, WIZnet provides extensive technical documen
 |54Mbps	|-	|-78|	-	|dBm|||	
 Maximum input level(PER ≤ 10 %)|-|	-10	|-	|dBM||
 
-802.11n HT20 Mode
-ITEMS	CONTENTS
-Specification	IEEE802.11n HT20@2.4Ghz
-Mode	OFDM
-Channel	CH1 to CH13
-Data rate	MCS0/1/2/3/4/5/6/7/8/9/10/11/12/13/14/15
-Power level(calibrated)	Minimum	Typical	Maximum	Unit.	Note.
-16dBm Target(For each antenna Port)	12	14	16	dBm	
-Constellation error(EVM)@target power	Minimum	Typical	Maximum	Unit	Note
-MCS7	-	-30	-28	dB	
-Frequency error	-25	0	+25	kHz	
-Minimum input level sensitivity	Minimum	Typical	Maximum	Unit	Note
-MCS7(PER ≤ 10 %)	-	-76	-	dBm	
-Maximum input level(PER ≤ 10 %)	-	-10	-	dBM	
-802.11n HT40 Mode
+#### 802.11n HT20 Mode
+
+|ITEMS|	CONTENTS|
+|------|--------|
+|Specification	|IEEE802.11n HT20@2.4Ghz|
+|Mode	|OFDM|
+|Channel|	CH1 to CH13|
+|Data rate	|MCS0/1/2/3/4/5/6/7/8/9/10/11/12/13/14/15|
+
+-----
+|Power level(calibrated)|	Minimum|	Typical	|Maximum|	Unit.|	Note.|
+|---------------------------------|-----|---------|------|------|
+|16dBm Target(For each antenna Port)|	12|14|	16|	dBm|	|
+
+----
+|Constellation error(EVM)@target power|	Minimum|	Typical|	Maximum|	Unit|	Note|
+|-------------------------------------|--------|---------|---------|------|------|
+|MCS7	|-|	-30	|-28|	dB||	
+|Frequency error|	-25|	0	|+25|	kHz	||
+
+----
+|Minimum input level sensitivity|	Minimum	|Typical|	Maximum	|Unit|	Note|
+|-------------------------------|----------|-------|--------|----|-------|
+|MCS7(PER ≤ 10 %)	|-	|-76|	-|	dBm	||
+|Maximum input level(PER ≤ 10 %)	|-|	-10|	-	|dBM	|
+
+#### 802.11n HT40 Mode
+
 ITEMS	CONTENTS
 Specification	IEEE802.11n HT40@2.4Ghz
 Mode	OFDM
