@@ -216,23 +216,26 @@ Note: NVM flash is used to store user configuration or firmware, do not use to s
 #### Power Consumption
 
 |State|	Current(3.3V)|	Description|
-Deep Sleep	5.5uA	Low Power Timer and GPIO Event Wake up
-Deep Standby	25uA	Low Power Timer and GPIO Event Wake up
-Associated Idle(DTIM=1)	3.3mA	Associated with AP but no traffic
-Associated Idle(DTIM=2)	2.41mA	Associated with AP but no traffic
-Associated Idle(DTIM=3)	1.98mA	Associated with AP but no traffic
-Sleep	0.5mA	Associated with AP but no traffic
-Run in active clock	25mA	CPU full run, UART available,WiFi is disable
-11n RX mode	62mA	CPU full run, UART available,WiFi is in 11n RX
-11n TX mode@13dBm	162mA	CPU full run, UART available,WiFi is in 11n TX
-Peak current	240mA	CPU full run, UART available,WiFi is in 11n TX
-2016/06/13 14:34 · Bang
+|------|-------------|--------------|
+|Deep Sleep	|5.5uA|	Low Power Timer and GPIO Event Wake up|
+|Deep Standby	|25uA|	Low Power Timer and GPIO Event Wake up|
+|Associated Idle(DTIM=1)|	3.3mA	|Associated with AP but no traffic|
+|Associated Idle(DTIM=2)|	2.41mA	|Associated with AP but no traffic|
+|Associated Idle(DTIM=3)	|1.98mA	|Associated with AP but no traffic|
+|Sleep|	0.5mA	|Associated with AP but no traffic|
+|Run in active clock|	25mA	|CPU full run, UART available,WiFi is disable|
+|11n RX mode	|62mA|	CPU full run, UART available,WiFi is in 11n RX|
+|11n TX mode@13dBm|	162mA	|CPU full run, UART available,WiFi is in 11n TX|
+|Peak current	|240mA|	CPU full run, UART available,WiFi is in 11n TX|
+
  
-Dimensions
+#### Dimensions
 
 
-Type	Thickness (Height)
-with CAN	3.15 (+/-) 0.15mm
-2016/05/11 16:11 · jehoon song
-Reference schematic
-WizFi310 Ref.Schematic
+|Type	|Thickness (Height)|
+|-----|------------------|
+|with CAN	|3.15 (+/-) 0.15mm|
+
+### Reference schematic
+
+[WizFi310 Ref.Schematic]()
