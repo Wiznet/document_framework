@@ -12,16 +12,20 @@ date: 2020-03-
 ### Method of setting TCP Client and exchanging data in Data Mode
 
 #### Socket Open
-This section explains how to open <TCP Client Socket> and communicate with peer system. Below is an example showing how to set TCP Client and change the mode to data mode. It also explains parameters of <AT+SCON> command.
 
+This section explains how to open <TCP Client Socket> and communicate with peer system. Below is an example showing how to set TCP Client and change the mode to data mode. It also explains parameters of <AT+SCON> command.
+      
 (AT+SCON=<OpenType>,<SocketType>,<RemoteIP>,<RemotePort>,<LocalPort>,<DataMode>)
 
-If you enter <O> or <SO> value to <Open Type> parameter, WizFi250 will try to connect to TCP Server immediately. But when using <S> value, WizFi250 will try to connect to TCP Server after reboot and you have to set <SocketType>,<RemoteIP>,<RemotePort> and <LocalPort> as below
-In order to set WizFi250 to data mode, you have to enter 1 value to <Data Mode> parameter of <AT+SCON> command. For detailed information to this command, refer to AT+SCON.
-       * Mode: Data Mode, TCP Client
-       * Remote IP : 192.168.12.102
-       * Remote Port : 5000
-       * Local Port : 5001
+If you enter <O> or <SO> value to <Open Type> parameter, WizFi250 will try to connect to TCP Server immediately.
+      
+But when using <S> value, WizFi250 will try to connect to TCP Server after reboot and you have to set <SocketType>,<RemoteIP>,<RemotePort> and <LocalPort> as below
+      
+In order to set WizFi250 to data mode, you have to enter 1 value to <Data Mode> parameter of <AT+SCON> command. For detailed information to this command, refer to AT+SCON.     
+              * Mode: Data Mode, TCP Client
+              * Remote IP : 192.168.12.102
+              * Remote Port : 5000
+              * Local Port : 5001
   >
   
               AP Association                    ( Refers to Association & Disassociation Example )
