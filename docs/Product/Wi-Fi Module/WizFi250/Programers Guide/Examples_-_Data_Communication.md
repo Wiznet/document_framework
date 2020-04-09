@@ -244,14 +244,15 @@ This section explains how to open <UDP Server Socket> in Command Mode and commun
 <UDP Server Mode> of WizFi250 can connect UDP connection without peer system information like IP address and port number. Before peer system is connected to WizFi250, WizFi250 does not send data to peer system. So you should be careful when using <UDP Server Mode>.
 
 {0,192.168.12.23,5001,11}Hi WizFi250  ( Receiving data from peer system )
+>
 
-AT+SSEND=0,,,5                     ( Sending data to a Socket with CID 0 )
-Hello           <= When serial data is 5byte, WizFi250 send this data to peer system
-[OK ]
+      AT+SSEND=0,,,5                     ( Sending data to a Socket with CID 0 )
+      Hello           <= When serial data is 5byte, WizFi250 send this data to peer system
+      [OK ]
 
-2013/09/04 13:21 · jeonggw
 
-AT+SCON
+
+### AT+SCON
 
 AT+SCON=<OpenType>,<SocketType>,<RemoteIP>,<RemotePort>,<LocalPort>,<DataMode>
 
@@ -263,124 +264,132 @@ O	Open at Once
 SO	Open at Once & Register as a Service
 <S> : Register as a Service
 When using this parameter, WizFi250 will try to connect to peer system using TCP or UDP when power is on.
+>
+      
+      AT+WLEAVE
+      [OK]
 
-AT+WLEAVE
-[OK]
+      AT+WSET=0,WizFiDemoAP
+      [OK]
 
-AT+WSET=0,WizFiDemoAP
-[OK]
+      AT+WSEC=0,WPA2,12345678
+      [OK]
 
-AT+WSEC=0,WPA2,12345678
-[OK]
+      AT+WNET=1
+      [OK]
 
-AT+WNET=1
-[OK]
+      AT+SCON=S,TSN,,,5000,0
+      [OK]
 
-AT+SCON=S,TSN,,,5000,0
-[OK]
+      AT+MPROF=S
+      [OK]
 
-AT+MPROF=S
-[OK]
+      AT+MRESET
+      [OK]
+      WizFi250 Version 0.9.0.0 (WIZnet Co.Ltd)
+      Joining : WizFiDemoAP
+      Successfully joined : WizFiDemoAP
 
-AT+MRESET
-[OK]
-WizFi250 Version 0.9.0.0 (WIZnet Co.Ltd)
-Joining : WizFiDemoAP
-Successfully joined : WizFiDemoAP
+      [Link-Up Event]
+        IP Addr    : 192.168.12.10
+        Gateway    : 192.168.12.1
 
-[Link-Up Event]
-  IP Addr    : 192.168.12.10
-  Gateway    : 192.168.12.1
-
-AT+SMGMT=?
-Number of Sockets : 1 (SCID/Mode/Remote/Local/DataMode)
-0/TSN/0.0.0.0:0/5000/0
-[OK]
+      AT+SMGMT=?
+      Number of Sockets : 1 (SCID/Mode/Remote/Local/DataMode)
+      0/TSN/0.0.0.0:0/5000/0
+      [OK]
+  >
+  
 <O> : Open at Once
 When using this parameter, WizFi250 will try to connect to peer system using TCP or UDP when enter the <AT+SCON> command. For using this parameter, WizFi250 should be already associated with AP or running AP mode. In this section, we have only explained steps in Station Mode. In AP Mode, you can use this command like in Station Mode
-AT+WLEAVE
-[OK]
+ >
+      
+      AT+WLEAVE
+      [OK]
 
-AT+WSET=0,WizFiDemoAP
-[OK]
+      AT+WSET=0,WizFiDemoAP
+      [OK]
 
-AT+WSEC=0,WPA2,12345678
-[OK]
+      AT+WSEC=0,WPA2,12345678
+      [OK]
 
-AT+WNET=1
-[OK]
+      AT+WNET=1
+      [OK]
 
-AT+WJOIN
-Joining : WizFiDemoAP
-Successfully joined : WizFiDemoAP
+      AT+WJOIN
+      Joining : WizFiDemoAP
+      Successfully joined : WizFiDemoAP
 
-[Link-Up Event]
-  IP Addr    : 192.168.12.10
-  Gateway    : 192.168.12.1
-[OK]
+      [Link-Up Event]
+        IP Addr    : 192.168.12.10
+        Gateway    : 192.168.12.1
+      [OK]
 
-AT+SCON=O,TCN,192.168.12.23,5000,,0
-[OK]
+      AT+SCON=O,TCN,192.168.12.23,5000,,0
+      [OK]
 
 [CONNECT 0]
 <SO> Open at Once & Register as a Service
 When using this parameter, you can use functions of <S> and <O> at the same time. When using this parameter, WizFi250 will try to connect to peer system momentarily. And if you restart WizFi250, WizFi250 will try to connect to AP and peer system.
+>
+      
+      AT+WLEAVE
+      [OK]
 
-AT+WLEAVE
-[OK]
+      AT+WSET=0,WizFiDemoAP
+      [OK]
 
-AT+WSET=0,WizFiDemoAP
-[OK]
+      AT+WSEC=0,WPA2,12345678
+      [OK]
 
-AT+WSEC=0,WPA2,12345678
-[OK]
+      AT+WNET=1
+      [OK]
 
-AT+WNET=1
-[OK]
+      AT+WJOIN
+      Joining : WizFiDemoAP
+      Successfully joined : WizFiDemoAP
 
-AT+WJOIN
-Joining : WizFiDemoAP
-Successfully joined : WizFiDemoAP
+      [Link-Up Event]
+        IP Addr    : 192.168.12.10
+        Gateway    : 192.168.12.1
+      [OK]
 
-[Link-Up Event]
-  IP Addr    : 192.168.12.10
-  Gateway    : 192.168.12.1
-[OK]
+      AT+SCON=SO,TCN,192.168.12.23,5000,,0
+      [OK]
+      [CONNECT 0]
 
-AT+SCON=SO,TCN,192.168.12.23,5000,,0
-[OK]
-[CONNECT 0]
+      AT+MPROF=S
+      [OK]
 
-AT+MPROF=S
-[OK]
+      AT+MRESET
+      [OK]
 
-AT+MRESET
-[OK]
+      WizFi250 Version 0.9.0.0 (WIZnet Co.Ltd)
+      Joining : WizFiDemoAP
+      Successfully joined : WizFiDemoAP
 
-WizFi250 Version 0.9.0.0 (WIZnet Co.Ltd)
-Joining : WizFiDemoAP
-Successfully joined : WizFiDemoAP
+      [Link-Up Event]
+        IP Addr    : 192.168.12.10
+        Gateway    : 192.168.12.1
 
-[Link-Up Event]
-  IP Addr    : 192.168.12.10
-  Gateway    : 192.168.12.1
+      [CONNECT 0]
 
-[CONNECT 0]
 
-2013/09/04 13:22 · jeonggw
 
-Example of SSL Connection
+### Example of SSL Connection
 
 This section explains how to connect to and communicate with SSL server. To connect to SSL server, use <TCS(TCP Client SSL)> / <TSS(TCP Server SSL)> parameter of <AT+SCON> command. ( When using UDP, WizFi250 cannot use SSL Connection. ) In order to use SSL connection, you can use AT command as below.
+>
 
-AT+SCON=SO,TCS,199.59.148.212,443,5000,0
-[OK]
+      AT+SCON=SO,TCS,199.59.148.212,443,5000,0
+      [OK]
 
-[CONNECT 0]
-AT+SSEND=0,,,18
-GET / HTTP/1.1{0x0d}{0x0a}
-{0x0d}{0x0a}
-[OK]
+      [CONNECT 0]
+      AT+SSEND=0,,,18
+      GET / HTTP/1.1{0x0d}{0x0a}
+      {0x0d}{0x0a}
+      [OK]
+      
 {0,173.194.33.38,443,990}HTTP/1.1 302 Found
 Location: https://www.google.co.kr/
 Cache-Control: private
@@ -398,62 +407,63 @@ X-Frame-Options: SAMEORIGIN
 </BODY></HTML>
  [DISCONNECT 0]
 
-2013/09/04 13:22 · jeonggw
 
-Example of Multi Socket Connection
+
+### Example of Multi Socket Connection
 
 This section explains how to use <Multi Socket Connection> function. WizFi250 can use max 8 TCP or UDP sockets. In order to use <Multi Socket Connection> function, you can use AT command as below. In this example, the peer system was running a loop back program. So if peer system received data from WizFi250, peer system will send received data to WizFi250.
 
-AP Association
+#### AP Association
+>
 
-AT+SCON=O,TCN,192.168.12.23,5000,5001,0
-[OK]
+      AT+SCON=O,TCN,192.168.12.23,5000,5001,0
+      [OK]
 
-[CONNECT 0]
-AT+SCON=O,TSN,,,6000,0
-[OK]
+      [CONNECT 0]
+      AT+SCON=O,TSN,,,6000,0
+      [OK]
 
-[CONNECT 1]
-AT+SCON=O,UCN,192.168.12.23,7000,7000,0
-[OK]
+      [CONNECT 1]
+      AT+SCON=O,UCN,192.168.12.23,7000,7000,0
+      [OK]
 
-[CONNECT 2]
-AT+SCON=O,USN,,,8000,0
-[OK]
+      [CONNECT 2]
+      AT+SCON=O,USN,,,8000,0
+      [OK]
 
-[CONNECT 3]
-AT+SMGMT=?
-Number of Sockets : 4 (SCID/Socket/Mode/Remote/Local/DataMode)
-0/TCN/192.168.12.23:5000/5001/0
-1/TSN/192.168.12.23:58769/6000/0
-2/UCN/192.168.12.23:7000/7000/0
-3/USN/0.0.0.0:/8000/0
-[OK]
+      [CONNECT 3]
+      AT+SMGMT=?
+      Number of Sockets : 4 (SCID/Socket/Mode/Remote/Local/DataMode)
+      0/TCN/192.168.12.23:5000/5001/0
+      1/TSN/192.168.12.23:58769/6000/0
+      2/UCN/192.168.12.23:7000/7000/0
+      3/USN/0.0.0.0:/8000/0
+      [OK]
 
-AT+SSEND=0,,,16
-Hello_TCP_Client
-[OK]
+      AT+SSEND=0,,,16
+      Hello_TCP_Client
+      [OK]
 
-{0,192.168.12.23,5000,16}Hello_TCP_Client
+      {0,192.168.12.23,5000,16}Hello_TCP_Client
 
-AT+SSEND=1,,,16
-Hello_TCP_Server
-[OK]
+      AT+SSEND=1,,,16
+      Hello_TCP_Server
+      [OK]
 
-{1,192.168.12.23,58769,16}Hello_TCP_Server
+      {1,192.168.12.23,58769,16}Hello_TCP_Server
 
-AT+SSEND=2,,,16
-Hello_UDP_Client
-[OK]
+      AT+SSEND=2,,,16
+      Hello_UDP_Client
+      [OK]
 
-{2,192.168.12.23,7000,16}Hello_UDP_Client
-{3,192.168.12.23,8000,16}Hello_UDP_Server
-AT+SSEND=3,,,16
-Hello_UDP_Server
-[OK]
+      {2,192.168.12.23,7000,16}Hello_UDP_Client
+      {3,192.168.12.23,8000,16}Hello_UDP_Server
+      AT+SSEND=3,,,16
+      Hello_UDP_Server
+      [OK]
 
 
-Air Command mode - WizFi250AirCmd
+#### Air Command mode - WizFi250AirCmd
 
 This section explains how to operate Air-command-mode of WizFi250. With this Air-command-mode included in the WizFi250, you can issue AT commands to the module via WiFi, while the WizFi250 is in the TCP server or UDP server operation mode.
 
@@ -469,45 +479,47 @@ The command header “WizFi250AirCmd:” is case sensitive and has to be sent in
 A <Carriage Return, 0x1d> has to follow the AT command directly.
 Air-command header, AT command and Carriage Return should be combined into one packet.
 Example usage of the WizFi250AirCmd:
+>
 
-AT+WSET=1,WizFi250_AIRCMD
-[OK]
-AT+WSEC=1,WPA2,123456789
-[OK]
-AT+WNET=0,192.168.11.1,255.255.255.0,192.168.11.1
-[OK]
-AT+WJOIN
- 
-[Link-Up Event]
-  IP Addr    : 192.168.11.1
-  Gateway    : 192.168.11.1
-[OK]
- 
-AT+MAIRCMD=O,T,50001,0
-[OK]
+      AT+WSET=1,WizFi250_AIRCMD
+      [OK]
+      AT+WSEC=1,WPA2,123456789
+      [OK]
+      AT+WNET=0,192.168.11.1,255.255.255.0,192.168.11.1
+      [OK]
+      AT+WJOIN
+
+      [Link-Up Event]
+        IP Addr    : 192.168.11.1
+        Gateway    : 192.168.11.1
+      [OK]
+
+      AT+MAIRCMD=O,T,50001,0
+      [OK]
 
 Now, TCP Client can connect to the WizFi250 and issue the AT commands via WiFi as below.
+>
 
-(TCP Client TX) 
-WizFi250AirCmd:AT+MINFO\r (24 Byte)
-(RX) 
-FW version/HW version
-1.0.1.8/WizFi250 Rev 1.0
-[OK]
- 
-(TCP Client TX) 
-WizFi250AirCmd:AT+WSEC=?\r (25 Byte)
-(RX) 
-1,WPA2,123456789
-[OK]
- 
-(TCP Client TX) 
-WizFi250AirCmd:AT+WSEC=1,WPA2,aaaabbbb\r (39 Byte)
-(RX) 
-[OK]
- 
-(TCP Client TX) 
-WizFi250AirCmd:AT+MMAC=?\r (25 Byte)
-(RX) 
-00:08:DC:00:55:76
-[OK]
+      (TCP Client TX) 
+      WizFi250AirCmd:AT+MINFO\r (24 Byte)
+      (RX) 
+      FW version/HW version
+      1.0.1.8/WizFi250 Rev 1.0
+      [OK]
+
+      (TCP Client TX) 
+      WizFi250AirCmd:AT+WSEC=?\r (25 Byte)
+      (RX) 
+      1,WPA2,123456789
+      [OK]
+
+      (TCP Client TX) 
+      WizFi250AirCmd:AT+WSEC=1,WPA2,aaaabbbb\r (39 Byte)
+      (RX) 
+      [OK]
+
+      (TCP Client TX) 
+      WizFi250AirCmd:AT+MMAC=?\r (25 Byte)
+      (RX) 
+      00:08:DC:00:55:76
+      [OK]
