@@ -94,52 +94,63 @@ For software and driver development, WIZnet provides extensive technical documen
 |18	|NC(GPIOA7)|	-|	-|
 |19	|NC(GPIOA6)|	-	|-|
 |20|	GND|	-|	Ground|
-21	GND	-	Ground
-22	VCC 3.3V	-	3.3V power supply
-23	TXD	-	Serial data communication interface send
-24	RTS	-	Serial flow control pin, ready to receive data/request the other party to send data (Active low)
-25	CTS	-	Serial flow control pin, ready to send data/request each other to send data (Active low, High level cannot send/Low level can send data)
-26	RXD	-	Serial data communication interfece receive
-27	NC(GPIOC7)	-	-
-28	FUNC	-	-
-29	NC(GPIOB3)	-	-
-30	NC(GPIOB2)	-	-
-31	LOG RX	-	-
-32	LOG TX	-	-
-33	GND	-	Ground
-34	NC	-	-
-35	NC	-	-
-2016/05/11 15:47 · jehoon song
-Electrical Specification
-General specification
-ITEMS	CONTENTS
-Operating frequency	2.400 ~ 2.4835Ghz
-WiFi standard	802.11b/g/n
-Modulation	11b: DBPSK,DQPSK and CCK and DSSS
-11g: BPSK,QPSK16Qam,64QAM and OFDM
-11n: MCSO-15 OFD
-Data rates	11b: 1,2,5.5 and 11Mbps
-11g:6,9,12,18,24,36,48, and 54Mbps
-11n:MCSO-15, up to 150Mbps
-Host interface	UART
-Dimensions	Typical (L x W): 21mm x 18mm
-Operation Temperature	-20°C to +85°C
-Storage Temperature	-55°C to +125°C
-Operation Voltage	3.3V±0.2V
-802.11g Mode
-ITEMS	CONTENTS
-Specification	IEEE802.11g
-Mode	OFDM
-Channel	CH1 to CH13
-Data rate	6, 9, 12, 18, 24, 36, 48, 54Mbps
-Power level(calibrated)	Minimum	Typical	Maximum	Unit	Note
-16dBm Target(For each antenna Port)	12	14	16	dBm	
-Constellation error(EVM)@target power	Minimum	Typical	Maximum	Unit	Note
-54Mbps	-	-30	-28	dB	
-Frequency error	-25	0	+25	kHz	
-Minimum input level sensitivity	Minimum	Typical	Maximum	Unit	Note
-54Mbps	-	-78	-	dBm	
-Maximum input level(PER ≤ 10 %)	-	-10	-	dBM	
+|21	|GND|	-|	Ground|
+|22|	VCC 3.3V|	-|	3.3V power supply|
+|23	|TXD	|-	|Serial data communication interface send|
+|24|	RTS|	-|	Serial flow control pin, ready to receive data/request the other party to send data (Active low)|
+|25|	CTS|	-	|Serial flow control pin, ready to send data/request each other to send data (Active low, High level cannot send/Low level can send data)|
+|26|	RXD|	-|	Serial data communication interfece receive|
+|27|	NC(GPIOC7)	|-|	-|
+|28|	FUNC|	-|	-|
+|29|	NC(GPIOB3)|	-	|-|
+|30|	NC(GPIOB2)|	-|	-|
+|31|	LOG RX|	-	|-|
+|32	|LOG TX|	-|	-|
+|33|	GND|	-	|Groun
+|34|	NC|	-|	-|
+|35	|NC|	-|	-|
+
+
+### Electrical Specification
+#### General specification
+|**ITEMS	|CONTENTS**|
+|---------|----------|
+|**Operating frequency**	|2.400 ~ 2.4835Ghz|
+|**WiFi standard**|	802.11b/g/n|
+|**Modulation**|	11b: DBPSK,DQPSK and CCK and DSSS,11g: BPSK,QPSK16Qam,64QAM and OFDM,
+11n: MCSO-15 OFD|
+|**Data rates**|11b: 1,2,5.5 and 11Mbps,11g:6,9,12,18,24,36,48, and 54Mbps,11n:MCSO-15, up to 150Mbps|
+|**Host interface**|	UART|
+|**Dimensions**|	Typical (L x W): 21mm x 18mm|
+|**Operation Temperature**|	-20°C to +85°C|
+|**Storage Temperature**|	-55°C to +125°C|
+|**Operation Voltage**|	3.3V±0.2V|
+
+#### 802.11g Mode
+
+|ITEMS|	CONTENTS|
+|-----|---------|
+|**Specification**|	IEEE802.11g|
+|**Mode**|	OFDM|
+|**Channel**|	CH1 to CH13|
+|**Data rate**|	6, 9, 12, 18, 24, 36, 48, 54Mbps|
+
+------
+|Power level(calibrated)|	Minimum	|Typical|	Maximum	|Unit	|Note|
+|-----------------------|---------|-------|---------|----|-----|
+|16dBm Target(For each antenna Port)|	12|	14|	16|	dBm	|
+
+------
+|Constellation error(EVM)@target power|	Minimum	|Typical|	Maximum	|Unit	|Note|
+|-------------------------------------|---------|-------|---------|-----|----|
+|54Mbps|	-	|-30|	-28	|dB	||
+|Frequency error|	-25|	0	|+25|	kHz	||
+
+----------
+|Minimum input level sensitivity	|Minimum	|Typical	|Maximum|	Unit	|Note|
+|54Mbps	|-	|-78|	-	|dBm|||	
+Maximum input level(PER ≤ 10 %)|-|	-10	|-	|dBM||
+
 802.11n HT20 Mode
 ITEMS	CONTENTS
 Specification	IEEE802.11n HT20@2.4Ghz
