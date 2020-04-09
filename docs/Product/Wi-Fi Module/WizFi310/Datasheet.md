@@ -149,7 +149,7 @@ For software and driver development, WIZnet provides extensive technical documen
 ----------
 |Minimum input level sensitivity	|Minimum	|Typical	|Maximum|	Unit	|Note|
 |54Mbps	|-	|-78|	-	|dBm|||	
-Maximum input level(PER ≤ 10 %)|-|	-10	|-	|dBM||
+|Maximum input level(PER ≤ 10 %)|-|	-10	|-	|dBM||
 
 #### 802.11n HT20 Mode
 
