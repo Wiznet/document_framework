@@ -512,7 +512,7 @@ Reserved
     
   *  **Meaning:** 현재 시리얼 설정값을 표시한다
   
-  *  **Response:
+  *  **Response:**
  >
  
     [S,,115200,8,N,1,0]
