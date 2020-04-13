@@ -82,7 +82,7 @@ WIZ550web의 GET/SET interface를 위한 CGI 리스트는 아래와 같다.
 |get_ain0.cgi ~ get_ain3.cgi	|Get ADC info per port|
 
 |Section|	CGI name|	JavaScript Callback Parameter	|Return Type|	Description|Value (Example)|	Note|
-|---------|------|--------------------------------|----------|---------|------|
+|---------|------|--------------------------------|----------|---------|------|---|
 |Device Information|	get_devinfo.cgi|	fwver|	String|	Firmware version|	1.0.0|	-|
 |||devname	|String|	Device name|	WIZ550web|	-|
 |||pcode|	String|	Product identifier|	1-2-0	For WIZ configuration tool mac	String	MAC address	00:08:DC:xx:xx:xx|	-|
