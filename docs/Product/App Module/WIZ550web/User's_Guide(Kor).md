@@ -482,7 +482,8 @@ Reserved
 |O	|ODD|
 |E	|EVEN|
 
-<S>: Stop bit
+
+: Stop bit
     
 |Parameter|	Meaning|
 |---------|--------|
