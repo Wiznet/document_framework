@@ -1,7 +1,7 @@
 ---
 id: series_update_history-[EN]
 title: Series Update History-[EN]
-date: 2020-03-
+date: 2020-03-08
 ---
 
 ## Content
