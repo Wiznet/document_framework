@@ -1,7 +1,7 @@
 ---
 id: users_guide_kor
 title: User's Guide(Kor)
-date: 2020-03-
+date: 2020-04-13
 ---
 
 
@@ -444,183 +444,335 @@ Reserved
 
 
 
-Format:
-AT+MUSART1=<BR>,<W>,<P>,<S>,<F>
-Meaning: 시리얼 설정값을 읽어오거나 새로운 설정값을 지정한다
+  * **Format:**
+>
+
+    AT+MUSART1=<BR>,<W>,<P>,<S>,<F>
+    
+  * **Meaning:** 시리얼 설정값을 읽어오거나 새로운 설정값을 지정한다
+  
 <BR>: Baud rate
-Parameter	Meaning
-300	300bps
-600	600bps
-1200	1200bps
-2400	2400bps
-4800	4800bps
-9600	9600bps
-19200	19200bps
-38400	38400bps
-57600	57600bps
-115200	115200bps
-230400	230400bps
+    
+|Parameter|	Meaning|
+|---------|--------|
+|300	|300bps|
+|600	|600bps|
+|1200	|1200bps|
+|2400	|2400bps|
+|4800	|4800bps|
+|9600	|9600bps|
+|19200|	19200bps|
+|38400|	38400bps|
+|57600|	57600bps|
+|115200|	115200bps|
+|230400	|230400bps|
+
 <W>: Word length
-Parameter	Meaning
-8	8 bits
-9	9 bits
+    
+|Parameter|	Meaning|
+|---------|---------|
+|8|	8 bits|
+|9|	9 bits|
+
 <P>: Parity bit
-Parameter	Meaning
-N	NONE
-O	ODD
-E	EVEN
+    
+|Parameter	|Meaning|
+|-----------|-------|
+|N	|NONE|
+|O	|ODD|
+|E	|EVEN|
+
 <S>: Stop bit
-Parameter	Meaning
-1	1 bits
-2	2 bits
+    
+|Parameter|	Meaning|
+|---------|--------|
+|1|	1 bits|
+|2|	2 bits|
+
 <F>: Flow Control
-Parameter	Meaning
-0	NONE
-1	RTS/CTS
-Response:
-[S,,<BR>,<W>,<P>,<S>,<F>]
-Example1:
-AT+MUSART1\r\n
-AT+MUSART1?\r\n
-Meaning: 현재 시리얼 설정값을 표시한다
-Response:
-[S,,115200,8,N,1,0]
-Example2:
-AT+MUSART1=,,E,,0\r\n
-Meaning: 새로운 시리얼 설정값을 지정한다. 공백 필드는 변경하지 않고 Parity, Flow control만 변경한다
-Response:
-[S]
-====AT+MUSART2====
+    
+|Parameter|	Meaning|
+|----------|--------|
+|0	|NONE|
+|1	|RTS/CTS|
+
+  * **Response:**
+>
+
+    [S,,<BR>,<W>,<P>,<S>,<F>]
+    
+  * **Example1:**
+>
+
+    AT+MUSART1\r\n
+ >
+ 
+    AT+MUSART1?\r\n
+    
+  *  **Meaning:** 현재 시리얼 설정값을 표시한다
+  
+  *  **Response:
+ >
+ 
+    [S,,115200,8,N,1,0]
+    
+  * **Example2:**
+ >
+ 
+    AT+MUSART1=,,E,,0\r\n
+    
+  * **Meaning:** 새로운 시리얼 설정값을 지정한다. 공백 필드는 변경하지 않고 Parity, Flow control만 변경한다
+  
+  * **Response:**
+>
+   
+     [S]
+
+---
+>
+
+    ====AT+MUSART2====
 
 
+   * **Format:**
+>
 
-
-Format:
-AT+MUSART2=<BR>,<W>,<P>,<S>,<F>
-Meaning: 시리얼 설정값을 읽어오거나 새로운 설정값을 지정한다
+    AT+MUSART2=<BR>,<W>,<P>,<S>,<F>
+    
+   * **Meaning:** 시리얼 설정값을 읽어오거나 새로운 설정값을 지정한다
 <BR>: Baud rate
-Parameter	Meaning
-300	300bps
-600	600bps
-1200	1200bps
-2400	2400bps
-4800	4800bps
-9600	9600bps
-19200	19200bps
-38400	38400bps
-57600	57600bps
-115200	115200bps
-230400	230400bps
+    
+|Parameter	|Meaning|
+|------------|-------|
+|300	|300bps|
+|600|	600bps|
+|1200|	1200bps|
+|2400|	2400bps|
+|4800	|4800bps|
+|9600|	9600bps|
+|19200|	19200bps|
+|38400	|38400bps|
+|57600|	57600bps|
+|115200|	115200bps|
+|230400|	230400bps|
+
 <W>: Word length
-Parameter	Meaning
-8	8 bits
-9	9 bits
+    
+|Parameter|	Meaning|
+|----------|-------|
+|8	|8 bits|
+|9|	9 bits|
+
 <P>: Parity bit
-Parameter	Meaning
-N	NONE
-O	ODD
-E	EVEN
+    
+|Parameter|	Meaning|
+|---------|--------|
+|N	|NONE|
+|O|	ODD|
+|E	|EVEN|
+
 <S>: Stop bit
-Parameter	Meaning
-1	1 bits
-2	2 bits
+    
+|Parameter|	Meaning|
+|---------|--------|
+|1	|1 bits|
+|2|	2 bits|
+
 <F>: Flow Control
-Parameter	Meaning
-0	NONE
-1	RTS/CTS
-Response:
-[S,,<BR>,<W>,<P>,<S>,<F>]
-Example1:
-AT+MUSART2\r\n
-AT+MUSART2?\r\n
-Meaning: 현재 시리얼 설정값을 표시한다
-Response:
-[S,,115200,8,N,1,0]
-Example2:
-AT+MUSART2=,,E,,0\r\n
-Meaning: 새로운 시리얼 설정값을 지정한다. 공백 필드는 변경하지 않고 Parity, Flow control만 변경한다
-Response:
-[S]
-====AT+MSAVE====
+    
+|Parameter|	Meaning|
+|----------|-------|
+|0	|NONE|
+|1	|RTS/CTS|
+
+  * **Response:**
+>
+
+    [S,,<BR>,<W>,<P>,<S>,<F>]
+ ---
+ 
+  * **Example1:**
+>
+
+    AT+MUSART2\r\n
+>
+
+    AT+MUSART2?\r\n
+    
+  * **Meaning:** 현재 시리얼 설정값을 표시한다
+  
+  * **Response:**
+>
+
+     [S,,115200,8,N,1,0]
+     
+  * **Example2:**
+>
+
+    AT+MUSART2=,,E,,0\r\n
+    
+   * **Meaning:** 새로운 시리얼 설정값을 지정한다. 공백 필드는 변경하지 않고 Parity, Flow control만 변경한다
+   
+   *  **Response:**
+>
+
+    [S]
+>
+
+    ====AT+MSAVE====
 
 
 
 
-Format:
-AT+MSAVE
-Meaning: 현재 설정된 정보들을 Flash 메모리에 저장한다
-Response:
-[S]
-====AT+MRST====
+  * **Format:**
+  >
+  
+    AT+MSAVE
+    
+ * **Meaning**: 현재 설정된 정보들을 Flash 메모리에 저장한다
+
+ * **Response:
+>
+
+    [S]
+    
+ ---
+ >
+ 
+    ====AT+MRST====
+
+
+  * **Format:**
+ >
+ 
+    AT+MRST
+    
+ * **Meaning:** 모듈을 리셋한다
+ * **Response:**
+ >
+ 
+    [S]
+    
+#### Function Commands
+
+|Command|	Prop.|	Input Parameter|	Response|
+|AT+FIODIR|	=	|(PIN)|	[S,,(Direction)]|
+||=	|(PIN),(Direction)|	[S]|
+|AT+FIOVAL|	=|	(PIN)|	[S,,(VAL)]|
+||=	|(PIN),(VAL)|	[S]|
+
+---
+>
+
+    ====AT+FIODIR====
 
 
 
 
-Format:
-AT+MRST
-Meaning: 모듈을 리셋한다
-Response:
-[S]
-Function Commands
-Command	Prop.	Input Parameter	Response
-AT+FIODIR	=	(PIN)	[S,,(Direction)]
-=	(PIN),(Direction)	[S]
-AT+FIOVAL	=	(PIN)	[S,,(VAL)]
-=	(PIN),(VAL)	[S]
-====AT+FIODIR====
-
-
-
-
-Format:
-AT+FIODIR=<PIN>
-AT+FIODIR=<PIN>,<Direction>
-Meaning: GPIO Pin Direction을 확인하거나 설정한다
+  * **Format:**
+ >
+ 
+        AT+FIODIR=<PIN>
+        
+   >     
+   
+    AT+FIODIR=<PIN>,<Direction>
+    
+ * **Meaning**: GPIO Pin Direction을 확인하거나 설정한다
+ 
 <PIN> : GPIO Pin Number (1 ~ 16)
 <Direction> : GPIO Pin Direction
 
-Parameter	Meaning
-0	Not Used (Read Only)
-1	Input
-2	Output
-Response:
-[S,,<Direction>]
-[S]
-Example1:
-AT+FIODIR=1\r\n
-Meaning: GPIO Pin 1번 Direction을 표시한다.
-Response:
-[S,,1]
-Example2:
-AT+FIODIR=1,2\r\n
-Meaning: GPIO Pin 1번 Direction을 Output으로 설정한다.
-Response:
-[S]
-====AT+FIOVAL====
+|Parameter|	Meaning|
+|----------|-------|
+|0|	Not Used (Read Only)|
+|1	|Input|
+|2|	Output|
+
+  * **Response:**
+ >
+ 
+    [S,,<Direction>]
+ >
+ 
+     [S]
+     
+---     
+
+   * **Example1:**
+ >
+ 
+    AT+FIODIR=1\r\n
+    
+  * **Meaning**: GPIO Pin 1번 Direction을 표시한다.
+  
+  * **Response:**
+>
+
+    [S,,1]
+    
+  * **Example2:**
+ >
+ 
+    AT+FIODIR=1,2\r\n
+    
+   * **Meaning:** GPIO Pin 1번 Direction을 Output으로 설정한다.
+   
+   * **Response:**
+ >
+ 
+     [S]
+>
+
+    ====AT+FIOVAL====
 
 
+  * **Format:**
+>
 
-
-Format:
-AT+FIOVAL=<PIN>
-AT+FIOVAL=<PIN>,<VAL>
-Meaning: GPIO Pin 입출력을 설정하거나 확인한다.
+    AT+FIOVAL=<PIN>
+ >
+ 
+    AT+FIOVAL=<PIN>,<VAL>
+    
+  * **Meaning**: GPIO Pin 입출력을 설정하거나 확인한다.
+  
 <PIN> : GPIO Pin Number (1 ~ 16)
 <VAL> : GPIO Pin Output Value
 
-Parameter	Meaning
-0	Low
-1	High
-Response:
-[S,,<VAL>]
-[S]
-Example1:
-AT+FIOVAL=1\r\n
-Meaning: GPIO Pin 1번 입출력값을 확인한다.
-Response:
-[S,,1]
-Example2:
-AT+FIOVAL=1,1\r\n
-Meaning: GPIO Pin 1번 출력을 High로 설정한다.(Output Only)
-Response:
-[S]
+|Parameter|	Meaning|
+|---------|---------|
+|0	|Low|
+|1|	High|
+
+   * **Response:**
+>
+
+    [S,,<VAL>]
+ >
+ 
+    [S]
+ 
+ ---
+ 
+  * **Example1:**
+>
+
+    AT+FIOVAL=1\r\n
+    
+   * **Meaning:** GPIO Pin 1번 입출력값을 확인한다.
+   * **Response:**
+>
+
+    [S,,1]
+    
+   * **Example2:**
+>   
+        
+     AT+FIOVAL=1,1\r\n
+     
+   * **Meaning:** GPIO Pin 1번 출력을 High로 설정한다.(Output Only)
+   * **Response:**
+>
+
+    [S]
