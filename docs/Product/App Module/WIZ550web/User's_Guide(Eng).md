@@ -8,78 +8,76 @@ date: 2020-03-
 ## Content
 ## WIZ550WEB Users' Guide
 ### Overview
-WIZ-Embedded WebServer는 소형의 마이컴으로 동작하는 Web Server로써 Web Browser상 에서 디지털 출력포트를 제어하거나 디지털 입력 및 아날로그 입력 값을 모니터링 할 수 있는 Embedded Web Server Application Board입니다. Web Browser에서 보드로 접속하였을 때 출력되는 웹페이지는 보드에 장착된 micro SD slot의 메모리 카드에 저장되어 있으며 네트웍을 통해 디바이스를 컨트롤 할 수 있습니다.
+WIZ550web provides the lightweight webserver operating. It controls digital output or monitors digital and analogue input through web browser. Example web pages is stored in micro SD memory card.
 
-주요기능
+### Features
 
- * HTTP Server로 동작
- * W5500 하드웨어 칩에 의한 안정성 및 신뢰성 확보
- * Configuration Tool Program 제공
- * 10/100 Mbps Ethernet 인터페이스
+ * HTTP Server + Demo pages to control all I/O port
+ * Guarantee system stability and reliability by using the H/W TCP/IP chip W5500
+ * Support extra “Configuration Tool Program” through network.
+ * Support serial configuration like AT commands.
  * RoHS Compliant
-
+ 
+---
 ### TFTP Guide Document
-[TFTP 사용 가이드 문서]()
+[TFTP Guide Document]()
 
-
+---
 ### Configuration Tool
 #### Description
 
-WIZnet Configuration tool은 java 기반으로 구현된 응용프로그램으로 대부분의 OS Platform에서 사용이 가능하다. .jar 파일을 다운로드해서 Java Virtual machine상에서 실행되도록 하면 된다.
-🌎[설치방법](http://xeon011.tistory.com/146)
+WIZnet Configuration tool is an application program which is based on java and can be used in most OS platforms including Windows, MAC OS and Linux. Please download .jar file and execute it over Java Virtual Machine.
 
+WIZnet Configuration tool consists four sections
 
-WIZnet Configuration tool은 다음과 같이 크게 네개 부분으로 구성되어져 있다.
+1) Common Configuration Section
+2) Network Configuration Section
+3) Serial Configuration Section
+4) Option Configuration Section
 
-1) Common Configuration 부분
-2) Network Configuration 부분
-3) Serial Configuration 부분
-4) Option Configuration 부분
-WIZ550WEB은 1), 2) 두가지 항목과 4) 항목의 “Module Name”, “Setting Password” 기능을 설정 할 수 있다.
-다른 설정 항목들은 WIZ550WEB의 웹페이지를 통해 설정 할 수 있다.
+You can set the Common Configuration, “IP” of Network configuration with “Module Name” and “Setting Password” of Option configuration section for WIZ550WEB.
 
-**Notice) WIZnet Configuration Tool 1.02 버전 부터 WIZ550WEB의 설정을 지원한다.**
+**Notice) You can set WIZ550WEB module through WIZnet Configuration Tool version 1.02 or the latest version.**
 
 #### Common Configurations
 
 #### Search
-Search 기능은 같은 LAN 상에 존재하는 모든 모듈을 검색하는 데 사용된다. UDP 브로드캐스트를 사용하여, 동일한 Subnet 상의 모든 모듈이 검색되면, 해당 모듈의 MAC Address가 표시 된다.
+The Search function is used to search for all existing modules on the same LAN. By using UDP broadcast, it finds all modules on the same subnet, and found devices will be listed in the “Serial to Ethernet” tree(Search Window) with its MAC address.
 
 #### Setting
-본 기능은 모듈의 각종 옵션 또는 설정 값을 변경할 때 사용하는 기능이다. 모든 설정값 변경 또는 선택 후에 “Setting” 버튼을 눌러야 그 값이 모듈에 반영이 되고, 변경된 값은 모듈내의 EEPROM에 저장되어 모듈의 전원이 차단되는 경우에도 그 설정 값이 유지되게 된다.
-설정 값을 변경하는 과정은 다음과 같다.
-
+This function is used to apply your configurations.
+When you select the MAC address from the “Search Window”, the default value of the module will be displayed. Modify your configurations and click “Setting” button to apply your settings. The module will re-initialize and save the changed configurations.
+Users can change the configurations by following the steps below
 >
 
-    1. "Search Windows”에서 설정 값을 변경할 모듈의 MAC Address를 선택(클릭)하면, 
-       해당 모듈에 저장되어 있는 설정 값이 각 필드에 표시 된다.
-    2. 원하는 필드의 설정 값을 변경하고
-    3. "Setting" 버튼을 누르면, 패스워드 입력창이 뜬다.
-      - 기본 패스워드는 "WIZnet" 이다.
-    4. "Setting Password"를 입력하고 OK 버튼을 누르면, configuration 작업이 완료되며,
-    5. 변경된 configuration으로 초기화 된다. (모듈이 자동으로 re-booting 됨)
-    6. 변경된 configuration을 확인하기 위해서는 Search 버튼을 눌러서 모듈을 다시 검색한다.
+    1. Select the MAC address of the device which you would like to modify in the 
+      “Search Window”
+    2. Modify the settings according to your needs
+    3. Click the “Setting” button and then "Password Input Windows" pop up
+      - Default Password is "WIZnet"
+    4. Input "Setting Password" and Click "OK" button
+    5. The module will be initialized by a re-booting process
+    6. To verify your settings, please click ‘Search’ button and view your new 
+      settings
     
-#### F/W Uploading
-TFTP를 통하여 펌웨어를 업로드 한다. “F/W Uploading” 버튼을 누르면 아래의 창이 뜨며, 설정 정보들을 입력한 뒤 “OK” 버튼을 누르면 업데이트가 진행된다.
+#### F/W Uploading.
+Firmware will be uploaded through TFTP. Click “F/W Uploading” Button and a popup window will shows as follow.
 
 >
 
-        Server IP : 
-            TFTP 서버 IP
-        Server Port : 
-            TFTP 서버 Port (TFTP default Port : 69)
-        File Name : 
-            펌웨어 파일 이름
-        Password : 
-            설정 패스워드
-☞ 현재 Configuration tool은 TFTP를 지원하지 않는다. 그러므로 별도의 TFTP 서버 프로그램을 사용하여 펌웨어를 업로드 해야 한다.
+        Server IP : TFTP Server IP   
+        Server Port :  TFTP Server Port (TFTP default Port : 69)
+        File Name :Firmware File Name
+        Password : Setting Password
+            
+☞ WIZnet Configure tool does not supported TFTP server. So please use TFTP program separately.
 
 #### Reset
-이 기능은 모듈을 Reset(재부팅) 하는 기능으로 설정 시 “Setting Password”를 요구한다.
+This is the function which makes Module reboot. This requires password to reboot.
 
 #### Factory Reset
-이 기능은 모든 설정을 factory default 설정으로 초기화 하는 기능으로 설정 시 “Setting Password”를 요구한다. Factory default 값은 아래 표와 같다.
+
+All setting value is initialized to factory default, if the “Factory Reset” button is clicked. Factory default values of Module are listed below.
 
 |**Category	|Item|	Value**|
 |---------|-----|------|
@@ -88,30 +86,30 @@ TFTP를 통하여 펌웨어를 업로드 한다. “F/W Uploading” 버튼을 �
 ||Local Subnet	|255.255.255.0|
 
 #### Exit
-Configuration tool 프로그램을 종료한다.
+Close the configuration tool program window.
 
 #### Search Window
-“Search” 버튼을 선택하면, 동일 Subnet 상의 모든 모듈의 MAC Address가 표시 된다.
+If you click the “Search” button, all MAC addresses on the same subnet will be displayed.
 
 #### Search Method
 Reserved
 
 #### Firmware Version
-펌웨어 버전을 표시한다.
+It displays the firmware version.
 
 ### Network Configurations
 
 
 #### IP
-모듈의 IP 정보를 설정하는 섹션이다.
+This section is for setting Module mode's network information
 >
 
     IP: 
-        모듈의 IP Address
+        Module's IP Address
     Gateway: 
-        모듈의 Gateway Address
+        Module's Gateway Address
     Subnet mask: 
-        모듈의 Subnet Mask
+        Module's Subnet Mask
 
 ☞ If you are unclear about your Local IP, Subnet Mask, Gateway information, you have to get this information from your network administrator. If the IP address is not correct, IP collision or network problems may occur.
 
@@ -119,28 +117,28 @@ Reserved
 
 
 #### Module Name
-각 모듈에 설정된 이름이 표시 된다.
+The device name is displayed in this area.
+User can use this name to distinguish this module with others
 #### Password
-이 기능은 인증을 위한 패스워드를 설정하는 섹션이다.
->
+Currently active for WIZ550web: Field “Setting Password”.
 
-    Setting Password : 
-        "Setting", "F/W Uploading", "Reset", "Factory Reset" 시 인증을 위한 패스워드
+In this area the password for updating the settings can be changed. Critical functions like “Setting”, “Firmware Upload”, “Reset” and “Factory Reset” need this password to try issued action and avoid unauthorized users' command. If the user wants to replace the current or default Setting Password by a new one, this field should be updated with the new one before clicking on the “Setting” button and entering the old Setting Password.
+
+Please note: the default Setting Password is **“WIZnet”** (without the brackets).
         
 
-## AT Commands Set
+## WIZ550WEB AT Command Set
+This section provides a list of WIZ550WEB AT commands and their functions. Users can input commands and parameters through USART line. Every command starts with “AT”. Any other initial character will cause an error in return. Commands and parameters are all ASCII characters, i.e. when you input 'AT+NSTAT', you should input ASCII characters 'A', 'T', '+', 'N', 'S', 'T', 'A', 'T' and 'Enter Key' which is CR, LF (0x0d, 0x0A).
 
-이 장에서는 WIZ550WEB의 AT commands 목록과 개별 command에 대한 상세 정보를 제공한다. AT command와 해당 인자들은 UART 라인을 통해서 입력된다. 모든 명령어들은 문자열 “AT”로 시작하고 그외 다른 문자열로 시작하는 경우에는 에러가 리턴된다. 명령과 인자들은 모두가 ASCII 문자셋이다. 즉, 사용자가 “AT+NSTAT”를 입력하고자 한다면 ASCII 문자 'A', 'T', '+', 'N', 'S', 'T', 'A', 'T'와 CR(0x0D), LF(0x0A)를 순차적으로 입력해야한다.
+ **! All commands should be terminated with CR(0x0D), LF(0x0A)**
+ 
+Some parameters are mandatory and others are optional. Parameters must be entered in the order of format column given by the command tables. Although the optional parameter is not used, the comma delimiters ',' must still be included in the command. In most cases, valid commands return the character [S] and invalid inputs return [F]. The possible responses sent from WIZ550WEB to the user are described as Responses. Below are examples of user input. As you can see, WIZ550WEB return “\r\n” back instead of “\r”, which means user (host system) always handle '\r\n' as the only delimiter.
 
-모든 명령어는 항상 **CR(0x0D), LF(0x0A)** 로 끝나야한다.
 
-어떤 인자들은 필수항목이고 또 다른 항목들은 옵션이다. 인자들은 명령어 표에 제시된 것과 같은 순서로 입력해야한다. 옵션 항목들이 사용하지 않는 경우라 할지라도 콤마 구분자는 반드시 명령어에 포함해야한다. 대부분의 경우에, 명령어가 유효한 경우에 WIZ550WEB는 [S]를 응답하고, 잘못된 명령에는 [F]를 응답한다. WIZ550WEB가 내 보낼 수 있는 응답은 [Responses]()에 표시되어져있다.
 
-아래는 사용자가 입력할 수 있는 예제들이다. 예제에서 볼 수 있는 것처럼, WIZ550WEB의 응답에도 항상 “\r\n”가 존재한다.
-
-|사용자의 입력	|AT\r\n (0x61 0x74 0x0d 0x0a)|
+|Input by User	|AT\r\n (0x61 0x74 0x0d 0x0a)|
 |---------------|---------------------------|
-|WIZ550WEB의 응답|	[S]\r\n (0x5b 0x53 0x5d 0x0d 0x0a)|
+|Output from WIZ550WEB|	[S]\r\n (0x5b 0x53 0x5d 0x0d 0x0a)|
 
 ---
 ### Responses
@@ -149,32 +147,39 @@ Reserved
 
     [(Type),(Id),(Param1),(Param2),(Param3),(Param4),(Param5),(Param6)]↓(Data)↓
     
-  * (Type): 응답의 종류. 'S', 'D', 'F', 'W', 'R', 'V' 중의 하나.
-  * (Id): 소켓 구분자. 이 인자는 비동기 모드일 때 필수항목이다.
-  * (Param1) ~ (Param6): 모듈의 각종 설정값을 확인할 때 모듈에 의해서 필수적으로 포함된다.
-  * ↓: 이것은 엔터키를 의미하며, 그 실제값은 CR(0x0D), LF(0x0A)이다.
-  * (Data): 가변길이의 많은 데이터가 필요할 때, 응답 종류 'D'와 'R'에 뒤따라서 'Data'가 출력된다.
+  * (Type): Type of response. It can be one of S, D, F, W, R and V.
+  * (Id): Socket Identifier. This is the mandatory in Async mode.
+  * (Param1) ~ (Param6): ): These are included in case of commands retrieving module's     setting value.
+  * ↓: This means 'Enter' key as delimiter and CR, LF(0x0d, 0x0a) are its real value.
+  * (Data): When huge data are needed, 'Data' will be followed in case of Type of 
+     response, D and R.
 
-응답 종류별 세부적인 내용은 다음과 같다.
+
+Responses are listed below.
 
 |**Response|	Description**|
 |--------|-------------|
-|Success Response	|[S,(Id),(Param1),(Param2),(Param3),(Param4),(Param5),(Param6)]↓ 명령 수행 성공. 필요한 경우, 인자를 포함한 응답|
-|Success Dump Response	|[D,(Id),(Size)]↓(Data)↓ 명령 수행 성공. 대용량 데이터를 포함한 응답.|
-|Fail Response|	[F,(Id),(ErrorCode),(ErrorParam)]↓ 명령 수행 실패, 필요한 경우 에러코드 포함한 응답|
-|Wait Response	|[W,(Id)]↓ 비동기 모드로 명령이 수행중임. 완료시 ID를 이용해서 표시함.|
-|Data Receive Response	|[R,(SockId),(ReceivedSize),(SrcIP),(SrcPort)]↓(Data)↓데이터 수신을 알림. 소켓 ID로 수신 대상 구분.|
-|Event Response|	[V,(Id),(EventCode)]↓이벤트 발생 알림.|
+|Success Response	|[S,(Id),(Param1),(Param2),(Param3),(Param4),(Param5),(Param6)]↓ 
+Responses are listed below.|
+|Success Dump Response	|[D,(Id),(Size)]↓(Data)↓ .Command Request Success, Outputs large data include 'Enter key' value.|
+|Fail Response|	[F,(Id),(ErrorCode),(ErrorParam)]↓Command Request Fail, outputs with param when it's needed. |
+|Wait Response	|[W,(Id)]↓ Command is started with ID in Async mode.|
+|Data Receive Response	|[R,(SockId),(ReceivedSize),(SrcIP),(SrcPort)]↓(Data)↓Outputs the received data.|
+|Event Response|	[V,(Id),(EventCode)]↓.Event occurred.|
 
-  * (Id): 0 - 시스템 ID or 0~n - 소켓 지정자
-  * (Size): 출력한 데이터의 길이
-  * (ErrorCode): 에러 코드
-  * (ErrorParam): 에러 코드를 위한 Description 값
-  * (SockId): 데이터를 수신한 소켓의 소켓 구분자
-  * (ReceivedSize): 수신 데이터의 사이즈
-  * (SrcIP): 송신자의 IP 주소. 이 인자는 UDP 소켓의 경우에는 필수 항목이지만, TCP 소켓의 경우에는 생략될 수 있다.
-  * (SrcPort): 송신자 소켓의 포트 넘버. UDP 소켓의 경우에는 필수 항목이다.
-  * (EventCode): 어떤 이벤트가 발생했는지에 대한 표시자.
+  * (Id): 0 - System ID or 0~n - Socket Number
+  * (Size): Byte size of the output data
+  * (ErrorCode): Error Code
+  * (ErrorParam): Value of description for Error Code
+  * (SockId): Socket Identifier of the socket which received data
+  * (ReceivedSize): Byte size of received data
+  * (SrcIP): Sender's IP address. This is mandatory in case of UDP & TCP Client. In 
+    case of TCP Server this is omitted.
+  * (SrcPort): Sender socket's port number. This is mandatory in case of UDP & TCP
+    Client. In case of TCP Server this is omitted.
+  * (EventCode): Indication of which event happened.
+
+ 
 
 #### Error Code
 
@@ -182,26 +187,26 @@ Reserved
 
 |Code	|Error Name|	Description|
 |--------|---------|----------------|
-|0	|ERR_Undefined|	정의되지 않은 오류|
-|1|	ERR_WrongOperator|	잘못된 명령어|
-|2	|ERR_WrongCommandSign|	잘못된 명령 부호|
-|3|	ERR_WrongArguments|	잘못된 인자들|
-|4|	ERR_OurofRange	|지정범위를 벗어난 인자들|
-|5|	ERR_FuncDisabled|	지정된 함수 사용불가|
-|6	|ERR_NotAllowed	|허용되지 않음음|
-|7|	ERR_CommandBusy|	명령 수행중|
-|8	|ERR_CommandTimeout|	명령 타임아웃|
+|0	|ERR_Undefined|Undefined Error	|
+|1|	ERR_WrongOperator|	Wrong Operator|
+|2	|ERR_WrongCommandSign|		Wrong Command Sign|
+|3|	ERR_WrongArguments|	Wrong Arguments|
+|4|	ERR_OurofRange	|	Parameter is out of Range|
+|5|	ERR_FuncDisabled|	This function is disabled|
+|6	|ERR_NotAllowed	|Not Allowed|
+|7|	ERR_CommandBusy|	Command Busy|
+|8	|ERR_CommandTimeout|	Command Timeout|
 
 #### Socket Error Code
 
 |Code|	Error Name|	Description|
 |----|------------|-------------|
-|10|	ERR_SockNotAvail|	소켓이 가용하지 않음|
-|11	|ERR_SockClosed|	소켓이 닫힘|
-|12|	ERR_SockPortNumNotAvail|	지정된 포트 넘버가 사용할 수 없음|
-|13	|ERR_SockNotConnected	|연결되지 않음|
-|14|	ERR_SockWrongAddr|	잘못된 주소|
-|15	|ERR_SockDataNotAvailable	|사용가능한 데이터가 없음|
+|10|	ERR_SockNotAvail|Socket Not Available	|
+|11	|ERR_SockClosed|Socket Closed|
+|12|	ERR_SockPortNumNotAvail|	Port Not Available|
+|13	|ERR_SockNotConnected	|Not Connected|
+|14|	ERR_SockWrongAddr|	Wrong Address|
+|15	|ERR_SockDataNotAvailable	|Data Not Available|
 
 #### Other Error Code
 
@@ -215,10 +220,10 @@ Reserved
 
 |Code	|Socket Event Name|	Description|
 |-------|-----------------|-------------|
-|0|	EVENT_SockConnected|	연결됨. 소켓 상태가 Listen 상태에서 연결상태로 변경됨|
-|1|	EVENT_SockDisconnected	|연결해제됨. 소켓 상태가 연결상태에서 연결해제상태로 변경됨|
-|2	|EVENT_SockClosed	|소켓 닫힘. 소켓 상태가 닫힘으로 바뀜|
-|3|	EVENT_SockDataRcvd	|데이터를 수신함. 연관됨 소켓이 상대방으로부터 데이터를 수신함|
+|0|	EVENT_SockConnected|	|Connected. Socket transition from Listen state to established state|
+|1|	EVENT_SockDisconnected	|Disconnected. Socket transition from established state to disconnected state|
+|2	|EVENT_SockClosed	|Closed. Socket transition to closed state|
+|3|	EVENT_SockDataRcvd	|Data Received. The corresponding socket received data from its peer|
 
 #### Network Commands
 
@@ -242,18 +247,19 @@ Reserved
    
         AT+NSET=<DHCP>,<IP>,<SN>,<GW>
         
- * **Meaning:** 네트워크 정보를 확인하거나 설정한다
+ * **Meaning:** Network Configuration
  
-<DHCP>: 정적 IP / 유동 IP 사용 지정
+<DHCP>: Static/DHCP
 
 |Parameter|	Meaning|
 |---------|---------|
 |S|	DHCP Off, Static|
 |D	|DHCP On, DHCP Client|
 
-<IP>: IP 주소 (Optional)
-<SN>: 서브넷 마스크 (Optional)
-<GW>: 게이트웨이 주소 (Optional)
+<IP>: IP Address (Optional)
+<SN>: Subnet Mask (Optional)
+<GW>: Gateway Address (Optional)
+<DNS>: DNS Address (Optional)
 
  * **Response:**
 >
@@ -268,9 +274,9 @@ Reserved
  
     AT+NSET?\r\n
 
- * **Meaning**: 현재 설정된 네트워크 정보를 읽어온다
-
-응답에 담겨진 주소(IP 주소, 서브넷, 게이트웨이 주소)는 실제 주소와 다르고 메모리에 저장된 주소입니다. 특히, DHCP 모드가 켜져 있을 때는 대개 실제 주소와 다릅니다.
+ * **Meaning**: Get Current Network Setting
+ 
+Note that <IP>,<SN>,<GW>,<DNS> address of response are not actual addresses, but addresses stored in the memory. So when DHCP is on, they are usually different from actual addresses.
 
 
  * **Response:**
@@ -286,7 +292,7 @@ Reserved
 
     AT+NSET-2,192.168.11.110\r\n
 
- * **Meaning:** 현재 설정된 네트워크 정보중 두번째 인자인 IP 주소만 지정된 값으로 변경한다
+ * **Meaning:** Update Second Parameter
 
 
  * **Response:**
@@ -310,7 +316,7 @@ Reserved
  
     AT+NSTAT?
     
- * **Meaning:** 현재 네트워크 상태값을 표시한다
+ * **Meaning:** Display Current Network Status
 
  * **Response:**
  >
@@ -325,7 +331,7 @@ Reserved
  
     AT+NSTAT?\r\n
 
- * **Meaning:** 현재 네트워크 상태값을 표시한다
+ * **Meaning:** Display Current Network Status
  * **Response:**
 >
 
@@ -360,7 +366,7 @@ Reserved
 
     AT+NMAC=00:08:dc:1d:bb:8b\r\n
 
-  * **Meaning**: 모듈의 맥주소를 지정된 값으로 변경한다
+  * **Meaning**: Set MAC Address
   * **Response:**
 >
 
@@ -374,7 +380,7 @@ Reserved
   
     AT+NMAC?\r\n
 
-  * **Meaning**: 현재 모듈의 맥주소를 표시한다
+  * **Meaning**: Get MAC Address
   * **Response:**
 >
 
@@ -408,7 +414,7 @@ Reserved
   
         AT
         
-  * **Meaning:** AT 커맨드 모드인지 체크한다
+  * **Meaning:** Terminal Check
   
   * **Response:**
   >
@@ -430,7 +436,7 @@ Reserved
   
     AT+MSTAT?
     
-  * **Meaning:** 현재 펌웨어 버전 정보를 읽어온다
+  * **Meaning:** Get Current Version
   
   * **Response**:
   >
@@ -449,7 +455,7 @@ Reserved
 
     AT+MUSART1=<BR>,<W>,<P>,<S>,<F>
     
-  * **Meaning:** 시리얼 설정값을 읽어오거나 새로운 설정값을 지정한다
+  * **Meaning:** Serial Interface(USART1) Configuration
   
 <BR>: Baud rate
     
@@ -510,7 +516,7 @@ Reserved
  
     AT+MUSART1?\r\n
     
-  *  **Meaning:** 현재 시리얼 설정값을 표시한다
+  *  **Meaning:** Get Serial Interface(USART1) Information
   
   *  **Response:**
  >
@@ -522,8 +528,7 @@ Reserved
  
     AT+MUSART1=,,E,,0\r\n
     
-  * **Meaning:** 새로운 시리얼 설정값을 지정한다. 공백 필드는 변경하지 않고 Parity, Flow control만 변경한다
-  
+  * **Meaning:** Set Serial Interface(USART1) Information
   * **Response:**
 >
    
@@ -540,7 +545,7 @@ Reserved
 
     AT+MUSART2=<BR>,<W>,<P>,<S>,<F>
     
-   * **Meaning:** 시리얼 설정값을 읽어오거나 새로운 설정값을 지정한다
+   * **Meaning:** Serial Interface(USART2) Configuration
 <BR>: Baud rate
     
 |Parameter	|Meaning|
@@ -572,7 +577,7 @@ Reserved
 |O|	ODD|
 |E	|EVEN|
 
-~strike~
+
 <S>: Stop bit
     
 |Parameter|	Meaning|
@@ -586,6 +591,8 @@ Reserved
 |----------|-------|
 |0	|NONE|
 |1	|RTS/CTS|
+|2|RS422|
+|3|RS485|
 
  * **Response:**
 >
@@ -601,7 +608,7 @@ Reserved
 
     AT+MUSART2?\r\n
     
-  * **Meaning:** 현재 시리얼 설정값을 표시한다
+  * **Meaning:** Get Serial Interface(USART2) Information
   
   * **Response:**
 >
@@ -613,7 +620,7 @@ Reserved
 
     AT+MUSART2=,,E,,0\r\n
     
-   * **Meaning:** 새로운 시리얼 설정값을 지정한다. 공백 필드는 변경하지 않고 Parity, Flow control만 변경한다
+   * **Meaning:** Set Serial Interface(USART2) Information
    
    *  **Response:**
 >
@@ -631,7 +638,7 @@ Reserved
   
     AT+MSAVE
     
- * **Meaning**: 현재 설정된 정보들을 Flash 메모리에 저장한다
+ * **Meaning**:Save configuration data to flash
 
  * **Response:**
 >
@@ -649,7 +656,7 @@ Reserved
  
     AT+MRST
     
- * **Meaning:** 모듈을 리셋한다
+ * **Meaning:** Reset Module
  * **Response:**
  >
  
@@ -680,7 +687,7 @@ Reserved
    
     AT+FIODIR=<PIN>,<Direction>
     
- * **Meaning**: GPIO Pin Direction을 확인하거나 설정한다
+ * **Meaning**: Read/Write the Status of GPIO Pin Direction
  
 <PIN> : GPIO Pin Number (1 ~ 16)
 <Direction> : GPIO Pin Direction
@@ -706,7 +713,7 @@ Reserved
  
     AT+FIODIR=1\r\n
     
-  * **Meaning**: GPIO Pin 1번 Direction을 표시한다.
+  * **Meaning**: Read the Direction of GPIO Pin 1
   
   * **Response:**
 >
@@ -718,7 +725,7 @@ Reserved
  
     AT+FIODIR=1,2\r\n
     
-   * **Meaning:** GPIO Pin 1번 Direction을 Output으로 설정한다.
+   * **Meaning:** Write the Direction of GPIO Pin 1 to Output
    
    * **Response:**
  >
@@ -737,7 +744,7 @@ Reserved
  
     AT+FIOVAL=<PIN>,<VAL>
     
-  * **Meaning**: GPIO Pin 입출력을 설정하거나 확인한다.
+  * **Meaning**: Read/Write the Input/Output Value of GPIO Pin
   
 <PIN> : GPIO Pin Number (1 ~ 16)
 <VAL> : GPIO Pin Output Value
@@ -762,7 +769,7 @@ Reserved
 
     AT+FIOVAL=1\r\n
     
-   * **Meaning:** GPIO Pin 1번 입출력값을 확인한다.
+   * **Meaning:** Read the Value of GPIO Pin 1
    * **Response:**
 >
 
@@ -773,7 +780,7 @@ Reserved
         
      AT+FIOVAL=1,1\r\n
      
-   * **Meaning:** GPIO Pin 1번 출력을 High로 설정한다.(Output Only)
+   * **Meaning:** Write the Value of GPIO Pin 1 to High(Output Only)
    * **Response:**
 >
 
