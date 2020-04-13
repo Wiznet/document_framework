@@ -22,7 +22,7 @@ the firmware & web page examples for user’s customization.
       - Data flash initialization
       - Serial debug message
   - **WIZ550web Basic operations and CGI**
-  - \*\*Basic Webpage Demo \*\*
+  - **Basic Webpage Demo**
   - **Examples for WIZ550web customization**
 
 ![](/products/wiz550web/wiz550web_front.png)
@@ -34,15 +34,14 @@ GitHub Repository'**
       - Application / Boot layer Firmware
   - Demo webpage
 
-\<WRAP center download 60% centeralign\> **WIZ550web GitHub Repository**
+**WIZ550web GitHub Repository**
 
-<https://github.com/Wiznet/WIZ550web> \</WRAP\>
+<https://github.com/Wiznet/WIZ550web> 
 
-\<WRAP center info 60% centeralign\> **WIZ550web GitHub Page**
+ **WIZ550web GitHub Page**
 
-<http://wiznet.github.io/WIZ550web> \</WRAP\>
 
-\*\* Develop Environment \*\*
+**Develop Environment**
 
   - Eclipse IDE for C/C++ Developers, Kepler Service Release 2
   - ARM GCC 4.8.3 (2014q1)
@@ -71,12 +70,12 @@ GitHub Repository'**
   - Serial cable x 1
   - 12V Power adapter x 1
 
-\<WRAP tip center centeralign round important 80%\> **WIZ550web module &
+**WIZ550web module &
 EVB support microSD card**
 ![](/products/wiz550web/sdcard/sandisk-4gb-micro-sd-memory-card.mobiles_productpage.left.png)
 \* Provides Sandisk 4GB microSD card but can be substituted with
 different product that has same features depends on manufacturer.
-\</WRAP\>
+
 
 Recommend to use listed SD card in case of using different SD card.
 
@@ -126,7 +125,7 @@ repository](https://github.com/Wiznet/WIZ550web)
 
 ### Data flash Initialization
 
-\<WRAP center round important 95%\> **We support storage method of data
+ **We support storage method of data
 flash as well as SD card after v1.1.0 release.**
 <https://github.com/Wiznet/WIZ550web/releases>
 
@@ -142,15 +141,14 @@ flash as well as SD card after v1.1.0 release.**
     3.  You must copy the web page to a data flash by FTP client
         tool.([ALFTP](http://www.altools.com/ALTools/ALFTP.aspx))
 
-\</WRAP\>
 
 Refer to WIZ550web+FatFS+FTPServer Project Tutorial.
 (<http://youtu.be/XtnT2_CNgaY>)
 
 Refer to WIZ550web+WindowsFTP Tutorial. (<http://youtu.be/kelGSGj3kOQ>)
-\<wrap center round important 60%\> **Need to apply a commit
+**Need to apply a commit
 [cfce843](https://github.com/Wiznet/WIZ550web/commit/cfce843031bf4657fc9530e5c505a9a3d555fc91).**
-\</wrap\>
+
 
 Refer to WIZ550web+LinuxFTP Tutorial. (<http://youtu.be/6qsPZA5QKEI>)
 ### Serial Debug Message
@@ -170,7 +168,7 @@ link status** or **SD Card mount** is not operational.
 1.  **LAN cable connection and Link status (Act LED of the LAN port)**
 2.  **SD card mount status (insertion)**
 
-\</WRAP\>
+
 
 The factory default setting of UART1 is as below and the user can change
 settings through the demo web pages & AT commands.
@@ -261,7 +259,7 @@ on the server.
 
 ## Basic Webpages Demo
 
-\<WRAP center round tip 70%\> The Screenshots of Basic Demo Web Page
+The Screenshots of Basic Demo Web Page
 were captured from **Google Chrome Browser version 37** \</WRAP\>
 
 Provided basic demo web page of WIZ550web is in tab style of one HTML
