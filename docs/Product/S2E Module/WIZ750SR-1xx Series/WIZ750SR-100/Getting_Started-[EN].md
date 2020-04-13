@@ -1,7 +1,7 @@
 ---
 id: getting_started-[EN]
 title: Getting Started-[EN]
-date: 2020-03-
+date: 2020-03-09
 ---
 
 ## Content
