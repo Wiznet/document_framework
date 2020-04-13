@@ -160,8 +160,8 @@ Other common APIs are from set_devinfo.cgi
 |Network Information|	set_netinfo.cgi	|ip	|Param: String|	IP address|	ip= 192.168.11.3	|Including dots|
 |||gw	|Param: String|	Gateway IP address|	gw= 192.168.11.254|
 |||sub|	Param: String|	Subnet Mask	sub= 255.255.255.192|
-|dns|	Param: String|	DNS server IP address|	dns= 168.126.63.1|
-|dhcp|	Param: 0 or 1|	DHCP enable|	dhcp=0|	1 : Enabled 0 : Disabled|
+|||dns|	Param: String|	DNS server IP address|	dns= 168.126.63.1|
+|||dhcp|	Param: 0 or 1|	DHCP enable|	dhcp=0|	1 : Enabled 0 : Disabled|
 |Serial Port Information|	set_uart0info.cgi set_uart1info.cgi	|baud|	Param: 1-digit number|	Baud rate	|baud=8|	0:600,1:1200,2:2400,3:4800,4:9600,5:19200,6:38400,7:57600,8:115200,9:230400
 |||databit|	Param: 8~9|	Data bit|	databit=8|	8:Databit8,9:Databit9|
 |||parity	|Param: 0~2|	Parity bit|	parity=0|	0:None,1:Odd,2:Even|
