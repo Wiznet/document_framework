@@ -207,40 +207,61 @@ configuration tool.
 Change the settings accordingly to the customer’s environment. The test
 shown in this document is based on factory setting.
 
-=== Step 5: Connect ===
-Connect the PC as the TCP client of the user’s serial device for data communication testing. In order to do this, the serial terminal program / TCP client terminal program must be opened on the PC. The serial terminal program and TCP client program must be set as below.
+#### Step 5: Connect
 
-  * Serial terminal program: **115200-8-N-1, Flow control: None**
-  * TCP client program: **192.168.11.2:5000** (The IP address and port number of WIZ750SR)
+Connect the PC as the TCP client of the user’s serial device for data
+communication testing. In order to do this, the serial terminal program
+/ TCP client terminal program must be opened on the PC. The serial
+terminal program and TCP client program must be set as below.
 
-The COM port for serial terminal program connection can be checked as below.
-  * Control Panel > System > Device Manager
+  - Serial terminal program: **115200-8-N-1, Flow control: None**
+  - TCP client program: **192.168.11.2:5000** (The IP address and port
+    number of WIZ750SR)
 
-|  {{ :products:wiz750sr:gettingstarted:windows_devicemanager.png?direct&400 |}}  |
-^  Figure: Device Manager  |
+The COM port for serial terminal program connection can be checked as
+below.
 
+  - Control Panel \> System \> Device Manager
 
-=== Step 6: Verify ===
-The basic data communication of the WIZ752SR-120 can be verified as below.
+|                                                                  |
+| ---------------------------------------------------------------- |
+| ![](/products/wiz750sr/gettingstarted/windows_devicemanager.png) |
+| Figure: Device Manager                                           |
 
-  * **Serial to Ethernet: data communication verification**
-    * Enter the character string in the serial terminal and check if the identical character string appears on the TCP client terminal.
+#### Step 6: Verify
 
-  * **Ethernet to Serial: data communication verification**
-    * Enter the character string in the TCP client terminal and check if the identical character string appears on the serial terminal. 
+The basic data communication of the WIZ752SR-120 can be verified as
+below.
 
-=== Step 7: Done ===
-Now you’re ready to use the WIZ752SR-120!
+  - **Serial to Ethernet: data communication verification**
+      - Enter the character string in the serial terminal and check if
+        the identical character string appears on the TCP client
+        terminal.
 
-  * This document is based on the **assumption of the PC as the serial device / remote network device**. 
+<!-- end list -->
 
-  * The next step is to **connect the WIZ752SR-120 module to the target serial device** and check if the device can **communicate, control, and monitor** via the **remote PC or monitoring server**.
+  - **Ethernet to Serial: data communication verification**
+      - Enter the character string in the TCP client terminal and check
+        if the identical character string appears on the serial
+        terminal. 
 
-----
+#### Step 7: Done
 
-<WRAP center round tip 80% centeralign>
-**If there is any problem?** \\
-Please refer to our **[[products:wiz750sr:troubleshooting:en|Troubleshooting Guide]]**!
-</WRAP>
+Now you’re ready to use the WIZ752SR-120\!
 
-----
+  - This document is based on the **assumption of the PC as the serial
+    device / remote network device**. 
+
+<!-- end list -->
+
+  - The next step is to **connect the WIZ752SR-120 module to the target
+    serial device** and check if the device can **communicate, control,
+    and monitor** via the **remote PC or monitoring server**.
+
+-----
+
+\<WRAP center round tip 80% centeralign\> **If there is any problem?**  
+Please refer to our **[Troubleshooting
+Guide](/products/wiz750sr/troubleshooting/en)**\! \</WRAP\>
+
+-----
