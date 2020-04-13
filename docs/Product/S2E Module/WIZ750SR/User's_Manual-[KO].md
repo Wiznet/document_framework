@@ -1,7 +1,7 @@
 ---
 id: users_manual-[KO]
 title: User's Manual-[KO]
-date: 2020-03-
+date: 2020-03-08
 ---
 
 ## Content
