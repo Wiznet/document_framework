@@ -1,6 +1,6 @@
 ---
-id: trouble_shooting_guide-[EN]
-title: Trouble Shooting Guide-[EN]
+id: trouble_shooting-[EN]
+title: Trouble Shooting-[EN]
 date: 2020-03-13
 ---
 
