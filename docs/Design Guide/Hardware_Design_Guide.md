@@ -1,7 +1,7 @@
 ---
 id: hardware_design_guide
 title: Hardware Design Guide
-date: 2020-03-03
+date: 2020-04-02
 ---
 
 
