@@ -135,7 +135,7 @@ module.exports = {
 		],
 		},
 		'Product/iEthernet/W5500/esd_test_document',
-		'Product/iEthernet/W5500/all_pages'
+		'Product/iEthernet/W5500/all_pages',
 		{
         type: 'category',
         label: 'W5500-EVB',
