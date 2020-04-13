@@ -1,6 +1,6 @@
 ---
-id: getting_started-[EN]
-title: Getting Started-[EN]
+id: getting_started-[KO]
+title: Getting Started-[KO]
 date: 2020-03-
 ---
 
