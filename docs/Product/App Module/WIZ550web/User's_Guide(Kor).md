@@ -176,115 +176,166 @@ Reserved
   * (SrcPort): 송신자 소켓의 포트 넘버. UDP 소켓의 경우에는 필수 항목이다.
   * (EventCode): 어떤 이벤트가 발생했는지에 대한 표시자.
 
-Error Code
-General Error Code
-Code	Error Name	Description
-0	ERR_Undefined	정의되지 않은 오류
-1	ERR_WrongOperator	잘못된 명령어
-2	ERR_WrongCommandSign	잘못된 명령 부호
-3	ERR_WrongArguments	잘못된 인자들
-4	ERR_OurofRange	지정범위를 벗어난 인자들
-5	ERR_FuncDisabled	지정된 함수 사용불가
-6	ERR_NotAllowed	허용되지 않음음
-7	ERR_CommandBusy	명령 수행중
-8	ERR_CommandTimeout	명령 타임아웃
-Socket Error Code
-Code	Error Name	Description
-10	ERR_SockNotAvail	소켓이 가용하지 않음
-11	ERR_SockClosed	소켓이 닫힘
-12	ERR_SockPortNumNotAvail	지정된 포트 넘버가 사용할 수 없음
-13	ERR_SockNotConnected	연결되지 않음
-14	ERR_SockWrongAddr	잘못된 주소
-15	ERR_SockDataNotAvailable	사용가능한 데이터가 없음
-Other Error Code
-Code	Error Name	Description
-20	ERR_NoFreeMem	No Free Memory
+#### Error Code
 
-Event Code
-Socket Event Code
-Code	Socket Event Name	Description
-0	EVENT_SockConnected	연결됨. 소켓 상태가 Listen 상태에서 연결상태로 변경됨
-1	EVENT_SockDisconnected	연결해제됨. 소켓 상태가 연결상태에서 연결해제상태로 변경됨
-2	EVENT_SockClosed	소켓 닫힘. 소켓 상태가 닫힘으로 바뀜
-3	EVENT_SockDataRcvd	데이터를 수신함. 연관됨 소켓이 상대방으로부터 데이터를 수신함
-Network Commands
-Command	Prop.	Input Parameter	Response
-AT+NSET	None or ?		[S,,S,(IP),(SN),(GW),(DNS)]
-[S,,D]
-=	S,(IP),(SN),(GW),(DNS)	[S]
-D	[S]
--	num,Param	[S]
-AT+NSTAT	None or ?		[S,,S/D,(IP),(SN),(GW),(DNS)]
-AT+NMAC	None or ?		[S,,(MAC)]
-=	(MAC)	[S]
-====AT+NSET====
+**General Error Code**
+
+|Code	|Error Name|	Description|
+|--------|---------|----------------|
+|0	|ERR_Undefined|	정의되지 않은 오류|
+|1|	ERR_WrongOperator|	잘못된 명령어|
+|2	|ERR_WrongCommandSign|	잘못된 명령 부호|
+|3|	ERR_WrongArguments|	잘못된 인자들|
+|4|	ERR_OurofRange	|지정범위를 벗어난 인자들|
+|5|	ERR_FuncDisabled|	지정된 함수 사용불가|
+|6	|ERR_NotAllowed	|허용되지 않음음|
+|7|	ERR_CommandBusy|	명령 수행중|
+|8	|ERR_CommandTimeout|	명령 타임아웃|
+
+#### Socket Error Code
+
+|Code|	Error Name|	Description|
+|----|------------|-------------|
+|10|	ERR_SockNotAvail|	소켓이 가용하지 않음|
+|11	|ERR_SockClosed|	소켓이 닫힘|
+|12|	ERR_SockPortNumNotAvail|	지정된 포트 넘버가 사용할 수 없음|
+|13	|ERR_SockNotConnected	|연결되지 않음|
+|14|	ERR_SockWrongAddr|	잘못된 주소|
+|15	|ERR_SockDataNotAvailable	|사용가능한 데이터가 없음|
+
+#### Other Error Code
+
+|Code	|Error Name	|Description|
+|-------|----------|-------------|
+|20|	ERR_NoFreeMem	|No Free Memory|
+
+#### Event Code
+
+**Socket Event Code**
+
+|Code	|Socket Event Name|	Description|
+|-------|-----------------|-------------|
+|0|	EVENT_SockConnected|	연결됨. 소켓 상태가 Listen 상태에서 연결상태로 변경됨|
+|1|	EVENT_SockDisconnected	|연결해제됨. 소켓 상태가 연결상태에서 연결해제상태로 변경됨|
+|2	|EVENT_SockClosed	|소켓 닫힘. 소켓 상태가 닫힘으로 바뀜|
+|3|	EVENT_SockDataRcvd	|데이터를 수신함. 연관됨 소켓이 상대방으로부터 데이터를 수신함|
+
+#### Network Commands
+
+|Command	|Prop.|	Input Parameter|	Response|
+|AT+NSET	|None or ?	|	|[S,,S,(IP),(SN),(GW),(DNS)][S,,D]|
+||=|	S,(IP),(SN),(GW),(DNS)|	[S]|
+|||D|	[S]|
+||-	|num,Param	|[S]|
+|AT+NSTAT|	None or ?||		[S,,S/D,(IP),(SN),(GW),(DNS)]|
+|AT+NMAC|	None or ?||		[S,,(MAC)]|
+||=	|(MAC)|	[S]|
+>
+
+    ====AT+NSET====
 
 
 
 
-Format:
-AT+NSET=<DHCP>,<IP>,<SN>,<GW>
-Meaning: 네트워크 정보를 확인하거나 설정한다
+   * **Format:**
+   >
+   
+        AT+NSET=<DHCP>,<IP>,<SN>,<GW>
+        
+ * **Meaning:** 네트워크 정보를 확인하거나 설정한다
+ 
 <DHCP>: 정적 IP / 유동 IP 사용 지정
 
-Parameter	Meaning
-S	DHCP Off, Static
-D	DHCP On, DHCP Client
+|Parameter|	Meaning|
+|---------|---------|
+|S|	DHCP Off, Static|
+|D	|DHCP On, DHCP Client|
+
 <IP>: IP 주소 (Optional)
 <SN>: 서브넷 마스크 (Optional)
 <GW>: 게이트웨이 주소 (Optional)
 
-Response:
-[S]
-Example 1:
+ * **Response:**
+>
 
-AT+NSET\r\n
-AT+NSET?\r\n
+    [S]
+    
+ * **Example 1:**
+>
 
-Meaning: 현재 설정된 네트워크 정보를 읽어온다
+    AT+NSET\r\n
+ >
+ 
+    AT+NSET?\r\n
+
+ * **Meaning**: 현재 설정된 네트워크 정보를 읽어온다
 
 응답에 담겨진 주소(IP 주소, 서브넷, 게이트웨이 주소)는 실제 주소와 다르고 메모리에 저장된 주소입니다. 특히, DHCP 모드가 켜져 있을 때는 대개 실제 주소와 다릅니다.
 
 
-Response:
+ * **Response:**
+>
 
-[S,,S,192.168.11.100,255.255.255.0,192.168.11.1,8.8.8.8]
-[S,,D]
+    [S,,S,192.168.11.100,255.255.255.0,192.168.11.1,8.8.8.8]
+ >
+ 
+    [S,,D]
 
-Example 2:
+ * **Example 2:**
+>
 
-AT+NSET-2,192.168.11.110\r\n
+    AT+NSET-2,192.168.11.110\r\n
 
-Meaning: 현재 설정된 네트워크 정보중 두번째 인자인 IP 주소만 지정된 값으로 변경한다
-
-
-Response:
-
-[S]
-
-====AT+NSTAT====
+ * **Meaning:** 현재 설정된 네트워크 정보중 두번째 인자인 IP 주소만 지정된 값으로 변경한다
 
 
+ * **Response:**
+>
+
+    [S]
+
+---
+>
+
+    ====AT+NSTAT====
 
 
-Format:
-AT+NSTAT
-AT+NSTAT?
-Meaning: 현재 네트워크 상태값을 표시한다
-Response:
-[S,,<DHCP>,<IP>,<SN>,<GW>,<DNS>]
-Example 1:
 
-AT+NSTAT\r\n
-AT+NSTAT?\r\n
 
-Meaning: 현재 네트워크 상태값을 표시한다
-Response:
+ * **Format:**
+ >
+ 
+    AT+NSTAT
+ >
+ 
+    AT+NSTAT?
+    
+ * **Meaning:** 현재 네트워크 상태값을 표시한다
 
-[S,,S,192.168.11.100,255.255.255.0,192.168.11.1,8.8.8.8]
-[S,,D]
+ * **Response:**
+ >
+ 
+    [S,,<DHCP>,<IP>,<SN>,<GW>,<DNS>]
+    
+ * **Example 1:**
+>
 
-====AT+NMAC====
+    AT+NSTAT\r\n
+ >
+ 
+    AT+NSTAT?\r\n
+
+ * **Meaning:** 현재 네트워크 상태값을 표시한다
+ * **Response:**
+>
+
+    [S,,S,192.168.11.100,255.255.255.0,192.168.11.1,8.8.8.8]
+ >
+ 
+    [S,,D]
+>
+
+    ====AT+NMAC====
 
 
 
