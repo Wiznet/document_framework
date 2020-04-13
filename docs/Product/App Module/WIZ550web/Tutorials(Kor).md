@@ -123,91 +123,50 @@ WIZ550web의 GET/SET interface를 위한 CGI 리스트는 아래와 같다.
       
 **Set: Functions Table**
 
-HTTP Request
-CGI name	Description
-config.cgi	Set Basic Settings for DemoPages
-dout.cgi	Set I/O port On/Off
-save_alias.cgi	Change name of I/O port
-dir_change.cgi	Change I/O direction
-tx_serial_data.cgi	Send serial data to UART1(Console port)
-set_default_io_status.cgi	IO Settings Factory Reset and Reboot
-set_devinfo.cgi	Set Device info (changes takes effect after reboot)
-set_netinfo.cgi	Set Network info (changes takes effect after reboot)
-set_uart0info.cgi	Set Serial port 0 settings (UART1, Console) (changes takes effect after reboot)
-set_uart1info.cgi	Set Serial port 1 settings (UART2, AT command) (changes takes effect after reboot)
-set_diodir.cgi	Change I/O direction. same as dir_change.cgi
-set_diostate.cgi	Set I/O port On/Off. almost the same as dout.cgi
-set_dioalias.cgi	Change name of I/O port. same as save_alias.cgi
-config.cgi is for DemoPages.
+|HTTP Request CGI name	|Description|
+|------------------------|----------|
+|config.cgi	|Set Basic Settings for 🌎[DemoPages](https://github.com/Wiznet/WIZ550web/tree/master/WIZ550web_Webpages/0_Basic_Demopages)|
+|dout.cgi	|Set I/O port On/Off|
+|save_alias.cgi|	Change name of I/O port|
+|dir_change.cgi|	Change I/O direction|
+|tx_serial_data.cgi|	Send serial data to UART1(Console port)|
+|set_default_io_status.cgi|	IO Settings Factory Reset and Reboot|
+|set_devinfo.cgi	|Set Device info (changes takes effect after reboot)|
+|set_netinfo.cgi|	Set Network info (changes takes effect after reboot)|
+|set_uart0info.cgi|	Set Serial port 0 settings (UART1, Console) (changes takes effect after reboot)|
+|set_uart1info.cgi|	Set Serial port 1 settings (UART2, AT command) (changes takes effect after reboot)|
+|set_diodir.cgi|	Change I/O direction. **same as dir_change.cgi**|
+|set_diostate.cgi|	Set I/O port On/Off. almost the same as dout.cgi|
+|set_dioalias.cgi|	|Change name of I/O port. same as save_alias.cgi|
+
+config.cgi is for 🌎[DemoPages.](https://github.com/Wiznet/WIZ550web/tree/master/WIZ550web_Webpages/0_Basic_Demopages)
 
 Other common APIs are from set_devinfo.cgi
 
-Section	CGI name	Parameter	Webform Element	Description	Parameter Example	Note
-Device
-Configuration	config.cgi	devicename	Param: String	Device name	devicename=WIZ550WEB	-
-dhcp	Param: 0 or 1	DHCP enable	dhcp=0	1 : Enabled
-0 : Disabled
-lib	Param: Sting	Local IP address	lip=192.168.11.100	Including dots
-gw	Param: String	Gateway IP address	gw=192.168.11.254
-sub	Param: String	Subnet Mask	sub=255.255.255.192
-dns	Param: String	DNS server IP address	dns=168.126.63.1
-baudrate	Param: 1-digit number	Baud rate	baud=8	0:600
-1:1200
-2:2400
-3:4800
-4:9600
-5:19200
-6:38400
-7:57600
-8:115200
-9:230400
-databit	Param: 8~9	Data bit	databit=8	8:Databit8
-9:Databit9
-parity	Param: 0~2	Parity bit	parity=0	0:None
-1:Odd
-2:Even
-stopbit	Param: 1~2	Stopbit	stopbit=1	1:Stopbit1
-2:Stopbit2
-flowcontrol	Param: 0~3	Flow control	flowcontrol=0	0:None
-1:RTS/CTS
-2:RS-422
-3:RS-485
-Device Information	set_devinfo.cgi	devname	Param: String	Device name	devname=Server1	-
-Network Information	set_netinfo.cgi	ip	Param: String	IP address	ip= 192.168.11.3	Including dots
-gw	Param: String	Gateway IP address	gw= 192.168.11.254
-sub	Param: String	Subnet Mask	sub= 255.255.255.192
-dns	Param: String	DNS server IP address	dns= 168.126.63.1
-dhcp	Param: 0 or 1	DHCP enable	dhcp=0	1 : Enabled
-0 : Disabled
-Serial Port Information	set_uart0info.cgi
-set_uart1info.cgi	baud	Param: 1-digit number	Baud rate	baud=8	0:600
-1:1200
-2:2400
-3:4800
-4:9600
-5:19200
-6:38400
-7:57600
-8:115200
-9:230400
-databit	Param: 8~9	Data bit	databit=8	8:Databit8
-9:Databit9
-parity	Param: 0~2	Parity bit	parity=0	0:None
-1:Odd
-2:Even
-stopbit	Param: 1~2	Stopbit	stopbit=1	1:Stopbit1
-2:Stopbit2
-flow	Param: 0~3	Flow control	flow=0	0:None
-1:RTS/CTS
-2:RS-422
-3:RS-485
-16-Digital I/O
-(0 ~ 15)	set_diostate.cgi	pin / val	Params: digit numbers	I/O State	pin=0&val=1	pin:0~15
-val=0(Low/On)
-val=1(High/Off)
-set_diodir.cgi	pin / val	I/O Direction	pin=1&val=2	pin:0~15
-val=0(Not used)
-val=1(Input)
-val=2(Output)
-set_dioalias.cgi	pin / val	Params: digit numbers / String	I/O Alias	pin=1&val=pin#1	pin:0~15
-value:string
+|Section|	CGI name|	Parameter	|Webform Element|Description|Parameter Example|	Note|
+|--------|----------|---------------|------------|--------------|------------|--------|
+|Device Configuration|	config.cgi|	devicename|	Param: String|Device name|	|devicename=WIZ550WEB|	-|
+|||dhcp	|Param: 0 or 1	|DHCP enable|	dhcp=0	|1 : Enabled 0 : Disabled|
+|||lib|	Param: Sting|	Local IP address|	lip=192.168.11.100	|Including dots|
+|||gw	Param: String|	Gateway IP address|	gw=192.168.11.254||
+|||sub	|Param: String	|Subnet Mask|	sub=255.255.255.192||
+|||dns|	Param: String|	DNS server IP address|	dns=168.126.63.1||
+|||baudrate|	Param: 1-digit number|	Baud rate|	baud=8	|||0:600,1:1200,2:2400,3:4800,4:9600,5:19200,6:38400,7:57600,8:115200,9:230400|
+|||databit|	Param: 8~9|	Data bit|	databit=8	|8:Databit8,9:Databit9|
+|||parity	|Param: 0~2	|Parity bit	|parity=0|	0:None ,1:Odd ,2:Even|
+|||stopbit	|Param: 1~2|	Stopbit	|stopbit=1|	1:Stopbit1 2:Stopbit2|
+|||flowcontrol	|Param: 0~3|	Flow control|	flowcontrol=0	|0:None,1:RTS/CTS,2:RS-422,3:RS-485|
+|Device Information	|set_devinfo.cgi|	devname	|Param: String|	Device name	|devname=Server1|	-|
+|Network Information|	set_netinfo.cgi	|ip	|Param: String|	IP address|	ip= 192.168.11.3	|Including dots|
+|||gw	|Param: String|	Gateway IP address|	gw= 192.168.11.254|
+|||sub|	Param: String|	Subnet Mask	sub= 255.255.255.192|
+|dns|	Param: String|	DNS server IP address|	dns= 168.126.63.1|
+|dhcp|	Param: 0 or 1|	DHCP enable|	dhcp=0|	1 : Enabled 0 : Disabled|
+|Serial Port Information|	set_uart0info.cgi set_uart1info.cgi	|baud|	Param: 1-digit number|	Baud rate	|baud=8|	0:600,1:1200,2:2400,3:4800,4:9600,5:19200,6:38400,7:57600,8:115200,9:230400
+|||databit|	Param: 8~9|	Data bit|	databit=8|	8:Databit8,9:Databit9|
+|||parity	|Param: 0~2|	Parity bit|	parity=0|	0:None,1:Odd,2:Even|
+|||stopbit|	Param: 1~2|	Stopbit	stopbit=1|	1:Stopbit1,2:Stopbit2|
+|||flow|	Param: 0~3|	Flow control|	flow=0|	0:None,1:RTS/CTS,2:RS-422,3:RS-485|
+|16-Digital I/O(0 ~ 15)|	set_diostate.cgi|	pin / val	|Params: digit numbers|	I/O State|	pin=0&val=1|	pin:0~15,val=0(Low/On),val=1(High/Off)|
+||set_diodir.cgi|	pin / val||	I/O Direction|	pin=1&val=2	|pin:0~15 ,val=0(Not used),val=1(Input),val=2(Output)|
+||set_dioalias.cgi|	pin / val|	Params: digit numbers / String	|I/O Alias|	pin=1&val=pin#1|	pin:0~15 value:string|
