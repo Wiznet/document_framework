@@ -1,7 +1,7 @@
 ---
 id: developers_guide-[KO]
 title: Developer's Guide-[KO]
-date: 2020-03-
+date: 2020-03-08
 ---
 
 ## Content
