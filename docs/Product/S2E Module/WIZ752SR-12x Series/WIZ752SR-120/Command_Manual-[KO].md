@@ -426,3 +426,2148 @@ Ethernet을 통해 제품을 제어 할 때는 커맨드 코드 전송 이전에
 | [SV](#sv) | :::                          | 디바이스 설정 저장                | WO |
 | [RT](#rt) | :::                          | 디바이스 Reboot               | WO |
 | [FR](#fr) | :::                          | 디바이스 공장 초기화               | WO |
+
+### Extended Commands
+
+<table>
+<thead>
+<tr class="header">
+<th>CMD</th>
+<th>Category</th>
+<th>Description</th>
+<th>Type</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td><a href="#ca_-_cd">CA</a></td>
+<td>사용자 I/O 설정<br />
+User I/O Settings</td>
+<td>사용자 I/O A pin Type과 Direction</td>
+<td>RW</td>
+</tr>
+<tr class="even">
+<td><a href="#ca_-_cd">CB</a></td>
+<td>:::</td>
+<td>사용자 I/O B pin Type과 Direction</td>
+<td>:::</td>
+</tr>
+<tr class="odd">
+<td><a href="#ca_-_cd">CC</a></td>
+<td>:::</td>
+<td>사용자 I/O C pin Type과 Direction</td>
+<td>:::</td>
+</tr>
+<tr class="even">
+<td><a href="#ca_-_cd">CD</a></td>
+<td>:::</td>
+<td>사용자 I/O D pin Type과 Direction</td>
+<td>:::</td>
+</tr>
+<tr class="odd">
+<td><a href="#ga_-_gd">GA</a></td>
+<td>사용자 I/O 값<br />
+User I/O<br />
+Status / Value</td>
+<td>사용자 I/O A pin의 status 혹은 value</td>
+<td>Digital out: RW<br />
+Digital in: RO<br />
+Analog in: RO</td>
+</tr>
+<tr class="even">
+<td><a href="#ga_-_gd">GB</a></td>
+<td>:::</td>
+<td>사용자 I/O B pin의 status 혹은 value</td>
+<td>:::</td>
+</tr>
+<tr class="odd">
+<td><a href="#ga_-_gd">GC</a></td>
+<td>:::</td>
+<td>사용자 I/O C pin의 status 혹은 value</td>
+<td>:::</td>
+</tr>
+<tr class="even">
+<td><a href="#ga_-_gd">GD</a></td>
+<td>:::</td>
+<td>사용자 I/O D pin의 status 혹은 value</td>
+<td>:::</td>
+</tr>
+<tr class="odd">
+<td><a href="#sc">SC</a></td>
+<td>상태 I/O<br />
+Status I/O</td>
+<td>상태 S0 pin과 S1 핀의 동작 모드 설정</td>
+<td>RW</td>
+</tr>
+<tr class="even">
+<td><a href="#s0">S0</a></td>
+<td>:::</td>
+<td>상태 S0 pin의 status (PHY link or DTR)</td>
+<td>RO</td>
+</tr>
+<tr class="odd">
+<td><a href="#s1">S1</a></td>
+<td>:::</td>
+<td>상태 S1 pin의 status (TCP connect or DSR)</td>
+<td>:::</td>
+</tr>
+</tbody>
+</table>
+
+-----
+
+## Command Descriptions
+
+### Device Information
+
+-----
+
+#### MC
+
+-----
+
+  - **Format:** `MC[CR][LF]`
+  - **Meaning:** 제품의 MAC 주소 확인
+  - **Command Type:** Read only
+  - **Return Type:** String
+  - **Return Value:**
+
+\<WRAP indent\>\<WRAP indent\>
+
+    MAC address with colons(:)
+
+\</WRAP\> \</WRAP\>
+
+  - **Response**
+
+\<WRAP indent\>\<WRAP indent\> \<WRAP round box group\> \<WRAP half
+column\>
+
+  - **Without Parameter (Get)**
+      - In ASCII: `MC00:08:DC:00:00:01\r\n`
+
+\</WRAP\> \<WRAP half column\> \</WRAP\> \</WRAP\> \</WRAP\> \</WRAP\>
+
+-----
+
+#### VR
+
+-----
+
+  - **Format:** `VR[CR][LF]`
+  - **Meaning:** 제품에 탑재된 펌웨어의 버전 정보 확인
+  - **Command Type:** Read only
+  - **Return Type:** String
+  - **Return Value:**
+
+\<WRAP indent\>\<WRAP indent\>
+
+    Firmware version with dots(.)
+
+  - \=\> Major version number . Minor version number . Maintenance
+    version number
+
+\</WRAP\> \</WRAP\>
+
+  - **Response**
+
+\<WRAP indent\>\<WRAP indent\> \<WRAP round box group\> \<WRAP half
+column\>
+
+  - **Without Parameter (Get)**
+      - In ASCII: `VR1.0.0\r\n`
+
+\</WRAP\> \<WRAP half column\> \</WRAP\> \</WRAP\> \</WRAP\> \</WRAP\>
+
+-----
+
+#### MN
+
+-----
+
+  - **Format:** `MN[CR][LF]`
+  - **Meaning:** 제품의 모델명 확인
+  - **Command Type:** Read only
+  - **Return Type:** String
+  - **Return Value:**
+
+\<WRAP indent\>\<WRAP indent\>
+
+    Device model name
+
+  - \=\> Default: WIZ750SR
+
+\</WRAP\> \</WRAP\>
+
+  - **Response**
+
+\<WRAP indent\>\<WRAP indent\> \<WRAP round box group\> \<WRAP half
+column\>
+
+  - **Without Parameter (Get)**
+      - In ASCII: `MNWIZ750SR\r\n`
+
+\</WRAP\> \<WRAP half column\> \</WRAP\> \</WRAP\> \</WRAP\> \</WRAP\>
+
+-----
+
+#### ST
+
+-----
+
+  - **ST** : 0번 채널용 명령어
+  - **QS** : 1번 채널용 명령어
+  - **Format:** `ST[CR][LF]`
+  - **Meaning:** 제품의 동작 상태(Status) 확인
+  - **Command Type:** Read only
+  - **Return Type:** String
+  - **Return Value:**
+
+\<WRAP indent\>\<WRAP indent\>
+
+| Status  | Description                           |
+| ------- | ------------------------------------- |
+| BOOT    | Boot 모드 입니다. 제품의 설정과 펌웨어 업데이트가 가능합니다. |
+| OPEN    | TCP 연결 성립 이전의 상태입니다.                  |
+| CONNECT | TCP 연결이 성립된 상태입니다.                    |
+| UPGRADE | 펌웨어 업데이트나 DHCP IP 할당 중인 상태입니다.        |
+| ATMODE  | 시리얼 AT 커맨드 모드 상태입니다.                  |
+| UDP     | UDP 모드 상태입니다.                         |
+
+\</WRAP\> \</WRAP\>
+
+  - **Response**
+
+\<WRAP indent\>\<WRAP indent\> \<WRAP round box group\> \<WRAP half
+column\>
+
+  - **Without Parameter (Get)**
+      - In ASCII: `STATMODE\r\n`
+
+\</WRAP\> \<WRAP half column\> \</WRAP\> \</WRAP\> \</WRAP\> \</WRAP\>
+
+-----
+
+#### UN
+
+-----
+
+  - **Format:** `UN[CR][LF]`
+  - **Meaning:** 제품의 UART Interface 종류 확인
+  - **Command Type:** Read only
+  - **Return Type:** String
+  - **Return Value:**
+
+\<WRAP indent\>\<WRAP indent\>
+
+| UART Interface | Description                          |
+| -------------- | ------------------------------------ |
+| RS-232/TTL     | RS-232C 혹은 TTL 신호의 UART 입/출력을 지원합니다. |
+| RS-422/485     | RS-422과 RS-485 신호의 UART 입/출력을 지원합니다. |
+
+\</WRAP\> \</WRAP\>
+
+  - **Response**
+
+\<WRAP indent\>\<WRAP indent\> \<WRAP round box group\> \<WRAP half
+column\>
+
+  - **Without Parameter (Get)**
+      - In ASCII: `UNRS-232/TTL\r\n`
+
+\</WRAP\> \<WRAP half column\> \</WRAP\> \</WRAP\> \</WRAP\> \</WRAP\>
+
+-----
+
+#### UI
+
+-----
+
+  - **Format:** `UI[CR][LF]`
+  - **Meaning:** 제품의 UART Interface 종류 확인
+  - **Command Type:** Read only
+  - **Return Type:** Number (0 / 1)
+  - **Return Value:**
+
+\<WRAP indent\>\<WRAP indent\>
+
+| Return value | Description                        | Remarks    |
+| ------------ | ---------------------------------- | ---------- |
+| 0            | RS-232C 혹은 TTL 신호의 UART 입/출력 지원 모델 | RS-232/TTL |
+| 1            | RS-422과 RS-485 신호의 UART 입/출력 지원 모델 | RS-422/485 |
+
+\</WRAP\> \</WRAP\>
+
+  - **Response**
+
+\<WRAP indent\>\<WRAP indent\> \<WRAP round box group\> \<WRAP half
+column\>
+
+  - **Without Parameter (Get)**
+      - In ASCII: `UI0\r\n`
+
+\</WRAP\> \<WRAP half column\> \</WRAP\> \</WRAP\> \</WRAP\> \</WRAP\>
+
+  
+  
+  
+  
+
+### Network Settings
+
+-----
+
+#### OP
+
+-----
+
+  - **OP** : 0번 채널용 명령어
+  - **QO** : 1번 채널용 명령어
+  - **Format:** `OP<Parameter>[CR][LF]`
+  - **Meaning:** 제품의 네트워크 동작 모드
+  - **Command Type:** Read / Write
+  - **Parameter / Return Type:** Number (0 \~ 3)
+  - **Parameter / Return Value:**
+
+\<WRAP indent\>\<WRAP indent\>
+
+<table>
+<thead>
+<tr class="header">
+<th>Parameter /<br />
+Return value</th>
+<th>Meaning</th>
+<th>Remarks</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>0</td>
+<td>TCP Client mode</td>
+<td>-</td>
+</tr>
+<tr class="even">
+<td>1</td>
+<td>TCP Server mode</td>
+<td>-</td>
+</tr>
+<tr class="odd">
+<td>2</td>
+<td>TCP Mixed mode</td>
+<td>TCP Server / Client mixed mode</td>
+</tr>
+<tr class="even">
+<td>3</td>
+<td>UDP mode</td>
+<td>-</td>
+</tr>
+</tbody>
+</table>
+
+\</WRAP\> \</WRAP\>
+
+ - **Response**
+
+\<WRAP indent\>\<WRAP indent\> \<WRAP round box group\> \<WRAP half
+column\>
+
+  - **Without Parameter (Get)**
+      - In ASCII: `OP0\r\n`
+
+\</WRAP\> \<WRAP half column\>
+
+  - **With Parameter (Set)**
+      - No response
+      - 제품의 네트워크 동작 모드 변경
+
+\</WRAP\> \</WRAP\> \</WRAP\> \</WRAP\>
+
+-----
+
+#### IM
+
+-----
+
+  - **Format:** `IM<Parameter>[CR][LF]`
+  - **Meaning:** 제품의 IP 주소 할당 방법
+  - **Command Type:** Read / Write
+  - **Parameter / Return Type:** Number (0 \~ 1)
+  - **Parameter / Return Value:**
+
+\<WRAP indent\>\<WRAP indent\>
+
+<table>
+<thead>
+<tr class="header">
+<th>Parameter /<br />
+Return value</th>
+<th>Meaning</th>
+<th>Remarks</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>0</td>
+<td>Static IP</td>
+<td>-</td>
+</tr>
+<tr class="even">
+<td>1</td>
+<td>DHCP</td>
+<td>Obtain an IP address automatically</td>
+</tr>
+</tbody>
+</table>
+
+\</WRAP\> \</WRAP\>
+
+  - **Response**
+
+\<WRAP indent\>\<WRAP indent\> \<WRAP round box group\> \<WRAP half
+column\>
+
+  - **Without Parameter (Get)**
+      - In ASCII: `IM0\r\n`
+
+\</WRAP\> \<WRAP half column\>
+
+  - **With Parameter (Set)**
+      - No response
+      - 제품의 IP 주소 할당 방법 변경
+
+\</WRAP\> \</WRAP\> \</WRAP\> \</WRAP\>
+
+-----
+
+#### LI
+
+-----
+
+  - **Format:** `LI<Parameter>[CR][LF]`
+  - **Meaning:** 제품에 설정된 IP 주소
+  - **Command Type:** Read / Write
+  - **Parameter / Return Type:** IPv4 주소 형식의 String (dot 포함)
+  - **Parameter / Return Value:**
+
+\<WRAP indent\>\<WRAP indent\>
+
+    Ex> 192.168.11.2
+
+\</WRAP\> \</WRAP\>
+
+  - **Response**
+
+\<WRAP indent\>\<WRAP indent\> \<WRAP round box group\> \<WRAP half
+column\>
+
+  - **Without Parameter (Get)**
+      - In ASCII: `LI192.168.11.2\r\n`
+      - In HEX: `4C 49 31 39 32 2E 31 36 38 2E 31 31 2E 32 0D 0A`
+
+\</WRAP\> \<WRAP half column\>
+
+  - **With Parameter (Set)**
+      - No response
+      - 제품의 IP 주소 변경
+
+\</WRAP\> \</WRAP\> \</WRAP\> \</WRAP\>
+
+-----
+
+#### SM
+
+-----
+
+  - **Format:** `SM<Parameter>[CR][LF]`
+  - **Meaning:** 제품에 설정된 서브넷 마스크
+  - **Command Type:** Read / Write
+  - **Parameter / Return Type:** IPv4 주소 형식의 String (dot 포함)
+  - **Parameter / Return Value:**
+
+\<WRAP indent\>\<WRAP indent\>
+
+    Ex> 255.255.255.0
+
+\</WRAP\> \</WRAP\>
+
+ - **Response**
+
+\<WRAP indent\>\<WRAP indent\> \<WRAP round box group\> \<WRAP half
+column\>
+
+  - **Without Parameter (Get)**
+      - In ASCII: `SM255.255.255.0\r\n`
+      - In HEX: `53 4D 32 35 35 2E 32 35 35 2E 32 35 35 2E 30 0D 0A`
+
+\</WRAP\> \<WRAP half column\>
+
+  - **With Parameter (Set)**
+      - No response
+      - 제품의 서브넷 마스크 변경
+
+\</WRAP\> \</WRAP\> \</WRAP\> \</WRAP\>
+
+-----
+
+#### GW
+
+-----
+
+  - **Format:** `GW<Parameter>[CR][LF]`
+  - **Meaning:** 제품에 설정된 게이트웨이 주소
+  - **Command Type:** Read / Write
+  - **Parameter / Return Type:** IPv4 주소 형식의 String (dot 포함)
+  - **Parameter / Return Value:**
+
+\<WRAP indent\>\<WRAP indent\>
+
+    Ex> 192.168.11.1
+
+\</WRAP\> \</WRAP\>
+
+  - **Response**
+
+\<WRAP indent\>\<WRAP indent\> \<WRAP round box group\> \<WRAP half
+column\>
+
+  - **Without Parameter (Get)**
+      - In ASCII: `GW192.168.11.1\r\n`
+      - In HEX: `47 57 31 39 32 2E 31 36 38 2E 31 31 2E 31 0D 0A`
+
+\</WRAP\> \<WRAP half column\>
+
+  - **With Parameter (Set)**
+      - No response
+      - 제품의 게이트웨이 주소 변경
+
+\</WRAP\> \</WRAP\> \</WRAP\> \</WRAP\>
+
+-----
+
+#### DS
+
+-----
+
+  - **Format:** `DS<Parameter>[CR][LF]`
+  - **Meaning:** 제품에 설정된 DNS 주소
+  - **Command Type:** Read / Write
+  - **Parameter / Return Type:** IPv4 주소 형식의 String (dot 포함)
+  - **Parameter / Return Value:**
+
+\<WRAP indent\>\<WRAP indent\>
+
+    Ex> 8.8.8.8
+
+  - Google Public DNS (IPv4)
+      - 8.8.8.8
+      - 8.8.4.4
+
+\</WRAP\> \</WRAP\>
+
+  - **Response**
+
+\<WRAP indent\>\<WRAP indent\> \<WRAP round box group\> \<WRAP half
+column\>
+
+  - **Without Parameter (Get)**
+      - In ASCII: `DS8.8.8.8\r\n`
+      - In HEX: `44 53 38 2E 38 2E 38 2E 38 0D 0A`
+
+\</WRAP\> \<WRAP half column\>
+
+  - **With Parameter (Set)**
+      - No response
+      - 제품의 DNS 변경
+
+\</WRAP\> \</WRAP\> \</WRAP\> \</WRAP\>
+
+-----
+
+#### LP
+
+-----
+
+  - **LP** : 0번 채널용 명령어
+  - **QL** : 1번 채널용 명령어
+  - **Format:** `LP<Parameter>[CR][LF]`
+  - **Meaning:** 제품의 포트 번호
+  - **Command Type:** Read / Write
+  - **Parameter / Return Type:** Number (0 \~ 65535)
+  - **Parameter / Return Value:**
+
+\<WRAP indent\>\<WRAP indent\>
+
+    Ex> 5000
+
+\</WRAP\> \</WRAP\>
+
+  - **Response**
+
+\<WRAP indent\>\<WRAP indent\> \<WRAP round box group\> \<WRAP half
+column\>
+
+  - **Without Parameter (Get)**
+      - In ASCII: `LP5000\r\n`
+      - In HEX: `4C 50 35 30 30 30 0D 0A`
+
+\</WRAP\> \<WRAP half column\>
+
+  - **With Parameter (Set)**
+      - No response
+      - 제품의 포트번호 변경
+
+\</WRAP\> \</WRAP\> \</WRAP\> \</WRAP\>
+
+-----
+
+#### RH
+
+-----
+
+  - **RH** : 0번 채널용 명령어
+  - **QH** : 1번 채널용 명령어
+  - **Format:** `RH<Parameter>[CR][LF]`
+  - **Meaning:** 제품에 설정된 원격지(remote host) IP 주소 / 도메인 네임
+  - **Command Type:** Read / Write
+  - **Parameter / Return Type:** IPv4 주소 형식의 String (dot 포함) 혹은 도메인 네임
+    String
+  - **Parameter / Return Value:**
+
+\<WRAP indent\>\<WRAP indent\>
+
+    Ex> 192.168.11.3
+
+\</WRAP\> \</WRAP\>
+
+  - **Response**
+
+\<WRAP indent\>\<WRAP indent\> \<WRAP round box group\> \<WRAP half
+column\>
+
+  - **Without Parameter (Get)**
+      - In ASCII: `RH192.168.11.3\r\n`
+      - In HEX: `52 48 31 39 32 2E 31 36 38 2E 31 31 2E 33 0D 0A`
+
+\</WRAP\> \<WRAP half column\>
+
+  - **With Parameter (Set)**
+      - No response
+      - 제품에 설정된 원격지 IP 주소 변경
+
+\</WRAP\> \</WRAP\> \</WRAP\> \</WRAP\>
+
+-----
+
+#### RP
+
+-----
+
+  - **RP** : 0번 채널용 명령어
+  - **QP** : 1번 채널용 명령어
+  - **Format:** `RP<Parameter>[CR][LF]`
+  - **Meaning:** 제품에 설정된 원격지(remote host) 포트번호
+  - **Command Type:** Read / Write
+  - **Parameter / Return Type:** Number (0 \~ 65535)
+  - **Parameter / Return Value:**
+
+\<WRAP indent\>\<WRAP indent\>
+
+    Ex> 5000
+
+\</WRAP\> \</WRAP\>
+
+  - **Response**
+
+\<WRAP indent\>\<WRAP indent\> \<WRAP round box group\> \<WRAP half
+column\>
+
+  - **Without Parameter (Get)**
+      - In ASCII: `RP5000\r\n`
+      - In HEX: `52 50 35 30 30 30 0D 0A`
+
+\</WRAP\> \<WRAP half column\>
+
+  - **With Parameter (Set)**
+      - No response
+      - 제품에 설정된 원격지 포트번호 변경
+
+\</WRAP\> \</WRAP\> \</WRAP\> \</WRAP\>
+
+### Data UART Settings
+
+-----
+
+#### BR
+
+-----
+
+  - **BR** : 0번 채널용 명령어
+  - **EB** : 1번 채널용 명령어
+  - **Format:** `BR<Parameter>[CR][LF]`
+  - **Meaning:** 시리얼 인터페이스(Data UART)의 Baud rate
+  - **Command Type:** Read / Write
+  - **Parameter / Return Type:** Number (0 \~ 13)
+  - **Parameter / Return Value:**
+
+\<WRAP indent\>\<WRAP indent\>
+
+<table>
+<thead>
+<tr class="header">
+<th>Parameter /<br />
+Return value</th>
+<th>Baud rate</th>
+<th>Remarks</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>0</td>
+<td>300</td>
+<td>-</td>
+</tr>
+<tr class="even">
+<td>1</td>
+<td>600</td>
+<td>-</td>
+</tr>
+<tr class="odd">
+<td>2</td>
+<td>1200</td>
+<td>-</td>
+</tr>
+<tr class="even">
+<td>3</td>
+<td>1800</td>
+<td>-</td>
+</tr>
+<tr class="odd">
+<td>4</td>
+<td>2400</td>
+<td>-</td>
+</tr>
+<tr class="even">
+<td>5</td>
+<td>4800</td>
+<td>-</td>
+</tr>
+<tr class="odd">
+<td>6</td>
+<td>9600</td>
+<td>-</td>
+</tr>
+<tr class="even">
+<td>7</td>
+<td>14400</td>
+<td>-</td>
+</tr>
+<tr class="odd">
+<td>8</td>
+<td>19200</td>
+<td>-</td>
+</tr>
+<tr class="even">
+<td>9</td>
+<td>28800</td>
+<td>-</td>
+</tr>
+<tr class="odd">
+<td>10</td>
+<td>38400</td>
+<td>-</td>
+</tr>
+<tr class="even">
+<td>11</td>
+<td>57600</td>
+<td>-</td>
+</tr>
+<tr class="odd">
+<td>12</td>
+<td>115200</td>
+<td>-</td>
+</tr>
+<tr class="even">
+<td>13</td>
+<td>230400</td>
+<td>-</td>
+</tr>
+</tbody>
+</table>
+
+\</WRAP\> \</WRAP\>
+
+  - **Response**
+
+\<WRAP indent\>\<WRAP indent\> \<WRAP round box group\> \<WRAP half
+column\>
+
+  - **Without Parameter (Get)**
+      - In ASCII: `BR12\r\n`
+
+\</WRAP\> \<WRAP half column\>
+
+  - **With Parameter (Set)**
+      - No response
+      - 시리얼 인터페이스의 Baud rate 변경
+
+\</WRAP\> \</WRAP\> \</WRAP\> \</WRAP\>
+
+-----
+
+#### DB
+
+-----
+
+  - **DB** : 0번 채널용 명령어
+  - **ED** : 1번 채널용 명령어
+  - **Format:** `DB<Parameter>[CR][LF]`
+  - **Meaning:** 시리얼 인터페이스(Data UART)의 Data bit
+  - **Command Type:** Read / Write
+  - **Parameter / Return Type:** Number (0 \~ 1)
+  - **Parameter / Return Value:**
+
+\<WRAP indent\>\<WRAP indent\>
+
+<table>
+<thead>
+<tr class="header">
+<th>Parameter /<br />
+Return value</th>
+<th>Data bit</th>
+<th>Remarks</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>0</td>
+<td>7-bit</td>
+<td>-</td>
+</tr>
+<tr class="even">
+<td>1</td>
+<td>8-bit</td>
+<td>-</td>
+</tr>
+</tbody>
+</table>
+
+\</WRAP\> \</WRAP\>
+
+  - **Response**
+
+\<WRAP indent\>\<WRAP indent\> \<WRAP round box group\> \<WRAP half
+column\>
+
+  - **Without Parameter (Get)**
+      - In ASCII: `DB1\r\n`
+
+\</WRAP\> \<WRAP half column\>
+
+  - **With Parameter (Set)**
+      - No response
+      - 시리얼 인터페이스의 Data bit 변경
+
+\</WRAP\> \</WRAP\> \</WRAP\> \</WRAP\>
+
+-----
+
+#### PR
+
+-----
+
+  - **PR** : 0번 채널용 명령어
+  - **EP** : 1번 채널용 명령어
+  - **Format:** `PR<Parameter>[CR][LF]`
+  - **Meaning:** 시리얼 인터페이스(Data UART)의 Parity bit
+  - **Command Type:** Read / Write
+  - **Parameter / Return Type:** Number (0 \~ 2)
+  - **Parameter / Return Value:**
+
+\<WRAP indent\>\<WRAP indent\>
+
+<table>
+<thead>
+<tr class="header">
+<th>Parameter /<br />
+Return value</th>
+<th>Parity bit</th>
+<th>Remarks</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>0</td>
+<td>NONE</td>
+<td>-</td>
+</tr>
+<tr class="even">
+<td>1</td>
+<td>ODD</td>
+<td>-</td>
+</tr>
+<tr class="odd">
+<td>2</td>
+<td>EVEN</td>
+<td>-</td>
+</tr>
+</tbody>
+</table>
+
+\</WRAP\> \</WRAP\>
+
+  - **Response**
+
+\<WRAP indent\>\<WRAP indent\> \<WRAP round box group\> \<WRAP half
+column\>
+
+  - **Without Parameter (Get)**
+      - In ASCII: `PR0\r\n`
+
+\</WRAP\> \<WRAP half column\>
+
+  - **With Parameter (Set)**
+      - No response
+      - 시리얼 인터페이스의 Parity bit 변경
+
+\</WRAP\> \</WRAP\> \</WRAP\> \</WRAP\>
+
+-----
+
+#### SB
+
+-----
+
+  - **SB** : 0번 채널용 명령어
+  - **ES** : 1번 채널용 명령어
+  - **Format:** `SB<Parameter>[CR][LF]`
+  - **Meaning:** 시리얼 인터페이스(Data UART)의 Stop bit
+  - **Command Type:** Read / Write
+  - **Parameter / Return Type:** Number (0 \~ 1)
+  - **Parameter / Return Value:**
+
+\<WRAP indent\>\<WRAP indent\>
+
+<table>
+<thead>
+<tr class="header">
+<th>Parameter /<br />
+Return value</th>
+<th>Stop bit</th>
+<th>Remarks</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>0</td>
+<td>1-bit</td>
+<td>-</td>
+</tr>
+<tr class="even">
+<td>1</td>
+<td>2-bit</td>
+<td>-</td>
+</tr>
+</tbody>
+</table>
+
+\</WRAP\> \</WRAP\>
+
+  - **Response**
+
+\<WRAP indent\>\<WRAP indent\> \<WRAP round box group\> \<WRAP half
+column\>
+
+  - **Without Parameter (Get)**
+      - In ASCII: `SB0\r\n`
+
+\</WRAP\> \<WRAP half column\>
+
+  - **With Parameter (Set)**
+      - No response
+      - 시리얼 인터페이스의 Stop bit 변경
+
+\</WRAP\> \</WRAP\> \</WRAP\> \</WRAP\>
+
+-----
+
+#### FL
+
+-----
+
+  - **FL** : 0번 채널용 명령어
+  - **EF** : 1번 채널용 명령어
+  - **Format:** `FL<Parameter>[CR][LF]`
+  - **Meaning:** 시리얼 인터페이스(Data UART)의 Flow control (RS-232/TTL only)
+  - **Command Type:** Read / Write
+  - **Parameter / Return Type:** Number (0 \~ 2)
+  - **Parameter / Return Value:**
+
+\<WRAP indent\>\<WRAP indent\>
+
+<table>
+<thead>
+<tr class="header">
+<th>Parameter /<br />
+Return value</th>
+<th>Flow control</th>
+<th>Remarks</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>0</td>
+<td>NONE</td>
+<td>-</td>
+</tr>
+<tr class="even">
+<td>1</td>
+<td>XON/XOFF</td>
+<td>Software flow control</td>
+</tr>
+<tr class="odd">
+<td>2</td>
+<td>RTS/CTS</td>
+<td>Hardware flow control</td>
+</tr>
+</tbody>
+</table>
+
+\</WRAP\> \</WRAP\>
+
+  - **Response**
+
+\<WRAP indent\>\<WRAP indent\> \<WRAP round box group\> \<WRAP half
+column\>
+
+  - **Without Parameter (Get)**
+      - In ASCII: `FL0\r\n`
+
+\</WRAP\> \<WRAP half column\>
+
+  - **With Parameter (Set)**
+      - No response
+      - 시리얼 인터페이스의 Flow control 변경
+
+\</WRAP\> \</WRAP\> \</WRAP\> \</WRAP\>
+
+### Serial Data Packing Options
+
+-----
+
+#### PT
+
+-----
+
+  - **PT** : 0번 채널용 명령어
+  - **NT** : 1번 채널용 명령어
+  - **Format:** `PT<Parameter>[CR][LF]`
+  - **Meaning:** 시리얼 인터페이스(Data UART)의 데이터 패킹 - 시간 옵션\[1\]
+  - **Command Type:** Read / Write
+  - **Parameter / Return Type:** Number (0 \~ 65535)
+  - **Parameter / Return Value:**
+
+\<WRAP indent\>\<WRAP indent\>
+
+    0: 사용하지 않음 / 1 ~ 65535: 데이터 패킹 시간 (Unit: millisecond)
+
+\</WRAP\> \</WRAP\>
+
+  - **Response**
+
+\<WRAP indent\>\<WRAP indent\> \<WRAP round box group\> \<WRAP half
+column\>
+
+  - **Without Parameter (Get)**
+      - In ASCII: `PT0\r\n`
+
+\</WRAP\> \<WRAP half column\>
+
+  - **With Parameter (Set)**
+      - None
+      - 시리얼 데이터 패킹 시간 값 변경
+
+\</WRAP\> \</WRAP\> \</WRAP\> \</WRAP\>
+
+-----
+
+#### PS
+
+-----
+
+  - **PS** : 0번 채널용 명령어
+  - **NS** : 1번 채널용 명령어
+  - **Format:** `PS<Parameter>[CR][LF]`
+  - **Meaning:** 시리얼 인터페이스(Data UART)의 데이터 패킹 - 데이터 길이(size) 옵션\[2\]
+  - **Command Type:** Read / Write
+  - **Parameter / Return Type:** Number (0 \~ 255)
+  - **Parameter / Return Value:**
+
+\<WRAP indent\>\<WRAP indent\>
+
+    0: 사용하지 않음 / 1 ~ 255: 데이터 길이 (Unit: byte)
+
+\</WRAP\> \</WRAP\>
+
+  - **Response**
+
+\<WRAP indent\>\<WRAP indent\> \<WRAP round box group\> \<WRAP half
+column\>
+
+  - **Without Parameter (Get)**
+      - In ASCII: `PS0\r\n`
+
+\</WRAP\> \<WRAP half column\>
+
+  - **With Parameter (Set)**
+      - None
+      - 시리얼 데이터 패킹 길이 값 변경
+
+\</WRAP\> \</WRAP\> \</WRAP\> \</WRAP\>
+
+1.  지정된 시간에 도달 할 때까지 수신된 시리얼 데이터를 모아 한 번에 이더넷으로 전송합니다. 이 시간은 시리얼 데이터 수신이
+    멈추는 순간부터 카운트 되며, 지정된 시간에 도달하기 이전에 추가 시리얼 데이터가 수신되면 초기화되어 다시 카운트를
+    시작합니다.
+
+2.  지정된 데이터 길이에 도달 할 때까지 수신된 시리얼 데이터를 모아 한 번에 이더넷으로 전송합니다.
+
+-----
+
+#### PD
+
+-----
+
+  - **PD** : 0번 채널용 명령어
+  - **ND** : 1번 채널용 명령어
+  - **Format:** `PD<Parameter>[CR][LF]`
+  - **Meaning:** 시리얼 인터페이스(Data UART)의 데이터 패킹 - 지정 문자(char) 옵션\[1\]
+  - **Command Type:** Read / Write
+  - **Parameter / Return Type:** 1-byte Character (Hex only)
+  - **Parameter / Return Value:**
+
+\<WRAP indent\>\<WRAP indent\>
+
+    00: 사용하지 않음 / 그 외: 지정 문자
+
+  - 지정 문자는 데이터에 포함되지 않습니다.
+
+\</WRAP\> \</WRAP\>
+
+  - **Response**
+
+\<WRAP indent\>\<WRAP indent\> \<WRAP round box group\> \<WRAP half
+column\>
+
+  - **Without Parameter (Get)**
+      - In ASCII: `PD00\r\n`
+
+\</WRAP\> \<WRAP half column\>
+
+  - **With Parameter (Set)**
+      - None
+      - 시리얼 데이터 패킹 지정 문자 변경
+
+\</WRAP\> \</WRAP\> \</WRAP\> \</WRAP\>
+
+  
+  
+  
+  
+
+### Options
+
+-----
+
+#### IT
+
+-----
+
+  - **IT** : 0번 채널용 명령어
+  - **RV** : 1번 채널용 명령어
+  - **Format:** `IT<Parameter>[CR][LF]`
+  - **Meaning:** 데이터 교환이 없을 때, TCP 연결 종료를 위한 비활성 타이머(Inactivity timer) 값
+  - **Command Type:** Read / Write
+  - **Parameter / Return Type:** Number (0 \~ 65535)
+  - **Parameter / Return Value:**
+
+\<WRAP indent\>\<WRAP indent\>
+
+    0: 사용하지 않음 / 1 ~ 65535: 비활성 타이머 값 (Unit: second)
+
+  - 활성화 되어 있을 경우, 지정된 시간 동안 데이터 교환이 없다면 TCP 연결을 종료합니다.
+  - 비활성 타이머 값에 도달하기 이전에 이더넷 데이터 교환이 발생하는 경우, 해당 값은 초기화되어 다시 카운트를 시작합니다.
+
+\</WRAP\> \</WRAP\>
+
+  - **Response**
+
+\<WRAP indent\>\<WRAP indent\> \<WRAP round box group\> \<WRAP half
+column\>
+
+  - **Without Parameter (Get)**
+      - In ASCII: `IT0\r\n`
+
+\</WRAP\> \<WRAP half column\>
+
+  - **With Parameter (Set)**
+      - No response
+      - 비활성 타이머 값 변경
+
+\</WRAP\> \</WRAP\> \</WRAP\> \</WRAP\>
+
+-----
+
+#### CP
+
+-----
+
+  - **Format:** `CP<Parameter>[CR][LF]`
+  - **Meaning:** TCP 연결 비밀번호 사용 여부 (TCP server mode only)
+  - **Command Type:** Read / Write
+  - **Parameter / Return Type:** Number (0 / 1)
+  - **Parameter / Return Value:**
+
+\<WRAP indent\>\<WRAP indent\>
+
+    0: 사용하지 않음(Disabled) / 1: 사용(Enabled)
+
+  - 제품이 **TCP 서버로 동작** 할 때에만 해당 옵션이 적용 됩니다.
+  - 해당 옵션이 활성화 되어 있을 경우, 제품에 접속하고자 하는 TCP 클라이언트는 TCP 연결 후 연결 비밀번호를 먼저
+    전송하고 인증이 완료된 이후에 데이터를 교환해야 합니다. 
+
+\</WRAP\> \</WRAP\>
+
+1.  지정된 문자가 수신 될 때까지 시리얼 데이터를 모아 한 번에 이더넷으로 전송합니다.
+
+  - **Response**
+
+\<WRAP indent\>\<WRAP indent\> \<WRAP round box group\> \<WRAP half
+column\>
+
+  - **Without Parameter (Get)**
+      - In ASCII: `CP0\r\n`
+
+\</WRAP\> \<WRAP half column\>
+
+  - **With Parameter (Set)**
+      - No response
+      - TCP 연결 비밀번호 사용 여부 변경
+
+\</WRAP\> \</WRAP\> \</WRAP\> \</WRAP\>
+
+-----
+
+#### NP
+
+-----
+
+  - **Format:** `NP<Parameter>[CR][LF]`
+  - **Meaning:** TCP 연결 비밀번호 (TCP server mode only)
+  - **Command Type:** Read / Write
+  - **Parameter / Return Type:** String (up to 8-bytes)
+  - **Parameter / Return Value:**
+
+\<WRAP indent\>\<WRAP indent\>
+
+    초기값: 없음(Null)
+
+  - 제품이 **TCP 서버로 동작** 할 때에만 해당 옵션이 적용 됩니다.
+  - 연결 비밀번호는 최대 8개의 문자로 구성 될 수 있습니다.
+
+\</WRAP\> \</WRAP\>
+
+  - **Response**
+
+\<WRAP indent\>\<WRAP indent\> \<WRAP round box group\> \<WRAP half
+column\>
+
+  - **Without Parameter (Get)**
+      - In ASCII: `NP\r\n`
+
+\</WRAP\> \<WRAP half column\>
+
+  - **With Parameter (Set)**
+      - No response
+      - TCP 연결 비밀번호 값 변경
+
+\</WRAP\> \</WRAP\> \</WRAP\> \</WRAP\>
+
+-----
+
+#### SP
+
+-----
+
+  - **Format:** `SP<Parameter>[CR][LF]`
+  - **Meaning:** 검색 ID 코드(Search identification code)
+  - **Command Type:** Read / Write
+  - **Parameter / Return Type:** String (up to 8-bytes)
+  - **Parameter / Return Value:**
+
+\<WRAP indent\>\<WRAP indent\>
+
+    초기값: 없음(Null)
+
+  - 해당 옵션이 활성화 된 경우, 설정 프로그램을 이용한 제품 검색 시 일치하는 ID의 제품만 검색됩니다.
+  - 검색 ID 코드는 최대 8개의 문자로 구성 될 수 있습니다.
+
+\</WRAP\> \</WRAP\>
+
+  - **Response**
+
+\<WRAP indent\>\<WRAP indent\> \<WRAP round box group\> \<WRAP half
+column\>
+
+  - **Without Parameter (Get)**
+      - In ASCII: `SP\r\n`
+
+\</WRAP\> \<WRAP half column\>
+
+  - **With Parameter (Set)**
+      - No response
+      - 검색 ID 코드 값 변경
+
+\</WRAP\> \</WRAP\> \</WRAP\> \</WRAP\>
+
+-----
+
+#### DG
+
+-----
+
+  - **Format:** `DG<Parameter>[CR][LF]`
+  - **Meaning:** 시리얼 디버그 메시지 사용 여부 (Debug UART port)
+  - **Command Type:** Read / Write
+  - **Parameter / Return Type:** Number (0 / 1)
+  - **Parameter / Return Value:**
+
+\<WRAP indent\>\<WRAP indent\>
+
+    0: 사용하지 않음(Disabled) / 1: 사용(Enabled)
+
+  - 해당 옵션이 활성화 되어 있을 경우, Debug UART 포트를 통해 제품의 설정 및 Error 메시지가 출력됩니다. 
+
+\</WRAP\> \</WRAP\>
+
+  - **Response**
+
+\<WRAP indent\>\<WRAP indent\> \<WRAP round box group\> \<WRAP half
+column\>
+
+  - **Without Parameter (Get)**
+      - In ASCII: `DG1\r\n`
+
+\</WRAP\> \<WRAP half column\>
+
+  - **With Parameter (Set)**
+      - No response
+      - 시리얼 디버그 메시지 사용 여부 변경
+
+\</WRAP\> \</WRAP\> \</WRAP\> \</WRAP\>
+
+-----
+
+#### KA
+
+-----
+
+  - **KA** : 0번 채널용 명령어
+  - **RA** : 1번 채널용 명령어
+  - **Format:** `KA<Parameter>[CR][LF]`
+  - **Meaning:** TCP 연결 유지 확인을 위한 Keep-alive 패킷 전송 여부
+  - **Command Type:** Read / Write
+  - **Parameter / Return Type:** Number (0 / 1)
+  - **Parameter / Return Value:**
+
+\<WRAP indent\>\<WRAP indent\>
+
+    0: 사용하지 않음(Disabled) / 1: 사용(Enabled)
+
+  - 해당 옵션이 활성화 되어 있을 경우, TCP 연결 대상에게 지정된 주기([KI](#ki) / [KE](#ke))에 따라
+    Keep-alive 패킷을 전송합니다.
+  - 만약 상대방의 응답이 없을 경우, 해당 TCP 연결은 종료(TCP connection closed)되며 소켓이
+    초기화(open) 됩니다.
+
+\</WRAP\> \</WRAP\>
+
+  - **Response**
+
+\<WRAP indent\>\<WRAP indent\> \<WRAP round box group\> \<WRAP half
+column\>
+
+  - **Without Parameter (Get)**
+      - In ASCII: `KA1\r\n`
+
+\</WRAP\> \<WRAP half column\>
+
+  - **With Parameter (Set)**
+      - No response
+      - Keep-alive 패킷 전송 여부 변경
+
+\</WRAP\> \</WRAP\> \</WRAP\> \</WRAP\>
+
+-----
+
+#### KI
+
+-----
+
+  - **KI** : 0번 채널용 명령어
+  - **RS** : 1번 채널용 명령어
+  - **Format:** `KI<Parameter>[CR][LF]`
+  - **Meaning:** 첫 TCP Keep-alive 패킷 전송 간격 값
+  - **Command Type:** Read / Write
+  - **Parameter / Return Type:** Number (0 \~ 65535)
+  - **Parameter / Return Value:**
+
+\<WRAP indent\>\<WRAP indent\>
+
+    0: 사용하지 않음 / 1 ~ 65535: 초기 Keep-alive 패킷 전송 간격 (Unit: millisecond)
+
+  - 지정된 패킷 전송 간격에 따라 TCP 연결 대상에게 Keep-alive 패킷을 전송합니다.
+  - 데이터 전송을 마친 이후, 해당 값 만큼 시간이 경과하면 첫 Keep-alive 패킷이 전송됩니다.
+  - Keep-alive 패킷 전송 기능은 제품에서 한 번 이상 이더넷 데이터가 송신되어야 활성화 됩니다.
+
+\</WRAP\> \</WRAP\>
+
+  - **Response**
+
+\<WRAP indent\>\<WRAP indent\> \<WRAP round box group\> \<WRAP half
+column\>
+
+  - **Without Parameter (Get)**
+      - In ASCII: `KI7000\r\n`
+
+\</WRAP\> \<WRAP half column\>
+
+  - **With Parameter (Set)**
+      - No response
+      - 첫 Keep-alive 패킷 전송 간격 값 변경
+
+\</WRAP\> \</WRAP\> \</WRAP\> \</WRAP\>
+
+-----
+
+#### KE
+
+-----
+
+  - **KE** : 0번 채널용 명령어
+  - **RE** : 1번 채널용 명령어
+  - **Format:** `KE<Parameter>[CR][LF]`
+  - **Meaning:** TCP Keep-alive 패킷 전송 재시도 간격 값
+  - **Command Type:** Read / Write
+  - **Parameter / Return Type:** Number (0 \~ 65535)
+  - **Parameter / Return Value:**
+
+\<WRAP indent\>\<WRAP indent\>
+
+    0: 사용하지 않음 / 1 ~ 65535: Keep-alive 패킷 전송 재시도 간격 (Unit: millisecond)
+
+  - 초기 Keep-alive 패킷 전송이 이루어진 이후, 지정된 패킷 전송 간격에 따라 TCP 연결 대상에게
+    Keep-alive 패킷을 전송합니다.
+  - 두 번째 이후의 Keep-alive 패킷 전송 간격은 이 값을 따릅니다.
+  - Keep-alive 패킷 전송 기능은 제품에서 한 번 이상 이더넷 데이터가 송신되어야 활성화 됩니다.
+
+\</WRAP\> \</WRAP\>
+
+  - **Response**
+
+\<WRAP indent\>\<WRAP indent\> \<WRAP round box group\> \<WRAP half
+column\>
+
+  - **Without Parameter (Get)**
+      - In ASCII: `KE5000\r\n`
+
+\</WRAP\> \<WRAP half column\>
+
+  - **With Parameter (Set)**
+      - No response
+      - Keep-alive 패킷 전송 재시도 간격 값 변경
+
+\</WRAP\> \</WRAP\> \</WRAP\> \</WRAP\>
+
+-----
+
+#### RI
+
+-----
+
+  - **RI** : 0번 채널용 명령어
+  - **RR** : 1번 채널용 명령어
+  - **Format:** `RI<Parameter>[CR][LF]`
+  - **Meaning:** TCP 클라이언트 재연결 간격 값 (TCP client only)
+  - **Command Type:** Read / Write
+  - **Parameter / Return Type:** Number (0 \~ 65535)
+  - **Parameter / Return Value:**
+
+\<WRAP indent\>\<WRAP indent\>
+
+    0: 사용하지 않음 / 1 ~ 65535: TCP 클라이언트 재연결 간격 (Unit: millisecond)
+
+  - TCP 클라이언트 모드 일 때 서버와 TCP 연결이 이루어지지 않은 경우, 다음 연결시도 까지의 간격 값을 설정합니다. 
+
+\</WRAP\> \</WRAP\>
+
+  - **Response**
+
+\<WRAP indent\>\<WRAP indent\> \<WRAP round box group\> \<WRAP half
+column\>
+
+  - **Without Parameter (Get)**
+      - In ASCII: `RI3000\r\n`
+
+\</WRAP\> \<WRAP half column\>
+
+  - **With Parameter (Set)**
+      - No response
+      - TCP 클라이언트 재연결 간격 값 변경
+
+\</WRAP\> \</WRAP\> \</WRAP\> \</WRAP\>
+
+-----
+
+#### EC
+
+-----
+
+  - **Format:** `EC<Parameter>[CR][LF]`
+  - **Meaning:** UART 입력 Echoback 기능 활성화 (Data UART port)
+  - **Command Type:** Read / Write
+  - **Parameter / Return Type:** Number (0 / 1)
+  - **Parameter / Return Value:**
+
+\<WRAP indent\>\<WRAP indent\>
+
+    0: 사용하지 않음(Disabled) / 1: 사용(Enabled)
+
+  - 해당 옵션이 활성화 되면, 시리얼(Data UART)을 통해 입력된 데이터가 Echoback 됩니다.
+  - 시리얼 커맨드 모드 등에서 사용자의 입력을 확인 할 때 사용 할 수 있습니다.
+
+\</WRAP\> \</WRAP\>
+
+  - **Response**
+
+\<WRAP indent\>\<WRAP indent\> \<WRAP round box group\> \<WRAP half
+column\>
+
+  - **Without Parameter (Get)**
+      - In ASCII: `EC0\r\n`
+
+\</WRAP\> \<WRAP half column\>
+
+  - **With Parameter (Set)**
+      - No response
+      - UART 입력 Echoback 기능 사용 여부 변경
+
+\</WRAP\> \</WRAP\> \</WRAP\> \</WRAP\>
+
+  
+  
+  
+  
+
+### Command Mode Switch Settings
+
+-----
+
+#### TE
+
+-----
+
+  - **Format:** `TE<Parameter>[CR][LF]`
+  - **Meaning:** 커맨드 모드 전환 코드 사용 설정
+  - **Command Type:** Read / Write
+  - **Parameter / Return Type:** Number (0 / 1)
+  - **Parameter / Return Value:**
+
+\<WRAP indent\>\<WRAP indent\>
+
+    0: 사용하지 않음(Disabled) / 1: 사용(Enabled)
+
+  - 해당 기능이 활성화 되어야 3-byte 커맨드 모드 전환 코드를 이용하여 시리얼 커맨드 모드로 진입 할 수 있습니다.
+
+\</WRAP\> \</WRAP\>
+
+  - **Response**
+
+\<WRAP indent\>\<WRAP indent\> \<WRAP round box group\> \<WRAP half
+column\>
+
+  - **Without Parameter (Get)**
+      - In ASCII: `TE1\r\n`
+
+\</WRAP\> \<WRAP half column\>
+
+  - **With Parameter (Set)**
+      - No response
+      - 커맨드 모드 전환 코드 사용 설정 변경
+
+\</WRAP\> \</WRAP\> \</WRAP\> \</WRAP\>
+
+-----
+
+#### SS
+
+-----
+
+  - **Format:** `SS<Parameter>[CR][LF]`
+  - **Meaning:** 커맨드 모드 전환 코드
+  - **Command Type:** Read / Write
+  - **Parameter / Return Type:** String (3-byte hex only)
+  - **Parameter / Return Value:**
+
+\<WRAP indent\>\<WRAP indent\>
+
+    초기값: 2B 2B 2B 
+
+  - 커맨드 모드 전환 코드는 3-byte(3개 문자)의 hex 코드로 구성되어야 합니다.
+
+\</WRAP\> \</WRAP\>
+
+  - **Response**
+
+\<WRAP indent\>\<WRAP indent\> \<WRAP round box group\> \<WRAP half
+column\>
+
+  - **Without Parameter (Get)**
+      - In ASCII: `SS2B2B2B\r\n`
+
+\</WRAP\> \<WRAP half column\>
+
+  - **With Parameter (Set)**
+      - No response
+      - 커맨드 모드 전환 코드 변경
+
+\</WRAP\> \</WRAP\> \</WRAP\> \</WRAP\>
+
+### Device Control
+
+-----
+
+#### EX
+
+-----
+
+  - **Format:** `EX[CR][LF]`
+  - **Meaning:** 커맨드 모드 종료
+  - **Command Type:** Write only (Control)
+  - **Parameter / Return:** None
+  - **Response**
+
+\<WRAP indent\>\<WRAP indent\> \<WRAP round box group\>
+
+  - **Without Parameter**
+      - No response
+      - 커맨드 모드 종료 및 데이터 전송 모드로 전환
+
+\</WRAP\>
+
+  - 만약 시리얼 디버그 메시지를 사용 중인 경우, 성공적으로 데이터 전송 모드로의 변경이 이루어지면 Data/Debug
+    UART 양 쪽 포트를 통해 다음과 같은 모드 전환 메시지가 출력됩니다.
+  - `> SEG:GW Mode`
+
+\</WRAP\> \</WRAP\>
+
+-----
+
+#### SV
+
+-----
+
+  - **Format:** `SV[CR][LF]`
+  - **Meaning:** 변경 사항 저장
+  - **Command Type:** Write only (Control)
+  - **Parameter / Return:** None
+  - **Response**
+
+\<WRAP indent\>\<WRAP indent\> \<WRAP round box group\>
+
+  - **Without Parameter**
+      - No response
+      - 변경된 설정 항목의 저장 수행
+
+\</WRAP\> \</WRAP\> \</WRAP\>
+
+-----
+
+#### RT
+
+-----
+
+  - **Format:** `RT[CR][LF]`
+  - **Meaning:** 제품의 리부트 (Reboot)
+  - **Command Type:** Write only (Control)
+  - **Parameter / Return:** None
+  - **Response**
+
+\<WRAP indent\>\<WRAP indent\> \<WRAP round box group\>
+
+  - **Without Parameter**
+      - No response
+      - 제품의 모든 동작 종료 후 재시작 됩니다.
+
+\</WRAP\>
+
+  - 만약 시리얼 디버그 메시지를 사용 중인 경우, Data UART 포트를 통해 다음과 같은 메시지를 출력합니다.
+  - `> REBOOT`
+
+\</WRAP\> \</WRAP\>
+
+-----
+
+#### FR
+
+-----
+
+  - **Format:** `FR[CR][LF]`
+  - **Meaning:** 제품의 공장 초기화 (Factory reset)
+  - **Command Type:** Write only (Control)
+  - **Parameter / Return:** None
+  - **Response**
+
+\<WRAP indent\>\<WRAP indent\> \<WRAP round box group\>
+
+  - **Without Parameter**
+      - No response
+      - 제품의 동작 설정을 공장 초기화 상태(출고 시 초기 상태)로 변경합니다.
+
+\</WRAP\>
+
+  - 제품의 초기 설정 값은 **[WIZ750SR Factory
+    Settings](/products/wiz750sr/gettingstarted/ko#wiz750sr_factory_settings)**에서
+    확인 할 수 있습니다.
+  - 공장 초기화 수행 시, **[RT](#rt)** 커맨드를 수행 한 것과 동일하게 제품을 재시작 합니다.
+      - 만약 시리얼 디버그 메시지를 사용 중인 경우, Data UART 포트를 통해 다음과 같은 메시지를 출력합니다.
+      - `> REBOOT`
+
+\</WRAP\> \</WRAP\>
+
+  
+  
+  
+  
+
+### User I/O Settings
+
+-----
+
+#### CA - CD
+
+-----
+
+  - **Format:** `Cx<Parameter>[CR][LF] (CA ~ CD 동일)`
+  - **Meaning:** 사용자 I/O 핀의 설정 (type / direction)
+  - **Command Type:** Read / Write
+  - **Parameter / Return Type:** Number (0 \~ 2)
+  - **Parameter / Return Value:**
+
+\<WRAP indent\>\<WRAP indent\>
+
+<table>
+<thead>
+<tr class="header">
+<th>Parameter /<br />
+Return value</th>
+<th>I/O Setting</th>
+<th>Remarks</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>0</td>
+<td>Digital input</td>
+<td>-</td>
+</tr>
+<tr class="even">
+<td>1</td>
+<td>Digital output</td>
+<td>-</td>
+</tr>
+<tr class="odd">
+<td>2</td>
+<td>Analog input</td>
+<td>-</td>
+</tr>
+</tbody>
+</table>
+
+\</WRAP\> \</WRAP\>
+
+  - **Response**
+
+\<WRAP indent\>\<WRAP indent\> \<WRAP round box group\> \<WRAP half
+column\>
+
+  - **Without Parameter (Get)**
+      - In ASCII: `CA2\r\n` `CB0\r\n`
+
+\</WRAP\> \<WRAP half column\>
+
+  - **With Parameter (Set)**
+      - No response
+      - 사용자 I/O의 설정 변경
+
+\</WRAP\> \</WRAP\> \</WRAP\> \</WRAP\>
+
+### User I/O Status / Value
+
+-----
+
+#### GA - GD
+
+-----
+
+  - **Format:** `Gx<Parameter>[CR][LF] (GA ~ GD 동일)`
+  - **Meaning:** 사용자 I/O 핀의 상태 / 값 정보
+  - **Command Type:** Read / Write
+  - **Parameter / Return Type:** Number (Digital in/out: 0/1, Analog in:
+    0 \~ 4095)
+  - **Parameter / Return Value:**
+
+\<WRAP indent\>\<WRAP indent\>
+
+<table>
+<thead>
+<tr class="header">
+<th>I/O Setting</th>
+<th>Parameter /<br />
+Return value</th>
+<th>Remarks</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>Digital in/out</td>
+<td>0</td>
+<td>Low</td>
+</tr>
+<tr class="even">
+<td>:::</td>
+<td>1</td>
+<td>High</td>
+</tr>
+<tr class="odd">
+<td>Analog in</td>
+<td>0 ~ 4095</td>
+<td>12-bit ADC resolution</td>
+</tr>
+</tbody>
+</table>
+
+  - Digital out: R/W
+  - Digital in: Read only 
+  - Analog in: Read only
+
+\</WRAP\> \</WRAP\>
+
+  - **Response**
+
+\<WRAP indent\>\<WRAP indent\> \<WRAP round box group\> \<WRAP half
+column\>
+
+  - **Without Parameter (Get)**
+      - In ASCII: `GA4095\r\n (Analog input)`
+      - In ASCII: `GC0\r\n (Digital input)`
+
+\</WRAP\> \<WRAP half column\>
+
+  - **With Parameter (Set)**
+      - No response
+      - 사용자 I/O 상태 값 변경 (**Digital output only**)
+
+\</WRAP\> \</WRAP\> \</WRAP\> \</WRAP\>
+
+  
+  
+  
+  
+
+### Status I/O
+
+-----
+
+#### SC
+
+-----
+
+  - **Format:** `SC<Parameter_0><Parameter_1>[CR][LF]`
+  - **Meaning:** 상태 I/O **[S0](#s0)(PA\_10)**핀과 **[S1](#s1)(PA\_01)**핀의
+    동작 모드 설정
+  - **Command Type:** Read / Write
+  - **Parameter / Return Type:** Number (0/1)
+  - **Parameter / Return Value:**
+
+\<WRAP indent\>\<WRAP indent\>
+
+  - **Parameter\_0** (upper byte)
+
+<table>
+<thead>
+<tr class="header">
+<th>Parameter /<br />
+Return value</th>
+<th>Meaning</th>
+<th>Remarks</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>0</td>
+<td>PHY link status</td>
+<td>Default</td>
+</tr>
+<tr class="even">
+<td>1</td>
+<td>DTR</td>
+<td>Data Terminal Ready<br />
+(RS-232/TTL only)</td>
+</tr>
+</tbody>
+</table>
+
+  - **Parameter\_1** (lower byte)
+
+<table>
+<thead>
+<tr class="header">
+<th>Parameter /<br />
+Return value</th>
+<th>Meaning</th>
+<th>Remarks</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>0</td>
+<td>TCP connection status</td>
+<td>Default</td>
+</tr>
+<tr class="even">
+<td>1</td>
+<td>DSR</td>
+<td>Data Set Ready<br />
+(RS-232/TTL only)</td>
+</tr>
+</tbody>
+</table>
+
+\</WRAP\> \</WRAP\>
+
+  - **Response**
+
+\<WRAP indent\>\<WRAP indent\> \<WRAP round box group\> \<WRAP half
+column\>
+
+  - **Without Parameter (Get)**
+      - In ASCII: (Connection Status) `SC00\r\n`
+      - In ASCII: (DTR / DSR) `SC11\r\n`
+
+\</WRAP\> \<WRAP half column\>
+
+  - **With Parameter (Set)**
+      - No response
+      - 상태 I/O의 동작 모드 변경
+
+\</WRAP\> \</WRAP\> \</WRAP\> \</WRAP\>
+
+-----
+
+#### S0
+
+-----
+
+  - **Format:** `S0<Parameter>[CR][LF]`
+  - **Meaning:** 상태 I/O **S0(PA\_10)**핀의 상태 값
+  - **Command Type:** Read only
+  - **Parameter / Return Type:** Number (0/1)
+  - **Parameter / Return Value:**
+
+\<WRAP indent\>\<WRAP indent\>
+
+  - **PHY link status 핀으로 동작하는 경우**
+
+| Return value | Meaning       | Remarks |
+| ------------ | ------------- | ------- |
+| 0            | PHY link up   | \-      |
+| 1            | PHY link down | \-      |
+
+  - \*\* DTR(Data Terminal Ready) 핀으로 동작하는 경우\*\*
+      - 해당 장비의 통신 준비가 완료 됨을 상대방 장치에 알리는 신호 (RS-232, Output)
+      - 상대 장비의 DSR과 연결함
+
+| Return value | Meaning            | Remarks |
+| ------------ | ------------------ | ------- |
+| 0            | 통신 불가              | \-      |
+| 1            | 해당 장비의 통신 준비가 완료 됨 | \-      |
+
+\</WRAP\> \</WRAP\>
+
+  - **Response**
+
+\<WRAP indent\>\<WRAP indent\> \<WRAP round box group\> \<WRAP half
+column\>
+
+  - **Without Parameter (Get)**
+      - In ASCII: `S00\r\n`
+
+\</WRAP\> \<WRAP half column\> \</WRAP\> \</WRAP\> \</WRAP\> \</WRAP\>
+
+-----
+
+#### S1
+
+-----
+
+  - **Format:** `S1<Parameter>[CR][LF]`
+  - **Meaning:** 상태 I/O **S1(PA\_01)**핀의 상태 값
+  - **Command Type:** Read only
+  - **Parameter / Return Type:** Number (0/1)
+  - **Parameter / Return Value:**
+
+\<WRAP indent\>\<WRAP indent\>
+
+  - **TCP connection status 핀으로 동작하는 경우**
+      - TCP server / client / mixed mode only 
+
+| Return value | Meaning            | Remarks |
+| ------------ | ------------------ | ------- |
+| 0            | TCP 연결 성립 상태       | \-      |
+| 1            | TCP 통신이 연결되어 있지 않음 | \-      |
+
+  - \*\* DSR(Data Set Ready) 핀으로 동작하는 경우\*\*
+      - 상대 장비의 통신 준비가 완료 되었는지 확인하는 신호 (RS-232, Input)
+      - 상대 장비의 DTR과 연결함
+
+| Return value | Meaning            | Remarks |
+| ------------ | ------------------ | ------- |
+| 0            | 통신 불가              | \-      |
+| 1            | 상대 장비의 통신 준비가 완료 됨 | \-      |
+
+\</WRAP\> \</WRAP\>
+
+  - **Response**
+
+\<WRAP indent\>\<WRAP indent\> \<WRAP round box group\> \<WRAP half
+column\>
+
+  - **Without Parameter (Get)**
+      - In ASCII: `S10\r\n`
+
+\</WRAP\> \<WRAP half column\> \</WRAP\> \</WRAP\> \</WRAP\> \</WRAP\>
+
+-----
+
+## Navigation
+
+-----
+
+\<WRAP group\> \<WRAP centeralign third column\>
+[![arrow\_back.png](/etc/arrow_back.png)](/products/wiz750sr/configtoolmanual/ko)  
+**Prev Page**  
+[Configuration Tool Manual](/products/wiz750sr/configtoolmanual/ko)
+\</WRAP\>
+
+\<WRAP centeralign third column\>
+[![arrow\_upward.png](/etc/arrow_upward.png)](#wiz750sr_command_manual)  
+**Scroll to Top** \</WRAP\>
+
+\<WRAP centeralign third column\>
+[![arrow\_forward.png](/etc/arrow_forward.png)](/products/wiz750sr/troubleshooting/ko)  
+**Next Page**  
+[Troubleshooting Guide](/products/wiz750sr/troubleshooting/ko) \</WRAP\>
+\</WRAP\>
+
+\<WRAP group\> \<WRAP centeralign half column\>
+[![arrow\_refresh.png](/etc/arrow_refresh.png)](/products/wiz750sr/start)  
+**Back to Product Main**  
+[WIZ750SR](/products/wiz750sr/start) \</WRAP\>
+
+\<WRAP centeralign half column\>
+[![arrow\_refresh.png](/etc/arrow_refresh.png)](/products/wiz750sr-100/start)  
+**Back to Product Main**  
+[WIZ750SR-100](/products/wiz750sr-100/start) \</WRAP\>
+
+\<WRAP group\> \<WRAP centeralign half column\>
+[![arrow\_refresh.png](/etc/arrow_refresh.png)](/products/wiz750sr-105/start)  
+**Back to Product Main**  
+[WIZ750SR-105](/products/wiz750sr-105/start) \</WRAP\>
+
+\<WRAP centeralign half column\>
+[![arrow\_refresh.png](/etc/arrow_refresh.png)](/products/wiz750sr-110/start)  
+**Back to Product Main**  
+[WIZ750SR-110](/products/wiz750sr-110/start) \</WRAP\>
+
+-----
+
+\<WRAP round box group\> \<WRAP half column\> \<WRAP centeralign\> \*\*
+WIZ750SR series Common Documents \*\* \</WRAP\>
+
+  - **[User's Manual](/products/wiz750sr/usermanual/ko)** 
+
+<!-- end list -->
+
+  - **[Device Command Manual](/products/wiz750sr/commandmanual/ko)**
+
+<!-- end list -->
+
+  - **[Troubleshooting Guide](/products/wiz750sr/troubleshooting/ko)**
+
+<!-- end list -->
+
+  - **[Update History](/products/wiz750sr/history/ko)**
+
+-----
+
+\<WRAP centeralign\> \*\* WIZ750SR series Downloads \*\* \</WRAP\>
+
+  - **[Software Downloads](/products/wiz750sr/download/start)**
+
+<!-- end list -->
+
+  - **[Technical Reference](/products/wiz750sr/reference/start)**
+
+\</WRAP\>
+
+\<WRAP half column\> \<WRAP centeralign\> \*\* WIZ750SR Individual
+documents \*\* \</WRAP\>
+
+  - **[WIZ750SR Product Overview](/products/wiz750sr/overview/ko)**
+  - **[WIZ750SR Getting Started
+    Guide](/products/wiz750sr/gettingstarted/ko)**
+  - **[WIZ750SR Datasheet](/products/wiz750sr/datasheet/start)**
+
+-----
+
+\<WRAP centeralign\> \*\* WIZ750SR-100 Individual documents \*\*
+\</WRAP\>
+
+  - **[WIZ750SR-100 Product
+    Overview](/products/wiz750sr-100/overview/ko)**
+  - **[WIZ750SR-100 Getting Started
+    Guide](/products/wiz750sr-100/gettingstarted/ko)**
+  - **[WIZ750SR-100 Datasheet](/products/wiz750sr-100/datasheet/start)**
+
+-----
+
+\<WRAP centeralign\> \*\* WIZ750SR-105 Individual documents \*\*
+\</WRAP\>
+
+  - **[WIZ750SR-105 Product
+    Overview](/products/wiz750sr-105/overview/ko)**
+  - **[WIZ750SR-105 Getting Started
+    Guide](/products/wiz750sr-105/gettingstarted/ko)**
+  - **[WIZ750SR-105 Datasheet](/products/wiz750sr-105/datasheet/start)**
+
+-----
+
+\<WRAP centeralign\> \*\* WIZ750SR-110 Individual documents \*\*
+\</WRAP\>
+
+  - **[WIZ750SR-110 Product
+    Overview](/products/wiz750sr-110/overview/ko)**
+  - **[WIZ750SR-110 Getting Started
+    Guide](/products/wiz750sr-110/gettingstarted/ko)**
+  - **[WIZ750SR-110 Datasheet](/products/wiz750sr-110/datasheet/start)**
+
+\</WRAP\> \</WRAP\> \</WRAP\> \</WRAP\>
+
