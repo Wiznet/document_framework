@@ -66,7 +66,8 @@ module.exports = {
         type: 'category',
         label: 'W7500P',
         items: [
-		'Product/Pre-programmed MCU/W7500P-S2E/w7500p-s2e',
+		'Product/Pre-programmed MCU/W7500P-S2E/w7500p-s2e-[KO]',
+		'Product/Pre-programmed MCU/W7500P-S2E/w7500p-s2e-[EN]',
 		],
 		}
 		],
