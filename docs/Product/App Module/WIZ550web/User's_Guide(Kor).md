@@ -586,7 +586,7 @@ Reserved
 |0	|NONE|
 |1	|RTS/CTS|
 
-  * **Response:**
+ * **Response:**
 >
 
     [S,,<BR>,<W>,<P>,<S>,<F>]
