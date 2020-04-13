@@ -1,6 +1,6 @@
 ---
-id: command_manual-[EN]
-title: Command Manual-[EN]
+id: configuration_tool_manual-[EN]
+title: Configuration Tool Manual-[EN]
 date: 2020-03-
 ---
 
