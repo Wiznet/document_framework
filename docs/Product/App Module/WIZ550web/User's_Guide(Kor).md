@@ -632,7 +632,7 @@ Reserved
     
  * **Meaning**: 현재 설정된 정보들을 Flash 메모리에 저장한다
 
- * **Response:
+ * **Response:**
 >
 
     [S]
