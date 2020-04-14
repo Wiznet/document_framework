@@ -457,7 +457,7 @@ Note that <IP>,<SN>,<GW>,<DNS> address of response are not actual addresses, but
     
   * **Meaning:** Serial Interface(USART1) Configuration
   
-<BR>: Baud rate
+&#60;BR&#62;: Baud rate
     
 |Parameter|	Meaning|
 |---------|--------|
@@ -473,14 +473,14 @@ Note that <IP>,<SN>,<GW>,<DNS> address of response are not actual addresses, but
 |115200|	115200bps|
 |230400	|230400bps|
 
-<W>: Word length
+&#60;W&#62;: Word length
     
 |Parameter|	Meaning|
 |---------|---------|
 |8|	8 bits|
 |9|	9 bits|
 
-<P>: Parity bit
+&#60;P&#62;: Parity bit
     
 |Parameter	|Meaning|
 |-----------|-------|
@@ -489,14 +489,14 @@ Note that <IP>,<SN>,<GW>,<DNS> address of response are not actual addresses, but
 |E	|EVEN|
 
 
-: Stop bit
+&#60;S&#62;: Stop bit
     
 |Parameter|	Meaning|
 |---------|--------|
 |1|	1 bits|
 |2|	2 bits|
 
-<F>: Flow Control
+&#60;F&#62;: Flow Control
     
 |Parameter|	Meaning|
 |----------|--------|
@@ -546,7 +546,7 @@ Note that <IP>,<SN>,<GW>,<DNS> address of response are not actual addresses, but
     AT+MUSART2=<BR>,<W>,<P>,<S>,<F>
     
    * **Meaning:** Serial Interface(USART2) Configuration
-<BR>: Baud rate
+&#60;BR&#62;: Baud rate
     
 |Parameter	|Meaning|
 |------------|-------|
@@ -562,14 +562,14 @@ Note that <IP>,<SN>,<GW>,<DNS> address of response are not actual addresses, but
 |115200|	115200bps|
 |230400|	230400bps|
 
-<W>: Word length
+&#60;W&#62;: Word length
     
 |Parameter|	Meaning|
 |----------|-------|
 |8	|8 bits|
 |9|	9 bits|
 
-<P>: Parity bit
+&#60;P&#62;: Parity bit
     
 |Parameter|	Meaning|
 |---------|--------|
@@ -578,14 +578,14 @@ Note that <IP>,<SN>,<GW>,<DNS> address of response are not actual addresses, but
 |E	|EVEN|
 
 
-<S>: Stop bit
+&#60;S&#62;: Stop bit
     
 |Parameter|	Meaning|
 |---------|--------|
 |1	|1 bits|
 |2|	2 bits|
 
-<F>: Flow Control
+&#60;F&#62;: Flow Control
     
 |Parameter|	Meaning|
 |----------|-------|
