@@ -467,14 +467,14 @@ Reserved
 |115200|	115200bps|
 |230400	|230400bps|
 
-<W>: Word length
+&#60;W&#62;: Word length
     
 |Parameter|	Meaning|
 |---------|---------|
 |8|	8 bits|
 |9|	9 bits|
 
-<P>: Parity bit
+&#60;P&#62;: Parity bit
     
 |Parameter	|Meaning|
 |-----------|-------|
@@ -483,14 +483,14 @@ Reserved
 |E	|EVEN|
 
 
-: Stop bit
+&#60;S&#62;: Stop bit
     
 |Parameter|	Meaning|
 |---------|--------|
 |1|	1 bits|
 |2|	2 bits|
 
-<F>: Flow Control
+&#60;F&#62;: Flow Control
     
 |Parameter|	Meaning|
 |----------|--------|
@@ -541,7 +541,7 @@ Reserved
     AT+MUSART2=<BR>,<W>,<P>,<S>,<F>
     
    * **Meaning:** 시리얼 설정값을 읽어오거나 새로운 설정값을 지정한다
-<BR>: Baud rate
+&#60;BR&#62;: Baud rate
     
 |Parameter	|Meaning|
 |------------|-------|
@@ -557,14 +557,14 @@ Reserved
 |115200|	115200bps|
 |230400|	230400bps|
 
-<W>: Word length
+&#60;W&#62;: Word length
     
 |Parameter|	Meaning|
 |----------|-------|
 |8	|8 bits|
 |9|	9 bits|
 
-<P>: Parity bit
+&#60;P&#62;: Parity bit
     
 |Parameter|	Meaning|
 |---------|--------|
@@ -572,14 +572,14 @@ Reserved
 |O|	ODD|
 |E	|EVEN|
 
-<S>: Stop bit
+&#60;S&#62;: Stop bit
     
 |Parameter|	Meaning|
 |---------|--------|
 |1	|1 bits|
 |2|	2 bits|
 
-<F>: Flow Control
+&#60;F&#62;: Flow Control
     
 |Parameter|	Meaning|
 |----------|-------|
