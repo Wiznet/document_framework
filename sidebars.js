@@ -318,7 +318,8 @@ module.exports = {
 		'Product/S2E Module/WIZ752SR-12x Series/WIZ752SR-120/cli_config_tool_tutorial',
 		'Product/S2E Module/WIZ752SR-12x Series/WIZ752SR-120/command_manual-[KO]',
 		'Product/S2E Module/WIZ752SR-12x Series/WIZ752SR-120/command_manual-[EN]',
-		'Product/S2E Module/WIZ752SR-12x Series/WIZ752SR-120/trouble_shooting_guide',
+		'Product/S2E Module/WIZ752SR-12x Series/WIZ752SR-120/trouble_shooting-[KO]',
+		'Product/S2E Module/WIZ752SR-12x Series/WIZ752SR-120/trouble_shooting-[EN]',
 		'Product/S2E Module/WIZ752SR-12x Series/WIZ752SR-120/datasheet',
 		'Product/S2E Module/WIZ752SR-12x Series/WIZ752SR-120/download'
 		],
