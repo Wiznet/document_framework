@@ -451,7 +451,7 @@ Reserved
     
   * **Meaning:** 시리얼 설정값을 읽어오거나 새로운 설정값을 지정한다
   
-<BR>: Baud rate
+&#60;BR&#62;: Baud rate
     
 |Parameter|	Meaning|
 |---------|--------|
