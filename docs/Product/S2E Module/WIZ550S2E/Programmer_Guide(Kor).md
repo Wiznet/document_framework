@@ -1388,16 +1388,17 @@ v1.1.5 부터는 AT+MMODE로 이름이 변경 되었습니다.**
 
 -----
 
-\<WRAP left round box 30%\>\<WRAP centeralign\>==== AT+MPASS ====
-\</WRAP\>\</WRAP\>  
+>
+
+    AT+MPASS   
   
   
-\* **Notice:** \<WRAP indent\>\<WRAP indent\> **이 기능은 v1.1.5부터 추가
-되었습니다.** \</WRAP\>\</WRAP\>
+\* **Notice:**  **이 기능은 v1.1.5부터 추가
+되었습니다.** 
 
   - **Format:**
 
-\<WRAP indent\>\<WRAP indent\>
+>
 
     AT+MPASS
 
@@ -1405,15 +1406,14 @@ v1.1.5 부터는 AT+MMODE로 이름이 변경 되었습니다.**
 
     AT+MPASS=<Setting Password>,<Connection Password>
 
-\</WRAP\>\</WRAP\>
+
 
   - **Meaning:** 모듈의 설정 비밀번호와 연결 비밀번호를 확인 하거나 설정 한다.
 
-\<WRAP indent\>\<WRAP indent\> \</WRAP\>\</WRAP\>
 
   - **Response:**
 
-\<WRAP indent\>\<WRAP indent\>
+>
 
     [S,,<Setting Password>,<Connection Password>]
 
@@ -1421,20 +1421,21 @@ v1.1.5 부터는 AT+MMODE로 이름이 변경 되었습니다.**
 
     [S]
 
-\</WRAP\>\</WRAP\>
+
 
 -----
 
-\<WRAP left round box 30%\>\<WRAP centeralign\>==== AT+MNAME ====
-\</WRAP\>\</WRAP\>  
+>
+
+     AT+MNAME   
   
   
-\* **Notice:** \<WRAP indent\>\<WRAP indent\> **이 기능은 v1.1.5부터 추가
-되었습니다.** \</WRAP\>\</WRAP\>
+\* **Notice:** **이 기능은 v1.1.5부터 추가
+되었습니다.** 
 
   - **Format:**
 
-\<WRAP indent\>\<WRAP indent\>
+>
 
     AT+MNAME
 
@@ -1442,15 +1443,16 @@ v1.1.5 부터는 AT+MMODE로 이름이 변경 되었습니다.**
 
     AT+MNAME=<Module Name>
 
-\</WRAP\>\</WRAP\>
+
 
   - **Meaning:** 모듈의 이름을 확인 하거나 설정 한다.
 
-\<WRAP indent\>\<WRAP indent\> \</WRAP\>\</WRAP\>
+
 
   - **Response:**
 
-\<WRAP indent\>\<WRAP indent\>
+
+>
 
     [S,,<Module Name>]
 
@@ -1458,7 +1460,7 @@ v1.1.5 부터는 AT+MMODE로 이름이 변경 되었습니다.**
 
     [S]
 
-\</WRAP\>\</WRAP\>  
+
 
 -----
 
@@ -1471,46 +1473,44 @@ v1.1.5 부터는 AT+MMODE로 이름이 변경 되었습니다.**
 
 -----
 
-\<WRAP left round box 30%\>\<WRAP centeralign\>==== AT+FDNS ====
-\</WRAP\>\</WRAP\>  
+>
+
+     AT+FDNS  
   
   
-\* **Format:** \<WRAP indent\>\<WRAP indent\>
+\* **Format:** 
 
     AT+FDNS
 
     AT+FDNS=Domain Name
 
-\</WRAP\>\</WRAP\>
+
 
   - **Meaning:** DNS Query를 수행하고 그 결과를 알려준다. 
 
-\<WRAP indent\>\<WRAP indent\> AT+FDNS만 수행 했을 경우 Configuration Tool을 통해
+ AT+FDNS만 수행 했을 경우 Configuration Tool을 통해
 설정한 Domain을 DNS Server IP로 Query한다. \</WRAP\>\</WRAP\>
 
   - **Response:**
 
-\<WRAP indent\>\<WRAP indent\>
+>
 
     [D,,13]
     DNS Timeout
-
-\</WRAP\>\</WRAP\> \<WRAP indent\>\<WRAP indent\>
 
     [D,,17]
     173.194.126.180
 
 -----
-\<WRAP left round box 30%\>\<WRAP centeralign\>==== AT+MQTTSET ====
-\</WRAP\>\</WRAP\>  
-  
-  
-\* **Notice:** \<WRAP indent\>\<WRAP indent\> **이 기능은 v1.3.0부터 추가
-되었습니다.** \</WRAP\>\</WRAP\>
+>
 
+       AT+MQTTSET 
+  
+  
+\* **Notice:**  **이 기능은 v1.3.0부터 추가
+되었습니다.**
   - **Format:**
-
-\<WRAP indent\>\<WRAP indent\>
+>
 
     AT+MQTTSET
 
@@ -1518,21 +1518,21 @@ v1.1.5 부터는 AT+MMODE로 이름이 변경 되었습니다.**
 
     AT+MQTTSET=<UserName>,<Password>,<ClientID>
 
-\</WRAP\>\</WRAP\>
+
 
   - **Meaning:** MQTT 연결에 필요한 설정
 
-\<WRAP indent\>\<WRAP indent\> \<UserName\>: The User Name used in the
+ \<UserName\>: The User Name used in the
 broker authentication (Required, Max: 10 Character)  
 \<Password\>: The Password used in the broker authentication (Required,
 Max: 10 Character)  
 \<ClientID\>: The Client ID connected to the broker (Required, Max: 25
 Character)  
-\</WRAP\>\</WRAP\>
+
 
   - **Response:**
 
-\<WRAP indent\>\<WRAP indent\>
+>
 
     [S,,<UserName>,<Password>,<ClientID>]
 
@@ -1540,28 +1540,28 @@ Character)
 
     [S]
 
-\</WRAP\>\</WRAP\>
 
 -----
 
-\<WRAP left round box 30%\>\<WRAP centeralign\>==== AT+MQTTCON ====
-\</WRAP\>\</WRAP\>  
+>
+
+    AT+MQTTCON  
   
   
-\* **Notice:** \<WRAP indent\>\<WRAP indent\> **이 기능은 v1.3.0부터 추가
-되었습니다.** \</WRAP\>\</WRAP\>
+\* **Notice:**  **이 기능은 v1.3.0부터 추가
+되었습니다.** 
 
   - **Format:**
 
-\<WRAP indent\>\<WRAP indent\>
+>
 
     AT+MQTTCON=<Con/Discon>,<BrokerIP>,<BrokerPort>
 
-\</WRAP\>\</WRAP\>
+
 
   - **Meaning:** MQTT 연결 합니다.
 
-\<WRAP indent\>\<WRAP indent\> \<Con/Discon\>: MQTT Connection
+\<Con/Discon\>: MQTT Connection
 (Required)
 
 | Parameter | Meaning                    |
@@ -1569,70 +1569,68 @@ Character)
 | 1         | Connect to the broker      |
 | 0         | Disconnect from the broker |
 
-\</WRAP\>\</WRAP\>
 
   - **Response:**
 
-\<WRAP indent\>\<WRAP indent\>
+>
 
     [W,(SockId)]
 
     [S,(SockId)]
 
-\</WRAP\>\</WRAP\>
+
 
 -----
 
-\<WRAP left round box 30%\>\<WRAP centeralign\>==== AT+MQTTPUB ====
-\</WRAP\>\</WRAP\>  
+>
+
+    AT+MQTTPUB 
   
   
-\* **Notice:** \<WRAP indent\>\<WRAP indent\> **이 기능은 v1.3.0부터 추가
-되었습니다.** \</WRAP\>\</WRAP\>
+\* **Notice:**  **이 기능은 v1.3.0부터 추가
+되었습니다.** 
 
   - **Format:**
 
-\<WRAP indent\>\<WRAP indent\>
+>
 
     AT+MQTTPUB=<SockId>,<Topic>,<Size>
 
-\</WRAP\>\</WRAP\>
+
 
   - **Meaning:** Publish the message to subscribed Client
 
-\<WRAP indent\>\<WRAP indent\> \</WRAP\>\</WRAP\>
+
 
   - **Response:**
 
-\<WRAP indent\>\<WRAP indent\>
+>
 
     [W,(SockId)]
 
     [S,(SockId)]
 
-\</WRAP\>\</WRAP\>
 
 -----
 
-\<WRAP left round box 30%\>\<WRAP centeralign\>==== AT+MQTTSUB ====
-\</WRAP\>\</WRAP\>  
+>
+
+    AT+MQTTSUB 
   
-  
-\* **Notice:** \<WRAP indent\>\<WRAP indent\> **이 기능은 v1.3.0부터 추가
-되었습니다.** \</WRAP\>\</WRAP\>
+\* **Notice:**  **이 기능은 v1.3.0부터 추가
+되었습니다.** 
 
   - **Format:**
 
-\<WRAP indent\>\<WRAP indent\>
+>
 
     AT+MQTTSUB =<Sub/Unsub>,<Topic>
 
-\</WRAP\>\</WRAP\>
 
   - **Meaning:** Such topics will be pushed to the WIZ550S2E when
     received by the Broker
 
-\<WRAP indent\>\<WRAP indent\> \<Sub/Unsub\>: Subscribe/Unsubscribe the
+ \<Sub/Unsub\>: Subscribe/Unsubscribe the
 Topic (Required)
 
 | Parameter | Meaning               |
@@ -1640,7 +1638,6 @@ Topic (Required)
 | 1         | Subscribe the topic   |
 | 0         | Unsubscribe the topic |
 
-\</WRAP\>\</WRAP\>
 
   - **Response:**
 
