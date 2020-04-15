@@ -9,7 +9,7 @@ date: 2020-03-
 # 개요
 
 본 페이지는 사용자가 WIZ550S2E를 사용하기 위한 정보를 제공합니다.  
-\* Configuration tool을 이용한 WIZ550S2E 모듈의 설정값을 확인하거나 변경하는 방법
+  *  Configuration tool을 이용한 WIZ550S2E 모듈의 설정값을 확인하거나 변경하는 방법
 
   - 사용자의 Main 컨트롤러에서 Serial 통신을 이용해 WIZ550S2E 모듈로 AT command를 전송하는 방법 및
     AT commands set에 대한 상세 정보
@@ -46,14 +46,12 @@ Virtual machine상에서 실행되도록 하면 됩니다.
 [설치방법](https://github.com/Wiznet/WIZ550S2E)  
   
 다음과 같은 두 가지 방법으로 실행할 수 있습니다.  
-\- GUI환경에서 jar파일을 더블클릭하여 실행
+  - GUI환경에서 jar파일을 더블클릭하여 실행
+     - ALZip과 같은 일부 압축 프로그램에서 jar파일을 압축파일로 인식한 경우, jar파일이 실행되지 않는 경우가 발생할 수 있습니다. 이런 경우에는 해당 프로그램의 환경설정을 통해 파일연결 설정을 변경(jar파일을 열지 않도록)합니다.
+     - Linux 또는 Mac의 경우 jar파일에 다음과 같이 실행 퍼미션을 주어야 실행 됩니다.
+        - chmod 0755 WIZ550S2E_Configuration_Tool.jar
+  - 터미널에서 “java -jar WIZ550S2E_Configuration_Tool.jar” 명령을 입력하여 실행
 
-``` 
-  - ALZip과 같은 일부 압축 프로그램에서 jar파일을 압축파일로 인식한 경우, jar파일이 실행되지 않는 경우가 발생할 수 있습니다. 이런 경우에는 해당 프로그램의 환경설정을 통해 파일연결 설정을 변경(jar파일을 열지 않도록)합니다.
-  - Linux 또는 Mac의 경우 jar파일에 다음과 같이 실행 퍼미션을 주어야 실행 됩니다.
-    - chmod 0755 WIZ550S2E_Configuration_Tool.jar
-- 터미널에서 “java -jar WIZ550S2E_Configuration_Tool.jar” 명령을 입력하여 실행
-```
 
 WIZnet Configuration tool은 다음과 같이 크게 네개 부분으로 구성되어져 있습니다.
 
@@ -67,7 +65,8 @@ WIZnet Configuration tool은 다음과 같이 크게 네개 부분으로 구성�
 ## Common Configurations
 
 ![](/products/wiz550s2e/wiz550s2epg_kr/configtool/common_config.png)  
-\==== ①Search ==== Search 기능은 같은 LAN 상에 존재하는 모든 모듈을 검색하는 데 사용됩니다. UDP
+### ①Search
+Search 기능은 같은 LAN 상에 존재하는 모든 모듈을 검색하는 데 사용됩니다. UDP
 브로드캐스트를 사용하여, 동일한 Subnet 상의 모든 모듈이 검색되면, 해당 모듈의 MAC Address가 표시
 됩니다.
 
@@ -194,7 +193,9 @@ information, you have to get this information from your network
 administrator. If the IP address is not correct, IP collision or network
 problems may occur.  
   
-\==== ②Port ==== 모듈의 Port 정보를 설정하는 섹션이다.
+### ②Port
+
+모듈의 Port 정보를 설정하는 섹션이다.
 
     Local port : 
         모듈의 port number
@@ -208,7 +209,7 @@ Mixed 모두 해당 Port를 사용한다. Server의 경우 문제가 없지만, 
 동일 Port를 사용하여 상대방에게 접속하기 때문에 최초 접속은 잘 이루어 지더라도 재접속 시도시 상대방의 환경에 따라 접근을
 거부하는 경우도 있으니 주의 바란다. 만약 이럴경우 Local Port를 0으로 설정하면 모듈이 랜덤한 Port를 사용하여 접속을
 시도 함으로 해결이 가능하다.*  
-\==== ③Working Mode ==== Client / server / mixed : 다음의 Network mode는 TCP
+### ③Working Mode Client / server / mixed : 다음의 Network mode는 TCP
 연결설정에 대한 분류를 의미한다. TCP Server 모드는 모듈이 연결 설정 과정에서 서버로 동작하는 것을 의미하고, 지정한
 Port로 접속 시도가 오기를 기다린다. TCP Client 모드는 연결 설정 과정에서 Client로 동작한다는 것을 의미하며,
 지정된(연결할) 서버 IP와 Port로 접속을 시도한다. Mixed 모드는 Server 모드와 Client 모드 모두 지원하는
@@ -494,7 +495,7 @@ CR(0x0D), LF(0x0A)로 끝나야한다.** \</WRAP\> 어떤 인자들은 필수항
 | 20   | ERR\_NoFreeMem | No Free Memory |
 
   
-\==== Event Code ====
+### Event Code 
 
 #### Socket Event Code
 
@@ -616,22 +617,22 @@ CR(0x0D), LF(0x0A)로 끝나야한다.** \</WRAP\> 어떤 인자들은 필수항
 </table>
 
 -----
-\<WRAP left round box 30%\>\<WRAP centeralign\>==== AT+NSET ====
-\</WRAP\>\</WRAP\>  
+>
+
+    AT+NSET 
   
   
 
   - **Format:**
-
-\<WRAP indent\>\<WRAP indent\>
+>
 
     AT+NSET=<DHCP>,<IP>,<SN>,<GW>
 
-\</WRAP\>\</WRAP\>
+
 
   - **Meaning:** 네트워크 정보를 확인하거나 설정한다
 
-\<WRAP indent\>\<WRAP indent\> \<DHCP\>: 정적 IP / 유동 IP 사용 지정
+ \<DHCP\>: 정적 IP / 유동 IP 사용 지정
 
 | Parameter | Meaning              |
 | --------- | -------------------- |
@@ -644,59 +645,58 @@ CR(0x0D), LF(0x0A)로 끝나야한다.** \</WRAP\> 어떤 인자들은 필수항
 
   - **Response:**
 
-\<WRAP indent\>\<WRAP indent\>
+>
 
     [S]
 
 -----
 
-\</WRAP\>\</WRAP\>
+
 
   - ***Example 1:***
 
-* \<WRAP indent\>\<WRAP indent\> `AT+NSET\r\n` `AT+NSET?\r\n`
-\</WRAP\>\</WRAP\> *
+*  `AT+NSET\r\n` `AT+NSET?\r\n`
+
 
   - ***Meaning:*** *현재 설정된 네트워크 정보를 읽어온다*
 
-* \<WRAP indent\>\<WRAP indent\> 응답에 담겨진 주소(IP 주소, 서브넷, 게이트웨이 주소)는 실제
+* 응답에 담겨진 주소(IP 주소, 서브넷, 게이트웨이 주소)는 실제
 주소와 다르고 메모리에 저장된 주소입니다. 특히, DHCP 모드가 켜져 있을 때는 대개 실제 주소와 다릅니다.
-\</WRAP\>\</WRAP\>*
 
   - ***Response:***
 
-* \<WRAP indent\>\<WRAP indent\>
+
 `[S,,S,192.168.11.100,255.255.255.0,192.168.11.1,8.8.8.8]
 ` `[S,,D]
-`\</WRAP\>\</WRAP\>*
+`
 
   - ***Example 2:***
 
-* \<WRAP indent\>\<WRAP indent\> `AT+NSET-2,192.168.11.110\r\n`
-\</WRAP\>\</WRAP\>*
+ `AT+NSET-2,192.168.11.110\r\n`
+
 
   - ***Meaning:*** *현재 설정된 네트워크 정보중 두번째 인자인 IP 주소만 지정된 값으로 변경한다*
 
-*\<WRAP indent\>\<WRAP indent\> \</WRAP\>\</WRAP\>*
+
 
   - ***Response:***
+>
 
-*\<WRAP indent\>\<WRAP indent\> `[S]
-` \</WRAP\>\</WRAP\>*
+    [S]
 
 -----
+>
 
-\<WRAP left round box 30%\>\<WRAP centeralign\>==== AT+NSTAT ====
-\</WRAP\>\</WRAP\>  
+    AT+NSTAT  
   
   
-\* **Format:** \<WRAP indent\>\<WRAP indent\>
+\* **Format:** 
 
     AT+NSTAT
 
     AT+NSTAT?
 
-\</WRAP\>\</WRAP\>
+
 
   - **Meaning:** 현재 네트워크 상태값을 표시한다
 
