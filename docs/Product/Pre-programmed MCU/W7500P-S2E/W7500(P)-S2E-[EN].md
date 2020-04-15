@@ -1,7 +1,7 @@
 ---
 id: w7500p-s2e-[EN]
 title: W7500P-S2E
-date: 2020-03-
+date: 2020-04-07
 ---
 
 
