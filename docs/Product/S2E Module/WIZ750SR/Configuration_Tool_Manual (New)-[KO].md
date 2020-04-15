@@ -1,7 +1,7 @@
 ---
 id: configuration_tool_manual_new-[KO]
 title: Configuration Tool Manual (New)-[KO]
-date: 2020-03-08
+date: 2020-04-08
 ---
 
 ## Content
