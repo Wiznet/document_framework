@@ -22,10 +22,10 @@ date: 2020-03-
 
 ### WIZ550S2E
 
-    *MCU LPC11E36FHN33
-    *TCP/IP 控制器 W5500
-    *RJ45(集成变压器)
-    *2.54mm 排针x2
+   * MCU LPC11E36FHN33
+   * TCP/IP 控制器 W5500
+   * RJ45(集成变压器)
+   * 2.54mm 排针x2
 
 ![](/products/wiz550s2e/wiz550s2eds/wiz550s2e_pin.jpg)
 
@@ -124,12 +124,12 @@ date: 2020-03-
 
 ### WIZ550S2E-232 接口板
 
-    *驱动芯片SP3232EBEY
-    *系统复位开关
-    *恢复出厂设置开关
-    *硬件触发器模式开关
-    *LED状态灯
-    *DC-Jack (用于+5V电源输入)
+   * 驱动芯片SP3232EBEY
+   * 系统复位开关
+   * 恢复出厂设置开关
+   * 硬件触发器模式开关
+   * LED状态灯
+   * DC-Jack (用于+5V电源输入)
 
 ![](/products/wiz550s2e/wiz550s2eds/rs232if_pin_20140729.jpg)
 ![](/products/wiz550s2e/wiz550s2eds/크기변환_wiz550s2e-232-evb.png)
@@ -138,12 +138,12 @@ date: 2020-03-
 
 ### WIZ550S2E-485/422 接口板
 
-    *驱动芯片SP3485EN
-    *系统复位开关
-    *恢复出厂设置开关
-    *硬件触发器模式开关
-    *LED状态灯
-    *DC-Jack (用于+5V电源输出)
+   * 驱动芯片SP3485EN
+   * 系统复位开关
+   * 恢复出厂设置开关
+   * 硬件触发器模式开关
+   * LED状态灯
+   * DC-Jack (用于+5V电源输出)
 
 ![](/products/wiz550s2e/wiz550s2eds/rs485-422if_pin_20140729.jpg)
 ![](/products/wiz550s2e/wiz550s2eds/크기변환_wiz550s2e-485-evb.png)
