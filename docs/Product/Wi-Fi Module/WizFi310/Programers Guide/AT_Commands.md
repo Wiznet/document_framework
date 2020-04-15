@@ -800,1119 +800,1381 @@ In data mode, it can be changed to command mode temporally by using serial '+++'
     AT+SFORM=<Format>,<Start>,<Delim>,<End>,<Cls1>,<Cls2>
     
  * **Meaning:** Define Data Receive Header Form
+ 
 Define the header of received data which is used at command mode. For example, default receiving format look like below.
 “{0,192.168.0.216,59834,5}hello(0xd)(0xa)”
-This  means ASCII code “hello” was received from 192.168.0.216:59834 by socket ID 0, and its length was 5. You can change this format to suit your system through this command.
+This means ASCII code "hello" was received from 192.168.0.216:59834 by
+socket ID 0, and its length was 5. You can change this format to suit
+your system through this command.  
+  
+Factory default option is "111111111,7B,2C,7D,0D,0A"  
+  
+\<Format\>: Decide each of header items to use. (Required)  
+If you want to set it to active, input '1'.  
+If not, input '0'.  
+^ Order ^ Meaning ^
 
-Factory default option is “111111111,7B,2C,7D,0D,0A”
+|   |                    |
+| - | ------------------ |
+| 0 | Header Start       |
+| 1 | Socket ID          |
+| 2 | Delimiter          |
+| 3 | Remote IP Address  |
+| 4 | Remote Port Number |
+| 5 | Data Length        |
+| 6 | Header End         |
+| 7 | Data End 1/2       |
+| 8 | Data End 2/2       |
 
-<Format>: Decide each of header items to use. (Required)
-If you want to set it to active, input '1'.
-If not, input '0'.
-Order	Meaning
-0	Header Start
-1	Socket ID
-2	Delimiter
-3	Remote IP Address
-4	Remote Port Number
-5	Data Length
-6	Header End
-7	Data End 1/2
-8	Data End 2/2
-* At default format, '{' '}' is header start and end, ',' is delimiter, 0xd,0xa is data end 1,2.
+\* At default format, '{' '}' is header start and end, ',' is delimiter,
+0xd,0xa is data end 1,2.  
+  
+\< Start\>: Header Start Character (Required)  
+\< Delim\>: Delimiter Character (Required)  
+\< End\>: Header End Character (Required)  
+\< Cls1\>: Data End Character 1/2 (Required)  
+\< Cls2\>: Data End Character 2/2 (Required)  
+  
+Examples)
 
-< Start>: Header Start Character (Required)
-< Delim>: Delimiter Character (Required)
-< End>: Header End Character (Required)
-< Cls1>: Data End Character 1/2 (Required)
-< Cls2>: Data End Character 2/2 (Required)
+``` 
+  * AT+SFORM=111111111,7B,2C,7D,0D,0A
+  * AT+SFORM=101100110,5B,2F,5D,0D,00 \\ \\
+```
+
+\</WRAP\>\</WRAP\>
+
+  - **Response:**
+
+\<WRAP indent\>\<WRAP indent\>
+
+    [OK]
+
+\</WRAP\>\</WRAP\>  
+\----
+
+  - **Format:**
+
+\<WRAP indent\>\<WRAP indent\>
+
+    AT+SFORM=?
+
+\</WRAP\>\</WRAP\>
+
+  - **Meaning:** Get Current Data Receive Header Form
+
+\<WRAP indent\>\<WRAP indent\> \</WRAP\>\</WRAP\>
+
+  - **Response:**
+
+\<WRAP indent\>\<WRAP indent\>
+
+    <Format>,<Start>,<Delim>,<End>,<Cls1>,<Cls2>
+    [OK]
+
+\</WRAP\>\</WRAP\>
+
+-----
+
+  
+\<WRAP left round box 30%\>\<WRAP centeralign\>====AT+SOPT====
+\</WRAP\>\</WRAP\>  
+  
+  
+\* **Format:** \<WRAP indent\>\<WRAP indent\>
+
+    AT+SOPT=<Option>,<SocketID>,<Socket Level>,<Option Name>,<Option Value>
+
+\</WRAP\>\</WRAP\>
+\* **Meaning:** S2W miscellaneous option \<WRAP indent\>\<WRAP indent\>
+
+\<Option\>: Option to configure (Required)
+
+| Option | Value                 |
+| ------ | --------------------- |
+| 1      | Set socket option     |
+| ~~2~~  | ~~Get socket option~~ |
+
+\<SocketID\>: Socket ID (Required)
+
+\<Socket Level\>: Socket Level (Required)
+
+| Socket Level | Value            |
+| ------------ | ---------------- |
+| 4095         | SOL\_SOCKET      |
+| 0            | IPPROTO\_IP      |
+| 6            | IPPROTO\_TCP     |
+| 17           | IPPROTO\_UDP     |
+| 136          | IPPROTO\_UDPLITE |
+
+\<Option Name\> : Option name for socket level options for level
+SOL\_SOCKET
+
+| Option Name | Value         |
+| ----------- | ------------- |
+| 4           | SO\_REUSEADDR |
+| 8           | SO\_KEEPALIVE |
+
+options for level IPPROTO\_IP
+
+| Option Name | Value   |
+| ----------- | ------- |
+| 1           | IP\_TOS |
+| 2           | IP\_TTL |
+
+options for level IPPROTO\_TCP
+
+| Option Name | Value          |
+| ----------- | -------------- |
+| 1           | TCP\_NODELAY   |
+| 2           | TCP\_KEEPALIVE |
+| 3           | TCP\_KEEPIDLE  |
+| 4           | TCP\_KEEPINTVL |
+| 5           | TCP\_KEEPCNT   |
 
 Examples)
 
-AT+SFORM=111111111,7B,2C,7D,0D,0A
-AT+SFORM=101100110,5B,2F,5D,0D,00
+``` 
+  * AT+SOPT=1,0,4095,8,1
+  * AT+SOPT=1,0,6,3,10
+  * AT+SOPT=1,0,6,4,15
+  * AT+SOPT=1,0,6,5,3
+```
 
-Response:
-[OK]
+\</WRAP\>\</WRAP\>
 
-Format:
-AT+SFORM=?
-Meaning: Get Current Data Receive Header Form
-Response:
-<Format>,<Start>,<Delim>,<End>,<Cls1>,<Cls2>
-[OK]
+  - **Response:**
 
-AT+SOPT
+\<WRAP indent\>\<WRAP indent\>
 
+    [OK]
 
+\</WRAP\>\</WRAP\>
 
-Format:
-AT+SOPT=<Option>,<SocketID>,<Socket Level>,<Option Name>,<Option Value>
-Meaning: S2W miscellaneous option
-<Option>: Option to configure (Required)
+-----
 
-Option	Value
-1	Set socket option
-2	Get socket option
-<SocketID>: Socket ID (Required)
+  
+\<WRAP left round box 30%\>\<WRAP centeralign\>====AT+SOPT1====
+\</WRAP\>\</WRAP\>  
+  
+  
+\* **Format:** \<WRAP indent\>\<WRAP indent\>
 
-<Socket Level>: Socket Level (Required)
+    AT+SOPT1=<Option>,<Value>
 
-Socket Level	Value
-4095	SOL_SOCKET
-0	IPPROTO_IP
-6	IPPROTO_TCP
-17	IPPROTO_UDP
-136	IPPROTO_UDPLITE
-<Option Name> : Option name for socket level options for level SOL_SOCKET
+\</WRAP\>\</WRAP\>
 
-Option Name	Value
-4	SO_REUSEADDR
-8	SO_KEEPALIVE
-options for level IPPROTO_IP
+  - **Meaning:** S2W miscellaneous option
 
-Option Name	Value
-1	IP_TOS
-2	IP_TTL
-options for level IPPROTO_TCP
+\<WRAP indent\>\<WRAP indent\>
 
-Option Name	Value
-1	TCP_NODELAY
-2	TCP_KEEPALIVE
-3	TCP_KEEPIDLE
-4	TCP_KEEPINTVL
-5	TCP_KEEPCNT
+\<Option\>: Option to configure (Required) \<Value\>: Value of the
+option (Required)
+
+| Option | Value                                                           |
+| ------ | --------------------------------------------------------------- |
+| 10     | Escape sequence(+++) Timer(millisecond, default 1000, 1\~10000) |
+
 Examples)
 
-AT+SOPT=1,0,4095,8,1
-AT+SOPT=1,0,6,3,10
-AT+SOPT=1,0,6,4,15
-AT+SOPT=1,0,6,5,3
-Response:
-[OK]
+``` 
+  * AT+SOPT1=10,500
+```
 
-AT+SOPT1
+\</WRAP\>\</WRAP\>
 
+  - **Response:**
 
+\<WRAP indent\>\<WRAP indent\>
 
-Format:
-AT+SOPT1=<Option>,<Value>
-Meaning: S2W miscellaneous option
-<Option>: Option to configure (Required) <Value>: Value of the option (Required)
+    [OK]
 
-Option	Value
-10	Escape sequence(+++) Timer(millisecond, default 1000, 1~10000)
-Examples)
+\</WRAP\>\</WRAP\>
 
-AT+SOPT1=10,500
-Response:
-[OK]
+## Management Commands
 
-2016/05/12 14:32 · jehoon song
-Management Commands
-
+  
 Commands related to system management are listed below.
 
-AT+MPROF
+-----
 
+\<WRAP left round box 30%\>\<WRAP centeralign\>====AT+MPROF====
+\</WRAP\>\</WRAP\>  
+  
+  
+\* **Format:** \<WRAP indent\>\<WRAP indent\>
 
+    AT+MPROF=<Action>
 
-Format:
-AT+MPROF=<Action>
-Meaning: Profile Management
-You can save/load the environmental information in the RAM to/from flash ROM, or check the setting values in both of them through this command.
-(* AT+WSET, AT+WSEC are immediately stored in the Flash ROM)
+\</WRAP\>\</WRAP\>
 
-<Action>: The action to perform (Required)
-Parameter	Meaning
-VD	Get saved profile
-VG	Get current profile
-L	Load profile
-S	Save profile
-* There is no '?' option at this command.
+  - **Meaning:** Profile Management
+
+\<WRAP indent\>\<WRAP indent\> You can save/load the environmental
+information in the RAM to/from flash ROM, or check the setting values in
+both of them through this command.  
+(\* AT+WSET, AT+WSEC are immediately stored in the Flash ROM)  
+  
+\<Action\>: The action to perform (Required)  
+^ Parameter ^ Meaning ^
+
+|    |                     |
+| -- | ------------------- |
+| VD | Get saved profile   |
+| VG | Get current profile |
+| L  | Load profile        |
+| S  | Save profile        |
+
+\* There is no '?' option at this command.  
+  
+Examples)
+
+``` 
+  * AT+MPROF=S \\ \\
+```
+
+\</WRAP\>\</WRAP\>
+
+  - **Response:**
+
+\<WRAP indent\>\<WRAP indent\>
+
+    [OK]
+
+    +WSET=...
+    +WSEC=...
+    +WNET=...
+    +WREG=...
+    +SCON=...
+    +SFORM=...
+    +MMSG=...
+    +MMAC=...
+    +USET=...
+    +MECHO=...
+    [OK]
+
+\</WRAP\>\</WRAP\>  
+\---- \<WRAP left round box 30%\>\<WRAP centeralign\>====AT+MFDEF====
+\</WRAP\>\</WRAP\>  
+  
+  
+\* **Format:** \<WRAP indent\>\<WRAP indent\>
+
+    AT+MFDEF=FR
+
+\</WRAP\>\</WRAP\>
+
+  - **Meaning:** Perform Factory Reset
+
+\<WRAP indent\>\<WRAP indent\> Factory Reset means that all of
+environmental variables return back to the default state. (You can check
+that by using AT+MPROF command) \</WRAP\>\</WRAP\>
+
+  - **Response:**
+
+\<WRAP indent\>\<WRAP indent\>
+
+    [OK]
+
+\</WRAP\>\</WRAP\>
+-----
+
+\<WRAP left round box 30%\>\<WRAP centeralign\>====AT+MRESET====
+\</WRAP\>\</WRAP\>  
+  
+  
+\* **Format:** \<WRAP indent\>\<WRAP indent\>
+
+    AT+MRESET
+
+\</WRAP\>\</WRAP\>
+
+  - **Meaning:** Perform System Reset
+
+\<WRAP indent\>\<WRAP indent\> System will reboot after this command.
+\</WRAP\>\</WRAP\>
+
+  - **Response:**
+
+\<WRAP indent\>\<WRAP indent\>
+
+    [OK]
+
+\</WRAP\>\</WRAP\>  
+\---- \<WRAP left round box 30%\>\<WRAP centeralign\>====AT+MMSG====
+\</WRAP\>\</WRAP\>  
+  
+  
+\* **Format:** \<WRAP indent\>\<WRAP indent\>
+
+    AT+MMSG=<Level>
+
+\</WRAP\>\</WRAP\>
+
+  - **Meaning:** Set Message Print Level
+
+\<WRAP indent\>\<WRAP indent\> \<Level\>: Message Print Level (Required)
+
+| Parameter | Meaning                             |
+| --------- | ----------------------------------- |
+| 1         | Not Print Responses                 |
+| 2         | Print Responses, Events (Default)   |
+| 3         | Print Responses, Events, Debug Logs |
 
 Examples)
 
-AT+MPROF=S
+``` 
+  * AT+MMSG=2 \\ \\
+```
 
-Response:
-[OK]
-+WSET=...
-+WSEC=...
-+WNET=...
-+WREG=...
-+SCON=...
-+SFORM=...
-+MMSG=...
-+MMAC=...
-+USET=...
-+MECHO=...
-[OK]
+\</WRAP\>\</WRAP\>
 
-AT+MFDEF
+  - **Response:**
 
+\<WRAP indent\>\<WRAP indent\>
 
+    [OK]
 
-Format:
-AT+MFDEF=FR
-Meaning: Perform Factory Reset
-Factory Reset means that all of environmental variables return back to the default state. (You can check that by using AT+MPROF command)
+\</WRAP\>\</WRAP\>  
+\----
 
-Response:
-[OK]
+  - **Format:**
 
-AT+MRESET
+\<WRAP indent\>\<WRAP indent\>
 
+    AT+MMSG=?
 
+\</WRAP\>\</WRAP\>
 
-Format:
-AT+MRESET
-Meaning: Perform System Reset
-System will reboot after this command.
+  - **Meaning:** Get Current Message Print Level
 
-Response:
-[OK]
+\<WRAP indent\>\<WRAP indent\> \</WRAP\>\</WRAP\>
 
-AT+MMSG
+  - **Response:**
 
+\<WRAP indent\>\<WRAP indent\>
 
+    <Level>
+    [OK]
 
-Format:
-AT+MMSG=<Level>
-Meaning: Set Message Print Level
-<Level>: Message Print Level (Required)
+\</WRAP\>\</WRAP\>  
+\---- \<WRAP left round box 30%\>\<WRAP centeralign\>====AT+MMAC====
+\</WRAP\>\</WRAP\>  
+  
+  
+\* **Format:** \<WRAP indent\>\<WRAP indent\>
 
-Parameter	Meaning
-1	Not Print Responses
-2	Print Responses, Events (Default)
-3	Print Responses, Events, Debug Logs
+    AT+MMAC=<MAC>
+
+\</WRAP\>\</WRAP\>
+
+  - **Meaning:** Set MAC Address
+
+\<WRAP indent\>\<WRAP indent\> \<MAC\>: MAC Address (separated by colon)
+(Required)  
+  
 Examples)
 
-AT+MMSG=2
+``` 
+  * AT+MMAC=00:08:DC:11:22:33 \\ \\
+```
 
-Response:
-[OK]
+\</WRAP\>\</WRAP\>
 
-Format:
-AT+MMSG=?
-Meaning: Get Current Message Print Level
-Response:
-<Level>
-[OK]
+  - **Response:**
 
-AT+MMAC
+\<WRAP indent\>\<WRAP indent\>
 
+    [OK]
 
+\</WRAP\>\</WRAP\>
+\----
 
-Format:
-AT+MMAC=<MAC>
-Meaning: Set MAC Address
-<MAC>: MAC Address (separated by colon) (Required)
+  - **Format:**
 
-Examples)
+\<WRAP indent\>\<WRAP indent\>
 
-AT+MMAC=00:08:DC:11:22:33
+    AT+MMAC=?
 
-Response:
-[OK]
+\</WRAP\>\</WRAP\>
 
-Format:
-AT+MMAC=?
-Meaning: Get Current MAC Address
-Response:
-<MAC>
-[OK]
+  - **Meaning:** Get Current MAC Address
 
-AT+MINFO
+\<WRAP indent\>\<WRAP indent\> \</WRAP\>\</WRAP\>
 
+  - **Response:**
 
+\<WRAP indent\>\<WRAP indent\>
 
-Format:
-AT+MINFO
-Meaning: Get System Information
-Response:
-FW version / HW version
-<FWver> / <HWver>
-[OK]
+    <MAC>
+    [OK]
 
-AT+MECHO
+\</WRAP\>\</WRAP\>  
+\---- \<WRAP left round box 30%\>\<WRAP centeralign\>====AT+MINFO====
+\</WRAP\>\</WRAP\>  
+  
+  
+\* **Format:** \<WRAP indent\>\<WRAP indent\>
 
+    AT+MINFO
 
+\</WRAP\>\</WRAP\>
 
-Format:
-AT+MECHO=<Action>
-Meaning: Set Echo Mode
-If you turn the echo mode off, you cannot see the characters that you inputted returning. It is easy to use to turn off when Host MCU handles AT Command control.
+  - **Meaning:** Get System Information
 
-<Action>: Echo Mode (Required)
-Parameter	Meaning
-0	Echo Off
-1	Echo On (Default)
-Examples)
+\<WRAP indent\>\<WRAP indent\> \</WRAP\>\</WRAP\>
 
-AT+MECHO=0
+  - **Response:**
 
-Response:
-[OK]
+\<WRAP indent\>\<WRAP indent\>
 
-Format:
-AT+MECHO=?
-Meaning: Get Current Echo Mode
-Response:
-<Mode>
-[OK]
+    FW version / HW version
+    <FWver> / <HWver>
+    [OK]
 
-AT+MHELP
+\</WRAP\>\</WRAP\>  
+\---- \<WRAP left round box 30%\>\<WRAP centeralign\>====AT+MECHO====
+\</WRAP\>\</WRAP\>  
+  
+  
+\* **Format:** \<WRAP indent\>\<WRAP indent\>
 
+    AT+MECHO=<Action>
 
+\</WRAP\>\</WRAP\>
 
-Format:
-AT+MHELP
-Meaning: Print Command Description and Usage
-This is command usage guide for user convenience.
+  - **Meaning:** Set Echo Mode
 
-Response:
-...
-[OK]
+\<WRAP indent\>\<WRAP indent\> If you turn the echo mode off, you cannot
+see the characters that you inputted returning. It is easy to use to
+turn off when Host MCU handles AT Command control.  
+  
+\<Action\>: Echo Mode (Required)  
+^ Parameter ^ Meaning ^
 
-AT+MMCUPS
-
-
-
-Currently Not Available
-
-AT+MWIFIPS
-
-
-
-Format:
-AT+MWIFIPS=<Action>,<Delay>
-Meaning: Wi-Fi Power Save Enable/Disable
-Wi-Fi power save mode can be selected through this command.
-
-<Action> : Wi-Fi Power Save Mode (Required)
-
-Parameter	Meaning
-0	Wi-Fi Power Save Mode Disable
-1	Wi-Fi Power Save Mode Enable
-2	Enables power save mode while attempting to maximize throughput
-* To using Wi-Fi Power Save Mode, WizFi310 has to connect to Access Point. And WizFi310 can only use this mode in station mode.
-
-<Delay > : Return to Sleep Delay
-If it is set with a bigger value, the performance will improve but the power consumption will rise.
-
-Action	Application
-0	N/A
-1	N/A
-2	Required
-* This parameter is used only to set 2 of <Action> parameter.
-
-* It must be set to a multiple of 10. When set to 0, the timeout period default to 2 beacon intervals (approximately 204ms).
-
-* It can be set to 0 ~ 90
-
-Response:
-[OK]
-
-Format:
-AT+MWIFIPS=?
-Meaning: Get Current Wi-Fi Power Save Status
-<Status > : Current Wi-Fi Power Save Status
-
-Return value	Meaning
-0	Wi-Fi Power Save Mode Disable
-1	Wi-Fi Power Save Mode Enable
-Response:
-[OK]
-
-AT+USET
-
-
-
-Format:
-AT+USET=<Baudrate>,<Parity>,<WordLen>,<StopBit>,<FlowCon>
-Meaning: UART Configuration
-UART parameter can be set through this command. Factory default parameter is “115200,N,8,1,N ”.
-
-<Baudrate>: Set the Baud-Rate. (Required)
-
-Parameter	Meaning
-300	300 bps
-600	600 bps
-1200	1200 bps
-2400	2400 bps
-4800	4800 bps
-9600	9600 bps
-14400	14400 bps
-19200	19200 bps
-38400	38400 bps
-57600	57600 bps
-115200	115200 bps
-230400	230400 bps
-460800	460800 bps
-921600	921600 bps
-1843200	1843200 bps
-<Parity>: Set the Parity-Bit type. (Required)
-
-Parameter	Meaning
-N	None
-O	Odd
-E	Even
-<WordLen>: Set the Word-Length. (Required)
-
-Parameter	Meaning
-7	7 bits
-8	8 bits
-<StopBit>: Set the Stop-Bit. (Required)
-
-Parameter	Meaning
-1	1 bits
-2	2 bits
-<FlowCon>: Set the Flow-Control method. (Required)
-
-Parameter	Meaning
-N	None
-HW	Hardware Flow Control
-Examples)
-
-AT+USET=115200,N,8,1,N
-AT+USET=921600,N,8,2,HW
-
-Response:
-[OK]
-
-Format:
-AT+USET=?
-Meaning: Get Current UART Setting
-Response:
-<Baudrate>,<Parity>,<WordLen>,<StopBit>,<FlowCon>
-[OK]
-
-AT+MCUSTOM
-
-
-
-Format:
-AT+MCUSTOM=<custom code>
-Meaning: Set to customized settings by request of specific customers.
-Examples)
-
-Default custom code is WIZNET
-AT+MCUSTOM=WIZNET
-Response:
-[OK]
-
-Format:
-AT+MCUSTOM=?
-Meaning: Get current custom code
-Response:
-WIZNET
-[OK]
-
-AT+MAIRCMD
-
-
-
-Format:
-AT+MAIRCMD=<OpenType>,<SocketType>,<LocalPort>,<Option>
-Meaning: Configure Air Command mode
-<OpenType>: Air Command mode type (Required)
-
-Parameter	Meaning
-O	open at Once
-S	register as a Service
-* AT ONCE: Assigns a Air-Command-socket immediately.
-
-* AS SERVICE: Registers its information to the profile. When WiFi Joined, Air-Command-socket open will be performed automatically. If you want to use this after reset, It should be saved by using AT+MPROF=S
-
-<SocketType>: Air-Command-Socket protocol to use (Required)
-
-Parameter	Meaning
-T	TCP Server Normal
-U	UDP Server Normal
-<LocalPort>: Local port number (Required)
-Local port number should not be duplicated with others which have opened before. When the value is 0, in case the socket was a TCP/UDP Client, a random port number will be selected. If it was a TCP/UDP Server, it will return an error message.
-
-<Option>: Reserved (Required)
-Examples)
-
-AT+MAIRCMD=O,T,50001,0
-AT+MAIRCMD=S,U,50001,0
-AT+MAIRCMD=?
-Response:
-<OpenType>,<SocketType>,<LocalPort>,<Option>
-[OK]
-
-AT+MEVTMSG
-
-
-
-Format:
-AT+MEVTMSG=<Status>
-Meaning: Print [Listen x] as soon as it opens up a socket through TCP server.
-It is able to print TCP Server Status with [Listen x].(x:socket number).
-A user can decide whether WizFi310 will print out Listen message or not in initialization mode on TCP server.
-This command is made for mbed library.
-Uses 1 Parameter and set status of socket as 0,1 for each relevant below table.
-
-<Status>: Printing status (Required)
-Parameter	Meaning
-0	No display [Listen x] message
-1	Display [Listen x] message
+|   |                   |
+| - | ----------------- |
+| 0 | Echo Off          |
+| 1 | Echo On (Default) |
 
 Examples)
 
-AT+MEVTMSG=0
-AT+MEVTMSG=1
-Response:
-[OK]
+``` 
+  * AT+MECHO=0 \\ \\
+```
 
-AT+MEVTFORM
+\</WRAP\>\</WRAP\>
 
+  - **Response:**
 
+\<WRAP indent\>\<WRAP indent\>
 
-Format:
-AT+MEVTFORM=<format>
-Meaning: Define Event Message Form
-It is able to control format and printing status of WizFi310 event messages.
-Uses 10 Parameters and set event message as 0,1,2 for each relevant one
+    [OK]
 
-<Format>: Event Message Format (Required)
-0: No display
-1: Full Message
-2: Short Message
+\</WRAP\>\</WRAP\>  
+\----
 
+  - **Format:**
+
+\<WRAP indent\>\<WRAP indent\>
+
+    AT+MECHO=?
+
+\</WRAP\>\</WRAP\>
+
+  - **Meaning:** Get Current Echo Mode
+
+\<WRAP indent\>\<WRAP indent\> \</WRAP\>\</WRAP\>
+
+  - **Response:**
+
+\<WRAP indent\>\<WRAP indent\>
+
+    <Mode>
+    [OK]
+
+\</WRAP\>\</WRAP\>  
+\---- \<WRAP left round box 30%\>\<WRAP centeralign\>====AT+MHELP====
+\</WRAP\>\</WRAP\>  
+  
+  
+\* **Format:** \<WRAP indent\>\<WRAP indent\>
+
+    AT+MHELP
+
+\</WRAP\>\</WRAP\>
+
+  - **Meaning:** Print Command Description and Usage
+
+\<WRAP indent\>\<WRAP indent\> This is command usage guide for user
+convenience. \</WRAP\>\</WRAP\>
+
+  - **Response:**
+
+\<WRAP indent\>\<WRAP indent\>
+
+    ...
+    [OK]
+
+\</WRAP\>\</WRAP\>  
+\---- \<WRAP left round box 30%\>\<WRAP centeralign\>====AT+MMCUPS====
+\</WRAP\>\</WRAP\>  
+  
+  
+\* **Currently Not Available**
+-----
+
+\<WRAP left round box 30%\>\<WRAP centeralign\>====AT+MWIFIPS====
+\</WRAP\>\</WRAP\>  
+  
+  
+\* **Format:** \<WRAP indent\>\<WRAP indent\>
+
+    AT+MWIFIPS=<Action>,<Delay>
+
+\</WRAP\>\</WRAP\>
+
+  - **Meaning:** Wi-Fi Power Save Enable/Disable
+
+\<WRAP indent\>\<WRAP indent\> Wi-Fi power save mode can be selected
+through this command.  
+  
+\<Action\> : Wi-Fi Power Save Mode (Required)
+
+| Parameter | Meaning                                                         |
+| --------- | --------------------------------------------------------------- |
+| 0         | Wi-Fi Power Save Mode Disable                                   |
+| 1         | Wi-Fi Power Save Mode Enable                                    |
+| 2         | Enables power save mode while attempting to maximize throughput |
+
+\* To using Wi-Fi Power Save Mode, WizFi310 has to connect to Access
+Point. And WizFi310 can only use this mode in station mode.  
+  
+\<Delay \> : Return to Sleep Delay  
+If it is set with a bigger value, the performance will improve but the
+power consumption will rise.
+
+| Action | Application |
+| ------ | ----------- |
+| 0      | N/A         |
+| 1      | N/A         |
+| 2      | Required    |
+
+\* This parameter is used only to set 2 of \<Action\> parameter.  
+  
+\* It must be set to a multiple of 10. When set to 0, the timeout period
+default to 2 beacon intervals (approximately 204ms).  
+  
+\* It can be set to 0 \~ 90 \</WRAP\>\</WRAP\>
+
+  - **Response:**
+
+\<WRAP indent\>\<WRAP indent\>
+
+    [OK]
+
+\</WRAP\>\</WRAP\>  
+\----
+
+  - **Format:**
+
+\<WRAP indent\>\<WRAP indent\>
+
+    AT+MWIFIPS=?
+
+\</WRAP\>\</WRAP\>
+
+  - **Meaning:** Get Current Wi-Fi Power Save Status
+
+\<WRAP indent\>\<WRAP indent\> \<Status \> : Current Wi-Fi Power Save
+Status
+
+| Return value | Meaning                       |
+| ------------ | ----------------------------- |
+| 0            | Wi-Fi Power Save Mode Disable |
+| 1            | Wi-Fi Power Save Mode Enable  |
+
+\</WRAP\>\</WRAP\>
+
+  - **Response:**
+
+\<WRAP indent\>\<WRAP indent\>
+
+    [OK]
+
+\</WRAP\>\</WRAP\>  
+
+-----
+
+\<WRAP left round box 30%\>\<WRAP centeralign\>====AT+USET====
+\</WRAP\>\</WRAP\>  
+  
+  
+\* **Format:** \<WRAP indent\>\<WRAP indent\>
+
+    AT+USET=<Baudrate>,<Parity>,<WordLen>,<StopBit>,<FlowCon>
+
+\</WRAP\>\</WRAP\>
+
+  - **Meaning:** UART Configuration
+
+\<WRAP indent\>\<WRAP indent\> UART parameter can be set through this
+command. Factory default parameter is "115200,N,8,1,N ".  
+  
+\<Baudrate\>: Set the Baud-Rate. (Required)
+
+| Parameter | Meaning     |
+| --------- | ----------- |
+| 300       | 300 bps     |
+| 600       | 600 bps     |
+| 1200      | 1200 bps    |
+| 2400      | 2400 bps    |
+| 4800      | 4800 bps    |
+| 9600      | 9600 bps    |
+| 14400     | 14400 bps   |
+| 19200     | 19200 bps   |
+| 38400     | 38400 bps   |
+| 57600     | 57600 bps   |
+| 115200    | 115200 bps  |
+| 230400    | 230400 bps  |
+| 460800    | 460800 bps  |
+| 921600    | 921600 bps  |
+| 1843200   | 1843200 bps |
+
+\<Parity\>: Set the Parity-Bit type. (Required)
+
+| Parameter | Meaning |
+| --------- | ------- |
+| N         | None    |
+| O         | Odd     |
+| E         | Even    |
+
+\<WordLen\>: Set the Word-Length. (Required)
+
+| Parameter | Meaning |
+| --------- | ------- |
+| 7         | 7 bits  |
+| 8         | 8 bits  |
+
+\<StopBit\>: Set the Stop-Bit. (Required)
+
+| Parameter | Meaning |
+| --------- | ------- |
+| 1         | 1 bits  |
+| 2         | 2 bits  |
+
+\<FlowCon\>: Set the Flow-Control method. (Required)
+
+| Parameter | Meaning               |
+| --------- | --------------------- |
+| N         | None                  |
+| HW        | Hardware Flow Control |
+
+Examples)
+
+``` 
+  * AT+USET=115200,N,8,1,N
+  * AT+USET=921600,N,8,2,HW \\ \\
+```
+
+\</WRAP\>\</WRAP\>
+\* **Response:** \<WRAP indent\>\<WRAP indent\>
+
+    [OK]
+
+\</WRAP\>\</WRAP\>  
+\----
+
+  - **Format:**
+
+\<WRAP indent\>\<WRAP indent\>
+
+    AT+USET=?
+
+\</WRAP\>\</WRAP\>
+
+  - **Meaning:** Get Current UART Setting
+
+\<WRAP indent\>\<WRAP indent\> \</WRAP\>\</WRAP\>
+
+  - **Response:**
+
+\<WRAP indent\>\<WRAP indent\>
+
+    <Baudrate>,<Parity>,<WordLen>,<StopBit>,<FlowCon>
+    [OK]
+
+\</WRAP\>\</WRAP\>  
+\----
+
+-----
+
+\<WRAP left round box 30%\>\<WRAP centeralign\>====AT+MCUSTOM====
+\</WRAP\>\</WRAP\>  
+  
+  
+\* **Format:** \<WRAP indent\>\<WRAP indent\>
+
+    AT+MCUSTOM=<custom code>
+
+\</WRAP\>\</WRAP\>
+
+  - **Meaning:** Set to customized settings by request of specific
+    customers.
+
+\<WRAP indent\>\<WRAP indent\> Examples)  
+  
+Default custom code is WIZNET  
+\* AT+MCUSTOM=WIZNET \</WRAP\>\</WRAP\>
+
+  - **Response:**
+
+\<WRAP indent\>\<WRAP indent\>
+
+    [OK]
+
+\</WRAP\>\</WRAP\>  
+\----
+
+  - **Format:**
+
+\<WRAP indent\>\<WRAP indent\>
+
+    AT+MCUSTOM=?
+
+\</WRAP\>\</WRAP\>
+
+  - **Meaning:** Get current custom code
+  - **Response:**
+
+\<WRAP indent\>\<WRAP indent\>
+
+    WIZNET
+    [OK]
+
+\</WRAP\>\</WRAP\>  
+\---- \<WRAP left round box 30%\>\<WRAP centeralign\>====AT+MAIRCMD====
+\</WRAP\>\</WRAP\>  
+  
+  
+\* **Format:** \<WRAP indent\>\<WRAP indent\>
+
+    AT+MAIRCMD=<OpenType>,<SocketType>,<LocalPort>,<Option>
+
+\</WRAP\>\</WRAP\>
+
+  - **Meaning:** Configure Air Command mode
+
+\<WRAP indent\>\<WRAP indent\> \<OpenType\>: Air Command mode type
+(Required)
+
+| Parameter | Meaning               |
+| --------- | --------------------- |
+| O         | open at Once          |
+| S         | register as a Service |
+
+\* AT ONCE: Assigns a Air-Command-socket immediately.  
+  
+\* AS SERVICE: Registers its information to the profile. When WiFi
+Joined, Air-Command-socket open will be performed automatically. If you
+want to use this after reset, It should be saved by using AT+MPROF=S  
+  
+\<SocketType\>: Air-Command-Socket protocol to use (Required)
+
+| Parameter | Meaning           |
+| --------- | ----------------- |
+| T         | TCP Server Normal |
+| U         | UDP Server Normal |
+
+\<LocalPort\>: Local port number (Required)  
+Local port number should not be duplicated with others which have opened
+before. When the value is 0, in case the socket was a TCP/UDP Client, a
+random port number will be selected. If it was a TCP/UDP Server, it will
+return an error message.  
+  
+\<Option\>: Reserved (Required)
+Examples)
+
+``` 
+  * AT+MAIRCMD=O,T,50001,0
+  * AT+MAIRCMD=S,U,50001,0
+  * AT+MAIRCMD=?
+```
+
+\</WRAP\>\</WRAP\>
+
+  - **Response:**
+
+\<WRAP indent\>\<WRAP indent\>
+
+    <OpenType>,<SocketType>,<LocalPort>,<Option>
+    [OK]
+
+\</WRAP\>\</WRAP\>  
+\----
+
+\<WRAP left round box 30%\>\<WRAP centeralign\>====AT+MEVTMSG====
+\</WRAP\>\</WRAP\>  
+  
+  
+\* **Format:** \<WRAP indent\>\<WRAP indent\>
+
+    AT+MEVTMSG=<Status>
+
+\</WRAP\>\</WRAP\>
+
+  - **Meaning:** Print \[Listen x\] as soon as it opens up a socket
+    through TCP server.
+
+\<WRAP indent\>\<WRAP indent\> It is able to print TCP Server Status
+with \[Listen x\].(x:socket number).  
+A user can decide whether WizFi310 will print out Listen message or not
+in initialization mode on TCP server.  
+This command is made for mbed library.  
+Uses 1 Parameter and set status of socket as 0,1 for each relevant below
+table.  
+  
+\<Status\>: Printing status (Required)  
+^ Parameter ^ Meaning ^
+
+|   |                                 |
+| - | ------------------------------- |
+| 0 | No display \[Listen x\] message |
+| 1 | Display \[Listen x\] message    |
+
+  
+Examples)
+
+``` 
+  * AT+MEVTMSG=0
+  * AT+MEVTMSG=1
+```
+
+\</WRAP\>\</WRAP\>
+
+  - **Response:**
+
+\<WRAP indent\>\<WRAP indent\>
+
+    [OK]
+
+\</WRAP\>\</WRAP\>  
+\----
+
+\<WRAP left round box 30%\>\<WRAP centeralign\>====AT+MEVTFORM====
+\</WRAP\>\</WRAP\>  
+  
+  
+\* **Format:** \<WRAP indent\>\<WRAP indent\>
+
+    AT+MEVTFORM=<format>
+
+\</WRAP\>\</WRAP\>
+
+  - **Meaning:** Define Event Message Form
+
+\<WRAP indent\>\<WRAP indent\> It is able to control format and printing
+status of WizFi310 event messages.  
+Uses 10 Parameters and set event message as 0,1,2 for each relevant
+one  
+  
+\<Format\>: Event Message Format (Required)  
+0: No display  
+1: Full Message  
+2: Short Message  
+  
 AT+MEVTFORM=abcdefghijkl
 
-0(No display)	1(Full Message,Default)	2(Short Message)
-a		WizFi310 Version 1.0.0.6 (WIZnet Co.Ltd)\r\n	\r\n[0]\r\n
-b		\r\n[CONNECT %x]\r\n	\r\n[1]\r\n
-c		\r\n[DISCONNECT %x]\r\n	\r\n[2]\r\n
-d		\r\n[Link-Up Event]\r\n
-IP Addr : …\r\n
-Gateway : …\r\n	\r\n[3]\r\n
-e		\r\n[Link-Down Event]\r\n	\r\n[4]\r\n
-f		\r\n[Reset Event]\r\n	\r\n[5]\r\n
-g		\r\n[TCP Send Error]\r\n	\r\n[6]\r\n
-h		\r\n[P2P Fail Event]\r\n	\r\n[7]\r\n
-i		\r\n[LISTEN %x]\r\n	\r\n[8]\r\n
-j		\r\n[MQTT CONNECT]\r\n	\r\n[9]\r\n
-k		\r\n[MQTT DISCONNECT]\r\n	\r\n[a]\r\n
+<table>
+<thead>
+<tr class="header">
+<th></th>
+<th>0(No display)</th>
+<th>1(Full Message,Default)</th>
+<th>2(Short Message)</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>a</td>
+<td></td>
+<td>WizFi310 Version 1.0.0.6 (WIZnet Co.Ltd)\r\n</td>
+<td>\r\n[0]\r\n</td>
+</tr>
+<tr class="even">
+<td>b</td>
+<td></td>
+<td>\r\n[CONNECT %x]\r\n</td>
+<td>\r\n[1]\r\n</td>
+</tr>
+<tr class="odd">
+<td>c</td>
+<td></td>
+<td>\r\n[DISCONNECT %x]\r\n</td>
+<td>\r\n[2]\r\n</td>
+</tr>
+<tr class="even">
+<td>d</td>
+<td></td>
+<td>\r\n[Link-Up Event]\r\n<br />
+IP Addr : ...\r\n<br />
+Gateway : ...\r\n</td>
+<td>\r\n[3]\r\n</td>
+</tr>
+<tr class="odd">
+<td>e</td>
+<td></td>
+<td>\r\n[Link-Down Event]\r\n</td>
+<td>\r\n[4]\r\n</td>
+</tr>
+<tr class="even">
+<td>f</td>
+<td></td>
+<td>\r\n[Reset Event]\r\n</td>
+<td>\r\n[5]\r\n</td>
+</tr>
+<tr class="odd">
+<td>g</td>
+<td></td>
+<td>\r\n[TCP Send Error]\r\n</td>
+<td>\r\n[6]\r\n</td>
+</tr>
+<tr class="even">
+<td>h</td>
+<td></td>
+<td>\r\n[P2P Fail Event]\r\n</td>
+<td>\r\n[7]\r\n</td>
+</tr>
+<tr class="odd">
+<td>i</td>
+<td></td>
+<td>\r\n[LISTEN %x]\r\n</td>
+<td>\r\n[8]\r\n</td>
+</tr>
+<tr class="even">
+<td>j</td>
+<td></td>
+<td>\r\n[MQTT CONNECT]\r\n</td>
+<td>\r\n[9]\r\n</td>
+</tr>
+<tr class="odd">
+<td>k</td>
+<td></td>
+<td>\r\n[MQTT DISCONNECT]\r\n</td>
+<td>\r\n[a]\r\n</td>
+</tr>
+</tbody>
+</table>
 
+  
 Examples)
 
-AT+MEVTFORM=111111111111
-AT+MEVTFORM=122220000000
-AT+MEVTFORM=000000000000
-Response:
-[OK]
+``` 
+  * AT+MEVTFORM=111111111111
+  * AT+MEVTFORM=122220000000
+  * AT+MEVTFORM=000000000000
+```
 
-Format:
-AT+MEVTFORM=?
-Meaning: Get Current Event Message Form
-Response:
-<Format>
-[OK]
+\</WRAP\>\</WRAP\>
 
-AT+MUPGRADE
+  - **Response:**
 
+\<WRAP indent\>\<WRAP indent\>
 
+    [OK]
 
-Format:
-AT+MUPGRADE
-Meaning: This command is for upgrading firmware of WizFi310
-After using this command, WizFi310 will wait UART signal for XMODEM protocol. After this command, You have to send binary file which you want to upload using XMODEM protocol. If it is done successfully, WizFi310 will display “[OK]” message and then restart.
+\</WRAP\>\</WRAP\>  
+\----
+
+  - **Format:**
+
+\<WRAP indent\>\<WRAP indent\>
+
+    AT+MEVTFORM=?
+
+\</WRAP\>\</WRAP\>
+
+  - **Meaning:** Get Current Event Message Form
+
+\<WRAP indent\>\<WRAP indent\> \</WRAP\>\</WRAP\>
+
+  - **Response:**
+
+\<WRAP indent\>\<WRAP indent\>
+
+    <Format>
+    [OK]
+
+\</WRAP\>\</WRAP\>  
+\---- \<WRAP left round box 30%\>\<WRAP centeralign\>====AT+MUPGRADE====
+\</WRAP\>\</WRAP\>  
+  
+  
+\* **Format:** \<WRAP indent\>\<WRAP indent\>
+
+    AT+MUPGRADE
+
+\</WRAP\>\</WRAP\>
+\* **Meaning:** This command is for upgrading firmware of WizFi310
+\<WRAP indent\>\<WRAP indent\> After using this command, WizFi310 will
+wait UART signal for XMODEM protocol. After this command, You have to
+send binary file which you want to upload using XMODEM protocol. If it
+is done successfully, WizFi310 will display "\[OK\]" message and then
+restart.  
 Examples)
 
-AT+MUPGRADE
-Response:
-[OK]
+``` 
+  * AT+MUPGRADE
+```
 
-2016/05/13 13:05 · jehoon song
-Function Commands
+\</WRAP\>\</WRAP\>
 
+  - **Response:**
+
+\<WRAP indent\>\<WRAP indent\>
+
+    [OK]
+
+\</WRAP\>\</WRAP\>  
+\----
+## Function Commands
+
+  
 Commands related to additional functions are listed below.
 
-AT+FPING
+-----
 
+\<WRAP left round box 30%\>\<WRAP centeralign\>====AT+FPING====
+\</WRAP\>\</WRAP\>  
+  
+  
+\* **Format:** \<WRAP indent\>\<WRAP indent\>
 
+    AT+FPING=<RepeatCnt>,<TargetIP>
 
-Format:
-AT+FPING=<RepeatCnt>,<TargetIP>
-Meaning: PING Test
-<RepeatCnt>: Repeat Count (Required)
-Valid Range: 1 ~ 50 (unit:number of times)
+\</WRAP\>\</WRAP\>
 
-<TargetIP>: Target IP Address (Required)
+  - **Meaning:** PING Test
+
+\<WRAP indent\>\<WRAP indent\> \<RepeatCnt\>: Repeat Count (Required)  
+Valid Range: 1 \~ 50 (unit:number of times)  
+  
+\<TargetIP\>: Target IP Address (Required)  
+  
+Examples)
+
+``` 
+  * AT+FPING=3,192.168.0.10 \\ \\
+```
+
+\</WRAP\>\</WRAP\>
+
+  - **Response:**
+
+\<WRAP indent\>\<WRAP indent\>
+
+    Ping Reply :  xxx ms
+    ...
+    [OK]
+
+\</WRAP\>\</WRAP\>  
+\---- \<WRAP left round box 30%\>\<WRAP centeralign\>====AT+FDNS====
+\</WRAP\>\</WRAP\>  
+  
+  
+\* **Format:** \<WRAP indent\>\<WRAP indent\>
+
+    AT+FDNS=<HostName>,<Timeout>
+
+\</WRAP\>\</WRAP\>
+
+  - **Meaning:** DNS Query
+
+\<WRAP indent\>\<WRAP indent\> \<HostName\>: The domain name to search
+(Required)  
+  
+\<Timeout\>: Maximum Delay (milliseconds unit) (Required)  
+Valid Range: 1,000 \~ 1,000,000 (unit:ms)(Recommend: 1000)  
+  
+Examples)
+
+``` 
+  * AT+FDNS=www.google.com,1000 \\ \\
+```
+
+\</WRAP\>\</WRAP\>
+
+  - **Response:**
+
+\<WRAP indent\>\<WRAP indent\>
+
+    xxx.xxx.xxx.xxx
+    [OK]
+
+\</WRAP\>\</WRAP\>  
+\---- \<WRAP left round box 30%\>\<WRAP centeralign\>====AT+FGPIO====
+\</WRAP\>\</WRAP\>  
+  
+  
+\* **Format:** \<WRAP indent\>\<WRAP indent\>
+
+    AT+FGPIO=<gpio_number>,<action:0>,<config_value>
+    AT+FGPIO=<gpio_number>,<action:1>,<config_value>
+    AT+FGPIO=<gpio_number>,<action:2>,<gpio_value>
+    AT+FGPIO=<gpio_number>,<action:3>,<gpio_value>
+
+\</WRAP\>\</WRAP\>
+
+  - **Meaning:** GPIO Control Function  
+      
+    \<WRAP indent\>\<WRAP indent\>
+
+GPIO can be set through this command.  
+\<gpio\_number\>: Available GPIO number (Required)
+
+| Return value | Meaning |
+| ------------ | ------- |
+| 3            | GPIOB 3 |
+| 4            | GPIOC 4 |
+\<action\>: The action to perform (Required)
+
+| Return value | Meaning                            |
+| ------------ | ---------------------------------- |
+| 0            | GPIO Initialize as a Input mode    |
+| 1            | GPIO Initialize as a Output mode   |
+| 2            | Get GPIO value of \<gpio\_number\> |
+| 3            | Set GPIO value of \<gpio\_number\> |
+
+  
+\<config\_value\>: Current GPIO Configuration Value (It can be used when
+action is 0, 1)
+
+| Return value | Meaning                                                |
+| ------------ | ------------------------------------------------------ |
+| 0            | PULL\_NONE (Not use pull-up & pull-down resistor)      |
+| 1            | PULL\_UP (Input with an internal pull-up resistor)     |
+| 2            | PULL\_DOWN (Input with an internal pull-down resistor) |
+| 3            | OPEN\_DRAIN (Output open drain)                        |
+
+  
+\<gpio\_value\>: Current GPIO Value (It can be used when action is 2, 3)
+
+| Return value | Meaning |
+| ------------ | ------- |
+| 0            | Low     |
+| 1            | High    |
+
+  
+Examples)
+
+``` 
+  * AT+FGPIO=3,1,1 << Initialize GPIOB 3 as a Output mode
+  * AT+FGPIO=3,3,0 << Set GPIO value of GPIOB 3 to Low
+  * AT+FGPIO=3,3,1 << Set GPIO value of GPIOB 3 to High
+  * AT+FGPIO=3,2,0 << Get GPIO value of GPIOB 3
+```
+
+  
+\</WRAP\>\</WRAP\>
+
+  - **Response:**
+
+\<WRAP indent\>\<WRAP indent\> If \<action\> is 2
+
+    <gpio_value>
+    [OK]
+    ex)
+    AT+FGPIO=3,2,0
+    0
+    [OK]
+
+  
+If \<action\> is 0, 1, 3
+
+    [OK]
+
+\</WRAP\>\</WRAP\>
+
+  
+\----
+
+  - **Format:**
+
+\<WRAP indent\>\<WRAP indent\>
+
+    AT+FGPIO=?
+
+\</WRAP\>\</WRAP\>
+
+  - **Meaning:** Get available GPIO number
+
+\<WRAP indent\>\<WRAP indent\>
 
 Examples)
 
-AT+FPING=3,192.168.0.10
+``` 
+  * AT+FGPIO=? \\
+```
 
-Response:
-Ping Reply :  xxx ms
-...
-[OK]
+\</WRAP\>\</WRAP\>
 
-AT+FDNS
+  - **Response:**
 
+\<WRAP indent\>\<WRAP indent\>
 
+    <gpio_num_1>,<gpio_num_2>
+    [OK]
+    
+    ex) 
+    3,4
+    [OK]
 
-Format:
-AT+FDNS=<HostName>,<Timeout>
-Meaning: DNS Query
-<HostName>: The domain name to search (Required)
+  
+\----
+\<WRAP left round box 30%\>\<WRAP centeralign\>====AT+FGETADC====
+\</WRAP\>\</WRAP\>  
+  
+  
+\* **Format:** \<WRAP indent\>\<WRAP indent\>
 
-<Timeout>: Maximum Delay (milliseconds unit) (Required)
-Valid Range: 1,000 ~ 1,000,000 (unit:ms)(Recommend: 1000)
+    AT+FGETADC=?
 
+\</WRAP\>\</WRAP\>
+
+  - **Meaning:** Read ADC from ADC pin of WizFi310 when using this AT
+    Command  
+      
+    \<WRAP indent\>\<WRAP indent\>
+
+  
+  
 Examples)
 
-AT+FDNS=www.google.com,1000
+``` 
+  * AT+FGETADC=? \\
+```
 
-Response:
-xxx.xxx.xxx.xxx
-[OK]
+\</WRAP\>\</WRAP\>
 
-AT+FGPIO
+  - **Response:**
 
+\<WRAP indent\>\<WRAP indent\>
 
+    xxxx
+    [OK]
+    
+    ex) 
+    1697
+    [OK]
 
-Format:
-AT+FGPIO=<gpio_number>,<action:0>,<config_value>
-AT+FGPIO=<gpio_number>,<action:1>,<config_value>
-AT+FGPIO=<gpio_number>,<action:2>,<gpio_value>
-AT+FGPIO=<gpio_number>,<action:3>,<gpio_value>
-Meaning: GPIO Control Function
+  
+\</WRAP\>\</WRAP\>  
+\----
 
-GPIO can be set through this command.
-<gpio_number>: Available GPIO number (Required)
+\<WRAP left round box 30%\>\<WRAP centeralign\>====AT+FSOCK====
+\</WRAP\>\</WRAP\>  
+  
+  
+\* **Format:** \<WRAP indent\>\<WRAP indent\>
 
-Return value	Meaning
-3	GPIOB 3
-4	GPIOC 4
+    AT+FSOCK=<Option>,<Value>
 
-<action>: The action to perform (Required)
+\</WRAP\>\</WRAP\>
 
-Return value	Meaning
-0	GPIO Initialize as a Input mode
-1	GPIO Initialize as a Output mode
-2	Get GPIO value of <gpio_number>
-3	Set GPIO value of <gpio_number>
+  - **Meaning:** SOCKET Extension Option
 
-<config_value>: Current GPIO Configuration Value (It can be used when action is 0, 1)
-
-Return value	Meaning
-0	PULL_NONE (Not use pull-up & pull-down resistor)
-1	PULL_UP (Input with an internal pull-up resistor)
-2	PULL_DOWN (Input with an internal pull-down resistor)
-3	OPEN_DRAIN (Output open drain)
-
-<gpio_value>: Current GPIO Value (It can be used when action is 2, 3)
-
-Return value	Meaning
-0	Low
-1	High
-
-Examples)
-
-AT+FGPIO=3,1,1 « Initialize GPIOB 3 as a Output mode
-AT+FGPIO=3,3,0 « Set GPIO value of GPIOB 3 to Low
-AT+FGPIO=3,3,1 « Set GPIO value of GPIOB 3 to High
-AT+FGPIO=3,2,0 « Get GPIO value of GPIOB 3
-
-Response:
-If <action> is 2
-
-<gpio_value>
-[OK]
-ex)
-AT+FGPIO=3,2,0
-0
-[OK]
-
-If <action> is 0, 1, 3
-
-[OK]
-
-Format:
-AT+FGPIO=?
-Meaning: Get available GPIO number
-Examples)
-
-AT+FGPIO=?
-Response:
-<gpio_num_1>,<gpio_num_2>
-[OK]
-
-ex) 
-3,4
-[OK]
-
-AT+FGETADC
-
-
-
-Format:
-AT+FGETADC=?
-Meaning: Read ADC from ADC pin of WizFi310 when using this AT Command
-
-
-
-Examples)
-
-AT+FGETADC=?
-Response:
-xxxx
-[OK]
-
-ex) 
-1697
-[OK]
-
-
-AT+FSOCK
-
-
-
-Format:
-AT+FSOCK=<Option>,<Value>
-Meaning: SOCKET Extension Option
-When there is no socket connected, it tries to reconnect the server using this option.
-6,8 options must be set as service mode(AT+SCON=S) for Auto Reconnection.
-Profile(AT+MPROF=S) has to be saved after AT+FSOCK
+\<WRAP indent\>\<WRAP indent\> When there is no socket connected, it
+tries to reconnect the server using this option.  
+6,8 options must be set as service mode(AT+SCON=S) for Auto
+Reconnection.  
+Profile(AT+MPROF=S) has to be saved after AT+FSOCK  
+  
 
 This is for extended options of Socket. It will be added continuously.
 
-<Option>: Extended options of Socket (Required)
+\<Option\>: Extended options of Socket (Required)
 
-Parameter	Meaning
-1	TCP Send error timeout (value : 2000~20000ms)
-6	Recreates Socket then attempts Auto-Reconnection after <Value> seconds (value: 10~1000)
-8	Automatically resets WizFi310 module. when there is no socket connected (value: 5~1000)
-<Value> : Value of extended option (Required)
+| Parameter | Meaning                                                                                    |
+| --------- | ------------------------------------------------------------------------------------------ |
+| 1         | TCP Send error timeout (value : 2000\~20000ms)                                             |
+| 6         | Recreates Socket then attempts Auto-Reconnection after \<Value\> seconds (value: 10\~1000) |
+| 8         | Automatically resets WizFi310 module. when there is no socket connected (value: 5\~1000)   |
 
+\<Value\> : Value of extended option (Required)
 
+  
 Examples)
 
-AT+FSOCK=1,5000
-AT+FSOCK=6,10
-AT+FSOCK=8,30
+``` 
+  * AT+FSOCK=1,5000
+  * AT+FSOCK=6,10
+  * AT+FSOCK=8,30 \\ \\
+```
 
-Response:
-[OK]
+\</WRAP\>\</WRAP\>
 
-Format:
-AT+FSOCK=?
-Meaning: Get Current extended options of socket
-Response:
-<Extened option 1><2><3><4><5><6><7><8>
-[OK]
+  - **Response:**
 
-ex)
-5000,0,0,0,0,10,0,30
+\<WRAP indent\>\<WRAP indent\>
 
-AT+FOTA
+    [OK]
 
+\</WRAP\>\</WRAP\>  
 
+-----
 
-Format:
-AT+FOTA=<Server IP>,<Server Port>
-Meaning: Launch OTA Mode
-User can update firmware in OTA mode which can be entered by this command. Refer to Wi-Fi OTA
+  - **Format:**
+
+\<WRAP indent\>\<WRAP indent\>
+
+    AT+FSOCK=?
+
+\</WRAP\>\</WRAP\>
+
+  - **Meaning:** Get Current extended options of socket
+  - **Response:**
+
+\<WRAP indent\>\<WRAP indent\>
+
+    <Extened option 1><2><3><4><5><6><7><8>
+    [OK]
+    
+    ex)
+    5000,0,0,0,0,10,0,30
+
+\</WRAP\>\</WRAP\>  
+
+-----
+
+\<WRAP left round box 30%\>\<WRAP centeralign\>====AT+FOTA====
+\</WRAP\>\</WRAP\>  
+  
+  
+\* **Format:** \<WRAP indent\>\<WRAP indent\>
+
+    AT+FOTA=<Server IP>,<Server Port>
+
+\</WRAP\>\</WRAP\>
+
+  - **Meaning:** Launch OTA Mode
+
+\<WRAP indent\>\<WRAP indent\> User can update firmware in OTA mode
+which can be entered by this command. Refer to [Wi-Fi
+OTA](/products/WizFi310/WizFi310pg/firmware_upgrade-wifi_ota)
 
 OTA Server should run some protocol. that included in OTA tool.
 
-<Server IP>: Firmware Server IP
+\<Server IP\>: Firmware Server IP
 
-<Server Port> : Firmware Server Port
+\<Server Port\> : Firmware Server Port
 
-Response:
-[OK]
+\</WRAP\>\</WRAP\>
 
-2016/05/13 12:35 · jehoon song
-MQTT Commands
+  - **Response:**
 
-MQTT (Message Queuing Telemetry Transport) is a light weight messaging protocol for use on top of the TCP/IP protocol. It is designed for connections with remote locations where a “small code footprint” is required or the network bandwidth is limited.
-It is a communication protocol which almost can link all networked objects with the external, and it is used as a sensor.
-Wikipedia
+\<WRAP indent\>\<WRAP indent\>
 
-WizFi310 MQTT Example
-AT+MQTTSET
+    [OK]
 
-
-
-Format:
-AT+MQTTSET=<UserName>,<Password>,<ClientID>,<AliveTime>
-Meaning: This command is used to initialize the necessary parameters of MQTT connection.
-<UserName>: The User Name used in the broker authentication (Required, Max: 50 Character)
-<Password>: The Password used in the broker authentication (Required, Max: 50 Character)
-<ClientID>: The Client ID connected to the broker (Required, Max: 50 Character)
-<AliveTime>: The keep-alive time setting with the broker (Required, 30S ~ 300S)
-* this command needs to be invoked before the command of “AT+MQTTCON” connecting the broker.
-
-Examples)
-
-AT+MQTTSET=wiznet,12345678,wiznet-01,60
-
-Response:
-[OK]
-
-Format:
-AT+MQTTSET=?
-Meaning: Get Current Information of MQTT Connection and Authentication
-Response:
-<UserName>,<Password>,<ClientID>,<AliveTime>
-[OK]
-
-AT+MQTTCON
-
-
-
-Format:
-AT+MQTTCON=<Con/Discon>,<BrokerIP>,<BrokerPort>,<SSL_Enable>
-Meaning: Implement MQTT to connect the Broker.
-<Con/Discon>: MQTT Connection (Required)
-Parameter	Meaning
-0	Connect to the broker
-1	Disconnect from the broker
-<BrokerIP>: IP address of the broker (Optional)
-It can be used when the WizFi310 connect to broker
-<BrokerPort>: Broker Port (optional, default: 1883)
-It can be used when the WizFi310 connect to broker
-<SSL_Enable>: whether to enable secure connection (optional, default: 0)
-It can be used when the WizFi310 connect to broker
-Parameter	Meaning
-0	Not to enable SSL connection
-1	Enable SSL connection
-
-
-Connection Examples)
-
-AT+MQTTCON=1,192.168.1.229,1883,0
-AT+MQTTCON=1,192.168.1.229,8883,1
-Response:
-[MQTT CONNECT]
-[OK]
-
-Disconnection Examples)
-
-AT+MQTTCON=0
-Response:
-[MQTT DISCONNECT]
-[OK]
-
-Format:
-AT+MQTTCON=?
-Meaning: Get Current Connection Status
-Response:
-<Connection Status>
-[OK]
-
-AT+MQTTSUB
-
-
-
-Format:
-AT+MQTTSUB=<Sub/Unsub>,<Topic>
-Meaning: Such topics will be pushed to the WizFi310 when received by the Broker,
-for example, wiznet/temp indicates that the WizFi310 has subscribed data (input data) sent by other clients.
-<Sub/Unsub>: Subscribe/Unsubscribe the Topic (Required)
-Parameter	Meaning
-0	Unsubscribe the topic
-1	Subscribe the topic
-<Topic>: Themes subscribed by the WizFi310 (Required, Max: 64 Character)
-You can refer the topic rules
-
-
-Examples)
-
-AT+MQTTSUB=1,wiznet/temp
-AT+MQTTSUB=0,wiznet/temp
-
-Response:
-[OK]
-
-AT+MQTTPUB
-
-
-
-Format:
-AT+MQTTPUB=<Topic>,<Length>
-Meaning: Publish the message to subscribed Client
-<Topic>: Themes subscribed by the WizFi310 (Required, Max: 64 Character)
-<Length>: Length of the message (Required)
-After using this command, You must input the message.
-
-
-Examples)
-
-AT+MQTTPUB=wiznet/temp,3
-
-Response:
-<Length>
-[OK]
-
-2016/05/17 13:19 · jehoon song
-GMMP Commands
-GMMP Commands are for SK Telecom in Korea. So these command can't use in other country. (It can be used only in Korea). So descriptions for these commands will be written in Korea.
-
-
-GMMP는 M2M 단말과 개방형 M2M 플랫폼(OMP)사이의 TCP 기반 연동 규격으로서, 단말 등록/해지, 주기보고, 단말 제어 등의 기능을 수행하는 SKTelecom 내부 규격이다.
-
-AT+GMMPSET
-
-
-
-Format:
-AT+GMMPSET=<Con/Discon>,<ThingPlug IP>,<Thingplug Port>,<Domain Code>,<Auth ID>,<Manufacture ID>,<Device ID>
-Meaning: GMMP_GW_Registration 절차를 수행하기 위한 설정. 사전에 https://sandbox.sktiot.com에서 디바이스(TCP) 등록이 되어 있어야 G/W, Device 등로 한다.
-ThingPlug의 IP, Port, Domain Code, WizFi310의 Auth ID, Manufacture ID, Device ID를 설정한다.
-
-Element	Example	Description
-Con/Discon	1 or 0	1: GMMP_GW_Registration과 GMMP_Delivery를 수행한다. GMMP_Delivery는 AT+GMMPDATA가 설정되어있어야 한다.
-0: GMMP_Delivery를 중지한다.
-ThingPlug IP	61.250.21.211	ThingPlug의 IP를 입력한다.
-ThingPlug Port	31002	ThingPlug의 TCP Listen Port를 입력한다.
-ThingPlug→마이페이지→서비스 정보수정에서 확인 가능
-Domain Code	ThingPlug	ThingPlug의 서비스명을 입력한다.
-ThingPlug→마이페이지→서비스 정보수정에서 확인 가능
-Auth ID	0008dc1e000000	GW ID, 디바이스 등록시 입력한 MAC Address를 입력한다.
-ThingPlug→디바이스 정보→디바이스 조회에서 확인 가능
-Manufacture ID	WIZnet_GWMFID	제조사 ID를 입력한다.
-ThingPlug→디바이스 정보→디바이스 조회에서 확인 가능
-Device ID	deviceID	디바이스 ID를 입력한다.
-디바이스 고유의 ID를 사용한다.
-
-
-Connection Examples)
-
-AT+GMMPSET=1,61.250.21.211,31002,ThingPlug,0008dc1e000000,WIZnet_GWMFID,WizFi310
-Response:
-[GMMP CONNECT]
-[OK]
-
-Disconnection Examples)
-
-AT+GMMPSET=0
-Response:
-[GMMP DISCONNECT]
-[OK]
-
-AT+GMMPDATA
-
-
-
-Format:
-AT+GMMPDATA=<Option>,<Data>
-Meaning: OMP로 보내고 싶은 데이터를 해당 AT command를 이용해서 설정할 수 있다.
-옵션에 따라 AT Command 이후 즉시 보내거나, 설정된 주기마다(AT+GMMPOPT로 설정) 데이터(Report type: Collect Data)를 보낼 수 있다.
-Element	Example	Description
-Option	0 or 1	0: 설정된 주기마다 보낼 데이터를 설정한다.
-1: AT명령 즉시 데이터를 보낸다.
-Data	DATA	데이터
-
-
-Examples)
-
-AT+GMMPDATA=0,test data
-AT+GMMPDATA=1,test data
-
-Response:
-[OK]
-
-AT+GMMPOPT
-
-
-
-Format:
-AT+GMMPOPT=<Option>,<values>
-Meaning: GMMP 옵션을 설정하는 명령어이다. AT+GMMPOPT의 옵션에는 3가지가 있다.
-<WRAP indent><WRAP indent>
-
-<Option> = 10
-<Option> = 10은 이벤트 로그, 디버그 프린트를 설정하는 옵션이다.
-
-Examples) AT+GMMPOPT=10,<set>,<val1>,<val2>
-Element	Example	Description
-set	0 or 1	0: 현재 설정된 값을 읽는다.
-1: val1, val2의 값으로 설정한다.
-val1	0 or 1	0: 이벤트 로그를 프린트 하지 않는다.
-1: 이벤트 로그를 프린트 한다.
-val2	0 or 1	0: 디버그 메세지를 프린트하지 않는다.
-1: 디버그 메세지를 프린트 한다.
-
-<Option> = 11
-<Option> = 11은 Heartbeat 패킷의 전송 주기(Heartbeat Period)이다.
-
-Examples) AT+GMMPOPT=11,<period>
-Element	Example	Description
-period	10	Heartbeat 패킷 전송 주기(단위: 분)
-
-<Option> = 12
-<Option> = 12은 Delivery 패킷의 전송 주기(Report Period)이다.
-
-Examples) AT+GMMPOPT=12,<period>
-Element	Example	Description
-period	10	Delivery 패킷 전송 주기(단위: 분)
-
-
-2016/05/17 14:58 · jehoon song
-Connecting ThingPlug Commands
-
-ThingPlug는 SK Telecom의 IoT 플랫폼으로, oneM2M 표준 기반의 IoT 서비스를 제공합니다.
-
-Connecting ThingPlug Example
-AT+SKTPCON
-
-
-
-Format:
-AT+SKTPCON=<Con/Discon>,<ThingPlug IP>,<ThingPlug Port>,<Alive Time>,
-<ThingPlug Portal ID>,<Credential ID>,<Service ID>,<Version>,<Device ID> 
-Meaning: This command is used to connect to ThingPlug.
-<Con/Discon>: ThingPlug Connect/Disconnect
-
-Parameter	Meaning
-0	Disconnect to the ThingPlug
-1	Connect from the ThingPlug
-<ThingPlug IP>: ThingPlug IP 주소
-
-<ThingPlug Port>: ThingPlug Port 번호
-
-<Alive Time>: ThingPlug에 접속 유지하는 시간 설정
-
-<ThingPlug Portal ID>: ThingPlug에 가입한 사용자 ID
-
-<Credential ID>: 초기 디바이스 인증 코드
-
-<Service ID>: 등록한 서비스 ID
-
-<Version>: 버젼 정보
-
-<Device ID>: 디바이스 ID
-
-
-Examples)
-
-AT+SKTPCON=1,mqtt.thingplug.net,1883,300,ThingPlug User ID,ThingPlug Credential ID,ThingPlug Service ID,v1_0,Registered Device ID
-
-Response:
-[MQTT CONNECT]
-[OK]
-
-AT+SKTPDEVICE
-
-
-
-Format:
-AT+SKTPDEVICE=<Register/Delete>,<Device ID>,<Device Authorization Code(AE-ID)>
-Meaning: Device register to ThingPlug.
-<Register/Delete>: Device Register/Delete to ThingPlug
-Parameter	Meaning
-0	Device Delete
-1	Device Register
-<Device ID>: Device ID
-<Device Authorization Code(AE-ID)>: AE-ID
-
-
-Connection Examples)
-
-AT+SKTPDEVICE=1,Registered Device ID,Device Authorization Code(AE-ID)
-Response:
-[OK]
-
-AT+SKTPCONTAINER
-
-
-
-Format:
-AT+SKTPCONTAINER=<Register/Delete>,<Container Name>
-Meaning: Register the Container Name.
-<Register/Delete>: Container Register/Delete to ThingPlug
-Parameter	Meaning
-0	Container Delete
-1	Container Register
-<Container Name>: Container Name
-
-
-Examples)
-
-AT+SKTPCONTAINER=1,WIZnet
-
-Response:
-[OK]
-
-AT+SKTPSEND
-
-
-
-Format:
-AT+SKTPSEND=<Container Name>,<Data>
-Meaning: Sending the data to ThingPlug
-<Container Name>: Container Name
-<Data>: Data to send
-Data Format is TTV(Between Device Platform and ThingPlug Service Platform communication rule).
-
-
-Examples)
-
-AT+SKTPSEND=WIZnet,010600000028
-
-Response:
-[OK]
-
-AT+SKTPCMD
-
-
-
-Format:
-AT+SKTPCMD=<Register/Delete>,<Management command>
-Meaning: Register the response command to management.
-<Register/Delete>: Container Register/Delete to ThingPlug
-Parameter	Meaning
-0	Management command Delete
-1	Management command Register
-<Management command>: Response command to management
-
-
-Examples)
-
-AT+SKTPCMD=1,WIZnet_CMD
-
-Response:
-[OK]
-
-AT+SKTPRESULT
-
-
-
-Format:
-AT+SKTPRESULT=<Management command>,<Execute Status>,<Execute Result>
-Meaning: Publish the message to subscribed Client
-<Management command>: Registered Management command
-<Execute Status>: Execute status value
-<Execute Result>: Execute result value
-
-
-Examples)
-
-AT+SKTPRESULT=WIZnet_CMD,3,0
-
-Response:
-[OK]
-
-2017/07/25 10:07 · cliff
-Command mode & Data mode
-
-There are two user interface modes between WizFi310 and User-System.
-
-Command mode is the default communication mode and all AT Commands can be used only at this mode. Through AT Commands, users can do 'WiFi Configuration', 'Sending/Receiving Data', 'Managing System', and so on. WizFi310 treats all received data from users as AT command. If all received data follows the correct command format, WizFi310 processes it and returns a proper response to user.
-
-Data mode, on the other hand, is the mode which passes data of application layers to peer devices directly, without AT commands or any other interventions. It can be considered as a black box which passes all USART input to USART output directly. Its concept is simple but to enter this mode, Users need to set the environment properly through AT Commands.
-
-Entering Data mode
-Users can enter Data mode by writing '1' at '<DataMode>' parameter of AT+SCON command. Make sure that there are no open sockets before performing this, because Data mode works with one socket only. (So if you try to open another socket in data mode it will fail). If the socket of Data mode is closed, the mode will be changed to Command mode automatically so users can input AT Commands. If users set AT+SCON command as service with data mode option and save the profile, Data mode will be started when WiFi is joined, so the user does not need to set environments anymore. If the system boots or reboots at that time, WiFi Join will also be started automatically. Users can exit from data mode temporally by entering '+++' in a row (Wait for a second until [OK] response show up). Any AT Command can be entered during Data mode except AT+SCON command. If you want to return to data mode again, you just need to enter AT+SDATA. If you want to exit Data mode completely, close the socket by using 'AT+SMGMT=0' or 'AT+SMGMT=ALL'.
-
-Data transmission in Command mode
-In Command mode, you can make more than one socket, and you can send/receive data through opened sockets at the same time by using AT Command. You can send data to specific socket opened through AT+SSEND command and receive data with information header which informs you on the socket number, the peer address and the received data length.
+\</WRAP\>\</WRAP\>  
+\----
