@@ -6,77 +6,152 @@ date: 2020-04-15
 
 ## Content
 
-# WIZ752SR-125 Product Overview
+# Getting Started with WIZ752SR-125
 
 \*\* Supported Languages \*\*  
-\* [English](/products/s2e_module/wiz752sr-125/overview/en) (current
-page)  
-\* [Korean](/products/s2e_module/wiz752sr-125/overview/ko)
+\* [English](/products/s2e_module/wiz752sr-125/gettingstarted/en)  
+\* [Korean](/products/s2e_module/wiz752sr-125/gettingstarted/ko)
+(current page)
+
+![](/products/wiz750sr/docs_icon.png)
 
 -----
 
-## Overview
-
-![WIZ752SR-125 Product
-Overview](/products/s2e_module/wiz752sr-125/wiz752sr-125_overview.png%20)
-
-WIZ752SR-125 is a compact sized serial to Ethernet module using the
-W7500 Ethernet MCU (SoC based on ARM Cortex-M0 architecture) with
-External PHY(IC+). WIZ752SR-125 is a protocol converter that transmits
-data sent by serial equipment as TCP/IP data and converts the TCP/IP
-data received through the network back into serial data to the serial
-equipment. It complies with industrial temperature standard.
-
-**WIZ752SR-125 is compatible\[1\] with the WIZnet WIZ125SR S2E module.**
-In addition, WIZ752SR-125 contains a 4-pin GPIO expansion port that can
-be controlled freely by the user. (analog input or digital in/out)
-
-**WIZ752SR-125 is the best fit solution to control user's serial device
-via Ethernet network.**
+\*\* \* 이 문서는 WIZ752SR-125 모듈 활용을 기준으로 작성되었습니다. \*\*
 
 -----
 
-## Features
+## Unpacking the WIZ752SR-125
 
-  - Serial to Ethernet Module based on **W7500** MCU
-  - Included External PHY chip
-  - **Function and Hardware compatible with WIZ120SR S2E Module**
-      - **It's not compatible configuration tool of WIZ120SR**
-  - Supports 2 Ports Serial(RS-232C)
-      - D-Sub 9 Connector 2EA
-  - **10/100Mbps Ethernet & Up to 230kbps serial speed**
-  - Status LED: Run, TCP connection status
-  - Supports a search password 
-  - Configuration is possible via serial AT commands or via
-    Configuration tool 
-  - Support WIZ VSP (Virtual Serial Port) program
-  - Built-in Supervisor IC for improvements of Reset function stability
-  - Supports Static IP, DHCP, PPPoE
-  - Supports DNS
-  - Operation Temperature : -40℃ \~ 85℃
-  - Dimensions : 88.50(W) x 66.00(L) x 18.00(H) (Unit : mm)
+### What's in the Box?
+
+|                                     |
+| ----------------------------------- |
+| ![]()                               |
+| Figure: ***WIZ752SR-125 V1.0 패키지*** |
+
+WIZ752SR-125 보드는 별도의 악세사리 없이 모듈 단품만 판매합니다.
+
+  - WIZ752SR-125 모듈
+
+개발보드 별 패키지 구성품의 전체 항목은 [WIZ752SR-125 Overview: Product
+Contents](/products/s2e_module/wiz752sr-125/overview/ko#product_contents)
+페이지에서 확인 하실 수 있습니다.
+
+## Prerequisites for Setup
+
+### Software
+
+  - Configuration tool 프로그램 ([Download page](/))
+  - TCP 서버 / TCP 클라이언트 / UDP 터미널 프로그램
+  - 시리얼 터미널 프로그램
+
+### Hardware
+
+  - WIZ752SR-125 모듈과
+  - 이더넷 케이블
+  - DB9 시리얼 RS-232 케이블
+  - 제품 동작을 위한 전원
+      - DC5V 아답터
 
 -----
 
-## Product Contents
+## Connect Your WIZ755-125SR
 
-### WIZ752SR-125 Module
+### WIZ750SR Factory Settings
 
-| Ordering Information | Item                | Q'ty | Remarks |
-| -------------------- | ------------------- | ---- | ------- |
-| WIZ752SR-125         | WIZ752SR-125 module | 1    | \-      |
+| 네트워크 설정 | 장치  | IP 주소       | 192.168.11.2  | \-                |
+| ------- | --- | ----------- | ------------- | ----------------- |
+| :::     | ::: | Gateway 주소  | 192.168.11.1  | \-                |
+| :::     | ::: | Subnet mask | 255.255.255.0 | \-                |
+| :::     | ::: | DNS 서버 주소   | 8.8.8.8       | Google Public DNS |
+| :::     | ::: | Port0 번호    | 5000          | \-                |
+| :::     | ::: | Port1 번호    | 5001          | \-                |
+| :::     | 목적지 | IP 주소       | 192.168.11.3  | \-                |
+| :::     | ::: | Port0 번호    | 5000          | \-                |
+| :::     | ::: | Port1 번호    | 5001          | \-                |
 
-### WIZ752SR-125 Evaluation Board
+| 시리얼 포트 설정 | RS-232C-1 | 115200-8-N-1 / Flow Control: None | \- |
+| --------- | --------- | --------------------------------- | -- |
+| :::       | RS-232C-2 | 115200-8-N-1 / Flow Control: None | \- |
 
-| Ordering Information | Category | Item                       | Q'ty | Remarks   |
-| -------------------- | -------- | -------------------------- | ---- | --------- |
-| Pakage               | Device   | WIZ752SR-125               | 1    | \-        |
-| :::                  | Cable    | D-SUB9-FEMALE serial cable | 1    | Data port |
-| :::                  | :::      | 24AWG CAT5e UTP cable      | 1    | LAN cable |
-| :::                  | Adapter  | DC5V/2A Adapter            | 1    | \-        |
+| 사용자 I/O 설정 | UserIO A | Analog / Input   | Read only    |
+| ---------- | -------- | ---------------- | ------------ |
+| :::        | UserIO B | Digital / Input  | Read only    |
+| :::        | UserIO C | Digital / Output | Read / Write |
+| :::        | UserIO D | Digital / Output | Read / Write |
 
-\* It can be replaced with better components to improve the performance
-of the product.
+  - 제품 동작 모드: **TCP 서버 모드**
+  - Debug 메시지: **Enabled**
+  - 시리얼 커맨드 모드 전환: **Enabled**
+  - 시리얼 커맨드 모드 전환 코드: **+++** (3바이트 hex code, \[2B\]\[2B\]\[2B\])
+
+<!-- end list -->
+
+  - 데이터 패킹 옵션 - Time: **Disabled**
+  - 데이터 패킹 옵션 - Size: **Disabled**
+  - 데이터 패킹 옵션 - Char: **Disabled**
+
+<!-- end list -->
+
+  - 비활성 타이머: **Disabled**
+  - 재연결 주기: **3초**
+  - Keep-Alive 패킷 전송: **Enabled, 초기 지연 7초, 전송 주기 5초**
+
+### PC Settings
+
+\<WRAP center round important 80%\> WIZ752SR-125의 설정을 위한 PC 혹은
+노트북(laptop)은 **동일한 이더넷 네트워크 대역에 위치하여야 서로 통신이 가능합니다.** \</WRAP\>
+
+#### Example: PC Network Settings
+
+\* WIZ752SR-125의 설정이 공장 초기화 값일 때, PC의 설정 예
+
+<table>
+<thead>
+<tr class="header">
+<th>네트워크 설정</th>
+<th>PC or laptop<br />
+(= 목적지)</th>
+<th>IP 주소</th>
+<th>192.168.11.3</th>
+<th>-</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>:::</td>
+<td>:::</td>
+<td>Gateway 주소</td>
+<td>192.168.11.1</td>
+<td>-</td>
+</tr>
+<tr class="even">
+<td>:::</td>
+<td>:::</td>
+<td>Subnet mask</td>
+<td>255.255.255.0</td>
+<td>-</td>
+</tr>
+<tr class="odd">
+<td>:::</td>
+<td>:::</td>
+<td>Port0 번호</td>
+<td>5000</td>
+<td>-</td>
+</tr>
+</tbody>
+</table>
+
+  - TCP 클라이언트 및 TCP 서버/클라이언트 혼용 모드의 테스트를 위해 WIZ752SR-120의 Remote host
+    설정은 PC(혹은 laptop)와 일치하는 것이 좋습니다.
+
+<!-- end list -->
+
+  - 만약 DHCP(자동 IP 할당) 기능을 사용 할 경우, WIZ750SR-120 제품과 테스트용 PC는 **동일한
+    공유기**로부터 IP 주소를 할당 받도록 설정하여야 합니다.
+
+### Connecting Steps
 
 \<WRAP center round important 80%\> **WIZ752SR-125-EVB**는 **DB9 커넥터**를
 이용하여 사용자 시리얼 장치와 연결되도록 구성되어 있습니다. 따라서 PC를 이용한 초기 제품 테스트의 경우, **이더넷 및
