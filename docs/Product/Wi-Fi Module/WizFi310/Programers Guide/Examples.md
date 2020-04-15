@@ -1,7 +1,7 @@
 ---
 id: examples
 title: Examples
-date: 2020-03-
+date: 2020-04-15
 ---
 
 
@@ -47,27 +47,30 @@ WizFiDemoAP, Security : WPA2, Key : 12345678 )
 
   
 This section explains how to connect WizFi310 to target AP with DCHP
-Client Mode \<code\> AT (Sent AT command with 0x0d (Hex of Enter
-button)) \[OK\] (Response meaning successful execution)
+Client Mode 
+>
 
-AT+WSET=0,WizFiDemoAP (AT command for setting WiFi association) \[OK\]
+    AT (Sent AT command with 0x0d (Hex of Enter
+    button)) \[OK\] (Response meaning successful execution)
 
-AT+WSEC=0,WPA2,12345678 (AT command for setting WiFi security) \[OK\]
-AT+WNET=1 (AT command for setting DHCP) \[OK\]
+    AT+WSET=0,WizFiDemoAP (AT command for setting WiFi association) \[OK\]
 
-AT+WJOIN (AT command executing AP association) Joining : WizFiDemoAP
-Successfully joined : WizFiDemoAP
+    AT+WSEC=0,WPA2,12345678 (AT command for setting WiFi security) \[OK\]
+    AT+WNET=1 (AT command for setting DHCP) \[OK\]
 
-\[Link-Up Event\]
+    AT+WJOIN (AT command executing AP association) Joining : WizFiDemoAP
+    Successfully joined : WizFiDemoAP
 
-    IP Addr    : 192.168.12.13
-    Gateway   : 192.168.12.1
+    \[Link-Up Event\]
 
-\[OK\]
+        IP Addr    : 192.168.12.13
+        Gateway   : 192.168.12.1
 
-AT+WLEAVE (AT command making disassociation from AP association)
+    \[OK\]
 
-\[Link-Down Event\] \[OK\] \</code\>  
+    AT+WLEAVE (AT command making disassociation from AP association)
+
+    \[Link-Down Event\] \[OK\] 
 
 #### AP Mode using WPA2 Static IP
 
@@ -103,11 +106,14 @@ address to connected device.
     [Link-Down Event]
     [OK]
     
-    ## Example - Data Communication
+## Example - Data Communication
 
   
-\===Method of setting TCP Client and exchanging data in Data Mode===  
-\==Socket Open== This section explains how to open \<TCP Client Socket\>
+#### Method of setting TCP Client and exchanging data in Data Mode 
+
+**Socket Open**
+
+This section explains how to open \<TCP Client Socket\>
 and communicate with peer system. Below is an example showing how to set
 TCP Client and change the mode to data mode. It also explains parameters
 of \<AT+SCON\> command.  
@@ -123,13 +129,12 @@ In order to set WizFi310 to data mode, you have to enter 1 value to
 \<Data Mode\> parameter of \<AT+SCON\> command. For detailed information
 to this command, refer to
 [AT+SCON](/products/wizfi310/wizfi310pg/at_command_set-network_commands#AT+SCON).  
-\* Mode: Data Mode, TCP Client
 
-``` 
+  * Mode: Data Mode, TCP Client
   * Remote IP : 192.168.12.102
   * Remote Port : 5000
   * Local Port : 5001
-```
+
 
 ``` 
 AP Association                    ( Refers to Association & Disassociation Example )
@@ -141,17 +146,19 @@ AT+SCON=O,TCN,192.168.12.102,5000,5001,1 ( AT command connecting with a TCP Clie
 ```
 
   
-\==Exchanging data with a peer system== If WizFi310 successfully
-connects to a peer system, WizFi310 will print \[CONNECT(CID)\] message
-and enter data mode. In data mode, WizFi310 can send serial data to peer
-system and receive network data from peer system without other
-translation.  
-\==Socket Close== In order to close TCP connection, WizFi310 has to
-switch to AT Command Mode. ( When +++ message entered, WizFi310 can be
-changed to AT Command Mode. ) After being changed to AT Command Mode,
-TCP Connection can be closed by using \<AT+SMGMT=CID\> or
+**Exchanging data with a peer system**
+
+If WizFi310 successfully connects to a peer system, WizFi310 will print \[CONNECT(CID)\] message and enter data mode. In data mode, WizFi310 can send serial data to peer system and receive network data from peer system without other
+translation. 
+
+**Socket Close**
+
+In order to close TCP connection, WizFi310 has to switch to AT Command Mode. ( When +++ message entered, WizFi310 can be changed to AT Command Mode. ) After being changed to AT Command Mode,TCP Connection can be closed by using \<AT+SMGMT=CID\> or
 \<AT+SMGMT=ALL\> command.  
-\==Checking Socket Status== After being changed to AT Command Mode, TCP
+
+**Checking Socket Status**
+
+After being changed to AT Command Mode, TCP
 Connection can be closed by using \<AT+SMGMT=CID\> or \<AT+SMGMT=ALL\>
 command.
 
@@ -160,21 +167,17 @@ command.
     0/TCN/192.168.12.23:5000/5001/1
     [OK]
     
-    #### Method of setting TCP Server and exchanging data in Data Mode
+    
+#### Method of setting TCP Server and exchanging data in Data Mode
 
   
-\==Socket Open== This section explains how to open \<TCP Server Socket\>
-and communicate with peer system. Below is the example for setting TCP
-Server and then changing to data mode. For detailed information about
-\<AT+SCON\> command, refer to
-[AT+SCON](/products/wizfi310/wizfi310pg/at_command_set-network_commands#AT+SCON)
-and [Socket
-Open](/products/wizfi310/wizfi310pg/examples-data_communication#Socket%20Open).  
-\* Mode : Data Mode, TCP Server
+**Socket Open**
 
-``` 
-  * Local Port : 5000
-```
+This section explains how to open \<TCP Server Socket\> and communicate with peer system. Below is the example for setting TCP Server and then changing to data mode. For detailed information about \<AT+SCON\> command, refer to
+[AT+SCON](/products/wizfi310/wizfi310pg/at_command_set-network_commands#AT+SCON)and [Socket Open](/products/wizfi310/wizfi310pg/examples-data_communication#Socket%20Open).  
+    * Mode : Data Mode, TCP Server
+    * Local Port : 5000
+    
 
     AP Association              ( Refer to Association & Disassociation Example )
     
@@ -183,40 +186,32 @@ Open](/products/wizfi310/wizfi310pg/examples-data_communication#Socket%20Open).
     
     [CONNECT 0]          <= When TCP connection is done, you can see this message
 
+
 ##### Exchanging data with a peer system
 
-Exchanging data with its peer system is the same as previous [Exchanging
-data with a peer
-system](/products/wizfi310/wizfi310pg/examples-data_communication#Exchanging%20data%20with%20a%20peer%20system).
+Exchanging data with its peer system is the same as previous [Exchanging data with a peer system](/products/wizfi310/wizfi310pg/examples data_communication#Exchanging%20data%20with%20a%20peer%20system).
 
 ##### Socket Close
 
-Closing socket connection is the same as previous [Socket
-Close](/products/wizfi310/wizfi310pg/examples-data_communication#Socket%20Close).
+Closing socket connection is the same as previous [Socket Close](/products/wizfi310/wizfi310pg/examples-data_communication#Socket%20Close).
 
 ##### Checking Socket Status
 
-Checking socket status is the same as previous [Checking Socket
-Status](/products/wizfi310/wizfi310pg/examples-data_communication#Checking%20Socket%20Status).  
+Checking socket status is the same as previous [Checking Socket Status](/products/wizfi310/wizfi310pg/examples-data_communication#Checking%20Socket%20Status).  
   
 
 #### Method of setting UDP Client and exchanging data in Data Mode
 
   
-\==Socket Open== This section explains how to open \<UDP Client Socket\>
-and communicate to peer system. Below is an example for setting up UDP
-Client and changing into data mode. For detailed information about
-\<AT+SCON\> command, refer to
-[AT+SCON](/products/wizfi310/wizfi310pg/at_command_set-network_commands#AT+SCON)
-and [Socket
+**Socket Open**
+This section explains how to open \<UDP Client Socket\> and communicate to peer system. Below is an example for setting up UDP Client and changing into data mode. For detailed information about \<AT+SCON\> command, refer to [AT+SCON (/products/wizfi310/wizfi310pg/at_command_set-network_commands#AT+SCON) and [Socket
 Open](/products/wizfi310/wizfi310pg/examples-data_communication#Socket%20Open).  
-\* Mode : Data Mode, UDP Client
 
-``` 
+  * Mode : Data Mode, UDP Client
   * Remote IP : 192.168.12.23
   * Remote Port : 5001
   * Local Port : 5000
-```
+
 
 ``` 
 AP Association              ( Refer to Association & Disassociation Example )
@@ -230,33 +225,26 @@ AT+SCON=O,UCN,192.168.12.23,5001,5000,1
 ##### Exchanging data with a peer system
 
 Exchanging data with its peer system is the same as previous [Exchanging
-data with a peer
-system](/products/wizfi310/wizfi310pg/examples-data_communication#Exchanging%20data%20with%20a%20peer%20system).
+data with a peer system](/products/wizfi310/wizfi310pg/examples data_communication#Exchanging%20data%20with%20a%20peer%20system).
 
 ##### Socket Close
 
-Closing socket connection is the same as previous [Socket
-Close](/products/wizfi310/wizfi310pg/examples-data_communication#Socket%20Close).
+Closing socket connection is the same as previous [Socket Close](/products/wizfi310/wizfi310pg/examples-data_communication#Socket%20Close).
 
 ##### Checking Socket Status
 
-Checking socket status is the same as previous [Checking Socket
-Status](/products/wizfi310/wizfi310pg/examples-data_communication#Checking%20Socket%20Status).
+Checking socket status is the same as previous [Checking Socket Status](/products/wizfi310/wizfi310pg/examples-data_communication#Checking%20Socket%20Status).
+
 #### Method of setting UDP Server and exchanging data in Data Mode
 
-  
-\==Socket Open== This section explains how to open \<UDP Server Socket\>
-and communicate to peer system. Below is an example for setting up UDP
-Server and changing into data mode. For detailed information about
-\<AT+SCON\> command, refer to
-[AT+SCON](/products/wizfi310/wizfi310pg/at_command_set-network_commands#AT+SCON)
-and [Socket
-Open](/products/wizfi310/wizfi310pg/examples-data_communication#Socket%20Open).  
-\* Mode: Data Mode, UDP Server
+**Socket Open**
 
-``` 
+This section explains how to open \<UDP Server Socket\> and communicate to peer system. Below is an example for setting up UDP Server and changing into data mode. For detailed information about <AT+SCON\> command, refer to [AT+SCON](/products/wizfi310/wizfi310pg/at_command_set-network_commands#AT+SCON)
+and [Socket Open](/products/wizfi310/wizfi310pg/examples-data_communication#Socket%20Open).  
+
+  * Mode: Data Mode, UDP Server
   * Local Port: 5000
-```
+
 
 ``` 
 AP Association              ( Refer to Association & Disassociation Example )
@@ -276,36 +264,31 @@ because WizFi310 does not know its information. Thus peer system must
 send data to WizFi310 in order to know peer system’s information like
 below. ![](/products/wizfi310/wizfi310pg/udp_server_caution.png) The
 other information for exchanging data is same as [Exchanging data with a
-peer
-system](/products/wizfi310/wizfi310pg/examples-data_communication#Exchanging%20data%20with%20a%20peer%20system).
+peer system](/products/wizfi310/wizfi310pg/examples-data_communication#Exchanging%20data%20with%20a%20peer%20system).
 
 ##### Socket Close
 
-Closing socket connection is the same as previous [Socket
-Close](/products/wizfi310/wizfi310pg/examples-data_communication#Socket%20Close).
+Closing socket connection is the same as previous [Socket Close](/products/wizfi310/wizfi310pg/examples-data_communication#Socket%20Close).
 
 ##### Checking Socket Status
 
-Checking socket status is the same as previous [Checking Socket
-Status](/products/wizfi310/wizfi310pg/examples-data_communication#Checking%20Socket%20Status).  
+Checking socket status is the same as previous [Checking Socket Status](/products/wizfi310/wizfi310pg/examples-data_communication#Checking%20Socket%20Status).  
   
 
 #### Method of setting TCP Client and exchanging data in Command Mode
 
   
-\==Socket Open== This section explains how to set \<TCP Client\> in
-\<Command Mode\> and communicate to peer system. Below is the example
-for setting TCP Client on the Command Mode . In order to enter in the
-Command Mode, you have to enter 0 value to \<Data Mode\> parameter of
+**Socket Open**
+
+This section explains how to set \<TCP Client\> in\<Command Mode\> and communicate to peer system. Below is the example for setting TCP Client on the Command Mode . In order to enter in the Command Mode, you have to enter 0 value to \<Data Mode\> parameter of
 \<AT+SCON\> command. For detailed information to this command, refer to
 [AT+SCON](/products/wizfi310/wizfi310pg/at_command_set-network_commands#AT+SCON)  
-\* Mode : Command Mode, TCP Client
 
-``` 
+  * Mode : Command Mode, TCP Client
   * Remote IP: 192.168.12.23
   * Remote Port : 5000
   * Local Port : 5001
-```
+
 
 ``` 
 AP Association              ( Refer to Association & Disassociation Example )
@@ -351,18 +334,15 @@ using \<AT+SMGMT=?\> command.
 #### Method of setting TCP Server and exchanging data in Command Mode
 
   
-\==Socket Open== This section explains how to set \<TCP Server\> in
-\<Command Mode\> and communicate to peer system. Below is the example
-for setting TCP Server on the Command Mode. For detailed information
-about \<AT+SCON\> command, refer to
-[AT+SCON](/products/wizfi310/wizfi310pg/at_command_set-network_commands#AT+SCON)
-and [Socket
-Open](/products/wizfi310/wizfi310pg/examples-data_communication#Socket%20Open).  
-\* Mode : Command Mode, TCP Server
+**Socket Open**
 
-``` 
-  * Local Port : 5000
-```
+This section explains how to set \<TCP Server\> in \<Command Mode\> and communicate to peer system. Below is the example for setting TCP Server on the Command Mode. For detailed information about \<AT+SCON\> command, refer to
+[AT+SCON](/products/wizfi310/wizfi310pg/at_command_set-network_commands#AT+SCON)
+and [Socket Open](/products/wizfi310/wizfi310pg/examples-data_communication#Socket%20Open).  
+ 
+   * Mode : Command Mode, TCP Server 
+   * Local Port : 5000
+
 
 ``` 
 AP Association              ( Refer to Association & Disassociation Example )
@@ -375,9 +355,7 @@ AT+SCON=O,TSN, , ,5000,0        ( AT command listening with a TCP Server Socket 
 
 ##### Exchanging data with a peer system
 
-Exchanging data with its peer system is the same with previous
-[Exchanging data with a peer
-system](/products/wizfi310/wizfi310pg/examples-data_communication#Exchanging%20data%20with%20a%20peer%20system).
+Exchanging data with its peer system is the same with previous[Exchanging data with a peersystem](/products/wizfi310/wizfi310pg/examples-data_communication#Exchanging%20data%20with%20a%20peer%20system).
 
 #### Socket Close
 
@@ -388,20 +366,17 @@ Close](/products/wizfi310/wizfi310pg/examples-data_communication#Socket%20Close)
 #### Method of setting UDP Client and exchanging data in Command Mode
 
   
-\==Socket Open== This section explains how to set \<UDP Client\> in
-\<Command Mode\> and communicate to peer system. Below is an example for
-setting UDP Client on Command Mode. For detailed information about
-\<AT+SCON\> command, refer to
-[AT+SCON](/products/wizfi310/wizfi310pg/at_command_set-network_commands#AT+SCON)
-and [Socket
-Open](/products/wizfi310/wizfi310pg/examples-data_communication#Socket%20Open).  
-\* Mode : Command Mode, UDP Client
+**Socket Open**
 
-``` 
+This section explains how to set \<UDP Client\> in \<Command Mode\> and communicate to peer system. Below is an example for setting UDP Client on Command Mode. For detailed information about \<AT+SCON\> command, refer to
+[AT+SCON](/products/wizfi310/wizfi310pg/at_command_set-network_commands#AT+SCON)
+and [Socket Open](/products/wizfi310/wizfi310pg/examples-data_communication#Socket%20Open).  
+
+  * Mode : Command Mode, UDP Client 
   * Remote IP : 192.168.12.23
   * Remote Port : 5001
   * Local Port : 5000
-```
+
 
 ``` 
 AP Association              ( Refer to Association & Disassociation Example )
@@ -414,8 +389,7 @@ AT+SCON=O,UCN,192.168.12.23,5001,5000,0
 ##### Exchanging data with a peer system
 
 Exchanging data with its peer system is the same as previous [Exchanging
-data with a peer
-system](/products/wizfi310/wizfi310pg/examples-data_communication#Exchanging%20data%20with%20a%20peer%20system).
+data with a peer system](/products/wizfi310/wizfi310pg/examples-data_communication#Exchanging%20data%20with%20a%20peer%20system).
 
 #### Socket Close
 
@@ -426,18 +400,15 @@ Close](/products/wizfi310/wizfi310pg/examples-data_communication#Socket%20Close)
 #### Method of setting UDP Server and exchanging data in Command Mode
 
   
-\==Socket Open== This section explains how to open \<UDP Server Socket\>
-in Command Mode and communicate to peer system. Below is an example for
-setting UDP Server on Command Mode. For detailed information about
-\<AT+SCON\> command, refer to
-[AT+SCON](/products/wizfi310/wizfi310pg/at_command_set-network_commands#AT+SCON)
-and [Socket
-Open](/products/wizfi310/wizfi310pg/examples-data_communication#Socket%20Open).  
-\* Mode : Command Mode, UDP Server
+**Socket Open**
 
-``` 
+This section explains how to open \<UDP Server Socket\>
+in Command Mode and communicate to peer system. Below is an example for
+setting UDP Server on Command Mode. For detailed information about\<AT+SCON\> command, refer to [AT+SCON](/products/wizfi310/wizfi310pg/at_command_set-network_commands#AT+SCON) and [Socket Open](/products/wizfi310/wizfi310pg/examples-data_communication#Socket%20Open).  
+
+  * Mode : Command Mode, UDP Server
   * Local Port : 5000
-```
+
 
 ``` 
 AP Association              ( Refer to Association & Disassociation Example )
@@ -644,7 +615,7 @@ command as below.
     
     [DISCONNECT 0]
     
-    ## Example - Socket Connection with Domain name
+## Example - Socket Connection with Domain name
 
   
 When you want to connect the Web Server. you have to use the AT+SCON
@@ -776,7 +747,7 @@ tcp connection is fail during 20 seconds)
 [CONNECT 0] (WizFi310 will retry connection. then this message will be
 printed) 
 `
-\===== Example - Air Command =====  
+## Example - Air Command 
 This section explains how to operate Air-command-mode of WizFi310. With
 this Air-command-mode included in the WizFi310, you can issue AT
 commands to the module via WiFi, while the WizFi310 is in the TCP server
@@ -784,10 +755,10 @@ or UDP server operation mode.
 
 Please have a look at the following hints:
 
-``` 
+
   * Air-command-mode should only be used for configuration of WizFi310. It is not recommended to use the command mode for other purpopses.
   * The Air-command-mode will automatically be started, when the module WizFi310 will be booted into the AP mode. The module can then be configured on the port 50001 on its IP address.
-```
+
 
 The AT command consists of following parts: Command header
 (`WizFi310AirCmd:`), AT command (for example:'' AT`) and Carriage Return
@@ -795,13 +766,13 @@ The AT command consists of following parts: Command header
 
 The command should be sent with these conditions:
 
-``` 
   * The command header "WizFi310AirCmd:" is case sensitive and has to be sent in this kind. It is 15 Bytes long. 
   * A <Carriage Return, 0x0d> has to follow the AT command directly.
   * Air-command header, AT command and Carriage Return should be combined into one packet.
-```
 
-Example usage of the WizFi310AirCmd:  
+
+Example usage of the WizFi310AirCmd:
+```
 ![](/products/wizfi310/wizfi310pg/aircmd_intro.png)  
 `AT+WSET=1,WizFi310_AIRCMD
 [OK]
@@ -845,7 +816,8 @@ WizFi310AirCmd:AT+MMAC=?\r (25 Byte)
 (RX) 
 00:08:DC:00:55:76
 [OK]
-`
+```
+
 ## Example - Serial to Wi-Fi Setting using Android App
 
   
@@ -866,11 +838,10 @@ once, WizFi310 will be changed to \<Soft AP Mode\> and open TCP port
 50001 for using \<Air Command Mode\>.
 
   
-\=== App example download === You can download the App for configuration
-of WizFi310 at link below.  
-App install file - [Google Play
-Store](https://play.google.com/store/apps/details?id=wiznet.wizfi310_config_tool)  
-Source Code - [GitHub
+### App example download 
+
+You can download the App for configuration of WizFi310 at link below.  
+App install file - [Google Play Store](https://play.google.com/store/apps/details?id=wiznet.wizfi310_config_tool)   Source Code - [GitHub
 Repository](https://github.com/wpgnss/WizFi310_Config_Tool_Android)  
 \=== General Settings === This picture shows the configuration page of
 WizFi310 Config Tool. If you want to use \<WizFi310 Config Tool\>,
@@ -878,40 +849,28 @@ WizFi310 will be set to \<Soft AP mode\>
 
 ![](/products/wizfi310/wizfi310pg/set_info.png)
 
-  - \*\* WizFi310 \*\*
+  - **WizFi310**
+     * **WizFi310 SSID** : SSID of WizFi310.
+     * **WizFi310 PASSWORD** : Password of WizFi310.
+     * **Aircmd IP** : IP address of WizFi310.
+     * **Aircmd Port** : Port number of WizFi310.
+ 
 
-<!-- end list -->
+  - **Access Point**
+     * **AP SSID** : SSID of AP which will be connected with WizFi310.
+     * **AP PASSWORD** : Passworkd of AP which will be connected with WizFi310.
 
-``` 
-   * ** WizFi310 SSID ** : SSID of WizFi310.
-   * ** WizFi310 PASSWORD ** : Password of WizFi310.
-   * ** Aircmd IP ** : IP address of WizFi310.
-   * ** Aircmd Port ** : Port number of WizFi310.
-```
 
-  - \*\* Access Point \*\*
+  - **Destination Server** 
+     * **Server IP** : IP address of TCP Server which WizFi310 will want to connect.
+     * **Server Port** : Port number of TCP Server which WizFi310 will want to connect.
 
-<!-- end list -->
 
-``` 
-   * ** AP SSID ** : SSID of AP which will be connected with WizFi310.
-   * ** AP PASSWORD ** : Passworkd of AP which will be connected with WizFi310.
-```
-
-  - \*\* Destination Server \*\*
-
-<!-- end list -->
-
-``` 
-   * ** Server IP ** : IP address of TCP Server which WizFi310 will want to connect.
-   * ** Server Port ** : Port number of TCP Server which WizFi310 will want to connect.
-```
-
-  - \*\* SSL\_Enable \*\* : You have to check if you want to use SSL
+  - **SSL\_Enable** : You have to check if you want to use SSL
     when WizFi310 connect to TCP Server.
-  - \*\* Datamode\_Enable \*\* : You have to check if you want to use
+  - **Datamode\_Enable** : You have to check if you want to use
     \<Data Mode\> when WizFi310 connect to TCP Server.
-  - \*\* SAVE CONFIG \*\* : Save these configuration value at
+  - **SAVE CONFIG** : Save these configuration value at
     \<WizFi310\_Config\_Tool\_Android\>
 
   
@@ -944,19 +903,19 @@ join to AP and connect to destination server.
 You can find the examples of mqtt using the WizFi310 at following
 link.  
   
-\*\* Refer to [MQTT Example](/products/wizfi310/wizfi310pg/mqtt) \*\*
+**Refer to [MQTT Example](/products/wizfi310/wizfi310pg/mqtt)**
 
 # Example - GMMP
 
 You can find the examples of gmmp using the WizFi310 at following
 link.  
   
-\*\* Refer to [GMMP Example(written
-korean)](/products/wizfi310/wizfi310pg/gmmp) \*\*
+**Refer to [GMMP Example(written
+korean)](/products/wizfi310/wizfi310pg/gmmp)**
 # Example - ThingPlug
 
 You can find the examples of connecting to ThingPlug using the WizFi310
 at following link.  
   
-\*\* Refer to [ThingPlug Example(written in
-Korean)](/products/wizfi310/wizfi310pg/ThingPlug) \*\*
+**Refer to [ThingPlug Example(written in
+Korean)](/products/wizfi310/wizfi310pg/ThingPlug)**
