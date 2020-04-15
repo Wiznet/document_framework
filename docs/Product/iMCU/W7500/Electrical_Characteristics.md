@@ -1,7 +1,7 @@
 ---
 id: electrical_characteristics
 title: Electrical Characteristics
-date: 2020-03-
+date: 2020-04-03
 ---
 
 
