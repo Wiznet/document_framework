@@ -213,11 +213,15 @@ In the STA mode, it leaves current Access Point, but in the SoftAP mode, it stop
 ---
 >
 
-    **AT+WSCAN**
+    AT+WSCAN
 
-Format:
-AT+WSCAN=<SSID>,<BSSID>,<Channel>
-Meaning: WiFi Scan
+  * Format:
+ >
+ 
+    AT+WSCAN=<SSID>,<BSSID>,<Channel>
+    
+  * Meaning: WiFi Scan
+  
 Return the scan results filtered by parameters.
 
 <SSID>: SSID Filter (Optional)
@@ -231,125 +235,180 @@ Scan only the AP in this Channel.
 
 Examples)
 
-AT+WSCAN=TestAP
-AT+WSCAN=,,6
-AT+WSCAN=,08:00:DC:11:22:33,11
-Response:
-Index/SSID/BSSID/RSSI(-dBm)/MaxDataRate(Mbps)/Security/RadioBand(GHz)/Channel
-...
-[OK]
+  * AT+WSCAN=TestAP
+  * AT+WSCAN=,,6
+  * AT+WSCAN=,08:00:DC:11:22:33,11
+  
+* **Response:**
+>
 
-AT+WSET
+    Index/SSID/BSSID/RSSI(-dBm)/MaxDataRate(Mbps)/Security/RadioBand(GHz)/Channel
+    ...
+    [OK]
 
+---
+>
+      
+      AT+WSET
 
-
-Format:
-AT+WSET=<WiFiMode>,<SSID>,<BSSID>,<Channel>
-Meaning: WiFi Configuration
+  * **Format:**
+ >
+ 
+    AT+WSET=<WiFiMode>,<SSID>,<BSSID>,<Channel>
+    
+ * **Meaning:** WiFi Configuration
+ 
 <WiFiMode>: WiFi Mode to set (Required)
 This changes current WiFi mode.
 
-Parameter	Meaning
-0	Set Wi-Fi mode as STA mode
-1	Set Wi-Fi mode as AP mode
+|Parameter|	Meaning|
+|----------|-------|
+|0	|Set Wi-Fi mode as STA mode|
+|1	|Set Wi-Fi mode as AP mode|
+
 <SSID>: Target/Own SSID (Required, Max: 32 Character)
 
-Mode	Meaning
-STA	The SSID of target AP
-AP	Its own SSID
+|Mode|	Meaning|
+|----|---------|
+|STA	|The SSID of target AP|
+|AP	|Its own SSID|
+
 <BSSID>: Target BSSID (Optional, Form: xx:xx:xx:xx:xx:xx)
 
-Mode	Meaning
-STA	The BSSID of target AP
-AP	Not used. if any, it will be ignored
+|Mode|	Meaning|
+|----|----------|
+|STA	|The BSSID of target AP|
+|AP|	Not used. if any, it will be ignored|
+
 <Channel>: Target/Own Channel (Optional)
 
-Mode	Meaning
-STA	In STA mode, the Channel of target AP
-AP	In AP mode, its own Channel to run (Default: 6)
+|Mode|	Meaning|
+|----|---------|
+|STA	|In STA mode, the Channel of target AP|
+|AP	|In AP mode, its own Channel to run (Default: 6)|
+
 * There are 2 Wi-Fi modes in WizFi310, STA mode and SoftAP mode. When users execute AT+WJOIN command, it works as Wi-Fi mode previously selected by the user. It can be selected or checked by AT+WSET(or AT+WSET2) and AT+WSEC commands, and it is the only way to handle Wi-Fi mode.
 
 * AT+WSET(or AT+WSET2), AT+WSEC commands save its parameters into the profile automatically, so the user does not need to save the current profile.
 
 Examples)
 
-AT+WSET=0,WizFiAP
-AT+WSET=0,WizFiAP,08:00:DC:11:22:33,1
+  * AT+WSET=0,WizFiAP
+  * AT+WSET=0,WizFiAP,08:00:DC:11:22:33,1
 
-Response:
-[OK]
+ * **Response:**
+>
 
-Format:
-AT+WSET=?
-Meaning: Get Current WiFi configuration Settings
-Response:
-<WiFiMode>,<SSID>,<BSSID>,<Channel>
-[OK]
+    [OK]
+    
+---    
 
-AT+WSET2
+  * **Format:**
+>
 
+    AT+WSET=?
+    
+ * **Meaning**: Get Current WiFi configuration Settings
+ * **Response:**
+ >
+ 
+    <WiFiMode>,<SSID>,<BSSID>,<Channel>
+    [OK]
 
+---
+>
 
-Format:
-AT+WSET2=<WiFiMode>,<SSID>
-Meaning: WiFi Configuration for SSID of special Characters like '“' ',' '共'
+    AT+WSET2
+
+ * **Format:**
+ >
+      
+      AT+WSET2=<WiFiMode>,<SSID>
+      
+ * **Meaning:** WiFi Configuration for SSID of special Characters like '“' ',' '共'
+ 
 <WiFiMode>: WiFi Mode to set (Required)
 This changes current WiFi mode.
 
-Parameter	Meaning
-0	Set Wi-Fi mode as STA mode
-1	Set Wi-Fi mode as AP mode
+|Parameter|	Meaning|
+|---------|---------|
+|0	|Set Wi-Fi mode as STA mode|
+|1	|Set Wi-Fi mode as AP mode|
+
 <SSID>: Target/Own SSID (Required, Max: 32 Character)
 
-Mode	Meaning
-STA	The SSID of target AP
-AP	Its own SSID to run
+|Mode|	Meaning|
+|----|---------|
+|STA|	The SSID of target AP|
+|AP	|Its own SSID to run|
+
 * There are 2 Wi-Fi modes in WizFi310, STA mode and SoftAP mode. When users execute AT+WJOIN command, it works as Wi-Fi mode previously selected by the user. It can be selected or checked by AT+WSET and AT+WSEC commands, and it is the only way to handle Wi-Fi mode.
 
 * AT+WSET, AT+WSEC commands save its parameters into the profile automatically, so the user does not need to save the current profile.
 
 Examples)
 
-AT+WSET2=0,가나다”,無線共有器
+  * AT+WSET2=0,가나다”,無線共有器
 
-Response:
-[OK]
+ * **Response:**
+>
 
-Format:
-AT+WSET2=?
-Meaning: Get Current WiFi configuration Settings
-Response:
-<WiFiMode>,<SSID>,<BSSID>,<Length of SSID>
-[OK]
+    [OK]
+    
+---    
 
-AT+WSEC
+  * **Format:**
+>
 
+    AT+WSET2=?
+    
+  * **Meaning:** Get Current WiFi configuration Settings
+  
+  * **Response:**
+ >
+ 
+    <WiFiMode>,<SSID>,<BSSID>,<Length of SSID>
+    [OK]
 
+---
+>
 
-Format:
-AT+WSEC=<WiFiMode>,<SecType>,<Key>
-Meaning: WiFi Security Configuration
+      AT+WSEC
+
+  * **Format:**
+>
+
+    AT+WSEC=<WiFiMode>,<SecType>,<Key>
+    
+  * **Meaning:** WiFi Security Configuration
+  
 <WiFiMode>: Target WiFi mode to set (Required)
 
-Parameter	Meaning
-0	Set Wi-Fi mode as STA mode
-1	Set Wi-Fi mode as AP mode
+|Parameter|	Meaning|
+|---------|--------|
+|0	|Set Wi-Fi mode as STA mode|
+|1	|Set Wi-Fi mode as AP mode|
+
 <SecType>: Security type (Optional)
 
-Parameter	Meaning
-OPEN	None
-WiFi Auto Security
-WEP	WEP (* Not support at SoftAP mode)
-WPA	WPA1 - TKIP
-WPAAES	WPA1 - AES
-WPA2AES	WPA2 - AES
-WPA2TKIP	WPA2 - TKIP
-WPA2	WPA2 - Mixed
+|Parameter|	Meaning|
+|---------|--------|
+|OPEN|	None|
+||WiFi Auto Security|
+|WEP|	WEP (* Not support at SoftAP mode)|
+|WPA	|WPA1 - TKIP|
+|WPAAES|	WPA1 - AES|
+|WPA2AES	\WPA2 - AES|
+|WPA2TKIP|	WPA2 - TKIP|
+|WPA2	|WPA2 - Mixed|
+
 <Key>: Security key value
 
-Method	Length
-WEP	5 or 13 (ASCII), 10 or 26 (HEX)
-WPA	8 ~ 63 (ASCII), 128 (HEX)
+|Method	|Length|
+|-------|------|
+|WEP	|5 or 13 (ASCII), 10 or 26 (HEX)|
+|WPA	|8 ~ 63 (ASCII), 128 (HEX)|
+
 * There are 2 Wi-Fi modes in WizFi310, STA mode and SoftAP mode. When users execute AT+WJOIN command, it works as Wi-Fi mode previously selected by the user. It can be selected or checked by AT+WSET and AT+WSEC commands, and it is the only way to handle Wi-Fi mode.
 
 * AT+WSET, AT+WSEC commands save its parameters into the profile automatically, it works as Wi-Fi mode previously selected by the user.
@@ -361,96 +420,140 @@ AT+WSEC=0,,3132333435(O)
 In case of OPEN mode, you should input the 8 bytes dummy string. Then WizFi310 will ignore the dummy key in OPEN mode.
 AT+WSEC=0,,(X)
 AT+WSEC=0,,12345678(O)
+
 Examples)
 
-AT+WSEC=0,WEP,12345
-AT+WSEC=1,WPA2,12345678
-AT+WSEC=0,,123456789
+  * AT+WSEC=0,WEP,12345
+  * AT+WSEC=1,WPA2,12345678
+  * AT+WSEC=0,,123456789
 
-Response:
-[OK]
+ * **Response:**
+>
 
-Format:
-AT+WSEC=?
-Meaning: Get the Current Security Mode and Settings
-Response:
-<WiFiMode>,<SecType>,<Key> 
-[OK]
+    [OK]
 
-AT+WNET
+---
 
+  * **Format:**
+>
 
+    AT+WSEC=?
+    
+  * **Meaning:** Get the Current Security Mode and Settings
+  * **Response:**
+>
 
-Format:
-AT+WNET=<DHCP>,<IP>,<SN>,<GW>
-Meaning: Network Configuration
+    <WiFiMode>,<SecType>,<Key> 
+    [OK]
+
+---
+>
+
+    AT+WNET
+
+  * **Format:**
+>
+
+    AT+WNET=<DHCP>,<IP>,<SN>,<GW>
+    
+ * **Meaning:** Network Configuration
+ 
 <DHCP>: DHCP On/Off (Optional)
 
-Parameter	Meaning
-0	DHCP Off, Static
-1	DHCP On, DHCP Client
-Mode	Meaning
-STA	DHCP Client On/Off
-AP	Not used. if any, it will be ignored
+|Parameter|	Meaning|
+|---------|--------|
+|0	|DHCP Off, Static|
+|1|	DHCP On, DHCP Client|
+|**Mode**|	**Meaning**|
+|STA	|DHCP Client On/Off|
+|AP	|Not used. if any, it will be ignored|
+
 <IP>: IP Address (Optional)
 <SN>: Subnet Mask (Optional)
 <GW>: Gateway Address (Optional)
 
-Mode	Meaning
-STA	AP(Router) gateway address
-AP	Not used. if any, it will be ignored
+|Mode|	Meaning|
+|-----|--------|
+|STA|	AP(Router) gateway address|
+|AP	|Not used. if any, it will be ignored|
+
 * When you turn DHCP On in STA Mode, <IP>,<SN>,<GW> are not needed. If you input them at this time, they will be stored in the memory. They can be used later when set as Static(DHCO Off) without inputting these parameters.
 
 * In AP mode, DHCP Server will always run despite DHCP option, and Gateway option will not be used, So both options will be ignored.
 
-Response:
-[OK]
+  * **Response:**
+>
 
-Format:
-AT+WNET=?
-Meaning: Get Current Network Setting
+    [OK]
+    
+---    
+
+  * **Format:**
+>
+
+    AT+WNET=?
+    
+ * **Meaning:** Get Current Network Setting
+ 
 Note that <IP>,<SN>,<GW> address of response are not actual addresses, but addresses stored in the memory. So when DHCP is on, it usually different from actual addresses.
 
-Response:
-<DHCP>,<IP>,<SN>,<GW>
-[OK]
+  * **Response:**
+>
 
-AT+WSTAT
+    <DHCP>,<IP>,<SN>,<GW>
+    [OK]
 
+---
+>
 
+      AT+WSTAT
 
-Format:
-AT+WSTAT
-Meaning: Get Current WiFi Status
-Response:
-IF/SSID/IP-Addr/Gateway/MAC/TxPower(dBm)/RSSI(-dBm)
-...
-[OK]
+  * **Format:**
+>
 
-AT+WWPS
+    AT+WSTAT
+    
+  * **Meaning:** Get Current WiFi Status
+  
+  * **Response:**
+>
 
+    IF/SSID/IP-Addr/Gateway/MAC/TxPower(dBm)/RSSI(-dBm)
+    ...
+    [OK]
+    
+---   
+>
 
+    AT+WWPS
 
-Format:
-AT+WWPS=<Mode>,<PinNum>
-Meaning: WiFi WPS Connection
+  * **Format:**
+>
+
+    AT+WWPS=<Mode>,<PinNum>
+    
+ * **Meaning:** WiFi WPS Connection
 Join with an AP through WPS method
 
 <Mode>: WPS Mode (Required)
 
-Parameter	Meaning
-0	WPS_PBC_MODE
-1	WPS_PIN_MODE
+|Parameter|	Meaning|
+|---------|--------|
+|0|	WPS_PBC_MODE|
+|1	|WPS_PIN_MODE|
+
 <PinNum>: Pin Number (Pin Mode: Required, PBC Mode: N/A)
 * The maximum pin number letter is 8.
 
 Examples)
 
-AT+WWPS=0
-AT+WWPS=1,12345670
+  * AT+WWPS=0
+  * AT+WWPS=1,12345670
 
-Response:
-[OK]
+ * **Response:**
+>
+
+    [OK]
 
 AT+WADNS
 
