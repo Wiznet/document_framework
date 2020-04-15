@@ -487,7 +487,8 @@ using TCP or UDP when power is on.
     Number of Sockets : 1 (SCID/Mode/Remote/Local/DataMode)
     0/TSN/0.0.0.0:0/5000/0
     [OK]
-    ##### \<O\> : Open at Once
+    
+##### \<O\> : Open at Once
 
 When using this parameter, WizFi310 will try to connect to peer system
 using TCP or UDP when enter the \<AT+SCON\> command. For using this
@@ -568,7 +569,8 @@ try to connect to AP and peer system.
       Gateway    : 192.168.12.1
     
     [CONNECT 0]
-    ## Example - SSL Connection
+   
+## Example - SSL Connection
 
   
 This section explains how to connect to and communicate with SSL server.
@@ -624,34 +626,36 @@ name.
 When It case, It is useful to use AT+SDNAME for getting the IP from
 Domain name.  
 AT+SDNAME=\<Domain Name\>  
-Destination IP would be set using DNS Query when this Command set.  
-`WizFi310 Version 1.0.0.0 (WIZnet Co.Ltd)
-AT+WSET=0,WizFiDemoAP
-[OK]
-AT+WSEC=0,,12345678
-[OK]
-AT+WNET=1
-[OK]
-AT+WJOIN
+Destination IP would be set using DNS Query when this Command set. 
 
-[Link-Up Event]
-IP Addr : 192.168.3.55
-Gateway : 192.168.3.1
-[OK]
+>
 
-AT+SDNAME=facebook.com
-[OK]
-AT+SCON=O,TCS,0.0.0.0,443,,0
-[OK]
+    WizFi310 Version 1.0.0.0 (WIZnet Co.Ltd)
+    AT+WSET=0,WizFiDemoAP
+    [OK]
+    AT+WSEC=0,,12345678
+    [OK]
+    AT+WNET=1
+    [OK]
+    AT+WJOIN
 
-[CONNECT 0]
+    [Link-Up Event]
+    IP Addr : 192.168.3.55
+    Gateway : 192.168.3.1
+    [OK]
 
-AT+SMGMT=?
-Number of Sockets : 1 (SCID/Mode/Remote/Local/DataMode)
-0/TCS/69.171.230.68/443/32337/0
-[OK]
+    AT+SDNAME=facebook.com
+    [OK]
+    AT+SCON=O,TCS,0.0.0.0,443,,0
+    [OK]
 
-`
+    [CONNECT 0]
+
+    AT+SMGMT=?
+    Number of Sockets : 1 (SCID/Mode/Remote/Local/DataMode)
+    0/TCS/69.171.230.68/443/32337/0
+    [OK]
+
 ## Example - Auto re-connection
 
   
@@ -667,44 +671,44 @@ This command means that WizFi310 will check every \<n\> seconds whether
 socket is connected or not. If socket is not connected during \<n\>
 second, WizFi310 will retry connection. ( For using AT+FSCOK command,
 AT+SCON command is set to \<S\> or \<SO\> option. )
-
+>
   
-`AT+WSET=0,WizFiDemoAP
-[OK]
-AT+WSEC=0,,12345678
-[OK]
-AT+WNET=1
-[OK]
-AT+SCON=S,TCN,222.98.173.250,6002,,0
-[OK]
-AT+FSOCK=6,30
-[OK]
-AT+MPROF=S
-[OK]
+    AT+WSET=0,WizFiDemoAP
+    [OK]
+    AT+WSEC=0,,12345678
+    [OK]
+    AT+WNET=1
+    [OK]
+    AT+SCON=S,TCN,222.98.173.250,6002,,0
+    [OK]
+    AT+FSOCK=6,30
+    [OK]
+    AT+MPROF=S
+    [OK]
 
-WizFi310 Version 1.0.0.0 (WIZnet Co.Ltd)
-Joining : WizFiDemoAP
-Successfully joined : WizFiDemoAP
+    WizFi310 Version 1.0.0.0 (WIZnet Co.Ltd)
+    Joining : WizFiDemoAP
+    Successfully joined : WizFiDemoAP
 
-[Link-Up Event]
-IP Addr : 192.168.3.52
-Gateway : 192.168.3.1
+    [Link-Up Event]
+    IP Addr : 192.168.3.52
+    Gateway : 192.168.3.1
 
-[CONNECT 0]
+    [CONNECT 0]
 
-[DISCONNECT 0]
-(Socket is disconnected due to unknown reason )
+    [DISCONNECT 0]
+    (Socket is disconnected due to unknown reason )
 
-[DISCONNECT 0]
-(1st fail and try to connect socket after 30 seconds )
+    [DISCONNECT 0]
+    (1st fail and try to connect socket after 30 seconds )
 
-[DISCONNECT 0]
-(2nd fail and try to connect socket after 30 seconds again )
+    [DISCONNECT 0]
+    (2nd fail and try to connect socket after 30 seconds again )
 
-[CONNECT 0]
-(Connection is success after 30 seconds )
+    [CONNECT 0]
+    (Connection is success after 30 seconds )
 
-`
+
 ## Example - Auto re-start
 
   
@@ -712,41 +716,43 @@ This example describe how to use \<auto restart\> function when
 connection is fail or disconnected If you use these commands, you can
 set WizFi310 for using auto re-connection and automatically restart when
 repeats connection a specific number of times.  
-`WizFi310 Version 1.0.0.0 (WIZnet Co.Ltd)
-AT+WSET=0,WizFiDemoAP
-[OK]
-AT+WSEC=0,,12345678
-[OK]
-AT+WNET=1
-[OK]
-AT+SCON=S,TCN,192.168.3.100,5000,,0
-[OK]
-AT+FSOCK=8,20
-[OK]
-AT+MPROF=S
-[OK]
-AT+MRESET
-[OK]
- 
-WizFi310 Version 1.0.0.0 (WIZnet Co.Ltd)
- 
-[Link-Up Event]
-  IP Addr    : 192.168.3.52
-  Gateway    : 192.168.3.1
- 
-[DISCONNECT 0] (1st fail)
- 
-[Link-Down Event]
-WizFi310 Version 1.0.0.0 (WIZnet Co.Ltd) (It will be restarted because
-tcp connection is fail during 20 seconds)
- 
-[Link-Up Event]
-  IP Addr    : 192.168.3.52
-  Gateway    : 192.168.3.1
- 
-[CONNECT 0] (WizFi310 will retry connection. then this message will be
-printed) 
-`
+>
+
+    WizFi310 Version 1.0.0.0 (WIZnet Co.Ltd)
+    AT+WSET=0,WizFiDemoAP
+    [OK]
+    AT+WSEC=0,,12345678
+    [OK]
+    AT+WNET=1
+    [OK]
+    AT+SCON=S,TCN,192.168.3.100,5000,,0
+    [OK]
+    AT+FSOCK=8,20
+    [OK]
+    AT+MPROF=S
+    [OK]
+    AT+MRESET
+    [OK]
+
+    WizFi310 Version 1.0.0.0 (WIZnet Co.Ltd)
+
+    [Link-Up Event]
+      IP Addr    : 192.168.3.52
+      Gateway    : 192.168.3.1
+
+    [DISCONNECT 0] (1st fail)
+
+    [Link-Down Event]
+    WizFi310 Version 1.0.0.0 (WIZnet Co.Ltd) (It will be restarted because
+    tcp connection is fail during 20 seconds)
+
+    [Link-Up Event]
+      IP Addr    : 192.168.3.52
+      Gateway    : 192.168.3.1
+
+    [CONNECT 0] (WizFi310 will retry connection. then this message will be
+    printed) 
+
 ## Example - Air Command 
 This section explains how to operate Air-command-mode of WizFi310. With
 this Air-command-mode included in the WizFi310, you can issue AT
@@ -772,51 +778,54 @@ The command should be sent with these conditions:
 
 
 Example usage of the WizFi310AirCmd:
-```
+
 ![](/products/wizfi310/wizfi310pg/aircmd_intro.png)  
-`AT+WSET=1,WizFi310_AIRCMD
-[OK]
-AT+WSEC=1,WPA2,123456789
-[OK]
-AT+WNET=0,192.168.11.1,255.255.255.0,192.168.11.1
-[OK]
-AT+WJOIN
+>
 
-[Link-Up Event]
-IP Addr : 192.168.11.1
-Gateway : 192.168.11.1
-[OK]
+    AT+WSET=1,WizFi310_AIRCMD
+    [OK]
+    AT+WSEC=1,WPA2,123456789
+    [OK]
+    AT+WNET=0,192.168.11.1,255.255.255.0,192.168.11.1
+    [OK]
+    AT+WJOIN
 
-AT+MAIRCMD=O,T,50001,0
-[OK]
+    [Link-Up Event]
+    IP Addr : 192.168.11.1
+    Gateway : 192.168.11.1
+    [OK]
+
+    AT+MAIRCMD=O,T,50001,0
+    [OK]
 
 Now, TCP Client can connect to the WizFi310 and issue the AT commands
 via WiFi as below.
+>
 
-(TCP Client TX) 
-WizFi310AirCmd:AT+MINFO\r (24 Byte)
-(RX) 
-FW version/HW version
-1.0.0.0/WizFi310 Rev 1.0
-[OK]
+    (TCP Client TX) 
+    WizFi310AirCmd:AT+MINFO\r (24 Byte)
+    (RX) 
+    FW version/HW version
+    1.0.0.0/WizFi310 Rev 1.0
+    [OK]
 
-(TCP Client TX) 
-WizFi310AirCmd:AT+WSEC=?\r (25 Byte)
-(RX) 
-1,WPA2,123456789
-[OK]
+    (TCP Client TX) 
+    WizFi310AirCmd:AT+WSEC=?\r (25 Byte)
+    (RX) 
+    1,WPA2,123456789
+    [OK]
 
-(TCP Client TX) 
-WizFi310AirCmd:AT+WSEC=1,WPA2,aaaabbbb\r (39 Byte)
-(RX) 
-[OK]
+    (TCP Client TX) 
+    WizFi310AirCmd:AT+WSEC=1,WPA2,aaaabbbb\r (39 Byte)
+    (RX) 
+    [OK]
 
-(TCP Client TX) 
-WizFi310AirCmd:AT+MMAC=?\r (25 Byte)
-(RX) 
-00:08:DC:00:55:76
-[OK]
-```
+    (TCP Client TX) 
+    WizFi310AirCmd:AT+MMAC=?\r (25 Byte)
+    (RX) 
+    00:08:DC:00:55:76
+    [OK]
+
 
 ## Example - Serial to Wi-Fi Setting using Android App
 
@@ -842,9 +851,11 @@ once, WizFi310 will be changed to \<Soft AP Mode\> and open TCP port
 
 You can download the App for configuration of WizFi310 at link below.  
 App install file - [Google Play Store](https://play.google.com/store/apps/details?id=wiznet.wizfi310_config_tool)   Source Code - [GitHub
-Repository](https://github.com/wpgnss/WizFi310_Config_Tool_Android)  
-\=== General Settings === This picture shows the configuration page of
-WizFi310 Config Tool. If you want to use \<WizFi310 Config Tool\>,
+Repository](https://github.com/wpgnss/WizFi310_Config_Tool_Android) 
+
+### General Settings
+
+This picture shows the configuration page of WizFi310 Config Tool. If you want to use \<WizFi310 Config Tool\>,
 WizFi310 will be set to \<Soft AP mode\>
 
 ![](/products/wizfi310/wizfi310pg/set_info.png)
