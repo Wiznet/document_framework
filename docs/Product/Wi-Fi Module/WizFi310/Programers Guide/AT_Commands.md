@@ -2297,22 +2297,24 @@ Disconnection Examples)
 
 
 \----
-\<WRAP left round box 30%\>\<WRAP centeralign\>====AT+MQTTSUB====
-\</WRAP\>\</WRAP\>  
+>
+
+    AT+MQTTSUB====
+
   
   
-\* **Format:** \<WRAP indent\>\<WRAP indent\>
+\* **Format:**
 
     AT+MQTTSUB=<Sub/Unsub>,<Topic>
 
-\</WRAP\>\</WRAP\>
+
 
   - **Meaning:** Such topics will be pushed to the WizFi310 when
     received by the Broker,  
     for example, wiznet/temp indicates that the WizFi310 has subscribed
     data (input data) sent by other clients. 
 
-\<WRAP indent\>\<WRAP indent\> \<Sub/Unsub\>: Subscribe/Unsubscribe the
+\<Sub/Unsub\>: Subscribe/Unsubscribe the
 Topic (Required)  
 
 | Parameter | Meaning               |
@@ -2328,35 +2330,36 @@ rules](/products/WizFi310/WizFi310pg/at_command_set-mqtt_topic_rules)
   
 Examples)
 
-``` 
   * AT+MQTTSUB=1,wiznet/temp \\
   * AT+MQTTSUB=0,wiznet/temp \\ \\
-```
 
-\</WRAP\>\</WRAP\>
+
+
 
   - **Response:**
 
-\<WRAP indent\>\<WRAP indent\>
+>
 
     [OK]
 
-\</WRAP\>\</WRAP\>  
+
 \----
 
-\<WRAP left round box 30%\>\<WRAP centeralign\>====AT+MQTTPUB====
-\</WRAP\>\</WRAP\>  
+>
+
+    AT+MQTTPUB
+
   
   
-\* **Format:** \<WRAP indent\>\<WRAP indent\>
+\* **Format:** 
 
     AT+MQTTPUB=<Topic>,<Length>
 
-\</WRAP\>\</WRAP\>
+
 
   - **Meaning:** Publish the message to subscribed Client
 
-\<WRAP indent\>\<WRAP indent\>
+
 
 \<Topic\>: Themes subscribed by the WizFi310 (Required, Max: 64
 Character)  
@@ -2366,20 +2369,17 @@ Character)
   
 Examples)
 
-``` 
   * AT+MQTTPUB=wiznet/temp,3 \\ \\
-```
 
-\</WRAP\>\</WRAP\>
 
   - **Response:**
 
-\<WRAP indent\>\<WRAP indent\>
+>
 
     <Length>
     [OK]
 
-\</WRAP\>\</WRAP\>  
+
 \----
 ## GMMP Commands
 
@@ -2393,15 +2393,16 @@ GMMP는 M2M 단말과 개방형 M2M 플랫폼(OMP)사이의 TCP 기반 연동 �
 
 -----
 
-\<WRAP left round box 30%\>\<WRAP centeralign\>====AT+GMMPSET====
-\</WRAP\>\</WRAP\>  
+>
+
+    AT+GMMPSET
   
   
-\* **Format:** \<WRAP indent\>\<WRAP indent\>
+\* **Format:** 
 
     AT+GMMPSET=<Con/Discon>,<ThingPlug IP>,<Thingplug Port>,<Domain Code>,<Auth ID>,<Manufacture ID>,<Device ID>
 
-\</WRAP\>\</WRAP\>
+
 
   - **Meaning:** GMMP\_GW\_Registration 절차를 수행하기 위한 설정. 사전에
     <https://sandbox.sktiot.com에서> 디바이스(TCP) 등록이 되어 있어야 G/W, Device 등로
@@ -2409,7 +2410,7 @@ GMMP는 M2M 단말과 개방형 M2M 플랫폼(OMP)사이의 TCP 기반 연동 �
     ThingPlug의 IP, Port, Domain Code, WizFi310의 Auth ID, Manufacture ID,
     Device ID를 설정한다.  
       
-    \<WRAP indent\>\<WRAP indent\>
+  
 
 <table>
 <thead>
@@ -2468,15 +2469,14 @@ ThingPlug-&gt;디바이스 정보-&gt;디바이스 조회에서 확인 가능</t
   
 Connection Examples)
 
-``` 
-  * AT+GMMPSET=1,61.250.21.211,31002,ThingPlug,0008dc1e000000,WIZnet_GWMFID,WizFi310 \\
-```
 
-\</WRAP\>\</WRAP\>
+  * AT+GMMPSET=1,61.250.21.211,31002,ThingPlug,0008dc1e000000,WIZnet_GWMFID,WizFi310 \\
+
+
+
 
   - **Response:**
-
-\<WRAP indent\>\<WRAP indent\>
+>
 
     [GMMP CONNECT]
     [OK]
@@ -2484,35 +2484,36 @@ Connection Examples)
   
 Disconnection Examples)
 
-``` 
   * AT+GMMPSET=0 \\
-```
 
-\</WRAP\>\</WRAP\>
+
+
 
   - **Response:**
 
-\<WRAP indent\>\<WRAP indent\>
+>
 
     [GMMP DISCONNECT]
     [OK]
 
-\</WRAP\>\</WRAP\>  
+
 \----
-\<WRAP left round box 30%\>\<WRAP centeralign\>====AT+GMMPDATA====
-\</WRAP\>\</WRAP\>  
+>
+
+     AT+GMMPDATA====
+ 
   
   
-\* **Format:** \<WRAP indent\>\<WRAP indent\>
+\* **Format:**
 
     AT+GMMPDATA=<Option>,<Data>
 
-\</WRAP\>\</WRAP\>
+
 
   - **Meaning:** OMP로 보내고 싶은 데이터를 해당 AT command를 이용해서 설정할 수 있다.  
     옵션에 따라 AT Command 이후 즉시 보내거나, 설정된 주기마다(AT+GMMPOPT로 설정) 데이터(Report
     type: Collect Data)를 보낼 수 있다.  
-    \<WRAP indent\>\<WRAP indent\>
+    
 
 <table>
 <thead>
@@ -2541,42 +2542,40 @@ Disconnection Examples)
   
 Examples)
 
-``` 
   * AT+GMMPDATA=0,test data \\
   * AT+GMMPDATA=1,test data \\ \\
-```
 
-\</WRAP\>\</WRAP\>
+
 
   - **Response:**
 
-\<WRAP indent\>\<WRAP indent\>
+>
 
     [OK]
 
-\</WRAP\>\</WRAP\>  
-\----
 
-\<WRAP left round box 30%\>\<WRAP centeralign\>====AT+GMMPOPT====
-\</WRAP\>\</WRAP\>  
+\----
+>
+
+    AT+GMMPOPT 
   
   
-\* **Format:** \<WRAP indent\>\<WRAP indent\>
+\* **Format:** 
 
     AT+GMMPOPT=<Option>,<values>
 
-\</WRAP\>\</WRAP\>
+
 
   - **Meaning:** GMMP 옵션을 설정하는 명령어이다. AT+GMMPOPT의 옵션에는 3가지가 있다.
 
-\<WRAP indent\>\<WRAP indent\>
+
 
 #### \<Option\> = 10
 
-``` 
+
   *   <Option> = 10은 이벤트 로그, 디버그 프린트를 설정하는 옵션이다. \\ \\
   *   Examples) AT+GMMPOPT=10,<set>,<val1>,<val2>
-```
+
 
 <table>
 <thead>
@@ -2611,10 +2610,9 @@ Examples)
   
 \===\<Option\> = 11===
 
-``` 
+
   * <Option> = 11은 Heartbeat 패킷의 전송 주기(Heartbeat Period)이다. \\ \\ 
-  *   Examples) AT+GMMPOPT=11,<period>
-```
+
 
 | Element | Example | Description               |
 | ------- | ------- | ------------------------- |
@@ -2623,10 +2621,9 @@ Examples)
   
 \===\<Option\> = 12===
 
-``` 
   * <Option> = 12은 Delivery 패킷의 전송 주기(Report Period)이다. \\ \\
   * Examples) AT+GMMPOPT=12,<period>
-```
+
 
 | Element | Example | Description              |
 | ------- | ------- | ------------------------ |
@@ -2643,21 +2640,21 @@ ThingPlug는 SK Telecom의 IoT 플랫폼으로, oneM2M 표준 기반의 IoT 서�
 [Connecting ThingPlug
 Example](/products/wizfi310/wizfi310pg/ThingPlug)  
 \----
+>
 
-\<WRAP left round box 30%\>\<WRAP centeralign\>====AT+SKTPCON====
-\</WRAP\>\</WRAP\>  
+    AT+SKTPCON  
   
   
-\* **Format:** \<WRAP indent\>\<WRAP indent\>
+\* **Format:** 
 
     AT+SKTPCON=<Con/Discon>,<ThingPlug IP>,<ThingPlug Port>,<Alive Time>,
     <ThingPlug Portal ID>,<Credential ID>,<Service ID>,<Version>,<Device ID> 
 
-\</WRAP\>\</WRAP\>
+
 
   - **Meaning:** This command is used to connect to ThingPlug. 
 
-\<WRAP indent\>\<WRAP indent\> \<Con/Discon\>: ThingPlug
+ \<Con/Discon\>: ThingPlug
 Connect/Disconnect
 
 | Parameter | Meaning                     |
@@ -2684,35 +2681,36 @@ Connect/Disconnect
   
 Examples)
 
-``` 
   * AT+SKTPCON=1,mqtt.thingplug.net,1883,300,ThingPlug User ID,ThingPlug Credential ID,ThingPlug Service ID,v1_0,Registered Device ID  \\ \\
-```
 
-\</WRAP\>\</WRAP\>
+
+
 
   - **Response:**
 
-\<WRAP indent\>\<WRAP indent\>
+>
 
     [MQTT CONNECT]
     [OK]
 
-\</WRAP\>\</WRAP\>  
+
+
 \----
 
-\<WRAP left round box 30%\>\<WRAP centeralign\>====AT+SKTPDEVICE====
-\</WRAP\>\</WRAP\>  
+>
+
+    AT+SKTPDEVICE  
   
   
-\* **Format:** \<WRAP indent\>\<WRAP indent\>
+\* **Format:** 
 
     AT+SKTPDEVICE=<Register/Delete>,<Device ID>,<Device Authorization Code(AE-ID)>
 
-\</WRAP\>\</WRAP\>
+
 
   - **Meaning:** Device register to ThingPlug. 
 
-\<WRAP indent\>\<WRAP indent\> \<Register/Delete\>: Device
+\<Register/Delete\>: Device
 Register/Delete to ThingPlug  
 ^ Parameter ^ Meaning ^
 
@@ -2727,33 +2725,32 @@ Register/Delete to ThingPlug
   
 Connection Examples)
 
-``` 
-  * AT+SKTPDEVICE=1,Registered Device ID,Device Authorization Code(AE-ID) \\
-```
 
-\</WRAP\>\</WRAP\>
+  * AT+SKTPDEVICE=1,Registered Device ID,Device Authorization Code(AE-ID) \\
+
 
   - **Response:**
 
-\<WRAP indent\>\<WRAP indent\>
+>
 
     [OK]
 
-\</WRAP\>\</WRAP\>  
+
 \----
-\<WRAP left round box 30%\>\<WRAP centeralign\>====AT+SKTPCONTAINER====
-\</WRAP\>\</WRAP\>  
+>
+
+    AT+SKTPCONTAINER 
   
   
-\* **Format:** \<WRAP indent\>\<WRAP indent\>
+\* **Format:** 
 
     AT+SKTPCONTAINER=<Register/Delete>,<Container Name>
 
-\</WRAP\>\</WRAP\>
+
 
   - **Meaning:** Register the Container Name. 
 
-\<WRAP indent\>\<WRAP indent\> \<Register/Delete\>: Container
+ \<Register/Delete\>: Container
 Register/Delete to ThingPlug  
 ^ Parameter ^ Meaning ^
 
@@ -2767,30 +2764,29 @@ Register/Delete to ThingPlug
   
 Examples)
 
-``` 
-  * AT+SKTPCONTAINER=1,WIZnet \\ \\
-```
 
-\</WRAP\>\</WRAP\>
+  * AT+SKTPCONTAINER=1,WIZnet \\ \\
+
+
+
 
   - **Response:**
 
-\<WRAP indent\>\<WRAP indent\>
+>
 
     [OK]
 
-\</WRAP\>\</WRAP\>  
+ 
 \----
+>
 
-\<WRAP left round box 30%\>\<WRAP centeralign\>====AT+SKTPSEND====
-\</WRAP\>\</WRAP\>  
+    AT+SKTPSEND
   
   
-\* **Format:** \<WRAP indent\>\<WRAP indent\>
+\* **Format:** 
 
     AT+SKTPSEND=<Container Name>,<Data>
 
-\</WRAP\>\</WRAP\>
 
   - **Meaning:** Sending the data to ThingPlug
 
@@ -2804,34 +2800,34 @@ Platform communication rule).
   
 Examples)
 
-``` 
-  * AT+SKTPSEND=WIZnet,010600000028 \\ \\
-```
 
-\</WRAP\>\</WRAP\>
+  * AT+SKTPSEND=WIZnet,010600000028 \\ \\
+
+
+
 
   - **Response:**
 
-\<WRAP indent\>\<WRAP indent\>
+>
 
     [OK]
 
-\</WRAP\>\</WRAP\>  
-\----
 
-\<WRAP left round box 30%\>\<WRAP centeralign\>====AT+SKTPCMD====
-\</WRAP\>\</WRAP\>  
+\----
+>
+
+    AT+SKTPCMD 
   
   
-\* **Format:** \<WRAP indent\>\<WRAP indent\>
+\* **Format:** 
 
     AT+SKTPCMD=<Register/Delete>,<Management command>
 
-\</WRAP\>\</WRAP\>
+
 
   - **Meaning:** Register the response command to management.
 
-\<WRAP indent\>\<WRAP indent\>
+
 
 \<Register/Delete\>: Container Register/Delete to ThingPlug  
 ^ Parameter ^ Meaning ^
@@ -2845,35 +2841,32 @@ Examples)
   
   
 Examples)
+ 
 
-``` 
-  * AT+SKTPCMD=1,WIZnet_CMD \\ \\
-```
 
-\</WRAP\>\</WRAP\>
+
 
   - **Response:**
 
-\<WRAP indent\>\<WRAP indent\>
+>
 
     [OK]
 
-\</WRAP\>\</WRAP\>  
 \----
 
-\<WRAP left round box 30%\>\<WRAP centeralign\>====AT+SKTPRESULT====
-\</WRAP\>\</WRAP\>  
+>
+
+    AT+SKTPRESULT 
   
   
-\* **Format:** \<WRAP indent\>\<WRAP indent\>
+\* **Format:** 
 
     AT+SKTPRESULT=<Management command>,<Execute Status>,<Execute Result>
 
-\</WRAP\>\</WRAP\>
 
   - **Meaning:** Publish the message to subscribed Client
 
-\<WRAP indent\>\<WRAP indent\>
+
 
 \<Management command\>: Registered Management command  
 \<Execute Status\>: Execute status value  
@@ -2882,19 +2875,19 @@ Examples)
   
 Examples)
 
-``` 
-  * AT+SKTPRESULT=WIZnet_CMD,3,0 \\ \\
-```
 
-\</WRAP\>\</WRAP\>
+  * AT+SKTPRESULT=WIZnet_CMD,3,0 \\ \\
+
+
+
 
   - **Response:**
 
-\<WRAP indent\>\<WRAP indent\>
+>
 
     [OK]
 
-\</WRAP\>\</WRAP\>  
+
 \----
 # Command mode & Data mode
 
