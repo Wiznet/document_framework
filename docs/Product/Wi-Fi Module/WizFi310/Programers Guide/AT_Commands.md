@@ -1,7 +1,7 @@
 ---
 id: at_commands
 title: AT Commands
-date: 2020-03-
+date: 2020-04-15
 ---
 
 
@@ -2178,3 +2178,816 @@ OTA Server should run some protocol. that included in OTA tool.
 
 \</WRAP\>\</WRAP\>  
 \----
+## MQTT Commands
+
+  
+MQTT (Message Queuing Telemetry Transport) is a light weight messaging
+protocol for use on top of the TCP/IP protocol. It is designed for
+connections with remote locations where a "small code footprint" is
+required or the network bandwidth is limited.  
+It is a communication protocol which almost can link all networked
+objects with the external, and it is used as a sensor.  
+[Wikipedia](https://en.wikipedia.org/wiki/MQTT)  
+  
+[WizFi310 MQTT Example](/products/wizfi310/wizfi310pg/mqtt)  
+\----
+
+\<WRAP left round box 30%\>\<WRAP centeralign\>====AT+MQTTSET====
+\</WRAP\>\</WRAP\>  
+  
+  
+\* **Format:** \<WRAP indent\>\<WRAP indent\>
+
+    AT+MQTTSET=<UserName>,<Password>,<ClientID>,<AliveTime>
+
+\</WRAP\>\</WRAP\>
+
+  - **Meaning:** This command is used to initialize the necessary
+    parameters of MQTT connection. 
+
+\<WRAP indent\>\<WRAP indent\> \<UserName\>: The User Name used in the
+broker authentication (Required, Max: 50 Character)  
+\<Password\>: The Password used in the broker authentication (Required,
+Max: 50 Character)  
+\<ClientID\>: The Client ID connected to the broker (Required, Max: 50
+Character)  
+\<AliveTime\>: The keep-alive time setting with the broker (Required,
+30S \~ 300S)  
+
+\* this command needs to be invoked before the command of "AT+MQTTCON"
+connecting the broker.  
+  
+Examples)
+
+``` 
+  * AT+MQTTSET=wiznet,12345678,wiznet-01,60 \\ \\
+```
+
+\</WRAP\>\</WRAP\>
+
+  - **Response:**
+
+\<WRAP indent\>\<WRAP indent\>
+
+    [OK]
+
+\</WRAP\>\</WRAP\>  
+\----
+
+  - **Format:**
+
+\<WRAP indent\>\<WRAP indent\>
+
+    AT+MQTTSET=?
+
+\</WRAP\>\</WRAP\>
+
+  - **Meaning:** Get Current Information of MQTT Connection and
+    Authentication
+
+\<WRAP indent\>\<WRAP indent\> \</WRAP\>\</WRAP\>
+
+  - **Response:**
+
+\<WRAP indent\>\<WRAP indent\>
+
+    <UserName>,<Password>,<ClientID>,<AliveTime>
+    [OK]
+
+\</WRAP\>\</WRAP\>  
+\----
+\<WRAP left round box 30%\>\<WRAP centeralign\>====AT+MQTTCON====
+\</WRAP\>\</WRAP\>  
+  
+  
+\* **Format:** \<WRAP indent\>\<WRAP indent\>
+
+    AT+MQTTCON=<Con/Discon>,<BrokerIP>,<BrokerPort>,<SSL_Enable>
+
+\</WRAP\>\</WRAP\>
+
+  - **Meaning:** Implement MQTT to connect the Broker. 
+
+\<WRAP indent\>\<WRAP indent\> \<Con/Discon\>: MQTT Connection
+(Required)  
+^ Parameter ^ Meaning ^
+
+|   |                            |
+| - | -------------------------- |
+| 0 | Connect to the broker      |
+| 1 | Disconnect from the broker |
+
+\<BrokerIP\>: IP address of the broker (Optional)  
+\* It can be used when the WizFi310 connect to broker  
+\<BrokerPort\>: Broker Port (optional, default: 1883)  
+\* It can be used when the WizFi310 connect to broker  
+\<SSL\_Enable\>: whether to enable secure connection (optional, default:
+0)  
+\* It can be used when the WizFi310 connect to broker  
+
+| Parameter | Meaning                      |
+| --------- | ---------------------------- |
+| 0         | Not to enable SSL connection |
+| 1         | Enable SSL connection        |
+
+  
+  
+Connection Examples)
+
+``` 
+  * AT+MQTTCON=1,192.168.1.229,1883,0 \\
+  * AT+MQTTCON=1,192.168.1.229,8883,1 \\
+```
+
+\</WRAP\>\</WRAP\>
+
+  - **Response:**
+
+\<WRAP indent\>\<WRAP indent\>
+
+    [MQTT CONNECT]
+    [OK]
+
+  
+Disconnection Examples)
+
+``` 
+  * AT+MQTTCON=0 \\
+```
+
+\</WRAP\>\</WRAP\>
+
+  - **Response:**
+
+\<WRAP indent\>\<WRAP indent\>
+
+    [MQTT DISCONNECT]
+    [OK]
+
+\</WRAP\>\</WRAP\>  
+\----
+
+  - **Format:**
+
+\<WRAP indent\>\<WRAP indent\>
+
+    AT+MQTTCON=?
+
+\</WRAP\>\</WRAP\>
+
+  - **Meaning:** Get Current Connection Status
+
+\<WRAP indent\>\<WRAP indent\> \</WRAP\>\</WRAP\>
+
+  - **Response:**
+
+\<WRAP indent\>\<WRAP indent\>
+
+    <Connection Status>
+    [OK]
+
+\</WRAP\>\</WRAP\>  
+\----
+\<WRAP left round box 30%\>\<WRAP centeralign\>====AT+MQTTSUB====
+\</WRAP\>\</WRAP\>  
+  
+  
+\* **Format:** \<WRAP indent\>\<WRAP indent\>
+
+    AT+MQTTSUB=<Sub/Unsub>,<Topic>
+
+\</WRAP\>\</WRAP\>
+
+  - **Meaning:** Such topics will be pushed to the WizFi310 when
+    received by the Broker,  
+    for example, wiznet/temp indicates that the WizFi310 has subscribed
+    data (input data) sent by other clients. 
+
+\<WRAP indent\>\<WRAP indent\> \<Sub/Unsub\>: Subscribe/Unsubscribe the
+Topic (Required)  
+
+| Parameter | Meaning               |
+| --------- | --------------------- |
+| 0         | Unsubscribe the topic |
+| 1         | Subscribe the topic   |
+
+\<Topic\>: Themes subscribed by the WizFi310 (Required, Max: 64
+Character)  
+\* You can refer the [topic
+rules](/products/WizFi310/WizFi310pg/at_command_set-mqtt_topic_rules)  
+  
+  
+Examples)
+
+``` 
+  * AT+MQTTSUB=1,wiznet/temp \\
+  * AT+MQTTSUB=0,wiznet/temp \\ \\
+```
+
+\</WRAP\>\</WRAP\>
+
+  - **Response:**
+
+\<WRAP indent\>\<WRAP indent\>
+
+    [OK]
+
+\</WRAP\>\</WRAP\>  
+\----
+
+\<WRAP left round box 30%\>\<WRAP centeralign\>====AT+MQTTPUB====
+\</WRAP\>\</WRAP\>  
+  
+  
+\* **Format:** \<WRAP indent\>\<WRAP indent\>
+
+    AT+MQTTPUB=<Topic>,<Length>
+
+\</WRAP\>\</WRAP\>
+
+  - **Meaning:** Publish the message to subscribed Client
+
+\<WRAP indent\>\<WRAP indent\>
+
+\<Topic\>: Themes subscribed by the WizFi310 (Required, Max: 64
+Character)  
+\<Length\>: Length of the message (Required)  
+\* After using this command, You must input the message.  
+  
+  
+Examples)
+
+``` 
+  * AT+MQTTPUB=wiznet/temp,3 \\ \\
+```
+
+\</WRAP\>\</WRAP\>
+
+  - **Response:**
+
+\<WRAP indent\>\<WRAP indent\>
+
+    <Length>
+    [OK]
+
+\</WRAP\>\</WRAP\>  
+\----
+## GMMP Commands
+
+GMMP Commands are for SK Telecom in Korea. So these command can't use in
+other country. (It can be used only in Korea). So descriptions for these
+commands will be written in Korea.
+
+  
+GMMP는 M2M 단말과 개방형 M2M 플랫폼(OMP)사이의 TCP 기반 연동 규격으로서, 단말 등록/해지, 주기보고, 단말 제어
+등의 기능을 수행하는 SKTelecom 내부 규격이다.
+
+-----
+
+\<WRAP left round box 30%\>\<WRAP centeralign\>====AT+GMMPSET====
+\</WRAP\>\</WRAP\>  
+  
+  
+\* **Format:** \<WRAP indent\>\<WRAP indent\>
+
+    AT+GMMPSET=<Con/Discon>,<ThingPlug IP>,<Thingplug Port>,<Domain Code>,<Auth ID>,<Manufacture ID>,<Device ID>
+
+\</WRAP\>\</WRAP\>
+
+  - **Meaning:** GMMP\_GW\_Registration 절차를 수행하기 위한 설정. 사전에
+    <https://sandbox.sktiot.com에서> 디바이스(TCP) 등록이 되어 있어야 G/W, Device 등로
+    한다.  
+    ThingPlug의 IP, Port, Domain Code, WizFi310의 Auth ID, Manufacture ID,
+    Device ID를 설정한다.  
+      
+    \<WRAP indent\>\<WRAP indent\>
+
+<table>
+<thead>
+<tr class="header">
+<th>Element</th>
+<th>Example</th>
+<th>Description</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>Con/Discon</td>
+<td>1 or 0</td>
+<td>1: GMMP_GW_Registration과 GMMP_Delivery를 수행한다. GMMP_Delivery는 AT+GMMPDATA가 설정되어있어야 한다.<br />
+0: GMMP_Delivery를 중지한다.</td>
+</tr>
+<tr class="even">
+<td>ThingPlug IP</td>
+<td>61.250.21.211</td>
+<td>ThingPlug의 IP를 입력한다.</td>
+</tr>
+<tr class="odd">
+<td>ThingPlug Port</td>
+<td>31002</td>
+<td>ThingPlug의 TCP Listen Port를 입력한다.<br />
+ThingPlug-&gt;마이페이지-&gt;서비스 정보수정에서 확인 가능</td>
+</tr>
+<tr class="even">
+<td>Domain Code</td>
+<td>ThingPlug</td>
+<td>ThingPlug의 서비스명을 입력한다.<br />
+ThingPlug-&gt;마이페이지-&gt;서비스 정보수정에서 확인 가능</td>
+</tr>
+<tr class="odd">
+<td>Auth ID</td>
+<td>0008dc1e000000</td>
+<td>GW ID, 디바이스 등록시 입력한 MAC Address를 입력한다.<br />
+ThingPlug-&gt;디바이스 정보-&gt;디바이스 조회에서 확인 가능</td>
+</tr>
+<tr class="even">
+<td>Manufacture ID</td>
+<td>WIZnet_GWMFID</td>
+<td>제조사 ID를 입력한다.<br />
+ThingPlug-&gt;디바이스 정보-&gt;디바이스 조회에서 확인 가능</td>
+</tr>
+<tr class="odd">
+<td>Device ID</td>
+<td>deviceID</td>
+<td>디바이스 ID를 입력한다.<br />
+디바이스 고유의 ID를 사용한다.</td>
+</tr>
+</tbody>
+</table>
+
+  
+  
+Connection Examples)
+
+``` 
+  * AT+GMMPSET=1,61.250.21.211,31002,ThingPlug,0008dc1e000000,WIZnet_GWMFID,WizFi310 \\
+```
+
+\</WRAP\>\</WRAP\>
+
+  - **Response:**
+
+\<WRAP indent\>\<WRAP indent\>
+
+    [GMMP CONNECT]
+    [OK]
+
+  
+Disconnection Examples)
+
+``` 
+  * AT+GMMPSET=0 \\
+```
+
+\</WRAP\>\</WRAP\>
+
+  - **Response:**
+
+\<WRAP indent\>\<WRAP indent\>
+
+    [GMMP DISCONNECT]
+    [OK]
+
+\</WRAP\>\</WRAP\>  
+\----
+\<WRAP left round box 30%\>\<WRAP centeralign\>====AT+GMMPDATA====
+\</WRAP\>\</WRAP\>  
+  
+  
+\* **Format:** \<WRAP indent\>\<WRAP indent\>
+
+    AT+GMMPDATA=<Option>,<Data>
+
+\</WRAP\>\</WRAP\>
+
+  - **Meaning:** OMP로 보내고 싶은 데이터를 해당 AT command를 이용해서 설정할 수 있다.  
+    옵션에 따라 AT Command 이후 즉시 보내거나, 설정된 주기마다(AT+GMMPOPT로 설정) 데이터(Report
+    type: Collect Data)를 보낼 수 있다.  
+    \<WRAP indent\>\<WRAP indent\>
+
+<table>
+<thead>
+<tr class="header">
+<th>Element</th>
+<th>Example</th>
+<th>Description</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>Option</td>
+<td>0 or 1</td>
+<td>0: 설정된 주기마다 보낼 데이터를 설정한다.<br />
+1: AT명령 즉시 데이터를 보낸다.</td>
+</tr>
+<tr class="even">
+<td>Data</td>
+<td>DATA</td>
+<td>데이터</td>
+</tr>
+</tbody>
+</table>
+
+  
+  
+Examples)
+
+``` 
+  * AT+GMMPDATA=0,test data \\
+  * AT+GMMPDATA=1,test data \\ \\
+```
+
+\</WRAP\>\</WRAP\>
+
+  - **Response:**
+
+\<WRAP indent\>\<WRAP indent\>
+
+    [OK]
+
+\</WRAP\>\</WRAP\>  
+\----
+
+\<WRAP left round box 30%\>\<WRAP centeralign\>====AT+GMMPOPT====
+\</WRAP\>\</WRAP\>  
+  
+  
+\* **Format:** \<WRAP indent\>\<WRAP indent\>
+
+    AT+GMMPOPT=<Option>,<values>
+
+\</WRAP\>\</WRAP\>
+
+  - **Meaning:** GMMP 옵션을 설정하는 명령어이다. AT+GMMPOPT의 옵션에는 3가지가 있다.
+
+\<WRAP indent\>\<WRAP indent\>
+
+#### \<Option\> = 10
+
+``` 
+  *   <Option> = 10은 이벤트 로그, 디버그 프린트를 설정하는 옵션이다. \\ \\
+  *   Examples) AT+GMMPOPT=10,<set>,<val1>,<val2>
+```
+
+<table>
+<thead>
+<tr class="header">
+<th>Element</th>
+<th>Example</th>
+<th>Description</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>set</td>
+<td>0 or 1</td>
+<td>0: 현재 설정된 값을 읽는다.<br />
+1: val1, val2의 값으로 설정한다.</td>
+</tr>
+<tr class="even">
+<td>val1</td>
+<td>0 or 1</td>
+<td>0: 이벤트 로그를 프린트 하지 않는다.<br />
+1: 이벤트 로그를 프린트 한다.</td>
+</tr>
+<tr class="odd">
+<td>val2</td>
+<td>0 or 1</td>
+<td>0: 디버그 메세지를 프린트하지 않는다.<br />
+1: 디버그 메세지를 프린트 한다.</td>
+</tr>
+</tbody>
+</table>
+
+  
+\===\<Option\> = 11===
+
+``` 
+  * <Option> = 11은 Heartbeat 패킷의 전송 주기(Heartbeat Period)이다. \\ \\ 
+  *   Examples) AT+GMMPOPT=11,<period>
+```
+
+| Element | Example | Description               |
+| ------- | ------- | ------------------------- |
+| period  | 10      | Heartbeat 패킷 전송 주기(단위: 분) |
+
+  
+\===\<Option\> = 12===
+
+``` 
+  * <Option> = 12은 Delivery 패킷의 전송 주기(Report Period)이다. \\ \\
+  * Examples) AT+GMMPOPT=12,<period>
+```
+
+| Element | Example | Description              |
+| ------- | ------- | ------------------------ |
+| period  | 10      | Delivery 패킷 전송 주기(단위: 분) |
+
+  
+  
+\----
+## Connecting ThingPlug Commands
+
+  
+ThingPlug는 SK Telecom의 IoT 플랫폼으로, oneM2M 표준 기반의 IoT 서비스를 제공합니다.  
+  
+[Connecting ThingPlug
+Example](/products/wizfi310/wizfi310pg/ThingPlug)  
+\----
+
+\<WRAP left round box 30%\>\<WRAP centeralign\>====AT+SKTPCON====
+\</WRAP\>\</WRAP\>  
+  
+  
+\* **Format:** \<WRAP indent\>\<WRAP indent\>
+
+    AT+SKTPCON=<Con/Discon>,<ThingPlug IP>,<ThingPlug Port>,<Alive Time>,
+    <ThingPlug Portal ID>,<Credential ID>,<Service ID>,<Version>,<Device ID> 
+
+\</WRAP\>\</WRAP\>
+
+  - **Meaning:** This command is used to connect to ThingPlug. 
+
+\<WRAP indent\>\<WRAP indent\> \<Con/Discon\>: ThingPlug
+Connect/Disconnect
+
+| Parameter | Meaning                     |
+| --------- | --------------------------- |
+| 0         | Disconnect to the ThingPlug |
+| 1         | Connect from the ThingPlug  |
+
+\<ThingPlug IP\>: ThingPlug IP 주소  
+  
+\<ThingPlug Port\>: ThingPlug Port 번호  
+  
+\<Alive Time\>: ThingPlug에 접속 유지하는 시간 설정  
+  
+\<ThingPlug Portal ID\>: ThingPlug에 가입한 사용자 ID  
+  
+\<Credential ID\>: 초기 디바이스 인증 코드  
+  
+\<Service ID\>: 등록한 서비스 ID  
+  
+\<Version\>: 버젼 정보  
+  
+\<Device ID\>: 디바이스 ID  
+  
+  
+Examples)
+
+``` 
+  * AT+SKTPCON=1,mqtt.thingplug.net,1883,300,ThingPlug User ID,ThingPlug Credential ID,ThingPlug Service ID,v1_0,Registered Device ID  \\ \\
+```
+
+\</WRAP\>\</WRAP\>
+
+  - **Response:**
+
+\<WRAP indent\>\<WRAP indent\>
+
+    [MQTT CONNECT]
+    [OK]
+
+\</WRAP\>\</WRAP\>  
+\----
+
+\<WRAP left round box 30%\>\<WRAP centeralign\>====AT+SKTPDEVICE====
+\</WRAP\>\</WRAP\>  
+  
+  
+\* **Format:** \<WRAP indent\>\<WRAP indent\>
+
+    AT+SKTPDEVICE=<Register/Delete>,<Device ID>,<Device Authorization Code(AE-ID)>
+
+\</WRAP\>\</WRAP\>
+
+  - **Meaning:** Device register to ThingPlug. 
+
+\<WRAP indent\>\<WRAP indent\> \<Register/Delete\>: Device
+Register/Delete to ThingPlug  
+^ Parameter ^ Meaning ^
+
+|   |                 |
+| - | --------------- |
+| 0 | Device Delete   |
+| 1 | Device Register |
+
+\<Device ID\>: Device ID  
+\<Device Authorization Code(AE-ID)\>: AE-ID  
+  
+  
+Connection Examples)
+
+``` 
+  * AT+SKTPDEVICE=1,Registered Device ID,Device Authorization Code(AE-ID) \\
+```
+
+\</WRAP\>\</WRAP\>
+
+  - **Response:**
+
+\<WRAP indent\>\<WRAP indent\>
+
+    [OK]
+
+\</WRAP\>\</WRAP\>  
+\----
+\<WRAP left round box 30%\>\<WRAP centeralign\>====AT+SKTPCONTAINER====
+\</WRAP\>\</WRAP\>  
+  
+  
+\* **Format:** \<WRAP indent\>\<WRAP indent\>
+
+    AT+SKTPCONTAINER=<Register/Delete>,<Container Name>
+
+\</WRAP\>\</WRAP\>
+
+  - **Meaning:** Register the Container Name. 
+
+\<WRAP indent\>\<WRAP indent\> \<Register/Delete\>: Container
+Register/Delete to ThingPlug  
+^ Parameter ^ Meaning ^
+
+|   |                    |
+| - | ------------------ |
+| 0 | Container Delete   |
+| 1 | Container Register |
+
+\<Container Name\>: Container Name  
+  
+  
+Examples)
+
+``` 
+  * AT+SKTPCONTAINER=1,WIZnet \\ \\
+```
+
+\</WRAP\>\</WRAP\>
+
+  - **Response:**
+
+\<WRAP indent\>\<WRAP indent\>
+
+    [OK]
+
+\</WRAP\>\</WRAP\>  
+\----
+
+\<WRAP left round box 30%\>\<WRAP centeralign\>====AT+SKTPSEND====
+\</WRAP\>\</WRAP\>  
+  
+  
+\* **Format:** \<WRAP indent\>\<WRAP indent\>
+
+    AT+SKTPSEND=<Container Name>,<Data>
+
+\</WRAP\>\</WRAP\>
+
+  - **Meaning:** Sending the data to ThingPlug
+
+\<WRAP indent\>\<WRAP indent\>
+
+\<Container Name\>: Container Name  
+\<Data\>: Data to send  
+\* Data Format is TTV(Between Device Platform and ThingPlug Service
+Platform communication rule).  
+  
+  
+Examples)
+
+``` 
+  * AT+SKTPSEND=WIZnet,010600000028 \\ \\
+```
+
+\</WRAP\>\</WRAP\>
+
+  - **Response:**
+
+\<WRAP indent\>\<WRAP indent\>
+
+    [OK]
+
+\</WRAP\>\</WRAP\>  
+\----
+
+\<WRAP left round box 30%\>\<WRAP centeralign\>====AT+SKTPCMD====
+\</WRAP\>\</WRAP\>  
+  
+  
+\* **Format:** \<WRAP indent\>\<WRAP indent\>
+
+    AT+SKTPCMD=<Register/Delete>,<Management command>
+
+\</WRAP\>\</WRAP\>
+
+  - **Meaning:** Register the response command to management.
+
+\<WRAP indent\>\<WRAP indent\>
+
+\<Register/Delete\>: Container Register/Delete to ThingPlug  
+^ Parameter ^ Meaning ^
+
+|   |                             |
+| - | --------------------------- |
+| 0 | Management command Delete   |
+| 1 | Management command Register |
+
+\<Management command\>: Response command to management  
+  
+  
+Examples)
+
+``` 
+  * AT+SKTPCMD=1,WIZnet_CMD \\ \\
+```
+
+\</WRAP\>\</WRAP\>
+
+  - **Response:**
+
+\<WRAP indent\>\<WRAP indent\>
+
+    [OK]
+
+\</WRAP\>\</WRAP\>  
+\----
+
+\<WRAP left round box 30%\>\<WRAP centeralign\>====AT+SKTPRESULT====
+\</WRAP\>\</WRAP\>  
+  
+  
+\* **Format:** \<WRAP indent\>\<WRAP indent\>
+
+    AT+SKTPRESULT=<Management command>,<Execute Status>,<Execute Result>
+
+\</WRAP\>\</WRAP\>
+
+  - **Meaning:** Publish the message to subscribed Client
+
+\<WRAP indent\>\<WRAP indent\>
+
+\<Management command\>: Registered Management command  
+\<Execute Status\>: Execute status value  
+\<Execute Result\>: Execute result value  
+  
+  
+Examples)
+
+``` 
+  * AT+SKTPRESULT=WIZnet_CMD,3,0 \\ \\
+```
+
+\</WRAP\>\</WRAP\>
+
+  - **Response:**
+
+\<WRAP indent\>\<WRAP indent\>
+
+    [OK]
+
+\</WRAP\>\</WRAP\>  
+\----
+# Command mode & Data mode
+
+  
+There are two user interface modes between WizFi310 and User-System.  
+  
+**Command mode** is the default communication mode and all AT Commands
+can be used only at this mode. Through AT Commands, users can do 'WiFi
+Configuration', 'Sending/Receiving Data', 'Managing System', and so on.
+WizFi310 treats all received data from users as AT command. If all
+received data follows the correct command format, WizFi310 processes it
+and returns a proper response to user.  
+  
+**Data mode**, on the other hand, is the mode which passes data of
+application layers to peer devices directly, without AT commands or any
+other interventions. It can be considered as a black box which passes
+all USART input to USART output directly. Its concept is simple but to
+enter this mode, Users need to set the environment properly through AT
+Commands.
+
+### Entering Data mode
+
+Users can enter Data mode by writing '1' at '\<DataMode\>' parameter of
+AT+SCON command. Make sure that there are no open sockets before
+performing this, because Data mode works with one socket only. (So if
+you try to open another socket in data mode it will fail). If the socket
+of Data mode is closed, the mode will be changed to Command mode
+automatically so users can input AT Commands. If users set AT+SCON
+command as service with data mode option and save the profile, Data mode
+will be started when WiFi is joined, so the user does not need to set
+environments anymore. If the system boots or reboots at that time, WiFi
+Join will also be started automatically. Users can exit from data mode
+temporally by entering '+++' in a row (Wait for a second until \[OK\]
+response show up). Any AT Command can be entered during Data mode except
+AT+SCON command. If you want to return to data mode again, you just need
+to enter AT+SDATA. If you want to exit Data mode completely, close the
+socket by using 'AT+SMGMT=0' or 'AT+SMGMT=ALL'.
+
+### Data transmission in Command mode
+
+In Command mode, you can make more than one socket, and you can
+send/receive data through opened sockets at the same time by using AT
+Command. You can send data to specific socket opened through AT+SSEND
+command and receive data with information header which informs you on
+the socket number, the peer address and the received data length.
