@@ -1,7 +1,7 @@
 ---
 id: pin_assignment
 title: Pin Assignment
-date: 2020-03-
+date: 2020-04-03
 ---
 
 
