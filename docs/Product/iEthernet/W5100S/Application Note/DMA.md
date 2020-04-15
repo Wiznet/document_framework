@@ -1,7 +1,7 @@
 ---
 id: dma
 title: DMA
-date: 2020-03-
+date: 2020-04-03
 ---
 
 
