@@ -837,57 +837,57 @@ If not, input '0'.
   
 Examples)
 
-``` 
+
   * AT+SFORM=111111111,7B,2C,7D,0D,0A
   * AT+SFORM=101100110,5B,2F,5D,0D,00 \\ \\
-```
 
-\</WRAP\>\</WRAP\>
+
+
 
   - **Response:**
 
-\<WRAP indent\>\<WRAP indent\>
+>
 
     [OK]
 
-\</WRAP\>\</WRAP\>  
+ 
 \----
 
   - **Format:**
 
-\<WRAP indent\>\<WRAP indent\>
+>
 
     AT+SFORM=?
 
-\</WRAP\>\</WRAP\>
+
 
   - **Meaning:** Get Current Data Receive Header Form
 
-\<WRAP indent\>\<WRAP indent\> \</WRAP\>\</WRAP\>
+
 
   - **Response:**
-
-\<WRAP indent\>\<WRAP indent\>
+>
 
     <Format>,<Start>,<Delim>,<End>,<Cls1>,<Cls2>
     [OK]
 
-\</WRAP\>\</WRAP\>
+
 
 -----
 
-  
-\<WRAP left round box 30%\>\<WRAP centeralign\>====AT+SOPT====
-\</WRAP\>\</WRAP\>  
-  
-  
-\* **Format:** \<WRAP indent\>\<WRAP indent\>
+>
 
-    AT+SOPT=<Option>,<SocketID>,<Socket Level>,<Option Name>,<Option Value>
+       AT+SOPT
 
-\</WRAP\>\</WRAP\>
-\* **Meaning:** S2W miscellaneous option \<WRAP indent\>\<WRAP indent\>
+  
+  
+\* **Format:** 
+>
 
+     AT+SOPT=<Option>,<SocketID>,<Socket Level>,<Option Name>,<Option Value>
+
+
+\* **Meaning:** S2W miscellaneous option 
 \<Option\>: Option to configure (Required)
 
 | Option | Value                 |
@@ -934,39 +934,40 @@ options for level IPPROTO\_TCP
 
 Examples)
 
-``` 
+
   * AT+SOPT=1,0,4095,8,1
   * AT+SOPT=1,0,6,3,10
   * AT+SOPT=1,0,6,4,15
   * AT+SOPT=1,0,6,5,3
-```
 
-\</WRAP\>\</WRAP\>
+
+
 
   - **Response:**
 
-\<WRAP indent\>\<WRAP indent\>
+>
 
-    [OK]
+      [OK]
 
-\</WRAP\>\</WRAP\>
+
 
 -----
+>
+  
+    AT+SOPT1
 
   
-\<WRAP left round box 30%\>\<WRAP centeralign\>====AT+SOPT1====
-\</WRAP\>\</WRAP\>  
   
-  
-\* **Format:** \<WRAP indent\>\<WRAP indent\>
+\* **Format:** 
+>
 
     AT+SOPT1=<Option>,<Value>
 
-\</WRAP\>\</WRAP\>
+
 
   - **Meaning:** S2W miscellaneous option
 
-\<WRAP indent\>\<WRAP indent\>
+
 
 \<Option\>: Option to configure (Required) \<Value\>: Value of the
 option (Required)
@@ -977,19 +978,16 @@ option (Required)
 
 Examples)
 
-``` 
   * AT+SOPT1=10,500
-```
 
-\</WRAP\>\</WRAP\>
 
   - **Response:**
 
-\<WRAP indent\>\<WRAP indent\>
+>
 
-    [OK]
+     [OK]
 
-\</WRAP\>\</WRAP\>
+
 
 ## Management Commands
 
@@ -997,20 +995,20 @@ Examples)
 Commands related to system management are listed below.
 
 -----
+>
 
-\<WRAP left round box 30%\>\<WRAP centeralign\>====AT+MPROF====
-\</WRAP\>\</WRAP\>  
+     AT+MPROF
   
   
-\* **Format:** \<WRAP indent\>\<WRAP indent\>
+\* **Format:** 
 
     AT+MPROF=<Action>
 
-\</WRAP\>\</WRAP\>
+
 
   - **Meaning:** Profile Management
 
-\<WRAP indent\>\<WRAP indent\> You can save/load the environmental
+ You can save/load the environmental
 information in the RAM to/from flash ROM, or check the setting values in
 both of them through this command.  
 (\* AT+WSET, AT+WSEC are immediately stored in the Flash ROM)  
@@ -1029,15 +1027,13 @@ both of them through this command.
   
 Examples)
 
-``` 
   * AT+MPROF=S \\ \\
-```
 
-\</WRAP\>\</WRAP\>
+
+
 
   - **Response:**
-
-\<WRAP indent\>\<WRAP indent\>
+>
 
     [OK]
 
@@ -1053,67 +1049,69 @@ Examples)
     +MECHO=...
     [OK]
 
-\</WRAP\>\</WRAP\>  
-\---- \<WRAP left round box 30%\>\<WRAP centeralign\>====AT+MFDEF====
-\</WRAP\>\</WRAP\>  
+
+>
+     
+     AT+MFDEF====
+
   
   
-\* **Format:** \<WRAP indent\>\<WRAP indent\>
+\* **Format:**
 
     AT+MFDEF=FR
 
-\</WRAP\>\</WRAP\>
+
 
   - **Meaning:** Perform Factory Reset
 
-\<WRAP indent\>\<WRAP indent\> Factory Reset means that all of
+Factory Reset means that all of
 environmental variables return back to the default state. (You can check
 that by using AT+MPROF command) \</WRAP\>\</WRAP\>
 
   - **Response:**
-
-\<WRAP indent\>\<WRAP indent\>
+>
 
     [OK]
 
-\</WRAP\>\</WRAP\>
------
 
-\<WRAP left round box 30%\>\<WRAP centeralign\>====AT+MRESET====
-\</WRAP\>\</WRAP\>  
-  
-  
-\* **Format:** \<WRAP indent\>\<WRAP indent\>
+-----
+>
 
     AT+MRESET
 
-\</WRAP\>\</WRAP\>
+  
+  
+\* **Format:** 
+
+    AT+MRESET
+
+
 
   - **Meaning:** Perform System Reset
 
-\<WRAP indent\>\<WRAP indent\> System will reboot after this command.
-\</WRAP\>\</WRAP\>
+System will reboot after this command.
+
 
   - **Response:**
 
-\<WRAP indent\>\<WRAP indent\>
+>
 
     [OK]
+>
 
-\</WRAP\>\</WRAP\>  
-\---- \<WRAP left round box 30%\>\<WRAP centeralign\>====AT+MMSG====
-\</WRAP\>\</WRAP\>  
+    AT+MMSG
+
   
   
-\* **Format:** \<WRAP indent\>\<WRAP indent\>
+\* **Format:** 
 
     AT+MMSG=<Level>
 
-\</WRAP\>\</WRAP\>
+
 
   - **Meaning:** Set Message Print Level
 
-\<WRAP indent\>\<WRAP indent\> \<Level\>: Message Print Level (Required)
+ \<Level\>: Message Print Level (Required)
 
 | Parameter | Meaning                             |
 | --------- | ----------------------------------- |
@@ -1123,129 +1121,124 @@ that by using AT+MPROF command) \</WRAP\>\</WRAP\>
 
 Examples)
 
-``` 
-  * AT+MMSG=2 \\ \\
-```
 
-\</WRAP\>\</WRAP\>
+  * AT+MMSG=2 \\ \\
+
 
   - **Response:**
 
-\<WRAP indent\>\<WRAP indent\>
+>
 
     [OK]
 
-\</WRAP\>\</WRAP\>  
+
 \----
 
   - **Format:**
-
-\<WRAP indent\>\<WRAP indent\>
+>
 
     AT+MMSG=?
 
-\</WRAP\>\</WRAP\>
+
 
   - **Meaning:** Get Current Message Print Level
 
-\<WRAP indent\>\<WRAP indent\> \</WRAP\>\</WRAP\>
 
   - **Response:**
+>
 
-\<WRAP indent\>\<WRAP indent\>
 
     <Level>
     [OK]
 
-\</WRAP\>\</WRAP\>  
-\---- \<WRAP left round box 30%\>\<WRAP centeralign\>====AT+MMAC====
-\</WRAP\>\</WRAP\>  
+>
+
+    AT+MMAC 
   
   
-\* **Format:** \<WRAP indent\>\<WRAP indent\>
+\* **Format:** 
 
     AT+MMAC=<MAC>
 
-\</WRAP\>\</WRAP\>
+
 
   - **Meaning:** Set MAC Address
 
-\<WRAP indent\>\<WRAP indent\> \<MAC\>: MAC Address (separated by colon)
+ \<MAC\>: MAC Address (separated by colon)
 (Required)  
   
 Examples)
 
-``` 
-  * AT+MMAC=00:08:DC:11:22:33 \\ \\
-```
 
-\</WRAP\>\</WRAP\>
+  * AT+MMAC=00:08:DC:11:22:33 \\ \\
+
+
+
 
   - **Response:**
 
-\<WRAP indent\>\<WRAP indent\>
+>
 
     [OK]
 
-\</WRAP\>\</WRAP\>
+
 \----
 
   - **Format:**
 
-\<WRAP indent\>\<WRAP indent\>
+>
 
     AT+MMAC=?
 
-\</WRAP\>\</WRAP\>
+
 
   - **Meaning:** Get Current MAC Address
 
-\<WRAP indent\>\<WRAP indent\> \</WRAP\>\</WRAP\>
+
 
   - **Response:**
 
-\<WRAP indent\>\<WRAP indent\>
+>
 
     <MAC>
     [OK]
 
-\</WRAP\>\</WRAP\>  
-\---- \<WRAP left round box 30%\>\<WRAP centeralign\>====AT+MINFO====
-\</WRAP\>\</WRAP\>  
+>
+
+    AT+MINFO
   
-  
-\* **Format:** \<WRAP indent\>\<WRAP indent\>
+\* **Format:** 
 
     AT+MINFO
 
-\</WRAP\>\</WRAP\>
+
 
   - **Meaning:** Get System Information
 
-\<WRAP indent\>\<WRAP indent\> \</WRAP\>\</WRAP\>
+
 
   - **Response:**
 
-\<WRAP indent\>\<WRAP indent\>
+>
 
     FW version / HW version
     <FWver> / <HWver>
     [OK]
-
-\</WRAP\>\</WRAP\>  
-\---- \<WRAP left round box 30%\>\<WRAP centeralign\>====AT+MECHO====
-\</WRAP\>\</WRAP\>  
+ 
+ >
+ 
+    AT+MECHO
   
   
-\* **Format:** \<WRAP indent\>\<WRAP indent\>
+\* **Format:**
 
     AT+MECHO=<Action>
 
-\</WRAP\>\</WRAP\>
+
 
   - **Meaning:** Set Echo Mode
 
-\<WRAP indent\>\<WRAP indent\> If you turn the echo mode off, you cannot
+ If you turn the echo mode off, you cannot
 see the characters that you inputted returning. It is easy to use to
 turn off when Host MCU handles AT Command control.  
   
@@ -1259,84 +1252,81 @@ turn off when Host MCU handles AT Command control.
 
 Examples)
 
-``` 
   * AT+MECHO=0 \\ \\
-```
 
-\</WRAP\>\</WRAP\>
+
+
 
   - **Response:**
-
-\<WRAP indent\>\<WRAP indent\>
+>
 
     [OK]
 
-\</WRAP\>\</WRAP\>  
+
 \----
 
   - **Format:**
 
-\<WRAP indent\>\<WRAP indent\>
+>
 
     AT+MECHO=?
 
-\</WRAP\>\</WRAP\>
+
 
   - **Meaning:** Get Current Echo Mode
 
-\<WRAP indent\>\<WRAP indent\> \</WRAP\>\</WRAP\>
+
 
   - **Response:**
 
-\<WRAP indent\>\<WRAP indent\>
+>
 
     <Mode>
     [OK]
 
-\</WRAP\>\</WRAP\>  
-\---- \<WRAP left round box 30%\>\<WRAP centeralign\>====AT+MHELP====
-\</WRAP\>\</WRAP\>  
+>
+
+    AT+MHELP  
   
   
-\* **Format:** \<WRAP indent\>\<WRAP indent\>
+\* **Format:** 
 
     AT+MHELP
 
-\</WRAP\>\</WRAP\>
 
   - **Meaning:** Print Command Description and Usage
 
-\<WRAP indent\>\<WRAP indent\> This is command usage guide for user
-convenience. \</WRAP\>\</WRAP\>
+This is command usage guide for user
+convenience. 
 
   - **Response:**
 
-\<WRAP indent\>\<WRAP indent\>
+>
 
     ...
     [OK]
 
-\</WRAP\>\</WRAP\>  
-\---- \<WRAP left round box 30%\>\<WRAP centeralign\>====AT+MMCUPS====
-\</WRAP\>\</WRAP\>  
+>
+
+    AT+MMCUPS  
   
   
 \* **Currently Not Available**
 -----
 
-\<WRAP left round box 30%\>\<WRAP centeralign\>====AT+MWIFIPS====
-\</WRAP\>\</WRAP\>  
+>
+
+    AT+MWIFIPS 
   
   
-\* **Format:** \<WRAP indent\>\<WRAP indent\>
+\* **Format:** 
 
     AT+MWIFIPS=<Action>,<Delay>
 
-\</WRAP\>\</WRAP\>
 
   - **Meaning:** Wi-Fi Power Save Enable/Disable
 
-\<WRAP indent\>\<WRAP indent\> Wi-Fi power save mode can be selected
+Wi-Fi power save mode can be selected
 through this command.  
   
 \<Action\> : Wi-Fi Power Save Mode (Required)
@@ -1365,28 +1355,28 @@ power consumption will rise.
 \* It must be set to a multiple of 10. When set to 0, the timeout period
 default to 2 beacon intervals (approximately 204ms).  
   
-\* It can be set to 0 \~ 90 \</WRAP\>\</WRAP\>
+\* It can be set to 0 \~ 90 \
 
   - **Response:**
 
-\<WRAP indent\>\<WRAP indent\>
+>
 
     [OK]
 
-\</WRAP\>\</WRAP\>  
+
 \----
 
   - **Format:**
 
-\<WRAP indent\>\<WRAP indent\>
+>
 
     AT+MWIFIPS=?
 
-\</WRAP\>\</WRAP\>
+
 
   - **Meaning:** Get Current Wi-Fi Power Save Status
 
-\<WRAP indent\>\<WRAP indent\> \<Status \> : Current Wi-Fi Power Save
+\<Status \> : Current Wi-Fi Power Save
 Status
 
 | Return value | Meaning                       |
@@ -1394,31 +1384,30 @@ Status
 | 0            | Wi-Fi Power Save Mode Disable |
 | 1            | Wi-Fi Power Save Mode Enable  |
 
-\</WRAP\>\</WRAP\>
+
 
   - **Response:**
 
-\<WRAP indent\>\<WRAP indent\>
+
 
     [OK]
 
-\</WRAP\>\</WRAP\>  
+
 
 -----
+>
 
-\<WRAP left round box 30%\>\<WRAP centeralign\>====AT+USET====
-\</WRAP\>\</WRAP\>  
+    AT+USET
   
-  
-\* **Format:** \<WRAP indent\>\<WRAP indent\>
+\* **Format:** 
 
     AT+USET=<Baudrate>,<Parity>,<WordLen>,<StopBit>,<FlowCon>
 
-\</WRAP\>\</WRAP\>
+
 
   - **Meaning:** UART Configuration
 
-\<WRAP indent\>\<WRAP indent\> UART parameter can be set through this
+UART parameter can be set through this
 command. Factory default parameter is "115200,N,8,1,N ".  
   
 \<Baudrate\>: Set the Baud-Rate. (Required)
@@ -1472,100 +1461,94 @@ command. Factory default parameter is "115200,N,8,1,N ".
 
 Examples)
 
-``` 
   * AT+USET=115200,N,8,1,N
   * AT+USET=921600,N,8,2,HW \\ \\
-```
 
-\</WRAP\>\</WRAP\>
-\* **Response:** \<WRAP indent\>\<WRAP indent\>
+
+
+\* **Response:** 
 
     [OK]
 
-\</WRAP\>\</WRAP\>  
+
 \----
 
   - **Format:**
 
-\<WRAP indent\>\<WRAP indent\>
+>
 
     AT+USET=?
 
-\</WRAP\>\</WRAP\>
 
   - **Meaning:** Get Current UART Setting
 
-\<WRAP indent\>\<WRAP indent\> \</WRAP\>\</WRAP\>
+
 
   - **Response:**
 
-\<WRAP indent\>\<WRAP indent\>
+
 
     <Baudrate>,<Parity>,<WordLen>,<StopBit>,<FlowCon>
     [OK]
 
-\</WRAP\>\</WRAP\>  
+
 \----
 
 -----
+>
 
-\<WRAP left round box 30%\>\<WRAP centeralign\>====AT+MCUSTOM====
-\</WRAP\>\</WRAP\>  
+    AT+MCUSTOM
+
   
   
-\* **Format:** \<WRAP indent\>\<WRAP indent\>
+\* **Format:** 
 
     AT+MCUSTOM=<custom code>
-
-\</WRAP\>\</WRAP\>
 
   - **Meaning:** Set to customized settings by request of specific
     customers.
 
-\<WRAP indent\>\<WRAP indent\> Examples)  
+Examples)  
   
 Default custom code is WIZNET  
-\* AT+MCUSTOM=WIZNET \</WRAP\>\</WRAP\>
+\* AT+MCUSTOM=WIZNET 
 
   - **Response:**
-
-\<WRAP indent\>\<WRAP indent\>
+>
 
     [OK]
 
-\</WRAP\>\</WRAP\>  
 \----
 
   - **Format:**
 
-\<WRAP indent\>\<WRAP indent\>
+>
 
     AT+MCUSTOM=?
 
-\</WRAP\>\</WRAP\>
+
 
   - **Meaning:** Get current custom code
   - **Response:**
 
-\<WRAP indent\>\<WRAP indent\>
+>
 
     WIZNET
     [OK]
 
-\</WRAP\>\</WRAP\>  
-\---- \<WRAP left round box 30%\>\<WRAP centeralign\>====AT+MAIRCMD====
-\</WRAP\>\</WRAP\>  
+>
+
+    AT+MAIRCMD 
   
   
-\* **Format:** \<WRAP indent\>\<WRAP indent\>
+\* **Format:**
 
     AT+MAIRCMD=<OpenType>,<SocketType>,<LocalPort>,<Option>
 
-\</WRAP\>\</WRAP\>
 
   - **Meaning:** Configure Air Command mode
 
-\<WRAP indent\>\<WRAP indent\> \<OpenType\>: Air Command mode type
+\<OpenType\>: Air Command mode type
 (Required)
 
 | Parameter | Meaning               |
@@ -1595,38 +1578,36 @@ return an error message.
 \<Option\>: Reserved (Required)
 Examples)
 
-``` 
   * AT+MAIRCMD=O,T,50001,0
   * AT+MAIRCMD=S,U,50001,0
   * AT+MAIRCMD=?
-```
 
-\</WRAP\>\</WRAP\>
+
+
 
   - **Response:**
 
-\<WRAP indent\>\<WRAP indent\>
+>
 
     <OpenType>,<SocketType>,<LocalPort>,<Option>
     [OK]
 
-\</WRAP\>\</WRAP\>  
-\----
 
-\<WRAP left round box 30%\>\<WRAP centeralign\>====AT+MEVTMSG====
-\</WRAP\>\</WRAP\>  
+\----
+>
+
+    AT+MEVTMSG
   
   
-\* **Format:** \<WRAP indent\>\<WRAP indent\>
+\* **Format:** 
 
     AT+MEVTMSG=<Status>
 
-\</WRAP\>\</WRAP\>
 
   - **Meaning:** Print \[Listen x\] as soon as it opens up a socket
     through TCP server.
 
-\<WRAP indent\>\<WRAP indent\> It is able to print TCP Server Status
+It is able to print TCP Server Status
 with \[Listen x\].(x:socket number).  
 A user can decide whether WizFi310 will print out Listen message or not
 in initialization mode on TCP server.  
@@ -1645,35 +1626,33 @@ table.
   
 Examples)
 
-``` 
   * AT+MEVTMSG=0
   * AT+MEVTMSG=1
-```
 
-\</WRAP\>\</WRAP\>
+
+
 
   - **Response:**
 
-\<WRAP indent\>\<WRAP indent\>
+>
 
     [OK]
 
-\</WRAP\>\</WRAP\>  
 \----
+>
 
-\<WRAP left round box 30%\>\<WRAP centeralign\>====AT+MEVTFORM====
-\</WRAP\>\</WRAP\>  
+    AT+MEVTFORM  
   
   
-\* **Format:** \<WRAP indent\>\<WRAP indent\>
+\* **Format:** 
 
     AT+MEVTFORM=<format>
 
-\</WRAP\>\</WRAP\>
+
 
   - **Meaning:** Define Event Message Form
 
-\<WRAP indent\>\<WRAP indent\> It is able to control format and printing
+It is able to control format and printing
 status of WizFi310 event messages.  
 Uses 10 Parameters and set event message as 0,1,2 for each relevant
 one  
@@ -1769,73 +1748,63 @@ Gateway : ...\r\n</td>
   
 Examples)
 
-``` 
+
   * AT+MEVTFORM=111111111111
   * AT+MEVTFORM=122220000000
   * AT+MEVTFORM=000000000000
-```
 
-\</WRAP\>\</WRAP\>
+
+
 
   - **Response:**
 
-\<WRAP indent\>\<WRAP indent\>
+>
 
     [OK]
-
-\</WRAP\>\</WRAP\>  
+  
 \----
 
   - **Format:**
 
-\<WRAP indent\>\<WRAP indent\>
+>
 
     AT+MEVTFORM=?
 
-\</WRAP\>\</WRAP\>
 
   - **Meaning:** Get Current Event Message Form
 
-\<WRAP indent\>\<WRAP indent\> \</WRAP\>\</WRAP\>
 
   - **Response:**
 
-\<WRAP indent\>\<WRAP indent\>
+>
 
     <Format>
     [OK]
+>
 
-\</WRAP\>\</WRAP\>  
-\---- \<WRAP left round box 30%\>\<WRAP centeralign\>====AT+MUPGRADE====
-\</WRAP\>\</WRAP\>  
+    AT+MUPGRADE 
   
   
-\* **Format:** \<WRAP indent\>\<WRAP indent\>
+\* **Format:** 
 
     AT+MUPGRADE
 
-\</WRAP\>\</WRAP\>
-\* **Meaning:** This command is for upgrading firmware of WizFi310
-\<WRAP indent\>\<WRAP indent\> After using this command, WizFi310 will
-wait UART signal for XMODEM protocol. After this command, You have to
-send binary file which you want to upload using XMODEM protocol. If it
-is done successfully, WizFi310 will display "\[OK\]" message and then
-restart.  
+
+\* **Meaning:** This command is for upgrading firmware of WizFi310\<WRAP indent\>\<WRAP indent\> After using this command, WizFi310 will wait UART signal for XMODEM protocol. After this command, You have to send binary file which you want to upload using XMODEM protocol. If it is done successfully, WizFi310 will display "\[OK\]" message and then restart.  
+
 Examples)
 
-``` 
-  * AT+MUPGRADE
-```
 
-\</WRAP\>\</WRAP\>
+  * AT+MUPGRADE
+
 
   - **Response:**
 
-\<WRAP indent\>\<WRAP indent\>
+>
 
     [OK]
 
-\</WRAP\>\</WRAP\>  
+
 \----
 ## Function Commands
 
@@ -1843,54 +1812,53 @@ Examples)
 Commands related to additional functions are listed below.
 
 -----
+>
 
-\<WRAP left round box 30%\>\<WRAP centeralign\>====AT+FPING====
-\</WRAP\>\</WRAP\>  
+    AT+FPING
   
   
-\* **Format:** \<WRAP indent\>\<WRAP indent\>
+\* **Format:** 
 
     AT+FPING=<RepeatCnt>,<TargetIP>
 
-\</WRAP\>\</WRAP\>
 
   - **Meaning:** PING Test
 
-\<WRAP indent\>\<WRAP indent\> \<RepeatCnt\>: Repeat Count (Required)  
+\<RepeatCnt\>: Repeat Count (Required)  
 Valid Range: 1 \~ 50 (unit:number of times)  
   
 \<TargetIP\>: Target IP Address (Required)  
   
 Examples)
 
-``` 
-  * AT+FPING=3,192.168.0.10 \\ \\
-```
 
-\</WRAP\>\</WRAP\>
+  * AT+FPING=3,192.168.0.10 \\ \\
+
+
+
 
   - **Response:**
 
-\<WRAP indent\>\<WRAP indent\>
+>
 
     Ping Reply :  xxx ms
     ...
     [OK]
 
-\</WRAP\>\</WRAP\>  
-\---- \<WRAP left round box 30%\>\<WRAP centeralign\>====AT+FDNS====
-\</WRAP\>\</WRAP\>  
+>
+
+    AT+FDNS 
   
   
-\* **Format:** \<WRAP indent\>\<WRAP indent\>
+\* **Format:** 
 
     AT+FDNS=<HostName>,<Timeout>
 
-\</WRAP\>\</WRAP\>
+
 
   - **Meaning:** DNS Query
 
-\<WRAP indent\>\<WRAP indent\> \<HostName\>: The domain name to search
+ \<HostName\>: The domain name to search
 (Required)  
   
 \<Timeout\>: Maximum Delay (milliseconds unit) (Required)  
@@ -1898,37 +1866,35 @@ Valid Range: 1,000 \~ 1,000,000 (unit:ms)(Recommend: 1000)
   
 Examples)
 
-``` 
-  * AT+FDNS=www.google.com,1000 \\ \\
-```
 
-\</WRAP\>\</WRAP\>
+  * AT+FDNS=www.google.com,1000 \\ \\
+
+
+
 
   - **Response:**
 
-\<WRAP indent\>\<WRAP indent\>
+>
 
     xxx.xxx.xxx.xxx
     [OK]
 
-\</WRAP\>\</WRAP\>  
-\---- \<WRAP left round box 30%\>\<WRAP centeralign\>====AT+FGPIO====
-\</WRAP\>\</WRAP\>  
+>
+ 
+    AT+FGPIO====
   
   
-\* **Format:** \<WRAP indent\>\<WRAP indent\>
+\* **Format:** 
 
     AT+FGPIO=<gpio_number>,<action:0>,<config_value>
     AT+FGPIO=<gpio_number>,<action:1>,<config_value>
     AT+FGPIO=<gpio_number>,<action:2>,<gpio_value>
     AT+FGPIO=<gpio_number>,<action:3>,<gpio_value>
 
-\</WRAP\>\</WRAP\>
 
   - **Meaning:** GPIO Control Function  
       
-    \<WRAP indent\>\<WRAP indent\>
-
+   
 GPIO can be set through this command.  
 \<gpio\_number\>: Available GPIO number (Required)
 
@@ -1967,19 +1933,18 @@ action is 0, 1)
   
 Examples)
 
-``` 
   * AT+FGPIO=3,1,1 << Initialize GPIOB 3 as a Output mode
   * AT+FGPIO=3,3,0 << Set GPIO value of GPIOB 3 to Low
   * AT+FGPIO=3,3,1 << Set GPIO value of GPIOB 3 to High
   * AT+FGPIO=3,2,0 << Get GPIO value of GPIOB 3
-```
+
 
   
-\</WRAP\>\</WRAP\>
+
 
   - **Response:**
 
-\<WRAP indent\>\<WRAP indent\> If \<action\> is 2
+ If \<action\> is 2
 
     <gpio_value>
     [OK]
@@ -1993,34 +1958,31 @@ If \<action\> is 0, 1, 3
 
     [OK]
 
-\</WRAP\>\</WRAP\>
 
   
 \----
 
   - **Format:**
 
-\<WRAP indent\>\<WRAP indent\>
+>
 
     AT+FGPIO=?
 
-\</WRAP\>\</WRAP\>
 
   - **Meaning:** Get available GPIO number
 
-\<WRAP indent\>\<WRAP indent\>
+
 
 Examples)
 
-``` 
-  * AT+FGPIO=? \\
-```
 
-\</WRAP\>\</WRAP\>
+  * AT+FGPIO=? \\
+
+
 
   - **Response:**
 
-\<WRAP indent\>\<WRAP indent\>
+>
 
     <gpio_num_1>,<gpio_num_2>
     [OK]
@@ -2031,34 +1993,35 @@ Examples)
 
   
 \----
-\<WRAP left round box 30%\>\<WRAP centeralign\>====AT+FGETADC====
-\</WRAP\>\</WRAP\>  
+>
+
+    AT+FGETADC 
   
   
-\* **Format:** \<WRAP indent\>\<WRAP indent\>
+\* **Format:** 
 
     AT+FGETADC=?
 
-\</WRAP\>\</WRAP\>
+
 
   - **Meaning:** Read ADC from ADC pin of WizFi310 when using this AT
     Command  
       
-    \<WRAP indent\>\<WRAP indent\>
+  
 
   
   
 Examples)
 
-``` 
-  * AT+FGETADC=? \\
-```
 
-\</WRAP\>\</WRAP\>
+  * AT+FGETADC=? \\
+
+
+
 
   - **Response:**
 
-\<WRAP indent\>\<WRAP indent\>
+>
 
     xxxx
     [OK]
@@ -2067,23 +2030,20 @@ Examples)
     1697
     [OK]
 
-  
-\</WRAP\>\</WRAP\>  
-\----
+>
 
-\<WRAP left round box 30%\>\<WRAP centeralign\>====AT+FSOCK====
-\</WRAP\>\</WRAP\>  
+    AT+FSOCK 
   
   
-\* **Format:** \<WRAP indent\>\<WRAP indent\>
+\* **Format:** 
 
     AT+FSOCK=<Option>,<Value>
 
-\</WRAP\>\</WRAP\>
+
 
   - **Meaning:** SOCKET Extension Option
 
-\<WRAP indent\>\<WRAP indent\> When there is no socket connected, it
+ When there is no socket connected, it
 tries to reconnect the server using this option.  
 6,8 options must be set as service mode(AT+SCON=S) for Auto
 Reconnection.  
@@ -2105,36 +2065,35 @@ This is for extended options of Socket. It will be added continuously.
   
 Examples)
 
-``` 
   * AT+FSOCK=1,5000
   * AT+FSOCK=6,10
   * AT+FSOCK=8,30 \\ \\
-```
 
-\</WRAP\>\</WRAP\>
+
+
 
   - **Response:**
 
-\<WRAP indent\>\<WRAP indent\>
+>
 
     [OK]
 
-\</WRAP\>\</WRAP\>  
+
 
 -----
 
   - **Format:**
 
-\<WRAP indent\>\<WRAP indent\>
+>
 
     AT+FSOCK=?
 
-\</WRAP\>\</WRAP\>
+
 
   - **Meaning:** Get Current extended options of socket
   - **Response:**
 
-\<WRAP indent\>\<WRAP indent\>
+>
 
     <Extened option 1><2><3><4><5><6><7><8>
     [OK]
@@ -2142,23 +2101,23 @@ Examples)
     ex)
     5000,0,0,0,0,10,0,30
 
-\</WRAP\>\</WRAP\>  
+
 
 -----
+>
 
-\<WRAP left round box 30%\>\<WRAP centeralign\>====AT+FOTA====
-\</WRAP\>\</WRAP\>  
+    AT+FOTA====
+
   
   
-\* **Format:** \<WRAP indent\>\<WRAP indent\>
+\* **Format:** 
 
     AT+FOTA=<Server IP>,<Server Port>
 
-\</WRAP\>\</WRAP\>
 
   - **Meaning:** Launch OTA Mode
 
-\<WRAP indent\>\<WRAP indent\> User can update firmware in OTA mode
+ User can update firmware in OTA mode
 which can be entered by this command. Refer to [Wi-Fi
 OTA](/products/WizFi310/WizFi310pg/firmware_upgrade-wifi_ota)
 
@@ -2168,15 +2127,13 @@ OTA Server should run some protocol. that included in OTA tool.
 
 \<Server Port\> : Firmware Server Port
 
-\</WRAP\>\</WRAP\>
-
   - **Response:**
 
-\<WRAP indent\>\<WRAP indent\>
+>
 
     [OK]
 
-\</WRAP\>\</WRAP\>  
+
 \----
 ## MQTT Commands
 
@@ -2191,21 +2148,20 @@ objects with the external, and it is used as a sensor.
   
 [WizFi310 MQTT Example](/products/wizfi310/wizfi310pg/mqtt)  
 \----
+>
 
-\<WRAP left round box 30%\>\<WRAP centeralign\>====AT+MQTTSET====
-\</WRAP\>\</WRAP\>  
+    AT+MQTTSET 
   
   
-\* **Format:** \<WRAP indent\>\<WRAP indent\>
+\* **Format:**
 
     AT+MQTTSET=<UserName>,<Password>,<ClientID>,<AliveTime>
 
-\</WRAP\>\</WRAP\>
 
   - **Meaning:** This command is used to initialize the necessary
     parameters of MQTT connection. 
 
-\<WRAP indent\>\<WRAP indent\> \<UserName\>: The User Name used in the
+\<UserName\>: The User Name used in the
 broker authentication (Required, Max: 50 Character)  
 \<Password\>: The Password used in the broker authentication (Required,
 Max: 50 Character)  
@@ -2219,56 +2175,53 @@ connecting the broker.
   
 Examples)
 
-``` 
   * AT+MQTTSET=wiznet,12345678,wiznet-01,60 \\ \\
-```
 
-\</WRAP\>\</WRAP\>
 
   - **Response:**
 
-\<WRAP indent\>\<WRAP indent\>
+>
 
     [OK]
 
-\</WRAP\>\</WRAP\>  
+
 \----
 
   - **Format:**
 
-\<WRAP indent\>\<WRAP indent\>
+>
 
     AT+MQTTSET=?
 
-\</WRAP\>\</WRAP\>
+
 
   - **Meaning:** Get Current Information of MQTT Connection and
     Authentication
 
-\<WRAP indent\>\<WRAP indent\> \</WRAP\>\</WRAP\>
+
 
   - **Response:**
 
-\<WRAP indent\>\<WRAP indent\>
+>
 
     <UserName>,<Password>,<ClientID>,<AliveTime>
     [OK]
-
-\</WRAP\>\</WRAP\>  
+ 
 \----
-\<WRAP left round box 30%\>\<WRAP centeralign\>====AT+MQTTCON====
-\</WRAP\>\</WRAP\>  
+>
+
+    AT+MQTTCON  
   
   
-\* **Format:** \<WRAP indent\>\<WRAP indent\>
+\* **Format:** 
 
     AT+MQTTCON=<Con/Discon>,<BrokerIP>,<BrokerPort>,<SSL_Enable>
 
-\</WRAP\>\</WRAP\>
+
 
   - **Meaning:** Implement MQTT to connect the Broker. 
 
-\<WRAP indent\>\<WRAP indent\> \<Con/Discon\>: MQTT Connection
+\<Con/Discon\>: MQTT Connection
 (Required)  
 ^ Parameter ^ Meaning ^
 
@@ -2294,16 +2247,14 @@ Examples)
   
 Connection Examples)
 
-``` 
+
   * AT+MQTTCON=1,192.168.1.229,1883,0 \\
   * AT+MQTTCON=1,192.168.1.229,8883,1 \\
-```
 
-\</WRAP\>\</WRAP\>
+
 
   - **Response:**
-
-\<WRAP indent\>\<WRAP indent\>
+>
 
     [MQTT CONNECT]
     [OK]
@@ -2311,42 +2262,40 @@ Connection Examples)
   
 Disconnection Examples)
 
-``` 
-  * AT+MQTTCON=0 \\
-```
 
-\</WRAP\>\</WRAP\>
+  * AT+MQTTCON=0 \\
+
+
 
   - **Response:**
 
-\<WRAP indent\>\<WRAP indent\>
+>
 
     [MQTT DISCONNECT]
     [OK]
 
-\</WRAP\>\</WRAP\>  
+
 \----
 
   - **Format:**
 
-\<WRAP indent\>\<WRAP indent\>
+>
 
     AT+MQTTCON=?
 
-\</WRAP\>\</WRAP\>
 
   - **Meaning:** Get Current Connection Status
 
-\<WRAP indent\>\<WRAP indent\> \</WRAP\>\</WRAP\>
+
 
   - **Response:**
 
-\<WRAP indent\>\<WRAP indent\>
+>
 
     <Connection Status>
     [OK]
 
-\</WRAP\>\</WRAP\>  
+
 \----
 \<WRAP left round box 30%\>\<WRAP centeralign\>====AT+MQTTSUB====
 \</WRAP\>\</WRAP\>  
