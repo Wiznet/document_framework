@@ -10,8 +10,7 @@ date: 2020-04-15
 
 ### Overview
 
-WIZ810Sio is the internet offload network module that includes W5100S
-(TCP/IP hardwired chip, include PHY), MAG-JACK (RJ45 with X’FMR) with
+WIZ810Sio is the internet offload network module that includes W5100S (TCP/IP hardwired chip, include PHY), MAG-JACK (RJ45 with X’FMR) with
 other glue logics. It can be used as a component and no effort is
 required to interface W5100S and Transformer. The WIZ810Sio is an ideal
 option for users who want to develop their Internet enabling systems
