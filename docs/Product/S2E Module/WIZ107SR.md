@@ -1,1 +1,1 @@
-[WIZ107SR]! (http://www.wiznet.io/product-item/wiz107sr/)
+[WIZ107SR](http://www.wiznet.io/product-item/wiz107sr/)
