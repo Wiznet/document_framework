@@ -1,7 +1,7 @@
 ---
 id: product_information_eng
 title: Product Information(Eng)
-date: 2020-03-
+date: 2020-04-08
 ---
 
 
