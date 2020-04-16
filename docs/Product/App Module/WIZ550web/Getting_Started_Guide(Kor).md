@@ -1,7 +1,7 @@
 ---
 id: getting_started_guide_kor
 title: Getting Started Guide(Kor)
-date: 2020-03-
+date: 2020-04-13
 ---
 
 
