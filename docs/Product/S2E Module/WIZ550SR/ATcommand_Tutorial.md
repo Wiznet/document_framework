@@ -41,7 +41,7 @@ AT+NSOCK. Below is an example of it.
     <RX> [S,,S,5000]\r\n
 
   
-\*\*3. a TCP Client connects to WIZ550SR \*\*  
+**3. a TCP Client connects to WIZ550SR**  
   
 When A TCP Client of PC(or any Device) PC connected to WIZ550SR , you
 will get a message from WIZ550SR like below
@@ -83,7 +83,7 @@ command then you will get response like below.
 
   
 **Appendix**  
-\<Changing mode from Data mode to Coomand mode\>
+Changing mode from Data mode to Coomand mode
 
     <TX> +++
     <RX> \r\n\r\n\r\n[W,0]\r\n[S,0]\r\n (20 Byte)
@@ -94,7 +94,8 @@ command then you will get response like below.
     <TX> AT+MDATA\r\n
     <RX> [S]\r\n (5 Byte)
     
-    # Exam 2. Example of retrieving web page of www.google.com in Dynamic IP and TCP Client mode
+    
+# Exam 2. Example of retrieving web page of www.google.com in Dynamic IP and TCP Client mode
 
   
 **1. Set WIZ550SR with Dynamic IP**  
@@ -161,7 +162,7 @@ Do send command like below to disconnect current connection.
     <TX> AT+NCLOSE=0\r\n
     <RX> [W,0]\r\n[S,0]\r\n
     
-    # Exam 3. Example of data communication with more than two servers in Dynamic IP
+# Exam 3. Example of data communication with more than two servers in Dynamic IP
 
   
 **1. Set WIZ550SR with Dynamic IP**  
@@ -261,7 +262,8 @@ Do below command in order to disconnect current connection.
     <TX> AT+NCLOSE=0\r\n
     <RX> [W,0]\r\n[S,0]\r\n
     
-    # Exam 4. Example of data communication with more than two devices in Static IP
+    
+# Exam 4. Example of data communication with more than two devices in Static IP
 
   
 **1. Set WIZ550SR with Static IP**  
