@@ -1,7 +1,7 @@
 ---
 id: cli_config_tool_tutorial
 title: CLI Config Tool Tutorial
-date: 2020-03-09
+date: 2020-04-09
 ---
 
 ## Content
