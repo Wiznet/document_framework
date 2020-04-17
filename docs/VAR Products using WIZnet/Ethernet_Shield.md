@@ -14,7 +14,7 @@ There are many resource Products using WIZnet Ethernet chip.
 
 ### Arduino Ethernet Shield
 
-[![edit\_04.arduino\_ethernet\_shield.jpg]()
+![](https://github.com/Wiznet/document_framework/blob/master/static/img/var_products/edit_04.arduino_ethernet_shield.jpg)
 
 > This 🌎[Ethernet
 > Shield](http://arduino.cc/en/Guide/ArduinoEthernetShield) which is
@@ -31,7 +31,7 @@ There are many resource Products using WIZnet Ethernet chip.
 
 ### Arduino Ethernet Shield R2.0
 
-[![edit\_03.arduino\_ethernet\_shield\_r2.jpg]()
+![](https://github.com/Wiznet/document_framework/blob/master/static/img/var_products/edit_03.arduino_ethernet_shield_r2.jpg)
 
 > The 🌎[Arduino Ethernet
 > shield](http://www.nkcelectronics.com/arduino-ethernet-shield.html)
@@ -45,8 +45,8 @@ There are many resource Products using WIZnet Ethernet chip.
 
 ### Arduino Ethernet Shield R3.0
 
-[![01.arduino\_ethernet\_shield\_r3\_front\_.jpg]()
-[![01.arduino\_ethernet\_shield\_r3\_back\_.jpg]()
+![](https://github.com/Wiznet/document_framework/blob/master/static/img/var_products/01.arduino_ethernet_shield_r3_front_.jpg)
+![](https://github.com/Wiznet/document_framework/blob/master/static/img/var_products/01.arduino_ethernet_shield_r3_back_.jpg)
 
 > The 🌎[Arduino Ethernet Shield
 > R3.0](http://arduino.cc/en/Main/ArduinoEthernetShield) allows an
@@ -63,8 +63,8 @@ There are many resource Products using WIZnet Ethernet chip.
 -----
 ### Arduino Ethernet
 
-[![edit\_02.arduino\_ethernet\_front.jpg]()
-[![edit\_02.arduino\_ethernet\_back.jpg]()
+![](https://github.com/Wiznet/document_framework/blob/master/static/img/var_products/edit_02.arduino_ethernet_front.jpg)
+![](https://github.com/Wiznet/document_framework/blob/master/static/img/var_products/edit_02.arduino_ethernet_front.jpg)
 
 > The 🌎[Arduino Ethernet](http://arduino.cc/en/Main/ArduinoBoardEthernet)
 > is a microcontroller board based on the ATmega328. It has 14 digital
