@@ -557,7 +557,7 @@ for extended periods may affect device reliability.
 
 ### ADC Transform function description
 
-![Figure 1 ADC transform function](http://wizwiki.net/wiki/lib/exe/fetch.php?media=products:w7500:overview:adc_transform_function.jpg "Figure 1 ADC transform function")
+![Figure 1 ADC transform function](/document_framework/img/products/w7500/overview/adc_transform_function.jpg)
 
 ## I2C interface Characteristics
 
@@ -685,7 +685,7 @@ for extended periods may affect device reliability.
   </tr>
 </table>
 
-![Figure 2 I2C bus AC waveform](http://wizwiki.net/wiki/lib/exe/fetch.php?media=products:w7500:overview:i2c_bus_ac_waveform.jpg "Figure 2 I2C bus AC waveform")
+![Figure 2 I2C bus AC waveform](document_framework/img/products/w7500/overview/i2c_bus_ac_waveform.jpg)
 
 ## SSP Interface Characteristics
 
@@ -792,7 +792,7 @@ for extended periods may affect device reliability.
 
 # Package Characteristics
 ## Package dimension information
-![Figure 3 Package Dimension Information](http://wizwiki.net/wiki/lib/exe/fetch.php?media=products:w7500:overview:package_dimention_information.png "Figure 3 Package Dimension Information")
+![Figure 3 Package Dimension Information](/document_framework/img/products/w7500/overview/package_dimention_information.png)
 
 <table class="tg">
   <tr>
@@ -982,5 +982,5 @@ for extended periods may affect device reliability.
 </table>
 
 ## Package footprint information
-![Figure 4 Package Footprint Information](http://wizwiki.net/wiki/lib/exe/fetch.php?media=products:w7500:overview:package_footprint_information.jpg "Figure 4 Package Footprint Information")
+![Figure 4 Package Footprint Information](/document_framework/img/products/w7500/overview/package_footprint_information.jpg)
 
