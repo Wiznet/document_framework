@@ -10,7 +10,7 @@ date: 2020-04-03
 ## Pin Layout
 ### W7500 Pin Layout
 <!---![GH-pages](/static/img/products/w7500/w7500_chip.png)--->
-![pin layout](/document_framework/img/products/w7500/w7500_chip.png)
+![pin layout](/document_framework/img/products/w7500/2_w7500_pin_layout.png)
 ## Pin Description
 
 |     |        |      |             |           |             |           |
