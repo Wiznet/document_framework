@@ -39,4 +39,4 @@ W7500 has three different boot modes that can be selected through the BOOT pin a
 
 When W7500 is reset by hardware, it will be operated as below in embedded boot code.
 
-![Figure 1 I2C Bus Configuration](http://wizwiki.net/wiki/lib/exe/fetch.php?media=products:w7500:documents:boot.jpg "Figure 1 operation of boot code")
+![Figure 1 operation of boot code"](/document_framework/img/products/w7500/operation_boot_code.jpg)
