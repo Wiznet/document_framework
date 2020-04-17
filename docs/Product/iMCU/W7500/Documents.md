@@ -21,9 +21,7 @@ The **Getting Started** user's guide describes the installation of MDK,How to ma
 
 ### Data Sheet
 
-``` 
-  * [[https://wizwiki.net/wiki/lib/exe/fetch.php?media=products:w7500:w7500x_ds_v110.pdf|W7500x Datasheet v1.1.0 - English]]
-```
+[W7500x Datasheet v1.1.0 - English](/document_framework/img/products/w7500/w7500x_ds_v110.pdf)
 
 \</WRAP\>
 
@@ -63,8 +61,7 @@ The **Getting Started** user's guide describes the installation of MDK,How to ma
 
 ### Reference Manual
 
-  - [W7500x Reference Manual v1.1.2 -
-    English](https://wizwiki.net/wiki/lib/exe/fetch.php?media=:products:w7500:w7500x_rm_v112_20181017_.pdf)
+  - [W7500x Reference Manual v1.1.2 - English](/document_framework/img/products/w7500/w7500x_rm_v112_20181017_.pdf)
 
 \</WRAP\>
 
@@ -109,10 +106,8 @@ The **Getting Started** user's guide describes the installation of MDK,How to ma
 
 ### PHY Reference
 
-  - [How to Access W7500x PHY Register -
-    English](https://wizwiki.net/wiki/lib/exe/fetch.php?media=products:w7500p:ref_sch:how_to_access_phy_application_note_v100.pdf)
-  - [W7500P Internal PHY Datasheet -
-    English](http://www.bdtic.com/DataSheet/ICplus/IP101G_DS_R01_20121224.pdf)
+  - [How to Access W7500x PHY Register - English](/document_framework/img/products/w7500p/ref_sch/how_to_access_phy_application_note_v100.pdf)
+  - [W7500P Internal PHY Datasheet - English](http://www.bdtic.com/DataSheet/ICplus/IP101G_DS_R01_20121224.pdf)
 
 \</WRAP\>
 
@@ -137,11 +132,8 @@ W7500P Internal PHY Datasheet
 \<WRAP half column\>
 
 ### Errata Sheet
-
-``` 
- *[[https://wizwiki.net/wiki/lib/exe/fetch.php?media=products:w7500:w7500x_erratasheet_v120e.pdf|W7500x Erratasheet v1.2.0 - English]]
- *[[https://wizwiki.net/wiki/lib/exe/fetch.php?media=products:w7500:w7500x_erratasheet_v120k.pdf|W7500x Erratasheet v1.2.0 - Korean]]
-```
+- ![W7500x Erratasheet v1.2.0 - English](/document_framework/img/products/w7500/w7500x_erratasheet_v120e.pdf)
+- ![W7500x Erratasheet v1.2.0 - Korean](/document_framework/img/products/w7500/w7500x_erratasheet_v120k.pdf)
 
 \</WRAP\>
 
@@ -179,9 +171,7 @@ W7500P Internal PHY Datasheet
 
 ### Limitation Note ARP problem in the NLB environment
 
-``` 
- * [[https://wizwiki.net/wiki/lib/exe/fetch.php?media=design_guide:limitation_note_-_arp_problem_in_the_nlb_environment_-_english_0312_.pdf|Limitation Note
-```
+![Limitation Note ARP problem in the NLB environment V1.0]()
 
 ARP problem in the NLB environment V1.0\]\] \</WRAP\>
 
