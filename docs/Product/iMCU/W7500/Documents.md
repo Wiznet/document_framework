@@ -61,7 +61,7 @@ The **Getting Started** user's guide describes the installation of MDK,How to ma
 
 ### Reference Manual
 
-  - [W7500x Reference Manual v1.1.2 - English](/document_framework/img/products/w7500/w7500x_rm_v112_20181017_.pdf)
+  - ![W7500x Reference Manual v1.1.2 - English](/document_framework/img/products/w7500/w7500x_rm_v112_20181017_.pdf)
 
 \</WRAP\>
 
