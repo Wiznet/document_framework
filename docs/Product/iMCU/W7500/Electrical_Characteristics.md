@@ -64,13 +64,6 @@ for extended periods may affect device reliability.
 
 ### Current Characteristics
 
-<style type="text/css">
-.tg  {border-collapse:collapse;border-spacing:0;border-color:#ccc;}
-.tg td{font-family:Arial, sans-serif;font-size:14px;padding:10px 5px;border-style:solid;border-width:1px;overflow:hidden;word-break:normal;border-color:#ccc;color:#333;background-color:#fff;}
-.tg th{font-family:Arial, sans-serif;font-size:14px;font-weight:normal;padding:10px 5px;border-style:solid;border-width:1px;overflow:hidden;word-break:normal;border-color:#ccc;color:#333;background-color:#f0f0f0;}
-.tg .tg-s6z2{text-align:center}
-.tg .tg-huh2{font-size:14px;text-align:center}
-</style>
 <table class="tg">
   <tr>
     <th class="tg-huh2">Symbol</th>
@@ -147,13 +140,6 @@ for extended periods may affect device reliability.
 
 ### General Operating Conditions
 
-<style type="text/css">
-.tg  {border-collapse:collapse;border-spacing:0;border-color:#ccc;}
-.tg td{font-family:Arial, sans-serif;font-size:14px;padding:10px 5px;border-style:solid;border-width:1px;overflow:hidden;word-break:normal;border-color:#ccc;color:#333;background-color:#fff;}
-.tg th{font-family:Arial, sans-serif;font-size:14px;font-weight:normal;padding:10px 5px;border-style:solid;border-width:1px;overflow:hidden;word-break:normal;border-color:#ccc;color:#333;background-color:#f0f0f0;}
-.tg .tg-s6z2{text-align:center}
-.tg .tg-huh2{font-size:14px;text-align:center}
-</style>
 <table class="tg">
   <tr>
     <th class="tg-huh2">Symbol</th>
@@ -247,13 +233,6 @@ for extended periods may affect device reliability.
 
 #### Sleep mode
 
-<style type="text/css">
-.tg  {border-collapse:collapse;border-spacing:0;border-color:#ccc;}
-.tg td{font-family:Arial, sans-serif;font-size:14px;padding:10px 5px;border-style:solid;border-width:1px;overflow:hidden;word-break:normal;border-color:#ccc;color:#333;background-color:#fff;}
-.tg th{font-family:Arial, sans-serif;font-size:14px;font-weight:normal;padding:10px 5px;border-style:solid;border-width:1px;overflow:hidden;word-break:normal;border-color:#ccc;color:#333;background-color:#f0f0f0;}
-.tg .tg-s6z2{vertical-align:middle; text-align:center}
-.tg .tg-huh2{font-size:14px;text-align:center}
-</style>
 <table class="tg">
   <tr>
     <th class="tg-huh2">Symbol<br />  </th>
@@ -285,13 +264,6 @@ for extended periods may affect device reliability.
 
 #### Deep sleep mode
 
-<style type="text/css">
-.tg  {border-collapse:collapse;border-spacing:0;border-color:#ccc;}
-.tg td{font-family:Arial, sans-serif;font-size:14px;padding:10px 5px;border-style:solid;border-width:1px;overflow:hidden;word-break:normal;border-color:#ccc;color:#333;background-color:#fff;}
-.tg th{font-family:Arial, sans-serif;font-size:14px;font-weight:normal;padding:10px 5px;border-style:solid;border-width:1px;overflow:hidden;word-break:normal;border-color:#ccc;color:#333;background-color:#f0f0f0;}
-.tg .tg-s6z2{vertical-align:middle; text-align:center}
-.tg .tg-huh2{font-size:14px;text-align:center}
-</style>
 <table class="tg">
   <tr>
     <th class="tg-huh2">Symbol<br />  </th>
@@ -315,13 +287,6 @@ for extended periods may affect device reliability.
 
 ### DC Specification
 
-<style type="text/css">
-.tg  {border-collapse:collapse;border-spacing:0;border-color:#ccc;}
-.tg td{font-family:Arial, sans-serif;font-size:14px;padding:10px 5px;border-style:solid;border-width:1px;overflow:hidden;word-break:normal;border-color:#ccc;color:#333;background-color:#fff;}
-.tg th{font-family:Arial, sans-serif;font-size:14px;font-weight:normal;padding:10px 5px;border-style:solid;border-width:1px;overflow:hidden;word-break:normal;border-color:#ccc;color:#333;background-color:#f0f0f0;}
-.tg .tg-s6z2{vertical-align:middle; text-align:center}
-.tg .tg-huh2{font-size:14px;text-align:center}
-</style>
 <table class="tg">
   <tr>
     <th class="tg-huh2">Symbol<br />  </th>
@@ -399,13 +364,6 @@ for extended periods may affect device reliability.
 
 ## Flash memory
 
-<style type="text/css">
-.tg  {border-collapse:collapse;border-spacing:0;border-color:#ccc;}
-.tg td{font-family:Arial, sans-serif;font-size:14px;padding:10px 5px;border-style:solid;border-width:1px;overflow:hidden;word-break:normal;border-color:#ccc;color:#333;background-color:#fff;}
-.tg th{font-family:Arial, sans-serif;font-size:14px;font-weight:normal;padding:10px 5px;border-style:solid;border-width:1px;overflow:hidden;word-break:normal;border-color:#ccc;color:#333;background-color:#f0f0f0;}
-.tg .tg-s6z2{text-align:center}
-.tg .tg-huh2{font-size:14px;text-align:center}
-</style>
 <table class="tg">
   <tr>
     <th class="tg-huh2">Symbol<br />  </th>
@@ -431,13 +389,6 @@ for extended periods may affect device reliability.
 
 ### Electostatic discharge (ESD)
 
-<style type="text/css">
-.tg  {border-collapse:collapse;border-spacing:0;border-color:#ccc;}
-.tg td{font-family:Arial, sans-serif;font-size:14px;padding:10px 5px;border-style:solid;border-width:1px;overflow:hidden;word-break:normal;border-color:#ccc;color:#333;background-color:#fff;}
-.tg th{font-family:Arial, sans-serif;font-size:14px;font-weight:normal;padding:10px 5px;border-style:solid;border-width:1px;overflow:hidden;word-break:normal;border-color:#ccc;color:#333;background-color:#f0f0f0;}
-.tg .tg-s6z2{text-align:center}
-.tg .tg-huh2{font-size:14px;text-align:center}
-</style>
 <table class="tg">
   <tr>
     <th class="tg-huh2">Symbol<br />  </th>
@@ -467,13 +418,6 @@ for extended periods may affect device reliability.
 
 ### Static latch-up
 
-<style type="text/css">
-.tg  {border-collapse:collapse;border-spacing:0;border-color:#ccc;}
-.tg td{font-family:Arial, sans-serif;font-size:14px;padding:10px 5px;border-style:solid;border-width:1px;overflow:hidden;word-break:normal;border-color:#ccc;color:#333;background-color:#fff;}
-.tg th{font-family:Arial, sans-serif;font-size:14px;font-weight:normal;padding:10px 5px;border-style:solid;border-width:1px;overflow:hidden;word-break:normal;border-color:#ccc;color:#333;background-color:#f0f0f0;}
-.tg .tg-s6z2{text-align:center}
-.tg .tg-huh2{font-size:14px;text-align:center}
-</style>
 <table class="tg">
   <tr>
     <th class="tg-huh2">Symbol<br />  </th>
@@ -497,13 +441,6 @@ for extended periods may affect device reliability.
 
 ### ADC Electrical characteristics
 
-<style type="text/css">
-.tg  {border-collapse:collapse;border-spacing:0;border-color:#ccc;}
-.tg td{font-family:Arial, sans-serif;font-size:14px;padding:10px 5px;border-style:solid;border-width:1px;overflow:hidden;word-break:normal;border-color:#ccc;color:#333;background-color:#fff;}
-.tg th{font-family:Arial, sans-serif;font-size:14px;font-weight:normal;padding:10px 5px;border-style:solid;border-width:1px;overflow:hidden;word-break:normal;border-color:#ccc;color:#333;background-color:#f0f0f0;}
-.tg .tg-s6z2{text-align:center}
-.tg .tg-huh2{font-size:14px;text-align:center}
-</style>
 <table class="tg">
   <tr>
     <th class="tg-huh2">Symbol<br />  </th>
@@ -639,14 +576,6 @@ for extended periods may affect device reliability.
 
 ## I2C interface Characteristics
 
-<style type="text/css">
-.tg  {border-collapse:collapse;border-spacing:0;border-color:#ccc;}
-.tg td{font-family:Arial, sans-serif;font-size:14px;padding:10px 5px;border-style:solid;border-width:1px;overflow:hidden;word-break:normal;border-color:#ccc;color:#333;background-color:#fff;}
-.tg th{font-family:Arial, sans-serif;font-size:14px;font-weight:normal;padding:10px 5px;border-style:solid;border-width:1px;overflow:hidden;word-break:normal;border-color:#ccc;color:#333;background-color:#f0f0f0;}
-.tg .tg-s6z2{text-align:center}
-.tg .tg-031e{vertical-align:middle; text-align:center}
-.tg .tg-huh2{vertical-align:middle; font-size:14px;text-align:center}
-</style>
 <table class="tg">
   <tr>
     <th class="tg-huh2" rowspan="2">Symbol</th>
@@ -775,13 +704,6 @@ for extended periods may affect device reliability.
 
 ## SSP Interface Characteristics
 
-<style type="text/css">
-.tg  {border-collapse:collapse;border-spacing:0;border-color:#ccc;}
-.tg td{font-family:Arial, sans-serif;font-size:14px;padding:10px 5px;border-style:solid;border-width:1px;overflow:hidden;word-break:normal;border-color:#ccc;color:#333;background-color:#fff;}
-.tg th{font-family:Arial, sans-serif;font-size:14px;font-weight:normal;padding:10px 5px;border-style:solid;border-width:1px;overflow:hidden;word-break:normal;border-color:#ccc;color:#333;background-color:#f0f0f0;}
-.tg .tg-s6z2{text-align:center}
-.tg .tg-huh2{font-size:14px;text-align:center}
-</style>
 <table class="tg">
   <tr>
     <th class="tg-huh2">Symbol</th>
@@ -887,13 +809,6 @@ for extended periods may affect device reliability.
 ## Package dimension information
 ![Figure 3 Package Dimension Information](http://wizwiki.net/wiki/lib/exe/fetch.php?media=products:w7500:overview:package_dimention_information.png "Figure 3 Package Dimension Information")
 
-<style type="text/css">
-.tg  {border-collapse:collapse;border-spacing:0;border-color:#ccc;}
-.tg td{font-family:Arial, sans-serif;font-size:14px;padding:10px 5px;border-style:solid;border-width:1px;overflow:hidden;word-break:normal;border-color:#ccc;color:#333;background-color:#fff;}
-.tg th{font-family:Arial, sans-serif;font-size:14px;font-weight:normal;padding:10px 5px;border-style:solid;border-width:1px;overflow:hidden;word-break:normal;border-color:#ccc;color:#333;background-color:#f0f0f0;}
-.tg .tg-s6z2{text-align:center}
-.tg .tg-huh2{vertical-align:middle; font-size:14px; text-align:center;background-color:#f0f0f0;}
-</style>
 <table class="tg">
   <tr>
     <th class="tg-huh2" rowspan="2">Symbol</th>
