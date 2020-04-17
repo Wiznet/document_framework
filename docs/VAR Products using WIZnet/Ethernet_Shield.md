@@ -384,8 +384,8 @@ There are many resource Products using WIZnet Ethernet chip.
 
 ### Freeduino Ethernet Module E-Shield v2
 
-[![edit\_16.freeduino-2013\_v2\_2.jpg](/oshw_using_wiznet/ethernet/edit_16.freeduino-2013_v2_2.jpg)](http://freeduino.ru/arduino/eshield_v2.html)
-[![edit\_16.freeduino-2013\_eshield\_v2.jpg](/oshw_using_wiznet/ethernet/edit_16.freeduino-2013_eshield_v2.jpg)](http://freeduino.ru/arduino/eshield_v2.html)
+![](document_framework/img/var_products/edit_16.freeduino-2013_eshield_v2.jpg)
+![](document_framework/img/var_products/edit_16.freeduino-2013_v2_2.jpg)
 
 > The 🌎[Ethernet Shield v2](http://freeduino.ru/arduino/eshield_v2.html)
 > is based on the 🌎[Wiznet W5100 Ethernet
@@ -399,7 +399,6 @@ There are many resource Products using WIZnet Ethernet chip.
 
 ### Ethernet Shield for Arduino nano from Gravitech
 
-[![edit\_11.ethernet\_shield\_from\_gravitech.jpg](/oshw_using_wiznet/ethernet/edit_11.ethernet_shield_from_gravitech.jpg)](http://www.gravitech.us/etwmiadforar.html)
 
 > The 🌎[ETHERNET-NANO](http://www.gravitech.us/etwmiadforar.html) is
 > based on the 🌎[Wiznet W5100 Ethernet
@@ -412,7 +411,8 @@ There are many resource Products using WIZnet Ethernet chip.
 -----
 ### ITEAD W5100 Ethernet Shield from IteadStudio
 
-[![edit\_26.itead\_ethernet\_shield-1.jpg](/oshw_using_wiznet/ethernet/arduino_conpatible/edit_26.itead_ethernet_shield-1.jpg)](http://imall.iteadstudio.com/development-platform/arduino/shields/w5100-ethernet-shield.html)[![edit\_26.itead\_ethernet\_shield-2.jpg](/oshw_using_wiznet/ethernet/arduino_conpatible/edit_26.itead_ethernet_shield-2.jpg)](http://imall.iteadstudio.com/development-platform/arduino/shields/w5100-ethernet-shield.html)
+![](document_framework/img/var_products/edit_26.itead_ethernet_shield-1.jpg)
+![](document_framework/img/var_products/edit_26.itead_ethernet_shield-2.jpg)
 
 > 🌎[W5100 Ethernet
 > shield](http://imall.iteadstudio.com/development-platform/arduino/shields/w5100-ethernet-shield.html)
@@ -427,7 +427,7 @@ There are many resource Products using WIZnet Ethernet chip.
 
 ### Ethernet Shield from Link Sprite
 
-[![edit\_38.ethernet\_shield\_linksprite.jpg](/oshw_using_wiznet/ethernet/edit_38.ethernet_shield_linksprite.jpg)](http://store.linksprite.com/ethernet-shield/)
+![](document_framework/img/var_products/edit_38.ethernet_shield_linksprite.jpg)
 
 > 🌎[the Ethernet Shield](http://store.linksprite.com/ethernet-shield/)
 > instantly enables internet connectivity for Arduino projects. An
