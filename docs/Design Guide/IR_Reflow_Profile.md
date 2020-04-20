@@ -14,7 +14,7 @@ The reflow profile
 
 ## Reflow Profile
 
-![](/img/design_guide/ir_reflow_profile.png)
+![](/document_framework/img/design_guide/reflow_profile/ir_reflow_profile.png)
 
 -----
 
