@@ -42,9 +42,9 @@ A small Adapter with 🌎[W5500 chip](Overview.md) + MCU (ATXmega8E5) for future
 
 ### W5500 Breakout (HAIRY.GEEK.NZ)
 
-![oshw\_hairy-geek-nz\_001](/page\>oshw_using_wiznet/oshw_hairy-geek-nz_001)
+![oshw\_hairy-geek-nz\_001](/document_framework/img/var_products/third_party/hairy-gook-nz_top.png)
 
-The breakout board includes all the passives and a crystal needed to drive the chip. The 🌎[WIZnet](http://www.wiznet.co.kr/sub_modules/en/) 🌎[W5500]() does not include a pre-programmed MAC, you will need to obtain one for production use. As this is a 3.3V part and no level shifting is included, if you want to use this board with a 5V Arduino (ie, most of them) then you’ll need to do some level shifting on the SPI interface yourself.
+The breakout board includes all the passives and a crystal needed to drive the chip. The 🌎[WIZnet](http://www.wiznet.co.kr/sub_modules/en/) 🌎[W5500](Overview.md) does not include a pre-programmed MAC, you will need to obtain one for production use. As this is a 3.3V part and no level shifting is included, if you want to use this board with a 5V Arduino (ie, most of them) then you’ll need to do some level shifting on the SPI interface yourself.
 These may eventually be put into production, but for now it’s purely for my own code development.
 🌎[W5500 Breakout](http://hairy.geek.nz/projects/w5500-breakout/)
 
@@ -52,10 +52,9 @@ These may eventually be put into production, but for now it’s purely for my ow
 
 ### Ethernet Expansion Module from INDUSTRUINO
 
-[![edit\_industruino-1.jpg](/oshw_using_wiznet/var/edit_industruino-1.jpg)](http://www.industruino.com/products/industruino/industruino-ethernet-module.html)
-
-[![edit\_industruino-2.jpg](/oshw_using_wiznet/var/edit_industruino-2.jpg)](http://www.industruino.com/products/industruino/industruino-ethernet-module.html)[![edit\_industruino-3.jpg](/oshw_using_wiznet/var/edit_industruino-3.jpg)](http://www.industruino.com/products/industruino/industruino-ethernet-module.html)
-
+![edit\_industruino-1.jpg](/document_framework/img/var_products/third_party/edit_industruino-1.jpg)
+[![edit\_industruino-2.jpg](/document_framework/img/var_products/third_party/edit_industruino-2.jpg)
+![edit\_industruino-2.jpg](/document_framework/img/var_products/third_party/edit_industruino-3.jpg)
 > 🌎[This DIN-rail mountable
 > module](http://www.industruino.com/products/industruino/industruino-ethernet-module.html)
 > adds network connectivity to your Industruino. It easily connects to
@@ -72,7 +71,7 @@ These may eventually be put into production, but for now it’s purely for my ow
 > 
 > This module is based on the
 > 🌎[WIZnet](http://www.wiznet.co.kr/sub_modules/en/) 🌎[W5500 Ethernet
-> chip.]()
+> chip.](Overview.md)
 
 -----
 ### Microduino-W5500
