@@ -168,8 +168,8 @@ Many useful demo programs are available for download from the product page to ge
 -----
 ### Ethernet Extension from TinkerForge
 
-![edit\_tinker\_forge-1.jpg]()
-![edit\_tinker\_forge-2.jpg]()
+![edit\_tinker\_forge-1.jpg](/document_framework/img/var_products/third_party/edit_tinker_forge-1.jpg)
+![edit\_tinker\_forge-2.jpg](/document_framework/img/var_products/third_party/edit_tinker_forge-2.jpg)
 
 > With this 🌎[Ethernet
 > Extension](http://www.tinkerforge.com/en/doc/Hardware/Master_Extensions/Ethernet_Extension.html)
@@ -195,7 +195,8 @@ chip:
 
 ### Ethernet Board from PARALLAX (Spinneret Web Server)
 
-[![edit\_09.parallax32203-1.png](/oshw_using_wiznet/ethernet/edit_09.parallax32203-1.png)](http://www.parallax.com/product/32203)[![edit\_09.parallax32203-2.png](/oshw_using_wiznet/ethernet/edit_09.parallax32203-2.png)](http://www.parallax.com/product/32203)
+![edit\_09.parallax32203-1.png](/document_framework/img/var_products/third_party/edit_09.parallax32203-1.png)
+![edit\_09.parallax32203-2.png](/document_framework/img/var_products/third_party/edit_09.parallax32203-2.png)
 
 > The 🌎[Spinneret Web Server](http://www.parallax.com/product/32203) is
 > an Ethernet-based development board for the Propeller microcontroller.
@@ -220,7 +221,7 @@ chip:
 -----
 ### Freeduino FT811mj
 
-[![edit\_17.freeduino\_ft811mj.jpg](/oshw_using_wiznet/ethernet/edit_17.freeduino_ft811mj.jpg)](http://freeduino.ru/arduino/FT811mj.html)
+![edit\_17.freeduino\_ft811mj.jpg](/document_framework/img/var_products/third_party/edit_17.freeduino_ft811mj.jpg)
 
 > 🌎[FT811mj network module](http://freeduino.ru/arduino/FT811mj.html) is
 > based on a network controller
@@ -234,7 +235,7 @@ chip:
 
 ### AndyMark Sasquatch Robot Controller (am-2527)
 
-[![edit\_19.andymark\_sasquatch\_robot\_controller\_am-2527\_.jpg](/oshw_using_wiznet/ethernet/edit_19.andymark_sasquatch_robot_controller_am-2527_.jpg)](http://www.andymark.com/product-p/am-2527.htm)
+![edit\_19.andymark\_sasquatch\_robot\_controller\_am-2527\_.jpg](/document_framework/img/var_products/third_party/edit_19.andymark_sasquatch_robot_controller_am-2527_.jpg)
 
 > The 🌎[Sasquatch Robot
 > Controller](http://www.andymark.com/product-p/am-2527.htm) is an
@@ -260,8 +261,8 @@ chip:
 -----
 ### Iboard (IM120410001)
 
-[![edit\_20.iboard\_2.jpg](/oshw_using_wiznet/ethernet/edit_20.iboard_2.jpg)](http://imall.iteadstudio.com/development-platform/im120410001.html)
-[![edit\_20.iboard\_3.jpg](/oshw_using_wiznet/ethernet/edit_20.iboard_3.jpg)](http://imall.iteadstudio.com/development-platform/im120410001.html)
+![edit\_20.iboard\_2.jpg](/document_framework/img/var_products/third_party/edit_20.iboard_2.jpg)
+![edit\_20.iboard\_3.jpg](/document_framework/img/var_products/third_party/edit_20.iboard_3.jpg)
 
 > 🌎[Iboard](http://imall.iteadstudio.com/development-platform/im120410001.html)
 > is a unique Arduino platform which features a 🌎[Wiznet W5100 Ethernet
@@ -275,8 +276,8 @@ chip:
 
 ### Iboard EX (IM120905007)
 
-[![edit\_21.iboard\_ex\_2.jpg](/oshw_using_wiznet/ethernet/edit_21.iboard_ex_2.jpg)](http://imall.iteadstudio.com/development-platform/iboard-ex.html)
-[![edit\_21.iboard\_ex\_3.jpg](/oshw_using_wiznet/ethernet/edit_21.iboard_ex_3.jpg)](http://imall.iteadstudio.com/development-platform/iboard-ex.html)
+![edit\_21.iboard\_ex\_2.jpg](/document_framework/img/var_products/third_party/edit_21.iboard_ex_2.jpg)
+![edit\_21.iboard\_ex\_3.jpg](/document_framework/img/var_products/third_party/edit_21.iboard_ex_3.jpg)
 
 > 🌎[Iboard
 > EX](http://imall.iteadstudio.com/development-platform/iboard-ex.html)
@@ -290,8 +291,8 @@ chip:
 -----
 ### Iboard Pro (IM120724002)
 
-[![edit\_22.iboard\_pro\_2.jpg](/oshw_using_wiznet/ethernet/edit_22.iboard_pro_2.jpg)](http://imall.iteadstudio.com/development-platform/iboard-pro.html)
-[![edit\_22.iboard\_pro\_3.jpg](/oshw_using_wiznet/ethernet/edit_22.iboard_pro_3.jpg)](http://imall.iteadstudio.com/development-platform/iboard-pro.html)
+![edit\_22.iboard\_pro\_2.jpg]()
+![edit\_22.iboard\_pro\_3.jpg]()
 
 > 🌎[Iboard
 > Pro](http://imall.iteadstudio.com/development-platform/iboard-pro.html)
