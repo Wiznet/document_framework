@@ -54,10 +54,10 @@ The TCP/IP core is a market-proven hardwired TCP/IP stack with an integrated Eth
 
 
 ## Details
-- [Pin Assignment](/document_framework/docs/Product/iMCU/W7500/Pin_Assignment.md)
-- [System and Memory](/document_framework/docs/Product/iMCU/W7500/System_and_Memory.md)
-- [Interrupt and Events](/document_framework/docs/Product/iMCU/W7500/Interrupt_and_Event.md)
-- [Power supply](/document_framework/docs/Product/iMCU/W7500/Power_Supply.md)
-- [Booting Sequence](/document_framework/docs/Product/iMCU/W7500/Booting_Sequence.md)
-- [Electrical Characteristics](/document_framework/docs/Product/iMCU/W7500/Electrical_Characteristics.md)
-- [W7500 Ref. Schematic](/document_framework/docs/Product/iMCU/W7500/W7500_Ref.Schematic.md)
+- [Pin Assignment](Pin_Assignment.md)
+- [System and Memory](System_and_Memory.md)
+- [Interrupt and Events](Interrupt_and_Event.md)
+- [Power supply](Power_Supply.md)
+- [Booting Sequence](Booting_Sequence.md)
+- [Electrical Characteristics](Electrical_Characteristics.md)
+- [W7500 Ref. Schematic](/W7500_Ref.Schematic.md)
