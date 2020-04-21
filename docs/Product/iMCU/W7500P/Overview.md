@@ -8,7 +8,7 @@ date: 2020-04-03
 ## Content
 
 # W7500P
-![Figure 1 W7500 Chip](/document_framework/static/img/products/w7500p/20150908_171109.png)
+![Figure 1 W7500 Chip](/document_framework/img/products/w7500p/20150908_171109.png)
 
 ----
 
