@@ -77,5 +77,4 @@ date: 2020-04-03
 |63|XTAL_IN|Oscillator Input|
 |64|XTAL_OUT|Oscillator Output|
 
-
 ---------
