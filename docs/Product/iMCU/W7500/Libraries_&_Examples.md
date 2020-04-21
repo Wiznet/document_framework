@@ -53,4 +53,4 @@ Release Version
 
 
 ## Peripheral description and examples
-- [Peripherals](/document_framework/docs/products/w7500/Peripherals.md)
+- [Peripherals](/document_framework/docs/Product/iMCU/W7500/Peripherals.md)
