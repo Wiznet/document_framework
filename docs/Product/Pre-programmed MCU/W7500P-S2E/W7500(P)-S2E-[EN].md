@@ -73,7 +73,7 @@ MII supported for PHY interface \</WRAP\>
 
 
 \<WRAP half column\> \<WRAP centeralign\>
-![](/document_framework/img/products/w7500-s2e/w7500p_c_500x500.png)
+![w7500p_c_500x500](/document_framework/img/products/w7500-s2e/w7500p_c_500x500.png)
 
 [W7500P](Product/W7500P/Overview.md)  
 10/100 Ethernet PHY integrated \</WRAP\>
@@ -125,7 +125,7 @@ product. \*\*
 ## Documents
 
 
-[Product Overview](../../S2E Module/WIZ750SR/WIZ750SR.md)
+[Product Overview](../../../S2E Module/WIZ750SR/WIZ750SR.md)
 
 [Getting Started Guide (English)](../../S2E Module/WIZ750SR/Getting_Started-[EN].md)
 
