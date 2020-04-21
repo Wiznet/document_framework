@@ -17,7 +17,7 @@ Only source files are provided for each example and user can tailor the provided
 
   - Directory Structure
   
-![Fig.directory_structure](http://wizwiki.net/wiki/lib/exe/fetch.php?media=products:w7500:iolib_directory.png)
+![Fig.directory_structure](/document_framework/img/products/w7500/iolib_directory.png)
 
   - ioLibrary
     - Application
@@ -52,4 +52,4 @@ Release Version
 - [W7500P Github Release Version List](https://github.com/Wiznet/W7500P)
 
 ## Peripheral description and examples
-- [Peripherals](http://wizwiki.net/wiki/doku.php?id=products:w7500p:peripherals)
+- [Peripherals](Peripherals.md)
