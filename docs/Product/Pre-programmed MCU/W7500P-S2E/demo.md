@@ -1,6 +1,6 @@
 ## Documents
 
-![Product Overview](../../S2E Module/WIZ750SR/WIZ750SR)
+[Product Overview](gh.md)
 
 [Getting Started Guide (English)](../../S2E Module/WIZ750SR/Getting_Started-[EN].md)
 
