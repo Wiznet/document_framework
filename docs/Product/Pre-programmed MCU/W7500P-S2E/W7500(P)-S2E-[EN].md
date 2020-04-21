@@ -4,16 +4,18 @@ title: W7500P-S2E
 date: 2020-04-07
 ---
 
-
 ## Content
 
 # W7500(P)-S2E
 
 \*\* W7500(P) which WIZ750xx S2E firmware is programmed on\*\*
 
+-----
+
 # Supported Languages  
-[English](/products/w7500x-s2e/en) (current page)  
-[Korean](/products/w7500x-s2e/ko)
+
+- [English](W7500(P)-S2E-[EN].md) (current page)  
+- [Korean](W7500(P)-S2E-[KO].md)
 
 -----
 
@@ -24,9 +26,9 @@ in the WIZnet W7500 / W7500P MCU. This product includes the latest
 'WIZ750SR serial to Ethernet module' firmware for widely used in various
 applications around the world
 
-![](/products/w7500-s2e/s2e_img_2.png)
+![s2e_img_2.](/document_framework/img/products/w7500-s2e/s2e_img_2.png)
 
-![](/products/w7500-s2e/ready-made.png)
+![ready-made](/document_framework/img/products/w7500-s2e/ready-made.png)
 
 ### WIZnet S2E Solution
 
@@ -63,9 +65,9 @@ add functions by customer request. \</WRAP\>
 
   
 \<WRAP group\> \<WRAP half column\> \<WRAP centeralign\>
-![](/products/w7500-s2e/w7500_c_500x500.png)
+![w7500_c_500x500](/document_framework/img/products/w7500-s2e/w7500_c_500x500.png)
 
-**[\< W7500\>](/products/w7500/start)**  
+**[\< W7500\>](Product/W7500/Overview.md)**  
 MII supported for PHY interface \</WRAP\>
 
 \</WRAP\>
@@ -73,7 +75,7 @@ MII supported for PHY interface \</WRAP\>
 \<WRAP half column\> \<WRAP centeralign\>
 ![](/products/w7500-s2e/w7500p_c_500x500.png)
 
-**[\< W7500P \>](/products/w7500p/start)**  
+**[\< W7500P \>](Product/W7500P/Overview.md)**  
 10/100 Ethernet PHY integrated \</WRAP\>
 
 \</WRAP\>
