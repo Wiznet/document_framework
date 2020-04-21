@@ -165,11 +165,8 @@ ARP problem in the NLB environment V1.0\]\] \</WRAP\>
 
 -----
 
-\<WRAP group\>
 
 ## Getting Started
-
-\<WRAP half column\>
 
   - [How to install KEIL](/docs/Product/iMCU/W7500/documents/appnote/How_to_install_KEIL.md)
 
