@@ -349,13 +349,6 @@ These are stress ratings only and functional operation of the device at these co
 
 ## Flash memory
 
-<style type="text/css">
-.tg  {border-collapse:collapse;border-spacing:0;border-color:#ccc;}
-.tg td{font-family:Arial, sans-serif;font-size:14px;padding:10px 5px;border-style:solid;border-width:1px;overflow:hidden;word-break:normal;border-color:#ccc;color:#333;background-color:#fff;}
-.tg th{font-family:Arial, sans-serif;font-size:14px;font-weight:normal;padding:10px 5px;border-style:solid;border-width:1px;overflow:hidden;word-break:normal;border-color:#ccc;color:#333;background-color:#f0f0f0;}
-.tg .tg-s6z2{text-align:center}
-.tg .tg-huh2{font-size:14px;text-align:center}
-</style>
 <table class="tg">
   <tr>
     <th class="tg-huh2">Symbol<br />  </th>
@@ -432,7 +425,6 @@ These are stress ratings only and functional operation of the device at these co
 ## ADC Characteristics
 
 ### ADC Electrical characteristics
-
 
 <table class="tg">
   <tr>
@@ -565,7 +557,7 @@ These are stress ratings only and functional operation of the device at these co
 
 ### ADC Transform function description
 
-![Figure 1 ADC transform function](http://wizwiki.net/wiki/lib/exe/fetch.php?media=products:w7500:overview:adc_transform_function.jpg "Figure 1 ADC transform function")
+![Figure 1 ADC transform function](/document_framework/img/products/w7500/overview/adc_transform_function.jpg)
 
 ## I2C interface Characteristics
 
@@ -693,7 +685,7 @@ These are stress ratings only and functional operation of the device at these co
   </tr>
 </table>
 
-![Figure 2 I2C bus AC waveform](http://wizwiki.net/wiki/lib/exe/fetch.php?media=products:w7500:overview:i2c_bus_ac_waveform.jpg "Figure 2 I2C bus AC waveform")
+![Figure 2 I2C bus AC waveform](/document_framework/img/products/w7500/overview/i2c_bus_ac_waveform.jpg)
 
 ## SSP Interface Characteristics
 
@@ -800,7 +792,7 @@ These are stress ratings only and functional operation of the device at these co
 
 # Package Characteristics
 ## Package dimension information
-![Figure 3 Package Dimension Information](http://wizwiki.net/wiki/lib/exe/fetch.php?media=products:w7500p:overview:package_dimention_information.png "Figure 3 Package Dimension Information")
+![Figure 3 Package Dimension Information](/document_framework/img/products/w7500p/overview/package_dimention_information.png)
 
 <table class="tg">
   <tr>
@@ -990,4 +982,4 @@ These are stress ratings only and functional operation of the device at these co
 </table>
 
 ## Package footprint information
-![Figure 4 Package Footprint Information](http://wizwiki.net/wiki/lib/exe/fetch.php?media=products:w7500p:overview:package_footprint_information.jpg "Figure 4 Package Footprint Information")
+![Figure 4 Package Footprint Information](/document_framework/img/products/w7500p/overview/package_footprint_information.jpg)
