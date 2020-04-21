@@ -10,14 +10,14 @@ date: 2020-04-03
 
 -----
 
-[documents](Documents.md)
+[Documents](Documents.md)
 
 -----
 
-[peripherals](Peripherals.md)
+[Peripherals](Peripherals.md)
 
 -----
 
-[library](Libraries_&_Examples.md)
+[Library](Libraries_&_Examples.md)
 
 -----
