@@ -14,12 +14,9 @@ date: 2020-04-03
 
 ## Pin Description
 
-^  Pin  ^  Symbol  ^ Type  ^  Main        ^  2nd      ^  3rd         ^  4th  |
-
- ^ Pin ^ Name ^ Description |
-
-|1 |PC_08 | PWM0/CAP0/GPIO3_8/SCL0/AIN7 |
-
+|Pin|Name|Description|
+|--------
+|1|PC_08|PWM0/CAP0/GPIO3_8/SCL0/AIN7|
 |2|PC_09|PWM1/CAP1/GPIO3_9/SDA0/AIN6|
 |3|PC_10|U_TXD2/GPIO3_10/PWM2/CAP2/AIN5|
 |4|PC_11|U_RXD2/GPIO3_11/PWM3/CAP3/AIN4|
@@ -79,5 +76,6 @@ date: 2020-04-03
 |62|GND|GROUND|
 |63|XTAL_IN|Oscillator Input|
 |64|XTAL_OUT|Oscillator Output|
+
 
 ---------
