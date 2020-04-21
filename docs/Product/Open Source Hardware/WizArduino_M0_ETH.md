@@ -213,7 +213,7 @@ M0](http://www.arduino.org/learning/getting-started/getting-started-with-arduino
 ### Schematic & Reference Design
 
   - ![schematic.pdf](/osh/wizarduino/wizarduino_m0_eth_rb1-145bg72a.pdf)  
-    \* ![reference design.zip](/osh/wizarduino/wizarduino.zip)
+  * ![reference design.zip](/osh/wizarduino/wizarduino.zip)
 
 ### Dimension
 
