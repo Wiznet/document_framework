@@ -11,9 +11,9 @@ date: 2020-04-07
 
 \*\* W7500(P) which WIZ750xx S2E firmware is programmed on\*\*
 
-\*\* Supported Languages \*\*  
-\* [English](/products/w7500x-s2e/en) (current page)  
-\* [Korean](/products/w7500x-s2e/ko)
+# Supported Languages  
+[English](/products/w7500x-s2e/en) (current page)  
+[Korean](/products/w7500x-s2e/ko)
 
 -----
 
