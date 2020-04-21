@@ -42,7 +42,7 @@ The bytes are coded in memory in Little Endian format. The lowest numbered byte 
 
 ### Memory map
 
-![w7500_memory_map](w7500_memory_map.png "Figure 2 W7500 Memory map")
+![w7500_memory_map](/document_framework/img/products/w7500/memory_map.png)
 
 ## System Configuration Controller (SYSCFG)
 
