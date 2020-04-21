@@ -10,7 +10,7 @@
 
 [Configuration Tool Manual](/products/wiz750sr/configtoolmanual/start)
 
-[CLI Config Tool Tutorial](/products/wiz750sr/clitool/start)
+[CLI Config Tool Tutorial] (/products/wiz750sr/clitool/start)
 
 [Device Command Manual](/products/wiz750sr/commandmanual/start)
 
