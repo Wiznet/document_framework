@@ -1,10 +1,10 @@
 ## Documents
 
-[Product Overview](docs/Product/S2E Module/WIZ750SR/Getting_Started-[EN].md)
+[Product Overview](docs/Product/S2E-Module/WIZ750SR/Getting_Started-[EN].md)
 
-[Getting Started Guide (English)](S2E Module/WIZ750SR/Getting_Started-[EN].md)
+[Getting Started Guide (English)](S2E-Module/WIZ750SR/Getting_Started-[EN].md)
 
-[Getting Started Guide (Korean)](../../S2E Module/WIZ750SR/Getting_Started-[KO].md)
+[Getting Started Guide (Korean)](../../S2E-Module/WIZ750SR/Getting_Started-[KO].md)
 
 [User's Manual](/products/wiz750sr/usermanual/start)
 
