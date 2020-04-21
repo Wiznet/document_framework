@@ -14,6 +14,7 @@ date: 2020-04-03
 
 ## Pin Description
 
+^  Pin  ^  Symbol  ^ Type  ^  Main        ^  2nd      ^  3rd         ^  4th  |
 
  ^ Pin ^ Name ^ Description |
 
