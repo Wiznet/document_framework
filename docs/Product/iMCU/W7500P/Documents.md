@@ -4,7 +4,6 @@ title: Documents
 date: 2020-04-03
 ---
 
-
 ## Content
 
 # Documents
@@ -15,28 +14,19 @@ The **Errata Sheet** describes error Phenomenon and solution .
 The **Getting Started** user's guide describes the installation of MDK,How to make KEIL new project for W7500, How to use MDK for W7500 Peripherals Examples, How to use GCC for W7500 Peripherals Examples and How to use ISP tool from starting a project to using the ISP tool.
 
 -------------------
-\<WRAP group\>
 
-\<WRAP half column\>
 
 ### Data Sheet
 
-``` 
-  * [[https://wizwiki.net/wiki/lib/exe/fetch.php?media=products:w7500:w7500x_ds_v110.pdf|W7500x Datasheet v1.1.0 - English]]
-```
+![W7500x Datasheet v1.1.0 - English](/document_framework/img/products/w7500/w7500x_ds_v110.pdf)
 
-\</WRAP\>
 
-\<WRAP half column\>
 
 | Version | Date      | Decription                                           |
 | ------- | --------- | ---------------------------------------------------- |
 | V 1.1.0 | 20DEC2019 | Fixed 3.17 UART speed to 460.8 Kbit/s from 3 Mbit/s. |
 
-\</WRAP\> \</WRAP\> \<WRAP group\>
 
-\<WRAP half column\> \<wrap classes \#id width :language\> \</wrap\>
-\</WRAP\>
 
 \++++ Old Datasheet History |
 
@@ -54,32 +44,24 @@ The **Getting Started** user's guide describes the installation of MDK,How to ma
 | V 1.0.8 | 17OCT2018 | Fixed Power Supply description                                                                                           |
 | V 1.0.9 | 11NOV2019 | Fixed Power Supply description                                                                                           |
 
-\++++ \</WRAP\>
+
 
 -------------------
-\<WRAP group\>
 
-\<WRAP half column\>
 
 ### Reference Manual
 
-  - [W7500x Reference Manual v1.1.2 -
-    English](https://wizwiki.net/wiki/lib/exe/fetch.php?media=:products:w7500:w7500x_rm_v112_20181017_.pdf)
+  - ![W7500x Reference Manual v1.1.2 - English](/document_framework/img/products/w7500/w7500x_rm_v112_20181017_.pdf)
 
-\</WRAP\>
 
-\<WRAP half column\>
 
 | Version | Date      | Decription                    |
 | ------- | --------- | ----------------------------- |
 | V 1.1.2 | 17OCT2018 | Edit Power supply description |
 
-\</WRAP\>\</WRAP\>
 
-\<WRAP group\>
 
-\<WRAP half column\> \<wrap classes \#id width :language\> \</wrap\>
-\</WRAP\> ++++ Old Reference Manual History |
+ ++++ Old Reference Manual History |
 
 | Version | Date      | Decription                                                                   |
 | ------- | --------- | ---------------------------------------------------------------------------- |
@@ -100,21 +82,15 @@ The **Getting Started** user's guide describes the installation of MDK,How to ma
 | V 1.1.1 | 27JUL2018 | Fixed figure 4. CRG Diagram (Input Information of WDOGCLK, TIMCLK0,TIMCLK1). |
 | :::     | :::       | Flash memory lock function Additional description added (11.1)               |
 
-\++++ \</WRAP\>
 
 -------------------
-\<WRAP group\>
 
-\<WRAP half column\>
 
 ### PHY Reference
 
-  - [How to Access W7500x PHY Register -
-    English](https://wizwiki.net/wiki/lib/exe/fetch.php?media=products:w7500p:ref_sch:how_to_access_phy_application_note_v100.pdf)
-  - [W7500P Internal PHY Datasheet -
-    English](http://www.bdtic.com/DataSheet/ICplus/IP101G_DS_R01_20121224.pdf)
+  - ![How to Access W7500x PHY Register - English](/document_framework/img/products/w7500p/ref_sch/how_to_access_phy_application_note_v100.pdf)
+  - ![W7500P Internal PHY Datasheet - English](http://www.bdtic.com/DataSheet/ICplus/IP101G_DS_R01_20121224.pdf)
 
-\</WRAP\>
 
 \<WRAP half column\> How to Access W7500x PHY Register
 
@@ -128,24 +104,16 @@ W7500P Internal PHY Datasheet
 | ------- | -------- | --------------- |
 | V1.0.0  | 7AUG2018 | Initial Release |
 
-\</WRAP\> \</WRAP\>
+
 
 -----
 
-\<WRAP group\>
-
-\<WRAP half column\>
 
 ### Errata Sheet
+- ![W7500x Erratasheet v1.2.0 - English](/document_framework/img/products/w7500/w7500x_erratasheet_v120e.pdf)
+- ![W7500x Erratasheet v1.2.0 - Korean](/document_framework/img/products/w7500/w7500x_erratasheet_v120k.pdf)
 
-``` 
- *[[https://wizwiki.net/wiki/lib/exe/fetch.php?media=products:w7500:w7500x_erratasheet_v120e.pdf|W7500x Erratasheet v1.2.0 - English]]
- *[[https://wizwiki.net/wiki/lib/exe/fetch.php?media=products:w7500:w7500x_erratasheet_v120k.pdf|W7500x Erratasheet v1.2.0 - Korean]]
-```
 
-\</WRAP\>
-
-\<WRAP half column\>
 
 | Version | Date      | Decription                            |
 | ------- | --------- | ------------------------------------- |
@@ -153,13 +121,7 @@ W7500P Internal PHY Datasheet
 | :::     | :::       | Erratum 4 – Two Image Banks Failure   |
 | :::     | :::       | Erratum 5 – Cold Booting Failure      |
 
-\</WRAP\> \</WRAP\> \<WRAP group\>
 
-\<WRAP half column\>
-
-\<wrap classes \#id width :language\> \</wrap\>
-
-\</WRAP\> ++++ Old Errata Sheet Histroy |
 
 | Version | Date      | Decription                                 |
 | ------- | --------- | ------------------------------------------ |
@@ -169,19 +131,13 @@ W7500P Internal PHY Datasheet
 
 \++++
 
-\</WRAP\>
 
 -----
 
-\<WRAP group\>
-
-\<WRAP half column\>
 
 ### Limitation Note ARP problem in the NLB environment
 
-``` 
- * [[https://wizwiki.net/wiki/lib/exe/fetch.php?media=design_guide:limitation_note_-_arp_problem_in_the_nlb_environment_-_english_0312_.pdf|Limitation Note
-```
+![Limitation Note ARP problem in the NLB environment V1.0]()
 
 ARP problem in the NLB environment V1.0\]\] \</WRAP\>
 
@@ -189,51 +145,22 @@ ARP problem in the NLB environment V1.0\]\] \</WRAP\>
 | ------- | ------- | ---------------- |
 | V 1.0   | 12MAR18 | Initial Document |
 
-\</WRAP\>
 
 -----
 
-\<WRAP group\>
 
 ## Getting Started
 
-\<WRAP half column\>
 
-  - [How to install
-    KEIL](/products/w7500/documents/appnote/install_uvision)
 
-\</WRAP\>
+  - [How to install KEIL](/document_framework/docs/Product/iMCU/W7500/documents/appnote/How_to_install_KEIL.md)
 
-  - [How to make KEIL new project for
-    W7500](/products/w7500/documents/appnote/howtokeil)
+  - [How to make KEIL new project for W7500](/document_framework/docs/Product/iMCU/W7500/documents/appnote/How_to_make_KEIL_new_project_for_W7500.md)
 
-\</WRAP\>
-
+  - [How to use MDK for W7500 Peripherals Examples](/document_framework/docs/Product/iMCU/W7500/documents/appnote/How_to_use_MDK_for_W7500_Peripherals_Examples.md)
+    
+  - [How to use GCC for W7500 Peripherals Examples](/document_framework/docs/Product/iMCU/W7500/documents/appnote/How_to_use_GCC_for_W7500_Peripherals_Examples.md)
+  
+  - [How to use ISP tool](/document_framework/docs/Product/iMCU/W7500/documents/appnote/How_to_use_ISP_tool.md)
+  
 -----
-
-\<WRAP group\> \<WRAP half column\>
-
-``` 
- * [[products:w7500:documents:appnote:keil_exam|How to use MDK for W7500 Peripherals Examples]]
-```
-
-\</WRAP\>
-
-``` 
- * [[products:w7500:documents:appnote:gcc|How to use GCC for W7500 Peripherals Examples]]
-```
-
-\</WRAP\>
-
------
-
-\<WRAP group\> \<WRAP half column\>
-
-``` 
- * [[products:w7500:documents:appnote:isptool|How to use ISP tool]]
-```
-
-\</WRAP\>
-
-
-\</WRAP\>
