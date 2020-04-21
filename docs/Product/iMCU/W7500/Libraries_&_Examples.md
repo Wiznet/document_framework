@@ -53,4 +53,4 @@ Release Version
 
 
 ## Peripheral description and examples
-- [Peripherals](/document_framework/img/products/w7500/peripherals)
+- [Peripherals](/document_framework/docs/products/w7500/Peripherals.md)
