@@ -56,10 +56,10 @@ The TCP/IP core is a market-proven hardwired TCP/IP stack and PHY is IC plus IP1
 
 
 ## Details
-- [Pin Assignment](http://wizwiki.net/wiki/doku.php?id=products:w7500p:overview:pinassignment)
-- [System and Memory](http://wizwiki.net/wiki/doku.php?id=products:w7500:overview:systemandmemory)
-- [Interrupt and Events](http://wizwiki.net/wiki/doku.php?id=products:w7500:overview:intandevents)
-- [Power supply](http://wizwiki.net/wiki/doku.php?id=products:w7500:overview:powersupply)
-- [Booting Sequence](http://wizwiki.net/wiki/doku.php?id=products:w7500:overview:booting)
-- [Electrical Characteristics](http://wizwiki.net/wiki/doku.php?id=products:w7500p:overview:electric)
-- [W7500P Ref.Schematic](http://wizwiki.net/wiki/doku.php?id=products:w7500p:ref_sch)
+- [Pin Assignment](/document_framework/)
+- [System and Memory](/document_framework/)
+- [Interrupt and Events](/document_framework/)
+- [Power supply](/document_framework/)
+- [Booting Sequence](/document_framework/)
+- [Electrical Characteristics](/document_framework/)
+- [W7500P Ref. Schematic](/document_framework/)
