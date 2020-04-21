@@ -17,11 +17,11 @@ date: 2020-04-07
 - [English](W7500(P)-S2E-[EN].md) (current page)  
 - [Korean](W7500(P)-S2E-[KO].md)
 
-[Product Overview](../../S2E Module/WIZ750SR/WIZ750SR.md)
+[Product-Overview](../../S2E Module/WIZ750SR/WIZ750SR.md)
 
-[Getting Started Guide (English)](../../S2E Module/WIZ750SR/Getting_Started-[EN].md)
+[Getting-Started-Guide-(English)](../../S2E Module/WIZ750SR/Getting_Started-[EN].md)
 
-[Getting Started Guide (Korean)](../../S2E Module/WIZ750SR/Getting_Started-[KO].md)
+[Getting-Started-Guide-(Korean)](../../S2E Module/WIZ750SR/Getting_Started-[KO].md)
 -----
 
 ## Overview
@@ -31,7 +31,7 @@ in the WIZnet W7500 / W7500P MCU. This product includes the latest
 'WIZ750SR serial to Ethernet module' firmware for widely used in various
 applications around the world
 
-![s2e_img_2.](/document_framework/img/products/w7500-s2e/s2e_img_2.png)
+![s2e_img_2](/document_framework/img/products/w7500-s2e/s2e_img_2.png)
 
 ![ready-made](/document_framework/img/products/w7500-s2e/ready-made.png)
 
