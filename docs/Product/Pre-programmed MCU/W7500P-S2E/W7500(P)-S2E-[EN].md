@@ -125,7 +125,7 @@ product. \*\*
 ## Documents
 
 
-[Product Overview](Product/S2E Module/WIZ750SR/WIZ750SR.md)
+[Product Overview](Product/WIZ750SR/WIZ750SR.md)
 
 [Getting Started Guide (English)](Product/2E Module/WIZ750SR/Getting_Started-[EN].md)
 
