@@ -7,9 +7,10 @@ date: 2020-04-03
 
 ## Content
 
+
 # Booting Sequence
 
-W7500P has three different boot modes that can be selected through the BOOT pin and TEST pin.
+W7500 has three different boot modes that can be selected through the BOOT pin and TEST pin.
 
 <table class="tg">
   <tr>
@@ -31,10 +32,11 @@ W7500P has three different boot modes that can be selected through the BOOT pin 
     <td class="tg-s6z2">0</td>
     <td class="tg-s6z2">1</td>
     <td class="tg-s6z2">ISP</td>
-    <td class="tg-031e">In this mode, W7500P can support ISP function in order to control flash using serial interface.</td>
+    <td class="tg-031e">In this mode, W7500 can support ISP function in order to control flash using serial interface.</td>
   </tr>
+
 </table>
 
-When W7500P is reset by hardware, it will be operated as below in embedded boot code.
+When W7500 is reset by hardware, it will be operated as below in embedded boot code.
 
-![Figure 1 I2C Bus Configuration](http://wizwiki.net/wiki/lib/exe/fetch.php?media=products:w7500p:overview:boot.jpg "Figure 1 operation of boot code")
+![Figure 1 operation of boot code"](/document_framework/img/products/w7500/operation_boot_code.jpg)
