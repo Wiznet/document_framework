@@ -67,18 +67,18 @@ add functions by customer request. \</WRAP\>
 \<WRAP group\> \<WRAP half column\> \<WRAP centeralign\>
 ![w7500_c_500x500](/document_framework/img/products/w7500-s2e/w7500_c_500x500.png)
 
-**[\< W7500\>](Product/W7500/Overview.md)**  
+[W7500](Product/W7500/Overview.md) 
 MII supported for PHY interface \</WRAP\>
 
-\</WRAP\>
+
 
 \<WRAP half column\> \<WRAP centeralign\>
 ![](/document_framework/img/products/w7500-s2e/w7500p_c_500x500.png)
 
-**[\< W7500P \>](Product/W7500P/Overview.md)**  
+[W7500P](Product/W7500P/Overview.md)  
 10/100 Ethernet PHY integrated \</WRAP\>
 
-\</WRAP\>
+
 
 -----
 
@@ -124,9 +124,11 @@ product. \*\*
 
 ## Documents
 
-[Product Overview](/S2E Module/WIZ750SR/WIZ750SR.md)
+[Product Overview](docs/Product/S2E Module/WIZ750SR/WIZ750SR.md)
 
-[Getting Started Guide](/products/wiz750sr/gettingstarted/start)
+[Getting Started Guide (English)](docs/Product/S2E Module/WIZ750SR/Getting_Started-[EN].md)
+
+[Getting Started Guide (Korean)](docs/Product/S2E Module/WIZ750SR/Getting_Started-[KO].md)
 
 [User's Manual](/products/wiz750sr/usermanual/start)
 
