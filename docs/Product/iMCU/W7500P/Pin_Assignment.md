@@ -14,7 +14,7 @@ date: 2020-04-03
 
 ## Pin Description
 
-|^Pin^Name^Description|
+| ^ Pin ^ Name ^ Description|
 |1|PC_08|PWM0/CAP0/GPIO3_8/SCL0/AIN7|
 |2|PC_09|PWM1/CAP1/GPIO3_9/SDA0/AIN6|
 |3|PC_10|U_TXD2/GPIO3_10/PWM2/CAP2/AIN5|
