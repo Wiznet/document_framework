@@ -10,7 +10,7 @@ date: 2020-04-03
 # Pin Assignment
 ## Pin Layout
 
-![](http://wizwiki.net/wiki/lib/exe/fetch.php?media=products:w7500p:overview:20170718_w7500p_pinout.png)
+![20170718_w7500p_pinout](/document_framework/img/products/w7500p/overview/20170718_w7500p_pinout.png)
 
 ## Pin Description
 
