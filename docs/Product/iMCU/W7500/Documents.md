@@ -118,7 +118,7 @@ W7500P Internal PHY Datasheet
 - ![W7500x Erratasheet v1.2.0 - English](/document_framework/img/products/w7500/w7500x_erratasheet_v120e.pdf)
 - ![W7500x Erratasheet v1.2.0 - Korean](/document_framework/img/products/w7500/w7500x_erratasheet_v120k.pdf)
 
-\</WRAP\>
+
 
 \<WRAP half column\>
 
@@ -172,41 +172,16 @@ ARP problem in the NLB environment V1.0\]\] \</WRAP\>
 
 \<WRAP half column\>
 
-  - [How to install
-    KEIL](/products/w7500/documents/appnote/install_uvision)
+  - [How to install KEIL](/document_framework/docs/Product/iMCU/W7500/documents/appnote/How_to_install_KEIL.md)
 
-\</WRAP\>
+  - [How to make KEIL new project for W7500](/document_framework/docs/Product/iMCU/W7500/documents/appnote/How_to_make_KEIL_new_project_for_W7500.md)
 
-  - [How to make KEIL new project for
-    W7500](/document_framework/products/w7500/documents/appnote/howtokeil)
-
-\</WRAP\>
-
+  - [How to use MDK for W7500 Peripherals Examples](/document_framework/docs/Product/iMCU/W7500/documents/appnote/How_to_use_MDK_for_W7500_Peripherals_Examples.md)
+    
+  - [How to use GCC for W7500 Peripherals Examples](/document_framework/docs/Product/iMCU/W7500/documents/appnote/How_to_use_GCC_for_W7500_Peripherals_Examples.md)
+  
+  - [How to use ISP tool](/document_framework/docs/Product/iMCU/W7500/documents/appnote/How_to_use_ISP_tool.md)
+  
 -----
 
-\<WRAP group\> \<WRAP half column\>
 
-``` 
- * [[products:w7500:documents:appnote:keil_exam|How to use MDK for W7500 Peripherals Examples]]
-```
-
-\</WRAP\>
-
-``` 
- * [[products:w7500:documents:appnote:gcc|How to use GCC for W7500 Peripherals Examples]]
-```
-
-\</WRAP\>
-
------
-
-\<WRAP group\> \<WRAP half column\>
-
-``` 
- * [[products:w7500:documents:appnote:isptool|How to use ISP tool]]
-```
-
-\</WRAP\>
-
-
-\</WRAP\>
