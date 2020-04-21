@@ -1,6 +1,6 @@
 ## Documents
 
-[Product Overview](../../S2E Module/WIZ750SR/WIZ750SR.md)
+![Product Overview](../../S2E Module/WIZ750SR/WIZ750SR.md)
 
 [Getting Started Guide (English)](../../S2E Module/WIZ750SR/Getting_Started-[EN].md)
 
@@ -10,7 +10,7 @@
 
 [Configuration Tool Manual](/products/wiz750sr/configtoolmanual/start)
 
-[CLI Config Tool Tutorial] (/products/wiz750sr/clitool/start)
+[CLI Config Tool Tutorial](/products/wiz750sr/clitool/start)
 
 [Device Command Manual](/products/wiz750sr/commandmanual/start)
 
