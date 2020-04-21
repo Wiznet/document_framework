@@ -11,9 +11,9 @@ date: 2020-04-03
 ![](/osh/ioshield-a/io_s_a.png) ioShield-A allows an Arduino board to
 connect to the Internet.
 
-It is based on the [WIZ550io network module]()
-which uses [WIZnet W5500 ethernet chip]() ([W5500
-Datasheet]()). The WIZnet W5500 provides a
+It is based on the [WIZ550io network module](Overview.md)
+which uses [WIZnet W5500 ethernet chip(W5500
+Datasheet)](Overview.md). The WIZnet W5500 provides a
 network (TCP/IP) stack capable of both TCP and UDP. It supports up to
 eight simultaneous socket connections. And, when Powered on and nRESET
 triggered, WIZ550io initializes itself with embedded real MAC and
@@ -56,11 +56,11 @@ All design files and source codes for the ioShield can be found on
 GitHub:
 
   - Hardware Ver1.0: schematic(![PDF
-    file](/osh/ioshield-a/ioshield-a.pdf)), schematic & PCB file(![Eagle
-    CAD](/osh/ioshield-a/ioshield-a_eaglecad.zip)), Part List(![PDF
-    file](/osh/ioshield-a/ioshield-a_v1_0_pl_130904.pdf))
+    file](/document_framework/img/osh/ioshield-a/ioshield-a.pdf)), schematic & PCB file(![Eagle
+    CAD](/document_framework/img/osh/ioshield-a/ioshield-a_eaglecad.zip)), Part List(![PDF
+    file](/document_framework/img/osh/ioshield-a/ioshield-a_v1_0_pl_130904.pdf))
   - Hardware Ver1.1: schematic(![PDF
-    file](/osh/ioshield-a/ioshield-a_v1.1_sch.pdf)), schematic & PCB
-    file(![Eagle CAD](/osh/ioshield-a/ver1_1.zip)), Part List(![PDF
-    file](/osh/ioshield-a/ioshield-a_v1_1_pl_140120.pdf))
-  - Ethernet Library : <https://github.com/Wiznet/WIZ_Ethernet_Library>
+    file](/document_framework/img/osh/ioshield-a/ioshield-a_v1.1_sch.pdf)), schematic & PCB
+    file(![Eagle CAD](/document_framework/img/osh/ioshield-a/ver1_1.zip)), Part List(![PDF
+    file](/document_framework/img/osh/ioshield-a/ioshield-a_v1_1_pl_140120.pdf))
+  - Ethernet Library : 🌎<https://github.com/Wiznet/WIZ_Ethernet_Library>
