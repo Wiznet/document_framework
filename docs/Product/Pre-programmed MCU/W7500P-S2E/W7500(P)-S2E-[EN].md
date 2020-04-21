@@ -44,7 +44,7 @@ applications around the world
     devices can be controlled via an Ethernet network - Internet.
 
 \<WRAP centeralign round tip center 60%\> We also provide
-**[Customization Services](#customization_services)** such as change /
+**[Customization Services](## Customization Services)** such as change /
 add functions by customer request. \</WRAP\>
 
   
