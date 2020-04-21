@@ -123,7 +123,8 @@ product. \*\*
 
 
 ## Documents
-[Korean](W7500(P)-S2E-[KO].md)
+[Korean](docs/Product/S2E Module/WIZ750SR/WIZ750SR.md) 
+
 [Product Overview](docs/Product/S2E Module/WIZ750SR/WIZ750SR.md)
 
 [Getting Started Guide (English)](docs/Product/S2E Module/WIZ750SR/Getting_Started-[EN].md)
