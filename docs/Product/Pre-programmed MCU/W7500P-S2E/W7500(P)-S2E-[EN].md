@@ -67,7 +67,7 @@ add functions by customer request. \</WRAP\>
 \<WRAP group\> \<WRAP half column\> \<WRAP centeralign\>
 ![w7500_c_500x500](/document_framework/img/products/w7500-s2e/w7500_c_500x500.png)
 
-[W7500](Product/iMCU/W7500/Overview.md) 
+[W7500](../../iMCU/W7500/Overview.md) 
 MII supported for PHY interface \</WRAP\>
 
 
@@ -75,7 +75,7 @@ MII supported for PHY interface \</WRAP\>
 \<WRAP half column\> \<WRAP centeralign\>
 ![w7500p_c_500x500](/document_framework/img/products/w7500-s2e/w7500p_c_500x500.png)
 
-[W7500P](Product/iMCU/W7500P/Overview.md)  
+[W7500P](../../iMCU/W7500P/Overview.md)  
 10/100 Ethernet PHY integrated \</WRAP\>
 
 
