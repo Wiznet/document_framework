@@ -8,7 +8,7 @@ date: 2020-04-03
 ## Content
 # WizFi310 Shield
 
-![WizFi310 Shield](/osh/wizfi310_shield/wizfi310_shield_1.png%20)
+![WizFi310 Shield](/document_framework/img/osh/wizfi310_shield/wizfi310_shield_1.png)
 
 ## Overview
 
@@ -75,7 +75,7 @@ in.
 ### WizFi310 Shield Callout & Pinmap
 
 ![WizFi310 Shield
-Pinmap](/osh/wizfi310_shield/wizfi310_shield_pinmap.png%20)
+Pinmap](/document_framework/img/osh/wizfi310_shield/wizfi310_shield_pinmap.png)
 
 -----
 ## H/W Configurations
@@ -144,18 +144,18 @@ Pinmap](/osh/wizfi310_shield/wizfi310_shield_pinmap.png%20)
 
 #### Datasheet
 
-  - [WizFi310 Datasheet]()
+  - [WizFi310 Datasheet](WizFi310.md)
 
 #### Schematic
 
   - ![WizFi310 Shield
-    Schematic(Altium)](/osh/wizfi310_shield/wizfi310_shield_sch_v100.zip)
+    Schematic(Altium)](/document_framework/img/osh/wizfi310_shield/wizfi310_shield_sch_v100.zip)
   - ![WizFi310 Shield
-    Schematic(PDF)](/osh/wizfi310_shield/wizfi310_shield_sch_v100.pdf)
+    Schematic(PDF)](/document_framework/img/osh/wizfi310_shield/wizfi310_shield_sch_v100.pdf)
     #### Partlist
 
   - ![WizFi310 Shield
-    Partlist](/osh/wizfi310_shield/wizfi310_shield_pl_v100_170329.pdf)
+    Partlist](/document_framework/img/osh/wizfi310_shield/wizfi310_shield_pl_v100_170329.pdf)
 
 -----
 
@@ -181,18 +181,4 @@ Pinmap](/osh/wizfi310_shield/wizfi310_shield_pinmap.png%20)
 
 -----
 
-### Where to Buy
 
-
-
-![WIZnet Online Shop](/products/w5500/buynow.png)  
-[![WIZnetUS Online Shop,
-USA](/products/w5500/w5500_evb/icons/dollar.png)](http://www.shopwiznet.com/)
-[![WIZnetEU Online Shop,
-Germany](/products/w5500/w5500_evb/icons/european-euro.png)](http://shop.wiznet.eu/)
-[![WIZnetKorea Online Shop,
-Korea](/products/w5500/w5500_evb/icons/won.png)](http://shop.wiznet.co.kr/)
-
-
-
------
