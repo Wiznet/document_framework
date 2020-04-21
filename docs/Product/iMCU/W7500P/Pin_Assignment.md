@@ -14,7 +14,7 @@ date: 2020-04-03
 
 ## Pin Description
 
-|
+
  ^ Pin ^ Name ^ Description |
 
 |1 |PC_08 | PWM0/CAP0/GPIO3_8/SCL0/AIN7 |
