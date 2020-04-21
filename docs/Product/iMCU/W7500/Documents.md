@@ -15,26 +15,19 @@ The **Errata Sheet** describes error Phenomenon and solution .
 The **Getting Started** user's guide describes the installation of MDK,How to make KEIL new project for W7500, How to use MDK for W7500 Peripherals Examples, How to use GCC for W7500 Peripherals Examples and How to use ISP tool from starting a project to using the ISP tool.
 
 -------------------
-\<WRAP group\>
 
-\<WRAP half column\>
 
 ### Data Sheet
 
 ![W7500x Datasheet v1.1.0 - English](/document_framework/img/products/w7500/w7500x_ds_v110.pdf)
 
-\</WRAP\>
 
-\<WRAP half column\>
 
 | Version | Date      | Decription                                           |
 | ------- | --------- | ---------------------------------------------------- |
 | V 1.1.0 | 20DEC2019 | Fixed 3.17 UART speed to 460.8 Kbit/s from 3 Mbit/s. |
 
-\</WRAP\> \</WRAP\> \<WRAP group\>
 
-\<WRAP half column\> \<wrap classes \#id width :language\> \</wrap\>
-\</WRAP\>
 
 \++++ Old Datasheet History |
 
@@ -52,31 +45,24 @@ The **Getting Started** user's guide describes the installation of MDK,How to ma
 | V 1.0.8 | 17OCT2018 | Fixed Power Supply description                                                                                           |
 | V 1.0.9 | 11NOV2019 | Fixed Power Supply description                                                                                           |
 
-\++++ \</WRAP\>
+
 
 -------------------
-\<WRAP group\>
 
-\<WRAP half column\>
 
 ### Reference Manual
 
   - ![W7500x Reference Manual v1.1.2 - English](/document_framework/img/products/w7500/w7500x_rm_v112_20181017_.pdf)
 
-\</WRAP\>
 
-\<WRAP half column\>
 
 | Version | Date      | Decription                    |
 | ------- | --------- | ----------------------------- |
 | V 1.1.2 | 17OCT2018 | Edit Power supply description |
 
-\</WRAP\>\</WRAP\>
 
-\<WRAP group\>
 
-\<WRAP half column\> \<wrap classes \#id width :language\> \</wrap\>
-\</WRAP\> ++++ Old Reference Manual History |
+ ++++ Old Reference Manual History |
 
 | Version | Date      | Decription                                                                   |
 | ------- | --------- | ---------------------------------------------------------------------------- |
@@ -97,12 +83,9 @@ The **Getting Started** user's guide describes the installation of MDK,How to ma
 | V 1.1.1 | 27JUL2018 | Fixed figure 4. CRG Diagram (Input Information of WDOGCLK, TIMCLK0,TIMCLK1). |
 | :::     | :::       | Flash memory lock function Additional description added (11.1)               |
 
-\++++ \</WRAP\>
 
 -------------------
-\<WRAP group\>
 
-\<WRAP half column\>
 
 ### PHY Reference
 
@@ -195,7 +178,7 @@ ARP problem in the NLB environment V1.0\]\] \</WRAP\>
 \</WRAP\>
 
   - [How to make KEIL new project for
-    W7500](/products/w7500/documents/appnote/howtokeil)
+    W7500](/document_framework/products/w7500/documents/appnote/howtokeil)
 
 \</WRAP\>
 
