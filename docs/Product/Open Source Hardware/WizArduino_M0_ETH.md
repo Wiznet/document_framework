@@ -8,7 +8,7 @@ date: 2020-04-03
 ## Content
 # WizArduino M0 ETH
 
-![](/osh/wizarduino/측면1.png)
+![](/document_framework/img/osh/wizarduino_m0_eth/%EC%B8%A1%EB%A9%B41.png)
 
 -----
 
@@ -56,9 +56,9 @@ Controller](http://wizwiki.net/wiki/doku.php?id=products:w5500:start) 가
   - PCB Size : 53 x 68.5mm
   - Card Reader : Micro SD Card, with active voltage translators
   - Weight : 28g
-  ### PinOut
+### PinOut
 
-![](/osh/wizarduino/pin_out.png)
+![](/document_framework/img/osh/wizarduino_m0_eth/pin_out.png)
 
 -----
 
@@ -111,7 +111,7 @@ WizArduino M0 ETH로 Programming을 하기에 앞서 몇 가지 확인 사항이
 
   - Getting Started에 언급 한 바와 같이 WizArduino M0 ETH는 Arduino.org 의 M0
     board와 100% 호환 됩니다. Select board 시 Arduino M0를 선택 하세요.
-    ![](/products/wizarduino/그림2.png) 
+    ![](/document_framework/img/osh/wizarduino_m0_eth/%EA%B7%B8%EB%A6%BC2.png) 
 
 #### Serial message
 
@@ -181,7 +181,7 @@ M0](http://www.arduino.org/learning/getting-started/getting-started-with-arduino
     \* ![PWM](/osh/wizarduino/4.pwm_example.zip)  
     \* ![UART](/osh/wizarduino/5.uart_serial_example.zip)  
     \* ![I2C](/osh/wizarduino/6.i2c_example.zip)
-    #### IoT
+#### IoT
 
   - ![TCP LOOPBACK](/osh/wizarduino/tcp_loopback.zip)  
     \* ![TCP LOOPBACK LED](/osh/wizarduino/tcp_loopback_led.zip)  
@@ -228,9 +228,9 @@ M0](http://www.arduino.org/learning/getting-started/getting-started-with-arduino
 
 ## FAQ
 
-  - [How to recover a board blocked?](/osh/wizarduino/faq/rescue)
-  - [Where is the MAC address?](/osh/wizarduino/faq/mac)
-  - [How do i get a POE module?](/osh/wizarduino/faq/poe)
+  - [How to recover a board blocked?](How_to_recover_a_board_blocked.md)
+  - [Where is the MAC address?](Where_is_the_MAC_address.md)
+  - [How do i get a POE module?](How_do_i_get_a_POE_module.md)
 
 -----
 
@@ -238,9 +238,9 @@ M0](http://www.arduino.org/learning/getting-started/getting-started-with-arduino
 
 
 
-![WIZnet Online Shop](/products/w5500/buynow.png)  
+![WIZnet Online Shop](/document_framework/img/osh/wizarduino_m0_eth/buynow.png)  
 [![WIZnetKorea Online Shop,
-Korea](/products/w5500/w5500_evb/icons/won.png)](http://shop.wiznet.co.kr/front/contents/product/view.asp?cateid=90&pid=1271)
+Korea](/document_framework/img/osh/wizarduino_m0_eth/won.png)](http://shop.wiznet.co.kr/front/contents/product/view.asp?cateid=90&pid=1271)
 
 
 
