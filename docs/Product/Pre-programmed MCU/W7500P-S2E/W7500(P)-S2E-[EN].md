@@ -17,6 +17,11 @@ date: 2020-04-07
 - [English](W7500(P)-S2E-[EN].md) (current page)  
 - [Korean](W7500(P)-S2E-[KO].md)
 
+[Product Overview](../../S2E Module/WIZ750SR/WIZ750SR.md)
+
+[Getting Started Guide (English)](../../S2E Module/WIZ750SR/Getting_Started-[EN].md)
+
+[Getting Started Guide (Korean)](../../S2E Module/WIZ750SR/Getting_Started-[KO].md)
 -----
 
 ## Overview
