@@ -22,11 +22,11 @@ integrates MCU and Hardwired TCP/IP cores.
 
 ## Product Family
 
-  - [W7500](W7500/Overview.md): ARM Cortex-M0, 128KB Flash,
+  - [W7500](Overview.md): ARM Cortex-M0, 128KB Flash,
     Hardwired TCP/IP, 802.3 Ethernet MAC
-  - [W7500P](/products/w7500p/start): ARM Cortex-M0, 128KB Flash,
+  - [W7500P](W7500P/Overview.md): ARM Cortex-M0, 128KB Flash,
     Hardwired TCP/IP, 802.3 Ethernet MAC w/ **PHY**
-  - [W7100A](http://www.wiznet.io/product-item/w7100a/): 80c51
+  - [W7100A](W7100A.md): 80c51
     compatible core, 64KB Flash, Hardwired TCP/IP, MAC w/ **PHY**
 
 -----
