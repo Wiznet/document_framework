@@ -121,38 +121,31 @@ product. \*\*
   - **The following product resources are from WIZ750SR which provides
     the same function as W7500(P)-S2E chip firmware.**
 
-\<WRAP centeralign round tip center 100%\>
-
-\<WRAP group\> \<WRAP half column\> \<WRAP centeralign\>
 
 ## Documents
 
-**[Product Overview](docs/Product/S2E Module/WIZ750SR/WIZ750SR.md)**
+[Product Overview](docs/Product/S2E Module/WIZ750SR/WIZ750SR.md)
 
-**[Getting Started Guide](/products/wiz750sr/gettingstarted/start)**
+[Getting Started Guide](/products/wiz750sr/gettingstarted/start)
 
-**[User's Manual](/products/wiz750sr/usermanual/start)**
+[User's Manual](/products/wiz750sr/usermanual/start)
 
-**[Configuration Tool
-Manual](/products/wiz750sr/configtoolmanual/start)**
+[Configuration Tool Manual](/products/wiz750sr/configtoolmanual/start)
 
-**[CLI Config Tool Tutorial](/products/wiz750sr/clitool/start)**
+[CLI Config Tool Tutorial](/products/wiz750sr/clitool/start)
 
-**[Device Command Manual](/products/wiz750sr/commandmanual/start)**
+[Device Command Manual](/products/wiz750sr/commandmanual/start)
 
-**[Education Data](/products/wiz750sr/educationdata/start)**
+[Education Data](/products/wiz750sr/educationdata/start)
 
-**[Troubleshooting Guide](/products/wiz750sr/troubleshooting/start)**
+[Troubleshooting Guide](/products/wiz750sr/troubleshooting/start)
 
-**[Update History](/products/wiz750sr/history/en)**
+[Update History](/products/wiz750sr/history/en)
 
-\</WRAP\>
-
-\<WRAP half column\> \<WRAP centeralign\>
 
 ## Datasheet
 
-\</WRAP\> **[Datasheet](/products/wiz750sr/datasheet/start)**
+[Datasheet](/products/wiz750sr/datasheet/start)
 
 -----
 
@@ -263,7 +256,7 @@ services are constantly updated.
 \<WRAP round info center centeralign 60%\>
 
   
-**[sales@wiznet.io](sales@wiznet.io)**
+[sales@wiznet.io](sales@wiznet.io)
 
 \</WRAP\>
 
