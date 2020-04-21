@@ -10,9 +10,12 @@ date: 2020-04-07
 
 \*\* W7500(P) which WIZ750xx S2E firmware is programmed on\*\*
 
-\*\* Supported Languages \*\*  
-\* [English](/products/w7500x-s2e/en)  
-\* [Korean](/products/w7500x-s2e/ko) (current page)
+-----
+
+# Supported Languages  
+ 
+- [English](W7500(P)-S2E-[EN].md) 
+- [Korean](W7500(P)-S2E-[KO].md) (current page)
 
 -----
 
@@ -22,9 +25,9 @@ date: 2020-04-07
 프로그램하여 제공하는 Chip 제품**이며, 전 세계의 다양한 응용에서 널리 활용되어 검증된
 **WIZ750SR/WIZ750SR-100** 제품 펌웨어가 탑재되어 판매됩니다.
 
-![](/products/w7500-s2e/s2e_img_2.png)
+![s2e_img_2.png](/document_framework/img/products/w7500-s2e/s2e_img_2.png)
 
-![](/products/w7500-s2e/ready-made.png)
+![ready-made.png](/document_framework/img/products/w7500-s2e/ready-made.png)
 
 ### WIZnet S2E Solution
 
@@ -59,17 +62,17 @@ date: 2020-04-07
 
   
 \<WRAP group\> \<WRAP half column\> \<WRAP centeralign\>
-![](/products/w7500-s2e/w7500_c_500x500.png)
+![](/document_framework/img/products/w7500-s2e/w7500_c_500x500.png)
 
-**[\< W7500\>](/products/w7500/start)**  
+**[\< W7500\>](products/W7500/Overview.md)**  
 MII supported for PHY interface \</WRAP\>
 
 \</WRAP\>
 
 \<WRAP half column\> \<WRAP centeralign\>
-![](/products/w7500-s2e/w7500p_c_500x500.png)
+![](/document_framework/img/products/w7500-s2e/w7500p_c_500x500.png)
 
-**[\< W7500P \>](/products/w7500p/start)**  
+**[\< W7500P \>](Product/W7500p/Overview.md)**  
 10/100 Ethernet PHY integrated \</WRAP\>
 
 \</WRAP\>
