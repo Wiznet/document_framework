@@ -30,11 +30,11 @@ motor speeds.
 ### The Circuit
 
 This is the circuit for this example.
-![](/products/wizwiki_mbed_kit/kit_kr/4_pwm_buzzer_schem.png)
+![](/document_framework/img/products/wizwiki_mbed_kit/kit_en/4_pwm_buzzer_schem.png)
 
 ### Connections
 
-![](/products/wizwiki_mbed_kit/kit_kr/4_board_all.jpg)
+![](/document_framework/img/products/wizwiki_mbed_kit/kit_en/4_board_all.jpg)
 
 ## Software
 
@@ -120,8 +120,8 @@ simple music.
 
 ## Related Links
 
-   * [Starter Kit Tutorial]()
+   * [Starter Kit Tutorial](Tutorial(Eng).md)
 
 ## Next Exercise
 
-   * [Exercise 5. Reading the analog value using a variable resistor]()
+   * [Exercise 5. Reading the analog value using a variable resistor](Exercise_5._Variable_resistor(Eng).md)
