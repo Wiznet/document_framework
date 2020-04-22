@@ -25,28 +25,28 @@ Site]()
 [Exercise 1. Blinking
 LED](Exercise_1._LED(Eng).md)  
 [Exercise 2. Data output using serial
-port]()  
+port](Exercise_2._Serial_port(Eng).md)  
 [Exercise 3. Blinking LED with a
-switch]()  
+switch](Exercise_3._Switch(Eng).md)  
 [Exercise 4. Ringing a buzzer with
-PWM]()  
+PWM](Exercise_4._PWM(Eng).md)  
 [Exercise 5. Reading the analog value using a variable
-resistor]()  
+resistor](Exercise_5._Variable_resistor(Eng).md)  
 [Exercise 6. Reading the temperature sensor
-value]()  
+value](Exercise_6._Temperature_sensor(Eng).md)  
 [Exercise 7. Reading the intensity of illumination sensor
-value]()  
+value](Exercise_7._Photoresistor(Eng).md)  
 
 #### Exercises using network
 
 [Network Exercise 1. Testing TCP loopback
-communication]()  
+communication](Network_Exercise_1._TCP_loopback(Eng).md)  
 [Network Exercise 2. Controlling LED with TCP
-communication]()  
+communication](Network_Exercise_2._LED_with_TCP(Eng).md)  
 
 -----
 
 #### Related pages
 
-[WIZwiki-W7500 mbed Starter Kit]()  
-[WIZwiki-W7500 mbed Starter Kit Product Introductoin]()
+[WIZwiki-W7500 mbed Starter Kit](Product_Information(Eng).md)  
+[WIZwiki-W7500 mbed Starter Kit Product Introductoin](Product_Information(Eng).md)
