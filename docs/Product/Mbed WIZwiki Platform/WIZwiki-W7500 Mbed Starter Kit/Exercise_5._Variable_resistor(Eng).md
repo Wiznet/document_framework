@@ -28,14 +28,14 @@ analog output data.
 ### The Circuit
 
 This is the circuit for this example.
-![](/products/wizwiki_mbed_kit/kit_kr/5_potentiometer_schem.png)
+![](/document_framework/img/products/wizwiki_mbed_kit/kit_en/5_potentiometer_schem.png)
 
 ### Connections
 
 ![WIZwiki and a variable
-resistor](/products/wizwiki_mbed_kit/kit_kr/5_board_all.jpg)
-![](/products/wizwiki_mbed_kit/kit_kr/5_board_analog1.jpg)
-![](/products/wizwiki_mbed_kit/kit_kr/5_board_analog2.jpg)
+resistor](/document_framework/img/products/wizwiki_mbed_kit/kit_en/5_board_all.jpg)
+![](/document_framework/img/products/wizwiki_mbed_kit/kit_en/5_board_analog1.jpg)
+![](/document_framework/img/products/wizwiki_mbed_kit/kit_en/5_board_analog2.jpg)
 
 ## Software
 
@@ -77,7 +77,7 @@ When you download the compiled binary to the WIZwiki board and push the
 reset button, check the serial port message as rotating the dial of
 potentiometer. You can see the measured value (mV unit) periodically.
 
-![](/products/wizwiki_mbed_kit/kit_kr/5_test_result.jpg)
+![](/document_framework/img/products/wizwiki_mbed_kit/kit_en/5_test_result.jpg)
 
 If user rotates the dial clock-wise, the measured value will increase.
 If the measured value is above than 2000mV, then the LED1 of WIZwiki
@@ -97,9 +97,9 @@ wikipedia](https://en.wikipedia.org/wiki/Analog-to-digital_converter)
 
 ## Related Links
 
-  * [Starter Kit Tutorial]()
+  * [Starter Kit Tutorial](Tutorial(Eng).md)
 
 ## Next Exercise
 
 
-  * [Exercise 6. Reading the temperature sensor value]()
+  * [Exercise 6. Reading the temperature sensor value](Exercise_6._Temperature_sensor(Eng).md)
