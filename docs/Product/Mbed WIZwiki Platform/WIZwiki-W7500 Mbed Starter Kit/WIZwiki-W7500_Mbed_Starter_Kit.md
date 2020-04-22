@@ -14,7 +14,7 @@ consists of WIZwiki-W7500 board and other parts for DIY
 (Do-It-Yourself).
 
 ![mbed Starter Kit all
-parts](/products/wizwiki_mbed_kit/mbed_starter_kit_all.jpg)
+parts](/document_framework/img/products/wizwiki_mbed_kit/mbed_starter_kit_all.jpg)
 
 ## 한국어
 
