@@ -9,7 +9,7 @@ date: 2020-04-08
 # Starter Kit Tutorial
 
 Users need to sign up at ARM mbed Developer Site
-(<https://developer.mbed.org/>) before going through this tutorial. This
+🌎(<https://developer.mbed.org/>) before going through this tutorial. This
 tutorial was created for users to try each exercise while logged in to
 the ARM mbed Developer Site.
 
