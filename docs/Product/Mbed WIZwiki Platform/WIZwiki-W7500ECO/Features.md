@@ -60,15 +60,15 @@ date: 2020-04-07
 
 **WIZwiki-W7500ECO Blockdiagram**  
 ![WIZwiki-W7500ECO
-Blockdiagram](/products/wizwiki-w7500eco/wizwiki-w7500eco_blockdiagram_v1.1.png%20)  
+Blockdiagram](/document_framework/img/products/wizwiki-w7500eco/wizwiki-w7500eco_blockdiagram_v1.1.png)  
 **WIZwiki-W7500ECO Callout**  
 ![WIZwiki-W7500ECO
-Callout](/products/wizwiki-w7500eco/wizwiki-w7500eco_callout.png%20)
+Callout](/document_framework/img/products/wizwiki-w7500eco/wizwiki-w7500eco_callout.png)
 
 **WIZwiki-W7500ECO Detail Pinout**  
 ![WIZwiki-W7500ECO Detail
-Pinout](/products/wizwiki-w7500eco/wizwiki-w7500eco_detailpinout.png%20)
+Pinout](/document_framework/img/products/wizwiki-w7500eco/wizwiki-w7500eco_detailpinout.png)
 
 **WIZwiki-W7500ECO Simple Pinout**  
 ![WIZwiki-W7500ECO Simple
-Pinout](/products/wizwiki-w7500eco/wizwiki-w7500eco_simplepinout.png%20)
+Pinout](/document_framework/img/products/wizwiki-w7500eco/wizwiki-w7500eco_simplepinout.png)
