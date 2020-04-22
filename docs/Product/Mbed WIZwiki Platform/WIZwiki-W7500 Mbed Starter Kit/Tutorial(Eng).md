@@ -23,7 +23,7 @@ Site]()
 #### Exercises not using network
 
 [Exercise 1. Blinking
-LED]()  
+LED](Exercise_1._LED(Eng).md)  
 [Exercise 2. Data output using serial
 port]()  
 [Exercise 3. Blinking LED with a
