@@ -23,13 +23,13 @@ code is operating on the WIZwiki-W7500 board.
   - Test S/W : In order to check serial data, terminal program is
     required on the PC. Tera Term is used in this exercise.
 
-![](/products/wizwiki_mbed_kit/kit_kr/2_teraterm.png)
+![](/document_framework/img/products/wizwiki_mbed_kit/kit_en/2_teraterm.png)
 
 ## Hardware
 
 Connect the PC with WIZwiki-W7500 using the USB cable.
 
-![](/products/wizwiki_mbed_kit/kit_kr/bd_usb_connected.jpg)
+![](/document_framework/img/products/wizwiki_mbed_kit/kit_en/bd_usb_connected.jpg)
 
 ## Software
 
@@ -64,20 +64,20 @@ int main() {
 First, change the program name from ‘mbed-blinky’ to any name (ex:
 serial).
 
-![](/products/wizwiki_mbed_kit/kit_kr/2a.png)
+![](/document_framework/img/products/wizwiki_mbed_kit/kit_en/2a.png)
 
-![](/products/wizwiki_mbed_kit/kit_kr/2b.png)
+![](/document_framework/img/products/wizwiki_mbed_kit/kit_en/2b.png)
 
 Go to Program Workspace and select main.cpp and edit. Delete the default
 code and copy/paste the example codes and compile. Set the Tera Term as
-shown below. ![](/products/wizwiki_mbed_kit/kit_kr/2c.png)
+shown below. ![](/document_framework/img/products/wizwiki_mbed_kit/kit_en/2c.png)
 
 If the user connects the WIZwiki board with the PC, the port will be
 added. Select COM11 (COM \# could vary depending on the user’s PC).
-![](/products/wizwiki_mbed_kit/kit_kr/2d.png)
+![](/document_framework/img/products/wizwiki_mbed_kit/kit_en/2d.png)
 
 The program results are as below.
-![](/products/wizwiki_mbed_kit/kit_kr/2e.png)
+![](/document_framework/img/products/wizwiki_mbed_kit/kit_en/2e.png)
 
 ## Another example
 
@@ -91,8 +91,8 @@ the code.
 
 ## Related Links
 
-   * [Starter Kit Tutorial]()
+   * [Starter Kit Tutorial](Tutorial(Eng).md)
 
 ## Next Exercise
 
-   * [Exercise 3. Blinking LED with a switch]()
+   * [Exercise 3. Blinking LED with a switch](Exercise_3._Switch(Eng).md)
