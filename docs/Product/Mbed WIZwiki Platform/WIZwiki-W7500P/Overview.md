@@ -116,7 +116,7 @@ Pinout](/document_framework/img/products/w7500p/overview/wizwiki_w7500p_pinout_m
 **Datasheet**
 
    * [W7500P Documents]()
-   * ![LPC11U35FHI33/501 Datasheet]()
+   * ![LPC11U35FHI33/501 Datasheet](/document_framework/img/products/w7500p/overview/LPC11U3X.pdf)
 
 **Schematic**
 
