@@ -163,31 +163,21 @@ MII supported for PHY interface \</WRAP\>
 
 ## Developer's Guide
 
-\</WRAP\> **[Building a Development
-Environment](/products/wiz750sr/developers/ko#building_a_wiz750sr_development_environment)**
+**[Developer's Guide (English)](../../S2E-Module/WIZ750SR/Developer's_Guide-[EN].md)**
 
-**[Device Recovery
-Guide](/products/wiz750sr/developers/ko#wiz750sr_recovery_user_guide)**
+**[Developer's Guide (Korean)](../../S2E-Module/WIZ750SR/Developer's_Guide-[KO].md)**
 
 -----
-
-\<WRAP centeralign\>
 
 ## Download
 
-\</WRAP\> **[Software Download](/products/wiz750sr/download/start)**
+**[Software Download](../../S2E-Module/WIZ750SR/Download.md)**
 
-**[Technical References](/products/wiz750sr/reference/start)**
-
-\</WRAP\> \</WRAP\>
-
-\</WRAP\>
-
-  
+**[Technical References](../../S2E-Module/WIZ750SR/Technical_References.md)**
 
 -----
-
- 
+  
+  
 ## Customization Services
 
 ### Grow with WIZnet, Attract New Clients
@@ -208,14 +198,12 @@ support를 제공합니다.
 
 ![](/products/w7500-s2e/what-we-offer.png)
 
-  
-\<WRAP group\> \<WRAP half column\> \<WRAP centeralign\>
 
 #### 기능 확장 / 추가
 
 -----
 
-\</WRAP\> **Network Protocols**
+ **Network Protocols**
 
   - HTTP Server / Client
   - MQTT Client
@@ -232,23 +220,16 @@ support를 제공합니다.
       - I/O Monitoring
       - Event trigger
 
-\</WRAP\>
-
-\<WRAP half column\> \<WRAP centeralign\>
 
 #### 옵션 변경
 
 -----
 
-\</WRAP\>
-
   - 공장 초기값 변경
   - MAC 주소 변경
-
-\</WRAP\> \</WRAP\>
-
   
-\* Customization services에서 제공 가능한 응용 프로토콜 및 확장 기능은 지속적으로 업데이트 됩니다.
+  
+* Customization services 에서 제공 가능한 응용 프로토콜 및 확장 기능은 지속적으로 업데이트 됩니다.
 
 -----
 
@@ -257,11 +238,8 @@ support를 제공합니다.
 **위즈네트는 다양한 분야의 고객 맞춤형 제품 서비스와 기술 지원을 제공합니다.  
 아래 메일로 문의하시면 언제든 담당자의 상세한 소개를 받으실 수 있습니다.**
 
-\<WRAP round info center centeralign 60%\>
-
   
 **[sales@wiznet.io](sales@wiznet.io)**
 
-\</WRAP\>
 
 -----
