@@ -131,19 +131,19 @@ product. \*\*
 
 [Getting Started Guide (Korean)](../../S2E-Module/WIZ750SR/Getting_Started-[KO].md)
 
-[User's Manual](/products/wiz750sr/usermanual/start)
+[User's Manual](../../S2E-Module/WIZ750SR/)
 
-[Configuration Tool Manual](/products/wiz750sr/configtoolmanual/start)
+[Configuration Tool Manual](../../S2E-Module/WIZ750SR/)
 
-[CLI Config Tool Tutorial](/products/wiz750sr/clitool/start)
+[CLI Config Tool Tutorial](../../S2E-Module/WIZ750SR/)
 
-[Device Command Manual](/products/wiz750sr/commandmanual/start)
+[Device Command Manual](../../S2E-Module/WIZ750SR/)
 
 [Education Data](/products/wiz750sr/educationdata/start)
 
-[Troubleshooting Guide](/products/wiz750sr/troubleshooting/start)
+[Troubleshooting Guide](../../S2E-Module/WIZ750SR/)
 
-[Update History](/products/wiz750sr/history/en)
+[Update History](../../S2E-Module/WIZ750SR/)
 
 
 ## Datasheet
