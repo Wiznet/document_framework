@@ -47,5 +47,5 @@ date: 2020-04-08
 
 [WIZwiki-W7500 mbed Starter Kit](WIZwiki-W7500_Mbed_Starter_Kit.md)  
 [WIZwiki-W7500 mbed Starter Kit 제품
-소개]()
+소개](Product_Information(Kor).md)
 
