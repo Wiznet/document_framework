@@ -41,7 +41,7 @@ date: 2020-04-07
     네트워크를 통해 시리얼 장비를 제어하는 것이 가능**해집니다.
 
 \<WRAP centeralign round tip center 80%\> 고객의 요청에 따라, 다양한 목적의 펌웨어 커스터마이징
-및 프로그램하여 공급하는 **[Customization Services](#customization_services)**도
+및 프로그램하여 공급하는 **[Customization Services](#customization_services)** 도
 제공합니다.
 
   
@@ -107,10 +107,6 @@ MII supported for PHY interface
 ## Resources
 
   - **W7500(P)-S2E chip firmware의 기반이 되는 WIZ750SR 제품 자료입니다.**
-
-\<WRAP centeralign round tip center 100%\>
-
-\<WRAP group\> \<WRAP half column\> \<WRAP centeralign\>
 
 ## Documents
 
