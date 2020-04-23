@@ -1,9 +1,8 @@
 ---
- id: developers_guide-[EN]
- title: Developer's Guide-[EN]
- date: 2020-04-09
- ---
- 
+id: developers_guide-[EN]
+title: Developer's Guide-[EN]
+date: 2020-04-09
+---
  
  ## Content
 
