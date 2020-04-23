@@ -42,10 +42,9 @@ date: 2020-04-07
 
 \<WRAP centeralign round tip center 80%\> 고객의 요청에 따라, 다양한 목적의 펌웨어 커스터마이징
 및 프로그램하여 공급하는 **[Customization Services](#customization_services)**도
-제공합니다. \</WRAP\>
+제공합니다.
 
   
-
 ### W7500 / W7500P MCU
 
 **ARM® Cortex™-M0 based microcontroller**
