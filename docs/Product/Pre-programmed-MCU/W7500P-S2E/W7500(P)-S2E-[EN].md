@@ -8,7 +8,7 @@ date: 2020-04-07
 
 # W7500(P)-S2E
 
-\*\* W7500(P) which WIZ750xx S2E firmware is programmed on\*\*
+** W7500(P) which WIZ750xx S2E firmware is programmed on**
 
 -----
 
@@ -168,38 +168,25 @@ product. \*\*
 
 ## Developer's Guide
 
-**[Building a Development
-Environment](/products/wiz750sr/developers/start#building_a_wiz750sr_development_environment)**
+**[Developer's Guide (English)](../../S2E-Module/WIZ750SR/Developer's_Guide-[EN].md)**
 
-**[Device Recovery
-Guide](/products/wiz750sr/developers/start#wiz750sr_recovery_user_guide)**
+**[Developer's Guide (Korean)](../../S2E-Module/WIZ750SR/Developer's_Guide-[KO].md)**
 
 -----
-
-\<WRAP centeralign\>
 
 ## Download
 
-\</WRAP\> **[Software Download](/products/wiz750sr/download/start)**
+**[Software Download](../../S2E-Module/WIZ750SR/Download.md)**
 
-**[Technical References](/products/wiz750sr/reference/start)**
-
-\</WRAP\> \</WRAP\>
-
-\</WRAP\>
-
-  
+**[Technical References](../../S2E-Module/WIZ750SR/Technical_References.md)**
 
 -----
-
-  
-  
 
 ## Customization Services
 
 ### Grow with WIZnet, Attract New Clients
 
-WIZnet offers \*\* Customization services\*\* for your specific needs.
+WIZnet offers **Customization services** for your specific needs.
 
 ![](/products/w7500-s2e/wiznet-partners_relationship.png)
 
@@ -219,14 +206,12 @@ references for customer's **quick product design-win**.
 
 ![](/products/w7500-s2e/what-we-offer.png)
 
-  
-\<WRAP group\> \<WRAP half column\> \<WRAP centeralign\>
 
 #### Addable features
 
 -----
 
-\</WRAP\> **Network Protocols**
+**Network Protocols**
 
   - HTTP Server / Client
   - MQTT Client
@@ -242,24 +227,16 @@ references for customer's **quick product design-win**.
       - I/O Control
       - I/O Monitoring
       - Event trigger
-
-\</WRAP\>
-
-\<WRAP half column\> \<WRAP centeralign\>
+      
 
 #### Changeable options
 
 -----
 
-\</WRAP\>
-
   - Factory settings
   - MAC address (Customer's OUI|NIC)
 
-\</WRAP\> \</WRAP\>
-
-  
-\* Application protocols and extensions available through customization
+* Application protocols and extensions available through customization
 services are constantly updated.
 
 -----
@@ -268,11 +245,8 @@ services are constantly updated.
 
 **We offer a wide range of customizable products and technical support**
 
-\<WRAP round info center centeralign 60%\>
-
   
 [sales@wiznet.io](sales@wiznet.io)
 
-\</WRAP\>
 
 -----
