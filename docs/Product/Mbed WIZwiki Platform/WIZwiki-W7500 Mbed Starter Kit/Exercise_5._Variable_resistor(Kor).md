@@ -27,13 +27,13 @@ Converter)를 이용한다. 아날로그 값을 출력하는 센서들의 출력
 
 전체 회로도는 아래와 같다.
 
-![](/products/wizwiki_mbed_kit/kit_kr/5_potentiometer_schem.png)
+![](/document_framework/img/products/wizwiki_mbed_kit/kit_en/5_potentiometer_schem.png)
 
 ### 연결도
 
-![WIZwiki 와 가변저항 연결도](/products/wizwiki_mbed_kit/kit_kr/5_board_all.jpg)
-![](/products/wizwiki_mbed_kit/kit_kr/5_board_analog1.jpg)
-![](/products/wizwiki_mbed_kit/kit_kr/5_board_analog2.jpg)
+![WIZwiki 와 가변저항 연결도](/document_framework/img/products/wizwiki_mbed_kit/kit_en/5_board_all.jpg)
+![](/document_framework/img/products/wizwiki_mbed_kit/kit_en/5_board_analog1.jpg)
+![](/document_framework/img/products/wizwiki_mbed_kit/kit_en/5_board_analog2.jpg)
 
 ## 소프트웨어
 
@@ -71,7 +71,7 @@ int main() {
 ### 실행 방법 및 결과
 
 가변저항기의 다이얼을 움직여 가며 시리얼 포트의 메시지를 확인한다. 사진과 같이 주기적으로 밀리볼트 (mV) 단위의 measure
-값을 확인할 수 있다. ![](/products/wizwiki_mbed_kit/kit_kr/5_test_result.jpg)
+값을 확인할 수 있다. ![](/document_framework/img/products/wizwiki_mbed_kit/kit_en/5_test_result.jpg)
 
 이 예제에서는 가변기의 다이얼을 시계방향으로 회전시키면 measure 값이 올라간다. measure 값이 2000mV 이상이면
 WIZwiki 보드에 장착된 LED1이 켜진다. measure 값이 2000mV 이하이면 LED1이 꺼진다.
@@ -90,8 +90,8 @@ wikipedia](https://en.wikipedia.org/wiki/Analog-to-digital_converter)
 
 ## 관련 링크
 
-   * [스타터 킷 튜토리얼]()
+   * [스타터 킷 튜토리얼](Tutorial(Kor).md)
 
 ## 다음 예제
 
-   * [예제6. 온도 센서 값 읽어내기]()
+   * [예제6. 온도 센서 값 읽어내기](Exercise_5._Variable_resistor(Kor).md)
