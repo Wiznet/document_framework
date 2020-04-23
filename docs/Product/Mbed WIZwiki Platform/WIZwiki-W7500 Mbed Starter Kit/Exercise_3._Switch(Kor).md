@@ -30,14 +30,14 @@ date: 2020-04-08
 전체 회로도는 아래와 같다.
 
 ![Button and
-LED](/products/wizwiki_mbed_kit/kit_kr/button_led_scheme.png)
+LED](/document_framework/img/products/wizwiki_mbed_kit/kit_en/button_led_scheme.png)
 
 실습에 사용할 LED는 WIZwiki 보드에 장착되어 있으며, 아래 회로도에서 빨간색으로 표시된 부분이다. !🌎[RGB
-LED](/products/wizwiki_mbed_kit/kit_kr/3_board_led.png)
+LED](/document_framework/img/products/wizwiki_mbed_kit/kit_en/3_board_led.png)
 
 ### 연결도
 
-![](/products/wizwiki_mbed_kit/kit_kr/3_board_all.png)
+![](/document_framework/img/products/wizwiki_mbed_kit/kit_en/3_board_all.png)
 
 ## 소프트웨어
 ### Example Code
@@ -75,8 +75,8 @@ Handbook 페이지를 참고한다. 🌎<https://developer.mbed.org/handbook/Hom
 
 ## 관련 링크
 
-   * [스타터 킷 튜토리얼]()
+   * [스타터 킷 튜토리얼](Tutorial(Kor).md)
 
 ## 다음 예제
 
-   * [예제4. PWM을 이용해 부저 울리기]()
+   * [예제4. PWM을 이용해 부저 울리기](Exercise_4._PWM(Kor).md)
