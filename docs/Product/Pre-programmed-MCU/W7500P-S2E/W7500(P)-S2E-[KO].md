@@ -8,7 +8,7 @@ date: 2020-04-07
 
 # W7500(P)-S2E
 
-\*\* W7500(P) which WIZ750xx S2E firmware is programmed on\*\*
+**W7500(P) which WIZ750xx S2E firmware is programmed on**
 
 -----
 
@@ -68,7 +68,7 @@ MII supported for PHY interface
 
 ![](/document_framework/img/products/w7500-s2e/w7500p_c_500x500.png)
 
-**[ W7500P](Product/W7500p/Overview.md)**  
+**[ W7500P](../../iMCU/W7500p/Overview.md)**  
 10/100 Ethernet PHY integrated 
 
 -----
