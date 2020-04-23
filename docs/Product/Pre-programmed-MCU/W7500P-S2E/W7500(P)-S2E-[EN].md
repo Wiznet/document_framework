@@ -131,28 +131,40 @@ product. \*\*
 
 [Getting Started Guide (Korean)](../../S2E-Module/WIZ750SR/Getting_Started-[KO].md)
 
-[User's Manual](../../S2E-Module/WIZ750SR/)
+[User's Manual (English)](../../S2E-Module/WIZ750SR/User's_Manual-[EN].md)
 
-[Configuration Tool Manual](../../S2E-Module/WIZ750SR/)
+[User's Manual (Korean)](../../S2E-Module/WIZ750SR/User's_Manual-[KO].md)
 
-[CLI Config Tool Tutorial](../../S2E-Module/WIZ750SR/)
+[Configuration Tool Manual (English)](../../S2E-Module/WIZ750SR/Configuration_Tool_Manual-[EN].md)
 
-[Device Command Manual](../../S2E-Module/WIZ750SR/)
+[Configuration Tool Manual (Korean)](../../S2E-Module/WIZ750SR/Configuration_Tool_Manual-[KO].md)
 
-[Education Data](/products/wiz750sr/educationdata/start)
+[Configuration Tool Manual New (English)](../../S2E-Module/WIZ750SR/Configuration_Tool_Manual_(New)-[EN].md)
 
-[Troubleshooting Guide](../../S2E-Module/WIZ750SR/)
+[Configuration Tool Manual New (Korean)](../../S2E-Module/WIZ750SR/Configuration_Tool_Manual_(New)-[KO].md)
 
-[Update History](../../S2E-Module/WIZ750SR/)
+[CLI Config Tool Tutorial](../../S2E-Module/WIZ750SR/CLI_Config_Tool_Tutorial.md)
+
+[Device Command Manual (English)](../../S2E-Module/WIZ750SR/Command_Manual-[EN].md)
+
+[Device Command Manual (Korean)](../../S2E-Module/WIZ750SR/Command_Manual-[KO].md)
+
+[Education Data](../../S2E-Module/WIZ750SR/Education_Data.md)
+
+[Troubleshooting Guide (English)](../../S2E-Module/WIZ750SR/Trouble_Shooting-[EN].md)
+
+[Troubleshooting Guide (Korean)](../../S2E-Module/WIZ750SR/Trouble_Shooting-[KO].md)
+
+[Update History (English)](../../S2E-Module/WIZ750SR/Series_Update_History-[EN].md)
+
+[Update History (Korean)](../../S2E-Module/WIZ750SR/Series_Update_History-[KO].md)
 
 
 ## Datasheet
 
-[Datasheet](/products/wiz750sr/datasheet/start)
+[Datasheet](../../S2E-Module/WIZ750SR/Datasheet.md)
 
 -----
-
-\<WRAP centeralign\>
 
 ## Developer's Guide
 
