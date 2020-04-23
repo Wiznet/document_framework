@@ -61,21 +61,16 @@ date: 2020-04-07
   - Supports the TCP, UDP, IPv4, ICMP, ARP, IGMP and PPPoE
 
   
-\<WRAP group\> \<WRAP half column\> \<WRAP centeralign\>
 ![](/document_framework/img/products/w7500-s2e/w7500_c_500x500.png)
 
-**[\< W7500\>](products/W7500/Overview.md)**  
-MII supported for PHY interface \</WRAP\>
+**[W7500](products/W7500/Overview.md)**  
+MII supported for PHY interface 
 
-\</WRAP\>
 
-\<WRAP half column\> \<WRAP centeralign\>
 ![](/document_framework/img/products/w7500-s2e/w7500p_c_500x500.png)
 
-**[\< W7500P \>](Product/W7500p/Overview.md)**  
-10/100 Ethernet PHY integrated \</WRAP\>
-
-\</WRAP\>
+**[ W7500P](Product/W7500p/Overview.md)**  
+10/100 Ethernet PHY integrated 
 
 -----
 
