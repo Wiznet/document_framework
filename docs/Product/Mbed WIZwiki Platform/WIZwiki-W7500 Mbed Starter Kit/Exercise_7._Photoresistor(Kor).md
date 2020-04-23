@@ -27,11 +27,11 @@ ADC를 이용해서 조도 센서 값을 읽어내는 예제이다. 아날로그
 
 전체 회로도는 아래와 같다.
 
-![](/products/wizwiki_mbed_kit/kit_kr/cds_sensor_schem.png)
+![](/document_framework/img/products/wizwiki_mbed_kit/kit_en/cds_sensor_schem.png)
 
 ### 연결도
 
-![](/products/wizwiki_mbed_kit/kit_kr/exam_cds_sensor.png)
+![](/document_framework/img/products/wizwiki_mbed_kit/kit_en/exam_cds_sensor.png)
 
 ## 소프트웨어
 
@@ -87,7 +87,7 @@ int main() {
 ### 실행 방법 및 결과
 
 다음은 예제의 실행 화면이다. CDS 값과 3.3V 기준으로 측정된 CDS전압 값이 번갈아 보인다.
-![](/products/wizwiki_mbed_kit/kit_kr/cds_sensor_result.jpg)
+![](/document_framework/img/products/wizwiki_mbed_kit/kit_en/cds_sensor_result.jpg)
 
 ## 학습 자료
 
@@ -99,4 +99,4 @@ int main() {
 
 ## 관련 링크
 
-   * [스타터 킷 튜토리얼]()
+   * [스타터 킷 튜토리얼](Tutorial(Kor).md)
