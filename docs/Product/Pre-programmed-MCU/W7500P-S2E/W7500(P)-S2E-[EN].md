@@ -125,11 +125,11 @@ product. \*\*
 
 ## Documents
 
-[Product Overview](../../S2E Module/WIZ750SR/WIZ750SR.md)
+[Product Overview](../../S2E-Module/WIZ750SR/WIZ750SR.md)
 
-[Getting Started Guide (English)](../../S2E Module/WIZ750SR/Getting_Started-[EN].md)
+[Getting Started Guide (English)](../../S2E-Module/WIZ750SR/Getting_Started-[EN].md)
 
-[Getting Started Guide (Korean)](../../S2E Module/WIZ750SR/Getting_Started-[KO].md)
+[Getting Started Guide (Korean)](../../S2E-Module/WIZ750SR/Getting_Started-[KO].md)
 
 [User's Manual](/products/wiz750sr/usermanual/start)
 
