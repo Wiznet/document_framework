@@ -29,7 +29,7 @@ Comparison Sheet** provides comparison with ESP8266 AT command.
 ### WizFi360
 
   - ![WizFi360 Datasheet
-    v1.05](/products/wizfi360/wizfi360ds/wizfi360_ds_v105_en.pdf)
+    v1.05](/document_framework/img/products/wizfi360/wizfi360ds/wizfi360_ds_v105_en.pdf)
 
 <!-- end list -->
 
@@ -62,7 +62,7 @@ Comparison Sheet** provides comparison with ESP8266 AT command.
 
 
 
-  * [WizFi360-EVB-Shield Datasheet]()
+  * [WizFi360-EVB-Shield Datasheet](/document_framework/img/products/wizfi360/wizfi360ds/wizfi360-evb-shield_ds_112_en.pdf)
 
 
 
