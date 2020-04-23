@@ -21,12 +21,12 @@ to any 8/16/32-bit microcontroller via simple AT commands.
 
 ## Product Family
 
-  - [WizFi360](/products/wizfi360/start): Single band 2.4GHz
+  - [WizFi360](WizFi360.md): Single band 2.4GHz
     802.11b/g/n, low cost solution 
-  - [WizFi250](/products/wizfi250/start): Single band 2.4GHz 802.11b/g/n
+  - [WizFi250](WizFi250.md): Single band 2.4GHz 802.11b/g/n
     Wi-Fi module
-  - [WizFi310](/products/wizfi310/start): Single band 2.4GHz
+  - [WizFi310](WizFi310.md): Single band 2.4GHz
     802.11b/g/n, Support MQTT, GMMP, TLS applications protocols 
-  - [WizFi630S](/products/wizfi630s/start): Single band 2.4GHz
+  - [WizFi630S](WizFi630S.md): Single band 2.4GHz
     802.11b/g/n Gateway module
-  - [WizFi630A](/products/wizfi630a/start): Discontinued
+  - [WizFi630A](WizFi630A.md): Discontinued
