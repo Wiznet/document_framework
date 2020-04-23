@@ -29,11 +29,11 @@ PWM 모듈을 설정하면 다양한 파형을 만들 수 있다. PWM을 이용�
 
 전체 회로도는 아래와 같다.
 
-![](/products/wizwiki_mbed_kit/kit_kr/4_pwm_buzzer_schem.png)
+![](/document_framework/img/products/wizwiki_mbed_kit/kit_en/4_pwm_buzzer_schem.png)
 
 ### 연결도
 
-![](/products/wizwiki_mbed_kit/kit_kr/4_board_all.jpg)
+![](/document_framework/img/products/wizwiki_mbed_kit/kit_en/4_board_all.jpg)
 
 ## 소프트웨어
 
@@ -117,8 +117,8 @@ wait(0.1);
 
 ## 관련 링크
 
-   * [스타터 킷 튜토리얼]()
+   * [스타터 킷 튜토리얼](Tutorial(Kor).md)
 
 ## 다음 예제
 
-   * [예제5. 가변저항기를 이용해 아날로그 값 읽어내기]()
+   * [예제5. 가변저항기를 이용해 아날로그 값 읽어내기](Exercise_5._Variable_resistor(Kor).md)
