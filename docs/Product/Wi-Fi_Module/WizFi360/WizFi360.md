@@ -19,20 +19,20 @@ be up to 2Mbps, which can meet the requirement of various applications.
 
 |                                                                   |
 | ----------------------------------------------------------------- |
-| ![WizFi360-PA(PCB Antena)](/products/wizfi360/wizfi360-pa.png%20) |
+| ![WizFi360-PA(PCB Antena)](/document_framework/img/products/wizfi360/wizfi360-pa.png) |
 | Figure: ***WizFi360-PA(PCB Antena)***                             |
 
 
 |                                                                                |
 | ------------------------------------------------------------------------------ |
-| ![WizFi360-CON(U.fl Connector Antena)](/products/wizfi360/wizfi360-con.png%20) |
+| ![WizFi360-CON(U.fl Connector Antena)](/document_framework/img/products/wizfi360/wizfi360-con.png) |
 | Figure: ***WizFi360-CON(U.fl Connector Antena)***                              |
 
 
 
 |                                                         |
 | ------------------------------------------------------- |
-| ![WizFi360-EVB](/products/wizfi360/wizfi360-evb.jpg%20) |
+| ![WizFi360-EVB](/document_framework/img/products/wizfi360/wizfi360-evb.jpg) |
 | Figure: ***WizFi360-EVB***                              |
 
 
