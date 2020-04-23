@@ -26,11 +26,11 @@ ADC를 이용해서 아날로그 온도 센서 값을 읽어내는 예제이다.
 ### 회로도
 
 전체 회로도는 아래와 같다.
-![](/products/wizwiki_mbed_kit/kit_kr/temp_sensor_schem.png)
+![](/document_framework/img/products/wizwiki_mbed_kit/kit_en/cds_sensor_schem.png)
 
 ### 연결도
 
-![](/products/wizwiki_mbed_kit/kit_kr/exam_temp_sensor.png)
+![](/document_framework/img/products/wizwiki_mbed_kit/kit_en/exam_cds_sensor.png)
 
 ## 소프트웨어
 
@@ -74,7 +74,7 @@ int main(void)
 
 다음은 예제의 실행 화면이다. 섭씨와 화씨 온도 값이 번갈아 보인다.
 
-![](/products/wizwiki_mbed_kit/kit_kr/temp_sensor_result.jpg)
+![](/document_framework/img/products/wizwiki_mbed_kit/kit_en/temp_sensor_result.jpg)
 
 ## 학습 자료
 
@@ -86,8 +86,8 @@ int main(void)
 
 ## 관련 링크
 
-  * [스타터 킷 튜토리얼]()
+  * [스타터 킷 튜토리얼](Tutorial(Kor).md)
 
 ## 다음 예제
 
-  * [예제7. 조도 센서 값 읽어내기]()
+  * [예제7. 조도 센서 값 읽어내기](Exercise_7._Photoresistor(Kor).md)
