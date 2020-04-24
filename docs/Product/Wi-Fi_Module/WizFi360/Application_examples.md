@@ -61,5 +61,5 @@ AP configration setting and TCP communication using Smartphone App.
 
 SPI Slave Communication mode.
  
- * [WizFi360 SPI MODE guide KR V1.0.3]()
- * [WizFi360 SPI MODE guide EN V1.0.1]()
+ * [WizFi360 SPI MODE guide KR V1.0.3](/document_framework/img/products/wizfi360/wizfi360app/wizfi360_an_spi_k_103_1.pdf)
+ * [WizFi360 SPI MODE guide EN V1.0.1](/document_framework/img/products/wizfi360/wizfi360app/wizfi360_an_spi_e_101_1.pdf)
