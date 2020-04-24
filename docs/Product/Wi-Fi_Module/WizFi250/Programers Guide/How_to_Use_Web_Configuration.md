@@ -76,52 +76,59 @@ This section explains how to set the protocol as TCP or UDP and then associate t
 
 If you click the next_step button after finishing the setting, the web page will be shown as below.
 
-
+![](/document_framework/img/products/wizfi250/wizfi250pg/wizfi250pg-8.png)
 
 If you click the <Go> button on this web page, WizFi250 will scan the Access-Point in order to connect to it. The Access-Point must be set with <WPS-PBC> function as in this picture.
 ( In this example, we used LINKSYS Access-Point )
 
-
+![](/document_framework/img/products/wizfi250/wizfi250pg/wizfi250pg-9.png)
 
 This picture shows the log message stating that WizFi250 finished the WPS function successfully.
 
-
+![](/document_framework/img/products/wizfi250/wizfi250pg/wizfi250pg-10.png)
 
 
 ### WPS(PIN)
 
-This section explains how to set the protocol as TCP or UDP and then associate it to the Access Point by WPS method. If you select “WPS(PIN)“, you will see the webpage as shown in this picture. For detailed information, refer to Serial to Wi-Fi Setting.
+This section explains how to set the protocol as TCP or UDP and then associate it to the Access Point by WPS method. If you select “WPS(PIN)“, you will see the webpage as shown in this picture. For detailed information, refer to [Serial to Wi-Fi Setting]().
 
-
+![](/document_framework/img/products/wizfi250/wizfi250pg/wizfi250pg-4-2.png)
 
 If you click the next_step button after finishing the setting, the web page will be shown as below.
 
-
+![](/document_framework/img/products/wizfi250/wizfi250pg/wizfi250pg-11.png)
 
 If you enter PIN number and click <Go> button, WizFi250 will scan the Access-Point in order to connect to it. Access-Point must be set as <WPS-PIN> function as below. ( In this example, we used LINKSYS Access-Point )
 
-
+![](/document_framework/img/products/wizfi250/wizfi250pg/wizfi250pg-12.png)
 
 If the WPS-PIN function is successful, you will see a serial log message as on this picture.
 
-
+![](/document_framework/img/products/wizfi250/wizfi250pg/wizfi250pg-10.png)
 
 
 ### Change to OTA Mode
 
 If you select “Change to OTA Mode” icon, you will see the web page as on this picture.
 
+![](/document_framework/img/products/wizfi250/wizfi250pg/wizfi250pg-13.png)
 
 
-If you click the <Change to OTA mode> button on this page, WizFi250 will run in OTA Mode. For detailed information about OTA Mode, refer to Upload newest firmware in OTA mode
+If you click the <Change to OTA mode> button on this page, WizFi250 will run in OTA Mode. For detailed information about OTA Mode, refer to [Upload newest firmware in OTA mode]()
 
 ### GPIO Control
 
-If you select the “GPIO Control” icon you will see the web page as shown on this picture.On this page, you can select “Get GPIO Status” menu or “Set GPIO Status” menu.
+If you select the “GPIO Control” icon you will see the web page as shown on this picture.
+![](/document_framework/img/products/wizfi250/wizfi250pg/wizfi250pg-13-1.png)
+On this page, you can select “Get GPIO Status” menu or “Set GPIO Status” menu.
 
-If you click “Next” button after selecting “Get GPIO Status” menu, you can see the web page as this picture.On this page, you can check the real time GPIO status of WizFi250.
+If you click “Next” button after selecting “Get GPIO Status” menu, you can see the web page as this picture.
+![](/document_framework/img/products/wizfi250/wizfi250pg/wizfi250pg-13-2.png)
+On this page, you can check the real time GPIO status of WizFi250.
 
-If you select “Set GPIO Status” menu, you will see the web page as on this picture.On this page, you can set gpio mode and gpio value of WizFi250.
+If you select “Set GPIO Status” menu, you will see the web page as on this picture.
+![](/document_framework/img/products/wizfi250/wizfi250pg/wizfi250pg-13-3.png)
+On this page, you can set gpio mode and gpio value of WizFi250.
 
    * When set as output mode… mode, WizFi250 will set gpio config value to  
      OUTPUT_PUSH_PULL.
@@ -137,7 +144,7 @@ For detailed information about it, refer to AT+FGPIO.
 
 If you select “Serial Setting” icon, you can see the web page as this picture.
 
-
+![](/document_framework/img/products/wizfi250/wizfi250pg/wizfi250pg-23.png)
 
 On this page, you can set serial information. When you select the <Set Serial Config> button after your choice values, WizFi250 will be restarted in order to change serial information.
 For detailed information about it, refer to AT+USET.
@@ -149,7 +156,7 @@ For detailed information about it, refer to AT+USET.
 
 If you select the „User Information“ icon, you will see the web page as in this picture.
 
-
+![](/document_framework/img/products/wizfi250/wizfi250pg/wizfi250pg-24.png)
 
 On this page, you can change user id and user password. For changing user information, you have to input current id and password.
 
