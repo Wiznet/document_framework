@@ -19,7 +19,7 @@ limited or no WiFi or RF expertise, as it not only reduces RF design
 time but also removes the burden of testing and certification, allowing
 customers; allowing customers to focus on their core application,
 product, or expertise. WizFi250 is compliant with 802.11b/g/n.  
-![](/products/wizfi250/dsc00057.jpg)  
+![](/document_framework/img/products/wizfi250/dsc00057.jpg)  
 
 ### Features 
 
@@ -54,17 +54,17 @@ product, or expertise. WizFi250 is compliant with 802.11b/g/n.
   
 **WizFi250-PA** (standard **pa**ttern antenna version with LGA
 footprint) :  
-![](/products/wizfi250/wizfi250-pa_2.gif)  
+![](/document_framework/img/products/wizfi250/wizfi250-pa_2.gif)  
 
 -----
 
   
 **WizFi250-CON** (smaller '**con**nector' version without the pattern
 antenna) :  
-![WizFi250-CON\_2\_small.png](/products/wizfi250/WizFi250-CON_2_small.png)  
+![WizFi250-CON\_2\_small.png](/document_framework/img/products/wizfi250/wizfi250-con_2_small.png)  
  
 **WizFi250-H** (pin **H**eader adapter version - we use in our EVB) :  
-![](/products/wizfi250/wizfi250-h_2.gif)![](/products/wizfi250/wizfi250-h_1_small.png)  
+![](/products/wizfi250/wizfi250-h_2.gif)![](/document_framework/img/products/wizfi250/wizfi250-h_1_small.png)  
   
  
 **comparison to
