@@ -2,9 +2,8 @@
 
 **Supported Languages**
 
-  - [English](/products/w5500s2e-z1/overview/en) 
-  - [Korean](/products/w5500s2e-z1/overview/ko) (current page)
-
+  - [English](Overview-[EN].md) 
+  
 -----
 
 ## Overview
