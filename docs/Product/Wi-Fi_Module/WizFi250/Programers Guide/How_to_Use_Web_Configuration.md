@@ -1,7 +1,7 @@
 ---
 id: how_to_use_web_configuration
 title: How to Use Web Configuration
-date: 2020-03-
+date: 2020-04-24
 ---
 
 
@@ -14,11 +14,11 @@ date: 2020-03-
 This picture shows the main page of WizFi250’s web server. In order to enter this page, WizFi250 should operate as SoftAP mode or associate to target AP as STA mode.
 The web server is launched automatically when joined to target AP or operate SoftAP. If you do not want to operate the web server, you can use <AT+FWEBS> command. For detailed information about <AT+FWEBS> command, refer to AT+FWEBS. After entering this page, users have to input user id and user password. Its default value is admin. If you want to change user id or user password, you can use <AT+MCWUI> command. For detailed information about <AT+MCWUI> command, refer to AT+MCWUI.
 
-
+![](/document_framework/img/products/wizfi250/wizfi250pg/wizfi250pg-2-1.png)
 
 After input user information, user can choose an item to perform among below listed 5 items.
 
-
+![](/document_framework/img/products/wizfi250/wizfi250pg/wizfi250pg-2.png)
 
 ### Serial to Wi-Fi Setting
 
@@ -27,49 +27,52 @@ If you select “S2W Setting & Scan Network” icon, you can enter into web page
 #### Set AP Mode
 If you want to use AP Mode and TCP Server, you can select parameter as showm on picture. If you want to use TCP Server or UDP Server, you don't need to input <Remote IP> and <Remote Port>.
 
-
+![](/document_framework/img/products/wizfi250/wizfi250pg/wizfi250pg-2.png)
 
 If WizFi250 was set successfully, you willsee the success message as below.
 
-
+![](/document_framework/img/products/wizfi250/wizfi250pg/wizfi250pg-4.png)
 
 And after checking success result, click the <Next_Step> button in order to move on to the next page. If wrong value was inputted, WizFi250 will return fail message like below.
 
-
+![](/document_framework/img/products/wizfi250/wizfi250pg/wizfi250pg-5.png)
 
 On the next page users can set AP information like SSID, Security and Security Key value as below.
 
-
+![](/document_framework/img/products/wizfi250/wizfi250pg/wizfi250pg-5-1.png)
 
 If it finishes successfully, the user will see the message as below.
 
-
+![](/document_framework/img/products/wizfi250/wizfi250pg/wizfi250pg-5-2.png)
 
 #### Station Mode
 
 If the user seta Station Mode on this web page, the user can select protocol and other information as Remote IP, Remote Port and Local Port. In this example, we will explain how to set Station Mode and TCP Client.
 
-
+![](/document_framework/img/products/wizfi250/wizfi250pg/wizfi250pg-3-1.png)
 
 If WizFi250 was set successfully, you will see the success message as below.
 
+![](/document_framework/img/products/wizfi250/wizfi250pg/wizfi250pg-4-1.png)
+
 Then you can select DHCP mode or Static mode. In this example we chose DHCP mode. When using DHCP, it is not required to select IP information.
 
+![](/document_framework/img/products/wizfi250/wizfi250pg/wizfi250pg-6.png)
 
 
 Enter a Password and then Select the <Join> button you want to associate to SSID.
 
-
+![](/document_framework/img/products/wizfi250/wizfi250pg/wizfi250pg-6-1.png)
 
 If you can see “Device Started. Web server and access point stopped. See UART for further information.” message in the web browser and “Successfully joined” message in the serial terminal, WizFi250 is associated to AP successfully.
 This picture is serial message when WizFi250 is associated to AP successfully.
 
-
+![](/document_framework/img/products/wizfi250/wizfi250pg/wizfi250pg-7.png)
 
 ### WPS(Push Button)
 
 This section explains how to set the protocol as TCP or UDP and then associate to Access Point by WPS method. If you select „WPS(Push button)“, you can see the web page as on this picture. For more detailed information, refer to Serial to Wi-Fi Setting.
-
+![](/document_framework/img/products/wizfi250/wizfi250pg/wizfi250pg-4-2.png)
 
 If you click the next_step button after finishing the setting, the web page will be shown as below.
 
