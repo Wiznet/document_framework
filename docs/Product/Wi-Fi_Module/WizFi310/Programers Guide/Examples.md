@@ -262,7 +262,7 @@ information like IP address and port number. But before peer system is
 connected to WizFi310, WizFi310 does not send data to peer system
 because WizFi310 does not know its information. Thus peer system must
 send data to WizFi310 in order to know peer system’s information like
-below. ![](/products/wizfi310/wizfi310pg/udp_server_caution.png) The
+below. ![](/document_framework/img/products/wizfi310/wizfi310pg/udp_server_caution.png) The
 other information for exchanging data is same as [Exchanging data with a
 peer system](/products/wizfi310/wizfi310pg/examples-data_communication#Exchanging%20data%20with%20a%20peer%20system).
 
@@ -779,7 +779,7 @@ The command should be sent with these conditions:
 
 Example usage of the WizFi310AirCmd:
 
-![](/products/wizfi310/wizfi310pg/aircmd_intro.png)  
+![](/document_framework/img/products/wizfi310/wizfi310pg/aircmd_intro.png)  
 >
 
     AT+WSET=1,WizFi310_AIRCMD
@@ -858,7 +858,7 @@ Repository](https://github.com/wpgnss/WizFi310_Config_Tool_Android)
 This picture shows the configuration page of WizFi310 Config Tool. If you want to use \<WizFi310 Config Tool\>,
 WizFi310 will be set to \<Soft AP mode\>
 
-![](/products/wizfi310/wizfi310pg/set_info.png)
+![](/document_framework/img/products/wizfi310/wizfi310pg/set_info.png)
 
   - **WizFi310**
      * **WizFi310 SSID** : SSID of WizFi310.
@@ -892,14 +892,14 @@ If you push \<SCAN\> button, \<WizFi310 Config Tool\> will search SSID
 of WizFi310. If SSID of WizFi310 doesn't match \<WizFi310 SSID\> value
 in general setting, \<WizFi310 Config Tool\> will display error message.
 
-![](/products/wizfi310/wizfi310pg/find_ap.png)
+![](/document_framework/img/products/wizfi310/wizfi310pg/find_ap.png)
 
 #### Join to scanned AP
 
 If you push \<Join\> button after scan SSID of WizFi310, \<WizFi310
 Config Tool\> will connect to WizFi310.
 
-![](/products/wizfi310/wizfi310pg/join_ap.png)
+![](/document_framework/img/products/wizfi310/wizfi310pg/join_ap.png)
 
 #### Set Air Command to WizFi310
 
@@ -907,7 +907,7 @@ If you push \<AIR COMMAND\> button after previous step is done
 successfully, \<WizFi310 Config Tool\> will set WizFi310 in order to
 join to AP and connect to destination server.
 
-![](/products/wizfi310/wizfi310pg/set_atcmd.png)
+![](/document_framework/img/products/wizfi310/wizfi310pg/set_atcmd.png)
 
 # Example - MQTT
 
