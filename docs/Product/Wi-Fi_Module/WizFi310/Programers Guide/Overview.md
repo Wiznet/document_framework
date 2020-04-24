@@ -17,4 +17,4 @@ For WizFi250 fans, the WizFi310 comes with compatible AT Commands
 
   
   
-![](/products/wizfi310/wizfi310pg/wizfi310-evb.png)
+![](/document_framework/img/products/wizfi310/wizfi310-evb.png)
