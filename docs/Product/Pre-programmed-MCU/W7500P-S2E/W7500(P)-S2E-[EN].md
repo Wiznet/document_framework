@@ -44,11 +44,7 @@ applications around the world
     networking function to a device supporting UART interface**, the
     devices can be controlled via an Ethernet network - Internet.
 
-\<WRAP centeralign round tip center 60%\> We also provide
-**[Customization Services](#customization-services)** such as change /
-add functions by customer request. \</WRAP\>
-
-  
+ We also provide **[Customization Services](#customization-services)** such as change / add functions by customer request.
 
 ### W7500 / W7500P MCU
 
