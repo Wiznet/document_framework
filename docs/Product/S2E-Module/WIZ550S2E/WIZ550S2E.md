@@ -38,17 +38,17 @@ versa.
 
 ## Future Plan 
 
-[한글](wiz550s2efp_kr.md)  
-[English](wiz550s2efp_en.md)  
+[한글](Future_Plan[KO].md)  
+[English](Future_Plan[EN].md)  
 
 ## Download 
 
-[Download](wiz550s2e_download.d)  
+[Download](Download.md)  
 
 ## Tutorial
 
-[한글](wiz550s2e_tutorial_kr.md)  
-[English](wiz550s2e_tutorial_en.md)  
+[한글](Tutorial(Kor).md)  
+[English](Tutorial(Eng).md)  
 
 -----
 
@@ -63,7 +63,5 @@ USA](/products/w5500/w5500_evb/icons/dollar.png)](http://www.shopwiznet.com/)
 Germany](/products/w5500/w5500_evb/icons/european-euro.png)](http://shop.wiznet.eu/)
 [![WIZnetKorea Online Shop,
 Korea](/products/w5500/w5500_evb/icons/won.png)](http://shop.wiznet.co.kr/)
-
-
 
 -----
