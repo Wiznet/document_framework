@@ -1,6 +1,6 @@
 ---
-id: gtting_started
-title: Getting Started
+id: gtting_started-[EN]
+title: Getting Started-[EN]
 date: 2020-04-16
 ---
 
