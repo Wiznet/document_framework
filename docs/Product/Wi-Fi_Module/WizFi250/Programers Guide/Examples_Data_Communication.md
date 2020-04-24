@@ -1,7 +1,7 @@
 ---
 id: examples_data_communication
 title: Examples - Data Communication
-date: 2020-03-
+date: 2020-04-24
 ---
 
 
@@ -19,9 +19,9 @@ This section explains how to open <TCP Client Socket> and communicate with peer 
 
 If you enter <O> or <SO> value to <Open Type> parameter, WizFi250 will try to connect to TCP Server immediately.
       
-But when using <S> value, WizFi250 will try to connect to TCP Server after reboot and you have to set <SocketType>,<RemoteIP>,<RemotePort> and <LocalPort> as below
+But when using <S> value, WizFi250 will try to connect to TCP Server after reboot and you have to set SocketType,RemoteIP,RemotePort and LocalPort as below
       
-In order to set WizFi250 to data mode, you have to enter 1 value to <Data Mode> parameter of <AT+SCON> command. For detailed information to this command, refer to AT+SCON. 
+In order to set WizFi250 to data mode, you have to enter 1 value to <Data Mode> parameter of AT+SCON command. For detailed information to this command, refer to AT+SCON. 
       
  
  
@@ -126,7 +126,9 @@ This section explains how to open <UDP Server Socket> and communicate to peer sy
     
  >
 #### Exchanging data with a peer system
-<UDP Server Mode> can connect UDP connection without peer systes information like IP address and port number. But before peer system is connected to WizFi250, WizFi250 does not send data to peer system because WizFi250 does not know its information. Thus peer system must send data to WizFi250 in order to know peer system’s information like below.The other information for exchanging data is same as [Exchanging data with a peer system.]()
+<UDP Server Mode> can connect UDP connection without peer systes information like IP address and port number. But before peer system is connected to WizFi250, WizFi250 does not send data to peer system because WizFi250 does not know its information. Thus peer system must send data to WizFi250 in order to know peer system’s information like below.
+![](/document_framework/img/products/wizfi250/wizfi250pg/caution_when_using_udp_server_mode.png)
+The other information for exchanging data is same as [Exchanging data with a peer system.]()
 
 #### Socket Close
 Closing socket connection is the same as previous Socket Close.
