@@ -32,8 +32,8 @@ date: 2020-04-16
 <!-- end list -->
 
   - **User's Guide**:
-    [\[English](/products/wiz550sr/wiz550sr_userguide_en)\] /
-    [\[Korean](/products/wiz550sr/wiz550sr_userguide_kr)\]
+    [[English](/products/wiz550sr/wiz550sr_userguide_en)\] /
+    [[Korean](/products/wiz550sr/wiz550sr_userguide_kr)\]
       - Configuration Tool
       - Serial AT command set
 
