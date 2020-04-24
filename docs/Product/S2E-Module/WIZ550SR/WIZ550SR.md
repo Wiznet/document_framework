@@ -48,8 +48,8 @@ date: 2020-04-16
 ## Datasheet
 
   - **Datasheet**: 
-  [[English](/products/wiz550sr/wiz550sr_ds_en)] /
-    [[Korean](/products/wiz550sr/wiz550sr_ds_kr)] 
+  [[English](Datasheet(Hardware_Spec,_Characteristics)-[EN].md)] /
+    [[Korean](/Datasheet(Hardware_Spec,_Characteristics)-[KO].md)] 
       - Hardware Specification
       - Electrical Characteristics
       - Reference Schematics
