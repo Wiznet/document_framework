@@ -75,13 +75,13 @@ WizFi310 is compliant with 802.11b/g/n.
 family:**
 ### Material 
 
-  - [WizFi310 Datasheet](/products/wizfi310/wizfi310ds/start)
-  - [WizFi310 Programmer's Guide](/products/wizfi310/wizfi310pg/start)
-  - [WizFi310 Quick Start Guide](/products/wizfi310/wizfi310qsg/start)
+  - [WizFi310 Datasheet](Datasheet.md)
+  - [WizFi310 Programmer's Guide]()
+  - [WizFi310 Quick Start Guide](Quick_Start_Guide.md)
   - [WizFi310 EVB
-    Dimension](/products/wizfi310/wizfi310evbdimension/start)
-  - [WizFi310 EVB SCH](/products/wizfi310/wizfi310evbsch/start)
+    Dimension]()
+  - [WizFi310 EVB SCH]()
   - [WizFi310 Firmware(Using
-    Serial)](/products/wizfi310/wizfi310firmware/start)
+    Serial)]()
   - [WizFi310 Firmware(Using
-    OTA)](/products/wizfi310/wizfi310firmware_ota/start)
+    OTA)]()
