@@ -17,19 +17,19 @@ removable. We put the SMD type WizFi250 module on a Interface adapter
 board (that is than named WizFi250-H).  
 The pin headers have a **distance** of exactly **17mm**.
 
-![](/products/wizfi250/wizfi250evbsch/wizfi250-h_footprint.png)
+![](/document_framework/img/products/wizfi250/wizfi250evbsch/wizfi250-h_footprint.png)
 
 ![EVB
-Schematic(PDF)](/products/wizfi250/wizfi250evbsch/wizfi250_evb_sch_v100_131224_.pdf)
+Schematic(PDF)](/document_framework/img/products/wizfi250/wizfi250evbsch/wizfi250_evb_sch_v100_131224_.pdf)
 ![EVB Schematic(Eagle
-CAD)](/products/wizfi250/wizfi250evbsch/wizfi250_evb_sch_v100_131224_.zip)
+CAD)](/document_framework/img/products/wizfi250/wizfi250evbsch/wizfi250_evb_sch_v100_131224_.zip)
 
 ![I/F Board
-Schematic(PDF)](/products/wizfi250/wizfi250evbsch/wizfi250_if_sch_v_100_131224_.pdf)
+Schematic(PDF)](/document_framework/img/products/wizfi250/wizfi250evbsch/wizfi250_if_sch_v_100_131224_.pdf)
 ![I/F Board
-Schematic(PADS)](/products/wizfi250/wizfi250evbsch/wizfi250_if_sch_v100.zip)
+Schematic(PADS)](/document_framework/img/products/wizfi250/wizfi250evbsch/wizfi250_if_sch_v100.zip)
 
 ![Ref
 Schematic](/products/wizfi250/wizfi250ds/wizfi250_ref_schematic.pdf)
 
-![Partlist](/products/wizfi250/wizfi250evbsch/wizfi250_evb_pl_v100_131224_.pdf)
+![Partlist](/document_framework/img/products/wizfi250/wizfi250evbsch/wizfi250_evb_pl_v100_131224_.pdf)
