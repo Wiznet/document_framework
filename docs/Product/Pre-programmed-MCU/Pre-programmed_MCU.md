@@ -29,6 +29,6 @@ WIZnet MCU products which **S2E firmware is programmed on**
 
 ### Sidebar
 
-  - [Pre-programmed MCU sidebar](/docs/Product/Pre-programmed-MCU/)
+  - [Pre-programmed MCU sidebar](Pre-programmed-MCU/)
 
 -----
