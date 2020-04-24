@@ -35,6 +35,7 @@ Through the function pin, users can perform specific actions without AT Command.
 
 
 Time sequence graph is as below.
+![](/document_framework/img/products/wizfi250/wizfi250pg/function_button_time_diagram.jpg)
 
 |**Variable**|**Min**|	**Typ**|**Max**|
 |------------|-------|---------|-------|
