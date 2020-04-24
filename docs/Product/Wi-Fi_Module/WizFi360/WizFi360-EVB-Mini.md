@@ -8,7 +8,7 @@ date: 2020-03-
 ## Content
 # WizFi360-EVB-Mini
 
-![WizFi360-EVB-Mini](/products/wizfi360/board/wizfi360-evb-mini/wizfi360-mini3.png)
+![WizFi360-EVB-Mini](/document_framework/img/products/wizfi360/board/wizfi360-evb-mini/wizfi360-mini3.png)
 
 ### Overview
 
@@ -56,13 +56,13 @@ be up to 2Mbps, which can meet the requirement of various applications.
 ### Quick Start Guide
 
   - 🌎[Quick Start
-    Guide](/products/wizfi360/wizfi360ds/start#Quick%20Start%20Guide)
+    Guide](Documents.md)
 
 -----
 
 ### Datasheet
 
-  - 🌎[Download](/products/wizfi360/wizfi360ds/start#datasheet)
+  - 🌎[Download](Documents.md)
 
 -----
 ### Technical Reference
