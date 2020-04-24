@@ -18,29 +18,23 @@ versa.
 
 ## Datasheet / Hardware information
 
-[한글](wiz550s2eds_kr.md)  
-[English](wiz550s2eds_en.md)  
-[中文](wiz550s2eds_cn.md) 
+[한글](Datasheet(Kor).md)  
+[English](Datasheet(Eng).md)  
+[中文](Datasheet(Chn).md) 
 
 ## Programmer's Guide 
 
-[한글](/products/wiz550s2e/wiz550s2epg_kr.md)  
-  * [AT
-Command](wiz550s2e_at_command_set_kr.md)  
-  * [Configuration
-Tool](wiz550se_configuration_tool_kr.md)
+[한글](Programmer_Guide(Kor).md)  
+  * [AT Command](AT_Command(Kor).md)  
+  * [Configuration Tool](Configuration_Tool(Kor).md)
 
-[English](/wiz550s2epg_en.md)  
-  * [AT
-Command](wiz550s2e_programmer_s_guide_en.md)  
-  * [Configuration
-Tool](configuration_tool_en.md)  
+[English](Programmer_Guide(Eng).md)  
+  * [AT Command](AT_Command(Eng).md)  
+  * [Configuration Tool](Configuration_Tool(Eng).md)  
 
-[中文](wiz550s2epg_cn.md)  
-  * [AT
-Command](wiz550s2e_programmer_s_guide_kr.md)  
-  * [Configuration
-Tool](wiz550s2epg_cn_configuration_tool.md)  
+[中文](Programmer_Guide(Chn).md)  
+  * [AT Command](AT_Command(Chn).md)  
+  * [Configuration Tool](Configuration_Tool(Chn).md)  
 
 ## Future Plan 
 
