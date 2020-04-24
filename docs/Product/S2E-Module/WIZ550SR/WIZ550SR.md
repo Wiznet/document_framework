@@ -13,15 +13,11 @@ date: 2020-04-16
 
 -----
 
-\<WRAP group\> \<WRAP half column\> \<WRAP centeralign\>
-
 ## Documents
 
-\</WRAP\>
-
   - **Product Overview** :
-    [\[English](/products/wiz550sr/wiz550sr_overview_en)\] /
-    [\[Korean](/products/wiz550sr/wiz550sr_overview_kr)\]
+    [[English](/products/wiz550sr/wiz550sr_overview_en)] /
+    [[Korean](/products/wiz550sr/wiz550sr_overview_kr)]
       - Overview
       - Features
 
@@ -48,13 +44,9 @@ date: 2020-04-16
     [\[Korean](/products/wiz550sr/wiz550sr_tutorial_kr)\]
       - Tutorials; Under construction
 
-\</WRAP\>
-
 \<WRAP half column\> \<WRAP centeralign\>
 
 ## Datasheet
-
-\</WRAP\>
 
   - **Datasheet**: [\[English](/products/wiz550sr/wiz550sr_ds_en)\] /
     [\[Korean](/products/wiz550sr/wiz550sr_ds_kr)\] 
@@ -63,11 +55,7 @@ date: 2020-04-16
       - Reference Schematics
       - Dimension
 
-\<WRAP centeralign\>
-
 ## Download
-
-\</WRAP\>
 
   - **[Download](/products/wiz550sr/wiz550sr_download)**
       - Firmware binary
@@ -75,13 +63,9 @@ date: 2020-04-16
       - Configuration Tool (Java ver.)
       - How to program WIZ550SR code flash memory
 
-\</WRAP\> \</WRAP\>
-
 -----
 
 ## Where to Buy
-
-\<WRAP centeralign\>
 
 ![WIZnet Online Shop](/products/w5500/buynow.png)  
 [![WIZnetUS Online Shop,
@@ -90,7 +74,5 @@ USA](/products/w5500/w5500_evb/icons/dollar.png)](http://www.shopwiznet.com/)
 Germany](/products/w5500/w5500_evb/icons/european-euro.png)](http://shop.wiznet.eu/)
 [![WIZnetKorea Online Shop,
 Korea](/products/w5500/w5500_evb/icons/won.png)](http://shop.wiznet.co.kr/)
-
-\</WRAP\>
 
 -----
