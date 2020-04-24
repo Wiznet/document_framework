@@ -40,9 +40,8 @@ date: 2020-04-07
   - 이 제품을 활용하면 **UART 인터페이스를 지원하는 장치에 손쉽게 네트워크 연결 기능을 추가 할 수 있어, 이더넷
     네트워크를 통해 시리얼 장비를 제어하는 것이 가능**해집니다.
 
-\<WRAP centeralign round tip center 80%\> 고객의 요청에 따라, 다양한 목적의 펌웨어 커스터마이징
-및 프로그램하여 공급하는 **[Customization Services](#customization_services)** 도
-제공합니다.
+고객의 요청에 따라, 다양한 목적의 펌웨어 커스터마이징
+및 프로그램하여 공급하는 **[Customization Services](#customization_services)** 도 제공합니다.
 
   
 ### W7500 / W7500P MCU
