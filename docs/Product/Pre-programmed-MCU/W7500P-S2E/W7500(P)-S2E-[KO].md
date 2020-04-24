@@ -229,7 +229,7 @@ support를 제공합니다.
 아래 메일로 문의하시면 언제든 담당자의 상세한 소개를 받으실 수 있습니다.**
 
   
-**[sales@wiznet.io](sales@wiznet.io)**
+**Email:[sales@wiznet.io](mailto:sales@wiznet.io)**
 
 
 -----
