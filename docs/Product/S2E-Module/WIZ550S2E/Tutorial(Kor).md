@@ -20,4 +20,4 @@ date: 2020-04-16
 # RS422/485 사용을 위한 Server\<-\>Client 연결 튜토리얼
 
 Refer to YouTube Tutorial.
-(<https://www.youtube.com/watch?v=riv355petPY>)
+Watch:(https://www.youtube.com/watch?v=riv355petPY)
