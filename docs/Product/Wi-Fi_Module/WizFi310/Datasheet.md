@@ -1,14 +1,14 @@
 ---
 id: datasheet
 title: Datasheet
-date: 2020-03-
+date: 2020-04-24
 ---
 
 
 ## Content
 ## WizFi310 Datasheet
   
-   * WizFi310 Datasheet v0.0.0 - English
+   * ![WizFi310 Datasheet v0.0.0 - English]()
 
 #### Datasheet History
 
@@ -60,15 +60,15 @@ For software and driver development, WIZnet provides extensive technical documen
    *  Fast receiver Automatic Gain Control (AGC)
 
 ### Block Diagram
-
+![](/document_framework/img/products/wizfi310/diagram.png)
 
 
 ### Module Hardware Description
 #### Pictures
-
+![](/document_framework/img/products/wizfi310/wizfi310_evb.png)
 
 #### Pin Map
-
+![]()
 
 #### Pin Description
 
@@ -231,7 +231,7 @@ Note: NVM flash is used to store user configuration or firmware, do not use to s
  
 #### Dimensions
 
-
+![](/document_framework/img/products/wizfi310/dimension.png)
 |Type	|Thickness (Height)|
 |-----|------------------|
 |with CAN	|3.15 (+/-) 0.15mm|
