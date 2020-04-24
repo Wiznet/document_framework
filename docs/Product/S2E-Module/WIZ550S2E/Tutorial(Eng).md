@@ -20,4 +20,4 @@ Static IP](/products/wiz550s2e/wiz550s2e_tutorial_en/exam4)
 # Server\<-\>Client connection Tutorial for RS422/485
 
 Refer to YouTube Tutorial.
-(<https://www.youtube.com/watch?v=riv355petPY>)
+Watch:(https://www.youtube.com/watch?v=riv355petPY)
