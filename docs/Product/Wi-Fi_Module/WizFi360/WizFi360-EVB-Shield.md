@@ -8,7 +8,7 @@ date: 2020-03-
 ## Content
 # WizFi360-EVB-Shield
 
-![WizFi360-EVB-Shield](/products/wizfi360/wizfi360-evb.jpg)
+![WizFi360-EVB-Shield](/document_framework/img/products/wizfi360/wizfi360-evb.jpg)
 
 ### Overview
 
@@ -73,13 +73,13 @@ which can meet the requirement of various applications.
 ### Quick Start Guide
 
   - 🌎[Quick Start
-    Guide](/products/wizfi360/wizfi360ds/start#Quick%20Start%20Guide)
+    Guide](Documents.md)
 
 -----
 
 ### Datasheet
 
-  - 🌎[Download](/products/wizfi360/wizfi360ds/start#datasheet)
+  - 🌎[Download](Documents.md)
 
 -----
 
