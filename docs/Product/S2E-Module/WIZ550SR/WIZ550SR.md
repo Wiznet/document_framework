@@ -16,16 +16,16 @@ date: 2020-04-16
 ## Documents
 
   - **Product Overview** :
-    [[English](/products/wiz550sr/wiz550sr_overview_en)] /
-    [[Korean](/products/wiz550sr/wiz550sr_overview_kr)]
+    [[English](Overview-[EN].md)] /
+    [[Korean](Overview-[KO].md)]
       - Overview
       - Features
 
 <!-- end list -->
 
   - **Getting Started Guide**:
-    [\[English](/products/wiz550sr/gettingstarted/en)\] /
-    [\[Korean](/products/wiz550sr/gettingstarted/kr)\]
+    [[English](Getting_Started-[EN].md)] /
+    [[Korean](Getting_Started-[KO].md)]
       - Product Preview, Hello world
       - Basic operations
 
@@ -44,11 +44,11 @@ date: 2020-04-16
     [\[Korean](/products/wiz550sr/wiz550sr_tutorial_kr)\]
       - Tutorials; Under construction
 
-\<WRAP half column\> \<WRAP centeralign\>
 
 ## Datasheet
 
-  - **Datasheet**: [\[English](/products/wiz550sr/wiz550sr_ds_en)\] /
+  - **Datasheet**: 
+  [\[English](/products/wiz550sr/wiz550sr_ds_en)\] /
     [\[Korean](/products/wiz550sr/wiz550sr_ds_kr)\] 
       - Hardware Specification
       - Electrical Characteristics
@@ -57,7 +57,7 @@ date: 2020-04-16
 
 ## Download
 
-  - **[Download](/products/wiz550sr/wiz550sr_download)**
+  - **[Download](Download.md)**
       - Firmware binary
       - Firmware Source code 
       - Configuration Tool (Java ver.)
