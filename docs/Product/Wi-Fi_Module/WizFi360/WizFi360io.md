@@ -15,7 +15,7 @@ series boards can be customized according to customers' requests.
 
 #### WizFi360io-C
 
-![](/products/wizfi360/board/wizfi360io-c/wizfi360io-c.png)
+![](/document_framework/img/products/wizfi360/board/wizfi360io-c/wizfi360io-c.png)
 
 WizFi360io-C cable connector type io interface board. The operating
 voltage of the WizFi360io-C and the UART voltage are 5V. WizFi360io-C
@@ -25,7 +25,7 @@ that can be connected to "SMW200-06" is "SMH200-06".
 
 #### WizFi360io-H
 
-![](/products/wizfi360/board/wizfi360io-h/wizfi360-h.png)
+![](/document_framework/img/products/wizfi360/board/wizfi360io-h/wizfi360-h.png)
 
 WizFi360io-H is a pin header type io interface board. The form factor of
 WizFi360io is an Xbee interface module. 2.00mm pin header is used,
@@ -76,13 +76,13 @@ similar to the Xbee pin layout. But it is not exactly compatible.
 ### Quick Start Guide
 
   - 🌎[Quick Start
-    Guide](/products/wizfi360/wizfi360ds/start#Quick_Start_Guide)
+    Guide](Documents.md)
 
 -----
 
 ### Datasheet
 
-  - 🌎[Download](/products/wizfi360/wizfi360ds/start#datasheet)
+  - 🌎[Download](Documents.md)
 
 -----
 
@@ -105,7 +105,7 @@ similar to the Xbee pin layout. But it is not exactly compatible.
 
 #### WizFi360io-C Connector Datasheet
 
-  - ![SMW200-06](/products/wizfi360/board/wizfi360io-c/smw200-nn.pdf)
+  - ![SMW200-06](/document_framework/img/products/wizfi360/board/wizfi360io-c/smw200-nn.pdf)
 
 -----
 
