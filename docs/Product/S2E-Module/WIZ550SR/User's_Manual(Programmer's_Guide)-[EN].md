@@ -32,15 +32,15 @@ The command mode is closed by sending "AT+MDATA/r/n"
 The Trigger Code can be en/disabled and also changed with the config
 tool.  
   
-\<WRAP round important 50%\> **The three byte Trigger Code need to be
+ **The three byte Trigger Code need to be
 isolated = without CR(0x0D), LF(0x0A)** \</WRAP\>  
 Every command starts with “AT”. Any other initial character will cause
 an error in return. Commands and parameters are all ASCII characters,
 i.e. when you input 'AT+NSTAT', you should input ASCII characters 'A',
 'T', '+', 'N', 'S', 'T', 'A', 'T' and 'Enter Key' which is CR, LF (0x0d,
 0x0A).  
-\<WRAP round important 50%\> **All commands should be terminated with
-CR(0x0D), LF(0x0A)** \</WRAP\>
+**All commands should be terminated with
+CR(0x0D), LF(0x0A)** 
 
 Some parameters are mandatory and others are optional. Parameters must
 be entered in the order of format column given by the command tables.
@@ -422,7 +422,7 @@ addresses. \</WRAP\>\</WRAP\>
 
     [S,,<MAC>]
 
-\</WRAP\>\</WRAP\>
+
 
   - ***Example 1:***
 
