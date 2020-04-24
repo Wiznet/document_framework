@@ -246,7 +246,7 @@ services are constantly updated.
 **We offer a wide range of customizable products and technical support**
 
   
-[sales@wiznet.io](sales@wiznet.io)
+[sales@wiznet.io](mailto:sales@wiznet.io)
 
 
 -----
