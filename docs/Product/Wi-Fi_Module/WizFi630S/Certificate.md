@@ -119,7 +119,7 @@ This section provides WizFi630S certificate and test reports.
    * 2011/65/EU Annex II amending Annex (EU)2015/863 and amending Annex (EU)2017/2102
     
 
-  * [RoHS 2.0 report]()
+  * ![RoHS 2.0 report](/document_framework/img/products/wizfi630s/wizfi630s_cert/wizfi630s_rohs_test_report.pdf)
 
 
 
@@ -146,10 +146,10 @@ This section provides WizFi630S certificate and test reports.
    * 60068-2-30 : Humidity cycling operation
 
  
-  * [KORAS Operation Test Report_English]()
-  * [KORAS Operation Test Report_Korean]()
-  * [Operation Test Report_English]()
-  * [Operation Test Report_Korean]()
+  * ![KORAS Operation Test Report_English](/document_framework/img/products/wizfi630s/wizfi630s_cert/2019-0009k_wizfi630s_koras_operation_test_report_60068-2-1_2-2_2-14_en.pdf)
+  * ![KORAS Operation Test Report_Korean]()
+  * ![Operation Test Report_English](/document_framework/img/products/wizfi630s/wizfi630s_cert/2019-0535f_wizfi630s_operation_test_report_reliability_test_en.pdf)
+  * ![Operation Test Report_Korean]()
 
 
 | Issue Date |
