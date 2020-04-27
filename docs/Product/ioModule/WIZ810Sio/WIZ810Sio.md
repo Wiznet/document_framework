@@ -18,7 +18,7 @@ rapidly.
 
 |                                                     |
 | --------------------------------------------------- |
-| ![WIZ810Sio](/products/wiz810sio/wiz810io_2.png%20) |
+| ![WIZ810Sio](/document_framework/img/products/wiz810sio/wiz810io_2.png) |
 | Figure: ***WIZ810Sio***                             |
 
 -----
