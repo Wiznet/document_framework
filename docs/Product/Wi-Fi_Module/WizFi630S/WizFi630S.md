@@ -1,7 +1,7 @@
 ---
 id: wizfi630s
 title: WizFi630S
-date: 2020-03-
+date: 2020-04-27
 ---
 
 
@@ -33,14 +33,14 @@ documents are available online.
 
 |                                                             |
 | ----------------------------------------------------------- |
-| ![WizFi630S](/products/wizfi630s/500k_wizfi630s_top.png%20) |
+| ![WizFi630S](/document_framework/img/products/wizfi630s/500k_wizfi630s_top.png) |
 | Figure: ***WizFi630S***                                     |
 
 
 
 |                                                                     |
 | ------------------------------------------------------------------- |
-| ![WizFi630S-EVB](/products/wizfi630s/500k_wizfi630s_evb_top.png%20) |
+| ![WizFi630S-EVB](/document_framework/img/products/wizfi630s/500k_wizfi630s_evb_top.png) |
 | Figure: ***WizFi630S-EVB***                                         |
 
 
