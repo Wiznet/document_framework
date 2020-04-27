@@ -8,8 +8,8 @@ date: 2020-04-09
 
 # WIZ750SR Technical References
 
-\*\* Supported Languages \*\*  
-\* English only
+**Supported Languages**  
+* English only
 
 -----
 
