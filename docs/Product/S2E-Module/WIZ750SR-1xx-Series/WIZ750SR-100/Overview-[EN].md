@@ -142,8 +142,7 @@ WIZ750SR series Common Documents
 documents \*\*
 
   - **[WIZ750SR Product Overview](/products/wiz750sr/overview/en)**
-  - **[WIZ750SR Getting Started
-    Guide](/products/wiz750sr/gettingstarted/en)**
+  - **[WIZ750SR Getting Started Guide](/products/wiz750sr/gettingstarted/en)**
   - **[WIZ750SR Datasheet](/products/wiz750sr/datasheet/start)**
 
 -----
@@ -168,8 +167,8 @@ documents \*\*
 
 -----
 
-\<WRAP centeralign\> \*\* WIZ750SR-110 Individual documents \*\*
-\</WRAP\>
+ \*\* WIZ750SR-110 Individual documents \*\*
+
 
   - **[WIZ750SR-110 Product
     Overview](/products/wiz750sr-110/overview/en)**
@@ -177,4 +176,3 @@ documents \*\*
     Guide](/products/wiz750sr-110/gettingstarted/en)**
   - **[WIZ750SR-110 Datasheet](/products/wiz750sr-110/datasheet/start)**
 
-\</WRAP\> \</WRAP\>
