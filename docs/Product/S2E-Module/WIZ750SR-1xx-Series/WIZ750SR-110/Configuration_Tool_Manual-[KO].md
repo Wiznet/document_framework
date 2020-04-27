@@ -10,7 +10,7 @@ date: 2020-04-09
 
 **Supported Languages**  
 * [English](Configuration_Tool_Manual-[EN].md) 
-* [Korean](Configuration_Tool_Manual-[KO].md) (current page)
+* [Korean](Configuration_Tool_Manual-[KO]) (current page)  
 
 ![](/products/wiz750sr/docs_icon.png)
 
