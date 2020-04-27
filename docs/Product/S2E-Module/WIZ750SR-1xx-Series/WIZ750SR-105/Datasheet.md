@@ -491,16 +491,6 @@ ISP mode firmware downloader port</td>
 ## Navigation
 
 -----
-
-\<WRAP group\> \<WRAP centeralign half column\>
-[![arrow\_upward.png](/etc/arrow_upward.png)](#WIZ750SR-105_Datasheet)  
-**Scroll to Top** \</WRAP\>
-
-\<WRAP centeralign half column\>
-[![arrow\_refresh.png](/etc/arrow_refresh.png)](/products/wiz750sr-105/start)  
-**Back to Product Main** \</WRAP\> \</WRAP\>
-
------
 WIZ750SR series Common Documents 
 
   - **[User's Manual (English)](User's_Manual-[EN].md)** 
