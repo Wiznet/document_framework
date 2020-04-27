@@ -38,6 +38,6 @@ develop their Internet enabling system rapidly.
 
 ### WIZ81xMJ Comparision Table
 
-![](/products/io_module/comparison-table.jpg)
+![](/document_framework/img/products/io_module/comparison-table.jpg)
 
 -----
