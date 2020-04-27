@@ -10,11 +10,11 @@ date: 2020-04-15
 
 ### Pin Map
 
-![](/products/wiz550io/wiz550io_pin_map.jpg)
+![](/document_framework/img/products/wiz550io/wiz550io_pin_map.jpg)
 
 ### Pin out
 
-![](/products/wiz550io/wiz550io_pinout_20140513_v4_mounthole_.jpg)
+![](/document_framework/img/products/wiz550io/wiz550io_pinout_20140513_v4_mounthole_.jpg)
 
 **Revision 1.2 version pinout is same to revision1.1 version.**
 
