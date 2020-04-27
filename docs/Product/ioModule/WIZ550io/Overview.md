@@ -21,7 +21,7 @@ network information like IP address, Subnet mask and Gateway address.
 The WIZ550io is an ideal product for users who want to develop their
 Internet enabling systems rapidly.
 
-![](/products/wiz550io/wiz550io_small_005.png)
+![](/document_framework/img/products/wiz550io/wiz550io_small_005.png)
 
 For more information on the [W5500](/products/w5500/start) chip inside
 the [WIZ550io](/products/wiz550io/allpages) module please also refer to
