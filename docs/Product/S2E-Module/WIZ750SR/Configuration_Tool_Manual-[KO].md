@@ -519,120 +519,35 @@ WIZ750SR의 버전은 <strong>Major</strong> version number . <strong>Minor</str
 
 -----
 
-\<WRAP group\> \<WRAP centeralign third column\>
-[![arrow\_back.png](/etc/arrow_back.png)](/products/wiz750sr/usermanual/ko)  
-**Prev Page**  
-[User's Manual](/products/wiz750sr/usermanual/ko) \</WRAP\>
+ **WIZ750SR** 
 
-\<WRAP centeralign third column\>
-[![arrow\_upward.png](/etc/arrow_upward.png)](#wiz750sr_configuration_tool_manual)  
-**Scroll to Top** \</WRAP\>
+  - **[User's Manual (English)](User's_Manual-[EN].md)** 
+  - **[User's Manual (Korean)](User's_Manual-[KO].md)** 
 
-\<WRAP centeralign third column\>
-[![arrow\_forward.png](/etc/arrow_forward.png)](/products/wiz750sr/commandmanual/ko)  
-**Next Page**  
-[Device Command Manual](/products/wiz750sr/commandmanual/ko) \</WRAP\>
-\</WRAP\>
+<!-- end list -->
 
-\<WRAP centeralign\>
-[![arrow\_refresh.png](/etc/arrow_refresh.png)](/products/wiz750sr/start)  
-**Back to Product Main**  
-[WIZ750SR](/products/wiz750sr/start) \</WRAP\>
+  - **[Device Command Manual (English)](Command_Manual-[EN].md)**
+  - **[Device Command Manual (Korean)](Command_Manual-[KO].md)**
 
-\<WRAP centeralign\>
-[![arrow\_refresh.png](/etc/arrow_refresh.png)](/products/wiz750sr-100/start)  
-**Back to Product Main**  
-[WIZ750SR-100](/products/wiz750sr-100/start) \</WRAP\>
+<!-- end list -->
+
+  - **[Troubleshooting Guide (English)](Trouble_Shooting-[EN].md)**
+  - **[Troubleshooting Guide (Korean)](Trouble_Shooting-[KO].md)**
+
+<!-- end list -->
+
+  - **[Update History (English)](Series_Update_History-[EN].md)**
+  - **[Update History (Korean)](Series_Update_History-[KO].md)**
 
 -----
 
-\<WRAP round box group\> \<WRAP half column\> \<WRAP centeralign\> \*\*
-WIZ750SR Documents \*\* \</WRAP\>
+**WIZ750SR series Downloads** 
 
-  - **[Product Overview](/products/wiz750sr/overview/ko)**
-
-<!-- end list -->
-
-  - **[Getting Started Guide](/products/wiz750sr/gettingstarted/ko)**
+  - **[Software Download](Download.md)**
 
 <!-- end list -->
 
-  - **[User's Manual](/products/wiz750sr/usermanual/ko)** 
-
-<!-- end list -->
-
-  - **[Device Command Manual](/products/wiz750sr/commandmanual/ko)**
-
-<!-- end list -->
-
-  - **[Troubleshooting Guide](/products/wiz750sr/troubleshooting/ko)**
-
-<!-- end list -->
-
-  - **[Update History](/products/wiz750sr/history/ko)**
-
-\</WRAP\>
-
-\<WRAP half column\> \<WRAP centeralign\> \*\* WIZ750SR Datasheet \*\*
-\</WRAP\>
-
-  - **[Datasheet](/products/wiz750sr/datasheet/start)**
+  - **[Technical References](Technical_References.md)**
 
 -----
 
-\<WRAP centeralign\> \*\* WIZ750SR Download \*\* \</WRAP\>
-
-  - **[Software Download](/products/wiz750sr/download/start)**
-
-<!-- end list -->
-
-  - **[Technical Reference](/products/wiz750sr/reference/start)**
-
-\</WRAP\> \</WRAP\>
-
------
-
-\<WRAP round box group\> \<WRAP half column\> \<WRAP centeralign\> \*\*
-WIZ750SR-100 Documents \*\* \</WRAP\>
-
-  - **[Product Overview](/products/wiz750sr-100/overview/ko)**
-
-<!-- end list -->
-
-  - **[Getting Started
-    Guide](/products/wiz750sr-100/gettingstarted/ko)**
-
-<!-- end list -->
-
-  - **[User's Manual](/products/wiz750sr/usermanual/ko)** 
-
-<!-- end list -->
-
-  - **[Device Command Manual](/products/wiz750sr/commandmanual/ko)**
-
-<!-- end list -->
-
-  - **[Troubleshooting Guide](/products/wiz750sr/troubleshooting/ko)**
-
-<!-- end list -->
-
-  - **[Update History](/products/wiz750sr/history/ko)**
-
-\</WRAP\>
-
-\<WRAP half column\> \<WRAP centeralign\> \*\* WIZ750SR-100 Datasheet
-\*\* \</WRAP\>
-
-  - **[Datasheet](/products/wiz750sr-100/datasheet/start)**
-
------
-
-\<WRAP centeralign\> \*\* WIZ750SR-100 Download \*\* \</WRAP\>
-
-  - **[Software Download](/products/wiz750sr/download/start)**
-
-<!-- end list -->
-
-  - **[Technical Reference](/products/wiz750sr/reference/start)**
-
-\</WRAP\> \</WRAP\>
