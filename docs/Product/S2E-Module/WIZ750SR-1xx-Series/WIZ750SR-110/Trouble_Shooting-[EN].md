@@ -197,74 +197,39 @@ testing? |
 
 -----
 
-\<WRAP round box group\> \<WRAP half column\> \<WRAP centeralign\> \*\*
-WIZ750SR series Common Documents \*\* \</WRAP\>
-
-  - **[User's Manual](/products/wiz750sr/usermanual/en)** 
-
-<!-- end list -->
-
-  - **[Device Command Manual](/products/wiz750sr/commandmanual/en)**
-
-<!-- end list -->
-
-  - **[Troubleshooting Guide](/products/wiz750sr/troubleshooting/en)**
-
-<!-- end list -->
-
-  - **[Update History](/products/wiz750sr/history/en)**
+## Navigation
 
 -----
 
-\<WRAP centeralign\> \*\* WIZ750SR series Downloads \*\* \</WRAP\>
+WIZ750SR series Common Documents 
 
-  - **[Software Downloads](/products/wiz750sr/download/start)**
+  - **[User's Manual (English)](User's_Manual-[EN].md)** 
+  - **[User's Manual (Korean)](User's_Manual-[KO].md)** 
 
 <!-- end list -->
 
-  - **[Technical Reference](/products/wiz750sr/reference/start)**
+  - **[Device Command Manual (English)](Command_Manual-[EN].md)**
+  - **[Device Command Manual (Korean)](Command_Manual-[KO].md)**
 
-\</WRAP\>
+<!-- end list -->
 
-\<WRAP half column\> \<WRAP centeralign\> \*\* WIZ750SR Individual
-documents \*\* \</WRAP\>
+  - **[Troubleshooting Guide (English)](Trouble_Shooting-[EN].md)**
+  - **[Troubleshooting Guide (Korean)](Trouble_Shooting-[KO].md)**
 
-  - **[WIZ750SR Product Overview](/products/wiz750sr/overview/en)**
-  - **[WIZ750SR Getting Started
-    Guide](/products/wiz750sr/gettingstarted/en)**
-  - **[WIZ750SR Datasheet](/products/wiz750sr/datasheet/start)**
+<!-- end list -->
 
------
-
-\<WRAP centeralign\> \*\* WIZ750SR-100 Individual documents \*\*
-\</WRAP\>
-
-  - **[WIZ750SR-100 Product
-    Overview](/products/wiz750sr-100/overview/en)**
-  - **[WIZ750SR-100 Getting Started
-    Guide](/products/wiz750sr-100/gettingstarted/en)**
-  - **[WIZ750SR-100 Datasheet](/products/wiz750sr-100/datasheet/start)**
+  - **[Update History (English)](Series_Update_History-[EN].md)**
+  - **[Update History (Korean)](Series_Update_History-[KO].md)**
 
 -----
 
-\<WRAP centeralign\> \*\* WIZ750SR-105 Individual documents \*\*
-\</WRAP\>
+**WIZ750SR series Downloads** 
 
-  - **[WIZ750SR-105 Product
-    Overview](/products/wiz750sr-105/overview/en)**
-  - **[WIZ750SR-105 Getting Started
-    Guide](/products/wiz750sr-105/gettingstarted/en)**
-  - **[WIZ750SR-105 Datasheet](/products/wiz750sr-105/datasheet/start)**
+  - **[Software Download](Download.md)**
+
+<!-- end list -->
+
+  - **[Technical References](Technical_References.md)**
 
 -----
 
-\<WRAP centeralign\> \*\* WIZ750SR-110 Individual documents \*\*
-\</WRAP\>
-
-  - **[WIZ750SR-110 Product
-    Overview](/products/wiz750sr-110/overview/en)**
-  - **[WIZ750SR-110 Getting Started
-    Guide](/products/wiz750sr-110/gettingstarted/en)**
-  - **[WIZ750SR-110 Datasheet](/products/wiz750sr-110/datasheet/start)**
-
-\</WRAP\> \</WRAP\> \</WRAP\> \</WRAP\>
