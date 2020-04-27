@@ -25,11 +25,11 @@ This section provides WizFi630S certificate and test reports.
 
 
 
-  * [certificate]()
-  * [LVD test report]()
-  * [300 328 test report]()
-  * [301 489 test report]()
-  * [62311 test report]()
+  * ![certificate](/document_framework/img/products/wizfi630s/wizfi630s_cert/wizfi630s_ce_certificate.pdf)
+  * ![LVD test report](/document_framework/img/products/wizfi630s/wizfi630s_cert/wizfi630s_ce_test_report_lvd.pdf)
+  * ![300 328 test report](/document_framework/img/products/wizfi630s/wizfi630s_cert/wizfi630s_ce_test_report_300_328.pdf)
+  * ![301 489 test report](/document_framework/img/products/wizfi630s/wizfi630s_cert/wizfi630s_ce_test_report_301_489.pdf)
+  * ![62311 test report](/document_framework/img/products/wizfi630s/wizfi630s_cert/wizfi630s_ce_test_report_62311.pdf)
 
 
 
