@@ -14,7 +14,7 @@ date: 2020-03-
 
 | FW Version | Hardware | Date       | Download                                                                            | Description    |
 | ---------- | -------- | ---------- | ----------------------------------------------------------------------------------- | -------------- |
-| 1.0.3.3    | Rev 1.0  | 2017-04-21 | ![1.0.3.3](/products/wizfi310/wizfi310firmware_ota/ota_v1_0_3_3.zip)/Binary for OTA | latest release |
+| 1.0.3.3    | Rev 1.0  | 2017-04-21 | ![1.0.3.3](/document_framework/img/products/wizfi310/wizfi310firmware_ota/ota_v1_0_3_3.zip)/Binary for OTA | latest release |
 
 
 
@@ -24,8 +24,8 @@ date: 2020-03-
 
 | FW Version | Hardware | Date       | Download                                                                            | Description |
 | ---------- | -------- | ---------- | ----------------------------------------------------------------------------------- | ----------- |
-| 1.0.0.0    | Rev 1.0  | 2016-06-17 | ![1.0.0.0](/products/wizfi310/wizfi310firmware_ota/ota_v1_0_0_0.zip)/Binary for OTA |             |
-| 1.0.3.3    | Rev 1.0  | 2017-04-21 | ![1.0.3.3](/products/wizfi310/wizfi310firmware_ota/ota_v1_0_3_3.zip)/Binary for OTA |             |
+| 1.0.0.0    | Rev 1.0  | 2016-06-17 | ![1.0.0.0](/document_framework/img/products/wizfi310/wizfi310firmware_ota/ota_v1_0_0_0.zip)/Binary for OTA |             |
+| 1.0.3.3    | Rev 1.0  | 2017-04-21 | ![1.0.3.3](/document_framework/img/products/wizfi310/wizfi310firmware_ota/ota_v1_0_3_3.zip)/Binary for OTA |             |
 
 ## Update History
 
@@ -47,11 +47,11 @@ date: 2020-03-
 
 ## WizFi310\_OTA\_Tool
 
-![](/products/wizfi310/wizfi310firmware_ota/ota_7.png)
+![](/document_framework/img/products/wizfi310/wizfi310firmware_ota/ota_7.png)
 
 | Version | Date       | Download                                                                                                             | Description |
 | ------- | ---------- | -------------------------------------------------------------------------------------------------------------------- | ----------- |
-| 1.0.0.0 | 2016-06-17 | ![WizFi310\_OTA\_Tool\_V1.0.0.0](/products/wizfi310/wizfi310firmware_ota/wizfi310_ota_tool_v1.0.0.0.zip)/Application |             |
+| 1.0.0.0 | 2016-06-17 | ![WizFi310\_OTA\_Tool\_V1.0.0.0](/document_framework/img/products/wizfi310/wizfi310firmware_ota/wizfi310_ota_tool_v1.0.0.0.zip)/Application |             |
 
 ## Guide for WizFi310 OTA Tool
 
