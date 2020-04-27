@@ -34,7 +34,7 @@ date: 2020-04-13
 
 ### WIZ550web Pinout
 
-![WIZ550WEB\_Pinout](/products/wiz550web/wiz550webds_kr/wiz550web_rev1.1_20160721.png)
+![WIZ550WEB\_Pinout](/document_framework/img/products/wiz550web/wiz550web_rev1.1_20160721.png)
 
 ### Pin Description
 
@@ -95,19 +95,19 @@ date: 2020-04-13
 ### WIZ550web Baseboard Pinout
 
 ![WIZ550web Baseboard
-Pinout](/products/wiz550web/wiz550webds_kr/wiz550web_base_pinout_20160720.png)
+Pinout](/document_framework/img/products/wiz550web/wiz550web_base_pinout_20160720.png)
 
 ### WIZ550web Baseboard Callout
 
 ![WIZ550web Baseboard
-Callout](/products/wiz550web/wiz550webds_kr/wiz550web_base_20160720.png)
+Callout](/document_framework/img/products/wiz550web/wiz550web_base_20160720.png)
 
 ### Digital Output Port
 
 WIZ550web Baseboard에는 8개(D0\~D7)의 릴레이 출력단이 있다. 기본 적인 내부 회로는 아래 사진과 같고
 Jumper를 통해 릴레이의 NC(Normal close), NO(Normal Open)를 설정할수 있다. ![WIZ550WEB
 Digital Output
-Port](/products/wiz550web/wiz550webds_kr/wiz550web_bb_output.png) 동작 상태는
+Port](/document_framework/img/products/wiz550web/wiz550web_bb_output.png) 동작 상태는
 아래 표와 같다.
 
 | 입력 값 | 릴레이 상태  | NC 출력 값   | NO 출력 값   |
@@ -124,7 +124,7 @@ Port](/products/wiz550web/wiz550webds_kr/wiz550web_bb_output.png) 동작 상태�
 
 WIZ550web Baseboard에는 8개(D8\~D15)의 포토커플러를 통한 디지털 입력단이 있다. 기본적인 내부 회로는 아래
 사진과 같다. 입력에는 극성이 없고 입력 두신호의 전위차로 ON/OFF를 구별한다. ![WIZ550WEB Digital Input
-Port](/products/wiz550web/wiz550webds_kr/wiz550web_bb_input.png) 입력의 전기적
+Port](/document_framework/img/products/wiz550web/wiz550web_bb_input.png) 입력의 전기적
 특성은 아래와 같다.
 
 | 1.4V 이하 | **Low**                        |
@@ -135,17 +135,17 @@ Port](/products/wiz550web/wiz550webds_kr/wiz550web_bb_input.png) 입력의 전�
 
 Digital Input 8개중에 4개(D8\~D11)는 Baseboard 내부의 택트 스위치와 같이 연결 되어 있고, 이 연결은
 J23\~J26 Jumper로 선택 할 수 있다. ![WIZ550WEB Digital Input
-Jumper](/products/wiz550web/wiz550webds_kr/wiz550web_bb_input_jumper.png)
+Jumper](/document_framework/img/products/wiz550web/wiz550web_bb_input_jumper.png)
 
 ### Analog Input Port
 
 WIZ550web Baseboard에는 4개(A0\~A3)의 아날로그 입력단이 있다. 기본적이 내부 회로도는 아래 사진과 같다.
 간단하게 0\~12V입력이 가능하고 내부 회로를 통과해 WIZ550WEB으로 입력 된다. ![WIZ550WEB Analog
-Input Port](/products/wiz550web/wiz550webds_kr/wiz550web_bb_analog.png)
+Input Port](/document_framework/img/products/wiz550web/wiz550web_bb_analog.png)
 
 Analog Input은 4개중에 2개(A0,A1)는 Baseboard 내부의 가변저항(10K)과 온도센서(TC1047AVNB)에
 같이 연결이 되어 있거, 이 연결은 J26, J28 Jumper로 선택 할 수 있다. ![WIZ550WEB Analog Input
-Jumper](/products/wiz550web/wiz550webds_kr/wiz550web_bb_analog_jumper.png)
+Jumper](/document_framework/img/products/wiz550web/wiz550web_bb_analog_jumper.png)
 
 -----
 
@@ -228,7 +228,7 @@ Jumper](/products/wiz550web/wiz550webds_kr/wiz550web_bb_analog_jumper.png)
 ## WIZ550web V1.1/V1.2
 
 74.95mm(W) x 30mm(L) x 24mm(H) (±0.5)
-![](/products/wiz550web/wiz550web_v1.2_dimension.png)
+![](/document_framework/img/products/wiz550web/wiz550web_v1.2_dimension.png)
 
 ## WIZ550web Baseboard
 
