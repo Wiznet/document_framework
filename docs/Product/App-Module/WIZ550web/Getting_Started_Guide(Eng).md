@@ -25,7 +25,7 @@ the firmware & web page examples for user’s customization.
   - **Basic Webpage Demo**
   - **Examples for WIZ550web customization**
 
-![](/products/wiz550web/wiz550web_front.png)
+![](/document_framework/img/products/wiz550web/wiz550web_front.png)
 
 **Users can download the following source codes from the 'WIZ550web
 GitHub Repository'**
@@ -50,7 +50,7 @@ GitHub Repository'**
 
 -----
 
-![](/products/wiz550web/wiz550webgsg/wiz550web_product_preview.png)
+![](/document_framework/img/products/wiz550web/wiz550webgsg/wiz550web_product_preview.png)
 
 ## Hello World
 
@@ -102,22 +102,22 @@ WIZ550web is described below.
 Insert the Micro SD card into an SD card reader and format it with the
 Windows explorer
 
-![](/products/wiz550web/sdcard/sdcard_select_format_box.jpg)
+![](/document_framework/img/products/wiz550web/sdcard/sdcard_select_format_box.jpg)
 
-![](/products/wiz550web/sdcard/sdcard_format_process_box.jpg)
+![](/document_framework/img/products/wiz550web/sdcard/sdcard_format_process_box.jpg)
 
-![](/products/wiz550web/sdcard/sdcard_format_warning_box.jpg)
+![](/document_framework/img/products/wiz550web/sdcard/sdcard_format_warning_box.jpg)
 
-![](/products/wiz550web/sdcard/sdcard_format_complete.jpg)
+![](/document_framework/img/products/wiz550web/sdcard/sdcard_format_complete.jpg)
 
 2\. Download the demo web page from [WIZ550web GitHub
 repository](https://github.com/Wiznet/WIZ550web)
 
-![](/products/wiz550web/sdcard/sdcard_github_clone_box.jpg)
+![](/document_framework/img/products/wiz550web/sdcard/sdcard_github_clone_box.jpg)
 
 3\. Copy the demo Web page to the Micro SD card
 
-![](/products/wiz550web/sdcard/sdcard_webpage_folder_merge_box.jpg)
+![](/document_framework/img/products/wiz550web/sdcard/sdcard_webpage_folder_merge_box.jpg)
 
 4\. Insert the Micro SD card into the SD card slot of WIZ550web
 
@@ -210,7 +210,7 @@ following processes and operates as the flowchart below.
   - **CGI Handler**
       - Process the **User's requests** from web browser
       - CGI is the used to set the I/O status or to get the I/O status
-        information![](/products/wiz550web/wiz550webgsg/wiznet_httpserver_flowchart_v1.png)
+        information![](/document_framework/img/products/wiz550web/wiz550webgsg/wiznet_httpserver_flowchart_v1.png)
 
 -----
 
@@ -225,7 +225,7 @@ dependent on a particular language or platform because only the
 configuration and policies between the web page and the server needs to
 be satisfied.
 
-![](/products/wiz550web/wiz550webgsg/wiz550web_simple_server-client_diagram.png)
+![](/document_framework/img/products/wiz550web/wiz550webgsg/wiz550web_simple_server-client_diagram.png)
 
 CGI for WIZ550web consists the 'Request name + .cgi' using HTTP GET/POST
 request method. The CGI for each HTTP methods are handled as below.
@@ -318,14 +318,14 @@ attribute changed to disabled. If the user successfully allocated the IP
 address from DHCP server after module reboot, the modified debug message
 is output to terminal as below.
 
-![](/products/wiz550web/webpage_basicdemo/basic_demopage_dhcp_enabled_checked.jpg)
+![](/document_framework/img/products/wiz550web/webpage_basicdemo/basic_demopage_dhcp_enabled_checked.jpg)
 
-![](/products/wiz550web/webpage_basicdemo/serialdebug_terminal_dhcp_checked.jpg)
+![](/document_framework/img/products/wiz550web/webpage_basicdemo/serialdebug_terminal_dhcp_checked.jpg)
 
 ### Digital I/O Status
 
 The 'Digital I/O Status' tab is configured as below.
-![](/products/wiz550web/webpage_basicdemo/basic_demopage_2.jpg)
+![](/document_framework/img/products/wiz550web/webpage_basicdemo/basic_demopage_2.jpg)
 
 \[On-board LED\] WIZ550web's LEDs can be control by On/Off button in web
 page.  
@@ -335,9 +335,9 @@ configured as below.
 
   - **Pin number** (e.g., D0)**: Direction** (Input / Output / NotUsed)
   - **Status LED Images**
-    (![](/products/wiz550web/webpage_basicdemo/dio_on.png) Blue LED /
-    ![](/products/wiz550web/webpage_basicdemo/di_on.png) Green LED /
-    ![](/products/wiz550web/webpage_basicdemo/di_off.png) Off)
+    (![](/document_framework/img/products/wiz550web/webpage_basicdemo/dio_on.png) Blue LED /
+    ![](/document_framework/img/products/wiz550web/webpage_basicdemo/di_on.png) Green LED /
+    ![](/document_framework/img/products/wiz550web/webpage_basicdemo/di_off.png) Off)
   - **On/Off Buttons** (for Output directions)
   For 'Input',  
 \- On/Off button is not indicated. If the input signal is 'high', the
@@ -364,7 +364,7 @@ WIZ550web baseboard is equipped with Potentiometer and Temperature
 sensor on A0 / A1. For example, by adjusting the value of the
 Potentiometer (A0), users can see the changes in the graph as below.
 
-![](/products/wiz550web/webpage_basicdemo/basic_demopage_3_cut_a0_adjust_checked.jpg)
+![]()
 
 ### I/O Configuration
 
@@ -384,12 +384,12 @@ note that the module is rebooted into default settings.
 
 If you change the various settings, it is displayed as below.
 
-![](/products/wiz550web/webpage_basicdemo/basic_demopage_4_adjust_cut.jpg)
+![](/document_framework//img/products/wiz550web/webpage_basicdemo/basic_demopage_2_io_examples.jpg)
 
 ### Serial Data
 
 The 'Serial Data' tab is configured as below.
-![](/products/wiz550web/webpage_basicdemo/basic_demopage_5_cut.jpg)
+![](/document_framework/img/products/wiz550web/webpage_basicdemo/basic_demopage_3_cut.jpg)
 
 In this page, user can test the 'Serial data input/output through
 Webpage to UART1' (Serial data Tx/Rx) functions.
@@ -397,15 +397,15 @@ Webpage to UART1' (Serial data Tx/Rx) functions.
 Type 'hello world\!' in the **'Data to send'** input box and then press
 the **\[Send\]** button.
 
-![](/products/wiz550web/webpage_basicdemo/basic_demopage_5_cut_helloworld_checked.jpg)
+![](/document_framework/img/products/wiz550web/webpage_basicdemo/basic_demopage_5_cut_helloworld_checked.jpg)
 Serial terminal shows the string from web page through UART1.
 
-![](/products/wiz550web/webpage_basicdemo/serialdebug_terminal_helloworld_checked.jpg)
+![](/document_framework/img/products/wiz550web/webpage_basicdemo/serialdebug_terminal_helloworld_checked.jpg)
 
 On the contrary, if the user types the string on serial terminal, the
 **'Received data'** box in web page shows the typed string.
 
-![](/products/wiz550web/webpage_basicdemo/basic_demopage_5_cut_thanks_checked.jpg)
+![](/document_framework/img/products/wiz550web/webpage_basicdemo/basic_demopage_5_cut_thanks_checked.jpg)
 
 ### Note
 
@@ -416,7 +416,7 @@ Chrome, MS Internet Explorer). By using this, the user is able to know
 the provider of the web page. The example basic demo web pages include
 'favicon'.
 
-![](/products/wiz550web/webpage_basicdemo/favicon_ex.jpg)
+![](/document_framework/img/products/wiz550web/webpage_basicdemo/favicon_ex.jpg)
 
 User can add the 'Favicon' as the following steps
 
