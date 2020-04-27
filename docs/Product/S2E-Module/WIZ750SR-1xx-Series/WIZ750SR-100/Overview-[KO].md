@@ -97,26 +97,6 @@ WIZ750SR-100 모듈은 TTL로 동작하며 WIZ750SR-100-EVB를 사용할 경우 
 
 -----
 
-\<WRAP group\> \<WRAP centeralign third column\>
-![close.png](/etc/close.png)  
-\</WRAP\>
-
-\<WRAP centeralign third column\>
-[![arrow\_upward.png](/etc/arrow_upward.png)](#wiz750sr-100_product_overview)  
-**Scroll to Top** \</WRAP\>
-
-\<WRAP centeralign third column\>
-[![arrow\_forward.png](/etc/arrow_forward.png)](/products/wiz750sr-100/gettingstarted/ko)  
-**Next Page**  
-[Getting Started Guide](/products/wiz750sr-100/gettingstarted/ko)
-\</WRAP\> \</WRAP\>
-
-\<WRAP centeralign\>
-[![arrow\_refresh.png](/etc/arrow_refresh.png)](/products/wiz750sr-100/start)  
-**Back to Product Main** \</WRAP\>
-
------
-
 WIZ750SR series Common Documents 
 
   - **[User's Manual (English)](User's_Manual-[EN].md)** 
@@ -139,7 +119,7 @@ WIZ750SR series Common Documents
 
 -----
 
-\*\* WIZ750SR series Downloads \*\* \
+**WIZ750SR series Downloads** 
 
   - **[Software Download](Download.md)**
 
@@ -148,3 +128,4 @@ WIZ750SR series Common Documents
   - **[Technical References](Technical_References.md)**
 
 -----
+
