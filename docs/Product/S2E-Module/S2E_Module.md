@@ -36,18 +36,17 @@ interfaces.
   - [WIZ750SR-100](/products/wiz750sr-100/start)
 
 <!-- end list -->
+ 
+ * [WIZ750SR-105]
+ * [WIZ750SR-110]
+ * [WIZ550SR]
+ * [WIZ550S2E]
+ * [WIZ107SR]
+ * [WIZ108SR]
+ * [WIZ100SR]
+ * [WIZ105SR]
+ * [WIZ110SR]]
 
-``` 
- * [[:products:wiz750sr-105:start|WIZ750SR-105]]
- * [[:products:wiz750sr-110:start|WIZ750SR-110]]
-* [[:products:wiz550sr:start|WIZ550SR]]
-* [[:products:wiz550s2e:start|WIZ550S2E]]
-* [[http://www.wiznet.io/product-item/wiz107sr/|WIZ107SR]]
-* [[http://www.wiznet.io/product-item/wiz108sr/|WIZ108SR]]
-* [[http://www.wiznet.io/product-item/wiz100sr/|WIZ100SR]]
-* [[http://www.wiznet.io/product-item/wiz105sr/|WIZ105SR]]
-* [[http://www.wiznet.io/product-item/wiz110sr/|WIZ110SR]]
-```
 
 ### 2-Port S2E Module Products
 
