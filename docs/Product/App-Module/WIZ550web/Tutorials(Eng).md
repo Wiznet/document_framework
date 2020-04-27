@@ -47,7 +47,7 @@ Tutorial 0:
 
 
 ## Interface Functions Guide for WIZ550web
-
+![](/document_framework/img/products/wiz550web/wiz550web_simple_requestcombination_diagram.png)
 
 ### Overview
 WIZ550web provides the HTTP Request function set for CGI so that device name and network setting, control and monitoring of each digital I/O and analog input can be performed only by making web page without modification of firmware.
