@@ -197,6 +197,10 @@ testing? |
 
 -----
 
+## Navigation
+
+-----
+
 WIZ750SR series Common Documents 
 
   - **[User's Manual (English)](User's_Manual-[EN].md)** 
