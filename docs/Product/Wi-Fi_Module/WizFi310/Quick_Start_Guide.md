@@ -13,7 +13,7 @@ The WizFi310 EVB is the evalution board for testing WizFi310 and prototyping dev
 ---
 Feature Identification
 ---
-
+![](/document_framework/img/products/wizfi310/wizfi310-evb_guide.png)
 #### Button Description
 ---
 
@@ -49,6 +49,8 @@ Feature Identification
 #### Start Serial to Wi-Fi
 
 This chapter describes how to set WizFi310 in order to exchange data with peer system. This picture shows the environment for testing Serial to Wi-Fi example. In this example, WizFi310 is set to TCP server and peer system is set to TCP client. And then data can be exchanged between WizFi310 and the peer system.
+
+![](/document_framework/img/products/wizfi310/quick_start_guide_2.png)
 
 
 
@@ -91,7 +93,7 @@ In order to exit data mode or enter into command mode again, You have to send a 
 This section explains how to exchange data between WizFi310 and Peer System.
 This picture describes the flow for data communication.
 
-
+![](/document_framework/img/products/wizfi310/quick_start_guide_3.png)
 
 After TCP connection is done successfully and then if WizFi310 receives serial data, the serial data will be sent to peer system immediately. And WizFi310 can receive data from peer system.
-
+![](/document_framework/img/products/wizfi310/quick_start_guide_4.png)
