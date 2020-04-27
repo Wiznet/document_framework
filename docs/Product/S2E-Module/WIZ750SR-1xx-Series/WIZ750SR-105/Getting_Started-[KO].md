@@ -16,7 +16,7 @@ date: 2020-04-09
 
 -----
 
-***이 문서는 WIZ750SR-105 개발 보드(EVB, Evaluation Board)의 활용을 기준으로
+* **이 문서는 WIZ750SR-105 개발 보드(EVB, Evaluation Board)의 활용을 기준으로
 작성되었습니다.**
 
 -----
