@@ -38,7 +38,7 @@ Please refer to the following pages for detailed usage.
 
 -----
 
-WIZ750SR series Common Documents 
+ # WIZ750SR 
 
   - **[User's Manual (English)](User's_Manual-[EN].md)** 
   - **[User's Manual (Korean)](User's_Manual-[KO].md)** 
