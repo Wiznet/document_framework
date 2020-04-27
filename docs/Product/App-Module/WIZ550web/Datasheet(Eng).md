@@ -34,7 +34,7 @@ of hardware specification or exterior design.
 
 ### WIZ550web Pinout
 
-![WIZ550WEB\_Pinout](/products/wiz550web/wiz550webds_kr/wiz550web_rev1.1_20160721.png)
+![WIZ550WEB\_Pinout](/document_framework/img/products/wiz550web/wiz550web_rev1.1_20160721.png)
 
 ### Pin Description
 
@@ -97,19 +97,19 @@ As it is used in the EVB and for the web-server by default
 ### WIZ550web Baseboard Pinout
 
 ![WIZ550web Baseboard
-Pinout](/products/wiz550web/wiz550webds_kr/wiz550web_base_pinout_20160720.png)
+Pinout](/document_framework/img/products/wiz550web/wiz550web_base_pinout_20160720.png)
 
 ### WIZ550web Baseboard Callout
 
 ![WIZ550web Baseboard
-Callout](/products/wiz550web/wiz550webds_kr/wiz550web_base_20160720.png)
+Callout](/document_framework/img/products/wiz550web/wiz550web_base_20160720.png)
 
 ### Digital Output Port
 
 WIZ550web Baseboard has eight (D0-D7) relay output stage. Below is a
 photo of basic internal circuit. Jumper, relay NC (Normal close) and NO
 (Normal Open) can be set. ![WIZ550WEB Digital Output
-Port](/products/wiz550web/wiz550webds_kr/wiz550web_bb_output.png) See
+Port](/document_framework/img/products/wiz550web/wiz550web_bb_output.png) See
 the table below for State action.
 
 | Input value | Relay status value | NC output value | NO output value |
@@ -131,7 +131,7 @@ polarity input, and ON/OFF is distinguished from this potential
 difference between the two input signals.
 
 ![WIZ550WEB Digital Input
-Port](/products/wiz550web/wiz550webds_kr/wiz550web_bb_input.png)
+Port](/document_framework/img/products/wiz550web/wiz550web_bb_input.png)
 
 See the table below for the electrical characteristics of the input.
 
@@ -144,7 +144,7 @@ See the table below for the electrical characteristics of the input.
 Four (D8-D11) digital inputs are connected as shown in tact switch
 inside the Baseboard, and these connections have select Jumper J23-J26.
 ![WIZ550WEB Digital Input
-Jumper](/products/wiz550web/wiz550webds_kr/wiz550web_bb_input_jumper.png)
+Jumper](/document_framework/img/products/wiz550web/wiz550web_bb_input_jumper.png)
 
 ### Analog Input Port
 
@@ -157,7 +157,7 @@ Port](/products/wiz550web/wiz550webds_kr/wiz550web_bb_analog.png)
 Two of the Analog Input (A0, A1) have connected with a variable resistor
 (10K) and a temperature sensors (TC1047AVNB) in the Baseboard, this
 connection can opt to J26, J28 Jumper. ![WIZ550WEB Analog Input
-Jumper](/products/wiz550web/wiz550webds_kr/wiz550web_bb_analog_jumper.png)
+Jumper](/document_framework/img/products/wiz550web/wiz550web_bb_analog_jumper.png)
 
 -----
 
