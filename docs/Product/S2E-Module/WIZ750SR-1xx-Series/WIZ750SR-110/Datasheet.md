@@ -8,8 +8,8 @@ date: 2020-04-09
 
 # WIZ750SR-110 Datasheet
 
-\*\* Supported Languages \*\*  
-\* English only
+**Supported Languages**  
+* English only
 
 ![](/products/wiz750sr/docs_icon.png)
 
