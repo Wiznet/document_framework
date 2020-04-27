@@ -8,9 +8,9 @@ date: 2020-04-09
 
 # Getting Started with WIZ750SR-110
 
-\*\* Supported Languages \*\*  
-\* [English](/products/wiz750sr-110/gettingstarted/en)  
-\* [Korean](/products/wiz750sr-110/gettingstarted/ko) (current page)
+ **Supported Languages**  
+* [English](Getting_Started-[EN].md) 
+* [Korean](Getting_Started-[KO].md) (current page)
 
 ![](/products/wiz750jr/docs_icon.png)
 
