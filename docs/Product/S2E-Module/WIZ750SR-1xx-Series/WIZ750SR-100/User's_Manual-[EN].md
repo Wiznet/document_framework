@@ -552,65 +552,10 @@ Guide](/products/wiz750sr/troubleshooting/en)**\! \</WRAP\>
     information described in the [WIZ750SR Command
     Manual](/products/wiz750sr/commandmanual/en).
     
-    ## Navigation
+## Navigation
 
 -----
 
-\<WRAP group\> \<WRAP centeralign third column\>
-[![arrow\_back.png](/etc/arrow_back.png)](/products/wiz750sr/gettingstarted/en)  
-**Prev Page**  
-[WIZ750SR Getting Started Guide](/products/wiz750sr/gettingstarted/en)
-\</WRAP\>
-
-\<WRAP centeralign third column\>
-[![arrow\_upward.png](/etc/arrow_upward.png)](#wiz750sr_user_s_manual)  
-**Scroll to Top** \</WRAP\>
-
-\<WRAP centeralign third column\>
-[![arrow\_forward.png](/etc/arrow_forward.png)](/products/wiz750sr/commandmanual/en)  
-**Next Page**  
-[Device Command Manual](/products/wiz750sr/commandmanual/en) \</WRAP\>
-\</WRAP\>
-
-\<WRAP centeralign\>
-[![arrow\_refresh.png](/etc/arrow_refresh.png)](/products/wiz750sr/start)  
-**Back to Product Main**  
-[WIZ750SR](/products/wiz750sr/start) \</WRAP\>
-
-\<WRAP group\> \<WRAP centeralign half column\>
-[![arrow\_back.png](/etc/arrow_back.png)](/products/wiz750sr-100/gettingstarted/en)  
-**Prev Page**  
-[WIZ750SR-100 Getting Started
-Guide](/products/wiz750sr-100/gettingstarted/en) \</WRAP\>
-
-\<WRAP centeralign half column\>
-[![arrow\_refresh.png](/etc/arrow_refresh.png)](/products/wiz750sr-100/start)  
-**Back to Product Main**  
-[WIZ750SR-100](/products/wiz750sr-100/start) \</WRAP\> \</WRAP\>
-
-\<WRAP group\> \<WRAP centeralign half column\>
-[![arrow\_back.png](/etc/arrow_back.png)](/products/wiz750sr-105/gettingstarted/en)  
-**Prev Page**  
-[WIZ750SR-105 Getting Started
-Guide](/products/wiz750sr-105/gettingstarted/en) \</WRAP\>
-
-\<WRAP centeralign half column\>
-[![arrow\_refresh.png](/etc/arrow_refresh.png)](/products/wiz750sr-105/start)  
-**Back to Product Main**  
-[WIZ750SR-105](/products/wiz750sr-105/start) \</WRAP\> \</WRAP\>
-
-\<WRAP group\> \<WRAP centeralign half column\>
-[![arrow\_back.png](/etc/arrow_back.png)](/products/wiz750sr-110/gettingstarted/en)  
-**Prev Page**  
-[WIZ750SR-110 Getting Started
-Guide](/products/wiz750sr-110/gettingstarted/en) \</WRAP\>
-
-\<WRAP centeralign half column\>
-[![arrow\_refresh.png](/etc/arrow_refresh.png)](/products/wiz750sr-110/start)  
-**Back to Product Main**  
-[WIZ750SR-110](/products/wiz750sr-110/start) \</WRAP\> \</WRAP\>
-
------
 WIZ750SR series Common Documents 
 
   - **[User's Manual (English)](User's_Manual-[EN].md)** 
