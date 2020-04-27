@@ -16,9 +16,9 @@ WIZ750SR-1xx Series is 1-port serial to Ethernet converting module using
 the W7500 Ethernet MCU (SoC based on ARM Cortex-M0 architecture) with
 External PHY(IC+).
 
-  - [WIZ750SR-100](../WIZ750SR-100/Overview-[EN].md)
-  - [WIZ750SR-105](../WIZ750SR-105/Overview-[EN].md)
-  - [WIZ750SR-110](/p../WIZ750SR-110/Overview-[EN].md)
+  - [WIZ750SR-100](../../WIZ750SR-100/Overview-[EN].md)
+  - [WIZ750SR-105](../../WIZ750SR-105/Overview-[EN].md)
+  - [WIZ750SR-110](../../WIZ750SR-110/Overview-[EN].md)
 
 -----
 
