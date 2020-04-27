@@ -8,9 +8,9 @@ date: 2020-04-09
 
 # WIZ750SR-100 Product Overview
 
-\*\* Supported Languages \*\*  
-\* [English](Overview-[EN].md)  
-\* [Korean](Overview-[KO].md) (current page)
+ **Supported Languages**  
+* [English](Overview-[EN].md) 
+* [Korean](Overview-[KO].md) (current page)
 
 -----
 
