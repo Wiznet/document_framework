@@ -8,7 +8,7 @@ date: 2020-04-13
 ## Content
 # WIZ550web
 
-![](/products/wiz550web/wiz550web_001_small.png)
+![](/document_framework/img/products/wiz550web/wiz550web_001_small.png)
 
 ## Overview
 
@@ -18,7 +18,7 @@ digital I/O and 4-ADC inputs on module via web pages. WIZnet provides
 firmware & web page examples that base on WIZ550web for user to
 customize their own objective.
 
-![](/products/wiz550web/wiz550webgsg/wiz550web_product_preview.png)
+![](/document_framework/img/products/wiz550web/wiz550webgsg/wiz550web_product_preview.png)
 
 -----
 
