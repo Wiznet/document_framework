@@ -24,6 +24,7 @@ WIZ-Embedded WebServer는 소형의 마이컴으로 동작하는 Web Server로�
 
 ### Configuration Tool
 #### Description
+![]()
 
 WIZnet Configuration tool은 java 기반으로 구현된 응용프로그램으로 대부분의 OS Platform에서 사용이 가능하다. .jar 파일을 다운로드해서 Java Virtual machine상에서 실행되도록 하면 된다.
 🌎[설치방법](http://xeon011.tistory.com/146)
