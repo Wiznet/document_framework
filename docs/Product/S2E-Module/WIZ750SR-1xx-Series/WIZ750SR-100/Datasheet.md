@@ -776,19 +776,6 @@ was connected to MCU directly.**
 
 -----
 
-\<WRAP group\> \<WRAP centeralign half column\>
-[![arrow\_upward.png](/etc/arrow_upward.png)](#WIZ750SR-100_Datasheet)  
-**Scroll to Top** \</WRAP\>
-
-\<WRAP centeralign half column\>
-[![arrow\_refresh.png](/etc/arrow_refresh.png)](/products/wiz750sr-100/start)  
-**Back to Product Main** \</WRAP\> \</WRAP\>
-
------
-
-\<WRAP round box group\> \<WRAP half column\> \<WRAP centeralign\> \*\*
-WIZ750SR series Common Documents \*\* \</WRAP\>
-
 WIZ750SR series Common Documents 
 
   - **[User's Manual (English)](User's_Manual-[EN].md)** 
@@ -811,7 +798,7 @@ WIZ750SR series Common Documents
 
 -----
 
-\*\* WIZ750SR series Downloads \*\* \
+**WIZ750SR series Downloads** 
 
   - **[Software Download](Download.md)**
 
