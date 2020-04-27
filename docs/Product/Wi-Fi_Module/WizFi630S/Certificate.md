@@ -54,8 +54,8 @@ This section provides WizFi630S certificate and test reports.
     
 
 
-  * [certificate]()
-  * [teset report]()
+  * ![certificate](/document_framework/img/products/wizfi630s/wizfi630s_cert/wizfi630s_fcc_certificate.pdf)
+  * ![teset report](/document_framework/img/products/wizfi630s/wizfi630s_cert/wizfi630s_fcc_test_report.pdf)
 
 
 
@@ -77,8 +77,8 @@ This section provides WizFi630S certificate and test reports.
     
 
 
-  * [certificate]()
-  * [test report]()
+  * ![certificate](/document_framework/img/products/wizfi630s/wizfi630s_cert/wizfi630s_kc_certificate.pdf)
+  * ![test report](/document_framework/img/products/wizfi630s/wizfi630s_cert/wizfi630s_kc_test_report.pdf)
 
 
 
@@ -100,8 +100,8 @@ This section provides WizFi630S certificate and test reports.
     
 
 
-  * [certificate]()
-  * [test report]()
+  * ![certificate](/document_framework/img/products/wizfi630s/wizfi630s_cert/wizfi630s_japan_mic_telec_certificate.pdf)
+  * ![test report](/document_framework/img/products/wizfi630s/wizfi630s_cert/wizfi630s_japan_mic_telec_test_report.pdf)
 
 
 | Issue Date |
