@@ -8,9 +8,9 @@ date: 2020-04-09
 
 # WIZ750SR Developer's Guide
 
-\*\* Supported Languages \*\*  
-\* [English](/products/wiz750sr/developers/en)  
-\* [Korean](/products/wiz750sr/developers/ko) (current page)
+ **Supported Languages**  
+ * [English](Developer's_Guide-[EN].md)  
+ * [Korean](Developer's_Guide-[KO].md) (current page)
 
 ![](/products/wiz750sr/docs_icon.png)
 
