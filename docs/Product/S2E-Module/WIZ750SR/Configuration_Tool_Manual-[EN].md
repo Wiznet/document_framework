@@ -12,7 +12,7 @@ date: 2020-04-08
    * [English](Configuration_Tool_Manual-[EN].md) (current page)  
    * [Korean]()
 
-![](/document_framework/img/products/wiz750sr/docs_icon.png)
+![](/document_framework/img/products/wiz750sr/datasheet/wiz750sr_pinout_exp_rev1.2.png)
 
 -----
 
