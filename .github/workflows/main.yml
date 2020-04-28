@@ -9,7 +9,7 @@ on:
   pull_request:
     branches:
       - master
-env:
+with:
   NODE_OPTIONS: --max_old_space_size=4096
 
 jobs:
@@ -35,7 +35,7 @@ jobs:
 
     - name: Deploy 
       uses: peaceiris/actions-gh-pages@v3
-      env:
+      with:
         #ACTIONS_DEPLOY_KEY: ${{ secrets.ACTIONS_DEPLOY_KEY }}
         PERSONAL_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         #GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
