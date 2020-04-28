@@ -8,8 +8,9 @@ date: 2020-04-15
 
 # WIZ752SR-125 Datasheet
 
-\*\* Supported Languages \*\*  
-\* English only
+ **Supported Languages**  
+* English only
+
 ![WIZ752SR-125](/products/s2e_module/wiz752sr-125/wiz752sr-125_main.png)
 
 -----
