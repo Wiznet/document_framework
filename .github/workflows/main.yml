@@ -1,4 +1,4 @@
-name: Docusaurus on Windows
+name: MD-TO-HTML-ENCODER
 
 on:
   # Trigger the workflow on push or pull request,
@@ -6,25 +6,43 @@ on:
   push:
     branches:
       - master
+  pull_request:
+    branches:
+      - master
+env:
+  NODE_OPTIONS: --max_old_space_size=4096
 
 jobs:
   build:
-    runs-on: windows-2019
+    runs-on: [ubuntu-latest]
     strategy:
       matrix:
         node-version: [10.x]
     steps:
     - uses: actions/checkout@v1
+
     - name: Use Node.js ${{ matrix.node-version }}
       uses: actions/setup-node@v1
       with:
         node-version: ${{ matrix.node-version }}
+
     - name: Installation
       run: yarn
-    - name: Docusaurus 2 Build
+
+
+    - name: Build
       run: yarn build
-    - name: Deploy
+
+    - name: Deploy 
       uses: peaceiris/actions-gh-pages@v3
-      with:
-        github_token: ${{ secrets.GITHUB_TOKEN }}
-        publish_dir: ./build/
+      env:
+        #ACTIONS_DEPLOY_KEY: ${{ secrets.ACTIONS_DEPLOY_KEY }}
+        PERSONAL_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        #GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        PUBLISH_BRANCH: gh-pages
+        PUBLISH_DIR: './build/' 
+        ##################################################   
+    #- name: Moving images to gh-pages directory
+     ## working-directory: master
+      #run: chmod +x scripts/update-images.sh
+   ################################################
