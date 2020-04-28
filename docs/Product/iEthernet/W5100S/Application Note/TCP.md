@@ -491,7 +491,7 @@ and Sn\_CR\[CLOSE\] = '1'.
 ### TCP CLIENT
 
 ![TCP CLIENT Operation
-Flow](/products/w5100s/application/tcp_client_flow.png)
+Flow](/document_framework/img/products/w5100s/application/tcp_client_flow.png)
 
 #### OPEN
 
