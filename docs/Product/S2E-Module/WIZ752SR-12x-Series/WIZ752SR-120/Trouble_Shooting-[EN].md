@@ -8,9 +8,9 @@ date: 2020-04-13
 
 # WIZ750SR Troubleshooting Guide
 
-\*\* Supported Languages \*\*  
-\* [English](/products/wiz750sr/troubleshooting/en) (current page)  
-\* [Korean](/products/wiz750sr/troubleshooting/ko)
+**Supported Languages**  
+* [English](Trouble_Shooting-[EN].md) (current page)  
+* [Korean](Trouble_Shooting-[KO].md)
 
 -----
 
