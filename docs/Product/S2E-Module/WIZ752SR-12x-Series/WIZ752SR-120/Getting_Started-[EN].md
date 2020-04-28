@@ -8,10 +8,9 @@ date: 2020-04-13
 
 # Getting Started with WIZ752SR-120
 
-\*\* Supported Languages \*\*  
-\* [English](/products/s2e_module/wiz752sr-120/gettingstarted/en)
-(current page)  
-\* [Korean](/products/s2e_module/wiz752sr-120/gettingstarted/ko)
+**Supported Languages**  
+* [English](Getting_Started-[EN].md) (current page)  
+* [Korean](Getting_Started-[KO].md)
 
 ![](/products/wiz750sr/docs_icon.png)
 
