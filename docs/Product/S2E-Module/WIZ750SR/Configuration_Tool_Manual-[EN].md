@@ -8,11 +8,11 @@ date: 2020-04-08
 
 # WIZ750SR Configuration Tool Manual
 
-\*\* Supported Languages \*\*  
-\* [English](/products/wiz750sr/configtoolmanual/en) (current page)  
-\* [Korean](/products/wiz750sr/configtoolmanual/ko)
+**Supported Languages** 
+   * [English](Configuration_Tool_Manual-[EN].md) (current page)  
+   * [Korean]()
 
-![](/products/wiz750sr/docs_icon.png)
+![](/document_framework/img/products/wiz750sr/docs_icon.png)
 
 -----
 
@@ -25,7 +25,7 @@ opened.
 
 |                                                                     |
 | ------------------------------------------------------------------- |
-| ![](/products/wiz750sr/usermanual/configtool_overview.png)          |
+| ![](/document_framework/img/products/wiz750sr/usermanual/configtool_overview.png)          |
 | Figure: **Configuration Tool for WIZ750SR & WIZ107/108SR Products** |
 
 -----
@@ -34,7 +34,7 @@ opened.
 
 |                                                          |
 | -------------------------------------------------------- |
-| ![](/products/wiz750sr/usermanual/configtool_layout.png) |
+| ![](/document_framework/img/products/wiz750sr/usermanual/configtool_layout.png) |
 | Figure: **Configuration Tool Layout**                    |
 
 The configuration tool is composed of four sections. Details of each
@@ -66,7 +66,7 @@ section are available below.
 
 |                                                             |
 | ----------------------------------------------------------- |
-| ![](/products/wiz750sr/usermanual/configtool_icon_menu.png) |
+| ![](/document_framework/img/products/wiz750sr/usermanual/configtool_icon_menu.png) |
 | Figure: **Menu Icons**                                      |
 
 1.  Program is operated in Windows only.
@@ -121,7 +121,7 @@ section are available below.
 
 |                                                                          |
 | ------------------------------------------------------------------------ |
-| ![](/products/wiz750sr/usermanual/configtool_firmwareupload_success.png) |
+| ![](/document_framework/img/products/wiz750sr/usermanual/configtool_firmwareupload_success.png) |
 | Figure: **Popup Message - Firmware Upload Successfully**                 |
 
   - Use **TCP/UDP port 50002 to upload firmware** on to WIZ750SR.
@@ -135,9 +135,9 @@ section are available below.
   - The module will not work properly if the firmware is not correctly
     uploaded.
 
-\<WRAP round alert center centeralign 80%\> **DO NOT TURN OFF POWER
+**DO NOT TURN OFF POWER
 DURING FIRMWARE UPLOADING**  
-**IT CAN CAUSE MALFUNCTIONING** \</WRAP\>
+**IT CAN CAUSE MALFUNCTIONING** 
 
 1.  UDP Broadcast Search: can search multiple devices
 
@@ -163,7 +163,7 @@ DURING FIRMWARE UPLOADING**
 
 |                                                                |
 | -------------------------------------------------------------- |
-| ![](/products/wiz750sr/usermanual/configtool_ping_success.png) |
+| ![](/document_framework/img/products/wiz750sr/usermanual/configtool_ping_success.png) |
 | Figure: **Ping Request and Reply**                             |
 
 #### 7\) Firewall
@@ -182,7 +182,7 @@ DURING FIRMWARE UPLOADING**
 
 |                                                               |
 | ------------------------------------------------------------- |
-| ![](/products/wiz750sr/usermanual/configtool_device_list.png) |
+| ![](/document_framework/img/products/wiz750sr/usermanual/configtool_device_list.png) |
 | Figure: **Device List**                                       |
 
   - List of devices searched will appears.
@@ -248,7 +248,7 @@ The serial debug message is printed via separate Debug UART and not Data UART, a
 
 |                                                               |
 | ------------------------------------------------------------- |
-| ![](/products/wiz750sr/usermanual/configtool_tab_network.png) |
+| ![](/document_framework/img/products/wiz750sr/usermanual/configtool_tab_network.png) |
 | Figure: **Network Configuration Tab**                         |
 
 #### 1\) IP Address Allocation
@@ -305,7 +305,7 @@ settings](/products/wiz750sr/usermanual/en#ip_address_settings).
 
 |                                                              |
 | ------------------------------------------------------------ |
-| ![](/products/wiz750sr/usermanual/configtool_tab_serial.png) |
+| ![](/document_framework/img/products/wiz750sr/usermanual/configtool_tab_serial.png) |
 | Figure: **Serial Configuration Tab**                         |
 
 #### 1\) Debug Message Enable
@@ -361,9 +361,9 @@ settings](/products/wiz750sr/usermanual/en#ip_address_settings).
     using this option, user command frame or all other data can be
     collected and sent together.
 
-\<WRAP round tip center centeralign 90%\> Data packing options can be
+Data packing options can be
 multi-selected but has priority as shown below.  
-**Character =\> Size =\> Timer** \</WRAP\>
+**Character =\> Size =\> Timer** 
 
   - **Timer**
       - Range: 0 \~ 65535 / Unit: milliseconds (ms)
@@ -412,7 +412,6 @@ multi-selected but has priority as shown below.
           - Default: \[2B\]\[2B\]\[2B\] (+++)
       - Each byte value reads hex code only.
 
-\<WRAP round tip center 90%\>
 
 1.  Serial data can be collected according to the setting (character,
     size, or time) and be sent together.
@@ -430,7 +429,7 @@ multi-selected but has priority as shown below.
     mode switch code is 500ms. The operation is based on the timer value
     of the serial data packaging option.
 
-\</WRAP\>
+
 
 -----
 
@@ -438,7 +437,7 @@ multi-selected but has priority as shown below.
 
 |                                                               |
 | ------------------------------------------------------------- |
-| ![](/products/wiz750sr/usermanual/configtool_tab_options.png) |
+| ![](/document_framework/img/products/wiz750sr/usermanual/configtool_tab_options.png) |
 | Figure: **Options Configuration Tab**                         |
 
 #### 1\) Inactivity Timer Settings
@@ -530,9 +529,9 @@ multi-selected but has priority as shown below.
 
 ### 6\. Progress Bar
 
-| Device Search             | ![](/products/wiz750sr/usermanual/configtool_operation_results.png) |
+| Device Search             | ![](/document_framework/img/products/wiz750sr/usermanual/configtool_operation_results.png) |
 | ------------------------- | ------------------------------------------------------------------- |
-| Firmware Upload           | ![](/products/wiz750sr/usermanual/configtool_progress_bar.png)      |
+| Firmware Upload           | ![](/document_framework/img/products/wiz750sr/usermanual/configtool_progress_bar.png)      |
 | Figures: **Progress Bar** |                                                                     |
 
   - Shows the result of search.
@@ -542,9 +541,9 @@ multi-selected but has priority as shown below.
 
 -----
 
-\<WRAP center round tip 80% centeralign\> **If there is any problem?**  
+**If there is any problem?**  
 Please refer to our **[Troubleshooting
-Guide](/products/wiz750sr/troubleshooting/en)**\! \</WRAP\>
+Guide](/products/wiz750sr/troubleshooting/en)**\! 
 
 -----
 
