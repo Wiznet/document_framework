@@ -7,11 +7,11 @@ date: 2020-04-08
 ## Content
 # WIZ750SR Command Manual
 
-\*\* Supported Languages \*\*  
-\* [English](/products/wiz750sr/commandmanual/en) (current page)  
-\* [Korean](/products/wiz750sr/commandmanual/ko)
+**Supported Languages**  
+  * [English](/products/wiz750sr/commandmanual/en) (current page)  
+  * [Korean](/products/wiz750sr/commandmanual/ko)
 
-![](/products/wiz750sr/docs_icon.png)
+![](/document_framework/img/products/wiz750sr/docs_icon.png)
 
 -----
 
@@ -79,9 +79,8 @@ mode.
       - This method is used when users wish to change settings while the
         product operation is initiated.
 
-\<WRAP round box center 80%\>
 
-``` 
+ 
   - **Set the hardware trigger pin(HW_TRIG) to Low. **
      * When using the EVB, place the HW_TRIG switch to Command.
   - **Power on the WIZ750SR.**
@@ -91,9 +90,9 @@ mode.
   - **Switch to data transmission mode(GW mode) using [[#ex|EX]] command**.
      * If the switch to data transmission mode is successful, users can check the following message via Debug UART port.
      * <code>> SEG:GW Mode </code>
-```
 
-\</WRAP\>
+
+
 
   - **2. Enter command mode using command mode switch code**\[1\]
       - Users can enter command mode using the command mode switch code
@@ -104,9 +103,8 @@ mode.
         and can be changed to a different value if needed. The code only
         accepts Hex value. (**default: Hex \[2B\]\[2B\]\[2B**\]\[2\])
 
-\<WRAP round box center 80%\>
 
-``` 
+
   - **Check if 'Serial command mode switch code' is enabled at the configuration tool and the 3-bytes 'command mode switch code'.**
   - **Enter the ‘command mode switch code’ via data UART port to change modes.**
     * Read below what you need to be cautious about when switching to command mode.
@@ -116,27 +114,26 @@ mode.
   - **Use [[#ex|EX]] command to switch to data transmission mode.**
     * When operating in data transmission mode, users can check the following message via Debug UART port.
     * <code>> SEG:GW Mode </code>
-```
 
-\</WRAP\>
+
+
 
 1.  Command mode switch trigger code via Data UART port
 
 2.  Char '+++'
 
-\<WRAP round tip center 90%\>
+
 
 **Please be cautious when using the trigger code to switch command
 mode.**
 
-``` 
+
   - There has to be a time gap of **at least 500ms** at the start and end of the ‘command mode switch code’ in order it to be read as switch code.
   - The entering time in between each byte of the ‘3-byte command mode switch code’ has to be **below 500ms**.
   - Do not add CR or LF at the end of the command mode switch code((Conversely, the serial command after mode switch must end with CR or LF.)).
   - The default values of 1 and 2 above are **500ms**; these values change to the timer value if the timer value of the serial data packing option is set to a certain value.
-```
 
-\</WRAP\>
+
 
 #### Serial Command Frame Format
 
@@ -174,10 +171,10 @@ following commands. The user must use **UDP** or **TCP client** \[1\] to
 send commands, and the port number for processing the commands is
 **50001**.
 
-\<WRAP round info center centeralign 80%\> **Network information for
+**Network information for
 command transmission:**  
 **UDP / TCP Server : 50001**  
-(User can send the commands by UDP / TCP Client to device) \</WRAP\>
+(User can send the commands by UDP / TCP Client to device) 
 
 #### Ethernet Command Frame Format
 
@@ -214,7 +211,7 @@ The two additional commands are **MA** and **PW**.
 
 ##### Get Request
 
-\<WRAP round box center 100%\> **When sending a single command**
+**When sending a single command**
 
     MA [MAC] [CR] [LF] PW [Search ID] [CR] [LF] [Command] [CR] [LF]
 
@@ -222,14 +219,14 @@ The two additional commands are **MA** and **PW**.
 
     MA [MAC] [CR] [LF] PW [Search ID] [CR] [LF] ([Command] [CR] [LF]) * Number of commands
 
-\</WRAP\>
+
 
   - The response for ‘get request’ will have the identical format as
     ‘request’ but include the parameter\[1\].
 
 ##### Set Request
 
-\<WRAP round box center 100%\> **When sending a single command**
+ **When sending a single command**
 
     MA [MAC] [CR] [LF] PW [Search ID] [CR] [LF] [Command] [Parameters] [CR] [LF]
 
@@ -237,7 +234,7 @@ The two additional commands are **MA** and **PW**.
 
     MA [MAC] [CR] [LF] PW [Search ID] [CR] [LF] ([Command] [Parameters] [CR] [LF]) * Number of commands
 
-\</WRAP\>
+
 
   - For ‘Set Request’, there is no additional response needed for
     changing the product setting.
@@ -255,7 +252,6 @@ The two additional commands are **MA** and **PW**.
 | Request from User |
 | ----------------- |
 
-\<WRAP round box center 100%\>
 
 **Command Frame**
 
@@ -265,12 +261,12 @@ The two additional commands are **MA** and **PW**.
 
     4D 41 FF FF FF FF FF FF 0D 0A 50 57 20 0D 0A 4D 43 0D 0A 4C 49 0D 0A
 
-\</WRAP\>
+
 
 | Response by WIZ750SR |
 | -------------------- |
 
-\<WRAP round box center 100%\>
+
 
 1.  The response for ‘Get Request’ has the same form as ‘Set Request’.
 
@@ -293,7 +289,6 @@ The two additional commands are **MA** and **PW**.
 | Request from User |
 | ----------------- |
 
-\<WRAP round box center 100%\>
 
 **Command Frame**
 
@@ -303,12 +298,11 @@ The two additional commands are **MA** and **PW**.
 
     4D 41 00 08 DC 00 00 11 0D 0A 50 57 20 0D 0A 4C 49 0D 0A
 
-\</WRAP\>
 
 | Response by WIZ750SR |
 | -------------------- |
 
-\<WRAP round box center 100%\>
+
 
 **Command Frame**
 
@@ -318,7 +312,7 @@ The two additional commands are **MA** and **PW**.
 
     4D 41 00 08 DC 00 00 11 0D 0A 50 57 20 0D 0A 4C 49 31 39 32 2E 31 36 38 2E 31 31 2E 32 0D 0A
 
-\</WRAP\>
+
 
 ##### Example \#3: TCP Set Command Frame
 
@@ -330,7 +324,7 @@ The two additional commands are **MA** and **PW**.
 | Request from User |
 | ----------------- |
 
-\<WRAP round box center 100%\>
+
 
 **Command Frame**
 
@@ -340,20 +334,20 @@ The two additional commands are **MA** and **PW**.
 
     4D 41 00 08 DC 00 00 11 0D 0A 50 57 48 45 4C 4C 4F 0D 0A 4C 49 31 39 32 2E 31 36 38 2E 31 31 2E 35 0D 0A
 
-\</WRAP\>
+
 
 | Response by WIZ750SR |
 | -------------------- |
 
-\<WRAP round box center 100%\>
+
 
     None
 
-\</WRAP\>
 
-\<WRAP round info center centeralign 80%\> **When modifying the IP
+
+**When modifying the IP
 address format\[1\], '.'(dot, 0x2E) must be included such as the
-'192.168.11.5'.** \</WRAP\>
+'192.168.11.5'.** 
 
 -----
 
@@ -788,7 +782,7 @@ column\>
   - **Without Parameter (Get)**
       - In ASCII: `VR1.0.0\r\n`
 
-\</WRAP\> \<WRAP half column\> \</WRAP\> \</WRAP\> \</WRAP\> \</WRAP\>
+
 
 -----
 
@@ -802,13 +796,13 @@ column\>
   - **Return Type:** String
   - **Return Value:**
 
-\<WRAP indent\>\<WRAP indent\>
+
 
     Device model name
 
   - \=\> Default: WIZ750SR
 
-\</WRAP\> \</WRAP\>
+
 
   - **Response**
 
@@ -832,7 +826,6 @@ column\>
   - **Return Type:** String
   - **Return Value:**
 
-\<WRAP indent\>\<WRAP indent\>
 
 | Status  | Description                                                   |
 | ------- | ------------------------------------------------------------- |
@@ -843,17 +836,13 @@ column\>
 | ATMODE  | Serial AT command mode status.                                |
 | UDP     | UDP mode status.                                              |
 
-\</WRAP\> \</WRAP\>
 
   - **Response**
 
-\<WRAP indent\>\<WRAP indent\> \<WRAP round box group\> \<WRAP half
-column\>
 
   - **Without Parameter (Get)**
       - In ASCII: `STATMODE\r\n`
 
-\</WRAP\> \<WRAP half column\> \</WRAP\> \</WRAP\> \</WRAP\> \</WRAP\>
 
 -----
 
@@ -867,24 +856,20 @@ column\>
   - **Return Type:** String
   - **Return Value:**
 
-\<WRAP indent\>\<WRAP indent\>
-
 | UART Interface | Description                                                     |
 | -------------- | --------------------------------------------------------------- |
 | RS-232/TTL     | Device supports UART input/output of RS-232C or TTL signals.    |
 | RS-422/485     | Device supports UART input/output of RS-422 and RS-485 signals. |
 
-\</WRAP\> \</WRAP\>
+
 
   - **Response**
 
-\<WRAP indent\>\<WRAP indent\> \<WRAP round box group\> \<WRAP half
-column\>
+
 
   - **Without Parameter (Get)**
       - In ASCII: `UNRS-232/TTL\r\n`
 
-\</WRAP\> \<WRAP half column\> \</WRAP\> \</WRAP\> \</WRAP\> \</WRAP\>
 
 -----
 
@@ -905,17 +890,15 @@ column\>
 | 0            | Device supports UART input/output of RS-232C or TTL signals.    | RS-232/TTL |
 | 1            | Device supports UART input/output of RS-422 and RS-485 signals. | RS-422/485 |
 
-\</WRAP\> \</WRAP\>
 
   - **Response**
 
-\<WRAP indent\>\<WRAP indent\> \<WRAP round box group\> \<WRAP half
-column\>
+
 
   - **Without Parameter (Get)**
       - In ASCII: `UI0\r\n`
 
-\</WRAP\> \<WRAP half column\> \</WRAP\> \</WRAP\> \</WRAP\> \</WRAP\>
+
 
   
   
