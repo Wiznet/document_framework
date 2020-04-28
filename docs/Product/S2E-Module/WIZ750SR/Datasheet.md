@@ -932,20 +932,20 @@ ISP mode firmware downloader port</td>
 
 |                                                          |                                                                 |
 | -------------------------------------------------------- | --------------------------------------------------------------- |
-| ![](https://github.com/Wiznet/document_framework/blob/master/static/img/products/wiz750sr/datasheet/wiz750sr_dimension.png) | ![](https://github.com/Wiznet/document_framework/blob/master/static/img/products/wiz750sr/datasheet/wiz750sr_dimension_rev1.2.png) |
+| ![](/document_framework/img/products/wiz750sr/datasheet/wiz750sr_dimension.png) | ![](/document_framework/img/products/wiz750sr/datasheet/wiz750sr_dimension_rev1.2.png) |
 | **Rev1.0/1.1**                                           | **Rev1.2**                                                      |
 
   - WIZ750SR-EVB (TTL/RS232) Rev1.0 Dimension : 
       - 83mm x 65mm ( PCB board size )
       - 83mm x 65mm x 18mm ( Included part size )
 
-![](/products/wiz750sr/datasheet/wiz750sr-evb-dimension_232.png)
+![](/document_framework/img/products/wiz750sr/datasheet/wiz750sr-evb-dimension_232.png)
 
   - WIZ750SR-EVB (RS422/485) Rev1.0 Dimension : 
       - 73mm x 65mm ( PCB board size )
       - 73mm x 65mm x 18mm ( Included part size )
 
-![](/products/wiz750sr/datasheet/wiz750sr-evb-dimension_485.png)
+![](/document_framework/img/products/wiz750sr/datasheet/wiz750sr-evb-dimension_485.png)
 
 ## Navigation
 
