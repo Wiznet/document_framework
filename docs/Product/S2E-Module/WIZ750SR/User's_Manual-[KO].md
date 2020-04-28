@@ -8,9 +8,9 @@ date: 2020-04-08
 
 # WIZ750SR User's Manual
 
-\*\* Supported Languages \*\*  
-\* [English](/products/wiz750sr/usermanual/en)  
-\* [Korean](/products/wiz750sr/usermanual/ko) (current page)
+**Supported Languages** 
+  * [English](Getting_Started-[EN].md)  
+  * [Korean](User's_Manual-[KO].md) (current page)
 
 ![](/products/wiz750sr/docs_icon.png)
 
@@ -20,8 +20,8 @@ WIZ750SR은 시리얼 to 이더넷 모듈 제품으로, 사용자는 WIZ750SR을
 이더넷 네트워크를 통해 제어하고 모니터링 할 수 있습니다.
 
 본 제품의 경우, 사용자 시리얼 장치의 인터페이스 종류에 따라 **WIZ750SR-TTL, WIZ750SR-RS232,
-WIZ750SR-RS485(RS-422/485 지원)**의 세 가지 형태로 제공 됩니다. 사용자의 네트워크 환경 및 망 구성에
-따라 **두 가지 IP 주소 할당 방법\[1\]**과 \*\* 네 가지 이더넷 동작 모드\[2\]\*\*를 지원하며,
+WIZ750SR-RS485(RS-422/485 지원)** 의 세 가지 형태로 제공 됩니다. 사용자의 네트워크 환경 및 망 구성에
+따라 **두 가지 IP 주소 할당 방법\[1\]**과 **네 가지 이더넷 동작 모드\[2\]** 를 지원하며,
 시리얼 데이터 스트림을 \[특정 문자\], \[길이\], \[시간\] 등에 따라 블록으로 구분하여 전송 할 수 있도록
 **Data packing 옵션**도 제공하고 있습니다.
 
@@ -66,12 +66,11 @@ Subnet mask, DNS 서버 주소를 포함합니다.
             포워딩](https://en.wikipedia.org/wiki/Port_forwarding)
             설정이 필요할 수 있습니다.
 
-\<WRAP round info center centeralign 60%\>
 
 WIZ750SR 제품 IP 주소의 초기 설정 값  
 **직접 IP 할당 / 192.168.11.2**
 
-\</WRAP\>
+
 
 1.  시리얼 장치가 네트워크를 통해 데이터를 전달할 Remote host, 즉 Destination을 의미합니다.
 
@@ -110,8 +109,8 @@ WIZ750SR 제품 IP 주소의 초기 설정 값
 것이 좋습니다. 따라서 **사용자 목적을 위해 응용 제품 활용 시, 어플리케이션 서비스를 위해 할당되거나 (Registered
 port), 혹은 그때 그때 임시로 할당되어 쓰이는(Dynamic port) 포트 번호 영역 사용을 권장**합니다.
 
-\<WRAP round info center centeralign 60%\> WIZ750SR 제품 포트 번호의 초기 설정 값  
-**5000** \</WRAP\>
+ WIZ750SR 제품 포트 번호의 초기 설정 값  
+**5000** 
 
 1.  Internet Assigned Numbers Authority, <http://www.iana.org>
 
@@ -126,12 +125,12 @@ TCP connection을 수행하게 됩니다.
 
 제품의 포트 번호 설정과 마찬가지로, 목적지 응용의 포트 번호도 함께 설정되어야 합니다.
 
-\<WRAP round info center centeralign 60%\>
+
 
 WIZ750SR 제품 원격지 호스트의 초기 설정 값  
 **192.168.11.3 : 5000**
 
-\</WRAP\>
+
 
 -----
 
@@ -148,13 +147,12 @@ client), TCP 서버/클라이언트 혼용 모드(TCP mixed), UDP 모드**의 4�
 
 제품이 TCP 서버 모드로 설정된 경우, 다음과 같이 동작합니다.
 
-\<WRAP round box center 100%\>
 
 1.  **먼저 실행되어 TCP 클라이언트의 연결 요청을 대기 (listen)**
 2.  **TCP 클라이언트의 연결 요청이 수신되면 TCP 연결 수립 (TCP connection established)**
 3.  **데이터 송/수신**
 
-\</WRAP\>
+
 
 TCP 서버 모드에서만 사용되는 제품 옵션은 다음과 같습니다.
 
@@ -175,12 +173,12 @@ TCP 서버 모드에서만 사용되는 제품 옵션은 다음과 같습니다.
 
 제품이 TCP 클라이언트 모드로 설정된 경우, 다음과 같이 동작합니다.
 
-\<WRAP round box center 100%\>
+
 
 1.  **지정된 목적지 호스트(TCP 서버)로 TCP 연결을 수행 (connect)** 
 2.  **TCP 연결이 수립(TCP connection established)되면 데이터 송/수신**
 
-\</WRAP\>
+
 
   - 연결 할 목적지 호스트 정보가 필요하며, 목적지는 TCP 서버로 동작하고 있어야 함
 
@@ -235,13 +233,13 @@ WIZ750SR 제품은 1:1 통신만 가능했던 기존 제품의 UDP 모드에 다
       - 먼저 데이터를 전송 할 수는 없습니다.
       - 다수의 UDP 목적지에서 데이터를 보내오고, 이에 시리얼 장치가 응답하는 형태의 응용에서 활용 가능합니다.
       
-      \<WRAP round info center centeralign 60%\>
+     
 
 **1:N UDP 통신 모드 설정**  
 *원격지 호스트 IP 주소를 0.0.0.0으로 설정*  
 (원격지 호스트의 포트 번호 설정은 동일)
 
-\</WRAP\>
+
 
 -----
 
@@ -339,31 +337,28 @@ Flow control disabled</td>
 
 ### 시리얼 커맨드 모드 전환
 
-``` 
+
   * 시리얼 데이터 중 **3-byte 커맨드 모드 전환 코드** 수신 시 데이터 전송 모드(GW mode)에서 시리얼 커맨드 모드(AT mode)로 전환됩니다.
     * Enable Default: Enabled (사용)
     * Trigger Code Default: [2B][2B][2B] (+++)
   * 시리얼 커맨드 모드에서는 2-byte로 구성된 시리얼 커맨드를 이용하여 제품의 각종 설정 변경 및 모니터가 가능합니다.
   * 시리얼 커맨드 모드로 변경되면 기존에 연결되어 있던 TCP 연결(TCP connection)이 모두 종료(disconnect)됩니다.
   * 커맨드 모드 전환 코드 각 byte의 값은 hex 코드만 인식합니다.
-```
 
-``` 
+
   * 시리얼 커맨드에 관한 상세 설명은 [[products:wiz750sr:commandmanual:ko|WIZ750SR Command Manual]]에서 다룹니다.
-```
 
-\<WRAP round tip center 90%\>
 
 **Trigger code를 이용한 모드 전환 시 주의점**은 다음과 같습니다.
 
-``` 
+
   - 3-byte 커맨드 모드 전환 코드 입력의 전/후로 **500ms 이상**의 데이터 전송 없는 시간 간격(Time gap)이 있어야 전환 코드로 인식합니다.
   - 3-byte 커맨드 모드 전환 코드의 각 byte 간 사이의 입력 시간 간격이 **500ms 이하**여야 합니다.
   - 커맨드 모드 전환 코드의 말미에는 CR((CR: Carriage return, 커서를 맨 왼쪽 시작 위치로 이동 ('\r', 0x0D) ))과 LF((LF: Line feed, 커서를 한 칸 아래로 이동하여 새 줄 추가 ('\n', 0x0A) ))를 붙이지 않습니다.((이와 반대로, 모드 전환 후 입력 될 시리얼 커맨드의 경우에는 각 커맨드의 마지막에 CR과 LF를 붙여야 합니다.))
   - 커맨드 모드 전환 코드 전, 후 간격과 사이 간격의 **초기 값은 500ms**이며, 시리얼 데이터 패킹 옵션의 **Timer** 값이 설정된 경우 간격 값은 설정된 Timer 값으로 변경됩니다.
-```
 
-\</WRAP\>
+
+
 
 ### 시리얼 데이터 패킹
 
@@ -371,9 +366,9 @@ Flow control disabled</td>
     제공**\[1\]합니다. 해당 옵션을 활용하면 한 번에 전송 하는 것이 유리한 유저 커맨드 프레임이나 주기 데이터를
     손쉽게 모아 전송 할 수 있습니다.
 
-\<WRAP round tip center centeralign 90%\> **해당 옵션은 중복 설정 가능하며, 적용 우선 순위는
+**해당 옵션은 중복 설정 가능하며, 적용 우선 순위는
 다음과 같습니다.**  
-**Character =\> Size =\> Timer** \</WRAP\>
+**Character =\> Size =\> Timer** 
 
   - **Timer**
       - **범위: 0 \~ 65535, 단위: 밀리 초(ms)**
