@@ -8,8 +8,8 @@ date: 2020-04-13
 
 # WIZ752SR-120 Datasheet
 
-\*\* Supported Languages \*\*  
-\* English only
+**Supported Languages**  
+* English only
 
 ![](/products/wiz750sr/docs_icon.png)
 
