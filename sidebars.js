@@ -212,7 +212,7 @@ module.exports = {
         items: [
 		'Product/S2E-Module/WIZ750SR/CLI_Config_Tool_Tutorial/cli_config_tool_tutorial',
 		'Product/S2E-Module/WIZ750SR/CLI_Config_Tool_Tutorial/file_options',
-		'Product/S2E-Module/WIZ750SR/CLI_Config_Tool_Tutorial/how_to_use_cli_config_tool',
+		//'Product/S2E-Module/WIZ750SR/CLI_Config_Tool_Tutorial/how_to_use_cli_config_tool',
 		'Product/S2E-Module/WIZ750SR/CLI_Config_Tool_Tutorial/multi_device_configuration',
 		'Product/S2E-Module/WIZ750SR/CLI_Config_Tool_Tutorial/overview_environment',
 		'Product/S2E-Module/WIZ750SR/CLI_Config_Tool_Tutorial/single_device_configuration',
@@ -332,7 +332,7 @@ module.exports = {
         items: [
 		'Product/S2E-Module/WIZ752SR-12x-Series/WIZ752SR-120/CLI_Config_Tool_Tutorial/cli_config_tool_tutorial',
 		'Product/S2E-Module/WIZ752SR-12x-Series/WIZ752SR-120/CLI_Config_Tool_Tutorial/file_options',
-		'Product/S2E-Module/WIZ752SR-12x-Series/WIZ752SR-120/CLI_Config_Tool_Tutorial/how_to_use_cli_config_tool',
+		//'Product/S2E-Module/WIZ752SR-12x-Series/WIZ752SR-120/CLI_Config_Tool_Tutorial/how_to_use_cli_config_tool',
 		'Product/S2E-Module/WIZ752SR-12x-Series/WIZ752SR-120/CLI_Config_Tool_Tutorial/multi_device_configuration',
 		'Product/S2E-Module/WIZ752SR-12x-Series/WIZ752SR-120/CLI_Config_Tool_Tutorial/overview_environment',
 		'Product/S2E-Module/WIZ752SR-12x-Series/WIZ752SR-120/CLI_Config_Tool_Tutorial/single_device_configuration',
@@ -365,7 +365,7 @@ module.exports = {
         items: [
 		'Product/S2E-Module/WIZ752SR-12x-Series/WIZ752SR-125/CLI_Config_Tool_Tutorial/cli_config_tool_tutorial',
 		'Product/S2E-Module/WIZ752SR-12x-Series/WIZ752SR-125/CLI_Config_Tool_Tutorial/file_options',
-		'Product/S2E-Module/WIZ752SR-12x-Series/WIZ752SR-125/CLI_Config_Tool_Tutorial/how_to_use_cli_config_tool',
+		//'Product/S2E-Module/WIZ752SR-12x-Series/WIZ752SR-125/CLI_Config_Tool_Tutorial/how_to_use_cli_config_tool',
 		'Product/S2E-Module/WIZ752SR-12x-Series/WIZ752SR-125/CLI_Config_Tool_Tutorial/multi_device_configuration',
 		'Product/S2E-Module/WIZ752SR-12x-Series/WIZ752SR-125/CLI_Config_Tool_Tutorial/overview_environment',
 		'Product/S2E-Module/WIZ752SR-12x-Series/WIZ752SR-125/CLI_Config_Tool_Tutorial/single_device_configuration',
