@@ -1,3 +1,9 @@
+---
+id: single_device_configuration
+title: Single Device Configuration
+date: 2020-04-09
+---
+
 CLI Configuration Tool Tutorial # 3
 
 # Single device configuration

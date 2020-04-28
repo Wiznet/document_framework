@@ -1,3 +1,9 @@
+---
+id: overview_environment
+title: Overview Environment
+date: 2020-04-09
+---
+
 CLI Configuration Tool Tutorial \#1
 
 # Overview & Environment
@@ -14,8 +20,8 @@ It works on **version 2.7 and 3.6 python**.
 
 #### 1-Port S2E Module Products
 
-  - [WIZ750SR](../../../WIZ750SR/WIZ750SR.md)
-  - [WIZ750SR-100](../../../WIZ750SR-1xx-Series/WIZ750SR-100/WIZ750SR-100.md)
+  - [WIZ750SR](../WIZ750SR.md)
+  - [WIZ750SR-100](../../WIZ750SR-1xx-Series/WIZ750SR-100/WIZ750SR-100.md)
 
 <!-- end list -->
 
@@ -28,8 +34,8 @@ It works on **version 2.7 and 3.6 python**.
 
 #### 2-Port S2E Module Products
 
-  - [WIZ752SR-120](../../../WIZ752SR-12x-Series/WIZ752SR-120/WIZ752SR-120.md)
-  - [WIZ752SR-125](../../../WIZ752SR-12x-Series/WIZ752SR-125/WIZ752SR-125.md)
+  - [WIZ752SR-120](../../WIZ752SR-12x-Series/WIZ752SR-120/WIZ752SR-120.md)
+  - [WIZ752SR-125](../../WIZ752SR-12x-Series/WIZ752SR-125/WIZ752SR-125.md)
 
 -----
 
