@@ -18,7 +18,7 @@ Command prompt(cmd.exe) or windows powershell or ETC.
 
 In this tutorial, will use command prompt.
 
-\<WRAP center round tip 80%\> \*\* Using cmd.exe \*\*  
+ **Using cmd.exe**  
 You can go to the path where config tool is located after running
 cmd.exe, but if you go into the tool directory and run cmd, you can
 start from that path.
