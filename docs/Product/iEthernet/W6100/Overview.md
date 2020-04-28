@@ -9,7 +9,7 @@ date: 2020-04-03
 
 ## Overview
 
-![](/products/w6100/w6100_4.jpg)
+![](/document_framework/img/products/w6100/w6100_4.jpg)
 **Hardwired Dual TCP/IP Stack Controller**
 
 W6100 is a hardwired Internet controller chip supporting IPv4/IPv6 dual
@@ -31,7 +31,7 @@ Ethernet PHY power down mode and etc. W6100 has two package types, 48
 LQFP and 48 QFN lead-free. Both versions are PIN-2-PIN compatible with
 W5100S.
 
-![](/products/w6100/w6100_block_diagram.png)
+![](/document_framework/img/products/w6100/w6100_block_diagram.png)
 
 -----
 
