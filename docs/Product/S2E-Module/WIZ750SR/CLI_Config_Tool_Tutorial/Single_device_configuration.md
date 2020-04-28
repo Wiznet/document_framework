@@ -4,7 +4,7 @@ CLI Configuration Tool Tutorial \#3
 
 -----
 
-## 1\. Usage
+## 1. Usage
 
 The basic command format for single device configuration is as follows.
 
@@ -20,7 +20,7 @@ You can see the available options with the -h/--help option.
 
 -----
 
-## 2\. Set device
+## 2. Set device
 
 These are some examples about setting single device.
 
@@ -46,7 +46,7 @@ with the message.
 
 -----
 
-### Example \#2: static IP
+### Example #2: static IP
 
 To set static IP, you need the following information may be:
 
@@ -73,14 +73,13 @@ python wizconfig.py -d 00:08:DC:53:AE:B7 --ip 192.168.50.100 --subnet 255.255.25
 
 -----
 
-### Example \#3: Client mode & remote IP/Port
+### Example #3: Client mode & remote IP/Port
 
 You can change the operation mode to client mode and test by changing
 the remote IP and port according to your host PC environment.
 
 A description of the operating mode of WIZ750SR can be found here:  
-[WIZ750SR operation
-mode](/products/wiz750sr/usermanual/start#network_operation_mode).
+[WIZ750SR operation mode](../User's_Manual-[EN].md).
 
 When operating in the Client mode, you could set up the remote IP and
 port information as well, because it requires the server information to
@@ -105,7 +104,7 @@ Remote IP & port should be set according to the environment.
 
 -----
 
-## 3\. Firmware update
+## 3. Firmware update
 
 ### Step 1: Download Firmware
 
