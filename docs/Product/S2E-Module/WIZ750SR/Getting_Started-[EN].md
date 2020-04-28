@@ -8,16 +8,16 @@ date: 2020-04-08
 
 # Getting Started with WIZ750SR
 
-\*\* Supported Languages \*\*  
-\* [English](/products/wiz750sr/gettingstarted/en) (current page)  
-\* [Korean](/products/wiz750sr/gettingstarted/ko)
+**Supported Languages**
+  * [English](/products/wiz750sr/gettingstarted/en) (current page)  
+  * [Korean](/products/wiz750sr/gettingstarted/ko)
 
 ![](/products/wiz750sr/docs_icon.png)
 
 -----
 
-\*\* \* This section was written on the assumption that the use of
-WIZ750SR-RS232 evaluation board.\*\*
+**This section was written on the assumption that the use of
+WIZ750SR-RS232 evaluation board.**
 
 -----
 
@@ -27,7 +27,7 @@ WIZ750SR-RS232 evaluation board.\*\*
 
 |                                                                              |
 | ---------------------------------------------------------------------------- |
-| ![](/products/wiz750sr/gettingstarted/wiz750sr-ttl-evb_package_1024x858.jpg) |
+| ![](/document_framework/img/products/wiz750sr/gettingstarted/wiz750sr-ttl-evb_package_1024x858.jpg) |
 | Figure: ***WIZ750SR Rev. 1.1 Evaluation Board Package***                     |
 
 The WIZ750SR-232 evaluation board package contains the following parts.
@@ -44,12 +44,12 @@ Contents](/products/wiz750sr/overview/en#product_contents) page.
 
 |                                                                      |
 | -------------------------------------------------------------------- |
-| ![](/products/wiz750sr/gettingstarted/wiz750sr_top_parts_rev1.2.png) |
+| ![](/document_framework/img/products/wiz750sr/gettingstarted/wiz750sr_top_parts_rev1.2.png) |
 | Figure: ***WIZ750SR Revision 1.1 Top***                              |
 
 |                                                                         |
 | ----------------------------------------------------------------------- |
-| ![](/products/wiz750sr/gettingstarted/wiz750sr_bottom_parts_rev1.2.png) |
+| ![](/document_framework/img/products/wiz750sr/gettingstarted/wiz750sr_bottom_parts_rev1.2.png) |
 | Figure: ***WIZ750SR Revision 1.1 Bottom***                              |
 
 ### Parts
