@@ -124,19 +124,17 @@ W5100S-EVB firmware project based on Eclipse IDE. For more details about
 Eclipse IDE, please refer to below link. **DMA example** has been added
 to the project.
 
-\<WRAP center download 80% centeralign\> \*\* Download the Libraries and
-Application example source code for W5100S-EVB \*\*  
+**Download the Libraries and
+Application example source code for W5100S-EVB** 
 ![](/products/w5500/w5500_evb/icons/github.png)
-<https://github.com/Wiznet/W5100S-EVB> \</WRAP\>
+<https://github.com/Wiznet/W5100S-EVB> 
 
-\<WRAP center download 80% centeralign\> \*\*DMA User Guide \*\*  
+ **DMA User Guide**  
 ![W5100S DMA V1.0.0
-Korean.pdf](/products/w5100s/w5100s_evb/w5100s_an_dma_v100k.pdf)
+Korean.pdf](/document_framework/img/products/w5100s/w5100s_evb/w5100s_an_dma_v100k.pdf)
 \<markdown\> For More information about DMA, click
 \[DMA\](<https://wizwiki.net/wiki/doku.php?id=products:w5100s:w5100s_evb:dma>)
-\</markdown\>
 
-\</WRAP\>
 
 -----
 
@@ -193,7 +191,7 @@ TrueSTUDIO](/products/w5100s/w5100s_evb/make_a_new_projects_truestudio)
 
   - W5100S-EVB Rev1.0 Dimension(unit:mm)
 
-![](/products/w5100s/w5100s_evb/w5100s-evb_dimension.png)
+![](/document_framework/img/products/w5100s/w5100s_evb/w5100s-evb_dimension.png)
 
 -----
 
@@ -211,7 +209,7 @@ Project shared
 
 ## Where to Buy
 
-\<WRAP centeralign\>
+
 
 ![WIZnet Online Shop](/products/w5500/buynow.png)  
 [![WIZnetUS Online Shop,
