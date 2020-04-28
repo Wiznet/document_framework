@@ -9,8 +9,8 @@ date: 2020-04-08
 # WIZ750SR Series Configuration Tool Manual (New)
 
 **Supported Languages** 
-  * [English]() (current page)  
-  * [Korean](Configuration_Tool_Manual_(New)-[EN].md)
+  * [English](Configuration_Tool_Manual_(New)-[EN].md) (current page)  
+  * [Korean](Configuration_Tool_Manual_(New)-[KO].md)
 
 ![](/products/wiz750sr/docs_icon.png)
 
