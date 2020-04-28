@@ -37,33 +37,33 @@ Please refer to the following pages for detailed usage.
 
 **WIZ750SR series** 
 
-  - **[User's Manual (English)](User's_Manual-[EN].md)** 
-  - **[User's Manual (Korean)](User's_Manual-[KO].md)** 
+  - **[User's Manual (English)](../User's_Manual-[EN].md)** 
+  - **[User's Manual (Korean)](../User's_Manual-[KO].md)** 
 
 <!-- end list -->
 
-  - **[Device Command Manual (English)](Command_Manual-[EN].md)**
-  - **[Device Command Manual (Korean)](Command_Manual-[KO].md)**
+  - **[Device Command Manual (English)](../Command_Manual-[EN].md)**
+  - **[Device Command Manual (Korean)](../Command_Manual-[KO].md)**
 
 <!-- end list -->
 
-  - **[Troubleshooting Guide (English)](Trouble_Shooting-[EN].md)**
-  - **[Troubleshooting Guide (Korean)](Trouble_Shooting-[KO].md)**
+  - **[Troubleshooting Guide (English)](../Trouble_Shooting-[EN].md)**
+  - **[Troubleshooting Guide (Korean)](../Trouble_Shooting-[KO].md)**
 
 <!-- end list -->
 
-  - **[Update History (English)](Series_Update_History-[EN].md)**
-  - **[Update History (Korean)](Series_Update_History-[KO].md)**
+  - **[Update History (English)](../Series_Update_History-[EN].md)**
+  - **[Update History (Korean)](../Series_Update_History-[KO].md)**
 
 -----
 
 **WIZ750SR series Downloads** 
 
-  - **[Software Download](Download.md)**
+  - **[Software Download](../Download.md)**
 
 <!-- end list -->
 
-  - **[Technical References](Technical_References.md)**
+  - **[Technical References](../Technical_References.md)**
 
 -----
 
