@@ -8,8 +8,8 @@ date: 2020-04-08
 # WIZ750SR Command Manual
 
 **Supported Languages**  
-  * [English](/products/wiz750sr/commandmanual/en) (current page)  
-  * [Korean](/products/wiz750sr/commandmanual/ko)
+  * [English](Command_Manual-[EN].md) (current page)  
+  * [Korean](Command_Manual-[KO].md)
 
 ![](/document_framework/img/products/wiz750sr/docs_icon.png)
 
