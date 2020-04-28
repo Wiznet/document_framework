@@ -8,9 +8,9 @@ date: 2020-04-13
 
 # WIZ750SR Series Update History
 
-\*\* Supported Languages \*\*  
-\* [English](/products/wiz750sr/history/en)  
-\* [Korean](/products/wiz750sr/history/ko) (current page)
+**Supported Languages**  
+* [English](Series_Update_History-[EN].md) 
+* [Korean](Series_Update_History-[KO].md) (current page)
 
 ## Firmware
 
