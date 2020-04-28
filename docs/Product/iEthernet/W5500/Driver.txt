@@ -248,7 +248,7 @@ CooCox CoIDE Project</td>
 <td>Loopback Test</td>
 <td>2013-11-04</td>
 <td>-</td>
-<td><embed src="/products/w5500/w5500_example_loopback_stm32f103x_coide_20131104.zip" /></td>
+<td><embed src="/document_framework/img/products/w5500/w5500_example_loopback_stm32f103x_coide_20131104.zip" /></td>
 </tr>
 <tr class="odd">
 <td>:::</td>
