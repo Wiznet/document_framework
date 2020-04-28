@@ -38,7 +38,7 @@ The W5100S-EVB provides benefits in developing easier and powerful
 network applications on small form-factor and non-OS based embedded
 devices using the W5100S chip.
 
-![](/products/w5100s/w5100s_evb/w5100s-evb_partdescription.png)
+![](/document_framework/img/products/w5100s/w5100s_evb/w5100s-evb_partdescription.png)
 
 -----
 
@@ -106,15 +106,15 @@ devices using the W5100S chip.
 
   - Arduino Compatible with SWD Header Pinout
 
-![](/products/w5100s/w5100s_evb/arduino_swd_pinout.png)
+![](/document_framework/img/products/w5100s/w5100s_evb/arduino_swd_pinout.png)
 
   - External Pinout (left side)
 
-![](/products/w5100s/w5100s_evb/expansion_pinout_left_v3.png)
+![](/document_framework/img/products/w5100s/w5100s_evb/expansion_pinout_left_v3.png)
 
   - External Pinout (Right side)
 
-![](/products/w5100s/w5100s_evb/expansion_pinout_right_v3.png)
+![](/document_framework/img/products/w5100s/w5100s_evb/expansion_pinout_right_v3.png)
 
 -----
 
