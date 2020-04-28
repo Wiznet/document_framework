@@ -8,9 +8,9 @@ date: 2020-04-13
 
 # WIZ750SR User's Manual
 
-\*\* Supported Languages \*\*  
-\* [English](/products/wiz750sr/usermanual/en) (current page)  
-\* [Korean](/products/wiz750sr/usermanual/ko)
+**Supported Languages**  
+* [English](User's_Manual-[EN].md) (current page)  
+* [Korean](User's_Manual-[KO].md)
 
 ![](/products/wiz750sr/docs_icon.png)
 
