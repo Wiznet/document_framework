@@ -8,9 +8,9 @@ date: 2020-04-08
 
 # WIZ750SR User's Manual
 
-\*\* Supported Languages \*\*  
-\* [English](/products/wiz750sr/usermanual/en) (current page)  
-\* [Korean](/products/wiz750sr/usermanual/ko)
+**Supported Languages** 
+  * [English]() (current page)  
+  * [Korean]()
 
 ![](/products/wiz750sr/docs_icon.png)
 
@@ -89,12 +89,12 @@ DNS server address.
     communication with external network and the internal IP address for
     internal network via router
     
-    \<WRAP round info center centeralign 60%\>
+   
 
 Default IP address of WIZ750SR  
 **Static IP allocation / 192.168.11.2**
 
-\</WRAP\>
+
 
 ### Port Number Settings
 
@@ -124,9 +124,9 @@ smooth network communication. Registered port numbers are recommended
 for the user’s application or dynamic port numbers are recommended for
 temporary usage.
 
-\<WRAP round info center centeralign 60%\> Default Port number of
+Default Port number of
 WIZ750SR  
-**5000** \</WRAP\>
+**5000**
 
 ### Remote Host Settings
 
@@ -142,12 +142,11 @@ operate a TCP connection with the destination.
 
 Registered port numbers are recommended for the user’s application.
 
-\<WRAP round info center centeralign 60%\>
+
 
 Default Remote host settings of WIZ750SR  
 **192.168.11.3 : 5000**
 
-\</WRAP\>
 
 -----
 
@@ -174,14 +173,14 @@ explained in detail below.
 
 The module operates as below in TCP server mode.
 
-\<WRAP round box center 100%\>
+
 
 1.  **Waits for the connection request from TCP client (listen)**
 2.  **Connects with TCP client once connection request is accepted (TCP
     connection established)**
 3.  **Data communication**
 
-\</WRAP\>
+
 
 There is an optional feature in TCP server mode.
 
@@ -197,14 +196,14 @@ There is an optional feature in TCP server mode.
 
 The module operates as below in TCP client mode.
 
-\<WRAP round box center 100%\>
+
 
 1.  **Attempts TCP connection to the designated TCP server host (TCP
     connect)** 
 2.  **Data communication is possible after TCP connection is
     established**
 
-\</WRAP\>
+
 
   - Information of the designated host is needed during this mode and
     host must be operating as TCP server.
@@ -222,7 +221,7 @@ There is an optional feature in TCP client mode.
 
 TCP server/client mixed mode operates as both the TCP server and client.
 
-\<WRAP round box center 100%\>
+
 
 1.  **Operates as TCP server when power is on (listen)**
 2.  **When there are no attempts of connection from the TCP client, the
@@ -231,7 +230,7 @@ TCP server/client mixed mode operates as both the TCP server and client.
 3.  **After connection is completed, module will switch back to TCP
     server mode. (disconnect & listen)**
 
-\</WRAP\>
+
 
 We recommend the following option during TCP server/client mixed mode.
 
@@ -267,13 +266,13 @@ only in applications where the data is sent from peer.
       - This mode is recommended for applications where the serial
         device receives data from multiple hosts.
 
-\<WRAP round info center centeralign 60%\>
+
 
 **1:N UDP Mode Setting**  
 *Set the remote host IP address to 0.0.0.0*  
 (The remote host port number must be set )
 
-\</WRAP\>
+
 
 -----
 
@@ -383,7 +382,7 @@ Flow control disabled</td>
     serial command mode.
   - Each byte value reads hex code only.
 
-\<WRAP round tip center 90%\>
+
 
 **Please take caution of the following when using Trigger code.**
 
@@ -398,7 +397,7 @@ Flow control disabled</td>
     mode switch code is 500ms. The operation is based on the timer value
     of the serial data packaging option.
 
-\</WRAP\>
+
 
 1.  The serial command after switching modes must end with CR and LF.
 
@@ -408,10 +407,9 @@ Flow control disabled</td>
     using this option, user command frame or all other data can be
     collected and sent together.
 
-\<WRAP round tip center centeralign 90%\> Data packing options can be
+Data packing options can be
 multi-selected but has priority as shown below.  
-**Character =\> Size =\> Timer** \</WRAP\>
-
+**Character =\> Size =\> Timer** 
   - **Timer**
       - Range: 0 \~ 65535 / Unit: milliseconds (ms)
           - Default: 0 (Not used)
@@ -467,7 +465,7 @@ multi-selected but has priority as shown below.
     search\[2\].
   - If this option is selected, the assigned code must be entered when
     searching devices.
-
+![](/document_framework/img/products/wiz750sr/usermanual/configtool_udp_search.png)
 <table>
 <tbody>
 <tr class="odd">
@@ -541,9 +539,9 @@ For more information, please refer to above document links.
 
 -----
 
-\<WRAP center round tip 80% centeralign\> **If there is any problem?**  
+ **If there is any problem?**  
 Please refer to our **[Troubleshooting
-Guide](/products/wiz750sr/troubleshooting/en)**\! \</WRAP\>
+Guide](/products/wiz750sr/troubleshooting/en)**\! 
 
 -----
 
