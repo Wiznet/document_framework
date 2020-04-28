@@ -107,14 +107,14 @@ Repository**
 <td>:::</td>
 <td>1.1.0</td>
 <td>-</td>
-<td><embed src="/products/w5500/iolibrary_bsd_internet_v110.zip" /></td>
+<td><embed src="/document_framework/img/products/w5500/iolibrary_bsd_internet_v110.zip" /></td>
 </tr>
 <tr class="even">
 <td>:::</td>
 <td>:::</td>
 <td>1.0.0</td>
 <td>-</td>
-<td><embed src="/products/w5500/iolibrary_bsd_internet_v100.zip" /></td>
+<td><embed src="/document_framework/img/products/w5500/iolibrary_bsd_internet_v100.zip" /></td>
 </tr>
 <tr class="odd">
 <td>Documents</td>
@@ -122,7 +122,7 @@ Repository**
 (chm, html)</td>
 <td>1.0.3</td>
 <td>-</td>
-<td><embed src="/products/w5500/w5500_socket_apis_v103.zip" /></td>
+<td><embed src="https://github.com/Wiznet/document_framework/blob/master/static/img/products/w5500/w5500_socket_apis_v103.zip" /></td>
 </tr>
 <tr class="even">
 <td>:::</td>
