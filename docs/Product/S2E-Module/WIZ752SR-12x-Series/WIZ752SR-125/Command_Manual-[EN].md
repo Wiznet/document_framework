@@ -8,10 +8,9 @@ date: 2020-03-15
 
 # WIZ752SR Command Manual
 
-\*\* Supported Languages \*\*  
-\* [English](/products/s2e_module/wiz752sr-120/commandmanual/en)
-(current page)  
-\* [Korean](/products/s2e_module/wiz752sr-120/commandmanual/ko)
+**Supported Languages**  
+* [English](Command_Manual-[EN].md) (current page)  
+* [Korean](Command_Manual-[KO].md)
 
 ![](/products/wiz750sr/docs_icon.png)
 
