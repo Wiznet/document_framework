@@ -1,4 +1,4 @@
-CLI Configuration Tool Tutorial \#3
+CLI Configuration Tool Tutorial # 3
 
 # Single device configuration
 
@@ -46,7 +46,7 @@ with the message.
 
 -----
 
-### Example #2: static IP
+### Example # 2: static IP
 
 To set static IP, you need the following information may be:
 
