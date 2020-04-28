@@ -28,8 +28,8 @@ It works on **version 2.7 and 3.6 python**.
 
 #### 2-Port S2E Module Products
 
-  - [WIZ752SR-120](../../../../WIZ752SR-12x-Series/WIZ752SR-120/WIZ752SR-120.md)
-  - [WIZ752SR-125](../../../../WIZ752SR-12x-Series/WIZ752SR-125/WIZ752SR-125.md)
+  - [WIZ752SR-120](../../../WIZ752SR-12x-Series/WIZ752SR-120/WIZ752SR-120.md)
+  - [WIZ752SR-125](../../../WIZ752SR-12x-Series/WIZ752SR-125/WIZ752SR-125.md)
 
 -----
 
