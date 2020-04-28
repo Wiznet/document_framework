@@ -61,13 +61,13 @@ module.exports = {
         type: 'category',
         label: 'Pre-programmed MCU',
         items: [
-		'Product/Pre-programmed MCU/pre_programmed_mcu',
+		'Product/Pre-programmed-MCU/pre_programmed_mcu',
 		{
         type: 'category',
         label: 'W7500P',
         items: [
-		'Product/Pre-programmed MCU/W7500P-S2E/w7500p-s2e-[KO]',
-		'Product/Pre-programmed MCU/W7500P-S2E/w7500p-s2e-[EN]',
+		'Product/Pre-programmed-MCU/W7500P-S2E/w7500p-s2e-[KO]',
+		'Product/Pre-programmed-MCU/W7500P-S2E/w7500p-s2e-[EN]',
 		],
 		}
 		],
@@ -301,7 +301,7 @@ module.exports = {
         type: 'category',
         label: 'WIZ752SR-12x Series',
         items: [
-		'Product/S2E Module/WIZ752SR-12x-Series/wiz750sr_1xx_series',
+		'Product/S2E-Module/WIZ752SR-12x-Series/wiz750sr_1xx_series',
 		{
         type: 'category',
         label: 'WIZ752SR-120',
@@ -339,7 +339,7 @@ module.exports = {
 		'Product/S2E-Module/WIZ752SR-12x-Series/WIZ752SR-125/configuration_tool_manual_new-[EN]',
 		'Product/S2E-Module/WIZ752SR-12x-Series/WIZ752SR-125/cli_config_tool_tutorial',
 		'Product/S2E-Module/WIZ752SR-12x-Series/WIZ752SR-125/command_manual-[KO]',
-		//'Product/S2E Module/WIZ752SR-12x-Series/WIZ752SR-125/command_manual-[EN]',
+		//'Product/S2E-Module/WIZ752SR-12x-Series/WIZ752SR-125/command_manual-[EN]',
 		'Product/S2E-Module/WIZ752SR-12x-Series/WIZ752SR-125/trouble_shooting-[KO]',
 		'Product/S2E-Module/WIZ752SR-12x-Series/WIZ752SR-125/trouble_shooting-[EN]',
 		'Product/S2E-Module/WIZ752SR-12x-Series/WIZ752SR-125/datasheet',
@@ -549,7 +549,7 @@ module.exports = {
     },
 	{
         type: 'category',
-        label: 'Wi-Fi_Module',
+        label: 'Wi-Fi Module',
         items: [
 		'Product/Wi-Fi_Module/wi_fi_module',
 		{
@@ -675,7 +675,7 @@ module.exports = {
         type: 'category',
         label: 'Mbed WIZwiki Platform',
         items: [
-		'Product/Mbed WIZwiki Platform/mbed_wizwiki_platform',
+		'Product/Mbed-WIZwiki-Platform/mbed_wizwiki_platform',
 		{
         type: 'category',
         label: 'WIZwiki-W7500',
