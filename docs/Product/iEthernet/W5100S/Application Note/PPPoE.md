@@ -43,8 +43,8 @@ Communication by Telephone Line, it is used widely.
 <tr class="odd">
 <td>1.0.0</td>
 <td>2018-04-01</td>
-<td><embed src="/products/w5100s/application/W5100S_AN_PPPoE_V100K.pdf" /><br />
-<embed src="/products/w5100s/application/W5100S_AN_PPPoE_V100E.pdf" /></td>
+<td><embed src="/document_framework/img/products/w5100s/application/w5100s_an_pppoe_v100k.pdf" /><br />
+<embed src="/document_framework/img/products/w5100s/application/w5100s_an_pppoe_v100e.pdf" /></td>
 </tr>
 </tbody>
 </table>
@@ -63,4 +63,4 @@ W5100S, W5200, W5300, W5500, W7100, W7200) can use this application.
 
 | Version | Date       | Download                                                                                                    | ETC             |
 | ------- | ---------- | ----------------------------------------------------------------------------------------------------------- | --------------- |
-| 1.0.0   | 2018-05-25 | ![W5100S\_EVB\_AN\_CoIDE\_PPPoE\_V100.zip](/products/w5100s/application/w5100s_evb_an_coide_pppoe_v100.zip) | Initial Version |
+| 1.0.0   | 2018-05-25 | ![W5100S\_EVB\_AN\_CoIDE\_PPPoE\_V100.zip](/document_framework/img/products/w5100s/application/w5100s_evb_an_coide_pppoe_v100.zip) | Initial Version |
