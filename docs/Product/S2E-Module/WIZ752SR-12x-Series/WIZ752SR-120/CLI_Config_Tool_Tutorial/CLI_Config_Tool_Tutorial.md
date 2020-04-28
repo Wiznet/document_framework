@@ -33,9 +33,7 @@ Please refer to the following pages for detailed usage.
 
 ## Navigation
 
------
-
-**WIZ750SR series** 
+----- 
 
   - **[User's Manual (English)](../User's_Manual-[EN].md)** 
   - **[User's Manual (Korean)](../User's_Manual-[KO].md)** 
