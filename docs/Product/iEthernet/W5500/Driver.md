@@ -189,9 +189,8 @@ Repository**
                         
                         - V1.02
 
-<!-- end list -->
 
-``` 
+
         * socket.c (Refer to 20131220)
           - setsockopt() : Remove warning message (delete tmp variable)
         * w5500.c (Refer to 20131220)
@@ -229,7 +228,7 @@ Repository**
         * First released. 
           * DHCP Client (Dynamic Host Configuration Protocol Client)
           * DNS Client (Domain Name System Client)
-```
+
 
 **\< Application code examples : latest version \>**
 
@@ -248,21 +247,21 @@ CooCox CoIDE Project</td>
 <td>Loopback Test</td>
 <td>2013-11-04</td>
 <td>-</td>
-<td><embed src="/products/w5500/w5500_example_loopback_stm32f103x_coide_20131104.zip" /></td>
+<td><embed src="/document_framework/img/products/w5500/w5500_example_loopback_stm32f103x_coide_20131104.zip" /></td>
 </tr>
 <tr class="odd">
 <td>:::</td>
 <td>DHCP Client</td>
 <td>2013-12-26</td>
 <td>-</td>
-<td><embed src="/products/w5500/w5500_example_DHCP_stm32f103x_coide_20131226.zip" /></td>
+<td><embed src="/document_framework/img/products/w5500/w5500_example_dhcp_stm32f103x_coide_20131226.zip" /></td>
 </tr>
 <tr class="even">
 <td>:::</td>
 <td>DNS Client</td>
 <td>2013-12-26</td>
 <td>-</td>
-<td><embed src="/products/w5500/w5500_example_DNS_stm32f103x_coide_20131226.zip" /></td>
+<td><embed src="/document_framework/img/products/w5500/w5500_example_dns_stm32f103x_coide_20131226.zip" /></td>
 </tr>
 <tr class="odd">
 <td>EnergyMicro<br />
@@ -295,7 +294,7 @@ CooCox CoIDE Project</td>
 <td>Loopback Test</td>
 <td>2013-10-23</td>
 <td>-</td>
-<td><embed src="/products/w5500/w5500_example_loopback_stm32f103x_coide.zip" /></td>
+<td><embed src="https://github.com/Wiznet/document_framework/blob/master/static/img/products/w5500/w5500_example_loopback_stm32f103x_coide.zip" /></td>
 </tr>
 <tr class="odd">
 <td>:::</td>
