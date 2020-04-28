@@ -1,3 +1,9 @@
+---
+id: multi_device_configuration
+title: Multi Device Configuration
+date: 2020-04-09
+---
+
 CLI Configuration Tool Tutorial \#4
 
 # Multi device configuration

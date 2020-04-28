@@ -1,3 +1,9 @@
+---
+id: how_to_use_cli_config_tool
+title: How to use CLI Config Tool
+date: 2020-04-09
+---
+
 CLI Configuration Tool Tutorial \#2
 
 # How to use CLI Config Tool
