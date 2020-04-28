@@ -141,9 +141,9 @@ Contents](/products/wiz750sr/overview/en#product_contents) page.
   
   ### PC Settings
 
-\<WRAP center round important 80%\> Double check that the WIZ750SR and
+Double check that the WIZ750SR and
 the PC, or laptop you are using to set up WIZ750SR with are both on the
-same Ethernet network. \</WRAP\>
+same Ethernet network.
 
 #### Example: PC Network Settings
 
@@ -195,7 +195,7 @@ same Ethernet network. \</WRAP\>
 
 ### Connecting Steps
 
-\<WRAP center round important 80%\> The **RS-232/TTL version of
+The **RS-232/TTL version of
 WIZ750SR-EVB** is designed to use the **DB9 connector** to connect with
 the user’s serial device. Therefore, it is recommended to have all
 **Ethernet and serial ports connected to the PC** when testing. If the
@@ -205,7 +205,7 @@ converter** separately.
   - **In case of the RS-422/455 version of WIZ750SR-EVB, the serial
     connector is composed of terminal block.**
 
-\</WRAP\>
+
 
 #### Step 1: Plug in
 
@@ -231,12 +231,12 @@ shown in the picture below.
 
 |                                                                        |
 | ---------------------------------------------------------------------- |
-| ![](/products/wiz750sr/gettingstarted/wiz750sr-ttl-evb_1_1024x816.png) |
+| ![](/document_framework/img/products/wiz750sr/gettingstarted/wiz750sr-ttl-evb_1_1024x816.png) |
 | Figure: **Combining WIZ750SR module and EVB**                          |
 
 |                                                                        |
 | ---------------------------------------------------------------------- |
-| ![](/products/wiz750sr/gettingstarted/wiz750sr-ttl-evb_2_1024x816.png) |
+| ![](/document_framework/img/products/wiz750sr/gettingstarted/wiz750sr-ttl-evb_2_1024x816.png) |
 | Figure: **WIZ750SR-EVB side view**                                     |
 
 #### Step 2: Power on
@@ -252,17 +252,17 @@ Open the configuration tool and click the search button. If the board is
 turned on and connected to the same network, the MAC address or settings
 of the WIZ750SR module can be checked using the configuration tool.
 
-\<WRAP center round info 90%\> **The new WIZ750SR configuration tool can
+**The new WIZ750SR configuration tool can
 be downloaded from Github below.**
 
   - <https://github.com/Wiznet/WIZnet-S2E-Tool-GUI>
   - <https://github.com/Wiznet/WIZnet-S2E-Tool-GUI/releases>
 
-\</WRAP\>
+
 
 |                                                       |
 | ----------------------------------------------------- |
-| ![](/products/wiz750sr/gettingstarted/configtool.png) |
+| ![](/document_framework/img/products/wiz750sr/gettingstarted/configtool.png) |
 | Figure: **WIZnet Configuration Tool**                 |
 
 #### Step 4: Set up your WIZ750SR
@@ -270,9 +270,9 @@ be downloaded from Github below.**
 Change the settings accordingly to the customer’s environment. The test
 shown in this document is based on factory setting.
 
-``` 
+
   * Click the **setting** button to apply the changes in settings of the configuration tool.
-```
+
 
 #### Step 5: Connect
 
@@ -292,7 +292,7 @@ below.
 
 |                                                                  |
 | ---------------------------------------------------------------- |
-| ![](/products/wiz750sr/gettingstarted/windows_devicemanager.png) |
+| ![](/document_framework/img/products/wiz750sr/gettingstarted/windows_devicemanager.png) |
 | Figure: Device Manager                                           |
 
 #### Step 6: Verify
@@ -326,9 +326,9 @@ Now you’re ready to use the WIZ750SR\!
 
 -----
 
-\<WRAP center round tip 80% centeralign\> **If there is any problem?**  
+**If there is any problem?**  
 Please refer to our **[Troubleshooting
-Guide](/products/wiz750sr/troubleshooting/en)**\! \</WRAP\>
+Guide](/products/wiz750sr/troubleshooting/en)**\!
 
 -----
 
