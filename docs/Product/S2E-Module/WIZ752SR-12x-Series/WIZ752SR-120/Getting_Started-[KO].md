@@ -11,7 +11,6 @@ date: 2020-04-13
  **Supported Languages**  
 * [English](Getting_Started-[EN].md) 
 * [Korean](Getting_Started-[KO].md) (current page)
-(current page)
 
 ![](/products/wiz750sr/docs_icon.png)
 
