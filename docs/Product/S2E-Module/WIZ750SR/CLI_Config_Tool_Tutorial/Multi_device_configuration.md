@@ -10,7 +10,7 @@ In this tutorial will use three WIZ750SR + EVB boards for testing.
 
 -----
 
-## 1\. Usage
+## 1. Usage
 
 The basic command format for multi devices configuration is as follows.
 
@@ -23,9 +23,9 @@ on **mac\_list.txt**, so the **search command must be preceded**.
 
     python wizconfig.py -s
 
-\</WRAP\>
 
-\<WRAP center round info 60%\> **Mac address list clearing**  
+
+**Mac address list clearing**  
 If you want to clear mac\_list, you can use -c/--clear option.
 
     python wizconfig.py -c
@@ -34,14 +34,13 @@ or delete the mac\_list.txt file, It's optional. \</WRAP\>
 
 You can see the available options with the -h/--help option.
 
-  - Refer to previous tutorial: [How to use CLI
-    Config](/products/wiz750sr/clitool/option/en) 
+  - Refer to previous tutorial: [How to use CLI Config](How_to_use_CLI_Config_Tool.md) 
 
-## 2\. Set device
+## 2. Set device
 
 These are some examples of setting multi devices.
 
-### Example \#1: baud rate
+### Example #1: baud rate
 
 First, search devices on the network. If there is old mac\_list.txt, use
 -c option or delete the file.
@@ -69,7 +68,7 @@ You can check the configuration complete message.
 
 -----
 
-## 3\. Firmware update: Multi devices
+## 3. Firmware update: Multi devices
 
 ### Step 1: Download Firmware
 
