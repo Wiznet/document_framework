@@ -8,9 +8,9 @@ date: 2020-04-08
 
 # WIZ750SR Series Configuration Tool Manual (New)
 
-\*\* Supported Languages \*\*  
-\* [English](/products/wiz750sr/guiconfigtoolmanual/en)  
-\* [Korean](/products/wiz750sr/guiconfigtoolmanual/ko) (current page)
+**Supported Languages**
+  * [English](Configuration_Tool_Manual_(New)-[EN].md)  
+  * [Korean](Configuration_Tool_Manual_(New)-[KO].md) (current page)
 
 ![](/products/wiz750sr/docs_icon.png)
 
@@ -33,7 +33,7 @@ WIZnet 페이지 내에 공개되어 있으며, 최신 버전의 실행 파일�
 
 |                                                                            |
 | -------------------------------------------------------------------------- |
-| ![](/products/wiz750sr/guiconfigtoolmanual/gui_configtool_main.png)        |
+| ![](/document_framework/img/products/wiz750sr/guiconfigtoolmanual/gui_configtool_main.png)        |
 | Figure: **Configuration Tool for WIZ750SR series & WIZ107/108SR Products** |
 
 -----
@@ -74,7 +74,7 @@ WIZnet-S2E-Tool-GUI에서 지원하는 제품 리스트는 아래와 같습니�
 
 |                                                                       |
 | --------------------------------------------------------------------- |
-| ![](/products/wiz750sr/guiconfigtoolmanual/gui_configtool_layout.png) |
+| ![](/document_framework/img/products/wiz750sr/guiconfigtoolmanual/gui_configtool_layout.png) |
 | Figure: **Configuration Tool Layout**                                 |
 
 설정 프로그램은 위 그림과 같이 기능 별로 나눌 수 있습니다.
@@ -120,7 +120,7 @@ Configuration tool 상단에 위치하며, 제품의 검색 / 펌웨어 업로�
 
 |                                                                          |
 | ------------------------------------------------------------------------ |
-| ![](/products/wiz750sr/guiconfigtoolmanual/gui_configtool_icon_menu.png) |
+| ![](/document_framework/img/products/wiz750sr/guiconfigtoolmanual/gui_configtool_icon_menu.png) |
 | Figure: **Menu Icons**                 
 
 #### 1\) Device Search
@@ -154,7 +154,7 @@ Configuration tool 상단에 위치하며, 제품의 검색 / 펌웨어 업로�
 
 |                                                                                       |
 | ------------------------------------------------------------------------------------- |
-| ![](/products/wiz750sr/guiconfigtoolmanual/gui_configtool_firmwareupload_success.png) |
+| ![](/document_framework/img/products/wiz750sr/guiconfigtoolmanual/gui_configtool_firmwareupload_success.png) |
 | Figure: **Popup Message - Firmware Upload Successfully**                              |
 
   - **네트워크를 이용한 WIZ750SR 장치 펌웨어 업로드 기능은 TCP 포트 50002번을 이용**합니다. 만약 방화벽이나
@@ -207,7 +207,7 @@ Configuration tool 상단에 위치하며, 제품의 검색 / 펌웨어 업로�
 
 |                                                                            |
 | -------------------------------------------------------------------------- |
-| ![](/products/wiz750sr/guiconfigtoolmanual/gui_configtool_net_adapter.png) |
+| ![](/document_framework/img/products/wiz750sr/guiconfigtoolmanual/gui_configtool_net_adapter.png) |
 | Figure: **Network adapters**                                               |
 
   - 여러 종류의 네트워크 어댑터를 사용하는 경우, 어댑터 리스트와 사용 중인 대역이 표시되며, 환경에 따라 사용할 네트워크
@@ -221,7 +221,7 @@ Configuration tool 상단에 위치하며, 제품의 검색 / 펌웨어 업로�
 
 |                                                                            |
 | -------------------------------------------------------------------------- |
-| ![](/products/wiz750sr/guiconfigtoolmanual/gui_configtool_device_list.png) |
+| ![](/document_framework/img/products/wiz750sr/guiconfigtoolmanual/gui_configtool_device_list.png) |
 | Figure: **Device List**                                                    |
 
   - Search 기능을 통해 검색된 장치의 리스트가 표시됩니다. 
@@ -258,7 +258,7 @@ Configuration tool 상단에 위치하며, 제품의 검색 / 펌웨어 업로�
 
 |                                                                                  |
 | -------------------------------------------------------------------------------- |
-| ![](/products/wiz750sr/guiconfigtoolmanual/gui_configtool_tab_basicsettings.png) |
+| ![](/document_framework/img/products/wiz750sr/guiconfigtoolmanual/gui_configtool_tab_basicsettings.png) |
 | Figure: **Basic settings Tab**                                                   |
 
 #### 1\) Device information
@@ -307,7 +307,7 @@ Configuration tool 상단에 위치하며, 제품의 검색 / 펌웨어 업로�
 
 |                                                                            |
 | -------------------------------------------------------------------------- |
-| ![](/products/wiz750sr/guiconfigtoolmanual/gui_configtool_tab_options.png) |
+| ![](/document_framework/img/products/wiz750sr/guiconfigtoolmanual/gui_configtool_tab_options.png) |
 | Figure: **Option Tab**                                                     |
 
 -----
@@ -323,11 +323,11 @@ Configuration tool 상단에 위치하며, 제품의 검색 / 펌웨어 업로�
 
 #### 3\) Serial debug
 
-``` 
+ 
   * 해당 옵션이 설정되면 Debug UART를 통해 제품의 정보와 오류 상황 등이 출력됩니다.
   * Debug UART의 시리얼 설정은 **115200-8-N-1:None**으로 고정되어 있습니다.
   * **Enable with Data** 옵션 설정 시 S2E(Serial to Ethernet) 또는 E2S(Ethernet to Serial) 데이터를 모니터링 할 수 있습니다. (WIZ750SR v1.2.2 이상부터 사용 가능)
-```
+
 
 1.  예를 들어 목적에 따른 제품 그룹 여러 개가 동일한 네트워크 상에 위치한 경우.
 
@@ -349,18 +349,17 @@ Configuration tool 상단에 위치하며, 제품의 검색 / 펌웨어 업로�
           - Default: \[2B\]\[2B\]\[2B\] (+++)
       - 각 byte의 값은 hex 코드만 인식합니다.
 
-\<WRAP round tip center 90%\>
+
 
 **Trigger code를 이용한 모드 전환 시 주의점**은 다음과 같습니다.
 
-``` 
   - 3-byte 커맨드 모드 전환 코드 입력의 전/후로 **500ms 이상**의 데이터 전송 없는 시간 간격(Time gap)이 있어야 전환 코드로 인식합니다.
   - 3-byte 커맨드 모드 전환 코드의 각 byte 간 사이의 입력 시간 간격이 **500ms 이하**여야 합니다.
   - 커맨드 모드 전환 코드의 말미에는 CR((CR: Carriage return, 커서를 맨 왼쪽 시작 위치로 이동 ('\r', 0x0D) ))과 LF((LF: Line feed, 커서를 한 칸 아래로 이동하여 새 줄 추가 ('\n', 0x0A) ))를 붙이지 않습니다.((이와 반대로, 모드 전환 후 입력 될 시리얼 커맨드의 경우에는 각 커맨드의 마지막에 CR과 LF를 붙여야 합니다.))
   - 커맨드 모드 전환 코드 전, 후 간격과 사이 간격의 **초기 값은 500ms**이며, 시리얼 데이터 패킹 옵션의 **Timer** 값이 설정된 경우 간격 값은 설정된 Timer 값으로 변경됩니다.
-```
 
-\</WRAP\>
+
+
 
 #### 5\) Connection password (TCP server mode only)
 
@@ -378,7 +377,7 @@ Configuration tool 상단에 위치하며, 제품의 검색 / 펌웨어 업로�
 
 |                                                                            |
 | -------------------------------------------------------------------------- |
-| ![](/products/wiz750sr/guiconfigtoolmanual/gui_configtool_tab_channel.png) |
+| ![](/document_framework/img/products/wiz750sr/guiconfigtoolmanual/gui_configtool_tab_channel.png) |
 | Figure: **Network Configuration Tab**                                      |
 
 #### 1\) Status & Serial Interface
@@ -484,9 +483,9 @@ Configuration tool 상단에 위치하며, 제품의 검색 / 펌웨어 업로�
     제공**\[1\]합니다. 해당 옵션을 활용하면 한 번에 전송 하는 것이 유리한 유저 커맨드 프레임이나 주기 데이터를
     손쉽게 모아 전송 할 수 있습니다.
 
-\<WRAP round tip center centeralign 80%\> **해당 옵션은 중복 설정 가능하며, 적용 우선 순위는
+**해당 옵션은 중복 설정 가능하며, 적용 우선 순위는
 다음과 같습니다.**  
-**Character =\> Size =\> Timer** \</WRAP\>
+**Character =\> Size =\> Timer**
 
   - **Timer**
       - **범위: 0 \~ 65535, 단위: 밀리 초(ms)**
@@ -511,7 +510,7 @@ Configuration tool 상단에 위치하며, 제품의 검색 / 펌웨어 업로�
         않으면 지정 문자를 포함하여 전송하며, 버퍼 크기 초과 시 지정 문자를 제외한 데이터 만을 전송합니다.
       - '00'으로 설정하면 동작하지 않습니다. (Null)
 
-\----
+----
 
 1.  시리얼 데이터의 수신 시 **'지정 시간', '지정 크기', '특정 문자'**를 기준으로 데이터를 모아 전송 할 수
     있습니다.
