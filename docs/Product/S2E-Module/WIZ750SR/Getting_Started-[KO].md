@@ -8,9 +8,9 @@ date: 2020-04-08
 
 # Getting Started with WIZ750SR
 
-\*\* Supported Languages \*\*  
-\* [English](/products/wiz750sr/gettingstarted/en)  
-\* [Korean](/products/wiz750sr/gettingstarted/ko) (current page)
+**Supported Languages**
+   * [English](Getting_Started-[EN].md)  
+   * [Korean](Getting_Started-[KO].md) (current page)
 
 ![](/products/wiz750sr/docs_icon.png)
 
@@ -27,7 +27,7 @@ date: 2020-04-08
 
 |                                                                              |
 | ---------------------------------------------------------------------------- |
-| ![](/products/wiz750sr/gettingstarted/wiz750sr-ttl-evb_package_1024x858.jpg) |
+| ![](/document_framework/img/products/wiz750sr/gettingstarted/wiz750sr-ttl-evb_package_1024x858.jpg) |
 | Figure: ***WIZ750SR Rev. 1.1 개발 보드 패키지***                                    |
 
 WIZ750SR-RS232 개발 보드 패키지는 다음과 같이 구성되어 있습니다.
@@ -44,12 +44,12 @@ Contents](/products/wiz750sr/overview/ko#product_contents) 페이지에서 확�
 
 |                                                                          |
 | ------------------------------------------------------------------------ |
-| ![](/products/wiz750sr/gettingstarted/wiki_wiz750sr_v1.1_top_layout.png) |
+| ![](/document_framework/img/products/wiz750sr/gettingstarted/wiz750sr_top_parts_rev1.2.png) |
 | Figure: ***WIZ750SR Revision 1.1 전면부***                                  |
 
 |                                                                             |
 | --------------------------------------------------------------------------- |
-| ![](/products/wiz750sr/gettingstarted/wiki_wiz750sr_v1.1_bottom_layout.png) |
+| ![](/document_framework/img/products/wiz750sr/gettingstarted/wiz750sr_bottom_parts_rev1.2.png) |
 | Figure: ***WIZ750SR Revision 1.1 후면부***                                     |
 
 ### Parts
@@ -221,12 +221,12 @@ WIZ750SR 모듈과 개발보드를 아래 그림과 같이 결합한 후, 박스
 
 |                                                                        |
 | ---------------------------------------------------------------------- |
-| ![](/products/wiz750sr/gettingstarted/wiz750sr-ttl-evb_1_1024x816.png) |
+| ![](/document_framework/img/products/wiz750sr/gettingstarted/wiz750sr-ttl-evb_1_1024x816.png) |
 | Figure: **WIZ750SR 모듈과 개발보드 결합**                                       |
 
 |                                                                        |
 | ---------------------------------------------------------------------- |
-| ![](/products/wiz750sr/gettingstarted/wiz750sr-ttl-evb_2_1024x816.png) |
+| ![](/document_framework/img/products/wiz750sr/gettingstarted/wiz750sr-ttl-evb_2_1024x816.png) |
 | Figure: **WIZ750SR-EVB 측면부**                                           |
 
 #### Step 2: Power on
@@ -240,26 +240,26 @@ WIZ750SR 모듈과 개발보드를 아래 그림과 같이 결합한 후, 박스
 PC의 Configuration tool을 실행하여 상단 Search 버튼을 클릭합니다. 보드에 전원이 인가되고 동일한 네트워크에
 연결되어 동작 중인 경우 WIZ750SR 모듈의 MAC 주소와 설정 값을 tool에서 확인 할 수 있습니다.
 
-\<WRAP center round info 90%\> **새 Configuration tool은 아래 Github 링크를 통해
+**새 Configuration tool은 아래 Github 링크를 통해
 다운로드 가능합니다.**
 
   - <https://github.com/Wiznet/WIZnet-S2E-Tool-GUI>
   - <https://github.com/Wiznet/WIZnet-S2E-Tool-GUI/releases>
 
-\</WRAP\>
+
 
 |                                                       |
 | ----------------------------------------------------- |
-| ![](/products/wiz750sr/gettingstarted/configtool.png) |
+| ![](/document_framework/img/products/wiz750sr/gettingstarted/configtool.png) |
 | Figure: **WIZnet Configuration Tool**                 |
 
 #### Step 4: Set up your WIZ750SR
 
 사용자 환경에 맞춰 제품의 설정 값을 변경합니다. 본 Step에서는 제품의 공장 초기화 설정을 기반으로 초기 테스트를 수행합니다.
 
-``` 
+
   * Configuration tool에서 설정 변경 후, 변경된 값을 적용하려면 **Setting 버튼**을 클릭해야 합니다.
-```
+
 
 #### Step 5: Connect
 
@@ -276,7 +276,7 @@ PC를 사용자 시리얼 장치 및 TCP 클라이언트로 삼아 데이터 통
 
 |                                                                  |
 | ---------------------------------------------------------------- |
-| ![](/products/wiz750sr/gettingstarted/windows_devicemanager.png) |
+| ![](/document_framework/img/products/wiz750sr/gettingstarted/windows_devicemanager.png) |
 | Figure: Device Manager                                           |
 
 #### Step 6: Verify
@@ -305,9 +305,9 @@ PC를 사용자 시리얼 장치 및 TCP 클라이언트로 삼아 데이터 통
 
 -----
 
-\<WRAP center round tip 80% centeralign\> **동작에 문제가 있나요?**  
+**동작에 문제가 있나요?**  
 **[Troubleshooting 가이드](/products/wiz750sr/troubleshooting/ko)** 문서를 참고해
-보세요\! \</WRAP\>
+보세요\! 
 
 -----
 
