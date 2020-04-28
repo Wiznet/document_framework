@@ -12,12 +12,12 @@ date: 2020-04-09
 * [English](Getting_Started-[EN].md) (current page)  
 * [Korean](Getting_Started-[KO].md)
 
-![](/products/wiz750sr/docs_icon.png)
+![](/document_framework/img/products/wiz750sr/docs_icon.png)
 
 -----
 
-\*\* \* This section was written on the assumption that the use of
-WIZ750SR-100-EVB evaluation board.\*\*
+**This section was written on the assumption that the use of
+WIZ750SR-100-EVB evaluation board.**
 
 -----
 
@@ -44,12 +44,12 @@ Contents](/products/wiz750sr-100/overview/en#product_contents) page.
 
 |                                                                            |
 | -------------------------------------------------------------------------- |
-| ![](/products/wiz750sr-100/gettingstarted/wiz750sr_callout_rev1.1_top.png) |
+| ![](/document_framework/img/products/wiz750sr-100/gettingstarted/wiz750sr_callout_rev1.1_top.png) |
 | Figure: ***WIZ750SR-100 Revision 1.1 Top***                                |
 
 |                                                                               |
 | ----------------------------------------------------------------------------- |
-| ![](/products/wiz750sr-100/gettingstarted/wiz750sr_callout_rev1.1_bottom.png) |
+| ![](/document_framework/img/products/wiz750sr-100/gettingstarted/wiz750sr_callout_rev1.1_bottom.png) |
 | Figure: ***WIZ750SR-100 Revision 1.1 Bottom***                                |
 
 ### Parts
@@ -149,11 +149,9 @@ Contents](/products/wiz750sr-100/overview/en#product_contents) page.
   - Keep-Alive: **Enabled, 7-sec initial delay, 5-sec send interval**
 
 ### PC Settings
-
-\<WRAP center round important 80%\> Double check that the WIZ750SR-100
+Double check that the WIZ750SR-100
 and the PC, or laptop you are using to set up WIZ750SR-100 with are both
-on the same Ethernet network. \</WRAP\>
-
+on the same Ethernet network. 
 #### Example: PC Network Settings
 
 \* When the WIZ750SR-100's settings are factory default,
@@ -205,13 +203,13 @@ on the same Ethernet network. \</WRAP\>
     
     ### Connecting Steps
 
-\<WRAP center round important 80%\> The **WIZ750SR-100-EVB** is designed
+ The **WIZ750SR-100-EVB** is designed
 to use the **DB9 connector** to connect with the user’s serial device.
 Therefore, it is recommended to have all **Ethernet and serial ports
 connected to the PC** when testing. If the PC does not have a serial
 port, please purchase a **RS-232 to USB converter** separately.
 
-\</WRAP\>
+
 
 #### Step 1: Plug in
 
@@ -324,11 +322,9 @@ Now you’re ready to use the WIZ750SR-100\!
     and monitor** via the **remote PC or monitoring server**.
 
 -----
-
-\<WRAP center round tip 80% centeralign\> **If there is any problem?**  
+**If there is any problem?**  
 Please refer to our **[Troubleshooting
-Guide](/products/wiz750sr/troubleshooting/en)**\! \</WRAP\>
-
+Guide](/products/wiz750sr/troubleshooting/en)**\! 
 -----
 
 ## Navigation
