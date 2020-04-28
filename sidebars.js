@@ -174,6 +174,7 @@ module.exports = {
         type: 'category',
         label: 'W7500S2E-R1',
         items: [
+		'Product/S2E-Module/W7500S2E-R1/overview-[EN]',
 		'Product/S2E-Module/W7500S2E-R1/w5500s2e_r1'
 		],
 		},
@@ -181,6 +182,7 @@ module.exports = {
         type: 'category',
         label: 'W5500S2E-S1',
         items: [
+		'Product/S2E-Module/W5500S2E-S1/overview-[EN]',
 		'Product/S2E-Module/W5500S2E-S1/w5500s2e_s1'
 		],
 		},
@@ -188,6 +190,7 @@ module.exports = {
         type: 'category',
         label: 'W5500S2E-Z1',
         items: [
+		'Product/S2E-Module/W5500S2E-Z1/overview-[EN]',
 		'Product/S2E-Module/W5500S2E-Z1/w5500s2e_z1'
 		],
 		},
