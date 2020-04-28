@@ -8,9 +8,9 @@ date: 2020-04-08
 
 # WIZ750SR Series Configuration Tool Manual (New)
 
-\*\* Supported Languages \*\*  
-\* [English](/products/wiz750sr/guiconfigtoolmanual/en) (current page)  
-\* [Korean](/products/wiz750sr/guiconfigtoolmanual/ko)
+**Supported Languages** 
+  * [English]() (current page)  
+  * [Korean](Configuration_Tool_Manual_(New)-[EN].md)
 
 ![](/products/wiz750sr/docs_icon.png)
 
@@ -35,7 +35,7 @@ opened.
 
 |                                                                            |
 | -------------------------------------------------------------------------- |
-| ![](/products/wiz750sr/guiconfigtoolmanual/gui_configtool_main.png)        |
+| ![](/document_framework/img/products/wiz750sr/guiconfigtoolmanual/gui_configtool_main.png)        |
 | Figure: **Configuration Tool for WIZ750SR series & WIZ107/108SR Products** |
 
 -----
@@ -75,7 +75,7 @@ The list of products supported by WIZnet-S2E-Tool-GUI is as follows.
 
 |                                                                       |
 | --------------------------------------------------------------------- |
-| ![](/products/wiz750sr/guiconfigtoolmanual/gui_configtool_layout.png) |
+| ![](/document_framework/img/products/wiz750sr/guiconfigtoolmanual/gui_configtool_layout.png) |
 | Figure: **Configuration Tool Layout**                                 |
 
 The configuration tool is composed of four sections. Details of each
@@ -120,7 +120,7 @@ section are available below.
 
 |                                                                          |
 | ------------------------------------------------------------------------ |
-| ![](/products/wiz750sr/guiconfigtoolmanual/gui_configtool_icon_menu.png) |
+| ![](/document_framework/img/products/wiz750sr/guiconfigtoolmanual/gui_configtool_icon_menu.png) |
 | Figure: **Menu Icons**                                                   |
 
 #### 1\) Device Search
@@ -162,7 +162,7 @@ section are available below.
 
 |                                                                                       |
 | ------------------------------------------------------------------------------------- |
-| ![](/products/wiz750sr/guiconfigtoolmanual/gui_configtool_firmwareupload_success.png) |
+| ![](/document_framework/img/products/wiz750sr/guiconfigtoolmanual/gui_configtool_firmwareupload_success.png) |
 | Figure: **Popup Message - Firmware Upload Successfully**                              |
 
   - Use **TCP/UDP port 50002 to upload firmware** on to WIZ750SR.
@@ -176,10 +176,9 @@ section are available below.
   - The module will not work properly if the firmware is not correctly
     uploaded.
 
-\<WRAP round alert center centeralign 60%\> **DO NOT TURN OFF POWER
+**DO NOT TURN OFF POWER
 DURING FIRMWARE UPLOADING**  
-**IT CAN CAUSE MALFUNCTIONING** \</WRAP\>
-
+**IT CAN CAUSE MALFUNCTIONING** 
 #### 4\) Reset Device
 
   - Reboots WIZ750SR.
@@ -213,7 +212,7 @@ DURING FIRMWARE UPLOADING**
 
 |                                                                            |
 | -------------------------------------------------------------------------- |
-| ![](/products/wiz750sr/guiconfigtoolmanual/gui_configtool_net_adapter.png) |
+| ![](/document_framework/img/products/wiz750sr/guiconfigtoolmanual/gui_configtool_net_adapter.png) |
 | Figure: **Network adapters**                                               |
 
   - If using multiple types of network adapters, a list of adapters and
@@ -228,7 +227,7 @@ DURING FIRMWARE UPLOADING**
 
 |                                                                            |
 | -------------------------------------------------------------------------- |
-| ![](/products/wiz750sr/guiconfigtoolmanual/gui_configtool_device_list.png) |
+| ![](/document_framework/img/products/wiz750sr/guiconfigtoolmanual/gui_configtool_device_list.png) |
 | Figure: **Device List**                                                    |
 
   - List of devices searched will appears.
@@ -267,7 +266,7 @@ DURING FIRMWARE UPLOADING**
 
 |                                                                                  |
 | -------------------------------------------------------------------------------- |
-| ![](/products/wiz750sr/guiconfigtoolmanual/gui_configtool_tab_basicsettings.png) |
+| ![](/document_framework/img/products/wiz750sr/guiconfigtoolmanual/gui_configtool_tab_basicsettings.png) |
 | Figure: **Basic settings Tab**                                                   |
 
 1.  UDP Broadcast Search: can search multiple devices
@@ -301,10 +300,10 @@ DURING FIRMWARE UPLOADING**
       - By selecting this option, all information is automatically
         allocated from the router (DHCP server).
 
-\* Details of IP address allocation are available at [WIZ750SR User's
+  * Details of IP address allocation are available at [WIZ750SR User's
 Manual: IP address
 settings](/products/wiz750sr/usermanual/en#ip_address_settings).  
-\* PPPoE mode is not supported.
+ * PPPoE mode is not supported.
 
 -----
 
@@ -312,7 +311,7 @@ settings](/products/wiz750sr/usermanual/en#ip_address_settings).
 
 |                                                                            |
 | -------------------------------------------------------------------------- |
-| ![](/products/wiz750sr/guiconfigtoolmanual/gui_configtool_tab_options.png) |
+| ![](/document_framework/img/products/wiz750sr/guiconfigtoolmanual/gui_configtool_tab_options.png) |
 | Figure: **Option Tab**                                                     |
 
 -----
@@ -347,12 +346,12 @@ settings](/products/wiz750sr/usermanual/en#ip_address_settings).
 
 #### 4\) Serial command mode
 
-``` 
+
   * By enabling this option, the data communication mode (GW mode) will change to serial command mode (AT mode) when sending the **command mode switch code** via the serial data port.
     * Default: Enabled
   * Use the serial command mode composed of 2-byte to change settings.
   * The existing TCP connection will be lost if the mode changes to serial command mode.
-```
+
 
   - **Serial command mode switch code: Trigger code**
       - This is a 3-byte code for switching the mode from data mode to
@@ -360,7 +359,7 @@ settings](/products/wiz750sr/usermanual/en#ip_address_settings).
           - Default: \[2B\]\[2B\]\[2B\] (+++)
       - Each byte value reads hex code only.
 
-\<WRAP round tip center 90%\>
+
 
 **Please take caution of the following when using Trigger code.**
 
@@ -375,7 +374,7 @@ settings](/products/wiz750sr/usermanual/en#ip_address_settings).
     mode switch code is 500ms. The operation is based on the timer value
     of the serial data packaging option.
 
-\</WRAP\>
+
 
 #### 5\) Connection password (TCP server mode only)
 
@@ -393,7 +392,7 @@ settings](/products/wiz750sr/usermanual/en#ip_address_settings).
 
 |                                                                            |
 | -------------------------------------------------------------------------- |
-| ![](/products/wiz750sr/guiconfigtoolmanual/gui_configtool_tab_channel.png) |
+| ![](/document_framework/img/products/wiz750sr/guiconfigtoolmanual/gui_configtool_tab_channel.png) |
 | Figure: **Network Configuration Tab**                                      |
 
 1.  The serial command after switching modes must end with CR and LF.
@@ -507,9 +506,9 @@ settings](/products/wiz750sr/usermanual/en#ip_address_settings).
     using this option, user command frame or all other data can be
     collected and sent together.
 
-\<WRAP round tip center centeralign 90%\> Data packing options can be
+ Data packing options can be
 multi-selected but has priority as shown below.  
-**Character =\> Size =\> Timer** \</WRAP\>
+**Character =\> Size =\> Timer**
 
   - **Timer**
       - Range: 0 \~ 65535 / Unit: milliseconds (ms)
@@ -598,9 +597,9 @@ multi-selected but has priority as shown below.
 
 -----
 
-\<WRAP center round tip 80% centeralign\> **If there is any problem?**  
+**If there is any problem?**  
 Please refer to our **[Troubleshooting
-Guide](/products/wiz750sr/troubleshooting/en)**\! \</WRAP\>
+Guide](/products/wiz750sr/troubleshooting/en)**\! 
 
 -----
 
