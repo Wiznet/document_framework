@@ -14,9 +14,9 @@ connectivity. This chapter describes how it can be operated.
 
 ## Initialization
 
-\<WRAP round center tip 80% centeralign\> You **must check PHY LINK**
+ You **must check PHY LINK**
 *(0 bit of PHYCFGR)* **before attempting to make a network connection**
-using sockets. \</WRAP\>
+using sockets. 
 
 ### Basic Setting
 
@@ -90,12 +90,12 @@ connect-request first to “TCP SERVER” to make the connection
 (Active-open).
 
 ![TCP SERVER and TCP
-CLIENT](/products/w5500/application/serverclient.jpg)
+CLIENT](/document_framework/img/products/w5500/application/serverclient.jpg)
 
 ### TCP SERVER
 
 ![TCP SERVER Operation
-Flow](/products/w5500/application/server_flow.jpg)
+Flow](/document_framework/img/products/w5500/application/server_flow.jpg)
 
 ##### SOCKET Initialization
 
@@ -121,11 +121,11 @@ if (Sn_SR != SOCK_INIT) Sn_CR = CLOSE; goto START;
 }
 ```
 
-\<WRAP round center tip 80% centeralign\> After W5500 **accepts the
+ After W5500 **accepts the
 command, the Sn\_CR register is automatically cleared to 0x00**. Even
 though Sn\_CR is cleared to 0x00, the command is still being processed.
 *To check whether the command is completed or not, please check the
-Sn\_IR or Sn\_SR.* \</WRAP\>
+Sn\_IR or Sn\_SR.*\</WRAP\>
 
 ##### LISTEN
 
@@ -371,7 +371,7 @@ It is same as TCP server except ‘CONNECT’ state. User can refer to the
 above "TCP SERVER” section.
 
 ![TCP CLIENT Operation
-Flow](/products/w5500/application/client_flow.jpg)
+Flow](/document_framework/img/products/w5500/application/client_flow.jpg)
 
 ##### CONNECT
 
