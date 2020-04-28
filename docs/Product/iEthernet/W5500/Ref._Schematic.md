@@ -14,7 +14,7 @@ date: 2020-04-03
 ![W5500 Ref.Schematic - External
 Transformer](/wiznet_schematic/ethernet_chip/w5500_sch_v110_use_trans_.pdf)
 ![W5500 Ref.Schematic (External
-Transformer)](/products/w5500/w5500_sch_v110_use_trans_.png)
+Transformer)](/document_framework/img/products/w5500/w5500_sch_v110_use_trans_.png)
 
 -----
 
@@ -23,7 +23,7 @@ Transformer)](/products/w5500/w5500_sch_v110_use_trans_.png)
 ![W5500 Ref.Schematic - RJ45 with
 Transformer](/wiznet_schematic/ethernet_chip/w5500_sch_v110_use_mag_.pdf)
 ![W5500 Reference Schematic (RJ45 with
-Transformer)](/products/w5500/w5500_sch_v110_use_mag_.png)
+Transformer)](/document_framework/img/products/w5500/w5500_sch_v110_use_mag_.png)
 
 -----
 
@@ -34,15 +34,14 @@ matching network (2x 50R) of the RX+/- signals must be isolated from CT
 (3.3V). For that isolation we need C23 and C24.  
 Please refer to the following schematic:
 
-\<WRAP center round tip 80%\>
 
   - *C23 and C24 must be added. Otherwise, W5500 won't operate well.*
   - *And by connected center tap, Power dissipation may be raised.*
   - *So, you'd better use a MAGJACK without connected center tap except
     the case that you have to use one with connected center tap.*
 
-\</WRAP\>
-![w5500\_schematic-connected-cts\_003.jpg](/products/w5500/w5500_schematic-connected-cts_003.jpg)  
+
+![w5500\_schematic-connected-cts\_003.jpg](/document_framework/img/products/w5500/w5500_schematic-connected-cts_003.jpg.jpg)  
 The RJ45 from UDE (RB1-125BAG1A) is used in many of our **W5100** and
 **W7100A** related Modules.
 
