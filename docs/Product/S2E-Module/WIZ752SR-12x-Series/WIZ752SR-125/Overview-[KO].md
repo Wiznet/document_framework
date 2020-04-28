@@ -8,10 +8,9 @@ date: 2020-04-15
 
 # WIZ752SR-125 Product Overview
 
-\*\* Supported Languages \*\*  
-\* [English](/products/s2e_module/wiz752sr-125/overview/en)  
-\* [Korean](/products/s2e_module/wiz752sr-125/overview/ko) (current
-page)
+ **Supported Languages**  
+* [English](Overview-[EN].md) 
+* [Korean](Overview-[KO].md) (current page)
 
 -----
 
