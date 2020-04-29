@@ -29,7 +29,7 @@ date: 2020-04-15
    * RJ45(Integrated Transformer)
    * 2.54mm Header x2
 
-![](/products/wiz550s2e/wiz550s2eds/wiz550s2e_pin.jpg)
+![](/document_framework/img/products/wiz550s2e/wiz550s2eds/wiz550s2e_pin.jpg)
 
 ### Pin Description
 
@@ -67,7 +67,7 @@ date: 2020-04-15
    * 상태 LED들
    * DC 전원 단자 (+5V 전원 입력용)
 
-![](/products/wiz550s2e/wiz550s2eds/rs232if_pin_20140729.jpg)
+![](/document_framework/img/products/wiz550s2e/wiz550s2eds/rs232if_pin_20140729.jpg)
 ![](/products/wiz550s2e/wiz550s2eds/크기변환_wiz550s2e-232-evb.png)
 
 -----
@@ -81,7 +81,7 @@ date: 2020-04-15
    * 상태 LED들
    * DC 전원 단자 (+5V 전원 입력용)
 
-![](/products/wiz550s2e/wiz550s2eds/rs485-422if_pin_20140729.jpg)
+![](/document_framework/img/products/wiz550s2e/wiz550s2eds/rs485-422if_pin_20140729.jpg)
 ![](/products/wiz550s2e/wiz550s2eds/크기변환_wiz550s2e-485-evb.png)
 
 -----
@@ -112,18 +112,18 @@ date: 2020-04-15
 
 | 항목                         | Version | Schematic(PDF)                                                                        |
 | -------------------------- | ------- | ------------------------------------------------------------------------------------- |
-| WIZ550S2E                  | 1.1/1.2 | ![PDF](/wiznet_schematic/s2e_module/wiz550s2e/schematic1_wiz550s2e_v11_dotremove.pdf) |
-| WIZ550S2E-232 인터페이스 보드     | 1.0     | ![](/products/wiz550s2e/wiz550s2eds/rs232if_v1_0.pdf)                                 |
-| WIZ550S2E-485/422 인터페이스 보드 | 1.0     | ![](/products/wiz550s2e/wiz550s2eds/rs485-422if_v1_0.pdf)                             |
+| WIZ550S2E                  | 1.1/1.2 | ![PDF](/document_framework/img/products/wiz550s2e/schematic1_wiz550s2e_v11_dotremove.pdf) |
+| WIZ550S2E-232 인터페이스 보드     | 1.0     | ![](/document_framework/img/products/wiz550s2e/wiz550s2eds/rs232if_v1_0.pdf)                                 |
+| WIZ550S2E-485/422 인터페이스 보드 | 1.0     | ![](/document_framework/img/products/wiz550s2e/wiz550s2eds/rs485-422if_v1_0.pdf)                             |
 
 | 항목        | Version | Partlist                                                             | PCB(Unit)                                                                        |
 | --------- | ------- | -------------------------------------------------------------------- | -------------------------------------------------------------------------------- |
-| WIZ550S2E | 1.1     | ![Partlist\_PDF](/products/wiz550s2e/wiz550s2e_ver1.1_pl_150916.pdf) | ![WIZ550S2E\_v1.1\_PCB](/products/wiz550s2e/wiz550s2eds_kr/wiz550s2e_v1.1.1.zip) |
-| WIZ550S2E | 1.2     | :::                                                                  | ![WIZ550S2E\_v1.2\_PCB](/products/wiz550s2e/wiz550s2eds_kr/wiz550s2e_v1.2.zip)   |
+| WIZ550S2E | 1.1     | ![Partlist\_PDF](/document_framework/img/products/wiz550s2e/wiz550s2e_ver1.1_pl_150916.pdf) | ![WIZ550S2E\_v1.1\_PCB](/document_framework/img/products/wiz550s2e/wiz550s2eds_kr/wiz550s2e_v1.1.1.zip) |
+| WIZ550S2E | 1.2     | :::                                                                  | ![WIZ550S2E\_v1.2\_PCB](/document_framework/img/products/wiz550s2e/wiz550s2eds_kr/wiz550s2e_v1.2.zip)   |
 
   - Rev 1.1/1.2 Update Schematic
 
-![](/products/wiz550s2e/wiz550s2e_rev_point.png)
+![](/document_framework/img/products/wiz550s2e/wiz550s2e_rev_point.png)
 
 -----
 # Dimension
@@ -132,18 +132,18 @@ date: 2020-04-15
 
 ## WIZ550S2E
 
-![](/products/wiz550s2e/wiz550s2eds/wiz550s2e_dimension.jpg)
+![](/document_framework/img/products/wiz550s2e/wiz550s2eds/wiz550s2e_dimension.jpg)
 
 -----
 
 ## WIZ550S2E-232 인터페이스 보드
 
-![](/products/wiz550s2e/wiz550s2eds/rs232if_dimension.jpg)
+![](/document_framework/img/products/wiz550s2e/wiz550s2eds/rs232if_dimension.jpg)
 
 -----
 
 ## WIZ550S2E-485/422 인터페이스 보드
 
-![](/products/wiz550s2e/wiz550s2eds/rs485-422if_dimension.jpg)
+![](/document_framework/img/products/wiz550s2e/wiz550s2eds/rs485-422if_dimension.jpg)
 
 -----
