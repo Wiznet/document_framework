@@ -10,7 +10,7 @@ date: 2020-04-09
 
 **Supported Languages**  
 * [English](User's_Manual-[EN].md)   
-* [Korean](User's_Manual-[KO].md) (current page)
+* [Korean](docs/Product/S2E-Module/WIZ750SR-1xx-Series/WIZ750SR-100/User's_Manual-[KO].md) (current page)
 
 ![](/products/wiz750sr/docs_icon.png)
 
