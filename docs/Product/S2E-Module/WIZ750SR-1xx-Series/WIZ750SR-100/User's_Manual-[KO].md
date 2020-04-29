@@ -1,6 +1,6 @@
 ---
-id: users_manual-[KO]
-title: User's Manual-[KO]
+id: users_manual-(KO)
+title: User's Manual-(KO)
 date: 2020-04-09
 ---
 
@@ -9,8 +9,8 @@ date: 2020-04-09
 # WIZ750SR User's Manual
 
 **Supported Languages**  
-* [English](/docs/Product/S2E-Module/WIZ750SR-1xx-Series/WIZ750SR-100/User's_Manual-[EN].md)   
-* [Korean](docs/Product/S2E-Module/WIZ750SR-1xx-Series/WIZ750SR-100/User's_Manual-[KO].md) (current page)
+* [English](/docs/Product/S2E-Module/WIZ750SR-1xx-Series/WIZ750SR-100/User's_Manual-(EN).md)   
+* [Korean](docs/Product/S2E-Module/WIZ750SR-1xx-Series/WIZ750SR-100/User's_Manual-(KO).md) (current page)
 
 ![](/products/wiz750sr/docs_icon.png)
 
