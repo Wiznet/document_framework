@@ -1,6 +1,6 @@
 ---
 id: users_manual_KO
-title: User's Manual KO
+title: User's Manual-KO
 date: 2020-04-09
 ---
 
