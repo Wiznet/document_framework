@@ -771,24 +771,22 @@ column\>
   - **Return Type:** String
   - **Return Value:**
 
-\<WRAP indent\>\<WRAP indent\>
+
 
     Firmware version with dots(.)
 
   - \=\> Major version number . Minor version number . Maintenance
     version number
 
-\</WRAP\> \</WRAP\>
 
   - **Response**
 
-\<WRAP indent\>\<WRAP indent\> \<WRAP round box group\> \<WRAP half
-column\>
+
 
   - **Without Parameter (Get)**
       - In ASCII: `VR1.0.0\r\n`
 
-\</WRAP\> \<WRAP half column\> \</WRAP\> \</WRAP\> \</WRAP\> \</WRAP\>
+
 
 -----
 
@@ -808,17 +806,16 @@ column\>
 
   - \=\> Default: WIZ750SR
 
-\</WRAP\> \</WRAP\>
+
 
   - **Response**
 
-\<WRAP indent\>\<WRAP indent\> \<WRAP round box group\> \<WRAP half
-column\>
+
 
   - **Without Parameter (Get)**
       - In ASCII: `MNWIZ750SR\r\n`
 
-\</WRAP\> \<WRAP half column\> \</WRAP\> \</WRAP\> \</WRAP\> \</WRAP\>
+
 
 -----
 
@@ -847,13 +844,10 @@ column\>
 
   - **Response**
 
-\<WRAP indent\>\<WRAP indent\> \<WRAP round box group\> \<WRAP half
-column\>
 
   - **Without Parameter (Get)**
       - In ASCII: `STATMODE\r\n`
 
-\</WRAP\> \<WRAP half column\> \</WRAP\> \</WRAP\> \</WRAP\> \</WRAP\>
 
 -----
 
@@ -867,7 +861,7 @@ column\>
   - **Return Type:** String
   - **Return Value:**
 
-\<WRAP indent\>\<WRAP indent\>
+
 
 | UART Interface | Description                                                     |
 | -------------- | --------------------------------------------------------------- |
@@ -898,24 +892,21 @@ column\>
   - **Return Type:** Number (0 / 1)
   - **Return Value:**
 
-\<WRAP indent\>\<WRAP indent\>
+
 
 | Return value | Description                                                     | Remarks    |
 | ------------ | --------------------------------------------------------------- | ---------- |
 | 0            | Device supports UART input/output of RS-232C or TTL signals.    | RS-232/TTL |
 | 1            | Device supports UART input/output of RS-422 and RS-485 signals. | RS-422/485 |
 
-\</WRAP\> \</WRAP\>
 
   - **Response**
 
-\<WRAP indent\>\<WRAP indent\> \<WRAP round box group\> \<WRAP half
-column\>
+
 
   - **Without Parameter (Get)**
       - In ASCII: `UI0\r\n`
 
-\</WRAP\> \<WRAP half column\> \</WRAP\> \</WRAP\> \</WRAP\> \</WRAP\>
 
   
   
@@ -935,8 +926,6 @@ column\>
   - **Command Type:** Read / Write
   - **Parameter / Return Type:** Number (0 \~ 3)
   - **Parameter / Return Value:**
-
-\<WRAP indent\>\<WRAP indent\>
 
 <table>
 <thead>
@@ -971,23 +960,21 @@ Return value</th>
 </tbody>
 </table>
 
-\</WRAP\> \</WRAP\>
 
   - **Response**
 
-\<WRAP indent\>\<WRAP indent\> \<WRAP round box group\> \<WRAP half
-column\>
+
 
   - **Without Parameter (Get)**
       - In ASCII: `OP0\r\n`
 
-\</WRAP\> \<WRAP half column\>
+
 
   - **With Parameter (Set)**
       - No response
       - Change the network operation mode
 
-\</WRAP\> \</WRAP\> \</WRAP\> \</WRAP\>
+
 
 -----
 
@@ -1001,7 +988,7 @@ column\>
   - **Parameter / Return Type:** Number (0 \~ 1)
   - **Parameter / Return Value:**
 
-\<WRAP indent\>\<WRAP indent\>
+
 
 <table>
 <thead>
@@ -1026,23 +1013,18 @@ Return value</th>
 </tbody>
 </table>
 
-\</WRAP\> \</WRAP\>
 
   - **Response**
-
-\<WRAP indent\>\<WRAP indent\> \<WRAP round box group\> \<WRAP half
-column\>
 
   - **Without Parameter (Get)**
       - In ASCII: `IM0\r\n`
 
-\</WRAP\> \<WRAP half column\>
+
 
   - **With Parameter (Set)**
       - No response
       - Change product’s IP address allocation method
 
-\</WRAP\> \</WRAP\> \</WRAP\> \</WRAP\>
 
 -----
 
@@ -1057,28 +1039,26 @@ column\>
     dot)
   - **Parameter / Return Value:**
 
-\<WRAP indent\>\<WRAP indent\>
+
 
     Ex> 192.168.11.2
 
-\</WRAP\> \</WRAP\>
+
 
   - **Response**
 
-\<WRAP indent\>\<WRAP indent\> \<WRAP round box group\> \<WRAP half
-column\>
+
 
   - **Without Parameter (Get)**
       - In ASCII: `LI192.168.11.2\r\n`
       - In HEX: `4C 49 31 39 32 2E 31 36 38 2E 31 31 2E 32 0D 0A`
 
-\</WRAP\> \<WRAP half column\>
 
   - **With Parameter (Set)**
       - No response
       - Change product’s IP address
 
-\</WRAP\> \</WRAP\> \</WRAP\> \</WRAP\>
+
 
 -----
 
@@ -1093,20 +1073,18 @@ column\>
     dot)
   - **Parameter / Return Value:**
 
-\<WRAP indent\>\<WRAP indent\>
+
 
     Ex> 255.255.255.0
 
-\</WRAP\> \</WRAP\>
 
-\* **Response** \<WRAP indent\>\<WRAP indent\> \<WRAP round box group\>
-\<WRAP half column\>
+\* **Response** >
 
   - **Without Parameter (Get)**
       - In ASCII: `SM255.255.255.0\r\n`
       - In HEX: `53 4D 32 35 35 2E 32 35 35 2E 32 35 35 2E 30 0D 0A`
 
-\</WRAP\> \<WRAP half column\>
+
 
   - **With Parameter (Set)**
       - No response
