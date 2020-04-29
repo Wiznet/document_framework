@@ -1,6 +1,6 @@
 ---
-id: users_manualEN
-title: User's ManualEN
+id: users_manual_EN
+title: User's Manual EN
 date: 2020-04-09
 ---
 
