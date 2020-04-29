@@ -18,33 +18,31 @@ date: 2020-04-16
 
   - **Full Binary (Boot + App), Uesing the Flash Loader Demonstrator**
 
-\<WRAP center download 60% centeralign\> **Full Binary (App Boot +
+ **Full Binary (App Boot +
 App)**  
 ![Download (Boot +
-App)](/products/wiz550sr/wiz550sr_download/wiz550sr_160531.zip)  
-Release Date : 2016/05/31 \</WRAP\>
+App)](/document_framework/img/products/wiz550sr/wiz550sr_download/wiz550sr_160531.zip)  
 
   - **App Binary (App), Uesing the WIZnet Configuration Tool**
 
-\<WRAP center download 60% centeralign\> **App Binary (App)**  
+**App Binary (App)**  
 ![Download
-(App)](/products/wiz550sr/wiz550sr_download/wiz550sr_app_160531.zip)  
-Release Date : 2016/05/31 \</WRAP\>
+(App)](/document_framework/img/products/wiz550sr/wiz550sr_download/wiz550sr_app_160531.zip)  
+
 
 ### Source code (with web pages)
 
 #### WIZ550SR H/W V1.0 / F/W V1.0
 
-\<WRAP center download 60% centeralign\> \*\* WIZ550SR GitHub Repository
-V1.0 (Link) \*\*  
+**WIZ550SR GitHub Repository V1.0 (Link)**
 
-<https://github.com/Wiznet/WIZ550SR> \</WRAP\>
+<https://github.com/Wiznet/WIZ550SR> 
 
 -----
 
 ## Download Configuration Tool
 
-\<WRAP center round important 90%\> WIZnet Configuration Tool made Java
+ WIZnet Configuration Tool made Java
 base. so runs on any OS that JRE be installed.  
 Install JAVA Runtime Environment
 
@@ -52,32 +50,31 @@ Install JAVA Runtime Environment
   - Click on the **Free Java Download** button.
   - Install the downloaded installation file.
 
-\</WRAP\>
 
 ![WIZnet Configuration Tool Version
-1.0.3](/products/wiz550sr/wiz550sr_download/configuration.png%20)
+1.0.3](/document_framework/img/products/wiz550sr/wiz550sr_download/configuration.png)
 
 \<WRAP center download 60% centeralign\> **WIZnet Configuration Tool
 Version 1.0.3**  
 ![Download
-(zip)](/products/wiz550sr/wiz550sr_download/wiznet_configuration_tool_ver1.03.zip)
-\</WRAP\>
+(zip)](/document_framework/img/products/wiz550sr/wiz550sr_download/wiznet_configuration_tool_ver1.03.zip)
+
 
 -----
 
-\<WRAP center download 60% centeralign\> **Configuration Tool Firmware
+**Configuration Tool Firmware
 Upload Guide(TFTP)**  
 ![Configuration Tool Fw upload
-guide(TFTP)](/products/wiz550sr/wiz550s2e_fw_uploading_tftp.pdf)
-\</WRAP\>
+guide(TFTP)](/document_framework/img/products/wiz550sr/wiz550s2e_fw_uploading_tftp.pdf)
+
 
 -----
 
 ## Download WIZ550SR EVB USB Driver
 
-\<WRAP center round important 60%\> In order to use WIZ550SR is required
+In order to use WIZ550SR is required
 for USB driver(Provided by the FTDI).  
-\</WRAP\> \<WRAP center download 60% centeralign\> **Virtual COM Port
+**Virtual COM Port
 Drivers.**  
   
 <http://www.ftdichip.com/Drivers/VCP.htm> \</WRAP\>
