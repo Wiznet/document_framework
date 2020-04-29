@@ -67,6 +67,7 @@ ICMP function include ping by opening the Socket n as an IPRAW mode.
 |1.1.0|	2014-04-09|	![W5500_AP_IPRAW_V110E.pdf](),![W5500_AP_IPRAW_V110K.pdf]()|
 #### APPlication Source Code
 |Version|	Date|	Download|	Etc|
+|-------|-----|---------|----|
 |1.0.0	|2014-02-21|	![W5500_APC_IPRAW_V100.zip]()|	Initial Version|
 |1.1.0|	2015-05-10|	![W5500_APC_IPRAW_V110.zip]()|	Modify - Use all socket|
 
@@ -93,13 +94,14 @@ For more information W5500 chip please also refer to the chip's datasheet:
 |1.0.6|	2014-12-30|	Corrected typing error : from 0x02 to 0x42 value of SOCK_MACRAW “Sn_CR at 4.2 Socket Registers”(P.46)|
 |1.0.7	|2016-02-24|	1. Corrected Interrupt Assert Wait Time function (P.34) / 2. Notice PLLclk is 150MHz (P.34)|
 |1.0.8|	2017-05-19|	1. Corrected Driver Level Range Unit uW/MHz to uW (P.60)|
-|1.0.9|	2019-05-22|	1. Corrected Sn_IMR Description (P.55) 2. Corrected Junction temperature Min value TJ (P.57) 3. Added Maximum junction temperature TJMAX (P.58)
-WIZ550io History|
+|1.0.9|	2019-05-22|	1. Corrected Sn_IMR Description (P.55) 2. Corrected Junction temperature Min value TJ (P.57) 3. Added Maximum junction temperature TJMAX (P.58)|
 
-Version	Date	Description
-1.0	2013-08-01	Initial Release
-1.1	2014-01-17	Changed “External Transformer + RJ-45 to MAGJACK(inside transformer)”
-1.2	2015-04-20	Added “Resistor 33R in MDI line. because EMI issue.”
-Changed “PCB artwork. because changed develop tool(PADS → Altium) ”
-1.3	2018-08-10	Modified “inner 2 layer copper foil (3V3D). This copper foil plated below of CHAND area. It may affect ESD.”
+**WIZ550io History**
+
+|Version|	Date	|Description|
+|-------|-------|-----------|
+|1.0|	2013-08-01|	Initial Release|
+|1.1|	2014-01-17|	Changed “External Transformer + RJ-45 to MAGJACK(inside transformer)”|
+|1.2	|2015-04-20|	Added “Resistor 33R in MDI line. because EMI issue.”Changed “PCB artwork. because changed develop tool(PADS → Altium) ”|
+|1.3	|2018-08-10|	Modified “inner 2 layer copper foil (3V3D). This copper foil plated below of CHAND area. It may affect ESD.”|
 
