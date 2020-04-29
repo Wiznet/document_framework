@@ -21,7 +21,7 @@ date: 2020-04-07
 <!-- end list -->
 
    * [WIZwiki-W7500 V1.1 Schematic (Altium Designer)]()
-   * [WIZwiki-W7500 V1.1 Schematic (PDF)](/document_framework/mg/products/w7500/overview/wizwiki_w7500_v1.1.pdf)
+   * [WIZwiki-W7500 V1.1 Schematic (PDF)](/document_framework/img/products/w7500/overview/wizwiki_w7500_v1.1.pdf)
 
   - **Schematic Version 1.0**
 
