@@ -4,11 +4,10 @@ title: Instruction to OEM
 date: 2020-03-
 ---
 
-
 ## Content
 ## Instruction to OEM
 
-  
+ 
 This device complies with Industry Canada’s licence-exempt RSSs.
 Operation is subject to the following two conditions: // //
 
