@@ -12,7 +12,7 @@ date: 2020-04-16
 
 ## Overview
 
-![WIZ550SR Overview](/products/wiz550sr/wiz550sr_overview.png%20%20)
+![WIZ550SR Overview](/document_framework/img/products/wiz550sr/wiz550sr_overview.png)
 
 WIZ550SR is Serial to Ethernet module, It's mounted TCP/IP chip W5500 of
 WIZnet and Cortex-M3-based STM32F103RCT6 of STmicro. WIZ550SR does not
