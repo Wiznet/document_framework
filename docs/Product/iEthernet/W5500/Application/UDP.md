@@ -14,9 +14,9 @@ connectivity. This chapter describes how it can be operated.
 
 ## Initialization
 
-\<WRAP round center tip 80% centeralign\> You **must check PHY LINK**
+You **must check PHY LINK**
 *(0 bit of PHYCFGR)* **before attempting to make a network connection**
-using sockets. \</WRAP\>
+using sockets. 
 
 ### Basic Setting
 
@@ -91,7 +91,7 @@ host retransmits damaged data or ignores the unwanted data which is
 received from others. The UDP protocol supports unicast, broadcast, and
 multicast communication. It follows the below communication flow.
 
-![UDP Operation Flow](/products/w5500/application/udp_flow.jpg)
+![UDP Operation Flow](/document_framework/img/products/w5500/application/udp_flow.jpg)
 
 ### Unicast and Broadcast
 
@@ -146,11 +146,11 @@ if (Sn_SR != SOCK_UDP) Sn_CR = CLOSE; goto START;
 }
 ```
 
-\<WRAP round center tip 80% centeralign\> After W5500 **accepts the
+ After W5500 **accepts the
 command, the Sn\_CR register is automatically cleared to 0x00**. Even
 though Sn\_CR is cleared to 0x00, the command is still being processed.
 *To check whether the command is completed or not, please check the
-Sn\_IR or Sn\_SR.* \</WRAP\>
+Sn\_IR or Sn\_SR.* 
 
 ##### Check received data
 
@@ -179,7 +179,7 @@ Process the received UDP data in Internal RX memory.
 The structure of received UDP data is as below.
 
 ![The Received UDP data
-format](/products/w5500/application/received_udp_data.jpg)
+format](/document_framework/img/products/w5500/application/received_udp_data.jpg)
 
 The received UDP data consists of 8bytes PACKET-INFO, and DATA packet.
 The PACKETINFO contains transmitter’s information (IP address, Port
