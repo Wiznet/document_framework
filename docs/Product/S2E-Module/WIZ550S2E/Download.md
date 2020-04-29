@@ -44,14 +44,14 @@ For all revision binary files including below, you can see at the
 [release](https://github.com/Wiznet/WIZ550S2E/releases) page of
 wiz550s2e's in GitHub.
 
-  - ![Ver 1.0.3](/products/wiz550s2e/binary_v1.0.3.zip)
-  - ![Ver 1.0.2](/products/wiz550s2e/binary_v1.0.2.zip)
-  - ![Ver 1.0.1](/products/wiz550s2e/binary_v1.0.1.zip)
-  - ![Ver 1.0.0](/products/wiz550s2e/wiz550s2e.zip)
+  - ![Ver 1.0.3](/document_framework/img/products/wiz550s2e/binary_v1.0.3.zip)
+  - ![Ver 1.0.2](/document_framework/img/products/wiz550s2e/binary_v1.0.2.zip)
+  - ![Ver 1.0.1](/document_framework/img/products/wiz550s2e/binary_v1.0.1.zip)
+  - ![Ver 1.0.0](/document_framework/img/products/wiz550s2e/wiz550s2e.zip)
 
 ### Firmware upload(TFTP) guide
 
-![Guide Document](/products/wiz550s2e/WIZ550S2E_FW_Uploading_tftp.pdf)  
+![Guide Document](/document_framework/img/products/wiz550s2e/wiz550s2e_fw_uploading_tftp.pdf)  
    * **Notice**
 
  
@@ -80,29 +80,13 @@ page of configuration's in github.
   
 ![Ver
 1.31](https://github.com/Wiznet/WIZnet_Configuration_Tool/releases/download/v1.3.1/WIZnet_Configuration_Tool.jar)  
-![Ver 1.10](/products/wiz550s2e/wiznet_configuration_tool_ver1.10.zip)  
+![Ver 1.10](/document_framework/img/products/wiz550s2e/wiznet_configuration_tool_ver1.10.zip)  
 ![Ver
 1.03](/products/wiz550sr/wiz550sr_download/wiznet_configuration_tool_ver1.03.zip)  
-![Ver 1.02](/products/wiz550s2e/wiznet_configuration_tool_ver1.02.zip)  
+![Ver 1.02](/document_framework/img/products/wiz550s2e/wiznet_configuration_tool_ver1.02.zip)  
 ![Ver
-1.00](/products/wiz550s2e/wiz550s2e_configuration_tool_ver1.00_0724.zip)
-## Configuration Tool
+1.00](/document_framework/img/products/wiz550s2e/wiz550s2e_configuration_tool_ver1.00_0724.zip)
 
-### ConfigTool
-
-We will not upload files in here.  
-We will use the
-[release](https://github.com/Wiznet/WIZnet_Configuration_Tool/releases)
-page of configuration's in github.  
-  
-![Ver
-1.31](https://github.com/Wiznet/WIZnet_Configuration_Tool/releases/download/v1.3.1/WIZnet_Configuration_Tool.jar)  
-![Ver 1.10](/products/wiz550s2e/wiznet_configuration_tool_ver1.10.zip)  
-![Ver
-1.03](/products/wiz550sr/wiz550sr_download/wiznet_configuration_tool_ver1.03.zip)  
-![Ver 1.02](/products/wiz550s2e/wiznet_configuration_tool_ver1.02.zip)  
-![Ver
-1.00](/products/wiz550s2e/wiz550s2e_configuration_tool_ver1.00_0724.zip)  
 
 ### Configuration Tool 실행 가이드
 
