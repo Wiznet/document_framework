@@ -13,13 +13,11 @@ date: 2020-04-07
 If you've just purchased W5500 EVB, let the following points for the
 checking board operation at the first time.
 
-Connect your board to a PC using USB and connect LAN cable. \<WRAP
-center round important 80%\> **Don't forget : LAN cable should be
+Connect your board to a PC using USB and connect LAN cable. **Don't forget : LAN cable should be
 connected to the board**  
 The W5500 EVB Need to be LAN cable connected because default demo
 firmware check the PHY link status periodically. If the LAN cable is not
 connected, the board does not operate and RGB LED is not blinking.
-\</WRAP\>
 
 #### 1. RGB LED blinky
 
@@ -41,11 +39,10 @@ Check the the virtual COM port number in your systems properties.
 Please connect with any terminal to that serial port with
 **115200.8.N.1**.
 
-![](/products/w5500/w5500_evb/figures/downloading_serial_printout_on_terminal.jpg)
+![](/document_framework/img/products/w5500/w5500_evb/figures/downloading_serial_printout_on_terminal.jpg)
 
 #### 4. Loopback test
-
-\<WRAP center round tip 80%\> The following is the
+ The following is the
 ![](/products/w5500/w5500_evb/icons/link.png) [loopback test procedure
 of the 'Tinygecko' board + W5500
 chip](/osh/energymicro/tinygecko#loopback). (Network configuration
@@ -55,7 +52,7 @@ If you need detailed figures, please refer to the next link.
 ![](/products/w5500/w5500_evb/icons/link.png) [loopback\_test\#TCP and
 UDP loopback
 test](/osh/cookie/loopback_test#TCP%20and%20UDP%20loopback%20test)
-\</WRAP\>
+
 
 The loopback example runs with a TCP session and a UDP session.
 
@@ -126,7 +123,7 @@ after reset or power supply.
 
 Flash Magic is a program to perform in-system programming (ISP) of the
 LPC flash via its UART.  
-![](/products/w5500/w5500_evb/icons/link.png)['Flash Magic' download
+![](/document_framework/img/products/w5500/w5500_evb/icons/link.png)['Flash Magic' download
 page](http://www.flashmagictool.com/)
 
 #### 3. Tool settings
@@ -135,7 +132,7 @@ Set the settings on main window of Flash Magic program. It is easy to
 set along with each step.  
 The figure below shows the default configuration for W5500 EVB.
 
-![](/products/w5500/w5500_evb/figures/downloading_nxp_flashmagic_3_tempsensor_box.jpg)
+![](/document_framework/img/products/w5500/w5500_evb/figures/downloading_nxp_flashmagic_3_tempsensor_box.jpg)
 
 #### 4. Flash programming start
 
@@ -145,6 +142,6 @@ Press the 'Start' button on main window of Flash Magic program.
 
 After flash programming and board reset, The MCU is now running the
 program;  
-![](/products/w5500/w5500_evb/figures/downloading_serial_printout_on_terminal_tempsensor.jpg)
+![](/document_framework/img/products/w5500/w5500_evb/figures/downloading_serial_printout_on_terminal_tempsensor.jpg)
 
 -----
