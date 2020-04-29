@@ -839,7 +839,7 @@ AT
 
 ## Description
 
-![](/products/wiz550s2e/wiz550s2epg_kr/configtool/global_config.png)  
+![](/document_framework/img/products/wiz550s2e/wiz550s2epg_kr/configtool/global_config.png)  
 WIZ550S2E Configuration tool is an application program which is based on
 java and can be used in most OS platforms including Windows, MAC OS and
 Linux. Please download .jar file and execute it over Java Virtual
@@ -856,7 +856,7 @@ WIZ550S2E Configuration tool consists four sections
 
 ## Common Configurations
 
-![](/products/wiz550s2e/wiz550s2epg_kr/configtool/common_config.png)
+![](t/document_framework/img/products/wiz550s2e/wiz550s2epg_kr/configtool/common_config.png)
 
 ### Search
 
@@ -873,7 +873,7 @@ value of the module will be displayed. Modify your configurations and
 click “Setting” button to apply your settings. The module will
 re-initialize and save the changed configurations.  
 Users can change the configurations by following the steps below.  
-![](/products/wiz550s2e/wiz550s2epg_kr/configtool/password.png)
+![](/document_framework/img/products/wiz550s2e/wiz550s2epg_kr/configtool/password.png)
 
     1. Select the MAC address of the device which you would like to modify in the “Search Window”
     2. Modify the settings according to your needs
