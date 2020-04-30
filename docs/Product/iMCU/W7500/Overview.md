@@ -60,4 +60,4 @@ The TCP/IP core is a market-proven hardwired TCP/IP stack with an integrated Eth
 - [Power supply](Power_Supply.md)
 - [Booting Sequence](Booting_Sequence.md)
 - [Electrical Characteristics](Electrical_Characteristics.txt)
-- [W7500 Ref. Schematic](/W7500_Ref.Schematic.md)
+- [W7500 Ref. Schematic](W7500_Ref.Schematic.md)
