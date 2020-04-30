@@ -112,4 +112,4 @@ open source hardware products.
 For technical support please post your questions at
 <https://forum.wiznet.io>
 
-![](//mainlogo.jpg)
+![](/document_framework/img/mainlogo.jpg)
