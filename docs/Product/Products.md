@@ -9,8 +9,8 @@ date: 2020-04-16
 
 ## iMCU
 
-  - [W7500](/products/w7500/start)
-  - [W7500P](/products/w7500p/start)
+  - [W7500](/iMCU/W7500/Overview.md)
+  - [W7500P](/iMCU/W7500P/Overview.md)
   - [W7100A (under construction)](/products/W7100A/start)
 
 The **IOP4IoT W7500** chip is the one-chip solution which integrates an
