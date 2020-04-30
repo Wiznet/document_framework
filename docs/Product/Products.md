@@ -94,6 +94,6 @@ embedded application platform especially internet of things.
   - [W5500 Ethernet Shield](docs/Product/Open-Source-Hardware/W5500_Ethernet_Shield.md)
   - [ioShield-A](docs/Product/Open-Source-Hardware/ioShield-A.md)
   - [ioShield-K](docs/Product/Open-Source-Hardware/ioShield-K.md)
-  - [ioShield-L](/osh/ioshield-l/start)
+  - [ioShield-L](docs/Product/Open-Source-Hardware/ioShield-L.md)
 
 -----
