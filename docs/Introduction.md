@@ -9,12 +9,12 @@ date: 2020-04-30
 # WIZnet Document Wiki
 
 This site is an open information collection platform hosting information
-on [WIZnet products](Products.md) and [Open Source Hardware](osh) works.
+on [WIZnet products](Products.md) and [Open Source Hardware](Open_Source_Hardware.md) works.
 Please feel free to improve the contents, contributions from the
 registered account would receive our appreciations.
 
 **Most of the materials of Open Source Hardware are hosted on the
-[WIZnet GitHub site](https://github.com/Wiznet)**
+🌎[WIZnet GitHub site](https://github.com/Wiznet)**
 ![](/document_framework/img/github.png)
 
 -----
@@ -23,17 +23,16 @@ You may find following indexes to start with:
 
 -----
 
-\<WRAP group\> \<WRAP half column\>
+
 
 ### Products
 
-[Products Home](products) - A collection of product information
+[Products Home](Products.md) - A collection of product information
 including datasheets, source files, application notes and related
 application info.
 
-  - **[WIZwiki-W7500](/products/wizwiki_w7500/start)**
-    ![](/etc/star.png)
-  - **[WIZwiki-W7500P](/products/wizwiki_w7500p/start)**
+  - **[WIZwiki-W7500](/document_framework/docs/Product/iMCU/W7500/Overview.md)**
+  - **[WIZwiki-W7500P](/document_framework/docs/Product/iMCU/W7500P/Overview.md)**
     ![](/etc/star.png)
   - [WIZwiki-W7500ECO](/products/wizwiki-w7500eco/start)
   - [WIZwiki-W7500 mbed Starter Kit](/products/wizwiki_mbed_kit/start)
