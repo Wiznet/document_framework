@@ -1,7 +1,7 @@
 ---
 id: introduction
 title: Introduction
-date: 2020-03-
+date: 2020-04-30
 ---
 
 
@@ -9,7 +9,7 @@ date: 2020-03-
 # WIZnet Document Wiki
 
 This site is an open information collection platform hosting information
-on [WIZnet products](products) and [Open Source Hardware](osh) works.
+on [WIZnet products](Products.md) and [Open Source Hardware](osh) works.
 Please feel free to improve the contents, contributions from the
 registered account would receive our appreciations.
 
