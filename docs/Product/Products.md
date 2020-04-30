@@ -88,12 +88,12 @@ embedded application platform especially internet of things.
 
 ## Open Source Hardware
 
-  - [WizArduino M0 ETH](/docs/Product/Open-Source-Hardware/WizArduino_M0_ETH.md)
-  - [WizArduino MEGA WIFI](/docs/Product/Open-Source-Hardware/WizArduino_MEGA_WIFI.md)
-  - [WizFi310 Shield](docs/Product/Open-Source-Hardware/WizFi310_Shield.md)
-  - [W5500 Ethernet Shield](docs/Product/Open-Source-Hardware/W5500_Ethernet_Shield.md)
-  - [ioShield-A](docs/Product/Open-Source-Hardware/ioShield-A.md)
-  - [ioShield-K](docs/Product/Open-Source-Hardware/ioShield-K.md)
-  - [ioShield-L](docs/Product/Open-Source-Hardware/ioShield-L.md)
+  - [WizArduino M0 ETH](Open-Source-Hardware/WizArduino_M0_ETH.md)
+  - [WizArduino MEGA WIFI](Open-Source-Hardware/WizArduino_MEGA_WIFI.md)
+  - [WizFi310 Shield](Open-Source-Hardware/WizFi310_Shield.md)
+  - [W5500 Ethernet Shield](Open-Source-Hardware/W5500_Ethernet_Shield.md)
+  - [ioShield-A](Open-Source-Hardware/ioShield-A.md)
+  - [ioShield-K](Open-Source-Hardware/ioShield-K.md)
+  - [ioShield-L](Open-Source-Hardware/ioShield-L.md)
 
 -----
