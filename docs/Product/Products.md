@@ -52,7 +52,7 @@ embedded application platform especially internet of things.
  * [WIZ750SR-110](S2E-Module/WIZ750SR-1xx-Series/WIZ750SR-110/WIZ750SR-110.md)
  * [WIZ550SR](S2E-Module/WIZ550SR/WIZ550SR.md)
  * [WIZ550S2E](S2E-Module/WIZ550S2E/WIZ550S2E.md)
- * [W7500S2E-R1]()
+ * [W7500S2E-R1](S2E-Module/W7500S2E-R1/W7500S2E-R1.md)
  * [W5500S2E-S1]()
  * [W5500S2E-Z1]()
  * [WIZ107SR (under construction)]() 
