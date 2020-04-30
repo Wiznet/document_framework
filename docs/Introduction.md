@@ -31,9 +31,9 @@ You may find following indexes to start with:
 including datasheets, source files, application notes and related
 application info.
 
-  - **[WIZwiki-W7500](/document_framework/docs/Product/iMCU/W7500/Overview.md)**
+  - **[WIZwiki-W7500](/document_framework/docs/Product/iMCU/W7500/Overview.md)**![](/document_framework/img/star.png)
   - **[WIZwiki-W7500P](/document_framework/docs/Product/iMCU/W7500P/Overview.md)**
-    ![](/etc/star.png)
+    ![](/document_framework/img/star.png)
   - [WIZwiki-W7500ECO](/products/wizwiki-w7500eco/start)
   - [WIZwiki-W7500 mbed Starter Kit](/products/wizwiki_mbed_kit/start)
   - [W7500](/products/w7500/start)
@@ -51,8 +51,7 @@ application info.
   - **[WizFi360](/products/WizFi360/start): Wi-Fi Module(Release
     1/8/19)** ![](/etc/star.png)
 
-\</WRAP\>
-\<WRAP half column\>
+
 
 ### Open Source Hardware
 
@@ -68,9 +67,6 @@ open source hardware products.
   - [EnergyMicro](/osh/energymicro/start)
   - [WIZnet Eagle CAD Library](/design_guide/hardware/eaglecadlib/start)
 
-\</WRAP\> \</WRAP\>
-
-\<WRAP group\> \<WRAP half column\>
 
 ### VAR Products
 
@@ -79,17 +75,13 @@ open source hardware products.
   - [WiFi Shield](/oshw_using_wiznet/wifi)
   - [Third-party](/oshw_using_wiznet/var_products)
 
-\</WRAP\>
 
-\<WRAP half column\>
+
 
 ### Application References
 
   - [BLE to Ethernet](/oshw_using_wiznet/bletoethernet)
 
-\</WRAP\> \</WRAP\>
-
-\<WRAP group\> \<WRAP half column\>
 
 ### External Links
 
@@ -98,11 +90,6 @@ open source hardware products.
   - [WIZnet Museum](http://wiznetmuseum.com/): Collection of IoTs
   - [WIZnet Github](https://github.com/Wiznet): Open source repository
 
-\</WRAP\>
-
-\<WRAP half column\>
-
-\</WRAP\> \</WRAP\>
 
 -----
 
