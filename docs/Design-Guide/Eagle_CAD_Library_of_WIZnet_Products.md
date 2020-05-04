@@ -4,11 +4,6 @@ title: Eagle CAD Library of WIZnet Products
 date: 2020-04-03
 ---
 
-
-## Content
-
-# WIZnet Eagle CAD Library
-
 -----
 
   - ![W5500](/document_framework/img/design_guide/w5500.zip)
