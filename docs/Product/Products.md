@@ -4,8 +4,6 @@ title: Products
 date: 2020-04-30
 ---
 
-# Products
-
 ## iMCU
 
   - [W7500](iMCU/W7500/Overview.md)
