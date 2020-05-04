@@ -16,7 +16,7 @@ version:5.14.0.0 compiler.
 
 ## Download MDK
 
-Connect to [keil.com\](<http://www.keil.com/>). And then click the
+Connect to [keil.com](<http://www.keil.com/>). And then click the
 **Downloads** button on the top.
 
 ![](/document_framework/img/products/w7500/overview/keil_1.jpg)
@@ -48,7 +48,7 @@ After installation is completed, you need to install the MDK version 5 -
 legacy support because MDK-Lite version does not support W7500 example
 project devices.
 
-[Download link](<http://www2.keil.com/mdk5/legacy/)
+[Download link](<http://www2.keil.com/mdk5/legacy)
 
 Click **Download Legacy Support for Cortex-M Devices** button.
 
