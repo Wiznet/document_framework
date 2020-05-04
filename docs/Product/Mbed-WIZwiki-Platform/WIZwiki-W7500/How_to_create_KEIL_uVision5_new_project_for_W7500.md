@@ -81,29 +81,29 @@ And User folder has to include main.c and so on.
 
 Let's make main.c
 
-![](http://wizwiki.net/wiki/lib/exe/fetch.php?media=products:w7500:documents:appnote:keil15.jpg)
+![](/document_framework/img/products/w7500/overview/keil15.jpg)
 
 Click to Add New Item to the Group.
 
-![](http://wizwiki.net/wiki/lib/exe/fetch.php?media=products:w7500:documents:appnote:keil16.jpg)
+![](/document_framework/img/products/w7500/overview/keil16.jpg)
 
 Select C file and Name it with 'main' and click 'Add'.
 
-![](http://wizwiki.net/wiki/lib/exe/fetch.php?media=products:w7500:documents:appnote:keil17.jpg)
+![](/document_framework/img/products/w7500/overview/keil17.jpg)
 
 Include **w7500x.h** header but... you should show red X because you did not path.
 
 ### STEP 6. setting for include paths
 
-![](http://wizwiki.net/wiki/lib/exe/fetch.php?media=products:w7500:documents:appnote:keil18.jpg)
+![](/document_framework/img/products/w7500/overview/keil18.jpg)
 
 Click to Options for Target...
 
-![](http://wizwiki.net/wiki/lib/exe/fetch.php?media=products:w7500:documents:appnote:keil19.jpg)
+![](/document_framework/img/products/w7500/overview/keil19.jpg)
 
 Select 'Include Paths' in C\C++ tap and click the folder icon and click to ... icon
 
-![](http://wizwiki.net/wiki/lib/exe/fetch.php?media=products:w7500:documents:appnote:keil20.jpg)
+![](/document_framework/img/products/w7500/overview/keil20.jpg)
 
 ![](http://wizwiki.net/wiki/lib/exe/fetch.php?media=products:w7500:documents:appnote:keil+.jpg)
 
@@ -113,7 +113,7 @@ Set 'include path' with
    **D:\workspace\project\Libraries\W7500x_stdPeriph_Driver\inc**
    **D:\workspace\project\Libraries\CMSIS\Include**
 
-![](http://wizwiki.net/wiki/lib/exe/fetch.php?media=products:w7500:documents:appnote:keil21.jpg)
+![](/document_framework/img/products/w7500/overview/keil21.jpg)
 
 
 
