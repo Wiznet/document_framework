@@ -58,7 +58,7 @@ application info.
 open source hardware products.
 
   - **[W5500 Ethernet Shield](/osh/w5500_ethernet_shield/start)**
-    ![](/etc/star.png)
+    ![](/document_framework/img/star.png)
   - [ioShield-A](/osh/ioshield-a/start) for Arduino
   - [ioShield-K](/osh/ioshield-k/start) for Gadget Renesas KURUMI
   - [ioShield-L](/osh/ioshield-l/start) for TI’s MSP430 LaunchPad
@@ -84,10 +84,10 @@ open source hardware products.
 
 ### External Links
 
-  - [WIZnet Official Website](http://www.wiznet.io/)
-  - [WIZnet Developer Forum](http://forum.wiznet.io/)
-  - [WIZnet Museum](http://wiznetmuseum.com/): Collection of IoTs
-  - [WIZnet Github](https://github.com/Wiznet): Open source repository
+  - 🌎[WIZnet Official Website](http://www.wiznet.io/)
+  - 🌎[WIZnet Developer Forum](http://forum.wiznet.io/)
+  - 🌎[WIZnet Museum](http://wiznetmuseum.com/): Collection of IoTs
+  - 🌎[WIZnet Github](https://github.com/Wiznet): Open source repository
 
 
 -----
