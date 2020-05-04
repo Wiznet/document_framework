@@ -48,7 +48,7 @@ After installation is completed, you need to install the MDK version 5 -
 legacy support because MDK-Lite version does not support W7500 example
 project devices.
 
-[Download link](<http://www2.keil.com/mdk5/legacy)
+[Download link](http://www2.keil.com/mdk5/legacy)
 
 Click **Download Legacy Support for Cortex-M Devices** button.
 
