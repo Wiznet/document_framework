@@ -1,12 +1,8 @@
 ---
 id: mbed_wizwiki_platform
-title: Mbed WIZwiki Platform
+title: Mbed WIZwiki Platform Board
 date: 2020-04-07
 ---
-
-
-## Content
-# Mbed WIZwiki Platform Board
 
 **WIZnet is an official arm Mbed partner**
 
