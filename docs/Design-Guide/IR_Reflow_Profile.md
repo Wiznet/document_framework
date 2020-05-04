@@ -4,10 +4,6 @@ title: IR Reflow Profile
 date: 2020-04-02
 ---
 
-
-## Content
-# IR Reflow Profile
-
 The reflow profile
 
 -----
