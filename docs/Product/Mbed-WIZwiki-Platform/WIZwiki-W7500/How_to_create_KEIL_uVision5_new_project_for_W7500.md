@@ -119,63 +119,63 @@ Set 'include path' with
 
 ### STEP 7. Memory setting!
 
-![](http://wizwiki.net/wiki/lib/exe/fetch.php?media=products:w7500:documents:appnote:keil18.jpg)
+![](/document_framework/img/products/w7500/overview/keil18.jpg)
 
 Click "Options for Target..."
 
-![](http://wizwiki.net/wiki/lib/exe/fetch.php?media=products:w7500:documents:appnote:keil22-1.jpg)
+![](/document_framework/img/products/w7500/overview/keil22-1.jpg)
 ![](http://wizwiki.net/wiki/lib/exe/fetch.php?media=products:w7500:documents:appnote:direction_down.jpg)
-![](http://wizwiki.net/wiki/lib/exe/fetch.php?media=products:w7500:documents:appnote:keil22-2.jpg)
+![](/document_framework/img/products/w7500/overview/keil22-2.jpg)
 
 Click "Target" tap and set with the values which are shown in above pictures
 
-![](http://wizwiki.net/wiki/lib/exe/fetch.php?media=products:w7500:documents:appnote:keil23.jpg)
+![](/document_framework/img/products/w7500/overview/keil23.jpg)
 
 And click "Linker" tap and check [Use Memory Layout from Target Dialog]
 
 ### STEP 8. Selection of Peripherals to use 
 
-![](http://wizwiki.net/wiki/lib/exe/fetch.php?media=products:w7500:documents:appnote:keil18.jpg)
+![](/document_framework/img/products/w7500/overview/keil18.jpg)
 
 Click "Options for Target..."
 
-![](http://wizwiki.net/wiki/lib/exe/fetch.php?media=products:w7500:documents:appnote:keil24.jpg)
+![](/document_framework/img/products/w7500/overview/keil24.jpg)
 
 Click "C/C++" tap and add **CORTEX_M0 USE_STDPERIPH_DRIVER** in "Define" field.
 
 ### STEP 9. Setting user program to use with the created bin file
 
-![](http://wizwiki.net/wiki/lib/exe/fetch.php?media=products:w7500:documents:appnote:keil18.jpg)
+![](/document_framework/img/products/w7500/overview/keil18.jpg)
 
 Click "Options for Target..."
 
-![](http://wizwiki.net/wiki/lib/exe/fetch.php?media=products:w7500:documents:appnote:keil25.jpg)
+![](/document_framework/img/products/w7500/overview/keil25.jpg)
 
 Click "User" tap and check "Run #1" in "Run User Programs After Build/Rebuild" section  
 and write this command **[fromelf --bin -o "$L@L.bin" "#L"]** in order CMSIS DAP to use the bin file.
 
 ### STEP 10. Compile the example
 
-![](http://wizwiki.net/wiki/lib/exe/fetch.php?media=products:w7500:documents:appnote:keil26.jpg)
+![](/document_framework/img/products/w7500/overview/keil26.jpg)
 
 Let's compile the example code in **D:\workspace\project\Projects\Peripheral_Examples\GPIO\Blink_LED**
 This fold consists of **main.c**,  **W7500x_conf.h**, **W7500x_it.c** and **W7500x_it.h** and you should copy these four files to **D:\workspace\project\W7500_Test**(my project folder)
 
-![](http://wizwiki.net/wiki/lib/exe/fetch.php?media=products:w7500:documents:appnote:keil27.jpg)
+![](/document_framework/img/products/w7500/overview/keil27.jpg)
 
 And copy W7500x_gpio.c into W7500_Periphs folder in order to use gpio peripheral 
 
-![](http://wizwiki.net/wiki/lib/exe/fetch.php?media=products:w7500:documents:appnote:keil28.jpg)
+![](/document_framework/img/products/w7500/overview/keil28.jpg)
 
 And copy **W7500x_it.c** into User folder for interrupt handlers
 
 Add "Include Path" for **W7500x_conf.h** and **W7500x_it.h**
 
-![](http://wizwiki.net/wiki/lib/exe/fetch.php?media=products:w7500:documents:appnote:keil18.jpg)
+![](/document_framework/img/products/w7500/overview/keil18.jpg)
 
 Click "Options for Target..."
 
-![](http://wizwiki.net/wiki/lib/exe/fetch.php?media=products:w7500:documents:appnote:keil19.jpg)
+![](/document_framework/img/products/w7500/overview/keil19.jpg)
 
 Click "Include Paths" in C\C++ tap, "folder icon and ... icon
 
@@ -183,16 +183,16 @@ Click "Include Paths" in C\C++ tap, "folder icon and ... icon
 
 Set "include path" with **D:\workspace\project\W7500_Test**
 
-![](http://wizwiki.net/wiki/lib/exe/fetch.php?media=products:w7500:documents:appnote:keil30.jpg)
+![](/document_framework/img/products/w7500/overview/keil30.jpg)
 
 Now compile this project!! by pressing **F7** or clicking **Build icon**
 
-![](http://wizwiki.net/wiki/lib/exe/fetch.php?media=products:w7500:documents:appnote:keil31.jpg)
+![](/document_framework/img/products/w7500/overview/keil31.jpg)
 
 After compile, **W7500_Test.bin** file will be created.
 And then WIZwiki-W7500 will upload this bin file on itself via the User program you registered.
 
-![](http://wizwiki.net/wiki/lib/exe/fetch.php?media=products:w7500:documents:appnote:pdf.jpg)
+![](/document_framework/img/products/w7500/overview/pdf.jpg)
 
 If you want to convert this document to the PDF file? Click to [Export to PDF]
 
