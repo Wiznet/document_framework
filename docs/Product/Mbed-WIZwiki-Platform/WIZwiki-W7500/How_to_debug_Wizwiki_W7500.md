@@ -12,24 +12,24 @@ ULINK Debugger and CMSIS-DAP Debugger.
 ### Download
 
   * W7500 128KB Flash project:
-[Download\](<http://wizwiki.net/wiki/lib/exe/fetch.php?media=products:wizwiki_w7500:start_getting_started:w7500_128KB_flash.zip>)
+[Download\](/document_framework/img/products/w7500/overview/w7500_128kb_flash.zip)
   * W7500 128KB Flash file:
-\[Download\](<http://wizwiki.net/wiki/lib/exe/fetch.php?media=products:wizwiki_w7500:start_getting_started:w7500_128_flm.zip>)
+\[Download\]t/document_framework/img/products/w7500/overview/w7500_128_flm.zip)
 
 ### To follow
 
 1\. Download the attached File and unzip. Then you can find one folder
 and one file in it. In 'W7500\_flash\_algo\_mdk' folder, open the
 project and Build it.
-![](<http://wizwiki.net/wiki/lib/exe/fetch.php?media=products:wizwiki_w7500:start_getting_started:flash_set.jpg>)
+![](/document_framework/img/products/w7500/overview/flash_set.jpg)
 
 2\. After build, you can check the generated files in project folder.
 Back to 'W7500\_128\_Flash' folder and copy 'W7500\_128\_FLM' flash
 algorithm file into the Flash folder in Keil.
 **C:\\Keil\_v5\\ARM\\Flash**
-![](<http://wizwiki.net/wiki/lib/exe/fetch.php?media=products:wizwiki_w7500:start_getting_started:set_flash_algo2.png>)
+![](/document_framework/img/products/w7500/overview/set_flash_algo2.png)
 
-\---
+---
 
 ## Using ULINK Debugger
 
@@ -43,29 +43,29 @@ power to the board.
 Sel Jumper with three caps above it. Then open the J3, J4, J5 jumper cap
 in Debugger Sel Jumper. Now, your WIZwiki-W7500 is ready to connect the
 SWD
-debugger.![](<http://wizwiki.net/wiki/lib/exe/fetch.php?media=products:wizwiki_w7500:start_getting_started:swd_header_debugger_jumper.png>)
+debugger.![](/document_framework/img/products/w7500/overview/swd_header_debugger_jumper.png)
 
 2\. Connect ULINK debugger and SWD Header. At this moment, be careful of
 matching pin number.
 
 1\. Click 'Flash' in top menu and open 'Configure Flash Tools'. Set
 'Debug' on top menu with choosing 'ULINK2/ME Cortex Debugger'.
-![](<http://wizwiki.net/wiki/lib/exe/fetch.php?media=products:wizwiki_w7500:start_getting_started:ulink_set1.jpg>)
+![](/document_framework/img/products/w7500/overview/ulink_set1.jpg)
 
 2\. Click 'Utilities' next Debug and choose 'CMSIS-DAP Debugger'. Open
 'Setting' menu and unchecked 'SWJ' in Debug on top menu. Then confirm
 'ARM CoreSight SW-DP' set on SW Device.
-![](<http://wizwiki.net/wiki/lib/exe/fetch.php?media=products:wizwiki_w7500:start_getting_started:ulink_set2.jpg>)
+![](/document_framework/img/products/w7500/overview/ulink_set2.jpg)
 3\. Click 'Flash Download'. Set 'Erase Full Chip' in Download Function,
 type '0x20000000 to 0x4000' in RAM for Algorithm and Add
 'W7500\_128KB\_FLASH' on Programming Algorithm. After comparing with the
 figure below, click 'OK'.
-![](<http://wizwiki.net/wiki/lib/exe/fetch.php?media=products:wizwiki_w7500:start_getting_started:ulink_set3-1.jpg>)
+![](/document_framework/img/products/w7500/overview/ulink_set3-1.jpg)
 
 4\. Download the firmware into WIZwiki-W7500. You can check complete
 message and the ULINK Debugger at the bottom. Chick the 'Debug icon' or
 **Ctrl+F5** to debug.
-![](<http://wizwiki.net/wiki/lib/exe/fetch.php?media=products:wizwiki_w7500:start_getting_started:ulink_set4.jpg>)
+![](/document_framework/img/products/w7500/overview/ulink_set4.jpg)
 
 ---
 
@@ -86,7 +86,7 @@ attention to the following settings.
 
 \- For general configuration, follow the previous instructions.
 
-![\](<http://wizwiki.net/wiki/lib/exe/fetch.php?media=:products:wizwiki_w7500:start_getting_started:cmsis_debug_multi_project_1.png>)
+![\](/document_framework/img/products/w7500/overview/cmsis_debug_multi_project_1.png)
 
 1\. Click 'Flash' in top menu and open 'Configure Flash Tools'.
 
@@ -108,7 +108,7 @@ menu.
 
 
 
-![](<http://wizwiki.net/wiki/lib/exe/fetch.php?media=:products:wizwiki_w7500:start_getting_started:cmsis_debug_target_info.png>)
+![](/document_framework/img/products/w7500/overview/cmsis_debug_target_info.png)
 
 The remaining steps can be followed by the previous description.
 
