@@ -4,10 +4,6 @@ title: Ethernet Shield
 date: 2020-04-02
 ---
 
-
-## Content
-# Ethernet Shield
-
 There are many resource Products using WIZnet Ethernet chip.
 
 ## Arduino Compatible
