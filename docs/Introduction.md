@@ -27,19 +27,19 @@ You may find following indexes to start with:
 
 ### Products
 
-[Products Home](/docs/Product/Products.md) - A collection of product information
+[Products Home](Product/Products.md) - A collection of product information
 including datasheets, source files, application notes and related
 application info.
 
-  - **[WIZwiki-W7500](/docs/Product/iMCU/W7500/Overview.md)**![](/document_framework/img/star.png)
-  - **[WIZwiki-W7500P](/docs/Product/iMCU/W7500P/Overview.md)**
+  - **[WIZwiki-W7500](Product/iMCU/W7500/Overview.md)**![](/document_framework/img/star.png)
+  - **[WIZwiki-W7500P](Product/iMCU/W7500P/Overview.md)**
     ![](/document_framework/img/star.png)
-  - [WIZwiki-W7500ECO](/docs/Product/Mbed-WIZwiki-Platform/WIZwiki-W7500ECO/Overview.md)
-  - [WIZwiki-W7500 mbed Starter Kit](/docs/Product/Mbed-WIZwiki-Platform/WIZwiki-W7500-Mbed-Starter-Kit/WIZwiki-W7500_Mbed_Starter_Kit.md)
-  - [W7500](/docs/Product/iMCU/W7500/Overview.md)
-  - [W7500P](/docs/Product/iMCU/W7500P/Overview.md)
-  - **[W6100](/docs/Product/iEthernet/W6100/Overview.md): Hardwired TCP/IP Chip(IPv4/6 Dual Stack)** ![](/document_framework/img/star.png) 
-  - **[W5100S](/docs/Product/iEthernet/W5100S/Overview.md): Hardwired TCP/IP Chip**
+  - [WIZwiki-W7500ECO](Product/Mbed-WIZwiki-Platform/WIZwiki-W7500ECO/Overview.md)
+  - [WIZwiki-W7500 mbed Starter Kit](Product/Mbed-WIZwiki-Platform/WIZwiki-W7500-Mbed-Starter-Kit/WIZwiki-W7500_Mbed_Starter_Kit.md)
+  - [W7500](Product/iMCU/W7500/Overview.md)
+  - [W7500P](Product/iMCU/W7500P/Overview.md)
+  - **[W6100](Product/iEthernet/W6100/Overview.md): Hardwired TCP/IP Chip(IPv4/6 Dual Stack)** ![](/document_framework/img/star.png) 
+  - **[W5100S](Product/iEthernet/W5100S/Overview.md): Hardwired TCP/IP Chip**
     ![](/document_framework/img/star.png) 
   - [W5500](/products/w5500/start): Hardwired TCP/IP Chip
   - [W5500-EVB](/products/w5500/w5500_evb/start): W5500 Evaluation Board
