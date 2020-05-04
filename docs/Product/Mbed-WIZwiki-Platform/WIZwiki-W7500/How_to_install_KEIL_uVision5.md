@@ -19,28 +19,28 @@ version:5.14.0.0 compiler.
 Connect to [keil.com\](<http://www.keil.com/>). And then click the
 **Downloads** button on the top.
 
-![](<http://wizwiki.net/wiki/lib/exe/fetch.php?media=products:w7500:documents:appnote:keil_1.jpg>)
+![](/document_framework/img/products/w7500/overview/keil_1.jpg)
 
 And then click **MDK-ARM v5**.
 
-![](<http://wizwiki.net/wiki/lib/exe/fetch.php?media=products:w7500:documents:appnote:keil_2.jpg>)
+![](/document_framework/img/products/w7500/overview/keil_2.jpg)
 
 Free version of MDK is required some user information:name, e-mail,
 company and etc. After fill the blanks, and then click 'Submit' button
 at the bottom.
 
-![](<http://wizwiki.net/wiki/lib/exe/fetch.php?media=products:w7500:documents:appnote:keil_5.jpg>)
+![](/document_framework/img/products/w7500/overview/keil_5.jpg)
 
 If you click **MDK514.EXE**, downloading has started.
 
-![](<http://wizwiki.net/wiki/lib/exe/fetch.php?media=products:w7500:documents:appnote:keil_3.jpg>)
+![](/document_framework/img/products/w7500/overview/keil_3.jpg)
 
 ## Install uVision MDK-Lite
 
 After downloading is completed, double click the mdk514.exe file and
 then setup process will be started.
 
-![\](<http://wizwiki.net/wiki/lib/exe/fetch.php?media=products:w7500:documents:appnote:keil_4.jpg>)
+![](/document_framework/img/products/w7500/overview/keil_4.jpg)
 
 ## Install MDK Version 5 - Legacy Support
 
@@ -52,10 +52,10 @@ project devices.
 
 Click **Download Legacy Support for Cortex-M Devices** button.
 
-![](<http://wizwiki.net/wiki/lib/exe/fetch.php?media=products:w7500:documents:appnote:keil_6.jpg>)
+![](/document_framework/img/products/w7500/overview/keil_6.jpg)
 
 After downloading is completed, double click the **MDKCM514.EXE** file
 nad then setup process will be started.
 
-![](<http://wizwiki.net/wiki/lib/exe/fetch.php?media=products:w7500:documents:appnote:keil_7.jpg>)
+![](/document_framework/img/products/w7500/overview/keil_7.jpg)
 
