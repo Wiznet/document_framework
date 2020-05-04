@@ -14,7 +14,7 @@ module.exports = {
         src: 'img/wiznet-logo.svg',
       },
       links: [
-        {to: 'docs/introduction', label: 'Docs', position: 'left'},
+        {to: 'docs/introduction', label: 'Documentation', position: 'left'},
         {to: 'blog', label: 'Blog', position: 'left'},
         {
           href: 'https://github.com/facebook/docusaurus',
@@ -27,7 +27,7 @@ module.exports = {
       style: 'dark',
       links: [
         {
-          title: 'Documents',
+          title: 'Docs',
           items: [
             {
               label: 'Style Guide',
