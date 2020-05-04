@@ -4,10 +4,6 @@ title: Design Guide
 date: 2020-04-03
 ---
 
-
-## Content
-# Design Guide
-
 -----
 
 ## Overview
