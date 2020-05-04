@@ -27,7 +27,7 @@ module.exports = {
       style: 'dark',
       links: [
         {
-          title: 'Docs',
+          title: 'Documents',
           items: [
             {
               label: 'Style Guide',
