@@ -4,16 +4,6 @@ title: Tutorials(Eng)
 date: 2020-04-13
 ---
 
-
-## Content
----
-id: tutorials_kor
-title: Tutorials(Kor)
-date: 2020-04-13
----
-
-
-## Content
 ## WIZ550web Tutorials
 ### Overview
 I/O control of WIZ550web performs I/O control and monitoring using CGI. The web page is configured to obtain the status value (GET) of the web server or to transfer the changed value of the web page to the web server (POST) by utilizing the 🌎[HTTP GET / POST method](). In order to perform this operation, the HTML/JavaScript(AJAX) of the web page and the CGI handler of the web server must be implemented in a consistent manner. A description of CGI is provided in '[Getting Started Guide:CGI for WIZ550web]()'.
