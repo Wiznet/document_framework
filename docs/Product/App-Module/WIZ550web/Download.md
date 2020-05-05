@@ -4,8 +4,6 @@ title: Download
 date: 2020-04-13
 ---
 
-
-## Content
 # WIZ550web H/W Rev1.1/1.2 Download
 
 -----
