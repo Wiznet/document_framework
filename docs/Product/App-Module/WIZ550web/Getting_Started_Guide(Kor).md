@@ -4,8 +4,6 @@ title: Getting Started Guide(Kor)
 date: 2020-04-13
 ---
 
-
-## Content
 # Getting Started Guide with WIZ550web
 
 WIZ550web은 WIZnet W5500 Hardwired TCP/IP 칩을 기반으로 한 임베디드 웹 서버 모듈로써, 웹을 통해
