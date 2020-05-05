@@ -1,6 +1,6 @@
 ---
 id: app_module
-title: App Module
+title: Application Module
 date: 2020-04-13
 ---
 
