@@ -4,10 +4,6 @@ title: W5500 Ethernet Shield
 date: 2020-04-03
 ---
 
-
-## Content
-## W5500 Ethernet Shield
-
 ### Overview
 
   - **ARM mbed compatible** operation
