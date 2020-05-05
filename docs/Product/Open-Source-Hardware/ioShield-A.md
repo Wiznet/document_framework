@@ -4,8 +4,6 @@ title: ioShield-A
 date: 2020-04-03
 ---
 
-
-## Content
 ## Overview
 
 ![](/osh/ioshield-a/io_s_a.png) ioShield-A allows an Arduino board to
