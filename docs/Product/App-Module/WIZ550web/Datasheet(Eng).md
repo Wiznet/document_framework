@@ -4,8 +4,6 @@ title: Datasheet(Eng)
 date: 2020-04-13
 ---
 
-
-## Content
 # Overview
 
 This page provides information about the hardware of WIZ550web and its
