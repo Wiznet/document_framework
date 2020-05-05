@@ -4,10 +4,6 @@ title: W5100S (MKR-)Ethernet Shield
 date: 2020-04-03
 ---
 
-
-## Content
-## W5100S (MKR-)Ethernet Shield
-
 ### Overview
 
   - **ARM mbed compatible** operation
