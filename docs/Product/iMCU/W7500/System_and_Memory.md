@@ -4,7 +4,7 @@ title: System and Memory
 date: 2020-04-03
 ---
 
-## Content
+
 
 # System and Memory overview
 
