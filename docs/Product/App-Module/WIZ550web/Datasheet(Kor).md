@@ -4,8 +4,6 @@ title: Datasheet(Kor)
 date: 2020-04-13
 ---
 
-
-## Content
 # Overview
 
 본 페이지는 WIZ550web와 WIZ550web Baseboard 에 대한 하드웨어 관련 정보를 제공하기 위한 것으로
