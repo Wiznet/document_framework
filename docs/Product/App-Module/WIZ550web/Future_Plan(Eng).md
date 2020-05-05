@@ -4,8 +4,6 @@ title: Future Plan(Eng)
 date: 2020-04-13
 ---
 
-
-## Content
 # Future Plan
 
 <table>
