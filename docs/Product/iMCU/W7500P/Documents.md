@@ -18,7 +18,7 @@ The **Getting Started** user's guide describes the installation of MDK,How to ma
 
 ### Data Sheet
 
-![W7500x Datasheet v1.1.0 - English](/document_framework/img/products/w7500/w7500x_ds_v110.pdf)
+[W7500x Datasheet v1.1.0 - English](document_framework/img/products/w7500/w7500x_ds_v110.pdf)
 
 
 
@@ -139,8 +139,7 @@ W7500P Internal PHY Datasheet
 
 ![Limitation Note ARP problem in the NLB environment V1.0]()
 
-ARP problem in the NLB environment V1.0\]\] \</WRAP\>
-
+ARP problem in the NLB environment V1.0
 | Version | Date    | Decription       |
 | ------- | ------- | ---------------- |
 | V 1.0   | 12MAR18 | Initial Document |
