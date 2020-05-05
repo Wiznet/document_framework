@@ -28,7 +28,7 @@ The **Getting Started** user's guide describes the installation of MDK,How to ma
 
 
 
-\++++ Old Datasheet History |
+**Old Datasheet History**
 
 | Version | Date      | Decription                                                                                                               |
 | ------- | --------- | ------------------------------------------------------------------------------------------------------------------------ |
@@ -61,7 +61,7 @@ The **Getting Started** user's guide describes the installation of MDK,How to ma
 
 
 
- ++++ Old Reference Manual History |
+ **Old Reference Manual History**
 
 | Version | Date      | Decription                                                                   |
 | ------- | --------- | ---------------------------------------------------------------------------- |
@@ -91,9 +91,7 @@ The **Getting Started** user's guide describes the installation of MDK,How to ma
   - ![How to Access W7500x PHY Register - English](/document_framework/img/products/w7500p/ref_sch/how_to_access_phy_application_note_v100.pdf)
   - ![W7500P Internal PHY Datasheet - English](http://www.bdtic.com/DataSheet/ICplus/IP101G_DS_R01_20121224.pdf)
 
-\</WRAP\>
-
-\<WRAP half column\> How to Access W7500x PHY Register
+ How to Access W7500x PHY Register
 
 | Version | Date     | Decription      |
 | ------- | -------- | --------------- |
@@ -105,13 +103,7 @@ W7500P Internal PHY Datasheet
 | ------- | -------- | --------------- |
 | V1.0.0  | 7AUG2018 | Initial Release |
 
-\</WRAP\> \</WRAP\>
-
------
-
-\<WRAP group\>
-
-\<WRAP half column\>
+---
 
 ### Errata Sheet
 - ![W7500x Erratasheet v1.2.0 - English](/document_framework/img/products/w7500/w7500x_erratasheet_v120e.pdf)
@@ -119,7 +111,7 @@ W7500P Internal PHY Datasheet
 
 
 
-\<WRAP half column\>
+
 
 | Version | Date      | Decription                            |
 | ------- | --------- | ------------------------------------- |
@@ -127,13 +119,10 @@ W7500P Internal PHY Datasheet
 | :::     | :::       | Erratum 4 – Two Image Banks Failure   |
 | :::     | :::       | Erratum 5 – Cold Booting Failure      |
 
-\</WRAP\> \</WRAP\> \<WRAP group\>
 
-\<WRAP half column\>
 
-\<wrap classes \#id width :language\> \</wrap\>
 
-\</WRAP\> ++++ Old Errata Sheet Histroy |
+**Old Errata Sheet Histroy**
 
 | Version | Date      | Decription                                 |
 | ------- | --------- | ------------------------------------------ |
@@ -141,27 +130,23 @@ W7500P Internal PHY Datasheet
 | V1.0.2  | 8DEC2016  | Correct SCL speed                          |
 | V1.0.3  | 18JUN2018 | erratum 2 – W7500P Transmission Delay Case |
 
-\++++
 
-\</WRAP\>
 
 -----
 
-\<WRAP group\>
 
-\<WRAP half column\>
+
 
 ### Limitation Note ARP problem in the NLB environment
 
 ![Limitation Note ARP problem in the NLB environment V1.0]()
 
-ARP problem in the NLB environment V1.0\]\] \</WRAP\>
+ARP problem in the NLB environment V1.0
 
 | Version | Date    | Decription       |
 | ------- | ------- | ---------------- |
 | V 1.0   | 12MAR18 | Initial Document |
 
-\</WRAP\>
 
 -----
 
