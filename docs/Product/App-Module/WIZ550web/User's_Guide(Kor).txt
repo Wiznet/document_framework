@@ -4,8 +4,6 @@ title: User's Guide(Kor)
 date: 2020-04-13
 ---
 
-
-## Content
 ## WIZ550WEB Users' Guide
 ### Overview
 WIZ-Embedded WebServer는 소형의 마이컴으로 동작하는 Web Server로써 Web Browser상 에서 디지털 출력포트를 제어하거나 디지털 입력 및 아날로그 입력 값을 모니터링 할 수 있는 Embedded Web Server Application Board입니다. Web Browser에서 보드로 접속하였을 때 출력되는 웹페이지는 보드에 장착된 micro SD slot의 메모리 카드에 저장되어 있으며 네트웍을 통해 디바이스를 컨트롤 할 수 있습니다.
