@@ -4,8 +4,6 @@ title: Tutorials(Kor)
 date: 2020-04-13
 ---
 
-
-## Content
 ## WIZ550web Tutorials
 ### Overview
 WIZ550web의 I/O 제어는 CGI를 이용하여 I/O의 제어와 모니터링을 수행한다. 웹 페이지는 🌎[HTTP GET / POST method]()를 활용하여 웹 서버의 상태 값을 얻거나(GET) 웹 페이지의 변경된 값을 웹 서버로 전달(POST)하도록 구성되어 있으며, 이러한 동작을 수행하기 위하여 웹 페이지의 HTML / JavaScript(AJAX)와 웹 서버의 CGI handler가 일치하도록 구현되어 있어야 한다. CGI에 관한 설명은 ['Getting Started Guide: WIZ550web의 CGI']()에 설명되어 있다.
