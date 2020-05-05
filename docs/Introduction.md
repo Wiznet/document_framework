@@ -4,8 +4,6 @@ title: Introduction
 date: 2020-04-30
 ---
 
-
-## Content
 # WIZnet Document Wiki
 
 This site is an open information collection platform hosting information
