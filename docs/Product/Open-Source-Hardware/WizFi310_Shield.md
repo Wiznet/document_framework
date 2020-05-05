@@ -4,8 +4,6 @@ title: WizFi310 Shield
 date: 2020-04-03
 ---
 
-
-## Content
 # WizFi310 Shield
 
 ![WizFi310 Shield](/document_framework/img/osh/wizfi310_shield/wizfi310_shield_1.png)
