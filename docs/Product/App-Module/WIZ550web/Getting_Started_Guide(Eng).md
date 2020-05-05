@@ -4,8 +4,6 @@ title: Getting Started Guide(Eng)
 date: 2020-04-13
 ---
 
-
-## Content
 # Getting Started Guide with WIZ550web
 
 WIZ550web is an embedded Web server module based on WIZnet’s W5500
