@@ -5,7 +5,7 @@ date: 2020-04-03
 ---
 
 
-## Content
+
 
 ## Pin Layout
 ### W7500 Pin Layout
@@ -13,10 +13,11 @@ date: 2020-04-03
 ![pin layout](/document_framework/img/products/w7500/2_w7500_pin_layout.png)
 ## Pin Description
 
-|     |        |      |             |           |             |           |
-| --- | ------ | ---- | ----------- | --------- | ----------- | --------- |
+
+
 |     |        |      | Description |           |             |           |
-| Pin | Symbol | Type | Main        | 2nd       | 3rd         | 4th       |
+|-----|--------|------|-------------|-----------|-------------|-----------|
+| **Pin**|**Symbol**|**Type**|**Main**|**2nd**| **3rd**  | **4th** |
 | 1   | PC\_08 | AIO  | PWM0 / CAP0 | GPIO3\_8  | SCL0        | AIN7      |
 | 2   | PC\_09 | AIO  | PWM1 / CAP1 | GPIO3\_9  | SDA0        | AIN6      |
 | 3   | PC\_10 | AIO  | U\_TXD2     | GPIO3\_10 | PWM2 / CAP2 | AIN5      |
