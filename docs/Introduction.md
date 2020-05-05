@@ -47,7 +47,7 @@ application info.
   - [WIZ550S2E](products/S2E-Module/wiz550s2e/start): Serial to Ethernet
   - [WIZ550web](products/App-Module/wiz550web/start): Embedded Web Server
   - [WizFi250](products/Wi-Fi_Module/WizFi250/start): Wi-Fi Module
-  - **[WizFi360](products/WizFi360/start): Wi-Fi Module(Release 1/8/19)** ![](/document_framework/img/star.png)
+  - **[WizFi360](products/WizFi360/start): Wi-Fi Module(Release 1/8/19)**
 
 
 
