@@ -4,8 +4,6 @@ title: Open Source Hardware
 date: 2020-04-03
 ---
 
-# Open Source Hardware
-
 -----
 
 ### What's the Open Source Hardware?
