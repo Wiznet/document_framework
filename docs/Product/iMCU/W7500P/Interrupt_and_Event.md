@@ -5,7 +5,6 @@ date: 2020-04-03
 ---
 
 
-## Content
 
 # Interrupt and Events
 ## Introduction
@@ -16,6 +15,7 @@ W7500P contains interrupt service and event service as below
   * One event signal
 
 ## Interrupt assignments
+
 |IRQ/NMI |     Device     |             Description             |   Address   |
 |--------|----------------|-------------------------------------|-------------|
 |NMI     | Watchdog timer | Watchdog timer interrupt            | 0x0000_0008 |
