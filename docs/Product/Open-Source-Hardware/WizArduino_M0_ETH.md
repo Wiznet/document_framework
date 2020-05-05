@@ -4,10 +4,6 @@ title: WizArduino M0 ETH
 date: 2020-04-03
 ---
 
-
-## Content
-# WizArduino M0 ETH
-
 ![](/document_framework/img/osh/wizarduino_m0_eth/%EC%B8%A1%EB%A9%B41.png)
 
 -----
