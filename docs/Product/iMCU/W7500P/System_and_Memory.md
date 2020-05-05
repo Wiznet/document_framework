@@ -24,7 +24,7 @@ Main system consists of:
     * Four AHB dedicated to 16-bit GPIOs
     * TCP/IP Hardware core
 
-![w7500p_system_architecture](document_framework/img/products/w7500p/w7500p_system_architecture.jpg)
+![w7500p_system_architecture](/document_framework/img/products/w7500p/w7500p_system_architecture.jpg)
 
 AHB-Lite BUS
 
