@@ -4,8 +4,6 @@ title: User's Guide(Eng)
 date: 2020-04-13
 ---
 
-
-## Content
 ## WIZ550WEB Users' Guide
 ### Overview
 WIZ550web provides the lightweight webserver operating. It controls digital output or monitors digital and analogue input through web browser. Example web pages is stored in micro SD memory card.
