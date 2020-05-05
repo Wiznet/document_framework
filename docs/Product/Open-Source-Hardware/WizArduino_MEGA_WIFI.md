@@ -4,10 +4,6 @@ title: WizArduino MEGA WIFI
 date: 2020-04-03
 ---
 
-
-## Content
-# WizArduino MEGA WIFI
-
 ![](/document_framework/img/osh/wizarduino_mega_wifi/1st_1894_1.png)
 
 -----
