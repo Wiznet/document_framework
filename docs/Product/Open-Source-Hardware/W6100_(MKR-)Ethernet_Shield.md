@@ -4,10 +4,6 @@ title: W6100 (MKR-)Ethernet Shield
 date: 2020-04-03
 ---
 
-
-## Content
-## W6100 (MKR-)Ethernet Shield
-
 ### Overview
 
   - **ARM mbed compatible** operation
