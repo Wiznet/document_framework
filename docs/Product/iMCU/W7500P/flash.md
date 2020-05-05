@@ -23,13 +23,6 @@
 The Flash memory is organized of 32-bit wide memory cells that can be used for storing both code and data constants.
 The memory organization is based on a main Flash memory block containing 512 sectors of 256byte or 32 blocks of 4Kbyte. The block and sector provides read/write protection.
 
-<style type="text/css">
-.tg  {border-collapse:collapse;border-spacing:0;}
-.tg td{font-family:Arial, sans-serif;font-size:14px;padding:10px 5px;border-style:solid;border-width:1px;overflow:hidden;word-break:normal;}
-.tg th{font-family:Arial, sans-serif;font-size:14px;font-weight:normal;padding:10px 5px;border-style:solid;border-width:1px;overflow:hidden;word-break:normal;}
-.tg .tg-s6z2{text-align:center; vertical-align:middle;}
-.tg .tg-huh2{font-size:14px;text-align:center}
-</style>
 <table class="tg">
   <tr>
     <th class="tg-huh2">Flash area<br>  </th>
