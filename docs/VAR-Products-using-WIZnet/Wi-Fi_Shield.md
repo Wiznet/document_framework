@@ -4,10 +4,6 @@ title: Wi-Fi Shield
 date: 2020-04-02
 ---
 
-
-## Content
-# Wi-Fi Shield
-
 There are many resource Products using WIZnet WizFi modules.
 
 ## wizfi250:
