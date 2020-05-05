@@ -4,8 +4,6 @@ title: ioShield-K
 date: 2020-04-03
 ---
 
-
-## Content
 ## Overview
 
 ![](/osh/ioshield-k/io_s_k.png) ioShield-K is an Ethernet Shield for
