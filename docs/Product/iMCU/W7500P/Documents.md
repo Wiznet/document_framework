@@ -28,10 +28,10 @@ The **Getting Started** user's guide describes the installation of MDK,How to ma
 
 
 
-\++++ Old Datasheet History |
+**Old Datasheet History**
 
-| Version | Date      | Decription                                                                                                               |
-| ------- | --------- | ------------------------------------------------------------------------------------------------------------------------ |
+| Version | Date      | Decription     |                                                                                                 
+| ------- | --------- | ----------------|
 | V 1.0.0 | 18SEP2017 | Initial Release                                                                                                          |
 | V 1.0.1 | 26OCT2017 | Fixed value Driving Strength condition in PADCON.                                                                        |
 | V 1.0.2 | 09NOV2017 | Fixed Typo I/O Pad Characteristics VOL description (high -\> low)                                                        |
