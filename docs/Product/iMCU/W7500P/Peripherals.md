@@ -10,7 +10,7 @@ date: 2020-04-03
 # Peripheral description and examples
 |Peripheral                                                                           | Example                                                                          |
 |-------------------------------------------------------------------------------------|----------------------------------------------------------------------------------|
-|[GPIO](gpio.md)          |[Blink_LED]()|
+|[GPIO](gpio.md)          |[Blink_LED](blink_led.md)|
 |[ADC](adc.md)            |[Illumination_RGB_LED]()                                                          | 
 |[DMA](dma.md)            |Memory to memory copy|
 |[CRG](crg.md)            |     |
