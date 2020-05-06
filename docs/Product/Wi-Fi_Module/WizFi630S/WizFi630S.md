@@ -4,10 +4,6 @@ title: WizFi630S
 date: 2020-04-27
 ---
 
-
-## Content
-## WizFi630S
-
 WizFi630S is a gateway module that integrates 1T1R 802.11 Wi-Fi, a
 580MHz CPU, Ethernet PHY, USB2.0 host, SD-XC, I2S, I2C and more GPIOs.
 
@@ -36,15 +32,13 @@ documents are available online.
 | ![WizFi630S](/document_framework/img/products/wizfi630s/500k_wizfi630s_top.png) |
 | Figure: ***WizFi630S***                                     |
 
-
-
 |                                                                     |
 | ------------------------------------------------------------------- |
 | ![WizFi630S-EVB](/document_framework/img/products/wizfi630s/500k_wizfi630s_evb_top.png) |
 | Figure: ***WizFi630S-EVB***                                         |
 
-
 -----
+
 
 ## Feature
 
@@ -65,23 +59,24 @@ documents are available online.
   - CE, FCC, KC, RoHS certification
 
 -----
+
+
 ## Details
 
   - [Datasheet](https://wizwiki.net/wiki/doku.php?id=products:wizfi630s:wizfi630s_ds:start)
     : This section provides guides on the features of the WizFi630S,
     WizFi630S-EVB.
-  - [User
-    Manual](https://wizwiki.net/wiki/doku.php?id=products:wizfi630s:wizfi630s_ug:start)
+  - [User Manual](https://wizwiki.net/wiki/doku.php?id=products:wizfi630s:wizfi630s_ug:start)
     : This section provides guides documents for basic operating methods
     of products.
-  - [HW
-    Reference](https://wizwiki.net/wiki/doku.php?id=products:wizfi630s:wizfi630s_hw:start)
+  - [HW Reference](https://wizwiki.net/wiki/doku.php?id=products:wizfi630s:wizfi630s_hw:start)
     : This section provides guide documents for HW design with the
     WizFi630S.
   - [Certificate](https://wizwiki.net/wiki/doku.php?id=products:wizfi630s:wizfi630s_cert:start)
     : This section provides WizFi630S certificate and test reports.
 
 -----
+
 
 ## Q & A
 
