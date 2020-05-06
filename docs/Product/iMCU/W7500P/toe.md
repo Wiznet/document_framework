@@ -26,7 +26,7 @@ The below Figure shows the TOE block diagram.
 
 TOE has one Common Register Block, eight Socket Register Blocks, and TX/RX Buffer Blocks allocated to each Socket. The below Figure shows the selected block by the base address and the available offset address range of Socket TX/RX Buffer Blocks. Each Socket’s TX Buffer Block physically exists in one 16KB TX memory and is initially allocated with 2KB. Also, Each Socket’s RX Buffer Block physically exists in one 16KB RX Memory and is initially allocated with 2KB.
 Regardless of the allocated size of each Socket TX/RX Buffer, it can be accessible within the 16 bits offset address range (From 0x0000 to 0xFFFF).
-Refer to [Memory](/document_framework/Product/iMCU/W7500P/toe#memory) for more information about 16KB TX/RX Memory organization and access method.
+Refer to [Memory](W7500P/toe#memory) for more information about 16KB TX/RX Memory organization and access method.
 
 ![](/document_framework/img/products/w7500p/peripheral/wztoe_memory_map.jpg "Figure 2 TOE memory map ")
 
