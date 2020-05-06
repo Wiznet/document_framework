@@ -4,10 +4,6 @@ title: WIZ610io
 date: 2020-04-15
 ---
 
-
-## Content
-## WIZ610io
-
 ### Overview
 
 WIZ610io is the network module that includes W6100 (TCP/IP hardwired chip, include PHY), MAG-JACK (RJ45 with X’FMR) with other glue logics. Please click the link for the further information about
@@ -80,8 +76,6 @@ support and Project shared
 -----
 
 ## Where to Buy
-
-
 
 ![WIZnet Online Shop](/products/w5500/buynow.png)  
 [![WIZnetHK Online Shop,
