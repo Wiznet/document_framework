@@ -447,7 +447,7 @@ change in all parts placement.
 ## Related Products
 
 
- * [ioShield-A](../../Product/Open-Source-Hardware/ioShield-A.md)
- * [ioShield-K](../../Product/Open-Source-Hardware/ioShield-K.md)
- * [ioShield-L](../../Product/Open-Source-Hardware/ioShield-L.md)
+ * [ioShield-A](../../Open-Source-Hardware/ioShield-A.md)
+ * [ioShield-K](../../Open-Source-Hardware/ioShield-K.md)
+ * [ioShield-L](../..Open-Source-Hardware/ioShield-L.md)
 
