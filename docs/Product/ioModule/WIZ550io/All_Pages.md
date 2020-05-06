@@ -449,5 +449,5 @@ change in all parts placement.
 
  * [ioShield-A](../../Open-Source-Hardware/ioShield-A.md)
  * [ioShield-K](../../Open-Source-Hardware/ioShield-K.md)
- * [ioShield-L](../..Open-Source-Hardware/ioShield-L.md)
+ * [ioShield-L](../../Open-Source-Hardware/ioShield-L.md)
 
