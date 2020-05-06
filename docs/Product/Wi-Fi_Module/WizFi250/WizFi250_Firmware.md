@@ -1,24 +1,17 @@
 ---
 id: wizfi250_firmware
 title: WizFi250 Firmware
-date: 2020-03-
+date: 2020-05-06
 ---
 
-
-## Content
-# WizFi250 Firmware
-
 ## Official Latest firmware release
-
-
 
 | FW Version | Hardware | Date       | Download                                                                         | Description    |
 | ---------- | -------- | ---------- | -------------------------------------------------------------------------------- | -------------- |
 | 1.0.3.3    | Rev 1.0  | 2015-02-16 | ![1.0.3.3](/products/wizfi250/wizfi250firmware/WizFi250_1.0.3.3.zip)/Application | latest release |
 
-
-
 -----
+
 
 ## Firmware history/Beta firmware
 
@@ -35,11 +28,11 @@ date: 2020-03-
 
 ## Update History
 
-#### \<v1.0.0.0\>
+#### 1.0.0.0
 
   - Official release
 
-#### \<v1.0.1.1\>
+#### v1.0.1.1
 
   - Added WiFi Direct(P2P) feature (limitations : WizFi250 can not
     operate as group owner.)
