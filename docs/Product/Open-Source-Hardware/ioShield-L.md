@@ -4,8 +4,6 @@ title: ioShield-L
 date: 2020-04-03
 ---
 
-
-## Content
 ## Overview
 
 ![](/document_framework/img/osh/ioshield-l/io_s_l_.png) ioShield-L is an Ethernet BoosterPack
