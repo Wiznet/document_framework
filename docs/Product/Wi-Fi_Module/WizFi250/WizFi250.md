@@ -71,4 +71,4 @@ module family:**
   - [WizFi250 Programmer's Guide](Programers Guide/Overview.md)
   - [WizFi250 Quick Start Guide]()
   - [WizFi250 EVB SCH](WizFi250_EVB_SCH.md)
-  - [Reference YouTube]( Reference_YouTube.md)
+  - [Reference YouTube](Reference_YouTube.md)
