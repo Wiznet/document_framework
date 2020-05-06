@@ -17,6 +17,7 @@ customers; allowing customers to focus on their core application,
 product, or expertise. WizFi250 is compliant with 802.11b/g/n.  
 ![](/document_framework/img/products/wizfi250/dsc00057.jpg)  
 
+
 ### Features 
 
   - Single band 2.4GHz IEEE 802.11b/g/n
@@ -50,7 +51,7 @@ footprint) :
 
 -----
 
-  
+
 **WizFi250-CON** (smaller '**con**nector' version without the pattern
 antenna) :  
 ![WizFi250-CON\_2\_small.png](/document_framework/img/products/wizfi250/wizfi250-con_2_small.png)  
@@ -58,16 +59,16 @@ antenna) :
 **WizFi250-H** (pin **H**eader adapter version - we use in our EVB) :  
 ![](/products/wizfi250/wizfi250-h_2.gif)![](/document_framework/img/products/wizfi250/wizfi250-h_1_small.png)  
   
- 
 **comparison to
 🌎[WizFi210/220](http://www.wiznet.co.kr/sub_modules/en/product/Product_Line.asp?cate1=5&cate2=43)
 module family:**  
 [Please use this link for a comparison](migrate)
 
+
 ### Material
 
-  - [WizFi250 Datasheet](docs/Product/Wi-Fi_Module/WizFi250/Datasheet/1.Introduction.md)
-  - [WizFi250 Programmer's Guide](docs/Product/Wi-Fi_Module/WizFi250/Programers Guide/Overview.md)
+  - [WizFi250 Datasheet](Datasheet/1.Introduction.md)
+  - [WizFi250 Programmer's Guide](Programers Guide/Overview.md)
   - [WizFi250 Quick Start Guide]()
-  - [WizFi250 EVB SCH](docs/Product/Wi-Fi_Module/WizFi250/WizFi250_EVB_SCH.md)
-  - [Reference YouTube](docs/Product/Wi-Fi_Module/WizFi250/Reference_YouTube.md)
+  - [WizFi250 EVB SCH](WizFi250_EVB_SCH.md)
+  - [Reference YouTube]( Reference_YouTube.md)
