@@ -4,11 +4,6 @@ title: Pre-programmed MCU
 date: 2020-04-07
 ---
 
-
-# Pre-programmed MCU
-
------
-
 ## Overview
 
 WIZnet MCU products which **S2E firmware is programmed on**
