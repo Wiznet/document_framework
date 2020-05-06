@@ -4,8 +4,6 @@ title: Electrical Characteristics
 date: 2020-04-03
 ---
 
-## Content
-
 # Electrical Characteristics
 
 ## Absolute maximum ratings
