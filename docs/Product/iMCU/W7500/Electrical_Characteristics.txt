@@ -4,8 +4,6 @@ title: Electrical Characteristics
 date: 2020-04-03
 ---
 
-# Electrical Characteristics
-
 ## Absolute maximum ratings
 
 These are stress ratings only and functional operation of the device at
