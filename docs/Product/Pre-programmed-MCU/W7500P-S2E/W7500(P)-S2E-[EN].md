@@ -13,7 +13,6 @@ date: 2020-04-07
 - [English](W7500(P)-S2E-[EN].md) (current page)  
 - [Korean](W7500(P)-S2E-[KO].md)
 
-
 -----
 
 ## Overview
@@ -56,22 +55,16 @@ applications around the world
   - 8-channel hardware sockets with 32KB buffers(SRAM)
   - Supports the TCP, UDP, IPv4, ICMP, ARP, IGMP and PPPoE
 
-  
-\<WRAP group\> \<WRAP half column\> \<WRAP centeralign\>
+ 
 ![w7500_c_500x500](/document_framework/img/products/w7500-s2e/w7500_c_500x500.png)
 
 [W7500](../../iMCU/W7500/Overview.md) 
-MII supported for PHY interface \</WRAP\>
+MII supported for PHY interface 
 
-
-
-\<WRAP half column\> \<WRAP centeralign\>
 ![w7500p_c_500x500](/document_framework/img/products/w7500-s2e/w7500p_c_500x500.png)
 
 [W7500P](../../iMCU/W7500P/Overview.md)  
-10/100 Ethernet PHY integrated \</WRAP\>
-
-
+10/100 Ethernet PHY integrated
 
 -----
 
