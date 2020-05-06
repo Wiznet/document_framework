@@ -4,9 +4,6 @@ title: Documents
 date: 2020-04-03
 ---
 
-## Content
-
-# Documents
 The **DataSheet** provides the ordering information and mechanical device characteristics of the W7500/W7500P microcontrollers.  
 The **Reference Manual** provides the register map of peripherals and brief description.  
 The **PHY Reference** provides the How to Access W7500x PHY Register and description of W7500P Internal PHY.  
@@ -15,17 +12,14 @@ The **Getting Started** user's guide describes the installation of MDK,How to ma
 
 -------------------
 
-
 ### Data Sheet
 
 ![W7500x Datasheet v1.1.0 - English](/document_framework/img/products/w7500/w7500x_ds_v110.pdf)
 
 
-
 | Version | Date      | Decription                                           |
 | ------- | --------- | ---------------------------------------------------- |
 | V 1.1.0 | 20DEC2019 | Fixed 3.17 UART speed to 460.8 Kbit/s from 3 Mbit/s. |
-
 
 
 **Old Datasheet History**
@@ -82,9 +76,7 @@ The **Getting Started** user's guide describes the installation of MDK,How to ma
 | V 1.1.1 | 27JUL2018 | Fixed figure 4. CRG Diagram (Input Information of WDOGCLK, TIMCLK0,TIMCLK1). |
 | :::     | :::       | Flash memory lock function Additional description added (11.1)               |
 
-
 -------------------
-
 
 ### PHY Reference
 
@@ -110,17 +102,13 @@ W7500P Internal PHY Datasheet
 - ![W7500x Erratasheet v1.2.0 - Korean](/document_framework/img/products/w7500/w7500x_erratasheet_v120k.pdf)
 
 
-
-
-
 | Version | Date      | Decription                            |
 | ------- | --------- | ------------------------------------- |
 | V1.2.0  | 13MAR2019 | Erratum 3 – IAP Function Call Failure |
 | :::     | :::       | Erratum 4 – Two Image Banks Failure   |
 | :::     | :::       | Erratum 5 – Cold Booting Failure      |
-
-
-
+ 
+  
 
 **Old Errata Sheet Histroy**
 
@@ -133,8 +121,6 @@ W7500P Internal PHY Datasheet
 
 
 -----
-
-
 
 
 ### Limitation Note ARP problem in the NLB environment
@@ -163,4 +149,4 @@ ARP problem in the NLB environment V1.0
   
   - [How to use ISP tool](documents/appnote/How_to_use_ISP_tool.md)
   
------
+----- 
