@@ -1,12 +1,8 @@
 ---
 id: reference_youtube
-title: Reference YouTube
+title: WizFi250 Youtube Reference
 date: 2020-03-
 ---
-
-
-## Content
-# WizFi250 Youtube Reference
 
 Here are some resource movie clips using WizFi250 solution.
 
@@ -15,6 +11,7 @@ Here are some resource movie clips using WizFi250 solution.
 [Quick Start Guide Link(YouTube)](https://youtu.be/ZNrBz-HZsUw)
 
 -----
+
 
 #### WizFi250 Firmware Upgrade
 
