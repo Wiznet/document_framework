@@ -1,12 +1,8 @@
 ---
 id: certificate
-title: Certificate
-date: 2020-03-
+title: Certification 
+date: 2020-04-06
 ---
-
-
-## Content
-## Certification 
 
 This section provides WizFi630S certificate and test reports.
 
@@ -23,8 +19,6 @@ This section provides WizFi630S certificate and test reports.
    * EN 300 328 V2.1.1
 
 
-
-
   * ![certificate](/document_framework/img/products/wizfi630s/wizfi630s_cert/wizfi630s_ce_certificate.pdf)
   * ![LVD test report](/document_framework/img/products/wizfi630s/wizfi630s_cert/wizfi630s_ce_test_report_lvd.pdf)
   * ![300 328 test report](/document_framework/img/products/wizfi630s/wizfi630s_cert/wizfi630s_ce_test_report_300_328.pdf)
@@ -32,15 +26,12 @@ This section provides WizFi630S certificate and test reports.
   * ![62311 test report](/document_framework/img/products/wizfi630s/wizfi630s_cert/wizfi630s_ce_test_report_62311.pdf)
 
 
-
-
 | Issue Date | Expiry Date |
 | ---------- | ----------- |
 | JUL2019    | JUL2024     |
 
-
-
 -----
+
 
 ## FCC Certification
 
@@ -52,20 +43,15 @@ This section provides WizFi630S certificate and test reports.
  * 47 CFR Part 15C
  * ANSI C63.10 2013
     
-
-
   * ![certificate](/document_framework/img/products/wizfi630s/wizfi630s_cert/wizfi630s_fcc_certificate.pdf)
   * ![teset report](/document_framework/img/products/wizfi630s/wizfi630s_cert/wizfi630s_fcc_test_report.pdf)
-
-
 
 | Issue Date |
 | ---------- |
 | JUL2019    |
 
-
-
 -----
+
 
 ## KC Certification
 
@@ -74,21 +60,16 @@ This section provides WizFi630S certificate and test reports.
 ##### KC Test Standard
  
    * KS X 3123: Conformity assessment test methods for radio equipment
-    
-
 
   * ![certificate](/document_framework/img/products/wizfi630s/wizfi630s_cert/wizfi630s_kc_certificate.pdf)
   * ![test report](/document_framework/img/products/wizfi630s/wizfi630s_cert/wizfi630s_kc_test_report.pdf)
-
-
-
 
 | Issue Date |
 | ---------- |
 | AUG2019    |
 
-
 -----
+
 
 ## Japan MIC(TELEC) Certification
 
@@ -97,8 +78,6 @@ This section provides WizFi630S certificate and test reports.
 ##### Japan MIC Test Standard
 
    * Article 2 Section 1, No.19
-    
-
 
   * ![certificate](/document_framework/img/products/wizfi630s/wizfi630s_cert/wizfi630s_japan_mic_telec_certificate.pdf)
   * ![test report](/document_framework/img/products/wizfi630s/wizfi630s_cert/wizfi630s_japan_mic_telec_test_report.pdf)
@@ -109,8 +88,9 @@ This section provides WizFi630S certificate and test reports.
 | AUG2019    |
 
 
-
 -----
+
+
 ## RoHS Certification
 
 ##### RoHS Test Standard
@@ -122,13 +102,12 @@ This section provides WizFi630S certificate and test reports.
   * ![RoHS 2.0 report](/document_framework/img/products/wizfi630s/wizfi630s_cert/wizfi630s_rohs_test_report.pdf)
 
 
-
 | Issue Date |
 | ---------- |
 | AUG2019    |
 
-
 -----
+
 
 ## Reliability test Report
 
@@ -155,6 +134,5 @@ This section provides WizFi630S certificate and test reports.
 | Issue Date |
 | ---------- |
 | Nov2019    |
-
 
 -----
