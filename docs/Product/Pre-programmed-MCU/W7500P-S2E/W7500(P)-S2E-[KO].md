@@ -4,10 +4,6 @@ title: W7500(P)-S2E
 date: 2020-04-07
 ---
 
-## Content
-
-# W7500(P)-S2E
-
 **W7500(P) which WIZ750xx S2E firmware is programmed on**
 
 -----
@@ -73,7 +69,7 @@ MII supported for PHY interface
 
 ## Features
 
-\*\* W7500(P)-S2E 제품에는 다음 항목들이 포함됩니다. \*\*
+**W7500(P)-S2E 제품에는 다음 항목들이 포함됩니다.**
 
   - **필드에서 검증된 Serial to Ethernet 모듈 제품인 WIZ750SR Series의 펌웨어**
       - 어떠한 장비 / MCU든 UART 인터페이스를 통해 손쉽게 Ethernet Networking 기능 활용 가능
