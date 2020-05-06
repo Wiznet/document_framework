@@ -4,10 +4,6 @@ title: WIZ610MJ
 date: 2020-04-15
 ---
 
-
-## Content
-## WIZ610MJ
-
 ### Overview
 
 WIZ610MJ is the network module that includes W6100 (TCP/IP hardwired chip, include PHY), MAG-JACK (RJ45 with X’FMR) with other glue logics. Please click the link for the further information about
@@ -81,7 +77,6 @@ support and Project shared
 -----
 
 ## Where to Buy
-
 
 ![WIZnet Online Shop](/products/w5500/buynow.png)  
 [![WIZnetUS Online Shop,
