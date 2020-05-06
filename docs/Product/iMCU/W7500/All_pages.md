@@ -4,8 +4,6 @@ title: All pages
 date: 2020-04-03
 ---
 
-## Content
-
 [Overview](Overview.md)
 
 -----
