@@ -4,12 +4,6 @@ title: ioModule
 date: 2020-04-15
 ---
 
-
-## Content
-# ioModule
-
------
-
 ## Overview
 
 WIZnet Network IO module includes an iEthernet chip & MAG-JACK (RJ45 with X’FMR). As no effort is required to interface iEthernet chip and Transformer, Network module is the ideal option for users who want to
