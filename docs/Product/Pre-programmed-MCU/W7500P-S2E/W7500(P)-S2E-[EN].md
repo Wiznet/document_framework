@@ -1,14 +1,10 @@
 ---
 id: w7500p-s2e-[EN]
-title: W7500P-S2E
+title: W7500(P)-S2E
 date: 2020-04-07
 ---
 
-## Content
-
-# W7500(P)-S2E
-
-** W7500(P) which WIZ750xx S2E firmware is programmed on**
+**W7500(P) which WIZ750xx S2E firmware is programmed on**
 
 -----
 
