@@ -1,12 +1,8 @@
 ---
 id: wizfi250
 title: WizFi250
-date: 2020-03-
+date: 2020-05-06
 ---
-
-
-## Content
-## WizFi250
 
 ### Overview
 
@@ -42,14 +38,10 @@ product, or expertise. WizFi250 is compliant with 802.11b/g/n.
 
 <!-- end list -->
 
-
    * Enough memory retention
    * Wi-Fi Security (WEP, WPA/WPA2PSK)
    * L2 Switching
    * OTA(Over The Air F/W Upgrading)
-
-
-  
   
   
 **WizFi250-PA** (standard **pa**ttern antenna version with LGA
