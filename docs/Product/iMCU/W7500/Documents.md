@@ -139,7 +139,7 @@ ARP problem in the NLB environment V1.0
 
 ## Getting Started
 
-  - [How to install KEIL](docs/Product/iMCU/W7500/documents/appnote/How_to_install_KEIL.txt)
+  - [How to install KEIL](../documents/appnote/How_to_install_KEIL.txt)
 
   - [How to make KEIL new project for W7500](../documents/appnote/How_to_make_KEIL_new_project_for_W7500.md)
 
