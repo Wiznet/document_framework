@@ -4,7 +4,4 @@ title: W7500P Ref.Schematic
 date: 2020-04-03
 ---
 
-
-
-
-  * 🌍[Go to WIZnet GitHub](https://github.com/Wiznet/Hardware-Files-of-WIZnet/tree/master/01_iMCU/W7500P/Reference%20Schematic)
+* 🌍[Go to WIZnet GitHub](https://github.com/Wiznet/Hardware-Files-of-WIZnet/tree/master/01_iMCU/W7500P/Reference%20Schematic)
