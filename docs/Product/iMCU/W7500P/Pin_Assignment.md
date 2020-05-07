@@ -4,10 +4,6 @@ title: Pin Assignment
 date: 2020-04-03
 ---
 
-
-
-
-# Pin Assignment
 ## Pin Layout
 
 ![20170718_w7500p_pinout](/document_framework/img/products/w7500p/overview/20170718_w7500p_pinout.png)
