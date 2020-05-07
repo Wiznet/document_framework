@@ -4,8 +4,6 @@ title: W5100S-EVB
 date: 2020-04-03
 ---
 
-# W5100S-EVB
-
   - W5100S chip development platform for **net-enabled** microcontroller
     applications
   - Ethernet (W5100S Hardwired TCP/IP chip) and 32-bit ARM® Cortex™-M3
@@ -54,8 +52,7 @@ devices using the W5100S chip.
   - Support Auto-MDIX when Auto-Negotiation Mode.
   - Hardwired TCP/IP stack supports TCP, UDP, WOL over UDP, ICMP,
     IGMPv1/v2, IPv4, ARP,PPPoE protocols
-  - ![](/products/w5500/w5500_evb/icons/link.png) [start\#W5100s Product
-    page](/products/w5100s/start#W5100s%20Product%20page)
+  - ![](/products/w5500/w5500_evb/icons/link.png) [start\#W5100s Product page](/products/w5100s/start#W5100s%20Product%20page)
 
 **STMicroelectronics STM32F103VCT6 MCU**
 
@@ -68,17 +65,13 @@ devices using the W5100S chip.
   - USB, CAN, 2 × PWM timers
   - 3 × ADCs, 2 × DACs, 1 × SDIO
   - FSMC (100- and 144-pin packages)
-  - ![](/products/w5500/w5500_evb/icons/link.png) [STMicroelectronics
-    STM32F103VCT6 Product
-    page](http://www.st.com/en/microcontrollers/stm32f103vc.html)
+  - ![](/products/w5500/w5500_evb/icons/link.png) [STMicroelectronics STM32F103VCT6 Product page](http://www.st.com/en/microcontrollers/stm32f103vc.html)
 
 **Connectors**
 
   - 1-Channel 10/100Mbps Ethernet Connector (RJ45 with transformer)
   - Virtual COM Port(UART via Micro USB B type) –
-    ![](/products/w5500/w5500_evb/icons/link.png) [CP2104 Drivers
-    Download
-    Page](https://www.silabs.com/products/interface/usb-bridges/classic-usb-bridges/device.cp2104)
+    ![](/products/w5500/w5500_evb/icons/link.png) [CP2104 Drivers Download Page](https://www.silabs.com/products/interface/usb-bridges/classic-usb-bridges/device.cp2104)
   - Expansion 80 GPIOs (Include analog Peripheral using 12bit ADC)
   - Pin-compatible with Arduino Shields designed for the UNO Rev3
   - Digital pins D0 to D15, Analog inputs A0 to A5, the power header and
@@ -127,13 +120,12 @@ to the project.
 **Download the Libraries and
 Application example source code for W5100S-EVB** 
 ![](/products/w5500/w5500_evb/icons/github.png)
-<https://github.com/Wiznet/W5100S-EVB> 
+https://github.com/Wiznet/W5100S-EVB
 
  **DMA User Guide**  
-![W5100S DMA V1.0.0
-Korean.pdf](/document_framework/img/products/w5100s/w5100s_evb/w5100s_an_dma_v100k.pdf)
-\<markdown\> For More information about DMA, click
-\[DMA\](<https://wizwiki.net/wiki/doku.php?id=products:w5100s:w5100s_evb:dma>)
+![W5100S DMA V1.0.0 Korean.pdf](/document_framework/img/products/w5100s/w5100s_evb/w5100s_an_dma_v100k.pdf)
+For More information about DMA, click
+[DMA](https://wizwiki.net/wiki/doku.php?id=products:w5100s:w5100s_evb:dma)
 
 
 -----
@@ -141,11 +133,9 @@ Korean.pdf](/document_framework/img/products/w5100s/w5100s_evb/w5100s_an_dma_v10
 ## Getting Started
 
 
-![](/products/w5500/w5500_evb/icons/link.png) [Getting
-Started](/products/w5100s/w5100s_evb/getting_started)
+![](/products/w5500/w5500_evb/icons/link.png) [Getting Started](/products/w5100s/w5100s_evb/getting_started)
 
-![](/products/w5500/w5500_evb/icons/link.png) [How to uploading to
-firmware](/products/w5100s/w5100s_evb/getting_started#how_to_uploading_to_firmware)
+![](/products/w5500/w5500_evb/icons/link.png) [How to uploading to firmware](/products/w5100s/w5100s_evb/getting_started#how_to_uploading_to_firmware)
 
 -----
 
@@ -153,17 +143,15 @@ firmware](/products/w5100s/w5100s_evb/getting_started#how_to_uploading_to_firmwa
 
 
 ![](/products/w5500/w5500_evb/icons/link.png) [Make New W5100S-EVB
-Projects using
-Eclipse](/products/w5100s/w5100s_evb/make_a_new_projects_eclipse)
+Projects using Eclipse](/products/w5100s/w5100s_evb/make_a_new_projects_eclipse)
 
 ![](/products/w5500/w5500_evb/icons/link.png) [Make New W5100S-EVB
-Projects using
-TrueSTUDIO](/products/w5100s/w5100s_evb/make_a_new_projects_truestudio)
+Projects using TrueSTUDIO](/products/w5100s/w5100s_evb/make_a_new_projects_truestudio)
 
 -----
 
-## Technical Reference
 
+## Technical Reference
 
 **Datasheet**
 
@@ -214,11 +202,6 @@ Project shared
 ## Where to Buy
 
 ![WIZnet Online Shop](/products/w5500/buynow.png)  
-[![WIZnetUS Online Shop,
-USA](/products/w5500/w5500_evb/icons/dollar.png)](http://www.shopwiznet.com/)
-[![WIZnetEU Online Shop,
-Germany](/products/w5500/w5500_evb/icons/european-euro.png)](http://shop.wiznet.eu/)
-[![WIZnetKorea Online Shop,
-Korea](/products/w5500/w5500_evb/icons/won.png)](http://shop.wiznet.co.kr/)
-
-\</WRAP\>
+[![WIZnetUS Online Shop, USA](/products/w5500/w5500_evb/icons/dollar.png)](http://www.shopwiznet.com/)
+[![WIZnetEU Online Shop, Germany](/products/w5500/w5500_evb/icons/european-euro.png)](http://shop.wiznet.eu/)
+[![WIZnetKorea Online Shop, Korea](/products/w5500/w5500_evb/icons/won.png)](http://shop.wiznet.co.kr/)
