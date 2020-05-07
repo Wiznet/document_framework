@@ -41,5 +41,5 @@ The below Figure shows Watchdog timer operation flow diagram
 
 ------------------------------
 
-##Peripheral_Examples
+## Peripheral_Examples
 - [WDTReset example](wdtreset.md)
