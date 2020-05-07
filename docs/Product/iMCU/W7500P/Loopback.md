@@ -19,7 +19,6 @@ SSP0 is configured as master and SSP1 as slave both are with 16bit data size.
 
 After enabling both SSPs, the first data from set value 0x50 followed by the first data send by the master. The same procedure is done for the remaining data to transfer except the last ones.
 
-
 Last data from SSP0 transmit buffer is save to SSP1 receive buffer.
 
 Once the transfer is completed a comparison is done and TransferStatus gives the data transfer status for each data transfer direction where it is PASSED if transmitted and received data are the same otherwise it is FAILED.
