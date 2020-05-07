@@ -7,8 +7,7 @@ date: 2020-04-03
 
 ## W6100 Application Notes
 
-  - **[Basic
-    project](https://github.com/WIZnet-ioLibrary/w6100-evb-gcc-eclipse)**
+  - [**Basic project**](https://github.com/WIZnet-ioLibrary/w6100-evb-gcc-eclipse)**
     
 
 
