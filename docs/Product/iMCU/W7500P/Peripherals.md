@@ -22,7 +22,7 @@ date: 2020-04-03
 |[RNG](rng.txt)            |[Random number generation example](rng_ex.md)|
 |[SSP](ssp.md)            |[Loopback](Loopback.md),[SD Card LED](SD_Card_LED.md)|
 |[TOE](toe.txt)            |[Loopback](loopback.md), [DHCP](dhcpclient.md),[DNS](dnsclient.md)|
-|[UART](uart.md)          |[Interrupt](inter.md),[Polling](printf.md),[Printf](polling.md),[Uart Hardware Flow Control](flowcontrol.md)|
+|[UART](uart.md)          |[Interrupt](inter.md),[Polling](polling.md),[Printf](printf.md),[Uart Hardware Flow Control](flowcontrol.md)|
 |[WDT](wdt.md)            |[WDTReset](wdtreset.md)|
 |[SysTick](systick.md)    | [Delay example](delay.md)|
 |[AFC](afc.md)            |     |
