@@ -43,5 +43,6 @@ ioLibrary.
 
 **ioLibrary GitHub Repository**
 
-[https://github.com/Wiznet/ioLibrary_Driver]
+**https://github.com/Wiznet/ioLibrary_Driver**
+
 For more information on ioLibrary, click [W5500 Driver](https://wizwiki.net/wiki/doku.php?id=products:w5500:driver)
