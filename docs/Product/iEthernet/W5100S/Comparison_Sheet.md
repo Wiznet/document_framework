@@ -4,9 +4,6 @@ title: Comparison Sheet
 date: 2020-04-03
 ---
 
-
-## Content
-
 ## W5100S Comparison Sheet
 
 Functionally, **W5100S** is very similar to **W5100 and W5500**, with
