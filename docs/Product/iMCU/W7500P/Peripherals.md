@@ -10,20 +10,20 @@ date: 2020-04-03
 # Peripheral description and examples
 |Peripheral                                                                           | Example                                                                          |
 |-------------------------------------------------------------------------------------|----------------------------------------------------------------------------------|
-|[GPIO](gpio.md)          |[Blink_LED](blink_led.md)|
-|[ADC](adc.md)            |[Illumination_RGB_LED](illumination_sensor.md)                                                          | 
-|[DMA](dma.txt)            |Memory to memory copy|
-|[CRG](crg.md)            |     |
-|[DualTimer](dualtimer.md)|[TimerRun](timerrun.md)|
-|[EXTI](exti.md)          |[LED_Toggle](led_toggle.md),[Sleep](sleep.md)|
-|[Flash](flash.txt)        |[IAP_Example](IAP_Example.md)|
-|[I2C](i2c.md)            |[Default](init.md),[EEPROM_24LS02](eeprom.md),[Temperature LM75](lm75_temperature.txt)|
-|[PWM](pwm.md)            |[CaptureMode](capturemode.md),[CounterMode](countermode.md),[DeadZoneGeneration](deadzonegeneration.md),[PWMOutput](pwmoutput.md),[TimerMode](timermode.md)|
-|[RNG](rng.txt)            |[Random number generation example](rng_ex.md)|
-|[SSP](ssp.md)            |[Loopback](Loopback.md),[SD Card LED](SD_Card_LED.md)|
-|[TOE](toe.txt)            |[Loopback](loopback.md), [DHCP](dhcpclient.md),[DNS](dnsclient.md)|
-|[UART](uart.md)          |[Interrupt](inter.md),[Polling](polling.md),[Printf](printf.md),[Uart Hardware Flow Control](flowcontrol.md)|
-|[WDT](wdt.md)            |[WDTReset](wdtreset.md)|
-|[SysTick](systick.md)    | [Delay example](delay.md)|
-|[AFC](afc.md)            |     |
-|[PADCON](padcon.txt)      |     |
+|[GPIO](Peripherals-internal/gpio.md)          |[Blink_LED](Peripherals-internal/blink_led.md)|
+|[ADC](Peripherals-internal/adc.md)            |[Illumination_RGB_LED](Peripherals-internal/illumination_sensor.md)                                                          | 
+|[DMA](Peripherals-internal/dma.txt)            |Memory to memory copy|
+|[CRG](Peripherals-internal/crg.md)            |     |
+|[DualTimer](Peripherals-internal/dualtimer.md)|[TimerRun](Peripherals-internal/timerrun.md)|
+|[EXTI](Peripherals-internal/exti.md)          |[LED_Toggle](Peripherals-internal/led_toggle.md),[Sleep](Peripherals-internal/sleep.md)|
+|[Flash](Peripherals-internal/flash.txt)        |[IAP_Example](Peripherals-internal/IAP_Example.md)|
+|[I2C](Peripherals-internal/i2c.md)            |[Default](Peripherals-internal/init.md),[EEPROM_24LS02](Peripherals-internal/eeprom.md),[Temperature LM75](Peripherals-internal/lm75_temperature.txt)|
+|[PWM](Peripherals-internal/pwm.md)            |[CaptureMode](Peripherals-internal/capturemode.md),[CounterMode](Peripherals-internal/countermode.md),[DeadZoneGeneration](Peripherals-internal/deadzonegeneration.md),[PWMOutput](Peripherals-internal/pwmoutput.md),[TimerMode](Peripherals-internal/timermode.md)|
+|[RNG](Peripherals-internal/rng.txt)            |[Random number generation example](Peripherals-internal/rng_ex.md)|
+|[SSP](Peripherals-internal/ssp.md)            |[Loopback](Peripherals-internal/Loopback.md),[SD Card LED](Peripherals-internal/SD_Card_LED.md)|
+|[TOE](Peripherals-internal/toe.txt)            |[Loopback](Peripherals-internal/loopback.md), [DHCP](Peripherals-internal/dhcpclient.md),[DNS](Peripherals-internal/dnsclient.md)|
+|[UART](Peripherals-internal/uart.md)          |[Interrupt](Peripherals-internal/inter.md),[Polling](Peripherals-internal/polling.md),[Printf](Peripherals-internal/printf.md),[Uart Hardware Flow Control](Peripherals-internal/flowcontrol.md)|
+|[WDT](Peripherals-internal/wdt.md)            |[WDTReset](Peripherals-internal/wdtreset.md)|
+|[SysTick](Peripherals-internal/systick.md)    | [Delay example](Peripherals-internal/delay.md)|
+|[AFC](Peripherals-internal/afc.md)            |     |
+|[PADCON](Peripherals-internal/padcon.txt)      |     |
