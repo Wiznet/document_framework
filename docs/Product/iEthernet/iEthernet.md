@@ -40,10 +40,4 @@ Core & MAC (\&PHY).
 
 -----
 
-## Etc.
 
-### Sidebar
-
-  - [iEthernet sidebar](/products/iethernet/sidebar)
-
------
