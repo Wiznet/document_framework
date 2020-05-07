@@ -146,17 +146,17 @@ loader demonstrator, users try again this action. 'Press the 'Boot0'
 push button switch on board until turn on the board after reset or power
 supply.'
 
-![](/products/w6100/w6100_evb/5.png)
-![](/products/w6100/w6100_evb/6.png)
-![](/products/w6100/w6100_evb/7.png)
-![](/products/w6100/w6100_evb/8.png)
-![](/products/w6100/w6100_evb/9.png)
+![](/document_framework/img/products/w6100/w6100_evb/5.png)
+![](/document_framework/img/products/w6100/w6100_evb/6.png)
+![](/document_framework/img/products/w6100/w6100_evb/7.png)
+![](/document_framework/img/products/w6100/w6100_evb/8.png)
+![](/document_framework/img/products/w6100/w6100_evb/9.png)
 
 #### 5\. Run the new program
 
 After finish to flash programming and board reset, The MCU do running
 the program  
 When the running to loopback program, as below picture serial debug
-message print out. ![](/products/w6100/w6100_evb/debug_msg.jpg)
+message print out. ![](/document_framework/img/products/w6100/w6100_evb/debug_msg.jpg)
 
 -----
