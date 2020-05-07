@@ -70,8 +70,8 @@ MII supported for PHY interface
 
 ## Features
 
-\*\* The following key features are included with the W7500(P)-S2E
-product. \*\*
+**The following key features are included with the W7500(P)-S2E
+product.**
 
   - **The firmware of the WIZ750SR Series, which is a verified serial to
     Ethernet module in the field**
