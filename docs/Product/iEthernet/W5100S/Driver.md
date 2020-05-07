@@ -4,9 +4,6 @@ title: Driver
 date: 2020-04-03
 ---
 
-
-## Content
-
 # Driver
 
 The ioLibrary means **"Internet Offload Library"** for WIZnet chip. It
@@ -16,8 +13,8 @@ will be updated continuously.
 
 -----
 
-## ioLibrary
 
+## ioLibrary
 
 
 #### Overview
@@ -39,12 +36,12 @@ ioLibrary.
           - SNTP
           - TFTP
 
+
 #### Download
 
-**\< ioLibrary : latest version \>**
+**ioLibrary : latest version**
 
-\<WRAP center download 60% centeralign\> **ioLibrary GitHub Repository**
+**ioLibrary GitHub Repository**
 
-<https://github.com/Wiznet/ioLibrary_Driver>
+[https://github.com/Wiznet/ioLibrary_Driver]
 For more information on ioLibrary, click [W5500 Driver](https://wizwiki.net/wiki/doku.php?id=products:w5500:driver)
-
