@@ -4,9 +4,6 @@ title: System and Memory
 date: 2020-04-03
 ---
 
-
-
-
 # System and Memory overview
 ## System architecture
 Main system consists of:
