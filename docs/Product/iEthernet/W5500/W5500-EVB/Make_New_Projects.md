@@ -20,16 +20,16 @@ incl. IDE and C compiler. The free version compiler is limited to 8k
 code but can be extended to 256k of code by a free registration.
 
 Download the IDE + compiler here:  
-<http://www.lpcware.com/lpcxpresso/download>  
+🌎http://www.lpcware.com/lpcxpresso/download  
 Parallel to the download & install you register here:  
-<http://www.lpcware.com/user/register>  
+🌎http://www.lpcware.com/user/register 
 In the LPCXresso IDE you can go to:  
 'Help' -\> 'Create serial number and register (Free Edition)...'  
 here, copy that serial number.
 
-Then, logged in at <http://www.lpcware.com> , you can create the
+Then, logged in at 🌎http://www.lpcware.com , you can create the
 activation code using that 'serial number':
-<http://www.lpcware.com/lpcxpresso/activate>  
+🌎http://www.lpcware.com/lpcxpresso/activate  
 copy the activation code here, and go to:  
 'Help' -\> 'Activate (Free Edition)...'  
 enter (paste) the activation code and now you can create projects of
