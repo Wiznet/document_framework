@@ -52,7 +52,7 @@ devices using the W5100S chip.
   - Support Auto-MDIX when Auto-Negotiation Mode.
   - Hardwired TCP/IP stack supports TCP, UDP, WOL over UDP, ICMP,
     IGMPv1/v2, IPv4, ARP,PPPoE protocols
-  - ![](/products/w5500/w5500_evb/icons/link.png) [start\#W5100s Product page](/products/w5100s/start#W5100s%20Product%20page)
+  - ![](/products/w5500/w5500_evb/icons/link.png) [W5100s Product page](Overview.md)
 
 **STMicroelectronics STM32F103VCT6 MCU**
 
@@ -142,11 +142,9 @@ For More information about DMA, click
 ## Make New W5100S-EVB Projects
 
 
-![](/products/w5500/w5500_evb/icons/link.png) [Make New W5100S-EVB
-Projects using Eclipse](/products/w5100s/w5100s_evb/make_a_new_projects_eclipse)
+![](/products/w5500/w5500_evb/icons/link.png) [Make New W5100S-EVB Projects using Eclipse](/products/w5100s/w5100s_evb/make_a_new_projects_eclipse)
 
-![](/products/w5500/w5500_evb/icons/link.png) [Make New W5100S-EVB
-Projects using TrueSTUDIO](/products/w5100s/w5100s_evb/make_a_new_projects_truestudio)
+![](/products/w5500/w5500_evb/icons/link.png) [Make New W5100S-EVB Projects using TrueSTUDIO](/products/w5100s/w5100s_evb/make_a_new_projects_truestudio)
 
 -----
 
@@ -155,28 +153,18 @@ Projects using TrueSTUDIO](/products/w5100s/w5100s_evb/make_a_new_projects_trues
 
 **Datasheet**
 
-  - ![](/products/w5500/w5500_evb/icons/link.png) [datasheet\#W5100S
-    Datasheet](/products/w5100S/datasheet#W5100S%20Datasheet)
+  - ![](/products/w5500/w5500_evb/icons/link.png) [datasheet\#W5100S Datasheet](/products/w5100S/datasheet#W5100S%20Datasheet)
   - ![](/products/w5500/w5500_evb/icons/download.png)
-    [STMicroelectronics STM32F103VCT6
-    Datasheet](http://www.st.com/en/microcontrollers/stm32f103vc.html)
+    [STMicroelectronics STM32F103VCT6 Datasheet](http://www.st.com/en/microcontrollers/stm32f103vc.html)
   - ![](/products/w5500/w5500_evb/icons/download.png) [Virtual COM Port:
-    CP2104 COM Port
-    Datasheet](https://www.silabs.com/products/interface/usb-bridges/classic-usb-bridges/device.cp2104)
-  - ![](/products/w5500/w5500_evb/icons/download.png) [SINGLE INVERTER
-    GATE SN74LVC1G04DBVR
-    Datasheet](http://www.ti.com/lit/ds/symlink/sn74lvc1g04.pdf)
-  - ![](/products/w5500/w5500_evb/icons/download.png) [Octal D-type
-    transparent latch; 3-state 74HC573PW
-    Datasheet](https://assets.nexperia.com/documents/data-sheet/74HC_HCT573.pdf)
-  - ![](/products/w5500/w5500_evb/icons/download.png) [Quad 1-of-2
-    multiplexer 74CBTLV3257PW
-    Datasheet](https://www.nxp.com/docs/en/data-sheet/74CBTLV3257.pdf)
+    CP2104 COM Port Datasheet](https://www.silabs.com/products/interface/usb-bridges/classic-usb-bridges/device.cp2104)
+  - ![](/products/w5500/w5500_evb/icons/download.png) [SINGLE INVERTER GATE SN74LVC1G04DBVR Datasheet](http://www.ti.com/lit/ds/symlink/sn74lvc1g04.pdf)
+  - ![](/products/w5500/w5500_evb/icons/download.png) [Octal D-type transparent latch; 3-state 74HC573PW Datasheet](https://assets.nexperia.com/documents/data-sheet/74HC_HCT573.pdf)
+  - ![](/products/w5500/w5500_evb/icons/download.png) [Quad 1-of-2 multiplexer 74CBTLV3257PW Datasheet](https://www.nxp.com/docs/en/data-sheet/74CBTLV3257.pdf)
 
 **Schematic & Part list**
 
-  - [Go to
-    Github](https://github.com/Wiznet/Hardware-Files-of-WIZnet/tree/master/02_iEthernet/W5100S)
+  - [Go to Github](https://github.com/Wiznet/Hardware-Files-of-WIZnet/tree/master/02_iEthernet/W5100S)
 
 **Dimension**
 
