@@ -10,7 +10,7 @@ date: 2020-04-16
 
 ## Description
 
-![](/products/wiz550s2e/wiz550s2epg_kr/configtool/global_config.png)  
+![](/document_framework/img/products/wiz550s2e/wiz550s2epg_kr/configtool/global_config.png)
 WIZ550S2E Configuration tool is an application program which is based on
 java and can be used in most OS platforms including Windows, MAC OS and
 Linux. Please download .jar file and execute it over Java Virtual
@@ -39,7 +39,7 @@ WIZ550S2E Configuration tool consists four sections
 
 ## Common Configurations
 
-![](/products/wiz550s2e/wiz550s2epg_kr/configtool/common_config.png)
+![](/document_framework/img/products/wiz550s2e/wiz550s2epg_kr/configtool/common_config.png)
 
 ### Search
 
@@ -72,7 +72,7 @@ Users can change the configurations by the following steps.
 
 Firmware will be uploaded through TFTP. Click “F/W Uploading” Button and
 a popup window will shows as follow.  
-![](/products/wiz550s2e/wiz550s2epg_kr/configtool/tftp_server_info.png)  
+![](/document_framework/img/products/wiz550s2e/wiz550s2epg_kr/configtool/tftp_server_info.png)  
 Server IP : TFTP Server IP
 
     Server Port : TFTP Server Port (TFTP default Port : 69)
@@ -150,7 +150,7 @@ This field shows the current status of network connection.
 -----
 ## Network Configurations
 
-![](/products/wiz550s2e/wiz550s2epg_kr/configtool/network_config.png)  
+![](/document_framework/img/products/wiz550s2e/wiz550s2epg_kr/configtool/network_config.png)  
 #### IP 
 This section is for setting WIZ550S2E mode's network information  
 
@@ -296,7 +296,7 @@ having data from serial prior to TCP connection is established.
 
 ## Serial Configurations
 
-![](/products/wiz550s2e/wiz550s2epg_kr/configtool/serial_config.png)
+![](/document_framework/img/products/wiz550s2e/wiz550s2epg_kr/configtool/serial_config.png)
 
 ### USART
 
@@ -352,7 +352,7 @@ chunk of the whole frame without separated ones. This option is for packetizing 
 
 ## Options Configurations
 
-![](/products/wiz550s2e/wiz550s2epg_kr/configtool/option_config.png)
+![](/document_framework/img/products/wiz550s2e/wiz550s2epg_kr/configtool/option_config.png)
 
 ### Module Name
 
