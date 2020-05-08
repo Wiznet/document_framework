@@ -638,23 +638,23 @@ module.exports = {
         type: 'category',
         label: 'Programers Guide',
         items: [
-		'Product/Wi-Fi_Module/WizFi250/Programers Guide/overview',
-		'Product/Wi-Fi_Module/WizFi250/Programers Guide/at_command_set',
-		'Product/Wi-Fi_Module/WizFi250/Programers Guide/io_pin',
-		//'Product/Wi-Fi_Module/WizFi250/Programers Guide/how_to_use_web_configuration',
-		'Product/Wi-Fi_Module/WizFi250/Programers Guide/how_to_upgrade_firmware',
-		'Product/Wi-Fi_Module/WizFi250/Programers Guide/examples_association_disassociation',
-		//'Product/Wi-Fi_Module/WizFi250/Programers Guide/examples_data_communication',
-		'Product/Wi-Fi_Module/WizFi250/Programers Guide/examples_wifi_direct',
-		'Product/Wi-Fi_Module/WizFi250/Programers Guide/appendix',
+		'Product/Wi-Fi_Module/WizFi250/Programers-Guide/overview',
+		'Product/Wi-Fi_Module/WizFi250/Programers-Guide/at_command_set',
+		'Product/Wi-Fi_Module/WizFi250/Programers-Guide/io_pin',
+		//'Product/Wi-Fi_Module/WizFi250/Programers-Guide/how_to_use_web_configuration',
+		'Product/Wi-Fi_Module/WizFi250/Programers-Guide/how_to_upgrade_firmware',
+		'Product/Wi-Fi_Module/WizFi250/Programers-Guide/examples_association_disassociation',
+		//'Product/Wi-Fi_Module/WizFi250/Programers-Guide/examples_data_communication',
+		'Product/Wi-Fi_Module/WizFi250/Programers-Guide/examples_wifi_direct',
+		'Product/Wi-Fi_Module/WizFi250/Programers-Guide/appendix',
 		]
 		},
 		{
         type: 'category',
         label: 'Quick Start Guide',
         items: [
-		'Product/Wi-Fi_Module/WizFi250/Quick Start Guide/1_wizfi250_evaluation_board',
-		'Product/Wi-Fi_Module/WizFi250/Quick Start Guide/2_start_serial_to_wi_fi'
+		'Product/Wi-Fi_Module/WizFi250/Quick-Start-Guide/1_wizfi250_evaluation_board',
+		'Product/Wi-Fi_Module/WizFi250/Quick-Start-Guide/2_start_serial_to_wi_fi'
 		]
 		},
 		'Product/Wi-Fi_Module/WizFi250/wizfi250_evb_if_fimension',
