@@ -43,8 +43,8 @@ basic network information.
         address allocation. The manufacturer which produces the network
         device allocates the MAC address to product.
       - Details on MAC address allocation refer to the website as below.
-      - <http://www.ieee.org/>
-      - <http://standards.ieee.org/regauth/oui/index.shtml>
+      - 🌎http://www.ieee.org/>
+      - 🌎http://standards.ieee.org/regauth/oui/index.shtml>
 2.  GAR(Gateway Address Register)
 3.  SUBR(Subnet Mask Register)
 4.  SIPR(Source IP Address Register)
@@ -54,7 +54,7 @@ basic network information.
 This stage sets the socket tx/rx memory information. The base address
 and mask address of each socket are fixed and saved in this stage.
 
-<B>*In case of, assign 2KB rx, tx memroy per SOCKET*</B>
+***In case of, assign 2KB rx, tx memroy per SOCKET***
 
 ``` c
 In case of, assign 2KB rx, tx memory per SOCKET
