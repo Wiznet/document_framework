@@ -285,7 +285,7 @@ Event occurred.</td>
   
   
   
-\* **Format:** 
+ * **Format:** 
 
     AT+NSET=<DHCP>,<IP>,<SN>,<GW>,<DNS>
 
@@ -333,7 +333,7 @@ Event occurred.</td>
   
   
   
-\* **Format:** 
+ * **Format:** 
 
     AT+NSTAT
 
@@ -377,7 +377,7 @@ Event occurred.</td>
   
   
   
-\* **Format:** 
+  * **Format:** 
 
     AT+NMAC
 
@@ -433,7 +433,7 @@ Event occurred.</td>
   
   
   
-\* **Format:** 
+  * **Format:** 
 
     AT+NOPEN=<SockType>,<SrcPort>,<DstIP>,<DstPort>
 
@@ -502,7 +502,7 @@ Event occurred.</td>
   
   
   
-\* **Format:** 
+  * **Format:** 
 
     AT+NCLOSE=(SockId)
 
@@ -545,7 +545,7 @@ Event occurred.</td>
      AT+NSEND
   
   
-\* **Format:** 
+  * **Format:** 
 
     AT+NSEND=<SockId>,<size>,<DstIP>,<DstPort>
 
@@ -667,7 +667,7 @@ S = Server, C = Client, U = UDP, M = Mixed TCP(Server/Client)
   
   
   
-\* **Format:** 
+  * **Format:** 
 
 ``` 
 AT
@@ -694,7 +694,7 @@ AT
   
   
   
-\* **Format:** 
+  * **Format:** 
 
     AT+MSTAT
 
@@ -721,7 +721,7 @@ AT
   
   
   
-\* **Format:** 
+  * **Format:** 
 
     AT+MUSART=<BR>,<W>,<P>,<S>,<F>
 
@@ -792,7 +792,7 @@ AT
 
 
 -----
-\* **Example1:** 
+  * **Example1:** 
 
     AT+MUSART
 
@@ -839,7 +839,7 @@ AT
   
   
   
-\* **Format:** 
+ * **Format:** 
 
     AT+MRST
 
@@ -863,7 +863,7 @@ AT
      AT+MDATA
   
   
-\* **Format:** 
+ * **Format:** 
 
     AT+MDATA
 
@@ -886,7 +886,7 @@ AT
   
   
   
-\* **Format:** 
+  * **Format:** 
 
     AT+MSAVE
 
@@ -926,7 +926,7 @@ in Configuration Tool.
   
   
   
-\* **Format:** 
+  * **Format:** 
 
     AT+FDNS
 
