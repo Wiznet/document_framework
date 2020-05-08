@@ -607,7 +607,7 @@ module.exports = {
         type: 'category',
         label: 'Other Resource',
         items: [
-		'Product/Wi-Fi_Module/WizFi360/Other Resource/w600_sdk'
+		'Product/Wi-Fi_Module/WizFi360/Other-Resource/w600_sdk'
 		]
 		}
 		],
