@@ -4,8 +4,6 @@ title: Exercise 3. Switch(Eng)
 date: 2020-04-08
 ---
 
-
-## Content
 # Exercise 3. Blinking LED with a switch
 
 ## Outline
@@ -67,6 +65,7 @@ int main() {
 }
 ```
 
+
 ### How to run and test result
 
 DigitalOut myled(LED1) part configures LED1 as an output mode. DigitalIn
@@ -80,11 +79,13 @@ When you release the button, the LED turns off.
 
 To learn Class and API like the DigitalOut and DigitalIn parts of the
 above example code, refer to the mbed Handbook page.
-🌎<https://developer.mbed.org/handbook/Homepage>
+🌎https://developer.mbed.org/handbook/Homepage
+
 
 ## Related Links
 
    * [Starter Kit Tutorial](Tutorial(Eng).md)
+
 
 ## Next Exercise
 

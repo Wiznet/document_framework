@@ -5,7 +5,6 @@ date: 2020-04-08
 ---
 
 
-## Content
 # Exercise 5. Reading the analog value using a variable resistor
 
 ## Outline
@@ -15,6 +14,7 @@ This is an exercise to read Analog values made by variable resistor
 embedded in WIZwiki board is used. User can learn how to read sensor's
 analog output data.
 
+
 ## What you need
 
   - WIZwiki-W7500
@@ -23,6 +23,7 @@ analog output data.
   - Jumper wire
   - Rotary Potentiometer (10K Ohm)
 
+
 ## Hardware
 
 ### The Circuit
@@ -30,12 +31,13 @@ analog output data.
 This is the circuit for this example.
 ![](/document_framework/img/products/wizwiki_mbed_kit/kit_en/5_potentiometer_schem.png)
 
+
 ### Connections
 
-![WIZwiki and a variable
-resistor](/document_framework/img/products/wizwiki_mbed_kit/kit_en/5_board_all.jpg)
+![WIZwiki and a variable resistor](/document_framework/img/products/wizwiki_mbed_kit/kit_en/5_board_all.jpg)
 ![](/document_framework/img/products/wizwiki_mbed_kit/kit_en/5_board_analog1.jpg)
 ![](/document_framework/img/products/wizwiki_mbed_kit/kit_en/5_board_analog2.jpg)
+
 
 ## Software
 
@@ -71,6 +73,7 @@ int main() {
 }
 ```
 
+
 ### How to run and test result
 
 When you download the compiled binary to the WIZwiki board and push the
@@ -87,19 +90,19 @@ turns off.
 The WIZwiki board can read analog values from external circuit and
 convert them to digital values.
 
+
 ## Learning Resources
 
-🌎[Potentiometer, from
-wikipedia](https://en.wikipedia.org/wiki/Potentiometer)
+🌎[Potentiometer, from wikipedia](https://en.wikipedia.org/wiki/Potentiometer)
 
-🌎[Analog-to-digital converter, from
-wikipedia](https://en.wikipedia.org/wiki/Analog-to-digital_converter)
+🌎[Analog-to-digital converter, from wikipedia](https://en.wikipedia.org/wiki/Analog-to-digital_converter)
+
 
 ## Related Links
 
   * [Starter Kit Tutorial](Tutorial(Eng).md)
 
-## Next Exercise
 
+## Next Exercise
 
   * [Exercise 6. Reading the temperature sensor value](Exercise_6._Temperature_sensor(Eng).md)

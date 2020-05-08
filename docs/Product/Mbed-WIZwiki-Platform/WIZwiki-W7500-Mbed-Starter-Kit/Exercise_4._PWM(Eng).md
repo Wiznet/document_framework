@@ -4,8 +4,6 @@ title: Exercise 4. PWM(Eng)
 date: 2020-04-08
 ---
 
-
-## Content
 # Exercise 4. Ringing a buzzer with PWM
 
 ## Outline
@@ -17,6 +15,7 @@ WIZwiki board can makes various digital waveform. Using this PWM, user
 can make high or low tone sound, control LED brightness and control
 motor speeds.
 
+
 ## What you need
 
   - WIZwiki-W7500
@@ -25,6 +24,7 @@ motor speeds.
   - Jumper wire
   - Magnetic Buzzer
 
+
 ## Hardware
 
 ### The Circuit
@@ -32,9 +32,11 @@ motor speeds.
 This is the circuit for this example.
 ![](/document_framework/img/products/wizwiki_mbed_kit/kit_en/4_pwm_buzzer_schem.png)
 
+
 ### Connections
 
 ![](/document_framework/img/products/wizwiki_mbed_kit/kit_en/4_board_all.jpg)
+
 
 ## Software
 
@@ -112,15 +114,17 @@ simple music.
 
   - PWM
 
-🌎<https://en.wikipedia.org/wiki/Pulse-width_modulation>
+🌎https://en.wikipedia.org/wiki/Pulse-width_modulation
 
   - Piano key frequencies
 
-🌎<https://en.wikipedia.org/wiki/Piano_key_frequencies>
+🌎https://en.wikipedia.org/wiki/Piano_key_frequencies
+
 
 ## Related Links
 
    * [Starter Kit Tutorial](Tutorial(Eng).md)
+
 
 ## Next Exercise
 
