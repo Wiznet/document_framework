@@ -23,7 +23,8 @@ HOST Process.
 
 -----
 
-- MCU : - Used program:
+ - MCU
+ - Used program
 
 
 
@@ -59,5 +60,5 @@ HOST Process.
 | ------- | ---------- | --------------------------------------------------------------------------------------------------------------- | --------------- |
 | 1.0.0   | 2018-05-25 | ![W5100S\_EVB\_AN\_CoIDE\_IPRAW\_V100.zip](/document_framework/img/products/w5100s/application/w5100s_evb_an_coide_ipraw_v100.zip.zip) | Initial Version |
 
-For more information [W5100S](/products/w5100s/datasheet) chip please
+For more information [W5100S]() chip please
 also refer to the chip's datasheet:
