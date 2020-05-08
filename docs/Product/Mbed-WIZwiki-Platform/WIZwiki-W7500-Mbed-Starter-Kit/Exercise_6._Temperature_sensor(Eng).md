@@ -4,8 +4,6 @@ title: Exercise 6. Temperature sensor(Eng)
 date: 2020-04-08
 ---
 
-
-## Content
 # Tutorial Example 6. Reading the temperature sensor value
 
 ## summary
@@ -41,7 +39,7 @@ Here is an example code.
 
 Open the page below and compile by importing the program with "Import this program".
 
-🌎<https://developer.mbed.org/teams/IOP/code/Temp36_HelloWorld_WIZwiki-W7500/>
+🌎https://developer.mbed.org/teams/IOP/code/Temp36_HelloWorld_WIZwiki-W7500/
 
 Or, compile after copying and pasting the following code to main.c in the mbed environment.
 
