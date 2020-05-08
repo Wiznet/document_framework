@@ -4,6 +4,7 @@ title: Electrical Characteristics
 date: 2020-04-03
 ---
 
+
 ## Absolute maximum ratings
 
 These are stress ratings only and functional operation of the device at
@@ -977,6 +978,6 @@ for extended periods may affect device reliability.
   </tr>
 </table>
 
+
 ## Package footprint information
 ![Figure 4 Package Footprint Information](/document_framework/img/products/w7500/overview/package_footprint_information.jpg)
-
