@@ -97,4 +97,4 @@ Refer to the link below for the specifications of the illuminance sensor.
 
 ## Related Links
 
- * [Starter Kit Tutorial]()
+ * [Starter Kit Tutorial](Tutorial(Eng).md)
