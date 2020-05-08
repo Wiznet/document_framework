@@ -4,9 +4,6 @@ title: Migration from W5200
 date: 2020-04-03
 ---
 
-
-## Content
-
 # Migration from W5200 to W5500
 
 This page explains migration materials to W5200 users.
