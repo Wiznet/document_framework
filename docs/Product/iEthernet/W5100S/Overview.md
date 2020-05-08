@@ -47,8 +47,8 @@ has two types of packages, 48 Pin LQFP & QFN Lead-Free Package.
 
 
 ## Features
-
-    *Support Hardwired Internet Protocols: TCP, UDP, WOL over UDP, ICMP, IGMPv1/v2, IPv4, ARP, PPPoE
+-
+    * Support Hardwired Internet Protocols: TCP, UDP, WOL over UDP, ICMP, IGMPv1/v2, IPv4, ARP, PPPoE
     * Support 4 Independent Hardware SOCKETs simultaneously
     * Support SOCKET-less Command: ARP-Request, PING-Request
     * Support Ethernet Power Down Mode & Main Clock gating for power save
