@@ -4,8 +4,6 @@ title: Exercise 2. Serial port(Kor)
 date: 2020-04-08
 ---
 
-
-## Content
 # 튜토리얼 예제2. 시리얼 포트를 이용해 데이터 출력하기
 
 ## 개요
