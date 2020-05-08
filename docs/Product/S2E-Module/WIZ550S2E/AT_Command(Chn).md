@@ -341,7 +341,7 @@ So when DHCP is on, they are usually different from actual addresses.
     AT+NSTAT
   
   
-\* **Format:** 
+  * **Format:** 
 
     AT+NSTAT
 
@@ -382,7 +382,7 @@ So when DHCP is on, they are usually different from actual addresses.
     AT+NMAC 
   
   
-\* **Format:** 
+   * **Format:** 
 
     AT+NMAC
 
@@ -438,7 +438,7 @@ So when DHCP is on, they are usually different from actual addresses.
     AT+NOPEN
   
   
-\* **Format:** 
+  * **Format:** 
 
     AT+NOPEN=<SockType>,<SrcPort>,<DstIP>,<DstPort>
 
@@ -503,7 +503,7 @@ So when DHCP is on, they are usually different from actual addresses.
 AT+NCLOSE 
   
   
-\* **Format:** 
+  * **Format:** 
 
     AT+NCLOSE=(SockId)
 
@@ -545,7 +545,7 @@ AT+NCLOSE
     AT+NSEND 
   
   
-\* **Format:** 
+  * **Format:** 
 
     AT+NSEND=<SockId>,<size>,<DstIP>,<DstPort>
 
@@ -614,7 +614,7 @@ AT+NCLOSE
     AT
   
   
-\* **Format:** 
+  * **Format:** 
 ``` 
 AT
 ```
@@ -638,7 +638,7 @@ AT
     AT+MSTAT 
   
   
-\* **Format:** 
+  * **Format:** 
 
     AT+MSTAT
 
@@ -663,7 +663,7 @@ AT
     AT+MUSART
   
   
-\* **Format:**
+  * **Format:**
 
     AT+MUSART=<BR>,<W>,<P>,<S>,<F>
 
@@ -672,9 +672,9 @@ AT
   - **Meaning:** Serial Interface Configuration
 
  \<BR\>: Baud rate  
-^ Parameter ^ Meaning ^
 
-|        |           |
+
+| Parameter       |  Meaning         |
 | ------ | --------- |
 | 300    | 300bps    |
 | 600    | 600bps    |
@@ -734,7 +734,7 @@ AT
 
 
 -----
-\* **Example1:** 
+ * **Example1:** 
 
     AT+MUSART
 
@@ -780,7 +780,7 @@ AT
     AT+MDATA
   
   
-\* **Format:** 
+  * **Format:** 
 
     AT+MDATA
 
@@ -807,7 +807,7 @@ AT
     AT+FDNS
   
   
-\* **Format:** 
+  * **Format:** 
 
     AT+FDNS
 
