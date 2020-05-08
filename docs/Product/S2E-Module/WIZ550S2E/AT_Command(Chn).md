@@ -615,10 +615,9 @@ AT+NCLOSE
   
   
   * **Format:** 
-``` 
-AT
-```
-
+>
+      
+      AT
 
 
   - **Meaning:** Terminal Check
