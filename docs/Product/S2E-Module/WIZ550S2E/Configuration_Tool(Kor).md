@@ -10,7 +10,7 @@ date: 2020-03-
 
 ## Description
 
-![](/products/wiz550s2e/wiz550s2epg_kr/configtool/global_config.png)  
+![](/document_framework/img/products/wiz550s2e/wiz550s2epg_kr/configtool/global_config.png)  
 [WIZnet Configuration tool](/products/wiz550s2e/wiz550s2e_download)은
 WIZ550S2E사용자를 위한 프로그램으로 손쉽게 모듈을 설정하여 serial to ethernet 통신을 가능 하도록 합니다.
 그리고 java 기반으로 구현되어 대부분의 OS Platform에서 사용이 가능합니다. .jar 파일을 다운로드해서 Java
@@ -36,7 +36,7 @@ WIZnet Configuration tool은 다음과 같이 크게 네개 부분으로 구성�
 
 ## Common Configurations
 
-![](/products/wiz550s2e/wiz550s2epg_kr/configtool/common_config.png)  
+![](/document_framework/img/products/wiz550s2e/wiz550s2epg_kr/configtool/common_config.png)  
 ### ①Search
 Search 기능은 같은 LAN 상에 존재하는 모든 모듈을 검색하는 데 사용됩니다. UDP
 브로드캐스트를 사용하여, 동일한 Subnet 상의 모든 모듈이 검색되면, 해당 모듈의 MAC Address가 표시
@@ -54,7 +54,7 @@ Search 기능은 같은 LAN 상에 존재하는 모든 모듈을 검색하는 �
     3. "Setting" 버튼을 누르면, 패스워드 입력창이 뜹니다.
       - 기본 패스워드는 "WIZnet" 입니다.
 
-![](/products/wiz550s2e/wiz550s2epg_kr/configtool/password.png)
+![](/document_framework/img/products/wiz550s2e/wiz550s2epg_kr/configtool/password.png)
 
     4. "Setting Password"를 입력하고 OK 버튼을 누르면, configuration 작업이 완료되며,
     5. 변경된 configuration으로 초기화 됩니다. (모듈이 자동으로 re-booting 됨)
@@ -63,7 +63,7 @@ Search 기능은 같은 LAN 상에 존재하는 모든 모듈을 검색하는 �
 
 TFTP를 통하여 펌웨어를 업로드 합니다. "F/W Uploading" 버튼을 누르면 아래의 창이 뜨며, 설정 정보들을 입력한 뒤
 "OK" 버튼을 누르면 업데이트가 진행됩니다.  
-![](/products/wiz550s2e/wiz550s2epg_kr/configtool/tftp_server_info.png)
+![](/document_framework/img/products/wiz550s2e/wiz550s2epg_kr/configtool/tftp_server_info.png)
 
     Server IP : 
         TFTP 서버 IP
@@ -143,7 +143,7 @@ Configuration tool 프로그램을 종료합니다.
 
 ## Network Configurations
 
-![](/products/wiz550s2e/wiz550s2epg_kr/configtool/network_config.png)
+![](/document_framework/img/products/wiz550s2e/wiz550s2epg_kr/configtool/network_config.png)
 
 ### ①IP
 
@@ -251,7 +251,7 @@ UDP 모드에서는 TCP와 같은 연결 과정이 없으므로, 상대방의 IP
 
 ## Serial Configurations
 
-![](/products/wiz550s2e/wiz550s2epg_kr/configtool/serial_config.png)
+![](/document_framework/img/products/wiz550s2e/wiz550s2epg_kr/configtool/serial_config.png)
 
 ### ①USART
 
@@ -302,7 +302,7 @@ WIZ550S2E는 Time, Size, Character의 3가지의 조건을 제공한다.
 
 ## Options Configurations
 
-![](/products/wiz550s2e/wiz550s2epg_kr/configtool/option_config.png)
+![](/document_framework/img/products/wiz550s2e/wiz550s2epg_kr/configtool/option_config.png)
 
 ### ①Module Name
 
