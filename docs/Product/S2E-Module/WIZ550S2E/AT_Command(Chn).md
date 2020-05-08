@@ -670,7 +670,7 @@ AT+NCLOSE
 
   - **Meaning:** Serial Interface Configuration
 
- **Baud rate**  
+ br&#60;: Baud rate  
 
 
 | Parameter       |  Meaning         |
