@@ -4,8 +4,6 @@ title: Exercise 2. Serial port(Eng)
 date: 2020-04-08
 ---
 
-
-## Content
 # Tutorial Exercise 2. Data Output using Serial Port
 
 ## Outline
