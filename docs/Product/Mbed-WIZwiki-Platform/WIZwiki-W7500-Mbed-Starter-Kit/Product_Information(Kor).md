@@ -4,8 +4,6 @@ title: Product Information(Kor)
 date: 2020-04-08
 ---
 
-
-## Content
 # WIZwiki-W7500 mbed Starter Kit
 
 ## 개요
@@ -93,8 +91,8 @@ ARM mbed 사이트 자료들이다.
    * [WIZwiki-W7500를 위한 시리얼드라이버 설치하기]()
    * [WIZwiki-W7500에 Firmware 굽기]()
 
+
 #### 관련 페이지로 가기
 
-[WIZwiki-W7500 mbed Starter Kit](/products/wizwiki_mbed_kit/start)  
-[스타터 킷 튜토리얼 (예제로
-따라해보기)](/products/wizwiki_mbed_kit/kit_kr/tutorial_kr)
+[WIZwiki-W7500 mbed Starter Kit](WIZwiki-W7500_Mbed_Starter_Kit.md)  
+[스타터 킷 튜토리얼 (예제로 따라해보기)](/products/wizwiki_mbed_kit/kit_kr/tutorial_kr)
