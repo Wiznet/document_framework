@@ -92,9 +92,9 @@ The following is an example execution screen. The CDS value and the CDS voltage 
 Refer to the link below for the specifications of the illuminance sensor.
 
 
-  * [Kit data sheet]()
+ * [Kit data sheet]()
 
 
 ## Related Links
 
-   * [Starter Kit Tutorial]()
+ * [Starter Kit Tutorial]()
