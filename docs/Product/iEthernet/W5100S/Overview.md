@@ -48,6 +48,7 @@ has two types of packages, 48 Pin LQFP & QFN Lead-Free Package.
 
 ## Features
 -
+
     * Support Hardwired Internet Protocols: TCP, UDP, WOL over UDP, ICMP, IGMPv1/v2, IPv4, ARP, PPPoE
     * Support 4 Independent Hardware SOCKETs simultaneously
     * Support SOCKET-less Command: ARP-Request, PING-Request
@@ -56,10 +57,10 @@ has two types of packages, 48 Pin LQFP & QFN Lead-Free Package.
     * Support Serial & Parallel Host Interface: High Speed SPI(MODE 0/3), Parallel System Bus with 2 Address signal & 8bits Data
     * Internal 16 Kbytes Memory for TX/ RX Buffers 
     * Not support IP Fragmentation
-    *     Not Maintain ARP-cache Table 
+    * Not Maintain ARP-cache Table 
     * 10BaseT/100BaseTX Ethernet PHY Integrated
     * Support Auto Negotiation (Full/Half Duplex, 10/100 Speed)
-    *     Support Auto-MDIX when Auto-Negotiation Mode.
+    * Support Auto-MDIX when Auto-Negotiation Mode.
     * 3.3V operation with 5V I/O signal tolerance
     * LED outputs (Full/Half Duplex, Link, 10/100 Speed, Active)
     * Two types of packages: 48 Pin LQFP & QFN Lead-Free Package (7x7mm, 0.5mm pitch)
