@@ -4,8 +4,6 @@ title: Exercise 7. Photoresistor(Kor)
 date: 2020-04-08
 ---
 
-
-## Content
 # 튜토리얼 예제7. 조도 센서 값 읽어내기
 
 ## 개요
@@ -83,6 +81,7 @@ int main() {
     }
 }
 ```
+
 
 ### 실행 방법 및 결과
 
