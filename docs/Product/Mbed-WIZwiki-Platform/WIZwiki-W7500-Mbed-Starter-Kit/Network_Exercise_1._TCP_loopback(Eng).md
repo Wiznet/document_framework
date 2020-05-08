@@ -4,8 +4,6 @@ title: Network Exercise 1. TCP loopback(Eng)
 date: 2020-04-08
 ---
 
-
-## Content
 # Network Exercise 1. Testing TCP loopback communication
 
 ## Outline
