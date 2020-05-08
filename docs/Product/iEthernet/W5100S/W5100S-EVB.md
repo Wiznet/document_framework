@@ -153,18 +153,17 @@ For More information about DMA, click
 
 **Datasheet**
 
-  - ![](/products/w5500/w5500_evb/icons/link.png) [datasheet\#W5100S Datasheet](/products/w5100S/datasheet#W5100S%20Datasheet)
-  - ![](/products/w5500/w5500_evb/icons/download.png)
-    [STMicroelectronics STM32F103VCT6 Datasheet](http://www.st.com/en/microcontrollers/stm32f103vc.html)
-  - ![](/products/w5500/w5500_evb/icons/download.png) [Virtual COM Port:
+  - 🌎[datasheet\#W5100S Datasheet](/products/w5100S/datasheet#W5100S%20Datasheet)
+  - 🌎[STMicroelectronics STM32F103VCT6 Datasheet](http://www.st.com/en/microcontrollers/stm32f103vc.html)
+  - 🌎[Virtual COM Port:
     CP2104 COM Port Datasheet](https://www.silabs.com/products/interface/usb-bridges/classic-usb-bridges/device.cp2104)
-  - ![](/products/w5500/w5500_evb/icons/download.png) [SINGLE INVERTER GATE SN74LVC1G04DBVR Datasheet](http://www.ti.com/lit/ds/symlink/sn74lvc1g04.pdf)
-  - ![](/products/w5500/w5500_evb/icons/download.png) [Octal D-type transparent latch; 3-state 74HC573PW Datasheet](https://assets.nexperia.com/documents/data-sheet/74HC_HCT573.pdf)
-  - ![](/products/w5500/w5500_evb/icons/download.png) [Quad 1-of-2 multiplexer 74CBTLV3257PW Datasheet](https://www.nxp.com/docs/en/data-sheet/74CBTLV3257.pdf)
+  - 🌎[SINGLE INVERTER GATE SN74LVC1G04DBVR Datasheet](http://www.ti.com/lit/ds/symlink/sn74lvc1g04.pdf)
+  - 🌎[Octal D-type transparent latch; 3-state 74HC573PW Datasheet](https://assets.nexperia.com/documents/data-sheet/74HC_HCT573.pdf)
+  - 🌎[Quad 1-of-2 multiplexer 74CBTLV3257PW Datasheet](https://www.nxp.com/docs/en/data-sheet/74CBTLV3257.pdf)
 
 **Schematic & Part list**
 
-  - [Go to Github](https://github.com/Wiznet/Hardware-Files-of-WIZnet/tree/master/02_iEthernet/W5100S)
+  - 🌎[Go to Github](https://github.com/Wiznet/Hardware-Files-of-WIZnet/tree/master/02_iEthernet/W5100S)
 
 **Dimension**
 
@@ -177,10 +176,10 @@ For More information about DMA, click
 
 ## See Also
 
-![](/products/w5500/w5500_evb/icons/link.png) [WIZnet Website - W5100S](https://www.wiznet.io/product-item/w5100s) : W5100S Chip
+🌎[WIZnet Website - W5100S](https://www.wiznet.io/product-item/w5100s) : W5100S Chip
 features, Pin assignment and Hardware Ref. Design Guide
 
-![](/products/w5500/w5500_evb/icons/link.png) [WizWiki Forum](https://forum.wiznet.io) : WIZnet Forum for Technical support and
+🌎[WizWiki Forum](https://forum.wiznet.io) : WIZnet Forum for Technical support and
 Project shared
 
 -----
