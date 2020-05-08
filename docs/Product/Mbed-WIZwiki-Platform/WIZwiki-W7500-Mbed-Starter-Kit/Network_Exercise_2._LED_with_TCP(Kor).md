@@ -4,8 +4,6 @@ title: Network Exercise 2. LED with TCP(Kor)
 date: 2020-04-08
 ---
 
-
-## Content
 # 네트워크 예제2. TCP 통신으로 LED 제어하기
 
 ## 개요
@@ -55,7 +53,7 @@ WIZwiki 보드를 USB 케이블로 연결한다.
 
 아래 페이지의 예제 코드를 사용한다.
 
-🌎<https://developer.mbed.org/teams/WIZnet/code/TCP_LED_Control-WIZwiki-W7500/>
+🌎https://developer.mbed.org/teams/WIZnet/code/TCP_LED_Control-WIZwiki-W7500/
 
 ### 실행 방법 및 결과
 
@@ -118,8 +116,7 @@ WIZwiki 보드가 메시지를 반대의 순서로 TCP Client로 보낸다.
 
 가 있다.
 
-  - 🌎[WIZnetInterface
-    페이지](https://developer.mbed.org/teams/WIZnet/code/WIZnetInterface/)
+  - 🌎[WIZnetInterface 페이지](https://developer.mbed.org/teams/WIZnet/code/WIZnetInterface/)
     
 
 ## 관련 링크
