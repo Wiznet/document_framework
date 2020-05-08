@@ -4,8 +4,6 @@ title: Exercise 7. Photoresistor(Eng)
 date: 2020-04-08
 ---
 
-
-## Content
 # Tutorial Example 7. Reading light sensor value
 
 ## summary
@@ -41,7 +39,7 @@ Here is an example code.
 
 Open the page below and compile by importing the program with "Import this program".
 
-🌎<https://developer.mbed.org/teams/IOP/code/CDS_HelloWorld_WIZwiki-W7500/>
+🌎https://developer.mbed.org/teams/IOP/code/CDS_HelloWorld_WIZwiki-W7500/
 
 Or, compile after copying and pasting the following code to main.c in the mbed environment.
 
