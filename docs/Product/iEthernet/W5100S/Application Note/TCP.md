@@ -39,8 +39,8 @@ basic Network Information.
         address allocation. The manufacturer which produces the Network
         device allocates the MAC Address to product.
       - Details on MAC address allocation refer to the website as below.
-      - <http://www.ieee.org/>
-      - <http://standards.ieee.org/regauth/oui/index.shtml>
+      - 🌎http://www.ieee.org/
+      - 🌎http://standards.ieee.org/regauth/oui/index.shtml
 2.  GAR(Gateway Address Register)
 3.  SUBR(Subnet Mask Register)
 4.  SIPR(Source IP Address Register)
@@ -50,7 +50,7 @@ basic Network Information.
 This stage shows SOCKET n TX/RX Buffer Information. The base Address and
 Mask Address of each SOCKET are set in this stage.
 
-<B>*In case of, assign 2KB TX/RX Buffer per SOCKET*</B>
+***In case of, assign 2KB TX/RX Buffer per SOCKET**
 
 ``` c
 In case of, assign 2KB TX/RX Buffer per SOCKET
@@ -98,12 +98,12 @@ SERVER’. TCP also provides reliable, ordered and error-checked delivery
 of a stream Data between applications running on hosts communicating by
 an IP network. ‘TCP SERVER’ and ‘TCP CLIENT’ are maintaining transmit
 and receive Data until the TCP connection is terminated. ![TCP SERVER
-and TCP CLIENT](/products/w5500/application/serverclient.jpg)
+and TCP CLIENT](/document_framework/img/products/w7500p/serverclient.jpg)
 
 ### TCP SERVER
 
 ![TCP SERVER Operation
-Flow](/products/w5500/application/server_flow.jpg)
+Flow](/document_framework/img/products/w7500p/server_flow.jpg)
 
 #### SOCKET Initialization
 
