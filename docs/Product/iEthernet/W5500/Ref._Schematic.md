@@ -52,22 +52,22 @@ The RJ45 from UDE (RB1-125BAG1A) is used in many of our **W5100** and
 #### External Transformer
 
 \- H1102NL from Pulse
-[datasheet](http://wizwiki.net/wiki/lib/exe/fetch.php?media=products:w5500:01.h1102nl_h325.pdf)  
+[datasheet](/document_framework/img/products/w5500/01.h1102nl_h325.pdf)  
 \- LCZ3A1CB from CETUS
-[datasheet](http://wizwiki.net/wiki/lib/exe/fetch.php?media=products:w5500:02.lcz3a1cb.pdf)  
+[datasheet](/document_framework/img/products/w5500/02.lcz3a1cb.pdf)  
 
 #### RJ45 with integrated Transformer
 
 \- J1B121ZCCD from CETUS
-[datasheet](http://wizwiki.net/wiki/lib/exe/fetch.php?media=products:w5500:1.j1b121zccd-v0-101115.pdf)  
+[datasheet](/document_framework/blob/master/static/img/products/w5500/1.j1b121zccd-v0-101115.pdf)  
 \- J1B1211CCD from CETUS (used in \*1)
-[datasheet](http://wizwiki.net/wiki/lib/exe/fetch.php?media=products:w5500:2.j1b1211ccd.pdf)  
+[datasheet](/document_framework/img/products/w5500/2.j1b1211ccd.pdf)  
 \- RB1-1D5B8K1A from UDE
-[datasheet](http://wizwiki.net/wiki/lib/exe/fetch.php?media=products:w5500:3.rb1-1d5b8k1a_287-00_.pdf)  
+[datasheet](/document_framework/img/products/w5500/3.rb1-1d5b8k1a_287-00_.pdf)  
 \- RB1-125BAG1A from UDE (used in \*2)
-[datasheet](http://wizwiki.net/wiki/lib/exe/fetch.php?media=products:w5500:rb1-125bag1a_111-00_.pdf)  
+[datasheet](/document_framework/img/products/w5500/rb1-125bag1a_111-00_.pdf)  
 \- J0011D21BNL from Pulse
-[datasheet](http://wizwiki.net/wiki/lib/exe/fetch.php?media=products:w5500:4.j0011d21bnl.pdf)  
+[datasheet](/document_framework/img/products/w5500/4.j0011d21bnl.pdf)  
   
 \*1) we use the J1B1211CCD from CETUS in our
 **[W5500-EVB](/products/w5500/w5500_evb/start)**,
