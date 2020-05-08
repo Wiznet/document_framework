@@ -6,23 +6,22 @@ date: 2020-04-03
 
 ----
 
-
 ## Data Sheet
 
 #### Korean
  * [W5100S Datasheet v1.2.5](/document_framework/img/products/w5100s/w5100s_ds_v125k.pdf)
 #### English
- * [W5100S Datasheet v1.2.5](/document_framework/img/products/w5100s/w5100s_ds_v125e.pdf)
+ * [W5100S Datasheet v1.2.5](img/products/w5100s/w5100s_ds_v125e.pdf)
 
 ----
 
 
 ## W5100S vs W5100 Comparison Sheet
 #### Korean
- * [W5100S vs W5100 Comparison Sheet v1.1.0](https://wizwiki.net/wiki/lib/exe/fetch.php?media=products:w5100s:application:w5100svsw5100_cs_v110k.pdf)
+ * [W5100S vs W5100 Comparison Sheet v1.1.0](/document_framework/img/products/w5100s/application/w5100svsw5100_cs_v110k.pdf)
 
 #### English
- * [W5100S vs W5100 Comparison Sheet v1.1.0](https://wizwiki.net/wiki/lib/exe/fetch.php?media=products:w5100s:application:w5100svsw5100_cs_v110e.pdf)
+ * [W5100S vs W5100 Comparison Sheet v1.1.0](/document_framework/img/products/w5100s/application/w5100svsw5100_cs_v110e.pdf)
 
 ----
 
