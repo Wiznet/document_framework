@@ -39,8 +39,8 @@ basic network information.
         address allocation. The manufacturer which produces the network
         device allocates the MAC address to product.
       - Details on MAC address allocation refer to the website as below.
-      - <http://www.ieee.org/>
-      - <http://standards.ieee.org/regauth/oui/index.shtml>
+      - 🌎http://www.ieee.org/
+      - 🌎http://standards.ieee.org/regauth/oui/index.shtml
 2.  GAR(Gateway Address Register)
 3.  SUBR(Subnet Mask Register)
 4.  SIPR(Source IP Address Register)
@@ -50,7 +50,7 @@ basic network information.
 This stage sets the socket TX/RX memory information. The base address
 and mask address of each SOCKET are fixed and saved in this stage.
 
-<B>*In case of, assign 2Kbytes TX/RX memory per SOCKET*</B>
+***In case of, assign 2Kbytes TX/RX memory per SOCKET***
 
 ``` c
 In case of, assign 2Kbytes TX/RX memory per SOCKET
@@ -86,7 +86,7 @@ host retransmits damaged data or ignores the unwanted data which is
 received from others. The UDP protocol supports unicast, broadcast, and
 multicast communication. It follows the below communication flow.
 
-![UDP Operation Flow](/products/w5500/application/udp_flow.jpg)
+![UDP Operation Flow](/document_framework/img/products/w5500/application/udp_flow.jpg)
 
 ### Unicast and Broadcast
 
@@ -147,7 +147,7 @@ Check the reception of UDP data from destination. User can also check
 for received data via TCP communication. It is strongly recommended to
 use the second method because of the same reasoning from TCP. Please
 refer to the “TCP SERVER” section. [TCP
-SERVER](http://wizwiki.net/wiki/doku.php?id=products:W5100S:application:tcp_function)
+SERVER](tcp.md)
 
 ``` c
 First method :
@@ -167,7 +167,7 @@ Process the received UDP data in Internal RX memory.
 The structure of received UDP data is as below.
 
 ![The Received UDP data
-format](/products/w5500/application/received_udp_data.jpg)
+format](/document_framework/img/products/w5500/application/received_udp_data.jpg)
 
 The received UDP data consists of 8bytes PACKET-INFO, and DATA packet.
 The PACKET-INFO contains transmitter’s information (IP address, Port
@@ -354,12 +354,12 @@ if (Sn_SR != SOCK_UDP) Sn_CR = CLOSE; goto START;
 Refer to the “Unicast & Broadcast.” section.
 
 [Unicast &
-Broadcast](http://wizwiki.net/wiki/doku.php?id=products:w5100s:application:udp_function#unicast_and_broadcast)
+Broadcast](udp.md#unicast_and_broadcast)
 
 ##### Receiving process
 
 Refer to the “Unicast & Broadcast.” section. [Unicast &
-Broadcast](http://wizwiki.net/wiki/doku.php?id=products:w5100s:application:udp_function#unicast_and_broadcast)
+Broadcast](udp.md#unicast_and_broadcast)
 
 ##### Check send data / Sending Process
 
@@ -418,4 +418,4 @@ S0_IR(SENDOK) = ‘1’; /* clear previous interrupt of SEND completion */
 ##### Check finished / SOCKET close
 
 Refer to the “Unicast & Broadcast.” section. [Unicast &
-Broadcast](http://wizwiki.net/wiki/doku.php?id=products:w5100s:application:udp_function#unicast_and_broadcast)
+Broadcast](udp.md#unicast_and_broadcast)
