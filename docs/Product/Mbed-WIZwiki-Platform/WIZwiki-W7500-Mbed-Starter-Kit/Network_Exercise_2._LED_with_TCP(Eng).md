@@ -5,7 +5,6 @@ date: 2020-04-08
 ---
 
 
-## Content
 # Network Exercise 2. Controlling LED with TCP communication
 
 ## Outline
@@ -36,6 +35,7 @@ and the WIZwiki board with USB cable.
 
 ![](/document_framework/img/products/wizwiki_mbed_kit/kit_en/tcp_loopback_system_config_en.png)
 
+
 ## Software
 
 ### Test Software
@@ -59,7 +59,7 @@ and the WIZwiki board with USB cable.
 ### Example Code
 
 Use the example code in the page below.
-🌎<https://developer.mbed.org/teams/WIZnet/code/TCP_LED_Control-WIZwiki-W7500/>
+🌎https://developer.mbed.org/teams/WIZnet/code/TCP_LED_Control-WIZwiki-W7500/
 
 ### How to run and test result
 
@@ -114,6 +114,7 @@ Check the LED light on the blue circle turns off.
 
 ![](/document_framework/img/products/wizwiki_mbed_kit/kit_en/tcp_led_on_off.png)
 
+
 ## Learning Resources
 
 The WIZnet team page in the ARM mbed provides mbed libraries and
@@ -124,8 +125,7 @@ examples for WIZnet products.
 There are mbed libraries below which are used for Hardware TCP/IP chip
 (W5500) and WIZnet TCP/IP Offload Engine (W7500).
 
-  - 🌎[WIZnetInterface
-    page](https://developer.mbed.org/teams/WIZnet/code/WIZnetInterface/)
+  - 🌎[WIZnetInterface page](https://developer.mbed.org/teams/WIZnet/code/WIZnetInterface/)
     
 
 ## Related Links
