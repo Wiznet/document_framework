@@ -5,7 +5,6 @@ date: 2020-04-08
 ---
 
 
-## Content
 # 스타터 킷 튜토리얼
 
 스타터 킷 튜토리얼 예제를 실습하기 전에 🌎[mbed 개발자 사이트](https://developer.mbed.org/) 에 접속해
@@ -34,6 +33,7 @@ date: 2020-04-08
 [예제7. 조도 센서 값
 읽어내기](Exercise_7._Photoresistor(Kor).md)  
 
+
 #### 네트워크 기능을 사용하는 예제
 
 [네트워크 예제1. TCP 루프백 통신
@@ -43,9 +43,9 @@ date: 2020-04-08
 
 -----
 
+
 #### 관련 페이지로 가기
 
 [WIZwiki-W7500 mbed Starter Kit](WIZwiki-W7500_Mbed_Starter_Kit.md)  
 [WIZwiki-W7500 mbed Starter Kit 제품
 소개](Product_Information(Kor).md)
-
