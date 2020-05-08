@@ -4,9 +4,6 @@ title: Driver
 date: 2020-04-03
 ---
 
-
-## Content
-
 # Driver
 
 The ioLibrary means **"Internet Offload Library"** for WIZnet chip. It
@@ -54,7 +51,7 @@ Repository**
 
 <https://github.com/Wiznet/ioLibrary_Driver> 
 
-\< ioLibrary\_BSD : old version \>
+<ioLibrary_BSD : old version>
 
 <table>
 <tbody>
@@ -148,7 +145,7 @@ Repository**
 </tbody>
 </table>
 
-**\< Update History \>**
+**Update History**
 
   - ioLibrary\_BSD
       - Ethernet : Berkeley Socket type APIs
@@ -231,7 +228,7 @@ Repository**
           * DNS Client (Domain Name System Client)
 ```
 
-**\< Application code examples : latest version \>**
+**Application code examples : latest version**
 
 <table>
 <tbody>
@@ -278,7 +275,7 @@ DNS Client</td>
 </tbody>
 </table>
 
-\< Application code examples : old version \>
+<Application code examples : old version>
 
 <table>
 <tbody>
@@ -314,14 +311,13 @@ CooCox CoIDE Project</td>
 </tbody>
 </table>
 
-\<WRAP center round important 60%\> **These projects do not contain
-\[Ethernet\] and \[Internet\] codes. (Empty directory)**
+ **These projects do not contain [Ethernet] and [Internet] codes. (Empty directory)**
 
-Please download ioLibrary\_BSD APIs and Application protocols,  
+Please download ioLibrary_BSD APIs and Application protocols,  
 and then insert to each of same named directory in provided project.
-\</WRAP\>
 
-**\< History \>**
+
+**History**
 
   - Application code example
       - Example project was made by CooCox CoIDE with the STM32F103X
@@ -339,7 +335,8 @@ and then insert to each of same named directory in provided project.
                 1.  main.c : refine and rearrange source code for
                     improved DNS code
                     
-                    #### Description
+                    
+ #### Description
 
 This driver provides BSD-type Socket APIs for
 [W5500](/products/w5500/start). Because the function names of this
@@ -516,20 +513,20 @@ connect</td>
       * ** getSn_SR(), getSn_TX_FSR() and getSn_RX_RSR() functions can be used like … like previous drivers. They are not related to IO mode **
 
 
-## 2\. ioLibrary
+## 2. ioLibrary
 
 #### Download
 
-**\< ioLibrary with example project : latest version \>**
+**ioLibrary with example project : latest version**
 
 |              |               |         |      |                                                         |
 | ------------ | ------------- | ------- | ---- | ------------------------------------------------------- |
 |              | Application   | Version | Note | Download Link                                           |
 | Cookie board | Loopback test | 1.0.2   | \-   | ![Click](/document_framework/img/products/w5500/w5500_coocox_project_v102.zip) |
 
-\<Revision History\>
+\<Revision History>
 
-\* v102
+* v102
 
 
   * socket.c(Refer to 2014-03-18)
@@ -543,14 +540,14 @@ connect</td>
   * First release
 
 
-**\< ioLibrary : latest version \>**
+**ioLibrary : latest version**
 
 |                    |                       |         |      |                                              |
 | ------------------ | --------------------- | ------- | ---- | -------------------------------------------- |
 |                    | Description           | Version | Note | Download Link                                |
 | Driver Source code | ioLibrary source code | 1.0.2   | \-   | ![Click](/document_framework/blob/master/static/img/products/w5500/iolibrary_v102.zip) |
 
-**\< ioLibrary : old version \>**
+**ioLibrary : old version**
 
 <table>
 <tbody>
@@ -599,9 +596,7 @@ The figure below shows the folder structure of this ioLibrary.
 This driver has the same BSD as the API for W5200 users. 
 We have been evaluating this code on the __**ARM-CortexM3(STM32F103 series)**__ chipset
 
-\<WRAP left round important 80%\> <span class="underline">This type of
+<span class="underline">This type of
 driver is the final version. We will not update it later.</span>
 <span class="underline">Please use the new (well coded :-)) driver code
-for new projects.</span> \</WRAP\>
-
-
+for new projects.</span>
