@@ -4,8 +4,6 @@ title: Exercise 5. Variable resistor(Kor)
 date: 2020-04-08
 ---
 
-
-## Content
 # 튜토리얼 예제5. 가변저항기의 아날로그 값 읽어내기
 
 ## 개요
@@ -21,6 +19,7 @@ Converter)를 이용한다. 아날로그 값을 출력하는 센서들의 출력
   - Jumper wire
   - Rotary Potentiometer (가변저항기, 10K Ohm)
 
+
 ## 하드웨어
 
 ### 회로도
@@ -29,11 +28,13 @@ Converter)를 이용한다. 아날로그 값을 출력하는 센서들의 출력
 
 ![](/document_framework/img/products/wizwiki_mbed_kit/kit_en/5_potentiometer_schem.png)
 
+
 ### 연결도
 
 ![WIZwiki 와 가변저항 연결도](/document_framework/img/products/wizwiki_mbed_kit/kit_en/5_board_all.jpg)
 ![](/document_framework/img/products/wizwiki_mbed_kit/kit_en/5_board_analog1.jpg)
 ![](/document_framework/img/products/wizwiki_mbed_kit/kit_en/5_board_analog2.jpg)
+
 
 ## 소프트웨어
 
@@ -68,6 +69,7 @@ int main() {
 }
 ```
 
+
 ### 실행 방법 및 결과
 
 가변저항기의 다이얼을 움직여 가며 시리얼 포트의 메시지를 확인한다. 사진과 같이 주기적으로 밀리볼트 (mV) 단위의 measure
@@ -78,19 +80,20 @@ WIZwiki 보드에 장착된 LED1이 켜진다. measure 값이 2000mV 이하이�
 
 WIZwiki 보드는 외부 회로의 아날로그 값을 읽어서 디지털 값으로 변환할 수 있다.
 
+
 ## 학습 자료
 
 🌎[가변저항](https://ko.wikipedia.org/wiki/%EA%B0%80%EB%B3%80%EC%A0%80%ED%95%AD)
 
-🌎[아날로그-디지털
-변환회로(위키백과](https://ko.wikipedia.org/wiki/%EC%95%84%EB%82%A0%EB%A1%9C%EA%B7%B8-%EB%94%94%EC%A7%80%ED%84%B8_%EB%B3%80%ED%99%98%ED%9A%8C%EB%A1%9C)
+🌎[아날로그-디지털 변환회로(위키백과](https://ko.wikipedia.org/wiki/%EC%95%84%EB%82%A0%EB%A1%9C%EA%B7%B8-%EB%94%94%EC%A7%80%ED%84%B8_%EB%B3%80%ED%99%98%ED%9A%8C%EB%A1%9C)
 
-🌎[Analog-to-digital converter, from
-wikipedia](https://en.wikipedia.org/wiki/Analog-to-digital_converter)
+🌎[Analog-to-digital converter, from wikipedia](https://en.wikipedia.org/wiki/Analog-to-digital_converter)
+
 
 ## 관련 링크
 
    * [스타터 킷 튜토리얼](Tutorial(Kor).md)
+
 
 ## 다음 예제
 
