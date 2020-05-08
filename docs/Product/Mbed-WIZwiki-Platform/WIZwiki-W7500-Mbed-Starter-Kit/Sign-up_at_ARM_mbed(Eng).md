@@ -5,10 +5,9 @@ date: 2020-04-08
 ---
 
 
-## Content
 # Sign-up at ARM mbed Developer Site
 
-Go to 🌎<http://mbed.org/> and click on “Developer Site” shown in red
+Go to 🌎http://mbed.org/ and click on “Developer Site” shown in red
 below to login or signup. Please login after signing up.
 
 ![](/document_framework/img/products/wizwiki_w7500_starter_kit_temp/tutorial_kr/100_mbed_org.png)
