@@ -687,36 +687,36 @@ AT+NCLOSE
 | 115200 | 115200bps |
 | 230400 | 230400bps |
 
-\<W\>: Word length  
-^ Parameter ^ Meaning ^
+**Word length**  
 
-|   |        |
-| - | ------ |
+
+|Parameter   |   Meaning     |
+| -- | ------ |
 | 7 | 7 bits |
 | 8 | 8 bits |
 
-\<P\>: Parity bit  
-^ Parameter ^ Meaning ^
+**Parity bit**  
 
-|   |      |
-| - | ---- |
+
+| Parameter  |   Meaning    |
+| -- | ---- |
 | N | NONE |
 | O | ODD  |
 | E | EVEN |
 
-\<S\>: Stop bit  
-^ Parameter ^ Meaning ^
+**Stop bit** 
 
-|   |        |
-| - | ------ |
+
+|Parameter   | Meaning       |
+| -- | ------ |
 | 1 | 1 bits |
 | 2 | 2 bits |
 
-\<F\>: Flow Control  
-^ Parameter ^ Meaning ^
+**Flow Control**  
 
-|   |         |
-| - | ------- |
+
+|Parameter   |Meaning         |
+| -- | ------- |
 | 0 | NONE    |
 | 1 | RTS/CTS |
 | 2 | RS422   |
