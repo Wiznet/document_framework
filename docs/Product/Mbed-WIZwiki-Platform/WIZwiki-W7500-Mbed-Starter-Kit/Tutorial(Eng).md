@@ -4,19 +4,18 @@ title: Tutorial(Eng)
 date: 2020-04-08
 ---
 
-
-## Content
 # Starter Kit Tutorial
 
 Users need to sign up at ARM mbed Developer Site
-🌎(<https://developer.mbed.org/>) before going through this tutorial. This
+🌎(<https://developer.mbed.org/) before going through this tutorial. This
 tutorial was created for users to try each exercise while logged in to
 the ARM mbed Developer Site.
 
+
 ## Sign-up at ARM mbed Developer Site
 
-[Sign-up at ARM mbed Developer
-Site](Sign-up_at_ARM_mbed(Eng).md)  
+[Sign-up at ARM mbed Developer Site](Sign-up_at_ARM_mbed(Eng).md)  
+
 
 ## Tutorial contents
 
@@ -37,6 +36,7 @@ value](Exercise_6._Temperature_sensor(Eng).md)
 [Exercise 7. Reading the intensity of illumination sensor
 value](Exercise_7._Photoresistor(Eng).md)  
 
+
 #### Exercises using network
 
 [Network Exercise 1. Testing TCP loopback
@@ -45,6 +45,7 @@ communication](Network_Exercise_1._TCP_loopback(Eng).md)
 communication](Network_Exercise_2._LED_with_TCP(Eng).md)  
 
 -----
+
 
 #### Related pages
 
