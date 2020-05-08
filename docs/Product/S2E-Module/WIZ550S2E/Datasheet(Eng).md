@@ -5,7 +5,7 @@ date: 2020-04-29
 ---
 
 
-## Content
+
 # Overview
 
 This page provides information about the hardware description of
