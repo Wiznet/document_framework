@@ -4,8 +4,6 @@ title: Exercise 4. PWM(Kor)
 date: 2020-04-08
 ---
 
-
-## Content
 # 튜토리얼 예제4. PWM을 이용해 부저 울리기
 
 ## 개요
@@ -109,11 +107,11 @@ wait(0.1);
 
   - PWM
 
-🌎<https://en.wikipedia.org/wiki/Pulse-width_modulation>
+🌎https://en.wikipedia.org/wiki/Pulse-width_modulation
 
   - Piano key frequencies
 
-🌎<https://en.wikipedia.org/wiki/Piano_key_frequencies>
+🌎https://en.wikipedia.org/wiki/Piano_key_frequencies
 
 ## 관련 링크
 
