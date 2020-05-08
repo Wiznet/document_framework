@@ -4,8 +4,6 @@ title: Exercise 1. LED(Eng)
 date: 2020-04-08
 ---
 
-
-## Content
 # Tutorial Exercise 1. Blinking LED
 
 ## Outline
