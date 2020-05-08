@@ -664,13 +664,13 @@ AT+NCLOSE
   
   * **Format:**
 
-    AT+MUSART=<BR>,<W>,<P>,<S>,<F>
+    AT+MUSART
 
 
 
   - **Meaning:** Serial Interface Configuration
 
- br&#60;: Baud rate  
+ br&#62;: Baud rate  
 
 
 | Parameter       |  Meaning         |
