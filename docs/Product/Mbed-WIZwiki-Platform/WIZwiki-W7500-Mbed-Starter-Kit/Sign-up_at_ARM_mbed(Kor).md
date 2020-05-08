@@ -5,7 +5,6 @@ date: 2020-04-08
 ---
 
 
-## Content
 # mbed 회원 가입하기
 
 mbed.org 에 접속하면 아래와 같은 화면이 나온다. 화면에서 빨간색 표시된 부분 (Developer Site)을 클릭해서
