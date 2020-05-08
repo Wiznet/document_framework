@@ -5,7 +5,6 @@ date: 2020-04-08
 ---
 
 
-## Content
 # 네트워크 예제1. TCP 루프백 통신 테스트하기
 
 ## 개요
@@ -14,6 +13,7 @@ TCP 프로토콜을 사용해서 Loopback 을 실행시켜 보는 예제이다. 
 보드는 TCP Server로 동작시킨다. TCP Client에서 보낸 메시지를 그대로 되돌려 받는 동작을 한다.
 
 W7500의 TOE (TCP/IP Offload Engine)을 이용해서 네트워크를 구동시키는 방법을 학습할 수 있다.
+
 
 ## 준비물
 
@@ -35,6 +35,7 @@ WIZwiki 보드를 USB 케이블로 연결한다.
 
 ![](/document_framework/img/products/wizwiki_mbed_kit/kit_en/tcp_loopback_system_config_en.png)
 
+
 ## 소프트웨어
 
 ### 테스트용 프로그램
@@ -51,11 +52,12 @@ WIZwiki 보드를 USB 케이블로 연결한다.
   - TCP/IP Client Server terminal program
       - EX) Hercules 등
       - TCP/IP Client Server terminal 을 이용해 메시지 송수신에 사용
+      
       ### Example Code
 
 아래 페이지의 예제 코드를 사용한다.
 
-🌎<https://developer.mbed.org/teams/WIZnet/code/TCPEchoServer-WIZwiki-W7500/?platform=WIZwiki-W7500>
+🌎https://developer.mbed.org/teams/WIZnet/code/TCPEchoServer-WIZwiki-W7500/?platform=WIZwiki-W7500
 
 아래 그림에서 빨간색 부분인 "Import this program" 부분을 클릭한다.
 
@@ -68,6 +70,7 @@ WIZwiki 보드를 USB 케이블로 연결한다.
 "Source URL" 과 "Import As" 가 디폴트 값으로 설정되어 있다. "Import Name"도 디폴트로 설정되어
 있는데, 사용자가 원하면 바꿀 수 있다. 빨간색 부분인 "Import"를 클릭하면 mbed 컴파일러 환경으로 프로그램이
 복사된다.
+
 
 ### 실행 방법 및 결과
 
@@ -89,6 +92,7 @@ Client로 보낸다. 아래 그림에서 Loopback 된 메시지를 확인한다.
 
 ![](/document_framework/img/products/wizwiki_mbed_kit/kit_en/ex_tcp_loop_server2.jpg)
 
+
 ## 학습 자료
 
 아래에 위즈네트 제품에 사용할 mbed 라이브러리와 예제들이 있다.
@@ -98,8 +102,7 @@ Client로 보낸다. 아래 그림에서 Loopback 된 메시지를 확인한다.
 아래에 위즈네트의 Hardware TCP/IP chip (W5500) 과 WIZnet TCP/IP Offload Engine
 (W7500)을 위한 mbed 라이브러리가 있다.
 
-  - 🌎[WIZnetInterface
-    페이지](https://developer.mbed.org/teams/WIZnet/code/WIZnetInterface/)
+  - 🌎[WIZnetInterface 페이지](https://developer.mbed.org/teams/WIZnet/code/WIZnetInterface/)
     
 
 ## 관련 링크
