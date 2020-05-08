@@ -4,8 +4,6 @@ title: Exercise 1. LED(Kor)
 date: 2020-04-08
 ---
 
-
-## Content
 # 튜토리얼 예제1. LED 깜박이기
 
 ## 개요
