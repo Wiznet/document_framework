@@ -90,10 +90,10 @@ page of configuration's in github.
 
 ### Configuration Tool 실행 가이드
 
-![](/products/w5500/w5500_evb/icons/github.png)
+![](/document_framework/img/github.png)
 <https://github.com/Wiznet/WIZ550S2E>
 
 ### Source code
 
-![](/products/w5500/w5500_evb/icons/github.png)
+![](/document_framework/img/github.png)
 <https://github.com/Wiznet/WIZnet_Configuration_Tool>
