@@ -189,12 +189,10 @@ Projects using TrueSTUDIO](/products/w5100s/w5100s_evb/make_a_new_projects_trues
 
 ## See Also
 
-![](/products/w5500/w5500_evb/icons/link.png) [WIZnet Website -
-W5100S](https://www.wiznet.io/product-item/w5100s) : W5100S Chip
+![](/products/w5500/w5500_evb/icons/link.png) [WIZnet Website - W5100S](https://www.wiznet.io/product-item/w5100s) : W5100S Chip
 features, Pin assignment and Hardware Ref. Design Guide
 
-![](/products/w5500/w5500_evb/icons/link.png) [WizWiki
-Forum](https://forum.wiznet.io) : WIZnet Forum for Technical support and
+![](/products/w5500/w5500_evb/icons/link.png) [WizWiki Forum](https://forum.wiznet.io) : WIZnet Forum for Technical support and
 Project shared
 
 -----
