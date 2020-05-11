@@ -25,11 +25,11 @@ It shows on the screen through the port. Turns the LED on or off compared to the
 
 The overall circuit diagram is as follows.
 
-![](/products/wizwiki_mbed_kit/kit_kr/cds_sensor_schem.png)
+![](/document_framework/img/products/wizwiki_mbed_kit/kit_en/cds_sensor_schem.png)
 
 ### Connection diagram
 
-![](/products/wizwiki_mbed_kit/kit_kr/exam_cds_sensor.png)
+![](/document_framework/img/products/wizwiki_mbed_kit/kit_en/exam_cds_sensor.png)
 
 ## software
 
@@ -85,7 +85,7 @@ int main() {
 ### Methods and results
 
 The following is an example execution screen. The CDS value and the CDS voltage value measured based on 3.3V are shown alternately.
-! [] (/ products / wizwiki_mbed_kit / kit_kr / cds_sensor_result.jpg)
+! [](/document_framework/img/products/wizwiki_mbed_kit/kit_en/cds_sensor_result.jpg)
 
 ## Learning materials
 
