@@ -14,9 +14,10 @@
 This application note guides user to install Keil uVision MDK-Lite
 version:5.14.0.0 compiler.
 
+
 ## Download MDK
 
-Connect to [keil.com](<http://www.keil.com/>). And then click the
+Connect to [keil.com](http://www.keil.com/). And then click the
 **Downloads** button on the top.
 
 ![](/document_framework/img/products/w7500/overview/keil_1.jpg)
@@ -58,4 +59,3 @@ After downloading is completed, double click the **MDKCM514.EXE** file
 nad then setup process will be started.
 
 ![](/document_framework/img/products/w7500/overview/keil_7.jpg)
-
