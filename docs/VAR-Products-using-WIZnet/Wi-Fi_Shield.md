@@ -149,7 +149,7 @@ module:
 
 ### Wifi Shield V2.0 for Arduino compatible from RobotBase
 
-![edit\_09.robotebase-1.jpg](/oshw_using_wiznet/wifi/edit_09.robotebase-1.jpg)](/Wiznet/document_framework/img/var_products/wifi_shield/edit_09.robotebase-1.jpg)
+![edit\_09.robotebase-1.jpg](/oshw_using_wiznet/wifi/edit_09.robotebase-1.jpg)](/document_framework/img/var_products/wifi_shield/edit_09.robotebase-1.jpg)
 ![edit\_09.robotebase-2.jpg](/document_framework/img/var_products/wifi_shield/edit_09.robotebase-2.jpg)
 
 > 🌎[WiFi Shield
