@@ -85,10 +85,10 @@ firmware writing.
 ![WIZwiki-W7500 Callout](/document_framework/img/products/w7500/overview/wizwiki-w7500_callout.png)  
 
 **WIZwiki-W7500 Detail Pinout**  
-![wizwiki\_w7500\_pinout\_wiki\_150701\_detail.png](/document_framework/img/products/w7500/overview/wizwiki_w7500_pinout_wiki_150701_detail.png)  
+![wizwiki_w7500_pinout_wiki_150701_detail.png](/document_framework/img/products/w7500/overview/wizwiki_w7500_pinout_wiki_150701_detail.png)  
 
 **WIZwiki-W7500 Simple Pinout**  
-![wizwiki\_w7500\_pinout\_wiki\_150701\_simple.png](/document_framework/img/products/w7500/overview/wizwiki_w7500_pinout_wiki_150701_simple.png)  
+![wizwiki_w7500_pinout_wiki_150701_simple.png](/document_framework/img/products/w7500/overview/wizwiki_w7500_pinout_wiki_150701_simple.png)  
 
 -----
 
@@ -128,7 +128,7 @@ firmware writing.
 
 **Datasheet**
 
-   * 🌎[W7500 Documents](Documents.md)
+   * 🌎[W7500 Documents](../../iMCU/W7500/Documents.md)
    * 🌎[IP101GA Datasheet](/document_framework/img/products/w7500/overview/IP101G_DS_R01_20121224.pdf)
    * 🌎[LPC11U35FHI33/501 Datasheet](/document_framework/img/products/w7500/overview/LPC11U3X.pdf)
 
