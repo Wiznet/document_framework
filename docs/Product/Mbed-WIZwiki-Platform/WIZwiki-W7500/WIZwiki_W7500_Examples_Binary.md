@@ -3,17 +3,17 @@
 Writing firmware into WIZwiki-W7500 has four ways.  
 \*Using the CMSIS-DAP (Drag and Drop)
 
-    *[[:products:wizwiki_w7500:start_getting_started:write_firmware:keil_cmsis_dap|Using the CMSIS-DAP]] (through Keil uVision5)
-    *[[products:w7500:documents:appnote:isptool|Go to ISP tool manual & Program download]]
-    *[[:products:wizwiki_w7500:start_getting_started:write_swd_debugger | Using the SWD Debugger]]
+   * [Using the CMSIS-DAP](through Keil uVision5)
+   * [Go to ISP tool manual & Program download]()
+   * [Using the SWD Debugger]()
 
 -----
 
 ## Examples Binary
 
-    *Hardware test & Loop back binary (WIZwiki-W7500 default binary) : {{:products:wizwiki_w7500:getting_started:w7500x_wztoe_manu.zip| Download}}
-    *LED Blink binary : {{:products:wizwiki_w7500:getting_started:wizwki-w7500_led_blink.zip| Download}}
-    *Serial Out binary : {{:products:wizwiki_w7500:getting_started:wizwki-w7500_serial_led.zip| Download}}
+   * Hardware test & Loop back binary (WIZwiki-W7500 default binary) : {{:products:wizwiki_w7500:getting_started:w7500x_wztoe_manu.zip| Download}}
+   * LED Blink binary : ![Download]{{:products:wizwiki_w7500:getting_started:wizwki-w7500_led_blink.zip| Download}}
+   * Serial Out binary :![Download]{{:products:wizwiki_w7500:getting_started:wizwki-w7500_serial_led.zip| Download}}
 
 -----
 
@@ -43,7 +43,7 @@ repeat the steps from step 2.
 
 ### Reference
 
-    *[[:products:wizwiki_w7500:start_getting_started:debugging_w7500#set_flash_algorithm | Set Flash Algorithm]]
+   * [Set Flash Algorithm]
 
 -----
 
