@@ -85,7 +85,7 @@ This example can do both data output and input and is created by the
 WIZnet team. Click the link below and open main.cpp to copy/import/test
 the code.
 
-🌎<https://developer.mbed.org/teams/WIZnet/code/Serial_HelloWorld_WIZwiki-W7500/>
+🌎https://developer.mbed.org/teams/WIZnet/code/Serial_HelloWorld_WIZwiki-W7500/
 
 ## Related Links
 
