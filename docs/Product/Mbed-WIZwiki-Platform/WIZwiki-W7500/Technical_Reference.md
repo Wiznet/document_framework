@@ -4,9 +4,6 @@ title: Technical Reference
 date: 2020-04-07
 ---
 
-## Content
-## Technical Reference
-
 **Datasheet**
 
    * 🌎[W7500 Documents]()
