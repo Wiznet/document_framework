@@ -258,7 +258,7 @@ on the server.
 ## Basic Webpages Demo
 
 The Screenshots of Basic Demo Web Page
-were captured from **Google Chrome Browser version 37** \</WRAP\>
+were captured from **Google Chrome Browser version 37** 
 
 Provided basic demo web page of WIZ550web is in tab style of one HTML
 page (index.html). The configuration and purpose of each tabs are as
