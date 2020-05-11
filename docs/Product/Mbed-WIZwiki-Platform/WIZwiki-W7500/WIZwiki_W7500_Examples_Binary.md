@@ -11,9 +11,9 @@ Writing firmware into WIZwiki-W7500 has four ways.
 
 ## Examples Binary
 
-   * Hardware test & Loop back binary (WIZwiki-W7500 default binary) : {{:products:wizwiki_w7500:getting_started:w7500x_wztoe_manu.zip| Download}}
-   * LED Blink binary : ![Download]{{:products:wizwiki_w7500:getting_started:wizwki-w7500_led_blink.zip| Download}}
-   * Serial Out binary :![Download]{{:products:wizwiki_w7500:getting_started:wizwki-w7500_serial_led.zip| Download}}
+   * Hardware test & Loop back binary (WIZwiki-W7500 default binary) :![Download](/document_framework/img/products/wizwiki_w7500/getting_started/w7500x_wztoe_manu.ziphttps://github.com/Wiznet/document_framework/blob/master/static/img/products/wizwiki_w7500/getting_started/wizwki-w7500_serial_led.zip
+   * LED Blink binary : ![Download](/document_framework/img/products/wizwiki_w7500/getting_started/wizwki-w7500_led_blink.zip)
+   * Serial Out binary :![Download](/document_framework/img/products/wizwiki_w7500/getting_started/wizwki-w7500_serial_led.zip)
 
 -----
 
