@@ -21,7 +21,7 @@ date: 2020-04-13
 ### Source code (with web pages)
 
 **WIZ550web GitHub Repository
-Rev1.1/1.2 (Link)** <https://github.com/Wiznet/WIZ550web>
+Rev1.1/1.2 (Link)** 🌎https://github.com/Wiznet/WIZ550web
 
 **WIZ550web Latest Firmware Source code (Direct download)**  
   
@@ -37,7 +37,7 @@ Rev1.1/1.2 (Link)** <https://github.com/Wiznet/WIZ550web>
 (Direct download)**
 
 ![WIZnet Configuration tool v1.02
-(zip)](/products/wiz550s2e/wiznet_configuration_tool_ver1.02.zip)
+(zip)](/document_framework/img/products/wiz550web/wiz550web_firmware_bin_v2.0.0.zip)
 
 -----
 
@@ -47,7 +47,7 @@ Rev1.1/1.2 (Link)** <https://github.com/Wiznet/WIZ550web>
 EEPROM Memory ERASE CODE**
 
 ![WIZ550web H/W Rev1.1/1.2 EEPROM ERASE
-FILE(HEX)](/products/wiz550web/wiz550web_eeprom_erase_hex_file.zip)
+FILE(HEX)](/document_framework/img/products/wiz550web/wiz550web_eeprom_erase_hex_file.zip)
 
 
 -----
