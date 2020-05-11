@@ -1,5 +1,5 @@
 ---
-id: mbed_platform
+id: mbed_wizwiki_platform
 title: Mbed Platform Board
 date: 2020-04-07
 ---
