@@ -4,10 +4,6 @@ title: Features
 date: 2020-04-07
 ---
 
-
-## Content
-## Features
-
 **WIZnet W7500**
 
    * ARM Cortex-M0 Core
@@ -52,6 +48,7 @@ date: 2020-04-07
    * GPIO Header
    * ISP Header
 
+
 **ETC**
 
    * 5V USB Power or 5V header supply
@@ -59,14 +56,16 @@ date: 2020-04-07
    * RGB LED
    * Micro SD card slot
 
+
 **WIZwiki-W7500 Blockdiagram**  
-![WIZwiki-W7500
-Blockdiagram](/document_framework/img/products/w7500/overview/wizwiki-w7500_blockdiagram_v1.1.png)  
+![WIZwiki-W7500 Blockdiagram](/document_framework/img/products/w7500/overview/wizwiki-w7500_blockdiagram_v1.1.png)  
+
 **WIZwiki-W7500 Callout**  
-![WIZwiki-W7500
-Callout](/document_framework/img/products/w7500/overview/wizwiki-w7500_callout.png)  
+![WIZwiki-W7500 Callout](/document_framework/img/products/w7500/overview/wizwiki-w7500_callout.png)  
+
 **WIZwiki-W7500 Detail Pinout**  
 ![wizwiki\_w7500\_pinout\_wiki\_150701\_detail.png](/document_framework/img/products/w7500/overview/wizwiki_w7500_pinout_wiki_150701_detail.png)  
+
 **WIZwiki-W7500 Simple Pinout**  
 ![wizwiki\_w7500\_pinout\_wiki\_150701\_simple.png](/document_framework/img/products/w7500/overview/wizwiki_w7500_pinout_wiki_150701_simple.png)  
 
