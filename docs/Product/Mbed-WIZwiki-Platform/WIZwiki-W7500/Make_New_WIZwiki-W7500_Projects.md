@@ -4,10 +4,6 @@ title: Make New WIZwiki-W7500 Projects
 date: 2020-04-07
 ---
 
-
-## Content
-## Make New WIZwiki-W7500 Projects
-
    * [How to use ARM mbed.org platform](How_to_use_ARM_mbed_org_platform.md)
    * [How to install KEIL uVision5](How_to_install_KEIL_uVision5.md)
    * [How to create KEIL uVision5 new project for W7500](How_to_create_KEIL_uVision5_new_project_for_W7500.md)
