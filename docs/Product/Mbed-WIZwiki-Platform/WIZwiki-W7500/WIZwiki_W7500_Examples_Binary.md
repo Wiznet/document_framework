@@ -3,9 +3,9 @@
 Writing firmware into WIZwiki-W7500 has four ways.  
 
    * Using the CMSIS-DAP (Drag and Drop)
-   * [Using the CMSIS-DAP]()(through Keil uVision5)
+   * [Using the CMSIS-DAP](Using_the_CMSIS-DAP.md)(through Keil uVision5)
    * [Go to ISP tool manual & Program download]()
-   * [Using the SWD Debugger]()
+   * [Using the SWD Debugger](Using_the_SWD_Debugger.md)
 
 -----
 
