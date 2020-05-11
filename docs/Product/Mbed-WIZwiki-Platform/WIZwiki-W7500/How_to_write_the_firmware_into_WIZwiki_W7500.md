@@ -3,9 +3,9 @@
 Writing firmware into WIZwiki-W7500 has four ways.  
  
    * Using the CMSIS-DAP (Drag and Drop)
-   * [Using the CMSIS-DAP](through Keil uVision5)
-   * [Go to ISP tool manual & Program download]()
-   * [Using the SWD Debugger]()
+   * Using the CMSIS-DAP (through Keil uVision5)
+   * Go to ISP tool manual & Program download
+   * Using the SWD Debugger
 
 -----
 
@@ -40,16 +40,18 @@ repeat the steps from step 2.
 
 -----
 
+
 ### Reference
 
  * [[:products:wizwiki_w7500:start_getting_started:debugging_w7500#set_flash_algorithm | Set Flash Algorithm]]
 
 -----
 
+
 ## Using the ISP
 
-![ISP](/page\>products/wizwiki_w7500/start_getting_started/write_firmware/ISP)
+![ISP](../../iMCU/W7500/documents/appnote/How_to_use_ISP_tool.md)
 
 -----
 
-![write\_swd\_debugger](/page\>products/wizwiki_w7500/start_getting_started/write_swd_debugger)
+![write_swd_debugger](/page\>products/wizwiki_w7500/start_getting_started/write_swd_debugger)
