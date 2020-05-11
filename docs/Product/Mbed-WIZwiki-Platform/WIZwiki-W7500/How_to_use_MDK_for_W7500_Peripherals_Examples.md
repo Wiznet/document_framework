@@ -1,4 +1,3 @@
-
 # How to use MDK for W7500 Peripherals Examples
 
 ******************************************************************************
@@ -9,17 +8,20 @@
   * date    : 1-May-2015
   * brief   : Description of How to use W7500 Peripheral example with Keil project.
 
-******************************************************************************
+*******************************************************************************
+
 ## Introduction
 
 This application note guides user to use W7500 peripheral examples with Keil uVision compiler. Here we use TCP/IP core Offload Engine(TOE) among W7500 peripherals and loopback test example as sample.
 
 This document is based on Keil uVision MDK-Lite version:5.14.0.0 compiler and WIZwiki-W7500 platform as hardware.
 
+
 ## Download W7500 library and example
 
 You can download the library and example zip file at [link]. 
 Download and abstract the file then you can see some folder.
+
 
 ## Directory structure
 
@@ -27,6 +29,7 @@ The extracted files consist of the CMSIS, driver and peripheral example.
 The W7500 standard peripheral library provides a rich set of examples covering the main features of each peripheral. 
 
 ![](/document_framework/img/products/w7500/overview/directory.jpg "Figure 1 W7500 library and example directory")
+
 
 ## Example of WZTOE directory
 
@@ -53,6 +56,7 @@ The **readme.md** file contains the example description, hardware and software e
 
 The **MDK** folder is for Keil IDE compiler and the **GCC** folder is for GCC compiler.
 
+
 ## Open Keil project 
 
 In MDK directory is here a file: Keil project file. Double click the file, then Keil uVision will be opened.
@@ -62,17 +66,20 @@ In MDK directory is here a file: Keil project file. Double click the file, then 
 You can see upper image at left side on your uVision. In **W7500x_Periph** group are peripheral drivers which are used for this project.
 The **User** group contains main function.
 
+
 ## Compile
 
 ![](/document_framework/img/products/w7500/overview/compile.jpg)
 
 Click the build icon on menu bar or 'F7'. Then compile will be done. After compile, **W7500x_WZTOE_Loopback.bin** file is generated in Obj folder.
 
+
 ## Download code
 
 WIZwiki-W7500 board supports CMSIS-DAP, so you can just drag & drop the code file to download into 'mbed' directory on your system.
 
 ![](/document_framework/img/products/w7500/overview/draganddrop.jpg)
+
 
 ## Connect to WIZwiki-W7500 and do the loopback test
 
@@ -84,4 +91,3 @@ Type IP address and Port number(This application note use Hercules as TCP client
 After connection, send some string and you can see the same as you sent.
 
 ![](/document_framework/img/products/w7500/overview/tcp_client2.jpg)
-
