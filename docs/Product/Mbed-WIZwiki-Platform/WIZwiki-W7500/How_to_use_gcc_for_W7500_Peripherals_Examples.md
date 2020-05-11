@@ -1,4 +1,3 @@
-
 # How to use the makefile with windows7
 
 ******************************************************************************
@@ -11,7 +10,7 @@
   * develop environment : Windows 7 32/64bits
   * arm-gcc version : gcc-arm-none-eabi-4_9-2015q1-20150306-win32
 
-******************************************************************************
+*******************************************************************************
 
 ## Step1 gunwin32 Installation
 ※ For reference, gunwin32 operate both windows7 32bit and 64bit
@@ -93,8 +92,8 @@
 # When compile error occur
 <p>&nbsp;<b><span style="color: rgb(255, 0, 0); font-size: 11pt;">If you can't compile</span></b> or <b><span style="color: rgb(255, 0, 0); font-size: 11pt;"> you don't create the files</span></b>,you directly set the environment variable </p>
 
->**Computer** &gt; **click the right of mouse**  &gt;  **properties** &gt;  **Advanced** &gt; **Environment Variables** &gt; **System variables** &gt;  **Edit**&gt;  **variable value** Copy and Paste.
->
->Copy path is **c:\Program Files\GNU Tools ARM Embedded\4.9 2015q1\bin** : setup path
+> **Computer** &gt; **click the right of mouse**  &gt;  **properties** &gt;  **Advanced** &gt; **Environment Variables** &gt; **System variables** &gt;  **Edit**&gt;  **variable value** Copy and Paste.
+
+> Copy path is **c:\Program Files\GNU Tools ARM Embedded\4.9 2015q1\bin** : setup path
 
 ![gnuwin32](/document_framework/img/products/w7500/overview/7_gnuwin32.jpg "gnuwin32")
