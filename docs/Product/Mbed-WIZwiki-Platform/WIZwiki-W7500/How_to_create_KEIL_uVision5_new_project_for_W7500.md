@@ -1,4 +1,3 @@
-
 # How to make W7500 Keil Project
 
 ******************************************************************************
@@ -197,4 +196,3 @@ And then WIZwiki-W7500 will upload this bin file on itself via the User program 
 If you want to convert this document to the PDF file? Click to [Export to PDF]
 
 COPYRIGHT 2015 WIZnet Co.,Ltd.
-
