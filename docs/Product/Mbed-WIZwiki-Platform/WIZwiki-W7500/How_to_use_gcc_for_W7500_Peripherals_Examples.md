@@ -1,4 +1,4 @@
-# How to use the makefile with windows7
+# How to use the makefile with windows 7
 
 ******************************************************************************
 (C) COPYRIGHT 2015 WIZnet
