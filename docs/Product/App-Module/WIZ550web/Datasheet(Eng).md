@@ -224,6 +224,5 @@ Jumper](/document_framework/img/products/wiz550web/wiz550web_bb_analog_jumper.pn
 
 ## WIZ550web Baseboard
 
-145mm(W) x 85mm(L) x 28mm(H) (±0.5) {{
-:products:wiz550web:wiz550webds\_kr:wiz550web-bb\_v100\_dimension.png?direct&800
-|WIZ550WEB Baseboard Dimension}
+145mm(W) x 85mm(L) x 28mm(H) (±0.5) 
+![](/document_framework/img/products/wiz550web/wiz550webds_kr/wiz550web-bb_v100_dimension.png)
