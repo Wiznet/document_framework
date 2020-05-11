@@ -25,13 +25,13 @@ the default firmware as below.
 
 **Test Sequence**
 
-1\. Connect Ethernet cable, USB cable to WIZwiki-W7500. If you have a SD
+1. Connect Ethernet cable, USB cable to WIZwiki-W7500. If you have a SD
 card, insert the SD card.
 
-2\. Run the Device Manager in Control panel and check which COM port is
+2. Run the Device Manager in Control panel and check which COM port is
 allocated to the USB port on WIZwiki-W7500.
 
-3\. Press Reset SW, then LED 'D4' on WIZwiki-W7500 will be turned on. If
+3. Press Reset SW, then LED 'D4' on WIZwiki-W7500 will be turned on. If
 D4 is turned off, then press the Reset SW again.
 
     <Serial setting>
@@ -40,34 +40,32 @@ D4 is turned off, then press the Reset SW again.
     Parity : None
     Stop bits : 1
     Flow : None
-
-4\.
+    
+4.
 
     If you have a SD card,
     the state of D4 will turn like this: White => White Blink => Yellow
     The following message prints out to the serial port.
 
-![Messages in case of a SD card
-inserted](/document_framework/img/products/w7500/overview/wizwiki_serial_ok.png)
+![Messages in case of a SD card inserted](/document_framework/img/products/w7500/overview/wizwiki_serial_ok.png)
 
     If you do not have a SD card,
     D4 of the state will turn like this: White => White Blink => Red
     The following message prints out to the serial port.
 
-![Message in case of a SD card not
-inserted](/document_framework/img/products/w7500/overview/wizwiki_serial_sdcard.png)
+![Message in case of a SD card not inserted](/document_framework/img/products/w7500/overview/wizwiki_serial_sdcard.png)
 
-5\. Run a command window and proceed with the ping test to
+5. Run a command window and proceed with the ping test to
 WIZwiki-W7500.
 
-6\. WIZwiki-W7500 operates as loopback server.
+6. WIZwiki-W7500 operates as loopback server.
 
-7\. Make proceed with the ping test or loopback test with an IP of
+7. Make proceed with the ping test or loopback test with an IP of
 192.168.077.009 on WIZwiki-W7500.
 
     Necessarily, IP of the PC must also be set to 192.168.077.XXX.
 
-8\. If you can do everything well, then your WIZwiki-W7500 doesn't have
+8. If you can do everything well, then your WIZwiki-W7500 doesn't have
 any problem.
 
    * [Hardware test binany download](/document_framework/img/products/w7500/overview/w7500x_wztoe_manu.zip)
@@ -75,4 +73,3 @@ any problem.
 
 
 ## Welcome to WIZwiki-W7500
-
