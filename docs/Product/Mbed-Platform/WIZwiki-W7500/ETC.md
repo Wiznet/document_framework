@@ -1,11 +1,8 @@
 ---
 id: etc
-title: ETC
+title: Etc.
 date: 2020-04-07
 ---
-
-## Etc.
-
 
 **Serial Port Driver**
 
