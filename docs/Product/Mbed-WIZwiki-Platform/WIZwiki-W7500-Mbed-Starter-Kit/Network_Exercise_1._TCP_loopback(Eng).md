@@ -81,7 +81,7 @@ and check messages.
 
 Execute Hercules program in PC. Select TCP Client menu and configure the
 IP and Port. Click on the red part of the "Ping" button in the figure
-below. ![](https://github.com/Wiznet/document_framework/img/products/wizwiki_mbed_kit/kit_en/ex_tcp_loop_client1.jpg)
+below. ![](/document_framework/img/products/wizwiki_mbed_kit/kit_en/ex_tcp_loop_client1.jpg)
 
 Click the "Connect" button and check connection.
 ![](/document_framework/img/products/wizwiki_mbed_kit/kit_en/ex_tcp_loop_client2.jpg)
