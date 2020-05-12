@@ -3,10 +3,7 @@ id: etc
 title: Etc.
 date: 2020-04-07
 ---
-
-
-## Etc.
-
+\
 **Serial Port Driver**
 
    * [ARM mbed Window serial configuration PAGE ]()
