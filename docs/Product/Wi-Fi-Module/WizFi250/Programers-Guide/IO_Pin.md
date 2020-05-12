@@ -1,11 +1,9 @@
 ---
 id: io_pin
 title: IO Pin
-date: 2020-03-
+date: 2020-05-12
 ---
 
-
-## Content
 ## PIN Description
 
 |**Pin Name**|**Direction**|**Description**|
