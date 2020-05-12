@@ -1,11 +1,9 @@
 ---
 id: at_command_set
 title: AT Command Set
-date: 2020-03-
+date: 2020-05-12
 ---
 
-
-## Content
   
 ## AT Command Set 
 This section provides a list of WizFi250 AT commands and their effects.
