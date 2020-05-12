@@ -1,12 +1,9 @@
 ---
 id: etc
-title: ETC
+title: Etc.
 date: 2020-04-07
 ---
 
-
-## Content
-## Etc.
 
 **Serial Port Driver**
 
@@ -14,8 +11,7 @@ date: 2020-04-07
 
 **W7500P ISP Program**
 
-  - 🌎[Go to ISP tool manual & Program
-    download](/products/w7500/documents/appnote/isptool)
+  - 🌎[Go to ISP tool manual & Program download](/products/w7500/documents/appnote/isptool)
 
 **Examples Binary**
 
