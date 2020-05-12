@@ -4,8 +4,6 @@ title: Examples - WiFi Direct
 date: 2020-04-24
 ---
 
-
-## Content
 ### Examples - WiFi Direct  
 This section explains how to connect to smartphone using WizFi250 with
 \<WiFi Direct\>. In this example, target smartphone information is as
