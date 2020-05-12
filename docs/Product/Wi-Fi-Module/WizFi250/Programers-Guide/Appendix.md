@@ -4,8 +4,6 @@ title: Appendix
 date: 2020-04-24
 ---
 
-
-## Content
 # WizFi250 UART Throughput Test Report
 
 ## Test Environment
