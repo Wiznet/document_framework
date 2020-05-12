@@ -1,10 +1,9 @@
 ---
 id: instruction_to_oem
 title: Instruction to OEM
-date: 2020-03-
+date: 2020-05-12
 ---
 
-## Content
 ## Instruction to OEM
 
  
