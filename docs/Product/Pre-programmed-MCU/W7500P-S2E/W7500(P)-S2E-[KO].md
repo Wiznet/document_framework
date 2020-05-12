@@ -168,7 +168,7 @@ MII supported for PHY interface
 
 WIZnet은 고객 목적에 맞춘 **Customization services**를 제공합니다.
 
-![](/products/w7500-s2e/wiznet-partners_relationship.png)
+![](/document_framework/img/products/w7500-s2e/wiznet-partners_relationship.png)
 
 W7500(P)-S2E 제품을 기반으로 제품 초기 설정 및 MAC 주소 변경, 다양한 프로토콜 추가 탑재 및 기능 확장에 대한
 서비스를 제공하며, 완성된 펌웨어는 W7500 / W7500P MCU에 프로그램되어 요청 고객에게 제공됩니다.
@@ -180,7 +180,7 @@ support를 제공합니다.
 
 ### What We Offer
 
-![](/products/w7500-s2e/what-we-offer.png)
+![](/document_framework/img/products/w7500-s2e/what-we-offer.png)
 
 
 #### 기능 확장 / 추가
