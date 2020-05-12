@@ -5,9 +5,6 @@ date: 2020-04-07
 ---
 
 
-## Content
-## Features
-
 **WIZnet W7500**
 
    * ARM Cortex-M0 Core
@@ -23,9 +20,9 @@ date: 2020-04-07
    * UART (3)
    * SPI (2)
    * I2C (2)
+   
 
 **External Ethernet PHY**
-
 
  * IC+ IP101GRI
  * Single Port 10/100 MII/RMII/TP/Fiber Fast Ethernet Transceiver 
@@ -33,15 +30,12 @@ date: 2020-04-07
  * Supports MDC and MDIO to communicate with the MAC
 
 
-
 **CMSIS-DAP**
-
 
  * LPC11U35FHI33/501, ARM Cortex-M0 Core, NXP
  * Drag-n-drop programming
  * USB Serial Port
  * Easy to use C/C++ SDK
-
 
 
 **Connector**
@@ -50,6 +44,7 @@ date: 2020-04-07
   * Slim Size RJ45(with transformer)
   * GPIO Header
 
+
 **ETC**
 
   * Power source - micro USB or external 5V pin
@@ -57,18 +52,15 @@ date: 2020-04-07
   * RGB LED for CMSIS-DAP
   * 2 Blue LED for USER
   * 2 2.54mm 1x20 Externel connector
+  
 
 **WIZwiki-W7500ECO Blockdiagram**  
-![WIZwiki-W7500ECO
-Blockdiagram](/document_framework/img/products/wizwiki-w7500eco/wizwiki-w7500eco_blockdiagram_v1.1.png)  
+![WIZwiki-W7500ECO Blockdiagram](/document_framework/img/products/wizwiki-w7500eco/wizwiki-w7500eco_blockdiagram_v1.1.png)  
 **WIZwiki-W7500ECO Callout**  
-![WIZwiki-W7500ECO
-Callout](/document_framework/img/products/wizwiki-w7500eco/wizwiki-w7500eco_callout.png)
+![WIZwiki-W7500ECO Callout](/document_framework/img/products/wizwiki-w7500eco/wizwiki-w7500eco_callout.png)
 
 **WIZwiki-W7500ECO Detail Pinout**  
-![WIZwiki-W7500ECO Detail
-Pinout](/document_framework/img/products/wizwiki-w7500eco/wizwiki-w7500eco_detailpinout.png)
+![WIZwiki-W7500ECO Detail Pinout](/document_framework/img/products/wizwiki-w7500eco/wizwiki-w7500eco_detailpinout.png)
 
 **WIZwiki-W7500ECO Simple Pinout**  
-![WIZwiki-W7500ECO Simple
-Pinout](/document_framework/img/products/wizwiki-w7500eco/wizwiki-w7500eco_simplepinout.png)
+![WIZwiki-W7500ECO Simple Pinout](/document_framework/img/products/wizwiki-w7500eco/wizwiki-w7500eco_simplepinout.png)
