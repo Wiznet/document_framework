@@ -4,10 +4,6 @@ title: Technical Reference
 date: 2020-04-07
 ---
 
-
-## Content
-## Technical Reference
-
 **Datasheet**
 
    * [W7500 Documents]()
@@ -31,5 +27,4 @@ date: 2020-04-07
 
    * WIZwiki-W7500ECO V1.1 Dimension
 
-![WIZwiki-W7500ECO
-Dimension](/document_framework/img/products/wizwiki-w7500eco/wizwiki_w7500_eco_v1.1_dim_01.png)
+![WIZwiki-W7500ECO Dimension](/document_framework/img/products/wizwiki-w7500eco/wizwiki_w7500_eco_v1.1_dim_01.png)
