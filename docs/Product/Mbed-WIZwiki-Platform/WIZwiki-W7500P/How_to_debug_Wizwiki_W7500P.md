@@ -73,7 +73,7 @@ message and the ULINK Debugger at the bottom. Chick the 'Debug icon' or
 
 ---
 
-![keil\_cmsis\_dap](/page\>products/wizwiki_w7500/start_getting_started/write_firmware/keil_cmsis_dap)
+![keil_cmsis_dap](/page\>products/wizwiki_w7500/start_getting_started/write_firmware/keil_cmsis_dap)
 
 
 
@@ -87,7 +87,7 @@ attention to the following settings.
 
 ### To Follow
 
-\- For general configuration, follow the previous instructions.
+- For general configuration, follow the previous instructions.
 
 ![](/document_framework/img/products/w7500/overview/cmsis_debug_multi_project_1.png)
 
