@@ -4,10 +4,6 @@ title: Features
 date: 2020-04-07
 ---
 
-
-## Content
-## Features
-
 **WIZnet W7500P**
 
    * ARM Cortex-M0 Core
