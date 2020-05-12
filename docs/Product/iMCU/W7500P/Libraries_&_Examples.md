@@ -1,13 +1,9 @@
 ---
 id: libraries_examples
-title: Libraries & Examples
+title: Library and Peripheral Example
 date: 2020-04-03
 ---
 
-
-## Content
-
-# Library and Peripheral Example
 
 ## Overview
 The W7500P provides the CMSIS, driver and Peripheral Example.
