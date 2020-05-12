@@ -173,7 +173,7 @@ product.**
 
 WIZnet offers **Customization services** for your specific needs.
 
-![](/products/w7500-s2e/wiznet-partners_relationship.png)
+![](/document_framework/img/products/w7500-s2e/wiznet-partners_relationship.png)
 
 We can provide customization services based on W7500(P)-S2E chip
 products: Depending on the customer application, it is possible to
@@ -189,7 +189,7 @@ references for customer's **quick product design-win**.
 
 ### What We Offer
 
-![](/products/w7500-s2e/what-we-offer.png)
+![](/document_framework/img/products/w7500-s2e/what-we-offer.png)
 
 
 #### Addable features
