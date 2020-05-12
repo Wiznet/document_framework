@@ -1,11 +1,9 @@
 ---
 id: examples_association_disassociation
 title: Examples - Association & Disassociation
-date: 2020-03-
+date: 2020-05-12
 ---
 
-
-## Content
 ## Examples - Association & Disassociation
 
 
