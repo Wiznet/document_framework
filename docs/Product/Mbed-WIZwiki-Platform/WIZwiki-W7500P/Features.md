@@ -4,6 +4,7 @@ title: Features
 date: 2020-04-07
 ---
 
+
 **WIZnet W7500P**
 
    * ARM Cortex-M0 Core
@@ -23,8 +24,8 @@ date: 2020-04-07
    * I2C (2)
    * 64 LQFP (7x7 mm)
 
-**CMSIS-DAP**
 
+**CMSIS-DAP**
  
   * LPC11U35FHI33/501, ARM Cortex-M0 Core, NXP
   * Drag-n-drop programming
@@ -39,6 +40,7 @@ date: 2020-04-07
   * Arduino compatible pin headers
   * Xbee Header
 
+
 **ETC**
 
    * 5V USB Power or 5V header supply
@@ -47,14 +49,14 @@ date: 2020-04-07
    * RGB LED
    * Micro SD card slot
 
+
 **WIZwiki-W7500P Blockdiagram**  
-![WIZwiki-W7500
-Blockdiagram](/document_framework/img/products/w7500p/overview/wizwiki-w7500p_blockdiagram.png)  
+![WIZwiki-W7500 Blockdiagram](/document_framework/img/products/w7500p/overview/wizwiki-w7500p_blockdiagram.png)  
+
 **WIZwiki-W7500P Callout**  
-![WIZwiki-W7500
-Callout](/document_framework/img/products/w7500p/overview/wizwiki-w7500p_callout.png)  
+![WIZwiki-W7500 Callout](/document_framework/img/products/w7500p/overview/wizwiki-w7500p_callout.png) 
+
 **WIZwiki-W7500P Pinout**  
-![WIZwiki-W7500
-Pinout](/document_framework/img/products/w7500p/overview/wizwiki_w7500p_pinout_mbed_150907.png)  
+![WIZwiki-W7500 Pinout](/document_framework/img/products/w7500p/overview/wizwiki_w7500p_pinout_mbed_150907.png)  
 
 -----
