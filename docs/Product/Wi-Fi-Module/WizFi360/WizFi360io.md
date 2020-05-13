@@ -1,11 +1,9 @@
 ---
 id: wizfi360io
 title: WizFi360io
-date: 2020-03-
+date: 2020-05-13
 ---
 
-
-## Content
 # WizFi360io Series
 
 ### Overview
@@ -111,7 +109,7 @@ similar to the Xbee pin layout. But it is not exactly compatible.
 
 ## See Also
 
-![](/products/w5500/w5500_evb/icons/link.png) 🌎[WizFi360
+![](/document_framework/img/link.png) 🌎[WizFi360
 WIZnetForum](https://forum.wiznet.io/c/wifi-module/wizfi360) : WIZnet
 Forum for Technical support and Project shared
 
