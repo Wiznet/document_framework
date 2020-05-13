@@ -4,8 +4,6 @@ title: Application examples
 date: 2020-04-08
 ---
 
-
-## Content
 # Application Examples
 
 This page shows WizFi360 application examples such as HTTP Server, HTTP
