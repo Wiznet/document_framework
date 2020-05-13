@@ -1,11 +1,9 @@
 ---
 id: firmware_upgrade_using_serial_interface
 title: Firmware Upgrade(Using Serial Interface)
-date: 2020-03-
+date: 2020-05-13
 ---
 
-
-## Content
 # Firmware Upgrade (Using Serial Interface)
 
 WizFi310 can be upgraded using serial interface. These are methods how
