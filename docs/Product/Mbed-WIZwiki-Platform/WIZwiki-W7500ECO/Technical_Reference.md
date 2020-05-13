@@ -7,8 +7,8 @@ date: 2020-04-07
 **Datasheet**
 
    * [W7500 Documents](../../iMCU/W7500/Documents.md)
-   * [IP101GRI Datasheet]()
-   * [LPC11U35FHI33/501 Datasheet]()
+   * [IP101GRI Datasheet](/document_framework/img/products/wizwiki-w7500eco/IP101G_DS_R01_20121224.pdf)
+   * [LPC11U35FHI33/501 Datasheet](/document_framework/img/products/wizwiki-w7500eco/LPC11U3X.pdf)
 
 **Schematic**
 
