@@ -4,13 +4,6 @@ title: All Pages
 date: 2020-04-03
 ---
 
----
-id: overview
-title: Overview
-date: 2020-04-03
----
-
-# W5100S
 
 ## Overview
 
@@ -90,11 +83,6 @@ has two types of packages, 48 Pin LQFP & QFN Lead-Free Package.
   - IoT Cloud Devices
 
 -----
----
-id: driver
-title: Driver
-date: 2020-04-03
----
 
 # Driver
 
@@ -139,12 +127,7 @@ ioLibrary.
 
 For more information on ioLibrary, click 🌎[W5500 Driver](https://wizwiki.net/wiki/doku.php?id=products:w5500:driver)
 ---
-id: document
-title: Document
-date: 2020-04-03
----
 
-----
 
 ## Data Sheet
 
