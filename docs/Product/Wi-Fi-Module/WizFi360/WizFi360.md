@@ -1,11 +1,9 @@
 ---
 id: wizfi360
 title: WizFi360
-date: 2020-03-
+date: 2020-05-13
 ---
 
-
-## Content
 ## WizFi360
 
 ### Overview
@@ -104,7 +102,7 @@ Github](https://github.com/WIZnet-WizFi360/Release).
 
 ## Q & A
 
-![](/products/w5500/w5500_evb/icons/link.png) 🌎[WizFi360
+![](/document_framework/img/link.png) 🌎[WizFi360
 Forum](https://forum.wiznet.io/c/wifi-module/wizfi360) : WIZnet Forum
 for Technical support and Project shared
 
