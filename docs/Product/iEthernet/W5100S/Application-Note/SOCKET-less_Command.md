@@ -5,8 +5,6 @@ date: 2020-04-03
 ---
 
 
-## Content
-
 # Overview
 
 **SLC(SOCKET-less Command)** can handle ARP and PING Request Packet without SOCKET Open.
