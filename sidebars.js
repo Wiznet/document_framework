@@ -413,7 +413,7 @@ module.exports = {
 		'Product/S2E-Module/WIZ550S2E/programmer_guide_kor',
 		//'Product/S2E-Module/WIZ550S2E/at_command_kor',
 		'Product/S2E-Module/WIZ550S2E/configuration_tool_kor',
-		'Product/S2E-Module/WIZ550S2E/programmer_guide_eng',
+		//'Product/S2E-Module/WIZ550S2E/programmer_guide_eng',
 		//'Product/S2E-Module/WIZ550S2E/at_command_eng',
 		'Product/S2E-Module/WIZ550S2E/configuration_tool_eng',
 		//'Product/S2E-Module/WIZ550S2E/programmer_guide_chn',
