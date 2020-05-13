@@ -125,7 +125,7 @@ W7500P Internal PHY Datasheet
 | V1.0.2  | 8DEC2016  | Correct SCL speed                          |
 | V1.0.3  | 18JUN2018 | erratum 2 – W7500P Transmission Delay Case |
 
-\++++
+++++
 
 
 -----
