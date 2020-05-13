@@ -20,7 +20,7 @@ You should import provided projects to your new project for easy to
 configure.
 
 Download the projects for W6100-EVB from
-![](/products/w5500/w5500_evb/icons/link.png)[W6100\_EVB GitHub
+![](/document_framework/img/link.png)[W6100\_EVB GitHub
 repository](https://github.com/Wiznet/W6100_EVB). After downloading,
 import the required project to your workspace.
 
