@@ -4,9 +4,6 @@ title: IPRAW
 date: 2020-04-03
 ---
 
-
-## Content
-
 # Overview
 
 **IPRAW Mode** can handle Internet Protocol(IPv4) Layer
