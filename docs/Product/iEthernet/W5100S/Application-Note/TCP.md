@@ -5,8 +5,6 @@ date: 2020-04-03
 ---
 
 
-## Content
-
 # W5100S TCP Function
 
 By setting some Registers and Memory Operation, W5100S provides Internet
