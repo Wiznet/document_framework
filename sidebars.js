@@ -410,7 +410,7 @@ module.exports = {
 		'Product/S2E-Module/WIZ550S2E/datasheet_kor',
 		'Product/S2E-Module/WIZ550S2E/datasheet_eng',
 		'Product/S2E-Module/WIZ550S2E/datasheet_chn',
-		'Product/S2E-Module/WIZ550S2E/programmer_guide_kor',
+		//'Product/S2E-Module/WIZ550S2E/programmer_guide_kor',
 		//'Product/S2E-Module/WIZ550S2E/at_command_kor',
 		'Product/S2E-Module/WIZ550S2E/configuration_tool_kor',
 		//'Product/S2E-Module/WIZ550S2E/programmer_guide_eng',
