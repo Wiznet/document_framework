@@ -4,9 +4,6 @@ title: IPRAW
 date: 2020-04-07
 ---
 
-
-## Content
-
 ## Overview
 
 **W5500 IPRAW mode** can handle IP layer's upper protocol
