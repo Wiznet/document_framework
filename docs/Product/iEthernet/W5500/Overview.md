@@ -6,7 +6,6 @@ date: 2020-04-03
 
 ## W5500
 
-### Overview
 
 ![W5500 Photo 1](/document_framework/img/products/w5500/img_w5500h.jpg)
 
