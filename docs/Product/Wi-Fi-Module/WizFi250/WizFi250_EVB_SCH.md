@@ -2,7 +2,7 @@
 id: wizfi250_evb_sch
 title: WizFi250 Evaluation Board Schematic
 date: 2020-05-06
--
+---
 
 Here you can find all schematics and PCB layout data for the
 WizFi250-EVB and the WizFi250-H Interface adapter. On the EVB we use two
