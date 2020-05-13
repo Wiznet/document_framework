@@ -8,7 +8,7 @@ date: 2020-04-03
 
 ### Overview
 
-![W5500 Photo 1](/document_framework/blob/img/products/w5500/img_w5500h.jpg)
+![W5500 Photo 1](/document_framework/img/products/w5500/img_w5500h.jpg)
 
 The W5500 chip is a Hardwired Internet controller designed as a full
 hardwired TCP/IP stack with WIZnet technology. W5500 provides Internet
