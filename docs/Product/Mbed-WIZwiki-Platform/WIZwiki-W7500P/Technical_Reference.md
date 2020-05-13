@@ -4,9 +4,10 @@ title: Technical Reference
 date: 2020-04-07
 ---
 
+
 **Datasheet**
 
-   * [W7500P Documents]()
+   * [W7500P Documents](../../iMCU/W7500P/Documents.md)
    * [LPC11U35FHI33/501 Datasheet](/document_framework/img/products/w7500p/overview/LPC11U3X.pdf)
 
 **Schematic**
@@ -14,8 +15,7 @@ date: 2020-04-07
   - If your project uses the W7500P, do not refer to the WIZwiki-W7500P
     V1.0 schematic.
   - Refer to the reference schematic of W7500P.
-      - 🌎[Reference schematic of
-        W7500P](https://github.com/Wiznet/Hardware-Files-of-WIZnet/tree/master/01_iMCU/W7500P/Reference%20Schematic)
+      - 🌎[Reference schematic of W7500P](https://github.com/Wiznet/Hardware-Files-of-WIZnet/tree/master/01_iMCU/W7500P/Reference%20Schematic)
 
 <!-- end list -->
 
@@ -34,7 +34,6 @@ date: 2020-04-07
 
    * WIZwiki-W7500P V1.0 Dimension
 
-![WIZwiki-W7500P
-Dimension](/products/wizwiki_w7500p/wizwiki-w7500p_dimension.png%20)
+![WIZwiki-W7500P Dimension](/products/wizwiki_w7500p/wizwiki-w7500p_dimension.png%20)
 
 -----
