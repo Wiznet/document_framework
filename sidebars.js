@@ -8,6 +8,7 @@
 module.exports = {
   someSidebar: {
 	'WIZnet Document Wiki': ['introduction'],
+	/*
     Products: [
 	'Product/products',
 	{
@@ -807,6 +808,7 @@ module.exports = {
 		],
     },
 	],
+	*/
     Design_Guide: [
 	'Design-Guide/design_guide',
 	'Design-Guide/hardware_design_guide',
