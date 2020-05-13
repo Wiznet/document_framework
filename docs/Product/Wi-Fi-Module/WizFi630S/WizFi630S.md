@@ -63,16 +63,16 @@ documents are available online.
 
 ## Details
 
-  - [Datasheet](https://wizwiki.net/wiki/doku.php?id=products:wizfi630s:wizfi630s_ds:start)
+  - [Datasheet](Datasheet.md)
     : This section provides guides on the features of the WizFi630S,
     WizFi630S-EVB.
-  - [User Manual](https://wizwiki.net/wiki/doku.php?id=products:wizfi630s:wizfi630s_ug:start)
+  - [User Manual](User_Guide.md)
     : This section provides guides documents for basic operating methods
     of products.
-  - [HW Reference](https://wizwiki.net/wiki/doku.php?id=products:wizfi630s:wizfi630s_hw:start)
+  - [HW Reference](HW_Reference.md)
     : This section provides guide documents for HW design with the
     WizFi630S.
-  - [Certificate](https://wizwiki.net/wiki/doku.php?id=products:wizfi630s:wizfi630s_cert:start)
+  - [Certificate](Certificate.md)
     : This section provides WizFi630S certificate and test reports.
 
 -----
@@ -80,7 +80,7 @@ documents are available online.
 
 ## Q & A
 
-![](/products/w5500/w5500_evb/icons/link.png) [WizFi630S
+![](/document_framework/img/link.png) [WizFi630S
 Forum](https://forum.wiznet.io/c/wifi-module) : WIZnet Forum for
 Technical support and Project shared
 
