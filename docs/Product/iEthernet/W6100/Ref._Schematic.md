@@ -5,8 +5,6 @@ date: 2020-04-03
 ---
 
 
-## Content
-
 # Reference Schematic
 
 -----
