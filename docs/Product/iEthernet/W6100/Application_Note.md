@@ -8,7 +8,7 @@ date: 2020-04-03
 ## W6100 Application Notes
 
   * 🌎[**Basic project**](https://github.com/WIZnet-ioLibrary/w6100-evb-gcc-eclipse)
-  * **HTTP Server
+  * **HTTP Server**
     * 🌎[TureStudio](https://github.com/WIZnet-ioLibrary/W6100EVB-HTTP_Server)
   * **FTP Server**
     * 🌎[TureStudio](https://github.com/WIZnet-ioLibrary/W6100EVB-FTPServer)
