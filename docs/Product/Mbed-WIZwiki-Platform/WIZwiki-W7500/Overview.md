@@ -156,8 +156,7 @@ firmware writing.
 
    * WIZwiki-W7500 V1.0 Dimension
 
-![WIZwiki-W7500
-Dimension](/document_framework/img/products/w7500/overview/wizwiki-w7500_dimension.png)
+![WIZwiki-W7500 Dimension](/document_framework/img/products/w7500/overview/wizwiki-w7500_dimension.png)
 
 -----
 
@@ -181,7 +180,7 @@ Dimension](/document_framework/img/products/w7500/overview/wizwiki-w7500_dimensi
 
 ## See Also
 
-   * 🌎[[http://www.wizwiki.net/forum|WizWiki Forum]] : WIZnet Forum for Technical support and Project shared
+   * 🌎 [http://www.wizwiki.net/forum|WizWiki Forum] : WIZnet Forum for Technical support and Project shared
    * [W7500 Documents Download]()
 
 -----
