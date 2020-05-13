@@ -1,11 +1,9 @@
 ---
 id: wizfi360_evb_mini
 title: WizFi360-EVB-Mini
-date: 2020-03-
+date: 2020-05-13
 ---
 
-
-## Content
 # WizFi360-EVB-Mini
 
 ![WizFi360-EVB-Mini](/document_framework/img/products/wizfi360/board/wizfi360-evb-mini/wizfi360-mini3.png)
