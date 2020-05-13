@@ -4,8 +4,6 @@ title: AT Commands
 date: 2020-04-15
 ---
 
-
-## Content
 # AT Command Set
 
 This section provides a list of WizFi310 AT commands and their effects.
