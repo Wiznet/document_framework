@@ -4,8 +4,6 @@ title: Datasheet
 date: 2020-04-24
 ---
 
-
-## Content
 ## WizFi310 Datasheet
   
    * ![WizFi310 Datasheet v0.0.0 - English]()
@@ -68,7 +66,7 @@ For software and driver development, WIZnet provides extensive technical documen
 ![](/document_framework/img/products/wizfi310/wizfi310_evb.png)
 
 #### Pin Map
-![]()
+![](/document_framework/img/products/wizfi250/wizfi250_pin_map.png)
 
 #### Pin Description
 
