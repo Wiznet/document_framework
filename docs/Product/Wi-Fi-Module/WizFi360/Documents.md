@@ -1,11 +1,9 @@
 ---
 id: documents
 title: Documents
-date: 2020-03-
+date: 2020-05-13
 ---
 
-
-## Content
 # Documents 
 
 The **DataSheet** provides a brief introduce about WizFi360.
