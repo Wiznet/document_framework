@@ -5,8 +5,6 @@ date: 2020-04-03
 ---
 
 
-## Content
-
 # Overview
 
 W5100S-EVB support DMA(Direct Memory Addressing) of SPI Mode. To operate at its maximum speed, the SPI needs to be fed with the data for transmission and the data received on the Rx buffer should be read to avoid overrun.
