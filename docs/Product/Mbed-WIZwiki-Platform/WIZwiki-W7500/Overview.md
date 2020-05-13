@@ -180,7 +180,7 @@ firmware writing.
 
 ## See Also
 
-   * 🌎 [http://www.wizwiki.net/forum|WizWiki Forum] : WIZnet Forum for Technical support and Project shared
-   * [W7500 Documents Download]()
+   * 🌎 [WizWiki Forum]() : WIZnet Forum for Technical support and Project shared
+   * [W7500 Documents Download](../../iMCU/W7500/Documents.md)
 
 -----
