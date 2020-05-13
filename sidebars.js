@@ -587,27 +587,27 @@ module.exports = {
         type: 'category',
         label: 'Wi-Fi Module',
         items: [
-		'Product/Wi-Fi_Module/wi_fi_module',
+		'Product/Wi-Fi-Module/wi_fi_module',
 		{
         type: 'category',
         label: 'WizFi360',
         items: [
-		'Product/Wi-Fi_Module/WizFi360/wizfi360',
-		'Product/Wi-Fi_Module/WizFi360/documents',
-		'Product/Wi-Fi_Module/WizFi360/application_examples',
+		'Product/Wi-Fi-Module/WizFi360/wizfi360',
+		'Product/Wi-Fi-Module/WizFi360/documents',
+		'Product/Wi-Fi-Module/WizFi360/application_examples',
 		{
 			type: 'link',
 			label: 'AT-Command Firmware release(Link)', // string - the label that should be displayed.
 			href: 'https://github.com/wizfi/Release/tree/master/Binary' // string - the target URL.
 		},
-		'Product/Wi-Fi_Module/WizFi360/wizfi360_evb_shield',
-		'Product/Wi-Fi_Module/WizFi360/wizfi360_evb_mini',
-		'Product/Wi-Fi_Module/WizFi360/wizfi360io',
+		'Product/Wi-Fi-Module/WizFi360/wizfi360_evb_shield',
+		'Product/Wi-Fi-Module/WizFi360/wizfi360_evb_mini',
+		'Product/Wi-Fi-Module/WizFi360/wizfi360io',
 		{
         type: 'category',
         label: 'Other Resource',
         items: [
-		'Product/Wi-Fi_Module/WizFi360/Other-Resource/w600_sdk'
+		'Product/Wi-Fi-Module/WizFi360/Other-Resource/w600_sdk'
 		]
 		}
 		],
@@ -616,93 +616,93 @@ module.exports = {
         type: 'category',
         label: 'WizFi250',
         items: [
-		'Product/Wi-Fi_Module/WizFi250/wizfi250',
+		'Product/Wi-Fi-Module/WizFi250/wizfi250',
 		{
         type: 'category',
         label: 'Datasheet',
         items: [
-		'Product/Wi-Fi_Module/WizFi250/Datasheet/1_introduction',
-		'Product/Wi-Fi_Module/WizFi250/Datasheet/2_features',
-		'Product/Wi-Fi_Module/WizFi250/Datasheet/3_block_diagram',
-		'Product/Wi-Fi_Module/WizFi250/Datasheet/4_pin_description',
-		'Product/Wi-Fi_Module/WizFi250/Datasheet/5_technical_specification',
-		'Product/Wi-Fi_Module/WizFi250/Datasheet/6_io_port_characteristics',
-		'Product/Wi-Fi_Module/WizFi250/Datasheet/7_dimensions_weight_and_mounting',
-		'Product/Wi-Fi_Module/WizFi250/Datasheet/8_design_guide',
-		'Product/Wi-Fi_Module/WizFi250/Datasheet/9_recommend_reflow_profile',
-		'Product/Wi-Fi_Module/WizFi250/Datasheet/10_wizfi250_ref_schematic',
-		'Product/Wi-Fi_Module/WizFi250/Datasheet/instruction_to_oem'
+		'Product/Wi-Fi-Module/WizFi250/Datasheet/1_introduction',
+		'Product/Wi-Fi-Module/WizFi250/Datasheet/2_features',
+		'Product/Wi-Fi-Module/WizFi250/Datasheet/3_block_diagram',
+		'Product/Wi-Fi-Module/WizFi250/Datasheet/4_pin_description',
+		'Product/Wi-Fi-Module/WizFi250/Datasheet/5_technical_specification',
+		'Product/Wi-Fi-Module/WizFi250/Datasheet/6_io_port_characteristics',
+		'Product/Wi-Fi-Module/WizFi250/Datasheet/7_dimensions_weight_and_mounting',
+		'Product/Wi-Fi-Module/WizFi250/Datasheet/8_design_guide',
+		'Product/Wi-Fi-Module/WizFi250/Datasheet/9_recommend_reflow_profile',
+		'Product/Wi-Fi-Module/WizFi250/Datasheet/10_wizfi250_ref_schematic',
+		'Product/Wi-Fi-Module/WizFi250/Datasheet/instruction_to_oem'
 		]
 		},
 		{
         type: 'category',
         label: 'Programers Guide',
         items: [
-		'Product/Wi-Fi_Module/WizFi250/Programers-Guide/overview',
-		'Product/Wi-Fi_Module/WizFi250/Programers-Guide/at_command_set',
-		'Product/Wi-Fi_Module/WizFi250/Programers-Guide/io_pin',
-		//'Product/Wi-Fi_Module/WizFi250/Programers-Guide/how_to_use_web_configuration',
-		'Product/Wi-Fi_Module/WizFi250/Programers-Guide/how_to_upgrade_firmware',
-		'Product/Wi-Fi_Module/WizFi250/Programers-Guide/examples_association_disassociation',
-		//'Product/Wi-Fi_Module/WizFi250/Programers-Guide/examples_data_communication',
-		'Product/Wi-Fi_Module/WizFi250/Programers-Guide/examples_wifi_direct',
-		'Product/Wi-Fi_Module/WizFi250/Programers-Guide/appendix',
+		'Product/Wi-Fi-Module/WizFi250/Programers-Guide/overview',
+		'Product/Wi-Fi-Module/WizFi250/Programers-Guide/at_command_set',
+		'Product/Wi-Fi-Module/WizFi250/Programers-Guide/io_pin',
+		//'Product/Wi-Fi-Module/WizFi250/Programers-Guide/how_to_use_web_configuration',
+		'Product/Wi-Fi-Module/WizFi250/Programers-Guide/how_to_upgrade_firmware',
+		'Product/Wi-Fi-Module/WizFi250/Programers-Guide/examples_association_disassociation',
+		//'Product/Wi-Fi-Module/WizFi250/Programers-Guide/examples_data_communication',
+		'Product/Wi-Fi-Module/WizFi250/Programers-Guide/examples_wifi_direct',
+		'Product/Wi-Fi-Module/WizFi250/Programers-Guide/appendix',
 		]
 		},
 		{
         type: 'category',
         label: 'Quick Start Guide',
         items: [
-		'Product/Wi-Fi_Module/WizFi250/Quick-Start-Guide/1_wizfi250_evaluation_board',
-		'Product/Wi-Fi_Module/WizFi250/Quick-Start-Guide/2_start_serial_to_wi_fi'
+		'Product/Wi-Fi-Module/WizFi250/Quick-Start-Guide/1_wizfi250_evaluation_board',
+		'Product/Wi-Fi-Module/WizFi250/Quick-Start-Guide/2_start_serial_to_wi_fi'
 		]
 		},
-		'Product/Wi-Fi_Module/WizFi250/wizfi250_evb_if_fimension',
-		'Product/Wi-Fi_Module/WizFi250/wizfi250_evb_sch',
-		'Product/Wi-Fi_Module/WizFi250/wizfi250_firmware',
-		'Product/Wi-Fi_Module/WizFi250/reference_youtube',
+		'Product/Wi-Fi-Module/WizFi250/wizfi250_evb_if_fimension',
+		'Product/Wi-Fi-Module/WizFi250/wizfi250_evb_sch',
+		'Product/Wi-Fi-Module/WizFi250/wizfi250_firmware',
+		'Product/Wi-Fi-Module/WizFi250/reference_youtube',
 		],
 		},
 		{
         type: 'category',
         label: 'WizFi310',
         items: [
-		'Product/Wi-Fi_Module/WizFi310/wizfi310',
-		'Product/Wi-Fi_Module/WizFi310/datasheet',
+		'Product/Wi-Fi-Module/WizFi310/wizfi310',
+		'Product/Wi-Fi-Module/WizFi310/datasheet',
 		{
         type: 'category',
         label: 'Programers Guide',
         items: [
-		'Product/Wi-Fi_Module/WizFi310/Programers Guide/overview',
-		//'Product/Wi-Fi_Module/WizFi310/Programers Guide/at_commands',
-		'Product/Wi-Fi_Module/WizFi310/Programers Guide/firmware_upgrade_using_serial_interface',
-		'Product/Wi-Fi_Module/WizFi310/Programers Guide/firmware_upgrade_using_ota',
-		//'Product/Wi-Fi_Module/WizFi310/Programers Guide/examples'
+		'Product/Wi-Fi-Module/WizFi310/Programers Guide/overview',
+		//'Product/Wi-Fi-Module/WizFi310/Programers Guide/at_commands',
+		'Product/Wi-Fi-Module/WizFi310/Programers Guide/firmware_upgrade_using_serial_interface',
+		'Product/Wi-Fi-Module/WizFi310/Programers Guide/firmware_upgrade_using_ota',
+		//'Product/Wi-Fi-Module/WizFi310/Programers Guide/examples'
 		]
 		},
-		//'Product/Wi-Fi_Module/WizFi310/quick_start_guide',
-		'Product/Wi-Fi_Module/WizFi310/wizfi310_evb_if_dimension',
-		'Product/Wi-Fi_Module/WizFi310/wizfi310_evb_sch',
-		'Product/Wi-Fi_Module/WizFi310/wizfi310_firmware_using_serial',
-		'Product/Wi-Fi_Module/WizFi310/wizfi310_firmware_using_ota'
+		//'Product/Wi-Fi-Module/WizFi310/quick_start_guide',
+		'Product/Wi-Fi-Module/WizFi310/wizfi310_evb_if_dimension',
+		'Product/Wi-Fi-Module/WizFi310/wizfi310_evb_sch',
+		'Product/Wi-Fi-Module/WizFi310/wizfi310_firmware_using_serial',
+		'Product/Wi-Fi-Module/WizFi310/wizfi310_firmware_using_ota'
 		],
 		},
 		{
         type: 'category',
         label: 'WizFi630S',
         items: [
-		'Product/Wi-Fi_Module/WizFi630S/wizfi630s',
-		'Product/Wi-Fi_Module/WizFi630S/datasheet',
-		'Product/Wi-Fi_Module/WizFi630S/user_guide',
-		'Product/Wi-Fi_Module/WizFi630S/hw_reference',
-		'Product/Wi-Fi_Module/WizFi630S/certificate'
+		'Product/Wi-Fi-Module/WizFi630S/wizfi630s',
+		'Product/Wi-Fi-Module/WizFi630S/datasheet',
+		'Product/Wi-Fi-Module/WizFi630S/user_guide',
+		'Product/Wi-Fi-Module/WizFi630S/hw_reference',
+		'Product/Wi-Fi-Module/WizFi630S/certificate'
 		],
 		},
 		{
         type: 'category',
         label: 'WizFi630A',
         items: [
-		'Product/Wi-Fi_Module/WizFi630A/wizfi630a'
+		'Product/Wi-Fi-Module/WizFi630A/wizfi630a'
 		],
 		}
 		],
