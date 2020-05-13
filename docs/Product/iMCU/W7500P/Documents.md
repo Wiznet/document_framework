@@ -4,9 +4,7 @@ title: Documents
 date: 2020-04-03
 ---
 
-## Content
 
-# Documents
 The **DataSheet** provides the ordering information and mechanical device characteristics of the W7500/W7500P microcontrollers.  
 The **Reference Manual** provides the register map of peripherals and brief description.  
 The **PHY Reference** provides the How to Access W7500x PHY Register and description of W7500P Internal PHY.  
@@ -19,8 +17,6 @@ The **Getting Started** user's guide describes the installation of MDK,How to ma
 ### Data Sheet
 
 [W7500x Datasheet v1.1.0 - English](document_framework/img/products/w7500/w7500x_ds_v110.pdf)
-
-
 
 | Version | Date      | Decription                                           |
 | ------- | --------- | ---------------------------------------------------- |
@@ -45,8 +41,8 @@ The **Getting Started** user's guide describes the installation of MDK,How to ma
 | V 1.0.9 | 11NOV2019 | Fixed Power Supply description                                                                                           |
 
 
-
 -------------------
+
 
 
 ### Reference Manual
@@ -92,7 +88,7 @@ The **Getting Started** user's guide describes the installation of MDK,How to ma
   - ![W7500P Internal PHY Datasheet - English](http://www.bdtic.com/DataSheet/ICplus/IP101G_DS_R01_20121224.pdf)
 
 
-\<WRAP half column\> How to Access W7500x PHY Register
+How to Access W7500x PHY Register
 
 | Version | Date     | Decription      |
 | ------- | -------- | --------------- |
@@ -144,13 +140,10 @@ ARP problem in the NLB environment V1.0
 | ------- | ------- | ---------------- |
 | V 1.0   | 12MAR18 | Initial Document |
 
-
 -----
 
 
 ## Getting Started
-
-
 
   - [How to install KEIL](../W7500/documents/appnote/How_to_install_KEIL.md)
 
