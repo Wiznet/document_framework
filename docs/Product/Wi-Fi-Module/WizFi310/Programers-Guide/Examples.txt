@@ -4,8 +4,6 @@ title: Examples
 date: 2020-04-15
 ---
 
-
-## Content
 ## Example - Association & Disassociation
 
 #### Station Mode using WPA2 Static IP
