@@ -1,11 +1,9 @@
 ---
 id: quick_start_guide
 title: Quick Start Guide
-date: 2020-03-
+date: 2020-05-13
 ---
 
-
-## Content
 ### WizFi310 Quick Start Guide
 #### WizFi310 Evaluation Board
 The WizFi310 EVB is the evalution board for testing WizFi310 and prototyping development. WizFi310 EVB is composed of a WizFi310 evalution board and WizFi310 module.
