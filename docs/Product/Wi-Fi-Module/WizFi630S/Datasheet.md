@@ -1,7 +1,7 @@
 ---
 id: datasheet
 title: Datasheet
-date: 2020-03-
+date: 2020-05-13
 ---
 
 This section provides guides on the features of the WizFi630S,
