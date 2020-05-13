@@ -1,11 +1,9 @@
 ---
 id: overview
 title: Overview
-date: 2020-03-
+date: 2020-05-13
 ---
 
-
-## Content
 ## Overview 
 This document provides programmers with all commands and explanations
 about WizFi310 control. Basically programmers can control WizFi310 with
