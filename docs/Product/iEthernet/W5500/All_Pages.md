@@ -58,3 +58,1091 @@ LAN) and a Power Down Mode in order to reduce power consumption.
   - [W5500 Application Note (IPRAW)](IPRAW.md)
   - [W5500 Application Note (PPPoE)](PPPoE.md)
   - [W5500 Confirmation of ESD Test](SPI_Performance.md)
+# Reference Schematic
+
+## External Transformer Type
+
+![W5500 Ref.Schematic - External
+Transformer](/document_framework/img/products/w5500/w5500_sch_v110_use_trans_.pdf)
+![W5500 Ref.Schematic (External
+Transformer)](/document_framework/img/products/w5500/w5500_sch_v110_use_trans_.png)
+
+-----
+
+## RJ45 with Transformer Type
+
+![W5500 Ref.Schematic - RJ45 with
+Transformer](/document_framework/img/products/w5500/w5500_sch_v110_use_trans_.pdf)
+![W5500 Reference Schematic (RJ45 with
+Transformer)](/document_framework/img/products/w5500/w5500_sch_v110_use_mag_.png)
+
+-----
+
+## RJ45 with integrated Transformer and connected CT
+
+For using connected CT signals inside the Transformer or inside RJ45 the
+matching network (2x 50R) of the RX+/- signals must be isolated from CT
+(3.3V). For that isolation we need C23 and C24.  
+Please refer to the following schematic:
+
+
+  - *C23 and C24 must be added. Otherwise, W5500 won't operate well.*
+  - *And by connected center tap, Power dissipation may be raised.*
+  - *So, you'd better use a MAGJACK without connected center tap except
+    the case that you have to use one with connected center tap.*
+
+
+![w5500\_schematic-connected-cts\_003.jpg](/document_framework/img/products/w5500/w5500_schematic-connected-cts_003.jpg.jpg)  
+The RJ45 from UDE (RB1-125BAG1A) is used in many of our **W5100** and
+**W7100A** related Modules.
+
+-----
+
+## Recommended RJ45 using W5500
+
+#### External Transformer
+
+\- H1102NL from Pulse
+[datasheet](/document_framework/img/products/w5500/01.h1102nl_h325.pdf)  
+\- LCZ3A1CB from CETUS
+[datasheet](/document_framework/img/products/w5500/02.lcz3a1cb.pdf)  
+
+#### RJ45 with integrated Transformer
+
+\- J1B121ZCCD from CETUS
+[datasheet](/document_framework/blob/master/static/img/products/w5500/1.j1b121zccd-v0-101115.pdf)  
+\- J1B1211CCD from CETUS (used in \*1)
+[datasheet](/document_framework/img/products/w5500/2.j1b1211ccd.pdf)  
+\- RB1-1D5B8K1A from UDE
+[datasheet](/document_framework/img/products/w5500/3.rb1-1d5b8k1a_287-00_.pdf)  
+\- RB1-125BAG1A from UDE (used in \*2)
+[datasheet](/document_framework/img/products/w5500/rb1-125bag1a_111-00_.pdf)  
+\- J0011D21BNL from Pulse
+[datasheet](/document_framework/img/products/w5500/4.j0011d21bnl.pdf)  
+  
+\*1) we use the J1B1211CCD from CETUS in our
+**[W5500-EVB](/products/w5500/w5500_evb/start)**,
+**[WIZ550io](/products/wiz550io/start)**,
+**[WIZ550S2E](/products/wiz550s2e/start)** and
+**[WIZ550web](/products/wiz550web/start)** Modules.  
+\*2) we use the RB1-125BAG1A from UDE in most of our our **W5100** &
+**W7100A** related Plug-In and Serial-to-Ethernet (S2E) Modules.  
+\----
+# Migration from W5200 to W5500
+
+This page explains migration materials to W5200 users.
+
+-----
+
+### Driver for W5200 Users
+
+  - Download :
+    ![w5500\_cortexm3\_firmware\_for\_legacy.zip](/document_framework/img/products/w5500/w5500_cortexm3_firmware_for_legacy.zip)
+
+
+This driver is provided only for current W5200 users to help with a fast
+migration to W5500. TTo **get the new or latest BSD version driver**,
+please refer to the [W5500 Driver](/products/w5500/driver) page.
+
+### W5500 vs W5200 Chip in Comparison
+
+<table border="0" cellspacing="0" cellpadding="0" >
+<tbody>
+<tr>
+<th>Device</th><th>W5500</th><th>W5200</th>
+</tr>
+<tr>
+<td width="356" valign="top">Process</td>
+<td width="356" valign="top">0.13um</td>
+<td width="356" valign="top">0.18um</td>
+</tr>
+<tr>
+<td width="356" valign="top">Package</td>
+<td width="356" valign="top">48 LQFP (7*7 mm^2)</td>
+<td width="356" valign="top">48 QFN  (7*7 mm^2)</td>
+</tr>
+<tr>
+<td width="356" valign="top">IO Voltage / Core Voltage</td>
+<td width="356" valign="top">3.3V / 1.2V </td>
+<td width="356" valign="top">3.3V / 1.8V </td>
+</tr>
+<tr>
+<td width="356" valign="top">Number of sockets</td>
+<td width="356" valign="top">8 ea</td>
+<td width="356" valign="top">8 ea</td>
+</tr>
+<tr>
+<td rowspan="4">SPI Frame
+<td width="356" valign="top">ADD1|ADD2|Control|Data0|Data1…</td>
+<td width="356" valign="top">ADD1|ADD0|OP+LEN1|LEN0|Data…</td>
+</tr>
+<tr>
+<td width="356" valign="top">8bit |8bit |8bit |8bit | 8bit</td>
+<td width="356" valign="top">8bit |8bit |1bit +7bit |8bit | 8bit</td>
+</tr>
+<tr>
+<td width="356" valign="top">Control 1 byte (Block selection, Read/Write selection, SPI mode selection)</td>
+<td width="356" valign="top">OP Code 1 bit (Read/Write Selection)</td>
+</tr>
+<tr>
+<td width="356" valign="top">No Data Length field</td>
+<td width="356" valign="top">Data Length 15bit</td>
+</tr>
+
+
+<tr>
+<td width="356" valign="top">Memory Access</td>
+<td width="356" valign="top">TX Memory and RX Memory can be used for general data memory.</td>
+<td width="356" valign="top">TX Memory can be used for general data memory.</td>
+</tr>
+<tr>
+<td width="356" valign="top">MCU Bus Interface</td>
+<td width="356" valign="top">SPI</td>
+<td width="356" valign="top">SPI / 8bit parallel indirect bus mode</td>
+</tr>
+
+<tr>
+<td width="356" valign="top">Regulator Related Circuit</td>
+<td width="356" valign="top">LDO output pin needs the capacitor. No need to supply the chip power (1.2V).</td>
+<td width="356" valign="top">LDO output voltage (1.8V) must be applied to the chip power (1.8V) at the outer side of the chip package.</td>
+</tr>
+
+<tr>
+<td width="356" valign="top">PHY Power Down Setting</td>
+<td width="356" valign="top">PHY's power down mode can be set by configuring PHY Register.</td>
+<td width="356" valign="top">PHY's power down mode can be set by external pin.</td>
+</tr>
+
+<tr>
+<td width="356" valign="top">WOL Function</td>
+<td width="356" valign="top">WOL over UDP Support</td>
+<td width="356" valign="top">WOL over Ethernet Support</td>
+</tr>
+
+<tr>
+<td width="356" valign="top">PHY Mode Setting</td>
+<td width="356" valign="top">PHY mode can be set by Firmware</td>
+<td width="356" valign="top"></td>
+</tr>
+
+<tr>
+<td width="356" valign="top">Status LED</td>
+<td width="356" valign="top">4 LEDs (SPD / DUP / ACT / Link)</td>
+<td width="356" valign="top">3 LEDs (SPD / DUP / Link)</td>
+</tr>
+
+<tr>
+<td width="356" valign="top">PHY Auto MDIX Function</td>
+<td width="356" valign="top">No Support</td>
+<td width="356" valign="top">Support</td>
+</tr>
+
+<tr>
+<td width="356" valign="top">Operating Current @100Mbps Full Link</td>
+<td width="356" valign="top">Typical 132mA</td>
+<td width="356" valign="top">Typical 160mA</td>
+</tr>
+</tbody>
+</table>
+# ESD Test Document
+![W5500 Confirmation of ESD Test document(PDF)](/document_framework/img/products/w5500/kect-1607-00353_1_w5500_48lqfp_0722.pdf)
+![W5500 Confirmation of ESD Test document](/document_framework/img/products/w5500/application/kect-1607-00353_1_w5500_48lqfp_0722.png)
+# Driver
+
+The ioLibrary means **"Internet Offload Library"** for WIZnet chip. It
+includes **drivers** and **application protocols**. There are three
+kinds of libraries explained on this page The first two drivers
+(ioLibrary\_BSD, ioLibrary) can be used for
+[W5500](/products/w5500/start) application designs. These will be
+updated continuously. The former BSD-Type driver will not be updated, as
+it is only meant to be a migration help from W5200 to
+[W5500](/products/w5500/start).
+
+-----
+
+1. ioLibrary_BSD
+
+2. ioLibrary
+
+3. BSD Type driver for W5200 User
+
+-----
+
+to 
+## 1. ioLibrary_BSD
+
+#### Overview
+
+This driver provides the Berkeley Socket type APIs. The function names
+of this ioLibrary\_BSD are the same as the function names of the
+ioLibrary.
+
+  - Directory Structure ![](/document_framework/img/products/w5500/iolibrary_bsd.jpg)
+      - Ethernet : SOCKET APIs like BSD & WIZCHIP(W5500,W5200 and etc)
+        Driver
+      - Internet : 
+          - DHCP client 
+          - DNS client 
+          - Others will be added.
+
+#### Download
+
+**ioLibrary\_BSD : latest version**
+
+ **ioLibrary\_BSD GitHub
+Repository**
+
+<https://github.com/Wiznet/ioLibrary_Driver> 
+
+<ioLibrary_BSD : old version>
+
+<table>
+<tbody>
+<tr class="odd">
+<td></td>
+<td>Type</td>
+<td>Version</td>
+<td>Note</td>
+<td>Download Link</td>
+</tr>
+<tr class="even">
+<td>Source code</td>
+<td>Ethernet<br />
+(Berkeley Socket type APIs)</td>
+<td>1.0.3</td>
+<td>-</td>
+<td><embed src="/document_framework/img/products/w5500/iolibrary_bsd_ethernet_v103.zip" /></td>
+</tr>
+<tr class="odd">
+<td>:::</td>
+<td>:::</td>
+<td>1.0.2</td>
+<td>-</td>
+<td><embed src="/document_framework/img/products/w5500/iolibrary_bsd_ethernet_v102.zip" /></td>
+</tr>
+<tr class="even">
+<td>:::</td>
+<td>:::</td>
+<td>1.0.1</td>
+<td>-</td>
+<td><embed src="/document_framework/img/products/w5500/iolibrary_bsd_ethernet_v101.zip" /></td>
+</tr>
+<tr class="odd">
+<td>:::</td>
+<td>:::</td>
+<td>1.0.0</td>
+<td>-</td>
+<td><embed src="/document_framework/img/products/w5500/iolibrary_bsd_ethernet_v100.zip" /></td>
+</tr>
+<tr class="even">
+<td>:::</td>
+<td>Internet<br />
+(Application protocols)</td>
+<td>1.1.1</td>
+<td>-</td>
+<td><embed src="/document_framework/img/products/w5500/iolibrary_bsd_internet_v111.zip" /></td>
+</tr>
+<tr class="odd">
+<td>:::</td>
+<td>:::</td>
+<td>1.1.0</td>
+<td>-</td>
+<td><embed src="/document_framework/img/products/w5500/iolibrary_bsd_internet_v110.zip" /></td>
+</tr>
+<tr class="even">
+<td>:::</td>
+<td>:::</td>
+<td>1.0.0</td>
+<td>-</td>
+<td><embed src="/document_framework/img/products/w5500/iolibrary_bsd_internet_v100.zip" /></td>
+</tr>
+<tr class="odd">
+<td>Documents</td>
+<td>Socket APIs Help<br />
+(chm, html)</td>
+<td>1.0.3</td>
+<td>-</td>
+<td><embed src="/document_framework/img/products/w5500/w5500_socket_apis_v103.zip" /></td>
+</tr>
+<tr class="even">
+<td>:::</td>
+<td>:::</td>
+<td>1.0.2</td>
+<td>-</td>
+<td><embed src="/document_framework/img/products/w5500/w5500_socket_apis_v102.zip" /></td>
+</tr>
+<tr class="odd">
+<td>:::</td>
+<td>:::</td>
+<td>1.0.1</td>
+<td>-</td>
+<td><embed src="/document_framework/img/products/w5500/w5500_socket_apis_v101.zip" /></td>
+</tr>
+<tr class="even">
+<td>:::</td>
+<td>:::</td>
+<td>1.0.0</td>
+<td>-</td>
+<td><embed src="/document_framework/img/products/w5500/w5500_socket_apis.zip" /></td>
+</tr>
+</tbody>
+</table>
+
+**Update History**
+
+  - ioLibrary\_BSD
+      - Ethernet : Berkeley Socket type APIs
+          - Document (chm, html): Socket APIs Help
+          - Revision History
+              - ioLibrary\_BSD will be update in github continuously.
+              - V1.03 (Refer to 20140501)
+                  - wizchip\_conf.c
+                    1.  ***Explicit type casting in
+                        wizchip\_bus\_readbyte() &
+                        wizchip\_bus\_writebyte()***
+                    2.  uint32\_t type converts into ptrdiff\_t first.
+                        And then reconverting it into uint8\_t\*. For
+                        remove the warning when pointer type size is not
+                        32bit. ***If ptrdiff\_t doesn't support in your
+                        complier, You should must replace ptrdiff\_t
+                        into your suitable pointer type.***
+                  - w5500.c : ***Implicit type casting -\> Explicit type
+                    casting*** 
+                    1.  wizchip\_read\_data() & wizchip\_write\_data() :
+                        Fixed the problem on porting into under 32bit
+                        MCU
+                  - socket.h
+                    1.  Modify the comment : SO\_REMAINED -\>
+                        PACK\_REMAINED
+                    2.  Add the comment as zero byte udp data reception
+                        in getsockopt(). 
+                  - socket.c
+                    1.  ***Implicit type casting -\> Explicit type
+                        casting.***
+                    2.  replace 0x01 with PACK\_REMAINED in recvfrom()
+                    3.  Validation a destination ip in connect() &
+                        sendto(): It occurs a fatal error on converting
+                        unint32 address if uint8\* addr parameter is not
+                        aligned by 4byte address. Copy 4 byte addr value
+                        into temporary uint32 variable and then compares
+                        it.
+                        
+                        - V1.02
+
+<!-- end list -->
+
+``` 
+        * socket.c (Refer to 20131220)
+          - setsockopt() : Remove warning message (delete tmp variable)
+        * w5500.c (Refer to 20131220)
+          - WIZCHIP_READ_BUF() & WIZCHIP_WRITE_BUF() in _WIZCHIP_IO_MODE_SPI_FDM_ case
+            - Remove warning message
+            - Remove unnecessary 'for' loop
+      * V1.01 
+        * socket.c (Refer to 20131104)
+          - sendto() : Add to clear the timeout interrupt status of socket(Sn_IR_TIMEOUT).
+      * V1.00
+        * First released.
+  * Internet  :  Application protocols
+    * Revision History
+      * V1.11 (2013-12-26)
+        * DHCP Client
+          - Modify variable declaration(dhcp_tick_1s) for code optimization in dhcp.c
+      * V1.10
+        * DHCP Client
+          - Optimize code
+          - Add reg_dhcp_cbfunc()
+          - Add DHCP_stop() 
+          - Integrate check_DHCP_state() & DHCP_run() into DHCP_run()
+          - Don't care system endian
+          - Move unreferenced DEFINE to dns.c
+          - Remove the unused DEFINE
+          - Add comments
+        * DNS Client
+          - Remove secondary DNS server in DNS_run
+            - If 1st DNS_run failed, call DNS_run with 2nd DNS again
+          - DNS_timerHandler -> DNS_time_handler
+          - Move unreferenced DEFINE to dns.c
+          - Remove the unused define
+          - Integrated dns.h dns.c & dns_parse.h dns_parse.c into dns.h & dns.c
+      * V1.00
+        * First released. 
+          * DHCP Client (Dynamic Host Configuration Protocol Client)
+          * DNS Client (Domain Name System Client)
+```
+
+**Application code examples : latest version**
+
+<table>
+<tbody>
+<tr class="odd">
+<td></td>
+<td>Application</td>
+<td>Update</td>
+<td>Note</td>
+<td>Download Link</td>
+</tr>
+<tr class="even">
+<td>STM32F103X<br />
+CooCox CoIDE Project</td>
+<td>Loopback Test</td>
+<td>2013-11-04</td>
+<td>-</td>
+<td><embed src="/document_framework/img/products/w5500/w5500_example_loopback_stm32f103x_coide_20131104.zip" /></td>
+</tr>
+<tr class="odd">
+<td>:::</td>
+<td>DHCP Client</td>
+<td>2013-12-26</td>
+<td>-</td>
+<td><embed src="/document_framework/img/products/w5500/w5500_example_dhcp_stm32f103x_coide_20131226.zip" /></td>
+</tr>
+<tr class="even">
+<td>:::</td>
+<td>DNS Client</td>
+<td>2013-12-26</td>
+<td>-</td>
+<td><embed src="/Wiznet/document_framework/img/products/w5500/w5500_example_dns_stm32f103x_coide_20131226.zip" /></td>
+</tr>
+<tr class="odd">
+<td>EnergyMicro<br />
+Tiny GECKO(EFM32TG840F32)<br />
+IAR Project</td>
+<td>Loopback Test<br />
+DHCP Client<br />
+DNS Client</td>
+<td>2013-12-20</td>
+<td>-</td>
+<td><a href="/osh/energymicro/tinygecko">Click</a></td>
+</tr>
+</tbody>
+</table>
+
+<Application code examples : old version>
+
+<table>
+<tbody>
+<tr class="odd">
+<td></td>
+<td>Application</td>
+<td>Update</td>
+<td>Note</td>
+<td>Download Link</td>
+</tr>
+<tr class="even">
+<td>STM32F103X<br />
+CooCox CoIDE Project</td>
+<td>Loopback Test</td>
+<td>2013-10-23</td>
+<td>-</td>
+<td><embed src="/document_framework/img/products/w5500/w5500_example_loopback_stm32f103x_coide.zip" /></td>
+</tr>
+<tr class="odd">
+<td>:::</td>
+<td>DHCP Client</td>
+<td>2013-11-08</td>
+<td>-</td>
+<td><embed src="/document_framework/img/products/w5500/w5500_example_dhcp_stm32f103x_coide_20131108.zip" /></td>
+</tr>
+<tr class="even">
+<td>:::</td>
+<td>DNS Client</td>
+<td>2013-11-08</td>
+<td>-</td>
+<td><embed src="/document_framework/img/products/w5500/w5500_example_dns_stm32f103x_coide_20131108.zip" /></td>
+</tr>
+</tbody>
+</table>
+
+ **These projects do not contain [Ethernet] and [Internet] codes. (Empty directory)**
+
+Please download ioLibrary_BSD APIs and Application protocols,  
+and then insert to each of same named directory in provided project.
+
+
+**History**
+
+  - Application code example
+      - Example project was made by CooCox CoIDE with the STM32F103X
+        Cortex-M3 platform.
+          - Loopback Test 
+              - 2013-11-04 Changes
+                1.  main.c : refine and rearrange source code.
+                2.  Separated Project code / APIs and Applications 
+          - DHCP Client 
+              - 2013-12-26 Changes
+                1.  main.c : refine and rearrange source code for
+                    improved DHCP code.
+          - DNS Client
+              - 2013-12-26 Changes
+                1.  main.c : refine and rearrange source code for
+                    improved DNS code
+                    
+                    
+ #### Description
+
+This driver provides BSD-type Socket APIs for
+[W5500](/products/w5500/start). Because the function names of this
+driver are more user-friendly than those of the older drivers, …,
+current WIZnet chip users can easily migrate from their WIZnet chip
+application to the W5500 application. All drivers for W5100, W5200 and
+W5300 will be merged into the ioLibrary in the near future. All
+application protocols will also be merged into ioLibrary based on this
+BSD-type Socket APIs.
+
+This table shows the differences between other BSD drivers and new W5500
+driver.
+
+<table>
+<tbody>
+<tr class="odd">
+<td><strong>Driver</strong></td>
+<td>Other BSD Drivers</td>
+<td>W5500 Driver</td>
+</tr>
+<tr class="even">
+<td>Variables Type</td>
+<td>type.h (made by wiznet)<br />
+ex) uint16</td>
+<td>stdint.h (standard)<br />
+ex) uint16_t</td>
+</tr>
+<tr class="odd">
+<td>Register Naming</td>
+<td>REGName + Index<br />
+<br />
+ex) SIPR0 , SIPR1, SIPR2, SIPR3</td>
+<td>REGName &amp; WIZCHIP_OFFSET_INC<br />
+<br />
+ex&gt; SIP,<br />
+WIZCHIP_OFFSET_INC(SIP,1),<br />
+WIZCHIP_OFFSET_INC(SIP,2),<br />
+WIZCHIP_OFFSET_INC(SIP,3)</td>
+</tr>
+<tr class="even">
+<td>Basic IO function</td>
+<td>IINCHIP_READ<br />
+IINCHIP_WRITE<br />
+IINCHIP_READ_BUF<br />
+IINCHIP_WRITE_BUF<br />
+<br />
+16bit Address Space<br />
+User should implement Functions<br />
+MCU Dependent</td>
+<td>WIZCHIP_READ<br />
+WIZCHIP_WRITE<br />
+WIZCHIP_READ_BUF<br />
+WIZCHIP_WRITE_BUF<br />
+<br />
+32bit Address Space<br />
+Since users implement MCU-dependent parts and then register them as Callback function, users don't need to implement the Function itself.<br />
+<br />
+Supports IINCHIP_XXX function for backward compatiblity.</td>
+</tr>
+<tr class="odd">
+<td>Register Function</td>
+<td>IINCHIP_XXX can be used. Supports some getREG() &amp; setREG() functions.</td>
+<td><br />
+It is not recommended to use WIZCHIP_XXXX. Supports getREG() &amp; setREG() functions or macros for all registers.</td>
+</tr>
+<tr class="even">
+<td>Extra Functions</td>
+<td>None</td>
+<td>Optional and omissible Supports User-friendly named functions. All extra functions can be implemented by using setREG() &amp; getREG().</td>
+</tr>
+</tbody>
+</table>
+
+<table>
+<tbody>
+<tr class="odd">
+<td><strong>Socket APIs</strong></td>
+<td>Other BSD Drivers</td>
+<td>W5500 Driver</td>
+</tr>
+<tr class="even">
+<td>Return Value</td>
+<td>void<br />
+Success or Fail<br />
+Transmit/Receive Size</td>
+<td>Success or Fail<br />
+Transmit/Receive Size<br />
+All functions return.</td>
+</tr>
+<tr class="odd">
+<td>Error Code</td>
+<td>None</td>
+<td>SOCK_BUSY : 0<br />
+SOCKERR_SOCKNUM<br />
+SOCKERR_SOCKOPT<br />
+SOCKERR_SOCKINIT<br />
+SOCKERR_SOCKCLOSED<br />
+SOCKERR_SOCKMODE<br />
+SOCKERR_SOCKFLAG<br />
+SOCKERR_SOCKSTATUS<br />
+SOCKERR_ARG<br />
+SOCKERR_PORTZERO<br />
+SOCKERR_IPINVALID<br />
+SOCKERR_TIMEOUT<br />
+SOCKERR_DATALEN<br />
+SOCKERR_BUFFER<br />
+SOCKFATAL_PACKLEN</td>
+</tr>
+<tr class="even">
+<td>IO Mode</td>
+<td>Block &amp; Non-Block Fixed</td>
+<td>Block or Non-Block configurable</td>
+</tr>
+<tr class="odd">
+<td>Block Function</td>
+<td>send<br />
+recv<br />
+sendto<br />
+recvfrom</td>
+<td><br />
+send<br />
+recv<br />
+sendto<br />
+recvfrom<br />
+connect</td>
+</tr>
+<tr class="even">
+<td>Non-Block Function</td>
+<td>connect</td>
+<td>:::</td>
+</tr>
+<tr class="odd">
+<td>recvfrom</td>
+<td>Should read data in received packet unit.</td>
+<td>Can read data received packet separately.</td>
+</tr>
+</tbody>
+</table>
+
+\* Socket APIs
+
+  * Function Name
+    * Same as the function name of previous drivers
+  * Function Return value
+    * Previous Drivers:  Void or Success/Fail and Transmit/Receive Size
+    * W5500 Driver: All functions return Success and Fail. In Fail case, operations are subdivided.
+      * Success: SOCK_OK, Socket Number, Transmit and Receive Size
+      * Fail: SOCK_BUSY, SOCKERR_XXX, SOCKFATAL_XXX ( 0 or Negative value)
+          - ** SOCK_BUSY ** : 0
+          - SOCKERR_SOCKNUM
+          - SOCKERR_SOCKOPT   
+          - SOCKERR_SOCKINIT  
+          - SOCKERR_SOCKCLOSED
+          - SOCKERR_SOCKMODE  
+          - SOCKERR_SOCKFLAG  
+          - SOCKERR_SOCKSTATUS
+          - SOCKERR_ARG       
+          - SOCKERR_PORTZERO  
+          - SOCKERR_IPINVALID 
+          - SOCKERR_TIMEOUT   
+          - SOCKERR_DATALEN   
+          - SOCKERR_BUFFER    
+          - ** SOCKFATAL_PACKLEN **
+  * Block / Non-Block IO mode
+    * Previous Drivers : Block function and Non-Block function were mixed.
+      * Block Function : send(), recv(), sento(), recvfrom()
+      * Non-block Function : connect()
+      * Blocking can be avoided by using getSn_SR(), getSn_TX_FSR(), and getSn_RX_RSR() properly.
+    * W5500 Driver
+      * Block / Non-Block IO mode can be selected by user. (Default: Block mode)
+      * socket() with new flag SF_IO_NONBLOCK or setsockopt() with SO_SET_IOMODE Can be configured.
+      * Block and Non-block Configurable Function
+      * connect(), send(), recv(), sendto(), recvfrom()
+      * ** getSn_SR(), getSn_TX_FSR() and getSn_RX_RSR() functions can be used like … like previous drivers. They are not related to IO mode **
+
+
+## 2. ioLibrary
+
+#### Download
+
+**ioLibrary with example project : latest version**
+
+|              |               |         |      |                                                         |
+| ------------ | ------------- | ------- | ---- | ------------------------------------------------------- |
+|              | Application   | Version | Note | Download Link                                           |
+| Cookie board | Loopback test | 1.0.2   | \-   | ![Click](/document_framework/img/products/w5500/w5500_coocox_project_v102.zip) |
+
+\<Revision History>
+
+* v102
+
+
+  * socket.c(Refer to 2014-03-18)
+    - TCPReSend() : Remove this function and related codes because TCP send mechanism was changed.
+    - TCPReSendNB() : Remove this function and related codes because TCP send mechanism was changed.
+    - TCPSendCHK() : Modify return value.
+    - TCPSend() : Change return value to len.
+  * loopback.c(Refer to 2014-03-18)
+    - Existing mechanism resend packet if don't send all received packet, but change not to resend.
+* v100
+  * First release
+
+
+**ioLibrary : latest version**
+
+|                    |                       |         |      |                                              |
+| ------------------ | --------------------- | ------- | ---- | -------------------------------------------- |
+|                    | Description           | Version | Note | Download Link                                |
+| Driver Source code | ioLibrary source code | 1.0.2   | \-   | ![Click](/document_framework/blob/master/static/img/products/w5500/iolibrary_v102.zip) |
+
+**ioLibrary : old version**
+
+<table>
+<tbody>
+<tr class="odd">
+<td></td>
+<td>Description</td>
+<td>Version</td>
+<td>Note</td>
+<td>Download Link</td>
+</tr>
+<tr class="even">
+<td>Driver Source code</td>
+<td>ioLibrary source code</td>
+<td>1.0.0</td>
+<td>-</td>
+<td><embed src="/products/w5500/iolibrary_v100.zip" /></td>
+</tr>
+<tr class="odd">
+<td>Driver documents</td>
+<td>Socket APIs Help(chm, html)<br />
+(To use html, open the index.html)</td>
+<td>1.0.0</td>
+<td>-</td>
+<td><embed src="/products/w5500/w5500_driver_doc_v100.zip" /></td>
+</tr>
+</tbody>
+</table>
+
+This ioLibrary has basic I/O functions, socket register access functions, common register access functions, utilities and functions for setting up a platform and network
+This code has been evaluated on the CooCox Cookie Board with ARM Cortex-M0 MCU.
+
+Please refer to this link for more details.
+
+- [How to use on cookie board](http://wizwiki.net/wiki/doku.php?id=osh:cookie:singlepage).
+
+The figure below shows the folder structure of this ioLibrary.
+
+   ![](lib/exe/fetch.php?media=:products:w5500:folder.jpg)
+   
+   -----
+   
+   ## 3. BSD Type driver for W5200 User
+   
+- Driver Source code [: w5500_cortexm3_firmware_for_legacy.zip](lib/exe/fetch.php?media=:products:w5500:w5500_cortexm3_firmware_for_legacy.zip)  
+
+This driver has the same BSD as the API for W5200 users. 
+We have been evaluating this code on the __**ARM-CortexM3(STM32F103 series)**__ chipset
+
+<span class="underline">This type of
+driver is the final version. We will not update it later.</span>
+<span class="underline">Please use the new (well coded :-)) driver code
+for new projects.</span>
+---
+id: datasheet
+title: Datasheet
+date: 2020-04-03
+---
+
+
+## Datasheet
+
+  - ![W5500 Datasheet v1.0.9 -
+    English](/document_framework/img/products/w5500/w5500_ds_v109e.pdf)
+  - ![W5500 Datasheet v1.0.9 -
+    Korean](/document_framework/img/products/w5500/w5500_ds_v109k.pdf)
+
+
+#### Datasheet History
+
+| Version | Date       | Description                                                                                                                                                                                                                                                                                                                 |
+| ------- | ---------- | --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| 1.0.0   | 2013-08-01 | Initial Release                                                                                                                                                                                                                                                                                                             |
+| 1.0.1   | 2013-09-13 | Corrected duplicated statements and typing errors (P.14, 23, 24, 28, 39, 51) Corrected descriptions (P.35)                                                                                                                                                                                                                  |
+| 1.0.2   | 2013-11-14 | Changed *“descriptions of pin at 1.1 Pin Descriptions”* (P.10) starting ”It must be tied to GND to NC (PIN38..42)” / 2. corrected typing error: starting “0x02 to 0x42 value of SOCK\_MACRAW at 4.2 Socket Registers(P.50)”                                                                                                 |
+| 1.0.3   | 2014-05-29 | Corrected *“Sn\_MSSR at 4.2 Socket Register”* (P.53): wrong descriptions of Sn\_MSSR about FMTU/MTU                                                                                                                                                                                                                         |
+| 1.0.4   | 2014-06-13 | 1\. Added Note about reading size register value (P.56, 58) / 2. Added IR Reflow Temperature Profile (P.66)                                                                                                                                                                                                                 |
+| 1.0.5   | 2014-11-11 | 1\. Added description for MISO pin (P.11):The SCSn signal defines MISO pin output value / 2. Modified the register notation (P.33), Modified the register notation “Sn\_IR at 4.2 Socket Register” (P.49) :from \[R\] to \[RCW1\] / 3. Corrected typing error: from DICON to DISCON of Sn\_SR at 4.2 Socket Register (P.50) |
+| 1.0.6   | 2014-12-30 | Corrected typing error : from 0x02 to 0x42 value of SOCK\_MACRAW *“Sn\_CR at 4.2 Socket Registers”*(P.46)                                                                                                                                                                                                                   |
+| 1.0.7   | 2016-02-24 | 1\. Corrected Interrupt Assert Wait Time function (P.34) / 2. Notice PLLclk is 150MHz (P.34)                                                                                                                                                                                                                                |
+| 1.0.8   | 2017-05-19 | 1\. Corrected Driver Level Range Unit uW/MHz to uW (P.60)                                                                                                                                                                                                                                                                   |
+| 1.0.9   | 2019-05-22 | 1\. Corrected Sn\_IMR Description (P.55) 2. Corrected Junction temperature Min value TJ (P.57) 3. Added Maximum junction temperature TJMAX (P.58)                                                                                                                                                                           |
+
+-----
+
+
+#### WIZ550io History
+
+<table>
+<thead>
+<tr class="header">
+<th>Version</th>
+<th>Date</th>
+<th>Description</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>1.0</td>
+<td>2013-08-01</td>
+<td>Initial Release</td>
+</tr>
+<tr class="even">
+<td>1.1</td>
+<td>2014-01-17</td>
+<td>Changed <em>"External Transformer + RJ-45 to MAGJACK(inside transformer)"</em></td>
+</tr>
+<tr class="odd">
+<td>1.2</td>
+<td>2015-04-20</td>
+<td>Added <em>“Resistor 33R in MDI line. because EMI issue.”</em><br />
+Changed <em>"PCB artwork. because changed develop tool(PADS -&gt; Altium) "</em></td>
+</tr>
+<tr class="even">
+<td>1.3</td>
+<td>2018-08-10</td>
+<td>Modified <em>"inner 2 layer copper foil (3V3D). This copper foil plated below of CHAND area. It may affect ESD."</em></td>
+</tr>
+</tbody>
+</table>
+
+-----
+# W5500 Application
+---
+  * [TCP](TCP.md)
+  * [UDP](UDP.md)
+  * [IPRAW](IPRAW.md)
+  * [PPPoE](PPPoE.md)
+  * [SPI Performance](SPI_Performance.md)
+---
+id: w5500_evb
+title: W5500-EVB
+date: 2020-04-07
+---
+
+## Content
+
+  - W5500 chip development platform for **net enabled** microcotroller
+    applications
+  - Ethernet (W5500 Hardwired TCP/IP chip) and 32-bit ARM® Cortex™-M0
+    based designs
+  - **Arduino Pin-compatible** platform hardware. 
+
+![W5500 EVB Rev1.0](/document_framework/img/products/w5500/w5500_evb/w5500-evb_side.png)
+
+-----
+
+## Overview
+
+W5500 EVB is an evaluation board for W5500 chip based on the 32-bit ARM®
+Cortex™-M0 microcontroller. It is the easy way to develop internet
+connection for efficient and small embedded systems using W5500,
+WIZnet's hardwired TCP/IP embedded Ethernet controller. It has been
+designed to be hardware pin-compatible with 'Arduino shields' for the
+'Arduino UNO Rev3' and other footprint-compatible boards.
+
+It is based on the NXP LPC11E36 MCU with a 32-bit ARM® Cortex™-M0 core
+running at 50MHz. It includes 96kB Flash memory, 12kB SRAM, 4kB EEPROM
+and various interfaces, including SPI/SSP, I2C, UART, ADC, PWM and other
+I/O interfaces. Additionally, the on-board temperature sensor /
+potentiometer is ready for useful ADC control examples. Two programmable
+push button switches, one RGB LED, an external 4-Mbit serial dataflash
+memory and a 10/100 Base-Tx RJ-45 connector with an integrated
+transformer are on board to implement embedded networking applications.
+
+The W5500 EVB provides benefits in developing easier and powerful
+network applications on small form-factor and non-OS based embedded
+devices using the W5500 chip.
+
+![W5500 EVB
+Rev1.0](/document_framework/img/products/w5500/w5500_evb/w5500_evb_v1.0_composition.png)
+
+-----
+## Features
+
+**WIZnet W5500 Hardwired TCP/IP chip**
+
+  - Hardwired TCP/IP embedded Ethernet controller
+  - SPI (Serial Peripheral Interface) Microcontroller Interface
+  - 32kB internal Tx/Rx socket buffer memory
+  - Hardwired TCP/IP stack supports TCP, UDP, IPv4, ICMP, ARP, IGMP, and
+    PPPoE protocols
+  - Easy to implement of the other network protocols
+  - [W5500 Product page](w5500.md)
+
+**NXP LPC11E36/501 MCU (LPC11E36FHN33)**
+
+  - 32-bit ARM® Cortex™-M0 microcontroller running at up to 50MHz
+  - 96kB on-chip flash program memory
+  - 12kB on-chip SRAM data memory
+  - 4kB on-chip EEPROM data memory
+  - 1 x UART
+  - 1 x I2C
+  - 2 x SPI/SSP
+  - 8 x 10-bit ADC
+  - 4 x Timer (16, 32-bit)
+  - 11 x PWM
+  - 🌎[NXP LPC11E36FHN33
+    Product page](http://www.nxp.com/products/microcontrollers/cortex_m0_m0/lpc1100/LPC11E36FHN33.html)
+
+**On-board Temperature sensor**
+
+  - Microchip TC1047A (Temperature-to-Voltage Converter)
+  - Supply Voltage Range: 2.7V to 4.4V
+  - Wide Temperature Measurement Range: -40 to +125 celsius degrees
+  - High Temperature Converter Accuracy: 2 celsius degrees, Max, at 25
+    celsius degrees
+  - 🌎[Microchip TC1047A
+    Product
+    page](http://www.microchip.com/wwwproducts/Devices.aspx?product=TC1047)
+
+**Connectors**
+
+  - Pin-compatible with Arduino Shields designed for the UNO Rev3
+      - Digital pins D0 to D15, Analog inputs A0 to A5, the power header
+        and Etc.
+  - 10/100Mbps Ethernet (RJ-45 with transformer)
+  - Virtual COM Port(UART via USB Mini-B) - 🌎[FTDI Drivers Download
+    Page](http://www.ftdichip.com/Drivers/VCP.htm)
+  - ARM standard debug connector: 10-pin Cortex debug connector for SWD
+    (Serial Wire Debug)
+
+**Others**
+
+  - 2 x User's Push button switches
+  - 1 x RGB LED
+  - 1 x Potentiometer (ADC)
+  - External 4-Mbit serial dataflash (SPI, 2048 pages x 256/264
+    byte/page)
+  - Industrial temperature specified (-40 to +85 degrees Celsius)
+  - \[Reset\] and \[ISP mode\]\[1\] Push button switch
+
+**Form-factor**
+
+  - Dimension : 93 X 53 X 17.3(H) (Unit : mm)
+  - 5V DC power supply and +5V/500mA from power supply USB connector
+  - GPIO Input Voltage : 0 \~ 5V
+  - GPIO Output Voltage : 0 \~ 3.3V
+  - Two layer PCB (FR-4 material, 1.6T)
+
+<!-- end list -->
+
+  - Arduino Compatible Header Pinout
+
+![W5500 EVB Rev1.0 Arduino Compatible Header Pin
+Map](/document_framework/img/products/w5500/w5500_evb/w5500_evb_v1.0_arduino_pin_map.png)
+
+  - External Pinout
+
+![W5500 EVB Rev1.0 External Pin
+Map](/document_framework/img/products/w5500/w5500_evb/w5500_evb_v1.0_external_pin_map.png)
+
+-----
+
+## Firmware
+
+W5500 EVB firmware project based on LPCXpresso IDE. For more details about LPCXpresso IDE, please refer to 🌎[NXP LPCXpresso platform page].
+
+**LPCXpresso IDE Install & Activation Guide**
+[How to Install and Activate LPCXpresso IDE](How_to_Install_and_Activate_LPCXpresso_IDE.md)
+
+**Download the Libraries and Application example source code for W5500-EVB**
+🌎[https://github.com/Wiznet/W5500_EVB]
+
+-----
+
+
+## Getting Started
+
+ 🌎[Hello World\!](Hello_World.md)
+
+ 🌎[Downloading a new program](downloading_a_new_program.md)
+
+-----
+
+## Make New W5500 EVB Projects
+
+ 🌎[Make a new W5500 EVB
+project with LPCXpresso
+IDE](make_a_new_w5500_evb_project_with_lpcxpresso_ide.md)
+
+-----
+## Technical Reference
+
+**Datasheet**
+
+  - 🌎[datasheet\#W5500
+    Datasheet]()
+  - 🌎[NXP LPC11E3x Datasheet](http://www.nxp.com/documents/data_sheet/LPC11E3X.pdf)
+  - 🌎[Microchip
+    TC1027/TC1047A
+    Datasheet](http://ww1.microchip.com/downloads/en/DeviceDoc/21498D.pdf)
+    (Temperature Sensor)
+  - 🌎![ATMEL AT45DB041D
+    Datasheet](/document_framework/img/products/w5500/w5500_evb/at45db041d-su.pdf) (External
+    Dataflash Memory)
+
+**Schematic**
+
+  - ![](/products/w5500/w5500_evb/icons/download.png) ![W5500 EVB Rev1.0
+    Schematic(Eagle
+    CAD)](/document_framework/img/products/w5500/w5500_evb/w5500_evb_v1.0_140527.zip) (Last
+    updated on 2014-05-27)
+  - ![](/products/w5500/w5500_evb/icons/download.png) ![W5500 EVB Rev1.0
+    Schematic(PDF)](/document_framework/img/products/w5500/w5500_evb/w5500_evb_v1.0_140527.pdf)
+    (Last updated on 2014-05-27)
+
+**Part list**
+
+  - ![](/products/w5500/w5500_evb/icons/download.png) ![W5500 EVB Rev1.0
+    Part List](/document_framework/img/products/w5500/w5500_evb/w5500_evb_pl_140527-1.pdf)
+    (Last updated on 2014-05-27)
+
+**W5500-EVB DXF files**
+
+  - ![W5500-EVB DXF File](/document_framework/img/products/w5500/w5500_evb/w5500-evb-dxf.zip)
+
+**Dimension**
+
+  - W5500 EVB Rev1.0 Dimension : 
+
+![](/products/w5500/w5500_evb/w5500_evb_v1.0_demension.png)
+
+-----
+## Etc.
+
+**Virtual COM Port Drivers**
+
+  - [FTDI Virtual COM Port
+    Drivers Page](http://www.ftdichip.com/Drivers/VCP.htm)
+
+-----
+
+## See Also
+
+![](/products/w5500/w5500_evb/icons/link.png) [WIZnet Website -
+W5500](http://www.wiznet.co.kr/product-item/w5500) : W5500 Chip
+features, Pin assignment and Hardware Ref. Design Guide
+
+![](/products/w5500/w5500_evb/icons/link.png) [WizWiki
+Forum](http://www.wizwiki.net/forum) : WIZnet Forum for Technical
+support and Project shared
+
+-----
+
+## Where to Buy
+
+![WIZnet Online Shop](/products/w5500/buynow.png)  
+[![WIZnetUS Online Shop,
+USA](/products/w5500/w5500_evb/icons/dollar.png)](http://www.shopwiznet.com/)
+[![WIZnetEU Online Shop,
+Germany](/products/w5500/w5500_evb/icons/european-euro.png)](http://shop.wiznet.eu/)
+[![WIZnetKorea Online Shop,
+Korea](/products/w5500/w5500_evb/icons/won.png)](http://shop.wiznet.co.kr/)
+
+
