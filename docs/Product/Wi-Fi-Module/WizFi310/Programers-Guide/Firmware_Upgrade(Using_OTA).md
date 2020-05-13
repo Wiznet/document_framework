@@ -4,8 +4,6 @@ title: Firmware Upgrade(Using OTA)
 date: 2020-03-
 ---
 
-
-## Content
 # Firmware Upgrade (Using WizFi310\_OTA\_Tool)
 
 WIZnet supports \<WizFi310\_OTA\_Tool\> for uploading firmware. This
