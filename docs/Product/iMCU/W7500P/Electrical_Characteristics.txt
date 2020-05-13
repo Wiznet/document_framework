@@ -4,6 +4,7 @@ title: Electrical Characteristics
 date: 2020-04-03
 ---
 
+
 ## Absolute maximum ratings
 
 These are stress ratings only and functional operation of the device at these conditions is not implied. Exposure to maximum rating conditions for extended periods may affect device reliability.
