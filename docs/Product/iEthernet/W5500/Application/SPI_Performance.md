@@ -4,9 +4,6 @@ title: SPI Performance
 date: 2020-04-07
 ---
 
-
-## Content
-
 ### W5500 Performance
 
 #### W5500 SPI transmission
