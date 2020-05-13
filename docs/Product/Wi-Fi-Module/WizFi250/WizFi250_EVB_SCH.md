@@ -2,9 +2,7 @@
 id: wizfi250_evb_sch
 title: WizFi250 Evaluation Board Schematic
 date: 2020-05-06
----
-
------
+-
 
 Here you can find all schematics and PCB layout data for the
 WizFi250-EVB and the WizFi250-H Interface adapter. On the EVB we use two
@@ -24,6 +22,6 @@ The pin headers have a **distance** of exactly **17mm**.
 
 ![I/F Board Schematic(PADS)](/document_framework/img/products/wizfi250/wizfi250evbsch/wizfi250_if_sch_v100.zip)
 
-![Ref Schematic](/products/wizfi250/wizfi250ds/wizfi250_ref_schematic.pdf)
+![Ref Schematic](/document_framework/img/products/wizfi250/wizfi250ds/wizfi250_ref_schematic.pdf)
 
 ![Partlist](/document_framework/img/products/wizfi250/wizfi250evbsch/wizfi250_evb_pl_v100_131224_.pdf)
