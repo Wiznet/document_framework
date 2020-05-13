@@ -4,7 +4,6 @@ title: WizFi250 EVB & IF Dimension
 date: 2020-05-06
 ---
 
------
 
 ## WizFi250 Evaluation Board Dimension
 
