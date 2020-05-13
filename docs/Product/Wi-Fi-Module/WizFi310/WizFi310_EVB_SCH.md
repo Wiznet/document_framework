@@ -1,11 +1,9 @@
 ---
 id: wizfi310_evb_sch
 title: WizFi310 EVB SCH
-date: 2020-03-
+date: 2020-05-13
 ---
 
-
-## Content
 # WizFi310 EVB Schematics
 
 **Change History**
