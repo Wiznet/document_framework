@@ -4,9 +4,6 @@ title: PPPoE
 date: 2020-04-07
 ---
 
-
-## Content
-
 # Overview
 
 WIZnet TCP/IP devices support **PPP/PPPoE** in MACRAW mode.
