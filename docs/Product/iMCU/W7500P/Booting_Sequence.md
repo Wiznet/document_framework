@@ -5,11 +5,6 @@ date: 2020-04-03
 ---
 
 
-
-
-
-# Booting Sequence
-
 W7500 has three different boot modes that can be selected through the BOOT pin and TEST pin.
 
 <table class="tg">
@@ -36,6 +31,7 @@ W7500 has three different boot modes that can be selected through the BOOT pin a
   </tr>
 
 </table>
+
 
 When W7500 is reset by hardware, it will be operated as below in embedded boot code.
 
