@@ -1,11 +1,9 @@
 ---
 id: wizfi360_evb_shield
 title: WizFi360-EVB-Shield
-date: 2020-03-
+date: 2020-05-13
 ---
 
-
-## Content
 # WizFi360-EVB-Shield
 
 ![WizFi360-EVB-Shield](/document_framework/img/products/wizfi360/wizfi360-evb.jpg)
@@ -116,7 +114,7 @@ which can meet the requirement of various applications.
 
 ## See Also
 
-![](/products/w5500/w5500_evb/icons/link.png) 🌎[WizFi360
+![](/document_framework/img/link.png) 🌎[WizFi360
 WIZnetForum](https://forum.wiznet.io/c/wifi-module/wizfi360) : WIZnet
 Forum for Technical support and Project shared
 
