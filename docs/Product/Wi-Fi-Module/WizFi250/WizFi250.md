@@ -57,12 +57,12 @@ antenna) :
 ![WizFi250-CON\_2\_small.png](/document_framework/img/products/wizfi250/wizfi250-con_2_small.png)  
  
 **WizFi250-H** (pin **H**eader adapter version - we use in our EVB) :  
-![](/products/wizfi250/wizfi250-h_2.gif)![](/document_framework/img/products/wizfi250/wizfi250-h_1_small.png)  
+![](/document_framework/img/products/wizfi310/wizfi250-h_2.gif)![](/document_framework/img/products/wizfi250/wizfi250-h_1_small.png)  
   
 **comparison to
 🌎[WizFi210/220](http://www.wiznet.co.kr/sub_modules/en/product/Product_Line.asp?cate1=5&cate2=43)
 module family:**  
-[Please use this link for a comparison](migrate)
+[Please use this link for a comparison](comparison.md)
 
 
 ### Material
