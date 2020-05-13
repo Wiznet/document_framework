@@ -1,11 +1,9 @@
 ---
 id: wizfi630a
 title: WizFi630A
-date: 2020-03-
+date: 2020-05-13
 ---
 
-
-## Content
 ## WizFi630A
 
 ### Notice
@@ -31,27 +29,27 @@ serial commands for simple Wi-Fi settings; not only serial devices but
 8/16/32 bit micro controllers can also use UART for simple Wi-Fi
 settings.  
   
-products:wizfi630a:wizfi630a0.png
+ :/document_framework/img/products/wizfi630a/wizfi630a0.png
 
   - **WizFi630A**
 
- :products:wizfi630a:wizfi630a01.png
+ :/document_framework/img/products/wizfi630a/wizfi630a01.png
 
   - **WizFi630A-EVB**
 
-:products:wizfi630a:wizfi630a02.png
+:/document_framework/img/products/wizfi630a/wizfi630a02.png
 
   - **WizFi630A-Antenna**
 
-:products:wizfi630a:wizfi630a03.png
+:/document_framework/img/products/wizfi630a/wizfi630a03.png
 
   - **WizFi630A-Serial Cable**
 
-:products:wizfi630a:wizfi630a04.png
+:/document_framework/img/products/wizfi630a/wizfi630a04.png
 
   - **WizFi630A-LAN Cable**
 
-:products:wizfi630a:wizfi630a05.png
+:/document_framework/img/products/wizfi630a/wizfi630a05.png
 
   - **WizFi630A-Adapter**
 
