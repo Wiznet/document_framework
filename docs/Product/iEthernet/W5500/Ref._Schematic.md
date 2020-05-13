@@ -13,14 +13,14 @@ date: 2020-04-03
 ![W5500 Ref.Schematic - External
 Transformer](/document_framework/img/products/w5500/w5500_sch_v110_use_trans_.pdf)
 ![W5500 Ref.Schematic (External
-Transformer)](https://github.com/Wiznet/document_framework/blob/master/static/img/products/w5500/w5500_sch_v110_use_trans_.pdf)
+Transformer)](/document_framework/img/products/w5500/w5500_sch_v110_use_trans_.png)
 
 -----
 
 ## RJ45 with Transformer Type
 
 ![W5500 Ref.Schematic - RJ45 with
-Transformer](/document_framework/img/products/w5500/1.j1b121zccd-v0-101115.pdf)
+Transformer](/document_framework/img/products/w5500/w5500_sch_v110_use_trans_.pdf)
 ![W5500 Reference Schematic (RJ45 with
 Transformer)](/document_framework/img/products/w5500/w5500_sch_v110_use_mag_.png)
 
