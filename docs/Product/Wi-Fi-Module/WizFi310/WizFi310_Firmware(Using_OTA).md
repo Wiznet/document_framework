@@ -1,11 +1,9 @@
 ---
 id: wizfi310_firmware_using_ota
 title: WizFi310 Firmware(Using OTA)
-date: 2020-03-
+date: 2020-05-13
 ---
 
-
-## Content
 # WizFi310 Firmware ( Using OTA )
 
 ## Official Latest firmware release
