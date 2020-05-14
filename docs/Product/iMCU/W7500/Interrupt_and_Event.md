@@ -5,9 +5,8 @@ date: 2020-04-03
 ---
 
 
-
- # Interrupt and Events 
  ## Introduction W7500 contains
+ 
 interrupt service and event service as below
 
   - 25 interrupt request (IRQ) lines
@@ -52,6 +51,7 @@ interrupt service and event service as below
 | IRQ\[29\] | Reserved          |                                        | 0x0000\_00B4   |
 | IRQ\[30\] | Reserved          |                                        | 0x0000\_00B8   |
 | IRQ\[31\] | Reserved          |                                        | 0x0000_00BC    |
+
 
 ## Event
 
