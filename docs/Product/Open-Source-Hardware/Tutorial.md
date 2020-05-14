@@ -67,7 +67,8 @@ void PrintChar(char c)
 ```
 
 - Select the define variable in "ethernet/w5500". You
-should select interface mode and kind of chip. \</markdown\>
+should select interface mode and kind of chip. 
+>
 
     #define _WIZCHIP_                      5500   // 5100, 5200, 5500
     
