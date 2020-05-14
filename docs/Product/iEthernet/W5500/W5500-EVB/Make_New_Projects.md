@@ -4,12 +4,12 @@ title: Make New Projects
 date: 2020-04-07
 ---
 
-## Content
 
 # Make New W5500 EVB Projects
 
 This page introduce that how to make project for W5500 EVB with
 different IDEs like NXP LPCXpresso.
+
 
 ## Make a new W5500 EVB project with LPCXpresso IDE
 
@@ -20,32 +20,33 @@ incl. IDE and C compiler. The free version compiler is limited to 8k
 code but can be extended to 256k of code by a free registration.
 
 Download the IDE + compiler here:  
-🌎http://www.lpcware.com/lpcxpresso/download  
+🌎 http://www.lpcware.com/lpcxpresso/download  
 Parallel to the download & install you register here:  
-🌎http://www.lpcware.com/user/register 
+🌎 http://www.lpcware.com/user/register 
 In the LPCXresso IDE you can go to:  
-'Help' -\> 'Create serial number and register (Free Edition)...'  
+'Help' -> 'Create serial number and register (Free Edition)...'  
 here, copy that serial number.
 
-Then, logged in at 🌎http://www.lpcware.com , you can create the
+Then, logged in at 🌎 http://www.lpcware.com , you can create the
 activation code using that 'serial number':
-🌎http://www.lpcware.com/lpcxpresso/activate  
+🌎 http://www.lpcware.com/lpcxpresso/activate  
 copy the activation code here, and go to:  
-'Help' -\> 'Activate (Free Edition)...'  
+'Help' -> 'Activate (Free Edition)...'  
 enter (paste) the activation code and now you can create projects of
 256k size.
 
 Now, after a restart, your LPCXress IDE is running and you can create
 new and your own projects for the NXP MCUs.
 
+
 ### 1. Select 'New project' and project type
 
 QuickStart panel (Located in the lower left in LPCXpresso IDE as
-default) -\> Select 'New project'  
+default) -> Select 'New project'  
 
-  - MCU category and Project type selection -\> Select 'LPC11Exx' and
+  - MCU category and Project type selection -> Select 'LPC11Exx' and
     'LPCOpen - C Project'
-  - Target MCU selection -\> Select 'LPC11E36/501'
+  - Target MCU selection -> Select 'LPC11E36/501'
 
 ![](/document_framework/img/products/w5500/w5500_evb/figures/make_new_project_quickstart_box.jpg)
 
@@ -54,6 +55,7 @@ default) -\> Select 'New project'
 ![](/document_framework/img/products/w5500/w5500_evb/figures/make_new_project_select_mcu_box.jpg)
 
 -----
+
 
 ### 2. Import libraries to LPCXpresso IDE workspace
 
@@ -77,13 +79,14 @@ import the required project libraries to your workspace.
 
 -----
 
+
 ### 3. Select Chip and Board libraries
 
 W5500 EVB projects based on libraries as below. Select the LPCOpen Chip
 and Board Library and add on your project.
 
-  - LPCOpen Chip Library - lpc\_chip\_11exx
-  - LPCOpen Board Library - wiznet\_evb\_w5500evb\_board
+  - LPCOpen Chip Library - lpc_chip_11exx
+  - LPCOpen Board Library - wiznet_evb_w5500evb_board
 
 ![](/document_framework/img/products/w5500/w5500_evb/figures/make_new_project_select_libs_box2.jpg)
 
@@ -93,6 +96,7 @@ and Board Library and add on your project.
 
 -----
 
+
 ### 4. Create a 'new project'
 
 Set the remaining options for your environment and press the finish
@@ -101,14 +105,13 @@ button, the 'new project' is created.
 
 -----
 
-### 5\. Link the ioLibrary to your project
+
+### 5. Link the ioLibrary to your project
 
 The LPCXpresso IDE provides 'Smart Update' function. it also provides a
 simple mechanism for creating the links to a static library project from
 an application project. For more details, please refer to
-![](/products/w5500/w5500_evb/icons/link.png) [NXP FAQ page for 'Linking
-to library
-projects'](http://www.lpcware.com/content/faq/lpcxpresso/creating-linking-library-projects)
+![](/products/w5500/w5500_evb/icons/link.png) [NXP FAQ page for 'Linking to library projects'](http://www.lpcware.com/content/faq/lpcxpresso/creating-linking-library-projects)
 
 ![](/document_framework/img/products/w5500/w5500_evb/figures/make_new_project_smart_update.jpg)
 
@@ -116,17 +119,18 @@ projects'](http://www.lpcware.com/content/faq/lpcxpresso/creating-linking-librar
 
 -----
 
+
 ### 6. Set the library type for serial debugging
 
 If the 'printf()' / 'scanf()' functions to use a UART, user can
 retargeting to Redlib's printf() as follows. For more details, please
 refer to ![](/document_framework/img/products/w5500/w5500_evb/icons/link.png) [NXP FAQ page for
-'Using
-printf()'](http://www.lpcware.com/content/faq/lpcxpresso/using-printf)
+'Using printf()'](http://www.lpcware.com/content/faq/lpcxpresso/using-printf)
 
 ![](/document_framework/img/products/w5500/w5500_evb/figures/make_new_project_set_the_library_type_box.jpg)
 
 -----
+
 
 ### 7. Change the C/C++ build commands for generate firmware image
 
@@ -146,6 +150,7 @@ checksum -p ${TargetChip} -d "${BuildArtifactFileBaseName}.bin"
 ![](/document_framework/img/products/w5500/w5500_evb/figures/make_new_project_properties_post-build_command_box.jpg)
 
 -----
+
 
 ### 8. Complete settings
 
