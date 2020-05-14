@@ -73,9 +73,10 @@ Some port-reading instructions read from the data registers while others
 read from the port pin.  
 The "Read-Modify-Write" instructions are directed to the data registers
 as shown below.
-=== Read-Modify-Write Instructions (register access) ===
+### Read-Modify-Write Instructions (register access)
 
-^ Instruction  ^ Function Description ^
+|Instruction  |Function Description |
+|------------|--------------------|
 | ANL  | Logic AND |
 | ORL  | Logic OR |
 | XRL  | Logic exclusive OR |
@@ -90,12 +91,14 @@ as shown below.
 All other instructions read from a port exclusively through the port pins. All port pins can be used as GPIO  (General Purpose Input Output). The output driving voltage of the GPIO is 0V or 3.3V according to the Px_PD and Px_PU SFR value or the GPIO keeps its previous value in current operation mode. \\
 
 Read and write accesses are performed in the I/O ports via their corresponding SFR: P0 (0x80), P1 (0x90), P2 (0xA0), and P3 (0xB0). \\
-^  Px  ^ Status  ^
+|Px  |Status  |
+|-----|-------|
 |  0  | output  |
 |  1  | input (tri-state)  |
 
 Internal pull-down (85k) and pull-up (4k7) resistors are activated by Px_PD (0xE3..0xE6) and Px_PU (0xEB..0xEE) register. \\
-^  Px_PU  ^  Px_PD  ^ Status  ^
+|Px_PU  | Px_PD  | Status  |
+|------|--------|-------|
 |  0  |  0  | -  |
 |  0  |  1  | Pull-down  |
 |  1  |  0  | Pull-up  |
@@ -103,7 +106,8 @@ Internal pull-down (85k) and pull-up (4k7) resistors are activated by Px_PD (0xE
 
 ### Use case: Output
 For best output performance activate Px_PU (4k7 pull-up) and use direction register Px to set the port pin to 0 or 1. \\
-^ direct.  ^ Px  ^ Px_PD  ^ Px_PU  ^  out  ^ annotation  ^
+|direct. | Px  | Px_PD  | Px_PU  |  out  | annotation  |
+|--------|-----|--------|--------|-------|-------------|
 |  out   |  0    |  0    |  0  |  0  | low imp. (no internal current)   |
 |  :::   |  :::  |  0    |  1  |  0  | low imp. (0.7mA current in 4k7)  |
 |  'in'  |  1    |  0    |  1  |  1  | 4k7 pull-up  |
@@ -116,9 +120,8 @@ and if needed activate the internal resistors with the Px\_PD or Px\_PU
 registers corresponding to your external circuit.  
 A read operation on the Px register is done directly to the Port Pin
 status.  
-^ direct. ^ Px ^ Px\_PD ^ Px\_PU ^ in ^ annotation ^
 
-|     |     |   |   |    |                              |
+| direct.    |Px     |Px\_PD   | Px\_PU   | in   |annotation|                              |
 | --- | --- | - | - | -- | ---------------------------- |
 | in  | 1   | 0 | 0 | \- | high imp. - tri-state (2.5V) |
 | ::: | ::: | 0 | 1 | 1  | 4k7 pull-up                  |
