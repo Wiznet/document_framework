@@ -5,9 +5,6 @@ date: 2020-04-03
 ---
 
 
-
-# System and Memory overview
-
 ## System architecture
 
 Main system consists of:
@@ -37,6 +34,7 @@ Two APB BUSs
   generator, real time clock, 12bits analog digital converter, clock
   controller, IO configuration, PAD MUX controller)
 
+
 ## Memory organization
 
 Program memory, data memory, registers and I/O ports are organized
@@ -44,6 +42,7 @@ within the same linear 4-Gbyte address space. The bytes are coded in
 memory in Little Endian format. The lowest numbered byte in a word is
 considered the word’s least significant byte and the highest numbered
 byte the most significant.
+
 
 ### Memory map
 
