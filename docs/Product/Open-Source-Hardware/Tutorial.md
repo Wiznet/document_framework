@@ -6,9 +6,8 @@
 
 -----
 
-``` 
  - Download program file(CoIDE) and USB drive(ColinkEx) from [http://www.coocox.org/CoCenter.htm](http://www.coocox.org/CoCenter.html).
-```
+
 
 
 ### Tutorial Using CoIDE
