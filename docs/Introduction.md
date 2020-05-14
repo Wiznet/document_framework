@@ -66,10 +66,10 @@ open source hardware products.
 
 ### VAR Products
 
-  - [V(alue) A(dded) R(eseller) Products](/oshw_using_wiznet)
-  - [Ethernet Shield](/oshw_using_wiznet/ethernet)
-  - [WiFi Shield](/oshw_using_wiznet/wifi)
-  - [Third-party](/oshw_using_wiznet/var_products)
+  - [V(alue) A(dded) R(eseller) Products](VAR-Products-using-WIZnet/VAR_Products_using_WIZnet)
+  - [Ethernet Shield](VAR-Products-using-WIZnet/Ethernet_Shield.md)
+  - [WiFi Shield](VAR-Products-using-WIZnet/Wi-Fi_Shield.md)
+  - [Third-party](VAR-Products-using-WIZnet/Third_party.md)
 
 
 
