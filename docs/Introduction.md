@@ -60,7 +60,7 @@ open source hardware products.
   - [ioShield-K](Product/Open-Source-Hardware/ioShield-K.md) for Gadget Renesas KURUMI
   - [ioShield-L](Product/Open-Source-Hardware/ioShield-L.md) for TI’s MSP430 LaunchPad
   - [Cookie](Product/Open-Source-Hardware/cookie.md)
-  - [EnergyMicro](/osh/energymicro/start)
+  - [EnergyMicro](Product/Open-Source-Hardware/EnergyMicro.md)
   - [WIZnet Eagle CAD Library](/design_guide/hardware/eaglecadlib/start)
 
 
