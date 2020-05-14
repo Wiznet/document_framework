@@ -101,7 +101,7 @@ Internal pull-down (85k) and pull-up (4k7) resistors are activated by Px_PD (0xE
 |  1  |  0  | Pull-up  |
 |  1  |  1  | Keep mode  |
 
-===Use case: Output===
+### Use case: Output
 For best output performance activate Px_PU (4k7 pull-up) and use direction register Px to set the port pin to 0 or 1. \\
 ^ direct.  ^ Px  ^ Px_PD  ^ Px_PU  ^  out  ^ annotation  ^
 |  out   |  0    |  0    |  0  |  0  | low imp. (no internal current)   |
@@ -128,12 +128,13 @@ status.
 -----
 
 #### All peripheral registers:
-**P0 (0*80)**
+**P0(0*80)**
+
 |7|6|5|4|3|2|1|0|Reset value|
-|--|--|--|-|-|-|-|-|
+|--|--|--|-|-|-|-|-|-|
 |P0.7|P0.6|P0.5|P0.4|P0.3|P0.2|P0.1|P0.0|0xFF|
 
-**### P1 (0x90)
+### P1 (0x90)
 
 | 7    | 6    | 5    | 4    | 3    | 2    | 1    | 0    | Reset value |
 | ---- | ---- | ---- | ---- | ---- | ---- | ---- | ---- | ----------- |
