@@ -105,7 +105,8 @@ Internal pull-down (85k) and pull-up (4k7) resistors are activated by Px_PD (0xE
 |  1  |  1  | Keep mode  |
 
 ### Use case: Output
-For best output performance activate Px_PU (4k7 pull-up) and use direction register Px to set the port pin to 0 or 1. \\
+For best output performance activate Px_PU (4k7 pull-up) and use direction register Px to set the port pin to 0 or 1. 
+
 |direct. | Px  | Px_PD  | Px_PU  |  out  | annotation  |
 |--------|-----|--------|--------|-------|-------------|
 |  out   |  0    |  0    |  0  |  0  | low imp. (no internal current)   |
@@ -121,8 +122,8 @@ registers corresponding to your external circuit.
 A read operation on the Px register is done directly to the Port Pin
 status.  
 
-| direct.    |Px     |Px\_PD   | Px\_PU   | in   |annotation|                              |
-| --- | --- | - | - | -- | ---------------------------- |
+| direct   |Px     |Px\_PD   | Px\_PU   | in   |annotation|                              
+| -------- | ----- | ------- | ---------| -- | ---------------------------- |
 | in  | 1   | 0 | 0 | \- | high imp. - tri-state (2.5V) |
 | ::: | ::: | 0 | 1 | 1  | 4k7 pull-up                  |
 | ::: | ::: | 1 | 0 | 0  | 85k pull-down                |
