@@ -76,7 +76,7 @@ open source hardware products.
 
 ### Application References
 
-  - [BLE to Ethernet](/oshw_using_wiznet/bletoethernet)
+  - [BLE to Ethernet](bletoethernet.md)
 
 
 ### External Links
