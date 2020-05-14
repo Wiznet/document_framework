@@ -54,12 +54,12 @@ application info.
 [Open Source Hardware Home](osh) - Materials and information on WIZnet
 open source hardware products.
 
-  - **[W5500 Ethernet Shield](/osh/w5500_ethernet_shield/start)**
+  - **[W5500 Ethernet Shield](Product/Open-Source-Hardware/W5500_Ethernet_Shield.md)**
     ![](/document_framework/img/star.png)
-  - [ioShield-A](/osh/ioshield-a/start) for Arduino
-  - [ioShield-K](/osh/ioshield-k/start) for Gadget Renesas KURUMI
-  - [ioShield-L](/osh/ioshield-l/start) for TI’s MSP430 LaunchPad
-  - [Cookie](/osh/cookie/start)
+  - [ioShield-A](Product/Open-Source-Hardware/ioShield-A.md) for Arduino
+  - [ioShield-K](Product/Open-Source-Hardware/ioShield-K.md) for Gadget Renesas KURUMI
+  - [ioShield-L](Product/Open-Source-Hardware/ioShield-L.md) for TI’s MSP430 LaunchPad
+  - [Cookie](Product/Open-Source-Hardware/cookie.md)
   - [EnergyMicro](/osh/energymicro/start)
   - [WIZnet Eagle CAD Library](/design_guide/hardware/eaglecadlib/start)
 
