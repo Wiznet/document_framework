@@ -5,15 +5,13 @@ date: 2020-04-03
 ---
 
 
-
-# Power supply
-
 ## Introduction
 
 W7500 embeds a voltage regulator in order to supply the internal 1.5V digital power domain.
 
 - Require a 2.7V ~ 5.5V operating supply voltage (VDD)
 - ADC ref voltage is same as VDD
+
 
 ## Voltage regulator 
 
@@ -22,6 +20,7 @@ The voltage regulator is always enabled after Reset and works on in only one mod
 - In Run mode, the regulator supplies full power to the 1.5V domain.
 - There is no power down or sleep mode.
 
+
 ## Power supply supervisor
 
 W7500 has an integrated reset (POR) circuit which is always active and ensure proper operation above a threshold of 0.6V
@@ -29,6 +28,7 @@ W7500 has an integrated reset (POR) circuit which is always active and ensure pr
 - The POR monitors only the VDD supply voltage. During the startup phase VDD must arrive first and be greater than or equal to 0.6V
 
 ![Figure 1 POR reset waveform](/document_framework/img/products/w7500/por_reset_waveform.jpg)
+
 
 ## Low power modes
 W7500 is in RUN mode after a system or power reset. There are two low power modes to save power when the CPU does not need to be kept running. These modes are useful for instances like when the CPU is waiting for an external interrupt. Please note that there is no power-off mode for W7500.
@@ -42,6 +42,7 @@ Additionally, the power consumption can be reducing by following method:
 
 - User can slow down the system clocks
 - User can block the clocks to the peripherals while they are unused.
+
 
 ### Sleep mode vs. Deep sleep mode
 
