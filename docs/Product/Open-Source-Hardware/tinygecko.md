@@ -4,7 +4,7 @@ Tiny GECKO Starter Kit STK3300 is a prototyping and application
 development tool for the EFM32TG MCU family with the ARM Cortex-M3 CPU
 core. We use EMF32TG840F32 in EFM32TG family. Its SPEC is as follows.
 
-![](/osh/energymicro/tg840_spec.png)
+![](/document_framework/img/osh/energymicro/tg840_spec.png)
 
 #### Features
 
@@ -13,7 +13,7 @@ core. We use EMF32TG840F32 in EFM32TG family. Its SPEC is as follows.
     domain.
   - Full feature USB debugger with debug out functionality.
   - 160 segment Energy Micro LCD.
-  - \*\* 20 pin expansion header.\*\* \<- // To be used for interfacing
+  - **20 pin expansion header**. \<- // To be used for interfacing
     with W5500(WIZ550io) //
   - Breakout pads for easy access to I/O pins.
   - Powered by USB or CR2032 battery.
@@ -24,7 +24,7 @@ core. We use EMF32TG840F32 in EFM32TG family. Its SPEC is as follows.
 
 #### Hardware Layout
 
-![](/osh/energymicro/tinygecko_hw_layout.png)
+![](/document_framework/img/osh/energymicro/tinygecko_hw_layout.png)
 
 -----
 
@@ -62,7 +62,7 @@ core. We use EMF32TG840F32 in EFM32TG family. Its SPEC is as follows.
 | UART RX | \#14 (PD5)                              | Yours                                |
 | Power   | 3.3V/VMCU/5V & GND                      | VDD & GND(J1:7-8/J2:1 & J1:1-2/J2:6) |
 
-![](/osh/energymicro/tg840_wiz550io.jpg)
+![](/document_framework/img/osh/energymicro/tg840_wiz550io.jpg)
 
 -----
 
@@ -70,7 +70,7 @@ core. We use EMF32TG840F32 in EFM32TG family. Its SPEC is as follows.
 
 #### Download IAR project for example (Loopback/DHCP/DNS)
 
-  - ![efm32tg840f32\_w5500\_20131220.zip](/osh/energymicro/efm32tg840f32_w5500_20131220.zip)
+  - ![efm32tg840f32\_w5500\_20131220.zip](/document_framework/img/osh/energymicro/efm32tg840f32_w5500_20131220.zip)
   - Extract the downloaded zip file on your PC.
 
 #### Install the latest ioLibrary BSD
@@ -84,7 +84,7 @@ core. We use EMF32TG840F32 in EFM32TG family. Its SPEC is as follows.
         \[ioLibrary\]
       - Copy the previous downloaded ioLibrary\_bsd \[Internet\] into
         \[ioLibrary\]
-      - ![](/osh/energymicro/iar_project_directory.png)
+      - ![](/document_framework/img/osh/energymicro/iar_project_directory.png)
 
 #### Open Project & Make image
 
@@ -94,8 +94,7 @@ core. We use EMF32TG840F32 in EFM32TG family. Its SPEC is as follows.
       - Make the executable image (.bin or .out)
   - *For more detail, refer to Tools manual provided IAR.*
 
-\<block 80:50:\#BBBBBB;black;1px groove
-\#FF0000;arial,sans-serif/9pt;rounded\>
+
 
 ``` 
       If You want to monitor the progressing or debugging message of the project on your Terminal program,
@@ -103,7 +102,6 @@ core. We use EMF32TG840F32 in EFM32TG family. Its SPEC is as follows.
       
 ```
 
-\</block\>
 #### Program(download) the executable image thru USB J-Link
 
   - Using IAR Embedded Workbench for ARM
@@ -375,14 +373,16 @@ If any call back function is null, Call the default function in dhcp.c
 #### The Default Static Config When Failed
 
 In this example, When DCHP is failed **MY\_MAX\_DHCP\_RETRY** times,
-Apply the default static configuration as below. \<code c DHCP\_main.c\>
+Apply the default static configuration as below. 
 
-\#define MY\_MAX\_DHCP\_RETRY 5 //\<- DHCP process is five times
-attempted.
-/\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\***\*//**
-\* @brief Default Network Information
-\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*/
-wiz\_NetInfo gWIZNETINFO =
+>
+
+        \#define MY\_MAX\_DHCP\_RETRY 5 //\<- DHCP process is five times
+        attempted.
+        /\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\***\*//**
+        \* @brief Default Network Information
+        \*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*/
+        wiz\_NetInfo gWIZNETINFO =
 
 ``` 
       {
@@ -395,7 +395,6 @@ wiz\_NetInfo gWIZNETINFO =
       };
 ```
 
-\</code\>
 
 #### DHCP\_init() / DHCP\_run() / DHCP\_stop()
 
