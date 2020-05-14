@@ -5,18 +5,18 @@ date: 2020-04-07
 ---
 
 
-## Content
-
 # W5500 UDP Function
 
 By setting some register and memory operation, W5500 provides internet
 connectivity. This chapter describes how it can be operated.
+
 
 ## Initialization
 
 You **must check PHY LINK**
 *(0 bit of PHYCFGR)* **before attempting to make a network connection**
 using sockets. 
+
 
 ### Basic Setting
 
@@ -31,6 +31,7 @@ below.
 For more information of above registers, refer to the “Register
 Descriptions.”
 
+
 ### Setting network information
 
 Basic network information setting for communication: It must be set the
@@ -43,8 +44,8 @@ basic network information.
         address allocation. The manufacturer which produces the network
         device allocates the MAC address to product.
       - Details on MAC address allocation refer to the website as below.
-      - 🌎http://www.ieee.org/>
-      - 🌎http://standards.ieee.org/regauth/oui/index.shtml>
+      - 🌎 http://www.ieee.org/
+      - 🌎 http://standards.ieee.org/regauth/oui/index.shtml
 2.  GAR(Gateway Address Register)
 3.  SUBR(Subnet Mask Register)
 4.  SIPR(Source IP Address Register)
@@ -68,6 +69,7 @@ gS6_TX_BASE, gS6_tx_MASK, gS7_TX_BASE, gS7_TX_MASK */
 }
 ```
 
+
 ## Data Communications
 
 After the initialization process, W5500 can transmit and receive the
@@ -75,6 +77,7 @@ data with others by ‘open’ the SOCKET of TCP, UDP, IPRAW, and MACRAW
 mode. The W5500 supports the independently and simultaneously usable 8
 SOCKETS. In this section, the communication method for each mode will be
 introduced.
+
 
 ### UDP
 
@@ -93,6 +96,7 @@ multicast communication. It follows the below communication flow.
 
 ![UDP Operation Flow](/document_framework/img/products/w5500/application/udp_flow.jpg)
 
+
 ### Unicast and Broadcast
 
 The unicast is one method of UDP communication. It transmits data to one
@@ -110,9 +114,10 @@ address. At this time, there is no need to get the destination hardware
 address about destination A, B and C, and also ARP<sub>TO</sub>is not
 occurred.
 
+
 ##### Note: Broadcast IP
 
-\=\> The Broadcast IP address can be obtained by performing a bit-wise
+=> The Broadcast IP address can be obtained by performing a bit-wise
 logical OR operation between the bit complement of the subnet mask and
 the host’s IP address.  
 ex\> If IP:”222.98.173.123” and the subnet mask:“255.255.255.0”,
@@ -151,6 +156,7 @@ command, the Sn\_CR register is automatically cleared to 0x00**. Even
 though Sn\_CR is cleared to 0x00, the command is still being processed.
 *To check whether the command is completed or not, please check the
 Sn\_IR or Sn\_SR.* 
+
 
 ##### Check received data
 
@@ -288,6 +294,7 @@ Interrupt Register(IR), Interrupt Mask Register (IMR) and Socket n Interrupt Reg
 }
 ```
 
+
 #### Check Finished / SOCKET close
 
 If user doesn’t need the communication any more, close the Socket n.
@@ -301,6 +308,7 @@ IR(n) = ‘1’;
 Sn_CR = CLOSE;
 }
 ```
+
 
 ### Multicast
 
@@ -333,6 +341,7 @@ transmitted when the user communicates.
 The W5500 support IGMP version 1 and version 2 only. If user wants use
 an updated version, the host processes IGMP directly by using the IPRAW
 mode SOCKET.
+
 
 ##### SOCKET Initialization
 
@@ -367,17 +376,19 @@ if (Sn_SR != SOCK_UDP) Sn_CR = CLOSE; goto START;
 }
 ```
 
+
 ##### Check received data
 
 Refer to the “Unicast & Broadcast.” section.
 
-[Unicast &
-Broadcast](http://wizwiki.net/wiki/doku.php?id=products:w5500:application:udp_function#unicast_and_broadcast)
+[Unicast & Broadcast](http://wizwiki.net/wiki/doku.php?id=products:w5500:application:udp_function#unicast_and_broadcast)
+
 
 ##### Receiving process
 
 Refer to the “Unicast & Broadcast.” section. [Unicast &
 Broadcast](http://wizwiki.net/wiki/doku.php?id=products:w5500:application:udp_function#unicast_and_broadcast)
+
 
 ##### Check send data / Sending Process
 
@@ -433,7 +444,7 @@ S0_IR(SENDOK) = ‘1’; /* clear previous interrupt of SEND completion */
 }
 ```
 
+
 ##### Check finished / SOCKET close
 
-Refer to the “Unicast & Broadcast.” section. [Unicast &
-Broadcast](http://wizwiki.net/wiki/doku.php?id=products:w5500:application:udp_function#unicast_and_broadcast)
+Refer to the “Unicast & Broadcast.” section. [Unicast & Broadcast](http://wizwiki.net/wiki/doku.php?id=products:w5500:application:udp_function#unicast_and_broadcast)
