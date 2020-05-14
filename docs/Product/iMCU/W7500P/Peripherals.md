@@ -1,11 +1,9 @@
 ---
 id: peripherals
-title: Peripherals
+title:  Peripheral description and examples
 date: 2020-04-03
 ---
 
-
-# Peripheral description and examples
 |Peripheral                                                                           | Example                                                                          |
 |-------------------------------------------------------------------------------------|----------------------------------------------------------------------------------|
 |[GPIO](Peripherals-internal/gpio.md)          |[Blink_LED](Peripherals-internal/blink_led.md)|
