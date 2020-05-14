@@ -4,8 +4,6 @@ title: Booting Sequence
 date: 2020-04-03
 ---
 
-# Booting Sequence
-
 W7500 has three different boot modes that can be selected through the BOOT pin and TEST pin.
 
 <table class="tg">
