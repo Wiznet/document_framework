@@ -2,7 +2,7 @@
 
 **P0, P1, P2, P3** : Port register. Set direction and read or write pin
 logic. Go down to section 'I/O Ports' for the detailed functionality of
-the [I/O Ports](/products/w7100a/io_ports).  
+the [I/O Ports](Peripheral_SFR.md#io_ports).  
 **Px\_PD** : Port Pull-Down register. Activate 85k Pull-Down resistor at
 specific Port Pin. Go down to section 'I/O Ports' for the detailed
 functionality of the [I/O Ports](/products/w7100a/io_ports).  
