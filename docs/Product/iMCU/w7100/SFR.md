@@ -8,7 +8,7 @@ addressable.
 | 0xF8 | EIP                       | DPSBK | RAMBA16   |                                  | RAMEA16   |         | PHYCONF | WCONF    | **0xFF** |
 | 0xF0 | B                         | ISPID | ISPADDR16 |                                  | ISPDATA   | CKCBK   | DPX0BK  | DPX1BK   | **0xF7** |
 | 0xE8 | EIE                       |       | MXAX      | [P0\_PU](P0_PU.md) | P1\_PU    | P2\_PU  | P3\_PU  | PHY\_IND | **0xEF** |
-| 0xE0 | ACC                       |       |           | [P0\_PD](P0_PD.md) | P1\_PD    | P2\_PD  | P3\_PD  |          | **0xE7** |
+| 0xE0 | ACC                       |       |           | P0\_PD | P1\_PD    | P2\_PD  | P3\_PD  |          | **0xE7** |
 | 0xD8 | WDCON                     |       |           |                                  | CLK\_CNTx |         |         |          | **0xDF** |
 | 0xD0 | PSW                       |       |           |                                  |           |         |         |          | **0xD7** |
 | 0xC8 | T2CON                     |       | RLDL      | RLDH                             | TL2       | TH2     |         |          | **0xCF** |
