@@ -94,13 +94,9 @@ core. We use EMF32TG840F32 in EFM32TG family. Its SPEC is as follows.
       - Make the executable image (.bin or .out)
   - *For more detail, refer to Tools manual provided IAR.*
 
-
-
-``` 
       If You want to monitor the progressing or debugging message of the project on your Terminal program,
       Download the image in [iar>>Debug>>Exe]. 
-      
-```
+
 
 #### Program(download) the executable image thru USB J-Link
 
