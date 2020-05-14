@@ -4,9 +4,6 @@ title: Getting Started
 date: 2020-04-07
 ---
 
-## Content
-
-# Getting Started
 
 ## Hello World
 
@@ -19,16 +16,19 @@ The W5500 EVB Need to be LAN cable connected because default demo
 firmware check the PHY link status periodically. If the LAN cable is not
 connected, the board does not operate and RGB LED is not blinking.
 
+
 #### 1. RGB LED blinky
 
 If the board operate normal at the first time, On board RGB LED is
 blinking forever. The red, green and blue LEDs are blink alternated.
+
 
 #### 2. On/Off the RGB LED blinky
 
 The RGB LED status will be changed if the button1 (SW1) pressed (LED
 Blinky On/Off). In this case, the board outputs 'On' or 'Off' message
 via serial debug port.
+
 
 #### 3. Serial Debug message print out
 
@@ -41,17 +41,16 @@ Please connect with any terminal to that serial port with
 
 ![](/document_framework/img/products/w5500/w5500_evb/figures/downloading_serial_printout_on_terminal.jpg)
 
+
 #### 4. Loopback test
  The following is the
-![](/products/w5500/w5500_evb/icons/link.png) [loopback test procedure
-of the 'Tinygecko' board + W5500
+![](/products/w5500/w5500_evb/icons/link.png) [loopback test procedure of the 'Tinygecko' board + W5500
 chip](/osh/energymicro/tinygecko#loopback). (Network configuration
 information can vary among different firmware.)  
 Please progress the test in accordance with the following procedure.  
 If you need detailed figures, please refer to the next link.  
 ![](/products/w5500/w5500_evb/icons/link.png) [loopback\_test\#TCP and
-UDP loopback
-test](/osh/cookie/loopback_test#TCP%20and%20UDP%20loopback%20test)
+UDP loopback test](/osh/cookie/loopback_test#TCP%20and%20UDP%20loopback%20test)
 
 
 The loopback example runs with a TCP session and a UDP session.
@@ -72,6 +71,7 @@ wiz_NetInfo gWIZNETINFO = { .mac = {0x00, 0x08, 0xdc,0x00, 0xab, 0xcd}, //<-mac 
                             .dhcp = NETINFO_STATIC };
 ```
 
+
 ##### TCP
 
 1.  Connect to Board 
@@ -87,6 +87,7 @@ wiz_NetInfo gWIZNETINFO = { .mac = {0x00, 0x08, 0xdc,0x00, 0xab, 0xcd}, //<-mac 
       - Check network config.
       - Check the security program as virus vaccines and fire-wall on
         your PC. 
+
 
 ##### UDP
 
@@ -104,9 +105,10 @@ wiz_NetInfo gWIZNETINFO = { .mac = {0x00, 0x08, 0xdc,0x00, 0xab, 0xcd}, //<-mac 
 
 -----
 
+
 ## Firmware
 
-![firmware](/page\>products/w5500/w5500_evb/firmware)
+[firmware](Firmware.md)
 
 -----
 
@@ -125,6 +127,7 @@ Flash Magic is a program to perform in-system programming (ISP) of the
 LPC flash via its UART.  
 ![](/document_framework/img/products/w5500/w5500_evb/icons/link.png)['Flash Magic' download
 page](http://www.flashmagictool.com/)
+
 
 #### 3. Tool settings
 
