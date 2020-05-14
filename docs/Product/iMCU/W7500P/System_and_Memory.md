@@ -1,11 +1,11 @@
 ---
 id: system_and_memory
-title: System and Memory
+title: System and Memory overview
 date: 2020-04-03
 ---
 
-# System and Memory overview
 ## System architecture
+
 Main system consists of:
 
   * Ethernet:
@@ -37,9 +37,11 @@ Two APB BUSs
 Program memory, data memory, registers and I/O ports are organized within the same linear 4-Gbyte address space.
 The bytes are coded in memory in Little Endian format. The lowest numbered byte in a word is considered the word’s least significant byte and the highest numbered byte the most significant.
 
+
 ### Memory map
 
 ![w7500_memory_map](/document_framework/img/products/w7500/memory_map.png)
+
 
 ## System Configuration Controller (SYSCFG)
 
