@@ -980,4 +980,5 @@ for extended periods may affect device reliability.
 
 
 ## Package footprint information
+
 ![Figure 4 Package Footprint Information](/document_framework/img/products/w7500/overview/package_footprint_information.jpg)
