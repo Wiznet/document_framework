@@ -61,7 +61,7 @@ open source hardware products.
   - [ioShield-L](Product/Open-Source-Hardware/ioShield-L.md) for TI’s MSP430 LaunchPad
   - [Cookie](Product/Open-Source-Hardware/cookie.md)
   - [EnergyMicro](Product/Open-Source-Hardware/EnergyMicro.md)
-  - [WIZnet Eagle CAD Library](/design_guide/hardware/eaglecadlib/start)
+  - [WIZnet Eagle CAD Library](Design-Guide/Eagle_CAD_Library_of_WIZnet_Products.md)
 
 
 ### VAR Products
