@@ -4,17 +4,13 @@ title: iEthernet
 date: 2020-04-07
 ---
 
-
-# iEthernet
-
------
-
 ## Overview
 
 iEthernet is the Ethernet controller chip that includes hardwired TCP/IP
 Core & MAC (\&PHY).
 
 -----
+
 
 ## Product Family
 
@@ -33,11 +29,10 @@ Core & MAC (\&PHY).
 
 -----
 
+
 ## Product Application Project
 
   - [Projects](/products/iethernet/projects) :Provide a number of
     examples.
 
 -----
-
-
