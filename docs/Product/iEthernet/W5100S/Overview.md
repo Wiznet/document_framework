@@ -6,7 +6,6 @@ date: 2020-04-03
 
 # W5100S
 
-## Overview
 
 ![](/document_framework/img/products/w5100s/w5100s_pm.png)
 
