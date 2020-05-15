@@ -45,7 +45,7 @@ LAN) and a Power Down Mode in order to reduce power consumption.
 
 ### Language
 
-  - [Japanese.Ver]()
+  - [Japanese.Ver](Japanese_Ver.md)
 
 ### Material
 
