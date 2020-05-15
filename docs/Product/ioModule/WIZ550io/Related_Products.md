@@ -5,10 +5,7 @@ date: 2020-04-15
 ---
 
 
-## Content
-## Related Products
 
-
- * [ioShield-A]()
+ * [ioShield-A](../Open-Source-Hardware/ioShield-A.md)
  * [ioShield-K]()
  * [ioShield-L]()
