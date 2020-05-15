@@ -331,7 +331,7 @@ WIZ850io, please refer to [W5500 Datasheet](/products/w5500/start).
 
 ## See Also
 
-   * 🌎[http://www.wizwiki.net/forum|WizWiki Forum] : WIZnet Forum for Technical support and Project shared
+   * 🌎http://www.wizwiki.net/forum|WizWiki Forum : WIZnet Forum for Technical support and Project shared
 
 -----
 
