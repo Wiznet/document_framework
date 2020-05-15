@@ -4,12 +4,8 @@ title: WIZ550SR
 date: 2020-04-16
 ---
 
-## Content
-
-# WIZ550SR
-
 **WIZ550SR is very small size Serial to Ethernet Module.**
-![WIZ550SR](/products/wiz550sr/wiz550sr_ds/wiz550sr.png%20)
+![WIZ550SR](/document_framework/img/products/wiz550sr/wiz550sr_ds/wiz550sr.png)
 
 -----
 
