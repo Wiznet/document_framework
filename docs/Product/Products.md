@@ -66,10 +66,10 @@ embedded application platform especially internet of things.
 ## Wi-Fi Module
 
   * [WizFi250](Wi-Fi-Module/WizFi250/WizFi250.md)
-  * [WizFi310](Wi-Fi_Module/WizFi310/WizFi310.md)
-  * [WizFi360](Wi-Fi_Module/WizFi360/WizFi360.md)
-  * [|WizFi630S](Wi-Fi_Module/WizFi630S/WizFi630S.md)
-  * [WizFi630A](Wi-Fi_Module/WizFi630A/WizFi630A.md)
+  * [WizFi310](Wi-Fi-Module/WizFi310/WizFi310.md)
+  * [WizFi360](Wi-Fi-Module/WizFi360/WizFi360.md)
+  * [|WizFi630S](Wi-Fi-Module/WizFi630S/WizFi630S.md)
+  * [WizFi630A](Wi-Fi-Module/WizFi630A/WizFi630A.md)
 
 
 -----
