@@ -15,8 +15,8 @@ CLI Configuration Tool Tutorial \#5
 You can check configuration information of the device use --getfile
 option for CLI.
 
-There are example files named **cmd\_oneport.txt** and
-**cmd\_twoport.txt** for using getfile option.
+There are example files named **cmd_oneport.txt** and
+**cmd_twoport.txt** for using getfile option.
 
 These files contain <span class="underline">command list</span> of each
 1 port and 2 port devices. This command list is used to get each
