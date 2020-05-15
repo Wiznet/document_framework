@@ -4,14 +4,12 @@ title: Overview-[EN]
 date: 2020-04-08
 ---
 
-## Content
 
-# WIZ750SR Product Overview
 
 **Supported Languages**
 
- * [English](/products/wiz750sr/overview/en) (current page)  
- * [Korean](/products/wiz750sr/overview/ko)
+ * [English](Overview-[EN].md) (current page)  
+ * [Korean](Overview-[KO].md)
 
 -----
 
@@ -98,7 +96,7 @@ Ethernet network.**
 | :::                  | Cable    | USB 2.0 Micro B type cable 1M | 1    | Debug port |
 | :::                  | :::      | 24AWG CAT5e UTP cable         | 1    | LAN cable  |
 
-\* It can be replaced with better components to improve the performance
+  * It can be replaced with better components to improve the performance
 of the product.
 
 -----
