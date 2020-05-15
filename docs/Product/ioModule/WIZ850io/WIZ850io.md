@@ -299,7 +299,7 @@ WIZ850io, please refer to [W5500 Datasheet](/products/w5500/start).
 
 ### SPI Timing
 
-![WIZ850io SPI Timing](/products/spi_timing.jpg)
+![WIZ850io SPI Timing](/document_framework/img/products/spi_timing.jpg)
 
 | Symbol | Description          | Min | Max | Units |
 | ------ | -------------------- | --- | --- | ----- |
@@ -337,7 +337,7 @@ WIZ850io, please refer to [W5500 Datasheet](/products/w5500/start).
 
 ## Where to Buy
 
-![WIZnet Online Shop](/products/w5500/buynow.png)  
+![WIZnet Online Shop](/document_framework/img/products/w5500/w5500_evb/icons/buy_now.jpg)  
 [![WIZnetUS Online Shop, USA](/products/w5500/w5500_evb/icons/dollar.png)](http://www.shopwiznet.com/)
 [![WIZnetEU Online Shop, Germany](/products/w5500/w5500_evb/icons/european-euro.png)](http://shop.wiznet.eu/)
 [![WIZnetKorea Online Shop, Korea](/products/w5500/w5500_evb/icons/won.png)](http://shop.wiznet.co.kr/)
