@@ -4,8 +4,6 @@ title: Command Manual-[KO]
 date: 2020-04-13
 ---
 
-## Content
-
 # WIZ752SR Command Manual
 
 **Supported Languages**  
@@ -15,6 +13,7 @@ date: 2020-04-13
 ![](/products/wiz750sr/docs_icon.png)
 
 -----
+
 
 ## WIZ752SR Command Overview
 
@@ -72,7 +71,6 @@ UART port는 커맨드의 입력과 수행을 지원하지 않습니다.**
       - 해당 핀은 Pull-up 상태이며, Low Active로 동작합니다.
       - 제품 동작 시, 초기에 한 번의 설정 변경 등이 필요한 경우 활용 할 수 있습니다.
 
-\<WRAP round box center 80%\>
 
 ``` 
   - **하드웨어 트리거 핀(HW_TRIG)을 Low로 인가합니다.** 
@@ -86,7 +84,7 @@ UART port는 커맨드의 입력과 수행을 지원하지 않습니다.**
     * <code>> SEG:GW Mode</code> 
 ```
 
-\</WRAP\>
+
 
   - **2. 커맨드 모드 전환 코드\[1\]를 이용한 커맨드 모드 진입**
       - WIZ752SR 제품에서 지원하는 커맨드 모드 전환 코드를 이용하여 커맨드 모드로 진입 할 수 있습니다.
@@ -96,7 +94,7 @@ UART port는 커맨드의 입력과 수행을 지원하지 않습니다.**
         가능합니다. 단 해당 코드는 Hex 값 만을 허용합니다. (**default: Hex
         \[2B\]\[2B\]\[2B\]**\[2\])
 
-\<WRAP round box center 80%\>
+
 
 ``` 
   - **제품 설정 프로그램(Configuration Tool)의 'Serial command mode switch code' 항목 Enable 여부와 3-bytes '커맨드 모드 전환 코드'를 확인합니다.**
@@ -110,9 +108,6 @@ UART port는 커맨드의 입력과 수행을 지원하지 않습니다.**
     * <code>> SEG:GW Mode</code> 
 ```
 
-\</WRAP\>
-
-\<WRAP round tip center 90%\>
 
 **Trigger code를 이용한 커맨드 모드 전환 시 주의점**은 다음과 같습니다.
 
@@ -123,7 +118,6 @@ UART port는 커맨드의 입력과 수행을 지원하지 않습니다.**
   - 커맨드 모드 전환 코드 전, 후 간격과 사이 간격의 **초기 값은 500ms**이며, 시리얼 데이터 패킹 옵션의 **Timer** 값이 설정된 경우 간격 값은 설정된 Timer 값으로 변경됩니다.
 ```
 
-\</WRAP\>
 
 1.  Command mode switch trigger code via Data UART port
 
@@ -150,7 +144,7 @@ UART port는 커맨드의 입력과 수행을 지원하지 않습니다.**
   - 변경된 사항의 저장을 위해서 **[SV](#sv)** 커맨드를 이용한 저장이 이루어져야 하며, IP 할당 방법 변경 등의
     초기 동작 변경 사항은 **[RT](#rt)** 커맨드를 이용한 Reboot 이후에 적용됩니다.
 
-\* 참고: **[EC](#ec)** 커맨드를 이용하여 UART 입력의 Echoback을 확인 할 수 있습니다.
+* 참고: **[EC](#ec)** 커맨드를 이용하여 UART 입력의 Echoback을 확인 할 수 있습니다.
 
 -----
 
@@ -204,7 +198,7 @@ Ethernet을 통해 제품을 제어 할 때는 커맨드 코드 전송 이전에
 
 ##### Get Request
 
-\<WRAP round box center 100%\> **단일 커맨드 전송 시**
+**단일 커맨드 전송 시**
 
     MA [MAC] [CR] [LF] PW [Search ID] [CR] [LF] [Command] [CR] [LF]
 
@@ -212,14 +206,13 @@ Ethernet을 통해 제품을 제어 할 때는 커맨드 코드 전송 이전에
 
     MA [MAC] [CR] [LF] PW [Search ID] [CR] [LF] ([Command] [CR] [LF]) * N
 
-\</WRAP\>
 
   - Get Request에 대한 Response는 Request와 동일한 포맷의 프레임에 Parameter를 포함한 형태로
-    응답합니다.\[1\]
+    응답합니다.[1]
 
 ##### Set Request
 
-\<WRAP round box center 100%\> **단일 커맨드 전송 시**
+ **단일 커맨드 전송 시**
 
     MA [MAC] [CR] [LF] PW [Search ID] [CR] [LF] [Command] [Parameters] [CR] [LF]
 
@@ -227,7 +220,6 @@ Ethernet을 통해 제품을 제어 할 때는 커맨드 코드 전송 이전에
 
     MA [MAC] [CR] [LF] PW [Search ID] [CR] [LF] ([Command] [Parameters] [CR] [LF]) * N
 
-\</WRAP\>
 
   - Set Request의 경우, 별도의 응답 없이 제품의 설정을 즉시 변경하도록 구성되어 있습니다.
   - 만약 변경된 값을 확인하고 싶을 경우, Set Request 프레임 말미에 해당 커맨드를 parameter 없이 추가하여
@@ -235,15 +227,13 @@ Ethernet을 통해 제품을 제어 할 때는 커맨드 코드 전송 이전에
 
 #### Ethernet Command Examples
 
-##### Example \#1: UDP Get Command Frame
+##### Example #1: UDP Get Command Frame
 
   - UDP를 통해 **다수 제품의 MAC과 Local IP 주소 요청** 시
       - Search ID는 사용하지 않음
 
 | Request from User |
 | ----------------- |
-
-\<WRAP round box center 100%\>
 
 **커맨드 프레임**
 
@@ -253,12 +243,12 @@ Ethernet을 통해 제품을 제어 할 때는 커맨드 코드 전송 이전에
 
     4D 41 FF FF FF FF FF FF 0D 0A 50 57 20 0D 0A 4D 43 0D 0A 4C 49 0D 0A
 
-\</WRAP\>
+
 
 | Response by WIZ752SR |
 | -------------------- |
 
-\<WRAP round box center 100%\>
+
 
 **커맨드 프레임**
 
@@ -268,7 +258,7 @@ Ethernet을 통해 제품을 제어 할 때는 커맨드 코드 전송 이전에
 
     4D 41 00 08 DC 00 00 11 0D 0A 50 57 20 0D 0A 4D 43 00 08 DC 00 00 11 0D 0A 4C 49 31 39 32 2E 31 36 38 2E 31 31 2E 32 0D 0A
 
-\</WRAP\>
+
 
 1.  즉, Get Request에 대한 Response는 Set Request와 동일한 형태입니다.
 
@@ -280,7 +270,7 @@ Ethernet을 통해 제품을 제어 할 때는 커맨드 코드 전송 이전에
 | Request from User |
 | ----------------- |
 
-\<WRAP round box center 100%\>
+
 
 **커맨드 프레임**
 
@@ -290,12 +280,11 @@ Ethernet을 통해 제품을 제어 할 때는 커맨드 코드 전송 이전에
 
     4D 41 00 08 DC 00 00 11 0D 0A 50 57 20 0D 0A 4C 49 0D 0A
 
-\</WRAP\>
+
 
 | Response by WIZ752SR |
 | -------------------- |
 
-\<WRAP round box center 100%\>
 
 **커맨드 프레임**
 
@@ -305,7 +294,7 @@ Ethernet을 통해 제품을 제어 할 때는 커맨드 코드 전송 이전에
 
     4D 41 00 08 DC 00 00 11 0D 0A 50 57 20 0D 0A 4C 49 31 39 32 2E 31 36 38 2E 31 31 2E 32 0D 0A
 
-\</WRAP\>
+
 
 ##### Example \#3: TCP Set Command Frame
 
@@ -316,7 +305,7 @@ Ethernet을 통해 제품을 제어 할 때는 커맨드 코드 전송 이전에
 | Request from User |
 | ----------------- |
 
-\<WRAP round box center 100%\>
+
 
 **커맨드 프레임**
 
@@ -326,7 +315,6 @@ Ethernet을 통해 제품을 제어 할 때는 커맨드 코드 전송 이전에
 
     4D 41 00 08 DC 00 00 11 0D 0A 50 57 48 45 4C 4C 4F 0D 0A 4C 49 31 39 32 2E 31 36 38 2E 31 31 2E 35 0D 0A
 
-\</WRAP\>
 
 | Response by WIZ752SR |
 | -------------------- |
@@ -335,7 +323,7 @@ Ethernet을 통해 제품을 제어 할 때는 커맨드 코드 전송 이전에
 
     None
 
-\</WRAP\>
+
 
 \<WRAP round info center centeralign 80%\> **IP 주소 형식\[1\] 설정의 변경 시,
 '192.168.11.5'와 같이  
@@ -531,21 +519,18 @@ Status I/O</td>
   - **Return Type:** String
   - **Return Value:**
 
-\<WRAP indent\>\<WRAP indent\>
+
 
     MAC address with colons(:)
 
-\</WRAP\> \</WRAP\>
+
 
   - **Response**
 
-\<WRAP indent\>\<WRAP indent\> \<WRAP round box group\> \<WRAP half
-column\>
 
   - **Without Parameter (Get)**
       - In ASCII: `MC00:08:DC:00:00:01\r\n`
 
-\</WRAP\> \<WRAP half column\> \</WRAP\> \</WRAP\> \</WRAP\> \</WRAP\>
 
 -----
 
@@ -559,24 +544,21 @@ column\>
   - **Return Type:** String
   - **Return Value:**
 
-\<WRAP indent\>\<WRAP indent\>
+
 
     Firmware version with dots(.)
 
   - \=\> Major version number . Minor version number . Maintenance
     version number
 
-\</WRAP\> \</WRAP\>
+
 
   - **Response**
 
-\<WRAP indent\>\<WRAP indent\> \<WRAP round box group\> \<WRAP half
-column\>
 
   - **Without Parameter (Get)**
       - In ASCII: `VR1.0.0\r\n`
 
-\</WRAP\> \<WRAP half column\> \</WRAP\> \</WRAP\> \</WRAP\> \</WRAP\>
 
 -----
 
@@ -590,18 +572,14 @@ column\>
   - **Return Type:** String
   - **Return Value:**
 
-\<WRAP indent\>\<WRAP indent\>
 
     Device model name
 
-  - \=\> Default: WIZ750SR
+  - => Default: WIZ750SR
 
-\</WRAP\> \</WRAP\>
 
   - **Response**
 
-\<WRAP indent\>\<WRAP indent\> \<WRAP round box group\> \<WRAP half
-column\>
 
   - **Without Parameter (Get)**
       - In ASCII: `MNWIZ750SR\r\n`
