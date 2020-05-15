@@ -6,9 +6,8 @@ date: 2020-04-09
 
 CLI Configuration Tool Tutorial # 3
 
-# Single device configuration
-
 -----
+
 
 ## 1. Usage
 
@@ -52,6 +51,7 @@ with the message.
 
 -----
 
+
 ### Example # 2: static IP
 
 To set static IP, you need the following information may be:
@@ -78,6 +78,7 @@ python wizconfig.py -d 00:08:DC:53:AE:B7 --ip 192.168.50.100 --subnet 255.255.25
 ![](/products/configtool/single/set_static.png)
 
 -----
+
 
 ### Example #3: Client mode & remote IP/Port
 
