@@ -11,7 +11,8 @@ WIZ550io, please refer to W5500 Datasheet.
 
 ### Datasheet
 
-[W5500 Datasheet v1.0.9 - English](iEthernet/W5500/Datasheet.md)
+[W5500 Datasheet v1.0.9 - English](../iEthernet/W5500/Datasheet.md)
+
 [W5500 Datasheet v1.0.9 - Korean]()
 
 ### Datasheet History
