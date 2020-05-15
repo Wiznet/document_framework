@@ -4,11 +4,8 @@ title: Overview
 date: 2020-04-15
 ---
 
-
-## Content
 ## WIZ550io
 
-### Overview
 
 WIZ550io is an auto configurable Ethernet controller that includes a
 W5500 (TCP/IP hardwired chip and PHY embedded), a transformer and RJ45.
