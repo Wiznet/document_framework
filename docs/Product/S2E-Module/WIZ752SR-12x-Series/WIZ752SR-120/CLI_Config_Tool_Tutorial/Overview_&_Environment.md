@@ -4,11 +4,12 @@ title: Overview Environment
 date: 2020-04-09
 ---
 
-CLI Configuration Tool Tutorial \#1
+CLI Configuration Tool Tutorial #1
 
 # Overview & Environment
 
 -----
+
 
 ## Overview
 
@@ -38,6 +39,7 @@ It works on **version 2.7 and 3.6 python**.
   - [WIZ752SR-125](../../WIZ752SR-12x-Series/WIZ752SR-125/WIZ752SR-125.md)
 
 -----
+
 
 ## Environment
 
@@ -71,6 +73,7 @@ to set environment variables of windows. \</WRAP\>
 ![](/products/configtool/overview/install_python_03.png)
 
 -----
+
 
 ### Linux
 
