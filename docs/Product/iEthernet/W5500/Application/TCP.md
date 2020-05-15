@@ -4,7 +4,6 @@ title: TCP
 date: 2020-04-07
 ---
 
-
 # W5500 TCP Function
 
 By setting some register and memory operation, W5500 provides internet
