@@ -59,7 +59,7 @@ embedded application platform especially internet of things.
 
 ## Application Module
 
-  * [WIZ550web](Product/App-Module/WIZ550web/WIZ550web.md): W5500 based Web Server module
+  * [WIZ550web](App-Module/WIZ550web/WIZ550web.md): W5500 based Web Server module
 
 -----
 
