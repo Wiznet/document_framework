@@ -4,7 +4,6 @@ title: Datasheet(Hardware Spec, Characteristics)-[KO]
 date: 2020-04-24
 ---
 
-## Content
 
 # WIZ550SR Datasheet
 
@@ -22,6 +21,7 @@ date: 2020-04-24
 향후 하드웨어 사양이나 외형에 변경이 있을 경우에는 변경한 내역이 추가될 수 있다.
 
 -----
+
 
 ## Hardware Specification
 
@@ -62,10 +62,8 @@ date: 2020-04-24
 
 #### WIZ550SR Pin Out
 
-![WIZ550SR Pin
-Out](/products/wiz550sr/wiz550sr_ds/wiz550sr_pinmap.png%20)  
-![WIZ550SR Pin
-Out](/products/wiz550sr/wiz550sr_ds/wiz550sr_pinout_2.png%20%20)
+![WIZ550SR Pin Out](/products/wiz550sr/wiz550sr_ds/wiz550sr_pinmap.png%20)  
+![WIZ550SR Pin Out](/products/wiz550sr/wiz550sr_ds/wiz550sr_pinout_2.png%20%20)
 
 #### WIZ550SR Pin Description
 
@@ -262,10 +260,10 @@ Hardware TRIG Input. Active Low</td>
 
 -----
 
+
 ### WIZ550SR EVB
 
-![WIZ550SR
-EVB](/products/wiz550sr/wiz550sr_ds/wiz550sr_evb_2.png%20%20%20)
+![WIZ550SR EVB](/products/wiz550sr/wiz550sr_ds/wiz550sr_evb_2.png%20%20%20)
 
   - WIZ550SR Developer Board.
   - USB to UART chip, FT2232D.
@@ -278,15 +276,14 @@ EVB](/products/wiz550sr/wiz550sr_ds/wiz550sr_evb_2.png%20%20%20)
 
 #### WIZ550SR EVB Call Out
 
-![WIZ550SR EVB Call
-Out](/products/wiz550sr/wiz550sr_ds/wiz550sr_evb_callout.png%20)
+![WIZ550SR EVB Call Out](/products/wiz550sr/wiz550sr_ds/wiz550sr_evb_callout.png%20)
 
 #### WIZ550SR EVB Block Diagram
 
-![WIZ550SR Block
-Diagram](/products/wiz550sr/wiz550sr_ds/wiz550sr_evb_block_diagram.png%20%20)
+![WIZ550SR Block Diagram](/products/wiz550sr/wiz550sr_ds/wiz550sr_evb_block_diagram.png%20%20)
 
 -----
+
 
 ## Electrical Characteristics
 
@@ -418,15 +415,17 @@ Source Current</td>
 
 ### Ref. Schematic
 
-![WIZ550SR Ref
-Schematic](/products/wiz550sr/wiz550sr_ds/wiz550sr_v1.0_ref_sch.png%20)  
+![WIZ550SR Ref Schematic](/products/wiz550sr/wiz550sr_ds/wiz550sr_v1.0_ref_sch.png%20)  
 
   - WIZ550SR Ref Schematic :
     ![Download](/products/wiz550sr/wiz550sr_ds/wiz550sr_v100_ref_sch_160526.pdf)  
-    \==== WIZ550SR Schematic ====
+    
+    ### WIZ550SR Schematic 
+    
   - WIZ550SR V1.0 Schematic :
     ![Download(Altium)](/products/wiz550sr/wiz550sr_ds/wiz550sr_sch_v100.zip)  
-    \* WIZ550SR V1.0 Schematic :
+    
+    * WIZ550SR V1.0 Schematic :
     ![Download(PDF)](/products/wiz550sr/wiz550sr_ds/wiz550sr_sch_v100.pdf)  
 
 ### WIZ550SR BOM
@@ -450,10 +449,9 @@ Schematic](/products/wiz550sr/wiz550sr_ds/wiz550sr_v1.0_ref_sch.png%20)
 
   - WIZ550SR V1.0 3D PDF :
     ![Download](/products/wiz550sr/wiz550sr_ds/wiz550sr_v1.0_3d.pdf)  
-    \* This PDF must be run using the 'Adobe Acrobat'.
+    * This PDF must be run using the 'Adobe Acrobat'.
 
-![WIZ550SR
-Dimension](/products/wiz550sr/wiz550sr_ds/wiz550sr_dimension.jpg%20)
+![WIZ550SR Dimension](/products/wiz550sr/wiz550sr_ds/wiz550sr_dimension.jpg%20)
 
 -----
 
