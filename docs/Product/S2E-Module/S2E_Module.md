@@ -1,14 +1,9 @@
 ---
 id: s2e_module
-title: S2E Module
+title: S2E: Serial to Ethernet Module
 date: 2020-04-07
 ---
 
-## Content
-
-# S2E: Serial to Ethernet Module
-
------
 
 ## Overview
 
@@ -21,6 +16,7 @@ WIZnet S2E module supports a wide range of pin header types and hardware
 interfaces.
 
 -----
+
 
 ## Product Family
 
@@ -63,16 +59,9 @@ interfaces.
 
 -----
 
+
 ## S2E Tools
 
   - [S2E Module's Tool Selection Guide](/products/configtool/start)
-
------
-
-## Etc.
-
-### Sidebar
-
-  - [S2E sidebar](/products/s2e_module/sidebar)
 
 -----
