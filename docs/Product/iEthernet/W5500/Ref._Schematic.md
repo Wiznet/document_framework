@@ -67,7 +67,7 @@ The RJ45 from UDE (RB1-125BAG1A) is used in many of our **W5100** and
 * 1) we use the J1B1211CCD from CETUS in our
 **[W5500-EVB](W5500-EVB/W5500-EVB.md)**,
 **[WIZ550io](../../ioModule/WIZ550io/Overview.md)**,
-**[WIZ550S2E](../../WIZ550S2E/WIZ550S2E.md)** and
+**[WIZ550S2E](../../S2E-Module/WIZ550S2E/WIZ550S2E.md)** and
 **[WIZ550web](../../App-Module/WIZ550web/WIZ550web.md)** Modules.  
 * 2) we use the RB1-125BAG1A from UDE in most of our our **W5100** &
 **W7100A** related Plug-In and Serial-to-Ethernet (S2E) Modules.  
