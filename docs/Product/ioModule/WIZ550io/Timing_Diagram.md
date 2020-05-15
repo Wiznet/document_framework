@@ -4,9 +4,6 @@ title: Timing Diagram
 date: 2020-04-15
 ---
 
-
-### Reset Timing
-
 ![](/document_framework/img/products/wiz550io/nreset_rdy_timing.jpg)
 
 | Symbol | Description                      | Min   | Max  |
