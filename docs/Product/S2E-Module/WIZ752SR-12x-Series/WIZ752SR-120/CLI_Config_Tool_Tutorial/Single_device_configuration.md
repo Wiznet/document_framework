@@ -146,8 +146,6 @@ The parameter can be set to the random IP that not used.
 
 -----
 
------
-
 ### Step 3: Firmware update
 
 If the firmware file is in the project directory, just enter the file
