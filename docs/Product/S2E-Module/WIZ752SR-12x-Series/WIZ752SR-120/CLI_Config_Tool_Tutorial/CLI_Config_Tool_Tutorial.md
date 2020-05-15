@@ -4,11 +4,6 @@ title: CLI Config Tool Tutorial
 date: 2020-04-09
 ---
 
-## Content
-
-# CLI Configuration Tool Tutorial
-
------
 
 ## Overview
 
@@ -18,6 +13,7 @@ The latest version tool can be downloaded at this [WIZnet-S2E-Tool
 github page](https://github.com/Wiznet/WIZnet-S2E-Tool).
 
 -----
+
 
 ## Tutorial Contents
 
@@ -30,6 +26,7 @@ Please refer to the following pages for detailed usage.
   - [5. Using File Options](File_Options.md)
 
 -----
+
 
 ## Navigation
 
@@ -55,6 +52,7 @@ Please refer to the following pages for detailed usage.
 
 -----
 
+
 **WIZ750SR series Downloads** 
 
   - **[Software Download](../Download.md)**
@@ -64,4 +62,3 @@ Please refer to the following pages for detailed usage.
   - **[Technical References](../Technical_References.md)**
 
 -----
-
