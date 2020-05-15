@@ -4,11 +4,11 @@ title: How to use CLI Config Tool
 date: 2020-04-09
 ---
 
-CLI Configuration Tool Tutorial # 2
 
-# How to use CLI Config Tool
+CLI Configuration Tool Tutorial #2
 
 -----
+
 
 ## How to Start
 
@@ -32,6 +32,7 @@ start from that path.
 ![](/products/configtool/option/cmd_direct.png) \</WRAP\>
 
 -----
+
 
 ## Available Options
 
