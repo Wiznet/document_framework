@@ -4,9 +4,7 @@ title: Multi Device Configuration
 date: 2020-04-09
 ---
 
-CLI Configuration Tool Tutorial \#4
-
-# Multi device configuration
+CLI Configuration Tool Tutorial #4
 
 You can use the multi-device configuration when you need to set up and
 configure multiple devices.  
@@ -15,6 +13,7 @@ You can **set multiple devices** with **one command input**.
 In this tutorial will use three WIZ750SR + EVB boards for testing.
 
 -----
+
 
 ## 1. Usage
 
@@ -41,6 +40,7 @@ or delete the mac\_list.txt file, It's optional. \</WRAP\>
 You can see the available options with the -h/--help option.
 
   - Refer to previous tutorial: [How to use CLI Config](How_to_use_CLI_Config_Tool.md) 
+
 
 ## 2. Set device
 
@@ -74,6 +74,7 @@ You can check the configuration complete message.
 
 -----
 
+
 ## 3. Firmware update: Multi devices
 
 ### Step 1: Download Firmware
@@ -88,6 +89,7 @@ You can get firmware file from below links.
 You must use **App Boot firmware** file when doing this.
 
 -----
+
 
 ### Step 2: Set IP address
 
@@ -108,6 +110,7 @@ The parameter can be set to the random IP that not used.
 ![](/products/wiz750sr/clitool/multi/multi_fw_m.png)
 
 -----
+
 
 ### Step 3: Firmware update
 
