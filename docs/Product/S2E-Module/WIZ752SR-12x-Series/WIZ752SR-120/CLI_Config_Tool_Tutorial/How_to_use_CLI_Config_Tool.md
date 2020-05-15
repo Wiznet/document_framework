@@ -4,7 +4,7 @@ title: How to use CLI Config Tool
 date: 2020-04-09
 ---
 
-CLI Configuration Tool Tutorial \#2
+CLI Configuration Tool Tutorial # 2
 
 # How to use CLI Config Tool
 
@@ -179,4 +179,3 @@ If you search for the same device again, you can see that 'New device'
 is not displayed.
 
 ![](/products/configtool/option/option_search_old.png)
-
