@@ -18,16 +18,13 @@ date: 2020-04-16
 
   - **Full Binary (Boot + App), Uesing the Flash Loader Demonstrator**
 
- **Full Binary (App Boot +
-App)**  
-![Download (Boot +
-App)](/img/products/wiz550sr/wiz550sr_download/wiz550sr_160531.zip)  
+ **Full Binary (App Boot + App)**  
+[Download (Boot + App)](/img/products/wiz550sr/wiz550sr_download/wiz550sr_160531.zip)  
 
   - **App Binary (App), Uesing the WIZnet Configuration Tool**
 
 **App Binary (App)**  
-![Download
-(App)](/img/products/wiz550sr/wiz550sr_download/wiz550sr_app_160531.zip)  
+[Download (App)](/img/products/wiz550sr/wiz550sr_download/wiz550sr_app_160531.zip)  
 
 
 ### Source code (with web pages)

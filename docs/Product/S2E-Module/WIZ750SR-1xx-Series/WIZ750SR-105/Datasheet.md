@@ -195,8 +195,8 @@ replacement for WIZ105SR.**
 
 | H/W version | Type | Filetype | Download Link                                                                                                                | Remarks |
 | ----------- | ---- | -------- | ---------------------------------------------------------------------------------------------------------------------------- | ------- |
-| 1.0         | TTL  | Altium   | ![](/products/w5500/w5500_evb/icons/download.png) [Download](/products/wiz750sr-105/datasheet/wiz750sr-105_v1.0_altium.zip) | \-      |
-| :::         | :::  | PDF      | ![](/products/w5500/w5500_evb/icons/download.png) [Download](/products/wiz750sr-105/datasheet/wiz750sr-105.pdf)             | \-      |
+| 1.0         | TTL  | Altium   | [](/products/w5500/w5500_evb/icons/download.png) [Download](/products/wiz750sr-105/datasheet/wiz750sr-105_v1.0_altium.zip) | \-      |
+| :::         | :::  | PDF      | [](/products/w5500/w5500_evb/icons/download.png) [Download](/products/wiz750sr-105/datasheet/wiz750sr-105.pdf)             | \-      |
 
 -----
 
@@ -206,8 +206,8 @@ replacement for WIZ105SR.**
 
 | H/W version | Type | Filetype | Download Link                                                                                                                     | Remarks |
 | ----------- | ---- | -------- | --------------------------------------------------------------------------------------------------------------------------------- | ------- |
-| 1.0         | TTL  | Excel    | ![](/products/w5500/w5500_evb/icons/download.png) [Download](/products/wiz750sr-105/datasheet/wiz750sr-105_v1.0_pl_20171227.xls) | \-      |
-| :::         | :::  | PDF      | ![](/products/w5500/w5500_evb/icons/download.png) [Download](/products/wiz750sr-105/datasheet/wiz750sr-105_v1.0_pl_20171227.pdf) | \-      |
+| 1.0         | TTL  | Excel    | [](/products/w5500/w5500_evb/icons/download.png) [Download](/products/wiz750sr-105/datasheet/wiz750sr-105_v1.0_pl_20171227.xls) | \-      |
+| :::         | :::  | PDF      | [](/products/w5500/w5500_evb/icons/download.png) [Download](/products/wiz750sr-105/datasheet/wiz750sr-105_v1.0_pl_20171227.pdf) | \-      |
 
 -----
 
