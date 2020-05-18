@@ -53,8 +53,7 @@ Install JAVA Runtime Environment
 
 \<WRAP center download 60% centeralign\> **WIZnet Configuration Tool
 Version 1.0.3**  
-![Download
-(zip)](/img/products/wiz550sr/wiz550sr_download/wiznet_configuration_tool_ver1.03.zip)
+[Download (zip)](/img/products/wiz550sr/wiz550sr_download/wiznet_configuration_tool_ver1.03.zip)
 
 
 -----
@@ -105,7 +104,7 @@ Demonstrator](http://www.st.com/content/st_com/en/products/development-tools/sof
 <http://www.wiznet.co.kr/product/serial-to-ethernet>** \</WRAP\>
 
 \<WRAP center download 60% centeralign\> **WIZnet WIZ VSP**  
-![WIZ VSP Program (zip)](/products/wiz750sr/wizvsp_tool.zip) \</WRAP\>
+[WIZ VSP Program (zip)](/products/wiz750sr/wizvsp_tool.zip) \</WRAP\>
 
 -----
 

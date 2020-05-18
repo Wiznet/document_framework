@@ -5,7 +5,7 @@ When you write firmware into WIZwiki-W7500 with the USB cable, the
 firmware has written into the CMSIS-DAP first. After that, the firmware
 will write into WIZwiki-W7500. Because of this, you are require to
 update the firmware for the
-CMSIS![](/products/wizwiki_w7500/start_getting_started/lpc11u35_wizwiki_w7500_if_crc_20170411.zip)-DAP,
+CMSIS [](/products/wizwiki_w7500/start_getting_started/lpc11u35_wizwiki_w7500_if_crc_20170411.zip)-DAP,
 when a new version CMSIS-DAP firmware has released.
 
 This page shows how to write firmware into CMSIS-DAP.
@@ -19,7 +19,7 @@ This page shows how to write firmware into CMSIS-DAP.
 
   * [Download WIZwiki-W7500ECO](/img/products/w7500/overview/lpc11u35_wizwiki_w7500_eco_if_crc_20170420.zip)
 
- * [Download WIZwiki-W7500P](/img/products/w7500/overview/lpc11u35_wizwiki_w7500p_if_crc_20170420.zip)
+  * [Download WIZwiki-W7500P](/img/products/w7500/overview/lpc11u35_wizwiki_w7500p_if_crc_20170420.zip)
 
 
 ### To follow

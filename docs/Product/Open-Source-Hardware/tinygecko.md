@@ -70,7 +70,7 @@ core. We use EMF32TG840F32 in EFM32TG family. Its SPEC is as follows.
 
 #### Download IAR project for example (Loopback/DHCP/DNS)
 
-  - ![efm32tg840f32\_w5500\_20131220.zip](/img/osh/energymicro/efm32tg840f32_w5500_20131220.zip)
+  - [efm32tg840f32\_w5500\_20131220.zip](/img/osh/energymicro/efm32tg840f32_w5500_20131220.zip)
   - Extract the downloaded zip file on your PC.
 
 #### Install the latest ioLibrary BSD

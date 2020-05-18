@@ -393,12 +393,9 @@ WIZ550io, please refer to W5500 Datasheet.
 
 ### Schematic
 
-  - Revision 1.0 ![WIZ550io Rev1.0
-    Schematic](/img/products/wiz550io/wiz550io-r1.0_0830_.pdf)
-  - Revision 1.1 ![WIZ550io Rev1.1
-    Schematic](/img/products/wiz550io/wiz550io_v1_1_20140117.pdf)
-  - Revision 1.2/1.3 ![WIZ550io Rev1.2/1.3
-    Schematic](/img/products/wiz550io/wiz550io_v1_2_schematic.pdf)
+  - Revision 1.0 [WIZ550io Rev1.0 Schematic](/img/products/wiz550io/wiz550io-r1.0_0830_.pdf)
+  - Revision 1.1 [WIZ550io Rev1.1 Schematic](/img/products/wiz550io/wiz550io_v1_1_20140117.pdf)
+  - Revision 1.2/1.3 [WIZ550io Rev1.2/1.3 Schematic](/img/products/wiz550io/wiz550io_v1_2_schematic.pdf)
 
 ### PCB
 
