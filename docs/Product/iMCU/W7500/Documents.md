@@ -15,6 +15,11 @@ The **Getting Started** user's guide describes the installation of MDK,How to ma
 ### Data Sheet
 
 ![W7500x Datasheet v1.1.0 - English](/img/products/w7500/w7500x_ds_v110.pdf)
+[W7500x Datasheet v1.1.0 - English](/img/products/w7500/w7500x_ds_v110.pdf)
+![W7500x Datasheet v1.1.0 - English](./img/products/w7500/w7500x_ds_v110.pdf)
+[W7500x Datasheet v1.1.0 - English](./img/products/w7500/w7500x_ds_v110.pdf)
+![W7500x Datasheet v1.1.0 - English](img/products/w7500/w7500x_ds_v110.pdf)
+[W7500x Datasheet v1.1.0 - English](img/products/w7500/w7500x_ds_v110.pdf)
 
 
 | Version | Date      | Decription                                           |
