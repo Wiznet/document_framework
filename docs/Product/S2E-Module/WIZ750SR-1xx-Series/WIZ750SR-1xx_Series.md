@@ -24,7 +24,7 @@ External PHY(IC+).
 
 ## WIZ750SR-100
 
-![WIZ750SR-100](/document_framework/img/products/s2e_module/wiz750sr-1xx/wiz750sr-100.png)  
+![WIZ750SR-100](/img/products/s2e_module/wiz750sr-1xx/wiz750sr-100.png)  
 
 ### Features
 
@@ -38,7 +38,7 @@ External PHY(IC+).
 
 ## WIZ750SR-105
 
-![WIZ750SR-105](/document_framework/img/products/s2e_module/wiz750sr-1xx/wiz750sr-105.png)
+![WIZ750SR-105](/img/products/s2e_module/wiz750sr-1xx/wiz750sr-105.png)
 
 ### Features
 
@@ -52,7 +52,7 @@ External PHY(IC+).
 
 ## WIZ750SR-110
 
-![WIZ750SR-110](/document_framework/img/products/s2e_module/wiz750sr-1xx/wiz750sr-110.png)
+![WIZ750SR-110](/img/products/s2e_module/wiz750sr-1xx/wiz750sr-110.png)
 
 ### Features
 

@@ -18,7 +18,7 @@ The DMA controller has up to 6 channels in total, each dedicated to managing mem
 
 ## Functional description
 
-![](/document_framework/img/products/w7500p/peripheral/dma_block_diagram.jpg "Figure 1 DMA block diagram")
+![](/img/products/w7500p/peripheral/dma_block_diagram.jpg "Figure 1 DMA block diagram")
 
 ### DMA request mapping
 
@@ -122,7 +122,7 @@ In ping-pong mode, the user can program or reprogram one of the two channel data
 The ping-pong cycle can be used for transfers to or from peripherals or for memory-to-memory transfers.
 
 
-![](/document_framework/img/products/w7500p/peripheral/dma_ping_pong.jpg "Figure 2 DMA ping pong cycle")
+![](/img/products/w7500p/peripheral/dma_ping_pong.jpg "Figure 2 DMA ping pong cycle")
 
 ------------------------------
 

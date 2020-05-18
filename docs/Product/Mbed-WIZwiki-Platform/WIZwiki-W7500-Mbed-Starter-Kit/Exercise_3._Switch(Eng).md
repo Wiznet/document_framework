@@ -25,22 +25,22 @@ board.
   - Test S/W : In order to check serial data, terminal program is
     required on the PC. Tera Term is used in this exercise.
 
-![](/document_framework/img/products/wizwiki_mbed_kit/kit_en/2_teraterm.png)
+![](/img/products/wizwiki_mbed_kit/kit_en/2_teraterm.png)
 
 ## Hardware
 
 ### The Circuit
 
 This is the circuit for this example. ![Button and
-LED](/document_framework/img/products/wizwiki_mbed_kit/kit_en/button_led_scheme.png)
+LED](/img/products/wizwiki_mbed_kit/kit_en/button_led_scheme.png)
 
 The LED for this example is placed on the WIZwiki board and it is shown
 in the red box in the cicuit below. ![RGB
-LED](/document_framework/img/products/wizwiki_mbed_kit/kit_en/3_board_all.png)
+LED](/img/products/wizwiki_mbed_kit/kit_en/3_board_all.png)
 
 ### Connections
 
-![](/document_framework/img/products/wizwiki_mbed_kit/kit_en/3_board_all.png)
+![](/img/products/wizwiki_mbed_kit/kit_en/3_board_all.png)
 
 ## Software
 

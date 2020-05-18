@@ -7,7 +7,7 @@ date: 2020-04-07
 
 # WIZwiki-W7500
 
-![WIZwiki-W7500](/document_framework/img/products/w7500/overview/wizwiki-w7500_main.png)
+![WIZwiki-W7500](/img/products/w7500/overview/wizwiki-w7500_main.png)
 
 -----
 
@@ -79,16 +79,16 @@ firmware writing.
    * Micro SD card slot
 
 **WIZwiki-W7500 Blockdiagram**  
-![WIZwiki-W7500 Blockdiagram](/document_framework/img/products/w7500/overview/wizwiki-w7500_blockdiagram_v1.1.png)  
+![WIZwiki-W7500 Blockdiagram](/img/products/w7500/overview/wizwiki-w7500_blockdiagram_v1.1.png)  
 
 **WIZwiki-W7500 Callout**  
-![WIZwiki-W7500 Callout](/document_framework/img/products/w7500/overview/wizwiki-w7500_callout.png)  
+![WIZwiki-W7500 Callout](/img/products/w7500/overview/wizwiki-w7500_callout.png)  
 
 **WIZwiki-W7500 Detail Pinout**  
-![wizwiki_w7500_pinout_wiki_150701_detail.png](/document_framework/img/products/w7500/overview/wizwiki_w7500_pinout_wiki_150701_detail.png)  
+![wizwiki_w7500_pinout_wiki_150701_detail.png](/img/products/w7500/overview/wizwiki_w7500_pinout_wiki_150701_detail.png)  
 
 **WIZwiki-W7500 Simple Pinout**  
-![wizwiki_w7500_pinout_wiki_150701_simple.png](/document_framework/img/products/w7500/overview/wizwiki_w7500_pinout_wiki_150701_simple.png)  
+![wizwiki_w7500_pinout_wiki_150701_simple.png](/img/products/w7500/overview/wizwiki_w7500_pinout_wiki_150701_simple.png)  
 
 -----
 
@@ -129,8 +129,8 @@ firmware writing.
 **Datasheet**
 
    * 🌎[W7500 Documents](../../iMCU/W7500/Documents.md)
-   * 🌎[IP101GA Datasheet](/document_framework/img/products/w7500/overview/IP101G_DS_R01_20121224.pdf)
-   * 🌎[LPC11U35FHI33/501 Datasheet](/document_framework/img/products/w7500/overview/LPC11U3X.pdf)
+   * 🌎[IP101GA Datasheet](/img/products/w7500/overview/IP101G_DS_R01_20121224.pdf)
+   * 🌎[LPC11U35FHI33/501 Datasheet](/img/products/w7500/overview/LPC11U3X.pdf)
 
 **Schematic**
 
@@ -146,17 +146,17 @@ firmware writing.
 <!-- end list -->
 
    * ![WIZwiki-W7500 V1.0 Schematic (Altium Designer)]()
-   * ![WIZwiki-W7500 V1.0 Schematic (PDF)](/document_framework/img/products/w7500/overview/wizwiki_w7500_sch_v1.0_150401.pdf)
+   * [WIZwiki-W7500 V1.0 Schematic (PDF)](/img/products/w7500/overview/wizwiki_w7500_sch_v1.0_150401.pdf)
 
 **Part list**
 
-   * ![WIZwiki-W7500 V1.0 BOM (PDF)](/document_framework/img/products/w7500/overview/wizwiki_w7500_bom_v1.0_150407.pdf)
+   * [WIZwiki-W7500 V1.0 BOM (PDF)](/img/products/w7500/overview/wizwiki_w7500_bom_v1.0_150407.pdf)
    
 **Dimension**
 
    * WIZwiki-W7500 V1.0 Dimension
 
-![WIZwiki-W7500 Dimension](/document_framework/img/products/w7500/overview/wizwiki-w7500_dimension.png)
+![WIZwiki-W7500 Dimension](/img/products/w7500/overview/wizwiki-w7500_dimension.png)
 
 -----
 

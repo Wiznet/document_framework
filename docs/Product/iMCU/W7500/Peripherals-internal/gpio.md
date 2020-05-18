@@ -17,7 +17,7 @@ The GPIO peripheral consists of the following feature.
 
 ## Functional description
 
-![](/document_framework/img/products/w7500p/peripheral/gpio_block_diagram.jpg "Figure 1 GPIO block diagram")
+![](/img/products/w7500p/peripheral/gpio_block_diagram.jpg "Figure 1 GPIO block diagram")
 
 The below Figure shows the operation sequences available for the GPIO.
 The pad alternate function is using the pad alternate function select register.
@@ -26,18 +26,18 @@ The pad control supports pull-down, pull-up, input buffer, and summit trigger in
 Refer to ‘Pad Controller (PADCON)’ for more details about each register.
 
 
-![](/document_framework/img/products/w7500p/peripheral/gpio_flow_chart2.jpg "Figure 2 GPIO flow chart")
+![](/img/products/w7500p/peripheral/gpio_flow_chart2.jpg "Figure 2 GPIO flow chart")
 
 ### Masked access
 The masked access feature permits individual bits or multiple bits to be read from or written to in a single transfer. This avoids software-based read-modify-write operations that are not thread safe. With the masked access operations, the 16-bit I/O is divided into two halves, lower byte and upper byte. The bit mask address spaces are defined as two arrays each containing 256 words.
 
 For example, to set bits[1:0] to 1 and clear bits[7:6] in a single operation, users can carry out the write to the lower byte mask access address space. The required bit mask is 0xC3, and users can write the operation as MASKLOWBYTE[0xC3] = 0x03. 
 
-![](/document_framework/img/products/w7500p/peripheral/mask_lowbyte_access.jpg "Figure 3 mask lowbyte access")
+![](/img/products/w7500p/peripheral/mask_lowbyte_access.jpg "Figure 3 mask lowbyte access")
 
 To update some of the bits in the upper eight bits of the GPIO port, users can use the MASKHIGHBYTE array as Figure below.
 
-![](/document_framework/img/products/w7500p/peripheral/mask_highbyte_access.jpg "Figure 4 mask highbyte access")
+![](/img/products/w7500p/peripheral/mask_highbyte_access.jpg "Figure 4 mask highbyte access")
 
 ------------------------------
 

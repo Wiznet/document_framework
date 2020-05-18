@@ -6,7 +6,7 @@ date: 2020-04-07
 
 # WIZwiki-W7500P
 
-![WIZwiki-W7500](/document_framework/img/products/w7500p/overview/wizwiki-w7500p.png)
+![WIZwiki-W7500](/img/products/w7500p/overview/wizwiki-w7500p.png)
 
 -----
 
@@ -73,11 +73,11 @@ years. W7500P suits users who need Internet connectivity best.
    * Micro SD card slot
 
 **WIZwiki-W7500P Blockdiagram**  
-![WIZwiki-W7500 Blockdiagram](/document_framework/img/products/w7500p/overview/wizwiki-w7500p_blockdiagram.png)  
+![WIZwiki-W7500 Blockdiagram](/img/products/w7500p/overview/wizwiki-w7500p_blockdiagram.png)  
 **WIZwiki-W7500P Callout**  
-![WIZwiki-W7500 Callout](/document_framework/img/products/w7500p/overview/wizwiki-w7500p_callout.png)  
+![WIZwiki-W7500 Callout](/img/products/w7500p/overview/wizwiki-w7500p_callout.png)  
 **WIZwiki-W7500P Pinout**  
-![WIZwiki-W7500 Pinout](/document_framework/img/products/w7500p/overview/wizwiki_w7500p_pinout_mbed_150907.png)  
+![WIZwiki-W7500 Pinout](/img/products/w7500p/overview/wizwiki_w7500p_pinout_mbed_150907.png)  
 
 -----
 
@@ -118,7 +118,7 @@ years. W7500P suits users who need Internet connectivity best.
 **Datasheet**
 
    * [W7500P Documents](Technical_Reference.md)
-   * ![LPC11U35FHI33/501 Datasheet](/document_framework/img/products/w7500p/overview/LPC11U3X.pdf)
+   * ![LPC11U35FHI33/501 Datasheet](/img/products/w7500p/overview/LPC11U3X.pdf)
 
 **Schematic**
 
@@ -135,17 +135,17 @@ years. W7500P suits users who need Internet connectivity best.
 <!-- end list -->
 
    * [WIZwiki-W7500P V1.0 Schematic (Altium Designer)]()
-   * [WIZwiki-W7500P V1.0 Schematic (PDF)](/document_framework/img/products/w7500p/overview/wizwiki-w7500p_sch_v1.0.pdf)
+   * [WIZwiki-W7500P V1.0 Schematic (PDF)](/img/products/w7500p/overview/wizwiki-w7500p_sch_v1.0.pdf)
 
 **Part list**
 
-   * [WIZwiki-W7500P V1.0 BOM (PDF)](/document_framework/img/products/w7500p/overview/wizwiki_w7500p_bom_v1.0_150909.pdf)
+   * [WIZwiki-W7500P V1.0 BOM (PDF)](/img/products/w7500p/overview/wizwiki_w7500p_bom_v1.0_150909.pdf)
 
 **Dimension**
 
    * WIZwiki-W7500P V1.0 Dimension
 
-![WIZwiki-W7500P Dimension](/document_framework/img/products/w7500p/overview/wizwiki-w7500_dimension.png)
+![WIZwiki-W7500P Dimension](/img/products/w7500p/overview/wizwiki-w7500_dimension.png)
 
 -----
 

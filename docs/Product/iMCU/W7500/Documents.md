@@ -46,7 +46,7 @@ The **Getting Started** user's guide describes the installation of MDK,How to ma
 
 ### Reference Manual
 
-  - ![W7500x Reference Manual v1.1.2 - English](/img/products/w7500/w7500x_rm_v112_20181017_.pdf)
+  - [W7500x Reference Manual v1.1.2 - English](/img/products/w7500/w7500x_rm_v112_20181017_.pdf)
 
 
 
@@ -81,8 +81,8 @@ The **Getting Started** user's guide describes the installation of MDK,How to ma
 
 ### PHY Reference
 
-  - ![How to Access W7500x PHY Register - English](/img/products/w7500p/ref_sch/how_to_access_phy_application_note_v100.pdf)
-  - ![W7500P Internal PHY Datasheet - English](http://www.bdtic.com/DataSheet/ICplus/IP101G_DS_R01_20121224.pdf)
+  - [How to Access W7500x PHY Register - English](/img/products/w7500p/ref_sch/how_to_access_phy_application_note_v100.pdf)
+  - [W7500P Internal PHY Datasheet - English](http://www.bdtic.com/DataSheet/ICplus/IP101G_DS_R01_20121224.pdf)
 
  How to Access W7500x PHY Register
 
@@ -99,8 +99,8 @@ W7500P Internal PHY Datasheet
 ---
 
 ### Errata Sheet
-- ![W7500x Erratasheet v1.2.0 - English](/img/products/w7500/w7500x_erratasheet_v120e.pdf)
-- ![W7500x Erratasheet v1.2.0 - Korean](/img/products/w7500/w7500x_erratasheet_v120k.pdf)
+- [W7500x Erratasheet v1.2.0 - English](/img/products/w7500/w7500x_erratasheet_v120e.pdf)
+- [W7500x Erratasheet v1.2.0 - Korean](/img/products/w7500/w7500x_erratasheet_v120k.pdf)
 
 
 | Version | Date      | Decription                            |

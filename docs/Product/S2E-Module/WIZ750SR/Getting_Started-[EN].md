@@ -27,7 +27,7 @@ WIZ750SR-RS232 evaluation board.**
 
 |                                                                              |
 | ---------------------------------------------------------------------------- |
-| ![](/document_framework/img/products/wiz750sr/gettingstarted/wiz750sr-ttl-evb_package_1024x858.jpg) |
+| ![](/img/products/wiz750sr/gettingstarted/wiz750sr-ttl-evb_package_1024x858.jpg) |
 | Figure: ***WIZ750SR Rev. 1.1 Evaluation Board Package***                     |
 
 The WIZ750SR-232 evaluation board package contains the following parts.
@@ -44,12 +44,12 @@ Contents](/products/wiz750sr/overview/en#product_contents) page.
 
 |                                                                      |
 | -------------------------------------------------------------------- |
-| ![](/document_framework/img/products/wiz750sr/gettingstarted/wiz750sr_top_parts_rev1.2.png) |
+| ![](/img/products/wiz750sr/gettingstarted/wiz750sr_top_parts_rev1.2.png) |
 | Figure: ***WIZ750SR Revision 1.1 Top***                              |
 
 |                                                                         |
 | ----------------------------------------------------------------------- |
-| ![](/document_framework/img/products/wiz750sr/gettingstarted/wiz750sr_bottom_parts_rev1.2.png) |
+| ![](/img/products/wiz750sr/gettingstarted/wiz750sr_bottom_parts_rev1.2.png) |
 | Figure: ***WIZ750SR Revision 1.1 Bottom***                              |
 
 ### Parts
@@ -231,12 +231,12 @@ shown in the picture below.
 
 |                                                                        |
 | ---------------------------------------------------------------------- |
-| ![](/document_framework/img/products/wiz750sr/gettingstarted/wiz750sr-ttl-evb_1_1024x816.png) |
+| ![](/img/products/wiz750sr/gettingstarted/wiz750sr-ttl-evb_1_1024x816.png) |
 | Figure: **Combining WIZ750SR module and EVB**                          |
 
 |                                                                        |
 | ---------------------------------------------------------------------- |
-| ![](/document_framework/img/products/wiz750sr/gettingstarted/wiz750sr-ttl-evb_2_1024x816.png) |
+| ![](/img/products/wiz750sr/gettingstarted/wiz750sr-ttl-evb_2_1024x816.png) |
 | Figure: **WIZ750SR-EVB side view**                                     |
 
 #### Step 2: Power on
@@ -262,7 +262,7 @@ be downloaded from Github below.**
 
 |                                                       |
 | ----------------------------------------------------- |
-| ![](/document_framework/img/products/wiz750sr/gettingstarted/configtool.png) |
+| ![](/img/products/wiz750sr/gettingstarted/configtool.png) |
 | Figure: **WIZnet Configuration Tool**                 |
 
 #### Step 4: Set up your WIZ750SR
@@ -292,7 +292,7 @@ below.
 
 |                                                                  |
 | ---------------------------------------------------------------- |
-| ![](/document_framework/img/products/wiz750sr/gettingstarted/windows_devicemanager.png) |
+| ![](/img/products/wiz750sr/gettingstarted/windows_devicemanager.png) |
 | Figure: Device Manager                                           |
 
 #### Step 6: Verify

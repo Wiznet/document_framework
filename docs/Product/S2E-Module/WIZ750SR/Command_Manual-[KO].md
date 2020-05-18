@@ -11,7 +11,7 @@ date: 2020-04-08
    * [English](Command_Manual-[EN].md)  
    * [Korean](Command_Manual-[KO].md) (current page)
 
-![](/document_framework/img/products/wiz750sr/docs_icon.png)
+![](/img/products/wiz750sr/docs_icon.png)
 
 -----
 

@@ -29,27 +29,27 @@ serial commands for simple Wi-Fi settings; not only serial devices but
 8/16/32 bit micro controllers can also use UART for simple Wi-Fi
 settings.  
   
- :/document_framework/img/products/wizfi630a/wizfi630a0.png
+ :/img/products/wizfi630a/wizfi630a0.png
 
   - **WizFi630A**
 
- :/document_framework/img/products/wizfi630a/wizfi630a01.png
+ :/img/products/wizfi630a/wizfi630a01.png
 
   - **WizFi630A-EVB**
 
-:/document_framework/img/products/wizfi630a/wizfi630a02.png
+:/img/products/wizfi630a/wizfi630a02.png
 
   - **WizFi630A-Antenna**
 
-:/document_framework/img/products/wizfi630a/wizfi630a03.png
+:/img/products/wizfi630a/wizfi630a03.png
 
   - **WizFi630A-Serial Cable**
 
-:/document_framework/img/products/wizfi630a/wizfi630a04.png
+:/img/products/wizfi630a/wizfi630a04.png
 
   - **WizFi630A-LAN Cable**
 
-:/document_framework/img/products/wizfi630a/wizfi630a05.png
+:/img/products/wizfi630a/wizfi630a05.png
 
   - **WizFi630A-Adapter**
 
@@ -61,5 +61,4 @@ settings.
 
 ### Material
 
-  - ![WizFi630A
-    datasheet(PDF)](/document_framework/img/products/wizfi630a/wizfi630a_datasheet_en_v1_2_1_.pdf)
+  - [WizFi630A datasheet(PDF)](/img/products/wizfi630a/wizfi630a_datasheet_en_v1_2_1_.pdf)

@@ -11,9 +11,9 @@ Writing firmware into WIZwiki-W7500 has four ways.
 
 ## Examples Binary
 
-   * Hardware test & Loop back binary (WIZwiki-W7500 default binary) :![Download](/document_framework/img/products/wizwiki_w7500/getting_started/w7500x_wztoe_manu.ziphttps://github.com/Wiznet/document_framework/blob/master/static/img/products/wizwiki_w7500/getting_started/wizwki-w7500_serial_led.zip
-   * LED Blink binary : ![Download](/document_framework/img/products/wizwiki_w7500/getting_started/wizwki-w7500_led_blink.zip)
-   * Serial Out binary :![Download](/document_framework/img/products/wizwiki_w7500/getting_started/wizwki-w7500_serial_led.zip)
+   * Hardware test & Loop back binary (WIZwiki-W7500 default binary) : [Download](/img/products/wizwiki_w7500/getting_started/w7500x_wztoe_manu.ziphttps://github.com/Wiznet/document_framework/blob/master/static/img/products/wizwiki_w7500/getting_started/wizwki-w7500_serial_led.zip
+   * LED Blink binary : [Download](/img/products/wizwiki_w7500/getting_started/wizwki-w7500_led_blink.zip)
+   * Serial Out binary : [Download](/img/products/wizwiki_w7500/getting_started/wizwki-w7500_serial_led.zip)
 
 -----
 
@@ -24,7 +24,7 @@ as a removable disk. Removable disk name is MBED.
 
 2\. You "drag and drop" or copy the firmware to the removable disk, the
 firmware writing progress has completed. ![Drag and
-drop](/document_framework/img/products/wizwiki_w7500/drap_n_drop.png)
+drop](/img/products/wizwiki_w7500/drap_n_drop.png)
 
 3\. After completing the firmware writing, open to check the removable
 disk.

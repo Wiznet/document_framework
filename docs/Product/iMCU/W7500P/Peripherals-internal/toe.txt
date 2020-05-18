@@ -20,7 +20,7 @@ TOE also provides WOL (Wake on LAN) to reduce power consumption of the system.
 
 The below Figure shows the TOE block diagram.
 
-![](/document_framework/img/products/w7500p/peripheral/wztoe_diagram.gif "Figure 1 TOE block diagram")
+![](/img/products/w7500p/peripheral/wztoe_diagram.gif "Figure 1 TOE block diagram")
 
 ## TOE Memory map
 
@@ -28,7 +28,7 @@ TOE has one Common Register Block, eight Socket Register Blocks, and TX/RX Buffe
 Regardless of the allocated size of each Socket TX/RX Buffer, it can be accessible within the 16 bits offset address range (From 0x0000 to 0xFFFF).
 Refer to [Memory](toe.md#memory) for more information about 16KB TX/RX Memory organization and access method.
 
-![](/document_framework/img/products/w7500p/peripheral/wztoe_memory_map.jpg "Figure 2 TOE memory map ")
+![](/img/products/w7500p/peripheral/wztoe_memory_map.jpg "Figure 2 TOE memory map ")
 
 ### Common register map
 
@@ -274,9 +274,9 @@ The 16KB RX memory allocation method is the same as the 16KB TX memory allocatio
 	
 When all Sn_RXBUF_SIZE registers have been configured, the Socket RX Buffer is allocated with the configured size in 16KB RX Memory and is assigned sequentially from Socket 0 to Socket 7. The physical memory address of the Socket RX Buffer is automatically determined in 16KB RX memory. Therefore, the total sum of Sn_RXBUF_SIZE should not exceed 16 or data reception error will occur. 
 
-For 16KB TX/RX memory allocation, refer to Sn_TXBUF_SIZE & Sn_RXBUF_SIZE in [Socket register map](toe.md#socket_register_map) . The Socket n TX Buffer Block allocated in 16KB TX memory is buffer for saving data to be transmitted by host. The 16bits Offset Address of Socket n TX Buffer Block has 64KB address space ranged from 0x0000 to 0xFFFF, and is configured with reference to ‘Socket n TX Write Pointer Register (Sn_TX_WR)’ & ‘Socket n TX Read Pointer Register(Sn_RX_RD)’. However, the 16bits Offset Address automatically converts into the physical address to be accessible in 16KB TX memory such as [The upper Figure](/document_framework/img/products/w7500p/peripheral/wztoe_memory_map.jpg). Refer to [Socket register map](toe.md#socket register map) for Sn_TX_WR & Sn_TX_RD.
+For 16KB TX/RX memory allocation, refer to Sn_TXBUF_SIZE & Sn_RXBUF_SIZE in [Socket register map](toe.md#socket_register_map) . The Socket n TX Buffer Block allocated in 16KB TX memory is buffer for saving data to be transmitted by host. The 16bits Offset Address of Socket n TX Buffer Block has 64KB address space ranged from 0x0000 to 0xFFFF, and is configured with reference to ‘Socket n TX Write Pointer Register (Sn_TX_WR)’ & ‘Socket n TX Read Pointer Register(Sn_RX_RD)’. However, the 16bits Offset Address automatically converts into the physical address to be accessible in 16KB TX memory such as [The upper Figure](/img/products/w7500p/peripheral/wztoe_memory_map.jpg). Refer to [Socket register map](toe.md#socket register map) for Sn_TX_WR & Sn_TX_RD.
 
-The Socket n RX Buffer Block allocated in 16KB RX memory is buffer for saving the received data through the Ethernet. The 16bits Offset Address of Socket n RX Buffer Block has 64KB address space ranged from 0x0000 to 0xFFFF, and is configured with reference to ‘Socket n RX RD Pointer Register (Sn_RX_RD)’ & ‘Socket n RX Write Pointer Register (Sn_RX_WR)’. However, the 16bits Offset Address automatically converts into the physical address to be accessible in 16KB RX memory such as [The upper Figure](/document_framework/img/products/w7500p/peripheral/wztoe_memory_map.jpg). Refer to [Socket register map](toe.md#socket_register_map) for Sn_RX_RD & Sn_RX_WR.
+The Socket n RX Buffer Block allocated in 16KB RX memory is buffer for saving the received data through the Ethernet. The 16bits Offset Address of Socket n RX Buffer Block has 64KB address space ranged from 0x0000 to 0xFFFF, and is configured with reference to ‘Socket n RX RD Pointer Register (Sn_RX_RD)’ & ‘Socket n RX Write Pointer Register (Sn_RX_WR)’. However, the 16bits Offset Address automatically converts into the physical address to be accessible in 16KB RX memory such as [The upper Figure](/img/products/w7500p/peripheral/wztoe_memory_map.jpg). Refer to [Socket register map](toe.md#socket_register_map) for Sn_RX_RD & Sn_RX_WR.
 
 ------------------------------
 

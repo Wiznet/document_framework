@@ -29,7 +29,7 @@ mbed 회원 가입이 안 되어 있는 경우엔 아래 페이지를 참고해 
 
 PC와 WIZwiki 보드를 USB 케이블로 연결한다.
 
-![](/document_framework/img/products/wizwiki_mbed_kit/kit_en/bd_usb_connected.jpg)
+![](/img/products/wizwiki_mbed_kit/kit_en/bd_usb_connected.jpg)
 
 연결하면 USB드라이브처럼 PC의 특정 드라이브로 인식된다.
 
@@ -37,22 +37,22 @@ PC와 WIZwiki 보드를 USB 케이블로 연결한다.
 
   - 오른쪽의 Open mbed Compiler를 클릭한다.
 
-![](/document_framework/img/products/wizwiki_mbed_kit/kit_en/105_wizwiki.png)
+![](/img/products/wizwiki_mbed_kit/kit_en/105_wizwiki.png)
 
 팝업 메뉴가 뜨면서 플랫폼에 해당하는 Template으로 Blinky LED Hello World로 지정되고, Default
 프로그램 이름으로 mbed\_blinky 가 선택된다.
-![](/document_framework/img/products/wizwiki_mbed_kit/kit_en/106_program_name.png)
+![](/img/products/wizwiki_mbed_kit/kit_en/106_program_name.png)
 
 OK를 클릭하면, 내 Program Workspace로 mbed\_blinky 프로그램이 복사된다.
-![](/document_framework/img/products/wizwiki_mbed_kit/kit_en/107_mbed_blinky_main.png)
+![](/img/products/wizwiki_mbed_kit/kit_en/107_mbed_blinky_main.png)
 
 메뉴 상단의 Compile 아이콘을 클릭해서 예제 Code를 컴파일한다. 컴파일에서 에러가 발생하지 않으면, 창 아래에
 Success\!라는 메시지가 보인다.
 
-![](/document_framework/img/products/wizwiki_mbed_kit/kit_en/108_compile_end.png)
+![](/img/products/wizwiki_mbed_kit/kit_en/108_compile_end.png)
 
 컴파일이 완료되면 웹 브라우저는 mbed\_blinky\_WIZWIKI\_W7500.bin 파일을 PC의 지정된 디렉토리로
-다운로드한다. ![](/document_framework/img/products/wizwiki_mbed_kit/kit_en/109_bin.png)
+다운로드한다. ![](/img/products/wizwiki_mbed_kit/kit_en/109_bin.png)
 ### Example Code
 
 ``` c
@@ -75,12 +75,12 @@ int main() {
 PC에 복사된 파일인 mbed\_blinky\_WIZWIKI\_W7500.bin 파일을 mbed 드라이브 (예를 들면, E: 또는
 F: 등)로 복사한다.
 
-![](/document_framework/img/products/wizwiki_mbed_kit/kit_en/110_copy.png)
+![](/img/products/wizwiki_mbed_kit/kit_en/110_copy.png)
 
 그리고, 리셋 핀을 눌러준다. 연결도의 그림에서 파란색 동그라미 내부의 D4 부분이 0.2초 간격으로 깜박인다.
 
 ![WIZwiki-W7500
-LED1](/document_framework/img/products/wizwiki_mbed_kit/kit_en/wizwiki_led1.png)
+LED1](/img/products/wizwiki_mbed_kit/kit_en/wizwiki_led1.png)
 
 LED가 깜박이고 있으면 WIZwiki-W7500 플랫폼 보드에서 예제 코드가 정상동작하고 있는 것이다. 이렇게 LED를 깜박이게
 만드는 LED Blink 예제를 보통 "Hello World"라고도 부른다.

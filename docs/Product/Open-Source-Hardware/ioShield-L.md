@@ -6,7 +6,7 @@ date: 2020-04-03
 
 ## Overview
 
-![](/document_framework/img/osh/ioshield-l/io_s_l_.png) ioShield-L is an Ethernet BoosterPack
+![](/img/osh/ioshield-l/io_s_l_.png) ioShield-L is an Ethernet BoosterPack
 for MSP430 LaunchPad development board(🌎[MSP-EXP430G2,
 TI](http://www.ti.com/tool/msp-exp430g2)). The ioShield-L allows a
 MSP430 LaunchPad board to connect to the internet. It consists of
@@ -24,7 +24,7 @@ For more details, please refer to 🌎[MSP430 LaunchPad
 page](http://www.ti.com/tool/msp-exp430g2) in 🌎[TI official
 website](http://www.ti.com).
 
-![](/document_framework/img/osh/ioshield-l/msp-exp430g2_rev1.5_front.jpg)
+![](/img/osh/ioshield-l/msp-exp430g2_rev1.5_front.jpg)
 
 ### Development Environment
 
@@ -41,7 +41,7 @@ will be released soon.
   - MCU : MSP430G25x3IN20 (PDIP20 package, 16kB Flash, 512B RAM) and
     later.
 
-![](/document_framework/img/osh/ioshield-l/msp-exp430g2.jpg)
+![](/img/osh/ioshield-l/msp-exp430g2.jpg)
 
 ### Available Resources
 
@@ -52,10 +52,6 @@ GitHub:
   - Project for Code Composer Studio 5.4.0 (CCSv5)
   - Project for Energia
   - Hardware Ver1.0 Design file
-    (![PDF](/document_framework/img/osh/ioshield-l/ioshield-l_v1_0_pl_140117.pdf) / ![Eagle
-    CAD](/document_framework/img/osh/ioshield-l/ioshield-l.zip)) and ![Part
-    List](/document_framework/img/osh/ioshield-l/ioshield-l_v1_0_pl_140117.pdf) of ioShield-L
+    ([PDF](/img/osh/ioshield-l/ioshield-l_v1_0_pl_140117.pdf) / [Eagle CAD](/img/osh/ioshield-l/ioshield-l.zip)) and [Part List](/img/osh/ioshield-l/ioshield-l_v1_0_pl_140117.pdf) of ioShield-L
   - Hardware Ver1.1 Design file
-    (![PDF](/document_framework/img/osh/ioshield-l/ioshield-l_v1.1_sch.pdf) / ![Eagle
-    CAD](/document_framework/img/osh/ioshield-l/ioshield-l_ver1_1.zip)) and ![Part
-    List](/document_framework/img/osh/ioshield-l/ioshield-l_v1_1_pl_140120.pdf) of ioShield-L
+    ([PDF](/img/osh/ioshield-l/ioshield-l_v1.1_sch.pdf) / [Eagle CAD](/img/osh/ioshield-l/ioshield-l_ver1_1.zip)) and [Part List](/img/osh/ioshield-l/ioshield-l_v1_1_pl_140120.pdf) of ioShield-L

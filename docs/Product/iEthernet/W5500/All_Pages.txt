@@ -62,19 +62,15 @@ LAN) and a Power Down Mode in order to reduce power consumption.
 
 ## External Transformer Type
 
-![W5500 Ref.Schematic - External
-Transformer](/document_framework/img/products/w5500/w5500_sch_v110_use_trans_.pdf)
-![W5500 Ref.Schematic (External
-Transformer)](/document_framework/img/products/w5500/w5500_sch_v110_use_trans_.png)
+[W5500 Ref.Schematic - External Transformer](/img/products/w5500/w5500_sch_v110_use_trans_.pdf)
+![W5500 Ref.Schematic (External Transformer)](/img/products/w5500/w5500_sch_v110_use_trans_.png)
 
 -----
 
 ## RJ45 with Transformer Type
 
-![W5500 Ref.Schematic - RJ45 with
-Transformer](/document_framework/img/products/w5500/w5500_sch_v110_use_trans_.pdf)
-![W5500 Reference Schematic (RJ45 with
-Transformer)](/document_framework/img/products/w5500/w5500_sch_v110_use_mag_.png)
+[W5500 Ref.Schematic - RJ45 with Transformer](/img/products/w5500/w5500_sch_v110_use_trans_.pdf)
+![W5500 Reference Schematic (RJ45 with Transformer)](/img/products/w5500/w5500_sch_v110_use_mag_.png)
 
 -----
 
@@ -92,7 +88,7 @@ Please refer to the following schematic:
     the case that you have to use one with connected center tap.*
 
 
-![w5500\_schematic-connected-cts\_003.jpg](/document_framework/img/products/w5500/w5500_schematic-connected-cts_003.jpg.jpg)  
+![w5500\_schematic-connected-cts\_003.jpg](/img/products/w5500/w5500_schematic-connected-cts_003.jpg.jpg)  
 The RJ45 from UDE (RB1-125BAG1A) is used in many of our **W5100** and
 **W7100A** related Modules.
 
@@ -103,22 +99,22 @@ The RJ45 from UDE (RB1-125BAG1A) is used in many of our **W5100** and
 #### External Transformer
 
 \- H1102NL from Pulse
-[datasheet](/document_framework/img/products/w5500/01.h1102nl_h325.pdf)  
+[datasheet](/img/products/w5500/01.h1102nl_h325.pdf)  
 \- LCZ3A1CB from CETUS
-[datasheet](/document_framework/img/products/w5500/02.lcz3a1cb.pdf)  
+[datasheet](/img/products/w5500/02.lcz3a1cb.pdf)  
 
 #### RJ45 with integrated Transformer
 
 \- J1B121ZCCD from CETUS
 [datasheet](/document_framework/blob/master/static/img/products/w5500/1.j1b121zccd-v0-101115.pdf)  
 \- J1B1211CCD from CETUS (used in \*1)
-[datasheet](/document_framework/img/products/w5500/2.j1b1211ccd.pdf)  
+[datasheet](/img/products/w5500/2.j1b1211ccd.pdf)  
 \- RB1-1D5B8K1A from UDE
-[datasheet](/document_framework/img/products/w5500/3.rb1-1d5b8k1a_287-00_.pdf)  
+[datasheet](/img/products/w5500/3.rb1-1d5b8k1a_287-00_.pdf)  
 \- RB1-125BAG1A from UDE (used in \*2)
-[datasheet](/document_framework/img/products/w5500/rb1-125bag1a_111-00_.pdf)  
+[datasheet](/img/products/w5500/rb1-125bag1a_111-00_.pdf)  
 \- J0011D21BNL from Pulse
-[datasheet](/document_framework/img/products/w5500/4.j0011d21bnl.pdf)  
+[datasheet](/img/products/w5500/4.j0011d21bnl.pdf)  
   
 \*1) we use the J1B1211CCD from CETUS in our
 **[W5500-EVB](/products/w5500/w5500_evb/start)**,
@@ -137,7 +133,7 @@ This page explains migration materials to W5200 users.
 ### Driver for W5200 Users
 
   - Download :
-    ![w5500\_cortexm3\_firmware\_for\_legacy.zip](/document_framework/img/products/w5500/w5500_cortexm3_firmware_for_legacy.zip)
+    ![w5500\_cortexm3\_firmware\_for\_legacy.zip](/img/products/w5500/w5500_cortexm3_firmware_for_legacy.zip)
 
 
 This driver is provided only for current W5200 users to help with a fast
@@ -245,8 +241,8 @@ please refer to the [W5500 Driver](/products/w5500/driver) page.
 </tbody>
 </table>
 # ESD Test Document
-![W5500 Confirmation of ESD Test document(PDF)](/document_framework/img/products/w5500/kect-1607-00353_1_w5500_48lqfp_0722.pdf)
-![W5500 Confirmation of ESD Test document](/document_framework/img/products/w5500/application/kect-1607-00353_1_w5500_48lqfp_0722.png)
+[W5500 Confirmation of ESD Test document(PDF)](/img/products/w5500/kect-1607-00353_1_w5500_48lqfp_0722.pdf)
+![W5500 Confirmation of ESD Test document](/img/products/w5500/application/kect-1607-00353_1_w5500_48lqfp_0722.png)
 # Driver
 
 The ioLibrary means **"Internet Offload Library"** for WIZnet chip. It
@@ -277,7 +273,7 @@ This driver provides the Berkeley Socket type APIs. The function names
 of this ioLibrary\_BSD are the same as the function names of the
 ioLibrary.
 
-  - Directory Structure ![](/document_framework/img/products/w5500/iolibrary_bsd.jpg)
+  - Directory Structure ![](/img/products/w5500/iolibrary_bsd.jpg)
       - Ethernet : SOCKET APIs like BSD & WIZCHIP(W5500,W5200 and etc)
         Driver
       - Internet : 
@@ -311,28 +307,28 @@ Repository**
 (Berkeley Socket type APIs)</td>
 <td>1.0.3</td>
 <td>-</td>
-<td><embed src="/document_framework/img/products/w5500/iolibrary_bsd_ethernet_v103.zip" /></td>
+<td><embed src="/img/products/w5500/iolibrary_bsd_ethernet_v103.zip" /></td>
 </tr>
 <tr class="odd">
 <td>:::</td>
 <td>:::</td>
 <td>1.0.2</td>
 <td>-</td>
-<td><embed src="/document_framework/img/products/w5500/iolibrary_bsd_ethernet_v102.zip" /></td>
+<td><embed src="/img/products/w5500/iolibrary_bsd_ethernet_v102.zip" /></td>
 </tr>
 <tr class="even">
 <td>:::</td>
 <td>:::</td>
 <td>1.0.1</td>
 <td>-</td>
-<td><embed src="/document_framework/img/products/w5500/iolibrary_bsd_ethernet_v101.zip" /></td>
+<td><embed src="/img/products/w5500/iolibrary_bsd_ethernet_v101.zip" /></td>
 </tr>
 <tr class="odd">
 <td>:::</td>
 <td>:::</td>
 <td>1.0.0</td>
 <td>-</td>
-<td><embed src="/document_framework/img/products/w5500/iolibrary_bsd_ethernet_v100.zip" /></td>
+<td><embed src="/img/products/w5500/iolibrary_bsd_ethernet_v100.zip" /></td>
 </tr>
 <tr class="even">
 <td>:::</td>
@@ -340,21 +336,21 @@ Repository**
 (Application protocols)</td>
 <td>1.1.1</td>
 <td>-</td>
-<td><embed src="/document_framework/img/products/w5500/iolibrary_bsd_internet_v111.zip" /></td>
+<td><embed src="/img/products/w5500/iolibrary_bsd_internet_v111.zip" /></td>
 </tr>
 <tr class="odd">
 <td>:::</td>
 <td>:::</td>
 <td>1.1.0</td>
 <td>-</td>
-<td><embed src="/document_framework/img/products/w5500/iolibrary_bsd_internet_v110.zip" /></td>
+<td><embed src="/img/products/w5500/iolibrary_bsd_internet_v110.zip" /></td>
 </tr>
 <tr class="even">
 <td>:::</td>
 <td>:::</td>
 <td>1.0.0</td>
 <td>-</td>
-<td><embed src="/document_framework/img/products/w5500/iolibrary_bsd_internet_v100.zip" /></td>
+<td><embed src="/img/products/w5500/iolibrary_bsd_internet_v100.zip" /></td>
 </tr>
 <tr class="odd">
 <td>Documents</td>
@@ -362,28 +358,28 @@ Repository**
 (chm, html)</td>
 <td>1.0.3</td>
 <td>-</td>
-<td><embed src="/document_framework/img/products/w5500/w5500_socket_apis_v103.zip" /></td>
+<td><embed src="/img/products/w5500/w5500_socket_apis_v103.zip" /></td>
 </tr>
 <tr class="even">
 <td>:::</td>
 <td>:::</td>
 <td>1.0.2</td>
 <td>-</td>
-<td><embed src="/document_framework/img/products/w5500/w5500_socket_apis_v102.zip" /></td>
+<td><embed src="/img/products/w5500/w5500_socket_apis_v102.zip" /></td>
 </tr>
 <tr class="odd">
 <td>:::</td>
 <td>:::</td>
 <td>1.0.1</td>
 <td>-</td>
-<td><embed src="/document_framework/img/products/w5500/w5500_socket_apis_v101.zip" /></td>
+<td><embed src="/img/products/w5500/w5500_socket_apis_v101.zip" /></td>
 </tr>
 <tr class="even">
 <td>:::</td>
 <td>:::</td>
 <td>1.0.0</td>
 <td>-</td>
-<td><embed src="/document_framework/img/products/w5500/w5500_socket_apis.zip" /></td>
+<td><embed src="/img/products/w5500/w5500_socket_apis.zip" /></td>
 </tr>
 </tbody>
 </table>
@@ -488,21 +484,21 @@ CooCox CoIDE Project</td>
 <td>Loopback Test</td>
 <td>2013-11-04</td>
 <td>-</td>
-<td><embed src="/document_framework/img/products/w5500/w5500_example_loopback_stm32f103x_coide_20131104.zip" /></td>
+<td><embed src="/img/products/w5500/w5500_example_loopback_stm32f103x_coide_20131104.zip" /></td>
 </tr>
 <tr class="odd">
 <td>:::</td>
 <td>DHCP Client</td>
 <td>2013-12-26</td>
 <td>-</td>
-<td><embed src="/document_framework/img/products/w5500/w5500_example_dhcp_stm32f103x_coide_20131226.zip" /></td>
+<td><embed src="/img/products/w5500/w5500_example_dhcp_stm32f103x_coide_20131226.zip" /></td>
 </tr>
 <tr class="even">
 <td>:::</td>
 <td>DNS Client</td>
 <td>2013-12-26</td>
 <td>-</td>
-<td><embed src="/Wiznet/document_framework/img/products/w5500/w5500_example_dns_stm32f103x_coide_20131226.zip" /></td>
+<td><embed src="/Wiznet/img/products/w5500/w5500_example_dns_stm32f103x_coide_20131226.zip" /></td>
 </tr>
 <tr class="odd">
 <td>EnergyMicro<br />
@@ -535,21 +531,21 @@ CooCox CoIDE Project</td>
 <td>Loopback Test</td>
 <td>2013-10-23</td>
 <td>-</td>
-<td><embed src="/document_framework/img/products/w5500/w5500_example_loopback_stm32f103x_coide.zip" /></td>
+<td><embed src="/img/products/w5500/w5500_example_loopback_stm32f103x_coide.zip" /></td>
 </tr>
 <tr class="odd">
 <td>:::</td>
 <td>DHCP Client</td>
 <td>2013-11-08</td>
 <td>-</td>
-<td><embed src="/document_framework/img/products/w5500/w5500_example_dhcp_stm32f103x_coide_20131108.zip" /></td>
+<td><embed src="/img/products/w5500/w5500_example_dhcp_stm32f103x_coide_20131108.zip" /></td>
 </tr>
 <tr class="even">
 <td>:::</td>
 <td>DNS Client</td>
 <td>2013-11-08</td>
 <td>-</td>
-<td><embed src="/document_framework/img/products/w5500/w5500_example_dns_stm32f103x_coide_20131108.zip" /></td>
+<td><embed src="/img/products/w5500/w5500_example_dns_stm32f103x_coide_20131108.zip" /></td>
 </tr>
 </tbody>
 </table>
@@ -765,7 +761,7 @@ connect</td>
 |              |               |         |      |                                                         |
 | ------------ | ------------- | ------- | ---- | ------------------------------------------------------- |
 |              | Application   | Version | Note | Download Link                                           |
-| Cookie board | Loopback test | 1.0.2   | \-   | ![Click](/document_framework/img/products/w5500/w5500_coocox_project_v102.zip) |
+| Cookie board | Loopback test | 1.0.2   | \-   | ![Click](/img/products/w5500/w5500_coocox_project_v102.zip) |
 
 \<Revision History>
 
@@ -852,10 +848,8 @@ date: 2020-04-03
 
 ## Datasheet
 
-  - ![W5500 Datasheet v1.0.9 -
-    English](/document_framework/img/products/w5500/w5500_ds_v109e.pdf)
-  - ![W5500 Datasheet v1.0.9 -
-    Korean](/document_framework/img/products/w5500/w5500_ds_v109k.pdf)
+  - [W5500 Datasheet v1.0.9 - English](/img/products/w5500/w5500_ds_v109e.pdf)
+  - [W5500 Datasheet v1.0.9 - Korean](/img/products/w5500/w5500_ds_v109k.pdf)
 
 
 #### Datasheet History
@@ -933,7 +927,7 @@ date: 2020-04-07
     based designs
   - **Arduino Pin-compatible** platform hardware. 
 
-![W5500 EVB Rev1.0](/document_framework/img/products/w5500/w5500_evb/w5500-evb_side.png)
+![W5500 EVB Rev1.0](/img/products/w5500/w5500_evb/w5500-evb_side.png)
 
 -----
 
@@ -960,7 +954,7 @@ network applications on small form-factor and non-OS based embedded
 devices using the W5500 chip.
 
 ![W5500 EVB
-Rev1.0](/document_framework/img/products/w5500/w5500_evb/w5500_evb_v1.0_composition.png)
+Rev1.0](/img/products/w5500/w5500_evb/w5500_evb_v1.0_composition.png)
 
 -----
 ## Features
@@ -1035,12 +1029,12 @@ Rev1.0](/document_framework/img/products/w5500/w5500_evb/w5500_evb_v1.0_composit
   - Arduino Compatible Header Pinout
 
 ![W5500 EVB Rev1.0 Arduino Compatible Header Pin
-Map](/document_framework/img/products/w5500/w5500_evb/w5500_evb_v1.0_arduino_pin_map.png)
+Map](/img/products/w5500/w5500_evb/w5500_evb_v1.0_arduino_pin_map.png)
 
   - External Pinout
 
 ![W5500 EVB Rev1.0 External Pin
-Map](/document_framework/img/products/w5500/w5500_evb/w5500_evb_v1.0_external_pin_map.png)
+Map](/img/products/w5500/w5500_evb/w5500_evb_v1.0_external_pin_map.png)
 
 -----
 
@@ -1076,36 +1070,25 @@ IDE](make_a_new_w5500_evb_project_with_lpcxpresso_ide.md)
 
 **Datasheet**
 
-  - 🌎[datasheet\#W5500
-    Datasheet]()
+  - 🌎[datasheet\#W5500 Datasheet]()
   - 🌎[NXP LPC11E3x Datasheet](http://www.nxp.com/documents/data_sheet/LPC11E3X.pdf)
-  - 🌎[Microchip
-    TC1027/TC1047A
-    Datasheet](http://ww1.microchip.com/downloads/en/DeviceDoc/21498D.pdf)
-    (Temperature Sensor)
-  - 🌎![ATMEL AT45DB041D
-    Datasheet](/document_framework/img/products/w5500/w5500_evb/at45db041d-su.pdf) (External
-    Dataflash Memory)
+  - 🌎[Microchip TC1027/TC1047A Datasheet](http://ww1.microchip.com/downloads/en/DeviceDoc/21498D.pdf) (Temperature Sensor)
+  - 🌎[ATMEL AT45DB041D Datasheet](/img/products/w5500/w5500_evb/at45db041d-su.pdf) (External Dataflash Memory)
 
 **Schematic**
 
-  - ![](/products/w5500/w5500_evb/icons/download.png) ![W5500 EVB Rev1.0
-    Schematic(Eagle
-    CAD)](/document_framework/img/products/w5500/w5500_evb/w5500_evb_v1.0_140527.zip) (Last
-    updated on 2014-05-27)
-  - ![](/products/w5500/w5500_evb/icons/download.png) ![W5500 EVB Rev1.0
-    Schematic(PDF)](/document_framework/img/products/w5500/w5500_evb/w5500_evb_v1.0_140527.pdf)
+  - ![](/products/w5500/w5500_evb/icons/download.png) [W5500 EVB Rev1.0 Schematic(Eagle CAD)](/img/products/w5500/w5500_evb/w5500_evb_v1.0_140527.zip) (Last updated on 2014-05-27)
+  - ![](/products/w5500/w5500_evb/icons/download.png) [W5500 EVB Rev1.0 Schematic(PDF)](/img/products/w5500/w5500_evb/w5500_evb_v1.0_140527.pdf)
     (Last updated on 2014-05-27)
 
 **Part list**
 
-  - ![](/products/w5500/w5500_evb/icons/download.png) ![W5500 EVB Rev1.0
-    Part List](/document_framework/img/products/w5500/w5500_evb/w5500_evb_pl_140527-1.pdf)
+  - [](/products/w5500/w5500_evb/icons/download.png) ![W5500 EVB Rev1.0 Part List](/img/products/w5500/w5500_evb/w5500_evb_pl_140527-1.pdf)
     (Last updated on 2014-05-27)
 
 **W5500-EVB DXF files**
 
-  - ![W5500-EVB DXF File](/document_framework/img/products/w5500/w5500_evb/w5500-evb-dxf.zip)
+  - ![W5500-EVB DXF File](/img/products/w5500/w5500_evb/w5500-evb-dxf.zip)
 
 **Dimension**
 
@@ -1118,8 +1101,7 @@ IDE](make_a_new_w5500_evb_project_with_lpcxpresso_ide.md)
 
 **Virtual COM Port Drivers**
 
-  - [FTDI Virtual COM Port
-    Drivers Page](http://www.ftdichip.com/Drivers/VCP.htm)
+  - [FTDI Virtual COM Port Drivers Page](http://www.ftdichip.com/Drivers/VCP.htm)
 
 -----
 

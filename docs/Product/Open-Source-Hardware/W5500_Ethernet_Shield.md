@@ -15,7 +15,7 @@ click the link for the further information about
 [W5500](). It supports both 3.3V & 5V. This
 Ethernet Shield is compatible with Arduino and ARM mbed Platform.
 
-![](/document_framework/img/osh/w5500_ethernet_shield/w5500_main_picture2.png)
+![](/img/osh/w5500_ethernet_shield/w5500_main_picture2.png)
 
 ### Available Board List
 
@@ -68,7 +68,7 @@ Ethernet Shield is compatible with Arduino and ARM mbed Platform.
   - Support SD-card slot for storage
   - Support I2C, UART interface
 
-![](/document_framework/img/osh/w5500_ethernet_shield/w5500_ethernet_pin2.png)
+![](/img/osh/w5500_ethernet_shield/w5500_ethernet_pin2.png)
 
 ### Hardware Configuration
 
@@ -82,7 +82,7 @@ Ethernet Shield is compatible with Arduino and ARM mbed Platform.
 
 ### Pins usage on Arduino & ARM mbed
 
-![](/document_framework/img/osh/w5500_ethernet_shield/gpio_select_intn.png)
+![](/img/osh/w5500_ethernet_shield/gpio_select_intn.png)
 
 W5500 Ethernet shield has several configurable GPIOs
 
@@ -106,10 +106,8 @@ Timing Diagram of Ethernet shield follows one of W5500. For more
 information about [W5500](Overview.md) chip please also refer
 to the chip's datasheet:
 
-  - ![W5500 Datasheet v1.0.6 -
-    English](/document_framework/img/osh/w5500_ethernet_shield/limitation_note_-_arp_problem_in_the_nlb_environment_-_korean_0312_.pdf)
-  - ![W5500 Datasheet v1.0.6 -
-    Korean](/document_framework/img/osh/w5500_ethernet_shield/w5500_ds_v106k_141230.pdf)
+  - [W5500 Datasheet v1.0.6 - English](/img/osh/w5500_ethernet_shield/limitation_note_-_arp_problem_in_the_nlb_environment_-_korean_0312_.pdf)
+  - [W5500 Datasheet v1.0.6 - Korean](/img/osh/w5500_ethernet_shield/w5500_ds_v106k_141230.pdf)
 
 -----
 
@@ -119,25 +117,21 @@ to the chip's datasheet:
 
   - Not buffer
 
-![](/document_framework/img/osh/w5500_ethernet_shield/w5500-ethernet-shield_blockdiagram.gif)
+![](/img/osh/w5500_ethernet_shield/w5500-ethernet-shield_blockdiagram.gif)
 
   - Using buffer
 
-![](/document_framework/img/osh/w5500_ethernet_shield/w5500-ethernet-shield_blockdiagram_buffer.jpg)
+![](/img/osh/w5500_ethernet_shield/w5500-ethernet-shield_blockdiagram_buffer.jpg)
 
 **Rev 1.0 Schematic**
 
-  - ![W5500 Ethernet shield Rev1.0 Schematic(Eagle CAD with PCB
-    file)](/document_framework/img/osh/w5500_ethernet_shield/w5500_ethernet_shield_v10_sch_zip.zip)
-  - ![W5500 Ethernet shield Rev1.0
-    Schematic(PDF)](/document_framework/img/osh/w5500_ethernet_shield/w5500_ethernet_shield_v10_sch.pdf)
+  - [W5500 Ethernet shield Rev1.0 Schematic(Eagle CAD with PCB file)](/img/osh/w5500_ethernet_shield/w5500_ethernet_shield_v10_sch_zip.zip)
+  - [W5500 Ethernet shield Rev1.0 Schematic(PDF)](/img/osh/w5500_ethernet_shield/w5500_ethernet_shield_v10_sch.pdf)
 
 **Rev 1.1 Schematic**
 
-  - ![W5500 Ethernet shield Rev1.1 Schematic(Eagle CAD with PCB
-    file](/document_framework/img/osh/w5500_ethernet_shield/w5500_ethernet_shield_v1.1.zip)
-  - ![W5500 Ethernet shield Rev1.1
-    Schematic(PDF)](/document_framework/img/osh/w5500_ethernet_shield/w5500_ethernet_shield_v10_sch.pdf)
+  - [W5500 Ethernet shield Rev1.1 Schematic(Eagle CAD with PCB file](/img/osh/w5500_ethernet_shield/w5500_ethernet_shield_v1.1.zip)
+  - [W5500 Ethernet shield Rev1.1 Schematic(PDF)](/img/osh/w5500_ethernet_shield/w5500_ethernet_shield_v10_sch.pdf)
 
 -----
 
@@ -151,15 +145,14 @@ to the chip's datasheet:
 
 <!-- end list -->
 
-  - ![W5500 Ethernet shield Rev1.01
-    Schematic](/document_framework/img/osh/w5500_ethernet_shield/w5500_ethernet_shield_v1.01.pdf)
+  - [W5500 Ethernet shield Rev1.01 Schematic](/img/osh/w5500_ethernet_shield/w5500_ethernet_shield_v1.01.pdf)
 
 -----
 
 **Part list**
 
   - ![W5500 Ethernet shield Rev1.0 Part
-    list](/document_framework/img/osh/w5500_ethernet_shield/w5500_ethernet_shield_v1.0_pl_150414.xlsx)
+    list](/img/osh/w5500_ethernet_shield/w5500_ethernet_shield_v1.0_pl_150414.xlsx)
 
 **Dimension**
 
@@ -167,7 +160,7 @@ to the chip's datasheet:
     Rev1.0.**
   - W5500 Ethernet shield Rev1.0/1.1 Dimension
 
-![](/document_framework/img/osh/w5500_ethernet_shield/w5500-ethernet-shield_dimension.png)
+![](/img/osh/w5500_ethernet_shield/w5500-ethernet-shield_dimension.png)
 
 -----
 ### Etc.

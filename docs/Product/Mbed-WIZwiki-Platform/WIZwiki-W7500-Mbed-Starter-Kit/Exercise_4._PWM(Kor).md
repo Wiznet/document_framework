@@ -27,11 +27,11 @@ PWM 모듈을 설정하면 다양한 파형을 만들 수 있다. PWM을 이용�
 
 전체 회로도는 아래와 같다.
 
-![](/document_framework/img/products/wizwiki_mbed_kit/kit_en/4_pwm_buzzer_schem.png)
+![](/img/products/wizwiki_mbed_kit/kit_en/4_pwm_buzzer_schem.png)
 
 ### 연결도
 
-![](/document_framework/img/products/wizwiki_mbed_kit/kit_en/4_board_all.jpg)
+![](/img/products/wizwiki_mbed_kit/kit_en/4_board_all.jpg)
 
 ## 소프트웨어
 

@@ -115,10 +115,10 @@ v1.3.3](https://github.com/Wiznet/WIZ750SR/releases/download/v1.3.3/WIZ750SR-1xx
 **Application Firmware Binary
 (ConfigTool)**  
 ![Application
-v2.1.0](/document_framework/img/products/wiz750sr/download/wiz752sr_app_v2.1.0.zip)
+v2.1.0](/img/products/wiz750sr/download/wiz752sr_app_v2.1.0.zip)
 
 **All(boot+app) Firmware Binary (WIZISP)**  
-![All v2.1.0](/document_framework/img/products/wiz750sr/download/wiz752sr_all_v2.1.0.zip)
+![All v2.1.0](/img/products/wiz750sr/download/wiz752sr_all_v2.1.0.zip)
 
 
 
@@ -150,7 +150,7 @@ Repository**
     (New)](/products/wiz750sr/guiconfigtoolmanual/start)**
 
 
-![](/document_framework/img/products/wiz750sr/download/wizconfig_main_v1.0.0.png) 
+![](/img/products/wiz750sr/download/wizconfig_main_v1.0.0.png) 
 **Download the latest version**
 <https://github.com/Wiznet/WIZnet-S2E-Tool-GUI/releases> 
 

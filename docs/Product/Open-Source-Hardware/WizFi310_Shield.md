@@ -6,7 +6,7 @@ date: 2020-04-03
 
 # WizFi310 Shield
 
-![WizFi310 Shield](/document_framework/img/osh/wizfi310_shield/wizfi310_shield_1.png)
+![WizFi310 Shield](/img/osh/wizfi310_shield/wizfi310_shield_1.png)
 
 ## Overview
 
@@ -73,7 +73,7 @@ in.
 ### WizFi310 Shield Callout & Pinmap
 
 ![WizFi310 Shield
-Pinmap](/document_framework/img/osh/wizfi310_shield/wizfi310_shield_pinmap.png)
+Pinmap](/img/osh/wizfi310_shield/wizfi310_shield_pinmap.png)
 
 -----
 ## H/W Configurations
@@ -146,14 +146,11 @@ Pinmap](/document_framework/img/osh/wizfi310_shield/wizfi310_shield_pinmap.png)
 
 #### Schematic
 
-  - ![WizFi310 Shield
-    Schematic(Altium)](/document_framework/img/osh/wizfi310_shield/wizfi310_shield_sch_v100.zip)
-  - ![WizFi310 Shield
-    Schematic(PDF)](/document_framework/img/osh/wizfi310_shield/wizfi310_shield_sch_v100.pdf)
+  - [WizFi310 Shield Schematic(Altium)](/img/osh/wizfi310_shield/wizfi310_shield_sch_v100.zip)
+  - [WizFi310 Shield Schematic(PDF)](/img/osh/wizfi310_shield/wizfi310_shield_sch_v100.pdf)
     #### Partlist
 
-  - ![WizFi310 Shield
-    Partlist](/document_framework/img/osh/wizfi310_shield/wizfi310_shield_pl_v100_170329.pdf)
+  - [WizFi310 Shield Partlist](/img/osh/wizfi310_shield/wizfi310_shield_pl_v100_170329.pdf)
 
 -----
 
@@ -161,15 +158,12 @@ Pinmap](/document_framework/img/osh/wizfi310_shield/wizfi310_shield_pinmap.png)
 
 #### Serial Port Driver
 
-  - 🌎[CP210x USB to UART Bridge VCP
-    Drivers](http://www.silabs.com/products/development-tools/software/usb-to-uart-bridge-vcp-drivers)
+  - 🌎[CP210x USB to UART Bridge VCP Drivers](http://www.silabs.com/products/development-tools/software/usb-to-uart-bridge-vcp-drivers)
 
 #### Sensor Datasheets
 
-  - 🌎[DHT11 Humidity & Temperature Sensor
-    Datasheet](http://www.micropik.com/PDF/dht11.pdf)
-  - 🌎[GL5537
-    Datasheet](https://www.kth.se/social/files/54ef17dbf27654753f437c56/GL5537.pdf)
+  - 🌎[DHT11 Humidity & Temperature Sensor Datasheet](http://www.micropik.com/PDF/dht11.pdf)
+  - 🌎[GL5537 Datasheet](https://www.kth.se/social/files/54ef17dbf27654753f437c56/GL5537.pdf)
 
 -----
 

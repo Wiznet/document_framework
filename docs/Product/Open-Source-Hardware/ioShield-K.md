@@ -17,15 +17,11 @@ to write sketches which connect to the internet using the shield. The
 ioShield-K connects to an GR-KURUMI board using long wire-wrap headers
 which extend through the shield.
 
-![](/document_framework/img/osh/ioshield-k/io_s_k.png)
+![](/img/osh/ioshield-k/io_s_k.png)
 
-  - Hardware Ver1.0 Design file(![PDF](/document_framework/img/osh/ioshield-k/ioshield-k.pdf) /
-    ![Eagle CAD](/document_framework/img/osh/ioshield-k/ioshield-k_eaglecad.zip)) and ![Part
-    List](/document_framework/img/osh/ioshield-k/ioshield-k_v1_0_pl_130904.pdf) of ioShield-K
-  - Hardware Ver1.1 Design
-    file(![PDF](/document_framework/img/osh/ioshield-k/ioshield-k_v1.1_sch.pdf) / ![Eagle
-    CAD](/document_framework/img/osh/ioshield-k/io_shield-k_ver1_1.zip)) and ![Part
-    List](/document_framework/img/osh/ioshield-k/ioshield-k_v1_1_pl_140120.pdf) of ioShield-K
+  - Hardware Ver1.0 Design file([PDF](/img/osh/ioshield-k/ioshield-k.pdf) /
+    [Eagle CAD](/img/osh/ioshield-k/ioshield-k_eaglecad.zip)) and [Part List](/img/osh/ioshield-k/ioshield-k_v1_0_pl_130904.pdf) of ioShield-K
+  - Hardware Ver1.1 Design file([PDF](/img/osh/ioshield-k/ioshield-k_v1.1_sch.pdf) / [Eagle CAD](/img/osh/ioshield-k/io_shield-k_ver1_1.zip)) and [Part List](/img/osh/ioshield-k/ioshield-k_v1_1_pl_140120.pdf) of ioShield-K
 
 ### GADGET RENESAS
 

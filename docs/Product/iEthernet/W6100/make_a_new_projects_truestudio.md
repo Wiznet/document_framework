@@ -20,21 +20,21 @@ You should import provided projects to your new project for easy to
 configure.
 
 Download the projects for W6100-EVB from
-![](/document_framework/img/link.png)[W6100\_EVB GitHub
+![](/img/link.png)[W6100\_EVB GitHub
 repository](https://github.com/Wiznet/W6100_EVB). After downloading,
 import the required project to your workspace.
 
 1\. mouse right click → click to Import  
-![](/document_framework/img/products/w5100s/w5100s_evb/true_tool_set1.png)
+![](/img/products/w5100s/w5100s_evb/true_tool_set1.png)
 
 2\. Select General → Existing Projects into Workspace  
-![](/document_framework/img/products/w5100s/w5100s_evb/true_tool_set2.png)
+![](/img/products/w5100s/w5100s_evb/true_tool_set2.png)
 
 3\. Select Folder from Github repository  
 ![](/document_framework//img/products/w5100s/w5100s_evb/true_tool_set3.png)
 
 4\. Click Finish  
-![](/document_framework/img/products/w5100s/w5100s_evb/true_tool_set4.png)
+![](/img/products/w5100s/w5100s_evb/true_tool_set4.png)
 
 -----
 
@@ -43,10 +43,10 @@ import the required project to your workspace.
 Before Complete, Users should check build project
 
 1\. Project mouse right click -\> Click clean project
-![](/document_framework/img/products/w5100s/w5100s_evb/true_tool_set5.png)
+![](/img/products/w5100s/w5100s_evb/true_tool_set5.png)
 
 2\. Project mouse right click -\> Click project build
-![](/document_framework/img/products/w5100s/w5100s_evb/true_tool_set6.png)
+![](/img/products/w5100s/w5100s_evb/true_tool_set6.png)
 
 From now on, you can make your own application project based on the
 newly created project for W6100-EVB\!  

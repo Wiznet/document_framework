@@ -37,7 +37,7 @@ Users can mask interrupts by writing 0 to the Interrupt Enable bit in the contro
 
 The below Figure shows Watchdog timer operation flow diagram
 
-![](/document_framework/img/products/w7500p/peripheral/watchdog_timer_operation_flow_diagram.jpg "Figure 1 Watchdog timer operation flow diagram")
+![](/img/products/w7500p/peripheral/watchdog_timer_operation_flow_diagram.jpg "Figure 1 Watchdog timer operation flow diagram")
 
 ------------------------------
 

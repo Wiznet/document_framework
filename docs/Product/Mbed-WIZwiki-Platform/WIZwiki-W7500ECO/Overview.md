@@ -6,7 +6,7 @@ date: 2020-04-07
 
 # WIZwiki-W7500ECO
 
-![WIZwiki-W7500ECO](/document_framework/img/products/wizwiki-w7500eco/wizwiki-w7500eco3dtop.png)
+![WIZwiki-W7500ECO](/img/products/wizwiki-w7500eco/wizwiki-w7500eco3dtop.png)
 
 -----
 
@@ -20,8 +20,8 @@ application platform especially internet of things. You can develop
 prototype product more quickly using WIZwiki-W7500ECO and it includes
 CMSIS-DAP for debuging and ethernet-phy.
 
-![WIZwiki-W7500ECO TOP Side](/document_framework/img/products/wizwiki-w7500eco/wizwiki-w7500eco3d0degtop.png)
-![WIZwiki-W7500ECO BOTTOM Side](/document_framework/img/products/wizwiki-w7500eco/wizwiki-w7500eco3d0degbottom.png)
+![WIZwiki-W7500ECO TOP Side](/img/products/wizwiki-w7500eco/wizwiki-w7500eco3d0degtop.png)
+![WIZwiki-W7500ECO BOTTOM Side](/img/products/wizwiki-w7500eco/wizwiki-w7500eco3d0degbottom.png)
 
 -----
 
@@ -78,17 +78,17 @@ CMSIS-DAP for debuging and ethernet-phy.
 
 
 **WIZwiki-W7500ECO Blockdiagram**  
-![WIZwiki-W7500ECO Blockdiagram](/document_framework/img/products/wizwiki-w7500eco/wizwiki-w7500eco_blockdiagram_v1.1.png)  
+![WIZwiki-W7500ECO Blockdiagram](/img/products/wizwiki-w7500eco/wizwiki-w7500eco_blockdiagram_v1.1.png)  
 **WIZwiki-W7500ECO Callout**  
-![WIZwiki-W7500ECO Callout](/document_framework/img/products/wizwiki-w7500eco/wizwiki-w7500eco_callout.png)
+![WIZwiki-W7500ECO Callout](/img/products/wizwiki-w7500eco/wizwiki-w7500eco_callout.png)
 
 
 **WIZwiki-W7500ECO Detail Pinout**  
-![WIZwiki-W7500ECO Detail Pinout](/document_framework/img/products/wizwiki-w7500eco/wizwiki-w7500eco_detailpinout.png)
+![WIZwiki-W7500ECO Detail Pinout](/img/products/wizwiki-w7500eco/wizwiki-w7500eco_detailpinout.png)
 
 
 **WIZwiki-W7500ECO Simple Pinout**  
-![WIZwiki-W7500ECO Simple Pinout](/document_framework/img/products/wizwiki-w7500eco/wizwiki-w7500eco_simplepinout.png)
+![WIZwiki-W7500ECO Simple Pinout](/img/products/wizwiki-w7500eco/wizwiki-w7500eco_simplepinout.png)
 
 -----
 
@@ -139,17 +139,17 @@ CMSIS-DAP for debuging and ethernet-phy.
 <!-- end list -->
 
    * [WIZwiki-W7500eco V1.1 Schematic (Altium Designer)]()
-   * [WIZwiki-W7500eco V1.1 Schematic (PDF)](/document_framework/img/products/wizwiki-w7500eco/wizwiki-w7500eco.pdf)
+   * [WIZwiki-W7500eco V1.1 Schematic (PDF)](/img/products/wizwiki-w7500eco/wizwiki-w7500eco.pdf)
 
 **Part list**
 
-   * [WIZwiki-W7500eco V1.1 BOM (PDF)](/document_framework/img/products/wizwiki-w7500eco/wizwiki_w7500eco_v1.1_partlist.pdf)
+   * [WIZwiki-W7500eco V1.1 BOM (PDF)](/img/products/wizwiki-w7500eco/wizwiki_w7500eco_v1.1_partlist.pdf)
 
 **Dimension**
 
    * WIZwiki-W7500ECO V1.1 Dimension
 
-![WIZwiki-W7500ECO Dimension](/document_framework/img/products/wizwiki-w7500eco/wizwiki_w7500_eco_v1.1_dim_01.png)
+![WIZwiki-W7500ECO Dimension](/img/products/wizwiki-w7500eco/wizwiki_w7500_eco_v1.1_dim_01.png)
 
 -----
 

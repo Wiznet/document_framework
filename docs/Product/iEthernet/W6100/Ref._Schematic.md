@@ -14,7 +14,7 @@ date: 2020-04-03
 [Go to
 github](https://github.com/Wiznet/Hardware-Files-of-WIZnet/tree/master/02_iEthernet/W6100/Reference%20Schematic)
 
-![](/document_framework/img/products/w6100/w6100_ref_schematic_v110_use_trans.jpg)
+![](/img/products/w6100/w6100_ref_schematic_v110_use_trans.jpg)
 
 -----
 
@@ -23,6 +23,6 @@ github](https://github.com/Wiznet/Hardware-Files-of-WIZnet/tree/master/02_iEther
 [Go to
 github](https://github.com/Wiznet/Hardware-Files-of-WIZnet/tree/master/02_iEthernet/W6100/Reference%20Schematic)
 
-![](/document_framework/img/products/w6100/w6100_ref_schematic_v110_use_mag.jpg)
+![](/img/products/w6100/w6100_ref_schematic_v110_use_mag.jpg)
 
 -----

@@ -14,7 +14,7 @@ to upload firmware using serial interface.
 WIZnet supports \<WizFi310\_Update\_Tool\> for uploading firmware. This
 tool used XMODEM protocol with WizFi310 and it can be downloaded at
 [WizFi310 Firmware(Using
-Serial)](/document_framework/img/products/wizfi310/wizfi310pg/upgrade_tool_1.png).
+Serial)](/img/products/wizfi310/wizfi310pg/upgrade_tool_1.png).
 
 ### Step 1
 
@@ -22,29 +22,29 @@ Execute "WizFi310\_Update\_Tool.exe" and select serial port and baud
 rate. For your information, WizFi310 is set to 115200 for default
 baudrate.
 
-![](/document_framework/img/products/wizfi310/wizfi310pg/upgrade_tool_1.png)
+![](/img/products/wizfi310/wizfi310pg/upgrade_tool_1.png)
 
 ### Step 2
 
 If you push \<browse\> button, you can select binary file.
 
-![](/document_framework/img/products/wizfi310/wizfi310pg/upgrade_tool_2.png)
+![](/img/products/wizfi310/wizfi310pg/upgrade_tool_2.png)
 
 ### Step 3
 
 If you select \<Upload\> button, This tool will try to upload firmware
 to WizFi310 as below.
 
-![](/document_framework/img/products/wizfi310/wizfi310pg/upgrade_tool_3.png)
+![](/img/products/wizfi310/wizfi310pg/upgrade_tool_3.png)
 
 If it is done successfully, you can see message as below.
 
-![](/document_framework/img/products/wizfi310/wizfi310pg/upgrade_tool_4.png)
+![](/img/products/wizfi310/wizfi310pg/upgrade_tool_4.png)
 
 If this tool is displayed error message as below, you have to check your
 binary whether it is right.
 
-![](/document_framework/img/products/wizfi310/wizfi310pg/upgrade_tool_5.png)
+![](/img/products/wizfi310/wizfi310pg/upgrade_tool_5.png)
 
 ## Using TeraTerm
 
@@ -64,18 +64,18 @@ After enter
 in TeraTerm after WizFi310 restart. It will display 'C' message as
 below.
 
-![](/document_framework/img/products/wizfi310/wizfi310pg/teraterm_1.png)
+![](/img/products/wizfi310/wizfi310pg/teraterm_1.png)
 
 #### Step 2
 
 Select \[File\]-\[Transfer\]-\[XMODEM\]-\[Send\]
-![](/document_framework/img/products/wizfi310/wizfi310pg/teraterm_2.png)
+![](/img/products/wizfi310/wizfi310pg/teraterm_2.png)
 
 #### Step 3
 
 Select binary file. ( In this case, you have to use CRC option. )
 
-![](/document_framework/img/products/wizfi310/wizfi310pg/teraterm_3.png)
+![](/img/products/wizfi310/wizfi310pg/teraterm_3.png)
 
 #### Step 4
 
@@ -83,6 +83,6 @@ After select binary, Teraterm will send binary via XMODEM and If it is
 done successfully, WizFi310 will restart and display firmware version as
 below.
 
-![](/document_framework/img/products/wizfi310/wizfi310pg/teraterm_4.png)
+![](/img/products/wizfi310/wizfi310pg/teraterm_4.png)
 
-![](/document_framework/img/products/wizfi310/wizfi310pg/teraterm_5.png)
+![](/img/products/wizfi310/wizfi310pg/teraterm_5.png)

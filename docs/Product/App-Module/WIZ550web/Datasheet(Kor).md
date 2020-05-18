@@ -32,7 +32,7 @@ date: 2020-04-13
 
 ### WIZ550web Pinout
 
-![WIZ550WEB\_Pinout](/document_framework/img/products/wiz550web/wiz550web_rev1.1_20160721.png)
+![WIZ550WEB\_Pinout](/img/products/wiz550web/wiz550web_rev1.1_20160721.png)
 
 ### Pin Description
 
@@ -93,19 +93,19 @@ date: 2020-04-13
 ### WIZ550web Baseboard Pinout
 
 ![WIZ550web Baseboard
-Pinout](/document_framework/img/products/wiz550web/wiz550web_base_pinout_20160720.png)
+Pinout](/img/products/wiz550web/wiz550web_base_pinout_20160720.png)
 
 ### WIZ550web Baseboard Callout
 
 ![WIZ550web Baseboard
-Callout](/document_framework/img/products/wiz550web/wiz550web_base_20160720.png)
+Callout](/img/products/wiz550web/wiz550web_base_20160720.png)
 
 ### Digital Output Port
 
 WIZ550web Baseboard에는 8개(D0\~D7)의 릴레이 출력단이 있다. 기본 적인 내부 회로는 아래 사진과 같고
 Jumper를 통해 릴레이의 NC(Normal close), NO(Normal Open)를 설정할수 있다. ![WIZ550WEB
 Digital Output
-Port](/document_framework/img/products/wiz550web/wiz550web_bb_output.png) 동작 상태는
+Port](/img/products/wiz550web/wiz550web_bb_output.png) 동작 상태는
 아래 표와 같다.
 
 | 입력 값 | 릴레이 상태  | NC 출력 값   | NO 출력 값   |
@@ -122,7 +122,7 @@ Port](/document_framework/img/products/wiz550web/wiz550web_bb_output.png) 동작
 
 WIZ550web Baseboard에는 8개(D8\~D15)의 포토커플러를 통한 디지털 입력단이 있다. 기본적인 내부 회로는 아래
 사진과 같다. 입력에는 극성이 없고 입력 두신호의 전위차로 ON/OFF를 구별한다. ![WIZ550WEB Digital Input
-Port](/document_framework/img/products/wiz550web/wiz550web_bb_input.png) 입력의 전기적
+Port](/img/products/wiz550web/wiz550web_bb_input.png) 입력의 전기적
 특성은 아래와 같다.
 
 | 1.4V 이하 | **Low**                        |
@@ -133,17 +133,17 @@ Port](/document_framework/img/products/wiz550web/wiz550web_bb_input.png) 입력�
 
 Digital Input 8개중에 4개(D8\~D11)는 Baseboard 내부의 택트 스위치와 같이 연결 되어 있고, 이 연결은
 J23\~J26 Jumper로 선택 할 수 있다. ![WIZ550WEB Digital Input
-Jumper](/document_framework/img/products/wiz550web/wiz550web_bb_input_jumper.png)
+Jumper](/img/products/wiz550web/wiz550web_bb_input_jumper.png)
 
 ### Analog Input Port
 
 WIZ550web Baseboard에는 4개(A0\~A3)의 아날로그 입력단이 있다. 기본적이 내부 회로도는 아래 사진과 같다.
 간단하게 0\~12V입력이 가능하고 내부 회로를 통과해 WIZ550WEB으로 입력 된다. ![WIZ550WEB Analog
-Input Port](/document_framework/img/products/wiz550web/wiz550web_bb_analog.png)
+Input Port](/img/products/wiz550web/wiz550web_bb_analog.png)
 
 Analog Input은 4개중에 2개(A0,A1)는 Baseboard 내부의 가변저항(10K)과 온도센서(TC1047AVNB)에
 같이 연결이 되어 있거, 이 연결은 J26, J28 Jumper로 선택 할 수 있다. ![WIZ550WEB Analog Input
-Jumper](/document_framework/img/products/wiz550web/wiz550web_bb_analog_jumper.png)
+Jumper](/img/products/wiz550web/wiz550web_bb_analog_jumper.png)
 
 -----
 
@@ -194,12 +194,12 @@ Jumper](/document_framework/img/products/wiz550web/wiz550web_bb_analog_jumper.pn
 <td>WIZ550web</td>
 <td><strong>1.1<br />
 / 1.2</strong></td>
-<td><embed src="/document_framework/img/products/wiz550web/wiz550webds_kr/wiz550web_v1.1_20151217.pdf" /></td>
+<td><embed src="/img/products/wiz550web/wiz550webds_kr/wiz550web_v1.1_20151217.pdf" /></td>
 </tr>
 <tr class="even">
 <td>WIZ550web Baseboard</td>
 <td><strong>1.0</strong></td>
-<td><embed src="/document_framework/img/products/wiz550web/wiz550webds_kr/wiz550web-bb_v100_140925.pdf" /></td>
+<td><embed src="/img/products/wiz550web/wiz550webds_kr/wiz550web-bb_v100_140925.pdf" /></td>
 </tr>
 </tbody>
 </table>
@@ -208,27 +208,27 @@ Jumper](/document_framework/img/products/wiz550web/wiz550web_bb_analog_jumper.pn
 
 | Parts         | Descripsion                                   | Datasheet                                                                    |
 | ------------- | --------------------------------------------- | ---------------------------------------------------------------------------- |
-| STM32F103RCT6 | **ARM 32-bit Cortex™-M3 CPU Core**            | ![STM32F103RCT6](/document_framework/img/products/wiz550web/wiz550webds_kr/stm32f103rct6_256kb.pdf) |
+| STM32F103RCT6 | **ARM 32-bit Cortex™-M3 CPU Core**            | [STM32F103RCT6](/img/products/wiz550web/wiz550webds_kr/stm32f103rct6_256kb.pdf) |
 | W5500         | **WIZnet TCP/IP Chip**                        | [W5500](/products/w5500/datasheet)                                           |
-| AT45DB081D-SU | **8-Megabit Serial Flash Memory**             | ![AT45DB081D-SU](/document_framework/img/products/wiz550web/wiz550webds_kr/at45db081d-su.pdf)       |
-| 24AA64T-I/OT  | **64K I2C™ Serial EEPROM**                    | ![24AA64T-I/OT](/document_framework/img/products/wiz550web/wiz550webds_kr/24aa64t-i_ot.pdf)         |
-| J1B1211CCD    | **Transformer + RJ45 + LED, Industrial**      | ![J1B1211CCD](/document_framework/img/products/wiz550web/wiz550webds_kr/j1b1211ccd.pdf)             |
-| HR91C-05      | **1 pole, 3-10A Relay, 1c(SPDT)**             | ![HR91C-05](/document_framework/img/products/wiz550web/wiz550webds_kr/hr91c-05.pdf)                 |
-| SP3485EN      | **Low Power Half-Duplex RS-485 Transceivers** | ![SP3485EN](/document_framework/img/products/wiz550web/wiz550webds_kr/sp3485en.pdf)                 |
-| SP3232EBEY    | **True +3.0V to +5.5V RS-232 Transceivers**   | ![SP3232EBEY](/document_framework/img/products/wiz550web/wiz550webds_kr/sp3232ebey.pdf)             |
-| TC1047AVNB    | **Temperature to Voltage Sensor**             | ![TC1047AVNB](/document_framework/img/products/wiz550web/wiz550webds_kr/tc1047avnb.pdf)             |
-| LM358APWR     | **Dual Operational Amplifiers**               | ![LM358APWR](/document_framework/img/products/wiz550web/wiz550webds_kr/lm358apwr.pdf)               |
-| TLP290-4      | **4-Channel Transistor-Output Photocouplers** | ![TLP290-4](/document_framework/img/products/wiz550web/wiz550webds_kr/tlp290-4.pdf)                 |
-| AOZ1210AI     | **EZBuck 2A Simple Buck Regulator**           | ![AOZ1210AI](/document_framework/img/products/wiz550web/wiz550webds_kr/aoz1210ai.pdf)               |
+| AT45DB081D-SU | **8-Megabit Serial Flash Memory**             | [AT45DB081D-SU](/img/products/wiz550web/wiz550webds_kr/at45db081d-su.pdf)       |
+| 24AA64T-I/OT  | **64K I2C™ Serial EEPROM**                    | [24AA64T-I/OT](/img/products/wiz550web/wiz550webds_kr/24aa64t-i_ot.pdf)         |
+| J1B1211CCD    | **Transformer + RJ45 + LED, Industrial**      | [J1B1211CCD](/img/products/wiz550web/wiz550webds_kr/j1b1211ccd.pdf)             |
+| HR91C-05      | **1 pole, 3-10A Relay, 1c(SPDT)**             | [HR91C-05](/img/products/wiz550web/wiz550webds_kr/hr91c-05.pdf)                 |
+| SP3485EN      | **Low Power Half-Duplex RS-485 Transceivers** | [SP3485EN](/img/products/wiz550web/wiz550webds_kr/sp3485en.pdf)                 |
+| SP3232EBEY    | **True +3.0V to +5.5V RS-232 Transceivers**   | [SP3232EBEY](/img/products/wiz550web/wiz550webds_kr/sp3232ebey.pdf)             |
+| TC1047AVNB    | **Temperature to Voltage Sensor**             | [TC1047AVNB](/img/products/wiz550web/wiz550webds_kr/tc1047avnb.pdf)             |
+| LM358APWR     | **Dual Operational Amplifiers**               | [LM358APWR](/img/products/wiz550web/wiz550webds_kr/lm358apwr.pdf)               |
+| TLP290-4      | **4-Channel Transistor-Output Photocouplers** | [TLP290-4](/img/products/wiz550web/wiz550webds_kr/tlp290-4.pdf)                 |
+| AOZ1210AI     | **EZBuck 2A Simple Buck Regulator**           | [AOZ1210AI](/img/products/wiz550web/wiz550webds_kr/aoz1210ai.pdf)               |
 
 -----
 
 ## WIZ550web V1.1/V1.2
 
 74.95mm(W) x 30mm(L) x 24mm(H) (±0.5)
-![](/document_framework/img/products/wiz550web/wiz550web_v1.2_dimension.png)
+![](/img/products/wiz550web/wiz550web_v1.2_dimension.png)
 
 ## WIZ550web Baseboard
 
 145mm(W) x 85mm(L) x 28mm(H) (±0.5) ![WIZ550WEB Baseboard
-Dimension](/document_framework/img/products/wiz550web/wiz550webds_kr/wiz550web-bb_v100_dimension.png)
+Dimension](/img/products/wiz550web/wiz550webds_kr/wiz550web-bb_v100_dimension.png)

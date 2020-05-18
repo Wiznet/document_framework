@@ -18,8 +18,8 @@ easily modifiable operating system for embedded devices.
 
 This document provides basic operating method for beginner.
 
-   * ![WizFi630S User Manual-Kr](/document_framework/img/products/wizfi630s/wizfi630s_ug/wizfi630s_user_manual_kr_v1_1_.pdf)
-   * ![WizFi630S User Manual-En](/document_framework/img/products/wizfi630s/wizfi630s_ug/wizfi630s_user_manual_en_v1_1_.pdf)
+   * [WizFi630S User Manual-Kr](/img/products/wizfi630s/wizfi630s_ug/wizfi630s_user_manual_kr_v1_1_.pdf)
+   * [WizFi630S User Manual-En](/img/products/wizfi630s/wizfi630s_ug/wizfi630s_user_manual_en_v1_1_.pdf)
 
 
 | Version | Date    | Description     |
@@ -33,31 +33,31 @@ This document provides basic operating method for beginner.
 
 This documents provide how to use the WizFi630S for Software developer.
 
-   * 1[WizFi630S Peripherals-Kr](/document_framework/img/products/wizfi630s/wizfi630s_ug/wizfi630s_guide_peripherals_kr_v1_2_.pdf)
-   * ![WizFi630S Peripherals-En](/document_framework/img/products/wizfi630s/wizfi630s_ug/wizfi630s_guide_peripherals_en_v1_2_.pdf)
+   * [WizFi630S Peripherals-Kr](/img/products/wizfi630s/wizfi630s_ug/wizfi630s_guide_peripherals_kr_v1_2_.pdf)
+   * [WizFi630S Peripherals-En](/img/products/wizfi630s/wizfi630s_ug/wizfi630s_guide_peripherals_en_v1_2_.pdf)
 
 | Version | Date    | Description |
 | ------- | ------- | ----------- |
 | V 1.2.0 | NOV2019 | Update      |
 
 
-   * ![How to do Cross Compile C lang-Kr](/document_framework/img/products/wizfi630s/wizfi630s_ug/wizfi630s_guide_c_cross_compile_kr_v1_0_.pdf)
-   * ![How to do Cross Compile C lang-En](/document_framework/img/products/wizfi630s/wizfi630s_ug/wizfi630s_guide_c_cross_compile_en_v1_0_.pdf)
+   * [How to do Cross Compile C lang-Kr](/img/products/wizfi630s/wizfi630s_ug/wizfi630s_guide_c_cross_compile_kr_v1_0_.pdf)
+   * [How to do Cross Compile C lang-En](/img/products/wizfi630s/wizfi630s_ug/wizfi630s_guide_c_cross_compile_en_v1_0_.pdf)
 
 
 | Version | Date    | Description     |
 | ------- | ------- | --------------- |
 | V 1.0.0 | SEP2019 | Initial Release |
 
-   *  ![How to use GPIO-Kr](/document_framework/img/products/wizfi630s/wizfi630s_ug/wizfi630s_guide_howto_gpio_kr_v1_0_.pdf)
-   *  ![How to use GPIO-En](/document_framework/img/products/wizfi630s/wizfi630s_ug/wizfi630s_guide_howto_gpio_en_v1_0_.pdf)
+   *  [How to use GPIO-Kr](/img/products/wizfi630s/wizfi630s_ug/wizfi630s_guide_howto_gpio_kr_v1_0_.pdf)
+   *  [How to use GPIO-En](/img/products/wizfi630s/wizfi630s_ug/wizfi630s_guide_howto_gpio_en_v1_0_.pdf)
 
 | Version | Date    | Description     |
 | ------- | ------- | --------------- |
 | V 1.0.0 | NOV2019 | Initial Release |
  
-   * ![How to use UART-Kr](/document_framework/img/products/wizfi630s/wizfi630s_ug/wizfi630s_guide_howto_uart_kr_v1_0_.pdf)
-   * [How to use UART-En](/document_framework/img/products/wizfi630s/wizfi630s_ug/wizfi630s_guide_howto_uart_en_v1_0_.pdf)
+   * [How to use UART-Kr](/img/products/wizfi630s/wizfi630s_ug/wizfi630s_guide_howto_uart_kr_v1_0_.pdf)
+   * [How to use UART-En](/img/products/wizfi630s/wizfi630s_ug/wizfi630s_guide_howto_uart_en_v1_0_.pdf)
 
 
 | Version | Date    | Description     |
@@ -71,7 +71,7 @@ This documents provide how to use the WizFi630S for Software developer.
 
 This document provide test result we tested.
 
-   * ![WizFi630S WiFi Throughput Test(iperf)-Kr](/document_framework/img/products/wizfi630s/wizfi630s_ug/wizfi630s_testreport_wifi_throughput_iperf_kr_v1_0_.pdf)
+   * [WizFi630S WiFi Throughput Test(iperf)-Kr](/img/products/wizfi630s/wizfi630s_ug/wizfi630s_testreport_wifi_throughput_iperf_kr_v1_0_.pdf)
 
 | Version | Date    | Description     |
 | ------- | ------- | --------------- |

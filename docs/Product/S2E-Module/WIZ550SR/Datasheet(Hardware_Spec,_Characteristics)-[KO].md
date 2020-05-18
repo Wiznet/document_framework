@@ -417,38 +417,30 @@ Source Current</td>
 
 ![WIZ550SR Ref Schematic](/products/wiz550sr/wiz550sr_ds/wiz550sr_v1.0_ref_sch.png%20)  
 
-  - WIZ550SR Ref Schematic :
-    ![Download](/products/wiz550sr/wiz550sr_ds/wiz550sr_v100_ref_sch_160526.pdf)  
+  - WIZ550SR Ref Schematic : [Download](/products/wiz550sr/wiz550sr_ds/wiz550sr_v100_ref_sch_160526.pdf)  
     
     ### WIZ550SR Schematic 
     
-  - WIZ550SR V1.0 Schematic :
-    ![Download(Altium)](/products/wiz550sr/wiz550sr_ds/wiz550sr_sch_v100.zip)  
+  - WIZ550SR V1.0 Schematic : [Download(Altium)](/products/wiz550sr/wiz550sr_ds/wiz550sr_sch_v100.zip)  
     
-    * WIZ550SR V1.0 Schematic :
-    ![Download(PDF)](/products/wiz550sr/wiz550sr_ds/wiz550sr_sch_v100.pdf)  
+    * WIZ550SR V1.0 Schematic : [Download(PDF)](/products/wiz550sr/wiz550sr_ds/wiz550sr_sch_v100.pdf)  
 
 ### WIZ550SR BOM
 
-  - WIZ550SR V1.0 BOM:
-    ![Download](/products/wiz550sr/wiz550sr_ds/wiz550sr_bom_v100_160511.pdf)  
+  - WIZ550SR V1.0 BOM: [Download](/products/wiz550sr/wiz550sr_ds/wiz550sr_bom_v100_160511.pdf)  
     \==== WIZ550SR EVB Schematic ====
-  - WIZ550SR EVB V1.0 Schematic :
-    ![Download(Altium)](/products/wiz550sr/wiz550sr_ds/wiz550sr_evb_sch_v100.zip)  
-    \* WIZ550SR EVB V1.0 Schematic :
-    ![Download(PDF)](/products/wiz550sr/wiz550sr_ds/wiz550sr_evb_sch_v100.pdf)  
+  - WIZ550SR EVB V1.0 Schematic : [Download(Altium)](/products/wiz550sr/wiz550sr_ds/wiz550sr_evb_sch_v100.zip)  
+    \* WIZ550SR EVB V1.0 Schematic : [Download(PDF)](/products/wiz550sr/wiz550sr_ds/wiz550sr_evb_sch_v100.pdf)  
 
 ### WIZ550SR EVB BOM
 
-  - WIZ550SR EVB V1.0 BOM :
-    ![Download](/products/wiz550sr/wiz550sr_ds/wiz550sr_evb_bom_v100_160512.pdf)  
+  - WIZ550SR EVB V1.0 BOM : [Download](/products/wiz550sr/wiz550sr_ds/wiz550sr_evb_bom_v100_160512.pdf)  
 
 -----
 
 ## Dimension
 
-  - WIZ550SR V1.0 3D PDF :
-    ![Download](/products/wiz550sr/wiz550sr_ds/wiz550sr_v1.0_3d.pdf)  
+  - WIZ550SR V1.0 3D PDF : [Download](/products/wiz550sr/wiz550sr_ds/wiz550sr_v1.0_3d.pdf)  
     * This PDF must be run using the 'Adobe Acrobat'.
 
 ![WIZ550SR Dimension](/products/wiz550sr/wiz550sr_ds/wiz550sr_dimension.jpg%20)

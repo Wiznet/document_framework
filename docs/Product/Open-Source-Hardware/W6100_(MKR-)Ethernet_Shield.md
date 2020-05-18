@@ -26,12 +26,12 @@ many years.
 
 |                                                                                  |
 | -------------------------------------------------------------------------------- |
-| ![W6100 Ethernet Shield](/document_framework/img/osh/w6100_ethernet_shield/w6100_ethernet_sheild.png) |
+| ![W6100 Ethernet Shield](/img/osh/w6100_ethernet_shield/w6100_ethernet_sheild.png) |
 | Figure: ***W6100 Ethernet Shield***                                              |
 
 |                                                                                          |
 | ---------------------------------------------------------------------------------------- |
-| ![W6100 MKR-Ethernet Shield](/document_framework/img/osh/w6100_ethernet_shield/w6100_mkr_ethernet_sheild_1.png) |
+| ![W6100 MKR-Ethernet Shield](/img/osh/w6100_ethernet_shield/w6100_mkr_ethernet_sheild_1.png) |
 | Figure: ***W6100 MKR-Ethernet Shield***                                                  |
 
 -----
@@ -39,14 +39,14 @@ many years.
 ### Getting Started
 
   - User Guide.
-      - ![Korean](/document_framework/img/osh/w6100_ethernet_shield/w6100_ethernet_shield_ug_v001k.pdf)
-      - ![English](/document_framework/img/osh/w6100_ethernet_shield/w6100_ethernet_shield_ug_v001e.pdf)
+      - [Korean](/img/osh/w6100_ethernet_shield/w6100_ethernet_shield_ug_v001k.pdf)
+      - [English](/img/osh/w6100_ethernet_shield/w6100_ethernet_shield_ug_v001e.pdf)
 
 -----
 
 ### Datasheet
 
-   - ![Download](/document_framework/img/osh/w6100_ethernet_shield/w6100_ethernet_shield_ds_v100e.pdf)
+   - [Download](/img/osh/w6100_ethernet_shield/w6100_ethernet_shield_ds_v100e.pdf)
 
 -----
 
@@ -76,13 +76,13 @@ support and Project shared
 
 
 
-![WIZnet Online Shop](/document_framework/img/osh/w5100s_ethernet_shield/start/buynow.png)  
+![WIZnet Online Shop](/img/osh/w5100s_ethernet_shield/start/buynow.png)  
 [![WIZnetUS Online Shop,
-USA](/document_framework/img/osh/w5100s_ethernet_shield/start/dollar.png)
+USA](/img/osh/w5100s_ethernet_shield/start/dollar.png)
 [![WIZnetEU Online Shop,
-Germany](/document_framework/img/osh/w5100s_ethernet_shield/start/european-euro.png)
+Germany](/img/osh/w5100s_ethernet_shield/start/european-euro.png)
 [![WIZnetKorea Online Shop,
-Korea](/document_framework/img/osh/w5100s_ethernet_shield/start/won.png)
+Korea](/img/osh/w5100s_ethernet_shield/start/won.png)
 
 
 

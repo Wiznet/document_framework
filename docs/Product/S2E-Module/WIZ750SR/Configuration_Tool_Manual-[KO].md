@@ -12,7 +12,7 @@ date: 2020-04-08
   * [English](Configuration_Tool_Manual-[EN].md)  
   * [Korean](Configuration_Tool_Manual-[KO].md) (current page)
 
-![](/document_framework/img/products/wiz750sr/docs_icon.png)
+![](/img/products/wiz750sr/docs_icon.png)
 
 -----
 
@@ -24,7 +24,7 @@ date: 2020-04-08
 
 |                                                                     |
 | ------------------------------------------------------------------- |
-| ![](/document_framework/img/products/wiz750sr/usermanual/configtool_overview.png)          |
+| ![](/img/products/wiz750sr/usermanual/configtool_overview.png)          |
 | Figure: **Configuration Tool for WIZ750SR & WIZ107/108SR Products** |
 
 -----
@@ -33,7 +33,7 @@ date: 2020-04-08
 
 |                                                          |
 | -------------------------------------------------------- |
-| ![](/document_framework/img/products/wiz750sr/usermanual/configtool_layout.png) |
+| ![](/img/products/wiz750sr/usermanual/configtool_layout.png) |
 | Figure: **Configuration Tool Layout**                    |
 
 설정 프로그램은 크게 네 부분으로 구성되어 있습니다. 각 부분 상세 설명은 제목 링크를 통해 확인 할 수 있습니다.
@@ -66,7 +66,7 @@ Configuration tool 상단에 위치하며, 제품의 검색 / 펌웨어 업로�
 
 |                                                             |
 | ----------------------------------------------------------- |
-| ![](/document_framework/img/products/wiz750sr/usermanual/configtool_icon_menu.png) |
+| ![](/img/products/wiz750sr/usermanual/configtool_icon_menu.png) |
 | Figure: **Menu Icons**                                      |
 
 1.  Windows용 프로그램을 제공합니다.
@@ -119,7 +119,7 @@ Configuration tool 상단에 위치하며, 제품의 검색 / 펌웨어 업로�
 
 |                                                                          |
 | ------------------------------------------------------------------------ |
-| ![](/document_framework/img/products/wiz750sr/usermanual/configtool_firmwareupload_success.png) |
+| ![](/img/products/wiz750sr/usermanual/configtool_firmwareupload_success.png) |
 | Figure: **Popup Message - Firmware Upload Successfully**                 |
 
   - **네트워크를 이용한 WIZ750SR 장치 펌웨어 업로드 기능은 TCP 포트 50002번을 이용**합니다. 만약 방화벽이나
@@ -160,7 +160,7 @@ Configuration tool 상단에 위치하며, 제품의 검색 / 펌웨어 업로�
 
 |                                                                |
 | -------------------------------------------------------------- |
-| ![](/document_framework/img/products/wiz750sr/usermanual/configtool_ping_success.png) |
+| ![](/img/products/wiz750sr/usermanual/configtool_ping_success.png) |
 | Figure: **Ping Request and Reply**                             |
 
 #### 7\) Firewall
@@ -179,7 +179,7 @@ Configuration tool 상단에 위치하며, 제품의 검색 / 펌웨어 업로�
 
 |                                                               |
 | ------------------------------------------------------------- |
-| ![](/document_framework/img/products/wiz750sr/usermanual/configtool_device_list.png) |
+| ![](/img/products/wiz750sr/usermanual/configtool_device_list.png) |
 | Figure: **Device List**                                       |
 
   - Search 기능을 통해 검색된 장치의 리스트가 표시됩니다.
@@ -244,7 +244,7 @@ WIZ750SR의 버전은 <strong>Major</strong> version number . <strong>Minor</str
 
 |                                                               |
 | ------------------------------------------------------------- |
-| ![](/document_framework/img/products/wiz750sr/usermanual/configtool_tab_network.png) |
+| ![](/img/products/wiz750sr/usermanual/configtool_tab_network.png) |
 | Figure: **Network Configuration Tab**                         |
 
 #### 1\) IP 주소 할당 방법
@@ -293,7 +293,7 @@ WIZ750SR의 버전은 <strong>Major</strong> version number . <strong>Minor</str
 
 |                                                              |
 | ------------------------------------------------------------ |
-| ![](/document_framework/img/products/wiz750sr/usermanual/configtool_tab_serial.png) |
+| ![](/img/products/wiz750sr/usermanual/configtool_tab_serial.png) |
 | Figure: **Serial Configuration Tab**                         |
 
 #### 1\) 디버그 메시지 허용 설정
@@ -412,7 +412,7 @@ WIZ750SR의 버전은 <strong>Major</strong> version number . <strong>Minor</str
 
 |                                                               |
 | ------------------------------------------------------------- |
-| ![](/document_framework/img/products/wiz750sr/usermanual/configtool_tab_options.png) |
+| ![](/img/products/wiz750sr/usermanual/configtool_tab_options.png) |
 | Figure: **Options Configuration Tab**                         |
 
 #### 1\) 비활성 타이머 설정
@@ -495,9 +495,9 @@ WIZ750SR의 버전은 <strong>Major</strong> version number . <strong>Minor</str
 
 ### 6\. Progress Bar
 
-| Device Search             | ![](/document_framework/img/products/wiz750sr/usermanual/configtool_operation_results.png) |
+| Device Search             | ![](/img/products/wiz750sr/usermanual/configtool_operation_results.png) |
 | ------------------------- | ------------------------------------------------------------------- |
-| Firmware Upload           | ![](/document_framework/img/products/wiz750sr/usermanual/configtool_progress_bar.png)      |
+| Firmware Upload           | ![](/img/products/wiz750sr/usermanual/configtool_progress_bar.png)      |
 | Figures: **Progress Bar** |                                                                     |
 
   - 검색 동작의 결과를 표시합니다.

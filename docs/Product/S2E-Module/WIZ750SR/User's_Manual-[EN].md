@@ -465,7 +465,7 @@ multi-selected but has priority as shown below.
     search\[2\].
   - If this option is selected, the assigned code must be entered when
     searching devices.
-![](/document_framework/img/products/wiz750sr/usermanual/configtool_udp_search.png)
+![](/img/products/wiz750sr/usermanual/configtool_udp_search.png)
 <table>
 <tbody>
 <tr class="odd">

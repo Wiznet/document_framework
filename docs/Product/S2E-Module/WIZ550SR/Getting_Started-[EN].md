@@ -15,7 +15,7 @@ date: 2020-04-16
 ## Unpacking the WIZ550SR EVB
 
 ![WIZ550SR-EVB
-Package](h/document_framework/img/products/wiz550sr/gettingstarted/wiz550sr_evb.jpg)  
+Package](h/img/products/wiz550sr/gettingstarted/wiz550sr_evb.jpg)  
 WIZ550SR-EVB package is made up of the following components.
 
   - WIZ550SR - 1EA
@@ -23,7 +23,7 @@ WIZ550SR-EVB package is made up of the following components.
   - Cat5, Ethernet Cable - 1EA
   - Micro USB B Type Cable - 1EA
 
-![WIZ550SR-EVB](/document_framework/img/products/wiz550sr/gettingstarted/wiz550sr_evb_1.png)  
+![WIZ550SR-EVB](/img/products/wiz550sr/gettingstarted/wiz550sr_evb_1.png)  
 Make sure that the WIZ550SR are assembled as shown above.
 
 -----
@@ -162,7 +162,7 @@ Your PC should be installed USB Driver for use to WIZ550SR-EVB.
     Port.
 
 ![Device
-Manager](/document_framework/img/products/wiz550sr/gettingstarted/device_manager2.png)
+Manager](/img/products/wiz550sr/gettingstarted/device_manager2.png)
 
   - Control Panel \> System \> Device Manager
   - During the two USB Serial Port, Lower number port is data UART,
@@ -194,13 +194,13 @@ top. If power is being input to the board and connected to the network
 is in operation,The MAC address and setting of WIZ550SR modules can be
 found in the Configuration tool.
 
-![Configuration tool](/document_framework/img/products/wiz550sr/gettingstarted/search.png)
+![Configuration tool](/img/products/wiz550sr/gettingstarted/search.png)
 
 Run a serial terminal program of the PC, connect to the serial port of
 WIZ550SR Debug UART. When power is input to the board, you can check the
 Debug Message, such as the photo below.
 
-![Debug Message](/document_framework/img/products/wiz550sr/gettingstarted/debug_message.png)
+![Debug Message](/img/products/wiz550sr/gettingstarted/debug_message.png)
 
 #### Step 4: Set up your WIZ550SR
 

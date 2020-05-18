@@ -25,7 +25,7 @@ W7500 has an integrated reset (POR) circuit which is always active and ensure pr
 
 - The POR monitors only the VDD supply voltage. During the startup phase VDD must arrive first and be greater than or equal to 0.6V
 
-![Figure 1 POR reset waveform](/document_framework/img/products/w7500/por_reset_waveform.jpg)
+![Figure 1 POR reset waveform](/img/products/w7500/por_reset_waveform.jpg)
 
 ## Low power modes
 W7500P is in RUN mode after a system or power reset. There are two low power modes to save power when the CPU does not need to be kept running. These modes are useful for instances like when the CPU is waiting for an external interrupt. Please note that there is no power-off mode for W7500P.

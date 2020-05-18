@@ -11,8 +11,8 @@ date: 2020-04-24
 -----
 
   
-![](/document_framework/img/products/wizfi250/wizfi250pg/appendix/uart_throughput_1.png)  
-![](/document_framework/img/products/wizfi250/wizfi250pg/appendix/uart_throughput_2.png)  
+![](/img/products/wizfi250/wizfi250pg/appendix/uart_throughput_1.png)  
+![](/img/products/wizfi250/wizfi250pg/appendix/uart_throughput_2.png)  
 
 ## Test Result
 

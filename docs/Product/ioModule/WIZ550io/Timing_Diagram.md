@@ -4,7 +4,7 @@ title: Timing Diagram
 date: 2020-04-15
 ---
 
-![](/document_framework/img/products/wiz550io/nreset_rdy_timing.jpg)
+![](/img/products/wiz550io/nreset_rdy_timing.jpg)
 
 | Symbol | Description                      | Min   | Max  |
 | ------ | -------------------------------- | ----- | ---- |
@@ -13,7 +13,7 @@ date: 2020-04-15
 
 ### SPI Timing
 
-![](/document_framework/img/products/wiz550io/spi_timing.jpg)
+![](/img/products/wiz550io/spi_timing.jpg)
 
 | Symbol | Description          | Min | Max | Units |
 | ------ | -------------------- | --- | --- | ----- |

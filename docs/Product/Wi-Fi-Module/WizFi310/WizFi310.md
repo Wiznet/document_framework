@@ -19,23 +19,23 @@ removes the burden on testing and certification. This allows customers
 to focus on their core application and product development .  
   
 WizFi310 is compliant with 802.11b/g/n.  
-\<slider :/document_framework/img/products/wizfi310/wizfi310_evb_1.png>
+\<slider :/img/products/wizfi310/wizfi310_evb_1.png>
 
   - **WizFi310-EVB Front**
 
-\<slider :/document_framework/img/products/wizfi310/wizfi310_evb_2.png>
+\<slider :/img/products/wizfi310/wizfi310_evb_2.png>
 
   - **WizFi310-EVB Side**
 
-\<slider :/document_framework/img/products/wizfi310/wizfi310-pa_1.png>
+\<slider :/img/products/wizfi310/wizfi310-pa_1.png>
 
   - **WizFi310-PA**
 
-\<slider :/document_framework/img/products/wizfi310/wizfi310-con_2.png>
+\<slider :/img/products/wizfi310/wizfi310-con_2.png>
 
   - **WizFi310-CON**
 
-\<slider :/document_framework/img/products/wizfi310/wizfi310-con_1.png>
+\<slider :/img/products/wizfi310/wizfi310-con_1.png>
 
   - **WizFi310-CON with U.FL Antenna**
 

@@ -4,7 +4,7 @@ title: WizArduino M0 ETH
 date: 2020-04-03
 ---
 
-![](/document_framework/img/osh/wizarduino_m0_eth/%EC%B8%A1%EB%A9%B41.png)
+![](/img/osh/wizarduino_m0_eth/%EC%B8%A1%EB%A9%B41.png)
 
 -----
 
@@ -29,9 +29,7 @@ Controller](http://wizwiki.net/wiki/doku.php?id=products:w5500:start) 가
 
 ### WizArduino Microcontroller
 
-  - Microcontroller :
-    ![ATSAMD21G18](/osh/wizarduino/atmel-42181-sam-d21_datasheet.pdf),
-    48pins LQFP
+  - Microcontroller : [ATSAMD21G18](/osh/wizarduino/atmel-42181-sam-d21_datasheet.pdf), 48pins LQFP
   - Architecture : ARM Cortex-M0+
   - Operation Voltage : 3.3V
   - Flash Memory : 256KB
@@ -42,8 +40,7 @@ Controller](http://wizwiki.net/wiki/doku.php?id=products:w5500:start) 가
 
 ### General features
 
-  - Ethernet : WIZnet ![W5500](/osh/wizarduino/w5500_kor.pdf)Ethernet
-    Controller
+  - Ethernet : WIZnet [W5500](/osh/wizarduino/w5500_kor.pdf) Ethernet Controller
   - Input Voltage : 7-15V
   - Input Voltage PoE : 36 – 57V
   - Digital I/O Pins : 20, with 12 PWM and UART
@@ -54,7 +51,7 @@ Controller](http://wizwiki.net/wiki/doku.php?id=products:w5500:start) 가
   - Weight : 28g
 ### PinOut
 
-![](/document_framework/img/osh/wizarduino_m0_eth/pin_out.png)
+![](/img/osh/wizarduino_m0_eth/pin_out.png)
 
 -----
 
@@ -107,7 +104,7 @@ WizArduino M0 ETH로 Programming을 하기에 앞서 몇 가지 확인 사항이
 
   - Getting Started에 언급 한 바와 같이 WizArduino M0 ETH는 Arduino.org 의 M0
     board와 100% 호환 됩니다. Select board 시 Arduino M0를 선택 하세요.
-    ![](/document_framework/img/osh/wizarduino_m0_eth/%EA%B7%B8%EB%A6%BC2.png) 
+    ![](/img/osh/wizarduino_m0_eth/%EA%B7%B8%EB%A6%BC2.png) 
 
 #### Serial message
 
@@ -208,8 +205,8 @@ M0](http://www.arduino.org/learning/getting-started/getting-started-with-arduino
 
 ### Schematic & Reference Design
 
-  - ![schematic.pdf](/osh/wizarduino/wizarduino_m0_eth_rb1-145bg72a.pdf)  
-  * ![reference design.zip](/osh/wizarduino/wizarduino.zip)
+  - [schematic.pdf](/osh/wizarduino/wizarduino_m0_eth_rb1-145bg72a.pdf)  
+  * [reference design.zip](/osh/wizarduino/wizarduino.zip)
 
 ### Dimension
 
@@ -217,8 +214,7 @@ M0](http://www.arduino.org/learning/getting-started/getting-started-with-arduino
 
 ### Part list
 
-  - ![Part
-    List](/osh/wizarduino/bom_wizarduino_m0_eth_rb1-145bg72a.pdf)  
+  - [Part List](/osh/wizarduino/bom_wizarduino_m0_eth_rb1-145bg72a.pdf)  
 
 -----
 
@@ -234,9 +230,9 @@ M0](http://www.arduino.org/learning/getting-started/getting-started-with-arduino
 
 
 
-![WIZnet Online Shop](/document_framework/img/osh/wizarduino_m0_eth/buynow.png)  
+![WIZnet Online Shop](/img/osh/wizarduino_m0_eth/buynow.png)  
 [![WIZnetKorea Online Shop,
-Korea](/document_framework/img/osh/wizarduino_m0_eth/won.png)](http://shop.wiznet.co.kr/front/contents/product/view.asp?cateid=90&pid=1271)
+Korea](/img/osh/wizarduino_m0_eth/won.png)](http://shop.wiznet.co.kr/front/contents/product/view.asp?cateid=90&pid=1271)
 
 
 

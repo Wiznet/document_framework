@@ -26,7 +26,7 @@ using WIZnet's chips.: easily, quickly, accurately
 
 ## Limitation Note
 
-  - 영문 - ![document_framework/img/design_guide/limitation_note_-_arp_problem_in_the_nlb_environment_-_english_0312_.pdf](document_framework/img/design_guide/limitation_note_-_arp_problem_in_the_nlb_environment_-_english_0312_.pdf)
-  - 한글 - ![document_framework/img/design_guide/limitation_note_-_arp_problem_in_the_nlb_environment_-_korean_0312_.pdf](/document_framework/img/design_guide/limitation_note_-_arp_problem_in_the_nlb_environment_-_korean_0312_.pdf)
+  - 영문 - [/img/design_guide/limitation_note_-_arp_problem_in_the_nlb_environment_-_english_0312_.pdf](/img/design_guide/limitation_note_-_arp_problem_in_the_nlb_environment_-_english_0312_.pdf)
+  - 한글 - [/img/design_guide/limitation_note_-_arp_problem_in_the_nlb_environment_-_korean_0312_.pdf](/img/design_guide/limitation_note_-_arp_problem_in_the_nlb_environment_-_korean_0312_.pdf)
 
 -----

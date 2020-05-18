@@ -553,7 +553,7 @@ These are stress ratings only and functional operation of the device at these co
 
 ### ADC Transform function description
 
-![Figure 1 ADC transform function](/document_framework/img/products/w7500/overview/adc_transform_function.jpg)
+![Figure 1 ADC transform function](/img/products/w7500/overview/adc_transform_function.jpg)
 
 ## I2C interface Characteristics
 
@@ -681,7 +681,7 @@ These are stress ratings only and functional operation of the device at these co
   </tr>
 </table>
 
-![Figure 2 I2C bus AC waveform](/document_framework/img/products/w7500/overview/i2c_bus_ac_waveform.jpg)
+![Figure 2 I2C bus AC waveform](/img/products/w7500/overview/i2c_bus_ac_waveform.jpg)
 
 ## SSP Interface Characteristics
 
@@ -791,7 +791,7 @@ These are stress ratings only and functional operation of the device at these co
 
 ## Package dimension information
 
-![Figure 3 Package Dimension Information](/document_framework/img/products/w7500p/overview/package_dimention_information.png)
+![Figure 3 Package Dimension Information](/img/products/w7500p/overview/package_dimention_information.png)
 
 <table class="tg">
   <tr>
@@ -983,4 +983,4 @@ These are stress ratings only and functional operation of the device at these co
 
 ## Package footprint information
 
-![Figure 4 Package Footprint Information](/document_framework/img/products/w7500p/overview/package_footprint_information.jpg)
+![Figure 4 Package Footprint Information](/img/products/w7500p/overview/package_footprint_information.jpg)

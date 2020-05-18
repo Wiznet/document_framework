@@ -44,7 +44,7 @@ Timer' for Timed Access Registers of Watchdog Timer.
 -----
 ## I/O Ports , P0, P1, P2, P3
 
-![io\_ports](/document_framework/img/products/w7100a/w7100a_port-pin_003.jpg)
+![io\_ports](/img/products/w7100a/w7100a_port-pin_003.jpg)
 The GPIO of the **W7100A** MCU has fife operating modes, 'active low',
 'high Z', 'Pull-up', 'Pull-down' and 'Keep' according to the SFR values.
 The output driver is a simple open drain stage and not a Push-Pull

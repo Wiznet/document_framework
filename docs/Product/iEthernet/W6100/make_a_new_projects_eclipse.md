@@ -56,12 +56,12 @@ CDT](http://www.eclipse.org/downloads/packages/eclipse-ide-cc-developers/neon3rc
 
   - Mouse right click in left side bar -\> New -\> select C Project
 
-![](/document_framework/img/products/w5100s/w5100s_evb/e_tools_set1.png)
+![](/img/products/w5100s/w5100s_evb/e_tools_set1.png)
 
 2\. Select Hello World ARM Cortex-M C/C+ Project
 
   - Write to the project name and click to 'next'  
-    ![](/document_framework/img/products/w5100s/w5100s_evb/e_tools_set2.png)
+    ![](/img/products/w5100s/w5100s_evb/e_tools_set2.png)
 
 3\. Select & Write as below picture  
 \* Select Cortex-M3
@@ -70,21 +70,21 @@ CDT](http://www.eclipse.org/downloads/packages/eclipse-ide-cc-developers/neon3rc
   - Flash: 256
   - RAM: 48
 
-![](/document_framework/img/products/w5100s/w5100s_evb/e_tools_set3.png)
+![](/img/products/w5100s/w5100s_evb/e_tools_set3.png)
 
 4\. Write as below picture  
 \* Vendor CMSIS name write whatever you want
-![](/document_framework/img/products/w5100s/w5100s_evb/e_tools_set4.png)
+![](/img/products/w5100s/w5100s_evb/e_tools_set4.png)
 
 5\. Click to 'next'  
-![](/document_framework/img/products/w5100s/w5100s_evb/e_tools_set5.png)
+![](/img/products/w5100s/w5100s_evb/e_tools_set5.png)
 6\. Check Toolchain path and Click to Finish  
 \* You must be set 5.4 2016q2\\bin locate
 
   - It set toolchain path
   - refer to below picture
 
-![](/document_framework/img/products/w5100s/w5100s_evb/e_tools_set6.png)
+![](/img/products/w5100s/w5100s_evb/e_tools_set6.png)
 
 -----
 
@@ -121,20 +121,20 @@ import the required project libraries to your workspace.
 
 1\. First, delete "\_write.c", "main.c", "timer.h", "System" these files
 & folder  
-![](/document_framework/img/products/w5100s/w5100s_evb/e_tools_set7-2.png)
+![](/img/products/w5100s/w5100s_evb/e_tools_set7-2.png)
 
 2\. **Src folder** mouse right click -\> click to Import  
-![](/document_framework/img/products/w5100s/w5100s_evb/e_tools_set8.png)
+![](/img/products/w5100s/w5100s_evb/e_tools_set8.png)
 
 3\. Select General -\> Archive File  
-![](/document_framework/img/products/w5100s/w5100s_evb/e_tools_set9.png)
+![](/img/products/w5100s/w5100s_evb/e_tools_set9.png)
 
 4\. Select All Library files from Github repository  
 \* Until now we loaded all files.
 
   - It is done to import files
 
-![](/document_framework/img/products/w5100s/w5100s_evb/e_tools_set10.png)
+![](/img/products/w5100s/w5100s_evb/e_tools_set10.png)
 
 -----
 
@@ -144,24 +144,24 @@ Next step we will do set to Build & General setting in properties. **It
 set must be necessary.**
 
 1\. Execute properties in the menu (Click project -\> properties)
-![](/document_framework/img/products/w5100s/w5100s_evb/e_tools_set11.png)
+![](/img/products/w5100s/w5100s_evb/e_tools_set11.png)
 
 2\. Click C/C+ Build tap -\> Settings -\> Tool Settings -\> Cross ARM
 GNU Assembler -\> Preprocessor and adds defined symbols list as below
 picture  
-![](/document_framework/img/products/w5100s/w5100s_evb/e_tools_set12.png)
+![](/img/products/w5100s/w5100s_evb/e_tools_set12.png)
 
 3\. As above action that adds defined symbols in C compiler Symbols as
 below picture  
-![](/document_framework/img/products/w5100s/w5100s_evb/e_tools_set13.png)
+![](/img/products/w5100s/w5100s_evb/e_tools_set13.png)
 
 4\. And Click Cross ARM GNU Create Flash image tap and set output format
 is Raw binary as below picture.  
-![](/document_framework/img/products/w5100s/w5100s_evb/e_tools_set14.png)
+![](/img/products/w5100s/w5100s_evb/e_tools_set14.png)
 
 5\. Next, Click C/C++ General tap -\> Paths and Symbols -\> includes -\>
 GNU C and adds include directories list as below picture  
-![](/document_framework/img/products/w5100s/w5100s_evb/e_tools_set16.png)
+![](/img/products/w5100s/w5100s_evb/e_tools_set16.png)
 
 -----
 
@@ -170,10 +170,10 @@ GNU C and adds include directories list as below picture
 Before Complete, Users should check build project
 
 1\. Project mouse right click -\> Click clean project
-![](/document_framework/img/products/w5100s/w5100s_evb/e_tools_set17.png)
+![](/img/products/w5100s/w5100s_evb/e_tools_set17.png)
 
 2\. Project mouse right click -\> Click project build
-![](/document_framework/img/products/w5100s/w5100s_evb/e_tools_set18.png)
+![](/img/products/w5100s/w5100s_evb/e_tools_set18.png)
 
 From now on, you can make your own application project based on the
 newly created project for W5100S-EVB\!  

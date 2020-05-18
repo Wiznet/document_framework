@@ -29,12 +29,12 @@ documents are available online.
 
 |                                                             |
 | ----------------------------------------------------------- |
-| ![WizFi630S](/document_framework/img/products/wizfi630s/500k_wizfi630s_top.png) |
+| ![WizFi630S](/img/products/wizfi630s/500k_wizfi630s_top.png) |
 | Figure: ***WizFi630S***                                     |
 
 |                                                                     |
 | ------------------------------------------------------------------- |
-| ![WizFi630S-EVB](/document_framework/img/products/wizfi630s/500k_wizfi630s_evb_top.png) |
+| ![WizFi630S-EVB](/img/products/wizfi630s/500k_wizfi630s_evb_top.png) |
 | Figure: ***WizFi630S-EVB***                                         |
 
 -----
@@ -80,7 +80,7 @@ documents are available online.
 
 ## Q & A
 
-![](/document_framework/img/link.png) [WizFi630S
+![](/img/link.png) [WizFi630S
 Forum](https://forum.wiznet.io/c/wifi-module) : WIZnet Forum for
 Technical support and Project shared
 

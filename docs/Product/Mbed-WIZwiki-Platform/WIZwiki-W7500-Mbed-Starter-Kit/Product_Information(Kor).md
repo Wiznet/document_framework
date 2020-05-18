@@ -17,7 +17,7 @@ date: 2020-04-08
   - 관련 자료들
 
 ![mbed Starter Kit all
-parts](/document_framework/img/products/wizwiki_mbed_kit/kit_kr/mbed_starter_kit_all.jpg)
+parts](/img/products/wizwiki_mbed_kit/kit_kr/mbed_starter_kit_all.jpg)
 
 WIZwiki-W7500 mbed 스타터킷은
 **[WIZwiki-W7500](/products/wizwiki_w7500/start)** 의 활용 방법을 학습할 수 있는

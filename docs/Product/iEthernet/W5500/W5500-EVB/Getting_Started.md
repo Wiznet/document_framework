@@ -39,7 +39,7 @@ Check the the virtual COM port number in your systems properties.
 Please connect with any terminal to that serial port with
 **115200.8.N.1**.
 
-![](/document_framework/img/products/w5500/w5500_evb/figures/downloading_serial_printout_on_terminal.jpg)
+![](/img/products/w5500/w5500_evb/figures/downloading_serial_printout_on_terminal.jpg)
 
 
 #### 4. Loopback test
@@ -125,7 +125,7 @@ after reset or power supply.
 
 Flash Magic is a program to perform in-system programming (ISP) of the
 LPC flash via its UART.  
-![](/document_framework/img/products/w5500/w5500_evb/icons/link.png)['Flash Magic' download
+![](/img/products/w5500/w5500_evb/icons/link.png)['Flash Magic' download
 page](http://www.flashmagictool.com/)
 
 
@@ -135,7 +135,7 @@ Set the settings on main window of Flash Magic program. It is easy to
 set along with each step.  
 The figure below shows the default configuration for W5500 EVB.
 
-![](/document_framework/img/products/w5500/w5500_evb/figures/downloading_nxp_flashmagic_3_tempsensor_box.jpg)
+![](/img/products/w5500/w5500_evb/figures/downloading_nxp_flashmagic_3_tempsensor_box.jpg)
 
 #### 4. Flash programming start
 
@@ -145,6 +145,6 @@ Press the 'Start' button on main window of Flash Magic program.
 
 After flash programming and board reset, The MCU is now running the
 program;  
-![](/document_framework/img/products/w5500/w5500_evb/figures/downloading_serial_printout_on_terminal_tempsensor.jpg)
+![](/img/products/w5500/w5500_evb/figures/downloading_serial_printout_on_terminal_tempsensor.jpg)
 
 -----

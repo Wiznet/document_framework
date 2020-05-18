@@ -9,7 +9,7 @@ date: 2020-04-08
 
 |                                                           |
 | --------------------------------------------------------- |
-| ![](/document_framework/img/products/wiz750sr/wiz750sr_rev1.0_main_1024x693.png) |
+| ![](/img/products/wiz750sr/wiz750sr_rev1.0_main_1024x693.png) |
 | Figure: ***WIZ750SR-TTL Rev. 1.0***                       |
 
 -----
@@ -119,7 +119,7 @@ date: 2020-04-08
 
 | **Module**                                                |
 | --------------------------------------------------------- |
-| ![](/document_framework/img/products/wiz750sr/wiz750sr_rev1.0_main_1024x693.png) |
+| ![](/img/products/wiz750sr/wiz750sr_rev1.0_main_1024x693.png) |
 
 **WIZ750SR-TTL**  
 **WIZ750SR-RS232**  
@@ -129,7 +129,7 @@ date: 2020-04-08
 
 | **Evaluation Board**                                  |
 | ----------------------------------------------------- |
-| ![](/document_framework/img/products/wiz750sr/wiz750sr-ttl-evb_1024x683.png) |
+| ![](/img/products/wiz750sr/wiz750sr-ttl-evb_1024x683.png) |
 
 **WIZ750SR-EVB**  
   * RS-232 / TTL Type  
@@ -138,7 +138,7 @@ date: 2020-04-08
 
 | **Chip**                                     |
 | -------------------------------------------- |
-| ![](/document_framework/img/products/wiz750sr/w7500p_pic_small.png) |
+| ![](/img/products/wiz750sr/w7500p_pic_small.png) |
 
 **W7500-S2E**  
 (Pre-programmed chip) 
@@ -151,7 +151,7 @@ date: 2020-04-08
 
 
 
-![WIZnet Online Shop](/document_framework/img/products/w5500/w5500_evb/icons/buy_now.jpg)  
+![WIZnet Online Shop](/img/products/w5500/w5500_evb/icons/buy_now.jpg)  
 [![WIZnetUS Online Shop,
 USA](/products/w5500/w5500_evb/icons/dollar.png)](http://www.shopwiznet.com/)
 [![WIZnetEU Online Shop,

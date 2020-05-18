@@ -78,12 +78,12 @@ connect-request first to “TCP SERVER” to make the connection
 (Active-open).
 
 ![TCP SERVER and TCP
-CLIENT](/document_framework/img/products/w7500p/serverclient.jpg)
+CLIENT](/img/products/w7500p/serverclient.jpg)
 
 ### TCP SERVER
 
 ![TCP SERVER Operation
-Flow](/document_framework/img/products/w7500p/server_flow.jpg)
+Flow](/img/products/w7500p/server_flow.jpg)
 
 ##### SOCKET Initialization
 
@@ -350,7 +350,7 @@ It is same as TCP server except ‘CONNECT’ state. User can refer to the
 above "TCP SERVER” section.
 
 ![TCP CLIENT Operation
-Flow](/document_framework/img/products/w7500p/client_flow.jpg)
+Flow](/img/products/w7500p/client_flow.jpg)
 
 ##### CONNECT
 

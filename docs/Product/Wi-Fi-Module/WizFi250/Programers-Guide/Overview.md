@@ -11,4 +11,4 @@ document, we describe what AT commands are used, how each command
 operates and how programmers have to handle those commands to get the
 expected response.  
   
-![](/document_framework/img/products/wizfi250/wizfi250pg/wizfi250_module.jpg)
+![](/img/products/wizfi250/wizfi250pg/wizfi250_module.jpg)

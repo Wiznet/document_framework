@@ -21,13 +21,13 @@ code is operating on the WIZwiki-W7500 board.
   - Test S/W : In order to check serial data, terminal program is
     required on the PC. Tera Term is used in this exercise.
 
-![](/document_framework/img/products/wizwiki_mbed_kit/kit_en/2_teraterm.png)
+![](/img/products/wizwiki_mbed_kit/kit_en/2_teraterm.png)
 
 ## Hardware
 
 Connect the PC with WIZwiki-W7500 using the USB cable.
 
-![](/document_framework/img/products/wizwiki_mbed_kit/kit_en/bd_usb_connected.jpg)
+![](/img/products/wizwiki_mbed_kit/kit_en/bd_usb_connected.jpg)
 
 ## Software
 
@@ -62,20 +62,20 @@ int main() {
 First, change the program name from ‘mbed-blinky’ to any name (ex:
 serial).
 
-![](/document_framework/img/products/wizwiki_mbed_kit/kit_en/2a.png)
+![](/img/products/wizwiki_mbed_kit/kit_en/2a.png)
 
-![](/document_framework/img/products/wizwiki_mbed_kit/kit_en/2b.png)
+![](/img/products/wizwiki_mbed_kit/kit_en/2b.png)
 
 Go to Program Workspace and select main.cpp and edit. Delete the default
 code and copy/paste the example codes and compile. Set the Tera Term as
-shown below. ![](/document_framework/img/products/wizwiki_mbed_kit/kit_en/2c.png)
+shown below. ![](/img/products/wizwiki_mbed_kit/kit_en/2c.png)
 
 If the user connects the WIZwiki board with the PC, the port will be
 added. Select COM11 (COM \# could vary depending on the user’s PC).
-![](/document_framework/img/products/wizwiki_mbed_kit/kit_en/2d.png)
+![](/img/products/wizwiki_mbed_kit/kit_en/2d.png)
 
 The program results are as below.
-![](/document_framework/img/products/wizwiki_mbed_kit/kit_en/2e.png)
+![](/img/products/wizwiki_mbed_kit/kit_en/2e.png)
 
 ## Another example
 

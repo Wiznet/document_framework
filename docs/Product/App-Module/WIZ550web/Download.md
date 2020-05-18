@@ -16,7 +16,7 @@ date: 2020-04-13
 (Direct download)**  
 **H/W Rev 1.1/1.2 & bin 2.0.0**  
 ![WIZ550web H/W Rev1.1/1.2 & F/W bin v2.0.0
-(zip)](/document_framework/img/products/wiz550web/wiz550web_firmware_bin_v2.0.0.zip) (Apr.
+(zip)](/img/products/wiz550web/wiz550web_firmware_bin_v2.0.0.zip) (Apr.
 2016) 
 ### Source code (with web pages)
 
@@ -37,7 +37,7 @@ Rev1.1/1.2 (Link)** 🌎https://github.com/Wiznet/WIZ550web
 (Direct download)**
 
 ![WIZnet Configuration tool v1.02
-(zip)](/document_framework/img/products/wiz550web/wiz550web_firmware_bin_v2.0.0.zip)
+(zip)](/img/products/wiz550web/wiz550web_firmware_bin_v2.0.0.zip)
 
 -----
 
@@ -47,7 +47,7 @@ Rev1.1/1.2 (Link)** 🌎https://github.com/Wiznet/WIZ550web
 EEPROM Memory ERASE CODE**
 
 ![WIZ550web H/W Rev1.1/1.2 EEPROM ERASE
-FILE(HEX)](/document_framework/img/products/wiz550web/wiz550web_eeprom_erase_hex_file.zip)
+FILE(HEX)](/img/products/wiz550web/wiz550web_eeprom_erase_hex_file.zip)
 
 
 -----
@@ -78,15 +78,15 @@ setting when you download a firmware into target.**
 
   - Check to below Picture
 
-![](/document_framework/img/products/wiz550web/wiz550web_des.png)
+![](/img/products/wiz550web/wiz550web_des.png)
 
   - Access Boot mode(ISP)
 
-![](/document_framework/img/products/wiz550web/wiz550web_ispmode.png)
+![](/img/products/wiz550web/wiz550web_ispmode.png)
 
   - Operation Normal mode
 
-![](/document_framework/img/products/wiz550web/wiz550web_normalmode.png) 
+![](/img/products/wiz550web/wiz550web_normalmode.png) 
 
 #### Flash Loader Demo Picture
 
@@ -94,22 +94,22 @@ setting when you download a firmware into target.**
   * Main page
 
 
-![](/document_framework/img/products/wiz550web/wiz550web_fw_main.png)
+![](/img/products/wiz550web/wiz550web_fw_main.png)
 
 
   * Boot Upload
 
 
-![](/document_framework/img/products/wiz550web/wiz550web_fw_boot.png)
+![](/img/products/wiz550web/wiz550web_fw_boot.png)
 
 
   * App Upload
 
 
-![](/document_framework/img/products/wiz550web/wiz550web_fw_app.png)
+![](/img/products/wiz550web/wiz550web_fw_app.png)
 
 
   * all(boot + app) Upload
 
 
-![](/document_framework/img/products/wiz550web/wiz550web_fw_all.png)
+![](/img/products/wiz550web/wiz550web_fw_all.png)

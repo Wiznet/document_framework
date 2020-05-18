@@ -16,7 +16,7 @@ The dual timer consists two programmable 32-bit or 16-bit Free-running counters(
   *	One of the following wrapping modes: Free-running and periodic mode.
   *	There is prescaler that can divide down the clock rate by 1, 16, or 256.
 
-![](/document_framework/img/products/w7500p/peripheral/dualtimer_block_diagram.jpg"Figure 1 DualTimer block diagram")
+![](/img/products/w7500p/peripheral/dualtimer_block_diagram.jpg"Figure 1 DualTimer block diagram")
 
 ## Functional description
 
@@ -81,7 +81,7 @@ Otherwise, after reaching a zero count, if the timer is operating in free-runnin
 
 ### How to set the dual timers
 
-![](/document_framework/img/products/w7500p/peripheral/dualtimer_flow_chart.jpg "Figure 2 The DualTimer setting flow")
+![](/img/products/w7500p/peripheral/dualtimer_flow_chart.jpg "Figure 2 The DualTimer setting flow")
 
 ------------------------------
 

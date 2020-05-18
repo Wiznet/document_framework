@@ -9,7 +9,7 @@ date: 2020-04-07
 
 🌎 https://www.mbed.com/en/partners/wiznet/
 
-![](/document_framework/img/products/w7500/arm_mbed_partner.png)
+![](/img/products/w7500/arm_mbed_partner.png)
 
 -----
 

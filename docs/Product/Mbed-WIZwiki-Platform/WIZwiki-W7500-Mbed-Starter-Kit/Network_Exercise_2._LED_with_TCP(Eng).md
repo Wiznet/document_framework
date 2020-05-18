@@ -33,7 +33,7 @@ Connect the PC and the router (with DHCP function) with LAN cable.
 Connect the router and the WIZwiki board with LAN cable. Connect the PC
 and the WIZwiki board with USB cable.
 
-![](/document_framework/img/products/wizwiki_mbed_kit/kit_en/tcp_loopback_system_config_en.png)
+![](/img/products/wizwiki_mbed_kit/kit_en/tcp_loopback_system_config_en.png)
 
 
 ## Software
@@ -67,36 +67,36 @@ Execute serial terminal in PC. First press the Reset button of WIZwiki
 board and check messages. User can see that Server IP Address (ex:
 192.168.0.8) is assigned by DHCP function.
 
-![](/document_framework/img/products/wizwiki_mbed_kit/kit_en/tcp_led_dhcp_1.jpg)
+![](/img/products/wizwiki_mbed_kit/kit_en/tcp_led_dhcp_1.jpg)
 
 Execute Hercules program in PC. Select TCP Client menu and configure the
 IP and Port. If user types the target Server IP Address (ex:
 192.168.0.8) and clicks the Ping button, this image will be shown.
-![](/document_framework/img/products/wizwiki_mbed_kit/kit_en/tcp_led_client_1.jpg)
+![](/img/products/wizwiki_mbed_kit/kit_en/tcp_led_client_1.jpg)
 
 The output message made by TCP server is shown in Terterm. User can know
 the Client (PC) is connected to Server (WIZwiki board). (ex: Connection
 from: 192.168.0.6)
 
-![](/document_framework/img/products/wizwiki_mbed_kit/kit_en/tcp_led_server_1.jpg)
+![](/img/products/wizwiki_mbed_kit/kit_en/tcp_led_server_1.jpg)
 
 Now let's control the LED on the WIZwiki board. When the TCP Client of
 the PC sends **"LED\_ON"** message to the WIZwiki board (TCP Server),
 then the LED turns on. Click the "Send" button on the red part in the
 figure below.
-![](/document_framework/img/products/wizwiki_mbed_kit/kit_en/tcp_led_on_client.jpg)
+![](/img/products/wizwiki_mbed_kit/kit_en/tcp_led_on_client.jpg)
 
 If the LED\_ON message is parsed (translated) at the TCP Server side,
 then LED turns on. Check the LED light on the blue circle turns on.
 
-![](/document_framework/img/products/wizwiki_mbed_kit/kit_en/tcp_led_on_off.png)
+![](/img/products/wizwiki_mbed_kit/kit_en/tcp_led_on_off.png)
 
 Besides the LED turn on, the other message is shown The TCP Client sends
 message to WIZwiki board (TCP Server), then WIZwiki board sends reversed
 message to TCP Client. Check the message returned back from Server on
 Teraterm in the figure below.
 
-![](/document_framework/img/products/wizwiki_mbed_kit/kit_en/tcp_led_on_server.jpg)
+![](/img/products/wizwiki_mbed_kit/kit_en/tcp_led_on_server.jpg)
 
 If **"Any messsage"**(ex: TEST) except the "LED\_ON" message to the
 WIZwiki board (TCP Server), then the LED turns off.
@@ -108,11 +108,11 @@ sends message to WIZwiki board (TCP Server), then WIZwiki board sends
 reversed message to TCP Client. Check the message returned back from
 Server on Teraterm in the figure below.
 
-![](/document_framework/img/products/wizwiki_mbed_kit/kit_en/tcp_led_off_server.jpg)
+![](/img/products/wizwiki_mbed_kit/kit_en/tcp_led_off_server.jpg)
 
 Check the LED light on the blue circle turns off.
 
-![](/document_framework/img/products/wizwiki_mbed_kit/kit_en/tcp_led_on_off.png)
+![](/img/products/wizwiki_mbed_kit/kit_en/tcp_led_on_off.png)
 
 
 ## Learning Resources

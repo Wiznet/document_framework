@@ -12,7 +12,7 @@ date: 2020-04-08
    * [English](Configuration_Tool_Manual-[EN].md) (current page)  
    * [Korean]()
 
-![](/document_framework/img/products/wiz750sr/datasheet/wiz750sr_pinout_exp_rev1.2.png)
+![](/img/products/wiz750sr/datasheet/wiz750sr_pinout_exp_rev1.2.png)
 
 -----
 
@@ -25,7 +25,7 @@ opened.
 
 |                                                                     |
 | ------------------------------------------------------------------- |
-| ![](/document_framework/img/products/wiz750sr/usermanual/configtool_overview.png)          |
+| ![](/img/products/wiz750sr/usermanual/configtool_overview.png)          |
 | Figure: **Configuration Tool for WIZ750SR & WIZ107/108SR Products** |
 
 -----
@@ -34,7 +34,7 @@ opened.
 
 |                                                          |
 | -------------------------------------------------------- |
-| ![](/document_framework/img/products/wiz750sr/usermanual/configtool_layout.png) |
+| ![](/img/products/wiz750sr/usermanual/configtool_layout.png) |
 | Figure: **Configuration Tool Layout**                    |
 
 The configuration tool is composed of four sections. Details of each
@@ -66,7 +66,7 @@ section are available below.
 
 |                                                             |
 | ----------------------------------------------------------- |
-| ![](/document_framework/img/products/wiz750sr/usermanual/configtool_icon_menu.png) |
+| ![](/img/products/wiz750sr/usermanual/configtool_icon_menu.png) |
 | Figure: **Menu Icons**                                      |
 
 1.  Program is operated in Windows only.
@@ -121,7 +121,7 @@ section are available below.
 
 |                                                                          |
 | ------------------------------------------------------------------------ |
-| ![](/document_framework/img/products/wiz750sr/usermanual/configtool_firmwareupload_success.png) |
+| ![](/img/products/wiz750sr/usermanual/configtool_firmwareupload_success.png) |
 | Figure: **Popup Message - Firmware Upload Successfully**                 |
 
   - Use **TCP/UDP port 50002 to upload firmware** on to WIZ750SR.
@@ -163,7 +163,7 @@ DURING FIRMWARE UPLOADING**
 
 |                                                                |
 | -------------------------------------------------------------- |
-| ![](/document_framework/img/products/wiz750sr/usermanual/configtool_ping_success.png) |
+| ![](/img/products/wiz750sr/usermanual/configtool_ping_success.png) |
 | Figure: **Ping Request and Reply**                             |
 
 #### 7\) Firewall
@@ -182,7 +182,7 @@ DURING FIRMWARE UPLOADING**
 
 |                                                               |
 | ------------------------------------------------------------- |
-| ![](/document_framework/img/products/wiz750sr/usermanual/configtool_device_list.png) |
+| ![](/img/products/wiz750sr/usermanual/configtool_device_list.png) |
 | Figure: **Device List**                                       |
 
   - List of devices searched will appears.
@@ -248,7 +248,7 @@ The serial debug message is printed via separate Debug UART and not Data UART, a
 
 |                                                               |
 | ------------------------------------------------------------- |
-| ![](/document_framework/img/products/wiz750sr/usermanual/configtool_tab_network.png) |
+| ![](/img/products/wiz750sr/usermanual/configtool_tab_network.png) |
 | Figure: **Network Configuration Tab**                         |
 
 #### 1\) IP Address Allocation
@@ -305,7 +305,7 @@ settings](/products/wiz750sr/usermanual/en#ip_address_settings).
 
 |                                                              |
 | ------------------------------------------------------------ |
-| ![](/document_framework/img/products/wiz750sr/usermanual/configtool_tab_serial.png) |
+| ![](/img/products/wiz750sr/usermanual/configtool_tab_serial.png) |
 | Figure: **Serial Configuration Tab**                         |
 
 #### 1\) Debug Message Enable
@@ -437,7 +437,7 @@ multi-selected but has priority as shown below.
 
 |                                                               |
 | ------------------------------------------------------------- |
-| ![](/document_framework/img/products/wiz750sr/usermanual/configtool_tab_options.png) |
+| ![](/img/products/wiz750sr/usermanual/configtool_tab_options.png) |
 | Figure: **Options Configuration Tab**                         |
 
 #### 1\) Inactivity Timer Settings
@@ -529,9 +529,9 @@ multi-selected but has priority as shown below.
 
 ### 6\. Progress Bar
 
-| Device Search             | ![](/document_framework/img/products/wiz750sr/usermanual/configtool_operation_results.png) |
+| Device Search             | ![](/img/products/wiz750sr/usermanual/configtool_operation_results.png) |
 | ------------------------- | ------------------------------------------------------------------- |
-| Firmware Upload           | ![](/document_framework/img/products/wiz750sr/usermanual/configtool_progress_bar.png)      |
+| Firmware Upload           | ![](/img/products/wiz750sr/usermanual/configtool_progress_bar.png)      |
 | Figures: **Progress Bar** |                                                                     |
 
   - Shows the result of search.

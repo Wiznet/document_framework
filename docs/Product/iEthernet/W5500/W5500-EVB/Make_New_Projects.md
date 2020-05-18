@@ -48,11 +48,11 @@ default) -> Select 'New project'
     'LPCOpen - C Project'
   - Target MCU selection -> Select 'LPC11E36/501'
 
-![](/document_framework/img/products/w5500/w5500_evb/figures/make_new_project_quickstart_box.jpg)
+![](/img/products/w5500/w5500_evb/figures/make_new_project_quickstart_box.jpg)
 
-![](/document_framework/img/products/w5500/w5500_evb/figures/make_new_project_newproject_box.jpg)
+![](/img/products/w5500/w5500_evb/figures/make_new_project_newproject_box.jpg)
 
-![](/document_framework/img/products/w5500/w5500_evb/figures/make_new_project_select_mcu_box.jpg)
+![](/img/products/w5500/w5500_evb/figures/make_new_project_select_mcu_box.jpg)
 
 -----
 
@@ -69,13 +69,13 @@ components for new projects as follows.
   - WIZnet ioLibrary - ioLibrary
 
 Download the libraries and projects for W5500 EVB from
-![](/document_framework/img/products/w5500/w5500_evb/icons/link.png)[WIZnet GitHub
+![](/img/products/w5500/w5500_evb/icons/link.png)[WIZnet GitHub
 repository](https://github.com/Wiznet/W5500_EVB). After downloading,
 import the required project libraries to your workspace.
 
-![](/document_framework/img/products/w5500/w5500_evb/figures/make_new_project_select_libs_box1.jpg)
+![](/img/products/w5500/w5500_evb/figures/make_new_project_select_libs_box1.jpg)
 
-![](/document_framework/img/products/w5500/w5500_evb/figures/make_new_project_import_lib_box.jpg)
+![](/img/products/w5500/w5500_evb/figures/make_new_project_import_lib_box.jpg)
 
 -----
 
@@ -88,11 +88,11 @@ and Board Library and add on your project.
   - LPCOpen Chip Library - lpc_chip_11exx
   - LPCOpen Board Library - wiznet_evb_w5500evb_board
 
-![](/document_framework/img/products/w5500/w5500_evb/figures/make_new_project_select_libs_box2.jpg)
+![](/img/products/w5500/w5500_evb/figures/make_new_project_select_libs_box2.jpg)
 
-![](/document_framework/img/products/w5500/w5500_evb/figures/make_new_project_lib_chip_box.jpg)
+![](/img/products/w5500/w5500_evb/figures/make_new_project_lib_chip_box.jpg)
 
-![](/document_framework/img/products/w5500/w5500_evb/figures/make_new_project_lib_board_box.jpg)
+![](/img/products/w5500/w5500_evb/figures/make_new_project_lib_board_box.jpg)
 
 -----
 
@@ -101,7 +101,7 @@ and Board Library and add on your project.
 
 Set the remaining options for your environment and press the finish
 button, the 'new project' is created.  
-![](/document_framework/img/products/w5500/w5500_evb/figures/make_new_project_project_explorer_box.jpg)
+![](/img/products/w5500/w5500_evb/figures/make_new_project_project_explorer_box.jpg)
 
 -----
 
@@ -113,9 +113,9 @@ simple mechanism for creating the links to a static library project from
 an application project. For more details, please refer to
 ![](/products/w5500/w5500_evb/icons/link.png) [NXP FAQ page for 'Linking to library projects'](http://www.lpcware.com/content/faq/lpcxpresso/creating-linking-library-projects)
 
-![](/document_framework/img/products/w5500/w5500_evb/figures/make_new_project_smart_update.jpg)
+![](/img/products/w5500/w5500_evb/figures/make_new_project_smart_update.jpg)
 
-![](/document_framework/img/products/w5500/w5500_evb/figures/make_new_project_smart_update_select_box.jpg)
+![](/img/products/w5500/w5500_evb/figures/make_new_project_smart_update_select_box.jpg)
 
 -----
 
@@ -124,10 +124,10 @@ an application project. For more details, please refer to
 
 If the 'printf()' / 'scanf()' functions to use a UART, user can
 retargeting to Redlib's printf() as follows. For more details, please
-refer to ![](/document_framework/img/products/w5500/w5500_evb/icons/link.png) [NXP FAQ page for
+refer to ![](/img/products/w5500/w5500_evb/icons/link.png) [NXP FAQ page for
 'Using printf()'](http://www.lpcware.com/content/faq/lpcxpresso/using-printf)
 
-![](/document_framework/img/products/w5500/w5500_evb/figures/make_new_project_set_the_library_type_box.jpg)
+![](/img/products/w5500/w5500_evb/figures/make_new_project_set_the_library_type_box.jpg)
 
 -----
 
@@ -145,9 +145,9 @@ arm-none-eabi-objcopy -O binary "${BuildArtifactFileName}" "${BuildArtifactFileB
 checksum -p ${TargetChip} -d "${BuildArtifactFileBaseName}.bin"
 ```
 
-![](/document_framework/img/products/w5500/w5500_evb/figures/make_new_project_properties.jpg)
+![](/img/products/w5500/w5500_evb/figures/make_new_project_properties.jpg)
 
-![](/document_framework/img/products/w5500/w5500_evb/figures/make_new_project_properties_post-build_command_box.jpg)
+![](/img/products/w5500/w5500_evb/figures/make_new_project_properties_post-build_command_box.jpg)
 
 -----
 
@@ -156,7 +156,7 @@ checksum -p ${TargetChip} -d "${BuildArtifactFileBaseName}.bin"
 
 From now on, you can make your own application project based on newly
 created project for W5500 EVB\!  
-Please refer to ![](/document_framework/img/products/w5500/w5500_evb/icons/download.png) [NXP
+Please refer to ![](/img/products/w5500/w5500_evb/icons/download.png) [NXP
 LPCXpresso Getting started user
 guide](http://www.nxp.com/documents/other/LPCXpresso_Getting_Started_User_Guide.pdf)
 for more details.

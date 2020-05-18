@@ -36,8 +36,8 @@ SOCKET, etc.) occurs, the **INTn** is asserted low
 <tr class="odd">
 <td>1.0.0</td>
 <td>2018-04-01</td>
-<td><embed src="/document_framework/img/products/w5100s/application/w5100s_an_interrupt_v110k.pdf" class="align-center" /><br />
-<embed src="/document_framework/img/products/w5100s/application/w5100s_an_interrupt_v100e.pdf" class="align-center" /></td>
+<td><embed src="/img/products/w5100s/application/w5100s_an_interrupt_v110k.pdf" class="align-center" /><br />
+<embed src="/img/products/w5100s/application/w5100s_an_interrupt_v100e.pdf" class="align-center" /></td>
 </tr>
 </tbody>
 </table>
@@ -50,7 +50,7 @@ SOCKET, etc.) occurs, the **INTn** is asserted low
 
 | Version | Date | Download                    | ETC             |
 | ------- | ---- | --------------------------- | --------------- |
-| 1.0.0   |      | ![](/document_framework/img/products/w5100s/application/w5100s_an_interrupt_v110k.pdf) ![](/document_framework/img/products/w5100s/application/w5100s_an_interrupt_v100e.pdf)| Initial Version |
+| 1.0.0   |      | [](/img/products/w5100s/application/w5100s_an_interrupt_v110k.pdf) ![](/img/products/w5100s/application/w5100s_an_interrupt_v100e.pdf)| Initial Version |
 
 For more information [W5100s](/products/w5100s/datasheet) chip please
 also refer to the chip's datasheet:

@@ -137,7 +137,7 @@ This field shows the current status of network connection.
 
 ## Network Configurations
 
-![](/document_framework/img/products/wiz550s2e/wiz550s2epg_kr/configtool/network_config.png)
+![](/img/products/wiz550s2e/wiz550s2epg_kr/configtool/network_config.png)
 ### IP
 
 This section is for setting WIZ550S2E mode's network information  
@@ -282,7 +282,7 @@ mode" having data from serial prior to TCP connection is established.
 
 ## Serial Configurations
 
-![](/document_framework/img/products/wiz550s2e/wiz550s2epg_kr/configtool/serial_config.png)
+![](/img/products/wiz550s2e/wiz550s2epg_kr/configtool/serial_config.png)
 
 ### USART
 
@@ -342,7 +342,7 @@ frame.
 
 ## Options Configurations
 
-![](/document_framework/img/products/wiz550s2e/wiz550s2epg_kr/configtool/option_config.png)
+![](/img/products/wiz550s2e/wiz550s2epg_kr/configtool/option_config.png)
 
 ### Module Name
 

@@ -260,7 +260,7 @@ Advanced. Click Advanced.. button.
 ## TCP Server Loopback
 
 -----
-### Download : [Project download](/document_framework/img/osh/cookie/w5500_cookie_v100.zip),[Hercules test program](http://www.hw-group.com/products/hercules/index_en.html)
+### Download : [Project download](/img/osh/cookie/w5500_cookie_v100.zip),[Hercules test program](http://www.hw-group.com/products/hercules/index_en.html)
 
  - Select TCP Client tab in Hercules and type Server IP address
 displaying in Tera Term at Module IP and port number box.

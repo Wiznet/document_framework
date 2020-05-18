@@ -6,7 +6,7 @@ date: 2020-05-13
 
 # WizFi360-EVB-Shield
 
-![WizFi360-EVB-Shield](/document_framework/img/products/wizfi360/wizfi360-evb.jpg)
+![WizFi360-EVB-Shield](/img/products/wizfi360/wizfi360-evb.jpg)
 
 ### Overview
 
@@ -105,16 +105,14 @@ which can meet the requirement of various applications.
 
 #### Sensor Datasheets
 
-  - 🌎[DHT11 Humidity & Temperature Sensor
-    Datasheet](http://www.micropik.com/PDF/dht11.pdf)
-  - 🌎[GL5537
-    Datasheet](https://www.kth.se/social/files/54ef17dbf27654753f437c56/GL5537.pdf)
+  - 🌎[DHT11 Humidity & Temperature Sensor Datasheet](http://www.micropik.com/PDF/dht11.pdf)
+  - 🌎[GL5537 Datasheet](https://www.kth.se/social/files/54ef17dbf27654753f437c56/GL5537.pdf)
 
 -----
 
 ## See Also
 
-![](/document_framework/img/link.png) 🌎[WizFi360
+![](/img/link.png) 🌎[WizFi360
 WIZnetForum](https://forum.wiznet.io/c/wifi-module/wizfi360) : WIZnet
 Forum for Technical support and Project shared
 

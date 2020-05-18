@@ -12,7 +12,7 @@ date: 2020-05-13
 | -------- | ---------- | --------------- |
 | V0.0.0   | 2016-06-15 | release version |
 
-![](/document_framework/img/products/wizfi310/wizfi310evbsch/wizfi310_evb_v0.pdf.pdf)
-![](/document_framework/img/products/wizfi310/wizfi310evbsch/wizfi310_evb_v0_01.png)
-![](/document_framework/img/products/wizfi310/wizfi310evbsch/wizfi310_evb_v0_02.png)
-![](/document_framework/img/products/wizfi310/wizfi310evbsch/wizfi310_evb_v0_03.png)
+![](/img/products/wizfi310/wizfi310evbsch/wizfi310_evb_v0.pdf.pdf)
+![](/img/products/wizfi310/wizfi310evbsch/wizfi310_evb_v0_01.png)
+![](/img/products/wizfi310/wizfi310evbsch/wizfi310_evb_v0_02.png)
+![](/img/products/wizfi310/wizfi310evbsch/wizfi310_evb_v0_03.png)

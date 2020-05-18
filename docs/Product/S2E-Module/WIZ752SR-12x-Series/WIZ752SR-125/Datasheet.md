@@ -556,10 +556,8 @@ Diagram](/products/s2e_module/wiz752sr-125/wiz752sr-125_blockdiagram.png)
 
 ### WIZ752SR-125
 
-  - ![](/products/w5500/w5500_evb/icons/download.png) ![WIZ752SR-125
-    Schematic(Altium)](https://github.com/Wiznet/Hardware-Files-of-WIZnet/raw/master/04_Serial_to_Ethernet_Module/WIZ752SR-125/WIZ752SR-125_V100/Schematic/WIZ7525SR-125_SCH_V100.zip)
-  - ![](/products/w5500/w5500_evb/icons/download.png) ![WIZ752SR-125
-    Schematic(PDF)](https://github.com/Wiznet/Hardware-Files-of-WIZnet/raw/master/04_Serial_to_Ethernet_Module/WIZ752SR-125/WIZ752SR-125_V100/Schematic/WIZ7525SR-125_SCH_V100.pdf)
+  - [](/products/w5500/w5500_evb/icons/download.png) ![WIZ752SR-125 Schematic(Altium)](https://github.com/Wiznet/Hardware-Files-of-WIZnet/raw/master/04_Serial_to_Ethernet_Module/WIZ752SR-125/WIZ752SR-125_V100/Schematic/WIZ7525SR-125_SCH_V100.zip)
+  - [](/products/w5500/w5500_evb/icons/download.png) ![WIZ752SR-125 Schematic(PDF)](https://github.com/Wiznet/Hardware-Files-of-WIZnet/raw/master/04_Serial_to_Ethernet_Module/WIZ752SR-125/WIZ752SR-125_V100/Schematic/WIZ7525SR-125_SCH_V100.pdf)
 
 -----
 
@@ -567,10 +565,8 @@ Diagram](/products/s2e_module/wiz752sr-125/wiz752sr-125_blockdiagram.png)
 
 ### WIZ752SR-125
 
-  - ![](/products/w5500/w5500_evb/icons/download.png) ![WIZ752SR-125
-    Partlist(Excel)](https://github.com/Wiznet/Hardware-Files-of-WIZnet/blob/master/04_Serial_to_Ethernet_Module/WIZ752SR-125/WIZ752SR-125_V100/Partlist/WIZ752SR-125_V100_BOM_180112.xls)
-  - ![](/products/w5500/w5500_evb/icons/download.png) ![WIZ752SR-125
-    Partlist(PDF)](https://github.com/Wiznet/Hardware-Files-of-WIZnet/raw/master/04_Serial_to_Ethernet_Module/WIZ752SR-125/WIZ752SR-125_V100/Partlist/WIZ752SR-125_V100_BOM_180112.pdf)
+  - [](/products/w5500/w5500_evb/icons/download.png) ![WIZ752SR-125 Partlist(Excel)](https://github.com/Wiznet/Hardware-Files-of-WIZnet/blob/master/04_Serial_to_Ethernet_Module/WIZ752SR-125/WIZ752SR-125_V100/Partlist/WIZ752SR-125_V100_BOM_180112.xls)
+  - [](/products/w5500/w5500_evb/icons/download.png) ![WIZ752SR-125 Partlist(PDF)](https://github.com/Wiznet/Hardware-Files-of-WIZnet/raw/master/04_Serial_to_Ethernet_Module/WIZ752SR-125/WIZ752SR-125_V100/Partlist/WIZ752SR-125_V100_BOM_180112.pdf)
 
 -----
 

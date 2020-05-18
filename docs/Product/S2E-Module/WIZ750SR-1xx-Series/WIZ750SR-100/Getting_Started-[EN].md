@@ -12,7 +12,7 @@ date: 2020-04-09
 * [English](Getting_Started-[EN].md) (current page)  
 * [Korean](Getting_Started-[KO].md)
 
-![](/document_framework/img/products/wiz750sr/docs_icon.png)
+![](/img/products/wiz750sr/docs_icon.png)
 
 -----
 
@@ -44,12 +44,12 @@ Contents](/products/wiz750sr-100/overview/en#product_contents) page.
 
 |                                                                            |
 | -------------------------------------------------------------------------- |
-| ![](/document_framework/img/products/wiz750sr-100/gettingstarted/wiz750sr_callout_rev1.1_top.png) |
+| ![](/img/products/wiz750sr-100/gettingstarted/wiz750sr_callout_rev1.1_top.png) |
 | Figure: ***WIZ750SR-100 Revision 1.1 Top***                                |
 
 |                                                                               |
 | ----------------------------------------------------------------------------- |
-| ![](/document_framework/img/products/wiz750sr-100/gettingstarted/wiz750sr_callout_rev1.1_bottom.png) |
+| ![](/img/products/wiz750sr-100/gettingstarted/wiz750sr_callout_rev1.1_bottom.png) |
 | Figure: ***WIZ750SR-100 Revision 1.1 Bottom***                                |
 
 ### Parts

@@ -10,11 +10,10 @@ The reflow profile
 
 ## Reflow Profile
 
-![ir_reflow](/document_framework/img/design_guide/reflow_profile/ir_reflow_profile.png)
+![ir_reflow](/img/design_guide/reflow_profile/ir_reflow_profile.png)
 
 -----
 
 ## Document
 
-* ![IR Reflow Profile -
-English](/document_framework/img/design_guide/reflow_profile/ir_reflow_profile.pdf)
+* [IR Reflow Profile -English](/img/design_guide/reflow_profile/ir_reflow_profile.pdf)

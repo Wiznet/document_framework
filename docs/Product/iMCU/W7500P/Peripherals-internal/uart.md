@@ -35,11 +35,11 @@ The frame are comprised of:
 
 The below figure shows UART0,1 Block diagram
 
-![](/document_framework/img/products/w7500p/peripheral/uart_block_diagram.jpg "Figure 1 UART block diagram")
+![](/img/products/w7500p/peripheral/uart_block_diagram.jpg "Figure 1 UART block diagram")
 
 The below Figure shows the UART character frame
 
-![](/document_framework/img/products/w7500p/peripheral/uart_character_frame.jpg "Figure 2 UART character frame")
+![](/img/products/w7500p/peripheral/uart_character_frame.jpg "Figure 2 UART character frame")
 
 ### Baud rate calculation
 
@@ -50,11 +50,11 @@ This is used by the baud rate generator to determine the bit period.
 
 The below Figure shows UART divider flow chart
 
-![](/document_framework/img/products/w7500p/peripheral/uart_divider_flow_chart.jpg "Figure 3 UART divider flow chart")
+![](/img/products/w7500p/peripheral/uart_divider_flow_chart.jpg "Figure 3 UART divider flow chart")
 
 The below Figure shows how to set the UART Initial value.
 
-![](/document_framework/img/products/w7500p/peripheral/uart_init_flow_chart.jpg "Figure 4 UART Initial setting flow chart")
+![](/img/products/w7500p/peripheral/uart_init_flow_chart.jpg "Figure 4 UART Initial setting flow chart")
 
 ### Data transmission
 
@@ -67,13 +67,13 @@ Received data is stored in the 32-byte FIFOs. When a start bit has been received
 
 The below figure shows Transmit and Receive data flow chart.
 
-![](/document_framework/img/products/w7500p/peripheral/uart_txrxdata_flow_chart.jpg "Figure 5 Transmit and Receive data flow chart")
+![](/img/products/w7500p/peripheral/uart_txrxdata_flow_chart.jpg "Figure 5 Transmit and Receive data flow chart")
 
 ### Hardware flow control
 
 The below Figure shows Hardware flow control description.
 
-![](/document_framework/img/products/w7500p/peripheral/uart_hw_flow_chart.jpg "Figure 6 Hardware flow control description")
+![](/img/products/w7500p/peripheral/uart_hw_flow_chart.jpg "Figure 6 Hardware flow control description")
 
 The RTS flow control is enabled by setting the RTSen of UARTxCR. If RTS is enabled, the data flow is controlled as follows.
 When the receiver FIFO level reaches the programmed trigger level, nUARTRTS(pin) is asserted(to a low value). nUARTRTS is reasserted(to a low level) once the receiver FIFO has reached the previous trigger level. The reasserted of nUARTRTS signals to the sending UART to continue transmitting data.
@@ -82,11 +82,11 @@ The CTS flow control is enabled, the transmitter can only transmit data when nUA
 
 The below Figure shows CTS Functinoal Timing.
 
-![](/document_framework/img/products/w7500p/peripheral/uart_cts_timing.jpg "Figure 7 CTS Functional Timing")
+![](/img/products/w7500p/peripheral/uart_cts_timing.jpg "Figure 7 CTS Functional Timing")
 
 The below Figure shows how software should use the RTS/CTR.
 
-![](/document_framework/img/products/w7500p/peripheral/uart_set_flow_chart.jpg "Figure 8 Algorithm for setting CTS/RTS flowchart")
+![](/img/products/w7500p/peripheral/uart_set_flow_chart.jpg "Figure 8 Algorithm for setting CTS/RTS flowchart")
 
 ------------------------------
 

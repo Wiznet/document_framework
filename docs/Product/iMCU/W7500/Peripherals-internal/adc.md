@@ -29,7 +29,7 @@ ADC of various channels can be performed in single mode. The result of the ADC i
 
 ## Functional description
 
-![](/document_framework/img/products/w7500p/peripheral/adc_block_diagram.jpg "Figure 1 ADC block diagram")
+![](/img/products/w7500p/peripheral/adc_block_diagram.jpg "Figure 1 ADC block diagram")
 
 
 ###Operation ADC with non interrupt
@@ -45,14 +45,14 @@ To initialize the ADC, clear the PWD bit first.
 6. Finally, ADC operation is finished by setting the PWD bit.  
 
 
-![](/document_framework/img/products/w7500p/peripheral/adc_flow_chart.jpg "Figure 2 ADC flow chart")
+![](/img/products/w7500p/peripheral/adc_flow_chart.jpg "Figure 2 ADC flow chart")
 
 ###Operation ADC with interrupt
 The below Figure shows the flowchart of ADC operation with interrupt. 
 Operation is almost the same as the non-interrupt mode except checking INT register to know when enabling interrupt mask bit and conversion is completed. 
 
 
-![](/document_framework/img/products/w7500p/peripheral/adc_flow_chart2.jpg"Figure 3 ADC flow chart2")
+![](/img/products/w7500p/peripheral/adc_flow_chart2.jpg"Figure 3 ADC flow chart2")
 
 ------------------------------
 

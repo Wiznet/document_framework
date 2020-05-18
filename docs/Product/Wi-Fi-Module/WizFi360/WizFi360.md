@@ -17,20 +17,20 @@ be up to 2Mbps, which can meet the requirement of various applications.
 
 |                                                                   |
 | ----------------------------------------------------------------- |
-| ![WizFi360-PA(PCB Antena)](/document_framework/img/products/wizfi360/wizfi360-pa.png) |
+| ![WizFi360-PA(PCB Antena)](/img/products/wizfi360/wizfi360-pa.png) |
 | Figure: ***WizFi360-PA(PCB Antena)***                             |
 
 
 |                                                                                |
 | ------------------------------------------------------------------------------ |
-| ![WizFi360-CON(U.fl Connector Antena)](/document_framework/img/products/wizfi360/wizfi360-con.png) |
+| ![WizFi360-CON(U.fl Connector Antena)](/img/products/wizfi360/wizfi360-con.png) |
 | Figure: ***WizFi360-CON(U.fl Connector Antena)***                              |
 
 
 
 |                                                         |
 | ------------------------------------------------------- |
-| ![WizFi360-EVB](/document_framework/img/products/wizfi360/wizfi360-evb.jpg) |
+| ![WizFi360-EVB](/img/products/wizfi360/wizfi360-evb.jpg) |
 | Figure: ***WizFi360-EVB***                              |
 
 
@@ -102,7 +102,7 @@ Github](https://github.com/WIZnet-WizFi360/Release).
 
 ## Q & A
 
-![](/document_framework/img/link.png) 🌎[WizFi360
+![](/img/link.png) 🌎[WizFi360
 Forum](https://forum.wiznet.io/c/wifi-module/wizfi360) : WIZnet Forum
 for Technical support and Project shared
 

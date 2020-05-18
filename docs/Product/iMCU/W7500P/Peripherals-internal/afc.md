@@ -15,4 +15,4 @@ Users can select a function in Alternate Function Controller block.
 
 The below Table shows the function table of each functional pad.
 
-![](/document_framework/img/products/w7500p/peripheral/functional_description_table.jpg "Figure 1 functional description table")
+![](/img/products/w7500p/peripheral/functional_description_table.jpg "Figure 1 functional description table")

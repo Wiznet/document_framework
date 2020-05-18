@@ -21,7 +21,7 @@ External interrupt working as following expression:
 * Each pad interrupt = Interrupt mask & (Interrupt polarity ^ Pad input)
 * EXTINT = any Each pad interrupt
 
-![](/document_framework/img/products/w7500p/peripheral/external_interrupt_diagram.jpg "Figure1 External Interrupt diagram")
+![](/img/products/w7500p/peripheral/external_interrupt_diagram.jpg "Figure1 External Interrupt diagram")
 
 ------------------------------
 

@@ -28,20 +28,20 @@ Download and abstract the file then you can see some folder.
 The extracted files consist of the CMSIS, driver and peripheral example. 
 The W7500 standard peripheral library provides a rich set of examples covering the main features of each peripheral. 
 
-![](/document_framework/img/products/w7500/overview/directory.jpg "Figure 1 W7500 library and example directory")
+![](/img/products/w7500/overview/directory.jpg "Figure 1 W7500 library and example directory")
 
 
 ## Example of WZTOE directory
 
 In WZTOE folder, directory structure is as follows.
 
-![](/document_framework/img/products/w7500/overview/directory3.jpg)
+![](/img/products/w7500/overview/directory3.jpg)
 
 DHCPClient, DNSClient and LoopbackTest are example project and ioLibrary contains library of socket APIs, DHCP APIs, DNS APIs and etc.
 
 In LoopbackTest folder, directory structure is as follows.
 
-![](/document_framework/img/products/w7500/overview/directory2.jpg)
+![](/img/products/w7500/overview/directory2.jpg)
 
 The **main.c** file is main body of the project. 
 
@@ -61,7 +61,7 @@ The **MDK** folder is for Keil IDE compiler and the **GCC** folder is for GCC co
 
 In MDK directory is here a file: Keil project file. Double click the file, then Keil uVision will be opened.
 
-![](/document_framework/img/products/w7500/overview/project_explorer.jpg)
+![](/img/products/w7500/overview/project_explorer.jpg)
 
 You can see upper image at left side on your uVision. In **W7500x_Periph** group are peripheral drivers which are used for this project.
 The **User** group contains main function.
@@ -69,7 +69,7 @@ The **User** group contains main function.
 
 ## Compile
 
-![](/document_framework/img/products/w7500/overview/compile.jpg)
+![](/img/products/w7500/overview/compile.jpg)
 
 Click the build icon on menu bar or 'F7'. Then compile will be done. After compile, **W7500x_WZTOE_Loopback.bin** file is generated in Obj folder.
 
@@ -78,7 +78,7 @@ Click the build icon on menu bar or 'F7'. Then compile will be done. After compi
 
 WIZwiki-W7500 board supports CMSIS-DAP, so you can just drag & drop the code file to download into 'mbed' directory on your system.
 
-![](/document_framework/img/products/w7500/overview/draganddrop.jpg)
+![](/img/products/w7500/overview/draganddrop.jpg)
 
 
 ## Connect to WIZwiki-W7500 and do the loopback test
@@ -86,8 +86,8 @@ WIZwiki-W7500 board supports CMSIS-DAP, so you can just drag & drop the code fil
 Now, WIZwiki-W7500 is running TCP server: IP - 192.168.77.9, PORT - 5000.
 Type IP address and Port number(This application note use Hercules as TCP client program). And then click 'Connect' button.
 
-![](/document_framework/img/products/w7500/overview/tcp_client1.jpg)
+![](/img/products/w7500/overview/tcp_client1.jpg)
 
 After connection, send some string and you can see the same as you sent.
 
-![](/document_framework/img/products/w7500/overview/tcp_client2.jpg)
+![](/img/products/w7500/overview/tcp_client2.jpg)

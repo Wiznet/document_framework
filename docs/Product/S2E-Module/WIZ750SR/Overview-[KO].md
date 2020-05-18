@@ -17,7 +17,7 @@ date: 2020-04-08
 
 ## Overview
 
-![](/document_framework/img/products/wiz750sr/overview/wiz750sr_simple_product_overview_v2.png)
+![](/img/products/wiz750sr/overview/wiz750sr_simple_product_overview_v2.png)
 
 WIZ750SR은 Cortex-M0 기반의 W7500P MCU가 탑재된 시리얼 to 이더넷 모듈 제품으로, 사용의 편의성을 위해
 핀 헤더와 RJ-45 커넥터를 포함한 형태로 디자인 되었습니다.
@@ -32,7 +32,7 @@ WIZ750SR은 시리얼 장비가 보낸 데이터를 TCP/IP 패킷으로 변환�
 
 |                                                                |
 | -------------------------------------------------------------- |
-| ![](/document_framework/img/products/wiz750sr/overview/wiz750sr_product_overview.png) |
+| ![](/img/products/wiz750sr/overview/wiz750sr_product_overview.png) |
 | Figure: WIZ750SR Product Overview                              |
 
 해당 제품은 상업용 온도 스펙 (Commercial temperature range, 0℃ \~ 70℃)을 만족하며, 시리얼

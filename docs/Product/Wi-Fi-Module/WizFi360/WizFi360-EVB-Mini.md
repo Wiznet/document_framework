@@ -6,7 +6,7 @@ date: 2020-05-13
 
 # WizFi360-EVB-Mini
 
-![WizFi360-EVB-Mini](/document_framework/img/products/wizfi360/board/wizfi360-evb-mini/wizfi360-mini3.png)
+![WizFi360-EVB-Mini](/img/products/wizfi360/board/wizfi360-evb-mini/wizfi360-mini3.png)
 
 ### Overview
 
@@ -89,7 +89,7 @@ be up to 2Mbps, which can meet the requirement of various applications.
 
 ## See Also
 
-![](/document_framework/img/link.png) 🌎[WizFi360
+![](/img/link.png) 🌎[WizFi360
 WIZnetForum](https://forum.wiznet.io/c/wifi-module/wizfi360) : WIZnet
 Forum for Technical support and Project shared
 

@@ -15,9 +15,9 @@ transmits the data sent by serial equipment as TCP/IP data type, and
 converts back the TCP/IP data received through the network into serial
 data to transmit back to the equipment.
 
-![](/document_framework/img/products/wiz107sr/wiz107sr-2.png)
+![](/img/products/wiz107sr/wiz107sr-2.png)
 
-![](/document_framework/img/products/wiz107sr/wiz107sr-3.png)
+![](/img/products/wiz107sr/wiz107sr-3.png)
 
 ### Features
 

@@ -49,13 +49,13 @@ is used widely.
 <tr class="odd">
 <td>1.0.0</td>
 <td>2014-02</td>
-<td><embed src="/document_framework/img/products/w5500/application/an_macrawpppoe_v100k.pdf" /></td>
+<td><embed src="/img/products/w5500/application/an_macrawpppoe_v100k.pdf" /></td>
 </tr>
 <tr class="even">
 <td>1.0.1</td>
 <td>2014-04</td>
-<td><embed src="/document_framework/img/products/w5500/application/an_macrawpppoe_v101k.pdf" /><br />
-<embed src="/document_framework/img/products/w5500/application/an_macrawpppoe_v101e.pdf" /></td>
+<td><embed src="/img/products/w5500/application/an_macrawpppoe_v101k.pdf" /><br />
+<embed src="/img/products/w5500/application/an_macrawpppoe_v101e.pdf" /></td>
 </tr>
 </tbody>
 </table>
@@ -75,4 +75,4 @@ W5200, W5300, W7100, W7200) can use this application.
 
 | Version | Date    | Download                                                                       |
 | ------- | ------- | ------------------------------------------------------------------------------ |
-| 1.0.1   | 2014-04 | ![](/document_framework/img/products/w5500/application/w5500_example_pppoe_stm32f103x_coide_v101.zip) |
+| 1.0.1   | 2014-04 | ![](/img/products/w5500/application/w5500_example_pppoe_stm32f103x_coide_v101.zip) |

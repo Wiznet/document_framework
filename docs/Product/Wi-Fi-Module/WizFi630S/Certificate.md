@@ -19,11 +19,11 @@ This section provides WizFi630S certificate and test reports.
    * EN 300 328 V2.1.1
 
 
-  * ![certificate](/document_framework/img/products/wizfi630s/wizfi630s_cert/wizfi630s_ce_certificate.pdf)
-  * ![LVD test report](/document_framework/img/products/wizfi630s/wizfi630s_cert/wizfi630s_ce_test_report_lvd.pdf)
-  * ![300 328 test report](/document_framework/img/products/wizfi630s/wizfi630s_cert/wizfi630s_ce_test_report_300_328.pdf)
-  * ![301 489 test report](/document_framework/img/products/wizfi630s/wizfi630s_cert/wizfi630s_ce_test_report_301_489.pdf)
-  * ![62311 test report](/document_framework/img/products/wizfi630s/wizfi630s_cert/wizfi630s_ce_test_report_62311.pdf)
+  * [certificate](/img/products/wizfi630s/wizfi630s_cert/wizfi630s_ce_certificate.pdf)
+  * [LVD test report](/img/products/wizfi630s/wizfi630s_cert/wizfi630s_ce_test_report_lvd.pdf)
+  * [300 328 test report](/img/products/wizfi630s/wizfi630s_cert/wizfi630s_ce_test_report_300_328.pdf)
+  * [301 489 test report](/img/products/wizfi630s/wizfi630s_cert/wizfi630s_ce_test_report_301_489.pdf)
+  * [62311 test report](/img/products/wizfi630s/wizfi630s_cert/wizfi630s_ce_test_report_62311.pdf)
 
 
 | Issue Date | Expiry Date |
@@ -43,8 +43,8 @@ This section provides WizFi630S certificate and test reports.
  * 47 CFR Part 15C
  * ANSI C63.10 2013
     
-  * ![certificate](/document_framework/img/products/wizfi630s/wizfi630s_cert/wizfi630s_fcc_certificate.pdf)
-  * ![teset report](/document_framework/img/products/wizfi630s/wizfi630s_cert/wizfi630s_fcc_test_report.pdf)
+  * [certificate](/img/products/wizfi630s/wizfi630s_cert/wizfi630s_fcc_certificate.pdf)
+  * [teset report](/img/products/wizfi630s/wizfi630s_cert/wizfi630s_fcc_test_report.pdf)
 
 | Issue Date |
 | ---------- |
@@ -61,8 +61,8 @@ This section provides WizFi630S certificate and test reports.
  
    * KS X 3123: Conformity assessment test methods for radio equipment
 
-  * ![certificate](/document_framework/img/products/wizfi630s/wizfi630s_cert/wizfi630s_kc_certificate.pdf)
-  * ![test report](/document_framework/img/products/wizfi630s/wizfi630s_cert/wizfi630s_kc_test_report.pdf)
+  * [certificate](/img/products/wizfi630s/wizfi630s_cert/wizfi630s_kc_certificate.pdf)
+  * [test report](/img/products/wizfi630s/wizfi630s_cert/wizfi630s_kc_test_report.pdf)
 
 | Issue Date |
 | ---------- |
@@ -79,8 +79,8 @@ This section provides WizFi630S certificate and test reports.
 
    * Article 2 Section 1, No.19
 
-  * ![certificate](/document_framework/img/products/wizfi630s/wizfi630s_cert/wizfi630s_japan_mic_telec_certificate.pdf)
-  * ![test report](/document_framework/img/products/wizfi630s/wizfi630s_cert/wizfi630s_japan_mic_telec_test_report.pdf)
+  * [certificate](/img/products/wizfi630s/wizfi630s_cert/wizfi630s_japan_mic_telec_certificate.pdf)
+  * [test report](/img/products/wizfi630s/wizfi630s_cert/wizfi630s_japan_mic_telec_test_report.pdf)
 
 
 | Issue Date |
@@ -99,7 +99,7 @@ This section provides WizFi630S certificate and test reports.
    * 2011/65/EU Annex II amending Annex (EU)2015/863 and amending Annex (EU)2017/2102
     
 
-  * ![RoHS 2.0 report](/document_framework/img/products/wizfi630s/wizfi630s_cert/wizfi630s_rohs_test_report.pdf)
+  * [RoHS 2.0 report](/img/products/wizfi630s/wizfi630s_cert/wizfi630s_rohs_test_report.pdf)
 
 
 | Issue Date |
@@ -125,9 +125,9 @@ This section provides WizFi630S certificate and test reports.
    * 60068-2-30 : Humidity cycling operation
 
  
-  * ![KORAS Operation Test Report_English](/document_framework/img/products/wizfi630s/wizfi630s_cert/2019-0009k_wizfi630s_koras_operation_test_report_60068-2-1_2-2_2-14_en.pdf)
+  * [KORAS Operation Test Report_English](/img/products/wizfi630s/wizfi630s_cert/2019-0009k_wizfi630s_koras_operation_test_report_60068-2-1_2-2_2-14_en.pdf)
   * ![KORAS Operation Test Report_Korean]()
-  * ![Operation Test Report_English](/document_framework/img/products/wizfi630s/wizfi630s_cert/2019-0535f_wizfi630s_operation_test_report_reliability_test_en.pdf)
+  * [Operation Test Report_English](/img/products/wizfi630s/wizfi630s_cert/2019-0535f_wizfi630s_operation_test_report_reliability_test_en.pdf)
   * ![Operation Test Report_Korean]()
 
 
