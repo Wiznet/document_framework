@@ -20,7 +20,7 @@ Main system consists of:
   - Four AHB dedicated to 16-bit GPIOs
   - TCP/IP Hardware core
 
-![W7500 System Architecture](/document_framework/img/products/w7500/w7500_system_architecture.png)
+![W7500 System Architecture](/img/products/w7500/w7500_system_architecture.png)
 
 AHB-Lite BUS
 
@@ -46,7 +46,7 @@ byte the most significant.
 
 ### Memory map
 
-![W7500 Memory map](/document_framework/img/products/w7500/memory_map.png)
+![W7500 Memory map](/img/products/w7500/memory_map.png)
 
 ## System Configuration Controller (SYSCFG)
 

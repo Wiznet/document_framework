@@ -27,7 +27,7 @@ W7500 has an integrated reset (POR) circuit which is always active and ensure pr
 
 - The POR monitors only the VDD supply voltage. During the startup phase VDD must arrive first and be greater than or equal to 0.6V
 
-![Figure 1 POR reset waveform](/document_framework/img/products/w7500/por_reset_waveform.jpg)
+![Figure 1 POR reset waveform](/img/products/w7500/por_reset_waveform.jpg)
 
 
 ## Low power modes
