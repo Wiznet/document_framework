@@ -1,4 +1,9 @@
-# Flash_example (IAP example)
+---
+id: iap_example
+title: Flash_example (IAP example)
+date: 2020-06-10
+--- 
+
 ******************************************************************************
 (C) COPYRIGHT 2015 WIZnet Co.,Ltd.
 

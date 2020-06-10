@@ -1,4 +1,8 @@
-# Alternate Function Controller(AFC)
+---
+id: afc
+title: Alternate Function Controller(AFC)
+date: 2020-06-10
+--- 
 
 ## Introduction
 

@@ -1,4 +1,9 @@
-# PWM Timer Mode example
+---
+id: capturemode
+title: PWM Timer Mode example
+date: 2020-06-10
+--- 
+
 ******************************************************************************
 (C) COPYRIGHT 2015 WIZnet Co.,Ltd.
 

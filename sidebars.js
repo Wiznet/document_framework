@@ -26,7 +26,7 @@ module.exports = {
 		'Product/iMCU/W7500/booting_sequence',
 		//'Product/iMCU/W7500/electrical_characteristics',
 		'Product/iMCU/W7500/w7500_ref_schematic',
-		'Product/iMCU/W7500/documents',
+		'Product/iMCU/W7500/documents_md',
 		'Product/iMCU/W7500/peripherals',
 		'Product/iMCU/W7500/libraries_examples',
 		'Product/iMCU/W7500/all_pages'

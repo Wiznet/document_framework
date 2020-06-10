@@ -1,5 +1,8 @@
-# Dual Timer
-
+---
+id: dualtimer
+title: Dual Timer
+date: 2020-06-10
+--- 
 
 ## Introduction
 

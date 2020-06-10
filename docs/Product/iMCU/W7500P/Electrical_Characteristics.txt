@@ -20,7 +20,7 @@ These are stress ratings only and functional operation of the device at these co
     <th class="tg-s6z2">Unit</th>
   </tr>
   <tr>
-    <td class="tg-s6z2"><a href="http://www.codecogs.com/eqnedit.php?latex=V_{DD}-V_{SS}" target="_blank"><img src="http://latex.codecogs.com/gif.latex?V_{DD}-V_{SS}" title="V_{DD}-V_{SS}" /></a></td>
+    <td class="tg-s6z2"><V<sub>DD</sub>-V<sub>SS</sub></td>
     <td class="tg-s6z2">External main supply voltage (VDD)</td>
     <td class="tg-s6z2">-0.3</td>
     <td class="tg-s6z2">3.6</td>
@@ -572,7 +572,7 @@ These are stress ratings only and functional operation of the device at these co
     <td class="tg-s6z2">Max</td>
   </tr>
   <tr>
-    <td class="tg-s6z2"><a href="http://www.codecogs.com/eqnedit.php?latex=f_{SCL}" target="_blank"><img src="http://latex.codecogs.com/gif.latex?f_{SCL}" title="f_{SCL}" /></a><br />  </td>
+    <td class="tg-s6z2"><a href="http://www.codecogs.com/eqnedit.php?latex=f_{SCL}" target="_blank"><img src="http://latex.codecogs.com/gif.latex?f_{SCL}" title="f_{SCL}" /></img></a><br />  </td>
     <td class="tg-s6z2">CLK clock frequency<br />  </td>
     <td class="tg-s6z2">0<br />  </td>
     <td class="tg-s6z2">100<br />  </td>

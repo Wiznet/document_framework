@@ -23,12 +23,14 @@ This document is based on Keil uVision MDK-Lite version:5.14.0.0 compiler and WI
 
 ## Download W7500 library and example
 
-You can download the library and example zip file at [link]. 
+You can download the library and example zip file at [link].
+
 Download and abstract the file then you can see some folder.
 
 ## Directory structure
 
-The extracted files consist of the CMSIS, driver and peripheral example. 
+The extracted files consist of the CMSIS, driver and peripheral example.
+
 The W7500 standard peripheral library provides a rich set of examples covering the main features of each peripheral. 
 
 ![Figure 1 W7500 library and example directory](/img/products/w7500/documents/appnote/directory.jpg)
@@ -45,11 +47,12 @@ In LoopbackTest folder, directory structure is as follows.
 
 ![directory2](/img/products/w7500/documents/appnote/directory2.jpg)
 
-The **main.c** file is main body of the project. 
+The **main.c** file is main body of the project.
 
-The **retarget.c** file is for using printf function for debug. 
+The **retarget.c** file is for using printf function for debug.
 
 The **W7500x_conf.h** file contains all peripheral headers.
+
 If you want to enable/disable peripheral header file, uncomment/comment the line.
 
 The **W7500x_it.c** file contains interrupt handlers for the project.
@@ -58,13 +61,14 @@ The **readme.md** file contains the example description, hardware and software e
 
 The **MDK** folder is for Keil IDE compiler and the **GCC** folder is for GCC compiler.
 
-## Open Keil project 
+## Open Keil projects
 
 In MDK directory is here a file: Keil project file. Double click the file, then Keil uVision will be opened.
 
 ![project_explorer](/img/products/w7500/documents/appnote/project_explorer.jpg)
 
 You can see upper image at left side on your uVision. In **W7500x_Periph** group are peripheral drivers which are used for this project.
+
 The **User** group contains main function.
 
 ## Compile

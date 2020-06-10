@@ -14,7 +14,7 @@ date: 2020-04-03
 |[DualTimer](Peripherals-internal/dualtimer.md)|[TimerRun](Peripherals-internal/timerrun.md)|
 |[EXTI](Peripherals-internal/exti.md)          |[LED_Toggle](Peripherals-internal/led_toggle.md),[Sleep](Peripherals-internal/sleep.md)|
 |[Flash](Peripherals-internal/flash.md)        |[IAP_Example](Peripherals-internal/IAP_Example.md)|
-|[I2C](Peripherals-internal/i2c.md)            |[Default](Peripherals-internal/init.md),[EEPROM_24LS02](Peripherals-internal/eeprom.md),[Temperature LM75](Peripherals-internal/lm75_temperature.txt)|
+|[I2C](Peripherals-internal/i2c.md)            |[Default](Peripherals-internal/init.md),[EEPROM_24LS02](Peripherals-internal/eeprom.md),[Temperature LM75](Peripherals-internal/lm75_temperature.md)|
 |[PWM](Peripherals-internal/pwm.md)            |[CaptureMode](Peripherals-internal/capturemode.md),[CounterMode](Peripherals-internal/countermode.md),[DeadZoneGeneration](Peripherals-internal/deadzonegeneration.md),[PWMOutput](Peripherals-internal/pwmoutput.md),[TimerMode](Peripherals-internal/timermode.md)|
 |[RNG](Peripherals-internal/rng.md)            |[Random number generation example](Peripherals-internal/rng_ex.md)|
 |[SSP](Peripherals-internal/ssp.md)            |[Loopback](Peripherals-internal/Loopback.md),[SD Card LED](Peripherals-internal/SD_Card_LED.md)|

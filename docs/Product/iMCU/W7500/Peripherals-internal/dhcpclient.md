@@ -1,4 +1,9 @@
-# DHCPClient for TCPIP Offload Engine example
+---
+id: deladhcpclient
+title: DHCPClient for TCPIP Offload Engine example
+date: 2020-06-10
+---
+
 ******************************************************************************
 (C) COPYRIGHT 2015 WIZnet Co.,Ltd.
 

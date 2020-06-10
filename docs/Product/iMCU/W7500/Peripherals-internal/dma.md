@@ -1,12 +1,17 @@
-# Direct Memory Access(DMA)
+---
+id: dma
+title: Direct Memory Access(DMA)
+date: 2020-06-10
+--- 
 
 ## Introduction
 
 Direct memory access (DMA) is used in order to provide high-speed data transfer between peripherals and memory as well as memory to memory. Data can be quickly moved by DMA without any CPU actions. This keeps CPU resources free for other operations.
+
 The DMA controller has up to 6 channels in total, each dedicated to managing memory access requests from one or more peripherals. It has an arbiter for handling the priority between DMA requests. For more details, refer to “PrimeCell® μDMA Controller (PL230)” from the Technical Reference Manual
 
 
-## Features 
+## Features
 
   * 6 channels
   * Each channel is connected to dedicated hardware DMA requests and software trigger is also supported on each channel.
@@ -24,47 +29,22 @@ The DMA controller has up to 6 channels in total, each dedicated to managing mem
 
 The hardware requests from the peripherals (UART0, UART1, SSP0, SSP1) are simply connected to the DMA. Refer to the below Table Summary of the DMA requests for each channel which lists the DMA requests for each channel.
 
-
-<table>
-  <tr>
-    <th></th>
-    <th>channel 1</th>
-    <th>channel 2</th>
-    <th>channel 3</th>
-    <th>channel 4</th>
-    <th>channel 5</th>
-    <th>channel 6</th>
-  </tr>
-  <tr>
-    <td>Hardware<br>Request</td>
-    <td>SSP0_TX<br>SSP0_RX</td>
-    <td>SSP1_TX<br>SSP1_RX</td>
-    <td>UART0_TX<br>UART0_RX</td>
-    <td>UART1_TX<br>UART1_RX</td>
-    <td>NONE</td>
-    <td>NONE</td>
-  </tr>
-  <tr>
-    <td>Software<br>Request</td>
-    <td>Support</td>
-    <td>Support</td>
-    <td>Support</td>
-    <td>Support</td>
-    <td>Support</td>
-    <td>Support</td>
-  </tr>
-</table>
+|      | Channel 1 | Channel 2 | Channel 3 | Channel 4 | Channel 5 | Channel 6 |
+| ----| ----------| ----------| ---------- | ----------| ---------- | ---------- |
+|   Hardware request | SSP0_TX <br /> SSP0_RX | SSP1_TX <br /> SSP1_RX  | UART0_TX <br /> UART0_RX  | UART1_TX <br /> UART1_RX | Channel 5 | Channel 6 |
+|   Software request | Support | Support | Support | Support | Support | Support |
 
 
 1.  Software request is only way to use DMA for memory-to-memory or TCP/IP-to-memory.
 
 ### DMA arbitration
+
 The controller can be configured to perform arbitration during a DMA cycle before and after a programmable number of transfers. This reduces the latency for servicing a higher priority channel.
 The controller uses four bits in the channel control data structure that configures how many AHB bus transfers occur before the controller re-arbitrates. These bits are known as the R_power bits because the value R is raised to the power of two and this determines the arbitration rate. For example, if R = 4, then the arbitration rate is 2^4, which means the controller arbitrates every 16 DMA transfers.
  
 **Remark**: Do not assign a low-priority channel with a large R_power value because this prevents the controller from servicing high-priority requests until it re-arbitrates.
 
-When N > <a href="http://www.codecogs.com/eqnedit.php?latex=2^R" target="_blank"><img src="http://latex.codecogs.com/gif.latex?2^R" title="2^R" /></a> and is not an integer multiple of <a href="http://www.codecogs.com/eqnedit.php?latex=2^R" target="_blank"><img src="http://latex.codecogs.com/gif.latex?2^R" title="2^R" /></a> then the controller always performs sequences of <a href="http://www.codecogs.com/eqnedit.php?latex=2^R" target="_blank"><img src="http://latex.codecogs.com/gif.latex?2^R" title="2^R" /></a> transfers until N < <a href="http://www.codecogs.com/eqnedit.php?latex=2^R" target="_blank"><img src="http://latex.codecogs.com/gif.latex?2^R" title="2^R" /></a> remain to be transferred. The controller performs the remaining N transfers at the end of the DMA cycle.  
+When N > 2<sup>R</sup> and is not an integer multiple of 2<sup>R</sup> then the controller always performs sequences of 2<sup>R</sup> transfers until N < 2<sup>R</sup> remain to be transferred. The controller performs the remaining N transfers at the end of the DMA cycle.  
 
 ### DMA cycle types
 
@@ -79,7 +59,7 @@ The controller uses four cycle types described in this manual:
 
 See ARM micro DMA (PL230) documentation for additional cycle types.
 
-For all cycle types, the controller arbitrates after <a href="http://www.codecogs.com/eqnedit.php?latex=2^R" target="_blank"><img src="http://latex.codecogs.com/gif.latex?2^R" title="2^R" /></a> DMA transfers. If a low-priority channel is set to a large <a href="http://www.codecogs.com/eqnedit.php?latex=2^R" target="_blank"><img src="http://latex.codecogs.com/gif.latex?2^R" title="2^R" /></a> value then it prevents all other channels from performing a DMA transfer until the low-priority DMA transfer completes. Therefore, the user must be cautious when setting the R_power bit in the channel_cfg data structure so that the latency for high-priority channels is not significantly increased.
+For all cycle types, the controller arbitrates after 2<sup>R</sup>  DMA transfers. If a low-priority channel is set to a large 2<sup>R</sup>  value then it prevents all other channels from performing a DMA transfer until the low-priority DMA transfer completes. Therefore, the user must be cautious when setting the R_power bit in the channel_cfg data structure so that the latency for high-priority channels is not significantly increased.
 
 #### Invalid cycle
 
@@ -89,7 +69,7 @@ After the controller completes a DMA cycle, it sets the cycle type to invalid to
 
 In this mode, the controller can be configured to use either the primary or the alternate channel control data structure. After the channel is enabled and the controller receives a request for this channel, the flow for basic cycle is as below:
 
-1.	The controller performs <a href="http://www.codecogs.com/eqnedit.php?latex=2^R" target="_blank"><img src="http://latex.codecogs.com/gif.latex?2^R" title="2^R" /></a> transfers. 
+1.	The controller performs 2<sup>R</sup>  transfers. 
 If the number of transfers remaining is zero the flow continues at step 3.
 2.	The controller arbitrates:
 	- If a higher-priority channel is requesting service, then the controller services that channel.
@@ -107,8 +87,8 @@ The auto-request cycle is typically used for memory-to-memory requests. In this 
 In this mode, the controller can be configured to use either the primary or the alternate channel control data structure. After the channel is enabled and the controller receives a request for this channel, the flow for the auto-request cycle is as below:
 
 
-1.	The controller performs <a href="http://www.codecogs.com/eqnedit.php?latex=2^R" target="_blank"><img src="http://latex.codecogs.com/gif.latex?2^R" title="2^R" /></a> transfers. If the number of transfers remaining is zero the flow continues at step 3.
-2.	The controller arbitrates if there are any transfers remaining after <a href="http://www.codecogs.com/eqnedit.php?latex=2^R" target="_blank"><img src="http://latex.codecogs.com/gif.latex?2^R" title="2^R" /></a> transfers. If the current channel c has the highest priority, the cycle continues at step 1.
+1.	The controller performs 2<sup>R</sup>  transfers. If the number of transfers remaining is zero the flow continues at step 3.
+2.	The controller arbitrates if there are any transfers remaining after 2<sup>R</sup>  transfers. If the current channel c has the highest priority, the cycle continues at step 1.
 3.	The controller sets dma_done[c] signal for this channel HIGH for one system clock cycle. This indicates to the host processor that the DMA cycle is complete.
 
 
@@ -125,7 +105,4 @@ The ping-pong cycle can be used for transfers to or from peripherals or for memo
 ![](/img/products/w7500p/peripheral/dma_ping_pong.jpg "Figure 2 DMA ping pong cycle")
 
 ------------------------------
-
-## Peripheral_Examples
-- [DMA example]
 

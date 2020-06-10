@@ -1,5 +1,8 @@
-# TCP/IP core Offload Engine(TOE)
-
+---
+id: toe
+title: TCP/IP core Offload Engine(TOE)
+date: 2020-04-03
+---
 
 ## Introduction
 
@@ -37,103 +40,103 @@ Common Register Block configures the general information of TOE such as IP and M
 
 <table class="tg">
   <tr>
-    <th class="tg-s6z2">Offset<br>  </th>
-    <th class="tg-s6z2">Register<br>  </th>
+    <th class="tg-s6z2">Offset<br />  </th>
+    <th class="tg-s6z2">Register<br />  </th>
   </tr>
   <tr>
-    <td class="tg-s6z2">0x0000<br>  </td>
-    <td class="tg-s6z2">TOE Version (VERSIONR)<br>  </td>
+    <td class="tg-s6z2">0x0000<br />  </td>
+    <td class="tg-s6z2">TOE Version (VERSIONR)<br />  </td>
   </tr>
   <tr>
-    <td class="tg-s6z2">0x2000<br></td>
-    <td class="tg-s6z2">TICKCLOK (TCLKR)<br>  </td>
+    <td class="tg-s6z2">0x2000<br /></td>
+    <td class="tg-s6z2">TICKCLOK (TCLKR)<br />  </td>
   </tr>
   <tr>
-    <td class="tg-s6z2">0x2100<br>  </td>
-    <td class="tg-s6z2">Interrupt (IR)<br>  </td>
+    <td class="tg-s6z2">0x2100<br />  </td>
+    <td class="tg-s6z2">Interrupt (IR)<br />  </td>
   </tr>
   <tr>
-    <td class="tg-s6z2">0x2104<br>  </td>
-    <td class="tg-s6z2">Interrupt Mask (IMR)<br>  </td>
+    <td class="tg-s6z2">0x2104<br />  </td>
+    <td class="tg-s6z2">Interrupt Mask (IMR)<br />  </td>
   </tr>
   <tr>
-    <td class="tg-s6z2">0x2108<br>  </td>
-    <td class="tg-s6z2">Interrupt Clear (IRCR)<br>  </td>
+    <td class="tg-s6z2">0x2108<br />  </td>
+    <td class="tg-s6z2">Interrupt Clear (IRCR)<br />  </td>
   </tr>
   <tr>
-    <td class="tg-s6z2">0x2110<br>  </td>
-    <td class="tg-s6z2">Socket Interrupt (SIR)<br>  </td>
+    <td class="tg-s6z2">0x2110<br />  </td>
+    <td class="tg-s6z2">Socket Interrupt (SIR)<br />  </td>
   </tr>
   <tr>
-    <td class="tg-s6z2">0x2114<br>  </td>
-    <td class="tg-s6z2">Socket Mask (SIMR)<br>  </td>
+    <td class="tg-s6z2">0x2114<br />  </td>
+    <td class="tg-s6z2">Socket Mask (SIMR)<br />  </td>
   </tr>
   <tr>
-    <td class="tg-s6z2">0x2300<br>  </td>
-    <td class="tg-s6z2">Mode (MR)<br>  </td>
+    <td class="tg-s6z2">0x2300<br />  </td>
+    <td class="tg-s6z2">Mode (MR)<br />  </td>
   </tr>
   <tr>
-    <td class="tg-s6z2">0x2400<br>  </td>
-    <td class="tg-s6z2">PPP Timer (PTIMER)<br>  </td>
+    <td class="tg-s6z2">0x2400<br />  </td>
+    <td class="tg-s6z2">PPP Timer (PTIMER)<br />  </td>
   </tr>
   <tr>
-    <td class="tg-s6z2">0x2404<br>  </td>
-    <td class="tg-s6z2">PPP Magic (PMAGIC)<br>  </td>
+    <td class="tg-s6z2">0x2404<br />  </td>
+    <td class="tg-s6z2">PPP Magic (PMAGIC)<br />  </td>
   </tr>
   <tr>
-    <td class="tg-s6z2">0x2408<br>  </td>
-    <td class="tg-s6z2">PPP Destination MAC Address (PHAR1)<br>  </td>
+    <td class="tg-s6z2">0x2408<br />  </td>
+    <td class="tg-s6z2">PPP Destination MAC Address (PHAR1)<br />  </td>
   </tr>
   <tr>
-    <td class="tg-s6z2">0x240C<br>  </td>
-    <td class="tg-s6z2">PPP Destination MAC address (PHAR0)<br>  </td>
+    <td class="tg-s6z2">0x240C<br />  </td>
+    <td class="tg-s6z2">PPP Destination MAC address (PHAR0)<br />  </td>
   </tr>
   <tr>
-    <td class="tg-s6z2">0x2410<br>  </td>
-    <td class="tg-s6z2">PPP Session Identification (PSID)<br>  </td>
+    <td class="tg-s6z2">0x2410<br />  </td>
+    <td class="tg-s6z2">PPP Session Identification (PSID)<br />  </td>
   </tr>
   <tr>
-    <td class="tg-s6z2">0x2414<br>  </td>
-    <td class="tg-s6z2">PPP Maximum Segment Size (PMSS)<br>  </td>
+    <td class="tg-s6z2">0x2414<br />  </td>
+    <td class="tg-s6z2">PPP Maximum Segment Size (PMSS)<br />  </td>
   </tr>
   <tr>
-    <td class="tg-s6z2">0x6000<br>  </td>
-    <td class="tg-s6z2">Source Hardware Address (SHAR1)<br>  </td>
+    <td class="tg-s6z2">0x6000<br />  </td>
+    <td class="tg-s6z2">Source Hardware Address (SHAR1)<br />  </td>
   </tr>
   <tr>
-    <td class="tg-s6z2">0x6004<br>  </td>
-    <td class="tg-s6z2">Source Hardware Address (SHAR0)<br>  </td>
+    <td class="tg-s6z2">0x6004<br />  </td>
+    <td class="tg-s6z2">Source Hardware Address (SHAR0)<br />  </td>
   </tr>
   <tr>
-    <td class="tg-s6z2">0x6008<br>  </td>
-    <td class="tg-s6z2">Gateway Address (GA)<br>  </td>
+    <td class="tg-s6z2">0x6008<br />  </td>
+    <td class="tg-s6z2">Gateway Address (GA)<br />  </td>
   </tr>
   <tr>
-    <td class="tg-s6z2">0x600C<br>  </td>
-    <td class="tg-s6z2">Subnet Mask (SUB)<br>  </td>
+    <td class="tg-s6z2">0x600C<br />  </td>
+    <td class="tg-s6z2">Subnet Mask (SUB)<br />  </td>
   </tr>
   <tr>
-    <td class="tg-s6z2">0x6010<br>  </td>
+    <td class="tg-s6z2">0x6010<br />  </td>
     <td class="tg-s6z2">Source IP Address (SIP)</td>
   </tr>
   <tr>
-    <td class="tg-s6z2">0x6020<br>  </td>
-    <td class="tg-s6z2">Network Configuration Lock (NCONFL)<br>  </td>
+    <td class="tg-s6z2">0x6020<br />  </td>
+    <td class="tg-s6z2">Network Configuration Lock (NCONFL)<br />  </td>
   </tr>
   <tr>
-    <td class="tg-s6z2">0x6040<br>  </td>
-    <td class="tg-s6z2">Retry Time (RTR)<br>  </td>
+    <td class="tg-s6z2">0x6040<br />  </td>
+    <td class="tg-s6z2">Retry Time (RTR)<br />  </td>
   </tr>
   <tr>
-    <td class="tg-s6z2">0x6044<br>  </td>
-    <td class="tg-s6z2">Retry Counter (RCR)<br>  </td>
+    <td class="tg-s6z2">0x6044<br />  </td>
+    <td class="tg-s6z2">Retry Counter (RCR)<br />  </td>
   </tr>
   <tr>
-    <td class="tg-s6z2">0x6050<br>  </td>
-    <td class="tg-s6z2">Unreachable IP Address (UIP)<br>  </td>
+    <td class="tg-s6z2">0x6050<br />  </td>
+    <td class="tg-s6z2">Unreachable IP Address (UIP)<br />  </td>
   </tr>
   <tr>
-    <td class="tg-031e">0x6054<br>  </td>
+    <td class="tg-031e">0x6054<br />  </td>
     <td class="tg-031e">Unreachable Port Address (UPORT)</td>
   </tr>
 </table>
@@ -146,120 +149,120 @@ Refer to [Memory](toe.md#memory) for more details about each register.
 
 <table class="tg">
   <tr>
-    <th class="tg-s6z2">Offset<br>  </th>
-    <th class="tg-s6z2">Register<br>  </th>
+    <th class="tg-s6z2">Offset<br />  </th>
+    <th class="tg-s6z2">Register<br />  </th>
   </tr>
   <tr>
-    <td class="tg-s6z2">0x0000<br>  </td>
-    <td class="tg-s6z2">Socket Mode (Sn_MR)<br>  </td>
+    <td class="tg-s6z2">0x0000<br />  </td>
+    <td class="tg-s6z2">Socket Mode (Sn_MR)<br />  </td>
   </tr>
   <tr>
-    <td class="tg-s6z2">0x0010<br>  </td>
-    <td class="tg-s6z2">Socket Command (Sn_CR)<br>  </td>
+    <td class="tg-s6z2">0x0010<br />  </td>
+    <td class="tg-s6z2">Socket Command (Sn_CR)<br />  </td>
   </tr>
   <tr>
-    <td class="tg-s6z2">0x0020<br>  </td>
-    <td class="tg-s6z2">Socket Interrupt (Sn_IR)<br>  </td>
+    <td class="tg-s6z2">0x0020<br />  </td>
+    <td class="tg-s6z2">Socket Interrupt (Sn_IR)<br />  </td>
   </tr>
   <tr>
-    <td class="tg-s6z2">0x0024<br>  </td>
-    <td class="tg-s6z2">Socket Interrupt Mask (Sn_IMR)<br>  </td>
+    <td class="tg-s6z2">0x0024<br />  </td>
+    <td class="tg-s6z2">Socket Interrupt Mask (Sn_IMR)<br />  </td>
   </tr>
   <tr>
-    <td class="tg-s6z2">0x0028<br>  </td>
-    <td class="tg-s6z2">Socket Interrupt Clear (Sn_ICR)<br>  </td>
+    <td class="tg-s6z2">0x0028<br />  </td>
+    <td class="tg-s6z2">Socket Interrupt Clear (Sn_ICR)<br />  </td>
   </tr>
   <tr>
-    <td class="tg-s6z2">0x0030<br>  </td>
-    <td class="tg-s6z2">Socket Status (Sn_SR)<br>  </td>
+    <td class="tg-s6z2">0x0030<br />  </td>
+    <td class="tg-s6z2">Socket Status (Sn_SR)<br />  </td>
   </tr>
   <tr>
-    <td class="tg-s6z2">0x0100<br>  </td>
-    <td class="tg-s6z2">Socket Protocol Number (Sn_PNR)<br>  </td>
+    <td class="tg-s6z2">0x0100<br />  </td>
+    <td class="tg-s6z2">Socket Protocol Number (Sn_PNR)<br />  </td>
   </tr>
   <tr>
-    <td class="tg-s6z2">0x0104<br>  </td>
-    <td class="tg-s6z2">Socket IP Type of Service (Sn_TOS)<br>  </td>
+    <td class="tg-s6z2">0x0104<br />  </td>
+    <td class="tg-s6z2">Socket IP Type of Service (Sn_TOS)<br />  </td>
   </tr>
   <tr>
-    <td class="tg-s6z2">0x0108<br>  </td>
-    <td class="tg-s6z2">Socket TTL (Sn_TTLR)<br>  </td>
+    <td class="tg-s6z2">0x0108<br />  </td>
+    <td class="tg-s6z2">Socket TTL (Sn_TTLR)<br />  </td>
   </tr>
   <tr>
-    <td class="tg-s6z2">0x010C<br>  </td>
-    <td class="tg-s6z2">Socket Fragment Offset (Sn_FRAG)<br>  </td>
+    <td class="tg-s6z2">0x010C<br />  </td>
+    <td class="tg-s6z2">Socket Fragment Offset (Sn_FRAG)<br />  </td>
   </tr>
   <tr>
-    <td class="tg-s6z2">0x0110<br>  </td>
-    <td class="tg-s6z2">Socket Maximum Segment (Sn_MSSR)<br>  </td>
+    <td class="tg-s6z2">0x0110<br />  </td>
+    <td class="tg-s6z2">Socket Maximum Segment (Sn_MSSR)<br />  </td>
   </tr>
   <tr>
-    <td class="tg-s6z2">0x0114<br>  </td>
-    <td class="tg-s6z2">Socket Port Number (Sn_PORT)<br>  </td>
+    <td class="tg-s6z2">0x0114<br />  </td>
+    <td class="tg-s6z2">Socket Port Number (Sn_PORT)<br />  </td>
   </tr>
   <tr>
-    <td class="tg-s6z2">0x0118<br>  </td>
-    <td class="tg-s6z2">Socket Destination Hardware address0 (Sn_DHAR0)<br>  </td>
+    <td class="tg-s6z2">0x0118<br />  </td>
+    <td class="tg-s6z2">Socket Destination Hardware address0 (Sn_DHAR0)<br />  </td>
   </tr>
   <tr>
-    <td class="tg-s6z2">0x011C<br>  </td>
-    <td class="tg-s6z2">Socket Destination Hardware address1 (Sn_DHAR1)<br>  </td>
+    <td class="tg-s6z2">0x011C<br />  </td>
+    <td class="tg-s6z2">Socket Destination Hardware address1 (Sn_DHAR1)<br />  </td>
   </tr>
   <tr>
-    <td class="tg-s6z2">0x0120<br>  </td>
-    <td class="tg-s6z2">Socket Destination Port Number (Sn_DPORTR)<br>  </td>
+    <td class="tg-s6z2">0x0120<br />  </td>
+    <td class="tg-s6z2">Socket Destination Port Number (Sn_DPORTR)<br />  </td>
   </tr>
   <tr>
-    <td class="tg-s6z2">0x0124<br>  </td>
-    <td class="tg-s6z2">Socket Destination IP Address (Sn_DIPR)<br>  </td>
+    <td class="tg-s6z2">0x0124<br />  </td>
+    <td class="tg-s6z2">Socket Destination IP Address (Sn_DIPR)<br />  </td>
   </tr>
   <tr>
-    <td class="tg-s6z2">0x0180<br>  </td>
-    <td class="tg-s6z2">Socket Keep Alive Timer (Sn_KATMR)<br>  </td>
+    <td class="tg-s6z2">0x0180<br />  </td>
+    <td class="tg-s6z2">Socket Keep Alive Timer (Sn_KATMR)<br />  </td>
   </tr>
   <tr>
-    <td class="tg-s6z2">0x0184<br>  </td>
-    <td class="tg-s6z2">Socket Retry Time (Sn_RTR)<br>  </td>
+    <td class="tg-s6z2">0x0184<br />  </td>
+    <td class="tg-s6z2">Socket Retry Time (Sn_RTR)<br />  </td>
   </tr>
   <tr>
-    <td class="tg-s6z2">0x0188<br>  </td>
-    <td class="tg-s6z2">Socket Retry Counter (Sn_RCR)<br>  </td>
+    <td class="tg-s6z2">0x0188<br />  </td>
+    <td class="tg-s6z2">Socket Retry Counter (Sn_RCR)<br />  </td>
   </tr>
   <tr>
-    <td class="tg-s6z2">0x0200<br>  </td>
-    <td class="tg-s6z2">Socket TX Memory Size (Sn_TMSR)<br>  </td>
+    <td class="tg-s6z2">0x0200<br />  </td>
+    <td class="tg-s6z2">Socket TX Memory Size (Sn_TMSR)<br />  </td>
   </tr>
   <tr>
-    <td class="tg-s6z2">0x0204<br>  </td>
-    <td class="tg-s6z2">Socket TX Free Size (Sn_TXFSR)<br>  </td>
+    <td class="tg-s6z2">0x0204<br />  </td>
+    <td class="tg-s6z2">Socket TX Free Size (Sn_TXFSR)<br />  </td>
   </tr>
   <tr>
-    <td class="tg-s6z2">0x0208<br>  </td>
-    <td class="tg-s6z2">Socket TX Read Pointer (Sn_TXRDR)<br>  </td>
+    <td class="tg-s6z2">0x0208<br />  </td>
+    <td class="tg-s6z2">Socket TX Read Pointer (Sn_TXRDR)<br />  </td>
   </tr>
   <tr>
-    <td class="tg-s6z2">0x020C<br>  </td>
-    <td class="tg-s6z2">Socket TX Write Pointer (Sn_TXWR)<br>  </td>
+    <td class="tg-s6z2">0x020C<br />  </td>
+    <td class="tg-s6z2">Socket TX Write Pointer (Sn_TXWR)<br />  </td>
   </tr>
   <tr>
-    <td class="tg-s6z2">0x0220<br>  </td>
-    <td class="tg-s6z2">Socket RX Memory Size (Sn_TMSR)<br>  </td>
+    <td class="tg-s6z2">0x0220<br />  </td>
+    <td class="tg-s6z2">Socket RX Memory Size (Sn_TMSR)<br />  </td>
   </tr>
   <tr>
-    <td class="tg-s6z2">0x0224<br>  </td>
-    <td class="tg-s6z2">Socket RX Received Size (Sn_RSR)<br>  </td>
+    <td class="tg-s6z2">0x0224<br />  </td>
+    <td class="tg-s6z2">Socket RX Received Size (Sn_RSR)<br />  </td>
   </tr>
   <tr>
-    <td class="tg-s6z2">0x0228<br>  </td>
-    <td class="tg-s6z2">Socket RX Read Pointer (Sn_RXRDR)<br>  </td>
+    <td class="tg-s6z2">0x0228<br />  </td>
+    <td class="tg-s6z2">Socket RX Read Pointer (Sn_RXRDR)<br />  </td>
   </tr>
   <tr>
-    <td class="tg-s6z2">0x022C<br>  </td>
-    <td class="tg-s6z2">Socket RX Write Pointer (Sn_RXWR)<br>  </td>
+    <td class="tg-s6z2">0x022C<br />  </td>
+    <td class="tg-s6z2">Socket RX Write Pointer (Sn_RXWR)<br />  </td>
   </tr>
   <tr>
-    <td class="tg-s6z2">0x0400<br>  </td>
-    <td class="tg-s6z2">Socket TCP Status (Sn_TSR)<br>  </td>
+    <td class="tg-s6z2">0x0400<br />  </td>
+    <td class="tg-s6z2">Socket TCP Status (Sn_TSR)<br />  </td>
   </tr>
 </table>
 

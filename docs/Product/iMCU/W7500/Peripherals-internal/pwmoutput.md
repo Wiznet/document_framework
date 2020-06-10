@@ -1,4 +1,9 @@
-# PWM Output example
+---
+id: pwmoutput
+title: PWM Output example
+date: 2020-04-03
+---
+
 ******************************************************************************
 (C) COPYRIGHT 2015 WIZnet
 

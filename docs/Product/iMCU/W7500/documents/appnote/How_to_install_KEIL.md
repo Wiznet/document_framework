@@ -1,5 +1,5 @@
 ---
-id: how_to_install_keil
+id: how_to_install_KEIL
 title: How to install KEIL
 date: 2020-04-20
 --- 
@@ -15,6 +15,7 @@ date: 2020-04-20
   * brief   : Description of installation Keil uVision MDK-Lite version.
 
 ******************************************************************************
+
 ## Introduction
 
 This application note guides user to install Keil uVision MDK-Lite version:5.14.0.0 compiler. 
@@ -29,8 +30,7 @@ And then click **MDK-ARM v5**.
 
 ![keil_2](/img/products/w7500/documents/appnote/keil_2.jpg)
 
-Free version of MDK is required some user information:name, e-mail, company and etc. After fill the blanks, 
-and then click 'Submit' button at the bottom.
+Free version of MDK is required some user information:name, e-mail, company and etc. After fill the blanks, and then click 'Submit' button at the bottom.
 
 ![keil_5](/img/products/w7500/documents/appnote/keil_5.jpg)
 
@@ -46,8 +46,7 @@ After downloading is completed, double click the mdk514.exe file and then setup 
 
 ## Install MDK Version 5 - Legacy Support
 
-After installation is completed, you need to install the MDK version 5 - legacy support because MDK-Lite version does not
-support W7500 example project devices.
+After installation is completed, you need to install the MDK version 5 - legacy support because MDK-Lite version does not support W7500 example project devices.
 
 [Download link](http://www2.keil.com/mdk5/legacy/)
 

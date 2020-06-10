@@ -1,4 +1,9 @@
-# I2C and M24CXX EEPROM communication example
+---
+id: eeprom
+title: I2C and M24CXX EEPROM communication example
+date: 2020-06-10
+--- 
+
 ******************************************************************************
 (C) COPYRIGHT 2015 WIZnet Co.,Ltd.
 

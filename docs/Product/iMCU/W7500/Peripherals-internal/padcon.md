@@ -1,5 +1,8 @@
-# Pad Controller(PADCON)
-
+---
+id: padcon
+title: Pad Controller(PADCON)
+date: 2020-04-03
+---
 
 ## Introduction
 
@@ -37,7 +40,7 @@ IE – Input buffer enable
     <th>P</th>
   </tr>
   <tr>
-    <td rowspan="2">Input buffer enable<br>(IE =1)</td>
+    <td rowspan="2">Input buffer enable<br />(IE =1)</td>
     <td>Output mode</td>
     <td>OUT</td>
     <td>OUT</td>
@@ -50,7 +53,7 @@ IE – Input buffer enable
     <td>IN</td>
   </tr>
   <tr>
-    <td rowspan="2">Input buffer enable<br>(IE = 0)</td>
+    <td rowspan="2">Input buffer enable<br />(IE = 0)</td>
     <td>Output mode</td>
     <td>OUT</td>
     <td>Low(0)</td>
@@ -85,7 +88,7 @@ DS – Driving strength select
     <td>Max</td>
   </tr>
   <tr>
-    <td rowspan="2">High<br>(DS = 1)</td>
+    <td rowspan="2">High<br />(DS = 1)</td>
     <td>25pF</td>
     <td>4</td>
     <td>18</td>
@@ -100,7 +103,7 @@ DS – Driving strength select
     <td>44</td>
   </tr>
   <tr>
-    <td rowspan="2">Low<br>(DS = 0)</td>
+    <td rowspan="2">Low<br />(DS = 0)</td>
     <td>25pF</td>
     <td>1</td>
     <td>8</td>

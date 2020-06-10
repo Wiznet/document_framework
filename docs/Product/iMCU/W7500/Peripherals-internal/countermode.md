@@ -1,4 +1,9 @@
-# PWM Counter Mode example
+---
+id: countermode
+title: PWM Counter Mode example
+date: 2020-06-10
+--- 
+
 ******************************************************************************
 (C) COPYRIGHT 2015 WIZnet
 

@@ -1,5 +1,5 @@
 ---
-id: documents
+id: documents_md
 title: Documents
 date: 2020-04-03
 ---
@@ -32,8 +32,8 @@ The **Getting Started** user's guide describes the installation of MDK,How to ma
 | V 1.0.2 | 09NOV2017 | Fixed Typo I/O Pad Characteristics VOL description (high -\> low)                                                        |
 | V 1.0.3 | 30NOV2017 | Fixed figure 8. (W7500P Pin out)                                                                                         |
 | V 1.0.4 | 18DEC2017 | Add Reset & PLL characteristics.                                                                                         |
-| V 1.0.5 | 30JAN2018 | 1\. Fixed figure 8 (W7500P Pin layout) / Added subhead (4.2.1 W7500, 4.2.2 W7500P) / Fixed table 8(modified Symbol name) |
-| :::     | :::       | 2\. Modified SRAM description (2. Description)                                                                           |
+| V 1.0.5 | 30JAN2018 | 1. Fixed figure 8 (W7500P Pin layout) / Added subhead (4.2.1 W7500, 4.2.2 W7500P) / Fixed table 8(modified Symbol name) |
+| :::     | :::       | 2. Modified SRAM description (2. Description)                                                                           |
 | V 1.0.6 | 05FEB2018 | Add info about W7500P power consumption.(Current Characteristics)                                                        |
 | V 1.0.7 | 27JUL2018 | Fixed figure 2. CRG Diagram (Input Information of WDOGCLK, TIMCLK0,TIMCLK1).                                             |
 | V 1.0.8 | 17OCT2018 | Fixed Power Supply description                                                                                           |
@@ -126,7 +126,7 @@ W7500P Internal PHY Datasheet
 
 ### Limitation Note ARP problem in the NLB environment
 
-![Limitation Note ARP problem in the NLB environment V1.0]()
+[Limitation Note ARP problem in the NLB environment V1.0](/img/products/w7500/w7500_arp_problem_in_the_nlb.pdf)
 
 ARP problem in the NLB environment V1.0
 
@@ -140,14 +140,14 @@ ARP problem in the NLB environment V1.0
 
 ## Getting Started
 
-  - [How to install KEIL](../documents/appnote/How_to_install_KEIL.txt)
+  - [How to install KEIL](documents/appnote/How_to_install_KEIL.md)
 
-  - [How to make KEIL new project for W7500](../documents/appnote/How_to_make_KEIL_new_project_for_W7500.md)
+  - [How to make KEIL new project for W7500](documents/appnote/How_to_make_KEIL_new_project_for_W7500.md)
 
-  - [How to use MDK for W7500 Peripherals Examples](../documents/appnote/How_to_use_MDK_for_W7500_Peripherals_Examples.md)
+  - [How to use MDK for W7500 Peripherals Examples](documents/appnote/How_to_use_MDK_for_W7500_Peripherals_Examples.md)
     
-  - [How to use GCC for W7500 Peripherals Examples](../documents/appnote/How_to_use_GCC_for_W7500_Peripherals_Examples.md)
+  - [How to use GCC for W7500 Peripherals Examples](documents/appnote/How_to_use_GCC_for_W7500_Peripherals_Examples.md)
   
-  - [How to use ISP tool](../documents/appnote/How_to_use_ISP_tool.md)
+  - [How to use ISP tool](documents/appnote/How_to_use_ISP_tool.md)
   
 ----- 

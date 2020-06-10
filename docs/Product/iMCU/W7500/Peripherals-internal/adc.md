@@ -1,4 +1,8 @@
-# Analog to Digital Converter(ADC)
+---
+id: adc
+title: Analog to Digital Converter(ADC)
+date: 2020-06-10
+--- 
 
 
 ## Introduction

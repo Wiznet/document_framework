@@ -1,5 +1,8 @@
-# General Purpose Input/Outputs(GPIO)
-
+---
+id: gpio
+title: General Purpose Input/Outputs(GPIO)
+date: 2020-06-10
+---
 
 ## Introduction
 The GPIO(General-Purpose I/O Port) is composed of four physical GPIO blocks, each corresponding to an individual GPIO port(PORT A, PORT B, PORT C, PORT D). The GPIO supports up to 53 programmable input/output pins, depending on the peripherals being used.

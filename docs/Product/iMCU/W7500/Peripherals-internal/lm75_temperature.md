@@ -1,4 +1,9 @@
-# I2C and LM75 Temperature Sensor communication example
+---
+id: lm75_temperature
+title: I2C and LM75 Temperature Sensor communication example
+date: 2020-06-10
+--- 
+
 ******************************************************************************
 (C) COPYRIGHT 2015 WIZnet Co.,Ltd.
 
@@ -50,7 +55,7 @@ ______________________________________________________________________________
 
 ``` 
      -----      
-SDA |1   8| VCC
+  SDA |1   8| VCC
   SCL |2   7| A0 
   OS  |3   6| A1 
   GND |4   5| A2 
@@ -77,10 +82,10 @@ PIN | SYMBOL | DESCRIPTION
 
 |REG NAME | Addr   | R/W | RST Value |DESCRIPTION|
 |---------|---------|-------|-------|------------|
-|Temp     |0x00   |R/W |0x0000  |Configuration Register.<br>Contains a single 8-bit data byte.<br>To set the device operating condition<br>Default = 0.|
-|Conf    | 0x01   | R   |    N/A    |   Temperature Register.<br>Contains two 8-bit data bytes.<br>To store the measured Temp data.|
-|Thyrs    | 0x02   | R/W |   0x5000  |  Over-temp Shutdown threshold Register.<br>Contains two 8-bit data bytes.<br>To store the over-temp shut-down Tos limit.<br> Default = 80c|
-|Tos      | 0x03   | R/W |   0x4B00  |   Hysteresis Register.<br>Contains two 8-bit data bytes.<br>To store the hysteresis Thyst limit.<br>                    Default = 75C.|
+|Temp     |0x00   |R/W |0x0000  |Configuration Register.<br />Contains a single 8-bit data byte.<br />To set the device operating condition<br />Default = 0.|
+|Conf    | 0x01   | R   |    N/A    |   Temperature Register.<br />Contains two 8-bit data bytes.<br />To store the measured Temp data.|
+|Thyrs    | 0x02   | R/W |   0x5000  |  Over-temp Shutdown threshold Register.<br />Contains two 8-bit data bytes.<br />To store the over-temp shut-down Tos limit.<br /> Default = 80c|
+|Tos      | 0x03   | R/W |   0x4B00  |   Hysteresis Register.<br />Contains two 8-bit data bytes.<br />To store the hysteresis Thyst limit.<br />                    Default = 75C.|
 
 
 
@@ -121,6 +126,7 @@ In order to make the program work, you must do the following :
 ______________________________________________________________________________
 
 ### Flow Chart
+
  - Master Init
  - Slave address send from W7500 to LM75
  - START enable

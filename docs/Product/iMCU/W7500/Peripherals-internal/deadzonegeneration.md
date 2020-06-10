@@ -1,5 +1,9 @@
+---
+id: deadzonegeneration
+title: Dead-Zone generation example
+date: 2020-06-10
+--- 
 
-# Dead-Zone generation example
 ******************************************************************************
 (C) COPYRIGHT 2015 WIZnet
 

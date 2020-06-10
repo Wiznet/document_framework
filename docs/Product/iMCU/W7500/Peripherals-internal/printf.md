@@ -1,4 +1,9 @@
-# UART Polling example
+---
+id: printf
+title: UART Polling example
+date: 2020-04-03
+---
+
 ******************************************************************************
 (C) COPYRIGHT 2015 WIZnet Co.,Ltd.
 

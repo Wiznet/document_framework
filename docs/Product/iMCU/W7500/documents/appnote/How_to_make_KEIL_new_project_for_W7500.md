@@ -19,6 +19,7 @@ date: 2020-04-20
 ******************************************************************************
 
 ## Introduction
+
 This application note is a tutorial for making a KEIL project for W7500 MCU. This document show you how to make a project and a bin file for W7500 step by step in order for you to follow up easily.
 
 ### STEP 1. Download and install KEIL5!
@@ -201,4 +202,4 @@ And then WIZwiki-W7500 will upload this bin file on itself via the User program 
 
 If you want to convert this document to the PDF file? Click to [Export to PDF]
 
-<h3><center>&copy; COPYRIGHT 2015 WIZnet Co.,Ltd.</center></h3>
+&copy; COPYRIGHT 2015 WIZnet Co.,Ltd.

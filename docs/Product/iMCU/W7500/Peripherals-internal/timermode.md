@@ -1,4 +1,9 @@
-# PWM Timer Mode example
+---
+id: timermode
+title: PWM Timer Mode example
+date: 2020-04-03
+---
+
 ******************************************************************************
 (C) COPYRIGHT 2015 WIZnet
 

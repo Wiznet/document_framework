@@ -1,5 +1,8 @@
-# Pulse Width Modulation(PWM)
-
+---
+id: pwm
+title: Pulse Width Modulation(PWM)
+date: 2020-04-03
+---
 
 ## Introduction
 

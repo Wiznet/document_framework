@@ -1,4 +1,9 @@
-# RNG example (Random number generation example)
+---
+id: rng_ex
+title: RNG example (Random number generation example)
+date: 2020-04-03
+---
+
 ******************************************************************************
 (C) COPYRIGHT 2015 WIZnet Co.,Ltd.
 

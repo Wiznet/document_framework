@@ -1,4 +1,9 @@
-# RNG example (Random number generation example)
+---
+id: ssp
+title: Random number generator(RNG)
+date: 2020-04-03
+---
+
 ******************************************************************************
 (C) COPYRIGHT 2015 WIZnet Co.,Ltd.
 

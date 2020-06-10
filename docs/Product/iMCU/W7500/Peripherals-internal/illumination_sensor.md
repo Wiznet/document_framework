@@ -1,4 +1,9 @@
-# ADC example (Illumination sensor)
+---
+id: illumination_sensor
+title: ADC example (Illumination sensor)
+date: 2020-06-10
+--- 
+
 ******************************************************************************
 (C) COPYRIGHT 2015 WIZnet Co.,Ltd.
 
