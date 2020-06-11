@@ -4,11 +4,6 @@ title: Overview
 date: 2020-04-03
 ---
 
-
-# W6100
-
-## Overview
-
 ![](/img/products/w6100/w6100_4.jpg)
 **Hardwired Dual TCP/IP Stack Controller**
 

@@ -1,4 +1,8 @@
-# Getting Started with the W6100-EVB
+---
+id: getting_started_w6100evb
+title: Getting Started with the W6100-EVB
+date: 2020-04-03
+---
 
 ## Check the board
 
@@ -114,7 +118,7 @@ Application example source code for W6100-EVB**
 
 -----
 
-## How to uploading to firmware
+## How to upload firmware
 
 ### Flash programming via UART
 

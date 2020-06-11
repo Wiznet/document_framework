@@ -1,10 +1,8 @@
 ---
 id: comparison_sheet
-title: Comparison Sheet
+title: W5100S Comparison Sheet
 date: 2020-04-03
 ---
-
-## W5100S Comparison Sheet
 
 Functionally, **W5100S** is very similar to **W5100 and W5500**, with
 slightly different Hardware Specification. And Software can be shared.

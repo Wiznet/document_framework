@@ -1,11 +1,8 @@
 ---
 id: udp
-title: UDP
+title: W5100S UDP Function
 date: 2020-04-03
 ---
-
-
-# W5100S UDP Function
 
 By setting some register and memory operation, W5100S provides internet
 connectivity. This chapter describes how it can be operated.

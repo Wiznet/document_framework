@@ -4,9 +4,6 @@ title: Driver & Basic Project
 date: 2020-04-03
 ---
 
-
-# Driver
-
 The io6Library means **"Internet Offload Library"** for WIZnet chip. It
 includes **drivers** and **application protocols**.It is only for IPv6
 and for dual TCP/IP stack controller such as W6100. The io6Library can

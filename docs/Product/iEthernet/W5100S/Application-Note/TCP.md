@@ -1,11 +1,8 @@
 ---
 id: tcp
-title: TCP
+title: W5100S TCP Function
 date: 2020-04-03
 ---
-
-
-# W5100S TCP Function
 
 By setting some Registers and Memory Operation, W5100S provides Internet
 Connectivity. This Chapter describes How to operate W5100S TCP Function.

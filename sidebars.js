@@ -24,7 +24,7 @@ module.exports = {
 		'Product/iMCU/W7500/interrupt_and_event',
 		'Product/iMCU/W7500/power_supply',
 		'Product/iMCU/W7500/booting_sequence',
-		//'Product/iMCU/W7500/electrical_characteristics',
+		'Product/iMCU/W7500/electrical_characteristics_w7500',
 		'Product/iMCU/W7500/w7500_ref_schematic',
 		'Product/iMCU/W7500/documents_md',
 		'Product/iMCU/W7500/peripherals',
@@ -42,7 +42,7 @@ module.exports = {
 		'Product/iMCU/W7500P/interrupt_and_event',
 		'Product/iMCU/W7500P/power_supply',
 		'Product/iMCU/W7500P/booting_sequence',
-		//'Product/iMCU/W7500P/electrical_characteristics',
+		'Product/iMCU/W7500P/electrical_characteristics',
 		'Product/iMCU/W7500P/w7500p_ref_schematic',
 		'Product/iMCU/W7500P/documents',
 		'Product/iMCU/W7500P/peripherals',
@@ -62,14 +62,8 @@ module.exports = {
         label: 'Pre-programmed MCU',
         items: [
 		'Product/Pre-programmed-MCU/pre_programmed_mcu',
-		{
-        type: 'category',
-        label: 'W7500P',
-        items: [
 		'Product/Pre-programmed-MCU/W7500P-S2E/w7500p-s2e-[KO]',
 		'Product/Pre-programmed-MCU/W7500P-S2E/w7500p-s2e-[EN]',
-		],
-		}
 		],
     },
 	{

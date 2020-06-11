@@ -4,9 +4,6 @@ title: Ref. Schematic
 date: 2020-04-03
 ---
 
-
-# Reference Schematic
-
 -----
 
 ## External Transformer Type
