@@ -4,8 +4,6 @@ title: Serial to Ethernet Module
 date: 2020-04-07
 ---
 
-# S2E: Serial to Ethernet Module
-
 ## Overview
 
 The ‘Serial to Ethernet’ (S2E) Products are the gateway that converts

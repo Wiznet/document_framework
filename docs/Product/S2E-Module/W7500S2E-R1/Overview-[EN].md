@@ -29,8 +29,7 @@ simplify the design and reduce development time.
 
 ## Features
 
-  - Baud Rate can be configured to any standard value from 300 bps to
-    460,800 bps
+  - Baud Rate can be configured to any standard value from 300 bps to 460,800 bps
   - 10/100 Mbps Auto-Negotiation Ethernet interface
   - Support TCP server, TCP client and UDP operating modes
   - Flexible serial interface data packaging condition settings
@@ -52,7 +51,7 @@ simplify the design and reduce development time.
 
 <!-- end list -->
 
-``` 
+
    * Baud Rate: From 300bps to 460,800bps
    * Data Bit: 7, 8
    * Stop Bit: 1, 2
@@ -65,6 +64,6 @@ simplify the design and reduce development time.
    * W7500S2E-R1: 44.45×31.75×23.00
 *  Operating temperature: -40℃ ~ +85℃ (Industrial Grade)
 *  Storage environment: -40℃ ~ +85℃, 5 ~ 95% RH
-```
+
 
 -----

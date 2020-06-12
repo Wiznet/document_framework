@@ -1,11 +1,8 @@
 ---
 id: udp
-title: UDP
+title: W5500 UDP Function
 date: 2020-04-07
 ---
-
-
-# W5500 UDP Function
 
 By setting some register and memory operation, W5500 provides internet
 connectivity. This chapter describes how it can be operated.

@@ -115,9 +115,9 @@ module.exports = {
         items: [
 		'Product/iEthernet/W5500/overview',
 		'Product/iEthernet/W5500/datasheet',
-		//'Product/iEthernet/W5500/driver',
+		'Product/iEthernet/W5500/driver',
 		'Product/iEthernet/W5500/ref_schematic',
-		//'Product/iEthernet/W5500/migration_from_w5200',
+		'Product/iEthernet/W5500/migration_from_w5200',
 		{
         type: 'category',
         label: 'Application',
@@ -169,7 +169,7 @@ module.exports = {
         label: 'W7500S2E-R1',
         items: [
 		//'Product/S2E-Module/W7500S2E-R1/overview-[EN]',
-		'Product/S2E-Module/W7500S2E-R1/w5500s2e_r1'
+		'Product/S2E-Module/W7500S2E-R1/w7500s2e_r1'
 		],
 		},
 		{

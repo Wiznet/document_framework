@@ -4,9 +4,9 @@ title: SPI Performance
 date: 2020-04-07
 ---
 
-### W5500 Performance
+## W5500 Performance
 
-#### W5500 SPI transmission
+### W5500 SPI transmission
 
 
   * Cortex-M3 
@@ -56,7 +56,7 @@ Development Tool : CoIDE v1.7.4 - ARM Ver : 4.7 2013q2 - Main Clock :
 
  --- 
 
-#### Data throughput according to SPI clock speed
+### Data throughput according to SPI clock speed
 
 
   * Cortex-M3

@@ -55,7 +55,6 @@ can simplify the design and reduce development time.
 
 <!-- end list -->
 
-``` 
    * Baud Rate: From 2Kbps to 1.152Mbps
    * Data Bit: 7, 8
    * Stop Bit: 0.5, 1, 1.5, 2
@@ -70,7 +69,6 @@ can simplify the design and reduce development time.
    * W5500S2E-R1: 44.45×31.75×23.00
 *  Operating temperature: -40℃ ~ +85℃ (Industrial Grade)
 *  Storage environment: -40℃ ~ +85℃, 5 ~ 95% RH
-```
 
 -----
 

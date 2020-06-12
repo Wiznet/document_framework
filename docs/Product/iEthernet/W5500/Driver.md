@@ -4,16 +4,7 @@ title: Driver
 date: 2020-04-03
 ---
 
-# Driver
-
-The ioLibrary means **"Internet Offload Library"** for WIZnet chip. It
-includes **drivers** and **application protocols**. There are three
-kinds of libraries explained on this page The first two drivers
-(ioLibrary\_BSD, ioLibrary) can be used for
-[W5500](/products/w5500/start) application designs. These will be
-updated continuously. The former BSD-Type driver will not be updated, as
-it is only meant to be a migration help from W5200 to
-[W5500](/products/w5500/start).
+The ioLibrary means **"Internet Offload Library"** for WIZnet chip. It includes **drivers** and **application protocols**. There are three kinds of libraries explained on this page The first two drivers (ioLibrary\_BSD, ioLibrary) can be used for [W5500](/products/w5500/start) application designs. These will be updated continuously. The former BSD-Type driver will not be updated, as it is only meant to be a migration help from W5200 to [W5500](/products/w5500/start).
 
 -----
 
@@ -25,14 +16,11 @@ it is only meant to be a migration help from W5200 to
 
 -----
 
-to 
 ## 1. ioLibrary_BSD
 
 #### Overview
 
-This driver provides the Berkeley Socket type APIs. The function names
-of this ioLibrary\_BSD are the same as the function names of the
-ioLibrary.
+This driver provides the Berkeley Socket type APIs. The function names of this ioLibrary\_BSD are the same as the function names of the ioLibrary.
 
   - Directory Structure ![](/img/products/w5500/iolibrary_bsd.jpg)
       - Ethernet : SOCKET APIs like BSD & WIZCHIP(W5500,W5200 and etc)
@@ -185,10 +173,6 @@ Repository**
                         it.
                         
                         - V1.02
-
-<!-- end list -->
-
-``` 
         * socket.c (Refer to 20131220)
           - setsockopt() : Remove warning message (delete tmp variable)
         * w5500.c (Refer to 20131220)
@@ -226,7 +210,7 @@ Repository**
         * First released. 
           * DHCP Client (Dynamic Host Configuration Protocol Client)
           * DNS Client (Domain Name System Client)
-```
+
 
 **Application code examples : latest version**
 
@@ -275,7 +259,6 @@ DNS Client</td>
 </tbody>
 </table>
 
-<Application code examples : old version>
 
 <table>
 <tbody>
@@ -319,24 +302,21 @@ and then insert to each of same named directory in provided project.
 
 **History**
 
-  - Application code example
-      - Example project was made by CooCox CoIDE with the STM32F103X
-        Cortex-M3 platform.
-          - Loopback Test 
-              - 2013-11-04 Changes
-                1.  main.c : refine and rearrange source code.
-                2.  Separated Project code / APIs and Applications 
-          - DHCP Client 
-              - 2013-12-26 Changes
-                1.  main.c : refine and rearrange source code for
-                    improved DHCP code.
-          - DNS Client
-              - 2013-12-26 Changes
-                1.  main.c : refine and rearrange source code for
-                    improved DNS code
+- Application code example
+  - Example project was made by CooCox CoIDE with the STM32F103X Cortex-M3 platform.
+    - Loopback Test 
+      - 2013-11-04 Changes
+        1.  main.c : refine and rearrange source code.
+        2.  Separated Project code / APIs and Applications 
+    - DHCP Client 
+      - 2013-12-26 Changes
+        1.  main.c : refine and rearrange source code for improved DHCP code.
+    - DNS Client
+      - 2013-12-26 Changes
+        1. main.c : refine and rearrange source code for improved DNS code
+        
                     
-                    
- #### Description
+#### Description
 
 This driver provides BSD-type Socket APIs for
 [W5500](/products/w5500/start). Because the function names of this
@@ -476,7 +456,7 @@ connect</td>
 </tbody>
 </table>
 
-\* Socket APIs
+Socket APIs
 
   * Function Name
     * Same as the function name of previous drivers
@@ -485,7 +465,7 @@ connect</td>
     * W5500 Driver: All functions return Success and Fail. In Fail case, operations are subdivided.
       * Success: SOCK_OK, Socket Number, Transmit and Receive Size
       * Fail: SOCK_BUSY, SOCKERR_XXX, SOCKFATAL_XXX ( 0 or Negative value)
-          - ** SOCK_BUSY ** : 0
+          - **SOCK_BUSY** : 0
           - SOCKERR_SOCKNUM
           - SOCKERR_SOCKOPT   
           - SOCKERR_SOCKINIT  
@@ -524,7 +504,7 @@ connect</td>
 |              | Application   | Version | Note | Download Link                                           |
 | Cookie board | Loopback test | 1.0.2   | \-   | [Click](/img/products/w5500/w5500_coocox_project_v102.zip) |
 
-\<Revision History>
+
 
 * v102
 
@@ -596,7 +576,5 @@ The figure below shows the folder structure of this ioLibrary.
 This driver has the same BSD as the API for W5200 users. 
 We have been evaluating this code on the __**ARM-CortexM3(STM32F103 series)**__ chipset
 
-<span class="underline">This type of
-driver is the final version. We will not update it later.</span>
-<span class="underline">Please use the new (well coded :-)) driver code
-for new projects.</span>
+This type of driver is the final version. We will not update it later.
+Please use the new (well coded) driver code for new projects.

@@ -16,24 +16,24 @@ date: 2020-04-08
 
 ## Documents
 
-  - **[Product Overview (English)](Overview-[EN].md)**
-  - **[Product Overview (Korean)](Overview-[KO].md)**
+  - **[Product Overview (English)](overview-[EN])**
+  - **[Product Overview (Korean)](overview-[KO])**
       - Overview
       - Features
       - Product Contents
 
 <!-- end list -->
 
-  - **[Getting Started Guide (English)](Getting_Started-[EN].md)**
-  - **[Getting Started Guide (Korean)](Getting_Started-[KO].md)**
+  - **[Getting Started Guide (English)](getting_started-[EN])**
+  - **[Getting Started Guide (Korean)](getting_started-[KO])**
       - Unpacking the WIZ750SR-100
       - Prerequisites for Setup
       - Connect Your WIZ750SR-100
 
 <!-- end list -->
 
-  - **[User's Manual (English)](User's_Manual-[EN].md)** 
-  - **[User's Manual (Korean)](User's_Manual-[KO].md)** 
+  - **[User's Manual (English)](users_manual-[EN])** 
+  - **[User's Manual (Korean)](users_manual-[KO])** 
       - **It's used in common with WIZ750SR**
       - Operation Mode
       - Network / Serial Settings
@@ -41,23 +41,23 @@ date: 2020-04-08
 
 <!-- end list -->
 
-  - **[Configuration Tool Manual (New) (English)](Configuration_Tool_Manual_(New)-[EN].md)**
-  - **[Configuration Tool Manual (New) (Korean))](Configuration_Tool_Manual_(New)-[KO].md)**
+  - **[Configuration Tool Manual (New) (English)](configuration_tool_manual_new-[EN])**
+  - **[Configuration Tool Manual (New) (Korean))](configuration_tool_manual_new-[KO])**
       - **It's used in common with WIZ750SR**
       - Device Configuration Overview
       - Configuration Tool for Setting Devices
 
 <!-- end list -->
 
-  - **[Configuration Tool Manual (English)](Configuration_Tool_Manual-[EN].md)**
-  - **[Configuration Tool Manual (Korean)](Configuration_Tool_Manual-[KO].md)**
+  - **[Configuration Tool Manual (English)](configuration_tool_manual-[EN])**
+  - **[Configuration Tool Manual (Korean)](configuration_tool_manual-[KO])**
       - **It's used in common with WIZ750SR**
       - Device Configuration Overview
       - Configuration Tool for Setting Devices
 
 <!-- end list -->
 
-  - **[CLI Config Tool Tutorial](CLI_Config_Tool_Tutorial.md)**
+  - **[CLI Config Tool Tutorial](CLI_Config_Tool_Tutorial/cli_config_tool_tutorial)**
       - **It's used in common with WIZ750SR**
       - Device Configuration for CLI
       - CLI Configuration Tutorial

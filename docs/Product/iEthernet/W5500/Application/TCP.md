@@ -1,10 +1,8 @@
 ---
 id: tcp
-title: TCP
+title: W5500 TCP Function
 date: 2020-04-07
 ---
-
-# W5500 TCP Function
 
 By setting some register and memory operation, W5500 provides internet
 connectivity. This chapter describes how it can be operated.
@@ -28,7 +26,7 @@ below.
 For more information of above registers, refer to the “Register
 Descriptions.”
 
-### Setting network information
+## Setting network information
 
 Basic network information setting for communication: It must be set the
 basic network information.
@@ -46,7 +44,7 @@ basic network information.
 3.  SUBR(Subnet Mask Register)
 4.  SIPR(Source IP Address Register)
 
-### Set socket memory information
+## Set socket memory information
 
 This stage sets the socket tx/rx memory information. The base address
 and mask address of each socket are fixed and saved in this stage.
@@ -73,7 +71,7 @@ mode. The W5500 supports the independently and simultaneously usable 8
 SOCKETS. In this section, the communication method for each mode will be
 introduced.
 
-### TCP
+## TCP
 
 The TCP is a connection-oriented protocol. The TCP make the connection
 SOCKET by using its own IP address, port number and destination IP
@@ -89,12 +87,12 @@ connect-request first to “TCP SERVER” to make the connection
 ![TCP SERVER and TCP
 CLIENT](/img/products/w5500/application/serverclient.jpg)
 
-### TCP SERVER
+## TCP SERVER
 
 ![TCP SERVER Operation
 Flow](/img/products/w5500/application/server_flow.jpg)
 
-##### SOCKET Initialization
+### SOCKET Initialization
 
 SOCKET initialization is required for TCP data communication. The
 initialization is opening the SOCKET. The SOCKET opening process selects
@@ -124,7 +122,7 @@ though Sn\_CR is cleared to 0x00, the command is still being processed.
 *To check whether the command is completed or not, please check the
 Sn\_IR or Sn\_SR.*\</WRAP\>
 
-##### LISTEN
+### LISTEN
 
 Run as “TCP SERVER” by LISTEN command.
 
@@ -137,7 +135,7 @@ if (Sn_SR != SOCK_LISTEN) Sn_CR = CLOSE; goto START;
 }
 ```
 
-##### ESTABLISHMENT
+### ESTABLISHMENT
 
 When the status of Sn\_SR is SOCK\_LISTEN, if it receives a SYN packet,
 the status of Sn\_SR is changed to SOCK\_SYNRECV and transmits the
@@ -164,7 +162,7 @@ if (Sn_SR == SOCK_ESTABLISHED) goto ESTABLISHED stage;
 }
 ```
 
-##### ESTABLISHMENT : Check received data
+### ESTABLISHMENT : Check received data
 
 Confirm the reception of the TCP data.
 
@@ -189,7 +187,7 @@ Sn\_IR(RECV) and next Sn\_IR(RECV) being overlapped. So this method is
 not recommended if the host cannot perfectly process the DATA packets of
 each Sn\_IR(RECV).
 
-##### ESTABLISHMENT : Receiving process
+### ESTABLISHMENT : Receiving process
 
 In this process, it processes the TCP data which was received in the
 Internal RX memory. At the TCP mode, the W5500 cannot receive the data
@@ -218,7 +216,7 @@ Sn_CR = RECV;
 }
 ```
 
-##### ESTABLISHMENT: Check send data / Send process
+### ESTABLISHMENT: Check send data / Send process
 
 The size of the transmit data cannot be larger than assigned internal TX
 memory of Socket n. If the size of transmit data is larger than
@@ -275,7 +273,7 @@ return len;
 }
 ```
 
-##### ESTABLISHMENT : Check disconnect-request(FIN packet)
+### ESTABLISHMENT : Check disconnect-request(FIN packet)
 
 Check if the Disconnect-request(FIN packet) has been received. User can
 confirm the reception of FIN packet as below.
@@ -293,7 +291,7 @@ if (Sn_SR == SOCK_CLOSE_WAIT) goto CLOSED stage;
 }
 ```
 
-##### ESTABLISHMENT : Check disconnect / disconnecting process
+### ESTABLISHMENT : Check disconnect / disconnecting process
 
 When the user does not need data communication with others, or receives
 a FIN packet, disconnect the connection SOCKET.
@@ -305,7 +303,7 @@ Sn_CR = DISCON;
 }
 ```
 
-##### ESTABLISHMENT : Check closed
+### ESTABLISHMENT : Check closed
 
 Confirm that the Socket n is disconnected or closed by DISCON or close
 command.
@@ -323,7 +321,7 @@ if (Sn_SR == SOCK_CLOSED) goto CLOSED stage;
 }
 ```
 
-##### ESTABLISHMENT: Timeout
+### ESTABLISHMENT: Timeout
 
 The timeout can occur by Connect-request(SYN packet) or its
 response(SYN/ACK packet), the DATA packet or its response(DATA/ACK
@@ -346,7 +344,7 @@ if (Sn_SR == SOCK_CLOSED) goto CLOSED stage;
 }
 ```
 
-##### SOCKET Close
+### SOCKET Close
 
 It can be used to close the Socket n , which disconnected by
 disconnect-process, or closed by TCP<sub>TO</sub> or closed by host’s
@@ -362,7 +360,7 @@ Sn_CR = CLOSE;
 }
 ```
 
-### TCP CLIENT
+## TCP CLIENT
 
 It is same as TCP server except ‘CONNECT’ state. User can refer to the
 above "TCP SERVER” section.
@@ -370,7 +368,7 @@ above "TCP SERVER” section.
 ![TCP CLIENT Operation
 Flow](/img/products/w5500/application/client_flow.jpg)
 
-##### CONNECT
+### CONNECT
 
 Transmit the connect-request (SYN packet) to “TCP SERVER”. It may occurs
 the timeout such as ARP<sub>TO</sub>, TCP<sub>TO</sub> when make the
