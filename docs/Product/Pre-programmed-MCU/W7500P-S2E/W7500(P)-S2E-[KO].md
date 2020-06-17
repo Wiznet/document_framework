@@ -31,7 +31,7 @@ date: 2020-04-07
     네트워크로부터 받은 TCP/IP 패킷을 시리얼 데이터로 변환하여 고객의 시리얼 장비로 전달하는 역할을
     수행합니다.
 
-<!-- end list -->
+
 
   - 이 제품을 활용하면 **UART 인터페이스를 지원하는 장치에 손쉽게 네트워크 연결 기능을 추가 할 수 있어, 이더넷
     네트워크를 통해 시리얼 장비를 제어하는 것이 가능**해집니다.
@@ -76,22 +76,22 @@ MII supported for PHY interface
       - 하드웨어 구성에 따라 TTL, RS-232C, RS-422/485 serial communication 지원
       - Ethernet및 serial command mode를 통해 제품 configuration 가능
 
-<!-- end list -->
+
 
   - **MAC Address** 포함
 
-<!-- end list -->
+
 
   - **제품 설정을 위한 전용 Configuration tool 제공**
       - Network를 통해 제품 검색, 설정 및 펌웨어 업데이트 가능 
 
-<!-- end list -->
+
 
   - **WIZVSP program 제공**
       - PC로 제어하는 기존 Serial 장비를 위한 WIZnet Virtual Serial Port program for
         Windows 
 
-<!-- end list -->
+
 
   - **제품 디자인을 위한 상세 가이드 제공**
       - Hardware Design Guide & References
@@ -118,9 +118,9 @@ MII supported for PHY interface
 
 [Configuration Tool Manual (Korean)](../../S2E-Module/WIZ750SR/Configuration_Tool_Manual-[KO].md)
 
-[Configuration Tool Manual New (English)](../../S2E-Module/WIZ750SR/Configuration_Tool_Manual_(New)-[EN].md)
+[Configuration Tool Manual New (English)](../../S2E-Module/WIZ750SR/configuration_tool_manual_new-[EN].md)
 
-[Configuration Tool Manual New (Korean)](../../S2E-Module/WIZ750SR/Configuration_Tool_Manual_(New)-[KO].md)
+[Configuration Tool Manual New (Korean)](../../S2E-Module/WIZ750SR/configuration_tool_manual_new-[KO].md)
 
 [CLI Config Tool Tutorial](../../S2E-Module/WIZ750SR/CLI_Config_Tool_Tutorial.md)
 

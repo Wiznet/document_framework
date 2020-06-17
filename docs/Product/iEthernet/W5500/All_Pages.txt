@@ -424,7 +424,7 @@ Repository**
                         
                         - V1.02
 
-<!-- end list -->
+
 
 ``` 
         * socket.c (Refer to 20131220)
@@ -1023,7 +1023,7 @@ Rev1.0](/img/products/w5500/w5500_evb/w5500_evb_v1.0_composition.png)
   - GPIO Output Voltage : 0 \~ 3.3V
   - Two layer PCB (FR-4 material, 1.6T)
 
-<!-- end list -->
+
 
   - Arduino Compatible Header Pinout
 
@@ -1076,8 +1076,8 @@ IDE](make_a_new_w5500_evb_project_with_lpcxpresso_ide.md)
 
 **Schematic**
 
-  - ![](/products/w5500/w5500_evb/icons/download.png) [W5500 EVB Rev1.0 Schematic(Eagle CAD)](/img/products/w5500/w5500_evb/w5500_evb_v1.0_140527.zip) (Last updated on 2014-05-27)
-  - ![](/products/w5500/w5500_evb/icons/download.png) [W5500 EVB Rev1.0 Schematic(PDF)](/img/products/w5500/w5500_evb/w5500_evb_v1.0_140527.pdf)
+  - ![](/img/products/w5500/w5500_evb/icons/download.png) [W5500 EVB Rev1.0 Schematic(Eagle CAD)](/img/products/w5500/w5500_evb/w5500_evb_v1.0_140527.zip) (Last updated on 2014-05-27)
+  - ![](/img/products/w5500/w5500_evb/icons/download.png) [W5500 EVB Rev1.0 Schematic(PDF)](/img/products/w5500/w5500_evb/w5500_evb_v1.0_140527.pdf)
     (Last updated on 2014-05-27)
 
 **Part list**
@@ -1093,7 +1093,7 @@ IDE](make_a_new_w5500_evb_project_with_lpcxpresso_ide.md)
 
   - W5500 EVB Rev1.0 Dimension : 
 
-![](/products/w5500/w5500_evb/w5500_evb_v1.0_demension.png)
+![](/img/products/w5500/w5500_evb/w5500_evb_v1.0_demension.png)
 
 -----
 ## Etc.
@@ -1106,11 +1106,11 @@ IDE](make_a_new_w5500_evb_project_with_lpcxpresso_ide.md)
 
 ## See Also
 
-![](/products/w5500/w5500_evb/icons/link.png) [WIZnet Website -
+![](/img/products/w5500/w5500_evb/icons/link.png) [WIZnet Website -
 W5500](http://www.wiznet.co.kr/product-item/w5500) : W5500 Chip
 features, Pin assignment and Hardware Ref. Design Guide
 
-![](/products/w5500/w5500_evb/icons/link.png) [WizWiki
+![](/img/products/w5500/w5500_evb/icons/link.png) [WizWiki
 Forum](http://www.wizwiki.net/forum) : WIZnet Forum for Technical
 support and Project shared
 

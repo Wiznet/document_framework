@@ -45,7 +45,7 @@ and the WIZwiki board with USB cable.
       - It is for serial port message checking
       - Refer to the next link for the serial port example
 
-<!-- end list -->
+
 
 
   * [Exercise 2. Data output using serial port](Exercise_2._Serial_port(Eng).md)

@@ -49,7 +49,7 @@ simplify the design and reduce development time.
   -  Serial interface: 3.3V TTL x1: TXD, RXD, GND
   -  Default Serial communication parameters
 
-<!-- end list -->
+
 
 
    * Baud Rate: From 300bps to 460,800bps

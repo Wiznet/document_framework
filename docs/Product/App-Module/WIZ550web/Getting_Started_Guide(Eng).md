@@ -273,7 +273,7 @@ below.
             board)
           - UART2 : AT command port (RS485/422 on the dev board)
 
-<!-- end list -->
+
 \* **Digital I/O Status**: Indicates Digital I/O's Direction and Status
 
 ``` 
@@ -285,13 +285,13 @@ below.
     graphs
       - Analog Input Signals
 
-<!-- end list -->
+
 
   - **I/O Configuration**: Digital I/O's Direction and Alias settings
       - Digital I/O State and Alias Configuration
       - Digital I/O Settings Factory Default
 
-<!-- end list -->
+
 
   - **Serial Data**: Serial data transfer examples via Webpage to UART1.
       - Serial Tx (Web to UART1) / Rx (UART1 to Web)

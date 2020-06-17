@@ -4,10 +4,6 @@ title: User's Manual(Programmer's Guide)-[KO]
 date: 2020-04-24
 ---
 
-## Content
-
-# WIZ550SR Programmer's Guide
-
 ## 개요
 
 이 문서는 사용자가 WIZ550SR을 사용하기 위해서 필요한 AT commands set에 대한 상세 정보와 이더넷 통신을 통해서
@@ -21,8 +17,8 @@ WIZ550SR 모듈의 설정값을 확인하거나 변경할 수 있는 Configurati
 해당 인자들은 UART 라인을 통해서 입력된다. 모든 명령어들은 문자열 "AT"로 시작하고 그외 다른 문자열로 시작하는 경우에는
 에러가 리턴된다. 명령과 인자들은 모두가 ASCII 문자셋이다. 즉, 사용자가 "AT+NSTAT"를 입력하고자 한다면
 ASCII 문자 'A', 'T', '+', 'N', 'S', 'T', 'A', 'T'와 CR(0x0D), LF(0x0A)를
-순차적으로 입력해야한다. \<WRAP round important 40%\> **모든 명령어는 항상
-CR(0x0D), LF(0x0A)로 끝나야한다.** \</WRAP\> 어떤 인자들은 필수항목이고 또 다른 항목들은 옵션이다.
+순차적으로 입력해야한다. **모든 명령어는 항상
+CR(0x0D), LF(0x0A)로 끝나야한다.** 어떤 인자들은 필수항목이고 또 다른 항목들은 옵션이다.
 인자들은 명령어 표에 제시된 것과 같은 순서로 입력해야한다. 옵션 항목들이 사용하지 않는 경우라 할지라도 콤마 구분자는
 반드시 명령어에 포함해야한다. 대부분의 경우에, 명령어가 유효한 경우에 WIZ550SR은 \[S\]를 응답하고, 잘못된 명령에는
 \[F\]를 응답한다. WIZ550SR이 내 보낼 수 있는 응답은
@@ -166,7 +162,7 @@ CR(0x0D), LF(0x0A)로 끝나야한다.** \</WRAP\> 어떤 인자들은 필수항
 </thead>
 <tbody>
 <tr class="odd">
-<td><a href="/products/wiz550sr/wiz550sr_userguide_kr&amp;#at+nset">AT+NSET</a></td>
+<td><a href="#atnset">AT+NSET</a></td>
 <td>None or ?</td>
 <td></td>
 <td>[S,,S,(IP),(SN),(GW),(DNS)]</td>
@@ -196,13 +192,13 @@ CR(0x0D), LF(0x0A)로 끝나야한다.** \</WRAP\> 어떤 인자들은 필수항
 <td>[S]</td>
 </tr>
 <tr class="even">
-<td><a href="/products/wiz550sr/wiz550sr_userguide_kr&amp;#at+nstat">AT+NSTAT</a></td>
+<td><a href="#atnstat">AT+NSTAT</a></td>
 <td>None or ?</td>
 <td></td>
 <td>[S,,S/D,(IP),(SN),(GW),(DNS)]</td>
 </tr>
 <tr class="odd">
-<td><a href="/products/wiz550sr/wiz550sr_userguide_kr#at+nmac">AT+NMAC</a></td>
+<td><a href="#atnmac">AT+NMAC</a></td>
 <td>None or ?</td>
 <td></td>
 <td>[S,,(MAC)]</td>
@@ -214,7 +210,7 @@ CR(0x0D), LF(0x0A)로 끝나야한다.** \</WRAP\> 어떤 인자들은 필수항
 <td>[S]</td>
 </tr>
 <tr class="odd">
-<td><a href="/products/wiz550sr/wiz550sr_userguide_kr#at+nopen">AT+NOPEN</a></td>
+<td><a href="#atnopen">AT+NOPEN</a></td>
 <td>=</td>
 <td>S/C/U,(SrcPort),(DstIP),(DstPort)</td>
 <td>[W,(SockId)]<br />
@@ -227,21 +223,21 @@ CR(0x0D), LF(0x0A)로 끝나야한다.** \</WRAP\> 어떤 인자들은 필수항
 <td>:::</td>
 </tr>
 <tr class="odd">
-<td><a href="/products/wiz550sr/wiz550sr_userguide_kr#at+nclose">AT+NCLOSE</a></td>
+<td><a href="#atnclose">AT+NCLOSE</a></td>
 <td>=</td>
 <td>(SockId)</td>
 <td>[W,(SockId)]<br />
 [S,(SockId)]</td>
 </tr>
 <tr class="even">
-<td><a href="/products/wiz550sr/wiz550sr_userguide_kr#at+nsend">AT+NSEND</a></td>
+<td><a href="#atnsend">AT+NSEND</a></td>
 <td>=</td>
 <td>(SockId),(size),(DstIP),(DstPort)</td>
 <td>[W,(SockId)]<br />
 [S,(SockId)]</td>
 </tr>
 <tr class="odd">
-<td><a href="/products/wiz550sr/wiz550sr_userguide_kr#at+nsock">AT+NSOCK</a></td>
+<td><a href="#atnsock">AT+NSOCK</a></td>
 <td>None or ?</td>
 <td></td>
 <td>[D,,(Size)]↓(Data)</td>
@@ -257,181 +253,174 @@ CR(0x0D), LF(0x0A)로 끝나야한다.** \</WRAP\> 어떤 인자들은 필수항
 
 -----
 
-\<WRAP left round box 30%\>\<WRAP
-centeralign\>====AT+NSET====\</WRAP\>\</WRAP\>  
+### AT+NSET  
   
   
-\* **Format:** \<WRAP indent\>\<WRAP indent\>
+\* **Format:** 
 
-    AT+NSET=<DHCP>,<IP>,<SN>,<GW>
+```
+AT+NSET=<DHCP>,<IP>,<SN>,<GW>
+```
 
-\</WRAP\>\</WRAP\>
+- **Meaning:** 네트워크 정보를 확인하거나 설정한다
 
-  - **Meaning:** 네트워크 정보를 확인하거나 설정한다
-
-\<WRAP indent\>\<WRAP indent\> \<DHCP\>: 정적 IP / 유동 IP 사용 지정
+< DHCP \>: 정적 IP / 유동 IP 사용 지정
 
 | Parameter | Meaning              |
 | --------- | -------------------- |
 | S         | DHCP Off, Static     |
 | D         | DHCP On, DHCP Client |
 
-\<IP\>: IP 주소 (Optional)  
-\<SN\>: 서브넷 마스크 (Optional)  
-\<GW\>: 게이트웨이 주소 (Optional) \</WRAP\>\</WRAP\>
+< IP\>: IP 주소 (Optional)  
+< SN\>: 서브넷 마스크 (Optional)  
+< GW\>: 게이트웨이 주소 (Optional)
 
-  - **Response:**
+- **Response:**
 
-\<WRAP indent\>\<WRAP indent\>
+```
+[S]
+```
+- ***Example 1:***
 
-    [S]
+`AT+NSET\r\n`
 
-\</WRAP\>\</WRAP\>
+`AT+NSET?\r\n`
 
-  - ***Example 1:***
+- ***Meaning:*** *현재 설정된 네트워크 정보를 읽어온다*
 
-* \<WRAP indent\>\<WRAP indent\> `AT+NSET\r\n` `AT+NSET?\r\n`
-\</WRAP\>\</WRAP\> *
-
-  - ***Meaning:*** *현재 설정된 네트워크 정보를 읽어온다*
-
-* \<WRAP indent\>\<WRAP indent\> 응답에 담겨진 주소(IP 주소, 서브넷, 게이트웨이 주소)는 실제
+응답에 담겨진 주소(IP 주소, 서브넷, 게이트웨이 주소)는 실제
 주소와 다르고 메모리에 저장된 주소입니다. 특히, DHCP 모드가 켜져 있을 때는 대개 실제 주소와 다릅니다.
-\</WRAP\>\</WRAP\>*
+
 
   - ***Response:***
 
-* \<WRAP indent\>\<WRAP indent\>
-`[S,,S,192.168.11.100,255.255.255.0,192.168.11.1,8.8.8.8]
-` `[S,,D]
-`\</WRAP\>\</WRAP\>*
+`[S,,S,192.168.11.100,255.255.255.0,192.168.11.1,8.8.8.8]`  
+`[S,,D]`
+
 
   - ***Example 2:***
   
-  * \<WRAP indent\>\<WRAP indent\> `AT+NSET-2,192.168.11.110\r\n`
-\</WRAP\>\</WRAP\>*
+  *  `AT+NSET-2,192.168.11.110\r\n`
+*
 
   - ***Meaning:*** *현재 설정된 네트워크 정보중 두번째 인자인 IP 주소만 지정된 값으로 변경한다*
 
-*\<WRAP indent\>\<WRAP indent\> \</WRAP\>\</WRAP\>*
+**
 
   - ***Response:***
 
-*\<WRAP indent\>\<WRAP indent\> `[S]
-` \</WRAP\>\</WRAP\>*
+* `[S]
+`*
 
 -----
 
-\<WRAP left round box 30%\>\<WRAP
-centeralign\>====AT+NSTAT====\</WRAP\>\</WRAP\>  
+### AT+NSTAT  
   
   
-\* **Format:** \<WRAP indent\>\<WRAP indent\>
+\* **Format:** 
 
     AT+NSTAT
 
     AT+NSTAT?
 
-\</WRAP\>\</WRAP\>
+
 
   - **Meaning:** 현재 네트워크 상태값을 표시한다
 
-\<WRAP indent\>\<WRAP indent\> \</WRAP\>\</WRAP\>
+
 
   - **Response:**
 
-\<WRAP indent\>\<WRAP indent\>
+
 
     [S,,<DHCP>,<IP>,<SN>,<GW>,<DNS>]
 
-\</WRAP\>\</WRAP\>
+
 
   - ***Example 1:***
 
-* \<WRAP indent\>\<WRAP indent\> `AT+NSTAT\r\n` `AT+NSTAT?\r\n`
-\</WRAP\>\</WRAP\> *
+*  `AT+NSTAT\r\n` `AT+NSTAT?\r\n`
+ *
 
   - ***Meaning:*** *현재 네트워크 상태값을 표시한다*
 
-<!-- end list -->
+
 
   - ***Response:***
 
-* \<WRAP indent\>\<WRAP indent\>
+* 
 `[S,,S,192.168.11.100,255.255.255.0,192.168.11.1,8.8.8.8]
 ` `[S,,D]
-`\</WRAP\>\</WRAP\>*
+`*
 
 -----
 
-\<WRAP left round box 30%\>\<WRAP
-centeralign\>====AT+NMAC====\</WRAP\>\</WRAP\>  
+### AT+NMAC  
   
   
-\* **Format:** \<WRAP indent\>\<WRAP indent\>
+\* **Format:** 
 
     AT+NMAC?
 
     AT+NMAC=<MAC>
 
-\</WRAP\>\</WRAP\>
+
 
   - **Meaning:** Get MAC Address
 
-\<WRAP indent\>\<WRAP indent\> \</WRAP\>\</WRAP\>
+
 
   - **Response:**
 
-\<WRAP indent\>\<WRAP indent\>
+
 
     [S,,<MAC>]
     [S]
 
-\</WRAP\>\</WRAP\>
+
 
   - ***Example 1:***
 
-* \<WRAP indent\>\<WRAP indent\> `AT+NMAC=00:08:dc:1d:bb:8b\r\n`
-\</WRAP\>\</WRAP\> *
+*  `AT+NMAC=00:08:dc:1d:bb:8b\r\n`
+ *
 
   - ***Meaning:*** *모듈의 맥주소를 지정된 값으로 변경한다*
 
-<!-- end list -->
+
 
   - ***Response:***
 
-* \<WRAP indent\>\<WRAP indent\> `[S]
-`\</WRAP\>\</WRAP\>*
+*  `[S]
+`*
 
   - ***Example 2:***
 
-* \<WRAP indent\>\<WRAP indent\> `AT+NMAC\r\n` `AT+NMAC?\r\n`
-\</WRAP\>\</WRAP\> *
+*  `AT+NMAC\r\n` `AT+NMAC?\r\n`
+ *
 
   - ***Meaning:*** *현재 모듈의 맥주소를 표시한다*
 
-<!-- end list -->
+
 
   - ***Response:***
 
-* \<WRAP indent\>\<WRAP indent\> `[S,,00:08:dc:1d:bb:8a]
-` \</WRAP\>\</WRAP\>*
+*  `[S,,00:08:dc:1d:bb:8a]
+`*
 
 -----
 
-\<WRAP left round box 30%\>\<WRAP
-centeralign\>====AT+NOPEN====\</WRAP\>\</WRAP\>  
+### AT+NOPEN  
   
   
-\* **Format:** \<WRAP indent\>\<WRAP indent\>
+\* **Format:** 
 
     AT+NOPEN=<SockType>,<SrcPort>,<DstIP>,<DstPort>
 
-\</WRAP\>\</WRAP\>
+
 
   - **Meaning:** 소켓 초기화. 지정된 인자를 이용해서 소켓을 생성한다
 
-\<WRAP indent\>\<WRAP indent\> \<SockType\>: Socket Type
+ \<SockType\>: Socket Type
 
 | Parameter | Meaning           |
 | --------- | ----------------- |
@@ -441,104 +430,102 @@ centeralign\>====AT+NOPEN====\</WRAP\>\</WRAP\>
 
 \<SrcPort\>: Local Port Number  
 \<DstIP\>: Destination IP Address  
-\<DstPort\>: Destination Port Number \</WRAP\>\</WRAP\>
+\<DstPort\>: Destination Port Number
 
   - **Response:**
 
-\<WRAP indent\>\<WRAP indent\>
+
 
     [W,(SockId)]
 
     [S,(SockId)]
 
-\</WRAP\>\</WRAP\>
+
 
   - ***Example 1:***
 
-* \<WRAP indent\>\<WRAP indent\>
-`AT+NOPEN=C,3000,192.168.11.100,3000\r\n` \</WRAP\>\</WRAP\> *
+* 
+`AT+NOPEN=C,3000,192.168.11.100,3000\r\n` *
 
   - ***Meaning:*** *지정된 값을 이용해서 Client 소켓을 생성한다*
 
-<!-- end list -->
+
 
   - ***Response:***
 
-* \<WRAP indent\>\<WRAP indent\> `[W,0]
+*  `[W,0]
 [S,0]
 ` `[W,0]
 [F,,1]
-`\</WRAP\>\</WRAP\> *
+` *
 
   - ***Example 2:***
-  * \<WRAP indent\>\<WRAP indent\> `AT+NOPEN=S,5000,,\r\n`
-\</WRAP\>\</WRAP\> *
+  *  `AT+NOPEN=S,5000,,\r\n`
+ *
 
   - ***Meaning:*** *지정된 포트 넘버로 Server 소켓을 생성한다*
 
-<!-- end list -->
+
 
   - ***Response:***
 
-* \<WRAP indent\>\<WRAP indent\> `[S,,0]
-` \</WRAP\>\</WRAP\> *
+*  `[S,,0]
+` *
 
 -----
 
-\<WRAP left round box 30%\>\<WRAP
-centeralign\>====AT+NCLOSE====\</WRAP\>\</WRAP\>  
+### AT+NCLOSE  
   
   
-\* **Format:** \<WRAP indent\>\<WRAP indent\>
+\* **Format:** 
 
     AT+NCLOSE=(SockId)
 
-\</WRAP\>\</WRAP\>
+
 
   - **Meaning:** 지정된 ID의 소켓을 종료한다
 
-\<WRAP indent\>\<WRAP indent\> \<SockId\>: Socket ID \</WRAP\>\</WRAP\>
+ \<SockId\>: Socket ID
 
   - **Response:**
 
-\<WRAP indent\>\<WRAP indent\>
+
 
     [W,(SockId)]
 
     [S,(SockId)]
 
-\</WRAP\>\</WRAP\>
+
 
   - ***Example 1:***
 
-* \<WRAP indent\>\<WRAP indent\> `AT+NCLOSE\r\n` \</WRAP\>\</WRAP\> *
+*  `AT+NCLOSE\r\n` *
 
   - ***Meaning:*** // 데이터 통신용 소켓을 종료한다//
 
-<!-- end list -->
+
 
   - ***Response:***
 
-* \<WRAP indent\>\<WRAP indent\> `[W,0]
+*  `[W,0]
 [S,0]
 ` `[F,,11]
-`\</WRAP\>\</WRAP\>*
+`*
 
 -----
 
-\<WRAP left round box 30%\>\<WRAP
-centeralign\>====AT+NSEND====\</WRAP\>\</WRAP\>  
+### AT+NSEND  
   
   
-\* **Format:** \<WRAP indent\>\<WRAP indent\>
+\* **Format:** 
 
     AT+NSEND=<SockId>,<size>,<DstIP>,<DstPort>
 
-\</WRAP\>\</WRAP\>
+
 
   - **Meaning:** 연결된 소켓을 통해서 데이터를 전송한다
 
-\<WRAP indent\>\<WRAP indent\> \<SockId\>: Socket ID
+ \<SockId\>: Socket ID
 
 | Parameter | Meaning           |
 | --------- | ----------------- |
@@ -548,29 +535,29 @@ centeralign\>====AT+NSEND====\</WRAP\>\</WRAP\>
 
 \<SrcPort\>: 로컬 포트 넘버  
 \<DstIP\>: 목적지 IP 주소  
-\<DstPort\>: 목적지 포트 넘버 \</WRAP\>\</WRAP\>
+\<DstPort\>: 목적지 포트 넘버
 
   - **Response:**
 
-\<WRAP indent\>\<WRAP indent\>
+
 
     [W,(SockId)]
 
     [S,(SockId)]
 
-\</WRAP\>\</WRAP\>  
-\* ***Example 1:*** * \<WRAP indent\>\<WRAP indent\> `AT+NSEND=0,4\r\n
-aaaa` \</WRAP\>\</WRAP\> *
+  
+\* ***Example 1:*** *  `AT+NSEND=0,4\r\n
+aaaa` *
 
   - ***Meaning:*** *TCP 모드인 경우, 목적지의 IP 주소와 포트 넘버를 지정하지 않는다*
 
-<!-- end list -->
+
 
   - ***Response:***
 
-* \<WRAP indent\>\<WRAP indent\> [W,0]
+*  [W,0]
 [S,0]
- \</WRAP\>\</WRAP\>*
+*
 
 -----
 
@@ -591,71 +578,68 @@ aaaa` \</WRAP\>\</WRAP\> *
 
 -----
 
-\<WRAP left round box 30%\>\<WRAP
-centeralign\>====AT====\</WRAP\>\</WRAP\>  
+### AT  
   
   
-\* **Format:** \<WRAP indent\>\<WRAP indent\>
+\* **Format:** 
 
 ``` 
 AT
 ```
 
-\</WRAP\>\</WRAP\>
+
 
   - **Meaning:** AT 커맨드 모드인지 체크한다
 
-\<WRAP indent\>\<WRAP indent\> \</WRAP\>\</WRAP\>
+
 
   - **Response:**
 
-\<WRAP indent\>\<WRAP indent\>
+
 
     [S]
 
-\</WRAP\>\</WRAP\>
+
 
 -----
 
-\<WRAP left round box 30%\>\<WRAP
-centeralign\>====AT+MSTAT====\</WRAP\>\</WRAP\>  
+### AT+MSTAT 
   
   
-\* **Format:** \<WRAP indent\>\<WRAP indent\>
+\* **Format:** 
 
     AT+MSTAT
 
     AT+MSTAT?
 
-\</WRAP\>\</WRAP\>
+
 
   - **Meaning:** 현재 펌웨어 버전 정보를 읽어온다
 
-\<WRAP indent\>\<WRAP indent\> \</WRAP\>\</WRAP\>
+
 
   - **Response:**
 
-\<WRAP indent\>\<WRAP indent\>
+
 
     [S,,<Version>]
 
-\</WRAP\>\</WRAP\>
+
 
 -----
 
-\<WRAP left round box 30%\>\<WRAP
-centeralign\>====AT+MUSART====\</WRAP\>\</WRAP\>  
+### AT+MUSART  
   
   
-\* **Format:** \<WRAP indent\>\<WRAP indent\>
+\* **Format:** 
 
     AT+MUSART=<BR>,<W>,<P>,<S>,<F>
 
-\</WRAP\>\</WRAP\>
+
 
   - **Meaning:** 시리얼 설정값을 읽어오거나 새로운 설정값을 지정한다
 
-\<WRAP indent\>\<WRAP indent\> \<BR\>: Baud rate  
+ \<BR\>: Baud rate  
 ^ Parameter ^ Meaning ^
 
 |        |           |
@@ -706,74 +690,73 @@ centeralign\>====AT+MUSART====\</WRAP\>\</WRAP\>
 | 2 | RS422   |
 | 3 | RS485   |
 
-\</WRAP\>\</WRAP\>
+
 
   - **Response:**
 
-\<WRAP indent\>\<WRAP indent\>
+
 
     [S,,<BR>,( <W>, <P>, <S> ) <F>]
 
-\</WRAP\>\</WRAP\>
+
 
 -----
 
-\* **Example1:** \<WRAP indent\>\<WRAP indent\>
+\* **Example1:** 
 
     AT+MUSART\r\n
 
     AT+MUSART?\r\n
 
-\</WRAP\>\</WRAP\>
+
 
   - **Meaning:** 현재 시리얼 설정값을 표시한다
 
-\<WRAP indent\>\<WRAP indent\> \</WRAP\>\</WRAP\>
+
 
   - **Response:**
 
-\<WRAP indent\>\<WRAP indent\>
+
 
     [S,,115200,8,N,1,0]
 
-\</WRAP\>\</WRAP\>
+
 
   - **Example2:**
 
-\<WRAP indent\>\<WRAP indent\>
+
 
     AT+MUSART=,,E,,0\r\n
 
-\</WRAP\>\</WRAP\>
+
 
   - **Meaning:** 새로운 시리얼 설정값을 지정한다. 공백 필드는 변경하지 않고 Parity, Flow control만
     변경한다
 
-\<WRAP indent\>\<WRAP indent\> \</WRAP\>\</WRAP\>
+
 
   - **Response:**
 
-\<WRAP indent\>\<WRAP indent\>
+
 
     [S]
 
-\</WRAP\>\</WRAP\>
+
 
 -----
 
-\<WRAP left round box 30%\>\<WRAP
-centeralign\>====AT+MDATA====\</WRAP\>\</WRAP\>  
+### AT+MDATA  
   
   
-\* **Format:** \<WRAP indent\>\<WRAP indent\>
+\* **Format:** 
 
     AT+MDATA
 
-\</WRAP\>\</WRAP\>
+
 
   - **Meaning:** AT 커맨드 모드에서 데이터 모드로 전환한다
 
-\<WRAP indent\>\<WRAP indent\> \</WRAP\>\</WRAP\>
+
 
   - **Response:**
 
@@ -819,7 +802,7 @@ centeralign\>====AT+MDATA====\</WRAP\>\</WRAP\>
 
 ### Description
 
-![](/products/wiz550s2e/wiz550s2epg_kr/configtool/global_config.png)  
+![](/img/products/wiz550s2e/wiz550s2epg_kr/configtool/global_config.png)  
 WIZnet Configuration tool은 java 기반으로 구현된 응용프로그램으로 대부분의 OS Platform에서 사용이
 가능하다. .jar 파일을 다운로드해서 Java Virtual machine상에서 실행되도록 하면 된다.  
 [설치방법](http://xeon011.tistory.com/146)  
@@ -845,7 +828,7 @@ WIZ550SR는 위 네가지 항목 모두를 설정 할 수 있다.
 
 ## Common Configurations
 
-![](/products/wiz550s2e/wiz550s2epg_kr/configtool/common_config.png)  
+![](/img/products/wiz550s2e/wiz550s2epg_kr/configtool/common_config.png)  
 \==== Search ==== Search 기능은 같은 LAN 상에 존재하는 모든 모듈을 검색하는 데 사용된다. UDP
 브로드캐스트를 사용하여, 동일한 Subnet 상의 모든 모듈이 검색되면, 해당 모듈의 MAC Address가
 표시 된다.
@@ -856,7 +839,7 @@ WIZ550SR는 위 네가지 항목 모두를 설정 할 수 있다.
 버튼을 눌러야 그 값이 모듈에 반영이 되고, 변경된 값은 모듈내의 EEPROM에 저장되어 모듈의 전원이 차단되는 경우에도
 그 설정 값이 유지되게 된다.  
 설정 값을 변경하는 과정은 다음과 같다.  
-![](/products/wiz550s2e/wiz550s2epg_kr/configtool/password.png)
+![](/img/products/wiz550s2e/wiz550s2epg_kr/configtool/password.png)
 
     1. "Search Windows”에서 설정 값을 변경할 모듈의 MAC Address를 선택(클릭)하면, 
        해당 모듈에 저장되어 있는 설정 값이 각 필드에 표시 된다.
@@ -871,7 +854,7 @@ WIZ550SR는 위 네가지 항목 모두를 설정 할 수 있다.
 
 TFTP를 통하여 펌웨어를 업로드 한다. "F/W Uploading" 버튼을 누르면 아래의 창이 뜨며, 설정 정보들을 입력한 뒤
 "OK" 버튼을 누르면 업데이트가 진행된다.  
-![](/products/wiz550s2e/wiz550s2epg_kr/configtool/tftp_server_info.png)
+![](/img/products/wiz550s2e/wiz550s2epg_kr/configtool/tftp_server_info.png)
 
     Server IP : 
         TFTP 서버 IP
@@ -954,7 +937,7 @@ Reserved
 
 ## Network Configurations
 
-![](/products/wiz550s2e/wiz550s2epg_kr/configtool/network_config.png)
+![](/img/products/wiz550s2e/wiz550s2epg_kr/configtool/network_config.png)
 
 ### IP
 
@@ -1060,7 +1043,7 @@ UDP 모드에서는 TCP와 같은 연결 과정이 없으므로, 상대방의 IP
 
 ## Serial Configurations
 
-![](/products/wiz550s2e/wiz550s2epg_kr/configtool/serial_config.png)
+![](/img/products/wiz550s2e/wiz550s2epg_kr/configtool/serial_config.png)
 
 ### USART
 
@@ -1112,7 +1095,7 @@ WIZ550SR은 Time, Size, Character의 3가지의 조건을 제공한다.
 
 ## Options Configurations
 
-![](/products/wiz550s2e/wiz550s2epg_kr/configtool/option_config.png)
+![](/img/products/wiz550s2e/wiz550s2epg_kr/configtool/option_config.png)
 
 ### Module Name
 

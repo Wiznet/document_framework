@@ -28,7 +28,7 @@ Comparison Sheet** provides comparison with ESP8266 AT command.
 
   - [WizFi360 Datasheet v1.05](/img/products/wizfi360/wizfi360ds/wizfi360_ds_v105_en.pdf)
 
-<!-- end list -->
+
 
   - 2019-12-11 V1.05
       - Edited “5. Pin Definitions”

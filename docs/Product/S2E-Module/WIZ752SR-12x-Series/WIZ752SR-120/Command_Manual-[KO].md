@@ -10,7 +10,7 @@ date: 2020-04-13
 * [English](Command_Manual-[EN].md)  
 * [Korean](Command_Manual-[KO].md) (current page)
 
-![](/products/wiz750sr/docs_icon.png)
+![](/img/products/wiz750sr/docs_icon.png)
 
 -----
 
@@ -36,7 +36,7 @@ UART port는 커맨드의 입력과 수행을 지원하지 않습니다.**
 
   - **[시리얼 커맨드 모드를 통한 제어](#entering_serial_command_mode)**
 
-<!-- end list -->
+
 
   - **[이더넷 네트워크를 통한 제어](#command_via_ethernet)**
 
@@ -177,7 +177,7 @@ Ethernet을 통해 제품을 제어 할 때는 커맨드 코드 전송 이전에
             MAC 주소\[2\]로 지정 할 수 있습니다. 이러한 경우 다수의 Peer에게 응답(response)를 수신
             할 수 있으며, 설정 프로그램의 Search 기능이 이러한 방법으로 구현 되어 있습니다.
 
-<!-- end list -->
+
 
   - **[PW] 커맨드**
       - 제품의 설정 중 제품 그룹 식별을 위한 **'Search ID Code'**를 사용 할 경우, PW 커맨드 이후에
@@ -187,7 +187,7 @@ Ethernet을 통해 제품을 제어 할 때는 커맨드 코드 전송 이전에
 
 **Ethernet을 통한 커맨드 전송 시의 커맨드
 프레임은  
-반드시 MA -> PW -> (Command x N)의 순서로 구성되어야 합니다.** \</WRAP\>
+반드시 MA -> PW -> (Command x N)의 순서로 구성되어야 합니다.**
 
 1.  Broadcast IP 주소 255.255.255.255로 데이터를 전송하여, 동일 망 내에 위치한 모든 Peer에게
     데이터를 전송하는 방법
@@ -545,7 +545,7 @@ Status I/O</td>
 
     Firmware version with dots(.)
 
-  - \=\> Major version number . Minor version number . Maintenance
+  - ⇒ Major version number . Minor version number . Maintenance
     version number
 
 
@@ -1895,7 +1895,7 @@ Return value</th>
       - 제품의 동작 설정을 공장 초기화 상태(출고 시 초기 상태)로 변경합니다.
 
 
-  - 제품의 초기 설정 값은 **[WIZ750SR Factory Settings](/products/wiz750sr/gettingstarted/ko#wiz750sr_factory_settings)**에서
+  - 제품의 초기 설정 값은 **[WIZ750SR Factory Settings](getting_started-[KO]#wiz750sr-factory-settings)**에서
     확인 할 수 있습니다.
   - 공장 초기화 수행 시, **[RT](#rt)** 커맨드를 수행 한 것과 동일하게 제품을 재시작 합니다.
       - 만약 시리얼 디버그 메시지를 사용 중인 경우, Data UART 포트를 통해 다음과 같은 메시지를 출력합니다.
@@ -2176,7 +2176,7 @@ Return value</th>
   - **Without Parameter (Get)**
       - In ASCII: `S10\r\n`
 
-\</WRAP\> \<WRAP half column\> \</WRAP\> \</WRAP\> \</WRAP\> \</WRAP\>
+
 
 -----
 
@@ -2192,9 +2192,9 @@ Return value</th>
 [![arrow_upward.png](/etc/arrow_upward.png)](#wiz750sr_command_manual)  
 **Scroll to Top** 
 
-[![arrow_forward.png](/etc/arrow_forward.png)](/products/wiz750sr/troubleshooting/ko)  
+[![arrow_forward.png](/etc/arrow_forward.png)](trouble_shooting-[KO])  
 **Next Page**  
-[Troubleshooting Guide](/products/wiz750sr/troubleshooting/ko)
+[Troubleshooting Guide](trouble_shooting-[KO])
 
 [![arrow_refresh.png](/etc/arrow_refresh.png)](/products/wiz750sr/start)  
 **Back to Product Main**  
@@ -2217,15 +2217,15 @@ Return value</th>
 
   - **[User's Manual](/products/wiz750sr/usermanual/ko)** 
 
-<!-- end list -->
 
-  - **[Device Command Manual](/products/wiz750sr/commandmanual/ko)**
 
-<!-- end list -->
+  - **[Device Command Manual](command_manual-[KO])**
 
-  - **[Troubleshooting Guide](/products/wiz750sr/troubleshooting/ko)**
 
-<!-- end list -->
+
+  - **[Troubleshooting Guide](trouble_shooting-[KO])**
+
+
 
   - **[Update History](/products/wiz750sr/history/ko)**
 
@@ -2235,7 +2235,7 @@ Return value</th>
 
   - **[Software Downloads](/products/wiz750sr/download/start)**
 
-<!-- end list -->
+
 
   - **[Technical Reference](/products/wiz750sr/reference/start)**
 

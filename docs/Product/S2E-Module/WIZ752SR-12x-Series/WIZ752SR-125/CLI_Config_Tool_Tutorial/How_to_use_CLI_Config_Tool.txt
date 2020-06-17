@@ -29,7 +29,7 @@ You can go to the path where config tool is located after running
 cmd.exe, but if you go into the tool directory and run cmd, you can
 start from that path.
 
-![](/products/configtool/option/cmd_direct.png) \</WRAP\>
+![](/img/products/configtool/option/cmd_direct.png)
 
 -----
 
@@ -40,7 +40,7 @@ command.
 
     python wizconfig.py -h
 
-![](/products/configtool/option/option_help.png)
+![](/img/products/configtool/option/option_help.png)
 
 **optional arguments:**
 
@@ -149,12 +149,12 @@ command.
   --getfile GETFILE     File name to Get info. Refer default command(cmd_oneport.txt or cmd_twoport.txt).
 ```
 
-\<WRAP center round tip 80%\> \*\* \<About Channel \#N Options\> \*\*  
+\*\* \<About Channel \#N Options\> \*\*  
 **1 Port S2E devices**  
 Use <span class="underline">Channel \#0 Options</span> only.  
 **2 Port S2E devices**  
 Use <span class="underline">Channel \#0 Options</span> &
-<span class="underline">Channel \#1 Options</span> both. \</WRAP\>
+<span class="underline">Channel \#1 Options</span> both.
 
 -----
 
@@ -173,10 +173,10 @@ searched devices is recorded in **mac\_list.txt** file.
 If new device is found, it is displayed as 'New Device', and this is
 determined by whether it is recorded in mac\_list.txt.
 
-![](/products/configtool/option/option_search_new.png)
+![](/img/products/configtool/option/option_search_new.png)
 
 If you search for the same device again, you can see that 'New device'
 is not displayed.
 
-![](/products/configtool/option/option_search_old.png)
+![](/img/products/configtool/option/option_search_old.png)
 

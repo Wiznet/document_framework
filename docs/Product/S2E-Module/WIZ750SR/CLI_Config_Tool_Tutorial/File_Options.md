@@ -6,8 +6,6 @@ date: 2020-04-09
 
 CLI Configuration Tool Tutorial \#5
 
-# File Options
-
 -----
 
 ## 1. Getfile option
@@ -18,7 +16,7 @@ option for CLI.
 There are example files named **cmd\_oneport.txt** and
 **cmd\_twoport.txt** for using getfile option.
 
-These files contain <span class="underline">command list</span> of each
+These files contain command list of each
 1 port and 2 port devices. This command list is used to get each
 configuration info from the device.
 
@@ -28,12 +26,12 @@ for single device,
 
 ``` 
 python wizconfig.py -d 00:08:DC:XX:XX:XX --getfile [file_name]
-
 ```
 
 for multi devices,
-
-    python wizconfig.py -a --getfile [file_name]
+```
+python wizconfig.py -a --getfile [file_name]
+```
 
 for detail description of command set, refer to [WIZ750SR Command List](../Command_Manual-[EN].md).
 
@@ -48,10 +46,9 @@ Try to perform a device search first.
 
 ``` 
 python wizconfig.py -s
-
 ```
 
-![](/products/wiz750sr/clitool/fileoption/02.search.png)
+![](/img/products/wiz750sr/clitool/fileoption/02.search.png)
 
 You then use the getfile option to get information from a single device
 or multiple devices as follows.
@@ -60,14 +57,15 @@ or multiple devices as follows.
 
 ``` 
 python wizconfig.py -d 00:08:DC:53:AE:93 --getfile cmd_oneport.txt
-
 ```
 
 * Multi devices
 
-    python wizconfig.py -a --getfile cmd_oneport.txt
+```
+python wizconfig.py -a --getfile cmd_oneport.txt
+```
 
-![](/products/wiz750sr/clitool/fileoption/single_getfile.png)
+![](/img/products/wiz750sr/clitool/fileoption/single_getfile.png)
 
 -----
 
@@ -105,16 +103,17 @@ Use getfile option with new command list file.
 
 ``` 
 python wizconfig.py -d 00:08:DC:53:AE:93 --getfile cmd_net.txt
-
 ```
 
-![](/products/wiz750sr/clitool/fileoption/single_getfile_short.png)
+![](/img/products/wiz750sr/clitool/fileoption/single_getfile_short.png)
 
 * Multi devices
 
-    python wizconfig.py -a --getfile cmd_net.txt
+```
+python wizconfig.py -a --getfile cmd_net.txt
+```
 
-![](/products/wiz750sr/clitool/fileoption/multi_getfile_short.png)
+![](/img/products/wiz750sr/clitool/fileoption/multi_getfile_short.png)
 
 You can use this after customizing according to your purpose and
 situation.
@@ -129,8 +128,7 @@ It can be used as the macro.
 
 To use this option, you have to make command set. (command + parameter)
 
-  - for detail description of command set, refer to [WIZ750SR Command
-    List](../Command_Manual-[EN].md).
+  - for detail description of command set, refer to [WIZ750SR Command List](../Command_Manual-[EN].md).
 
 List up and write the command set info you want to set a file.
 
@@ -140,12 +138,13 @@ for single device,
 
 ``` 
 python wizconfig.py -d 00:08:DC:XX:XX:XX --setfile [file_name]
-
 ```
 
 for multi devices,
 
-    python wizconfig.py -a --setfile [file_name]
+```
+python wizconfig.py -a --setfile [file_name]
+```
 
 -----
 
@@ -162,40 +161,38 @@ There is an example file in the project directory, 'set\_cmd.txt'.
     LP5000
     BR12
 
-* From top to bottom: local IP, Subnet mask, Gateway, Local port, Baud
-rate
+\* From top to bottom: local IP, Subnet mask, Gateway, Local port, Baudrate and set as follows.
 
-and set as follows.
-
-* **Single device**
+\* **Single device**
 
 ``` 
 python wizconfig.py -d 00:08:DC:53:AE:93 --setfile set_cmd.txt
-
 ```
 
-![](/products/wiz750sr/clitool/fileoption/single_setfile.png)
+![](/img/products/wiz750sr/clitool/fileoption/single_setfile.png)
 
-* **Check:**
+\* **Check:**
 
-    python wizconfig.py -d 00:08:DC:53:AE:93 --getfile set_cmd.txt
+```
+python wizconfig.py -d 00:08:DC:53:AE:93 --getfile set_cmd.txt
+```
 
-![](/products/wiz750sr/clitool/fileoption/single_setfile_get.png)
+![](/img/products/wiz750sr/clitool/fileoption/single_setfile_get.png)
 
-* **Multi devices**
+\* **Multi devices**
 
 ``` 
 python wizconfig.py -a --setfile set_cmd.txt
-
 ```
 
-![](/products/wiz750sr/clitool/fileoption/multi_setfile.png)
+![](/img/products/wiz750sr/clitool/fileoption/multi_setfile.png)
 
-* **Check:**
+\* **Check:**
 
-    python wizconfig.py -a --getfile set_cmd.txt
+```
+python wizconfig.py -a --getfile set_cmd.txt
+```
 
-![](/products/wiz750sr/clitool/fileoption/multi_setfile_get.png)
+![](/img/products/wiz750sr/clitool/fileoption/multi_setfile_get.png)
 
-The setfile option can be useful when you want to save and use multiple
-options as shown above.
+The setfile option can be useful when you want to save and use multiple options as shown above.

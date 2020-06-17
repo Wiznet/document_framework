@@ -29,7 +29,7 @@ date: 2020-04-09
     Thus there is not a separate Configuration tool exclusively for
     WIZ750SR and users should use the WIZ107/107SR Configuration tool.
 
-<!-- end list -->
+
 
   - The latest version Configuration tool can be downloaded at this
     [download page](/products/wiz750sr/download/start).
@@ -40,7 +40,7 @@ date: 2020-04-09
 
   - Check the power and Ethernet cable’s connection first.
 
-<!-- end list -->
+
 
   - Check if the ping request from PC to module is successful.
       - When using Windows
@@ -50,30 +50,30 @@ date: 2020-04-09
 
 |                                                         |
 | ------------------------------------------------------- |
-| ![](/products/wiz750sr/troubleshooting/windows_cmd.png) |
+| ![](/img/products/wiz750sr/troubleshooting/windows_cmd.png) |
 | Entering 'cmd' command on Windows Run                   |
 
 |                                                            |
 | ---------------------------------------------------------- |
-| ![](/products/wiz750sr/troubleshooting/ping_success_0.png) |
+| ![](/img/products/wiz750sr/troubleshooting/ping_success_0.png) |
 | Ping request / reply success                               |
 
 |                                                           |
 | --------------------------------------------------------- |
-| ![](/products/wiz750sr/troubleshooting/ping_failed_0.png) |
+| ![](/img/products/wiz750sr/troubleshooting/ping_failed_0.png) |
 | Ping request / reply failed                               |
 
   - Use \*\* UDP broadcast, port 50001\*\* in order to use the UDP
     Search from the configuration tool of WIZ750SR. Please test after
     closing the **OS firewall and virus programs**. 
 
-<!-- end list -->
+
 
   - If there is a problem with the UDP port, users can change the OS
     inbound / outbound port settings to open the Search & firmware
     update port (UDP/TCP 50001, TCP 50002).
 
-<!-- end list -->
+
 
   - If multiple network adaptors are used, an error can occur in sending
     the packet in the correct order of the network interface Metric.
@@ -93,7 +93,7 @@ date: 2020-04-09
 
 |                                                       |
 | ----------------------------------------------------- |
-| ![](/products/wiz750sr/gettingstarted/configtool.png) |
+| ![](/img/products/wiz750sr/gettingstarted/configtool.png) |
 | WIZ107/108SR & **WIZ750SR** Configuration Tool        |
 
 \++++
@@ -104,7 +104,7 @@ date: 2020-04-09
     information
 2.  Check the ‘Firmware version' 
 
-<!-- end list -->
+
 
   - User can check the latest firmware version at the [product update
     history page](/products/wiz750sr/history/en) and [download
@@ -117,7 +117,7 @@ date: 2020-04-09
   - WIZ750SR has an internal TCP server for firmware updates.
       - TCP port number: 50002
 
-<!-- end list -->
+
 
   - Check if the ping request from PC to module is successful.
       - When using Windows
@@ -127,17 +127,17 @@ date: 2020-04-09
 
 |                                                         |
 | ------------------------------------------------------- |
-| ![](/products/wiz750sr/troubleshooting/windows_cmd.png) |
+| ![](/img/products/wiz750sr/troubleshooting/windows_cmd.png) |
 | Entering 'cmd' command on Windows Run                   |
 
 |                                                            |
 | ---------------------------------------------------------- |
-| ![](/products/wiz750sr/troubleshooting/ping_success_0.png) |
+| ![](/img/products/wiz750sr/troubleshooting/ping_success_0.png) |
 | Ping request / reply success                               |
 
 |                                                           |
 | --------------------------------------------------------- |
-| ![](/products/wiz750sr/troubleshooting/ping_failed_0.png) |
+| ![](/img/products/wiz750sr/troubleshooting/ping_failed_0.png) |
 | Ping request / reply failed                               |
 
   - The IP WIZ750SR and IP of the PC running the configuration tool must
@@ -161,13 +161,13 @@ testing? |
     & RS-422/485, and each is composed of a different serial interface
     connector.
 
-<!-- end list -->
+
 
   - The **DB9 connector** is provided with the **RS-232/TTL version**;
     users can connect it to the serial port of the PC or use it with a
     RS-232 to USB convertor (available at Amazon).
 
-<!-- end list -->
+
 
   - The **terminal block interface** is provided with the **RS-422/485
     version**; this is used to connect to the user’s serial device. If
@@ -186,7 +186,7 @@ testing? |
     Forum](https://forum.wiznet.io/).
       - <https://forum.wiznet.io/>
 
-<!-- end list -->
+
 
   - All WIZnet products have a **warranty of 1 year from the purchase
     date**.
@@ -206,17 +206,17 @@ WIZ750SR series Common Documents
   - **[User's Manual (English)](User's_Manual-[EN].md)** 
   - **[User's Manual (Korean)](User's_Manual-[KO].md)** 
 
-<!-- end list -->
+
 
   - **[Device Command Manual (English)](Command_Manual-[EN].md)**
   - **[Device Command Manual (Korean)](Command_Manual-[KO].md)**
 
-<!-- end list -->
+
 
   - **[Troubleshooting Guide (English)](Trouble_Shooting-[EN].md)**
   - **[Troubleshooting Guide (Korean)](Trouble_Shooting-[KO].md)**
 
-<!-- end list -->
+
 
   - **[Update History (English)](Series_Update_History-[EN].md)**
   - **[Update History (Korean)](Series_Update_History-[KO].md)**
@@ -227,7 +227,7 @@ WIZ750SR series Common Documents
 
   - **[Software Download](Download.md)**
 
-<!-- end list -->
+
 
   - **[Technical References](Technical_References.md)**
 

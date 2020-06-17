@@ -47,7 +47,7 @@ WIZwiki 보드를 USB 케이블로 연결한다.
           - 🌎[튜토리얼 예제2. 시리얼 포트를 이용해 데이터
             출력하기](Tutorial(Kor).md)
 
-<!-- end list -->
+
 
   - TCP/IP Client Server terminal program
       - EX) Hercules 등

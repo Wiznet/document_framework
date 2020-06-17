@@ -56,7 +56,7 @@ WizFi310 is compliant with 802.11b/g/n.
   - UART Max Baud : 921600 bps
   - Soft AP
 
-<!-- end list -->
+
  
    * Enough memory retention
    * Wi-Fi Security (WEP, WPA/WPA2PSK)

@@ -136,7 +136,7 @@ This pin also serves as the RS485 control.</td>
    * DC-Jack (for +5V Input Power)
 
 ![](/img/products/wiz550s2e/wiz550s2eds/rs232if_pin_20140729.jpg)
-![](/products/wiz550s2e/wiz550s2eds/크기변환_wiz550s2e-232-evb.png)
+![](/img/products/wiz550s2e/wiz550s2eds/크기변환_wiz550s2e-232-evb.png)
 
 -----
 
@@ -150,7 +150,7 @@ This pin also serves as the RS485 control.</td>
    * DC-Jack (for +5V Input Power)
 
 ![](/img/products/wiz550s2e/wiz550s2eds/rs485-422if_pin_20140729.jpg)
-![](/products/wiz550s2e/wiz550s2eds/크기변환_wiz550s2e-485-evb.png)
+![](/img/products/wiz550s2e/wiz550s2eds/크기변환_wiz550s2e-485-evb.png)
 
 -----
 # Characteristic

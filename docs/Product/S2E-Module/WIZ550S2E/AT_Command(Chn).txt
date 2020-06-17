@@ -367,7 +367,7 @@ So when DHCP is on, they are usually different from actual addresses.
 
   - ***Meaning:*** *Display Current Network Status*
 
-<!-- end list -->
+
 
   - ***Response:***
 >
@@ -409,7 +409,7 @@ So when DHCP is on, they are usually different from actual addresses.
 
   - ***Meaning:*** *Set MAC Address*
 
-<!-- end list -->
+
 
   - ***Response:***
 >
@@ -424,7 +424,7 @@ So when DHCP is on, they are usually different from actual addresses.
 
   - ***Meaning:*** *Get MAC Address*
 
-<!-- end list -->
+
 
   - ***Response:***
 >
@@ -456,7 +456,7 @@ So when DHCP is on, they are usually different from actual addresses.
 
 \<SrcPort\>: Local Port Number  
 \<DstIP\>: Destination IP Address  
-\<DstPort\>: Destination Port Number \</WRAP\>\</WRAP\>
+\<DstPort\>: Destination Port Number
 
   - **Response:**
 
@@ -475,7 +475,7 @@ So when DHCP is on, they are usually different from actual addresses.
 
   - ***Meaning:*** *Create Client Socket*
 
-<!-- end list -->
+
 
   - ***Response:***
 
@@ -490,7 +490,7 @@ So when DHCP is on, they are usually different from actual addresses.
 
   - ***Meaning:*** *Create Server Socket*
 
-<!-- end list -->
+
 
   - ***Response:***
 >
@@ -530,7 +530,7 @@ AT+NCLOSE
 
   - ***Meaning:*** // Close Socket//
 
-<!-- end list -->
+
 
   - ***Response:***
 
@@ -583,7 +583,7 @@ AT+NCLOSE
 
   - ***Meaning:*** *In TCP mode, Destination IP and port are not need.*
 
-<!-- end list -->
+
 
   - ***Response:***
 >

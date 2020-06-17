@@ -12,7 +12,7 @@ date: 2020-04-09
  * [English](Developer's_Guide-[EN].md) (current page)  
  * [Korean](Developer's_Guide-[KO].md)
 
- ![](/products/wiz750sr/docs_icon.png)
+ ![](/img/products/wiz750sr/docs_icon.png)
 
  -----
 
@@ -96,8 +96,8 @@ date: 2020-04-09
 
  -----
 
- \<WRAP center round tip 80% centeralign\> **If there is any problem?**  
+ **If there is any problem?**  
  Please refer to our **[Troubleshooting
- Guide](/products/wiz750sr/troubleshooting/en)**\! \</WRAP\>
+ Guide](trouble_shooting-[EN])**\!
 
  -----

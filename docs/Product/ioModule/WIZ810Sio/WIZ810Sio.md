@@ -49,7 +49,7 @@ rapidly.
 
 ### Datasheet
 
-  - ![](/products/w5500/w5500_evb/icons/download.png)
+  - ![](/img/products/w5500/w5500_evb/icons/download.png)
     [Download](https://www.wiznet.io/wp-content/uploads/2019/01/WIZ810Sio-User-Manual-V1.0-002.pdf)
 
 -----
@@ -71,7 +71,7 @@ rapidly.
 
 ## See Also
 
-![](/products/w5500/w5500_evb/icons/link.png) 🌎[WizWiki
+![](/img/products/w5500/w5500_evb/icons/link.png) 🌎[WizWiki
 Forum](http://www.wizwiki.net/forum) : WIZnet Forum for Technical
 support and Project shared
 

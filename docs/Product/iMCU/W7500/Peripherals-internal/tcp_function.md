@@ -234,7 +234,7 @@ Ex) Send Data Length Size= 10,
     Note: Don’t copy data until the sum of the actual sent data length
     is the send data length.
 
-<!-- end list -->
+
 
 ``` c
 {

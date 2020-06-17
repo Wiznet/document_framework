@@ -102,7 +102,7 @@ occurred.
 
 ##### Note: Broadcast IP
 
-\=\> The Broadcast IP address can be obtained by performing a bit-wise
+⇒ The Broadcast IP address can be obtained by performing a bit-wise
 logical OR operation between the bit complement of the subnet mask and
 the host’s IP address.  
 ex\> If IP:”222.98.173.123” and the subnet mask:“255.255.255.0”,

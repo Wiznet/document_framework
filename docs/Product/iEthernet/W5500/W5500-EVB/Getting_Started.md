@@ -44,12 +44,12 @@ Please connect with any terminal to that serial port with
 
 #### 4. Loopback test
  The following is the
-![](/products/w5500/w5500_evb/icons/link.png) [loopback test procedure of the 'Tinygecko' board + W5500
+![](/img/products/w5500/w5500_evb/icons/link.png) [loopback test procedure of the 'Tinygecko' board + W5500
 chip](/osh/energymicro/tinygecko#loopback). (Network configuration
 information can vary among different firmware.)  
 Please progress the test in accordance with the following procedure.  
 If you need detailed figures, please refer to the next link.  
-![](/products/w5500/w5500_evb/icons/link.png) [loopback\_test\#TCP and
+![](/img/products/w5500/w5500_evb/icons/link.png) [loopback\_test\#TCP and
 UDP loopback test](/osh/cookie/loopback_test#TCP%20and%20UDP%20loopback%20test)
 
 

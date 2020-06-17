@@ -12,7 +12,7 @@ date: 2020-04-15
 * [English](User's_Manual-[EN].md)   
 * [Korean](User's_Manual-[KO].md) (current page)
 
-![](/products/wiz750sr/docs_icon.png)
+![](/img/products/wiz750sr/docs_icon.png)
 
 -----
 
@@ -48,10 +48,10 @@ Subnet mask, DNS 서버 주소를 포함합니다.
         아닌 도메인 네임\[2\]이라면 DNS 주소가 꼭 설정되어야 합니다.
       - 사설 IP 주소를 직접 할당하는 경우의 예제는 [Getting Started Guide: WIZ750SR
         Factory
-        Settings](/products/wiz750sr/gettingstarted/ko#wiz750sr_factory_settings)
+        Settings](getting_started-[KO]#wiz750sr-factory-settings)
         를 참고하여 주십시오.
 
-<!-- end list -->
+
 
   - **자동 IP 할당 (DHCP)**
       - 공유기(NAT Router) 등에 내장된 **DHCP 서버를 통해 자동으로 IP주소를 할당 받는 방법**입니다.
@@ -66,12 +66,12 @@ Subnet mask, DNS 서버 주소를 포함합니다.
             포워딩](https://en.wikipedia.org/wiki/Port_forwarding)
             설정이 필요할 수 있습니다.
 
-\<WRAP round info center centeralign 60%\>
+
 
 WIZ750SR 제품 IP 주소의 초기 설정 값  
 **직접 IP 할당 / 192.168.11.2**
 
-\</WRAP\>
+
 
 1.  시리얼 장치가 네트워크를 통해 데이터를 전달할 Remote host, 즉 Destination을 의미합니다.
 
@@ -97,12 +97,12 @@ WIZ750SR 제품 IP 주소의 초기 설정 값
       - 프로토콜에 할당되어 사용, 예) \[HTTP (웹 서버)\] TCP 80, \[DNS\] TCP/UDP 53,
         \[DHCP\] UDP 67 등
 
-<!-- end list -->
+
 
   - **1024번 \~ 49151번**: 등록된 포트 (Registered port)
       - Vendor의 응용들에 할당된 포트 번호
 
-<!-- end list -->
+
 
   - **49152번 \~ 65535번**: 동적 포트 (Dynamic port)
 
@@ -110,8 +110,8 @@ WIZ750SR 제품 IP 주소의 초기 설정 값
 것이 좋습니다. 따라서 **사용자 목적을 위해 응용 제품 활용 시, 어플리케이션 서비스를 위해 할당되거나 (Registered
 port), 혹은 그때 그때 임시로 할당되어 쓰이는(Dynamic port) 포트 번호 영역 사용을 권장**합니다.
 
-\<WRAP round info center centeralign 60%\> WIZ750SR 제품 포트 번호의 초기 설정 값  
-**5000** \</WRAP\>
+ WIZ750SR 제품 포트 번호의 초기 설정 값  
+**5000**
 
 1.  Internet Assigned Numbers Authority, <http://www.iana.org>
 
@@ -126,12 +126,12 @@ TCP connection을 수행하게 됩니다.
 
 제품의 포트 번호 설정과 마찬가지로, 목적지 응용의 포트 번호도 함께 설정되어야 합니다.
 
-\<WRAP round info center centeralign 60%\>
+
 
 WIZ750SR 제품 원격지 호스트의 초기 설정 값  
 **192.168.11.3 : 5000**
 
-\</WRAP\>
+
 
 -----
 
@@ -148,13 +148,13 @@ client), TCP 서버/클라이언트 혼용 모드(TCP mixed), UDP 모드**의 4�
 
 제품이 TCP 서버 모드로 설정된 경우, 다음과 같이 동작합니다.
 
-\<WRAP round box center 100%\>
+
 
 1.  **먼저 실행되어 TCP 클라이언트의 연결 요청을 대기 (listen)**
 2.  **TCP 클라이언트의 연결 요청이 수신되면 TCP 연결 수립 (TCP connection established)**
 3.  **데이터 송/수신**
 
-\</WRAP\>
+
 
 TCP 서버 모드에서만 사용되는 제품 옵션은 다음과 같습니다.
 
@@ -175,12 +175,12 @@ TCP 서버 모드에서만 사용되는 제품 옵션은 다음과 같습니다.
 
 제품이 TCP 클라이언트 모드로 설정된 경우, 다음과 같이 동작합니다.
 
-\<WRAP round box center 100%\>
+
 
 1.  **지정된 목적지 호스트(TCP 서버)로 TCP 연결을 수행 (connect)** 
 2.  **TCP 연결이 수립(TCP connection established)되면 데이터 송/수신**
 
-\</WRAP\>
+
 
   - 연결 할 목적지 호스트 정보가 필요하며, 목적지는 TCP 서버로 동작하고 있어야 함
 
@@ -197,14 +197,14 @@ TCP 클라이언트 모드에서만 사용되는 제품 옵션은 다음과 같�
 TCP 서버/클라이언트 혼용 모드는 TCP 서버와 클라이언트의 특징을 모두 가진 네트워크 동작 모드입니다. 해당 모드는 다음과
 같이 동작합니다.
 
-\<WRAP round box center 100%\>
+
 
 1.  **전원 인가 시 TCP 서버로 동작 (listen)**
 2.  **TCP 클라이언트의 연결이 없을 때, 시리얼 데이터가 발생하면 TCP 클라이언트 모드로 전환되어 목적지로 데이터 전송
     (connect & send)**
 3.  **목적지와의 연결이 끝나면 (disconnect) 다시 TCP 서버로 동작 (listen)**
 
-\</WRAP\>
+
 
 TCP 서버/클라이언트 혼용 모드에서는 다음 옵션의 활용을 권장합니다.
 
@@ -227,7 +227,7 @@ WIZ750SR 제품은 1:1 통신만 가능했던 기존 제품의 UDP 모드에 다
   - **1:1 UDP 통신 모드**
       - 설정된 원격지 호스트 주소(도메인 네임) 및 포트 번호로 통신합니다.
 
-<!-- end list -->
+
 
   - **1:N UDP 통신 모드**
       - WIZ750SR은 방금 전 데이터를 보내온 목적지로 데이터를 전송 할 수 있습니다. 목적지 주소는 또 다른
@@ -235,13 +235,13 @@ WIZ750SR 제품은 1:1 통신만 가능했던 기존 제품의 UDP 모드에 다
       - 먼저 데이터를 전송 할 수는 없습니다.
       - 다수의 UDP 목적지에서 데이터를 보내오고, 이에 시리얼 장치가 응답하는 형태의 응용에서 활용 가능합니다.
       
-      \<WRAP round info center centeralign 60%\>
+      
 
 **1:N UDP 통신 모드 설정**  
 *원격지 호스트 IP 주소를 0.0.0.0으로 설정*  
 (원격지 호스트의 포트 번호 설정은 동일)
 
-\</WRAP\>
+
 
 -----
 
@@ -352,7 +352,7 @@ Flow control disabled</td>
   * 시리얼 커맨드에 관한 상세 설명은 [[products:wiz750sr:commandmanual:ko|WIZ750SR Command Manual]]에서 다룹니다.
 ```
 
-\<WRAP round tip center 90%\>
+
 
 **Trigger code를 이용한 모드 전환 시 주의점**은 다음과 같습니다.
 
@@ -363,7 +363,7 @@ Flow control disabled</td>
   - 커맨드 모드 전환 코드 전, 후 간격과 사이 간격의 **초기 값은 500ms**이며, 시리얼 데이터 패킹 옵션의 **Timer** 값이 설정된 경우 간격 값은 설정된 Timer 값으로 변경됩니다.
 ```
 
-\</WRAP\>
+
 
 ### 시리얼 데이터 패킹
 
@@ -371,9 +371,9 @@ Flow control disabled</td>
     제공**\[1\]합니다. 해당 옵션을 활용하면 한 번에 전송 하는 것이 유리한 유저 커맨드 프레임이나 주기 데이터를
     손쉽게 모아 전송 할 수 있습니다.
 
-\<WRAP round tip center centeralign 90%\> **해당 옵션은 중복 설정 가능하며, 적용 우선 순위는
+**해당 옵션은 중복 설정 가능하며, 적용 우선 순위는
 다음과 같습니다.**  
-**Character =\> Size =\> Timer** \</WRAP\>
+**Character =\> Size =\> Timer**
 
   - **Timer**
       - **범위: 0 \~ 65535, 단위: 밀리 초(ms)**
@@ -381,7 +381,7 @@ Flow control disabled</td>
       - 지정된 **시간**이 경과 할 때까지 데이터를 저장한 후 한 번에 전송합니다.
       - '0'으로 설정하면 동작하지 않습니다.
 
-<!-- end list -->
+
 
   - **Size**
       - **범위: 0 \~ 255, 단위: 데이터 길이(byte 수)**
@@ -389,7 +389,7 @@ Flow control disabled</td>
       - 지정된 **데이터 길이**에 도달할 때 까지 데이터를 저장한 후 한 번에 전송합니다.
       - '0'으로 설정하면 동작하지 않습니다.
 
-<!-- end list -->
+
 
   - **Character**
       - **범위 및 단위: 1-byte 문자(Hex code)**
@@ -398,7 +398,7 @@ Flow control disabled</td>
         않으면 지정 문자를 포함하여 전송하며, 버퍼 크기 초과 시 지정 문자를 제외한 데이터 만을 전송합니다.
       - '00'으로 설정하면 동작하지 않습니다. (Null)
 
-<!-- end list -->
+
 
 1.  시리얼 데이터의 수신 시 **'지정 시간', '지정 크기', '특정 문자'**를 기준으로 데이터를 모아 전송 할 수
     있습니다.
@@ -430,7 +430,7 @@ Flow control disabled</td>
 <table>
 <tbody>
 <tr class="odd">
-<td><img src="/products/wiz750sr/usermanual/configtool_udp_search.png" class="align-center" width="300" /></td>
+<td><img src="/img/products/wiz750sr/usermanual/configtool_udp_search.png" class="align-center" width="300" /></td>
 </tr>
 <tr class="even">
 <td>Figure: <strong>Search ID code</strong><br />
@@ -449,7 +449,7 @@ Flow control disabled</td>
     데이터 전송이 가능합니다.
       - 만약 비밀번호가 일치하지 않을 경우 TCP 연결은 종료됩니다.
 
-<!-- end list -->
+
 
 1.  예를 들어 목적에 따른 제품 그룹 여러 개가 동일한 네트워크 상에 위치한 경우.
 
@@ -463,7 +463,7 @@ Flow control disabled</td>
         disconnect)
       - WIZ750SR에서 한 번 이상 이더넷 패킷이 송신된 이후부터 연결 유지 패킷 전송이 시작됩니다.
 
-<!-- end list -->
+
 
   - **Send Keep-Alive 간격**
       - **범위: 0 \~ 65535, 단위: 밀리 초(ms)**
@@ -472,7 +472,7 @@ Flow control disabled</td>
           - 최초 연결 유지 패킷을 전송하기까지의 간격
           - 매 연결 유지 패킷 전송 시 사이의 간격
 
-<!-- end list -->
+
 
   - 이더넷 네트워크 장비는 원격지 장비의 물리적 단선을 감지 할 수 없으므로, 해당 옵션을 활성화하여 문제 상황에서 TCP
     연결을 종료 할 수 있도록 설정하는 것이 좋습니다.
@@ -488,7 +488,7 @@ WIZ750SR 제품은 시리얼 to 이더넷 동작 시 필요한 다양한 옵션�
 
   - **[제품 설정 툴(Configuration tool)을 이용한
     설정](/products/wiz750sr/configtoolmanual/ko) (네트워크)**
-  - **[Command set을 이용한 설정](/products/wiz750sr/commandmanual/ko) (시리얼 /
+  - **[Command set을 이용한 설정](command_manual-[KO]) (시리얼 /
     네트워크)**
 
 자세한 내용은 해당 문서를 참조 바랍니다.
@@ -498,11 +498,11 @@ WIZ750SR 제품은 시리얼 to 이더넷 동작 시 필요한 다양한 옵션�
 1.  Configuration tool 및 Command set을 이용한 설정 방법은 사용하지 않거나 목적에 따라 변경된 최소
     부분 변경을 제외하고 WIZ107/108SR 제품과 호환됩니다. 시리얼 및 네트워크 상에서 제품의 제어를 위해 활용되는
     Command의 상세 / 확장 정보는 [WIZ750SR Command
-    Manual](/products/wiz750sr/commandmanual/ko)에서 자세히 다룹니다.
+    Manual](command_manual-[KO])에서 자세히 다룹니다.
     
-    \<WRAP center round tip 80% centeralign\> **동작에 문제가 있나요?**  
-**[Troubleshooting 가이드](/products/wiz750sr/troubleshooting/ko)** 문서를 참고해
-보세요\! \</WRAP\>
+**동작에 문제가 있나요?**  
+**[Troubleshooting 가이드](trouble_shooting-[KO])** 문서를 참고해
+보세요\!
 
 -----
 
@@ -510,93 +510,93 @@ WIZ750SR 제품은 시리얼 to 이더넷 동작 시 필요한 다양한 옵션�
 
 -----
 
-\<WRAP group\> \<WRAP centeralign third column\>
+
 [![arrow\_back.png](/etc/arrow_back.png)](/products/wiz750sr/gettingstarted/ko)  
 **Prev Page**  
 [WIZ750SR Getting Started Guide](/products/wiz750sr/gettingstarted/ko)
-\</WRAP\>
 
-\<WRAP centeralign third column\>
+
+
 [![arrow\_upward.png](/etc/arrow_upward.png)](#wiz750sr_user_s_manual)  
-**Scroll to Top** \</WRAP\>
+**Scroll to Top**
 
-\<WRAP centeralign third column\>
-[![arrow\_forward.png](/etc/arrow_forward.png)](/products/wiz750sr/commandmanual/ko)  
+
+[![arrow\_forward.png](/etc/arrow_forward.png)](command_manual-[KO])  
 **Next Page**  
-[Device Command Manual](/products/wiz750sr/commandmanual/ko) \</WRAP\>
-\</WRAP\>
+[Device Command Manual](command_manual-[KO])
 
-\<WRAP centeralign\>
+
+
 [![arrow\_refresh.png](/etc/arrow_refresh.png)](/products/wiz750sr/start)  
 **Back to Product Main**  
-[WIZ750SR](/products/wiz750sr/start) \</WRAP\>
+[WIZ750SR](/products/wiz750sr/start)
 
-\<WRAP group\> \<WRAP centeralign half column\>
+
 [![arrow\_back.png](/etc/arrow_back.png)](/products/wiz750sr-100/gettingstarted/ko)  
 **Prev Page**  
 [WIZ750SR-100 Getting Started
-Guide](/products/wiz750sr-100/gettingstarted/ko) \</WRAP\>
+Guide](/products/wiz750sr-100/gettingstarted/ko)
 
-\<WRAP centeralign half column\>
+
 [![arrow\_refresh.png](/etc/arrow_refresh.png)](/products/wiz750sr-100/start)  
 **Back to Product Main**  
-[WIZ750SR-100](/products/wiz750sr-100/start) \</WRAP\> \</WRAP\>
+[WIZ750SR-100](/products/wiz750sr-100/start)
 
-\<WRAP group\> \<WRAP centeralign half column\>
+
 [![arrow\_back.png](/etc/arrow_back.png)](/products/wiz750sr-105/gettingstarted/ko)  
 **Prev Page**  
 [WIZ750SR-105 Getting Started
-Guide](/products/wiz750sr-105/gettingstarted/ko) \</WRAP\>
+Guide](/products/wiz750sr-105/gettingstarted/ko)
 
-\<WRAP centeralign half column\>
+
 [![arrow\_refresh.png](/etc/arrow_refresh.png)](/products/wiz750sr-105/start)  
 **Back to Product Main**  
-[WIZ750SR-105](/products/wiz750sr-105/start) \</WRAP\> \</WRAP\>
+[WIZ750SR-105](/products/wiz750sr-105/start)
 
-\<WRAP group\> \<WRAP centeralign half column\>
+
 [![arrow\_back.png](/etc/arrow_back.png)](/products/wiz750sr-110/gettingstarted/ko)  
 **Prev Page**  
 [WIZ750SR-110 Getting Started
-Guide](/products/wiz750sr-110/gettingstarted/ko) \</WRAP\>
+Guide](/products/wiz750sr-110/gettingstarted/ko)
 
-\<WRAP centeralign half column\>
+
 [![arrow\_refresh.png](/etc/arrow_refresh.png)](/products/wiz750sr-110/start)  
 **Back to Product Main**  
-[WIZ750SR-110](/products/wiz750sr-110/start) \</WRAP\> \</WRAP\>
+[WIZ750SR-110](/products/wiz750sr-110/start)
 
 -----
 
-\<WRAP round box group\> \<WRAP half column\> \<WRAP centeralign\> \*\*
-WIZ750SR series Common Documents \*\* \</WRAP\>
+\*\*
+WIZ750SR series Common Documents \*\*
 
   - **[User's Manual](/products/wiz750sr/usermanual/ko)** 
 
-<!-- end list -->
 
-  - **[Device Command Manual](/products/wiz750sr/commandmanual/ko)**
 
-<!-- end list -->
+  - **[Device Command Manual](command_manual-[KO])**
 
-  - **[Troubleshooting Guide](/products/wiz750sr/troubleshooting/ko)**
 
-<!-- end list -->
+
+  - **[Troubleshooting Guide](trouble_shooting-[KO])**
+
+
 
   - **[Update History](/products/wiz750sr/history/ko)**
 
 -----
 
-\<WRAP centeralign\> \*\* WIZ750SR series Downloads \*\* \</WRAP\>
+\*\* WIZ750SR series Downloads \*\*
 
   - **[Software Downloads](/products/wiz750sr/download/start)**
 
-<!-- end list -->
+
 
   - **[Technical Reference](/products/wiz750sr/reference/start)**
 
-\</WRAP\>
 
-\<WRAP half column\> \<WRAP centeralign\> \*\* WIZ750SR Individual
-documents \*\* \</WRAP\>
+
+ \*\* WIZ750SR Individual
+documents \*\*
 
   - **[WIZ750SR Product Overview](/products/wiz750sr/overview/ko)**
   - **[WIZ750SR Getting Started
@@ -605,8 +605,8 @@ documents \*\* \</WRAP\>
 
 -----
 
-\<WRAP centeralign\> \*\* WIZ750SR-100 Individual documents \*\*
-\</WRAP\>
+\*\* WIZ750SR-100 Individual documents \*\*
+
 
   - **[WIZ750SR-100 Product
     Overview](/products/wiz750sr-100/overview/ko)**
@@ -616,8 +616,8 @@ documents \*\* \</WRAP\>
 
 -----
 
-\<WRAP centeralign\> \*\* WIZ750SR-105 Individual documents \*\*
-\</WRAP\>
+\*\* WIZ750SR-105 Individual documents \*\*
+
 
   - **[WIZ750SR-105 Product
     Overview](/products/wiz750sr-105/overview/ko)**
@@ -627,8 +627,8 @@ documents \*\* \</WRAP\>
 
 -----
 
-\<WRAP centeralign\> \*\* WIZ750SR-110 Individual documents \*\*
-\</WRAP\>
+\*\* WIZ750SR-110 Individual documents \*\*
+
 
   - **[WIZ750SR-110 Product
     Overview](/products/wiz750sr-110/overview/ko)**
@@ -636,4 +636,4 @@ documents \*\* \</WRAP\>
     Guide](/products/wiz750sr-110/gettingstarted/ko)**
   - **[WIZ750SR-110 Datasheet](/products/wiz750sr-110/datasheet/start)**
 
-\</WRAP\> \</WRAP\>
+

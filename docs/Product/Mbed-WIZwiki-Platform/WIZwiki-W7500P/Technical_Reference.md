@@ -17,11 +17,11 @@ date: 2020-04-07
   - Refer to the reference schematic of W7500P.
       - 🌎[Reference schematic of W7500P](https://github.com/Wiznet/Hardware-Files-of-WIZnet/tree/master/01_iMCU/W7500P/Reference%20Schematic)
 
-<!-- end list -->
+
 
   - **Schematic Version 1.0**
 
-<!-- end list -->
+
 
    * [WIZwiki-W7500P V1.0 Schematic (Altium Designer)]()
    * [WIZwiki-W7500P V1.0 Schematic (PDF)](/img/products/w7500p/overview/wizwiki-w7500p_sch_v1.0.pdf)

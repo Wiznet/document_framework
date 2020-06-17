@@ -1,12 +1,8 @@
 ---
-id: gtting_started-[KO]
-title: Getting Started-[KO]
+id: getting_started-[KO]
+title: Getting Started [KO]
 date: 2020-04-24
 ---
-
-## Content
-
-# Getting Started with WIZ550SR
 
 **본 문서는 WIZ550SR-EVB를 이용한 사용법 기준으로 작성이 되었다.**
 
@@ -14,8 +10,7 @@ date: 2020-04-24
 
 ## Unpacking the WIZ550SR EVB
 
-![WIZ550SR-EVB
-Package](/products/wiz550sr/gettingstarted/wiz550sr_evb.jpg%20)  
+![WIZ550SR-EVB Package](/img/products/wiz550sr/gettingstarted/wiz550sr_evb.jpg)  
 WIZ550SR-EVB 패키지는 아래와 같은 구성품으로 이루어져 있다.
 
   - WIZ550SR - 1EA
@@ -23,7 +18,7 @@ WIZ550SR-EVB 패키지는 아래와 같은 구성품으로 이루어져 있다.
   - Cat5, Ethernet Cable - 1EA
   - Micro USB B Type Cable - 1EA
 
-![WIZ550SR-EVB](/products/wiz550sr/gettingstarted/wiz550sr_evb_1.png%20)  
+![WIZ550SR-EVB](/img/products/wiz550sr/gettingstarted/wiz550sr_evb_1.png)  
 WIZ550SR이 위 사진과 같이 조립이 되어 있는지 육안으로 확인을 한다.
 
 -----
@@ -32,10 +27,8 @@ WIZ550SR이 위 사진과 같이 조립이 되어 있는지 육안으로 확인�
 
 ### Software
 
-  - Virtual COM Port USB Driver.([Download
-    page](/products/wiz550sr/wiz550sr_download#download_wiz550sr_evb_usb_driver))
-  - WIZnet Configuration Tool 프로그램.([Download
-    page](/products/wiz550sr/wiz550sr_download#download_configuration_tool))
+  - Virtual COM Port USB Driver.([Download page](download#download-wiz550sr-evb-usb-driver))
+  - WIZnet Configuration Tool 프로그램.([Download page](download#download-configuration-tool))
   - TCP server / TCP client / UDP 터미널 프로그램.
   - Serial 터미널 프로그램.
 
@@ -93,8 +86,7 @@ WIZ550SR이 위 사진과 같이 조립이 되어 있는지 육안으로 확인�
 
 ### PC Settings
 
-WIZ550SR과 WIZ550SR의 설정을 위한 PC 혹은 노트북(laptop)은 동일한 이더넷 네트워크 대역에 위치하여야 서로
-통신이 가능합니다. \</WRAP\>
+WIZ550SR과 WIZ550SR의 설정을 위한 PC 혹은 노트북(laptop)은 동일한 이더넷 네트워크 대역에 위치하여야 서로 통신이 가능합니다.
 
 #### Example: PC Network Settings
 
@@ -136,13 +128,9 @@ WIZ550SR과 WIZ550SR의 설정을 위한 PC 혹은 노트북(laptop)은 동일�
 </tbody>
 </table>
 
-  - TCP 클라이언트 및 TCP 서버/클라이언트 혼용 모드의 테스트를 위해 WIZ550SR의 Remote host 설정은
-    PC(혹은 laptop)와 일치하는 것이 좋습니다.
+  - TCP 클라이언트 및 TCP 서버/클라이언트 혼용 모드의 테스트를 위해 WIZ550SR의 Remote host 설정은 PC(혹은 laptop)와 일치하는 것이 좋습니다.
 
-<!-- end list -->
-
-  - 만약 DHCP(자동 IP 할당) 기능을 사용 할 경우, WIZ550SR 제품과 테스트용 PC는 **동일한 공유기**로부터
-    IP 주소를 할당 받도록 설정하여야 합니다.
+  - 만약 DHCP(자동 IP 할당) 기능을 사용 할 경우, WIZ550SR 제품과 테스트용 PC는 **동일한 공유기**로부터 IP 주소를 할당 받도록 설정하여야 합니다.
 
 ### Connecting Steps
 
@@ -152,12 +140,10 @@ WIZ550SR과 WIZ550SR의 설정을 위한 PC 혹은 노트북(laptop)은 동일�
 
   - WIZ550SR-EVB를 USB B Type 케이블을 이용해서 PC와 연결 한다.
   - WIZ550SR-EVB의 RJ-45 커넥터와 PC의 RJ-45 커넥터를 Ethernet 케이블을 이용해 연결 한다.
-  - 연결이 되면 USB Driver가 설치를 해야 한다.([Download
-    page](/products/wiz550sr/wiz550sr_download#download_wiz550sr_evb_usb_driver))
+  - 연결이 되면 USB Driver가 설치를 해야 한다.([Download page](download#download-wiz550sr-evb-usb-driver))
   - 장치관리자를 실행해서 아래 사진과 같이 **USB Serial Port**가 2개 생성되는 것을 확인 한다.
 
-![Device
-Manager](/products/wiz550sr/gettingstarted/device_manager2.png%20)
+![Device Manager](/img/products/wiz550sr/gettingstarted/device_manager2.png)
 
   - Control Panel \> System \> Device Manager
   - 2개의 USB Serial Port중에, 숫자가 낮은 Port가 Main UART, 숫자가 높은 Port가 Debug
@@ -169,17 +155,18 @@ Manager](/products/wiz550sr/gettingstarted/device_manager2.png%20)
 
 WIZ550SR-EVB의 초기 상태를 확인을 한다.
 
-  - WIZ550SR-EVB의 전원 SW를 On 한다.
-  - **Power LED 확인(Red LED)** - 전원 입력 상태 확인
-      - WIZ550SR의 LD3 : On
-      - WIZ550SR-EVB의 LD4 : On
-  - **Work LED 확인(Green LED)** - WIZ550SR의 동작 확인
-      - WIZ550SR의 LD1 : Blink
-  - **Ethernet LED 확인(Green LED)** - 네트워크 상태 확인
-      - WIZ550SR-EVB의 LD2 : Blink
-      - WIZ550SR-EVB의 LD3 : On
+- WIZ550SR-EVB의 전원 SW를 On 한다.
+- **Power LED 확인(Red LED)** - 전원 입력 상태 확인
+  - WIZ550SR의 LD3 : On
+  - WIZ550SR-EVB의 LD4 : On
+- **Work LED 확인(Green LED)** - WIZ550SR의 동작 확인
+  - WIZ550SR의 LD1 : Blink
+- **Ethernet LED 확인(Green LED)** - 네트워크 상태 확인
+  - WIZ550SR-EVB의 LD2 : Blink
+  - WIZ550SR-EVB의 LD3 : On
       
-      === Step 3 : Search & Debug Message ===
+#### Step 3 : Search & Debug Message
+
 PC의 Configuration tool을 실행하여 상단 Search 버튼을 클릭 한다. 보드에 전원이 인가되고 동일한 네트워크에 연결되어 동작 중인 경우 WIZ550SR 모듈의 MAC 주소와 설정 값을 tool에서 확인 할 수 있다.
 
 {{ :products:wiz550sr:gettingstarted:search.png ? direct | Configuration tool }}
@@ -188,13 +175,13 @@ PC의 시리얼 터미널 프로그램을 실행하여, WIZ550SR의 Debug UART�
 
 {{ :products:wiz550sr:gettingstarted:debug_message.png ? direct | Debug Message}}
 
-=== Step 4: Set up your WIZ550SR ===
+#### Step 4: Set up your WIZ550SR
 사용자 환경에 맞춰 제품의 설정 값을 변경한다. 본 Step에서는 제품의 공장 초기화 설정을 기반으로 초기 테스트를 수행한다.
   * Configuration tool에서 설정 변경 후, 변경된 값을 적용하려면 Setting 버튼을 클릭해야하고 **Setting Password**를 입력해야 한다.
   * Setting Password 의 초기 값은 **WIZnet** 이다.
   * 설정이 완료되면 **Success Set**이라는 메시지가 나오고 WIZ550SR은 Reset이 된다.
 
-=== Step 5: Connect ===
+#### Step 5: Connect
 PC를 사용자 시리얼 장치 및 TCP 클라이언트로 삼아 데이터 통신을 테스트하기 위한 연결을 수행한다. 이를 위해 PC에서 시리얼 터미널 프로그램 및 TCP 클라이언트 터미널 프로그램이 실행 되어야 한다. 공장 초기값 기준으로 PC와 장치를 연결하기 위해 각각 프로그램은 다음과 같이 설정 후 연결하면 된다. 
 
   * 시리얼 터미널 프로그램
@@ -205,7 +192,7 @@ PC를 사용자 시리얼 장치 및 TCP 클라이언트로 삼아 데이터 통
     * Connection Password의 초기 값은 **WIZnet** 이다.
     * 5초 이내에 Connection Password를 입력하지 않은 연결이 중단 된다.
 
-=== Step 6: Verify ===
+#### Step 6: Verify
 아래와 같은 데이터 통신 과정이 올바르게 수행되면, WIZ550SR 제품의 기본적인 데이터 전송 기능 검증이 완료된다.
 
   * 시리얼 to 이더넷: 데이터 전송 검증
@@ -213,7 +200,7 @@ PC를 사용자 시리얼 장치 및 TCP 클라이언트로 삼아 데이터 통
   * 이더넷 to 시리얼: 데이터 전송 검증
     * TCP 클라이언트 터미널 측에 문자열을 입력하고, 동일한 문자열이 시리얼 터미널 측에 표시되는지 확인해 봅시다.
 
-=== Step 7: Done ===
+#### Step 7: Done
 이제 WIZ550SR 제품을 활용할 준비가 완료되었습니다! 
 
   * 본 내용은 PC를 시리얼 장치 및 원격 네트워크 장비로 가정하고 WIZ550SR 제품의 동작을 테스트하는 과정입니다.

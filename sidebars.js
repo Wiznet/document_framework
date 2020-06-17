@@ -29,7 +29,7 @@ module.exports = {
 		'Product/iMCU/W7500/documents_md',
 		'Product/iMCU/W7500/peripherals',
 		'Product/iMCU/W7500/libraries_examples',
-		'Product/iMCU/W7500/all_pages'
+		//'Product/iMCU/W7500/all_pages'
 		],
 		},
 		{
@@ -47,7 +47,7 @@ module.exports = {
 		'Product/iMCU/W7500P/documents',
 		'Product/iMCU/W7500P/peripherals',
 		'Product/iMCU/W7500P/libraries_examples',
-		'Product/iMCU/W7500P/all_pages'
+		//'Product/iMCU/W7500P/all_pages'
 		],
 		},
 		{
@@ -105,7 +105,7 @@ module.exports = {
 		'Product/iEthernet/W5100S/Application-Note/dma',
 		],
 		},
-		'Product/iEthernet/W5100S/all_pages',
+		//'Product/iEthernet/W5100S/all_pages',
 		'Product/iEthernet/W5100S/w5100s_evb'
 		],
 		},
@@ -208,11 +208,11 @@ module.exports = {
         label: 'CLI_Config_Tool_Tutorial',
         items: [
 		'Product/S2E-Module/WIZ750SR/CLI_Config_Tool_Tutorial/cli_config_tool_tutorial',
-		'Product/S2E-Module/WIZ750SR/CLI_Config_Tool_Tutorial/file_options',
-		//'Product/S2E-Module/WIZ750SR/CLI_Config_Tool_Tutorial/how_to_use_cli_config_tool',
-		'Product/S2E-Module/WIZ750SR/CLI_Config_Tool_Tutorial/multi_device_configuration',
 		'Product/S2E-Module/WIZ750SR/CLI_Config_Tool_Tutorial/overview_environment',
+		'Product/S2E-Module/WIZ750SR/CLI_Config_Tool_Tutorial/how_to_use_cli_config_tool',
 		'Product/S2E-Module/WIZ750SR/CLI_Config_Tool_Tutorial/single_device_configuration',
+		'Product/S2E-Module/WIZ750SR/CLI_Config_Tool_Tutorial/multi_device_configuration',
+		'Product/S2E-Module/WIZ750SR/CLI_Config_Tool_Tutorial/file_options'
 		],
 		},
 		'Product/S2E-Module/WIZ750SR/command_manual-[KO]',
@@ -385,10 +385,10 @@ module.exports = {
 		'Product/S2E-Module/WIZ550SR/wiz550sr',
 		'Product/S2E-Module/WIZ550SR/overview-[KO]',
 		'Product/S2E-Module/WIZ550SR/overview-[EN]',
-		'Product/S2E-Module/WIZ550SR/gtting_started-[KO]',
-		'Product/S2E-Module/WIZ550SR/gtting_started-[EN]',
+		'Product/S2E-Module/WIZ550SR/getting_started-[KO]',
+		'Product/S2E-Module/WIZ550SR/getting_started-[EN]',
 		'Product/S2E-Module/WIZ550SR/users_manual_programmers_guide-[KO]',
-		'Product/S2E-Module/WIZ550SR/users_manual_programmers_guide-[KO]',
+		'Product/S2E-Module/WIZ550SR/users_manual_programmers_guide-[EN]',
 		//'Product/S2E-Module/WIZ550SR/atcommand_tutorial-[KO]',
 		//'Product/S2E-Module/WIZ550SR/atcommand_tutorial-[EN]',
 		'Product/S2E-Module/WIZ550SR/datasheet_hardware_spec_characteristics-[KO]',
@@ -517,7 +517,7 @@ module.exports = {
 		'Product/ioModule/WIZ550io/block_diagram_schematic',
 		'Product/ioModule/WIZ550io/dimension',
 		'Product/ioModule/WIZ550io/related_products',
-		'Product/ioModule/WIZ550io/all_pages'
+		//'Product/ioModule/WIZ550io/all_pages'
 		],
 		},
 		{

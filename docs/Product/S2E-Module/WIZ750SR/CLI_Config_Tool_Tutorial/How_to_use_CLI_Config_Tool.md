@@ -6,16 +6,13 @@ date: 2020-04-09
 
 CLI Configuration Tool Tutorial \#2
 
-# How to use CLI Config Tool
-
 -----
 
 ## How to Start
 
 ### Download Config Tool
 
-The latest version tool can be downloaded at [WIZnet-S2E-Tool github
-page](https://github.com/Wiznet/WIZnet-S2E-Tool).
+The latest version tool can be downloaded at [WIZnet-S2E-Tool github page](https://github.com/Wiznet/WIZnet-S2E-Tool).
 
 ### Use terminal program
 
@@ -24,23 +21,23 @@ Command prompt(cmd.exe) or windows powershell or ETC.
 
 In this tutorial, will use command prompt.
 
- **Using cmd.exe**  
-You can go to the path where config tool is located after running
-cmd.exe, but if you go into the tool directory and run cmd, you can
-start from that path.
+ **Using cmd.exe**
 
-![](/products/configtool/option/cmd_direct.png) \</WRAP\>
+You can go to the path where config tool is located after running cmd.exe, but if you go into the tool directory and run cmd, you can start from that path.
+
+![](/img/products/configtool/option/cmd_direct.png)
 
 -----
 
 ## Available Options
 
-You can see available options and detail description as following
-command.
+You can see available options and detail description as following command.
 
-    python wizconfig.py -h
+``` python
+python wizconfig.py -h
+```
 
-![](/products/configtool/option/option_help.png)
+![](/img/products/configtool/option/option_help.png)
 
 **optional arguments:**
 
@@ -149,12 +146,11 @@ command.
   --getfile GETFILE     File name to Get info. Refer default command(cmd_oneport.txt or cmd_twoport.txt).
 ```
 
-\<WRAP center round tip 80%\> \*\* \<About Channel \#N Options\> \*\*  
+**<About Channel \#N Options\>**  
 **1 Port S2E devices**  
-Use <span class="underline">Channel \#0 Options</span> only.  
+Use Channel \#0 Options only.  
 **2 Port S2E devices**  
-Use <span class="underline">Channel \#0 Options</span> &
-<span class="underline">Channel \#1 Options</span> both. \</WRAP\>
+Use both Channel \#0 Options & Channel \#1 Options.
 
 -----
 
@@ -164,7 +160,6 @@ You can search for devices using the -s / --search option.
 
 ``` 
 python wizconfig.py -s
-
 ```
 
 Search result printed as standard out, and the mac address of the
@@ -173,10 +168,10 @@ searched devices is recorded in **mac\_list.txt** file.
 If new device is found, it is displayed as 'New Device', and this is
 determined by whether it is recorded in mac\_list.txt.
 
-![](/products/configtool/option/option_search_new.png)
+![](/img/products/configtool/option/option_search_new.png)
 
 If you search for the same device again, you can see that 'New device'
 is not displayed.
 
-![](/products/configtool/option/option_search_old.png)
+![](/img/products/configtool/option/option_search_old.png)
 

@@ -4,10 +4,6 @@ title: User's Manual(Programmer's Guide)-[EN]
 date: 2020-04-16
 ---
 
-## Content
-
-# WIZ550SR Programmer's Guide
-
 ## Overview
 
 This page provides detailed information about AT commands set and how to
@@ -33,7 +29,7 @@ The Trigger Code can be en/disabled and also changed with the config
 tool.  
   
  **The three byte Trigger Code need to be
-isolated = without CR(0x0D), LF(0x0A)** \</WRAP\>  
+isolated = without CR(0x0D), LF(0x0A)**  
 Every command starts with “AT”. Any other initial character will cause
 an error in return. Commands and parameters are all ASCII characters,
 i.e. when you input 'AT+NSTAT', you should input ASCII characters 'A',
@@ -283,19 +279,19 @@ Event occurred.</td>
 
 -----
 
-\<WRAP left round box 30%\>\<WRAP centeralign\>====AT+NSET====
-\</WRAP\>\</WRAP\>  
+====AT+NSET====
   
   
-\* **Format:** \<WRAP indent\>\<WRAP indent\>
+  
+\* **Format:** 
 
     AT+NSET=<DHCP>,<IP>,<SN>,<GW>,<DNS>
 
-\</WRAP\>\</WRAP\>
+
 
   - **Meaning:** Network Configuration
 
-\<WRAP indent\>\<WRAP indent\> \<DHCP\>: Static/DHCP
+ \<DHCP\>: Static/DHCP
 
 | Parameter | Meaning              |
 | --------- | -------------------- |
@@ -305,120 +301,120 @@ Event occurred.</td>
 \<IP\>: IP Address (Optional)  
 \<SN\>: Subnet Mask (Optional)  
 \<GW\>: Gateway Address (Optional)  
-\<DNS\>: DNS Address(Optional) \</WRAP\>\</WRAP\>
+\<DNS\>: DNS Address(Optional)
 
   - **Response:**
 
-\<WRAP indent\>\<WRAP indent\>
+
 
     [S]
 
-\</WRAP\>\</WRAP\>
+
 
   - **Example 1:**
 
-\<WRAP indent\>\<WRAP indent\>
+
 
     AT+NSET\r\n
 
     AT+NSET?\r\n
 
-\</WRAP\>\</WRAP\>
+
 
   - **Meaning:** Get Current Network Setting
 
-\<WRAP indent\>\<WRAP indent\> Note that \<IP\>,\<SN\>,\<GW\>,\<DNS\>
+ Note that \<IP\>,\<SN\>,\<GW\>,\<DNS\>
 address of response are not actual addresses, but addresses stored in
 the memory. So when DHCP is on, they are usually different from actual
-addresses. \</WRAP\>\</WRAP\>
+addresses.
 
   - **Response:**
 
-\<WRAP indent\>\<WRAP indent\>
+
 
     [S,,S,192.168.11.100,255.255.255.0,192.168.11.1,8.8.8.8]
 
     [S,,D]
 
-\</WRAP\>\</WRAP\>
+
 
   - ***Example 2:***
 
-* \<WRAP indent\>\<WRAP indent\> `AT+NSET-2,192.168.11.110\r\n`
-\</WRAP\>\</WRAP\>*
+*  `AT+NSET-2,192.168.11.110\r\n`
+*
 
   - ***Meaning:*** *Update Second Parameter*
 
-*\<WRAP indent\>\<WRAP indent\> \</WRAP\>\</WRAP\>*
+**
 
   - ***Response:***
 
-*\<WRAP indent\>\<WRAP indent\> `[S]
-` \</WRAP\>\</WRAP\>*
+* `[S]
+`*
 
 -----
 
-\<WRAP left round box 30%\>\<WRAP centeralign\>====AT+NSTAT====
-\</WRAP\>\</WRAP\>  
+====AT+NSTAT====
   
   
-\* **Format:** \<WRAP indent\>\<WRAP indent\>
+  
+\* **Format:** 
 
     AT+NSTAT
 
     AT+NSTAT?
 
-\</WRAP\>\</WRAP\>
+
 
   - **Meaning:** Display Current Network Status
 
-\<WRAP indent\>\<WRAP indent\> \</WRAP\>\</WRAP\>
+
 
   - **Response:**
 
-\<WRAP indent\>\<WRAP indent\>
+
 
     [S,,<DHCP>,<IP>,<SN>,<GW>,<DNS>]
 
-\</WRAP\>\</WRAP\>
+
 
   - ***Example 1:***
 
-* \<WRAP indent\>\<WRAP indent\> `AT+NSTAT\r\n` `AT+NSTAT?\r\n`
-\</WRAP\>\</WRAP\> *
+*  `AT+NSTAT\r\n` `AT+NSTAT?\r\n`
+ *
 
   - ***Meaning:*** *Display Current Network Status*
 
-<!-- end list -->
+
 
   - ***Response:***
 
-* \<WRAP indent\>\<WRAP indent\>
+* 
 `[S,,S,192.168.11.100,255.255.255.0,192.168.11.1,8.8.8.8]
 ` `[S,,D]
-`\</WRAP\>\</WRAP\>*
+`*
 
 -----
 
-\<WRAP left round box 30%\>\<WRAP centeralign\>====AT+NMAC====
-\</WRAP\>\</WRAP\>  
+====AT+NMAC====
   
   
-\* **Format:** \<WRAP indent\>\<WRAP indent\>
+  
+\* **Format:** 
 
     AT+NMAC
 
     AT+NMAC?
 
-\</WRAP\>\</WRAP\>
+
 
   - **Meaning:** Get MAC Address
 
-\<WRAP indent\>\<WRAP indent\> \</WRAP\>\</WRAP\>
+
 
   - **Response:**
 
-\<WRAP indent\>\<WRAP indent\>
+
 
     [S,,<MAC>]
 
@@ -426,47 +422,47 @@ addresses. \</WRAP\>\</WRAP\>
 
   - ***Example 1:***
 
-* \<WRAP indent\>\<WRAP indent\> `AT+NMAC=00:08:dc:1d:bb:8b\r\n`
-\</WRAP\>\</WRAP\> *
+*  `AT+NMAC=00:08:dc:1d:bb:8b\r\n`
+ *
 
   - ***Meaning:*** *Set MAC Address*
 
-<!-- end list -->
+
 
   - ***Response:***
 
-* \<WRAP indent\>\<WRAP indent\> `[S]
-`\</WRAP\>\</WRAP\>*
+*  `[S]
+`*
 
   - ***Example 2:***
 
-* \<WRAP indent\>\<WRAP indent\> `AT+NMAC\r\n` `AT+NMAC?\r\n`
-\</WRAP\>\</WRAP\> *
+*  `AT+NMAC\r\n` `AT+NMAC?\r\n`
+ *
 
   - ***Meaning:*** *Get MAC Address*
 
-<!-- end list -->
+
 
   - ***Response:***
 
-* \<WRAP indent\>\<WRAP indent\> `[S,,00:08:dc:1d:bb:8a]
-` \</WRAP\>\</WRAP\>*
+*  `[S,,00:08:dc:1d:bb:8a]
+`*
 
 -----
 
-\<WRAP left round box 30%\>\<WRAP centeralign\>====AT+NOPEN====
-\</WRAP\>\</WRAP\>  
+====AT+NOPEN====
   
   
-\* **Format:** \<WRAP indent\>\<WRAP indent\>
+  
+\* **Format:** 
 
     AT+NOPEN=<SockType>,<SrcPort>,<DstIP>,<DstPort>
 
-\</WRAP\>\</WRAP\>
+
 
   - **Meaning:** Initialize Socket
 
-\<WRAP indent\>\<WRAP indent\> \<SockType\>: Socket Type
+ \<SockType\>: Socket Type
 
 | Parameter | Meaning           |
 | --------- | ----------------- |
@@ -476,105 +472,105 @@ addresses. \</WRAP\>\</WRAP\>
 
 \<SrcPort\>: Local Port Number  
 \<DstIP\>: Destination IP Address  
-\<DstPort\>: Destination Port Number \</WRAP\>\</WRAP\>
+\<DstPort\>: Destination Port Number
 
   - **Response:**
 
-\<WRAP indent\>\<WRAP indent\>
+
 
     [W,(SockId)]
 
     [S,(SockId)]
 
-\</WRAP\>\</WRAP\>
+
 
   - ***Example 1:***
 
-* \<WRAP indent\>\<WRAP indent\>
-`AT+NOPEN=C,3000,192.168.11.100,3000\r\n` \</WRAP\>\</WRAP\> *
+* 
+`AT+NOPEN=C,3000,192.168.11.100,3000\r\n` *
 
   - ***Meaning:*** *Create TCP Client Socket*
 
-<!-- end list -->
+
 
   - ***Response:***
 
-* \<WRAP indent\>\<WRAP indent\> `[W,0]
+*  `[W,0]
 [S,0]
 ` `[W,0]
 [F,,1]
-`\</WRAP\>\</WRAP\> *
+` *
 
   - ***Example 2:***
 
-* \<WRAP indent\>\<WRAP indent\> `AT+NOPEN=S,5000,,\r\n`
-\</WRAP\>\</WRAP\> *
+*  `AT+NOPEN=S,5000,,\r\n`
+ *
 
   - ***Meaning:*** *Create TCP Server Socket*
 
-<!-- end list -->
+
 
   - ***Response:***
 
-* \<WRAP indent\>\<WRAP indent\> `[S,,0]
-` \</WRAP\>\</WRAP\> *
+*  `[S,,0]
+` *
 
 -----
 
-\<WRAP left round box 30%\>\<WRAP centeralign\>====AT+NCLOSE====
-\</WRAP\>\</WRAP\>  
+====AT+NCLOSE====
   
   
-\* **Format:** \<WRAP indent\>\<WRAP indent\>
+  
+\* **Format:** 
 
     AT+NCLOSE=(SockId)
 
-\</WRAP\>\</WRAP\>
+
 
   - **Meaning:** Close Socket
 
-\<WRAP indent\>\<WRAP indent\> \<SockId\>: Socket ID \</WRAP\>\</WRAP\>
+ \<SockId\>: Socket ID
 
   - **Response:**
 
-\<WRAP indent\>\<WRAP indent\>
+
 
     [W,(SockId)]
 
     [S,(SockId)]
 
-\</WRAP\>\</WRAP\>
+
 
   - ***Example 1:***
 
-* \<WRAP indent\>\<WRAP indent\> `AT+NCLOSE\r\n` \</WRAP\>\</WRAP\> *
+*  `AT+NCLOSE\r\n` *
 
   - ***Meaning:*** // Close Socket//
 
-<!-- end list -->
+
 
   - ***Response:***
 
-* \<WRAP indent\>\<WRAP indent\> `[W,0]
+*  `[W,0]
 [S,0]
 ` `[F,,11]
-`\</WRAP\>\</WRAP\>*
+`*
 
 -----
 
-\<WRAP left round box 30%\>\<WRAP centeralign\>====AT+NSEND====
-\</WRAP\>\</WRAP\>  
+====AT+NSEND====
   
   
-\* **Format:** \<WRAP indent\>\<WRAP indent\>
+  
+\* **Format:** 
 
     AT+NSEND=<SockId>,<size>,<DstIP>,<DstPort>
 
-\</WRAP\>\</WRAP\>
+
 
   - **Meaning:** Send Data
 
-\<WRAP indent\>\<WRAP indent\> \<SockId\>: Socket ID
+ \<SockId\>: Socket ID
 
 | Parameter | Meaning           |
 | --------- | ----------------- |
@@ -584,33 +580,33 @@ addresses. \</WRAP\>\</WRAP\>
 
 \<SrcPort\>: Local Port Number  
 \<DstIP\>: Destination IP Address  
-\<DstPort\>: Destination Port Number \</WRAP\>\</WRAP\>
+\<DstPort\>: Destination Port Number
 
   - **Response:**
 
-\<WRAP indent\>\<WRAP indent\>
+
 
     [W,(SockId)]
 
     [S,(SockId)]
 
-\</WRAP\>\</WRAP\>
+
 
   - ***Example 1:***
 
-* \<WRAP indent\>\<WRAP indent\> `AT+NSEND=0,4\r\n
-aaaa` \</WRAP\>\</WRAP\> *
+*  `AT+NSEND=0,4\r\n
+aaaa` *
 
   - ***Meaning:*** *In TCP Server mode, Destination IP and port are not
     need.*
 
-<!-- end list -->
+
 
   - ***Response:***
 
-* \<WRAP indent\>\<WRAP indent\> `[W,0]
+*  `[W,0]
 [S,0]
-` \</WRAP\>\</WRAP\>*
+`*
 
 -----
 
@@ -631,71 +627,71 @@ aaaa` \</WRAP\>\</WRAP\> *
 
 -----
 
-\<WRAP left round box 30%\>\<WRAP centeralign\>====AT====
-\</WRAP\>\</WRAP\>  
+====AT====
   
   
-\* **Format:** \<WRAP indent\>\<WRAP indent\>
+  
+\* **Format:** 
 
 ``` 
 AT
 ```
 
-\</WRAP\>\</WRAP\>
+
 
   - **Meaning:** Terminal Check
 
-\<WRAP indent\>\<WRAP indent\> \</WRAP\>\</WRAP\>
+
 
   - **Response:**
 
-\<WRAP indent\>\<WRAP indent\>
+
 
     [S]
 
-\</WRAP\>\</WRAP\>
+
 
 -----
 
-\<WRAP left round box 30%\>\<WRAP centeralign\>====AT+MSTAT====
-\</WRAP\>\</WRAP\>  
+====AT+MSTAT====
   
   
-\* **Format:** \<WRAP indent\>\<WRAP indent\>
+  
+\* **Format:** 
 
     AT+MSTAT
 
     AT+MSTAT?
 
-\</WRAP\>\</WRAP\>
+
 
   - **Meaning:** Get Current Version
 
-\<WRAP indent\>\<WRAP indent\> \</WRAP\>\</WRAP\>
+
 
   - **Response:**
 
-\<WRAP indent\>\<WRAP indent\>
+
 
     [S,,<Version>]
 
-\</WRAP\>\</WRAP\>
+
 
 -----
 
-\<WRAP left round box 30%\>\<WRAP centeralign\>====AT+MUSART====
-\</WRAP\>\</WRAP\>  
+====AT+MUSART====
   
   
-\* **Format:** \<WRAP indent\>\<WRAP indent\>
+  
+\* **Format:** 
 
     AT+MUSART=<BR>,<W>,<P>,<S>,<F>
 
-\</WRAP\>\</WRAP\>
+
 
   - **Meaning:** Serial Interface Configuration
 
-\<WRAP indent\>\<WRAP indent\> \<BR\>: Baud rate  
+ \<BR\>: Baud rate  
 ^ Parameter ^ Meaning ^
 
 |        |           |
@@ -746,83 +742,83 @@ AT
 | 2 | RS422   |
 | 3 | RS485   |
 
-\</WRAP\>\</WRAP\>
+
 
   - **Response:**
 
-\<WRAP indent\>\<WRAP indent\>
+
 
     [S,,<BR>,( <W>, <P>, <S> ) <F>]
 
-\</WRAP\>\</WRAP\>
+
 
 -----
 
   - **Example1:**
 
-\<WRAP indent\>\<WRAP indent\>
+
 
     AT+MUSART
 
     AT+MUSART?
 
-\</WRAP\>\</WRAP\>
+
 
   - **Meaning:** Get Serial Interface Information
 
-\<WRAP indent\>\<WRAP indent\> \</WRAP\>\</WRAP\>
+
 
   - **Response:**
 
-\<WRAP indent\>\<WRAP indent\>
+
 
     [S,,<BR>,( <W>, <P>, <S> ) <F>]
 
-\</WRAP\>\</WRAP\>
+
 
   - **Example2:**
 
-\<WRAP indent\>\<WRAP indent\>
+
 
     AT+MUSART=,,E,,0
 
-\</WRAP\>\</WRAP\>
+
 
   - **Meaning:** Set Serial Interface Information
 
-\<WRAP indent\>\<WRAP indent\> \</WRAP\>\</WRAP\>
+
 
   - **Response:**
 
-\<WRAP indent\>\<WRAP indent\>
+
 
     [S]
 
-\</WRAP\>\</WRAP\>
+
 
 -----
 
-\<WRAP left round box 30%\>\<WRAP centeralign\>====AT+MDATA====
-\</WRAP\>\</WRAP\>  
+====AT+MDATA====
   
   
-\* **Format:** \<WRAP indent\>\<WRAP indent\>
+  
+\* **Format:** 
 
     AT+MDATA
 
-\</WRAP\>\</WRAP\>
+
 
   - **Meaning:** Terminal Check - exit AT Command mode
 
-\<WRAP indent\>\<WRAP indent\> \</WRAP\>\</WRAP\>
+
 
   - **Response:**
 
-\<WRAP indent\>\<WRAP indent\>
+
 
     [S]
 
-\</WRAP\>\</WRAP\>  
+  
 
 -----
 
@@ -834,34 +830,34 @@ AT
 
 -----
 
-\<WRAP left round box 30%\>\<WRAP centeralign\>====AT+FDNS====
-\</WRAP\>\</WRAP\>  
+====AT+FDNS====
   
   
-\* **Format:** \<WRAP indent\>\<WRAP indent\>
+  
+\* **Format:** 
 
     AT+FDNS
 
-\</WRAP\>\</WRAP\>
+
 
   - **Meaning:** Do DNS Query and then return its result. Using Domain
     and DNS Server IP what has set via Configuration Tool.
 
-\<WRAP indent\>\<WRAP indent\> \</WRAP\>\</WRAP\>
+
 
   - **Response:**
 
-\<WRAP indent\>\<WRAP indent\>
+
 
     [D,,13]
     DNS Timeout
 
-\</WRAP\>\</WRAP\> \<WRAP indent\>\<WRAP indent\>
+ 
 
     [D,,17]
     173.194.126.180
 
-\</WRAP\>\</WRAP\>
+
 
 -----
 
@@ -869,7 +865,7 @@ AT
 
 ### Description
 
-![](/products/wiz550s2e/wiz550s2epg_kr/configtool/global_config.png)  
+![](/img/products/wiz550s2e/wiz550s2epg_kr/configtool/global_config.png)  
 WIZ550SR Configuration tool is an application program which is based on
 java and can be used in most OS platforms including Windows, MAC OS and
 Linux. Please download .jar file and execute it over Java Virtual
@@ -898,7 +894,7 @@ WIZ550SR Configuration tool consists four sections
 
 ## Common Configurations
 
-![](/products/wiz550s2e/wiz550s2epg_kr/configtool/common_config.png)
+![](/img/products/wiz550s2e/wiz550s2epg_kr/configtool/common_config.png)
 
 ### Search
 
@@ -915,7 +911,7 @@ value of the module will be displayed. Modify your configurations and
 click “Setting” button to apply your settings. The module will
 re-initialize and save the changed configurations.  
 Users can change the configurations by the following steps.  
-![](/products/wiz550s2e/wiz550s2epg_kr/configtool/password.png)
+![](/img/products/wiz550s2e/wiz550s2epg_kr/configtool/password.png)
 
     1. Select the MAC address of the device which you would like to modify in the
        “Search Window”
@@ -931,7 +927,7 @@ Users can change the configurations by the following steps.
 
 Firmware will be uploaded through TFTP. Click “F/W Uploading” Button and
 a popup window will shows as follow.  
-![](/products/wiz550s2e/wiz550s2epg_kr/configtool/tftp_server_info.png)  
+![](/img/products/wiz550s2e/wiz550s2epg_kr/configtool/tftp_server_info.png)  
 Server IP : TFTP Server IP
 
     Server Port : TFTP Server Port (TFTP default Port : 69)
@@ -1013,7 +1009,7 @@ This field shows the current status of network connection.
 
 ## Network Configurations
 
-![](/products/wiz550s2e/wiz550s2epg_kr/configtool/network_config.png)  
+![](/img/products/wiz550s2e/wiz550s2epg_kr/configtool/network_config.png)  
 
 ### IP
 
@@ -1081,7 +1077,7 @@ The Data transmission proceeds as below.
 2.  As the connection is established, data can be transmitted in both
     directions 
 
-<!-- end list -->
+
 
 ``` 
    (host -> WIZ550SR / WIZ550SR -> host)
@@ -1103,7 +1099,7 @@ The Data transmission proceeds as below:
 2.  If the connection is complete, data can be transmitted in both
     directions
 
-<!-- end list -->
+
 
 ``` 
    (host -> WIZ550SR / WIZ550SR -> host)
@@ -1168,7 +1164,7 @@ having data from serial prior to TCP connection is established.
 
 ## Serial Configurations
 
-![](/products/wiz550s2e/wiz550s2epg_kr/configtool/serial_config.png)
+![](/img/products/wiz550s2e/wiz550s2epg_kr/configtool/serial_config.png)
 
 ### USART
 
@@ -1227,7 +1223,7 @@ packetizing data into one frame.
 
 ## Options Configurations
 
-![](/products/wiz550s2e/wiz550s2epg_kr/configtool/option_config.png)
+![](/img/products/wiz550s2e/wiz550s2epg_kr/configtool/option_config.png)
 
 ### Module Name
 
@@ -1286,21 +1282,21 @@ field.
 
 -----
 
-\<WRAP group\> \<WRAP centeralign third column\>
+
 [![arrow\_back.png](/etc/arrow_back.png)](/products/wiz550sr/wiz550sr_userguide)  
 **Prev Page**  
-[](/products/wiz550sr/wiz550sr_userguide) \</WRAP\>
+[](/products/wiz550sr/wiz550sr_userguide)
 
-\<WRAP centeralign third column\>
+
 [![arrow\_upward.png](/etc/arrow_upward.png)](/products/wiz550sr/wiz550sr_userguide_kr)  
-**Scroll to Top** \</WRAP\>
+**Scroll to Top**
 
-\<WRAP centeralign third column\>
+
 [![arrow\_forward.png](/etc/arrow_forward.png)](/products/wiz550sr/wiz550sr_userguide_kr)  
 **Next Page**  
-[User's Guide(Kor)](/products/wiz550sr/wiz550sr_userguide_kr) \</WRAP\>
-\</WRAP\>
+[User's Guide(Kor)](/products/wiz550sr/wiz550sr_userguide_kr)
 
-\<WRAP centeralign\>
+
+
 [![arrow\_refresh.png](/etc/arrow_refresh.png)](/products/wiz550sr/start)  
-**Back to Product Main** \</WRAP\>
+**Back to Product Main**

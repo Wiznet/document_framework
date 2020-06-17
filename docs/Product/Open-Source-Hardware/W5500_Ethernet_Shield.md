@@ -143,7 +143,7 @@ to the chip's datasheet:
   - Because, Buffer IC was limited delay speed.
   - Arduino compatible INT(R25) remove
 
-<!-- end list -->
+
 
   - [W5500 Ethernet shield Rev1.01 Schematic](/img/osh/w5500_ethernet_shield/w5500_ethernet_shield_v1.01.pdf)
 

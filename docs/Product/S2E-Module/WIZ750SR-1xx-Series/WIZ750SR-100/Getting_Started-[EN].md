@@ -27,7 +27,7 @@ WIZ750SR-100-EVB evaluation board.**
 
 |                                                              |
 | ------------------------------------------------------------ |
-| ![](/products/wiz750jr/gettingstarted/wiz750jr_pakage.png)   |
+| ![](/img/products/wiz750jr/gettingstarted/wiz750jr_pakage.png)   |
 | Figure: ***WIZ750SR-100 Rev. 1.0 Evaluation Board Package*** |
 
 The WIZ750SR-100 evaluation board package contains the following parts.
@@ -66,7 +66,7 @@ Contents](/products/wiz750sr-100/overview/en#product_contents) page.
     \[7\]
   - **PNP Transistor** for UART trans/receive indicate \[8\]
 
-<!-- end list -->
+
 
   - **EEPROM** for saving device setting: It is Not mounted
   - **Data Flash** for saving device data: It is Not mounted
@@ -136,13 +136,13 @@ Contents](/products/wiz750sr-100/overview/en#product_contents) page.
   - Serial command mode switch code: **+++** (hex code,
     \[2B\]\[2B\]\[2B\])
 
-<!-- end list -->
+
 
   - Data packing option - Time: **Disabled**
   - Data packing option - Size: **Disabled**
   - Data packing option - Char: **Disabled**
 
-<!-- end list -->
+
 
   - Inactivity Timer: **Disabled**
   - Reconnection Timer: **3 second**
@@ -195,7 +195,7 @@ on the same Ethernet network.
   - User should to matching the network settings of 'WIZ750SR-100's
     remote host' and 'PC (or laptop)' for testing TCP client/mixed mode.
 
-<!-- end list -->
+
 
   - If the DHCP(automatic IP allocation) is used, both the WIZ750SR-100
     and test PC must be set to be assigned the same IP from the same
@@ -220,14 +220,14 @@ as shown in the picture below.
       - Used to connect the evaluation board’s RJ-45 connector and the
         PC’s Ethernet network interface card (PC's RJ-45 connector)
 
-<!-- end list -->
+
 
   - Serial Cable
       - Used to connect the evaluation board’s DB9 connector and the
         serial interface card (DB9 connector). If the PC does support
         serial interface, use the RS-232 to USB converter.
 
-<!-- end list -->
+
 
   - Optional: USB type B cable (for debug message)
       - Used to connect the evaluation board’s USB connector and the
@@ -235,12 +235,12 @@ as shown in the picture below.
 
 |                                                                |
 | -------------------------------------------------------------- |
-| ![](/products/wiz750jr/gettingstarted/wiz750jr_evb_combin.png) |
+| ![](/img/products/wiz750jr/gettingstarted/wiz750jr_evb_combin.png) |
 | Figure: **Combining WIZ750SR-100 module and EVB**              |
 
 |                                                                   |
 | ----------------------------------------------------------------- |
-| ![](/products/wiz750jr/gettingstarted/wiz750jr-evb_side_view.png) |
+| ![](/img/products/wiz750jr/gettingstarted/wiz750jr-evb_side_view.png) |
 | Figure: **WIZ750SR-100-EVB side view**                            |
 
 #### Step 2: Power on
@@ -258,7 +258,7 @@ of the WIZ750SR-100 module can be checked using the configuration tool.
 
 |                                                       |
 | ----------------------------------------------------- |
-| ![](/products/wiz750sr/gettingstarted/configtool.png) |
+| ![](/img/products/wiz750sr/gettingstarted/configtool.png) |
 | Figure: **WIZnet Configuration Tool**                 |
 
 #### Step 4: Set up your WIZ750SR-100
@@ -288,7 +288,7 @@ below.
 
 |                                                                  |
 | ---------------------------------------------------------------- |
-| ![](/products/wiz750sr/gettingstarted/windows_devicemanager.png) |
+| ![](/img/products/wiz750sr/gettingstarted/windows_devicemanager.png) |
 | Figure: Device Manager                                           |
 
 #### Step 6: Verify
@@ -301,7 +301,7 @@ below.
         the identical character string appears on the TCP client
         terminal.
 
-<!-- end list -->
+
 
   - **Ethernet to Serial: data communication verification**
       - Enter the character string in the TCP client terminal and check
@@ -315,7 +315,7 @@ Now you’re ready to use the WIZ750SR-100\!
   - This document is based on the **assumption of the PC as the serial
     device / remote network device**. 
 
-<!-- end list -->
+
 
   - The next step is to **connect the WIZ750SR-100 module to the target
     serial device** and check if the device can **communicate, control,
@@ -324,7 +324,7 @@ Now you’re ready to use the WIZ750SR-100\!
 -----
 **If there is any problem?**  
 Please refer to our **[Troubleshooting
-Guide](/products/wiz750sr/troubleshooting/en)**\! 
+Guide](trouble_shooting-[EN])**\! 
 -----
 
 ## Navigation
@@ -336,17 +336,17 @@ WIZ750SR series Common Documents
   - **[User's Manual (English)](User's_Manual-[EN].md)** 
   - **[User's Manual (Korean)](User's_Manual-[KO].md)** 
 
-<!-- end list -->
+
 
   - **[Device Command Manual (English)](Command_Manual-[EN].md)**
   - **[Device Command Manual (Korean)](Command_Manual-[KO].md)**
 
-<!-- end list -->
+
 
   - **[Troubleshooting Guide (English)](Trouble_Shooting-[EN].md)**
   - **[Troubleshooting Guide (Korean)](Trouble_Shooting-[KO].md)**
 
-<!-- end list -->
+
 
   - **[Update History (English)](Series_Update_History-[EN].md)**
   - **[Update History (Korean)](Series_Update_History-[KO].md)**
@@ -357,7 +357,7 @@ WIZ750SR series Common Documents
 
   - **[Software Download](Download.md)**
 
-<!-- end list -->
+
 
   - **[Technical References](Technical_References.md)**
 

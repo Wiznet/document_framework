@@ -120,7 +120,7 @@ if (Sn_SR != SOCK_INIT) Sn_CR = CLOSE; goto START;
 command, the Sn\_CR register is automatically cleared to 0x00**. Even
 though Sn\_CR is cleared to 0x00, the command is still being processed.
 *To check whether the command is completed or not, please check the
-Sn\_IR or Sn\_SR.*\</WRAP\>
+Sn\_IR or Sn\_SR.*
 
 ### LISTEN
 
@@ -245,7 +245,7 @@ Ex) Send Data Length Size= 10,
     Note: Don’t copy data until the sum of the actual sent data length
     is the send data length.
 
-<!-- end list -->
+
 
 ``` c
 {

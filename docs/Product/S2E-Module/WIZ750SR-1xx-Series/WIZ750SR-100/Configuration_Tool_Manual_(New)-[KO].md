@@ -9,10 +9,10 @@ date: 2020-04-09
 # WIZ750SR Series Configuration Tool Manual (New)
 
 **Supported Languages**  
-* [English](Configuration_Tool_Manual_(New)-[EN].md)
-* [Korean](Configuration_Tool_Manual_(New)-[KO].md) (current page)
+* [English](configuration_tool_manual_new-[EN].md)
+* [Korean](configuration_tool_manual_new-[KO].md) (current page)
 
-![](/products/wiz750sr/docs_icon.png)
+![](/img/products/wiz750sr/docs_icon.png)
 
 -----
 
@@ -33,7 +33,7 @@ WIZnet 페이지 내에 공개되어 있으며, 최신 버전의 실행 파일�
 
 |                                                                            |
 | -------------------------------------------------------------------------- |
-| ![](/products/wiz750sr/guiconfigtoolmanual/gui_configtool_main.png)        |
+| ![](/img/products/wiz750sr/guiconfigtoolmanual/gui_configtool_main.png)        |
 | Figure: **Configuration Tool for WIZ750SR series & WIZ107/108SR Products** |
 
 -----
@@ -52,7 +52,7 @@ WIZnet-S2E-Tool-GUI에서 지원하는 제품 리스트는 아래와 같습니�
   - [WIZ107SR](http://www.wiznet.io/product-item/wiz107sr/)
   - [WIZ108SR](http://www.wiznet.io/product-item/wiz108sr/)
 
-<!-- end list -->
+
 
 1.  WIZnet-S2E-Tool-GUI는 Python 기반으로 제작되어 OS 종류에 관계 없이 실행 가능합니다.
 
@@ -74,7 +74,7 @@ WIZnet-S2E-Tool-GUI에서 지원하는 제품 리스트는 아래와 같습니�
 
 |                                                                       |
 | --------------------------------------------------------------------- |
-| ![](/products/wiz750sr/guiconfigtoolmanual/gui_configtool_layout.png) |
+| ![](/img/products/wiz750sr/guiconfigtoolmanual/gui_configtool_layout.png) |
 | Figure: **Configuration Tool Layout**                                 |
 
 설정 프로그램은 위 그림과 같이 기능 별로 나눌 수 있습니다.
@@ -120,7 +120,7 @@ Configuration tool 상단에 위치하며, 제품의 검색 / 펌웨어 업로�
 
 |                                                                          |
 | ------------------------------------------------------------------------ |
-| ![](/products/wiz750sr/guiconfigtoolmanual/gui_configtool_icon_menu.png) |
+| ![](/img/products/wiz750sr/guiconfigtoolmanual/gui_configtool_icon_menu.png) |
 | Figure: **Menu Icons**                 
 
 #### 1\) Device Search
@@ -131,14 +131,14 @@ Configuration tool 상단에 위치하며, 제품의 검색 / 펌웨어 업로�
     및 [TCP Unicast](https://en.wikipedia.org/wiki/Unicast)\[2\]로 검색이
     가능합니다.
 
-<!-- end list -->
+
 
   - **네트워크를 이용한 WIZ750SR 장치 검색 기능은 TCP/UDP 포트 50001번을 이용**합니다. 만약 방화벽이나
     백신 프로그램에서 해당 포트를 차단하고 있을 경우, 장치 검색에 실패할 수 있습니다.
       - 이러한 경우, 방화벽이나 백신 프로그램의 동작을 해제 하신 후 테스트 해 보시기를 권장합니다.
       - 문제가 지속될 경우, 다음 내용을 확인 해 보시기 바랍니다.
           - **[문제 해결 가이드: 제품의 Search가 되지
-            않습니다](/products/wiz750sr/troubleshooting/ko)**
+            않습니다](trouble_shooting-[KO])**
 
 #### 2\) Apply Settings
 
@@ -154,7 +154,7 @@ Configuration tool 상단에 위치하며, 제품의 검색 / 펌웨어 업로�
 
 |                                                                                       |
 | ------------------------------------------------------------------------------------- |
-| ![](/products/wiz750sr/guiconfigtoolmanual/gui_configtool_firmwareupload_success.png) |
+| ![](/img/products/wiz750sr/guiconfigtoolmanual/gui_configtool_firmwareupload_success.png) |
 | Figure: **Popup Message - Firmware Upload Successfully**                              |
 
   - **네트워크를 이용한 WIZ750SR 장치 펌웨어 업로드 기능은 TCP 포트 50002번을 이용**합니다. 만약 방화벽이나
@@ -162,12 +162,12 @@ Configuration tool 상단에 위치하며, 제품의 검색 / 펌웨어 업로�
       - 이러한 경우, 방화벽이나 백신 프로그램의 동작을 해제 하신 후 테스트 해 보시기를 권장합니다.
       - 문제가 지속될 경우, 다음 내용을 확인 해 보시기 바랍니다.
           - **[문제 해결 가이드: 펌웨어 업데이트에
-            실패합니다.](/products/wiz750sr/troubleshooting/ko)**
+            실패합니다.](trouble_shooting-[KO])**
   - 올바르지 않은 펌웨어로 업로드를 수행 한 경우, 제품의 정상 동작을 보장 할 수 없습니다.
 
-\<WRAP round alert center centeralign 60%\> **펌웨어 업로드 중에는 절대 전원을 끄지
+**펌웨어 업로드 중에는 절대 전원을 끄지
 마십시오**  
-**제품 오동작의 원인이 될 수 있습니다.** \</WRAP\>
+**제품 오동작의 원인이 될 수 있습니다.**
 
 #### 4\) Reset Device
 
@@ -177,7 +177,7 @@ Configuration tool 상단에 위치하며, 제품의 검색 / 펌웨어 업로�
 
   - WIZ750SR 제품의 설정을 공장 초기 설정 값(Factory default)로 되돌립니다.
   - 제품의 초기 설정 값은 [WIZ750SR Factory
-    Settings](/products/wiz750sr/gettingstarted/ko#wiz750sr_factory_settings)에서
+    Settings](getting_started-[KO]#wiz750sr-factory-settings)에서
     확인 할 수 있습니다.
   - 제품은 동작이 완료된 이후 자동으로 재시작(Reboot) 됩니다. 
 
@@ -186,7 +186,7 @@ Configuration tool 상단에 위치하며, 제품의 검색 / 펌웨어 업로�
   - 현재 선택된 모듈의 모든 설정값을 파일로 저장합니다.
   - 환경이 바뀌거나 현재 장치의 설정값을 다른 장치에 적용하고자 할 때 사용할 수 있습니다.
 
-<!-- end list -->
+
 
 1.  UDP Broadcast Search: 망 내 모듈 검색, 다수의 모듈 제품 검색 가능
 
@@ -207,7 +207,7 @@ Configuration tool 상단에 위치하며, 제품의 검색 / 펌웨어 업로�
 
 |                                                                            |
 | -------------------------------------------------------------------------- |
-| ![](/products/wiz750sr/guiconfigtoolmanual/gui_configtool_net_adapter.png) |
+| ![](/img/products/wiz750sr/guiconfigtoolmanual/gui_configtool_net_adapter.png) |
 | Figure: **Network adapters**                                               |
 
   - 여러 종류의 네트워크 어댑터를 사용하는 경우, 어댑터 리스트와 사용 중인 대역이 표시되며, 환경에 따라 사용할 네트워크
@@ -221,7 +221,7 @@ Configuration tool 상단에 위치하며, 제품의 검색 / 펌웨어 업로�
 
 |                                                                            |
 | -------------------------------------------------------------------------- |
-| ![](/products/wiz750sr/guiconfigtoolmanual/gui_configtool_device_list.png) |
+| ![](/img/products/wiz750sr/guiconfigtoolmanual/gui_configtool_device_list.png) |
 | Figure: **Device List**                                                    |
 
   - Search 기능을 통해 검색된 장치의 리스트가 표시됩니다. 
@@ -258,7 +258,7 @@ Configuration tool 상단에 위치하며, 제품의 검색 / 펌웨어 업로�
 
 |                                                                                  |
 | -------------------------------------------------------------------------------- |
-| ![](/products/wiz750sr/guiconfigtoolmanual/gui_configtool_tab_basicsettings.png) |
+| ![](/img/products/wiz750sr/guiconfigtoolmanual/gui_configtool_tab_basicsettings.png) |
 | Figure: **Basic settings Tab**                                                   |
 
 #### 1\) Device information
@@ -267,7 +267,7 @@ Configuration tool 상단에 위치하며, 제품의 검색 / 펌웨어 업로�
   - WIZ750SR의 버전은 **Major** version number . **Minor** version number .
     **Maintenance** version number의 세 부분으로 구성됩니다. 예) v1.0.0
 
-<!-- end list -->
+
 
 1.  UDP Broadcast Search: 망 내 모듈 검색, 다수의 모듈 제품 검색 가능
 
@@ -290,12 +290,12 @@ Configuration tool 상단에 위치하며, 제품의 검색 / 펌웨어 업로�
       - 직접 IP 주소 할당 모드를 선택합니다. 이 옵션을 선택하면 Local IP, Subnet mask,
         Gateway, DNS server 필드가 입력 가능한 상태로 활성화 됩니다.
 
-<!-- end list -->
+
 
   - IP 주소 할당에 관한 상세 설명은 [WIZ750SR User's Manual: IP 주소
-    설정](/products/wiz750sr/usermanual/ko#IP_주소_설정)에서 다룹니다.
+    설정](users_manual-[KO]#ip-주소-설정)에서 다룹니다.
 
-<!-- end list -->
+
 
   - **DHCP**
       - 자동 IP 주소 할당 모드를 선택합니다. 이 옵션을 선택하면 각 필드가 비활성화 되며, 모듈과 동일 네트워크 상에
@@ -307,7 +307,7 @@ Configuration tool 상단에 위치하며, 제품의 검색 / 펌웨어 업로�
 
 |                                                                            |
 | -------------------------------------------------------------------------- |
-| ![](/products/wiz750sr/guiconfigtoolmanual/gui_configtool_tab_options.png) |
+| ![](/img/products/wiz750sr/guiconfigtoolmanual/gui_configtool_tab_options.png) |
 | Figure: **Option Tab**                                                     |
 
 -----
@@ -342,14 +342,14 @@ Configuration tool 상단에 위치하며, 제품의 검색 / 펌웨어 업로�
       - 시리얼 커맨드 모드로 변경되면 기존에 연결되어 있던 TCP 연결(TCP connection)이 모두
         종료(disconnect)됩니다.
 
-<!-- end list -->
+
 
   - **Serial command mode switch code: Trigger code**
       - 데이터 모드에서 시리얼 커맨드 모드로 전환하기 위한 3-byte 코드입니다.
           - Default: \[2B\]\[2B\]\[2B\] (+++)
       - 각 byte의 값은 hex 코드만 인식합니다.
 
-\<WRAP round tip center 90%\>
+
 
 **Trigger code를 이용한 모드 전환 시 주의점**은 다음과 같습니다.
 
@@ -360,7 +360,7 @@ Configuration tool 상단에 위치하며, 제품의 검색 / 펌웨어 업로�
   - 커맨드 모드 전환 코드 전, 후 간격과 사이 간격의 **초기 값은 500ms**이며, 시리얼 데이터 패킹 옵션의 **Timer** 값이 설정된 경우 간격 값은 설정된 Timer 값으로 변경됩니다.
 ```
 
-\</WRAP\>
+
 
 #### 5\) Connection password (TCP server mode only)
 
@@ -378,7 +378,7 @@ Configuration tool 상단에 위치하며, 제품의 검색 / 펌웨어 업로�
 
 |                                                                            |
 | -------------------------------------------------------------------------- |
-| ![](/products/wiz750sr/guiconfigtoolmanual/gui_configtool_tab_channel.png) |
+| ![](/img/products/wiz750sr/guiconfigtoolmanual/gui_configtool_tab_channel.png) |
 | Figure: **Network Configuration Tab**                                      |
 
 #### 1\) Status & Serial Interface
@@ -416,7 +416,7 @@ Configuration tool 상단에 위치하며, 제품의 검색 / 펌웨어 업로�
   - **TCP 클라이언트 모드, TCP 서버 모드(default), TCP 클라이언트/서버 혼용 모드, UDP 모드**의 네
     가지 모드 중 사용자의 응용과 목적에 맞게 선택 할 수 있습니다. 
   - 각 네트워크 동작 모드의 특징과 전용 옵션은 [WIZ750SR User's Manual: 네트워크 동작
-    모드](/products/wiz750sr/usermanual/ko#네트워크_동작_모드)에서 다룹니다. |
+    모드](users_manual-[KO]#네트워크-동작-모드)에서 다룹니다. |
 
 -----
 
@@ -429,7 +429,7 @@ Configuration tool 상단에 위치하며, 제품의 검색 / 펌웨어 업로�
         네임**을 입력 할 수 있습니다.
       - **목적지의 포트 번호**가 꼭 필요합니다.
       - 원격지 호스트 설정에 관한 상세 설명은 [WIZ750SR User's Manual: 원격지 호스트
-        설정](/products/wiz750sr/usermanual/ko#원격지_호스트_설정)에서 다룹니다. |
+        설정](users_manual-[KO]#원격지-호스트-설정)에서 다룹니다. |
 
 \* WIZ750SR은 **PPPoE**와 **DDNS**를 지원하지 않습니다.
 
@@ -448,25 +448,25 @@ Configuration tool 상단에 위치하며, 제품의 검색 / 펌웨어 업로�
       - 300, 600, 1200, 1800, 2400, 4800, 9600, 14400, 19200, 28800,
         38400, 57600, 115200(default), 230400, 460800
 
-<!-- end list -->
+
 
   - **Data Bit**
       - 지원 Data bit는 다음과 같습니다.
       - 7, 8(default)
 
-<!-- end list -->
+
 
   - **Parity**
       - 지원 Parity bit는 다음과 같습니다.
       - NONE(default), ODD, EVEN
 
-<!-- end list -->
+
 
   - **Stop Bit**
       - 지원 Stop bit는 다음과 같습니다.
       - 1(default), 2
 
-<!-- end list -->
+
 
   - **Flow Control**
       - RS-232/TTL 제품은 다음과 같은 시리얼 데이터 흐름제어(flow control)를 지원합니다.
@@ -484,9 +484,9 @@ Configuration tool 상단에 위치하며, 제품의 검색 / 펌웨어 업로�
     제공**\[1\]합니다. 해당 옵션을 활용하면 한 번에 전송 하는 것이 유리한 유저 커맨드 프레임이나 주기 데이터를
     손쉽게 모아 전송 할 수 있습니다.
 
-\<WRAP round tip center centeralign 80%\> **해당 옵션은 중복 설정 가능하며, 적용 우선 순위는
+**해당 옵션은 중복 설정 가능하며, 적용 우선 순위는
 다음과 같습니다.**  
-**Character =\> Size =\> Timer** \</WRAP\>
+**Character =\> Size =\> Timer**
 
   - **Timer**
       - **범위: 0 \~ 65535, 단위: 밀리 초(ms)**
@@ -494,7 +494,7 @@ Configuration tool 상단에 위치하며, 제품의 검색 / 펌웨어 업로�
       - 지정된 **시간**이 경과 할 때까지 데이터를 저장한 후 한 번에 전송합니다.
       - '0'으로 설정하면 동작하지 않습니다.
 
-<!-- end list -->
+
 
   - **Size**
       - **범위: 0 \~ 255, 단위: 데이터 길이(byte 수)**
@@ -502,7 +502,7 @@ Configuration tool 상단에 위치하며, 제품의 검색 / 펌웨어 업로�
       - 지정된 **데이터 길이**에 도달할 때 까지 데이터를 저장한 후 한 번에 전송합니다.
       - '0'으로 설정하면 동작하지 않습니다.
 
-<!-- end list -->
+
 
   - **Character**
       - **범위 및 단위: 1-byte 문자(Hex code)**
@@ -525,7 +525,7 @@ Configuration tool 상단에 위치하며, 제품의 검색 / 펌웨어 업로�
         시간 경과 후 연결을 종료합니다.
       - 연결 과정이 수행되는 **TCP 서버 및 TCP 클라이언트 모드(혼합 모드 포함)**에 적용 됩니다.
 
-<!-- end list -->
+
 
   - **Reconnection interval**
       - **범위: 1 \~ 65535, 단위: 밀리 초(ms)**
@@ -546,7 +546,7 @@ Configuration tool 상단에 위치하며, 제품의 검색 / 펌웨어 업로�
     disconnect)
   - WIZ750SR에서 한 번 이상 이더넷 패킷이 송신된 이후부터 연결 유지 패킷 전송이 시작됩니다.
 
-<!-- end list -->
+
 
   - **Send Keep-Alive 간격**
       - **범위: 0 \~ 65535, 단위: 밀리 초(ms)**
@@ -555,7 +555,7 @@ Configuration tool 상단에 위치하며, 제품의 검색 / 펌웨어 업로�
           - Initial interval: 최초 연결 유지 패킷을 전송하기까지의 간격
           - Retry interval: 매 연결 유지 패킷 전송 시 사이의 간격
 
-<!-- end list -->
+
 
   - 이더넷 네트워크 장비는 원격지 장비의 물리적 단선을 감지 할 수 없으므로, 해당 옵션을 활성화하여 문제 상황에서 TCP
     연결을 종료 할 수 있도록 설정하는 것이 좋습니다.
@@ -564,9 +564,9 @@ Configuration tool 상단에 위치하며, 제품의 검색 / 펌웨어 업로�
 
 -----
 
-\<WRAP center round tip 80% centeralign\> **동작에 문제가 있나요?**  
-**[Troubleshooting 가이드](/products/wiz750sr/troubleshooting/ko)** 문서를 참고해
-보세요\! \</WRAP\>
+**동작에 문제가 있나요?**  
+**[Troubleshooting 가이드](trouble_shooting-[KO])** 문서를 참고해
+보세요\!
 
 -----
 
@@ -579,17 +579,17 @@ WIZ750SR series Common Documents
   - **[User's Manual (English)](User's_Manual-[EN].md)** 
   - **[User's Manual (Korean)](User's_Manual-[KO].md)** 
 
-<!-- end list -->
+
 
   - **[Device Command Manual (English)](Command_Manual-[EN].md)**
   - **[Device Command Manual (Korean)](Command_Manual-[KO].md)**
 
-<!-- end list -->
+
 
   - **[Troubleshooting Guide (English)](Trouble_Shooting-[EN].md)**
   - **[Troubleshooting Guide (Korean)](Trouble_Shooting-[KO].md)**
 
-<!-- end list -->
+
 
   - **[Update History (English)](Series_Update_History-[EN].md)**
   - **[Update History (Korean)](Series_Update_History-[KO].md)**
@@ -600,7 +600,7 @@ WIZ750SR series Common Documents
 
   - **[Software Download](Download.md)**
 
-<!-- end list -->
+
 
   - **[Technical References](Technical_References.md)**
 

@@ -147,7 +147,7 @@ M0](http://www.arduino.org/learning/getting-started/getting-started-with-arduino
   - Overview에 언급 한 바와 같이 WizArduino M0 ETH는 Arduino M0와 Ethernet Shield
     2가 합쳐진 board입니다. 
   - Ethernet 기능을 사용 하려면, 아래와 같이 Ethernet2.h 파일을 추가 해야 합니다.
-  - Ethernet 기능을 사용 할 시 \<wrap em\>**pin 10**\</wrap\>은 Ethernet 제어를 위해
+  - Ethernet 기능을 사용 할 시 \<wrap em\>**pin 10**은 Ethernet 제어를 위해
     할당 되어 있으니 사용하지 마세요. 
     
 >
@@ -157,14 +157,14 @@ M0](http://www.arduino.org/learning/getting-started/getting-started-with-arduino
 
 #### SD Card
 
-  - SD Card기능을 사용 할 시 \<wrap em\>**pin 4**\</wrap\>은 SD Card 제어를 위해 할당
+  - SD Card기능을 사용 할 시 \<wrap em\>**pin 4**은 SD Card 제어를 위해 할당
     되어 있으니 사용하지 마세요.
 
 -----
 
 ### Example
 
-본 예제는 아두이노 스케치 **\<wrap em\>v1.7.5\</wrap\>** 에서 정상 동작 확인 되었습니다.
+본 예제는 아두이노 스케치 **\<wrap em\>v1.7.5** 에서 정상 동작 확인 되었습니다.
 
 #### Basic
 

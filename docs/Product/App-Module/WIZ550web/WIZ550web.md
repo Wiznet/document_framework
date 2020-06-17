@@ -31,7 +31,7 @@ customize their own objective.
       - Reference Schematics
       - Dimension
 
-<!-- end list -->
+
 
   - **H/W Rev1.1/1.2 Datasheet**:
     [\[English](/products/wiz550web/wiz550webds_rev1.1_en)\] /
@@ -40,7 +40,7 @@ customize their own objective.
       - Reference Schematics
       - Dimension
 
-<!-- end list -->
+
 
   - **Getting Started Guide**:
     [\[English](/products/wiz550web/wiz550webgsg_en)\] /
@@ -49,7 +49,7 @@ customize their own objective.
       - Basic operations
       - Webpage demo
 
-<!-- end list -->
+
 
   - **User's Guide**: [\[English](/products/wiz550web/wiz550webug_en)\]
     / [\[Korean](/products/wiz550web/wiz550webug_kr)\]
@@ -57,13 +57,13 @@ customize their own objective.
       - Serial AT command set
       - TFTP Guide Document
 
-<!-- end list -->
+
 
   - **Future Plans**: [\[English](/products/wiz550web/wiz550webfp_en)\]
     / [\[Korean](/products/wiz550web/wiz550webfp_kr)\]
       - Plans for next version firmware
 
-<!-- end list -->
+
 
   - **Tutorials**:
     [\[English](/products/wiz550web/wiz550web_tutorial_en)\] /
@@ -79,7 +79,7 @@ customize their own objective.
       - Configuration Tool (Java ver.)
       - How to program WIZ550web code flash memory
 
-<!-- end list -->
+
 
   - **[H/W Rev1.1/1.2
     Download](/products/wiz550web/wiz550web_download_rev1.1)**

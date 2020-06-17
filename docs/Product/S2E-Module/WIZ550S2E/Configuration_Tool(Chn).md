@@ -10,7 +10,7 @@ date: 2020-04-16
 
 ## Description
 
-![](/products/wiz550s2e/wiz550s2epg_kr/configtool/global_config.png)  
+![](/img/products/wiz550s2e/wiz550s2epg_kr/configtool/global_config.png)  
 WIZ550S2E Configuration tool is an application program which is based on
 java and can be used in most OS platforms including Windows, MAC OS and
 Linux. Please download .jar file and execute it over Java Virtual
@@ -27,7 +27,7 @@ WIZ550S2E Configuration tool consists four sections
 
 ## Common Configurations
 
-![](/products/wiz550s2e/wiz550s2epg_kr/configtool/common_config.png)
+![](/img/products/wiz550s2e/wiz550s2epg_kr/configtool/common_config.png)
 
 ### Search
 
@@ -44,7 +44,7 @@ value of the module will be displayed. Modify your configurations and
 click “Setting” button to apply your settings. The module will
 re-initialize and save the changed configurations.  
 Users can change the configurations by following the steps below.  
-![](/products/wiz550s2e/wiz550s2epg_kr/configtool/password.png)
+![](/img/products/wiz550s2e/wiz550s2epg_kr/configtool/password.png)
 
     1. Select the MAC address of the device which you would like to modify in the “Search Window”
     2. Modify the settings according to your needs
@@ -58,7 +58,7 @@ Users can change the configurations by following the steps below.
 
 Firmware will be uploaded through TFTP. Click "F/W Uploading" Button and
 then pop up windows following figures.  
-![](/products/wiz550s2e/wiz550s2epg_kr/configtool/tftp_server_info.png)  
+![](/img/products/wiz550s2e/wiz550s2epg_kr/configtool/tftp_server_info.png)  
 Server IP : TFTP Server IP
 
     Server Port : TFTP Server Port (TFTP default Port : 69)
@@ -201,7 +201,7 @@ The Data transmission proceeds as below.
 2.  As the connection is established, data can be transmitted in both
     directions 
 
-<!-- end list -->
+
 
 ``` 
    (host -> WIZ550S2E / WIZ550S2E -> host)
@@ -222,7 +222,7 @@ The Data transmission proceeds as below:
 2.  If the connection is complete, data can be transmitted in both
     directions
 
-<!-- end list -->
+
 
 ``` 
    (host -> WIZ550S2E / WIZ550S2E -> host)

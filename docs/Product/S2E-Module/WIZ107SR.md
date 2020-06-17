@@ -50,14 +50,14 @@ data to transmit back to the equipment.
   - [WIZ107SR EVB](/products/wiz107sr/wiz107sr_EVB/start)
   - [WIZ107SR Schematics](/products/wiz107sr/wiz107sr_sch/start)
 
-<!-- end list -->
+
 
   - [WIZ108SR Datasheet](/products/wiz108sr/wiz108sr_DS/start)
   - [WIZ108SR User Manual](/products/wiz108sr/wiz108sr_UM/start)
   - [WIZ108SR EVB](/products/wiz108sr/wiz108sr_EVB/start)
   - [WIZ108SR Schematics](/products/wiz108sr/wiz108sr_sch/start)
 
-<!-- end list -->
+
 
   - [WIZ107/108 config tool](/products/wiz107sr/wiz107_tool/start)
 [WIZ107SR](http://www.wiznet.io/product-item/wiz107sr/)

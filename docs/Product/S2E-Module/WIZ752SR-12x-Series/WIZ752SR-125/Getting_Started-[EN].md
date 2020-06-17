@@ -12,7 +12,7 @@ date: 2020-04-15
 * [English](Getting_Started-[EN].md) (current page)  
 * [Korean](Getting_Started-[KO].md)
 
-![](/products/wiz750sr/docs_icon.png)
+![](/img/products/wiz750sr/docs_icon.png)
 
 -----
 
@@ -89,13 +89,13 @@ page.
   - Serial command mode switch code: **+++** (hex code,
     \[2B\]\[2B\]\[2B\])
 
-<!-- end list -->
+
 
   - Data packing option - Time: **Disabled**
   - Data packing option - Size: **Disabled**
   - Data packing option - Char: **Disabled**
 
-<!-- end list -->
+
 
   - Inactivity Timer: **Disabled**
   - Reconnection Timer: **3 second**
@@ -103,9 +103,9 @@ page.
 
 ### PC Settings
 
-\<WRAP center round important 80%\> Double check that the WIZ752SR-120
+Double check that the WIZ752SR-120
 and the PC, or laptop you are using to set up WIZ752SR-120 with are both
-on the 5same Ethernet network. \</WRAP\>
+on the 5same Ethernet network.
 
 #### Example: PC Network Settings
 
@@ -150,7 +150,7 @@ on the 5same Ethernet network. \</WRAP\>
   - User should to matching the network settings of 'WIZ750SR-120's
     remote host' and 'PC (or laptop)' for testing TCP client/mixed mode.
 
-<!-- end list -->
+
 
   - If the DHCP(automatic IP allocation) is used, both the WIZ752SR-120
     and test PC must be set to be assigned the same IP from the same
@@ -158,13 +158,13 @@ on the 5same Ethernet network. \</WRAP\>
 
 ### Connecting Steps
 
-\<WRAP center round important 80%\> The **WIZ752SR-125** is designed to
+The **WIZ752SR-125** is designed to
 use the **DB9 connector** to connect with the user’s serial device.
 Therefore, it is recommended to have all **Ethernet and serial ports
 connected to the PC** when testing. If the PC does not have a serial
 port, please purchase a **RS-232 to USB converter** separately.
 
-\</WRAP\>
+
 
 #### Step 1: Plug in
 
@@ -175,7 +175,7 @@ below.
       - Used to connect the evaluation board’s RJ-45 connector and the
         PC’s Ethernet network interface card (PC's RJ-45 connector)
 
-<!-- end list -->
+
 
   - Serial Cable
       - Used to connect the evaluation board’s DB9 connector and the
@@ -203,7 +203,7 @@ configuration tool.
 
 |                                                                     |
 | ------------------------------------------------------------------- |
-| ![](/products/s2e_module/wiz752sr-120/gettingstarted/01_search.png) |
+| ![](/img/products/s2e_module/wiz752sr-120/gettingstarted/01_search.png) |
 | Figure: **WIZnet Configuration Tool**                               |
 
 #### Step 4: Set up your WIZ752SR-125
@@ -229,7 +229,7 @@ below.
 
 |                                                                  |
 | ---------------------------------------------------------------- |
-| ![](/products/wiz750sr/gettingstarted/windows_devicemanager.png) |
+| ![](/img/products/wiz750sr/gettingstarted/windows_devicemanager.png) |
 | Figure: Device Manager                                           |
 
 #### Step 6: Verify
@@ -242,7 +242,7 @@ below.
         the identical character string appears on the TCP client
         terminal.
 
-<!-- end list -->
+
 
   - **Ethernet to Serial: data communication verification**
       - Enter the character string in the TCP client terminal and check
@@ -256,7 +256,7 @@ Now you’re ready to use the WIZ752SR-125\!
   - This document is based on the **assumption of the PC as the serial
     device / remote network device**. 
 
-<!-- end list -->
+
 
   - The next step is to **connect the WIZ752SR-125 module to the target
     serial device** and check if the device can **communicate, control,
@@ -264,8 +264,8 @@ Now you’re ready to use the WIZ752SR-125\!
 
 -----
 
-\<WRAP center round tip 80% centeralign\> **If there is any problem?**  
+**If there is any problem?**  
 Please refer to our **[Troubleshooting
-Guide](/products/wiz750sr/troubleshooting/en)**\! \</WRAP\>
+Guide](trouble_shooting-[EN])**\!
 
 -----

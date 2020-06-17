@@ -89,7 +89,7 @@ Pinmap](/img/osh/wizfi310_shield/wizfi310_shield_pinmap.png)
       - If the jumper cap is not attached to the UART pin header, it
         will not be connected to the arduino pin.
 
-<!-- end list -->
+
 
     Pin 1 : RXD
     Pin 2 : TXD
@@ -101,7 +101,7 @@ Pinmap](/img/osh/wizfi310_shield/wizfi310_shield_pinmap.png)
   - **If the state of SW5 is ON, D6 and D7 of UART jumper can not be
     used.**
 
-<!-- end list -->
+
 
     Pin 1 : RTS - D6
     Pin 2 : CTS - D7
@@ -111,7 +111,7 @@ Pinmap](/img/osh/wizfi310_shield/wizfi310_shield_pinmap.png)
   - **ON** : Connect to Arduino Pin
   - **OFF** : Not connect to anywhere
 
-<!-- end list -->
+
 
     Pin 1 : A0 - CDS
     Pin 2 : D14 - DHT11
@@ -126,7 +126,7 @@ Pinmap](/img/osh/wizfi310_shield/wizfi310_shield_pinmap.png)
   - **If the state of SW5 is ON, D6 and D7 of UART jumper can not be
     used.**
 
-<!-- end list -->
+
 
     J1 : RXD
     J2 : D0 ~ D8

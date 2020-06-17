@@ -132,7 +132,7 @@ date: 2020-05-08
    * DC-Jack (用于+5V电源输入)
 
 ![](/img/products/wiz550s2e/wiz550s2eds/rs232if_pin_20140729.jpg)
-![](/products/wiz550s2e/wiz550s2eds/크기변환_wiz550s2e-232-evb.png)
+![](/img/products/wiz550s2e/wiz550s2eds/크기변환_wiz550s2e-232-evb.png)
 
 -----
 
@@ -146,7 +146,7 @@ date: 2020-05-08
    * DC-Jack (用于+5V电源输出)
 
 ![](/img/products/wiz550s2e/wiz550s2eds/rs485-422if_pin_20140729.jpg)
-![](/products/wiz550s2e/wiz550s2eds/크기변환_wiz550s2e-485-evb.png)
+![](/img/products/wiz550s2e/wiz550s2eds/크기변환_wiz550s2e-485-evb.png)
 
 -----
 # 特性

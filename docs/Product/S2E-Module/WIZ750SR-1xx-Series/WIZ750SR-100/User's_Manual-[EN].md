@@ -50,10 +50,10 @@ DNS server address.
         not an IP address.
       - Please refer to the example at [Getting Started Guide: WIZ750SR
         Factory
-        Settings](/products/wiz750sr/gettingstarted/en#wiz750sr_factory_settings)
+        Settings](getting_started-[EN]#wiz750sr-factory-settings)
         for assigning a private IP address.
 
-<!-- end list -->
+
 
   - **Automatic IP allocation (DHCP)**
       - This method will automatically assign the IP address integrated
@@ -73,7 +73,7 @@ DNS server address.
             forwarding](https://en.wikipedia.org/wiki/Port_forwarding)
             for access of external network.
 
-<!-- end list -->
+
 
 1.  Static / DHCP
 
@@ -90,12 +90,12 @@ DNS server address.
     communication with external network and the internal IP address for
     internal network via router
     
-    \<WRAP round info center centeralign 60%\>
+    
 
 Default IP address of WIZ750SR  
 **Static IP allocation / 192.168.11.2**
 
-\</WRAP\>
+
 
 ### Port Number Settings
 
@@ -111,12 +111,12 @@ The range of port numbers are 0 \~ 65535.
       - ex) \[HTTP (web server)\] TCP 80, \[DNS\] TCP/UDP 53, \[DHCP\]
         UDP 67 and Etc.
 
-<!-- end list -->
+
 
   - **1024 \~ 49151**: Registered port
       - Numbers that are assigned to vendor’s applications
 
-<!-- end list -->
+
 
   - **49152 \~ 65535**: Dynamic port
 
@@ -254,7 +254,7 @@ only in applications where the data is sent from peer.
       - Module will communicate with the specified remote host address
         (domain name) and port number.
 
-<!-- end list -->
+
 
   - **1:N UDP Mode**
       - Module will communicate with the host that initiated data
@@ -380,7 +380,7 @@ Flow control disabled</td>
     serial command mode.
   - Each byte value reads hex code only.
 
-\<WRAP round tip center 90%\>
+
 
 **Please take caution of the following when using Trigger code.**
 
@@ -395,7 +395,7 @@ Flow control disabled</td>
     mode switch code is 500ms. The operation is based on the timer value
     of the serial data packaging option.
 
-\</WRAP\>
+
 
 1.  The serial command after switching modes must end with CR and LF.
 
@@ -405,9 +405,9 @@ Flow control disabled</td>
     using this option, user command frame or all other data can be
     collected and sent together.
 
-\<WRAP round tip center centeralign 90%\> Data packing options can be
+Data packing options can be
 multi-selected but has priority as shown below.  
-**Character =\> Size =\> Timer** \</WRAP\>
+**Character =\> Size =\> Timer**
 
   - **Timer**
       - Range: 0 \~ 65535 / Unit: milliseconds (ms)
@@ -415,7 +415,7 @@ multi-selected but has priority as shown below.
       - Collects the data until the designated time is lapsed and sent
         together.Will not operate if set to '0'.
 
-<!-- end list -->
+
 
   - **Size**
       - Range: 0 \~ 255 / Unit: data length (number of bytes)
@@ -424,7 +424,7 @@ multi-selected but has priority as shown below.
         and sent together.
       - Will not operate if set to '0'.
 
-<!-- end list -->
+
 
   - **Character**
       - Range & Unit: 1-byte character (Hex code)
@@ -468,7 +468,7 @@ multi-selected but has priority as shown below.
 <table>
 <tbody>
 <tr class="odd">
-<td><img src="/products/wiz750sr/usermanual/configtool_udp_search.png" class="align-center" width="300" /></td>
+<td><img src="/img/products/wiz750sr/usermanual/configtool_udp_search.png" class="align-center" width="300" /></td>
 </tr>
 <tr class="even">
 <td>Figure: <strong>Search ID code</strong><br />
@@ -487,7 +487,7 @@ multi-selected but has priority as shown below.
     connecting to WIZ750SR in order for data communication.
   - TCP connection will be disconnected if the password does not match
 
-<!-- end list -->
+
 
 1.  Serial data can be collected according to the setting (character,
     size, or time) and be sent together.
@@ -506,7 +506,7 @@ multi-selected but has priority as shown below.
       - The ‘keep-alive’ packet is sent after the Ethernet packet is
         sent at least once from WIZ750SR.
 
-<!-- end list -->
+
 
   - **Send Keep-Alive Interval**
       - **Range: 0 \~ 65535, Unit: milliseconds(ms)**
@@ -516,7 +516,7 @@ multi-selected but has priority as shown below.
           - The time until the first ‘keep-alive’ packet is sent
           - The time interval between each ‘keep-alive’ packets
 
-<!-- end list -->
+
 
   - This option is recommended in case of a physical disconnection with
     the remote device.
@@ -538,9 +538,9 @@ For more information, please refer to above document links.
 
 -----
 
-\<WRAP center round tip 80% centeralign\> **If there is any problem?**  
+**If there is any problem?**  
 Please refer to our **[Troubleshooting
-Guide](/products/wiz750sr/troubleshooting/en)**\! \</WRAP\>
+Guide](trouble_shooting-[EN])**\!
 
 -----
 
@@ -558,17 +558,17 @@ WIZ750SR series Common Documents
   - **[User's Manual (English)](User's_Manual-[EN].md)** 
   - **[User's Manual (Korean)](User's_Manual-[KO].md)** 
 
-<!-- end list -->
+
 
   - **[Device Command Manual (English)](Command_Manual-[EN].md)**
   - **[Device Command Manual (Korean)](Command_Manual-[KO].md)**
 
-<!-- end list -->
+
 
   - **[Troubleshooting Guide (English)](Trouble_Shooting-[EN].md)**
   - **[Troubleshooting Guide (Korean)](Trouble_Shooting-[KO].md)**
 
-<!-- end list -->
+
 
   - **[Update History (English)](Series_Update_History-[EN].md)**
   - **[Update History (Korean)](Series_Update_History-[KO].md)**
@@ -579,7 +579,7 @@ WIZ750SR series Common Documents
 
   - **[Software Download](Download.md)**
 
-<!-- end list -->
+
 
   - **[Technical References](Technical_References.md)**
 

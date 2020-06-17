@@ -367,7 +367,7 @@ WIZ550io, please refer to W5500 Datasheet.
 
 ### Reset Timing
 
-![](/products/nreset_rdy_timing.jpg)
+![](/img/products/nreset_rdy_timing.jpg)
 
 | Symbol | Description                      | Min   | Max  |
 | ------ | -------------------------------- | ----- | ---- |
@@ -376,7 +376,7 @@ WIZ550io, please refer to W5500 Datasheet.
 
 ### SPI Timing
 
-![](/products/spi_timing.jpg)
+![](/img/products/spi_timing.jpg)
 
 | Symbol | Description          | Min | Max | Units |
 | ------ | -------------------- | --- | --- | ----- |

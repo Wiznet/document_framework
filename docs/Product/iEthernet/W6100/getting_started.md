@@ -88,7 +88,7 @@ wiz_NetInfo gWIZNETINFO = { .mac = {0x00,0x08,0xdc,0x57,0x57,0x20},
   - Port 5000 : IPv6
   - Port 5001 : IPv4
 
-<!-- end list -->
+
 
 1.  Connect to Board 
       - Using [Hercules test program]() or

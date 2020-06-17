@@ -330,7 +330,7 @@ devices using the W5100S chip.
   - GPIO Output Voltage : 0 \~ 3.3V
   - 4-layer PCB (FR-4 material, 1.6T, 1oz)
 
-<!-- end list -->
+
 
   - Arduino Compatible with SWD Header Pinout
 

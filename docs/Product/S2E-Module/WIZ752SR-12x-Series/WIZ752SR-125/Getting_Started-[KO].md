@@ -12,7 +12,7 @@ date: 2020-04-15
 * [English](Getting_Started-[EN].md) 
 * [Korean](Getting_Started-[KO].md) (current page)
 
-![](/products/wiz750sr/docs_icon.png)
+![](/img/products/wiz750sr/docs_icon.png)
 
 -----
 
@@ -85,13 +85,13 @@ Contents](/products/s2e_module/wiz752sr-125/overview/ko#product_contents)
   - 시리얼 커맨드 모드 전환: **Enabled**
   - 시리얼 커맨드 모드 전환 코드: **+++** (3바이트 hex code, \[2B\]\[2B\]\[2B\])
 
-<!-- end list -->
+
 
   - 데이터 패킹 옵션 - Time: **Disabled**
   - 데이터 패킹 옵션 - Size: **Disabled**
   - 데이터 패킹 옵션 - Char: **Disabled**
 
-<!-- end list -->
+
 
   - 비활성 타이머: **Disabled**
   - 재연결 주기: **3초**
@@ -99,8 +99,8 @@ Contents](/products/s2e_module/wiz752sr-125/overview/ko#product_contents)
 
 ### PC Settings
 
-\<WRAP center round important 80%\> WIZ752SR-125의 설정을 위한 PC 혹은
-노트북(laptop)은 **동일한 이더넷 네트워크 대역에 위치하여야 서로 통신이 가능합니다.** \</WRAP\>
+WIZ752SR-125의 설정을 위한 PC 혹은
+노트북(laptop)은 **동일한 이더넷 네트워크 대역에 위치하여야 서로 통신이 가능합니다.**
 
 #### Example: PC Network Settings
 
@@ -145,19 +145,19 @@ Contents](/products/s2e_module/wiz752sr-125/overview/ko#product_contents)
   - TCP 클라이언트 및 TCP 서버/클라이언트 혼용 모드의 테스트를 위해 WIZ752SR-120의 Remote host
     설정은 PC(혹은 laptop)와 일치하는 것이 좋습니다.
 
-<!-- end list -->
+
 
   - 만약 DHCP(자동 IP 할당) 기능을 사용 할 경우, WIZ750SR-120 제품과 테스트용 PC는 **동일한
     공유기**로부터 IP 주소를 할당 받도록 설정하여야 합니다.
 
 ### Connecting Steps
 
-\<WRAP center round important 80%\> **WIZ752SR-125-EVB**는 **DB9 커넥터**를
+**WIZ752SR-125-EVB**는 **DB9 커넥터**를
 이용하여 사용자 시리얼 장치와 연결되도록 구성되어 있습니다. 따라서 PC를 이용한 초기 제품 테스트의 경우, **이더넷 및
 시리얼 포트를 모두 PC와 연결**하여 테스트 하도록 가이드 하고 있습니다. 만약 PC에 시리얼 포트가 없는 경우는 시중에 판매
 중인 **RS-232 to USB 컨버터(\*별매)**를 활용하시기 바랍니다.
 
-\</WRAP\>
+
 
 #### Step 1: Plug in
 
@@ -166,7 +166,7 @@ WIZ752SR-125 모듈과 케이블을 다음과 같이 연결합니다.
   - 이더넷 케이블
       - 개발보드의 RJ-45 커넥터와 PC의 이더넷 네트워크 인터페이스 카드(RJ-45 커넥터)를 연결합니다.
 
-<!-- end list -->
+
 
   - 시리얼 케이블
       - 개발보드의 DB9 커넥터와 PC의 시리얼 인터페이스 카드(DB9 커넥터)를 연결합니다. 만약 PC가 시리얼
@@ -191,7 +191,7 @@ PC의 Configuration tool을 실행하여 상단 Search 버튼을 클릭합니다
 
 |                                                                     |
 | ------------------------------------------------------------------- |
-| ![](/products/s2e_module/wiz752sr-120/gettingstarted/01_search.png) |
+| ![](/img/products/s2e_module/wiz752sr-120/gettingstarted/01_search.png) |
 | Figure: **WIZnet Configuration Tool**                               |
 
 #### Step 4: Set up your WIZ752SR-125
@@ -213,7 +213,7 @@ PC를 사용자 시리얼 장치 및 TCP 클라이언트로 삼아 데이터 통
 
 |                                                                  |
 | ---------------------------------------------------------------- |
-| ![](/products/wiz750sr/gettingstarted/windows_devicemanager.png) |
+| ![](/img/products/wiz750sr/gettingstarted/windows_devicemanager.png) |
 | Figure: Device Manager                                           |
 
 #### Step 6: Verify
@@ -223,7 +223,7 @@ PC를 사용자 시리얼 장치 및 TCP 클라이언트로 삼아 데이터 통
   - **시리얼 to 이더넷: 데이터 전송 검증**
       - 시리얼 터미널 측에 문자열을 입력하고, 동일한 문자열이 TCP 클라이언트 터미널 측에 표시되는지 확인해 봅시다. 
 
-<!-- end list -->
+
 
   - **이더넷 to 시리얼: 데이터 전송 검증**
       - TCP 클라이언트 터미널 측에 문자열을 입력하고, 동일한 문자열이 시리얼 터미널 측에 표시되는지 확인해 봅시다. 
@@ -235,7 +235,7 @@ PC를 사용자 시리얼 장치 및 TCP 클라이언트로 삼아 데이터 통
   - 본 내용은 PC를 **시리얼 장치** 및 **원격 네트워크 장비**로 가정하고 WIZ752SR-125 제품의 동작을
     테스트하는 과정입니다. 
 
-<!-- end list -->
+
 
   - 이후 사용자는 **네트워킹 기능을 추가 할 시리얼 장비**에 WIZ752SR-125 모듈을 연결하고, 이 장비를
     **원격지의 PC 혹은 서버 측(원격 네트워크 장비)**에서 데이터 송/수신을 통해 **제어 및 모니터링이
@@ -243,8 +243,8 @@ PC를 사용자 시리얼 장치 및 TCP 클라이언트로 삼아 데이터 통
 
 -----
 
-\<WRAP center round tip 80% centeralign\> **동작에 문제가 있나요?**  
-**[Troubleshooting 가이드](/products/wiz750sr/troubleshooting/ko)** 문서를 참고해
-보세요\! \</WRAP\>
+**동작에 문제가 있나요?**  
+**[Troubleshooting 가이드](trouble_shooting-[KO])** 문서를 참고해
+보세요\!
 
 -----

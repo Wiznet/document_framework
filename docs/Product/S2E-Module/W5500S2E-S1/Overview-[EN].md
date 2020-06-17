@@ -6,10 +6,10 @@ date: 2020-04-07
 
 # W5500S2E-Z1 Product Overview
 
-**Supported Languages**
+**Supported Languages**  
+ * [English](Overview-[EN].md)  
+ * [Korean](/products/w5500s2e-z1/overview/ko) (current page)
 
-  - [English](Overview-[EN].md) 
-  
 -----
 
 ## Overview
@@ -53,9 +53,8 @@ can simplify the design and reduce development time.
   -  Serial interface: 3.3V TTL x1: TXD, RXD, GND
   -  Default Serial communication parameters
 
-<!-- end list -->
 
-``` 
+
    * Baud Rate: From 2Kbps to 1.152Mbps
    * Data Bit: 7, 8
    * Stop Bit: 0.5, 1, 1.5, 2
@@ -70,36 +69,36 @@ can simplify the design and reduce development time.
    * W5500S2E-R1: 44.45×31.75×23.00
 *  Operating temperature: -40℃ ~ +85℃ (Industrial Grade)
 *  Storage environment: -40℃ ~ +85℃, 5 ~ 95% RH
-```
 
 -----
 
 ## Product Contents
 
-\<slider :products:wiz750sr:wiz750sr-ttl-evb\_package\_1024x858.jpg\>
+<!--
+<slider :products:wiz750sr:wiz750sr-ttl-evb\_package\_1024x858.jpg>
 
   - **WIZ750SR-RS232-EVB Package**
 
-\<slider :products:wiz750sr:wiz750sr-rs485-evb\_package\_1024x893.jpg\>
+<slider :products:wiz750sr:wiz750sr-rs485-evb\_package\_1024x893.jpg>
 
   - **WIZ750SR-RS485-EVB Package**
 
-\<slider :products:wiz750sr:wiz750sr\_rev1.0\_main\_1024x693.png\>
+<slider :products:wiz750sr:wiz750sr\_rev1.0\_main\_1024x693.png>
 
   - **WIZ750SR Module**
 
-\<slider :products:wiz750sr:wiz750sr-ttl-evb\_1024x683.png\>
+<slider :products:wiz750sr:wiz750sr-ttl-evb\_1024x683.png>
 
   - **WIZ750SR evaluation board for RS-232/TTL module**
 
-\<slider :products:wiz750sr:wiz750sr-rs485-evb\_1024x683.png\>
+<slider :products:wiz750sr:wiz750sr-rs485-evb\_1024x683.png>
 
   - **WIZ750SR evaluation board for RS-485/422 module**
 
-\<slider :products:wiz750sr:wiz750sr-ttl-evb\_2\_1024x816.png\>
+<slider :products:wiz750sr:wiz750sr-ttl-evb\_2\_1024x816.png>
 
   - **Combining WIZ750SR module and EVB**
 
-\</slider\>
-
+</slider>
+-->
 -----

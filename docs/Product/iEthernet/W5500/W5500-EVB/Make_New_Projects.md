@@ -111,7 +111,7 @@ button, the 'new project' is created.
 The LPCXpresso IDE provides 'Smart Update' function. it also provides a
 simple mechanism for creating the links to a static library project from
 an application project. For more details, please refer to
-![](/products/w5500/w5500_evb/icons/link.png) [NXP FAQ page for 'Linking to library projects'](http://www.lpcware.com/content/faq/lpcxpresso/creating-linking-library-projects)
+![](/img/products/w5500/w5500_evb/icons/link.png) [NXP FAQ page for 'Linking to library projects'](http://www.lpcware.com/content/faq/lpcxpresso/creating-linking-library-projects)
 
 ![](/img/products/w5500/w5500_evb/figures/make_new_project_smart_update.jpg)
 

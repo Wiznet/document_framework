@@ -1,14 +1,8 @@
 ---
 id: overview-[EN]
-title: Overview-[EN]
+title: Product Overview [EN]
 date: 2020-04-16
 ---
-
-## Content
-
-# WIZ550SR Product Overview
-
------
 
 ## Overview
 

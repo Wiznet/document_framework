@@ -64,7 +64,7 @@ wiz550s2e's in GitHub.
 
 ### Source code
 
-![](/products/w5500/w5500_evb/icons/github.png)
+![](/img/products/w5500/w5500_evb/icons/github.png)
 <https://github.com/Wiznet/WIZ550S2E>
 
 -----

@@ -37,7 +37,7 @@ product, or expertise. WizFi250 is compliant with 802.11b/g/n.
   - Powerful Web server provides
   - Soft AP
 
-<!-- end list -->
+
 
    * Enough memory retention
    * Wi-Fi Security (WEP, WPA/WPA2PSK)

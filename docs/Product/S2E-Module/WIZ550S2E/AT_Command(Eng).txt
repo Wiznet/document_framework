@@ -361,7 +361,7 @@ Event occurred.</td>
 
   - ***Meaning:*** *Display Current Network Status*
 
-<!-- end list -->
+
 
   - ***Response:***
 >
@@ -405,7 +405,7 @@ Event occurred.</td>
 
   - ***Meaning:*** *Set MAC Address*
 
-<!-- end list -->
+
 
   - ***Response:***
 >
@@ -469,7 +469,7 @@ Event occurred.</td>
 
   - ***Meaning:*** *Create TCP Client Socket*
 
-<!-- end list -->
+
 
   - ***Response:***
 >
@@ -487,7 +487,7 @@ Event occurred.</td>
 
   - ***Meaning:*** *Create TCP Server Socket*
 
-<!-- end list -->
+
 
   - ***Response:***
 >
@@ -529,7 +529,7 @@ Event occurred.</td>
 
   - ***Meaning:*** // Close Socket//
 
-<!-- end list -->
+
 
   - ***Response:***
 >
@@ -583,7 +583,7 @@ Event occurred.</td>
   - ***Meaning:*** *In TCP Server mode, Destination IP and port are not
     need.*
 
-<!-- end list -->
+
 
   - ***Response:***
 >
@@ -637,7 +637,7 @@ S = Server, C = Client, U = UDP, M = Mixed TCP(Server/Client)
   - ***Meaning:*** *Change & save network information of module to
     client, local port 5000, server IP 192.168.0.3, remote port 5000*
 
-<!-- end list -->
+
 
   - ***Response:***
 >

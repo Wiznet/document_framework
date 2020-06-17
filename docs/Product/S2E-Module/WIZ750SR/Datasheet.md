@@ -1,12 +1,8 @@
 ---
 id: datasheet
-title: Datasheet
+title: WIZ750SR Datasheet
 date: 2020-04-08
 ---
-
-## Content
-
-# WIZ750SR Datasheet
 
 ## Hardware Specification
 
@@ -106,8 +102,6 @@ Flow control: None, RTS / CTS, XON / XOFF</td>
 
 -----
 
-\<pagebreak\>
-
 ### Callout
 
 #### Rev1.0/Rev1.1
@@ -129,13 +123,11 @@ Flow control: None, RTS / CTS, XON / XOFF</td>
 
 -----
 
-
-
 ## WIZ750SR Pinout
 
 |                                                                    |                                                                  |
 | ------------------------------------------------------------------ | ---------------------------------------------------------------- |
-| ![](/img/products/wiz750sr/datasheet/wiz750sr_all_pinout_20160628.png) | ![](/products/wiz750sr/datasheet/wiz750sr_pinout_exp_rev1.2.png) |
+| ![](/img/products/wiz750sr/datasheet/wiz750sr_all_pinout_20160628.png) | ![](/img/products/wiz750sr/datasheet/wiz750sr_pinout_exp_rev1.2.png) |
 | **Rev1.1**                                                         | **Rev1.2**                                                       |
 
 -----
@@ -280,42 +272,42 @@ Flow control: None, RTS / CTS, XON / XOFF</td>
 RS-232<br />
 RS-485</td>
 <td>Altium</td>
-<td><img src="/products/w5500/w5500_evb/icons/download.png" /> <embed src="/products/wiz750sr/datasheet/wiz750sr_schematic_v1.0_altium.zip" /></td>
+<td><img src="/img/products/w5500/w5500_evb/icons/download.png" /> <a href="/img/products/wiz750sr/datasheet/wiz750sr_schematic_v1.0_altium.zip">Download</a></td>
 <td>-</td>
 </tr>
 <tr class="even">
 <td>:::</td>
 <td>:::</td>
 <td>PDF</td>
-<td><img src="/products/w5500/w5500_evb/icons/download.png" /> <embed src="/products/wiz750sr/datasheet/wiz750sr_schematic_v1.0_pdf.pdf" /></td>
+<td><img src="/img/products/w5500/w5500_evb/icons/download.png" /> <a href="/img/products/wiz750sr/datasheet/wiz750sr_schematic_v1.0_pdf.pdf">Download</a></td>
 <td>-</td>
 </tr>
 <tr class="odd">
 <td>1.1</td>
 <td>:::</td>
 <td>Altium</td>
-<td><img src="/products/w5500/w5500_evb/icons/download.png" /> <embed src="/products/wiz750sr/datasheet/wiz750sr_altium_v1.1_sch.zip" class="align-center" /></td>
+<td><img src="/img/products/w5500/w5500_evb/icons/download.png" /> <a href="/products/wiz750sr/datasheet/wiz750sr_altium_v1.1_sch.zip">Download</a></td>
 <td>-</td>
 </tr>
 <tr class="even">
 <td>:::</td>
 <td>:::</td>
 <td>PDF</td>
-<td><img src="/products/w5500/w5500_evb/icons/download.png" /> <embed src="/products/wiz750sr/datasheet/wiz750sr_schematic_v1.1.pdf" class="align-center" /></td>
+<td><img src="/img/products/w5500/w5500_evb/icons/download.png" /> <a href="/products/wiz750sr/datasheet/wiz750sr_schematic_v1.1.pdf">Download</a></td>
 <td>:::</td>
 </tr>
 <tr class="odd">
 <td>1.2</td>
 <td>:::</td>
 <td>Altium</td>
-<td><img src="/products/w5500/w5500_evb/icons/download.png" /> <embed src="/products/wiz750sr/datasheet/wiz750sr_schematic_v1.2_wiki_upload.zip" class="align-center" /></td>
+<td><img src="/img/products/w5500/w5500_evb/icons/download.png" /> <a href="/products/wiz750sr/datasheet/wiz750sr_schematic_v1.2_wiki_upload.zip">Download</a></td>
 <td><strong>Latest version H/W</strong></td>
 </tr>
 <tr class="even">
 <td>:::</td>
 <td>:::</td>
 <td>PDF</td>
-<td><img src="/products/w5500/w5500_evb/icons/download.png" /> <embed src="/products/wiz750sr/datasheet/wiz750sr_v1.2.pdf" class="align-center" /></td>
+<td><img src="/img/products/w5500/w5500_evb/icons/download.png" /> <a href="/products/wiz750sr/datasheet/wiz750sr_v1.2.pdf">Download</a></td>
 <td>:::</td>
 </tr>
 </tbody>
@@ -339,14 +331,14 @@ RS-485</td>
 <td>TTL<br />
 RS-232</td>
 <td>Altium</td>
-<td><img src="/products/w5500/w5500_evb/icons/download.png" /> <embed src="/products/wiz750sr/datasheet/wiz750sr_evb_ttl_rs232_v1.0_altium.zip" /></td>
+<td><img src="/img/products/w5500/w5500_evb/icons/download.png" /> <a href="/products/wiz750sr/datasheet/wiz750sr_evb_ttl_rs232_v1.0_altium.zip">Download</a></td>
 <td><strong>Latest version H/W</strong></td>
 </tr>
 <tr class="even">
 <td>:::</td>
 <td>:::</td>
 <td>PDF</td>
-<td><img src="/products/w5500/w5500_evb/icons/download.png" /> <embed src="/products/wiz750sr/datasheet/wiz750sr_evb_ttl_rs232_v1.0_schematic.pdf" /></td>
+<td><img src="/img/products/w5500/w5500_evb/icons/download.png" /> <a href="/products/wiz750sr/datasheet/wiz750sr_evb_ttl_rs232_v1.0_schematic.pdf">Download</a></td>
 <td>:::</td>
 </tr>
 <tr class="odd">
@@ -354,14 +346,14 @@ RS-232</td>
 <td>RS-422<br />
 RS-485</td>
 <td>Altium</td>
-<td><img src="/products/w5500/w5500_evb/icons/download.png" /> <embed src="/products/wiz750sr/datasheet/wiz750sr_evb_rs485.zip" /></td>
+<td><img src="/img/products/w5500/w5500_evb/icons/download.png" /> <a href="/products/wiz750sr/datasheet/wiz750sr_evb_rs485.zip">Download</a></td>
 <td>:::</td>
 </tr>
 <tr class="even">
 <td>:::</td>
 <td>:::</td>
 <td>PDF</td>
-<td><img src="/products/w5500/w5500_evb/icons/download.png" /> <embed src="/products/wiz750sr/datasheet/wiz750sr_evb_rs485.pdf" /></td>
+<td><img src="/img/products/w5500/w5500_evb/icons/download.png" /> <a href="/products/wiz750sr/datasheet/wiz750sr_evb_rs485.pdf">Download</a></td>
 <td>:::</td>
 </tr>
 </tbody>
@@ -375,24 +367,24 @@ RS-485</td>
 
 | H/W version | Type   | Filetype | Download Link                                                                                                                     | Remarks |
 | ----------- | ------ | -------- | --------------------------------------------------------------------------------------------------------------------------------- | ------- |
-| 1.0         | TTL    | Excel    | ![](/products/w5500/w5500_evb/icons/download.png) [Download](/img/products/wiz750sr/datasheet/wiz750sr_v1.0_pl_160421_ttl.xls)       | \-      |
-| :::         | :::    | PDF      | ![](/products/w5500/w5500_evb/icons/download.png) [Download](/img/products/wiz750sr/datasheet/wiz750sr_v1.0_pl_160421_ttl.pdf)       | :::     |
-| :::         | RS-232 | Excel    | ![](/products/w5500/w5500_evb/icons/download.png) [Download](/img/products/wiz750sr/datasheet/wiz750sr_v1.0_pl_160421_rs232.xls)     | :::     |
-| :::         | :::    | PDF      | ![](/products/w5500/w5500_evb/icons/download.png) [Download](/img/products/wiz750sr/datasheet/wiz750sr_v1.0_pl_160421_rs232.pdf)     | :::     |
-| :::         | RS-485 | Excel    | ![](/products/w5500/w5500_evb/icons/download.png) [Download](/img/products/wiz750sr/datasheet/wiz750sr_v1.0_pl_160421_rs422_485.xls) | :::     |
-| :::         | :::    | PDF      | ![](/products/w5500/w5500_evb/icons/download.png) [Download](/img/products/wiz750sr/datasheet/wiz750sr_v1.0_pl_160421_rs422_485.pdf) | :::     |
-| 1.1         | TTL    | Excel    | ![](/products/w5500/w5500_evb/icons/download.png) [Download](/img/products/wiz750sr/datasheet/wiz750sr_v1.1_pl_ttl_20171214.xls)     | \-      |
-| ::: | :::    | PDF   | ![](/products/w5500/w5500_evb/icons/download.png) [Download](/img/products/wiz750sr/datasheet/wiz750sr_v1.1_pl_ttl_20171214.pdf)    | :::                    |
-| ::: | RS-232 | Excel | ![](/products/w5500/w5500_evb/icons/download.png) [Download](/img/products/wiz750sr/datasheet/wiz750sr_v1.1_pl_rs232_20171214.xls)  | :::                    |
-| ::: | :::    | PDF   | ![](/products/w5500/w5500_evb/icons/download.png) [Download](/img/products/wiz750sr/datasheet/wiz750sr_v1.1_pl_rs232_20171214.pdf)  | :::                    |
-| ::: | RS-485 | Excel | ![](/products/w5500/w5500_evb/icons/download.png) [Download](/img/products/wiz750sr/datasheet/wiz750sr_v1.1_pl_rs485_20171214.xls)  | :::                    |
-| ::: | :::    | PDF   | ![](/products/w5500/w5500_evb/icons/download.png) [Download](/img/products/wiz750sr/datasheet/wiz750sr_v1.1_pl_rs485_20171214.pdf)  | :::                    |
-| 1.2 | TTL    | Excel | ![](/products/w5500/w5500_evb/icons/download.png) [Download](/img/products/wiz750sr/datasheet/wiz750sr_v120_pl_ttl_20180703.xls)    | **Latest version H/W** |
-| ::: | :::    | PDF   | ![](/products/w5500/w5500_evb/icons/download.png) [Download](/img/products/wiz750sr/datasheet/wiz750sr_v120_pl_ttl_20180703.pdf)    | :::                    |
-| ::: | RS-232 | Excel | ![](/products/w5500/w5500_evb/icons/download.png) [Download](/img/products/wiz750sr/datasheet/wiz750sr_v120_pl_rs232_20180703.xls)  | :::                    |
-| ::: | :::    | PDF   | ![](/products/w5500/w5500_evb/icons/download.png) [Download](/img/products/wiz750sr/datasheet/wiz750sr_v120_pl_rs232_20180703.pdf)  | :::                    |
-| ::: | RS-485 | Excel | ![](/products/w5500/w5500_evb/icons/download.png) [Download](/img/products/wiz750sr/datasheet/wiz750sr_v120_pl_rs485_201800703.xls) | :::                    |
-| ::: | :::    | PDF   | ![](/products/w5500/w5500_evb/icons/download.png) [Download](/img/products/wiz750sr/datasheet/wiz750sr_v120_pl_rs485_201800703.pdf) | :::                    |
+| 1.0         | TTL    | Excel    | ![](/img/products/w5500/w5500_evb/icons/download.png) [Download](/img/products/wiz750sr/datasheet/wiz750sr_v1.0_pl_160421_ttl.xls)       | \-      |
+| :::         | :::    | PDF      | ![](/img/products/w5500/w5500_evb/icons/download.png) [Download](/img/products/wiz750sr/datasheet/wiz750sr_v1.0_pl_160421_ttl.pdf)       | :::     |
+| :::         | RS-232 | Excel    | ![](/img/products/w5500/w5500_evb/icons/download.png) [Download](/img/products/wiz750sr/datasheet/wiz750sr_v1.0_pl_160421_rs232.xls)     | :::     |
+| :::         | :::    | PDF      | ![](/img/products/w5500/w5500_evb/icons/download.png) [Download](/img/products/wiz750sr/datasheet/wiz750sr_v1.0_pl_160421_rs232.pdf)     | :::     |
+| :::         | RS-485 | Excel    | ![](/img/products/w5500/w5500_evb/icons/download.png) [Download](/img/products/wiz750sr/datasheet/wiz750sr_v1.0_pl_160421_rs422_485.xls) | :::     |
+| :::         | :::    | PDF      | ![](/img/products/w5500/w5500_evb/icons/download.png) [Download](/img/products/wiz750sr/datasheet/wiz750sr_v1.0_pl_160421_rs422_485.pdf) | :::     |
+| 1.1         | TTL    | Excel    | ![](/img/products/w5500/w5500_evb/icons/download.png) [Download](/img/products/wiz750sr/datasheet/wiz750sr_v1.1_pl_ttl_20171214.xls)     | \-      |
+| ::: | :::    | PDF   | ![](/img/products/w5500/w5500_evb/icons/download.png) [Download](/img/products/wiz750sr/datasheet/wiz750sr_v1.1_pl_ttl_20171214.pdf)    | :::                    |
+| ::: | RS-232 | Excel | ![](/img/products/w5500/w5500_evb/icons/download.png) [Download](/img/products/wiz750sr/datasheet/wiz750sr_v1.1_pl_rs232_20171214.xls)  | :::                    |
+| ::: | :::    | PDF   | ![](/img/products/w5500/w5500_evb/icons/download.png) [Download](/img/products/wiz750sr/datasheet/wiz750sr_v1.1_pl_rs232_20171214.pdf)  | :::                    |
+| ::: | RS-485 | Excel | ![](/img/products/w5500/w5500_evb/icons/download.png) [Download](/img/products/wiz750sr/datasheet/wiz750sr_v1.1_pl_rs485_20171214.xls)  | :::                    |
+| ::: | :::    | PDF   | ![](/img/products/w5500/w5500_evb/icons/download.png) [Download](/img/products/wiz750sr/datasheet/wiz750sr_v1.1_pl_rs485_20171214.pdf)  | :::                    |
+| 1.2 | TTL    | Excel | ![](/img/products/w5500/w5500_evb/icons/download.png) [Download](/img/products/wiz750sr/datasheet/wiz750sr_v120_pl_ttl_20180703.xls)    | **Latest version H/W** |
+| ::: | :::    | PDF   | ![](/img/products/w5500/w5500_evb/icons/download.png) [Download](/img/products/wiz750sr/datasheet/wiz750sr_v120_pl_ttl_20180703.pdf)    | :::                    |
+| ::: | RS-232 | Excel | ![](/img/products/w5500/w5500_evb/icons/download.png) [Download](/img/products/wiz750sr/datasheet/wiz750sr_v120_pl_rs232_20180703.xls)  | :::                    |
+| ::: | :::    | PDF   | ![](/img/products/w5500/w5500_evb/icons/download.png) [Download](/img/products/wiz750sr/datasheet/wiz750sr_v120_pl_rs232_20180703.pdf)  | :::                    |
+| ::: | RS-485 | Excel | ![](/img/products/w5500/w5500_evb/icons/download.png) [Download](/img/products/wiz750sr/datasheet/wiz750sr_v120_pl_rs485_201800703.xls) | :::                    |
+| ::: | :::    | PDF   | ![](/img/products/w5500/w5500_evb/icons/download.png) [Download](/img/products/wiz750sr/datasheet/wiz750sr_v120_pl_rs485_201800703.pdf) | :::                    |
 
 ### WIZ750SR-EVB
 
@@ -411,49 +403,49 @@ RS-485</td>
 <td>1.0</td>
 <td>TTL</td>
 <td>Excel</td>
-<td><img src="/products/w5500/w5500_evb/icons/download.png" /> <embed src="/products/wiz750sr/datasheet/wiz750sr_evb_v1.0_pl_160621_ttl.xls" /></td>
+<td><img src="/img/products/w5500/w5500_evb/icons/download.png" /> <a href="/products/wiz750sr/datasheet/wiz750sr_evb_v1.0_pl_160621_ttl.xls">Download</a></td>
 <td>BOM version 1.0</td>
 </tr>
 <tr class="even">
 <td>:::</td>
 <td>:::</td>
 <td>PDF</td>
-<td><img src="/products/w5500/w5500_evb/icons/download.png" /> <embed src="/products/wiz750sr/datasheet/wiz750sr_evb_v1.0_pl_160621_ttl.pdf" /></td>
+<td><img src="/img/products/w5500/w5500_evb/icons/download.png" /> <a href="/products/wiz750sr/datasheet/wiz750sr_evb_v1.0_pl_160621_ttl.pdf">Download</a></td>
 <td>:::</td>
 </tr>
 <tr class="odd">
 <td>:::</td>
 <td>RS-232</td>
 <td>Excel</td>
-<td><img src="/products/w5500/w5500_evb/icons/download.png" /> <embed src="/products/wiz750sr/datasheet/wiz750sr_evb_v1.0_pl_160621_rs232.xls" /></td>
+<td><img src="/img/products/w5500/w5500_evb/icons/download.png" /> <a href="/products/wiz750sr/datasheet/wiz750sr_evb_v1.0_pl_160621_rs232.xls">Download</a></td>
 <td>:::</td>
 </tr>
 <tr class="even">
 <td>:::</td>
 <td>:::</td>
 <td>PDF</td>
-<td><img src="/products/w5500/w5500_evb/icons/download.png" /> <embed src="/products/wiz750sr/datasheet/wiz750sr_evb_v1.0_pl_160621_rs232.pdf" /></td>
+<td><img src="/img/products/w5500/w5500_evb/icons/download.png" /> <a href="/products/wiz750sr/datasheet/wiz750sr_evb_v1.0_pl_160621_rs232.pdf">Download</a></td>
 <td>:::</td>
 </tr>
 <tr class="odd">
 <td>:::</td>
 <td>RS-485</td>
 <td>Excel</td>
-<td><img src="/products/w5500/w5500_evb/icons/download.png" /> <embed src="/products/wiz750sr/datasheet/wiz750sr_evb_v1.0_pl_160621_rs422_485.xls" /></td>
+<td><img src="/img/products/w5500/w5500_evb/icons/download.png" /> <a href="/products/wiz750sr/datasheet/wiz750sr_evb_v1.0_pl_160621_rs422_485.xls">Download</a></td>
 <td>:::</td>
 </tr>
 <tr class="even">
 <td>:::</td>
 <td>:::</td>
 <td>PDF</td>
-<td><img src="/products/w5500/w5500_evb/icons/download.png" /> <embed src="/products/wiz750sr/datasheet/wiz750sr_v1.0_pl_160421_rs422_485.pdf" /></td>
+<td><img src="/img/products/w5500/w5500_evb/icons/download.png" /> <a href="/products/wiz750sr/datasheet/wiz750sr_v1.0_pl_160421_rs422_485.pdf">Download</a></td>
 <td>:::</td>
 </tr>
 <tr class="odd">
 <td>1.0</td>
 <td>TTL</td>
 <td>Excel</td>
-<td><img src="/products/w5500/w5500_evb/icons/download.png" /> <embed src="/products/wiz750sr/datasheet/wiz750sr_evb_v1.1_pl_171214_ttl.xls" class="align-center" /></td>
+<td><img src="/img/products/w5500/w5500_evb/icons/download.png" /> <a href="/products/wiz750sr/datasheet/wiz750sr_evb_v1.1_pl_171214_ttl.xls">Download</a></td>
 <td>BOM version 1.1<br />
 <strong>Latest version H/W</strong></td>
 </tr>
@@ -461,35 +453,35 @@ RS-485</td>
 <td>:::</td>
 <td>:::</td>
 <td>PDF</td>
-<td><img src="/products/w5500/w5500_evb/icons/download.png" /> <embed src="/products/wiz750sr/datasheet/wiz750sr_evb_v1.1_pl_171214_ttl.pdf" class="align-center" /></td>
+<td><img src="/img/products/w5500/w5500_evb/icons/download.png" /> <a href="/products/wiz750sr/datasheet/wiz750sr_evb_v1.1_pl_171214_ttl.pdf">Download</a></td>
 <td>:::</td>
 </tr>
 <tr class="odd">
 <td>:::</td>
 <td>RS-232</td>
 <td>Excel</td>
-<td><img src="/products/w5500/w5500_evb/icons/download.png" /> <embed src="/products/wiz750sr/datasheet/wiz750sr_evb_v1.1_pl_171214_rs232.xls" class="align-center" /></td>
+<td><img src="/img/products/w5500/w5500_evb/icons/download.png" /> <a href="/products/wiz750sr/datasheet/wiz750sr_evb_v1.1_pl_171214_rs232.xls" class="align-center">Download</a></td>
 <td>:::</td>
 </tr>
 <tr class="even">
 <td>:::</td>
 <td>:::</td>
 <td>PDF</td>
-<td><img src="/products/w5500/w5500_evb/icons/download.png" /> <embed src="/products/wiz750sr/datasheet/wiz750sr_evb_v1.1_pl_171214_rs232.pdf" class="align-center" /></td>
+<td><img src="/img/products/w5500/w5500_evb/icons/download.png" /> <a href="/products/wiz750sr/datasheet/wiz750sr_evb_v1.1_pl_171214_rs232.pdf">Download</a></td>
 <td>:::</td>
 </tr>
 <tr class="odd">
 <td>:::</td>
 <td>RS-485</td>
 <td>Excel</td>
-<td><img src="/products/w5500/w5500_evb/icons/download.png" /> <embed src="/products/wiz750sr/datasheet/wiz750sr_evb_v1.1_pl_171214_rs422_485.xls" class="align-center" /></td>
+<td><img src="/img/products/w5500/w5500_evb/icons/download.png" /> <a href="/products/wiz750sr/datasheet/wiz750sr_evb_v1.1_pl_171214_rs422_485.xls">Download</a></td>
 <td>:::</td>
 </tr>
 <tr class="even">
 <td>:::</td>
 <td>:::</td>
 <td>PDF</td>
-<td><img src="/products/w5500/w5500_evb/icons/download.png" /> <embed src="/products/wiz750sr/datasheet/wiz750sr_evb_v1.1_pl_171214_rs422_485.pdf" class="align-center" /></td>
+<td><img src="/img/products/w5500/w5500_evb/icons/download.png" /> <a href="/products/wiz750sr/datasheet/wiz750sr_evb_v1.1_pl_171214_rs422_485.pdf">Download</a></td>
 <td>:::</td>
 </tr>
 </tbody>
@@ -665,7 +657,7 @@ RS-485</td>
 
 #### TTL/RS-232
 
-![](/products/wiz750sr/datasheet/wiz750sr_data_connector_rs232.png)
+![](/img/products/wiz750sr/datasheet/wiz750sr_data_connector_rs232.png)
 
 <table>
 <thead>
@@ -747,7 +739,7 @@ Hardware Trigger signal (Active Low)</td>
 
 #### RS-422/485
 
-![](/products/wiz750sr/datasheet/wiz750sr_data_connector_rs485.png)
+![](/img/products/wiz750sr/datasheet/wiz750sr_data_connector_rs485.png)
 
 <table>
 <thead>
@@ -833,7 +825,7 @@ Hardware Trigger signal (Active Low)</td>
 
 ### 1x6 ISP Connector
 
-![](/products/wiz750sr/datasheet/wiz750sr-isp.png)
+![](/img/products/wiz750sr/datasheet/wiz750sr-isp.png)
 
 <table>
 <thead>
@@ -924,8 +916,6 @@ ISP mode firmware downloader port</td>
 
   - **The board size of the WIZ750SR Rev1.1 is the same as Rev1.0.**
 
-<!-- end list -->
-
   - WIZ750SR Dimension : 
       - 45mm x 30mm ( PCB board size )
       - 48mm x 30mm x 18mm ( Included part size )
@@ -953,33 +943,25 @@ ISP mode firmware downloader port</td>
 
  **WIZ750SR** 
 
-  - **[User's Manual (English)](User's_Manual-[EN].md)** 
-  - **[User's Manual (Korean)](User's_Manual-[KO].md)** 
+  - **[User's Manual (English)](users_manual-[EN])** 
+  - **[User's Manual (Korean)](users_manual-[KO])**
 
-<!-- end list -->
+  - **[Device Command Manual (English)](Command_Manual-[EN])**
+  - **[Device Command Manual (Korean)](Command_Manual-[KO])**
 
-  - **[Device Command Manual (English)](Command_Manual-[EN].md)**
-  - **[Device Command Manual (Korean)](Command_Manual-[KO].md)**
+  - **[Troubleshooting Guide (English)](Trouble_Shooting-[EN])**
+  - **[Troubleshooting Guide (Korean)](Trouble_Shooting-[KO])**
 
-<!-- end list -->
-
-  - **[Troubleshooting Guide (English)](Trouble_Shooting-[EN].md)**
-  - **[Troubleshooting Guide (Korean)](Trouble_Shooting-[KO].md)**
-
-<!-- end list -->
-
-  - **[Update History (English)](Series_Update_History-[EN].md)**
-  - **[Update History (Korean)](Series_Update_History-[KO].md)**
+  - **[Update History (English)](Series_Update_History-[EN])**
+  - **[Update History (Korean)](Series_Update_History-[KO])**
 
 -----
 
 **WIZ750SR series Downloads** 
 
-  - **[Software Download](Download.md)**
+  - **[Software Download](Download)**
 
-<!-- end list -->
-
-  - **[Technical References](Technical_References.md)**
+  - **[Technical References](Technical_References)**
 
 -----
 

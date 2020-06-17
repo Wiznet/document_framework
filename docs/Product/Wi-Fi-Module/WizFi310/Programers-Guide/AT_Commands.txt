@@ -1064,7 +1064,7 @@ Examples)
 
 Factory Reset means that all of
 environmental variables return back to the default state. (You can check
-that by using AT+MPROF command) \</WRAP\>\</WRAP\>
+that by using AT+MPROF command)
 
   - **Response:**
 >
@@ -1788,7 +1788,7 @@ Examples)
     AT+MUPGRADE
 
 
-\* **Meaning:** This command is for upgrading firmware of WizFi310\<WRAP indent\>\<WRAP indent\> After using this command, WizFi310 will wait UART signal for XMODEM protocol. After this command, You have to send binary file which you want to upload using XMODEM protocol. If it is done successfully, WizFi310 will display "\[OK\]" message and then restart.  
+\* **Meaning:** This command is for upgrading firmware of WizFi310 After using this command, WizFi310 will wait UART signal for XMODEM protocol. After this command, You have to send binary file which you want to upload using XMODEM protocol. If it is done successfully, WizFi310 will display "\[OK\]" message and then restart.  
 
 Examples)
 
@@ -2788,7 +2788,7 @@ Examples)
 
   - **Meaning:** Sending the data to ThingPlug
 
-\<WRAP indent\>\<WRAP indent\>
+
 
 \<Container Name\>: Container Name  
 \<Data\>: Data to send  

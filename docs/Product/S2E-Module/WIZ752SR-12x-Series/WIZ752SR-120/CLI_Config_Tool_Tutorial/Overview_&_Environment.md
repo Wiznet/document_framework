@@ -24,7 +24,7 @@ It works on **version 2.7 and 3.6 python**.
   - [WIZ750SR](../WIZ750SR.md)
   - [WIZ750SR-100](../../WIZ750SR-1xx-Series/WIZ750SR-100/WIZ750SR-100.md)
 
-<!-- end list -->
+
 
 ``` 
  * [[:products:wiz750sr-105:start|WIZ750SR-105]]
@@ -63,14 +63,14 @@ or,
 
 **Install process**
 
-\<WRAP center round tip 80%\> Check **'Add Python 3.6 to PATH'** option
-to set environment variables of windows. \</WRAP\>
+Check **'Add Python 3.6 to PATH'** option
+to set environment variables of windows.
 
-![](/products/configtool/overview/install_python_01.png)
+![](/img/products/configtool/overview/install_python_01.png)
 
-![](/products/configtool/overview/install_python_02.png)
+![](/img/products/configtool/overview/install_python_02.png)
 
-![](/products/configtool/overview/install_python_03.png)
+![](/img/products/configtool/overview/install_python_03.png)
 
 -----
 

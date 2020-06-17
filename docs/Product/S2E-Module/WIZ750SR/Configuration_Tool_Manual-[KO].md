@@ -9,8 +9,8 @@ date: 2020-04-08
 # WIZ750SR Configuration Tool Manual
 
 **Supported Languages**  
-  * [English](Configuration_Tool_Manual-[EN].md)  
-  * [Korean](Configuration_Tool_Manual-[KO].md) (current page)
+  * [English](Configuration_Tool_Manual-[EN])  
+  * [Korean](Configuration_Tool_Manual-[KO]) (current page)
 
 ![](/img/products/wiz750sr/docs_icon.png)
 
@@ -86,8 +86,8 @@ Configuration tool 상단에 위치하며, 제품의 검색 / 펌웨어 업로�
 <table>
 <tbody>
 <tr class="odd">
-<td><img src="/products/wiz750sr/usermanual/configtool_udp_search.png" class="align-center" width="300" /></td>
-<td><img src="/products/wiz750sr/usermanual/configtool_tcp_search.png" class="align-center" width="300" /></td>
+<td><img src="/img/products/wiz750sr/usermanual/configtool_udp_search.png" class="align-center" width="300" /></td>
+<td><img src="/img/products/wiz750sr/usermanual/configtool_tcp_search.png" class="align-center" width="300" /></td>
 </tr>
 <tr class="even">
 <td>Figure: <strong>UDP Search</strong><br />
@@ -103,7 +103,7 @@ Configuration tool 상단에 위치하며, 제품의 검색 / 펌웨어 업로�
       - 이러한 경우, 방화벽이나 백신 프로그램의 동작을 해제 하신 후 테스트 해 보시기를 권장합니다.
       - 문제가 지속될 경우, 다음 내용을 확인 해 보시기 바랍니다.
           - **[문제 해결 가이드: 제품의 Search가 되지
-            않습니다](/products/wiz750sr/troubleshooting/ko)**
+            않습니다](trouble_shooting-[KO])**
 
 #### 2\) Save Settings
 
@@ -127,12 +127,12 @@ Configuration tool 상단에 위치하며, 제품의 검색 / 펌웨어 업로�
       - 이러한 경우, 방화벽이나 백신 프로그램의 동작을 해제 하신 후 테스트 해 보시기를 권장합니다.
       - 문제가 지속될 경우, 다음 내용을 확인 해 보시기 바랍니다.
           - **[문제 해결 가이드: 펌웨어 업데이트에
-            실패합니다.](/products/wiz750sr/troubleshooting/ko)**
+            실패합니다.](trouble_shooting-[KO])**
   - 올바르지 않은 펌웨어로 업로드를 수행 한 경우, 제품의 정상 동작을 보장 할 수 없습니다.
 
-\<WRAP round alert center centeralign 60%\> **펌웨어 업로드 중에는 절대 전원을 끄지
+**펌웨어 업로드 중에는 절대 전원을 끄지
 마십시오**  
-**제품 오동작의 원인이 될 수 있습니다.** \</WRAP\>
+**제품 오동작의 원인이 될 수 있습니다.**
 
 #### 4\) Device Reset
 
@@ -141,12 +141,11 @@ Configuration tool 상단에 위치하며, 제품의 검색 / 펌웨어 업로�
 #### 5\) Factory Reset
 
   - WIZ750SR 제품의 설정을 공장 초기 설정 값(Factory default)로 되돌립니다.
-  - 제품의 초기 설정 값은 [WIZ750SR Factory
-    Settings](/products/wiz750sr/gettingstarted/ko#wiz750sr_factory_settings)에서
+  - 제품의 초기 설정 값은 [WIZ750SR Factory Settings](getting_started-[KO]#wiz750sr-factory-settings)에서
     확인 할 수 있습니다.
   - 제품은 동작이 완료된 이후 자동으로 재시작(Reboot) 됩니다. 
 
-<!-- end list -->
+
 
 1.  UDP Broadcast Search: 망 내 모듈 검색, 다수의 모듈 제품 검색 가능
 
@@ -185,7 +184,7 @@ Configuration tool 상단에 위치하며, 제품의 검색 / 펌웨어 업로�
   - Search 기능을 통해 검색된 장치의 리스트가 표시됩니다.
       - 각각의 WIZ750SR 제품은 MAC 주소로 구분되어 표시됩니다.
 
-<!-- end list -->
+
 
   - 검색된 제품 MAC 주소를 확장하면 다음과 같은 항목들의 정보를 확인 할 수 있습니다.
 
@@ -253,14 +252,13 @@ WIZ750SR의 버전은 <strong>Major</strong> version number . <strong>Minor</str
       - 직접 IP 주소 할당 모드를 선택합니다. 이 옵션을 선택하면 **하단 2)**의 IP 주소 및 포트, 서브넷
         마스트, 게이트웨이 주소, DNS 서버 필드가 입력 가능한 상태로 활성화 됩니다.
 
-<!-- end list -->
+
 
   - **DHCP**
       - 자동 IP 주소 할당 모드를 선택합니다. 이 옵션을 선택하면 **하단 2)**의 각 필드가 비활성화 되며, 모듈과
         동일 네트워크 상에 위치한 공유기(DHCP 서버)로부터 IP 설정을 할당받게 됩니다.
 
-\* IP 주소 할당에 관한 상세 설명은 [WIZ750SR User's Manual: IP 주소
-설정](/products/wiz750sr/usermanual/ko#IP_주소_설정)에서 다룹니다.  
+\* IP 주소 할당에 관한 상세 설명은 [WIZ750SR User's Manual: IP 주소 설정](users_manual-[KO]#ip-%EC%A3%BC%EC%86%8C-%EC%84%A4%EC%A0%95)에서 다룹니다.
 
 #### 2\) IP 주소 설정 필드
 
@@ -273,8 +271,7 @@ WIZ750SR의 버전은 <strong>Major</strong> version number . <strong>Minor</str
   - 제품의 네트워크 동작 모드를 설정합니다.
       - **TCP 클라이언트 모드, TCP 서버 모드(default), TCP 클라이언트/서버 혼용 모드, UDP
         모드**의 네 가지 모드 중 사용자의 응용과 목적에 맞게 선택 할 수 있습니다.
-      - 각 네트워크 동작 모드의 특징과 전용 옵션은 [WIZ750SR User's Manual: 네트워크 동작
-        모드](/products/wiz750sr/usermanual/ko#네트워크_동작_모드)에서 다룹니다.
+      - 각 네트워크 동작 모드의 특징과 전용 옵션은 [WIZ750SR User's Manual: 네트워크 동작 모드](users_manual-[KO]#네트워크-동작-모드)에서 다룹니다.
 
 #### 4\) 원격지 호스트 설정
 
@@ -283,7 +280,7 @@ WIZ750SR의 버전은 <strong>Major</strong> version number . <strong>Minor</str
     네임**을 입력 할 수 있습니다.
   - **목적지의 포트 번호**가 꼭 필요합니다.
   - 원격지 호스트 설정에 관한 상세 설명은 [WIZ750SR User's Manual: 원격지 호스트
-    설정](/products/wiz750sr/usermanual/ko#원격지_호스트_설정)에서 다룹니다.
+    설정](users_manual-[KO]#원격지-호스트-설정)에서 다룹니다.
 
 \* WIZ750SR은 **PPPoE**와 **DDNS**를 지원하지 않습니다.
 
@@ -302,7 +299,7 @@ WIZ750SR의 버전은 <strong>Major</strong> version number . <strong>Minor</str
       - 해당 옵션이 체크되면 Debug UART를 통해 제품의 정보와 오류 상황 등이 출력됩니다.
       - Debug UART의 시리얼 설정은 **115200-8-N-1:None**으로 고정되어 있습니다.
 
-<!-- end list -->
+
 
 1.  TCP 클라이언트 모드는 TCP 클라이언트 모드 및 TCP 클라이언트/서버 혼용 모드의 클라이언트 동작을 포함 합니다.
 
@@ -313,25 +310,25 @@ WIZ750SR의 버전은 <strong>Major</strong> version number . <strong>Minor</str
       - 300, 600, 1200, 1800, 2400, 4800, 9600, 14400, 19200, 28800,
         38400, 57600, 115200(default), 230400
 
-<!-- end list -->
+
 
   - **Data Bit**
       - 지원 Data bit는 다음과 같습니다.
       - 7, 8(default)
 
-<!-- end list -->
+
 
   - **Parity**
       - 지원 Parity bit는 다음과 같습니다.
       - NONE(default), ODD, EVEN
 
-<!-- end list -->
+
 
   - **Stop Bit**
       - 지원 Stop bit는 다음과 같습니다.
       - 1(default), 2
 
-<!-- end list -->
+
 
   - **Flow Control**
       - RS-232/TTL 제품은 다음과 같은 시리얼 데이터 흐름제어(flow control)를 지원합니다.
@@ -368,7 +365,7 @@ WIZ750SR의 버전은 <strong>Major</strong> version number . <strong>Minor</str
       - 지정된 **데이터 길이**에 도달할 때 까지 데이터를 저장한 후 한 번에 전송합니다.
       - '0'으로 설정하면 동작하지 않습니다.
 
-<!-- end list -->
+
 
   - **Character**
       - **범위 및 단위: 1-byte 문자(Hex code)**
@@ -388,14 +385,14 @@ WIZ750SR의 버전은 <strong>Major</strong> version number . <strong>Minor</str
       - 시리얼 커맨드 모드로 변경되면 기존에 연결되어 있던 TCP 연결(TCP connection)이 모두
         종료(disconnect)됩니다.
 
-<!-- end list -->
+
 
   - **Serial command mode switch code: Trigger code**
       - 데이터 모드에서 시리얼 커맨드 모드로 전환하기 위한 3-byte 코드입니다.
           - Default: \[2B\]\[2B\]\[2B\] (+++)
       - 각 byte의 값은 hex 코드만 인식합니다.
 
-\<WRAP round tip center 90%\>
+
 
 **Trigger code를 이용한 모드 전환 시 주의점**은 다음과 같습니다.
 
@@ -442,7 +439,7 @@ WIZ750SR의 버전은 <strong>Major</strong> version number . <strong>Minor</str
 <table>
 <tbody>
 <tr class="odd">
-<td><img src="/products/wiz750sr/usermanual/configtool_udp_search.png" class="align-center" width="300" /></td>
+<td><img src="/img/products/wiz750sr/usermanual/configtool_udp_search.png" class="align-center" width="300" /></td>
 </tr>
 <tr class="even">
 <td>Figure: <strong>Search ID code</strong><br />
@@ -461,7 +458,7 @@ WIZ750SR의 버전은 <strong>Major</strong> version number . <strong>Minor</str
     데이터 전송이 가능합니다.
       - 만약 비밀번호가 일치하지 않을 경우 TCP 연결은 종료됩니다.
 
-<!-- end list -->
+
 
 1.  예를 들어 목적에 따른 제품 그룹 여러 개가 동일한 네트워크 상에 위치한 경우.
 
@@ -475,7 +472,7 @@ WIZ750SR의 버전은 <strong>Major</strong> version number . <strong>Minor</str
         disconnect)
       - WIZ750SR에서 한 번 이상 이더넷 패킷이 송신된 이후부터 연결 유지 패킷 전송이 시작됩니다.
 
-<!-- end list -->
+
 
   - **Send Keep-Alive 간격**
       - **범위: 0 \~ 65535, 단위: 밀리 초(ms)**
@@ -484,7 +481,7 @@ WIZ750SR의 버전은 <strong>Major</strong> version number . <strong>Minor</str
           - 최초 연결 유지 패킷을 전송하기까지의 간격
           - 매 연결 유지 패킷 전송 시 사이의 간격
 
-<!-- end list -->
+
 
   - 이더넷 네트워크 장비는 원격지 장비의 물리적 단선을 감지 할 수 없으므로, 해당 옵션을 활성화하여 문제 상황에서 TCP
     연결을 종료 할 수 있도록 설정하는 것이 좋습니다.
@@ -506,9 +503,9 @@ WIZ750SR의 버전은 <strong>Major</strong> version number . <strong>Minor</str
 
 -----
 
-\<WRAP center round tip 80% centeralign\> **동작에 문제가 있나요?**  
-**[Troubleshooting 가이드](/products/wiz750sr/troubleshooting/ko)** 문서를 참고해
-보세요\! \</WRAP\>
+**동작에 문제가 있나요?**  
+**[Troubleshooting 가이드](trouble_shooting-[KO])** 문서를 참고해
+보세요\!
 
 -----
 
@@ -518,33 +515,33 @@ WIZ750SR의 버전은 <strong>Major</strong> version number . <strong>Minor</str
 
  **WIZ750SR** 
 
-  - **[User's Manual (English)](User's_Manual-[EN].md)** 
-  - **[User's Manual (Korean)](User's_Manual-[KO].md)** 
+  - **[User's Manual (English)](users_manual-[EN])** 
+  - **[User's Manual (Korean)](users_manual-[KO])**
 
-<!-- end list -->
 
-  - **[Device Command Manual (English)](Command_Manual-[EN].md)**
-  - **[Device Command Manual (Korean)](Command_Manual-[KO].md)**
 
-<!-- end list -->
+  - **[Device Command Manual (English)](Command_Manual-[EN])**
+  - **[Device Command Manual (Korean)](Command_Manual-[KO])**
 
-  - **[Troubleshooting Guide (English)](Trouble_Shooting-[EN].md)**
-  - **[Troubleshooting Guide (Korean)](Trouble_Shooting-[KO].md)**
 
-<!-- end list -->
 
-  - **[Update History (English)](Series_Update_History-[EN].md)**
-  - **[Update History (Korean)](Series_Update_History-[KO].md)**
+  - **[Troubleshooting Guide (English)](Trouble_Shooting-[EN])**
+  - **[Troubleshooting Guide (Korean)](Trouble_Shooting-[KO])**
+
+
+
+  - **[Update History (English)](Series_Update_History-[EN])**
+  - **[Update History (Korean)](Series_Update_History-[KO])**
 
 -----
 
 **WIZ750SR series Downloads** 
 
-  - **[Software Download](Download.md)**
+  - **[Software Download](Download)**
 
-<!-- end list -->
 
-  - **[Technical References](Technical_References.md)**
+
+  - **[Technical References](Technical_References)**
 
 -----
 

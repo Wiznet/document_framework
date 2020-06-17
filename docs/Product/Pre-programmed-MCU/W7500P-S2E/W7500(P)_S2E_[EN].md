@@ -33,7 +33,7 @@ applications around the world
     the TCP/IP data received through the network back into serial data
     to the serial equipment.
 
-<!-- end list -->
+
 
   - With this product, it is possible to **easily add an Ethernet
     networking function to a device supporting UART interface**, the
@@ -81,22 +81,22 @@ product.**
         communication
       - Configurable via Ethernet / Serial interface
 
-<!-- end list -->
+
 
   - Unique **MAC Address** (WIZnet OUI)
 
-<!-- end list -->
+
 
   - **WIZnet S2E configuration tool**
       - Product search, configuration, and firmware update via Ethernet
         network
 
-<!-- end list -->
+
 
   - **WIZVSP program**
       - WIZnet **V**irtual **S**erial **P**ort program for Windows OS
 
-<!-- end list -->
+
 
   - **Hardware Design Guide & References**
 
@@ -124,9 +124,9 @@ product.**
 
 [Configuration Tool Manual (Korean)](../../S2E-Module/WIZ750SR/Configuration_Tool_Manual-[KO].md)
 
-[Configuration Tool Manual New (English)](../../S2E-Module/WIZ750SR/Configuration_Tool_Manual_(New)-[EN].md)
+[Configuration Tool Manual New (English)](../../S2E-Module/WIZ750SR/configuration_tool_manual_new-[EN].md)
 
-[Configuration Tool Manual New (Korean)](../../S2E-Module/WIZ750SR/Configuration_Tool_Manual_(New)-[KO].md)
+[Configuration Tool Manual New (Korean)](../../S2E-Module/WIZ750SR/configuration_tool_manual_new-[KO].md)
 
 [CLI Config Tool Tutorial](../../S2E-Module/WIZ750SR/CLI_Config_Tool_Tutorial.md)
 

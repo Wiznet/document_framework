@@ -16,71 +16,63 @@ date: 2020-04-08
 
 ## Documents
 
-  - **[Product Overview (English)](overview-[EN])**
-  - **[Product Overview (Korean)](overview-[KO])**
+  - **Product Overview [(English)](overview-[EN]) / [(Korean)](overview-[KO])**
       - Overview
       - Features
       - Product Contents
 
-<!-- end list -->
 
-  - **[Getting Started Guide (English)](getting_started-[EN])**
-  - **[Getting Started Guide (Korean)](getting_started-[KO])**
+
+  - **Getting Started Guide [(English)](getting_started-[EN]) / [(Korean)](getting_started-[KO])**
       - Unpacking the WIZ750SR-100
       - Prerequisites for Setup
       - Connect Your WIZ750SR-100
 
-<!-- end list -->
 
-  - **[User's Manual (English)](users_manual-[EN])** 
-  - **[User's Manual (Korean)](users_manual-[KO])** 
+
+  - **User's Manual [(English)](users_manual-[EN]) / [(Korean)](users_manual-[KO])** 
       - **It's used in common with WIZ750SR**
       - Operation Mode
       - Network / Serial Settings
       - Support Options
 
-<!-- end list -->
 
-  - **[Configuration Tool Manual (New) (English)](configuration_tool_manual_new-[EN])**
-  - **[Configuration Tool Manual (New) (Korean))](configuration_tool_manual_new-[KO])**
+
+  - **Configuration Tool Manual (New) [(English)](configuration_tool_manual_new-[EN]) / [(Korean)](configuration_tool_manual_new-[KO])**
       - **It's used in common with WIZ750SR**
       - Device Configuration Overview
       - Configuration Tool for Setting Devices
 
-<!-- end list -->
 
-  - **[Configuration Tool Manual (English)](configuration_tool_manual-[EN])**
-  - **[Configuration Tool Manual (Korean)](configuration_tool_manual-[KO])**
+
+  - **Configuration Tool Manual [(English)](configuration_tool_manual-[EN]) / [(Korean)](configuration_tool_manual-[KO])**
       - **It's used in common with WIZ750SR**
       - Device Configuration Overview
       - Configuration Tool for Setting Devices
 
-<!-- end list -->
+
 
   - **[CLI Config Tool Tutorial](CLI_Config_Tool_Tutorial/cli_config_tool_tutorial)**
       - **It's used in common with WIZ750SR**
       - Device Configuration for CLI
       - CLI Configuration Tutorial
 
-<!-- end list -->
 
-  - **[Device Command Manual (English)](Command_Manual-[EN].md)**
-  - **[Device Command Manual (Korean)](Command_Manual-[KO].md)**
+
+  - **Device Command Manual [(English)](Command_Manual-[EN]) / [(Korean)](Command_Manual-[KO])**
       - **It's used in common with WIZ750SR**
       - WIZ750SR-100 Commands Overview
       - Command List
       - Command Descriptions
 
-<!-- end list -->
 
-  - **[Troubleshooting Guide (English)](Trouble_Shooting-[EN].md)**
-  - **[Troubleshooting Guide (Korean)](Trouble_Shooting-[KO].md)**
+
+  - **Troubleshooting Guide [(English)](Trouble_Shooting-[EN]) / [(Korean)](Trouble_Shooting-[KO])**
       - **It's used in common with WIZ750SR Series**
 
-<!-- end list -->
 
-  - **[Update History (English)](Series_Update_History-[EN].md)**
-  - **[Update History (Korean)](Series_Update_History-[KO].md)**
+
+  - **Update History [(English)](Series_Update_History-[EN]) / [(Korean)](Series_Update_History-[KO])**
       - **It's used in common with WIZ750SR Series**
 
 ## Datasheet
@@ -94,6 +86,19 @@ date: 2020-04-08
 
 -----
 
+## Developer's Guide
+
+- **[Building a Development Environment](developers_guide-[EN])**
+  - Arm Keil® MDK-ARM
+  - Eclipse IDE with GNU Arm toolchain
+
+- **[Device Recovery Guide](developers_guide-[EN]#wiz750sr-recovery-user-guide)**
+  - Firmware Update in AppBoot mode
+  - Flash Programming using WIZISP
+  - How to re-enter the MAC address on your devices
+
+-----
+
 ## Download
 
   - **[Software Download](Download.md)**
@@ -104,7 +109,7 @@ date: 2020-04-08
       - WIZ VSP(Virtual Serial Port)
       - W7500 ISP Download tool
 
-<!-- end list -->
+
 
   - **[Technical References](Technical_References.md)**
       - **It's used in common with WIZ750SR Series**

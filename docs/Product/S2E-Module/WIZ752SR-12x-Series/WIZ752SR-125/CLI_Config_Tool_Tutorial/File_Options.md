@@ -51,7 +51,7 @@ python wizconfig.py -s
 
 ```
 
-![](/products/wiz750sr/clitool/fileoption/02.search.png)
+![](/img/products/wiz750sr/clitool/fileoption/02.search.png)
 
 You then use the getfile option to get information from a single device
 or multiple devices as follows.
@@ -67,7 +67,7 @@ python wizconfig.py -d 00:08:DC:53:AE:93 --getfile cmd_oneport.txt
 
     python wizconfig.py -a --getfile cmd_oneport.txt
 
-![](/products/wiz750sr/clitool/fileoption/single_getfile.png)
+![](/img/products/wiz750sr/clitool/fileoption/single_getfile.png)
 
 -----
 
@@ -108,13 +108,13 @@ python wizconfig.py -d 00:08:DC:53:AE:93 --getfile cmd_net.txt
 
 ```
 
-![](/products/wiz750sr/clitool/fileoption/single_getfile_short.png)
+![](/img/products/wiz750sr/clitool/fileoption/single_getfile_short.png)
 
 * Multi devices
 
     python wizconfig.py -a --getfile cmd_net.txt
 
-![](/products/wiz750sr/clitool/fileoption/multi_getfile_short.png)
+![](/img/products/wiz750sr/clitool/fileoption/multi_getfile_short.png)
 
 You can use this after customizing according to your purpose and
 situation.
@@ -174,13 +174,13 @@ python wizconfig.py -d 00:08:DC:53:AE:93 --setfile set_cmd.txt
 
 ```
 
-![](/products/wiz750sr/clitool/fileoption/single_setfile.png)
+![](/img/products/wiz750sr/clitool/fileoption/single_setfile.png)
 
 * **Check:**
 
     python wizconfig.py -d 00:08:DC:53:AE:93 --getfile set_cmd.txt
 
-![](/products/wiz750sr/clitool/fileoption/single_setfile_get.png)
+![](/img/products/wiz750sr/clitool/fileoption/single_setfile_get.png)
 
 * **Multi devices**
 
@@ -189,13 +189,13 @@ python wizconfig.py -a --setfile set_cmd.txt
 
 ```
 
-![](/products/wiz750sr/clitool/fileoption/multi_setfile.png)
+![](/img/products/wiz750sr/clitool/fileoption/multi_setfile.png)
 
 * **Check:**
 
     python wizconfig.py -a --getfile set_cmd.txt
 
-![](/products/wiz750sr/clitool/fileoption/multi_setfile_get.png)
+![](/img/products/wiz750sr/clitool/fileoption/multi_setfile_get.png)
 
 The setfile option can be useful when you want to save and use multiple
 options as shown above.

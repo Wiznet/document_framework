@@ -29,7 +29,7 @@ date: 2020-04-15
     Thus there is not a separate Configuration tool exclusively for
     WIZ750SR and users should use the WIZ107/107SR Configuration tool.
 
-<!-- end list -->
+
 
   - The latest version Configuration tool can be downloaded at this
     [download page](/products/wiz750sr/download/start).
@@ -40,7 +40,7 @@ date: 2020-04-15
 
   - Check the power and Ethernet cable’s connection first.
 
-<!-- end list -->
+
 
   - Check if the ping request from PC to module is successful.
       - When using Windows
@@ -50,30 +50,30 @@ date: 2020-04-15
 
 |                                                         |
 | ------------------------------------------------------- |
-| ![](/products/wiz750sr/troubleshooting/windows_cmd.png) |
+| ![](/img/products/wiz750sr/troubleshooting/windows_cmd.png) |
 | Entering 'cmd' command on Windows Run                   |
 
 |                                                            |
 | ---------------------------------------------------------- |
-| ![](/products/wiz750sr/troubleshooting/ping_success_0.png) |
+| ![](/img/products/wiz750sr/troubleshooting/ping_success_0.png) |
 | Ping request / reply success                               |
 
 |                                                           |
 | --------------------------------------------------------- |
-| ![](/products/wiz750sr/troubleshooting/ping_failed_0.png) |
+| ![](/img/products/wiz750sr/troubleshooting/ping_failed_0.png) |
 | Ping request / reply failed                               |
 
   - Use \*\* UDP broadcast, port 50001\*\* in order to use the UDP
     Search from the configuration tool of WIZ750SR. Please test after
     closing the **OS firewall and virus programs**. 
 
-<!-- end list -->
+
 
   - If there is a problem with the UDP port, users can change the OS
     inbound / outbound port settings to open the Search & firmware
     update port (UDP/TCP 50001, TCP 50002).
 
-<!-- end list -->
+
 
   - If multiple network adaptors are used, an error can occur in sending
     the packet in the correct order of the network interface Metric.
@@ -93,7 +93,7 @@ date: 2020-04-15
 
 |                                                       |
 | ----------------------------------------------------- |
-| ![](/products/wiz750sr/gettingstarted/configtool.png) |
+| ![](/img/products/wiz750sr/gettingstarted/configtool.png) |
 | WIZ107/108SR & **WIZ750SR** Configuration Tool        |
 
 \++++
@@ -104,7 +104,7 @@ date: 2020-04-15
     information
 2.  Check the ‘Firmware version' 
 
-<!-- end list -->
+
 
   - User can check the latest firmware version at the [product update
     history page](/products/wiz750sr/history/en) and [download
@@ -117,7 +117,7 @@ date: 2020-04-15
   - WIZ750SR has an internal TCP server for firmware updates.
       - TCP port number: 50002
 
-<!-- end list -->
+
 
   - Check if the ping request from PC to module is successful.
       - When using Windows
@@ -127,17 +127,17 @@ date: 2020-04-15
 
 |                                                         |
 | ------------------------------------------------------- |
-| ![](/products/wiz750sr/troubleshooting/windows_cmd.png) |
+| ![](/img/products/wiz750sr/troubleshooting/windows_cmd.png) |
 | Entering 'cmd' command on Windows Run                   |
 
 |                                                            |
 | ---------------------------------------------------------- |
-| ![](/products/wiz750sr/troubleshooting/ping_success_0.png) |
+| ![](/img/products/wiz750sr/troubleshooting/ping_success_0.png) |
 | Ping request / reply success                               |
 
 |                                                           |
 | --------------------------------------------------------- |
-| ![](/products/wiz750sr/troubleshooting/ping_failed_0.png) |
+| ![](/img/products/wiz750sr/troubleshooting/ping_failed_0.png) |
 | Ping request / reply failed                               |
 
   - The IP WIZ750SR and IP of the PC running the configuration tool must
@@ -161,13 +161,13 @@ testing? |
     & RS-422/485, and each is composed of a different serial interface
     connector.
 
-<!-- end list -->
+
 
   - The **DB9 connector** is provided with the **RS-232/TTL version**;
     users can connect it to the serial port of the PC or use it with a
     RS-232 to USB convertor (available at Amazon).
 
-<!-- end list -->
+
 
   - The **terminal block interface** is provided with the **RS-422/485
     version**; this is used to connect to the user’s serial device. If
@@ -186,7 +186,7 @@ testing? |
     Forum](https://forum.wiznet.io/).
       - <https://forum.wiznet.io/>
 
-<!-- end list -->
+
 
   - All WIZnet products have a **warranty of 1 year from the purchase
     date**.
@@ -197,37 +197,37 @@ testing? |
 
 -----
 
-\<WRAP round box group\> \<WRAP half column\> \<WRAP centeralign\> \*\*
-WIZ750SR series Common Documents \*\* \</WRAP\>
+\*\*
+WIZ750SR series Common Documents \*\*
 
   - **[User's Manual](/products/wiz750sr/usermanual/en)** 
 
-<!-- end list -->
+
 
   - **[Device Command Manual](/products/wiz750sr/commandmanual/en)**
 
-<!-- end list -->
 
-  - **[Troubleshooting Guide](/products/wiz750sr/troubleshooting/en)**
 
-<!-- end list -->
+  - **[Troubleshooting Guide](trouble_shooting-[EN])**
+
+
 
   - **[Update History](/products/wiz750sr/history/en)**
 
 -----
 
-\<WRAP centeralign\> \*\* WIZ750SR series Downloads \*\* \</WRAP\>
+\*\* WIZ750SR series Downloads \*\*
 
   - **[Software Downloads](/products/wiz750sr/download/start)**
 
-<!-- end list -->
+
 
   - **[Technical Reference](/products/wiz750sr/reference/start)**
 
-\</WRAP\>
 
-\<WRAP half column\> \<WRAP centeralign\> \*\* WIZ750SR Individual
-documents \*\* \</WRAP\>
+
+ \*\* WIZ750SR Individual
+documents \*\*
 
   - **[WIZ750SR Product Overview](/products/wiz750sr/overview/en)**
   - **[WIZ750SR Getting Started
@@ -236,8 +236,8 @@ documents \*\* \</WRAP\>
 
 -----
 
-\<WRAP centeralign\> \*\* WIZ750SR-100 Individual documents \*\*
-\</WRAP\>
+\*\* WIZ750SR-100 Individual documents \*\*
+
 
   - **[WIZ750SR-100 Product
     Overview](/products/wiz750sr-100/overview/en)**
@@ -247,8 +247,8 @@ documents \*\* \</WRAP\>
 
 -----
 
-\<WRAP centeralign\> \*\* WIZ750SR-105 Individual documents \*\*
-\</WRAP\>
+\*\* WIZ750SR-105 Individual documents \*\*
+
 
   - **[WIZ750SR-105 Product
     Overview](/products/wiz750sr-105/overview/en)**
@@ -258,8 +258,8 @@ documents \*\* \</WRAP\>
 
 -----
 
-\<WRAP centeralign\> \*\* WIZ750SR-110 Individual documents \*\*
-\</WRAP\>
+\*\* WIZ750SR-110 Individual documents \*\*
+
 
   - **[WIZ750SR-110 Product
     Overview](/products/wiz750sr-110/overview/en)**
@@ -267,4 +267,4 @@ documents \*\* \</WRAP\>
     Guide](/products/wiz750sr-110/gettingstarted/en)**
   - **[WIZ750SR-110 Datasheet](/products/wiz750sr-110/datasheet/start)**
 
-\</WRAP\> \</WRAP\> \</WRAP\> \</WRAP\>
+

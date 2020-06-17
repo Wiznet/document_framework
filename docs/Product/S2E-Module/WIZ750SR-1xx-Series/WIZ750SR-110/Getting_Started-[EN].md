@@ -12,7 +12,7 @@ date: 2020-04-09
 * [English](Getting_Started-[EN].md) (current page)  
 * [Korean](Getting_Started-[KO].md)
 
-![](/products/wiz750sr/docs_icon.png)
+![](/img/products/wiz750sr/docs_icon.png)
 
 -----
 
@@ -43,12 +43,12 @@ Contents](/products/wiz750sr-110/overview/en#product_contents) page.
 
 |                                                                               |
 | ----------------------------------------------------------------------------- |
-| ![](/products/wiz750sr-110/gettingstarted/wiz750sr-110_device_layout_top.png) |
+| ![](/img/products/wiz750sr-110/gettingstarted/wiz750sr-110_device_layout_top.png) |
 | Figure: ***WIZ750SR-110 Revision 1.0 Top***                                   |
 
 |                                                                                  |
 | -------------------------------------------------------------------------------- |
-| ![](/products/wiz750sr-110/gettingstarted/wiz750sr-110_device_layout_bottom.png) |
+| ![](/img/products/wiz750sr-110/gettingstarted/wiz750sr-110_device_layout_bottom.png) |
 | Figure: ***WIZ750SR-110 Revision 1.0 Bottom***                                   |
 
 ### Parts
@@ -142,13 +142,13 @@ Contents](/products/wiz750sr-110/overview/en#product_contents) page.
   - Serial command mode switch code: **+++** (hex code,
     \[2B\]\[2B\]\[2B\])
 
-<!-- end list -->
+
 
   - Data packing option - Time: **Disabled**
   - Data packing option - Size: **Disabled**
   - Data packing option - Char: **Disabled**
 
-<!-- end list -->
+
 
   - Inactivity Timer: **Disabled**
   - Reconnection Timer: **3 second**
@@ -156,9 +156,9 @@ Contents](/products/wiz750sr-110/overview/en#product_contents) page.
 
 ### PC Settings
 
-\<WRAP center round important 80%\> Double check that the WIZ750SR-110
+Double check that the WIZ750SR-110
 and the PC, or laptop you are using to set up WIZ750SR-110 with are both
-on the same Ethernet network. \</WRAP\>
+on the same Ethernet network.
 
 #### Example: PC Network Settings
 
@@ -203,7 +203,7 @@ on the same Ethernet network. \</WRAP\>
   - User should to matching the network settings of 'WIZ750SR-110's
     remote host' and 'PC (or laptop)' for testing TCP client/mixed mode.
 
-<!-- end list -->
+
 
   - If the DHCP(automatic IP allocation) is used, both the WIZ750SR-110
     and test PC must be set to be assigned the same IP from the same
@@ -211,13 +211,13 @@ on the same Ethernet network. \</WRAP\>
 
 ### Connecting Steps
 
-\<WRAP center round important 80%\> The **WIZ750SR-110-EVB** is designed
+The **WIZ750SR-110-EVB** is designed
 to use the **DB9 connector** to connect with the user’s serial device.
 Therefore, it is recommended to have all **Ethernet and serial ports
 connected to the PC** when testing. If the PC does not have a serial
 port, please purchase a **RS-232 to USB converter** separately.
 
-\</WRAP\>
+
 
 #### Step 1: Plug in
 
@@ -228,14 +228,14 @@ as shown in the picture below.
       - Used to connect the evaluation board’s RJ-45 connector and the
         PC’s Ethernet network interface card (PC's RJ-45 connector)
 
-<!-- end list -->
+
 
   - Serial Cable
       - Used to connect the evaluation board’s DB9 connector and the
         serial interface card (DB9 connector). If the PC does support
         serial interface, use the RS-232 to USB converter.
 
-<!-- end list -->
+
 
   - Optional: USB type B cable (for debug message)
       - Used to connect the evaluation board’s USB connector and the
@@ -266,7 +266,7 @@ of the WIZ750SR-110 module can be checked using the configuration tool.
 
 |                                                       |
 | ----------------------------------------------------- |
-| ![](/products/wiz750sr/gettingstarted/configtool.png) |
+| ![](/img/products/wiz750sr/gettingstarted/configtool.png) |
 | Figure: **WIZnet Configuration Tool**                 |
 
 #### Step 4: Set up your WIZ750SR-110
@@ -296,7 +296,7 @@ below.
 
 |                                                                  |
 | ---------------------------------------------------------------- |
-| ![](/products/wiz750sr/gettingstarted/windows_devicemanager.png) |
+| ![](/img/products/wiz750sr/gettingstarted/windows_devicemanager.png) |
 | Figure: Device Manager                                           |
 
 #### Step 6: Verify
@@ -309,7 +309,7 @@ below.
         the identical character string appears on the TCP client
         terminal.
 
-<!-- end list -->
+
 
   - **Ethernet to Serial: data communication verification**
       - Enter the character string in the TCP client terminal and check
@@ -323,7 +323,7 @@ Now you’re ready to use the WIZ750SR-110\!
   - This document is based on the **assumption of the PC as the serial
     device / remote network device**. 
 
-<!-- end list -->
+
 
   - The next step is to **connect the WIZ750SR-110 module to the target
     serial device** and check if the device can **communicate, control,
@@ -331,9 +331,9 @@ Now you’re ready to use the WIZ750SR-110\!
 
 -----
 
-\<WRAP center round tip 80% centeralign\> **If there is any problem?**  
+**If there is any problem?**  
 Please refer to our **[Troubleshooting
-Guide](/products/wiz750sr/troubleshooting/en)**\! \</WRAP\>
+Guide](trouble_shooting-[EN])**\!
 
 -----
 
@@ -346,17 +346,17 @@ WIZ750SR series Common Documents
   - **[User's Manual (English)](User's_Manual-[EN].md)** 
   - **[User's Manual (Korean)](User's_Manual-[KO].md)** 
 
-<!-- end list -->
+
 
   - **[Device Command Manual (English)](Command_Manual-[EN].md)**
   - **[Device Command Manual (Korean)](Command_Manual-[KO].md)**
 
-<!-- end list -->
+
 
   - **[Troubleshooting Guide (English)](Trouble_Shooting-[EN].md)**
   - **[Troubleshooting Guide (Korean)](Trouble_Shooting-[KO].md)**
 
-<!-- end list -->
+
 
   - **[Update History (English)](Series_Update_History-[EN].md)**
   - **[Update History (Korean)](Series_Update_History-[KO].md)**
@@ -367,7 +367,7 @@ WIZ750SR series Common Documents
 
   - **[Software Download](Download.md)**
 
-<!-- end list -->
+
 
   - **[Technical References](Technical_References.md)**
 

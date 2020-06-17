@@ -22,7 +22,7 @@ of the device to be set.
 You can see the available options with the -h/--help option.
 
   - Refer to previous tutorial: [How to use CLI
-    Config](/products/wiz750sr/clitool/option/en) 
+    Config](how_to_use_cli_config_tool) 
 
 -----
 
@@ -45,7 +45,7 @@ python wizconfig.py -d 00:08:DC:53:AE:B7 --baud0 9600
 
 ```
 
-![](/products/configtool/single/set_baud.png)
+![](/img/products/configtool/single/set_baud.png)
 
 When the setting is completed, you can check the configuration result
 with the message.
@@ -75,7 +75,7 @@ python wizconfig.py -d 00:08:DC:53:AE:B7 --ip 192.168.50.100 --subnet 255.255.25
 
 ```
 
-![](/products/configtool/single/set_static.png)
+![](/img/products/configtool/single/set_static.png)
 
 -----
 
@@ -106,7 +106,7 @@ python wizconfig.py -d 00:08:DC:53:AE:93 --nmode0 0 --rip0 192.168.50.80 --rport
 
 Remote IP & port should be set according to the environment.
 
-![](/products/wiz750sr/clitool/single/single_client.png)
+![](/img/products/wiz750sr/clitool/single/single_client.png)
 
 -----
 
@@ -141,7 +141,7 @@ python wizconfig.py -m 192.168.50.100
 
 The parameter can be set to the random IP that not used.
 
-![](/products/wiz750sr/clitool/single/fw_ipset.png)
+![](/img/products/wiz750sr/clitool/single/fw_ipset.png)
 
 -----
 
@@ -159,5 +159,5 @@ python wizconfig.py -d 00:08:DC:53:AE:B7 -u W7500x_S2E_App.bin
 
 ```
 
-![](/products/wiz750sr/clitool/single/fw_up_1.png) (skip)
-![](/products/wiz750sr/clitool/single/fw_up_2.png)
+![](/img/products/wiz750sr/clitool/single/fw_up_1.png) (skip)
+![](/img/products/wiz750sr/clitool/single/fw_up_2.png)

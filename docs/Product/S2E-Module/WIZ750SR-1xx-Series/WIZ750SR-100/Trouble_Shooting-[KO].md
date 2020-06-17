@@ -29,7 +29,7 @@ date: 2020-04-09
     tool을 제공하지 않으며, WIZ107/107SR 제품의 Configuration tool로 제품의 설정을 수행 할
     수 있습니다.
 
-<!-- end list -->
+
 
   - 최신 버전의 Configuration tool은 [다운로드
     페이지](/products/wiz750sr/download/start) 에서 찾을 수 있습니다.
@@ -40,7 +40,7 @@ date: 2020-04-09
 
   - 제품의 전원 및 이더넷 케이블의 연결을 확인 바랍니다.
 
-<!-- end list -->
+
 
   - PC에서 모듈로 Ping 요청과 응답이 정상적으로 수행 되는지 확인 부탁 드립니다.
       - Windows의 경우 다음과 같이 확인 할 수 있습니다.
@@ -50,29 +50,29 @@ date: 2020-04-09
 
 |                                                         |
 | ------------------------------------------------------- |
-| ![](/products/wiz750sr/troubleshooting/windows_cmd.png) |
+| ![](/img/products/wiz750sr/troubleshooting/windows_cmd.png) |
 | Windows Run에서 'cmd' 커맨드 입력 실행                           |
 
 |                                                            |
 | ---------------------------------------------------------- |
-| ![](/products/wiz750sr/troubleshooting/ping_success_0.png) |
+| ![](/img/products/wiz750sr/troubleshooting/ping_success_0.png) |
 | Ping request / reply 성공                                    |
 
 |                                                           |
 | --------------------------------------------------------- |
-| ![](/products/wiz750sr/troubleshooting/ping_failed_0.png) |
+| ![](/img/products/wiz750sr/troubleshooting/ping_failed_0.png) |
 | Ping request / reply 실패                                   |
 
   - WIZ750SR 제품의 설정 툴에서 제공하는 UDP Search 기능은 **UDP broadcast, 포트
     50001번**을 이용합니다. **OS의 방화벽**과 **백신 프로그램**을 해제 하신 후 다시 테스트 부탁
     드립니다. 
 
-<!-- end list -->
+
 
   - 만약 UDP 포트 관련 문제 인 경우, OS의 인바운드 / 아웃바운드 포트 규칙 설정을 통해 Search 및 펌웨어
     업데이트용 포트 (UDP/TCP 50001, TCP 50002)를 열도록 설정 할 수 있습니다.
 
-<!-- end list -->
+
 
   - 여러 개의 네트워크 어댑터를 사용하는 경우, 네트워크 인터페이스 메트릭(Metric) 우선 순위에 따라 패킷 전달에 오류가
     발생 할 수 있습니다. OS 설정에서 사용 중인 하나의 네트워크 어댑터를 제외한 나머지를 **비 활성화 후 다시 테스트**
@@ -89,7 +89,7 @@ date: 2020-04-09
 
 |                                                       |
 | ----------------------------------------------------- |
-| ![](/products/wiz750sr/gettingstarted/configtool.png) |
+| ![](/img/products/wiz750sr/gettingstarted/configtool.png) |
 | WIZ107/108SR & **WIZ750SR** Configuration Tool        |
 
 \++++
@@ -100,7 +100,7 @@ date: 2020-04-09
     정보 펼치기
 2.  'Firmware version' 항목 확인
 
-<!-- end list -->
+
 
   - 최신 펌웨어 버전은 [제품 업데이트 히스토리 페이지](/products/wiz750sr/history/ko)와 [다운로드
     페이지](/products/wiz750sr/download/start) 에서 확인 할 수 있습니다.
@@ -112,7 +112,7 @@ date: 2020-04-09
   - WIZ750SR은 펌웨어 업데이트를 위한 TCP server가 별도로 내장되어 동작하고 있습니다.
       - TCP 포트: 50002
 
-<!-- end list -->
+
 
   - PC에서 모듈로 Ping 요청과 응답이 정상적으로 수행 되는지 확인 부탁 드립니다.
       - Windows의 경우 다음과 같이 확인 할 수 있습니다.
@@ -122,17 +122,17 @@ date: 2020-04-09
 
 |                                                         |
 | ------------------------------------------------------- |
-| ![](/products/wiz750sr/troubleshooting/windows_cmd.png) |
+| ![](/img/products/wiz750sr/troubleshooting/windows_cmd.png) |
 | Windows Run에서 'cmd' 커맨드 입력 실행                           |
 
 |                                                            |
 | ---------------------------------------------------------- |
-| ![](/products/wiz750sr/troubleshooting/ping_success_0.png) |
+| ![](/img/products/wiz750sr/troubleshooting/ping_success_0.png) |
 | Ping request / reply 성공                                    |
 
 |                                                           |
 | --------------------------------------------------------- |
-| ![](/products/wiz750sr/troubleshooting/ping_failed_0.png) |
+| ![](/img/products/wiz750sr/troubleshooting/ping_failed_0.png) |
 | Ping request / reply 실패                                   |
 
   - 펌웨어 업데이트 시, Config-tool이 동작 중인 PC와 WIZ750SR 모듈의 IP 대역이 일치해야 합니다.
@@ -152,12 +152,12 @@ date: 2020-04-09
   - WIZ750SR 개발 보드는 RS-232/TTL, RS-422/485의 두 가지 버전이 있으며, 각기 다른 시리얼
     인터페이스 커넥터로 구성되어 있습니다.
 
-<!-- end list -->
+
 
   - **RS-232/TTL 버전**의 경우 **DB9 커넥터**를 제공합니다. PC의 시리얼 포트에 연결하거나 시중에 판매
     중인 RS-232 to USB 컨버터(\*별매)를 이용하여 연결 할 수 있습니다.
 
-<!-- end list -->
+
 
   - **RS-422/485 버전**의 경우 **터미널 블록** 인터페이스를 제공합니다. 이는 사용자 시리얼 장치와의 직접
     연결을 위한 것으로써, 만약 PC에 연결하고자 하면 시중에 판매 중인 RS-422/485 to USB
@@ -174,7 +174,7 @@ date: 2020-04-09
   - [위즈네트 포럼](https://forum.wiznet.io/)을 통해 빠르고 간단하게 기술 문의가 가능합니다.
       - <https://forum.wiznet.io/>
 
-<!-- end list -->
+
 
   - 위즈네트의 모든 제품들을 구입 또는 사용하시는 경우 최초 구매일로부터 **1년간 보증**됩니다.
   - 제품 문의를 통해 문제가 해결되지 않는 경우, 제품을 구입하신 구매처 혹은 대리점을 통해 위즈네트 본사로 **RMA**를
@@ -188,39 +188,39 @@ date: 2020-04-09
 
 -----
 
-\<WRAP group\> \<WRAP centeralign third column\>
-[![arrow\_back.png](/etc/arrow_back.png)](/products/wiz750sr/commandmanual/ko)  
+
+[![arrow\_back.png](/etc/arrow_back.png)](command_manual-[KO])  
 **Prev Page**  
-[Device Command Manual](/products/wiz750sr/commandmanual/ko) \</WRAP\>
+[Device Command Manual](command_manual-[KO])
 
-\<WRAP centeralign third column\>
+
 [![arrow\_upward.png](/etc/arrow_upward.png)](#wiz750sr_troubleshooting_guide)  
-**Scroll to Top** \</WRAP\>
+**Scroll to Top**
 
-\<WRAP centeralign third column\>
+
 [![arrow\_forward.png](/etc/arrow_forward.png)](/products/wiz750sr/history/ko)  
 **Next Page**  
-[Update History](/products/wiz750sr/history/ko) \</WRAP\> \</WRAP\>
+[Update History](/products/wiz750sr/history/ko)
 
-\<WRAP group\> \<WRAP centeralign half column\>
+
 [![arrow\_refresh.png](/etc/arrow_refresh.png)](/products/wiz750sr/start)  
 **Back to Product Main**  
-[WIZ750SR](/products/wiz750sr/start) \</WRAP\>
+[WIZ750SR](/products/wiz750sr/start)
 
-\<WRAP centeralign half column\>
+
 [![arrow\_refresh.png](/etc/arrow_refresh.png)](/products/wiz750sr-100/start)  
 **Back to Product Main**  
-[WIZ750SR-100](/products/wiz750sr-100/start) \</WRAP\>
+[WIZ750SR-100](/products/wiz750sr-100/start)
 
-\<WRAP group\> \<WRAP centeralign half column\>
+
 [![arrow\_refresh.png](/etc/arrow_refresh.png)](/products/wiz750sr-105/start)  
 **Back to Product Main**  
-[WIZ750SR-105](/products/wiz750sr-105/start) \</WRAP\>
+[WIZ750SR-105](/products/wiz750sr-105/start)
 
-\<WRAP centeralign half column\>
+
 [![arrow\_refresh.png](/etc/arrow_refresh.png)](/products/wiz750sr-110/start)  
 **Back to Product Main**  
-[WIZ750SR-110](/products/wiz750sr-110/start) \</WRAP\>
+[WIZ750SR-110](/products/wiz750sr-110/start)
 
 -----
 
@@ -233,17 +233,17 @@ WIZ750SR series Common Documents
   - **[User's Manual (English)](User's_Manual-[EN].md)** 
   - **[User's Manual (Korean)](User's_Manual-[KO].md)** 
 
-<!-- end list -->
+
 
   - **[Device Command Manual (English)](Command_Manual-[EN].md)**
   - **[Device Command Manual (Korean)](Command_Manual-[KO].md)**
 
-<!-- end list -->
+
 
   - **[Troubleshooting Guide (English)](Trouble_Shooting-[EN].md)**
   - **[Troubleshooting Guide (Korean)](Trouble_Shooting-[KO].md)**
 
-<!-- end list -->
+
 
   - **[Update History (English)](Series_Update_History-[EN].md)**
   - **[Update History (Korean)](Series_Update_History-[KO].md)**
@@ -254,7 +254,7 @@ WIZ750SR series Common Documents
 
   - **[Software Download](Download.md)**
 
-<!-- end list -->
+
 
   - **[Technical References](Technical_References.md)**
 

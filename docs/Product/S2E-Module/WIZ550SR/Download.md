@@ -4,12 +4,6 @@ title: Download
 date: 2020-04-16
 ---
 
-## Content
-
-# WIZ550SR Download
-
------
-
 ## Download Firmware
 
 ### Binary Images
@@ -51,7 +45,7 @@ Install JAVA Runtime Environment
 ![WIZnet Configuration Tool Version
 1.0.3](/img/products/wiz550sr/wiz550sr_download/configuration.png)
 
-\<WRAP center download 60% centeralign\> **WIZnet Configuration Tool
+**WIZnet Configuration Tool
 Version 1.0.3**  
 [Download (zip)](/img/products/wiz550sr/wiz550sr_download/wiznet_configuration_tool_ver1.03.zip)
 
@@ -71,46 +65,46 @@ for USB driver(Provided by the FTDI).
 **Virtual COM Port
 Drivers.**  
   
-<http://www.ftdichip.com/Drivers/VCP.htm> \</WRAP\>
+<http://www.ftdichip.com/Drivers/VCP.htm>
 
 -----
 
 ## Download WIZ550SR Firmware Writing Tool
 
-\<WRAP center round important 60%\> WIZ550SR used a MCU for STmicro.
+WIZ550SR used a MCU for STmicro.
 Therefore, Write firmware must use the program provided by STmicro.
-\</WRAP\>
 
-\<WRAP center download 60% centeralign\> **STM32 Flash loader
+
+**STM32 Flash loader
 demonstrator**  
   
 [Flash Loader
 Demonstrator](http://www.st.com/content/st_com/en/products/development-tools/software-development-tools/stm32-software-development-tools/stm32-programmers/flasher-stm32.html)
 
-\</WRAP\>
+
 
 -----
 
 ## WIZ VSP
 
-![](/products/wiz750sr/usermanual/wiz_vsp.jpg)
+![](/img/products/wiz750sr/usermanual/wiz_vsp.jpg)
 
   - WIZ VSP (WIZnet Virtual Serial COM port) is the software for those
     users who want to use the existing application programs based on
     serial communication. For more detailed information, please visit
     the following link and see the bottom of the page.
 
-\<WRAP centeralign\> **WIZnet Official Website - WIZVSP:
-<http://www.wiznet.co.kr/product/serial-to-ethernet>** \</WRAP\>
+**WIZnet Official Website - WIZVSP:
+<http://www.wiznet.co.kr/product/serial-to-ethernet>**
 
-\<WRAP center download 60% centeralign\> **WIZnet WIZ VSP**  
-[WIZ VSP Program (zip)](/products/wiz750sr/wizvsp_tool.zip) \</WRAP\>
+**WIZnet WIZ VSP**  
+[WIZ VSP Program (zip)](/products/wiz750sr/wizvsp_tool.zip)
 
 -----
 
 ## How to program WIZ550SR code flash memory
 
-\<WRAP center round important 80%\>
+
 
 #### 1\. WIZ550SR enter the ISP mode
 
@@ -126,6 +120,6 @@ Demonstrator](http://www.st.com/web/en/catalog/tools/FM147/CL1794/SC961/SS1533/P
 
 #### 4\. How to WIZ550web Firmware
 
-\</WRAP\>
+
 
 -----

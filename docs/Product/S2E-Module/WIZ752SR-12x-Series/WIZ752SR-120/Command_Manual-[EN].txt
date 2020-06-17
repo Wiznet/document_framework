@@ -11,7 +11,7 @@ date: 2020-04-13
 * [English](Command_Manual-[EN].md) (current page)  
 * [Korean](Command_Manual-[KO].md)
 
-![](/products/wiz750sr/docs_icon.png)
+![](/img/products/wiz750sr/docs_icon.png)
 
 -----
 
@@ -41,7 +41,7 @@ The different command modes are as following.
   - **[Control device using serial command
     mode](#entering_serial_command_mode)**
 
-<!-- end list -->
+
 
   - **[Control device using Ethernet network](#command_via_ethernet)**
 
@@ -170,7 +170,7 @@ send commands, and the port number for processing the commands is
 **Network information for
 command transmission:**  
 **UDP / TCP Server : 50001**  
-(User can send the commands by UDP / TCP Client to device) \</WRAP\>
+(User can send the commands by UDP / TCP Client to device)
 
 #### Ethernet Command Frame Format
 
@@ -195,7 +195,7 @@ The two additional commands are **MA** and **PW**.
             peers. The search function of the configuration tool is
             implemented like this
 
-<!-- end list -->
+
 
   - **[PW] command**
       - User must send the setting value of the WIZ750SR after the PW
@@ -887,7 +887,7 @@ Analog in: RO</td>
 
     Firmware version with dots(.)
 
-  - \=\> Major version number . Minor version number . Maintenance
+  - ⇒ Major version number . Minor version number . Maintenance
     version number
 
 
@@ -1007,7 +1007,7 @@ Analog in: RO</td>
 | 0            | Device supports UART input/output of RS-232C or TTL signals.    | RS-232/TTL |
 | 1            | Device supports UART input/output of RS-422 and RS-485 signals. | RS-422/485 |
 
-\</WRAP\> \</WRAP\>
+
 
   - **Response**
 
@@ -2270,7 +2270,7 @@ Return value</th>
 
   - The device’s default setting values can be found at **[WIZ750SR
     Factory
-    Settings](/products/wiz750sr/gettingstarted/ko#wiz750sr_factory_settings)**
+    Settings](getting_started-[KO]#wiz750sr-factory-settings)**
   - The device reboots after factory reset, like **[RT](#rt)** command.
       - While the serial debug message is being used, the following
         message will output via data UART.
@@ -2529,7 +2529,7 @@ Return value</th>
   - **Parameter / Return Type:** Number (0/1)
   - **Parameter / Return Value:**
 
-\<WRAP indent\>\<WRAP indent\>
+
 
   - **When operating via TCP connection status pin**
       - TCP server / client / mixed mode only 
@@ -2571,9 +2571,9 @@ Return value</th>
 [![arrow_upward.png](/etc/arrow_upward.png)](#wiz750sr_command_manual)  
 **Scroll to Top** 
 
-[![arrow_forward.png](/etc/arrow_forward.png)](/products/wiz750sr/troubleshooting/en)  
+[![arrow_forward.png](/etc/arrow_forward.png)](trouble_shooting-[EN])  
 **Next Page**  
-[Troubleshooting Guide](/products/wiz750sr/troubleshooting/en)
+[Troubleshooting Guide](trouble_shooting-[EN])
 
 
 [![arrow_refresh.png](/etc/arrow_refresh.png)](/products/wiz750sr/start)  
@@ -2599,15 +2599,15 @@ Return value</th>
 
   - **[User's Manual](/products/wiz750sr/usermanual/en)** 
 
-<!-- end list -->
+
 
   - **[Device Command Manual](/products/wiz750sr/commandmanual/en)**
 
-<!-- end list -->
 
-  - **[Troubleshooting Guide](/products/wiz750sr/troubleshooting/en)**
 
-<!-- end list -->
+  - **[Troubleshooting Guide](trouble_shooting-[EN])**
+
+
 
   - **[Update History](/products/wiz750sr/history/en)**
 
@@ -2617,7 +2617,7 @@ Return value</th>
 
   - **[Software Downloads](/products/wiz750sr/download/start)**
 
-<!-- end list -->
+
 
   - **[Technical Reference](/products/wiz750sr/reference/start)**
 

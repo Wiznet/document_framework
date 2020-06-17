@@ -253,30 +253,30 @@ WIZ550web에 기본적으로 제공되는 Demo webpage는 index.html 하나의 �
           - UART1 : Data/Console/Debug/Program port (EVB 경우 RS232)
           - UART2 : AT command port (EVB 경우 RS485/422)
 
-<!-- end list -->
+
 
   - **Digital I/O Status**: Digital I/O의 Direction 및 Status 표시
       - On-board LED Status
       - Digital I/O Direction / Status: Output Pin의 경우 On/Off 설정 가능
 
-<!-- end list -->
+
 
   - **ADC Status**: Analog 입력의 값 변화 표시
       - Analog Input Signals
 
-<!-- end list -->
+
 
   - **I/O Configuration**: Digital I/O의 Direction 및 Alias 설정 
       - Digital I/O State and Alias Configuration
       - Digital I/O Settings Factory Default
 
-<!-- end list -->
+
 
   - **Serial Data**: 웹 페이지와 UART1의 Serial data 입/출력 확인
       - Serial Tx (Web to UART1) / Rx (UART1 to Web)
       - GitHub의 WIZ550web 오픈 코드는 Tx기능만 구현
 
-<!-- end list -->
+
 
 
 Device Settings 탭의 기본 구성은 다음과 같다.

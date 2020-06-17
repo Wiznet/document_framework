@@ -92,71 +92,71 @@ date: 2020-04-13
 
 -----
 
-\<WRAP group\> \<WRAP centeralign third column\>
-[![arrow\_back.png](/etc/arrow_back.png)](/products/wiz750sr/troubleshooting/en)  
+
+[![arrow\_back.png](/etc/arrow_back.png)](trouble_shooting-[EN])  
 **Prev Page**  
-[Troubleshooting Guide](/products/wiz750sr/troubleshooting/en) \</WRAP\>
+[Troubleshooting Guide](trouble_shooting-[EN])
 
-\<WRAP centeralign third column\>
+
 [![arrow\_upward.png](/etc/arrow_upward.png)](#WIZ750SR_Series_Update_History)  
-**Scroll to Top** \</WRAP\>
+**Scroll to Top**
 
-\<WRAP centeralign third column\> ![close.png](/etc/close.png) \</WRAP\>
-\</WRAP\>
+ ![close.png](/etc/close.png)
 
-\<WRAP group\> \<WRAP centeralign half column\>
+
+
 [![arrow\_refresh.png](/etc/arrow_refresh.png)](/products/wiz750sr/start)  
 **Back to Product Main**  
-[WIZ750SR](/products/wiz750sr/start) \</WRAP\>
+[WIZ750SR](/products/wiz750sr/start)
 
-\<WRAP centeralign half column\>
+
 [![arrow\_refresh.png](/etc/arrow_refresh.png)](/products/wiz750sr-100/start)  
 **Back to Product Main**  
-[WIZ750SR-100](/products/wiz750sr-100/start) \</WRAP\>
+[WIZ750SR-100](/products/wiz750sr-100/start)
 
-\<WRAP group\> \<WRAP centeralign half column\>
+
 [![arrow\_refresh.png](/etc/arrow_refresh.png)](/products/wiz750sr-105/start)  
 **Back to Product Main**  
-[WIZ750SR-105](/products/wiz750sr-105/start) \</WRAP\>
+[WIZ750SR-105](/products/wiz750sr-105/start)
 
-\<WRAP centeralign half column\>
+
 [![arrow\_refresh.png](/etc/arrow_refresh.png)](/products/wiz750sr-110/start)  
 **Back to Product Main**  
-[WIZ750SR-110](/products/wiz750sr-110/start) \</WRAP\>
+[WIZ750SR-110](/products/wiz750sr-110/start)
 
 -----
 
-\<WRAP round box group\> \<WRAP half column\> \<WRAP centeralign\> \*\*
-WIZ750SR series Common Documents \*\* \</WRAP\>
+\*\*
+WIZ750SR series Common Documents \*\*
 
   - **[User's Manual](/products/wiz750sr/usermanual/en)** 
 
-<!-- end list -->
+
 
   - **[Device Command Manual](/products/wiz750sr/commandmanual/en)**
 
-<!-- end list -->
 
-  - **[Troubleshooting Guide](/products/wiz750sr/troubleshooting/en)**
 
-<!-- end list -->
+  - **[Troubleshooting Guide](trouble_shooting-[EN])**
+
+
 
   - **[Update History](/products/wiz750sr/history/en)**
 
 -----
 
-\<WRAP centeralign\> \*\* WIZ750SR series Downloads \*\* \</WRAP\>
+\*\* WIZ750SR series Downloads \*\*
 
   - **[Software Downloads](/products/wiz750sr/download/start)**
 
-<!-- end list -->
+
 
   - **[Technical Reference](/products/wiz750sr/reference/start)**
 
-\</WRAP\>
 
-\<WRAP half column\> \<WRAP centeralign\> \*\* WIZ750SR Individual
-documents \*\* \</WRAP\>
+
+ \*\* WIZ750SR Individual
+documents \*\*
 
   - **[WIZ750SR Product Overview](/products/wiz750sr/overview/en)**
   - **[WIZ750SR Getting Started
@@ -165,8 +165,8 @@ documents \*\* \</WRAP\>
 
 -----
 
-\<WRAP centeralign\> \*\* WIZ750SR-100 Individual documents \*\*
-\</WRAP\>
+\*\* WIZ750SR-100 Individual documents \*\*
+
 
   - **[WIZ750SR-100 Product
     Overview](/products/wiz750sr-100/overview/en)**
@@ -176,8 +176,8 @@ documents \*\* \</WRAP\>
 
 -----
 
-\<WRAP centeralign\> \*\* WIZ750SR-105 Individual documents \*\*
-\</WRAP\>
+\*\* WIZ750SR-105 Individual documents \*\*
+
 
   - **[WIZ750SR-105 Product
     Overview](/products/wiz750sr-105/overview/en)**
@@ -187,8 +187,8 @@ documents \*\* \</WRAP\>
 
 -----
 
-\<WRAP centeralign\> \*\* WIZ750SR-110 Individual documents \*\*
-\</WRAP\>
+\*\* WIZ750SR-110 Individual documents \*\*
+
 
   - **[WIZ750SR-110 Product
     Overview](/products/wiz750sr-110/overview/en)**
@@ -196,4 +196,4 @@ documents \*\* \</WRAP\>
     Guide](/products/wiz750sr-110/gettingstarted/en)**
   - **[WIZ750SR-110 Datasheet](/products/wiz750sr-110/datasheet/start)**
 
-\</WRAP\> \</WRAP\> \</WRAP\> \</WRAP\>
+

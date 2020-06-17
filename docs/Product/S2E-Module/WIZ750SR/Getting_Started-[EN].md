@@ -9,15 +9,14 @@ date: 2020-04-08
 # Getting Started with WIZ750SR
 
 **Supported Languages**
-  * [English](Getting_Started-[EN].md) (current page)  
-  * [Korean](Getting_Started-[KO].md)
+  * [English](Getting_Started-[EN]) (current page)  
+  * [Korean](Getting_Started-[KO])
 
-![](/products/wiz750sr/docs_icon.png)
+![](/img/products/wiz750sr/docs_icon.png)
 
 -----
 
-**This section was written on the assumption that the use of
-WIZ750SR-RS232 evaluation board.**
+**This section was written on the assumption that the use of WIZ750SR-RS232 evaluation board.**
 
 -----
 
@@ -36,9 +35,7 @@ The WIZ750SR-232 evaluation board package contains the following parts.
   - WIZ750SR-232/TTL-EVB Evaluation Board
   - Cables (Ethernet / Serial / Micro USB Type B)
 
-The entire list of parts of the board is available at the [WIZ750SR
-Overview: Product
-Contents](/products/wiz750sr/overview/en#product_contents) page.
+The entire list of parts of the board is available at the [WIZ750SR Overview: Product Contents](/products/wiz750sr/overview/en#product_contents) page.
 
 ### Device Layout
 
@@ -93,8 +90,7 @@ Contents](/products/wiz750sr/overview/en#product_contents) page.
   - USB type B cable (for Debug UART)
   - DB9 serial RS-232 cable (for Data UART, RS-232/TTL Ver. only)
   - Power source for device
-      - Such as 5V DC adapter, USB port on your computer, or 3.3V Power
-        source
+      - Such as 5V DC adapter, USB port on your computer, or 3.3V Power source
 
 -----
 
@@ -124,16 +120,15 @@ Contents](/products/wiz750sr/overview/en#product_contents) page.
   - Operation mode: **TCP server mode**
   - Debug message: **Enabled**
   - Serial command mode switch: **Enabled**
-  - Serial command mode switch code: **+++** (hex code,
-    \[2B\]\[2B\]\[2B\])
+  - Serial command mode switch code: **+++** (hex code, \[2B\]\[2B\]\[2B\])
 
-<!-- end list -->
+
 
   - Data packing option - Time: **Disabled**
   - Data packing option - Size: **Disabled**
   - Data packing option - Char: **Disabled**
 
-<!-- end list -->
+
 
   - Inactivity Timer: **Disabled**
   - Reconnection Timer: **3 second**
@@ -141,9 +136,7 @@ Contents](/products/wiz750sr/overview/en#product_contents) page.
   
   ### PC Settings
 
-Double check that the WIZ750SR and
-the PC, or laptop you are using to set up WIZ750SR with are both on the
-same Ethernet network.
+Double check that the WIZ750SR and the PC, or laptop you are using to set up WIZ750SR with are both on the same Ethernet network.
 
 #### Example: PC Network Settings
 
@@ -185,49 +178,37 @@ same Ethernet network.
 </tbody>
 </table>
 
-  - User should to matching the network settings of 'WIZ750SR's remote
-    host' and 'PC (or laptop)' for testing TCP client/mixed mode.
+  - User should to matching the network settings of 'WIZ750SR's remote host' and 'PC (or laptop)' for testing TCP client/mixed mode.
 
-<!-- end list -->
 
-  - If the DHCP(automatic IP allocation) is used, both the WIZ750SR and
-    test PC must be set to be assigned the same IP from the same router.
+
+  - If the DHCP(automatic IP allocation) is used, both the WIZ750SR and test PC must be set to be assigned the same IP from the same router.
 
 ### Connecting Steps
 
-The **RS-232/TTL version of
-WIZ750SR-EVB** is designed to use the **DB9 connector** to connect with
-the user’s serial device. Therefore, it is recommended to have all
-**Ethernet and serial ports connected to the PC** when testing. If the
-PC does not have a serial port, please purchase a **RS-232 to USB
-converter** separately.
+The **RS-232/TTL version of WIZ750SR-EVB** is designed to use the **DB9 connector** to connect with the user’s serial device. Therefore, it is recommended to have all
+**Ethernet and serial ports connected to the PC** when testing. If the PC does not have a serial port, please purchase a **RS-232 to USB converter** separately.
 
-  - **In case of the RS-422/455 version of WIZ750SR-EVB, the serial
-    connector is composed of terminal block.**
+  - **In case of the RS-422/455 version of WIZ750SR-EVB, the serial connector is composed of terminal block.**
 
 
 
 #### Step 1: Plug in
 
-Connect the WIZ750SR module to evaluation board and also the cable as
-shown in the picture below.
+Connect the WIZ750SR module to evaluation board and also the cable as shown in the picture below.
 
   - Ethernet Cable
-      - Used to connect the evaluation board’s RJ-45 connector and the
-        PC’s Ethernet network interface card (PC's RJ-45 connector)
+      - Used to connect the evaluation board’s RJ-45 connector and the PC’s Ethernet network interface card (PC's RJ-45 connector)
 
-<!-- end list -->
+
 
   - Serial Cable
-      - Used to connect the evaluation board’s DB9 connector and the
-        serial interface card (DB9 connector). If the PC does support
-        serial interface, use the RS-232 to USB converter.
+      - Used to connect the evaluation board’s DB9 connector and the serial interface card (DB9 connector). If the PC does support serial interface, use the RS-232 to USB converter.
 
-<!-- end list -->
+
 
   - Optional: USB type B cable (for debug message)
-      - Used to connect the evaluation board’s USB connector and the
-        PC’s USB connector.
+      - Used to connect the evaluation board’s USB connector and the PC’s USB connector.
 
 |                                                                        |
 | ---------------------------------------------------------------------- |
@@ -241,19 +222,15 @@ shown in the picture below.
 
 #### Step 2: Power on
 
-Connect the 5V power adaptor or USB cable to the evaluation board and
-turn on the power switch.
+Connect the 5V power adaptor or USB cable to the evaluation board and turn on the power switch.
 
   - The power LED will turn red once the evaluation board is on.
 
 #### Step 3: Search
 
-Open the configuration tool and click the search button. If the board is
-turned on and connected to the same network, the MAC address or settings
-of the WIZ750SR module can be checked using the configuration tool.
+Open the configuration tool and click the search button. If the board is turned on and connected to the same network, the MAC address or settings of the WIZ750SR module can be checked using the configuration tool.
 
-**The new WIZ750SR configuration tool can
-be downloaded from Github below.**
+**The new WIZ750SR configuration tool can be downloaded from Github below.**
 
   - <https://github.com/Wiznet/WIZnet-S2E-Tool-GUI>
   - <https://github.com/Wiznet/WIZnet-S2E-Tool-GUI/releases>
@@ -267,8 +244,7 @@ be downloaded from Github below.**
 
 #### Step 4: Set up your WIZ750SR
 
-Change the settings accordingly to the customer’s environment. The test
-shown in this document is based on factory setting.
+Change the settings accordingly to the customer’s environment. The test shown in this document is based on factory setting.
 
 
   * Click the **setting** button to apply the changes in settings of the configuration tool.
@@ -276,17 +252,12 @@ shown in this document is based on factory setting.
 
 #### Step 5: Connect
 
-Connect the PC as the TCP client of the user’s serial device for data
-communication testing. In order to do this, the serial terminal program
-/ TCP client terminal program must be opened on the PC. The serial
-terminal program and TCP client program must be set as below.
+Connect the PC as the TCP client of the user’s serial device for data communication testing. In order to do this, the serial terminal program / TCP client terminal program must be opened on the PC. The serial terminal program and TCP client program must be set as below.
 
   - Serial terminal program: **115200-8-N-1, Flow control: None**
-  - TCP client program: **192.168.11.2:5000** (The IP address and port
-    number of WIZ750SR)
+  - TCP client program: **192.168.11.2:5000** (The IP address and port number of WIZ750SR)
 
-The COM port for serial terminal program connection can be checked as
-below.
+The COM port for serial terminal program connection can be checked as below.
 
   - Control Panel \> System \> Device Manager
 
@@ -300,35 +271,27 @@ below.
 The basic data communication of the WIZ750SR can be verified as below.
 
   - **Serial to Ethernet: data communication verification**
-      - Enter the character string in the serial terminal and check if
-        the identical character string appears on the TCP client
-        terminal.
+      - Enter the character string in the serial terminal and check if the identical character string appears on the TCP client terminal.
 
-<!-- end list -->
+
 
   - **Ethernet to Serial: data communication verification**
-      - Enter the character string in the TCP client terminal and check
-        if the identical character string appears on the serial
-        terminal. 
+      - Enter the character string in the TCP client terminal and check if the identical character string appears on the serial terminal. 
 
 #### Step 7: Done
 
-Now you’re ready to use the WIZ750SR\!
+Now you’re ready to use the WIZ750SR!
 
-  - This document is based on the **assumption of the PC as the serial
-    device / remote network device**. 
+  - This document is based on the **assumption of the PC as the serial device / remote network device**. 
 
-<!-- end list -->
 
-  - The next step is to **connect the WIZ750SR module to the target
-    serial device** and check if the device can **communicate, control,
-    and monitor** via the **remote PC or monitoring server**.
+
+  - The next step is to **connect the WIZ750SR module to the target serial device** and check if the device can **communicate, control, and monitor** via the **remote PC or monitoring server**.
 
 -----
 
 **If there is any problem?**  
-Please refer to our **[Troubleshooting
-Guide](/products/wiz750sr/troubleshooting/en)**\!
+Please refer to our **[Troubleshooting Guide](trouble_shooting-[EN])**!
 
 -----
 
@@ -338,32 +301,32 @@ Guide](/products/wiz750sr/troubleshooting/en)**\!
 
  **WIZ750SR** 
 
-  - **[User's Manual (English)](User's_Manual-[EN].md)** 
-  - **[User's Manual (Korean)](User's_Manual-[KO].md)** 
+  - **[User's Manual (English)](users_manual-[EN])** 
+  - **[User's Manual (Korean)](users_manual-[KO])** 
 
-<!-- end list -->
 
-  - **[Device Command Manual (English)](Command_Manual-[EN].md)**
-  - **[Device Command Manual (Korean)](Command_Manual-[KO].md)**
 
-<!-- end list -->
+  - **[Device Command Manual (English)](Command_Manual-[EN])**
+  - **[Device Command Manual (Korean)](Command_Manual-[KO])**
 
-  - **[Troubleshooting Guide (English)](Trouble_Shooting-[EN].md)**
-  - **[Troubleshooting Guide (Korean)](Trouble_Shooting-[KO].md)**
 
-<!-- end list -->
 
-  - **[Update History (English)](Series_Update_History-[EN].md)**
-  - **[Update History (Korean)](Series_Update_History-[KO].md)**
+  - **[Troubleshooting Guide (English)](Trouble_Shooting-[EN])**
+  - **[Troubleshooting Guide (Korean)](Trouble_Shooting-[KO])**
+
+
+
+  - **[Update History (English)](Series_Update_History-[EN])**
+  - **[Update History (Korean)](Series_Update_History-[KO])**
 
 -----
 
 **WIZ750SR series Downloads** 
 
-  - **[Software Download](Download.md)**
+  - **[Software Download](Download)**
 
-<!-- end list -->
 
-  - **[Technical References](Technical_References.md)**
+
+  - **[Technical References](Technical_References)**
 
 -----

@@ -11,7 +11,7 @@ date: 2020-04-09
 * [English](Command_Manual-[EN].md) (current page)  
 * [Korean](Command_Manual-[KO].md)
 
-![](/products/wiz750sr/docs_icon.png)
+![](/img/products/wiz750sr/docs_icon.png)
 
 -----
 
@@ -41,7 +41,7 @@ The different command modes are as following.
   - **[Control device using serial command
     mode](#entering_serial_command_mode)**
 
-<!-- end list -->
+
 
   - **[Control device using Ethernet network](#command_over_ethernet)**
 
@@ -79,7 +79,7 @@ mode.
       - This method is used when users wish to change settings while the
         product operation is initiated.
 
-\<WRAP round box center 80%\>
+
 
 ``` 
   - **Set the hardware trigger pin(HW_TRIG) to Low. **
@@ -93,7 +93,7 @@ mode.
      * <code>> SEG:GW Mode </code>
 ```
 
-\</WRAP\>
+
 
   - **2. Enter command mode using command mode switch code**\[1\]
       - Users can enter command mode using the command mode switch code
@@ -104,7 +104,7 @@ mode.
         and can be changed to a different value if needed. The code only
         accepts Hex value. (**default: Hex \[2B\]\[2B\]\[2B**\]\[2\])
 
-\<WRAP round box center 80%\>
+
 
 ``` 
   - **Check if 'Serial command mode switch code' is enabled at the configuration tool and the 3-bytes 'command mode switch code'.**
@@ -118,13 +118,13 @@ mode.
     * <code>> SEG:GW Mode </code>
 ```
 
-\</WRAP\>
+
 
 1.  Command mode switch trigger code via Data UART port
 
 2.  Char '+++'
 
-\<WRAP round tip center 90%\>
+
 
 **Please be cautious when using the trigger code to switch command
 mode.**
@@ -136,7 +136,7 @@ mode.**
   - The default values of 1 and 2 above are **500ms**; these values change to the timer value if the timer value of the serial data packing option is set to a certain value.
 ```
 
-\</WRAP\>
+
 
 #### Serial Command Frame Format
 
@@ -174,10 +174,10 @@ following commands. The user must use **UDP** or **TCP client** \[1\] to
 send commands, and the port number for processing the commands is
 **50001**.
 
-\<WRAP round info center centeralign 80%\> **Network information for
+**Network information for
 command transmission:**  
 **UDP / TCP Server : 50001**  
-(User can send the commands by UDP / TCP Client to device) \</WRAP\>
+(User can send the commands by UDP / TCP Client to device)
 
 #### Ethernet Command Frame Format
 
@@ -198,11 +198,11 @@ The two additional commands are **MA** and **PW**.
             peers. The search function of the configuration tool is
             implemented like this
 
-<!-- end list -->
+
 
   - **\[PW\] command**
 
-<!-- end list -->
+
 
 1.  Users must use UDP or TCP client because the UDP or TCP server is
     operating to handle the device commands.
@@ -214,7 +214,7 @@ The two additional commands are **MA** and **PW**.
 
 ##### Get Request
 
-\<WRAP round box center 100%\> **When sending a single command**
+ **When sending a single command**
 
     MA [MAC] [CR] [LF] PW [Search ID] [CR] [LF] [Command] [CR] [LF]
 
@@ -222,14 +222,14 @@ The two additional commands are **MA** and **PW**.
 
     MA [MAC] [CR] [LF] PW [Search ID] [CR] [LF] ([Command] [CR] [LF]) * Number of commands
 
-\</WRAP\>
+
 
   - The response for ‘get request’ will have the identical format as
     ‘request’ but include the parameter\[1\].
 
 ##### Set Request
 
-\<WRAP round box center 100%\> **When sending a single command**
+ **When sending a single command**
 
     MA [MAC] [CR] [LF] PW [Search ID] [CR] [LF] [Command] [Parameters] [CR] [LF]
 
@@ -237,7 +237,7 @@ The two additional commands are **MA** and **PW**.
 
     MA [MAC] [CR] [LF] PW [Search ID] [CR] [LF] ([Command] [Parameters] [CR] [LF]) * Number of commands
 
-\</WRAP\>
+
 
   - For ‘Set Request’, there is no additional response needed for
     changing the product setting.
@@ -255,7 +255,7 @@ The two additional commands are **MA** and **PW**.
 | Request from User |
 | ----------------- |
 
-\<WRAP round box center 100%\>
+
 
 **Command Frame**
 
@@ -265,12 +265,12 @@ The two additional commands are **MA** and **PW**.
 
     4D 41 FF FF FF FF FF FF 0D 0A 50 57 20 0D 0A 4D 43 0D 0A 4C 49 0D 0A
 
-\</WRAP\>
+
 
 | Response by WIZ750SR |
 | -------------------- |
 
-\<WRAP round box center 100%\>
+
 
 1.  The response for ‘Get Request’ has the same form as ‘Set Request’.
 
@@ -282,7 +282,7 @@ The two additional commands are **MA** and **PW**.
 
     4D 41 00 08 DC 00 00 11 0D 0A 50 57 20 0D 0A 4D 43 00 08 DC 00 00 11 0D 0A 4C 49 31 39 32 2E 31 36 38 2E 31 31 2E 32 0D 0A
 
-\</WRAP\>
+
 
 ##### Example \#2: TCP Get Command Frame
 
@@ -293,7 +293,7 @@ The two additional commands are **MA** and **PW**.
 | Request from User |
 | ----------------- |
 
-\<WRAP round box center 100%\>
+
 
 **Command Frame**
 
@@ -303,12 +303,12 @@ The two additional commands are **MA** and **PW**.
 
     4D 41 00 08 DC 00 00 11 0D 0A 50 57 20 0D 0A 4C 49 0D 0A
 
-\</WRAP\>
+
 
 | Response by WIZ750SR |
 | -------------------- |
 
-\<WRAP round box center 100%\>
+
 
 **Command Frame**
 
@@ -318,7 +318,7 @@ The two additional commands are **MA** and **PW**.
 
     4D 41 00 08 DC 00 00 11 0D 0A 50 57 20 0D 0A 4C 49 31 39 32 2E 31 36 38 2E 31 31 2E 32 0D 0A
 
-\</WRAP\>
+
 
 ##### Example \#3: TCP Set Command Frame
 
@@ -330,7 +330,7 @@ The two additional commands are **MA** and **PW**.
 | Request from User |
 | ----------------- |
 
-\<WRAP round box center 100%\>
+
 
 **Command Frame**
 
@@ -340,20 +340,20 @@ The two additional commands are **MA** and **PW**.
 
     4D 41 00 08 DC 00 00 11 0D 0A 50 57 48 45 4C 4C 4F 0D 0A 4C 49 31 39 32 2E 31 36 38 2E 31 31 2E 35 0D 0A
 
-\</WRAP\>
+
 
 | Response by WIZ750SR |
 | -------------------- |
 
-\<WRAP round box center 100%\>
+
 
     None
 
-\</WRAP\>
 
-\<WRAP round info center centeralign 80%\> **When modifying the IP
+
+**When modifying the IP
 address format\[1\], '.'(dot, 0x2E) must be included such as the
-'192.168.11.5'.** \</WRAP\>
+'192.168.11.5'.**
 
 -----
 
@@ -373,7 +373,7 @@ address format\[1\], '.'(dot, 0x2E) must be included such as the
     command mode\[5\] require ‘module reboot’ via **[RT](#rt)** command
     after the settings are saved via **[SV](#sv)** command.
 
-<!-- end list -->
+
 
 1.  IPv4 address forms like IP address, Gateway address, subnet mask,
     DNS server address, or Remote IP address.
@@ -743,21 +743,20 @@ Analog in: RO</td>
   - **Return Type:** String
   - **Return Value:**
 
-\<WRAP indent\>\<WRAP indent\>
+
 
     MAC address with colons(:)
 
-\</WRAP\> \</WRAP\>
+
 
   - **Response**
 
-\<WRAP indent\>\<WRAP indent\> \<WRAP round box group\> \<WRAP half
-column\>
+
 
   - **Without Parameter (Get)**
       - In ASCII: `MC00:08:DC:00:00:01\r\n`
 
-\</WRAP\> \<WRAP half column\> \</WRAP\> \</WRAP\> \</WRAP\> \</WRAP\>
+
 
 -----
 
@@ -775,7 +774,7 @@ column\>
 
     Firmware version with dots(.)
 
-  - \=\> Major version number . Minor version number . Maintenance
+  - ⇒ Major version number . Minor version number . Maintenance
     version number
 
 
@@ -800,11 +799,11 @@ column\>
   - **Return Type:** String
   - **Return Value:**
 
-\<WRAP indent\>\<WRAP indent\>
+
 
     Device model name
 
-  - \=\> Default: WIZ750SR
+  - ⇒ Default: WIZ750SR
 
 
 
@@ -829,7 +828,7 @@ column\>
   - **Return Type:** String
   - **Return Value:**
 
-\<WRAP indent\>\<WRAP indent\>
+
 
 | Status  | Description                                                   |
 | ------- | ------------------------------------------------------------- |
@@ -840,7 +839,7 @@ column\>
 | ATMODE  | Serial AT command mode status.                                |
 | UDP     | UDP mode status.                                              |
 
-\</WRAP\> \</WRAP\>
+
 
   - **Response**
 
@@ -868,17 +867,16 @@ column\>
 | RS-232/TTL     | Device supports UART input/output of RS-232C or TTL signals.    |
 | RS-422/485     | Device supports UART input/output of RS-422 and RS-485 signals. |
 
-\</WRAP\> \</WRAP\>
+
 
   - **Response**
 
-\<WRAP indent\>\<WRAP indent\> \<WRAP round box group\> \<WRAP half
-column\>
+
 
   - **Without Parameter (Get)**
       - In ASCII: `UNRS-232/TTL\r\n`
 
-\</WRAP\> \<WRAP half column\> \</WRAP\> \</WRAP\> \</WRAP\> \</WRAP\>
+
 
 -----
 
@@ -1090,7 +1088,7 @@ Return value</th>
       - No response
       - o Change product’s subnet mask
 
-\</WRAP\> \</WRAP\> \</WRAP\> \</WRAP\>
+
 
 -----
 
@@ -1105,28 +1103,27 @@ Return value</th>
     dot)
   - **Parameter / Return Value:**
 
-\<WRAP indent\>\<WRAP indent\>
+
 
     Ex> 192.168.11.1
 
-\</WRAP\> \</WRAP\>
+
 
   - **Response**
 
-\<WRAP indent\>\<WRAP indent\> \<WRAP round box group\> \<WRAP half
-column\>
+
 
   - **Without Parameter (Get)**
       - In ASCII: `GW192.168.11.1\r\n`
       - In HEX: `47 57 31 39 32 2E 31 36 38 2E 31 31 2E 31 0D 0A`
 
-\</WRAP\> \<WRAP half column\>
+
 
   - **With Parameter (Set)**
       - No response
       - Change product’s gateway address
 
-\</WRAP\> \</WRAP\> \</WRAP\> \</WRAP\>
+
 
 -----
 
@@ -1141,7 +1138,7 @@ column\>
     dot)
   - **Parameter / Return Value:**
 
-\<WRAP indent\>\<WRAP indent\>
+
 
     Ex> 8.8.8.8
 
@@ -1149,24 +1146,23 @@ column\>
       - 8.8.8.8
       - 8.8.4.4
 
-\</WRAP\> \</WRAP\>
+
 
   - **Response**
 
-\<WRAP indent\>\<WRAP indent\> \<WRAP round box group\> \<WRAP half
-column\>
+
 
   - **Without Parameter (Get)**
       - In ASCII: `DS8.8.8.8\r\n`
       - In HEX: `44 53 38 2E 38 2E 38 2E 38 0D 0A`
 
-\</WRAP\> \<WRAP half column\>
+
 
   - **With Parameter (Set)**
       - No response
       - Change Product’s DNS
 
-\</WRAP\> \</WRAP\> \</WRAP\> \</WRAP\>
+
 
 -----
 
@@ -1180,28 +1176,27 @@ column\>
   - **Parameter / Return Type:** Number (0 \~ 65535)
   - **Parameter / Return Value:**
 
-\<WRAP indent\>\<WRAP indent\>
+
 
     Ex> 5000
 
-\</WRAP\> \</WRAP\>
+
 
   - **Response**
 
-\<WRAP indent\>\<WRAP indent\> \<WRAP round box group\> \<WRAP half
-column\>
+
 
   - **Without Parameter (Get)**
       - In ASCII: `LP5000\r\n`
       - In HEX: `4C 50 35 30 30 30 0D 0A`
 
-\</WRAP\> \<WRAP half column\>
+
 
   - **With Parameter (Set)**
       - No response
       - Change product’s port number
 
-\</WRAP\> \</WRAP\> \</WRAP\> \</WRAP\>
+
 
 -----
 
@@ -1216,28 +1211,27 @@ column\>
     dot) or Domain string
   - **Parameter / Return Value:**
 
-\<WRAP indent\>\<WRAP indent\>
+
 
     Ex> 192.168.11.3
 
-\</WRAP\> \</WRAP\>
+
 
   - **Response**
 
-\<WRAP indent\>\<WRAP indent\> \<WRAP round box group\> \<WRAP half
-column\>
+
 
   - **Without Parameter (Get)**
       - In ASCII: `RH192.168.11.3\r\n`
       - In HEX: `52 48 31 39 32 2E 31 36 38 2E 31 31 2E 33 0D 0A`
 
-\</WRAP\> \<WRAP half column\>
+
 
   - **With Parameter (Set)**
       - No response
       - Change product’s remote host IP address
 
-\</WRAP\> \</WRAP\> \</WRAP\> \</WRAP\>
+
 
 -----
 
@@ -1251,28 +1245,27 @@ column\>
   - **Parameter / Return Type:** Number (0 \~ 65535)
   - **Parameter / Return Value:**
 
-\<WRAP indent\>\<WRAP indent\>
+
 
     Ex> 5000
 
-\</WRAP\> \</WRAP\>
+
 
   - **Response**
 
-\<WRAP indent\>\<WRAP indent\> \<WRAP round box group\> \<WRAP half
-column\>
+
 
   - **Without Parameter (Get)**
       - In ASCII: `RP5000\r\n`
       - In HEX: `52 50 35 30 30 30 0D 0A`
 
-\</WRAP\> \<WRAP half column\>
+
 
   - **With Parameter (Set)**
       - No response
       - Change product’s remote host port number
 
-\</WRAP\> \</WRAP\> \</WRAP\> \</WRAP\>
+
 
 ### Data UART Settings
 
@@ -1288,7 +1281,7 @@ column\>
   - **Parameter / Return Type:** Number (0 \~ 13)
   - **Parameter / Return Value:**
 
-\<WRAP indent\>\<WRAP indent\>
+
 
 <table>
 <thead>
@@ -1373,23 +1366,22 @@ Return value</th>
 </tbody>
 </table>
 
-\</WRAP\> \</WRAP\>
+
 
   - **Response**
 
-\<WRAP indent\>\<WRAP indent\> \<WRAP round box group\> \<WRAP half
-column\>
+
 
   - **Without Parameter (Get)**
       - In ASCII: `BR12\r\n`
 
-\</WRAP\> \<WRAP half column\>
+
 
   - **With Parameter (Set)**
       - No response
       - Change baud rate of serial interface
 
-\</WRAP\> \</WRAP\> \</WRAP\> \</WRAP\>
+
 
 -----
 
@@ -1403,7 +1395,7 @@ column\>
   - **Parameter / Return Type:** Number (0 \~ 1)
   - **Parameter / Return Value:**
 
-\<WRAP indent\>\<WRAP indent\>
+
 
 <table>
 <thead>
@@ -1428,23 +1420,22 @@ Return value</th>
 </tbody>
 </table>
 
-\</WRAP\> \</WRAP\>
+
 
   - **Response**
 
-\<WRAP indent\>\<WRAP indent\> \<WRAP round box group\> \<WRAP half
-column\>
+
 
   - **Without Parameter (Get)**
       - In ASCII: `DB1\r\n`
 
-\</WRAP\> \<WRAP half column\>
+
 
   - **With Parameter (Set)**
       - No response
       - Change data bit of serial interface
 
-\</WRAP\> \</WRAP\> \</WRAP\> \</WRAP\>
+
 
 -----
 
@@ -1458,7 +1449,7 @@ column\>
   - **Parameter / Return Type:** Number (0 \~ 2)
   - **Parameter / Return Value:**
 
-\<WRAP indent\>\<WRAP indent\>
+
 
 <table>
 <thead>
@@ -1488,23 +1479,22 @@ Return value</th>
 </tbody>
 </table>
 
-\</WRAP\> \</WRAP\>
+
 
   - **Response**
 
-\<WRAP indent\>\<WRAP indent\> \<WRAP round box group\> \<WRAP half
-column\>
+
 
   - **Without Parameter (Get)**
       - In ASCII: `PR0\r\n`
 
-\</WRAP\> \<WRAP half column\>
+
 
   - **With Parameter (Set)**
       - No response
       - Change parity bit of serial interface
 
-\</WRAP\> \</WRAP\> \</WRAP\> \</WRAP\>
+
 
 -----
 
@@ -1518,7 +1508,7 @@ column\>
   - **Parameter / Return Type:** Number (0 \~ 1)
   - **Parameter / Return Value:**
 
-\<WRAP indent\>\<WRAP indent\>
+
 
 <table>
 <thead>
@@ -1543,23 +1533,22 @@ Return value</th>
 </tbody>
 </table>
 
-\</WRAP\> \</WRAP\>
+
 
   - **Response**
 
-\<WRAP indent\>\<WRAP indent\> \<WRAP round box group\> \<WRAP half
-column\>
+
 
   - **Without Parameter (Get)**
       - In ASCII: `SB0\r\n`
 
-\</WRAP\> \<WRAP half column\>
+
 
   - **With Parameter (Set)**
       - No response
       - Change stop bit of serial interface
 
-\</WRAP\> \</WRAP\> \</WRAP\> \</WRAP\>
+
 
 -----
 
@@ -1574,7 +1563,7 @@ column\>
   - **Parameter / Return Type:** Number (0 \~ 2)
   - **Parameter / Return Value:**
 
-\<WRAP indent\>\<WRAP indent\>
+
 
 <table>
 <thead>
@@ -1604,23 +1593,22 @@ Return value</th>
 </tbody>
 </table>
 
-\</WRAP\> \</WRAP\>
+
 
   - **Response**
 
-\<WRAP indent\>\<WRAP indent\> \<WRAP round box group\> \<WRAP half
-column\>
+
 
   - **Without Parameter (Get)**
       - In ASCII: `FL0\r\n`
 
-\</WRAP\> \<WRAP half column\>
+
 
   - **With Parameter (Set)**
       - No response
       - Change flow control of serial interface
 
-\</WRAP\> \</WRAP\> \</WRAP\> \</WRAP\>
+
 
 ### Serial Data Packing Options
 
@@ -1637,27 +1625,26 @@ column\>
   - **Parameter / Return Type:** Number (0 \~ 65535)
   - **Parameter / Return Value:**
 
-\<WRAP indent\>\<WRAP indent\>
+
 
     0: Not used / 1 ~ 65535: Data packing time (Unit: millisecond)
 
-\</WRAP\> \</WRAP\>
+
 
   - **Response**
 
-\<WRAP indent\>\<WRAP indent\> \<WRAP round box group\> \<WRAP half
-column\>
+
 
   - **Without Parameter (Get)**
       - In ASCII: `PT0\r\n`
 
-\</WRAP\> \<WRAP half column\>
+
 
   - **With Parameter (Set)**
       - None
       - Change the time delimiter value of serial data packing
 
-\</WRAP\> \</WRAP\> \</WRAP\> \</WRAP\>
+
 
 -----
 
@@ -1672,11 +1659,11 @@ column\>
   - **Parameter / Return Type:** Number (0 \~ 255)
   - **Parameter / Return Value:**
 
-\<WRAP indent\>\<WRAP indent\>
+
 
     0: Not used / 1 ~ 255: Data packing size (Unit: byte)
 
-\</WRAP\> \</WRAP\>
+
 
 1.  The received serial data is collected until the designated time is
     lapsed and will be sent all together via Ethernet. This time starts
@@ -1689,19 +1676,18 @@ column\>
     
      - **Response**
 
-\<WRAP indent\>\<WRAP indent\> \<WRAP round box group\> \<WRAP half
-column\>
+
 
   - **Without Parameter (Get)**
       - In ASCII: `PS0\r\n`
 
-\</WRAP\> \<WRAP half column\>
+
 
   - **With Parameter (Set)**
       - None
       - Change the data size of serial data packing
 
-\</WRAP\> \</WRAP\> \</WRAP\> \</WRAP\>
+
 
 -----
 
@@ -1716,29 +1702,28 @@ column\>
   - **Parameter / Return Type:** 1-byte Character (Hex only)
   - **Parameter / Return Value:**
 
-\<WRAP indent\>\<WRAP indent\>
+
 
     00: Not used / Other: Designated character
 
   - The designated character is not included in data.
 
-\</WRAP\> \</WRAP\>
+
 
   - **Response**
 
-\<WRAP indent\>\<WRAP indent\> \<WRAP round box group\> \<WRAP half
-column\>
+
 
   - **Without Parameter (Get)**
       - In ASCII: `PD00\r\n`
 
-\</WRAP\> \<WRAP half column\>
+
 
   - **With Parameter (Set)**
       - None
       - Change designated character delimiter of serial data packing
 
-\</WRAP\> \</WRAP\> \</WRAP\> \</WRAP\>
+
 
   
   
@@ -1763,7 +1748,7 @@ column\>
   - **Parameter / Return Type:** Number (0 \~ 65535)
   - **Parameter / Return Value:**
 
-\<WRAP indent\>\<WRAP indent\>
+
 
     0: Not used / 1 ~ 65535: Inactivity timer value (Unit: second)
 
@@ -1772,23 +1757,22 @@ column\>
   - The timer restarts when there is an Ethernet data exchange before
     reaching entered inactivity timer value.
 
-\</WRAP\> \</WRAP\>
+
 
   - **Response**
 
-\<WRAP indent\>\<WRAP indent\> \<WRAP round box group\> \<WRAP half
-column\>
+
 
   - **Without Parameter (Get)**
       - In ASCII: `IT0\r\n`
 
-\</WRAP\> \<WRAP half column\>
+
 
   - **With Parameter (Set)**
       - No response
       - o Change inactivity timer value
 
-\</WRAP\> \</WRAP\> \</WRAP\> \</WRAP\>
+
 
 -----
 
@@ -1802,7 +1786,7 @@ column\>
   - **Parameter / Return Type:** Number (0 / 1)
   - **Parameter / Return Value:**
 
-\<WRAP indent\>\<WRAP indent\>
+
 
     0: Not used(Disabled) / 1: Used(Enabled)
 
@@ -1811,23 +1795,22 @@ column\>
     device must send first the TCP connection password and confirmation
     for actual data to be transmitted. 
 
-\</WRAP\> \</WRAP\>
+
 
   - **Response**
 
-\<WRAP indent\>\<WRAP indent\> \<WRAP round box group\> \<WRAP half
-column\>
+
 
   - **Without Parameter (Get)**
       - In ASCII: `CP0\r\n`
 
-\</WRAP\> \<WRAP half column\>
+
 
   - **With Parameter (Set)**
       - No response
       - Change whether TCP connection password enabled or not.
 
-\</WRAP\> \</WRAP\> \</WRAP\> \</WRAP\>
+
 
 -----
 
@@ -1841,7 +1824,7 @@ column\>
   - **Parameter / Return Type:** String (up to 8-bytes)
   - **Parameter / Return Value:**
 
-\<WRAP indent\>\<WRAP indent\>
+
 
     Default: None(Null)
 
@@ -1849,23 +1832,22 @@ column\>
     server**.
   - The password can be maximum of 8 characters.
 
-\</WRAP\> \</WRAP\>
+
 
   - **Response**
 
-\<WRAP indent\>\<WRAP indent\> \<WRAP round box group\> \<WRAP half
-column\>
+
 
   - **Without Parameter (Get)**
       - In ASCII: `NP\r\n`
 
-\</WRAP\> \<WRAP half column\>
+
 
   - **With Parameter (Set)**
       - No response
       - Change TCP connection password
 
-\</WRAP\> \</WRAP\> \</WRAP\> \</WRAP\>
+
 
 -----
 
@@ -1879,7 +1861,7 @@ column\>
   - **Parameter / Return Type:** String (up to 8-bytes)
   - **Parameter / Return Value:**
 
-\<WRAP indent\>\<WRAP indent\>
+
 
     Default: None(Null)
 
@@ -1887,23 +1869,22 @@ column\>
     found via product search by configuration tool.
   - Search ID code can be maximum of 8 characters.
 
-\</WRAP\> \</WRAP\>
+
 
   - **Response**
 
-\<WRAP indent\>\<WRAP indent\> \<WRAP round box group\> \<WRAP half
-column\>
+
 
   - **Without Parameter (Get)**
       - In ASCII: `SP\r\n`
 
-\</WRAP\> \<WRAP half column\>
+
 
   - **With Parameter (Set)**
       - No response
       - Change search ID code
 
-\</WRAP\> \</WRAP\> \</WRAP\> \</WRAP\>
+
 
 -----
 
@@ -1917,30 +1898,29 @@ column\>
   - **Parameter / Return Type:** Number (0 / 1)
   - **Parameter / Return Value:**
 
-\<WRAP indent\>\<WRAP indent\>
+
 
     0: Not used(Disabled) / 1: Used(Enabled)
 
   - If this option is active, the product setting or error message will
     output via Debug UART port. 
 
-\</WRAP\> \</WRAP\>
+
 
   - **Response**
 
-\<WRAP indent\>\<WRAP indent\> \<WRAP round box group\> \<WRAP half
-column\>
+
 
   - **Without Parameter (Get)**
       - In ASCII: `DG1\r\n`
 
-\</WRAP\> \<WRAP half column\>
+
 
   - **With Parameter (Set)**
       - No response
       - Change whether serial debug message enabled or not.
 
-\</WRAP\> \</WRAP\> \</WRAP\> \</WRAP\>
+
 
 -----
 
@@ -1955,7 +1935,7 @@ column\>
   - **Parameter / Return Type:** Number (0 / 1)
   - **Parameter / Return Value:**
 
-\<WRAP indent\>\<WRAP indent\>
+
 
     0: Not used(Disabled) / 1: Used(Enabled)
 
@@ -1965,23 +1945,22 @@ column\>
   - If there is no response from the peer, the TCP connection will close
     and the socket will initialize (socket open).
 
-\</WRAP\> \</WRAP\>
+
 
   - **Response**
 
-\<WRAP indent\>\<WRAP indent\> \<WRAP round box group\> \<WRAP half
-column\>
+
 
   - **Without Parameter (Get)**
       - In ASCII: `KA1\r\n`
 
-\</WRAP\> \<WRAP half column\>
+
 
   - **With Parameter (Set)**
       - No response
       - Change whether keep-alive packet transmit enabled or not.
 
-\</WRAP\> \</WRAP\> \</WRAP\> \</WRAP\>
+
 
 -----
 
@@ -1996,7 +1975,7 @@ column\>
   - **Parameter / Return Type:** Number (0 \~ 65535)
   - **Parameter / Return Value:**
 
-\<WRAP indent\>\<WRAP indent\>
+
 
     0: Not used / 1 ~ 65535: Initial Keep-alive packet transmission interval (Unit: millisecond)
 
@@ -2005,23 +1984,22 @@ column\>
   - Keep-alive packet transmission becomes active only when at least one
     Ethernet data transmission has been made.
 
-\</WRAP\> \</WRAP\>
+
 
   - **Response**
 
-\<WRAP indent\>\<WRAP indent\> \<WRAP round box group\> \<WRAP half
-column\>
+
 
   - **Without Parameter (Get)**
       - In ASCII: `KI7000\r\n`
 
-\</WRAP\> \<WRAP half column\>
+
 
   - **With Parameter (Set)**
       - No response
       - Change initial keep-alive packet transmission interval value
 
-\</WRAP\> \</WRAP\> \</WRAP\> \</WRAP\>
+
 
 -----
 
@@ -2035,7 +2013,7 @@ column\>
   - **Parameter / Return Type:** Number (0 \~ 65535)
   - **Parameter / Return Value:**
 
-\<WRAP indent\>\<WRAP indent\>
+
 
     0: Not used / 1 ~ 65535: Keep-alive packet transmission retry interval (Unit: millisecond)
 
@@ -2045,23 +2023,22 @@ column\>
   - Keep-alive packet transmission becomes active only when at least one
     Ethernet data transmission has been made.
 
-\</WRAP\> \</WRAP\>
+
 
   - **Response**
 
-\<WRAP indent\>\<WRAP indent\> \<WRAP round box group\> \<WRAP half
-column\>
+
 
   - **Without Parameter (Get)**
       - In ASCII: `KE5000\r\n`
 
-\</WRAP\> \<WRAP half column\>
+
 
   - **With Parameter (Set)**
       - No response
       - Change keep-alive packet transmission retry interval value
 
-\</WRAP\> \</WRAP\> \</WRAP\> \</WRAP\>
+
 
 -----
 
@@ -2076,7 +2053,7 @@ column\>
   - **Parameter / Return Type:** Number (0 \~ 65535)
   - **Parameter / Return Value:**
 
-\<WRAP indent\>\<WRAP indent\>
+
 
     0: Not used / 1 ~ 65535: TCP client reconnection interval (Unit: millisecond)
 
@@ -2084,23 +2061,22 @@ column\>
     TCP client mode, the interval value between the next connection
     attempt is set. 
 
-\</WRAP\> \</WRAP\>
+
 
   - **Response**
 
-\<WRAP indent\>\<WRAP indent\> \<WRAP round box group\> \<WRAP half
-column\>
+
 
   - **Without Parameter (Get)**
       - In ASCII: `RI3000\r\n`
 
-\</WRAP\> \<WRAP half column\>
+
 
   - **With Parameter (Set)**
       - No response
       - Change TCP client reconnection interval value
 
-\</WRAP\> \</WRAP\> \</WRAP\> \</WRAP\>
+
 
 -----
 
@@ -2114,7 +2090,7 @@ column\>
   - **Parameter / Return Type:** Number (0 / 1)
   - **Parameter / Return Value:**
 
-\<WRAP indent\>\<WRAP indent\>
+
 
     0: Not used(Disabled) / 1: Used(Enabled)
 
@@ -2123,23 +2099,22 @@ column\>
   - This function can be used to check what the user enters via serial
     command mode.
 
-\</WRAP\> \</WRAP\>
+
 
   - **Response**
 
-\<WRAP indent\>\<WRAP indent\> \<WRAP round box group\> \<WRAP half
-column\>
+
 
   - **Without Parameter (Get)**
       - In ASCII: `EC0\r\n`
 
-\</WRAP\> \<WRAP half column\>
+
 
   - **With Parameter (Set)**
       - No response
       - Change whether UART echoback function enabled or not.
 
-\</WRAP\> \</WRAP\> \</WRAP\> \</WRAP\>
+
 
 ### Command Mode Switch Settings
 
@@ -2155,30 +2130,29 @@ column\>
   - **Parameter / Return Type:** Number (0 / 1)
   - **Parameter / Return Value:**
 
-\<WRAP indent\>\<WRAP indent\>
+
 
     0: Not used(Disabled) / 1: Used(Enabled)
 
   - This function must be active in order to enter serial command mode
     via 3-byte command mode switch code.
 
-\</WRAP\> \</WRAP\>
+
 
   - **Response**
 
-\<WRAP indent\>\<WRAP indent\> \<WRAP round box group\> \<WRAP half
-column\>
+
 
   - **Without Parameter (Get)**
       - In ASCII: `TE1\r\n`
 
-\</WRAP\> \<WRAP half column\>
+
 
   - **With Parameter (Set)**
       - No response
       - Change weather command mode switch code enabled or not
 
-\</WRAP\> \</WRAP\> \</WRAP\> \</WRAP\>
+
 
 -----
 
@@ -2192,30 +2166,29 @@ column\>
   - **Parameter / Return Type:** String (3-byte hex only)
   - **Parameter / Return Value:**
 
-\<WRAP indent\>\<WRAP indent\>
+
 
     Default: 0x2B 0x2B 0x2B 
 
   - The command mode switch code must be composed of 3-byte(3
     characters) hex code.
 
-\</WRAP\> \</WRAP\>
+
 
   - **Response**
 
-\<WRAP indent\>\<WRAP indent\> \<WRAP round box group\> \<WRAP half
-column\>
+
 
   - **Without Parameter (Get)**
       - In ASCII: `SS2B2B2B\r\n`
 
-\</WRAP\> \<WRAP half column\>
+
 
   - **With Parameter (Set)**
       - No response
       - Change command mode switch code
 
-\</WRAP\> \</WRAP\> \</WRAP\> \</WRAP\>
+
 
   
   
@@ -2236,20 +2209,20 @@ column\>
   - **Parameter / Return:** None
   - **Response**
 
-\<WRAP indent\>\<WRAP indent\> \<WRAP round box group\>
+
 
   - **Without Parameter**
       - No response
       - Command mode exit and switch to data transmission mode
 
-\</WRAP\>
+
 
   - While the serial debug message is being used, the following mode
     switch message will output via Data/Debug UART ports once the switch
     to data transmission mode is successful.
   - `> SEG:GW Mode`
 
-\</WRAP\> \</WRAP\>
+
 
 -----
 
@@ -2263,13 +2236,13 @@ column\>
   - **Parameter / Return:** None
   - **Response**
 
-\<WRAP indent\>\<WRAP indent\> \<WRAP round box group\>
+
 
   - **Without Parameter**
       - No response
       - Save changed settings
 
-\</WRAP\> \</WRAP\> \</WRAP\>
+
 
 -----
 
@@ -2283,19 +2256,19 @@ column\>
   - **Parameter / Return:** None
   - **Response**
 
-\<WRAP indent\>\<WRAP indent\> \<WRAP round box group\>
+
 
   - **Without Parameter**
       - No response
       - All operations are closed and device reboot
 
-\</WRAP\>
+
 
   - While the serial debug message is being used, the following message
     will output via data UART
   - `> REBOOT`
 
-\</WRAP\> \</WRAP\>
+
 
 -----
 
@@ -2309,23 +2282,23 @@ column\>
   - **Parameter / Return:** None
   - **Response**
 
-\<WRAP indent\>\<WRAP indent\> \<WRAP round box group\>
+
 
   - **Without Parameter**
       - No response
       - Reset to device factory default setting
 
-\</WRAP\>
+
 
   - The device’s default setting values can be found at **[WIZ750SR
     Factory
-    Settings](/products/wiz750sr/gettingstarted/ko#wiz750sr_factory_settings)**
+    Settings](getting_started-[KO]#wiz750sr-factory-settings)**
   - The device reboots after factory reset, like **[RT](#rt)** command.
       - While the serial debug message is being used, the following
         message will output via data UART.
       - `> REBOOT`
 
-\</WRAP\> \</WRAP\>
+
 
   
   
@@ -2346,7 +2319,7 @@ column\>
   - **Parameter / Return Type:** Number (0 \~ 2)
   - **Parameter / Return Value:**
 
-\<WRAP indent\>\<WRAP indent\>
+
 
 <table>
 <thead>
@@ -2376,23 +2349,22 @@ Return value</th>
 </tbody>
 </table>
 
-\</WRAP\> \</WRAP\>
+
 
   - **Response**
 
-\<WRAP indent\>\<WRAP indent\> \<WRAP round box group\> \<WRAP half
-column\>
+
 
   - **Without Parameter (Get)**
       - In ASCII: `CA2\r\n` `CB0\r\n`
 
-\</WRAP\> \<WRAP half column\>
+
 
   - **With Parameter (Set)**
       - No response
       - Change user I/Os setting
 
-\</WRAP\> \</WRAP\> \</WRAP\> \</WRAP\>
+
 
 ### User I/O Status / Value
 
@@ -2409,7 +2381,7 @@ column\>
     0 \~ 4095)
   - **Parameter / Return Value:**
 
-\<WRAP indent\>\<WRAP indent\>
+
 
 <table>
 <thead>
@@ -2443,24 +2415,23 @@ Return value</th>
   - Digital in: Read only 
   - Analog in: Read only
 
-\</WRAP\> \</WRAP\>
+
 
   - **Response**
 
-\<WRAP indent\>\<WRAP indent\> \<WRAP round box group\> \<WRAP half
-column\>
+
 
   - **Without Parameter (Get)**
       - In ASCII: `GA4095\r\n (Analog input)`
       - In ASCII: `GC0\r\n (Digital input)`
 
-\</WRAP\> \<WRAP half column\>
+
 
   - **With Parameter (Set)**
       - No response
       - Change user I/O status - High or Low, **Digital output only**
 
-\</WRAP\> \</WRAP\> \</WRAP\> \</WRAP\>
+
 
   
   
@@ -2482,7 +2453,7 @@ column\>
   - **Parameter / Return Type:** Number (0/1)
   - **Parameter / Return Value:**
 
-\<WRAP indent\>\<WRAP indent\>
+
 
   - **Parameter\_0** (upper byte)
 
@@ -2536,24 +2507,23 @@ Return value</th>
 </tbody>
 </table>
 
-\</WRAP\> \</WRAP\>
+
 
   - **Response**
 
-\<WRAP indent\>\<WRAP indent\> \<WRAP round box group\> \<WRAP half
-column\>
+
 
   - **Without Parameter (Get)**
       - In ASCII: (Connection Status) `SC00\r\n`
       - In ASCII: (DTR / DSR) `SC11\r\n`
 
-\</WRAP\> \<WRAP half column\>
+
 
   - **With Parameter (Set)**
       - No response
       - Change status I/O pins operation mode
 
-\</WRAP\> \</WRAP\> \</WRAP\> \</WRAP\>
+
 
 -----
 
@@ -2567,7 +2537,7 @@ column\>
   - **Parameter / Return Type:** Number (0/1)
   - **Parameter / Return Value:**
 
-\<WRAP indent\>\<WRAP indent\>
+
 
   - **When operating via PHY link status pin**
 
@@ -2585,17 +2555,16 @@ column\>
 | 0            | The device is not ready             | \-      |
 | 1            | The device ready for communications | \-      |
 
-\</WRAP\> \</WRAP\>
+
 
   - **Response**
 
-\<WRAP indent\>\<WRAP indent\> \<WRAP round box group\> \<WRAP half
-column\>
+
 
   - **Without Parameter (Get)**
       - In ASCII: `S00\r\n`
 
-\</WRAP\> \<WRAP half column\> \</WRAP\> \</WRAP\> \</WRAP\> \</WRAP\>
+
 
 -----
 
@@ -2609,7 +2578,7 @@ column\>
   - **Parameter / Return Type:** Number (0/1)
   - **Parameter / Return Value:**
 
-\<WRAP indent\>\<WRAP indent\>
+
 
   - **When operating via TCP connection status pin**
       - TCP server / client / mixed mode only 
@@ -2629,17 +2598,16 @@ column\>
 | 0            | The peer device is not ready             | \-      |
 | 1            | The peer device ready for communications | \-      |
 
-\</WRAP\> \</WRAP\>
+
 
   - **Response**
 
-\<WRAP indent\>\<WRAP indent\> \<WRAP round box group\> \<WRAP half
-column\>
+
 
   - **Without Parameter (Get)**
       - In ASCII: `S10\r\n`
 
-\</WRAP\> \<WRAP half column\> \</WRAP\> \</WRAP\> \</WRAP\> \</WRAP\>
+
 
 -----
 
@@ -2652,17 +2620,17 @@ WIZ750SR series Common Documents
   - **[User's Manual (English)](User's_Manual-[EN].md)** 
   - **[User's Manual (Korean)](User's_Manual-[KO].md)** 
 
-<!-- end list -->
+
 
   - **[Device Command Manual (English)](Command_Manual-[EN].md)**
   - **[Device Command Manual (Korean)](Command_Manual-[KO].md)**
 
-<!-- end list -->
+
 
   - **[Troubleshooting Guide (English)](Trouble_Shooting-[EN].md)**
   - **[Troubleshooting Guide (Korean)](Trouble_Shooting-[KO].md)**
 
-<!-- end list -->
+
 
   - **[Update History (English)](Series_Update_History-[EN].md)**
   - **[Update History (Korean)](Series_Update_History-[KO].md)**
@@ -2673,7 +2641,7 @@ WIZ750SR series Common Documents
 
   - **[Software Download](Download.md)**
 
-<!-- end list -->
+
 
   - **[Technical References](Technical_References.md)**
 

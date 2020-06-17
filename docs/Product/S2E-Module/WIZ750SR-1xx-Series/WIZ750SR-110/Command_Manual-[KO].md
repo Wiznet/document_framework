@@ -12,7 +12,7 @@ date: 2020-04-09
 * [English](Command_Manual-[EN].md)  
 * [Korean](Command_Manual-[KO].md) (current page)
 
-![](/products/wiz750sr/docs_icon.png)
+![](/img/products/wiz750sr/docs_icon.png)
 
 -----
 
@@ -37,11 +37,11 @@ UART port는 커맨드의 입력과 수행을 지원하지 않습니다.**
 
   - **[시리얼 커맨드 모드를 통한 제어](#entering_serial_command_mode)**
 
-<!-- end list -->
+
 
   - **[이더넷 네트워크를 통한 제어](#command_via_ethernet)**
 
-<!-- end list -->
+
 
 1.  위즈네트에서 제공하는 **제품 설정 프로그램(Configuration tool)**도 동일한 커맨드 셋을 이용하여
     WIZ750SR 제품을 제어합니다.
@@ -74,7 +74,7 @@ UART port는 커맨드의 입력과 수행을 지원하지 않습니다.**
       - 해당 핀은 Pull-up 상태이며, Low Active로 동작합니다.
       - 제품 동작 시, 초기에 한 번의 설정 변경 등이 필요한 경우 활용 할 수 있습니다.
 
-\<WRAP round box center 80%\>
+
 
 ``` 
   - **하드웨어 트리거 핀(HW_TRIG)을 Low로 인가합니다.** 
@@ -88,7 +88,7 @@ UART port는 커맨드의 입력과 수행을 지원하지 않습니다.**
     * <code>> SEG:GW Mode</code> 
 ```
 
-\</WRAP\>
+
 
   - **2. 커맨드 모드 전환 코드\[1\]를 이용한 커맨드 모드 진입**
       - WIZ750SR 제품에서 지원하는 커맨드 모드 전환 코드를 이용하여 커맨드 모드로 진입 할 수 있습니다.
@@ -98,7 +98,7 @@ UART port는 커맨드의 입력과 수행을 지원하지 않습니다.**
         가능합니다. 단 해당 코드는 Hex 값 만을 허용합니다. (**default: Hex
         \[2B\]\[2B\]\[2B\]**\[2\])
 
-\<WRAP round box center 80%\>
+
 
 ``` 
   - **제품 설정 프로그램(Configuration Tool)의 'Serial command mode switch code' 항목 Enable 여부와 3-bytes '커맨드 모드 전환 코드'를 확인합니다.**
@@ -112,9 +112,9 @@ UART port는 커맨드의 입력과 수행을 지원하지 않습니다.**
     * <code>> SEG:GW Mode</code> 
 ```
 
-\</WRAP\>
 
-\<WRAP round tip center 90%\>
+
+
 
 **Trigger code를 이용한 커맨드 모드 전환 시 주의점**은 다음과 같습니다.
 
@@ -125,7 +125,7 @@ UART port는 커맨드의 입력과 수행을 지원하지 않습니다.**
   - 커맨드 모드 전환 코드 전, 후 간격과 사이 간격의 **초기 값은 500ms**이며, 시리얼 데이터 패킹 옵션의 **Timer** 값이 설정된 경우 간격 값은 설정된 Timer 값으로 변경됩니다.
 ```
 
-\</WRAP\>
+
 
 1.  Command mode switch trigger code via Data UART port
 
@@ -163,9 +163,9 @@ UART port는 커맨드의 입력과 수행을 지원하지 않습니다.**
 **UDP 혹은 TCP 클라이언트**\[1\]를 활용하여 지정된 형태로 커맨드를 전송하여야 하며, 커맨드 처리를 위한 포트 번호는
 **50001**번 입니다.
 
-\<WRAP round info center centeralign 80%\> **커맨드 전송을 위한 제품 네트워크 정보:**  
+**커맨드 전송을 위한 제품 네트워크 정보:**  
 **UDP / TCP Server : 50001**  
-(사용자는 UDP / TCP Client로 제품에 커맨드 전송) \</WRAP\>
+(사용자는 UDP / TCP Client로 제품에 커맨드 전송)
 
 #### Ethernet Command Frame Format
 
@@ -183,7 +183,7 @@ Ethernet을 통해 제품을 제어 할 때는 커맨드 코드 전송 이전에
             MAC 주소\[3\]로 지정 할 수 있습니다. 이러한 경우 다수의 Peer에게 응답(response)를 수신
             할 수 있으며, 설정 프로그램의 Search 기능이 이러한 방법으로 구현 되어 있습니다.
 
-<!-- end list -->
+
 
   - **\[PW\] 커맨드**
       - 제품의 설정 중 제품 그룹 식별을 위한 **'Search ID Code'**를 사용 할 경우, PW 커맨드 이후에
@@ -191,9 +191,9 @@ Ethernet을 통해 제품을 제어 할 때는 커맨드 코드 전송 이전에
       - 만약 **'Search ID Code'**를 사용하지 않는 경우, PW 커맨드와 CR/LF 사이의 필드(Search
         ID)를 비워서는 안되며, **0x20**\[4\] 값이 입력되어야 합니다.
 
-\<WRAP round info center centeralign 85%\> **Ethernet을 통한 커맨드 전송 시의 커맨드
+**Ethernet을 통한 커맨드 전송 시의 커맨드
 프레임은  
-반드시 MA -\> PW -\> (Command x N)의 순서로 구성되어야 합니다.** \</WRAP\>
+반드시 MA -\> PW -\> (Command x N)의 순서로 구성되어야 합니다.**
 
 1.  제품 내에 커맨드를 처리하기 위해 UDP와 TCP 서버가 동작하고 있으므로, 사용자는 꼭 UDP 혹은 TCP 클라이언트를
     활용하여야 합니다.
@@ -207,7 +207,7 @@ Ethernet을 통해 제품을 제어 할 때는 커맨드 코드 전송 이전에
 
 ##### Get Request
 
-\<WRAP round box center 100%\> **단일 커맨드 전송 시**
+ **단일 커맨드 전송 시**
 
     MA [MAC] [CR] [LF] PW [Search ID] [CR] [LF] [Command] [CR] [LF]
 
@@ -215,14 +215,14 @@ Ethernet을 통해 제품을 제어 할 때는 커맨드 코드 전송 이전에
 
     MA [MAC] [CR] [LF] PW [Search ID] [CR] [LF] ([Command] [CR] [LF]) * N
 
-\</WRAP\>
+
 
   - Get Request에 대한 Response는 Request와 동일한 포맷의 프레임에 Parameter를 포함한 형태로
     응답합니다.\[1\]
 
 ##### Set Request
 
-\<WRAP round box center 100%\> **단일 커맨드 전송 시**
+ **단일 커맨드 전송 시**
 
     MA [MAC] [CR] [LF] PW [Search ID] [CR] [LF] [Command] [Parameters] [CR] [LF]
 
@@ -230,7 +230,7 @@ Ethernet을 통해 제품을 제어 할 때는 커맨드 코드 전송 이전에
 
     MA [MAC] [CR] [LF] PW [Search ID] [CR] [LF] ([Command] [Parameters] [CR] [LF]) * N
 
-\</WRAP\>
+
 
   - Set Request의 경우, 별도의 응답 없이 제품의 설정을 즉시 변경하도록 구성되어 있습니다.
   - 만약 변경된 값을 확인하고 싶을 경우, Set Request 프레임 말미에 해당 커맨드를 parameter 없이 추가하여
@@ -246,7 +246,7 @@ Ethernet을 통해 제품을 제어 할 때는 커맨드 코드 전송 이전에
 | Request from User |
 | ----------------- |
 
-\<WRAP round box center 100%\>
+
 
 **커맨드 프레임**
 
@@ -256,12 +256,12 @@ Ethernet을 통해 제품을 제어 할 때는 커맨드 코드 전송 이전에
 
     4D 41 FF FF FF FF FF FF 0D 0A 50 57 20 0D 0A 4D 43 0D 0A 4C 49 0D 0A
 
-\</WRAP\>
+
 
 | Response by WIZ750SR |
 | -------------------- |
 
-\<WRAP round box center 100%\>
+
 
 **커맨드 프레임**
 
@@ -273,7 +273,7 @@ Ethernet을 통해 제품을 제어 할 때는 커맨드 코드 전송 이전에
 
     4D 41 00 08 DC 00 00 11 0D 0A 50 57 20 0D 0A 4D 43 00 08 DC 00 00 11 0D 0A 4C 49 31 39 32 2E 31 36 38 2E 31 31 2E 32 0D 0A
 
-\</WRAP\>
+
 
 ##### Example \#2: TCP Get Command Frame
 
@@ -283,7 +283,7 @@ Ethernet을 통해 제품을 제어 할 때는 커맨드 코드 전송 이전에
 | Request from User |
 | ----------------- |
 
-\<WRAP round box center 100%\>
+
 
 **커맨드 프레임**
 
@@ -293,12 +293,12 @@ Ethernet을 통해 제품을 제어 할 때는 커맨드 코드 전송 이전에
 
     4D 41 00 08 DC 00 00 11 0D 0A 50 57 20 0D 0A 4C 49 0D 0A
 
-\</WRAP\>
+
 
 | Response by WIZ750SR |
 | -------------------- |
 
-\<WRAP round box center 100%\>
+
 
 **커맨드 프레임**
 
@@ -308,7 +308,7 @@ Ethernet을 통해 제품을 제어 할 때는 커맨드 코드 전송 이전에
 
     4D 41 00 08 DC 00 00 11 0D 0A 50 57 20 0D 0A 4C 49 31 39 32 2E 31 36 38 2E 31 31 2E 32 0D 0A
 
-\</WRAP\>
+
 
 ##### Example \#3: TCP Set Command Frame
 
@@ -319,7 +319,7 @@ Ethernet을 통해 제품을 제어 할 때는 커맨드 코드 전송 이전에
 | Request from User |
 | ----------------- |
 
-\<WRAP round box center 100%\>
+
 
 **커맨드 프레임**
 
@@ -329,20 +329,20 @@ Ethernet을 통해 제품을 제어 할 때는 커맨드 코드 전송 이전에
 
     4D 41 00 08 DC 00 00 11 0D 0A 50 57 48 45 4C 4C 4F 0D 0A 4C 49 31 39 32 2E 31 36 38 2E 31 31 2E 35 0D 0A
 
-\</WRAP\>
+
 
 | Response by WIZ750SR |
 | -------------------- |
 
-\<WRAP round box center 100%\>
+
 
     None
 
-\</WRAP\>
 
-\<WRAP round info center centeralign 80%\> **IP 주소 형식\[1\] 설정의 변경 시,
+
+**IP 주소 형식\[1\] 설정의 변경 시,
 '192.168.11.5'와 같이  
-'.'(dot, 0x2E)도 함께 포함하여 전송하여야 합니다.** \</WRAP\>
+'.'(dot, 0x2E)도 함께 포함하여 전송하여야 합니다.**
 
 -----
 
@@ -357,7 +357,7 @@ Ethernet을 통해 제품을 제어 할 때는 커맨드 코드 전송 이전에
     **[SV](#sv)** 커맨드를 이용한 '설정 저장' 이후 **[RT](#rt)** 커맨드를 이용한 '모듈 재시작'을
     수행해야 정상적으로 적용됩니다.
 
-<!-- end list -->
+
 
 1.  IP 주소, 게이트웨이 주소, 서브넷 마스크, DNS 서버 주소, 원격지 IP 주소 등의 IPv4 주소 형식
 
@@ -518,21 +518,20 @@ Status I/O</td>
   - **Return Type:** String
   - **Return Value:**
 
-\<WRAP indent\>\<WRAP indent\>
+
 
     MAC address with colons(:)
 
-\</WRAP\> \</WRAP\>
+
 
   - **Response**
 
-\<WRAP indent\>\<WRAP indent\> \<WRAP round box group\> \<WRAP half
-column\>
+
 
   - **Without Parameter (Get)**
       - In ASCII: `MC00:08:DC:00:00:01\r\n`
 
-\</WRAP\> \<WRAP half column\> \</WRAP\> \</WRAP\> \</WRAP\> \</WRAP\>
+
 
 -----
 
@@ -546,24 +545,23 @@ column\>
   - **Return Type:** String
   - **Return Value:**
 
-\<WRAP indent\>\<WRAP indent\>
+
 
     Firmware version with dots(.)
 
-  - \=\> Major version number . Minor version number . Maintenance
+  - ⇒ Major version number . Minor version number . Maintenance
     version number
 
-\</WRAP\> \</WRAP\>
+
 
   - **Response**
 
-\<WRAP indent\>\<WRAP indent\> \<WRAP round box group\> \<WRAP half
-column\>
+
 
   - **Without Parameter (Get)**
       - In ASCII: `VR1.0.0\r\n`
 
-\</WRAP\> \<WRAP half column\> \</WRAP\> \</WRAP\> \</WRAP\> \</WRAP\>
+
 
 -----
 
@@ -577,23 +575,22 @@ column\>
   - **Return Type:** String
   - **Return Value:**
 
-\<WRAP indent\>\<WRAP indent\>
+
 
     Device model name
 
-  - \=\> Default: WIZ750SR
+  - ⇒ Default: WIZ750SR
 
-\</WRAP\> \</WRAP\>
+
 
   - **Response**
 
-\<WRAP indent\>\<WRAP indent\> \<WRAP round box group\> \<WRAP half
-column\>
+
 
   - **Without Parameter (Get)**
       - In ASCII: `MNWIZ750SR\r\n`
 
-\</WRAP\> \<WRAP half column\> \</WRAP\> \</WRAP\> \</WRAP\> \</WRAP\>
+
 
 -----
 
@@ -607,7 +604,7 @@ column\>
   - **Return Type:** String
   - **Return Value:**
 
-\<WRAP indent\>\<WRAP indent\>
+
 
 | Status  | Description                           |
 | ------- | ------------------------------------- |
@@ -618,17 +615,16 @@ column\>
 | ATMODE  | 시리얼 AT 커맨드 모드 상태입니다.                  |
 | UDP     | UDP 모드 상태입니다.                         |
 
-\</WRAP\> \</WRAP\>
+
 
   - **Response**
 
-\<WRAP indent\>\<WRAP indent\> \<WRAP round box group\> \<WRAP half
-column\>
+
 
   - **Without Parameter (Get)**
       - In ASCII: `STATMODE\r\n`
 
-\</WRAP\> \<WRAP half column\> \</WRAP\> \</WRAP\> \</WRAP\> \</WRAP\>
+
 
 -----
 
@@ -642,24 +638,23 @@ column\>
   - **Return Type:** String
   - **Return Value:**
 
-\<WRAP indent\>\<WRAP indent\>
+
 
 | UART Interface | Description                          |
 | -------------- | ------------------------------------ |
 | RS-232/TTL     | RS-232C 혹은 TTL 신호의 UART 입/출력을 지원합니다. |
 | RS-422/485     | RS-422과 RS-485 신호의 UART 입/출력을 지원합니다. |
 
-\</WRAP\> \</WRAP\>
+
 
   - **Response**
 
-\<WRAP indent\>\<WRAP indent\> \<WRAP round box group\> \<WRAP half
-column\>
+
 
   - **Without Parameter (Get)**
       - In ASCII: `UNRS-232/TTL\r\n`
 
-\</WRAP\> \<WRAP half column\> \</WRAP\> \</WRAP\> \</WRAP\> \</WRAP\>
+
 
 -----
 
@@ -673,24 +668,23 @@ column\>
   - **Return Type:** Number (0 / 1)
   - **Return Value:**
 
-\<WRAP indent\>\<WRAP indent\>
+
 
 | Return value | Description                        | Remarks    |
 | ------------ | ---------------------------------- | ---------- |
 | 0            | RS-232C 혹은 TTL 신호의 UART 입/출력 지원 모델 | RS-232/TTL |
 | 1            | RS-422과 RS-485 신호의 UART 입/출력 지원 모델 | RS-422/485 |
 
-\</WRAP\> \</WRAP\>
+
 
   - **Response**
 
-\<WRAP indent\>\<WRAP indent\> \<WRAP round box group\> \<WRAP half
-column\>
+
 
   - **Without Parameter (Get)**
       - In ASCII: `UI0\r\n`
 
-\</WRAP\> \<WRAP half column\> \</WRAP\> \</WRAP\> \</WRAP\> \</WRAP\>
+
 
   
   
@@ -711,7 +705,7 @@ column\>
   - **Parameter / Return Type:** Number (0 \~ 3)
   - **Parameter / Return Value:**
 
-\<WRAP indent\>\<WRAP indent\>
+
 
 <table>
 <thead>
@@ -746,23 +740,22 @@ Return value</th>
 </tbody>
 </table>
 
-\</WRAP\> \</WRAP\>
+
 
   - **Response**
 
-\<WRAP indent\>\<WRAP indent\> \<WRAP round box group\> \<WRAP half
-column\>
+
 
   - **Without Parameter (Get)**
       - In ASCII: `OP0\r\n`
 
-\</WRAP\> \<WRAP half column\>
+
 
   - **With Parameter (Set)**
       - No response
       - 제품의 네트워크 동작 모드 변경
 
-\</WRAP\> \</WRAP\> \</WRAP\> \</WRAP\>
+
 
 -----
 
@@ -776,7 +769,7 @@ column\>
   - **Parameter / Return Type:** Number (0 \~ 1)
   - **Parameter / Return Value:**
 
-\<WRAP indent\>\<WRAP indent\>
+
 
 <table>
 <thead>
@@ -801,23 +794,22 @@ Return value</th>
 </tbody>
 </table>
 
-\</WRAP\> \</WRAP\>
+
 
   - **Response**
 
-\<WRAP indent\>\<WRAP indent\> \<WRAP round box group\> \<WRAP half
-column\>
+
 
   - **Without Parameter (Get)**
       - In ASCII: `IM0\r\n`
 
-\</WRAP\> \<WRAP half column\>
+
 
   - **With Parameter (Set)**
       - No response
       - 제품의 IP 주소 할당 방법 변경
 
-\</WRAP\> \</WRAP\> \</WRAP\> \</WRAP\>
+
 
 -----
 
@@ -831,28 +823,27 @@ column\>
   - **Parameter / Return Type:** IPv4 주소 형식의 String (dot 포함)
   - **Parameter / Return Value:**
 
-\<WRAP indent\>\<WRAP indent\>
+
 
     Ex> 192.168.11.2
 
-\</WRAP\> \</WRAP\>
+
 
   - **Response**
 
-\<WRAP indent\>\<WRAP indent\> \<WRAP round box group\> \<WRAP half
-column\>
+
 
   - **Without Parameter (Get)**
       - In ASCII: `LI192.168.11.2\r\n`
       - In HEX: `4C 49 31 39 32 2E 31 36 38 2E 31 31 2E 32 0D 0A`
 
-\</WRAP\> \<WRAP half column\>
+
 
   - **With Parameter (Set)**
       - No response
       - 제품의 IP 주소 변경
 
-\</WRAP\> \</WRAP\> \</WRAP\> \</WRAP\>
+
 
 -----
 
@@ -866,28 +857,27 @@ column\>
   - **Parameter / Return Type:** IPv4 주소 형식의 String (dot 포함)
   - **Parameter / Return Value:**
 
-\<WRAP indent\>\<WRAP indent\>
+
 
     Ex> 255.255.255.0
 
-\</WRAP\> \</WRAP\>
+
 
   - **Response**
 
-\<WRAP indent\>\<WRAP indent\> \<WRAP round box group\> \<WRAP half
-column\>
+
 
   - **Without Parameter (Get)**
       - In ASCII: `SM255.255.255.0\r\n`
       - In HEX: `53 4D 32 35 35 2E 32 35 35 2E 32 35 35 2E 30 0D 0A`
 
-\</WRAP\> \<WRAP half column\>
+
 
   - **With Parameter (Set)**
       - No response
       - 제품의 서브넷 마스크 변경
 
-\</WRAP\> \</WRAP\> \</WRAP\> \</WRAP\>
+
 
 -----
 
@@ -901,28 +891,27 @@ column\>
   - **Parameter / Return Type:** IPv4 주소 형식의 String (dot 포함)
   - **Parameter / Return Value:**
 
-\<WRAP indent\>\<WRAP indent\>
+
 
     Ex> 192.168.11.1
 
-\</WRAP\> \</WRAP\>
+
 
   - **Response**
 
-\<WRAP indent\>\<WRAP indent\> \<WRAP round box group\> \<WRAP half
-column\>
+
 
   - **Without Parameter (Get)**
       - In ASCII: `GW192.168.11.1\r\n`
       - In HEX: `47 57 31 39 32 2E 31 36 38 2E 31 31 2E 31 0D 0A`
 
-\</WRAP\> \<WRAP half column\>
+
 
   - **With Parameter (Set)**
       - No response
       - 제품의 게이트웨이 주소 변경
 
-\</WRAP\> \</WRAP\> \</WRAP\> \</WRAP\>
+
 
 -----
 
@@ -936,7 +925,7 @@ column\>
   - **Parameter / Return Type:** IPv4 주소 형식의 String (dot 포함)
   - **Parameter / Return Value:**
 
-\<WRAP indent\>\<WRAP indent\>
+
 
     Ex> 8.8.8.8
 
@@ -944,24 +933,23 @@ column\>
       - 8.8.8.8
       - 8.8.4.4
 
-\</WRAP\> \</WRAP\>
+
 
   - **Response**
 
-\<WRAP indent\>\<WRAP indent\> \<WRAP round box group\> \<WRAP half
-column\>
+
 
   - **Without Parameter (Get)**
       - In ASCII: `DS8.8.8.8\r\n`
       - In HEX: `44 53 38 2E 38 2E 38 2E 38 0D 0A`
 
-\</WRAP\> \<WRAP half column\>
+
 
   - **With Parameter (Set)**
       - No response
       - 제품의 DNS 변경
 
-\</WRAP\> \</WRAP\> \</WRAP\> \</WRAP\>
+
 
 -----
 
@@ -975,28 +963,27 @@ column\>
   - **Parameter / Return Type:** Number (0 \~ 65535)
   - **Parameter / Return Value:**
 
-\<WRAP indent\>\<WRAP indent\>
+
 
     Ex> 5000
 
-\</WRAP\> \</WRAP\>
+
 
  - **Response**
 
-\<WRAP indent\>\<WRAP indent\> \<WRAP round box group\> \<WRAP half
-column\>
+
 
   - **Without Parameter (Get)**
       - In ASCII: `LP5000\r\n`
       - In HEX: `4C 50 35 30 30 30 0D 0A`
 
-\</WRAP\> \<WRAP half column\>
+
 
   - **With Parameter (Set)**
       - No response
       - 제품의 포트번호 변경
 
-\</WRAP\> \</WRAP\> \</WRAP\> \</WRAP\>
+
 
 -----
 
@@ -1011,28 +998,27 @@ column\>
     String
   - **Parameter / Return Value:**
 
-\<WRAP indent\>\<WRAP indent\>
+
 
     Ex> 192.168.11.3
 
-\</WRAP\> \</WRAP\>
+
 
   - **Response**
 
-\<WRAP indent\>\<WRAP indent\> \<WRAP round box group\> \<WRAP half
-column\>
+
 
   - **Without Parameter (Get)**
       - In ASCII: `RH192.168.11.3\r\n`
       - In HEX: `52 48 31 39 32 2E 31 36 38 2E 31 31 2E 33 0D 0A`
 
-\</WRAP\> \<WRAP half column\>
+
 
   - **With Parameter (Set)**
       - No response
       - 제품에 설정된 원격지 IP 주소 변경
 
-\</WRAP\> \</WRAP\> \</WRAP\> \</WRAP\>
+
 
 -----
 
@@ -1046,28 +1032,27 @@ column\>
   - **Parameter / Return Type:** Number (0 \~ 65535)
   - **Parameter / Return Value:**
 
-\<WRAP indent\>\<WRAP indent\>
+
 
     Ex> 5000
 
-\</WRAP\> \</WRAP\>
+
 
   - **Response**
 
-\<WRAP indent\>\<WRAP indent\> \<WRAP round box group\> \<WRAP half
-column\>
+
 
   - **Without Parameter (Get)**
       - In ASCII: `RP5000\r\n`
       - In HEX: `52 50 35 30 30 30 0D 0A`
 
-\</WRAP\> \<WRAP half column\>
+
 
   - **With Parameter (Set)**
       - No response
       - 제품에 설정된 원격지 포트번호 변경
 
-\</WRAP\> \</WRAP\> \</WRAP\> \</WRAP\>
+
 
 ### Data UART Settings
 
@@ -1083,7 +1068,7 @@ column\>
   - **Parameter / Return Type:** Number (0 \~ 13)
   - **Parameter / Return Value:**
 
-\<WRAP indent\>\<WRAP indent\>
+
 
 <table>
 <thead>
@@ -1168,23 +1153,22 @@ Return value</th>
 </tbody>
 </table>
 
-\</WRAP\> \</WRAP\>
+
 
   - **Response**
 
-\<WRAP indent\>\<WRAP indent\> \<WRAP round box group\> \<WRAP half
-column\>
+
 
   - **Without Parameter (Get)**
       - In ASCII: `BR12\r\n`
 
-\</WRAP\> \<WRAP half column\>
+
 
   - **With Parameter (Set)**
       - No response
       - 시리얼 인터페이스의 Baud rate 변경
 
-\</WRAP\> \</WRAP\> \</WRAP\> \</WRAP\>
+
 
 -----
 
@@ -1198,7 +1182,7 @@ column\>
   - **Parameter / Return Type:** Number (0 \~ 1)
   - **Parameter / Return Value:**
 
-\<WRAP indent\>\<WRAP indent\>
+
 
 <table>
 <thead>
@@ -1223,23 +1207,22 @@ Return value</th>
 </tbody>
 </table>
 
-\</WRAP\> \</WRAP\>
+
 
   - **Response**
 
-\<WRAP indent\>\<WRAP indent\> \<WRAP round box group\> \<WRAP half
-column\>
+
 
   - **Without Parameter (Get)**
       - In ASCII: `DB1\r\n`
 
-\</WRAP\> \<WRAP half column\>
+
 
   - **With Parameter (Set)**
       - No response
       - 시리얼 인터페이스의 Data bit 변경
 
-\</WRAP\> \</WRAP\> \</WRAP\> \</WRAP\>
+
 
 -----
 
@@ -1253,7 +1236,7 @@ column\>
   - **Parameter / Return Type:** Number (0 \~ 2)
   - **Parameter / Return Value:**
 
-\<WRAP indent\>\<WRAP indent\>
+
 
 <table>
 <thead>
@@ -1283,23 +1266,22 @@ Return value</th>
 </tbody>
 </table>
 
-\</WRAP\> \</WRAP\>
+
 
   - **Response**
 
-\<WRAP indent\>\<WRAP indent\> \<WRAP round box group\> \<WRAP half
-column\>
+
 
   - **Without Parameter (Get)**
       - In ASCII: `PR0\r\n`
 
-\</WRAP\> \<WRAP half column\>
+
 
   - **With Parameter (Set)**
       - No response
       - 시리얼 인터페이스의 Parity bit 변경
 
-\</WRAP\> \</WRAP\> \</WRAP\> \</WRAP\>
+
 
 -----
 
@@ -1313,7 +1295,7 @@ column\>
   - **Parameter / Return Type:** Number (0 \~ 1)
   - **Parameter / Return Value:**
 
-\<WRAP indent\>\<WRAP indent\>
+
 
 <table>
 <thead>
@@ -1338,23 +1320,22 @@ Return value</th>
 </tbody>
 </table>
 
-\</WRAP\> \</WRAP\>
+
 
   - **Response**
 
-\<WRAP indent\>\<WRAP indent\> \<WRAP round box group\> \<WRAP half
-column\>
+
 
   - **Without Parameter (Get)**
       - In ASCII: `SB0\r\n`
 
-\</WRAP\> \<WRAP half column\>
+
 
   - **With Parameter (Set)**
       - No response
       - 시리얼 인터페이스의 Stop bit 변경
 
-\</WRAP\> \</WRAP\> \</WRAP\> \</WRAP\>
+
 
 -----
 
@@ -1368,7 +1349,7 @@ column\>
   - **Parameter / Return Type:** Number (0 \~ 2)
   - **Parameter / Return Value:**
 
-\<WRAP indent\>\<WRAP indent\>
+
 
 <table>
 <thead>
@@ -1398,23 +1379,22 @@ Return value</th>
 </tbody>
 </table>
 
-\</WRAP\> \</WRAP\>
+
 
   - **Response**
 
-\<WRAP indent\>\<WRAP indent\> \<WRAP round box group\> \<WRAP half
-column\>
+
 
   - **Without Parameter (Get)**
       - In ASCII: `FL0\r\n`
 
-\</WRAP\> \<WRAP half column\>
+
 
   - **With Parameter (Set)**
       - No response
       - 시리얼 인터페이스의 Flow control 변경
 
-\</WRAP\> \</WRAP\> \</WRAP\> \</WRAP\>
+
 
 ### Serial Data Packing Options
 
@@ -1430,27 +1410,26 @@ column\>
   - **Parameter / Return Type:** Number (0 \~ 65535)
   - **Parameter / Return Value:**
 
-\<WRAP indent\>\<WRAP indent\>
+
 
     0: 사용하지 않음 / 1 ~ 65535: 데이터 패킹 시간 (Unit: millisecond)
 
-\</WRAP\> \</WRAP\>
+
 
   - **Response**
 
-\<WRAP indent\>\<WRAP indent\> \<WRAP round box group\> \<WRAP half
-column\>
+
 
   - **Without Parameter (Get)**
       - In ASCII: `PT0\r\n`
 
-\</WRAP\> \<WRAP half column\>
+
 
   - **With Parameter (Set)**
       - None
       - 시리얼 데이터 패킹 시간 값 변경
 
-\</WRAP\> \</WRAP\> \</WRAP\> \</WRAP\>
+
 
 -----
 
@@ -1464,27 +1443,26 @@ column\>
   - **Parameter / Return Type:** Number (0 \~ 255)
   - **Parameter / Return Value:**
 
-\<WRAP indent\>\<WRAP indent\>
+
 
     0: 사용하지 않음 / 1 ~ 255: 데이터 길이 (Unit: byte)
 
-\</WRAP\> \</WRAP\>
+
 
   - **Response**
 
-\<WRAP indent\>\<WRAP indent\> \<WRAP round box group\> \<WRAP half
-column\>
+
 
   - **Without Parameter (Get)**
       - In ASCII: `PS0\r\n`
 
-\</WRAP\> \<WRAP half column\>
+
 
   - **With Parameter (Set)**
       - None
       - 시리얼 데이터 패킹 길이 값 변경
 
-\</WRAP\> \</WRAP\> \</WRAP\> \</WRAP\>
+
 
 -----
 
@@ -1498,29 +1476,28 @@ column\>
   - **Parameter / Return Type:** 1-byte Character (Hex only)
   - **Parameter / Return Value:**
 
-\<WRAP indent\>\<WRAP indent\>
+
 
     00: 사용하지 않음 / 그 외: 지정 문자
 
   - 지정 문자는 데이터에 포함되지 않습니다.
 
-\</WRAP\> \</WRAP\>
+
 
   - **Response**
 
-\<WRAP indent\>\<WRAP indent\> \<WRAP round box group\> \<WRAP half
-column\>
+
 
   - **Without Parameter (Get)**
       - In ASCII: `PD00\r\n`
 
-\</WRAP\> \<WRAP half column\>
+
 
   - **With Parameter (Set)**
       - None
       - 시리얼 데이터 패킹 지정 문자 변경
 
-\</WRAP\> \</WRAP\> \</WRAP\> \</WRAP\>
+
 
   
   
@@ -1549,30 +1526,29 @@ column\>
   - **Parameter / Return Type:** Number (0 \~ 65535)
   - **Parameter / Return Value:**
 
-\<WRAP indent\>\<WRAP indent\>
+
 
     0: 사용하지 않음 / 1 ~ 65535: 비활성 타이머 값 (Unit: second)
 
   - 활성화 되어 있을 경우, 지정된 시간 동안 데이터 교환이 없다면 TCP 연결을 종료합니다.
   - 비활성 타이머 값에 도달하기 이전에 이더넷 데이터 교환이 발생하는 경우, 해당 값은 초기화되어 다시 카운트를 시작합니다.
 
-\</WRAP\> \</WRAP\>
+
 
   - **Response**
 
-\<WRAP indent\>\<WRAP indent\> \<WRAP round box group\> \<WRAP half
-column\>
+
 
   - **Without Parameter (Get)**
       - In ASCII: `IT0\r\n`
 
-\</WRAP\> \<WRAP half column\>
+
 
   - **With Parameter (Set)**
       - No response
       - 비활성 타이머 값 변경
 
-\</WRAP\> \</WRAP\> \</WRAP\> \</WRAP\>
+
 
 -----
 
@@ -1586,7 +1562,7 @@ column\>
   - **Parameter / Return Type:** Number (0 / 1)
   - **Parameter / Return Value:**
 
-\<WRAP indent\>\<WRAP indent\>
+
 
     0: 사용하지 않음(Disabled) / 1: 사용(Enabled)
 
@@ -1594,23 +1570,22 @@ column\>
   - 해당 옵션이 활성화 되어 있을 경우, 제품에 접속하고자 하는 TCP 클라이언트는 TCP 연결 후 연결 비밀번호를 먼저
     전송하고 인증이 완료된 이후에 데이터를 교환해야 합니다. 
 
-\</WRAP\> \</WRAP\>
+
 
   - **Response**
 
-\<WRAP indent\>\<WRAP indent\> \<WRAP round box group\> \<WRAP half
-column\>
+
 
   - **Without Parameter (Get)**
       - In ASCII: `CP0\r\n`
 
-\</WRAP\> \<WRAP half column\>
+
 
   - **With Parameter (Set)**
       - No response
       - TCP 연결 비밀번호 사용 여부 변경
 
-\</WRAP\> \</WRAP\> \</WRAP\> \</WRAP\>
+
 
 -----
 
@@ -1624,30 +1599,29 @@ column\>
   - **Parameter / Return Type:** String (up to 8-bytes)
   - **Parameter / Return Value:**
 
-\<WRAP indent\>\<WRAP indent\>
+
 
     초기값: 없음(Null)
 
   - 제품이 **TCP 서버로 동작** 할 때에만 해당 옵션이 적용 됩니다.
   - 연결 비밀번호는 최대 8개의 문자로 구성 될 수 있습니다.
 
-\</WRAP\> \</WRAP\>
+
 
   - **Response**
 
-\<WRAP indent\>\<WRAP indent\> \<WRAP round box group\> \<WRAP half
-column\>
+
 
   - **Without Parameter (Get)**
       - In ASCII: `NP\r\n`
 
-\</WRAP\> \<WRAP half column\>
+
 
   - **With Parameter (Set)**
       - No response
       - TCP 연결 비밀번호 값 변경
 
-\</WRAP\> \</WRAP\> \</WRAP\> \</WRAP\>
+
 
 -----
 
@@ -1661,30 +1635,29 @@ column\>
   - **Parameter / Return Type:** String (up to 8-bytes)
   - **Parameter / Return Value:**
 
-\<WRAP indent\>\<WRAP indent\>
+
 
     초기값: 없음(Null)
 
   - 해당 옵션이 활성화 된 경우, 설정 프로그램을 이용한 제품 검색 시 일치하는 ID의 제품만 검색됩니다.
   - 검색 ID 코드는 최대 8개의 문자로 구성 될 수 있습니다.
 
-\</WRAP\> \</WRAP\>
+
 
   - **Response**
 
-\<WRAP indent\>\<WRAP indent\> \<WRAP round box group\> \<WRAP half
-column\>
+
 
   - **Without Parameter (Get)**
       - In ASCII: `SP\r\n`
 
-\</WRAP\> \<WRAP half column\>
+
 
   - **With Parameter (Set)**
       - No response
       - 검색 ID 코드 값 변경
 
-\</WRAP\> \</WRAP\> \</WRAP\> \</WRAP\>
+
 
 -----
 
@@ -1698,29 +1671,28 @@ column\>
   - **Parameter / Return Type:** Number (0 / 1)
   - **Parameter / Return Value:**
 
-\<WRAP indent\>\<WRAP indent\>
+
 
     0: 사용하지 않음(Disabled) / 1: 사용(Enabled)
 
   - 해당 옵션이 활성화 되어 있을 경우, Debug UART 포트를 통해 제품의 설정 및 Error 메시지가 출력됩니다. 
 
-\</WRAP\> \</WRAP\>
+
 
   - **Response**
 
-\<WRAP indent\>\<WRAP indent\> \<WRAP round box group\> \<WRAP half
-column\>
+
 
   - **Without Parameter (Get)**
       - In ASCII: `DG1\r\n`
 
-\</WRAP\> \<WRAP half column\>
+
 
   - **With Parameter (Set)**
       - No response
       - 시리얼 디버그 메시지 사용 여부 변경
 
-\</WRAP\> \</WRAP\> \</WRAP\> \</WRAP\>
+
 
 -----
 
@@ -1734,7 +1706,7 @@ column\>
   - **Parameter / Return Type:** Number (0 / 1)
   - **Parameter / Return Value:**
 
-\<WRAP indent\>\<WRAP indent\>
+
 
     0: 사용하지 않음(Disabled) / 1: 사용(Enabled)
 
@@ -1743,23 +1715,22 @@ column\>
   - 만약 상대방의 응답이 없을 경우, 해당 TCP 연결은 종료(TCP connection closed)되며 소켓이
     초기화(open) 됩니다.
 
-\</WRAP\> \</WRAP\>
+
 
   - **Response**
 
-\<WRAP indent\>\<WRAP indent\> \<WRAP round box group\> \<WRAP half
-column\>
+
 
   - **Without Parameter (Get)**
       - In ASCII: `KA1\r\n`
 
-\</WRAP\> \<WRAP half column\>
+
 
   - **With Parameter (Set)**
       - No response
       - Keep-alive 패킷 전송 여부 변경
 
-\</WRAP\> \</WRAP\> \</WRAP\> \</WRAP\>
+
 
 -----
 
@@ -1773,7 +1744,7 @@ column\>
   - **Parameter / Return Type:** Number (0 \~ 65535)
   - **Parameter / Return Value:**
 
-\<WRAP indent\>\<WRAP indent\>
+
 
     0: 사용하지 않음 / 1 ~ 65535: 초기 Keep-alive 패킷 전송 간격 (Unit: millisecond)
 
@@ -1781,23 +1752,22 @@ column\>
   - 데이터 전송을 마친 이후, 해당 값 만큼 시간이 경과하면 첫 Keep-alive 패킷이 전송됩니다.
   - Keep-alive 패킷 전송 기능은 제품에서 한 번 이상 이더넷 데이터가 송신되어야 활성화 됩니다.
 
-\</WRAP\> \</WRAP\>
+
 
   - **Response**
 
-\<WRAP indent\>\<WRAP indent\> \<WRAP round box group\> \<WRAP half
-column\>
+
 
   - **Without Parameter (Get)**
       - In ASCII: `KI7000\r\n`
 
-\</WRAP\> \<WRAP half column\>
+
 
   - **With Parameter (Set)**
       - No response
       - 첫 Keep-alive 패킷 전송 간격 값 변경
 
-\</WRAP\> \</WRAP\> \</WRAP\> \</WRAP\>
+
 
 -----
 
@@ -1811,7 +1781,7 @@ column\>
   - **Parameter / Return Type:** Number (0 \~ 65535)
   - **Parameter / Return Value:**
 
-\<WRAP indent\>\<WRAP indent\>
+
 
     0: 사용하지 않음 / 1 ~ 65535: Keep-alive 패킷 전송 재시도 간격 (Unit: millisecond)
 
@@ -1820,23 +1790,22 @@ column\>
   - 두 번째 이후의 Keep-alive 패킷 전송 간격은 이 값을 따릅니다.
   - Keep-alive 패킷 전송 기능은 제품에서 한 번 이상 이더넷 데이터가 송신되어야 활성화 됩니다.
 
-\</WRAP\> \</WRAP\>
+
 
   - **Response**
 
-\<WRAP indent\>\<WRAP indent\> \<WRAP round box group\> \<WRAP half
-column\>
+
 
   - **Without Parameter (Get)**
       - In ASCII: `KE5000\r\n`
 
-\</WRAP\> \<WRAP half column\>
+
 
   - **With Parameter (Set)**
       - No response
       - Keep-alive 패킷 전송 재시도 간격 값 변경
 
-\</WRAP\> \</WRAP\> \</WRAP\> \</WRAP\>
+
 
 -----
 
@@ -1850,29 +1819,28 @@ column\>
   - **Parameter / Return Type:** Number (0 \~ 65535)
   - **Parameter / Return Value:**
 
-\<WRAP indent\>\<WRAP indent\>
+
 
     0: 사용하지 않음 / 1 ~ 65535: TCP 클라이언트 재연결 간격 (Unit: millisecond)
 
   - TCP 클라이언트 모드 일 때 서버와 TCP 연결이 이루어지지 않은 경우, 다음 연결시도 까지의 간격 값을 설정합니다. 
 
-\</WRAP\> \</WRAP\>
+
 
   - **Response**
 
-\<WRAP indent\>\<WRAP indent\> \<WRAP round box group\> \<WRAP half
-column\>
+
 
   - **Without Parameter (Get)**
       - In ASCII: `RI3000\r\n`
 
-\</WRAP\> \<WRAP half column\>
+
 
   - **With Parameter (Set)**
       - No response
       - TCP 클라이언트 재연결 간격 값 변경
 
-\</WRAP\> \</WRAP\> \</WRAP\> \</WRAP\>
+
 
 -----
 
@@ -1887,30 +1855,29 @@ column\>
   - **Parameter / Return Type:** Number (0 / 1)
   - **Parameter / Return Value:**
 
-\<WRAP indent\>\<WRAP indent\>
+
 
     0: 사용하지 않음(Disabled) / 1: 사용(Enabled)
 
   - 해당 옵션이 활성화 되면, 시리얼(Data UART)을 통해 입력된 데이터가 Echoback 됩니다.
   - 시리얼 커맨드 모드 등에서 사용자의 입력을 확인 할 때 사용 할 수 있습니다.
 
-\</WRAP\> \</WRAP\>
+
 
   - **Response**
 
-\<WRAP indent\>\<WRAP indent\> \<WRAP round box group\> \<WRAP half
-column\>
+
 
   - **Without Parameter (Get)**
       - In ASCII: `EC0\r\n`
 
-\</WRAP\> \<WRAP half column\>
+
 
   - **With Parameter (Set)**
       - No response
       - UART 입력 Echoback 기능 사용 여부 변경
 
-\</WRAP\> \</WRAP\> \</WRAP\> \</WRAP\>
+
 
   
   
@@ -1931,29 +1898,28 @@ column\>
   - **Parameter / Return Type:** Number (0 / 1)
   - **Parameter / Return Value:**
 
-\<WRAP indent\>\<WRAP indent\>
+
 
     0: 사용하지 않음(Disabled) / 1: 사용(Enabled)
 
   - 해당 기능이 활성화 되어야 3-byte 커맨드 모드 전환 코드를 이용하여 시리얼 커맨드 모드로 진입 할 수 있습니다.
 
-\</WRAP\> \</WRAP\>
+
 
   - **Response**
 
-\<WRAP indent\>\<WRAP indent\> \<WRAP round box group\> \<WRAP half
-column\>
+
 
   - **Without Parameter (Get)**
       - In ASCII: `TE1\r\n`
 
-\</WRAP\> \<WRAP half column\>
+
 
   - **With Parameter (Set)**
       - No response
       - 커맨드 모드 전환 코드 사용 설정 변경
 
-\</WRAP\> \</WRAP\> \</WRAP\> \</WRAP\>
+
 
 -----
 
@@ -1967,29 +1933,28 @@ column\>
   - **Parameter / Return Type:** String (3-byte hex only)
   - **Parameter / Return Value:**
 
-\<WRAP indent\>\<WRAP indent\>
+
 
     초기값: 2B 2B 2B 
 
   - 커맨드 모드 전환 코드는 3-byte(3개 문자)의 hex 코드로 구성되어야 합니다.
 
-\</WRAP\> \</WRAP\>
+
 
   - **Response**
 
-\<WRAP indent\>\<WRAP indent\> \<WRAP round box group\> \<WRAP half
-column\>
+
 
   - **Without Parameter (Get)**
       - In ASCII: `SS2B2B2B\r\n`
 
-\</WRAP\> \<WRAP half column\>
+
 
   - **With Parameter (Set)**
       - No response
       - 커맨드 모드 전환 코드 변경
 
-\</WRAP\> \</WRAP\> \</WRAP\> \</WRAP\>
+
 
   
   
@@ -2010,19 +1975,19 @@ column\>
   - **Parameter / Return:** None
   - **Response**
 
-\<WRAP indent\>\<WRAP indent\> \<WRAP round box group\>
+
 
   - **Without Parameter**
       - No response
       - 커맨드 모드 종료 및 데이터 전송 모드로 전환
 
-\</WRAP\>
+
 
   - 만약 시리얼 디버그 메시지를 사용 중인 경우, 성공적으로 데이터 전송 모드로의 변경이 이루어지면 Data/Debug
     UART 양 쪽 포트를 통해 다음과 같은 모드 전환 메시지가 출력됩니다.
   - `> SEG:GW Mode`
 
-\</WRAP\> \</WRAP\>
+
 
 -----
 
@@ -2036,13 +2001,13 @@ column\>
   - **Parameter / Return:** None
   - **Response**
 
-\<WRAP indent\>\<WRAP indent\> \<WRAP round box group\>
+
 
   - **Without Parameter**
       - No response
       - 변경된 설정 항목의 저장 수행
 
-\</WRAP\> \</WRAP\> \</WRAP\>
+
 
 -----
 
@@ -2056,18 +2021,18 @@ column\>
   - **Parameter / Return:** None
   - **Response**
 
-\<WRAP indent\>\<WRAP indent\> \<WRAP round box group\>
+
 
   - **Without Parameter**
       - No response
       - 제품의 모든 동작 종료 후 재시작 됩니다.
 
-\</WRAP\>
+
 
   - 만약 시리얼 디버그 메시지를 사용 중인 경우, Data UART 포트를 통해 다음과 같은 메시지를 출력합니다.
   - `> REBOOT`
 
-\</WRAP\> \</WRAP\>
+
 
 -----
 
@@ -2081,22 +2046,22 @@ column\>
   - **Parameter / Return:** None
   - **Response**
 
-\<WRAP indent\>\<WRAP indent\> \<WRAP round box group\>
+
 
   - **Without Parameter**
       - No response
       - 제품의 동작 설정을 공장 초기화 상태(출고 시 초기 상태)로 변경합니다.
 
-\</WRAP\>
+
 
   - 제품의 초기 설정 값은 **[WIZ750SR Factory
-    Settings](/products/wiz750sr/gettingstarted/ko#wiz750sr_factory_settings)**에서
+    Settings](getting_started-[KO]#wiz750sr-factory-settings)**에서
     확인 할 수 있습니다.
   - 공장 초기화 수행 시, **[RT](#rt)** 커맨드를 수행 한 것과 동일하게 제품을 재시작 합니다.
       - 만약 시리얼 디버그 메시지를 사용 중인 경우, Data UART 포트를 통해 다음과 같은 메시지를 출력합니다.
       - `> REBOOT`
 
-\</WRAP\> \</WRAP\>
+
 
 ### User I/O Settings
 
@@ -2112,7 +2077,7 @@ column\>
   - **Parameter / Return Type:** Number (0 \~ 2)
   - **Parameter / Return Value:**
 
-\<WRAP indent\>\<WRAP indent\>
+
 
 <table>
 <thead>
@@ -2142,23 +2107,22 @@ Return value</th>
 </tbody>
 </table>
 
-\</WRAP\> \</WRAP\>
+
 
   - **Response**
 
-\<WRAP indent\>\<WRAP indent\> \<WRAP round box group\> \<WRAP half
-column\>
+
 
   - **Without Parameter (Get)**
       - In ASCII: `CA2\r\n` `CB0\r\n`
 
-\</WRAP\> \<WRAP half column\>
+
 
   - **With Parameter (Set)**
       - No response
       - 사용자 I/O의 설정 변경
 
-\</WRAP\> \</WRAP\> \</WRAP\> \</WRAP\>
+
 
   
   
@@ -2180,7 +2144,7 @@ column\>
     0 \~ 4095)
   - **Parameter / Return Value:**
 
-\<WRAP indent\>\<WRAP indent\>
+
 
 <table>
 <thead>
@@ -2214,24 +2178,23 @@ Return value</th>
   - Digital in: Read only 
   - Analog in: Read only
 
-\</WRAP\> \</WRAP\>
+
 
   - **Response**
 
-\<WRAP indent\>\<WRAP indent\> \<WRAP round box group\> \<WRAP half
-column\>
+
 
   - **Without Parameter (Get)**
       - In ASCII: `GA4095\r\n (Analog input)`
       - In ASCII: `GC0\r\n (Digital input)`
 
-\</WRAP\> \<WRAP half column\>
+
 
   - **With Parameter (Set)**
       - No response
       - 사용자 I/O 상태 값 변경 (**Digital output only**)
 
-\</WRAP\> \</WRAP\> \</WRAP\> \</WRAP\>
+
 
 ### Status I/O
 
@@ -2248,7 +2211,7 @@ column\>
   - **Parameter / Return Type:** Number (0/1)
   - **Parameter / Return Value:**
 
-\<WRAP indent\>\<WRAP indent\>
+
 
   - **Parameter\_0** (upper byte)
 
@@ -2302,24 +2265,23 @@ Return value</th>
 </tbody>
 </table>
 
-\</WRAP\> \</WRAP\>
+
 
   - **Response**
 
-\<WRAP indent\>\<WRAP indent\> \<WRAP round box group\> \<WRAP half
-column\>
+
 
   - **Without Parameter (Get)**
       - In ASCII: (Connection Status) `SC00\r\n`
       - In ASCII: (DTR / DSR) `SC11\r\n`
 
-\</WRAP\> \<WRAP half column\>
+
 
   - **With Parameter (Set)**
       - No response
       - 상태 I/O의 동작 모드 변경
 
-\</WRAP\> \</WRAP\> \</WRAP\> \</WRAP\>
+
 
 -----
 
@@ -2333,7 +2295,7 @@ column\>
   - **Parameter / Return Type:** Number (0/1)
   - **Parameter / Return Value:**
 
-\<WRAP indent\>\<WRAP indent\>
+
 
   - **PHY link status 핀으로 동작하는 경우**
 
@@ -2351,17 +2313,16 @@ column\>
 | 0            | 통신 불가              | \-      |
 | 1            | 해당 장비의 통신 준비가 완료 됨 | \-      |
 
-\</WRAP\> \</WRAP\>
+
 
   - **Response**
 
-\<WRAP indent\>\<WRAP indent\> \<WRAP round box group\> \<WRAP half
-column\>
+
 
   - **Without Parameter (Get)**
       - In ASCII: `S00\r\n`
 
-\</WRAP\> \<WRAP half column\> \</WRAP\> \</WRAP\> \</WRAP\> \</WRAP\>
+
 
 -----
 
@@ -2375,7 +2336,7 @@ column\>
   - **Parameter / Return Type:** Number (0/1)
   - **Parameter / Return Value:**
 
-\<WRAP indent\>\<WRAP indent\>
+
 
   - **TCP connection status 핀으로 동작하는 경우**
       - TCP server / client / mixed mode only 
@@ -2394,17 +2355,16 @@ column\>
 | 0            | 통신 불가              | \-      |
 | 1            | 상대 장비의 통신 준비가 완료 됨 | \-      |
 
-\</WRAP\> \</WRAP\>
+
 
   - **Response**
 
-\<WRAP indent\>\<WRAP indent\> \<WRAP round box group\> \<WRAP half
-column\>
+
 
   - **Without Parameter (Get)**
       - In ASCII: `S10\r\n`
 
-\</WRAP\> \<WRAP half column\> \</WRAP\> \</WRAP\> \</WRAP\> \</WRAP\>
+
 
 -----
 
@@ -2417,17 +2377,17 @@ WIZ750SR series Common Documents
   - **[User's Manual (English)](User's_Manual-[EN].md)** 
   - **[User's Manual (Korean)](User's_Manual-[KO].md)** 
 
-<!-- end list -->
+
 
   - **[Device Command Manual (English)](Command_Manual-[EN].md)**
   - **[Device Command Manual (Korean)](Command_Manual-[KO].md)**
 
-<!-- end list -->
+
 
   - **[Troubleshooting Guide (English)](Trouble_Shooting-[EN].md)**
   - **[Troubleshooting Guide (Korean)](Trouble_Shooting-[KO].md)**
 
-<!-- end list -->
+
 
   - **[Update History (English)](Series_Update_History-[EN].md)**
   - **[Update History (Korean)](Series_Update_History-[KO].md)**
@@ -2438,7 +2398,7 @@ WIZ750SR series Common Documents
 
   - **[Software Download](Download.md)**
 
-<!-- end list -->
+
 
   - **[Technical References](Technical_References.md)**
 

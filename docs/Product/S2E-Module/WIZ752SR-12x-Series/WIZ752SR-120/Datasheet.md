@@ -11,7 +11,7 @@ date: 2020-04-13
 **Supported Languages**  
 * English only
 
-![](/products/wiz750sr/docs_icon.png)
+![](/img/products/wiz750sr/docs_icon.png)
 
 -----
 
@@ -113,7 +113,7 @@ Flow control: None, RTS / CTS, XON / XOFF</td>
 
 ### WIZ752SR-120 Callout
 
-![](/products/s2e_module/wiz752sr-120/wiz752sr-120_callout.png)
+![](/img/products/s2e_module/wiz752sr-120/wiz752sr-120_callout.png)
 
 -----
 

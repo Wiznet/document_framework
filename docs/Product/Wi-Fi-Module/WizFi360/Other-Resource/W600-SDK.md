@@ -21,12 +21,12 @@ Protocol and other public function modules.
   - Official SDK
       - [Contact Us](/wizfi@wiznet.io)
 
-<!-- end list -->
+
 
   - Official SDK from chip vendor
       - Download link - [W600 Chip SDK (wm\_sdk\_w60x\_g3.02.00\_190729.zip)](/img/products/wizfi360/board/wizfi360sdk/wm_sdk_w60x_g3.02.00_190729.zip)
 
-<!-- end list -->
+
 
   - KEIL Flash Driver
       - Download link - [W600 Flash Driver (W60X\_QFLASH\_Driver\_for\_SWD.zip)](/img/products/wizfi360/board/wizfi360sdk/w60x_qflash_driver_for_swd.zip)
@@ -47,7 +47,7 @@ Protocol and other public function modules.
       - [AT Command V1.0.3](/img/products/wizfi360/board/wizfi360sdk/wm_w60x_sdk_at_command_v1.0.3.pdf)
         : Describes the WM's AT instruction communication protocol.
 
-<!-- end list -->
+
 
   - Advanced
       - [Firmware Generation Guide V1.2](/img/products/wizfi360/board/wizfi360sdk/wm_w60x_firmware_generation_guide_v1.2.pdf)

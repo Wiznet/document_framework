@@ -4,12 +4,6 @@ title: CLI Config Tool Tutorial
 date: 2020-04-09
 ---
 
-## Content
-
-# CLI Configuration Tool Tutorial
-
------
-
 ## Overview
 
 **This is Configuration & Test Tool for WIZnet S2E devices.**  
@@ -23,11 +17,11 @@ github page](https://github.com/Wiznet/WIZnet-S2E-Tool).
 
 Please refer to the following pages for detailed usage.
 
-  - [1. Overview & Environment](Overview_&_Environment.md)
-  - [2. How to use CLI Config Tool](How_to_use_CLI_Config_Tool.md)
-  - [3. Single device configuration](Single_device_configuration.md)
-  - [4. Multi devices configuration](Multi_device_configuration.md)
-  - [5. Using File Options](File_Options.md)
+  - [1. Overview & Environment](overview_environment)
+  - [2. How to use CLI Config Tool](how_to_use_cli_config_tool)
+  - [3. Single device configuration](single_device_configuration)
+  - [4. Multi devices configuration](multi_device_configuration)
+  - [5. Using File Options](file_options)
 
 -----
 
@@ -37,33 +31,25 @@ Please refer to the following pages for detailed usage.
 
 **WIZ750SR series** 
 
-  - **[User's Manual (English)](../User's_Manual-[EN].md)** 
-  - **[User's Manual (Korean)](User's_Manual-[KO].md)** 
+  - **[User's Manual (English)](../users_manual-[EN])** 
+  - **[User's Manual (Korean)](../users_manual-[KO])**
 
-<!-- end list -->
+  - **[Device Command Manual (English)](../Command_Manual-[EN])**
+  - **[Device Command Manual (Korean)](../Command_Manual-[KO])**
 
-  - **[Device Command Manual (English)](../Command_Manual-[EN].md)**
-  - **[Device Command Manual (Korean)](../Command_Manual-[KO].md)**
+  - **[Troubleshooting Guide (English)](../rouble_Shooting-[EN])**
+  - **[Troubleshooting Guide (Korean)](../Trouble_Shooting-[KO])**
 
-<!-- end list -->
-
-  - **[Troubleshooting Guide (English)](../rouble_Shooting-[EN].md)**
-  - **[Troubleshooting Guide (Korean)](../Trouble_Shooting-[KO].md)**
-
-<!-- end list -->
-
-  - **[Update History (English)](../Series_Update_History-[EN].md)**
-  - **[Update History (Korean)](../Series_Update_History-[KO].md)**
+  - **[Update History (English)](../Series_Update_History-[EN])**
+  - **[Update History (Korean)](../Series_Update_History-[KO])**
 
 -----
 
 **WIZ750SR series Downloads** 
 
-  - **[Software Download](../Download.md)**
+  - **[Software Download](../Download)**
 
-<!-- end list -->
-
-  - **[Technical References](../Technical_References.md)**
+  - **[Technical References](../Technical_References)**
 
 -----
 

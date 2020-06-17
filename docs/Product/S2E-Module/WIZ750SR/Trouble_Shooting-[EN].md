@@ -4,13 +4,9 @@ title: Trouble Shooting-[EN]
 date: 2020-04-08
 ---
 
-## Content
-
-# WIZ750SR Troubleshooting Guide
-
-\*\* Supported Languages \*\*  
-\* [English](/products/wiz750sr/troubleshooting/en) (current page)  
-\* [Korean](/products/wiz750sr/troubleshooting/ko)
+**Supported Languages**  
+\* [English](trouble_shooting-[EN]) (current page)  
+\* [Korean](trouble_shooting-[KO])
 
 -----
 
@@ -23,24 +19,21 @@ date: 2020-04-08
 | Problems with the Configuration Tool |
 | ------------------------------------ |
 
-\++++ Where can I find the Configuration tool for WIZ750SR? |
+<details>
+<summary>Where can I find the Configuration tool for WIZ750SR?</summary>
 
-  - WIZ750SR is a product designed to be compatible with WIZ107/108SR.
-    Thus there is not a separate Configuration tool exclusively for
-    WIZ750SR and users should use the WIZ107/107SR Configuration tool.
+- WIZ750SR is a product designed to be compatible with WIZ107/108SR.
+  Thus there is not a separate Configuration tool exclusively for
+  WIZ750SR and users should use the WIZ107/107SR Configuration tool.
 
-<!-- end list -->
+- The latest version Configuration tool can be downloaded at this [download page](download).
 
-  - The latest version Configuration tool can be downloaded at this
-    [download page](/products/wiz750sr/download/start).
+</details>
 
-\++++
-
-\++++ The product cannot be searched. |
+<details>
+ <summary>The product cannot be searched.</summary>
 
   - Check the power and Ethernet cable’s connection first.
-
-<!-- end list -->
 
   - Check if the ping request from PC to module is successful.
       - When using Windows
@@ -50,30 +43,26 @@ date: 2020-04-08
 
 |                                                         |
 | ------------------------------------------------------- |
-| ![](/products/wiz750sr/troubleshooting/windows_cmd.png) |
+| ![](/img/products/wiz750sr/troubleshooting/windows_cmd.png) |
 | Entering 'cmd' command on Windows Run                   |
 
 |                                                            |
 | ---------------------------------------------------------- |
-| ![](/products/wiz750sr/troubleshooting/ping_success_0.png) |
+| ![](/img/products/wiz750sr/troubleshooting/ping_success_0.png) |
 | Ping request / reply success                               |
 
 |                                                           |
 | --------------------------------------------------------- |
-| ![](/products/wiz750sr/troubleshooting/ping_failed_0.png) |
+| ![](/img/products/wiz750sr/troubleshooting/ping_failed_0.png) |
 | Ping request / reply failed                               |
 
-  - Use \*\* UDP broadcast, port 50001\*\* in order to use the UDP
+  - Use **UDP broadcast, port 50001** in order to use the UDP
     Search from the configuration tool of WIZ750SR. Please test after
     closing the **OS firewall and virus programs**. 
-
-<!-- end list -->
 
   - If there is a problem with the UDP port, users can change the OS
     inbound / outbound port settings to open the Search & firmware
     update port (UDP/TCP 50001, TCP 50002).
-
-<!-- end list -->
 
   - If multiple network adaptors are used, an error can occur in sending
     the packet in the correct order of the network interface Metric.
@@ -83,9 +72,10 @@ date: 2020-04-08
         which is used for the networking of Virtual Machines like VMware
         or Virtual Box is used.
 
-\++++
+</details>
 
-\++++ The product setting changes are not applied. |
+<details>
+<summary>The product setting changes are not applied.</summary>
 
   - Click the ‘Setting’ icon from the Configuration tool after changing
     the product setting; then the product will restart and the changes
@@ -93,31 +83,26 @@ date: 2020-04-08
 
 |                                                       |
 | ----------------------------------------------------- |
-| ![](/products/wiz750sr/gettingstarted/configtool.png) |
+| ![](/img/products/wiz750sr/gettingstarted/configtool.png) |
 | WIZ107/108SR & **WIZ750SR** Configuration Tool        |
 
-\++++
+</details>
 
-\++++ How do I check the firmware version? |
+<details>
+<summary>How do I check the firmware version?</summary>
 
-1.  Click 'Search' and click the \[+\] MAC address to check the product
-    information
+1.  Click 'Search' and click the \[+\] MAC address to check the product information
 2.  Check the ‘Firmware version' 
 
-<!-- end list -->
+  - User can check the latest firmware version at the [product update history page](/products/wiz750sr/history/en) and [download page](/products/wiz750sr/download/start).
 
-  - User can check the latest firmware version at the [product update
-    history page](/products/wiz750sr/history/en) and [download
-    page](/products/wiz750sr/download/start).
+</details>
 
-\++++
-
-\++++ The firmware update is unsuccessful. |
+<details>
+<summary>The firmware update is unsuccessful.</summary>
 
   - WIZ750SR has an internal TCP server for firmware updates.
       - TCP port number: 50002
-
-<!-- end list -->
 
   - Check if the ping request from PC to module is successful.
       - When using Windows
@@ -127,17 +112,17 @@ date: 2020-04-08
 
 |                                                         |
 | ------------------------------------------------------- |
-| ![](/products/wiz750sr/troubleshooting/windows_cmd.png) |
+| ![](/img/products/wiz750sr/troubleshooting/windows_cmd.png) |
 | Entering 'cmd' command on Windows Run                   |
 
 |                                                            |
 | ---------------------------------------------------------- |
-| ![](/products/wiz750sr/troubleshooting/ping_success_0.png) |
+| ![](/img/products/wiz750sr/troubleshooting/ping_success_0.png) |
 | Ping request / reply success                               |
 
 |                                                           |
 | --------------------------------------------------------- |
-| ![](/products/wiz750sr/troubleshooting/ping_failed_0.png) |
+| ![](/img/products/wiz750sr/troubleshooting/ping_failed_0.png) |
 | Ping request / reply failed                               |
 
   - The IP WIZ750SR and IP of the PC running the configuration tool must
@@ -149,51 +134,40 @@ date: 2020-04-08
           - 예) PC IP address: 192.168.11.3 (Same Class C private IPv4
             address range, Different IP address)
 
-\++++
+</details>
 
 | Problems with the WIZ750SR Evaluation Board (EVB) |
 | ------------------------------------------------- |
 
-\++++ How do I connect the serial interface of WIZ750SR to PC for
-testing? |
+<details>
+<summary>How do I connect the serial interface of WIZ750SR to PC for testing?</summary>
 
-  - There are two versions of the WIZ750SR evaluation board, RS-232/TTL
-    & RS-422/485, and each is composed of a different serial interface
-    connector.
+- There are two versions of the WIZ750SR evaluation board, RS-232/TTL & RS-422/485, and each is composed of a different serial interface connector.
 
-<!-- end list -->
+- The **DB9 connector** is provided with the **RS-232/TTL version**; users can connect it to the serial port of the PC or use it with a RS-232 to USB convertor (available at Amazon).
 
-  - The **DB9 connector** is provided with the **RS-232/TTL version**;
-    users can connect it to the serial port of the PC or use it with a
-    RS-232 to USB convertor (available at Amazon).
+- The **terminal block interface** is provided with the **RS-422/485 version**; this is used to connect to the user’s serial device. If the user wishes to connect with the PC, an RS-422/485 to USB connector (available at Amazon) is needed.
 
-<!-- end list -->
-
-  - The **terminal block interface** is provided with the **RS-422/485
-    version**; this is used to connect to the user’s serial device. If
-    the user wishes to connect with the PC, an RS-422/485 to USB
-    connector (available at Amazon) is needed.
-
-\++++
+</details>
 
 -----
 
 ## Problems cannot be solved\!
 
-\++++ What is the next step if my problem is still not solved? |
+
+<details>
+<summary>What is the next step if my problem is still not solved?</summary>
 
   - Users can ask questions at the [WIZnet
     Forum](https://forum.wiznet.io/).
       - <https://forum.wiznet.io/>
-
-<!-- end list -->
 
   - All WIZnet products have a **warranty of 1 year from the purchase
     date**.
   - Contact the person you purchased the product from and request a
     **RMA**.
 
-\++++
+</details>
 
 -----
 ## Navigation
@@ -202,33 +176,25 @@ testing? |
 
  **WIZ750SR** 
 
-  - **[User's Manual (English)](User's_Manual-[EN].md)** 
-  - **[User's Manual (Korean)](User's_Manual-[KO].md)** 
+  - **[User's Manual (English)](users_manual-[EN])** 
+  - **[User's Manual (Korean)](users_manual-[KO])**
 
-<!-- end list -->
+  - **[Device Command Manual (English)](Command_Manual-[EN])**
+  - **[Device Command Manual (Korean)](Command_Manual-[KO])**
 
-  - **[Device Command Manual (English)](Command_Manual-[EN].md)**
-  - **[Device Command Manual (Korean)](Command_Manual-[KO].md)**
+  - **[Troubleshooting Guide (English)](Trouble_Shooting-[EN])**
+  - **[Troubleshooting Guide (Korean)](Trouble_Shooting-[KO])**
 
-<!-- end list -->
-
-  - **[Troubleshooting Guide (English)](Trouble_Shooting-[EN].md)**
-  - **[Troubleshooting Guide (Korean)](Trouble_Shooting-[KO].md)**
-
-<!-- end list -->
-
-  - **[Update History (English)](Series_Update_History-[EN].md)**
-  - **[Update History (Korean)](Series_Update_History-[KO].md)**
+  - **[Update History (English)](Series_Update_History-[EN])**
+  - **[Update History (Korean)](Series_Update_History-[KO])**
 
 -----
 
 **WIZ750SR series Downloads** 
 
-  - **[Software Download](Download.md)**
+  - **[Software Download](Download)**
 
-<!-- end list -->
-
-  - **[Technical References](Technical_References.md)**
+  - **[Technical References](Technical_References)**
 
 -----
 

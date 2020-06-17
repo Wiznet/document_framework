@@ -22,9 +22,9 @@ date: 2020-04-13
 (Older versions can be found in the [WIZ750SR Github
 repository](https://github.com/Wiznet/WIZ750SR/releases))
 
-\<WRAP center important 60% centeralign\> **For users prior to v1.2.0,
+**For users prior to v1.2.0,
 the device must be updated using all(boot+app) version firmware & WIZISP
-first.** \</WRAP\>
+first.**
 
 ![Boot
 Version](https://user-images.githubusercontent.com/9648281/70778776-62690000-1dc6-11ea-8cc0-d205659312ba.png)
@@ -37,14 +37,14 @@ Version](https://user-images.githubusercontent.com/9648281/70778776-62690000-1dc
 ![Boot
 compatibility](https://user-images.githubusercontent.com/9648281/70020315-94f94880-15cf-11ea-89cd-6bb3b2f1b7f1.png)
 
-\<WRAP center important 100% leftalign\>
+
 
 #### Please check the Boot code version before updating F/W with another one
 
 V1.2 Boot + V1.2.x App : Working  
 V1.2 Boot + V1.3.x App : Working  
 V1.3 Boot + V1.3.x App : Working  
-V1.3 Boot + V1.2.x App : **Not Working.** \</WRAP\>
+V1.3 Boot + V1.2.x App : **Not Working.**
 
 #### WIZ750SR
 
@@ -53,9 +53,9 @@ V1.3 Boot + V1.2.x App : **Not Working.** \</WRAP\>
   - WIZ750SR-485
   - **W7500P-S2E**
 
-\<WRAP group\>
 
-\<WRAP half column\> \<WRAP center download 80% centeralign\>
+
+
 
 ### Boot V1.2
 
@@ -67,8 +67,7 @@ v1.2.9](https://github.com/Wiznet/WIZ750SR/releases/download/v1.2.9/WIZ750SRv129
 ![All
 v1.2.9](https://github.com/Wiznet/WIZ750SR/releases/download/v1.2.9/WIZ750SRv129_incl_Boot.bin)
 
-\</WRAP\> \</WRAP\> \<WRAP half column\> \<WRAP center download 80%
-centeralign\>
+
 
 ### Boot V1.3
 
@@ -80,7 +79,7 @@ v1.3.3](https://github.com/Wiznet/WIZ750SR/releases/download/v1.3.3/WIZ750SRv133
 ![All
 v1.3.3](https://github.com/Wiznet/WIZ750SR/releases/download/v1.3.3/WIZ750SRv133_incl_Boot.bin)
 
-\</WRAP\> \</WRAP\>
+
 
 #### WIZ750SR-100 Series
 
@@ -89,9 +88,9 @@ v1.3.3](https://github.com/Wiznet/WIZ750SR/releases/download/v1.3.3/WIZ750SRv133
   - WIZ750SR-110
   - **W7500-S2E**
 
-\<WRAP group\>
 
-\<WRAP half column\> \<WRAP center download 80% centeralign\>
+
+
 
 ### Boot V1.2
 
@@ -102,8 +101,7 @@ v1.2.9](https://github.com/Wiznet/WIZ750SR/releases/download/v1.2.9/WIZ750SR-1xx
 **All(boot+app) Firmware Binary (WIZISP)**  
 ![All
 v1.2.9](https://github.com/Wiznet/WIZ750SR/releases/download/v1.2.9/WIZ750SR-1xxv129_incl_Boot.bin)
-\</WRAP\> \</WRAP\> \<WRAP half column\> \<WRAP center download 80%
-centeralign\>
+
 
 ### Boot V1.3
 
@@ -114,42 +112,42 @@ v1.3.3](https://github.com/Wiznet/WIZ750SR/releases/download/v1.3.3/WIZ750SR-1xx
 **All(boot+app) Firmware Binary (WIZISP)**  
 ![All
 v1.3.3](https://github.com/Wiznet/WIZ750SR/releases/download/v1.3.3/WIZ750SR-1xxv133_incl_Boot.bin)
-\</WRAP\> \</WRAP\>
+
 
 #### WIZ752SR Series
 
   - WIZ752SR-120
   - WIZ752SR-125
 
-\<WRAP center download 80% centeralign\> **Application Firmware Binary
+**Application Firmware Binary
 (ConfigTool)**  
 [Application v2.1.0](/products/wiz750sr/download/wiz752sr_app_v2.1.0.zip)
 
 **All(boot+app) Firmware Binary (WIZISP)**  
 [All v2.1.0](/products/wiz750sr/download/wiz752sr_all_v2.1.0.zip)
 
-\</WRAP\>
+
 
 ### Source code
 
 #### WIZ750SR Series Firmware source code link
 
-\<WRAP center download 60% centeralign\> **WIZ750SR Series GitHub
+**WIZ750SR Series GitHub
 Repository**  
-<https://github.com/Wiznet/WIZ750SR> \</WRAP\>
+<https://github.com/Wiznet/WIZ750SR>
 
-\<WRAP center info 80% centeralign\>
+
 
   - The above link is an integrated firmware project(MDK-ARM)'s
     repository of WIZ750SR and WIZ750SR-100 series.
 
-\</WRAP\>
+
 
 #### WIZ752SR Series Firmware source code link
 
-\<WRAP center download 60% centeralign\> **WIZ752SR Series GitHub
+**WIZ752SR Series GitHub
 Repository**  
-<https://github.com/Wiznet/WIZ752SR-12x> \</WRAP\>
+<https://github.com/Wiznet/WIZ752SR-12x>
 
 -----
 
@@ -158,30 +156,30 @@ Repository**
   - **[S2E Configuration Tool Manual
     (New)](/products/wiz750sr/guiconfigtoolmanual/start)**
 
-\<WRAP center centeralign\>
-![](/products/wiz750sr/download/wizconfig_main_v1.0.0.png) \</WRAP\>
 
-\<WRAP center download 60% centeralign\> **Download the latest version**
-<https://github.com/Wiznet/WIZnet-S2E-Tool-GUI/releases> \</WRAP\>
+![](/img/products/wiz750sr/download/wizconfig_main_v1.0.0.png)
 
-\<WRAP center download 60% centeralign\> **GitHub Repository**
-<https://github.com/Wiznet/WIZnet-S2E-Tool-GUI> \</WRAP\>
+**Download the latest version**
+<https://github.com/Wiznet/WIZnet-S2E-Tool-GUI/releases>
+
+**GitHub Repository**
+<https://github.com/Wiznet/WIZnet-S2E-Tool-GUI>
 
 -----
 
 ## W7500(P) ISP Tool
 
-\<WRAP center download 60% centeralign\>  
+ 
 [Go to ISP tool manual & Program
 download](/products/w7500/documents/appnote/isptool)  
-\</WRAP\>
+
 
 -----
 
 ## WIZ VSP
 
-\<WRAP center centeralign\>
-![](/products/wiz750sr/usermanual/wiz_vsp.jpg) \</WRAP\>
+
+![](/img/products/wiz750sr/usermanual/wiz_vsp.jpg)
 
   - WIZ VSP (WIZnet Virtual Serial COM port) is the software for those
     users who want to use the existing application programs based on
@@ -196,8 +194,8 @@ download](/products/w7500/documents/appnote/isptool)
     of the product in use and the Email address of the contact person
     are required.**
 
-\<WRAP centeralign\> **Go to WIZVSP end user license agreement page:**  
-**<http://wizvsp.wiznet.io>** \</WRAP\>
+**Go to WIZVSP end user license agreement page:**  
+**<http://wizvsp.wiznet.io>**
 
 -----
 
@@ -205,64 +203,64 @@ download](/products/w7500/documents/appnote/isptool)
 
 -----
 
-\<WRAP centeralign\>
-[![arrow\_upward.png](/etc/arrow_upward.png)](#WIZ750SR_Series_Downloads)  
-**Scroll to Top** \</WRAP\>
 
-\<WRAP group\> \<WRAP centeralign half column\>
+[![arrow\_upward.png](/etc/arrow_upward.png)](#WIZ750SR_Series_Downloads)  
+**Scroll to Top**
+
+
 [![arrow\_refresh.png](/etc/arrow_refresh.png)](/products/wiz750sr/start)  
 **Back to Product Main**  
-[WIZ750SR](/products/wiz750sr/start) \</WRAP\>
+[WIZ750SR](/products/wiz750sr/start)
 
-\<WRAP centeralign half column\>
+
 [![arrow\_refresh.png](/etc/arrow_refresh.png)](/products/wiz750sr-100/start)  
 **Back to Product Main**  
-[WIZ750SR-100](/products/wiz750sr-100/start) \</WRAP\>
+[WIZ750SR-100](/products/wiz750sr-100/start)
 
-\<WRAP group\> \<WRAP centeralign half column\>
+
 [![arrow\_refresh.png](/etc/arrow_refresh.png)](/products/wiz750sr-105/start)  
 **Back to Product Main**  
-[WIZ750SR-105](/products/wiz750sr-105/start) \</WRAP\>
+[WIZ750SR-105](/products/wiz750sr-105/start)
 
-\<WRAP centeralign half column\>
+
 [![arrow\_refresh.png](/etc/arrow_refresh.png)](/products/wiz750sr-110/start)  
 **Back to Product Main**  
-[WIZ750SR-110](/products/wiz750sr-110/start) \</WRAP\> \</WRAP\>
-\</WRAP\>
+[WIZ750SR-110](/products/wiz750sr-110/start)
+
 
 -----
 
-\<WRAP round box group\> \<WRAP half column\> \<WRAP centeralign\> \*\*
-WIZ750SR series Common Documents \*\* \</WRAP\>
+\*\*
+WIZ750SR series Common Documents \*\*
 
   - **[User's Manual](/products/wiz750sr/usermanual/en)** 
 
-<!-- end list -->
+
 
   - **[Device Command Manual](/products/wiz750sr/commandmanual/en)**
 
-<!-- end list -->
 
-  - **[Troubleshooting Guide](/products/wiz750sr/troubleshooting/en)**
 
-<!-- end list -->
+  - **[Troubleshooting Guide](trouble_shooting-[EN])**
+
+
 
   - **[Update History](/products/wiz750sr/history/en)**
 
 -----
 
-\<WRAP centeralign\> \*\* WIZ750SR series Downloads \*\* \</WRAP\>
+\*\* WIZ750SR series Downloads \*\*
 
   - **[Software Downloads](/products/wiz750sr/download/start)**
 
-<!-- end list -->
+
 
   - **[Technical Reference](/products/wiz750sr/reference/start)**
 
-\</WRAP\>
 
-\<WRAP half column\> \<WRAP centeralign\> \*\* WIZ750SR Individual
-documents \*\* \</WRAP\>
+
+ \*\* WIZ750SR Individual
+documents \*\*
 
   - **[WIZ750SR Product Overview](/products/wiz750sr/overview/en)**
   - **[WIZ750SR Getting Started
@@ -271,8 +269,8 @@ documents \*\* \</WRAP\>
 
 -----
 
-\<WRAP centeralign\> \*\* WIZ750SR-100 Individual documents \*\*
-\</WRAP\>
+\*\* WIZ750SR-100 Individual documents \*\*
+
 
   - **[WIZ750SR-100 Product
     Overview](/products/wiz750sr-100/overview/en)**
@@ -282,8 +280,8 @@ documents \*\* \</WRAP\>
 
 -----
 
-\<WRAP centeralign\> \*\* WIZ750SR-105 Individual documents \*\*
-\</WRAP\>
+\*\* WIZ750SR-105 Individual documents \*\*
+
 
   - **[WIZ750SR-105 Product
     Overview](/products/wiz750sr-105/overview/en)**
@@ -293,8 +291,8 @@ documents \*\* \</WRAP\>
 
 -----
 
-\<WRAP centeralign\> \*\* WIZ750SR-110 Individual documents \*\*
-\</WRAP\>
+\*\* WIZ750SR-110 Individual documents \*\*
+
 
   - **[WIZ750SR-110 Product
     Overview](/products/wiz750sr-110/overview/en)**
@@ -302,4 +300,4 @@ documents \*\* \</WRAP\>
     Guide](/products/wiz750sr-110/gettingstarted/en)**
   - **[WIZ750SR-110 Datasheet](/products/wiz750sr-110/datasheet/start)**
 
-\</WRAP\> \</WRAP\>
+

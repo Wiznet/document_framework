@@ -56,7 +56,7 @@ value of the module will be displayed. Modify your configurations and
 click “Setting” button to apply your settings. The module will
 re-initialize and save the changed configurations.  
 Users can change the configurations by the following steps.  
-![](/products/wiz550s2e/wiz550s2epg_kr/configtool/password.png)
+![](/img/products/wiz550s2e/wiz550s2epg_kr/configtool/password.png)
 
     1. Select the MAC address of the device which you would like to modify in the
        “Search Window”
@@ -210,7 +210,7 @@ The Data transmission proceeds as below.
 2.  As the connection is established, data can be transmitted in both
     directions 
 
-<!-- end list -->
+
 
 ``` 
    (host -> WIZ550S2E / WIZ550S2E -> host)
@@ -232,7 +232,7 @@ The Data transmission proceeds as below:
 2.  If the connection is complete, data can be transmitted in both
     directions
 
-<!-- end list -->
+
 
 ``` 
    (host -> WIZ550S2E / WIZ550S2E -> host)

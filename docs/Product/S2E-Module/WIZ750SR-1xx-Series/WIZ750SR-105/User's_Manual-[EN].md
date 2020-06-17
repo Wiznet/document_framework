@@ -12,7 +12,7 @@ date: 2020-04-09
 * [English](User's_Manual-[EN].md) (current page)  
 * [Korean](User's_Manual-[KO].md)
 
-![](/products/wiz750sr/docs_icon.png)
+![](/img/products/wiz750sr/docs_icon.png)
 
 -----
 
@@ -49,10 +49,10 @@ DNS server address.
         not an IP address.
       - Please refer to the example at [Getting Started Guide: WIZ750SR
         Factory
-        Settings](/products/wiz750sr/gettingstarted/en#wiz750sr_factory_settings)
+        Settings](getting_started-[EN]#wiz750sr-factory-settings)
         for assigning a private IP address.
 
-<!-- end list -->
+
 
   - **Automatic IP allocation (DHCP)**
       - This method will automatically assign the IP address integrated
@@ -72,7 +72,7 @@ DNS server address.
             forwarding](https://en.wikipedia.org/wiki/Port_forwarding)
             for access of external network.
 
-<!-- end list -->
+
 
 1.  Static / DHCP
 
@@ -89,12 +89,12 @@ DNS server address.
     communication with external network and the internal IP address for
     internal network via router
     
-    \<WRAP round info center centeralign 60%\>
+    
 
 Default IP address of WIZ750SR  
 **Static IP allocation / 192.168.11.2**
 
-\</WRAP\>
+
 
 ### Port Number Settings
 
@@ -110,12 +110,12 @@ The range of port numbers are 0 \~ 65535.
       - ex) \[HTTP (web server)\] TCP 80, \[DNS\] TCP/UDP 53, \[DHCP\]
         UDP 67 and Etc.
 
-<!-- end list -->
+
 
   - **1024 \~ 49151**: Registered port
       - Numbers that are assigned to vendor’s applications
 
-<!-- end list -->
+
 
   - **49152 \~ 65535**: Dynamic port
 
@@ -124,9 +124,9 @@ smooth network communication. Registered port numbers are recommended
 for the user’s application or dynamic port numbers are recommended for
 temporary usage.
 
-\<WRAP round info center centeralign 60%\> Default Port number of
+ Default Port number of
 WIZ750SR  
-**5000** \</WRAP\>
+**5000**
 
 ### Remote Host Settings
 
@@ -142,12 +142,12 @@ operate a TCP connection with the destination.
 
 Registered port numbers are recommended for the user’s application.
 
-\<WRAP round info center centeralign 60%\>
+
 
 Default Remote host settings of WIZ750SR  
 **192.168.11.3 : 5000**
 
-\</WRAP\>
+
 
 -----
 
@@ -174,14 +174,14 @@ explained in detail below.
 
 The module operates as below in TCP server mode.
 
-\<WRAP round box center 100%\>
+
 
 1.  **Waits for the connection request from TCP client (listen)**
 2.  **Connects with TCP client once connection request is accepted (TCP
     connection established)**
 3.  **Data communication**
 
-\</WRAP\>
+
 
 There is an optional feature in TCP server mode.
 
@@ -197,14 +197,14 @@ There is an optional feature in TCP server mode.
 
 The module operates as below in TCP client mode.
 
-\<WRAP round box center 100%\>
+
 
 1.  **Attempts TCP connection to the designated TCP server host (TCP
     connect)** 
 2.  **Data communication is possible after TCP connection is
     established**
 
-\</WRAP\>
+
 
   - Information of the designated host is needed during this mode and
     host must be operating as TCP server.
@@ -222,7 +222,7 @@ There is an optional feature in TCP client mode.
 
 TCP server/client mixed mode operates as both the TCP server and client.
 
-\<WRAP round box center 100%\>
+
 
 1.  **Operates as TCP server when power is on (listen)**
 2.  **When there are no attempts of connection from the TCP client, the
@@ -231,7 +231,7 @@ TCP server/client mixed mode operates as both the TCP server and client.
 3.  **After connection is completed, module will switch back to TCP
     server mode. (disconnect & listen)**
 
-\</WRAP\>
+
 
 We recommend the following option during TCP server/client mixed mode.
 
@@ -257,7 +257,7 @@ only in applications where the data is sent from peer.
       - Module will communicate with the specified remote host address
         (domain name) and port number.
 
-<!-- end list -->
+
 
   - **1:N UDP Mode**
       - Module will communicate with the host that initiated data
@@ -267,13 +267,13 @@ only in applications where the data is sent from peer.
       - This mode is recommended for applications where the serial
         device receives data from multiple hosts.
 
-\<WRAP round info center centeralign 60%\>
+
 
 **1:N UDP Mode Setting**  
 *Set the remote host IP address to 0.0.0.0*  
 (The remote host port number must be set )
 
-\</WRAP\>
+
 
 -----
 
@@ -383,7 +383,7 @@ Flow control disabled</td>
     serial command mode.
   - Each byte value reads hex code only.
 
-\<WRAP round tip center 90%\>
+
 
 **Please take caution of the following when using Trigger code.**
 
@@ -398,7 +398,7 @@ Flow control disabled</td>
     mode switch code is 500ms. The operation is based on the timer value
     of the serial data packaging option.
 
-\</WRAP\>
+
 
 1.  The serial command after switching modes must end with CR and LF.
 
@@ -408,9 +408,9 @@ Flow control disabled</td>
     using this option, user command frame or all other data can be
     collected and sent together.
 
-\<WRAP round tip center centeralign 90%\> Data packing options can be
+Data packing options can be
 multi-selected but has priority as shown below.  
-**Character =\> Size =\> Timer** \</WRAP\>
+**Character =\> Size =\> Timer**
 
   - **Timer**
       - Range: 0 \~ 65535 / Unit: milliseconds (ms)
@@ -418,7 +418,7 @@ multi-selected but has priority as shown below.
       - Collects the data until the designated time is lapsed and sent
         together.Will not operate if set to '0'.
 
-<!-- end list -->
+
 
   - **Size**
       - Range: 0 \~ 255 / Unit: data length (number of bytes)
@@ -427,7 +427,7 @@ multi-selected but has priority as shown below.
         and sent together.
       - Will not operate if set to '0'.
 
-<!-- end list -->
+
 
   - **Character**
       - Range & Unit: 1-byte character (Hex code)
@@ -471,7 +471,7 @@ multi-selected but has priority as shown below.
 <table>
 <tbody>
 <tr class="odd">
-<td><img src="/products/wiz750sr/usermanual/configtool_udp_search.png" class="align-center" width="300" /></td>
+<td><img src="/img/products/wiz750sr/usermanual/configtool_udp_search.png" class="align-center" width="300" /></td>
 </tr>
 <tr class="even">
 <td>Figure: <strong>Search ID code</strong><br />
@@ -490,7 +490,7 @@ multi-selected but has priority as shown below.
     connecting to WIZ750SR in order for data communication.
   - TCP connection will be disconnected if the password does not match
 
-<!-- end list -->
+
 
 1.  Serial data can be collected according to the setting (character,
     size, or time) and be sent together.
@@ -509,7 +509,7 @@ multi-selected but has priority as shown below.
       - The ‘keep-alive’ packet is sent after the Ethernet packet is
         sent at least once from WIZ750SR.
 
-<!-- end list -->
+
 
   - **Send Keep-Alive Interval**
       - **Range: 0 \~ 65535, Unit: milliseconds(ms)**
@@ -519,7 +519,7 @@ multi-selected but has priority as shown below.
           - The time until the first ‘keep-alive’ packet is sent
           - The time interval between each ‘keep-alive’ packets
 
-<!-- end list -->
+
 
   - This option is recommended in case of a physical disconnection with
     the remote device.
@@ -541,9 +541,9 @@ For more information, please refer to above document links.
 
 -----
 
-\<WRAP center round tip 80% centeralign\> **If there is any problem?**  
+**If there is any problem?**  
 Please refer to our **[Troubleshooting
-Guide](/products/wiz750sr/troubleshooting/en)**\! \</WRAP\>
+Guide](trouble_shooting-[EN])**\!
 
 -----
 
@@ -556,59 +556,59 @@ Guide](/products/wiz750sr/troubleshooting/en)**\! \</WRAP\>
 
 -----
 
-\<WRAP group\> \<WRAP centeralign third column\>
+
 [![arrow\_back.png](/etc/arrow_back.png)](/products/wiz750sr/gettingstarted/en)  
 **Prev Page**  
 [WIZ750SR Getting Started Guide](/products/wiz750sr/gettingstarted/en)
-\</WRAP\>
 
-\<WRAP centeralign third column\>
+
+
 [![arrow\_upward.png](/etc/arrow_upward.png)](#wiz750sr_user_s_manual)  
-**Scroll to Top** \</WRAP\>
+**Scroll to Top**
 
-\<WRAP centeralign third column\>
+
 [![arrow\_forward.png](/etc/arrow_forward.png)](/products/wiz750sr/commandmanual/en)  
 **Next Page**  
-[Device Command Manual](/products/wiz750sr/commandmanual/en) \</WRAP\>
-\</WRAP\>
+[Device Command Manual](/products/wiz750sr/commandmanual/en)
 
-\<WRAP centeralign\>
+
+
 [![arrow\_refresh.png](/etc/arrow_refresh.png)](/products/wiz750sr/start)  
 **Back to Product Main**  
-[WIZ750SR](/products/wiz750sr/start) \</WRAP\>
+[WIZ750SR](/products/wiz750sr/start)
 
-\<WRAP group\> \<WRAP centeralign half column\>
+
 [![arrow\_back.png](/etc/arrow_back.png)](/products/wiz750sr-100/gettingstarted/en)  
 **Prev Page**  
 [WIZ750SR-100 Getting Started
-Guide](/products/wiz750sr-100/gettingstarted/en) \</WRAP\>
+Guide](/products/wiz750sr-100/gettingstarted/en)
 
-\<WRAP centeralign half column\>
+
 [![arrow\_refresh.png](/etc/arrow_refresh.png)](/products/wiz750sr-100/start)  
 **Back to Product Main**  
-[WIZ750SR-100](/products/wiz750sr-100/start) \</WRAP\> \</WRAP\>
+[WIZ750SR-100](/products/wiz750sr-100/start)
 
-\<WRAP group\> \<WRAP centeralign half column\>
+
 [![arrow\_back.png](/etc/arrow_back.png)](/products/wiz750sr-105/gettingstarted/en)  
 **Prev Page**  
 [WIZ750SR-105 Getting Started
-Guide](/products/wiz750sr-105/gettingstarted/en) \</WRAP\>
+Guide](/products/wiz750sr-105/gettingstarted/en)
 
-\<WRAP centeralign half column\>
+
 [![arrow\_refresh.png](/etc/arrow_refresh.png)](/products/wiz750sr-105/start)  
 **Back to Product Main**  
-[WIZ750SR-105](/products/wiz750sr-105/start) \</WRAP\> \</WRAP\>
+[WIZ750SR-105](/products/wiz750sr-105/start)
 
-\<WRAP group\> \<WRAP centeralign half column\>
+
 [![arrow\_back.png](/etc/arrow_back.png)](/products/wiz750sr-110/gettingstarted/en)  
 **Prev Page**  
 [WIZ750SR-110 Getting Started
-Guide](/products/wiz750sr-110/gettingstarted/en) \</WRAP\>
+Guide](/products/wiz750sr-110/gettingstarted/en)
 
-\<WRAP centeralign half column\>
+
 [![arrow\_refresh.png](/etc/arrow_refresh.png)](/products/wiz750sr-110/start)  
 **Back to Product Main**  
-[WIZ750SR-110](/products/wiz750sr-110/start) \</WRAP\> \</WRAP\>
+[WIZ750SR-110](/products/wiz750sr-110/start)
 
 -----
 WIZ750SR series Common Documents 
@@ -616,17 +616,17 @@ WIZ750SR series Common Documents
   - **[User's Manual (English)](User's_Manual-[EN].md)** 
   - **[User's Manual (Korean)](User's_Manual-[KO].md)** 
 
-<!-- end list -->
+
 
   - **[Device Command Manual (English)](Command_Manual-[EN].md)**
   - **[Device Command Manual (Korean)](Command_Manual-[KO].md)**
 
-<!-- end list -->
+
 
   - **[Troubleshooting Guide (English)](Trouble_Shooting-[EN].md)**
   - **[Troubleshooting Guide (Korean)](Trouble_Shooting-[KO].md)**
 
-<!-- end list -->
+
 
   - **[Update History (English)](Series_Update_History-[EN].md)**
   - **[Update History (Korean)](Series_Update_History-[KO].md)**
@@ -637,7 +637,7 @@ WIZ750SR series Common Documents
 
   - **[Software Download](Download.md)**
 
-<!-- end list -->
+
 
   - **[Technical References](Technical_References.md)**
 

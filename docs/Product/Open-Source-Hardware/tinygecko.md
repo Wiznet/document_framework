@@ -33,7 +33,7 @@ core. We use EMF32TG840F32 in EFM32TG family. Its SPEC is as follows.
   - [WIZ550io](/products/wiz550io/start) or [ioShileds](/ioshield)
   - Tiny Gecko Starter Kit
 
-<!-- end list -->
+
 
   - [IAR Embedded Workbench for ARM](http://www.iar.com/)
   - [Simplicity
@@ -42,7 +42,7 @@ core. We use EMF32TG840F32 in EFM32TG family. Its SPEC is as follows.
       - Application notes & example
       - Documents
 
-<!-- end list -->
+
 
   - [Download the latest ioLibrary BSD](/products/w5500/driver)
       - Ethernet
@@ -77,7 +77,7 @@ core. We use EMF32TG840F32 in EFM32TG family. Its SPEC is as follows.
 
   - Project's ioLibrary is **empty**
 
-<!-- end list -->
+
 
   - Install ioLibrary
       - Copy the previous downloaded ioLibrary\_bsd \[Ethernet\] into

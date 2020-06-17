@@ -12,7 +12,7 @@ date: 2020-04-09
  * [English](Developer's_Guide-[EN].md)  
  * [Korean](Developer's_Guide-[KO].md) (current page)
 
-![](/products/wiz750sr/docs_icon.png)
+![](/img/products/wiz750sr/docs_icon.png)
 
 -----
 
@@ -30,13 +30,13 @@ date: 2020-04-09
       - 대표적인 Cortex-M 시리즈 개발 환경인 Arm KEIL uvision 5 개발 환경 구축 방법에 대해
         소개합니다.
 
-\<WRAP center round info 90% centeralign\> **StablE Contest 참가자를 위한 KEIL
+**StablE Contest 참가자를 위한 KEIL
 라이선스 제공 안내**  
 \* WIZnet에서는 Hackster.io에서 개최되는 [Serial to Ethernet,
 StablE](https://www.hackster.io/contests/wiznet) 컨테스트(2018 3/16 \~ 6/30)
 참가자 중, 신청자를 대상으로 Arm에서 제공하는 Time-limited KEIL 라이선스를 발급해 드릴 예정입니다.  
 \* 라이선스 신청 방법은 2018년 4월 중에 [CONTEST
-BRIEF](https://www.hackster.io/contests/wiznet)에 안내됩니다. \</WRAP\>
+BRIEF](https://www.hackster.io/contests/wiznet)에 안내됩니다.
 
 ### Eclipse IDE with GNU Arm toolchain
 
@@ -97,8 +97,8 @@ ISP(In-System Programming) 동작을 수행할 수 있습니다.
 
 -----
 
-\<WRAP center round tip 80% centeralign\> **동작에 문제가 있나요?**  
-**[Troubleshooting 가이드](/products/wiz750sr/troubleshooting/ko)** 문서를 참고해
-보세요\! \</WRAP\>
+**동작에 문제가 있나요?**  
+**[Troubleshooting 가이드](trouble_shooting-[KO])** 문서를 참고해
+보세요\!
 
 -----

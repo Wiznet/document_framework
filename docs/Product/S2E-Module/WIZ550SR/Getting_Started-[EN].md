@@ -1,12 +1,8 @@
 ---
-id: gtting_started-[EN]
-title: Getting Started-[EN]
+id: getting_started-[EN]
+title: Getting Started [EN]
 date: 2020-04-16
 ---
-
-## Content
-
-# Getting Started with WIZ550SR
 
 **This document was created based on usage using WIZ550SR-EVB.**
 
@@ -14,8 +10,7 @@ date: 2020-04-16
 
 ## Unpacking the WIZ550SR EVB
 
-![WIZ550SR-EVB
-Package](h/img/products/wiz550sr/gettingstarted/wiz550sr_evb.jpg)  
+![WIZ550SR-EVB Package](/img/products/wiz550sr/gettingstarted/wiz550sr_evb.jpg)  
 WIZ550SR-EVB package is made up of the following components.
 
   - WIZ550SR - 1EA
@@ -32,10 +27,8 @@ Make sure that the WIZ550SR are assembled as shown above.
 
 ### Software
 
-  - Virtual COM Port USB Driver.([Download
-    page](/products/wiz550sr/wiz550sr_download#download_wiz550sr_evb_usb_driver))
-  - WIZnet Configuration Tool.([Download
-    page](/products/wiz550sr/wiz550sr_download#download_configuration_tool))
+  - Virtual COM Port USB Driver. ([Download page](download#download-wiz550sr-evb-usb-driver))
+  - WIZnet Configuration Tool. ([Download page](download#download-configuration-tool))
   - TCP server / TCP client / UDP terminal program.
   - Serial Terminal Program.
 
@@ -142,7 +135,7 @@ same Ethernet network.
   - User should to matching the network settings of 'WIZ550SR's remote
     host' and 'PC (or laptop)' for testing TCP mode.
 
-<!-- end list -->
+
 
   - If the DHCP(automatic IP allocation) is used, both the WIZ550SR and
     test PC must be set to be assigned the same IP from the same router.
@@ -156,13 +149,11 @@ Your PC should be installed USB Driver for use to WIZ550SR-EVB.
   - WIZ550SR-EVB connects to a PC using a USB B Type Cable.
   - Connect the RJ-45 connector of WIZ550SR-EVB and an RJ-45 connector
     of the PC using an Ethernet cable.
-  - Once the connected should be installed the USB Driver.([Download
-    page](/products/wiz550sr/wiz550sr_download#download_wiz550sr_evb_usb_driver))
+  - Once the connected should be installed the USB Driver.([Download page](download#download-wiz550sr-evb-usb-driver))
   - By running the Device Manager, check that the created two USB Serial
     Port.
 
-![Device
-Manager](/img/products/wiz550sr/gettingstarted/device_manager2.png)
+![Device Manager](/img/products/wiz550sr/gettingstarted/device_manager2.png)
 
   - Control Panel \> System \> Device Manager
   - During the two USB Serial Port, Lower number port is data UART,

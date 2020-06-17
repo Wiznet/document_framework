@@ -1,18 +1,12 @@
 ---
 id: overview-[KO]
-title: Overview-[KO]
+title: Product Overview [KO]
 date: 2020-04-24
 ---
 
-## Content
-
-# WIZ550SR Product Overview
-
------
-
 ## Overview
 
-![WIZ550SR Overview](/products/wiz550sr/wiz550sr_overview.png%20%20)
+![WIZ550SR Overview](/img/products/wiz550sr/wiz550sr_overview.png)
 WIZ550SR은 WIZnet의 TCP/IP Chip인 **W5500**과 Cortex-M3 기반으로 STmicro의
 **STM32F103RCT6** MCU가 탑재된 Serial to Ethernet 모듈 제품입니다. 이 제품은 RJ45를 포함하고
 있지 않아 매우 작은 사이즈의 형태를 하고 있고, 사용자의 Interface 는 2.00mm Pitch Pin header 를
