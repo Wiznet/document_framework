@@ -12,7 +12,7 @@ date: 2020-04-16
 
   - **Full Binary (Boot + App), Uesing the Flash Loader Demonstrator**
 
- **Full Binary (App Boot + App)**  
+  - **Full Binary (App Boot + App)**  
 [Download (Boot + App)](/img/products/wiz550sr/wiz550sr_download/wiz550sr_160531.zip)  
 
   - **App Binary (App), Uesing the WIZnet Configuration Tool**
@@ -75,13 +75,9 @@ WIZ550SR used a MCU for STmicro.
 Therefore, Write firmware must use the program provided by STmicro.
 
 
-**STM32 Flash loader
-demonstrator**  
+**STM32 Flash loader demonstrator**  
   
-[Flash Loader
-Demonstrator](http://www.st.com/content/st_com/en/products/development-tools/software-development-tools/stm32-software-development-tools/stm32-programmers/flasher-stm32.html)
-
-
+[Flash Loader Demonstrator](http://www.st.com/content/st_com/en/products/development-tools/software-development-tools/stm32-software-development-tools/stm32-programmers/flasher-stm32.html)
 
 -----
 
@@ -104,8 +100,6 @@ Demonstrator](http://www.st.com/content/st_com/en/products/development-tools/sof
 
 ## How to program WIZ550SR code flash memory
 
-
-
 #### 1\. WIZ550SR enter the ISP mode
 
 Press the 'Boot' push button switch on WIZ550SR EVB(or BOOT pin) until
@@ -113,13 +107,10 @@ turn on the board after reset or power supply
 
 #### 2\. Run the 'Flash Loader Demonstrator' Program
 
-Refer to [Flash Loader
-Demonstrator](http://www.st.com/web/en/catalog/tools/FM147/CL1794/SC961/SS1533/PF257525?s_searchtype=keyword)
+Refer to [Flash Loader Demonstrator](http://www.st.com/web/en/catalog/tools/FM147/CL1794/SC961/SS1533/PF257525?s_searchtype=keyword)
 
 #### 3\. Flash program and Run the new application firmware
 
 #### 4\. How to WIZ550web Firmware
-
-
 
 -----

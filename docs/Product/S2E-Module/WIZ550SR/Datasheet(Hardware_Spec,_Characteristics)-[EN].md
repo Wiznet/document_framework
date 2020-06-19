@@ -62,8 +62,9 @@ of hardware specification or exterior design.
 
 #### WIZ550SR Pin Out
 
-![WIZ550SR Pin Out](/products/wiz550sr/wiz550sr_ds/wiz550sr_pinmap.png%20)  
 ![WIZ550SR Pin Out](/img/products/wiz550sr/wiz550sr_ds/wiz550sr_pinmap.png)
+
+![WIZ550SR Pin Out](/img/products/wiz550sr/wiz550sr_ds/wiz550sr_pinout_2.png)
 
 #### WIZ550SR Pin Description
 
@@ -255,8 +256,7 @@ Hardware TRIG Input. Active Low</td>
 
 #### WIZ550SR Block Diagram
 
-![WIZ550SR Block
-Diagram](/img/products/wiz550sr/wiz550sr_ds/wiz550sr_block_diagram.png)
+![WIZ550SR Block Diagram](/img/products/wiz550sr/wiz550sr_ds/wiz550sr_block_diagram.png)
 
 -----
 
@@ -426,9 +426,11 @@ Source Current</td>
 ### WIZ550SR BOM
 
   - WIZ550SR V1.0 BOM: [Download](/img/products/wiz550sr/wiz550sr_ds/wiz550sr_bom_v100_160511.pdf)  
-  ### WIZ550SR EVB Schematic
+  
+### WIZ550SR EVB Schematic
+
   - WIZ550SR EVB V1.0 Schematic : [Download(Altium)](/img/products/wiz550sr/wiz550sr_ds/wiz550sr_evb_sch_v100.zip)  
-    * WIZ550SR EVB V1.0 Schematic : [Download(PDF)](/img/products/wiz550sr/wiz550sr_ds/wiz550sr_evb_sch_v100.pdf)  
+  * WIZ550SR EVB V1.0 Schematic : [Download(PDF)](/img/products/wiz550sr/wiz550sr_ds/wiz550sr_evb_sch_v100.pdf)  
 
 ### WIZ550SR EVB BOM
 
@@ -436,20 +438,11 @@ Source Current</td>
 
 -----
 
-
 ## Dimension
 
   - WIZ550SR V1.0 3D PDF : [Download](/img/products/wiz550sr/wiz550sr_ds/wiz550sr_v1.0_3d.pdf)  
     \* This PDF must be run using the 'Adobe Acrobat'.
 
-![WIZ550SR
-Dimension](/img/products/wiz550sr/wiz550sr_ds/wiz550sr_dimension.jpg)
-
------
-
-
-## See Also
-
-   * [WizWiki Forum](http://www.wizwiki.net/forum) : WIZnet Forum for Technical support and Project shared
+![WIZ550SR Dimension](/img/products/wiz550sr/wiz550sr_ds/wiz550sr_dimension.jpg)
 
 -----

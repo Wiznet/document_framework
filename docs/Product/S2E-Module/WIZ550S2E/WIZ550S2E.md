@@ -4,7 +4,6 @@ title: WIZ550S2E
 date: 2020-03-
 ---
 
-
 ## Content
 # WIZ550S2E
 
@@ -18,23 +17,23 @@ versa.
 
 ## Datasheet / Hardware information
 
-[한글](Datasheet(Kor).md)  
-[English](Datasheet(Eng).md)  
-[中文](Datasheet(Chn).md) 
+[한글](datasheet_kor)  
+[English](datasheet_eng)  
+[中文](datasheet_chn) 
 
 ## Programmer's Guide 
 
 [한글](Programmer_Guide(Kor).md)  
   * [AT Command](AT_Command(Kor).md)  
-  * [Configuration Tool](Configuration_Tool(Kor).md)
+  * [Configuration Tool](configuration_tool_kor)
 
 [English](Programmer_Guide(Eng).md)  
   * [AT Command](AT_Command(Eng).md)  
-  * [Configuration Tool](Configuration_Tool(Eng).md)  
+  * [Configuration Tool](configuration_tool_eng)  
 
 [中文](Programmer_Guide(Chn).md)  
   * [AT Command](AT_Command(Chn).md)  
-  * [Configuration Tool](Configuration_Tool(Chn).md)  
+  * [Configuration Tool](configuration_tool_chn)  
 
 ## Future Plan 
 
@@ -43,25 +42,20 @@ versa.
 
 ## Download 
 
-[Download](Download.md)  
+[Download](download)  
 
 ## Tutorial
 
-[한글](Tutorial(Kor).md)  
-[English](Tutorial(Eng).md)  
+[한글](tutorial_kor)  
+[English](tutorial_eng)  
 
 -----
 
 ## Where to Buy
 
-
-
-![WIZnet Online Shop](/products/w5500/buynow.png)  
-[![WIZnetUS Online Shop,
-USA](/products/w5500/w5500_evb/icons/dollar.png)](http://www.shopwiznet.com/)
-[![WIZnetEU Online Shop,
-Germany](/products/w5500/w5500_evb/icons/european-euro.png)](http://shop.wiznet.eu/)
-[![WIZnetKorea Online Shop,
-Korea](/products/w5500/w5500_evb/icons/won.png)](http://shop.wiznet.co.kr/)
+![WIZnet Online Shop](/img/products/w5500/buynow.png)  
+[![WIZnetUS Online Shop, USA](/img/products/w5500/w5500_evb/icons/dollar.png)](http://www.shopwiznet.com/)
+[![WIZnetEU Online Shop, Germany](/img/products/w5500/w5500_evb/icons/european-euro.png)](http://shop.wiznet.eu/)
+[![WIZnetKorea Online Shop, Korea](/img/products/w5500/w5500_evb/icons/won.png)](http://shop.wiznet.co.kr/)
 
 -----

@@ -256,11 +256,9 @@ CR(0x0D), LF(0x0A)로 끝나야한다.** 어떤 인자들은 필수항목이고 
 ### AT+NSET  
   
   
-\* **Format:** 
+- **Format:** 
 
-```
-AT+NSET=<DHCP>,<IP>,<SN>,<GW>
-```
+`AT+NSET=<DHCP>,<IP>,<SN>,<GW>`
 
 - **Meaning:** 네트워크 정보를 확인하거나 설정한다
 
@@ -277,9 +275,8 @@ AT+NSET=<DHCP>,<IP>,<SN>,<GW>
 
 - **Response:**
 
-```
-[S]
-```
+`[S]`
+
 - ***Example 1:***
 
 `AT+NSET\r\n`
@@ -300,127 +297,94 @@ AT+NSET=<DHCP>,<IP>,<SN>,<GW>
 
   - ***Example 2:***
   
-  *  `AT+NSET-2,192.168.11.110\r\n`
-*
+    `AT+NSET-2,192.168.11.110\r\n`
 
-  - ***Meaning:*** *현재 설정된 네트워크 정보중 두번째 인자인 IP 주소만 지정된 값으로 변경한다*
+  - **Meaning:** *현재 설정된 네트워크 정보중 두번째 인자인 IP 주소만 지정된 값으로 변경한다*
 
-**
 
   - ***Response:***
 
-* `[S]
-`*
+`[S]`
 
 -----
 
 ### AT+NSTAT  
   
   
-\* **Format:** 
+**Format:** 
 
-    AT+NSTAT
+`AT+NSTAT`
 
-    AT+NSTAT?
-
-
+`AT+NSTAT?`
 
   - **Meaning:** 현재 네트워크 상태값을 표시한다
 
-
-
   - **Response:**
 
-
-
-    [S,,<DHCP>,<IP>,<SN>,<GW>,<DNS>]
-
-
+`[S,,<DHCP>,<IP>,<SN>,<GW>,<DNS>]`
 
   - ***Example 1:***
 
-*  `AT+NSTAT\r\n` `AT+NSTAT?\r\n`
- *
+`AT+NSTAT\r\n`  
+`AT+NSTAT?\r\n`
 
-  - ***Meaning:*** *현재 네트워크 상태값을 표시한다*
+- ***Meaning:*** *현재 네트워크 상태값을 표시한다*
 
+- ***Response:***
 
-
-  - ***Response:***
-
-* 
-`[S,,S,192.168.11.100,255.255.255.0,192.168.11.1,8.8.8.8]
-` `[S,,D]
-`*
+`[S,,S,192.168.11.100,255.255.255.0,192.168.11.1,8.8.8.8]`  
+`[S,,D]`
 
 -----
 
 ### AT+NMAC  
   
   
-\* **Format:** 
+**Format:** 
 
-    AT+NMAC?
+`AT+NMAC?`  
+`AT+NMAC=<MAC>`
 
-    AT+NMAC=<MAC>
+- **Meaning:** Get MAC Address
 
+- **Response:**
 
+`[S,,<MAC>]`  
+`[S]`
 
-  - **Meaning:** Get MAC Address
+- ***Example 1:***
 
+`AT+NMAC=00:08:dc:1d:bb:8b\r\n`
 
+- ***Meaning:*** *모듈의 맥주소를 지정된 값으로 변경한다*
 
-  - **Response:**
+- ***Response:***
 
+`[S]`
 
+- ***Example 2:***
 
-    [S,,<MAC>]
-    [S]
+`AT+NMAC\r\n`  
+`AT+NMAC?\r\n`
 
+- ***Meaning:*** *현재 모듈의 맥주소를 표시한다*
 
+- ***Response:***
 
-  - ***Example 1:***
-
-*  `AT+NMAC=00:08:dc:1d:bb:8b\r\n`
- *
-
-  - ***Meaning:*** *모듈의 맥주소를 지정된 값으로 변경한다*
-
-
-
-  - ***Response:***
-
-*  `[S]
-`*
-
-  - ***Example 2:***
-
-*  `AT+NMAC\r\n` `AT+NMAC?\r\n`
- *
-
-  - ***Meaning:*** *현재 모듈의 맥주소를 표시한다*
-
-
-
-  - ***Response:***
-
-*  `[S,,00:08:dc:1d:bb:8a]
-`*
+`[S,,00:08:dc:1d:bb:8a]`
 
 -----
 
 ### AT+NOPEN  
   
   
-\* **Format:** 
+**Format:** 
 
-    AT+NOPEN=<SockType>,<SrcPort>,<DstIP>,<DstPort>
+`AT+NOPEN=<SockType>,<SrcPort>,<DstIP>,<DstPort>`
 
+- **Meaning:** 소켓 초기화. 지정된 인자를 이용해서 소켓을 생성한다
 
-
-  - **Meaning:** 소켓 초기화. 지정된 인자를 이용해서 소켓을 생성한다
-
- \<SockType\>: Socket Type
+ < SockType\>: Socket Type
 
 | Parameter | Meaning           |
 | --------- | ----------------- |
@@ -428,104 +392,81 @@ AT+NSET=<DHCP>,<IP>,<SN>,<GW>
 | C         | TCP Client Socket |
 | U         | UDP Socket        |
 
-\<SrcPort\>: Local Port Number  
-\<DstIP\>: Destination IP Address  
-\<DstPort\>: Destination Port Number
+< SrcPort\>: Local Port Number  
+< DstIP\>: Destination IP Address  
+< DstPort\>: Destination Port Number
 
-  - **Response:**
+- **Response:**
 
+`[W,(SockId)]`  
+`[S,(SockId)]`
 
+- ***Example 1:***
 
-    [W,(SockId)]
+`AT+NOPEN=C,3000,192.168.11.100,3000\r\n`
 
-    [S,(SockId)]
+- ***Meaning:*** *지정된 값을 이용해서 Client 소켓을 생성한다*
 
+- ***Response:***
 
+`[W,0]
+[S,0]`  
+`[W,0]  
+[F,,1]`
 
-  - ***Example 1:***
+- ***Example 2:***
 
-* 
-`AT+NOPEN=C,3000,192.168.11.100,3000\r\n` *
+`AT+NOPEN=S,5000,,\r\n`
 
-  - ***Meaning:*** *지정된 값을 이용해서 Client 소켓을 생성한다*
+- ***Meaning:*** *지정된 포트 넘버로 Server 소켓을 생성한다*
 
+- ***Response:***
 
-
-  - ***Response:***
-
-*  `[W,0]
-[S,0]
-` `[W,0]
-[F,,1]
-` *
-
-  - ***Example 2:***
-  *  `AT+NOPEN=S,5000,,\r\n`
- *
-
-  - ***Meaning:*** *지정된 포트 넘버로 Server 소켓을 생성한다*
-
-
-
-  - ***Response:***
-
-*  `[S,,0]
-` *
+`[S,,0]`
 
 -----
 
 ### AT+NCLOSE  
   
   
-\* **Format:** 
+**Format:** 
 
-    AT+NCLOSE=(SockId)
+`AT+NCLOSE=(SockId)`
 
+- **Meaning:** 지정된 ID의 소켓을 종료한다
 
+< SockId\>: Socket ID
 
-  - **Meaning:** 지정된 ID의 소켓을 종료한다
-
- \<SockId\>: Socket ID
-
-  - **Response:**
-
-
+- **Response:**
 
     [W,(SockId)]
 
     [S,(SockId)]
 
+- ***Example 1:***
 
+`AT+NCLOSE\r\n`
 
-  - ***Example 1:***
+- ***Meaning:*** // 데이터 통신용 소켓을 종료한다//
 
-*  `AT+NCLOSE\r\n` *
+- ***Response:***
 
-  - ***Meaning:*** // 데이터 통신용 소켓을 종료한다//
-
-
-
-  - ***Response:***
-
-*  `[W,0]
-[S,0]
-` `[F,,11]
-`*
+`[W,0]
+[S,0]`  
+`[F,,11]`
 
 -----
 
 ### AT+NSEND  
   
   
-\* **Format:** 
+**Format:** 
 
-    AT+NSEND=<SockId>,<size>,<DstIP>,<DstPort>
+`AT+NSEND=<SockId>,<size>,<DstIP>,<DstPort>`
 
+- **Meaning:** 연결된 소켓을 통해서 데이터를 전송한다
 
-
-  - **Meaning:** 연결된 소켓을 통해서 데이터를 전송한다
-
- \<SockId\>: Socket ID
+< SockId\>: Socket ID
 
 | Parameter | Meaning           |
 | --------- | ----------------- |
@@ -533,31 +474,28 @@ AT+NSET=<DHCP>,<IP>,<SN>,<GW>
 | C         | TCP Client Socket |
 | U         | UDP Socket        |
 
-\<SrcPort\>: 로컬 포트 넘버  
-\<DstIP\>: 목적지 IP 주소  
-\<DstPort\>: 목적지 포트 넘버
+< SrcPort\>: 로컬 포트 넘버  
+< DstIP\>: 목적지 IP 주소  
+< DstPort\>: 목적지 포트 넘버
 
-  - **Response:**
-
-
+- **Response:**
 
     [W,(SockId)]
 
     [S,(SockId)]
 
   
-\* ***Example 1:*** *  `AT+NSEND=0,4\r\n
-aaaa` *
+***Example 1:***   
+
+`AT+NSEND=0,4\r\n  
+aaaa`
 
   - ***Meaning:*** *TCP 모드인 경우, 목적지의 IP 주소와 포트 넘버를 지정하지 않는다*
 
-
-
   - ***Response:***
 
-*  [W,0]
-[S,0]
-*
+`[W,0]
+[S,0]`
 
 -----
 
@@ -565,84 +503,61 @@ aaaa` *
 
 | Command                                                          | Prop.     | Input Parameter      | Response                    |
 | ---------------------------------------------------------------- | --------- | -------------------- | --------------------------- |
-| [AT](/products/wiz550sr/wiz550sr_userguide_kr&#at)               | None      |                      | \[S\]                       |
+| [AT](#at)               | None      |                      | \[S\]                       |
 | :::                                                              | ?         | :::                  | \[D,,(Size)\]↓(Data)        |
-| [AT+MSTAT](/products/wiz550sr/wiz550sr_userguide_kr&#at+mstat)   | None or ? |                      | \[S,,(Version)\]            |
-| [AT+MUSART](/products/wiz550sr/wiz550sr_userguide_kr&#at+musart) | None or ? |                      | \[S,,(BR),(W),(P),(S),(F)\] |
+| [AT+MSTAT](#atmstat)   | None or ? |                      | \[S,,(Version)\]            |
+| [AT+MUSART](#atmusart) | None or ? |                      | \[S,,(BR),(W),(P),(S),(F)\] |
 | :::                                                              | \=        | (BR),(W),(P),(S),(F) | \[S\]                       |
 | :::                                                              | \-        | *num*,Param          | \[S\]                       |
-| [AT+MSAVE](/products/wiz550sr/wiz550sr_userguide_kr&#at+msave)   | None      |                      | \[S\]                       |
-| [AT+MRST](/products/wiz550sr/wiz550sr_userguide_kr&#at+mrst)     | None      |                      | \[S\]                       |
+| [AT+MSAVE](/#atmsave)   | None      |                      | \[S\]                       |
+| [AT+MRST](#atmrst)     | None      |                      | \[S\]                       |
 | :::                                                              | \=        | F                    | \[S\]                       |
-| [AT+MDATA](/products/wiz550sr/wiz550sr_userguide_kr&#at+mdata)   | None      |                      | \[S\]                       |
+| [AT+MDATA](#atmdata)   | None      |                      | \[S\]                       |
 
 -----
 
 ### AT  
   
   
-\* **Format:** 
+**Format:** 
 
-``` 
-AT
-```
-
-
+`AT`
 
   - **Meaning:** AT 커맨드 모드인지 체크한다
 
-
-
   - **Response:**
 
-
-
-    [S]
-
-
+`[S]`
 
 -----
 
 ### AT+MSTAT 
   
   
-\* **Format:** 
+**Format:** 
 
-    AT+MSTAT
-
-    AT+MSTAT?
-
-
+`AT+MSTAT  
+AT+MSTAT?`
 
   - **Meaning:** 현재 펌웨어 버전 정보를 읽어온다
 
-
-
   - **Response:**
 
-
-
-    [S,,<Version>]
-
-
+`[S,,<Version>]`
 
 -----
 
 ### AT+MUSART  
-  
-  
-\* **Format:** 
+ 
+**Format:** 
 
-    AT+MUSART=<BR>,<W>,<P>,<S>,<F>
-
-
+`AT+MUSART=<BR>,<W>,<P>,<S>,<F>`
 
   - **Meaning:** 시리얼 설정값을 읽어오거나 새로운 설정값을 지정한다
 
- \<BR\>: Baud rate  
-^ Parameter ^ Meaning ^
+ < BR\>: Baud rate  
 
-|        |           |
+| Parameter | Meaning |
 | ------ | --------- |
 | 600    | 600bps    |
 | 1200   | 1200bps   |
@@ -655,116 +570,79 @@ AT
 | 115200 | 115200bps |
 | 230400 | 230400bps |
 
-\<W\>: Word length  
-^ Parameter ^ Meaning ^
+< W\>: Word length  
 
-|   |        |
+| Parameter | Meaning |
 | - | ------ |
 | 7 | 7 bits |
 | 8 | 8 bits |
 
-\<P\>: Parity bit  
-^ Parameter ^ Meaning ^
+< P\>: Parity bit  
 
-|   |      |
+| Parameter | Meaning |
 | - | ---- |
 | N | NONE |
 | O | ODD  |
 | E | EVEN |
 
-\<S\>: Stop bit  
-^ Parameter ^ Meaning ^
+< S\>: Stop bit  
 
-|   |        |
+| Parameter | Meaning |
 | - | ------ |
 | 1 | 1 bits |
 | 2 | 2 bits |
 
-\<F\>: Flow Control  
-^ Parameter ^ Meaning ^
+< F\>: Flow Control  
 
-|   |         |
+| Parameter | Meaning |
 | - | ------- |
 | 0 | NONE    |
 | 1 | RTS/CTS |
 | 2 | RS422   |
 | 3 | RS485   |
 
+- **Response:**
 
-
-  - **Response:**
-
-
-
-    [S,,<BR>,( <W>, <P>, <S> ) <F>]
-
-
+`[S,,<BR>,( <W>, <P>, <S> ) <F>]`
 
 -----
 
-\* **Example1:** 
+**Example1:** 
 
-    AT+MUSART\r\n
-
-    AT+MUSART?\r\n
-
-
+`AT+MUSART\r\n  
+AT+MUSART?\r\n`
 
   - **Meaning:** 현재 시리얼 설정값을 표시한다
 
-
-
   - **Response:**
 
+`[S,,115200,8,N,1,0]`
 
+- **Example2:**
 
-    [S,,115200,8,N,1,0]
+`AT+MUSART=,,E,,0\r\n`
 
+- **Meaning:** 새로운 시리얼 설정값을 지정한다. 공백 필드는 변경하지 않고 Parity, Flow control만 변경한다
 
+- **Response:**
 
-  - **Example2:**
-
-
-
-    AT+MUSART=,,E,,0\r\n
-
-
-
-  - **Meaning:** 새로운 시리얼 설정값을 지정한다. 공백 필드는 변경하지 않고 Parity, Flow control만
-    변경한다
-
-
-
-  - **Response:**
-
-
-
-    [S]
-
-
+`[S]`
 
 -----
 
 ### AT+MDATA  
   
   
-\* **Format:** 
+**Format:** 
 
-    AT+MDATA
-
-
+`AT+MDATA`
 
   - **Meaning:** AT 커맨드 모드에서 데이터 모드로 전환한다
 
-
-
   - **Response:**
 
-
-
-    [S]
+`[S]`
   
-
 -----
 
 ## Function Commands
@@ -775,26 +653,19 @@ AT
 
 -----
   
-  
-\* **Format:** 
+**Format:** 
 
-    AT+FDNS
+`AT+FDNS`
 
-
-  - **Meaning:** DNS Query를 수행하고 그 결과를 알려준다. Configuration Tool을 통해 설정한
-    Domain을 DNS Server IP로 Query한다.
-
+  - **Meaning:** DNS Query를 수행하고 그 결과를 알려준다. Configuration Tool을 통해 설정한 Domain을 DNS Server IP로 Query한다.
 
   - **Response:**
 
+`[D,,13]
+DNS Timeout`
 
-    [D,,13]
-    DNS Timeout
-
-    [D,,17]
-    173.194.126.180
-
------
+`[D,,17]
+173.194.126.180`
 
 -----
 
@@ -807,21 +678,21 @@ WIZnet Configuration tool은 java 기반으로 구현된 응용프로그램으�
 가능하다. .jar 파일을 다운로드해서 Java Virtual machine상에서 실행되도록 하면 된다.  
 [설치방법](http://xeon011.tistory.com/146)  
 다음과 같은 두 가지 방법으로 실행할 수 있다.  
-\- GUI환경에서 jar파일을 더블클릭하여 실행
 
-``` 
-  - ALZip과 같은 일부 압축 프로그램에서 jar파일을 압축파일로 인식한 경우, jar파일이 실행되지 않는 경우가 발생할 수 있다. 이런 경우에는 해당 프로그램의 환경설정을 통해 파일연결 설정을 변경(jar파일을 열지 않도록)한다.
-  - Linux 또는 Mac의 경우 jar파일에 다음과 같이 실행 퍼미션을 주어야 실행된다.
+1. GUI환경에서 jar파일을 더블클릭하여 실행
+
+  a. ALZip과 같은 일부 압축 프로그램에서 jar파일을 압축파일로 인식한 경우, jar파일이 실행되지 않는 경우가 발생할 수 있다. 이런 경우에는 해당 프로그램의 환경설정을 통해 파일연결 설정을 변경(jar파일을 열지 않도록)한다.  
+  b. Linux 또는 Mac의 경우 jar파일에 다음과 같이 실행 퍼미션을 주어야 실행된다.
     - chmod 0755 WIZ550SR_Configuration_Tool.jar
-- 터미널에서 “java -jar WIZ550SR_Configuration_Tool.jar” 명령을 입력하여 실행
-```
+2. 터미널에서 “java -jar WIZ550SR_Configuration_Tool.jar” 명령을 입력하여 실행
+
 
 WIZnet Configuration tool은 다음과 같이 크게 네개 부분으로 구성되어져 있다.
 
-1\) Common Configuration 부분  
-2\) Network Configuration 부분  
-3\) Serial Configuration 부분  
-4\) Option Configuration 부분  
+1) Common Configuration 부분  
+2) Network Configuration 부분  
+3) Serial Configuration 부분  
+4) Option Configuration 부분  
 WIZ550SR는 위 네가지 항목 모두를 설정 할 수 있다.
 
 -----
@@ -829,15 +700,14 @@ WIZ550SR는 위 네가지 항목 모두를 설정 할 수 있다.
 ## Common Configurations
 
 ![](/img/products/wiz550s2e/wiz550s2epg_kr/configtool/common_config.png)  
-\==== Search ==== Search 기능은 같은 LAN 상에 존재하는 모든 모듈을 검색하는 데 사용된다. UDP
-브로드캐스트를 사용하여, 동일한 Subnet 상의 모든 모듈이 검색되면, 해당 모듈의 MAC Address가
-표시 된다.
+
+### Search
+
+Search 기능은 같은 LAN 상에 존재하는 모든 모듈을 검색하는 데 사용된다. UDP 브로드캐스트를 사용하여, 동일한 Subnet 상의 모든 모듈이 검색되면, 해당 모듈의 MAC Address가 표시 된다.
 
 ### Setting
 
-본 기능은 모듈의 각종 옵션 또는 설정 값을 변경할 때 사용하는 기능이다. 모든 설정값 변경 또는 선택 후에 "Setting"
-버튼을 눌러야 그 값이 모듈에 반영이 되고, 변경된 값은 모듈내의 EEPROM에 저장되어 모듈의 전원이 차단되는 경우에도
-그 설정 값이 유지되게 된다.  
+본 기능은 모듈의 각종 옵션 또는 설정 값을 변경할 때 사용하는 기능이다. 모든 설정값 변경 또는 선택 후에 "Setting" 버튼을 눌러야 그 값이 모듈에 반영이 되고, 변경된 값은 모듈내의 EEPROM에 저장되어 모듈의 전원이 차단되는 경우에도 그 설정 값이 유지되게 된다.  
 설정 값을 변경하는 과정은 다음과 같다.  
 ![](/img/products/wiz550s2e/wiz550s2epg_kr/configtool/password.png)
 
@@ -969,7 +839,7 @@ problems may occur.
         모듈이 "Client mode","Mixed mode","UDP mode" 일 경우, 
         접속을 시도할 원격 서버 Port number
         
-        ### Working Mode
+### Working Mode
 
 Client / server / mixed : 다음의 Network mode는 TCP 연결설정에 대한 분류를 의미한다. TCP
 Server 모드는 모듈이 연결 설정 과정에서 서버로 동작하는 것을 의미하고, 지정한 Port로 접속 시도가 오기를 기다린다.
@@ -1007,7 +877,7 @@ TCP Client 모드는 모듈이 연결 설정을 시도하는 모드이다. TCP C
     2. 서버와 연결된 후에는 양방향 데이터 전송이 가능하다.
        (호스트 -> 모듈 / 모듈 -> 호스트)
        
-       #### Mixed mode Communication
+#### Mixed mode Communication
 
 이 모드는 기본적으로 TCP Server 모드와 동일하다. 단, 상대방으로부터의 연결이 이루어지기 전에 시리얼 장비로부터 데이터가
 수신되는 경우, 그 데이터를 특정 호스트에 전달할 필요가 있을 때 Mixed 모드를 사용한다. 따라서 Mixed 모드에서
@@ -1061,7 +931,7 @@ UDP 모드에서는 TCP와 같은 연결 과정이 없으므로, 상대방의 IP
     Flow : 
         모듈의 Flow Control
         
-        ### AT Command
+### AT Command
 
 이 기능은 모듈을 시리얼 통신을 통하여 설정하는 기능을 활성화/비활성화 하는 기능이며, 시리얼 설정 모드로 들어가기 위한
 Trigger Code를 Hex 값으로 지정한다.  

@@ -4,8 +4,6 @@ title: Datasheet(Eng)
 date: 2020-04-29
 ---
 
-
-
 # Overview
 
 This page provides information about the hardware description of

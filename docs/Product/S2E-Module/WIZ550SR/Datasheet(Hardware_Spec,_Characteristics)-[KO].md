@@ -62,8 +62,8 @@ date: 2020-04-24
 
 #### WIZ550SR Pin Out
 
-![WIZ550SR Pin Out](/products/wiz550sr/wiz550sr_ds/wiz550sr_pinmap.png%20)  
-![WIZ550SR Pin Out](/products/wiz550sr/wiz550sr_ds/wiz550sr_pinout_2.png%20%20)
+![WIZ550SR Pin Out](/img/products/wiz550sr/wiz550sr_ds/wiz550sr_pinmap.png)  
+![WIZ550SR Pin Out](/img/products/wiz550sr/wiz550sr_ds/wiz550sr_pinout_2.png)
 
 #### WIZ550SR Pin Description
 
@@ -255,15 +255,14 @@ Hardware TRIG Input. Active Low</td>
 
 #### WIZ550SR Block Diagram
 
-{{:products:wiz550sr:wiz550sr\_ds:wiz550sr\_block\_diagram.png ? direct
-| WIZ550SR Block Diagram}
+![WIZ550SR Block Diagram](/img/products/wiz550sr/wiz550sr_ds/wiz550sr_block_diagram.png)
 
 -----
 
 
 ### WIZ550SR EVB
 
-![WIZ550SR EVB](/products/wiz550sr/wiz550sr_ds/wiz550sr_evb_2.png%20%20%20)
+![WIZ550SR EVB](/img/products/wiz550sr/wiz550sr_ds/wiz550sr_evb_2.png)
 
   - WIZ550SR Developer Board.
   - USB to UART chip, FT2232D.
@@ -276,11 +275,11 @@ Hardware TRIG Input. Active Low</td>
 
 #### WIZ550SR EVB Call Out
 
-![WIZ550SR EVB Call Out](/products/wiz550sr/wiz550sr_ds/wiz550sr_evb_callout.png%20)
+![WIZ550SR EVB Call Out](/img/products/wiz550sr/wiz550sr_ds/wiz550sr_evb_callout.png)
 
 #### WIZ550SR EVB Block Diagram
 
-![WIZ550SR Block Diagram](/products/wiz550sr/wiz550sr_ds/wiz550sr_evb_block_diagram.png%20%20)
+![WIZ550SR Block Diagram](/img/products/wiz550sr/wiz550sr_ds/wiz550sr_evb_block_diagram.png)
 
 -----
 
@@ -415,40 +414,36 @@ Source Current</td>
 
 ### Ref. Schematic
 
-![WIZ550SR Ref Schematic](/products/wiz550sr/wiz550sr_ds/wiz550sr_v1.0_ref_sch.png%20)  
+![WIZ550SR Ref Schematic](/img/products/wiz550sr/wiz550sr_ds/wiz550sr_v1.0_ref_sch.png)  
 
-  - WIZ550SR Ref Schematic : [Download](/products/wiz550sr/wiz550sr_ds/wiz550sr_v100_ref_sch_160526.pdf)  
+  - WIZ550SR Ref Schematic : [Download](/img/products/wiz550sr/wiz550sr_ds/wiz550sr_v100_ref_sch_160526.pdf)  
     
     ### WIZ550SR Schematic 
     
-  - WIZ550SR V1.0 Schematic : [Download(Altium)](/products/wiz550sr/wiz550sr_ds/wiz550sr_sch_v100.zip)  
+  - WIZ550SR V1.0 Schematic : [Download(Altium)](/img/products/wiz550sr/wiz550sr_ds/wiz550sr_sch_v100.zip)  
     
-    * WIZ550SR V1.0 Schematic : [Download(PDF)](/products/wiz550sr/wiz550sr_ds/wiz550sr_sch_v100.pdf)  
+    * WIZ550SR V1.0 Schematic : [Download(PDF)](/img/products/wiz550sr/wiz550sr_ds/wiz550sr_sch_v100.pdf)  
 
 ### WIZ550SR BOM
 
-  - WIZ550SR V1.0 BOM: [Download](/products/wiz550sr/wiz550sr_ds/wiz550sr_bom_v100_160511.pdf)  
-    \==== WIZ550SR EVB Schematic ====
-  - WIZ550SR EVB V1.0 Schematic : [Download(Altium)](/products/wiz550sr/wiz550sr_ds/wiz550sr_evb_sch_v100.zip)  
-    \* WIZ550SR EVB V1.0 Schematic : [Download(PDF)](/products/wiz550sr/wiz550sr_ds/wiz550sr_evb_sch_v100.pdf)  
+  - WIZ550SR V1.0 BOM: [Download](/img/products/wiz550sr/wiz550sr_ds/wiz550sr_bom_v100_160511.pdf)  
+    
+### WIZ550SR EVB Schematic
+
+  - WIZ550SR EVB V1.0 Schematic : [Download(Altium)](/img/products/wiz550sr/wiz550sr_ds/wiz550sr_evb_sch_v100.zip)  
+    \* WIZ550SR EVB V1.0 Schematic : [Download(PDF)](/img/products/wiz550sr/wiz550sr_ds/wiz550sr_evb_sch_v100.pdf)  
 
 ### WIZ550SR EVB BOM
 
-  - WIZ550SR EVB V1.0 BOM : [Download](/products/wiz550sr/wiz550sr_ds/wiz550sr_evb_bom_v100_160512.pdf)  
+  - WIZ550SR EVB V1.0 BOM : [Download](/img/products/wiz550sr/wiz550sr_ds/wiz550sr_evb_bom_v100_160512.pdf)  
 
 -----
 
 ## Dimension
 
-  - WIZ550SR V1.0 3D PDF : [Download](/products/wiz550sr/wiz550sr_ds/wiz550sr_v1.0_3d.pdf)  
+  - WIZ550SR V1.0 3D PDF : [Download](/img/products/wiz550sr/wiz550sr_ds/wiz550sr_v1.0_3d.pdf)  
     * This PDF must be run using the 'Adobe Acrobat'.
 
-![WIZ550SR Dimension](/products/wiz550sr/wiz550sr_ds/wiz550sr_dimension.jpg%20)
-
------
-
-## See Also
-
-    *[[http://www.wizwiki.net/forum|WizWiki Forum]] : WIZnet Forum for Technical support and Project shared
+![WIZ550SR Dimension](/img/products/wiz550sr/wiz550sr_ds/wiz550sr_dimension.jpg)
 
 -----

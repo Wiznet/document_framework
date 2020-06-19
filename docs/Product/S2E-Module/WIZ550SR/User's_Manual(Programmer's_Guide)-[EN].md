@@ -188,7 +188,7 @@ Event occurred.</td>
 </thead>
 <tbody>
 <tr class="odd">
-<td><a href="/products/wiz550sr/wiz550sr_userguide_en&amp;#at+nset">AT+NSET</a></td>
+<td><a href="#at+nset">AT+NSET</a></td>
 <td>None or ?</td>
 <td></td>
 <td>[S,,S,(IP),(SN),(GW),(DNS)]</td>
@@ -218,13 +218,13 @@ Event occurred.</td>
 <td>[S]</td>
 </tr>
 <tr class="even">
-<td><a href="/products/wiz550sr/wiz550sr_userguide_en&amp;#at+nstat">AT+NSTAT</a></td>
+<td><a href="#atnstat">AT+NSTAT</a></td>
 <td>None or ?</td>
 <td></td>
 <td>[S,,S/D,(IP),(SN),(GW),(DNS)]</td>
 </tr>
 <tr class="odd">
-<td><a href="/products/wiz550sr/wiz550sr_userguide_en#at+nmac">AT+NMAC</a></td>
+<td><a href="#atnmac">AT+NMAC</a></td>
 <td>None or ?</td>
 <td></td>
 <td>[S,,(MAC)]</td>
@@ -236,7 +236,7 @@ Event occurred.</td>
 <td>[S]</td>
 </tr>
 <tr class="odd">
-<td><a href="/products/wiz550sr/wiz550sr_userguide_en#at+nopen">AT+NOPEN</a></td>
+<td><a href="#atnopen">AT+NOPEN</a></td>
 <td>=</td>
 <td>S/C/U,(SrcPort),(DstIP),(DstPort)</td>
 <td>[W,(SockId)]<br />
@@ -249,21 +249,21 @@ Event occurred.</td>
 <td>:::</td>
 </tr>
 <tr class="odd">
-<td><a href="/products/wiz550sr/wiz550sr_userguide_en#at+nclose">AT+NCLOSE</a></td>
+<td><a href="#atnclose">AT+NCLOSE</a></td>
 <td>=</td>
 <td>(SockId)</td>
 <td>[W,(SockId)]<br />
 [S,(SockId)]</td>
 </tr>
 <tr class="even">
-<td><a href="/products/wiz550sr/wiz550sr_userguide_en#at+nsend">AT+NSEND</a></td>
+<td><a href="#atnsend">AT+NSEND</a></td>
 <td>=</td>
 <td>(SockId),(size),(DstIP),(DstPort)</td>
 <td>[W,(SockId)]<br />
 [S,(SockId)]</td>
 </tr>
 <tr class="odd">
-<td><a href="/products/wiz550sr/wiz550sr_userguide_en#at+nsock">AT+NSOCK</a></td>
+<td><a href="#atnsock">AT+NSOCK</a></td>
 <td>None or ?</td>
 <td></td>
 <td>[D,,(Size)]↓(Data)</td>
@@ -279,190 +279,132 @@ Event occurred.</td>
 
 -----
 
-====AT+NSET====
+### AT+NSET
   
-  
-  
-\* **Format:** 
+**Format:** 
 
-    AT+NSET=<DHCP>,<IP>,<SN>,<GW>,<DNS>
-
-
+`AT+NSET=<DHCP>,<IP>,<SN>,<GW>,<DNS>`
 
   - **Meaning:** Network Configuration
 
- \<DHCP\>: Static/DHCP
+< DHCP\>: Static/DHCP
 
 | Parameter | Meaning              |
 | --------- | -------------------- |
 | S         | DHCP Off, Static     |
 | D         | DHCP On, DHCP Client |
 
-\<IP\>: IP Address (Optional)  
-\<SN\>: Subnet Mask (Optional)  
-\<GW\>: Gateway Address (Optional)  
-\<DNS\>: DNS Address(Optional)
+< IP\>: IP Address (Optional)  
+< SN\>: Subnet Mask (Optional)  
+< GW\>: Gateway Address (Optional)  
+< DNS\>: DNS Address(Optional)
 
   - **Response:**
 
-
-
-    [S]
-
-
+`[S]`
 
   - **Example 1:**
 
-
-
-    AT+NSET\r\n
-
-    AT+NSET?\r\n
-
-
+`AT+NSET\r\n  
+AT+NSET?\r\n`
 
   - **Meaning:** Get Current Network Setting
 
- Note that \<IP\>,\<SN\>,\<GW\>,\<DNS\>
-address of response are not actual addresses, but addresses stored in
-the memory. So when DHCP is on, they are usually different from actual
-addresses.
+ Note that < IP\>, < SN\>, < GW\>, < DNS\>
+address of response are not actual addresses, but addresses stored in the memory. So when DHCP is on, they are usually different from actual addresses.
 
   - **Response:**
 
-
-
-    [S,,S,192.168.11.100,255.255.255.0,192.168.11.1,8.8.8.8]
-
-    [S,,D]
-
-
+`[S,,S,192.168.11.100,255.255.255.0,192.168.11.1,8.8.8.8]`
+`[S,,D]`
 
   - ***Example 2:***
 
-*  `AT+NSET-2,192.168.11.110\r\n`
-*
+`AT+NSET-2,192.168.11.110\r\n`
 
-  - ***Meaning:*** *Update Second Parameter*
+- ***Meaning:*** *Update Second Parameter*
 
-**
+- ***Response:***
 
-  - ***Response:***
-
-* `[S]
-`*
+`[S]`
 
 -----
 
-====AT+NSTAT====
-  
-  
-  
-\* **Format:** 
+### AT+NSTAT
+ 
+**Format:** 
 
     AT+NSTAT
 
     AT+NSTAT?
 
-
-
   - **Meaning:** Display Current Network Status
-
-
 
   - **Response:**
 
-
-
-    [S,,<DHCP>,<IP>,<SN>,<GW>,<DNS>]
-
-
+`[S,,<DHCP>,<IP>,<SN>,<GW>,<DNS>]`
 
   - ***Example 1:***
 
-*  `AT+NSTAT\r\n` `AT+NSTAT?\r\n`
- *
+`AT+NSTAT\r\n` `AT+NSTAT?\r\n`
 
   - ***Meaning:*** *Display Current Network Status*
 
-
-
   - ***Response:***
 
-* 
-`[S,,S,192.168.11.100,255.255.255.0,192.168.11.1,8.8.8.8]
-` `[S,,D]
-`*
+`[S,,S,192.168.11.100,255.255.255.0,192.168.11.1,8.8.8.8]`  
+`[S,,D]`
 
 -----
 
-====AT+NMAC====
+### AT+NMAC  
   
-  
-  
-\* **Format:** 
+  **Format:** 
 
     AT+NMAC
 
     AT+NMAC?
 
+- **Meaning:** Get MAC Address
 
+- **Response:**
 
-  - **Meaning:** Get MAC Address
+`[S,,<MAC>]`
 
+- ***Example 1:***
 
+`AT+NMAC=00:08:dc:1d:bb:8b\r\n`
 
-  - **Response:**
+- ***Meaning:*** *Set MAC Address*
 
+- ***Response:***
 
+`[S]`
 
-    [S,,<MAC>]
+- ***Example 2:***
 
+`AT+NMAC\r\n`  
+`AT+NMAC?\r\n`
 
+- ***Meaning:*** *Get MAC Address*
 
-  - ***Example 1:***
+- ***Response:***
 
-*  `AT+NMAC=00:08:dc:1d:bb:8b\r\n`
- *
-
-  - ***Meaning:*** *Set MAC Address*
-
-
-
-  - ***Response:***
-
-*  `[S]
-`*
-
-  - ***Example 2:***
-
-*  `AT+NMAC\r\n` `AT+NMAC?\r\n`
- *
-
-  - ***Meaning:*** *Get MAC Address*
-
-
-
-  - ***Response:***
-
-*  `[S,,00:08:dc:1d:bb:8a]
-`*
+`[S,,00:08:dc:1d:bb:8a]`
 
 -----
 
-====AT+NOPEN====
+### AT+NOPEN
   
   
   
-\* **Format:** 
+**Format:** 
 
-    AT+NOPEN=<SockType>,<SrcPort>,<DstIP>,<DstPort>
+`AT+NOPEN=<SockType>,<SrcPort>,<DstIP>,<DstPort>`
 
+- **Meaning:** Initialize Socket
 
-
-  - **Meaning:** Initialize Socket
-
- \<SockType\>: Socket Type
+< SockType\>: Socket Type
 
 | Parameter | Meaning           |
 | --------- | ----------------- |
@@ -470,107 +412,80 @@ addresses.
 | C         | TCP Client Socket |
 | U         | UDP Socket        |
 
-\<SrcPort\>: Local Port Number  
-\<DstIP\>: Destination IP Address  
-\<DstPort\>: Destination Port Number
+< SrcPort\>: Local Port Number  
+< DstIP\>: Destination IP Address  
+< DstPort\>: Destination Port Number
 
-  - **Response:**
-
-
+- **Response:**
 
     [W,(SockId)]
 
     [S,(SockId)]
 
+- ***Example 1:***
 
-
-  - ***Example 1:***
-
-* 
-`AT+NOPEN=C,3000,192.168.11.100,3000\r\n` *
+`AT+NOPEN=C,3000,192.168.11.100,3000\r\n`
 
   - ***Meaning:*** *Create TCP Client Socket*
 
-
-
   - ***Response:***
 
-*  `[W,0]
-[S,0]
-` `[W,0]
-[F,,1]
-` *
+`[W,0]
+[S,0]`  
+`[W,0]
+[F,,1]`
 
-  - ***Example 2:***
+- ***Example 2:***
 
-*  `AT+NOPEN=S,5000,,\r\n`
- *
+`AT+NOPEN=S,5000,,\r\n`
 
-  - ***Meaning:*** *Create TCP Server Socket*
+- ***Meaning:*** *Create TCP Server Socket*
 
+- ***Response:***
 
-
-  - ***Response:***
-
-*  `[S,,0]
-` *
+`[S,,0]`
 
 -----
 
-====AT+NCLOSE====
-  
-  
-  
-\* **Format:** 
+### AT+NCLOSE
+    
+**Format:** 
 
-    AT+NCLOSE=(SockId)
+`AT+NCLOSE=(SockId)`
 
+- **Meaning:** Close Socket
 
+< SockId\>: Socket ID
 
-  - **Meaning:** Close Socket
-
- \<SockId\>: Socket ID
-
-  - **Response:**
-
-
+- **Response:**
 
     [W,(SockId)]
 
     [S,(SockId)]
 
+- ***Example 1:***
 
-
-  - ***Example 1:***
-
-*  `AT+NCLOSE\r\n` *
+`AT+NCLOSE\r\n`
 
   - ***Meaning:*** // Close Socket//
 
-
-
   - ***Response:***
 
-*  `[W,0]
-[S,0]
-` `[F,,11]
-`*
+`[W,0]  
+[S,0]`  
+`[F,,11]`
 
 -----
 
-====AT+NSEND====
+### AT+NSEND
   
-  
-  
-\* **Format:** 
+**Format:** 
 
-    AT+NSEND=<SockId>,<size>,<DstIP>,<DstPort>
+`AT+NSEND=<SockId>,<size>,<DstIP>,<DstPort>`
 
+- **Meaning:** Send Data
 
-
-  - **Meaning:** Send Data
-
- \<SockId\>: Socket ID
+< SockId\>: Socket ID
 
 | Parameter | Meaning           |
 | --------- | ----------------- |
@@ -578,35 +493,27 @@ addresses.
 | C         | TCP Client Socket |
 | U         | UDP Socket        |
 
-\<SrcPort\>: Local Port Number  
-\<DstIP\>: Destination IP Address  
-\<DstPort\>: Destination Port Number
+< SrcPort\>: Local Port Number  
+< DstIP\>: Destination IP Address  
+< DstPort\>: Destination Port Number
 
-  - **Response:**
-
-
+- **Response:**
 
     [W,(SockId)]
 
     [S,(SockId)]
 
+- ***Example 1:***
 
+`AT+NSEND=0,4\r\n
+aaaa`
 
-  - ***Example 1:***
+- ***Meaning:*** *In TCP Server mode, Destination IP and port are not need.*
 
-*  `AT+NSEND=0,4\r\n
-aaaa` *
+- ***Response:***
 
-  - ***Meaning:*** *In TCP Server mode, Destination IP and port are not
-    need.*
-
-
-
-  - ***Response:***
-
-*  `[W,0]
-[S,0]
-`*
+`[W,0]
+[S,0]`
 
 -----
 
@@ -614,87 +521,60 @@ aaaa` *
 
 | Command                                                          | Prop.     | Input Parameter      | Response                    |
 | ---------------------------------------------------------------- | --------- | -------------------- | --------------------------- |
-| [AT](/products/wiz550sr/wiz550sr_userguide_en&#at)               | None      |                      | \[S\]                       |
+| [AT](#at)               | None      |                      | \[S\]                       |
 | :::                                                              | ?         | :::                  | \[D,,(Size)\]↓(Data)        |
-| [AT+MSTAT](/products/wiz550sr/wiz550sr_userguide_en&#at+mstat)   | None or ? |                      | \[S,,(Version)\]            |
-| [AT+MUSART](/products/wiz550sr/wiz550sr_userguide_en&#at+musart) | None or ? |                      | \[S,,(BR),(W),(P),(S),(F)\] |
+| [AT+MSTAT](#atmstat)   | None or ? |                      | \[S,,(Version)\]            |
+| [AT+MUSART](&#atmusart) | None or ? |                      | \[S,,(BR),(W),(P),(S),(F)\] |
 | :::                                                              | \=        | (BR),(W),(P),(S),(F) | \[S\]                       |
 | :::                                                              | \-        | *num*,Param          | \[S\]                       |
-| [AT+MSAVE](/products/wiz550sr/wiz550sr_userguide_en&#at+msave)   | None      |                      | \[S\]                       |
-| [AT+MRST](/products/wiz550sr/wiz550sr_userguide_en&#at+mrst)     | None      |                      | \[S\]                       |
+| [AT+MSAVE](#atmsave)   | None      |                      | \[S\]                       |
+| [AT+MRST](#atmrst)     | None      |                      | \[S\]                       |
 | :::                                                              | \=        | F                    | \[S\]                       |
-| [AT+MDATA](/products/wiz550sr/wiz550sr_userguide_en&#at+mdata)   | None      |                      | \[S\]                       |
+| [AT+MDATA](#atmdata)   | None      |                      | \[S\]                       |
 
 -----
 
-====AT====
+### AT 
   
-  
-  
-\* **Format:** 
+**Format:** 
 
-``` 
-AT
-```
+`AT`
 
+- **Meaning:** Terminal Check
 
+- **Response:**
 
-  - **Meaning:** Terminal Check
-
-
-
-  - **Response:**
-
-
-
-    [S]
-
-
+`[S]`
 
 -----
 
-====AT+MSTAT====
+### AT+MSTAT  
   
-  
-  
-\* **Format:** 
+**Format:** 
 
     AT+MSTAT
 
     AT+MSTAT?
 
+- **Meaning:** Get Current Version
 
+- **Response:**
 
-  - **Meaning:** Get Current Version
-
-
-
-  - **Response:**
-
-
-
-    [S,,<Version>]
-
-
+`[S,,<Version>]`
 
 -----
 
-====AT+MUSART====
-  
-  
-  
-\* **Format:** 
+### AT+MUSART
+   
+**Format:** 
 
-    AT+MUSART=<BR>,<W>,<P>,<S>,<F>
+`AT+MUSART=<BR>,<W>,<P>,<S>,<F>`
 
+- **Meaning:** Serial Interface Configuration
 
+< BR\>: Baud rate  
 
-  - **Meaning:** Serial Interface Configuration
-
- \<BR\>: Baud rate  
-^ Parameter ^ Meaning ^
-
-|        |           |
+| Parameter | Meaning |
 | ------ | --------- |
 | 600    | 600bps    |
 | 1200   | 1200bps   |
@@ -707,118 +587,78 @@ AT
 | 115200 | 115200bps |
 | 230400 | 230400bps |
 
-\<W\>: Word length  
-^ Parameter ^ Meaning ^
+< W\>: Word length  
 
-|   |        |
+| Parameter | Meaning |
 | - | ------ |
 | 7 | 7 bits |
 | 8 | 8 bits |
 
-\<P\>: Parity bit  
-^ Parameter ^ Meaning ^
+< P\>: Parity bit  
 
-|   |      |
+| Parameter | Meaning |
 | - | ---- |
 | N | NONE |
 | O | ODD  |
 | E | EVEN |
 
-\<S\>: Stop bit  
-^ Parameter ^ Meaning ^
+< S\>: Stop bit  
 
-|   |        |
+| Parameter | Meaning |
 | - | ------ |
 | 1 | 1 bits |
 | 2 | 2 bits |
 
-\<F\>: Flow Control  
-^ Parameter ^ Meaning ^
+< F\>: Flow Control  
 
-|   |         |
+| Parameter | Meaning |
 | - | ------- |
 | 0 | NONE    |
 | 1 | RTS/CTS |
 | 2 | RS422   |
 | 3 | RS485   |
 
+- **Response:**
 
-
-  - **Response:**
-
-
-
-    [S,,<BR>,( <W>, <P>, <S> ) <F>]
-
-
+`[S,,<BR>,( <W>, <P>, <S> ) <F>]`
 
 -----
 
-  - **Example1:**
-
-
+- **Example1:**
 
     AT+MUSART
 
     AT+MUSART?
 
+- **Meaning:** Get Serial Interface Information
 
+- **Response:**
 
-  - **Meaning:** Get Serial Interface Information
+`[S,,<BR>,( <W>, <P>, <S> ) <F>]`
 
+- **Example2:**
 
+`AT+MUSART=,,E,,0`
 
-  - **Response:**
+- **Meaning:** Set Serial Interface Information
 
+- **Response:**
 
-
-    [S,,<BR>,( <W>, <P>, <S> ) <F>]
-
-
-
-  - **Example2:**
-
-
-
-    AT+MUSART=,,E,,0
-
-
-
-  - **Meaning:** Set Serial Interface Information
-
-
-
-  - **Response:**
-
-
-
-    [S]
-
-
+`[S]`
 
 -----
 
-====AT+MDATA====
-  
-  
-  
-\* **Format:** 
+### AT+MDATA
+   
+**Format:** 
 
-    AT+MDATA
+`AT+MDATA`
 
+- **Meaning:** Terminal Check - exit AT Command mode
 
+- **Response:**
 
-  - **Meaning:** Terminal Check - exit AT Command mode
-
-
-
-  - **Response:**
-
-
-
-    [S]
-
-  
+`[S]`
 
 -----
 
@@ -826,38 +666,27 @@ AT
 
 | Command                                                      | Prop. | Input Parameter | Input Resp.          | Query Response |
 | ------------------------------------------------------------ | ----- | --------------- | -------------------- | -------------- |
-| [AT+FDNS](/products/wiz550sr/wiz550sr_userguide_en&#at+fdns) | None  |                 | \[D,,(Size)\]↓(Data) |                |
+| [AT+FDNS](#atfdns) | None  |                 | \[D,,(Size)\]↓(Data) |                |
 
 -----
 
-====AT+FDNS====
+### AT+FDNS
   
   
   
-\* **Format:** 
+**Format:** 
 
-    AT+FDNS
+`AT+FDNS`
 
+- **Meaning:** Do DNS Query and then return its result. Using Domain  and DNS Server IP what has set via Configuration Tool.
 
-
-  - **Meaning:** Do DNS Query and then return its result. Using Domain
-    and DNS Server IP what has set via Configuration Tool.
-
-
-
-  - **Response:**
-
-
+- **Response:**
 
     [D,,13]
     DNS Timeout
 
- 
-
     [D,,17]
     173.194.126.180
-
-
 
 -----
 
@@ -866,10 +695,7 @@ AT
 ### Description
 
 ![](/img/products/wiz550s2e/wiz550s2epg_kr/configtool/global_config.png)  
-WIZ550SR Configuration tool is an application program which is based on
-java and can be used in most OS platforms including Windows, MAC OS and
-Linux. Please download .jar file and execute it over Java Virtual
-Machine.
+WIZ550SR Configuration tool is an application program which is based on java and can be used in most OS platforms including Windows, MAC OS and Linux. Please download .jar file and execute it over Java Virtual Machine.
 
 There are two options on how to run the configuration tool.
 
@@ -913,15 +739,13 @@ re-initialize and save the changed configurations.
 Users can change the configurations by the following steps.  
 ![](/img/products/wiz550s2e/wiz550s2epg_kr/configtool/password.png)
 
-    1. Select the MAC address of the device which you would like to modify in the
-       “Search Window”
-    2. Modify the settings according to your needs
-    3. Click the “Setting” button and then "Password Input Windows" pop up
+1. Select the MAC address of the device which you would like to modify in the “Search Window”
+2. Modify the settings according to your needs
+3. Click the “Setting” button and then "Password Input Windows" pop up
       - Default Password is "WIZnet"
-    4. Input "Setting Password" and Click "OK" button
-    5. The module will be initialized by a re-booting process
-    6. To verify your settings, please click ‘Search’ button and view your new 
-       settings
+4. Input "Setting Password" and Click "OK" button
+5. The module will be initialized by a re-booting process
+6. To verify your settings, please click ‘Search’ button and view your new settings
 
 ### F/W Uploading
 
@@ -930,28 +754,23 @@ a popup window will shows as follow.
 ![](/img/products/wiz550s2e/wiz550s2epg_kr/configtool/tftp_server_info.png)  
 Server IP : TFTP Server IP
 
-    Server Port : TFTP Server Port (TFTP default Port : 69)
-    File Name : Firmware File Name
-    Password : Setting Password
+Server Port : TFTP Server Port (TFTP default Port : 69)
+File Name : Firmware File Name
+Password : Setting Password
 
 ☞ WIZ550SR Configure tool is not supported TFTP server. So you use TFTP
 program separately.  
-more detail : ![F/W Upload using TFTP
-Guide](/http///wizwiki.net/wiki/lib/exe/fetch.php)  
+more detail : ![F/W Upload using TFTP Guide](/http///wizwiki.net/wiki/lib/exe/fetch.php)  
 
 ### Reset
 
-This is the function which makes Module reboot. This requires password
-to reboot.
+This is the function which makes Module reboot. This requires password to reboot.
 
 ### Factory Reset
 
-All setting value is initialized to factory default, if the “Factory
-Reset” button is clicked. Factory default values of WIZ550SR are listed
-below.  
-^ Category ^ Item ^ Value ^
+All setting value is initialized to factory default, if the “Factory Reset” button is clicked. Factory default values of WIZ550SR are listed below.  
 
-|             |                        |                   |
+| Category    |   Item          |     Value  |
 | ----------- | ---------------------- | ----------------- |
 | **Network** | Local IP               | 192.168.11.100    |
 | :::         | Local Gateway          | 192.168.11.1      |
@@ -1001,9 +820,9 @@ It displays the firmware version.
 
 This field shows the current status of network connection.
 
-    Connected : This means that TCP connection is established.
-    Disconnected : This measn that TCP connection is disconnected.
-    UDP : This means that UDP mode is used.
+Connected : This means that TCP connection is established.
+Disconnected : This measn that TCP connection is disconnected.
+UDP : This means that UDP mode is used.
 
 -----
 
@@ -1016,149 +835,77 @@ This field shows the current status of network connection.
 This section is for setting WIZ550SR mode's network
 information  
 
-    IP: 
-        WIZ550SR's IP Address
-    Gateway: 
-        WIZ550SR's Gateway Address
-    Subnet mask: 
-        WIZ550SR's Subnet Mask
-    Host IP: 
-        Peer system's IP address which WIZ550SR connects(or sends) to, 
-        when its operating mode is "TCP Client","TCP Mixed" or "UDP".
+IP: WIZ550SR's IP Address
+Gateway: WIZ550SR's Gateway Address
+Subnet mask: WIZ550SR's Subnet Mask
+Host IP: Peer system's IP address which WIZ550SR connects(or sends) to, when its operating mode is "TCP Client","TCP Mixed" or "UDP".
 
-☞ If you are unclear about your Local IP, Subnet Mask, Gateway
-information, you have to get this information from your network
-administrator. If the IP address is not correct, IP collision or network
-problems may occur.  
+☞ If you are unclear about your Local IP, Subnet Mask, Gateway information, you have to get this information from your network administrator. If the IP address is not correct, IP collision or network problems may occur.  
   
 ### Port
 
 This section is for setting WIZ550SR's Port information.
 
-    Local port : 
-        WIZ550SR's local port number
-    Remote port : 
-        Peer system socket's port number which WIZ550SR connects(or sends) to ,
-        when its operating mode is "TCP Client","TCP Mixed" or "UDP".
+Local port : WIZ550SR's local port number
+Remote port : Peer system socket's port number which WIZ550SR connects(or sends) to, when its operating mode is "TCP Client","TCP Mixed" or "UDP".
 
   
 ### Working Mode
 
-The working mode of WIZ550SR can be divided into
-TCP Server, TCP Client and TCP Mixed according to the connection
-establishing method, but UDP processes the data communication without
-connection establishment.  
+The working mode of WIZ550SR can be divided into TCP Server, TCP Client and TCP Mixed according to the connection establishing method, but UDP processes the data communication without connection establishment.  
   
-During TCP server mode, WIZ550SR operates as the server and waits for
-the connection trial from the client. WIZ550SR operates as the client in
-TCP Client mode and tries to connect to the server’s IP and Port. Mixed
-mode supports both Server and Client. The communication process of each
-mode is as below.  
+During TCP server mode, WIZ550SR operates as the server and waits for the connection trial from the client. WIZ550SR operates as the client in TCP Client mode and tries to connect to the server’s IP and Port. Mixed mode supports both Server and Client. The communication process of each mode is as below.  
 
 #### TCP server mode communication
 
-During the TCP Server mode, WIZ550SR waits for the connection request.
-TCP Server mode can be useful when the monitoring center attempts to
-connect to the device, while WIZ550SR is installed, in order to check
-the status or provide commands. Normally WIZ550SR is on the waiting
-status, and if connection request (SYN) from the monitoring center is
-received, the connection is established (ESTABLISH), and data
-communication is processed (Data Transaction), and finally connection is
-closed (FIN). In order to operate this mode, “Device IP”, “Subnet mask”,
-“Gateway” and “Local port” should be configured first.
+During the TCP Server mode, WIZ550SR waits for the connection request. TCP Server mode can be useful when the monitoring center attempts to connect to the device, while WIZ550SR is installed, in order to check the status or provide commands. Normally WIZ550SR is on the waiting status, and if connection request (SYN) from the monitoring center is received, the connection is established (ESTABLISH), and data communication is processed (Data Transaction), and finally connection is
+closed (FIN). In order to operate this mode, “Device IP”, “Subnet mask”, “Gateway” and “Local port” should be configured first.
 
-For TCP server mode communication, all network configurations including
-Local IP, Subnet, Gateway and Local port number should be set correctly.
+For TCP server mode communication, all network configurations including Local IP, Subnet, Gateway and Local port number should be set correctly.
 
 The Data transmission proceeds as below.
 
-1.  The host connects to the WIZ550SR which is configured as TCP Server
-    mode.
-2.  As the connection is established, data can be transmitted in both
-    directions 
+1.  The host connects to the WIZ550SR which is configured as TCP Server mode.
+2.  As the connection is established, data can be transmitted in both directions 
 
-
-
-``` 
-   (host -> WIZ550SR / WIZ550SR -> host)
-```
+`(host -> WIZ550SR / WIZ550SR -> host)`
 
 #### TCP client mode communication
 
-If WIZ550SR is set as TCP Client, it tries to establish connection to
-the TCP server. To operate this mode, “Device IP”, “Subnet mask”,
-“Gateway”, “Remote host”, and “Remote port” should be set. If “Remote
-host” has a domain name, you should use the “DNS server” field. In TCP
-Client mode, WIZ550SR can actively establish a TCP connection to a host
-computer when power is supplied.
+If WIZ550SR is set as TCP Client, it tries to establish connection to the TCP server. To operate this mode, “Device IP”, “Subnet mask”, “Gateway”, “Remote host”, and “Remote port” should be set. If “Remote host” has a domain name, you should use the “DNS server” field. In TCP Client mode, WIZ550SR can actively establish a TCP connection to a host computer when power is supplied.
 
 The Data transmission proceeds as below:
 
-1.  As power is supplied, WIZ550SR board operating as TCP client mode
-    actively establishes a connection to the TCP server.
-2.  If the connection is complete, data can be transmitted in both
-    directions
+1.  As power is supplied, WIZ550SR board operating as TCP client mode actively establishes a connection to the TCP server.
+2.  If the connection is complete, data can be transmitted in both directions
 
-
-
-``` 
-   (host -> WIZ550SR / WIZ550SR -> host)
-```
+`(host -> WIZ550SR / WIZ550SR -> host)`
 
 #### TCP Mixed mode Communication
 
-In this mode, WIZ550SR normally operates as TCP Server and waits for the
-connection request from the peer. However, if WIZ550SR receives data
-from the serial device before connection is established, it changes to
-the TCP client mode and sends the data to the TCP server IP. Therefore,
-during TCP mixed mode, the TCP server mode is operated prior to the TCP
-client mode.  
+In this mode, WIZ550SR normally operates as TCP Server and waits for the connection request from the peer. However, if WIZ550SR receives data from the serial device before connection is established, it changes to the TCP client mode and sends the data to the TCP server IP. Therefore, during TCP mixed mode, the TCP server mode is operated prior to the TCP client mode.  
   
-Like TCP Server mode, the TCP Mixed mode is useful in case where the
-monitoring center attempts to connect to the serial device, while
-WIZ550SR is used, to check the device status. In addition to this, if
-any emergency occurs in the serial device, the module will change to TCP
-Client mode to establish the connection to the TCP server and deliver
-the emergency status of the device.  
+Like TCP Server mode, the TCP Mixed mode is useful in case where the monitoring center attempts to connect to the serial device, while WIZ550SR is used, to check the device status. In addition to this, if any emergency occurs in the serial device, the module will change to TCP Client mode to establish the connection to the TCP server and deliver the emergency status of the device.  
 
 #### UDP mode Communication
 
-UDP is not a connection oriented protocol but the communication port
-should be defined well. If UDP mode is selected, the data from serial
-interface can be defined where to deliver via the “Remote host” and
-“Remote port.” The WIZ550SR can also be defined where to receive
-Ethernet data from via the “Remote host” and “Local port” definition.  
+UDP is not a connection oriented protocol but the communication port should be defined well. If UDP mode is selected, the data from serial interface can be defined where to deliver via the “Remote host” and “Remote port.” The WIZ550SR can also be defined where to receive Ethernet data from via the “Remote host” and “Local port” definition.  
   
-If the data destination and source are the same, the two IP addresses
-will also be the same. Please note that the destination and source are
-using the same port.  
+If the data destination and source are the same, the two IP addresses will also be the same. Please note that the destination and source are using the same port.  
 
 ### Timer
 
 #### Inactivity
 
-When there is no data transmission, the connection will close
-automatically after the specified inactivity time. If the default value
-‘0’ is set as the Inactivity time, the network connection is
-maintained even though there is no data transmission. In this case, you
-should use the ‘Close’ command to close the connection.  
+When there is no data transmission, the connection will close automatically after the specified inactivity time. If the default value ‘0’ is set as the Inactivity time, the network connection is maintained even though there is no data transmission. In this case, you should use the ‘Close’ command to close the connection.  
   
-This function is useful when there are two or more systems connected to
-the WIZ550SR module. If one system is connected to the WIZ550SR, other
-systems cannot connect to the module simultaneously. Therefore, the
-inactivity time should be set and the other system can connect to the
-module after the inactivity time is elapsed.  
+This function is useful when there are two or more systems connected to the WIZ550SR module. If one system is connected to the WIZ550SR, other systems cannot connect to the module simultaneously. Therefore, the inactivity time should be set and the other system can connect to the module after the inactivity time is elapsed.  
   
-Inactivity Time can also be used if the TCP server system unexpectedly
-shuts down. In this case, there is no data communication, and WIZ550SR
-will close the connection and enter into waiting state if the defined
-inactivity time elapses.
+Inactivity Time can also be used if the TCP server system unexpectedly shuts down. In this case, there is no data communication, and WIZ550SR will close the connection and enter into waiting state if the defined inactivity time elapses.
 
 #### Reconnection
 
-This is the interval time which WIZ550SR tries to connect again after
-connection is closed. This is valid only in "TCP Client" or "TCP Mixed"
-having data from serial prior to TCP connection is established.  
+This is the interval time which WIZ550SR tries to connect again after connection is closed. This is valid only in "TCP Client" or "TCP Mixed" having data from serial prior to TCP connection is established.  
 
 -----
 
@@ -1169,19 +916,12 @@ having data from serial prior to TCP connection is established.
 ### USART
 
 This menu is used for setting the serial port.  
-Baud Rate :
 
-``` 
-    WIZ550SR's Baud Rate
-Data Bits : 
-    WIZ550SR's Data Bits (7,8,9)
-Parity : 
-    WIZ550SR's Parity Bits
-Stop Bits : 
-    WIZ550SR's stop Bits
-Flow : 
-    WIZ550SR's Flow Control & RS422/RS485
-```
+Baud Rate : WIZ550SR's Baud Rate
+Data Bits : WIZ550SR's Data Bits (7,8,9)
+Parity : WIZ550SR's Parity Bits
+Stop Bits : WIZ550SR's stop Bits
+Flow : WIZ550SR's Flow Control & RS422/RS485
 
 ### AT Command
 
@@ -1190,34 +930,20 @@ capable to control the module through serial terminal (AT command).
   
 Module Default setting: Enable  
 Default trigger to AT command: 2B 2B 2B in Hex.  
-\==== Packing Conditions ==== Normally, data received from UART are sent
+
+### Packing Conditions
+
+Normally, data received from UART are sent
 to Ethernet immediately. But in many cases, users want to send data as a
 chunk of the whole frame without separated ones. This option is for
 packetizing data into one frame.
 
-    Time (0 ~ 65535 ms, ‘0’: Function Disable) : 
-        This field is for specifying time value (in ms) to judge whether one frame 
-        is received totally. If the time specified in this field is expired 
-        after receiving one byte, then WIZ550SR notice one data frame is finished, 
-        make an Ethernet packet with all data in its serial buffer and send it to 
-        the peer system via Ethernet. 
-        If WIZ550SR receives another byte from UART before the specified time is expired, 
-        it restart timer and add the received one to the end of serial data buffer.
-    Size (0 ~ 255 byte, ‘0’: Function Disable) : 
-        This field is for specifying size value to judge whether one frame is 
-        received totally. If the size specified in this field is received, then WIZ550SR 
-        notice one data frame is finished, make an Ethernet packet with specifying size's 
-        data in its serial buffer and send it to the peer system via Ethernet.       
-    Char : 
-        This field is for specifying delimiter value to judge whether one frame is 
-        received totally. Char delimiters can be set up to 4 bytes in HEX and valid 
-        character count is decided according to the value in Length field. In case the 
-        value of Length field is '0', this option becomes inactivated. 
-        Appendix is another option for this. If user selects any value in Appendix field,
-        WIZ550SR make an ethernet packet with all received data by Char delimiter and 
-        next bytes in counts, which designated by Appendix field. 
-        When Appendix is set with any value, not '0', even though WIZ550SR received Char 
-        delimiters, it will wait until it receives next data.
+Time (0 ~ 65535 ms, ‘0’: Function Disable) : 
+This field is for specifying time value (in ms) to judge whether one frame is received totally. If the time specified in this field is expired after receiving one byte, then WIZ550SR notice one data frame is finished, make an Ethernet packet with all data in its serial buffer and send it to the peer system via Ethernet. If WIZ550SR receives another byte from UART before the specified time is expired, it restart timer and add the received one to the end of serial data buffer.
+Size (0 ~ 255 byte, ‘0’: Function Disable) : 
+This field is for specifying size value to judge whether one frame is received totally. If the size specified in this field is received, then WIZ550SR notice one data frame is finished, make an Ethernet packet with specifying size's data in its serial buffer and send it to the peer system via Ethernet.       
+Char : 
+This field is for specifying delimiter value to judge whether one frame is received totally. Char delimiters can be set up to 4 bytes in HEX and valid character count is decided according to the value in Length field. In case the value of Length field is '0', this option becomes inactivated. Appendix is another option for this. If user selects any value in Appendix field, WIZ550SR make an ethernet packet with all received data by Char delimiter and next bytes in counts, which designated by Appendix field. When Appendix is set with any value, not '0', even though WIZ550SR received Char delimiters, it will wait until it receives next data.
 
 -----
 
@@ -1234,69 +960,30 @@ User can use this name to distinguish this module with others
 
 This is password field for authentication.  
 
-    Setting Password : 
-        Setting Password for Configuration Tool. Critical functions like "Setting", 
-        "Firmware Upload","Reset" and "Factory Reset" need this password to try issued 
-        action and avoid unauthorized users' command.
-        When user wants to change its default Setting Password with new one, put new 
-        one in this field.
-    Connection Password : 
-        When WIZ550SR is TCP server, it needs connection password to check whether TCP 
-        client is an unauthorized user or not. After TCP Client is connected, it must 
-        transfer correct "Connection Password" within 3 seconds. Otherwise, WIZ550SR 
-        will close its TCP connection.
+Setting Password : 
+Setting Password for Configuration Tool. Critical functions like "Setting", "Firmware Upload","Reset" and "Factory Reset" need this password to try issued action and avoid unauthorized users' command. When user wants to change its default Setting Password with new one, put new one in this field.
+Connection Password : 
+When WIZ550SR is TCP server, it needs connection password to check whether TCP client is an unauthorized user or not. After TCP Client is connected, it must         transfer correct "Connection Password" within 3 seconds. Otherwise, WIZ550SR will close its TCP connection.
 
 ### DHCP
 
-This decides how to obtain IP address. If user selects "Use DHCP" then
-WIZ550SR will obtain IP address dynamically by DHCP operation.
+This decides how to obtain IP address. If user selects "Use DHCP" then WIZ550SR will obtain IP address dynamically by DHCP operation.
 Otherwise, it will operate in static mode.  
 
-    Static mode :  
-      If user uses this mode by deselecting "Use DHCP", 
-      user has to set WIZ550SR with specific network information.  
-      1) First, select "MAC address" in "Search Windows"  
-      2) Then, IP setting section will be activated  
-      3) Fill those fields with information which user want to set.  
-      4) And press "Setting" button then network information will be 
-         changed with value user entered.
-    DHCP mode :
-      WIZ550SR's network information will be set automatically without user's interference.
+Static mode :  
+If user uses this mode by deselecting "Use DHCP", user has to set WIZ550SR with specific network information.  
+    1) First, select "MAC address" in "Search Windows"  
+    2) Then, IP setting section will be activated  
+    3) Fill those fields with information which user want to set.  
+    4) And press "Setting" button then network information will be changed with value user entered.
+DHCP mode :
+WIZ550SR's network information will be set automatically without user's interference.
 
 ### DNS
 
-This is valid in TCP Client mode only. Normally, TCP Client mode has to
-know its peer system's IP address. But there are some cases where the IP
-address is unknown and especially when the IP address change
-frequently.  
+This is valid in TCP Client mode only. Normally, TCP Client mode has to know its peer system's IP address. But there are some cases where the IP address is unknown and especially when the IP address change frequently.  
 In this case, DNS function is needed.
 
-User has to select “Use DNS” option and set DNS Server IP address and
-peer systems' Domain name in string. Put DNS Server IP, provided by ISP,
-into “DNS Server IP” field and peer system's Domain name into “Domain”
-field.
+User has to select “Use DNS” option and set DNS Server IP address and peer systems' Domain name in string. Put DNS Server IP, provided by ISP, into “DNS Server IP” field and peer system's Domain name into “Domain” field.
 
 -----
-
-## Navigation
-
------
-
-
-[![arrow\_back.png](/etc/arrow_back.png)](/products/wiz550sr/wiz550sr_userguide)  
-**Prev Page**  
-[](/products/wiz550sr/wiz550sr_userguide)
-
-
-[![arrow\_upward.png](/etc/arrow_upward.png)](/products/wiz550sr/wiz550sr_userguide_kr)  
-**Scroll to Top**
-
-
-[![arrow\_forward.png](/etc/arrow_forward.png)](/products/wiz550sr/wiz550sr_userguide_kr)  
-**Next Page**  
-[User's Guide(Kor)](/products/wiz550sr/wiz550sr_userguide_kr)
-
-
-
-[![arrow\_refresh.png](/etc/arrow_refresh.png)](/products/wiz550sr/start)  
-**Back to Product Main**
