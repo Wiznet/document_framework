@@ -4,7 +4,7 @@ title: Datasheet(Eng)
 date: 2020-04-13
 ---
 
-# Overview
+## Overview
 
 This page provides information about the hardware of WIZ550web and its
 Baseboard as following:
@@ -19,9 +19,9 @@ of hardware specification or exterior design.
 
 -----
 
-# Hardware Specification
+## Hardware Specification
 
-## WIZ550web
+### WIZ550web
 
   - MCU : STM32F103RCT6 (256KB Flash, 48KB SRAM)
   - TCP/IP Controller : W5500
@@ -195,8 +195,8 @@ Jumper](/img/products/wiz550web/wiz550web_bb_analog_jumper.png)
 
 | 항목                  | Version | Schematic                                                            |
 | ------------------- | ------- | -------------------------------------------------------------------- |
-| WIZ550web           | **1.1** | [](/img/products/wiz550web/wiz550webds_kr/wiz550web_v1.1_20151217.pdf)  |
-| WIZ550web Baseboard | **1.0** | [](/img/products/wiz550web/wiz550webds_kr/wiz550web-bb_v100_140925.pdf) |
+| WIZ550web           | **1.1** | [Download](/img/products/wiz550web/wiz550webds_kr/wiz550web_v1.1_20151217.pdf)  |
+| WIZ550web Baseboard | **1.0** | [Download](/img/products/wiz550web/wiz550webds_kr/wiz550web-bb_v100_140925.pdf) |
 
 ## Parts Datasheet
 

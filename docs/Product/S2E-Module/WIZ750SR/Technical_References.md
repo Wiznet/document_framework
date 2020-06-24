@@ -4,7 +4,7 @@ title: Technical References
 date: 2020-04-08
 ---
 
-## Content
+
 
 # WIZ750SR Technical References
 

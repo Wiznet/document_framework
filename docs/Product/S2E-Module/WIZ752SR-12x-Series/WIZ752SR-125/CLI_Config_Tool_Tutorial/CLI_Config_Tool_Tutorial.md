@@ -4,7 +4,7 @@ title: CLI Config Tool Tutorial
 date: 2020-04-09
 ---
 
-## Content
+
 
 # CLI Configuration Tool Tutorial
 

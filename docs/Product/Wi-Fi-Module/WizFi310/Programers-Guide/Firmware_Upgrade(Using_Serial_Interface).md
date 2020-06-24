@@ -4,21 +4,18 @@ title: Firmware Upgrade(Using Serial Interface)
 date: 2020-05-13
 ---
 
-# Firmware Upgrade (Using Serial Interface)
-
 WizFi310 can be upgraded using serial interface. These are methods how
 to upload firmware using serial interface.
 
 ## Using Firmware Upgrade Tool
 
-WIZnet supports \<WizFi310\_Update\_Tool\> for uploading firmware. This
+WIZnet supports &#60;WizFi310_Update_Tool&#62; for uploading firmware. This
 tool used XMODEM protocol with WizFi310 and it can be downloaded at
-[WizFi310 Firmware(Using
-Serial)](/img/products/wizfi310/wizfi310pg/upgrade_tool_1.png).
+[WizFi310 Firmware(Using Serial)](../wizfi310_firmware_using_serial).
 
 ### Step 1
 
-Execute "WizFi310\_Update\_Tool.exe" and select serial port and baud
+Execute "WizFi310_Update_Tool.exe" and select serial port and baud
 rate. For your information, WizFi310 is set to 115200 for default
 baudrate.
 
@@ -26,13 +23,13 @@ baudrate.
 
 ### Step 2
 
-If you push \<browse\> button, you can select binary file.
+If you push &#60;browse&#62; button, you can select binary file.
 
 ![](/img/products/wizfi310/wizfi310pg/upgrade_tool_2.png)
 
 ### Step 3
 
-If you select \<Upload\> button, This tool will try to upload firmware
+If you select &#60;Upload&#62; button, This tool will try to upload firmware
 to WizFi310 as below.
 
 ![](/img/products/wizfi310/wizfi310pg/upgrade_tool_3.png)
@@ -49,9 +46,7 @@ binary whether it is right.
 ## Using TeraTerm
 
 TeraTerm is terminal emulator. This software is open source software
-under BSD License. For more detailed information, Refer to it. 🌎(
-<https://ttssh2.osdn.jp/> ) You can download TeraTerm at this URL. 🌎(
-<https://en.osdn.jp/projects/ttssh2/releases/> )
+under BSD License. For more detailed information, Refer to it. 🌎(https://ttssh2.osdn.jp/) You can download TeraTerm at this URL. 🌎(https://en.osdn.jp/projects/ttssh2/releases/)
 
 In order to set for upgrading firmware, You can use
 [AT+MUPGRADE]()
@@ -68,7 +63,7 @@ below.
 
 #### Step 2
 
-Select \[File\]-\[Transfer\]-\[XMODEM\]-\[Send\]
+Select [File]-[Transfer]-[XMODEM]-[Send]
 ![](/img/products/wizfi310/wizfi310pg/teraterm_2.png)
 
 #### Step 3

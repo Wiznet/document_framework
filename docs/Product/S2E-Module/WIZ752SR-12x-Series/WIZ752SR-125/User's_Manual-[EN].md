@@ -4,7 +4,7 @@ title: User's Manual-[EN]
 date: 2020-04-15
 ---
 
-## Content
+
 
 # WIZ750SR User's Manual
 

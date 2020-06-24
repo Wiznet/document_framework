@@ -13,9 +13,9 @@ develop their Internet enabling system rapidly.
 
 ## Product Family
 
-  - [WIZ850io](/products/wiz850io/start): W5500 w/ MagJack, Compact
+  - [WIZ850io](WIZ850io/wiz850io): W5500 w/ MagJack, Compact
     size(Hardware compatible with WIZ820io)
-  - [WIZ550io](/products/wiz550io/start): W5500 w/ MagJack, Unique MAC
+  - [WIZ550io](WIZ550io/overview): W5500 w/ MagJack, Unique MAC
     Address, Auto-configurable
   - 🌎[WIZ820io](http://www.wiznet.io/product-item/wiz820io/): W5200 w/
     MagJack, Compact Size 

@@ -4,7 +4,7 @@ title: Getting Started Guide-[KO]
 date: 2020-04-13
 ---
 
-## Content
+
 
 # Getting Started with WIZ752SR-120
 

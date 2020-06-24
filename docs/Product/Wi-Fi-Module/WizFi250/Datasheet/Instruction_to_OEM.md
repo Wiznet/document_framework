@@ -3,12 +3,9 @@ id: instruction_to_oem
 title: Instruction to OEM
 date: 2020-05-12
 ---
-
-## Instruction to OEM
-
  
 This device complies with Industry Canada’s licence-exempt RSSs.
-Operation is subject to the following two conditions: // //
+Operation is subject to the following two conditions:
 
 (1) This device may not cause interference; and  
 (2) This device must accept any interference, including interference

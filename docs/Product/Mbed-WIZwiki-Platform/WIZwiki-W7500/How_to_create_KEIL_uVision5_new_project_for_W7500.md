@@ -1,4 +1,8 @@
-# How to make W7500 Keil Project
+---
+id: how_to_make_w7500_keil_project
+title: How to make W7500 Keil Project
+date: 2020-04-08
+---
 
 ******************************************************************************
 (C) COPYRIGHT 2015 WIZnet
@@ -17,14 +21,14 @@ This application note is a tutorial for making a KEIL project for W7500 MCU. Thi
 
 ### STEP 1. Download and install KEIL5!
 
-![](http://wizwiki.net/wiki/lib/exe/fetch.php?media=products:w7500:documents:appnote:keil0.jpg)
+![](/img/products/w7500/overview/keil0.jpg)
 
 * Download MDK-ARM v5 : [KEIL5](https://www.keil.com/download/product/)
-* Installation instructions, please see the Link : [Install](http://wizwiki.net/wiki/doku.php?id=products:w7500:documents:appnote:install_uvision)
+* Installation instructions, please see the Link : [Install](how_to_install_keil_uvision)
 
 ### STEP 2. Download W7500 Library!
 
-![](http://wizwiki.net/wiki/lib/exe/fetch.php?media=products:w7500:documents:appnote:keil1.jpg)
+![](/img/products/w7500/overview/keil1.jpg)
 
 You can download W7500 Library from WIZnet's Github repository : [W7500 Library](https://github.com/Wiznet/W7500)
 
@@ -45,7 +49,7 @@ Click to New uVision Project...
 Select a project save folder and choose project name.
 In this example, **D:\workspace\project\W7500_test\W7500_Test.uvproj**
 
-![](http://wizwiki.net/wiki/lib/exe/fetch.php?media=products:w7500:documents:appnote:keil5.jpg)
+![](/img/products/w7500/overview/keil5.jpg)
 
 Choose 'Cortex-M0' because W7500 MCU is based on Cortex-M0
 
@@ -56,15 +60,15 @@ Choose 'Cortex-M0' because W7500 MCU is based on Cortex-M0
 Return to project. You need to make the same folders like the image which is shown on right side
 
 ![](/img/products/w7500/overview/keil8.jpg)
-![](http://wizwiki.net/wiki/lib/exe/fetch.php?media=products:w7500:documents:appnote:direction_leftdown.jpg)
+![](/img/products/w7500/overview/direction_leftdown.jpg)
 ![](/img/products/w7500/overview/keil9.jpg)
-![](http://wizwiki.net/wiki/lib/exe/fetch.php?media=products:w7500:documents:appnote:direction_leftdown.jpg)
+![](/img/products/w7500/overview/direction_leftdown.jpg)
 ![](/img/products/w7500/overview/keil10.jpg)
-![](http://wizwiki.net/wiki/lib/exe/fetch.php?media=products:w7500:documents:appnote:direction_leftdown.jpg)
+![](/img/products/w7500/overview/direction_leftdown.jpg)
 ![](/img/products/w7500/overview/keil11.jpg)
-![](http://wizwiki.net/wiki/lib/exe/fetch.php?media=products:w7500:documents:appnote:direction_leftdown.jpg)
-![](/document_frameworkimg/products/w7500/overview/keil12.jpg)
-![](http://wizwiki.net/wiki/lib/exe/fetch.php?media=products:w7500:documents:appnote:direction_leftdown.jpg)
+![](/img/products/w7500/overview/direction_leftdown.jpg)
+![](/img/products/w7500/overview/keil12.jpg)
+![](/img/products/w7500/overview/direction_leftdown.jpg)
 ![](/img/products/w7500/overview/keil13.jpg)
 
 Follow like upper images. 
@@ -104,7 +108,7 @@ Select 'Include Paths' in C\C++ tap and click the folder icon and click to ... i
 
 ![](/img/products/w7500/overview/keil20.jpg)
 
-![](http://wizwiki.net/wiki/lib/exe/fetch.php?media=products:w7500:documents:appnote:keil+.jpg)
+![](/img/products/w7500/overview/keil_.jpg)
 
 Set 'include path' with
 
@@ -114,8 +118,6 @@ Set 'include path' with
 
 ![](/img/products/w7500/overview/keil21.jpg)
 
-
-
 ### STEP 7. Memory setting!
 
 ![](/img/products/w7500/overview/keil18.jpg)
@@ -123,7 +125,7 @@ Set 'include path' with
 Click "Options for Target..."
 
 ![](/img/products/w7500/overview/keil22-1.jpg)
-![](http://wizwiki.net/wiki/lib/exe/fetch.php?media=products:w7500:documents:appnote:direction_down.jpg)
+![](/img/products/w7500/overview/direction_down.jpg)
 ![](/img/products/w7500/overview/keil22-2.jpg)
 
 Click "Target" tap and set with the values which are shown in above pictures
@@ -178,7 +180,7 @@ Click "Options for Target..."
 
 Click "Include Paths" in C\C++ tap, "folder icon and ... icon
 
-![](http://wizwiki.net/wiki/lib/exe/fetch.php?media=products:w7500:documents:appnote:keil29.jpg)
+![](/img/products/w7500/overview/keil29.jpg)
 
 Set "include path" with **D:\workspace\project\W7500_Test**
 

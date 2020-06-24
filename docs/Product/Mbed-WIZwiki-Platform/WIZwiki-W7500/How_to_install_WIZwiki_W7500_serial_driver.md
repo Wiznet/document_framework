@@ -1,7 +1,8 @@
-# How to install WIZwiki-W7500 serial driver
-
------
-
+---
+id: how_to_install_wizwiki_7500_serial_driver
+title: How to install WIZwiki-W7500 serial driver
+date: 2020-04-07
+---
 
 ## Overview
 

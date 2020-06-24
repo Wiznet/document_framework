@@ -6,6 +6,6 @@ date: 2020-04-15
 
 
 
- * [ioShield-A]()
- * [ioShield-K]()
- * [ioShield-L]()
+ * [ioShield-A](../../Open-Source-Hardware/ioshield_a)
+ * [ioShield-K](../../Open-Source-Hardware/ioshield_k)
+ * [ioShield-L](../../Open-Source-Hardware/ioshield_l)

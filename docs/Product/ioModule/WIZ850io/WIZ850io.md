@@ -15,7 +15,7 @@ compatible with WIZ820io. WIZ820io users, to migrate to WIZ850io, need
 to modify the Firmware.  
 
 For the detailed information on implementation of Hardware TCP/IP, refer
-to the [W5500 Datasheet](/products/w5500/start).
+to the [W5500 Datasheet](../../iEthernet/W5500/datasheet).
 
 ![WIZ850io](/img/products/wiz850io/wiz850io.png)  
 
@@ -37,7 +37,9 @@ to the [W5500 Datasheet](/products/w5500/start).
 ### Pin Out
 
 ![WIZ850io Pinmap](/img/products/wiz850io/wiz850io_pinmap.png)  
-## Pin Description
+
+### Pin Description
+
 <table>
 <thead>
 <tr class="header">
@@ -164,7 +166,7 @@ communicate with WIZ850io. (Refer to 5. Timing Diagram)
 
 ## Characteristic
 
-### DC Charcteristic
+### DC Characteristic
 
 <table>
 <thead>
@@ -282,7 +284,7 @@ communicate with WIZ850io. (Refer to 5. Timing Diagram)
 
 As WIZ850io consists of W5500 and others, SPI operation of WIZ850io
 follows one of W5500. For more information about SPI operation of
-WIZ850io, please refer to [W5500 Datasheet](/products/w5500/start).
+WIZ850io, please refer to [W5500 Datasheet](../../iEthernet/W5500/datasheet)).
 
 -----
 
@@ -335,7 +337,8 @@ WIZ850io, please refer to [W5500 Datasheet](/products/w5500/start).
 
 ## Where to Buy
 
-![WIZnet Online Shop](/img/products/w5500/w5500_evb/icons/buy_now.jpg)  
-[![WIZnetUS Online Shop, USA](/products/w5500/w5500_evb/icons/dollar.png)](http://www.shopwiznet.com/)
-[![WIZnetEU Online Shop, Germany](/products/w5500/w5500_evb/icons/european-euro.png)](http://shop.wiznet.eu/)
-[![WIZnetKorea Online Shop, Korea](/products/w5500/w5500_evb/icons/won.png)](http://shop.wiznet.co.kr/)
+![WIZnet Online Shop](/img/products/w5500/buynow.png)  
+[![WIZnetHK Online Shop, HK](/img/products/w5500/w5500_evb/icons/dollar.png)](https://www.wiznet.hk/en/network-module/91-wiz610io.html)
+[![WIZnetUS Online Shop, USA](/img/products/w5500/w5500_evb/icons/dollar.png)](http://www.shopwiznet.com/)
+[![WIZnetEU Online Shop, Germany](/img/products/w5500/w5500_evb/icons/european-euro.png)](http://shop.wiznet.eu/)
+[![WIZnetKorea Online Shop, Korea](/img/products/w5500/w5500_evb/icons/won.png)](http://shop.wiznet.co.kr/)

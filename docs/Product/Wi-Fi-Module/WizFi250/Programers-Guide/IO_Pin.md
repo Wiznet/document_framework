@@ -9,7 +9,7 @@ date: 2020-05-12
 |**Pin Name**|**Direction**|**Description**|
 |------------|-------------|---------------|
 |BOOT|IN|Enter into boot mode When boot or reset is performed, if this pin is tied low, it will enter into boot mode. Users can do APP/DCT(DCT : Device Configuration Table for WizFi250-Configuration-Data) upload or factory recovery in the boot mode through UART.* LOW : Start as boot mode *  HIGH: Start as application mode|
-|FUNCTION|IN|Perform pre-defined action Perform pre-defined action at the booting or while running. This can be used when UART cannot be used.(Refer to [FUNCTION Pin Usage]())|
+|FUNCTION|IN|Perform pre-defined action Perform pre-defined action at the booting or while running. This can be used when UART cannot be used.(Refer to [FUNCTION Pin Usage](#function-pin-usage))|
 |LED1|OUT|Indicate WiFi Association When WiFi is joined (associated) with router in STA mode or with station in AP mode, it will be changed to low state (LED On). And when left(disassociated), it will be returned to high state (LED Off).♦ LOW (LED ON) : WiFi is Associated ♦ HIGH(LED OFF): WiFi is Not associated|
 |LED2|OUT|	Indicate Data/Command Mode If serial (UART or SPI) interface mode is data mode, this pin will be tied low state (LED On). And if it is command mode, it will be tied high state (LED Off).♦ LOW (LED ON) : Data Mode ♦ HIGH(LED OFF): Command Mode|
 |SPI_DATA_READY|OUT|Indicates that there is data to send through SPI When WizFi250 has data to send in the SPI mode, this will be changed to high state. This pin can be used for awakening host MCU.|

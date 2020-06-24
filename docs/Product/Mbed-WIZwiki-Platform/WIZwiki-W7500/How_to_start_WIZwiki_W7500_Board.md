@@ -1,4 +1,8 @@
-# How to start WIZwiki-W7500 Board
+---
+id: how_to_start_wizwiki_w7500_board
+title: How to start WIZwiki-W7500 Board
+date: 2020-04-07
+---
 
 When you get a WIZwiki-W7500 platform board first on your hand, the
 serial driver installation and hardware test are needed. Because
@@ -12,7 +16,7 @@ communicate through UART1 on W7500 (Target MCU).
 To install the serial driver from ARM mbed, please refer to the below
 link.
 
-   * [How to install WIZwiki-W7500 serial driver](How_to_install_WIZwiki_W7500_serial_driver.md)
+   * [How to install WIZwiki-W7500 serial driver](how_to_install_wizwiki_7500_serial_driver)
 
 -----
 
@@ -21,7 +25,7 @@ link.
 WIZwiki-W7500 has a built-in default firmware. You can do self-test with
 the default firmware as below.
 
-   * [Download WIZwiki-W7500 Examples Binary](Download_WIZwiki_W7500_Examples_Binary.md)
+   * [Download WIZwiki-W7500 Examples Binary](how_to_write_firmware_into_wizwiki_w7500#examples-binary)
 
 **Test Sequence**
 
@@ -69,7 +73,3 @@ WIZwiki-W7500.
 any problem.
 
    * [Hardware test binany download](/img/products/w7500/overview/w7500x_wztoe_manu.zip)
-
-
-
-## Welcome to WIZwiki-W7500

@@ -4,8 +4,6 @@ title: Getting Started Guide(Eng)
 date: 2020-04-13
 ---
 
-# Getting Started Guide with WIZ550web
-
 WIZ550web is an embedded Web server module based on WIZnet’s W5500
 hardwired TCP/IP chip, Users can control & monitor the 16-configurable
 digital I/O and 4-ADC inputs on module via web pages. WIZ550web provides
@@ -166,8 +164,6 @@ link status** or **SD Card mount** is not operational.
 1.  **LAN cable connection and Link status (Act LED of the LAN port)**
 2.  **SD card mount status (insertion)**
 
-
-
 The factory default setting of UART1 is as below and the user can change
 settings through the demo web pages & AT commands.
 
@@ -276,10 +272,8 @@ below.
 
 \* **Digital I/O Status**: Indicates Digital I/O's Direction and Status
 
-``` 
   * On-board LED Status
   * Digital I/O Direction / Status: When the I/O is output direction, users can be set On/Off
-```
 
   - **ADC Status**: Displays the Analog input value changes into a bar
     graphs

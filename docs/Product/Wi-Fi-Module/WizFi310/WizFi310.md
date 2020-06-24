@@ -3,9 +3,8 @@ id: wizfi310
 title: WizFi310
 date: 2020-05-13
 ---
-## WizFi310
 
-### Overview
+## Overview
 
 WizFi310 offers a quick, easy, and cost-effective way for device and
 appliance manufacturers to add WiFi capabilities to their products.
@@ -19,7 +18,7 @@ removes the burden on testing and certification. This allows customers
 to focus on their core application and product development .  
   
 WizFi310 is compliant with 802.11b/g/n.  
-\<slider :/img/products/wizfi310/wizfi310_evb_1.png>
+<!--\<slider :/img/products/wizfi310/wizfi310_evb_1.png>
 
   - **WizFi310-EVB Front**
 
@@ -40,8 +39,8 @@ WizFi310 is compliant with 802.11b/g/n.
   - **WizFi310-CON with U.FL Antenna**
 
 \</slider\>
-
-### Features
+-->
+## Features
 
   - Single band 2.4GHz IEEE 802.11b/g/n
   - 72.2Mbps receive PHY rate and 72.2Mbps transmit PHY rate using 20MHz
@@ -63,22 +62,16 @@ WizFi310 is compliant with 802.11b/g/n.
    * L2 Switching
    * OTA(Over The Air F/W Upgrading)
 
+----  
 
-  
-  
-\----  
-**comparison to
-[WizFi250](http://www.wiznet.io/product-item/wizfi250/) module
-family:**
-### Material 
+**comparison to [WizFi250](http://www.wiznet.io/product-item/wizfi250/) module family:**
 
-  - [WizFi310 Datasheet](Datasheet.md)
-  - [WizFi310 Programmer's Guide]()
-  - [WizFi310 Quick Start Guide](Quick_Start_Guide.md)
-  - [WizFi310 EVB
-    Dimension]()
-  - [WizFi310 EVB SCH]()
-  - [WizFi310 Firmware(Using
-    Serial)]()
-  - [WizFi310 Firmware(Using
-    OTA)]()
+## Material 
+
+  - [WizFi310 Datasheet](datasheet)
+  - [WizFi310 Programmer's Guide](Programers-Guide/overview)
+  - [WizFi310 Quick Start Guide](quick_start_guide)
+  - [WizFi310 EVB Dimension](wizfi310_evb_if_dimension)
+  - [WizFi310 EVB SCH](wizfi310_evb_sch)
+  - [WizFi310 Firmware(Using Serial)](wizfi310_firmware_using_serial)
+  - [WizFi310 Firmware(Using OTA)](wizfi310_firmware_using_ota)

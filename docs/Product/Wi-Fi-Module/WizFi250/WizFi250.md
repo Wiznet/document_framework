@@ -4,7 +4,7 @@ title: WizFi250
 date: 2020-05-06
 ---
 
-### Overview
+## Overview
 
 WizFi250 offers a quick, easy, and cost-effective way for device and
 appliance manufacturers to add WiFi capabilities to their products.
@@ -18,7 +18,7 @@ product, or expertise. WizFi250 is compliant with 802.11b/g/n.
 ![](/img/products/wizfi250/dsc00057.jpg)  
 
 
-### Features 
+## Features 
 
   - Single band 2.4GHz IEEE 802.11b/g/n
   - Integrated RF power amplifier
@@ -51,7 +51,6 @@ footprint) :
 
 -----
 
-
 **WizFi250-CON** (smaller '**con**nector' version without the pattern
 antenna) :  
 ![WizFi250-CON\_2\_small.png](/img/products/wizfi250/wizfi250-con_2_small.png)  
@@ -62,13 +61,12 @@ antenna) :
 **comparison to
 🌎[WizFi210/220](http://www.wiznet.co.kr/sub_modules/en/product/Product_Line.asp?cate1=5&cate2=43)
 module family:**  
-[Please use this link for a comparison](comparison.md)
+[Please use this link for a comparison](comparison)
 
+## Material
 
-### Material
-
-  - [WizFi250 Datasheet](Datasheet/1.Introduction.md)
-  - [WizFi250 Programmer's Guide](Programer's-Guide/Overview.md)
-  - [WizFi250 Quick Start Guide]()
-  - [WizFi250 EVB SCH](WizFi250_EVB_SCH.md)
-  - [Reference YouTube](Reference_YouTube.md)
+  - [WizFi250 Datasheet](Datasheet/1_introduction)
+  - [WizFi250 Programmer's Guide](Programers-Guide/overview)
+  - [WizFi250 Quick Start Guide](Quick-Start-Guide/1_wizfi250_evaluation_board)
+  - [WizFi250 EVB SCH](wizfi250_evb_sch)
+  - [Reference YouTube](reference_youtube)

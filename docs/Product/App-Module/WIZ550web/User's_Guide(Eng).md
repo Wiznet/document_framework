@@ -4,8 +4,7 @@ title: User's Guide(Eng)
 date: 2020-04-13
 ---
 
-## WIZ550WEB Users' Guide
-### Overview
+## Overview
 WIZ550web provides the lightweight webserver operating. It controls digital output or monitors digital and analogue input through web browser. Example web pages is stored in micro SD memory card.
 
 ### Features
@@ -17,12 +16,16 @@ WIZ550web provides the lightweight webserver operating. It controls digital outp
  * RoHS Compliant
  
 ---
-### TFTP Guide Document
-[TFTP Guide Document]()
+
+## TFTP Guide Document
+
+[TFTP Guide Document](/img/products/wiz550web/wiz550webug_kr/wiz550web_tftp_guide.pdf)
 
 ---
-### Configuration Tool
-#### Description
+
+## Configuration Tool
+
+### Description
 
 WIZnet Configuration tool is an application program which is based on java and can be used in most OS platforms including Windows, MAC OS and Linux. Please download .jar file and execute it over Java Virtual Machine.
 
@@ -35,42 +38,43 @@ WIZnet Configuration tool consists four sections
 
 You can set the Common Configuration, “IP” of Network configuration with “Module Name” and “Setting Password” of Option configuration section for WIZ550WEB.
 
-**Notice) You can set WIZ550WEB module through WIZnet Configuration Tool version 1.02 or the latest version.**
+**Notice: You can set WIZ550WEB module through WIZnet Configuration Tool version 1.02 or the latest version.**
 
-#### Common Configurations
+### Common Configurations
 
 #### Search
+
 The Search function is used to search for all existing modules on the same LAN. By using UDP broadcast, it finds all modules on the same subnet, and found devices will be listed in the “Serial to Ethernet” tree(Search Window) with its MAC address.
 
 #### Setting
+
 This function is used to apply your configurations.
 When you select the MAC address from the “Search Window”, the default value of the module will be displayed. Modify your configurations and click “Setting” button to apply your settings. The module will re-initialize and save the changed configurations.
 Users can change the configurations by following the steps below
->
 
-    1. Select the MAC address of the device which you would like to modify in the 
-      “Search Window”
-    2. Modify the settings according to your needs
-    3. Click the “Setting” button and then "Password Input Windows" pop up
-      - Default Password is "WIZnet"
-    4. Input "Setting Password" and Click "OK" button
-    5. The module will be initialized by a re-booting process
-    6. To verify your settings, please click ‘Search’ button and view your new 
-      settings
+1. Select the MAC address of the device which you would like to modify in the “Search Window”
+2. Modify the settings according to your needs
+3. Click the “Setting” button and then "Password Input Windows" pop up
+  - Default Password is "WIZnet"
+4. Input "Setting Password" and Click "OK" button
+5. The module will be initialized by a re-booting process
+6. To verify your settings, please click ‘Search’ button and view your new settings
     
 #### F/W Uploading.
+
 Firmware will be uploaded through TFTP. Click “F/W Uploading” Button and a popup window will shows as follow.
 
->
+```
+Server IP : TFTP Server IP   
+Server Port : TFTP Server Port (TFTP default Port : 69)
+File Name : Firmware File Name
+Password : Setting Password
+```
 
-        Server IP : TFTP Server IP   
-        Server Port :  TFTP Server Port (TFTP default Port : 69)
-        File Name :Firmware File Name
-        Password : Setting Password
-            
 ☞ WIZnet Configure tool does not supported TFTP server. So please use TFTP program separately.
 
 #### Reset
+
 This is the function which makes Module reboot. This requires password to reboot.
 
 #### Factory Reset
@@ -100,7 +104,6 @@ It displays the firmware version.
 
 #### IP
 This section is for setting Module mode's network information
->
 
     IP: 
         Module's IP Address
@@ -111,13 +114,16 @@ This section is for setting Module mode's network information
 
 ☞ If you are unclear about your Local IP, Subnet Mask, Gateway information, you have to get this information from your network administrator. If the IP address is not correct, IP collision or network problems may occur.
 
-#### Options Configurations
+### Options Configurations
 
 
 #### Module Name
+
 The device name is displayed in this area.
 User can use this name to distinguish this module with others
+
 #### Password
+
 Currently active for WIZ550web: Field “Setting Password”.
 
 In this area the password for updating the settings can be changed. Critical functions like “Setting”, “Firmware Upload”, “Reset” and “Factory Reset” need this password to try issued action and avoid unauthorized users' command. If the user wants to replace the current or default Setting Password by a new one, this field should be updated with the new one before clicking on the “Setting” button and entering the old Setting Password.
@@ -126,6 +132,7 @@ Please note: the default Setting Password is **“WIZnet”** (without the brack
         
 
 ## WIZ550WEB AT Command Set
+
 This section provides a list of WIZ550WEB AT commands and their functions. Users can input commands and parameters through USART line. Every command starts with “AT”. Any other initial character will cause an error in return. Commands and parameters are all ASCII characters, i.e. when you input 'AT+NSTAT', you should input ASCII characters 'A', 'T', '+', 'N', 'S', 'T', 'A', 'T' and 'Enter Key' which is CR, LF (0x0d, 0x0A).
 
  **! All commands should be terminated with CR(0x0D), LF(0x0A)**
@@ -139,11 +146,12 @@ Some parameters are mandatory and others are optional. Parameters must be entere
 |Output from WIZ550WEB|	[S]\r\n (0x5b 0x53 0x5d 0x0d 0x0a)|
 
 ---
-### Responses
-#### Response Format
->
 
-    [(Type),(Id),(Param1),(Param2),(Param3),(Param4),(Param5),(Param6)]↓(Data)↓
+### Responses
+
+#### Response Format
+
+`[(Type),(Id),(Param1),(Param2),(Param3),(Param4),(Param5),(Param6)]↓(Data)↓`
     
   * (Type): Type of response. It can be one of S, D, F, W, R and V.
   * (Id): Socket Identifier. This is the mandatory in Async mode.
@@ -176,8 +184,6 @@ Responses are listed below.|
   * (SrcPort): Sender socket's port number. This is mandatory in case of UDP & TCP
     Client. In case of TCP Server this is omitted.
   * (EventCode): Indication of which event happened.
-
- 
 
 #### Error Code
 
@@ -223,237 +229,188 @@ Responses are listed below.|
 |2	|EVENT_SockClosed	|Closed. Socket transition to closed state|
 |3|	EVENT_SockDataRcvd	|Data Received. The corresponding socket received data from its peer|
 
-#### Network Commands
+### Network Commands
 
-|Command	|Prop.|	Input Parameter|	Response|
-|AT+NSET	|None or ?	|	|[S,,S,(IP),(SN),(GW),(DNS)][S,,D]|
+|Command	|Prop.|	Input Parameter|	Response |
+|---------|-----|----------------|---------- |
+| [AT+NSET](#atnset)	|None or ?	|	|[S,,S,(IP),(SN),(GW),(DNS)][S,,D]|
 ||=|	S,(IP),(SN),(GW),(DNS)|	[S]|
 |||D|	[S]|
 ||-	|num,Param	|[S]|
-|AT+NSTAT|	None or ?||		[S,,S/D,(IP),(SN),(GW),(DNS)]|
-|AT+NMAC|	None or ?||		[S,,(MAC)]|
+|[AT+NSTAT](#atnstat)|	None or ?||		[S,,S/D,(IP),(SN),(GW),(DNS)]|
+|[AT+NMAC](#atnmac)|	None or ?||		[S,,(MAC)]|
 ||=	|(MAC)|	[S]|
->
 
 #### AT+NSET
 
-
-
-
-   * **Format:**
-   >
-   
-        AT+NSET=<DHCP>,<IP>,<SN>,<GW>
+- **Format:**
+  
+`AT+NSET=<DHCP>,<IP>,<SN>,<GW>`
         
- * **Meaning:** Network Configuration
+- **Meaning:** Network Configuration
  
-<DHCP>: Static/DHCP
+< DHCP>: Static/DHCP
 
 |Parameter|	Meaning|
 |---------|---------|
 |S|	DHCP Off, Static|
 |D	|DHCP On, DHCP Client|
 
-<IP>: IP Address (Optional)
-<SN>: Subnet Mask (Optional)
-<GW>: Gateway Address (Optional)
-<DNS>: DNS Address (Optional)
+< IP>: IP Address (Optional)
+< SN>: Subnet Mask (Optional)
+< GW>: Gateway Address (Optional)
+< DNS>: DNS Address (Optional)
 
- * **Response:**
->
+- **Response:**
 
-    [S]
+'[S]'
     
- * **Example 1:**
->
+ - **Example 1:**
 
-    AT+NSET\r\n
- >
+`AT+NSET\r\n`  
+
+`AT+NSET?\r\n`
+
+ - **Meaning**: Get Current Network Setting
  
-    AT+NSET?\r\n
-
- * **Meaning**: Get Current Network Setting
- 
-Note that <IP>,<SN>,<GW>,<DNS> address of response are not actual addresses, but addresses stored in the memory. So when DHCP is on, they are usually different from actual addresses.
+Note that < IP>,< SN>,< GW>,< DNS> address of response are not actual addresses, but addresses stored in the memory. So when DHCP is on, they are usually different from actual addresses.
 
 
- * **Response:**
->
+- **Response:**
 
-    [S,,S,192.168.11.100,255.255.255.0,192.168.11.1,8.8.8.8]
- >
- 
-    [S,,D]
+`[S,,S,192.168.11.100,255.255.255.0,192.168.11.1,8.8.8.8]`
 
- * **Example 2:**
->
+`[S,,D]`
 
-    AT+NSET-2,192.168.11.110\r\n
+- **Example 2:**
 
- * **Meaning:** Update Second Parameter
+`AT+NSET-2,192.168.11.110\r\n`
 
+- **Meaning:** Update Second Parameter
 
- * **Response:**
->
+- **Response:**
 
-    [S]
+`[S]`
 
 ---
->
 
-    ====AT+NSTAT====
+#### AT+NSTAT
 
+- **Format:**
 
+`AT+NSTAT`
 
-
- * **Format:**
- >
- 
-    AT+NSTAT
- >
- 
-    AT+NSTAT?
+`AT+NSTAT?`
     
- * **Meaning:** Display Current Network Status
+- **Meaning:** Display Current Network Status
 
- * **Response:**
- >
- 
-    [S,,<DHCP>,<IP>,<SN>,<GW>,<DNS>]
+- **Response:**
+
+`[S,,<DHCP>,<IP>,<SN>,<GW>,<DNS>]`
     
- * **Example 1:**
->
+- **Example 1:**
 
-    AT+NSTAT\r\n
- >
- 
-    AT+NSTAT?\r\n
+`AT+NSTAT\r\n`  
+`AT+NSTAT?\r\n`
 
- * **Meaning:** Display Current Network Status
- * **Response:**
->
+- **Meaning:** Display Current Network Status
 
-    [S,,S,192.168.11.100,255.255.255.0,192.168.11.1,8.8.8.8]
- >
- 
-    [S,,D]
->
+- **Response:**
 
-    ====AT+NMAC====
+`[S,,S,192.168.11.100,255.255.255.0,192.168.11.1,8.8.8.8]`
 
+`[S,,D]`
 
+#### AT+NMAC
 
+- **Format:**
 
-  * **Format:**
-  >
-  
-     AT+NMAC?
-  >
-  
-    AT+NMAC=<MAC>
+`AT+NMAC?`
+
+`AT+NMAC=<MAC>`
     
-  * **Meaning:** Get MAC Address
-  * **Response:**
-  >
-  
-    [S,,<MAC>]
-    [S]
+- **Meaning:** Get MAC Address
+
+- **Response:**
+
+`[S,,<MAC>]`  
+`[S]`
     
-  * **Example 1:**
->
+- **Example 1:**
 
-    AT+NMAC=00:08:dc:1d:bb:8b\r\n
+`AT+NMAC=00:08:dc:1d:bb:8b\r\n`
 
-  * **Meaning**: Set MAC Address
-  * **Response:**
->
+- **Meaning**: Set MAC Address
 
-    [S]
+- **Response:**
 
-  * **Example 2:**
->
+`[S]`
 
-    AT+NMAC\r\n
-  >
-  
-    AT+NMAC?\r\n
+- **Example 2:**
 
-  * **Meaning**: Get MAC Address
-  * **Response:**
->
+`AT+NMAC\r\n`
 
-    [S,,00:08:dc:1d:bb:8a]
+`AT+NMAC?\r\n`
+
+- **Meaning**: Get MAC Address
+
+- **Response:**
+
+`[S,,00:08:dc:1d:bb:8a]`
 
 ### Management Commands
 
 |Command|	Prop.|	Input Parameter|	Response|
 |--------|-------|-----------------|-------------|
-|AT	|None|		|[S]|
+|[AT](#at)	|None|		|[S]|
 ||?|	|[D,,(Size)]↓(Data)|
-|AT+MSTAT	|None or ?	|	|[S,,(Version)]|
-|AT+MUSART1|	None or ?	|	[S,,(BR),(W),(P),(S),(F)]|
+|[AT+MSTAT](#atmstat)	|None or ?	|	|[S,,(Version)]|
+|[AT+MUSART1](#atmusart1)|	None or ?	|	[S,,(BR),(W),(P),(S),(F)]|
 ||=	|(BR),(W),(P),(S),(F)|	[S]|
 ||-|	num,Param|	[S]|
-|AT+MUSART2	|None or ?|		|[S,,(BR),(W),(P),(S),(F)]|
+|[AT+MUSART2](#atmusart2)	|None or ?|		|[S,,(BR),(W),(P),(S),(F)]|
 ||=|	(BR),(W),(P),(S),(F)|	[S]|
 ||-|	num,Param	|[S]|
-|AT+MSAVE|	None|	|	[S]|
-|AT+MRST|	None|		|[S]|
+|[AT+MSAVE](#atmsave)|	None|	|	[S]|
+|[AT+MRST](#atmrst)|	None|		|[S]|
 ||=	|F|	[S]|
->
 
-     ====AT====
+#### AT
 
+- **Format:**
 
-
-
-  * **Format:**
-  >
-  
-        AT
+`AT`
         
-  * **Meaning:** Terminal Check
+- **Meaning:** Terminal Check
   
-  * **Response:**
-  >
-  
-    [S]
+-  **Response:**
+
+`[S]`
     
 ---
 
-====AT+MSTAT====
+#### AT+MSTAT
 
+- **Format:**
 
-
-
-  * **Format:**
-  >
-  
-    AT+MSTAT
-  >
-  
-    AT+MSTAT?
+`AT+MSTAT`
+`AT+MSTAT?`
     
-  * **Meaning:** Get Current Version
+- **Meaning:** Get Current Version
   
-  * **Response**:
-  >
-  
-    [S,,<Version>]
+- **Response**:
+
+`[S,,<Version>]`
     
 ---
 
-    ====AT+MUSART1====
+#### AT+MUSART1
 
+- **Format:**
 
-
-
-  * **Format:**
->
-
-    AT+MUSART1=<BR>,<W>,<P>,<S>,<F>
+`AT+MUSART1=<BR>,<W>,<P>,<S>,<F>`
     
-  * **Meaning:** Serial Interface(USART1) Configuration
+- **Meaning:** Serial Interface(USART1) Configuration
   
 &#60;BR&#62;: Baud rate
     
@@ -501,49 +458,42 @@ Note that <IP>,<SN>,<GW>,<DNS> address of response are not actual addresses, but
 |0	|NONE|
 |1	|RTS/CTS|
 
-  * **Response:**
->
+- **Response:**
 
-    [S,,<BR>,<W>,<P>,<S>,<F>]
+`[S,,<BR>,<W>,<P>,<S>,<F>]`
     
-  * **Example1:**
->
+- **Example1:**
 
-    AT+MUSART1\r\n
- >
- 
-    AT+MUSART1?\r\n
+`AT+MUSART1\r\n`
+
+`AT+MUSART1?\r\n`
     
-  *  **Meaning:** Get Serial Interface(USART1) Information
+- **Meaning:** Get Serial Interface(USART1) Information
   
-  *  **Response:**
- >
- 
-    [S,,115200,8,N,1,0]
+- **Response:**
+
+`[S,,115200,8,N,1,0]`
     
-  * **Example2:**
- >
- 
-    AT+MUSART1=,,E,,0\r\n
+- **Example2:**
+
+`AT+MUSART1=,,E,,0\r\n`
     
-  * **Meaning:** Set Serial Interface(USART1) Information
-  * **Response:**
->
-   
-     [S]
+- **Meaning:** Set Serial Interface(USART1) Information
+
+- **Response:**
+
+`[S]`
 
 ---
->
 
-    ====AT+MUSART2====
+#### AT+MUSART2
 
+- **Format:**
 
-   * **Format:**
->
-
-    AT+MUSART2=<BR>,<W>,<P>,<S>,<F>
+`AT+MUSART2=<BR>,<W>,<P>,<S>,<F>`
     
-   * **Meaning:** Serial Interface(USART2) Configuration
+- **Meaning:** Serial Interface(USART2) Configuration
+
 &#60;BR&#62;: Baud rate
     
 |Parameter	|Meaning|
@@ -592,103 +542,81 @@ Note that <IP>,<SN>,<GW>,<DNS> address of response are not actual addresses, but
 |2|RS422|
 |3|RS485|
 
- * **Response:**
->
+- **Response:**
 
-    [S,,<BR>,<W>,<P>,<S>,<F>]
- ---
+`[S,,<BR>,<W>,<P>,<S>,<F>]`
  
-  * **Example1:**
->
+---
+ 
+- **Example1:**
 
-    AT+MUSART2\r\n
->
-
-    AT+MUSART2?\r\n
-    
-  * **Meaning:** Get Serial Interface(USART2) Information
+`AT+MUSART2\r\n`  
+`AT+MUSART2?\r\n`
   
-  * **Response:**
->
+- **Meaning:** Get Serial Interface(USART2) Information
+  
+- **Response:**
 
-     [S,,115200,8,N,1,0]
+`[S,,115200,8,N,1,0]`
      
-  * **Example2:**
->
+- **Example2:**
 
-    AT+MUSART2=,,E,,0\r\n
+`AT+MUSART2=,,E,,0\r\n`
     
-   * **Meaning:** Set Serial Interface(USART2) Information
+- **Meaning:** Set Serial Interface(USART2) Information
    
-   *  **Response:**
->
+- **Response:**
 
-    [S]
->
+`[S]`
 
-    ====AT+MSAVE====
+#### AT+MSAVE
 
+- **Format:**
 
+`AT+MSAVE`
 
+- **Meaning**:Save configuration data to flash
 
-  * **Format:**
-  >
-  
-    AT+MSAVE
+- **Response:**
+
+`[S]`
     
- * **Meaning**:Save configuration data to flash
+---
 
- * **Response:**
->
+#### AT+MRST
 
-    [S]
+- **Format:**
+
+`AT+MRST`
+
+- **Meaning:** Reset Module
+
+- **Response:**
+
+`[S]`
     
- ---
- >
- 
-    ====AT+MRST====
-
-
-  * **Format:**
- >
- 
-    AT+MRST
-    
- * **Meaning:** Reset Module
- * **Response:**
- >
- 
-    [S]
-    
-#### Function Commands
+### Function Commands
 
 |Command|	Prop.|	Input Parameter|	Response|
-|AT+FIODIR|	=	|(PIN)|	[S,,(Direction)]|
+|-------|------|-----------------|----------|
+|[AT+FIODIR](#atfiodir)|	=	|(PIN)|	[S,,(Direction)]|
 ||=	|(PIN),(Direction)|	[S]|
-|AT+FIOVAL|	=|	(PIN)|	[S,,(VAL)]|
+|[AT+FIOVAL](#atfioval)|	=|	(PIN)|	[S,,(VAL)]|
 ||=	|(PIN),(VAL)|	[S]|
 
 ---
->
-
-    ====AT+FIODIR====
-
-
-
-
-  * **Format:**
- >
- 
-        AT+FIODIR=<PIN>
-        
-   >     
    
-    AT+FIODIR=<PIN>,<Direction>
-    
- * **Meaning**: Read/Write the Status of GPIO Pin Direction
+#### AT+FIODIR
+
+- **Format:**
+
+`AT+FIODIR=< PIN>`  
+`AT+FIODIR=< PIN>,< Direction>`
+
+- **Meaning**: Read/Write the Status of GPIO Pin Direction
  
-<PIN> : GPIO Pin Number (1 ~ 16)
-<Direction> : GPIO Pin Direction
+< PIN> : GPIO Pin Number (1 ~ 16)
+< Direction> : GPIO Pin Direction
 
 |Parameter|	Meaning|
 |----------|-------|
@@ -696,90 +624,73 @@ Note that <IP>,<SN>,<GW>,<DNS> address of response are not actual addresses, but
 |1	|Input|
 |2|	Output|
 
-  * **Response:**
- >
- 
-    [S,,<Direction>]
- >
- 
-     [S]
+- **Response:**
+
+`[S,,< Direction>]`  
+`[S]`
      
----     
+---
 
-   * **Example1:**
- >
+- **Example1:**
  
-    AT+FIODIR=1\r\n
+`AT+FIODIR=1\r\n`
     
-  * **Meaning**: Read the Direction of GPIO Pin 1
+- **Meaning**: Read the Direction of GPIO Pin 1
   
-  * **Response:**
->
+- **Response:**
 
-    [S,,1]
+`[S,,1]`
     
-  * **Example2:**
- >
- 
-    AT+FIODIR=1,2\r\n
+- **Example2:**
+
+`AT+FIODIR=1,2\r\n`
     
-   * **Meaning:** Write the Direction of GPIO Pin 1 to Output
+- **Meaning:** Write the Direction of GPIO Pin 1 to Output
    
-   * **Response:**
- >
+- **Response:**
+`[S]`
+
+#### AT+FIOVAL
+
+- **Format:**
+
+`AT+FIOVAL=<PIN>`
  
-     [S]
->
-
-    ====AT+FIOVAL====
-
-
-  * **Format:**
->
-
-    AT+FIOVAL=<PIN>
- >
- 
-    AT+FIOVAL=<PIN>,<VAL>
+`AT+FIOVAL=<PIN>,<VAL>`
     
-  * **Meaning**: Read/Write the Input/Output Value of GPIO Pin
+- **Meaning**: Read/Write the Input/Output Value of GPIO Pin
   
-<PIN> : GPIO Pin Number (1 ~ 16)
-<VAL> : GPIO Pin Output Value
+< PIN> : GPIO Pin Number (1 ~ 16)
+< VAL> : GPIO Pin Output Value
 
 |Parameter|	Meaning|
 |---------|---------|
 |0	|Low|
 |1|	High|
 
-   * **Response:**
->
+- **Response:**
 
-    [S,,<VAL>]
- >
+`[S,,<VAL>]`  
+`[S]`
  
-    [S]
+---
  
- ---
- 
-  * **Example1:**
->
+- **Example1:**
 
-    AT+FIOVAL=1\r\n
+`AT+FIOVAL=1\r\n`
     
-   * **Meaning:** Read the Value of GPIO Pin 1
-   * **Response:**
->
+- **Meaning:** Read the Value of GPIO Pin 1
 
-    [S,,1]
-    
-   * **Example2:**
->   
-        
-     AT+FIOVAL=1,1\r\n
-     
-   * **Meaning:** Write the Value of GPIO Pin 1 to High(Output Only)
-   * **Response:**
->
+- **Response:**
 
-    [S]
+`[S,,1]`
+
+- **Example2:**
+       
+`AT+FIOVAL=1,1\r\n`
+
+- **Meaning:** Write the Value of GPIO Pin 1 to High(Output Only)
+
+- **Response:**
+
+`[S]`

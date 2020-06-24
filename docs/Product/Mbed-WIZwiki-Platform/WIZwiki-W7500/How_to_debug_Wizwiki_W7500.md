@@ -1,4 +1,8 @@
-# How to Debug WIZwiki-W7500
+---
+id: how_to_debug_wizwiki_w7500
+title: How to Debug WIZwiki-W7500
+date: 2020-04-07
+---
 
 On the WIZwiki-W7500, there are SWD Header and CMSIS-DAP to debug
 WIZwiki-W7500. At first, you need to set Flash Algorithm to use

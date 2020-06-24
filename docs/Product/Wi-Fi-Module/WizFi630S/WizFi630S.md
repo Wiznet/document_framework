@@ -40,7 +40,7 @@ documents are available online.
 -----
 
 
-## Feature
+## Features
 
   - WizFi630A Pin compatible
   - 580MHz Clock
@@ -63,25 +63,22 @@ documents are available online.
 
 ## Details
 
-  - [Datasheet](Datasheet.md)
+  - [Datasheet](datasheet)
     : This section provides guides on the features of the WizFi630S,
     WizFi630S-EVB.
-  - [User Manual](User_Guide.md)
+  - [User Manual](user_guide)
     : This section provides guides documents for basic operating methods
     of products.
-  - [HW Reference](HW_Reference.md)
+  - [HW Reference](hw_reference)
     : This section provides guide documents for HW design with the
     WizFi630S.
-  - [Certificate](Certificate.md)
+  - [Certificate](certificate)
     : This section provides WizFi630S certificate and test reports.
 
 -----
 
-
 ## Q & A
 
-![](/img/link.png) [WizFi630S
-Forum](https://forum.wiznet.io/c/wifi-module) : WIZnet Forum for
-Technical support and Project shared
+![](/img/link.png) [WizFi630S Forum](https://forum.wiznet.io/c/wifi-module) : WIZnet Forum for Technical support and Project shared
 
 -----

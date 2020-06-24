@@ -9,6 +9,7 @@ date: 2020-04-13
 WIZ550web은 WIZnet W5500 Hardwired TCP/IP 칩을 기반으로 한 임베디드 웹 서버 모듈로써, 웹을 통해
 16개의 Configurable Digital I/O와 4개의 ADC Input을 제어 및 모니터링 할 수 있도록 구성되어 있다.
 또한 사용자의 목적에 따라 웹 페이지 및 제품 코드의 간단한 수정으로 웹 서버 응용을 구현할 수 있다.  
+
 **이 페이지에서는 다음 내용에 대해 설명한다.**
 
   - **Product Preview**
@@ -68,6 +69,7 @@ WIZ550web은 WIZnet W5500 Hardwired TCP/IP 칩을 기반으로 한 임베디드 
    **WIZ550web module 및
 EVB는 SD card를 함께 제공한다.**
 ![](/img/products/wiz550web/sdcard/sandisk-4gb-micro-sd-memory-card.mobiles_productpage.left.png)
+
 \* Sandisk 4GB microSD card를 제공하며, 제조사의 사정에 따라 동일한 품질의 다른 제품으로 제공 될 수
 있다.
 
@@ -167,8 +169,8 @@ UART1의 Default 설정은 다음과 같으며, Demo 웹 페이지와 AT command
       - Parity : NONE
       - Stop Bit : 1
       - Flow Control : NONE
-      
-      ## WIZ550web Web Server
+
+## WIZ550web Web Server
 
 -----
 
@@ -240,7 +242,7 @@ Request) 으로 구성되며, 다음의 각각 HTTP method에 따라 동작한�
 
 ## Basic Demo Web Pages
 
- Basic Demo Web Page의 Screenshot은 **Google
+Basic Demo Web Page의 Screenshot은 **Google
 Chrome Browser version 37**에서 이루어졌다.
 
 WIZ550web에 기본적으로 제공되는 Demo webpage는 index.html 하나의 파일에 탭(Tab) 형태의 구조이며,
@@ -277,7 +279,7 @@ WIZ550web에 기본적으로 제공되는 Demo webpage는 index.html 하나의 �
       - GitHub의 WIZ550web 오픈 코드는 Tx기능만 구현
 
 
-
+### Device Settings
 
 Device Settings 탭의 기본 구성은 다음과 같다.
 ![](/img/products/wiz550web/webpage_basicdemo/basic_demopage_1.jpg)
@@ -322,7 +324,7 @@ NotUsed의 경우,
 각각 I/O의 Direction은 I/O configuration 페이지에서 설정할 수 있으며, 예를 들어 다음과 같이 설정할 수
 있다.
 
-![](/document_framework//img/products/wiz550web/webpage_basicdemo/basic_demopage_2_io_examples.jpg)
+![](/img/products/wiz550web/webpage_basicdemo/basic_demopage_2_io_examples.jpg)
 
 ### ADC Status
 
@@ -432,4 +434,3 @@ Check back soon.
     있다. AJAX 기법을 활용하면 웹 브라우저와 웹 서버 사이에 교환되는 데이터량과 웹서버의 데이터 처리량도 줄어들기
     때문에 애플리케이션의 응답성이 좋아진다. 또한 웹 서버의 데이터 처리에 대한 부하를 줄여주는 일이 요청을 주는 수 많은
     컴퓨터에 대해서 일어나기 때문에 전체적인 웹 서버 처리량도 줄어들게 된다.
-    ### Device Settings

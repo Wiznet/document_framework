@@ -1,4 +1,8 @@
-## WizFi250 vs. WizFi210/220 comparison
+---
+id: comparison
+title: WizFi250 vs. WizFi210/220 comparison
+date: 2020-05-06
+---
 
 |            | WizFi210/220         | WizFi250                      |
 | ---------- | -------------------- | ----------------------------- |

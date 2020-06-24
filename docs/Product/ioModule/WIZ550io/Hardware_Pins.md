@@ -4,15 +4,11 @@ title: Hardware Pins
 date: 2020-04-15
 ---
 
-
-## Content
-## Hardware Pins of WIZ550io
-
-### Pin Map
+## Pin Map
 
 ![](/img/products/wiz550io/wiz550io_pin_map.jpg)
 
-### Pin out
+## Pin out
 
 ![](/img/products/wiz550io/wiz550io_pinout_20140513_v4_mounthole_.jpg)
 
@@ -20,7 +16,7 @@ date: 2020-04-15
 
 -----
 
-### Pin Description
+## Pin Description
 
 <table>
 <thead>
@@ -162,7 +158,7 @@ All interrupts are maskable.</td>
 </tbody>
 </table>
 
-**Caution)**  
+**Caution**  
 *Some users may want to reinitialize W5500 inside WIZ550io with SW reset,
 not handling RSTn pin. It will make WIZ550io hang up due to clearance of
 all information in the registers of W5500. A tiny MCU inside WIZ550io

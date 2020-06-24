@@ -4,15 +4,13 @@ title: WizFi630A
 date: 2020-05-13
 ---
 
-## WizFi630A
-
-### Notice
+## Notice
 
 This product is discontinued.  
 Please refer to the New compatible
-product🌎([WizFi630S](/products/wizfi630s/start)).
+product🌎([WizFi630S](../WizFi630S/wizfi630s)).
 
-### Overview
+## Overview
 
 WizFi630A is a gateway module that transforms the RS-232 protocol and
 TCP/IP protocol into IEEE802.11 b/g/n wireless LAN protocol based on
@@ -29,35 +27,31 @@ serial commands for simple Wi-Fi settings; not only serial devices but
 8/16/32 bit micro controllers can also use UART for simple Wi-Fi
 settings.  
   
- :/img/products/wizfi630a/wizfi630a0.png
+ ![](/img/products/wizfi630a/wizfi630a0.png)
 
   - **WizFi630A**
 
- :/img/products/wizfi630a/wizfi630a01.png
+ ![](/img/products/wizfi630a/wizfi630a01.png)
 
   - **WizFi630A-EVB**
 
-:/img/products/wizfi630a/wizfi630a02.png
+![](/img/products/wizfi630a/wizfi630a02.png)
 
   - **WizFi630A-Antenna**
 
-:/img/products/wizfi630a/wizfi630a03.png
+![](/img/products/wizfi630a/wizfi630a03.png)
 
   - **WizFi630A-Serial Cable**
 
-:/img/products/wizfi630a/wizfi630a04.png
+![](/img/products/wizfi630a/wizfi630a04.png)
 
   - **WizFi630A-LAN Cable**
 
-:/img/products/wizfi630a/wizfi630a05.png
+![](/img/products/wizfi630a/wizfi630a05.png)
 
   - **WizFi630A-Adapter**
-
-
-
   
-  
-\----  
+----  
 
 ### Material
 

@@ -4,9 +4,6 @@ title: How to use ISP tool
 date: 2020-04-20
 --- 
 
-
-## How to use ISP tool
-
 The screenshot of ISP tool is shown as below.
 ![picture0](/img/products/w7500/documents/appnote/picture0.png)
 

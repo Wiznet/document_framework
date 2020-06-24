@@ -4,17 +4,11 @@ title: WizFi310 Firmware(Using Serial)
 date: 2020-05-13
 ---
 
-# WizFi310 Firmware ( Using Serial )
-
 ## Official Latest firmware release
-
-
 
 | FW Version | Hardware | Date       | Download                                                                                 | Description    |
 | ---------- | -------- | ---------- | ---------------------------------------------------------------------------------------- | -------------- |
 | 1.0.3.3    | Rev 1.0  | 2017-04-21 | [1.0.3.3](/img/products/wizfi310/wizfi310firmware/firmware_serial_v1_0_3_3.zip)/Application | latest release |
-
-
 
 -----
 
@@ -27,12 +21,12 @@ date: 2020-05-13
 
 ## Update History
 
-#### \<v1.0.0.0\>
+#### < v1.0.0.0>
 
   - Official release
   - AT Commands is compatible with WizFi250
 
-#### \<v1.0.3.3\>
+#### < v1.0.3.3>
 
   - Fixed UDP remote IP address bug (1.0.3.2)
   - Add DNS service for MQTT CONNECT (1.0.3.2)
@@ -43,7 +37,7 @@ date: 2020-05-13
 
 -----
 
-## WizFi310\_Update\_Tool(Serial)
+## WizFi310_Update_Tool(Serial)
 
 ![](/img/products/wizfi310/wizfi310firmware/upgrade_tool_6.png)
 
@@ -53,5 +47,4 @@ date: 2020-05-13
 
 ## Guide for using upgrade tool
 
-Refer to [How to use upgrade tool for serial
-interface](/products/wizfi310/wizfi310pg/firmware_upgrade)
+Refer to [How to use upgrade tool for serial interface](Programers-Guide/firmware_upgrade_using_serial_interface)

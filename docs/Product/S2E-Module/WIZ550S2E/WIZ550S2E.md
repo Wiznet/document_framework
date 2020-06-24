@@ -4,7 +4,7 @@ title: WIZ550S2E
 date: 2020-03-
 ---
 
-## Content
+
 # WIZ550S2E
 
 WIZ550S2E is a gateway module that converts serial protocol
@@ -23,22 +23,22 @@ versa.
 
 ## Programmer's Guide 
 
-[한글](Programmer_Guide(Kor).md)  
-  * [AT Command](AT_Command(Kor).md)  
-  * [Configuration Tool](configuration_tool_kor)
+[한글](programmer_guide_kor)  
+  * [AT Command](programmer_guide_kor#wiz550s2e-at-command-set)  
+  * [Configuration Tool](programmer_guide_kor#configuration-tool)
 
-[English](Programmer_Guide(Eng).md)  
-  * [AT Command](AT_Command(Eng).md)  
-  * [Configuration Tool](configuration_tool_eng)  
+[English](programmer_guide_eng)  
+  * [AT Command](programmer_guide_eng#wiz550s2e-at-command-set)  
+  * [Configuration Tool](programmer_guide_eng#configuration-tool)  
 
-[中文](Programmer_Guide(Chn).md)  
-  * [AT Command](AT_Command(Chn).md)  
-  * [Configuration Tool](configuration_tool_chn)  
+[中文](programmer_guide_chn)  
+  * [AT Command](programmer_guide_chn#wiz550s2e-at-command-set)  
+  * [Configuration Tool](programmer_guide_chn#configuration-tool)  
 
 ## Future Plan 
 
-[한글](Future_Plan[KO].md)  
-[English](Future_Plan[EN].md)  
+[한글](future_plan_kor)  
+[English](future_plan_eng)  
 
 ## Download 
 

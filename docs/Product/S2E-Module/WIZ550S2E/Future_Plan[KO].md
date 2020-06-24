@@ -1,4 +1,8 @@
-# WIZ550S2E Firmware Future Plan
+---
+id: future_plan_kor
+title: WIZ550S2E Firmware Future Plan
+date: 2020-04-29
+---
 
 | Function             | Items                                                                 | VER 1.0 | VER 1.0.2 | VER 1.1 |
 | -------------------- | --------------------------------------------------------------------- | ------- | --------- | ------- |

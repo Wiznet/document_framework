@@ -4,16 +4,13 @@ title: Firmware Upgrade(Using OTA)
 date: 2020-03-
 ---
 
-# Firmware Upgrade (Using WizFi310\_OTA\_Tool)
-
-WIZnet supports \<WizFi310\_OTA\_Tool\> for uploading firmware. This
+WIZnet supports &#60;WizFi310_OTA_Tool&#62; for uploading firmware. This
 tool used TCP protocol with WizFi310 and it can be downloaded at
-[WizFi310 Firmware(Using
-OTA)](/products/wizfi310/wizfi310firmware_ota/start).
+[WizFi310 Firmware(Using OTA)](../wizfi310_firmware_using_ota).
 
 #### Step 1
 
-Execute "WizFi310\_Ota\_Tool.exe" and select serial port and baud rate
+Execute "WizFi310_Ota_Tool.exe" and select serial port and baud rate
 of WizFi310. For your information, WizFi310 is set to 115200 for default
 baudrate.
 
@@ -21,24 +18,24 @@ baudrate.
 
 #### Step 2
 
-If it is done successfully after push \<Open\> button in Step 1, You can
+If it is done successfully after push &#60;Open&#62; button in Step 1, You can
 choice SSID which WizFi310 will connect. Choice SSID and input key value
-of AP and then push \<connect\> button, \<WizFi310 OTA Tool\> will enter
+of AP and then push &#60;connect&#62; button, &#60;WizFi310 OTA Tool&#62; will enter
 commands to WizFi310 in order to connect to AP.
 
 ![](/img/products/wizfi310/wizfi310pg/ota_2.png)
 
 #### Step 3
 
-If you push \<browse\> button, you can select binary file for uploading
+If you push &#60;browse&#62; button, you can select binary file for uploading
 via OTA.
 
 ![](/img/products/wizfi310/wizfi310pg/ota_3.png)
 
 #### Step 4
 
-Select IP Address of PC which \<WizFi310 OTA Tool\> is run and then
-click \<Start OTA\> button.
+Select IP Address of PC which &#60;WizFi310 OTA Tool&#62; is run and then
+click &#60;Start OTA&#62; button.
 
 ![](/img/products/wizfi310/wizfi310pg/ota_4.png)
 

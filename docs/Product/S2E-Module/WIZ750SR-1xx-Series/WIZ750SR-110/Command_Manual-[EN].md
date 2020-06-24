@@ -4,7 +4,7 @@ title: Command Manual-[EN]
 date: 2020-04-09
 ---
 
-## Content
+
 # WIZ750SR Command Manual
 
 **Supported Languages**  

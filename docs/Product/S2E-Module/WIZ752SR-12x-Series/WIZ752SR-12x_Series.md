@@ -4,7 +4,7 @@ title: WIZ750SR-1xx Series
 date: 2020-04-13
 ---
 
-## Content
+
 
 # WIZ752SR-12x Series
 

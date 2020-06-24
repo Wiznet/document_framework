@@ -7,7 +7,7 @@ date: 2020-04-15
 ### Overview
 
 WIZ610io is the network module that includes W6100 (TCP/IP hardwired chip, include PHY), MAG-JACK (RJ45 with X’FMR) with other glue logics. Please click the link for the further information about
-**[W6100](/products/w5100S/start)**. It can be used as a component and no effort is required to interface W6100 and Transformer. The best advantage of the WIZ610io is that it supports IPv6. The WIZ610io is an ideal option for users who want to develop their Internet enabling systems rapidly.
+**[W6100](../../iEthernet/W6100/overview)**. It can be used as a component and no effort is required to interface W6100 and Transformer. The best advantage of the WIZ610io is that it supports IPv6. The WIZ610io is an ideal option for users who want to develop their Internet enabling systems rapidly.
 
 |                                                   |
 | ------------------------------------------------- |
@@ -77,12 +77,8 @@ support and Project shared
 
 ## Where to Buy
 
-![WIZnet Online Shop](/products/w5500/buynow.png)  
-[![WIZnetHK Online Shop,
-HK](/products/w5500/w5500_evb/icons/dollar.png)](https://www.wiznet.hk/en/network-module/91-wiz610io.html)
-[![WIZnetUS Online Shop,
-USA](/products/w5500/w5500_evb/icons/dollar.png)](http://www.shopwiznet.com/)
-[![WIZnetEU Online Shop,
-Germany](/products/w5500/w5500_evb/icons/european-euro.png)](http://shop.wiznet.eu/)
-[![WIZnetKorea Online Shop,
-Korea](/products/w5500/w5500_evb/icons/won.png)](http://shop.wiznet.co.kr/)
+![WIZnet Online Shop](/img/products/w5500/buynow.png)  
+[![WIZnetHK Online Shop, HK](/img/products/w5500/w5500_evb/icons/dollar.png)](https://www.wiznet.hk/en/network-module/91-wiz610io.html)
+[![WIZnetUS Online Shop, USA](/img/products/w5500/w5500_evb/icons/dollar.png)](http://www.shopwiznet.com/)
+[![WIZnetEU Online Shop, Germany](/img/products/w5500/w5500_evb/icons/european-euro.png)](http://shop.wiznet.eu/)
+[![WIZnetKorea Online Shop, Korea](/img/products/w5500/w5500_evb/icons/won.png)](http://shop.wiznet.co.kr/)

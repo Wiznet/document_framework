@@ -4,7 +4,7 @@ title: Command Manual-[KO]
 date: 2020-03-15
 ---
 
-## Content
+
 
 # WIZ752SR Command Manual
 

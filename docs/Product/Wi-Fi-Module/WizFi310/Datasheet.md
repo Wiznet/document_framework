@@ -4,9 +4,7 @@ title: Datasheet
 date: 2020-04-24
 ---
 
-## WizFi310 Datasheet
-  
-   * ![WizFi310 Datasheet v0.0.0 - English]()
+[WizFi310 Datasheet v0.0.0 - English](img/products/wizfi310/wizfi310ds/wizfi310_ds_v100e_1610.pdf)
 
 #### Datasheet History
 
@@ -14,7 +12,7 @@ date: 2020-04-24
 |-------|-----|------------|
 |V0.0.0|	2016-05-20|	release version|
 
-### Introduction
+## Introduction
 
 WizFi310 is a small size wireless module for the highest level of integration, featuring 802.11b/g and 802.11n.
 
@@ -26,7 +24,7 @@ In networking part, WizFi310 supports network parameters storage in the module t
 
 For software and driver development, WIZnet provides extensive technical documents and reference software codes for system integration.
 
-### Features
+## Features
 
  * **Application**
     * UART serial AT command set operation
@@ -57,18 +55,19 @@ For software and driver development, WIZnet provides extensive technical documen
    *  Maximum data rate 54Mbps in 802.11g and 150Mbps in 802.11n
    *  Fast receiver Automatic Gain Control (AGC)
 
-### Block Diagram
+## Block Diagram
 ![](/img/products/wizfi310/diagram.png)
 
 
-### Module Hardware Description
-#### Pictures
+## Module Hardware Description
+
+### Pictures
 ![](/img/products/wizfi310/wizfi310_evb.png)
 
-#### Pin Map
+### Pin Map
 ![](/img/products/wizfi250/wizfi250_pin_map.png)
 
-#### Pin Description
+### Pin Description
 
 |**No**|	**Name**|	**Type**|	**Description**|
 |------|----------|---------|----------------|
@@ -109,8 +108,10 @@ For software and driver development, WIZnet provides extensive technical documen
 |35	|NC|	-|	-|
 
 
-### Electrical Specification
-#### General specification
+## Electrical Specification
+
+### General specification
+
 |**ITEMS	|CONTENTS**|
 |---------|----------|
 |**Operating frequency**	|2.400 ~ 2.4835Ghz|
@@ -124,7 +125,7 @@ For software and driver development, WIZnet provides extensive technical documen
 |**Storage Temperature**|	-55°C to +125°C|
 |**Operation Voltage**|	3.3V±0.2V|
 
-#### 802.11g Mode
+### 802.11g Mode
 
 |ITEMS|	CONTENTS|
 |-----|---------|
@@ -149,11 +150,11 @@ For software and driver development, WIZnet provides extensive technical documen
 |54Mbps	|-	|-78|	-	|dBm|||	
 |Maximum input level(PER ≤ 10 %)|-|	-10	|-	|dBM||
 
-#### 802.11n HT20 Mode
+### 802.11n HT20 Mode
 
 |ITEMS|	CONTENTS|
 |------|--------|
-|Specification	|IEEE802.11n HT20@2.4Ghz|
+|Specification	|IEEE802.11n HT20 @2.4Ghz|
 |Mode	|OFDM|
 |Channel|	CH1 to CH13|
 |Data rate	|MCS0/1/2/3/4/5/6/7/8/9/10/11/12/13/14/15|
@@ -175,11 +176,11 @@ For software and driver development, WIZnet provides extensive technical documen
 |MCS7(PER ≤ 10 %)	|-	|-76|	-|	dBm	||
 |Maximum input level(PER ≤ 10 %)	|-|	-10|	-	|dBM	|
 
-#### 802.11n HT40 Mode
+### 802.11n HT40 Mode
 
 |ITEMS|	CONTENTS|
 |------|--------|
-|Specification	|IEEE802.11n HT40@2.4Ghz|
+|Specification	|IEEE802.11n HT40 @2.4Ghz|
 |Mode|	OFDM|
 |Channel	|CH1 to CH13\
 |Data rate	|MCS0/1/2/3/4/5/6/7/8/9/10/11/12/13/14/15|
@@ -201,7 +202,7 @@ For software and driver development, WIZnet provides extensive technical documen
 |MCS7(PER ≤ 10 %)|	-	|-74|	-	|dBm	|
 |Maximum input level(PER ≤ 10 %)|	-|	-10	|-	|dBM|	
 
-#### NVM specification
+### NVM specification
 
 |ITEMS|	CONTENTS|
 |-----|---------|
@@ -211,7 +212,7 @@ For software and driver development, WIZnet provides extensive technical documen
 
 Note: NVM flash is used to store user configuration or firmware, do not use to store these often changed configuration or user data.
 
-#### Power Consumption
+### Power Consumption
 
 |State|	Current(3.3V)|	Description|
 |------|-------------|--------------|
@@ -225,15 +226,15 @@ Note: NVM flash is used to store user configuration or firmware, do not use to s
 |11n RX mode	|62mA|	CPU full run, UART available,WiFi is in 11n RX|
 |11n TX mode@13dBm|	162mA	|CPU full run, UART available,WiFi is in 11n TX|
 |Peak current	|240mA|	CPU full run, UART available,WiFi is in 11n TX|
-
  
-#### Dimensions
+## Dimensions
 
 ![](/img/products/wizfi310/dimension.png)
+
 |Type	|Thickness (Height)|
 |-----|------------------|
 |with CAN	|3.15 (+/-) 0.15mm|
 
-### Reference schematic
+## Reference schematic
 
-[WizFi310 Ref.Schematic]()
+[WizFi310 Ref.Schematic](img/products/wizfi310/wizfi310ds/wizfi310.pdf)

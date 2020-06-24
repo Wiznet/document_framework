@@ -4,11 +4,9 @@ title: WizFi360-EVB-Mini
 date: 2020-05-13
 ---
 
-# WizFi360-EVB-Mini
-
 ![WizFi360-EVB-Mini](/img/products/wizfi360/board/wizfi360-evb-mini/wizfi360-mini3.png)
 
-### Overview
+## Overview
 
 This document describes WizFi360-EVB-Mini. WizFi360-EVB-Mini is a
 compact development board for experiment, test and verification of
@@ -20,7 +18,7 @@ be up to 2Mbps, which can meet the requirement of various applications.
 
 -----
 
-### Feature
+## Features
 
   - WizFi360
       - WiFi 2.4G, 802.11 b/g/n
@@ -51,19 +49,19 @@ be up to 2Mbps, which can meet the requirement of various applications.
           - CP2104-GM
           - Micro USB B Type Connector
 
-### Quick Start Guide
+## Quick Start Guide
 
-  - 🌎[Quick Start
-    Guide](Documents.md)
+  - 🌎[Quick Start Guide](documents#quick-start-guide)
+
+-----
+
+## Datasheet
+
+  - 🌎[Download](documents#wizfi360-evb-mini)
 
 -----
 
-### Datasheet
-
-  - 🌎[Download](Documents.md)
-
------
-### Technical Reference
+## Technical Reference
 
 **Ref Schematic & Other Board Schematics**
 
@@ -78,7 +76,7 @@ be up to 2Mbps, which can meet the requirement of various applications.
 
 -----
 
-### ETC
+## ETC
 
 #### Serial Port Driver
 

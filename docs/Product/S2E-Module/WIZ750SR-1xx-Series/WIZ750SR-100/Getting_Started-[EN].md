@@ -4,7 +4,7 @@ title: Getting Started-[EN]
 date: 2020-04-09
 ---
 
-## Content
+
 
 # Getting Started with WIZ750SR-100
 

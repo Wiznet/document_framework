@@ -4,13 +4,9 @@ title: Overview
 date: 2020-04-07
 ---
 
-
-# WIZwiki-W7500
-
 ![WIZwiki-W7500](/img/products/w7500/overview/wizwiki-w7500_main.png)
 
 -----
-
 
 ## WIZwiki Platform
 
@@ -24,7 +20,6 @@ Shields. This is using the CMSIS-DAP USB and ISP Header easily available
 firmware writing.
 
 -----
-
 
 ## Features
 
@@ -104,22 +99,22 @@ firmware writing.
 
 ## Getting Started
 
-   * [How to start WIZwiki-W7500 Board](How_to_start_WIZwiki_W7500_Board.md)
-   * [How to install WIZwiki-W7500 serial driver](How_to_install_WIZwiki_W7500_serial_driver.md)
-   * [How to write the firmware into WIZwiki-W7500](How_to_write_the_firmware_into_WIZwiki_W7500.md)
-   * [How to debug Wizwiki-W7500](How_to_debug_Wizwiki_W7500.md)
-   * [How to write the firmware into CMSIS-DAP](How_to_write_the_firmware_into_CMSIS_DAP.md)
+   * [How to start WIZwiki-W7500 Board](how_to_start_wizwiki_w7500_board)
+   * [How to install WIZwiki-W7500 serial driver](how_to_install_wizwiki_7500_serial_driver)
+   * [How to write the firmware into WIZwiki-W7500](how_to_write_firmware_into_wizwiki_w7500)
+   * [How to debug Wizwiki-W7500](how_to_debug_wizwiki_w7500)
+   * [How to write the firmware into CMSIS-DAP](how_to_write_firmware_into_cmsis_dap)
 
 -----
 
 
 ## Make New WIZwiki-W7500 Projects
 
-   * [How to use ARM mbed.org platform](WIZwiki-W7500_Mbed_Starter_Kit.md)
-   * [How to install KEIL uVision5](How_to_install_KEIL_uVision5.md)
-   * [How to create KEIL uVision5 new project for W7500](How_to_create_KEIL_uVision5_new_project_for_W7500.md)
-   * [How to use MDK for W7500 Peripherals Examples](How_to_use_MDK_for_W7500_Peripherals_Examples.md)
-   * [How to use gcc for W7500 Peripherals Examples](How_to_use_gcc_for_W7500_Peripherals_Examples.md)
+   * [How to use ARM mbed.org platform](../WIZwiki-W7500-Mbed-Starter-Kit/wizwiki_w7500_mbed_starter_kit)
+   * [How to install KEIL uVision5](how_to_install_keil_uvision)
+   * [How to create KEIL uVision5 new project for W7500](how_to_make_w7500_keil_project)
+   * [How to use MDK for W7500 Peripherals Examples](how_to_use_mdk_for_w7500)
+   * [How to use gcc for W7500 Peripherals Examples](how_to_use_makefile_with_windows7)
 
 -----
 
@@ -145,7 +140,7 @@ firmware writing.
 
 
 
-   * ![WIZwiki-W7500 V1.0 Schematic (Altium Designer)]()
+   * [WIZwiki-W7500 V1.0 Schematic (Altium Designer)]()
    * [WIZwiki-W7500 V1.0 Schematic (PDF)](/img/products/w7500/overview/wizwiki_w7500_sch_v1.0_150401.pdf)
 
 **Part list**
@@ -169,7 +164,7 @@ firmware writing.
 
 **W7500 ISP Program**
 
-   * [Go to ISP tool manual & Program download](Go_to_ISP_tool_manual_&_Program_download.md)
+   * [Go to ISP tool manual & Program download](how_to_use_isp_tool)
 
  **Examples Binary**
 

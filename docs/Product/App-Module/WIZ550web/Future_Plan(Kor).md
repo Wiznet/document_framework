@@ -4,8 +4,6 @@ title: Future Plan(Kor)
 date: 2020-04-13
 ---
 
-# Future Plan
-
 <table>
 <thead>
 <tr class="header">

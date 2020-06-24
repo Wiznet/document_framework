@@ -1,4 +1,8 @@
-# How to use MDK for W7500 Peripherals Examples
+---
+id: how_to_use_mdk_for_w7500
+title: How to use MDK for W7500 Peripherals Examples
+date: 2020-04-08
+---
 
 ******************************************************************************
 (C) COPYRIGHT 2015 WIZnet

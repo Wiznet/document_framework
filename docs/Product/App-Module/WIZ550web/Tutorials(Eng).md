@@ -4,9 +4,9 @@ title: Tutorials(Eng)
 date: 2020-04-13
 ---
 
-## WIZ550web Tutorials
-### Overview
-I/O control of WIZ550web performs I/O control and monitoring using CGI. The web page is configured to obtain the status value (GET) of the web server or to transfer the changed value of the web page to the web server (POST) by utilizing the 🌎[HTTP GET / POST method](). In order to perform this operation, the HTML/JavaScript(AJAX) of the web page and the CGI handler of the web server must be implemented in a consistent manner. A description of CGI is provided in '[Getting Started Guide:CGI for WIZ550web]()'.
+## Overview
+
+I/O control of WIZ550web performs I/O control and monitoring using CGI. The web page is configured to obtain the status value (GET) of the web server or to transfer the changed value of the web page to the web server (POST) by utilizing the 🌎[HTTP GET / POST method](http://www.w3schools.com/tags/ref_httpmethods.asp). In order to perform this operation, the HTML/JavaScript(AJAX) of the web page and the CGI handler of the web server must be implemented in a consistent manner. A description of CGI is provided in '[Getting Started Guide:CGI for WIZ550web](getting_started_guide_eng#cgi-for-wiz550web)'.
 
 Users can understand and utilize I/O interface function implemented in WIZ550web through Tutorial. This allows users to access the Web server from a remote location, monitor the status of the user device, or create a user-specific WIZ550 web page that performs I/O on/off functions.
 

@@ -6,14 +6,13 @@ date: 2020-04-15
 
 
 There is a W5500 inside WIZ550io. Therefore SPI operation of WIZ550io follows one of W5500. For more information about SPI operation of
-WIZ550io, please refer to W5500 Datasheet.
-![datasheet](/page\>products/w5500/datasheet)
+WIZ550io, please refer to [W5500 Datasheet](../../iEthernet/w5500/datasheet).
 
 ### Datasheet
 
-[W5500 Datasheet v1.0.9 - English](../Datasheet.md)
+[W5500 Datasheet v1.0.9 - English](/img/products/w5500/w5500_ds_v109e.pdf)
 
-[W5500 Datasheet v1.0.9 - Korean]()
+[W5500 Datasheet v1.0.9 - Korean](/img/products/w5500/w5500_ds_v109k.pdf)
 
 ### Datasheet History
 

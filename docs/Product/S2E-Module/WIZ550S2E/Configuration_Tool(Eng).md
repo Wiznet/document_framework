@@ -5,7 +5,7 @@ date: 2020-04-16
 ---
 
 
-## Content
+
 # Configuration Tool
 
 ## Description

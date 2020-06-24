@@ -4,13 +4,7 @@ title: Characteristic
 date: 2020-04-15
 ---
 
-
-## Content
-## Characteristic
-
-  
-
-### DC Charcteristic
+## DC Characteristic
 
 <table>
 <thead>
@@ -93,7 +87,7 @@ date: 2020-04-15
 </tbody>
 </table>
 
-### Power Dissipation
+## Power Dissipation
 
 | Condition                      | Min | Typ | Max | Unit |
 | ------------------------------ | --- | --- | --- | ---- |

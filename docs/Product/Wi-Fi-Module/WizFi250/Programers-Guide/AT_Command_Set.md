@@ -4,8 +4,6 @@ title: AT Command Set
 date: 2020-05-12
 ---
 
-  
-## AT Command Set 
 This section provides a list of WizFi250 AT commands and their effects.
 Users can input commands and parameters through USART line. Every
 command starts with the characters “AT”. Any other initial character
@@ -15,8 +13,7 @@ characters 'A', 'T', '+', 'M', 'M', 'S', 'G', '=', '1' and 'Enter Key'
 which should be CR(0x0d), but neither CRLF(0x0d, 0x0a) nor LF(0x0a).  
   
 Some parameters are mandatory and the others are optional. (refer to
-[Command
-Tables](/products/wizfi250/wizfi250pg/at_command_set-command_list))
+[Command Tables](/products/wizfi250/wizfi250pg/at_command_set-command_list))
 Parameters must be entered in an order of format column given by the
 command tables. Even though an optional parameter is not used, the comma
 delimiters must still be included in the command. In most cases, valid

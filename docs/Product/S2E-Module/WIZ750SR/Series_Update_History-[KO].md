@@ -4,7 +4,7 @@ title: Series Update History-[KO]
 date: 2020-04-08
 ---
 
-## Content
+
 
 # WIZ750SR Series Update History
 

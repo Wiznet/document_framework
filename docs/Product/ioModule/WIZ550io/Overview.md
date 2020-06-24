@@ -20,14 +20,14 @@ Internet enabling systems rapidly.
 
 ![](/img/products/wiz550io/wiz550io_small_005.png)
 
-For more information on the [W5500](/products/w5500/start) chip inside
-the [WIZ550io](/products/wiz550io/allpages) module please also refer to
-the chip's datasheet: ![datasheet](/page\>products/w5500/datasheet)
+For more information on the [W5500](../../iEthernet/w5500/overview) chip inside
+the [WIZ550io](overview) module please also refer to
+the chip's datasheet: [datasheet](../../iEthernet/w5500/datasheet)
 
 ### Datasheet
 
-[W5500 Datasheet v1.0.9 - English]()
-[W5500 Datasheet v1.0.9 - Korean]()
+[W5500 Datasheet v1.0.9 - English](/img/products/w5500/w5500_ds_v109e.pdf)
+[W5500 Datasheet v1.0.9 - Korean](/img/products/w5500/w5500_ds_v109k.pdf)
 
 ### Datasheet History
 

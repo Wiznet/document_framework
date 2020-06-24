@@ -4,9 +4,7 @@ title: WizFi360io
 date: 2020-05-13
 ---
 
-# WizFi360io Series
-
-### Overview
+## Overview
 
 This page describes the io interface boards using WizFi360. WizFi360io
 series boards can be customized according to customers' requests.
@@ -31,7 +29,7 @@ similar to the Xbee pin layout. But it is not exactly compatible.
 
 -----
 
-### Feature
+## Features
 
   - **WizFi360**
       - WiFi 2.4G, 802.11 b/g/n
@@ -71,25 +69,23 @@ similar to the Xbee pin layout. But it is not exactly compatible.
       - Xbee Form Factor
           - 2.00mm Pin Header
           
-### Quick Start Guide
+## Quick Start Guide
 
-  - 🌎[Quick Start
-    Guide](Documents.md)
-
------
-
-### Datasheet
-
-  - 🌎[Download](Documents.md)
+  - 🌎[Quick Start Guide](documents#quick-start-guide)
 
 -----
 
-### Technical Reference
+## Datasheet
+
+  - 🌎[Download](documents#wizfi360io-series)
+
+-----
+
+## Technical Reference
 
 **Schematic & Partlist & Gerber**
 
-  - 🌎[Go to
-    Github](https://github.com/Wiznet/Hardware-Files-of-WIZnet/tree/master/07_WizFi_Module)
+  - 🌎[Go to Github](https://github.com/Wiznet/Hardware-Files-of-WIZnet/tree/master/07_WizFi_Module)
 
 -----
 
@@ -99,7 +95,7 @@ similar to the Xbee pin layout. But it is not exactly compatible.
 
 -----
 
-### ETC
+## ETC
 
 #### WizFi360io-C Connector Datasheet
 

@@ -18,24 +18,18 @@ customize their own objective.
 
 -----
 
-
-
 ## Documents
 
-
-
   - **H/W Rev1.0 Datasheet**:
-    [\[English](/products/wiz550web/wiz550webds_en)\] /
-    [\[Korean](/products/wiz550web/wiz550webds_kr)\] 
+    [[English]](/products/wiz550web/wiz550webds_en) /
+    [[Korean]](/products/wiz550web/wiz550webds_kr) 
       - Hardware Specification
       - Reference Schematics
       - Dimension
 
-
-
   - **H/W Rev1.1/1.2 Datasheet**:
-    [\[English](/products/wiz550web/wiz550webds_rev1.1_en)\] /
-    [\[Korean](/products/wiz550web/wiz550webds_rev1.1_kr)\] 
+    [[English]](/products/wiz550web/wiz550webds_rev1.1_en) /
+    [[Korean]](/products/wiz550web/wiz550webds_rev1.1_kr) 
       - Hardware Specification
       - Reference Schematics
       - Dimension
@@ -43,31 +37,31 @@ customize their own objective.
 
 
   - **Getting Started Guide**:
-    [\[English](/products/wiz550web/wiz550webgsg_en)\] /
-    [\[Korean](/products/wiz550web/wiz550webgsg_kr)\]
+    [[English]](/products/wiz550web/wiz550webgsg_en) /
+    [[Korean]](/products/wiz550web/wiz550webgsg_kr)
       - Product Preview, Hello world
       - Basic operations
       - Webpage demo
 
 
 
-  - **User's Guide**: [\[English](/products/wiz550web/wiz550webug_en)\]
-    / [\[Korean](/products/wiz550web/wiz550webug_kr)\]
+  - **User's Guide**: [[English]](/products/wiz550web/wiz550webug_en)
+    / [[Korean]](/products/wiz550web/wiz550webug_kr)
       - Configuration Tool
       - Serial AT command set
       - TFTP Guide Document
 
 
 
-  - **Future Plans**: [\[English](/products/wiz550web/wiz550webfp_en)\]
-    / [\[Korean](/products/wiz550web/wiz550webfp_kr)\]
+  - **Future Plans**: [[English]](/products/wiz550web/wiz550webfp_en)
+    / [[Korean]](/products/wiz550web/wiz550webfp_kr)
       - Plans for next version firmware
 
 
 
   - **Tutorials**:
-    [\[English](/products/wiz550web/wiz550web_tutorial_en)\] /
-    [\[Korean](/products/wiz550web/wiz550web_tutorial_kr)\]
+    [[English]](/products/wiz550web/wiz550web_tutorial_en) /
+    [[Korean]](/products/wiz550web/wiz550web_tutorial_kr)
       - Tutorials; Under construction
 
 

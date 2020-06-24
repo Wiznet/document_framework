@@ -4,7 +4,7 @@ title: WizFi310 EVB SCH
 date: 2020-05-13
 ---
 
-# WizFi310 EVB Schematics
+## WizFi310 EVB Schematics
 
 **Change History**
 
@@ -12,7 +12,7 @@ date: 2020-05-13
 | -------- | ---------- | --------------- |
 | V0.0.0   | 2016-06-15 | release version |
 
-![](/img/products/wizfi310/wizfi310evbsch/wizfi310_evb_v0.pdf.pdf)
+[Download](/img/products/wizfi310/wizfi310evbsch/wizfi310_evb_v0.pdf.pdf)
 ![](/img/products/wizfi310/wizfi310evbsch/wizfi310_evb_v0_01.png)
 ![](/img/products/wizfi310/wizfi310evbsch/wizfi310_evb_v0_02.png)
 ![](/img/products/wizfi310/wizfi310evbsch/wizfi310_evb_v0_03.png)
