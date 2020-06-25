@@ -4,8 +4,6 @@ title: Overview
 date: 2020-04-07
 ---
 
-# WIZwiki-W7500P
-
 ![WIZwiki-W7500](/img/products/w7500p/overview/wizwiki-w7500p.png)
 
 -----
@@ -86,47 +84,44 @@ years. W7500P suits users who need Internet connectivity best.
 
 **W7500P Library**
 
-   * [W7500P Library PAGE](Firmware.md)
+   * [W7500P Library PAGE](../../iMCU/W7500P/libraries_examples)
 
 -----
 
 
 ## Getting Started
 
-   * [How to start WIZwiki-W7500P Board](How_to_start_WIZwiki_W7500P_Board.md)
-   * [How to install WIZwiki-W7500P serial driver](How_to_install_WIZwiki_W7500P_serial_driver.md)
-   * [How to write the firmware into WIZwiki-W7500P](How_to_write_the_firmware_into_WIZwiki_W7500P.md)
-   * [How to debug Wizwiki-W7500P](How_to_debug_Wizwiki_W7500P.md)
-   * [How to write the firmware into CMSIS-DAP](How_to_write_the_firmware_into_CMSIS_DAP.md)
+   * [How to start WIZwiki-W7500P Board](how_to_start_wizwiki_w7500p_board)
+   * [How to install WIZwiki-W7500P serial driver](how_to_write_firmware_into_cmsis_dap)
+   * [How to write the firmware into WIZwiki-W7500P](how_to_write_firmware_into_wizwiki_w7500p)
+   * [How to debug Wizwiki-W7500P](how_to_debug_wizwiki_w7500p)
+   * [How to write the firmware into CMSIS-DAP](how_to_write_firmware_into_cmsis_dap)
 
 -----
-
 
 ## Make New WIZwiki-W7500P Projects
 
-   * [How to use ARM mbed.org platform](../WIZwiki-W7500-Mbed-Starter-Kit/Tutorial(Eng).md)
-   * [How to install KEIL uVision5](../WIZwiki-W7500/How_to_install_KEIL_uVision5.md)
-   * [How to create KEIL uVision5 new project for W7500P](../WIZwiki-W7500/How_to_create_KEIL_uVision5_new_project_for_W7500.md)
-   * [How to use MDK for W7500P Peripherals Examples](../WIZwiki-W7500/How_to_use_MDK_for_W7500_Peripherals_Examples.md)
-   * [How to use gcc for W7500P Peripherals Examples](../WIZwiki-W7500/How_to_use_gcc_for_W7500_Peripherals_Examples.md)
+   * [How to use ARM mbed.org platform](../WIZwiki-W7500-Mbed-Starter-Kit/wizwiki_w7500_mbed_starter_kit)
+   * [How to install KEIL uVision5](../WIZwiki-W7500/how_to_install_keil_uvision)
+   * [How to create KEIL uVision5 new project for W7500](../WIZwiki-W7500/how_to_make_w7500_keil_project)
+   * [How to use MDK for W7500 Peripherals Examples](../WIZwiki-W7500/how_to_use_mdk_for_w7500)
+   * [How to use gcc for W7500 Peripherals Examples](../WIZwiki-W7500/how_to_use_makefile_with_windows7)
 
 -----
-
 
 ## Technical Reference
 
 **Datasheet**
 
-   * [W7500P Documents](Technical_Reference.md)
-   * ![LPC11U35FHI33/501 Datasheet](/img/products/w7500p/overview/LPC11U3X.pdf)
+   * [W7500P Documents](../../iMCU/W7500/Documents.md)
+   * [LPC11U35FHI33/501 Datasheet](/img/products/w7500p/overview/LPC11U3X.pdf)
 
 **Schematic**
 
   - If your project uses the W7500P, do not refer to the WIZwiki-W7500P
     V1.0 schematic.
   - Refer to the reference schematic of W7500P.
-      - 🌎[Reference schematic of
-        W7500P](https://github.com/Wiznet/Hardware-Files-of-WIZnet/tree/master/01_iMCU/W7500P/Reference%20Schematic)
+      - 🌎[Reference schematic of W7500P](https://github.com/Wiznet/Hardware-Files-of-WIZnet/tree/master/01_iMCU/W7500P/Reference%20Schematic)
 
 
 
@@ -161,7 +156,7 @@ years. W7500P suits users who need Internet connectivity best.
 
 **Examples Binary**
 
-   * [WIZwiki-W7500P Examples Binary](How_to_write_the_firmware_into_WIZwiki_W7500P.md)
+   * [WIZwiki-W7500P Examples Binary](how_to_write_firmware_into_wizwiki_w7500p#examples-binary)
 
 -----
 

@@ -1,4 +1,8 @@
-# How to Debug WIZwiki-W7500p
+---
+id: how_to_debug_wizwiki_w7500p
+title: How to Debug WIZwiki-W7500p
+date: 2020-04-07
+---
 
 On the WIZwiki-W7500p, there are SWD Header and CMSIS-DAP to debug
 WIZwiki-W7500. At first, you need to set Flash Algorithm to use
@@ -41,7 +45,7 @@ To use ULINK Debugger, you should uncap SWD Debugger Sel Jumper usually
 disconnected with cap. Do not forget to connect USB cable to supply
 power to the board.
 
-### nTo Follow
+### To Follow
 
 1. You can find SWD Header in the middle of WIZwiki-W7500 and Debugger
 Sel Jumper with three caps above it. Then open the J3, J4, J5 jumper cap
@@ -60,6 +64,7 @@ matching pin number.
 'Setting' menu and unchecked 'SWJ' in Debug on top menu. Then confirm
 'ARM CoreSight SW-DP' set on SW Device.
 ![](/img/products/w7500/overview/ulink_set2.jpg)
+
 3. Click 'Flash Download'. Set 'Erase Full Chip' in Download Function,
 type '0x20000000 to 0x4000' in RAM for Algorithm and Add
 'W7500\_128KB\_FLASH' on Programming Algorithm. After comparing with the
@@ -114,7 +119,6 @@ menu.
 The remaining steps can be followed by the previous description.
 
 
-### How to switch app & boot for debug You just need reset device and
-debug that you want!
+### How to switch app & boot for debug You just need reset device and debug that you want!
 
 ---

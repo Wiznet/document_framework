@@ -1,18 +1,16 @@
 ---
-id: how_to_write_firmware_into_wizwiki_w7500
-title: How to write the firmware into WIZwiki-W7500
+id: how_to_write_firmware_wizwiki_w7500eco
+title: How to write firmware into WIZwiki W7500ECO
 date: 2020-04-07
 ---
 
-There are four ways to write firmware into WIZwiki-W7500.  
- 
-   * Using the CMSIS-DAP (Drag and Drop)
-   * Using the CMSIS-DAP (through Keil uVision5)
-   * Go to ISP tool manual & Program download
-   * Using the SWD Debugger
+There are three ways to write firmware into WIZwiki-W7500ECO.
+
+* Using the CMSIS-DAP (Drag and Drop)
+* [Using the CMSIS-DAP](../WIZwiki-W7500/using_cmsis_dap_debugger)
+* [Go to ISP tool manual & Program download](../../W7500/documents/appnote/How_to_use_ISP_tool.md)
 
 -----
-
 
 ## Examples Binary
 
@@ -24,12 +22,13 @@ There are four ways to write firmware into WIZwiki-W7500.
 
 ## Using the CMSIS-DAP (Drag and Drop)
 
-1. When you connect the USB cable to the WIZwiki-W7500, PC recognized
-as a removable disk. Removable disk name is MBED.
+1. When you connect the USB cable to the WIZwiki-W7500ECO, PC
+recognized as a removable disk. Removable disk name is MBED.
 
 2. You "drag and drop" or copy the firmware to the removable disk, the
 firmware writing progress has completed.  
-![Drag and drop](/img/products/wizwiki_w7500/start_getting_started/drap_n_drop.png)
+![Drag and
+drop](/img/products/wizwiki_w7500/start_getting_started/drap_n_drop.png)
 
 3. After completing the firmware writing, open to check the removable
 disk.
@@ -37,11 +36,10 @@ disk.
 4. If "fail.txt" file is exists in the removable disk, it means writing
 the firmware has failed.
 
-5. After pressing the Reset button (SW1) of WIZwiki- W7500, please
+5. After pressing the Reset button (SW1) of WIZwiki- W7500ECO, please
 repeat the steps from step 2.
 
 -----
-
 
 ## Using CMSIS-DAP Debugger
 
@@ -117,35 +115,3 @@ up.
 ![ISP Complete](/img/products/wizwiki_w7500/getting_started/isp_complete.png)
 
 -----
-
-## How to connect an external SWD debugger to WIZwiki-W7500
-
-This page shows how to write and debug firmware in WIZwiki-W7500 with an external SWD debugger. When you need to debug firmware, you have two ways. One is debugging with an external SWD debugger and the other is using the CMSIS-DAP debugger. In this page, how to debug firmware with the SWD debugger is posted only.
-
-----
-
-### Using the SWD debugger
-
-
-1. You can find SWD Header in the middle of WIZwiki-W7500 and Debugger Sel Jumper with three caps above it.  
-Then open the J3, J4, J5 jumper cap in Debugger Sel Jumper.  
-Now, your WIZwiki-W7500 is ready to connect the SWD debugger.
-![](/img/products/wizwiki_w7500/swd_header_debugger_jumper.png)  
- 
-2. Connect ULINK debugger and SWD Header. At this moment, be careful of matching pin number.
-
-3. Setting [Flash Algorithm](how_to_debug_wizwiki_w7500#set-flash-algorithm) and ULINK debugger in Keil and  
-Download on WIZwiki-W7500. Then you can check the success message.
-
-![](/img/products/wizwiki_w7500/set_ulink_in_keil5.png)
-
-![](/img/products/wizwiki_w7500/set_flash_in_keil.png)
-
----
-
-### Reference
-
-- [How to set Flash Algorithm](how_to_debug_wizwiki_w7500#set-flash-algorithm)
-
----
-

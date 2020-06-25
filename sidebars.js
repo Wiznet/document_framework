@@ -696,14 +696,14 @@ module.exports = {
         label: 'WIZwiki-W7500P',
         items: [
 		'Product/Mbed-WIZwiki-Platform/WIZwiki-W7500P/overview',
-		'Product/Mbed-WIZwiki-Platform/WIZwiki-W7500P/features',
+		/*'Product/Mbed-WIZwiki-Platform/WIZwiki-W7500P/features',
 		'Product/Mbed-WIZwiki-Platform/WIZwiki-W7500P/firmware',
 		'Product/Mbed-WIZwiki-Platform/WIZwiki-W7500P/getting_started',
 		'Product/Mbed-WIZwiki-Platform/WIZwiki-W7500P/make_new_wizwiki_w7500p_projects',
 		'Product/Mbed-WIZwiki-Platform/WIZwiki-W7500P/technical_reference',
 		'Product/Mbed-WIZwiki-Platform/WIZwiki-W7500P/etc',
 		'Product/Mbed-WIZwiki-Platform/WIZwiki-W7500P/see_also',
-		'Product/Mbed-WIZwiki-Platform/WIZwiki-W7500P/where_to_buy'
+		'Product/Mbed-WIZwiki-Platform/WIZwiki-W7500P/where_to_buy'*/
 		],
 		},
 		{
@@ -711,14 +711,14 @@ module.exports = {
         label: 'WIZwiki-W7500ECO',
         items: [
 		'Product/Mbed-WIZwiki-Platform/WIZwiki-W7500ECO/overview',
-		'Product/Mbed-WIZwiki-Platform/WIZwiki-W7500ECO/features',
+		/*'Product/Mbed-WIZwiki-Platform/WIZwiki-W7500ECO/features',
 		'Product/Mbed-WIZwiki-Platform/WIZwiki-W7500ECO/firmware',
 		'Product/Mbed-WIZwiki-Platform/WIZwiki-W7500ECO/getting_started',
 		'Product/Mbed-WIZwiki-Platform/WIZwiki-W7500ECO/make_new_wizwiki_w7500eco_projects',
 		'Product/Mbed-WIZwiki-Platform/WIZwiki-W7500ECO/technical_reference',
 		'Product/Mbed-WIZwiki-Platform/WIZwiki-W7500ECO/etc',
 		'Product/Mbed-WIZwiki-Platform/WIZwiki-W7500ECO/see_also',
-		'Product/Mbed-WIZwiki-Platform/WIZwiki-W7500ECO/where_to_buy'
+		'Product/Mbed-WIZwiki-Platform/WIZwiki-W7500ECO/where_to_buy'*/
 		],
 		},
 		{

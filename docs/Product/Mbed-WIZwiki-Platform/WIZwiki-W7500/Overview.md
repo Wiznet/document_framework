@@ -169,7 +169,7 @@ firmware writing.
  **Examples Binary**
 
    
-   * [WIZwiki-W7500 Examples Binary](WIZwiki_W7500_Examples_Binary.md)
+   * [WIZwiki-W7500 Examples Binary](how_to_write_firmware_into_wizwiki_w7500#examples-binary)
    
     -----
 

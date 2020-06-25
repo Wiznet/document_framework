@@ -19,26 +19,26 @@ date: 2020-04-08
 ## Introduction
 This application note is a tutorial for making a KEIL project for W7500 MCU. This document show you how to make a project and a bin file for W7500 step by step in order for you to follow up easily.
 
-### STEP 1. Download and install KEIL5!
+## STEP 1. Download and install KEIL5!
 
 ![](/img/products/w7500/overview/keil0.jpg)
 
 * Download MDK-ARM v5 : [KEIL5](https://www.keil.com/download/product/)
 * Installation instructions, please see the Link : [Install](how_to_install_keil_uvision)
 
-### STEP 2. Download W7500 Library!
+## STEP 2. Download W7500 Library!
 
 ![](/img/products/w7500/overview/keil1.jpg)
 
 You can download W7500 Library from WIZnet's Github repository : [W7500 Library](https://github.com/Wiznet/W7500)
 
-### STEP 3. make workspace! and move the W7500 Library to workspace!
+## STEP 3. make workspace! and move the W7500 Library to workspace!
 
 ![](/img/products/w7500/overview/keil2.jpg)
 
 In this example, it is **D:\workspace\project\Library**
 
-### STEP 4. Execute KEIL5 and make new project!
+## STEP 4. Execute KEIL5 and make new project!
 
 ![](/img/products/w7500/overview/keil3.jpg)
 
@@ -53,7 +53,7 @@ In this example, **D:\workspace\project\W7500_test\W7500_Test.uvproj**
 
 Choose 'Cortex-M0' because W7500 MCU is based on Cortex-M0
 
-### STEP 5. W7500 start up code and system code setting!
+## STEP 5. W7500 start up code and system code setting!
 
 ![](/img/products/w7500/overview/keil7.jpg)
 
@@ -96,7 +96,7 @@ Select C file and Name it with 'main' and click 'Add'.
 
 Include **w7500x.h** header but... you should show red X because you did not path.
 
-### STEP 6. setting for include paths
+## STEP 6. setting for include paths
 
 ![](/img/products/w7500/overview/keil18.jpg)
 
@@ -118,7 +118,7 @@ Set 'include path' with
 
 ![](/img/products/w7500/overview/keil21.jpg)
 
-### STEP 7. Memory setting!
+## STEP 7. Memory setting!
 
 ![](/img/products/w7500/overview/keil18.jpg)
 
@@ -134,7 +134,7 @@ Click "Target" tap and set with the values which are shown in above pictures
 
 And click "Linker" tap and check [Use Memory Layout from Target Dialog]
 
-### STEP 8. Selection of Peripherals to use 
+## STEP 8. Selection of Peripherals to use 
 
 ![](/img/products/w7500/overview/keil18.jpg)
 
@@ -144,7 +144,7 @@ Click "Options for Target..."
 
 Click "C/C++" tap and add **CORTEX_M0 USE_STDPERIPH_DRIVER** in "Define" field.
 
-### STEP 9. Setting user program to use with the created bin file
+## STEP 9. Setting user program to use with the created bin file
 
 ![](/img/products/w7500/overview/keil18.jpg)
 
@@ -155,7 +155,7 @@ Click "Options for Target..."
 Click "User" tap and check "Run #1" in "Run User Programs After Build/Rebuild" section  
 and write this command **[fromelf --bin -o "$L@L.bin" "#L"]** in order CMSIS DAP to use the bin file.
 
-### STEP 10. Compile the example
+## STEP 10. Compile the example
 
 ![](/img/products/w7500/overview/keil26.jpg)
 
