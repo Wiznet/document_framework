@@ -1,10 +1,8 @@
 ---
 id: exercise_2_serial_port_kor
-title: Exercise 2. Serial port(Kor)
+title: 튜토리얼 예제2. 시리얼 포트를 이용해 데이터 출력하기
 date: 2020-04-08
 ---
-
-# 튜토리얼 예제2. 시리얼 포트를 이용해 데이터 출력하기
 
 ## 개요
 
@@ -86,8 +84,4 @@ PC 환경마다 다를 수 있다. ![](/img/products/wizwiki_mbed_kit/kit_en/2d.
 
 ## 관련 링크
 
-   * [스타터 킷 튜토리얼](Tutorial(Kor).md)
-
-## 다음 예제
-
-   * [예제3. 버튼으로 LED 깜박이기](Exercise_3._Switch(Kor).md)
+   * [스타터 킷 튜토리얼](tutorial_kor)

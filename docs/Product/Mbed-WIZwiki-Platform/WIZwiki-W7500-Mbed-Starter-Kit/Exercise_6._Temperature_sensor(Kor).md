@@ -1,11 +1,8 @@
 ---
 id: exercise_6_temperature_sensor_kor
-title: Exercise 6. Temperature sensor(Kor)
+title: 튜토리얼 예제6. 온도 센서 값 읽어내기
 date: 2020-04-08
 ---
-
-
-# 튜토리얼 예제6. 온도 센서 값 읽어내기
 
 ## 개요
 
@@ -86,8 +83,4 @@ int main(void)
 
 ## 관련 링크
 
-  * [스타터 킷 튜토리얼](Tutorial(Kor).md)
-
-## 다음 예제
-
-  * [예제7. 조도 센서 값 읽어내기](Exercise_7._Photoresistor(Kor).md)
+  * [스타터 킷 튜토리얼](tutorial_kor)

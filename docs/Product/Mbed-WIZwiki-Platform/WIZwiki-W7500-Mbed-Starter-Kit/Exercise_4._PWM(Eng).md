@@ -4,7 +4,7 @@ title: Exercise 4. PWM(Eng)
 date: 2020-04-08
 ---
 
-# Exercise 4. Ringing a buzzer with PWM
+# Ringing a buzzer with PWM
 
 ## Outline
 
@@ -123,9 +123,4 @@ simple music.
 
 ## Related Links
 
-   * [Starter Kit Tutorial](Tutorial(Eng).md)
-
-
-## Next Exercise
-
-   * [Exercise 5. Reading the analog value using a variable resistor](Exercise_5._Variable_resistor(Eng).md)
+   * [Starter Kit Tutorial](tutorial_eng)

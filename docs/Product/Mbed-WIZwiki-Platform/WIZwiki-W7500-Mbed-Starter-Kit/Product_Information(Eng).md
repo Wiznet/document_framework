@@ -4,26 +4,23 @@ title: Product Information(Eng)
 date: 2020-04-08
 ---
 
-# WIZwiki-W7500 mbed Starter Kit
-
 ## Introduction
 
 This document provides information and examples for the utilization
 WIZwiki-W7500 mbed Starter Kit products. Include the following:
 
-  - Product Feature
-  - Kit Includes
-  - Tutorials
-  - Related documents
+- Product Feature
+- Kit Includes
+- Tutorials
+- Related documents
 
-![mbed Starter Kit all
-parts](/img/products/wizwiki_mbed_kit/kit_kr/mbed_starter_kit_all.jpg)
+![mbed Starter Kit all parts](/img/products/wizwiki_mbed_kit/kit_kr/mbed_starter_kit_all.jpg)
 
 The WIZwiki-W7500 mbed Starter Kit is a product that you can learn how
-to take advantage of **🌎[WIZwiki-W7500](/products/wizwiki_w7500/start)**
+to take advantage of **🌎[WIZwiki-W7500](../WIZwiki-W7500/overview)**
 platform board.
 
-This Kit includes the **[WIZwiki-W7500](/products/wizwiki_w7500/start)**
+This Kit includes the **[WIZwiki-W7500](../WIZwiki-W7500/overview)**
 board, USB cable, LAN cable, breadboards, jumper wires, sensors,
 buttons, LEDs and resistors for users to implement the hardware DIY.
 
@@ -66,25 +63,24 @@ wires, sensors, buttons, LEDs and resistors.
 
 ## Kit parts datasheet
 
-   * [Kit parts datasheet]()
+* [Kit parts datasheet](kit_parts_datasheet)
    
-    ## Tutorials
+## Tutorials
 
 This tutorial helps user experiment mbed examples with on-line compiler.
 
-   * [Starter Kit Tutorial]()
+* [Starter Kit Tutorial](tutorial_eng)
 
 ## Related documents
 
 These documents are available at the ARM mbed website.
 
   - 🌎[mbed developer site](https://developer.mbed.org)
-  - 🌎[mbed WIZwiki-W7500
-    page](https://developer.mbed.org/platforms/WIZwiki-W7500/)
+  - 🌎[mbed WIZwiki-W7500 page](https://developer.mbed.org/platforms/WIZwiki-W7500/)
 
 These documents are available at WIZnet’s website.
 
-   * [W7500 page](../../iMCU/W7500/Overview.md)
-   * [How to start W7500 Board](../../iMCU/W7500/All_pages.md)
-   * [How to install W7500 serial driver](../../iMCU/W7500/All_pages.md)
-   * [How to write the firmware into W7500](../../iMCU/W7500/All_pages.md)
+   * [WIZnet WIZwiki-W7500 page](../WIZwiki-W7500/overview)
+   * [How to start W7500 Board](../WIZwiki-W7500/how_to_start_wizwiki_w7500_board)
+   * [How to install W7500 serial driver](../WIZwiki-W7500/how_to_install_wizwiki_7500_serial_driver)
+   * [How to write the firmware into W7500](../WIZwiki-W7500/how_to_write_firmware_into_wizwiki_w7500)

@@ -9,39 +9,39 @@ date: 2020-04-02
 ## W5500:
 
 3rd party products using our 🌎[W5500
-chip](Overview.md):  
-### W5500CoB (ESoPe
+chip](../Product/iEthernet/W5500/overview):  
+### W5500CoB (ESoPe)
 
 ![oshw\_W5500CoB\_001](/img/var_products/third_party/w5500cob_top_002.jpg)
 ![](/img/var_products/third_party/w5500cob_bottom_001.jpg)
-A small **"Connector-on-Board"** Plug-In Module with 🌎[W5500 chip](Overview.md) + 100mil 8-Pin-Headers 'Breadboard friendly' Footprint. The W5500's SPI I/F and PHY I/F is free available.
-Details:[ESoPe W5500CoB](Third_party.md)
+A small **"Connector-on-Board"** Plug-In Module with 🌎[W5500 chip](../Product/iEthernet/W5500/overview) + 100mil 8-Pin-Headers 'Breadboard friendly' Footprint. The W5500's SPI I/F and PHY I/F is free available.
+Details:[ESoPe W5500CoB](w5500CoB_ESoPe)
 
 ### W5500BoB (ESoPe)
 
 ![oshw\_W5500BoB\_001](/img/var_products/third_party/w5500bob_001.jpg)
 ![](/img/var_products/third_party/w5500bob_002.jpg)
-A small 'stamp' sized “Break-out-Board” Module with 🌎[W5500 chip](Overview.md) + with 900mil distanced Pin-Headers 'Breadboard friendly' Footprint. The W5500's SPI I/F and PHY I/F is free available. [ESoPe W5500BoB](Third_party.md).
+A small 'stamp' sized “Break-out-Board” Module with 🌎[W5500 chip](../Product/iEthernet/W5500/overview) + with 900mil distanced Pin-Headers 'Breadboard friendly' Footprint. The W5500's SPI I/F and PHY I/F is free available. [ESoPe W5500BoB](w5500BoB_ESoPe).
 
 ### Netzwerk Adapter (eHaJo)
 
 ![oshw\_eHaJo\_001](/img/var_products/third_party/ehajo_w5500-adapter_001.jpg)
 ![oshw\_eHaJo\_002](/img/var_products/third_party/ehajo_w5500-adapter_002.jpg)
 
-A small Adapter with 🌎[W5500 chip](Overview.md) + MCU (ATXmega8E5) for future purpose. The W5500's SPI I/F is free available and the MCU is free programmable and some IOs are available. 🌎[eHaJo Netzwerk-Adapter](Third_party.md)
+A small Adapter with 🌎[W5500 chip](../Product/iEthernet/W5500/overview) + MCU (ATXmega8E5) for future purpose. The W5500's SPI I/F is free available and the MCU is free programmable and some IOs are available. 🌎[eHaJo Netzwerk-Adapter](https://www.ehajo.de/dokuwiki/bausaetze:netzwerk-adapter:anleitung)
 
 ### Ethernet Booster Pack
 
 ![oshw\_RobG\_002](/img/var_products/third_party/edit_w5500_03_ethernet_boosterpack_1.jpg)
 ![oshw\_RobG\_001](/img/var_products/third_party/edit_w5500_03_ethernet_boosterpack_2.jpg)
 
-🌎[The Ethernet Boosterpack in 43oh Store](http://store.43oh.com/index.php?route=product/product&product_id=83) was developled by Rob from the 🌎[43oh Forums](http://forum.43oh.com/topic/4490-ethernet-booster-pack-v3/). To know more about the Ethernet BoosterPack, visit Rob's thread here. This BoosterPack is perfect for all TI MSP430 Launch-Pad MCU boards and is fitted with the 🌎[W5500 chip](Overview.md) which is an embedded Ethernet controller composed of a fully hardwired market-proven TCP/IP stack and an integrated Ethernet MAC & PHY.
+🌎[The Ethernet Boosterpack in 43oh Store](http://store.43oh.com/index.php?route=product/product&product_id=83) was developled by Rob from the 🌎[43oh Forums](http://forum.43oh.com/topic/4490-ethernet-booster-pack-v3/). To know more about the Ethernet BoosterPack, visit Rob's thread here. This BoosterPack is perfect for all TI MSP430 Launch-Pad MCU boards and is fitted with the 🌎[W5500 chip](../Product/iEthernet/W5500/overview) which is an embedded Ethernet controller composed of a fully hardwired market-proven TCP/IP stack and an integrated Ethernet MAC & PHY.
 
 ### W5500 Breakout (HAIRY.GEEK.NZ)
 
 ![oshw\_hairy-geek-nz\_001](/img/var_products/third_party/hairy-gook-nz_top.png)
 
-The breakout board includes all the passives and a crystal needed to drive the chip. The 🌎[WIZnet](http://www.wiznet.co.kr/sub_modules/en/) 🌎[W5500](Overview.md) does not include a pre-programmed MAC, you will need to obtain one for production use. As this is a 3.3V part and no level shifting is included, if you want to use this board with a 5V Arduino (ie, most of them) then you’ll need to do some level shifting on the SPI interface yourself.
+The breakout board includes all the passives and a crystal needed to drive the chip. The 🌎[WIZnet](http://www.wiznet.co.kr/sub_modules/en/) 🌎[W5500](../Product/iEthernet/W5500/overview) does not include a pre-programmed MAC, you will need to obtain one for production use. As this is a 3.3V part and no level shifting is included, if you want to use this board with a 5V Arduino (ie, most of them) then you’ll need to do some level shifting on the SPI interface yourself.
 These may eventually be put into production, but for now it’s purely for my own code development.
 🌎[W5500 Breakout](http://hairy.geek.nz/projects/w5500-breakout/)
 
@@ -68,7 +68,7 @@ These may eventually be put into production, but for now it’s purely for my ow
 > 
 > This module is based on the
 > 🌎[WIZnet](http://www.wiznet.co.kr/sub_modules/en/) 🌎[W5500 Ethernet
-> chip.](Overview.md)
+> chip.](../Product/iEthernet/W5500/overview)
 
 -----
 ### Microduino-W5500
@@ -78,7 +78,7 @@ These may eventually be put into production, but for now it’s purely for my ow
 
 > 🌎[Microduino-W5500](http://www.microduino.cc/w5500) is the Ethernet
 > control module, developed by adopting 🌎[W5500 network
-> chip.](Overview.md) Only
+> chip.](../Product/iEthernet/W5500/overview) Only
 > when Microduino-W5500 is stacked with Microduino-RJ45 can it form a
 > complete network module. It can not be used individually.
 
@@ -100,7 +100,7 @@ port or network;5 V RS232/RS485 level ; It has been widely used in IOT
 field. Besides, it has characters of low price, high speed and high
 stability. This module is based on the
 🌎[WIZnet](http://www.wiznet.co.kr/sub_modules/en/) 🌎[W5500 Ethernet
-chip.](Overview.md)
+chip.](../Product/iEthernet/W5500/overview)
 
 -----
 ## W5200:

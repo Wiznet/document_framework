@@ -1,10 +1,8 @@
 ---
 id: exercise_7_photoresistor_kor
-title: Exercise 7. Photoresistor(Kor)
+title: 튜토리얼 예제7. 조도 센서 값 읽어내기
 date: 2020-04-08
 ---
-
-# 튜토리얼 예제7. 조도 센서 값 읽어내기
 
 ## 개요
 
@@ -93,9 +91,9 @@ int main() {
 조도 센서의 스펙은 아래 링크를 참조한다.
 
 
-  * [ Kit 구성물 데이터시트]()
+  * [ Kit 구성물 데이터시트](kit_parts_datasheet_kor)
 
 
 ## 관련 링크
 
-   * [스타터 킷 튜토리얼](Tutorial(Kor).md)
+   * [스타터 킷 튜토리얼](tutorial_kor)

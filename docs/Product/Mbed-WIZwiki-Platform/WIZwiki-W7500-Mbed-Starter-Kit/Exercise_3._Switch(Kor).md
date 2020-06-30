@@ -1,10 +1,8 @@
 ---
 id: exercise_3_switch_kor
-title: Exercise 3. Switch(Kor)
+title: 튜토리얼 예제3. 버튼으로 LED 깜박이기
 date: 2020-04-08
 ---
-
-# 튜토리얼 예제3. 버튼으로 LED 깜박이기
 
 ## 개요
 
@@ -73,8 +71,4 @@ Handbook 페이지를 참고한다. 🌎<https://developer.mbed.org/handbook/Hom
 
 ## 관련 링크
 
-   * [스타터 킷 튜토리얼](Tutorial(Kor).md)
-
-## 다음 예제
-
-   * [예제4. PWM을 이용해 부저 울리기](Exercise_4._PWM(Kor).md)
+   * [스타터 킷 튜토리얼](tutorial_kor)

@@ -1,10 +1,8 @@
 ---
 id: exercise_5_variable_resistor_kor
-title: Exercise 5. Variable resistor(Kor)
+title: 튜토리얼 예제5. 가변저항기의 아날로그 값 읽어내기
 date: 2020-04-08
 ---
-
-# 튜토리얼 예제5. 가변저항기의 아날로그 값 읽어내기
 
 ## 개요
 
@@ -92,9 +90,4 @@ WIZwiki 보드는 외부 회로의 아날로그 값을 읽어서 디지털 값�
 
 ## 관련 링크
 
-   * [스타터 킷 튜토리얼](Tutorial(Kor).md)
-
-
-## 다음 예제
-
-   * [예제6. 온도 센서 값 읽어내기](Exercise_5._Variable_resistor(Kor).md)
+   * [스타터 킷 튜토리얼](tutorial_kor)

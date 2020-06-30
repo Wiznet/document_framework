@@ -4,8 +4,6 @@ title: WizFi310 Shield
 date: 2020-04-03
 ---
 
-# WizFi310 Shield
-
 ![WizFi310 Shield](/img/osh/wizfi310_shield/wizfi310_shield_1.png)
 
 ## Overview
@@ -70,12 +68,13 @@ in.
       - Digital/Analog PIN Selector : SW5
       - UART RTS/CTS Selector : SW6
 
-### WizFi310 Shield Callout & Pinmap
+## WizFi310 Shield Callout & Pinmap
 
 ![WizFi310 Shield
 Pinmap](/img/osh/wizfi310_shield/wizfi310_shield_pinmap.png)
 
 -----
+
 ## H/W Configurations
 
 ### DIP Switch Configurations
@@ -142,7 +141,7 @@ Pinmap](/img/osh/wizfi310_shield/wizfi310_shield_pinmap.png)
 
 #### Datasheet
 
-  - [WizFi310 Datasheet](WizFi310.md)
+  - [WizFi310 Datasheet](../../Product/Wi-Fi-Module/WizFi310/datasheet)
 
 #### Schematic
 
@@ -169,7 +168,7 @@ Pinmap](/img/osh/wizfi310_shield/wizfi310_shield_pinmap.png)
 
 ### See Also
 
-   * 🌎[http://www.wizwiki.net/forum|WizWiki Forum] : WIZnet Forum for Technical support and Project shared
+   * 🌎[WizWiki Forum](https://forum.wiznet.io/) : WIZnet Forum for Technical support and Project shared
 
 -----
 

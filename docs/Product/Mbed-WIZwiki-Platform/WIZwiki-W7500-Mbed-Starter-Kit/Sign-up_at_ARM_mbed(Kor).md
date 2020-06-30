@@ -1,11 +1,8 @@
 ---
 id: sign_up_at_arm_mbed_kor
-title: Sign-up at ARM mbed(Kor)
+title: mbed 회원 가입하기
 date: 2020-04-08
 ---
-
-
-# mbed 회원 가입하기
 
 mbed.org 에 접속하면 아래와 같은 화면이 나온다. 화면에서 빨간색 표시된 부분 (Developer Site)을 클릭해서
 🌎[mbed 개발자 사이트](https://developer.mbed.org)로 이동한다.

@@ -196,7 +196,7 @@ There are many resource Products using WIZnet Ethernet chip.
 -----
 ### W5200 DFRduino Ethernet Expansion Board from DFRobot
 
-![w5200_dfrduino-1](/document_framework/blob/img/var_products/edit_12.w5200_dfrduino-1.jpg)
+![w5200_dfrduino-1](/img/var_products/edit_12.w5200_dfrduino-1.jpg)
 ![edit\_12.w5200\_dfrduino-2.jpg](/img/var_products/edit_12.w5200_dfrduino-2.jpg)
 
 > 🌎[W5200](http://wiznet.co.kr/sub_modules/en/product/Product_Detail.asp?cate1=5&cate2=7&cate3=56&pid=1144)

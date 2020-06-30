@@ -4,11 +4,9 @@ title: Open Source Hardware
 date: 2020-04-03
 ---
 
------
+## What's the Open Source Hardware?
 
-### What's the Open Source Hardware?
-
-![](/img/osh/overview/oshw_logo.jpg)Open-source hardware consists of physical artifacts
+![](/img/osh/overview/oshw_logo.jpg) Open-source hardware consists of physical artifacts
 of technology designed and offered by the open design movement. Both
 free and open-source software (FOSS) as well as open-source hardware is
 created by this open-source culture movement and applies a like concept
@@ -18,7 +16,7 @@ drawings, schematics, bills of material, PCB layout data, HDL source
 code and integrated circuit layout data), in addition to the software
 that drives the hardware, are all released with the FOSS approach.
 
-### Open Source Hardware Definition 1.0
+## Open Source Hardware Definition 1.0
 
 Open source hardware is hardware whose design is made publicly available
 so that anyone can study, modify, distribute, make, and sell the design
@@ -34,25 +32,26 @@ exchange of designs. Open Source Hardware
 Association(🌎[OSHWA](http://2013.oshwa.org/)) set the 🌎[Statement of
 Principles and Definition v1.0](http://freedomdefined.org/OSHW).
 
-### Wiznet's activity in Open Source Hardware
+## Wiznet's activity in Open Source Hardware
 
 Wiznet has sponsored 🌎[Open Source Hardware
 Summit](http://2013.oshwa.org/) since 2011 and attend the 🌎[2013 OSHW
 summit](http://2013.oshwa.org/sponsors/).
 
-![](/img/osh/overview/platform_img5.gif) **2007 iEthernet Design Contest**  
+![](/img/osh/overview/platform_img5.gif)  
+**2007 iEthernet Design Contest**  
 Item : W5100 or WIZ module with W5100  
 Period : 2007.9.20 \~ 2008. 1. 31  
 First Place : Drip Irrigation Controller  
 Second Place : LED News Ticker  
 Third Place : DMX Portal  
 Fourth : Remote Real Virtual Instrument  
-[Circuit Cellar Special Edition to view the Winners and Articles](/2007_designcontest.pdf)
+[Circuit Cellar Special Edition to view the Winners and Articles](/img/osh/overview//2007_designcontest.pdf)
 
 -----
 
-Wiznet has sponsored 🌎[Open Source Hardware](http://2013.oshwa.org/)Summit since 2011 and attend the 🌎[2013 OSHW summit](http://2013.oshwa.org/sponsors/).
-![](/img/osh/overview/platform_img6.gif )
+Wiznet has sponsored 🌎[Open Source Hardware](http://2013.oshwa.org/) Summit since 2011 and attend the 🌎[2013 OSHW summit](http://2013.oshwa.org/sponsors/).
+![](/img/osh/overview/platform_img6.gif)  
 **2010 iMCU Design Contest**  
 Item : iMCU W7100  
 Period : 2009.11.1 \~ 2010.6.30  
@@ -60,11 +59,11 @@ First Place : Net Butler
 A Green Solution to Basement Humidity Control  
 Third Place : m7100os – A Network Operation System  
 Fourth : Moonlight Programmable LED Display  
-[More Detail About Winner's Design view](/imcudesigncontest.pdf)
+[More Detail About Winner's Design view](/img/osh/overview/imcudesigncontest.pdf)
 
 -----
 
-![](/img/osh/overview/management_designcontest.jpg) 
+![](/img/osh/overview/management_designcontest.jpg)  
 **Design Contest with Parallax**
 
 The Spinneret Web Server design contest served to promote the emerging
@@ -81,4 +80,4 @@ prototyping platform based on flexible, easy-to-use hardware and
 software. WIZnet’ chip and module are being used in the Arduino’s
 Ethernet Shield, and adopted in its clones. ![](/img/osh/overview/platform_img3.gif)
 
-  - [Open Source Hardware using Wiznet](VAR_Products_using_WIZnet.md)
+  - [Open Source Hardware using Wiznet](../../VAR-Products-using-WIZnet/var_products_using_wiznet)

@@ -1,10 +1,8 @@
 ---
 id: exercise_4_pwm_kor
-title: Exercise 4. PWM(Kor)
+title: 튜토리얼 예제4. PWM을 이용해 부저 울리기
 date: 2020-04-08
 ---
-
-# 튜토리얼 예제4. PWM을 이용해 부저 울리기
 
 ## 개요
 
@@ -115,8 +113,4 @@ wait(0.1);
 
 ## 관련 링크
 
-   * [스타터 킷 튜토리얼](Tutorial(Kor).md)
-
-## 다음 예제
-
-   * [예제5. 가변저항기를 이용해 아날로그 값 읽어내기](Exercise_5._Variable_resistor(Kor).md)
+   * [스타터 킷 튜토리얼](tutorial_kor)

@@ -6,23 +6,14 @@ date: 2020-04-03
 
 ## Overview
 
-![](/osh/ioshield-k/io_s_k.png) ioShield-K is an Ethernet Shield for
-GR-KURUMI(Gadget Renesas KURUMI). The ioShield-K allows a GR-KURUMI
-board to connect to the internet. It is based on the Wiznet W5500
-ethernet chip ([W5500 Datasheet](Datasheet.md)). The Wiznet
-W5500 provides a network (IP) stack capable of both TCP and UDP. It
-supports up to eight simultaneous socket connections. Use the Ethernet
-library(📄[WIZ_Ethernet_Library](https://github.com/Wiznet/WIZ_Ethernet_Library))
-to write sketches which connect to the internet using the shield. The
-ioShield-K connects to an GR-KURUMI board using long wire-wrap headers
-which extend through the shield.
+![](/img/osh/ioshield-k/io_s_k.png) ioShield-K is an Ethernet Shield for GR-KURUMI(Gadget Renesas KURUMI). The ioShield-K allows a GR-KURUMI board to connect to the internet. It is based on the Wiznet W5500 ethernet chip ([W5500 Datasheet](../iEthernet/W5500/datasheet)). The Wiznet W5500 provides a network (IP) stack capable of both TCP and UDP. It supports up to eight simultaneous socket connections. Use the Ethernet library(📄[WIZ_Ethernet_Library](https://github.com/Wiznet/WIZ_Ethernet_Library)) to write sketches which connect to the internet using the shield. The ioShield-K connects to an GR-KURUMI board using long wire-wrap headers which extend through the shield.
 
 ![](/img/osh/ioshield-k/io_s_k.png)
 
   - Hardware Ver1.0 Design file([PDF](/img/osh/ioshield-k/ioshield-k.pdf) / [Eagle CAD](/img/osh/ioshield-k/ioshield-k_eaglecad.zip)) and [Part List](/img/osh/ioshield-k/ioshield-k_v1_0_pl_130904.pdf) of ioShield-K
   - Hardware Ver1.1 Design file([PDF](/img/osh/ioshield-k/ioshield-k_v1.1_sch.pdf) / [Eagle CAD](/img/osh/ioshield-k/io_shield-k_ver1_1.zip)) and [Part List](/img/osh/ioshield-k/ioshield-k_v1_1_pl_140120.pdf) of ioShield-K
 
-### GADGET RENESAS
+## GADGET RENESAS
 
 Gadget Renesas is a promotion project to offer a series of boards and
 “easy to start with” cloud-based software environment for people who
@@ -37,7 +28,7 @@ do rapid prototyping.
 
 
 
-### GR-KURUMI
+## GR-KURUMI
 
 GR-KURUMI is the reference board that incorporates the RL78G14 (Renesas
 16-bit low-power consumption MCU). Compatible with Arduino Pro Mini,

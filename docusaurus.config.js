@@ -1,10 +1,10 @@
 module.exports = {
-  title: 'My Site',
-  tagline: 'The tagline of my site',
+  title: 'WizWiki',
+  tagline: 'Welcome to new WIZnet Document System!',
   //url: 'https://wiznet.github.io',
   url: 'https://doc.wiznet-cloud.com',
   baseUrl: '/',
-  favicon: 'img/favicon.ico',
+  favicon: 'img/wizfavicon.ico',
   organizationName: 'Wiznet', // Usually your GitHub org/user name.
   projectName: 'document_framework', // Usually your repo name.
   themeConfig: {
@@ -12,13 +12,13 @@ module.exports = {
       title: '',
       logo: {
         alt: 'My Site Logo',
-        src: 'img/wiznet-logo.svg',
+        src: 'img/wiznet_logo_110x37.png',
       },
       links: [
         {to: 'docs/introduction', label: 'Documentation', position: 'left'},
-        {to: 'blog', label: 'Blog', position: 'left'},
+        //{to: 'blog', label: 'Blog', position: 'left'},
         {
-          href: 'https://github.com/facebook/docusaurus',
+          href: 'https://github.com/Wiznet/document_framework',
           label: 'GitHub',
           position: 'right',
         },
@@ -31,8 +31,8 @@ module.exports = {
           title: 'Docs',
           items: [
             {
-              label: 'Style Guide',
-              to: 'docs/doc1',
+              label: 'Introduction',
+              to: 'docs/introduction',
             },
           ],
         },
@@ -40,34 +40,34 @@ module.exports = {
           title: 'Community',
           items: [
             {
-              label: 'Stack Overflow',
-              href: 'https://stackoverflow.com/questions/tagged/docusaurus',
+              label: 'WIZnet Forum',
+              href: 'https://forum.wiznet.io',
             },
             {
-              label: 'Discord',
-              href: 'https://discordapp.com/invite/docusaurus',
+              label: 'WIZnet Maker',
+              href: 'http://maker.wiznet.io/',
             },
           ],
         },
         {
           title: 'Social',
           items: [
-            {
-              label: 'Blog',
-              to: 'blog',
-            },
+            //{
+            //  label: 'Blog',
+            //  to: 'blog',
+            //},
             {
               label: 'GitHub',
-              href: 'https://github.com/facebook/docusaurus',
+              href: 'https://github.com/Wiznet/document_framework',
             },
             {
               label: 'Twitter',
-              href: 'https://twitter.com/docusaurus',
+              href: '',
             },
           ],
         },
       ],
-      copyright: `Copyright © ${new Date().getFullYear()} My Project, Inc. Built with Docusaurus.`,
+      copyright: `Copyright © ${new Date().getFullYear()} WIZnet Co., Ltd. Built with Docusaurus.`,
     },
   },
   presets: [
@@ -77,7 +77,7 @@ module.exports = {
         docs: {
           sidebarPath: require.resolve('./sidebars.js'),
           editUrl:
-            'https://github.com/facebook/docusaurus/edit/master/website/',
+            'https://github.com/Wiznet/document_framework/tree/master/',
         },
         theme: {
           customCss: require.resolve('./src/css/custom.css'),

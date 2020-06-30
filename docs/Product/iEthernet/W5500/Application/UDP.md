@@ -161,7 +161,7 @@ Check the reception of UDP data from destination. User can also check
 for received data via TCP communication. It is strongly recommended to
 use the second method because of the same reasoning from TCP. Please
 refer to the “TCP SERVER” section. [TCP
-SERVER](http://wizwiki.net/wiki/doku.php?id=products:w5500:application:tcp_function)
+SERVER](tcp#tcp-server)
 
 ``` c
 First method :
@@ -378,13 +378,13 @@ if (Sn_SR != SOCK_UDP) Sn_CR = CLOSE; goto START;
 
 Refer to the “Unicast & Broadcast.” section.
 
-[Unicast & Broadcast](http://wizwiki.net/wiki/doku.php?id=products:w5500:application:udp_function#unicast_and_broadcast)
+[Unicast & Broadcast](#unicast-and-broadcast)
 
 
 ##### Receiving process
 
 Refer to the “Unicast & Broadcast.” section. [Unicast &
-Broadcast](http://wizwiki.net/wiki/doku.php?id=products:w5500:application:udp_function#unicast_and_broadcast)
+Broadcast](#unicast-and-broadcast)
 
 
 ##### Check send data / Sending Process
@@ -444,4 +444,4 @@ S0_IR(SENDOK) = ‘1’; /* clear previous interrupt of SEND completion */
 
 ##### Check finished / SOCKET close
 
-Refer to the “Unicast & Broadcast.” section. [Unicast & Broadcast](http://wizwiki.net/wiki/doku.php?id=products:w5500:application:udp_function#unicast_and_broadcast)
+Refer to the “Unicast & Broadcast.” section. [Unicast & Broadcast](#unicast-and-broadcast)

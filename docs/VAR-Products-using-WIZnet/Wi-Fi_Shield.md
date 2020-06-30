@@ -131,7 +131,7 @@ module:
 
 ### Arduino WIFI shield from GE Tech
 
-![](/oshw_using_wiznet/wifi/edit_08.getech.jpg)](/img/var_products/wifi_shield/edit_08.getech.jpg)
+![](/img/var_products/wifi_shield/edit_08.getech.jpg)
 
 > 🌎[The Wifi
 > Shield](http://www.geeetech.com/wiki/index.php/Arduino_WIFI_shield) is
@@ -149,7 +149,7 @@ module:
 
 ### Wifi Shield V2.0 for Arduino compatible from RobotBase
 
-![edit\_09.robotebase-1.jpg](/oshw_using_wiznet/wifi/edit_09.robotebase-1.jpg)](/img/var_products/wifi_shield/edit_09.robotebase-1.jpg)
+![edit\_09.robotebase-1.jpg](/img/var_products/wifi_shield/edit_09.robotebase-1.jpg)
 ![edit\_09.robotebase-2.jpg](/img/var_products/wifi_shield/edit_09.robotebase-2.jpg)
 
 > 🌎[WiFi Shield

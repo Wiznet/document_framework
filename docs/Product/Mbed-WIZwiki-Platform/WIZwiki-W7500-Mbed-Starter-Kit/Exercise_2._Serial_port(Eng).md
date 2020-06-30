@@ -4,7 +4,7 @@ title: Exercise 2. Serial port(Eng)
 date: 2020-04-08
 ---
 
-# Tutorial Exercise 2. Data Output using Serial Port
+# Data Output using Serial Port
 
 ## Outline
 
@@ -89,8 +89,4 @@ the code.
 
 ## Related Links
 
-   * [Starter Kit Tutorial](Tutorial(Eng).md)
-
-## Next Exercise
-
-   * [Exercise 3. Blinking LED with a switch](Exercise_3._Switch(Eng).md)
+   * [Starter Kit Tutorial](tutorial_eng)

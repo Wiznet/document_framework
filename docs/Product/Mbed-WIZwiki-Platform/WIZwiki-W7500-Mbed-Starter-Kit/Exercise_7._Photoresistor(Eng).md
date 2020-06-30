@@ -4,14 +4,14 @@ title: Exercise 7. Photoresistor(Eng)
 date: 2020-04-08
 ---
 
-# Tutorial Example 7. Reading light sensor value
+# Reading light sensor value
 
-## summary
+## Summary
 
 This is an example of reading the light sensor value using ADC. Convert the analog value to a formula and serial it with a value between 0 \ ~ 3.3V
 It shows on the screen through the port. Turns the LED on or off compared to the specified analog value.
 
-## materials
+## Materials
 
   - WIZwiki-W7500 board
   - USB cable
@@ -19,7 +19,7 @@ It shows on the screen through the port. Turns the LED on or off compared to the
   - Jumper wire
   - PGM5537D (CDS Photo Resistor)
 
-## hardware
+## Hardware
 
 ### Schematic
 
@@ -31,7 +31,7 @@ The overall circuit diagram is as follows.
 
 ![](/img/products/wizwiki_mbed_kit/kit_en/exam_cds_sensor.png)
 
-## software
+## Software
 
 ### Example Code
 
@@ -91,10 +91,8 @@ The following is an example execution screen. The CDS value and the CDS voltage 
 
 Refer to the link below for the specifications of the illuminance sensor.
 
-
- * [Kit data sheet]()
-
+ * [Kit data sheet](kit_parts_datasheet)
 
 ## Related Links
 
- * [Starter Kit Tutorial](Tutorial(Eng).md)
+ * [Starter Kit Tutorial](tutorial_eng)

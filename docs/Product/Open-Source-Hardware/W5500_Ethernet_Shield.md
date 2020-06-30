@@ -4,7 +4,7 @@ title: W5500 Ethernet Shield
 date: 2020-04-03
 ---
 
-### Overview
+## Overview
 
   - **ARM mbed compatible** operation
   - **Arduino Pin-compatible**
@@ -12,12 +12,12 @@ date: 2020-04-03
 
 W5500 Ethernet shield is designed using the WIZnet W5500 chip. Please
 click the link for the further information about
-[W5500](). It supports both 3.3V & 5V. This
+[W5500](../iEthernet/W5500/overview). It supports both 3.3V & 5V. This
 Ethernet Shield is compatible with Arduino and ARM mbed Platform.
 
 ![](/img/osh/w5500_ethernet_shield/w5500_main_picture2.png)
 
-### Available Board List
+## Available Board List
 
   - ARM mbed Board
       - 🌎[ARM mbed Platform](http://developer.mbed.org/platforms/) : ARM
@@ -39,23 +39,22 @@ Ethernet Shield is compatible with Arduino and ARM mbed Platform.
 
 -----
 
-### Getting Started
+## Getting Started
 
   - You need to update Arduino IDE to use W5500 Ethernet
     shield(**Required**)
   - Check the below.
-      - 🌎[Getting
-        Started]()
+      - 🌎[Getting Started](getting_started_arduino)
 
 -----
-### Language
+## Language
 
-  - [Korean Ver]()
-  - [Japanese Ver]()
+  - [Korean Ver](w5500_ethernet_shield_kor)
+  - [Japanese Ver](w5500_ethernet_shield_jp)
 
 -----
 
-### Feature
+## Features
 
   - Support 3.3V / 5V
   - High Speed Ethernet controller W5500 chip
@@ -70,7 +69,7 @@ Ethernet Shield is compatible with Arduino and ARM mbed Platform.
 
 ![](/img/osh/w5500_ethernet_shield/w5500_ethernet_pin2.png)
 
-### Hardware Configuration
+## Hardware Configuration
 
   - RJ-45 with Transformer : Ethernet Port
   - W5500 : a Hardwired TCP/IP Ethernet Controller
@@ -80,7 +79,7 @@ Ethernet Shield is compatible with Arduino and ARM mbed Platform.
   - I2C : I2C interface
   - UART : UART interface
 
-### Pins usage on Arduino & ARM mbed
+## Pins usage on Arduino & ARM mbed
 
 ![](/img/osh/w5500_ethernet_shield/gpio_select_intn.png)
 
@@ -97,13 +96,13 @@ going through enough tests, it is highly recommended to mount buffer &
 100nF Capacitor for a secure operation.
 
 -----
-### SPI Operation & Timing Diagram
+## SPI Operation & Timing Diagram
 
 **SPI Operation**
 
 There is a W5500 inside W5500 Ethernet shield. Therefore SPI operation &
 Timing Diagram of Ethernet shield follows one of W5500. For more
-information about [W5500](Overview.md) chip please also refer
+information about [W5500](../iEthernet/W5500/overview) chip please also refer
 to the chip's datasheet:
 
   - [W5500 Datasheet v1.0.6 - English](/img/osh/w5500_ethernet_shield/limitation_note_-_arp_problem_in_the_nlb_environment_-_korean_0312_.pdf)
@@ -111,7 +110,7 @@ to the chip's datasheet:
 
 -----
 
-### Technical Reference
+## Technical Reference
 
 **Block Diagram**
 
@@ -151,7 +150,7 @@ to the chip's datasheet:
 
 **Part list**
 
-  - ![W5500 Ethernet shield Rev1.0 Part
+  - [W5500 Ethernet shield Rev1.0 Part
     list](/img/osh/w5500_ethernet_shield/w5500_ethernet_shield_v1.0_pl_150414.xlsx)
 
 **Dimension**
@@ -163,15 +162,13 @@ to the chip's datasheet:
 ![](/img/osh/w5500_ethernet_shield/w5500-ethernet-shield_dimension.png)
 
 -----
-### Etc.
+## Etc.
 
-**Using WIZnet Ethernet Library for ioshield-A**
-
-  - 🌎[http://wizwiki.net/wiki/doku.php?id=osh:ioshield-a:updatelib]()
+  - 🌎**[Ethernet Library for ioShield-A](ethernet_library_for_ioShield_A)**
 
 **Examples**
 
-  - 🌎[http://wizwiki.net/wiki/doku.php?id=osh:ioshield-a:testtwitter]()
+  - 🌎[Twitter test](twitter_test)
 
 **Ethernet Library**
 
@@ -181,20 +178,9 @@ to the chip's datasheet:
 
 ## See Also
 
-   - 🌎[WizWiki
-Forum](http://www.wizwiki.net/forum) : WIZnet Forum for Technical
+- 🌎[WizWiki Forum](https://forum.wiznet.io/) : WIZnet Forum for Technical
 support and Project shared
 
-  - 🌎[WIZ550io and ioShield-A
-for Arduino](http://wizwiki.net/wiki/doku.php?id=osh:ioshield-a:start) :
-Releated Products
-
-  - 🌎<http://wizwiki.net/jp> :
-WIZnet Japanese Blog
+- 🌎[WIZ550io and ioShield-A for Arduino](ioshield_a) : Related Products
 
 -----
-
-
-
-
-

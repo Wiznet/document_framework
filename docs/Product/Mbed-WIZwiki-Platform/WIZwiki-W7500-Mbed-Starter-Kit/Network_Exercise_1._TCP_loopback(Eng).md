@@ -4,7 +4,7 @@ title: Network Exercise 1. TCP loopback(Eng)
 date: 2020-04-08
 ---
 
-# Network Exercise 1. Testing TCP loopback communication
+# Testing TCP loopback communication
 
 ## Outline
 
@@ -48,7 +48,7 @@ and the WIZwiki board with USB cable.
 
 
  
-  * [Exercise 2. Data output using serial port](Exercise_2._Serial_port(Eng).md)
+  * [Exercise 2. Data output using serial port](exercise_2_serial_port_eng)
 
 
   - TCP/IP Client Server terminal program
@@ -67,16 +67,17 @@ below.
 
 ![](/img/products/wizwiki_mbed_kit/kit_en/ex_tcp_loop_1.jpg)
 
-A pop-up window will appear as shown below.
+A pop-up window will appear as shown below.  
 ![](/img/products/wizwiki_mbed_kit/kit_en/ex_tcp_loop_2.jpg)
 
 The "Source URL" and "Import As" have default values. User can change
 the "Import Name" if one wants. If clicking on the red part of the
 "Import", the program is copied to the mbed compiler environment.
+
 ### How to run and test result
 
 Execute serial terminal in PC. First push Reset switch of WIZwiki board
-and check messages.
+and check messages.  
 ![](/img/products/wizwiki_mbed_kit/kit_en/ex_tcp_loop_server1.jpg)
 
 Execute Hercules program in PC. Select TCP Client menu and configure the
@@ -110,4 +111,4 @@ There are mbed libraries below which are used for Hardware TCP/IP chip
 
 ## Related Links
 
-  * [Starter Kit Tutorial](Tutorial(Eng).md)
+  * [Starter Kit Tutorial](tutorial_eng)

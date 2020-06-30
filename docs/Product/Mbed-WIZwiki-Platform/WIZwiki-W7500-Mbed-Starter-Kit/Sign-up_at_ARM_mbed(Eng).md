@@ -4,9 +4,6 @@ title: Sign-up at ARM mbed(Eng)
 date: 2020-04-08
 ---
 
-
-# Sign-up at ARM mbed Developer Site
-
 Go to 🌎http://mbed.org/ and click on “Developer Site” shown in red
 below to login or signup. Please login after signing up.
 

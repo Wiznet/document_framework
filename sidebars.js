@@ -711,6 +711,7 @@ module.exports = {
         label: 'WIZwiki-W7500ECO',
         items: [
 		'Product/Mbed-WIZwiki-Platform/WIZwiki-W7500ECO/overview',
+		'Product/Mbed-WIZwiki-Platform/WIZwiki-W7500ECO/eco-shield',
 		/*'Product/Mbed-WIZwiki-Platform/WIZwiki-W7500ECO/features',
 		'Product/Mbed-WIZwiki-Platform/WIZwiki-W7500ECO/firmware',
 		'Product/Mbed-WIZwiki-Platform/WIZwiki-W7500ECO/getting_started',
@@ -779,7 +780,7 @@ module.exports = {
 	'Design-Guide/eagle_cad_library_of_wiznet_products'
 	],
 	VAR_Products_using_WIZnet: [
-	//'VAR Products using WIZnet/var_products_using_wiznet',
+	'VAR-Products-using-WIZnet/var_products_using_wiznet',
 	'VAR-Products-using-WIZnet/ethernet_shield',
 	'VAR-Products-using-WIZnet/wi_fi_shield',
 	'VAR-Products-using-WIZnet/third_party'

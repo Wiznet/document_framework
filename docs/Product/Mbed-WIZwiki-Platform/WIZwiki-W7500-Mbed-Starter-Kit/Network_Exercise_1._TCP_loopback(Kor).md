@@ -1,11 +1,8 @@
 ---
 id: network_exercise_1_tcp_loopback_kor
-title: Network Exercise 1. TCP loopback(Kor)
+title: 네트워크 예제1. TCP 루프백 통신 테스트하기
 date: 2020-04-08
 ---
-
-
-# 네트워크 예제1. TCP 루프백 통신 테스트하기
 
 ## 개요
 
@@ -45,7 +42,7 @@ WIZwiki 보드를 USB 케이블로 연결한다.
       - 시리얼포트 메시지 확인용
       - 시리얼포트 사용 예제는 아래 링크를 참조
           - 🌎[튜토리얼 예제2. 시리얼 포트를 이용해 데이터
-            출력하기](Tutorial(Kor).md)
+            출력하기](exercise_2_serial_port_kor)
 
 
 
@@ -107,4 +104,4 @@ Client로 보낸다. 아래 그림에서 Loopback 된 메시지를 확인한다.
 
 ## 관련 링크
 
-   * [스타터 킷 튜토리얼](Tutorial(Kor).md)
+   * [스타터 킷 튜토리얼](tutorial_kor)

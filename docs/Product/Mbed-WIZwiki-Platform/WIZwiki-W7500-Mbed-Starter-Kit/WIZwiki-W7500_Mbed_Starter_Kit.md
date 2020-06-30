@@ -14,10 +14,10 @@ consists of WIZwiki-W7500 board and other parts for DIY
 
 ## 한국어
 
-[WIZwiki-W7500 mbed Starter Kit 제품 소개](Product_Information(Kor).md)  
-[스타터 킷 튜토리얼 (예제로따라해보기)](Tutorial(Kor).md)  
+[WIZwiki-W7500 mbed Starter Kit 제품 소개](product_information_kor)  
+[스타터 킷 튜토리얼 (예제로따라해보기)](tutorial_kor)  
 
 ## English
 
-[WIZwiki-W7500 mbed Starter Kit Introduction](Product_Information(Eng).md)  
-[Starter Kit Tutorial](Tutorial(Eng).md)
+[WIZwiki-W7500 mbed Starter Kit Introduction](product_information_eng)  
+[Starter Kit Tutorial](tutorial_eng)

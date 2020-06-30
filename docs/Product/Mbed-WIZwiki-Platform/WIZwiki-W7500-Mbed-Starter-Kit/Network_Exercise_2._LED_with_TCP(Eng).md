@@ -5,7 +5,7 @@ date: 2020-04-08
 ---
 
 
-# Network Exercise 2. Controlling LED with TCP communication
+# Controlling LED with TCP communication
 
 ## Outline
 
@@ -48,7 +48,7 @@ and the WIZwiki board with USB cable.
 
 
 
-  * [Exercise 2. Data output using serial port](Exercise_2._Serial_port(Eng).md)
+  * [Exercise 2. Data output using serial port](exercise_2_serial_port_eng)
 
 
   - TCP/IP Client Server terminal program
@@ -101,7 +101,7 @@ Teraterm in the figure below.
 If **"Any messsage"**(ex: TEST) except the "LED\_ON" message to the
 WIZwiki board (TCP Server), then the LED turns off.
 
-![](https://github.com/Wiznet/document_framework/blob/master/static/img/products/wizwiki_mbed_kit/kit_en/tcp_led_off_client.jpg)
+![](/img/products/wizwiki_mbed_kit/kit_en/tcp_led_off_client.jpg)
 
 Besides the LED turn off, the other message is shown The TCP Client
 sends message to WIZwiki board (TCP Server), then WIZwiki board sends
@@ -130,4 +130,4 @@ There are mbed libraries below which are used for Hardware TCP/IP chip
 
 ## Related Links
 
-  * [Starter Kit Tutorial](Tutorial(Eng).md)
+  * [Starter Kit Tutorial](tutorial_eng)

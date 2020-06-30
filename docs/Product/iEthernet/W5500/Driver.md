@@ -543,7 +543,7 @@ Socket APIs
 <td>ioLibrary source code</td>
 <td>1.0.0</td>
 <td>-</td>
-<td><embed src="/products/w5500/iolibrary_v100.zip" /></td>
+<td><a href="/img/products/w5500/iolibrary_v100.zip">Download</a></td>
 </tr>
 <tr class="odd">
 <td>Driver documents</td>
@@ -551,7 +551,7 @@ Socket APIs
 (To use html, open the index.html)</td>
 <td>1.0.0</td>
 <td>-</td>
-<td><embed src="/products/w5500/w5500_driver_doc_v100.zip" /></td>
+<td><a href="/img/products/w5500/w5500_driver_doc_v100.zip">Download</a></td>
 </tr>
 </tbody>
 </table>
@@ -565,13 +565,13 @@ Please refer to this link for more details.
 
 The figure below shows the folder structure of this ioLibrary.
 
-   ![](lib/exe/fetch.php?media=:products:w5500:folder.jpg)
+   ![](/img/products/w5500/folder.jpg)
    
    -----
    
    ## 3. BSD Type driver for W5200 User
    
-- Driver Source code : [w5500_cortexm3_firmware_for_legacy.zip](lib/exe/fetch.php?media=:products:w5500:w5500_cortexm3_firmware_for_legacy.zip)  
+- Driver Source code : [w5500_cortexm3_firmware_for_legacy.zip](/img/products/w5500/w5500_cortexm3_firmware_for_legacy.zip)  
 
 This driver has the same BSD as the API for W5200 users. 
 We have been evaluating this code on the __**ARM-CortexM3(STM32F103 series)**__ chipset

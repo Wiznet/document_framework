@@ -163,7 +163,7 @@ years. W7500P suits users who need Internet connectivity best.
 
 ## See Also
 
-   * 🌎[WizWiki Forum](http://www.wizwiki.net/forum) : WIZnet Forum for Technical support and Project shared
+   * 🌎[WizWiki Forum](https://forum.wiznet.io/) : WIZnet Forum for Technical support and Project shared
    * [W7500P Documents Download](../../iMCU/W7500P/Documents.md)
 
 -----

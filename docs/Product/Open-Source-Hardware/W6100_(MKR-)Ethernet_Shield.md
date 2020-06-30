@@ -4,7 +4,7 @@ title: W6100 (MKR-)Ethernet Shield
 date: 2020-04-03
 ---
 
-### Overview
+## Overview
 
   - **ARM mbed compatible** operation
   - **Arduino Pin-compatible**
@@ -13,7 +13,7 @@ date: 2020-04-03
 
 W6100 Ethernet shield is designed using the WIZnet W6100 chip. Please
 click the link for the further information about
-**[W6100](Overview.md)**. The best advantage of the W6100
+**[W6100](../../Product/iEthernet/W6100/overview)**. The best advantage of the W6100
 (MKR-)Ethernet Shield is that it supports IPv6. It supports both 3.3V &
 5V. This Ethernet Shield is compatible with Arduino and ARM mbed
 Platform.
@@ -36,7 +36,7 @@ many years.
 
 -----
 
-### Getting Started
+## Getting Started
 
   - User Guide.
       - [Korean](/img/osh/w6100_ethernet_shield/w6100_ethernet_shield_ug_v001k.pdf)
@@ -44,13 +44,13 @@ many years.
 
 -----
 
-### Datasheet
+## Datasheet
 
    - [Download](/img/osh/w6100_ethernet_shield/w6100_ethernet_shield_ds_v100e.pdf)
 
 -----
 
-### Technical Reference
+## Technical Reference
 
 **Schematic & Part list & Gerber**
 
@@ -67,7 +67,7 @@ many years.
 ## See Also
 
 ![](/img/products/w5500/w5500_evb/icons/link.png) 🌎[WizWiki
-Forum](http://www.wizwiki.net/forum) : WIZnet Forum for Technical
+Forum](https://forum.wiznet.io/) : WIZnet Forum for Technical
 support and Project shared
 
 -----
@@ -75,13 +75,12 @@ support and Project shared
 ## Where to Buy
 
 
-
 ![WIZnet Online Shop](/img/osh/w5100s_ethernet_shield/start/buynow.png)  
-[![WIZnetUS Online Shop,
+![WIZnetUS Online Shop,
 USA](/img/osh/w5100s_ethernet_shield/start/dollar.png)
-[![WIZnetEU Online Shop,
+![WIZnetEU Online Shop,
 Germany](/img/osh/w5100s_ethernet_shield/start/european-euro.png)
-[![WIZnetKorea Online Shop,
+![WIZnetKorea Online Shop,
 Korea](/img/osh/w5100s_ethernet_shield/start/won.png)
 
 

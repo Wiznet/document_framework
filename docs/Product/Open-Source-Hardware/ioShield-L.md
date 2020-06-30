@@ -12,7 +12,7 @@ TI](http://www.ti.com/tool/msp-exp430g2)). The ioShield-L allows a
 MSP430 LaunchPad board to connect to the internet. It consists of
 WIZ550io for ethernet connectivity and an interface board to LaunchPad.
 
-### MSP430 LaunchPad
+## MSP430 LaunchPad
 
 The MSP-EXP430G2 low-cost experimenter board called LaunchPad is a
 complete development solution for the Texas Instruments MSP430G2xx Value
@@ -26,7 +26,7 @@ website](http://www.ti.com).
 
 ![](/img/osh/ioshield-l/msp-exp430g2_rev1.5_front.jpg)
 
-### Development Environment
+## Development Environment
 
 The MSP-EXP430G2 can be used with IAR Embedded Workbench™ Integrated
 Development Environment (IDE), Code Composer Studio™(CCS) IDE or Energia
@@ -35,7 +35,7 @@ Arduino framework) to write, download, and debug applications. Now we
 provides libraries for IAR and Energia, except CCS. Libraries for CCS
 will be released soon.
 
-### ioShield-L supported devices
+## ioShield-L supported devices
 
   - Board : MSP-EXP430G2 Rev. 1.5 and later. (for H/W UART support)
   - MCU : MSP430G25x3IN20 (PDIP20 package, 16kB Flash, 512B RAM) and
@@ -43,7 +43,7 @@ will be released soon.
 
 ![](/img/osh/ioshield-l/msp-exp430g2.jpg)
 
-### Available Resources
+## Available Resources
 
 All design files and source codes for the ioShield can be found on
 GitHub:

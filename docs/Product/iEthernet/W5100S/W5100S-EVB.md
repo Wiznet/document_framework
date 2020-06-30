@@ -125,7 +125,7 @@ https://github.com/Wiznet/W5100S-EVB
  **DMA User Guide**  
 [W5100S DMA V1.0.0 Korean.pdf](/img/products/w5100s/w5100s_evb/w5100s_an_dma_v100k.pdf)
 For More information about DMA, click
-[DMA](https://wizwiki.net/wiki/doku.php?id=products:w5100s:w5100s_evb:dma)
+[DMA](Application-Note/dma)
 
 
 -----

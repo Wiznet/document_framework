@@ -14,7 +14,7 @@ the ARM mbed Developer Site.
 
 ## Sign-up at ARM mbed Developer Site
 
-[Sign-up at ARM mbed Developer Site](Sign-up_at_ARM_mbed(Eng).md)  
+[Sign-up at ARM mbed Developer Site](sign_up_at_arm_mbed_eng)  
 
 
 ## Tutorial contents
@@ -22,32 +22,32 @@ the ARM mbed Developer Site.
 #### Exercises not using network
 
 [Exercise 1. Blinking
-LED](Exercise_1._LED(Eng).md)  
+LED](exercise_1_led_eng)  
 [Exercise 2. Data output using serial
-port](Exercise_2._Serial_port(Eng).md)  
+port](exercise_2_serial_port_eng)  
 [Exercise 3. Blinking LED with a
-switch](Exercise_3._Switch(Eng).md)  
+switch](exercise_3_switch_eng)  
 [Exercise 4. Ringing a buzzer with
-PWM](Exercise_4._PWM(Eng).md)  
+PWM](exercise_4_pwm_eng)  
 [Exercise 5. Reading the analog value using a variable
-resistor](Exercise_5._Variable_resistor(Eng).md)  
+resistor](exercise_5_variable_resistor_eng)  
 [Exercise 6. Reading the temperature sensor
-value](Exercise_6._Temperature_sensor(Eng).md)  
+value](exercise_6_temperature_sensor_eng)  
 [Exercise 7. Reading the intensity of illumination sensor
-value](Exercise_7._Photoresistor(Eng).md)  
+value](exercise_7_photoresistor_eng)  
 
 
 #### Exercises using network
 
 [Network Exercise 1. Testing TCP loopback
-communication](Network_Exercise_1._TCP_loopback(Eng).md)  
+communication](network_exercise_1_tcp_loopback_eng)  
 [Network Exercise 2. Controlling LED with TCP
-communication](Network_Exercise_2._LED_with_TCP(Eng).md)  
+communication](network_exercise_2_led_with_tcp_eng)  
 
 -----
 
 
 #### Related pages
 
-[WIZwiki-W7500 mbed Starter Kit](Product_Information(Eng).md)  
-[WIZwiki-W7500 mbed Starter Kit Product Introductoin](Product_Information(Eng).md)
+[WIZwiki-W7500 mbed Starter Kit](wizwiki_w7500_mbed_starter_kit)  
+[WIZwiki-W7500 mbed Starter Kit Product Introductoin](product_information_eng)

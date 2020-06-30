@@ -65,6 +65,6 @@ In order to make the program work, you must do the following :
  - Run the example.
  - WIZwiki W7500 where the Flash memory density ranges 128Kbytes.
  - If you have any questions, please use the forum site.
-   - "http://wizwiki.net/forum/"
+   - "https://forum.wiznet.io/"
 
 &copy; COPYRIGHT 2015 WIZnet Co.,Ltd.

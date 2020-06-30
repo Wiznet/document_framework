@@ -49,7 +49,7 @@ IoT기능 구현을 위한 기본 기능을 가지고 있습니다.
   - Soft AP : Enough memory retention, Wi-Fi Security (WEP,
     WPA/WPA2PSK), L2 Switching
   - OTA(Over The Air F/W Upgrading)
-  - 더 자세한 내용은 [WizFi310 WiKi page](WizFi310.md)를 참고 하세요.
+  - 더 자세한 내용은 [WizFi310 page](../../Product/Wi-Fi-Module/WizFi310/wizfi310)를 참고 하세요.
 
 ### PinOut
 
@@ -88,12 +88,14 @@ WiFi 기능이용시 위 사진과 같이 보드 우측 상단에 위치한 2x2 
 WizArduino MEGA WIFI내 WizFi310은 Main Chip(ATmega 2560)과 Serial로 연결되어
 있습니다. 연결된 Serial 번호는 3번입니다. 아래와 같이 초기화 과정이 필요합니다.
 
+``` c
     #include "WizFi310.h"
     void setup()
     {
         Serial3.begin(115200);
         WiFi.init(&Serial3);
     }
+```
 
 WiFi 이용 관련하여 더 자세한 내용은 **Examples/IoT** 단락을 참고해 주세요.
 
@@ -162,8 +164,8 @@ GitHub와 아두이노 스케치에서 다운로드 및 설치 하는 방법에 
 
 ### Schematic & Reference Design
 
-  - [schematic.pdf](/osh/wizarduino_mega_wifi/wizarduino_mega_wifi_o_ver1.0_sch_170314.pdf)
-  - [reference design.zip](/osh/wizarduino_mega_wifi/wizarduino_mega_wifi_o_ver1.0_design_170314.zip)
+  - [schematic.pdf](/img/osh/wizarduino_mega_wifi/wizarduino_mega_wifi_o_ver1.0_sch_170314.pdf)
+  - [reference design.zip](/img/osh/wizarduino_mega_wifi/wizarduino_mega_wifi_o_ver1.0_design_170314.zip)
 
 ### Dimension
 
@@ -171,17 +173,17 @@ GitHub와 아두이노 스케치에서 다운로드 및 설치 하는 방법에 
 
 ### Part List
 
-  - [Part List](/osh/wizarduino_mega_wifi/wizarduino_mega_wifi_ver1.0_pl_170320.pdf)  
+  - [Part List](/img/osh/wizarduino_mega_wifi/wizarduino_mega_wifi_ver1.0_pl_170320.pdf)  
 
 -----
 
 ## FAQ
 
-  - [WizArduino MEGA WIFI에 장착된 WizFi310과 다른 WiFi모듈과 차이점은
-    뭔가요?](W5100S_(MKR-)Ethernet_Shield.md)
-  - [WiFi 통신 거리는 어떻게 되나요?]()
-  - [WizArduino WiFi에서 Software Serial 사용하는
-    방법?]()
+  - [WizArduino MEGA WIFI에 장착된 WizFi310과 다른 WiFi모듈과 차이점은 뭔가요?](w5100s_mkr_ethernet_shield)
+
+<details><summary>WiFi 통신 거리는 어떻게 되나요?</summary>내부적으로 테스트한 결과 WizFi310은 개활지에서 최대 160m 까지 통신 가능합니다. (단, 이경우 사용하는 공유기의 안테나에 따른 성능 차이는 있습니다.)</details>
+
+<!-->  - [WizArduino WiFi에서 Software Serial 사용하는 방법?]()-->
 
 -----
 

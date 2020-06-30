@@ -4,7 +4,6 @@ title: Design Guide
 date: 2020-04-03
 ---
 
------
 
 ## Overview
 
@@ -17,16 +16,16 @@ using WIZnet's chips.: easily, quickly, accurately
 
 ## Design Guide List
 
-  - [Hardware Design Guide](Hardware_Design_Guide.md)
-  - [Package Information](Package_Information.md)
-  - [IR Reflow profile](IR_Reflow_Profile.md)
-  - [Eagle CAD Library of WIZnet Products](Eagle_CAD_Library_of_WIZnet_Products.md)
+  - [Hardware Design Guide](hardware_design_guide)
+  - [Package Information](package_information)
+  - [IR Reflow profile](ir_reflow_profile)
+  - [Eagle CAD Library of WIZnet Products](eagle_cad_library_of_wiznet_products)
 
 -----
 
 ## Limitation Note
 
-  - 영문 - [/img/design_guide/limitation_note_-_arp_problem_in_the_nlb_environment_-_english_0312_.pdf](/img/design_guide/limitation_note_-_arp_problem_in_the_nlb_environment_-_english_0312_.pdf)
-  - 한글 - [/img/design_guide/limitation_note_-_arp_problem_in_the_nlb_environment_-_korean_0312_.pdf](/img/design_guide/limitation_note_-_arp_problem_in_the_nlb_environment_-_korean_0312_.pdf)
+  - [English](/img/design_guide/limitation_note_-_arp_problem_in_the_nlb_environment_-_english_0312_.pdf)
+  - [한글](/img/design_guide/limitation_note_-_arp_problem_in_the_nlb_environment_-_korean_0312_.pdf)
 
 -----

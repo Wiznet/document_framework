@@ -4,8 +4,6 @@ title: Hardware Design Guide
 date: 2020-04-02
 ---
 
-
-
 ## Summary
 
 This document is a Design Guide for WIZnet Chip to be used for PCB. It
@@ -17,6 +15,7 @@ follow the instructions, you are likely to experience degraded Ethernet
 performance.
 
 -----
+
 ## MDI signal Schematic
 
 ![MDI signal Schematic](/img/design_guide/schematic.jpg)  
@@ -24,16 +23,13 @@ performance.
 
   - W5100, W5300, W7100 should be configured as shown above.
   - For the W5500, please follow the URL below for your reference.
-      - Ref. Schematic :
-        🌎[http://wizwiki.net/wiki/doku.php?id=products:w5500:refschematic](Ref._Schematic.md)
+      - 🌎[Ref. Schematic](../Product/iEthernet/W5500/ref_schematic)
   - Since the W7500 must use an external PHY, you should contact the
     manufacturer of PHY you are using.
-      - Ref. Schematic :
-        🌎[http://wizwiki.net/wiki/doku.php?id=products:w7500:ref_sch](W7500_Ref.Schematic.md)
+      - 🌎[Ref. Schematic](../Product/iMCU/W7500/w7500_ref_schematic)
   - W7500P has built in PHY, and the circuit should be constructed by
     removing part A from the above diagram.
-      - Ref. Schematic :
-        🌎[http://wizwiki.net/wiki/doku.php?id=products:w7500p:ref_sch](W7500P_Ref.Schematic.md)
+      - 🌎[Ref. Schematic](../Product/iMCU/W7500P/w7500p_ref_schematic)
 
 -----
 ## Parts Placement

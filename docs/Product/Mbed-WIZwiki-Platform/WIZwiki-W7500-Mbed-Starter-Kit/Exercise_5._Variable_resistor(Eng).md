@@ -5,7 +5,7 @@ date: 2020-04-08
 ---
 
 
-# Exercise 5. Reading the analog value using a variable resistor
+# Reading the analog value using a variable resistor
 
 ## Outline
 
@@ -100,9 +100,4 @@ convert them to digital values.
 
 ## Related Links
 
-  * [Starter Kit Tutorial](Tutorial(Eng).md)
-
-
-## Next Exercise
-
-  * [Exercise 6. Reading the temperature sensor value](Exercise_6._Temperature_sensor(Eng).md)
+  * [Starter Kit Tutorial](tutorial_eng)

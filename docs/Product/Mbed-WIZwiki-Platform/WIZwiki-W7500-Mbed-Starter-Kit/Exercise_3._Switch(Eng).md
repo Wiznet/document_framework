@@ -4,7 +4,7 @@ title: Exercise 3. Switch(Eng)
 date: 2020-04-08
 ---
 
-# Exercise 3. Blinking LED with a switch
+# Blinking LED with a switch
 
 ## Outline
 
@@ -84,9 +84,4 @@ above example code, refer to the mbed Handbook page.
 
 ## Related Links
 
-   * [Starter Kit Tutorial](Tutorial(Eng).md)
-
-
-## Next Exercise
-
-   * [Exercise 4. Ringing a buzzer with PWM](Exercise_4._PWM(Eng).md)
+   * [Starter Kit Tutorial](tutorial_eng)

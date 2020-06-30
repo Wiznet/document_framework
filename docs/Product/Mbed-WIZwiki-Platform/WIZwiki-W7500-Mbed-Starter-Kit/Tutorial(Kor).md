@@ -13,39 +13,39 @@ date: 2020-04-08
 ## mbed 회원 가입하기
 
 [mbed 회원
-가입하기](/products/wizwiki_mbed_kit/kit_kr/tutorial_kr/mbed_register)  
+가입하기](sign_up_at_arm_mbed_kor)  
 
 ## 튜토리얼 목차
 
 #### 네트워크 기능을 사용하지 않는 예제
 
-[예제1. LED 깜박이기](Exercise_1._LED(Kor).md)  
+[예제1. LED 깜박이기](exercise_1_led_kor)  
 [예제2. 시리얼 포트를 이용해 데이터
-출력하기](Exercise_2._Serial_port(Kor).md)  
+출력하기](exercise_2_serial_port_kor)  
 [예제3. 버튼으로 LED
-깜박이기](Exercise_3._Switch(Kor).md)  
+깜박이기](exercise_3_switch_kor)  
 [예제4. PWM을 이용해 부저
-울리기](Exercise_4._PWM(Kor).md)  
+울리기](exercise_4_pwm_kor)  
 [예제5. 가변저항기를 이용해 아날로그 값
-읽어내기](Exercise_5._Variable_resistor(Kor).md)  
+읽어내기](exercise_5_variable_resistor_kor)  
 [예제6. 온도 센서 값
-읽어내기](Exercise_6._Temperature_sensor(Kor).md)  
+읽어내기](exercise_6_temperature_sensor_kor)  
 [예제7. 조도 센서 값
-읽어내기](Exercise_7._Photoresistor(Kor).md)  
+읽어내기](exercise_7_photoresistor_kor)  
 
 
 #### 네트워크 기능을 사용하는 예제
 
 [네트워크 예제1. TCP 루프백 통신
-테스트하기](Network_Exercise_1._TCP_loopback(Kor).md)  
+테스트하기](network_exercise_1_tcp_loopback_kor)  
 [네트워크 예제2. TCP 통신으로 LED
-제어하기](Network_Exercise_2._LED_with_TCP(Kor).md)  
+제어하기](network_exercise_2_led_with_tcp_kor)  
 
 -----
 
 
 #### 관련 페이지로 가기
 
-[WIZwiki-W7500 mbed Starter Kit](WIZwiki-W7500_Mbed_Starter_Kit.md)  
+[WIZwiki-W7500 mbed Starter Kit](wizwiki_w7500_mbed_starter_kit)  
 [WIZwiki-W7500 mbed Starter Kit 제품
-소개](Product_Information(Kor).md)
+소개](product_information_kor)

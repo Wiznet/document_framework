@@ -4,14 +4,14 @@ title: Exercise 6. Temperature sensor(Eng)
 date: 2020-04-08
 ---
 
-# Tutorial Example 6. Reading the temperature sensor value
+# Reading the temperature sensor value
 
-## summary
+## Summary
 
 This is an example of reading analog temperature sensor value using ADC. Convert analog values ​​to Celsius and Fahrenheit using formulas. The converted value
 It is displayed on the screen through the serial port..
 
-## materials
+## Materials
 
   - WIZwiki-W7500 board
   - USB cable
@@ -19,7 +19,7 @@ It is displayed on the screen through the serial port..
   - Jumper wire
   - Temperature Sensor TMP36GT9 (Low Voltage Temperature Sensor)
 
-## hardware
+## Hardware
 
 ### Schematic
 
@@ -30,7 +30,7 @@ The overall circuit diagram is as follows.
 
 ![](/img/products/wizwiki_mbed_kit/kit_kr/exam_temp_sensor.png)
 
-## software
+## Software
 
 ### Example Code
 
@@ -86,8 +86,4 @@ See the link below for temperature sensor data.
 
 ## Related links
 
-  * [Starter Kit Tutorial] ()
-
-## Example
-
-  * [Example 7. Reading light sensor value] ()
+  * [Starter Kit Tutorial](tutorial_eng)

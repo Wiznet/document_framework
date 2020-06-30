@@ -1,10 +1,8 @@
 ---
 id: exercise_1_led_kor
-title: Exercise 1. LED(Kor)
+title: 튜토리얼 예제1. LED 깜박이기
 date: 2020-04-08
 ---
-
-# 튜토리얼 예제1. LED 깜박이기
 
 ## 개요
 
@@ -23,7 +21,7 @@ mbed 회원 가입이 되어 있으면 🌎[mbed 개발자 사이트](https://de
 mbed 회원 가입이 안 되어 있는 경우엔 아래 페이지를 참고해 회원 가입을 한다.
 
 [mbed 회원
-가입하기](/products/wizwiki_mbed_kit/kit_kr/tutorial_kr/mbed_register)
+가입하기](sign_up_at_arm_mbed_kor)
 
 #### PC와 mbed 플랫폼을 연결하자
 
@@ -89,8 +87,4 @@ LED가 깜박이고 있으면 WIZwiki-W7500 플랫폼 보드에서 예제 코드
 
 ## 관련 링크
 
-   * [스타터 킷 튜토리얼](Tutorial(Kor).md)
-
-## 다음 예제
-
-   * [|예제2. 시리얼 포트를 사용해서 출력하기](Exercise_2._Serial_port(Kor).md)
+   * [스타터 킷 튜토리얼](tutorial_kor)

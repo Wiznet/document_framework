@@ -4,7 +4,7 @@ title: Exercise 1. LED(Eng)
 date: 2020-04-08
 ---
 
-# Tutorial Exercise 1. Blinking LED
+# Blinking LED
 
 ## Outline
 
@@ -22,7 +22,7 @@ for the platform board.
 Please log on to 🌎[mbed website](https://developer.mbed.org)mbed website
 for further testing. If you haven’t signed up yet, please sign up.
 [Sign-up at ARM mbed Developer
-Site](Sign-up_at_ARM_mbed(Eng).md)
+Site](sign_up_at_arm_mbed_eng)
 
 #### Connect the PC with mbed platform board
 
@@ -89,8 +89,4 @@ Users can test with different time value of the wait function.
 
 ## Related Links
 
-   * [Starter Kit Tutorial](Tutorial(Eng).md)
-
-## Next Exercise
-
-   * [Exercise 2. Data output using serial port](Exercise_2._Serial_port(Eng).md)
+   * [Starter Kit Tutorial](tutorial_eng)
