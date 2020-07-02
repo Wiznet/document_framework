@@ -4,14 +4,10 @@ title: Datasheet
 date: 2020-04-15
 ---
 
-
-
-# WIZ752SR-125 Datasheet
-
- **Supported Languages**  
+**Supported Languages**  
 * English only
 
-![WIZ752SR-125](/products/s2e_module/wiz752sr-125/wiz752sr-125_main.png)
+![WIZ752SR-125](/img/products/s2e_module/wiz752sr-125/wiz752sr-125_main.png)
 
 -----
 
@@ -114,14 +110,14 @@ Flow control: None, RTS / CTS, XON / XOFF</td>
 ### WIZ752SR-125 Callout
 
 ![WIZ752SR-125
-Callout](/products/s2e_module/wiz752sr-125/wiz752sr-125_callout.png)
+Callout](/img/products/s2e_module/wiz752sr-125/wiz752sr-125_callout.png)
 
 -----
 
 ### WIZ752SR-125 Pinout
 
 ![WIZ752SR-125
-Pinout](/products/s2e_module/wiz752sr-125/wiz752sr-125_pinout.png)
+Pinout](/img/products/s2e_module/wiz752sr-125/wiz752sr-125_pinout.png)
 
 <table>
 <thead>
@@ -373,7 +369,7 @@ BOOT</td>
 -----
 
 ![WIZ752SR-125 D-Sub9
-Pinout](/products/s2e_module/wiz752sr-125/wiz752sr-125_dsub.png)
+Pinout](/img/products/s2e_module/wiz752sr-125/wiz752sr-125_dsub.png)
 
 <table>
 <thead>
@@ -544,7 +540,7 @@ Connector</td>
 ### WIZ752SR-125 Block Diagram
 
 ![WIZ752SR-125 Block
-Diagram](/products/s2e_module/wiz752sr-125/wiz752sr-125_blockdiagram.png)
+Diagram](/img/products/s2e_module/wiz752sr-125/wiz752sr-125_blockdiagram.png)
 
 -----
 
@@ -556,8 +552,8 @@ Diagram](/products/s2e_module/wiz752sr-125/wiz752sr-125_blockdiagram.png)
 
 ### WIZ752SR-125
 
-  - [](/products/w5500/w5500_evb/icons/download.png) [WIZ752SR-125 Schematic(Altium)](https://github.com/Wiznet/Hardware-Files-of-WIZnet/raw/master/04_Serial_to_Ethernet_Module/WIZ752SR-125/WIZ752SR-125_V100/Schematic/WIZ7525SR-125_SCH_V100.zip)
-  - [](/products/w5500/w5500_evb/icons/download.png) [WIZ752SR-125 Schematic(PDF)](https://github.com/Wiznet/Hardware-Files-of-WIZnet/raw/master/04_Serial_to_Ethernet_Module/WIZ752SR-125/WIZ752SR-125_V100/Schematic/WIZ7525SR-125_SCH_V100.pdf)
+  - ![](/img/products/w5500/w5500_evb/icons/download.png) [WIZ752SR-125 Schematic(Altium)](https://github.com/Wiznet/Hardware-Files-of-WIZnet/raw/master/04_Serial_to_Ethernet_Module/WIZ752SR-125/WIZ752SR-125_V100/Schematic/WIZ7525SR-125_SCH_V100.zip)
+  - ![](/img/products/w5500/w5500_evb/icons/download.png) [WIZ752SR-125 Schematic(PDF)](https://github.com/Wiznet/Hardware-Files-of-WIZnet/raw/master/04_Serial_to_Ethernet_Module/WIZ752SR-125/WIZ752SR-125_V100/Schematic/WIZ7525SR-125_SCH_V100.pdf)
 
 -----
 
@@ -565,8 +561,8 @@ Diagram](/products/s2e_module/wiz752sr-125/wiz752sr-125_blockdiagram.png)
 
 ### WIZ752SR-125
 
-  - [](/products/w5500/w5500_evb/icons/download.png) [WIZ752SR-125 Partlist(Excel)](https://github.com/Wiznet/Hardware-Files-of-WIZnet/blob/master/04_Serial_to_Ethernet_Module/WIZ752SR-125/WIZ752SR-125_V100/Partlist/WIZ752SR-125_V100_BOM_180112.xls)
-  - [](/products/w5500/w5500_evb/icons/download.png) [WIZ752SR-125 Partlist(PDF)](https://github.com/Wiznet/Hardware-Files-of-WIZnet/raw/master/04_Serial_to_Ethernet_Module/WIZ752SR-125/WIZ752SR-125_V100/Partlist/WIZ752SR-125_V100_BOM_180112.pdf)
+  - ![](/img/products/w5500/w5500_evb/icons/download.png) [WIZ752SR-125 Partlist(Excel)](https://github.com/Wiznet/Hardware-Files-of-WIZnet/blob/master/04_Serial_to_Ethernet_Module/WIZ752SR-125/WIZ752SR-125_V100/Partlist/WIZ752SR-125_V100_BOM_180112.xls)
+  - ![](/img/products/w5500/w5500_evb/icons/download.png) [WIZ752SR-125 Partlist(PDF)](https://github.com/Wiznet/Hardware-Files-of-WIZnet/raw/master/04_Serial_to_Ethernet_Module/WIZ752SR-125/WIZ752SR-125_V100/Partlist/WIZ752SR-125_V100_BOM_180112.pdf)
 
 -----
 
@@ -696,7 +692,7 @@ Diagram](/products/s2e_module/wiz752sr-125/wiz752sr-125_blockdiagram.png)
 
 ※ Refer to WIZ752SR-120 Power Dissipation information (below Link)  
 [WIZ750SR\_Power
-dissipation](/products/wiz750sr/datasheet/start#ethernet_power_dissipation)
+dissipation](../../WIZ750SR/datasheet#ethernet-power-dissipation)
 
 -----
 
@@ -706,4 +702,4 @@ dissipation](/products/wiz750sr/datasheet/start#ethernet_power_dissipation)
       - 88.50(W) x 66.00(L) x 18.00(H) (Unit : mm)
 
 ![WIZ752SR-120 V1.0
-Dimension](/products/s2e_module/wiz752sr-125/wiz752sr-125_dimension.png)
+Dimension](/img/products/s2e_module/wiz752sr-125/wiz752sr-125_dimension.png)

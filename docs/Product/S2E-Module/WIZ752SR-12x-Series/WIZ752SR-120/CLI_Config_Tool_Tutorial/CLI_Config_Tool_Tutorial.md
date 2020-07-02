@@ -20,7 +20,7 @@ github page](https://github.com/Wiznet/WIZnet-S2E-Tool).
 Please refer to the following pages for detailed usage.
 
   - [1. Overview & Environment](Overview_&_Environment.md)
-  - [2. How to use CLI Config Tool](How_to_use_CLI_Config_Tool.md)
+  - [2. How to use CLI Config Tool](how_to_use_cli_config_tool)
   - [3. Single device configuration](Single_device_configuration.md)
   - [4. Multi devices configuration](Multi_device_configuration.md)
   - [5. Using File Options](File_Options.md)

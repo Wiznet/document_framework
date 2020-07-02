@@ -4,13 +4,9 @@ title: Getting Started-[EN]
 date: 2020-04-09
 ---
 
-
-
-# Getting Started with WIZ750SR-105
-
 **Supported Languages**  
-* [English](Getting_Started-[EN].md) (current page)  
-* [Korean](Getting_Started-[KO].md)
+* [English](getting_started-[EN]) (current page)  
+* [Korean](getting_started-[KO])
 
 ![](/img/products/wiz750sr/docs_icon.png)
 
@@ -24,12 +20,12 @@ WIZ750SR-105-EVB evaluation board.\*\*
 ## Unpacking the WIZ750SR-105
 
 ### What's in the Box?
-
+<!-->
 |                                                              |
 | ------------------------------------------------------------ |
 |                                                              |
 | Figure: ***WIZ750SR-105 Rev. 1.0 Evaluation Board Package*** |
-
+-->
 The WIZ750SR-105 evaluation board package contains the following parts.
 
   - WIZ750SR-105 TTL Module
@@ -38,7 +34,7 @@ The WIZ750SR-105 evaluation board package contains the following parts.
 
 The entire list of parts of the board is available at the [WIZ750SR-105
 Overview: Product
-Contents](/products/wiz750sr-105/overview/en#product_contents) page.
+Contents](overview-[EN]#product-contents) page.
 
 ### Device Layout
 
@@ -86,7 +82,7 @@ Contents](/products/wiz750sr-105/overview/en#product_contents) page.
 ### Software
 
   - Configuration tool program ([Download
-    page](/products/wiz750sr/download/start))
+    page](../../WIZ750SR/download))
   - TCP server / TCP client / UDP terminal program
   - Serial terminal program
 
@@ -112,7 +108,7 @@ Contents](/products/wiz750sr-105/overview/en#product_contents) page.
     plus WIZnet hardwired TCP/IP core include Ethernet PHY. For more
     details, please refer to [W7500 product page](/products/w7500/start)
     
-    ### WIZ750SR-105 Factory Settings
+### WIZ750SR-105 Factory Settings
 
 | Network Settings | Local  | IP address      | 192.168.11.2  | \-                |
 | ---------------- | ------ | --------------- | ------------- | ----------------- |
@@ -238,6 +234,7 @@ as shown in the picture below.
       - Used to connect the evaluation board’s USB connector and the
         PC’s USB connector.
 
+<!--
 |                                                   |
 | ------------------------------------------------- |
 |                                                   |
@@ -247,6 +244,7 @@ as shown in the picture below.
 | -------------------------------------- |
 |                                        |
 | Figure: **WIZ750SR-105-EVB side view** |
+-->
 
 #### Step 2: Power on
 
@@ -330,7 +328,7 @@ Now you’re ready to use the WIZ750SR-105\!
 
 **If there is any problem?**  
 Please refer to our **[Troubleshooting
-Guide](trouble_shooting-[EN])**\!
+Guide](../../WIZ750SR/trouble_shooting-[EN])**\!
 
 -----
 
@@ -340,32 +338,19 @@ Guide](trouble_shooting-[EN])**\!
 
 WIZ750SR series Common Documents 
 
-  - **[User's Manual (English)](User's_Manual-[EN].md)** 
-  - **[User's Manual (Korean)](User's_Manual-[KO].md)** 
-
-
-
-  - **[Device Command Manual (English)](Command_Manual-[EN].md)**
-  - **[Device Command Manual (Korean)](Command_Manual-[KO].md)**
-
-
-
-  - **[Troubleshooting Guide (English)](Trouble_Shooting-[EN].md)**
-  - **[Troubleshooting Guide (Korean)](Trouble_Shooting-[KO].md)**
-
-
-
-  - **[Update History (English)](Series_Update_History-[EN].md)**
-  - **[Update History (Korean)](Series_Update_History-[KO].md)**
-
+  - **User's Manual [(English)](/docs/Product/S2E-Module/WIZ750SR/users_manual-[EN])/[(Korean)](/docs/Product/S2E-Module/WIZ750SR/users_manual-[KO])** 
+  
+  - **Device Command Manual [(English)](../../WIZ750SR/command_manual-[EN])/[(Korean)](../../WIZ750SR/command_manual-[KO])**
+  
+  - **Troubleshooting Guide [(English)](../../WIZ750SR/trouble_shooting-[EN])/[(Korean)](../../WIZ750SR/trouble_shooting-[KO])**
+  
+  - **Update History [(English)](../../WIZ750SR/series_update_history-[EN])/[(Korean)](../../WIZ750SR/series_update_history-[KO])**
+  
 -----
 
 **WIZ750SR series Downloads** 
 
-  - **[Software Download](Download.md)**
-
-
-
-  - **[Technical References](Technical_References.md)**
+  - **[Software Download](../../WIZ750SR/download)**
+  - **[Technical References](../../WIZ750SR/technical_references)**
 
 -----

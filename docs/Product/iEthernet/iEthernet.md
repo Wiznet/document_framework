@@ -14,11 +14,11 @@ Core & MAC (\&PHY).
 
 ## Product Family
 
-  - [W6100](./W6100/W6100.md): IPv4/IPv6,Hardwired TCP/IP w/ 802.3
+  - [W6100](W6100/overview): IPv4/IPv6,Hardwired TCP/IP w/ 802.3
     Ethernet MAC and PHY, 8-sockets, Fast SPI/BUS
-  - [W5100S](/products/w5100s/start): Hardwired TCP/IP w/ 802.3 Ethernet
+  - [W5100S](W5100S/overview): Hardwired TCP/IP w/ 802.3 Ethernet
     MAC and PHY, 4-sockets, Fast SPI/BUS
-  - [W5500](/products/w5500/start): Hardwired TCP/IP w/ 802.3 Ethernet
+  - [W5500](W5500/overview): Hardwired TCP/IP w/ 802.3 Ethernet
     MAC and PHY, 8-sockets, Fast SPI
   - [W5300](http://www.wiznet.io/product-item/w5300/): Hardwired TCP/IP
     w/ 802.3 Ethernet MAC and PHY, 8-sockets, High-throughput
@@ -32,7 +32,8 @@ Core & MAC (\&PHY).
 
 ## Product Application Project
 
-  - [Projects](/products/iethernet/projects) :Provide a number of
-    examples.
+We put together the projects about W5x00, W6100 and W7500. Currently, We are adding as integration version projects called W5x00. Also the projects of W5100,W5200 and W5300 were implemented as AVRs and It is not specified here.
+
+For more detailed information, please visit the [Github](https://wiznet-iolibrary.github.io/)
 
 -----

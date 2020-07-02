@@ -46,8 +46,8 @@ interfaces.
 
 ### 2-Port S2E Module Products
 
-  - [WIZ752SR-120](/products/s2e_module/wiz752sr-120/start)
-  - [WIZ752SR-125](/products/s2e_module/wiz752sr-125/start)
+  - [WIZ752SR-120](WIZ752SR-12x-Series/WIZ752SR-120/wiz752sr_120)
+  - [WIZ752SR-125](WIZ752SR-12x-Series/WIZ752SR-125/wiz752sr_125)
   - [WIZ120SR](http://www.wiznet.io/product-item/wiz120sr/)
   - [WIZ125SR](http://www.wiznet.io/product-item/wiz125sr/)
 

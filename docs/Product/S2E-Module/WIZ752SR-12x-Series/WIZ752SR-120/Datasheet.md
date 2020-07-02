@@ -4,10 +4,6 @@ title: Datasheet
 date: 2020-04-13
 ---
 
-
-
-# WIZ752SR-120 Datasheet
-
 **Supported Languages**  
 * English only
 
@@ -120,14 +116,14 @@ Flow control: None, RTS / CTS, XON / XOFF</td>
 ### WIZ752SR-120 Pinout
 
 ![WIZ752SR-120
-Pinout](/products/s2e_module/wiz752sr-120/datasheet/wiz752sr-120_pinout.png)
+Pinout](/img/products/s2e_module/wiz752sr-120/datasheet/wiz752sr-120_pinout.png)
 
 -----
 
 ### WIZ752SR-120 Block Diagram
 
 ![WIZ752SR-120 Block
-Diagram](/products/s2e_module/wiz752sr-120/wiz752sr-120_blockdiagram.png)
+Diagram](/img/products/s2e_module/wiz752sr-120/wiz752sr-120_blockdiagram.png)
 
 -----
 
@@ -139,8 +135,8 @@ Diagram](/products/s2e_module/wiz752sr-120/wiz752sr-120_blockdiagram.png)
 
 ### WIZ752SR-120
 
-  - [](/products/w5500/w5500_evb/icons/download.png) [WIZ752SR-120 Schematic(Altium)](https://github.com/Wiznet/Hardware-Files-of-WIZnet/raw/master/04_Serial_to_Ethernet_Module/WIZ752SR-120/WIZ752SR-120_V100/Schematic/WIZ752SR-120_SCH_V100.zip)
-  - [](/products/w5500/w5500_evb/icons/download.png) [WIZ752SR-120 Schematic(PDF)](https://github.com/Wiznet/Hardware-Files-of-WIZnet/raw/master/04_Serial_to_Ethernet_Module/WIZ752SR-120/WIZ752SR-120_V100/Schematic/WIZ752SR-120_SCH_V100.pdf)
+  - ![](/img/products/w5500/w5500_evb/icons/download.png) [WIZ752SR-120 Schematic(Altium)](https://github.com/Wiznet/Hardware-Files-of-WIZnet/raw/master/04_Serial_to_Ethernet_Module/WIZ752SR-120/WIZ752SR-120_V100/Schematic/WIZ752SR-120_SCH_V100.zip)
+  - ![](/img/products/w5500/w5500_evb/icons/download.png) [WIZ752SR-120 Schematic(PDF)](https://github.com/Wiznet/Hardware-Files-of-WIZnet/raw/master/04_Serial_to_Ethernet_Module/WIZ752SR-120/WIZ752SR-120_V100/Schematic/WIZ752SR-120_SCH_V100.pdf)
 
 -----
 
@@ -148,8 +144,8 @@ Diagram](/products/s2e_module/wiz752sr-120/wiz752sr-120_blockdiagram.png)
 
 ### WIZ752SR-120
 
-  - [](/products/w5500/w5500_evb/icons/download.png) [WIZ752SR-120 Partlist(Excel)](https://github.com/Wiznet/Hardware-Files-of-WIZnet/raw/master/04_Serial_to_Ethernet_Module/WIZ752SR-120/WIZ752SR-120_V100/Partlist/WIZ752SR-120_BOM_V100_180112.xls)
-  - [](/products/w5500/w5500_evb/icons/download.png) [WIZ752SR-120 Partlist(PDF)](https://github.com/Wiznet/Hardware-Files-of-WIZnet/raw/master/04_Serial_to_Ethernet_Module/WIZ752SR-120/WIZ752SR-120_V100/Partlist/WIZ752SR-120_BOM_V100_180112.pdf)
+  - ![](/img/products/w5500/w5500_evb/icons/download.png) [WIZ752SR-120 Partlist(Excel)](https://github.com/Wiznet/Hardware-Files-of-WIZnet/raw/master/04_Serial_to_Ethernet_Module/WIZ752SR-120/WIZ752SR-120_V100/Partlist/WIZ752SR-120_BOM_V100_180112.xls)
+  - ![](/img/products/w5500/w5500_evb/icons/download.png) [WIZ752SR-120 Partlist(PDF)](https://github.com/Wiznet/Hardware-Files-of-WIZnet/raw/master/04_Serial_to_Ethernet_Module/WIZ752SR-120/WIZ752SR-120_V100/Partlist/WIZ752SR-120_BOM_V100_180112.pdf)
 
 -----
 
@@ -279,7 +275,7 @@ Diagram](/products/s2e_module/wiz752sr-120/wiz752sr-120_blockdiagram.png)
 
 ※ Refer to WIZ752SR-120 Power Dissipation information (below Link)  
 [WIZ750SR\_Power
-dissipation](/products/wiz750sr/datasheet/start#ethernet_power_dissipation)
+dissipation](../../WIZ750SR/datasheet#ethernet-power-dissipation)
 
 -----
 
@@ -292,7 +288,7 @@ dissipation](/products/wiz750sr/datasheet/start#ethernet_power_dissipation)
       - Power, UART, Ethernet, System, Indicate
 
 ![WIZ752SR-120
-Pinout](/products/s2e_module/wiz752sr-120/datasheet/wiz752sr-120_pinout_mount.png)
+Pinout](/img/products/s2e_module/wiz752sr-120/datasheet/wiz752sr-120_pinout_mount.png)
 
 <table>
 <thead>
@@ -542,7 +538,7 @@ Low : Connected</td>
     WIZ752SR-120.
 
 ![WIZ752SR-120
-Pinout](/products/s2e_module/wiz752sr-120/wiz752sr-120_pinout_not_mount.png)
+Pinout](/img/products/s2e_module/wiz752sr-120/wiz752sr-120_pinout_not_mount.png)
 
 <table>
 <thead>
@@ -799,4 +795,4 @@ BOOT</td>
       - 50.00(W) x 30.00(L) x 9.00(H) (Unit : mm)
 
 ![WIZ752SR-120 V1.0
-Dimension](/products/s2e_module/wiz752sr-120/wiz752sr-120_dimension.png)
+Dimension](/img/products/s2e_module/wiz752sr-120/wiz752sr-120_dimension.png)

@@ -4,10 +4,6 @@ title: Getting Started-[EN]
 date: 2020-04-08
 ---
 
-
-
-# Getting Started with WIZ750SR
-
 **Supported Languages**
   * [English](Getting_Started-[EN]) (current page)  
   * [Korean](Getting_Started-[KO])
@@ -79,7 +75,7 @@ The entire list of parts of the board is available at the [WIZ750SR Overview: Pr
 ### Software
 
   - Configuration tool program ([Download
-    page](/products/wiz750sr/download/start))
+    page](download))
   - TCP server / TCP client / UDP terminal program
   - Serial terminal program
 
@@ -301,31 +297,19 @@ Please refer to our **[Troubleshooting Guide](trouble_shooting-[EN])**!
 
  **WIZ750SR** 
 
-  - **[User's Manual (English)](users_manual-[EN])** 
-  - **[User's Manual (Korean)](users_manual-[KO])** 
-
-
-
-  - **[Device Command Manual (English)](Command_Manual-[EN])**
-  - **[Device Command Manual (Korean)](Command_Manual-[KO])**
-
-
-
-  - **[Troubleshooting Guide (English)](Trouble_Shooting-[EN])**
-  - **[Troubleshooting Guide (Korean)](Trouble_Shooting-[KO])**
-
-
-
-  - **[Update History (English)](Series_Update_History-[EN])**
-  - **[Update History (Korean)](Series_Update_History-[KO])**
-
+  - **User's Manual [(English)](users_manual-[EN])/[(Korean)](users_manual-[KO])** 
+  
+  - **Device Command Manual [(English)](Command_Manual-[EN])/[(Korean)](Command_Manual-[KO])**
+  
+  - **Troubleshooting Guide [(English)](Trouble_Shooting-[EN])/[(Korean)](Trouble_Shooting-[KO])**
+  
+  - **Update History [(English)](Series_Update_History-[EN])/[(Korean)](Series_Update_History-[KO])**
+  
 -----
 
 **WIZ750SR series Downloads** 
 
   - **[Software Download](Download)**
-
-
 
   - **[Technical References](Technical_References)**
 

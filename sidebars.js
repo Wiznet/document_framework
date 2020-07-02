@@ -240,19 +240,19 @@ module.exports = {
 		'Product/S2E-Module/WIZ750SR-1xx-Series/WIZ750SR-100/overview-[EN]',
 		'Product/S2E-Module/WIZ750SR-1xx-Series/WIZ750SR-100/getting_started-[KO]',
 		'Product/S2E-Module/WIZ750SR-1xx-Series/WIZ750SR-100/getting_started-[EN]',
-		'Product/S2E-Module/WIZ750SR-1xx-Series/WIZ750SR-100/users_manual-[KO]',
-		'Product/S2E-Module/WIZ750SR-1xx-Series/WIZ750SR-100/users_manual-[EN]',
-		'Product/S2E-Module/WIZ750SR-1xx-Series/WIZ750SR-100/configuration_tool_manual_new-[KO]',
-		'Product/S2E-Module/WIZ750SR-1xx-Series/WIZ750SR-100/configuration_tool_manual_new-[EN]',
-		'Product/S2E-Module/WIZ750SR-1xx-Series/WIZ750SR-100/configuration_tool_manual-[KO]',
-		'Product/S2E-Module/WIZ750SR-1xx-Series/WIZ750SR-100/configuration_tool_manual-[EN]',
-		'Product/S2E-Module/WIZ750SR-1xx-Series/WIZ750SR-100/command_manual-[KO]',
-		'Product/S2E-Module/WIZ750SR-1xx-Series/WIZ750SR-100/command_manual-[EN]',
-		'Product/S2E-Module/WIZ750SR-1xx-Series/WIZ750SR-100/trouble_shooting-[KO]',
-		'Product/S2E-Module/WIZ750SR-1xx-Series/WIZ750SR-100/trouble_shooting-[EN]',
+		//'Product/S2E-Module/WIZ750SR-1xx-Series/WIZ750SR-100/users_manual-[KO]', //common with 750SR
+		//'Product/S2E-Module/WIZ750SR-1xx-Series/WIZ750SR-100/users_manual-[EN]', //common with 750SR  
+		//'Product/S2E-Module/WIZ750SR-1xx-Series/WIZ750SR-100/configuration_tool_manual_new-[KO]', //common with 750SR
+		//'Product/S2E-Module/WIZ750SR-1xx-Series/WIZ750SR-100/configuration_tool_manual_new-[EN]', //common with 750SR
+		//'Product/S2E-Module/WIZ750SR-1xx-Series/WIZ750SR-100/configuration_tool_manual-[KO]', //common with 750SR
+		//'Product/S2E-Module/WIZ750SR-1xx-Series/WIZ750SR-100/configuration_tool_manual-[EN]', //common with 750SR
+		//'Product/S2E-Module/WIZ750SR-1xx-Series/WIZ750SR-100/command_manual-[KO]', //common with 750SR
+		//'Product/S2E-Module/WIZ750SR-1xx-Series/WIZ750SR-100/command_manual-[EN]', //common with 750SR
+		//'Product/S2E-Module/WIZ750SR-1xx-Series/WIZ750SR-100/trouble_shooting-[KO]', //common with 750SR
+		//'Product/S2E-Module/WIZ750SR-1xx-Series/WIZ750SR-100/trouble_shooting-[EN]', //common with 750SR
 		'Product/S2E-Module/WIZ750SR-1xx-Series/WIZ750SR-100/datasheet',
-		'Product/S2E-Module/WIZ750SR-1xx-Series/WIZ750SR-100/technical_references',
-		'Product/S2E-Module/WIZ750SR-1xx-Series/WIZ750SR-100/download'
+		//'Product/S2E-Module/WIZ750SR-1xx-Series/WIZ750SR-100/technical_references', //common with 750SR
+		//'Product/S2E-Module/WIZ750SR-1xx-Series/WIZ750SR-100/download' //common with 750SR
 		],
 		},
 		{
@@ -264,19 +264,19 @@ module.exports = {
 		'Product/S2E-Module/WIZ750SR-1xx-Series/WIZ750SR-105/overview-[EN]',
 		'Product/S2E-Module/WIZ750SR-1xx-Series/WIZ750SR-105/getting_started-[KO]',
 		'Product/S2E-Module/WIZ750SR-1xx-Series/WIZ750SR-105/getting_started-[EN]',
-		'Product/S2E-Module/WIZ750SR-1xx-Series/WIZ750SR-105/users_manual-[KO]',
-		'Product/S2E-Module/WIZ750SR-1xx-Series/WIZ750SR-105/users_manual-[EN]',
-		'Product/S2E-Module/WIZ750SR-1xx-Series/WIZ750SR-105/configuration_tool_manual_new-[KO]',
-		'Product/S2E-Module/WIZ750SR-1xx-Series/WIZ750SR-105/configuration_tool_manual_new-[EN]',
-		'Product/S2E-Module/WIZ750SR-1xx-Series/WIZ750SR-105/configuration_tool_manual-[KO]',
-		'Product/S2E-Module/WIZ750SR-1xx-Series/WIZ750SR-105/configuration_tool_manual-[EN]',
-		'Product/S2E-Module/WIZ750SR-1xx-Series/WIZ750SR-105/command_manual-[KO]',
-		'Product/S2E-Module/WIZ750SR-1xx-Series/WIZ750SR-105/command_manual-[EN]',
-		'Product/S2E-Module/WIZ750SR-1xx-Series/WIZ750SR-105/trouble_shooting-[KO]',
-		'Product/S2E-Module/WIZ750SR-1xx-Series/WIZ750SR-105/trouble_shooting-[EN]',
+		//'Product/S2E-Module/WIZ750SR-1xx-Series/WIZ750SR-105/users_manual-[KO]',
+		//'Product/S2E-Module/WIZ750SR-1xx-Series/WIZ750SR-105/users_manual-[EN]',
+		//'Product/S2E-Module/WIZ750SR-1xx-Series/WIZ750SR-105/configuration_tool_manual_new-[KO]',
+		//'Product/S2E-Module/WIZ750SR-1xx-Series/WIZ750SR-105/configuration_tool_manual_new-[EN]',
+		//'Product/S2E-Module/WIZ750SR-1xx-Series/WIZ750SR-105/configuration_tool_manual-[KO]',
+		//'Product/S2E-Module/WIZ750SR-1xx-Series/WIZ750SR-105/configuration_tool_manual-[EN]',
+		//'Product/S2E-Module/WIZ750SR-1xx-Series/WIZ750SR-105/command_manual-[KO]',
+		//'Product/S2E-Module/WIZ750SR-1xx-Series/WIZ750SR-105/command_manual-[EN]',
+		//'Product/S2E-Module/WIZ750SR-1xx-Series/WIZ750SR-105/trouble_shooting-[KO]',
+		//'Product/S2E-Module/WIZ750SR-1xx-Series/WIZ750SR-105/trouble_shooting-[EN]',
 		'Product/S2E-Module/WIZ750SR-1xx-Series/WIZ750SR-105/datasheet',
-		'Product/S2E-Module/WIZ750SR-1xx-Series/WIZ750SR-105/technical_references',
-		'Product/S2E-Module/WIZ750SR-1xx-Series/WIZ750SR-105/download'
+		//'Product/S2E-Module/WIZ750SR-1xx-Series/WIZ750SR-105/technical_references',
+		//'Product/S2E-Module/WIZ750SR-1xx-Series/WIZ750SR-105/download'
 		],
 		},
 		{
@@ -288,19 +288,19 @@ module.exports = {
 		'Product/S2E-Module/WIZ750SR-1xx-Series/WIZ750SR-110/overview-[EN]',
 		'Product/S2E-Module/WIZ750SR-1xx-Series/WIZ750SR-110/getting_started-[KO]',
 		'Product/S2E-Module/WIZ750SR-1xx-Series/WIZ750SR-110/getting_started-[EN]',
-		'Product/S2E-Module/WIZ750SR-1xx-Series/WIZ750SR-110/users_manual-[KO]',
-		'Product/S2E-Module/WIZ750SR-1xx-Series/WIZ750SR-110/users_manual-[EN]',
-		'Product/S2E-Module/WIZ750SR-1xx-Series/WIZ750SR-110/configuration_tool_manual_new-[KO]',
-		'Product/S2E-Module/WIZ750SR-1xx-Series/WIZ750SR-110/configuration_tool_manual_new-[EN]',
-		'Product/S2E-Module/WIZ750SR-1xx-Series/WIZ750SR-110/configuration_tool_manual-[KO]',
-		'Product/S2E-Module/WIZ750SR-1xx-Series/WIZ750SR-110/configuration_tool_manual-[EN]',
-		'Product/S2E-Module/WIZ750SR-1xx-Series/WIZ750SR-110/command_manual-[KO]',
-		'Product/S2E-Module/WIZ750SR-1xx-Series/WIZ750SR-110/command_manual-[EN]',
-		'Product/S2E-Module/WIZ750SR-1xx-Series/WIZ750SR-110/trouble_shooting-[KO]',
-		'Product/S2E-Module/WIZ750SR-1xx-Series/WIZ750SR-110/trouble_shooting-[EN]',
+		//'Product/S2E-Module/WIZ750SR-1xx-Series/WIZ750SR-110/users_manual-[KO]',
+		//'Product/S2E-Module/WIZ750SR-1xx-Series/WIZ750SR-110/users_manual-[EN]',
+		//'Product/S2E-Module/WIZ750SR-1xx-Series/WIZ750SR-110/configuration_tool_manual_new-[KO]',
+		//'Product/S2E-Module/WIZ750SR-1xx-Series/WIZ750SR-110/configuration_tool_manual_new-[EN]',
+		//'Product/S2E-Module/WIZ750SR-1xx-Series/WIZ750SR-110/configuration_tool_manual-[KO]',
+		//'Product/S2E-Module/WIZ750SR-1xx-Series/WIZ750SR-110/configuration_tool_manual-[EN]',
+		//'Product/S2E-Module/WIZ750SR-1xx-Series/WIZ750SR-110/command_manual-[KO]',
+		//'Product/S2E-Module/WIZ750SR-1xx-Series/WIZ750SR-110/command_manual-[EN]',
+		//'Product/S2E-Module/WIZ750SR-1xx-Series/WIZ750SR-110/trouble_shooting-[KO]',
+		//'Product/S2E-Module/WIZ750SR-1xx-Series/WIZ750SR-110/trouble_shooting-[EN]',
 		'Product/S2E-Module/WIZ750SR-1xx-Series/WIZ750SR-110/datasheet',
-		'Product/S2E-Module/WIZ750SR-1xx-Series/WIZ750SR-110/technical_references',
-		'Product/S2E-Module/WIZ750SR-1xx-Series/WIZ750SR-110/download'
+		//'Product/S2E-Module/WIZ750SR-1xx-Series/WIZ750SR-110/technical_references',
+		//'Product/S2E-Module/WIZ750SR-1xx-Series/WIZ750SR-110/download'
 		],
 		},
 		],
@@ -319,28 +319,28 @@ module.exports = {
 		'Product/S2E-Module/WIZ752SR-12x-Series/WIZ752SR-120/overview-[EN]',
 		'Product/S2E-Module/WIZ752SR-12x-Series/WIZ752SR-120/gtting_started_guide-[KO]',
 		'Product/S2E-Module/WIZ752SR-12x-Series/WIZ752SR-120/gtting_started_guide-[EN]',
-		'Product/S2E-Module/WIZ752SR-12x-Series/WIZ752SR-120/users_manual-[KO]',
-		'Product/S2E-Module/WIZ752SR-12x-Series/WIZ752SR-120/users_manual-[EN]',
-		'Product/S2E-Module/WIZ752SR-12x-Series/WIZ752SR-120/configuration_tool_manual_new-[KO]',
-		'Product/S2E-Module/WIZ752SR-12x-Series/WIZ752SR-120/configuration_tool_manual_new-[EN]',
-		{
+		//'Product/S2E-Module/WIZ752SR-12x-Series/WIZ752SR-120/users_manual-[KO]',
+		//'Product/S2E-Module/WIZ752SR-12x-Series/WIZ752SR-120/users_manual-[EN]',
+		//'Product/S2E-Module/WIZ752SR-12x-Series/WIZ752SR-120/configuration_tool_manual_new-[KO]',
+		//'Product/S2E-Module/WIZ752SR-12x-Series/WIZ752SR-120/configuration_tool_manual_new-[EN]',
+		/*{
         type: 'category',
         label: 'CLI_Config_Tool_Tutorial',
         items: [
 		'Product/S2E-Module/WIZ752SR-12x-Series/WIZ752SR-120/CLI_Config_Tool_Tutorial/cli_config_tool_tutorial',
-		'Product/S2E-Module/WIZ752SR-12x-Series/WIZ752SR-120/CLI_Config_Tool_Tutorial/file_options',
-		//'Product/S2E-Module/WIZ752SR-12x-Series/WIZ752SR-120/CLI_Config_Tool_Tutorial/how_to_use_cli_config_tool',
-		'Product/S2E-Module/WIZ752SR-12x-Series/WIZ752SR-120/CLI_Config_Tool_Tutorial/multi_device_configuration',
 		'Product/S2E-Module/WIZ752SR-12x-Series/WIZ752SR-120/CLI_Config_Tool_Tutorial/overview_environment',
+		'Product/S2E-Module/WIZ752SR-12x-Series/WIZ752SR-120/CLI_Config_Tool_Tutorial/how_to_use_cli_config_tool',
 		'Product/S2E-Module/WIZ752SR-12x-Series/WIZ752SR-120/CLI_Config_Tool_Tutorial/single_device_configuration',
+		'Product/S2E-Module/WIZ752SR-12x-Series/WIZ752SR-120/CLI_Config_Tool_Tutorial/multi_device_configuration',
+		'Product/S2E-Module/WIZ752SR-12x-Series/WIZ752SR-120/CLI_Config_Tool_Tutorial/file_options',
 		],
-		},
-		'Product/S2E-Module/WIZ752SR-12x-Series/WIZ752SR-120/command_manual-[KO]',
+		},*/
+		//'Product/S2E-Module/WIZ752SR-12x-Series/WIZ752SR-120/command_manual-[KO]',
 		//'Product/S2E-Module/WIZ752SR-12x-Series/WIZ752SR-120/command_manual-[EN]',
-		'Product/S2E-Module/WIZ752SR-12x-Series/WIZ752SR-120/trouble_shooting-[KO]',
-		'Product/S2E-Module/WIZ752SR-12x-Series/WIZ752SR-120/trouble_shooting-[EN]',
+		//'Product/S2E-Module/WIZ752SR-12x-Series/WIZ752SR-120/trouble_shooting-[KO]',
+		//'Product/S2E-Module/WIZ752SR-12x-Series/WIZ752SR-120/trouble_shooting-[EN]',
 		'Product/S2E-Module/WIZ752SR-12x-Series/WIZ752SR-120/datasheet',
-		'Product/S2E-Module/WIZ752SR-12x-Series/WIZ752SR-120/download'
+		//'Product/S2E-Module/WIZ752SR-12x-Series/WIZ752SR-120/download'
 		],
 		},
 		{
@@ -352,11 +352,11 @@ module.exports = {
 		'Product/S2E-Module/WIZ752SR-12x-Series/WIZ752SR-125/overview-[EN]',
 		'Product/S2E-Module/WIZ752SR-12x-Series/WIZ752SR-125/getting_started_guide-[KO]',
 		'Product/S2E-Module/WIZ752SR-12x-Series/WIZ752SR-125/getting_started_guide-[EN]',
-		'Product/S2E-Module/WIZ752SR-12x-Series/WIZ752SR-125/users_manual-[KO]',
-		'Product/S2E-Module/WIZ752SR-12x-Series/WIZ752SR-125/users_manual-[EN]',
-		'Product/S2E-Module/WIZ752SR-12x-Series/WIZ752SR-125/configuration_tool_manual_new-[KO]',
-		'Product/S2E-Module/WIZ752SR-12x-Series/WIZ752SR-125/configuration_tool_manual_new-[EN]',
-		{
+		//'Product/S2E-Module/WIZ752SR-12x-Series/WIZ752SR-125/users_manual-[KO]',
+		//'Product/S2E-Module/WIZ752SR-12x-Series/WIZ752SR-125/users_manual-[EN]',
+		//'Product/S2E-Module/WIZ752SR-12x-Series/WIZ752SR-125/configuration_tool_manual_new-[KO]',
+		//'Product/S2E-Module/WIZ752SR-12x-Series/WIZ752SR-125/configuration_tool_manual_new-[EN]',
+		/*{
         type: 'category',
         label: 'CLI_Config_Tool_Tutorial',
         items: [
@@ -367,13 +367,13 @@ module.exports = {
 		'Product/S2E-Module/WIZ752SR-12x-Series/WIZ752SR-125/CLI_Config_Tool_Tutorial/overview_environment',
 		'Product/S2E-Module/WIZ752SR-12x-Series/WIZ752SR-125/CLI_Config_Tool_Tutorial/single_device_configuration',
 		],
-		},
-		'Product/S2E-Module/WIZ752SR-12x-Series/WIZ752SR-125/command_manual-[KO]',
+		},*/
+		//'Product/S2E-Module/WIZ752SR-12x-Series/WIZ752SR-125/command_manual-[KO]',
 		//'Product/S2E-Module/WIZ752SR-12x-Series/WIZ752SR-125/command_manual-[EN]',
-		'Product/S2E-Module/WIZ752SR-12x-Series/WIZ752SR-125/trouble_shooting-[KO]',
-		'Product/S2E-Module/WIZ752SR-12x-Series/WIZ752SR-125/trouble_shooting-[EN]',
+		//'Product/S2E-Module/WIZ752SR-12x-Series/WIZ752SR-125/trouble_shooting-[KO]',
+		//'Product/S2E-Module/WIZ752SR-12x-Series/WIZ752SR-125/trouble_shooting-[EN]',
 		'Product/S2E-Module/WIZ752SR-12x-Series/WIZ752SR-125/datasheet',
-		'Product/S2E-Module/WIZ752SR-12x-Series/WIZ752SR-125/download'
+		//'Product/S2E-Module/WIZ752SR-12x-Series/WIZ752SR-125/download'
 		],
 		}
 		],
@@ -383,17 +383,17 @@ module.exports = {
         label: 'WIZ550SR',
         items: [
 		'Product/S2E-Module/WIZ550SR/wiz550sr',
-		'Product/S2E-Module/WIZ550SR/overview-[KO]',
-		'Product/S2E-Module/WIZ550SR/overview-[EN]',
-		'Product/S2E-Module/WIZ550SR/getting_started-[KO]',
-		'Product/S2E-Module/WIZ550SR/getting_started-[EN]',
-		'Product/S2E-Module/WIZ550SR/users_manual_programmers_guide-[KO]',
-		'Product/S2E-Module/WIZ550SR/users_manual_programmers_guide-[EN]',
-		//'Product/S2E-Module/WIZ550SR/atcommand_tutorial-[KO]',
-		//'Product/S2E-Module/WIZ550SR/atcommand_tutorial-[EN]',
-		'Product/S2E-Module/WIZ550SR/datasheet_hardware_spec_characteristics-[KO]',
-		'Product/S2E-Module/WIZ550SR/datasheet_hardware_spec_characteristics-[EN]',
-		'Product/S2E-Module/WIZ550SR/download'
+			'Product/S2E-Module/WIZ550SR/overview-[KO]',
+			'Product/S2E-Module/WIZ550SR/overview-[EN]',
+			'Product/S2E-Module/WIZ550SR/getting_started-[KO]',
+			'Product/S2E-Module/WIZ550SR/getting_started-[EN]',
+			'Product/S2E-Module/WIZ550SR/users_manual_programmers_guide-[KO]',
+			'Product/S2E-Module/WIZ550SR/users_manual_programmers_guide-[EN]',
+			//'Product/S2E-Module/WIZ550SR/atcommand_tutorial-[KO]',
+			//'Product/S2E-Module/WIZ550SR/atcommand_tutorial-[EN]',
+			'Product/S2E-Module/WIZ550SR/datasheet_hardware_spec_characteristics-[KO]',
+			'Product/S2E-Module/WIZ550SR/datasheet_hardware_spec_characteristics-[EN]',
+			'Product/S2E-Module/WIZ550SR/download'
 		],
 		},
 		{

@@ -4,10 +4,6 @@ title: Datasheet
 date: 2020-04-09
 ---
 
-
-
-# WIZ750SR-110 Datasheet
-
 **Supported Languages**  
 * English only
 
@@ -435,7 +431,7 @@ ISP mode firmware downloader port</td>
 
 ### RJ-45 Connector (BS-RB10005)
 
-![](/img/products/wiz750sr/datasheet/wiz750sr_magjack.png)
+![](/img/products/wiz750sr/clitool/datasheet/wiz750sr_magjack.png)
 
 | Pin Number | Pin              | Signal              |
 | ---------- | ---------------- | ------------------- |
@@ -467,33 +463,19 @@ ISP mode firmware downloader port</td>
 
 WIZ750SR series Common Documents 
 
-  - **[User's Manual (English)](User's_Manual-[EN].md)** 
-  - **[User's Manual (Korean)](User's_Manual-[KO].md)** 
-
-
-
-  - **[Device Command Manual (English)](Command_Manual-[EN].md)**
-  - **[Device Command Manual (Korean)](Command_Manual-[KO].md)**
-
-
-
-  - **[Troubleshooting Guide (English)](Trouble_Shooting-[EN].md)**
-  - **[Troubleshooting Guide (Korean)](Trouble_Shooting-[KO].md)**
-
-
-
-  - **[Update History (English)](Series_Update_History-[EN].md)**
-  - **[Update History (Korean)](Series_Update_History-[KO].md)**
-
+  - **User's Manual [(English)](/docs/Product/S2E-Module/WIZ750SR/users_manual-[EN])/[(Korean)](/docs/Product/S2E-Module/WIZ750SR/users_manual-[KO])** 
+  
+  - **Device Command Manual [(English)](../../WIZ750SR/command_manual-[EN])/[(Korean)](../../WIZ750SR/command_manual-[KO])**
+  
+  - **Troubleshooting Guide [(English)](../../WIZ750SR/trouble_shooting-[EN])/[(Korean)](../../WIZ750SR/trouble_shooting-[KO])**
+  
+  - **Update History [(English)](../../WIZ750SR/series_update_history-[EN])/[(Korean)](../../WIZ750SR/series_update_history-[KO])**
+  
 -----
 
 **WIZ750SR series Downloads** 
 
-  - **[Software Download](Download.md)**
-
-
-
-  - **[Technical References](Technical_References.md)**
+  - **[Software Download](../../WIZ750SR/download)**
+  - **[Technical References](../../WIZ750SR/technical_references)**
 
 -----
-

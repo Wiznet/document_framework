@@ -44,15 +44,13 @@ WIZnet-S2E-Tool-GUI에서 지원하는 제품 리스트는 아래와 같습니�
 
 #### 1 Port Serial to Ethernet Module
 
-  - [WIZ750SR](http://wizwiki.net/wiki/doku.php?id=products:wiz750sr:start)
+  - [WIZ750SR](wiz750sr)
   - [WIZ750SR](https://github.com/Wiznet/WIZ750SR)
-  - [WIZ750SR-100](http://wizwiki.net/wiki/doku.php?id=products:wiz750sr-100:start)
-  - [WIZ750SR-105](http://wizwiki.net/wiki/doku.php?id=products:wiz750sr-105:start)
-  - [WIZ750SR-110](http://wizwiki.net/wiki/doku.php?id=products:wiz750sr-110:start)
+  - [WIZ750SR-100](../WIZ750SR-1xx-Series/WIZ750SR-100/wiz750sr_100)
+  - [WIZ750SR-105](../WIZ750SR-1xx-Series/WIZ750SR-105/wiz750sr_105)
+  - [WIZ750SR-110](../WIZ750SR-1xx-Series/WIZ750SR-110/wiz750sr_110)
   - [WIZ107SR](http://www.wiznet.io/product-item/wiz107sr/)
   - [WIZ108SR](http://www.wiznet.io/product-item/wiz108sr/)
-
-
 
 1.  WIZnet-S2E-Tool-GUI는 Python 기반으로 제작되어 OS 종류에 관계 없이 실행 가능합니다.
 
@@ -61,12 +59,12 @@ WIZnet-S2E-Tool-GUI에서 지원하는 제품 리스트는 아래와 같습니�
     
     #### 2 Port Serial to Ethernet Module
 
-  - [WIZ752SR-120](https://wizwiki.net/wiki/doku.php?id=products:s2e_module:wiz752sr-120:start)
-  - [WIZ752SR-125](https://wizwiki.net/wiki/doku.php?id=products:s2e_module:wiz752sr-125:start)
+  - [WIZ752SR-120](../WIZ752SR-12x-Series/WIZ752SR-120/wiz752sr_120)
+  - [WIZ752SR-125](../WIZ752SR-12x-Series/WIZ752SR-125/wiz752sr_125)
 
 #### Pre-programmed MCU
 
-  - [W7500(P)-S2E](http://wizwiki.net/wiki/doku.php?id=products:w7500x-s2e:en)
+  - [W7500(P)-S2E](../../Pre-programmed-MCU/W7500P-S2E/w7500p-s2e-[EN])
 
 -----
 
@@ -637,7 +635,7 @@ WIZ750SR Documents \*\*
 
 \*\* WIZ750SR Download \*\*
 
-  - **[Software Download](/products/wiz750sr/download/start)**
+  - **[Software Download](download)**
 
 
 
@@ -684,7 +682,7 @@ WIZ750SR-100 Documents \*\*
 
 \*\* WIZ750SR-100 Download \*\*
 
-  - **[Software Download](/products/wiz750sr/download/start)**
+  - **[Software Download](download)**
 
 
 

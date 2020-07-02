@@ -2479,7 +2479,7 @@ WIZ750SR series Common Documents \*\*
 
 \*\* WIZ750SR series Downloads \*\*
 
-  - **[Software Downloads](/products/wiz750sr/download/start)**
+  - **[Software Downloads](download)**
 
 
 

@@ -4,9 +4,7 @@ title: Overview Environment
 date: 2020-04-09
 ---
 
-CLI Configuration Tool Tutorial \#1
-
-# Overview & Environment
+CLI Configuration Tool Tutorial #1
 
 -----
 
@@ -16,21 +14,17 @@ This is Configuration & Test Tool for WIZnet S2E devices.
 Python interpreter based and it is platform independent.  
 It works on **version 2.7 and 3.6 python**.
 
-### Support Devices
+### Supported Devices
 
 #### 1-Port S2E Module Products
 
-  - [WIZ750SR](../WIZ750SR.md)
-  - [WIZ750SR-100](../../WIZ750SR-1xx-Series/WIZ750SR-100/WIZ750SR-100.md)
+- [WIZ750SR](../wiz750sr)
+- [WIZ750SR-100](../../WIZ750SR-1xx-Series/WIZ750SR-100/WIZ750SR-100.md)
+- [WIZ750SR-105](../../WIZ750SR-1xx-Series/WIZ750SR-105/WIZ750SR-105.md)
+- [WIZ750SR-110](../../WIZ750SR-1xx-Series/WIZ750SR-110/WIZ750SR-110.md)
+- [WIZ107SR](http://www.wiznet.io/product-item/wiz107sr/)
+- [WIZ108SR](http://www.wiznet.io/product-item/wiz108sr/)
 
-
-
-``` 
- * [[:products:wiz750sr-105:start|WIZ750SR-105]]
- * [[:products:wiz750sr-110:start|WIZ750SR-110]]
-* [[http://www.wiznet.io/product-item/wiz107sr/|WIZ107SR]]
-* [[http://www.wiznet.io/product-item/wiz108sr/|WIZ108SR]]
-```
 
 #### 2-Port S2E Module Products
 
@@ -74,4 +68,4 @@ to set environment variables of windows.
 
 ### Linux
 
-*Comming soon.*
+*Coming soon.*

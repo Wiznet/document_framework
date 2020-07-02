@@ -17,7 +17,7 @@ date: 2020-04-09
 
 ### Datasheet
 
-  - ![](/img/products/w5500/w5500_evb/icons/link.png) [W7500P (ARM cortex-M0)](http://wizwiki.net/wiki/doku.php?id=products:w7500p:start)
+  - ![](/img/products/w5500/w5500_evb/icons/link.png) [W7500P (ARM cortex-M0)](../../iMCU/W7500P/overview)
   - ![](/img/products/w5500/w5500_evb/icons/download.png) [Microchip, EEPROM (24AA16T-I/OT)](http://www.microchip.com/wwwproducts/en/24AA16)
   - ![](/img/products/w5500/w5500_evb/icons/download.png) [Texas Instruments, Ethernet ESD Protect IC (TPD4S009)](http://www.ti.com/product/TPD4S009?keyMatch=tpd4s009&tisearch=Search-EN-Everything)
   - ![](/img/products/w5500/w5500_evb/icons/download.png) [STmicro Electronics, Supervisor IC (STM6823TJWY6F)](http://www2.st.com/content/st_com/en/products/reset-and-supervisor-ics/microprocessor-supervisors/stm6823.html)
@@ -30,7 +30,7 @@ date: 2020-04-09
 
 ### Datasheet
 
-  - ![](/img/products/w5500/w5500_evb/icons/link.png) [W7500 (ARM cortex-M0)](http://wizwiki.net/wiki/doku.php?id=products:w7500:start)
+  - ![](/img/products/w5500/w5500_evb/icons/link.png) [W7500 (ARM cortex-M0)](../../iMCU/W7500/overview)
   - [](/products/w5500/w5500_evb/icons/download.png) [IC+, PHY IC (IP101GRI)](https://www.bdtic.com/DataSheet/ICplus/IP101G_DS_R01_20121224.pdf)
   - ![](/img/products/w5500/w5500_evb/icons/download.png) [Microchip, EEPROM (24AA16T-I/OT)](http://www.microchip.com/wwwproducts/en/24AA16)
   - ![](/img/products/w5500/w5500_evb/icons/download.png) [Texas Instruments, Ethernet ESD Protect IC (TPD4S009)](http://www.ti.com/product/TPD4S009?keyMatch=tpd4s009&tisearch=Search-EN-Everything)
@@ -46,7 +46,7 @@ date: 2020-04-09
 
 ### Datasheet
 
-  - ![](/img/products/w5500/w5500_evb/icons/link.png) [W7500 (ARM cortex-M0)](http://wizwiki.net/wiki/doku.php?id=products:w7500:start)
+  - ![](/img/products/w5500/w5500_evb/icons/link.png) [W7500 (ARM cortex-M0)](../../iMCU/W7500/overview)
   - [](/products/w5500/w5500_evb/icons/download.png) [IC+, PHY IC (IP101GRI)](https://www.bdtic.com/DataSheet/ICplus/IP101G_DS_R01_20121224.pdf)
   - ![](/img/products/w5500/w5500_evb/icons/download.png) [Microchip, EEPROM (24AA16T-I/OT)](http://www.microchip.com/wwwproducts/en/24AA16)
   - ![](/img/products/w5500/w5500_evb/icons/download.png) [Texas Instruments, Ethernet ESD Protect IC (TPD4S009)](http://www.ti.com/product/TPD4S009?keyMatch=tpd4s009&tisearch=Search-EN-Everything)
@@ -61,7 +61,7 @@ date: 2020-04-09
 
 ### Datasheet
 
-  - ![](/img/products/w5500/w5500_evb/icons/link.png) [W7500 (ARM cortex-M0)](http://wizwiki.net/wiki/doku.php?id=products:w7500:start)
+  - ![](/img/products/w5500/w5500_evb/icons/link.png) [W7500 (ARM cortex-M0)](../../iMCU/W7500/overview)
   - [](/products/w5500/w5500_evb/icons/download.png) [IC+, PHY IC (IP101GRI)](https://www.bdtic.com/DataSheet/ICplus/IP101G_DS_R01_20121224.pdf)
   - ![](/img/products/w5500/w5500_evb/icons/download.png) [Microchip, EEPROM (24AA16T-I/OT)](http://www.microchip.com/wwwproducts/en/24AA16)
   - ![](/img/products/w5500/w5500_evb/icons/download.png) [Texas Instruments, Ethernet ESD Protect IC (TPD4S009)](http://www.ti.com/product/TPD4S009?keyMatch=tpd4s009&tisearch=Search-EN-Everything)
@@ -78,33 +78,19 @@ date: 2020-04-09
 
 WIZ750SR series Common Documents 
 
-  - **[User's Manual (English)](User's_Manual-[EN].md)** 
-  - **[User's Manual (Korean)](User's_Manual-[KO].md)** 
-
-
-
-  - **[Device Command Manual (English)](Command_Manual-[EN].md)**
-  - **[Device Command Manual (Korean)](Command_Manual-[KO].md)**
-
-
-
-  - **[Troubleshooting Guide (English)](Trouble_Shooting-[EN].md)**
-  - **[Troubleshooting Guide (Korean)](Trouble_Shooting-[KO].md)**
-
-
-
-  - **[Update History (English)](Series_Update_History-[EN].md)**
-  - **[Update History (Korean)](Series_Update_History-[KO].md)**
-
+  - **User's Manual [(English)](/docs/Product/S2E-Module/WIZ750SR/users_manual-[EN])/[(Korean)](/docs/Product/S2E-Module/WIZ750SR/users_manual-[KO])** 
+  
+  - **Device Command Manual [(English)](../../WIZ750SR/command_manual-[EN])/[(Korean)](../../WIZ750SR/command_manual-[KO])**
+  
+  - **Troubleshooting Guide [(English)](../../WIZ750SR/trouble_shooting-[EN])/[(Korean)](../../WIZ750SR/trouble_shooting-[KO])**
+  
+  - **Update History [(English)](../../WIZ750SR/series_update_history-[EN])/[(Korean)](../../WIZ750SR/series_update_history-[KO])**
+  
 -----
 
 **WIZ750SR series Downloads** 
 
-  - **[Software Download](Download.md)**
-
-
-
-  - **[Technical References](Technical_References.md)**
+  - **[Software Download](../../WIZ750SR/download)**
+  - **[Technical References](../../WIZ750SR/technical_references)**
 
 -----
-

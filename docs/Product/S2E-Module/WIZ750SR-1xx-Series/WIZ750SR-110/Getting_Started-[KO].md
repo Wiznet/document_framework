@@ -4,19 +4,15 @@ title: Getting Started-[KO]
 date: 2020-04-09
 ---
 
-
-
-# Getting Started with WIZ750SR-110
-
  **Supported Languages**  
-* [English](Getting_Started-[EN].md) 
-* [Korean](Getting_Started-[KO].md) (current page)
+* [English](getting_started-[EN]) 
+* [Korean](getting_started-[KO]) (current page)
 
-![](/img/products/wiz750jr/docs_icon.png)
+![](/img/products/wiz750sr/docs_icon.png)
 
 -----
 
-\*\* \* 이 문서는 WIZ750SR-110 개발 보드의 활용을 기준으로 작성되었습니다. \*\*
+** 이 문서는 WIZ750SR-110 개발 보드의 활용을 기준으로 작성되었습니다. **
 
 -----
 
@@ -24,10 +20,12 @@ date: 2020-04-09
 
 ### What's in the Box?
 
+<!--
 |                                               |
 | --------------------------------------------- |
 |                                               |
 | Figure: ***WIZ750SR-110 Rev. 1.0 개발 보드 패키지*** |
+-->
 
 WIZ750SR-110 개발 보드 패키지는 다음과 같이 구성되어 있습니다.
 
@@ -35,7 +33,7 @@ WIZ750SR-110 개발 보드 패키지는 다음과 같이 구성되어 있습니�
   - 케이블 (이더넷 / 시리얼)
 
 개발보드 별 패키지 구성품의 전체 항목은 [WIZ750SR-110 Overview: Product
-Contents](/products/wiz750sr-110/overview/ko#product_contents) 페이지에서 확인
+Contents](overview-[KO]#product-contents) 페이지에서 확인
 하실 수 있습니다.
 
 ### Device Layout
@@ -75,15 +73,9 @@ Contents](/products/wiz750sr-110/overview/ko#product_contents) 페이지에서 �
 
 ### Interfaces and Ports
 
-1.  W7500는 [ARM Cortex-M0
-    architecture](http://www.arm.com/products/processors/cortex-m/cortex-m0.php)를
-    기반으로 위즈네트 만의 독자적인 기술인 Hardwired TCP/IP core를 더한 SoC 제품인 Ethernet MCU
-    솔루션입니다. 더 자세한 내용은 [W7500 제품 소개 페이지](/products/w7500/start)를 참조 바랍니다.
-    
-     - **Data 포트(RS-232C)**: D-SUB9 Port
-  - **Network 포트**: RJ-45 Ethernet Connector
-  - **사용자 Optional 포트**: 1x6 2.54mm Pin header 2ea (사용자 I/O 4개 핀 /
-    Debug(ISP Port))
+- **Data 포트(RS-232C)**: D-SUB9 Port
+- **Network 포트**: RJ-45 Ethernet Connector
+- **사용자 Optional 포트**: 1x6 2.54mm Pin header 2ea (사용자 I/O 4개 핀 / Debug(ISP Port))
 
 -----
 
@@ -92,7 +84,7 @@ Contents](/products/wiz750sr-110/overview/ko#product_contents) 페이지에서 �
 ### Software
 
   - Configuration tool 프로그램 ([Download
-    page](/products/wiz750sr/download/start))
+    page](../../WIZ750SR/download))
   - TCP 서버 / TCP 클라이언트 / UDP 터미널 프로그램
   - 시리얼 터미널 프로그램
 
@@ -229,10 +221,12 @@ WIZ750SR-110 모듈과 개발보드를 아래 그림과 같이 결합한 후, �
   - 선택사항: USB 타입B 케이블 (디버그 메시지)
       - 개발보드의 USB 커넥터와 PC의 USB 커넥터를 연결합니다.
 
+<!--
 |                             |
 | --------------------------- |
 |                             |
 | Figure: **WIZ750SR-110 모듈** |
+-->
 
 #### Step 2: Power on
 
@@ -304,7 +298,7 @@ PC를 사용자 시리얼 장치 및 TCP 클라이언트로 삼아 데이터 통
 -----
 
 **동작에 문제가 있나요?**  
-**[Troubleshooting 가이드](trouble_shooting-[KO])** 문서를 참고해
+**[Troubleshooting 가이드](../../WIZ750SR/trouble_shooting-[KO])** 문서를 참고해
 보세요\!
 
 -----
@@ -315,33 +309,20 @@ PC를 사용자 시리얼 장치 및 TCP 클라이언트로 삼아 데이터 통
 
 WIZ750SR series Common Documents 
 
-  - **[User's Manual (English)](User's_Manual-[EN].md)** 
-  - **[User's Manual (Korean)](User's_Manual-[KO].md)** 
-
-
-
-  - **[Device Command Manual (English)](Command_Manual-[EN].md)**
-  - **[Device Command Manual (Korean)](Command_Manual-[KO].md)**
-
-
-
-  - **[Troubleshooting Guide (English)](Trouble_Shooting-[EN].md)**
-  - **[Troubleshooting Guide (Korean)](Trouble_Shooting-[KO].md)**
-
-
-
-  - **[Update History (English)](Series_Update_History-[EN].md)**
-  - **[Update History (Korean)](Series_Update_History-[KO].md)**
-
+  - **User's Manual [(English)](/docs/Product/S2E-Module/WIZ750SR/users_manual-[EN])/[(Korean)](/docs/Product/S2E-Module/WIZ750SR/users_manual-[KO])** 
+  
+  - **Device Command Manual [(English)](../../WIZ750SR/command_manual-[EN])/[(Korean)](../../WIZ750SR/command_manual-[KO])**
+  
+  - **Troubleshooting Guide [(English)](../../WIZ750SR/trouble_shooting-[EN])/[(Korean)](../../WIZ750SR/trouble_shooting-[KO])**
+  
+  - **Update History [(English)](../../WIZ750SR/series_update_history-[EN])/[(Korean)](../../WIZ750SR/series_update_history-[KO])**
+  
 -----
 
 **WIZ750SR series Downloads** 
 
-  - **[Software Download](Download.md)**
-
-
-
-  - **[Technical References](Technical_References.md)**
+  - **[Software Download](../../WIZ750SR/download)**
+  - **[Technical References](../../WIZ750SR/technical_references)**
 
 -----
 

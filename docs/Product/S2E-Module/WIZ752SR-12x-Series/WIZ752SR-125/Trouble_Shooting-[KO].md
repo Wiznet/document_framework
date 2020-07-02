@@ -32,7 +32,7 @@ date: 2020-04-15
 
 
   - 최신 버전의 Configuration tool은 [다운로드
-    페이지](/products/wiz750sr/download/start) 에서 찾을 수 있습니다.
+    페이지](download) 에서 찾을 수 있습니다.
 
 \++++
 
@@ -103,7 +103,7 @@ date: 2020-04-15
 
 
   - 최신 펌웨어 버전은 [제품 업데이트 히스토리 페이지](/products/wiz750sr/history/ko)와 [다운로드
-    페이지](/products/wiz750sr/download/start) 에서 확인 할 수 있습니다.
+    페이지](download) 에서 확인 할 수 있습니다.
 
 \++++
 
@@ -245,7 +245,7 @@ WIZ750SR series Common Documents \*\*
 
 \*\* WIZ750SR series Downloads \*\*
 
-  - **[Software Downloads](/products/wiz750sr/download/start)**
+  - **[Software Downloads](download)**
 
 
 

@@ -50,9 +50,9 @@ LAN) and a Power Down Mode in order to reduce power consumption.
 ### Material
 
   - [W5500 Datasheet](Datasheet.md)
-  - [W5500 Driver](Driver.txt)
+  - [W5500 Driver](driver)
   - [W5500 Reference Schematic](Ref._Schematic.md)
-  - [Migration from W5200 to W5500](Migration_from_W5200.txt)
+  - [Migration from W5200 to W5500](migration_from_w5200)
   - [W5500 TCP Function](Application/TCP.md)
   - [W5500 UDP Function](Application/UDP.md)
   - [W5500 Application Note (IPRAW)](Application/IPRAW.md)

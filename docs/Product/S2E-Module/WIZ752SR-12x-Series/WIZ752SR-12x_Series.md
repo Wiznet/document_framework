@@ -4,26 +4,20 @@ title: WIZ750SR-1xx Series
 date: 2020-04-13
 ---
 
-
-
-# WIZ752SR-12x Series
-
------
-
 ## Overview
 
 WIZ752SR-12x Series is 2-port serial to Ethernet converting module using
 the W7500 Ethernet MCU (SoC based on ARM Cortex-M0 architecture) with
 External PHY(IC+).
 
-  - [WIZ752SR-120](/products/s2e_module/wiz752sr-120/start)
-  - [WIZ752SR-125](/products/s2e_module/wiz752sr-125/start)
+  - [WIZ752SR-120](WIZ752SR-120/wiz752sr_120)
+  - [WIZ752SR-125](WIZ752SR-125/wiz752sr_125)
 
 -----
 
 ## WIZ752SR-120
 
-![WIZ752SR-120](/products/s2e_module/wiz752sr-120/1.png)  
+![WIZ752SR-120](/img/products/s2e_module/wiz752sr-120/1.png)  
 
 ### Features
 
@@ -37,7 +31,7 @@ External PHY(IC+).
 
 ## WIZ752SR-125
 
-![WIZ752SR-125](/products/s2e_module/wiz752sr-125/1.png)
+![WIZ752SR-125](/img/products/s2e_module/wiz752sr-125/1.png)
 
 ### Features
 

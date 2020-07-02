@@ -1,4 +1,8 @@
-# How to Install and Activate LPCXpresso IDE
+---
+id: how_to_install_and_activate_lpcxpresso
+title: How to Install and Activate LPCXpresso IDE
+date: 2020-04-07
+---
 
 ## Download the LPCXpresso IDE
 
@@ -53,5 +57,4 @@
 
 ![](/img/osh/lpcxpresso/lisence_7.png)
 
-  - Next Steps: [Install Flash Magic
-    Tool](http://wizwiki.net/wiki/doku.php?id=products:w5500:w5500_evb:getting_started#downloading_a_new_program)
+  - Next Steps: [Install Flash Magic Tool](getting_started#downloading-a-new-program)

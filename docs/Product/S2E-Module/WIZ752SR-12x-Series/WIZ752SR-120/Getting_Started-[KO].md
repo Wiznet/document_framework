@@ -4,20 +4,16 @@ title: Getting Started Guide-[KO]
 date: 2020-04-13
 ---
 
-
-
-# Getting Started with WIZ752SR-120
-
  **Supported Languages**  
-* [English](Getting_Started-[EN].md) 
-* [Korean](Getting_Started-[KO].md) (current page)
+* [English](gtting_started_guide-[EN]) 
+* [Korean](gtting_started_guide-[KO]) (current page)
 
 ![](/img/products/wiz750sr/docs_icon.png)
 
 -----
 
-\*\* \* 이 문서는 WIZ752SR-120 모듈을 이용해 WIZ120SR의 개발 보드(EVB, Evaluation
-Board)에서의 활용을 기준으로 작성되었습니다. \*\*
+** 이 문서는 WIZ752SR-120 모듈을 이용해 WIZ120SR의 개발 보드(EVB, Evaluation
+Board)에서의 활용을 기준으로 작성되었습니다. **
 
 -----
 
@@ -25,10 +21,12 @@ Board)에서의 활용을 기준으로 작성되었습니다. \*\*
 
 ### What's in the Box?
 
+<!--
 |                                           |
 | ----------------------------------------- |
 | ![]()                                     |
 | Figure: ***WIZ752SR-120 V1.0 개발 보드 패키지*** |
+-->
 
 WIZ752SR-120-EVB 개발 보드 패키지는 다음과 같이 구성되어 있습니다.
 
@@ -38,14 +36,14 @@ WIZ752SR-120-EVB 개발 보드 패키지는 다음과 같이 구성되어 있습
   - 아답터 (5V/2A)
 
 개발보드 별 패키지 구성품의 전체 항목은 [WIZ752SR-120 Overview: Product
-Contents](/products/s2e_module/wiz752sr-120/overview/en#product_contents)
+Contents](overview-[KO]#product-contents)
 페이지에서 확인 하실 수 있습니다.
 
 ## Prerequisites for Setup
 
 ### Software
 
-  - Configuration tool 프로그램 ([Download page](/))
+  - Configuration tool 프로그램 ([Download page](../../WIZ750SR/download))
   - TCP 서버 / TCP 클라이언트 / UDP 터미널 프로그램
   - 시리얼 터미널 프로그램
 
@@ -177,10 +175,12 @@ WIZ752SR-120 모듈과 개발보드를 아래 그림과 같이 결합한 후, �
         인터페이스를 지원하지 않을 경우 'RS-232 to USB 컨버터'를 활용하여 USB에
         연결합니다.
 
+<!--
 |                                      |
 | ------------------------------------ |
 | ![]()                                |
 | Figure: **WIZ752SR-120 모듈과 개발보드 결합** |
+-->
 
 #### Step 2: Power on
 
@@ -215,10 +215,12 @@ PC를 사용자 시리얼 장치 및 TCP 클라이언트로 삼아 데이터 통
 
   - Control Panel \> System \> Device Manager
 
+<!--
 |                                                                  |
 | ---------------------------------------------------------------- |
 | ![](/img/products/wiz750sr/gettingstarted/windows_devicemanager.png) |
 | Figure: Device Manager                                           |
+-->
 
 #### Step 6: Verify
 
@@ -248,7 +250,7 @@ PC를 사용자 시리얼 장치 및 TCP 클라이언트로 삼아 데이터 통
 -----
 
 **동작에 문제가 있나요?**  
-**[Troubleshooting 가이드](trouble_shooting-[KO])** 문서를 참고해
+**[Troubleshooting 가이드](../../WIZ750SR/trouble_shooting-[KO])** 문서를 참고해
 보세요\!
 
 -----

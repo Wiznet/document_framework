@@ -43,8 +43,8 @@ Platform과 ARM mbed Platform에 호환되어 사용됩니다.
   - W5500 Ethernet Shield를 사용하기 위해 Arduino IDE (Sketch Program)에 포함된
     WIZnet Ethernet Library의 Update가 필요하다. (**필수**)
   - 아래 링크를 참조하기 바란다.
-      - Follow this URL[Getting
-        Started\_kor](http://wizwiki.net/wiki/doku.php?id=osh:w5500_ethernet_shield_getting_started_kor)
+      - Follow this URL: [Getting
+        Started\_kor](getting_started_arduino_kr)
 
 -----
 

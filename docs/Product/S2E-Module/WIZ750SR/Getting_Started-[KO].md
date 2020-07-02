@@ -4,10 +4,6 @@ title: Getting Started-[KO]
 date: 2020-04-08
 ---
 
-
-
-# Getting Started with WIZ750SR
-
 **Supported Languages**
    * [English](Getting_Started-[EN])  
    * [Korean](Getting_Started-[KO]) (current page)
@@ -79,7 +75,7 @@ Contents](/products/wiz750sr/overview/ko#product_contents) 페이지에서 확�
 ### Software
 
   - Configuration tool 프로그램 ([Download
-    page](/products/wiz750sr/download/start))
+    page](download))
   - TCP 서버 / TCP 클라이언트 / UDP 터미널 프로그램
   - 시리얼 터미널 프로그램
 
@@ -302,31 +298,19 @@ PC를 사용자 시리얼 장치 및 TCP 클라이언트로 삼아 데이터 통
 
  **WIZ750SR** 
 
-  - **[User's Manual (English)](users_manual-[EN])** 
-  - **[User's Manual (Korean)](users_manual-[KO])** 
-
-
-
-  - **[Device Command Manual (English)](Command_Manual-[EN])**
-  - **[Device Command Manual (Korean)](Command_Manual-[KO])**
-
-
-
-  - **[Troubleshooting Guide (English)](Trouble_Shooting-[EN])**
-  - **[Troubleshooting Guide (Korean)](Trouble_Shooting-[KO])**
-
-
-
-  - **[Update History (English)](Series_Update_History-[EN])**
-  - **[Update History (Korean)](Series_Update_History-[KO])**
-
+  - **User's Manual [(English)](users_manual-[EN])/[(Korean)](users_manual-[KO])** 
+  
+  - **Device Command Manual [(English)](Command_Manual-[EN])/[(Korean)](Command_Manual-[KO])**
+  
+  - **Troubleshooting Guide [(English)](Trouble_Shooting-[EN])/[(Korean)](Trouble_Shooting-[KO])**
+  
+  - **Update History [(English)](Series_Update_History-[EN])/[(Korean)](Series_Update_History-[KO])**
+  
 -----
 
 **WIZ750SR series Downloads** 
 
   - **[Software Download](Download)**
-
-
 
   - **[Technical References](Technical_References)**
 

@@ -16,7 +16,7 @@ Now, your WIZwiki-W7500 is ready to connect the SWD debugger.
   
 2. Connect ULINK debugger and SWD Header. At this moment, be careful of matching pin number.
 
-3. Setting [Flash Algorithm](http://wizwiki.net/wiki/doku.php?id=products:wizwiki_w7500:start_getting_started:debugging_w7500#set_flash_algorithm) and ULINK debugger in Keil and  
+3. Setting [Flash Algorithm](how_to_debug_wizwiki_w7500#set-flash-algorithm) and ULINK debugger in Keil and  
 Download on WIZwiki-W7500. Then you can check the success message.
 
 ![](/img/products/wizwiki_w7500/set_ulink_in_keil5.png)
@@ -27,6 +27,6 @@ Download on WIZwiki-W7500. Then you can check the success message.
 
 ### Reference
 
-- [How to set Flash Algorithm](http://wizwiki.net/wiki/doku.php?id=products:wizwiki_w7500:start_getting_started:debugging_w7500#set_flash_algorithm)
+- [How to set Flash Algorithm](how_to_debug_wizwiki_w7500#set-flash-algorithm)
 
 ---

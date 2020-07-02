@@ -84,7 +84,7 @@ python wizconfig.py -d 00:08:DC:53:AE:B7 --ip 192.168.50.100 --subnet 255.255.25
 You can change the operation mode to client mode and test by changing the remote IP and port according to your host PC environment.
 
 A description of the operating mode of WIZ750SR can be found here:  
-[WIZ750SR operation mode](../users_manual-[EN]).
+[WIZ750SR operation mode](../users_manual-[EN]#network-operation-mode).
 
 When operating in the Client mode, you could set up the remote IP and port information as well, because it requires the server information to be connected.
 

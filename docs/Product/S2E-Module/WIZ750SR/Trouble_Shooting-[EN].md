@@ -94,7 +94,7 @@ date: 2020-04-08
 1.  Click 'Search' and click the \[+\] MAC address to check the product information
 2.  Check the ‘Firmware version' 
 
-  - User can check the latest firmware version at the [product update history page](/products/wiz750sr/history/en) and [download page](/products/wiz750sr/download/start).
+  - User can check the latest firmware version at the [product update history page](/products/wiz750sr/history/en) and [download page](download).
 
 </details>
 
@@ -170,24 +170,21 @@ date: 2020-04-08
 </details>
 
 -----
+
 ## Navigation
 
 -----
 
  **WIZ750SR** 
 
-  - **[User's Manual (English)](users_manual-[EN])** 
-  - **[User's Manual (Korean)](users_manual-[KO])**
-
-  - **[Device Command Manual (English)](Command_Manual-[EN])**
-  - **[Device Command Manual (Korean)](Command_Manual-[KO])**
-
-  - **[Troubleshooting Guide (English)](Trouble_Shooting-[EN])**
-  - **[Troubleshooting Guide (Korean)](Trouble_Shooting-[KO])**
-
-  - **[Update History (English)](Series_Update_History-[EN])**
-  - **[Update History (Korean)](Series_Update_History-[KO])**
-
+  - **User's Manual [(English)](users_manual-[EN])/[(Korean)](users_manual-[KO])** 
+  
+  - **Device Command Manual [(English)](Command_Manual-[EN])/[(Korean)](Command_Manual-[KO])**
+  
+  - **Troubleshooting Guide [(English)](Trouble_Shooting-[EN])/[(Korean)](Trouble_Shooting-[KO])**
+  
+  - **Update History [(English)](Series_Update_History-[EN])/[(Korean)](Series_Update_History-[KO])**
+  
 -----
 
 **WIZ750SR series Downloads** 

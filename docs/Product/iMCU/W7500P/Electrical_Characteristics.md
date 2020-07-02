@@ -889,7 +889,7 @@ These are stress ratings only and functional operation of the device at these co
     <td class="tg-s6z2">279.5<br />  </td>
   </tr>
   <tr>
-    <td class="tg-s6z2"><img src="http://wizwiki.net/wiki/lib/exe/fetch.php?media=products:w7500:overview:20151118_092628.jpg"></img> </td>
+    <td class="tg-s6z2"><img src="/img/products/w7500/overview/20151118_092628.jpg"></img> </td>
     <td class="tg-s6z2">0.35<br />  </td>
     <td class="tg-s6z2">0.40<br />  </td>
     <td class="tg-s6z2">0.45<br />  </td>

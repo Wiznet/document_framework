@@ -679,8 +679,8 @@ parameter is included when entering the command.
 <th>TCP Keep-alive initial interval for channel 1</th>
 <th>RW</th>
 </tr>
-</thead>
-<tbody>
+
+
 <tr class="odd">
 <td><a href="#ke">KE</a></td>
 <td>:::</td>
@@ -2563,33 +2563,33 @@ Return value</th>
 
 -----
 
-[![arrow_back.png](/etc/arrow_back.png)](/products/wiz750sr/configtoolmanual/en)  
+[![arrow_back.png](/img/etc/arrow_back.png)](/products/wiz750sr/configtoolmanual/en)  
 **Prev Page**  
 [Configuration Tool Manual](/products/wiz750sr/configtoolmanual/en)
 
 
-[![arrow_upward.png](/etc/arrow_upward.png)](#wiz750sr_command_manual)  
+[![arrow_upward.png](/img/etc/arrow_upward.png)](#wiz750sr_command_manual)  
 **Scroll to Top** 
 
-[![arrow_forward.png](/etc/arrow_forward.png)](trouble_shooting-[EN])  
+[![arrow_forward.png](/img/etc/arrow_forward.png)](trouble_shooting-[EN])  
 **Next Page**  
 [Troubleshooting Guide](trouble_shooting-[EN])
 
 
-[![arrow_refresh.png](/etc/arrow_refresh.png)](/products/wiz750sr/start)  
+[![arrow_refresh.png](/img/etc/arrow_refresh.png)](/products/wiz750sr/start)  
 **Back to Product Main**  
 [WIZ750SR](/products/wiz750sr/start)
 
 
-[![arrow_refresh.png](/etc/arrow_refresh.png)](/products/wiz750sr-100/start)  
+[![arrow_refresh.png](/img/etc/arrow_refresh.png)](/products/wiz750sr-100/start)  
 **Back to Product Main**  
 [WIZ750SR-100](/products/wiz750sr-100/start) 
 
-[![arrow_refresh.png](/etc/arrow_refresh.png)](/products/wiz750sr-105/start)  
+[![arrow_refresh.png](/img/etc/arrow_refresh.png)](/products/wiz750sr-105/start)  
 **Back to Product Main**  
 [WIZ750SR-105](/products/wiz750sr-105/start) 
 
-[![arrow_refresh.png](/etc/arrow_refresh.png)](/products/wiz750sr-110/start)  
+[![arrow_refresh.png](/img/etc/arrow_refresh.png)](/products/wiz750sr-110/start)  
 **Back to Product Main**  
 [WIZ750SR-110](/products/wiz750sr-110/start) 
 
@@ -2615,7 +2615,7 @@ Return value</th>
 
  **WIZ750SR series Downloads**
 
-  - **[Software Downloads](/products/wiz750sr/download/start)**
+  - **[Software Downloads](download)**
 
 
 

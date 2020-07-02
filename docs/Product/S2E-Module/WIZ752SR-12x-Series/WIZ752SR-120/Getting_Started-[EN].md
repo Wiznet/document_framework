@@ -4,20 +4,16 @@ title: Getting Started Guide-[EN]
 date: 2020-04-13
 ---
 
-
-
-# Getting Started with WIZ752SR-120
-
 **Supported Languages**  
-* [English](Getting_Started-[EN].md) (current page)  
-* [Korean](Getting_Started-[KO].md)
+* [English](gtting_started_guide-[EN]) (current page)  
+* [Korean](gtting_started_guide-[KO])
 
 ![](/img/products/wiz750sr/docs_icon.png)
 
 -----
 
-\*\* \*This section was written on the assumption that based on the use
-of the WIZ120SR evaluation board using the WIZ752SR-120 module.\*\*
+**This section was written on the assumption that based on the use
+of the WIZ120SR evaluation board using the WIZ752SR-120 module.**
 
 -----
 
@@ -25,10 +21,12 @@ of the WIZ120SR evaluation board using the WIZ752SR-120 module.\*\*
 
 ### What's in the Box?
 
+<!--
 |                                                          |
 | -------------------------------------------------------- |
 | ![](/)                                                   |
 | Figure: ***WIZ752SR-120 V1.0 Evaluation Board Package*** |
+-->
 
 The WIZ752SR-120 evaluation board package contains the following parts.
 
@@ -39,14 +37,14 @@ The WIZ752SR-120 evaluation board package contains the following parts.
 
 The entire list of parts of the board is available at the [WIZ752SR-120
 Overview: Product
-Contents](/products/s2e_module/wiz752sr-120/overview/en#product_contents)
+Contents](overview-[EN]#product-contents)
 page.
 
 ## Prerequisites for Setup
 
 ### Software
 
-  - Configuration tool program (\[\[|Download page\]\])
+  - Configuration tool program ([Download page](../../WIZ750SR/download))
   - TCP server / TCP client / UDP terminal program
   - Serial terminal program
 
@@ -177,10 +175,12 @@ as shown in the picture below.
         serial interface card (DB9 connector). If the PC does support
         serial interface, use the RS-232 to USB converter.
 
+<!--
 |                                                   |
 | ------------------------------------------------- |
 | ![]()                                             |
 | Figure: **Combining WIZ752SR-120 module and EVB** |
+-->
 
 #### Step 2: Power on
 
@@ -261,6 +261,6 @@ Now you’re ready to use the WIZ752SR-120\!
 
 **If there is any problem?**  
 Please refer to our **[Troubleshooting
-Guide](trouble_shooting-[EN])**\!
+Guide](../../WIZ750SR/trouble_shooting-[EN])**\!
 
 -----

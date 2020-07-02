@@ -9,5 +9,4 @@ page](http://www.lpcware.com/lpcxpresso).
 Activate LPCXpresso IDE](/osh/lpcxpresso/start)
 
 **Download the Libraries and Application example source code for
-W5500-EVB** ![](/img/github.png)
-https://github.com/Wiznet/W5500_EVB
+W5500-EVB** ![](/img/github.png) https://github.com/Wiznet/W5500_EVB

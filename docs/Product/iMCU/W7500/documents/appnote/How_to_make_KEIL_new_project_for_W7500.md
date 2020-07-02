@@ -27,7 +27,7 @@ This application note is a tutorial for making a KEIL project for W7500 MCU. Thi
 ![keil0](/img/products/w7500/documents/appnote/keil0.jpg)
 
 * Download MDK-ARM v5 : [KEIL5](https://www.keil.com/download/product/)
-* Installation instructions, please see the Link : [Install](http://wizwiki.net/wiki/doku.php?id=products:w7500:documents:appnote:install_uvision)
+* Installation instructions, please see the Link : [Install](how_to_install_KEIL)
 
 ### STEP 2. Download W7500 Library!
 

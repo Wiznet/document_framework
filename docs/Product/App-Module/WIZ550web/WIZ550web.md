@@ -21,15 +21,15 @@ customize their own objective.
 ## Documents
 
   - **H/W Rev1.0 Datasheet**:
-    [[English]](/products/wiz550web/wiz550webds_en) /
-    [[Korean]](/products/wiz550web/wiz550webds_kr) 
+    [[English]]() /
+    [[Korean]]() 
       - Hardware Specification
       - Reference Schematics
       - Dimension
 
   - **H/W Rev1.1/1.2 Datasheet**:
-    [[English]](/products/wiz550web/wiz550webds_rev1.1_en) /
-    [[Korean]](/products/wiz550web/wiz550webds_rev1.1_kr) 
+    [[English]](datasheet_eng) /
+    [[Korean]](datasheet_kor) 
       - Hardware Specification
       - Reference Schematics
       - Dimension
@@ -37,37 +37,37 @@ customize their own objective.
 
 
   - **Getting Started Guide**:
-    [[English]](/products/wiz550web/wiz550webgsg_en) /
-    [[Korean]](/products/wiz550web/wiz550webgsg_kr)
+    [[English]](getting_started_guide_eng) /
+    [[Korean]](getting_started_guide_kor)
       - Product Preview, Hello world
       - Basic operations
       - Webpage demo
 
 
 
-  - **User's Guide**: [[English]](/products/wiz550web/wiz550webug_en)
-    / [[Korean]](/products/wiz550web/wiz550webug_kr)
+  - **User's Guide**: [[English]](users_guide_eng)
+    / [[Korean]](users_guide_kor)
       - Configuration Tool
       - Serial AT command set
       - TFTP Guide Document
 
 
 
-  - **Future Plans**: [[English]](/products/wiz550web/wiz550webfp_en)
-    / [[Korean]](/products/wiz550web/wiz550webfp_kr)
+  - **Future Plans**: [[English]](future_plan_eng)
+    / [[Korean]](future_plan_kor)
       - Plans for next version firmware
 
 
 
   - **Tutorials**:
-    [[English]](/products/wiz550web/wiz550web_tutorial_en) /
-    [[Korean]](/products/wiz550web/wiz550web_tutorial_kr)
+    [[English]](tutorials_eng) /
+    [[Korean]](tutorials_kor)
       - Tutorials; Under construction
 
 
 ## Download
 
-  - **[H/W Rev1.0 Download](/products/wiz550web/wiz550web_download)**
+  - **[H/W Rev1.0 Download](download)**
       - Firmware binary (Boot / App / Boot+App)
       - Firmware Source code 
       - Configuration Tool (Java ver.)
@@ -76,7 +76,7 @@ customize their own objective.
 
 
   - **[H/W Rev1.1/1.2
-    Download](/products/wiz550web/wiz550web_download_rev1.1)**
+    Download](download)**
       - Firmware binary (Boot / App / Boot+App)
       - Firmware Source code 
       - Configuration Tool (Java ver.)

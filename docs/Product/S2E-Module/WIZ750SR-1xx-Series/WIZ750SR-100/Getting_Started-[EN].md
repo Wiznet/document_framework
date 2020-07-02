@@ -4,13 +4,9 @@ title: Getting Started-[EN]
 date: 2020-04-09
 ---
 
-
-
-# Getting Started with WIZ750SR-100
-
  **Supported Languages**  
-* [English](Getting_Started-[EN].md) (current page)  
-* [Korean](Getting_Started-[KO].md)
+* [English](getting_started-[EN]) (current page)  
+* [Korean](getting_started-[KO])
 
 ![](/img/products/wiz750sr/docs_icon.png)
 
@@ -38,7 +34,7 @@ The WIZ750SR-100 evaluation board package contains the following parts.
 
 The entire list of parts of the board is available at the [WIZ750SR-100
 Overview: Product
-Contents](/products/wiz750sr-100/overview/en#product_contents) page.
+Contents](overview-[EN]#product-contents) page.
 
 ### Device Layout
 
@@ -84,8 +80,7 @@ Contents](/products/wiz750sr-100/overview/en#product_contents) page.
 
 ### Software
 
-  - Configuration tool program ([Download
-    page](/products/wiz750sr/download/start))
+  - Configuration tool program ([Download page](../../WIZ750SR/download))
   - TCP server / TCP client / UDP terminal program
   - Serial terminal program
 
@@ -101,13 +96,7 @@ Contents](/products/wiz750sr-100/overview/en#product_contents) page.
 
 -----
 
-1.  W7500/W7500P are One-chip Ethernet MCU solution based on [ARM
-    Cortex-M0
-    architecture](http://www.arm.com/products/processors/cortex-m/cortex-m0.php)
-    plus WIZnet hardwired TCP/IP core include Ethernet PHY. For more
-    details, please refer to [W7500 product page](/products/w7500/start)
-    
-    ## Connect Your WIZ750SR-100
+## Connect Your WIZ750SR-100
 
 ### WIZ750SR-100 Factory Settings
 
@@ -201,7 +190,7 @@ on the same Ethernet network.
     and test PC must be set to be assigned the same IP from the same
     router.
     
-    ### Connecting Steps
+### Connecting Steps
 
  The **WIZ750SR-100-EVB** is designed
 to use the **DB9 connector** to connect with the user’s serial device.
@@ -301,8 +290,6 @@ below.
         the identical character string appears on the TCP client
         terminal.
 
-
-
   - **Ethernet to Serial: data communication verification**
       - Enter the character string in the TCP client terminal and check
         if the identical character string appears on the serial
@@ -315,16 +302,16 @@ Now you’re ready to use the WIZ750SR-100\!
   - This document is based on the **assumption of the PC as the serial
     device / remote network device**. 
 
-
-
   - The next step is to **connect the WIZ750SR-100 module to the target
     serial device** and check if the device can **communicate, control,
     and monitor** via the **remote PC or monitoring server**.
 
 -----
+
 **If there is any problem?**  
-Please refer to our **[Troubleshooting
-Guide](trouble_shooting-[EN])**\! 
+
+Please refer to our **[Troubleshooting Guide](../../WIZ750SR/trouble_shooting-[EN])**! 
+
 -----
 
 ## Navigation
@@ -333,33 +320,20 @@ Guide](trouble_shooting-[EN])**\!
 
 WIZ750SR series Common Documents 
 
-  - **[User's Manual (English)](User's_Manual-[EN].md)** 
-  - **[User's Manual (Korean)](User's_Manual-[KO].md)** 
-
-
-
-  - **[Device Command Manual (English)](Command_Manual-[EN].md)**
-  - **[Device Command Manual (Korean)](Command_Manual-[KO].md)**
-
-
-
-  - **[Troubleshooting Guide (English)](Trouble_Shooting-[EN].md)**
-  - **[Troubleshooting Guide (Korean)](Trouble_Shooting-[KO].md)**
-
-
-
-  - **[Update History (English)](Series_Update_History-[EN].md)**
-  - **[Update History (Korean)](Series_Update_History-[KO].md)**
-
+  - **User's Manual [(English)](/docs/Product/S2E-Module/WIZ750SR/users_manual-[EN])/[(Korean)](/docs/Product/S2E-Module/WIZ750SR/users_manual-[KO])** 
+  
+  - **Device Command Manual [(English)](../../WIZ750SR/command_manual-[EN])/[(Korean)](../../WIZ750SR/command_manual-[KO])**
+  
+  - **Troubleshooting Guide [(English)](../../WIZ750SR/trouble_shooting-[EN])/[(Korean)](../../WIZ750SR/trouble_shooting-[KO])**
+  
+  - **Update History [(English)](../../WIZ750SR/series_update_history-[EN])/[(Korean)](../../WIZ750SR/series_update_history-[KO])**
+  
 -----
 
 **WIZ750SR series Downloads** 
 
-  - **[Software Download](Download.md)**
-
-
-
-  - **[Technical References](Technical_References.md)**
+  - **[Software Download](../../WIZ750SR/download)**
+  - **[Technical References](../../WIZ750SR/technical_references)**
 
 -----
 

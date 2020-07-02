@@ -4,14 +4,9 @@ title: Overview-[KO]
 date: 2020-04-08
 ---
 
-
-
-# WIZ750SR Product Overview
-
-
 **Supported Languages**  
-  * [English](/products/wiz750sr/overview/en)  
-  * [Korean](/products/wiz750sr/overview/ko) (current page)
+  * [English](overview-[EN])  
+  * [Korean](overview-[KO]) (current page)
 
 -----
 
@@ -135,32 +130,20 @@ WIZ750SR은 시리얼 장비가 보낸 데이터를 TCP/IP 패킷으로 변환�
 
  **WIZ750SR** 
 
-  - **[User's Manual (English)](User's_Manual-[EN].md)** 
-  - **[User's Manual (Korean)](User's_Manual-[KO].md)** 
-
-
-
-  - **[Device Command Manual (English)](Command_Manual-[EN].md)**
-  - **[Device Command Manual (Korean)](Command_Manual-[KO].md)**
-
-
-
-  - **[Troubleshooting Guide (English)](Trouble_Shooting-[EN].md)**
-  - **[Troubleshooting Guide (Korean)](Trouble_Shooting-[KO].md)**
-
-
-
-  - **[Update History (English)](Series_Update_History-[EN].md)**
-  - **[Update History (Korean)](Series_Update_History-[KO].md)**
-
+  - **User's Manual [(English)](users_manual-[EN])/[(Korean)](users_manual-[KO])** 
+  
+  - **Device Command Manual [(English)](Command_Manual-[EN])/[(Korean)](Command_Manual-[KO])**
+  
+  - **Troubleshooting Guide [(English)](Trouble_Shooting-[EN])/[(Korean)](Trouble_Shooting-[KO])**
+  
+  - **Update History [(English)](Series_Update_History-[EN])/[(Korean)](Series_Update_History-[KO])**
+  
 -----
 
 **WIZ750SR series Downloads** 
 
-  - **[Software Download](Download.md)**
+  - **[Software Download](Download)**
 
-
-
-  - **[Technical References](Technical_References.md)**
+  - **[Technical References](Technical_References)**
 
 -----

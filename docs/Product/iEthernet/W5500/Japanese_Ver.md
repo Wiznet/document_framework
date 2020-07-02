@@ -28,11 +28,11 @@ W5500はイーサネットに簡単にリンクするためのSPIを使用した
 ### Material
 
   - [W5500 データシート](Datasheet.md)
-  - [W5500 ドライバ](Driver.txt)
+  - [W5500 ドライバ](driver)
   - [W5500 基準回路](Ref._Schematic.md)
-  - [W5200 から W5500 で 移動](Migration_from_W5200.txt)
-  - [W5500 TCP 機能](TCP.md)
-  - [W5500 UDP 機能](UDP.md)
-  - [W5500 アプリケーションノート (IPRAW)](IPRAW.md)
-  - [W5500 アプリケーションノート (PPPoE)](PPPoE.md)
+  - [W5200 から W5500 で 移動](migration_from_w5200)
+  - [W5500 TCP 機能](Application/TCP.md)
+  - [W5500 UDP 機能](Application/UDP.md)
+  - [W5500 アプリケーションノート (IPRAW)](Application/IPRAW.md)
+  - [W5500 アプリケーションノート (PPPoE)](Application/PPPoE.md)
  

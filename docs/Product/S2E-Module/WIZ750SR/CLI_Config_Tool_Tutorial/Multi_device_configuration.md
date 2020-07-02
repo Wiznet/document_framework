@@ -4,7 +4,7 @@ title: Multi Device Configuration
 date: 2020-04-09
 ---
 
-CLI Configuration Tool Tutorial \#4
+CLI Configuration Tool Tutorial #4
 
 You can use the multi-device configuration when you need to set up and configure multiple devices.  
 You can **set multiple devices** with **one command input**.

@@ -27,7 +27,7 @@ date: 2020-04-08
     수 있습니다.
 
   - 최신 버전의 Configuration tool은 [다운로드
-    페이지](/products/wiz750sr/download/start) 에서 찾을 수 있습니다.
+    페이지](download) 에서 찾을 수 있습니다.
 
 </details>
 
@@ -93,7 +93,7 @@ date: 2020-04-08
 2.  'Firmware version' 항목 확인
 
   - 최신 펌웨어 버전은 [제품 업데이트 히스토리 페이지](/products/wiz750sr/history/ko)와 [다운로드
-    페이지](/products/wiz750sr/download/start) 에서 확인 할 수 있습니다.
+    페이지](download) 에서 확인 할 수 있습니다.
 
 </details>
 
@@ -176,18 +176,14 @@ date: 2020-04-08
 
  **WIZ750SR** 
 
-  - **[User's Manual (English)](users_manual-[EN])** 
-  - **[User's Manual (Korean)](users_manual-[KO])**
-
-  - **[Device Command Manual (English)](Command_Manual-[EN])**
-  - **[Device Command Manual (Korean)](Command_Manual-[KO])**
-
-  - **[Troubleshooting Guide (English)](Trouble_Shooting-[EN])**
-  - **[Troubleshooting Guide (Korean)](Trouble_Shooting-[KO])**
-
-  - **[Update History (English)](Series_Update_History-[EN])**
-  - **[Update History (Korean)](Series_Update_History-[KO])**
-
+  - **User's Manual [(English)](users_manual-[EN])/[(Korean)](users_manual-[KO])** 
+  
+  - **Device Command Manual [(English)](Command_Manual-[EN])/[(Korean)](Command_Manual-[KO])**
+  
+  - **Troubleshooting Guide [(English)](Trouble_Shooting-[EN])/[(Korean)](Trouble_Shooting-[KO])**
+  
+  - **Update History [(English)](Series_Update_History-[EN])/[(Korean)](Series_Update_History-[KO])**
+  
 -----
 
 **WIZ750SR series Downloads** 

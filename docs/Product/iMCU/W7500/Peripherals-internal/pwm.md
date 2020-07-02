@@ -87,7 +87,7 @@ The PWM mode can be selected independently on each channel(0~7) by PWM output en
 
 The below Figure is an example of the PWM output waveform when the Timer/Counter is reached to the value of match register.
 
-![](http://wizwiki.net/wiki/lib/exe/fetch.php?media=products:w7500:peripherals:pwm_timing_diagram2.jpg "Figure 11 The PWM output up to match register")
+![](/img/products/w7500p/peripheral/pwm_timing_diagram2.jpg "Figure 11 The PWM output up to match register")
 
 The below Figure is example of the PWM output waveform when to the Timer/Counter is reached to the value of limit register.
 

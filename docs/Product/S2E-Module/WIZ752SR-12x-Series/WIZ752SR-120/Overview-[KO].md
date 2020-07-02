@@ -4,20 +4,16 @@ title: Overview-[KO]
 date: 2020-04-13
 ---
 
-
-
-# WIZ752SR-120 Product Overview
-
  **Supported Languages**  
-* [English](Overview-[EN].md) 
-* [Korean](Overview-[KO].md) (current page)
+* [English](overview-[EN]) 
+* [Korean](overview-[KO]) (current page)
 
 -----
 
 ## Overview
 
 ![WIZ752SR-120 Product
-Overview](/products/s2e_module/wiz752sr-120/wiz752sr-120_product_overview.png%20)
+Overview](/img/products/s2e_module/wiz752sr-120/wiz752sr-120_product_overview.png)
 
 WIZ752SR-120은 Cortex-M0 기반의 W7500 MCU와 외부 PHY IC가 탑재된 시리얼 to 이더넷 모듈
 제품입니다.

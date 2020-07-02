@@ -50,14 +50,15 @@ LAN) and a Power Down Mode in order to reduce power consumption.
 ### Material
 
   - [W5500 Datasheet](Datasheet.md)
-  - [W5500 Driver](Driver.txt)
+  - [W5500 Driver](driver)
   - [W5500 Reference Schematic](Ref._Schematic.md)
-  - [Migration from W5200 to W5500](Migration_from_W5200.txt)
-  - [W5500 TCP Function](TCP.md)
-  - [W5500 UDP Function](UDP.md)
-  - [W5500 Application Note (IPRAW)](IPRAW.md)
-  - [W5500 Application Note (PPPoE)](PPPoE.md)
-  - [W5500 Confirmation of ESD Test](SPI_Performance.md)
+  - [Migration from W5200 to W5500](migration_from_w5200)
+  - [W5500 TCP Function](Application/TCP.md)
+  - [W5500 UDP Function](Application/UDP.md)
+  - [W5500 Application Note (IPRAW)](Application/IPRAW.md)
+  - [W5500 Application Note (PPPoE)](Application/PPPoE.md)
+  - [W5500 Confirmation of ESD Test](Application/SPI_Performance.md)
+  
 # Reference Schematic
 
 ## External Transformer Type
@@ -819,7 +820,7 @@ This code has been evaluated on the CooCox Cookie Board with ARM Cortex-M0 MCU.
 
 Please refer to this link for more details.
 
-- [How to use on cookie board](http://wizwiki.net/wiki/doku.php?id=osh:cookie:singlepage).
+- [How to use on cookie board](../../Open-Source-Hardware/cookie).
 
 The figure below shows the folder structure of this ioLibrary.
 
@@ -1118,12 +1119,12 @@ support and Project shared
 
 ## Where to Buy
 
-![WIZnet Online Shop](/products/w5500/buynow.png)  
+![WIZnet Online Shop](/img/products/w5500/buynow.png)  
 [![WIZnetUS Online Shop,
-USA](/products/w5500/w5500_evb/icons/dollar.png)](http://www.shopwiznet.com/)
+USA](/img/products/w5500/w5500_evb/icons/dollar.png)](http://www.shopwiznet.com/)
 [![WIZnetEU Online Shop,
-Germany](/products/w5500/w5500_evb/icons/european-euro.png)](http://shop.wiznet.eu/)
+Germany](/img/products/w5500/w5500_evb/icons/european-euro.png)](http://shop.wiznet.eu/)
 [![WIZnetKorea Online Shop,
-Korea](/products/w5500/w5500_evb/icons/won.png)](http://shop.wiznet.co.kr/)
+Korea](/img/products/w5500/w5500_evb/icons/won.png)](http://shop.wiznet.co.kr/)
 
 

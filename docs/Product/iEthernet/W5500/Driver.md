@@ -4,7 +4,7 @@ title: Driver
 date: 2020-04-03
 ---
 
-The ioLibrary means **"Internet Offload Library"** for WIZnet chip. It includes **drivers** and **application protocols**. There are three kinds of libraries explained on this page The first two drivers (ioLibrary\_BSD, ioLibrary) can be used for [W5500](/products/w5500/start) application designs. These will be updated continuously. The former BSD-Type driver will not be updated, as it is only meant to be a migration help from W5200 to [W5500](/products/w5500/start).
+The ioLibrary means **"Internet Offload Library"** for WIZnet chip. It includes **drivers** and **application protocols**. There are three kinds of libraries explained on this page The first two drivers (ioLibrary\_BSD, ioLibrary) can be used for [W5500](overview) application designs. These will be updated continuously. The former BSD-Type driver will not be updated, as it is only meant to be a migration help from W5200 to [W5500](overview).
 
 -----
 
@@ -319,7 +319,7 @@ and then insert to each of same named directory in provided project.
 #### Description
 
 This driver provides BSD-type Socket APIs for
-[W5500](/products/w5500/start). Because the function names of this
+[W5500](overview)). Because the function names of this
 driver are more user-friendly than those of the older drivers, …,
 current WIZnet chip users can easily migrate from their WIZnet chip
 application to the W5500 application. All drivers for W5100, W5200 and
@@ -561,7 +561,7 @@ This code has been evaluated on the CooCox Cookie Board with ARM Cortex-M0 MCU.
 
 Please refer to this link for more details.
 
-- [How to use on cookie board](http://wizwiki.net/wiki/doku.php?id=osh:cookie:singlepage).
+- [How to use on cookie board](../../Open-Source-Hardware/cookie).
 
 The figure below shows the folder structure of this ioLibrary.
 

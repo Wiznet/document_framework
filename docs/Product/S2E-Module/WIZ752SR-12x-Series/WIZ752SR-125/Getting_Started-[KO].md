@@ -1,22 +1,18 @@
 ---
 id: getting_started_guide-[KO]
-title: Getting Started Guide-[ko]
+title: Getting Started Guide-[KO]
 date: 2020-04-15
 ---
 
-
-
-# Getting Started with WIZ752SR-125
-
  **Supported Languages**  
-* [English](Getting_Started-[EN].md) 
-* [Korean](Getting_Started-[KO].md) (current page)
+* [English](getting_started_guide-[EN]) 
+* [Korean](getting_started_guide-[KO]) (current page)
 
 ![](/img/products/wiz750sr/docs_icon.png)
 
 -----
 
-\*\* \* 이 문서는 WIZ752SR-125 모듈 활용을 기준으로 작성되었습니다. \*\*
+**이 문서는 WIZ752SR-125 모듈 활용을 기준으로 작성되었습니다.**
 
 -----
 
@@ -24,24 +20,26 @@ date: 2020-04-15
 
 ### What's in the Box?
 
+<!--
 |                                     |
 | ----------------------------------- |
 | ![]()                               |
 | Figure: ***WIZ752SR-125 V1.0 패키지*** |
+-->
 
 WIZ752SR-125 보드는 별도의 악세사리 없이 모듈 단품만 판매합니다.
 
   - WIZ752SR-125 모듈
 
 개발보드 별 패키지 구성품의 전체 항목은 [WIZ752SR-125 Overview: Product
-Contents](/products/s2e_module/wiz752sr-125/overview/ko#product_contents)
+Contents](overview-[KO]#product-contents)
 페이지에서 확인 하실 수 있습니다.
 
 ## Prerequisites for Setup
 
 ### Software
 
-  - Configuration tool 프로그램 ([Download page](/))
+  - Configuration tool 프로그램 ([Download page](../../WIZ750SR/download))
   - TCP 서버 / TCP 클라이언트 / UDP 터미널 프로그램
   - 시리얼 터미널 프로그램
 
@@ -173,10 +171,12 @@ WIZ752SR-125 모듈과 케이블을 다음과 같이 연결합니다.
         인터페이스를 지원하지 않을 경우 'RS-232 to USB 컨버터'를 활용하여 USB에
         연결합니다.
 
+<!--
 |                                      |
 | ------------------------------------ |
 | ![]()                                |
 | Figure: **WIZ752SR-125 모듈과 개발보드 결합** |
+-->
 
 #### Step 2: Power on
 
@@ -244,7 +244,7 @@ PC를 사용자 시리얼 장치 및 TCP 클라이언트로 삼아 데이터 통
 -----
 
 **동작에 문제가 있나요?**  
-**[Troubleshooting 가이드](trouble_shooting-[KO])** 문서를 참고해
+**[Troubleshooting 가이드](../../WIZ750SR/trouble_shooting-[KO])** 문서를 참고해
 보세요\!
 
 -----

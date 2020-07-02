@@ -4,20 +4,16 @@ title: Overview-[EN]
 date: 2020-04-13
 ---
 
-
-
-# WIZ752SR-120 Product Overview
-
 **Supported Languages**  
-* [English](Overview-[EN].md) (current page)  
-* [Korean](Overview-[KO].md)
+* [English](overview-[EN]) (current page)  
+* [Korean](overview-[KO])
 
 -----
 
 ## Overview
 
 ![WIZ752SR-120 Product
-Overview](/products/s2e_module/wiz752sr-120/wiz752sr-120_product_overview.png%20)
+Overview](/img/products/s2e_module/wiz752sr-120/wiz752sr-120_product_overview.png)
 
 WIZ752SR-120 is a compact sized serial to Ethernet module using the
 W7500 Ethernet MCU (SoC based on ARM Cortex-M0 architecture) with

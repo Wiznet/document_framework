@@ -33,11 +33,11 @@ for multi devices,
 python wizconfig.py -a --getfile [file_name]
 ```
 
-for detail description of command set, refer to [WIZ750SR Command List](../Command_Manual-[EN].md).
+for detail description of command set, refer to [WIZ750SR Command List](../command_manual-[EN]).
 
 -----
 
-### Example 1: get all info
+### Example 1: Get all info
 
 If you use the example file as it is, you can get all the information of
 the device. Since the WIZ750SR is a 1 port device, use cmd\_oneport.txt.
@@ -69,7 +69,7 @@ python wizconfig.py -a --getfile cmd_oneport.txt
 
 -----
 
-### Example 2: getting part info
+### Example 2: Getting part info
 
 If you want to get only some necessary information, refer to
 cmd\_oneport.txt and modify it or create a new file to include only
@@ -128,7 +128,7 @@ It can be used as the macro.
 
 To use this option, you have to make command set. (command + parameter)
 
-  - for detail description of command set, refer to [WIZ750SR Command List](../Command_Manual-[EN].md).
+  - for detail description of command set, refer to [WIZ750SR Command List](../command_manual-[EN]).
 
 List up and write the command set info you want to set a file.
 
@@ -148,7 +148,7 @@ python wizconfig.py -a --setfile [file_name]
 
 -----
 
-### Example 1: setfile
+### Example 1: Setfile
 
 There is an example file in the project directory, 'set\_cmd.txt'.
 

@@ -4,12 +4,10 @@ title: Overview-[EN]
 date: 2020-04-08
 ---
 
-
-
 **Supported Languages**
 
- * [English](Overview-[EN].md) (current page)  
- * [Korean](Overview-[KO].md)
+ * [English](overview-[EN]) (current page)  
+ * [Korean](overview-[KO])
 
 -----
 
@@ -107,32 +105,20 @@ of the product.
 
  **WIZ750SR** 
 
-  - **[User's Manual (English)](User's_Manual-[EN].md)** 
-  - **[User's Manual (Korean)](User's_Manual-[KO].md)** 
-
-
-
-  - **[Device Command Manual (English)](Command_Manual-[EN].md)**
-  - **[Device Command Manual (Korean)](Command_Manual-[KO].md)**
-
-
-
-  - **[Troubleshooting Guide (English)](Trouble_Shooting-[EN].md)**
-  - **[Troubleshooting Guide (Korean)](Trouble_Shooting-[KO].md)**
-
-
-
-  - **[Update History (English)](Series_Update_History-[EN].md)**
-  - **[Update History (Korean)](Series_Update_History-[KO].md)**
-
+  - **User's Manual [(English)](users_manual-[EN])/[(Korean)](users_manual-[KO])** 
+  
+  - **Device Command Manual [(English)](Command_Manual-[EN])/[(Korean)](Command_Manual-[KO])**
+  
+  - **Troubleshooting Guide [(English)](Trouble_Shooting-[EN])/[(Korean)](Trouble_Shooting-[KO])**
+  
+  - **Update History [(English)](Series_Update_History-[EN])/[(Korean)](Series_Update_History-[KO])**
+  
 -----
 
 **WIZ750SR series Downloads** 
 
-  - **[Software Download](Download.md)**
+  - **[Software Download](Download)**
 
-
-
-  - **[Technical References](Technical_References.md)**
+  - **[Technical References](Technical_References)**
 
 -----

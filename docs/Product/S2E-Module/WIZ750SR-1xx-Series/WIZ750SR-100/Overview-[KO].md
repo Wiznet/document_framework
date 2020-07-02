@@ -4,13 +4,9 @@ title: Overview-[KO]
 date: 2020-04-09
 ---
 
-
-
-# WIZ750SR-100 Product Overview
-
  **Supported Languages**  
-* [English](Overview-[EN].md) 
-* [Korean](Overview-[KO].md) (current page)
+* [English](overview-[EN]) 
+* [Korean](overview-[KO]) (current page)
 
 -----
 
@@ -33,21 +29,12 @@ WIZ750SR-100은 시리얼 장비가 보낸 데이터를 TCP/IP 패킷으로 변�
 종류의 보드 사용이 가능합니다. (ex. WIZ750SR, WIZ750SR-100, WIZ750SR-105,
 WIZ750SR-110)
 
-|         |
-| ------- |
-|         |
-| Figure: |
-
 해당 제품은 산업용 온도 스펙 (industrial temperature standard, -40℃ \~ 85℃)을 만족하며,
 WIZ750SR-100 모듈은 TTL로 동작하며 WIZ750SR-100-EVB를 사용할 경우 RS-232까지 사용 가능합니다.
 
 **WIZ750SR-100은 이더넷 네트워크를 통해 시리얼 장치를 제어하기 위한 최적의 솔루션이 될 것입니다.**
 
 -----
-
-1.  하드웨어 핀 호환
-
-2.  펌웨어, AT command, Configuration tool 기능 혼용
 
 ## Features
 
@@ -99,33 +86,20 @@ WIZ750SR-100 모듈은 TTL로 동작하며 WIZ750SR-100-EVB를 사용할 경우 
 
 WIZ750SR series Common Documents 
 
-  - **[User's Manual (English)](User's_Manual-[EN].md)** 
-  - **[User's Manual (Korean)](User's_Manual-[KO].md)** 
-
-
-
-  - **[Device Command Manual (English)](Command_Manual-[EN].md)**
-  - **[Device Command Manual (Korean)](Command_Manual-[KO].md)**
-
-
-
-  - **[Troubleshooting Guide (English)](Trouble_Shooting-[EN].md)**
-  - **[Troubleshooting Guide (Korean)](Trouble_Shooting-[KO].md)**
-
-
-
-  - **[Update History (English)](Series_Update_History-[EN].md)**
-  - **[Update History (Korean)](Series_Update_History-[KO].md)**
-
+  - **User's Manual [(English)](/docs/Product/S2E-Module/WIZ750SR/users_manual-[EN])/[(Korean)](/docs/Product/S2E-Module/WIZ750SR/users_manual-[KO])** 
+  
+  - **Device Command Manual [(English)](../../WIZ750SR/command_manual-[EN])/[(Korean)](../../WIZ750SR/command_manual-[KO])**
+  
+  - **Troubleshooting Guide [(English)](../../WIZ750SR/trouble_shooting-[EN])/[(Korean)](../../WIZ750SR/trouble_shooting-[KO])**
+  
+  - **Update History [(English)](../../WIZ750SR/series_update_history-[EN])/[(Korean)](../../WIZ750SR/series_update_history-[KO])**
+  
 -----
 
 **WIZ750SR series Downloads** 
 
-  - **[Software Download](Download.md)**
-
-
-
-  - **[Technical References](Technical_References.md)**
+  - **[Software Download](../../WIZ750SR/download)**
+  - **[Technical References](../../WIZ750SR/technical_references)**
 
 -----
 

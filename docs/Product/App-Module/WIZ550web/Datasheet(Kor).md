@@ -208,7 +208,7 @@ Jumper](/img/products/wiz550web/wiz550web_bb_analog_jumper.png)
 | Parts         | Descripsion                                   | Datasheet                                                                    |
 | ------------- | --------------------------------------------- | ---------------------------------------------------------------------------- |
 | STM32F103RCT6 | **ARM 32-bit Cortex™-M3 CPU Core**            | [STM32F103RCT6](/img/products/wiz550web/wiz550webds_kr/stm32f103rct6_256kb.pdf) |
-| W5500         | **WIZnet TCP/IP Chip**                        | [W5500](/products/w5500/datasheet)                                           |
+| W5500         | **WIZnet TCP/IP Chip**                        | [W5500](../../iEthernet/W5500/datasheet) |
 | AT45DB081D-SU | **8-Megabit Serial Flash Memory**             | [AT45DB081D-SU](/img/products/wiz550web/wiz550webds_kr/at45db081d-su.pdf)       |
 | 24AA64T-I/OT  | **64K I2C™ Serial EEPROM**                    | [24AA64T-I/OT](/img/products/wiz550web/wiz550webds_kr/24aa64t-i_ot.pdf)         |
 | J1B1211CCD    | **Transformer + RJ45 + LED, Industrial**      | [J1B1211CCD](/img/products/wiz550web/wiz550webds_kr/j1b1211ccd.pdf)             |

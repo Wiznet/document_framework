@@ -150,12 +150,12 @@ command.
   --getfile GETFILE     File name to Get info. Refer default command(cmd_oneport.txt or cmd_twoport.txt).
 ```
 
-\*\* \<About Channel \#N Options\> \*\*  
+**< About Channel \#N Options >**  
 **1 Port S2E devices**  
 Use <span class="underline">Channel \#0 Options</span> only.  
 **2 Port S2E devices**  
 Use <span class="underline">Channel \#0 Options</span> &
-<span class="underline">Channel \#1 Options</span> both.
+<span class="underline">Channel #1 Options</span> both.
 
 -----
 

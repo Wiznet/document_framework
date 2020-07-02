@@ -42,7 +42,7 @@ mbedのプラットフォームと互換して使用されます。
     LibraryのUpdateが必要である。（**必須**）
   - 下のリンクを参照してください。
       - このURLに従ってください[Getting
-        Started\_jp](http://wizwiki.net/wiki/doku.php?id=osh:w5500_ethernet_shield_getting_started_jp)
+        Started\_jp](getting_started_arduino_jp)
 
 -----
 

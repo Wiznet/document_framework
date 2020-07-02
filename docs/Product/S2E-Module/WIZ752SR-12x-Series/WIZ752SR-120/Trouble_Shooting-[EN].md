@@ -32,7 +32,7 @@ date: 2020-04-13
 
 
   - The latest version Configuration tool can be downloaded at this
-    [download page](/products/wiz750sr/download/start).
+    [download page](download).
 
 \++++
 
@@ -108,7 +108,7 @@ date: 2020-04-13
 
   - User can check the latest firmware version at the [product update
     history page](/products/wiz750sr/history/en) and [download
-    page](/products/wiz750sr/download/start).
+    page](download).
 
 \++++
 
@@ -218,7 +218,7 @@ WIZ750SR series Common Documents \*\*
 
 \*\* WIZ750SR series Downloads \*\*
 
-  - **[Software Downloads](/products/wiz750sr/download/start)**
+  - **[Software Downloads](download)**
 
 
 

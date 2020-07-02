@@ -4,20 +4,15 @@ title: Getting Started-[EN]
 date: 2020-04-09
 ---
 
-
-
-# Getting Started with WIZ750SR-110
-
 **Supported Languages**  
-* [English](Getting_Started-[EN].md) (current page)  
-* [Korean](Getting_Started-[KO].md)
+* [English](getting_started-[EN]) (current page)  
+* [Korean](getting_started-[KO])
 
 ![](/img/products/wiz750sr/docs_icon.png)
 
 -----
 
-\*\* \* This section was written on the assumption that the use of
-WIZ750SR-110 Module.\*\*
+**This section was written on the assumption that the use of WIZ750SR-110 Module.**
 
 -----
 
@@ -25,10 +20,12 @@ WIZ750SR-110 Module.\*\*
 
 ### What's in the Box?
 
+<!--
 |                                                    |
 | -------------------------------------------------- |
 |                                                    |
 | Figure: ***WIZ750SR-110 Rev. 1.0 Module Package*** |
+-->
 
 The WIZ750SR-110 evaluation board package contains the following parts.
 
@@ -37,7 +34,7 @@ The WIZ750SR-110 evaluation board package contains the following parts.
 
 The entire list of parts of the board is available at the [WIZ750SR-110
 Overview: Product
-Contents](/products/wiz750sr-110/overview/en#product_contents) page.
+Contents](overview-[EN]#product-contents) page.
 
 ### Device Layout
 
@@ -76,17 +73,9 @@ Contents](/products/wiz750sr-110/overview/en#product_contents) page.
 
 ### Interfaces and Ports
 
-1.  W7500/W7500P are One-chip Ethernet MCU solution based on [ARM
-    Cortex-M0
-    architecture](http://www.arm.com/products/processors/cortex-m/cortex-m0.php)
-    plus WIZnet hardwired TCP/IP core include Ethernet PHY. For more
-    details, please refer to [W7500 product page](/products/w7500/start)
-    
-    \* **Data Port(RS-232C)**: D-SUB9 Port
-
-  - **Network Port**: RJ-45 Ethernet Connector
-  - **User's Optional Port**: 1x6 2.54mm Pin header 2ea (Debug UART2
-    pins(ISP) / 4-Pins user I/O)
+- **Data Port(RS-232C)**: D-SUB9 Port
+- **Network Port**: RJ-45 Ethernet Connector
+- **User's Optional Port**: 1x6 2.54mm Pin header 2ea (Debug UART2 pins(ISP) / 4-Pins user I/O)
 
 -----
 
@@ -95,7 +84,7 @@ Contents](/products/wiz750sr-110/overview/en#product_contents) page.
 ### Software
 
   - Configuration tool program ([Download
-    page](/products/wiz750sr/download/start))
+    page](../../WIZ750SR/download))
   - TCP server / TCP client / UDP terminal program
   - Serial terminal program
 
@@ -108,8 +97,8 @@ Contents](/products/wiz750sr-110/overview/en#product_contents) page.
   - Power source for device
       - Such as 5V DC adapter, USB port on your computer, or 3.3V Power
         source
-  - \*\* UART2 pin is not mounted. Therefore, users can download ISP by
-    using 'USB to UART module' to J2 connector. \*\*
+  - ** UART2 pin is not mounted. Therefore, users can download ISP by
+    using 'USB to UART module' to J2 connector. **
 
 -----
 
@@ -241,6 +230,7 @@ as shown in the picture below.
       - Used to connect the evaluation board’s USB connector and the
         PC’s USB connector.
 
+<!--
 |                                           |
 | ----------------------------------------- |
 |                                           |
@@ -250,6 +240,7 @@ as shown in the picture below.
 | ---------------------------------- |
 |                                    |
 | Figure: **WIZ750SR-110 side view** |
+-->
 
 #### Step 2: Power on
 
@@ -333,7 +324,7 @@ Now you’re ready to use the WIZ750SR-110\!
 
 **If there is any problem?**  
 Please refer to our **[Troubleshooting
-Guide](trouble_shooting-[EN])**\!
+Guide](../../WIZ750SR/trouble_shooting-[EN])**\!
 
 -----
 
@@ -343,33 +334,19 @@ Guide](trouble_shooting-[EN])**\!
 
 WIZ750SR series Common Documents 
 
-  - **[User's Manual (English)](User's_Manual-[EN].md)** 
-  - **[User's Manual (Korean)](User's_Manual-[KO].md)** 
-
-
-
-  - **[Device Command Manual (English)](Command_Manual-[EN].md)**
-  - **[Device Command Manual (Korean)](Command_Manual-[KO].md)**
-
-
-
-  - **[Troubleshooting Guide (English)](Trouble_Shooting-[EN].md)**
-  - **[Troubleshooting Guide (Korean)](Trouble_Shooting-[KO].md)**
-
-
-
-  - **[Update History (English)](Series_Update_History-[EN].md)**
-  - **[Update History (Korean)](Series_Update_History-[KO].md)**
-
+  - **User's Manual [(English)](/docs/Product/S2E-Module/WIZ750SR/users_manual-[EN])/[(Korean)](/docs/Product/S2E-Module/WIZ750SR/users_manual-[KO])** 
+  
+  - **Device Command Manual [(English)](../../WIZ750SR/command_manual-[EN])/[(Korean)](../../WIZ750SR/command_manual-[KO])**
+  
+  - **Troubleshooting Guide [(English)](../../WIZ750SR/trouble_shooting-[EN])/[(Korean)](../../WIZ750SR/trouble_shooting-[KO])**
+  
+  - **Update History [(English)](../../WIZ750SR/series_update_history-[EN])/[(Korean)](../../WIZ750SR/series_update_history-[KO])**
+  
 -----
 
 **WIZ750SR series Downloads** 
 
-  - **[Software Download](Download.md)**
-
-
-
-  - **[Technical References](Technical_References.md)**
+  - **[Software Download](../../WIZ750SR/download)**
+  - **[Technical References](../../WIZ750SR/technical_references)**
 
 -----
-

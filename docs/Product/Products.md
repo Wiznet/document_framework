@@ -18,7 +18,7 @@ embedded application platform especially internet of things.
 
 ## Pre-programmed MCU
 
-  - [W7500(P)-S2E](Pre-programmed-MCU/W7500P-S2E/W7500(P)-S2E-%5BEN%5D.md)
+  - [W7500(P)-S2E](Pre-programmed-MCU/W7500P-S2E/w7500p-s2e-[EN])
 
 -----
 

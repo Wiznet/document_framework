@@ -4,19 +4,15 @@ title: Getting Started Guide-[EN]
 date: 2020-04-15
 ---
 
-
-
-# Getting Started with WIZ752SR-125
-
  **Supported Languages**  
-* [English](Getting_Started-[EN].md) (current page)  
-* [Korean](Getting_Started-[KO].md)
+* [English](getting_started_guide-[EN]) (current page)  
+* [Korean](getting_started_guide-[KO])
 
 ![](/img/products/wiz750sr/docs_icon.png)
 
 -----
 
-* **This section was written on the assumption that based on the use
+**This section was written on the assumption that based on the use
 of the WIZ120SR evaluation board using the WIZ752SR-125 module.**
 
 -----
@@ -25,10 +21,12 @@ of the WIZ120SR evaluation board using the WIZ752SR-125 module.**
 
 ### What's in the Box?
 
+<!--
 |                                                          |
 | -------------------------------------------------------- |
 | ![](/)                                                   |
 | Figure: ***WIZ752SR-125 V1.0 Evaluation Board Package*** |
+-->
 
 The WIZ752SR-125 evaluation board package contains the following parts.
 
@@ -38,14 +36,14 @@ The WIZ752SR-125 evaluation board package contains the following parts.
 
 The entire list of parts of the board is available at the [WIZ752SR-125
 Overview: Product
-Contents](/products/s2e_module/wiz752sr-125/overview/en#product_contents)
+Contents](overview-[EN]#product-contents)
 page.
 
 ## Prerequisites for Setup
 
 ### Software
 
-  - Configuration tool program (\[\[|Download page\]\])
+  - Configuration tool program ([Download page](../../WIZ750SR/download))
   - TCP server / TCP client / UDP terminal program
   - Serial terminal program
 
@@ -182,10 +180,12 @@ below.
         serial interface card (DB9 connector). If the PC does support
         serial interface, use the RS-232 to USB converter.
 
+<!--
 |                                           |
 | ----------------------------------------- |
 | ![]()                                     |
 | Figure: **Combining WIZ752SR-125 module** |
+-->
 
 #### Step 2: Power on
 
@@ -266,6 +266,6 @@ Now you’re ready to use the WIZ752SR-125\!
 
 **If there is any problem?**  
 Please refer to our **[Troubleshooting
-Guide](trouble_shooting-[EN])**\!
+Guide](../../WIZ750SR/trouble_shooting-[EN])**\!
 
 -----

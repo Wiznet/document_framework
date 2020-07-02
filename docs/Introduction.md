@@ -51,7 +51,7 @@ application info.
 
 ### Open Source Hardware
 
-[Open Source Hardware Home](osh) - Materials and information on WIZnet
+[Open Source Hardware Home](Product/Open-Source-Hardware/Open_Source_Hardware.md) - Materials and information on WIZnet
 open source hardware products.
 
   - **[W5500 Ethernet Shield](Product/Open-Source-Hardware/W5500_Ethernet_Shield.md)**
@@ -76,7 +76,7 @@ open source hardware products.
 
 ### Application References
 
-  - [BLE to Ethernet](bletoethernet.md)
+  - [BLE to Ethernet](VAR-Products-using-WIZnet/ble_to_ethernet)
 
 
 ### External Links

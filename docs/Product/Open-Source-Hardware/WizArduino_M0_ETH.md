@@ -13,7 +13,7 @@ date: 2020-04-03
 WizArduino M0 ETH는 Arduino.org의 🌎[M0
 board](http://www.arduino.org/products/boards/arduino-m0)를 기반으로 🌎[W5500
 TCP/IP Embedded Ethernet
-Controller](http://wizwiki.net/wiki/doku.php?id=products:w5500:start) 가
+Controller](../iEthernet/W5500/overview) 가
 추가되어 Arduino UNO 플랫폼처럼 간단하면서도 IoT기능 구현을 위한 기본 기능을 가지고 있습니다.
 ![](/img/osh/wizarduino/m0_ethernetshield.png)
 

@@ -82,13 +82,10 @@ ARM mbed 사이트 자료들이다.
 
 위즈네트에서 운영하는 위즈위키 페이지의 자료들이다.
 
-  - [WIZnet WIZwiki-W7500 페이지](/products/wizwiki_w7500/start)
-
-
-
-   * [WIZwiki-W7500 Board 시작하기](../WIZwiki-W7500/how_to_start_wizwiki_w7500_board)
-   * [WIZwiki-W7500를 위한 시리얼드라이버 설치하기](../WIZwiki-W7500/how_to_install_wizwiki_7500_serial_driver)
-   * [WIZwiki-W7500에 Firmware 굽기](../WIZwiki-W7500/how_to_write_firmware_into_wizwiki_w7500)
+  - [WIZnet WIZwiki-W7500 페이지](../WIZwiki-W7500/overview)
+  - [WIZwiki-W7500 Board 시작하기](../WIZwiki-W7500/how_to_start_wizwiki_w7500_board)
+  - [WIZwiki-W7500를 위한 시리얼드라이버 설치하기](../WIZwiki-W7500/how_to_install_wizwiki_7500_serial_driver)
+  - [WIZwiki-W7500에 Firmware 굽기](../WIZwiki-W7500/how_to_write_firmware_into_wizwiki_w7500)
 
 
 #### 관련 페이지로 가기

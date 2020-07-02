@@ -1,6 +1,6 @@
 ---
 id: w7500p-s2e-[KO]
-title: W7500(P)-S2E
+title: W7500(P)-S2E (KO)
 date: 2020-04-07
 ---
 
@@ -10,8 +10,8 @@ date: 2020-04-07
 
 # Supported Languages  
  
-- [English](W7500(P)-S2E-[EN].md) 
-- [Korean](W7500(P)-S2E-[KO].md) (current page)
+- [English](w7500p-s2e-[EN]) 
+- [Korean](w7500p-s2e-[KO]) (current page)
 
 -----
 
@@ -106,37 +106,23 @@ MII supported for PHY interface
 
 [Product Overview](../../S2E-Module/WIZ750SR/WIZ750SR.md)
 
-[Getting Started Guide (English)](../../S2E-Module/WIZ750SR/Getting_Started-[EN].md)
+Getting Started Guide [(English)](../../S2E-Module/WIZ750SR/getting_started-[EN])/[(Korean)](../../S2E-Module/WIZ750SR/getting_started-[KO])
 
-[Getting Started Guide (Korean)](../../S2E-Module/WIZ750SR/Getting_Started-[KO].md)
+User's Manual [(English)](../../S2E-Module/WIZ750SR/users_manual-[EN])/[(Korean)](../../S2E-Module/WIZ750SR/users_manual-[KO])
 
-[User's Manual (English)](../../S2E-Module/WIZ750SR/User's_Manual-[EN].md)
+Configuration Tool Manual [(English)](../../S2E-Module/WIZ750SR/configuration_tool_manual-[EN])/[(Korean)](../../S2E-Module/WIZ750SR/configuration_tool_manual-[KO])
 
-[User's Manual (Korean)](../../S2E-Module/WIZ750SR/User's_Manual-[KO].md)
+Configuration Tool Manual New [(English)](../../S2E-Module/WIZ750SR/configuration_tool_manual_new-[EN])/[(Korean)](../../S2E-Module/WIZ750SR/configuration_tool_manual_new-[KO])
 
-[Configuration Tool Manual (English)](../../S2E-Module/WIZ750SR/Configuration_Tool_Manual-[EN].md)
+[CLI Config Tool Tutorial](../../S2E-Module/WIZ750SR/CLI_Config_Tool_Tutorial/cli_config_tool_tutorial)
 
-[Configuration Tool Manual (Korean)](../../S2E-Module/WIZ750SR/Configuration_Tool_Manual-[KO].md)
+Device Command Manual [(English)](../../S2E-Module/WIZ750SR/command_manual-[EN])/[(Korean)](../../S2E-Module/WIZ750SR/command_manual-[KO])
 
-[Configuration Tool Manual New (English)](../../S2E-Module/WIZ750SR/configuration_tool_manual_new-[EN].md)
+[Education Data](../../S2E-Module/WIZ750SR/education_data)
 
-[Configuration Tool Manual New (Korean)](../../S2E-Module/WIZ750SR/configuration_tool_manual_new-[KO].md)
+Troubleshooting Guide [(English)](../../S2E-Module/WIZ750SR/trouble_shooting-[EN])/[(Korean)](../../S2E-Module/WIZ750SR/trouble_shooting-[KO])
 
-[CLI Config Tool Tutorial](../../S2E-Module/WIZ750SR/CLI_Config_Tool_Tutorial.md)
-
-[Device Command Manual (English)](../../S2E-Module/WIZ750SR/Command_Manual-[EN].md)
-
-[Device Command Manual (Korean)](../../S2E-Module/WIZ750SR/Command_Manual-[KO].md)
-
-[Education Data](../../S2E-Module/WIZ750SR/Education_Data.md)
-
-[Troubleshooting Guide (English)](../../S2E-Module/WIZ750SR/Trouble_Shooting-[EN].md)
-
-[Troubleshooting Guide (Korean)](../../S2E-Module/WIZ750SR/Trouble_Shooting-[KO].md)
-
-[Update History (English)](../../S2E-Module/WIZ750SR/Series_Update_History-[EN].md)
-
-[Update History (Korean)](../../S2E-Module/WIZ750SR/Series_Update_History-[KO].md)
+Update History [(English)](../../S2E-Module/WIZ750SR/series_update_history-[EN])/[(Korean)](../../S2E-Module/WIZ750SR/series_update_history-[KO])
 
 
 ## Datasheet
@@ -147,9 +133,7 @@ MII supported for PHY interface
 
 ## Developer's Guide
 
-**[Developer's Guide (English)](../../S2E-Module/WIZ750SR/Developer's_Guide-[EN].md)**
-
-**[Developer's Guide (Korean)](../../S2E-Module/WIZ750SR/Developer's_Guide-[KO].md)**
+**Developer's Guide [(English)](../../S2E-Module/WIZ750SR/developers_guide-[EN])/[(Korean)](../../S2E-Module/WIZ750SR/developers_guide-[KO])**
 
 -----
 

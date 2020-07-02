@@ -4,10 +4,6 @@ title: Developer's Guide-[EN]
 date: 2020-04-08
 ---
 
-
-
-# WIZ750SR Developer's Guide
-
 **Supported Languages**  
 [English](developers_guide-[EN]) (current page)  
 [Korean](developers_guide-[KO])

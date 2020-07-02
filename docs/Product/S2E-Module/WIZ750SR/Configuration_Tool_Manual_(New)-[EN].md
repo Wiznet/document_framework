@@ -4,10 +4,6 @@ title: Configuration Tool Manual (New)-[EN]
 date: 2020-04-08
 ---
 
-
-
-# WIZ750SR Series Configuration Tool Manual (New)
-
 **Supported Languages** 
   * [English](configuration_tool_manual_new-[EN]) (current page)  
   * [Korean](configuration_tool_manual_new-[KO])
@@ -46,22 +42,22 @@ The list of products supported by WIZnet-S2E-Tool-GUI is as follows.
 
 #### 1 Port Serial to Ethernet Module
 
-  - [WIZ750SR](http://wizwiki.net/wiki/doku.php?id=products:wiz750sr:start)
+  - [WIZ750SR](wiz750sr)
   - [WIZ750SR](https://github.com/Wiznet/WIZ750SR)
-  - [WIZ750SR-100](http://wizwiki.net/wiki/doku.php?id=products:wiz750sr-100:start)
-  - [WIZ750SR-105](http://wizwiki.net/wiki/doku.php?id=products:wiz750sr-105:start)
-  - [WIZ750SR-110](http://wizwiki.net/wiki/doku.php?id=products:wiz750sr-110:start)
+  - [WIZ750SR-100](../WIZ750SR-1xx-Series/WIZ750SR-100/wiz750sr_100)
+  - [WIZ750SR-105](../WIZ750SR-1xx-Series/WIZ750SR-105/wiz750sr_105)
+  - [WIZ750SR-110](../WIZ750SR-1xx-Series/WIZ750SR-110/wiz750sr_110)
   - [WIZ107SR](http://www.wiznet.io/product-item/wiz107sr/)
   - [WIZ108SR](http://www.wiznet.io/product-item/wiz108sr/)
 
 #### 2 Port Serial to Ethernet Module
 
-  - [WIZ752SR-120](https://wizwiki.net/wiki/doku.php?id=products:s2e_module:wiz752sr-120:start)
-  - [WIZ752SR-125](https://wizwiki.net/wiki/doku.php?id=products:s2e_module:wiz752sr-125:start)
+  - [WIZ752SR-120](../WIZ752SR-12x-Series/WIZ752SR-120/wiz752sr_120)
+  - [WIZ752SR-125](../WIZ752SR-12x-Series/WIZ752SR-125/wiz752sr_125)
 
 #### Pre-programmed MCU
 
-  - [W7500(P)-S2E](http://wizwiki.net/wiki/doku.php?id=products:w7500x-s2e:en)
+  - [W7500(P)-S2E](../../Pre-programmed-MCU/W7500P-S2E/w7500p-s2e-[EN])
 
 -----
 
@@ -71,7 +67,7 @@ The list of products supported by WIZnet-S2E-Tool-GUI is as follows.
 2.  If user has used either WIZ107/108SR, the same program can be used
     for WIZ750SR.
     
-    ## Configuration Tool Layout
+## Configuration Tool Layout
 
 |                                                                       |
 | --------------------------------------------------------------------- |
@@ -602,31 +598,19 @@ Guide](trouble_shooting-[EN])**\!
 
  **WIZ750SR** 
 
-  - **[User's Manual (English)](users_manual-[EN])** 
-  - **[User's Manual (Korean)](users_manual-[KO])**
-
-
-
-  - **[Device Command Manual (English)](Command_Manual-[EN])**
-  - **[Device Command Manual (Korean)](Command_Manual-[KO])**
-
-
-
-  - **[Troubleshooting Guide (English)](Trouble_Shooting-[EN])**
-  - **[Troubleshooting Guide (Korean)](Trouble_Shooting-[KO])**
-
-
-
-  - **[Update History (English)](Series_Update_History-[EN])**
-  - **[Update History (Korean)](Series_Update_History-[KO])**
-
+  - **User's Manual [(English)](users_manual-[EN])/[(Korean)](users_manual-[KO])** 
+  
+  - **Device Command Manual [(English)](Command_Manual-[EN])/[(Korean)](Command_Manual-[KO])**
+  
+  - **Troubleshooting Guide [(English)](Trouble_Shooting-[EN])/[(Korean)](Trouble_Shooting-[KO])**
+  
+  - **Update History [(English)](Series_Update_History-[EN])/[(Korean)](Series_Update_History-[KO])**
+  
 -----
 
 **WIZ750SR series Downloads** 
 
   - **[Software Download](Download)**
-
-
 
   - **[Technical References](Technical_References)**
 

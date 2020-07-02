@@ -760,7 +760,7 @@ Password : Setting Password
 
 ☞ WIZ550SR Configure tool is not supported TFTP server. So you use TFTP
 program separately.  
-more detail : ![F/W Upload using TFTP Guide](/http///wizwiki.net/wiki/lib/exe/fetch.php)  
+<!--more detail : [F/W Upload using TFTP Guide](/http///wizwiki.net/wiki/lib/exe/fetch.php)  -->
 
 ### Reset
 
