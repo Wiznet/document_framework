@@ -4,8 +4,6 @@ title: AT Commands
 date: 2020-04-15
 ---
 
-# AT Command Set
-
 This section provides a list of WizFi310 AT commands and their effects.
 Users can input commands and parameters through UART line. Every command
 starts with the characters “AT”. Any other initial character will cause
@@ -1719,7 +1717,7 @@ Examples)
 
  User can update firmware in OTA mode
 which can be entered by this command. Refer to [Wi-Fi
-OTA](/products/WizFi310/WizFi310pg/firmware_upgrade-wifi_ota)
+OTA](firmware_upgrade_using_ota)
 
 OTA Server should run some protocol. that included in OTA tool.
 
@@ -1744,7 +1742,7 @@ objects with the external, and it is used as a sensor.
 
 [Wikipedia](https://en.wikipedia.org/wiki/MQTT)  
   
-[WizFi310 MQTT Example](/products/wizfi310/wizfi310pg/mqtt)  
+[WizFi310 MQTT Example](examples#example---mqtt)  
 
 ----
 
@@ -1875,8 +1873,6 @@ Topic (Required)
 
 &#60;Topic&#62;: Themes subscribed by the WizFi310 (Required, Max: 64
 Character)  
-- You can refer the [topic
-rules](/products/WizFi310/WizFi310pg/at_command_set-mqtt_topic_rules)  
     
 Examples)
 
@@ -2118,7 +2114,7 @@ Examples)
   
 ThingPlug는 SK Telecom의 IoT 플랫폼으로, oneM2M 표준 기반의 IoT 서비스를 제공합니다.  
   
-[Connecting ThingPlug Example](/products/wizfi310/wizfi310pg/ThingPlug)  
+[Connecting ThingPlug Example](thingplug_example)  
 
 ----
 

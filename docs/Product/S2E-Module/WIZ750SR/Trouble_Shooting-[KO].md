@@ -92,7 +92,7 @@ date: 2020-04-08
     정보 펼치기
 2.  'Firmware version' 항목 확인
 
-  - 최신 펌웨어 버전은 [제품 업데이트 히스토리 페이지](/products/wiz750sr/history/ko)와 [다운로드
+  - 최신 펌웨어 버전은 [제품 업데이트 히스토리 페이지](series_update_history-[KO])와 [다운로드
     페이지](download) 에서 확인 할 수 있습니다.
 
 </details>

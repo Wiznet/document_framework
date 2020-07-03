@@ -184,7 +184,7 @@ This pin also serves as the RS485 control.</td>
 
 | Item      | Version | Partlist                                                             | PCB                                                                              |
 | --------- | ------- | -------------------------------------------------------------------- | -------------------------------------------------------------------------------- |
-| WIZ550S2E | 1.1     | [Partlist\_PDF](/products/wiz550s2e/wiz550s2e_ver1.1_pl_150916.pdf) | [WIZ550S2E\_v1.1\_PCB](/img/products/wiz550s2e/wiz550s2eds_kr/wiz550s2e_v1.1.1.zip) |
+| WIZ550S2E | 1.1     | [Partlist_PDF](/img/products/wiz550s2e/wiz550s2e_ver1.1_pl_150916.pdf) | [WIZ550S2E\_v1.1\_PCB](/img/products/wiz550s2e/wiz550s2eds_kr/wiz550s2e_v1.1.1.zip) |
 | WIZ550S2E | 1.2     | :::                                                                  | [WIZ550S2E\_v1.2\_PCB](/img/products/wiz550s2e/wiz550s2eds_kr/wiz550s2e_v1.2.zip)   |
 
   - Rev 1.1 Update Schematic

@@ -20,7 +20,7 @@ below.
 4.  Retry Count Register (RCR)
 
 For more Information of above Registers, refer to the “Register
-Descriptions” in [W5100S Datasheet](/products/w5100s/datasheet).
+Descriptions” in [W5100S Datasheet](../document).
 
 ### Setting Network Information
 

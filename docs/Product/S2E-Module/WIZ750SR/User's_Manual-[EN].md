@@ -400,8 +400,8 @@ Data packing options can be multi-selected but has priority as shown below.
 
 There are two methods for the various option settings of WIZ750SR’s serial to Ethernet operation.
 
-  - **[Setting using the configuration tool](/products/wiz750sr/configtoolmanual/en) (network)**
-  - **[Setting using the command set](/products/wiz750sr/commandmanual/en) (serial / network)**
+  - **[Setting using the configuration tool](configuration_tool_manual_new-[EN]) (network)**
+  - **[Setting using the command set](command_manual-[EN]) (serial / network)**
 
 For more information, please refer to above document links.
 
@@ -412,7 +412,7 @@ Please refer to our **[Troubleshooting Guide](trouble_shooting-[EN])**!
 
 -----
 
-1.  Settings of configuration tool and command set are compatible to the settings of WIZ107/108SR except the unused and altered command information described in the [WIZ750SR Command Manual](/products/wiz750sr/commandmanual/en).
+1.  Settings of configuration tool and command set are compatible to the settings of WIZ107/108SR except the unused and altered command information described in the [WIZ750SR Command Manual](command_manual-[EN]).
     
 ## Navigation
 

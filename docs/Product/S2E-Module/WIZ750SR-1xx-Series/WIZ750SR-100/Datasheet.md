@@ -234,17 +234,17 @@ TCP connection indicate</td>
 
 | H/W version | Type | Filetype | Download Link                                                                                                                           | Remarks |
 | ----------- | ---- | -------- | --------------------------------------------------------------------------------------------------------------------------------------- | ------- |
-| 1.0         | TTL  | Altium   | ![](/img/products/w5500/w5500_evb/icons/download.png) [Download](/products/wiz750sr-100/datasheet/wiz750sr-100_v1.0_wiki_upload_files.zip) | \-      |
-| :::         | :::  | PDF      | ![](/img/products/w5500/w5500_evb/icons/download.png) [Download](/products/wiz750sr-100/datasheet/wiz750sr-100_v2.pdf)                     | \-      |
-| 1.1         | TTL  | Altium   | ![](/img/products/w5500/w5500_evb/icons/download.png) [Download](/products/wiz750sr-100/datasheet/wiz750sr-100_v1.1_wiki_upload_files.zip) | \-      |
-| :::         | :::  | PDF      | ![](/img/products/w5500/w5500_evb/icons/download.png) [Download](/products/wiz750sr-100/datasheet/wiz750sr-100_rev1.1.pdf)                 | \-      |
+| 1.0         | TTL  | Altium   | ![](/img/products/w5500/w5500_evb/icons/download.png) [Download](/img/products/wiz750sr-100/datasheet/wiz750sr-100_v1.0_wiki_upload_files.zip) | \-      |
+| :::         | :::  | PDF      | ![](/img/products/w5500/w5500_evb/icons/download.png) [Download](/img/products/wiz750sr-100/datasheet/wiz750sr-100_v2.pdf)                     | \-      |
+| 1.1         | TTL  | Altium   | ![](/img/products/w5500/w5500_evb/icons/download.png) [Download](/img/products/wiz750sr-100/datasheet/wiz750sr-100_v1.1_wiki_upload_files.zip) | \-      |
+| :::         | :::  | PDF      | ![](/img/products/w5500/w5500_evb/icons/download.png) [Download](/img/products/wiz750sr-100/datasheet/wiz750sr-100_rev1.1.pdf)                 | \-      |
 
 ### WIZ750SR-EVB
 
 | H/W version | Type  | Filetype | Download Link                                                                                                                 | Remarks |
 | ----------- | ----- | -------- | ----------------------------------------------------------------------------------------------------------------------------- | ------- |
-| 1.0         | RS232 | Altium   | ![](/img/products/w5500/w5500_evb/icons/download.png) [Download](/products/wiz750sr-100/datasheet/wiz750sr-100-evb_sch_v1.0.zip) | \-      |
-| :::         | :::   | PDF      | ![](/img/products/w5500/w5500_evb/icons/download.png) [Download](/products/wiz750sr-100/datasheet/wiz750sr-100-evb.pdf)          | \-      |
+| 1.0         | RS232 | Altium   | ![](/img/products/w5500/w5500_evb/icons/download.png) [Download](/img/products/wiz750sr-100/datasheet/wiz750sr-100-evb_sch_v1.0.zip) | \-      |
+| :::         | :::   | PDF      | ![](/img/products/w5500/w5500_evb/icons/download.png) [Download](/img/products/wiz750sr-100/datasheet/wiz750sr-100-evb.pdf)          | \-      |
 
 -----
 
@@ -254,17 +254,17 @@ TCP connection indicate</td>
 
 | H/W version | Type | Filetype | Download Link                                                                                                                     | Remarks |
 | ----------- | ---- | -------- | --------------------------------------------------------------------------------------------------------------------------------- | ------- |
-| 1.0         | TTL  | Excel    | ![](/img/products/w5500/w5500_evb/icons/download.png) [Download](/products/wiz750sr-100/datasheet/wiz750sr-100_v1.1_pl_20171215.xls) |         |
-| :::         | :::  | PDF      | ![](/img/products/w5500/w5500_evb/icons/download.png) [Download](/products/wiz750sr-100/datasheet/wiz750sr-100_v1.1_pl_20171215.pdf) |         |
-| 1.1         | TTL  | Excel    | ![](/img/products/w5500/w5500_evb/icons/download.png) [Download](/products/wiz750sr-100/datasheet/wiz750sr-100_v110_pl_20180417.xls) |         |
-| :::         | :::  | PDF      | ![](/img/products/w5500/w5500_evb/icons/download.png) [Download](/products/wiz750sr-100/datasheet/wiz750sr-100_v110_pl_20180417.pdf) |         |
+| 1.0         | TTL  | Excel    | ![](/img/products/w5500/w5500_evb/icons/download.png) [Download](/img/products/wiz750sr-100/datasheet/wiz750sr-100_v1.1_pl_20171215.xls) |         |
+| :::         | :::  | PDF      | ![](/img/products/w5500/w5500_evb/icons/download.png) [Download](/img/products/wiz750sr-100/datasheet/wiz750sr-100_v1.1_pl_20171215.pdf) |         |
+| 1.1         | TTL  | Excel    | ![](/img/products/w5500/w5500_evb/icons/download.png) [Download](/img/products/wiz750sr-100/datasheet/wiz750sr-100_v110_pl_20180417.xls) |         |
+| :::         | :::  | PDF      | ![](/img/products/w5500/w5500_evb/icons/download.png) [Download](/img/products/wiz750sr-100/datasheet/wiz750sr-100_v110_pl_20180417.pdf) |         |
 
 ### WIZ750SR-100-EVB
 
 | H/W version | Type | Filetype | Download Link                                                                                                                         | Remarks |
 | ----------- | ---- | -------- | ------------------------------------------------------------------------------------------------------------------------------------- | ------- |
-| 1.0         | TTL  | Excel    | ![](/img/products/w5500/w5500_evb/icons/download.png) [Download](/products/wiz750sr-100/datasheet/wiz750sr-100_evb_v1.1_pl_20171215.xls) |         |
-| :::         | :::  | PDF      | ![](/img/products/w5500/w5500_evb/icons/download.png) [Download](/products/wiz750sr-100/datasheet/wiz750sr-100_evb_v1.1_pl_20171215.pdf) |         |
+| 1.0         | TTL  | Excel    | ![](/img/products/w5500/w5500_evb/icons/download.png) [Download](/img/products/wiz750sr-100/datasheet/wiz750sr-100_evb_v1.1_pl_20171215.xls) |         |
+| :::         | :::  | PDF      | ![](/img/products/w5500/w5500_evb/icons/download.png) [Download](/img/products/wiz750sr-100/datasheet/wiz750sr-100_evb_v1.1_pl_20171215.pdf) |         |
 
 -----
 

@@ -4,9 +4,6 @@ title: WIZ550S2E
 date: 2020-03-
 ---
 
-
-# WIZ550S2E
-
 WIZ550S2E is a gateway module that converts serial protocol
 (RS-232/422/485) into TCP/IP protocol. This module enables remote
 gauging, remote management of the device through the network based on

@@ -7,9 +7,8 @@ date: 2020-04-07
 # W5500S2E-Z1 Product Overview
 
 **Supported Languages**  
- * [English](Overview-[EN].md)  
- * [Korean](/products/w5500s2e-z1/overview/ko) (current page)
-
+ * [English](overview-[EN])  
+ 
 -----
 
 ## Overview

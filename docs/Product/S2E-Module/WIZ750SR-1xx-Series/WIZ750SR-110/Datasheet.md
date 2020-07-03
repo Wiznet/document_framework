@@ -143,8 +143,8 @@ D-sub9 Connector(RS-232C)</td>
 
 | H/W version | Type  | Filetype | Download Link                                                                                                                | Remarks |
 | ----------- | ----- | -------- | ---------------------------------------------------------------------------------------------------------------------------- | ------- |
-| 1.0         | RS232 | Altium   | ![](/img/products/w5500/w5500_evb/icons/download.png) [Download](/products/wiz750sr-110/datasheet/wiz750sr-110_v1.0_altium.zip) | \-      |
-| :::         | :::   | PDF      | ![](/img/products/w5500/w5500_evb/icons/download.png) [Download](/products/wiz750sr-110/datasheet/wiz750sr-110.pdf)             | \-      |
+| 1.0         | RS232 | Altium   | ![](/img/products/w5500/w5500_evb/icons/download.png) [Download](/img/products/wiz750sr-110/datasheet/wiz750sr-110_v1.0_altium.zip) | \-      |
+| :::         | :::   | PDF      | ![](/img/products/w5500/w5500_evb/icons/download.png) [Download](/img/products/wiz750sr-110/datasheet/wiz750sr-110.pdf)             | \-      |
 
 -----
 
@@ -154,8 +154,8 @@ D-sub9 Connector(RS-232C)</td>
 
 | H/W version | Type  | Filetype | Download Link                                                                                                                     | Remarks |
 | ----------- | ----- | -------- | --------------------------------------------------------------------------------------------------------------------------------- | ------- |
-| 1.0         | RS232 | Excel    | ![](/img/products/w5500/w5500_evb/icons/download.png) [Download](/products/wiz750sr-110/datasheet/wiz750sr-110_v1.0_pl_20171227.xls) | \-      |
-| :::         | :::   | PDF      | ![](/img/products/w5500/w5500_evb/icons/download.png) [Download](/products/wiz750sr-110/datasheet/wiz750sr-110_v1.0_pl_20171227.pdf) | \-      |
+| 1.0         | RS232 | Excel    | ![](/img/products/w5500/w5500_evb/icons/download.png) [Download](/img/products/wiz750sr-110/datasheet/wiz750sr-110_v1.0_pl_20171227.xls) | \-      |
+| :::         | :::   | PDF      | ![](/img/products/w5500/w5500_evb/icons/download.png) [Download](/img/products/wiz750sr-110/datasheet/wiz750sr-110_v1.0_pl_20171227.pdf) | \-      |
 
 -----
 

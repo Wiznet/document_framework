@@ -4,12 +4,6 @@ title: WIZ750SR-1xx Series
 date: 2020-04-08
 ---
 
-
-
-# WIZ750SR-1xx Series
-
------
-
 ## Overview
 
 WIZ750SR-1xx Series is 1-port serial to Ethernet converting module using

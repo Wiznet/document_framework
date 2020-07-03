@@ -94,7 +94,7 @@ Therefore, Write firmware must use the program provided by STmicro.
 <http://www.wiznet.co.kr/product/serial-to-ethernet>**
 
 **WIZnet WIZ VSP**  
-[WIZ VSP Program (zip)](/products/wiz750sr/wizvsp_tool.zip)
+[WIZ VSP Program (zip)](/img/products/wiz750sr/wizvsp_tool.zip)
 
 -----
 

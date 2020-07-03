@@ -139,9 +139,9 @@ Comparison Sheet** provides comparison with ESP8266 AT command.
 
 ### Reliability Test Report
 
-  - [KORAS Operation Test - Korean](/products/wizfi360/wizfi360ds/2019-0004k_wizfi360pa_koras_동작_시험성적서_60068-2-1_2-2_2-14_한글.pdf)
+  - [KORAS Operation Test - Korean](/img/products/wizfi360/wizfi360ds/2019-0004k_wizfi360pa_koras_동작_시험성적서_60068-2-1_2-2_2-14_한글.pdf)
   - [KORAS Operation Test - English](/img/products/wizfi360/wizfi360ds/2019-0005k_wizfi360pa_koras_operation_test_report_60068-2-1_2-2_2-14_en.pdf)
-  - [KETI Operation Test - Korean](/products/wizfi360/wizfi360ds/2019-0478F%20WizFi360PA_동작%20시험성적서_\(저온,고온,온습도,온습도사이클,온도변화\)_한글.pdf)
+  - [KETI Operation Test - Korean](/img/products/wizfi360/wizfi360ds/2019-0478F%20WizFi360PA_동작%20시험성적서_\(저온,고온,온습도,온습도사이클,온도변화\)_한글.pdf)
   - [KETI Operation Test - English](/img/products/wizfi360/wizfi360ds/2019-0479f_wizfi360pa_operation_test_report_reliability_test_en.pdf)
 
 | Date    | Decription |

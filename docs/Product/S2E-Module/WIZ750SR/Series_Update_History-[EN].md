@@ -5,8 +5,8 @@ date: 2020-04-08
 ---
 
 **Supported Languages**
-\* [English](/products/wiz750sr/history/en) (current page)  
-\* [Korean](/products/wiz750sr/history/ko)
+[English](series_update_history-[EN]) (current page)  
+[Korean](series_update_history-[KO])
 
 ## Firmware
 

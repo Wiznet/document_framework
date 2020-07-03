@@ -30,7 +30,7 @@ core. We use EMF32TG840F32 in EFM32TG family. Its SPEC is as follows.
 
 ## Preparation for adding W5500
 
-  - [WIZ550io](/products/wiz550io/start) or [ioShileds](/ioshield)
+  - [WIZ550io](../..ioModule/WIZ550io/overview) or [ioShileds](oshield_a)
   - Tiny Gecko Starter Kit
 
 
@@ -44,7 +44,7 @@ core. We use EMF32TG840F32 in EFM32TG family. Its SPEC is as follows.
 
 
 
-  - [Download the latest ioLibrary BSD](/products/w5500/driver)
+  - [Download the latest ioLibrary BSD](../../iMCU/W5500/driver)
       - Ethernet
       - Internet 
 

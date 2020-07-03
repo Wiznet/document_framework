@@ -69,4 +69,4 @@ date: 2020-04-24
   - Data Mode : Data Mode is the mode which passes data of application
     layers to peer-device directly, without commands.
   - For more information, Refer to [Command mode & Data
-    mode](/products/wizfi250/wizfi250pg/at_command_set-cmd_data_mode).
+    mode](at_command_set#cmd-data-mode).

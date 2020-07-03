@@ -14,149 +14,149 @@ module.exports = {
         type: 'category',
         label: 'iMCU',
         items: [
-		{
-        type: 'category',
-        label: 'W7500',
-        items: [
-		'Product/iMCU/W7500/overview',
-		'Product/iMCU/W7500/pin_assignment',
-		'Product/iMCU/W7500/system_and_memory',
-		'Product/iMCU/W7500/interrupt_and_event',
-		'Product/iMCU/W7500/power_supply',
-		'Product/iMCU/W7500/booting_sequence',
-		'Product/iMCU/W7500/electrical_characteristics_w7500',
-		'Product/iMCU/W7500/w7500_ref_schematic',
-		'Product/iMCU/W7500/documents_md',
-		'Product/iMCU/W7500/peripherals',
-		'Product/iMCU/W7500/libraries_examples',
-		//'Product/iMCU/W7500/all_pages'
-		],
-		},
-		{
-        type: 'category',
-        label: 'W7500P',
-        items: [
-		'Product/iMCU/W7500P/overview',
-		'Product/iMCU/W7500P/pin_assignment',
-		'Product/iMCU/W7500P/system_and_memory',
-		'Product/iMCU/W7500P/interrupt_and_event',
-		'Product/iMCU/W7500P/power_supply',
-		'Product/iMCU/W7500P/booting_sequence',
-		'Product/iMCU/W7500P/electrical_characteristics',
-		'Product/iMCU/W7500P/w7500p_ref_schematic',
-		'Product/iMCU/W7500P/documents',
-		'Product/iMCU/W7500P/peripherals',
-		'Product/iMCU/W7500P/libraries_examples',
-		//'Product/iMCU/W7500P/all_pages'
-		],
-		},
-		{
-			type: 'link',
-			label: 'W7100A(Link)', // string - the label that should be displayed.
-			href: 'http://www.wiznet.io/product-item/w7100a/' // string - the target URL.
-		}
+			{
+			type: 'category',
+			label: 'W7500',
+			items: [
+				'Product/iMCU/W7500/overview',
+				'Product/iMCU/W7500/pin_assignment',
+				'Product/iMCU/W7500/system_and_memory',
+				'Product/iMCU/W7500/interrupt_and_event',
+				'Product/iMCU/W7500/power_supply',
+				'Product/iMCU/W7500/booting_sequence',
+				'Product/iMCU/W7500/electrical_characteristics_w7500',
+				'Product/iMCU/W7500/w7500_ref_schematic',
+				'Product/iMCU/W7500/documents_md',
+				'Product/iMCU/W7500/peripherals',
+				'Product/iMCU/W7500/libraries_examples',
+				//'Product/iMCU/W7500/all_pages'
+			],
+			},
+			{
+			type: 'category',
+			label: 'W7500P',
+			items: [
+				'Product/iMCU/W7500P/overview',
+				'Product/iMCU/W7500P/pin_assignment',
+				'Product/iMCU/W7500P/system_and_memory',
+				'Product/iMCU/W7500P/interrupt_and_event',
+				'Product/iMCU/W7500P/power_supply',
+				'Product/iMCU/W7500P/booting_sequence',
+				'Product/iMCU/W7500P/electrical_characteristics',
+				'Product/iMCU/W7500P/w7500p_ref_schematic',
+				'Product/iMCU/W7500P/documents',
+				'Product/iMCU/W7500P/peripherals',
+				'Product/iMCU/W7500P/libraries_examples',
+				//'Product/iMCU/W7500P/all_pages'
+			],
+			},
+			{
+				type: 'link',
+				label: 'W7100A(Link)', // string - the label that should be displayed.
+				href: 'http://www.wiznet.io/product-item/w7100a/' // string - the target URL.
+			}
 		],
     },
 	{
         type: 'category',
         label: 'Pre-programmed MCU',
         items: [
-		'Product/Pre-programmed-MCU/pre_programmed_mcu',
-		'Product/Pre-programmed-MCU/W7500P-S2E/w7500p-s2e-[KO]',
-		'Product/Pre-programmed-MCU/W7500P-S2E/w7500p-s2e-[EN]',
+			'Product/Pre-programmed-MCU/pre_programmed_mcu',
+			'Product/Pre-programmed-MCU/W7500P-S2E/w7500p-s2e-[KO]',
+			'Product/Pre-programmed-MCU/W7500P-S2E/w7500p-s2e-[EN]',
 		],
     },
 	{
         type: 'category',
         label: 'iEthernet',
-        items: [
-		'Product/iEthernet/iethernet',
-		{
-        type: 'category',
-        label: 'W6100',
-        items: [
-		'Product/iEthernet/W6100/overview',
-		'Product/iEthernet/W6100/document',
-		'Product/iEthernet/W6100/driver_basic_project',
-		'Product/iEthernet/W6100/ref_schematic',
-		'Product/iEthernet/W6100/application_note',
-		'Product/iEthernet/W6100/w6100_evb'
-		],
-		},
-		{
-        type: 'category',
-        label: 'W5100S',
-        items: [
-		'Product/iEthernet/W5100S/overview',
-		'Product/iEthernet/W5100S/document',
-		'Product/iEthernet/W5100S/driver',
-		'Product/iEthernet/W5100S/ref_schematic',
-		'Product/iEthernet/W5100S/comparison_sheet',
-		{
-        type: 'category',
-        label: 'Application Note',
-        items: [
-		'Product/iEthernet/W5100S/Application-Note/tcp',
-		'Product/iEthernet/W5100S/Application-Note/udp',
-		'Product/iEthernet/W5100S/Application-Note/ipraw',
-		'Product/iEthernet/W5100S/Application-Note/pppoe',
-		'Product/iEthernet/W5100S/Application-Note/socket_less_command',
-		'Product/iEthernet/W5100S/Application-Note/interrupt',
-		'Product/iEthernet/W5100S/Application-Note/dma',
-		],
-		},
-		//'Product/iEthernet/W5100S/all_pages',
-		'Product/iEthernet/W5100S/w5100s_evb'
-		],
-		},
-		{
-        type: 'category',
-        label: 'W5500',
-        items: [
-		'Product/iEthernet/W5500/overview',
-		'Product/iEthernet/W5500/datasheet',
-		'Product/iEthernet/W5500/driver',
-		'Product/iEthernet/W5500/ref_schematic',
-		'Product/iEthernet/W5500/migration_from_w5200',
-		{
-        type: 'category',
-        label: 'Application',
-        items: [
-		'Product/iEthernet/W5500/Application/tcp',
-		'Product/iEthernet/W5500/Application/udp',
-		'Product/iEthernet/W5500/Application/ipraw',
-		'Product/iEthernet/W5500/Application/pppoe',
-		'Product/iEthernet/W5500/Application/spi_performance'
-		],
-		},
-		'Product/iEthernet/W5500/esd_test_document',
-		//'Product/iEthernet/W5500/all_pages',
-		{
-        type: 'category',
-        label: 'W5500-EVB',
-        items: [
-		'Product/iEthernet/W5500/W5500-EVB/w5500_evb',
-		'Product/iEthernet/W5500/W5500-EVB/getting_started',
-		'Product/iEthernet/W5500/W5500-EVB/make_new_projects',
-		],
-		}
-		],
-		},
-		{
-			type: 'link',
-			label: 'W5300(Link)', // string - the label that should be displayed.
-			href: 'http://www.wiznet.io/product-item/w5300/' // string - the target URL.
-		},
-		{
-			type: 'link',
-			label: 'W5100(Link)', // string - the label that should be displayed.
-			href: 'https://www.wiznet.io/product-item/w5100/' // string - the target URL.
-		},
-		{
-			type: 'link',
-			label: 'W3150A+(Link)', // string - the label that should be displayed.
-			href: 'https://www.wiznet.io/product-item/w3150a+/' // string - the target URL.
-		}
+			items: [
+			'Product/iEthernet/iethernet',
+			{
+			type: 'category',
+			label: 'W6100',
+			items: [
+				'Product/iEthernet/W6100/overview',
+				'Product/iEthernet/W6100/document',
+				'Product/iEthernet/W6100/driver_basic_project',
+				'Product/iEthernet/W6100/ref_schematic',
+				'Product/iEthernet/W6100/application_note',
+				'Product/iEthernet/W6100/w6100_evb'
+			],
+			},
+			{
+			type: 'category',
+			label: 'W5100S',
+			items: [
+				'Product/iEthernet/W5100S/overview',
+				'Product/iEthernet/W5100S/document',
+				'Product/iEthernet/W5100S/driver',
+				'Product/iEthernet/W5100S/ref_schematic',
+				'Product/iEthernet/W5100S/comparison_sheet',
+			{
+			type: 'category',
+			label: 'Application Note',
+			items: [
+				'Product/iEthernet/W5100S/Application-Note/tcp',
+				'Product/iEthernet/W5100S/Application-Note/udp',
+				'Product/iEthernet/W5100S/Application-Note/ipraw',
+				'Product/iEthernet/W5100S/Application-Note/pppoe',
+				'Product/iEthernet/W5100S/Application-Note/socket_less_command',
+				'Product/iEthernet/W5100S/Application-Note/interrupt',
+				'Product/iEthernet/W5100S/Application-Note/dma',
+			],
+			},
+			//'Product/iEthernet/W5100S/all_pages',
+				'Product/iEthernet/W5100S/w5100s_evb'
+			],
+			},
+			{
+			type: 'category',
+			label: 'W5500',
+			items: [
+				'Product/iEthernet/W5500/overview',
+				'Product/iEthernet/W5500/datasheet',
+				'Product/iEthernet/W5500/driver',
+				'Product/iEthernet/W5500/ref_schematic',
+				'Product/iEthernet/W5500/migration_from_w5200',
+			{
+			type: 'category',
+			label: 'Application',
+			items: [
+				'Product/iEthernet/W5500/Application/tcp',
+				'Product/iEthernet/W5500/Application/udp',
+				'Product/iEthernet/W5500/Application/ipraw',
+				'Product/iEthernet/W5500/Application/pppoe',
+				'Product/iEthernet/W5500/Application/spi_performance'
+			],
+			},
+				'Product/iEthernet/W5500/esd_test_document',
+				//'Product/iEthernet/W5500/all_pages',
+			{
+			type: 'category',
+			label: 'W5500-EVB',
+			items: [
+				'Product/iEthernet/W5500/W5500-EVB/w5500_evb',
+				'Product/iEthernet/W5500/W5500-EVB/getting_started',
+				'Product/iEthernet/W5500/W5500-EVB/make_new_projects',
+			],
+			}
+			],
+			},
+			{
+				type: 'link',
+				label: 'W5300(Link)', // string - the label that should be displayed.
+				href: 'http://www.wiznet.io/product-item/w5300/' // string - the target URL.
+			},
+			{
+				type: 'link',
+				label: 'W5100(Link)', // string - the label that should be displayed.
+				href: 'https://www.wiznet.io/product-item/w5100/' // string - the target URL.
+			},
+			{
+				type: 'link',
+				label: 'W3150A+(Link)', // string - the label that should be displayed.
+				href: 'https://www.wiznet.io/product-item/w3150a+/' // string - the target URL.
+			}
 		],
     },
 	{
@@ -164,30 +164,9 @@ module.exports = {
         label: 'S2E Module',
         items: [
 		'Product/S2E-Module/s2e_module',
-		{
-        type: 'category',
-        label: 'W7500S2E-R1',
-        items: [
-		//'Product/S2E-Module/W7500S2E-R1/overview-[EN]',
-		'Product/S2E-Module/W7500S2E-R1/w7500s2e_r1'
-		],
-		},
-		{
-        type: 'category',
-        label: 'W5500S2E-S1',
-        items: [
-		//'Product/S2E-Module/W5500S2E-S1/overview-[EN]',
-		'Product/S2E-Module/W5500S2E-S1/w5500s2e_s1'
-		],
-		},
-		{
-        type: 'category',
-        label: 'W5500S2E-Z1',
-        items: [
-		//'Product/S2E-Module/W5500S2E-Z1/overview-[EN]',
-		'Product/S2E-Module/W5500S2E-Z1/w5500s2e_z1'
-		],
-		},
+		'Product/S2E-Module/W7500S2E-R1/w7500s2e_r1',
+		'Product/S2E-Module/W5500S2E-S1/w5500s2e_s1',
+		'Product/S2E-Module/W5500S2E-Z1/w5500s2e_z1',
 		{
         type: 'category',
         label: 'WIZ750SR',

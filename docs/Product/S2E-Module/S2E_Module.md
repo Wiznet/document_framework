@@ -61,6 +61,6 @@ interfaces.
 
 ## S2E Tools
 
-  - [S2E Module's Tool Selection Guide](/products/configtool/start)
+  - [S2E Module's Tool Selection Guide](serial_to_ethernet_guide)
 
 -----

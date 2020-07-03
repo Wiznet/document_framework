@@ -34,6 +34,6 @@ date: 2020-04-07
 
    * WIZwiki-W7500P V1.0 Dimension
 
-![WIZwiki-W7500P Dimension](/products/wizwiki_w7500p/wizwiki-w7500p_dimension.png%20)
+![WIZwiki-W7500P Dimension](/img/products/wizwiki_w7500p/wizwiki-w7500p_dimension.png)
 
 -----

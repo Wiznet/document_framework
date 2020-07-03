@@ -32,7 +32,7 @@ WIZ750SR-RS232 개발 보드 패키지는 다음과 같이 구성되어 있습�
   - 케이블 (이더넷 / 시리얼 / 마이크로 USB 타입 B)
 
 개발보드 별 패키지 구성품의 전체 항목은 [WIZ750SR Overview: Product
-Contents](/products/wiz750sr/overview/ko#product_contents) 페이지에서 확인 하실 수
+Contents](/overview-[KO]#product-contents) 페이지에서 확인 하실 수
 있습니다.
 
 ### Device Layout

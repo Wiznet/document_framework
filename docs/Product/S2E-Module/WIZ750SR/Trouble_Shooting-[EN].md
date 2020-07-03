@@ -94,7 +94,7 @@ date: 2020-04-08
 1.  Click 'Search' and click the \[+\] MAC address to check the product information
 2.  Check the ‘Firmware version' 
 
-  - User can check the latest firmware version at the [product update history page](/products/wiz750sr/history/en) and [download page](download).
+  - User can check the latest firmware version at the [product update history page](series_update_history-[EN]) and [download page](download).
 
 </details>
 

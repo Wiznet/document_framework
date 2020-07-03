@@ -133,18 +133,18 @@ For More information about DMA, click
 ## Getting Started
 
 
-![](/img/link.png) [Getting Started](/products/w5100s/w5100s_evb/getting_started)
+![](/img/link.png) [Getting Started](w5100s_getting_started)
 
-![](/img/link.png) [How to uploading to firmware](/products/w5100s/w5100s_evb/getting_started#how_to_uploading_to_firmware)
+![](/img/link.png) [How to upload firmware](w5100s_getting_started#how-to-upload-firmware)
 
 -----
 
 ## Make New W5100S-EVB Projects
 
 
-![](/img/link.png) [Make New W5100S-EVB Projects using Eclipse](/products/w5100s/w5100s_evb/make_a_new_projects_eclipse)
+![](/img/link.png) [Make New W5100S-EVB Projects using Eclipse](w5100s_projects_eclipse)
 
-![](/img/link.png) [Make New W5100S-EVB Projects using TrueSTUDIO](/products/w5100s/w5100s_evb/make_a_new_projects_truestudio)
+![](/img/link.png) [Make New W5100S-EVB Projects using TrueSTUDIO](w5100s_projects_truestudio)
 
 -----
 
@@ -153,7 +153,7 @@ For More information about DMA, click
 
 **Datasheet**
 
-  - 🌎[datasheet\#W5100S Datasheet](/products/w5100S/datasheet#W5100S%20Datasheet)
+  - 🌎[datasheet\#W5100S Datasheet](document)
   - 🌎[STMicroelectronics STM32F103VCT6 Datasheet](http://www.st.com/en/microcontrollers/stm32f103vc.html)
   - 🌎[Virtual COM Port:
     CP2104 COM Port Datasheet](https://www.silabs.com/products/interface/usb-bridges/classic-usb-bridges/device.cp2104)

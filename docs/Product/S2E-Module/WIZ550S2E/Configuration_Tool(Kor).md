@@ -4,14 +4,10 @@ title: Configuration Tool(Kor)
 date: 2020-03-
 ---
 
-
-
-# Configuration Tool
-
 ## Description
 
 ![](/img/products/wiz550s2e/wiz550s2epg_kr/configtool/global_config.png)  
-[WIZnet Configuration tool](/products/wiz550s2e/wiz550s2e_download)은
+[WIZnet Configuration tool](download)은
 WIZ550S2E사용자를 위한 프로그램으로 손쉽게 모듈을 설정하여 serial to ethernet 통신을 가능 하도록 합니다.
 그리고 java 기반으로 구현되어 대부분의 OS Platform에서 사용이 가능합니다. .jar 파일을 다운로드해서 Java
 Virtual machine상에서 실행되도록 하면 됩니다.
@@ -76,7 +72,7 @@ TFTP를 통하여 펌웨어를 업로드 합니다. "F/W Uploading" 버튼을 �
 
 ☞ 현재 Configuration tool은 TFTP를 지원하지 않습니다. 그러므로 별도의 TFTP 서버 프로그램을 사용하여
 펌웨어를 업로드 해야 합니다. 상세 업로드 가이드는 [다운로드
-페이지](/products/wiz550s2e/wiz550s2e_download)에 있으니 참고 바랍니다.
+페이지](download)에 있으니 참고 바랍니다.
 
 ### ④Reset
 

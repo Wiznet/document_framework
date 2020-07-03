@@ -31,7 +31,7 @@ The WIZ750SR-232 evaluation board package contains the following parts.
   - WIZ750SR-232/TTL-EVB Evaluation Board
   - Cables (Ethernet / Serial / Micro USB Type B)
 
-The entire list of parts of the board is available at the [WIZ750SR Overview: Product Contents](/products/wiz750sr/overview/en#product_contents) page.
+The entire list of parts of the board is available at the [WIZ750SR Overview: Product Contents](overview-[EN]#product-contents) page.
 
 ### Device Layout
 

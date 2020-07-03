@@ -14,7 +14,7 @@ The first function is used without the driver, but the second function
 is used after install the driver.  
 CMSIS-DAP Interface of WIZwiKI-W7500ECO has shows as the photo below.  
 ![CMSIS-DAP
-Interface](/products/wizwiki_w7500eco/start_getting_started/wizwiki-w7500eco_cmsis-dap_block.png)
+Interface](/img/products/wizwiki_w7500eco/start_getting_started/wizwiki-w7500eco_cmsis-dap_block.png)
 
 -----
 

@@ -1,6 +1,6 @@
 ---
 id: wiz750sr_1xx_series
-title: WIZ750SR-1xx Series
+title: WIZ752SR-12x Series
 date: 2020-04-13
 ---
 

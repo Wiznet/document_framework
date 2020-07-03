@@ -47,7 +47,7 @@ wiz550s2e's in GitHub.
    - pc and module has to same subnet
    - WIZ550S2E must be done Factory reset, After a firmware update. (Factory reset pin Active Low > 5sec)
 
-[Guide Video](/products/wiz550s2e/without_subtitle.mp4)
+[Guide Video](/img/products/wiz550s2e/without_subtitle.mp4)
 
 ### Source code
 
@@ -67,7 +67,7 @@ page of configuration's in github.
   
 [Ver 1.31](https://github.com/Wiznet/WIZnet_Configuration_Tool/releases/download/v1.3.1/WIZnet_Configuration_Tool.jar)  
 [Ver 1.10](/img/products/wiz550s2e/wiznet_configuration_tool_ver1.10.zip)  
-[Ver 1.03](/products/wiz550sr/wiz550sr_download/wiznet_configuration_tool_ver1.03.zip)  
+[Ver 1.03](/img/products/wiz550sr/wiz550sr_download/wiznet_configuration_tool_ver1.03.zip)  
 [Ver 1.02](/img/products/wiz550s2e/wiznet_configuration_tool_ver1.02.zip)  
 [Ver 1.00](/img/products/wiz550s2e/wiz550s2e_configuration_tool_ver1.00_0724.zip)
 
