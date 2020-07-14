@@ -1,5 +1,5 @@
 module.exports = {
-  title: 'WizWiki',
+  title: 'WIZnet Document System',
   tagline: 'Welcome to new WIZnet Document System!',
   //url: 'https://wiznet.github.io',
   url: 'https://doc.wiznet-cloud.com',
@@ -8,6 +8,10 @@ module.exports = {
   organizationName: 'Wiznet', // Usually your GitHub org/user name.
   projectName: 'document_framework', // Usually your repo name.
   themeConfig: {
+    algolia: {
+      apiKey: 'f997035e1f482592037217527848e3fd',
+      indexName: 'wiznet-cloud',
+    },
     navbar: {
       title: '',
       logo: {
