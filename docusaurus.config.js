@@ -19,7 +19,7 @@ module.exports = {
         src: 'img/wiznet_logo_110x37.png',
       },
       links: [
-        {to: 'docs/introduction', label: 'Documentation', position: 'left'},
+        {to: 'docs/', label: 'Documentation', position: 'left'},
         //{to: 'blog', label: 'Blog', position: 'left'},
         {
           href: 'https://github.com/Wiznet/document_framework',
