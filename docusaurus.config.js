@@ -2,8 +2,8 @@ module.exports = {
   title: 'WIZnet Document System',
   tagline: 'Welcome to new WIZnet Document System!',
   //url: 'https://wiznet.github.io',
-  url: 'https://doc.wiznet.io',
-  baseUrl: 'https://doc.wiznet.io/',
+  url: 'https://doc.wiznet-cloud.com',
+  baseUrl: 'https://doc.wiznet-cloud.com/',
   favicon: 'img/wizfavicon.ico',
   organizationName: 'Wiznet', // Usually your GitHub org/user name.
   projectName: 'document_framework', // Usually your repo name.
