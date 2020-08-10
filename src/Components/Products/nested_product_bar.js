@@ -12,8 +12,8 @@ const Link = (name) => {
 			);
 		case 'W7500p':
 			return window.open(
-				'/docs/doc2',
-				// 'https://doc.wiznet.io/docs/Product/iMCU/W7500p/overview',
+				
+				 'https://doc.wiznet.io/docs/Product/iMCU/W7500p/overview',
 				'_self'
 			);
 		case 'W7100A':
