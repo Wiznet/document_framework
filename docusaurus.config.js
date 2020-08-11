@@ -4,7 +4,7 @@ module.exports = {
   //url: 'https://wiznet.github.io',
   url: 'https://doc.wiznet-cloud.com'
   //url: 'https://doc.wiznet.io',
-  baseUrl: '/',
+  baseUrl: 'https://doc.wiznet-cloud.com/',
   onBrokenLinks: 'ignore',
   // onDuplicateRoutes: 'warn',
   favicon: 'img/wizfavicon.ico',
