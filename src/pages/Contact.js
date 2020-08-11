@@ -5,6 +5,7 @@ import Link from '@docusaurus/Link';
 import useDocusaurusContext from '@docusaurus/useDocusaurusContext';
 import useBaseUrl from '@docusaurus/useBaseUrl';
 import styles from './styles.module.css';
+import croppedwiznetlogo from '../../static/img/croppedwiznetlogo.png';
 
 const features = [
 
@@ -30,7 +31,7 @@ function Feature({imageUrl, title, description}) {
   return (
     
     <div>
-    <img src="../../img/cropped-wiznet-logo.png" alt="WIZnet LOGO" width="900" height="336"></img>
+    <img src={croppedwiznetlogo} alt="WIZnet LOGO" width="900" height="336"></img>
         
       <h3>{title}</h3>
       <p>{description}</p>
