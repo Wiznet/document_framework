@@ -20,7 +20,7 @@ module.exports = {
         alt: 'My Site Logo',
         src: 'img/wiznet_logo_110x37.png',
       },
-      onBrokenLinks: [
+      links: [
         {to: 'docs/introduction', label: 'Documentation', position: 'left'},
         //{to: 'blog', label: 'Blog', position: 'left'},
         {
