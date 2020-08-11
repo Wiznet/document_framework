@@ -111,7 +111,7 @@ Select 'Include Paths' in C\C++ tap and click the folder icon and click to ... i
 
 ![keil20](/img/products/w7500/documents/appnote/keil20.jpg)
 
-![keil+](/img/products/w7500/documents/appnote/keil+.jpg)
+![keil+](/img/products/w7500/documents/appnote/keil_.jpg)
 
 Set 'include path' with
 

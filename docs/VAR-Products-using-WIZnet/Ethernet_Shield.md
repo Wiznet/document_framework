@@ -60,7 +60,7 @@ There are many resource Products using WIZnet Ethernet chip.
 ### Arduino Ethernet
 
 ![arduino_ethernet_front](/img/var_products/edit_02.arduino_ethernet_front.jpg)
-![arduino_ethernet_front](/document_framework/var_products/edit_02.arduino_ethernet_front.jpg)
+![arduino_ethernet_front](/img/var_products/edit_02.arduino_ethernet_front.jpg)
 
 > The 🌎[Arduino Ethernet](http://arduino.cc/en/Main/ArduinoBoardEthernet)
 > is a microcontroller board based on the ATmega328. It has 14 digital
