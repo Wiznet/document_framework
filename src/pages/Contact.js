@@ -8,7 +8,6 @@ import styles from './styles.module.css';
 import croppedwiznetlogo from '../../static/img/croppedwiznetlogo.png';
 
 const features = [
-
   {
     title: <div className="container">
     <br/>
@@ -22,8 +21,7 @@ const features = [
        PINCODE: 560043. 
       </div>
     ),
-  },
- 
+  }, 
 ];
 
 function Feature({imageUrl, title, description}) {
