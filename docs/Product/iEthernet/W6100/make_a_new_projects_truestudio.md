@@ -35,7 +35,7 @@ import the required project to your workspace.
 ![](/img/products/w5100s/w5100s_evb/true_tool_set2.png)
 
 3\. Select Folder from Github repository  
-![](/document_framework//img/products/w5100s/w5100s_evb/true_tool_set3.png)
+![](/img/products/w5100s/w5100s_evb/true_tool_set3.png)
 
 4\. Click Finish  
 ![](/img/products/w5100s/w5100s_evb/true_tool_set4.png)

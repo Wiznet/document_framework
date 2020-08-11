@@ -1,0 +1,182 @@
+/** @format */
+
+ .back_groundimg {
+	margin-top: 10vh;      
+	height: 100%;
+	width: 100%;
+} 
+.over_image {
+	position: absolute;
+	top: 10vh;
+	left: 0.94rem;
+}
+.home_container {
+	position: relative;      
+	top: 12.25rem;
+	left: 8.75rem;
+}
+.welcome_text {
+	font-weight: 600;
+	font-size: 3.75rem;
+	font-family: Playfair Display;
+	color: #ffffff;
+	opacity: 1;
+	line-height: 5rem;
+}
+.below_heading {
+	color: #ffffff;
+	text-align: left;
+	font-weight: 400;
+	font-size: 1.5rem;
+	font-family: Montserrat;
+
+	color: #ffffff;
+	opacity: 1;
+	line-height: 1.81rem;
+}
+.search_home {
+	background: #ffffff 0% 0% no-repeat padding-box;
+	opacity: 1;
+}
+.input_search_grp {
+	width: 36vw;
+}
+.search_home {
+	height: 6.7vh !important;
+}
+.search_home::placeholder {
+	font-size: 1.25rem;
+	text-align: left;
+	font-weight: 400;
+	font-family: Montserrat;
+}
+.search_home_btn {
+	background-color: #e4eff3;
+	text-align: left;
+	font-weight: 500;
+	font-size: 1.25rem;
+	font-family: Montserrat;
+	color: #1b1464;
+	opacity: 1;
+	width: 7vw;
+	text-align: center;
+}
+.home_1 {
+	margin-top: 12rem;
+	margin-left: 8.7rem;
+}
+.home1_div {
+	width: 18.18vw;
+	height: 31.5vh;
+	background: #ffffff 0% 0% no-repeat padding-box;
+	box-shadow: 0px 3px 10px #2f2e4180;
+	border-radius: 0.63rem;
+
+	margin-right: 7.5rem;
+}
+.home1_div:hover {
+	background-color: #80888b2b;
+
+	box-shadow: 0px 10px 50px 20px #80888b2b;
+	border-radius: 10px;
+	cursor: pointer;
+}
+.home1_img {
+	padding-top: 4rem;
+}
+.img_heading {
+	color: #000000;
+	font-weight: 700;
+	font-size: 1.5rem;
+	font-family: Playfair Display;
+	color: #000000;
+	opacity: 1;
+	padding-top: 1rem;
+}
+.community_support_box {
+	height: 29vh;
+	margin-top: 10rem;
+	background-color: #2f2e4105;
+}
+.heading_community,
+.status_color {
+	margin-top: 3.5rem;
+}
+.status_color {
+	width: 3.7vw;
+	height: 10px;
+	background-color: #1b1464;
+	box-shadow: 0px 3px 10px #2f2e4133;
+}
+.heading_community {
+	text-align: left;
+	font-weight: 700;
+	font-size: 2rem;
+	font-family: Playfair Display;
+
+	letter-spacing: 0px;
+	color: #000000;
+	opacity: 1;
+}
+
+.row_class {
+	margin-top: 2rem;
+	margin-left: 7.5rem;
+}
+.contact_tech,
+.forum {
+	text-align: left;
+	font-weight: 500;
+	font-size: 1.5rem;
+	font-family: Montserrat;
+	letter-spacing: 0px;
+	color: #000000;
+	opacity: 1;
+	margin-left: 2.5rem;
+}
+
+.navbar_footer {
+	height: 37vh;
+	background-color: #000000 !important;
+	position: static;
+	width: 100%;
+	bottom: 0;
+}
+
+.social_head {
+	text-align: left;
+	font-weight: 700;
+	font-size: 2rem;
+	font-family: Playfair Display;
+	color: #ffffff;
+	opacity: 1;
+}
+.footer_logo {
+	width: 13.54vw;
+	height: 8vh;
+	position: absolute;
+	top: 10rem;
+	margin-left: 7rem;
+}
+.footer_right {
+	margin-top: 8rem;
+	margin-left: 9rem;
+}
+.Share,
+.Git_Hub,
+.Twitter {
+	margin-right: 5.5rem;
+	cursor: pointer;
+}
+.Youtube {
+	cursor: pointer;
+}
+.contact_us_forum {
+	text-align: left;
+	font-size: 1.5rem;
+	font-weight: 400;
+	font-family: Montserrat;
+	margin-top: 0.5rem;
+	color: #ffffff;
+	opacity: 1;
+}

@@ -4,7 +4,7 @@ title: WizArduino M0 ETH
 date: 2020-04-03
 ---
 
-![](/img/osh/wizarduino_m0_eth/%EC%B8%A1%EB%A9%B41.png)
+![](/img/osh/wizarduino_m0_eth/측면1.png)
 
 -----
 
@@ -104,7 +104,7 @@ WizArduino M0 ETH로 Programming을 하기에 앞서 몇 가지 확인 사항이
 
   - Getting Started에 언급 한 바와 같이 WizArduino M0 ETH는 Arduino.org 의 M0
     board와 100% 호환 됩니다. Select board 시 Arduino M0를 선택 하세요.
-    ![](/img/osh/wizarduino_m0_eth/%EA%B7%B8%EB%A6%BC2.png) 
+    ![](/img/osh/wizarduino_m0_eth/그림2.png) 
 
 #### Serial message
 

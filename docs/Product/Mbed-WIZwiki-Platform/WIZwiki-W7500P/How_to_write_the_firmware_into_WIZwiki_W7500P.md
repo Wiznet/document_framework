@@ -24,21 +24,16 @@ There are four ways to write firmware into.
 
 ## Using the CMSIS-DAP (Drag and Drop)
 
-1. When you connect the USB cable to the WIZwiki-W7500, PC recognized
-as a removable disk. Removable disk name is MBED.
+1. When you connect the USB cable to the WIZwiki-W7500, PC recognized as a removable disk. Removable disk name is MBED.
 
-2. You "drag and drop" or copy the firmware to the removable disk, the
-firmware writing progress has completed.  
+2. You "drag and drop" or copy the firmware to the removable disk, the firmware writing progress has completed.  
 ![Drag and drop](/img/products/w7500/overview/drap_n_drop.png)
 
-3. After completing the firmware writing, open to check the removable
-disk.
+3. After completing the firmware writing, open to check the removable disk.
 
-4. If "fail.txt" file is exists in the removable disk, it means writing
-the firmware has failed.
+4. If "fail.txt" file is exists in the removable disk, it means writing the firmware has failed.
 
-5. After pressing the Reset button (SW1) of WIZwiki- W7500, please
-repeat the steps from step 2.
+5. After pressing the Reset button (SW1) of WIZwiki- W7500, please repeat the steps from step 2.
 
 -----
 
@@ -75,7 +70,7 @@ CMSIS-DAP does support USB cable and Debugger as well. You need to [Set Flash Al
 
 **W7500P ISP Program**
 
-![ISP](../../iMCU/W7500/documents/appnote/How_to_use_ISP_tool.md)
+[ISP](../../iMCU/W7500/documents/appnote/How_to_use_ISP_tool)
 
 
 When W7500P is in the BOOT mode, firmware writing is possible via the

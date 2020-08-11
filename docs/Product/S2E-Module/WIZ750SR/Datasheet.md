@@ -191,7 +191,7 @@ Flow control: None, RTS / CTS, XON / XOFF</td>
 
 |                                                                           |                                                                              |  |
 | ------------------------------------------------------------------------- | ---------------------------------------------------------------------------- |  |
-|                                                                           | ![](/document_framework//img/products/wiz750sr/clitool/datasheet/wiz750sr_rs232_blockdiagram_rev1.2.pngg)     |  |
+|                                                                           | ![](/img/products/wiz750sr/clitool/datasheet/wiz750sr_rs232_blockdiagram_rev1.2.png)     |  |
 | ![](/img/products/wiz750sr/clitool/datasheet/wiki_wiz750sr_v1.1_rs232_top_calout.png) | ![](/img/products/wiz750sr/clitool/datasheet/wiki_wiz750sr_v1.1_rs232_bottom_calout.png) |  |
 
   - Feature
