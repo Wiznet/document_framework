@@ -20,7 +20,7 @@ module.exports = {
         alt: 'My Site Logo',
         src: 'img/wiznet_logo_110x37.png',
       },
-      links: [
+      items: [
         {to: 'docs/introduction', label: 'Documentation', position: 'left'},
         //{to: 'blog', label: 'Blog', position: 'left'},
         {
@@ -66,10 +66,10 @@ module.exports = {
               label: 'GitHub',
               href: 'https://github.com/Wiznet/document_framework',
             },
-            // {
-            //   label: 'Twitter',
-            //   href: '',
-            // },
+          //  {
+          //    label: 'Twitter',
+          //    href: '',
+          //  },
           ],
         },
       ],
