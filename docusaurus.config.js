@@ -4,7 +4,7 @@ module.exports = {
   //url: 'https://wiznet.github.io',
   url: 'https://doc.wiznet.io',
   baseUrl: '/',
-  // onBrokenLinks: 'warn',
+  onBrokenLinks: 'ignore',
   // onDuplicateRoutes: 'warn',
   favicon: 'img/wizfavicon.ico',
   organizationName: 'Wiznet', // Usually your GitHub org/user name.
