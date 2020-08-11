@@ -1,18 +1,3 @@
-// /** @format */
-
-// import React from 'react';
-
-// function Contact() {
-// 	return (
-// 		<div>
-// 			<div className="container"> WIZNET INDIA PVT. LTD, INDIA, BANGALORE </div>
-// 		</div>
-// 	);
-// }
-
-// export default Contact;
-
-
 import React from 'react';
 import clsx from 'clsx';
 import Layout from '@theme/Layout';
@@ -45,7 +30,7 @@ function Feature({imageUrl, title, description}) {
   return (
     
     <div>
-    <img src="img/cropped-wiznet-logo.png" alt="WIZnet LOGO" width="900" height="336"></img>
+    <img src="../../img/cropped-wiznet-logo.png" alt="WIZnet LOGO" width="900" height="336"></img>
         
       <h3>{title}</h3>
       <p>{description}</p>
