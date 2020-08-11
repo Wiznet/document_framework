@@ -1,7 +1,8 @@
 module.exports = {
   title: 'WIZnet Document System',
   tagline: 'Welcome to new WIZnet Document System!',
-  url: 'https://wiznet.github.io',
+  //url: 'https://wiznet.github.io',
+  url: 'https://doc.wiznet-cloud.com'
   //url: 'https://doc.wiznet.io',
   baseUrl: '/',
   onBrokenLinks: 'ignore',
