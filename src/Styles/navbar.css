@@ -1,0 +1,62 @@
+/** @format */
+
+.nav_background {
+	background-color: #000000;
+	height: 10.5vh;
+}
+
+.nav-link {
+	color: #ffffff !important;
+}
+.navbar-brand {
+	padding-left: 8.75rem;
+}
+
+.navbar-toggler {
+	color: aqua !important;
+	border-color: red !important;
+}
+
+.logo_wiznet {
+	position: relative;
+}
+.nav_menus {
+	font-size: 1rem;
+	margin-top: 25px;
+	margin-top: 10px;
+	color: #ffffff;
+	font-family: montserrat, sans-serif;
+	font-weight: 400;
+	font-style: normal;
+	margin-left: 5rem;
+}
+.nav-link {
+	margin-right: 10px;
+}
+.nav-link:hover {
+	border-bottom: 2px solid #ffffff;
+	margin-bottom: -0.5rem;
+}
+.dropdown-item:hover {
+	color: black;
+	font-weight: 700;
+}
+.search_icon {
+	margin-right: 3rem;
+	cursor: pointer;
+}
+.nav_search_input,
+.nav_search_btn {
+	height: 6vh !important;
+}
+.nav_search_btn {
+	background: white;
+}
+.img_cross {
+	padding: 0.5rem;
+	cursor: pointer;
+}
+.nav_search_grp {
+	margin-right: 3rem;
+	width: 30vw;
+}
