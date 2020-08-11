@@ -63,7 +63,7 @@ All clocks generated from CRG can be monitored.
 
 ## Functional description
 
-![](/img/products/w7500p/peripheral/crg_block_diagram.png "CRG block diagram")
+![](/document_frameworkc/img/products/w7500p/peripheral/crg_block_diagram.png "CRG block diagram")
 
 ### External Oscillator Clock
 External oscillator clock (OCLK) can be generated from two possible clock source

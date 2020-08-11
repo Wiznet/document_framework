@@ -356,6 +356,8 @@ WIZ550web baseboard is equipped with Potentiometer and Temperature
 sensor on A0 / A1. For example, by adjusting the value of the
 Potentiometer (A0), users can see the changes in the graph as below.
 
+![]()
+
 ### I/O Configuration
 
 The 'I/O Configuration' tab is configured as below.
@@ -374,7 +376,7 @@ note that the module is rebooted into default settings.
 
 If you change the various settings, it is displayed as below.
 
-![](/img/products/wiz550web/webpage_basicdemo/basic_demopage_2_io_examples.jpg)
+![](/document_framework//img/products/wiz550web/webpage_basicdemo/basic_demopage_2_io_examples.jpg)
 
 ### Serial Data
 

@@ -133,7 +133,7 @@ W7500P Internal PHY Datasheet
 
 ### Limitation Note ARP problem in the NLB environment
 
-[Limitation Note ARP problem in the NLB environment V1.0](/img/products/w7500/w7500_arp_problem_in_the_nlb.pdf)
+![Limitation Note ARP problem in the NLB environment V1.0]()
 
 ARP problem in the NLB environment V1.0
 | Version | Date    | Decription       |

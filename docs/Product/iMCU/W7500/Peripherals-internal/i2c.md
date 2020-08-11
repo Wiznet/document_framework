@@ -145,7 +145,7 @@ below Figure shows the operation of repeated START.
 The repeated START operates for data read operation execution.   
 The operation sequences are Slave address, send data, repeated START, and send data.  
 
-![](/img/products/w7500p/peripheral/i2c_tx_repeat_flow_chart.jpg "Figure 12 Master Transmit with Repeated START")
+![](/document_frameworkc/img/products/w7500p/peripheral/i2c_tx_repeat_flow_chart.jpg "Figure 12 Master Transmit with Repeated START")
 
 ### Slave mode
 

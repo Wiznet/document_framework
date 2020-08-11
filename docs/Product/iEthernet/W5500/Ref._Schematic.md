@@ -35,7 +35,7 @@ Please refer to the following schematic:
     the case that you have to use one with connected center tap.*
 
 
-![w5500_schematic-connected-cts_003.jpg](/img/products/w5500/w5500_schematic-connected-cts_003.jpg)  
+![w5500_schematic-connected-cts_003.jpg](/img/products/w5500/w5500_schematic-connected-cts_003.jpg.jpg)  
 The RJ45 from UDE (RB1-125BAG1A) is used in many of our **W5100** and
 **W7100A** related Modules.
 
@@ -54,7 +54,7 @@ The RJ45 from UDE (RB1-125BAG1A) is used in many of our **W5100** and
 #### RJ45 with integrated Transformer
 
 - J1B121ZCCD from CETUS
-[datasheet](/img/blob/master/static/img/products/w5500/1.j1b121zccd-v0-101115.pdf)  
+[datasheet](/document_framework/blob/master/static/img/products/w5500/1.j1b121zccd-v0-101115.pdf)  
 - J1B1211CCD from CETUS (used in * 1)
 [datasheet](/img/products/w5500/2.j1b1211ccd.pdf)  
 - RB1-1D5B8K1A from UDE

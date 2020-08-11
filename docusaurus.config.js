@@ -2,11 +2,8 @@ module.exports = {
   title: 'WIZnet Document System',
   tagline: 'Welcome to new WIZnet Document System!',
   //url: 'https://wiznet.github.io',
-  //url: 'https://doc.wiznet-cloud.com'
-  url: 'https://doc.wiznet.io',
+  url: 'https://doc.wiznet-cloud.com',
   baseUrl: '/',
-  onBrokenLinks: 'ignore',
-  // onDuplicateRoutes: 'warn',
   favicon: 'img/wizfavicon.ico',
   organizationName: 'Wiznet', // Usually your GitHub org/user name.
   projectName: 'document_framework', // Usually your repo name.
@@ -21,7 +18,7 @@ module.exports = {
         alt: 'My Site Logo',
         src: 'img/wiznet_logo_110x37.png',
       },
-      items: [
+      links: [
         {to: 'docs/introduction', label: 'Documentation', position: 'left'},
         //{to: 'blog', label: 'Blog', position: 'left'},
         {
@@ -67,10 +64,10 @@ module.exports = {
               label: 'GitHub',
               href: 'https://github.com/Wiznet/document_framework',
             },
-          //  {
-          //    label: 'Twitter',
-          //    href: '',
-          //  },
+            {
+              label: 'Twitter',
+              href: '',
+            },
           ],
         },
       ],

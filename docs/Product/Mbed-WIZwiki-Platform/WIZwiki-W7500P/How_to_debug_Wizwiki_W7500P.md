@@ -56,45 +56,30 @@ debugger.![](/img/products/w7500/overview/swd_header_debugger_jumper.png)
 2. Connect ULINK debugger and SWD Header. At this moment, be careful of
 matching pin number.
 
-3. Click 'Flash' in top menu and open 'Configure Flash Tools'. Set
+1. Click 'Flash' in top menu and open 'Configure Flash Tools'. Set
 'Debug' on top menu with choosing 'ULINK2/ME Cortex Debugger'.
 ![](/img/products/w7500/overview/ulink_set1.jpg)
 
-4. Click 'Utilities' next Debug and choose 'CMSIS-DAP Debugger'. Open
+2. Click 'Utilities' next Debug and choose 'CMSIS-DAP Debugger'. Open
 'Setting' menu and unchecked 'SWJ' in Debug on top menu. Then confirm
 'ARM CoreSight SW-DP' set on SW Device.
 ![](/img/products/w7500/overview/ulink_set2.jpg)
 
-5. Click 'Flash Download'. Set 'Erase Full Chip' in Download Function,
+3. Click 'Flash Download'. Set 'Erase Full Chip' in Download Function,
 type '0x20000000 to 0x4000' in RAM for Algorithm and Add
 'W7500\_128KB\_FLASH' on Programming Algorithm. After comparing with the
 figure below, click 'OK'.
 ![](/img/products/w7500/overview/ulink_set3-1.jpg)
 
-6. Download the firmware into WIZwiki-W7500. You can check complete
+4. Download the firmware into WIZwiki-W7500. You can check complete
 message and the ULINK Debugger at the bottom. Chick the 'Debug icon' or
 **Ctrl+F5** to debug.
 ![](/img/products/w7500/overview/ulink_set4.jpg)
 
 ---
 
-## Using CMSIS-DAP Debugger
+![keil_cmsis_dap](/page\>products/wizwiki_w7500/start_getting_started/write_firmware/keil_cmsis_dap)
 
-CMSIS-DAP does support USB cable and Debugger as well. You need to [Set Flash Algorithm](set_flash_algorithm.md) to use CMSIS-DAP Debugger in Keil.  
-
-### To Follow
-
-1. Click 'Flash' in top menu and open 'Configure Flash Tools'. Set 'Debug' on top menu with choosing 'CMSIS-DAP Debugger'. 
-![](/img/products/wizwiki_w7500/cmsis_debug_1.jpg)
-
-2. Click 'Utilities' and choose 'CMSIS-DAP Debugger'. Open 'Settings' menu and unchecked 'SWJ' in Debug menu. Then confirm 'ARM CoreSight SW-DP' set on SW Device. 
-![](/img/products/wizwiki_w7500/cmsis_debug_2-1.jpg)
-
-3. Next to the Debug menu bar, Click 'Flash Download' and set 'Erase Full Chip' in Download Function, '0x20000000 to 0x4000' in RAM for Algorithm, Add 'W7500_128KB_FLASH' on Programming Algorithm. After checking it with below figure, click 'OK'. 
-![](/img/products/wizwiki_w7500/cmsis_debug_3-1.jpg)  
-
-4. Download the firmware into WIZwiki-W7500. You can check complete message and the CMSIS-DAP Debugger at the bottom. Chick the 'Debug icon' or **Ctrl+F5** to debug. 
-![](/img/products/wizwiki_w7500/cmsis_debug_4.jpg)
 
 
 ## When downloading multiple projects
