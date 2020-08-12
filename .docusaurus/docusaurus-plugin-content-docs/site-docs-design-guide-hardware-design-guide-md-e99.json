@@ -1,0 +1,19 @@
+{
+  "unversionedId": "Design-Guide/hardware_design_guide",
+  "id": "Design-Guide/hardware_design_guide",
+  "isDocsHomePage": false,
+  "title": "Hardware Design Guide",
+  "description": "Summary",
+  "source": "@site/docs/Design-Guide/Hardware_Design_Guide.md",
+  "permalink": "/docs/Design-Guide/hardware_design_guide",
+  "editUrl": "https://github.com/Wiznet/document_framework/tree/master/docs/Design-Guide/Hardware_Design_Guide.md",
+  "sidebar": "someSidebar",
+  "previous": {
+    "title": "Design Guide",
+    "permalink": "/docs/Design-Guide/design_guide"
+  },
+  "next": {
+    "title": "Package Information",
+    "permalink": "/docs/Design-Guide/package_information"
+  }
+}

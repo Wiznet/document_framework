@@ -1,0 +1,19 @@
+{
+  "unversionedId": "Product/Wi-Fi-Module/WizFi630S/hw_reference",
+  "id": "Product/Wi-Fi-Module/WizFi630S/hw_reference",
+  "isDocsHomePage": false,
+  "title": "HW Reference",
+  "description": "This section provides guide documents to help you design the Hardware",
+  "source": "@site/docs/Product/Wi-Fi-Module/WizFi630S/HW_Reference.md",
+  "permalink": "/docs/Product/Wi-Fi-Module/WizFi630S/hw_reference",
+  "editUrl": "https://github.com/Wiznet/document_framework/tree/master/docs/Product/Wi-Fi-Module/WizFi630S/HW_Reference.md",
+  "sidebar": "someSidebar",
+  "previous": {
+    "title": "User Guide",
+    "permalink": "/docs/Product/Wi-Fi-Module/WizFi630S/user_guide"
+  },
+  "next": {
+    "title": "Certification",
+    "permalink": "/docs/Product/Wi-Fi-Module/WizFi630S/certificate"
+  }
+}

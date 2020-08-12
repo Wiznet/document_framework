@@ -1,0 +1,10 @@
+{
+  "unversionedId": "Product/Mbed-WIZwiki-Platform/WIZwiki-W7500/how_to_use_makefile_with_windows7",
+  "id": "Product/Mbed-WIZwiki-Platform/WIZwiki-W7500/how_to_use_makefile_with_windows7",
+  "isDocsHomePage": false,
+  "title": "How to use the makefile with windows 7",
+  "description": "********************",
+  "source": "@site/docs/Product/Mbed-WIZwiki-Platform/WIZwiki-W7500/How_to_use_gcc_for_W7500_Peripherals_Examples.md",
+  "permalink": "/docs/Product/Mbed-WIZwiki-Platform/WIZwiki-W7500/how_to_use_makefile_with_windows7",
+  "editUrl": "https://github.com/Wiznet/document_framework/tree/master/docs/Product/Mbed-WIZwiki-Platform/WIZwiki-W7500/How_to_use_gcc_for_W7500_Peripherals_Examples.md"
+}

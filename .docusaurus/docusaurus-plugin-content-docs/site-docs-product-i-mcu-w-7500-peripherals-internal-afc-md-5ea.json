@@ -1,0 +1,10 @@
+{
+  "unversionedId": "Product/iMCU/W7500/Peripherals-internal/afc",
+  "id": "Product/iMCU/W7500/Peripherals-internal/afc",
+  "isDocsHomePage": false,
+  "title": "Alternate Function Controller(AFC)",
+  "description": "Introduction",
+  "source": "@site/docs/Product/iMCU/W7500/Peripherals-internal/afc.md",
+  "permalink": "/docs/Product/iMCU/W7500/Peripherals-internal/afc",
+  "editUrl": "https://github.com/Wiznet/document_framework/tree/master/docs/Product/iMCU/W7500/Peripherals-internal/afc.md"
+}

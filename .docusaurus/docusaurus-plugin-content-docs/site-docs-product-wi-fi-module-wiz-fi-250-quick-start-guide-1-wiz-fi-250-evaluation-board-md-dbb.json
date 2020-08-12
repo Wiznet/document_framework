@@ -1,0 +1,19 @@
+{
+  "unversionedId": "Product/Wi-Fi-Module/WizFi250/Quick-Start-Guide/1_wizfi250_evaluation_board",
+  "id": "Product/Wi-Fi-Module/WizFi250/Quick-Start-Guide/1_wizfi250_evaluation_board",
+  "isDocsHomePage": false,
+  "title": "1.WizFi250 Evaluation Board",
+  "description": "The WizFi250 EVB is the evaluation board for testing WizFi250 and prototyping development. WizFi250 EVB is composed of a WizFi250 evaluation board and a WizFi250 module.",
+  "source": "@site/docs/Product/Wi-Fi-Module/WizFi250/Quick-Start-Guide/1.WizFi250_Evaluation_Board.md",
+  "permalink": "/docs/Product/Wi-Fi-Module/WizFi250/Quick-Start-Guide/1_wizfi250_evaluation_board",
+  "editUrl": "https://github.com/Wiznet/document_framework/tree/master/docs/Product/Wi-Fi-Module/WizFi250/Quick-Start-Guide/1.WizFi250_Evaluation_Board.md",
+  "sidebar": "someSidebar",
+  "previous": {
+    "title": "Appendix",
+    "permalink": "/docs/Product/Wi-Fi-Module/WizFi250/Programers-Guide/appendix"
+  },
+  "next": {
+    "title": "2.Start Serial to Wi-Fi",
+    "permalink": "/docs/Product/Wi-Fi-Module/WizFi250/Quick-Start-Guide/2_start_serial_to_wi_fi"
+  }
+}

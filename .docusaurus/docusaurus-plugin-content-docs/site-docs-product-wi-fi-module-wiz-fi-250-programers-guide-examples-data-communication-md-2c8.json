@@ -1,0 +1,19 @@
+{
+  "unversionedId": "Product/Wi-Fi-Module/WizFi250/Programers-Guide/examples_data_communication",
+  "id": "Product/Wi-Fi-Module/WizFi250/Programers-Guide/examples_data_communication",
+  "isDocsHomePage": false,
+  "title": "Examples - Data Communication",
+  "description": "Method of setting TCP Client and exchanging data in Data Mode",
+  "source": "@site/docs/Product/Wi-Fi-Module/WizFi250/Programers-Guide/Examples_Data_Communication.md",
+  "permalink": "/docs/Product/Wi-Fi-Module/WizFi250/Programers-Guide/examples_data_communication",
+  "editUrl": "https://github.com/Wiznet/document_framework/tree/master/docs/Product/Wi-Fi-Module/WizFi250/Programers-Guide/Examples_Data_Communication.md",
+  "sidebar": "someSidebar",
+  "previous": {
+    "title": "Examples - Association & Disassociation",
+    "permalink": "/docs/Product/Wi-Fi-Module/WizFi250/Programers-Guide/examples_association_disassociation"
+  },
+  "next": {
+    "title": "Examples - WiFi Direct",
+    "permalink": "/docs/Product/Wi-Fi-Module/WizFi250/Programers-Guide/examples_wifi_direct"
+  }
+}

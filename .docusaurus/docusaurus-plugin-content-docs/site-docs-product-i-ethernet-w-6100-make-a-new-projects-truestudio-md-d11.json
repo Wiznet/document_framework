@@ -1,0 +1,10 @@
+{
+  "unversionedId": "Product/iEthernet/W6100/new_project_truestudio",
+  "id": "Product/iEthernet/W6100/new_project_truestudio",
+  "isDocsHomePage": false,
+  "title": "Make New W6100-EVB Projects using TrueSTUDIO",
+  "description": "This page introduces that how to make the project for W6100-EVB with",
+  "source": "@site/docs/Product/iEthernet/W6100/make_a_new_projects_truestudio.md",
+  "permalink": "/docs/Product/iEthernet/W6100/new_project_truestudio",
+  "editUrl": "https://github.com/Wiznet/document_framework/tree/master/docs/Product/iEthernet/W6100/make_a_new_projects_truestudio.md"
+}

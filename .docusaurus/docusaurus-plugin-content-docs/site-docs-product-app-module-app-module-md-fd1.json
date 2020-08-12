@@ -1,0 +1,19 @@
+{
+  "unversionedId": "Product/App-Module/app_module",
+  "id": "Product/App-Module/app_module",
+  "isDocsHomePage": false,
+  "title": "Application Module",
+  "description": "Overview",
+  "source": "@site/docs/Product/App-Module/App_Module.md",
+  "permalink": "/docs/Product/App-Module/app_module",
+  "editUrl": "https://github.com/Wiznet/document_framework/tree/master/docs/Product/App-Module/App_Module.md",
+  "sidebar": "someSidebar",
+  "previous": {
+    "title": "Related Products",
+    "permalink": "/docs/Product/ioModule/WIZ550io/related_products"
+  },
+  "next": {
+    "title": "WIZ550web",
+    "permalink": "/docs/Product/App-Module/WIZ550web/wiz550web"
+  }
+}

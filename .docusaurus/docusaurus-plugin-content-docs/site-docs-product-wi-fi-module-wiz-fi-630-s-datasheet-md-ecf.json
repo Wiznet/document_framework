@@ -1,0 +1,19 @@
+{
+  "unversionedId": "Product/Wi-Fi-Module/WizFi630S/datasheet",
+  "id": "Product/Wi-Fi-Module/WizFi630S/datasheet",
+  "isDocsHomePage": false,
+  "title": "Datasheet",
+  "description": "This section provides guides on the features of the WizFi630S,",
+  "source": "@site/docs/Product/Wi-Fi-Module/WizFi630S/Datasheet.md",
+  "permalink": "/docs/Product/Wi-Fi-Module/WizFi630S/datasheet",
+  "editUrl": "https://github.com/Wiznet/document_framework/tree/master/docs/Product/Wi-Fi-Module/WizFi630S/Datasheet.md",
+  "sidebar": "someSidebar",
+  "previous": {
+    "title": "WizFi630S",
+    "permalink": "/docs/Product/Wi-Fi-Module/WizFi630S/wizfi630s"
+  },
+  "next": {
+    "title": "User Guide",
+    "permalink": "/docs/Product/Wi-Fi-Module/WizFi630S/user_guide"
+  }
+}

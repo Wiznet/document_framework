@@ -1,0 +1,19 @@
+{
+  "unversionedId": "Product/S2E-Module/WIZ752SR-12x-Series/WIZ752SR-125/wiz752sr_125",
+  "id": "Product/S2E-Module/WIZ752SR-12x-Series/WIZ752SR-125/wiz752sr_125",
+  "isDocsHomePage": false,
+  "title": "WIZ752SR-125",
+  "description": "WIZ120SR Compatible Serial to Ethernet Module",
+  "source": "@site/docs/Product/S2E-Module/WIZ752SR-12x-Series/WIZ752SR-125/WIZ752SR-125.md",
+  "permalink": "/docs/Product/S2E-Module/WIZ752SR-12x-Series/WIZ752SR-125/wiz752sr_125",
+  "editUrl": "https://github.com/Wiznet/document_framework/tree/master/docs/Product/S2E-Module/WIZ752SR-12x-Series/WIZ752SR-125/WIZ752SR-125.md",
+  "sidebar": "someSidebar",
+  "previous": {
+    "title": "Datasheet",
+    "permalink": "/docs/Product/S2E-Module/WIZ752SR-12x-Series/WIZ752SR-120/datasheet"
+  },
+  "next": {
+    "title": "Overview-[KO]",
+    "permalink": "/docs/Product/S2E-Module/WIZ752SR-12x-Series/WIZ752SR-125/overview-[KO]"
+  }
+}

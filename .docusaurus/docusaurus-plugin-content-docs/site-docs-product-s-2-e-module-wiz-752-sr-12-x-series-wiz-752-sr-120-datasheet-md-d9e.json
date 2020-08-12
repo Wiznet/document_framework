@@ -1,0 +1,19 @@
+{
+  "unversionedId": "Product/S2E-Module/WIZ752SR-12x-Series/WIZ752SR-120/datasheet",
+  "id": "Product/S2E-Module/WIZ752SR-12x-Series/WIZ752SR-120/datasheet",
+  "isDocsHomePage": false,
+  "title": "Datasheet",
+  "description": "Supported Languages",
+  "source": "@site/docs/Product/S2E-Module/WIZ752SR-12x-Series/WIZ752SR-120/Datasheet.md",
+  "permalink": "/docs/Product/S2E-Module/WIZ752SR-12x-Series/WIZ752SR-120/datasheet",
+  "editUrl": "https://github.com/Wiznet/document_framework/tree/master/docs/Product/S2E-Module/WIZ752SR-12x-Series/WIZ752SR-120/Datasheet.md",
+  "sidebar": "someSidebar",
+  "previous": {
+    "title": "Getting Started Guide-[EN]",
+    "permalink": "/docs/Product/S2E-Module/WIZ752SR-12x-Series/WIZ752SR-120/gtting_started_guide-[EN]"
+  },
+  "next": {
+    "title": "WIZ752SR-125",
+    "permalink": "/docs/Product/S2E-Module/WIZ752SR-12x-Series/WIZ752SR-125/wiz752sr_125"
+  }
+}

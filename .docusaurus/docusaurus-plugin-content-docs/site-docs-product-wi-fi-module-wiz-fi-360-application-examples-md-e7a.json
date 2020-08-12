@@ -1,0 +1,19 @@
+{
+  "unversionedId": "Product/Wi-Fi-Module/WizFi360/application_examples",
+  "id": "Product/Wi-Fi-Module/WizFi360/application_examples",
+  "isDocsHomePage": false,
+  "title": "Application examples",
+  "description": "This page shows WizFi360 application examples such as HTTP Server, HTTP",
+  "source": "@site/docs/Product/Wi-Fi-Module/WizFi360/Application_examples.md",
+  "permalink": "/docs/Product/Wi-Fi-Module/WizFi360/application_examples",
+  "editUrl": "https://github.com/Wiznet/document_framework/tree/master/docs/Product/Wi-Fi-Module/WizFi360/Application_examples.md",
+  "sidebar": "someSidebar",
+  "previous": {
+    "title": "Documents",
+    "permalink": "/docs/Product/Wi-Fi-Module/WizFi360/documents"
+  },
+  "next": {
+    "title": "WizFi360-EVB-Shield",
+    "permalink": "/docs/Product/Wi-Fi-Module/WizFi360/wizfi360_evb_shield"
+  }
+}

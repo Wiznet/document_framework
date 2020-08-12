@@ -1,0 +1,10 @@
+{
+  "unversionedId": "Product/Open-Source-Hardware/http_client",
+  "id": "Product/Open-Source-Hardware/http_client",
+  "isDocsHomePage": false,
+  "title": "HTTP Client",
+  "description": "Before Compile",
+  "source": "@site/docs/Product/Open-Source-Hardware/http_client.md",
+  "permalink": "/docs/Product/Open-Source-Hardware/http_client",
+  "editUrl": "https://github.com/Wiznet/document_framework/tree/master/docs/Product/Open-Source-Hardware/http_client.md"
+}

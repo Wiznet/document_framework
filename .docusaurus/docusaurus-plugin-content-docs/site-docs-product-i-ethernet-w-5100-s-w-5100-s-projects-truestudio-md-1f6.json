@@ -1,0 +1,10 @@
+{
+  "unversionedId": "Product/iEthernet/W5100S/w5100s_projects_truestudio",
+  "id": "Product/iEthernet/W5100S/w5100s_projects_truestudio",
+  "isDocsHomePage": false,
+  "title": "Make New W5100S-EVB Projects using TrueSTUDIO",
+  "description": "This page introduces that how to make the project for W5100S-EVB with",
+  "source": "@site/docs/Product/iEthernet/W5100S/w5100s_projects_truestudio.md",
+  "permalink": "/docs/Product/iEthernet/W5100S/w5100s_projects_truestudio",
+  "editUrl": "https://github.com/Wiznet/document_framework/tree/master/docs/Product/iEthernet/W5100S/w5100s_projects_truestudio.md"
+}

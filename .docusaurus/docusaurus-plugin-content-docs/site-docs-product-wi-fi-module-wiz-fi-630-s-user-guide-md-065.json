@@ -1,0 +1,19 @@
+{
+  "unversionedId": "Product/Wi-Fi-Module/WizFi630S/user_guide",
+  "id": "Product/Wi-Fi-Module/WizFi630S/user_guide",
+  "isDocsHomePage": false,
+  "title": "User Guide",
+  "description": "This section provides guides documents for basic operating methods of",
+  "source": "@site/docs/Product/Wi-Fi-Module/WizFi630S/User_Guide.md",
+  "permalink": "/docs/Product/Wi-Fi-Module/WizFi630S/user_guide",
+  "editUrl": "https://github.com/Wiznet/document_framework/tree/master/docs/Product/Wi-Fi-Module/WizFi630S/User_Guide.md",
+  "sidebar": "someSidebar",
+  "previous": {
+    "title": "Datasheet",
+    "permalink": "/docs/Product/Wi-Fi-Module/WizFi630S/datasheet"
+  },
+  "next": {
+    "title": "HW Reference",
+    "permalink": "/docs/Product/Wi-Fi-Module/WizFi630S/hw_reference"
+  }
+}

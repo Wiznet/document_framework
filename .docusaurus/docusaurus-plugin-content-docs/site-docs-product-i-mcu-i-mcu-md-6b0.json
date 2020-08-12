@@ -1,0 +1,10 @@
+{
+  "unversionedId": "Product/iMCU/imcu",
+  "id": "Product/iMCU/imcu",
+  "isDocsHomePage": false,
+  "title": "iMCU",
+  "description": "Ethernet MCU with Hardwired TCP/IP Core",
+  "source": "@site/docs/Product/iMCU/iMCU.md",
+  "permalink": "/docs/Product/iMCU/imcu",
+  "editUrl": "https://github.com/Wiznet/document_framework/tree/master/docs/Product/iMCU/iMCU.md"
+}

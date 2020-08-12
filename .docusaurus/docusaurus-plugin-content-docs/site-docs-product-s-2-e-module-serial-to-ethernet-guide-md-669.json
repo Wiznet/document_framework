@@ -1,0 +1,10 @@
+{
+  "unversionedId": "Product/S2E-Module/serial_to_ethernet_guide",
+  "id": "Product/S2E-Module/serial_to_ethernet_guide",
+  "isDocsHomePage": false,
+  "title": "Serial to Ethernet Tool guide",
+  "description": "Configuration Tool",
+  "source": "@site/docs/Product/S2E-Module/serial_to_ethernet_guide.md",
+  "permalink": "/docs/Product/S2E-Module/serial_to_ethernet_guide",
+  "editUrl": "https://github.com/Wiznet/document_framework/tree/master/docs/Product/S2E-Module/serial_to_ethernet_guide.md"
+}

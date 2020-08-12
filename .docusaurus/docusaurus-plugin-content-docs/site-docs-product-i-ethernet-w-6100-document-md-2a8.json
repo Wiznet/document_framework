@@ -1,0 +1,19 @@
+{
+  "unversionedId": "Product/iEthernet/W6100/document",
+  "id": "Product/iEthernet/W6100/document",
+  "isDocsHomePage": false,
+  "title": "Document",
+  "description": "Download the latest version",
+  "source": "@site/docs/Product/iEthernet/W6100/Document.md",
+  "permalink": "/docs/Product/iEthernet/W6100/document",
+  "editUrl": "https://github.com/Wiznet/document_framework/tree/master/docs/Product/iEthernet/W6100/Document.md",
+  "sidebar": "someSidebar",
+  "previous": {
+    "title": "Overview",
+    "permalink": "/docs/Product/iEthernet/W6100/overview"
+  },
+  "next": {
+    "title": "Driver & Basic Project",
+    "permalink": "/docs/Product/iEthernet/W6100/driver_basic_project"
+  }
+}

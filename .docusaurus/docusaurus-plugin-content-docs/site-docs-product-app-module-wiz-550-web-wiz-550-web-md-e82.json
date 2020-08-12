@@ -1,0 +1,19 @@
+{
+  "unversionedId": "Product/App-Module/WIZ550web/wiz550web",
+  "id": "Product/App-Module/WIZ550web/wiz550web",
+  "isDocsHomePage": false,
+  "title": "WIZ550web",
+  "description": "Overview",
+  "source": "@site/docs/Product/App-Module/WIZ550web/WIZ550web.md",
+  "permalink": "/docs/Product/App-Module/WIZ550web/wiz550web",
+  "editUrl": "https://github.com/Wiznet/document_framework/tree/master/docs/Product/App-Module/WIZ550web/WIZ550web.md",
+  "sidebar": "someSidebar",
+  "previous": {
+    "title": "Application Module",
+    "permalink": "/docs/Product/App-Module/app_module"
+  },
+  "next": {
+    "title": "Datasheet(Kor)",
+    "permalink": "/docs/Product/App-Module/WIZ550web/datasheet_kor"
+  }
+}

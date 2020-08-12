@@ -1,0 +1,19 @@
+{
+  "unversionedId": "Product/iEthernet/W5500/Application/ipraw",
+  "id": "Product/iEthernet/W5500/Application/ipraw",
+  "isDocsHomePage": false,
+  "title": "IPRAW",
+  "description": "Overview",
+  "source": "@site/docs/Product/iEthernet/W5500/Application/IPRAW.md",
+  "permalink": "/docs/Product/iEthernet/W5500/Application/ipraw",
+  "editUrl": "https://github.com/Wiznet/document_framework/tree/master/docs/Product/iEthernet/W5500/Application/IPRAW.md",
+  "sidebar": "someSidebar",
+  "previous": {
+    "title": "W5500 Application",
+    "permalink": "/docs/Product/iEthernet/W5500/Application/udp"
+  },
+  "next": {
+    "title": "PPPoE",
+    "permalink": "/docs/Product/iEthernet/W5500/Application/pppoe"
+  }
+}

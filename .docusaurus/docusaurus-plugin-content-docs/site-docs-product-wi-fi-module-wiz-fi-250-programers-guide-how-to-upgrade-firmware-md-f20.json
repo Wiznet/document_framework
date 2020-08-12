@@ -1,0 +1,19 @@
+{
+  "unversionedId": "Product/Wi-Fi-Module/WizFi250/Programers-Guide/how_to_upgrade_firmware",
+  "id": "Product/Wi-Fi-Module/WizFi250/Programers-Guide/how_to_upgrade_firmware",
+  "isDocsHomePage": false,
+  "title": "How to Upgrade Firmware",
+  "description": "Serial Line-APP+DCT",
+  "source": "@site/docs/Product/Wi-Fi-Module/WizFi250/Programers-Guide/How_to_Upgrade_Firmware.md",
+  "permalink": "/docs/Product/Wi-Fi-Module/WizFi250/Programers-Guide/how_to_upgrade_firmware",
+  "editUrl": "https://github.com/Wiznet/document_framework/tree/master/docs/Product/Wi-Fi-Module/WizFi250/Programers-Guide/How_to_Upgrade_Firmware.md",
+  "sidebar": "someSidebar",
+  "previous": {
+    "title": "How to Use Web Configuration",
+    "permalink": "/docs/Product/Wi-Fi-Module/WizFi250/Programers-Guide/how_to_use_web_configuration"
+  },
+  "next": {
+    "title": "Examples - Association & Disassociation",
+    "permalink": "/docs/Product/Wi-Fi-Module/WizFi250/Programers-Guide/examples_association_disassociation"
+  }
+}

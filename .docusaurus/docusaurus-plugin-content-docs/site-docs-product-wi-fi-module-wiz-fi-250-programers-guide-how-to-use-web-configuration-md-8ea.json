@@ -1,0 +1,19 @@
+{
+  "unversionedId": "Product/Wi-Fi-Module/WizFi250/Programers-Guide/how_to_use_web_configuration",
+  "id": "Product/Wi-Fi-Module/WizFi250/Programers-Guide/how_to_use_web_configuration",
+  "isDocsHomePage": false,
+  "title": "How to Use Web Configuration",
+  "description": "Main Page",
+  "source": "@site/docs/Product/Wi-Fi-Module/WizFi250/Programers-Guide/How_to_Use_Web_Configuration.md",
+  "permalink": "/docs/Product/Wi-Fi-Module/WizFi250/Programers-Guide/how_to_use_web_configuration",
+  "editUrl": "https://github.com/Wiznet/document_framework/tree/master/docs/Product/Wi-Fi-Module/WizFi250/Programers-Guide/How_to_Use_Web_Configuration.md",
+  "sidebar": "someSidebar",
+  "previous": {
+    "title": "IO Pin",
+    "permalink": "/docs/Product/Wi-Fi-Module/WizFi250/Programers-Guide/io_pin"
+  },
+  "next": {
+    "title": "How to Upgrade Firmware",
+    "permalink": "/docs/Product/Wi-Fi-Module/WizFi250/Programers-Guide/how_to_upgrade_firmware"
+  }
+}

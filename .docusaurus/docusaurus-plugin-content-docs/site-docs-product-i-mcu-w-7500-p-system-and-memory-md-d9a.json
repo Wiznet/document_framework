@@ -1,0 +1,19 @@
+{
+  "unversionedId": "Product/iMCU/W7500P/system_and_memory",
+  "id": "Product/iMCU/W7500P/system_and_memory",
+  "isDocsHomePage": false,
+  "title": "System and Memory overview",
+  "description": "System architecture",
+  "source": "@site/docs/Product/iMCU/W7500P/System_and_Memory.md",
+  "permalink": "/docs/Product/iMCU/W7500P/system_and_memory",
+  "editUrl": "https://github.com/Wiznet/document_framework/tree/master/docs/Product/iMCU/W7500P/System_and_Memory.md",
+  "sidebar": "someSidebar",
+  "previous": {
+    "title": "Pin Assignment",
+    "permalink": "/docs/Product/iMCU/W7500P/pin_assignment"
+  },
+  "next": {
+    "title": "Interrupt and Events",
+    "permalink": "/docs/Product/iMCU/W7500P/interrupt_and_event"
+  }
+}

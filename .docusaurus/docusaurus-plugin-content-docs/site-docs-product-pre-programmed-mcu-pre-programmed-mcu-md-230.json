@@ -1,0 +1,19 @@
+{
+  "unversionedId": "Product/Pre-programmed-MCU/pre_programmed_mcu",
+  "id": "Product/Pre-programmed-MCU/pre_programmed_mcu",
+  "isDocsHomePage": false,
+  "title": "Pre-programmed MCU",
+  "description": "Overview",
+  "source": "@site/docs/Product/Pre-programmed-MCU/Pre-programmed_MCU.md",
+  "permalink": "/docs/Product/Pre-programmed-MCU/pre_programmed_mcu",
+  "editUrl": "https://github.com/Wiznet/document_framework/tree/master/docs/Product/Pre-programmed-MCU/Pre-programmed_MCU.md",
+  "sidebar": "someSidebar",
+  "previous": {
+    "title": "Library and Peripheral Example",
+    "permalink": "/docs/Product/iMCU/W7500P/libraries_examples"
+  },
+  "next": {
+    "title": "W7500(P)-S2E (KO)",
+    "permalink": "/docs/Product/Pre-programmed-MCU/W7500P-S2E/w7500p-s2e-[KO]"
+  }
+}

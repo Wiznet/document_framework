@@ -1,0 +1,19 @@
+{
+  "unversionedId": "Product/iEthernet/W5500/Application/pppoe",
+  "id": "Product/iEthernet/W5500/Application/pppoe",
+  "isDocsHomePage": false,
+  "title": "PPPoE",
+  "description": "Overview",
+  "source": "@site/docs/Product/iEthernet/W5500/Application/PPPoE.md",
+  "permalink": "/docs/Product/iEthernet/W5500/Application/pppoe",
+  "editUrl": "https://github.com/Wiznet/document_framework/tree/master/docs/Product/iEthernet/W5500/Application/PPPoE.md",
+  "sidebar": "someSidebar",
+  "previous": {
+    "title": "IPRAW",
+    "permalink": "/docs/Product/iEthernet/W5500/Application/ipraw"
+  },
+  "next": {
+    "title": "SPI Performance",
+    "permalink": "/docs/Product/iEthernet/W5500/Application/spi_performance"
+  }
+}

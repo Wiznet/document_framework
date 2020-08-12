@@ -1,0 +1,19 @@
+{
+  "unversionedId": "Product/ioModule/WIZ550io/spi_operations",
+  "id": "Product/ioModule/WIZ550io/spi_operations",
+  "isDocsHomePage": false,
+  "title": "SPI Operations",
+  "description": "There is a W5500 inside WIZ550io. Therefore SPI operation of WIZ550io follows one of W5500. For more information about SPI operation of",
+  "source": "@site/docs/Product/ioModule/WIZ550io/SPI_Operations.md",
+  "permalink": "/docs/Product/ioModule/WIZ550io/spi_operations",
+  "editUrl": "https://github.com/Wiznet/document_framework/tree/master/docs/Product/ioModule/WIZ550io/SPI_Operations.md",
+  "sidebar": "someSidebar",
+  "previous": {
+    "title": "Characteristic",
+    "permalink": "/docs/Product/ioModule/WIZ550io/characteristic"
+  },
+  "next": {
+    "title": "Timing Diagram",
+    "permalink": "/docs/Product/ioModule/WIZ550io/timing_diagram"
+  }
+}

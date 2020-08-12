@@ -1,0 +1,10 @@
+{
+  "unversionedId": "Product/Mbed-WIZwiki-Platform/WIZwiki-W7500ECO/how_to_debug_wizwiki_w7500eco",
+  "id": "Product/Mbed-WIZwiki-Platform/WIZwiki-W7500ECO/how_to_debug_wizwiki_w7500eco",
+  "isDocsHomePage": false,
+  "title": "How to Debug WIZwiki-W7500ECO",
+  "description": "On the WIZwiki-W7500ECO, there is CMSIS-DAP to debug WIZwiki-W7500ECO.",
+  "source": "@site/docs/Product/Mbed-WIZwiki-Platform/WIZwiki-W7500ECO/how_to_debug_wizwiki_w7500eco.md",
+  "permalink": "/docs/Product/Mbed-WIZwiki-Platform/WIZwiki-W7500ECO/how_to_debug_wizwiki_w7500eco",
+  "editUrl": "https://github.com/Wiznet/document_framework/tree/master/docs/Product/Mbed-WIZwiki-Platform/WIZwiki-W7500ECO/how_to_debug_wizwiki_w7500eco.md"
+}

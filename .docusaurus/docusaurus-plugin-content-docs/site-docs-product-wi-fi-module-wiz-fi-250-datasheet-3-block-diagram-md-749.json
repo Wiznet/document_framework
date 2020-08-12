@@ -1,0 +1,19 @@
+{
+  "unversionedId": "Product/Wi-Fi-Module/WizFi250/Datasheet/3_block_diagram",
+  "id": "Product/Wi-Fi-Module/WizFi250/Datasheet/3_block_diagram",
+  "isDocsHomePage": false,
+  "title": "3.Block diagram",
+  "description": "Block diagram",
+  "source": "@site/docs/Product/Wi-Fi-Module/WizFi250/Datasheet/3.Block_diagram.md",
+  "permalink": "/docs/Product/Wi-Fi-Module/WizFi250/Datasheet/3_block_diagram",
+  "editUrl": "https://github.com/Wiznet/document_framework/tree/master/docs/Product/Wi-Fi-Module/WizFi250/Datasheet/3.Block_diagram.md",
+  "sidebar": "someSidebar",
+  "previous": {
+    "title": "2.Features",
+    "permalink": "/docs/Product/Wi-Fi-Module/WizFi250/Datasheet/2_features"
+  },
+  "next": {
+    "title": "4.Pin description",
+    "permalink": "/docs/Product/Wi-Fi-Module/WizFi250/Datasheet/4_pin_description"
+  }
+}

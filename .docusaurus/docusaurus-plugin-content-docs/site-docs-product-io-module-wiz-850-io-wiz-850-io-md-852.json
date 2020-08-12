@@ -1,0 +1,19 @@
+{
+  "unversionedId": "Product/ioModule/WIZ850io/wiz850io",
+  "id": "Product/ioModule/WIZ850io/wiz850io",
+  "isDocsHomePage": false,
+  "title": "WIZ850io",
+  "description": "Overview",
+  "source": "@site/docs/Product/ioModule/WIZ850io/WIZ850io.md",
+  "permalink": "/docs/Product/ioModule/WIZ850io/wiz850io",
+  "editUrl": "https://github.com/Wiznet/document_framework/tree/master/docs/Product/ioModule/WIZ850io/WIZ850io.md",
+  "sidebar": "someSidebar",
+  "previous": {
+    "title": "WIZ810SMJ",
+    "permalink": "/docs/Product/ioModule/WIZ810SMJ/wiz810smj"
+  },
+  "next": {
+    "title": "Overview",
+    "permalink": "/docs/Product/ioModule/WIZ550io/overview"
+  }
+}

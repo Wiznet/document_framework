@@ -1,0 +1,19 @@
+{
+  "unversionedId": "Product/App-Module/WIZ550web/download",
+  "id": "Product/App-Module/WIZ550web/download",
+  "isDocsHomePage": false,
+  "title": "Download",
+  "description": "Download Firmware",
+  "source": "@site/docs/Product/App-Module/WIZ550web/Download.md",
+  "permalink": "/docs/Product/App-Module/WIZ550web/download",
+  "editUrl": "https://github.com/Wiznet/document_framework/tree/master/docs/Product/App-Module/WIZ550web/Download.md",
+  "sidebar": "someSidebar",
+  "previous": {
+    "title": "Tutorials(Eng)",
+    "permalink": "/docs/Product/App-Module/WIZ550web/tutorials_eng"
+  },
+  "next": {
+    "title": "Wi-Fi Module",
+    "permalink": "/docs/Product/Wi-Fi-Module/wi_fi_module"
+  }
+}

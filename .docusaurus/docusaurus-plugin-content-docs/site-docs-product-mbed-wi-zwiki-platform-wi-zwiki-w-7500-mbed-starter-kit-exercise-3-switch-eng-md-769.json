@@ -1,0 +1,19 @@
+{
+  "unversionedId": "Product/Mbed-WIZwiki-Platform/WIZwiki-W7500-Mbed-Starter-Kit/exercise_3_switch_eng",
+  "id": "Product/Mbed-WIZwiki-Platform/WIZwiki-W7500-Mbed-Starter-Kit/exercise_3_switch_eng",
+  "isDocsHomePage": false,
+  "title": "Exercise 3. Switch(Eng)",
+  "description": "Blinking LED with a switch",
+  "source": "@site/docs/Product/Mbed-WIZwiki-Platform/WIZwiki-W7500-Mbed-Starter-Kit/Exercise_3._Switch(Eng).md",
+  "permalink": "/docs/Product/Mbed-WIZwiki-Platform/WIZwiki-W7500-Mbed-Starter-Kit/exercise_3_switch_eng",
+  "editUrl": "https://github.com/Wiznet/document_framework/tree/master/docs/Product/Mbed-WIZwiki-Platform/WIZwiki-W7500-Mbed-Starter-Kit/Exercise_3._Switch(Eng).md",
+  "sidebar": "someSidebar",
+  "previous": {
+    "title": "Exercise 2. Serial port(Eng)",
+    "permalink": "/docs/Product/Mbed-WIZwiki-Platform/WIZwiki-W7500-Mbed-Starter-Kit/exercise_2_serial_port_eng"
+  },
+  "next": {
+    "title": "Exercise 4. PWM(Eng)",
+    "permalink": "/docs/Product/Mbed-WIZwiki-Platform/WIZwiki-W7500-Mbed-Starter-Kit/exercise_4_pwm_eng"
+  }
+}

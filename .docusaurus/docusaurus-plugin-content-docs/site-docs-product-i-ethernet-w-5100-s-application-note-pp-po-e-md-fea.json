@@ -1,0 +1,19 @@
+{
+  "unversionedId": "Product/iEthernet/W5100S/Application-Note/pppoe",
+  "id": "Product/iEthernet/W5100S/Application-Note/pppoe",
+  "isDocsHomePage": false,
+  "title": "PPPoE",
+  "description": "Overview",
+  "source": "@site/docs/Product/iEthernet/W5100S/Application-Note/PPPoE.md",
+  "permalink": "/docs/Product/iEthernet/W5100S/Application-Note/pppoe",
+  "editUrl": "https://github.com/Wiznet/document_framework/tree/master/docs/Product/iEthernet/W5100S/Application-Note/PPPoE.md",
+  "sidebar": "someSidebar",
+  "previous": {
+    "title": "IPRAW",
+    "permalink": "/docs/Product/iEthernet/W5100S/Application-Note/ipraw"
+  },
+  "next": {
+    "title": "SOCKET-less Command",
+    "permalink": "/docs/Product/iEthernet/W5100S/Application-Note/socket_less_command"
+  }
+}

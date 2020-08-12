@@ -1,0 +1,19 @@
+{
+  "unversionedId": "Product/iEthernet/W5500/driver",
+  "id": "Product/iEthernet/W5500/driver",
+  "isDocsHomePage": false,
+  "title": "Driver",
+  "description": "The ioLibrary means \"Internet Offload Library\" for WIZnet chip. It includes drivers and application protocols. There are three kinds of libraries explained on this page The first two drivers (ioLibrary\\_BSD, ioLibrary) can be used for W5500 application designs. These will be updated continuously. The former BSD-Type driver will not be updated, as it is only meant to be a migration help from W5200 to W5500.",
+  "source": "@site/docs/Product/iEthernet/W5500/Driver.md",
+  "permalink": "/docs/Product/iEthernet/W5500/driver",
+  "editUrl": "https://github.com/Wiznet/document_framework/tree/master/docs/Product/iEthernet/W5500/Driver.md",
+  "sidebar": "someSidebar",
+  "previous": {
+    "title": "Datasheet",
+    "permalink": "/docs/Product/iEthernet/W5500/datasheet"
+  },
+  "next": {
+    "title": "Reference Schematic",
+    "permalink": "/docs/Product/iEthernet/W5500/ref_schematic"
+  }
+}

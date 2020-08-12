@@ -1,0 +1,19 @@
+{
+  "unversionedId": "Product/iEthernet/W6100/driver_basic_project",
+  "id": "Product/iEthernet/W6100/driver_basic_project",
+  "isDocsHomePage": false,
+  "title": "Driver & Basic Project",
+  "description": "The io6Library means \"Internet Offload Library\" for WIZnet chip. It",
+  "source": "@site/docs/Product/iEthernet/W6100/Driver_&_Basic_Project.md",
+  "permalink": "/docs/Product/iEthernet/W6100/driver_basic_project",
+  "editUrl": "https://github.com/Wiznet/document_framework/tree/master/docs/Product/iEthernet/W6100/Driver_&_Basic_Project.md",
+  "sidebar": "someSidebar",
+  "previous": {
+    "title": "Document",
+    "permalink": "/docs/Product/iEthernet/W6100/document"
+  },
+  "next": {
+    "title": "Ref. Schematic",
+    "permalink": "/docs/Product/iEthernet/W6100/ref_schematic"
+  }
+}

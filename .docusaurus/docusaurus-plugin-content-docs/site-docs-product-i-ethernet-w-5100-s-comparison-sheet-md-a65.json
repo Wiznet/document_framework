@@ -1,0 +1,19 @@
+{
+  "unversionedId": "Product/iEthernet/W5100S/comparison_sheet",
+  "id": "Product/iEthernet/W5100S/comparison_sheet",
+  "isDocsHomePage": false,
+  "title": "W5100S Comparison Sheet",
+  "description": "Functionally, W5100S is very similar to W5100 and W5500, with",
+  "source": "@site/docs/Product/iEthernet/W5100S/Comparison_Sheet.md",
+  "permalink": "/docs/Product/iEthernet/W5100S/comparison_sheet",
+  "editUrl": "https://github.com/Wiznet/document_framework/tree/master/docs/Product/iEthernet/W5100S/Comparison_Sheet.md",
+  "sidebar": "someSidebar",
+  "previous": {
+    "title": "Reference Schematic",
+    "permalink": "/docs/Product/iEthernet/W5100S/ref_schematic"
+  },
+  "next": {
+    "title": "W5100S TCP Function",
+    "permalink": "/docs/Product/iEthernet/W5100S/Application-Note/tcp"
+  }
+}

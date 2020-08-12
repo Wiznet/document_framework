@@ -1,0 +1,19 @@
+{
+  "unversionedId": "Product/S2E-Module/WIZ750SR/configuration_tool_manual_new-[KO]",
+  "id": "Product/S2E-Module/WIZ750SR/configuration_tool_manual_new-[KO]",
+  "isDocsHomePage": false,
+  "title": "Configuration Tool Manual (New)-[KO]",
+  "description": "Supported Languages",
+  "source": "@site/docs/Product/S2E-Module/WIZ750SR/Configuration_Tool_Manual_(New)-[KO].md",
+  "permalink": "/docs/Product/S2E-Module/WIZ750SR/configuration_tool_manual_new-[KO]",
+  "editUrl": "https://github.com/Wiznet/document_framework/tree/master/docs/Product/S2E-Module/WIZ750SR/Configuration_Tool_Manual_(New)-[KO].md",
+  "sidebar": "someSidebar",
+  "previous": {
+    "title": "User's Manual-[EN]",
+    "permalink": "/docs/Product/S2E-Module/WIZ750SR/users_manual-[EN]"
+  },
+  "next": {
+    "title": "Configuration Tool Manual (New)-[EN]",
+    "permalink": "/docs/Product/S2E-Module/WIZ750SR/configuration_tool_manual_new-[EN]"
+  }
+}

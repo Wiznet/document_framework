@@ -1,0 +1,19 @@
+{
+  "unversionedId": "Design-Guide/eagle_cad_library_of_wiznet_products",
+  "id": "Design-Guide/eagle_cad_library_of_wiznet_products",
+  "isDocsHomePage": false,
+  "title": "Eagle CAD Library of WIZnet Products",
+  "description": "- W5500",
+  "source": "@site/docs/Design-Guide/Eagle_CAD_Library_of_WIZnet_Products.md",
+  "permalink": "/docs/Design-Guide/eagle_cad_library_of_wiznet_products",
+  "editUrl": "https://github.com/Wiznet/document_framework/tree/master/docs/Design-Guide/Eagle_CAD_Library_of_WIZnet_Products.md",
+  "sidebar": "someSidebar",
+  "previous": {
+    "title": "IR Reflow Profile",
+    "permalink": "/docs/Design-Guide/ir_reflow_profile"
+  },
+  "next": {
+    "title": "VAR Products using WIZnet",
+    "permalink": "/docs/VAR-Products-using-WIZnet/var_products_using_wiznet"
+  }
+}

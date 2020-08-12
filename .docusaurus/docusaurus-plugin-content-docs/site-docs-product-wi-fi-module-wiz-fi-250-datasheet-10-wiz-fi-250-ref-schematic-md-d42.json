@@ -1,0 +1,19 @@
+{
+  "unversionedId": "Product/Wi-Fi-Module/WizFi250/Datasheet/10_wizfi250_ref_schematic",
+  "id": "Product/Wi-Fi-Module/WizFi250/Datasheet/10_wizfi250_ref_schematic",
+  "isDocsHomePage": false,
+  "title": "10.WizFi250 Ref. Schematic",
+  "description": "Ref Schematic",
+  "source": "@site/docs/Product/Wi-Fi-Module/WizFi250/Datasheet/10.WizFi250_Ref._Schematic.md",
+  "permalink": "/docs/Product/Wi-Fi-Module/WizFi250/Datasheet/10_wizfi250_ref_schematic",
+  "editUrl": "https://github.com/Wiznet/document_framework/tree/master/docs/Product/Wi-Fi-Module/WizFi250/Datasheet/10.WizFi250_Ref._Schematic.md",
+  "sidebar": "someSidebar",
+  "previous": {
+    "title": "9.Recommend reflow profile",
+    "permalink": "/docs/Product/Wi-Fi-Module/WizFi250/Datasheet/9_recommend_reflow_profile"
+  },
+  "next": {
+    "title": "Instruction to OEM",
+    "permalink": "/docs/Product/Wi-Fi-Module/WizFi250/Datasheet/instruction_to_oem"
+  }
+}

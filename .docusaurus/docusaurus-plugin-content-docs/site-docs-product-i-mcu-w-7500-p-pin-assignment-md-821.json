@@ -1,0 +1,19 @@
+{
+  "unversionedId": "Product/iMCU/W7500P/pin_assignment",
+  "id": "Product/iMCU/W7500P/pin_assignment",
+  "isDocsHomePage": false,
+  "title": "Pin Assignment",
+  "description": "Pin Layout",
+  "source": "@site/docs/Product/iMCU/W7500P/Pin_Assignment.md",
+  "permalink": "/docs/Product/iMCU/W7500P/pin_assignment",
+  "editUrl": "https://github.com/Wiznet/document_framework/tree/master/docs/Product/iMCU/W7500P/Pin_Assignment.md",
+  "sidebar": "someSidebar",
+  "previous": {
+    "title": "Overview",
+    "permalink": "/docs/Product/iMCU/W7500P/overview"
+  },
+  "next": {
+    "title": "System and Memory overview",
+    "permalink": "/docs/Product/iMCU/W7500P/system_and_memory"
+  }
+}

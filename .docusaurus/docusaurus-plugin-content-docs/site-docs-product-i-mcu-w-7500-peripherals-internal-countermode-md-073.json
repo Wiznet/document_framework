@@ -1,0 +1,10 @@
+{
+  "unversionedId": "Product/iMCU/W7500/Peripherals-internal/countermode",
+  "id": "Product/iMCU/W7500/Peripherals-internal/countermode",
+  "isDocsHomePage": false,
+  "title": "PWM Counter Mode example",
+  "description": "********************",
+  "source": "@site/docs/Product/iMCU/W7500/Peripherals-internal/countermode.md",
+  "permalink": "/docs/Product/iMCU/W7500/Peripherals-internal/countermode",
+  "editUrl": "https://github.com/Wiznet/document_framework/tree/master/docs/Product/iMCU/W7500/Peripherals-internal/countermode.md"
+}

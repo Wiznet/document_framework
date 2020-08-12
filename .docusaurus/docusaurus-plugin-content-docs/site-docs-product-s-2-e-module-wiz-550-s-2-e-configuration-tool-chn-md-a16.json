@@ -1,0 +1,10 @@
+{
+  "unversionedId": "Product/S2E-Module/WIZ550S2E/configuration_tool_chn",
+  "id": "Product/S2E-Module/WIZ550S2E/configuration_tool_chn",
+  "isDocsHomePage": false,
+  "title": "Configuration Tool(Chn)",
+  "description": "Configuration Tool",
+  "source": "@site/docs/Product/S2E-Module/WIZ550S2E/Configuration_Tool(Chn).md",
+  "permalink": "/docs/Product/S2E-Module/WIZ550S2E/configuration_tool_chn",
+  "editUrl": "https://github.com/Wiznet/document_framework/tree/master/docs/Product/S2E-Module/WIZ550S2E/Configuration_Tool(Chn).md"
+}

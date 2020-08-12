@@ -1,0 +1,10 @@
+{
+  "unversionedId": "Product/iMCU/W7500/documents/appnote/how_to_install_KEIL",
+  "id": "Product/iMCU/W7500/documents/appnote/how_to_install_KEIL",
+  "isDocsHomePage": false,
+  "title": "How to install KEIL",
+  "description": "How to install Keil uVision MDK-Lite version",
+  "source": "@site/docs/Product/iMCU/W7500/documents/appnote/How_to_install_KEIL.md",
+  "permalink": "/docs/Product/iMCU/W7500/documents/appnote/how_to_install_KEIL",
+  "editUrl": "https://github.com/Wiznet/document_framework/tree/master/docs/Product/iMCU/W7500/documents/appnote/How_to_install_KEIL.md"
+}

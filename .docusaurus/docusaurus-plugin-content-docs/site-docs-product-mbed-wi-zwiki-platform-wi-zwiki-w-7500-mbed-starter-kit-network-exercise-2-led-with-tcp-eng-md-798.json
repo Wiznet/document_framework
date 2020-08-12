@@ -1,0 +1,19 @@
+{
+  "unversionedId": "Product/Mbed-WIZwiki-Platform/WIZwiki-W7500-Mbed-Starter-Kit/network_exercise_2_led_with_tcp_eng",
+  "id": "Product/Mbed-WIZwiki-Platform/WIZwiki-W7500-Mbed-Starter-Kit/network_exercise_2_led_with_tcp_eng",
+  "isDocsHomePage": false,
+  "title": "Network Exercise 2. LED with TCP(Eng)",
+  "description": "Controlling LED with TCP communication",
+  "source": "@site/docs/Product/Mbed-WIZwiki-Platform/WIZwiki-W7500-Mbed-Starter-Kit/Network_Exercise_2._LED_with_TCP(Eng).md",
+  "permalink": "/docs/Product/Mbed-WIZwiki-Platform/WIZwiki-W7500-Mbed-Starter-Kit/network_exercise_2_led_with_tcp_eng",
+  "editUrl": "https://github.com/Wiznet/document_framework/tree/master/docs/Product/Mbed-WIZwiki-Platform/WIZwiki-W7500-Mbed-Starter-Kit/Network_Exercise_2._LED_with_TCP(Eng).md",
+  "sidebar": "someSidebar",
+  "previous": {
+    "title": "Network Exercise 1. TCP loopback(Eng)",
+    "permalink": "/docs/Product/Mbed-WIZwiki-Platform/WIZwiki-W7500-Mbed-Starter-Kit/network_exercise_1_tcp_loopback_eng"
+  },
+  "next": {
+    "title": "Open Source Hardware",
+    "permalink": "/docs/Product/Open-Source-Hardware/open_source_hardware"
+  }
+}

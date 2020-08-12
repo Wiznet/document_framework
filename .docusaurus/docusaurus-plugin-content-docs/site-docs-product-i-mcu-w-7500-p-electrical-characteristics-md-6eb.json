@@ -1,0 +1,19 @@
+{
+  "unversionedId": "Product/iMCU/W7500P/electrical_characteristics",
+  "id": "Product/iMCU/W7500P/electrical_characteristics",
+  "isDocsHomePage": false,
+  "title": "Electrical Characteristics",
+  "description": "Absolute maximum ratings",
+  "source": "@site/docs/Product/iMCU/W7500P/Electrical_Characteristics.md",
+  "permalink": "/docs/Product/iMCU/W7500P/electrical_characteristics",
+  "editUrl": "https://github.com/Wiznet/document_framework/tree/master/docs/Product/iMCU/W7500P/Electrical_Characteristics.md",
+  "sidebar": "someSidebar",
+  "previous": {
+    "title": "Booting Sequence",
+    "permalink": "/docs/Product/iMCU/W7500P/booting_sequence"
+  },
+  "next": {
+    "title": "W7500P Ref.Schematic",
+    "permalink": "/docs/Product/iMCU/W7500P/w7500p_ref_schematic"
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "unversionedId": "Design-Guide/ir_reflow_profile",
+  "id": "Design-Guide/ir_reflow_profile",
+  "isDocsHomePage": false,
+  "title": "IR Reflow Profile",
+  "description": "Reflow Profile",
+  "source": "@site/docs/Design-Guide/IR_Reflow_Profile.md",
+  "permalink": "/docs/Design-Guide/ir_reflow_profile",
+  "editUrl": "https://github.com/Wiznet/document_framework/tree/master/docs/Design-Guide/IR_Reflow_Profile.md",
+  "sidebar": "someSidebar",
+  "previous": {
+    "title": "Package Information",
+    "permalink": "/docs/Design-Guide/package_information"
+  },
+  "next": {
+    "title": "Eagle CAD Library of WIZnet Products",
+    "permalink": "/docs/Design-Guide/eagle_cad_library_of_wiznet_products"
+  }
+}

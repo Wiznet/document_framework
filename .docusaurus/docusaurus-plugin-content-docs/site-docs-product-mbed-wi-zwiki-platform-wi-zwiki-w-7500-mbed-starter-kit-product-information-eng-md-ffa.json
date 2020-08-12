@@ -1,0 +1,19 @@
+{
+  "unversionedId": "Product/Mbed-WIZwiki-Platform/WIZwiki-W7500-Mbed-Starter-Kit/product_information_eng",
+  "id": "Product/Mbed-WIZwiki-Platform/WIZwiki-W7500-Mbed-Starter-Kit/product_information_eng",
+  "isDocsHomePage": false,
+  "title": "Product Information(Eng)",
+  "description": "Introduction",
+  "source": "@site/docs/Product/Mbed-WIZwiki-Platform/WIZwiki-W7500-Mbed-Starter-Kit/Product_Information(Eng).md",
+  "permalink": "/docs/Product/Mbed-WIZwiki-Platform/WIZwiki-W7500-Mbed-Starter-Kit/product_information_eng",
+  "editUrl": "https://github.com/Wiznet/document_framework/tree/master/docs/Product/Mbed-WIZwiki-Platform/WIZwiki-W7500-Mbed-Starter-Kit/Product_Information(Eng).md",
+  "sidebar": "someSidebar",
+  "previous": {
+    "title": "네트워크 예제2. TCP 통신으로 LED 제어하기",
+    "permalink": "/docs/Product/Mbed-WIZwiki-Platform/WIZwiki-W7500-Mbed-Starter-Kit/network_exercise_2_led_with_tcp_kor"
+  },
+  "next": {
+    "title": "Tutorial(Eng)",
+    "permalink": "/docs/Product/Mbed-WIZwiki-Platform/WIZwiki-W7500-Mbed-Starter-Kit/tutorial_eng"
+  }
+}

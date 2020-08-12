@@ -1,0 +1,19 @@
+{
+  "unversionedId": "Product/Wi-Fi-Module/WizFi250/Datasheet/7_dimensions_weight_and_mounting",
+  "id": "Product/Wi-Fi-Module/WizFi250/Datasheet/7_dimensions_weight_and_mounting",
+  "isDocsHomePage": false,
+  "title": "7.Dimensions, weight and mounting",
+  "description": "Dimensions, weight and mounting",
+  "source": "@site/docs/Product/Wi-Fi-Module/WizFi250/Datasheet/7.Dimensions,_weight_and_mounting.md",
+  "permalink": "/docs/Product/Wi-Fi-Module/WizFi250/Datasheet/7_dimensions_weight_and_mounting",
+  "editUrl": "https://github.com/Wiznet/document_framework/tree/master/docs/Product/Wi-Fi-Module/WizFi250/Datasheet/7.Dimensions,_weight_and_mounting.md",
+  "sidebar": "someSidebar",
+  "previous": {
+    "title": "6.IO port characteristics",
+    "permalink": "/docs/Product/Wi-Fi-Module/WizFi250/Datasheet/6_io_port_characteristics"
+  },
+  "next": {
+    "title": "8.Design Guide",
+    "permalink": "/docs/Product/Wi-Fi-Module/WizFi250/Datasheet/8_design_guide"
+  }
+}

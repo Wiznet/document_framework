@@ -1,0 +1,10 @@
+{
+  "unversionedId": "Product/iMCU/W7500/Peripherals-internal/sleep",
+  "id": "Product/iMCU/W7500/Peripherals-internal/sleep",
+  "isDocsHomePage": false,
+  "title": "EXTI Sleep example",
+  "description": "********************",
+  "source": "@site/docs/Product/iMCU/W7500/Peripherals-internal/sleep.md",
+  "permalink": "/docs/Product/iMCU/W7500/Peripherals-internal/sleep",
+  "editUrl": "https://github.com/Wiznet/document_framework/tree/master/docs/Product/iMCU/W7500/Peripherals-internal/sleep.md"
+}

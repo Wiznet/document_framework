@@ -1,0 +1,19 @@
+{
+  "unversionedId": "Product/iEthernet/W5500/Application/spi_performance",
+  "id": "Product/iEthernet/W5500/Application/spi_performance",
+  "isDocsHomePage": false,
+  "title": "SPI Performance",
+  "description": "W5500 Performance",
+  "source": "@site/docs/Product/iEthernet/W5500/Application/SPI_Performance.md",
+  "permalink": "/docs/Product/iEthernet/W5500/Application/spi_performance",
+  "editUrl": "https://github.com/Wiznet/document_framework/tree/master/docs/Product/iEthernet/W5500/Application/SPI_Performance.md",
+  "sidebar": "someSidebar",
+  "previous": {
+    "title": "PPPoE",
+    "permalink": "/docs/Product/iEthernet/W5500/Application/pppoe"
+  },
+  "next": {
+    "title": "ESD Test Document",
+    "permalink": "/docs/Product/iEthernet/W5500/esd_test_document"
+  }
+}

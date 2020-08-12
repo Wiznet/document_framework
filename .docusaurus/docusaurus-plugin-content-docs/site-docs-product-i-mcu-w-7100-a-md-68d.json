@@ -1,0 +1,10 @@
+{
+  "unversionedId": "Product/iMCU/w7100a",
+  "id": "Product/iMCU/w7100a",
+  "isDocsHomePage": false,
+  "title": "W7100A",
+  "description": "virtual W7100A datasheet - under construction",
+  "source": "@site/docs/Product/iMCU/W7100A.md",
+  "permalink": "/docs/Product/iMCU/w7100a",
+  "editUrl": "https://github.com/Wiznet/document_framework/tree/master/docs/Product/iMCU/W7100A.md"
+}

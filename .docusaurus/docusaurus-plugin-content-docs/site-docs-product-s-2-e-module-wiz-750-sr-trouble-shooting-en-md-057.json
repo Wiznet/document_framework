@@ -1,0 +1,19 @@
+{
+  "unversionedId": "Product/S2E-Module/WIZ750SR/trouble_shooting-[EN]",
+  "id": "Product/S2E-Module/WIZ750SR/trouble_shooting-[EN]",
+  "isDocsHomePage": false,
+  "title": "Trouble Shooting-[EN]",
+  "description": "Supported Languages",
+  "source": "@site/docs/Product/S2E-Module/WIZ750SR/Trouble_Shooting-[EN].md",
+  "permalink": "/docs/Product/S2E-Module/WIZ750SR/trouble_shooting-[EN]",
+  "editUrl": "https://github.com/Wiznet/document_framework/tree/master/docs/Product/S2E-Module/WIZ750SR/Trouble_Shooting-[EN].md",
+  "sidebar": "someSidebar",
+  "previous": {
+    "title": "Trouble Shooting-[KO]",
+    "permalink": "/docs/Product/S2E-Module/WIZ750SR/trouble_shooting-[KO]"
+  },
+  "next": {
+    "title": "WIZ750SR Datasheet",
+    "permalink": "/docs/Product/S2E-Module/WIZ750SR/datasheet"
+  }
+}

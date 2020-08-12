@@ -1,0 +1,19 @@
+{
+  "unversionedId": "Product/Open-Source-Hardware/wizarduino_mega_wifi",
+  "id": "Product/Open-Source-Hardware/wizarduino_mega_wifi",
+  "isDocsHomePage": false,
+  "title": "WizArduino MEGA WIFI",
+  "description": "-----",
+  "source": "@site/docs/Product/Open-Source-Hardware/WizArduino_MEGA_WIFI.md",
+  "permalink": "/docs/Product/Open-Source-Hardware/wizarduino_mega_wifi",
+  "editUrl": "https://github.com/Wiznet/document_framework/tree/master/docs/Product/Open-Source-Hardware/WizArduino_MEGA_WIFI.md",
+  "sidebar": "someSidebar",
+  "previous": {
+    "title": "WizArduino M0 ETH",
+    "permalink": "/docs/Product/Open-Source-Hardware/wizarduino_m0_eth"
+  },
+  "next": {
+    "title": "WizFi310 Shield",
+    "permalink": "/docs/Product/Open-Source-Hardware/wizfi310_shield"
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "unversionedId": "Product/Wi-Fi-Module/WizFi250/Programers-Guide/io_pin",
+  "id": "Product/Wi-Fi-Module/WizFi250/Programers-Guide/io_pin",
+  "isDocsHomePage": false,
+  "title": "IO Pin",
+  "description": "PIN Description",
+  "source": "@site/docs/Product/Wi-Fi-Module/WizFi250/Programers-Guide/IO_Pin.md",
+  "permalink": "/docs/Product/Wi-Fi-Module/WizFi250/Programers-Guide/io_pin",
+  "editUrl": "https://github.com/Wiznet/document_framework/tree/master/docs/Product/Wi-Fi-Module/WizFi250/Programers-Guide/IO_Pin.md",
+  "sidebar": "someSidebar",
+  "previous": {
+    "title": "AT Command Set",
+    "permalink": "/docs/Product/Wi-Fi-Module/WizFi250/Programers-Guide/at_command_set"
+  },
+  "next": {
+    "title": "How to Use Web Configuration",
+    "permalink": "/docs/Product/Wi-Fi-Module/WizFi250/Programers-Guide/how_to_use_web_configuration"
+  }
+}

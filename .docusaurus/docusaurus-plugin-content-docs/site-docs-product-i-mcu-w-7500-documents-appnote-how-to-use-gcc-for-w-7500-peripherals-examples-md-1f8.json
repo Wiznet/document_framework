@@ -1,0 +1,10 @@
+{
+  "unversionedId": "Product/iMCU/W7500/documents/appnote/how_to_use_gcc_for_w7500_peripherals_examples",
+  "id": "Product/iMCU/W7500/documents/appnote/how_to_use_gcc_for_w7500_peripherals_examples",
+  "isDocsHomePage": false,
+  "title": "How to use GCC for W7500 Peripherals Examples",
+  "description": "How to use the makefile with windows7",
+  "source": "@site/docs/Product/iMCU/W7500/documents/appnote/How_to_use_GCC_for_W7500_Peripherals_Examples.md",
+  "permalink": "/docs/Product/iMCU/W7500/documents/appnote/how_to_use_gcc_for_w7500_peripherals_examples",
+  "editUrl": "https://github.com/Wiznet/document_framework/tree/master/docs/Product/iMCU/W7500/documents/appnote/How_to_use_GCC_for_W7500_Peripherals_Examples.md"
+}

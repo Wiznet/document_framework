@@ -1,0 +1,19 @@
+{
+  "unversionedId": "Product/Open-Source-Hardware/open_source_hardware",
+  "id": "Product/Open-Source-Hardware/open_source_hardware",
+  "isDocsHomePage": false,
+  "title": "Open Source Hardware",
+  "description": "What's the Open Source Hardware?",
+  "source": "@site/docs/Product/Open-Source-Hardware/Open_Source_Hardware.md",
+  "permalink": "/docs/Product/Open-Source-Hardware/open_source_hardware",
+  "editUrl": "https://github.com/Wiznet/document_framework/tree/master/docs/Product/Open-Source-Hardware/Open_Source_Hardware.md",
+  "sidebar": "someSidebar",
+  "previous": {
+    "title": "Network Exercise 2. LED with TCP(Eng)",
+    "permalink": "/docs/Product/Mbed-WIZwiki-Platform/WIZwiki-W7500-Mbed-Starter-Kit/network_exercise_2_led_with_tcp_eng"
+  },
+  "next": {
+    "title": "W5100S (MKR-)Ethernet Shield",
+    "permalink": "/docs/Product/Open-Source-Hardware/w5100s_mkr_ethernet_shield"
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "unversionedId": "Product/S2E-Module/WIZ750SR-1xx-Series/WIZ750SR-100/overview-[KO]",
+  "id": "Product/S2E-Module/WIZ750SR-1xx-Series/WIZ750SR-100/overview-[KO]",
+  "isDocsHomePage": false,
+  "title": "Overview-[KO]",
+  "description": "Supported Languages",
+  "source": "@site/docs/Product/S2E-Module/WIZ750SR-1xx-Series/WIZ750SR-100/Overview-[KO].md",
+  "permalink": "/docs/Product/S2E-Module/WIZ750SR-1xx-Series/WIZ750SR-100/overview-[KO]",
+  "editUrl": "https://github.com/Wiznet/document_framework/tree/master/docs/Product/S2E-Module/WIZ750SR-1xx-Series/WIZ750SR-100/Overview-[KO].md",
+  "sidebar": "someSidebar",
+  "previous": {
+    "title": "WIZ750SR-100",
+    "permalink": "/docs/Product/S2E-Module/WIZ750SR-1xx-Series/WIZ750SR-100/wiz750sr_100"
+  },
+  "next": {
+    "title": "Overview-[EN]",
+    "permalink": "/docs/Product/S2E-Module/WIZ750SR-1xx-Series/WIZ750SR-100/overview-[EN]"
+  }
+}

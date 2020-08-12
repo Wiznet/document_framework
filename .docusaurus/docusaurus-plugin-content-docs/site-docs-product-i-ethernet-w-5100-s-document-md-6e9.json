@@ -1,0 +1,19 @@
+{
+  "unversionedId": "Product/iEthernet/W5100S/document",
+  "id": "Product/iEthernet/W5100S/document",
+  "isDocsHomePage": false,
+  "title": "Document",
+  "description": "----",
+  "source": "@site/docs/Product/iEthernet/W5100S/Document.md",
+  "permalink": "/docs/Product/iEthernet/W5100S/document",
+  "editUrl": "https://github.com/Wiznet/document_framework/tree/master/docs/Product/iEthernet/W5100S/Document.md",
+  "sidebar": "someSidebar",
+  "previous": {
+    "title": "Overview",
+    "permalink": "/docs/Product/iEthernet/W5100S/overview"
+  },
+  "next": {
+    "title": "Driver",
+    "permalink": "/docs/Product/iEthernet/W5100S/driver"
+  }
+}

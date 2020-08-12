@@ -1,0 +1,19 @@
+{
+  "unversionedId": "Product/Mbed-WIZwiki-Platform/WIZwiki-W7500-Mbed-Starter-Kit/exercise_2_serial_port_kor",
+  "id": "Product/Mbed-WIZwiki-Platform/WIZwiki-W7500-Mbed-Starter-Kit/exercise_2_serial_port_kor",
+  "isDocsHomePage": false,
+  "title": "튜토리얼 예제2. 시리얼 포트를 이용해 데이터 출력하기",
+  "description": "개요",
+  "source": "@site/docs/Product/Mbed-WIZwiki-Platform/WIZwiki-W7500-Mbed-Starter-Kit/Exercise_2._Serial_port(Kor).md",
+  "permalink": "/docs/Product/Mbed-WIZwiki-Platform/WIZwiki-W7500-Mbed-Starter-Kit/exercise_2_serial_port_kor",
+  "editUrl": "https://github.com/Wiznet/document_framework/tree/master/docs/Product/Mbed-WIZwiki-Platform/WIZwiki-W7500-Mbed-Starter-Kit/Exercise_2._Serial_port(Kor).md",
+  "sidebar": "someSidebar",
+  "previous": {
+    "title": "튜토리얼 예제1. LED 깜박이기",
+    "permalink": "/docs/Product/Mbed-WIZwiki-Platform/WIZwiki-W7500-Mbed-Starter-Kit/exercise_1_led_kor"
+  },
+  "next": {
+    "title": "튜토리얼 예제3. 버튼으로 LED 깜박이기",
+    "permalink": "/docs/Product/Mbed-WIZwiki-Platform/WIZwiki-W7500-Mbed-Starter-Kit/exercise_3_switch_kor"
+  }
+}

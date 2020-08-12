@@ -1,0 +1,19 @@
+{
+  "unversionedId": "Product/iEthernet/W5100S/Application-Note/udp",
+  "id": "Product/iEthernet/W5100S/Application-Note/udp",
+  "isDocsHomePage": false,
+  "title": "W5100S UDP Function",
+  "description": "By setting some register and memory operation, W5100S provides internet",
+  "source": "@site/docs/Product/iEthernet/W5100S/Application-Note/UDP.md",
+  "permalink": "/docs/Product/iEthernet/W5100S/Application-Note/udp",
+  "editUrl": "https://github.com/Wiznet/document_framework/tree/master/docs/Product/iEthernet/W5100S/Application-Note/UDP.md",
+  "sidebar": "someSidebar",
+  "previous": {
+    "title": "W5100S TCP Function",
+    "permalink": "/docs/Product/iEthernet/W5100S/Application-Note/tcp"
+  },
+  "next": {
+    "title": "IPRAW",
+    "permalink": "/docs/Product/iEthernet/W5100S/Application-Note/ipraw"
+  }
+}

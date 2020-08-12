@@ -1,0 +1,19 @@
+{
+  "unversionedId": "Product/iEthernet/iethernet",
+  "id": "Product/iEthernet/iethernet",
+  "isDocsHomePage": false,
+  "title": "iEthernet",
+  "description": "Overview",
+  "source": "@site/docs/Product/iEthernet/iEthernet.md",
+  "permalink": "/docs/Product/iEthernet/iethernet",
+  "editUrl": "https://github.com/Wiznet/document_framework/tree/master/docs/Product/iEthernet/iEthernet.md",
+  "sidebar": "someSidebar",
+  "previous": {
+    "title": "W7500(P)-S2E (EN)",
+    "permalink": "/docs/Product/Pre-programmed-MCU/W7500P-S2E/w7500p-s2e-[EN]"
+  },
+  "next": {
+    "title": "Overview",
+    "permalink": "/docs/Product/iEthernet/W6100/overview"
+  }
+}

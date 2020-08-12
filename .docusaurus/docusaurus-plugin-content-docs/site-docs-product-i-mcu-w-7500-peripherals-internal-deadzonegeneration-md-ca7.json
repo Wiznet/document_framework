@@ -1,0 +1,10 @@
+{
+  "unversionedId": "Product/iMCU/W7500/Peripherals-internal/deadzonegeneration",
+  "id": "Product/iMCU/W7500/Peripherals-internal/deadzonegeneration",
+  "isDocsHomePage": false,
+  "title": "Dead-Zone generation example",
+  "description": "********************",
+  "source": "@site/docs/Product/iMCU/W7500/Peripherals-internal/deadzonegeneration.md",
+  "permalink": "/docs/Product/iMCU/W7500/Peripherals-internal/deadzonegeneration",
+  "editUrl": "https://github.com/Wiznet/document_framework/tree/master/docs/Product/iMCU/W7500/Peripherals-internal/deadzonegeneration.md"
+}

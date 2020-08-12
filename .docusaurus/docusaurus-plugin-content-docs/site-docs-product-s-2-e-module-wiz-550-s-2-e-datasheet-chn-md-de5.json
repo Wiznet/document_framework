@@ -1,0 +1,19 @@
+{
+  "unversionedId": "Product/S2E-Module/WIZ550S2E/datasheet_chn",
+  "id": "Product/S2E-Module/WIZ550S2E/datasheet_chn",
+  "isDocsHomePage": false,
+  "title": "Datasheet(Chn)",
+  "description": "概述",
+  "source": "@site/docs/Product/S2E-Module/WIZ550S2E/Datasheet(Chn).md",
+  "permalink": "/docs/Product/S2E-Module/WIZ550S2E/datasheet_chn",
+  "editUrl": "https://github.com/Wiznet/document_framework/tree/master/docs/Product/S2E-Module/WIZ550S2E/Datasheet(Chn).md",
+  "sidebar": "someSidebar",
+  "previous": {
+    "title": "Datasheet(Eng)",
+    "permalink": "/docs/Product/S2E-Module/WIZ550S2E/datasheet_eng"
+  },
+  "next": {
+    "title": "Programmer Guide(Kor)",
+    "permalink": "/docs/Product/S2E-Module/WIZ550S2E/programmer_guide_kor"
+  }
+}

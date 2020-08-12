@@ -1,0 +1,19 @@
+{
+  "unversionedId": "Product/iMCU/W7500/documents_md",
+  "id": "Product/iMCU/W7500/documents_md",
+  "isDocsHomePage": false,
+  "title": "Documents",
+  "description": "The DataSheet provides the ordering information and mechanical device characteristics of the W7500/W7500P microcontrollers.",
+  "source": "@site/docs/Product/iMCU/W7500/Documents.md",
+  "permalink": "/docs/Product/iMCU/W7500/documents_md",
+  "editUrl": "https://github.com/Wiznet/document_framework/tree/master/docs/Product/iMCU/W7500/Documents.md",
+  "sidebar": "someSidebar",
+  "previous": {
+    "title": "W7500 Reference Schematics",
+    "permalink": "/docs/Product/iMCU/W7500/w7500_ref_schematic"
+  },
+  "next": {
+    "title": "Peripheral description and examples",
+    "permalink": "/docs/Product/iMCU/W7500/peripherals"
+  }
+}

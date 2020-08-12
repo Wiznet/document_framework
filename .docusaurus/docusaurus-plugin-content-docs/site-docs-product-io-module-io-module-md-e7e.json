@@ -1,0 +1,19 @@
+{
+  "unversionedId": "Product/ioModule/iomodule",
+  "id": "Product/ioModule/iomodule",
+  "isDocsHomePage": false,
+  "title": "ioModule",
+  "description": "Overview",
+  "source": "@site/docs/Product/ioModule/ioModule.md",
+  "permalink": "/docs/Product/ioModule/iomodule",
+  "editUrl": "https://github.com/Wiznet/document_framework/tree/master/docs/Product/ioModule/ioModule.md",
+  "sidebar": "someSidebar",
+  "previous": {
+    "title": "Download",
+    "permalink": "/docs/Product/S2E-Module/WIZ550S2E/download"
+  },
+  "next": {
+    "title": "WIZ610io",
+    "permalink": "/docs/Product/ioModule/WIZ610io/wiz610io"
+  }
+}

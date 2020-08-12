@@ -1,0 +1,10 @@
+{
+  "unversionedId": "Product/iEthernet/W5500/W5500-EVB/how_to_install_and_activate_lpcxpresso",
+  "id": "Product/iEthernet/W5500/W5500-EVB/how_to_install_and_activate_lpcxpresso",
+  "isDocsHomePage": false,
+  "title": "How to Install and Activate LPCXpresso IDE",
+  "description": "Download the LPCXpresso IDE",
+  "source": "@site/docs/Product/iEthernet/W5500/W5500-EVB/How_to_Install_and_Activate_LPCXpresso_IDE.md",
+  "permalink": "/docs/Product/iEthernet/W5500/W5500-EVB/how_to_install_and_activate_lpcxpresso",
+  "editUrl": "https://github.com/Wiznet/document_framework/tree/master/docs/Product/iEthernet/W5500/W5500-EVB/How_to_Install_and_Activate_LPCXpresso_IDE.md"
+}

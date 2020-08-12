@@ -1,0 +1,10 @@
+{
+  "unversionedId": "VAR-Products-using-WIZnet/ble_to_ethernet",
+  "id": "VAR-Products-using-WIZnet/ble_to_ethernet",
+  "isDocsHomePage": false,
+  "title": "BLE to Ethernet",
+  "description": "Using WIZnet TCP/IP Ethernet chip W5500 and the Nordic BLE SoC nRF52832",
+  "source": "@site/docs/VAR-Products-using-WIZnet/bletoethernet.md",
+  "permalink": "/docs/VAR-Products-using-WIZnet/ble_to_ethernet",
+  "editUrl": "https://github.com/Wiznet/document_framework/tree/master/docs/VAR-Products-using-WIZnet/bletoethernet.md"
+}

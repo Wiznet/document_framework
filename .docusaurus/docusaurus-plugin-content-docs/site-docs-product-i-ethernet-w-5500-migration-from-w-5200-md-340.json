@@ -1,0 +1,19 @@
+{
+  "unversionedId": "Product/iEthernet/W5500/migration_from_w5200",
+  "id": "Product/iEthernet/W5500/migration_from_w5200",
+  "isDocsHomePage": false,
+  "title": "Migration from W5200",
+  "description": "Migration from W5200 to W5500",
+  "source": "@site/docs/Product/iEthernet/W5500/Migration_from_W5200.md",
+  "permalink": "/docs/Product/iEthernet/W5500/migration_from_w5200",
+  "editUrl": "https://github.com/Wiznet/document_framework/tree/master/docs/Product/iEthernet/W5500/Migration_from_W5200.md",
+  "sidebar": "someSidebar",
+  "previous": {
+    "title": "Reference Schematic",
+    "permalink": "/docs/Product/iEthernet/W5500/ref_schematic"
+  },
+  "next": {
+    "title": "W5500 TCP Function",
+    "permalink": "/docs/Product/iEthernet/W5500/Application/tcp"
+  }
+}

@@ -1,0 +1,10 @@
+{
+  "unversionedId": "Product/iMCU/W7500/Peripherals-internal/illumination_sensor",
+  "id": "Product/iMCU/W7500/Peripherals-internal/illumination_sensor",
+  "isDocsHomePage": false,
+  "title": "ADC example (Illumination sensor)",
+  "description": "********************",
+  "source": "@site/docs/Product/iMCU/W7500/Peripherals-internal/illumination_sensor.md",
+  "permalink": "/docs/Product/iMCU/W7500/Peripherals-internal/illumination_sensor",
+  "editUrl": "https://github.com/Wiznet/document_framework/tree/master/docs/Product/iMCU/W7500/Peripherals-internal/illumination_sensor.md"
+}

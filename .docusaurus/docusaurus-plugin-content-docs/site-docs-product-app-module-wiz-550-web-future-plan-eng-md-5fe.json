@@ -1,0 +1,19 @@
+{
+  "unversionedId": "Product/App-Module/WIZ550web/future_plan_eng",
+  "id": "Product/App-Module/WIZ550web/future_plan_eng",
+  "isDocsHomePage": false,
+  "title": "Future Plan(Eng)",
+  "description": "Function",
+  "source": "@site/docs/Product/App-Module/WIZ550web/Future_Plan(Eng).md",
+  "permalink": "/docs/Product/App-Module/WIZ550web/future_plan_eng",
+  "editUrl": "https://github.com/Wiznet/document_framework/tree/master/docs/Product/App-Module/WIZ550web/Future_Plan(Eng).md",
+  "sidebar": "someSidebar",
+  "previous": {
+    "title": "Future Plan(Kor)",
+    "permalink": "/docs/Product/App-Module/WIZ550web/future_plan_kor"
+  },
+  "next": {
+    "title": "Tutorials(Kor)",
+    "permalink": "/docs/Product/App-Module/WIZ550web/tutorials_kor"
+  }
+}

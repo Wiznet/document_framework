@@ -1,0 +1,19 @@
+{
+  "unversionedId": "Product/Mbed-WIZwiki-Platform/WIZwiki-W7500-Mbed-Starter-Kit/exercise_6_temperature_sensor_eng",
+  "id": "Product/Mbed-WIZwiki-Platform/WIZwiki-W7500-Mbed-Starter-Kit/exercise_6_temperature_sensor_eng",
+  "isDocsHomePage": false,
+  "title": "Exercise 6. Temperature sensor(Eng)",
+  "description": "Reading the temperature sensor value",
+  "source": "@site/docs/Product/Mbed-WIZwiki-Platform/WIZwiki-W7500-Mbed-Starter-Kit/Exercise_6._Temperature_sensor(Eng).md",
+  "permalink": "/docs/Product/Mbed-WIZwiki-Platform/WIZwiki-W7500-Mbed-Starter-Kit/exercise_6_temperature_sensor_eng",
+  "editUrl": "https://github.com/Wiznet/document_framework/tree/master/docs/Product/Mbed-WIZwiki-Platform/WIZwiki-W7500-Mbed-Starter-Kit/Exercise_6._Temperature_sensor(Eng).md",
+  "sidebar": "someSidebar",
+  "previous": {
+    "title": "Exercise 5. Variable resistor(Eng)",
+    "permalink": "/docs/Product/Mbed-WIZwiki-Platform/WIZwiki-W7500-Mbed-Starter-Kit/exercise_5_variable_resistor_eng"
+  },
+  "next": {
+    "title": "Exercise 7. Photoresistor(Eng)",
+    "permalink": "/docs/Product/Mbed-WIZwiki-Platform/WIZwiki-W7500-Mbed-Starter-Kit/exercise_7_photoresistor_eng"
+  }
+}

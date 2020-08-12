@@ -1,0 +1,19 @@
+{
+  "unversionedId": "Product/Wi-Fi-Module/WizFi250/wizfi250_evb_if_fimension",
+  "id": "Product/Wi-Fi-Module/WizFi250/wizfi250_evb_if_fimension",
+  "isDocsHomePage": false,
+  "title": "WizFi250 EVB & IF Dimension",
+  "description": "WizFi250 EVB Dimension mm)",
+  "source": "@site/docs/Product/Wi-Fi-Module/WizFi250/WizFi250_EVB_&_IF_Dimension.md",
+  "permalink": "/docs/Product/Wi-Fi-Module/WizFi250/wizfi250_evb_if_fimension",
+  "editUrl": "https://github.com/Wiznet/document_framework/tree/master/docs/Product/Wi-Fi-Module/WizFi250/WizFi250_EVB_&_IF_Dimension.md",
+  "sidebar": "someSidebar",
+  "previous": {
+    "title": "2.Start Serial to Wi-Fi",
+    "permalink": "/docs/Product/Wi-Fi-Module/WizFi250/Quick-Start-Guide/2_start_serial_to_wi_fi"
+  },
+  "next": {
+    "title": "WizFi250 Evaluation Board Schematic",
+    "permalink": "/docs/Product/Wi-Fi-Module/WizFi250/wizfi250_evb_sch"
+  }
+}

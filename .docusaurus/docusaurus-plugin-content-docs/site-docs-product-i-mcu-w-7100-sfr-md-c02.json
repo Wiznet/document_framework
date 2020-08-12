@@ -1,0 +1,10 @@
+{
+  "unversionedId": "Product/iMCU/w7100/SFR",
+  "id": "Product/iMCU/w7100/SFR",
+  "isDocsHomePage": false,
+  "title": "SFR",
+  "description": "SFR Memory Map",
+  "source": "@site/docs/Product/iMCU/w7100/SFR.md",
+  "permalink": "/docs/Product/iMCU/w7100/SFR",
+  "editUrl": "https://github.com/Wiznet/document_framework/tree/master/docs/Product/iMCU/w7100/SFR.md"
+}

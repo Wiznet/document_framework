@@ -1,0 +1,19 @@
+{
+  "unversionedId": "Product/Wi-Fi-Module/WizFi250/Datasheet/instruction_to_oem",
+  "id": "Product/Wi-Fi-Module/WizFi250/Datasheet/instruction_to_oem",
+  "isDocsHomePage": false,
+  "title": "Instruction to OEM",
+  "description": "This device complies with Industry Canada’s licence-exempt RSSs.",
+  "source": "@site/docs/Product/Wi-Fi-Module/WizFi250/Datasheet/Instruction_to_OEM.md",
+  "permalink": "/docs/Product/Wi-Fi-Module/WizFi250/Datasheet/instruction_to_oem",
+  "editUrl": "https://github.com/Wiznet/document_framework/tree/master/docs/Product/Wi-Fi-Module/WizFi250/Datasheet/Instruction_to_OEM.md",
+  "sidebar": "someSidebar",
+  "previous": {
+    "title": "10.WizFi250 Ref. Schematic",
+    "permalink": "/docs/Product/Wi-Fi-Module/WizFi250/Datasheet/10_wizfi250_ref_schematic"
+  },
+  "next": {
+    "title": "Overview",
+    "permalink": "/docs/Product/Wi-Fi-Module/WizFi250/Programers-Guide/overview"
+  }
+}

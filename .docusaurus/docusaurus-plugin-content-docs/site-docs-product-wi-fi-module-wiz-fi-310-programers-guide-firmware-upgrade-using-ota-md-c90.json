@@ -1,0 +1,19 @@
+{
+  "unversionedId": "Product/Wi-Fi-Module/WizFi310/Programers-Guide/firmware_upgrade_using_ota",
+  "id": "Product/Wi-Fi-Module/WizFi310/Programers-Guide/firmware_upgrade_using_ota",
+  "isDocsHomePage": false,
+  "title": "Firmware Upgrade(Using OTA)",
+  "description": "WIZnet supports &#60;WizFi310OTATool&#62; for uploading firmware. This",
+  "source": "@site/docs/Product/Wi-Fi-Module/WizFi310/Programers-Guide/Firmware_Upgrade(Using_OTA).md",
+  "permalink": "/docs/Product/Wi-Fi-Module/WizFi310/Programers-Guide/firmware_upgrade_using_ota",
+  "editUrl": "https://github.com/Wiznet/document_framework/tree/master/docs/Product/Wi-Fi-Module/WizFi310/Programers-Guide/Firmware_Upgrade(Using_OTA).md",
+  "sidebar": "someSidebar",
+  "previous": {
+    "title": "Firmware Upgrade(Using Serial Interface)",
+    "permalink": "/docs/Product/Wi-Fi-Module/WizFi310/Programers-Guide/firmware_upgrade_using_serial_interface"
+  },
+  "next": {
+    "title": "Examples",
+    "permalink": "/docs/Product/Wi-Fi-Module/WizFi310/Programers-Guide/examples"
+  }
+}

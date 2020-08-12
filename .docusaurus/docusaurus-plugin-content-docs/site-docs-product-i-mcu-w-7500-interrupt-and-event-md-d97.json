@@ -1,0 +1,19 @@
+{
+  "unversionedId": "Product/iMCU/W7500/interrupt_and_event",
+  "id": "Product/iMCU/W7500/interrupt_and_event",
+  "isDocsHomePage": false,
+  "title": "Interrupt and Event",
+  "description": "Introduction W7500 contains",
+  "source": "@site/docs/Product/iMCU/W7500/Interrupt_and_Event.md",
+  "permalink": "/docs/Product/iMCU/W7500/interrupt_and_event",
+  "editUrl": "https://github.com/Wiznet/document_framework/tree/master/docs/Product/iMCU/W7500/Interrupt_and_Event.md",
+  "sidebar": "someSidebar",
+  "previous": {
+    "title": "System and Memory",
+    "permalink": "/docs/Product/iMCU/W7500/system_and_memory"
+  },
+  "next": {
+    "title": "Power Supply",
+    "permalink": "/docs/Product/iMCU/W7500/power_supply"
+  }
+}

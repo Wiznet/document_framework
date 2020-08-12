@@ -1,0 +1,19 @@
+{
+  "unversionedId": "Product/ioModule/WIZ550io/dimension",
+  "id": "Product/ioModule/WIZ550io/dimension",
+  "isDocsHomePage": false,
+  "title": "Dimension",
+  "description": "WIZ550io Ver1.0",
+  "source": "@site/docs/Product/ioModule/WIZ550io/Dimension.md",
+  "permalink": "/docs/Product/ioModule/WIZ550io/dimension",
+  "editUrl": "https://github.com/Wiznet/document_framework/tree/master/docs/Product/ioModule/WIZ550io/Dimension.md",
+  "sidebar": "someSidebar",
+  "previous": {
+    "title": "Block Diagram & Schematic",
+    "permalink": "/docs/Product/ioModule/WIZ550io/block_diagram_schematic"
+  },
+  "next": {
+    "title": "Related Products",
+    "permalink": "/docs/Product/ioModule/WIZ550io/related_products"
+  }
+}

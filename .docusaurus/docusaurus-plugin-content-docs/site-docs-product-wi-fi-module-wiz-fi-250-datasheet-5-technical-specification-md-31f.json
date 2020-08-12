@@ -1,0 +1,19 @@
+{
+  "unversionedId": "Product/Wi-Fi-Module/WizFi250/Datasheet/5_technical_specification",
+  "id": "Product/Wi-Fi-Module/WizFi250/Datasheet/5_technical_specification",
+  "isDocsHomePage": false,
+  "title": "5.Technical specification",
+  "description": "Absolute maximum rating",
+  "source": "@site/docs/Product/Wi-Fi-Module/WizFi250/Datasheet/5.Technical_specification.md",
+  "permalink": "/docs/Product/Wi-Fi-Module/WizFi250/Datasheet/5_technical_specification",
+  "editUrl": "https://github.com/Wiznet/document_framework/tree/master/docs/Product/Wi-Fi-Module/WizFi250/Datasheet/5.Technical_specification.md",
+  "sidebar": "someSidebar",
+  "previous": {
+    "title": "4.Pin description",
+    "permalink": "/docs/Product/Wi-Fi-Module/WizFi250/Datasheet/4_pin_description"
+  },
+  "next": {
+    "title": "6.IO port characteristics",
+    "permalink": "/docs/Product/Wi-Fi-Module/WizFi250/Datasheet/6_io_port_characteristics"
+  }
+}

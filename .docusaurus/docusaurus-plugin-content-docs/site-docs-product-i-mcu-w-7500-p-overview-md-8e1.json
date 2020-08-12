@@ -1,0 +1,19 @@
+{
+  "unversionedId": "Product/iMCU/W7500P/overview",
+  "id": "Product/iMCU/W7500P/overview",
+  "isDocsHomePage": false,
+  "title": "Overview",
+  "description": "W7500P",
+  "source": "@site/docs/Product/iMCU/W7500P/Overview.md",
+  "permalink": "/docs/Product/iMCU/W7500P/overview",
+  "editUrl": "https://github.com/Wiznet/document_framework/tree/master/docs/Product/iMCU/W7500P/Overview.md",
+  "sidebar": "someSidebar",
+  "previous": {
+    "title": "Library and Peripheral Example",
+    "permalink": "/docs/Product/iMCU/W7500/libraries_examples"
+  },
+  "next": {
+    "title": "Pin Assignment",
+    "permalink": "/docs/Product/iMCU/W7500P/pin_assignment"
+  }
+}

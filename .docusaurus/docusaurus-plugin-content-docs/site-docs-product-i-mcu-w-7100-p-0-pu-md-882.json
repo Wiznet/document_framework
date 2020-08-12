@@ -1,0 +1,10 @@
+{
+  "unversionedId": "Product/iMCU/w7100/P0_PU",
+  "id": "Product/iMCU/w7100/P0_PU",
+  "isDocsHomePage": false,
+  "title": "P0_PU",
+  "description": "P0\\_PU (0xEB):",
+  "source": "@site/docs/Product/iMCU/w7100/P0_PU.md",
+  "permalink": "/docs/Product/iMCU/w7100/P0_PU",
+  "editUrl": "https://github.com/Wiznet/document_framework/tree/master/docs/Product/iMCU/w7100/P0_PU.md"
+}

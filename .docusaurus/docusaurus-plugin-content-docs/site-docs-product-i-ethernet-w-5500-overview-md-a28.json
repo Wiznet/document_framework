@@ -1,0 +1,19 @@
+{
+  "unversionedId": "Product/iEthernet/W5500/overview",
+  "id": "Product/iEthernet/W5500/overview",
+  "isDocsHomePage": false,
+  "title": "Overview",
+  "description": "W5500",
+  "source": "@site/docs/Product/iEthernet/W5500/Overview.md",
+  "permalink": "/docs/Product/iEthernet/W5500/overview",
+  "editUrl": "https://github.com/Wiznet/document_framework/tree/master/docs/Product/iEthernet/W5500/Overview.md",
+  "sidebar": "someSidebar",
+  "previous": {
+    "title": "W5100S-EVB",
+    "permalink": "/docs/Product/iEthernet/W5100S/w5100s_evb"
+  },
+  "next": {
+    "title": "Datasheet",
+    "permalink": "/docs/Product/iEthernet/W5500/datasheet"
+  }
+}

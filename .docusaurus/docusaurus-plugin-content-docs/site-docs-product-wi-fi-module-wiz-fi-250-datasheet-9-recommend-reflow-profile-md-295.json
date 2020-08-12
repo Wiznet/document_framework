@@ -1,0 +1,19 @@
+{
+  "unversionedId": "Product/Wi-Fi-Module/WizFi250/Datasheet/9_recommend_reflow_profile",
+  "id": "Product/Wi-Fi-Module/WizFi250/Datasheet/9_recommend_reflow_profile",
+  "isDocsHomePage": false,
+  "title": "9.Recommend reflow profile",
+  "description": "Recommend reflow profile",
+  "source": "@site/docs/Product/Wi-Fi-Module/WizFi250/Datasheet/9.Recommend_reflow_profile.md",
+  "permalink": "/docs/Product/Wi-Fi-Module/WizFi250/Datasheet/9_recommend_reflow_profile",
+  "editUrl": "https://github.com/Wiznet/document_framework/tree/master/docs/Product/Wi-Fi-Module/WizFi250/Datasheet/9.Recommend_reflow_profile.md",
+  "sidebar": "someSidebar",
+  "previous": {
+    "title": "8.Design Guide",
+    "permalink": "/docs/Product/Wi-Fi-Module/WizFi250/Datasheet/8_design_guide"
+  },
+  "next": {
+    "title": "10.WizFi250 Ref. Schematic",
+    "permalink": "/docs/Product/Wi-Fi-Module/WizFi250/Datasheet/10_wizfi250_ref_schematic"
+  }
+}

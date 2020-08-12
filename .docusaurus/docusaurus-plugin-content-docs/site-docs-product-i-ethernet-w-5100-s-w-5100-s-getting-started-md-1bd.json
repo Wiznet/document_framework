@@ -1,0 +1,10 @@
+{
+  "unversionedId": "Product/iEthernet/W5100S/w5100s_getting_started",
+  "id": "Product/iEthernet/W5100S/w5100s_getting_started",
+  "isDocsHomePage": false,
+  "title": "Getting Started with W5100S-EVB",
+  "description": "Check the board",
+  "source": "@site/docs/Product/iEthernet/W5100S/w5100s_getting_started.md",
+  "permalink": "/docs/Product/iEthernet/W5100S/w5100s_getting_started",
+  "editUrl": "https://github.com/Wiznet/document_framework/tree/master/docs/Product/iEthernet/W5100S/w5100s_getting_started.md"
+}

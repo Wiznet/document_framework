@@ -1,0 +1,10 @@
+{
+  "unversionedId": "Product/iEthernet/W5500/W5500-EVB/Firmware",
+  "id": "Product/iEthernet/W5500/W5500-EVB/Firmware",
+  "isDocsHomePage": false,
+  "title": "Firmware",
+  "description": "W5500 EVB firmware project based on LPCXpresso IDE. For more details",
+  "source": "@site/docs/Product/iEthernet/W5500/W5500-EVB/Firmware.md",
+  "permalink": "/docs/Product/iEthernet/W5500/W5500-EVB/Firmware",
+  "editUrl": "https://github.com/Wiznet/document_framework/tree/master/docs/Product/iEthernet/W5500/W5500-EVB/Firmware.md"
+}

@@ -1,0 +1,10 @@
+{
+  "unversionedId": "Product/iMCU/W7500/Peripherals-internal/dualtimer",
+  "id": "Product/iMCU/W7500/Peripherals-internal/dualtimer",
+  "isDocsHomePage": false,
+  "title": "Dual Timer",
+  "description": "Introduction",
+  "source": "@site/docs/Product/iMCU/W7500/Peripherals-internal/dualtimer.md",
+  "permalink": "/docs/Product/iMCU/W7500/Peripherals-internal/dualtimer",
+  "editUrl": "https://github.com/Wiznet/document_framework/tree/master/docs/Product/iMCU/W7500/Peripherals-internal/dualtimer.md"
+}

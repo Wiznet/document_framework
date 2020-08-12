@@ -1,0 +1,19 @@
+{
+  "unversionedId": "Product/Open-Source-Hardware/ioshield_k",
+  "id": "Product/Open-Source-Hardware/ioshield_k",
+  "isDocsHomePage": false,
+  "title": "ioShield-K",
+  "description": "Overview",
+  "source": "@site/docs/Product/Open-Source-Hardware/ioShield-K.md",
+  "permalink": "/docs/Product/Open-Source-Hardware/ioshield_k",
+  "editUrl": "https://github.com/Wiznet/document_framework/tree/master/docs/Product/Open-Source-Hardware/ioShield-K.md",
+  "sidebar": "someSidebar",
+  "previous": {
+    "title": "ioShield-A",
+    "permalink": "/docs/Product/Open-Source-Hardware/ioshield_a"
+  },
+  "next": {
+    "title": "ioShield-L",
+    "permalink": "/docs/Product/Open-Source-Hardware/ioshield_l"
+  }
+}

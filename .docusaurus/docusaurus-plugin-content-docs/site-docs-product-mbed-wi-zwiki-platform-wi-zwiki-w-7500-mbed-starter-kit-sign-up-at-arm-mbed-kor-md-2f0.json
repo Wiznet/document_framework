@@ -1,0 +1,19 @@
+{
+  "unversionedId": "Product/Mbed-WIZwiki-Platform/WIZwiki-W7500-Mbed-Starter-Kit/sign_up_at_arm_mbed_kor",
+  "id": "Product/Mbed-WIZwiki-Platform/WIZwiki-W7500-Mbed-Starter-Kit/sign_up_at_arm_mbed_kor",
+  "isDocsHomePage": false,
+  "title": "mbed 회원 가입하기",
+  "description": "mbed.org 에 접속하면 아래와 같은 화면이 나온다. 화면에서 빨간색 표시된 부분 (Developer Site)을 클릭해서",
+  "source": "@site/docs/Product/Mbed-WIZwiki-Platform/WIZwiki-W7500-Mbed-Starter-Kit/Sign-up_at_ARM_mbed(Kor).md",
+  "permalink": "/docs/Product/Mbed-WIZwiki-Platform/WIZwiki-W7500-Mbed-Starter-Kit/sign_up_at_arm_mbed_kor",
+  "editUrl": "https://github.com/Wiznet/document_framework/tree/master/docs/Product/Mbed-WIZwiki-Platform/WIZwiki-W7500-Mbed-Starter-Kit/Sign-up_at_ARM_mbed(Kor).md",
+  "sidebar": "someSidebar",
+  "previous": {
+    "title": "Tutorial(Kor)",
+    "permalink": "/docs/Product/Mbed-WIZwiki-Platform/WIZwiki-W7500-Mbed-Starter-Kit/tutorial_kor"
+  },
+  "next": {
+    "title": "튜토리얼 예제1. LED 깜박이기",
+    "permalink": "/docs/Product/Mbed-WIZwiki-Platform/WIZwiki-W7500-Mbed-Starter-Kit/exercise_1_led_kor"
+  }
+}

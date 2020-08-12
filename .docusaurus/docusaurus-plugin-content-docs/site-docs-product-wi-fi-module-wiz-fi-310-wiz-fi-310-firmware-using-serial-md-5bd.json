@@ -1,0 +1,19 @@
+{
+  "unversionedId": "Product/Wi-Fi-Module/WizFi310/wizfi310_firmware_using_serial",
+  "id": "Product/Wi-Fi-Module/WizFi310/wizfi310_firmware_using_serial",
+  "isDocsHomePage": false,
+  "title": "WizFi310 Firmware(Using Serial)",
+  "description": "Official Latest firmware release",
+  "source": "@site/docs/Product/Wi-Fi-Module/WizFi310/WizFi310_Firmware(Using_Serial).md",
+  "permalink": "/docs/Product/Wi-Fi-Module/WizFi310/wizfi310_firmware_using_serial",
+  "editUrl": "https://github.com/Wiznet/document_framework/tree/master/docs/Product/Wi-Fi-Module/WizFi310/WizFi310_Firmware(Using_Serial).md",
+  "sidebar": "someSidebar",
+  "previous": {
+    "title": "WizFi310 EVB SCH",
+    "permalink": "/docs/Product/Wi-Fi-Module/WizFi310/wizfi310_evb_sch"
+  },
+  "next": {
+    "title": "WizFi310 Firmware(Using OTA)",
+    "permalink": "/docs/Product/Wi-Fi-Module/WizFi310/wizfi310_firmware_using_ota"
+  }
+}

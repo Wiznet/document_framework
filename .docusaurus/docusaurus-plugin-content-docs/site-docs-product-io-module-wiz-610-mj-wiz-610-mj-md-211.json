@@ -1,0 +1,19 @@
+{
+  "unversionedId": "Product/ioModule/WIZ610MJ/wiz610mj",
+  "id": "Product/ioModule/WIZ610MJ/wiz610mj",
+  "isDocsHomePage": false,
+  "title": "WIZ610MJ",
+  "description": "Overview",
+  "source": "@site/docs/Product/ioModule/WIZ610MJ/WIZ610MJ.md",
+  "permalink": "/docs/Product/ioModule/WIZ610MJ/wiz610mj",
+  "editUrl": "https://github.com/Wiznet/document_framework/tree/master/docs/Product/ioModule/WIZ610MJ/WIZ610MJ.md",
+  "sidebar": "someSidebar",
+  "previous": {
+    "title": "WIZ610io",
+    "permalink": "/docs/Product/ioModule/WIZ610io/wiz610io"
+  },
+  "next": {
+    "title": "WIZ810Sio",
+    "permalink": "/docs/Product/ioModule/WIZ810Sio/wiz810sio"
+  }
+}

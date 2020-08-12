@@ -1,0 +1,10 @@
+{
+  "unversionedId": "Product/Mbed-WIZwiki-Platform/WIZwiki-W7500/using_cmsis_dap_debugger",
+  "id": "Product/Mbed-WIZwiki-Platform/WIZwiki-W7500/using_cmsis_dap_debugger",
+  "isDocsHomePage": false,
+  "title": "Using CMSIS-DAP Debugger",
+  "description": "CMSIS-DAP does support USB cable and Debugger as well. You need to Set Flash Algorithm to use CMSIS-DAP Debugger in Keil.",
+  "source": "@site/docs/Product/Mbed-WIZwiki-Platform/WIZwiki-W7500/Using_the_CMSIS-DAP.md",
+  "permalink": "/docs/Product/Mbed-WIZwiki-Platform/WIZwiki-W7500/using_cmsis_dap_debugger",
+  "editUrl": "https://github.com/Wiznet/document_framework/tree/master/docs/Product/Mbed-WIZwiki-Platform/WIZwiki-W7500/Using_the_CMSIS-DAP.md"
+}

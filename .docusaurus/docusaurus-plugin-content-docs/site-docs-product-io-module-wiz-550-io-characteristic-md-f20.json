@@ -1,0 +1,19 @@
+{
+  "unversionedId": "Product/ioModule/WIZ550io/characteristic",
+  "id": "Product/ioModule/WIZ550io/characteristic",
+  "isDocsHomePage": false,
+  "title": "Characteristic",
+  "description": "DC Characteristic",
+  "source": "@site/docs/Product/ioModule/WIZ550io/Characteristic.md",
+  "permalink": "/docs/Product/ioModule/WIZ550io/characteristic",
+  "editUrl": "https://github.com/Wiznet/document_framework/tree/master/docs/Product/ioModule/WIZ550io/Characteristic.md",
+  "sidebar": "someSidebar",
+  "previous": {
+    "title": "Hardware Pins",
+    "permalink": "/docs/Product/ioModule/WIZ550io/hardware_pins"
+  },
+  "next": {
+    "title": "SPI Operations",
+    "permalink": "/docs/Product/ioModule/WIZ550io/spi_operations"
+  }
+}

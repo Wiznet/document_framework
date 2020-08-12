@@ -1,0 +1,19 @@
+{
+  "unversionedId": "Product/Wi-Fi-Module/WizFi250/Quick-Start-Guide/2_start_serial_to_wi_fi",
+  "id": "Product/Wi-Fi-Module/WizFi250/Quick-Start-Guide/2_start_serial_to_wi_fi",
+  "isDocsHomePage": false,
+  "title": "2.Start Serial to Wi-Fi",
+  "description": "This chapter explains how to set WizFi250 in order to exchange data with",
+  "source": "@site/docs/Product/Wi-Fi-Module/WizFi250/Quick-Start-Guide/2.Start_Serial_to_Wi-Fi.md",
+  "permalink": "/docs/Product/Wi-Fi-Module/WizFi250/Quick-Start-Guide/2_start_serial_to_wi_fi",
+  "editUrl": "https://github.com/Wiznet/document_framework/tree/master/docs/Product/Wi-Fi-Module/WizFi250/Quick-Start-Guide/2.Start_Serial_to_Wi-Fi.md",
+  "sidebar": "someSidebar",
+  "previous": {
+    "title": "1.WizFi250 Evaluation Board",
+    "permalink": "/docs/Product/Wi-Fi-Module/WizFi250/Quick-Start-Guide/1_wizfi250_evaluation_board"
+  },
+  "next": {
+    "title": "WizFi250 EVB & IF Dimension",
+    "permalink": "/docs/Product/Wi-Fi-Module/WizFi250/wizfi250_evb_if_fimension"
+  }
+}

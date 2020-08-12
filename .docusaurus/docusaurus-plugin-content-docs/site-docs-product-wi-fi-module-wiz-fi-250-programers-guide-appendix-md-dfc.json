@@ -1,0 +1,19 @@
+{
+  "unversionedId": "Product/Wi-Fi-Module/WizFi250/Programers-Guide/appendix",
+  "id": "Product/Wi-Fi-Module/WizFi250/Programers-Guide/appendix",
+  "isDocsHomePage": false,
+  "title": "Appendix",
+  "description": "WizFi250 UART Throughput Test Report",
+  "source": "@site/docs/Product/Wi-Fi-Module/WizFi250/Programers-Guide/Appendix.md",
+  "permalink": "/docs/Product/Wi-Fi-Module/WizFi250/Programers-Guide/appendix",
+  "editUrl": "https://github.com/Wiznet/document_framework/tree/master/docs/Product/Wi-Fi-Module/WizFi250/Programers-Guide/Appendix.md",
+  "sidebar": "someSidebar",
+  "previous": {
+    "title": "Examples - WiFi Direct",
+    "permalink": "/docs/Product/Wi-Fi-Module/WizFi250/Programers-Guide/examples_wifi_direct"
+  },
+  "next": {
+    "title": "1.WizFi250 Evaluation Board",
+    "permalink": "/docs/Product/Wi-Fi-Module/WizFi250/Quick-Start-Guide/1_wizfi250_evaluation_board"
+  }
+}

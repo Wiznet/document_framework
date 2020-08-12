@@ -1,0 +1,10 @@
+{
+  "unversionedId": "Product/iMCU/W7500/Peripherals-internal/polling",
+  "id": "Product/iMCU/W7500/Peripherals-internal/polling",
+  "isDocsHomePage": false,
+  "title": "UART Printf example",
+  "description": "********************",
+  "source": "@site/docs/Product/iMCU/W7500/Peripherals-internal/polling.md",
+  "permalink": "/docs/Product/iMCU/W7500/Peripherals-internal/polling",
+  "editUrl": "https://github.com/Wiznet/document_framework/tree/master/docs/Product/iMCU/W7500/Peripherals-internal/polling.md"
+}

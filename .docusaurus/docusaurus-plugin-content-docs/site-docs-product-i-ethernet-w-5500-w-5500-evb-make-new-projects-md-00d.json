@@ -1,0 +1,19 @@
+{
+  "unversionedId": "Product/iEthernet/W5500/W5500-EVB/make_new_projects",
+  "id": "Product/iEthernet/W5500/W5500-EVB/make_new_projects",
+  "isDocsHomePage": false,
+  "title": "Make New Projects",
+  "description": "Make New W5500 EVB Projects",
+  "source": "@site/docs/Product/iEthernet/W5500/W5500-EVB/Make_New_Projects.md",
+  "permalink": "/docs/Product/iEthernet/W5500/W5500-EVB/make_new_projects",
+  "editUrl": "https://github.com/Wiznet/document_framework/tree/master/docs/Product/iEthernet/W5500/W5500-EVB/Make_New_Projects.md",
+  "sidebar": "someSidebar",
+  "previous": {
+    "title": "Getting Started",
+    "permalink": "/docs/Product/iEthernet/W5500/W5500-EVB/getting_started"
+  },
+  "next": {
+    "title": "Serial to Ethernet Module",
+    "permalink": "/docs/Product/S2E-Module/s2e_module"
+  }
+}

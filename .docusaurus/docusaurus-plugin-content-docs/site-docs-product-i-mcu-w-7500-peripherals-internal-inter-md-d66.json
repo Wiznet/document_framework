@@ -1,0 +1,10 @@
+{
+  "unversionedId": "Product/iMCU/W7500/Peripherals-internal/inter",
+  "id": "Product/iMCU/W7500/Peripherals-internal/inter",
+  "isDocsHomePage": false,
+  "title": "UART Interrupts example",
+  "description": "********************",
+  "source": "@site/docs/Product/iMCU/W7500/Peripherals-internal/inter.md",
+  "permalink": "/docs/Product/iMCU/W7500/Peripherals-internal/inter",
+  "editUrl": "https://github.com/Wiznet/document_framework/tree/master/docs/Product/iMCU/W7500/Peripherals-internal/inter.md"
+}

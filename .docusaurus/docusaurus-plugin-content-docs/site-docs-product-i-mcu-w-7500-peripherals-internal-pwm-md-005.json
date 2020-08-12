@@ -1,0 +1,10 @@
+{
+  "unversionedId": "Product/iMCU/W7500/Peripherals-internal/pwm",
+  "id": "Product/iMCU/W7500/Peripherals-internal/pwm",
+  "isDocsHomePage": false,
+  "title": "Pulse Width Modulation(PWM)",
+  "description": "Introduction",
+  "source": "@site/docs/Product/iMCU/W7500/Peripherals-internal/pwm.md",
+  "permalink": "/docs/Product/iMCU/W7500/Peripherals-internal/pwm",
+  "editUrl": "https://github.com/Wiznet/document_framework/tree/master/docs/Product/iMCU/W7500/Peripherals-internal/pwm.md"
+}

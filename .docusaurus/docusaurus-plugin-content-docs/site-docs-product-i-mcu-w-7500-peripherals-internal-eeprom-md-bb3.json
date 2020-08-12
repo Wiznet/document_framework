@@ -1,0 +1,10 @@
+{
+  "unversionedId": "Product/iMCU/W7500/Peripherals-internal/eeprom",
+  "id": "Product/iMCU/W7500/Peripherals-internal/eeprom",
+  "isDocsHomePage": false,
+  "title": "I2C and M24CXX EEPROM communication example",
+  "description": "********************",
+  "source": "@site/docs/Product/iMCU/W7500/Peripherals-internal/eeprom.md",
+  "permalink": "/docs/Product/iMCU/W7500/Peripherals-internal/eeprom",
+  "editUrl": "https://github.com/Wiznet/document_framework/tree/master/docs/Product/iMCU/W7500/Peripherals-internal/eeprom.md"
+}

@@ -1,0 +1,19 @@
+{
+  "unversionedId": "Product/S2E-Module/WIZ550SR/download",
+  "id": "Product/S2E-Module/WIZ550SR/download",
+  "isDocsHomePage": false,
+  "title": "Download",
+  "description": "Download Firmware",
+  "source": "@site/docs/Product/S2E-Module/WIZ550SR/Download.md",
+  "permalink": "/docs/Product/S2E-Module/WIZ550SR/download",
+  "editUrl": "https://github.com/Wiznet/document_framework/tree/master/docs/Product/S2E-Module/WIZ550SR/Download.md",
+  "sidebar": "someSidebar",
+  "previous": {
+    "title": "Datasheet(Hardware Spec, Characteristics)-[EN]",
+    "permalink": "/docs/Product/S2E-Module/WIZ550SR/datasheet_hardware_spec_characteristics-[EN]"
+  },
+  "next": {
+    "title": "WIZ550S2E",
+    "permalink": "/docs/Product/S2E-Module/WIZ550S2E/wiz550s2e"
+  }
+}

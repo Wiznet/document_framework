@@ -1,0 +1,10 @@
+{
+  "unversionedId": "Product/iMCU/W7500/Peripherals-internal/gpio",
+  "id": "Product/iMCU/W7500/Peripherals-internal/gpio",
+  "isDocsHomePage": false,
+  "title": "General Purpose Input/Outputs(GPIO)",
+  "description": "Introduction",
+  "source": "@site/docs/Product/iMCU/W7500/Peripherals-internal/gpio.md",
+  "permalink": "/docs/Product/iMCU/W7500/Peripherals-internal/gpio",
+  "editUrl": "https://github.com/Wiznet/document_framework/tree/master/docs/Product/iMCU/W7500/Peripherals-internal/gpio.md"
+}

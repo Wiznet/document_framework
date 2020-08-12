@@ -1,0 +1,19 @@
+{
+  "unversionedId": "Product/Open-Source-Hardware/ioshield_a",
+  "id": "Product/Open-Source-Hardware/ioshield_a",
+  "isDocsHomePage": false,
+  "title": "ioShield-A",
+  "description": "Overview",
+  "source": "@site/docs/Product/Open-Source-Hardware/ioShield-A.md",
+  "permalink": "/docs/Product/Open-Source-Hardware/ioshield_a",
+  "editUrl": "https://github.com/Wiznet/document_framework/tree/master/docs/Product/Open-Source-Hardware/ioShield-A.md",
+  "sidebar": "someSidebar",
+  "previous": {
+    "title": "W5500 Ethernet Shield",
+    "permalink": "/docs/Product/Open-Source-Hardware/w5500_ethernet_shield"
+  },
+  "next": {
+    "title": "ioShield-K",
+    "permalink": "/docs/Product/Open-Source-Hardware/ioshield_k"
+  }
+}

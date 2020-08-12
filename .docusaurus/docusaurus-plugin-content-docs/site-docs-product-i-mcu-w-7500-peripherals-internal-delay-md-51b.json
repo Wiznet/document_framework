@@ -1,0 +1,10 @@
+{
+  "unversionedId": "Product/iMCU/W7500/Peripherals-internal/delay",
+  "id": "Product/iMCU/W7500/Peripherals-internal/delay",
+  "isDocsHomePage": false,
+  "title": "Delay example (System tick timer example)",
+  "description": "********************",
+  "source": "@site/docs/Product/iMCU/W7500/Peripherals-internal/delay.md",
+  "permalink": "/docs/Product/iMCU/W7500/Peripherals-internal/delay",
+  "editUrl": "https://github.com/Wiznet/document_framework/tree/master/docs/Product/iMCU/W7500/Peripherals-internal/delay.md"
+}

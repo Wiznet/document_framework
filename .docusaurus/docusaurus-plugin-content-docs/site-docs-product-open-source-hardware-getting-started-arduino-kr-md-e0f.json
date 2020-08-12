@@ -1,0 +1,10 @@
+{
+  "unversionedId": "Product/Open-Source-Hardware/getting_started_arduino_kr",
+  "id": "Product/Open-Source-Hardware/getting_started_arduino_kr",
+  "isDocsHomePage": false,
+  "title": "Getting Started for Arduino",
+  "description": "WIZ Ethernet Library Update",
+  "source": "@site/docs/Product/Open-Source-Hardware/getting_started_arduino_kr.md",
+  "permalink": "/docs/Product/Open-Source-Hardware/getting_started_arduino_kr",
+  "editUrl": "https://github.com/Wiznet/document_framework/tree/master/docs/Product/Open-Source-Hardware/getting_started_arduino_kr.md"
+}

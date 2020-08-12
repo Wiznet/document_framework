@@ -1,0 +1,19 @@
+{
+  "unversionedId": "Product/Wi-Fi-Module/WizFi310/wizfi310_evb_if_dimension",
+  "id": "Product/Wi-Fi-Module/WizFi310/wizfi310_evb_if_dimension",
+  "isDocsHomePage": false,
+  "title": "WizFi310 EVB & IF Dimension",
+  "description": "WizFi310 EVB",
+  "source": "@site/docs/Product/Wi-Fi-Module/WizFi310/WizFi310_EVB_&_IF_Dimension.md",
+  "permalink": "/docs/Product/Wi-Fi-Module/WizFi310/wizfi310_evb_if_dimension",
+  "editUrl": "https://github.com/Wiznet/document_framework/tree/master/docs/Product/Wi-Fi-Module/WizFi310/WizFi310_EVB_&_IF_Dimension.md",
+  "sidebar": "someSidebar",
+  "previous": {
+    "title": "Quick Start Guide",
+    "permalink": "/docs/Product/Wi-Fi-Module/WizFi310/quick_start_guide"
+  },
+  "next": {
+    "title": "WizFi310 EVB SCH",
+    "permalink": "/docs/Product/Wi-Fi-Module/WizFi310/wizfi310_evb_sch"
+  }
+}

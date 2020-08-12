@@ -1,0 +1,19 @@
+{
+  "unversionedId": "Product/iMCU/W7500/libraries_examples",
+  "id": "Product/iMCU/W7500/libraries_examples",
+  "isDocsHomePage": false,
+  "title": "Library and Peripheral Example",
+  "description": "Overview",
+  "source": "@site/docs/Product/iMCU/W7500/Libraries_&_Examples.md",
+  "permalink": "/docs/Product/iMCU/W7500/libraries_examples",
+  "editUrl": "https://github.com/Wiznet/document_framework/tree/master/docs/Product/iMCU/W7500/Libraries_&_Examples.md",
+  "sidebar": "someSidebar",
+  "previous": {
+    "title": "Peripheral description and examples",
+    "permalink": "/docs/Product/iMCU/W7500/peripherals"
+  },
+  "next": {
+    "title": "Overview",
+    "permalink": "/docs/Product/iMCU/W7500P/overview"
+  }
+}

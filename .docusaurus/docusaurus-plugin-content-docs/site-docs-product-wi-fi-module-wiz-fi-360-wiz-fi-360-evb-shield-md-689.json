@@ -1,0 +1,19 @@
+{
+  "unversionedId": "Product/Wi-Fi-Module/WizFi360/wizfi360_evb_shield",
+  "id": "Product/Wi-Fi-Module/WizFi360/wizfi360_evb_shield",
+  "isDocsHomePage": false,
+  "title": "WizFi360-EVB-Shield",
+  "description": "WizFi360-EVB-Shield",
+  "source": "@site/docs/Product/Wi-Fi-Module/WizFi360/WizFi360-EVB-Shield.md",
+  "permalink": "/docs/Product/Wi-Fi-Module/WizFi360/wizfi360_evb_shield",
+  "editUrl": "https://github.com/Wiznet/document_framework/tree/master/docs/Product/Wi-Fi-Module/WizFi360/WizFi360-EVB-Shield.md",
+  "sidebar": "someSidebar",
+  "previous": {
+    "title": "Application examples",
+    "permalink": "/docs/Product/Wi-Fi-Module/WizFi360/application_examples"
+  },
+  "next": {
+    "title": "WizFi360-EVB-Mini",
+    "permalink": "/docs/Product/Wi-Fi-Module/WizFi360/wizfi360_evb_mini"
+  }
+}

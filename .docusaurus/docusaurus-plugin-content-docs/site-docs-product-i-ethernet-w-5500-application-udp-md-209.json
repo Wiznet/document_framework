@@ -1,0 +1,19 @@
+{
+  "unversionedId": "Product/iEthernet/W5500/Application/udp",
+  "id": "Product/iEthernet/W5500/Application/udp",
+  "isDocsHomePage": false,
+  "title": "W5500 UDP Function",
+  "description": "By setting some register and memory operation, W5500 provides internet",
+  "source": "@site/docs/Product/iEthernet/W5500/Application/UDP.md",
+  "permalink": "/docs/Product/iEthernet/W5500/Application/udp",
+  "editUrl": "https://github.com/Wiznet/document_framework/tree/master/docs/Product/iEthernet/W5500/Application/UDP.md",
+  "sidebar": "someSidebar",
+  "previous": {
+    "title": "W5500 TCP Function",
+    "permalink": "/docs/Product/iEthernet/W5500/Application/tcp"
+  },
+  "next": {
+    "title": "IPRAW",
+    "permalink": "/docs/Product/iEthernet/W5500/Application/ipraw"
+  }
+}

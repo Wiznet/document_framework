@@ -1,0 +1,19 @@
+{
+  "unversionedId": "VAR-Products-using-WIZnet/wi_fi_shield",
+  "id": "VAR-Products-using-WIZnet/wi_fi_shield",
+  "isDocsHomePage": false,
+  "title": "Wi-Fi Shield",
+  "description": "There are many resource Products using WIZnet WizFi modules.",
+  "source": "@site/docs/VAR-Products-using-WIZnet/Wi-Fi_Shield.md",
+  "permalink": "/docs/VAR-Products-using-WIZnet/wi_fi_shield",
+  "editUrl": "https://github.com/Wiznet/document_framework/tree/master/docs/VAR-Products-using-WIZnet/Wi-Fi_Shield.md",
+  "sidebar": "someSidebar",
+  "previous": {
+    "title": "Ethernet Shield",
+    "permalink": "/docs/VAR-Products-using-WIZnet/ethernet_shield"
+  },
+  "next": {
+    "title": "Third party",
+    "permalink": "/docs/VAR-Products-using-WIZnet/third_party"
+  }
+}

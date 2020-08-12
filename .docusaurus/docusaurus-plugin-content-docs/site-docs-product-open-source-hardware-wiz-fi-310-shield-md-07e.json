@@ -1,0 +1,19 @@
+{
+  "unversionedId": "Product/Open-Source-Hardware/wizfi310_shield",
+  "id": "Product/Open-Source-Hardware/wizfi310_shield",
+  "isDocsHomePage": false,
+  "title": "WizFi310 Shield",
+  "description": "WizFi310 Shield",
+  "source": "@site/docs/Product/Open-Source-Hardware/WizFi310_Shield.md",
+  "permalink": "/docs/Product/Open-Source-Hardware/wizfi310_shield",
+  "editUrl": "https://github.com/Wiznet/document_framework/tree/master/docs/Product/Open-Source-Hardware/WizFi310_Shield.md",
+  "sidebar": "someSidebar",
+  "previous": {
+    "title": "WizArduino MEGA WIFI",
+    "permalink": "/docs/Product/Open-Source-Hardware/wizarduino_mega_wifi"
+  },
+  "next": {
+    "title": "W5500 Ethernet Shield",
+    "permalink": "/docs/Product/Open-Source-Hardware/w5500_ethernet_shield"
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "unversionedId": "Product/iEthernet/W6100/ref_schematic",
+  "id": "Product/iEthernet/W6100/ref_schematic",
+  "isDocsHomePage": false,
+  "title": "Ref. Schematic",
+  "description": "-----",
+  "source": "@site/docs/Product/iEthernet/W6100/Ref._Schematic.md",
+  "permalink": "/docs/Product/iEthernet/W6100/ref_schematic",
+  "editUrl": "https://github.com/Wiznet/document_framework/tree/master/docs/Product/iEthernet/W6100/Ref._Schematic.md",
+  "sidebar": "someSidebar",
+  "previous": {
+    "title": "Driver & Basic Project",
+    "permalink": "/docs/Product/iEthernet/W6100/driver_basic_project"
+  },
+  "next": {
+    "title": "Application Note",
+    "permalink": "/docs/Product/iEthernet/W6100/application_note"
+  }
+}
