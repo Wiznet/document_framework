@@ -75,7 +75,7 @@
 	width: 18.18vw;
 	height: 31.5vh;
 	background: #ffffff 0% 0% no-repeat padding-box;
-	opacity: 80%;
+	/* opacity: 80%; */
 	box-shadow: 10px 10px 10px #2f2e4180;
 	border-radius: 0.63rem;
 
