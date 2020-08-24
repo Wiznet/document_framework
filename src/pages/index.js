@@ -28,7 +28,8 @@ function Home() {
 		);
     };
     
-  return (	  
+  return (	
+        
   <Layout>    
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"/>
                 <img src={BG} alt="Back ground image" className="bg_img"></img>
