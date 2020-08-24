@@ -4,21 +4,12 @@ module.exports = {
   //url: 'https://wiznet.github.io',
   url: 'https://doc.wiznet.io',
   baseUrl: '/',
-  onBrokenLinks: 'ignore',
-  //onDuplicateRoutes: 'ignore',
+  // onBrokenLinks: 'ignore',
+  // onDuplicateRoutes: 'warn',
   favicon: 'img/wizfavicon.ico',
   organizationName: 'Wiznet', // Usually your GitHub org/user name.
   projectName: 'document_framework', // Usually your repo name.
   themeConfig: {
-    colorMode: {
-      defaultMode: 'light',
-      disableSwitch: false,
-      respectPrefersColorScheme: false,
-      switchConfig: {
-        darkIcon: '\u{26c8}',
-        lightIcon: '\u{1f324}',
-      },
-    },
     algolia: {
       apiKey: 'f997035e1f482592037217527848e3fd',
       indexName: 'wiznet-cloud',
@@ -28,7 +19,7 @@ module.exports = {
       logo: {
         alt: 'My Site Logo',
         src: 'img/wiznet_logo.svg',
-        srcDark: 'img/wiznet_logo-white.svg',
+        srcDark: "img/wiznet_logo-white.svg",
       },
       items: [
         {
@@ -58,10 +49,10 @@ module.exports = {
             // ... more items
           ],
         },
-         // {to: 'docs/introduction', label: 'INTRODUCTION TO WIZNET DOCUMENTS ➤', position: 'right'},
-         // {to: 'docs/download', label: 'Download', position: 'right'},
-         {href: 'https://forum.wiznet.io/', label: 'Forum', position: 'right'},
-         {href: 'https://www.wiznet.io/', label: 'WIZnet', position: 'right'},
+      
+        // {to: 'docs/introduction', label: 'INTRODUCTION TO WIZNET DOCUMENTS ➤', position: 'right'},
+         {to: 'docs/products', label: 'Download', position: 'right'},
+         {to: 'docs/products', label: 'Forum', position: 'right'},
 
         //{to: 'blog', label: 'Blog', position: 'left'},
         {
