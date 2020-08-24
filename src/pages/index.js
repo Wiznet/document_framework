@@ -9,20 +9,20 @@ import '../css/home.css';
 function Home() {
 	const product_click = () => { 
 		window.open(
-			'/docs/Product/products/', 
+			'/docs/Product/products', 
 			'_self'
 		);
   };
 	const Design_guid_click = () => {
 		window.open(
-			'/docs/Design-Guide/design_guide/',
+			'/docs/Design-Guide/design_guide',
 			'_self'
 		);
   };
 
 	const Var_click = () => {
 		window.open(
-			'/docs/VAR-Products-using-WIZnet/var_products_using_wiznet/',
+			'/docs/VAR-Products-using-WIZnet/var_products_using_wiznet',
 			'_self'
 		);
     };
