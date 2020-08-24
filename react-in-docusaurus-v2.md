@@ -48,5 +48,4 @@ For more info visit the below link:-
 **NOTE:-**
 1) Make sure to use the ```<Layout>``` & ```</Layout>``` tags inside ```return()``` to make use of the default navibar and footer.
 2) You can use a seperate css file and import for styling.
-3) As of **Docusaurus 2.0.0-alpha.61** don't import 'react-bootstrap' in the import section as <code> import 'bootstrap/dist/css/bootstrap.min.css';</code>, 
-instead you can import the same as  ```<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"/>``` inside ```return``` and inside the ```Layout``` tag just after  ```<Layout>```. which was observed to cause issues with 'Dark Mode'.
+3) As of **Docusaurus 2.0.0-alpha.61** don't import 'react-bootstrap' in the import section as <code> import 'bootstrap/dist/css/bootstrap.min.css';</code>, instead you can import the same as  ```<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"/>``` inside ```return``` and inside the ```Layout``` tag just after  ```<Layout>```. which was observed to cause issues with 'Dark Mode'.
