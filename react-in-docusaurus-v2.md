@@ -7,7 +7,7 @@
 To add or create a react code as a page in Docusaurus v2, head to your project root folder and navigate to the pages folder.
 
 Eg:-
-Suppose &#39;website&#39; is your project folder then navigate to <code> website > src > pages </code> and create the code file with the file name same as the one you want to reflect on the URL (Routing path).
+Suppose &#39;website&#39; is your project folder then navigate to <code> website > src > pages </code> and create the code file with its file-name same as the one you want to reflect on the URL (Routing path).
 
 **website # Root directory of your site**
 
@@ -44,3 +44,6 @@ export default Hello;
 ```
 For more info visit the below link:- 
 [https://v2.docusaurus.io/docs/creating-pages/#add-a-react-page](https://v2.docusaurus.io/docs/creating-pages/#add-a-react-page)
+
+**NOTE:-**
+Make sure to use the <code> <Layout> </code> & <code> </Layout> </code> tags inside <code> return() </code> to make use of the default navibar and footer.
