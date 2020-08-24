@@ -1,5 +1,5 @@
 ---
-id: gtting_started_guide-[EN]
+id: getting_started_guide-[EN]
 title: Getting Started Guide-[EN]
 date: 2020-04-13
 ---

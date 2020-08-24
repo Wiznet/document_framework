@@ -1,6 +1,6 @@
 ---
 id: dma
-title: Direct Memory Access(DMA)
+title: Direct Memory Access (DMA)
 date: 2020-06-10
 --- 
 

@@ -1,6 +1,6 @@
 ---
 id: sd_card_led
-title: SSP SDcard_LED example
+title: SSP SD card LED example
 date: 2020-04-03
 ---
 

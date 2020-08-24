@@ -1,6 +1,6 @@
 ---
 id: w7500p_ref_schematic
-title: W7500P Ref.Schematic
+title: W7500P Reference Schematics
 date: 2020-04-03
 ---
 

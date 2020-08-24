@@ -1,6 +1,6 @@
 ---
 id: i2c
-title: Inter-Integrated Circuit(I2C)
+title: Inter-Integrated Circuit (I2C)
 date: 2020-06-10
 --- 
 

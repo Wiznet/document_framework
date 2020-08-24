@@ -1,4 +1,9 @@
-## Internal Data Memory (256 Byte) and SFR
+---
+id: internal_Memory_and_SFR
+title: Internal Data Memory (256 Byte) and SFR
+date: 2020-04-03
+---
+
 
 The Figure below shows the Internal Memory and Special Function
 Registers (SFR) map.

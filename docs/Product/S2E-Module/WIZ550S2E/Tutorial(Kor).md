@@ -1,6 +1,6 @@
 ---
 id: tutorial_kor
-title: Tutorial(Kor)
+title: Tutorial (Kor)
 date: 2020-04-16
 ---
 

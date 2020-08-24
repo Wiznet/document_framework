@@ -1,6 +1,6 @@
 ---
 id: wdtreset
-title: WDTReset example
+title: WDT Reset example
 date: 2020-04-03
 ---
 

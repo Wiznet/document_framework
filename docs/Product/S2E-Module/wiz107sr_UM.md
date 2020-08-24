@@ -1,4 +1,8 @@
-## WIZ107SR User's Manual
+---
+id: wiz107sr_um
+title: WIZ107SR User's Manual
+date: 2020-04-16
+---
 
 ### How to Start
 

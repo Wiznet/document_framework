@@ -1,6 +1,6 @@
 ---
 id: dmdnsclient
-title: DNSClient for TCPIP Offload Engine example
+title: DNS Client for TCP/IP Offload Engine example
 date: 2020-06-10
 --- 
 

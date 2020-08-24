@@ -92,7 +92,7 @@ years. W7500P suits users who need Internet connectivity best.
 ## Getting Started
 
    * [How to start WIZwiki-W7500P Board](how_to_start_wizwiki_w7500p_board)
-   * [How to install WIZwiki-W7500P serial driver](how_to_write_firmware_into_cmsis_dap)
+   * [How to install WIZwiki-W7500P serial driver](how_to_install_wizwiki_w7500p_serial_driver)
    * [How to write the firmware into WIZwiki-W7500P](how_to_write_firmware_into_wizwiki_w7500p)
    * [How to debug Wizwiki-W7500P](how_to_debug_wizwiki_w7500p)
    * [How to write the firmware into CMSIS-DAP](how_to_write_firmware_into_cmsis_dap)
@@ -102,10 +102,10 @@ years. W7500P suits users who need Internet connectivity best.
 ## Make New WIZwiki-W7500P Projects
 
    * [How to use ARM mbed.org platform](../WIZwiki-W7500-Mbed-Starter-Kit/wizwiki_w7500_mbed_starter_kit)
-   * [How to install KEIL uVision5](../WIZwiki-W7500/how_to_install_keil_uvision)
-   * [How to create KEIL uVision5 new project for W7500](../WIZwiki-W7500/how_to_make_w7500_keil_project)
-   * [How to use MDK for W7500 Peripherals Examples](../WIZwiki-W7500/how_to_use_mdk_for_w7500)
-   * [How to use gcc for W7500 Peripherals Examples](../WIZwiki-W7500/how_to_use_makefile_with_windows7)
+   * [How to install KEIL uVision5](how_to_install_keil_uvision)
+   * [How to create KEIL uVision5 new project for W7500](how_to_make_w7500_keil_project)
+   * [How to use MDK for W7500 Peripherals Examples](how_to_use_mdk_for_w7500)
+   * [How to use gcc for W7500 Peripherals Examples](how_to_use_makefile_with_windows7)
 
 -----
 
@@ -156,7 +156,7 @@ years. W7500P suits users who need Internet connectivity best.
 
 **Examples Binary**
 
-   * [WIZwiki-W7500P Examples Binary](how_to_write_firmware_into_wizwiki_w7500p#examples-binary)
+   * [WIZwiki-W7500P Examples Binary](how_to_write_firmware_into_wizwiki_w7500p)
 
 -----
 
@@ -165,5 +165,15 @@ years. W7500P suits users who need Internet connectivity best.
 
    * 🌎[WizWiki Forum](https://forum.wiznet.io/) : WIZnet Forum for Technical support and Project shared
    * [W7500P Documents Download](../../iMCU/W7500P/Documents.md)
+
+-----
+
+
+## Where to Buy
+
+![WIZnet Online Shop](/img/products/w5500/buynow.png)  
+![WIZnetUS Online Shop, USA](/img/products/w5500/w5500_evb/icons/dollar.png)](http://www.shopwiznet.com/)
+![WIZnetEU Online Shop, Germany](/img/products/w5500/w5500_evb/icons/european-euro.png)](http://shop.wiznet.eu/)
+![WIZnetKorea Online Shop, Korea](/img/products/w5500/w5500_evb/icons/won.png)](http://shop.wiznet.co.kr/)
 
 -----

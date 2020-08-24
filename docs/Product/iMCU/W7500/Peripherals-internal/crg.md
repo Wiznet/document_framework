@@ -1,6 +1,6 @@
 ---
 id: crg
-title: Clock Reset Generator(CRG)
+title: Clock Reset Generator (CRG)
 date: 2020-06-10
 --- 
 

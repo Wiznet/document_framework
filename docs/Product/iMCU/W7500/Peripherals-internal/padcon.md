@@ -1,6 +1,6 @@
 ---
 id: padcon
-title: Pad Controller(PADCON)
+title: Pad Controller (PADCON)
 date: 2020-04-03
 ---
 

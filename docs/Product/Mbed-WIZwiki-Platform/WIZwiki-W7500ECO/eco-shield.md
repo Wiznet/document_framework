@@ -1,6 +1,6 @@
 ---
 id: eco-shield
-title: Shield Ethernet
+title: Ethernet Shield
 date: 2020-04-07
 ---
 

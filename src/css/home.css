@@ -1,188 +1,118 @@
-/** @format */
-
- /* .back_groundimg {
-     
-	height: 100%;
+.bg_img {
 	width: 100%;
-}  */
-
-
-.over_image {
-	position: absolute;
-	top: 10vh;
-	left: 0.94rem;
+	height: 100%;
 }
-.home_container {
-	position: relative;      
-	top: 12.25rem;
-	left: 8.75rem;
+
+.home1_div{
+	margin-top: 15%;
+	margin-right: 0px !important;
+	 margin-left: 30px !important; 
+	margin-bottom: 15%;
+	height: 35.7vh;
+	cursor: pointer;
+	background: #ffffff 0% 0% no-repeat padding-box;
+	box-shadow: 0px 3px 10px #2f2e4180;
+	border-radius: 0.63rem;
 }
-.welcome_text {
-	position: 400px;
-	font-weight: 600;
-	font-size: 3.75rem;
+
+.home1_div:hover {
+	background-color: #80888b2b;
+	box-shadow: 0px 10px 50px 20px #80888b2b;
+	border-radius: 10px;
+	cursor: pointer;
+}
+.home1_img {
+	padding: 10%;
+}
+.img_heading {
+	color: #4b4b4b;
+	font-weight: 700;
+	font-size: 1.5rem;
 	font-family: Playfair Display;
-	color: #e8dddd;
 	opacity: 1;
-	/* line-height: 5rem; */
+	padding-top: 0rem;
+	padding-bottom: 10rem;
+}
+
+.Welcome {
+	margin-top: 50px !important;
+	font-weight: 600;
+	font-size: 5vw;
+	font-family: Playfair Display;
+	color: #ffffff;
+	opacity: 1;
+	line-height: normal;
 }
 .below_heading {
 	color: #ffffff;
 	text-align: left;
 	font-weight: 400;
-	font-size: 1.5rem;
+	font-size: 2.5vw;
 	font-family: Montserrat;
-
 	color: #ffffff;
 	opacity: 1;
 	line-height: 1.81rem;
+	margin-top: 3%;
+}
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+	.main_div {
+		margin-left: 0%;
+	}
+	.top-left {
+		position: absolute;
+		top: 2%;
+		margin-left: 10%;
+	}
 }
 
-
-.search_home {
-	background: #ffffff 0% 0% no-repeat padding-box;
-	opacity: 1;
-}
-.input_search_grp {
-	width: 36vw;
-}
-.search_home {
-	height: 6.7vh !important;
-}
-.search_home::placeholder {
-	font-size: 1.25rem;
-	text-align: left;
-	font-weight: 400;
-	font-family: Montserrat;
-}
-.search_home_btn {
-	background-color: #e4eff3;
-	text-align: left;
-	font-weight: 500;
-	font-size: 1.25rem;
-	font-family: Montserrat;
-	color: #1b1464;
-	opacity: 1;
-	width: 7vw;
-	text-align: center;
-}
-.home_1 {
-	margin-top: 20rem;
-	margin-left: 8.7rem;
-	/* margin-bottom: 12rem; */
-}
-.home1_div {
-	width: 18.18vw;
-	height: 31.5vh;
-	background: #ffffff 0% 0% no-repeat padding-box;
-	/* opacity: 80%; */
-	box-shadow: 10px 10px 10px #2f2e4180;
-	border-radius: 0.63rem;
-
-	margin-right: 7.5rem;
-}
-.home1_div:hover {
-	background-color: #80888b2b;
-	box-shadow: 0px 10px 50px 20px rgba(255, 2, 2, 0.297);
-	border-radius: 10px;
-	cursor: pointer;
-}
-.home1_img {
-	padding-top: 4rem;
-}
-.img_heading {
-	color: #000000;
-	font-weight: 700;
-	font-size: 1.5rem;
-	font-family: Playfair Display;
-	color: #000000;
-	opacity: 1;
-	padding-top: 1rem;
-}
-.community_support_box {
-	height: 29vh;
-	margin-top: 10rem;
-	background-color: #2f2e4105;
-}
-.heading_community,
-.status_color {
-	margin-top: 3.5rem;
-}
-.status_color {
-	width: 3.7vw;
-	height: 10px;
-	background-color: #1b1464;
-	box-shadow: 0px 3px 10px #2f2e4133;
-}
-.heading_community {
-	text-align: left;
-	font-weight: 700;
-	font-size: 2rem;
-	font-family: Playfair Display;
-
-	letter-spacing: 0px;
-	color: #000000;
-	opacity: 1;
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px) {
+	.main_div {
+		margin-left: 0%;
+	}
+	.top-left {
+		position: absolute;
+		top: 2%;
+		margin-left: 10%;
+	}
 }
 
-.row_class {
-	margin-top: 2rem;
-	margin-left: 7.5rem;
-}
-.contact_tech,
-.forum {
-	text-align: left;
-	font-weight: 500;
-	font-size: 1.5rem;
-	font-family: Montserrat;
-	letter-spacing: 0px;
-	color: #000000;
-	opacity: 1;
-	margin-left: 2.5rem;
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {
+	.main_div {
+		margin-left: 0%;
+	}
+	.top-left {
+		position: absolute;
+		top: 5%;
+		margin-left: 10%;
+	}
 }
 
-.navbar_footer {
-	height: 37vh;
-	background-color: #000000 !important;
-	position: static;
-	width: 100%;
-	bottom: 0;
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {
+	.home1_div {
+		width: 90%;
+	}
+	.main_div {
+		margin-left: 0%;
+	}
+	.top-left {
+		position: absolute;
+		top: 15%;
+		margin-left: 10%;
+	}
 }
 
-.social_head {
-	text-align: left;
-	font-weight: 700;
-	font-size: 2rem;
-	font-family: Playfair Display;
-	color: #ffffff;
-	opacity: 1;
-}
-.footer_logo {
-	width: 13.54vw;
-	height: 8vh;
-	position: absolute;
-	top: 10rem;
-	margin-left: 7rem;
-}
-.footer_right {
-	margin-top: 8rem;
-	margin-left: 9rem;
-}
-.Share,
-.Git_Hub,
-.Twitter {
-	margin-right: 5.5rem;
-	cursor: pointer;
-}
-.Youtube {
-	cursor: pointer;
-}
-.contact_us_forum {
-	text-align: left;
-	font-size: 1.5rem;
-	font-weight: 400;
-	font-family: Montserrat;
-	margin-top: 0.5rem;
-	color: #ffffff;
-	opacity: 1;
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) {
+	.home1_div {
+		width: 70%;
+	}
+	.top-left {
+		position: absolute;
+		top: 15%;
+		margin-left: 10%;
+	}
 }

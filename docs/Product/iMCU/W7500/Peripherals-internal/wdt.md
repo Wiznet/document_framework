@@ -1,6 +1,6 @@
 ---
 id: wdt
-title: Watchdog Timer(WDT)
+title: Watchdog Timer (WDT)
 date: 2020-04-03
 ---
 

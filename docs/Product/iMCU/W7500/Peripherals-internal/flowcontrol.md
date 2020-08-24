@@ -1,6 +1,6 @@
 ---
 id: flowcontrol
-title: UART HardwareControl example
+title: UART Hardware Control example
 date: 2020-06-10
 --- 
 

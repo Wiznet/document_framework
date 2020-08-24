@@ -1,6 +1,6 @@
 ---
 id: deladhcpclient
-title: DHCPClient for TCPIP Offload Engine example
+title: DHCP Client for TCP/IP Offload Engine example
 date: 2020-06-10
 ---
 

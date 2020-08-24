@@ -1,6 +1,6 @@
 ---
 id: led_toggle
-title: EXTI LED_Toggle example
+title: EXTI LED Toggle example
 date: 2020-06-10
 --- 
 

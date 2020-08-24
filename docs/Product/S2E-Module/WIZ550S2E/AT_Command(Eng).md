@@ -333,6 +333,7 @@ Note that < IP>,< SN>,< GW>,< DNS> address of response are not actual addresses,
 
 `[S,,D]`
 
+-----
 
 ### AT+NMAC 
   
@@ -357,6 +358,8 @@ Note that < IP>,< SN>,< GW>,< DNS> address of response are not actual addresses,
 - ***Response:***
 
 `[S]`
+
+-----
 
 - ***Example 2:***
 

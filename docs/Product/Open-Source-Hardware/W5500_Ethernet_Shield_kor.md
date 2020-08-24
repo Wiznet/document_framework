@@ -1,6 +1,6 @@
 ---
 id: w5500_ethernet_shield_kor
-title: W5500 Ethernet Shield
+title: W5500 Ethernet Shield (KOR)
 date: 2020-04-03
 ---
 

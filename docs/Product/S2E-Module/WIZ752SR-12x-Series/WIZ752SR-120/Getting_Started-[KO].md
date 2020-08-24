@@ -1,5 +1,5 @@
 ---
-id: gtting_started_guide-[KO]
+id: getting_started_guide-[KO]
 title: Getting Started Guide-[KO]
 date: 2020-04-13
 ---

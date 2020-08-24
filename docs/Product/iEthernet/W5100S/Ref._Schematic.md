@@ -1,6 +1,6 @@
 ---
 id: ref_schematic
-title: Reference Schematic
+title: Reference Schematics
 date: 2020-04-03
 ---
 

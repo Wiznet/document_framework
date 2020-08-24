@@ -1,3 +1,9 @@
+---
+id: Energy_micro
+title: Energy Micro
+date: 2020-04-03
+---
+
 ## Overview
 
 Silicon Labs provides the largest portfolio of energy friendly 32-bit

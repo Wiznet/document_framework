@@ -1,6 +1,6 @@
 ---
 id: exti
-title: External Interrupt(EXTI)
+title: External Interrupt (EXTI)
 date: 2020-06-10
 --- 
 

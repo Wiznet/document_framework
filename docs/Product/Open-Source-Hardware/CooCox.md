@@ -1,3 +1,9 @@
+---
+id: open_source_hardware_coocox
+title: CooCox
+date: 2020-04-03
+---
+
 # CooCox
 
 Visit to the Web site

@@ -1,4 +1,8 @@
-### SFR Memory Map
+---
+id: SFR
+title: SFR Memory Map
+date: 2020-04-03
+---
 
 All of the SFR in the left hand side column ending with 0 or 8 are bit
 addressable.  

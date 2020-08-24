@@ -1,6 +1,6 @@
 ---
 id: iap_example
-title: Flash_example (IAP example)
+title: Flash example (IAP example)
 date: 2020-06-10
 --- 
 

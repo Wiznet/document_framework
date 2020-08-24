@@ -1,4 +1,8 @@
-## Tutorial
+---
+id: Tutorial
+title: Tutorial
+date: 2020-04-03
+---
 
 -----
 
@@ -125,8 +129,5 @@ been compiled.
 
  - You can confirm the serial value through terminal program
 
-
-
-## Example : 
 
 

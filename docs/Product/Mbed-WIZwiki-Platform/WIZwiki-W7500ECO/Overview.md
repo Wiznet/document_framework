@@ -108,17 +108,17 @@ CMSIS-DAP for debuging and ethernet-phy.
    * [How to install WIZwiki-W7500ECO serial driver](how_to_install_wizwiki_w7500eco_driver)
    * [How to write the firmware into WIZwiki-W7500ECO](how_to_write_firmware_wizwiki_w7500eco)
    * [How to debug Wizwiki-W7500ECO](how_to_debug_wizwiki_w7500eco)
-   * [How to write the firmware into CMSIS-DAP](../WIZwiki-W7500/how_to_write_firmware_into_cmsis_dap)
+   * [How to write the firmware into CMSIS-DAP](how_to_write_firmware_into_cmsis_dap)
 
 -----
 
 
 ## Make New WIZwiki-W7500ECO Projects
 
-   * [How to install KEIL uVision5](../WIZwiki-W7500/how_to_install_keil_uvision)
-   * [How to create KEIL uVision5 new project for W7500](../WIZwiki-W7500/how_to_make_w7500_keil_project)
-   * [How to use MDK for W7500 Peripherals Examples](../WIZwiki-W7500/how_to_use_mdk_for_w7500)
-   * [How to use gcc for W7500 Peripherals Examples](../WIZwiki-W7500/how_to_use_makefile_with_windows7)
+   * [How to install KEIL uVision5](how_to_install_keil_uvision)
+   * [How to create KEIL uVision5 new project for W7500](how_to_make_w7500_keil_project)
+   * [How to use MDK for W7500 Peripherals Examples](how_to_use_mdk_for_w7500)
+   * [How to use gcc for W7500 Peripherals Examples](how_to_use_makefile_with_windows7)
 
 -----
 
@@ -166,7 +166,7 @@ CMSIS-DAP for debuging and ethernet-phy.
 
 **Examples Binary**
 
-   * [WIZwiki-W7500ECO Examples Binary](how_to_write_firmware_wizwiki_w7500eco#examples-binary)
+   * [WIZwiki-W7500ECO Examples Binary](how_to_write_firmware_wizwiki_w7500eco)
 
 -----
 

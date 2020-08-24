@@ -1,4 +1,8 @@
-## Peripheral Registers
+---
+id: Peripheral_SFR
+title: Peripheral Registers
+date: 2020-04-03
+---
 
 **P0, P1, P2, P3** : Port register. Set direction and read or write pin
 logic. Go down to section 'I/O Ports' for the detailed functionality of

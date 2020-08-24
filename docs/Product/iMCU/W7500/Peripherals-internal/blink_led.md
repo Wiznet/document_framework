@@ -1,6 +1,6 @@
 ---
 id: blink_led
-title: GPIO Blink_LED example
+title: GPIO Blink LED example
 date: 2020-06-10
 --- 
 

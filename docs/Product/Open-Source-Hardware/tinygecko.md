@@ -1,4 +1,8 @@
-## Tiny Gecko
+---
+id: tinygecko
+title: Tiny Gecko
+date: 2020-04-03
+---
 
 Tiny GECKO Starter Kit STK3300 is a prototyping and application
 development tool for the EFM32TG MCU family with the ARM Cortex-M3 CPU

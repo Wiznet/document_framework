@@ -1,6 +1,6 @@
 ---
 id: gpio
-title: General Purpose Input/Outputs(GPIO)
+title: General Purpose Input/Outputs (GPIO)
 date: 2020-06-10
 ---
 

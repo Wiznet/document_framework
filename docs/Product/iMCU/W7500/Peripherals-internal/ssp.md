@@ -1,6 +1,6 @@
 ---
 id: ssp
-title: Random number generator(RNG)
+title: Random number generator (RNG)
 date: 2020-04-03
 ---
 

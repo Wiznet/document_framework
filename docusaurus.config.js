@@ -10,6 +10,15 @@ module.exports = {
   organizationName: 'Wiznet', // Usually your GitHub org/user name.
   projectName: 'document_framework', // Usually your repo name.
   themeConfig: {
+    colorMode: {
+      defaultMode: 'light',
+      disableSwitch: false,
+      respectPrefersColorScheme: false,
+      switchConfig: {
+        darkIcon: '\u{26c8}',
+        lightIcon: '\u{1f324}',
+      },
+    },
     algolia: {
       apiKey: 'f997035e1f482592037217527848e3fd',
       indexName: 'wiznet-cloud',
@@ -18,10 +27,42 @@ module.exports = {
       title: '',
       logo: {
         alt: 'My Site Logo',
-        src: 'img/wiznet_logo_110x37.png',
+        src: 'img/wiznet_logo.svg',
+        srcDark: 'img/wiznet_logo-white.svg',
       },
       items: [
-        // {to: 'docs/introduction', label: 'Documentation', position: 'left'},
+        {
+          label: 'Documents',
+          position: 'right', // or 'left'
+          items: [
+            {
+              label: 'HOME',
+              to: '/',
+            },
+            {
+              label: 'Introduction ➤',
+              to: '/docs/introduction',
+            },
+            {
+              label: 'Products',
+              to: '/docs/Product/products',
+            },
+            {
+              label: 'Design Guide',
+              to: '/docs/Design-Guide/design_guide',
+            },
+            {
+              label: 'VAR Products',
+              to: '/docs/VAR-Products-using-WIZnet/var_products_using_wiznet',
+            },
+            // ... more items
+          ],
+        },
+         // {to: 'docs/introduction', label: 'INTRODUCTION TO WIZNET DOCUMENTS ➤', position: 'right'},
+         // {to: 'docs/download', label: 'Download', position: 'right'},
+         {href: 'https://forum.wiznet.io/', label: 'Forum', position: 'right'},
+         {href: 'https://www.wiznet.io/', label: 'WIZnet', position: 'right'},
+
         //{to: 'blog', label: 'Blog', position: 'left'},
         {
           href: 'https://github.com/Wiznet/document_framework',

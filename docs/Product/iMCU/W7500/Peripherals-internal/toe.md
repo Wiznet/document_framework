@@ -1,6 +1,6 @@
 ---
 id: toe
-title: TCP/IP core Offload Engine(TOE)
+title: TCP/IP core Offload Engine (TOE)
 date: 2020-04-03
 ---
 
