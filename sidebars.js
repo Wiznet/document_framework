@@ -116,11 +116,11 @@ module.exports = {
 				'Product/iMCU/W7500P/all_pages',
 			],
 			},
-			/*{			
+			{			
 				type: 'category',
 				label: 'W7100',
 				items: [
-					 //'Product/iMCU/W7100/internal_Memory_and_SFR',
+					 'Product/iMCU/W7100/internal_Memory_and_SFR',
 					 'Product/iMCU/W7100/P0_PU',
 					 'Product/iMCU/W7100/P0',
 					 'Product/iMCU/W7100/P1',
@@ -128,7 +128,7 @@ module.exports = {
 					 'Product/iMCU/W7100/SFR',
 				],
 				},
-				'Product/iMCU/w7100a',*/
+				'Product/iMCU/w7100a',
 			{	
 				type: 'link',
 				label: 'W7100A (Link)', // string - the label that should be displayed.
