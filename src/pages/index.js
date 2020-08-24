@@ -6,6 +6,7 @@ import Design_guid from '../../static/img/Design Guide.png';
 import Var from '../../static/img/VAR.png';
 import '../css/home.css';
 
+
 function Home() {
 	const product_click = () => { 
 		window.open(
