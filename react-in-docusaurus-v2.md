@@ -1,5 +1,7 @@
 ![](static/img/croppedwiznetlogo.png)
 
+----
+
 # HOW TO USE NODE JS / REACT JS IN DOCUSAURUS v2 FOR DOCUMENTATION SYSTEM
 
 # **Creating a React page :-**
