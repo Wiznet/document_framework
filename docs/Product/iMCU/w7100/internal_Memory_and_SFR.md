@@ -1,5 +1,5 @@
 ---
-id: internal_Memory_and_SFR
+id: internal_memory_and_sfr
 title: Internal Data Memory (256 Byte) and SFR
 date: 2020-04-03
 ---

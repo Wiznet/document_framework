@@ -1,5 +1,5 @@
 ---
-id: P0_PU
+id: p0_pu
 title: P0\PU (0xEB)
 date: 2020-04-03
 ---

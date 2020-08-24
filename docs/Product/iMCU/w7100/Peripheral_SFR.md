@@ -1,5 +1,5 @@
 ---
-id: Peripheral_SFR
+id: peripheral_sfr
 title: Peripheral Registers
 date: 2020-04-03
 ---
