@@ -218,7 +218,7 @@ TCP/UDP/SSL connection result and AT command used example.
 
 ### WizFi360-EVB-Shield / WizFi360-EVB-Mini
 
- * [Quick Start Guide V1.1.3 - English](/Wiznet/img/products/wizfi360/wizfi360ds/wizfi360qs_v113e.pdf)
+ * [Quick Start Guide V1.1.3 - English](/img/products/wizfi360/wizfi360ds/wizfi360qs_v113e.pdf)
  * [Quick Start Guide V1.1.3 - Korean](/img/products/wizfi360/wizfi360ds/wizfi360qs_v113k.pdf)
 
 | Version | Date    | Decription                                       |
