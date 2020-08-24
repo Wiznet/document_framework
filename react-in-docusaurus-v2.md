@@ -1,4 +1,4 @@
-![](RackMultipart20200824-4-dr4oqv_html_1dcb9ecd3264016f.png)
+![](static/img/croppedwiznetlogo.png)
 
 # HOW TO USE NODE JS / REACT JS IN DOCUSAURUS v2 FOR DOCUMENTATION SYSTEM
 
