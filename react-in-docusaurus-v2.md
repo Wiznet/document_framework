@@ -46,4 +46,6 @@ For more info visit the below link:-
 [https://v2.docusaurus.io/docs/creating-pages/#add-a-react-page](https://v2.docusaurus.io/docs/creating-pages/#add-a-react-page)
 
 **NOTE:-**
-Make sure to use the <code> <Layout> </code> & <code> </Layout> </code> tags inside <code> return() </code> to make use of the default navibar and footer.
+1) Make sure to use the <code> <Layout> </code> & <code> </Layout> </code> tags inside <code> return() </code> to make use of the default navibar and footer.
+2) You can use a seperate css file and import for styling.
+3) As of **Docusaurus 2.0.0-alpha.61** don't import 'react-bootstrap' in the import section as <code> import 'bootstrap/dist/css/bootstrap.min.css'; </code> instead you can import the same as  <code> <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"/> <code> inside <code> return </code> and inside the <code> Layout </code> tag just after <code> <Layout> <code>. which was observed to cause issues with 'Dark Mode'.
