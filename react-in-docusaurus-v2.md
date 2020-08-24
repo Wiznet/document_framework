@@ -16,7 +16,8 @@ Eg:-Suppose &#39;website&#39; is your project folder then navigate to website \&
 
 └── **helloReact.js**
  
- 'import React from 'react';
+ ```
+import React from 'react';
 import Layout from '@theme/Layout';
 
 function Hello() {
@@ -38,6 +39,7 @@ function Hello() {
   );
 }
 
-export default Hello;'
+export default Hello;
+```
 
 [https://v2.docusaurus.io/docs/creating-pages/#add-a-react-page](https://v2.docusaurus.io/docs/creating-pages/#add-a-react-page)
