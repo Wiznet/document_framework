@@ -6,20 +6,20 @@ import Design_guid from '../../static/img/Design Guide.png';
 import Var from '../../static/img/VAR.png';
 import '../css/home.css';
 
-function product_click ()  { 
+function product_click()  { 
     window.open(
         '/docs/Product/products', 
         '_self'
     );
 };
 
-function Design_guid_click ()  {
-    window.location= '/docs/Design-Guide/design_guide'
+function Design_guid_click()  {
+    window.location = 'docs/Design-Guide/design_guide'
    };
 
- function Var_click  ()  {
+ function Var_click()  {
     window.open(
-        '/docs/VAR-Products-using-WIZnet/var_products_using_wiznet',
+        'docs/VAR-Products-using-WIZnet/var_products_using_wiznet',
         '_self'
     );
 };
