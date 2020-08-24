@@ -35,5 +35,5 @@ If you are using GitHub pages for hosting, this command is a convenient way to b
 ----
 ### HOW TO USE REACT IN DOCUSAURUS 
 
-[REACT IN DOCUSAURUS](react-in-docusaurus-v2.md)
+#### [REACT IN DOCUSAURUS](react-in-docusaurus-v2.md)
 ----
