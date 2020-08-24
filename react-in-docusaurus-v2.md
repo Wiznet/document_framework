@@ -2,7 +2,7 @@
 
 # **HOW TO USE NODE JS / REACT JS IN DOCUSAURUS v2 FOR DOCUMENTATION SYSTEM**
 
-**Creating a React page:-**
+# Creating a React page :-
 
 To add or create a react code as a page in Docusaurus v2, head to your project root folder and navigate to the pages folder.
 
