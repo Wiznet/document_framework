@@ -14,7 +14,9 @@ function product_click()  {
 };
 
 function Design_guid_click()  {
-    window.location = 'docs/Design-Guide/design_guide'
+   
+    window.location.pathname = 'docs/Design-Guide/design_guide'
+
    };
 
  function Var_click()  {
