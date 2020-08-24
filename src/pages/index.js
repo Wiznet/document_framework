@@ -14,12 +14,12 @@ function Home() {
 			'_self'
 		);
   };
-	const Design_guid_click = () => {
-		window.open(
-			'/docs/Design-Guide/design_guide',
-			'_self'
-		);
-  };
+	const Design_guid_click = () =>  <link href="/docs/VAR-Products-using-WIZnet/var_products_using_wiznet"/>
+		// window.open(
+		// 	'/docs/Design-Guide/design_guide',
+		// 	'_self'
+		// );
+ 
 
 	const Var_click = () => {
 		window.open(
