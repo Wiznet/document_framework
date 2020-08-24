@@ -1,5 +1,5 @@
 ---
-id: sfr
+id: memorymap_sfr
 title: SFR Memory Map
 date: 2020-04-03
 ---

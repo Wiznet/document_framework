@@ -125,7 +125,7 @@ module.exports = {
 					// 'Product/iMCU/W7100/p0',
 					// 'Product/iMCU/W7100/p1',
 					// 'Product/iMCU/W7100/peripheral_sfr',
-					 'Product/iMCU/W7100/sfr',
+					 'Product/iMCU/W7100/memorymap_sfr',
 				],
 			},
 				'Product/iMCU/w7100a',
