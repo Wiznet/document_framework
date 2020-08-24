@@ -965,7 +965,7 @@ module.exports = {
 		'Product/Open-Source-Hardware/twitter_test',
 		'Product/Open-Source-Hardware/cookie', // is coocox already in cookie?
 		'Product/Open-Source-Hardware/open_source_hardware_coocox',
-		 'Product/Open-Source-Hardware/open_source_hardware_all_pages',
+		'Product/Open-Source-Hardware/open_source_hardware_all_pages',
 		],
     },
 	],
