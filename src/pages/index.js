@@ -6,7 +6,6 @@ import Design_guid from '../../static/img/Design Guide.png';
 import Var from '../../static/img/VAR.png';
 import '../css/home.css';
 
-
 function Home() {
 	function product_click ()  { 
 		window.open(
@@ -27,9 +26,8 @@ function Home() {
 			'_self'
 		);
     };
-    
-  return (	
-        
+
+  return (	  
   <Layout>    
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"/>
                 <img src={BG} alt="Back ground image" className="bg_img"></img>
