@@ -6,27 +6,27 @@ import Design_guid from '../../static/img/Design Guide.png';
 import Var from '../../static/img/VAR.png';
 import '../css/home.css';
 
+function product_click ()  { 
+    window.open(
+        '/docs/Product/products', 
+        '_self'
+    );
+};
+function Design_guid_click ()  {
+    window.open(
+        '/docs/Design-Guide/design_guide',
+        '_self'
+    );
+};
+
+ function Var_click  ()  {
+    window.open(
+        '/docs/VAR-Products-using-WIZnet/var_products_using_wiznet',
+        '_self'
+    );
+};
+
 function Home() {
-	function product_click ()  { 
-		window.open(
-			'/docs/Product/products', 
-			'_self'
-		);
-  };
-	function Design_guid_click ()  {
-		window.open(
-			'/docs/Design-Guide/design_guide',
-			'_self'
-		);
-  };
-
-	 function Var_click  ()  {
-		window.open(
-			'/docs/VAR-Products-using-WIZnet/var_products_using_wiznet',
-			'_self'
-		);
-    };
-
   return (	  
   <Layout>    
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"/>
