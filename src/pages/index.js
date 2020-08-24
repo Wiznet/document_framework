@@ -12,12 +12,10 @@ function product_click ()  {
         '_self'
     );
 };
+
 function Design_guid_click ()  {
-    window.open(
-        '/docs/Design-Guide/design_guide',
-        '_self'
-    );
-};
+    window.location= '/docs/Design-Guide/design_guide'
+   };
 
  function Var_click  ()  {
     window.open(
