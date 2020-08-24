@@ -8,20 +8,20 @@ import '../css/home.css';
 
 
 function Home() {
-	const product_click = () => { 
+	function product_click ()  { 
 		window.open(
 			'/docs/Product/products', 
 			'_self'
 		);
   };
-	const Design_guid_click = () =>  '/docs/VAR-Products-using-WIZnet/var_products_using_wiznet'
-		// window.open(
-		// 	'/docs/Design-Guide/design_guide',
-		// 	'_self'
-		// );
- 
+	function Design_guid_click ()  {
+		window.open(
+			'/docs/Design-Guide/design_guide',
+			'_self'
+		);
+  };
 
-	const Var_click = () => {
+	 function Var_click  ()  {
 		window.open(
 			'/docs/VAR-Products-using-WIZnet/var_products_using_wiznet',
 			'_self'
