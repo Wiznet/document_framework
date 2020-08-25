@@ -19,7 +19,8 @@ function Design_guid_click()  {
    };
 
 function Home() {
-  return (	  
+
+  return (	 
   <Layout>    
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"/>
                 <img src={BG} alt="Back ground image" className="bg_img"></img>
@@ -29,7 +30,9 @@ function Home() {
                     a place to find everything you require for WIZnet Products
                 </div>
             </div>
+
             <div className="row home_1 container-fluid main_div" align="center">
+
                 <div className="col-12 col-sm-12 col-md-4 col-lg-4 col-xl-4">
                     <div className="home1_div" onClick={product_click}>
                         <img
@@ -39,6 +42,7 @@ function Home() {
                         <h3 className="text-center img_heading">Products</h3>
                     </div>
                 </div>
+
                 <div className="col-12 col-sm-12 col-md-4 col-lg-4 col-xl-4">
                     <div className="home1_div" onClick={Design_guid_click}>
                         <img
@@ -48,6 +52,7 @@ function Home() {
                         <h3 className="text-center img_heading">Design Guide</h3>
                     </div>
                 </div>
+
                 <div className="col-12 col-sm-12 col-md-4 col-lg-4 col-xl-4">
                     <div className="home1_div" onClick={Var_click}>
                         <img src={Var} alt="Back ground image" className="home1_img"></img>
