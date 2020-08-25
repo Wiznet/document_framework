@@ -1,6 +1,6 @@
 ---
-id: Japanese_Ver
-title: Japanese_Ver
+id: japanese_v
+title: Japanese Version
 date: 2020-04-07
 ---
 
