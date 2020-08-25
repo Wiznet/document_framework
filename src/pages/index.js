@@ -15,11 +15,13 @@ function product_click()  {
 
 function Design_guid_click()  {
    
-    location.pathname = 'docs/Design-Guide/design_guide'
-    window.location.pathname.split('/').pop()
+    //location.pathname = 'docs/Design-Guide/design_guide'
+    //window.location.pathname.split('/').pop()
     
-   // let url_2 = 'docs/Design-Guide/design_guide';
-//var page = url_2.pop('/');
+ let url_2 = 'docs/Design-Guide/design_guide';
+ //if (window.location = url_2)
+ window.location = url_2.slice(0,-1)
+ //var page = url_2.pop('/');
 //alert(page);
    };
 
