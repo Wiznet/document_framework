@@ -208,6 +208,7 @@ module.exports = {
 			label: 'W5500',
 			items: [
 				'Product/iEthernet/W5500/overview',
+				'Product/iEthernet/W5500/Japanese_Ver',
 				'Product/iEthernet/W5500/datasheet',
 				'Product/iEthernet/W5500/driver',
 				'Product/iEthernet/W5500/ref_schematic',
