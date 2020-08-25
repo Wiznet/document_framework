@@ -22,7 +22,7 @@ function Home() {
             <div className="row home_1 container-fluid main_div" align="center">
                
                 <div className="col-12 col-sm-12 col-md-4 col-lg-4 col-xl-4">
-                <Link to={useBaseUrl('/docs/Product/products')}> 
+                <Link to={useBaseUrl('docs/Product/products')}> 
                     <div className="button home1_div">
                      
                         <img
@@ -36,7 +36,7 @@ function Home() {
                 </div>
                
                 <div className="col-12 col-sm-12 col-md-4 col-lg-4 col-xl-4">
-                <Link to={useBaseUrl('/docs/Design-Guide/design_guide')}> 
+                <Link to={useBaseUrl('docs/Design-Guide/design_guide')}> 
                     <div className="button home1_div">
                         <img
                             src={Design_guid}
@@ -47,7 +47,7 @@ function Home() {
                     </Link>
                 </div>
                 <div className="col-12 col-sm-12 col-md-4 col-lg-4 col-xl-4">
-                <Link to={useBaseUrl('/docs/VAR-Products-using-WIZnet/var_products_using_wiznet')}> 
+                <Link to={useBaseUrl('docs/VAR-Products-using-WIZnet/var_products_using_wiznet')}> 
                     <div className="button  home1_div">
                         <img src={Var} alt="Back ground image" className="home1_img"></img>
                         <h3 className="text-center img_heading">VAR Products</h3>
