@@ -24,7 +24,7 @@ module.exports = {
       indexName: 'wiznet-cloud',
     },
     navbar: {
-      title: 'WIZnet',
+      //title: 'WIZnet',
       logo: {
         alt: 'My Site Logo',
         src: 'img/wiznet_logo.svg',
