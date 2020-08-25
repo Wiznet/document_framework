@@ -41,19 +41,19 @@ module.exports = {
             },
             {
               label: 'Introduction ➤',
-              to: '/docs/introduction',
+              to: 'docs/introduction',
             },
             {
               label: 'Products',
-              to: '/docs/Product/products',
+              to: 'docs/Product/products',
             },
             {
               label: 'Design Guide',
-              to: '/docs/Design-Guide/design_guide',
+              to: 'docs/Design-Guide/design_guide',
             },
             {
               label: 'VAR Products',
-              to: '/docs/VAR-Products-using-WIZnet/var_products_using_wiznet',
+              to: 'docs/VAR-Products-using-WIZnet/var_products_using_wiznet',
             },
             // ... more items
           ],
