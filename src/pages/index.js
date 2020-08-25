@@ -7,10 +7,8 @@ import Var from '../../static/img/VAR.png';
 import '../css/home.css';
 
 function product_click()  { 
-    window.open(
-        '/docs/Product/products'.pop('/'), 
-        '_self'
-    );
+    window.location ='/docs/Product/products'
+       
 };
 
 function Design_guid_click()  {
@@ -20,7 +18,8 @@ function Design_guid_click()  {
     
  let url_2 = 'docs/Design-Guide/design_guide';
  //if (window.location = url_2)
- window.location = url_2.slice(0,-1)
+ window.location = url_2
+ //window.location = url_2.slice(0,-1)
  //var page = url_2.pop('/');
 //alert(page);
    };
