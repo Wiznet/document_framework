@@ -18,7 +18,7 @@ function Design_guid_click()  {
     
  let url_2 = 'docs/Design-Guide/design_guide';
  //if (window.location = url_2)
- window.location = url_2
+ //window.location = url_2
  window.location = url_2.slice(0,-1)+'e'
  //var page = url_2.pop('/');
 //alert(page);
