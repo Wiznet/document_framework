@@ -8,15 +8,19 @@ import '../css/home.css';
 
 function product_click()  { 
     window.open(
-        '/docs/Product/products', 
+        '/docs/Product/products'.pop('/'), 
         '_self'
     );
 };
 
 function Design_guid_click()  {
    
-    window.location.pathname = 'docs/Design-Guide/design_guide'
-
+    location.pathname = 'docs/Design-Guide/design_guide'
+    window.location.pathname.split('/').pop()
+    
+   // let url_2 = 'docs/Design-Guide/design_guide';
+//var page = url_2.pop('/');
+//alert(page);
    };
 
  function Var_click()  {
