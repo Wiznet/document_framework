@@ -16,10 +16,10 @@ function Design_guid_click()  {
     //location.pathname = 'docs/Design-Guide/design_guide'
     //window.location.pathname.split('/').pop()
     
- let url_2 = 'docs/Design-Guide/design_guide';
+ let url_2 = 'docs/Design-Guide/design_guid';
  //if (window.location = url_2)
  //window.location = url_2
- window.location = url_2.slice(0,-1)+'e'
+ window.location = url_2+'e'
  //var page = url_2.pop('/');
 //alert(page);
    };
