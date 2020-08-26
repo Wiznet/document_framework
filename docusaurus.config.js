@@ -70,7 +70,7 @@ module.exports = {
           position: 'right',
         },
         {
-          href: 'https://pdf-ace.com/pdfme/',
+          href: 'https://pdfmyurl.com/saveaspdf',
           label: 'Save as PDF',
           position: 'right',
         },
