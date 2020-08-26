@@ -70,9 +70,9 @@ module.exports = {
           position: 'right',
         },
         {
-          href: 'https://pdfmyurl.com/saveaspdf',
-          label: 'Save as PDF',
-          position: 'right',
+//           href: '',
+//           label: 'Save as PDF',
+//           position: 'right',
         },
       ],
     },
