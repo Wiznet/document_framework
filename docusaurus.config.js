@@ -69,6 +69,11 @@ module.exports = {
           label: 'GitHub',
           position: 'right',
         },
+        {
+          href: 'https://pdf-ace.com/pdfme/',
+          label: 'Save as PDF',
+          position: 'right',
+        },
       ],
     },
     footer: {
