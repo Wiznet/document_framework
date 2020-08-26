@@ -69,6 +69,11 @@ module.exports = {
           label: 'GitHub',
           position: 'right',
         },
+        {
+//           href: '',
+//           label: 'Save as PDF',
+//           position: 'right',
+        },
       ],
     },
     footer: {
