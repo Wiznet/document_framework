@@ -789,7 +789,8 @@ module.exports = {
 		type: 'category',
 		label: 'Azure Sphere',
 		items: [
-			'Product/Azure-Sphere/asg200'
+			'Product/Azure-Sphere/asg200',
+			'Product/Azure-Sphere/asg210',
 		],
 	},
 	{
