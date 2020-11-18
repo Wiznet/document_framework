@@ -1,4 +1,4 @@
-import React from 'react';
+//import React from 'react';
 // import Layout from '@theme/Layout';
 // import BG from '../../static/img/BG.png';
 // import Product from '../../static/img/Products.png';
