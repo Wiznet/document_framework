@@ -58,14 +58,3 @@ function Home() {
     </Layout>
   );
 };	
-
-export default Home;
-
-// function Home () {
-// return(
-// window.open('docs/Product/products','_self')
-// )
-
-// }
-
-// export default Home;
