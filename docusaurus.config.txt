@@ -35,10 +35,10 @@ module.exports = {
           label: 'Documents',
           position: 'right', // or 'left'
           items: [
-//             {
-//               label: 'HOME',
-//               to: '/',
-//             },
+            {
+              label: 'HOME',
+              to: '/',
+            },
             {
               label: 'Introduction ➤',
               to: 'docs/introduction',
