@@ -41,12 +41,12 @@ module.exports = {
             // },
             {
               label: 'Introduction ➤',
-              to: 'docs/introduction',
+              to: 'introduction',
             },
-            {
-              label: 'Products',
-              to: '/',
-            },
+//             {
+//               label: 'Products',
+//               to: '/',
+//             },
             {
               label: 'Design Guide',
               to: '/Design-Guide/design_guide',
