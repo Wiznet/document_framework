@@ -1,3 +1,5 @@
+//docusaurus.config.js for Custom Landing Page
+
 module.exports = {
   title: 'WIZnet Document System',
   tagline: 'Welcome to new WIZnet Document System!',
