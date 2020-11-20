@@ -1,3 +1,5 @@
+//docusaurus.config.js for Docs only Mode
+
 module.exports = {
   title: 'WIZnet Document System',
   tagline: 'Welcome to new WIZnet Document System!',
