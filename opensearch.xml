@@ -4,8 +4,8 @@
   <ShortName>WIZnet Document System</ShortName>
   <Description>Search WIZnet Document System</Description>
   <InputEncoding>UTF-8</InputEncoding>
-  <Image width="16" height="16" type="image/x-icon">https://doc.wiznet.io/img/wizfavicon.ico</Image>
-  <Url type="text/html" method="get" template="https://doc.wiznet.io/search?q={searchTerms}"/>
-  <Url type="application/opensearchdescription+xml" rel="self" template="https://doc.wiznet.io/opensearch.xml" />
-  <moz:SearchForm>https://doc.wiznet.io</moz:SearchForm>
+  <Image width="16" height="16" type="image/x-icon">https://docs.wiznet.io/img/wizfavicon.ico</Image>
+  <Url type="text/html" method="get" template="https://docs.wiznet.io/search?q={searchTerms}"/>
+  <Url type="application/opensearchdescription+xml" rel="self" template="https://docs.wiznet.io/opensearch.xml" />
+  <moz:SearchForm>https://docs.wiznet.io</moz:SearchForm>
 </OpenSearchDescription>
