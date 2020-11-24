@@ -123,7 +123,7 @@ function DocSearch(props) {
 
                 return {
                   ...item,
-                  url: withBaseUrl(`${a.pathname}`),
+                  url: (`${a.pathname}${a.hash}`),
                 };
               });
             }}
