@@ -8,7 +8,7 @@
 import React, {useState, useRef, useCallback} from 'react';
 import {createPortal} from 'react-dom';
 import useDocusaurusContext from '@docusaurus/useDocusaurusContext';
-//import {useHistory} from '@docusaurus/router';
+import {useHistory} from '@docusaurus/router';
 import {useBaseUrlUtils} from '@docusaurus/useBaseUrl';
 import Link from '@docusaurus/Link';
 import Head from '@docusaurus/Head';
@@ -34,7 +34,7 @@ function ResultsFooter({state, onClose}) {
 function DocSearch(props) {
   const {siteMetadata} = useDocusaurusContext();
   const {withBaseUrl} = useBaseUrlUtils();
- // const history = useHistory();
+  const history = useHistory();
   const searchButtonRef = useRef(null);
   const [isOpen, setIsOpen] = useState(false);
   const [initialQuery, setInitialQuery] = useState(null);
