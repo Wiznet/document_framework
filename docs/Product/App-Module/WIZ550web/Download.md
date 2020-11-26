@@ -10,12 +10,14 @@ date: 2020-04-13
 
 **WIZ550web Firmware Binary (Direct download)**  
 **H/W Rev 1.1/1.2 & bin 2.0.0**  
-[WIZ550web H/W Rev1.1/1.2 & F/W bin v2.0.0 (zip)](/img/products/wiz550web/wiz550web_firmware_bin_v2.0.0.zip) (Apr. 2016) 
-<a href="/img/products/wiz550web/wiz550web_firmware_bin_v2.0.0.zip" target="_blank"> WIZ550web H/W Rev1.1/1.2 & F/W bin v2.0.0 (zip)(WITH TARGET _BLANK)</a>  
+
+<a href="/img/products/wiz550web/wiz550web_firmware_bin_v2.0.0.zip" target="_blank">WIZ550web H/W Rev1.1/1.2 & F/W bin v2.0.0 (zip)</a> (Apr. 2016)  
+
 
 ### Source code (with web pages)
 
 **WIZ550web GitHub Repository
+
 Rev1.1/1.2 (Link)** 🌎https://github.com/Wiznet/WIZ550web
 
 **WIZ550web Latest Firmware Source code (Direct download)**  
@@ -30,7 +32,7 @@ Rev1.1/1.2 (Link)** 🌎https://github.com/Wiznet/WIZ550web
 
 **WIZnet Configuration Tool (Direct download)**
 
-[WIZnet Configuration tool v1.02 (zip)](/img/products/wiz550web/wiz550web_firmware_bin_v2.0.0.zip)
+<a href="/img/products/wiz550web/wiz550web_firmware_bin_v2.0.0.zip" target="_blank">WIZnet Configuration tool v1.02 (zip)</a>
 
 -----
 
@@ -38,8 +40,7 @@ Rev1.1/1.2 (Link)** 🌎https://github.com/Wiznet/WIZ550web
 
  **WIZ550web H/W Rev1.1/1.2 EEPROM Memory ERASE CODE**
 
-[WIZ550web H/W Rev1.1/1.2 EEPROM ERASE FILE(HEX)](/img/products/wiz550web/wiz550web_eeprom_erase_hex_file.zip)
-
+<a href="/img/products/wiz550web/wiz550web_eeprom_erase_hex_file.zip" target="_blank">WIZ550web H/W Rev1.1/1.2 EEPROM ERASE FILE(HEX)</a>
 
 -----
 
@@ -53,8 +54,7 @@ turn on the board after reset or power supply
 
 #### 2\. Run the 'Flash Loader Demonstrator' Program
 
-Refer to 🌎[Flash Loader
-Demonstrator](http://www.st.com/web/en/catalog/tools/FM147/CL1794/SC961/SS1533/PF257525?s_searchtype=keyword)
+Refer to 🌎[Flash Loader Demonstrator](http://www.st.com/web/en/catalog/tools/FM147/CL1794/SC961/SS1533/PF257525?s_searchtype=keyword)
 
 #### 3\. Flash program and Run the new application firmware
 
