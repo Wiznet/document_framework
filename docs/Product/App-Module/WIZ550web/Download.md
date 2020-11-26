@@ -46,7 +46,6 @@ Rev1.1/1.2 (Link)** 🌎https://github.com/Wiznet/WIZ550web
 
 ## How to program WIZ550web code flash memory
 
-
 #### 1\. WIZ550web enter the ISP mode
 
 Press the 'Boot' push button switch on baseboard (or BOOT pin) until
@@ -63,7 +62,6 @@ setting when you download a firmware into target.**
 
 1.  You must download a bootloader from **0x8000000** at least once.
 2.  You must use **0x8007000** for an application firmware.
-
 
 #### 4\. How to WIZ550web Firmware
 
