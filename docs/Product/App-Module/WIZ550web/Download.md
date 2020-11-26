@@ -32,7 +32,7 @@ Rev1.1/1.2 (Link)** 🌎https://github.com/Wiznet/WIZ550web
 
 **WIZnet Configuration Tool (Direct download)**
 
-<a href="/img/products/wiz550web/wiz550web_firmware_bin_v2.0.0.zip" target="_blank">WIZnet Configuration tool v1.02 (zip)</a>
+<a href="/img/products/wiz550web/wiznet_configuration_tool_ver1.02.zip" target="_blank">WIZnet Configuration tool v1.02 (zip)</a>
 
 -----
 
