@@ -11,6 +11,7 @@ date: 2020-04-13
 **WIZ550web Firmware Binary (Direct download)**  
 **H/W Rev 1.1/1.2 & bin 2.0.0**  
 [WIZ550web H/W Rev1.1/1.2 & F/W bin v2.0.0 (zip)](/img/products/wiz550web/wiz550web_firmware_bin_v2.0.0.zip) (Apr. 2016) 
+<a href="/img/products/wiz550web/wiz550web_firmware_bin_v2.0.0.zip" target="_blank"> WIZ550web H/W Rev1.1/1.2 & F/W bin v2.0.0 (zip)(WITH TARGET _BLANK)</a>  
 
 ### Source code (with web pages)
 
