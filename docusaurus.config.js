@@ -22,8 +22,8 @@ module.exports = {
       },
     },
     algolia: {
-      //apiKey: 'f997035e1f482592037217527848e3fd',
-      //indexName: 'wiznet-cloud',
+      apiKey: 'f997035e1f482592037217527848e3fd',
+      indexName: 'wiznet-docs-cloud',
             // Optional: see doc section bellow
       contextualSearch: true,
 
