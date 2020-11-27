@@ -25,10 +25,10 @@ module.exports = {
       apiKey: 'f997035e1f482592037217527848e3fd',
       indexName: 'wiznet-cloud',
             // Optional: see doc section bellow
-      contextualSearch: true,
+      //contextualSearch: true,
 
       // Optional: Algolia search parameters
-      searchParameters: {},
+     // searchParameters: {},
 
       //... other Algolia params
     },
