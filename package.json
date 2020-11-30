@@ -11,7 +11,7 @@
     "serve": "docusaurus serve"
   },
   "dependencies": {
-    "@cmfcmf/docusaurus-search-local":"^0.4.0"
+    "@cmfcmf/docusaurus-search-local":"0.4.0"
     "@docusaurus/core": "^2.0.0-alpha.61",
     "@docusaurus/preset-classic": "^2.0.0-alpha.61",
     "@mdx-js/react": "^1.5.8",
