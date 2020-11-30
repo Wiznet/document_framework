@@ -32,18 +32,18 @@ module.exports = {
 
 //       //... other Algolia params
 //     },
-//      plugins: [
-//     [require.resolve('@cmfcmf/docusaurus-search-local'), {
-//       // Options here
-//   blogRouteBasePath: '/blog', // must correspond to the base route path configured for the blog plugin
-//   docsRouteBasePath: '/', // must correspond to the base route path configured for the docs plugin
-//   indexBlog: false, // whether to index blog pages
-//   indexDocs: true, // whether to index docs pages
-//   indexPages: false, // whether to index static pages
-//   // /404.html is never indexed
-//   language: "en" // language of your documentation, see next section
-//     }]
-//   ],
+     plugins: [
+    [require.resolve('@cmfcmf/docusaurus-search-local'), {
+      // Options here
+  blogRouteBasePath: '/blog', // must correspond to the base route path configured for the blog plugin
+  docsRouteBasePath: '/', // must correspond to the base route path configured for the docs plugin
+  indexBlog: false, // whether to index blog pages
+  indexDocs: true, // whether to index docs pages
+  indexPages: false, // whether to index static pages
+  // /404.html is never indexed
+  language: "en" // language of your documentation, see next section
+    }]
+  ],
 
     navbar: {
       //title: 'WIZnet',
