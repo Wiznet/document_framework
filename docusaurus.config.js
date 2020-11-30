@@ -21,17 +21,17 @@ module.exports = {
         lightIcon: '\u{1f324}',
       },
     },
-    algolia: {
-      apiKey: 'f997035e1f482592037217527848e3fd',
-      indexName: 'wiznet-cloud',
-            // Optional: see doc section bellow
-      contextualSearch: true,
+//     algolia: {
+//       apiKey: 'f997035e1f482592037217527848e3fd',
+//       indexName: 'wiznet-cloud',
+//             // Optional: see doc section bellow
+//       contextualSearch: true,
 
-      // Optional: Algolia search parameters
-     // searchParameters: {},
+//       // Optional: Algolia search parameters
+//      // searchParameters: {},
 
-      //... other Algolia params
-    },
+//       //... other Algolia params
+//     },
 //      plugins: [
 //     [require.resolve('@cmfcmf/docusaurus-search-local'), {
 //       // Options here
