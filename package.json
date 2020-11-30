@@ -11,12 +11,6 @@
     "serve": "docusaurus serve"
   },
   "dependencies": {
-    "autocomplete.js": "^0.38.0",
-    "cheerio": "^1.0.0-rc.3",
-    "lunr": "^2.3.9",
-    "lunr-languages": "^1.4.0",
-    "mark.js": "^8.11.1",
-    "@cmfcmf/docusaurus-search-local":"^0.4.0",
     "@docusaurus/core": "^2.0.0-alpha.61",
     "@docusaurus/preset-classic": "^2.0.0-alpha.61",
     "@mdx-js/react": "^1.5.8",
