@@ -44,7 +44,7 @@ module.exports = {
 //   language: "en" // language of your documentation, see next section
 //     }]
 //   ],
-},
+
     navbar: {
       //title: 'WIZnet',
       logo: {
