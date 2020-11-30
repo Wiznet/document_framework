@@ -21,29 +21,29 @@ module.exports = {
         lightIcon: '\u{1f324}',
       },
     },
-//     algolia: {
-//       apiKey: 'f997035e1f482592037217527848e3fd',
-//       indexName: 'wiznet-cloud',
-//             // Optional: see doc section bellow
-//       contextualSearch: true,
+    algolia: {
+      apiKey: 'f997035e1f482592037217527848e3fd',
+      indexName: 'wiznet-cloud',
+            // Optional: see doc section bellow
+      contextualSearch: true,
 
-//       // Optional: Algolia search parameters
-//      // searchParameters: {},
+      // Optional: Algolia search parameters
+     // searchParameters: {},
 
-//       //... other Algolia params
-//     },
-     plugins: [
-    [require.resolve('@cmfcmf/docusaurus-search-local'), {
-      // Options here
-  blogRouteBasePath: '/blog', // must correspond to the base route path configured for the blog plugin
-  docsRouteBasePath: '/', // must correspond to the base route path configured for the docs plugin
-  indexBlog: false, // whether to index blog pages
-  indexDocs: true, // whether to index docs pages
-  indexPages: false, // whether to index static pages
-  // /404.html is never indexed
-  language: "en" // language of your documentation, see next section
-    }]
-  ],
+      //... other Algolia params
+    },
+//      plugins: [
+//     [require.resolve('@cmfcmf/docusaurus-search-local'), {
+//       // Options here
+//   blogRouteBasePath: '/blog', // must correspond to the base route path configured for the blog plugin
+//   docsRouteBasePath: '/', // must correspond to the base route path configured for the docs plugin
+//   indexBlog: false, // whether to index blog pages
+//   indexDocs: true, // whether to index docs pages
+//   indexPages: false, // whether to index static pages
+//   // /404.html is never indexed
+//   language: "en" // language of your documentation, see next section
+//     }]
+//   ],
 },
     navbar: {
       //title: 'WIZnet',
