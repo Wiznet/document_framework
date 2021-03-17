@@ -23,11 +23,10 @@ Comparison Sheet** provides comparison with ESP8266 AT command.
 
 ### WizFi360
 
-  - <a href="/img/products/wizfi360/wizfi360ds/wizfi360_ds_v105_en.pdf" target="_blank">WizFi360 Datasheet v1.05</a>
+  - <a href="/img/products/wizfi360/wizfi360ds/wizfi360_ds_v106_en.pdf" target="_blank">WizFi360 Datasheet v1.06</a>
 
-  - 2019-12-11 V1.05
-      - Edited “5. Pin Definitions”
-          - No.11 & No.19
+  - 2021-03-17 V1.06
+      - Edited “5. Pin Definitions” No.19
 
 **Old Datasheet History**
 
@@ -47,6 +46,9 @@ Comparison Sheet** provides comparison with ESP8266 AT command.
       - Edited “Figure3. WizFi360 Pinout”
       - Edited “Table4. WizFi360 Pin Function”
       - Edited “Table6. Initial Value of GPIO Pins”
+  - 2019-12-11 V1.05
+      - Edited “5. Pin Definitions”
+          - No.11 & No.19
 
 ### WizFi360-EVB-Shield
 
