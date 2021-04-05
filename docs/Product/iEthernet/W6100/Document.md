@@ -7,8 +7,8 @@ date: 2020-04-03
 
 **Download the latest version**
 
-Korean : [W6100 DataSheet v1.0.4](/img/products/w6100/w6100_ds_v104k.pdf)  
-English : [W6100 DataSheet v1.0.4](/img/products/w6100/w6100_ds_v104e.pdf)  
+Korean : <a href="/img/products/w6100/w6100_ds_v104k.pdf" target="_blank">W6100 DataSheet v1.0.4</a>
+English : <a href="/img/products/w6100/w6100_ds_v104e.pdf" target="_blank">W6100 DataSheet v1.0.4</a>
 
 -----
 
