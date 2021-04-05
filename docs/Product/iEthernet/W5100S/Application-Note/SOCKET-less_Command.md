@@ -33,8 +33,8 @@ If ARP and PING Reply Packet are received within the Retransmission Time configu
 <tr class="odd">
 <td>1.0.0</td>
 <td>2018-04-01</td>
-<td><a href="/img/products/w5100s/application/w5100s_an_slc_v100k.pdf">w5100s_an_slc_v100k.pdf</a><br />
-<a href="/img/products/w5100s/application/w5100s_an_slc_v100e.pdf" class="align-center">w5100s_an_slc_v100e.pdf</a></td>
+<td><a href="/img/products/w5100s/application/w5100s_an_slc_v100k.pdf" target=-"_blank">w5100s_an_slc_v100k.pdf</a><br />
+<a href="/img/products/w5100s/application/w5100s_an_slc_v100e.pdf" target=-"_blank">w5100s_an_slc_v100e.pdf</a></td>
 </tr>
 </tbody>
 </table>
