@@ -36,8 +36,8 @@ SOCKET, etc.) occurs, the **INTn** is asserted low
 <tr class="odd">
 <td>1.0.0</td>
 <td>2018-04-01</td>
-<td><a href="/img/products/w5100s/application/w5100s_an_interrupt_v110k.pdf" class="align-center">w5100s_an_interrupt_v110k.pdf</a><br />
-<a href="/img/products/w5100s/application/w5100s_an_interrupt_v100e.pdf" class="align-center">w5100s_an_interrupt_v100e.pdf</a></td>
+<td><a href="/img/products/w5100s/application/w5100s_an_interrupt_v110k.pdf" target="_blank">w5100s_an_interrupt_v110k.pdf</a><br />
+<a href="/img/products/w5100s/application/w5100s_an_interrupt_v100e.pdf" target="_blank">w5100s_an_interrupt_v100e.pdf</a></td>
 </tr>
 </tbody>
 </table>
@@ -50,7 +50,7 @@ SOCKET, etc.) occurs, the **INTn** is asserted low
 
 | Version | Date | Download                    | ETC             |
 | ------- | ---- | --------------------------- | --------------- |
-| 1.0.0   |      | [w5100s_an_interrupt_v110k.pdf](/img/products/w5100s/application/w5100s_an_interrupt_v110k.pdf) <br />[w5100s_an_interrupt_v100e.pdf](/img/products/w5100s/application/w5100s_an_interrupt_v100e.pdf)| Initial Version |
+| 1.0.0   |      | <a href=“/img/products/w5100s/application/w5100s_an_interrupt_v110k.pdf” target=“_blank”>w5100s_an_interrupt_v110k.pdf</a> <br /><a href=“/img/products/w5100s/application/w5100s_an_interrupt_v100e.pdf” target=“_blank”>w5100s_an_interrupt_v100e.pdf</a>| Initial Version |
 
 For more information [W5100s](../document) chip please
 also refer to the chip's datasheet:
