@@ -26,8 +26,8 @@ W5100S-EVB support DMA(Direct Memory Addressing) of SPI Mode. To operate at its 
 
 | Version | Date       | Download                                                                           |
 | ------- | ---------- | ---------------------------------------------------------------------------------- |
-| 1.0.0   | 2018-12-14 | <a href=“/img/products/w5100s/w5100s_evb/w5100s_an_dma_v100k.pdf” target=“_blank”>W5100S\_AN\_DMA\_V100K.pdf</a> |
-| :::     | 2019-04-16 | <a href=“/img/products/w5100s/application/w5100s_an_dma_v100e.pdf” target=“_blank”>W5100S\_AN\_DMA\_V100E.pdf</a>            |
+| 1.0.0   | 2018-12-14 | <a href="/img/products/w5100s/w5100s_evb/w5100s_an_dma_v100k.pdf" target="_blank">W5100S\_AN\_DMA\_V100K.pdf</a> |
+| :::     | 2019-04-16 | <a href="/img/products/w5100s/application/w5100s_an_dma_v100e.pdf" target="_blank">W5100S\_AN\_DMA\_V100E.pdf</a>            |
 
 ## Reference Code
 
@@ -41,7 +41,7 @@ use this application.
 
 | Version | Date       | Download                                                                      | ETC             |
 | ------- | ---------- | ----------------------------------------------------------------------------- | --------------- |
-| 1.0.0   | 2018-12-14 | <a href=“https://github.com/Wiznet/W5100S-EVB” target=“_blank”>https://github.com/Wiznet/W5100S-EVB</a> | Initial Version |
+| 1.0.0   | 2018-12-14 | <a href="https://github.com/Wiznet/W5100S-EVB" target="_blank">https://github.com/Wiznet/W5100S-EVB</a> | Initial Version |
 
 ## Comparison table
 
