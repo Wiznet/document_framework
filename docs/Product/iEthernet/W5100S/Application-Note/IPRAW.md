@@ -43,8 +43,8 @@ HOST Process.
 <tr class="odd">
 <td>1.0.0</td>
 <td>2018-04-01</td>
-<td><embed src="/img/products/w5100s/application/w5100s_an_ipraw_v110k.pdf" class="align-right" /><br />
-<embed src="/img/products/w5100s/application/w5100s_an_ipraw_v110e.pdf" /></td>
+<td><a href="/img/products/w5100s/application/w5100s_an_ipraw_v110k.pdf">w5100s_an_ipraw_v110k.pdf</a><br />
+<a href="/img/products/w5100s/application/w5100s_an_ipraw_v110e.pdf">w5100s_an_ipraw_v110e.pdf</a></td>
 </tr>
 </tbody>
 </table>
@@ -55,7 +55,7 @@ HOST Process.
 
 | Version | Date       | Download                                                                                                        | Etc             |
 | ------- | ---------- | --------------------------------------------------------------------------------------------------------------- | --------------- |
-| 1.0.0   | 2018-05-25 | [W5100S\_EVB\_AN\_CoIDE\_IPRAW\_V100.zip](/img/products/w5100s/application/w5100s_evb_an_coide_ipraw_v100.zip.zip) | Initial Version |
+| 1.0.0   | 2018-05-25 | <a href=“/img/products/w5100s/application/w5100s_evb_an_coide_ipraw_v100.zip.zip” target=“_blank”>W5100S\_EVB\_AN\_CoIDE\_IPRAW\_V100.zip</a> | Initial Version |
 
 For more information [W5100S]() chip please
 also refer to the chip's datasheet:
