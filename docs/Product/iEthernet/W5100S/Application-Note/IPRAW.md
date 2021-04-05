@@ -43,8 +43,8 @@ HOST Process.
 <tr class="odd">
 <td>1.0.0</td>
 <td>2018-04-01</td>
-<td><a href="/img/products/w5100s/application/w5100s_an_ipraw_v110k.pdf">w5100s_an_ipraw_v110k.pdf</a><br />
-<a href="/img/products/w5100s/application/w5100s_an_ipraw_v110e.pdf">w5100s_an_ipraw_v110e.pdf</a></td>
+<td><a href="/img/products/w5100s/application/w5100s_an_ipraw_v110k.pdf" target="_blank">w5100s_an_ipraw_v110k.pdf</a><br />
+<a href="/img/products/w5100s/application/w5100s_an_ipraw_v110e.pdf" target="_blank">w5100s_an_ipraw_v110e.pdf</a></td>
 </tr>
 </tbody>
 </table>
