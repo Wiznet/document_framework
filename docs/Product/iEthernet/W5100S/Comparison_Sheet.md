@@ -28,7 +28,7 @@ described in the document titled "W5100S comparison sheet" below.
 <td>1.0.0</td>
 <td>2018-04-01</td>
 <td><a href="/img/products/w5100s/w5100s_cp_v100k.pdf" target="_blank">w5100s_cp_v100k.pdf</a><br />
-<a href="/img/products/w5100s/w5100s_cp_v100e.pdf" target="_blank">w5100s_cp_v100e.pdf</a>
+  <a href="/img/products/w5100s/w5100s_cp_v100e.pdf" target="_blank">w5100s_cp_v100e.pdf</a></td>
 </tr>
 </tbody>
 </table>
