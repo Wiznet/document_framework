@@ -34,7 +34,7 @@ If ARP and PING Reply Packet are received within the Retransmission Time configu
 <td>1.0.0</td>
 <td>2018-04-01</td>
 <td><a href="/img/products/w5100s/application/w5100s_an_slc_v100k.pdf" target=-"_blank">w5100s_an_slc_v100k.pdf</a><br />
-<a href="/img/products/w5100s/application/w5100s_an_slc_v100e.pdf" target=-"_blank">w5100s_an_slc_v100e.pdf</a></td>
+<a href="/img/products/w5100s/application/w5100s_an_slc_v100e.pdf" target="_blank">w5100s_an_slc_v100e.pdf</a></td>
 </tr>
 </tbody>
 </table>
@@ -45,7 +45,7 @@ If ARP and PING Reply Packet are received within the Retransmission Time configu
 
 | Version | Date       | Download                                                                                                | ETC             |
 | ------- | ---------- | ------------------------------------------------------------------------------------------------------- | --------------- |
-| 1.0.0   | 2018-09-03 | <a href=“/img/products/w5100s/application/w5100s_evb_an_coide_slc_v100.zip” target=“_blank”>W5100S\_EVB\_AN\_CoIDE\_SLC\_V100.zip</a> | Initial Version |
+| 1.0.0   | 2018-09-03 | <a href="/img/products/w5100s/application/w5100s_evb_an_coide_slc_v100.zip" target="_blank">W5100S\_EVB\_AN\_CoIDE\_SLC\_V100.zip</a> | Initial Version |
 
 For more information [W5100s](../document) chip please
 also refer to the chip's datasheet:
