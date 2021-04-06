@@ -12,7 +12,7 @@ to WizFi630S.
 
 This document provides features and pin map of the WizFi630S.
 
-   * [WizFi630S Datasheet](/img/products/wizfi630s/wizfi630s_ds/wizfi630s_datasheet_en_v1_0_.pdf)
+   * <a href="/img/products/wizfi630s/wizfi630s_ds/wizfi630s_datasheet_en_v1_0_.pdf" target="_blank">WizFi630S Datasheet</a>
 
 | Version | Date    | Description     |
 | ------- | ------- | --------------- |
