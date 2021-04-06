@@ -12,7 +12,7 @@ to WizFi630S.
 
 This document provides features and pin map of the WizFi630S.
 
-   * [WizFi630S Datasheet](https://docs.wiznet.io/img/products/wizfi630s/wizfi630s_ds/wizfi630s_datasheet_en_v1_0_.pdf)
+   * <a href="/img/products/wizfi630s/wizfi630s_ds/wizfi630s_datasheet_en_v1_0_.pdf">WizFi630S Datasheet</a>
 
 | Version | Date    | Description     |
 | ------- | ------- | --------------- |
@@ -26,8 +26,8 @@ This document provides features and pin map of the WizFi630S.
 This document provides features of the WizFi630S-EVB and how to use it.
 
 
-   * [WizFi630S-EVB Datasheet-Kr](https://docs.wiznet.io/img/products/wizfi630s/wizfi630s_ds/wizfi630s_evb_datasheet_kr_v1_0_.pdf)
-   * [WizFi630S-EVB Datasheet-En](https://docs.wiznet.io/img/products/wizfi630s/wizfi630s_ds/wizfi630s_evb_datasheet_en_v1_0_.pdf)
+   * <a href="/img/products/wizfi630s/wizfi630s_ds/wizfi630s_evb_datasheet_kr_v1_0_.pdf">WizFi630S-EVB Datasheet-Kr</a>
+   * <a href="/img/products/wizfi630s/wizfi630s_ds/wizfi630s_evb_datasheet_en_v1_0_.pdf">WizFi630S-EVB Datasheet-En</a>
 
 
 
@@ -43,8 +43,8 @@ This document provides features of the WizFi630S-EVB and how to use it.
 This document provides guide for users to migrate WizFi630A,old one, to
 the WizFi630S.
 
-  * [WizFi630S Migration Guide-Kr](https://docs.wiznet.io/img/products/wizfi630s/wizfi630s_ds/wizfi630s_guide_migration_wizfi630a_to_wizfi630s_kr_v1_0_.pdf)
-  * [WizFi630S Migration Guide-En](https://docs.wiznet.io/img/products/wizfi630s/wizfi630s_ds/wizfi630s_guide_migration_wizfi630a_to_wizfi630s_en_v1_0_.pdf)
+  * <a href="/img/products/wizfi630s/wizfi630s_ds/wizfi630s_guide_migration_wizfi630a_to_wizfi630s_kr_v1_0_.pdf">WizFi630S Migration Guide-Kr</a>
+  * <a href="/img/products/wizfi630s/wizfi630s_ds/wizfi630s_guide_migration_wizfi630a_to_wizfi630s_en_v1_0_.pdf">WizFi630S Migration Guide-En</a>
 
 
 | Version | Date    | Description     |
