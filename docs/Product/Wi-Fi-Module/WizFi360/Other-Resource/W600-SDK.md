@@ -28,31 +28,31 @@ Protocol and other public function modules.
 ## Software SDK User Manual
 
   - Basic
-      - [WizFi360\_W600\_SDK\_Guide\_v0.0.1\_E](/img/products/wizfi360/board/wizfi360sdk/wizfi360_w600_sdk_guide_v0.0.1_e.pdf)
+      - <a href="/img/products/wizfi360/board/wizfi360sdk/wizfi360_w600_sdk_guide_v0.0.1_e.pdf" target="_blank">WizFi360\_W600\_SDK\_Guide\_v0.0.1\_E</a>
         : Describes the basic way to download and compile of W600 SDK in English.
-      - [WizFi360\_W600\_SDK\_Guide\_v0.0.1\_K](/img/products/wizfi360/board/wizfi360sdk/wizfi360_w600_sdk_guide_v0.0.1_k.pdf)
+      - <a href="/img/products/wizfi360/board/wizfi360sdk/wizfi360_w600_sdk_guide_v0.0.1_k.pdf" target="_blank">WizFi360\_W600\_SDK\_Guide\_v0.0.1\_K</a>
         : Describes the basic way to download and compile of W600 SDK in Korean.
-      - [SDK User Manual V1.1](/img/products/wizfi360/board/wizfi360sdk/wm_w60x_sdk_user_manual_v1.1.pdf)
+      - <a href="/img/products/wizfi360/board/wizfi360sdk/wm_w60x_sdk_user_manual_v1.1.pdf" target="_blank">SDK User Manual V1.1</a>
         : Describes the functions and usage of W600 SDK.
-      - [SDK DEMO User Guide V0.5](/img/products/wizfi360/board/wizfi360sdk/wm_w60x_sdk_demo_user_guide_v0.5.pdf)
+      - <a href="/img/products/wizfi360/board/wizfi360sdk/wm_w60x_sdk_demo_user_guide_v0.5.pdf" target="_blank">SDK DEMO User Guide V0.5</a>
         : Describes the demo code of SDK for developers.
-      - [SDK GCC Compiling Guide V1.2](/img/products/wizfi360/board/wizfi360sdk/wm_w60x_sdk_gcc_compiling_guide_v1.2.pdf)
+      - <a href="/img/products/wizfi360/board/wizfi360sdk/wm_w60x_sdk_gcc_compiling_guide_v1.2.pdf" target="_blank">SDK GCC Compiling Guide V1.2</a>
         : Describes building in linux environment
-      - [AT Command V1.0.3](/img/products/wizfi360/board/wizfi360sdk/wm_w60x_sdk_at_command_v1.0.3.pdf)
+      - <a href="/img/products/wizfi360/board/wizfi360sdk/wm_w60x_sdk_at_command_v1.0.3.pdf" target="_blank">AT Command V1.0.3</a>
         : Describes the WM's AT instruction communication protocol.
 
   - Advanced
-      - [Firmware Generation Guide V1.2](/img/products/wizfi360/board/wizfi360sdk/wm_w60x_firmware_generation_guide_v1.2.pdf)
+      - <a href="/img/products/wizfi360/board/wizfi360sdk/wm_w60x_firmware_generation_guide_v1.2.pdf" target="_blank">Firmware Generation Guide V1.2</a>
         : Describes the firmware's format, storage address and image generation.
-      - [Firmware Update Guide V1.2](/img/products/wizfi360/board/wizfi360sdk/wm_w60x_firmware_update_guide_v1.2.pdf)
+      - <a href="/img/products/wizfi360/board/wizfi360sdk/wm_w60x_firmware_update_guide_v1.2.pdf" target="_blank">Firmware Update Guide V1.2</a>
         : Describes how to update the firmware.
-      - [QFLASH Management Guide V1.2](/img/products/wizfi360/board/wizfi360sdk/wm_w60x_qflash_management_guide_v1.2.pdf)
+      - <a href="/img/products/wizfi360/board/wizfi360sdk/wm_w60x_qflash_management_guide_v1.2.pdf" target="_blank">QFLASH Management Guide V1.2</a>
         : Describes the management of QFLASH intergrated in chip.
-      - [Parameter Space Guide V1.2](/img/products/wizfi360/board/wizfi360sdk/wm_w60x_parameter_space_guide_v1.2.pdf)
+      - <a href="/img/products/wizfi360/board/wizfi360sdk/wm_w60x_parameter_space_guide_v1.2.pdf" target="_blank">Parameter Space Guide V1.2</a>
         : Describes how to deal with QFLASH management, key parameter space, system parameter space and user parameter space.
-      - [SECBOOT Function Guide V1.1](/img/products/wizfi360/board/wizfi360sdk/wm_w60x_secboot_function_guide_v1.1.pdf)
+      - <a href="/img/products/wizfi360/board/wizfi360sdk/wm_w60x_secboot_function_guide_v1.1.pdf" target="_blank">SECBOOT Function Guide V1.1</a>
         : Describes SECBOOT functions and usages for designer and developer.
-      - [SWD Debugging Guide V1.4](/img/products/wizfi360/board/wizfi360sdk/wm_w60x_swd_debugging_guide_v1.4.pdf)
+      - <a href="/img/products/wizfi360/board/wizfi360sdk/wm_w60x_swd_debugging_guide_v1.4.pdf" target="_blank">SWD Debugging Guide V1.4</a>
         : Describes chip on-line debug configuration under KEIL IDE.
         ## Chip vendor original page
 

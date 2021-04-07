@@ -101,8 +101,8 @@ which can meet the requirement of various applications.
 
 #### Sensor Datasheets
 
-  - 🌎[DHT11 Humidity & Temperature Sensor Datasheet](http://www.micropik.com/PDF/dht11.pdf)
-  - 🌎[GL5537 Datasheet](https://www.kth.se/social/files/54ef17dbf27654753f437c56/GL5537.pdf)
+  - 🌎<a href="http://www.micropik.com/PDF/dht11.pdf" target="_blank">DHT11 Humidity & Temperature Sensor Datasheet</a>
+  - 🌎<a href="https://www.kth.se/social/files/54ef17dbf27654753f437c56/GL5537.pdf" target="_blank">GL5537 Datasheet</a>
 
 -----
 

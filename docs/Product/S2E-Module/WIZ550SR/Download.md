@@ -53,7 +53,7 @@ Version 1.0.3**
 -----
 
 **Configuration Tool Firmware Upload Guide(TFTP)**  
-[Configuration Tool Fw upload guide(TFTP)](/img/products/wiz550sr/wiz550s2e_fw_uploading_tftp.pdf)
+<a href="/img/products/wiz550sr/wiz550s2e_fw_uploading_tftp.pdf" target="_blank">Configuration Tool Fw upload guide(TFTP)</a>
 
 
 -----

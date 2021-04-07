@@ -40,7 +40,7 @@ wiz550s2e's in GitHub.
 
 ### Firmware upload(TFTP) guide
 
-[Guide Document](/img/products/wiz550s2e/wiz550s2e_fw_uploading_tftp.pdf)  
+<a href="/img/products/wiz550s2e/wiz550s2e_fw_uploading_tftp.pdf" target="_blank">Guide Document</a>  
 
 -  **Notice**
    - a working gateway is needed

@@ -48,7 +48,7 @@ WIZ610io is the network module that includes W6100 (TCP/IP hardwired chip, inclu
 ### Datasheet
 
   - ![](/img/products/w5500/w5500_evb/icons/download.png)
-    [Download](/img/products/wiz610io/wiz610io_user_manual_v1.1.pdf) 
+    <a href="/img/products/wiz610io/wiz610io_user_manual_v1.1.pdf" target="_blank">Download</a> 
 
 -----
 

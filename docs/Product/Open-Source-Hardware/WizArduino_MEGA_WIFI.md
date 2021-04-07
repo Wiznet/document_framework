@@ -164,7 +164,7 @@ GitHub와 아두이노 스케치에서 다운로드 및 설치 하는 방법에 
 
 ### Schematic & Reference Design
 
-  - [schematic.pdf](/img/osh/wizarduino_mega_wifi/wizarduino_mega_wifi_o_ver1.0_sch_170314.pdf)
+  - <a href="/img/osh/wizarduino_mega_wifi/wizarduino_mega_wifi_o_ver1.0_sch_170314.pdf" target="_blank">schematic.pdf</a>
   - [reference design.zip](/img/osh/wizarduino_mega_wifi/wizarduino_mega_wifi_o_ver1.0_design_170314.zip)
 
 ### Dimension
@@ -173,7 +173,7 @@ GitHub와 아두이노 스케치에서 다운로드 및 설치 하는 방법에 
 
 ### Part List
 
-  - [Part List](/img/osh/wizarduino_mega_wifi/wizarduino_mega_wifi_ver1.0_pl_170320.pdf)  
+  - <a href="/img/osh/wizarduino_mega_wifi/wizarduino_mega_wifi_ver1.0_pl_170320.pdf" target="_blank">Part List</a>  
 
 -----
 

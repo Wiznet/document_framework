@@ -49,7 +49,7 @@ WIZ610MJ is the network module that includes W6100 (TCP/IP hardwired chip, inclu
 ### Datasheet
 
   - ![](/img/products/w5500/w5500_evb/icons/download.png)
-    [Download](/img/products/wiz610mj/wiz610mj_datasheet_v1.0.pdf) 
+    <a href="/img/products/wiz610mj/wiz610mj_datasheet_v1.0.pdf" target="_blank">Download</a> 
 
 -----
 

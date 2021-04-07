@@ -33,14 +33,14 @@ W5100S Ethernet shield is compatible with the Arduino Ethernet Shield
 ## Getting Started
 
   - User Guide.
-       - [Korean](/img/osh/w5100s_ethernet_shield/start/w5100s_ethernet_shield_ug_v002k.pdf)
-       - [English](/img/osh/w5100s_ethernet_shield/start/w5100s_ethernet_shield_ug_v002e.pdf)
+       - <a href="/img/osh/w5100s_ethernet_shield/start/w5100s_ethernet_shield_ug_v002k.pdf" target="_blank">Korean</a>
+       - <a href="/img/osh/w5100s_ethernet_shield/start/w5100s_ethernet_shield_ug_v002e.pdf" target="_blank">English</a>
 
 -----
 
 ## Datasheet
 
-  - [Download](/img/osh/w5100s_ethernet_shield/start/w5100s_ethernet_shield_ds_v100e.pdf)
+  - <a href="/img/osh/w5100s_ethernet_shield/start/w5100s_ethernet_shield_ds_v100e.pdf" target="_blank">Download</a>
 
 -----
 

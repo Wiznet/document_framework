@@ -52,6 +52,6 @@ GitHub:
   - Project for Code Composer Studio 5.4.0 (CCSv5)
   - Project for Energia
   - Hardware Ver1.0 Design file
-    ([PDF](/img/osh/ioshield-l/ioshield-l_v1_0_pl_140117.pdf) / [Eagle CAD](/img/osh/ioshield-l/ioshield-l.zip)) and [Part List](/img/osh/ioshield-l/ioshield-l_v1_0_pl_140117.pdf) of ioShield-L
+    (<a href="/img/osh/ioshield-l/ioshield-l_v1_0_pl_140117.pdf" target="_blank">PDF](/img/osh/ioshield-l/ioshield-l_v1_0_pl_140117.pdf) / [Eagle CAD](/img/osh/ioshield-l/ioshield-l.zip)) and [Part List</a> of ioShield-L
   - Hardware Ver1.1 Design file
-    ([PDF](/img/osh/ioshield-l/ioshield-l_v1.1_sch.pdf) / [Eagle CAD](/img/osh/ioshield-l/ioshield-l_ver1_1.zip)) and [Part List](/img/osh/ioshield-l/ioshield-l_v1_1_pl_140120.pdf) of ioShield-L
+    (<a href="/img/osh/ioshield-l/ioshield-l_v1_1_pl_140120.pdf" target="_blank">PDF](/img/osh/ioshield-l/ioshield-l_v1.1_sch.pdf) / [Eagle CAD](/img/osh/ioshield-l/ioshield-l_ver1_1.zip)) and [Part List</a> of ioShield-L

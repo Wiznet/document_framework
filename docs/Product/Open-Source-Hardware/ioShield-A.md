@@ -53,6 +53,6 @@ each product's web site.
 All design files and source codes for the ioShield can be found on
 GitHub:
 
-  - Hardware Ver1.0: schematic([PDF file](/img/osh/ioshield-a/ioshield-a.pdf)), schematic & PCB file([Eagle CAD](/img/osh/ioshield-a/ioshield-a_eaglecad.zip)), Part List([PDF file](/img/osh/ioshield-a/ioshield-a_v1_0_pl_130904.pdf))
-  - Hardware Ver1.1: schematic([PDF file](/img/osh/ioshield-a/ioshield-a_v1.1_sch.pdf)), schematic & PCB file([Eagle CAD](/img/osh/ioshield-a/ver1_1.zip)), Part List([PDF file](/img/osh/ioshield-a/ioshield-a_v1_1_pl_140120.pdf))
+  - Hardware Ver1.0: schematic(<a href="/img/osh/ioshield-a/ioshield-a_v1_0_pl_130904.pdf" target="_blank">PDF file](/img/osh/ioshield-a/ioshield-a.pdf)), schematic & PCB file([Eagle CAD](/img/osh/ioshield-a/ioshield-a_eaglecad.zip)), Part List([PDF file</a>)
+  - Hardware Ver1.1: schematic(<a href="/img/osh/ioshield-a/ioshield-a_v1_1_pl_140120.pdf" target="_blank">PDF file](/img/osh/ioshield-a/ioshield-a_v1.1_sch.pdf)), schematic & PCB file([Eagle CAD](/img/osh/ioshield-a/ver1_1.zip)), Part List([PDF file</a>)
   - Ethernet Library : 🌎<https://github.com/Wiznet/WIZ_Ethernet_Library>

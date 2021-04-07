@@ -14,14 +14,14 @@ The pin headers have a **distance** of exactly **17mm**.
 
 ![](/img/products/wizfi250/wizfi250evbsch/wizfi250-h_footprint.png)
 
-[EVB Schematic(PDF)](/img/products/wizfi250/wizfi250evbsch/wizfi250_evb_sch_v100_131224_.pdf)
+<a href="/img/products/wizfi250/wizfi250evbsch/wizfi250_evb_sch_v100_131224_.pdf" target="_blank">EVB Schematic(PDF)</a>
 
 [EVB Schematic(Eagle CAD)](/img/products/wizfi250/wizfi250evbsch/wizfi250_evb_sch_v100_131224_.zip)
 
-[I/F Board Schematic(PDF)](/img/products/wizfi250/wizfi250evbsch/wizfi250_if_sch_v_100_131224_.pdf)
+<a href="/img/products/wizfi250/wizfi250evbsch/wizfi250_if_sch_v_100_131224_.pdf" target="_blank">I/F Board Schematic(PDF)</a>
 
 [I/F Board Schematic(PADS)](/img/products/wizfi250/wizfi250evbsch/wizfi250_if_sch_v100.zip)
 
-[Ref Schematic](/img/products/wizfi250/wizfi250ds/wizfi250_ref_schematic.pdf)
+<a href="/img/products/wizfi250/wizfi250ds/wizfi250_ref_schematic.pdf" target="_blank">Ref Schematic</a>
 
-[Partlist](/img/products/wizfi250/wizfi250evbsch/wizfi250_evb_pl_v100_131224_.pdf)
+<a href="/img/products/wizfi250/wizfi250evbsch/wizfi250_evb_pl_v100_131224_.pdf" target="_blank">Partlist</a>

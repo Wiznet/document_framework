@@ -124,8 +124,8 @@ firmware writing.
 **Datasheet**
 
    * 🌎[W7500 Documents](../../iMCU/W7500/Documents.md)
-   * 🌎[IP101GA Datasheet](/img/products/w7500/overview/IP101G_DS_R01_20121224.pdf)
-   * 🌎[LPC11U35FHI33/501 Datasheet](/img/products/w7500/overview/LPC11U3X.pdf)
+   * 🌎<a href="/img/products/w7500/overview/IP101G_DS_R01_20121224.pdf" target="_blank">IP101GA Datasheet</a>
+   * 🌎<a href="/img/products/w7500/overview/LPC11U3X.pdf" target="_blank">LPC11U35FHI33/501 Datasheet</a>
 
 **Schematic**
 
@@ -134,18 +134,18 @@ firmware writing.
 
 
    * [WIZwiki-W7500 V1.1 Schematic (Altium Designer)]()
-   * [WIZwiki-W7500 V1.1 Schematic (PDF)](/img/products/w7500/overview/wizwiki_w7500_v1.1.pdf)
+   * <a href="/img/products/w7500/overview/wizwiki_w7500_v1.1.pdf" target="_blank">WIZwiki-W7500 V1.1 Schematic (PDF)</a>
 
   - **Schematic Version 1.0**
 
 
 
    * [WIZwiki-W7500 V1.0 Schematic (Altium Designer)]()
-   * [WIZwiki-W7500 V1.0 Schematic (PDF)](/img/products/w7500/overview/wizwiki_w7500_sch_v1.0_150401.pdf)
+   * <a href="/img/products/w7500/overview/wizwiki_w7500_sch_v1.0_150401.pdf" target="_blank">WIZwiki-W7500 V1.0 Schematic (PDF)</a>
 
 **Part list**
 
-   * [WIZwiki-W7500 V1.0 BOM (PDF)](/img/products/w7500/overview/wizwiki_w7500_bom_v1.0_150407.pdf)
+   * <a href="/img/products/w7500/overview/wizwiki_w7500_bom_v1.0_150407.pdf" target="_blank">WIZwiki-W7500 V1.0 BOM (PDF)</a>
    
 **Dimension**
 

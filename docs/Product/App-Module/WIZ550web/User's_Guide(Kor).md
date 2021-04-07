@@ -18,7 +18,7 @@ WIZ-Embedded WebServer는 소형의 마이컴으로 동작하는 Web Server로�
 
 ## TFTP Guide Document
 
-[TFTP 사용 가이드 문서](/img/products/wiz550web/wiz550webug_kr/wiz550web_tftp_guide.pdf)
+<a href="/img/products/wiz550web/wiz550webug_kr/wiz550web_tftp_guide.pdf" target="_blank">TFTP 사용 가이드 문서</a>
 
 ## Configuration Tool
 

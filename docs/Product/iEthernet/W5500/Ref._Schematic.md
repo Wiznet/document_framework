@@ -7,7 +7,7 @@ date: 2020-04-03
 
 ## External Transformer Type
 
-[W5500 Ref.Schematic - External Transformer](/img/products/w5500/w5500_sch_v110_use_trans_.pdf)
+<a href="/img/products/w5500/w5500_sch_v110_use_trans_.pdf" target="_blank">W5500 Ref.Schematic - External Transformer</a>
 ![W5500 Ref.Schematic (External Transformer)](/img/products/w5500/w5500_sch_v110_use_trans_.png)
 
 -----
@@ -15,7 +15,7 @@ date: 2020-04-03
 
 ## RJ45 with Transformer Type
 
-[W5500 Ref.Schematic - RJ45 with Transformer](/img/products/w5500/w5500_sch_v110_use_trans_.pdf)
+<a href="/img/products/w5500/w5500_sch_v110_use_trans_.pdf" target="_blank">W5500 Ref.Schematic - RJ45 with Transformer</a>
 ![W5500 Reference Schematic (RJ45 with Transformer)](/img/products/w5500/w5500_sch_v110_use_mag_.png)
 
 -----
@@ -47,22 +47,22 @@ The RJ45 from UDE (RB1-125BAG1A) is used in many of our **W5100** and
 #### External Transformer
 
 - H1102NL from Pulse
-[datasheet](/img/products/w5500/01.h1102nl_h325.pdf)  
+<a href="/img/products/w5500/01.h1102nl_h325.pdf" target="_blank">datasheet</a>  
 - LCZ3A1CB from CETUS
-[datasheet](/img/products/w5500/02.lcz3a1cb.pdf)  
+<a href="/img/products/w5500/02.lcz3a1cb.pdf" target="_blank">datasheet</a>  
 
 #### RJ45 with integrated Transformer
 
 - J1B121ZCCD from CETUS
-[datasheet](/img/blob/master/static/img/products/w5500/1.j1b121zccd-v0-101115.pdf)  
+<a href="/img/blob/master/static/img/products/w5500/1.j1b121zccd-v0-101115.pdf" target="_blank">datasheet</a>  
 - J1B1211CCD from CETUS (used in * 1)
-[datasheet](/img/products/w5500/2.j1b1211ccd.pdf)  
+<a href="/img/products/w5500/2.j1b1211ccd.pdf" target="_blank">datasheet</a>  
 - RB1-1D5B8K1A from UDE
-[datasheet](/img/products/w5500/3.rb1-1d5b8k1a_287-00_.pdf)  
+<a href="/img/products/w5500/3.rb1-1d5b8k1a_287-00_.pdf" target="_blank">datasheet</a>  
 - RB1-125BAG1A from UDE (used in * 2)
-[datasheet](/img/products/w5500/rb1-125bag1a_111-00_.pdf)  
+<a href="/img/products/w5500/rb1-125bag1a_111-00_.pdf" target="_blank">datasheet</a>  
 - J0011D21BNL from Pulse
-[datasheet](/img/products/w5500/4.j0011d21bnl.pdf)  
+<a href="/img/products/w5500/4.j0011d21bnl.pdf" target="_blank">datasheet</a>  
   
 * 1) we use the J1B1211CCD from CETUS in our
 **[W5500-EVB](W5500-EVB/W5500-EVB.md)**,

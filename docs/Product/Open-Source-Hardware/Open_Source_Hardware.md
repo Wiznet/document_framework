@@ -46,7 +46,7 @@ First Place : Drip Irrigation Controller
 Second Place : LED News Ticker  
 Third Place : DMX Portal  
 Fourth : Remote Real Virtual Instrument  
-[Circuit Cellar Special Edition to view the Winners and Articles](/img/osh/overview//2007_designcontest.pdf)
+<a href="/img/osh/overview//2007_designcontest.pdf" target="_blank">Circuit Cellar Special Edition to view the Winners and Articles</a>
 
 -----
 
@@ -59,7 +59,7 @@ First Place : Net Butler
 A Green Solution to Basement Humidity Control  
 Third Place : m7100os – A Network Operation System  
 Fourth : Moonlight Programmable LED Display  
-[More Detail About Winner's Design view](/img/osh/overview/imcudesigncontest.pdf)
+<a href="/img/osh/overview/imcudesigncontest.pdf" target="_blank">More Detail About Winner's Design view</a>
 
 -----
 

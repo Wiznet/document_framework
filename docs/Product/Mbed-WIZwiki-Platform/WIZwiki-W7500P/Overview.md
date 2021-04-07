@@ -114,7 +114,7 @@ years. W7500P suits users who need Internet connectivity best.
 **Datasheet**
 
    * [W7500P Documents](../../iMCU/W7500/Documents.md)
-   * [LPC11U35FHI33/501 Datasheet](/img/products/w7500p/overview/LPC11U3X.pdf)
+   * <a href="/img/products/w7500p/overview/LPC11U3X.pdf" target="_blank">LPC11U35FHI33/501 Datasheet</a>
 
 **Schematic**
 
@@ -130,11 +130,11 @@ years. W7500P suits users who need Internet connectivity best.
 
 
    * [WIZwiki-W7500P V1.0 Schematic (Altium Designer)]()
-   * [WIZwiki-W7500P V1.0 Schematic (PDF)](/img/products/w7500p/overview/wizwiki-w7500p_sch_v1.0.pdf)
+   * <a href="/img/products/w7500p/overview/wizwiki-w7500p_sch_v1.0.pdf" target="_blank">WIZwiki-W7500P V1.0 Schematic (PDF)</a>
 
 **Part list**
 
-   * [WIZwiki-W7500P V1.0 BOM (PDF)](/img/products/w7500p/overview/wizwiki_w7500p_bom_v1.0_150909.pdf)
+   * <a href="/img/products/w7500p/overview/wizwiki_w7500p_bom_v1.0_150909.pdf" target="_blank">WIZwiki-W7500P V1.0 BOM (PDF)</a>
 
 **Dimension**
 

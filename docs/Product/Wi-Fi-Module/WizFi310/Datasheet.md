@@ -4,7 +4,7 @@ title: Datasheet
 date: 2020-04-24
 ---
 
-[WizFi310 Datasheet v0.0.0 - English](img/products/wizfi310/wizfi310ds/wizfi310_ds_v100e_1610.pdf)
+<a href="img/products/wizfi310/wizfi310ds/wizfi310_ds_v100e_1610.pdf" target="_blank">WizFi310 Datasheet v0.0.0 - English</a>
 
 #### Datasheet History
 
@@ -237,4 +237,4 @@ Note: NVM flash is used to store user configuration or firmware, do not use to s
 
 ## Reference schematic
 
-[WizFi310 Ref.Schematic](img/products/wizfi310/wizfi310ds/wizfi310.pdf)
+<a href="img/products/wizfi310/wizfi310ds/wizfi310.pdf" target="_blank">WizFi310 Ref.Schematic</a>

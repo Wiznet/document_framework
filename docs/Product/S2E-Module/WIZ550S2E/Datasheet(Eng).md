@@ -178,13 +178,13 @@ This pin also serves as the RS485 control.</td>
 
 | Item                              | Version | Schematic(PDF)                                                     |
 | --------------------------------- | ------- | ------------------------------------------------------------------ |
-| WIZ550S2E                         | 1.1/1.2 | [Schematic\_PDF](/img/products/wiz550s2e/schematic1_wiz550s2e_v1.pdf) |
-| WIZ550S2E-232 interface board     | 1.0     | [](/img/products/wiz550s2e/wiz550s2eds/rs232if_v1_0.pdf)              |
-| WIZ550S2E-485/422 interface board | 1.0     | [](/img/products/wiz550s2e/wiz550s2eds/rs485-422if_v1_0.pdf)          |
+| WIZ550S2E                         | 1.1/1.2 | <a href="/img/products/wiz550s2e/schematic1_wiz550s2e_v1.pdf" target="_blank">Schematic\_PDF</a> |
+| WIZ550S2E-232 interface board     | 1.0     | <a href="/img/products/wiz550s2e/wiz550s2eds/rs232if_v1_0.pdf" target="_blank"></a>              |
+| WIZ550S2E-485/422 interface board | 1.0     | <a href="/img/products/wiz550s2e/wiz550s2eds/rs485-422if_v1_0.pdf" target="_blank"></a>          |
 
 | Item      | Version | Partlist                                                             | PCB                                                                              |
 | --------- | ------- | -------------------------------------------------------------------- | -------------------------------------------------------------------------------- |
-| WIZ550S2E | 1.1     | [Partlist_PDF](/img/products/wiz550s2e/wiz550s2e_ver1.1_pl_150916.pdf) | [WIZ550S2E\_v1.1\_PCB](/img/products/wiz550s2e/wiz550s2eds_kr/wiz550s2e_v1.1.1.zip) |
+| WIZ550S2E | 1.1     | <a href="/img/products/wiz550s2e/wiz550s2e_ver1.1_pl_150916.pdf" target="_blank">Partlist_PDF</a> | [WIZ550S2E\_v1.1\_PCB](/img/products/wiz550s2e/wiz550s2eds_kr/wiz550s2e_v1.1.1.zip) |
 | WIZ550S2E | 1.2     | :::                                                                  | [WIZ550S2E\_v1.2\_PCB](/img/products/wiz550s2e/wiz550s2eds_kr/wiz550s2e_v1.2.zip)   |
 
   - Rev 1.1 Update Schematic

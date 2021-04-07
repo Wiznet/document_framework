@@ -25,8 +25,8 @@ the chip's datasheet: [datasheet](../../iEthernet/w5500/datasheet)
 
 ### Datasheet
 
-[W5500 Datasheet v1.0.9 - English](/img/products/w5500/w5500_ds_v109e.pdf)
-[W5500 Datasheet v1.0.9 - Korean](/img/products/w5500/w5500_ds_v109k.pdf)
+<a href="/img/products/w5500/w5500_ds_v109e.pdf" target="_blank">W5500 Datasheet v1.0.9 - English</a>
+<a href="/img/products/w5500/w5500_ds_v109k.pdf" target="_blank">W5500 Datasheet v1.0.9 - Korean</a>
 
 ### Datasheet History
 
@@ -330,9 +330,9 @@ WIZ550io, please refer to [W5500 Datasheet](../../iEthernet/w5500/datasheet).
 
 ### Datasheet
 
-[W5500 Datasheet v1.0.9 - English](/img/products/w5500/w5500_ds_v109e.pdf)
+<a href="/img/products/w5500/w5500_ds_v109e.pdf" target="_blank">W5500 Datasheet v1.0.9 - English</a>
 
-[W5500 Datasheet v1.0.9 - Korean](/img/products/w5500/w5500_ds_v109k.pdf)
+<a href="/img/products/w5500/w5500_ds_v109k.pdf" target="_blank">W5500 Datasheet v1.0.9 - Korean</a>
 
 ### Datasheet History
 
@@ -390,9 +390,9 @@ WIZ550io, please refer to [W5500 Datasheet](../../iEthernet/w5500/datasheet).
 
 ## Schematic
 
-  - Revision 1.0 [WIZ550io Rev1.0 Schematic](/img/products/wiz550io/wiz550io-r1.0_0830_.pdf)
-  - Revision 1.1 [WIZ550io Rev1.1 Schematic](/img/products/wiz550io/wiz550io_v1_1_20140117.pdf)
-  - Revision 1.2/1.3 [WIZ550io Rev1.2/1.3 Schematic](/img/products/wiz550io/wiz550io_v1_2_schematic.pdf)
+  - Revision 1.0 <a href="/img/products/wiz550io/wiz550io-r1.0_0830_.pdf" target="_blank">WIZ550io Rev1.0 Schematic</a>
+  - Revision 1.1 <a href="/img/products/wiz550io/wiz550io_v1_1_20140117.pdf" target="_blank">WIZ550io Rev1.1 Schematic</a>
+  - Revision 1.2/1.3 <a href="/img/products/wiz550io/wiz550io_v1_2_schematic.pdf" target="_blank">WIZ550io Rev1.2/1.3 Schematic</a>
 
 ## PCB
 
@@ -401,9 +401,9 @@ WIZ550io, please refer to [W5500 Datasheet](../../iEthernet/w5500/datasheet).
 
 ## Partlist
 
-  - Revision 1.0 Partlist [WIZ550io Rev1.0 Partlist](/img/products/wiz550io/wiz550io_v1_0_0830_pl.pdf)
-  - Revision 1.1 Partlist [WIZ550io Rev1.1 Partlist](/img/products/wiz550io/wiz550io_ver1.1_pl_140128_.pdf)
-  - Revision 1.2 Partlist [WIZ550io Rev1.2 Partlist](/img/products/wiz550io/wiz550io_ver1.2_pl.pdf)
+  - Revision 1.0 Partlist <a href="/img/products/wiz550io/wiz550io_v1_0_0830_pl.pdf" target="_blank">WIZ550io Rev1.0 Partlist</a>
+  - Revision 1.1 Partlist <a href="/img/products/wiz550io/wiz550io_ver1.1_pl_140128_.pdf" target="_blank">WIZ550io Rev1.1 Partlist</a>
+  - Revision 1.2 Partlist <a href="/img/products/wiz550io/wiz550io_ver1.2_pl.pdf" target="_blank">WIZ550io Rev1.2 Partlist</a>
     
  ---
  

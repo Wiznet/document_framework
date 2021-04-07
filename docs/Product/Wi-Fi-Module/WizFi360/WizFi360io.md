@@ -99,7 +99,7 @@ similar to the Xbee pin layout. But it is not exactly compatible.
 
 #### WizFi360io-C Connector Datasheet
 
-  - [SMW200-06](/img/products/wizfi360/board/wizfi360io-c/smw200-nn.pdf)
+  - <a href="/img/products/wizfi360/board/wizfi360io-c/smw200-nn.pdf" target="_blank">SMW200-06</a>
 
 -----
 

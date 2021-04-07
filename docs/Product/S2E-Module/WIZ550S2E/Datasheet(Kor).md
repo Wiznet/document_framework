@@ -112,13 +112,13 @@ date: 2020-04-15
 
 | 항목                         | Version | Schematic(PDF)                                                                        |
 | -------------------------- | ------- | ------------------------------------------------------------------------------------- |
-| WIZ550S2E                  | 1.1/1.2 | [PDF](/img/products/wiz550s2e/schematic1_wiz550s2e_v11_dotremove.pdf) |
-| WIZ550S2E-232 인터페이스 보드     | 1.0     | [](/img/products/wiz550s2e/wiz550s2eds/rs232if_v1_0.pdf)                                 |
-| WIZ550S2E-485/422 인터페이스 보드 | 1.0     | [](/img/products/wiz550s2e/wiz550s2eds/rs485-422if_v1_0.pdf)                             |
+| WIZ550S2E                  | 1.1/1.2 | <a href="/img/products/wiz550s2e/schematic1_wiz550s2e_v11_dotremove.pdf" target="_blank">PDF</a> |
+| WIZ550S2E-232 인터페이스 보드     | 1.0     | <a href="/img/products/wiz550s2e/wiz550s2eds/rs232if_v1_0.pdf" target="_blank"></a>                                 |
+| WIZ550S2E-485/422 인터페이스 보드 | 1.0     | <a href="/img/products/wiz550s2e/wiz550s2eds/rs485-422if_v1_0.pdf" target="_blank"></a>                             |
 
 | 항목        | Version | Partlist                                                             | PCB(Unit)                                                                        |
 | --------- | ------- | -------------------------------------------------------------------- | -------------------------------------------------------------------------------- |
-| WIZ550S2E | 1.1     | [Partlist\_PDF](/img/products/wiz550s2e/wiz550s2e_ver1.1_pl_150916.pdf) | [WIZ550S2E\_v1.1\_PCB](/img/products/wiz550s2e/wiz550s2eds_kr/wiz550s2e_v1.1.1.zip) |
+| WIZ550S2E | 1.1     | <a href="/img/products/wiz550s2e/wiz550s2e_ver1.1_pl_150916.pdf" target="_blank">Partlist\_PDF</a> | [WIZ550S2E\_v1.1\_PCB](/img/products/wiz550s2e/wiz550s2eds_kr/wiz550s2e_v1.1.1.zip) |
 | WIZ550S2E | 1.2     | :::                                                                  | [WIZ550S2E\_v1.2\_PCB](/img/products/wiz550s2e/wiz550s2eds_kr/wiz550s2e_v1.2.zip)   |
 
   - Rev 1.1/1.2 Update Schematic

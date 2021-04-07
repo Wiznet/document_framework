@@ -195,25 +195,25 @@ Jumper](/img/products/wiz550web/wiz550web_bb_analog_jumper.png)
 
 | 항목                  | Version | Schematic                                                            |
 | ------------------- | ------- | -------------------------------------------------------------------- |
-| WIZ550web           | **1.1** | [Download](/img/products/wiz550web/wiz550webds_kr/wiz550web_v1.1_20151217.pdf)  |
-| WIZ550web Baseboard | **1.0** | [Download](/img/products/wiz550web/wiz550webds_kr/wiz550web-bb_v100_140925.pdf) |
+| WIZ550web           | **1.1** | <a href="/img/products/wiz550web/wiz550webds_kr/wiz550web_v1.1_20151217.pdf" target="_blank">Download</a>  |
+| WIZ550web Baseboard | **1.0** | <a href="/img/products/wiz550web/wiz550webds_kr/wiz550web-bb_v100_140925.pdf" target="_blank">Download</a> |
 
 ## Parts Datasheet
 
 | Parts         | Descripsion                                   | Datasheet                                                                    |
 | ------------- | --------------------------------------------- | ---------------------------------------------------------------------------- |
-| STM32F103RCT6 | **ARM 32-bit Cortex™-M3 CPU Core**            | [STM32F103RCT6](/img/products/wiz550web/wiz550webds_kr/stm32f103rct6_256kb.pdf) |
+| STM32F103RCT6 | **ARM 32-bit Cortex™-M3 CPU Core**            | <a href="/img/products/wiz550web/wiz550webds_kr/stm32f103rct6_256kb.pdf" target="_blank">STM32F103RCT6</a> |
 | W5500         | **WIZnet TCP/IP Chip**                        | [W5500](../../iEthernet/W5500/datasheet) |
-| AT45DB081D-SU | **8-Megabit Serial Flash Memory**             | [AT45DB081D-SU](/img/products/wiz550web/wiz550webds_kr/at45db081d-su.pdf)       |
-| 24AA64T-I/OT  | **64K I2C™ Serial EEPROM**                    | [24AA64T-I/OT](/img/products/wiz550web/wiz550webds_kr/24aa64t-i_ot.pdf)         |
-| J1B1211CCD    | **Transformer + RJ45 + LED, Industrial**      | [J1B1211CCD](/img/products/wiz550web/wiz550webds_kr/j1b1211ccd.pdf)             |
-| HR91C-05      | **1 pole, 3-10A Relay, 1c(SPDT)**             | [HR91C-05](/img/products/wiz550web/wiz550webds_kr/hr91c-05.pdf)                 |
-| SP3485EN      | **Low Power Half-Duplex RS-485 Transceivers** | [SP3485EN](/img/products/wiz550web/wiz550webds_kr/sp3485en.pdf)                 |
-| SP3232EBEY    | **True +3.0V to +5.5V RS-232 Transceivers**   | [SP3232EBEY](/img/products/wiz550web/wiz550webds_kr/sp3232ebey.pdf)             |
-| TC1047AVNB    | **Temperature to Voltage Sensor**             | [TC1047AVNB](/img/products/wiz550web/wiz550webds_kr/tc1047avnb.pdf)             |
-| LM358APWR     | **Dual Operational Amplifiers**               | [LM358APWR](/img/products/wiz550web/wiz550webds_kr/lm358apwr.pdf)               |
-| TLP290-4      | **4-Channel Transistor-Output Photocouplers** | [TLP290-4](/img/products/wiz550web/wiz550webds_kr/tlp290-4.pdf)                 |
-| AOZ1210AI     | **EZBuck 2A Simple Buck Regulator**           | [AOZ1210AI](/img/products/wiz550web/wiz550webds_kr/aoz1210ai.pdf)               |
+| AT45DB081D-SU | **8-Megabit Serial Flash Memory**             | <a href="/img/products/wiz550web/wiz550webds_kr/at45db081d-su.pdf" target="_blank">AT45DB081D-SU</a>       |
+| 24AA64T-I/OT  | **64K I2C™ Serial EEPROM**                    | <a href="/img/products/wiz550web/wiz550webds_kr/24aa64t-i_ot.pdf" target="_blank">24AA64T-I/OT</a>         |
+| J1B1211CCD    | **Transformer + RJ45 + LED, Industrial**      | <a href="/img/products/wiz550web/wiz550webds_kr/j1b1211ccd.pdf" target="_blank">J1B1211CCD</a>             |
+| HR91C-05      | **1 pole, 3-10A Relay, 1c(SPDT)**             | <a href="/img/products/wiz550web/wiz550webds_kr/hr91c-05.pdf" target="_blank">HR91C-05</a>                 |
+| SP3485EN      | **Low Power Half-Duplex RS-485 Transceivers** | <a href="/img/products/wiz550web/wiz550webds_kr/sp3485en.pdf" target="_blank">SP3485EN</a>                 |
+| SP3232EBEY    | **True +3.0V to +5.5V RS-232 Transceivers**   | <a href="/img/products/wiz550web/wiz550webds_kr/sp3232ebey.pdf" target="_blank">SP3232EBEY</a>             |
+| TC1047AVNB    | **Temperature to Voltage Sensor**             | <a href="/img/products/wiz550web/wiz550webds_kr/tc1047avnb.pdf" target="_blank">TC1047AVNB</a>             |
+| LM358APWR     | **Dual Operational Amplifiers**               | <a href="/img/products/wiz550web/wiz550webds_kr/lm358apwr.pdf" target="_blank">LM358APWR</a>               |
+| TLP290-4      | **4-Channel Transistor-Output Photocouplers** | <a href="/img/products/wiz550web/wiz550webds_kr/tlp290-4.pdf" target="_blank">TLP290-4</a>                 |
+| AOZ1210AI     | **EZBuck 2A Simple Buck Regulator**           | <a href="/img/products/wiz550web/wiz550webds_kr/aoz1210ai.pdf" target="_blank">AOZ1210AI</a>               |
 
 -----
 

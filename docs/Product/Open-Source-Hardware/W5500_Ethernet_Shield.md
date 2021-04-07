@@ -105,8 +105,8 @@ Timing Diagram of Ethernet shield follows one of W5500. For more
 information about [W5500](../iEthernet/W5500/overview) chip please also refer
 to the chip's datasheet:
 
-  - [W5500 Datasheet v1.0.6 - English](/img/osh/w5500_ethernet_shield/limitation_note_-_arp_problem_in_the_nlb_environment_-_korean_0312_.pdf)
-  - [W5500 Datasheet v1.0.6 - Korean](/img/osh/w5500_ethernet_shield/w5500_ds_v106k_141230.pdf)
+  - <a href="/img/osh/w5500_ethernet_shield/limitation_note_-_arp_problem_in_the_nlb_environment_-_korean_0312_.pdf" target="_blank">W5500 Datasheet v1.0.6 - English</a>
+  - <a href="/img/osh/w5500_ethernet_shield/w5500_ds_v106k_141230.pdf" target="_blank">W5500 Datasheet v1.0.6 - Korean</a>
 
 -----
 
@@ -125,12 +125,12 @@ to the chip's datasheet:
 **Rev 1.0 Schematic**
 
   - [W5500 Ethernet shield Rev1.0 Schematic(Eagle CAD with PCB file)](/img/osh/w5500_ethernet_shield/w5500_ethernet_shield_v10_sch_zip.zip)
-  - [W5500 Ethernet shield Rev1.0 Schematic(PDF)](/img/osh/w5500_ethernet_shield/w5500_ethernet_shield_v10_sch.pdf)
+  - <a href="/img/osh/w5500_ethernet_shield/w5500_ethernet_shield_v10_sch.pdf" target="_blank">W5500 Ethernet shield Rev1.0 Schematic(PDF)</a>
 
 **Rev 1.1 Schematic**
 
   - [W5500 Ethernet shield Rev1.1 Schematic(Eagle CAD with PCB file](/img/osh/w5500_ethernet_shield/w5500_ethernet_shield_v1.1.zip)
-  - [W5500 Ethernet shield Rev1.1 Schematic(PDF)](/img/osh/w5500_ethernet_shield/w5500_ethernet_shield_v10_sch.pdf)
+  - <a href="/img/osh/w5500_ethernet_shield/w5500_ethernet_shield_v10_sch.pdf" target="_blank">W5500 Ethernet shield Rev1.1 Schematic(PDF)</a>
 
 -----
 
@@ -144,7 +144,7 @@ to the chip's datasheet:
 
 
 
-  - [W5500 Ethernet shield Rev1.01 Schematic](/img/osh/w5500_ethernet_shield/w5500_ethernet_shield_v1.01.pdf)
+  - <a href="/img/osh/w5500_ethernet_shield/w5500_ethernet_shield_v1.01.pdf" target="_blank">W5500 Ethernet shield Rev1.01 Schematic</a>
 
 -----
 

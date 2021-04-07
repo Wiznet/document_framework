@@ -50,7 +50,7 @@ rapidly.
 ### Datasheet
 
   - ![](/img/products/w5500/w5500_evb/icons/download.png)
-    [Download](https://www.wiznet.io/wp-content/uploads/2019/01/WIZ810Sio-User-Manual-V1.0-002.pdf)
+    <a href="https://www.wiznet.io/wp-content/uploads/2019/01/WIZ810Sio-User-Manual-V1.0-002.pdf" target="_blank">Download</a>
 
 -----
 

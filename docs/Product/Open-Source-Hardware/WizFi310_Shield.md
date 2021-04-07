@@ -146,10 +146,10 @@ Pinmap](/img/osh/wizfi310_shield/wizfi310_shield_pinmap.png)
 #### Schematic
 
   - [WizFi310 Shield Schematic(Altium)](/img/osh/wizfi310_shield/wizfi310_shield_sch_v100.zip)
-  - [WizFi310 Shield Schematic(PDF)](/img/osh/wizfi310_shield/wizfi310_shield_sch_v100.pdf)
+  - <a href="/img/osh/wizfi310_shield/wizfi310_shield_sch_v100.pdf" target="_blank">WizFi310 Shield Schematic(PDF)</a>
     #### Partlist
 
-  - [WizFi310 Shield Partlist](/img/osh/wizfi310_shield/wizfi310_shield_pl_v100_170329.pdf)
+  - <a href="/img/osh/wizfi310_shield/wizfi310_shield_pl_v100_170329.pdf" target="_blank">WizFi310 Shield Partlist</a>
 
 -----
 
@@ -161,8 +161,8 @@ Pinmap](/img/osh/wizfi310_shield/wizfi310_shield_pinmap.png)
 
 #### Sensor Datasheets
 
-  - 🌎[DHT11 Humidity & Temperature Sensor Datasheet](http://www.micropik.com/PDF/dht11.pdf)
-  - 🌎[GL5537 Datasheet](https://www.kth.se/social/files/54ef17dbf27654753f437c56/GL5537.pdf)
+  - 🌎<a href="http://www.micropik.com/PDF/dht11.pdf" target="_blank">DHT11 Humidity & Temperature Sensor Datasheet</a>
+  - 🌎<a href="https://www.kth.se/social/files/54ef17dbf27654753f437c56/GL5537.pdf" target="_blank">GL5537 Datasheet</a>
 
 -----
 

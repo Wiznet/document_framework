@@ -128,8 +128,8 @@ CMSIS-DAP for debuging and ethernet-phy.
 **Datasheet**
 
    * [W7500 Documents](../../iMCU/W7500/Documents.md)
-   * [IP101GRI Datasheet](/img/products/w7500/overview/IP101G_DS_R01_20121224.pdf)
-   * [LPC11U35FHI33/501 Datasheet](/img/products/w7500p/overview/LPC11U3X.pdf)
+   * <a href="/img/products/w7500/overview/IP101G_DS_R01_20121224.pdf" target="_blank">IP101GRI Datasheet</a>
+   * <a href="/img/products/w7500p/overview/LPC11U3X.pdf" target="_blank">LPC11U35FHI33/501 Datasheet</a>
 
 
 **Schematic**
@@ -139,11 +139,11 @@ CMSIS-DAP for debuging and ethernet-phy.
 
 
    * [WIZwiki-W7500eco V1.1 Schematic (Altium Designer)]()
-   * [WIZwiki-W7500eco V1.1 Schematic (PDF)](/img/products/wizwiki-w7500eco/wizwiki-w7500eco.pdf)
+   * <a href="/img/products/wizwiki-w7500eco/wizwiki-w7500eco.pdf" target="_blank">WIZwiki-W7500eco V1.1 Schematic (PDF)</a>
 
 **Part list**
 
-   * [WIZwiki-W7500eco V1.1 BOM (PDF)](/img/products/wizwiki-w7500eco/wizwiki_w7500eco_v1.1_partlist.pdf)
+   * <a href="/img/products/wizwiki-w7500eco/wizwiki_w7500eco_v1.1_partlist.pdf" target="_blank">WIZwiki-W7500eco V1.1 BOM (PDF)</a>
 
 **Dimension**
 

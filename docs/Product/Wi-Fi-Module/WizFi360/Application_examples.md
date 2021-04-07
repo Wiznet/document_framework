@@ -10,43 +10,43 @@ TCP performance test result with a UART interface.
 
 ## TCP Performance Test (UART I/F)
 
-* [TCP Performance V1.2.0 - English](/img/products/wizfi360/wizfi360ds/wizfi360tp_v120e.pdf)
-* [TCP Performance V1.2.0 - Korean](/img/products/wizfi360/wizfi360ds/wizfi360tp_v120k.pdf)
+* <a href="/img/products/wizfi360/wizfi360ds/wizfi360tp_v120e.pdf" target="_blank">TCP Performance V1.2.0 - English</a>
+* <a href="/img/products/wizfi360/wizfi360ds/wizfi360tp_v120k.pdf" target="_blank">TCP Performance V1.2.0 - Korean</a>
 
 ## HTTP Server
 
 Please visit 🌎<https://github.com/wizfi/WizFi360EVB-Arduino> for the
 code.
 
-* [Arduino HTTP Server V1.0.1 - English](/img/products/wizfi360/wizfi360ds/wizfi360_an_hs_v101e.pdf)
-* [Arduino HTTP Server V1.0.1 - Korean](/img/products/wizfi360/wizfi360ds/wizfi360_an_hs_v101k.pdf)
+* <a href="/img/products/wizfi360/wizfi360ds/wizfi360_an_hs_v101e.pdf" target="_blank">Arduino HTTP Server V1.0.1 - English</a>
+* <a href="/img/products/wizfi360/wizfi360ds/wizfi360_an_hs_v101k.pdf" target="_blank">Arduino HTTP Server V1.0.1 - Korean</a>
 
 ## HTTP Client
 
-* [Arduino HTTP Client V1.0.1 - English](/img/products/wizfi360/wizfi360ds/wizfi360_an_hc_v101e.pdf)
-* [Arduino HTTP Client V1.0.1 - Korean](/img/products/wizfi360/wizfi360ds/wizfi360_an_hc_v101k.pdf)
+* <a href="/img/products/wizfi360/wizfi360ds/wizfi360_an_hc_v101e.pdf" target="_blank">Arduino HTTP Client V1.0.1 - English</a>
+* <a href="/img/products/wizfi360/wizfi360ds/wizfi360_an_hc_v101k.pdf" target="_blank">Arduino HTTP Client V1.0.1 - Korean</a>
 
 ## MQTT Client
 
-* [MQTT Client V1.0.0 - English](/img/products/wizfi360/wizfi360ds/wizfi360_an_mqtt_e.pdf)
-* [MQTT Client V1.0.0 - Korean](/img/products/wizfi360/wizfi360ds/wizfi360_an_mqtt_k.pdf)
+* <a href="/img/products/wizfi360/wizfi360ds/wizfi360_an_mqtt_e.pdf" target="_blank">MQTT Client V1.0.0 - English</a>
+* <a href="/img/products/wizfi360/wizfi360ds/wizfi360_an_mqtt_k.pdf" target="_blank">MQTT Client V1.0.0 - Korean</a>
 
 ## MS-Azure cloud example
 
-* [Azure V1.0.1 - English](/img/products/wizfi360/wizfi360ds/wizfi360_an_azure_v100_e.pdf)
-* [Azure V1.0.1 - Korean](/img/products/wizfi360/wizfi360ds/wizfi360_an_azure_v100_k.pdf)
+* <a href="/img/products/wizfi360/wizfi360ds/wizfi360_an_azure_v100_e.pdf" target="_blank">Azure V1.0.1 - English</a>
+* <a href="/img/products/wizfi360/wizfi360ds/wizfi360_an_azure_v100_k.pdf" target="_blank">Azure V1.0.1 - Korean</a>
 
 ## Airkiss
 
 AP configration setting and TCP communication using Smartphone App.
 
-* [AirKiss guide KR V1.0.0](/img/products/wizfi360/wizfi360ds/wizfi360_airkiss.pdf)
-* [AirKiss guide EN V1.0.0](/img/products/wizfi360/wizfi360ds/wizfi360_airkiss_en.pdf)
+* <a href="/img/products/wizfi360/wizfi360ds/wizfi360_airkiss.pdf" target="_blank">AirKiss guide KR V1.0.0</a>
+* <a href="/img/products/wizfi360/wizfi360ds/wizfi360_airkiss_en.pdf" target="_blank">AirKiss guide EN V1.0.0</a>
 * AirKiss setup example code - 🌎[[https://github.com/WIZnet-WizFi360/WizFi360_AirKiss_Test.git]]
 
 ## SPI MODE
 
 SPI Slave Communication mode.
  
-* [WizFi360 SPI MODE guide KR V1.0.3](/img/products/wizfi360/wizfi360app/wizfi360_an_spi_k_103_1.pdf)
-* [WizFi360 SPI MODE guide EN V1.0.1](/img/products/wizfi360/wizfi360app/wizfi360_an_spi_e_101_1.pdf)
+* <a href="/img/products/wizfi360/wizfi360app/wizfi360_an_spi_k_103_1.pdf" target="_blank">WizFi360 SPI MODE guide KR V1.0.3</a>
+* <a href="/img/products/wizfi360/wizfi360app/wizfi360_an_spi_e_101_1.pdf" target="_blank">WizFi360 SPI MODE guide EN V1.0.1</a>

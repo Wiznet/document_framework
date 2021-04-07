@@ -175,13 +175,13 @@ date: 2020-05-08
 
 | 列表                    | 版本  | 原理图(PDF)                                                           | 原理图(CAD)                                                             |
 | --------------------- | --- | ------------------------------------------------------------------ | -------------------------------------------------------------------- |
-| WIZ550S2E             | 1.1 | [Schematic\_PDF](/img/products/wiz550s2e/schematic1_wiz550s2e_v1.pdf) | [Schematic\_ORCAD](/img/products/wiz550s2e/wiz550s2e_v1.1_20150917.zip) |
-| WIZ550S2E-232 接口板     | 1.0 | [](/img/products/wiz550s2e/wiz550s2eds/rs232if_v1_0.pdf)              | [](/img/products/wiz550s2e/wiz550s2eds/rs232if_v1_0.zip)                |
-| WIZ550S2E-485/422 接口板 | 1.0 | [](/img/products/wiz550s2e/wiz550s2eds/rs485-422if_v1_0.pdf)          | [](/img/products/wiz550s2e/wiz550s2eds/rs485-422if_v1_0.zip)            |
+| WIZ550S2E             | 1.1 | <a href="/img/products/wiz550s2e/schematic1_wiz550s2e_v1.pdf" target="_blank">Schematic\_PDF</a> | [Schematic\_ORCAD](/img/products/wiz550s2e/wiz550s2e_v1.1_20150917.zip) |
+| WIZ550S2E-232 接口板     | 1.0 | <a href="/img/products/wiz550s2e/wiz550s2eds/rs232if_v1_0.pdf" target="_blank"></a>              | [](/img/products/wiz550s2e/wiz550s2eds/rs232if_v1_0.zip)                |
+| WIZ550S2E-485/422 接口板 | 1.0 | <a href="/img/products/wiz550s2e/wiz550s2eds/rs485-422if_v1_0.pdf" target="_blank"></a>          | [](/img/products/wiz550s2e/wiz550s2eds/rs485-422if_v1_0.zip)            |
 
 | 列表        | 版本  | Partlist                                                             | Gerber(Unit)                                            |
 | --------- | --- | -------------------------------------------------------------------- | ------------------------------------------------------- |
-| WIZ550S2E | 1.1 | [Partlist\_PDF](/img/products/wiz550s2e/wiz550s2e_ver1.1_pl_150916.pdf) | [Gerber](/img/products/wiz550s2e/wiz550s2e_v1.1.1_pcb.zip) |
+| WIZ550S2E | 1.1 | <a href="/img/products/wiz550s2e/wiz550s2e_ver1.1_pl_150916.pdf" target="_blank">Partlist\_PDF</a> | [Gerber](/img/products/wiz550s2e/wiz550s2e_v1.1.1_pcb.zip) |
 
   - Rev 1.1 更新 原理图
 

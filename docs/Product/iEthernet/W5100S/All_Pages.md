@@ -132,19 +132,19 @@ For more information on ioLibrary, click 🌎[W5500 Driver](driver)
 ## Data Sheet
 
 #### Korean
- * [W5100S Datasheet v1.2.5](/img/products/w5100s/w5100s_ds_v125k.pdf)
+ * <a href="/img/products/w5100s/w5100s_ds_v125k.pdf" target="_blank">W5100S Datasheet v1.2.5</a>
 #### English
- * [W5100S Datasheet v1.2.5](/img/products/w5100s/w5100s_ds_v125e.pdf)
+ * <a href="/img/products/w5100s/w5100s_ds_v125e.pdf" target="_blank">W5100S Datasheet v1.2.5</a>
 
 ----
 
 
 ## W5100S vs W5100 Comparison Sheet
 #### Korean
- * [W5100S vs W5100 Comparison Sheet v1.1.0](/img/products/w5100s/application/w5100svsw5100_cs_v110k.pdf)
+ * <a href="/img/products/w5100s/application/w5100svsw5100_cs_v110k.pdf" target="_blank">W5100S vs W5100 Comparison Sheet v1.1.0</a>
 
 #### English
- * [W5100S vs W5100 Comparison Sheet v1.1.0](/img/products/w5100s/application/w5100svsw5100_cs_v110e.pdf)
+ * <a href="/img/products/w5100s/application/w5100svsw5100_cs_v110e.pdf" target="_blank">W5100S vs W5100 Comparison Sheet v1.1.0</a>
 
 ----
 
@@ -152,26 +152,26 @@ For more information on ioLibrary, click 🌎[W5500 Driver](driver)
 ## Application Note
 
 #### Korean
- * [W5100S IPRAW v1.0.0](/img/products/w5100s/w5100s_an_ipraw_v100k.pdf)
- * [W5100S PPPoE v1.0.0](/img/products/w5100s/application/w5100s_an_pppoe_v100k.pdf)
- * [W5100S SLC v1.0.0](/img/products/w5100s/application/w5100s_an_slc_v100k.pdf)
- * [W5100S Interrupt v1.1.0](/img/products/w5100s/application/w5100s_an_interrupt_v110k.pdf)
+ * <a href="/img/products/w5100s/w5100s_an_ipraw_v100k.pdf" target="_blank">W5100S IPRAW v1.0.0</a>
+ * <a href="/img/products/w5100s/application/w5100s_an_pppoe_v100k.pdf" target="_blank">W5100S PPPoE v1.0.0</a>
+ * <a href="/img/products/w5100s/application/w5100s_an_slc_v100k.pdf" target="_blank">W5100S SLC v1.0.0</a>
+ * <a href="/img/products/w5100s/application/w5100s_an_interrupt_v110k.pdf" target="_blank">W5100S Interrupt v1.1.0</a>
 
 #### English
- * [W5100S IPRAW v1.0.0](/img/products/w5100s/w5100s_an_ipraw_v100e.pdf)
- * [W5100S PPPoE v1.0.0](/img/products/w5100s/application/w5100s_an_pppoe_v100e.pdf)
- * [W5100S SLC v1.0.0](/img/products/w5100s/application/w5100s_an_slc_v100e.pdf)
- * [W5100S Interrupt v1.0.0](/img/products/w5100s/application/w5100s_an_interrupt_v100e.pdf)
+ * <a href="/img/products/w5100s/w5100s_an_ipraw_v100e.pdf" target="_blank">W5100S IPRAW v1.0.0</a>
+ * <a href="/img/products/w5100s/application/w5100s_an_pppoe_v100e.pdf" target="_blank">W5100S PPPoE v1.0.0</a>
+ * <a href="/img/products/w5100s/application/w5100s_an_slc_v100e.pdf" target="_blank">W5100S SLC v1.0.0</a>
+ * <a href="/img/products/w5100s/application/w5100s_an_interrupt_v100e.pdf" target="_blank">W5100S Interrupt v1.0.0</a>
 
 ----
 
 
 ## Hardware Design Guide
 #### Korean
- * [Crystal Selection Guide v1.0.0](/img/products/w5100s/w5100s_crystal_selection_guide_v100k.pdf)
+ * <a href="/img/products/w5100s/w5100s_crystal_selection_guide_v100k.pdf" target="_blank">Crystal Selection Guide v1.0.0</a>
 
 #### English
- * [Crystal Selection Guide v1.0.0](/img/products/w5100s/w5100s_crystal_selection_guide_v100e.pdf)
+ * <a href="/img/products/w5100s/w5100s_crystal_selection_guide_v100e.pdf" target="_blank">Crystal Selection Guide v1.0.0</a>
  * [IR Reflow Profile](Document.md)
 ----
 
@@ -359,7 +359,7 @@ Application example source code for W5100S-EVB**
 https://github.com/Wiznet/W5100S-EVB
 
  **DMA User Guide**  
-[W5100S DMA V1.0.0 Korean.pdf](/img/products/w5100s/w5100s_evb/w5100s_an_dma_v100k.pdf)
+<a href="/img/products/w5100s/w5100s_evb/w5100s_an_dma_v100k.pdf" target="_blank">W5100S DMA V1.0.0 Korean.pdf</a>
 For More information about DMA, click
 [DMA](Application-Note/dma)
 
@@ -393,9 +393,9 @@ For More information about DMA, click
   - 🌎[STMicroelectronics STM32F103VCT6 Datasheet](http://www.st.com/en/microcontrollers/stm32f103vc.html)
   - 🌎[Virtual COM Port:
     CP2104 COM Port Datasheet](https://www.silabs.com/products/interface/usb-bridges/classic-usb-bridges/device.cp2104)
-  - 🌎[SINGLE INVERTER GATE SN74LVC1G04DBVR Datasheet](http://www.ti.com/lit/ds/symlink/sn74lvc1g04.pdf)
-  - 🌎[Octal D-type transparent latch; 3-state 74HC573PW Datasheet](https://assets.nexperia.com/documents/data-sheet/74HC_HCT573.pdf)
-  - 🌎[Quad 1-of-2 multiplexer 74CBTLV3257PW Datasheet](https://www.nxp.com/docs/en/data-sheet/74CBTLV3257.pdf)
+  - 🌎<a href="http://www.ti.com/lit/ds/symlink/sn74lvc1g04.pdf" target="_blank">SINGLE INVERTER GATE SN74LVC1G04DBVR Datasheet</a>
+  - 🌎<a href="https://assets.nexperia.com/documents/data-sheet/74HC_HCT573.pdf" target="_blank">Octal D-type transparent latch; 3-state 74HC573PW Datasheet</a>
+  - 🌎<a href="https://www.nxp.com/docs/en/data-sheet/74CBTLV3257.pdf" target="_blank">Quad 1-of-2 multiplexer 74CBTLV3257PW Datasheet</a>
 
 **Schematic & Part list**
 

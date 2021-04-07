@@ -368,23 +368,23 @@ RS-485</td>
 | H/W version | Type   | Filetype | Download Link                                                                                                                     | Remarks |
 | ----------- | ------ | -------- | --------------------------------------------------------------------------------------------------------------------------------- | ------- |
 | 1.0         | TTL    | Excel    | ![](/img/products/w5500/w5500_evb/icons/download.png) [Download](/img/products/wiz750sr/clitool/datasheet/wiz750sr_v1.0_pl_160421_ttl.xls)       | \-      |
-| :::         | :::    | PDF      | ![](/img/products/w5500/w5500_evb/icons/download.png) [Download](/img/products/wiz750sr/clitool/datasheet/wiz750sr_v1.0_pl_160421_ttl.pdf)       | :::     |
+| :::         | :::    | PDF      | !<a href="/img/products/wiz750sr/clitool/datasheet/wiz750sr_v1.0_pl_160421_ttl.pdf" target="_blank">](/img/products/w5500/w5500_evb/icons/download.png) [Download</a>       | :::     |
 | :::         | RS-232 | Excel    | ![](/img/products/w5500/w5500_evb/icons/download.png) [Download](/img/products/wiz750sr/clitool/datasheet/wiz750sr_v1.0_pl_160421_rs232.xls)     | :::     |
-| :::         | :::    | PDF      | ![](/img/products/w5500/w5500_evb/icons/download.png) [Download](/img/products/wiz750sr/clitool/datasheet/wiz750sr_v1.0_pl_160421_rs232.pdf)     | :::     |
+| :::         | :::    | PDF      | !<a href="/img/products/wiz750sr/clitool/datasheet/wiz750sr_v1.0_pl_160421_rs232.pdf" target="_blank">](/img/products/w5500/w5500_evb/icons/download.png) [Download</a>     | :::     |
 | :::         | RS-485 | Excel    | ![](/img/products/w5500/w5500_evb/icons/download.png) [Download](/img/products/wiz750sr/clitool/datasheet/wiz750sr_v1.0_pl_160421_rs422_485.xls) | :::     |
-| :::         | :::    | PDF      | ![](/img/products/w5500/w5500_evb/icons/download.png) [Download](/img/products/wiz750sr/clitool/datasheet/wiz750sr_v1.0_pl_160421_rs422_485.pdf) | :::     |
+| :::         | :::    | PDF      | !<a href="/img/products/wiz750sr/clitool/datasheet/wiz750sr_v1.0_pl_160421_rs422_485.pdf" target="_blank">](/img/products/w5500/w5500_evb/icons/download.png) [Download</a> | :::     |
 | 1.1         | TTL    | Excel    | ![](/img/products/w5500/w5500_evb/icons/download.png) [Download](/img/products/wiz750sr/clitool/datasheet/wiz750sr_v1.1_pl_ttl_20171214.xls)     | \-      |
-| ::: | :::    | PDF   | ![](/img/products/w5500/w5500_evb/icons/download.png) [Download](/img/products/wiz750sr/clitool/datasheet/wiz750sr_v1.1_pl_ttl_20171214.pdf)    | :::                    |
+| ::: | :::    | PDF   | !<a href="/img/products/wiz750sr/clitool/datasheet/wiz750sr_v1.1_pl_ttl_20171214.pdf" target="_blank">](/img/products/w5500/w5500_evb/icons/download.png) [Download</a>    | :::                    |
 | ::: | RS-232 | Excel | ![](/img/products/w5500/w5500_evb/icons/download.png) [Download](/img/products/wiz750sr/clitool/datasheet/wiz750sr_v1.1_pl_rs232_20171214.xls)  | :::                    |
-| ::: | :::    | PDF   | ![](/img/products/w5500/w5500_evb/icons/download.png) [Download](/img/products/wiz750sr/clitool/datasheet/wiz750sr_v1.1_pl_rs232_20171214.pdf)  | :::                    |
+| ::: | :::    | PDF   | !<a href="/img/products/wiz750sr/clitool/datasheet/wiz750sr_v1.1_pl_rs232_20171214.pdf" target="_blank">](/img/products/w5500/w5500_evb/icons/download.png) [Download</a>  | :::                    |
 | ::: | RS-485 | Excel | ![](/img/products/w5500/w5500_evb/icons/download.png) [Download](/img/products/wiz750sr/clitool/datasheet/wiz750sr_v1.1_pl_rs485_20171214.xls)  | :::                    |
-| ::: | :::    | PDF   | ![](/img/products/w5500/w5500_evb/icons/download.png) [Download](/img/products/wiz750sr/clitool/datasheet/wiz750sr_v1.1_pl_rs485_20171214.pdf)  | :::                    |
+| ::: | :::    | PDF   | !<a href="/img/products/wiz750sr/clitool/datasheet/wiz750sr_v1.1_pl_rs485_20171214.pdf" target="_blank">](/img/products/w5500/w5500_evb/icons/download.png) [Download</a>  | :::                    |
 | 1.2 | TTL    | Excel | ![](/img/products/w5500/w5500_evb/icons/download.png) [Download](/img/products/wiz750sr/clitool/datasheet/wiz750sr_v120_pl_ttl_20180703.xls)    | **Latest version H/W** |
-| ::: | :::    | PDF   | ![](/img/products/w5500/w5500_evb/icons/download.png) [Download](/img/products/wiz750sr/clitool/datasheet/wiz750sr_v120_pl_ttl_20180703.pdf)    | :::                    |
+| ::: | :::    | PDF   | !<a href="/img/products/wiz750sr/clitool/datasheet/wiz750sr_v120_pl_ttl_20180703.pdf" target="_blank">](/img/products/w5500/w5500_evb/icons/download.png) [Download</a>    | :::                    |
 | ::: | RS-232 | Excel | ![](/img/products/w5500/w5500_evb/icons/download.png) [Download](/img/products/wiz750sr/clitool/datasheet/wiz750sr_v120_pl_rs232_20180703.xls)  | :::                    |
-| ::: | :::    | PDF   | ![](/img/products/w5500/w5500_evb/icons/download.png) [Download](/img/products/wiz750sr/clitool/datasheet/wiz750sr_v120_pl_rs232_20180703.pdf)  | :::                    |
+| ::: | :::    | PDF   | !<a href="/img/products/wiz750sr/clitool/datasheet/wiz750sr_v120_pl_rs232_20180703.pdf" target="_blank">](/img/products/w5500/w5500_evb/icons/download.png) [Download</a>  | :::                    |
 | ::: | RS-485 | Excel | ![](/img/products/w5500/w5500_evb/icons/download.png) [Download](/img/products/wiz750sr/clitool/datasheet/wiz750sr_v120_pl_rs485_201800703.xls) | :::                    |
-| ::: | :::    | PDF   | ![](/img/products/w5500/w5500_evb/icons/download.png) [Download](/img/products/wiz750sr/clitool/datasheet/wiz750sr_v120_pl_rs485_201800703.pdf) | :::                    |
+| ::: | :::    | PDF   | !<a href="/img/products/wiz750sr/clitool/datasheet/wiz750sr_v120_pl_rs485_201800703.pdf" target="_blank">](/img/products/w5500/w5500_evb/icons/download.png) [Download</a> | :::                    |
 
 ### WIZ750SR-EVB
 

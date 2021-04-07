@@ -29,7 +29,7 @@ Controller](../iEthernet/W5500/overview) 가
 
 ### WizArduino Microcontroller
 
-  - Microcontroller : [ATSAMD21G18](/img/osh/wizarduino/atmel-42181-sam-d21_datasheet.pdf), 48pins LQFP
+  - Microcontroller : <a href="/img/osh/wizarduino/atmel-42181-sam-d21_datasheet.pdf" target="_blank">ATSAMD21G18</a>, 48pins LQFP
   - Architecture : ARM Cortex-M0+
   - Operation Voltage : 3.3V
   - Flash Memory : 256KB
@@ -40,7 +40,7 @@ Controller](../iEthernet/W5500/overview) 가
 
 ### General features
 
-  - Ethernet : WIZnet [W5500](/img/osh/wizarduino/w5500_kor.pdf) Ethernet Controller
+  - Ethernet : WIZnet <a href="/img/osh/wizarduino/w5500_kor.pdf" target="_blank">W5500</a> Ethernet Controller
   - Input Voltage : 7-15V
   - Input Voltage PoE : 36 – 57V
   - Digital I/O Pins : 20, with 12 PWM and UART
@@ -201,7 +201,7 @@ M0](http://www.arduino.org/learning/getting-started/getting-started-with-arduino
 
 ### Schematic & Reference Design
 
-  - [schematic.pdf](/img/osh/wizarduino/wizarduino_m0_eth_rb1-145bg72a.pdf)  
+  - <a href="/img/osh/wizarduino/wizarduino_m0_eth_rb1-145bg72a.pdf" target="_blank">schematic.pdf</a>  
   * [reference design.zip](/img/osh/wizarduino/wizarduino.zip)
 
 ### Dimension
@@ -210,7 +210,7 @@ M0](http://www.arduino.org/learning/getting-started/getting-started-with-arduino
 
 ### Part list
 
-  - [Part List](/img/osh/wizarduino/bom_wizarduino_m0_eth_rb1-145bg72a.pdf)  
+  - <a href="/img/osh/wizarduino/bom_wizarduino_m0_eth_rb1-145bg72a.pdf" target="_blank">Part List</a>  
 
 -----
 

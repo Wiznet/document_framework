@@ -51,7 +51,7 @@ date: 2020-04-08
   * Humidity Measurement Range: 20 - 90%, 0 - 50 ℃
   * Humidity Accuarcy : +/- 5% RH
   * Temperature Accuarcy : +/- 2 ℃
-  * Datasheet: [Download](/img/products/wizwiki_mbed_kit/kit_kr/datasheet-dht11.pdf)
+  * Datasheet: <a href="/img/products/wizwiki_mbed_kit/kit_kr/datasheet-dht11.pdf" target="_blank">Download</a>
   * Reference: https://learn.adafruit.com/downloads/pdf/dht.pdf
 
 
@@ -66,7 +66,7 @@ date: 2020-04-08
 * Vs : 3.3V Power Supply
 * Vout : It should connected to ADC input
 * GND : It should connected to Ground.
-* Datasheet: [Download](/img/products/wizwiki_mbed_kit/kit_kr/tmp35_36_37.pdf)
+* Datasheet: <a href="/img/products/wizwiki_mbed_kit/kit_kr/tmp35_36_37.pdf" target="_blank">Download</a>
 * Reference: http://www.analog.com/media/en/technical-documentation/data-sheets/TMP35_36_37.pdf
 
 
@@ -79,6 +79,6 @@ date: 2020-04-08
   * A photoresistor or light-dependent resistor (LDR) or photocell is a light-controlled variable resistor.
   * The resistance of a photoresistor decreases with increasing incident light intensity; in other words, it exhibits photoconductivity.
   * A photoresistor can be applied in light-sensitive detector circuits, and light- and dark-activated switching circuits.
-  * Datasheet: [Download](/img/products/wizwiki_mbed_kit/kit_kr/cds-resistor-pgm.pdf)
+  * Datasheet: <a href="/img/products/wizwiki_mbed_kit/kit_kr/cds-resistor-pgm.pdf" target="_blank">Download</a>
 
 -----

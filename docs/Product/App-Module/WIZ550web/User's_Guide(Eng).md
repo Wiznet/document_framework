@@ -19,7 +19,7 @@ WIZ550web provides the lightweight webserver operating. It controls digital outp
 
 ## TFTP Guide Document
 
-[TFTP Guide Document](/img/products/wiz550web/wiz550webug_kr/wiz550web_tftp_guide.pdf)
+<a href="/img/products/wiz550web/wiz550webug_kr/wiz550web_tftp_guide.pdf" target="_blank">TFTP Guide Document</a>
 
 ---
 

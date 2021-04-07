@@ -39,14 +39,14 @@ many years.
 ## Getting Started
 
   - User Guide.
-      - [Korean](/img/osh/w6100_ethernet_shield/w6100_ethernet_shield_ug_v001k.pdf)
-      - [English](/img/osh/w6100_ethernet_shield/w6100_ethernet_shield_ug_v001e.pdf)
+      - <a href="/img/osh/w6100_ethernet_shield/w6100_ethernet_shield_ug_v001k.pdf" target="_blank">Korean</a>
+      - <a href="/img/osh/w6100_ethernet_shield/w6100_ethernet_shield_ug_v001e.pdf" target="_blank">English</a>
 
 -----
 
 ## Datasheet
 
-   - [Download](/img/osh/w6100_ethernet_shield/w6100_ethernet_shield_ds_v100e.pdf)
+   - <a href="/img/osh/w6100_ethernet_shield/w6100_ethernet_shield_ds_v100e.pdf" target="_blank">Download</a>
 
 -----
 

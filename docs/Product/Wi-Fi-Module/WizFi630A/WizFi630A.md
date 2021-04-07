@@ -55,4 +55,4 @@ settings.
 
 ### Material
 
-  - [WizFi630A datasheet(PDF)](/img/products/wizfi630a/wizfi630a_datasheet_en_v1_2_1_.pdf)
+  - <a href="/img/products/wizfi630a/wizfi630a_datasheet_en_v1_2_1_.pdf" target="_blank">WizFi630A datasheet(PDF)</a>
