@@ -78,23 +78,18 @@ page of configuration in Github.
 
 <!-- end list -->
 
-  - [WIZ100SR User Manual
-    v2.2.0](http://www.wiznet.io/wp-content/uploads/wiznethome/S2E%20Module/WIZ100-105-110SR/Document/WIZ100SR_UM_v220e.pdf)
-  - [WIZ105SR User Manual
-    v1.3.0](http://www.wiznet.io/wp-content/uploads/wiznethome/S2E%20Module/WIZ100-105-110SR/Document/WIZ105SR_UM_v130e.pdf)
-  - [WIZ110SR User Manual
-    v2.1.0](http://www.wiznet.io/wp-content/uploads/wiznethome/S2E%20Module/WIZ100-105-110SR/Document/WIZ110SR_UM_v210e.pdf)
+  - <a href="http://www.wiznet.io/wp-content/uploads/wiznethome/S2E%20Module/WIZ100-105-110SR/Document/WIZ100SR_UM_v220e.pdf" target="_blank">WIZ100SR User Manual v2.2.0</a>
+  - <a href="http://www.wiznet.io/wp-content/uploads/wiznethome/S2E%20Module/WIZ100-105-110SR/Document/WIZ105SR_UM_v130e.pdf" target="_blank">WIZ105SR User Manual v1.3.0</a>
+  - <a href="http://www.wiznet.io/wp-content/uploads/wiznethome/S2E%20Module/WIZ100-105-110SR/Document/WIZ110SR_UM_v210e.pdf" target="_blank">WIZ110SR User Manual v2.1.0</a>
 
 <!-- end list -->
 
-- [WIZ100SR/ WIZ105SR/ WIZ110SR Programmer’s
-    Guide](http://www.wiznet.io/wp-content/uploads/wiznethome/S2E%20Module/WIZ100-105-110SR/Document/WIZ1x0SR_AN_S2E-Programming-Guide_V030E.pdf)
+- <a href="http://www.wiznet.io/wp-content/uploads/wiznethome/S2E%20Module/WIZ100-105-110SR/Document/WIZ1x0SR_AN_S2E-Programming-Guide_V030E.pdf" target="_blank">WIZ100SR/ WIZ105SR/ WIZ110SR Programmer’s Guide</a>
 
 ![](/img/products/configtool/wiz1xx_configtool.png)  
 **WIZ120/125SR Configuration Tool v1.1.0**
 
-[WIZ120/125SR Configuration
-Tool](http://www.wiznet.io/wp-content/uploads/wiznethome/S2E%20Module/WIZ120_125SR/Utility/WIZ12xSR_Config_V110.zip)  
+[WIZ120/125SR Configuration Tool](http://www.wiznet.io/wp-content/uploads/wiznethome/S2E%20Module/WIZ120_125SR/Utility/WIZ12xSR_Config_V110.zip)  
 
 -----
 
@@ -105,10 +100,8 @@ Tool](http://www.wiznet.io/wp-content/uploads/wiznethome/S2E%20Module/WIZ120_125
 
 <!-- end list -->
 
-  - [WIZ120SR User
-    manual](http://www.wiznet.io/wp-content/uploads/wiznethome/S2E%20Module/WIZ120_125SR/Document/WIZ120SR_UM_v110e.pdf)
-  - [WIZ125SR User
-    manual](http://www.wiznet.io/wp-content/uploads/wiznethome/S2E%20Module/WIZ120_125SR/Document/WIZ125SR_User_Manual_EN_V1.0.pdf)
+  - <a href="http://www.wiznet.io/wp-content/uploads/wiznethome/S2E%20Module/WIZ120_125SR/Document/WIZ120SR_UM_v110e.pdf" target="_blank">WIZ120SR User manual</a>
+  - <a href="http://www.wiznet.io/wp-content/uploads/wiznethome/S2E%20Module/WIZ120_125SR/Document/WIZ125SR_User_Manual_EN_V1.0.pdf" target="_blank">WIZ125SR User manual</a>
 
 ![](/img/products/configtool/wiz12xsr_configtool.png)  
 **WIZ120/125SR Configuration Tool v1.1.0**
@@ -122,8 +115,7 @@ Tool](http://www.wiznet.io/wp-content/uploads/wiznethome/S2E%20Module/WIZ120_125
   - [WIZ140SR](https://www.wiznet.io/product-item/wiz140sr/)
   - [WIZ145SR](https://www.wiznet.io/product-item/wiz145sr/)
 
-  - [WIZ140/145SR User
-    manual](http://www.wiznet.io/wp-content/uploads/wiznethome/S2E%20Module/WIZ140_145SR/Document/WIZ14xSR_UM_v201e.pdf)
+  - <a href="http://www.wiznet.io/wp-content/uploads/wiznethome/S2E%20Module/WIZ140_145SR/Document/WIZ14xSR_UM_v201e.pdf" target="_blank">WIZ140/145SR User manual</a>
 
 ![](/img/products/configtool/wiz140sr-configtool.png)
 

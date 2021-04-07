@@ -101,10 +101,8 @@ W5500 Ethernet shield는 W5500 기반으로 제작되었습니다. 그러므로 
 Datasheet를 확인해주세요. 더 많은 정보를 원하시면[W5500](../iEthernet/W5500/overview)과
 Datasheet 확인해주세요.
 
-  - [W5500 Datasheet v1.0.6 -
-    English](/img/products/w5500/w5500_ds_v106e_141230.pdf)
-  - [W5500 Datasheet v1.0.6 -
-    Korean](/img/products/w5500/w5500_ds_v106k_141230.pdf)
+  - <a href="/img/products/w5500/w5500_ds_v106e_141230.pdf" target="_blank">W5500 Datasheet v1.0.6 - English</a>
+  - <a href="/img/products/w5500/w5500_ds_v106k_141230.pdf" target="_blank">W5500 Datasheet v1.0.6 - Korean</a>
 
 \---
 
@@ -122,15 +120,12 @@ Datasheet 확인해주세요.
 
 **Schematic**
 
-  - [W5500 Ethernet shield Rev1.0 Schematic(Eagle CAD) with PCB
-    file](/img/osh/w5500_ethernet_shield/w5500_ethernet_shield_v10_sch_zip.zip)
-  - [W5500 Ethernet shield Rev1.0
-    Schematic(PDF)](/img/osh/w5500_ethernet_shield/w5500_ethernet_shield_v10_sch.pdf)
+  - [W5500 Ethernet shield Rev1.0 Schematic(Eagle CAD) with PCB file](/img/osh/w5500_ethernet_shield/w5500_ethernet_shield_v10_sch_zip.zip)
+  - <a href="/img/osh/w5500_ethernet_shield/w5500_ethernet_shield_v10_sch.pdf" target="_blank">W5500 Ethernet shield Rev1.0 Schematic(PDF)</a>
 
 **Part list**
 
-  - [W5500 Ethernet shield Rev1.0 Part
-    list](/img/osh/w5500_ethernet_shield/w5500_ethernet_shield_v1.0_pl_150414.xlsx)
+  - [W5500 Ethernet shield Rev1.0 Part list](/img/osh/w5500_ethernet_shield/w5500_ethernet_shield_v1.0_pl_150414.xlsx)
 
 **Dimension**
 
