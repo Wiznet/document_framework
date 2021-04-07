@@ -73,7 +73,7 @@ WIZwiki-W7500ECO.
 8\. If you can do everything well, then your WIZwiki-W7500ECO doesn't
 have any problem.
 
-* [Hardware test & Loop back binary](/img/products/wizwiki_w7500eco/start_getting_started/wizwiki-w7500eco_wztoe_manu.zip)
+* <a href="/img/products/wizwiki_w7500eco/start_getting_started/wizwiki-w7500eco_wztoe_manu.zip" target="_blank">Hardware test & Loop back binary</a>
 
 \<WRAP centeralign\>
 

@@ -14,7 +14,7 @@ date: 2020-04-07
 - MCU : STM32F103C8 -
 Development Tool : CoIDE v1.7.4 - ARM Ver : 4.7 2013q2 - Main Clock :
 72MHz, SPI Clock(Max) : 36MHz - Test Project
-:[W5500_SPI_Performance.zip](/img/products/w5500/application/w5500_spi_performance.zip)
+:<a href="/img/products/w5500/application/w5500_spi_performance.zip" target="_blank">W5500_SPI_Performance.zip</a>
 - Test Tool : AX2, unit of measure: Mbps
 
 |                     |          |          |          |          |          |
@@ -37,7 +37,7 @@ Development Tool : CoIDE v1.7.4 - ARM Ver : 4.7 2013q2 - Main Clock :
 - MCU : M0516LBN -
 Development Tool : CoIDE v1.7.4 - ARM Ver : 4.7 2013q2 - Main Clock :
 50MHz, SPI Clock(Max) : 25MHz - Test Project
-:[W5500_SPI_Performance.zip](/img/products/w5500/application/w5500_spi_performance.zip)
+:<a href="/img/products/w5500/application/w5500_spi_performance.zip" target="_blank">W5500_SPI_Performance.zip</a>
 - Test Tool : AX2, unit of measure : Mbps
 
 |                     |          |          |          |          |          |
@@ -64,7 +64,7 @@ Development Tool : CoIDE v1.7.4 - ARM Ver : 4.7 2013q2 - Main Clock :
 - MCU : STM32F103C8 - Development Tool :
 CoIDE v1.7.4 - ARM Ver : 4.7 2013q2 - Main Clock : 72MHz, SPI Clock :
 36MHz/18MHz/9MHz/4.5MHz/2.25MHz/1.12MHz/0.562Mz/0.281MHz - Test Project
-:[SPI_SPEEP_TEST.zip](/img/products/w5500/application/w5500_spispeed_test_loopback_20140212.zip)
+:<a href="/img/products/w5500/application/w5500_spispeed_test_loopback_20140212.zip" target="_blank">SPI_SPEEP_TEST.zip</a>
 - Test Setting : Only TCPs / 1CH / Databuf(2K) / No Delay ack X - Test
 Tool : AX2, unit of measure : Mbps
 

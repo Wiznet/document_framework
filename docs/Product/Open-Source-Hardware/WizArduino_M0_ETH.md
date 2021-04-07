@@ -168,22 +168,22 @@ M0](http://www.arduino.org/learning/getting-started/getting-started-with-arduino
 
 #### Basic
 
-  * [GPIO](/img/osh/wizarduino/1.gpio_digitalpin_example.zip)  
-  * [INTERRUPT](/img/osh/wizarduino/2.interrupt_example.zip)  
-  * [ADC](/img/osh/wizarduino/3.adc_analog_example.zip)  
-  * [PWM](/img/osh/wizarduino/4.pwm_example.zip)  
-  * [UART](/img/osh/wizarduino/5.uart_serial_example.zip)  
-  * [I2C](/img/osh/wizarduino/6.i2c_example.zip)
+  * <a href="/img/osh/wizarduino/1.gpio_digitalpin_example.zip" target="_blank">GPIO</a>  
+  * <a href="/img/osh/wizarduino/2.interrupt_example.zip" target="_blank">INTERRUPT</a>  
+  * <a href="/img/osh/wizarduino/3.adc_analog_example.zip" target="_blank">ADC</a>  
+  * <a href="/img/osh/wizarduino/4.pwm_example.zip" target="_blank">PWM</a>  
+  * <a href="/img/osh/wizarduino/5.uart_serial_example.zip" target="_blank">UART</a>  
+  * <a href="/img/osh/wizarduino/6.i2c_example.zip" target="_blank">I2C</a>
 
 #### IoT
 
-  * [TCP LOOPBACK](/img/osh/wizarduino/tcp_loopback.zip)  
-  * [TCP LOOPBACK LED](/img/osh/wizarduino/tcp_loopback_led.zip)  
-  * [VERY SIMPLE TCP LOOPBACK](/img/osh/wizarduino/very_simple_tcp_loopback.zip)  
-  * [WEBSERVER LED](/img/osh/wizarduino/webserver_led.zip)  
-  * [SIMPLE WEBSERVER](/img/osh/wizarduino/simple_web_server.zip)  
-  * [WEATHER STATION](/img/osh/wizarduino/weather_station.zip)  
-  * [DWEET IO](/img/osh/wizarduino/dweet.io_example.zip)
+  * <a href="/img/osh/wizarduino/tcp_loopback.zip" target="_blank">TCP LOOPBACK</a>  
+  * <a href="/img/osh/wizarduino/tcp_loopback_led.zip" target="_blank">TCP LOOPBACK LED</a>  
+  * <a href="/img/osh/wizarduino/very_simple_tcp_loopback.zip" target="_blank">VERY SIMPLE TCP LOOPBACK</a>  
+  * <a href="/img/osh/wizarduino/webserver_led.zip" target="_blank">WEBSERVER LED</a>  
+  * <a href="/img/osh/wizarduino/simple_web_server.zip" target="_blank">SIMPLE WEBSERVER</a>  
+  * <a href="/img/osh/wizarduino/weather_station.zip" target="_blank">WEATHER STATION</a>  
+  * <a href="/img/osh/wizarduino/dweet.io_example.zip" target="_blank">DWEET IO</a>
   - 🌎[Dweet.io 연동](http://wiznetian.com/article/wizarduino-cloud%ec%97%90-%ec%84%bc%ec%84%9c-%ec%a0%95%eb%b3%b4-%ec%a0%80%ec%9e%a5%ed%95%98%ea%b8%b0-dweet-io/)
   - 🌎[OpenWeatherMap 연동](http://wiznetian.com/article/wizarduino%eb%a1%9c-openweathermap-%ec%82%ac%ec%9d%b4%ed%8a%b8%ec%97%90%ec%84%9c-%eb%82%a0%ec%94%a8%eb%8d%b0%ec%9d%b4%ed%84%b0-%ea%b0%80%ec%a0%b8%ec%98%a4%ea%b8%b0/)
   - 🌎[Ubidots 연동](http://wiznetian.com/article/wizarduino-ubidots-%ed%81%b4%eb%9d%bc%ec%9a%b0%eb%93%9c-%ec%97%b0%eb%8f%99/)
@@ -202,7 +202,7 @@ M0](http://www.arduino.org/learning/getting-started/getting-started-with-arduino
 ### Schematic & Reference Design
 
   - <a href="/img/osh/wizarduino/wizarduino_m0_eth_rb1-145bg72a.pdf" target="_blank">schematic.pdf</a>  
-  * [reference design.zip](/img/osh/wizarduino/wizarduino.zip)
+  * <a href="/img/osh/wizarduino/wizarduino.zip" target="_blank">reference design.zip</a>
 
 ### Dimension
 

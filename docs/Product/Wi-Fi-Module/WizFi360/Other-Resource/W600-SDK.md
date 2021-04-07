@@ -20,10 +20,10 @@ Protocol and other public function modules.
       - [Contact Us](/wizfi@wiznet.io)
 
   - Official SDK from chip vendor
-      - Download link - [W600 Chip SDK (wm\_sdk\_w60x\_g3.02.00\_190729.zip)](/img/products/wizfi360/board/wizfi360sdk/wm_sdk_w60x_g3.02.00_190729.zip)
+      - Download link - <a href="/img/products/wizfi360/board/wizfi360sdk/wm_sdk_w60x_g3.02.00_190729.zip" target="_blank">W600 Chip SDK (wm\_sdk\_w60x\_g3.02.00\_190729.zip)</a>
 
   - KEIL Flash Driver
-      - Download link - [W600 Flash Driver (W60X\_QFLASH\_Driver\_for\_SWD.zip)](/img/products/wizfi360/board/wizfi360sdk/w60x_qflash_driver_for_swd.zip)
+      - Download link - <a href="/img/products/wizfi360/board/wizfi360sdk/w60x_qflash_driver_for_swd.zip" target="_blank">W600 Flash Driver (W60X\_QFLASH\_Driver\_for\_SWD.zip)</a>
 
 ## Software SDK User Manual
 

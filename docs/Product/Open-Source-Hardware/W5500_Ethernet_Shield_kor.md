@@ -120,7 +120,7 @@ Datasheet 확인해주세요.
 
 **Schematic**
 
-  - [W5500 Ethernet shield Rev1.0 Schematic(Eagle CAD) with PCB file](/img/osh/w5500_ethernet_shield/w5500_ethernet_shield_v10_sch_zip.zip)
+  - <a href="/img/osh/w5500_ethernet_shield/w5500_ethernet_shield_v10_sch_zip.zip" target="_blank">W5500 Ethernet shield Rev1.0 Schematic(Eagle CAD) with PCB file</a>
   - <a href="/img/osh/w5500_ethernet_shield/w5500_ethernet_shield_v10_sch.pdf" target="_blank">W5500 Ethernet shield Rev1.0 Schematic(PDF)</a>
 
 **Part list**

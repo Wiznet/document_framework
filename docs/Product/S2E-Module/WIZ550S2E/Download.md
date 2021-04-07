@@ -11,13 +11,13 @@ date: 2020-04-16
 We will use the 🌎[release](https://github.com/Wiznet/WIZ550S2E/releases)
 page of wiz550s2e's in github.  
   
-[Ver 1.4.0 - Modbus Ver](https://github.com/Wiznet/WIZ550S2E-Modbus/releases/download/v1.4.0/Binary_v140.zip)  
+<a href="https://github.com/Wiznet/WIZ550S2E-Modbus/releases/download/v1.4.0/Binary_v140.zip" target="_blank">Ver 1.4.0 - Modbus Ver</a>  
  * Added features - Modbus
 
     * Source code - https://github.com/Wiznet/WIZ550S2E-Modbus
     * v1.31 Configuration Tool or later is required.
 
-[Ver 1.3.0 - MQTT Ver](https://github.com/Wiznet/WIZ550S2E/releases/download/v1.3.0/Binary_v130.zip)  
+<a href="https://github.com/Wiznet/WIZ550S2E/releases/download/v1.3.0/Binary_v130.zip" target="_blank">Ver 1.3.0 - MQTT Ver</a>  
   *  Added features - MQTT
       * Source code - https://github.com/Wiznet/WIZ550S2E
       * AT+MQTTSET : (AT command) This command is used to initialize the necessary parameters of MQTT connection(set information automatically saved)
@@ -33,10 +33,10 @@ For all revision binary files including below, you can see at the
 [release](https://github.com/Wiznet/WIZ550S2E/releases) page of
 wiz550s2e's in GitHub.
 
-  - [Ver 1.0.3](/img/products/wiz550s2e/binary_v1.0.3.zip)
-  - [Ver 1.0.2](/img/products/wiz550s2e/binary_v1.0.2.zip)
-  - [Ver 1.0.1](/img/products/wiz550s2e/binary_v1.0.1.zip)
-  - [Ver 1.0.0](/img/products/wiz550s2e/wiz550s2e.zip)
+  - <a href="/img/products/wiz550s2e/binary_v1.0.3.zip" target="_blank">Ver 1.0.3</a>
+  - <a href="/img/products/wiz550s2e/binary_v1.0.2.zip" target="_blank">Ver 1.0.2</a>
+  - <a href="/img/products/wiz550s2e/binary_v1.0.1.zip" target="_blank">Ver 1.0.1</a>
+  - <a href="/img/products/wiz550s2e/wiz550s2e.zip" target="_blank">Ver 1.0.0</a>
 
 ### Firmware upload(TFTP) guide
 
@@ -66,10 +66,10 @@ We will use the
 page of configuration's in github.  
   
 [Ver 1.31](https://github.com/Wiznet/WIZnet_Configuration_Tool/releases/download/v1.3.1/WIZnet_Configuration_Tool.jar)  
-[Ver 1.10](/img/products/wiz550s2e/wiznet_configuration_tool_ver1.10.zip)  
-[Ver 1.03](/img/products/wiz550sr/wiz550sr_download/wiznet_configuration_tool_ver1.03.zip)  
-[Ver 1.02](/img/products/wiz550s2e/wiznet_configuration_tool_ver1.02.zip)  
-[Ver 1.00](/img/products/wiz550s2e/wiz550s2e_configuration_tool_ver1.00_0724.zip)
+<a href="/img/products/wiz550s2e/wiznet_configuration_tool_ver1.10.zip" target="_blank">Ver 1.10</a>  
+<a href="/img/products/wiz550sr/wiz550sr_download/wiznet_configuration_tool_ver1.03.zip" target="_blank">Ver 1.03</a>  
+<a href="/img/products/wiz550s2e/wiznet_configuration_tool_ver1.02.zip" target="_blank">Ver 1.02</a>  
+<a href="/img/products/wiz550s2e/wiz550s2e_configuration_tool_ver1.00_0724.zip" target="_blank">Ver 1.00</a>
 
 
 ### Configuration Tool 실행 가이드

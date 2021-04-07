@@ -420,7 +420,7 @@ Source Current</td>
 
   - WIZ550SR Ref Schematic : <a href="/img/products/wiz550sr/wiz550sr_ds/wiz550sr_v100_ref_sch_160526.pdf" target="_blank">Download</a>  
     ### WIZ550SR Schematic
-  - WIZ550SR V1.0 Schematic : [Download(Altium)](/img/products/wiz550sr/wiz550sr_ds/wiz550sr_sch_v100.zip)  
+  - WIZ550SR V1.0 Schematic : <a href="/img/products/wiz550sr/wiz550sr_ds/wiz550sr_sch_v100.zip" target="_blank">Download(Altium)</a>  
     * WIZ550SR V1.0 Schematic : <a href="/img/products/wiz550sr/wiz550sr_ds/wiz550sr_sch_v100.pdf" target="_blank">Download(PDF)</a>  
 
 ### WIZ550SR BOM
@@ -429,7 +429,7 @@ Source Current</td>
   
 ### WIZ550SR EVB Schematic
 
-  - WIZ550SR EVB V1.0 Schematic : [Download(Altium)](/img/products/wiz550sr/wiz550sr_ds/wiz550sr_evb_sch_v100.zip)  
+  - WIZ550SR EVB V1.0 Schematic : <a href="/img/products/wiz550sr/wiz550sr_ds/wiz550sr_evb_sch_v100.zip" target="_blank">Download(Altium)</a>  
   * WIZ550SR EVB V1.0 Schematic : <a href="/img/products/wiz550sr/wiz550sr_ds/wiz550sr_evb_sch_v100.pdf" target="_blank">Download(PDF)</a>  
 
 ### WIZ550SR EVB BOM

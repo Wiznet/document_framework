@@ -8,7 +8,7 @@ date: 2020-05-06
 
 | FW Version | Hardware | Date       | Download                                                                         | Description    |
 | ---------- | -------- | ---------- | -------------------------------------------------------------------------------- | -------------- |
-| 1.0.3.3    | Rev 1.0  | 2015-02-16 | [1.0.3.3](/img/products/wizfi250/wizfi250firmware/wizfi250_1.0.3.3.zip)/Application | latest release |
+| 1.0.3.3    | Rev 1.0  | 2015-02-16 | <a href="/img/products/wizfi250/wizfi250firmware/wizfi250_1.0.3.3.zip" target="_blank">1.0.3.3</a>/Application | latest release |
 
 -----
 
@@ -16,14 +16,14 @@ date: 2020-05-06
 
 | FW Version | Hardware | Date       | Download                                                                         | Description    |
 | ---------- | -------- | ---------- | -------------------------------------------------------------------------------- | -------------- |
-| 1.0.0.0    | Rev 1.0  | 2014-01-16 | [1.0.0.0](/img/products/wizfi250/wizfi250firmware/wizfi250_1.0.0.0.zip)/Application |                |
-| 1.0.1.1    | Rev 1.0  | 2014-05-12 | [1.0.1.1](/img/products/wizfi250/wizfi250firmware/wizfi250_1.0.1.1.zip)/Application |                |
-| 1.0.1.8    | Rev 1.0  | 2014-08-06 | [1.0.1.8](/img/products/wizfi250/wizfi250firmware/wizfi250_1.0.1.8.zip)/Application |                |
-| 1.0.3.1    | Rev 1.0  | 2015-01-16 | [1.0.3.1](/img/products/wizfi250/wizfi250firmware/wizfi250_1.0.3.1.zip)/Application |                |
-| 1.0.3.3    | Rev 1.0  | 2015-02-16 | [1.0.3.3](/img/products/wizfi250/wizfi250firmware/wizfi250_1.0.3.3.zip)/Application |                |
-| 1.0.4.2    | Rev 1.0  | 2015-07-01 | [1.0.4.2](/img/products/wizfi250/wizfi250firmware/wizfi250_1.0.4.2.zip)/Application |                |
-| 1.0.4.9    | Rev 1.0  | 2015-12-04 | [1.0.4.9](/img/products/wizfi250/wizfi250firmware/wizfi250_1.0.4.9.zip)/Application | latest release |
-| 1.0.5.2    | Rev 1.0  | 2016-06-30 | [1.0.5.2](/img/products/wizfi250/wizfi250firmware/wizfi250_1.0.5.2.zip)/Application | Beta version   |
+| 1.0.0.0    | Rev 1.0  | 2014-01-16 | <a href="/img/products/wizfi250/wizfi250firmware/wizfi250_1.0.0.0.zip" target="_blank">1.0.0.0</a>/Application |                |
+| 1.0.1.1    | Rev 1.0  | 2014-05-12 | <a href="/img/products/wizfi250/wizfi250firmware/wizfi250_1.0.1.1.zip" target="_blank">1.0.1.1</a>/Application |                |
+| 1.0.1.8    | Rev 1.0  | 2014-08-06 | <a href="/img/products/wizfi250/wizfi250firmware/wizfi250_1.0.1.8.zip" target="_blank">1.0.1.8</a>/Application |                |
+| 1.0.3.1    | Rev 1.0  | 2015-01-16 | <a href="/img/products/wizfi250/wizfi250firmware/wizfi250_1.0.3.1.zip" target="_blank">1.0.3.1</a>/Application |                |
+| 1.0.3.3    | Rev 1.0  | 2015-02-16 | <a href="/img/products/wizfi250/wizfi250firmware/wizfi250_1.0.3.3.zip" target="_blank">1.0.3.3</a>/Application |                |
+| 1.0.4.2    | Rev 1.0  | 2015-07-01 | <a href="/img/products/wizfi250/wizfi250firmware/wizfi250_1.0.4.2.zip" target="_blank">1.0.4.2</a>/Application |                |
+| 1.0.4.9    | Rev 1.0  | 2015-12-04 | <a href="/img/products/wizfi250/wizfi250firmware/wizfi250_1.0.4.9.zip" target="_blank">1.0.4.9</a>/Application | latest release |
+| 1.0.5.2    | Rev 1.0  | 2016-06-30 | <a href="/img/products/wizfi250/wizfi250firmware/wizfi250_1.0.5.2.zip" target="_blank">1.0.5.2</a>/Application | Beta version   |
 
 ## Update History
 

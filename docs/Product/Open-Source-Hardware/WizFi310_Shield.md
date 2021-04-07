@@ -145,7 +145,7 @@ Pinmap](/img/osh/wizfi310_shield/wizfi310_shield_pinmap.png)
 
 #### Schematic
 
-  - [WizFi310 Shield Schematic(Altium)](/img/osh/wizfi310_shield/wizfi310_shield_sch_v100.zip)
+  - <a href="/img/osh/wizfi310_shield/wizfi310_shield_sch_v100.zip" target="_blank">WizFi310 Shield Schematic(Altium)</a>
   - <a href="/img/osh/wizfi310_shield/wizfi310_shield_sch_v100.pdf" target="_blank">WizFi310 Shield Schematic(PDF)</a>
     #### Partlist
 

@@ -17,10 +17,10 @@ ULINK Debugger and CMSIS-DAP Debugger.
 ### Download
 
   * W7500 128KB Flash project:
-[Download](/img/products/w7500/overview/w7500_128kb_flash.zip)
+<a href="/img/products/w7500/overview/w7500_128kb_flash.zip" target="_blank">Download</a>
 
   * W7500 128KB Flash file:
-[Download](/img/products/w7500/overview/w7500_128_flm.zip)
+<a href="/img/products/w7500/overview/w7500_128_flm.zip" target="_blank">Download</a>
 
 
 ### To follow

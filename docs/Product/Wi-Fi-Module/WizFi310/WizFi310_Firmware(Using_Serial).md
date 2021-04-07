@@ -8,7 +8,7 @@ date: 2020-05-13
 
 | FW Version | Hardware | Date       | Download                                                                                 | Description    |
 | ---------- | -------- | ---------- | ---------------------------------------------------------------------------------------- | -------------- |
-| 1.0.3.3    | Rev 1.0  | 2017-04-21 | [1.0.3.3](/img/products/wizfi310/wizfi310firmware/firmware_serial_v1_0_3_3.zip)/Application | latest release |
+| 1.0.3.3    | Rev 1.0  | 2017-04-21 | <a href="/img/products/wizfi310/wizfi310firmware/firmware_serial_v1_0_3_3.zip" target="_blank">1.0.3.3</a>/Application | latest release |
 
 -----
 
@@ -16,8 +16,8 @@ date: 2020-05-13
 
 | FW Version | Hardware | Date       | Download                                                                                 | Description    |
 | ---------- | -------- | ---------- | ---------------------------------------------------------------------------------------- | -------------- |
-| 1.0.0.0    | Rev 1.0  | 2016-06-17 | [1.0.0.0](/img/products/wizfi310/wizfi310firmware/firmware_serial_v1_0_0_0.zip)/Application |                |
-| 1.0.3.3    | Rev 1.0  | 2017-04-22 | [1.0.3.3](/img/products/wizfi310/wizfi310firmware/firmware_serial_v1_0_3_3.zip)/Application | latest release |
+| 1.0.0.0    | Rev 1.0  | 2016-06-17 | <a href="/img/products/wizfi310/wizfi310firmware/firmware_serial_v1_0_0_0.zip" target="_blank">1.0.0.0</a>/Application |                |
+| 1.0.3.3    | Rev 1.0  | 2017-04-22 | <a href="/img/products/wizfi310/wizfi310firmware/firmware_serial_v1_0_3_3.zip" target="_blank">1.0.3.3</a>/Application | latest release |
 
 ## Update History
 
@@ -43,7 +43,7 @@ date: 2020-05-13
 
 | Version | Date       | Download                                                                                      | Description |
 | ------- | ---------- | --------------------------------------------------------------------------------------------- | ----------- |
-| 1.0.0.0 | 2016-06-17 | [1.0.0.0](/img/products/wizfi310/wizfi310firmware/wizfi310_update_tool_v1.0.0.0.zip)/Application |             |
+| 1.0.0.0 | 2016-06-17 | <a href="/img/products/wizfi310/wizfi310firmware/wizfi310_update_tool_v1.0.0.0.zip" target="_blank">1.0.0.0</a>/Application |             |
 
 ## Guide for using upgrade tool
 

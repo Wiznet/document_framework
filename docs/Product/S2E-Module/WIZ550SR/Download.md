@@ -13,12 +13,12 @@ date: 2020-04-16
   - **Full Binary (Boot + App), Uesing the Flash Loader Demonstrator**
 
   - **Full Binary (App Boot + App)**  
-[Download (Boot + App)](/img/products/wiz550sr/wiz550sr_download/wiz550sr_160531.zip)  
+<a href="/img/products/wiz550sr/wiz550sr_download/wiz550sr_160531.zip" target="_blank">Download (Boot + App)</a>  
 
   - **App Binary (App), Uesing the WIZnet Configuration Tool**
 
 **App Binary (App)**  
-[Download (App)](/img/products/wiz550sr/wiz550sr_download/wiz550sr_app_160531.zip)  
+<a href="/img/products/wiz550sr/wiz550sr_download/wiz550sr_app_160531.zip" target="_blank">Download (App)</a>  
 
 
 ### Source code (with web pages)
@@ -47,7 +47,7 @@ Install JAVA Runtime Environment
 
 **WIZnet Configuration Tool
 Version 1.0.3**  
-[Download (zip)](/img/products/wiz550sr/wiz550sr_download/wiznet_configuration_tool_ver1.03.zip)
+<a href="/img/products/wiz550sr/wiz550sr_download/wiznet_configuration_tool_ver1.03.zip" target="_blank">Download (zip)</a>
 
 
 -----
@@ -94,7 +94,7 @@ Therefore, Write firmware must use the program provided by STmicro.
 <http://www.wiznet.co.kr/product/serial-to-ethernet>**
 
 **WIZnet WIZ VSP**  
-[WIZ VSP Program (zip)](/img/products/wiz750sr/wizvsp_tool.zip)
+<a href="/img/products/wiz750sr/wizvsp_tool.zip" target="_blank">WIZ VSP Program (zip)</a>
 
 -----
 

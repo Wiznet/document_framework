@@ -190,7 +190,7 @@ should select interface mode and kind of chip.
 #define WIZ_LOG_LEVEL   2       // 0: No print,  1: Error,  2: Error+Log,  3: Error+Log+Debug
 ```
 
-**[Download:](/img/osh/cookie/w5500_cookie_v100.zip)
+**<a href="/img/osh/cookie/w5500_cookie_v100.zip" target="_blank">Download:</a>
 
  - Enter the menu (view \> Configuration)
 
@@ -272,7 +272,7 @@ Advanced. Click Advanced.. button.
 ## TCP Server Loopback
 
 -----
-** Download : [Project download](/img/osh/cookie/w5500_cookie_v100.zip),[Hercules test program](http://www.hw-group.com/products/hercules/index_en.html) **
+** Download : <a href="/img/osh/cookie/w5500_cookie_v100.zip" target="_blank">Project download</a>,[Hercules test program](http://www.hw-group.com/products/hercules/index_en.html) **
 
  - Select TCP Client tab in Hercules and type Server IP address
 displaying in Tera Term at Module IP and port number box.

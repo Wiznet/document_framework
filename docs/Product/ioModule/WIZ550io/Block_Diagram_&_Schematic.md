@@ -14,8 +14,8 @@ date: 2020-04-15
 
 ## PCB
 
-  - Revision 1.2 [WIZ550io Rev1.2 PCB(Altium)](/img/products/wiz550io/wiz550io_v1.2.zip)
-  - Revision 1.3 [WIZ550io Rev1.3 PCB(Altium)](/img/products/wiz550io/wiz550io_v1.3.zip)
+  - Revision 1.2 <a href="/img/products/wiz550io/wiz550io_v1.2.zip" target="_blank">WIZ550io Rev1.2 PCB(Altium)</a>
+  - Revision 1.3 <a href="/img/products/wiz550io/wiz550io_v1.3.zip" target="_blank">WIZ550io Rev1.3 PCB(Altium)</a>
 
 ## Partlist
 

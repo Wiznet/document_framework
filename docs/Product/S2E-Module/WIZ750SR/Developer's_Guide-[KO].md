@@ -179,8 +179,7 @@ Erase 옵션이 선택된 경우, Data flash block에 위치한 MAC 주소 및 �
 MAC 주소는 다음 과정을 통해 재입력 할 수 있습니다.
 
 :::note
-[Download the WizMACTool
-Program](/img/products/wiz750sr/developers/restore-mac/wizmactool_v20151127.zip)  
+<a href="/img/products/wiz750sr/developers/restore-mac/wizmactool_v20151127.zip" target="_blank">Download the WizMACTool Program</a>  
 :::
 
 MAC 주소 재 입력 과정은 WIZ750SR의 Debug UART (ISP port)를 통해 이루어집니다. 따라서 Windows

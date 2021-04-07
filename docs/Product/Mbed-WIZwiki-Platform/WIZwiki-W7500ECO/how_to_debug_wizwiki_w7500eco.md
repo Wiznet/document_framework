@@ -15,9 +15,9 @@ shows how to set Flash Algorithm and how to use CMSIS-DAP Debugger.
 ### Download
 
 * W7500 128KB Flash project:
-[Download](/img/products/wizwiki_w7500/start_getting_started/w7500_128KB_flash.zip)
+<a href="/img/products/wizwiki_w7500/start_getting_started/w7500_128KB_flash.zip" target="_blank">Download</a>
 * W7500 128KB Flash file:
-[Download](/img/products/wizwiki_w7500/start_getting_started/w7500_128_flm.zip)
+<a href="/img/products/wizwiki_w7500/start_getting_started/w7500_128_flm.zip" target="_blank">Download</a>
 
 ### To follow
 

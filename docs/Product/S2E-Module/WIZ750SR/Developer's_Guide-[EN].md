@@ -194,8 +194,7 @@ including MAC address will also be deleted. At this time, the MAC
 address can be re-entered through the following procedure.
 
 :::note
-[Download the WizMACTool
-Program](/img/products/wiz750sr/developers/restore-mac/wizmactool_v20151127.zip)  
+<a href="/img/products/wiz750sr/developers/restore-mac/wizmactool_v20151127.zip" target="_blank">Download the WizMACTool Program</a>  
 :::
 
 MAC address re-entry process is performed through Debug UART (ISP port)

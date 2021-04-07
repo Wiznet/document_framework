@@ -96,10 +96,10 @@ V1.3 Boot + V1.2.x App : **Not Working.**
 
 **Application Firmware Binary
 (ConfigTool)**  
-[Application v2.1.0](/img/products/wiz750sr/download/wiz752sr_app_v2.1.0.zip)
+<a href="/img/products/wiz750sr/download/wiz752sr_app_v2.1.0.zip" target="_blank">Application v2.1.0</a>
 
 **All(boot+app) Firmware Binary (WIZISP)**  
-[All v2.1.0](/img/products/wiz750sr/download/wiz752sr_all_v2.1.0.zip)
+<a href="/img/products/wiz750sr/download/wiz752sr_all_v2.1.0.zip" target="_blank">All v2.1.0</a>
 
 ### Source code
 

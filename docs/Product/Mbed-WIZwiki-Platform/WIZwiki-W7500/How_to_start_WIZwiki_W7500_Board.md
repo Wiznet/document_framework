@@ -72,4 +72,4 @@ WIZwiki-W7500.
 8. If you can do everything well, then your WIZwiki-W7500 doesn't have
 any problem.
 
-   * [Hardware test binany download](/img/products/w7500/overview/w7500x_wztoe_manu.zip)
+   * <a href="/img/products/w7500/overview/w7500x_wztoe_manu.zip" target="_blank">Hardware test binany download</a>
