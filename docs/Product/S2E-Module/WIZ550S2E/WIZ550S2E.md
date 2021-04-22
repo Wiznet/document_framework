@@ -15,7 +15,7 @@ versa.
 ## Datasheet / Hardware information
 
 [한글](datasheet_kor)  
-[English](Datasheet(Eng).md)  
+[English](datasheet_eng)  
 [中文](datasheet_chn) 
 
 ## Programmer's Guide 

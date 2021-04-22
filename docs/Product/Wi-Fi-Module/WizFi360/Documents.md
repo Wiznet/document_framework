@@ -161,12 +161,12 @@ AT command. WizFi360 basically provides a command compatible with
 ESP8266. In addition, commands are provided for using MQTT and Azure IoT
 Hub.
 
-- <a href="/img/products/wizfi360/wizfi360ds/wizfi360_atset_v1111e.pdf" target="_blank">AT Instruction set V1.1.1.1 - English</a>
-- <a href="/img/products/wizfi360/wizfi360ds/wizfi360_atset_v1111k.pdf" target="_blank">AT Instruction set V1.1.1.1 - Korean</a>
+- <a href="/img/products/wizfi360/wizfi360ds/wizfi360_atset_v1112e.pdf" target="_blank">AT Instruction set V1.1.1.2 - English</a>
+- <a href="/img/products/wizfi360/wizfi360ds/wizfi360_atset_v1112k.pdf" target="_blank">AT Instruction set V1.1.1.2 - Korean</a>
 
 | Version   | Date    | Decription                                                                     |
 | --------- | ------- | ------------------------------------------------------------------------------ |
-| V 1.1.1.1 | JAN2021 | Modify AT+MQTTCON                                                              |
+| V 1.1.1.2 | 22APR2021 | Add AT+AWSCON, AT+AWSPKSEND, AT+CLICASEND                                    |
 
 **Old Datasheet History**
 
@@ -181,18 +181,20 @@ Hub.
 | V 1.0.6 | OCT2019 | Add Azure commands, AT+SSLCONF command and AT+CASEND command, Fix typo, Add Command History |
 | V 1.0.7 | MAR2020 | Add AT+WIZ\_NETCONFIG, Modify AT+CWSTARTSMART, Modify minor typos and error                 |
 | V 1.0.7.2 | MAR2020 | Modify AT+WIZ\_NETCONFIG, Modify AT+CWSTARTSMART, Modify minor typos and error            |
+| V 1.1.1.1 | JAN2021 | Modify AT+MQTTCON                                                                         |
 
 ### AT Command Comparison Sheet
 
 The AT Command Comparison Sheet provides comparison
 with ESP8266 AT command.
 
-- <a href="/img/products/wizfi360/wizfi360ds/wizfi360_atcp_v101.pdf" target="_blank">AT Command Comparison Sheet V1.0.1</a>
+- <a href="/img/products/wizfi360/wizfi360ds/wizfi360_atcp_v102.pdf" target="_blank">AT Command Comparison Sheet V1.0.2</a>
 
 | Version | Date    | Decription                                                             |
 | ------- | ------- | ---------------------------------------------------------------------- |
 | V1.0.0  | AUG2019 | Initial Release                                                        |
 | V1.0.1  | OCT2019 | Modify AT+CIPSSLCCONF and Add AT+AZCON, AT+AZSET and AT+CASEND command |
+| V1.0.2  | APR2021 | Add AT+AWSCON, AT+AWSPKSEND and AT+CLICASEND command                   |
 
 ### AT Command examples
 
