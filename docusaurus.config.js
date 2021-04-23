@@ -137,7 +137,8 @@ module.exports = {
       '@docusaurus/preset-classic',
       {
         docs: {
-          routeBasePath:'/',
+          // try comment
+          //routeBasePath:'/',
           sidebarPath: require.resolve('./sidebars.js'),
           editUrl:
             'https://github.com/Wiznet/document_framework/tree/master/',
