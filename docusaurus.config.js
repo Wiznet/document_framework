@@ -143,9 +143,9 @@ module.exports = {
             'https://github.com/Wiznet/document_framework/tree/master/',
         },
         //SITEMAP TRY//////////////////////////////////////////////////////////////////////////
-//         sitemap:{
-//                   trailingSlash: false,
-//         },
+        sitemap:{
+                   trailingSlash: false,
+         },
         theme: {
           customCss: require.resolve('./src/css/custom.css'),
         },
