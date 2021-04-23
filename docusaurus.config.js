@@ -137,7 +137,7 @@ module.exports = {
       '@docusaurus/preset-classic',
       {
         docs: {
-          // try comment
+          // try commenting routepath
           //routeBasePath:'/',
           sidebarPath: require.resolve('./sidebars.js'),
           editUrl:
