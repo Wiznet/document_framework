@@ -145,9 +145,9 @@ module.exports = {
         theme: {
           customCss: require.resolve('./src/css/custom.css'),
         },
-                //SITEMAP TRY//////////////////////////////////////////////////////////////////////////
-        sitemap:{
-                   trailingSlash: false,
+//                 //SITEMAP TRY//////////////////////////////////////////////////////////////////////////
+//         sitemap:{
+//                    trailingSlash: false,
          },
       },
     ],
