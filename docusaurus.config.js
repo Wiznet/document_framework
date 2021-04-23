@@ -132,17 +132,6 @@ module.exports = {
       copyright: `Copyright © ${new Date().getFullYear()} WIZnet Co., Ltd. Built with Docusaurus.`,
     },
   },
-  //PLUGINS TRY 
-    plugins: [
-    [
-      '@docusaurus/plugin-sitemap',
-      {
-//         changefreq: 'weekly',
-//         priority: 0.5,
-        trailingSlash: false,
-      },
-    ],
-  ],
   presets: [
     [
       '@docusaurus/preset-classic',
@@ -152,6 +141,10 @@ module.exports = {
           sidebarPath: require.resolve('./sidebars.js'),
           editUrl:
             'https://github.com/Wiznet/document_framework/tree/master/',
+        },
+        //SITEMAP TRY//////////////////////////////////////////////////////////////////////////
+        sitemap:{
+                  trailingSlash: false,
         },
         theme: {
           customCss: require.resolve('./src/css/custom.css'),
