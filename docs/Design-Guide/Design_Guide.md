@@ -17,7 +17,7 @@ using WIZnet's chips.: easily, quickly, accurately
 
 ## Design Guide List
 
-  - [Hardware Design Guide](/Design-Guide/Hardware_Design_Guide.md)
+  - [Hardware Design Guide](/Design-Guide/hardware_design_guide)
   - [Package Information](/Design-Guide/package_information.md)
   - [IR Reflow profile](/Design-Guide/ir_reflow_profile)
   - [Eagle CAD Library of WIZnet Products](/Design-Guide/eagle_cad_library_of_wiznet_products.md)
