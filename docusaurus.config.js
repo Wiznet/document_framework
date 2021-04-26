@@ -1,4 +1,4 @@
-//docusaurus.config.js for Custom Landing Page
+//docusaurus.config.js for Custom Landing Page using javascript(index.js)
 
 module.exports = {
   title: 'WIZnet Document System',
