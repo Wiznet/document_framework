@@ -5,7 +5,7 @@ module.exports = {
   tagline: 'Welcome to new WIZnet Document System!',
   //url: 'https://wiznet.github.io',
   url: 'https://docs.wiznet.io',
-  baseUrl: '',
+  baseUrl: '/',
   onBrokenLinks: 'ignore',
   onDuplicateRoutes: 'ignore',
   favicon: 'img/wizfavicon.ico',
@@ -137,7 +137,7 @@ module.exports = {
       '@docusaurus/preset-classic',
       {
         docs: {
-          routeBasePath:'/Products',
+          routeBasePath:'/',
           sidebarPath: require.resolve('./sidebars.js'),
           editUrl:
             'https://github.com/Wiznet/document_framework/tree/master/',
