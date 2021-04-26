@@ -1,4 +1,4 @@
-//docusaurus.config.js for Docs only Mode
+//docusaurus.config.js for Docs only Mode test with non docs only
 
 module.exports = {
   title: 'WIZnet Document System',
