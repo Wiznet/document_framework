@@ -2,7 +2,7 @@
 id: products
 title: Products
 date: 2020-04-30
-slug: /
+slug: /Products
 ---
 
 ## iMCU
