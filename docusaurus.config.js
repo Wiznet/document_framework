@@ -149,6 +149,10 @@ module.exports = {
 //         sitemap:{
 //                    trailingSlash: false,
 //         },
+        //                 //SITEMAP TRY//////////////////////////////////////////////////////////////////////////
+        sitemap:{
+//
+        },
       },
     ],
   ],
