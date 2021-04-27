@@ -145,16 +145,21 @@ module.exports = {
         theme: {
           customCss: require.resolve('./src/css/custom.css'),
         },
-//                 //SITEMAP TRY//////////////////////////////////////////////////////////////////////////
+//                 //SITEMAP TRY-1//////////////////////////////////////////////////////////////////////////
 //         sitemap:{
 //                    trailingSlash: false,
 //         },
-        //                 //SITEMAP TRY//////////////////////////////////////////////////////////////////////////
-        sitemap:{
-                 changefreq: 'weekly',
-        priority: 0.5,
-        trailingSlash: false,
-        },
+      },
+    ],
+  ],
+//                 //SITEMAP TRY-2//////////////////////////////////////////////////////////////////////////
+    plugins: [
+    [
+      '@docusaurus/plugin-sitemap',
+      {
+//         changefreq: 'weekly',
+//         priority: 0.5,
+//         trailingSlash: false,
       },
     ],
   ],
