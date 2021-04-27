@@ -1,6 +1,18 @@
 //docusaurus.config.js for Docs only Mode test with non docs only
 
 module.exports = {
+  //                 //SITEMAP TRY-2//////////////////////////////////////////////////////////////////////////
+    plugins: [
+    [
+      '@docusaurus/plugin-sitemap',
+      {
+        changefreq: 'weekly',
+        priority: 0.5,
+        trailingSlash: false,
+      },
+    ],
+  ],
+  ////////////////////////////////////////////////////////////////////////////////////////////////////////////
   title: 'WIZnet Document System',
   tagline: 'Welcome to new WIZnet Document System!',
   //url: 'https://wiznet.github.io',
@@ -149,17 +161,6 @@ module.exports = {
 //         sitemap:{
 //                    trailingSlash: false,
 //         },
-      },
-    ],
-  ],
-//                 //SITEMAP TRY-2//////////////////////////////////////////////////////////////////////////
-    plugins: [
-    [
-      '@docusaurus/plugin-sitemap',
-      {
-        changefreq: 'weekly',
-        priority: 0.5,
-        trailingSlash: false,
       },
     ],
   ],
