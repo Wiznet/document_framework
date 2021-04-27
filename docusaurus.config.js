@@ -151,7 +151,9 @@ module.exports = {
 //         },
         //                 //SITEMAP TRY//////////////////////////////////////////////////////////////////////////
         sitemap:{
-         trailingSlash: false
+                 changefreq: 'weekly',
+        priority: 0.5,
+        trailingSlash: false,
         },
       },
     ],
