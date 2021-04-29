@@ -138,15 +138,15 @@ module.exports = {
     },
 	{
         type: 'category',
-        label: 'Pre-Programmed MCU',
+        label: 'Pre-programmed MCU',
         items: [
-			'Product/Pre-Programmed-MCU/pre_programmed_mcu',
+			'Product/Pre-programmed-MCU/pre_programmed_mcu',
 			{
 				type: 'category',
 				label: 'W7500P-S2E',
 				items: [
-					'Product/Pre-Pogrammed-MCU/W7500P-S2E/w7500p-s2e-[EN]',
-					'Product/Pre-Programmed-MCU/W7500P-S2E/w7500p-s2e-[KO]',
+					'Product/Pre-programmed-MCU/W7500P-S2E/w7500p-s2e-[EN]',
+					'Product/Pre-programmed-MCU/W7500P-S2E/w7500p-s2e-[KO]',
 				],
 			},	
 		],
