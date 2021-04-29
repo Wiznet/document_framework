@@ -1,6 +1,6 @@
 ---
 id: pre_programmed_mcu
-title: Pre-programmed MCU
+title: Pre-programmed-MCU
 date: 2020-04-07
 ---
 
