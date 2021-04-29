@@ -2,7 +2,6 @@
 id: design_guide
 title: Design Guide
 date: 2020-04-03
-<!---slug: /Design_Guide--->
 ---
 
 
@@ -17,10 +16,10 @@ using WIZnet's chips.: easily, quickly, accurately
 
 ## Design Guide List
 
-  - [Hardware Design Guide](/Design-Guide/hardware_design_guide)
-  - [Package Information](/Design-Guide/package_information.md)
-  - [IR Reflow profile](/Design-Guide/ir_reflow_profile)
-  - [Eagle CAD Library of WIZnet Products](/Design-Guide/eagle_cad_library_of_wiznet_products.md)
+  - [Hardware Design Guide](hardware_design_guide)
+  - [Package Information](package_information)
+  - [IR Reflow profile](ir_reflow_profile)
+  - [Eagle CAD Library of WIZnet Products](eagle_cad_library_of_wiznet_products)
 
 -----
 
