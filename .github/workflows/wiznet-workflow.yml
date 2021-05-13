@@ -1,29 +1,46 @@
-name: Docusaurus on Windows
+# .github/workflows/deploy.yml
+
+name: github pages
 
 on:
   push:
     branches:
-      - master  # Set a branch name to trigger deployment
+      - main
+    paths:
+      - '.github/workflows/deploy.yml'
+      - 'website/**'
 
 jobs:
   deploy:
     runs-on: ubuntu-18.04
+    defaults:
+      run:
+        working-directory: website
     steps:
       - uses: actions/checkout@v2
-        with:
-          submodules: true  # Fetch Hugo themes (true OR recursive)
-          fetch-depth: 0    # Fetch all history for .GitInfo and .Lastmod
 
-      - name: Setup Hugo
-        uses: peaceiris/actions-hugo@v2
+      - name: Setup Node
+        uses: actions/setup-node@v2.1.2
         with:
-          hugo-version: '0.79.1'
+          node-version: '12.x'
 
-      - name: Build
-        run: hugo --minify
+      - name: Get yarn cache
+        id: yarn-cache
+        run: echo "::set-output name=dir::$(yarn cache dir)"
+
+      - name: Cache dependencies
+        uses: actions/cache@v2
+        with:
+          path: ${{ steps.yarn-cache.outputs.dir }}
+          key: ${{ runner.os }}-website-${{ hashFiles('**/yarn.lock') }}
+          restore-keys: |
+            ${{ runner.os }}-website-
+
+      - run: yarn install --frozen-lockfile
+      - run: yarn build
 
       - name: Deploy
         uses: peaceiris/actions-gh-pages@v3
         with:
           github_token: ${{ secrets.GITHUB_TOKEN }}
-          publish_dir: ./build
+          publish_dir: ./website/build
