@@ -24,18 +24,14 @@ Ethernet Shield is compatible with Arduino and ARM mbed Platform.
         mbed platform Site
       - 🌎[FRDM-KL25Z](http://developer.mbed.org/platforms/KL25Z/) :
         Freescale
-      - 🌎[NXP
-        LPC800-MAX](http://developer.mbed.org/platforms/NXP-LPC800-MAX/)
+      - 🌎[NXP LPC800-MAX](http://developer.mbed.org/platforms/NXP-LPC800-MAX/)
         : NXP
   - Arduino Board
-      - 🌎[Arduino board (e.g. the Uno, Mega,
-        Due)](http://www.arduino.cc/en/Main/Products)
-      - 🌎[Arduino
-        Leonardo](http://arduino.cc/en/Main/ArduinoBoardLeonardo)
+      - 🌎[Arduino board (e.g. the Uno, Mega, Due)](http://www.arduino.cc/en/Main/Products)
+      - 🌎[Arduino Leonardo](http://arduino.cc/en/Main/ArduinoBoardLeonardo)
   - Arduino-compatible Board
       - 🌎[Seeeduino v3.0](http://www.seeedstudio.com/wiki/Seeeduino_v3.0)
-        : Based on 🌎[Arduino
-        Duemilanove](http://arduino.cc/en/Main/ArduinoBoardDuemilanove)
+        : Based on 🌎[Arduino Duemilanove](http://arduino.cc/en/Main/ArduinoBoardDuemilanove)
 
 -----
 
@@ -150,8 +146,7 @@ to the chip's datasheet:
 
 **Part list**
 
-  - [W5500 Ethernet shield Rev1.0 Part
-    list](/img/osh/w5500_ethernet_shield/w5500_ethernet_shield_v1.0_pl_150414.xlsx)
+  - [W5500 Ethernet shield Rev1.0 Part list](/img/osh/w5500_ethernet_shield/w5500_ethernet_shield_v1.0_pl_150414.xlsx)
 
 **Dimension**
 

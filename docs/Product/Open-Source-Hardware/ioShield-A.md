@@ -19,7 +19,7 @@ default IP address and can be pinged from user’s computer.
 
 As ioShield uses W5500 chipset, instead of W5100 which was used before
 in the Arduino Ethernet Shield, users needs to use [WIZnet Ethernet
-Library]().
+Library](/).
 
 ## Available Board List
 

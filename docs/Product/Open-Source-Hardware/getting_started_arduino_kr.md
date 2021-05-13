@@ -1,6 +1,6 @@
 ---
 id: getting_started_arduino_kr
-title: Getting Started for Arduino
+title: Getting Started for Arduino (KR)
 date: 2020-04-03
 ---
 

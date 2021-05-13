@@ -113,8 +113,7 @@ steps: (WIZ750SR-EVB Rev1.0)
 Users can use the ISP Tool to update the WIZ750SR firmware.
 
 :::note
-[Go to ISP tool manual & Program
-download](/img/products/w7500/documents/appnote/isptool)  
+[Go to ISP tool manual & Program download](/img/products/w7500/documents/appnote/isptool)  
 :::
 
 Connect the device to PC using the USB type B cable and change the power
@@ -134,8 +133,7 @@ If the driver does not install
 automatically, download the device driver from below link and install
 it.
 
-[CP210x Driver download
-page](https://www.silabs.com/products/development-tools/software/usb-to-uart-bridge-vcp-drivers)
+[CP210x Driver download page](https://www.silabs.com/products/development-tools/software/usb-to-uart-bridge-vcp-drivers)
 :::
 
 -----
@@ -202,16 +200,14 @@ of WIZ750SR device. So, check the COM port number of the connected
 device. Open the Device Manager and check the COM port number of
 'Silicon Labs CP210x USB to UART Bridge (COMX)'.
 
-![Device
-Manager](/img/products/wiz750sr/developerguide/isptool/en_device_manager.png)
+![Device Manager](/img/products/wiz750sr/developerguide/isptool/en_device_manager.png)
 
 :::note
 If the driver does not install
 automatically, download the device driver from below link and install
 it.
 
-[CP210x Driver download
-page](https://www.silabs.com/products/development-tools/software/usb-to-uart-bridge-vcp-drivers)
+[CP210x Driver download page](https://www.silabs.com/products/development-tools/software/usb-to-uart-bridge-vcp-drivers)
 :::
 
 **1. Switch your WIZ750SR to normal mode**

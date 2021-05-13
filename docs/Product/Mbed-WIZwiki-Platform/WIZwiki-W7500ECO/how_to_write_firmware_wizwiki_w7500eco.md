@@ -27,8 +27,7 @@ recognized as a removable disk. Removable disk name is MBED.
 
 2. You "drag and drop" or copy the firmware to the removable disk, the
 firmware writing progress has completed.  
-![Drag and
-drop](/img/products/wizwiki_w7500/start_getting_started/drap_n_drop.png)
+![Drag and drop](/img/products/wizwiki_w7500/start_getting_started/drap_n_drop.png)
 
 3. After completing the firmware writing, open to check the removable
 disk.

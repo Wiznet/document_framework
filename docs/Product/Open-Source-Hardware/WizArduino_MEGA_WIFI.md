@@ -12,7 +12,7 @@ date: 2020-04-03
 
 WizArduino MEGA WIFI는 Arduino의 🌎[MEGA 2560
 board](http://www.arduino.org/products/boards/arduino-mega-2560) 를 기반으로
-[WizFi310]() 가 추가되어 Arduino UNO 플랫폼처럼 간단하면서도
+[WizFi310](/) 가 추가되어 Arduino UNO 플랫폼처럼 간단하면서도
 IoT기능 구현을 위한 기본 기능을 가지고 있습니다.
 
 ![](/img/osh/wizarduino_mega_wifi/mega2560_wizfi310_1.png)
@@ -90,7 +90,7 @@ WizArduino MEGA WIFI내 WizFi310은 Main Chip(ATmega 2560)과 Serial로 연결�
 
 ``` c
     #include "WizFi310.h"
-    void setup()
+    void setup(/)
     {
         Serial3.begin(115200);
         WiFi.init(&Serial3);
@@ -183,7 +183,7 @@ GitHub와 아두이노 스케치에서 다운로드 및 설치 하는 방법에 
 
 <details><summary>WiFi 통신 거리는 어떻게 되나요?</summary>내부적으로 테스트한 결과 WizFi310은 개활지에서 최대 160m 까지 통신 가능합니다. (단, 이경우 사용하는 공유기의 안테나에 따른 성능 차이는 있습니다.)</details>
 
-<!-->  - [WizArduino WiFi에서 Software Serial 사용하는 방법?]()-->
+<!-->  - [WizArduino WiFi에서 Software Serial 사용하는 방법?](/)-->
 
 -----
 
@@ -192,8 +192,7 @@ GitHub와 아두이노 스케치에서 다운로드 및 설치 하는 방법에 
 
 
 ![WIZnet Online Shop](/img/osh/w5100s_ethernet_shield/start/buynow.png)  
-![WIZnetKorea Online Shop,
-Korea](/img/osh/w5100s_ethernet_shield/start/won.png)
+![WIZnetKorea Online Shop, Korea](/img/osh/w5100s_ethernet_shield/start/won.png)
 
 
 

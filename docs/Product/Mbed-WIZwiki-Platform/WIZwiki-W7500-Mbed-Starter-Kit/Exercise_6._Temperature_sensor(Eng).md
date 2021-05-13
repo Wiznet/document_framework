@@ -55,8 +55,8 @@ int main(void)
 {
     while (1)
     {
-        float V = ain.read() * 3.3; // connect Vs(Temp36) to 3.3V(WIZwiki-W7500) 
-        //float V = ain.read() * 5; // connect Vs(Temp36) to 5V(WIZwiki-W7500)
+        float V = ain.read(/) * 3.3; // connect Vs(Temp36) to 3.3V(WIZwiki-W7500) 
+        //float V = ain.read(/) * 5; // connect Vs(Temp36) to 5V(WIZwiki-W7500)
         
         float tempC = (V-0.5) * 100; // calculate temperature C
         float tempF = (tempC * 9 / 5) + 32.0; // calculate temperature F
@@ -81,7 +81,7 @@ The following is an example execution screen. Celsius and Fahrenheit temperature
 See the link below for temperature sensor data.
 
 
- * [Kit Configuration Data Sheet] () 
+ * [Kit Configuration Data Sheet] (/) 
 
 
 ## Related links

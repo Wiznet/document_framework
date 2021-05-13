@@ -133,14 +133,14 @@ firmware writing.
 
 
 
-   * [WIZwiki-W7500 V1.1 Schematic (Altium Designer)]()
+   * [WIZwiki-W7500 V1.1 Schematic (Altium Designer)](/)
    * <a href="/img/products/w7500/overview/wizwiki_w7500_v1.1.pdf" target="_blank">WIZwiki-W7500 V1.1 Schematic (PDF)</a>
 
   - **Schematic Version 1.0**
 
 
 
-   * [WIZwiki-W7500 V1.0 Schematic (Altium Designer)]()
+   * [WIZwiki-W7500 V1.0 Schematic (Altium Designer)](/)
    * <a href="/img/products/w7500/overview/wizwiki_w7500_sch_v1.0_150401.pdf" target="_blank">WIZwiki-W7500 V1.0 Schematic (PDF)</a>
 
 **Part list**
@@ -176,7 +176,7 @@ firmware writing.
 
 ## See Also
 
-   * 🌎 [WizWiki Forum]() : WIZnet Forum for Technical support and Project shared
+   * 🌎 [WizWiki Forum](/) : WIZnet Forum for Technical support and Project shared
    * [W7500 Documents Download](../../iMCU/W7500/Documents.md)
 
 -----

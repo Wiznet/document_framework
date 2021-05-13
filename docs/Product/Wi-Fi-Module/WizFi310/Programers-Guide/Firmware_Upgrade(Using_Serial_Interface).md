@@ -49,13 +49,13 @@ TeraTerm is terminal emulator. This software is open source software
 under BSD License. For more detailed information, Refer to it. 🌎(https://ttssh2.osdn.jp/) You can download TeraTerm at this URL. 🌎(https://en.osdn.jp/projects/ttssh2/releases/)
 
 In order to set for upgrading firmware, You can use
-[AT+MUPGRADE]()
+[AT+MUPGRADE](/)
 command.
 
 #### Step 1
 
 After enter
-[AT+MUPGRADE]()
+[AT+MUPGRADE](/)
 in TeraTerm after WizFi310 restart. It will display 'C' message as
 below.
 

@@ -181,8 +181,7 @@ if (Sn_RX_RSR0 != 0x0000) goto Receiving Process stage;
 Process the received UDP data in Internal RX memory.  
 The structure of received UDP data is as below.
 
-![The Received UDP data
-format](/img/products/w5500/application/received_udp_data.jpg)
+![The Received UDP data format](/img/products/w5500/application/received_udp_data.jpg)
 
 The received UDP data consists of 8bytes PACKET-INFO, and DATA packet.
 The PACKETINFO contains transmitter’s information (IP address, Port

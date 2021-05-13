@@ -23,18 +23,14 @@ Platform과 ARM mbed Platform에 호환되어 사용됩니다.
         mbed platform Site
       - [FRDM-KL25Z](http://developer.mbed.org/platforms/KL25Z/) :
         Freescale
-      - [NXP
-        LPC800-MAX](http://developer.mbed.org/platforms/NXP-LPC800-MAX/)
+      - [NXP LPC800-MAX](http://developer.mbed.org/platforms/NXP-LPC800-MAX/)
         : NXP
   - Arduino Board
-      - [Arduino board (e.g. the Uno, Mega,
-        Due)](http://www.arduino.cc/en/Main/Products)
-      - [Arduino
-        Leonardo](http://arduino.cc/en/Main/ArduinoBoardLeonardo)
+      - [Arduino board (e.g. the Uno, Mega, Due)](http://www.arduino.cc/en/Main/Products)
+      - [Arduino Leonardo](http://arduino.cc/en/Main/ArduinoBoardLeonardo)
   - Arduino-compatible Board
       - [Seeeduino v3.0](http://www.seeedstudio.com/wiki/Seeeduino_v3.0)
-        : Based on [Arduino
-        Duemilanove](http://arduino.cc/en/Main/ArduinoBoardDuemilanove)
+        : Based on [Arduino Duemilanove](http://arduino.cc/en/Main/ArduinoBoardDuemilanove)
 
 -----
 
@@ -43,8 +39,7 @@ Platform과 ARM mbed Platform에 호환되어 사용됩니다.
   - W5500 Ethernet Shield를 사용하기 위해 Arduino IDE (Sketch Program)에 포함된
     WIZnet Ethernet Library의 Update가 필요하다. (**필수**)
   - 아래 링크를 참조하기 바란다.
-      - Follow this URL: [Getting
-        Started\_kor](getting_started_arduino_kr)
+      - Follow this URL: [Getting Started\_kor](getting_started_arduino_kr)
 
 -----
 
@@ -170,11 +165,8 @@ added
 ## Where to Buy
 
 ![WIZnet Online Shop](/img/products/w5500/buynow.png)  
-[![WIZnetUS Online Shop,
-USA](/img/products/w5500/w5500_evb/icons/dollar.png)](http://www.shopwiznet.com/)
-[![WIZnetEU Online Shop,
-Germany](/img/products/w5500/w5500_evb/icons/european-euro.png)](http://shop.wiznet.eu/)
-[![WIZnetKorea Online Shop,
-Korea](/img/products/w5500/w5500_evb/icons/won.png)](http://shop.wiznet.co.kr/)
+[![WIZnetUS Online Shop, USA](/img/products/w5500/w5500_evb/icons/dollar.png)](http://www.shopwiznet.com/)
+[![WIZnetEU Online Shop, Germany](/img/products/w5500/w5500_evb/icons/european-euro.png)](http://shop.wiznet.eu/)
+[![WIZnetKorea Online Shop, Korea](/img/products/w5500/w5500_evb/icons/won.png)](http://shop.wiznet.co.kr/)
 
 -----

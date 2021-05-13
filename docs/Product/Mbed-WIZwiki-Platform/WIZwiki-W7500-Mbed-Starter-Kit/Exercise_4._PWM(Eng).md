@@ -61,7 +61,7 @@ void playNote(float frequency, float duration, float volume) {
     pwm_pin = 0.0;
 }
 
-int main()
+int main(/)
 {
     float beat_duration;
 

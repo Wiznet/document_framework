@@ -31,12 +31,10 @@ board.
 
 ### The Circuit
 
-This is the circuit for this example. ![Button and
-LED](/img/products/wizwiki_mbed_kit/kit_en/button_led_scheme.png)
+This is the circuit for this example. ![Button and LED](/img/products/wizwiki_mbed_kit/kit_en/button_led_scheme.png)
 
 The LED for this example is placed on the WIZwiki board and it is shown
-in the red box in the cicuit below. ![RGB
-LED](/img/products/wizwiki_mbed_kit/kit_en/3_board_all.png)
+in the red box in the cicuit below. ![RGB LED](/img/products/wizwiki_mbed_kit/kit_en/3_board_all.png)
 
 ### Connections
 
@@ -55,7 +53,7 @@ codes below and compile.
 DigitalOut myled(LED1);
 DigitalIn mybutton(D6);
 
-int main() {
+int main(/) {
     while(1) {
         if (mybutton == 1)
           myled = 0;

@@ -109,8 +109,7 @@ Rev1.0 기준)
 사용자는 ISP Tool을 사용하여 WIZ750SR의 전체(App+Boot) 펌웨어 업데이트를 진행할 수 있습니다.
 
 :::note
-[Go to ISP tool manual & Program
-download](/img/products/w7500/documents/appnote/isptool)  
+[Go to ISP tool manual & Program download](/img/products/w7500/documents/appnote/isptool)  
 :::
 
 먼저, Micro USB type B 케이블을 이용하여 PC와 장치를 연결합니다.
@@ -124,8 +123,7 @@ download](/img/products/w7500/documents/appnote/isptool)
 디바이스 드라이버가 자동으로 설치되지 않는 경우 아래 링크에서 테스트
 환경에 맞는 드라이버를 다운받아 설치합니다.
 
-[CP210x Driver download
-page](https://www.silabs.com/products/development-tools/software/usb-to-uart-bridge-vcp-drivers)
+[CP210x Driver download page](https://www.silabs.com/products/development-tools/software/usb-to-uart-bridge-vcp-drivers)
 :::
 
 **1. WIZ750SR을 Boot 모드로 전환**
@@ -186,8 +184,7 @@ MAC 주소 재 입력 과정은 WIZ750SR의 Debug UART (ISP port)를 통해 이�
 장치관리자를 통해 'Silicon Labs CP210x USB to UART Bridge (COMX)'의 COM port
 번호를 확인하시기 바랍니다.
 
-![Device
-Manager](/img/products/wiz750sr/developerguide/isptool/en_device_manager.png)
+![Device Manager](/img/products/wiz750sr/developerguide/isptool/en_device_manager.png)
 
 :::note
 디바이스 드라이버가 자동으로 설치되지 않는 경우 아래 링크에서 테스트

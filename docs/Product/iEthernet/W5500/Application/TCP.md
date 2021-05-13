@@ -84,13 +84,11 @@ connect-request (Passive-open). The “TCP CLIENT” transmits the
 connect-request first to “TCP SERVER” to make the connection
 (Active-open).
 
-![TCP SERVER and TCP
-CLIENT](/img/products/w5500/application/serverclient.jpg)
+![TCP SERVER and TCP CLIENT](/img/products/w5500/application/serverclient.jpg)
 
 ## TCP SERVER
 
-![TCP SERVER Operation
-Flow](/img/products/w5500/application/server_flow.jpg)
+![TCP SERVER Operation Flow](/img/products/w5500/application/server_flow.jpg)
 
 ### SOCKET Initialization
 
@@ -365,8 +363,7 @@ Sn_CR = CLOSE;
 It is same as TCP server except ‘CONNECT’ state. User can refer to the
 above "TCP SERVER” section.
 
-![TCP CLIENT Operation
-Flow](/img/products/w5500/application/client_flow.jpg)
+![TCP CLIENT Operation Flow](/img/products/w5500/application/client_flow.jpg)
 
 ### CONNECT
 

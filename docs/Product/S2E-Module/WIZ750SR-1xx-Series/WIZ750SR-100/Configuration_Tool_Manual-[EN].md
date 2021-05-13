@@ -6,7 +6,7 @@ date: 2020-04-08
 
 **Supported Languages** 
    * [English](Configuration_Tool_Manual-[EN]) (current page)  
-   * [Korean]()
+   * [Korean](/)
 
 ![](/img/products/wiz750sr/clitool/datasheet/wiz750sr_pinout_exp_rev1.2.png)
 

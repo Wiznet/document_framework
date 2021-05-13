@@ -1,6 +1,6 @@
 ---
 id: japanese_v
-title: Japanese Version
+title: Overview JP
 date: 2020-04-07
 ---
 

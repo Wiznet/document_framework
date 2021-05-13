@@ -70,21 +70,21 @@ AT+SCON=O,TSN, , ,5000,1        ( AT command listening with a TCP Server Socket 
 
 #### Exchanging data with a peer system
 
-Exchanging data with its peer system is the same as previous [Exchanging data with a peer system.]()
+Exchanging data with its peer system is the same as previous [Exchanging data with a peer system.](/)
 
 #### Socket Close
 
-Closing socket connection is the same as previous [Socket Close]().
+Closing socket connection is the same as previous [Socket Close](/).
 
 #### Checking Socket Status
 
-Checking socket status is the same as previous [Checking Socket Status.]()
+Checking socket status is the same as previous [Checking Socket Status.](/)
 
 ## Method of setting UDP Client and exchanging data in Data Mode
 
 #### Socket Open
 
-This section explains how to open < UDP Client Socket> and communicate to peer system. Below is an example for setting up UDP Client and changing into data mode. For detailed information about < AT+SCON> command, refer to [AT+SCON]() and [Socket Open.]()
+This section explains how to open < UDP Client Socket> and communicate to peer system. Below is an example for setting up UDP Client and changing into data mode. For detailed information about < AT+SCON> command, refer to [AT+SCON](/) and [Socket Open.](/)
        * Mode : Data Mode, UDP Client
        * Remote IP : 192.168.12.23
        * Remote Port : 5001
@@ -101,21 +101,21 @@ AT+SCON=O,UCN,192.168.12.23,5001,5000,1
 
 #### Exchanging data with a peer system
 
-Exchanging data with its peer system is the same as previous [Exchanging data with a peer system.]()
+Exchanging data with its peer system is the same as previous [Exchanging data with a peer system.](/)
 
 #### Socket Close
 
-Closing socket connection is the same as previous [Socket Close.]()
+Closing socket connection is the same as previous [Socket Close.](/)
 
 #### Checking Socket Status
 
-Checking socket status is the same as previous [Checking Socket Status.]()
+Checking socket status is the same as previous [Checking Socket Status.](/)
 
 ## Method of setting UDP Server and exchanging data in Data Mode
 
 #### Socket Open
 
-This section explains how to open <  UDP Server Socket> and communicate to peer system. Below is an example for setting up UDP Server and changing into data mode. For detailed information about <  AT+SCON> command, refer to [AT+SCON]() and [Socket Open]().
+This section explains how to open <  UDP Server Socket> and communicate to peer system. Below is an example for setting up UDP Server and changing into data mode. For detailed information about <  AT+SCON> command, refer to [AT+SCON](/) and [Socket Open](/).
        * Mode: Data Mode, UDP Server
        * Local Port: 5000
   
@@ -130,7 +130,7 @@ This section explains how to open <  UDP Server Socket> and communicate to peer 
 
 < UDP Server Mode> can connect UDP connection without peer systes information like IP address and port number. But before peer system is connected to WizFi250, WizFi250 does not send data to peer system because WizFi250 does not know its information. Thus peer system must send data to WizFi250 in order to know peer system’s information like below.
 ![](/img/products/wizfi250/wizfi250pg/caution_when_using_udp_server_mode.png)
-The other information for exchanging data is same as [Exchanging data with a peer system.]()
+The other information for exchanging data is same as [Exchanging data with a peer system.](/)
 
 #### Socket Close
 

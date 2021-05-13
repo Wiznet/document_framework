@@ -11,9 +11,7 @@ date: 2020-04-03
 ## Overview
 
 WizArduino M0 ETH는 Arduino.org의 🌎[M0
-board](http://www.arduino.org/products/boards/arduino-m0)를 기반으로 🌎[W5500
-TCP/IP Embedded Ethernet
-Controller](../iEthernet/W5500/overview) 가
+board](http://www.arduino.org/products/boards/arduino-m0)를 기반으로 🌎[W5500 TCP/IP Embedded Ethernet Controller](../iEthernet/W5500/overview) 가
 추가되어 Arduino UNO 플랫폼처럼 간단하면서도 IoT기능 구현을 위한 기본 기능을 가지고 있습니다.
 ![](/img/osh/wizarduino/m0_ethernetshield.png)
 
@@ -63,8 +61,7 @@ WizArduino M0 ETH는 Arduino.org 의 M0 board와 100% 호환 됩니다. Arduino 
 
 자세한 내용은 아래 페이지를 참고 하세요.
 
-🌎[Download the
-software](http://www.arduino.org/learning/tutorials/first-steps-with-arduino-ide)  
+🌎[Download the software](http://www.arduino.org/learning/tutorials/first-steps-with-arduino-ide)  
 WizArduino M0 ETH는 Arduino UNO와 같은 핀맵을 가짐으로, 당신의 Program을 WizArduino M0
 ETH 뿐만 아니라, 여러 Arduino board에서 사용 할 수 있습니다. 하지만, 몇 가지 중요한 다른 점이 있습니다.
 
@@ -89,8 +86,7 @@ ETH 뿐만 아니라, 여러 Arduino board에서 사용 할 수 있습니다. �
 
 자세한 내용은 아래 페이지를 참고 하세요.
 
-🌎[Start with Arduino
-M0](http://www.arduino.org/learning/getting-started/getting-started-with-arduino-m0)
+🌎[Start with Arduino M0](http://www.arduino.org/learning/getting-started/getting-started-with-arduino-m0)
 
 -----
 
@@ -116,7 +112,7 @@ WizArduino M0 ETH로 Programming을 하기에 앞서 몇 가지 확인 사항이
   - 해당 포트로 Serial message 이용시 아래 Code를 사용해 주세요. 
   
   >
-                    void setup() {
+                    void setup(/) {
                     SerialUSB.begin(9600);
                     while (!SerialUSB);
                     SerialUSB.println("Hello world");
@@ -129,17 +125,15 @@ WizArduino M0 ETH로 Programming을 하기에 앞서 몇 가지 확인 사항이
   - 해당 포트로 Serial message 이용시 아래 Code를 사용해 주세요. 
  
  >
-                    void setup() {
+                    void setup(/) {
                     Serial5.begin(9600);
                     while (!Serial5);
                     Serial5.println("Hello world");
                     }
 >                    
 
-더 자세한 내용은 🌎[Serial
-ports](http://www.arduino.org/learning/tutorials/advanced-guides/guide-for-using-serial-ports-and-ad-converter-on-arduino-m0-and-m0-pro)
-와 🌎[Start with Arduino
-M0](http://www.arduino.org/learning/getting-started/getting-started-with-arduino-m0)
+더 자세한 내용은 🌎[Serial ports](http://www.arduino.org/learning/tutorials/advanced-guides/guide-for-using-serial-ports-and-ad-converter-on-arduino-m0-and-m0-pro)
+와 🌎[Start with Arduino M0](http://www.arduino.org/learning/getting-started/getting-started-with-arduino-m0)
 를 참고 하세요.
 
 #### Ethernet
@@ -227,8 +221,7 @@ M0](http://www.arduino.org/learning/getting-started/getting-started-with-arduino
 
 
 ![WIZnet Online Shop](/img/osh/wizarduino_m0_eth/buynow.png)  
-[![WIZnetKorea Online Shop,
-Korea](/img/osh/wizarduino_m0_eth/won.png)](http://shop.wiznet.co.kr/front/contents/product/view.asp?cateid=90&pid=1271)
+[![WIZnetKorea Online Shop, Korea](/img/osh/wizarduino_m0_eth/won.png)](http://shop.wiznet.co.kr/front/contents/product/view.asp?cateid=90&pid=1271)
 
 
 

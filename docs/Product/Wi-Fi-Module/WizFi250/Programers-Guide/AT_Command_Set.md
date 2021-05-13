@@ -49,10 +49,10 @@ Responses are listed below.
 
 ## Command list
 
-| [Basic Commands]()                    |                                                          |
+| [Basic Commands](/)                    |                                                          |
 | ------------------------------------------------------------------------------------------------ | -------------------------------------------------------- |
 | [AT](#AT)                             | Terminal Check                                           |
-| [WiFi Commands]()                      |                                                          |
+| [WiFi Commands](/)                      |                                                          |
 | [AT+WJOIN](#AT+WJOIN)                  | WiFi Association                                         |
 | [AT+WLEAVE](#AT+WLEAVE)                | WiFi Disassociation                                      |
 | [AT+WSCAN](#AT+WSCAN)                  | WiFi Scan                                                |
@@ -69,7 +69,7 @@ Responses are listed below.
 | [AT+WP2P\_INVITE](#AT+WP2P_INVITE)     | Invite WiFi Direct peer ID                               |
 | [AT+WCHECK](#AT+WCHECK)                | Check Wi-Fi status using Ping and Re-association with AP |
 
-| [Network Commands]()  |                                 |
+| [Network Commands](/)  |                                 |
 | ---------------------------------------------------------------------------------- | ------------------------------- |
 | [AT+SCON](#AT+SCON)   | Socket Open/Connect             |
 | [AT+SMGMT](#AT+SMGMT) | Socket Management               |
@@ -79,7 +79,7 @@ Responses are listed below.
 
 \<WRAP half column\>
 
-| [Management Commands]()   |                                                                        |
+| [Management Commands](/)   |                                                                        |
 | ----------------------------------------------------------------------------------------- | ---------------------------------------------------------------------- |
 | [AT+MPROF](#AT+MPROF)     | Profile Management                                                     |
 | [AT+MFDEF](#AT+MFDEF)     | Perform Factory Reset                                                  |
@@ -98,7 +98,7 @@ Responses are listed below.
 | [AT+MEVTMSG](/products/wizfi250/wizfi250pg/at_command_set#at_mevtmsg)                     | Print \[Listen x\] as soon as it opens up a socket through TCP server. |
 | [AT+MEVTFORM](/products/wizfi250/wizfi250pg/at_command_set#at_mevtform)                   | Event Message Form                                                     |
 
-| [Function Commands]() |                         |
+| [Function Commands](/) |                         |
 | ----------------------------------------------------------------------------------- | ----------------------- |
 | [AT+FPING](#AT+FPING) | PING Test               |
 | [AT+FDNS](#AT+FDNS)   | DNS Query               |

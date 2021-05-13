@@ -178,7 +178,7 @@ as shown in the picture below.
 <!--
 |                                                   |
 | ------------------------------------------------- |
-| ![]()                                             |
+| ![](/)                                             |
 | Figure: **Combining WIZ752SR-120 module and EVB** |
 -->
 

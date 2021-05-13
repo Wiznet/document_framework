@@ -12,5 +12,4 @@ date: 2020-05-13
 
 ### External pin description
 
-![WizFi310 EVB
-Dimension](/img/products/wizfi310/wizfi310evbdimension/wizfi310_evb_demension.png)
+![WizFi310 EVB Dimension](/img/products/wizfi310/wizfi310evbdimension/wizfi310_evb_demension.png)

@@ -214,7 +214,7 @@ To test the example,
 
   - First ready to DHCP server to run on the LAN belongs to the board.
   - SHOULD BE set the **unique** MAC address to W5500's SHAR register
-    before *DHCP\_init()* call.
+    before *DHCP\_init(/)* call.
 
 If you want to monitor or display message of DHCP processing, Define
 DEBUG\_MODE in bsp\_tg840.h (refer to the above description *"How to
@@ -232,7 +232,7 @@ test\>\>Monitor & Debug"*.) and Define **\_DHCP\_DEBUG\_** in
 
 When DHCP run in DEBUG mode, Force to be the leased time 10 seconds for
 quickly testing to maintain the leased IP. The below codes are in
-*parseDHCPMSG()* of "dhcp.c".
+*parseDHCPMSG(/)* of "dhcp.c".
 
 ``` c
    case dhcpIPaddrLeaseTime :
@@ -256,16 +256,16 @@ quickly testing to maintain the leased IP. The below codes are in
         Timeout occurred (when fail)
 2.  When success
       - If first leased IP, Call the default function or yours when
-        callback is registered by reg\_dhcp\_cbfunc().
+        callback is registered by reg\_dhcp\_cbfunc(/).
       - For maintaining the leased IP, Send DISCOVER message every the
         half of leased time.
           - During this phase, If the leased IP is changed, Call the
             default function or yours when callback is registered by
-            reg\_dhcp\_cbfunc().
+            reg\_dhcp\_cbfunc(/).
       - Every the leased IP, Send ARP the leased IP for checking IP
         Conflict.
           - When IP conflict, call the default function or yours when
-            callback is registered by reg\_dhcp\_cbfunc().
+            callback is registered by reg\_dhcp\_cbfunc(/).
 3.  When failed
       - When receiving NAK message or timeout occurred after the max
         time (**DHCP\_WAIT\_TIME** X **DHCP\_RETRY\_CNT**) to wait
@@ -278,11 +278,11 @@ quickly testing to maintain the leased IP. The below codes are in
         your PC.
       - Check the DHCP server on the LAN belongs to the board.
 
-#### DHCP\_WAIT\_TIME & DHCP\_RETRY\_CNT And DHCP\_time\_handler()
+#### DHCP\_WAIT\_TIME & DHCP\_RETRY\_CNT And DHCP\_time\_handler(/)
 
 For checking timeout to DHCP processing, Define *DHCP\_WAIT\_TIME* &
 *DHCP\_RETRY\_CNT* in dhcp.h and SHOULD BE register
-*DHCP\_time\_handler()* in your 1s timer handler.
+*DHCP\_time\_handler(/)* in your 1s timer handler.
 
 The below code is the max timeout 30s (10 sec \* 3 retry count).
 
@@ -292,7 +292,7 @@ The below code is the max timeout 30s (10 sec \* 3 retry count).
    #define  DHCP_WAIT_TIME          10       ///< Wait Time 10s
 ```
 
-The below is example to register DHCP\_time\_handler() in DHCP\_main.c
+The below is example to register DHCP\_time\_handler(/) in DHCP\_main.c
 
 ``` c
 /**************************************************************************//**
@@ -301,11 +301,11 @@ The below is example to register DHCP\_time\_handler() in DHCP\_main.c
  *****************************************************************************/
 void SysTick_Handler(void)
 {
-  msTicks++;       /* increment counter necessary in Delay()*/
+  msTicks++;       /* increment counter necessary in Delay(/)*/
   
   ////////////////////////////////////////////////////////
   // SHOULD BE Added DHCP Timer Handler your 1s tick timer
-  if(msTicks % 1000 == 0)  DHCP_time_handler();
+  if(msTicks % 1000 == 0)  DHCP_time_handler(/);
   ////////////////////////////////////////////////////////
 }
 ```
@@ -323,9 +323,9 @@ void my_ip_assign(void)
    getDNSfromDHCP(gWIZNETINFO.dns);
    gWIZNETINFO.dhcp = NETINFO_DHCP;
    /* Network initialization */
-   network_init();      // apply from dhcp
+   network_init(/);      // apply from dhcp
 #if DEBUG_MODE != DEBUG_NO
-   printf("DHCP LEASED TIME : %d Sec.\r\n", getDHCPLeasetime());            
+   printf("DHCP LEASED TIME : %d Sec.\r\n", getDHCPLeasetime(/));            
 #endif
 }
 
@@ -366,9 +366,9 @@ int main(void)
 
 If any call back function is null, Call the default function in dhcp.c
 
-  - When *ip\_assign* is null, call the *default\_ip\_assign()*. 
-  - When *ip\_update* is null, call the *default\_ip\_update()*.
-  - When *ip\_conflict* is null, call the *default\_ip\_conflict()*.
+  - When *ip\_assign* is null, call the *default\_ip\_assign(/)*. 
+  - When *ip\_update* is null, call the *default\_ip\_update(/)*.
+  - When *ip\_conflict* is null, call the *default\_ip\_conflict(/)*.
 
 #### The Default Static Config When Failed
 
@@ -396,12 +396,12 @@ Apply the default static configuration as below.
 ```
 
 
-#### DHCP\_init() / DHCP\_run() / DHCP\_stop()
+#### DHCP\_init(/) / DHCP\_run(/) / DHCP\_stop(/)
 
 DHCP\_init can be called for initializing DHCP and restarting DHCP.  
-DHCP\_run() SHOULD BE periodically called by your main task for the
+DHCP\_run(/) SHOULD BE periodically called by your main task for the
 leased IP to maintain or check timeout.  
-DHCP\_stop() can be called when DHCP doesn't process any more.  
+DHCP\_stop(/) can be called when DHCP doesn't process any more.  
 The below code shows how to use DHCP APIs.
 
 ``` c
@@ -423,7 +423,7 @@ The below code shows how to use DHCP APIs.
   
   while(1)
   {
-      switch(DHCP_run())
+      switch(DHCP_run(/))
       {
       case DHCP_IP_ASSIGN:
       case DHCP_IP_CHANGED:
@@ -450,8 +450,8 @@ The below code shows how to use DHCP APIs.
             printf(">> DHCP %d Failed\r\n",my_dhcp_retry);
          #endif
             my_dhcp_retry = 0;
-            DHCP_stop();      // if restart, recall DHCP_init()
-            network_init();   // apply the default static network
+            DHCP_stop(/);      // if restart, recall DHCP_init(/)
+            network_init(/);   // apply the default static network
          }
          break;
       default:
@@ -497,10 +497,10 @@ test\>\>Monitor & Debug".*) and Define \_DNS\_DEBUG\_ in
           - Check the network configuration to access on Internet.
           - Check the DNS IP address to valid.
 
-#### MAX\_DNS\_RETRY & DNS\_WIAT\_TIME and DNS\_time\_handler()
+#### MAX\_DNS\_RETRY & DNS\_WIAT\_TIME and DNS\_time\_handler(/)
 
 For checking timeout to DNS processing, Define *MAX\_DNS\_RETYR* &
-*DNS\_WAIT\_TIME* in dns.h and SHOULD BE register *DNS\_time\_handler()*
+*DNS\_WAIT\_TIME* in dns.h and SHOULD BE register *DNS\_time\_handler(/)*
 in your 1s timer handler.
 
 The below code is the max timeout 6s (2 retry count \* 3 seconds)
@@ -510,7 +510,7 @@ The below code is the max timeout 6s (2 retry count \* 3 seconds)
 #define DNS_WAIT_TIME     3        ///< Wait response time. unit 1s.
 ```
 
-The below code is example to register DNS\_time\_handler() in
+The below code is example to register DNS\_time\_handler(/) in
 DNS\_main.c
 
 ``` c
@@ -520,11 +520,11 @@ DNS\_main.c
  *****************************************************************************/
 void SysTick_Handler(void)
 {
-  msTicks++;       /* increment counter necessary in Delay()*/
+  msTicks++;       /* increment counter necessary in Delay(/)*/
 
   ////////////////////////////////////////////////////////
   // SHOULD BE Added DNS Timer Handler your 1s tick timer
-  if(msTicks % 1000 == 0)  DNS_time_handler();
+  if(msTicks % 1000 == 0)  DNS_time_handler(/);
   ////////////////////////////////////////////////////////
 }
 ```
@@ -564,10 +564,10 @@ included the number of 'null' character (one) for End of String.
 #define  MAX_DOMAIN_NAME   16       // for example "www.google.com" 
 ```
 
-#### DNS\_init() / DNS\_run()
+#### DNS\_init(/) / DNS\_run(/)
 
-DNS\_init() SHOULD be called before DHCP\_run().  
-DNS\_run() can be called for translating the domain name into IP
+DNS\_init(/) SHOULD be called before DHCP\_run(/).  
+DNS\_run(/) can be called for translating the domain name into IP
 address. This is blocked until DNS process is success or failed.  
 The below code shows how to use DNS APIs.
 

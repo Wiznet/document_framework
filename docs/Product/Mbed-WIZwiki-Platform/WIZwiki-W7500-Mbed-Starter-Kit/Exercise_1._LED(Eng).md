@@ -62,7 +62,7 @@ mbed\_blinky\_WIZWIKI-W7500.bin file to the PC.
 
 DigitalOut myled(LED1);
 
-int main() {
+int main(/) {
     while(1) {
         myled = 1;
         wait(0.2);
@@ -78,8 +78,7 @@ Copy and paste the mbed\_blinky\_WIZWIKI\_W7500.bin file to the mbed
 driver (E: or F:) ![](/img/products/wizwiki_mbed_kit/kit_en/110_copy.png)
 
 Then press the reset pin. The LED (blue circle) shown in the below image
-will blink every 0.2 second. ![WIZwiki-W7500
-LED1](/img/products/wizwiki_mbed_kit/kit_en/wizwiki_led1.png)
+will blink every 0.2 second. ![WIZwiki-W7500 LED1](/img/products/wizwiki_mbed_kit/kit_en/wizwiki_led1.png)
 
 If the LED blinks successfully, it means that the example code is
 operating on the WIZwiki-W7500 board. This exercise making the LED blink

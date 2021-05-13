@@ -54,8 +54,7 @@ many years.
 
 **Schematic & Part list & Gerber**
 
-  - 🌎[Go to
-    Github](https://github.com/Wiznet/Hardware-Files-of-WIZnet/tree/master/08_OSHW)
+  - 🌎[Go to Github](https://github.com/Wiznet/Hardware-Files-of-WIZnet/tree/master/08_OSHW)
 
 -----
 **Ethernet Library**
@@ -66,8 +65,7 @@ many years.
 
 ## See Also
 
-![](/img/products/w5500/w5500_evb/icons/link.png) 🌎[WizWiki
-Forum](https://forum.wiznet.io/) : WIZnet Forum for Technical
+![](/img/products/w5500/w5500_evb/icons/link.png) 🌎[WizWiki Forum](https://forum.wiznet.io/) : WIZnet Forum for Technical
 support and Project shared
 
 -----
@@ -76,12 +74,9 @@ support and Project shared
 
 
 ![WIZnet Online Shop](/img/osh/w5100s_ethernet_shield/start/buynow.png)  
-![WIZnetUS Online Shop,
-USA](/img/osh/w5100s_ethernet_shield/start/dollar.png)
-![WIZnetEU Online Shop,
-Germany](/img/osh/w5100s_ethernet_shield/start/european-euro.png)
-![WIZnetKorea Online Shop,
-Korea](/img/osh/w5100s_ethernet_shield/start/won.png)
+![WIZnetUS Online Shop, USA](/img/osh/w5100s_ethernet_shield/start/dollar.png)
+![WIZnetEU Online Shop, Germany](/img/osh/w5100s_ethernet_shield/start/european-euro.png)
+![WIZnetKorea Online Shop, Korea](/img/osh/w5100s_ethernet_shield/start/won.png)
 
 
 

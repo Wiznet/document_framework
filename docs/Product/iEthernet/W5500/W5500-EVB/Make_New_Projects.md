@@ -122,10 +122,10 @@ an application project. For more details, please refer to
 
 ### 6. Set the library type for serial debugging
 
-If the 'printf()' / 'scanf()' functions to use a UART, user can
-retargeting to Redlib's printf() as follows. For more details, please
+If the 'printf(/)' / 'scanf(/)' functions to use a UART, user can
+retargeting to Redlib's printf(/) as follows. For more details, please
 refer to ![](/img/products/w5500/w5500_evb/icons/link.png) [NXP FAQ page for
-'Using printf()'](http://www.lpcware.com/content/faq/lpcxpresso/using-printf)
+'Using printf(/)'](http://www.lpcware.com/content/faq/lpcxpresso/using-printf)
 
 ![](/img/products/w5500/w5500_evb/figures/make_new_project_set_the_library_type_box.jpg)
 

@@ -70,8 +70,7 @@ in.
 
 ## WizFi310 Shield Callout & Pinmap
 
-![WizFi310 Shield
-Pinmap](/img/osh/wizfi310_shield/wizfi310_shield_pinmap.png)
+![WizFi310 Shield Pinmap](/img/osh/wizfi310_shield/wizfi310_shield_pinmap.png)
 
 -----
 

@@ -40,7 +40,7 @@ Serial pc(SERIAL_TX, SERIAL_RX);
 
 int count_blink = 0;
 
-int main() {
+int main(/) {
     while(1) {
         myled = 1;
         //pc.printf("myled = 1\n");

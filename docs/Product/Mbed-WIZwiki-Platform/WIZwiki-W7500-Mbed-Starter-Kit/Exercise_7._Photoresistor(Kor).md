@@ -48,7 +48,7 @@ DigitalOut redled(LED1); // RED
 DigitalOut blueled(LED3); // BLUE
 AnalogIn CDS(A0);
  
-int main() {
+int main(/) {
     printf("Hello WizWIki-W7500!\n\r");
     printf("===========================================\n\r");
     
@@ -56,8 +56,8 @@ int main() {
     double CDS_vol = 0;
     
     while(1) {
-        CDS_data = CDS.read()*1000;
-        CDS_vol = CDS.read()*3.3;
+        CDS_data = CDS.read(/)*1000;
+        CDS_vol = CDS.read(/)*3.3;
         
         //CDS Seneor ADC Low Data
         printf("CDS Data : %3d\r\n",CDS_data);      

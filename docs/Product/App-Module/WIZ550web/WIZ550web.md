@@ -21,8 +21,8 @@ customize their own objective.
 ## Documents
 
   - **H/W Rev1.0 Datasheet**:
-    [[English]]() /
-    [[Korean]]() 
+    [[English]](/) /
+    [[Korean]](/) 
       - Hardware Specification
       - Reference Schematics
       - Dimension

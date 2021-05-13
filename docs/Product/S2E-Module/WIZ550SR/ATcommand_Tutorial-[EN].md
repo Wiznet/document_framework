@@ -6,7 +6,7 @@ date: 2020-04-16
 
 
 
-# Exam 1. Example of data communication in Static IP and TCP Server mode
+## Exam 1. Example of data communication in Static IP and TCP Server mode
 
   
 **1. Set WIZ550SR with Static IP**  

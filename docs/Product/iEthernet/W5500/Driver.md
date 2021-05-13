@@ -143,8 +143,8 @@ Repository**
               - V1.03 (Refer to 20140501)
                   - wizchip\_conf.c
                     1.  ***Explicit type casting in
-                        wizchip\_bus\_readbyte() &
-                        wizchip\_bus\_writebyte()***
+                        wizchip\_bus\_readbyte(/) &
+                        wizchip\_bus\_writebyte(/)***
                     2.  uint32\_t type converts into ptrdiff\_t first.
                         And then reconverting it into uint8\_t\*. For
                         remove the warning when pointer type size is not
@@ -153,20 +153,20 @@ Repository**
                         into your suitable pointer type.***
                   - w5500.c : ***Implicit type casting -\> Explicit type
                     casting*** 
-                    1.  wizchip\_read\_data() & wizchip\_write\_data() :
+                    1.  wizchip\_read\_data(/) & wizchip\_write\_data(/) :
                         Fixed the problem on porting into under 32bit
                         MCU
                   - socket.h
                     1.  Modify the comment : SO\_REMAINED -\>
                         PACK\_REMAINED
                     2.  Add the comment as zero byte udp data reception
-                        in getsockopt(). 
+                        in getsockopt(/). 
                   - socket.c
                     1.  ***Implicit type casting -\> Explicit type
                         casting.***
-                    2.  replace 0x01 with PACK\_REMAINED in recvfrom()
-                    3.  Validation a destination ip in connect() &
-                        sendto(): It occurs a fatal error on converting
+                    2.  replace 0x01 with PACK\_REMAINED in recvfrom(/)
+                    3.  Validation a destination ip in connect(/) &
+                        sendto(/): It occurs a fatal error on converting
                         unint32 address if uint8\* addr parameter is not
                         aligned by 4byte address. Copy 4 byte addr value
                         into temporary uint32 variable and then compares
@@ -174,14 +174,14 @@ Repository**
                         
                         - V1.02
         * socket.c (Refer to 20131220)
-          - setsockopt() : Remove warning message (delete tmp variable)
+          - setsockopt(/) : Remove warning message (delete tmp variable)
         * w5500.c (Refer to 20131220)
-          - WIZCHIP_READ_BUF() & WIZCHIP_WRITE_BUF() in _WIZCHIP_IO_MODE_SPI_FDM_ case
+          - WIZCHIP_READ_BUF(/) & WIZCHIP_WRITE_BUF(/) in _WIZCHIP_IO_MODE_SPI_FDM_ case
             - Remove warning message
             - Remove unnecessary 'for' loop
       * V1.01 
         * socket.c (Refer to 20131104)
-          - sendto() : Add to clear the timeout interrupt status of socket(Sn_IR_TIMEOUT).
+          - sendto(/) : Add to clear the timeout interrupt status of socket(Sn_IR_TIMEOUT).
       * V1.00
         * First released.
   * Internet  :  Application protocols
@@ -192,9 +192,9 @@ Repository**
       * V1.10
         * DHCP Client
           - Optimize code
-          - Add reg_dhcp_cbfunc()
-          - Add DHCP_stop() 
-          - Integrate check_DHCP_state() & DHCP_run() into DHCP_run()
+          - Add reg_dhcp_cbfunc(/)
+          - Add DHCP_stop(/) 
+          - Integrate check_DHCP_state(/) & DHCP_run(/) into DHCP_run(/)
           - Don't care system endian
           - Move unreferenced DEFINE to dns.c
           - Remove the unused DEFINE
@@ -378,14 +378,14 @@ Supports IINCHIP_XXX function for backward compatiblity.</td>
 </tr>
 <tr class="odd">
 <td>Register Function</td>
-<td>IINCHIP_XXX can be used. Supports some getREG() &amp; setREG() functions.</td>
+<td>IINCHIP_XXX can be used. Supports some getREG(/) &amp; setREG(/) functions.</td>
 <td><br />
-It is not recommended to use WIZCHIP_XXXX. Supports getREG() &amp; setREG() functions or macros for all registers.</td>
+It is not recommended to use WIZCHIP_XXXX. Supports getREG(/) &amp; setREG(/) functions or macros for all registers.</td>
 </tr>
 <tr class="even">
 <td>Extra Functions</td>
 <td>None</td>
-<td>Optional and omissible Supports User-friendly named functions. All extra functions can be implemented by using setREG() &amp; getREG().</td>
+<td>Optional and omissible Supports User-friendly named functions. All extra functions can be implemented by using setREG(/) &amp; getREG(/).</td>
 </tr>
 </tbody>
 </table>
@@ -482,15 +482,15 @@ Socket APIs
           - ** SOCKFATAL_PACKLEN **
   * Block / Non-Block IO mode
     * Previous Drivers : Block function and Non-Block function were mixed.
-      * Block Function : send(), recv(), sento(), recvfrom()
-      * Non-block Function : connect()
-      * Blocking can be avoided by using getSn_SR(), getSn_TX_FSR(), and getSn_RX_RSR() properly.
+      * Block Function : send(/), recv(/), sento(/), recvfrom(/)
+      * Non-block Function : connect(/)
+      * Blocking can be avoided by using getSn_SR(/), getSn_TX_FSR(/), and getSn_RX_RSR(/) properly.
     * W5500 Driver
       * Block / Non-Block IO mode can be selected by user. (Default: Block mode)
-      * socket() with new flag SF_IO_NONBLOCK or setsockopt() with SO_SET_IOMODE Can be configured.
+      * socket(/) with new flag SF_IO_NONBLOCK or setsockopt(/) with SO_SET_IOMODE Can be configured.
       * Block and Non-block Configurable Function
-      * connect(), send(), recv(), sendto(), recvfrom()
-      * ** getSn_SR(), getSn_TX_FSR() and getSn_RX_RSR() functions can be used like … like previous drivers. They are not related to IO mode **
+      * connect(/), send(/), recv(/), sendto(/), recvfrom(/)
+      * ** getSn_SR(/), getSn_TX_FSR(/) and getSn_RX_RSR(/) functions can be used like … like previous drivers. They are not related to IO mode **
 
 
 ## 2. ioLibrary
@@ -510,10 +510,10 @@ Socket APIs
 
 
   * socket.c(Refer to 2014-03-18)
-    - TCPReSend() : Remove this function and related codes because TCP send mechanism was changed.
-    - TCPReSendNB() : Remove this function and related codes because TCP send mechanism was changed.
-    - TCPSendCHK() : Modify return value.
-    - TCPSend() : Change return value to len.
+    - TCPReSend(/) : Remove this function and related codes because TCP send mechanism was changed.
+    - TCPReSendNB(/) : Remove this function and related codes because TCP send mechanism was changed.
+    - TCPSendCHK(/) : Modify return value.
+    - TCPSend(/) : Change return value to len.
   * loopback.c(Refer to 2014-03-18)
     - Existing mechanism resend packet if don't send all received packet, but change not to resend.
 * v100

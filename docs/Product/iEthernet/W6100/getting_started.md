@@ -46,7 +46,7 @@ If you need detailed figures, please refer
 to the below link.  
 [TCP and
 UDP loopback
-test]()
+test](/)
 
 The loopback example runs with a TCP session and a UDP session.
 
@@ -55,7 +55,7 @@ network range.
 If you want to modify board-side, edit the following code in
 \[src\>\>LB\_main.c\] with the same range which your PC has. If you want
 to modify your PC-side, refer to [IP
-configuration]().
+configuration](/).
 
 ``` cpp
 wiz_NetInfo gWIZNETINFO = { .mac = {0x00,0x08,0xdc,0x57,0x57,0x20},
@@ -91,7 +91,7 @@ wiz_NetInfo gWIZNETINFO = { .mac = {0x00,0x08,0xdc,0x57,0x57,0x20},
 
 
 1.  Connect to Board 
-      - Using [Hercules test program]() or
+      - Using [Hercules test program](/) or
         others, try to connect to board with xxx.xxx.xxx.xxx listen port
         5000.
 2.  When connected

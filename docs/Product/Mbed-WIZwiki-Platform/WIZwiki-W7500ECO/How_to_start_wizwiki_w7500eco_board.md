@@ -50,15 +50,13 @@ on. If LED1 and LED2 are turned off, then press the Reset SW again.
     If you have a SD card,It will turn on LED1 and LED2.
     The following message prints out to the serial port.
 
-![Messages in case of a SD card
-inserted](/img/products/wizwiki_w7500/getting_started/wizwiki_serial_ok.png)
+![Messages in case of a SD card inserted](/img/products/wizwiki_w7500/getting_started/wizwiki_serial_ok.png)
 
     If you do not have a SD card,
     It will turn on LED1 only.
     The following message prints out to the serial port.
 
-![Message in case of a SD card not
-inserted](/img/products/wizwiki_w7500/getting_started/wizwiki_serial_sdcard.png)
+![Message in case of a SD card not inserted](/img/products/wizwiki_w7500/getting_started/wizwiki_serial_sdcard.png)
 
 5\. Run a command window and proceed with the ping test to
 WIZwiki-W7500ECO.

@@ -138,7 +138,7 @@ CMSIS-DAP for debuging and ethernet-phy.
 
 
 
-   * [WIZwiki-W7500eco V1.1 Schematic (Altium Designer)]()
+   * [WIZwiki-W7500eco V1.1 Schematic (Altium Designer)](/)
    * <a href="/img/products/wizwiki-w7500eco/wizwiki-w7500eco.pdf" target="_blank">WIZwiki-W7500eco V1.1 Schematic (PDF)</a>
 
 **Part list**

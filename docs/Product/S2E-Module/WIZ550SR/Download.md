@@ -42,8 +42,7 @@ Install JAVA Runtime Environment
   - Install the downloaded installation file.
 
 
-![WIZnet Configuration Tool Version
-1.0.3](/img/products/wiz550sr/wiz550sr_download/configuration.png)
+![WIZnet Configuration Tool Version 1.0.3](/img/products/wiz550sr/wiz550sr_download/configuration.png)
 
 **WIZnet Configuration Tool
 Version 1.0.3**  

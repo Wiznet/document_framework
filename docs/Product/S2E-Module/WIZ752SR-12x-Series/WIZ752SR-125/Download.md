@@ -6,7 +6,7 @@ date: 2020-04-08
 
 
 
-# WIZ750SR Series Downloads
+## WIZ750SR Series Downloads
 
 **Supported Languages**
    * English only

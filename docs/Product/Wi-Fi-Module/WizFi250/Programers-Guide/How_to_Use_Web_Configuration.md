@@ -84,7 +84,7 @@ This picture shows the log message stating that WizFi250 finished the WPS functi
 
 ## WPS(PIN)
 
-This section explains how to set the protocol as TCP or UDP and then associate it to the Access Point by WPS method. If you select “WPS(PIN)“, you will see the webpage as shown in this picture. For detailed information, refer to [Serial to Wi-Fi Setting]().
+This section explains how to set the protocol as TCP or UDP and then associate it to the Access Point by WPS method. If you select “WPS(PIN)“, you will see the webpage as shown in this picture. For detailed information, refer to [Serial to Wi-Fi Setting](/).
 
 ![](/img/products/wizfi250/wizfi250pg/wizfi250pg-4-2.png)
 
@@ -106,7 +106,7 @@ If you select “Change to OTA Mode” icon, you will see the web page as on thi
 
 ![](/img/products/wizfi250/wizfi250pg/wizfi250pg-13.png)
 
-If you click the &#60;Change to OTA mode&#62; button on this page, WizFi250 will run in OTA Mode. For detailed information about OTA Mode, refer to [Upload newest firmware in OTA mode]()
+If you click the &#60;Change to OTA mode&#62; button on this page, WizFi250 will run in OTA Mode. For detailed information about OTA Mode, refer to [Upload newest firmware in OTA mode](/)
 
 ## GPIO Control
 

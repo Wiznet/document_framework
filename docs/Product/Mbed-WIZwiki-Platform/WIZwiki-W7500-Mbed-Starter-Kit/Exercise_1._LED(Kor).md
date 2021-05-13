@@ -58,7 +58,7 @@ Success\!라는 메시지가 보인다.
 
 DigitalOut myled(LED1);
 
-int main() {
+int main(/) {
     while(1) {
         myled = 1;
         wait(0.2);
@@ -77,8 +77,7 @@ F: 등)로 복사한다.
 
 그리고, 리셋 핀을 눌러준다. 연결도의 그림에서 파란색 동그라미 내부의 D4 부분이 0.2초 간격으로 깜박인다.
 
-![WIZwiki-W7500
-LED1](/img/products/wizwiki_mbed_kit/kit_en/wizwiki_led1.png)
+![WIZwiki-W7500 LED1](/img/products/wizwiki_mbed_kit/kit_en/wizwiki_led1.png)
 
 LED가 깜박이고 있으면 WIZwiki-W7500 플랫폼 보드에서 예제 코드가 정상동작하고 있는 것이다. 이렇게 LED를 깜박이게
 만드는 LED Blink 예제를 보통 "Hello World"라고도 부른다.

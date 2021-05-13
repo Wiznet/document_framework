@@ -16,8 +16,7 @@ date: 2020-04-08
   - 튜토리얼
   - 관련 자료들
 
-![mbed Starter Kit all
-parts](/img/products/wizwiki_mbed_kit/kit_kr/mbed_starter_kit_all.jpg)
+![mbed Starter Kit all parts](/img/products/wizwiki_mbed_kit/kit_kr/mbed_starter_kit_all.jpg)
 
 WIZwiki-W7500 mbed 스타터킷은
 **[WIZwiki-W7500](../WIZwiki-W7500/overview)** 의 활용 방법을 학습할 수 있는
@@ -70,15 +69,14 @@ USB케이블, LAN케이블, 브레드보드, 와이어, 센서, 버튼, LED, 저
 
 mbed 의 예제와 온라인 컴파일러를 이용해 실습해 볼 수 있는 튜토리얼이다.
 
-  * [스타터 킷 튜토리얼]()
+  * [스타터 킷 튜토리얼](/)
   
 ## 관련 자료들
 
 ARM mbed 사이트 자료들이다.
 
   - 🌎[mbed 개발자 사이트](https://developer.mbed.org)
-  - 🌎[mbed WIZwiki-W7500
-    페이지](https://developer.mbed.org/platforms/WIZwiki-W7500/)
+  - 🌎[mbed WIZwiki-W7500 페이지](https://developer.mbed.org/platforms/WIZwiki-W7500/)
 
 위즈네트에서 운영하는 위즈위키 페이지의 자료들이다.
 

@@ -126,9 +126,9 @@ This section provides WizFi630S certificate and test reports.
 
  
   * <a href="/img/products/wizfi630s/wizfi630s_cert/2019-0009k_wizfi630s_koras_operation_test_report_60068-2-1_2-2_2-14_en.pdf" target="_blank">KORAS Operation Test Report_English</a>
-  * [KORAS Operation Test Report_Korean]()
+  * [KORAS Operation Test Report_Korean](/)
   * <a href="/img/products/wizfi630s/wizfi630s_cert/2019-0535f_wizfi630s_operation_test_report_reliability_test_en.pdf" target="_blank">Operation Test Report_English</a>
-  * [Operation Test Report_Korean]()
+  * [Operation Test Report_Korean](/)
 
 
 | Issue Date |

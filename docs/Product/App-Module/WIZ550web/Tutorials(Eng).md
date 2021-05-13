@@ -6,34 +6,34 @@ date: 2020-04-13
 
 ## Overview
 
-I/O control of WIZ550web performs I/O control and monitoring using CGI. The web page is configured to obtain the status value (GET) of the web server or to transfer the changed value of the web page to the web server (POST) by utilizing the 🌎[HTTP GET / POST method](http://www.w3schools.com/tags/ref_httpmethods.asp). In order to perform this operation, the HTML/JavaScript(AJAX) of the web page and the CGI handler of the web server must be implemented in a consistent manner. A description of CGI is provided in '[Getting Started Guide:CGI for WIZ550web](getting_started_guide_eng#cgi-for-wiz550web)'.
+I/O control of WIZ550web performs I/O control and monitoring using CGI. The web page is configured to obtain the status value (GET) of the web server or to transfer the changed value of the web page to the web server (POST) by utilizing the 🌎[HTTP GET / POST method](http://www.w3schools.com/tags/ref_httpmethods.asp). In order to perform this operation, the HTML/JavaScript(AJAX) of the web page and the CGI handler of the web server must be implemented in a consistent manner. A description of CGI is provided in [Getting Started Guide:CGI for WIZ550web](/getting_started_guide_eng).
 
 Users can understand and utilize I/O interface function implemented in WIZ550web through Tutorial. This allows users to access the Web server from a remote location, monitor the status of the user device, or create a user-specific WIZ550 web page that performs I/O on/off functions.
 
 This tutorial covers the following topics:
 
-Tutorial 0: [**Introduce the I/O Interface functions and test webpage**]()
+Tutorial 0: [**Introduce the I/O Interface functions and test webpage**](/)
 
    * It introduces the basic operation of Web browser and WIZ550web, and introduces predefined I / O interface function and test page so that user can modify web page and configure web site for desired form of I/O control.
      
-Tutorial 1: [**Set the Digital I/O Status**]()
+Tutorial 1: [**Set the Digital I/O Status**](/)
 
    * This tutorial introduces the creation of a Web page that can control the On / Off state of Digital I/O (16) provided by WIZ550web. This allows the user to control the LED / Relay of the product via the web. You can also create Digital I/O Direction (Input/Output/None) control functions by applying the functions learned through this tutorial.
      
-  * Tutorial 2: [Get the Digital I/O Status]()
-  * Tutorial 3: [Get the Analog Input Value]()
-  * Tutorial 4: [Get/Set the WIZ550web IP Settings]()
-  * Tutorial 5: [Real-time Data Update on WIZ550web Web page]()
-  * Tutorial 6: [How to Make Custom Interface Functions with WIZ550web]()
+  * Tutorial 2: [Get the Digital I/O Status](/)
+  * Tutorial 3: [Get the Analog Input Value](/)
+  * Tutorial 4: [Get/Set the WIZ550web IP Settings](/)
+  * Tutorial 5: [Real-time Data Update on WIZ550web Web page](/)
+  * Tutorial 6: [How to Make Custom Interface Functions with WIZ550web](/)
 
 The specification for predefined I/O functions can be found in the following guide.
 
 Guide Document
-[WIZ550web Get/Set Interface Functions Guide]()
+[WIZ550web Get/Set Interface Functions Guide](/)
 
 
 Tutorial 0:
-[Introduce the I/O Interface functions]()
+[Introduce the I/O Interface functions](/)
 
 
 ## Interface Functions Guide for WIZ550web
@@ -57,7 +57,7 @@ WIZ550web GitHub Repository
 
 WIZ550web GitHub Repository: Webpage source code
 
-🌎[GET/SET Interface functions Testpage]()
+🌎[GET/SET Interface functions Testpage](/)
 
 ## WIZ550web GET/SET Interface
 

@@ -147,7 +147,7 @@ initialize W5500 and SPI communication function. Pins can be changed
 freely.
 
 ``` c
-void spi0_master_init()
+void spi0_master_init(/)
 {
     SPIConfig_t spi_info = {.Config.Fields.BitOrder = SPI_BITORDER_MSB_LSB,
                         .Config.Fields.Mode     = SPI_MODE3,
@@ -165,7 +165,7 @@ void spi0_master_init()
 Function that initializes the W5500 through SPI.
 
 ``` c
-void user_ethernet_init()
+void user_ethernet_init(/)
 {
     uint8_t tmp;
     uint8_t memsize[2][8] = {{2,2,2,2,2,2,2,2},{2,2,2,2,2,2,2,2}};
@@ -190,7 +190,7 @@ void user_ethernet_init()
     timeout_info.time_100us = 0x3E8;    // timeout value = 10ms
     wizchip_settimeout(&timeout_info);
     /* Network initialization */
-    network_init();
+    network_init(/);
 }
 ```
 ### user\_app\_timer\_init

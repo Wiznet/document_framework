@@ -5,8 +5,8 @@ date: 2020-04-08
 ---
 
 **Supported Languages** 
-  * [English]() (current page)  
-  * [Korean]()
+  * [English](/) (current page)  
+  * [Korean](/)
 
 ![](/img/products/wiz750sr/docs_icon.png)
 

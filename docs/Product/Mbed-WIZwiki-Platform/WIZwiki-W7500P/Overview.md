@@ -129,7 +129,7 @@ years. W7500P suits users who need Internet connectivity best.
 
 
 
-   * [WIZwiki-W7500P V1.0 Schematic (Altium Designer)]()
+   * [WIZwiki-W7500P V1.0 Schematic (Altium Designer)](/)
    * <a href="/img/products/w7500p/overview/wizwiki-w7500p_sch_v1.0.pdf" target="_blank">WIZwiki-W7500P V1.0 Schematic (PDF)</a>
 
 **Part list**

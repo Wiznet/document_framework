@@ -12,26 +12,26 @@ WIZ550web의 I/O 제어는 CGI를 이용하여 I/O의 제어와 모니터링을 
 
 본 Tutorial 에서는 다음과 같은 내용을 다룬다.
 
-Tutorial 0: [**Introduce the I/O Interface functions and test webpage**]()
+Tutorial 0: [**Introduce the I/O Interface functions and test webpage**](/)
      * Web browser와 WIZ550web의 기본적인 동작에 대해 소개하고, 사용자가 웹 페이지만 수정하  여 원하는 형태의 I/O 제어용 웹 사이트를 구성 할 수 있도록 미리 정의된 I/O interface function과 테스트 페이지를 소개한다.
      
-**Tutorial 1: [Set the Digital I/O Status**]()
+**Tutorial 1: [Set the Digital I/O Status**](/)
      * WIZ550web에서 제공하는 Digital I/O (16)의 On - Off 상태를 제어 할 수 있는 Web page 제작에 대해 다룬다. 이를 통해 사용자는 웹을 통해 제품의 LED / Relay 등을 제어 할 수 있다. 이 Tutorial을 통해 학습한 기능을 응용하면 Digital I/O의 Direction (Input / Output / None) 제어 기능도 제작 할 수 있다.
      
-Tutorial 2: [Get the Digital I/O Status]()
-Tutorial 3: [Get the Analog Input Value]()
-Tutorial 4: [Get/Set the WIZ550web IP Settings]()
-Tutorial 5: [Real-time Data Update on WIZ550web Web page]()
-Tutorial 6: [How to Make Custom Interface Functions with WIZ550web]()
+Tutorial 2: [Get the Digital I/O Status](/)
+Tutorial 3: [Get the Analog Input Value](/)
+Tutorial 4: [Get/Set the WIZ550web IP Settings](/)
+Tutorial 5: [Real-time Data Update on WIZ550web Web page](/)
+Tutorial 6: [How to Make Custom Interface Functions with WIZ550web](/)
 
 미리 정의된 I/O Function에 대한 명세는 다음 가이드에서 확인 할 수 있다.
 
 Guide Document
-[WIZ550web Get/Set Interface Functions Guide]()
+[WIZ550web Get/Set Interface Functions Guide](/)
 
 
 Tutorial 0:
-[Introduce the I/O Interface functions]()
+[Introduce the I/O Interface functions](/)
 
 
 ## Interface Functions Guide for WIZ550web
@@ -42,7 +42,7 @@ WIZ550web은 펌웨어의 수정 없이 웹 페이지의 제작만으로 장치 
 
 GET / SET interface로 나뉘어 구현되어 있으며, 사용자는 JavaScript와 AJAX를 이용한 HTTP GET / POST method로 각 기능에 해당하는 CGI를 요청하는 방법을 활용하면 손쉽게 WIZ550web을 제어할 수 있는 웹 페이지를 구현 및 제작 할 수 있다. GET 명령의 경우 해당하는 요청에 대한 JavaScript Callback function의 형태로 값을 얻도록 구성 되었으며, SET 명령의 경우 CGI 요청과 함께 설정하고자 하는 값을 지정된 Web form element의 형태로 HTTP request에 포함하여 WIZ550web으로 전송하면 된다.
 
-WIZ550web의 CGI에 관한 내용은 ['Getting Started Guide: WIZ550web의 CGI']() 챕터를 참조하기 바란다.
+WIZ550web의 CGI에 관한 내용은 ['Getting Started Guide: WIZ550web의 CGI'](/) 챕터를 참조하기 바란다.
 
 ### Download and Link
 Get/Set interface CGI를 이용한 테스트 용 웹 페이지 및 펌웨어는 다음 링크에서 다운로드 할 수 있다.
@@ -53,7 +53,7 @@ WIZ550web GitHub Repository
 
 WIZ550web GitHub Repository: Webpage source code
 
-🌎[GET/SET Interface functions Testpage]()
+🌎[GET/SET Interface functions Testpage](/)
 
 ## WIZ550web GET/SET Interface
 

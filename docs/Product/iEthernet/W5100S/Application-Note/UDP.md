@@ -141,8 +141,7 @@ if (Sn_SR != SOCK_UDP) Sn_CR = CLOSE; goto START;
 Check the reception of UDP data from destination. User can also check
 for received data via TCP communication. It is strongly recommended to
 use the second method because of the same reasoning from TCP. Please
-refer to the “TCP SERVER” section. [TCP
-SERVER](tcp.md)
+refer to the “TCP SERVER” section. [TCP SERVER](/tcp.md)
 
 ``` c
 First method :
@@ -161,8 +160,7 @@ if (Sn_RX_RSR0 != 0x0000) goto Receiving Process stage;
 Process the received UDP data in Internal RX memory.  
 The structure of received UDP data is as below.
 
-![The Received UDP data
-format](/img/products/w5500/application/received_udp_data.jpg)
+![The Received UDP data format](/img/products/w5500/application/received_udp_data.jpg)
 
 The received UDP data consists of 8bytes PACKET-INFO, and DATA packet.
 The PACKET-INFO contains transmitter’s information (IP address, Port
@@ -348,13 +346,11 @@ if (Sn_SR != SOCK_UDP) Sn_CR = CLOSE; goto START;
 
 Refer to the “Unicast & Broadcast.” section.
 
-[Unicast &
-Broadcast](udp.md#unicast_and_broadcast)
+[Unicast & Broadcast](/udp.md#unicast_and_broadcast)
 
 ##### Receiving process
 
-Refer to the “Unicast & Broadcast.” section. [Unicast &
-Broadcast](udp.md#unicast_and_broadcast)
+Refer to the “Unicast & Broadcast.” section. [Unicast & Broadcast](/udp.md#unicast_and_broadcast)
 
 ##### Check send data / Sending Process
 
@@ -412,5 +408,4 @@ S0_IR(SENDOK) = ‘1’; /* clear previous interrupt of SEND completion */
 
 ##### Check finished / SOCKET close
 
-Refer to the “Unicast & Broadcast.” section. [Unicast &
-Broadcast](udp.md#unicast_and_broadcast)
+Refer to the “Unicast & Broadcast.” section. [Unicast & Broadcast](/udp.md#unicast_and_broadcast)

@@ -141,7 +141,7 @@ WizFi310에서 M2M 플랫폼(ThingPlug)로 데이터를 보내기 위해서는 A
    GMMP Trace :  Device ID =
    GMMP Trace :  ucReportType[0x1]
    GMMP Trace :  ucMediaType[0x1]
-   GMMP Trace :  usMessageBody =WizFi310 test data !@#$%^&*()
+   GMMP Trace :  usMessageBody =WizFi310 test data !@#$%^&*(/)
 ```
 
 * 위의 데이터를 ThingPlug에 제대로 전송했는지 여부는 Result Code[0x0], STATUS_OK을 통해 확인할 수 있다.
@@ -197,7 +197,7 @@ Application에서 적용하기 위해서는 "서비스 App 등록"에서 등록 
 ![](/img/products/wizfi250/app_4_result.png)  
 
 * "V2l6RmkyNTAgdGVzdCBkYXRhICFAIyQlXiYqKCk=" 을 Base64로 Decoding을 하게 되면
-WizFi310에서 보냈던 "WizFi310 test data \!@\#$%^&\*()"을 확인할 수 있다.
+WizFi310에서 보냈던 "WizFi310 test data \!@\#$%^&\*(/)"을 확인할 수 있다.
 
 ![](/img/products/wizfi250/app_5_decode.png)  
 
