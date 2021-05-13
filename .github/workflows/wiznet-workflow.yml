@@ -7,7 +7,7 @@ on:
     branches:
       - master
     paths:
-      - '.github/workflows/deploy.yml'
+      - '.github/workflows/wiznet-workflow.yml'
       - 'website/**'
 
 jobs:
