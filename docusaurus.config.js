@@ -139,8 +139,11 @@ module.exports = {
         docs: {
           routeBasePath:'/',
           sidebarPath: require.resolve('./sidebars.js'),
-          editUrl:
+          editUrl:          
             'https://github.com/Wiznet/document_framework/tree/master/',
+        },
+        sitemap:{
+        trailingSlash: false
         },
         theme: {
           customCss: require.resolve('./src/css/custom.css'),
