@@ -54,8 +54,11 @@ PPPoE which has been used in various applications for years.
   - High Product Endurance 
   - Minimum 100,000 program/erase cycles (FLASH) 
   - Minimum 10 years data retention
+
 ### W7100A Datasheet
+
 **Datasheet History**
+
 |Version|Date|Description|
 |-------|----|-----------|
 |0.9.1|2011-Sept.|Initial beta|
@@ -72,8 +75,7 @@ Link to WIZnet product page:
   - Code Memory
   - Data Memory
   - external Memory (100pin)
-  - [internal Data Memory &
-    SFR](internal_Memory_and_SFR.md)
+  - [internal Data Memory & SFR](internal_Memory_and_SFR.md)
   - [SFR definition](SFR_definition.md)
   - Interrupt
   - [I/O Ports](IO_Ports.md)
@@ -98,6 +100,5 @@ Link to WIZnet product page:
   - 32-Bit Arithmetic Functions
   - [ISP Flash Programming protocol](ISP.md)
 
-**[The virtual W7100A Datasheet -
-Start]** (does not exist yet)
+**[The virtual W7100A Datasheet - Start]** (does not exist yet)
  * 🌍 [W7100A](https://www.wiznet.io/product-item/w7100a/)

@@ -10,9 +10,6 @@ date: 2020-04-03
     based designs
   - **Arduino Pin-compatible** platform hardware.
 
------
-
-
 ## Overview
 
 W5100S-EVB is an evaluation board for W5100S chip based on the 32-bit

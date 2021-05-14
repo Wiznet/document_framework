@@ -17,8 +17,8 @@ date: 2020-04-03
 |[PWM](../W7500/Peripherals-internal/pwm.md)            |[CaptureMode](../W7500/Peripherals-internal/capturemode.md),[CounterMode](../W7500/Peripherals-internal/countermode.md),[DeadZoneGeneration](../W7500/Peripherals-internal/deadzonegeneration.md),[PWMOutput](../W7500/Peripherals-internal/pwmoutput.md),[TimerMode](../W7500/Peripherals-internal/timermode.md)|
 |[RNG](../W7500/Peripherals-internal/rng.md)            |[Random number generation example](../W7500/Peripherals-internal/rng_ex.md)|
 |[SSP](../W7500/Peripherals-internal/ssp.md)            |[Loopback](../W7500/Peripherals-internal/Loopback.md),[SD Card LED](../W7500/Peripherals-internal/SD_Card_LED.md)|
-|[TOE](../W7500/Peripherals-internal/toe.md)            |[Loopback](../W7500/Peripherals-internal/loopback.md), [DHCP](../W7500/Peripherals-internal/dhcpclient.md),[DNS](Peripherals-internal/dnsclient.md)|
-|[UART](../W7500/Peripherals-internal/uart.md)          |[Interrupt](../W7500/Peripherals-internal/inter.md),[Polling](../W7500/Peripherals-internal/polling.md),[Printf](Peripherals-internal/printf.md),[Uart Hardware Flow Control](../W7500/Peripherals-internal/flowcontrol.md)|
+|[TOE](../W7500/Peripherals-internal/toe.md)            |[Loopback](../W7500/Peripherals-internal/Loopback.md), [DHCP](../W7500/Peripherals-internal/dhcpclient.md),[DNS](../W7500/Peripherals-internal/dnsclient.md)|
+|[UART](../W7500/Peripherals-internal/uart.md)          |[Interrupt](../W7500/Peripherals-internal/inter.md),[Polling](../W7500/Peripherals-internal/polling.md),[Printf](../W7500/Peripherals-internal/printf.md),[Uart Hardware Flow Control](../W7500/Peripherals-internal/flowcontrol.md)|
 |[WDT](../W7500/Peripherals-internal/wdt.md)            |[WDTReset](../W7500/Peripherals-internal/wdtreset.md)|
 |[SysTick](../W7500/Peripherals-internal/systick.md)    | [Delay example](../W7500/Peripherals-internal/delay.md)|
 |[AFC](../W7500/Peripherals-internal/afc.md)            |     |

@@ -8,7 +8,7 @@ There are three ways to write firmware into WIZwiki-W7500ECO.
 
 * Using the CMSIS-DAP (Drag and Drop)
 * [Using the CMSIS-DAP](../WIZwiki-W7500/using_cmsis_dap_debugger)
-* [Go to ISP tool manual & Program download](../../W7500/documents/appnote/How_to_use_ISP_tool.md)
+* [Go to ISP tool manual & Program download](./../../iMCU/W7500/documents/appnote/How_to_use_ISP_tool.md)
 
 -----
 

@@ -4,7 +4,7 @@ title: Using CMSIS-DAP Debugger
 date: 2020-04-07
 ---
 
-CMSIS-DAP does support USB cable and Debugger as well. You need to [Set Flash Algorithm](set_flash_algorithm.md) to use CMSIS-DAP Debugger in Keil.  
+CMSIS-DAP does support USB cable and Debugger as well. You need to [Set Flash Algorithm](/how_to_debug_wizwiki_w7500p#set_flash_algorithm) to use CMSIS-DAP Debugger in Keil.  
 
 ### To Follow
 

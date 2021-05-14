@@ -16,7 +16,7 @@ communicate through UART1 on W7500p (Target MCU).
 To install the serial driver from ARM mbed, please refer to the below
 link.
 
-   * [How to install WIZwiki-W7500p serial driver](ow_to_install_wizwiki_w7500p_serial_driver)
+   * [How to install WIZwiki-W7500p serial driver](how_to_install_wizwiki_w7500p_serial_driver)
 
 -----
 
@@ -24,7 +24,7 @@ link.
 
 WIZwiki-W7500 has a built-in default firmware. You can do self-test with the default firmware as below.
 
-   * [Download WIZwiki-W7500p Examples Binary](Download_WIZwiki_W7500_Examples_Binary.md)
+   * [Download WIZwiki-W7500p Examples Binary](How_to_write_the_firmware_into_WIZwiki_W7500P.md#Examples_Binary)
 
 **Test Sequence**
 

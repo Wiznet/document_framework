@@ -210,9 +210,57 @@ WizArduino M0 ETH로 Programming을 하기에 앞서 몇 가지 확인 사항이
 
 ## FAQ
 
-  - [How to recover a board blocked?](How_to_recover_a_board_blocked.md)
-  - [Where is the MAC address?](Where_is_the_MAC_address.md)
-  - [How do i get a POE module?](How_do_i_get_a_POE_module.md)
+  - How to recover a board blocked?
+
+   Rescue guide for microcontroller ATSAMD21G18A
+
+    정상적인 보드의 경우 Reset을 누르면  
+    장치 관리자에서 Arduino M0 (Bootloader Mode) Navtive Port(COMxx)로
+    검색이 된 후  
+    Arduino M0 Native Port(COMxx)로 변경되어 검색이 됩니다.  
+      
+    하지만, 예상치 못한 오류로  
+    Arduino M0 (Bootloader Mode) Navtive Port(COMxx)로 검색이 된 후  
+    Arduino M0 Native Port(COMxx)로 변경되지 못 할 경우가 있습니다. 그래서
+    아두이노 스케치에서 역시 보드의 포트가 검색이 안되어 스케치 파일을
+    업로드 할 수 없는 경우가 발생 합니다.
+
+    위 증상과 관련하여 Arduino.org에서 [복구 가이드](http://www.arduino.org/learning/tutorials/advanced-guides/rescue-guide-for-microcontroller-atsamd21g18a-2)를 제공 합니다.  
+      
+    만약 위와 같은 증상이 발생 한다면, 위 복구 가이드 또는 아래 내용을 따라
+    하여 복구 하시기 바랍니다.
+
+    1.  보드를 PC와 연결
+    2.  아두이노 스케치 프로그램을 실행
+    3.  메뉴의 파일-환경설정 선택
+    4.  환경설정 메뉴에서 다음 동작중 자세한 출력 보이기: 컴파일, 업로드
+        선택 후 확인
+    5.  아두이노 스케치 프로그램을 종료 후 재 실행
+    6.  메뉴의 도구-보드-Arduino M0 선택
+    7.  메뉴의 파일-예제-Basic-Blink 선택
+    8.  업로드 버튼 선택
+    9.  로그를 확인하다가 COM Port List 가 보일때 보드의 Reset 누름
+
+  - Where is the MAC address?
+
+      Ethernet을 하는 모든 장치에는 고유의 물리적인 주소가 존재합니다.  
+      WizArduino M0 ETH로 Ethernet통신을 할 시 필요한 MAC address는 아래
+      사진의 위치에 스티커로 부착 되어 제공 하고 있습니다.  
+      <img src="/osh/wizarduino/faq/2뒷면.png" width="300" />  
+      네트워크 응용 프로그램을 만들때 MAC address를 확인 하신 후 아래 코드와
+      같이 확인한 MAC address를 입력하여 사용하세요.
+
+          byte mac[] = {
+            0x00, 0x08, 0xdc, 0x??, 0x??, 0x??
+          };
+
+  - How do i get a POE module?
+    WizArduino M0 ETH 에는 Board 중앙 부분에 POE Module을 장착 할 수 있는 핀헤더 소켓이 있습니다.
+
+    장착 가능한 모듈은  
+    [Silvertel](https://www.silvertel.com/) 사의 [Ag9700 제품](https://www.silvertel.com/images/datasheets/Ag9700-Datasheet-low-cost-isolated-Power-over-Ethernet-PoE-module-solution.pdf) (Ag9712-2BR, Ag9700 SIL Package, OutPut Voltage : 12.0V) 입니다.
+
+    국내에서는 [파워텔넷](http://www.powertelnet.co.kr/)사에서 취급하고 있으니 참고 하시기 바랍니다.
 
 -----
 

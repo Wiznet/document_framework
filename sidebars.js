@@ -128,7 +128,7 @@ module.exports = {
 					 'Product/iMCU/W7100/memorymap_sfr',
 				],
 			},
-				'Product/iMCU/w7100a',
+				//'Product/iMCU/w7100a',
 			{	
 				type: 'link',
 				label: 'W7100A', // string - the label that should be displayed.

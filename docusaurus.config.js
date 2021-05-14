@@ -6,8 +6,8 @@ module.exports = {
   //url: 'https://wiznet.github.io',
   url: 'https://docs.wiznet.io',
   baseUrl: '/',
-  onBrokenLinks: 'ignore',
-  onDuplicateRoutes: 'ignore',
+  onBrokenLinks: 'warn',
+  onDuplicateRoutes: 'warn',
   favicon: 'img/wizfavicon.ico',
   organizationName: 'Wiznet', // Usually your GitHub org/user name.
   projectName: 'document_framework', // Usually your repo name.

@@ -8,7 +8,7 @@ There are many resource Products using WIZnet WizFi modules.
 
 ## wizfi250:
 
-3rd party products using our 🌎[WizFi250](WizFi250.md)
+3rd party products using our 🌎[WizFi250](../Product/Wi-Fi-Module/WizFi250/WizFi250.md)
 module:  
 
 ### Wifi Shield (Fi250) from Seeed Studio
@@ -19,7 +19,7 @@ module:
 > 🌎[Wifi
 > shield(Fi250)](http://www.seeedstudio.com/depot/Wifi-Shield-Fi250-p-1719.html?cPath=19_20)
 > is a economic internet solution with Arduino. 🌎[The Wi-Fi
-> module(WizFi250)](WizFi250.md) support IEEE 802.11b/g/n
+> module(WizFi250)](../Product/Wi-Fi-Module/WizFi250/WizFi250.md) support IEEE 802.11b/g/n
 > mode, maximum speed up to 65Mbit/s. Wifi shield (Fi250) combine on
 > board antenna; it’s easy to build you project in a small box. The
 > module reserve a UFL connector, you can use an extra antenna to

@@ -37,7 +37,7 @@ Edition](<http://www.coocox.org/Cookie/Cookie_Nuvoton.html>)
   * [Tutorial](Tutorial.md)
   * [IP Configuration](IP_Configuration.md)
     * [loopback](loopback.md)
-  * [All pages](All_pages.md)  
+  * [All pages](open_source_hardware_all_pages.md)  
   # CooCox
 
 Visit to the Web site

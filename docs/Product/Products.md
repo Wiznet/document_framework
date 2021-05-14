@@ -9,7 +9,7 @@ slug: /
 
   - [W7500](iMCU/W7500/Overview.md)
   - [W7500P](iMCU/W7500P/Overview.md)
-  - [W7100A (under construction)](iMCU/W7100A.md)
+  - W7100A (under construction)
 
 The **IOP4IoT W7500** chip is the one-chip solution which integrates an
 ARM Cortex-M0, 128KB Flash and hardwired TCP/IP core for various
