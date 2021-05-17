@@ -140,10 +140,11 @@ module.exports = {
           routeBasePath:'/',
           sidebarPath: require.resolve('./sidebars.js'),
           editUrl:          
+//             'https://github.com/Wiznet/document_framework/tree/master/',
             'https://github.com/Wiznet/document_framework/tree/master',
         },
         sitemap:{
-        trailingSlash: true
+        trailingSlash: false
         },
         theme: {
           customCss: require.resolve('./src/css/custom.css'),
