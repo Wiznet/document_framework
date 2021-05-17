@@ -143,7 +143,7 @@ module.exports = {
             'https://github.com/Wiznet/document_framework/tree/master/',
         },
         sitemap:{
-        trailingSlash: false
+        trailingSlash: true
         },
         theme: {
           customCss: require.resolve('./src/css/custom.css'),
