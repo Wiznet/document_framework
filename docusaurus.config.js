@@ -132,6 +132,7 @@ module.exports = {
       copyright: `Copyright © ${new Date().getFullYear()} WIZnet Co., Ltd. Built with Docusaurus.`,
     },
   },
+  plugins: ['./sitePlugin'],
   presets: [
     [
       '@docusaurus/preset-classic',
