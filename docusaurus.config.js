@@ -36,7 +36,7 @@ module.exports = {
     navbar: {
       //title: 'WIZnet',
       logo: {
-        alt: 'My Site Logo',
+        alt: 'Wiznet Logo',
         src: 'img/wiznet_logo.svg',
         srcDark: 'img/wiznet_logo-white.svg',
       },
