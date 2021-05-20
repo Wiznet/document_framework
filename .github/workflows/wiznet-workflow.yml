@@ -1,11 +1,11 @@
-name: Docusaurus on Windows
+name: Docusaurus on Windows ENV
 
 on:
   # Trigger the workflow on push or pull request,
   # but only for the master branch
   push:
     branches:
-      - master
+      - main
 
 jobs:
   build:
@@ -20,12 +20,14 @@ jobs:
       with:
         node-version: ${{ matrix.node-version }}
     - name: Installation
-      run: yarn
+#       run: yarn
+      run: npm i
     - name: Docusaurus 2 Build
-      run: yarn build
+#       run: yarn build
+      run: npm run build
     - name: Deploy
       uses: peaceiris/actions-gh-pages@v3
       with:
         github_token: ${{ secrets.GITHUB_TOKEN }}
 #         publish_dir: ./website/build
-        publish_dir: ./build
+        publish_dir: ./build/
