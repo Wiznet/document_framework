@@ -1,4 +1,4 @@
-name: Docusaurus on Windows ENV
+name: Docusaurus on Windows
 
 on:
   # Trigger the workflow on push or pull request,
