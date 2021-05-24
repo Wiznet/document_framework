@@ -1,4 +1,4 @@
-![](static/img/croppedwiznetlogo.png)
+![](../../../../static/img/croppedwiznetlogo.png)
 
 # WIZnet Documentation Framework 
 
