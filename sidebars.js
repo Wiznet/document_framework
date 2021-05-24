@@ -145,7 +145,7 @@ module.exports = {
 				type: 'category',
 				label: 'W7500P-S2E',
 				items: [
-					'Product/Pre-programmed-MCU/W7500P-S2E/w7500p-s2e-EN',
+					'Product/Pre-programmed-MCU/W7500P-S2E/w7500p-s2e-[EN]',
 					'Product/Pre-programmed-MCU/W7500P-S2E/w7500p-s2e-[KO]',
 				],
 			},	
