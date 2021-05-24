@@ -1,6 +1,6 @@
 ---
 id: w7500p-s2e-[KO]
-title: W7500(P)-S2E (KO)
+title: W7500-P-S2E-KO
 date: 2020-04-07
 ---
 
