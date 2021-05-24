@@ -30,7 +30,7 @@ module.exports = {
 				'Product/iMCU/W7500/documents_md',
 				'Product/iMCU/W7500/peripherals',
 				'Product/iMCU/W7500/libraries_examples',
-				'Product/iMCU/W7500/all_pages',
+				//'Product/iMCU/W7500/all_pages',
 				{
 					type: 'category',
 					label: 'Peripherals Internal',
@@ -113,7 +113,7 @@ module.exports = {
 				'Product/iMCU/W7500P/documents',
 				'Product/iMCU/W7500P/peripherals',
 				'Product/iMCU/W7500P/libraries_examples',
-				'Product/iMCU/W7500P/all_pages',
+				//'Product/iMCU/W7500P/all_pages',
 			],
 			},
 			{			
@@ -145,7 +145,7 @@ module.exports = {
 				type: 'category',
 				label: 'W7500P-S2E',
 				items: [
-					'Product/Pre-programmed-MCU/W7500P-S2E/w7500p-s2e-[EN]',
+					'Product/Pre-programmed-MCU/W7500P-S2E/w7500p-s2e-EN',
 					'Product/Pre-programmed-MCU/W7500P-S2E/w7500p-s2e-[KO]',
 				],
 			},	
@@ -200,7 +200,7 @@ module.exports = {
 			'Product/iEthernet/W5100S/w5100s_getting_started',
 			'Product/iEthernet/W5100S/w5100s_projects_truestudio',
 			'Product/iEthernet/W5100S/w5100s_projects_eclipse',
-			'Product/iEthernet/W5100S/all_pages',
+			//'Product/iEthernet/W5100S/all_pages',
 			],
 			},
 			{
@@ -226,8 +226,8 @@ module.exports = {
 				'Product/iEthernet/W5500/Application/esd_test_document',
 			],
 			},
-				'Product/iEthernet/W5500/all_pages',
-				'Product/iEthernet/W5500/all_pages_jp',
+				//'Product/iEthernet/W5500/all_pages',
+				//'Product/iEthernet/W5500/all_pages_jp',
 			{
 			type: 'category',
 			label: 'W5500-EVB',
@@ -532,8 +532,8 @@ module.exports = {
 			label: 'WIZ105SR', // string - the label that should be displayed.
 			href: 'https://www.wiznet.io/product-item/wiz105sr/' // string - the target URL.
 		},
-		'Product/S2E-Module/wiz107sr',
-		'Product/S2E-Module/wiz107sr_um',
+		//'Product/S2E-Module/wiz107sr',
+		//'Product/S2E-Module/wiz107sr_um',
 		{
 			type: 'link',
 			label: 'WIZ107SR', // string - the label that should be displayed.
@@ -593,7 +593,7 @@ module.exports = {
 		'Product/ioModule/WIZ550io/block_diagram_schematic',
 		'Product/ioModule/WIZ550io/dimension',
 		'Product/ioModule/WIZ550io/related_products',
-		'Product/ioModule/WIZ550io/all_pages',
+		//'Product/ioModule/WIZ550io/all_pages',
 		],
 		},
 		{
@@ -601,19 +601,19 @@ module.exports = {
 			label: 'WIZ820io', // string - the label that should be displayed.
 			href: 'http://www.wiznet.io/product-item/wiz820io/' // string - the target URL.
 		},
-		'Product/ioModule/wiz810mj',
+		//'Product/ioModule/wiz810mj',
 		{
 			type: 'link',
 			label: 'WIZ810MJ', // string - the label that should be displayed.
 			href: 'https://www.wiznet.io/product-item/wiz810mj/' // string - the target URL.
 		},
-		'Product/ioModule/wiz811mj',
+		//'Product/ioModule/wiz811mj',
 		{
 			type: 'link',
 			label: 'WIZ811MJ', // string - the label that should be displayed.
 			href: 'https://www.wiznet.io/product-item/wiz811mj/' // string - the target URL.
 		},
-		'Product/ioModule/wiz812mj',
+		//'Product/ioModule/wiz812mj',
 		{
 			type: 'link',
 			label: 'WIZ812MJ', // string - the label that should be displayed.
@@ -624,7 +624,7 @@ module.exports = {
 			label: 'WIZ830MJ', // string - the label that should be displayed.
 			href: 'https://www.wiznet.io/product-item/wiz830mj/' // string - the target URL.
 		},
-		'Product/ioModule/nm7010b+',
+		//'Product/ioModule/nm7010b+',
 		{
 			type: 'link',
 			label: 'NM7010B+', // string - the label that should be displayed.
@@ -900,14 +900,14 @@ module.exports = {
 				'Product/Mbed-WIZwiki-Platform/WIZwiki-W7500ECO/how_to_use_mdk_for_w7500',
 				'Product/Mbed-WIZwiki-Platform/WIZwiki-W7500ECO/how_to_use_makefile_with_windows7',
 				],
-				},
+			},
 				{
 					type: 'category',
 					label: 'Etc.',
 					items: [
 					'Product/Mbed-WIZwiki-Platform/WIZwiki-W7500ECO/how_to_use_isp_tool',
 					],
-					},
+				},
 		],
 		},
 		{
@@ -955,17 +955,25 @@ module.exports = {
 		'Product/Open-Source-Hardware/wizarduino_m0_eth',
 		'Product/Open-Source-Hardware/wizarduino_mega_wifi',
 		'Product/Open-Source-Hardware/wizfi310_shield',
-		'Product/Open-Source-Hardware/w5500_ethernet_shield',
-		'Product/Open-Source-Hardware/w5500_ethernet_shield_kor',
-		'Product/Open-Source-Hardware/w5500_ethernet_shield_jp',
+		{
+			type: 'category',
+			label: 'W5500 Ethernet Shield',
+			items: [
+				'Product/Open-Source-Hardware/w5500_ethernet_shield',
+				'Product/Open-Source-Hardware/w5500_ethernet_shield_kor',
+				'Product/Open-Source-Hardware/w5500_ethernet_shield_jp',
+				'Product/Open-Source-Hardware/getting_started_arduino',
+				'Product/Open-Source-Hardware/getting_started_arduino_kr',
+				'Product/Open-Source-Hardware/getting_started_arduino_jp',
+			],
+		},
+
 		'Product/Open-Source-Hardware/ioshield_a',
-		'Product/Open-Source-Hardware/ethernet_library_for_ioShield_A',
+		//'Product/Open-Source-Hardware/ethernet_library_for_ioShield_A',
 		'Product/Open-Source-Hardware/ioshield_k',
 		'Product/Open-Source-Hardware/ioshield_l',
-		'Product/Open-Source-Hardware/getting_started_arduino',
-		'Product/Open-Source-Hardware/getting_started_arduino_kr',
-		'Product/Open-Source-Hardware/getting_started_arduino_jp',
-		'Product/Open-Source-Hardware/Tutorial',
+
+		/*'Product/Open-Source-Hardware/Tutorial',
 		'Product/Open-Source-Hardware/IP_Configuration',
 		'Product/Open-Source-Hardware/http_client',
 		'Product/Open-Source-Hardware/loopback',
@@ -974,7 +982,7 @@ module.exports = {
 		'Product/Open-Source-Hardware/twitter_test',
 		'Product/Open-Source-Hardware/cookie', // is coocox already in cookie?
 		'Product/Open-Source-Hardware/open_source_hardware_coocox',
-		'Product/Open-Source-Hardware/open_source_hardware_all_pages',
+		'Product/Open-Source-Hardware/open_source_hardware_all_pages',*/
 		],
     },
 	],
