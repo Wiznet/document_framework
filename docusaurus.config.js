@@ -38,7 +38,7 @@ module.exports = {
 //      hideOnScroll: true,
       //title: 'WIZnet',
       logo: {
-        alt: 'Wiznet Logo',
+        alt: 'Wiznet Company Logo',
         src: 'img/wiznet_logo.svg',
         srcDark: 'img/wiznet_logo-white.svg',
       },
