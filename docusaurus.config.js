@@ -9,7 +9,7 @@ module.exports = {
   onBrokenLinks: 'warn',
   onDuplicateRoutes: 'warn',
   favicon: 'img/wizfavicon.ico',
-  organizationName: 'Wiznet', // Usually your GitHub org/user name.
+  organizationName: 'WIZnet Co., Ltd.', // Usually your GitHub org/user name.
   projectName: 'document_framework', // Usually your repo name.
   themeConfig: {
     hideableSidebar: true,
