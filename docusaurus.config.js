@@ -60,11 +60,11 @@ module.exports = {
 //               to: '/',
 //             },
             {
-              label: 'Design Guide',
+              label: 'Design Guide ➤',
               to: '/Design-Guide/design_guide',
             },
             {
-              label: 'VAR Products',
+              label: 'VAR Products ➤',
               to: '/VAR-Products-using-WIZnet/var_products_using_wiznet',
             },
             // ... more items
