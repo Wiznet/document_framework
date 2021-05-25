@@ -39,8 +39,8 @@ date: 2020-04-16
 ## Datasheet
 
   - **Datasheet**: 
-  [[English](Datasheet(Hardware_Spec,_Characteristics)-[EN])] /
-    [[Korean](/Datasheet(Hardware_Spec,_Characteristics)-[KO])] 
+  [[English](datasheet_hardware_spec_characteristics-[EN])] /
+    [[Korean](datasheet_hardware_spec_characteristics-[KO])] 
      - Hardware Specification
      - Electrical Characteristics
      - Reference Schematics
