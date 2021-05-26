@@ -112,6 +112,11 @@ RS-485</td>
 ## WIZ510SSL Dimension
 
   - WIZ510SSL-EVB (TTL/RS232) Rev1.0 Dimension : 
-      - TBC 83mm x 65mm ( PCB board size )
-      - TBC 83mm x 65mm x 18mm ( Included part size )
+      - 100mm x 65mm ( PCB board size )
+
+|                                                          |
+| -------------------------------------------------------- |
+| ![](/img/products/wiz510ssl/wiz510ssl-evb/wiz510ssl-evb-dimensions.png) |
+| **Rev0.1**                                               |
+
 

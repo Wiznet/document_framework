@@ -574,11 +574,11 @@ RS-485</td>
 ## WIZ510SSL Dimension
 
   - WIZ510SSL Dimension : 
-      - TBC 45mm x 30mm ( PCB board size )
-      - TBC 48mm x 30mm x 18mm ( Included part size )
+      - 50mm x 30mm ( PCB board size )
+
 
 |                                                          |
 | -------------------------------------------------------- |
-|  |
+| ![](/img/products/wiz510ssl/datasheet/wiz510ssl-dimensions.png) |
 | **Rev0.1**                                               |
 
