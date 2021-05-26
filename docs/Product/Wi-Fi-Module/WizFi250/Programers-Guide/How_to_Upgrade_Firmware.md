@@ -71,7 +71,7 @@ Gateway    : 192.168.0.1
 
 ### Start OTA mode using FUNCTION pin
 
-1. If entered the OTA Mode using FUNCTION pin, you will see messages as below.(Refer to FUNCTION Pin Usage)
+1. If entered the OTA Mode using FUNCTION pin, you will see messages as below.Refer to [FUNCTION Pin Usage](io_pin#function-pin-usage)
 
 ![](/img/products/wizfi250/wizfi250pg/wizfi250pg-17.png)
 

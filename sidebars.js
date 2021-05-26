@@ -521,7 +521,24 @@ module.exports = {
 				'Product/S2E-Module/WIZ550S2E/tutorial_kor',
 				'Product/S2E-Module/WIZ550S2E/download',
 				],
-				},	
+			},
+			{
+				type: 'category',
+				label: 'WIZ510SSL',
+				items: [
+				'Product/S2E-Module/WIZ510SSL/wiz510ssl',
+				'Product/S2E-Module/WIZ510SSL/datasheet-[en]',
+				'Product/S2E-Module/WIZ510SSL/wiz510ssl-evb-[en]',
+				'Product/S2E-Module/WIZ510SSL/getting_started-[en]',
+				'Product/S2E-Module/WIZ510SSL/getting_started-[ko]',
+				'Product/S2E-Module/WIZ510SSL/command_manual-[en]',
+				'Product/S2E-Module/WIZ510SSL/configuration_tool_manual-[en]',
+				'Product/S2E-Module/WIZ510SSL/firmware_update_guide-[en]',
+				'Product/S2E-Module/WIZ510SSL/ssl_connection_guide-[en]',
+				'Product/S2E-Module/WIZ510SSL/troubleshooting_guide-[en]',
+				'Product/S2E-Module/WIZ510SSL/aws_connection_guide-[en]',
+				],
+			},	
 		{
 			type: 'link',
 			label: 'WIZ100SR', // string - the label that should be displayed.

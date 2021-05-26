@@ -2040,7 +2040,7 @@ AT+FOTA
 
 - **Meaning:** Launch OTA Mode
 
-User can update firmware in OTA modewhich can be entered by this command. Refer to [Wi-Fi OTA]
+User can update firmware in OTA modewhich can be entered by this command. Refer to [Wi-Fi OTA](how_to_upgrade_firmware#wi-fi-otaover-the-air---app)
 
 - **Response:**
 
