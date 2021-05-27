@@ -36,9 +36,9 @@ The list of products supported by WIZnet-S2E-Tool-GUI is as follows.
 
   - [WIZ510SSL](WIZ510SSL)
   - [WIZ750SR](https://github.com/Wiznet/WIZ750SR)
-  - [WIZ750SR-100](../WIZ510SSL-1xx-Series/WIZ750SR-100/WIZ750SR_100)
-  - [WIZ750SR-105](../WIZ510SSL-1xx-Series/WIZ750SR-105/WIZ750SR_105)
-  - [WIZ750SR-110](../WIZ510SSL-1xx-Series/WIZ750SR-110/WIZ750SR_110)
+  - [WIZ750SR-100](../WIZ750SR-1xx-Series/WIZ750SR-100/WIZ750SR_100)
+  - [WIZ750SR-105](../WIZ750SR-1xx-Series/WIZ750SR-105/WIZ750SR_105)
+  - [WIZ750SR-110](../WIZ750SR-1xx-Series/WIZ750SR-110/WIZ750SR_110)
   - [WIZ107SR](http://www.wiznet.io/product-item/wiz107sr/)
   - [WIZ108SR](http://www.wiznet.io/product-item/wiz108sr/)
 
@@ -126,7 +126,7 @@ section are available below.
         virus protection software.
       - Please refer to this guide if still unsuccessful.
           - **[Troubleshooting Guide: Device cannot be
-            searched](trouble_shooting-[EN])**
+            searched](troubleshooting_guide-[en]#module-cannot-be-searched)**
 
 #### 2\) Apply Settings
 
@@ -287,7 +287,6 @@ DURING FIRMWARE UPLOADING**
       - By selecting this option, all information is automatically
         allocated from the router (DHCP server).
 
-  * Details of IP address allocation are available at [WIZ510SSL User's Manual: IP address settings](users_manual-[EN]#ip-address-settings).  
  * PPPoE mode is not supported.
 
 #### 4\) Current flash bank
@@ -492,7 +491,6 @@ DURING FIRMWARE UPLOADING**
         or remote host when the module attempts connection in TCP client
         mode\[3\] or UDP mode.
       - The port number of the destination is required.
-  - Details of the remote host setting are available at [WIZ510SSL User's Manual: Remote Host Settings](users_manual-[EN]#remote-host-settings).
 
 -----
 

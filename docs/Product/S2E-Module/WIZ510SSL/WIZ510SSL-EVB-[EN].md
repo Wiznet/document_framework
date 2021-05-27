@@ -23,7 +23,7 @@ date: 2021-03-15
 |                                                                           |
 | ------------------------------------------------------------------------- |
 | ![](/img/products/wiz510ssl/wiz510ssl-evb/wiz510sslevb_callout.png) |
-| **\<WIZ510SSL-EVB Call Out\>**                                   |
+| **WIZ510SSL-EVB Call Out**                                   |
 
 -----
 
@@ -42,8 +42,7 @@ date: 2021-03-15
 <tbody>
 <tr class="odd">
 <td>1.0</td>
-<td>TTL<br />
-RS-232</td>
+<td>RS-232</td>
 <td>Altium</td>
 <td><img src="" /> <a href="">Download</a></td>
 <td><strong>Latest version H/W</strong></td>
@@ -52,22 +51,7 @@ RS-232</td>
 <td>:::</td>
 <td>:::</td>
 <td>PDF</td>
-<td><img src="" /> <a href="">Download</a></td>
-<td>:::</td>
-</tr>
-<tr class="odd">
-<td>:::</td>
-<td>RS-422<br />
-RS-485</td>
-<td>Altium</td>
-<td><img src="" /> <a href="">Download</a></td>
-<td>:::</td>
-</tr>
-<tr class="even">
-<td>:::</td>
-<td>:::</td>
-<td>PDF</td>
-<td><img src="" /> <a href="">Download</a></td>
+<td><img src="" /> <a href="/img/products/WIZ510SSL/static/WIZ550SSL-EVB_V001.PDF"target="_blank">Download</a></td>
 <td>:::</td>
 </tr>
 </tbody>
@@ -101,7 +85,7 @@ RS-485</td>
 <td>:::</td>
 <td>:::</td>
 <td>PDF</td>
-<td><a href="/img/productsWIZ510SSL/static/WIZ510SSL_partlist.pdf"target="_blank">Download</a></td>
+<td><a href="/img/products/WIZ510SSL/static/WIZ510SSL_EVB_V100_partlist.pdf"target="_blank">Download</a></td>
 <td>:::</td>
 </tr>
 </tbody>

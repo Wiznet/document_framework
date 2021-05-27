@@ -27,7 +27,7 @@ The '**Using the WIZnet S2E Configuration Tool**' section provides a firmware up
 #### Software
 
   - WIZnet S2E Configuration Tool
-	- [Download the latest version](https://github.com/Wiznet/WIZnet-S2E-Tool-GUI/releases/tag/v1.3.0)
+	- [Download the latest version](https://github.com/Wiznet/WIZnet-S2E-Tool-GUI/releases/tag/v1.4.0)
     - [Download the older versions](https://github.com/Wiznet/WIZnet-S2E-Tool-GUI/releases)
     - [GitHub Repository](https://github.com/Wiznet/WIZnet-S2E-Tool-GUI)
 
@@ -88,31 +88,3 @@ Firmware update is finished!
 | -------------------------------------------------------------|
 | ![](/img/products/wiz510ssl/firmware_update_guide/finished_firmware_update.png) |
 | Figure: ***Finished firmware update***                       |
-
-
-
------
-
-## Navigation
-
------
-
- **WIZ510SSL**
-
-  - **User's Manual [(English)](Users_Manual-[EN])/[(Korean)](Users_Manual-[KO])**
-
-  - **Device Command Manual [(English)](Command_Manual-[EN])/[(Korean)](Command_Manual-[KO])**
-
-  - **Troubleshooting Guide [(English)](Troubleshooting_Guide-[EN])/[(Korean)](Troubleshooting_Guide-[KO])**
-
-  - **Update History [(English)](Series_Update_History-[EN])/[(Korean)](Series_Update_History-[KO])**
-
------
-
-**WIZ510SSL Series Downloads**
-
-  - **[Software Download](Download)**
-
-  - **[Technical References](Technical_References)**
-
------

@@ -33,7 +33,7 @@ WIZ510SSL 개발 보드 패키지는 다음과 같이 구성되어 있습니다.
   - WIZ510SSL-RS232/TTL-EVB 개발 보드
   - 케이블 (이더넷 / 시리얼 / 마이크로 USB 타입 B)
 
-개발 보드 별 패키지 구성품의 전체 항목은 [WIZ510SSL Overview: Product Contents](/Overview-[KO]#product-contents) 페이지에서 확인 하실 수 있습니다.
+개발 보드 별 패키지 구성품의 전체 항목은 [WIZ510SSL Overview: Product Contents](wiz510ssl#product-contents) 페이지에서 확인 하실 수 있습니다.
 
 
 
@@ -76,7 +76,7 @@ WIZ510SSL 개발 보드 패키지는 다음과 같이 구성되어 있습니다.
 
 ### Software
 
-  - Configuration tool 프로그램 ([Download page](download))
+  - Configuration tool 프로그램 ([Github page](https://github.com/Wiznet/WIZnet-S2E-Tool-GUI/releases))
   - TCP 서버 / TCP 클라이언트 / UDP 터미널 프로그램
   - 시리얼 터미널 프로그램
 

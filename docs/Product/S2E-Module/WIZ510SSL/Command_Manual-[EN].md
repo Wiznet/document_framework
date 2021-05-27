@@ -16,7 +16,7 @@ Identical 2-byte character strings is used for setting the product with commands
 
 The different command modes are as following.
 
-  - **[Control device using serial command mode](#entering-serial-command_mode)**
+  - **[Control device using serial command mode](#entering-serial-command-mode)**
 
   - **[Control device using Ethernet network](#command-over-ethernet)**
 
@@ -2724,32 +2724,3 @@ Return value</th>
 
 	**Without Parameter (Get)**
     - In ASCII: `S10\r\n`
-
-
-
------
-
-## Navigation
-
------
-
- **WIZ510SSL**
-
-  - **User's Manual [(English)](Users_Manual-[EN])/[(Korean)](Users_Manual-[KO])**
-
-  - **Device Command Manual [(English)](Command_Manual-[EN])/[(Korean)](Command_Manual-[KO])**
-
-  - **Troubleshooting Guide [(English)](Troubleshooting_Guide-[EN])/[(Korean)](Troubleshooting_Guide-[KO])**
-
-  - **Update History [(English)](Series_Update_History-[EN])/[(Korean)](Series_Update_History-[KO])**
-
------
-
-**WIZ510SSL Series Downloads**
-
-  - **[Software Download](Download)**
-
-  - **[Technical References](Technical_References)**
-
------
-

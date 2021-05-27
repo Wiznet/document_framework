@@ -33,7 +33,7 @@ The WIZ510SSL evaluation board package contains the following parts.
   - WIZ510SSL-RS232/TTL-EVB Evaluation Board
   - Cables (Ethernet / Serial / Micro USB Type B)
 
-The entire list of parts of the board is available at the [WIZ510SSL Overview: Product Contents](Overview-[EN]#product-contents) page.
+The entire list of parts of the board is available at the [WIZ510SSL Overview: Product Contents](wiz510ssl#product-contents) page.
 
 
 
@@ -76,7 +76,7 @@ The entire list of parts of the board is available at the [WIZ510SSL Overview: P
 
 ### Software
 
-  - Configuration tool program ([Download page](download))
+  - Configuration tool program ([Github page](https://github.com/Wiznet/WIZnet-S2E-Tool-GUI/releases))
   - TCP server / TCP client / UDP terminal program
   - Serial terminal program
 
@@ -197,7 +197,7 @@ Open the configuration tool and click the **Device Search** button. If the board
 
 **The WIZ510SSL configuration tool can be downloaded from Github below.**
 
-  - [Download the latest version](https://github.com/Wiznet/WIZnet-S2E-Tool-GUI/releases/tag/v1.3.0)
+  - [Download the latest version](https://github.com/Wiznet/WIZnet-S2E-Tool-GUI/releases/tag/V1.4.0)
   - [Download the older versions](https://github.com/Wiznet/WIZnet-S2E-Tool-GUI/releases)
   - [GitHub Repository](https://github.com/Wiznet/WIZnet-S2E-Tool-GUI)
 
@@ -258,31 +258,5 @@ Now you’re ready to use the WIZ510SSL!
 
 **If there is any problem?**
 Please refer to our **[Troubleshooting Guide](Troubleshooting_Guide-[EN])**!
-
------
-
-
-
-## Navigation
-
------
-
- **WIZ510SSL**
-
-  - **User's Manual [(English)](Users_Manual-[EN])/[(Korean)](Users_Manual-[KO])**
-
-  - **Device Command Manual [(English)](Command_Manual-[EN])/[(Korean)](Command_Manual-[KO])**
-
-  - **Troubleshooting Guide [(English)](Troubleshooting_Guide-[EN])/[(Korean)](Troubleshooting_Guide-[KO])**
-
-  - **Update History [(English)](Series_Update_History-[EN])/[(Korean)](Series_Update_History-[KO])**
-
------
-
-**WIZ510SSL Series Downloads**
-
-  - **[Software Download](Download)**
-
-  - **[Technical References](Technical_References)**
 
 -----

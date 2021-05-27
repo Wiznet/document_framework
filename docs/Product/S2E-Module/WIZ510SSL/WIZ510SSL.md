@@ -6,9 +6,7 @@ date: 2021-03-15
 
 ## Overview
 
-![](/img/products/wiz510ssl/datasheet/W510SSL_angle.png)
-
-WIZnet’s S2C module will enable users to send serial data to the Cloud via Ethernet.
+WIZnet’s WIZ510SSL module will enable users to send serial data to the Cloud via Ethernet.
 Users can save certifications using the Arm TrustZone and F/W
 updates are done via Dual Bank. WIZ510SSL can connect to SSL server and
 transmit data to various cloud services via MQTT over SSL.
@@ -51,14 +49,34 @@ WIZ510SSL is projected to be both price competitive (30% cheaper in average) and
 
 ## Product Contents
 
+![](/img/products/wiz510ssl/getting_started/wiz510ssl-evb_package.png)  
+
+**WIZ510SSL-EVB Package** 
+
+![](/img/products/wiz510ssl/datasheet/W510SSL_angle.png)
+
+**WIZ510SSL**
+
+![](/img/products/wiz510ssl/wiz510ssl-evb/wiz510sslevb_sideview.png)
+
+**WIZ510SSL-EVB**
+
 ### W510SSL Module Series
 
-
+| Ordering Information | Item                  | Q'ty | Remarks    |
+| -------------------- | --------------------- | ---- | ---------- |
+| WIZ510SSL            | WIZ510SSL module   | 1    | \-         |
 
 ### W510SSL Evaluation Board Series
 
+| Ordering Information | Category | Item                          | Q'ty | Remarks    |
+| -------------------- | -------- | ----------------------------- | ---- | ---------- |
+| WIZ510SSL-EVB    | Device   | WIZ510SSL module           | 1    | \-         |
+| :::                  | :::      | WIZ510SSL-EVB board    | 1    | \-         |
+| :::                  | Cable    | D-SUB9-FEMALE serial cable    | 1    | Data port  |
+| :::                  | :::      | USB 2.0 Micro B type cable 1M | 1    | Debug port |
+| :::                  | :::      | 24AWG CAT5e UTP cable         | 1    | LAN cable  |
 
-
-
+Contents can be replaced with better components to improve the performance of the product.
 
 -----

@@ -53,7 +53,9 @@ embedded application platform especially internet of things.
  * [W7500S2E-R1](S2E-Module/W7500S2E-R1/W7500S2E-R1.md)
  * [W5500S2E-S1](S2E-Module/W5500S2E-S1/W5500S2E-S1.md)
  * [W5500S2E-Z1](S2E-Module/W5500S2E-Z1/W5500S2E-Z1.md)
- * [WIZ107SR (under construction)](S2E-Module/WIZ107SR.md) 
+ * [WIZ107SR (under construction)](S2E-Module/WIZ107SR.md)
+ * [WIZ510SSL](S2E-Module/WIZ510SSL/WIZ510SSL.md)
+
 
 
 -----

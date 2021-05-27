@@ -31,9 +31,9 @@ UART port는 커맨드의 입력과 수행을 지원하지 않습니다.**
 
 각 방향의 커맨드 모드에 대한 진입 방법과 활용은 다음과 같습니다.
 
-  - **[시리얼 커맨드 모드를 통한 제어](#entering_serial_command_mode)**
+  - **[시리얼 커맨드 모드를 통한 제어](#entering-serial-command-mode)**
 
-  - **[이더넷 네트워크를 통한 제어](#command_via_ethernet)**
+  - **[이더넷 네트워크를 통한 제어](#command-over-ethernet)**
 
 1.  위즈네트에서 제공하는 **제품 설정 프로그램(Configuration tool)**도 동일한 커맨드 셋을 이용하여
     WIZ750SR 제품을 제어합니다.

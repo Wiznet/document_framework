@@ -9,12 +9,10 @@ date: 2021-05-21
 The '**Using the OpenSSL**' section provides a guide to **connecting to the SSL server** through **OpenSSL**
 
 
-
-### Required Hardware and Software
-
+## Required Hardware and Software
 
 
-#### Hardware
+### Hardware
 
   - WIZ510SSL
 
@@ -24,10 +22,10 @@ The '**Using the OpenSSL**' section provides a guide to **connecting to the SSL 
 
 
 
-#### Software
+### Software
 
   - WIZnet S2E Configuration Tool
-	- [Download the latest version](https://github.com/Wiznet/WIZnet-S2E-Tool-GUI/releases/tag/v1.3.0)
+	- [Download the latest version](https://github.com/Wiznet/WIZnet-S2E-Tool-GUI/releases/tag/v1.4.0)
     - [Download the older versions](https://github.com/Wiznet/WIZnet-S2E-Tool-GUI/releases)
     - [GitHub Repository](https://github.com/Wiznet/WIZnet-S2E-Tool-GUI)
 
@@ -36,17 +34,15 @@ The '**Using the OpenSSL**' section provides a guide to **connecting to the SSL 
 
 
 
-### How to Connect to SSL Server through OpenSSL
+## How to Connect to SSL Server through OpenSSL
 
-
-
-#### Step 1: Set up environment to use the WIZ510SSL
+### Step 1: Set up environment to use the WIZ510SSL
 
 The process of set up environment to use the WIZ510SS is available at the [WIZ510SSL Getting Started](Getting_Started-[EN]) page.
 
 
 
-#### Step 2: Set up and run the SSL server through OpenSSL
+### Step 2: Set up and run the SSL server through OpenSSL
 
   - Set up the SSL server
 
@@ -70,9 +66,7 @@ Ex>
 s_server -accept 443 -cert server.crt -key server.key
 ```
 
-
-
-#### Step 3: Set up the WIZ510SSL through the WIZnet S2E Configuration Tool for SSL server connection
+### Step 3: Set up the WIZ510SSL through the WIZnet S2E Configuration Tool for SSL server connection
 
   - Select **SSL TCP client** mode in the **Operation mode** setting section
 
@@ -102,9 +96,7 @@ s_server -accept 443 -cert server.crt -key server.key
 
 ※ **Note**: If you need certificates to connect to SSL server, please refer to the [**'Upload Certificates'**](#upload_certificates) section below.
 
-
-
-#### Step 4: Done
+### Step 4: Done
 
 WIZ510SSL is successfully connected to SSL server through OpenSSL!
 
@@ -119,9 +111,7 @@ WIZ510SSL is successfully connected to SSL server through OpenSSL!
 | Figure: ***Connect to the SSL server***                      |
 
 
-
-<a name="upload_certificates"></a>
-## Upload Certificates
+#### Upload Certificates
 
 You can upload certificates below in the '**Certificate manager**' tab of the'WIZnet S2E Configuration Tool'.
   - Root CA
@@ -136,31 +126,3 @@ After loading the certificate by clicking the '**Load file**' button, be sure to
 | -------------------------------------------------------|
 | ![](/img/products/wiz510ssl/ssl_connection_guide/upload_certificates.png) |
 | Figure: ***Upload Certificates***                      |
-
-
-
------
-
-## Navigation
-
------
-
- **WIZ510SSL**
-
-  - **User's Manual [(English)](Users_Manual-[EN])/[(Korean)](Users_Manual-[KO])**
-
-  - **Device Command Manual [(English)](Command_Manual-[EN])/[(Korean)](Command_Manual-[KO])**
-
-  - **Troubleshooting Guide [(English)](Troubleshooting_Guide-[EN])/[(Korean)](Troubleshooting_Guide-[KO])**
-
-  - **Update History [(English)](Series_Update_History-[EN])/[(Korean)](Series_Update_History-[KO])**
-
------
-
-**WIZ510SSL series Downloads**
-
-  - **[Software Download](Download)**
-
-  - **[Technical References](Technical_References)**
-
------

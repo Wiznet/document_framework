@@ -35,7 +35,7 @@ all commands and guides for each sending methods and its form of frames.
 
 The different command modes are as following.
 
-  - **[Control device using serial command mode](#entering-serial-command_mode)**
+  - **[Control device using serial command mode](#entering-serial-command-mode)**
 
   - **[Control device using Ethernet network](#command-over-ethernet)**
 

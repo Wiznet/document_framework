@@ -124,9 +124,7 @@ Flow control: None, RTS / CTS, XON / XOFF</td>
 <tbody>
 <tr class="odd">
 <td>1.0</td>
-<td>TTL<br />
-RS-232<br />
-RS-485</td>
+<td>RS-232</td>
 <td>Altium</td>
 <td><img src="" /> <a href="">Download</a></td>
 <td>-</td>
@@ -135,7 +133,7 @@ RS-485</td>
 <td>:::</td>
 <td>:::</td>
 <td>PDF</td>
-<td><img src="" /> <a href="/static/AWS_S2C.pdf">Download</a></td>
+<td><img src="" /> <a href="/img/productsWIZ510SSL/static/WIZ510SSL_schematic.pdf">Download</a></td>
 <td>-</td>
 </tr>
 </tbody>
@@ -147,7 +145,7 @@ RS-485</td>
 
 | H/W version | Filetype | Download Link      | Remarks |
 | ----------- | -------- | ------------------ | ------- |
-| 1.0         | Excel    | [Download](/img/products/WIZ510SSL/static/Bill-of-Materials-WIZ510SSL.xlsx) |         |
+| 1.0         | Excel    | <a href="/img/products/WIZ510SSL/static/Bill-of-Materials-WIZ510SSL.xlsx" target="_blank">Download</a>|         |
 |         | PDF  |  <a href="/img/productsWIZ510SSL/static/WIZ510SSL_partlist.pdf" target="_blank">Download</a> |         |
 
 -----
