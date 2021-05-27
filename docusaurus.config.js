@@ -22,17 +22,18 @@ module.exports = {
         lightIcon: '\u{1f324}',
       },
     },
-//     algolia: {
-//       apiKey: 'f997035e1f482592037217527848e3fd',
-//       indexName: 'wiznet-cloud',
-//             // Optional: see doc section bellow
-//       contextualSearch: true,
+     algolia: {
+       apiKey: 'd2ede60bed9975d4b60dd5436896fe91',
+       indexName: 'wiznet',
+             // Optional: see doc section bellow
+       contextualSearch: false,
 
-//       // Optional: Algolia search parameters
-//      // searchParameters: {},
-
-//       //... other Algolia params
-//     },
+       // Optional: Algolia search parameters
+       searchParameters: {},
+       //inputSelector: 'I',
+       algoliaOptions: {'facetFilters': ["type:content"] },
+       //... other Algolia params
+     },
 
     navbar: {
 //      hideOnScroll: true,
