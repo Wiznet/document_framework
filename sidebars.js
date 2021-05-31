@@ -15,6 +15,14 @@ module.exports = {
 		'Product/products',
 		{
 			type: 'category',
+			label: 'Azure Sphere',
+			items: [
+				//'Product/Azure-Sphere/asg200',
+				'Product/Azure-Sphere/asg210',
+			],
+		},
+		{
+			type: 'category',
 			label: 'iMCU',
 			items: [
 				'Product/iMCU/imcu',
@@ -805,14 +813,7 @@ module.exports = {
 			}
 			],
 		},
-		{
-			type: 'category',
-			label: 'Azure Sphere',
-			items: [
-				//'Product/Azure-Sphere/asg200',
-				'Product/Azure-Sphere/asg210',
-			],
-		},
+		
 		{
 			type: 'category',
 			label: 'Mbed WIZwiki Platform',

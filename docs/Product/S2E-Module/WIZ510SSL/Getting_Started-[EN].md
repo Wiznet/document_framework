@@ -144,7 +144,7 @@ Double check that the WIZ510SSL and the PC, or laptop you are using to set up WI
 | :::              | :::                         | Gateway address | 192.168.11.1 | \- |
 | :::              | :::                         | Port number     | 5000         | \- |
 
-  - User should to matching the network settings of 'WIZ510SSL's remote host' and 'PC (or laptop)' for testing TCP client/mixed mode.
+  - User should match the network settings of 'WIZ510SSL's remote host' and 'PC (or laptop)' for testing TCP client/mixed mode.
 
   - If the DHCP(automatic IP allocation) is used, both the WIZ510SSL and test PC must be set to be assigned the same IP from the same router.
 
