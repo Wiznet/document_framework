@@ -15,10 +15,21 @@ module.exports = {
 		'Product/products',
 		{
 			type: 'category',
-			label: 'Azure Sphere',
+			label: 'Azure Sphere Guardian Module',
 			items: [
+				{
+				type: 'category',
+				label: 'ASG210',
+				items: [
 				//'Product/Azure-Sphere/asg200',
 				'Product/Azure-Sphere/asg210',
+				'Product/Azure-Sphere/asg210_datasheet',
+				'Product/Azure-Sphere/asg210_debugger',
+				'Product/Azure-Sphere/asg210_resources',
+				'Product/Azure-Sphere/asg210_getting_started',
+				'Product/Azure-Sphere/asg210_running_application',
+				],
+				},
 			],
 		},
 		{
