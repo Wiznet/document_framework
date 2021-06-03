@@ -12,7 +12,7 @@ import useBaseUrl from '@docusaurus/useBaseUrl';
 
 ## Block Diagram
 
-<img src={useBaseUrl('img/AzureSphere/datasheet/ASG210_blockdiagram.png')} width="750"></img>
+<img src={useBaseUrl('img/AzureSphere/datasheet/asg210_blockdiagram.png')} width="750"></img>
 
 ## Callout
 
