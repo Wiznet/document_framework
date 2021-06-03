@@ -1,14 +1,8 @@
 ---
 id: getting_started-[en]
-title: Getting Started [EN]
+title: Getting Started
 date: 2021-05-10
 ---
-
-**Supported Languages**
-  * [English](Getting_Started-[EN]) (current page)
-  * [Korean](Getting_Started-[KO])
-
------
 
 **This section was written on the assumption that the use of WIZ510SSL evaluation board.**
 
