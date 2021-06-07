@@ -31,7 +31,7 @@ import useBaseUrl from '@docusaurus/useBaseUrl';
 | Vcc      | Operating Voltage          |    |     | 5    |     | V    |
 | Vss      | Ground                     |    |     | 0    |     | V    |
 | VDDIO    | Device supply votlage, I/O |  Group 1  | 2.97 | 3.3 | 3.63 | V |
-| VIH      | Input Hight Voltage        |    |   |     |    |  |
+| VIH      | Input High Voltage        |    |   |     |    |  |
 | VIL      | Input Low voltage          |    |   |     |    |  |
 | VOH      | Output High Voltage        |    |   |     |    |  |
 | VOL      | Output Low Voltage         |    |   |     |    |  |
@@ -67,6 +67,7 @@ More detail on this topic is available here:
 ### Private Network (W5500)
 
 The onboard W5500 chip is a Hardwired Internet controller designed as a full hardwired TCP/IP stack with WIZnet technology. It supports 10/100 Mbps interface using TCP or UDP network protocol:
+
 •	Private network, communicating with Brown-field various network protocol services
 
 W5500 supports TCP, UDP, IPv4, ICMP, ARP, IGMP, and PPPoE and 8 independent SOCKETs to be used simultaneously and 32KB internal memory for data communication. User can develop an Ethernet application easily by using the simple W5500 SOCKET program instead of handling a complex Ethernet controller. W5500 also provides WOL(Wake on LAN) and a Power Down Mode in order to reduce power consumption.
@@ -174,7 +175,7 @@ An overview of ASG210 LED status as follows:
 
 | Name  | Status LEDs   | Color   | Description |
 | ------| ------------- | ------- | ----------- | 
-| LED0  | POWER         | Red     | Confimation that 5V supply rail voltage is ok |
+| LED0  | POWER         | Red     | Confirmation that 5V supply rail voltage is ok |
 | LED1  | AZURE         | Green   | Ready to communicate with Azure Cloud         |
 | LED2  | Wi-Fi         | Green   | Activate Wi-Fi |
 | LED3  | ETHERNET      | Green   | Activate WAN, ETH0 port |

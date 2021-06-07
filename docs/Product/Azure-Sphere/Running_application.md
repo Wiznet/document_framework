@@ -93,7 +93,7 @@ azsphere tenant show-selected
 
 ### Set Wi-Fi Information
 
-ASG210 supports auto switching between Public Ethernet and Wi-Fi. Public Ethernet interface has high priority. Please refer 8.7 Configuration Wi-Fi Network Settings.
+ASG210 supports auto switching between Public Ethernet and Wi-Fi. Public Ethernet interface has high priority. Please refer [Configuration Wi-Fi Network Settings](asg210_getting_started#configuration-wi-fi-network-settings).
 
 ###	Set up Public Ethernet interface
 
