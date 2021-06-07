@@ -1,5 +1,5 @@
 ---
-id: ssl_connection_guide-[en]
+id: ssl_connection_guide
 title: SSL Connection Guide
 date: 2021-05-21
 ---
@@ -38,7 +38,7 @@ The '**Using the OpenSSL**' section provides a guide to **connecting to the SSL 
 
 ### Step 1: Set up environment to use the WIZ510SSL
 
-The process of set up environment to use the WIZ510SS is available at the [WIZ510SSL Getting Started](Getting_Started-[EN]) page.
+The process of set up environment to use the WIZ510SS is available at the [WIZ510SSL Getting Started](getting_started) page.
 
 
 

@@ -1,5 +1,5 @@
 ---
-id: configuration_tool_manual-[en]
+id: configuration_tool_manual
 title: Configuration Tool Manual
 date: 2021-03-18
 ---
@@ -160,7 +160,7 @@ section are available below.
         virus protection software.
       - Please refer to this guide if still unsuccessful.
           - **[Troubleshooting Guide: Firmware cannot be
-            uploaded](trouble_shooting-[EN])**
+            uploaded](troubleshooting_guide)**
   - The module will not work properly if the firmware is not correctly
     uploaded.
 
@@ -174,7 +174,7 @@ DURING FIRMWARE UPLOADING**
 #### 5\) Factory Reset
 
   - Returns the settings of WIZ510SSL to factory default.
-  - Factory default setting of can be checked at [WIZ510SSL Factory Settings](getting_started-[EN]#WIZ510SSL-factory-settings).
+  - Factory default setting of can be checked at [WIZ510SSL Factory Settings](getting_started#WIZ510SSL-factory-settings).
   - Then the module will automatically reboot.
 
 #### 6\) Save Config
@@ -639,6 +639,6 @@ multi-selected but has priority as shown below.
 -----
 
 **If there is any problem?**  
-Please refer to our **[Troubleshooting Guide](Troubleshooting_Guide-[EN])**\! 
+Please refer to our **[Troubleshooting Guide](troubleshooting_guide)**\! 
 
 -----

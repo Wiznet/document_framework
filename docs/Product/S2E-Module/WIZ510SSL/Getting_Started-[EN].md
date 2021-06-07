@@ -1,5 +1,5 @@
 ---
-id: getting_started-[en]
+id: getting_started
 title: Getting Started
 date: 2021-05-10
 ---
@@ -251,6 +251,6 @@ Now you’re ready to use the WIZ510SSL!
 -----
 
 **If there is any problem?**
-Please refer to our **[Troubleshooting Guide](Troubleshooting_Guide-[EN])**!
+Please refer to our **[Troubleshooting Guide](troubleshooting_guide)**!
 
 -----

@@ -1,5 +1,5 @@
 ---
-id: wiz510ssl-evb-[en]
+id: wiz510ssl-evb
 title: WIZ510SSL-EVB
 date: 2021-03-15
 ---

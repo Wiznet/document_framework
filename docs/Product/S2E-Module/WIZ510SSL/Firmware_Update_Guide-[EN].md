@@ -1,5 +1,5 @@
 ---
-id: firmware_update_guide-[en]
+id: firmware_update_guide
 title: Firmware Update Guide
 date: 2021-03-24
 ---
@@ -44,7 +44,7 @@ The '**Using the WIZnet S2E Configuration Tool**' section provides a firmware up
 
 #### Step 1: Set up environment to use the WIZ510SSL
 
-The process of set up environment to use the WIZ510SS is available at the [WIZ510SSL Getting Started](Getting_Started-[EN]) page.
+The process of set up environment to use the WIZ510SS is available at the [WIZ510SSL Getting Started](getting_started) page.
 
 
 

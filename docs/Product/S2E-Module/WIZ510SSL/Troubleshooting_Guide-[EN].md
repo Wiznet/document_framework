@@ -1,5 +1,5 @@
 ---
-id: troubleshooting_guide-[en]
+id: troubleshooting_guide
 title: Troubleshooting Guide
 date: 2021-04-21
 ---

@@ -1,5 +1,5 @@
 ---
-id: aws_connection_guide-[en]
+id: aws_connection_guide
 title: AWS Connection Guide
 date: 2021-05-21
 ---

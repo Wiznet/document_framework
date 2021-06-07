@@ -1,5 +1,5 @@
 ---
-id: command_manual-[en]
+id: command_manual
 title: Command Manual
 date: 2021-05-21
 ---

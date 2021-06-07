@@ -1,5 +1,5 @@
 ---
-id: datasheet-[en]
+id: datasheet
 title: Datasheet
 date: 2021-03-15
 ---
