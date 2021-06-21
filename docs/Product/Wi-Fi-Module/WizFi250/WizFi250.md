@@ -65,8 +65,8 @@ module family:**
 
 ## Material
 
-  - [WizFi250 Datasheet](Datasheet/1_introduction)
-  - [WizFi250 Programmer's Guide](Programers-Guide/overview)
-  - [WizFi250 Quick Start Guide](Quick-Start-Guide/1_wizfi250_evaluation_board)
+  - [WizFi250 Datasheet](wizfi250_datasheet)
+  - [WizFi250 Programmer's Guide](wizfi250_programmersguide)
+  - [WizFi250 Quick Start Guide](wizfi250_quickstart)
   - [WizFi250 EVB SCH](wizfi250_evb_sch)
   - [Reference YouTube](reference_youtube)

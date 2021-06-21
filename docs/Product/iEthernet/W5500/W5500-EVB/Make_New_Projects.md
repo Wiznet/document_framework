@@ -156,7 +156,7 @@ checksum -p ${TargetChip} -d "${BuildArtifactFileBaseName}.bin"
 
 From now on, you can make your own application project based on newly
 created project for W5500 EVB\!  
-Please refer to !<a href="http://www.nxp.com/documents/other/LPCXpresso_Getting_Started_User_Guide.pdf" target="_blank">](/img/products/w5500/w5500_evb/icons/download.png) [NXP LPCXpresso Getting started user guide</a>
+Please refer to ![](/img/products/w5500/w5500_evb/icons/download.png)<a href="http://www.nxp.com/documents/other/LPCXpresso_Getting_Started_User_Guide.pdf" target="_blank">NXP LPCXpresso Getting started user guide</a>
 for more details.
 
 -----

@@ -56,28 +56,28 @@ Repository**
 (Berkeley Socket type APIs)</td>
 <td>1.0.3</td>
 <td>-</td>
-<td><embed src="/img/products/w5500/iolibrary_bsd_ethernet_v103.zip" /></td>
+<td><a href="/img/products/w5500/iolibrary_bsd_ethernet_v103.zip" target="_blank">Click</a></td>
 </tr>
 <tr class="odd">
 <td>:::</td>
 <td>:::</td>
 <td>1.0.2</td>
 <td>-</td>
-<td><embed src="/img/products/w5500/iolibrary_bsd_ethernet_v102.zip" /></td>
+<td><a href="/img/products/w5500/iolibrary_bsd_ethernet_v102.zip" target="_blank">Click</a></td>
 </tr>
 <tr class="even">
 <td>:::</td>
 <td>:::</td>
 <td>1.0.1</td>
 <td>-</td>
-<td><embed src="/img/products/w5500/iolibrary_bsd_ethernet_v101.zip" /></td>
+<td><a href="/img/products/w5500/iolibrary_bsd_ethernet_v101.zip" target="_blank">Click</a></td>
 </tr>
 <tr class="odd">
 <td>:::</td>
 <td>:::</td>
 <td>1.0.0</td>
 <td>-</td>
-<td><embed src="/img/products/w5500/iolibrary_bsd_ethernet_v100.zip" /></td>
+<td><a href="/img/products/w5500/iolibrary_bsd_ethernet_v100.zip" target="_blank">Click</a></td>
 </tr>
 <tr class="even">
 <td>:::</td>
@@ -85,21 +85,21 @@ Repository**
 (Application protocols)</td>
 <td>1.1.1</td>
 <td>-</td>
-<td><embed src="/img/products/w5500/iolibrary_bsd_internet_v111.zip" /></td>
+<td><a href="/img/products/w5500/iolibrary_bsd_internet_v111.zip" target="_blank">Click</a></td>
 </tr>
 <tr class="odd">
 <td>:::</td>
 <td>:::</td>
 <td>1.1.0</td>
 <td>-</td>
-<td><embed src="/img/products/w5500/iolibrary_bsd_internet_v110.zip" /></td>
+<td><a href="/img/products/w5500/iolibrary_bsd_internet_v110.zip" target="_blank">Click</a></td>
 </tr>
 <tr class="even">
 <td>:::</td>
 <td>:::</td>
 <td>1.0.0</td>
 <td>-</td>
-<td><embed src="/img/products/w5500/iolibrary_bsd_internet_v100.zip" /></td>
+<td><a href="/img/products/w5500/iolibrary_bsd_internet_v100.zip" target="_blank">Click</a></td>
 </tr>
 <tr class="odd">
 <td>Documents</td>
@@ -107,28 +107,28 @@ Repository**
 (chm, html)</td>
 <td>1.0.3</td>
 <td>-</td>
-<td><embed src="/img/products/w5500/w5500_socket_apis_v103.zip" /></td>
+<td><a href="/img/products/w5500/w5500_socket_apis_v103.zip" target="_blank">Click</a></td>
 </tr>
 <tr class="even">
 <td>:::</td>
 <td>:::</td>
 <td>1.0.2</td>
 <td>-</td>
-<td><embed src="/img/products/w5500/w5500_socket_apis_v102.zip" /></td>
+<td><a href="/img/products/w5500/w5500_socket_apis_v102.zip" target="_blank">Click</a></td>
 </tr>
 <tr class="odd">
 <td>:::</td>
 <td>:::</td>
 <td>1.0.1</td>
 <td>-</td>
-<td><embed src="/img/products/w5500/w5500_socket_apis_v101.zip" /></td>
+<td><a href="/img/products/w5500/w5500_socket_apis_v101.zip" target="_blank">Click</a></td>
 </tr>
 <tr class="even">
 <td>:::</td>
 <td>:::</td>
 <td>1.0.0</td>
 <td>-</td>
-<td><embed src="/img/products/w5500/w5500_socket_apis.zip" /></td>
+<td><a href="/img/products/w5500/w5500_socket_apis.zip" target="_blank">Click</a></td>
 </tr>
 </tbody>
 </table>
@@ -229,21 +229,21 @@ CooCox CoIDE Project</td>
 <td>Loopback Test</td>
 <td>2013-11-04</td>
 <td>-</td>
-<td><embed src="/img/products/w5500/w5500_example_loopback_stm32f103x_coide_20131104.zip" /></td>
+<td><a href="/img/products/w5500/w5500_example_loopback_stm32f103x_coide_20131104.zip" target="_blank">Click</a></td>
 </tr>
 <tr class="odd">
 <td>:::</td>
 <td>DHCP Client</td>
 <td>2013-12-26</td>
 <td>-</td>
-<td><embed src="/img/products/w5500/w5500_example_dhcp_stm32f103x_coide_20131226.zip" /></td>
+<td><a href="/img/products/w5500/w5500_example_dhcp_stm32f103x_coide_20131226.zip" target="_blank">Click</a></td>
 </tr>
 <tr class="even">
 <td>:::</td>
 <td>DNS Client</td>
 <td>2013-12-26</td>
 <td>-</td>
-<td><embed src="/Wiznet/img/products/w5500/w5500_example_dns_stm32f103x_coide_20131226.zip" /></td>
+<td><a href="/img/products/w5500/w5500_example_dns_stm32f103x_coide_20131226.zip" target="_blank">Click</a></td>
 </tr>
 <tr class="odd">
 <td>EnergyMicro<br />
@@ -254,7 +254,7 @@ DHCP Client<br />
 DNS Client</td>
 <td>2013-12-20</td>
 <td>-</td>
-<td><a href="/osh/energymicro/tinygecko">Click</a></td>
+<td><a href="../../Open-Source-Hardware/tinygecko">Click</a></td>
 </tr>
 </tbody>
 </table>
@@ -275,21 +275,21 @@ CooCox CoIDE Project</td>
 <td>Loopback Test</td>
 <td>2013-10-23</td>
 <td>-</td>
-<td><embed src="/img/products/w5500/w5500_example_loopback_stm32f103x_coide.zip" /></td>
+<td><a href="/img/products/w5500/w5500_example_loopback_stm32f103x_coide.zip" target="_blank">Click</a></td>
 </tr>
 <tr class="odd">
 <td>:::</td>
 <td>DHCP Client</td>
 <td>2013-11-08</td>
 <td>-</td>
-<td><embed src="/img/products/w5500/w5500_example_dhcp_stm32f103x_coide_20131108.zip" /></td>
+<td><a href="/img/products/w5500/w5500_example_dhcp_stm32f103x_coide_20131108.zip" target="_blank">Click</a></td>
 </tr>
 <tr class="even">
 <td>:::</td>
 <td>DNS Client</td>
 <td>2013-11-08</td>
 <td>-</td>
-<td><embed src="/img/products/w5500/w5500_example_dns_stm32f103x_coide_20131108.zip" /></td>
+<td><a href="/img/products/w5500/w5500_example_dns_stm32f103x_coide_20131108.zip" target="_blank">Click</a></td>
 </tr>
 </tbody>
 </table>
@@ -319,7 +319,7 @@ and then insert to each of same named directory in provided project.
 #### Description
 
 This driver provides BSD-type Socket APIs for
-[W5500](overview)). Because the function names of this
+[W5500](overview). Because the function names of this
 driver are more user-friendly than those of the older drivers, …,
 current WIZnet chip users can easily migrate from their WIZnet chip
 application to the W5500 application. All drivers for W5100, W5200 and
@@ -499,9 +499,8 @@ Socket APIs
 
 **ioLibrary with example project : latest version**
 
-|              |               |         |      |                                                         |
-| ------------ | ------------- | ------- | ---- | ------------------------------------------------------- |
 |              | Application   | Version | Note | Download Link                                           |
+| ------------ | ------------- | ------- | ---- | ------------------------------------------------------- |
 | Cookie board | Loopback test | 1.0.2   | \-   | <a href="/img/products/w5500/w5500_coocox_project_v102.zip" target="_blank">Click</a> |
 
 
@@ -510,10 +509,10 @@ Socket APIs
 
 
   * socket.c(Refer to 2014-03-18)
-    - TCPReSend(/) : Remove this function and related codes because TCP send mechanism was changed.
-    - TCPReSendNB(/) : Remove this function and related codes because TCP send mechanism was changed.
-    - TCPSendCHK(/) : Modify return value.
-    - TCPSend(/) : Change return value to len.
+    - TCPReSend() : Remove this function and related codes because TCP send mechanism was changed.
+    - TCPReSendNB() : Remove this function and related codes because TCP send mechanism was changed.
+    - TCPSendCHK() : Modify return value.
+    - TCPSend(/ : Change return value to len.
   * loopback.c(Refer to 2014-03-18)
     - Existing mechanism resend packet if don't send all received packet, but change not to resend.
 * v100

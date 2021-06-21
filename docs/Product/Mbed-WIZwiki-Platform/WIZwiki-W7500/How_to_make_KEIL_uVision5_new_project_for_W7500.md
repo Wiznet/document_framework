@@ -194,7 +194,3 @@ After compile, **W7500_Test.bin** file will be created.
 And then WIZwiki-W7500 will upload this bin file on itself via the User program you registered.
 
 ![](/img/products/w7500/overview/pdf.jpg)
-
-If you want to convert this document to the PDF file? Click to [Export to PDF]
-
-COPYRIGHT 2015 WIZnet Co.,Ltd.

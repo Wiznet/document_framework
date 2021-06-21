@@ -105,7 +105,7 @@ similar to the Xbee pin layout. But it is not exactly compatible.
 
 ## See Also
 
-![](/img/link.png) 🌎[WizFi360 WIZnetForum](https://forum.wiznet.io/c/wifi-module/wizfi360) : WIZnet Forum for Technical support and Project shared
+![](/img/link.png) 🌎[WizFi360 WIZnetForum](https://forum.wiznet.io/c/wifi-module/wizfi360) : WIZnet Forum for Technical support and Project sharing
 
 -----
 

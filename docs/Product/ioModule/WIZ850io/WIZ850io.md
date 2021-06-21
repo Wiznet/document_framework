@@ -331,7 +331,7 @@ WIZ850io, please refer to [W5500 Datasheet](../../iEthernet/W5500/datasheet)).
 
 ## See Also
 
-   * 🌎https://forum.wiznet.io/|WizWiki Forum : WIZnet Forum for Technical support and Project shared
+   * 🌎[WIZnet Forum](https://forum.wiznet.io/) : WIZnet Forum for Technical support and Project sharing
 
 -----
 

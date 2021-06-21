@@ -136,7 +136,8 @@ menu.
 The remaining steps can be followed by the previous description.
 
 
-### How to switch app & boot for debug You just need reset device and
-debug that you want!
+### How to switch app & boot for debug 
+
+You just need reset device and debug that you want!
 
 ---

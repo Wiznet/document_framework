@@ -93,7 +93,7 @@ Changing mode from Data mode to Coomand mode
     <RX> [S]\r\n (5 Byte)
     
     
-# Exam 2. Example of retrieving web page of www.google.com in Dynamic IP and TCP Client mode
+## Exam 2. Example of retrieving web page of www.google.com in Dynamic IP and TCP Client mode
 
   
 **1. Set WIZ550SR with Dynamic IP**  
@@ -160,7 +160,7 @@ Do send command like below to disconnect current connection.
     <TX> AT+NCLOSE=0\r\n
     <RX> [W,0]\r\n[S,0]\r\n
     
-# Exam 3. Example of data communication with more than two servers in Dynamic IP
+## Exam 3. Example of data communication with more than two servers in Dynamic IP
 
   
 **1. Set WIZ550SR with Dynamic IP**  
@@ -261,7 +261,7 @@ Do below command in order to disconnect current connection.
     <RX> [W,0]\r\n[S,0]\r\n
     
     
-# Exam 4. Example of data communication with more than two devices in Static IP
+## Exam 4. Example of data communication with more than two devices in Static IP
 
   
 **1. Set WIZ550SR with Static IP**  

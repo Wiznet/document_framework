@@ -10,9 +10,8 @@ WIZ550io, please refer to [W5500 Datasheet](../../iEthernet/w5500/datasheet).
 
 ### Datasheet
 
-<a href="/img/products/w5500/w5500_ds_v109e.pdf" target="_blank">W5500 Datasheet v1.0.9 - English</a>
-
-<a href="/img/products/w5500/w5500_ds_v109k.pdf" target="_blank">W5500 Datasheet v1.0.9 - Korean</a>
+- <a href="/img/products/w5500/w5500_ds_v109e.pdf" target="_blank">W5500 Datasheet v1.0.9 - English</a>
+- <a href="/img/products/w5500/w5500_ds_v109k.pdf" target="_blank">W5500 Datasheet v1.0.9 - Korean</a>
 
 ### Datasheet History
 

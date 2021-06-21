@@ -150,7 +150,7 @@ Datasheet 확인해주세요.
 
 ![](/img/products/w5500/w5500_evb/icons/link.png) [WizWiki
 Forum](https://forum.wiznet.io/) : WIZnet Forum for Technical
-support and Project shared
+support and Project sharing
 
 [Ethernet Library for ioShield-A](ethernet_library_for_ioShield_A) : WIZnet
 WIZ550io Technical support

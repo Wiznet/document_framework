@@ -53,8 +53,7 @@ WIZ810SMJ is the network module that includes W5100S (TCP/IP hardwired chip, inc
 
 **Schematic & Part list & Gerber**
 
-  - 🌎[Go to
-    Github](https://github.com/Wiznet/Hardware-Files-of-WIZnet/tree/master/05_Network_Module)
+  - 🌎[Go to Github](https://github.com/Wiznet/Hardware-Files-of-WIZnet/tree/master/05_Network_Module)
 
 -----
 
@@ -66,9 +65,8 @@ WIZ810SMJ is the network module that includes W5100S (TCP/IP hardwired chip, inc
 
 ## See Also
 
-![](/img/products/w5500/w5500_evb/icons/link.png) 🌎[WizWiki
-Forum](https://forum.wiznet.io/) : WIZnet Forum for Technical
-support and Project shared
+![](/img/products/w5500/w5500_evb/icons/link.png) 🌎[WIZnet Forum](https://forum.wiznet.io/) : WIZnet Forum for Technical
+support and Project sharing
 
 -----
 

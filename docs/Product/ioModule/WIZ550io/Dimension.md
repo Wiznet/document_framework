@@ -4,16 +4,16 @@ title: Dimension
 date: 2020-04-15
 ---
 
-WIZ550io Ver1.0
+## WIZ550io Ver1.0
 
 ![](/img/products/wiz550io/wiz550io_v1.0_dimension.jpg)
 
-WIZ550io Ver1.1
+## WIZ550io Ver1.1
 
 54mm(W) x 26mm(L) x 24mm(H) (±0.5)
 ![](/img/products/wiz550io/wiz550io_v1.1_dimension.png)
 
-WIZ550io Ver1.2
+## WIZ550io Ver1.2
 
 54mm(W) x 26mm(L) x 24mm(H) (±0.5)
 

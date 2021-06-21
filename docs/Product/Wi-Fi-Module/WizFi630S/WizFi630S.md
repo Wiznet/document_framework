@@ -79,6 +79,6 @@ documents are available online.
 
 ## Q & A
 
-![](/img/link.png) [WizFi630S Forum](https://forum.wiznet.io/c/wifi-module) : WIZnet Forum for Technical support and Project shared
+![](/img/link.png) [WizFi630S Forum](https://forum.wiznet.io/c/wifi-module) : WIZnet Forum for Technical support and Project sharing
 
 -----

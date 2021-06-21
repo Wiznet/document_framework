@@ -8,7 +8,7 @@ date: 2020-04-03
 The Figure below shows the Internal Memory and Special Function
 Registers (SFR) map.
 
-| 0xFF .. 0x80 | Upper Internal RAM shared with Stack space (indirect addressing)          | [SFR Special Function Registers (direct addressing)](SFR) |
+| 0xFF .. 0x80 | Upper Internal RAM shared with Stack space (indirect addressing)          | [SFR Special Function Registers (direct addressing)](Peripheral_SFR.md) |
 | ------------ | ------------------------------------------------------------------------- | -------------------------------------------------------------------------- |
 | 0x7F .. 0x30 | Lower Internal RAM shared with Stack space (direct & indirect addressing) |                                                                            |
 | 0x2F .. 0x20 | bit addressable area                                                      |                                                                            |

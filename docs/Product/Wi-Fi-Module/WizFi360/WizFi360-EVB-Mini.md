@@ -89,7 +89,7 @@ be up to 2Mbps, which can meet the requirement of various applications.
 
 ![](/img/link.png) 🌎[WizFi360
 WIZnetForum](https://forum.wiznet.io/c/wifi-module/wizfi360) : WIZnet
-Forum for Technical support and Project shared
+Forum for Technical support and Project sharing
 
 -----
 

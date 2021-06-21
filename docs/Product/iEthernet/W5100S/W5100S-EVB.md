@@ -176,8 +176,8 @@ For More information about DMA, click
 🌎[WIZnet Website - W5100S](https://www.wiznet.io/product-item/w5100s) : W5100S Chip
 features, Pin assignment and Hardware Ref. Design Guide
 
-🌎[WizWiki Forum](https://forum.wiznet.io) : WIZnet Forum for Technical support and
-Project shared
+🌎[WIZnet Forum](https://forum.wiznet.io) : WIZnet Forum for Technical support and
+Project sharing
 
 -----
 

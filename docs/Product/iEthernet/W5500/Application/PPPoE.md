@@ -49,13 +49,13 @@ is used widely.
 <tr class="odd">
 <td>1.0.0</td>
 <td>2014-02</td>
-<td><embed src="/img/products/w5500/application/an_macrawpppoe_v100k.pdf" /></td>
+<td><a href="/img/products/w5500/application/an_macrawpppoe_v100k.pdf" target="_blank">an_macrawpppoe_v100k.pdf</a></td>
 </tr>
 <tr class="even">
 <td>1.0.1</td>
 <td>2014-04</td>
-<td><embed src="/img/products/w5500/application/an_macrawpppoe_v101k.pdf" /><br />
-<embed src="/img/products/w5500/application/an_macrawpppoe_v101e.pdf" /></td>
+<td><a href="/img/products/w5500/application/an_macrawpppoe_v101k.pdf" target="_blank">an_macrawpppoe_v101k.pdf</a><br />
+<a href="/img/products/w5500/application/an_macrawpppoe_v101e.pdf" target="_blank">an_macrawpppoe_v101e.pdf</a></td>
 </tr>
 </tbody>
 </table>

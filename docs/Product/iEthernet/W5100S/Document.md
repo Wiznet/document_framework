@@ -37,7 +37,7 @@ date: 2020-04-03
 #### English
  * <a href="/img/products/w5100s/w5100s_an_ipraw_v100e.pdf" target="_blank">W5100S IPRAW v1.0.0</a>
  * <a href="/img/products/w5100s/application/w5100s_an_pppoe_v100e.pdf" target="_blank">W5100S PPPoE v1.0.0</a>
- * <a href="/img/products/w5100s/application/w5100s_an_slc_v100e.pdf" target="_blank">W5100S SLC v1.0.0]</a>
+ * <a href="/img/products/w5100s/application/w5100s_an_slc_v100e.pdf" target="_blank">W5100S SLC v1.0.0</a>
  * <a href="/img/products/w5100s/application/w5100s_an_interrupt_v100e.pdf" target="_blank">W5100S Interrupt v1.0.0</a>
 
 ----

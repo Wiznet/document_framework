@@ -168,7 +168,7 @@ in.
 
 ### See Also
 
-   * 🌎[WizWiki Forum](https://forum.wiznet.io/) : WIZnet Forum for Technical support and Project shared
+   * 🌎[WIZnet Forum](https://forum.wiznet.io/) : WIZnet Forum for Technical support and Project sharing
 
 -----
 

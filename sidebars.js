@@ -706,7 +706,10 @@ module.exports = {
 				label: 'WizFi250',
 				items: [
 				'Product/Wi-Fi-Module/WizFi250/wizfi250',
-				{
+				'Product/Wi-Fi-Module/WizFi250/wizfi250_datasheet',
+				'Product/Wi-Fi-Module/WizFi250/wizfi250_programmersguide',
+				'Product/Wi-Fi-Module/WizFi250/wizfi250_quickstart',
+				/*{
 				type: 'category',
 				label: 'Datasheet',
 				items: [
@@ -745,7 +748,7 @@ module.exports = {
 				'Product/Wi-Fi-Module/WizFi250/Quick-Start-Guide/1_wizfi250_evaluation_board',
 				'Product/Wi-Fi-Module/WizFi250/Quick-Start-Guide/2_start_serial_to_wi_fi',
 				]
-				},
+				},*/
 				'Product/Wi-Fi-Module/WizFi250/comparison',
 				'Product/Wi-Fi-Module/WizFi250/wizfi250_evb_if_fimension',
 				'Product/Wi-Fi-Module/WizFi250/wizfi250_evb_sch',
