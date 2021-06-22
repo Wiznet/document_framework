@@ -11,6 +11,7 @@ module.exports = {
   favicon: 'img/wizfavicon.ico',
   organizationName: 'WIZnet Co., Ltd.', // Usually your GitHub org/user name.
   projectName: 'document_framework', // Usually your repo name.
+  trailingSlash: 'false',
   themeConfig: {
     hideableSidebar: true,
     colorMode: {
@@ -97,7 +98,7 @@ module.exports = {
           items: [
             {
               label: 'Introduction',
-              to: 'docs/introduction',
+              to: 'introduction',
             },
           ],
         },
@@ -135,7 +136,7 @@ module.exports = {
       copyright: `Copyright © ${new Date().getFullYear()} WIZnet Co., Ltd. Built with Docusaurus.`,
     },
   },
-  plugins: ['./PreventTrailingSlash/PreventTrailingSlashPlugin'],
+  //plugins: ['./PreventTrailingSlash/PreventTrailingSlashPlugin'],
   presets: [
     [
       '@docusaurus/preset-classic',
