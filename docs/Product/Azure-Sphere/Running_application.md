@@ -158,6 +158,6 @@ ASG210 sends user device data to Azure Cloud. User can check the data sent from 
 
 ###	Auto Switch in ASG210 Network Interface
 
-This application supports auto switching network interface to gurentee Azure Cloud connection. If ethernet network is not working anymore, ASG210 switches ethernet to wi-fi interface and re-connects Azure Cloud. (The opposite case works as well.)
+This application supports auto switching network interface to guarantee Azure Cloud connection. If Ethernet connection is not working anymore, ASG210 switches from Ethernet to Wi-Fi interface and re-connects to Azure Cloud. (Vice versa works as well.)
 
 <img src={useBaseUrl('img/AzureSphere/running_app/autonetwork_switching.png')} width="750"></img>
