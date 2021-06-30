@@ -77,7 +77,7 @@ When W7500P is in the BOOT mode, firmware writing is possible via the
 USB Cable. As USB Connector supports the UART2 signals, you need to
 connect between your PC and WIZwiki-W7500P with Mini-USB Cable.  
 Please refer the block diagram setting as below.  
-![ISP Block Diagram](/img/products/wizwiki_w7500p/start_getting_started/write_firmware/wizwiki_w7500p_isp.png)
+![ISP Block Diagram](/img/products/wizwiki_w7500p/start_getting_started/write_firmware/isp_block_2.png)
 
 **To follow**
 
