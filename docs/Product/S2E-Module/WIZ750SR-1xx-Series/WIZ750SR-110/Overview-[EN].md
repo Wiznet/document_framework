@@ -1,12 +1,12 @@
 ---
-id: overview-[EN]
+id: overview-EN
 title: Overview-[EN]
 date: 2020-04-09
 ---
 
  **Supported Languages**  
-* [English](overview-[EN]) (current page)  
-* [Korean](overview-[KO])
+* [English](overview-EN) (current page)  
+* [Korean](overview-KO)
 
 -----
 
@@ -87,13 +87,13 @@ of the product.
 
 WIZ750SR series Common Documents 
 
-  - **User's Manual [(English)](/docs/Product/S2E-Module/WIZ750SR/users_manual-[EN])/[(Korean)](/docs/Product/S2E-Module/WIZ750SR/users_manual-[KO])** 
+  - **User's Manual [(English)](/docs/Product/S2E-Module/WIZ750SR/users_manual-EN)/[(Korean)](/docs/Product/S2E-Module/WIZ750SR/users_manual-KO)** 
   
-  - **Device Command Manual [(English)](../../WIZ750SR/command_manual-[EN])/[(Korean)](../../WIZ750SR/command_manual-[KO])**
+  - **Device Command Manual [(English)](../../WIZ750SR/command_manual-EN)/[(Korean)](../../WIZ750SR/command_manual-KO)**
   
-  - **Troubleshooting Guide [(English)](../../WIZ750SR/trouble_shooting-[EN])/[(Korean)](../../WIZ750SR/trouble_shooting-[KO])**
+  - **Troubleshooting Guide [(English)](../../WIZ750SR/trouble_shooting-EN)/[(Korean)](../../WIZ750SR/trouble_shooting-KO)**
   
-  - **Update History [(English)](../../WIZ750SR/series_update_history-[EN])/[(Korean)](../../WIZ750SR/series_update_history-[KO])**
+  - **Update History [(English)](../../WIZ750SR/series_update_history-EN)/[(Korean)](../../WIZ750SR/series_update_history-KO)**
   
 -----
 

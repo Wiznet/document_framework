@@ -2502,7 +2502,7 @@ Return value</th>
     - No response
     - Reset to device factory default setting
 
-	The device’s default setting values can be found at **[WIZ510SSL Factory Settings](getting_started-[KO]#wiz510ssl-factory-settings)**
+	The device’s default setting values can be found at **[WIZ510SSL Factory Settings](getting_started-KO#wiz510ssl-factory-settings)**
 	The device reboots after factory reset, like **[RT](#rt)** command.
 	While the serial debug message is being used, the following message will output via data UART.
 

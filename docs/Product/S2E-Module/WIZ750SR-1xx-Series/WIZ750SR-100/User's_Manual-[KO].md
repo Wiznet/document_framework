@@ -1,12 +1,12 @@
 ---
-id: users_manual-[KO]
+id: users_manual-KO
 title: User's Manual-[KO]
 date: 2020-04-08
 ---
 
 **Supported Languages** 
-  * [English](Getting_Started-[EN])  
-  * [Korean](User's_Manual-[KO]) (current page)
+  * [English](Getting_Started-EN)  
+  * [Korean](User's_Manual-KO) (current page)
 
 ![](/img/products/wiz750sr/docs_icon.png)
 
@@ -33,7 +33,7 @@ WIZ750SR은 다음과 같은 두 가지 IP 주소 할당 방법을 제공합니�
   - **직접 IP 할당**
       - 고정 IP 주소(Static IP address) 할당 방법이라고도 하며, 제품이 **사용자가 직접 입력한 네트워크 정보에 따라 동작**합니다. 공인 IP 주소(Public IP address) 및 사설 IP 주소(Private IP address)를 모두 설정 가능 합니다.
       - 만약 TCP 클라이언트나 TCP 혼합 모드를 사용하는 경우, 데이터를 전달 할 원격지 호스트\[1\]가 IP 주소가 아닌 도메인 네임\[2\]이라면 DNS 주소가 꼭 설정되어야 합니다.
-      - 사설 IP 주소를 직접 할당하는 경우의 예제는 [Getting Started Guide: WIZ750SR Factory Settings](getting_started-[KO]#wiz750sr-factory-settings)를 참고하여 주십시오.
+      - 사설 IP 주소를 직접 할당하는 경우의 예제는 [Getting Started Guide: WIZ750SR Factory Settings](getting_started-KO#wiz750sr-factory-settings)를 참고하여 주십시오.
 
 
 
@@ -405,17 +405,17 @@ Flow control disabled</td>
 
 WIZ750SR 제품은 시리얼 to 이더넷 동작 시 필요한 다양한 옵션들의 설정 변경을 위해 다음과 같은 방법들을 제공합니다.\[1\]
 
-  - **[제품 설정 툴(Configuration tool)을 이용한 설정](configuration_tool_manual-[KO]) (네트워크)**
-  - **[Command set을 이용한 설정](command_manual-[KO]) (시리얼 / 네트워크)**
+  - **[제품 설정 툴(Configuration tool)을 이용한 설정](configuration_tool_manual-KO) (네트워크)**
+  - **[Command set을 이용한 설정](command_manual-KO) (시리얼 / 네트워크)**
 
 자세한 내용은 해당 문서를 참조 바랍니다.
 
 -----
 
-1.  Configuration tool 및 Command set을 이용한 설정 방법은 사용하지 않거나 목적에 따라 변경된 최소 부분 변경을 제외하고 WIZ107/108SR 제품과 호환됩니다. 시리얼 및 네트워크 상에서 제품의 제어를 위해 활용되는 Command의 상세 / 확장 정보는 [WIZ750SR Command Manual](command_manual-[KO])에서 자세히 다룹니다.
+1.  Configuration tool 및 Command set을 이용한 설정 방법은 사용하지 않거나 목적에 따라 변경된 최소 부분 변경을 제외하고 WIZ107/108SR 제품과 호환됩니다. 시리얼 및 네트워크 상에서 제품의 제어를 위해 활용되는 Command의 상세 / 확장 정보는 [WIZ750SR Command Manual](command_manual-KO)에서 자세히 다룹니다.
     
 **동작에 문제가 있나요?**  
-**[Troubleshooting 가이드](trouble_shooting-[KO])** 문서를 참고 해보세요!
+**[Troubleshooting 가이드](trouble_shooting-KO)** 문서를 참고 해보세요!
 
 -----
 
@@ -425,13 +425,13 @@ WIZ750SR 제품은 시리얼 to 이더넷 동작 시 필요한 다양한 옵션�
 
  **WIZ750SR** 
 
-  - **User's Manual [(English)](users_manual-[EN])/[(Korean)](users_manual-[KO])** 
+  - **User's Manual [(English)](users_manual-EN)/[(Korean)](users_manual-KO)** 
   
-  - **Device Command Manual [(English)](Command_Manual-[EN])/[(Korean)](Command_Manual-[KO])**
+  - **Device Command Manual [(English)](Command_Manual-EN)/[(Korean)](Command_Manual-KO)**
   
-  - **Troubleshooting Guide [(English)](Trouble_Shooting-[EN])/[(Korean)](Trouble_Shooting-[KO])**
+  - **Troubleshooting Guide [(English)](Trouble_Shooting-EN)/[(Korean)](Trouble_Shooting-KO)**
   
-  - **Update History [(English)](Series_Update_History-[EN])/[(Korean)](Series_Update_History-[KO])**
+  - **Update History [(English)](Series_Update_History-EN)/[(Korean)](Series_Update_History-KO)**
   
 -----
 

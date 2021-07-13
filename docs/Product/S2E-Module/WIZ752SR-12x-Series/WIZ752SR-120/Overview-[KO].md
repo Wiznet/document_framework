@@ -1,12 +1,12 @@
 ---
-id: overview-[KO]
+id: overview-KO
 title: Overview-[KO]
 date: 2020-04-13
 ---
 
  **Supported Languages**  
-* [English](overview-[EN]) 
-* [Korean](overview-[KO]) (current page)
+* [English](overview-EN) 
+* [Korean](overview-KO) (current page)
 
 -----
 

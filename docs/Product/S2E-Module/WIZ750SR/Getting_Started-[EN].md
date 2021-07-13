@@ -1,12 +1,12 @@
 ---
-id: getting_started-[EN]
+id: getting_started-EN
 title: Getting Started-[EN]
 date: 2020-04-08
 ---
 
 **Supported Languages**
-  * [English](Getting_Started-[EN]) (current page)  
-  * [Korean](Getting_Started-[KO])
+  * [English](Getting_Started-EN) (current page)  
+  * [Korean](Getting_Started-KO)
 
 ![](/img/products/wiz750sr/docs_icon.png)
 
@@ -31,7 +31,7 @@ The WIZ750SR-232 evaluation board package contains the following parts.
   - WIZ750SR-232/TTL-EVB Evaluation Board
   - Cables (Ethernet / Serial / Micro USB Type B)
 
-The entire list of parts of the board is available at the [WIZ750SR Overview: Product Contents](overview-[EN]#product-contents) page.
+The entire list of parts of the board is available at the [WIZ750SR Overview: Product Contents](overview-EN#product-contents) page.
 
 ### Device Layout
 
@@ -287,7 +287,7 @@ Now you’re ready to use the WIZ750SR!
 -----
 
 **If there is any problem?**  
-Please refer to our **[Troubleshooting Guide](trouble_shooting-[EN])**!
+Please refer to our **[Troubleshooting Guide](trouble_shooting-EN)**!
 
 -----
 
@@ -297,13 +297,13 @@ Please refer to our **[Troubleshooting Guide](trouble_shooting-[EN])**!
 
  **WIZ750SR** 
 
-  - **User's Manual [(English)](users_manual-[EN])/[(Korean)](users_manual-[KO])** 
+  - **User's Manual [(English)](users_manual-EN)/[(Korean)](users_manual-KO)** 
   
-  - **Device Command Manual [(English)](Command_Manual-[EN])/[(Korean)](Command_Manual-[KO])**
+  - **Device Command Manual [(English)](Command_Manual-EN)/[(Korean)](Command_Manual-KO)**
   
-  - **Troubleshooting Guide [(English)](Trouble_Shooting-[EN])/[(Korean)](Trouble_Shooting-[KO])**
+  - **Troubleshooting Guide [(English)](Trouble_Shooting-EN)/[(Korean)](Trouble_Shooting-KO)**
   
-  - **Update History [(English)](Series_Update_History-[EN])/[(Korean)](Series_Update_History-[KO])**
+  - **Update History [(English)](Series_Update_History-EN)/[(Korean)](Series_Update_History-KO)**
   
 -----
 

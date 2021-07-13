@@ -1,12 +1,12 @@
 ---
-id: developers_guide-[EN]
+id: developers_guide-EN
 title: Developer's Guide-[EN]
 date: 2020-04-08
 ---
 
 **Supported Languages**  
-[English](developers_guide-[EN]) (current page)  
-[Korean](developers_guide-[KO])
+[English](developers_guide-EN) (current page)  
+[Korean](developers_guide-KO)
 
 ![](/img/products/wiz750sr/docs_icon.png)
 
@@ -241,6 +241,6 @@ it.
 -----
 
 **If there is any problem?**  
-Please refer to our **[Troubleshooting Guide](trouble_shooting-[EN])**
+Please refer to our **[Troubleshooting Guide](trouble_shooting-EN)**
 
 -----

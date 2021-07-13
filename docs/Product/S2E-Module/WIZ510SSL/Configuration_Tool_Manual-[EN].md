@@ -49,7 +49,7 @@ The list of products supported by WIZnet-S2E-Tool-GUI is as follows.
 
 #### Pre-programmed MCU
 
-  - [W7500(P)-S2E](../../Pre-programmed-MCU/W7500P-S2E/w7500p-s2e-[EN])
+  - [W7500(P)-S2E](../../Pre-programmed-MCU/W7500P-S2E/w7500p-s2e-EN)
 
 -----
 

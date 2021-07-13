@@ -1,13 +1,13 @@
 ---
-id: overview-[EN]
+id: overview-EN
 title: Overview-[EN]
 date: 2020-04-08
 ---
 
 **Supported Languages**
 
- * [English](overview-[EN]) (current page)  
- * [Korean](overview-[KO])
+ * [English](overview-EN) (current page)  
+ * [Korean](overview-KO)
 
 -----
 
@@ -118,13 +118,13 @@ of the product.
 
  **WIZ750SR** 
 
-  - **User's Manual [(English)](users_manual-[EN])/[(Korean)](users_manual-[KO])** 
+  - **User's Manual [(English)](users_manual-EN)/[(Korean)](users_manual-KO)** 
   
-  - **Device Command Manual [(English)](Command_Manual-[EN])/[(Korean)](Command_Manual-[KO])**
+  - **Device Command Manual [(English)](Command_Manual-EN)/[(Korean)](Command_Manual-KO)**
   
-  - **Troubleshooting Guide [(English)](Trouble_Shooting-[EN])/[(Korean)](Trouble_Shooting-[KO])**
+  - **Troubleshooting Guide [(English)](Trouble_Shooting-EN)/[(Korean)](Trouble_Shooting-KO)**
   
-  - **Update History [(English)](Series_Update_History-[EN])/[(Korean)](Series_Update_History-[KO])**
+  - **Update History [(English)](Series_Update_History-EN)/[(Korean)](Series_Update_History-KO)**
   
 -----
 

@@ -1,12 +1,12 @@
 ---
-id: developers_guide-[KO]
+id: developers_guide-KO
 title: Developer's Guide-[KO]
 date: 2020-04-08
 ---
 
 **Supported Languages**  
-[English](developers_guide-[EN])  
-[Korean](developers_guide-[KO]) (current page)
+[English](developers_guide-EN)  
+[Korean](developers_guide-KO) (current page)
 
 ![](/img/products/wiz750sr/docs_icon.png)
 
@@ -222,6 +222,6 @@ page](https://www.silabs.com/products/development-tools/software/usb-to-uart-bri
 -----
 
 **동작에 문제가 있나요?**  
-**[Troubleshooting 가이드](trouble_shooting-[KO])** 문서를 참고해 보세요
+**[Troubleshooting 가이드](trouble_shooting-KO)** 문서를 참고해 보세요
 
 -----

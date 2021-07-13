@@ -1,12 +1,12 @@
 ---
-id: getting_started_guide-[KO]
+id: getting_started_guide-KO
 title: Getting Started Guide-[KO]
 date: 2020-04-13
 ---
 
  **Supported Languages**  
-* [English](gtting_started_guide-[EN]) 
-* [Korean](gtting_started_guide-[KO]) (current page)
+* [English](gtting_started_guide-EN) 
+* [Korean](gtting_started_guide-KO) (current page)
 
 ![](/img/products/wiz750sr/docs_icon.png)
 
@@ -36,7 +36,7 @@ WIZ752SR-120-EVB 개발 보드 패키지는 다음과 같이 구성되어 있습
   - 아답터 (5V/2A)
 
 개발보드 별 패키지 구성품의 전체 항목은 [WIZ752SR-120 Overview: Product
-Contents](overview-[KO]#product-contents)
+Contents](overview-KO#product-contents)
 페이지에서 확인 하실 수 있습니다.
 
 ## Prerequisites for Setup
@@ -250,7 +250,7 @@ PC를 사용자 시리얼 장치 및 TCP 클라이언트로 삼아 데이터 통
 -----
 
 **동작에 문제가 있나요?**  
-**[Troubleshooting 가이드](../../WIZ750SR/trouble_shooting-[KO])** 문서를 참고해
+**[Troubleshooting 가이드](../../WIZ750SR/trouble_shooting-KO)** 문서를 참고해
 보세요\!
 
 -----

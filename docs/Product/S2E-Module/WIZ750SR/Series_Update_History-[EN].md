@@ -1,12 +1,12 @@
 ---
-id: series_update_history-[EN]
+id: series_update_history-EN
 title: Series Update History-[EN]
 date: 2020-04-08
 ---
 
 **Supported Languages**
-[English](series_update_history-[EN]) (current page)  
-[Korean](series_update_history-[KO])
+[English](series_update_history-EN) (current page)  
+[Korean](series_update_history-KO)
 
 ## Firmware
 
@@ -90,13 +90,13 @@ date: 2020-04-08
 
  **WIZ750SR** 
 
-  - **User's Manual [(English)](users_manual-[EN])/[(Korean)](users_manual-[KO])** 
+  - **User's Manual [(English)](users_manual-EN)/[(Korean)](users_manual-KO)** 
   
-  - **Device Command Manual [(English)](Command_Manual-[EN])/[(Korean)](Command_Manual-[KO])**
+  - **Device Command Manual [(English)](Command_Manual-EN)/[(Korean)](Command_Manual-KO)**
   
-  - **Troubleshooting Guide [(English)](Trouble_Shooting-[EN])/[(Korean)](Trouble_Shooting-[KO])**
+  - **Troubleshooting Guide [(English)](Trouble_Shooting-EN)/[(Korean)](Trouble_Shooting-KO)**
   
-  - **Update History [(English)](Series_Update_History-[EN])/[(Korean)](Series_Update_History-[KO])**
+  - **Update History [(English)](Series_Update_History-EN)/[(Korean)](Series_Update_History-KO)**
   
 -----
 

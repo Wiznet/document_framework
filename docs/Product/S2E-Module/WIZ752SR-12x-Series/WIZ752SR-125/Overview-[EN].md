@@ -1,12 +1,12 @@
 ---
-id: overview-[EN]
+id: overview-EN
 title: Overview-[EN]
 date: 2020-04-15
 ---
 
  **Supported Languages**  
-* [English](overview-[EN]) (current page)  
-* [Korean](overview-[KO])
+* [English](overview-EN) (current page)  
+* [Korean](overview-KO)
 
 -----
 

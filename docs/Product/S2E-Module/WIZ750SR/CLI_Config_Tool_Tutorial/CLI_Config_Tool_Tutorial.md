@@ -31,17 +31,17 @@ Please refer to the following pages for detailed usage.
 
 **WIZ750SR series** 
 
-  - **[User's Manual (English)](../users_manual-[EN])** 
-  - **[User's Manual (Korean)](../users_manual-[KO])**
+  - **[User's Manual (English)](../users_manual-EN)** 
+  - **[User's Manual (Korean)](../users_manual-KO)**
 
-  - **[Device Command Manual (English)](../Command_Manual-[EN])**
-  - **[Device Command Manual (Korean)](../Command_Manual-[KO])**
+  - **[Device Command Manual (English)](../Command_Manual-EN)**
+  - **[Device Command Manual (Korean)](../Command_Manual-KO)**
 
-  - **[Troubleshooting Guide (English)](../rouble_Shooting-[EN])**
-  - **[Troubleshooting Guide (Korean)](../Trouble_Shooting-[KO])**
+  - **[Troubleshooting Guide (English)](../rouble_Shooting-EN)**
+  - **[Troubleshooting Guide (Korean)](../Trouble_Shooting-KO)**
 
-  - **[Update History (English)](../Series_Update_History-[EN])**
-  - **[Update History (Korean)](../Series_Update_History-[KO])**
+  - **[Update History (English)](../Series_Update_History-EN)**
+  - **[Update History (Korean)](../Series_Update_History-KO)**
 
 -----
 

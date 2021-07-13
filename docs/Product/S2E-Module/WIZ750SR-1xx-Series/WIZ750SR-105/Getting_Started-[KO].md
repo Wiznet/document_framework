@@ -1,12 +1,12 @@
 ---
-id: getting_started-[KO]
+id: getting_started-KO
 title: Getting Started-[KO]
 date: 2020-04-09
 ---
 
  **Supported Languages**  
-* [English](getting_started-[EN]) 
-* [Korean](getting_started-[KO]) (current page)
+* [English](getting_started-EN) 
+* [Korean](getting_started-KO) (current page)
 
 ![](/img/products/wiz750sr/docs_icon.png)
 
@@ -33,7 +33,7 @@ WIZ750SR-105 개발 보드 패키지는 다음과 같이 구성되어 있습니�
   - 케이블 (이더넷 / 시리얼)
 
 개발보드 별 패키지 구성품의 전체 항목은 [WIZ750SR-105 Overview: Product
-Contents](overview-[EN]#product-contents) 페이지에서 확인
+Contents](overview-EN#product-contents) 페이지에서 확인
 하실 수 있습니다.
 
 ### Device Layout
@@ -302,7 +302,7 @@ PC를 사용자 시리얼 장치 및 TCP 클라이언트로 삼아 데이터 통
 -----
 
 **동작에 문제가 있나요?**  
-**[Troubleshooting 가이드](../../WIZ750SR/trouble_shooting-[KO])** 문서를 참고해
+**[Troubleshooting 가이드](../../WIZ750SR/trouble_shooting-KO)** 문서를 참고해
 보세요\!
 
 -----
@@ -313,13 +313,13 @@ PC를 사용자 시리얼 장치 및 TCP 클라이언트로 삼아 데이터 통
 
 WIZ750SR series Common Documents 
 
-  - **User's Manual [(English)](/docs/Product/S2E-Module/WIZ750SR/users_manual-[EN])/[(Korean)](/docs/Product/S2E-Module/WIZ750SR/users_manual-[KO])** 
+  - **User's Manual [(English)](/docs/Product/S2E-Module/WIZ750SR/users_manual-EN)/[(Korean)](/docs/Product/S2E-Module/WIZ750SR/users_manual-KO)** 
   
-  - **Device Command Manual [(English)](../../WIZ750SR/command_manual-[EN])/[(Korean)](../../WIZ750SR/command_manual-[KO])**
+  - **Device Command Manual [(English)](../../WIZ750SR/command_manual-EN)/[(Korean)](../../WIZ750SR/command_manual-KO)**
   
-  - **Troubleshooting Guide [(English)](../../WIZ750SR/trouble_shooting-[EN])/[(Korean)](../../WIZ750SR/trouble_shooting-[KO])**
+  - **Troubleshooting Guide [(English)](../../WIZ750SR/trouble_shooting-EN)/[(Korean)](../../WIZ750SR/trouble_shooting-KO)**
   
-  - **Update History [(English)](../../WIZ750SR/series_update_history-[EN])/[(Korean)](../../WIZ750SR/series_update_history-[KO])**
+  - **Update History [(English)](../../WIZ750SR/series_update_history-EN)/[(Korean)](../../WIZ750SR/series_update_history-KO)**
   
 -----
 

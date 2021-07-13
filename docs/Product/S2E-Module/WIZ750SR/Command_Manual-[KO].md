@@ -1,12 +1,12 @@
 ---
-id: command_manual-[KO]
+id: command_manual-KO
 title: Command Manual-[KO]
 date: 2020-04-08
 ---
 
 **Supported Languages** 
-   * [English](Command_Manual-[EN])  
-   * [Korean](Command_Manual-[KO]) (current page)
+   * [English](Command_Manual-EN)  
+   * [Korean](Command_Manual-KO) (current page)
 
 ![](/img/products/wiz750sr/docs_icon.png)
 
@@ -2032,7 +2032,7 @@ Return value</th>
 
 
   - 제품의 초기 설정 값은 **[WIZ750SR Factory
-    Settings](getting_started-[KO]#wiz750sr-factory-settings)**에서
+    Settings](getting_started-KO#wiz750sr-factory-settings)**에서
     확인 할 수 있습니다.
   - 공장 초기화 수행 시, **[RT](#rt)** 커맨드를 수행 한 것과 동일하게 제품을 재시작 합니다.
       - 만약 시리얼 디버그 메시지를 사용 중인 경우, Data UART 포트를 통해 다음과 같은 메시지를 출력합니다.
@@ -2351,13 +2351,13 @@ Return value</th>
 
  **WIZ750SR** 
 
-  - **User's Manual [(English)](users_manual-[EN])/[(Korean)](users_manual-[KO])** 
+  - **User's Manual [(English)](users_manual-EN)/[(Korean)](users_manual-KO)** 
   
-  - **Device Command Manual [(English)](Command_Manual-[EN])/[(Korean)](Command_Manual-[KO])**
+  - **Device Command Manual [(English)](Command_Manual-EN)/[(Korean)](Command_Manual-KO)**
   
-  - **Troubleshooting Guide [(English)](Trouble_Shooting-[EN])/[(Korean)](Trouble_Shooting-[KO])**
+  - **Troubleshooting Guide [(English)](Trouble_Shooting-EN)/[(Korean)](Trouble_Shooting-KO)**
   
-  - **Update History [(English)](Series_Update_History-[EN])/[(Korean)](Series_Update_History-[KO])**
+  - **Update History [(English)](Series_Update_History-EN)/[(Korean)](Series_Update_History-KO)**
   
 -----
 

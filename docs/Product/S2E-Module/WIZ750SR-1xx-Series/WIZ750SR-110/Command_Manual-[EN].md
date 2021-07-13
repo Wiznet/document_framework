@@ -1,12 +1,12 @@
 ---
-id: command_manual-[EN]
+id: command_manual-EN
 title: Command Manual-[EN]
 date: 2020-04-08
 ---
 
 **Supported Languages**  
-  * [English](Command_Manual-[EN]) (current page)  
-  * [Korean](Command_Manual-[KO])
+  * [English](Command_Manual-EN) (current page)  
+  * [Korean](Command_Manual-KO)
 
 ![](/img/products/wiz750sr/docs_icon.png)
 
@@ -2243,7 +2243,7 @@ Return value</th>
 
   - The device’s default setting values can be found at **[WIZ750SR
     Factory
-    Settings](getting_started-[KO]#wiz750sr-factory-settings)**
+    Settings](getting_started-KO#wiz750sr-factory-settings)**
   - The device reboots after factory reset, like **[RT](#rt)** command.
       - While the serial debug message is being used, the following
         message will output via data UART.
@@ -2568,13 +2568,13 @@ Return value</th>
 
  **WIZ750SR** 
 
-  - **User's Manual [(English)](users_manual-[EN])/[(Korean)](users_manual-[KO])** 
+  - **User's Manual [(English)](users_manual-EN)/[(Korean)](users_manual-KO)** 
   
-  - **Device Command Manual [(English)](Command_Manual-[EN])/[(Korean)](Command_Manual-[KO])**
+  - **Device Command Manual [(English)](Command_Manual-EN)/[(Korean)](Command_Manual-KO)**
   
-  - **Troubleshooting Guide [(English)](Trouble_Shooting-[EN])/[(Korean)](Trouble_Shooting-[KO])**
+  - **Troubleshooting Guide [(English)](Trouble_Shooting-EN)/[(Korean)](Trouble_Shooting-KO)**
   
-  - **Update History [(English)](Series_Update_History-[EN])/[(Korean)](Series_Update_History-[KO])**
+  - **Update History [(English)](Series_Update_History-EN)/[(Korean)](Series_Update_History-KO)**
   
 -----
 

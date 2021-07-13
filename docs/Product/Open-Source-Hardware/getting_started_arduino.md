@@ -1,6 +1,6 @@
 ---
 id: getting_started_arduino
-title: Getting Started for Arduino (EN)
+title: Getting Started for Arduino [EN]
 date: 2020-04-03
 ---
 

@@ -1,5 +1,5 @@
 ---
-id: getting_started-[KO]
+id: getting_started-KO
 title: Getting Started [KO]
 date: 2020-04-24
 ---

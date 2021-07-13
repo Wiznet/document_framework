@@ -126,7 +126,7 @@ page of configuration in Github.
 ## W7500(P) ISP Tool
 
   - **[Guide: How to use ISP tool](../iMCU/W7500/documents/appnote/how_to_use_isp_tool)**
-  - [W7500(P) Flash programming guide using ISP Tool](WIZ750SR/developers_guide-[EN]#flash-programming-using-wizisp-tool)
+  - [W7500(P) Flash programming guide using ISP Tool](WIZ750SR/developers_guide-EN#flash-programming-using-wizisp-tool)
 
 [Go to ISP tool manual & Program download](../iMCU/W7500/documents/appnote/how_to_use_isp_tool)  
 
@@ -135,7 +135,7 @@ page of configuration in Github.
 ## WIZ Mac Tool
 
   - [How to re-enter the MAC address on your
-    devices](WIZ750SR/developers_guide-[EN]#how-to-re-enter-the-mac-address-on-your-devices)
+    devices](WIZ750SR/developers_guide-EN#how-to-re-enter-the-mac-address-on-your-devices)
 
 <a href="/img/products/wiz750sr/developers/restore-mac/wizmactool_v20151127.zip" target="_blank">Download the WizMACTool Program</a>  
 

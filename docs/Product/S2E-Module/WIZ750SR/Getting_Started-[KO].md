@@ -1,12 +1,12 @@
 ---
-id: getting_started-[KO]
+id: getting_started-KO
 title: Getting Started-[KO]
 date: 2020-04-08
 ---
 
 **Supported Languages**
-   * [English](Getting_Started-[EN])  
-   * [Korean](Getting_Started-[KO]) (current page)
+   * [English](Getting_Started-EN)  
+   * [Korean](Getting_Started-KO) (current page)
 
 ![](/img/products/wiz750sr/docs_icon.png)
 
@@ -32,7 +32,7 @@ WIZ750SR-RS232 개발 보드 패키지는 다음과 같이 구성되어 있습�
   - 케이블 (이더넷 / 시리얼 / 마이크로 USB 타입 B)
 
 개발보드 별 패키지 구성품의 전체 항목은 [WIZ750SR Overview: Product
-Contents](/overview-[KO]#product-contents) 페이지에서 확인 하실 수
+Contents](/overview-KO#product-contents) 페이지에서 확인 하실 수
 있습니다.
 
 ### Device Layout
@@ -288,7 +288,7 @@ PC를 사용자 시리얼 장치 및 TCP 클라이언트로 삼아 데이터 통
 -----
 
 **동작에 문제가 있나요?**  
-**[Troubleshooting 가이드](trouble_shooting-[KO])** 문서를 참고해 보세요\! 
+**[Troubleshooting 가이드](trouble_shooting-KO)** 문서를 참고해 보세요\! 
 
 -----
 
@@ -298,13 +298,13 @@ PC를 사용자 시리얼 장치 및 TCP 클라이언트로 삼아 데이터 통
 
  **WIZ750SR** 
 
-  - **User's Manual [(English)](users_manual-[EN])/[(Korean)](users_manual-[KO])** 
+  - **User's Manual [(English)](users_manual-EN)/[(Korean)](users_manual-KO)** 
   
-  - **Device Command Manual [(English)](Command_Manual-[EN])/[(Korean)](Command_Manual-[KO])**
+  - **Device Command Manual [(English)](Command_Manual-EN)/[(Korean)](Command_Manual-KO)**
   
-  - **Troubleshooting Guide [(English)](Trouble_Shooting-[EN])/[(Korean)](Trouble_Shooting-[KO])**
+  - **Troubleshooting Guide [(English)](Trouble_Shooting-EN)/[(Korean)](Trouble_Shooting-KO)**
   
-  - **Update History [(English)](Series_Update_History-[EN])/[(Korean)](Series_Update_History-[KO])**
+  - **Update History [(English)](Series_Update_History-EN)/[(Korean)](Series_Update_History-KO)**
   
 -----
 

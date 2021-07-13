@@ -1,11 +1,11 @@
 ---
-id: configuration_tool_manual-[EN]
+id: configuration_tool_manual-EN
 title: Configuration Tool Manual-[EN]
 date: 2020-04-08
 ---
 
 **Supported Languages** 
-   * [English](Configuration_Tool_Manual-[EN]) (current page)  
+   * [English](Configuration_Tool_Manual-EN) (current page)  
    * [Korean](/)
 
 ![](/img/products/wiz750sr/clitool/datasheet/wiz750sr_pinout_exp_rev1.2.png)
@@ -99,7 +99,7 @@ section are available below.
         virus protection software.
       - Please refer to this guide if still unsuccessful.
           - **[Troubleshooting Guide: Device cannot be
-            searched](trouble_shooting-[EN])**
+            searched](trouble_shooting-EN)**
 
 #### 2\) Save Settings
 
@@ -127,7 +127,7 @@ section are available below.
         virus protection software.
       - Please refer to this guide if still unsuccessful.
           - **[Troubleshooting Guide: Firmware cannot be
-            uploaded](trouble_shooting-[EN])**
+            uploaded](trouble_shooting-EN)**
   - The module will not work properly if the firmware is not correctly
     uploaded.
 
@@ -147,7 +147,7 @@ DURING FIRMWARE UPLOADING**
 
   - Returns the settings of WIZ750SR to factory default.
   - Factory default setting of can be checked at [WIZ750SR Factory
-    Settings](getting_started-[EN]#wiz750sr-factory-settings).
+    Settings](getting_started-EN#wiz750sr-factory-settings).
   - Then the module will automatically reboot. 
 
 #### 6\) Ping Test
@@ -262,7 +262,7 @@ The serial debug message is printed via separate Debug UART and not Data UART, a
 
 \* Details of IP address allocation are available at [WIZ750SR User's
 Manual: IP address
-settings](users_manual-[EN]#ip-address-settings).  
+settings](users_manual-EN#ip-address-settings).  
 \* PPPoE mode is not supported.
 
 #### 2\) IP Address Setting Field
@@ -281,7 +281,7 @@ settings](users_manual-[EN]#ip-address-settings).
         client/server mixed mode, UDP mode.
       - Details of each network operation mode are available at
         [WIZ750SR User's Manual: Network Operation
-        Mode](users_manual-[EN]#network-operation-mode).
+        Mode](users_manual-EN#network-operation-mode).
 
 #### 4\) Remote Host Settings
 
@@ -291,7 +291,7 @@ settings](users_manual-[EN]#ip-address-settings).
   - The port number of the destination is required.
   - Details of the remote host setting are available at [WIZ750SR User's
     Manual: Remote Host
-    Settings](users_manual-[EN]#remote-host-settings).
+    Settings](users_manual-EN#remote-host-settings).
 
 \* WIZ750SR does not support PPPoE / DDNS
 
@@ -539,7 +539,7 @@ multi-selected but has priority as shown below.
 
 **If there is any problem?**  
 Please refer to our **[Troubleshooting
-Guide](trouble_shooting-[EN])**\! 
+Guide](trouble_shooting-EN)**\! 
 
 -----
 
@@ -549,13 +549,13 @@ Guide](trouble_shooting-[EN])**\!
 
  **WIZ750SR** 
 
-  - **User's Manual [(English)](users_manual-[EN])/[(Korean)](users_manual-[KO])** 
+  - **User's Manual [(English)](users_manual-EN)/[(Korean)](users_manual-KO)** 
   
-  - **Device Command Manual [(English)](Command_Manual-[EN])/[(Korean)](Command_Manual-[KO])**
+  - **Device Command Manual [(English)](Command_Manual-EN)/[(Korean)](Command_Manual-KO)**
   
-  - **Troubleshooting Guide [(English)](Trouble_Shooting-[EN])/[(Korean)](Trouble_Shooting-[KO])**
+  - **Troubleshooting Guide [(English)](Trouble_Shooting-EN)/[(Korean)](Trouble_Shooting-KO)**
   
-  - **Update History [(English)](Series_Update_History-[EN])/[(Korean)](Series_Update_History-[KO])**
+  - **Update History [(English)](Series_Update_History-EN)/[(Korean)](Series_Update_History-KO)**
   
 -----
 

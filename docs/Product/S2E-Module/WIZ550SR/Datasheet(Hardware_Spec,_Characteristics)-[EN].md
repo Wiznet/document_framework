@@ -1,5 +1,5 @@
 ---
-id: datasheet_hardware_spec_characteristics-[EN]
+id: datasheet_hardware_spec_characteristics-EN
 title: Datasheet(Hardware Spec, Characteristics)-[EN]
 date: 2020-04-16
 ---

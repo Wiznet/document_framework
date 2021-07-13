@@ -33,7 +33,7 @@ for multi devices,
 python wizconfig.py -a --getfile [file_name]
 ```
 
-for detail description of command set, refer to [WIZ750SR Command List](../command_manual-[EN]).
+for detail description of command set, refer to [WIZ750SR Command List](../command_manual-EN).
 
 -----
 
@@ -128,7 +128,7 @@ It can be used as the macro.
 
 To use this option, you have to make command set. (command + parameter)
 
-  - for detail description of command set, refer to [WIZ750SR Command List](../command_manual-[EN]).
+  - for detail description of command set, refer to [WIZ750SR Command List](../command_manual-EN).
 
 List up and write the command set info you want to set a file.
 

@@ -1,5 +1,5 @@
 ---
-id: users_manual_programmers_guide-[EN]
+id: users_manual_programmers_guide-EN
 title: User's Manual (Programmer's Guide)-[EN]
 date: 2020-04-16
 ---

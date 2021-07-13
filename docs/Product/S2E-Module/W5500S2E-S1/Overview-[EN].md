@@ -1,5 +1,5 @@
 ---
-id: overview-[EN]
+id: overview-EN
 title: Overview-[EN]
 date: 2020-04-07
 ---
@@ -7,7 +7,7 @@ date: 2020-04-07
 ## W5500S2E-S1 Product Overview
 
 **Supported Languages**  
- * [English](overview-[EN])  
+ * [English](overview-EN)  
  
 -----
 

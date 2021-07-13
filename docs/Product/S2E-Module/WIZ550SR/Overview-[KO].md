@@ -1,5 +1,5 @@
 ---
-id: overview-[KO]
+id: overview-KO
 title: Product Overview [KO]
 date: 2020-04-24
 ---

@@ -1,5 +1,5 @@
 ---
-id: datasheet_hardware_spec_characteristics-[KO]
+id: datasheet_hardware_spec_characteristics-KO
 title: Datasheet(Hardware Spec, Characteristics)-[KO]
 date: 2020-04-24
 ---

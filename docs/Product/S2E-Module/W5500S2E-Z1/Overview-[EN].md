@@ -1,5 +1,5 @@
 ---
-id: overview-[EN]
+id: overview-EN
 title: Overview-[EN]
 date: 2020-04-07
 ---
@@ -8,7 +8,7 @@ date: 2020-04-07
 
 **Supported Languages**
 
-  - [English](Overview-[EN]) 
+  - [English](Overview-EN) 
   
 -----
 

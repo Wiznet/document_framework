@@ -123,7 +123,7 @@ Repository**
 
 ## WIZnet S2E Configuration Tool
 
-  - **[S2E Configuration Tool Manual (New)](configuration_tool_manual_new-[EN])**
+  - **[S2E Configuration Tool Manual (New)](configuration_tool_manual_new-EN)**
 
 
 ![](/img/products/wiz750sr/download/wizconfig_main_v1.0.0.png) 
@@ -171,13 +171,13 @@ Repository**
 
  **WIZ750SR** 
 
-  - **User's Manual [(English)](users_manual-[EN])/[(Korean)](users_manual-[KO])** 
+  - **User's Manual [(English)](users_manual-EN)/[(Korean)](users_manual-KO)** 
   
-  - **Device Command Manual [(English)](Command_Manual-[EN])/[(Korean)](Command_Manual-[KO])**
+  - **Device Command Manual [(English)](Command_Manual-EN)/[(Korean)](Command_Manual-KO)**
   
-  - **Troubleshooting Guide [(English)](Trouble_Shooting-[EN])/[(Korean)](Trouble_Shooting-[KO])**
+  - **Troubleshooting Guide [(English)](Trouble_Shooting-EN)/[(Korean)](Trouble_Shooting-KO)**
   
-  - **Update History [(English)](Series_Update_History-[EN])/[(Korean)](Series_Update_History-[KO])**
+  - **Update History [(English)](Series_Update_History-EN)/[(Korean)](Series_Update_History-KO)**
   
 -----
 

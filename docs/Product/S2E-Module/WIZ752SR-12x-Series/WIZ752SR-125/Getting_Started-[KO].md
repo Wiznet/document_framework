@@ -1,12 +1,12 @@
 ---
-id: getting_started_guide-[KO]
+id: getting_started_guide-KO
 title: Getting Started Guide-[KO]
 date: 2020-04-15
 ---
 
  **Supported Languages**  
-* [English](getting_started_guide-[EN]) 
-* [Korean](getting_started_guide-[KO]) (current page)
+* [English](getting_started_guide-EN) 
+* [Korean](getting_started_guide-KO) (current page)
 
 ![](/img/products/wiz750sr/docs_icon.png)
 
@@ -32,7 +32,7 @@ WIZ752SR-125 보드는 별도의 악세사리 없이 모듈 단품만 판매합�
   - WIZ752SR-125 모듈
 
 개발보드 별 패키지 구성품의 전체 항목은 [WIZ752SR-125 Overview: Product
-Contents](overview-[KO]#product-contents)
+Contents](overview-KO#product-contents)
 페이지에서 확인 하실 수 있습니다.
 
 ## Prerequisites for Setup
@@ -244,7 +244,7 @@ PC를 사용자 시리얼 장치 및 TCP 클라이언트로 삼아 데이터 통
 -----
 
 **동작에 문제가 있나요?**  
-**[Troubleshooting 가이드](../../WIZ750SR/trouble_shooting-[KO])** 문서를 참고해
+**[Troubleshooting 가이드](../../WIZ750SR/trouble_shooting-KO)** 문서를 참고해
 보세요\!
 
 -----

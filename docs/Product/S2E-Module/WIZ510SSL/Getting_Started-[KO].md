@@ -5,8 +5,8 @@ date: 2021-05-10
 ---
 
 **Supported Languages**
-   * [English](Getting_Started-[EN])
-   * [Korean](Getting_Started-[KO]) (current page)
+   * [English](Getting_Started-EN)
+   * [Korean](Getting_Started-KO) (current page)
 
 -----
 
@@ -255,7 +255,7 @@ PC를 사용자 시리얼 장치 및 TCP 클라이언트로 삼아 데이터 통
 -----
 
 **동작에 문제가 있나요?**
-**[Troubleshooting 가이드](Troubleshooting_Guide-[KO])** 문서를 참고해 보세요\!
+**[Troubleshooting 가이드](Troubleshooting_Guide-KO)** 문서를 참고해 보세요\!
 
 -----
 
@@ -267,13 +267,13 @@ PC를 사용자 시리얼 장치 및 TCP 클라이언트로 삼아 데이터 통
 
  **WIZ510SSL**
 
-  - **User's Manual [(English)](Users_Manual-[EN])/[(Korean)](Users_Manual-[KO])**
+  - **User's Manual [(English)](Users_Manual-EN)/[(Korean)](Users_Manual-KO)**
 
-  - **Device Command Manual [(English)](Command_Manual-[EN])/[(Korean)](Command_Manual-[KO])**
+  - **Device Command Manual [(English)](Command_Manual-EN)/[(Korean)](Command_Manual-KO)**
 
-  - **Troubleshooting Guide [(English)](Troubleshooting_Guide-[EN])/[(Korean)](Troubleshooting_Guide-[KO])**
+  - **Troubleshooting Guide [(English)](Troubleshooting_Guide-EN)/[(Korean)](Troubleshooting_Guide-KO)**
 
-  - **Update History [(English)](Series_Update_History-[EN])/[(Korean)](Series_Update_History-[KO])**
+  - **Update History [(English)](Series_Update_History-EN)/[(Korean)](Series_Update_History-KO)**
 
 -----
 

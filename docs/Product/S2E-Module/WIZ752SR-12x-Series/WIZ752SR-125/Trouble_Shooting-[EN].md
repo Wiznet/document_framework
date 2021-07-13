@@ -1,12 +1,12 @@
 ---
-id: trouble_shooting-[EN]
+id: trouble_shooting-EN
 title: Trouble Shooting-[EN]
 date: 2020-04-08
 ---
 
 **Supported Languages**  
-\* [English](trouble_shooting-[EN]) (current page)  
-\* [Korean](trouble_shooting-[KO])
+\* [English](trouble_shooting-EN) (current page)  
+\* [Korean](trouble_shooting-KO)
 
 -----
 
@@ -94,7 +94,7 @@ date: 2020-04-08
 1.  Click 'Search' and click the \[+\] MAC address to check the product information
 2.  Check the ‘Firmware version' 
 
-  - User can check the latest firmware version at the [product update history page](series_update_history-[EN]) and [download page](download).
+  - User can check the latest firmware version at the [product update history page](series_update_history-EN) and [download page](download).
 
 </details>
 
@@ -177,13 +177,13 @@ date: 2020-04-08
 
  **WIZ750SR** 
 
-  - **User's Manual [(English)](users_manual-[EN])/[(Korean)](users_manual-[KO])** 
+  - **User's Manual [(English)](users_manual-EN)/[(Korean)](users_manual-KO)** 
   
-  - **Device Command Manual [(English)](Command_Manual-[EN])/[(Korean)](Command_Manual-[KO])**
+  - **Device Command Manual [(English)](Command_Manual-EN)/[(Korean)](Command_Manual-KO)**
   
-  - **Troubleshooting Guide [(English)](Trouble_Shooting-[EN])/[(Korean)](Trouble_Shooting-[KO])**
+  - **Troubleshooting Guide [(English)](Trouble_Shooting-EN)/[(Korean)](Trouble_Shooting-KO)**
   
-  - **Update History [(English)](Series_Update_History-[EN])/[(Korean)](Series_Update_History-[KO])**
+  - **Update History [(English)](Series_Update_History-EN)/[(Korean)](Series_Update_History-KO)**
   
 -----
 

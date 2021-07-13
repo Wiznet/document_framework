@@ -1,12 +1,12 @@
 ---
-id: configuration_tool_manual_new-[KO]
+id: configuration_tool_manual_new-KO
 title: Configuration Tool Manual (New)-[KO]
 date: 2020-04-08
 ---
 
 **Supported Languages**
-  * [English](configuration_tool_manual_new-[EN])  
-  * [Korean](configuration_tool_manual_new-[KO]) (current page)
+  * [English](configuration_tool_manual_new-EN)  
+  * [Korean](configuration_tool_manual_new-KO) (current page)
 
 ![](/img/products/wiz750sr/docs_icon.png)
 
@@ -60,7 +60,7 @@ WIZnet-S2E-Tool-GUI에서 지원하는 제품 리스트는 아래와 같습니�
 
 #### Pre-programmed MCU
 
-  - [W7500(P)-S2E](../../Pre-programmed-MCU/W7500P-S2E/w7500p-s2e-[EN])
+  - [W7500(P)-S2E](../../Pre-programmed-MCU/W7500P-S2E/w7500p-s2e-EN)
 
 -----
 
@@ -130,7 +130,7 @@ Configuration tool 상단에 위치하며, 제품의 검색 / 펌웨어 업로�
   - **네트워크를 이용한 WIZ750SR 장치 검색 기능은 TCP/UDP 포트 50001번을 이용**합니다. 만약 방화벽이나 백신 프로그램에서 해당 포트를 차단하고 있을 경우, 장치 검색에 실패할 수 있습니다.
       - 이러한 경우, 방화벽이나 백신 프로그램의 동작을 해제 하신 후 테스트 해 보시기를 권장합니다.
       - 문제가 지속될 경우, 다음 내용을 확인 해 보시기 바랍니다.
-          - **[문제 해결 가이드: 제품의 Search가 되지 않습니다](trouble_shooting-[KO])**
+          - **[문제 해결 가이드: 제품의 Search가 되지 않습니다](trouble_shooting-KO)**
 
 #### 2) Apply Settings
 
@@ -152,7 +152,7 @@ Configuration tool 상단에 위치하며, 제품의 검색 / 펌웨어 업로�
   - **네트워크를 이용한 WIZ750SR 장치 펌웨어 업로드 기능은 TCP 포트 50002번을 이용**합니다. 만약 방화벽이나 백신 프로그램에서 해당 포트를 차단하고 있을 경우, 장치 펌웨어 업로드에 실패할 수 있습니다.
       - 이러한 경우, 방화벽이나 백신 프로그램의 동작을 해제 하신 후 테스트 해 보시기를 권장합니다.
       - 문제가 지속될 경우, 다음 내용을 확인 해 보시기 바랍니다.
-          - **[문제 해결 가이드: 펌웨어 업데이트에 실패합니다.](trouble_shooting-[KO])**
+          - **[문제 해결 가이드: 펌웨어 업데이트에 실패합니다.](trouble_shooting-KO)**
   - 올바르지 않은 펌웨어로 업로드를 수행 한 경우, 제품의 정상 동작을 보장 할 수 없습니다.
 
 **펌웨어 업로드 중에는 절대 전원을 끄지 마십시오**  
@@ -165,7 +165,7 @@ Configuration tool 상단에 위치하며, 제품의 검색 / 펌웨어 업로�
 #### 5) Factory Reset
 
   - WIZ750SR 제품의 설정을 공장 초기 설정 값(Factory default)로 되돌립니다.
-  - 제품의 초기 설정 값은 [WIZ750SR FactorySettings](getting_started-[KO]#wiz750sr-factory-settings)에서 확인 할 수 있습니다.
+  - 제품의 초기 설정 값은 [WIZ750SR FactorySettings](getting_started-KO#wiz750sr-factory-settings)에서 확인 할 수 있습니다.
   - 제품은 동작이 완료된 이후 자동으로 재시작(Reboot) 됩니다. 
 
 #### 6) Save Config
@@ -271,7 +271,7 @@ Configuration tool 상단에 위치하며, 제품의 검색 / 펌웨어 업로�
   - **Static** (default)
       - 직접 IP 주소 할당 모드를 선택합니다. 이 옵션을 선택하면 Local IP, Subnet mask, Gateway, DNS server 필드가 입력 가능한 상태로 활성화 됩니다.
 
-  - IP 주소 할당에 관한 상세 설명은 [WIZ750SR User's Manual: IP 주소 설정](users_manual-[KO]#ip-주소-설정)에서 다룹니다.
+  - IP 주소 할당에 관한 상세 설명은 [WIZ750SR User's Manual: IP 주소 설정](users_manual-KO#ip-주소-설정)에서 다룹니다.
 
 
 
@@ -381,7 +381,7 @@ Configuration tool 상단에 위치하며, 제품의 검색 / 펌웨어 업로�
   - 제품의 **네트워크 동작 모드**를 설정합니다. 
   - **TCP 클라이언트 모드, TCP 서버 모드(default), TCP 클라이언트/서버 혼용 모드, UDP 모드**의 네
     가지 모드 중 사용자의 응용과 목적에 맞게 선택 할 수 있습니다. 
-  - 각 네트워크 동작 모드의 특징과 전용 옵션은 [WIZ750SR User's Manual: 네트워크 동작 모드](users_manual-[KO]#네트워크-동작-모드)에서 다룹니다. |
+  - 각 네트워크 동작 모드의 특징과 전용 옵션은 [WIZ750SR User's Manual: 네트워크 동작 모드](users_manual-KO#네트워크-동작-모드)에서 다룹니다. |
 
 -----
 
@@ -392,7 +392,7 @@ Configuration tool 상단에 위치하며, 제품의 검색 / 펌웨어 업로�
       - 제품이 TCP 클라이언트 모드\[3\] 및 UDP 모드 일 때 연결을 시도하거나 통신을 수행하기 위한 목적지(destination)를 원격지 호스트(remote host)라 하며, **IP 주소 및 도메인
         네임**을 입력 할 수 있습니다.
       - **목적지의 포트 번호**가 꼭 필요합니다.
-      - 원격지 호스트 설정에 관한 상세 설명은 [WIZ750SR User's Manual: 원격지 호스트 설정](users_manual-[KO]#원격지-호스트-설정)에서 다룹니다. |
+      - 원격지 호스트 설정에 관한 상세 설명은 [WIZ750SR User's Manual: 원격지 호스트 설정](users_manual-KO#원격지-호스트-설정)에서 다룹니다. |
 
 \* WIZ750SR은 **PPPoE**와 **DDNS**를 지원하지 않습니다.
 
@@ -517,7 +517,7 @@ Configuration tool 상단에 위치하며, 제품의 검색 / 펌웨어 업로�
 -----
 
 **동작에 문제가 있나요?**  
-**[Troubleshooting 가이드](trouble_shooting-[KO])** 문서를 참고해 보세요\!
+**[Troubleshooting 가이드](trouble_shooting-KO)** 문서를 참고해 보세요\!
 
 -----
 
@@ -527,13 +527,13 @@ Configuration tool 상단에 위치하며, 제품의 검색 / 펌웨어 업로�
 
  **WIZ750SR** 
 
-  - **User's Manual [(English)](users_manual-[EN])/[(Korean)](users_manual-[KO])** 
+  - **User's Manual [(English)](users_manual-EN)/[(Korean)](users_manual-KO)** 
   
-  - **Device Command Manual [(English)](Command_Manual-[EN])/[(Korean)](Command_Manual-[KO])**
+  - **Device Command Manual [(English)](Command_Manual-EN)/[(Korean)](Command_Manual-KO)**
   
-  - **Troubleshooting Guide [(English)](Trouble_Shooting-[EN])/[(Korean)](Trouble_Shooting-[KO])**
+  - **Troubleshooting Guide [(English)](Trouble_Shooting-EN)/[(Korean)](Trouble_Shooting-KO)**
   
-  - **Update History [(English)](Series_Update_History-[EN])/[(Korean)](Series_Update_History-[KO])**
+  - **Update History [(English)](Series_Update_History-EN)/[(Korean)](Series_Update_History-KO)**
   
 -----
 

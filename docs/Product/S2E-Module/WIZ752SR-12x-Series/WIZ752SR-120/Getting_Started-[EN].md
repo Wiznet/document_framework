@@ -1,12 +1,12 @@
 ---
-id: getting_started_guide-[EN]
+id: getting_started_guide-EN
 title: Getting Started Guide-[EN]
 date: 2020-04-13
 ---
 
 **Supported Languages**  
-* [English](gtting_started_guide-[EN]) (current page)  
-* [Korean](gtting_started_guide-[KO])
+* [English](gtting_started_guide-EN) (current page)  
+* [Korean](gtting_started_guide-KO)
 
 ![](/img/products/wiz750sr/docs_icon.png)
 
@@ -37,7 +37,7 @@ The WIZ752SR-120 evaluation board package contains the following parts.
 
 The entire list of parts of the board is available at the [WIZ752SR-120
 Overview: Product
-Contents](overview-[EN]#product-contents)
+Contents](overview-EN#product-contents)
 page.
 
 ## Prerequisites for Setup
@@ -261,6 +261,6 @@ Now you’re ready to use the WIZ752SR-120\!
 
 **If there is any problem?**  
 Please refer to our **[Troubleshooting
-Guide](../../WIZ750SR/trouble_shooting-[EN])**\!
+Guide](../../WIZ750SR/trouble_shooting-EN)**\!
 
 -----

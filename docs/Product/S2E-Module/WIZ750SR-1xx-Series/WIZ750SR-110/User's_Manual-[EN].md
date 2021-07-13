@@ -1,5 +1,5 @@
 ---
-id: users_manual-[EN]
+id: users_manual-EN
 title: User's Manual-[EN]
 date: 2020-04-08
 ---
@@ -29,7 +29,7 @@ WIZ750SR provides two ways of assigning the IP address. The allocation of IP add
   - **Static(Manual) IP allocation**
       - Also known as the static allocation; the product will operate according to the network information entered by the user. Both the public IP address and private IP address can be assigned.
       - In cases of using TCP client or TCP mixed mode, the DNS address must be set if the remote host\[3\] is a domain name\[4\] and not an IP address.
-      - Please refer to the example at [Getting Started Guide: WIZ750SR Factory Settings](getting_started-[EN]#wiz750sr-factory-settings) for assigning a private IP address.
+      - Please refer to the example at [Getting Started Guide: WIZ750SR Factory Settings](getting_started-EN#wiz750sr-factory-settings) for assigning a private IP address.
 
 
 
@@ -400,19 +400,19 @@ Data packing options can be multi-selected but has priority as shown below.
 
 There are two methods for the various option settings of WIZ750SR’s serial to Ethernet operation.
 
-  - **[Setting using the configuration tool](configuration_tool_manual_new-[EN]) (network)**
-  - **[Setting using the command set](command_manual-[EN]) (serial / network)**
+  - **[Setting using the configuration tool](configuration_tool_manual_new-EN) (network)**
+  - **[Setting using the command set](command_manual-EN) (serial / network)**
 
 For more information, please refer to above document links.
 
 -----
 
  **If there is any problem?**  
-Please refer to our **[Troubleshooting Guide](trouble_shooting-[EN])**! 
+Please refer to our **[Troubleshooting Guide](trouble_shooting-EN)**! 
 
 -----
 
-1.  Settings of configuration tool and command set are compatible to the settings of WIZ107/108SR except the unused and altered command information described in the [WIZ750SR Command Manual](command_manual-[EN]).
+1.  Settings of configuration tool and command set are compatible to the settings of WIZ107/108SR except the unused and altered command information described in the [WIZ750SR Command Manual](command_manual-EN).
     
 ## Navigation
 
@@ -420,13 +420,13 @@ Please refer to our **[Troubleshooting Guide](trouble_shooting-[EN])**!
 
  **WIZ750SR** 
 
-  - **User's Manual [(English)](users_manual-[EN])/[(Korean)](users_manual-[KO])** 
+  - **User's Manual [(English)](users_manual-EN)/[(Korean)](users_manual-KO)** 
   
-  - **Device Command Manual [(English)](Command_Manual-[EN])/[(Korean)](Command_Manual-[KO])**
+  - **Device Command Manual [(English)](Command_Manual-EN)/[(Korean)](Command_Manual-KO)**
   
-  - **Troubleshooting Guide [(English)](Trouble_Shooting-[EN])/[(Korean)](Trouble_Shooting-[KO])**
+  - **Troubleshooting Guide [(English)](Trouble_Shooting-EN)/[(Korean)](Trouble_Shooting-KO)**
   
-  - **Update History [(English)](Series_Update_History-[EN])/[(Korean)](Series_Update_History-[KO])**
+  - **Update History [(English)](Series_Update_History-EN)/[(Korean)](Series_Update_History-KO)**
   
 -----
 

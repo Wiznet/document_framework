@@ -1,12 +1,12 @@
 ---
-id: configuration_tool_manual_new-[EN]
+id: configuration_tool_manual_new-EN
 title: Configuration Tool Manual (New)-[EN]
 date: 2020-04-08
 ---
 
 **Supported Languages** 
-  * [English](configuration_tool_manual_new-[EN]) (current page)  
-  * [Korean](configuration_tool_manual_new-[KO])
+  * [English](configuration_tool_manual_new-EN) (current page)  
+  * [Korean](configuration_tool_manual_new-KO)
 
 ![](/img/products/wiz750sr/docs_icon.png)
 
@@ -57,7 +57,7 @@ The list of products supported by WIZnet-S2E-Tool-GUI is as follows.
 
 #### Pre-programmed MCU
 
-  - [W7500(P)-S2E](../../Pre-programmed-MCU/W7500P-S2E/w7500p-s2e-[EN])
+  - [W7500(P)-S2E](../../Pre-programmed-MCU/W7500P-S2E/w7500p-s2e-EN)
 
 -----
 
@@ -134,7 +134,7 @@ section are available below.
         virus protection software.
       - Please refer to this guide if still unsuccessful.
           - **[Troubleshooting Guide: Device cannot be
-            searched](trouble_shooting-[EN])**
+            searched](trouble_shooting-EN)**
 
 #### 2\) Apply Settings
 
@@ -168,7 +168,7 @@ section are available below.
         virus protection software.
       - Please refer to this guide if still unsuccessful.
           - **[Troubleshooting Guide: Firmware cannot be
-            uploaded](trouble_shooting-[EN])**
+            uploaded](trouble_shooting-EN)**
   - The module will not work properly if the firmware is not correctly
     uploaded.
 
@@ -182,7 +182,7 @@ DURING FIRMWARE UPLOADING**
 #### 5\) Factory Reset
 
   - Returns the settings of WIZ750SR to factory default.
-  - Factory default setting of can be checked at [WIZ750SR Factory Settings](getting_started-[EN]#wiz750sr-factory-settings).
+  - Factory default setting of can be checked at [WIZ750SR Factory Settings](getting_started-EN#wiz750sr-factory-settings).
   - Then the module will automatically reboot.
 
 #### 6\) Save Config
@@ -295,7 +295,7 @@ DURING FIRMWARE UPLOADING**
       - By selecting this option, all information is automatically
         allocated from the router (DHCP server).
 
-  * Details of IP address allocation are available at [WIZ750SR User's Manual: IP address settings](users_manual-[EN]#ip-address-settings).  
+  * Details of IP address allocation are available at [WIZ750SR User's Manual: IP address settings](users_manual-EN#ip-address-settings).  
  * PPPoE mode is not supported.
 
 -----
@@ -425,7 +425,7 @@ DURING FIRMWARE UPLOADING**
   - Users can choose among the four options that suits their
     application: TCP client mode, TCP server mode (default), TCP
     client/server mixed mode, UDP mode.
-  - Details of each network operation mode are available at [WIZ750SR User's Manual: Network Operation Mode](users_manual-[EN]#network-operation-mode). 
+  - Details of each network operation mode are available at [WIZ750SR User's Manual: Network Operation Mode](users_manual-EN#network-operation-mode). 
 
 
 
@@ -441,7 +441,7 @@ DURING FIRMWARE UPLOADING**
         or remote host when the module attempts connection in TCP client
         mode\[3\] or UDP mode.
       - The port number of the destination is required.
-  - Details of the remote host setting are available at [WIZ750SR User's Manual: Remote Host Settings](users_manual-[EN]#remote-host-settings).
+  - Details of the remote host setting are available at [WIZ750SR User's Manual: Remote Host Settings](users_manual-EN#remote-host-settings).
 
 -----
 
@@ -588,7 +588,7 @@ multi-selected but has priority as shown below.
 
 **If there is any problem?**  
 Please refer to our **[Troubleshooting
-Guide](trouble_shooting-[EN])**\! 
+Guide](trouble_shooting-EN)**\! 
 
 -----
 
@@ -598,13 +598,13 @@ Guide](trouble_shooting-[EN])**\!
 
  **WIZ750SR** 
 
-  - **User's Manual [(English)](users_manual-[EN])/[(Korean)](users_manual-[KO])** 
+  - **User's Manual [(English)](users_manual-EN)/[(Korean)](users_manual-KO)** 
   
-  - **Device Command Manual [(English)](Command_Manual-[EN])/[(Korean)](Command_Manual-[KO])**
+  - **Device Command Manual [(English)](Command_Manual-EN)/[(Korean)](Command_Manual-KO)**
   
-  - **Troubleshooting Guide [(English)](Trouble_Shooting-[EN])/[(Korean)](Trouble_Shooting-[KO])**
+  - **Troubleshooting Guide [(English)](Trouble_Shooting-EN)/[(Korean)](Trouble_Shooting-KO)**
   
-  - **Update History [(English)](Series_Update_History-[EN])/[(Korean)](Series_Update_History-[KO])**
+  - **Update History [(English)](Series_Update_History-EN)/[(Korean)](Series_Update_History-KO)**
   
 -----
 
