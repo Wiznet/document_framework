@@ -66,7 +66,7 @@ via Ethernet network.**
 
 WIZ750SR series Common Documents 
 
-  - **User's Manual [(English)](/docs/Product/S2E-Module/WIZ750SR/users_manual-EN)/[(Korean)](/docs/Product/S2E-Module/WIZ750SR/users_manual-KO)** 
+  - **User's Manual [(English)](/Product/S2E-Module/WIZ750SR/users_manual-EN)/[(Korean)](/Product/S2E-Module/WIZ750SR/users_manual-KO)** 
   
   - **Device Command Manual [(English)](../../WIZ750SR/command_manual-EN)/[(Korean)](../../WIZ750SR/command_manual-KO)**
   
