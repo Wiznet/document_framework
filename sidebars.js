@@ -264,9 +264,17 @@ module.exports = {
 				],
 				},
 				{
-					type: 'link',
-					label: 'W5300', // string - the label that should be displayed.
-					href: 'http://www.wiznet.io/product-item/w5300/' // string - the target URL.
+				//	type: 'link',
+				//	label: 'W5300', // string - the label that should be displayed.
+				//	href: 'http://www.wiznet.io/product-item/w5300/' // string - the target URL.
+					type: 'category',
+					label: 'W5300',
+					items: [
+						'Product/iEthernet/W5300/w5300',
+						'Product/iEthernet/W5300/overview',
+						'Product/iEthernet/W5300/document',
+						'Product/iEthernet/W5300/w5300-evb',
+					],
 				},
 				{
 					type: 'link',
