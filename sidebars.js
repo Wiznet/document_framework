@@ -277,14 +277,30 @@ module.exports = {
 					],
 				},
 				{
-					type: 'link',
-					label: 'W5100', // string - the label that should be displayed.
-					href: 'https://www.wiznet.io/product-item/w5100/' // string - the target URL.
+				//	type: 'link',
+				//	label: 'W5100', // string - the label that should be displayed.
+				//	href: 'https://www.wiznet.io/product-item/w5100/' // string - the target URL.
+					type: 'category',
+					label: 'W5100',
+					items: [
+						'Product/iEthernet/W5100/w5100',
+						'Product/iEthernet/W5100/overview',
+						'Product/iEthernet/W5100/document',
+						'Product/iEthernet/W5100/w5100-evb',
+					],
 				},
 				{
-					type: 'link',
-					label: 'W3150A+', // string - the label that should be displayed.
-					href: 'https://www.wiznet.io/product-item/w3150a+/' // string - the target URL.
+				//	type: 'link',
+				//	label: 'W3150A+', // string - the label that should be displayed.
+				//	href: 'https://www.wiznet.io/product-item/w3150a+/' // string - the target URL.
+					type: 'category',
+					label: 'W3150A+',
+					items: [
+						'Product/iEthernet/W3150/w3150',
+						'Product/iEthernet/W3150/overview',
+						'Product/iEthernet/W3150/document',
+						'Product/iEthernet/W3150/w3150-evb',
+					],
 				}
 			],
 		},
@@ -709,6 +725,14 @@ module.exports = {
 			label: 'Wi-Fi Module',
 			items: [
 			'Product/Wi-Fi-Module/wi_fi_module',
+			{
+				type: 'category',
+				label: 'WizFi210/220',
+				items: [
+					'Product/Wi-Fi-Module/WizFi210/wizfi210',
+					'Product/Wi-Fi-Module/WizFi210/wizfi210-evb',
+				],	
+			},
 			{
 				type: 'category',
 				label: 'WizFi250',

@@ -16,13 +16,13 @@ Last Update: 2019. 05.23
 
 ### Reference Schematics
 
-<a href="/img/products/w5300/W5300_DS_V134E.pdf" target="_blank">W5300 Chip Datasheet v1.3.4</a>
+<a href="/img/products/w5300/W5300_ref_schematics(2010_2_12).zip" target="_blank">Reference Schematics</a>
 
 ### Qualification Report
 
 <a href="/img/products/w5300/W5300_Qualification_Report.zip" target="_blank">Download</a>
 
-- W5300 Temperature Test Report (High & Low Temperature
+- W5300 Temperature Test Report (High & Low Temperature)
 - W5300 RoHS Report
 
 ### Comparison Sheet
