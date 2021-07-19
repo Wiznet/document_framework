@@ -1,6 +1,6 @@
 ---
 id: datasheet
-title: WIZ750SR Datasheet
+title: WIZ750SR-100 Datasheet
 date: 2020-04-08
 ---
 
@@ -22,8 +22,7 @@ date: 2020-04-08
 <td>ARM<br />
 Cortex-M0<br />
 Core</td>
-<td>W7500P<br />
-PHY Included<br />
+<td>W7500<br />
 48Mhz maximum frequency<br />
 Internal 8Mhz RC Oscillator<br />
 Flash: 128KB<br />
@@ -43,23 +42,20 @@ MII (Medium-Independent Interface)<br />
 TCP/IP Protocols: TCP, UDP, ICMP, IPv4, ARP, IGMP, PPPoE</td>
 </tr>
 <tr class="odd">
-<td>:::</td>
 <td>PHY</td>
-<td>IC+(IP101G) PHY<br />
-Auto negotiation (Full-duplex and Half-duplex)<br />
-Auto MDI/MDIX</td>
+<td>Transceiver</td>
+<td>IP101GRI<br />
+Single 10/100M Ethernet Transceiver</td>
 </tr>
 <tr class="even">
 <td>Serial</td>
 <td>Interface</td>
-<td>WIZ750SR-TTL: TTL Version<br />
-WIZ750SR-232: 232 Version<br />
-WIZ750SR-422/485: 422/485 Version</td>
+<td>UART (LVTTL 3.3V)</td>
 </tr>
 <tr class="odd">
 <td>:::</td>
 <td>Signal</td>
-<td>TXD, RXD, RTS, CTS, GND</td>
+<td>TXD, RXD, RTS, CTS, DTR, DSR GND</td>
 </tr>
 <tr class="even">
 <td>:::</td>
@@ -71,423 +67,199 @@ Flow control: None, RTS / CTS, XON / XOFF</td>
 <tr class="odd">
 <td>:::</td>
 <td>Speed</td>
-<td>Up to 460Kbps</td>
+<td>Up to 230Kbps</td>
 </tr>
 <tr class="even">
 <td>Dimension</td>
 <td></td>
-<td>45mm x 30mm ( PCB board size )<br />
-48mm x 30mm x 18mm ( Include part size )</td>
+<td>50mm x 30mm x 12mm ( Include part size )</td>
 </tr>
 <tr class="odd">
 <td>Connector type</td>
 <td></td>
-<td>2.54mm Pitch 6x2 Pin-header(Data Line)<br />
-2.54mm Pitch 1x6 Pin-header(ISP)<br />
-2.54mm Pitch 1x6 Pin-header(Expansion GPIO &amp; app_boot)<br />
-1.27mm Pitch 1x5 Pin-header (JTAG)</td>
+<td>Mount Connector<br />
+2.00mm Pitch 1x12 Pin-header 2EA<br />
+<br />
+Not Mount Connector<br />
+2.00mm Pitch 1x12 Pin-header 1ea<br />
+2.54mm Pitch 1x6 Pin-header<br />
+1.27mm Pitch 1x5 Pin-header</td>
 </tr>
 <tr class="even">
 <td>Input Voltage</td>
 <td></td>
-<td>DC 3.3V</td>
+<td>DC 3.3V, 100mA under</td>
 </tr>
 <tr class="odd">
 <td>Temperature</td>
 <td></td>
-<td>0℃ ~ 70℃ (Operation), -40℃ ~ 85℃ (Storage range)</td>
+<td>-40℃ ~ 85℃ (Operation), -40℃ ~ 85℃ (Storage range)</td>
 </tr>
 </tbody>
 </table>
 
------
+------------------------------------------------------------------------
 
-### Callout
+### WIZ750SR-100 Callout
 
-#### Rev1.0/Rev1.1
+|                                                                                                  |
+|--------------------------------------------------------------------------------------------------|
+| <img src="/img/products/wiz750sr-100/datasheet/wiz750sr_callout_rev1.1_top_v2.png" width="600" />    |
+| TOP                                                                                              |
+| <img src="/img/products/wiz750sr-100/datasheet/wiz750sr_callout_rev1.1_bottom_v2.png" width="600" /> |
+| BOTTOM                                                                                           |
 
-|                                                                      |                                                                         |
-| -------------------------------------------------------------------- | ----------------------------------------------------------------------- |
-| ![](/img/products/wiz750sr/clitool/datasheet/wiki_wiz750sr_v1.1_top_callout.png) | ![](/img/products/wiz750sr/clitool/datasheet/wiki_wiz750sr_v1.1_bottom_callout.png) |
-| **TOP**                                                              | **BOTTOM**                                                              |
+------------------------------------------------------------------------
 
-#### Rev1.2
+### WIZ750SR-100 Pinout
 
-|                                                                     |                                                                        |
-| ------------------------------------------------------------------- | ---------------------------------------------------------------------- |
-| ![](/img/products/wiz750sr/clitool/datasheet/wiz750sr_top_parts_exp_rev1.2.png) | ![](/img/products/wiz750sr/clitool/datasheet/wiz750sr_bottom_parts_exp_rev1.2.png) |
-| **TOP**                                                             | **BOTTOM**                                                             |
+<img src="/img/products/wiz750sr-100/datasheet/wiz750sr-100_allpinout_rev1.1_v2.png" width="800" />
 
-  - WIZ750SR Rev1.2 has erased Watchdog IC and J5 connector and added
-    POR(MIC811SUY) IC for stable operation.
+------------------------------------------------------------------------
 
------
+### WIZ750SR-100 indicate
 
-## WIZ750SR Pinout
-
-|                                                                    |                                                                  |
-| ------------------------------------------------------------------ | ---------------------------------------------------------------- |
-| ![](/img/products/wiz750sr/clitool/datasheet/wiz750sr_all_pinout_20160628.png) | ![](/img/products/wiz750sr/clitool/datasheet/wiz750sr_pinout_exp_rev1.2.png) |
-| **Rev1.1**                                                         | **Rev1.2**                                                       |
-
------
-
-## Product Comparison Table
+<img src="/img/products/wiz750sr-100/datasheet/wiz750sr-100_indicateled_pinout.png" width="800" />
 
 <table>
 <thead>
 <tr class="header">
-<th>Specification</th>
-<th>WIZ750SR-TTL</th>
-<th>WIZ750SR-232</th>
-<th>WIZ750SR-485<br />
-(RS-422)</th>
-<th>WIZ750SR-485<br />
-(RS-485)</th>
+<th>Pin Number</th>
+<th>Pin Name</th>
+<th>Signal</th>
+<th>Description</th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td>Operation mode</td>
-<td>Single-Ended</td>
-<td>Single-Ended</td>
-<td>Differential</td>
-<td></td>
+<td>1</td>
+<td>LD1</td>
+<td>Power LED</td>
+<td>-</td>
 </tr>
 <tr class="even">
-<td>Communication Method</td>
-<td>Full Duplex</td>
-<td>Full Duplex</td>
-<td>Full Duplex</td>
-<td>Half Duplex</td>
+<td>2</td>
+<td>LD2</td>
+<td>Status_LED0</td>
+<td>PHY LINK check or initialize done</td>
 </tr>
 <tr class="odd">
-<td>Transceiver</td>
-<td>N/A (Resistor)</td>
-<td>RS-232C</td>
-<td>RS-422/485</td>
-<td>RS-422/485</td>
+<td>3</td>
+<td>LD3</td>
+<td>Status_LED1</td>
+<td>TCP Connectoin</td>
+</tr>
+<tr class="even">
+<td>4</td>
+<td>LD4</td>
+<td>STATUS</td>
+<td>Trigger mode indicate<br />
+TCP connection indicate</td>
+</tr>
+<tr class="odd">
+<td>5</td>
+<td>LD5</td>
+<td>UART0 RX</td>
+<td>UART receiver indicate</td>
+</tr>
+<tr class="even">
+<td>6</td>
+<td>LD6</td>
+<td>UART0 TX</td>
+<td>UART Transceiver indicate</td>
 </tr>
 </tbody>
 </table>
 
------
+------------------------------------------------------------------------
 
-### WIZ750SR-TTL
+### WIZ750SR-100 Block Diagram
 
-|                                                                         |                                                                            |  |
-| ----------------------------------------------------------------------- | -------------------------------------------------------------------------- |  |
-|                                                                         | ![](/img/products/wiz750sr/clitool/datasheet/wiz750sr_ttl_blockdiagram_rev1.2.png)     |  |
-| ![](/img/products/wiz750sr/clitool/datasheet/wiki_wiz750sr_v1.1_ttl_top_calout.png) | ![](/img/products/wiz750sr/clitool/datasheet/wiki_wiz750sr_v1.1_ttl_bottom_calout.png) |  |
+<img src="/img/products/wiz750sr-100/datasheet/wiz750sr-100_blockdiagram_v2.png" width="800" />
 
-  - Feature
-      - This Product operates with WIZ750SR-TTL/232 EVB Board.
-      - Caution) This product doesn't have any RS-232C & RS-422/485
-        Transceivers on it.
+------------------------------------------------------------------------
 
------
+## WIZ750SR-100-EVB
 
-### WIZ750SR-232
+-   WIZ750SR-100 Developer Board.
+-   USB to UART chip, CP2104.
+-   RESET Tact SW.
+-   BOOT0 Slide SW.
+-   H/W Trig Slide SW.
+-   Expansion GPIO TEST (Digital / Analog)
+-   Micro USB.
+-   WIZ750SR-100-EVB (RS-232)
+    -   RS-232C Transceiver, D-SUB9-MALE.
 
-|                                                                           |                                                                              |  |
-| ------------------------------------------------------------------------- | ---------------------------------------------------------------------------- |  |
-|                                                                           | ![](/img/products/wiz750sr/clitool/datasheet/wiz750sr_rs232_blockdiagram_rev1.2.png)     |  |
-| ![](/img/products/wiz750sr/clitool/datasheet/wiki_wiz750sr_v1.1_rs232_top_calout.png) | ![](/img/products/wiz750sr/clitool/datasheet/wiki_wiz750sr_v1.1_rs232_bottom_calout.png) |  |
+<img src="/img/products/wiz750jr/datasheet/wiz750jr-evb_description.png" width="800" />
 
-  - Feature
-      - This Product operates with WIZ750SR-TTL/232 EVB Board.
+------------------------------------------------------------------------
 
------
+### Serial Interface
 
-### WIZ750SR-485
+<img src="/img/products/wiz750sr-100/datasheet/wiz750sr-100-evb_pinout.png" width="400" />
 
-|                                                                           |                                                                              |  |
-| ------------------------------------------------------------------------- | ---------------------------------------------------------------------------- |  |
-|                                                                           | ![](/img/products/wiz750sr/clitool/datasheet/wiz750sr_rs485_blockdiagram_rev1.2.png)    |  |
-| ![](/img/products/wiz750sr/clitool/datasheet/wiki_wiz750sr_v1.1_rs232_top_calout.png) | ![](/img/products/wiz750sr/clitool/datasheet/wiki_wiz750sr_v1.1_rs485_bottom_calout.png) |  |
+| Pin Number | Signal | Description                  |
+|------------|--------|------------------------------|
+| 1          | DCD    | NC                           |
+| 2          | RXD    | Receive Data                 |
+| 3          | TXD    | Transmit Data                |
+| 4          | DTR    | Data Terminal Ready          |
+| 5          | GND    | System Ground(Signal Ground) |
+| 6          | DSR    | Data Set Ready               |
+| 7          | RTS    | Request To Send              |
+| 8          | CTS    | Clear To Send                |
+| 9          | RI     | NC                           |
 
-  - Feature
-      - This Product operates with WIZ750SR-422/485 EVB Board.
+-   RXD, TXD, GND: These are all you need if the device does not use
+    hardware handshaking.
+-   RXD, TXD, GND, RTS, CTS: These are the signals used when serial
+    device uses hardware handshaking.
+-   DTR, DSR: Not used
 
------
+<img src="/img/products/wiz750sr-100/datasheet/wiz750sr-100-serial_cable.png" width="600" />
 
-## WIZ750SR-EVB
+------------------------------------------------------------------------
 
-  - WIZ750SR Developer Board.
-  - USB to UART chip, CP2104.
-  - RESET Tact SW.
-  - BOOT0 Slide SW.
-  - H/W Trig Slide SW.
-  - Expansion GPIO TEST (Digital / Analog)
-  - Micro USB.
-  - WIZ750SR-EVB (TTL/232)
-      - RS-232C Connector, D-SUB9-MALE.
-  - WIZ750SR-EVB (422/485)
-      - RS-422/485 Connector, ECH381R.
-      
-      ### TTL / RS232 Version
+## Schematic & Artwork
 
-|                                                                           |
-| ------------------------------------------------------------------------- |
-| ![](/img/products/wiz750sr/clitool/datasheet/wiz750sr-evb_ttl_232_description_v3.png) |
-| **\<WIZ750SR EVB TTL/RS232 Call Out\>**                                   |
+### WIZ750SR-100
 
-|                                                                  |
-| ---------------------------------------------------------------- |
-| ![](/img/products/wiz750sr/clitool/datasheet/wiz750sr-evb_ttl_232_block.png) |
-| **\<WIZ750SR EVB TTL/RS232 Block Diagram\>**                     |
-
-### RS422 / RS485 Version
-
-|                                                                        |
-| ---------------------------------------------------------------------- |
-| ![](/img/products/wiz750sr/clitool/datasheet/wiz750sr-evb_422_485_description.png) |
-| **\<WIZ750SR EVB RS422/485 Call Out\>**                                |
-
-|                                                                    |
-| ------------------------------------------------------------------ |
-| ![](/img/products/wiz750sr/clitool/datasheet/wiz750sr-evb_rs422_485_block.png) |
-| **\<WIZ750SR EVB RS422/485 Block Diagram\>**                       |
-
------
-
-## Schematic
-
-### WIZ750SR
-
-<table>
-<thead>
-<tr class="header">
-<th>H/W version</th>
-<th>Type</th>
-<th>Filetype</th>
-<th>Download Link</th>
-<th>Remarks</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>1.0</td>
-<td>TTL<br />
-RS-232<br />
-RS-485</td>
-<td>Altium</td>
-<td><img src="/img/products/w5500/w5500_evb/icons/download.png" /> <a href="/img/products/wiz750sr/clitool/datasheet/wiz750sr_schematic_v1.0_altium.zip">Download</a></td>
-<td>-</td>
-</tr>
-<tr class="even">
-<td>:::</td>
-<td>:::</td>
-<td>PDF</td>
-<td><img src="/img/products/w5500/w5500_evb/icons/download.png" /> <a href="/img/products/wiz750sr/clitool/datasheet/wiz750sr_schematic_v1.0_pdf.pdf">Download</a></td>
-<td>-</td>
-</tr>
-<tr class="odd">
-<td>1.1</td>
-<td>:::</td>
-<td>Altium</td>
-<td><img src="/img/products/w5500/w5500_evb/icons/download.png" /> <a href="/products/wiz750sr/clitool/datasheet/wiz750sr_altium_v1.1_sch.zip">Download</a></td>
-<td>-</td>
-</tr>
-<tr class="even">
-<td>:::</td>
-<td>:::</td>
-<td>PDF</td>
-<td><img src="/img/products/w5500/w5500_evb/icons/download.png" /> <a href="/products/wiz750sr/clitool/datasheet/wiz750sr_schematic_v1.1.pdf">Download</a></td>
-<td>:::</td>
-</tr>
-<tr class="odd">
-<td>1.2</td>
-<td>:::</td>
-<td>Altium</td>
-<td><img src="/img/products/w5500/w5500_evb/icons/download.png" /> <a href="/products/wiz750sr/clitool/datasheet/wiz750sr_schematic_v1.2_wiki_upload.zip">Download</a></td>
-<td><strong>Latest version H/W</strong></td>
-</tr>
-<tr class="even">
-<td>:::</td>
-<td>:::</td>
-<td>PDF</td>
-<td><img src="/img/products/w5500/w5500_evb/icons/download.png" /> <a href="/products/wiz750sr/clitool/datasheet/wiz750sr_v1.2.pdf">Download</a></td>
-<td>:::</td>
-</tr>
-</tbody>
-</table>
+| H/W version | Type | Filetype | Download Link | Remarks |
+|-------------|------|----------|-----------------------------------------------------------------------------------------------------------------------------------------------------------------|---------|
+| 1.0         | TTL  | Altium   | ![](/img/products/w5500/w5500_evb/icons/download.png) <a href="/img/products/wiz750sr-100/datasheet/wiz750sr-100_v1.0_wiki_upload_files.zip" target="_blank">Download</a> | \-      |
+| :::         | :::  | PDF      | ![](/img/products/w5500/w5500_evb/icons/download.png) <a href="/img/products/wiz750sr-100/datasheet/wiz750sr-100_v2.pdf" target="_blank">Download</a>    | \-      |
+| 1.1         | TTL  | Altium   | ![](/img/products/w5500/w5500_evb/icons/download.png) <a href="/img/products/wiz750sr-100/datasheet/wiz750sr-100_v1.1_wiki_upload_files.zip" target="_blank">Download</a> | \-      |
+| :::         | :::  | PDF      | ![](/img/products/w5500/w5500_evb/icons/download.png) <a href="/img/products/wiz750sr-100/datasheet/wiz750sr-100_rev1.1.pdf" target="_blank">Download</a>               | \-      |
 
 ### WIZ750SR-EVB
 
-<table>
-<thead>
-<tr class="header">
-<th>H/W version</th>
-<th>Type</th>
-<th>Filetype</th>
-<th>Download Link</th>
-<th>Remarks</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>1.0</td>
-<td>TTL<br />
-RS-232</td>
-<td>Altium</td>
-<td><img src="/img/products/w5500/w5500_evb/icons/download.png" /> <a href="/products/wiz750sr/clitool/datasheet/wiz750sr_evb_ttl_rs232_v1.0_altium.zip">Download</a></td>
-<td><strong>Latest version H/W</strong></td>
-</tr>
-<tr class="even">
-<td>:::</td>
-<td>:::</td>
-<td>PDF</td>
-<td><img src="/img/products/w5500/w5500_evb/icons/download.png" /> <a href="/products/wiz750sr/clitool/datasheet/wiz750sr_evb_ttl_rs232_v1.0_schematic.pdf">Download</a></td>
-<td>:::</td>
-</tr>
-<tr class="odd">
-<td>:::</td>
-<td>RS-422<br />
-RS-485</td>
-<td>Altium</td>
-<td><img src="/img/products/w5500/w5500_evb/icons/download.png" /> <a href="/products/wiz750sr/clitool/datasheet/wiz750sr_evb_rs485.zip">Download</a></td>
-<td>:::</td>
-</tr>
-<tr class="even">
-<td>:::</td>
-<td>:::</td>
-<td>PDF</td>
-<td><img src="/img/products/w5500/w5500_evb/icons/download.png" /> <a href="/products/wiz750sr/clitool/datasheet/wiz750sr_evb_rs485.pdf">Download</a></td>
-<td>:::</td>
-</tr>
-</tbody>
-</table>
+| H/W version | Type  | Filetype | Download Link                                                                                                                                         | Remarks |
+|-------------|-------|----------|-------------------------------------------------------------------------------------------------------------------------------------------------------|---------|
+| 1.0         | RS232 | Altium   | ![](/img/products/w5500/w5500_evb/icons/download.png) <a href="/img/products/wiz750sr-100/datasheet/wiz750sr-100-evb_sch_v1.0.zip" target="_blank">Download</a> | \-      |
+| :::         | :::   | PDF      | ![](/img/products/w5500/w5500_evb/icons/download.png) <a href="/img/products/wiz750sr-100/datasheet/wiz750sr-100-evb.pdf" target="_blank">Download</a> | \-      |
 
------
+------------------------------------------------------------------------
 
 ## Part list
 
-### WIZ750SR
+### WIZ750SR-100
 
-| H/W version | Type   | Filetype | Download Link                                                                                                                     | Remarks |
-| ----------- | ------ | -------- | --------------------------------------------------------------------------------------------------------------------------------- | ------- |
-| 1.0         | TTL    | Excel    | ![](/img/products/w5500/w5500_evb/icons/download.png) [Download](/img/products/wiz750sr/clitool/datasheet/wiz750sr_v1.0_pl_160421_ttl.xls)       | \-      |
-| :::         | :::    | PDF      | !<a href="/img/products/wiz750sr/clitool/datasheet/wiz750sr_v1.0_pl_160421_ttl.pdf" target="_blank">](/img/products/w5500/w5500_evb/icons/download.png) [Download</a>       | :::     |
-| :::         | RS-232 | Excel    | ![](/img/products/w5500/w5500_evb/icons/download.png) [Download](/img/products/wiz750sr/clitool/datasheet/wiz750sr_v1.0_pl_160421_rs232.xls)     | :::     |
-| :::         | :::    | PDF      | !<a href="/img/products/wiz750sr/clitool/datasheet/wiz750sr_v1.0_pl_160421_rs232.pdf" target="_blank">](/img/products/w5500/w5500_evb/icons/download.png) [Download</a>     | :::     |
-| :::         | RS-485 | Excel    | ![](/img/products/w5500/w5500_evb/icons/download.png) [Download](/img/products/wiz750sr/clitool/datasheet/wiz750sr_v1.0_pl_160421_rs422_485.xls) | :::     |
-| :::         | :::    | PDF      | !<a href="/img/products/wiz750sr/clitool/datasheet/wiz750sr_v1.0_pl_160421_rs422_485.pdf" target="_blank">](/img/products/w5500/w5500_evb/icons/download.png) [Download</a> | :::     |
-| 1.1         | TTL    | Excel    | ![](/img/products/w5500/w5500_evb/icons/download.png) [Download](/img/products/wiz750sr/clitool/datasheet/wiz750sr_v1.1_pl_ttl_20171214.xls)     | \-      |
-| ::: | :::    | PDF   | !<a href="/img/products/wiz750sr/clitool/datasheet/wiz750sr_v1.1_pl_ttl_20171214.pdf" target="_blank">](/img/products/w5500/w5500_evb/icons/download.png) [Download</a>    | :::                    |
-| ::: | RS-232 | Excel | ![](/img/products/w5500/w5500_evb/icons/download.png) [Download](/img/products/wiz750sr/clitool/datasheet/wiz750sr_v1.1_pl_rs232_20171214.xls)  | :::                    |
-| ::: | :::    | PDF   | !<a href="/img/products/wiz750sr/clitool/datasheet/wiz750sr_v1.1_pl_rs232_20171214.pdf" target="_blank">](/img/products/w5500/w5500_evb/icons/download.png) [Download</a>  | :::                    |
-| ::: | RS-485 | Excel | ![](/img/products/w5500/w5500_evb/icons/download.png) [Download](/img/products/wiz750sr/clitool/datasheet/wiz750sr_v1.1_pl_rs485_20171214.xls)  | :::                    |
-| ::: | :::    | PDF   | !<a href="/img/products/wiz750sr/clitool/datasheet/wiz750sr_v1.1_pl_rs485_20171214.pdf" target="_blank">](/img/products/w5500/w5500_evb/icons/download.png) [Download</a>  | :::                    |
-| 1.2 | TTL    | Excel | ![](/img/products/w5500/w5500_evb/icons/download.png) [Download](/img/products/wiz750sr/clitool/datasheet/wiz750sr_v120_pl_ttl_20180703.xls)    | **Latest version H/W** |
-| ::: | :::    | PDF   | !<a href="/img/products/wiz750sr/clitool/datasheet/wiz750sr_v120_pl_ttl_20180703.pdf" target="_blank">](/img/products/w5500/w5500_evb/icons/download.png) [Download</a>    | :::                    |
-| ::: | RS-232 | Excel | ![](/img/products/w5500/w5500_evb/icons/download.png) [Download](/img/products/wiz750sr/clitool/datasheet/wiz750sr_v120_pl_rs232_20180703.xls)  | :::                    |
-| ::: | :::    | PDF   | !<a href="/img/products/wiz750sr/clitool/datasheet/wiz750sr_v120_pl_rs232_20180703.pdf" target="_blank">](/img/products/w5500/w5500_evb/icons/download.png) [Download</a>  | :::                    |
-| ::: | RS-485 | Excel | ![](/img/products/w5500/w5500_evb/icons/download.png) [Download](/img/products/wiz750sr/clitool/datasheet/wiz750sr_v120_pl_rs485_201800703.xls) | :::                    |
-| ::: | :::    | PDF   | !<a href="/img/products/wiz750sr/clitool/datasheet/wiz750sr_v120_pl_rs485_201800703.pdf" target="_blank">](/img/products/w5500/w5500_evb/icons/download.png) [Download</a> | :::                    |
+| H/W version | Type | Filetype | Download Link | Remarks |
+|-------------|------|----------|-----------------------------------------------------------------------------------------------------------------------------------------------------------|---------|
+| 1.0         | TTL  | Excel    | ![](/img/products/w5500/w5500_evb/icons/download.png) <a href="/img/products/wiz750sr-100/datasheet/wiz750sr-100_v1.1_pl_20171215.xls" target="_blank">Download</a> |         |
+| :::         | :::  | PDF      | ![](/img/products/w5500/w5500_evb/icons/download.png) <a href="/img/products/wiz750sr-100/datasheet/wiz750sr-100_v1.1_pl_20171215.pdf" target="_blank">Download</a> |         |
+| 1.1         | TTL  | Excel    | ![](/img/products/w5500/w5500_evb/icons/download.png) <a href="/img/products/wiz750sr-100/datasheet/wiz750sr-100_v110_pl_20180417.xls" target="_blank">Download</a> |         |
+| :::         | :::  | PDF      | ![](/img/products/w5500/w5500_evb/icons/download.png) <a href="/img/products/wiz750sr-100/datasheet/wiz750sr-100_v110_pl_20180417.pdf" target="_blank">Download</a> |         |
 
-### WIZ750SR-EVB
+### WIZ750SR-100-EVB
 
-<table>
-<thead>
-<tr class="header">
-<th>H/W version</th>
-<th>Type</th>
-<th>Filetype</th>
-<th>Download Link</th>
-<th>Remarks</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>1.0</td>
-<td>TTL</td>
-<td>Excel</td>
-<td><img src="/img/products/w5500/w5500_evb/icons/download.png" /> <a href="/products/wiz750sr/clitool/datasheet/wiz750sr_evb_v1.0_pl_160621_ttl.xls">Download</a></td>
-<td>BOM version 1.0</td>
-</tr>
-<tr class="even">
-<td>:::</td>
-<td>:::</td>
-<td>PDF</td>
-<td><img src="/img/products/w5500/w5500_evb/icons/download.png" /> <a href="/products/wiz750sr/clitool/datasheet/wiz750sr_evb_v1.0_pl_160621_ttl.pdf">Download</a></td>
-<td>:::</td>
-</tr>
-<tr class="odd">
-<td>:::</td>
-<td>RS-232</td>
-<td>Excel</td>
-<td><img src="/img/products/w5500/w5500_evb/icons/download.png" /> <a href="/products/wiz750sr/clitool/datasheet/wiz750sr_evb_v1.0_pl_160621_rs232.xls">Download</a></td>
-<td>:::</td>
-</tr>
-<tr class="even">
-<td>:::</td>
-<td>:::</td>
-<td>PDF</td>
-<td><img src="/img/products/w5500/w5500_evb/icons/download.png" /> <a href="/products/wiz750sr/clitool/datasheet/wiz750sr_evb_v1.0_pl_160621_rs232.pdf">Download</a></td>
-<td>:::</td>
-</tr>
-<tr class="odd">
-<td>:::</td>
-<td>RS-485</td>
-<td>Excel</td>
-<td><img src="/img/products/w5500/w5500_evb/icons/download.png" /> <a href="/products/wiz750sr/clitool/datasheet/wiz750sr_evb_v1.0_pl_160621_rs422_485.xls">Download</a></td>
-<td>:::</td>
-</tr>
-<tr class="even">
-<td>:::</td>
-<td>:::</td>
-<td>PDF</td>
-<td><img src="/img/products/w5500/w5500_evb/icons/download.png" /> <a href="/products/wiz750sr/clitool/datasheet/wiz750sr_v1.0_pl_160421_rs422_485.pdf">Download</a></td>
-<td>:::</td>
-</tr>
-<tr class="odd">
-<td>1.0</td>
-<td>TTL</td>
-<td>Excel</td>
-<td><img src="/img/products/w5500/w5500_evb/icons/download.png" /> <a href="/products/wiz750sr/clitool/datasheet/wiz750sr_evb_v1.1_pl_171214_ttl.xls">Download</a></td>
-<td>BOM version 1.1<br />
-<strong>Latest version H/W</strong></td>
-</tr>
-<tr class="even">
-<td>:::</td>
-<td>:::</td>
-<td>PDF</td>
-<td><img src="/img/products/w5500/w5500_evb/icons/download.png" /> <a href="/products/wiz750sr/clitool/datasheet/wiz750sr_evb_v1.1_pl_171214_ttl.pdf">Download</a></td>
-<td>:::</td>
-</tr>
-<tr class="odd">
-<td>:::</td>
-<td>RS-232</td>
-<td>Excel</td>
-<td><img src="/img/products/w5500/w5500_evb/icons/download.png" /> <a href="/products/wiz750sr/clitool/datasheet/wiz750sr_evb_v1.1_pl_171214_rs232.xls" class="align-center">Download</a></td>
-<td>:::</td>
-</tr>
-<tr class="even">
-<td>:::</td>
-<td>:::</td>
-<td>PDF</td>
-<td><img src="/img/products/w5500/w5500_evb/icons/download.png" /> <a href="/products/wiz750sr/clitool/datasheet/wiz750sr_evb_v1.1_pl_171214_rs232.pdf">Download</a></td>
-<td>:::</td>
-</tr>
-<tr class="odd">
-<td>:::</td>
-<td>RS-485</td>
-<td>Excel</td>
-<td><img src="/img/products/w5500/w5500_evb/icons/download.png" /> <a href="/products/wiz750sr/clitool/datasheet/wiz750sr_evb_v1.1_pl_171214_rs422_485.xls">Download</a></td>
-<td>:::</td>
-</tr>
-<tr class="even">
-<td>:::</td>
-<td>:::</td>
-<td>PDF</td>
-<td><img src="/img/products/w5500/w5500_evb/icons/download.png" /> <a href="/products/wiz750sr/clitool/datasheet/wiz750sr_evb_v1.1_pl_171214_rs422_485.pdf">Download</a></td>
-<td>:::</td>
-</tr>
-</tbody>
-</table>
+| H/W version | Type | Filetype | Download Link                                                                                                                                                 | Remarks |
+|-------------|------|----------|---------------------------------------------------------------------------------------------------------------------------------------------------------------|---------|
+| 1.0         | TTL  | Excel    | ![](/img/products/w5500/w5500_evb/icons/download.png) <a href="/img/products/wiz750sr-100/datasheet/wiz750sr-100_evb_v1.1_pl_20171215.xls" target="_blank">Download</a> |         |
+| :::         | :::  | PDF      | ![](/img/products/w5500/w5500_evb/icons/download.png) <a href="/img/products/wiz750sr-100/datasheet/wiz750sr-100_evb_v1.1_pl_20171215.pdf" target="_blank">Download</a> |         |
 
------
+------------------------------------------------------------------------
 
 ## Electrical Characteristics
 
@@ -606,58 +378,24 @@ RS-485</td>
 ### Flash Memory
 
 | Symbol | Parameter            | Min    | Unit   |
-| ------ | -------------------- | ------ | ------ |
+|--------|----------------------|--------|--------|
 | N*END* | **Sector Endurance** | 10,000 | Cycles |
 | T*DR*  | **Data Retention**   | 10     | Years  |
 
 ### EEPROM
 
 | Symbol | Parameter            | Min | Unit   |
-| ------ | -------------------- | --- | ------ |
+|--------|----------------------|-----|--------|
 | N*END* | **Sector Endurance** | 1M  | Cycles |
 | T*DR*  | **Data Retention**   | 200 | Years  |
 
-### Ethernet Power Dissipation
+------------------------------------------------------------------------
 
-#### WIZ750SR-TTL
+## Connector Specification
 
-| Condition                      | Min | Typ | Max | Tol | Unit |
-| ------------------------------ | --- | --- | --- | --- | ---- |
-| 100M Link                      | \-  | 67  | \-  | ±3  | mA   |
-| 10M Link                       | \-  | 52  | \-  |     | mA   |
-| Unlink (Auto-negotiation mode) | 45  | 50  | 57  | ±3  | mA   |
-| 100M Transmitting              | \-  | 74  | \-  | ±3  | mA   |
-| 10M Transmitting               | \-  | 62  | \-  |     | mA   |
+### 1x12 Data Pin Connector (J1)
 
-#### WIZ750SR-RS232
-
-| Condition                      | Min | Typ | Max | Tol | Unit |
-| ------------------------------ | --- | --- | --- | --- | ---- |
-| 100M Link                      | \-  | 72  | \-  | ±3  | mA   |
-| 10M Link                       | \-  | 57  | \-  |     | mA   |
-| Unlink (Auto-negotiation mode) | 46  | 54  | 61  | ±3  | mA   |
-| 100M Transmitting              | \-  | 79  | \-  | ±3  | mA   |
-| 10M Transmitting               | \-  | 61  | \-  |     | mA   |
-
-#### WIZ750SR-RS422/485
-
-| Condition                      | Min | Typ | Max | Tol | Unit |
-| ------------------------------ | --- | --- | --- | --- | ---- |
-| 100M Link                      | \-  | 95  | \-  | ±3  | mA   |
-| 10M Link                       | \-  | 80  | \-  |     | mA   |
-| Unlink (Auto-negotiation mode) | 74  | 79  | 85  | ±3  | mA   |
-| 100M Transmitting              | \-  | 102 | \-  | ±3  | mA   |
-| 10M Transmitting               | \-  | 83  | \-  |     | mA   |
-
------
-
-## WIZ750SR Connector Specification
-
-### 6x2 Data Pin Connector
-
-#### TTL/RS-232
-
-![](/img/products/wiz750sr/clitool/datasheet/wiz750sr_data_connector_rs232.png)
+<img src="/img/products/wiz750sr-100/datasheet/wiz750jr_pin_description_j1_v2.png" width="600" />
 
 <table>
 <thead>
@@ -675,18 +413,18 @@ RS-485</td>
 </tr>
 <tr class="even">
 <td>2</td>
-<td>VCC</td>
-<td>System Power input (3.3V)</td>
+<td>RESET</td>
+<td>System Reset signal (Active HIGH)</td>
 </tr>
 <tr class="odd">
 <td>3</td>
-<td>U_RXD0</td>
-<td>Receive Data (TTL : 3.3V)</td>
+<td>GND</td>
+<td>System Ground</td>
 </tr>
 <tr class="even">
 <td>4</td>
-<td>nRESET</td>
-<td>System Reset signal (Active Low)</td>
+<td>U_TXD0</td>
+<td>Transmit Data (TTL : 3.3V)</td>
 </tr>
 <tr class="odd">
 <td>5</td>
@@ -702,17 +440,13 @@ PHY Link status check signal</td>
 </tr>
 <tr class="odd">
 <td>7</td>
-<td>U_TXD0</td>
-<td>Transmit Data (TTL : 3.3V)</td>
+<td>GND</td>
+<td>System Ground</td>
 </tr>
 <tr class="even">
 <td>8</td>
-<td>U_DSR0<br />
-TCP CON<br />
-HW_TRIG</td>
-<td>Data Set Ready (TTL : 3.3V)<br />
-TCP Connection check signal<br />
-Hardware Trigger signal (Active Low)</td>
+<td>U_RXD0</td>
+<td>Receive Data (TTL : 3.3V)</td>
 </tr>
 <tr class="odd">
 <td>9</td>
@@ -721,8 +455,11 @@ Hardware Trigger signal (Active Low)</td>
 </tr>
 <tr class="even">
 <td>10</td>
-<td>Not use</td>
-<td>This pin use to RS-422/485 mode</td>
+<td>U_DSR0<br />
+TCP CON<br />
+HW_TRIG</td>
+<td>Data Set Ready (TTL : 3.3V)<br />
+TCP Connection check signal</td>
 </tr>
 <tr class="odd">
 <td>11</td>
@@ -731,15 +468,32 @@ Hardware Trigger signal (Active Low)</td>
 </tr>
 <tr class="even">
 <td>12</td>
-<td>GND</td>
-<td>System Ground</td>
+<td>STATUS</td>
+<td>TCP Connection &amp; Trigger mode<br />
+High: Not Connected<br />
+Low: Connected</td>
+</tr>
+<tr class="odd">
+<td>:::</td>
+<td>HW_TRIG</td>
+<td>Hardware Trigger (Only Check once at booting)<br />
+High &amp; Floating: Normal mode<br />
+Low: App boot mode</td>
 </tr>
 </tbody>
 </table>
 
-#### RS-422/485
+-   **STATUS pin was changed HW\_TRIG pin.**
 
-![](/img/products/wiz750sr/clitool/datasheet/wiz750sr_data_connector_rs485.png)
+### 1x12 Network Line (J3)
+
+#### WIZ750SR Rev1.0
+
+<img src="/img/products/wiz750sr-100/datasheet/wiz750sr-100_pin_description_j3_v2.png" width="600" />
+
+#### WIZ750SR Rev1.1
+
+<img src="/img/products/wiz750sr-100/datasheet/wiz750sr-100_ethernetpinout_rev1.1.png" width="600" />
 
 <table>
 <thead>
@@ -752,68 +506,142 @@ Hardware Trigger signal (Active Low)</td>
 <tbody>
 <tr class="odd">
 <td>1</td>
-<td>VCC</td>
-<td>System Power input (3.3V)</td>
+<td>NC</td>
+<td>Not Connect</td>
 </tr>
 <tr class="even">
 <td>2</td>
-<td>VCC</td>
-<td>System Power input (3.3V)</td>
+<td>MDI_RN</td>
+<td>10/100M MDIO Receiver Differential Signal (N signal)</td>
 </tr>
 <tr class="odd">
 <td>3</td>
-<td>422_RXD+<br />
-485+</td>
-<td>Differential Data +<br />
-RS-485+</td>
+<td>MDI_RP</td>
+<td>10/100M MDIO Receiver Differential Signal (P signal)</td>
 </tr>
 <tr class="even">
 <td>4</td>
-<td>nRESET</td>
-<td>System Reset signal (Active Low)</td>
+<td>GND</td>
+<td>System Ground</td>
 </tr>
 <tr class="odd">
 <td>5</td>
-<td>422_RXD-<br />
-485-</td>
-<td>Differential Data -<br />
-RS-485-</td>
+<td>MDI_TN</td>
+<td>10/100M MDIO Transceiver Differential Signal (N signal)</td>
 </tr>
 <tr class="even">
 <td>6</td>
-<td>U_DTR0<br />
-PHY LINK</td>
-<td>Data Terminal Ready (TTL : 3.3V)<br />
-PHY Link status check signal</td>
+<td>MDI_TP</td>
+<td>10/100M MDIO Transceiver Differential Signal (P signal)</td>
 </tr>
 <tr class="odd">
 <td>7</td>
-<td>422_TXD+</td>
-<td>Differential Data +</td>
+<td>GND</td>
+<td>System Ground</td>
 </tr>
 <tr class="even">
 <td>8</td>
-<td>U_DSR0<br />
-TCP CON<br />
-HW_TRIG</td>
-<td>Data Set Ready (TTL : 3.3V)<br />
-TCP Connection check signal<br />
-Hardware Trigger signal (Active Low)</td>
+<td>Link LED</td>
+<td>High: Link down<br />
+Low: Link up<br />
+(When the PHY is physically connected, the LINK LED lights up.)</td>
 </tr>
 <tr class="odd">
 <td>9</td>
-<td>422_TXD-</td>
-<td>Differential Data -</td>
+<td>NC</td>
+<td>Not Connect</td>
 </tr>
 <tr class="even">
 <td>10</td>
-<td>485_SEL</td>
-<td>WIZ750SR-485, 485/422 MODE Select pin</td>
+<td>ACT LED</td>
+<td>Blink: 100M ACT<br />
+(ACT LED blinks when data is transmitted/received between PHYs.)</td>
 </tr>
 <tr class="odd">
 <td>11</td>
+<td>NC</td>
+<td>Not Connect<br />
+(This pin connected to COL pin in Rev1.0.<br />
+this pin outputs a high-status signal it means a collision is detected.<br />
+Processed to NC in Rev1.1.)</td>
+</tr>
+<tr class="even">
+<td>12</td>
+<td>VCC</td>
+<td>System Power input (3.3V)</td>
+</tr>
+</tbody>
+</table>
+
+### 1x12 Expansion GPIO & APP BOOT & Debug(ISP) Port (J2)
+
+<img src="/img/products/wiz750jr/datasheet/wiz750jr_pin_description_j2.png" width="600" />
+
+<table>
+<thead>
+<tr class="header">
+<th>Pin Number</th>
+<th>Signal</th>
+<th>Description</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>1</td>
 <td>GND</td>
 <td>System Ground</td>
+</tr>
+<tr class="even">
+<td>2</td>
+<td>Status LED0</td>
+<td>User's depend on pin(LED)</td>
+</tr>
+<tr class="odd">
+<td>3</td>
+<td>Status LED1</td>
+<td>User's depend on pin(LED)</td>
+</tr>
+<tr class="even">
+<td>4</td>
+<td>BOOT</td>
+<td>BOOT SW</td>
+</tr>
+<tr class="odd">
+<td>5</td>
+<td>U_TXD2</td>
+<td>Simple UART2(Debug port)<br />
+ISP mode firmware downloader port</td>
+</tr>
+<tr class="even">
+<td>6</td>
+<td>U_RXD2</td>
+<td>Simple UART2(Debug port)<br />
+ISP mode firmware downloader port</td>
+</tr>
+<tr class="odd">
+<td>7</td>
+<td>Expansion GPIOD</td>
+<td>Expansion User's depend on GPIO port</td>
+</tr>
+<tr class="even">
+<td>8</td>
+<td>Expansion GPIOC</td>
+<td>:::</td>
+</tr>
+<tr class="odd">
+<td>9</td>
+<td>Expansion GPIOB</td>
+<td>:::</td>
+</tr>
+<tr class="even">
+<td>10</td>
+<td>Expansion GPIOA</td>
+<td>:::</td>
+</tr>
+<tr class="odd">
+<td>11</td>
+<td>APP BOOT</td>
+<td>Application Jump at BOOT mode</td>
 </tr>
 <tr class="even">
 <td>12</td>
@@ -823,9 +651,28 @@ Hardware Trigger signal (Active Low)</td>
 </tbody>
 </table>
 
-### 1x6 ISP Connector
+------------------------------------------------------------------------
 
-![](/img/products/wiz750sr/clitool/datasheet/wiz750sr-isp.png)
+### 1x5 SWD
+
+<img src="/img/products/wiz750sr-100/datasheet/wiz750sr-100_pinout_swd.png" width="600" />
+
+| Pin Number | Signal     | Description                             |
+|------------|------------|-----------------------------------------|
+| 1          | VCC        | System Power input (3.3V)               |
+| 2          | SWDIO      | SWD(JTAG) Data I/O pin                  |
+| 3          | SWCLK      | SWD(JTAG) Clock pin                     |
+| 4          | **nRESET** | **System Reset signal (Active Low)**[1] |
+| 5          | GND        | System Ground                           |
+
+**Caution)** **WIZ750SR-100 SWD reset pin must be active low, because it
+was connected to MCU directly.**
+
+------------------------------------------------------------------------
+
+### 1x6 ISP
+
+<img src="/img/products/wiz750jr/datasheet/wiz750jr_pin_description_isp.png" width="600" />
 
 <table>
 <thead>
@@ -844,7 +691,7 @@ Hardware Trigger signal (Active Low)</td>
 <tr class="even">
 <td>2</td>
 <td>BOOT</td>
-<td>BOOT mode (Active High)</td>
+<td>BOOT SW</td>
 </tr>
 <tr class="odd">
 <td>3</td>
@@ -860,8 +707,8 @@ ISP mode firmware downloader port</td>
 </tr>
 <tr class="odd">
 <td>5</td>
-<td>nRESET</td>
-<td>System Reset signal (Active Low)</td>
+<td><strong>nRESET</strong></td>
+<td><strong>System Reset signal (Active Low)</strong><a href="#fn1" class="footnote-ref" id="fnref1" role="doc-noteref"><sup>1</sup></a></td>
 </tr>
 <tr class="even">
 <td>6</td>
@@ -870,36 +717,24 @@ ISP mode firmware downloader port</td>
 </tr>
 </tbody>
 </table>
+<section class="footnotes" role="doc-endnotes">
+<hr />
+<ol>
+<li id="fn1" role="doc-endnote"><p>This pin connect to MCU reset pin directly<a href="#fnref1" class="footnote-back" role="doc-backlink">↩︎</a></p></li>
+</ol>
+</section>
 
-### 1x2 Supervisor Jumper / 1x6 Expansion GPIO & APP BOOT
+**Caution)** **WIZ750SR-100 ISP reset pin must be active low, because it
+was connected to MCU directly.**
 
-|                                                                  |                                                                         |
-| ---------------------------------------------------------------- | ----------------------------------------------------------------------- |
-| ![](/img/products/wiz750sr/clitool/datasheet/wiz750sr_wdt_gpio_20160628.png) | ![](/img/products/wiz750sr/clitool/datasheet/wiz750sr_expansiongpio_exp_rev1.2.png) |
-| **Rev1.1**                                                       | **Rev1.2**                                                              |
-
-| Pin Number | Signal               | Description            |
-| ---------- | -------------------- | ---------------------- |
-| 1          | WDT\_nRST(input)     | It only has rev1.0/1.1 |
-| 2          | W7500P\_RSTN(output) | :::                    |
-
-| Pin Number | Signal          | Description                          |
-| ---------- | --------------- | ------------------------------------ |
-| 1          | Expansion GPIOD | Expansion User's depend on GPIO port |
-| 2          | Expansion GPIOC | :::                                  |
-| 3          | Expansion GPIOB | :::                                  |
-| 4          | Expansion GPIOA | :::                                  |
-| 5          | APP BOOT        | Application Jump at BOOT mode        |
-| 6          | GND             | System Ground                        |
-
------
+------------------------------------------------------------------------
 
 ### RJ-45 Connector (BS-RB10005)
 
-![](/img/products/wiz750sr/clitool/datasheet/wiz750sr_magjack.png)
+<img src="/img/products/wiz750sr/clitool/datasheet/wiz750sr_magjack.png" class="align-center" width="300" />
 
 | Pin Number | Pin              | Signal              |
-| ---------- | ---------------- | ------------------- |
+|------------|------------------|---------------------|
 | 1          | R1               | TX+                 |
 | 2          | R2               | TX-                 |
 | 3          | R3               | TCT/RCT(Center tap) |
@@ -910,54 +745,22 @@ ISP mode firmware downloader port</td>
 | 8          | L3+(LINK LED)    | Anode               |
 | 9          | L4- (LINK LED)   | Cathode             |
 
------
+------------------------------------------------------------------------
 
-## WIZ750SR Dimension
+## Dimension
 
-  - **The board size of the WIZ750SR Rev1.1 is the same as Rev1.0.**
+-   WIZ750SR-100 Rev1.0 Dimension :
+    -   50mm x 30mm ( PCB board size )
+    -   50mm x 30mm x 12mm ( Included part size )
 
-  - WIZ750SR Dimension : 
-      - 45mm x 30mm ( PCB board size )
-      - 48mm x 30mm x 18mm ( Included part size )
+<img src="/img/products/wiz750sr-100/datasheet/wiz750sr-100-dimension.png" width="700" />
 
-|                                                          |                                                                 |
-| -------------------------------------------------------- | --------------------------------------------------------------- |
-| ![](/img/products/wiz750sr/clitool/datasheet/wiz750sr_dimension.png) | ![](/img/products/wiz750sr/clitool/datasheet/wiz750sr_dimension_rev1.2.png) |
-| **Rev1.0/1.1**                                           | **Rev1.2**                                                      |
+-   WIZ750SR-100-EVB Rev1.0 Dimension :
+    -   105mm x 70mm ( PCB board size )
+    -   105mm x 70mm x 18mm ( Included part size )
 
-  - WIZ750SR-EVB (TTL/RS232) Rev1.0 Dimension : 
-      - 83mm x 65mm ( PCB board size )
-      - 83mm x 65mm x 18mm ( Included part size )
+<img src="/img/products/wiz750sr-100/datasheet/wiz750sr-100-evb-dimension.png" width="700" />
 
-![](/img/products/wiz750sr/clitool/datasheet/wiz750sr-evb-dimension_232.png)
+------------------------------------------------------------------------
 
-  - WIZ750SR-EVB (RS422/485) Rev1.0 Dimension : 
-      - 73mm x 65mm ( PCB board size )
-      - 73mm x 65mm x 18mm ( Included part size )
-
-![](/img/products/wiz750sr/clitool/datasheet/wiz750sr-evb-dimension_485.png)
-
-## Navigation
-
------
-
- **WIZ750SR** 
-
-  - **User's Manual [(English)](users_manual-EN)/[(Korean)](users_manual-KO)** 
-  
-  - **Device Command Manual [(English)](Command_Manual-EN)/[(Korean)](Command_Manual-KO)**
-  
-  - **Troubleshooting Guide [(English)](Trouble_Shooting-EN)/[(Korean)](Trouble_Shooting-KO)**
-  
-  - **Update History [(English)](Series_Update_History-EN)/[(Korean)](Series_Update_History-KO)**
-  
------
-
-**WIZ750SR series Downloads** 
-
-  - **[Software Download](Download)**
-
-  - **[Technical References](Technical_References)**
-
------
-
+[1] This pin connect to MCU reset pin directly
