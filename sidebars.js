@@ -311,7 +311,7 @@ module.exports = {
 			'Product/S2E-Module/s2e_module',
 			'Product/S2E-Module/serial_to_ethernet_guide',
 			//
-			{	
+				{	
 				type: 'category',
 				label: 'W5500S2E-S1',
 				items: [
@@ -337,8 +337,8 @@ module.exports = {
 					'Product/S2E-Module/W7500S2E-R1/overview-EN',
 				
 					],
-					},
-			{	
+				},
+				{	
 				type: 'category',
 				label: 'WIZ550SR',
 				items: [
@@ -586,52 +586,44 @@ module.exports = {
 					],
 				},	
 			{
-				type: 'link',
+				type: 'category',
 				label: 'WIZ100SR', // string - the label that should be displayed.
-				href: 'http://www.wiznet.io/product-item/wiz100sr/' // string - the target URL.
+				items: ['Product/S2E-Module/WIZ100SR/wiz100sr','Product/S2E-Module/WIZ100SR/wiz100sr-evb']
 			},
 			{
-				type: 'link',
+				type: 'category',
 				label: 'WIZ105SR', // string - the label that should be displayed.
-				href: 'https://www.wiznet.io/product-item/wiz105sr/' // string - the target URL.
+				items: ['Product/S2E-Module/WIZ105SR/wiz105sr','Product/S2E-Module/WIZ105SR/wiz105sr-evb']
 			},
 			//'Product/S2E-Module/wiz107sr',
 			//'Product/S2E-Module/wiz107sr_um',
 			{
-				type: 'link',
+				type: 'category',
 				label: 'WIZ107SR', // string - the label that should be displayed.
-				href: 'https://www.wiznet.io/product-item/wiz107sr/' // string - the target URL.
+				items: ['Product/S2E-Module/WIZ107SR/wiz107sr','Product/S2E-Module/WIZ107SR/wiz107sr-evb']
 			},
 			{
-				type: 'link',
+				type: 'category',
 				label: 'WIZ108SR', // string - the label that should be displayed.
-				href: 'https://www.wiznet.io/product-item/wiz108sr/' // string - the target URL.
+				items: ['Product/S2E-Module/WIZ108SR/wiz108sr','Product/S2E-Module/WIZ108SR/wiz108sr-evb']
 			},
+			'Product/S2E-Module/WIZ110SR/wiz110sr',
 			{
-				type: 'link',
-				label: 'WIZ110SR', // string - the label that should be displayed.
-				href: 'https://www.wiznet.io/product-item/wiz110sr/' // string - the target URL.
-			},
-			{
-				type: 'link',
+				type: 'category',
 				label: 'WIZ120SR', // string - the label that should be displayed.
-				href: 'http://www.wiznet.io/product-item/wiz120sr/' // string - the target URL.
+				items: ['Product/S2E-Module/WIZ120SR/wiz120sr','Product/S2E-Module/WIZ120SR/wiz120sr-evb']
 			},
+			'Product/S2E-Module/WIZ125SR/wiz125sr',
 			{
-				type: 'link',
-				label: 'WIZ125SR', // string - the label that should be displayed.
-				href: 'https://www.wiznet.io/product-item/wiz125sr/' // string - the target URL.
-			},
-			{
-				type: 'link',
+				type: 'category',
 				label: 'WIZ140SR', // string - the label that should be displayed.
-				href: 'https://www.wiznet.io/product-item/wiz140sr/' // string - the target URL.
+				items: ['Product/S2E-Module/WIZ140SR/wiz140sr','Product/S2E-Module/WIZ140SR/wiz140sr-evb']
 			},
 			{
-				type: 'link',
+				type: 'category',
 				label: 'WIZ145SR', // string - the label that should be displayed.
-				href: 'https://www.wiznet.io/product-item/wiz145sr/' // string - the target URL.
-			}
+				items: ['Product/S2E-Module/WIZ145SR/wiz145sr','Product/S2E-Module/WIZ145SR/wiz145sr-evb']
+			},
 			],
 		},
 		{
@@ -645,54 +637,26 @@ module.exports = {
 			'Product/ioModule/WIZ810SMJ/wiz810smj',
 			'Product/ioModule/WIZ850io/wiz850io',
 			{
-			type: 'category',
-			label: 'WIZ550io',
-			items: [
-			'Product/ioModule/WIZ550io/overview',
-			'Product/ioModule/WIZ550io/hardware_pins',
-			'Product/ioModule/WIZ550io/characteristic',
-			'Product/ioModule/WIZ550io/spi_operations',
-			'Product/ioModule/WIZ550io/timing_diagram',
-			'Product/ioModule/WIZ550io/block_diagram_schematic',
-			'Product/ioModule/WIZ550io/dimension',
-			'Product/ioModule/WIZ550io/related_products',
-			//'Product/ioModule/WIZ550io/all_pages',
-			],
+				type: 'category',
+				label: 'WIZ550io',
+				items: [
+				'Product/ioModule/WIZ550io/overview',
+				'Product/ioModule/WIZ550io/hardware_pins',
+				'Product/ioModule/WIZ550io/characteristic',
+				'Product/ioModule/WIZ550io/spi_operations',
+				'Product/ioModule/WIZ550io/timing_diagram',
+				'Product/ioModule/WIZ550io/block_diagram_schematic',
+				'Product/ioModule/WIZ550io/dimension',
+				'Product/ioModule/WIZ550io/related_products',
+				//'Product/ioModule/WIZ550io/all_pages',
+				],
 			},
-			{
-				type: 'link',
-				label: 'WIZ820io', // string - the label that should be displayed.
-				href: 'http://www.wiznet.io/product-item/wiz820io/' // string - the target URL.
-			},
-			//'Product/ioModule/wiz810mj',
-			{
-				type: 'link',
-				label: 'WIZ810MJ', // string - the label that should be displayed.
-				href: 'https://www.wiznet.io/product-item/wiz810mj/' // string - the target URL.
-			},
-			//'Product/ioModule/wiz811mj',
-			{
-				type: 'link',
-				label: 'WIZ811MJ', // string - the label that should be displayed.
-				href: 'https://www.wiznet.io/product-item/wiz811mj/' // string - the target URL.
-			},
-			//'Product/ioModule/wiz812mj',
-			{
-				type: 'link',
-				label: 'WIZ812MJ', // string - the label that should be displayed.
-				href: 'http://www.wiznet.io/product-item/wiz812mj/' // string - the target URL.
-			},
-			{
-				type: 'link',
-				label: 'WIZ830MJ', // string - the label that should be displayed.
-				href: 'https://www.wiznet.io/product-item/wiz830mj/' // string - the target URL.
-			},
-			//'Product/ioModule/nm7010b+',
-			{
-				type: 'link',
-				label: 'NM7010B+', // string - the label that should be displayed.
-				href: 'https://www.wiznet.io/product-item/nm7010b+/' // string - the target URL.
-			}
+			'Product/ioModule/wiz820io',
+			'Product/ioModule/wiz810mj',
+			'Product/ioModule/wiz811mj',
+			'Product/ioModule/wiz812mj',
+			'Product/ioModule/wiz830mj',
+			'Product/ioModule/nm7010b'
 			],
 		},
 		{
@@ -1050,6 +1014,21 @@ module.exports = {
 			'Product/Open-Source-Hardware/cookie', // is coocox already in cookie?
 			'Product/Open-Source-Hardware/open_source_hardware_coocox',
 			'Product/Open-Source-Hardware/open_source_hardware_all_pages',*/
+			],
+		},
+		{
+			type: "category",
+			label: "Obsolete",
+			items: [
+				'Product/Obsolete/w7200',
+				'Product/Obsolete/nm7010a',
+				'Product/Obsolete/wiz850sw',
+				'Product/Obsolete/egsr7100a',
+				'Product/Obsolete/wiz220io',
+				'Product/Obsolete/wiz220web',
+				'Product/Obsolete/wizsm10',
+				'Product/Obsolete/wiz610wi',
+				'Product/Obsolete/wizfi630',
 			],
 		},
 	],

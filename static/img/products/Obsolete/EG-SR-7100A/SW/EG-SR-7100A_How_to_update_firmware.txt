@@ -1,0 +1,39 @@
+How to update firmware of IIM7100(A)
+January 27, 2004
+
+Caution : For users of firmware version 2.8 or under 2.8, download "ROM0309_V28.BIN". 
+
+< Using configuration tool > 
+1. Run Configuration program and click "search" button.
+2. After searching is completed, select MAC address for upload.
+3. Confirm the IP, Subnet, Gateway address set.
+4. Click "upload" button.
+5. Select firmware file to upload.
+
+< Using Serial > 
+1. Confirm the IIM7100(A) is in "Debug mode"
+2. Connect IIM7100(A) serial port and PC com port through serial cable.
+3. Run Hyperterminal and switch on the IIM7100(A) power.
+4. When starting, press 'p' then configuration menu is displayed.
+5. Select menu 'c'. 
+6. Enter file size and press Enter key.
+7. After selecting text file send, select firmware file.
+
+ 
+CONTACTS
+**************************************************************************
+WIZnet,Inc 
+Woolim e-Biz Center 1414, 170-5, Guro-dong, Guro-gu, Seoul, 152-847, Korea
+Phone: 82-2-2108-2640
+Fax: 82-2-2108-2648
+
+Marketing & Sales: 
+E-mail: sales@wiznet.co.kr 
+
+Technical Support: 
+E-mail: support@wiznet.co.kr 
+
+Any feedback: 
+E-mail: feedback@wiznet.co.kr 
+
+
