@@ -142,20 +142,11 @@ module.exports = {
 					type: 'category',
 					label: 'W7100',
 					items: [
-						'Product/iMCU/W7100/internal_memory_and_sfr',
-						'Product/iMCU/W7100/p0_pu',
-						'Product/iMCU/W7100/p0',
-						'Product/iMCU/W7100/p1',
-						'Product/iMCU/W7100/peripheral_sfr',
-						'Product/iMCU/W7100/memorymap_sfr',
+						'Product/iMCU/W7100/w7100a',
+						'Product/iMCU/W7100/imcu7100-evb',
 					],
 				},
-					//'Product/iMCU/w7100a',
-				{	
-					type: 'link',
-					label: 'W7100A', // string - the label that should be displayed.
-					href: 'http://www.wiznet.io/product-item/w7100a/' // string - the target URL
-				},			
+					//'Product/iMCU/w7100a',			
 			],
 		},
 		{
