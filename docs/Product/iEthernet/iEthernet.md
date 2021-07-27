@@ -20,11 +20,11 @@ Core & MAC (\&PHY).
     MAC and PHY, 4-sockets, Fast SPI/BUS
   - [W5500](W5500/overview): Hardwired TCP/IP w/ 802.3 Ethernet
     MAC and PHY, 8-sockets, Fast SPI
-  - [W5300](http://www.wiznet.io/product-item/w5300/): Hardwired TCP/IP
+  - [W5300](W5300/overview): Hardwired TCP/IP
     w/ 802.3 Ethernet MAC and PHY, 8-sockets, High-throughput
-  - [W5100](http://www.wiznet.io/product-item/w5100/): Hardwired TCP/IP
+  - [W5100](W5100/overview): Hardwired TCP/IP
     w/ 802.3 Ethernet MAC and PHY, 4-sockets
-  - [W3150A+](http://www.wiznet.io/product-item/w3150a+/): Hardwired
+  - [W3150A+](W3150/overview): Hardwired
     TCP/IP w/ 802.3 Ethernet MAC, 4-sockets
 
 -----

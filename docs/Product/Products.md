@@ -9,15 +9,15 @@ slug: /
 
 - [ASG210](Azure-Sphere/ASG210.md)
 
+-----
+
 ## iMCU
 
   - [W7500](iMCU/W7500/Overview.md)
   - [W7500P](iMCU/W7500P/Overview.md)
-  - W7100A (under construction)
+  - [W7100A](iMCU/W7100/W7100A.md)
 
-The **IOP4IoT W7500** chip is the one-chip solution which integrates an
-ARM Cortex-M0, 128KB Flash and hardwired TCP/IP core for various
-embedded application platform especially internet of things.
+The **IOP4IoT W7500** chip is the one-chip solution which integrates an ARM Cortex-M0, 128KB Flash and hardwired TCP/IP core for various embedded application platform especially internet of things.
 
 -----
 
@@ -57,7 +57,7 @@ embedded application platform especially internet of things.
  * [W7500S2E-R1](S2E-Module/W7500S2E-R1/W7500S2E-R1.md)
  * [W5500S2E-S1](S2E-Module/W5500S2E-S1/W5500S2E-S1.md)
  * [W5500S2E-Z1](S2E-Module/W5500S2E-Z1/W5500S2E-Z1.md)
- * [WIZ107SR (under construction)](S2E-Module/WIZ107SR.md)
+ * [WIZ107SR](S2E-Module/WIZ107SR/wiz107sr.md)
  * [WIZ510SSL](S2E-Module/WIZ510SSL/WIZ510SSL.md)
 
 

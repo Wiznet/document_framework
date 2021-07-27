@@ -37,24 +37,24 @@ interfaces.
 * [WIZ750SR-110](WIZ750SR-1xx-Series/WIZ750SR-110/WIZ750SR-110.md)
 * [WIZ550SR](WIZ550SR/WIZ550SR.md)
 * [WIZ550S2E](WIZ550S2E/WIZ550S2E.md)
-* [WIZ107SR](http://www.wiznet.io/product-item/wiz107sr/)
-* [WIZ108SR](http://www.wiznet.io/product-item/wiz108sr/)
-* [WIZ100SR](http://www.wiznet.io/product-item/wiz100sr/)
-* [WIZ105SR](http://www.wiznet.io/product-item/wiz105sr/)
-* [WIZ110SR](http://www.wiznet.io/product-item/wiz110sr/)
+* [WIZ107SR](WIZ107SR/wiz107sr.md)
+* [WIZ108SR](WIZ108SR/wiz108sr.md)
+* [WIZ100SR](WIZ100SR/wiz100sr.md)
+* [WIZ105SR](WIZ105SR/wiz105sr.md)
+* [WIZ110SR](WIZ110SR/wiz110sr.md)
 
 
 ### 2-Port S2E Module Products
 
   - [WIZ752SR-120](WIZ752SR-12x-Series/WIZ752SR-120/WIZ752SR-120.md)
   - [WIZ752SR-125](WIZ752SR-12x-Series/WIZ752SR-125/wiz752sr_125)
-  - [WIZ120SR](http://www.wiznet.io/product-item/wiz120sr/)
-  - [WIZ125SR](http://www.wiznet.io/product-item/wiz125sr/)
+  - [WIZ120SR](WIZ120SR/wiz120sr.md)
+  - [WIZ125SR](WIZ125SR/wiz125sr.md)
 
 ### 4-Port S2E Module Products
 
-  - [WIZ140SR](http://www.wiznet.io/product-item/wiz140sr/)
-  - [WIZ145SR](http://www.wiznet.io/product-item/wiz145sr/)
+  - [WIZ140SR](WIZ140SR/wiz140sr.md)
+  - [WIZ145SR](WIZ145SR/wiz145sr.md)
 
 -----
 
