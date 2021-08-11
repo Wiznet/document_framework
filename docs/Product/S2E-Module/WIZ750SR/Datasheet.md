@@ -223,8 +223,8 @@ Flow control: None, RTS / CTS, XON / XOFF</td>
       - RS-232C Connector, D-SUB9-MALE.
   - WIZ750SR-EVB (422/485)
       - RS-422/485 Connector, ECH381R.
-      
-      ### TTL / RS232 Version
+
+### TTL / RS232 Version
 
 |                                                                           |
 | ------------------------------------------------------------------------- |

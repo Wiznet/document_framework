@@ -8,8 +8,7 @@ date: 2020-04-16
 
 ### Binary
 
-We will use the 🌎[release](https://github.com/Wiznet/WIZ550S2E/releases)
-page of wiz550s2e's in github.  
+We will use the 🌎[release](https://github.com/Wiznet/WIZ550S2E/releases) page of wiz550s2e's in github.  
   
 <a href="https://github.com/Wiznet/WIZ550S2E-Modbus/releases/download/v1.4.0/Binary_v140.zip" target="_blank">Ver 1.4.0 - Modbus Ver</a>  
  * Added features - Modbus
@@ -61,15 +60,25 @@ wiz550s2e's in GitHub.
 ### ConfigTool
 
 We will not upload files in here.  
-We will use the
-[release](https://github.com/Wiznet/WIZnet_Configuration_Tool/releases)
+We will use the [release](https://github.com/Wiznet/WIZnet_Configuration_Tool/releases)
 page of configuration's in github.  
-  
-[Ver 1.31](https://github.com/Wiznet/WIZnet_Configuration_Tool/releases/download/v1.3.1/WIZnet_Configuration_Tool.jar)  
-<a href="/img/products/wiz550s2e/wiznet_configuration_tool_ver1.10.zip" target="_blank">Ver 1.10</a>  
-<a href="/img/products/wiz550sr/wiz550sr_download/wiznet_configuration_tool_ver1.03.zip" target="_blank">Ver 1.03</a>  
-<a href="/img/products/wiz550s2e/wiznet_configuration_tool_ver1.02.zip" target="_blank">Ver 1.02</a>  
-<a href="/img/products/wiz550s2e/wiz550s2e_configuration_tool_ver1.00_0724.zip" target="_blank">Ver 1.00</a>
+
+Please refer to below compatibility table and use appropriate version.
+
+| FW Version | Configuration Tool Version |
+|------------|----------------------------|
+| 1.0.3      | 1.0.3                      |
+| 1.3.0      | 1.3.2                      |
+| 1.4.0      | 1.4.0 or 1.3.2             |
+
+
+
+- [Ver 1.3.2](https://github.com/Wiznet/WIZnet_Configuration_Tool/releases/download/1.3.2/WIZnet_Configuration_Tool.jar)
+- [Ver 1.3.1](https://github.com/Wiznet/WIZnet_Configuration_Tool/releases/download/v1.3.1/WIZnet_Configuration_Tool.jar)  
+- <a href="/img/products/wiz550s2e/wiznet_configuration_tool_ver1.10.zip" target="_blank">Ver 1.1.0</a>  
+- <a href="/img/products/wiz550sr/wiz550sr_download/wiznet_configuration_tool_ver1.03.zip" target="_blank">Ver 1.0.3</a>  
+- <a href="/img/products/wiz550s2e/wiznet_configuration_tool_ver1.02.zip" target="_blank">Ver 1.0.2</a>  
+- <a href="/img/products/wiz550s2e/wiz550s2e_configuration_tool_ver1.00_0724.zip" target="_blank">Ver 1.0.0</a>
 
 
 ### Configuration Tool 실행 가이드
