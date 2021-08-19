@@ -61,7 +61,7 @@ Comparison Sheet** provides comparison with ESP8266 AT command.
 
 ### WizFi360-EVB-Mini
 
-<a href="/img/products/wizfi360/wizfi360ds/wizfi360-evb_ds_100_en.pdf" target="_blank">WizFi360-EVB-Mini Datasheet</a>
+<a href="/img/products/wizfi360/wizfi360ds/wizfi360-evb-mini_ds_100_en.pdf" target="_blank">WizFi360-EVB-Mini Datasheet</a>
 
 | Version | Date    | Decription      |
 | ------- | ------- | --------------- |
