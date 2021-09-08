@@ -61,7 +61,7 @@ TBA
 
 ### W5100S Datasheet
 
-- <a href="/img/osh/w5100s_ethernet_shield/start/w5100s_ethernet_shield_ds_v100e.pdf" target="_blank">Download</a>
+- <a href="/img/products/w5100s/w5100s_ds_v125e.pdf" target="_blank">W5100S Datasheet v1.2.5</a>
 
 ### Schematic
 
