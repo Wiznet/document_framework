@@ -186,14 +186,3 @@ GitHub와 아두이노 스케치에서 다운로드 및 설치 하는 방법에 
 <!-->  - [WizArduino WiFi에서 Software Serial 사용하는 방법?](/)-->
 
 -----
-
-## Where to Buy
-
-
-
-![WIZnet Online Shop](/img/osh/w5100s_ethernet_shield/start/buynow.png)  
-![WIZnetKorea Online Shop, Korea](/img/osh/w5100s_ethernet_shield/start/won.png)
-
-
-
------

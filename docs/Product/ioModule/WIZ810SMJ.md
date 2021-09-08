@@ -62,18 +62,3 @@ WIZ810SMJ is the network module that includes W5100S (TCP/IP hardwired chip, inc
   - 🌎[Go to Github](https://github.com/Wiznet/ioLibrary_Driver)
 
 -----
-
-## See Also
-
-![](/img/products/w5500/w5500_evb/icons/link.png) 🌎[WIZnet Forum](https://forum.wiznet.io/) : WIZnet Forum for Technical
-support and Project sharing
-
------
-
-## Where to Buy
-
-![WIZnet Online Shop](/img/products/w5500/buynow.png)  
-[![WIZnetHK Online Shop, HK](/img/products/w5500/w5500_evb/icons/dollar.png)](https://www.wiznet.hk/en/network-module/91-wiz610io.html)
-[![WIZnetUS Online Shop, USA](/img/products/w5500/w5500_evb/icons/dollar.png)](http://www.shopwiznet.com/)
-[![WIZnetEU Online Shop, Germany](/img/products/w5500/w5500_evb/icons/european-euro.png)](http://shop.wiznet.eu/)
-[![WIZnetKorea Online Shop, Korea](/img/products/w5500/w5500_evb/icons/won.png)](http://shop.wiznet.co.kr/)

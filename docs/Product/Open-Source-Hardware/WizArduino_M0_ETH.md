@@ -263,14 +263,3 @@ WizArduino M0 ETH로 Programming을 하기에 앞서 몇 가지 확인 사항이
     국내에서는 [파워텔넷](http://www.powertelnet.co.kr/)사에서 취급하고 있으니 참고 하시기 바랍니다.
 
 -----
-
-## Where to Buy
-
-
-
-![WIZnet Online Shop](/img/osh/wizarduino_m0_eth/buynow.png)  
-[![WIZnetKorea Online Shop, Korea](/img/osh/wizarduino_m0_eth/won.png)](http://shop.wiznet.co.kr/front/contents/product/view.asp?cateid=90&pid=1271)
-
-
-
------

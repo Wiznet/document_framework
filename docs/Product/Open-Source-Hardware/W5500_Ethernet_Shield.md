@@ -170,12 +170,3 @@ to the chip's datasheet:
   - 🌎<https://github.com/Wiznet/WIZ_Ethernet_Library>
 
 -----
-
-## See Also
-
-- 🌎[WIZnet Forum](https://forum.wiznet.io/) : WIZnet Forum for Technical
-support and Project sharing
-
-- 🌎[WIZ550io and ioShield-A for Arduino](ioshield_a) : Related Products
-
------

@@ -13,8 +13,8 @@ develop their Internet enabling system rapidly.
 
 ## Product Family
 
-  - [WIZ850io](WIZ850io/wiz850io): W5500 w/ MagJack, Compact size(Hardware compatible with WIZ820io)
-  - [WIZ550io](WIZ550io/overview): W5500 w/ MagJack, Unique MAC Address, Auto-configurable
+  - [WIZ850io](wiz850io): W5500 w/ MagJack, Compact size(Hardware compatible with WIZ820io)
+  - [WIZ550io](wiz55io): W5500 w/ MagJack, Unique MAC Address, Auto-configurable
   - [WIZ820io](wiz820io): W5200 w/ MagJack, Compact Size
   - [WIZ810MJ](wiz810mj): W5100 w/ MagJack, 2mm pitch, No PCB Through-hole
   - [WIZ811MJ](wiz811mj): W5100 w/ MagJack, 2.54mm pitch, Two PCB Through-hole

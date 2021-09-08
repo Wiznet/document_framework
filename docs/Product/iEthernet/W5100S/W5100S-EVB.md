@@ -169,21 +169,3 @@ For More information about DMA, click
 ![](/img/products/w5100s/w5100s_evb/w5100s-evb_dimension.png)
 
 -----
-
-
-## See Also
-
-🌎[WIZnet Website - W5100S](https://www.wiznet.io/product-item/w5100s) : W5100S Chip
-features, Pin assignment and Hardware Ref. Design Guide
-
-🌎[WIZnet Forum](https://forum.wiznet.io) : WIZnet Forum for Technical support and
-Project sharing
-
------
-
-## Where to Buy
-
-![WIZnet Online Shop](/img/products/w5500/buynow.png)  
-[![WIZnetUS Online Shop, USA](/img/products/w5500/w5500_evb/icons/dollar.png)](http://www.shopwiznet.com/)
-[![WIZnetEU Online Shop, Germany](/img/products/w5500/w5500_evb/icons/european-euro.png)](http://shop.wiznet.eu/)
-[![WIZnetKorea Online Shop, Korea](/img/products/w5500/w5500_evb/icons/won.png)](http://shop.wiznet.co.kr/)

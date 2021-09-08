@@ -14,6 +14,13 @@ module.exports = {
   trailingSlash: 'false',
   themeConfig: {
     hideableSidebar: true,
+    announcementBar: {
+      id: 'announcementBar-2', // Increment on change
+      content: '⭐️ Meet our new product: <a target="" rel="noopener noreferrer" href="/Product/Open-Source-Hardware/wiznet_ethernet_hat">WIZnet Ethernet HAT for Raspberry Pi Pico</a> ⭐️',
+      backgroundColor: '#C51A4A',
+      textColor: '#fafbfc',
+      isCloseable: false,
+    },
     colorMode: {
       defaultMode: 'light',
       disableSwitch: false,

@@ -165,11 +165,3 @@ in.
   - 🌎<a href="https://www.kth.se/social/files/54ef17dbf27654753f437c56/GL5537.pdf" target="_blank">GL5537 Datasheet</a>
 
 -----
-
-### See Also
-
-   * 🌎[WIZnet Forum](https://forum.wiznet.io/) : WIZnet Forum for Technical support and Project sharing
-
------
-
-

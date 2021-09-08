@@ -63,3 +63,16 @@ html[data-theme='dark'] .DocSearch {
     var(--ifm-color-emphasis-100) 100%
   );
 }
+
+div[class^='announcementBar_'] {
+  font-size: 20px;
+  font-weight: bold;
+
+}
+
+div[class^='announcementBarContent'] {
+  padding-top: 0px;
+  padding-right: 0px;
+  padding-bottom: 5px;
+  padding-left: 0px;
+}

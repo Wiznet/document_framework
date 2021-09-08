@@ -1,7 +1,7 @@
 ---
-id: all_pages
+id: wiz550io
 title: WIZ550io
-date: 2020-04-15
+date: 2021-09-08
 ---
 
 ## Overview
@@ -19,16 +19,17 @@ Internet enabling systems rapidly.
 
 ![](/img/products/wiz550io/wiz550io_small_005.png)
 
-For more information on the [W5500](../../iEthernet/w5500/overview) chip inside
-the [WIZ550io](overview) module please also refer to
-the chip's datasheet: [datasheet](../../iEthernet/w5500/datasheet)
+For more information on the [W5500](../../iEthernet/w5500/overview) chip inside the WIZ550io module please also refer to the chip's [datasheet](../../iEthernet/w5500/datasheet).
 
 ### Datasheet
 
-<a href="/img/products/w5500/w5500_ds_v109e.pdf" target="_blank">W5500 Datasheet v1.0.9 - English</a>
-<a href="/img/products/w5500/w5500_ds_v109k.pdf" target="_blank">W5500 Datasheet v1.0.9 - Korean</a>
+- <a href="/img/products/w5500/w5500_ds_v109e.pdf" target="_blank">W5500 Datasheet v1.0.9 - English</a>
+- <a href="/img/products/w5500/w5500_ds_v109k.pdf" target="_blank">W5500 Datasheet v1.0.9 - Korean</a>
 
 ### Datasheet History
+
+<details>
+<summary>Click to view W5500 datasheet history</summary>
 
 |Version|	Date|	Description|
 |-------|-----|------------|
@@ -42,6 +43,7 @@ the chip's datasheet: [datasheet](../../iEthernet/w5500/datasheet)
 |1.0.7|	2016-02-24|	1. Corrected Interrupt Assert Wait Time function (P.34) / 2. Notice PLLclk is 150MHz (P.34)|
 |1.0.8|	2017-05-19|	1. Corrected Driver Level Range Unit uW/MHz to uW (P.60)|
 |1.0.9|	2019-05-22|	1. Corrected Sn_IMR Description (P.55) 2. Corrected Junction temperature Min value TJ (P.57) 3. Added Maximum junction temperature TJMAX (P.58)|
+</details>
 
 ### WIZ550io History
 
@@ -52,7 +54,7 @@ the chip's datasheet: [datasheet](../../iEthernet/w5500/datasheet)
 |1.2|	2015-04-20|	Added “Resistor 33R in MDI line. because EMI issue.”Changed “PCB artwork. because changed develop tool(PADS → Altium)”|
 |1.3|	2018-08-10|	Modified “inner 2 layer copper foil (3V3D). This copper foil plated below of CHAND area. It may affect ESD.”|
 
-## Hardware Pins of WIZ550io
+## Hardware Pins
 
 ### Pin Map
 
@@ -208,7 +210,7 @@ All interrupts are maskable.</td>
 </tbody>
 </table>
 
-**Caution**  
+:::caution
 *Some users may want to reinitialize W5500 inside WIZ550io with SW reset,
 not handling RSTn pin. It will make WIZ550io hang up due to clearance of
 all information in the registers of W5500. A tiny MCU inside WIZ550io
@@ -223,12 +225,12 @@ and WIZ550io will hang up instead.*
 users want to use SW reset, we recommend to save MAC address and network
 information including IP address, Subnet mask and Gateway address before
 SW reset, and writing those information to WIZ550io after SW reset.*
-
+:::
 -----
 
-## Characteristic
+## Characteristics
 
-### DC Charcteristic
+### DC Characteristic
 
 <table>
 <thead>
@@ -322,49 +324,15 @@ SW reset, and writing those information to WIZ550io after SW reset.*
 | 10M Transmitting               | \-  | 83  | \-  | mA   |
 | Power Down mode                | \-  | 13  | \-  | mA   |
 
----
 ## SPI Operations
 
 There is a W5500 inside WIZ550io. Therefore SPI operation of WIZ550io follows one of W5500. For more information about SPI operation of
 WIZ550io, please refer to [W5500 Datasheet](../../iEthernet/w5500/datasheet).
 
-### Datasheet
+## Timing diagram
 
-<a href="/img/products/w5500/w5500_ds_v109e.pdf" target="_blank">W5500 Datasheet v1.0.9 - English</a>
 
-<a href="/img/products/w5500/w5500_ds_v109k.pdf" target="_blank">W5500 Datasheet v1.0.9 - Korean</a>
-
-### Datasheet History
-
-|Version|	Date|	Description|
-|-------|-----|------------|
-|1.0.0|	2013-08-01|	Initial Release|
-|1.0.1|	2013-09-13|	Corrected duplicated statements and typing errors (P.14, 23, 24, 28, 39, 51) Corrected descriptions (P.35)|
-|1.0.2|	2013-11-14|	Changed “descriptions of pin at 1.1 Pin Descriptions” (P.10) starting ”It must be tied to GND to NC (PIN38..42)” / 2. corrected typing error: starting “0x02 to 0x42 value of SOCK_MACRAW at 4.2 Socket Registers(P.50)”|
-|1.0.3|	2014-05-29	|Corrected “Sn_MSSR at 4.2 Socket Register” (P.53): wrong descriptions of Sn_MSSR about FMTU/MTU|
-|1.0.4|	2014-06-13|	1. Added Note about reading size register value (P.56, 58) / 2. Added IR Reflow Temperature Profile (P.66)|
-|1.0.5	|2014-11-11	|1. Added description for MISO pin (P.11):The SCSn signal defines MISO pin output value / 2. Modified the register notation (P.33), Modified the register notation “Sn_IR at 4.2 Socket Register” (P.49) :from [R] to [RCW1] / 3. Corrected typing error: from DICON to DISCON of Sn_SR at 4.2 Socket Register (P.50)|
-|1.0.6|	2014-12-30|	Corrected typing error : from 0x02 to 0x42 value of SOCK_MACRAW “Sn_CR at 4.2 Socket Registers”(P.46)|
-|1.0.7|	2016-02-24|	1. Corrected Interrupt Assert Wait Time function (P.34) / 2. Notice PLLclk is 150MHz (P.34)|
-|1.0.8|	2017-05-19|	1. Corrected Driver Level Range Unit uW/MHz to uW (P.60)|
-|1.0.9|	2019-05-22|	1. Corrected Sn_IMR Description (P.55) 2. Corrected Junction temperature Min value TJ (P.57) 3. Added Maximum junction temperature TJMAX (P.58)|
-
-### WIZ550io History
-
-|Version	|Date|	Description|
-|---------|----|-------------|
-|1.0	|2013-08-01|	Initial Release|
-|1.1|	2014-01-17	|Changed “External Transformer + RJ-45 to MAGJACK(inside transformer)”|
-|1.2|	2015-04-20|	Added “Resistor 33R in MDI line. because EMI issue.”Changed “PCB artwork. because changed develop tool(PADS → Altium)”|
-|1.3|	2018-08-10|	Modified “inner 2 layer copper foil (3V3D). This copper foil plated below of CHAND area. It may affect ESD.”|
-
----
-
-## Timing Diagram
-
-### Reset Timing
-
-![](/img/products/nreset_rdy_timing.jpg)
+![](/img/products/wiz550io/nreset_rdy_timing.jpg)
 
 | Symbol | Description                      | Min   | Max  |
 | ------ | -------------------------------- | ----- | ---- |
@@ -373,7 +341,7 @@ WIZ550io, please refer to [W5500 Datasheet](../../iEthernet/w5500/datasheet).
 
 ### SPI Timing
 
-![](/img/products/spi_timing.jpg)
+![](/img/products/wiz550io/spi_timing.jpg)
 
 | Symbol | Description          | Min | Max | Units |
 | ------ | -------------------- | --- | --- | ----- |
@@ -382,43 +350,40 @@ WIZ550io, please refer to [W5500 Datasheet](../../iEthernet/w5500/datasheet).
 | TWL    | SCLK Low duration    | 6   | \-  | ns    |
 | TCS    | nSCS High duration   | 5   | \-  | ns    |
 
----
-
-## Block Diagram
+## Block Diagram & Schematic
 
 ![](/img/products/wiz550io/wiz550io_blockdiagram_140207.png)
 
-## Schematic
+### Schematic
 
-  - Revision 1.0 <a href="/img/products/wiz550io/wiz550io-r1.0_0830_.pdf" target="_blank">WIZ550io Rev1.0 Schematic</a>
-  - Revision 1.1 <a href="/img/products/wiz550io/wiz550io_v1_1_20140117.pdf" target="_blank">WIZ550io Rev1.1 Schematic</a>
-  - Revision 1.2/1.3 <a href="/img/products/wiz550io/wiz550io_v1_2_schematic.pdf" target="_blank">WIZ550io Rev1.2/1.3 Schematic</a>
+  - <a href="/img/products/wiz550io/wiz550io-r1.0_0830_.pdf" target="_blank">WIZ550io Rev1.0 Schematic</a>
+  - <a href="/img/products/wiz550io/wiz550io_v1_1_20140117.pdf" target="_blank">WIZ550io Rev1.1 Schematic</a>
+  - <a href="/img/products/wiz550io/wiz550io_v1_2_schematic.pdf" target="_blank">WIZ550io Rev1.2/1.3 Schematic</a>
 
-## PCB
+### PCB
 
-  - Revision 1.2 <a href="/img/products/wiz550io/wiz550io_v1.2.zip" target="_blank">WIZ550io Rev1.2 PCB(Altium)</a>
-  - Revision 1.3 <a href="/img/products/wiz550io/wiz550io_v1.3.zip" target="_blank">WIZ550io Rev1.3 PCB(Altium)</a>
+  - <a href="/img/products/wiz550io/wiz550io_v1.2.zip" target="_blank">WIZ550io Rev1.2 PCB(Altium)</a>
+  - <a href="/img/products/wiz550io/wiz550io_v1.3.zip" target="_blank">WIZ550io Rev1.3 PCB(Altium)</a>
 
-## Partlist
+### Partlist
 
-  - Revision 1.0 Partlist <a href="/img/products/wiz550io/wiz550io_v1_0_0830_pl.pdf" target="_blank">WIZ550io Rev1.0 Partlist</a>
-  - Revision 1.1 Partlist <a href="/img/products/wiz550io/wiz550io_ver1.1_pl_140128_.pdf" target="_blank">WIZ550io Rev1.1 Partlist</a>
-  - Revision 1.2 Partlist <a href="/img/products/wiz550io/wiz550io_ver1.2_pl.pdf" target="_blank">WIZ550io Rev1.2 Partlist</a>
-    
- ---
- 
- ## Dimension
+  - <a href="/img/products/wiz550io/wiz550io_v1_0_0830_pl.pdf" target="_blank">WIZ550io Rev1.0 Partlist</a>
+  - <a href="/img/products/wiz550io/wiz550io_ver1.1_pl_140128_.pdf" target="_blank">WIZ550io Rev1.1 Partlist</a>
+  - <a href="/img/products/wiz550io/wiz550io_ver1.2_pl.pdf" target="_blank">WIZ550io Rev1.2 Partlist</a>
 
-WIZ550io Ver1.0
+
+## Dimension
+
+### WIZ550io Ver1.0
 
 ![](/img/products/wiz550io/wiz550io_v1.0_dimension.jpg)
 
-WIZ550io Ver1.1
+### WIZ550io Ver1.1
 
 54mm(W) x 26mm(L) x 24mm(H) (±0.5)
 ![](/img/products/wiz550io/wiz550io_v1.1_dimension.png)
 
-WIZ550io Ver1.2
+### WIZ550io Ver1.2
 
 54mm(W) x 26mm(L) x 24mm(H) (±0.5)
 
@@ -431,11 +396,8 @@ change in all parts placement.
 
 \* Drill ![](/img/products/wiz550io/wiz550io_drillview.png)
 
----
-
 ## Related Products
 
- * [ioShield-A](../../Open-Source-Hardware/ioShield-A.md)
- * [ioShield-K](../../Open-Source-Hardware/ioShield-K.md)
- * [ioShield-L](../../Open-Source-Hardware/ioShield-L.md)
-
+ * [ioShield-A](../../Open-Source-Hardware/ioshield_a)
+ * [ioShield-K](../../Open-Source-Hardware/ioshield_k)
+ * [ioShield-L](../../Open-Source-Hardware/ioshield_l)

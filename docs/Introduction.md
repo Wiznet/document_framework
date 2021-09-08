@@ -39,7 +39,7 @@ application info.
     ![](/img/star.png) 
   - [W5500](Product/iEthernet/W5500/Overview.md): Hardwired TCP/IP Chip
   - [W5500-EVB](Product/iEthernet/W5500/W5500-EVB/W5500-EVB.md): W5500 Evaluation Board
-  - [WIZ550io](Product/ioModule/WIZ550io/Overview.md): Plug-in Network Module 
+  - [WIZ550io](Product/ioModule/wiz550io.md): Plug-in Network Module 
   - [WIZ550S2E](Product/S2E-Module/WIZ550S2E/WIZ550S2E.md): Serial to Ethernet
   - [WIZ550web](Product/App-Module/WIZ550web/WIZ550web.md): Embedded Web Server
   - [WizFi250](Product/Wi-Fi-Module/WizFi250/WizFi250.md): Wi-Fi Module
@@ -53,6 +53,7 @@ application info.
 [Open Source Hardware Home](Product/Open-Source-Hardware/Open_Source_Hardware.md) - Materials and information on WIZnet
 open source hardware products.
 
+  - **[WIZnet Ethernet HAT](Product/Open-Source-Hardware/WIZnet-Ethernet-HAT.md)**
   - **[W5500 Ethernet Shield](Product/Open-Source-Hardware/W5500_Ethernet_Shield.md)**
     ![](/img/star.png)
   - [ioShield-A](Product/Open-Source-Hardware/ioShield-A.md) for Arduino

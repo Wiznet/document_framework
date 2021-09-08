@@ -102,17 +102,3 @@ similar to the Xbee pin layout. But it is not exactly compatible.
   - <a href="/img/products/wizfi360/board/wizfi360io-c/smw200-nn.pdf" target="_blank">SMW200-06</a>
 
 -----
-
-## See Also
-
-![](/img/link.png) 🌎[WizFi360 WIZnetForum](https://forum.wiznet.io/c/wifi-module/wizfi360) : WIZnet Forum for Technical support and Project sharing
-
------
-
-## Where to Buy
-
- Coming Soon\!
-
-
-
------

@@ -105,15 +105,3 @@ which can meet the requirement of various applications.
   - 🌎<a href="https://www.kth.se/social/files/54ef17dbf27654753f437c56/GL5537.pdf" target="_blank">GL5537 Datasheet</a>
 
 -----
-
-## See Also
-
-![](/img/link.png) 🌎[WizFi360 WIZnet Forum](https://forum.wiznet.io/c/wifi-module/wizfi360) : WIZnet Forum for Technical support and Project sharing
-
------
-
-## Where to Buy
-
-Coming Soon\!
-
------

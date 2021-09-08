@@ -10,7 +10,7 @@ date: 2020-04-03
 
 ioShield-A allows an Arduino board to connect to the Internet.
 
-It is based on the [WIZ550io network module](../ioModule/WIZ550io/overview) which uses [WIZnet W5500 ethernet chip(W5500 Datasheet)](../iEthernet/W5500/datasheet). The WIZnet W5500 provides a network (TCP/IP) stack capable of both TCP and UDP. It supports up to eight simultaneous socket connections. And, when Powered on and nRESET triggered, WIZ550io initializes itself with embedded real MAC and default IP address and can be pinged from user’s computer.
+It is based on the [WIZ550io network module](../ioModule/wiz550io) which uses [WIZnet W5500 ethernet chip(W5500 Datasheet)](../iEthernet/W5500/datasheet). The WIZnet W5500 provides a network (TCP/IP) stack capable of both TCP and UDP. It supports up to eight simultaneous socket connections. And, when Powered on and nRESET triggered, WIZ550io initializes itself with embedded real MAC and default IP address and can be pinged from user’s computer.
 
 As ioShield uses W5500 chipset, instead of W5100 which was used before in the Arduino Ethernet Shield, users needs to use [WIZnet Ethernet Library](/).
 

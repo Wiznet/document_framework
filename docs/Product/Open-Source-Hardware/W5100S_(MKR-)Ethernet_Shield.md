@@ -57,19 +57,3 @@ W5100S Ethernet shield is compatible with the Arduino Ethernet Shield
   - 🌎<https://github.com/Wiznet/Ethernet>
 
 -----
-
-## See Also
-
-![](/img/products/w5500/w5500_evb/icons/link.png)🌎 [WIZnet Forum](https://forum.wiznet.io/) : WIZnet Forum for Technical
-support and Project sharing
-
------
-
-## Where to Buy
-
-![WIZnet Online Shop](/img/osh/w5100s_ethernet_shield/start/buynow.png)  
-![WIZnetUS Online Shop, USA](/img/osh/w5100s_ethernet_shield/start/dollar.png)
-![WIZnetEU Online Shop, Germany](/img/osh/w5100s_ethernet_shield/start/european-euro.png)
-![WIZnetKorea Online Shop, Korea](/img/osh/w5100s_ethernet_shield/start/won.png)
-
------

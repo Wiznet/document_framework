@@ -622,12 +622,13 @@ module.exports = {
 			label: 'ioModule',
 			items: [
 			'Product/ioModule/iomodule',
-			'Product/ioModule/WIZ610io/wiz610io',
-			'Product/ioModule/WIZ610MJ/wiz610mj',
-			'Product/ioModule/WIZ810Sio/wiz810sio',
-			'Product/ioModule/WIZ810SMJ/wiz810smj',
-			'Product/ioModule/WIZ850io/wiz850io',
-			{
+			'Product/ioModule/wiz610io',
+			'Product/ioModule/wiz610mj',
+			'Product/ioModule/wiz810sio',
+			'Product/ioModule/wiz810smj',
+			'Product/ioModule/wiz850io',
+			'Product/ioModule/wiz550io',
+			/*{
 				type: 'category',
 				label: 'WIZ550io',
 				items: [
@@ -641,7 +642,7 @@ module.exports = {
 				'Product/ioModule/WIZ550io/related_products',
 				//'Product/ioModule/WIZ550io/all_pages',
 				],
-			},
+			},*/
 			'Product/ioModule/wiz820io',
 			'Product/ioModule/wiz810mj',
 			'Product/ioModule/wiz811mj',
@@ -972,6 +973,7 @@ module.exports = {
 			label: 'Open Source Hardware',
 			items: [
 			'Product/Open-Source-Hardware/open_source_hardware',
+			'Product/Open-Source-Hardware/wiznet_ethernet_hat',
 			'Product/Open-Source-Hardware/w5100s_mkr_ethernet_shield',
 			'Product/Open-Source-Hardware/w6100_mkr_ethernet_shield',
 			'Product/Open-Source-Hardware/wizarduino_m0_eth',

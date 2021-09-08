@@ -41,8 +41,8 @@ The **IOP4IoT W7500** chip is the one-chip solution which integrates an ARM Cort
 
 ## io Module (Internet Offload Module)
 
-  * [WIZ850io](ioModule/WIZ850io/WIZ850io.md)
-  * [WIZ550io](ioModule/WIZ550io/Overview.md)
+  * [WIZ850io](ioModule/WIZ850io.md)
+  * [WIZ550io](ioModule/wiz550io.md)
 
 
 -----
@@ -92,6 +92,7 @@ The **IOP4IoT W7500** chip is the one-chip solution which integrates an ARM Cort
 
 ## Open Source Hardware
 
+  - [WIZnet Ethernet HAT](Open-Source-Hardware/WIZnet-Ethernet-HAT.md)
   - [WizArduino M0 ETH](Open-Source-Hardware/WizArduino_M0_ETH.md)
   - [WizArduino MEGA WIFI](Open-Source-Hardware/WizArduino_MEGA_WIFI.md)
   - [WizFi310 Shield](Open-Source-Hardware/WizFi310_Shield.md)

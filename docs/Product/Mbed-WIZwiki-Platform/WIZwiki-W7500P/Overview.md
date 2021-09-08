@@ -159,21 +159,3 @@ years. W7500P suits users who need Internet connectivity best.
    * [WIZwiki-W7500P Examples Binary](how_to_write_firmware_into_wizwiki_w7500p)
 
 -----
-
-
-## See Also
-
-   * 🌎[WIZnet Forum](https://forum.wiznet.io/) : WIZnet Forum for Technical support and Project sharing
-   * [W7500P Documents Download](../../iMCU/W7500P/Documents.md)
-
------
-
-
-## Where to Buy
-
-![WIZnet Online Shop](/img/products/w5500/buynow.png)  
-[![WIZnetUS Online Shop, USA](/img/products/w5500/w5500_evb/icons/dollar.png)](http://www.shopwiznet.com/)
-[![WIZnetEU Online Shop, Germany](/img/products/w5500/w5500_evb/icons/european-euro.png)](http://shop.wiznet.eu/)
-[![WIZnetKorea Online Shop, Korea](/img/products/w5500/w5500_evb/icons/won.png)](http://shop.wiznet.co.kr/)
-
------
