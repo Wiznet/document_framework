@@ -2,6 +2,10 @@
 id: wiznet_ethernet_hat
 title: WIZnet Ethernet HAT
 date: 2021-09-07
+keywords:
+  - Raspberry Pi Pico
+  - Ethernet HAT
+description: WIZnet Ethernet HAT - easiest way to add Ethernet to Raspberry Pi Pico
 ---
 
 ## Overview
