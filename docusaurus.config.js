@@ -13,6 +13,10 @@ module.exports = {
   projectName: 'document_framework', // Usually your repo name.
   trailingSlash: 'false',
   themeConfig: {
+    googleAnalytics: {
+      trackingID: 'UA-207547783-2',
+      anonymizeIP: true,
+    },
     hideableSidebar: true,
     announcementBar: {
       id: 'announcementBar-2', // Increment on change
