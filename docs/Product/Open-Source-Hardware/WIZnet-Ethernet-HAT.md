@@ -19,7 +19,7 @@ Please refer to this link to find more information about [W5100S](../../Product/
 - Raspberry Pi Pico Pin-Compatible
 - Ethernet (W5100S Hardwired TCP/IP CHIP)
 
-![](/img/osh/wiznet_ethernet_hat/wiznet_ethernet_hat_3d_main.png)
+![](/img/osh/wiznet_ethernet_hat/wiznet_ethernet_hat.png)
 
 ## Features
 
