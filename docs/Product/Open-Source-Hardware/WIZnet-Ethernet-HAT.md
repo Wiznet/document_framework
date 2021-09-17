@@ -71,7 +71,7 @@ TBA
 
 ### Schematic & Part list & Gerber File
 
-[Go to Github]: https://github.com/Wiznet/Hardware-Files-of-WIZnet/tree/master/08_OSHW/WIZnet_Ethernet_HAT/WIZnet_Ethernet_HAT_V100	"Go to Github"
+- [Go to Github](https://github.com/Wiznet/Hardware-Files-of-WIZnet/tree/master/08_OSHW/WIZnet_Ethernet_HAT/WIZnet_Ethernet_HAT_V100)
 
 ### Schematic
 
