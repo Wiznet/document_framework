@@ -69,6 +69,10 @@ TBA
 
 - <a href="/img/products/w5100s/w5100s_ds_v125e.pdf" target="_blank">W5100S Datasheet v1.2.5</a>
 
+### Schematic & Part list & Gerber File
+
+[Go to Github]: https://github.com/Wiznet/Hardware-Files-of-WIZnet/tree/master/08_OSHW/WIZnet_Ethernet_HAT/WIZnet_Ethernet_HAT_V100	"Go to Github"
+
 ### Schematic
 
 ![WIZnet_Ethernet_HAT_Schematic](/img/osh/wiznet_ethernet_hat/wiznet_ethernet_hat_schematic.png)
