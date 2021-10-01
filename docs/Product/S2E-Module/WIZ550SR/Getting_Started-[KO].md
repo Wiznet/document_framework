@@ -10,7 +10,7 @@ date: 2020-04-24
 
 ## Unpacking the WIZ550SR EVB
 
-<a target="_blank" href={require("/img/products/wiz550sr/gettingstarted/wiz550sr_evb.jpg").default}><img src={require("/img/products/wiz550sr/gettingstarted/wiz550sr_evb.jpg").default} alt="WIZ550SR-EVB Package"/></a>  
+![WIZ550SR-EVB Package](/img/products/wiz550sr/gettingstarted/wiz550sr_evb.jpg)  
 WIZ550SR-EVB 패키지는 아래와 같은 구성품으로 이루어져 있다.
 
   - WIZ550SR - 1EA
@@ -18,7 +18,7 @@ WIZ550SR-EVB 패키지는 아래와 같은 구성품으로 이루어져 있다.
   - Cat5, Ethernet Cable - 1EA
   - Micro USB B Type Cable - 1EA
 
-<a target="_blank" href={require("/img/products/wiz550sr/gettingstarted/wiz550sr_evb_1.png").default}><img src={require("/img/products/wiz550sr/gettingstarted/wiz550sr_evb_1.png").default} alt="WIZ550SR-EVB"/></a>  
+![WIZ550SR-EVB](/img/products/wiz550sr/gettingstarted/wiz550sr_evb_1.png)  
 WIZ550SR이 위 사진과 같이 조립이 되어 있는지 육안으로 확인을 한다.
 
 -----
@@ -143,7 +143,7 @@ WIZ550SR과 WIZ550SR의 설정을 위한 PC 혹은 노트북(laptop)은 동일�
   - 연결이 되면 USB Driver가 설치를 해야 한다.([Download page](download#download-wiz550sr-evb-usb-driver))
   - 장치관리자를 실행해서 아래 사진과 같이 **USB Serial Port**가 2개 생성되는 것을 확인 한다.
 
-<a target="_blank" href={require("/img/products/wiz550sr/gettingstarted/device_manager2.png").default}><img src={require("/img/products/wiz550sr/gettingstarted/device_manager2.png").default} alt="Device Manager"/></a>
+![Device Manager](/img/products/wiz550sr/gettingstarted/device_manager2.png)
 
   - Control Panel \> System \> Device Manager
   - 2개의 USB Serial Port중에, 숫자가 낮은 Port가 Main UART, 숫자가 높은 Port가 Debug

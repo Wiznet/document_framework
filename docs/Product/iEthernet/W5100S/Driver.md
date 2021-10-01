@@ -21,7 +21,7 @@ This driver provides the Berkeley Socket type APIs. The function names
 of this ioLibrary\_BSD are the same as the function names of the
 ioLibrary.
 
-  - Directory Structure <a target="_blank" href={require("/img/products/w5100s/w5100s_iolibrary.png").default}><img src={require("/img/products/w5100s/w5100s_iolibrary.png").default} alt=""/></a>
+  - Directory Structure ![](/img/products/w5100s/w5100s_iolibrary.png)
       - Ethernet : SOCKET APIs like BSD & WIZCHIP(W5500,W5200 and etc)
         Driver
       - Internet : 

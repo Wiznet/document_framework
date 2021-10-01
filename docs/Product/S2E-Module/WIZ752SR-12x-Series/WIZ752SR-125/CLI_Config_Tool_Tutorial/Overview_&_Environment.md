@@ -58,11 +58,11 @@ or,
 Check **'Add Python 3.6 to PATH'** option
 to set environment variables of windows.
 
-<a target="_blank" href={require("/img/products/configtool/overview/install_python_01.png").default}><img src={require("/img/products/configtool/overview/install_python_01.png").default} alt=""/></a>
+![](/img/products/configtool/overview/install_python_01.png)
 
-<a target="_blank" href={require("/img/products/configtool/overview/install_python_02.png").default}><img src={require("/img/products/configtool/overview/install_python_02.png").default} alt=""/></a>
+![](/img/products/configtool/overview/install_python_02.png)
 
-<a target="_blank" href={require("/img/products/configtool/overview/install_python_03.png").default}><img src={require("/img/products/configtool/overview/install_python_03.png").default} alt=""/></a>
+![](/img/products/configtool/overview/install_python_03.png)
 
 -----
 

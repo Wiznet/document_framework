@@ -10,7 +10,7 @@ to use WIZwiki-W7500 mbed Platform board. WIZwiki-W7500 mbed Starter Kit
 consists of WIZwiki-W7500 board and other parts for DIY
 (Do-It-Yourself).
 
-<a target="_blank" href={require("/img/products/wizwiki_mbed_kit/mbed_starter_kit_all.jpg").default}><img src={require("/img/products/wizwiki_mbed_kit/mbed_starter_kit_all.jpg").default} alt="mbed Starter Kit all parts"/></a>
+![mbed Starter Kit all parts](/img/products/wizwiki_mbed_kit/mbed_starter_kit_all.jpg)
 
 ## 한국어
 

@@ -36,7 +36,7 @@ Tutorial 0:
 
 ## Interface Functions Guide for WIZ550web
 
-<a target="_blank" href={require("/img/products/wiz550web/wiz550web_simple_requestcombination_diagram.png").default}><img src={require("/img/products/wiz550web/wiz550web_simple_requestcombination_diagram.png").default} alt=""/></a>
+![](/img/products/wiz550web/wiz550web_simple_requestcombination_diagram.png)
 ### Overview
 WIZ550web은 펌웨어의 수정 없이 웹 페이지의 제작만으로 장치 이름 및 Network 설정, 각각의 Digital I/O와 Analog input의 제어와 모니터링을 수행할 수 있도록 CGI를 위한 HTTP Request function set을 제공한다.
 

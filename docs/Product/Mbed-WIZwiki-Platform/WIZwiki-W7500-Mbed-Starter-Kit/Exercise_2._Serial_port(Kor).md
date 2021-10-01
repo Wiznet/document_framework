@@ -18,13 +18,13 @@ WIZwiki 보드의 시리얼 포트를 이용하면 데이터를 PC로 내보내�
     * 시리얼 데이터를 확인하기 위해서는 PC에 터미널 프로그램을 설치해야 한다. 이 예제에서는 아래와 같은 버전의 Tera Term 이라는 프로그램으로 테스트 했다.
 
 
-<a target="_blank" href={require("/img/products/wizwiki_mbed_kit/kit_en/2_teraterm.png").default}><img src={require("/img/products/wizwiki_mbed_kit/kit_en/2_teraterm.png").default} alt=""/></a>
+![](/img/products/wizwiki_mbed_kit/kit_en/2_teraterm.png)
 
 ## 하드웨어
 
 PC와 WIZwiki 보드를 USB 케이블로 연결한다.
 
-<a target="_blank" href={require("/img/products/wizwiki_mbed_kit/kit_en/bd_usb_connected.jpg").default}><img src={require("/img/products/wizwiki_mbed_kit/kit_en/bd_usb_connected.jpg").default} alt=""/></a>
+![](/img/products/wizwiki_mbed_kit/kit_en/bd_usb_connected.jpg)
 
 ## 소프트웨어
 
@@ -57,22 +57,22 @@ int main(/) {
 
 먼저 mbed\_blinky 프로그램을 원하는 다른 이름 (예를 들면 serial)으로 바꾼후 프로그램을 만든다.
 
-<a target="_blank" href={require("/img/products/wizwiki_mbed_kit/kit_en/2a.png").default}><img src={require("/img/products/wizwiki_mbed_kit/kit_en/2a.png").default} alt=""/></a>
+![](/img/products/wizwiki_mbed_kit/kit_en/2a.png)
 
-<a target="_blank" href={require("/img/products/wizwiki_mbed_kit/kit_en/2b.png").default}><img src={require("/img/products/wizwiki_mbed_kit/kit_en/2b.png").default} alt=""/></a>
+![](/img/products/wizwiki_mbed_kit/kit_en/2b.png)
 
 왼쪽 프로그램 작업장 (Program Workspace)에서 main.cpp를 선택해 편집 모드로 간다.
 
 기존 code를 지우고 Example Code를 복사해 붙여넣기 한 후 컴파일한다.
 
-테라텀을 다음 그림과 같이 설정한다. <a target="_blank" href={require("/img/products/wizwiki_mbed_kit/kit_en/2c.png").default}><img src={require("/img/products/wizwiki_mbed_kit/kit_en/2c.png").default} alt=""/></a>
+테라텀을 다음 그림과 같이 설정한다. ![](/img/products/wizwiki_mbed_kit/kit_en/2c.png)
 
 WIZwiki 보드와 PC를 연결하면 포트(port)가 추가된다. 아래 그림과 같이 COM11을 선택한다. (COM 번호는 사용자
-PC 환경마다 다를 수 있다. <a target="_blank" href={require("/img/products/wizwiki_mbed_kit/kit_en/2d.png").default}><img src={require("/img/products/wizwiki_mbed_kit/kit_en/2d.png").default} alt=""/></a>
+PC 환경마다 다를 수 있다. ![](/img/products/wizwiki_mbed_kit/kit_en/2d.png)
 
 프로그램 실행 결과는 다음과 같다.
 
-<a target="_blank" href={require("/img/products/wizwiki_mbed_kit/kit_en/2e.png").default}><img src={require("/img/products/wizwiki_mbed_kit/kit_en/2e.png").default} alt=""/></a>
+![](/img/products/wizwiki_mbed_kit/kit_en/2e.png)
 
 ## 다른 실습 예제
 

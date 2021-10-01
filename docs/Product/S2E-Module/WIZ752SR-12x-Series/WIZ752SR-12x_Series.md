@@ -17,7 +17,7 @@ External PHY(IC+).
 
 ## WIZ752SR-120
 
-<a target="_blank" href={require("/img/products/s2e_module/wiz752sr-120/1.png").default}><img src={require("/img/products/s2e_module/wiz752sr-120/1.png").default} alt="WIZ752SR-120"/></a>  
+![WIZ752SR-120](/img/products/s2e_module/wiz752sr-120/1.png)  
 
 ### Features
 
@@ -31,7 +31,7 @@ External PHY(IC+).
 
 ## WIZ752SR-125
 
-<a target="_blank" href={require("/img/products/s2e_module/wiz752sr-125/1.png").default}><img src={require("/img/products/s2e_module/wiz752sr-125/1.png").default} alt="WIZ752SR-125"/></a>
+![WIZ752SR-125](/img/products/s2e_module/wiz752sr-125/1.png)
 
 ### Features
 

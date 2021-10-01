@@ -14,7 +14,7 @@ WIZwiki-W7500 mbed Starter Kit products. Include the following:
 - Tutorials
 - Related documents
 
-<a target="_blank" href={require("/img/products/wizwiki_mbed_kit/kit_kr/mbed_starter_kit_all.jpg").default}><img src={require("/img/products/wizwiki_mbed_kit/kit_kr/mbed_starter_kit_all.jpg").default} alt="mbed Starter Kit all parts"/></a>
+![mbed Starter Kit all parts](/img/products/wizwiki_mbed_kit/kit_kr/mbed_starter_kit_all.jpg)
 
 The WIZwiki-W7500 mbed Starter Kit is a product that you can learn how
 to take advantage of **🌎[WIZwiki-W7500](../WIZwiki-W7500/overview)**

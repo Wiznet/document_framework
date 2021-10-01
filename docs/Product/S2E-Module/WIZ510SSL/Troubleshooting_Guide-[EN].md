@@ -56,7 +56,7 @@ Follow below steps to recover your board:
 
 3. Set BOOT0 to HIGH (insert jumper to J3) and reset board.
 
-<a target="_blank" href={require("/img/products/wiz510ssl/troubleshooting_guide/J3_pin.png").default}><img src={require("/img/products/wiz510ssl/troubleshooting_guide/J3_pin.png").default} alt=""/></a> |
+![](/img/products/wiz510ssl/troubleshooting_guide/J3_pin.png) |
 
 4. Connect to your board using CubeProgrammer by UART using following settings: Speed-115200, Data-8bit, Parity-EVEN
 
@@ -69,9 +69,9 @@ Follow below steps to recover your board:
 | Bank 0    | 0x08010000 |
 | Bank 1    | 0x08040000 |
 
-<a target="_blank" href={require("/img/products/wiz510ssl/troubleshooting_guide/cube_open.png").default}><img src={require("/img/products/wiz510ssl/troubleshooting_guide/cube_open.png").default} alt=""/></a> |
+![](/img/products/wiz510ssl/troubleshooting_guide/cube_open.png) |
 
-<a target="_blank" href={require("/img/products/wiz510ssl/troubleshooting_guide/cube_memory.png").default}><img src={require("/img/products/wiz510ssl/troubleshooting_guide/cube_memory.png").default} alt=""/></a> |
+![](/img/products/wiz510ssl/troubleshooting_guide/cube_memory.png) |
 
 ![](/img/products/wiz510ssl/troubleshooting_guide/cube_done.PNG) |
 

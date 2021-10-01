@@ -38,14 +38,10 @@ STA MAC: CE:52:AF:C6:CF:B5
 
 To connect your smartphone to WizFi250 via < WiFi Direct>, select
 < WizFi250-P2P> in the list as below.  
-
-<a target="_blank" href={require("/img/products/wizfi250/wizfi250pg/screenshot_2014-05-12-09-31-05.png").default}><img src={require("/img/products/wizfi250/wizfi250pg/screenshot_2014-05-12-09-31-05.png").default} alt=""/></a>
-
+![](/img/products/wizfi250/wizfi250pg/screenshot_2014-05-12-09-31-05.png)  
 After dozens of seconds, your smartphone will connect to WizFi250 via
-< WiFi Direct >
-
-<a target="_blank" href={require("/img/products/wizfi250/wizfi250pg/screenshot_2014-05-12-09-33-00.png").default}><img src={require("/img/products/wizfi250/wizfi250pg/screenshot_2014-05-12-09-33-00.png").default} alt=""/></a>
-
+< WiFi Direct >  
+![](/img/products/wizfi250/wizfi250pg/screenshot_2014-05-12-09-33-00.png)  
 And you can see the result of < WiFi Direct> in WizFi250.
 
     AT+WP2P_START
@@ -76,12 +72,10 @@ at+scon=o,tsn,,,4000,0
 
 And, I just used a general TCP client App in the smartphone for the
 test.  
+![](/img/products/wizfi250/wizfi250pg/screenshot_2014-05-12-09-34-14.png)
 
-<a target="_blank" href={require("/img/products/wizfi250/wizfi250pg/screenshot_2014-05-12-09-34-14.png").default}><img src={require("/img/products/wizfi250/wizfi250pg/screenshot_2014-05-12-09-34-14.png").default} alt=""/></a>
-
-Now, WizFi250 and smartphone can communicate each other via < WiFi Direct>.
-
-<a target="_blank" href={require("/img/products/wizfi250/wizfi250pg/screenshot_2014-05-12-09-35-12.png").default}><img src={require("/img/products/wizfi250/wizfi250pg/screenshot_2014-05-12-09-35-12.png").default} alt=""/></a>  
+Now, WizFi250 and smartphone can communicate each other via < WiFi Direct>.  
+![](/img/products/wizfi250/wizfi250pg/screenshot_2014-05-12-09-35-12.png)  
 
 ```
 at+scon=o,tsn,,,4000,0

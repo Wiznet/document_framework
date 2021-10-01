@@ -4,7 +4,7 @@ title: iMCU7100-EVB
 date: 2021-07-26
 ---
 
-<a target="_blank" href={require("/img/products/w7100a/w7100A_evb_f-280.jpg").default}><img src={require("/img/products/w7100a/w7100A_evb_f-280.jpg").default} alt=""/></a>
+![](/img/products/w7100a/w7100A_evb_f-280.jpg)
 
 ## Key Features
 

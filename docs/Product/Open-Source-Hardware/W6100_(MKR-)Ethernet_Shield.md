@@ -26,12 +26,12 @@ many years.
 
 |                                                                                  |
 | -------------------------------------------------------------------------------- |
-| <a target="_blank" href={require("/img/osh/w6100_ethernet_shield/w6100_ethernet_sheild.png").default}><img src={require("/img/osh/w6100_ethernet_shield/w6100_ethernet_sheild.png").default} alt="W6100 Ethernet Shield"/></a> |
+| ![W6100 Ethernet Shield](/img/osh/w6100_ethernet_shield/w6100_ethernet_sheild.png) |
 | Figure: ***W6100 Ethernet Shield***                                              |
 
 |                                                                                          |
 | ---------------------------------------------------------------------------------------- |
-| <a target="_blank" href={require("/img/osh/w6100_ethernet_shield/w6100_mkr_ethernet_sheild_1.png").default}><img src={require("/img/osh/w6100_ethernet_shield/w6100_mkr_ethernet_sheild_1.png").default} alt="W6100 MKR-Ethernet Shield"/></a> |
+| ![W6100 MKR-Ethernet Shield](/img/osh/w6100_ethernet_shield/w6100_mkr_ethernet_sheild_1.png) |
 | Figure: ***W6100 MKR-Ethernet Shield***                                                  |
 
 -----

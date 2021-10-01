@@ -10,9 +10,9 @@ date: 2020-04-24
 
 -----
 
-<a target="_blank" href={require("/img/products/wizfi250/wizfi250pg/appendix/uart_throughput_1.png").default}><img src={require("/img/products/wizfi250/wizfi250pg/appendix/uart_throughput_1.png").default} alt=""/></a>  
+![](/img/products/wizfi250/wizfi250pg/appendix/uart_throughput_1.png)  
 
-<a target="_blank" href={require("/img/products/wizfi250/wizfi250pg/appendix/uart_throughput_2.png").default}><img src={require("/img/products/wizfi250/wizfi250pg/appendix/uart_throughput_2.png").default} alt=""/></a>  
+![](/img/products/wizfi250/wizfi250pg/appendix/uart_throughput_2.png)  
 
 ### Test Result
 

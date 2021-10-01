@@ -9,7 +9,7 @@ date: 2020-04-03
 
 <a href="/img/products/w5500/w5500_sch_v110_use_trans_.pdf" target="_blank">W5500 Ref.Schematic - External Transformer</a>
 
-<a target="_blank" href={require("/img/products/w5500/w5500_sch_v110_use_trans_.png").default}><img src={require("/img/products/w5500/w5500_sch_v110_use_trans_.png").default} alt="W5500 Ref.Schematic (External Transformer)"/></a>
+![W5500 Ref.Schematic (External Transformer)](/img/products/w5500/w5500_sch_v110_use_trans_.png)
 
 -----
 
@@ -18,7 +18,7 @@ date: 2020-04-03
 
 <a href="/img/products/w5500/w5500_sch_v110_use_trans_.pdf" target="_blank">W5500 Ref.Schematic - RJ45 with Transformer</a>
 
-<a target="_blank" href={require("/img/products/w5500/w5500_sch_v110_use_mag_.png").default}><img src={require("/img/products/w5500/w5500_sch_v110_use_mag_.png").default} alt="W5500 Reference Schematic (RJ45 with Transformer)"/></a>
+![W5500 Reference Schematic (RJ45 with Transformer)](/img/products/w5500/w5500_sch_v110_use_mag_.png)
 
 -----
 
@@ -37,7 +37,7 @@ Please refer to the following schematic:
     the case that you have to use one with connected center tap.*
 
 
-<a target="_blank" href={require("/img/products/w5500/w5500_schematic-connected-cts_003.jpg").default}><img src={require("/img/products/w5500/w5500_schematic-connected-cts_003.jpg").default} alt="w5500_schematic-connected-cts_003.jpg"/></a>  
+![w5500_schematic-connected-cts_003.jpg](/img/products/w5500/w5500_schematic-connected-cts_003.jpg)  
 The RJ45 from UDE (RB1-125BAG1A) is used in many of our **W5100** and
 **W7100A** related Modules.
 

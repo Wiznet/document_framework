@@ -6,7 +6,7 @@ date: 2021-07-21
 
 ## Overview
 
-<a target="_blank" href={require("/img/products/wiz108sr/ShopDtl_1088_20100915160045.jpg").default}><img src={require("/img/products/wiz108sr/ShopDtl_1088_20100915160045.jpg").default} alt=""/></a>
+![](/img/products/wiz108sr/ShopDtl_1088_20100915160045.jpg)
 
 WIZ108SR-EVB is a evaluation board for WIZ108SR.
 
@@ -36,4 +36,4 @@ It complies with industrial temperature standard and supports the serial interfa
 
 ## Base Board Interface
 
-<a target="_blank" href={require("/img/products/wiz108sr/140704_7350_new.jpg").default}><img src={require("/img/products/wiz108sr/140704_7350_new.jpg").default} alt=""/></a>
+![](/img/products/wiz108sr/140704_7350_new.jpg)

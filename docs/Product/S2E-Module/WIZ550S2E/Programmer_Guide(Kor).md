@@ -29,13 +29,13 @@ Mode로 진입 할 수 있습니다. Data Mode \<-\> AT Command Mode는 서로 �
 Command Mode 진입시 Data Mode에서 연결된 소켓은 해제가 됩니다. AT Command Mode 진입 후 사용자는
 AT Command Set를 하여 환경설정(네트워크, 시리얼등) 및 소켓 생성을 통해 데이터를 교환 할 수 있습니다. AT
 Command Mode에서 사용 중 "AT+MDATA\\r\\n"을 전송 하면 Data Mode로 전환 할 수 있습니다.
-<a target="_blank" href={require("/img/products/wiz550s2e/wiz550s2e_workigmode.png").default}><img src={require("/img/products/wiz550s2e/wiz550s2e_workigmode.png").default} alt=""/></a>
+![](/img/products/wiz550s2e/wiz550s2e_workigmode.png)
 
 ## Configuration Tool
 
 ### Description
 
-<a target="_blank" href={require("/img/products/wiz550s2e/wiz550s2epg_kr/configtool/global_config.png").default}><img src={require("/img/products/wiz550s2e/wiz550s2epg_kr/configtool/global_config.png").default} alt=""/></a>  
+![](/img/products/wiz550s2e/wiz550s2epg_kr/configtool/global_config.png)  
 
 [WIZnet Configuration tool](download)은
 WIZ550S2E사용자를 위한 프로그램으로 손쉽게 모듈을 설정하여 serial to ethernet 통신을 가능 하도록 합니다.
@@ -62,7 +62,7 @@ WIZnet Configuration tool은 다음과 같이 크게 네개 부분으로 구성�
 
 ### Common Configurations
 
-<a target="_blank" href={require("/img/products/wiz550s2e/wiz550s2epg_kr/configtool/common_config.png").default}><img src={require("/img/products/wiz550s2e/wiz550s2epg_kr/configtool/common_config.png").default} alt=""/></a>  
+![](/img/products/wiz550s2e/wiz550s2epg_kr/configtool/common_config.png)  
 
 #### ①Search
 
@@ -82,7 +82,7 @@ Search 기능은 같은 LAN 상에 존재하는 모든 모듈을 검색하는 �
     3. "Setting" 버튼을 누르면, 패스워드 입력창이 뜹니다.
       - 기본 패스워드는 "WIZnet" 입니다.
 
-<a target="_blank" href={require("/img/products/wiz550s2e/wiz550s2epg_kr/configtool/password.png").default}><img src={require("/img/products/wiz550s2e/wiz550s2epg_kr/configtool/password.png").default} alt=""/></a>
+![](/img/products/wiz550s2e/wiz550s2epg_kr/configtool/password.png)
 
     4. "Setting Password"를 입력하고 OK 버튼을 누르면, configuration 작업이 완료되며,
     5. 변경된 configuration으로 초기화 됩니다. (모듈이 자동으로 re-booting 됨)
@@ -92,7 +92,7 @@ Search 기능은 같은 LAN 상에 존재하는 모든 모듈을 검색하는 �
 
 TFTP를 통하여 펌웨어를 업로드 합니다. "F/W Uploading" 버튼을 누르면 아래의 창이 뜨며, 설정 정보들을 입력한 뒤
 "OK" 버튼을 누르면 업데이트가 진행됩니다.  
-<a target="_blank" href={require("/img/products/wiz550s2e/wiz550s2epg_kr/configtool/tftp_server_info.png").default}><img src={require("/img/products/wiz550s2e/wiz550s2epg_kr/configtool/tftp_server_info.png").default} alt=""/></a>
+![](/img/products/wiz550s2e/wiz550s2epg_kr/configtool/tftp_server_info.png)
 
     Server IP : 
         TFTP 서버 IP
@@ -171,7 +171,7 @@ Configuration tool 프로그램을 종료합니다.
 
 ### Network Configurations
 
-<a target="_blank" href={require("/img/products/wiz550s2e/wiz550s2epg_kr/configtool/network_config.png").default}><img src={require("/img/products/wiz550s2e/wiz550s2epg_kr/configtool/network_config.png").default} alt=""/></a>
+![](/img/products/wiz550s2e/wiz550s2epg_kr/configtool/network_config.png)
 
 #### ①IP
 
@@ -283,7 +283,7 @@ UDP 모드에서는 TCP와 같은 연결 과정이 없으므로, 상대방의 IP
 
 ### Serial Configurations
 
-<a target="_blank" href={require("/img/products/wiz550s2e/wiz550s2epg_kr/configtool/serial_config.png").default}><img src={require("/img/products/wiz550s2e/wiz550s2epg_kr/configtool/serial_config.png").default} alt=""/></a>
+![](/img/products/wiz550s2e/wiz550s2epg_kr/configtool/serial_config.png)
 
 #### ①USART
 
@@ -335,7 +335,7 @@ WIZ550S2E는 Time, Size, Character의 3가지의 조건을 제공한다.
 
 ### Options Configurations
 
-<a target="_blank" href={require("/img/products/wiz550s2e/wiz550s2epg_kr/configtool/option_config.png").default}><img src={require("/img/products/wiz550s2e/wiz550s2epg_kr/configtool/option_config.png").default} alt=""/></a>
+![](/img/products/wiz550s2e/wiz550s2epg_kr/configtool/option_config.png)
 
 #### ①Module Name
 
@@ -853,7 +853,7 @@ CR(0x0D), LF(0x0A)로 끝나야한다.** 어떤 인자들은 필수항목이고 
 
 - ***Example 2: 데이터를 받는 형태***
 
-<a target="_blank" href={require("/img/products/wiz550s2e/recieve.png").default}><img src={require("/img/products/wiz550s2e/recieve.png").default} alt=""/></a> 
+![](/img/products/wiz550s2e/recieve.png) 
 
 위 그림은 "AT+NOPEN=S,5000,,"로 소켓을 생성하고, Client가 모듈에 접속한 상태에서 모듈에게 "Hello
 World"를 전송한 그림이다. 모듈은 받은 데이터를 아래와 같이 표시함을 알 수 있다. [R,0,11]

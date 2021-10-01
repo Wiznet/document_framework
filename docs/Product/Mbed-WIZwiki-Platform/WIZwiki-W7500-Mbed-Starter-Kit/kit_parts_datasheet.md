@@ -32,7 +32,7 @@ date: 2020-04-08
 
 #### LED (RGB)
 
-<a target="_blank" href={require("/img/products/wizwiki_mbed_kit/kit_kr/rgb_led_common_anode.jpg").default}><img src={require("/img/products/wizwiki_mbed_kit/kit_kr/rgb_led_common_anode.jpg").default} alt=""/></a>
+![](/img/products/wizwiki_mbed_kit/kit_kr/rgb_led_common_anode.jpg)
 
   * Common Anode type
   * There are three LEDs (RED, GREEN, BLUE) in a part.
@@ -44,7 +44,7 @@ date: 2020-04-08
 
 #### DHT11 (Humidity & Temperature Sensor)
 
-<a target="_blank" href={require("/img/products/wizwiki_mbed_kit/kit_kr/dht-11.png").default}><img src={require("/img/products/wizwiki_mbed_kit/kit_kr/dht-11.png").default} alt=""/></a>
+![](/img/products/wizwiki_mbed_kit/kit_kr/dht-11.png)
 
 
   * Measure Temperature and Humiditiy
@@ -59,8 +59,8 @@ date: 2020-04-08
 
 #### Temperature Sensor TMP36GT9 (Low Voltage Temperature Sensor)
 
-<a target="_blank" href={require("/img/products/wizwiki_mbed_kit/kit_kr/tmp36gt9.jpg").default}><img src={require("/img/products/wizwiki_mbed_kit/kit_kr/tmp36gt9.jpg").default} alt=""/></a>
-<a target="_blank" href={require("/img/products/wizwiki_mbed_kit/kit_kr/tmp36gt9_pin.png").default}><img src={require("/img/products/wizwiki_mbed_kit/kit_kr/tmp36gt9_pin.png").default} alt=""/></a>
+![](/img/products/wizwiki_mbed_kit/kit_kr/tmp36gt9.jpg)
+![](/img/products/wizwiki_mbed_kit/kit_kr/tmp36gt9_pin.png)
 
 
 * Vs : 3.3V Power Supply
@@ -74,7 +74,7 @@ date: 2020-04-08
 
 #### Photo Resistor PGM5537D (CDS Photo Resistor)
 
-<a target="_blank" href={require("/img/products/wizwiki_mbed_kit/kit_kr/light-detecting-resistor.jpg").default}><img src={require("/img/products/wizwiki_mbed_kit/kit_kr/light-detecting-resistor.jpg").default} alt=""/></a>
+![](/img/products/wizwiki_mbed_kit/kit_kr/light-detecting-resistor.jpg)
 
   * A photoresistor or light-dependent resistor (LDR) or photocell is a light-controlled variable resistor.
   * The resistance of a photoresistor decreases with increasing incident light intensity; in other words, it exhibits photoconductivity.

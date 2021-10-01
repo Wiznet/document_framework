@@ -13,7 +13,7 @@ Package information for WIZnet ICs.
   - Low-profile Quad Flat Package
   - WIZnet Products: W5500, W5100S
 
-<a target="_blank" href={require("/img/design_guide/package_information/lqfp48.png").default}><img src={require("/img/design_guide/package_information/lqfp48.png").default} alt=""/></a>
+![](/img/design_guide/package_information/lqfp48.png)
 
 | SYMBOL | MIN      | NOM  | MAX  |
 | ------ | -------- | ---- | ---- |
@@ -50,7 +50,7 @@ NOTES:
   - Quad Flat package No leads
   - WIZnet Products: W5100S
 
-<a target="_blank" href={require("/img/design_guide/package_information/qfn48.png").default}><img src={require("/img/design_guide/package_information/qfn48.png").default} alt=""/></a> 
+![](/img/design_guide/package_information/qfn48.png) 
 
 | SYMBOL | MIN       | NOM  | MAX  |
 | ------ | --------- | ---- | ---- |

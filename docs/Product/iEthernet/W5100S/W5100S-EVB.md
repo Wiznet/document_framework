@@ -31,7 +31,7 @@ The W5100S-EVB provides benefits in developing easier and powerful
 network applications on small form-factor and non-OS based embedded
 devices using the W5100S chip.
 
-<a target="_blank" href={require("/img/products/w5100s/w5100s_evb/w5100s-evb_partdescription.png").default}><img src={require("/img/products/w5100s/w5100s_evb/w5100s-evb_partdescription.png").default} alt=""/></a>
+![](/img/products/w5100s/w5100s_evb/w5100s-evb_partdescription.png)
 
 -----
 
@@ -49,7 +49,7 @@ devices using the W5100S chip.
   - Support Auto-MDIX when Auto-Negotiation Mode.
   - Hardwired TCP/IP stack supports TCP, UDP, WOL over UDP, ICMP,
     IGMPv1/v2, IPv4, ARP,PPPoE protocols
-  - <a target="_blank" href={require("/img/link.png").default}><img src={require("/img/link.png").default} alt=""/></a> [W5100s Product page](Overview.md)
+  - ![](/img/link.png) [W5100s Product page](Overview.md)
 
 **STMicroelectronics STM32F103VCT6 MCU**
 
@@ -62,13 +62,13 @@ devices using the W5100S chip.
   - USB, CAN, 2 × PWM timers
   - 3 × ADCs, 2 × DACs, 1 × SDIO
   - FSMC (100- and 144-pin packages)
-  - <a target="_blank" href={require("/img/link.png").default}><img src={require("/img/link.png").default} alt=""/></a> [STMicroelectronics STM32F103VCT6 Product page](http://www.st.com/en/microcontrollers/stm32f103vc.html)
+  - ![](/img/link.png) [STMicroelectronics STM32F103VCT6 Product page](http://www.st.com/en/microcontrollers/stm32f103vc.html)
 
 **Connectors**
 
   - 1-Channel 10/100Mbps Ethernet Connector (RJ45 with transformer)
   - Virtual COM Port(UART via Micro USB B type) –
-    <a target="_blank" href={require("/img/link.png").default}><img src={require("/img/link.png").default} alt=""/></a> [CP2104 Drivers Download Page](https://www.silabs.com/products/interface/usb-bridges/classic-usb-bridges/device.cp2104)
+    ![](/img/link.png) [CP2104 Drivers Download Page](https://www.silabs.com/products/interface/usb-bridges/classic-usb-bridges/device.cp2104)
   - Expansion 80 GPIOs (Include analog Peripheral using 12bit ADC)
   - Pin-compatible with Arduino Shields designed for the UNO Rev3
   - Digital pins D0 to D15, Analog inputs A0 to A5, the power header and
@@ -95,15 +95,15 @@ devices using the W5100S chip.
 
   - Arduino Compatible with SWD Header Pinout
 
-<a target="_blank" href={require("/img/products/w5100s/w5100s_evb/arduino_swd_pinout.png").default}><img src={require("/img/products/w5100s/w5100s_evb/arduino_swd_pinout.png").default} alt=""/></a>
+![](/img/products/w5100s/w5100s_evb/arduino_swd_pinout.png)
 
   - External Pinout (left side)
 
-<a target="_blank" href={require("/img/products/w5100s/w5100s_evb/expansion_pinout_left_v3.png").default}><img src={require("/img/products/w5100s/w5100s_evb/expansion_pinout_left_v3.png").default} alt=""/></a>
+![](/img/products/w5100s/w5100s_evb/expansion_pinout_left_v3.png)
 
   - External Pinout (Right side)
 
-<a target="_blank" href={require("/img/products/w5100s/w5100s_evb/expansion_pinout_right_v3.png").default}><img src={require("/img/products/w5100s/w5100s_evb/expansion_pinout_right_v3.png").default} alt=""/></a>
+![](/img/products/w5100s/w5100s_evb/expansion_pinout_right_v3.png)
 
 -----
 
@@ -130,18 +130,18 @@ For More information about DMA, click
 ## Getting Started
 
 
-<a target="_blank" href={require("/img/link.png").default}><img src={require("/img/link.png").default} alt=""/></a> [Getting Started](w5100s_getting_started)
+![](/img/link.png) [Getting Started](w5100s_getting_started)
 
-<a target="_blank" href={require("/img/link.png").default}><img src={require("/img/link.png").default} alt=""/></a> [How to upload firmware](w5100s_getting_started#how-to-upload-firmware)
+![](/img/link.png) [How to upload firmware](w5100s_getting_started#how-to-upload-firmware)
 
 -----
 
 ## Make New W5100S-EVB Projects
 
 
-<a target="_blank" href={require("/img/link.png").default}><img src={require("/img/link.png").default} alt=""/></a> [Make New W5100S-EVB Projects using Eclipse](w5100s_projects_eclipse)
+![](/img/link.png) [Make New W5100S-EVB Projects using Eclipse](w5100s_projects_eclipse)
 
-<a target="_blank" href={require("/img/link.png").default}><img src={require("/img/link.png").default} alt=""/></a> [Make New W5100S-EVB Projects using TrueSTUDIO](w5100s_projects_truestudio)
+![](/img/link.png) [Make New W5100S-EVB Projects using TrueSTUDIO](w5100s_projects_truestudio)
 
 -----
 
@@ -166,6 +166,6 @@ For More information about DMA, click
 
   - W5100S-EVB Rev1.0 Dimension(unit:mm)
 
-<a target="_blank" href={require("/img/products/w5100s/w5100s_evb/w5100s-evb_dimension.png").default}><img src={require("/img/products/w5100s/w5100s_evb/w5100s-evb_dimension.png").default} alt=""/></a>
+![](/img/products/w5100s/w5100s_evb/w5100s-evb_dimension.png)
 
 -----

@@ -25,11 +25,11 @@ It shows on the screen through the port. Turns the LED on or off compared to the
 
 The overall circuit diagram is as follows.
 
-<a target="_blank" href={require("/img/products/wizwiki_mbed_kit/kit_en/cds_sensor_schem.png").default}><img src={require("/img/products/wizwiki_mbed_kit/kit_en/cds_sensor_schem.png").default} alt=""/></a>
+![](/img/products/wizwiki_mbed_kit/kit_en/cds_sensor_schem.png)
 
 ### Connection diagram
 
-<a target="_blank" href={require("/img/products/wizwiki_mbed_kit/kit_en/exam_cds_sensor.png").default}><img src={require("/img/products/wizwiki_mbed_kit/kit_en/exam_cds_sensor.png").default} alt=""/></a>
+![](/img/products/wizwiki_mbed_kit/kit_en/exam_cds_sensor.png)
 
 ## Software
 

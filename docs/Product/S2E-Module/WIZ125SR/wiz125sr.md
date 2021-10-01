@@ -6,7 +6,7 @@ date: 2021-07-22
 
 ## Overview
 
-<a target="_blank" href={require("/img/products/wiz125sr/125.jpg").default}><img src={require("/img/products/wiz125sr/125.jpg").default} alt=""/></a>
+![](/img/products/wiz125sr/125.jpg)
 
 WIZ125SR is an embedded module based on WIZnet W5100 &  ARM Cortex-M3. WIZ125SR is the protocol converter that transmits the data sent by serial equipment as TCP/IP data type, and converts back the TCP/IP data received through the network into serial data to transmit back to the equipment. It supports two serial ports so that it can communicate with two serial equipments at the same time.
 
@@ -35,7 +35,7 @@ WIZ125SR is an embedded module based on WIZnet W5100 &  ARM Cortex-M3. WIZ125SR 
 
 ## Hardware Interface
 
-<a target="_blank" href={require("/img/products/wiz125sr/hw_if.jpg").default}><img src={require("/img/products/wiz125sr/hw_if.jpg").default} alt=""/></a>
+![](/img/products/wiz125sr/hw_if.jpg)
 
 ## Download
 

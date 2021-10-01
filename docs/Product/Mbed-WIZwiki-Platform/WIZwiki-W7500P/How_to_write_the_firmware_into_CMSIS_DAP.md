@@ -36,4 +36,4 @@ This page shows how to write firmware into CMSIS-DAP.
     
    4.  Drag and Drop or copy the updated firmware to the CRP_DISABLD disk for CMSIS-DAP.
 
- <a target="_blank" href={require("/img/products/w7500/overview/firm_cmsis_reset.jpg").default}><img src={require("/img/products/w7500/overview/firm_cmsis_reset.jpg").default} alt=""/></a>
+ ![](/img/products/w7500/overview/firm_cmsis_reset.jpg)

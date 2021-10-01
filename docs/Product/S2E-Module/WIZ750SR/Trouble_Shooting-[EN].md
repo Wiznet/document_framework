@@ -43,17 +43,17 @@ date: 2020-04-08
 
 |                                                         |
 | ------------------------------------------------------- |
-| <a target="_blank" href={require("/img/products/wiz750sr/troubleshooting/windows_cmd.png").default}><img src={require("/img/products/wiz750sr/troubleshooting/windows_cmd.png").default} alt=""/></a> |
+| ![](/img/products/wiz750sr/troubleshooting/windows_cmd.png) |
 | Entering 'cmd' command on Windows Run                   |
 
 |                                                            |
 | ---------------------------------------------------------- |
-| <a target="_blank" href={require("/img/products/wiz750sr/troubleshooting/ping_success_0.png").default}><img src={require("/img/products/wiz750sr/troubleshooting/ping_success_0.png").default} alt=""/></a> |
+| ![](/img/products/wiz750sr/troubleshooting/ping_success_0.png) |
 | Ping request / reply success                               |
 
 |                                                           |
 | --------------------------------------------------------- |
-| <a target="_blank" href={require("/img/products/wiz750sr/troubleshooting/ping_failed_0.png").default}><img src={require("/img/products/wiz750sr/troubleshooting/ping_failed_0.png").default} alt=""/></a> |
+| ![](/img/products/wiz750sr/troubleshooting/ping_failed_0.png) |
 | Ping request / reply failed                               |
 
   - Use **UDP broadcast, port 50001** in order to use the UDP
@@ -83,7 +83,7 @@ date: 2020-04-08
 
 |                                                       |
 | ----------------------------------------------------- |
-| <a target="_blank" href={require("/img/products/wiz750sr/gettingstarted/configtool.png").default}><img src={require("/img/products/wiz750sr/gettingstarted/configtool.png").default} alt=""/></a> |
+| ![](/img/products/wiz750sr/gettingstarted/configtool.png) |
 | WIZ107/108SR & **WIZ750SR** Configuration Tool        |
 
 </details>
@@ -112,17 +112,17 @@ date: 2020-04-08
 
 |                                                         |
 | ------------------------------------------------------- |
-| <a target="_blank" href={require("/img/products/wiz750sr/troubleshooting/windows_cmd.png").default}><img src={require("/img/products/wiz750sr/troubleshooting/windows_cmd.png").default} alt=""/></a> |
+| ![](/img/products/wiz750sr/troubleshooting/windows_cmd.png) |
 | Entering 'cmd' command on Windows Run                   |
 
 |                                                            |
 | ---------------------------------------------------------- |
-| <a target="_blank" href={require("/img/products/wiz750sr/troubleshooting/ping_success_0.png").default}><img src={require("/img/products/wiz750sr/troubleshooting/ping_success_0.png").default} alt=""/></a> |
+| ![](/img/products/wiz750sr/troubleshooting/ping_success_0.png) |
 | Ping request / reply success                               |
 
 |                                                           |
 | --------------------------------------------------------- |
-| <a target="_blank" href={require("/img/products/wiz750sr/troubleshooting/ping_failed_0.png").default}><img src={require("/img/products/wiz750sr/troubleshooting/ping_failed_0.png").default} alt=""/></a> |
+| ![](/img/products/wiz750sr/troubleshooting/ping_failed_0.png) |
 | Ping request / reply failed                               |
 
   - The IP WIZ750SR and IP of the PC running the configuration tool must

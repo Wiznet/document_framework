@@ -18,7 +18,7 @@ date: 2021-05-10
 
 |                                                           |
 | --------------------------------------------------------- |
-| <a target="_blank" href={require("/img/products/wiz510ssl/getting_started/wiz510ssl-evb_package.png").default}><img src={require("/img/products/wiz510ssl/getting_started/wiz510ssl-evb_package.png").default} alt=""/></a>       |
+| ![](/img/products/wiz510ssl/getting_started/wiz510ssl-evb_package.png)       |
 | Figure: ***WIZ510SSL Rev. 1.0 evaluation board package*** |
 
 The WIZ510SSL evaluation board package contains the following parts.
@@ -35,12 +35,12 @@ The entire list of parts of the board is available at the [WIZ510SSL Overview: P
 
 |                                                          |
 | -------------------------------------------------------- |
-| <a target="_blank" href={require("/img/products/wiz510ssl/getting_started/wiz510ssl_top_parts_rev1.0.png").default}><img src={require("/img/products/wiz510ssl/getting_started/wiz510ssl_top_parts_rev1.0.png").default} alt=""/></a> |
+| ![](/img/products/wiz510ssl/getting_started/wiz510ssl_top_parts_rev1.0.png) |
 | Figure: ***WIZ510SSL Rev. 1.0 top***                 |
 
 |                                                             |
 | ------------------------------------------------------------|
-| <a target="_blank" href={require("/img/products/wiz510ssl/getting_started/wiz510ssl_bottom_parts_rev1.0.png").default}><img src={require("/img/products/wiz510ssl/getting_started/wiz510ssl_bottom_parts_rev1.0.png").default} alt=""/></a> |
+| ![](/img/products/wiz510ssl/getting_started/wiz510ssl_bottom_parts_rev1.0.png) |
 | Figure: ***WIZ510SSL Rev. 1.0 bottom***                 |
 
 
@@ -167,12 +167,12 @@ Connect the WIZ510SSL module to evaluation board and also the cable as shown in 
 
 |                                                               |
 | ------------------------------------------------------------- |
-| <a target="_blank" href={require("/img/products/wiz510ssl/getting_started/wiz510ssl-evb_1.png").default}><img src={require("/img/products/wiz510ssl/getting_started/wiz510ssl-evb_1.png").default} alt=""/></a>                 |
+| ![](/img/products/wiz510ssl/getting_started/wiz510ssl-evb_1.png)                 |
 | Figure: ***Combining WIZ510SSL module and evaluation board*** |
 
 |                                                    |
 | -------------------------------------------------- |
-| <a target="_blank" href={require("/img/products/wiz510ssl/getting_started/wiz510ssl-evb_2.png").default}><img src={require("/img/products/wiz510ssl/getting_started/wiz510ssl-evb_2.png").default} alt=""/></a>      |
+| ![](/img/products/wiz510ssl/getting_started/wiz510ssl-evb_2.png)      |
 | Figure: ***WIZ510SSL evaluation board side view*** |
 
 
@@ -197,7 +197,7 @@ Open the configuration tool and click the **Device Search** button. If the board
 
 |                                                               |
 | ------------------------------------------------------------- |
-| <a target="_blank" href={require("/img/products/wiz510ssl/getting_started/wiznet_s2e_configuration_tool.png").default}><img src={require("/img/products/wiz510ssl/getting_started/wiznet_s2e_configuration_tool.png").default} alt=""/></a>   |
+| ![](/img/products/wiz510ssl/getting_started/wiznet_s2e_configuration_tool.png)   |
 | Figure: ***WIZnet S2E Configuration Tool***                   |
 
 
@@ -223,7 +223,7 @@ The COM port for serial terminal program connection can be checked as below.
 
 |                                                     |
 | ----------------------------------------------------|
-| <a target="_blank" href={require("/img/products/wiz510ssl/getting_started/windows_devicemanager.png").default}><img src={require("/img/products/wiz510ssl/getting_started/windows_devicemanager.png").default} alt=""/></a> |
+| ![](/img/products/wiz510ssl/getting_started/windows_devicemanager.png) |
 | Figure: ***Device Manager***                        |
 
 

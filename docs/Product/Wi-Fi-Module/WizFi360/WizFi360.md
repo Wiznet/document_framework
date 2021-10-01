@@ -13,17 +13,17 @@ be up to 2Mbps, which can meet the requirement of various applications.
 
 |                                                                   |
 | ----------------------------------------------------------------- |
-| <a target="_blank" href={require("/img/products/wizfi360/wizfi360-pa.png").default}><img src={require("/img/products/wizfi360/wizfi360-pa.png").default} alt="WizFi360-PA(PCB Antena)"/></a> |
+| ![WizFi360-PA(PCB Antena)](/img/products/wizfi360/wizfi360-pa.png) |
 | Figure: ***WizFi360-PA(PCB Antena)***                             |
 
 |                                                                                |
 | ------------------------------------------------------------------------------ |
-| <a target="_blank" href={require("/img/products/wizfi360/wizfi360-con.png").default}><img src={require("/img/products/wizfi360/wizfi360-con.png").default} alt="WizFi360-CON(U.fl Connector Antena)"/></a> |
+| ![WizFi360-CON(U.fl Connector Antena)](/img/products/wizfi360/wizfi360-con.png) |
 | Figure: ***WizFi360-CON(U.fl Connector Antena)***                              |
 
 |                                                         |
 | ------------------------------------------------------- |
-| <a target="_blank" href={require("/img/products/wizfi360/wizfi360-evb.jpg").default}><img src={require("/img/products/wizfi360/wizfi360-evb.jpg").default} alt="WizFi360-EVB"/></a> |
+| ![WizFi360-EVB](/img/products/wizfi360/wizfi360-evb.jpg) |
 | Figure: ***WizFi360-EVB***                              |
 
 -----
@@ -88,6 +88,6 @@ Github](https://github.com/WIZnet-WizFi360/Release).
 
 ## Q & A
 
-<a target="_blank" href={require("/img/link.png").default}><img src={require("/img/link.png").default} alt=""/></a> 🌎[WizFi360 Forum](https://forum.wiznet.io/c/wifi-module/wizfi360) : WIZnet Forum for Technical support and Project sharing
+![](/img/link.png) 🌎[WizFi360 Forum](https://forum.wiznet.io/c/wifi-module/wizfi360) : WIZnet Forum for Technical support and Project sharing
 
 -----

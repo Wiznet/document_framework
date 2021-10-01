@@ -4,7 +4,7 @@ title: Overview
 date: 2020-04-07
 ---
 
-<a target="_blank" href={require("/img/products/w7500/overview/wizwiki-w7500_main.png").default}><img src={require("/img/products/w7500/overview/wizwiki-w7500_main.png").default} alt="WIZwiki-W7500"/></a>
+![WIZwiki-W7500](/img/products/w7500/overview/wizwiki-w7500_main.png)
 
 -----
 
@@ -74,16 +74,16 @@ firmware writing.
    * Micro SD card slot
 
 **WIZwiki-W7500 Blockdiagram**  
-<a target="_blank" href={require("/img/products/w7500/overview/wizwiki-w7500_blockdiagram_v1.1.png").default}><img src={require("/img/products/w7500/overview/wizwiki-w7500_blockdiagram_v1.1.png").default} alt="WIZwiki-W7500 Blockdiagram"/></a>  
+![WIZwiki-W7500 Blockdiagram](/img/products/w7500/overview/wizwiki-w7500_blockdiagram_v1.1.png)  
 
 **WIZwiki-W7500 Callout**  
-<a target="_blank" href={require("/img/products/w7500/overview/wizwiki-w7500_callout.png").default}><img src={require("/img/products/w7500/overview/wizwiki-w7500_callout.png").default} alt="WIZwiki-W7500 Callout"/></a>  
+![WIZwiki-W7500 Callout](/img/products/w7500/overview/wizwiki-w7500_callout.png)  
 
 **WIZwiki-W7500 Detail Pinout**  
-<a target="_blank" href={require("/img/products/w7500/overview/wizwiki_w7500_pinout_wiki_150701_detail.png").default}><img src={require("/img/products/w7500/overview/wizwiki_w7500_pinout_wiki_150701_detail.png").default} alt="wizwiki_w7500_pinout_wiki_150701_detail.png"/></a>  
+![wizwiki_w7500_pinout_wiki_150701_detail.png](/img/products/w7500/overview/wizwiki_w7500_pinout_wiki_150701_detail.png)  
 
 **WIZwiki-W7500 Simple Pinout**  
-<a target="_blank" href={require("/img/products/w7500/overview/wizwiki_w7500_pinout_wiki_150701_simple.png").default}><img src={require("/img/products/w7500/overview/wizwiki_w7500_pinout_wiki_150701_simple.png").default} alt="wizwiki_w7500_pinout_wiki_150701_simple.png"/></a>  
+![wizwiki_w7500_pinout_wiki_150701_simple.png](/img/products/w7500/overview/wizwiki_w7500_pinout_wiki_150701_simple.png)  
 
 -----
 
@@ -151,7 +151,7 @@ firmware writing.
 
    * WIZwiki-W7500 V1.0 Dimension
 
-<a target="_blank" href={require("/img/products/w7500/overview/wizwiki-w7500_dimension.png").default}><img src={require("/img/products/w7500/overview/wizwiki-w7500_dimension.png").default} alt="WIZwiki-W7500 Dimension"/></a>
+![WIZwiki-W7500 Dimension](/img/products/w7500/overview/wizwiki-w7500_dimension.png)
 
 -----
 

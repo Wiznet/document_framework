@@ -33,19 +33,19 @@ The extracted files consist of the CMSIS, driver and peripheral example.
 
 The W7500 standard peripheral library provides a rich set of examples covering the main features of each peripheral. 
 
-<a target="_blank" href={require("/img/products/w7500/documents/appnote/directory.jpg").default}><img src={require("/img/products/w7500/documents/appnote/directory.jpg").default} alt="Figure 1 W7500 library and example directory"/></a>
+![Figure 1 W7500 library and example directory](/img/products/w7500/documents/appnote/directory.jpg)
 
 ## Example of WZTOE directory
 
 In WZTOE folder, directory structure is as follows.
 
-<a target="_blank" href={require("/img/products/w7500/documents/appnote/directory3.jpg").default}><img src={require("/img/products/w7500/documents/appnote/directory3.jpg").default} alt="directory3"/></a>
+![directory3](/img/products/w7500/documents/appnote/directory3.jpg)
 
 DHCPClient, DNSClient and LoopbackTest are example project and ioLibrary contains library of socket APIs, DHCP APIs, DNS APIs and etc.
 
 In LoopbackTest folder, directory structure is as follows.
 
-<a target="_blank" href={require("/img/products/w7500/documents/appnote/directory2.jpg").default}><img src={require("/img/products/w7500/documents/appnote/directory2.jpg").default} alt="directory2"/></a>
+![directory2](/img/products/w7500/documents/appnote/directory2.jpg)
 
 The **main.c** file is main body of the project.
 
@@ -65,7 +65,7 @@ The **MDK** folder is for Keil IDE compiler and the **GCC** folder is for GCC co
 
 In MDK directory is here a file: Keil project file. Double click the file, then Keil uVision will be opened.
 
-<a target="_blank" href={require("/img/products/w7500/documents/appnote/project_explorer.jpg").default}><img src={require("/img/products/w7500/documents/appnote/project_explorer.jpg").default} alt="project_explorer"/></a>
+![project_explorer](/img/products/w7500/documents/appnote/project_explorer.jpg)
 
 You can see upper image at left side on your uVision. In **W7500x_Periph** group are peripheral drivers which are used for this project.
 
@@ -73,7 +73,7 @@ The **User** group contains main function.
 
 ## Compile
 
-<a target="_blank" href={require("/img/products/w7500/documents/appnote/compile.jpg").default}><img src={require("/img/products/w7500/documents/appnote/compile.jpg").default} alt="compile"/></a>
+![compile](/img/products/w7500/documents/appnote/compile.jpg)
 
 Click the build icon on menu bar or 'F7'. Then compile will be done. After compile, **W7500x_WZTOE_Loopback.bin** file is generated in Obj folder.
 
@@ -81,15 +81,15 @@ Click the build icon on menu bar or 'F7'. Then compile will be done. After compi
 
 WIZwiki-W7500 board supports CMSIS-DAP, so you can just drag & drop the code file to download into 'mbed' directory on your system.
 
-<a target="_blank" href={require("/img/products/w7500/documents/appnote/draganddrop.jpg").default}><img src={require("/img/products/w7500/documents/appnote/draganddrop.jpg").default} alt="draganddrop"/></a>
+![draganddrop](/img/products/w7500/documents/appnote/draganddrop.jpg)
 
 ## Connect to WIZwiki-W7500 and do the loopback test
 
 Now, WIZwiki-W7500 is running TCP server: IP - 192.168.77.9, PORT - 5000.
 Type IP address and Port number(This application note use Hercules as TCP client program). And then click 'Connect' button.
 
-<a target="_blank" href={require("/img/products/w7500/documents/appnote/tcp_client1.jpg").default}><img src={require("/img/products/w7500/documents/appnote/tcp_client1.jpg").default} alt="tcp_client1"/></a>
+![tcp_client1](/img/products/w7500/documents/appnote/tcp_client1.jpg)
 
 After connection, send some string and you can see the same as you sent.
 
-<a target="_blank" href={require("/img/products/w7500/documents/appnote/tcp_client2.jpg").default}><img src={require("/img/products/w7500/documents/appnote/tcp_client2.jpg").default} alt="tcp_client2"/></a>
+![tcp_client2](/img/products/w7500/documents/appnote/tcp_client2.jpg)

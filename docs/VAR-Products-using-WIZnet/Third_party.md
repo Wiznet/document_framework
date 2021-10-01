@@ -12,34 +12,34 @@ date: 2020-04-02
 chip](../Product/iEthernet/W5500/overview):  
 ### W5500CoB (ESoPe)
 
-<a target="_blank" href={require("/img/var_products/third_party/w5500cob_top_002.jpg").default}><img src={require("/img/var_products/third_party/w5500cob_top_002.jpg").default} alt="oshw\_W5500CoB\_001"/></a>
-<a target="_blank" href={require("/img/var_products/third_party/w5500cob_bottom_001.jpg").default}><img src={require("/img/var_products/third_party/w5500cob_bottom_001.jpg").default} alt=""/></a>
+![oshw\_W5500CoB\_001](/img/var_products/third_party/w5500cob_top_002.jpg)
+![](/img/var_products/third_party/w5500cob_bottom_001.jpg)
 A small **"Connector-on-Board"** Plug-In Module with 🌎[W5500 chip](../Product/iEthernet/W5500/overview) + 100mil 8-Pin-Headers 'Breadboard friendly' Footprint. The W5500's SPI I/F and PHY I/F is free available.
 Details:[ESoPe W5500CoB](w5500CoB_ESoPe)
 
 ### W5500BoB (ESoPe)
 
-<a target="_blank" href={require("/img/var_products/third_party/w5500bob_001.jpg").default}><img src={require("/img/var_products/third_party/w5500bob_001.jpg").default} alt="oshw\_W5500BoB\_001"/></a>
-<a target="_blank" href={require("/img/var_products/third_party/w5500bob_002.jpg").default}><img src={require("/img/var_products/third_party/w5500bob_002.jpg").default} alt=""/></a>
+![oshw\_W5500BoB\_001](/img/var_products/third_party/w5500bob_001.jpg)
+![](/img/var_products/third_party/w5500bob_002.jpg)
 A small 'stamp' sized “Break-out-Board” Module with 🌎[W5500 chip](../Product/iEthernet/W5500/overview) + with 900mil distanced Pin-Headers 'Breadboard friendly' Footprint. The W5500's SPI I/F and PHY I/F is free available. [ESoPe W5500BoB](w5500BoB_ESoPe).
 
 ### Netzwerk Adapter (eHaJo)
 
-<a target="_blank" href={require("/img/var_products/third_party/ehajo_w5500-adapter_001.jpg").default}><img src={require("/img/var_products/third_party/ehajo_w5500-adapter_001.jpg").default} alt="oshw\_eHaJo\_001"/></a>
-<a target="_blank" href={require("/img/var_products/third_party/ehajo_w5500-adapter_002.jpg").default}><img src={require("/img/var_products/third_party/ehajo_w5500-adapter_002.jpg").default} alt="oshw\_eHaJo\_002"/></a>
+![oshw\_eHaJo\_001](/img/var_products/third_party/ehajo_w5500-adapter_001.jpg)
+![oshw\_eHaJo\_002](/img/var_products/third_party/ehajo_w5500-adapter_002.jpg)
 
 A small Adapter with 🌎[W5500 chip](../Product/iEthernet/W5500/overview) + MCU (ATXmega8E5) for future purpose. The W5500's SPI I/F is free available and the MCU is free programmable and some IOs are available. 🌎[eHaJo Netzwerk-Adapter](https://www.ehajo.de/dokuwiki/bausaetze:netzwerk-adapter:anleitung)
 
 ### Ethernet Booster Pack
 
-<a target="_blank" href={require("/img/var_products/third_party/edit_w5500_03_ethernet_boosterpack_1.jpg").default}><img src={require("/img/var_products/third_party/edit_w5500_03_ethernet_boosterpack_1.jpg").default} alt="oshw\_RobG\_002"/></a>
-<a target="_blank" href={require("/img/var_products/third_party/edit_w5500_03_ethernet_boosterpack_2.jpg").default}><img src={require("/img/var_products/third_party/edit_w5500_03_ethernet_boosterpack_2.jpg").default} alt="oshw\_RobG\_001"/></a>
+![oshw\_RobG\_002](/img/var_products/third_party/edit_w5500_03_ethernet_boosterpack_1.jpg)
+![oshw\_RobG\_001](/img/var_products/third_party/edit_w5500_03_ethernet_boosterpack_2.jpg)
 
 🌎[The Ethernet Boosterpack in 43oh Store](http://store.43oh.com/index.php?route=product/product&product_id=83) was developled by Rob from the 🌎[43oh Forums](http://forum.43oh.com/topic/4490-ethernet-booster-pack-v3/). To know more about the Ethernet BoosterPack, visit Rob's thread here. This BoosterPack is perfect for all TI MSP430 Launch-Pad MCU boards and is fitted with the 🌎[W5500 chip](../Product/iEthernet/W5500/overview) which is an embedded Ethernet controller composed of a fully hardwired market-proven TCP/IP stack and an integrated Ethernet MAC & PHY.
 
 ### W5500 Breakout (HAIRY.GEEK.NZ)
 
-<a target="_blank" href={require("/img/var_products/third_party/hairy-gook-nz_top.png").default}><img src={require("/img/var_products/third_party/hairy-gook-nz_top.png").default} alt="oshw\_hairy-geek-nz\_001"/></a>
+![oshw\_hairy-geek-nz\_001](/img/var_products/third_party/hairy-gook-nz_top.png)
 
 The breakout board includes all the passives and a crystal needed to drive the chip. The 🌎[WIZnet](http://www.wiznet.co.kr/sub_modules/en/) 🌎[W5500](../Product/iEthernet/W5500/overview) does not include a pre-programmed MAC, you will need to obtain one for production use. As this is a 3.3V part and no level shifting is included, if you want to use this board with a 5V Arduino (ie, most of them) then you’ll need to do some level shifting on the SPI interface yourself.
 These may eventually be put into production, but for now it’s purely for my own code development.
@@ -49,9 +49,9 @@ These may eventually be put into production, but for now it’s purely for my ow
 
 ### Ethernet Expansion Module from INDUSTRUINO
 
-<a target="_blank" href={require("/img/var_products/third_party/edit_industruino-1.jpg").default}><img src={require("/img/var_products/third_party/edit_industruino-1.jpg").default} alt="edit\_industruino-1.jpg"/></a>
-[<a target="_blank" href={require("/img/var_products/third_party/edit_industruino-2.jpg").default}><img src={require("/img/var_products/third_party/edit_industruino-2.jpg").default} alt="edit\_industruino-2.jpg"/></a>
-<a target="_blank" href={require("/img/var_products/third_party/edit_industruino-3.jpg").default}><img src={require("/img/var_products/third_party/edit_industruino-3.jpg").default} alt="edit\_industruino-2.jpg"/></a>
+![edit\_industruino-1.jpg](/img/var_products/third_party/edit_industruino-1.jpg)
+[![edit\_industruino-2.jpg](/img/var_products/third_party/edit_industruino-2.jpg)
+![edit\_industruino-2.jpg](/img/var_products/third_party/edit_industruino-3.jpg)
 > 🌎[This DIN-rail mountable
 > module](http://www.industruino.com/products/industruino/industruino-ethernet-module.html)
 > adds network connectivity to your Industruino. It easily connects to
@@ -73,8 +73,8 @@ These may eventually be put into production, but for now it’s purely for my ow
 -----
 ### Microduino-W5500
 
-<a target="_blank" href={require("/img/var_products/third_party/edit_microduino-w5500-rect.jpg").default}><img src={require("/img/var_products/third_party/edit_microduino-w5500-rect.jpg").default} alt="edit\_microduino-w5500-rect.jpg"/></a>
-<a target="_blank" href={require("/img/var_products/third_party/edit_microduino-w5500-rect.jpg").default}><img src={require("/img/var_products/third_party/edit_microduino-w5500-rect.jpg").default} alt="edit\_microduino-w5500-rect.jpg"/></a>
+![edit\_microduino-w5500-rect.jpg](/img/var_products/third_party/edit_microduino-w5500-rect.jpg)
+![edit\_microduino-w5500-rect.jpg](/img/var_products/third_party/edit_microduino-w5500-rect.jpg)
 
 > 🌎[Microduino-W5500](http://www.microduino.cc/w5500) is the Ethernet
 > control module, developed by adopting 🌎[W5500 network
@@ -86,7 +86,7 @@ These may eventually be put into production, but for now it’s purely for my ow
 
 ### \[USR-TCP232-301-PCB\] Serial RS232 RS485 to Ethernet TCP/IP Converter
 
-<a target="_blank" href={require("/img/var_products/third_party/edit_23.usr-tcp232-301-pcb.jpg").default}><img src={require("/img/var_products/third_party/edit_23.usr-tcp232-301-pcb.jpg").default} alt="edit\_23.usr-tcp232-301-pcb1.jpg"/></a>
+![edit\_23.usr-tcp232-301-pcb1.jpg](/img/var_products/third_party/edit_23.usr-tcp232-301-pcb.jpg)
 
 
 > 
@@ -110,7 +110,7 @@ chip.](../Product/iEthernet/W5500/overview)
 chip:  
 
 ### Ethernet Board from PARALLAX (WIZnet Ethernet Board for QuickStart W5200)
-<a target="_blank" href={require("/img/var_products/third_party/edit_09.edit_parallax40002-1.png").default}><img src={require("/img/var_products/third_party/edit_09.edit_parallax40002-1.png").default} alt="oshw\_parallax\_001"/></a>
+![oshw\_parallax\_001](/img/var_products/third_party/edit_09.edit_parallax40002-1.png)
 
 🌎[The WIZnet W5200 for QuickStart](http://www.parallax.com/product/40002) allows your QuickStart board to serve data to an Ethernet network or even the Internet. 🌎[The WIZnet W5200 chip](http://wiznet.co.kr/sub_modules/en/product/Product_Detail.asp?cate1=5&cate2=7&cate3=56&pid=1144) provides an Ethernet to SPI bridge which is interfaced with Parallax’s 8-core microcontroller, 🌎[the Propeller P8X32A](http://www.parallax.info/product/40000). The data served to a network can be anything you want – web pages, serial data, email, and more.
 Many useful demo programs are available for download from the product page to get you started, including a webserver capable of serving dynamic data from the SD card to your favorite browser. Advanced users can develop firmware that allows 🌎[the WIZnet W5200 board](http://www.parallax.info/product/40002) + 🌎[QuickStart](http://www.parallax.info/product/40000) to respond to or generate any type of network traffic.
@@ -119,8 +119,8 @@ Many useful demo programs are available for download from the product page to ge
 
 ### W5200 Ethernet Module(Gadgeteer Compatible) from DFRobot
 
-<a target="_blank" href={require("/img/var_products/third_party/edit_w5200_dfrobot_module-2.jpg").default}><img src={require("/img/var_products/third_party/edit_w5200_dfrobot_module-2.jpg").default} alt="edit\_w5200\_dfrobot\_module-2.jpg"/></a>
-<a target="_blank" href={require("/img/var_products/third_party/edit_w5200_dfrobot_module-1.jpg").default}><img src={require("/img/var_products/third_party/edit_w5200_dfrobot_module-1.jpg").default} alt="edit\_w5200\_dfrobot\_module-1.jpg"/></a>
+![edit\_w5200\_dfrobot\_module-2.jpg](/img/var_products/third_party/edit_w5200_dfrobot_module-2.jpg)
+![edit\_w5200\_dfrobot\_module-1.jpg](/img/var_products/third_party/edit_w5200_dfrobot_module-1.jpg)
 
 > This
 > 🌎[W5200](http://wiznet.co.kr/sub_modules/en/product/Product_Detail.asp?cate1=5&cate2=7&cate3=56&pid=1144)
@@ -146,7 +146,7 @@ Many useful demo programs are available for download from the product page to ge
 
 ### DINo V2 from KMP Electronics
 
-<a target="_blank" href={require("/img/var_products/third_party/edit_20.dinoii-inputsb_en.png").default}><img src={require("/img/var_products/third_party/edit_20.dinoii-inputsb_en.png").default} alt="edit\_20.dinoii-inputsb\_en.png"/></a>
+![edit\_20.dinoii-inputsb\_en.png](/img/var_products/third_party/edit_20.dinoii-inputsb_en.png)
 
 > After some time spent on tuning Souliss drivers for WIZnet
 > 🌎[W5200](http://wiznet.co.kr/sub_modules/en/product/Product_Detail.asp?cate1=5&cate2=7&cate3=56&pid=1144)
@@ -165,8 +165,8 @@ Many useful demo programs are available for download from the product page to ge
 -----
 ### Ethernet Extension from TinkerForge
 
-<a target="_blank" href={require("/img/var_products/third_party/edit_tinker_forge-1.jpg").default}><img src={require("/img/var_products/third_party/edit_tinker_forge-1.jpg").default} alt="edit\_tinker\_forge-1.jpg"/></a>
-<a target="_blank" href={require("/img/var_products/third_party/edit_tinker_forge-2.jpg").default}><img src={require("/img/var_products/third_party/edit_tinker_forge-2.jpg").default} alt="edit\_tinker\_forge-2.jpg"/></a>
+![edit\_tinker\_forge-1.jpg](/img/var_products/third_party/edit_tinker_forge-1.jpg)
+![edit\_tinker\_forge-2.jpg](/img/var_products/third_party/edit_tinker_forge-2.jpg)
 
 > With this 🌎[Ethernet
 > Extension](http://www.tinkerforge.com/en/doc/Hardware/Master_Extensions/Ethernet_Extension.html)
@@ -192,8 +192,8 @@ chip:
 
 ### Ethernet Board from PARALLAX (Spinneret Web Server)
 
-<a target="_blank" href={require("/img/var_products/third_party/edit_09.parallax32203-1.png").default}><img src={require("/img/var_products/third_party/edit_09.parallax32203-1.png").default} alt="edit\_09.parallax32203-1.png"/></a>
-<a target="_blank" href={require("/img/var_products/third_party/edit_09.parallax32203-2.png").default}><img src={require("/img/var_products/third_party/edit_09.parallax32203-2.png").default} alt="edit\_09.parallax32203-2.png"/></a>
+![edit\_09.parallax32203-1.png](/img/var_products/third_party/edit_09.parallax32203-1.png)
+![edit\_09.parallax32203-2.png](/img/var_products/third_party/edit_09.parallax32203-2.png)
 
 > The 🌎[Spinneret Web Server](http://www.parallax.com/product/32203) is
 > an Ethernet-based development board for the Propeller microcontroller.
@@ -218,7 +218,7 @@ chip:
 -----
 ### Freeduino FT811mj
 
-<a target="_blank" href={require("/img/var_products/third_party/edit_17.freeduino_ft811mj.jpg").default}><img src={require("/img/var_products/third_party/edit_17.freeduino_ft811mj.jpg").default} alt="edit\_17.freeduino\_ft811mj.jpg"/></a>
+![edit\_17.freeduino\_ft811mj.jpg](/img/var_products/third_party/edit_17.freeduino_ft811mj.jpg)
 
 > 🌎[FT811mj network module](http://freeduino.ru/arduino/FT811mj.html) is
 > based on a network controller
@@ -232,7 +232,7 @@ chip:
 
 ### AndyMark Sasquatch Robot Controller (am-2527)
 
-<a target="_blank" href={require("/img/var_products/third_party/edit_19.andymark_sasquatch_robot_controller_am-2527_.jpg").default}><img src={require("/img/var_products/third_party/edit_19.andymark_sasquatch_robot_controller_am-2527_.jpg").default} alt="edit\_19.andymark\_sasquatch\_robot\_controller\_am-2527\_.jpg"/></a>
+![edit\_19.andymark\_sasquatch\_robot\_controller\_am-2527\_.jpg](/img/var_products/third_party/edit_19.andymark_sasquatch_robot_controller_am-2527_.jpg)
 
 > The 🌎[Sasquatch Robot
 > Controller](http://www.andymark.com/product-p/am-2527.htm) is an
@@ -258,8 +258,8 @@ chip:
 -----
 ### Iboard (IM120410001)
 
-<a target="_blank" href={require("/img/var_products/third_party/edit_20.iboard_2.jpg").default}><img src={require("/img/var_products/third_party/edit_20.iboard_2.jpg").default} alt="edit\_20.iboard\_2.jpg"/></a>
-<a target="_blank" href={require("/img/var_products/third_party/edit_20.iboard_3.jpg").default}><img src={require("/img/var_products/third_party/edit_20.iboard_3.jpg").default} alt="edit\_20.iboard\_3.jpg"/></a>
+![edit\_20.iboard\_2.jpg](/img/var_products/third_party/edit_20.iboard_2.jpg)
+![edit\_20.iboard\_3.jpg](/img/var_products/third_party/edit_20.iboard_3.jpg)
 
 > 🌎[Iboard](http://imall.iteadstudio.com/development-platform/im120410001.html)
 > is a unique Arduino platform which features a 🌎[Wiznet W5100 Ethernet
@@ -273,8 +273,8 @@ chip:
 
 ### Iboard EX (IM120905007)
 
-<a target="_blank" href={require("/img/var_products/third_party/edit_21.iboard_ex_2.jpg").default}><img src={require("/img/var_products/third_party/edit_21.iboard_ex_2.jpg").default} alt="edit\_21.iboard\_ex\_2.jpg"/></a>
-<a target="_blank" href={require("/img/var_products/third_party/edit_21.iboard_ex_3.jpg").default}><img src={require("/img/var_products/third_party/edit_21.iboard_ex_3.jpg").default} alt="edit\_21.iboard\_ex\_3.jpg"/></a>
+![edit\_21.iboard\_ex\_2.jpg](/img/var_products/third_party/edit_21.iboard_ex_2.jpg)
+![edit\_21.iboard\_ex\_3.jpg](/img/var_products/third_party/edit_21.iboard_ex_3.jpg)
 
 > 🌎[Iboard
 > EX](http://imall.iteadstudio.com/development-platform/iboard-ex.html)
@@ -288,8 +288,8 @@ chip:
 -----
 ### Iboard Pro (IM120724002)
 
-<a target="_blank" href={require("/img/var_products/third_party/edit_22.iboard_pro_2.jpg").default}><img src={require("/img/var_products/third_party/edit_22.iboard_pro_2.jpg").default} alt="edit\_22.iboard\_pro\_2.jpg"/></a>
-<a target="_blank" href={require("/img/var_products/third_party/edit_22.iboard_pro_3.jpg").default}><img src={require("/img/var_products/third_party/edit_22.iboard_pro_3.jpg").default} alt="edit\_22.iboard\_pro\_3.jpg"/></a>
+![edit\_22.iboard\_pro\_2.jpg](/img/var_products/third_party/edit_22.iboard_pro_2.jpg)
+![edit\_22.iboard\_pro\_3.jpg](/img/var_products/third_party/edit_22.iboard_pro_3.jpg)
 
 > 🌎[Iboard
 > Pro](http://imall.iteadstudio.com/development-platform/iboard-pro.html)
@@ -305,8 +305,8 @@ chip:
 
 ### SainSmart W5100 Network Module
 
-<a target="_blank" href={require("/img/var_products/third_party/edit_sainsmart_network_module-1.jpg").default}><img src={require("/img/var_products/third_party/edit_sainsmart_network_module-1.jpg").default} alt="edit\_sainsmart\_network\_module-1.jpg"/></a>
-<a target="_blank" href={require("/img/var_products/third_party/edit_sainsmart_network_module-2.jpg").default}><img src={require("/img/var_products/third_party/edit_sainsmart_network_module-2.jpg").default} alt="edit\_sainsmart\_network\_module-2.jpg"/></a>
+![edit\_sainsmart\_network\_module-1.jpg](/img/var_products/third_party/edit_sainsmart_network_module-1.jpg)
+![edit\_sainsmart\_network\_module-2.jpg](/img/var_products/third_party/edit_sainsmart_network_module-2.jpg)
 
 > This
 > 🌎[Module](http://www.sainsmart.com/arduino/arduino-shields/sainsmart-w5100-network-module-tcp-ip-ethernet-module-for-arduino.html)
@@ -329,8 +329,8 @@ chip:
 
 ### Botanicalls kits(IM120724002)
 
-<a target="_blank" href={require("/img/var_products/third_party/edit_botanicalls-1.jpg").default}><img src={require("/img/var_products/third_party/edit_botanicalls-1.jpg").default} alt="edit\_botanicalls-1.jpg"/></a>
-<a target="_blank" href={require("/img/var_products/third_party/edit_botanicalls-2.jpg").default}><img src={require("/img/var_products/third_party/edit_botanicalls-2.jpg").default} alt="edit\_botanicalls-2.jpg"/></a>
+![edit\_botanicalls-1.jpg](/img/var_products/third_party/edit_botanicalls-1.jpg)
+![edit\_botanicalls-2.jpg](/img/var_products/third_party/edit_botanicalls-2.jpg)
 
 > 🌎[Botanicalls Kits](http://www.botanicalls.com/kits/) let plants reach
 > out for human help\! They offer a connection to your leafy pal via

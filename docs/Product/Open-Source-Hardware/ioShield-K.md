@@ -6,11 +6,11 @@ date: 2020-04-03
 
 ## Overview
 
-<a target="_blank" href={require("/img/osh/ioshield-k/io_s_k.png").default}><img src={require("/img/osh/ioshield-k/io_s_k.png").default} alt=""/></a> 
+![](/img/osh/ioshield-k/io_s_k.png) 
 
 ioShield-K is an Ethernet Shield for GR-KURUMI(Gadget Renesas KURUMI). The ioShield-K allows a GR-KURUMI board to connect to the internet. It is based on the Wiznet W5500 ethernet chip ([W5500 Datasheet](../iEthernet/W5500/datasheet)). The Wiznet W5500 provides a network (IP) stack capable of both TCP and UDP. It supports up to eight simultaneous socket connections. Use the Ethernet library(📄[WIZ_Ethernet_Library](https://github.com/Wiznet/WIZ_Ethernet_Library)) to write sketches which connect to the internet using the shield. The ioShield-K connects to an GR-KURUMI board using long wire-wrap headers which extend through the shield.
 
-<a target="_blank" href={require("/img/osh/ioshield-k/io_s_k.png").default}><img src={require("/img/osh/ioshield-k/io_s_k.png").default} alt=""/></a>
+![](/img/osh/ioshield-k/io_s_k.png)
 
   - Hardware Ver1.0 Design file(<a href="/img/osh/ioshield-k/ioshield-k.pdf" target="_blank">PDF</a>) / [Eagle CAD](/img/osh/ioshield-k/ioshield-k_eaglecad.zip) and <a href="/img/osh/ioshield-k/ioshield-k_v1_0_pl_130904.pdf" target="_blank">Part List</a> of ioShield-K
   - Hardware Ver1.1 Design file(<a href="/img/osh/ioshield-k/ioshield-k_v1.1_sch.pdf" target="_blank">PDF</a>) / [Eagle CAD](/img/osh/ioshield-k/io_shield-k_ver1_1.zip) and <a href="/img/osh/ioshield-k/ioshield-k_v1_1_pl_140120.pdf" target="_blank">Part List</a> of ioShield-K

@@ -34,7 +34,7 @@ Connect the PC and the router (with DHCP function) with LAN cable.
 Connect the router and the WIZwiki board with LAN cable. Connect the PC
 and the WIZwiki board with USB cable.
 
-<a target="_blank" href={require("/img/products/wizwiki_mbed_kit/kit_en/tcp_loopback_system_config_en.png").default}><img src={require("/img/products/wizwiki_mbed_kit/kit_en/tcp_loopback_system_config_en.png").default} alt=""/></a>
+![](/img/products/wizwiki_mbed_kit/kit_en/tcp_loopback_system_config_en.png)
 
 ## Software
 
@@ -65,10 +65,10 @@ Use the example code in the page below.
 Click on the red part of the "Import this program" section in the figure
 below.
 
-<a target="_blank" href={require("/img/products/wizwiki_mbed_kit/kit_en/ex_tcp_loop_1.jpg").default}><img src={require("/img/products/wizwiki_mbed_kit/kit_en/ex_tcp_loop_1.jpg").default} alt=""/></a>
+![](/img/products/wizwiki_mbed_kit/kit_en/ex_tcp_loop_1.jpg)
 
 A pop-up window will appear as shown below.  
-<a target="_blank" href={require("/img/products/wizwiki_mbed_kit/kit_en/ex_tcp_loop_2.jpg").default}><img src={require("/img/products/wizwiki_mbed_kit/kit_en/ex_tcp_loop_2.jpg").default} alt=""/></a>
+![](/img/products/wizwiki_mbed_kit/kit_en/ex_tcp_loop_2.jpg)
 
 The "Source URL" and "Import As" have default values. User can change
 the "Import Name" if one wants. If clicking on the red part of the
@@ -78,22 +78,22 @@ the "Import Name" if one wants. If clicking on the red part of the
 
 Execute serial terminal in PC. First push Reset switch of WIZwiki board
 and check messages.  
-<a target="_blank" href={require("/img/products/wizwiki_mbed_kit/kit_en/ex_tcp_loop_server1.jpg").default}><img src={require("/img/products/wizwiki_mbed_kit/kit_en/ex_tcp_loop_server1.jpg").default} alt=""/></a>
+![](/img/products/wizwiki_mbed_kit/kit_en/ex_tcp_loop_server1.jpg)
 
 Execute Hercules program in PC. Select TCP Client menu and configure the
 IP and Port. Click on the red part of the "Ping" button in the figure
-below. <a target="_blank" href={require("/img/products/wizwiki_mbed_kit/kit_en/ex_tcp_loop_client1.jpg").default}><img src={require("/img/products/wizwiki_mbed_kit/kit_en/ex_tcp_loop_client1.jpg").default} alt=""/></a>
+below. ![](/img/products/wizwiki_mbed_kit/kit_en/ex_tcp_loop_client1.jpg)
 
 Click the "Connect" button and check connection.
-<a target="_blank" href={require("/img/products/wizwiki_mbed_kit/kit_en/ex_tcp_loop_client2.jpg").default}><img src={require("/img/products/wizwiki_mbed_kit/kit_en/ex_tcp_loop_client2.jpg").default} alt=""/></a>
+![](/img/products/wizwiki_mbed_kit/kit_en/ex_tcp_loop_client2.jpg)
 
 The TCP Client sends a message to WIZwiki board and the WIZwiki board
 sends a reversed message to the TCP client. Check the Loopback message
 as shown below.
 
-<a target="_blank" href={require("/img/products/wizwiki_mbed_kit/kit_en/ex_tcp_loop_client3.jpg").default}><img src={require("/img/products/wizwiki_mbed_kit/kit_en/ex_tcp_loop_client3.jpg").default} alt=""/></a>
+![](/img/products/wizwiki_mbed_kit/kit_en/ex_tcp_loop_client3.jpg)
 
-<a target="_blank" href={require("/img/products/wizwiki_mbed_kit/kit_en/ex_tcp_loop_server2.jpg").default}><img src={require("/img/products/wizwiki_mbed_kit/kit_en/ex_tcp_loop_server2.jpg").default} alt=""/></a>
+![](/img/products/wizwiki_mbed_kit/kit_en/ex_tcp_loop_server2.jpg)
 
 ## Learning Resources
 

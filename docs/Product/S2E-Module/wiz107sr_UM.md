@@ -33,7 +33,7 @@ on your Windows PC. It's open source so you can customize and check the
 insides. Within this config tool you find also the Network setup part as
 the first flag (part 10, 11 & 12):  
   
-<a target="_blank" href={require("/img/products/wiz107sr/wiz107sr_um/wiz107sr_network.jpg").default}><img src={require("/img/products/wiz107sr/wiz107sr_um/wiz107sr_network.jpg").default} alt=""/></a>  
+![](/img/products/wiz107sr/wiz107sr_um/wiz107sr_network.jpg)  
 The start position of our WIZ107SR / WIZ108SR config tool, after
 "Search".  
 ### (1) Search
@@ -46,9 +46,9 @@ listed in the “Serial to Ethernet” tree with it's MAC address. The
 complete modules current setup is transfered and can now be changed.  
 Please, note the identification code must be input if the device has
 been configured with an identification code.  
-<a target="_blank" href={require("/img/products/wiz107sr/wiz107sr_um/wiz107sr_search-udp.jpg").default}><img src={require("/img/products/wiz107sr/wiz107sr_um/wiz107sr_search-udp.jpg").default} alt=""/></a>
+![](/img/products/wiz107sr/wiz107sr_um/wiz107sr_search-udp.jpg)
 
-<a target="_blank" href={require("/img/products/wiz107sr/wiz107sr_um/wiz107sr_search-tcp.jpg").default}><img src={require("/img/products/wiz107sr/wiz107sr_um/wiz107sr_search-tcp.jpg").default} alt=""/></a>  
+![](/img/products/wiz107sr/wiz107sr_um/wiz107sr_search-tcp.jpg)  
 Search by UDP broadcast or IP address unicast - and identification code
 protection as option.  
 ### (2) Setting

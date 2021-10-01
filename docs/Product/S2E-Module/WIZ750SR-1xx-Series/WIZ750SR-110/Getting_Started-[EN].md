@@ -8,7 +8,7 @@ date: 2020-04-09
 * [English](getting_started-EN) (current page)  
 * [Korean](getting_started-KO)
 
-<a target="_blank" href={require("/img/products/wiz750sr/docs_icon.png").default}><img src={require("/img/products/wiz750sr/docs_icon.png").default} alt=""/></a>
+![](/img/products/wiz750sr/docs_icon.png)
 
 -----
 
@@ -40,12 +40,12 @@ Contents](overview-EN#product-contents) page.
 
 |                                                                               |
 | ----------------------------------------------------------------------------- |
-| <a target="_blank" href={require("/img/products/wiz750sr-110/gettingstarted/wiz750sr-110_device_layout_top.png").default}><img src={require("/img/products/wiz750sr-110/gettingstarted/wiz750sr-110_device_layout_top.png").default} alt=""/></a> |
+| ![](/img/products/wiz750sr-110/gettingstarted/wiz750sr-110_device_layout_top.png) |
 | Figure: ***WIZ750SR-110 Revision 1.0 Top***                                   |
 
 |                                                                                  |
 | -------------------------------------------------------------------------------- |
-| <a target="_blank" href={require("/img/products/wiz750sr-110/gettingstarted/wiz750sr-110_device_layout_bottom.png").default}><img src={require("/img/products/wiz750sr-110/gettingstarted/wiz750sr-110_device_layout_bottom.png").default} alt=""/></a> |
+| ![](/img/products/wiz750sr-110/gettingstarted/wiz750sr-110_device_layout_bottom.png) |
 | Figure: ***WIZ750SR-110 Revision 1.0 Bottom***                                   |
 
 ### Parts
@@ -257,7 +257,7 @@ of the WIZ750SR-110 module can be checked using the configuration tool.
 
 |                                                       |
 | ----------------------------------------------------- |
-| <a target="_blank" href={require("/img/products/wiz750sr/gettingstarted/configtool.png").default}><img src={require("/img/products/wiz750sr/gettingstarted/configtool.png").default} alt=""/></a> |
+| ![](/img/products/wiz750sr/gettingstarted/configtool.png) |
 | Figure: **WIZnet Configuration Tool**                 |
 
 #### Step 4: Set up your WIZ750SR-110
@@ -287,7 +287,7 @@ below.
 
 |                                                                  |
 | ---------------------------------------------------------------- |
-| <a target="_blank" href={require("/img/products/wiz750sr/gettingstarted/windows_devicemanager.png").default}><img src={require("/img/products/wiz750sr/gettingstarted/windows_devicemanager.png").default} alt=""/></a> |
+| ![](/img/products/wiz750sr/gettingstarted/windows_devicemanager.png) |
 | Figure: Device Manager                                           |
 
 #### Step 6: Verify

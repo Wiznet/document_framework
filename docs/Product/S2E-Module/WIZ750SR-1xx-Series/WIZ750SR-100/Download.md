@@ -26,14 +26,14 @@ repository](https://github.com/Wiznet/WIZ750SR/releases))
 the device must be updated using all(boot+app) version firmware & WIZISP
 first.**
 
-<a target="_blank" href={require("https://user-images.githubusercontent.com/9648281/70778776-62690000-1dc6-11ea-8cc0-d205659312ba.png").default}><img src={require("https://user-images.githubusercontent.com/9648281/70778776-62690000-1dc6-11ea-8cc0-d205659312ba.png").default} alt="Boot Version"/></a>
+![Boot Version](https://user-images.githubusercontent.com/9648281/70778776-62690000-1dc6-11ea-8cc0-d205659312ba.png)
 
   - With **F/W Ver 1.2.9 and lower than**, Boot copies Application ISR
     address map into Boot ISR address region to merge two binary codes.
     We eliminated copying Application ISR address map into Boot ISR
     address region, and raised **F/W Ver to 1.3.x**.
 
-<a target="_blank" href={require("https://user-images.githubusercontent.com/9648281/70020315-94f94880-15cf-11ea-89cd-6bb3b2f1b7f1.png").default}><img src={require("https://user-images.githubusercontent.com/9648281/70020315-94f94880-15cf-11ea-89cd-6bb3b2f1b7f1.png").default} alt="Boot compatibility"/></a>
+![Boot compatibility](https://user-images.githubusercontent.com/9648281/70020315-94f94880-15cf-11ea-89cd-6bb3b2f1b7f1.png)
 
 #### Please check the Boot code version before updating F/W with another one
 
@@ -126,15 +126,12 @@ Repository**
   - **[S2E Configuration Tool Manual (New)](configuration_tool_manual_new-EN)**
 
 
-<a target="_blank" href={require("/img/products/wiz750sr/download/wizconfig_main_v1.0.0.png").default}><img src={require("/img/products/wiz750sr/download/wizconfig_main_v1.0.0.png").default} alt=""/></a> 
-
+![](/img/products/wiz750sr/download/wizconfig_main_v1.0.0.png) 
 **Download the latest version**
+<https://github.com/Wiznet/WIZnet-S2E-Tool-GUI/releases> 
 
-https://github.com/Wiznet/WIZnet-S2E-Tool-GUI/releases
-
-**GitHub Repository**
-
-https://github.com/Wiznet/WIZnet-S2E-Tool-GUI
+ **GitHub Repository**
+<https://github.com/Wiznet/WIZnet-S2E-Tool-GUI> 
 
 -----
 
@@ -148,7 +145,7 @@ https://github.com/Wiznet/WIZnet-S2E-Tool-GUI
 ## WIZ VSP
 
 
-<a target="_blank" href={require("/img/products/wiz750sr/usermanual/wiz_vsp.jpg").default}><img src={require("/img/products/wiz750sr/usermanual/wiz_vsp.jpg").default} alt=""/></a> 
+![](/img/products/wiz750sr/usermanual/wiz_vsp.jpg) 
 
   - WIZ VSP (WIZnet Virtual Serial COM port) is the software for those
     users who want to use the existing application programs based on

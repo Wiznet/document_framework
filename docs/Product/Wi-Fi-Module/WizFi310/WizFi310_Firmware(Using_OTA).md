@@ -39,7 +39,7 @@ date: 2020-05-13
 
 ## WizFi310_OTA_Tool
 
-<a target="_blank" href={require("/img/products/wizfi310/wizfi310firmware_ota/ota_7.png").default}><img src={require("/img/products/wizfi310/wizfi310firmware_ota/ota_7.png").default} alt=""/></a>
+![](/img/products/wizfi310/wizfi310firmware_ota/ota_7.png)
 
 | Version | Date       | Download                                                                                                             | Description |
 | ------- | ---------- | -------------------------------------------------------------------------------------------------------------------- | ----------- |

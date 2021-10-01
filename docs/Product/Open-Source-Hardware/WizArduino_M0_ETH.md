@@ -4,7 +4,7 @@ title: WizArduino M0 ETH
 date: 2020-04-03
 ---
 
-<a target="_blank" href={require("/img/osh/wizarduino_m0_eth/측면1.png").default}><img src={require("/img/osh/wizarduino_m0_eth/측면1.png").default} alt=""/></a>
+![](/img/osh/wizarduino_m0_eth/측면1.png)
 
 -----
 
@@ -13,7 +13,7 @@ date: 2020-04-03
 WizArduino M0 ETH는 Arduino.org의 🌎[M0
 board](http://www.arduino.org/products/boards/arduino-m0)를 기반으로 🌎[W5500 TCP/IP Embedded Ethernet Controller](../iEthernet/W5500/overview) 가
 추가되어 Arduino UNO 플랫폼처럼 간단하면서도 IoT기능 구현을 위한 기본 기능을 가지고 있습니다.
-<a target="_blank" href={require("/img/osh/wizarduino/m0_ethernetshield.png").default}><img src={require("/img/osh/wizarduino/m0_ethernetshield.png").default} alt=""/></a>
+![](/img/osh/wizarduino/m0_ethernetshield.png)
 
 **Arduino M0 와 Ethernet Shield 2가 합쳐진**
 
@@ -49,7 +49,7 @@ board](http://www.arduino.org/products/boards/arduino-m0)를 기반으로 🌎[W
   - Weight : 28g
 ### PinOut
 
-<a target="_blank" href={require("/img/osh/wizarduino_m0_eth/pin_out.png").default}><img src={require("/img/osh/wizarduino_m0_eth/pin_out.png").default} alt=""/></a>
+![](/img/osh/wizarduino_m0_eth/pin_out.png)
 
 -----
 
@@ -100,7 +100,7 @@ WizArduino M0 ETH로 Programming을 하기에 앞서 몇 가지 확인 사항이
 
   - Getting Started에 언급 한 바와 같이 WizArduino M0 ETH는 Arduino.org 의 M0
     board와 100% 호환 됩니다. Select board 시 Arduino M0를 선택 하세요.
-    <a target="_blank" href={require("/img/osh/wizarduino_m0_eth/그림2.png").default}><img src={require("/img/osh/wizarduino_m0_eth/그림2.png").default} alt=""/></a> 
+    ![](/img/osh/wizarduino_m0_eth/그림2.png) 
 
 #### Serial message
 
@@ -200,7 +200,7 @@ WizArduino M0 ETH로 Programming을 하기에 앞서 몇 가지 확인 사항이
 
 ### Dimension
 
-<a target="_blank" href={require("/img/osh/wizarduino_m0_eth/wizarduino_m0_eth_ver1.0_dimension_180808.png").default}><img src={require("/img/osh/wizarduino_m0_eth/wizarduino_m0_eth_ver1.0_dimension_180808.png").default} alt=""/></a>
+![](/img/osh/wizarduino_m0_eth/wizarduino_m0_eth_ver1.0_dimension_180808.png)
 
 ### Part list
 

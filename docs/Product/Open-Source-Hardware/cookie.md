@@ -26,7 +26,7 @@ Cookie is an open-source Arduino™ form-factor compatible
 ARM prototyping platform based on 32-bit ARM Cortex M0/3/4 MCUs plus
 hardware and software building blocks.
 
-<a target="_blank" href={require("/img/osh/cookie/cookie_numicro_v1_s.png").default}><img src={require("/img/osh/cookie/cookie_numicro_v1_s.png").default} alt=""/></a>
+![](/img/osh/cookie/cookie_numicro_v1_s.png)
 
 [Learn more](<http://www.coocox.org/Cookie.html>)
 
@@ -106,7 +106,7 @@ or EVB-boards.
 
 ### Before Tutorial
 
-<a target="_blank" href={require("/img/osh/cookie/0.jpg").default}><img src={require("/img/osh/cookie/0.jpg").default} alt=""/></a>
+![](/img/osh/cookie/0.jpg)
 
 -----
 
@@ -119,37 +119,37 @@ or EVB-boards.
 
  - Click the CoIDE icon
 
- <a target="_blank" href={require("/img/osh/cookie/1.jpg").default}><img src={require("/img/osh/cookie/1.jpg").default} alt=""/></a>
+ ![](/img/osh/cookie/1.jpg)
 
  - The welcome page is a convenient entry for “Browse in Repository”,
 “Create a New Project”, “Open a Project”, refer to “User Guide” and go
 to “Forum"
 
-<a target="_blank" href={require("/img/osh/cookie/2.jpg").default}><img src={require("/img/osh/cookie/2.jpg").default} alt=""/></a>
+![](/img/osh/cookie/2.jpg)
 
  - A wizard window will pop up, enter a name for the project (my project
 name: LoopbackTest)),You can also modify the Project Path.
 
-<a target="_blank" href={require("/img/osh/cookie/4.jpg").default}><img src={require("/img/osh/cookie/4.jpg").default} alt=""/></a>
+![](/img/osh/cookie/4.jpg)
 
  - Choose a model. For example, select ''Chip Model', then click “Next”.
 
- <a target="_blank" href={require("/img/osh/cookie/5_chip.jpg").default}><img src={require("/img/osh/cookie/5_chip.jpg").default} alt=""/></a>
+ ![](/img/osh/cookie/5_chip.jpg)
 
  - Select a chip. For example, select "M0516LBN"
 
-  <a target="_blank" href={require("/img/osh/cookie/6_chip.jpg").default}><img src={require("/img/osh/cookie/6_chip.jpg").default} alt=""/></a>
+  ![](/img/osh/cookie/6_chip.jpg)
 
   - Click "Finish". CoIDE automatically generates LoopbackTest.coproj
 file and one configuration: "LoopbackTest".
 
   - Click the Repository Button 
 
- <a target="_blank" href={require("/img/osh/cookie/7.jpg").default}><img src={require("/img/osh/cookie/7.jpg").default} alt=""/></a>
+ ![](/img/osh/cookie/7.jpg)
 
   - Check a component; for example, select 'GPIO`SPI`UART`CoX.cookie.M051.config`C library''Retarget printf'. CoIDE will automatically check the components, which are depended by the checked component. 
 
-<a target="_blank" href={require("/img/osh/cookie/7_2.jpg").default}><img src={require("/img/osh/cookie/7_2.jpg").default} alt=""/></a>
+![](/img/osh/cookie/7_2.jpg)
 
 ### Tutorial Using W5500
 
@@ -194,40 +194,40 @@ should select interface mode and kind of chip.
 
  - Enter the menu (view \> Configuration)
 
-<a target="_blank" href={require("/img/osh/cookie/7_3.jpg").default}><img src={require("/img/osh/cookie/7_3.jpg").default} alt=""/></a>
+![](/img/osh/cookie/7_3.jpg)
 
  - You can select the Hardware Adapter type(Colink EX)
 
-<a target="_blank" href={require("/img/osh/cookie/7_4.jpg").default}><img src={require("/img/osh/cookie/7_4.jpg").default} alt=""/></a>
+![](/img/osh/cookie/7_4.jpg)
 
  - In the project view, select the parent directory in which you want to
 create the Group (If you do not select the parent directory, the default
 is the root directory of the project), select Add Group and Add file in
 context menu
 
-<a target="_blank" href={require("/img/osh/cookie/8.jpg").default}><img src={require("/img/osh/cookie/8.jpg").default} alt=""/></a>
+![](/img/osh/cookie/8.jpg)
 
  - You should make up same file path
 
-<a target="_blank" href={require("/img/osh/cookie/9.jpg").default}><img src={require("/img/osh/cookie/9.jpg").default} alt=""/></a>
+![](/img/osh/cookie/9.jpg)
 
  - Select the complie button. If necessary, you can select Rebuild to
 recompile your project or select Clean to clean-up the project that has
 been compiled.
 
-<a target="_blank" href={require("/img/osh/cookie/9_1.jpg").default}><img src={require("/img/osh/cookie/9_1.jpg").default} alt=""/></a>
+![](/img/osh/cookie/9_1.jpg)
 
  - compile result
 
- <a target="_blank" href={require("/img/osh/cookie/10.jpg").default}><img src={require("/img/osh/cookie/10.jpg").default} alt=""/></a>
+ ![](/img/osh/cookie/10.jpg)
 
  - Click the "Download" button to download code to flash
 
-<a target="_blank" href={require("/img/osh/cookie/10_1.jpg").default}><img src={require("/img/osh/cookie/10_1.jpg").default} alt=""/></a>
+![](/img/osh/cookie/10_1.jpg)
 
  - download result
 
- <a target="_blank" href={require("/img/osh/cookie/11.jpg").default}><img src={require("/img/osh/cookie/11.jpg").default} alt=""/></a>
+ ![](/img/osh/cookie/11.jpg)
 
  - You can confirm the serial value through terminal program
 
@@ -247,24 +247,24 @@ need to configure your PC network setting.
   - Enter to'Network and Internet' and enter to Network and Sharing Center.
   - Click'Change adapter settings at left side.
 
-<a target="_blank" href={require("/img/osh/cookie/sharing_center.jpg").default}><img src={require("/img/osh/cookie/sharing_center.jpg").default} alt=""/></a>
+![](/img/osh/cookie/sharing_center.jpg)
 
   - Double click Local Area Connection icon and click Properties and
 enter IPv4 Properties.
 
-<a target="_blank" href={require("/img/osh/cookie/sharing_center2.png").default}><img src={require("/img/osh/cookie/sharing_center2.png").default} alt=""/></a>
+![](/img/osh/cookie/sharing_center2.png)
 
   - Then, set your IP address and subnet mask as same as WIZ550io's IP
 address and subnet mask. 
   - Or, you can add IP address by setting
 Advanced. Click Advanced.. button.
 
-<a target="_blank" href={require("/img/osh/cookie/sharing_center3.jpg").default}><img src={require("/img/osh/cookie/sharing_center3.jpg").default} alt=""/></a>
+![](/img/osh/cookie/sharing_center3.jpg)
 
 
   - Click Add... button and add IP address and subnet mask.
 
-<a target="_blank" href={require("/img/osh/cookie/sharing_center4.png").default}><img src={require("/img/osh/cookie/sharing_center4.png").default} alt=""/></a>
+![](/img/osh/cookie/sharing_center4.png)
 
 
 ----
@@ -277,20 +277,20 @@ Advanced. Click Advanced.. button.
  - Select TCP Client tab in Hercules and type Server IP address
 displaying in Tera Term at Module IP and port number box.
 
-<a target="_blank" href={require("/img/osh/cookie/loopback2.jpg").default}><img src={require("/img/osh/cookie/loopback2.jpg").default} alt=""/></a>
+![](/img/osh/cookie/loopback2.jpg)
 
  - Click Connect. 
  - If connection is done successfully, you can see
 message as follows.
 
-<a target="_blank" href={require("/img/osh/cookie/loopback4.jpg").default}><img src={require("/img/osh/cookie/loopback4.jpg").default} alt=""/></a>
+![](/img/osh/cookie/loopback4.jpg)
 
  - Type data you want to send and click Send button. If you want to send
 string data, uncheck HEX checkbox. 
  - After send data, you can see sent
 data and received data.
 
-<a target="_blank" href={require("/img/osh/cookie/loopback5.jpg").default}><img src={require("/img/osh/cookie/loopback5.jpg").default} alt=""/></a>
+![](/img/osh/cookie/loopback5.jpg)
 
 ## UDP Loopback
 
@@ -298,9 +298,9 @@ data and received data.
 
  - Select UDP tab in Hercules and type IP address and port number displaying in Tera Term at Module IP and Port box in Hercules. And then, type port number you want in Local port box and click Listen button. Now, UDP socket opened.
 
-<a target="_blank" href={require("/img/osh/cookie/loopback7.jpg").default}><img src={require("/img/osh/cookie/loopback7.jpg").default} alt=""/></a>
+![](/img/osh/cookie/loopback7.jpg)
 
  - Type data you want to send and click Send button. If you want to send string data, uncheck HEX checkbox. 
  - After send data, you can see sent data and received data.
 
-<a target="_blank" href={require("/img/osh/cookie/loopback8.jpg").default}><img src={require("/img/osh/cookie/loopback8.jpg").default} alt=""/></a>
+![](/img/osh/cookie/loopback8.jpg)

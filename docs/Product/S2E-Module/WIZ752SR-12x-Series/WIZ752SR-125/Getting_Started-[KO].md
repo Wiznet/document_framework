@@ -8,7 +8,7 @@ date: 2020-04-15
 * [English](getting_started_guide-EN) 
 * [Korean](getting_started_guide-KO) (current page)
 
-<a target="_blank" href={require("/img/products/wiz750sr/docs_icon.png").default}><img src={require("/img/products/wiz750sr/docs_icon.png").default} alt=""/></a>
+![](/img/products/wiz750sr/docs_icon.png)
 
 -----
 
@@ -191,7 +191,7 @@ PC의 Configuration tool을 실행하여 상단 Search 버튼을 클릭합니다
 
 |                                                                     |
 | ------------------------------------------------------------------- |
-| <a target="_blank" href={require("/img/products/s2e_module/wiz752sr-120/gettingstarted/01_search.png").default}><img src={require("/img/products/s2e_module/wiz752sr-120/gettingstarted/01_search.png").default} alt=""/></a> |
+| ![](/img/products/s2e_module/wiz752sr-120/gettingstarted/01_search.png) |
 | Figure: **WIZnet Configuration Tool**                               |
 
 #### Step 4: Set up your WIZ752SR-125
@@ -213,7 +213,7 @@ PC를 사용자 시리얼 장치 및 TCP 클라이언트로 삼아 데이터 통
 
 |                                                                  |
 | ---------------------------------------------------------------- |
-| <a target="_blank" href={require("/img/products/wiz750sr/gettingstarted/windows_devicemanager.png").default}><img src={require("/img/products/wiz750sr/gettingstarted/windows_devicemanager.png").default} alt=""/></a> |
+| ![](/img/products/wiz750sr/gettingstarted/windows_devicemanager.png) |
 | Figure: Device Manager                                           |
 
 #### Step 6: Verify

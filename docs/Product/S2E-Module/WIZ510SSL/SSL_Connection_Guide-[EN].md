@@ -72,26 +72,26 @@ s_server -accept 443 -cert server.crt -key server.key
 
 |                                                               |
 | --------------------------------------------------------------|
-| <a target="_blank" href={require("/img/products/wiz510ssl/ssl_connection_guide/select_ssl_tcp_client_mode.png").default}><img src={require("/img/products/wiz510ssl/ssl_connection_guide/select_ssl_tcp_client_mode.png").default} alt=""/></a> |
+| ![](/img/products/wiz510ssl/ssl_connection_guide/select_ssl_tcp_client_mode.png) |
 | Figure: ***Select SSL TCP client mode***                      |
 
   - Input the **remote host IP (or URL)** and **remote port** in the **Remote host / port** section
 
 |                                                                             |
 | ----------------------------------------------------------------------------|
-| <a target="_blank" href={require("/img/products/wiz510ssl/ssl_connection_guide/input_the_remote_host_ip_and_remote_port.png").default}><img src={require("/img/products/wiz510ssl/ssl_connection_guide/input_the_remote_host_ip_and_remote_port.png").default} alt=""/></a> |
+| ![](/img/products/wiz510ssl/ssl_connection_guide/input_the_remote_host_ip_and_remote_port.png) |
 | Figure: ***Input the remote host IP and remote port***                      |
 
   - Click the **Apply Settings** button to save the settings
 
 |                                                        			 |
 | -------------------------------------------------------------------|
-| <a target="_blank" href={require("/img/products/wiz510ssl/ssl_connection_guide/click_the_apply_settings_button.png").default}><img src={require("/img/products/wiz510ssl/ssl_connection_guide/click_the_apply_settings_button.png").default} alt=""/></a> |
+| ![](/img/products/wiz510ssl/ssl_connection_guide/click_the_apply_settings_button.png) |
 | Figure: ***Click the Apply Settings button***                      |
 
 |                                                        			 |
 | -------------------------------------------------------------------|
-| <a target="_blank" href={require("/img/products/wiz510ssl/ssl_connection_guide/saved_settings.png").default}><img src={require("/img/products/wiz510ssl/ssl_connection_guide/saved_settings.png").default} alt=""/></a> |
+| ![](/img/products/wiz510ssl/ssl_connection_guide/saved_settings.png) |
 | Figure: ***Saved settings***
 
 ※ **Note**: If you need certificates to connect to SSL server, please refer to the [**'Upload Certificates'**](#upload_certificates) section below.
@@ -102,12 +102,12 @@ WIZ510SSL is successfully connected to SSL server through OpenSSL!
 
 |                                           |
 | ------------------------------------------|
-| <a target="_blank" href={require("/img/products/wiz510ssl/ssl_connection_guide/status.png").default}><img src={require("/img/products/wiz510ssl/ssl_connection_guide/status.png").default} alt=""/></a> |
+| ![](/img/products/wiz510ssl/ssl_connection_guide/status.png) |
 | Figure: ***Status***                      |
 
 |                                                              |
 | -------------------------------------------------------------|
-| <a target="_blank" href={require("/img/products/wiz510ssl/ssl_connection_guide/connect_to_the_ssl_server.png").default}><img src={require("/img/products/wiz510ssl/ssl_connection_guide/connect_to_the_ssl_server.png").default} alt=""/></a> |
+| ![](/img/products/wiz510ssl/ssl_connection_guide/connect_to_the_ssl_server.png) |
 | Figure: ***Connect to the SSL server***                      |
 
 
@@ -124,5 +124,5 @@ After loading the certificate by clicking the '**Load file**' button, be sure to
 
 |                                                        |
 | -------------------------------------------------------|
-| <a target="_blank" href={require("/img/products/wiz510ssl/ssl_connection_guide/upload_certificates.png").default}><img src={require("/img/products/wiz510ssl/ssl_connection_guide/upload_certificates.png").default} alt=""/></a> |
+| ![](/img/products/wiz510ssl/ssl_connection_guide/upload_certificates.png) |
 | Figure: ***Upload Certificates***                      |

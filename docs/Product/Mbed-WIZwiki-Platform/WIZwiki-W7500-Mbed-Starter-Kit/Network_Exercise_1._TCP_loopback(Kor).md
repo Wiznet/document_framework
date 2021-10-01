@@ -30,7 +30,7 @@ W7500의 TOE (TCP/IP Offload Engine)을 이용해서 네트워크를 구동시�
 DHCP가 지원되는 공유기와 PC를 LAN 케이블로 연결한다. 공유기와 WIZwiki 보드를 LAN 케이블로 연결한다. PC와
 WIZwiki 보드를 USB 케이블로 연결한다.
 
-<a target="_blank" href={require("/img/products/wizwiki_mbed_kit/kit_en/tcp_loopback_system_config_en.png").default}><img src={require("/img/products/wizwiki_mbed_kit/kit_en/tcp_loopback_system_config_en.png").default} alt=""/></a>
+![](/img/products/wizwiki_mbed_kit/kit_en/tcp_loopback_system_config_en.png)
 
 
 ## 소프트웨어
@@ -58,11 +58,11 @@ WIZwiki 보드를 USB 케이블로 연결한다.
 
 아래 그림에서 빨간색 부분인 "Import this program" 부분을 클릭한다.
 
-<a target="_blank" href={require("/img/products/wizwiki_mbed_kit/kit_en/ex_tcp_loop_1.jpg").default}><img src={require("/img/products/wizwiki_mbed_kit/kit_en/ex_tcp_loop_1.jpg").default} alt=""/></a>
+![](/img/products/wizwiki_mbed_kit/kit_en/ex_tcp_loop_1.jpg)
 
 아래와 같은 팝업 창이 뜬다.
 
-<a target="_blank" href={require("/img/products/wizwiki_mbed_kit/kit_en/ex_tcp_loop_2.jpg").default}><img src={require("/img/products/wizwiki_mbed_kit/kit_en/ex_tcp_loop_2.jpg").default} alt=""/></a>
+![](/img/products/wizwiki_mbed_kit/kit_en/ex_tcp_loop_2.jpg)
 
 "Source URL" 과 "Import As" 가 디폴트 값으로 설정되어 있다. "Import Name"도 디폴트로 설정되어
 있는데, 사용자가 원하면 바꿀 수 있다. 빨간색 부분인 "Import"를 클릭하면 mbed 컴파일러 환경으로 프로그램이
@@ -73,21 +73,21 @@ WIZwiki 보드를 USB 케이블로 연결한다.
 
 PC와 WIZwiki 보드를 USB 케이블로 연결한다. (보드에 전원이 공급되어야 하기 때문에 이미 연결 되어 있을 것이다.)
 PC에서 시리얼터미널 프로그램을 실행시킨다. WIZwiki 보드의 Reset 스위치를 눌러준 후에 메시지를 확인한다.
-<a target="_blank" href={require("/img/products/wizwiki_mbed_kit/kit_en/ex_tcp_loop_server1.jpg").default}><img src={require("/img/products/wizwiki_mbed_kit/kit_en/ex_tcp_loop_server1.jpg").default} alt=""/></a>
+![](/img/products/wizwiki_mbed_kit/kit_en/ex_tcp_loop_server1.jpg)
 
 PC에서 Hercules 프로그램을 구동한다. Hercules에서 TCP Client 메뉴를 선택하고, IP와 Port를
 설정한다. 아래 그림의 "Ping" 버튼을 누른 후 메시지를 확인한다.
-<a target="_blank" href={require("/img/products/wizwiki_mbed_kit/kit_en/ex_tcp_loop_client1.jpg").default}><img src={require("/img/products/wizwiki_mbed_kit/kit_en/ex_tcp_loop_client1.jpg").default} alt=""/></a>
+![](/img/products/wizwiki_mbed_kit/kit_en/ex_tcp_loop_client1.jpg)
 
 "Connect" 버튼을 누른 후 연결을 확인한다.
-<a target="_blank" href={require("/img/products/wizwiki_mbed_kit/kit_en/ex_tcp_loop_client2.jpg").default}><img src={require("/img/products/wizwiki_mbed_kit/kit_en/ex_tcp_loop_client2.jpg").default} alt=""/></a>
+![](/img/products/wizwiki_mbed_kit/kit_en/ex_tcp_loop_client2.jpg)
 
 TCP Client 프로그램이 WIZwiki 보드에 메시지를 보내고, WIZwiki 보드가 역순으로 된 메시지를 TCP
 Client로 보낸다. 아래 그림에서 Loopback 된 메시지를 확인한다.
 
-<a target="_blank" href={require("/img/products/wizwiki_mbed_kit/kit_en/ex_tcp_loop_client3.jpg").default}><img src={require("/img/products/wizwiki_mbed_kit/kit_en/ex_tcp_loop_client3.jpg").default} alt=""/></a>
+![](/img/products/wizwiki_mbed_kit/kit_en/ex_tcp_loop_client3.jpg)
 
-<a target="_blank" href={require("/img/products/wizwiki_mbed_kit/kit_en/ex_tcp_loop_server2.jpg").default}><img src={require("/img/products/wizwiki_mbed_kit/kit_en/ex_tcp_loop_server2.jpg").default} alt=""/></a>
+![](/img/products/wizwiki_mbed_kit/kit_en/ex_tcp_loop_server2.jpg)
 
 
 ## 학습 자료

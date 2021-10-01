@@ -27,7 +27,7 @@ of hardware specification or exterior design.
    * RJ45(Integrated Transformer)
    * 2.54mm Header x2
 
-<a target="_blank" href={require("/img/products/wiz550s2e/wiz550s2eds/wiz550s2e_pin.jpg").default}><img src={require("/img/products/wiz550s2e/wiz550s2eds/wiz550s2e_pin.jpg").default} alt=""/></a>
+![](/img/products/wiz550s2e/wiz550s2eds/wiz550s2e_pin.jpg)
 
 #### Pin Description
 
@@ -133,8 +133,8 @@ This pin also serves as the RS485 control.</td>
    * Status LEDs
    * DC-Jack (for +5V Input Power)
 
-<a target="_blank" href={require("/img/products/wiz550s2e/wiz550s2eds/rs232if_pin_20140729.jpg").default}><img src={require("/img/products/wiz550s2e/wiz550s2eds/rs232if_pin_20140729.jpg").default} alt=""/></a>
-<a target="_blank" href={require("/img/products/wiz550s2e/wiz550s2eds/크기변환_wiz550s2e-232-evb.png").default}><img src={require("/img/products/wiz550s2e/wiz550s2eds/크기변환_wiz550s2e-232-evb.png").default} alt=""/></a>
+![](/img/products/wiz550s2e/wiz550s2eds/rs232if_pin_20140729.jpg)
+![](/img/products/wiz550s2e/wiz550s2eds/크기변환_wiz550s2e-232-evb.png)
 
 -----
 
@@ -147,8 +147,8 @@ This pin also serves as the RS485 control.</td>
    * Status LEDs
    * DC-Jack (for +5V Input Power)
 
-<a target="_blank" href={require("/img/products/wiz550s2e/wiz550s2eds/rs485-422if_pin_20140729.jpg").default}><img src={require("/img/products/wiz550s2e/wiz550s2eds/rs485-422if_pin_20140729.jpg").default} alt=""/></a>
-<a target="_blank" href={require("/img/products/wiz550s2e/wiz550s2eds/크기변환_wiz550s2e-485-evb.png").default}><img src={require("/img/products/wiz550s2e/wiz550s2eds/크기변환_wiz550s2e-485-evb.png").default} alt=""/></a>
+![](/img/products/wiz550s2e/wiz550s2eds/rs485-422if_pin_20140729.jpg)
+![](/img/products/wiz550s2e/wiz550s2eds/크기변환_wiz550s2e-485-evb.png)
 
 -----
 # Characteristic
@@ -189,7 +189,7 @@ This pin also serves as the RS485 control.</td>
 
   - Rev 1.1 Update Schematic
 
-<a target="_blank" href={require("/img/products/wiz550s2e/wiz550s2e_rev.png").default}><img src={require("/img/products/wiz550s2e/wiz550s2e_rev.png").default} alt=""/></a>
+![](/img/products/wiz550s2e/wiz550s2e_rev.png)
 
 -----
 ## Dimension
@@ -198,16 +198,16 @@ This pin also serves as the RS485 control.</td>
 
 ### WIZ550S2E
 
-<a target="_blank" href={require("/img/products/wiz550s2e/wiz550s2eds/wiz550s2e_dimension.jpg").default}><img src={require("/img/products/wiz550s2e/wiz550s2eds/wiz550s2e_dimension.jpg").default} alt=""/></a>
+![](/img/products/wiz550s2e/wiz550s2eds/wiz550s2e_dimension.jpg)
 
 -----
 
 ### WIZ550S2E-232 Interface board
 
-<a target="_blank" href={require("/img/products/wiz550s2e/wiz550s2eds/rs232if_dimension.jpg").default}><img src={require("/img/products/wiz550s2e/wiz550s2eds/rs232if_dimension.jpg").default} alt=""/></a>
+![](/img/products/wiz550s2e/wiz550s2eds/rs232if_dimension.jpg)
 
 -----
 
 ### WIZ550S2E-485/422 Interface board
 
-<a target="_blank" href={require("/img/products/wiz550s2e/wiz550s2eds/rs485-422if_dimension.jpg").default}><img src={require("/img/products/wiz550s2e/wiz550s2eds/rs485-422if_dimension.jpg").default} alt=""/></a>
+![](/img/products/wiz550s2e/wiz550s2eds/rs485-422if_dimension.jpg)

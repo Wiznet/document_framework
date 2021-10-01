@@ -56,7 +56,7 @@ Protocol and other public function modules.
         : Describes chip on-line debug configuration under KEIL IDE.
         ## Chip vendor original page
 
-<a target="_blank" href={require("/img/products/w5500/w5500_evb/icons/link.png").default}><img src={require("/img/products/w5500/w5500_evb/icons/link.png").default} alt=""/></a>
+![](/img/products/w5500/w5500_evb/icons/link.png)
 🌎[W600](http://www.winnermicro.com/en/html/1/156/158/497.html) :
 WinnerMicro W600 download Page
 

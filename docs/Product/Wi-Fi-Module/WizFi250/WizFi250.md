@@ -15,7 +15,7 @@ limited or no WiFi or RF expertise, as it not only reduces RF design
 time but also removes the burden of testing and certification, allowing
 customers; allowing customers to focus on their core application,
 product, or expertise. WizFi250 is compliant with 802.11b/g/n.  
-<a target="_blank" href={require("/img/products/wizfi250/dsc00057.jpg").default}><img src={require("/img/products/wizfi250/dsc00057.jpg").default} alt=""/></a>  
+![](/img/products/wizfi250/dsc00057.jpg)  
 
 
 ## Features 
@@ -53,10 +53,10 @@ footprint) :
 
 **WizFi250-CON** (smaller '**con**nector' version without the pattern
 antenna) :  
-<a target="_blank" href={require("/img/products/wizfi250/wizfi250-con_2_small.png").default}><img src={require("/img/products/wizfi250/wizfi250-con_2_small.png").default} alt="WizFi250-CON\_2\_small.png"/></a>  
+![WizFi250-CON\_2\_small.png](/img/products/wizfi250/wizfi250-con_2_small.png)  
  
 **WizFi250-H** (pin **H**eader adapter version - we use in our EVB) :  
-<a target="_blank" href={require("/img/products/wizfi250/wizfi250-h_1_small.png").default}><img src={require("/img/products/wizfi250/wizfi250-h_1_small.png").default} alt="](/img/products/wizfi310/wizfi250-h_2.gif)!["/></a>  
+![](/img/products/wizfi310/wizfi250-h_2.gif)![](/img/products/wizfi250/wizfi250-h_1_small.png)  
   
 **comparison to
 🌎[WizFi210/220](http://www.wiznet.co.kr/sub_modules/en/product/Product_Line.asp?cate1=5&cate2=43)

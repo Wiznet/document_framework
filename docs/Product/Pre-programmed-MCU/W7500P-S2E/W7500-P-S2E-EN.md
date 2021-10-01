@@ -22,9 +22,9 @@ in the WIZnet W7500 / W7500P MCU. This product includes the latest
 'WIZ750SR serial to Ethernet module' firmware for widely used in various
 applications around the world
 
-<a target="_blank" href={require("/img/products/w7500-s2e/s2e_img_2.png").default}><img src={require("/img/products/w7500-s2e/s2e_img_2.png").default} alt="s2e_img_2"/></a>
+![s2e_img_2](/img/products/w7500-s2e/s2e_img_2.png)
 
-<a target="_blank" href={require("/img/products/w7500-s2e/ready-made.png").default}><img src={require("/img/products/w7500-s2e/ready-made.png").default} alt="ready-made"/></a>
+![ready-made](/img/products/w7500-s2e/ready-made.png)
 
 ### WIZnet S2E Solution
 
@@ -56,12 +56,12 @@ applications around the world
   - Supports the TCP, UDP, IPv4, ICMP, ARP, IGMP and PPPoE
 
  
-<a target="_blank" href={require("/img/products/w7500-s2e/w7500_c_500x500.png").default}><img src={require("/img/products/w7500-s2e/w7500_c_500x500.png").default} alt="w7500_c_500x500"/></a>
+![w7500_c_500x500](/img/products/w7500-s2e/w7500_c_500x500.png)
 
 [W7500](../../iMCU/W7500/Overview.md) 
 MII supported for PHY interface 
 
-<a target="_blank" href={require("/img/products/w7500-s2e/w7500p_c_500x500.png").default}><img src={require("/img/products/w7500-s2e/w7500p_c_500x500.png").default} alt="w7500p_c_500x500"/></a>
+![w7500p_c_500x500](/img/products/w7500-s2e/w7500p_c_500x500.png)
 
 [W7500P](../../iMCU/W7500P/Overview.md)  
 10/100 Ethernet PHY integrated
@@ -157,7 +157,7 @@ Update History [(English)](../../S2E-Module/WIZ750SR/series_update_history-EN)/[
 
 WIZnet offers **Customization services** for your specific needs.
 
-<a target="_blank" href={require("/img/products/w7500-s2e/wiznet-partners_relationship.png").default}><img src={require("/img/products/w7500-s2e/wiznet-partners_relationship.png").default} alt=""/></a>
+![](/img/products/w7500-s2e/wiznet-partners_relationship.png)
 
 We can provide customization services based on W7500(P)-S2E chip
 products: Depending on the customer application, it is possible to
@@ -173,7 +173,7 @@ references for customer's **quick product design-win**.
 
 ### What We Offer
 
-<a target="_blank" href={require("/img/products/w7500-s2e/what-we-offer.png").default}><img src={require("/img/products/w7500-s2e/what-we-offer.png").default} alt=""/></a>
+![](/img/products/w7500-s2e/what-we-offer.png)
 
 
 #### Addable features

@@ -8,7 +8,7 @@ date: 2020-04-09
 * [English](getting_started-EN) 
 * [Korean](getting_started-KO) (current page)
 
-<a target="_blank" href={require("/img/products/wiz750sr/docs_icon.png").default}><img src={require("/img/products/wiz750sr/docs_icon.png").default} alt=""/></a>
+![](/img/products/wiz750sr/docs_icon.png)
 
 -----
 
@@ -40,12 +40,12 @@ Contents](overview-KO#product-contents) 페이지에서 확인
 
 |                                                                               |
 | ----------------------------------------------------------------------------- |
-| <a target="_blank" href={require("/img/products/wiz750sr-110/gettingstarted/wiz750sr-110_device_layout_top.png").default}><img src={require("/img/products/wiz750sr-110/gettingstarted/wiz750sr-110_device_layout_top.png").default} alt=""/></a> |
+| ![](/img/products/wiz750sr-110/gettingstarted/wiz750sr-110_device_layout_top.png) |
 | Figure: ***WIZ750SR-110 Revision 1.0 전면부***                                   |
 
 |                                                                                  |
 | -------------------------------------------------------------------------------- |
-| <a target="_blank" href={require("/img/products/wiz750sr-110/gettingstarted/wiz750sr-110_device_layout_bottom.png").default}><img src={require("/img/products/wiz750sr-110/gettingstarted/wiz750sr-110_device_layout_bottom.png").default} alt=""/></a> |
+| ![](/img/products/wiz750sr-110/gettingstarted/wiz750sr-110_device_layout_bottom.png) |
 | Figure: ***WIZ750SR-110 Revision 1.0 후면부***                                      |
 
 ### Parts
@@ -241,7 +241,7 @@ PC의 Configuration tool을 실행하여 상단 Search 버튼을 클릭합니다
 
 |                                                       |
 | ----------------------------------------------------- |
-| <a target="_blank" href={require("/img/products/wiz750sr/gettingstarted/configtool.png").default}><img src={require("/img/products/wiz750sr/gettingstarted/configtool.png").default} alt=""/></a> |
+| ![](/img/products/wiz750sr/gettingstarted/configtool.png) |
 | Figure: **WIZnet Configuration Tool**                 |
 
 #### Step 4: Set up your WIZ750SR-110
@@ -267,7 +267,7 @@ PC를 사용자 시리얼 장치 및 TCP 클라이언트로 삼아 데이터 통
 
 |                                                                  |
 | ---------------------------------------------------------------- |
-| <a target="_blank" href={require("/img/products/wiz750sr/gettingstarted/windows_devicemanager.png").default}><img src={require("/img/products/wiz750sr/gettingstarted/windows_devicemanager.png").default} alt=""/></a> |
+| ![](/img/products/wiz750sr/gettingstarted/windows_devicemanager.png) |
 | Figure: Device Manager                                           |
 
 #### Step 6: Verify

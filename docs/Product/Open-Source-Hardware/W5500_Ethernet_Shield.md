@@ -15,7 +15,7 @@ click the link for the further information about
 [W5500](../iEthernet/W5500/overview). It supports both 3.3V & 5V. This
 Ethernet Shield is compatible with Arduino and ARM mbed Platform.
 
-<a target="_blank" href={require("/img/osh/w5500_ethernet_shield/w5500_main_picture2.png").default}><img src={require("/img/osh/w5500_ethernet_shield/w5500_main_picture2.png").default} alt=""/></a>
+![](/img/osh/w5500_ethernet_shield/w5500_main_picture2.png)
 
 ## Available Board List
 
@@ -63,7 +63,7 @@ Ethernet Shield is compatible with Arduino and ARM mbed Platform.
   - Support SD-card slot for storage
   - Support I2C, UART interface
 
-<a target="_blank" href={require("/img/osh/w5500_ethernet_shield/w5500_ethernet_pin2.png").default}><img src={require("/img/osh/w5500_ethernet_shield/w5500_ethernet_pin2.png").default} alt=""/></a>
+![](/img/osh/w5500_ethernet_shield/w5500_ethernet_pin2.png)
 
 ## Hardware Configuration
 
@@ -77,7 +77,7 @@ Ethernet Shield is compatible with Arduino and ARM mbed Platform.
 
 ## Pins usage on Arduino & ARM mbed
 
-<a target="_blank" href={require("/img/osh/w5500_ethernet_shield/gpio_select_intn.png").default}><img src={require("/img/osh/w5500_ethernet_shield/gpio_select_intn.png").default} alt=""/></a>
+![](/img/osh/w5500_ethernet_shield/gpio_select_intn.png)
 
 W5500 Ethernet shield has several configurable GPIOs
 
@@ -116,7 +116,7 @@ to the chip's datasheet:
 
   - Using buffer
 
-<a target="_blank" href={require("/img/osh/w5500_ethernet_shield/w5500-ethernet-shield_blockdiagram_buffer.jpg").default}><img src={require("/img/osh/w5500_ethernet_shield/w5500-ethernet-shield_blockdiagram_buffer.jpg").default} alt=""/></a>
+![](/img/osh/w5500_ethernet_shield/w5500-ethernet-shield_blockdiagram_buffer.jpg)
 
 **Rev 1.0 Schematic**
 
@@ -154,7 +154,7 @@ to the chip's datasheet:
     Rev1.0.**
   - W5500 Ethernet shield Rev1.0/1.1 Dimension
 
-<a target="_blank" href={require("/img/osh/w5500_ethernet_shield/w5500-ethernet-shield_dimension.png").default}><img src={require("/img/osh/w5500_ethernet_shield/w5500-ethernet-shield_dimension.png").default} alt=""/></a>
+![](/img/osh/w5500_ethernet_shield/w5500-ethernet-shield_dimension.png)
 
 -----
 ## Etc.

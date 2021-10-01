@@ -27,7 +27,7 @@ There are four ways to write firmware into.
 1. When you connect the USB cable to the WIZwiki-W7500, PC recognized as a removable disk. Removable disk name is MBED.
 
 2. You "drag and drop" or copy the firmware to the removable disk, the firmware writing progress has completed.  
-<a target="_blank" href={require("/img/products/w7500/overview/drap_n_drop.png").default}><img src={require("/img/products/w7500/overview/drap_n_drop.png").default} alt="Drag and drop"/></a>
+![Drag and drop](/img/products/w7500/overview/drap_n_drop.png)
 
 3. After completing the firmware writing, open to check the removable disk.
 
@@ -44,16 +44,16 @@ CMSIS-DAP does support USB cable and Debugger as well. You need to [Set Flash Al
 ### To Follow
 
 1. Click 'Flash' in top menu and open 'Configure Flash Tools'. Set 'Debug' on top menu with choosing 'CMSIS-DAP Debugger'. 
-<a target="_blank" href={require("/img/products/wizwiki_w7500/cmsis_debug_1.jpg").default}><img src={require("/img/products/wizwiki_w7500/cmsis_debug_1.jpg").default} alt=""/></a>
+![](/img/products/wizwiki_w7500/cmsis_debug_1.jpg)
 
 2. Click 'Utilities' and choose 'CMSIS-DAP Debugger'. Open 'Settings' menu and unchecked 'SWJ' in Debug menu. Then confirm 'ARM CoreSight SW-DP' set on SW Device. 
-<a target="_blank" href={require("/img/products/wizwiki_w7500/cmsis_debug_2-1.jpg").default}><img src={require("/img/products/wizwiki_w7500/cmsis_debug_2-1.jpg").default} alt=""/></a>
+![](/img/products/wizwiki_w7500/cmsis_debug_2-1.jpg)
 
 3. Next to the Debug menu bar, Click 'Flash Download' and set 'Erase Full Chip' in Download Function, '0x20000000 to 0x4000' in RAM for Algorithm, Add 'W7500_128KB_FLASH' on Programming Algorithm. After checking it with below figure, click 'OK'. 
-<a target="_blank" href={require("/img/products/wizwiki_w7500/cmsis_debug_3-1.jpg").default}><img src={require("/img/products/wizwiki_w7500/cmsis_debug_3-1.jpg").default} alt=""/></a>  
+![](/img/products/wizwiki_w7500/cmsis_debug_3-1.jpg)  
 
 4. Download the firmware into WIZwiki-W7500. You can check complete message and the CMSIS-DAP Debugger at the bottom. Chick the 'Debug icon' or **Ctrl+F5** to debug. 
-<a target="_blank" href={require("/img/products/wizwiki_w7500/cmsis_debug_4.jpg").default}><img src={require("/img/products/wizwiki_w7500/cmsis_debug_4.jpg").default} alt=""/></a>
+![](/img/products/wizwiki_w7500/cmsis_debug_4.jpg)
 
 -----
 
@@ -77,12 +77,12 @@ When W7500P is in the BOOT mode, firmware writing is possible via the
 USB Cable. As USB Connector supports the UART2 signals, you need to
 connect between your PC and WIZwiki-W7500P with Mini-USB Cable.  
 Please refer the block diagram setting as below.  
-<a target="_blank" href={require("/img/products/wizwiki_w7500p/start_getting_started/write_firmware/isp_block_2.png").default}><img src={require("/img/products/wizwiki_w7500p/start_getting_started/write_firmware/isp_block_2.png").default} alt="ISP Block Diagram"/></a>
+![ISP Block Diagram](/img/products/wizwiki_w7500p/start_getting_started/write_firmware/isp_block_2.png)
 
 **To follow**
 
 1\. Run "W7500\_ISP (20xxxxxx) .exe"  
-**W7500P uses the same as W7500 ISP Program.** <a target="_blank" href={require("/img/products/wizwiki_w7500/getting_started/isp.png").default}><img src={require("/img/products/wizwiki_w7500/getting_started/isp.png").default} alt="ISP Program"/></a>
+**W7500P uses the same as W7500 ISP Program.** ![ISP Program](/img/products/wizwiki_w7500/getting_started/isp.png)
 
 2\. **To make WIZwiki-W7500P enter the Boot Mode, supply power once
 while pressing the SW2,BOOT switch.**  
@@ -96,16 +96,16 @@ window.
 > After opening serial port using the terminal windows,enter the capital
 > "U". If it is in the ISP mode, you can see the returned character.**
 
-<a target="_blank" href={require("/img/products/wizwiki_w7500/getting_started/isp_set.png").default}><img src={require("/img/products/wizwiki_w7500/getting_started/isp_set.png").default} alt="ISP Program Setting"/></a>
+![ISP Program Setting](/img/products/wizwiki_w7500/getting_started/isp_set.png)
 
 4\. Click "Browse" to select the binary file.  
-<a target="_blank" href={require("/img/products/wizwiki_w7500/getting_started/isp_start.png").default}><img src={require("/img/products/wizwiki_w7500/getting_started/isp_start.png").default} alt="ISP Program Binary Select"/></a>
+![ISP Program Binary Select](/img/products/wizwiki_w7500/getting_started/isp_start.png)
 
 5\. Click "ISP Start" button, then the firmware writing will be
 performed.  
 6\. After the firmware writing completes, the window like below will pop
 up.  
-<a target="_blank" href={require("/img/products/wizwiki_w7500/getting_started/isp_complete.png").default}><img src={require("/img/products/wizwiki_w7500/getting_started/isp_complete.png").default} alt="ISP Complete"/></a>
+![ISP Complete](/img/products/wizwiki_w7500/getting_started/isp_complete.png)
 
 -----
 
@@ -121,16 +121,16 @@ This page shows how to write and debug firmware in WIZwiki-W7500 with an externa
 1. You can find SWD Header in the middle of WIZwiki-W7500 and Debugger Sel Jumper with three caps above it.  
 Then open the J3, J4, J5 jumper cap in Debugger Sel Jumper.  
 Now, your WIZwiki-W7500 is ready to connect the SWD debugger.
-<a target="_blank" href={require("/img/products/wizwiki_w7500/swd_header_debugger_jumper.png").default}><img src={require("/img/products/wizwiki_w7500/swd_header_debugger_jumper.png").default} alt=""/></a>  
+![](/img/products/wizwiki_w7500/swd_header_debugger_jumper.png)  
  
 2. Connect ULINK debugger and SWD Header. At this moment, be careful of matching pin number.
 
 3. Setting [Flash Algorithm](how_to_debug_wizwiki_w7500#set-flash-algorithm) and ULINK debugger in Keil and  
 Download on WIZwiki-W7500. Then you can check the success message.
 
-<a target="_blank" href={require("/img/products/wizwiki_w7500/set_ulink_in_keil5.png").default}><img src={require("/img/products/wizwiki_w7500/set_ulink_in_keil5.png").default} alt=""/></a>
+![](/img/products/wizwiki_w7500/set_ulink_in_keil5.png)
 
-<a target="_blank" href={require("/img/products/wizwiki_w7500/set_flash_in_keil.png").default}><img src={require("/img/products/wizwiki_w7500/set_flash_in_keil.png").default} alt=""/></a>
+![](/img/products/wizwiki_w7500/set_flash_in_keil.png)
 
 ---
 

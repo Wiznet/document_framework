@@ -4,7 +4,7 @@ title: WizFi210-EVB
 date: 2021-07-16
 ---
 
-<a target="_blank" href={require("/img/products/wizfi210/ShopEtc1_1133_20150123170100.jpg").default}><img src={require("/img/products/wizfi210/ShopEtc1_1133_20150123170100.jpg").default} alt=""/></a>
+![](/img/products/wizfi210/ShopEtc1_1133_20150123170100.jpg)
 
 ## Overview
 
@@ -22,5 +22,5 @@ WizFi210 is a Wi-Fi module in 2.4GHz, 802.11b standard and also provides the rob
 
 ## WizFi210-EVB User Interface
 
-<a target="_blank" href={require("/img/products/wizfi210/210-interface.jpg").default}><img src={require("/img/products/wizfi210/210-interface.jpg").default} alt=""/></a>
+![](/img/products/wizfi210/210-interface.jpg)
 

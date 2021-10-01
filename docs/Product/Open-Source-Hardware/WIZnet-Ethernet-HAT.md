@@ -19,7 +19,7 @@ Please refer to this link to find more information about [W5100S](../../Product/
 - Raspberry Pi Pico Pin-Compatible
 - Ethernet (W5100S Hardwired TCP/IP CHIP)
 
-<a target="_blank" href={require("/img/osh/wiznet_ethernet_hat/wiznet_ethernet_hat.png").default}><img src={require("/img/osh/wiznet_ethernet_hat/wiznet_ethernet_hat.png").default} alt=""/></a>
+![](/img/osh/wiznet_ethernet_hat/wiznet_ethernet_hat.png)
 
 ## Features
 
@@ -41,14 +41,7 @@ Please refer to this link to find more information about [W5100S](../../Product/
 
 ### Pin-out
 
-<a
-  target="_blank"
-  href={require('/img/osh/wiznet_ethernet_hat/wiznet_ethernet_hat_pinout_v1.png').default}>
-  <img
-  src={require('/img/osh/wiznet_ethernet_hat/wiznet_ethernet_hat_pinout_v1.png').default}
-  alt="WIZnet_Ethernet_HAT_3D_Pinout"
-  />
-</a>
+![WIZnet_Ethernet_HAT_3D_Pinout](/img/osh/wiznet_ethernet_hat/wiznet_ethernet_hat_pinout.png)
 
 ### Pin Description
 
@@ -82,21 +75,13 @@ TBA
 
 ### Schematic
 
-<a
-  target="_blank"
-  href={require('/img/osh/wiznet_ethernet_hat/wiznet_ethernet_hat_schematic.png').default}>
-  <img
-  src={require('/img/osh/wiznet_ethernet_hat/wiznet_ethernet_hat_schematic.png').default}
-  alt="WIZnet_Ethernet_HAT_Schematic"
-  />
-</a>
-
+![WIZnet_Ethernet_HAT_Schematic](/img/osh/wiznet_ethernet_hat/wiznet_ethernet_hat_schematic.png)
 
 ### Dimension (Unit : mm)
 
 21 x 68 x 18 (mm)
 
-<a target="_blank" href={require("/img/osh/wiznet_ethernet_hat/wiznet_ethernet_hat_dimension.png").default}><img src={require("/img/osh/wiznet_ethernet_hat/wiznet_ethernet_hat_dimension.png").default} alt="WIZnet_Ethernet_HAT_Dimension"/></a>
+![WIZnet_Ethernet_HAT_Dimension](/img/osh/wiznet_ethernet_hat/wiznet_ethernet_hat_dimension.png)
 
 
 ### Firmware Examples

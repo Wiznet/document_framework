@@ -582,7 +582,7 @@ CR(0x0D), LF(0x0A)로 끝나야한다.** 어떤 인자들은 필수항목이고 
 
   - ***Example 2: 데이터를 받는 형태***
 
-<a target="_blank" href={require("/img/products/wiz550s2e/recieve.png").default}><img src={require("/img/products/wiz550s2e/recieve.png").default} alt=""/></a>  
+![](/img/products/wiz550s2e/recieve.png)  
 위 그림은 "AT+NOPEN=S,5000,,"로 소켓을 생성하고, Client가 모듈에 접속한 상태에서 모듈에게 "Hello
 World"를 전송한 그림이다. 모듈은 받은 데이터를 아래와 같이 표시함을 알 수 있다. [R,0,11]
 Hello World

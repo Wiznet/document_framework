@@ -17,7 +17,7 @@ network information like IP address, Subnet mask and Gateway address.
 The WIZ550io is an ideal product for users who want to develop their
 Internet enabling systems rapidly.
 
-<a target="_blank" href={require("/img/products/wiz550io/wiz550io_small_005.png").default}><img src={require("/img/products/wiz550io/wiz550io_small_005.png").default} alt=""/></a>
+![](/img/products/wiz550io/wiz550io_small_005.png)
 
 For more information on the [W5500](../../iEthernet/w5500/overview) chip inside the WIZ550io module please also refer to the chip's [datasheet](../../iEthernet/w5500/datasheet).
 
@@ -58,11 +58,11 @@ For more information on the [W5500](../../iEthernet/w5500/overview) chip inside 
 
 ### Pin Map
 
-<a target="_blank" href={require("/img/products/wiz550io/wiz550io_pin_map.jpg").default}><img src={require("/img/products/wiz550io/wiz550io_pin_map.jpg").default} alt=""/></a>
+![](/img/products/wiz550io/wiz550io_pin_map.jpg)
 
 ### Pin out
 
-<a target="_blank" href={require("/img/products/wiz550io/wiz550io_pinout_20140513_v4_mounthole_.jpg").default}><img src={require("/img/products/wiz550io/wiz550io_pinout_20140513_v4_mounthole_.jpg").default} alt=""/></a>
+![](/img/products/wiz550io/wiz550io_pinout_20140513_v4_mounthole_.jpg)
 
 **Revision 1.2 version pinout is same to revision1.1 version.**
 
@@ -332,7 +332,7 @@ WIZ550io, please refer to [W5500 Datasheet](../../iEthernet/w5500/datasheet).
 ## Timing diagram
 
 
-<a target="_blank" href={require("/img/products/wiz550io/nreset_rdy_timing.jpg").default}><img src={require("/img/products/wiz550io/nreset_rdy_timing.jpg").default} alt=""/></a>
+![](/img/products/wiz550io/nreset_rdy_timing.jpg)
 
 | Symbol | Description                      | Min   | Max  |
 | ------ | -------------------------------- | ----- | ---- |
@@ -341,7 +341,7 @@ WIZ550io, please refer to [W5500 Datasheet](../../iEthernet/w5500/datasheet).
 
 ### SPI Timing
 
-<a target="_blank" href={require("/img/products/wiz550io/spi_timing.jpg").default}><img src={require("/img/products/wiz550io/spi_timing.jpg").default} alt=""/></a>
+![](/img/products/wiz550io/spi_timing.jpg)
 
 | Symbol | Description          | Min | Max | Units |
 | ------ | -------------------- | --- | --- | ----- |
@@ -352,7 +352,7 @@ WIZ550io, please refer to [W5500 Datasheet](../../iEthernet/w5500/datasheet).
 
 ## Block Diagram & Schematic
 
-<a target="_blank" href={require("/img/products/wiz550io/wiz550io_blockdiagram_140207.png").default}><img src={require("/img/products/wiz550io/wiz550io_blockdiagram_140207.png").default} alt=""/></a>
+![](/img/products/wiz550io/wiz550io_blockdiagram_140207.png)
 
 ### Schematic
 
@@ -376,12 +376,12 @@ WIZ550io, please refer to [W5500 Datasheet](../../iEthernet/w5500/datasheet).
 
 ### WIZ550io Ver1.0
 
-<a target="_blank" href={require("/img/products/wiz550io/wiz550io_v1.0_dimension.jpg").default}><img src={require("/img/products/wiz550io/wiz550io_v1.0_dimension.jpg").default} alt=""/></a>
+![](/img/products/wiz550io/wiz550io_v1.0_dimension.jpg)
 
 ### WIZ550io Ver1.1
 
 54mm(W) x 26mm(L) x 24mm(H) (±0.5)
-<a target="_blank" href={require("/img/products/wiz550io/wiz550io_v1.1_dimension.png").default}><img src={require("/img/products/wiz550io/wiz550io_v1.1_dimension.png").default} alt=""/></a>
+![](/img/products/wiz550io/wiz550io_v1.1_dimension.png)
 
 ### WIZ550io Ver1.2
 
@@ -390,11 +390,11 @@ WIZ550io, please refer to [W5500 Datasheet](../../iEthernet/w5500/datasheet).
 Same to Ver1.1 and Ver1.2 PCB all size and hole size. There is little
 change in all parts placement.
 
-\* TOP <a target="_blank" href={require("/img/products/wiz550io/wiz550io_topview.png").default}><img src={require("/img/products/wiz550io/wiz550io_topview.png").default} alt=""/></a>
+\* TOP ![](/img/products/wiz550io/wiz550io_topview.png)
 
-\* BOTTOM <a target="_blank" href={require("/img/products/wiz550io/wiz550io_bottomview.png").default}><img src={require("/img/products/wiz550io/wiz550io_bottomview.png").default} alt=""/></a>
+\* BOTTOM ![](/img/products/wiz550io/wiz550io_bottomview.png)
 
-\* Drill <a target="_blank" href={require("/img/products/wiz550io/wiz550io_drillview.png").default}><img src={require("/img/products/wiz550io/wiz550io_drillview.png").default} alt=""/></a>
+\* Drill ![](/img/products/wiz550io/wiz550io_drillview.png)
 
 ## Related Products
 

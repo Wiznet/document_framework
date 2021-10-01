@@ -6,29 +6,29 @@ date: 2020-04-03
 
 ## Step 1: Run Arduino Sketch
 
-<a target="_blank" href={require("/img/osh/w5500_ethernet_shield/add_ethernet2_library_0.png").default}><img src={require("/img/osh/w5500_ethernet_shield/add_ethernet2_library_0.png").default} alt="Run Arduino Sketch"/></a>
+![Run Arduino Sketch](/img/osh/w5500_ethernet_shield/add_ethernet2_library_0.png)
 
 -----
 
 ## Step 2: Installing the Ethernet2 Library
 
 \*\*Tool bar \> Sketch \> Include Library \> Manage Livraries... \*\*  
-<a target="_blank" href={require("/img/osh/w5500_ethernet_shield/add_ethernet2_library_1.png").default}><img src={require("/img/osh/w5500_ethernet_shield/add_ethernet2_library_1.png").default} alt="Tool bar \> Sketch \> Include Library \> Manage Livraries..."/></a>  
+![Tool bar \> Sketch \> Include Library \> Manage Livraries...](/img/osh/w5500_ethernet_shield/add_ethernet2_library_1.png)  
 
 -----
 
 **Search to Ethernet2**  
-<a target="_blank" href={require("/img/osh/w5500_ethernet_shield/add_ethernet2_library_2.png").default}><img src={require("/img/osh/w5500_ethernet_shield/add_ethernet2_library_2.png").default} alt="Search to Ethernet2"/></a>  
+![Search to Ethernet2](/img/osh/w5500_ethernet_shield/add_ethernet2_library_2.png)  
 
 -----
 
 **Install the latest version**  
-<a target="_blank" href={require("/img/osh/w5500_ethernet_shield/add_ethernet2_library_3.png").default}><img src={require("/img/osh/w5500_ethernet_shield/add_ethernet2_library_3.png").default} alt="Install the latest version"/></a>  
+![Install the latest version](/img/osh/w5500_ethernet_shield/add_ethernet2_library_3.png)  
 
 -----
 
 **Check the Installed**  
-<a target="_blank" href={require("/img/osh/w5500_ethernet_shield/add_ethernet2_library_4.png").default}><img src={require("/img/osh/w5500_ethernet_shield/add_ethernet2_library_4.png").default} alt="Check the Installed"/></a>
+![Check the Installed](/img/osh/w5500_ethernet_shield/add_ethernet2_library_4.png)
 
 -----
 
@@ -36,4 +36,4 @@ date: 2020-04-03
 
 **Completed add to Ethernet 2 library**
 
-<a target="_blank" href={require("/img/osh/w5500_ethernet_shield/add_ethernet2_library_5.png").default}><img src={require("/img/osh/w5500_ethernet_shield/add_ethernet2_library_5.png").default} alt="Completed add to Ethernet 2 library"/></a>
+![Completed add to Ethernet 2 library](/img/osh/w5500_ethernet_shield/add_ethernet2_library_5.png)

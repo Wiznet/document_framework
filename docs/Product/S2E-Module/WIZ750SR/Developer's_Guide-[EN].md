@@ -8,7 +8,7 @@ date: 2020-04-08
 [English](developers_guide-EN) (current page)  
 [Korean](developers_guide-KO)
 
-<a target="_blank" href={require("/img/products/wiz750sr/docs_icon.png").default}><img src={require("/img/products/wiz750sr/docs_icon.png").default} alt=""/></a>
+![](/img/products/wiz750sr/docs_icon.png)
 
 -----
 
@@ -74,7 +74,7 @@ steps: (WIZ750SR-EVB Rev1.0)
   -  If the AppBoot mode is successfully activated, the Status LED of
     the module flickers rapidly.
 
-<a target="_blank" href={require("/img/products/wiz750sr/developers/wiz750sr-evb-appboot-boxxx.png").default}><img src={require("/img/products/wiz750sr/developers/wiz750sr-evb-appboot-boxxx.png").default} alt=""/></a>
+![](/img/products/wiz750sr/developers/wiz750sr-evb-appboot-boxxx.png)
 
 **2. Device Search using Configuration Tool**
 
@@ -86,7 +86,7 @@ steps: (WIZ750SR-EVB Rev1.0)
   - If the device is in AppBoot mode, the status of the detected device
     is displayed as 'BOOT'.
 
-<a target="_blank" href={require("/img/products/wiz750sr/developers/configtool-status-boot-box.png").default}><img src={require("/img/products/wiz750sr/developers/configtool-status-boot-box.png").default} alt=""/></a>
+![](/img/products/wiz750sr/developers/configtool-status-boot-box.png)
 
 **3. Device update by New firmware**
 
@@ -126,7 +126,7 @@ Next, Check the COM port number of the connected device. Open the Device
 Manager and check the COM port number of **'Silicon Labs CP210x USB to
 UART Bridge (COMX)'**.
 
-<a target="_blank" href={require("/img/products/wiz750sr/developerguide/isptool/en_device_manager.png").default}><img src={require("/img/products/wiz750sr/developerguide/isptool/en_device_manager.png").default} alt="Device Manager"/></a>
+![Device Manager](/img/products/wiz750sr/developerguide/isptool/en_device_manager.png)
 
 :::note
 If the driver does not install
@@ -143,7 +143,7 @@ it.
 \- Change to boot mode: Set the 'BOOT' Slide switch of WIZ750SR-EVB to
 'BOOT' as shown in the picture below, then reboot the device.
 
-<a target="_blank" href={require("/img/products/wiz750sr/developerguide/boot_sw.png").default}><img src={require("/img/products/wiz750sr/developerguide/boot_sw.png").default} alt=""/></a>
+![](/img/products/wiz750sr/developerguide/boot_sw.png)
 
 **2. Firmware Update**
 
@@ -154,11 +154,11 @@ Run the W7500 ISP program.
   - Click 'Open' button. If you entered Boot Mode successfully, then
     'Serial Open Complete' message will be printed on the status bar.
 
-<a target="_blank" href={require("/img/products/wiz750sr/developers/fwupdate-wizisp/isp_tool-1-201807.png").default}><img src={require("/img/products/wiz750sr/developers/fwupdate-wizisp/isp_tool-1-201807.png").default} alt=""/></a>
+![](/img/products/wiz750sr/developers/fwupdate-wizisp/isp_tool-1-201807.png)
 
   - Set the **'Erase All Code Memory'** in **'Step 2 - Erase'.**
 
-<a target="_blank" href={require("/img/products/wiz750sr/developers/fwupdate-wizisp/isp_tool-2-201807.png").default}><img src={require("/img/products/wiz750sr/developers/fwupdate-wizisp/isp_tool-2-201807.png").default} alt=""/></a>
+![](/img/products/wiz750sr/developers/fwupdate-wizisp/isp_tool-2-201807.png)
 
 :::note
 If you flashing binary with the
@@ -170,11 +170,11 @@ address) will be erased.**
   - Click the 'ISP Start' button, then the firmware writing will be
     performed.
 
-<a target="_blank" href={require("/img/products/wiz750sr/developerguide/processing.png").default}><img src={require("/img/products/wiz750sr/developerguide/processing.png").default} alt=""/></a>
+![](/img/products/wiz750sr/developerguide/processing.png)
 
   - Done.
 
-<a target="_blank" href={require("/img/products/wiz750sr/developerguide/complete.png").default}><img src={require("/img/products/wiz750sr/developerguide/complete.png").default} alt=""/></a>
+![](/img/products/wiz750sr/developerguide/complete.png)
 
 Finally, after changing the 'Boot' switch to 'Normal', reboot the
 device.
@@ -200,7 +200,7 @@ of WIZ750SR device. So, check the COM port number of the connected
 device. Open the Device Manager and check the COM port number of
 'Silicon Labs CP210x USB to UART Bridge (COMX)'.
 
-<a target="_blank" href={require("/img/products/wiz750sr/developerguide/isptool/en_device_manager.png").default}><img src={require("/img/products/wiz750sr/developerguide/isptool/en_device_manager.png").default} alt="Device Manager"/></a>
+![Device Manager](/img/products/wiz750sr/developerguide/isptool/en_device_manager.png)
 
 :::note
 If the driver does not install
@@ -214,7 +214,7 @@ it.
 
   - Reboot after placing all the slide switch on the EVB to 'normal'.
 
-<a target="_blank" href={require("/img/products/wiz750sr/developers/restore-mac/wiz750sr-evb-switch_normal.png").default}><img src={require("/img/products/wiz750sr/developers/restore-mac/wiz750sr-evb-switch_normal.png").default} alt=""/></a>
+![](/img/products/wiz750sr/developers/restore-mac/wiz750sr-evb-switch_normal.png)
 
 **2. Run the WizMACTool program**
 
@@ -225,7 +225,7 @@ it.
   - Check the option 'For Writing WIZ107SR MAC'(compatible type device
     with WIZ750SR)
 
-<a target="_blank" href={require("/img/products/wiz750sr/developers/restore-mac/wiz750sr-wizmactool-1.png").default}><img src={require("/img/products/wiz750sr/developers/restore-mac/wiz750sr-wizmactool-1.png").default} alt=""/></a>
+![](/img/products/wiz750sr/developers/restore-mac/wiz750sr-wizmactool-1.png)
 
 **4. Press the 'Write MAC' button**
 
@@ -234,7 +234,7 @@ it.
   - You can check if the MAC address has been successfully entered
     through the serial terminal at the bottom of the program.
 
-<a target="_blank" href={require("/img/products/wiz750sr/developers/restore-mac/wiz750sr-wizmactool-2.png").default}><img src={require("/img/products/wiz750sr/developers/restore-mac/wiz750sr-wizmactool-2.png").default} alt=""/></a>
+![](/img/products/wiz750sr/developers/restore-mac/wiz750sr-wizmactool-2.png)
 
 </details>
 

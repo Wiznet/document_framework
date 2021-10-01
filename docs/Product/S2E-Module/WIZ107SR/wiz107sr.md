@@ -6,7 +6,7 @@ date: 2021-07-21
 
 ## Overview
 
-<a target="_blank" href={require("/img/products/wiz107sr/WIZ108SR-1-e1429085175138.jpg").default}><img src={require("/img/products/wiz107sr/WIZ108SR-1-e1429085175138.jpg").default} alt=""/></a>
+![](/img/products/wiz107sr/WIZ108SR-1-e1429085175138.jpg)
 
 WIZ107SR is the compact sized serial to Ethernet module using W7100A, WIZnet iMCU, 8051.  WIZ107SR is the protocol converter that transmits the data sent by serial equipment as TCP/IP data type, and converts back the TCP/IP data received through the network into serial data to transmit back to a serial equipment.
 
@@ -38,7 +38,7 @@ It complies with industrial temperature standard and supports the serial interfa
 
 ## Pin Assignment
 
-<a target="_blank" href={require("/img/products/wiz107sr/pin_map1.jpg").default}><img src={require("/img/products/wiz107sr/pin_map1.jpg").default} alt=""/></a>
+![](/img/products/wiz107sr/pin_map1.jpg)
 
 ## Download
 

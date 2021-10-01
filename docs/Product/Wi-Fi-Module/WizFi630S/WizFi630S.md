@@ -29,12 +29,12 @@ documents are available online.
 
 |                                                             |
 | ----------------------------------------------------------- |
-| <a target="_blank" href={require("/img/products/wizfi630s/500k_wizfi630s_top.png").default}><img src={require("/img/products/wizfi630s/500k_wizfi630s_top.png").default} alt="WizFi630S"/></a> |
+| ![WizFi630S](/img/products/wizfi630s/500k_wizfi630s_top.png) |
 | Figure: ***WizFi630S***                                     |
 
 |                                                                     |
 | ------------------------------------------------------------------- |
-| <a target="_blank" href={require("/img/products/wizfi630s/500k_wizfi630s_evb_top.png").default}><img src={require("/img/products/wizfi630s/500k_wizfi630s_evb_top.png").default} alt="WizFi630S-EVB"/></a> |
+| ![WizFi630S-EVB](/img/products/wizfi630s/500k_wizfi630s_evb_top.png) |
 | Figure: ***WizFi630S-EVB***                                         |
 
 -----
@@ -79,6 +79,6 @@ documents are available online.
 
 ## Q & A
 
-<a target="_blank" href={require("/img/link.png").default}><img src={require("/img/link.png").default} alt=""/></a> [WizFi630S Forum](https://forum.wiznet.io/c/wifi-module) : WIZnet Forum for Technical support and Project sharing
+![](/img/link.png) [WizFi630S Forum](https://forum.wiznet.io/c/wifi-module) : WIZnet Forum for Technical support and Project sharing
 
 -----

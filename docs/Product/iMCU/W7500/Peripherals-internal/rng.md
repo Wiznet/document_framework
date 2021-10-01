@@ -22,7 +22,7 @@ RNG is a 32bit random number generator. RNG generates power on random number whe
 
 The below Figure shows the RNG block diagram.
 
-<a target="_blank" href={require("/img/products/w7500p/peripheral/rng_block_diagram.jpg").default}><img src={require("/img/products/w7500p/peripheral/rng_block_diagram.jpg").default} alt="Figure 1 RNG block diagram"/></a>
+![Figure 1 RNG block diagram](/img/products/w7500p/peripheral/rng_block_diagram.jpg)
 
 ### Operation-RNG
 
@@ -36,7 +36,7 @@ Follow the procedure below to manually generate a random number.
 
 The below Figure show the flowchart of RNG operation. 
 
-<a target="_blank" href={require("/img/products/w7500p/peripheral/rng_flow_chart.jpg").default}><img src={require("/img/products/w7500p/peripheral/rng_flow_chart.jpg").default} alt=""/></a>
+![](/img/products/w7500p/peripheral/rng_flow_chart.jpg)
 
 
 ------------------------------

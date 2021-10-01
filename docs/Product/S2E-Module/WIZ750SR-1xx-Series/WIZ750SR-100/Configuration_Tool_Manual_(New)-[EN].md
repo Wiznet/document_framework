@@ -8,7 +8,7 @@ date: 2020-04-08
   * [English](configuration_tool_manual_new-EN) (current page)  
   * [Korean](configuration_tool_manual_new-KO)
 
-<a target="_blank" href={require("/img/products/wiz750sr/docs_icon.png").default}><img src={require("/img/products/wiz750sr/docs_icon.png").default} alt=""/></a>
+![](/img/products/wiz750sr/docs_icon.png)
 
 -----
 
@@ -31,7 +31,7 @@ opened.
 
 |                                                                            |
 | -------------------------------------------------------------------------- |
-| <a target="_blank" href={require("/img/products/wiz750sr/guiconfigtoolmanual/gui_configtool_main.png").default}><img src={require("/img/products/wiz750sr/guiconfigtoolmanual/gui_configtool_main.png").default} alt=""/></a>        |
+| ![](/img/products/wiz750sr/guiconfigtoolmanual/gui_configtool_main.png)        |
 | Figure: **Configuration Tool for WIZ750SR series & WIZ107/108SR Products** |
 
 -----
@@ -71,7 +71,7 @@ The list of products supported by WIZnet-S2E-Tool-GUI is as follows.
 
 |                                                                       |
 | --------------------------------------------------------------------- |
-| <a target="_blank" href={require("/img/products/wiz750sr/guiconfigtoolmanual/gui_configtool_layout.png").default}><img src={require("/img/products/wiz750sr/guiconfigtoolmanual/gui_configtool_layout.png").default} alt=""/></a> |
+| ![](/img/products/wiz750sr/guiconfigtoolmanual/gui_configtool_layout.png) |
 | Figure: **Configuration Tool Layout**                                 |
 
 The configuration tool is composed of four sections. Details of each
@@ -116,7 +116,7 @@ section are available below.
 
 |                                                                          |
 | ------------------------------------------------------------------------ |
-| <a target="_blank" href={require("/img/products/wiz750sr/guiconfigtoolmanual/gui_configtool_icon_menu.png").default}><img src={require("/img/products/wiz750sr/guiconfigtoolmanual/gui_configtool_icon_menu.png").default} alt=""/></a> |
+| ![](/img/products/wiz750sr/guiconfigtoolmanual/gui_configtool_icon_menu.png) |
 | Figure: **Menu Icons**                                                   |
 
 #### 1\) Device Search
@@ -158,7 +158,7 @@ section are available below.
 
 |                                                                                       |
 | ------------------------------------------------------------------------------------- |
-| <a target="_blank" href={require("/img/products/wiz750sr/guiconfigtoolmanual/gui_configtool_firmwareupload_success.png").default}><img src={require("/img/products/wiz750sr/guiconfigtoolmanual/gui_configtool_firmwareupload_success.png").default} alt=""/></a> |
+| ![](/img/products/wiz750sr/guiconfigtoolmanual/gui_configtool_firmwareupload_success.png) |
 | Figure: **Popup Message - Firmware Upload Successfully**                              |
 
   - Use **TCP/UDP port 50002 to upload firmware** on to WIZ750SR.
@@ -207,7 +207,7 @@ DURING FIRMWARE UPLOADING**
 
 |                                                                            |
 | -------------------------------------------------------------------------- |
-| <a target="_blank" href={require("/img/products/wiz750sr/guiconfigtoolmanual/gui_configtool_net_adapter.png").default}><img src={require("/img/products/wiz750sr/guiconfigtoolmanual/gui_configtool_net_adapter.png").default} alt=""/></a> |
+| ![](/img/products/wiz750sr/guiconfigtoolmanual/gui_configtool_net_adapter.png) |
 | Figure: **Network adapters**                                               |
 
   - If using multiple types of network adapters, a list of adapters and
@@ -222,7 +222,7 @@ DURING FIRMWARE UPLOADING**
 
 |                                                                            |
 | -------------------------------------------------------------------------- |
-| <a target="_blank" href={require("/img/products/wiz750sr/guiconfigtoolmanual/gui_configtool_device_list.png").default}><img src={require("/img/products/wiz750sr/guiconfigtoolmanual/gui_configtool_device_list.png").default} alt=""/></a> |
+| ![](/img/products/wiz750sr/guiconfigtoolmanual/gui_configtool_device_list.png) |
 | Figure: **Device List**                                                    |
 
   - List of devices searched will appears.
@@ -261,7 +261,7 @@ DURING FIRMWARE UPLOADING**
 
 |                                                                                  |
 | -------------------------------------------------------------------------------- |
-| <a target="_blank" href={require("/img/products/wiz750sr/guiconfigtoolmanual/gui_configtool_tab_basicsettings.png").default}><img src={require("/img/products/wiz750sr/guiconfigtoolmanual/gui_configtool_tab_basicsettings.png").default} alt=""/></a> |
+| ![](/img/products/wiz750sr/guiconfigtoolmanual/gui_configtool_tab_basicsettings.png) |
 | Figure: **Basic settings Tab**                                                   |
 
 1.  UDP Broadcast Search: can search multiple devices
@@ -304,7 +304,7 @@ DURING FIRMWARE UPLOADING**
 
 |                                                                            |
 | -------------------------------------------------------------------------- |
-| <a target="_blank" href={require("/img/products/wiz750sr/guiconfigtoolmanual/gui_configtool_tab_options.png").default}><img src={require("/img/products/wiz750sr/guiconfigtoolmanual/gui_configtool_tab_options.png").default} alt=""/></a> |
+| ![](/img/products/wiz750sr/guiconfigtoolmanual/gui_configtool_tab_options.png) |
 | Figure: **Option Tab**                                                     |
 
 -----
@@ -385,7 +385,7 @@ DURING FIRMWARE UPLOADING**
 
 |                                                                            |
 | -------------------------------------------------------------------------- |
-| <a target="_blank" href={require("/img/products/wiz750sr/guiconfigtoolmanual/gui_configtool_tab_channel.png").default}><img src={require("/img/products/wiz750sr/guiconfigtoolmanual/gui_configtool_tab_channel.png").default} alt=""/></a> |
+| ![](/img/products/wiz750sr/guiconfigtoolmanual/gui_configtool_tab_channel.png) |
 | Figure: **Network Configuration Tab**                                      |
 
 1.  The serial command after switching modes must end with CR and LF.

@@ -30,12 +30,12 @@ motor speeds.
 ### The Circuit
 
 This is the circuit for this example.
-<a target="_blank" href={require("/img/products/wizwiki_mbed_kit/kit_en/4_pwm_buzzer_schem.png").default}><img src={require("/img/products/wizwiki_mbed_kit/kit_en/4_pwm_buzzer_schem.png").default} alt=""/></a>
+![](/img/products/wizwiki_mbed_kit/kit_en/4_pwm_buzzer_schem.png)
 
 
 ### Connections
 
-<a target="_blank" href={require("/img/products/wizwiki_mbed_kit/kit_en/4_board_all.jpg").default}><img src={require("/img/products/wizwiki_mbed_kit/kit_en/4_board_all.jpg").default} alt=""/></a>
+![](/img/products/wizwiki_mbed_kit/kit_en/4_board_all.jpg)
 
 
 ## Software

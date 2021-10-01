@@ -17,7 +17,7 @@ to modify the Firmware.
 For the detailed information on implementation of Hardware TCP/IP, refer
 to the [W5500 Datasheet](../../iEthernet/W5500/datasheet).
 
-<a target="_blank" href={require("/img/products/wiz850io/wiz850io.png").default}><img src={require("/img/products/wiz850io/wiz850io.png").default} alt="WIZ850io"/></a>  
+![WIZ850io](/img/products/wiz850io/wiz850io.png)  
 
 -----
 
@@ -36,7 +36,7 @@ to the [W5500 Datasheet](../../iEthernet/W5500/datasheet).
 
 ### Pin Out
 
-<a target="_blank" href={require("/img/products/wiz850io/wiz850io_pinmap.png").default}><img src={require("/img/products/wiz850io/wiz850io_pinmap.png").default} alt="WIZ850io Pinmap"/></a>  
+![WIZ850io Pinmap](/img/products/wiz850io/wiz850io_pinmap.png)  
 
 ### Pin Description
 
@@ -292,7 +292,7 @@ WIZ850io, please refer to [W5500 Datasheet](../../iEthernet/W5500/datasheet)).
 
 ### Reset Timing
 
-<a target="_blank" href={require("/img/products/wiz850io/wiz850io_reset_timing.png").default}><img src={require("/img/products/wiz850io/wiz850io_reset_timing.png").default} alt="WIZ850io Reset Timing"/></a>
+![WIZ850io Reset Timing](/img/products/wiz850io/wiz850io_reset_timing.png)
 
 | Symbol | Description                      | Min   | Max  |
 | ------ | -------------------------------- | ----- | ---- |
@@ -301,7 +301,7 @@ WIZ850io, please refer to [W5500 Datasheet](../../iEthernet/W5500/datasheet)).
 
 ### SPI Timing
 
-<a target="_blank" href={require("/img/products/spi_timing.jpg").default}><img src={require("/img/products/spi_timing.jpg").default} alt="WIZ850io SPI Timing"/></a>
+![WIZ850io SPI Timing](/img/products/spi_timing.jpg)
 
 | Symbol | Description          | Min | Max | Units |
 | ------ | -------------------- | --- | --- | ----- |
@@ -325,6 +325,6 @@ WIZ850io, please refer to [W5500 Datasheet](../../iEthernet/W5500/datasheet)).
     <a href="/img/products/wiz850io/wiz850io_v100_3d.pdf" target="_blank">Download</a>  
     \* This PDF must be run using the 'Adobe Acrobat'.
 
-<a target="_blank" href={require("/img/products/wiz850io/wiz850io_dimension.png").default}><img src={require("/img/products/wiz850io/wiz850io_dimension.png").default} alt="WIZ850io Dimension"/></a>
+![WIZ850io Dimension](/img/products/wiz850io/wiz850io_dimension.png)
 
 -----

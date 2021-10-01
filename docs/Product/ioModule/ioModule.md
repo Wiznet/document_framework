@@ -24,6 +24,6 @@ develop their Internet enabling system rapidly.
 
 ### WIZ81xMJ Comparision Table
 
-<a target="_blank" href={require("/img/products/io_module/comparison-table.jpg").default}><img src={require("/img/products/io_module/comparison-table.jpg").default} alt=""/></a>
+![](/img/products/io_module/comparison-table.jpg)
 
 -----

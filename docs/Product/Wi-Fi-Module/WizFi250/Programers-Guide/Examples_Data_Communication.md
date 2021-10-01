@@ -129,7 +129,7 @@ This section explains how to open <  UDP Server Socket> and communicate to peer 
 #### Exchanging data with a peer system
 
 < UDP Server Mode> can connect UDP connection without peer systes information like IP address and port number. But before peer system is connected to WizFi250, WizFi250 does not send data to peer system because WizFi250 does not know its information. Thus peer system must send data to WizFi250 in order to know peer system’s information like below.
-<a target="_blank" href={require("/img/products/wizfi250/wizfi250pg/caution_when_using_udp_server_mode.png").default}><img src={require("/img/products/wizfi250/wizfi250pg/caution_when_using_udp_server_mode.png").default} alt=""/></a>
+![](/img/products/wizfi250/wizfi250pg/caution_when_using_udp_server_mode.png)
 The other information for exchanging data is same as [Exchanging data with a peer system.](/)
 
 #### Socket Close

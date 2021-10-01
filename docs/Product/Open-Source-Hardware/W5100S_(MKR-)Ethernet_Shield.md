@@ -20,12 +20,12 @@ W5100S Ethernet shield is compatible with the Arduino Ethernet Shield
 
 |                                                                                          |
 | ---------------------------------------------------------------------------------------- |
-| <a target="_blank" href={require("/img/osh/w5100s_ethernet_shield/start/w5100s_ethernet_shield1.png").default}><img src={require("/img/osh/w5100s_ethernet_shield/start/w5100s_ethernet_shield1.png").default} alt="W5100S Ethernet Shield"/></a> |
+| ![W5100S Ethernet Shield](/img/osh/w5100s_ethernet_shield/start/w5100s_ethernet_shield1.png) |
 | Figure: ***W5100S Ethernet Shield***                                                     |
 
 |                                                                                                  |
 | ------------------------------------------------------------------------------------------------ |
-| <a target="_blank" href={require("/img/osh/w5100s_ethernet_shield/start/w5100s_mkr-ethernet_shield1.png").default}><img src={require("/img/osh/w5100s_ethernet_shield/start/w5100s_mkr-ethernet_shield1.png").default} alt="W5100S MKR-Ethernet Shield"/></a> |
+| ![W5100S MKR-Ethernet Shield](/img/osh/w5100s_ethernet_shield/start/w5100s_mkr-ethernet_shield1.png) |
 | Figure: ***W5100S MKR-Ethernet Shield***                                                         |
 
 -----

@@ -6,7 +6,7 @@ date: 2020-04-03
 
 ## Overview
 
-<a target="_blank" href={require("/img/osh/ioshield-a/io_s_a.png").default}><img src={require("/img/osh/ioshield-a/io_s_a.png").default} alt=""/></a> 
+![](/img/osh/ioshield-a/io_s_a.png) 
 
 ioShield-A allows an Arduino board to connect to the Internet.
 

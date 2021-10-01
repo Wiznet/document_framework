@@ -62,9 +62,9 @@ of hardware specification or exterior design.
 
 #### WIZ550SR Pin Out
 
-<a target="_blank" href={require("/img/products/wiz550sr/wiz550sr_ds/wiz550sr_pinmap.png").default}><img src={require("/img/products/wiz550sr/wiz550sr_ds/wiz550sr_pinmap.png").default} alt="WIZ550SR Pin Out"/></a>
+![WIZ550SR Pin Out](/img/products/wiz550sr/wiz550sr_ds/wiz550sr_pinmap.png)
 
-<a target="_blank" href={require("/img/products/wiz550sr/wiz550sr_ds/wiz550sr_pinout_2.png").default}><img src={require("/img/products/wiz550sr/wiz550sr_ds/wiz550sr_pinout_2.png").default} alt="WIZ550SR Pin Out"/></a>
+![WIZ550SR Pin Out](/img/products/wiz550sr/wiz550sr_ds/wiz550sr_pinout_2.png)
 
 #### WIZ550SR Pin Description
 
@@ -256,14 +256,14 @@ Hardware TRIG Input. Active Low</td>
 
 #### WIZ550SR Block Diagram
 
-<a target="_blank" href={require("/img/products/wiz550sr/wiz550sr_ds/wiz550sr_block_diagram.png").default}><img src={require("/img/products/wiz550sr/wiz550sr_ds/wiz550sr_block_diagram.png").default} alt="WIZ550SR Block Diagram"/></a>
+![WIZ550SR Block Diagram](/img/products/wiz550sr/wiz550sr_ds/wiz550sr_block_diagram.png)
 
 -----
 
 
 ### WIZ550SR EVB
 
-<a target="_blank" href={require("/img/products/wiz550sr/wiz550sr_ds/wiz550sr_evb_2.png").default}><img src={require("/img/products/wiz550sr/wiz550sr_ds/wiz550sr_evb_2.png").default} alt="WIZ550SR EVB"/></a>
+![WIZ550SR EVB](/img/products/wiz550sr/wiz550sr_ds/wiz550sr_evb_2.png)
 
   - WIZ550SR Developer Board.
   - USB to UART chip, FT2232D.
@@ -276,11 +276,11 @@ Hardware TRIG Input. Active Low</td>
 
 #### WIZ550SR EVB Call Out
 
-<a target="_blank" href={require("/img/products/wiz550sr/wiz550sr_ds/wiz550sr_evb_callout.png").default}><img src={require("/img/products/wiz550sr/wiz550sr_ds/wiz550sr_evb_callout.png").default} alt="WIZ550SR EVB Call Out"/></a>
+![WIZ550SR EVB Call Out](/img/products/wiz550sr/wiz550sr_ds/wiz550sr_evb_callout.png)
 
 #### WIZ550SR EVB Block Diagram
 
-<a target="_blank" href={require("/img/products/wiz550sr/wiz550sr_ds/wiz550sr_evb_block_diagram.png").default}><img src={require("/img/products/wiz550sr/wiz550sr_ds/wiz550sr_evb_block_diagram.png").default} alt="WIZ550SR Block Diagram"/></a>
+![WIZ550SR Block Diagram](/img/products/wiz550sr/wiz550sr_ds/wiz550sr_evb_block_diagram.png)
 
 -----
 
@@ -416,7 +416,7 @@ Source Current</td>
 
 ### Ref. Schematic
 
-<a target="_blank" href={require("/img/products/wiz550sr/wiz550sr_ds/wiz550sr_v1.0_ref_sch.png").default}><img src={require("/img/products/wiz550sr/wiz550sr_ds/wiz550sr_v1.0_ref_sch.png").default} alt="WIZ550SR Ref Schematic"/></a>  
+![WIZ550SR Ref Schematic](/img/products/wiz550sr/wiz550sr_ds/wiz550sr_v1.0_ref_sch.png)  
 
   - WIZ550SR Ref Schematic : <a href="/img/products/wiz550sr/wiz550sr_ds/wiz550sr_v100_ref_sch_160526.pdf" target="_blank">Download</a>  
     ### WIZ550SR Schematic
@@ -443,6 +443,6 @@ Source Current</td>
   - WIZ550SR V1.0 3D PDF : <a href="/img/products/wiz550sr/wiz550sr_ds/wiz550sr_v1.0_3d.pdf" target="_blank">Download</a>  
     \* This PDF must be run using the 'Adobe Acrobat'.
 
-<a target="_blank" href={require("/img/products/wiz550sr/wiz550sr_ds/wiz550sr_dimension.jpg").default}><img src={require("/img/products/wiz550sr/wiz550sr_ds/wiz550sr_dimension.jpg").default} alt="WIZ550SR Dimension"/></a>
+![WIZ550SR Dimension](/img/products/wiz550sr/wiz550sr_ds/wiz550sr_dimension.jpg)
 
 -----

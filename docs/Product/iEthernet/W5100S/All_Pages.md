@@ -7,7 +7,7 @@ date: 2020-04-03
 
 ## Overview
 
-<a target="_blank" href={require("/img/products/w5100s/w5100s_pm.png").default}><img src={require("/img/products/w5100s/w5100s_pm.png").default} alt=""/></a>
+![](/img/products/w5100s/w5100s_pm.png)
 
 W5100S is an embedded Internet controller designed as a full hardwired
 TCP/IP with WIZnet technology. W5100S provides internet connectivity to
@@ -34,13 +34,13 @@ W5100S is a low-cost chip that exceeds its predecessor, W5100. Existing
 firmware using W5100 can be used on W5100S without modification. W5100S
 has two types of packages, 48 Pin LQFP & QFN Lead-Free Package.
 
-<a target="_blank" href={require("/img/products/w5100s/w5100s_diagram.png").default}><img src={require("/img/products/w5100s/w5100s_diagram.png").default} alt="W5100S Block diagram"/></a>
+![W5100S Block diagram](/img/products/w5100s/w5100s_diagram.png)
 
 -----
 
 
 ## Pin MAP
-<a target="_blank" href={require("/img/products/w5100s/w5100s_pinmap.png").default}><img src={require("/img/products/w5100s/w5100s_pinmap.png").default} alt="W5100S Pin map"/></a>
+![W5100S Pin map](/img/products/w5100s/w5100s_pinmap.png)
 
 -----
 
@@ -103,7 +103,7 @@ This driver provides the Berkeley Socket type APIs. The function names
 of this ioLibrary\_BSD are the same as the function names of the
 ioLibrary.
 
-  - Directory Structure <a target="_blank" href={require("/img/products/w5100s/w5100s_iolibrary.png").default}><img src={require("/img/products/w5100s/w5100s_iolibrary.png").default} alt=""/></a>
+  - Directory Structure ![](/img/products/w5100s/w5100s_iolibrary.png)
       - Ethernet : SOCKET APIs like BSD & WIZCHIP(W5500,W5200 and etc)
         Driver
       - Internet : 
@@ -184,7 +184,7 @@ For more information on ioLibrary, click 🌎[W5500 Driver](driver)
 ## External Transformer Type
 
 [Go to github](https://github.com/Wiznet/Hardware-Files-of-WIZnet/tree/master/02_iEthernet/W5100S/Reference%20Schematic)
-<a target="_blank" href={require("/img/products/w5100s/ref_sch/w5100s_ref_schematic_v110_use_trans.jpg").default}><img src={require("/img/products/w5100s/ref_sch/w5100s_ref_schematic_v110_use_trans.jpg").default} alt=""/></a>
+![](/img/products/w5100s/ref_sch/w5100s_ref_schematic_v110_use_trans.jpg)
 
 -----
 
@@ -192,7 +192,7 @@ For more information on ioLibrary, click 🌎[W5500 Driver](driver)
 ## RJ45 with Transformer Type
 
 [Go to github](https://github.com/Wiznet/Hardware-Files-of-WIZnet/tree/master/02_iEthernet/W5100S/Reference%20Schematic)
-<a target="_blank" href={require("/img/products/w5100s/ref_sch/w5100s_ref_schematic_v110_use_trans.jpg").default}><img src={require("/img/products/w5100s/ref_sch/w5100s_ref_schematic_v110_use_trans.jpg").default} alt=""/></a>
+![](/img/products/w5100s/ref_sch/w5100s_ref_schematic_v110_use_trans.jpg)
 
 -----
 ## W5100S Comparison Sheet

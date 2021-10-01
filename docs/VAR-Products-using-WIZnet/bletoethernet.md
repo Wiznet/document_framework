@@ -11,9 +11,9 @@ communicate with SPI. W5500 also operates as a TCP Client, TCP Server to
 communicate with the LAN (through the line). The purpose of this
 Application Note is to build a low power IoT node environment.
 
-<a target="_blank" href={require("/img/osh/cookie/1-1_bte_introduce.jpg").default}><img src={require("/img/osh/cookie/1-1_bte_introduce.jpg").default} alt=""/></a>
+![](/img/osh/cookie/1-1_bte_introduce.jpg)
 
-<a target="_blank" href={require("/img/osh/cookie/ble_to_tcp_article_5.png").default}><img src={require("/img/osh/cookie/ble_to_tcp_article_5.png").default} alt=""/></a>
+![](/img/osh/cookie/ble_to_tcp_article_5.png)
 ## Development Environment
 
 ### Firmware
@@ -55,7 +55,7 @@ link below.
 
 ## Code configuration
 
-<a target="_blank" href={require("/img/osh/w5500_ethernet_shield/2_bte_codeconfiguration.jpg").default}><img src={require("/img/osh/w5500_ethernet_shield/2_bte_codeconfiguration.jpg").default} alt=""/></a>
+![](/img/osh/w5500_ethernet_shield/2_bte_codeconfiguration.jpg)
 
 ### uart\_init
 
@@ -397,7 +397,7 @@ void uart_event_handle(app_uart_evt_t * p_event)
 
 ### H/W Setting
 
-<a target="_blank" href={require("/img/osh/cookie/ble_to_tcp_hw_settingpng.png").default}><img src={require("/img/osh/cookie/ble_to_tcp_hw_settingpng.png").default} alt=""/></a>
+![](/img/osh/cookie/ble_to_tcp_hw_settingpng.png)
 
 ### BLE Stack (SoftDevice) Writing
 
@@ -405,7 +405,7 @@ Program the S132\_nrf52\_2.0.1\_softdevice.hex attached to
 nRF5\_SDK\_11.0.0\_W5500\_ble-to-ethernet.zip on two boards. (Ble to
 Ethernet Board, PCA10040)
 
-<a target="_blank" href={require("/img/osh/cookie/3-1_bte_testing.jpg").default}><img src={require("/img/osh/cookie/3-1_bte_testing.jpg").default} alt=""/></a>
+![](/img/osh/cookie/3-1_bte_testing.jpg)
 
 ### Ble to ethernet Board application Writing
 
@@ -415,11 +415,11 @@ path of the project. Put the IP Address of the TCP server PC to the 60th
 line of the variable targetIP main.c, build, and Program a ble to
 ethernet board.
 
-<a target="_blank" href={require("/img/osh/cookie/ipconfig.png").default}><img src={require("/img/osh/cookie/ipconfig.png").default} alt=""/></a>
+![](/img/osh/cookie/ipconfig.png)
 
-<a target="_blank" href={require("/img/osh/cookie/3-3_bte_testing.jpg").default}><img src={require("/img/osh/cookie/3-3_bte_testing.jpg").default} alt=""/></a>
+![](/img/osh/cookie/3-3_bte_testing.jpg)
 
-<a target="_blank" href={require("/img/osh/cookie/3-4_bte_testing.jpg").default}><img src={require("/img/osh/cookie/3-4_bte_testing.jpg").default} alt=""/></a>
+![](/img/osh/cookie/3-4_bte_testing.jpg)
 
 ### PCA10040 application Writing
 
@@ -433,15 +433,15 @@ Three open the Hercules. Two Hercules is set to 115200 baud rate in the
 Serial Tab and open the Com port. One of the Hercules Port is set to
 5000 in the TCP Server tab and click on the listen.
 
-<a target="_blank" href={require("/img/osh/cookie/3-5_bte_testing.jpg").default}><img src={require("/img/osh/cookie/3-5_bte_testing.jpg").default} alt=""/></a>
+![](/img/osh/cookie/3-5_bte_testing.jpg)
 
-<a target="_blank" href={require("/img/osh/cookie/3-6_bte_testing.jpg").default}><img src={require("/img/osh/cookie/3-6_bte_testing.jpg").default} alt=""/></a>
+![](/img/osh/cookie/3-6_bte_testing.jpg)
 
 ### Data Input
 
 Input from the WIZNET PCA10040 Terminal can see that is sent to the TCP
 Server.
 
-<a target="_blank" href={require("/img/osh/cookie/3-7_bte_testing.jpg").default}><img src={require("/img/osh/cookie/3-7_bte_testing.jpg").default} alt=""/></a>
+![](/img/osh/cookie/3-7_bte_testing.jpg)
 
-<a target="_blank" href={require("/img/osh/cookie/3-8_bte_testing.jpg").default}><img src={require("/img/osh/cookie/3-8_bte_testing.jpg").default} alt=""/></a>
+![](/img/osh/cookie/3-8_bte_testing.jpg)

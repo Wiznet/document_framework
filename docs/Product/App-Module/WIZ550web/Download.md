@@ -67,15 +67,15 @@ setting when you download a firmware into target.**
 
   - Check to below Picture
 
-<a target="_blank" href={require("/img/products/wiz550web/wiz550web_des.png").default}><img src={require("/img/products/wiz550web/wiz550web_des.png").default} alt=""/></a>
+![](/img/products/wiz550web/wiz550web_des.png)
 
   - Access Boot mode(ISP)
 
-<a target="_blank" href={require("/img/products/wiz550web/wiz550web_ispmode.png").default}><img src={require("/img/products/wiz550web/wiz550web_ispmode.png").default} alt=""/></a>
+![](/img/products/wiz550web/wiz550web_ispmode.png)
 
   - Operation Normal mode
 
-<a target="_blank" href={require("/img/products/wiz550web/wiz550web_normalmode.png").default}><img src={require("/img/products/wiz550web/wiz550web_normalmode.png").default} alt=""/></a> 
+![](/img/products/wiz550web/wiz550web_normalmode.png) 
 
 #### Flash Loader Demo Picture
 
@@ -83,22 +83,22 @@ setting when you download a firmware into target.**
   * Main page
 
 
-<a target="_blank" href={require("/img/products/wiz550web/wiz550web_fw_main.png").default}><img src={require("/img/products/wiz550web/wiz550web_fw_main.png").default} alt=""/></a>
+![](/img/products/wiz550web/wiz550web_fw_main.png)
 
 
   * Boot Upload
 
 
-<a target="_blank" href={require("/img/products/wiz550web/wiz550web_fw_boot.png").default}><img src={require("/img/products/wiz550web/wiz550web_fw_boot.png").default} alt=""/></a>
+![](/img/products/wiz550web/wiz550web_fw_boot.png)
 
 
   * App Upload
 
 
-<a target="_blank" href={require("/img/products/wiz550web/wiz550web_fw_app.png").default}><img src={require("/img/products/wiz550web/wiz550web_fw_app.png").default} alt=""/></a>
+![](/img/products/wiz550web/wiz550web_fw_app.png)
 
 
   * All (boot + app) Upload
 
 
-<a target="_blank" href={require("/img/products/wiz550web/wiz550web_fw_all.png").default}><img src={require("/img/products/wiz550web/wiz550web_fw_all.png").default} alt=""/></a>
+![](/img/products/wiz550web/wiz550web_fw_all.png)

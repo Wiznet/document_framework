@@ -4,7 +4,7 @@ title: WIZ812MJ
 date: 2020-04-16
 ---
 
-<a target="_blank" href={require("/img/products/wiz812mj/wiz812_web_280.jpg").default}><img src={require("/img/products/wiz812mj/wiz812_web_280.jpg").default} alt=""/></a>
+![](/img/products/wiz812mj/wiz812_web_280.jpg)
 
 ## Overview
 
@@ -22,13 +22,13 @@ WIZ812MJ is the network module that includes W5100 (TCP/IP, MAC & PHY) & MAG-JAC
 
 ## Block Diagram
 
-<a target="_blank" href={require("/img/products/wiz812mj/WIZ812MJ_Block.jpg").default}><img src={require("/img/products/wiz812mj/WIZ812MJ_Block.jpg").default} alt=""/></a>
+![](/img/products/wiz812mj/WIZ812MJ_Block.jpg)
 
 ## Comparison Table
 
 Comparison Table (WIZ810MJ, WIZ811MJ, WIZ812MJ)
 
-<a target="_blank" href={require("/img/products/wiz810mj/comparison-table.jpg").default}><img src={require("/img/products/wiz810mj/comparison-table.jpg").default} alt=""/></a>
+![](/img/products/wiz810mj/comparison-table.jpg)
 
 ## Download
 

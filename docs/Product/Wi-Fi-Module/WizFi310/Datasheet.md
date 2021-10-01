@@ -56,16 +56,16 @@ For software and driver development, WIZnet provides extensive technical documen
    *  Fast receiver Automatic Gain Control (AGC)
 
 ## Block Diagram
-<a target="_blank" href={require("/img/products/wizfi310/diagram.png").default}><img src={require("/img/products/wizfi310/diagram.png").default} alt=""/></a>
+![](/img/products/wizfi310/diagram.png)
 
 
 ## Module Hardware Description
 
 ### Pictures
-<a target="_blank" href={require("/img/products/wizfi310/wizfi310_evb.png").default}><img src={require("/img/products/wizfi310/wizfi310_evb.png").default} alt=""/></a>
+![](/img/products/wizfi310/wizfi310_evb.png)
 
 ### Pin Map
-<a target="_blank" href={require("/img/products/wizfi250/wizfi250_pin_map.png").default}><img src={require("/img/products/wizfi250/wizfi250_pin_map.png").default} alt=""/></a>
+![](/img/products/wizfi250/wizfi250_pin_map.png)
 
 ### Pin Description
 
@@ -230,7 +230,7 @@ Note: NVM flash is used to store user configuration or firmware, do not use to s
  
 ## Dimensions
 
-<a target="_blank" href={require("/img/products/wizfi310/dimension.png").default}><img src={require("/img/products/wizfi310/dimension.png").default} alt=""/></a>
+![](/img/products/wizfi310/dimension.png)
 
 |Type	|Thickness (Height)|
 |-----|------------------|

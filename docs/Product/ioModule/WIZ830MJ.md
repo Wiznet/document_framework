@@ -4,7 +4,7 @@ title: WIZ830MJ
 date: 2020-04-16
 ---
 
-<a target="_blank" href={require("/img/products/wiz830mj/wiz830_web_1.jpg").default}><img src={require("/img/products/wiz830mj/wiz830_web_1.jpg").default} alt=""/></a>
+![](/img/products/wiz830mj/wiz830_web_1.jpg)
 
 ## Overview
 
@@ -22,7 +22,7 @@ WIZ830MJ is the network module that includes W5300 (TCP/IP & Ethernet PHY) & MAG
 
 ## Block Diagram
 
-<a target="_blank" href={require("/img/products/wiz830mj/830MJ_Block.jpg").default}><img src={require("/img/products/wiz830mj/830MJ_Block.jpg").default} alt=""/></a>
+![](/img/products/wiz830mj/830MJ_Block.jpg)
 
 ## Download
 

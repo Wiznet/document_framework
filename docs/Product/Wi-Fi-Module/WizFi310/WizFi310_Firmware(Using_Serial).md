@@ -39,7 +39,7 @@ date: 2020-05-13
 
 ## WizFi310_Update_Tool(Serial)
 
-<a target="_blank" href={require("/img/products/wizfi310/wizfi310firmware/upgrade_tool_6.png").default}><img src={require("/img/products/wizfi310/wizfi310firmware/upgrade_tool_6.png").default} alt=""/></a>
+![](/img/products/wizfi310/wizfi310firmware/upgrade_tool_6.png)
 
 | Version | Date       | Download                                                                                      | Description |
 | ------- | ---------- | --------------------------------------------------------------------------------------------- | ----------- |

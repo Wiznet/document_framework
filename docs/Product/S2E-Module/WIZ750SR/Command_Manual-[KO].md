@@ -8,7 +8,7 @@ date: 2020-04-08
    * [English](Command_Manual-EN)  
    * [Korean](Command_Manual-KO) (current page)
 
-<a target="_blank" href={require("/img/products/wiz750sr/docs_icon.png").default}><img src={require("/img/products/wiz750sr/docs_icon.png").default} alt=""/></a>
+![](/img/products/wiz750sr/docs_icon.png)
 
 -----
 

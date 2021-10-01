@@ -6,7 +6,7 @@ date: 2021-03-15
 
 ## WIZ510SSL-EVB
 
-<a target="_blank" href={require("/img/products/wiz510ssl/wiz510ssl-evb/wiz510sslevb_sideview.png").default}><img src={require("/img/products/wiz510ssl/wiz510ssl-evb/wiz510sslevb_sideview.png").default} alt=""/></a>
+![](/img/products/wiz510ssl/wiz510ssl-evb/wiz510sslevb_sideview.png)
 
   - WIZ510SSL Developer Board.
   - USB to UART chip, CP2104.
@@ -22,7 +22,7 @@ date: 2021-03-15
 
 |                                                                           |
 | ------------------------------------------------------------------------- |
-| <a target="_blank" href={require("/img/products/wiz510ssl/wiz510ssl-evb/wiz510sslevb_callout.png").default}><img src={require("/img/products/wiz510ssl/wiz510ssl-evb/wiz510sslevb_callout.png").default} alt=""/></a> |
+| ![](/img/products/wiz510ssl/wiz510ssl-evb/wiz510sslevb_callout.png) |
 | **WIZ510SSL-EVB Call Out**                                   |
 
 -----
@@ -100,7 +100,7 @@ date: 2021-03-15
 
 |                                                          |
 | -------------------------------------------------------- |
-| <a target="_blank" href={require("/img/products/wiz510ssl/wiz510ssl-evb/wiz510ssl-evb-dimensions.png").default}><img src={require("/img/products/wiz510ssl/wiz510ssl-evb/wiz510ssl-evb-dimensions.png").default} alt=""/></a> |
+| ![](/img/products/wiz510ssl/wiz510ssl-evb/wiz510ssl-evb-dimensions.png) |
 | **Rev0.1**                                               |
 
 

@@ -32,7 +32,7 @@ date: 2020-04-08
 
 #### LED (RGB)
 
-<a target="_blank" href={require("/img/products/wizwiki_mbed_kit/kit_kr/rgb_led_common_anode.jpg").default}><img src={require("/img/products/wizwiki_mbed_kit/kit_kr/rgb_led_common_anode.jpg").default} alt=""/></a>
+![](/img/products/wizwiki_mbed_kit/kit_kr/rgb_led_common_anode.jpg)
 
 
   * Common Anode 타입
@@ -45,7 +45,7 @@ date: 2020-04-08
 
 #### DHT11 (Humidity & Temperature Sensor)
 
-<a target="_blank" href={require("/img/products/wizwiki_mbed_kit/kit_kr/dht-11.png").default}><img src={require("/img/products/wizwiki_mbed_kit/kit_kr/dht-11.png").default} alt=""/></a>
+![](/img/products/wizwiki_mbed_kit/kit_kr/dht-11.png)
 
   *온도와 습도 측정
   *습도 측정 범위 : 20 -90% (5%  오차 )
@@ -57,8 +57,8 @@ date: 2020-04-08
 
 #### Temperature Sensor TMP36GT9 (Low Voltage Temperature Sensor)
 
-<a target="_blank" href={require("/img/products/wizwiki_mbed_kit/kit_kr/tmp36gt9.jpg").default}><img src={require("/img/products/wizwiki_mbed_kit/kit_kr/tmp36gt9.jpg").default} alt=""/></a>
-<a target="_blank" href={require("/img/products/wizwiki_mbed_kit/kit_kr/tmp36gt9_pin.png").default}><img src={require("/img/products/wizwiki_mbed_kit/kit_kr/tmp36gt9_pin.png").default} alt=""/></a>
+![](/img/products/wizwiki_mbed_kit/kit_kr/tmp36gt9.jpg)
+![](/img/products/wizwiki_mbed_kit/kit_kr/tmp36gt9_pin.png)
 
  *Vs : 3.3V 전원 공급
  *Vout : ADC 입력핀에 연결
@@ -71,7 +71,7 @@ date: 2020-04-08
 
 #### Photo Resistor PGM5537D (CDS Photo Resistor)
 
-<a target="_blank" href={require("/img/products/wizwiki_mbed_kit/kit_kr/light-detecting-resistor.jpg").default}><img src={require("/img/products/wizwiki_mbed_kit/kit_kr/light-detecting-resistor.jpg").default} alt=""/></a>
+![](/img/products/wizwiki_mbed_kit/kit_kr/light-detecting-resistor.jpg)
 
   * 빛의 밝기에 따라 저항값이 변하는 특성을 이용한 센서
   * 광센서, 포토셀 혹든 조도 센서라 불림

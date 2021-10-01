@@ -104,7 +104,7 @@ Flow control: None, RTS / CTS, XON / XOFF</td>
 
 |                                                                      |                                                                         |
 | -------------------------------------------------------------------- | ----------------------------------------------------------------------- |
-| <a target="_blank" href={require("/img/products/wiz510ssl/getting_started/wiz510ssl_top_parts_rev1.0.png").default}><img src={require("/img/products/wiz510ssl/getting_started/wiz510ssl_top_parts_rev1.0.png").default} alt=""/></a> | <a target="_blank" href={require("/img/products/wiz510ssl/getting_started/wiz510ssl_bottom_parts_rev1.0.png").default}><img src={require("/img/products/wiz510ssl/getting_started/wiz510ssl_bottom_parts_rev1.0.png").default} alt=""/></a> |
+| ![](/img/products/wiz510ssl/getting_started/wiz510ssl_top_parts_rev1.0.png) | ![](/img/products/wiz510ssl/getting_started/wiz510ssl_bottom_parts_rev1.0.png) |
 | **TOP**                                                              | **BOTTOM**                                                              |
 
 -----
@@ -482,7 +482,7 @@ Flow control: None, RTS / CTS, XON / XOFF</td>
 
 ### 1x6 Pin Header
 
-<a target="_blank" href={require("/img/products/wiz510ssl/datasheet/W510SSL_pinout_2.png").default}><img src={require("/img/products/wiz510ssl/datasheet/W510SSL_pinout_2.png").default} alt=""/></a>
+![](/img/products/wiz510ssl/datasheet/W510SSL_pinout_2.png)
 
 #### J1 Pin
 
@@ -514,7 +514,7 @@ Flow control: None, RTS / CTS, XON / XOFF</td>
 
 ### 1x12 Pin Header
 
-<a target="_blank" href={require("/img/products/wiz510ssl/datasheet/W510SSL_pinout_1.png").default}><img src={require("/img/products/wiz510ssl/datasheet/W510SSL_pinout_1.png").default} alt=""/></a>
+![](/img/products/wiz510ssl/datasheet/W510SSL_pinout_1.png)
 
 #### J4 Ethernet Line
 
@@ -577,5 +577,6 @@ Flow control: None, RTS / CTS, XON / XOFF</td>
 
 |                                                          |
 | -------------------------------------------------------- |
-| <a target="_blank" href={require("/img/products/wiz510ssl/datasheet/wiz510ssl-dimensions.png").default}><img src={require("/img/products/wiz510ssl/datasheet/wiz510ssl-dimensions.png").default} alt=""/></a> |
+| ![](/img/products/wiz510ssl/datasheet/wiz510ssl-dimensions.png) |
 | **Rev0.1**                                               |
+

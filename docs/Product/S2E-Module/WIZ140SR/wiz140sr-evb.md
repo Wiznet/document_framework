@@ -6,7 +6,7 @@ date: 2021-07-22
 
 ## Overview
 
-<a target="_blank" href={require("/img/products/wiz140sr/ShopDtl_1104_20150108165522.jpg").default}><img src={require("/img/products/wiz140sr/ShopDtl_1104_20150108165522.jpg").default} alt=""/></a>
+![](/img/products/wiz140sr/ShopDtl_1104_20150108165522.jpg)
 
 WIZ140SR-EVB is a evaluation board for WIZ140SR.
 
@@ -34,7 +34,7 @@ WIZ140SR is an embedded module based on WIZnet W5300 &  ARM Cortex-M3. WIZ140SR 
 
 ## Base Board Interface
 
-<a target="_blank" href={require("/img/products/wiz140sr/140701_73501.jpg").default}><img src={require("/img/products/wiz140sr/140701_73501.jpg").default} alt=""/></a>
+![](/img/products/wiz140sr/140701_73501.jpg)
 
 ## Download
 

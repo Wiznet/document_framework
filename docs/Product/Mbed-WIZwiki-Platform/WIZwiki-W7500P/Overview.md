@@ -4,7 +4,7 @@ title: Overview
 date: 2020-04-07
 ---
 
-<a target="_blank" href={require("/img/products/w7500p/overview/wizwiki-w7500p.png").default}><img src={require("/img/products/w7500p/overview/wizwiki-w7500p.png").default} alt="WIZwiki-W7500"/></a>
+![WIZwiki-W7500](/img/products/w7500p/overview/wizwiki-w7500p.png)
 
 -----
 
@@ -71,11 +71,11 @@ years. W7500P suits users who need Internet connectivity best.
    * Micro SD card slot
 
 **WIZwiki-W7500P Blockdiagram**  
-<a target="_blank" href={require("/img/products/w7500p/overview/wizwiki-w7500p_blockdiagram.png").default}><img src={require("/img/products/w7500p/overview/wizwiki-w7500p_blockdiagram.png").default} alt="WIZwiki-W7500 Blockdiagram"/></a>  
+![WIZwiki-W7500 Blockdiagram](/img/products/w7500p/overview/wizwiki-w7500p_blockdiagram.png)  
 **WIZwiki-W7500P Callout**  
-<a target="_blank" href={require("/img/products/w7500p/overview/wizwiki-w7500p_callout.png").default}><img src={require("/img/products/w7500p/overview/wizwiki-w7500p_callout.png").default} alt="WIZwiki-W7500 Callout"/></a>  
+![WIZwiki-W7500 Callout](/img/products/w7500p/overview/wizwiki-w7500p_callout.png)  
 **WIZwiki-W7500P Pinout**  
-<a target="_blank" href={require("/img/products/w7500p/overview/wizwiki_w7500p_pinout_mbed_150907.png").default}><img src={require("/img/products/w7500p/overview/wizwiki_w7500p_pinout_mbed_150907.png").default} alt="WIZwiki-W7500 Pinout"/></a>  
+![WIZwiki-W7500 Pinout](/img/products/w7500p/overview/wizwiki_w7500p_pinout_mbed_150907.png)  
 
 -----
 
@@ -140,7 +140,7 @@ years. W7500P suits users who need Internet connectivity best.
 
    * WIZwiki-W7500P V1.0 Dimension
 
-<a target="_blank" href={require("/img/products/w7500p/overview/wizwiki-w7500_dimension.png").default}><img src={require("/img/products/w7500p/overview/wizwiki-w7500_dimension.png").default} alt="WIZwiki-W7500P Dimension"/></a>
+![WIZwiki-W7500P Dimension](/img/products/w7500p/overview/wizwiki-w7500_dimension.png)
 
 -----
 

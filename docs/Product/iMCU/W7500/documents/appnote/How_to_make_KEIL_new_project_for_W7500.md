@@ -24,59 +24,59 @@ This application note is a tutorial for making a KEIL project for W7500 MCU. Thi
 
 ### STEP 1. Download and install KEIL5!
 
-<a target="_blank" href={require("/img/products/w7500/documents/appnote/keil0.jpg").default}><img src={require("/img/products/w7500/documents/appnote/keil0.jpg").default} alt="keil0"/></a>
+![keil0](/img/products/w7500/documents/appnote/keil0.jpg)
 
 * Download MDK-ARM v5 : [KEIL5](https://www.keil.com/download/product/)
 * Installation instructions, please see the Link : [Install](how_to_install_KEIL)
 
 ### STEP 2. Download W7500 Library!
 
-<a target="_blank" href={require("/img/products/w7500/documents/appnote/keil1.jpg").default}><img src={require("/img/products/w7500/documents/appnote/keil1.jpg").default} alt="keil1"/></a>
+![keil1](/img/products/w7500/documents/appnote/keil1.jpg)
 
 You can download W7500 Library from WIZnet's Github repository : [W7500 Library](https://github.com/Wiznet/W7500)
 
 ### STEP 3. make workspace! and move the W7500 Library to workspace!
 
-<a target="_blank" href={require("/img/products/w7500/documents/appnote/keil2.jpg").default}><img src={require("/img/products/w7500/documents/appnote/keil2.jpg").default} alt="keil2"/></a>
+![keil2](/img/products/w7500/documents/appnote/keil2.jpg)
 
 In this example, it is **D:\workspace\project\Library**
 
 ### STEP 4. Execute KEIL5 and make new project!
 
-<a target="_blank" href={require("/img/products/w7500/documents/appnote/keil3.jpg").default}><img src={require("/img/products/w7500/documents/appnote/keil3.jpg").default} alt="keil3"/></a>
+![keil3](/img/products/w7500/documents/appnote/keil3.jpg)
 
 Click to New uVision Project...
 
-<a target="_blank" href={require("/img/products/w7500/documents/appnote/keil4.jpg").default}><img src={require("/img/products/w7500/documents/appnote/keil4.jpg").default} alt="keil4"/></a>
+![keil4](/img/products/w7500/documents/appnote/keil4.jpg)
 
 Select a project save folder and choose project name.
 In this example, **D:\workspace\project\W7500_test\W7500_Test.uvproj**
 
-<a target="_blank" href={require("/img/products/w7500/documents/appnote/keil5.jpg").default}><img src={require("/img/products/w7500/documents/appnote/keil5.jpg").default} alt="keil5"/></a>
+![keil5](/img/products/w7500/documents/appnote/keil5.jpg)
 
 Choose 'Cortex-M0' because W7500 MCU is based on Cortex-M0
 
 ### STEP 5. W7500 start up code and system code setting!
 
-<a target="_blank" href={require("/img/products/w7500/documents/appnote/keil7.jpg").default}><img src={require("/img/products/w7500/documents/appnote/keil7.jpg").default} alt="keil7"/></a>
+![keil7](/img/products/w7500/documents/appnote/keil7.jpg)
 
 Return to project. You need to make the same folders like the image which is shown on right side
 
-<a target="_blank" href={require("/img/products/w7500/documents/appnote/keil8.jpg").default}><img src={require("/img/products/w7500/documents/appnote/keil8.jpg").default} alt="keil8"/></a>
-<a target="_blank" href={require("/img/products/w7500/documents/appnote/direction_leftdown.jpg").default}><img src={require("/img/products/w7500/documents/appnote/direction_leftdown.jpg").default} alt="direction_leftdown"/></a>
-<a target="_blank" href={require("/img/products/w7500/documents/appnote/keil9.jpg").default}><img src={require("/img/products/w7500/documents/appnote/keil9.jpg").default} alt="keil9"/></a>
-<a target="_blank" href={require("/img/products/w7500/documents/appnote/direction_leftdown.jpg").default}><img src={require("/img/products/w7500/documents/appnote/direction_leftdown.jpg").default} alt="direction_leftdown"/></a>
-<a target="_blank" href={require("/img/products/w7500/documents/appnote/keil10.jpg").default}><img src={require("/img/products/w7500/documents/appnote/keil10.jpg").default} alt="keil10"/></a>
-<a target="_blank" href={require("/img/products/w7500/documents/appnote/direction_leftdown.jpg").default}><img src={require("/img/products/w7500/documents/appnote/direction_leftdown.jpg").default} alt="direction_leftdown"/></a>
-<a target="_blank" href={require("/img/products/w7500/documents/appnote/keil11.jpg").default}><img src={require("/img/products/w7500/documents/appnote/keil11.jpg").default} alt="keil11"/></a>
-<a target="_blank" href={require("/img/products/w7500/documents/appnote/direction_leftdown.jpg").default}><img src={require("/img/products/w7500/documents/appnote/direction_leftdown.jpg").default} alt="direction_leftdown"/></a>
-<a target="_blank" href={require("/img/products/w7500/documents/appnote/keil12.jpg").default}><img src={require("/img/products/w7500/documents/appnote/keil12.jpg").default} alt="keil12"/></a>
-<a target="_blank" href={require("/img/products/w7500/documents/appnote/direction_leftdown.jpg").default}><img src={require("/img/products/w7500/documents/appnote/direction_leftdown.jpg").default} alt="direction_leftdown"/></a>
-<a target="_blank" href={require("/img/products/w7500/documents/appnote/keil13.jpg").default}><img src={require("/img/products/w7500/documents/appnote/keil13.jpg").default} alt="keil13"/></a>
+![keil8](/img/products/w7500/documents/appnote/keil8.jpg)
+![direction_leftdown](/img/products/w7500/documents/appnote/direction_leftdown.jpg)
+![keil9](/img/products/w7500/documents/appnote/keil9.jpg)
+![direction_leftdown](/img/products/w7500/documents/appnote/direction_leftdown.jpg)
+![keil10](/img/products/w7500/documents/appnote/keil10.jpg)
+![direction_leftdown](/img/products/w7500/documents/appnote/direction_leftdown.jpg)
+![keil11](/img/products/w7500/documents/appnote/keil11.jpg)
+![direction_leftdown](/img/products/w7500/documents/appnote/direction_leftdown.jpg)
+![keil12](/img/products/w7500/documents/appnote/keil12.jpg)
+![direction_leftdown](/img/products/w7500/documents/appnote/direction_leftdown.jpg)
+![keil13](/img/products/w7500/documents/appnote/keil13.jpg)
 
 Follow like upper images. 
 
-<a target="_blank" href={require("/img/products/w7500/documents/appnote/keil14.jpg").default}><img src={require("/img/products/w7500/documents/appnote/keil14.jpg").default} alt="keil14"/></a>
+![keil14](/img/products/w7500/documents/appnote/keil14.jpg)
 
 And in the same way...  CMSIS Folder include D:\workspace\project\Libraries\CMSIS\Device\WIZnet\W7500\Source\system_W7500.c file
 
@@ -87,31 +87,31 @@ And User folder has to include main.c and so on.
 
 Let's make main.c
 
-<a target="_blank" href={require("/img/products/w7500/documents/appnote/keil15.jpg").default}><img src={require("/img/products/w7500/documents/appnote/keil15.jpg").default} alt="keil15"/></a>
+![keil15](/img/products/w7500/documents/appnote/keil15.jpg)
 
 Click to Add New Item to the Group.
 
-<a target="_blank" href={require("/img/products/w7500/documents/appnote/keil16.jpg").default}><img src={require("/img/products/w7500/documents/appnote/keil16.jpg").default} alt="keil16"/></a>
+![keil16](/img/products/w7500/documents/appnote/keil16.jpg)
 
 Select C file and Name it with 'main' and click 'Add'.
 
-<a target="_blank" href={require("/img/products/w7500/documents/appnote/keil17.jpg").default}><img src={require("/img/products/w7500/documents/appnote/keil17.jpg").default} alt="keil17"/></a>
+![keil17](/img/products/w7500/documents/appnote/keil17.jpg)
 
 Include **w7500x.h** header but... you should show red X because you did not path.
 
 ### STEP 6. setting for include paths
 
-<a target="_blank" href={require("/img/products/w7500/documents/appnote/keil18.jpg").default}><img src={require("/img/products/w7500/documents/appnote/keil18.jpg").default} alt="keil18"/></a>
+![keil18](/img/products/w7500/documents/appnote/keil18.jpg)
 
 Click to Options for Target...
 
-<a target="_blank" href={require("/img/products/w7500/documents/appnote/keil19.jpg").default}><img src={require("/img/products/w7500/documents/appnote/keil19.jpg").default} alt="keil19"/></a>
+![keil19](/img/products/w7500/documents/appnote/keil19.jpg)
 
 Select 'Include Paths' in C\C++ tap and click the folder icon and click to ... icon
 
-<a target="_blank" href={require("/img/products/w7500/documents/appnote/keil20.jpg").default}><img src={require("/img/products/w7500/documents/appnote/keil20.jpg").default} alt="keil20"/></a>
+![keil20](/img/products/w7500/documents/appnote/keil20.jpg)
 
-<a target="_blank" href={require("/img/products/w7500/documents/appnote/keil_.jpg").default}><img src={require("/img/products/w7500/documents/appnote/keil_.jpg").default} alt="keil+"/></a>
+![keil+](/img/products/w7500/documents/appnote/keil_.jpg)
 
 Set 'include path' with
 
@@ -119,86 +119,86 @@ Set 'include path' with
    **D:\workspace\project\Libraries\W7500x_stdPeriph_Driver\inc**
    **D:\workspace\project\Libraries\CMSIS\Include**
 
-<a target="_blank" href={require("/img/products/w7500/documents/appnote/keil21.jpg").default}><img src={require("/img/products/w7500/documents/appnote/keil21.jpg").default} alt="keil21"/></a>
+![keil21](/img/products/w7500/documents/appnote/keil21.jpg)
 
 
 
 ### STEP 7. Memory setting!
 
-<a target="_blank" href={require("/img/products/w7500/documents/appnote/keil18.jpg").default}><img src={require("/img/products/w7500/documents/appnote/keil18.jpg").default} alt=""/></a>
+![](/img/products/w7500/documents/appnote/keil18.jpg)
 
 Click "Options for Target..."
 
-<a target="_blank" href={require("/img/products/w7500/documents/appnote/keil22-1.jpg").default}><img src={require("/img/products/w7500/documents/appnote/keil22-1.jpg").default} alt="keil22-1"/></a>
-<a target="_blank" href={require("/img/products/w7500/documents/appnote/direction_down.jpg").default}><img src={require("/img/products/w7500/documents/appnote/direction_down.jpg").default} alt="direction_down"/></a>
-<a target="_blank" href={require("/img/products/w7500/documents/appnote/keil22-2.jpg").default}><img src={require("/img/products/w7500/documents/appnote/keil22-2.jpg").default} alt="keil22-2"/></a>
+![keil22-1](/img/products/w7500/documents/appnote/keil22-1.jpg)
+![direction_down](/img/products/w7500/documents/appnote/direction_down.jpg)
+![keil22-2](/img/products/w7500/documents/appnote/keil22-2.jpg)
 
 Click "Target" tap and set with the values which are shown in above pictures
 
-<a target="_blank" href={require("/img/products/w7500/documents/appnote/keil23.jpg").default}><img src={require("/img/products/w7500/documents/appnote/keil23.jpg").default} alt="keil23"/></a>
+![keil23](/img/products/w7500/documents/appnote/keil23.jpg)
 
 And click "Linker" tap and check [Use Memory Layout from Target Dialog]
 
 ### STEP 8. Selection of Peripherals to use 
 
-<a target="_blank" href={require("/img/products/w7500/documents/appnote/keil18.jpg").default}><img src={require("/img/products/w7500/documents/appnote/keil18.jpg").default} alt="keil18"/></a>
+![keil18](/img/products/w7500/documents/appnote/keil18.jpg)
 
 Click "Options for Target..."
 
-<a target="_blank" href={require("/img/products/w7500/documents/appnote/keil24.jpg").default}><img src={require("/img/products/w7500/documents/appnote/keil24.jpg").default} alt="keil24"/></a>
+![keil24](/img/products/w7500/documents/appnote/keil24.jpg)
 
 Click "C/C++" tap and add **CORTEX_M0 USE_STDPERIPH_DRIVER** in "Define" field.
 
 ### STEP 9. Setting user program to use with the created bin file
 
-<a target="_blank" href={require("/img/products/w7500/documents/appnote/keil18.jpg").default}><img src={require("/img/products/w7500/documents/appnote/keil18.jpg").default} alt="keil18"/></a>
+![keil18](/img/products/w7500/documents/appnote/keil18.jpg)
 
 Click "Options for Target..."
 
-<a target="_blank" href={require("/img/products/w7500/documents/appnote/keil25.jpg").default}><img src={require("/img/products/w7500/documents/appnote/keil25.jpg").default} alt="keil25"/></a>
+![keil25](/img/products/w7500/documents/appnote/keil25.jpg)
 
 Click "User" tap and check "Run #1" in "Run User Programs After Build/Rebuild" section  
 and write this command **[fromelf --bin -o "$L@L.bin" "#L"]** in order CMSIS DAP to use the bin file.
 
 ### STEP 10. Compile the example
 
-<a target="_blank" href={require("/img/products/w7500/documents/appnote/keil26.jpg").default}><img src={require("/img/products/w7500/documents/appnote/keil26.jpg").default} alt="keil26"/></a>
+![keil26](/img/products/w7500/documents/appnote/keil26.jpg)
 
 Let's compile the example code in **D:\workspace\project\Projects\Peripheral_Examples\GPIO\Blink_LED**
 This fold consists of **main.c**,  **W7500x_conf.h**, **W7500x_it.c** and **W7500x_it.h** and you should copy these four files to **D:\workspace\project\W7500_Test**(my project folder)
 
-<a target="_blank" href={require("/img/products/w7500/documents/appnote/keil27.jpg").default}><img src={require("/img/products/w7500/documents/appnote/keil27.jpg").default} alt="keil27"/></a>
+![keil27](/img/products/w7500/documents/appnote/keil27.jpg)
 
 And copy W7500x_gpio.c into W7500_Periphs folder in order to use gpio peripheral 
 
-<a target="_blank" href={require("/img/products/w7500/documents/appnote/keil28.jpg").default}><img src={require("/img/products/w7500/documents/appnote/keil28.jpg").default} alt="keil28"/></a>
+![keil28](/img/products/w7500/documents/appnote/keil28.jpg)
 
 And copy **W7500x_it.c** into User folder for interrupt handlers
 
 Add "Include Path" for **W7500x_conf.h** and **W7500x_it.h**
 
-<a target="_blank" href={require("/img/products/w7500/documents/appnote/keil18.jpg").default}><img src={require("/img/products/w7500/documents/appnote/keil18.jpg").default} alt="keil18"/></a>
+![keil18](/img/products/w7500/documents/appnote/keil18.jpg)
 
 Click "Options for Target..."
 
-<a target="_blank" href={require("/img/products/w7500/documents/appnote/keil19.jpg").default}><img src={require("/img/products/w7500/documents/appnote/keil19.jpg").default} alt="keil19"/></a>
+![keil19](/img/products/w7500/documents/appnote/keil19.jpg)
 
 Click "Include Paths" in C\C++ tap, "folder icon and ... icon
 
-<a target="_blank" href={require("/img/products/w7500/documents/appnote/keil29.jpg").default}><img src={require("/img/products/w7500/documents/appnote/keil29.jpg").default} alt="keil29"/></a>
+![keil29](/img/products/w7500/documents/appnote/keil29.jpg)
 
 Set "include path" with **D:\workspace\project\W7500_Test**
 
-<a target="_blank" href={require("/img/products/w7500/documents/appnote/keil30.jpg").default}><img src={require("/img/products/w7500/documents/appnote/keil30.jpg").default} alt="keil30"/></a>
+![keil30](/img/products/w7500/documents/appnote/keil30.jpg)
 
 Now compile this project!! by pressing **F7** or clicking **Build icon**
 
-<a target="_blank" href={require("/img/products/w7500/documents/appnote/keil31.jpg").default}><img src={require("/img/products/w7500/documents/appnote/keil31.jpg").default} alt="keil31"/></a>
+![keil31](/img/products/w7500/documents/appnote/keil31.jpg)
 
 After compile, **W7500_Test.bin** file will be created.
 And then WIZwiki-W7500 will upload this bin file on itself via the User program you registered.
 
-<a target="_blank" href={require("/img/products/w7500/documents/appnote/pdf.jpg").default}><img src={require("/img/products/w7500/documents/appnote/pdf.jpg").default} alt=""/></a>
+![](/img/products/w7500/documents/appnote/pdf.jpg)
 
 If you want to convert this document to the PDF file? Click to [Export to PDF]
 
