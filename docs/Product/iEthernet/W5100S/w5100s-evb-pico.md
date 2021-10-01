@@ -54,7 +54,7 @@ The W5100S-EVB-Pico is a microcontroller evaluation board based on the Raspberry
 
 ### Pin-out
 
-![W5100S-EVB-Pico_PINOUT](/img/osh/w5100s_evb_pico/w5100s-evb-pico_pinout.png)
+![W5100S-EVB-Pico_PINOUT](/img/osh/w5100s_evb_pico/w5100s-evb-pic-pinout_v1.png)
 
 W5100S-EVB-Pico pinout is directly connected to the GPIO of RP2040 as shown in the picture above. It has the same pinout as the Raspberry Pi Pico board. However, GPIO16, GPIO17, GPIO18, GPIO19, GPIO20, GPIO21 are connected to W5100S inside the board. These pins enable SPI communication with W5100S to use Ethernet function. If you are using the Ethernet function, these pins cannot be used for any other purpose.
 
