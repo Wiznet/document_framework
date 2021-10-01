@@ -53,14 +53,14 @@ supports generic SPI, UART interface to connect WLAN to the host
 processor. A simplified block diagram of the WizFi250 module is depicted
 in the Fig. below.
 
-![](/img/products/wizfi250/wifi250ds-1.png)
+<a target="_blank" href={require("/img/products/wizfi250/wifi250ds-1.png").default}><img src={require("/img/products/wizfi250/wifi250ds-1.png").default} alt=""/></a>
 
 
 ## 4. Pin description
 
 ### Pin map
 
-![](/img/products/wizfi250/wizfi250_pin_map.png)
+<a target="_blank" href={require("/img/products/wizfi250/wizfi250_pin_map.png").default}><img src={require("/img/products/wizfi250/wizfi250_pin_map.png").default} alt=""/></a>
 
 ### Pin description
 
@@ -434,11 +434,11 @@ Including metal shielding)
 **WizFi250-CON**  
 \- 17 mm (W) x 20 mm (L) x 1.9 mm (H) (+/- 0.1mm)
 
-![](/img/products/wizfi250/wifi250ds-3.png)  
+<a target="_blank" href={require("/img/products/wizfi250/wifi250ds-3.png").default}><img src={require("/img/products/wizfi250/wifi250ds-3.png").default} alt=""/></a>  
 **Pin out and pin description**
-![](/img/products/wizfi250/wifi250ds-4.png)  
+<a target="_blank" href={require("/img/products/wizfi250/wifi250ds-4.png").default}><img src={require("/img/products/wizfi250/wifi250ds-4.png").default} alt=""/></a>  
 **Recommend footprint**
-![](/img/products/wizfi250/wifi250ds-5.png)
+<a target="_blank" href={require("/img/products/wizfi250/wifi250ds-5.png").default}><img src={require("/img/products/wizfi250/wifi250ds-5.png").default} alt=""/></a>
 
 ## 8. Design Guide
 
@@ -447,14 +447,15 @@ Including metal shielding)
 #### Module Location Recommendation
 
 To get better antenna performance, the following two module locations
-are advised.  
-![](/img/products/wizfi250/wizfi250ds/pcb_design_guide_1.png)  
-\-Location 1: Module is recommended to be on the upper right corner of
-main board.  
-![](/img/products/wizfi250/wizfi250ds/pcb_design_guide_2.png)  
-\-Location 2: Module is recommended to be on the upper left corner of
-main board.  
-  
+are advised.
+
+<a target="_blank" href={require("/img/products/wizfi250/wizfi250ds/pcb_design_guide_1.png").default}><img src={require("/img/products/wizfi250/wizfi250ds/pcb_design_guide_1.png").default} alt=""/></a>  
+
+\-Location 1: Module is recommended to be on the upper right corner of main board.
+
+<a target="_blank" href={require("/img/products/wizfi250/wizfi250ds/pcb_design_guide_2.png").default}><img src={require("/img/products/wizfi250/wizfi250ds/pcb_design_guide_2.png").default} alt=""/></a>
+
+\-Location 2: Module is recommended to be on the upper left corner of main board.
 
 #### Module Layout Guideline
 
@@ -464,39 +465,40 @@ or empty.
 each layers of the main board.  
 \- Any mental lids, power traces or metal components should be placed
 far away from the antenna area on the main board.  
-\- Keep GND plane as large as you can on main board.  
-![](/img/products/wizfi250/wizfi250ds/pcb_design_guide_3.png)  
-  
+\- Keep GND plane as large as you can on main board.
+
+<a target="_blank" href={require("/img/products/wizfi250/wizfi250ds/pcb_design_guide_3.png").default}><img src={require("/img/products/wizfi250/wizfi250ds/pcb_design_guide_3.png").default} alt=""/></a>
   
 #### Antenna Simulation Result 
 
 |               | Ant. on right-up corner                                   | Ant. on left-up corner                                     |
 | ------------- | --------------------------------------------------------- | ---------------------------------------------------------- |
-| Configuration | ![](/img/products/wizfi250/wizfi250ds/pcb_design_guide_4.png) | ![](/img/products/wizfi250/wizfi250ds/pcb_design_guide_8.png)  |
-| S11           | ![](/img/products/wizfi250/wizfi250ds/pcb_design_guide_5.png) | ![](/img/products/wizfi250/wizfi250ds/pcb_design_guide_9.png)  |
-| Gain          | ![](/img/products/wizfi250/wizfi250ds/pcb_design_guide_6.png) | ![](/img/products/wizfi250/wizfi250ds/pcb_design_guide_10.png) |
-| 3D Pattern    | ![](/img/products/wizfi250/wizfi250ds/pcb_design_guide_7.png) | ![](/img/products/wizfi250/wizfi250ds/pcb_design_guide_11.png) |
+| Configuration | <a target="_blank" href={require("/img/products/wizfi250/wizfi250ds/pcb_design_guide_4.png").default}><img src={require("/img/products/wizfi250/wizfi250ds/pcb_design_guide_4.png").default} alt=""/></a>  | <a target="_blank" href={require("/img/products/wizfi250/wizfi250ds/pcb_design_guide_8.png").default}><img src={require("/img/products/wizfi250/wizfi250ds/pcb_design_guide_8.png").default} alt=""/></a>  |
+| S11           | <a target="_blank" href={require("/img/products/wizfi250/wizfi250ds/pcb_design_guide_5.png").default}><img src={require("/img/products/wizfi250/wizfi250ds/pcb_design_guide_5.png").default} alt=""/></a>  | <a target="_blank" href={require("/img/products/wizfi250/wizfi250ds/pcb_design_guide_9.png").default}><img src={require("/img/products/wizfi250/wizfi250ds/pcb_design_guide_9.png").default} alt=""/></a> |
+| Gain          | <a target="_blank" href={require("/img/products/wizfi250/wizfi250ds/pcb_design_guide_6.png").default}><img src={require("/img/products/wizfi250/wizfi250ds/pcb_design_guide_6.png").default} alt=""/></a> | <a target="_blank" href={require("/img/products/wizfi250/wizfi250ds/pcb_design_guide_10.png").default}><img src={require("/img/products/wizfi250/wizfi250ds/pcb_design_guide_10.png").default} alt=""/></a> |
+| 3D Pattern    | <a target="_blank" href={require("/img/products/wizfi250/wizfi250ds/pcb_design_guide_7.png").default}><img src={require("/img/products/wizfi250/wizfi250ds/pcb_design_guide_7.png").default} alt=""/></a> | <a target="_blank" href={require("/img/products/wizfi250/wizfi250ds/pcb_design_guide_11.png").default}><img src={require("/img/products/wizfi250/wizfi250ds/pcb_design_guide_11.png").default} alt=""/></a> |
 
   
   
 #### Antenna Measurement Setup 
-![](/img/products/wizfi250/wizfi250ds/pcb_design_guide_12.png)  
-Module is on the upper right corner of main board for performance
-measurement.  
-![](/img/products/wizfi250/wizfi250ds/pcb_design_guide_13.png)  
+<a target="_blank" href={require("/img/products/wizfi250/wizfi250ds/pcb_design_guide_12.png").default}><img src={require("/img/products/wizfi250/wizfi250ds/pcb_design_guide_12.png").default} alt=""/></a>
+
+Module is on the upper right corner of main board for performance measurement.
+
+<a target="_blank" href={require("/img/products/wizfi250/wizfi250ds/pcb_design_guide_13.png").default}><img src={require("/img/products/wizfi250/wizfi250ds/pcb_design_guide_13.png").default} alt=""/></a>
+
 Antenna measurement setup as the figure.  
   
   
-#### Antenna Measurement Results 
-![](/img/products/wizfi250/wizfi250ds/pcb_design_guide_14.png)  
-![](/img/products/wizfi250/wizfi250ds/pcb_design_guide_15.png)![](/img/products/wizfi250/wizfi250ds/pcb_design_guide_16.png)  
-  
-  
+#### Antenna Measurement Results
+
+<a target="_blank" href={require("/img/products/wizfi250/wizfi250ds/pcb_design_guide_14.png").default}><img src={require("/img/products/wizfi250/wizfi250ds/pcb_design_guide_14.png").default} alt=""/></a>
+
+<a target="_blank" href={require("/img/products/wizfi250/wizfi250ds/pcb_design_guide_16.png").default}><img src={require("/img/products/wizfi250/wizfi250ds/pcb_design_guide_16.png").default} alt="](/img/products/wizfi250/wizfi250ds/pcb_design_guide_15.png)!["/></a>
+
 #### Firmware Update - Circuit Guide 
 
-WizFi250 provides some specific functions according to its firmware. Until now, there is a
-standard firmware and some customized firmware to specific customers
-available. It is possible to perform firmware updates.  
+WizFi250 provides some specific functions according to its firmware. Until now, there is a standard firmware and some customized firmware to specific customers available. It is possible to perform firmware updates.  
 WizFi250 decides its operating mode according to the input value of the
 BOOT signal. WizFi250 operates in boot mode when the BOOT input value is
 “LOW”, otherwise it operates in the standard run mode. WizFi250
@@ -517,7 +519,7 @@ Please stop the UART communication between your MCU and the WizFi250
 when the BOOT input value is “LOW”. After that detection of a "LOW" BOOT
 signal you can succeed firmware update.  
   
-![](/img/products/wizfi250/wizfi250ds/firmware_1.png)  
+<a target="_blank" href={require("/img/products/wizfi250/wizfi250ds/firmware_1.png").default}><img src={require("/img/products/wizfi250/wizfi250ds/firmware_1.png").default} alt=""/></a>
 
 #### Case 2
 
@@ -529,20 +531,20 @@ so firmware updates are made possible. The UART signal of the WizFi250
 is only connected on your MCU if the BOOT signal is "High" and WizFi250
 goes into the RUN Mode.  
   
-![](/img/products/wizfi250/wizfi250ds/boot_mode.png)  
-![](/img/products/wizfi250/wizfi250ds/run_mode.png)  
-![](/img/products/wizfi250/wizfi250ds/firmware_2.png)
+<a target="_blank" href={require("/img/products/wizfi250/wizfi250ds/boot_mode.png").default}><img src={require("/img/products/wizfi250/wizfi250ds/boot_mode.png").default} alt=""/></a>  
+<a target="_blank" href={require("/img/products/wizfi250/wizfi250ds/run_mode.png").default}><img src={require("/img/products/wizfi250/wizfi250ds/run_mode.png").default} alt=""/></a>  
+<a target="_blank" href={require("/img/products/wizfi250/wizfi250ds/firmware_2.png").default}><img src={require("/img/products/wizfi250/wizfi250ds/firmware_2.png").default} alt=""/></a>
 
 ## 9. Recommended reflow profile
 
 The following paragraphs provide the requirements for the size, weight and mounting of the WizFi250.
 
-![](/img/products/wizfi250/wizfi250ds/wifi250ds-6.png)  
+<a target="_blank" href={require("/img/products/wizfi250/wizfi250ds/wifi250ds-6.png").default}><img src={require("/img/products/wizfi250/wizfi250ds/wifi250ds-6.png").default} alt=""/></a>  
 
 A-B. Temp.: 150\~200℃; soak time:60\~120sec.  
 C. Peak temp: 235\~245℃.  
 D. Time above 220 ℃: 40\~90sec.  
-Suggestion: Optimal cooling rate is \<1℃/sec. from peak to 220 ℃.
+Suggestion: Optimal cooling rate is <1℃/sec. from peak to 220 ℃.
 
 ## 10. WizFi250 Ref. Schematic
 

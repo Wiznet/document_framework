@@ -6,7 +6,7 @@ date: 2020-04-03
 
 ## Overview
 
-![](/img/osh/ioshield-l/io_s_l_.png) 
+<a target="_blank" href={require("/img/osh/ioshield-l/io_s_l_.png").default}><img src={require("/img/osh/ioshield-l/io_s_l_.png").default} alt=""/></a> 
 
 ioShield-L is an Ethernet BoosterPack for MSP430 LaunchPad development board(🌎[MSP-EXP430G2, TI](http://www.ti.com/tool/msp-exp430g2)). The ioShield-L allows a MSP430 LaunchPad board to connect to the internet. It consists of WIZ550io for ethernet connectivity and an interface board to LaunchPad.
 
@@ -16,7 +16,7 @@ The MSP-EXP430G2 low-cost experimenter board called LaunchPad is a complete deve
 
 For more details, please refer to 🌎[MSP430 LaunchPad page](http://www.ti.com/tool/msp-exp430g2) in 🌎[TI official website](http://www.ti.com).
 
-![](/img/osh/ioshield-l/msp-exp430g2_rev1.5_front.jpg)
+<a target="_blank" href={require("/img/osh/ioshield-l/msp-exp430g2_rev1.5_front.jpg").default}><img src={require("/img/osh/ioshield-l/msp-exp430g2_rev1.5_front.jpg").default} alt=""/></a>
 
 ## Development Environment
 
@@ -27,7 +27,7 @@ The MSP-EXP430G2 can be used with IAR Embedded Workbench™ Integrated Developme
   - Board : MSP-EXP430G2 Rev. 1.5 and later. (for H/W UART support)
   - MCU : MSP430G25x3IN20 (PDIP20 package, 16kB Flash, 512B RAM) and later.
 
-![](/img/osh/ioshield-l/msp-exp430g2.jpg)
+<a target="_blank" href={require("/img/osh/ioshield-l/msp-exp430g2.jpg").default}><img src={require("/img/osh/ioshield-l/msp-exp430g2.jpg").default} alt=""/></a>
 
 ## Available Resources
 

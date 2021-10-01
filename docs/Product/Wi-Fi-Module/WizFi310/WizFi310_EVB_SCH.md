@@ -14,6 +14,6 @@ date: 2020-05-13
 
 <a href="/img/products/wizfi310/wizfi310evbsch/wizfi310_evb_v0.pdf.pdf" target="_blank">Download</a>
 
-![](/img/products/wizfi310/wizfi310evbsch/wizfi310_evb_v0_01.png)
-![](/img/products/wizfi310/wizfi310evbsch/wizfi310_evb_v0_02.png)
-![](/img/products/wizfi310/wizfi310evbsch/wizfi310_evb_v0_03.png)
+<a target="_blank" href={require("/img/products/wizfi310/wizfi310evbsch/wizfi310_evb_v0_01.png").default}><img src={require("/img/products/wizfi310/wizfi310evbsch/wizfi310_evb_v0_01.png").default} alt=""/></a>
+<a target="_blank" href={require("/img/products/wizfi310/wizfi310evbsch/wizfi310_evb_v0_02.png").default}><img src={require("/img/products/wizfi310/wizfi310evbsch/wizfi310_evb_v0_02.png").default} alt=""/></a>
+<a target="_blank" href={require("/img/products/wizfi310/wizfi310evbsch/wizfi310_evb_v0_03.png").default}><img src={require("/img/products/wizfi310/wizfi310evbsch/wizfi310_evb_v0_03.png").default} alt=""/></a>

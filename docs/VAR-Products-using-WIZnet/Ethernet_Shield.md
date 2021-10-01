@@ -10,7 +10,7 @@ There are many resource Products using WIZnet Ethernet chip.
 
 ### Arduino Ethernet Shield
 
-![arduino_ethernet_shield](/img/var_products/edit_04.arduino_ethernet_shield.jpg)
+<a target="_blank" href={require("/img/var_products/edit_04.arduino_ethernet_shield.jpg").default}><img src={require("/img/var_products/edit_04.arduino_ethernet_shield.jpg").default} alt="arduino_ethernet_shield"/></a>
 
 > This 🌎[Ethernet
 > Shield](http://arduino.cc/en/Guide/ArduinoEthernetShield) which is
@@ -27,7 +27,7 @@ There are many resource Products using WIZnet Ethernet chip.
 
 ### Arduino Ethernet Shield R2.0
 
-![arduino_ethernet_shield_r2](/img/var_products/edit_03.arduino_ethernet_shield_r2.jpg)
+<a target="_blank" href={require("/img/var_products/edit_03.arduino_ethernet_shield_r2.jpg").default}><img src={require("/img/var_products/edit_03.arduino_ethernet_shield_r2.jpg").default} alt="arduino_ethernet_shield_r2"/></a>
 
 > The 🌎[Arduino Ethernet
 > shield](http://www.nkcelectronics.com/arduino-ethernet-shield.html)
@@ -41,8 +41,8 @@ There are many resource Products using WIZnet Ethernet chip.
 
 ### Arduino Ethernet Shield R3.0
 
-![arduino_ethernet_shield_r3_front](/img/var_products/01.arduino_ethernet_shield_r3_front_.jpg)
-![arduino_ethernet_shield_r3_back](/img/var_products/01.arduino_ethernet_shield_r3_back_.jpg)
+<a target="_blank" href={require("/img/var_products/01.arduino_ethernet_shield_r3_front_.jpg").default}><img src={require("/img/var_products/01.arduino_ethernet_shield_r3_front_.jpg").default} alt="arduino_ethernet_shield_r3_front"/></a>
+<a target="_blank" href={require("/img/var_products/01.arduino_ethernet_shield_r3_back_.jpg").default}><img src={require("/img/var_products/01.arduino_ethernet_shield_r3_back_.jpg").default} alt="arduino_ethernet_shield_r3_back"/></a>
 
 > The 🌎[Arduino Ethernet Shield
 > R3.0](http://arduino.cc/en/Main/ArduinoEthernetShield) allows an
@@ -59,8 +59,8 @@ There are many resource Products using WIZnet Ethernet chip.
 -----
 ### Arduino Ethernet
 
-![arduino_ethernet_front](/img/var_products/edit_02.arduino_ethernet_front.jpg)
-![arduino_ethernet_front](/img/var_products/edit_02.arduino_ethernet_front.jpg)
+<a target="_blank" href={require("/img/var_products/edit_02.arduino_ethernet_front.jpg").default}><img src={require("/img/var_products/edit_02.arduino_ethernet_front.jpg").default} alt="arduino_ethernet_front"/></a>
+<a target="_blank" href={require("/img/var_products/edit_02.arduino_ethernet_front.jpg").default}><img src={require("/img/var_products/edit_02.arduino_ethernet_front.jpg").default} alt="arduino_ethernet_front"/></a>
 
 > The 🌎[Arduino Ethernet](http://arduino.cc/en/Main/ArduinoBoardEthernet)
 > is a microcontroller board based on the ATmega328. It has 14 digital
@@ -80,7 +80,7 @@ There are many resource Products using WIZnet Ethernet chip.
 
 ### Ethernet Shield from Adafruit
 
-![ethernet_shield_adafruit](/img/var_products/edit_05.ethernet_shield_adafruit.jpg)
+<a target="_blank" href={require("/img/var_products/edit_05.ethernet_shield_adafruit.jpg").default}><img src={require("/img/var_products/edit_05.ethernet_shield_adafruit.jpg").default} alt="ethernet_shield_adafruit"/></a>
 
 > How about sending a twitter (which can then be easily forwarded to a
 > phone via SMS)? There are so many possibilites for projects that
@@ -100,8 +100,8 @@ There are many resource Products using WIZnet Ethernet chip.
 
 ### Electronics DIY Arduino Ethernet Shield W5100 from DFRobot
 
-![electronics_ethernet_shield-1](/img/var_products/edit_07.electronics_ethernet_shield-1.jpg)
-![electronics_ethernet_shield-2](/img/var_products/edit_07.electronics_ethernet_shield-2.jpg)
+<a target="_blank" href={require("/img/var_products/edit_07.electronics_ethernet_shield-1.jpg").default}><img src={require("/img/var_products/edit_07.electronics_ethernet_shield-1.jpg").default} alt="electronics_ethernet_shield-1"/></a>
+<a target="_blank" href={require("/img/var_products/edit_07.electronics_ethernet_shield-2.jpg").default}><img src={require("/img/var_products/edit_07.electronics_ethernet_shield-2.jpg").default} alt="electronics_ethernet_shield-2"/></a>
 
 > 🌎[DFRduino Ethernet
 > Shield](http://www.china-electronics-gadgets.com/electronics-diy-arduino-ethernet-shield-w5100-p-354.html)
@@ -115,7 +115,7 @@ There are many resource Products using WIZnet Ethernet chip.
 -----
 ### DFRduino Ethernet Shield V2.1 from DFRobot
 
-![dfrduino_ethernet_shield-1](/img/var_products/edit_08.dfrduino_ethernet_shield-1.jpg)
+<a target="_blank" href={require("/img/var_products/edit_08.dfrduino_ethernet_shield-1.jpg").default}><img src={require("/img/var_products/edit_08.dfrduino_ethernet_shield-1.jpg").default} alt="dfrduino_ethernet_shield-1"/></a>
 
 
 > The 🌎[DFRduino Ethernet Shield
@@ -137,7 +137,7 @@ There are many resource Products using WIZnet Ethernet chip.
 
 ### Ethernet Shield W5100 For Arudino from DFRobot
 
-![ethernet_shield_w5100](/img/var_products/edit_09.ethernet_shield_w5100.jpg)
+<a target="_blank" href={require("/img/var_products/edit_09.ethernet_shield_w5100.jpg").default}><img src={require("/img/var_products/edit_09.ethernet_shield_w5100.jpg").default} alt="ethernet_shield_w5100"/></a>
 
 > The 🌎[Arduino Ethernet
 > Shield](http://www.dfrobot.com/index.php?route=product/product&filter_name=ethernet&page=1&product_id=52%20-%20.U0eEGZawemQ#.U0znpJawemQ)
@@ -156,8 +156,8 @@ There are many resource Products using WIZnet Ethernet chip.
 -----
 ### XBoard V2 -A bridge between home and internet (Arduino Compatible) from DFRobot
 
-![edit\_10.xboard\_v2-1.jpg](/img/var_products/edit_10.xboard_v2-1.jpg)
-![edit\_10.xboard\_v2-2.jpg](/img/var_products/edit_10.xboard_v2-2.jpg)
+<a target="_blank" href={require("/img/var_products/edit_10.xboard_v2-1.jpg").default}><img src={require("/img/var_products/edit_10.xboard_v2-1.jpg").default} alt="edit\_10.xboard\_v2-1.jpg"/></a>
+<a target="_blank" href={require("/img/var_products/edit_10.xboard_v2-2.jpg").default}><img src={require("/img/var_products/edit_10.xboard_v2-2.jpg").default} alt="edit\_10.xboard\_v2-2.jpg"/></a>
 
 > This is 🌎[Version 2.0 of the
 > Xboard.](http://www.dfrobot.com/index.php?route=product/product&path=52_104&product_id=564%20-%20.U0eCYJawemQ#.U0zn7ZawemQ)
@@ -177,8 +177,8 @@ There are many resource Products using WIZnet Ethernet chip.
 
 ### Ethernet Shield for Arduino - W5200 from DFRobot
 
-![w5200_03_dfrobot_1](/img/var_products/edit_w5200_03_dfrobot_1.jpg)
-![w5200_03_dfrobot_2](/img/var_products/edit_w5200_03_dfrobot_2.jpg)
+<a target="_blank" href={require("/img/var_products/edit_w5200_03_dfrobot_1.jpg").default}><img src={require("/img/var_products/edit_w5200_03_dfrobot_1.jpg").default} alt="w5200_03_dfrobot_1"/></a>
+<a target="_blank" href={require("/img/var_products/edit_w5200_03_dfrobot_2.jpg").default}><img src={require("/img/var_products/edit_w5200_03_dfrobot_2.jpg").default} alt="w5200_03_dfrobot_2"/></a>
 
 > This 🌎[Arduino-sized Ethernet
 > Shield](http://www.dfrobot.com/index.php?route=product/product&filter_name=ethernet&product_id=1028%20-%20.U0eGUpawemQ#.U0eGY5awemQ)
@@ -196,8 +196,8 @@ There are many resource Products using WIZnet Ethernet chip.
 -----
 ### W5200 DFRduino Ethernet Expansion Board from DFRobot
 
-![w5200_dfrduino-1](/img/var_products/edit_12.w5200_dfrduino-1.jpg)
-![edit\_12.w5200\_dfrduino-2.jpg](/img/var_products/edit_12.w5200_dfrduino-2.jpg)
+<a target="_blank" href={require("/img/var_products/edit_12.w5200_dfrduino-1.jpg").default}><img src={require("/img/var_products/edit_12.w5200_dfrduino-1.jpg").default} alt="w5200_dfrduino-1"/></a>
+<a target="_blank" href={require("/img/var_products/edit_12.w5200_dfrduino-2.jpg").default}><img src={require("/img/var_products/edit_12.w5200_dfrduino-2.jpg").default} alt="edit\_12.w5200\_dfrduino-2.jpg"/></a>
 
 > 🌎[W5200](http://wiznet.co.kr/sub_modules/en/product/Product_Detail.asp?cate1=5&cate2=7&cate3=56&pid=1144)
 > 🌎[DFRduino Ethernet Expansion
@@ -208,7 +208,7 @@ There are many resource Products using WIZnet Ethernet chip.
 
 ### Ethernet Shield from Elecfreaks
 
-![ethernet_shield_elecfreaks](/img/var_products/edit_13.ethernet_shield_elecfreaks.jpg)
+<a target="_blank" href={require("/img/var_products/edit_13.ethernet_shield_elecfreaks.jpg").default}><img src={require("/img/var_products/edit_13.ethernet_shield_elecfreaks.jpg").default} alt="ethernet_shield_elecfreaks"/></a>
 
 > 🌎[The Ethernet
 > Shield](http://www.elecfreaks.com/store/ethernet-shield-p-710.html)
@@ -228,8 +228,8 @@ There are many resource Products using WIZnet Ethernet chip.
 
 ### Ethernet shield - W5100 from Elecfreaks
 
-![ethernet_shield_from_eleckfreakst_01](/img/var_products/edit_09.ethernet_shield_from_eleckfreakst_01.jpg)
-![ethernet_shield_from_eleckfreakst_05](/img/var_products/edit_09.ethernet_shield_from_eleckfreakst_05.jpg)
+<a target="_blank" href={require("/img/var_products/edit_09.ethernet_shield_from_eleckfreakst_01.jpg").default}><img src={require("/img/var_products/edit_09.ethernet_shield_from_eleckfreakst_01.jpg").default} alt="ethernet_shield_from_eleckfreakst_01"/></a>
+<a target="_blank" href={require("/img/var_products/edit_09.ethernet_shield_from_eleckfreakst_05.jpg").default}><img src={require("/img/var_products/edit_09.ethernet_shield_from_eleckfreakst_05.jpg").default} alt="ethernet_shield_from_eleckfreakst_05"/></a>
 
 > This is a 🌎[Ethernet
 > shield](http://www.elecfreaks.com/store/ethernet-shield-with-micro-sd-w5100-p-372.html)
@@ -247,7 +247,7 @@ There are many resource Products using WIZnet Ethernet chip.
 -----
 ### NX Bridge include Bee adapter from Elecfreaks
 
-![nx_bridge_elecfreaks-1](/img/var_products/edit_15.nx_bridge_elecfreaks-1.jpg)
+<a target="_blank" href={require("/img/var_products/edit_15.nx_bridge_elecfreaks-1.jpg").default}><img src={require("/img/var_products/edit_15.nx_bridge_elecfreaks-1.jpg").default} alt="nx_bridge_elecfreaks-1"/></a>
 
 > 🌎[NX
 > Bridgeis](http://www.elecfreaks.com/store/nx-bridge-include-bee-adapter-p-621.html)
@@ -264,8 +264,8 @@ There are many resource Products using WIZnet Ethernet chip.
 
 ### Arduino Ethernet Shield from ELEC House
 
-![elec_house-1](/img/var_products/edit_15.elec_house-1.jpg)
-![elec_house-2](/img/var_products/edit_15.elec_house-2.jpg)
+<a target="_blank" href={require("/img/var_products/edit_15.elec_house-1.jpg").default}><img src={require("/img/var_products/edit_15.elec_house-1.jpg").default} alt="elec_house-1"/></a>
+<a target="_blank" href={require("/img/var_products/edit_15.elec_house-2.jpg").default}><img src={require("/img/var_products/edit_15.elec_house-2.jpg").default} alt="elec_house-2"/></a>
 
 > 🌎[The Ethernet
 > Shield](http://www.elecfreaks.com/store/ethernet-shield-p-710.html)
@@ -285,8 +285,8 @@ There are many resource Products using WIZnet Ethernet chip.
 
 ### W5200 Ethernet Shield from Elecrow
 
-![w5200_ethernet_shield_from_elecrow_01](/img/var_products/edit_15.w5200_ethernet_shield_from_elecrow_01.png)
-![w5200_ethernet_shield_from_elecrow_02](/img/var_products/edit_15.w5200_ethernet_shield_from_elecrow_02.png)
+<a target="_blank" href={require("/img/var_products/edit_15.w5200_ethernet_shield_from_elecrow_01.png").default}><img src={require("/img/var_products/edit_15.w5200_ethernet_shield_from_elecrow_01.png").default} alt="w5200_ethernet_shield_from_elecrow_01"/></a>
+<a target="_blank" href={require("/img/var_products/edit_15.w5200_ethernet_shield_from_elecrow_02.png").default}><img src={require("/img/var_products/edit_15.w5200_ethernet_shield_from_elecrow_02.png").default} alt="w5200_ethernet_shield_from_elecrow_02"/></a>
 > The 🌎[Ethernet
 > Shield](http://www.elecrow.com/arduino-compatiable-c-109/shield-c-109_110/w5200-ethernet-shield-p-367.html)
 > connects your Arduino device to the internet in mere minutes. Just
@@ -322,7 +322,7 @@ There are many resource Products using WIZnet Ethernet chip.
 
 ### EtherMega from Freetronics
 
-![ethermega_freetronics_top_large](/img/var_products/edit_07.ethermega_freetronics_top_large.jpg)
+<a target="_blank" href={require("/img/var_products/edit_07.ethermega_freetronics_top_large.jpg").default}><img src={require("/img/var_products/edit_07.ethermega_freetronics_top_large.jpg").default} alt="ethermega_freetronics_top_large"/></a>
 
 > The
 > 🌎[EtherMega](http://www.freetronics.com/products/ethermega-arduino-mega-2560-compatible-with-onboard-ethernet#.Uzy98JaweUl)
@@ -342,8 +342,8 @@ There are many resource Products using WIZnet Ethernet chip.
 
 ### EtherTen from Freetronics
 
-![etherten_freetronics_-v3_0-bottom_large](/img/var_products/edit_06.etherten_freetronics_-v3_0-bottom_large.jpg)
-![etherten_freetronics_-v_3_0-top_large](/img/var_products/edit_06.etherten_freetronics_-v_3_0-top_large.jpg)
+<a target="_blank" href={require("/img/var_products/edit_06.etherten_freetronics_-v3_0-bottom_large.jpg").default}><img src={require("/img/var_products/edit_06.etherten_freetronics_-v3_0-bottom_large.jpg").default} alt="etherten_freetronics_-v3_0-bottom_large"/></a>
+<a target="_blank" href={require("/img/var_products/edit_06.etherten_freetronics_-v_3_0-top_large.jpg").default}><img src={require("/img/var_products/edit_06.etherten_freetronics_-v_3_0-top_large.jpg").default} alt="etherten_freetronics_-v_3_0-top_large"/></a>
 
 > The
 > 🌎[EtherTen](http://www.freetronics.com/products/etherten#.Uzy8sZaweUl)
@@ -361,7 +361,7 @@ There are many resource Products using WIZnet Ethernet chip.
 -----
 ### EtherDue from Freetronics
 
-![ed-v1_0-top_large](/img/var_products/edit_37.ed-v1_0-top_large.jpg)
+<a target="_blank" href={require("/img/var_products/edit_37.ed-v1_0-top_large.jpg").default}><img src={require("/img/var_products/edit_37.ed-v1_0-top_large.jpg").default} alt="ed-v1_0-top_large"/></a>
 
 > The
 > 🌎[EtherDue](http://www.freetronics.com/products/etherdue-arduino-due-compatible-with-onboard-ethernet#.VF_8qJaweUk)
@@ -380,8 +380,8 @@ There are many resource Products using WIZnet Ethernet chip.
 
 ### Freeduino Ethernet Module E-Shield v2
 
-![freeduino-2013_eshield_v2](/img/var_products/edit_16.freeduino-2013_eshield_v2.jpg)
-![freeduino-2013_v2_2](/img/var_products/edit_16.freeduino-2013_v2_2.jpg)
+<a target="_blank" href={require("/img/var_products/edit_16.freeduino-2013_eshield_v2.jpg").default}><img src={require("/img/var_products/edit_16.freeduino-2013_eshield_v2.jpg").default} alt="freeduino-2013_eshield_v2"/></a>
+<a target="_blank" href={require("/img/var_products/edit_16.freeduino-2013_v2_2.jpg").default}><img src={require("/img/var_products/edit_16.freeduino-2013_v2_2.jpg").default} alt="freeduino-2013_v2_2"/></a>
 
 > The 🌎[Ethernet Shield v2](http://freeduino.ru/arduino/eshield_v2.html)
 > is based on the 🌎[Wiznet W5100 Ethernet
@@ -407,8 +407,8 @@ There are many resource Products using WIZnet Ethernet chip.
 -----
 ### ITEAD W5100 Ethernet Shield from IteadStudio
 
-![itead_ethernet_shield-1](/img/var_products/edit_26.itead_ethernet_shield-1.jpg)
-![itead_ethernet_shield-2](/img/var_products/edit_26.itead_ethernet_shield-2.jpg)
+<a target="_blank" href={require("/img/var_products/edit_26.itead_ethernet_shield-1.jpg").default}><img src={require("/img/var_products/edit_26.itead_ethernet_shield-1.jpg").default} alt="itead_ethernet_shield-1"/></a>
+<a target="_blank" href={require("/img/var_products/edit_26.itead_ethernet_shield-2.jpg").default}><img src={require("/img/var_products/edit_26.itead_ethernet_shield-2.jpg").default} alt="itead_ethernet_shield-2"/></a>
 
 > 🌎[W5100 Ethernet
 > shield](http://imall.iteadstudio.com/development-platform/arduino/shields/w5100-ethernet-shield.html)
@@ -423,7 +423,7 @@ There are many resource Products using WIZnet Ethernet chip.
 
 ### Ethernet Shield from Link Sprite
 
-![ethernet_shield_linksprite](/img/var_products/edit_38.ethernet_shield_linksprite.jpg)
+<a target="_blank" href={require("/img/var_products/edit_38.ethernet_shield_linksprite.jpg").default}><img src={require("/img/var_products/edit_38.ethernet_shield_linksprite.jpg").default} alt="ethernet_shield_linksprite"/></a>
 
 > 🌎[the Ethernet Shield](http://store.linksprite.com/ethernet-shield/)
 > instantly enables internet connectivity for Arduino projects. An
@@ -439,7 +439,7 @@ There are many resource Products using WIZnet Ethernet chip.
 
 ### W5200 Ethernet Shield for Arduino from Maker Studio
 
-![edit\_39.w5200\_ethernet\_shield\_for\_arduino.jpg](/img/var_products/edit_39.w5200_ethernet_shield_for_arduino.jpg)
+<a target="_blank" href={require("/img/var_products/edit_39.w5200_ethernet_shield_for_arduino.jpg").default}><img src={require("/img/var_products/edit_39.w5200_ethernet_shield_for_arduino.jpg").default} alt="edit\_39.w5200\_ethernet\_shield\_for\_arduino.jpg"/></a>
 
 > The Ethernet controller of 🌎[this Ethernet
 > Shield](http://makerstudio.cc/index.php?main_page=product_info&cPath=39&products_id=317)
@@ -454,8 +454,8 @@ There are many resource Products using WIZnet Ethernet chip.
 -----
 ### Ethernet Shield from NKC Electronics
 
-![edit\_10.ethernet\_shield\_from\_nkc\_electronics.jpg](/img/var_products/edit_10.ethernet_shield_from_nkc_electronics.jpg)
-![edit\_10.ethernet\_shield\_from\_nkc\_electronic\_map.jpg](/img/var_products/edit_10.ethernet_shield_from_nkc_electronic_map.jpg)
+<a target="_blank" href={require("/img/var_products/edit_10.ethernet_shield_from_nkc_electronics.jpg").default}><img src={require("/img/var_products/edit_10.ethernet_shield_from_nkc_electronics.jpg").default} alt="edit\_10.ethernet\_shield\_from\_nkc\_electronics.jpg"/></a>
+<a target="_blank" href={require("/img/var_products/edit_10.ethernet_shield_from_nkc_electronic_map.jpg").default}><img src={require("/img/var_products/edit_10.ethernet_shield_from_nkc_electronic_map.jpg").default} alt="edit\_10.ethernet\_shield\_from\_nkc\_electronic\_map.jpg"/></a>
 
 > 🌎[NKC Electronics Ethernet Shield](http://shieldlist.org/nkc/ethernet)
 > is Based on the 🌎[WIZ812MJ
@@ -470,7 +470,7 @@ There are many resource Products using WIZnet Ethernet chip.
 
 ### Zduino Ethernet from OpenJumper
 
-![edit\_32.zduino\_ethernet-1.jpg](/img/var_products/edit_32.zduino_ethernet-1.jpg)
+<a target="_blank" href={require("/img/var_products/edit_32.zduino_ethernet-1.jpg").default}><img src={require("/img/var_products/edit_32.zduino_ethernet-1.jpg").default} alt="edit\_32.zduino\_ethernet-1.jpg"/></a>
 
 > 🌎[The Zduino
 > Ethernet](http://store.openjumper.com/index.php?route=product/product&path=10&product_id=103)
@@ -485,8 +485,8 @@ There are many resource Products using WIZnet Ethernet chip.
 
 ### Ethernet Shield W5100 from Sainsmart
 
-![edit\_14.ethernet\_shield\_from\_sainsmart\_3.png](/img/var_products/edit_09.ethernet_shield_w5100.jpg)
-![edit\_14.ethernet\_shield\_from\_sainsmart\_6.jpg](/img/var_products/edit_14.ethernet_shield_from_sainsmart_6.jpg)
+<a target="_blank" href={require("/img/var_products/edit_09.ethernet_shield_w5100.jpg").default}><img src={require("/img/var_products/edit_09.ethernet_shield_w5100.jpg").default} alt="edit\_14.ethernet\_shield\_from\_sainsmart\_3.png"/></a>
+<a target="_blank" href={require("/img/var_products/edit_14.ethernet_shield_from_sainsmart_6.jpg").default}><img src={require("/img/var_products/edit_14.ethernet_shield_from_sainsmart_6.jpg").default} alt="edit\_14.ethernet\_shield\_from\_sainsmart\_6.jpg"/></a>
 > This 🌎[Ethernet
 > Shield](http://www.sainsmart.com/sainsmart-ethernet-shield-w5100-for-arduino.html)
 > connects the 🌎[UNO R3 board](http://arduino.cc/en/Main/ArduinoBoardUno)
@@ -506,8 +506,8 @@ There are many resource Products using WIZnet Ethernet chip.
 
 ### Ethernet Shield from SeeedStudio
 
-![edit\_04.ethernet\_shield\_from\_seeedstudio.jpg](/img/var_products/edit_04.ethernet_shield_from_seeedstudio.jpg)
-![edit\_04.ethernet\_shield\_from\_seeedstudio\_02.jpg](/img/var_products/edit_04.ethernet_shield_from_seeedstudio_02.jpg)
+<a target="_blank" href={require("/img/var_products/edit_04.ethernet_shield_from_seeedstudio.jpg").default}><img src={require("/img/var_products/edit_04.ethernet_shield_from_seeedstudio.jpg").default} alt="edit\_04.ethernet\_shield\_from\_seeedstudio.jpg"/></a>
+<a target="_blank" href={require("/img/var_products/edit_04.ethernet_shield_from_seeedstudio_02.jpg").default}><img src={require("/img/var_products/edit_04.ethernet_shield_from_seeedstudio_02.jpg").default} alt="edit\_04.ethernet\_shield\_from\_seeedstudio\_02.jpg"/></a>
 
 > 🌎[Ethernet
 > Shield](http://www.seeedstudio.com/depot/ethernet-shield-p-518.html)
@@ -541,7 +541,7 @@ There are many resource Products using WIZnet Ethernet chip.
 
 ### Seeeduino Ethernet from SeeedStudio
 
-![edit\_36.seeeduino\_ethernet\_01.jpg](/img/var_products/edit_36.seeeduino_ethernet_01.jpg)
+<a target="_blank" href={require("/img/var_products/edit_36.seeeduino_ethernet_01.jpg").default}><img src={require("/img/var_products/edit_36.seeeduino_ethernet_01.jpg").default} alt="edit\_36.seeeduino\_ethernet\_01.jpg"/></a>
 
 > 🌎[Seeeduino
 > Ethernet](http://www.seeedstudio.com/depot/Seeeduino-Ethernet-p-1231.html)
@@ -560,8 +560,8 @@ There are many resource Products using WIZnet Ethernet chip.
 -----
 ### PoEthernet Shield from Sparkfun
 
-![edit\_08.poethernet\_shield-04.jpg](/img/var_products/edit_08.poethernet_shield-04.jpg)
-![edit\_08.poethernet\_shield-03.jpg](/img/var_products/edit_08.poethernet_shield-03.jpg)
+<a target="_blank" href={require("/img/var_products/edit_08.poethernet_shield-04.jpg").default}><img src={require("/img/var_products/edit_08.poethernet_shield-04.jpg").default} alt="edit\_08.poethernet\_shield-04.jpg"/></a>
+<a target="_blank" href={require("/img/var_products/edit_08.poethernet_shield-03.jpg").default}><img src={require("/img/var_products/edit_08.poethernet_shield-03.jpg").default} alt="edit\_08.poethernet\_shield-03.jpg"/></a>
 
 > Ethernet connectivity is a great way to get your Arduino talking to
 > other systems all over the world (or at least the network). But
@@ -598,7 +598,7 @@ There are many resource Products using WIZnet Ethernet chip.
 ### Ethernet Shield from Tinker.it
 
 
-![edit\_13.ethernet\_shield\_w5100\_from\_liquidware\_2.jpg](/img/var_products/edit_13.ethernet_shield_w5100_from_liquidware_2.jpg)(http://www.liquidware.com/shop/show/ETH/Ethernet+Shield)
+<a target="_blank" href={require("/img/var_products/edit_13.ethernet_shield_w5100_from_liquidware_2.jpg").default}><img src={require("/img/var_products/edit_13.ethernet_shield_w5100_from_liquidware_2.jpg").default} alt="edit\_13.ethernet\_shield\_w5100\_from\_liquidware\_2.jpg"/></a>(http://www.liquidware.com/shop/show/ETH/Ethernet+Shield)
 > The 🌎[Ethernet
 > Shield](http://www.liquidware.com/shop/show/ETH/Ethernet+Shield) is
 > designed to allow the Arduino base module to connect to the internet

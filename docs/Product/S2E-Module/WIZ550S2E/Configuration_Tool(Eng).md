@@ -10,7 +10,7 @@ date: 2020-04-16
 
 ## Description
 
-![](/img/products/wiz550s2e/wiz550s2epg_kr/configtool/global_config.png)
+<a target="_blank" href={require("/img/products/wiz550s2e/wiz550s2epg_kr/configtool/global_config.png").default}><img src={require("/img/products/wiz550s2e/wiz550s2epg_kr/configtool/global_config.png").default} alt=""/></a>
 WIZ550S2E Configuration tool is an application program which is based on
 java and can be used in most OS platforms including Windows, MAC OS and
 Linux. Please download .jar file and execute it over Java Virtual
@@ -39,7 +39,7 @@ WIZ550S2E Configuration tool consists four sections
 
 ## Common Configurations
 
-![](/img/products/wiz550s2e/wiz550s2epg_kr/configtool/common_config.png)
+<a target="_blank" href={require("/img/products/wiz550s2e/wiz550s2epg_kr/configtool/common_config.png").default}><img src={require("/img/products/wiz550s2e/wiz550s2epg_kr/configtool/common_config.png").default} alt=""/></a>
 
 ### Search
 
@@ -56,7 +56,7 @@ value of the module will be displayed. Modify your configurations and
 click “Setting” button to apply your settings. The module will
 re-initialize and save the changed configurations.  
 Users can change the configurations by the following steps.  
-![](/img/products/wiz550s2e/wiz550s2epg_kr/configtool/password.png)
+<a target="_blank" href={require("/img/products/wiz550s2e/wiz550s2epg_kr/configtool/password.png").default}><img src={require("/img/products/wiz550s2e/wiz550s2epg_kr/configtool/password.png").default} alt=""/></a>
 
     1. Select the MAC address of the device which you would like to modify in the
        “Search Window”
@@ -72,7 +72,7 @@ Users can change the configurations by the following steps.
 
 Firmware will be uploaded through TFTP. Click “F/W Uploading” Button and
 a popup window will shows as follow.  
-![](/img/products/wiz550s2e/wiz550s2epg_kr/configtool/tftp_server_info.png)  
+<a target="_blank" href={require("/img/products/wiz550s2e/wiz550s2epg_kr/configtool/tftp_server_info.png").default}><img src={require("/img/products/wiz550s2e/wiz550s2epg_kr/configtool/tftp_server_info.png").default} alt=""/></a>  
 Server IP : TFTP Server IP
 
     Server Port : TFTP Server Port (TFTP default Port : 69)
@@ -150,7 +150,7 @@ This field shows the current status of network connection.
 -----
 ## Network Configurations
 
-![](/img/products/wiz550s2e/wiz550s2epg_kr/configtool/network_config.png)  
+<a target="_blank" href={require("/img/products/wiz550s2e/wiz550s2epg_kr/configtool/network_config.png").default}><img src={require("/img/products/wiz550s2e/wiz550s2epg_kr/configtool/network_config.png").default} alt=""/></a>  
 #### IP 
 This section is for setting WIZ550S2E mode's network information  
 
@@ -296,7 +296,7 @@ having data from serial prior to TCP connection is established.
 
 ## Serial Configurations
 
-![](/img/products/wiz550s2e/wiz550s2epg_kr/configtool/serial_config.png)
+<a target="_blank" href={require("/img/products/wiz550s2e/wiz550s2epg_kr/configtool/serial_config.png").default}><img src={require("/img/products/wiz550s2e/wiz550s2epg_kr/configtool/serial_config.png").default} alt=""/></a>
 
 ### USART
 
@@ -352,7 +352,7 @@ chunk of the whole frame without separated ones. This option is for packetizing 
 
 ## Options Configurations
 
-![](/img/products/wiz550s2e/wiz550s2epg_kr/configtool/option_config.png)
+<a target="_blank" href={require("/img/products/wiz550s2e/wiz550s2epg_kr/configtool/option_config.png").default}><img src={require("/img/products/wiz550s2e/wiz550s2epg_kr/configtool/option_config.png").default} alt=""/></a>
 
 ### Module Name
 

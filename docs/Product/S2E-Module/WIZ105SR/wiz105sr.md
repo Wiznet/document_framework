@@ -6,7 +6,7 @@ date: 2021-07-21
 
 ## Overview
 
-![](/img/products/wiz105sr/wiz105sr-web-1.jpg)
+<a target="_blank" href={require("/img/products/wiz105sr/wiz105sr-web-1.jpg").default}><img src={require("/img/products/wiz105sr/wiz105sr-web-1.jpg").default} alt=""/></a>
 
 WIZ105SR is the serial to Ethernet module using W5100 & 8051 MCU.  WIZ105SR is the protocol converter that transmits the data sent by serial equipment as TCP/IP data type, and converts back the TCP/IP data received through the network into serial data to transmit back to the equipment.
 
@@ -35,7 +35,7 @@ WIZ105SR is the serial to Ethernet module using W5100 & 8051 MCU.  WIZ105SR is t
 
 ## Pin Assignment
 
-![](/img/products/wiz105sr/pinmap3.jpg)
+<a target="_blank" href={require("/img/products/wiz105sr/pinmap3.jpg").default}><img src={require("/img/products/wiz105sr/pinmap3.jpg").default} alt=""/></a>
 
 ## Download
 

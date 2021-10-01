@@ -4,7 +4,7 @@ title: WIZ820io
 date: 2020-04-16
 ---
 
-![WIZ820io](/img/products/wiz820io/wiz820io_web_1.jpg)
+<a target="_blank" href={require("/img/products/wiz820io/wiz820io_web_1.jpg").default}><img src={require("/img/products/wiz820io/wiz820io_web_1.jpg").default} alt="WIZ820io"/></a>
 
 ## Overview
 
@@ -22,7 +22,7 @@ WIZ820io is the compact-sized network module that includes W5200 (TCP/IP & Ether
 
 ## Pin Assignment
 
-![WIZ820io](/img/products/wiz820io/pin_assign-1.jpg)
+<a target="_blank" href={require("/img/products/wiz820io/pin_assign-1.jpg").default}><img src={require("/img/products/wiz820io/pin_assign-1.jpg").default} alt="WIZ820io"/></a>
 
 ## Download
 

@@ -44,17 +44,17 @@ date: 2020-04-08
 
 |                                                         |
 | ------------------------------------------------------- |
-| ![](/img/products/wiz750sr/troubleshooting/windows_cmd.png) |
+| <a target="_blank" href={require("/img/products/wiz750sr/troubleshooting/windows_cmd.png").default}><img src={require("/img/products/wiz750sr/troubleshooting/windows_cmd.png").default} alt=""/></a> |
 | Windows Run에서 'cmd' 커맨드 입력 실행                           |
 
 |                                                            |
 | ---------------------------------------------------------- |
-| ![](/img/products/wiz750sr/troubleshooting/ping_success_0.png) |
+| <a target="_blank" href={require("/img/products/wiz750sr/troubleshooting/ping_success_0.png").default}><img src={require("/img/products/wiz750sr/troubleshooting/ping_success_0.png").default} alt=""/></a> |
 | Ping request / reply 성공                                    |
 
 |                                                           |
 | --------------------------------------------------------- |
-| ![](/img/products/wiz750sr/troubleshooting/ping_failed_0.png) |
+| <a target="_blank" href={require("/img/products/wiz750sr/troubleshooting/ping_failed_0.png").default}><img src={require("/img/products/wiz750sr/troubleshooting/ping_failed_0.png").default} alt=""/></a> |
 | Ping request / reply 실패                                   |
 
   - WIZ750SR 제품의 설정 툴에서 제공하는 UDP Search 기능은 **UDP broadcast, 포트
@@ -80,7 +80,7 @@ date: 2020-04-08
 
 |                                                       |
 | ----------------------------------------------------- |
-| ![](/img/products/wiz750sr/gettingstarted/configtool.png) |
+| <a target="_blank" href={require("/img/products/wiz750sr/gettingstarted/configtool.png").default}><img src={require("/img/products/wiz750sr/gettingstarted/configtool.png").default} alt=""/></a> |
 | WIZ107/108SR & **WIZ750SR** Configuration Tool        |
 
 </details>
@@ -111,17 +111,17 @@ date: 2020-04-08
 
 |                                                         |
 | ------------------------------------------------------- |
-| ![](/img/products/wiz750sr/troubleshooting/windows_cmd.png) |
+| <a target="_blank" href={require("/img/products/wiz750sr/troubleshooting/windows_cmd.png").default}><img src={require("/img/products/wiz750sr/troubleshooting/windows_cmd.png").default} alt=""/></a> |
 | Windows Run에서 'cmd' 커맨드 입력 실행                           |
 
 |                                                            |
 | ---------------------------------------------------------- |
-| ![](/img/products/wiz750sr/troubleshooting/ping_success_0.png) |
+| <a target="_blank" href={require("/img/products/wiz750sr/troubleshooting/ping_success_0.png").default}><img src={require("/img/products/wiz750sr/troubleshooting/ping_success_0.png").default} alt=""/></a> |
 | Ping request / reply 성공                                    |
 
 |                                                           |
 | --------------------------------------------------------- |
-| ![](/img/products/wiz750sr/troubleshooting/ping_failed_0.png) |
+| <a target="_blank" href={require("/img/products/wiz750sr/troubleshooting/ping_failed_0.png").default}><img src={require("/img/products/wiz750sr/troubleshooting/ping_failed_0.png").default} alt=""/></a> |
 | Ping request / reply 실패                                   |
 
   - 펌웨어 업데이트 시, Config-tool이 동작 중인 PC와 WIZ750SR 모듈의 IP 대역이 일치해야 합니다.

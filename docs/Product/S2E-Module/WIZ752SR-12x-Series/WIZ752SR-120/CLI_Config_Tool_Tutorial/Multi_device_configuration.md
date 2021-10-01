@@ -52,9 +52,9 @@ These are some examples of setting multi devices.
 
 First, search devices on the network. If there is old mac\_list.txt, use -c option or delete the file.
 
-![](/img/products/wiz750sr/clitool/multi/01.clear.png)
+<a target="_blank" href={require("/img/products/wiz750sr/clitool/multi/01.clear.png").default}><img src={require("/img/products/wiz750sr/clitool/multi/01.clear.png").default} alt=""/></a>
 
-![](/img/products/wiz750sr/clitool/multi/02.search.png)
+<a target="_blank" href={require("/img/products/wiz750sr/clitool/multi/02.search.png").default}><img src={require("/img/products/wiz750sr/clitool/multi/02.search.png").default} alt=""/></a>
 
 Next, use the --baud0 option to set the channel 0 serial baud rate.  
 Since WIZ750SR is a 1 port device, use '--baud0' option of Channel \#0
@@ -70,7 +70,7 @@ To set the baud rate to 9600 of searched devices, set like this.
 python wizconfig.py -a --baud0 230400
 ```
 
-![](/img/products/wiz750sr/clitool/multi/multi_setbaud.png)
+<a target="_blank" href={require("/img/products/wiz750sr/clitool/multi/multi_setbaud.png").default}><img src={require("/img/products/wiz750sr/clitool/multi/multi_setbaud.png").default} alt=""/></a>
 
 You can check the configuration complete message.
 
@@ -102,7 +102,7 @@ python wizconfig.py -m 192.168.50.100
 
 The parameter can be set to the random IP that not used.
 
-![](/img/products/wiz750sr/clitool/multi/multi_fw_m.png)
+<a target="_blank" href={require("/img/products/wiz750sr/clitool/multi/multi_fw_m.png").default}><img src={require("/img/products/wiz750sr/clitool/multi/multi_fw_m.png").default} alt=""/></a>
 
 -----
 
@@ -115,8 +115,8 @@ python wizconfig.py -a -u W7500x_S2E_App.bin
 If the firmware file is in the project directory, set the parameter to file name like this.  
 Otherwise, enter the full path.
 
-![](/img/products/wiz750sr/clitool/multi/multi_fw_1.png) Start to update.  
-![](/img/products/wiz750sr/clitool/multi/multi_fw_2.png) TCP connection for
+<a target="_blank" href={require("/img/products/wiz750sr/clitool/multi/multi_fw_1.png").default}><img src={require("/img/products/wiz750sr/clitool/multi/multi_fw_1.png").default} alt=""/></a> Start to update.  
+<a target="_blank" href={require("/img/products/wiz750sr/clitool/multi/multi_fw_2.png").default}><img src={require("/img/products/wiz750sr/clitool/multi/multi_fw_2.png").default} alt=""/></a> TCP connection for
 each device.  
-![](/img/products/wiz750sr/clitool/multi/multi_fw_3.png) Firmware upload
+<a target="_blank" href={require("/img/products/wiz750sr/clitool/multi/multi_fw_3.png").default}><img src={require("/img/products/wiz750sr/clitool/multi/multi_fw_3.png").default} alt=""/></a> Firmware upload
 success about multiple devices.

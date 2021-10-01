@@ -24,21 +24,21 @@ You should import provided projects to your new project for easy to
 configure.
 
 Download the projects for W6100-EVB from
-![](/img/link.png)[W6100\_EVB GitHub
+<a target="_blank" href={require("/img/link.png").default}><img src={require("/img/link.png").default} alt=""/></a>[W6100\_EVB GitHub
 repository](https://github.com/Wiznet/W6100_EVB). After downloading,
 import the required project to your workspace.
 
 1\. mouse right click → click to Import  
-![](/img/products/w5100s/w5100s_evb/true_tool_set1.png)
+<a target="_blank" href={require("/img/products/w5100s/w5100s_evb/true_tool_set1.png").default}><img src={require("/img/products/w5100s/w5100s_evb/true_tool_set1.png").default} alt=""/></a>
 
 2\. Select General → Existing Projects into Workspace  
-![](/img/products/w5100s/w5100s_evb/true_tool_set2.png)
+<a target="_blank" href={require("/img/products/w5100s/w5100s_evb/true_tool_set2.png").default}><img src={require("/img/products/w5100s/w5100s_evb/true_tool_set2.png").default} alt=""/></a>
 
 3\. Select Folder from Github repository  
-![](/img/products/w5100s/w5100s_evb/true_tool_set3.png)
+<a target="_blank" href={require("/img/products/w5100s/w5100s_evb/true_tool_set3.png").default}><img src={require("/img/products/w5100s/w5100s_evb/true_tool_set3.png").default} alt=""/></a>
 
 4\. Click Finish  
-![](/img/products/w5100s/w5100s_evb/true_tool_set4.png)
+<a target="_blank" href={require("/img/products/w5100s/w5100s_evb/true_tool_set4.png").default}><img src={require("/img/products/w5100s/w5100s_evb/true_tool_set4.png").default} alt=""/></a>
 
 -----
 
@@ -47,10 +47,10 @@ import the required project to your workspace.
 Before Complete, Users should check build project
 
 1\. Project mouse right click -\> Click clean project
-![](/img/products/w5100s/w5100s_evb/true_tool_set5.png)
+<a target="_blank" href={require("/img/products/w5100s/w5100s_evb/true_tool_set5.png").default}><img src={require("/img/products/w5100s/w5100s_evb/true_tool_set5.png").default} alt=""/></a>
 
 2\. Project mouse right click -\> Click project build
-![](/img/products/w5100s/w5100s_evb/true_tool_set6.png)
+<a target="_blank" href={require("/img/products/w5100s/w5100s_evb/true_tool_set6.png").default}><img src={require("/img/products/w5100s/w5100s_evb/true_tool_set6.png").default} alt=""/></a>
 
 From now on, you can make your own application project based on the
 newly created project for W6100-EVB\!  

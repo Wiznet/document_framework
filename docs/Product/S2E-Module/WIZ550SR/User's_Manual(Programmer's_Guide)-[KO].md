@@ -673,7 +673,7 @@ DNS Timeout`
 
 ### Description
 
-![](/img/products/wiz550s2e/wiz550s2epg_kr/configtool/global_config.png)  
+<a target="_blank" href={require("/img/products/wiz550s2e/wiz550s2epg_kr/configtool/global_config.png").default}><img src={require("/img/products/wiz550s2e/wiz550s2epg_kr/configtool/global_config.png").default} alt=""/></a>  
 WIZnet Configuration tool은 java 기반으로 구현된 응용프로그램으로 대부분의 OS Platform에서 사용이
 가능하다. .jar 파일을 다운로드해서 Java Virtual machine상에서 실행되도록 하면 된다.  
 [설치방법](http://xeon011.tistory.com/146)  
@@ -699,7 +699,7 @@ WIZ550SR는 위 네가지 항목 모두를 설정 할 수 있다.
 
 ## Common Configurations
 
-![](/img/products/wiz550s2e/wiz550s2epg_kr/configtool/common_config.png)  
+<a target="_blank" href={require("/img/products/wiz550s2e/wiz550s2epg_kr/configtool/common_config.png").default}><img src={require("/img/products/wiz550s2e/wiz550s2epg_kr/configtool/common_config.png").default} alt=""/></a>  
 
 ### Search
 
@@ -709,7 +709,7 @@ Search 기능은 같은 LAN 상에 존재하는 모든 모듈을 검색하는 �
 
 본 기능은 모듈의 각종 옵션 또는 설정 값을 변경할 때 사용하는 기능이다. 모든 설정값 변경 또는 선택 후에 "Setting" 버튼을 눌러야 그 값이 모듈에 반영이 되고, 변경된 값은 모듈내의 EEPROM에 저장되어 모듈의 전원이 차단되는 경우에도 그 설정 값이 유지되게 된다.  
 설정 값을 변경하는 과정은 다음과 같다.  
-![](/img/products/wiz550s2e/wiz550s2epg_kr/configtool/password.png)
+<a target="_blank" href={require("/img/products/wiz550s2e/wiz550s2epg_kr/configtool/password.png").default}><img src={require("/img/products/wiz550s2e/wiz550s2epg_kr/configtool/password.png").default} alt=""/></a>
 
     1. "Search Windows”에서 설정 값을 변경할 모듈의 MAC Address를 선택(클릭)하면, 
        해당 모듈에 저장되어 있는 설정 값이 각 필드에 표시 된다.
@@ -724,7 +724,7 @@ Search 기능은 같은 LAN 상에 존재하는 모든 모듈을 검색하는 �
 
 TFTP를 통하여 펌웨어를 업로드 한다. "F/W Uploading" 버튼을 누르면 아래의 창이 뜨며, 설정 정보들을 입력한 뒤
 "OK" 버튼을 누르면 업데이트가 진행된다.  
-![](/img/products/wiz550s2e/wiz550s2epg_kr/configtool/tftp_server_info.png)
+<a target="_blank" href={require("/img/products/wiz550s2e/wiz550s2epg_kr/configtool/tftp_server_info.png").default}><img src={require("/img/products/wiz550s2e/wiz550s2epg_kr/configtool/tftp_server_info.png").default} alt=""/></a>
 
     Server IP : 
         TFTP 서버 IP
@@ -807,7 +807,7 @@ Reserved
 
 ## Network Configurations
 
-![](/img/products/wiz550s2e/wiz550s2epg_kr/configtool/network_config.png)
+<a target="_blank" href={require("/img/products/wiz550s2e/wiz550s2epg_kr/configtool/network_config.png").default}><img src={require("/img/products/wiz550s2e/wiz550s2epg_kr/configtool/network_config.png").default} alt=""/></a>
 
 ### IP
 
@@ -913,7 +913,7 @@ UDP 모드에서는 TCP와 같은 연결 과정이 없으므로, 상대방의 IP
 
 ## Serial Configurations
 
-![](/img/products/wiz550s2e/wiz550s2epg_kr/configtool/serial_config.png)
+<a target="_blank" href={require("/img/products/wiz550s2e/wiz550s2epg_kr/configtool/serial_config.png").default}><img src={require("/img/products/wiz550s2e/wiz550s2epg_kr/configtool/serial_config.png").default} alt=""/></a>
 
 ### USART
 
@@ -965,7 +965,7 @@ WIZ550SR은 Time, Size, Character의 3가지의 조건을 제공한다.
 
 ## Options Configurations
 
-![](/img/products/wiz550s2e/wiz550s2epg_kr/configtool/option_config.png)
+<a target="_blank" href={require("/img/products/wiz550s2e/wiz550s2epg_kr/configtool/option_config.png").default}><img src={require("/img/products/wiz550s2e/wiz550s2epg_kr/configtool/option_config.png").default} alt=""/></a>
 
 ### Module Name
 

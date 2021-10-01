@@ -4,7 +4,7 @@ title: WizFi360-EVB-Shield
 date: 2020-05-13
 ---
 
-![WizFi360-EVB-Shield](/img/products/wizfi360/wizfi360-evb.jpg)
+<a target="_blank" href={require("/img/products/wizfi360/wizfi360-evb.jpg").default}><img src={require("/img/products/wizfi360/wizfi360-evb.jpg").default} alt="WizFi360-EVB-Shield"/></a>
 
 ## Overview
 

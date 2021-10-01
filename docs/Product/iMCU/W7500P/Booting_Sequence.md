@@ -4,7 +4,6 @@ title: Booting Sequence
 date: 2020-04-03
 ---
 
-
 W7500 has three different boot modes that can be selected through the BOOT pin and TEST pin.
 
 <table class="tg">
@@ -29,10 +28,10 @@ W7500 has three different boot modes that can be selected through the BOOT pin a
     <td class="tg-s6z2">ISP</td>
     <td class="tg-031e">In this mode, W7500 can support ISP function in order to control flash using serial interface.</td>
   </tr>
-
 </table>
-
 
 When W7500 is reset by hardware, it will be operated as below in embedded boot code.
 
-![Figure 1 operation of boot code"](/img/products/w7500/operation_boot_code.jpg)
+<a target="_blank" href={require("/img/products/w7500/operation_boot_code.jpg").default}>
+  <img src={require("/img/products/w7500/operation_boot_code.jpg").default} alt="Figure 1 operation of boot code"/>
+</a>

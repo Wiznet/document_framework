@@ -8,7 +8,7 @@ date: 2020-04-08
   * [English](configuration_tool_manual_new-EN)  
   * [Korean](configuration_tool_manual_new-KO) (current page)
 
-![](/img/products/wiz750sr/docs_icon.png)
+<a target="_blank" href={require("/img/products/wiz750sr/docs_icon.png").default}><img src={require("/img/products/wiz750sr/docs_icon.png").default} alt=""/></a>
 
 -----
 
@@ -27,7 +27,7 @@ WIZnet 페이지 내에 공개되어 있으며, 최신 버전의 실행 파일�
 
 |                                                                            |
 | -------------------------------------------------------------------------- |
-| ![](/img/products/wiz750sr/guiconfigtoolmanual/gui_configtool_main.png)        |
+| <a target="_blank" href={require("/img/products/wiz750sr/guiconfigtoolmanual/gui_configtool_main.png").default}><img src={require("/img/products/wiz750sr/guiconfigtoolmanual/gui_configtool_main.png").default} alt=""/></a>        |
 | Figure: **Configuration Tool for WIZ750SR series & WIZ107/108SR Products** |
 
 -----
@@ -68,7 +68,7 @@ WIZnet-S2E-Tool-GUI에서 지원하는 제품 리스트는 아래와 같습니�
 
 |                                                                       |
 | --------------------------------------------------------------------- |
-| ![](/img/products/wiz750sr/guiconfigtoolmanual/gui_configtool_layout.png) |
+| <a target="_blank" href={require("/img/products/wiz750sr/guiconfigtoolmanual/gui_configtool_layout.png").default}><img src={require("/img/products/wiz750sr/guiconfigtoolmanual/gui_configtool_layout.png").default} alt=""/></a> |
 | Figure: **Configuration Tool Layout**                                 |
 
 설정 프로그램은 위 그림과 같이 기능 별로 나눌 수 있습니다.
@@ -114,7 +114,7 @@ Configuration tool 상단에 위치하며, 제품의 검색 / 펌웨어 업로�
 
 |                                                                          |
 | ------------------------------------------------------------------------ |
-| ![](/img/products/wiz750sr/guiconfigtoolmanual/gui_configtool_icon_menu.png) |
+| <a target="_blank" href={require("/img/products/wiz750sr/guiconfigtoolmanual/gui_configtool_icon_menu.png").default}><img src={require("/img/products/wiz750sr/guiconfigtoolmanual/gui_configtool_icon_menu.png").default} alt=""/></a> |
 | Figure: **Menu Icons**                 
 
 #### 1) Device Search
@@ -146,7 +146,7 @@ Configuration tool 상단에 위치하며, 제품의 검색 / 펌웨어 업로�
 
 |                                                                                       |
 | ------------------------------------------------------------------------------------- |
-| ![](/img/products/wiz750sr/guiconfigtoolmanual/gui_configtool_firmwareupload_success.png) |
+| <a target="_blank" href={require("/img/products/wiz750sr/guiconfigtoolmanual/gui_configtool_firmwareupload_success.png").default}><img src={require("/img/products/wiz750sr/guiconfigtoolmanual/gui_configtool_firmwareupload_success.png").default} alt=""/></a> |
 | Figure: **Popup Message - Firmware Upload Successfully**                              |
 
   - **네트워크를 이용한 WIZ750SR 장치 펌웨어 업로드 기능은 TCP 포트 50002번을 이용**합니다. 만약 방화벽이나 백신 프로그램에서 해당 포트를 차단하고 있을 경우, 장치 펌웨어 업로드에 실패할 수 있습니다.
@@ -194,7 +194,7 @@ Configuration tool 상단에 위치하며, 제품의 검색 / 펌웨어 업로�
 
 |                                                                            |
 | -------------------------------------------------------------------------- |
-| ![](/img/products/wiz750sr/guiconfigtoolmanual/gui_configtool_net_adapter.png) |
+| <a target="_blank" href={require("/img/products/wiz750sr/guiconfigtoolmanual/gui_configtool_net_adapter.png").default}><img src={require("/img/products/wiz750sr/guiconfigtoolmanual/gui_configtool_net_adapter.png").default} alt=""/></a> |
 | Figure: **Network adapters**                                               |
 
   - 여러 종류의 네트워크 어댑터를 사용하는 경우, 어댑터 리스트와 사용 중인 대역이 표시되며, 환경에 따라 사용할 네트워크 대역을 선택할 수 있습니다.
@@ -207,7 +207,7 @@ Configuration tool 상단에 위치하며, 제품의 검색 / 펌웨어 업로�
 
 |                                                                            |
 | -------------------------------------------------------------------------- |
-| ![](/img/products/wiz750sr/guiconfigtoolmanual/gui_configtool_device_list.png) |
+| <a target="_blank" href={require("/img/products/wiz750sr/guiconfigtoolmanual/gui_configtool_device_list.png").default}><img src={require("/img/products/wiz750sr/guiconfigtoolmanual/gui_configtool_device_list.png").default} alt=""/></a> |
 | Figure: **Device List**                                                    |
 
   - Search 기능을 통해 검색된 장치의 리스트가 표시됩니다. 
@@ -242,7 +242,7 @@ Configuration tool 상단에 위치하며, 제품의 검색 / 펌웨어 업로�
 
 |                                                                                  |
 | -------------------------------------------------------------------------------- |
-| ![](/img/products/wiz750sr/guiconfigtoolmanual/gui_configtool_tab_basicsettings.png) |
+| <a target="_blank" href={require("/img/products/wiz750sr/guiconfigtoolmanual/gui_configtool_tab_basicsettings.png").default}><img src={require("/img/products/wiz750sr/guiconfigtoolmanual/gui_configtool_tab_basicsettings.png").default} alt=""/></a> |
 | Figure: **Basic settings Tab**                                                   |
 
 #### 1) Device information
@@ -284,7 +284,7 @@ Configuration tool 상단에 위치하며, 제품의 검색 / 펌웨어 업로�
 
 |                                                                            |
 | -------------------------------------------------------------------------- |
-| ![](/img/products/wiz750sr/guiconfigtoolmanual/gui_configtool_tab_options.png) |
+| <a target="_blank" href={require("/img/products/wiz750sr/guiconfigtoolmanual/gui_configtool_tab_options.png").default}><img src={require("/img/products/wiz750sr/guiconfigtoolmanual/gui_configtool_tab_options.png").default} alt=""/></a> |
 | Figure: **Option Tab**                                                     |
 
 -----
@@ -344,7 +344,7 @@ Configuration tool 상단에 위치하며, 제품의 검색 / 펌웨어 업로�
 
 |                                                                            |
 | -------------------------------------------------------------------------- |
-| ![](/img/products/wiz750sr/guiconfigtoolmanual/gui_configtool_tab_channel.png) |
+| <a target="_blank" href={require("/img/products/wiz750sr/guiconfigtoolmanual/gui_configtool_tab_channel.png").default}><img src={require("/img/products/wiz750sr/guiconfigtoolmanual/gui_configtool_tab_channel.png").default} alt=""/></a> |
 | Figure: **Network Configuration Tab**                                      |
 
 #### 1\) Status & Serial Interface

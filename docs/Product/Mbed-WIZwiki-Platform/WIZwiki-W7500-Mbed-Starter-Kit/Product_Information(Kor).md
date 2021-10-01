@@ -16,7 +16,7 @@ date: 2020-04-08
   - 튜토리얼
   - 관련 자료들
 
-![mbed Starter Kit all parts](/img/products/wizwiki_mbed_kit/kit_kr/mbed_starter_kit_all.jpg)
+<a target="_blank" href={require("/img/products/wizwiki_mbed_kit/kit_kr/mbed_starter_kit_all.jpg").default}><img src={require("/img/products/wizwiki_mbed_kit/kit_kr/mbed_starter_kit_all.jpg").default} alt="mbed Starter Kit all parts"/></a>
 
 WIZwiki-W7500 mbed 스타터킷은
 **[WIZwiki-W7500](../WIZwiki-W7500/overview)** 의 활용 방법을 학습할 수 있는

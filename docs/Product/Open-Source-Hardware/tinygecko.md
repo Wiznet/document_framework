@@ -8,7 +8,7 @@ Tiny GECKO Starter Kit STK3300 is a prototyping and application
 development tool for the EFM32TG MCU family with the ARM Cortex-M3 CPU
 core. We use EMF32TG840F32 in EFM32TG family. Its SPEC is as follows.
 
-![](/img/osh/energymicro/tg840_spec.png)
+<a target="_blank" href={require("/img/osh/energymicro/tg840_spec.png").default}><img src={require("/img/osh/energymicro/tg840_spec.png").default} alt=""/></a>
 
 #### Features
 
@@ -28,7 +28,7 @@ core. We use EMF32TG840F32 in EFM32TG family. Its SPEC is as follows.
 
 #### Hardware Layout
 
-![](/img/osh/energymicro/tinygecko_hw_layout.png)
+<a target="_blank" href={require("/img/osh/energymicro/tinygecko_hw_layout.png").default}><img src={require("/img/osh/energymicro/tinygecko_hw_layout.png").default} alt=""/></a>
 
 -----
 
@@ -66,7 +66,7 @@ core. We use EMF32TG840F32 in EFM32TG family. Its SPEC is as follows.
 | UART RX | \#14 (PD5)                              | Yours                                |
 | Power   | 3.3V/VMCU/5V & GND                      | VDD & GND(J1:7-8/J2:1 & J1:1-2/J2:6) |
 
-![](/img/osh/energymicro/tg840_wiz550io.jpg)
+<a target="_blank" href={require("/img/osh/energymicro/tg840_wiz550io.jpg").default}><img src={require("/img/osh/energymicro/tg840_wiz550io.jpg").default} alt=""/></a>
 
 -----
 
@@ -88,7 +88,7 @@ core. We use EMF32TG840F32 in EFM32TG family. Its SPEC is as follows.
         \[ioLibrary\]
       - Copy the previous downloaded ioLibrary\_bsd \[Internet\] into
         \[ioLibrary\]
-      - ![](/img/osh/energymicro/iar_project_directory.png)
+      - <a target="_blank" href={require("/img/osh/energymicro/iar_project_directory.png").default}><img src={require("/img/osh/energymicro/iar_project_directory.png").default} alt=""/></a>
 
 #### Open Project & Make image
 

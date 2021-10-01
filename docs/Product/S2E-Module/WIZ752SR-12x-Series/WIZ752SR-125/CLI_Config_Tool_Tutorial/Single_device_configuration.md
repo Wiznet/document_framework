@@ -45,7 +45,7 @@ To set the baud rate to 9600, set the following:
 python wizconfig.py -d 00:08:DC:53:AE:B7 --baud0 9600
 ```
 
-![](/img/products/configtool/single/set_baud.png)
+<a target="_blank" href={require("/img/products/configtool/single/set_baud.png").default}><img src={require("/img/products/configtool/single/set_baud.png").default} alt=""/></a>
 
 When the setting is completed, you can check the configuration result with the message.
 
@@ -75,7 +75,7 @@ You can set like this.
 python wizconfig.py -d 00:08:DC:53:AE:B7 --ip 192.168.50.100 --subnet 255.255.255.0 --gw 192.168.50.1 --dns 8.8.8.8
 ```
 
-![](/img/products/configtool/single/set_static.png)
+<a target="_blank" href={require("/img/products/configtool/single/set_static.png").default}><img src={require("/img/products/configtool/single/set_static.png").default} alt=""/></a>
 
 -----
 
@@ -104,7 +104,7 @@ python wizconfig.py -d 00:08:DC:53:AE:93 --nmode0 0 --rip0 192.168.50.80 --rport
 
 Remote IP & port should be set according to the environment.
 
-![](/img/products/wiz750sr/clitool/single/single_client.png)
+<a target="_blank" href={require("/img/products/wiz750sr/clitool/single/single_client.png").default}><img src={require("/img/products/wiz750sr/clitool/single/single_client.png").default} alt=""/></a>
 
 -----
 
@@ -134,7 +134,7 @@ python wizconfig.py -m 192.168.50.100
 
 The parameter can be set to the random IP that not used.
 
-![](/img/products/wiz750sr/clitool/single/fw_ipset.png)
+<a target="_blank" href={require("/img/products/wiz750sr/clitool/single/fw_ipset.png").default}><img src={require("/img/products/wiz750sr/clitool/single/fw_ipset.png").default} alt=""/></a>
 
 -----
 
@@ -149,5 +149,5 @@ Otherwise, enter the full path.
 python wizconfig.py -d 00:08:DC:53:AE:B7 -u W7500x_S2E_App.bin
 ```
 
-![](/img/products/wiz750sr/clitool/single/fw_up_1.png) (skip)
-![](/img/products/wiz750sr/clitool/single/fw_up_2.png)
+<a target="_blank" href={require("/img/products/wiz750sr/clitool/single/fw_up_1.png").default}><img src={require("/img/products/wiz750sr/clitool/single/fw_up_1.png").default} alt=""/></a> (skip)
+<a target="_blank" href={require("/img/products/wiz750sr/clitool/single/fw_up_2.png").default}><img src={require("/img/products/wiz750sr/clitool/single/fw_up_2.png").default} alt=""/></a>

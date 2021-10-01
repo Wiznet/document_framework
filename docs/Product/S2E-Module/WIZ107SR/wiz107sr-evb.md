@@ -6,7 +6,7 @@ date: 2021-07-21
 
 ## Overview
 
-![](/img/products/wiz107sr/wiz107sr-evb-3.png)
+<a target="_blank" href={require("/img/products/wiz107sr/wiz107sr-evb-3.png").default}><img src={require("/img/products/wiz107sr/wiz107sr-evb-3.png").default} alt=""/></a>
 
 WIZ107SR-EVB is a evaluation board for WIZ107SR.
 
@@ -39,7 +39,7 @@ It complies with industrial temperature standard and supports the serial interfa
 
 | To test WIZ107SR-232 version | To test WIZ107SR-TTL version |
 |------------------------------|------------------------------|
-|![](/img/products/wiz107sr/140626_73503.jpg)|![](/img/products/wiz107sr/140626_73504.jpg)|
+|<a target="_blank" href={require("/img/products/wiz107sr/140626_73503.jpg").default}><img src={require("/img/products/wiz107sr/140626_73503.jpg").default} alt=""/></a>|<a target="_blank" href={require("/img/products/wiz107sr/140626_73504.jpg").default}><img src={require("/img/products/wiz107sr/140626_73504.jpg").default} alt=""/></a>|
 
 ## WIZ107SR Ordering Information
 

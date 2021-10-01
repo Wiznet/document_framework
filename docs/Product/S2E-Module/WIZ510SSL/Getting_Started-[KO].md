@@ -24,7 +24,7 @@ date: 2021-05-10
 
 |                                                     |
 | --------------------------------------------------- |
-| ![](/img/products/wiz510ssl/getting_started/wiz510ssl-evb_package.png) |
+| <a target="_blank" href={require("/img/products/wiz510ssl/getting_started/wiz510ssl-evb_package.png").default}><img src={require("/img/products/wiz510ssl/getting_started/wiz510ssl-evb_package.png").default} alt=""/></a> |
 | Figure: ***WIZ510SSL Rev. 1.0 개발 보드 패키지***     |
 
 WIZ510SSL 개발 보드 패키지는 다음과 같이 구성되어 있습니다.
@@ -41,12 +41,12 @@ WIZ510SSL 개발 보드 패키지는 다음과 같이 구성되어 있습니다.
 
 |                                                          |
 | -------------------------------------------------------- |
-| ![](/img/products/wiz510ssl/getting_started/wiz510ssl_top_parts_rev1.0.png) |
+| <a target="_blank" href={require("/img/products/wiz510ssl/getting_started/wiz510ssl_top_parts_rev1.0.png").default}><img src={require("/img/products/wiz510ssl/getting_started/wiz510ssl_top_parts_rev1.0.png").default} alt=""/></a> |
 | Figure: ***WIZ510SSL Rev. 1.0 전면부***               |
 
 |                                                             |
 | ------------------------------------------------------------|
-| ![](/img/products/wiz510ssl/getting_started/wiz510ssl_bottom_parts_rev1.0.png) |
+| <a target="_blank" href={require("/img/products/wiz510ssl/getting_started/wiz510ssl_bottom_parts_rev1.0.png").default}><img src={require("/img/products/wiz510ssl/getting_started/wiz510ssl_bottom_parts_rev1.0.png").default} alt=""/></a> |
 | Figure: ***WIZ510SSL Rev. 1.0 측면부***                  |
 
 
@@ -171,12 +171,12 @@ WIZ510SSL 모듈과 개발 보드를 아래 그림과 같이 결합한 후, 박�
 
 |                                               |
 | --------------------------------------------- |
-| ![](/img/products/wiz510ssl/getting_started/wiz510ssl-evb_1.png) |
+| <a target="_blank" href={require("/img/products/wiz510ssl/getting_started/wiz510ssl-evb_1.png").default}><img src={require("/img/products/wiz510ssl/getting_started/wiz510ssl-evb_1.png").default} alt=""/></a> |
 | Figure: ***WIZ510SSL 모듈과 개발 보드 결합***    |
 
 |                                                  |
 | ------------------------------------------------ |
-| ![](/img/products/wiz510ssl/getting_started/wiz510ssl-evb_2.png)    |
+| <a target="_blank" href={require("/img/products/wiz510ssl/getting_started/wiz510ssl-evb_2.png").default}><img src={require("/img/products/wiz510ssl/getting_started/wiz510ssl-evb_2.png").default} alt=""/></a>    |
 | Figure: ***WIZ510SSL 모듈과 개발 보드 결합 측면부*** |
 
 
@@ -201,7 +201,7 @@ PC의 Configuration tool을 실행하여 상단 **Device Search** 버튼을 클�
 
 |                                                               |
 | ------------------------------------------------------------- |
-| ![](/img/products/wiz510ssl/getting_started/wiznet_s2e_configuration_tool.png)   |
+| <a target="_blank" href={require("/img/products/wiz510ssl/getting_started/wiznet_s2e_configuration_tool.png").default}><img src={require("/img/products/wiz510ssl/getting_started/wiznet_s2e_configuration_tool.png").default} alt=""/></a>   |
 | Figure: ***WIZnet S2E Configuration Tool***                   |
 
 
@@ -227,7 +227,7 @@ PC를 사용자 시리얼 장치 및 TCP 클라이언트로 삼아 데이터 통
 
 |                                                     |
 | ----------------------------------------------------|
-| ![](/img/products/wiz510ssl/getting_started/windows_devicemanager.png) |
+| <a target="_blank" href={require("/img/products/wiz510ssl/getting_started/windows_devicemanager.png").default}><img src={require("/img/products/wiz510ssl/getting_started/windows_devicemanager.png").default} alt=""/></a> |
 | Figure: ***Device Manager***                        |
 
 

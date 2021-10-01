@@ -6,7 +6,7 @@ date: 2021-07-22
 
 ## Overview
 
-![](/img/products/wiz140sr/wiz140sr-web-2.jpg)
+<a target="_blank" href={require("/img/products/wiz140sr/wiz140sr-web-2.jpg").default}><img src={require("/img/products/wiz140sr/wiz140sr-web-2.jpg").default} alt=""/></a>
 
 WIZ140SR is an embedded module based on WIZnet W5300 &  ARM Cortex-M3. WIZ140SR is the protocol converter that transmits the data sent by serial equipment as TCP/IP data type, and converts back the TCP/IP data received through the network into serial data to transmit back to the equipment.
 
@@ -35,7 +35,7 @@ WIZ140SR is an embedded module based on WIZnet W5300 &  ARM Cortex-M3. WIZ140SR 
 
 ## Pin Assignment
 
-![](/img/products/wiz140sr/140_pin.jpg)
+<a target="_blank" href={require("/img/products/wiz140sr/140_pin.jpg").default}><img src={require("/img/products/wiz140sr/140_pin.jpg").default} alt=""/></a>
 
 ## Download
 

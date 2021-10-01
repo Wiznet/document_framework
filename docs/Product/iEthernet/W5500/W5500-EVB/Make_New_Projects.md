@@ -48,11 +48,11 @@ default) -> Select 'New project'
     'LPCOpen - C Project'
   - Target MCU selection -> Select 'LPC11E36/501'
 
-![](/img/products/w5500/w5500_evb/figures/make_new_project_quickstart_box.jpg)
+<a target="_blank" href={require("/img/products/w5500/w5500_evb/figures/make_new_project_quickstart_box.jpg").default}><img src={require("/img/products/w5500/w5500_evb/figures/make_new_project_quickstart_box.jpg").default} alt=""/></a>
 
-![](/img/products/w5500/w5500_evb/figures/make_new_project_newproject_box.jpg)
+<a target="_blank" href={require("/img/products/w5500/w5500_evb/figures/make_new_project_newproject_box.jpg").default}><img src={require("/img/products/w5500/w5500_evb/figures/make_new_project_newproject_box.jpg").default} alt=""/></a>
 
-![](/img/products/w5500/w5500_evb/figures/make_new_project_select_mcu_box.jpg)
+<a target="_blank" href={require("/img/products/w5500/w5500_evb/figures/make_new_project_select_mcu_box.jpg").default}><img src={require("/img/products/w5500/w5500_evb/figures/make_new_project_select_mcu_box.jpg").default} alt=""/></a>
 
 -----
 
@@ -69,13 +69,13 @@ components for new projects as follows.
   - WIZnet ioLibrary - ioLibrary
 
 Download the libraries and projects for W5500 EVB from
-![](/img/products/w5500/w5500_evb/icons/link.png)[WIZnet GitHub
+<a target="_blank" href={require("/img/products/w5500/w5500_evb/icons/link.png").default}><img src={require("/img/products/w5500/w5500_evb/icons/link.png").default} alt=""/></a>[WIZnet GitHub
 repository](https://github.com/Wiznet/W5500_EVB). After downloading,
 import the required project libraries to your workspace.
 
-![](/img/products/w5500/w5500_evb/figures/make_new_project_select_libs_box1.jpg)
+<a target="_blank" href={require("/img/products/w5500/w5500_evb/figures/make_new_project_select_libs_box1.jpg").default}><img src={require("/img/products/w5500/w5500_evb/figures/make_new_project_select_libs_box1.jpg").default} alt=""/></a>
 
-![](/img/products/w5500/w5500_evb/figures/make_new_project_import_lib_box.jpg)
+<a target="_blank" href={require("/img/products/w5500/w5500_evb/figures/make_new_project_import_lib_box.jpg").default}><img src={require("/img/products/w5500/w5500_evb/figures/make_new_project_import_lib_box.jpg").default} alt=""/></a>
 
 -----
 
@@ -88,11 +88,11 @@ and Board Library and add on your project.
   - LPCOpen Chip Library - lpc_chip_11exx
   - LPCOpen Board Library - wiznet_evb_w5500evb_board
 
-![](/img/products/w5500/w5500_evb/figures/make_new_project_select_libs_box2.jpg)
+<a target="_blank" href={require("/img/products/w5500/w5500_evb/figures/make_new_project_select_libs_box2.jpg").default}><img src={require("/img/products/w5500/w5500_evb/figures/make_new_project_select_libs_box2.jpg").default} alt=""/></a>
 
-![](/img/products/w5500/w5500_evb/figures/make_new_project_lib_chip_box.jpg)
+<a target="_blank" href={require("/img/products/w5500/w5500_evb/figures/make_new_project_lib_chip_box.jpg").default}><img src={require("/img/products/w5500/w5500_evb/figures/make_new_project_lib_chip_box.jpg").default} alt=""/></a>
 
-![](/img/products/w5500/w5500_evb/figures/make_new_project_lib_board_box.jpg)
+<a target="_blank" href={require("/img/products/w5500/w5500_evb/figures/make_new_project_lib_board_box.jpg").default}><img src={require("/img/products/w5500/w5500_evb/figures/make_new_project_lib_board_box.jpg").default} alt=""/></a>
 
 -----
 
@@ -101,7 +101,7 @@ and Board Library and add on your project.
 
 Set the remaining options for your environment and press the finish
 button, the 'new project' is created.  
-![](/img/products/w5500/w5500_evb/figures/make_new_project_project_explorer_box.jpg)
+<a target="_blank" href={require("/img/products/w5500/w5500_evb/figures/make_new_project_project_explorer_box.jpg").default}><img src={require("/img/products/w5500/w5500_evb/figures/make_new_project_project_explorer_box.jpg").default} alt=""/></a>
 
 -----
 
@@ -111,11 +111,11 @@ button, the 'new project' is created.
 The LPCXpresso IDE provides 'Smart Update' function. it also provides a
 simple mechanism for creating the links to a static library project from
 an application project. For more details, please refer to
-![](/img/products/w5500/w5500_evb/icons/link.png) [NXP FAQ page for 'Linking to library projects'](http://www.lpcware.com/content/faq/lpcxpresso/creating-linking-library-projects)
+<a target="_blank" href={require("/img/products/w5500/w5500_evb/icons/link.png").default}><img src={require("/img/products/w5500/w5500_evb/icons/link.png").default} alt=""/></a> [NXP FAQ page for 'Linking to library projects'](http://www.lpcware.com/content/faq/lpcxpresso/creating-linking-library-projects)
 
-![](/img/products/w5500/w5500_evb/figures/make_new_project_smart_update.jpg)
+<a target="_blank" href={require("/img/products/w5500/w5500_evb/figures/make_new_project_smart_update.jpg").default}><img src={require("/img/products/w5500/w5500_evb/figures/make_new_project_smart_update.jpg").default} alt=""/></a>
 
-![](/img/products/w5500/w5500_evb/figures/make_new_project_smart_update_select_box.jpg)
+<a target="_blank" href={require("/img/products/w5500/w5500_evb/figures/make_new_project_smart_update_select_box.jpg").default}><img src={require("/img/products/w5500/w5500_evb/figures/make_new_project_smart_update_select_box.jpg").default} alt=""/></a>
 
 -----
 
@@ -124,10 +124,10 @@ an application project. For more details, please refer to
 
 If the 'printf(/)' / 'scanf(/)' functions to use a UART, user can
 retargeting to Redlib's printf(/) as follows. For more details, please
-refer to ![](/img/products/w5500/w5500_evb/icons/link.png) [NXP FAQ page for
+refer to <a target="_blank" href={require("/img/products/w5500/w5500_evb/icons/link.png").default}><img src={require("/img/products/w5500/w5500_evb/icons/link.png").default} alt=""/></a> [NXP FAQ page for
 'Using printf(/)'](http://www.lpcware.com/content/faq/lpcxpresso/using-printf)
 
-![](/img/products/w5500/w5500_evb/figures/make_new_project_set_the_library_type_box.jpg)
+<a target="_blank" href={require("/img/products/w5500/w5500_evb/figures/make_new_project_set_the_library_type_box.jpg").default}><img src={require("/img/products/w5500/w5500_evb/figures/make_new_project_set_the_library_type_box.jpg").default} alt=""/></a>
 
 -----
 
@@ -145,9 +145,9 @@ arm-none-eabi-objcopy -O binary "${BuildArtifactFileName}" "${BuildArtifactFileB
 checksum -p ${TargetChip} -d "${BuildArtifactFileBaseName}.bin"
 ```
 
-![](/img/products/w5500/w5500_evb/figures/make_new_project_properties.jpg)
+<a target="_blank" href={require("/img/products/w5500/w5500_evb/figures/make_new_project_properties.jpg").default}><img src={require("/img/products/w5500/w5500_evb/figures/make_new_project_properties.jpg").default} alt=""/></a>
 
-![](/img/products/w5500/w5500_evb/figures/make_new_project_properties_post-build_command_box.jpg)
+<a target="_blank" href={require("/img/products/w5500/w5500_evb/figures/make_new_project_properties_post-build_command_box.jpg").default}><img src={require("/img/products/w5500/w5500_evb/figures/make_new_project_properties_post-build_command_box.jpg").default} alt=""/></a>
 
 -----
 

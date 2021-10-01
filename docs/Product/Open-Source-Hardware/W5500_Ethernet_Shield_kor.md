@@ -10,7 +10,7 @@ date: 2020-04-03
   - **Arduino Pin-compatible**
   - Ethernet (W5500 Hardwired TCP/IP chip)
 
-![](/img/osh/w5500_ethernet_shield/w5500_main_picture2.png)
+<a target="_blank" href={require("/img/osh/w5500_ethernet_shield/w5500_main_picture2.png").default}><img src={require("/img/osh/w5500_ethernet_shield/w5500_main_picture2.png").default} alt=""/></a>
 
 W5500 Ethernet shield는 W5500 기반으로 제작되었습니다. W5500에 대한 자세한 정보는 링크를 확인해주세요.
 W5500 Ethernet shield는 3.3V & 5V 로 동작합니다. 이 Ethernet Shield는 Arduino
@@ -75,7 +75,7 @@ Platform과 ARM mbed Platform에 호환되어 사용됩니다.
 
 ## Pins usage on Arduino & ARM mbed
 
-![](/img/osh/w5500_ethernet_shield/gpio_select.png)
+<a target="_blank" href={require("/img/osh/w5500_ethernet_shield/gpio_select.png").default}><img src={require("/img/osh/w5500_ethernet_shield/gpio_select.png").default} alt=""/></a>
 
 W5500 Ethernet shield is Possible to User Select GPIO
 
@@ -111,7 +111,7 @@ Datasheet 확인해주세요.
 
   - Using buffer
 
-![](/img/osh/w5500_ethernet_shield/w5500-ethernet-shield_blockdiagram_buffer.jpg)
+<a target="_blank" href={require("/img/osh/w5500_ethernet_shield/w5500-ethernet-shield_blockdiagram_buffer.jpg").default}><img src={require("/img/osh/w5500_ethernet_shield/w5500-ethernet-shield_blockdiagram_buffer.jpg").default} alt=""/></a>
 
 **Schematic**
 
@@ -126,7 +126,7 @@ Datasheet 확인해주세요.
 
   - W5500 Ethernet shield Rev1.0 Dimension
 
-![](/img/osh/w5500_ethernet_shield/w5500_shield_dimension.png)
+<a target="_blank" href={require("/img/osh/w5500_ethernet_shield/w5500_shield_dimension.png").default}><img src={require("/img/osh/w5500_ethernet_shield/w5500_shield_dimension.png").default} alt=""/></a>
 
 -----
 

@@ -33,4 +33,4 @@ W7500 has three different boot modes that can be selected through the BOOT pin a
 
 When W7500 is reset by hardware, it will be operated as below in embedded boot code.
 
-![Figure 1 operation of boot code"](/img/products/w7500/operation_boot_code.jpg)
+<a target="_blank" href={require("/img/products/w7500/operation_boot_code.jpg").default}><img src={require("/img/products/w7500/operation_boot_code.jpg").default} alt="Figure 1 operation of boot code"/></a>

@@ -6,7 +6,7 @@ date: 2020-04-07
 
 # WIZwiki-W7500ECO
 
-![WIZwiki-W7500ECO](/img/products/wizwiki-w7500eco/wizwiki-w7500eco3dtop.png)
+<a target="_blank" href={require("/img/products/wizwiki-w7500eco/wizwiki-w7500eco3dtop.png").default}><img src={require("/img/products/wizwiki-w7500eco/wizwiki-w7500eco3dtop.png").default} alt="WIZwiki-W7500ECO"/></a>
 
 -----
 
@@ -20,8 +20,8 @@ application platform especially internet of things. You can develop
 prototype product more quickly using WIZwiki-W7500ECO and it includes
 CMSIS-DAP for debuging and ethernet-phy.
 
-![WIZwiki-W7500ECO TOP Side](/img/products/wizwiki-w7500eco/wizwiki-w7500eco3d0degtop.png)
-![WIZwiki-W7500ECO BOTTOM Side](/img/products/wizwiki-w7500eco/wizwiki-w7500eco3d0degbottom.png)
+<a target="_blank" href={require("/img/products/wizwiki-w7500eco/wizwiki-w7500eco3d0degtop.png").default}><img src={require("/img/products/wizwiki-w7500eco/wizwiki-w7500eco3d0degtop.png").default} alt="WIZwiki-W7500ECO TOP Side"/></a>
+<a target="_blank" href={require("/img/products/wizwiki-w7500eco/wizwiki-w7500eco3d0degbottom.png").default}><img src={require("/img/products/wizwiki-w7500eco/wizwiki-w7500eco3d0degbottom.png").default} alt="WIZwiki-W7500ECO BOTTOM Side"/></a>
 
 -----
 
@@ -78,17 +78,17 @@ CMSIS-DAP for debuging and ethernet-phy.
 
 
 **WIZwiki-W7500ECO Blockdiagram**  
-![WIZwiki-W7500ECO Blockdiagram](/img/products/wizwiki-w7500eco/wizwiki-w7500eco_blockdiagram_v1.1.png)  
+<a target="_blank" href={require("/img/products/wizwiki-w7500eco/wizwiki-w7500eco_blockdiagram_v1.1.png").default}><img src={require("/img/products/wizwiki-w7500eco/wizwiki-w7500eco_blockdiagram_v1.1.png").default} alt="WIZwiki-W7500ECO Blockdiagram"/></a>  
 **WIZwiki-W7500ECO Callout**  
-![WIZwiki-W7500ECO Callout](/img/products/wizwiki-w7500eco/wizwiki-w7500eco_callout.png)
+<a target="_blank" href={require("/img/products/wizwiki-w7500eco/wizwiki-w7500eco_callout.png").default}><img src={require("/img/products/wizwiki-w7500eco/wizwiki-w7500eco_callout.png").default} alt="WIZwiki-W7500ECO Callout"/></a>
 
 
 **WIZwiki-W7500ECO Detail Pinout**  
-![WIZwiki-W7500ECO Detail Pinout](/img/products/wizwiki-w7500eco/wizwiki-w7500eco_detailpinout.png)
+<a target="_blank" href={require("/img/products/wizwiki-w7500eco/wizwiki-w7500eco_detailpinout.png").default}><img src={require("/img/products/wizwiki-w7500eco/wizwiki-w7500eco_detailpinout.png").default} alt="WIZwiki-W7500ECO Detail Pinout"/></a>
 
 
 **WIZwiki-W7500ECO Simple Pinout**  
-![WIZwiki-W7500ECO Simple Pinout](/img/products/wizwiki-w7500eco/wizwiki-w7500eco_simplepinout.png)
+<a target="_blank" href={require("/img/products/wizwiki-w7500eco/wizwiki-w7500eco_simplepinout.png").default}><img src={require("/img/products/wizwiki-w7500eco/wizwiki-w7500eco_simplepinout.png").default} alt="WIZwiki-W7500ECO Simple Pinout"/></a>
 
 -----
 
@@ -149,7 +149,7 @@ CMSIS-DAP for debuging and ethernet-phy.
 
    * WIZwiki-W7500ECO V1.1 Dimension
 
-![WIZwiki-W7500ECO Dimension](/img/products/wizwiki-w7500eco/wizwiki_w7500_eco_v1.1_dim_01.png)
+<a target="_blank" href={require("/img/products/wizwiki-w7500eco/wizwiki_w7500_eco_v1.1_dim_01.png").default}><img src={require("/img/products/wizwiki-w7500eco/wizwiki_w7500_eco_v1.1_dim_01.png").default} alt="WIZwiki-W7500ECO Dimension"/></a>
 
 -----
 

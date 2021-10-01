@@ -5,7 +5,7 @@ date: 2020-04-20
 --- 
 
 The screenshot of ISP tool is shown as below.
-![picture0](/img/products/w7500/documents/appnote/picture0.png)
+<a target="_blank" href={require("/img/products/w7500/documents/appnote/picture0.png").default}><img src={require("/img/products/w7500/documents/appnote/picture0.png").default} alt="picture0"/></a>
 
 For details, please refer the following tables.
 

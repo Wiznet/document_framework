@@ -21,7 +21,7 @@ the firmware & web page examples for user’s customization.
   - **Basic Webpage Demo**
   - **Examples for WIZ550web customization**
 
-![](/img/products/wiz550web/wiz550web_front.png)
+<a target="_blank" href={require("/img/products/wiz550web/wiz550web_front.png").default}><img src={require("/img/products/wiz550web/wiz550web_front.png").default} alt=""/></a>
 
 **Users can download the following source codes from the 'WIZ550web
 GitHub Repository'**
@@ -46,7 +46,7 @@ GitHub Repository'**
 
 -----
 
-![](/img/products/wiz550web/wiz550webgsg/wiz550web_product_preview.png)
+<a target="_blank" href={require("/img/products/wiz550web/wiz550webgsg/wiz550web_product_preview.png").default}><img src={require("/img/products/wiz550web/wiz550webgsg/wiz550web_product_preview.png").default} alt=""/></a>
 
 ## Hello World
 
@@ -68,7 +68,7 @@ GitHub Repository'**
 
 **WIZ550web module &
 EVB support microSD card**
-![](/img/products/wiz550web/sdcard/sandisk-4gb-micro-sd-memory-card.mobiles_productpage.left.png)
+<a target="_blank" href={require("/img/products/wiz550web/sdcard/sandisk-4gb-micro-sd-memory-card.mobiles_productpage.left.png").default}><img src={require("/img/products/wiz550web/sdcard/sandisk-4gb-micro-sd-memory-card.mobiles_productpage.left.png").default} alt=""/></a>
 \* Provides Sandisk 4GB microSD card but can be substituted with
 different product that has same features depends on manufacturer.
 
@@ -98,22 +98,22 @@ WIZ550web is described below.
 Insert the Micro SD card into an SD card reader and format it with the
 Windows explorer
 
-![](/img/products/wiz550web/sdcard/sdcard_select_format_box.jpg)
+<a target="_blank" href={require("/img/products/wiz550web/sdcard/sdcard_select_format_box.jpg").default}><img src={require("/img/products/wiz550web/sdcard/sdcard_select_format_box.jpg").default} alt=""/></a>
 
-![](/img/products/wiz550web/sdcard/sdcard_format_process_box.jpg)
+<a target="_blank" href={require("/img/products/wiz550web/sdcard/sdcard_format_process_box.jpg").default}><img src={require("/img/products/wiz550web/sdcard/sdcard_format_process_box.jpg").default} alt=""/></a>
 
-![](/img/products/wiz550web/sdcard/sdcard_format_warning_box.jpg)
+<a target="_blank" href={require("/img/products/wiz550web/sdcard/sdcard_format_warning_box.jpg").default}><img src={require("/img/products/wiz550web/sdcard/sdcard_format_warning_box.jpg").default} alt=""/></a>
 
-![](/img/products/wiz550web/sdcard/sdcard_format_complete.jpg)
+<a target="_blank" href={require("/img/products/wiz550web/sdcard/sdcard_format_complete.jpg").default}><img src={require("/img/products/wiz550web/sdcard/sdcard_format_complete.jpg").default} alt=""/></a>
 
 2\. Download the demo web page from [WIZ550web GitHub
 repository](https://github.com/Wiznet/WIZ550web)
 
-![](/img/products/wiz550web/sdcard/sdcard_github_clone_box.jpg)
+<a target="_blank" href={require("/img/products/wiz550web/sdcard/sdcard_github_clone_box.jpg").default}><img src={require("/img/products/wiz550web/sdcard/sdcard_github_clone_box.jpg").default} alt=""/></a>
 
 3\. Copy the demo Web page to the Micro SD card
 
-![](/img/products/wiz550web/sdcard/sdcard_webpage_folder_merge_box.jpg)
+<a target="_blank" href={require("/img/products/wiz550web/sdcard/sdcard_webpage_folder_merge_box.jpg").default}><img src={require("/img/products/wiz550web/sdcard/sdcard_webpage_folder_merge_box.jpg").default} alt=""/></a>
 
 4\. Insert the Micro SD card into the SD card slot of WIZ550web
 
@@ -153,7 +153,7 @@ When power is applied to the WIZ550web module, the serial debug message
 is print out via UART1 port. This message contains information such as
 the device name, network configurations, and SD card info.
 
-![](/img/products/wiz550web/wiz550webgsg/serialdebug_terminal_initial_cut.jpg)
+<a target="_blank" href={require("/img/products/wiz550web/wiz550webgsg/serialdebug_terminal_initial_cut.jpg").default}><img src={require("/img/products/wiz550web/wiz550webgsg/serialdebug_terminal_initial_cut.jpg").default} alt=""/></a>
 
 The module will not work during the
 initialization routine of the WIZ550web firmware if either the **PHY
@@ -204,7 +204,7 @@ following processes and operates as the flowchart below.
   - **CGI Handler**
       - Process the **User's requests** from web browser
       - CGI is the used to set the I/O status or to get the I/O status
-        information![](/img/products/wiz550web/wiz550webgsg/wiznet_httpserver_flowchart_v1.png)
+        information<a target="_blank" href={require("/img/products/wiz550web/wiz550webgsg/wiznet_httpserver_flowchart_v1.png").default}><img src={require("/img/products/wiz550web/wiz550webgsg/wiznet_httpserver_flowchart_v1.png").default} alt=""/></a>
 
 -----
 
@@ -219,7 +219,7 @@ dependent on a particular language or platform because only the
 configuration and policies between the web page and the server needs to
 be satisfied.
 
-![](/img/products/wiz550web/wiz550webgsg/wiz550web_simple_server-client_diagram.png)
+<a target="_blank" href={require("/img/products/wiz550web/wiz550webgsg/wiz550web_simple_server-client_diagram.png").default}><img src={require("/img/products/wiz550web/wiz550webgsg/wiz550web_simple_server-client_diagram.png").default} alt=""/></a>
 
 CGI for WIZ550web consists the 'Request name + .cgi' using HTTP GET/POST
 request method. The CGI for each HTTP methods are handled as below.
@@ -294,7 +294,7 @@ below.
 ### Device Settings
 
 The 'Device Settings' tab is configured as below.
-![](/img/products/wiz550web/webpage_basicdemo/basic_demopage_1.jpg)
+<a target="_blank" href={require("/img/products/wiz550web/webpage_basicdemo/basic_demopage_1.jpg").default}><img src={require("/img/products/wiz550web/webpage_basicdemo/basic_demopage_1.jpg").default} alt=""/></a>
 
 The user can check the device information like MAC address / Firmware
 version and set the network information (IP address, DHCP options and
@@ -310,14 +310,14 @@ attribute changed to disabled. If the user successfully allocated the IP
 address from DHCP server after module reboot, the modified debug message
 is output to terminal as below.
 
-![](/img/products/wiz550web/webpage_basicdemo/basic_demopage_dhcp_enabled_checked.jpg)
+<a target="_blank" href={require("/img/products/wiz550web/webpage_basicdemo/basic_demopage_dhcp_enabled_checked.jpg").default}><img src={require("/img/products/wiz550web/webpage_basicdemo/basic_demopage_dhcp_enabled_checked.jpg").default} alt=""/></a>
 
-![](/img/products/wiz550web/webpage_basicdemo/serialdebug_terminal_dhcp_checked.jpg)
+<a target="_blank" href={require("/img/products/wiz550web/webpage_basicdemo/serialdebug_terminal_dhcp_checked.jpg").default}><img src={require("/img/products/wiz550web/webpage_basicdemo/serialdebug_terminal_dhcp_checked.jpg").default} alt=""/></a>
 
 ### Digital I/O Status
 
 The 'Digital I/O Status' tab is configured as below.
-![](/img/products/wiz550web/webpage_basicdemo/basic_demopage_2.jpg)
+<a target="_blank" href={require("/img/products/wiz550web/webpage_basicdemo/basic_demopage_2.jpg").default}><img src={require("/img/products/wiz550web/webpage_basicdemo/basic_demopage_2.jpg").default} alt=""/></a>
 
 \[On-board LED\] WIZ550web's LEDs can be control by On/Off button in web
 page.  
@@ -327,9 +327,9 @@ configured as below.
 
   - **Pin number** (e.g., D0)**: Direction** (Input / Output / NotUsed)
   - **Status LED Images**
-    (![](/img/products/wiz550web/webpage_basicdemo/dio_on.png) Blue LED /
-    ![](/img/products/wiz550web/webpage_basicdemo/di_on.png) Green LED /
-    ![](/img/products/wiz550web/webpage_basicdemo/di_off.png) Off)
+    (<a target="_blank" href={require("/img/products/wiz550web/webpage_basicdemo/dio_on.png").default}><img src={require("/img/products/wiz550web/webpage_basicdemo/dio_on.png").default} alt=""/></a> Blue LED /
+    <a target="_blank" href={require("/img/products/wiz550web/webpage_basicdemo/di_on.png").default}><img src={require("/img/products/wiz550web/webpage_basicdemo/di_on.png").default} alt=""/></a> Green LED /
+    <a target="_blank" href={require("/img/products/wiz550web/webpage_basicdemo/di_off.png").default}><img src={require("/img/products/wiz550web/webpage_basicdemo/di_off.png").default} alt=""/></a> Off)
   - **On/Off Buttons** (for Output directions)
   For 'Input',  
 \- On/Off button is not indicated. If the input signal is 'high', the
@@ -343,12 +343,12 @@ For 'NotUsed',
 Users can set each I/O directions in 'I/O configuration' tab. See below
 for digital I/O status setting examples.
 
-![](/img/products/wiz550web/webpage_basicdemo/basic_demopage_2_io_examples.jpg)
+<a target="_blank" href={require("/img/products/wiz550web/webpage_basicdemo/basic_demopage_2_io_examples.jpg").default}><img src={require("/img/products/wiz550web/webpage_basicdemo/basic_demopage_2_io_examples.jpg").default} alt=""/></a>
 
 ### ADC Status
 
 The 'ADC Status' tab is configured as below.
-![](/img/products/wiz550web/webpage_basicdemo/basic_demopage_3_cut.jpg)
+<a target="_blank" href={require("/img/products/wiz550web/webpage_basicdemo/basic_demopage_3_cut.jpg").default}><img src={require("/img/products/wiz550web/webpage_basicdemo/basic_demopage_3_cut.jpg").default} alt=""/></a>
 
 The Analog input signal through ADC changes into a bar graphs is
 displayed in real-time.  
@@ -359,7 +359,7 @@ Potentiometer (A0), users can see the changes in the graph as below.
 ### I/O Configuration
 
 The 'I/O Configuration' tab is configured as below.
-![](/img/products/wiz550web/webpage_basicdemo/basic_demopage_4.jpg)
+<a target="_blank" href={require("/img/products/wiz550web/webpage_basicdemo/basic_demopage_4.jpg").default}><img src={require("/img/products/wiz550web/webpage_basicdemo/basic_demopage_4.jpg").default} alt=""/></a>
 
 Change of the I/O Directions and Aliases setting will be reflected
 immediately. Each I/O's LED images are the same as I/O status page (Blue
@@ -374,12 +374,12 @@ note that the module is rebooted into default settings.
 
 If you change the various settings, it is displayed as below.
 
-![](/img/products/wiz550web/webpage_basicdemo/basic_demopage_2_io_examples.jpg)
+<a target="_blank" href={require("/img/products/wiz550web/webpage_basicdemo/basic_demopage_2_io_examples.jpg").default}><img src={require("/img/products/wiz550web/webpage_basicdemo/basic_demopage_2_io_examples.jpg").default} alt=""/></a>
 
 ### Serial Data
 
 The 'Serial Data' tab is configured as below.
-![](/img/products/wiz550web/webpage_basicdemo/basic_demopage_3_cut.jpg)
+<a target="_blank" href={require("/img/products/wiz550web/webpage_basicdemo/basic_demopage_3_cut.jpg").default}><img src={require("/img/products/wiz550web/webpage_basicdemo/basic_demopage_3_cut.jpg").default} alt=""/></a>
 
 In this page, user can test the 'Serial data input/output through
 Webpage to UART1' (Serial data Tx/Rx) functions.
@@ -387,15 +387,15 @@ Webpage to UART1' (Serial data Tx/Rx) functions.
 Type 'hello world\!' in the **'Data to send'** input box and then press
 the **\[Send\]** button.
 
-![](/img/products/wiz550web/webpage_basicdemo/basic_demopage_5_cut_helloworld_checked.jpg)
+<a target="_blank" href={require("/img/products/wiz550web/webpage_basicdemo/basic_demopage_5_cut_helloworld_checked.jpg").default}><img src={require("/img/products/wiz550web/webpage_basicdemo/basic_demopage_5_cut_helloworld_checked.jpg").default} alt=""/></a>
 Serial terminal shows the string from web page through UART1.
 
-![](/img/products/wiz550web/webpage_basicdemo/serialdebug_terminal_helloworld_checked.jpg)
+<a target="_blank" href={require("/img/products/wiz550web/webpage_basicdemo/serialdebug_terminal_helloworld_checked.jpg").default}><img src={require("/img/products/wiz550web/webpage_basicdemo/serialdebug_terminal_helloworld_checked.jpg").default} alt=""/></a>
 
 On the contrary, if the user types the string on serial terminal, the
 **'Received data'** box in web page shows the typed string.
 
-![](/img/products/wiz550web/webpage_basicdemo/basic_demopage_5_cut_thanks_checked.jpg)
+<a target="_blank" href={require("/img/products/wiz550web/webpage_basicdemo/basic_demopage_5_cut_thanks_checked.jpg").default}><img src={require("/img/products/wiz550web/webpage_basicdemo/basic_demopage_5_cut_thanks_checked.jpg").default} alt=""/></a>
 
 ### Note
 
@@ -406,7 +406,7 @@ Chrome, MS Internet Explorer). By using this, the user is able to know
 the provider of the web page. The example basic demo web pages include
 'favicon'.
 
-![](/img/products/wiz550web/webpage_basicdemo/favicon_ex.jpg)
+<a target="_blank" href={require("/img/products/wiz550web/webpage_basicdemo/favicon_ex.jpg").default}><img src={require("/img/products/wiz550web/webpage_basicdemo/favicon_ex.jpg").default} alt=""/></a>
 
 User can add the 'Favicon' as the following steps
 
@@ -434,7 +434,7 @@ Function of the Web server can be a variety of combinations depending on
 the user's application; I/O monitor / control, transfer the string to
 UART, MCU and W5500 chip register control, Etc.
 
-![](/img/products/wiz550web/wiz550webgsg/wiz550web_simple_requestcombination_diagram.png)
+<a target="_blank" href={require("/img/products/wiz550web/wiz550webgsg/wiz550web_simple_requestcombination_diagram.png").default}><img src={require("/img/products/wiz550web/wiz550webgsg/wiz550web_simple_requestcombination_diagram.png").default} alt=""/></a>
 
 Therefore, users need to modify the firmware source code (C language)
 and web pages (HTML and JavaScript).

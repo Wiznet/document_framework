@@ -5,7 +5,7 @@ date: 2020-04-03
 ---
 
 # W7500P
-![Figure 1 W7500 Chip](/img/products/w7500p/20150908_171109.png)
+<a target="_blank" href={require("/img/products/w7500p/20150908_171109.png").default}><img src={require("/img/products/w7500p/20150908_171109.png").default} alt="Figure 1 W7500 Chip"/></a>
 
 ----
 

@@ -8,7 +8,7 @@ date: 2020-04-15
 * [English](getting_started_guide-EN) (current page)  
 * [Korean](getting_started_guide-KO)
 
-![](/img/products/wiz750sr/docs_icon.png)
+<a target="_blank" href={require("/img/products/wiz750sr/docs_icon.png").default}><img src={require("/img/products/wiz750sr/docs_icon.png").default} alt=""/></a>
 
 -----
 
@@ -203,7 +203,7 @@ configuration tool.
 
 |                                                                     |
 | ------------------------------------------------------------------- |
-| ![](/img/products/s2e_module/wiz752sr-120/gettingstarted/01_search.png) |
+| <a target="_blank" href={require("/img/products/s2e_module/wiz752sr-120/gettingstarted/01_search.png").default}><img src={require("/img/products/s2e_module/wiz752sr-120/gettingstarted/01_search.png").default} alt=""/></a> |
 | Figure: **WIZnet Configuration Tool**                               |
 
 #### Step 4: Set up your WIZ752SR-125
@@ -229,7 +229,7 @@ below.
 
 |                                                                  |
 | ---------------------------------------------------------------- |
-| ![](/img/products/wiz750sr/gettingstarted/windows_devicemanager.png) |
+| <a target="_blank" href={require("/img/products/wiz750sr/gettingstarted/windows_devicemanager.png").default}><img src={require("/img/products/wiz750sr/gettingstarted/windows_devicemanager.png").default} alt=""/></a> |
 | Figure: Device Manager                                           |
 
 #### Step 6: Verify

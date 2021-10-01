@@ -51,13 +51,13 @@ D4 is turned off, then press the Reset SW again.
     the state of D4 will turn like this: White => White Blink => Yellow
     The following message prints out to the serial port.
 
-![Messages in case of a SD card inserted](/img/products/w7500/overview/wizwiki_serial_ok.png)
+<a target="_blank" href={require("/img/products/w7500/overview/wizwiki_serial_ok.png").default}><img src={require("/img/products/w7500/overview/wizwiki_serial_ok.png").default} alt="Messages in case of a SD card inserted"/></a>
 
     If you do not have a SD card,
     D4 of the state will turn like this: White => White Blink => Red
     The following message prints out to the serial port.
 
-![Message in case of a SD card not inserted](/img/products/w7500/overview/wizwiki_serial_sdcard.png)
+<a target="_blank" href={require("/img/products/w7500/overview/wizwiki_serial_sdcard.png").default}><img src={require("/img/products/w7500/overview/wizwiki_serial_sdcard.png").default} alt="Message in case of a SD card not inserted"/></a>
 
 5. Run a command window and proceed with the ping test to
 WIZwiki-W7500.

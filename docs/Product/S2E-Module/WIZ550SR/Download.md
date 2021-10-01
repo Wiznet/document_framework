@@ -42,7 +42,7 @@ Install JAVA Runtime Environment
   - Install the downloaded installation file.
 
 
-![WIZnet Configuration Tool Version 1.0.3](/img/products/wiz550sr/wiz550sr_download/configuration.png)
+<a target="_blank" href={require("/img/products/wiz550sr/wiz550sr_download/configuration.png").default}><img src={require("/img/products/wiz550sr/wiz550sr_download/configuration.png").default} alt="WIZnet Configuration Tool Version 1.0.3"/></a>
 
 **WIZnet Configuration Tool
 Version 1.0.3**  
@@ -82,7 +82,7 @@ Therefore, Write firmware must use the program provided by STmicro.
 
 ## WIZ VSP
 
-![](/img/products/wiz750sr/usermanual/wiz_vsp.jpg)
+<a target="_blank" href={require("/img/products/wiz750sr/usermanual/wiz_vsp.jpg").default}><img src={require("/img/products/wiz750sr/usermanual/wiz_vsp.jpg").default} alt=""/></a>
 
   - WIZ VSP (WIZnet Virtual Serial COM port) is the software for those
     users who want to use the existing application programs based on

@@ -4,7 +4,7 @@ title: WizFi310 Shield
 date: 2020-04-03
 ---
 
-![WizFi310 Shield](/img/osh/wizfi310_shield/wizfi310_shield_1.png)
+<a target="_blank" href={require("/img/osh/wizfi310_shield/wizfi310_shield_1.png").default}><img src={require("/img/osh/wizfi310_shield/wizfi310_shield_1.png").default} alt="WizFi310 Shield"/></a>
 
 ## Overview
 
@@ -70,7 +70,7 @@ in.
 
 ## WizFi310 Shield Callout & Pinmap
 
-![WizFi310 Shield Pinmap](/img/osh/wizfi310_shield/wizfi310_shield_pinmap.png)
+<a target="_blank" href={require("/img/osh/wizfi310_shield/wizfi310_shield_pinmap.png").default}><img src={require("/img/osh/wizfi310_shield/wizfi310_shield_pinmap.png").default} alt="WizFi310 Shield Pinmap"/></a>
 
 -----
 

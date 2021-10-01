@@ -540,10 +540,10 @@ Connector</td>
 
 ### WIZ752SR-125
 
--   ![](/img/products/w5500/w5500_evb/icons/download.png)
+-   <a target="_blank" href={require("/img/products/w5500/w5500_evb/icons/download.png").default}><img src={require("/img/products/w5500/w5500_evb/icons/download.png").default} alt=""/></a>
     <a href="https://github.com/Wiznet/Hardware-Files-of-WIZnet/raw/master/04_Serial_to_Ethernet_Module/WIZ752SR-125/WIZ752SR-125_V100/Schematic/WIZ7525SR-125_SCH_V100.zip" target="_blank"> Download</a>
     
--   ![](/img/products/w5500/w5500_evb/icons/download.png) 
+-   <a target="_blank" href={require("/img/products/w5500/w5500_evb/icons/download.png").default}><img src={require("/img/products/w5500/w5500_evb/icons/download.png").default} alt=""/></a> 
     <a href="https://github.com/Wiznet/Hardware-Files-of-WIZnet/raw/master/04_Serial_to_Ethernet_Module/WIZ752SR-125/WIZ752SR-125_V100/Schematic/WIZ7525SR-125_SCH_V100.pdf" target="_blank"> Download</a>
 
 ------------------------------------------------------------------------

@@ -4,7 +4,7 @@ title: W3150A+ Overview
 date: 2021-07-16
 ---
 
-![](/img/products/w3150/photo_w3150A-1.jpg)
+<a target="_blank" href={require("/img/products/w3150/photo_w3150A-1.jpg").default}><img src={require("/img/products/w3150/photo_w3150A-1.jpg").default} alt=""/></a>
 
 **Hardwired Dual TCP/IP Stack Controller**
 
@@ -18,7 +18,7 @@ It is possible to use 4 independent hardware sockets simultaneously. BUS & SPI (
 
 As it doesn’t have the PHY, users can interface any external PHY such as switching PHY according to their requirement.
 
-![](/img/products/w3150/3150A-Block.jpg)
+<a target="_blank" href={require("/img/products/w3150/3150A-Block.jpg").default}><img src={require("/img/products/w3150/3150A-Block.jpg").default} alt=""/></a>
 
 -----
 

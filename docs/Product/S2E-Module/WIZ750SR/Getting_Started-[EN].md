@@ -8,7 +8,7 @@ date: 2020-04-08
   * [English](Getting_Started-EN) (current page)  
   * [Korean](Getting_Started-KO)
 
-![](/img/products/wiz750sr/docs_icon.png)
+<a target="_blank" href={require("/img/products/wiz750sr/docs_icon.png").default}><img src={require("/img/products/wiz750sr/docs_icon.png").default} alt=""/></a>
 
 -----
 
@@ -22,7 +22,7 @@ date: 2020-04-08
 
 |                                                                              |
 | ---------------------------------------------------------------------------- |
-| ![](/img/products/wiz750sr/gettingstarted/wiz750sr-ttl-evb_package_1024x858.jpg) |
+| <a target="_blank" href={require("/img/products/wiz750sr/gettingstarted/wiz750sr-ttl-evb_package_1024x858.jpg").default}><img src={require("/img/products/wiz750sr/gettingstarted/wiz750sr-ttl-evb_package_1024x858.jpg").default} alt=""/></a> |
 | Figure: ***WIZ750SR Rev. 1.1 Evaluation Board Package***                     |
 
 The WIZ750SR-232 evaluation board package contains the following parts.
@@ -37,12 +37,12 @@ The entire list of parts of the board is available at the [WIZ750SR Overview: Pr
 
 |                                                                      |
 | -------------------------------------------------------------------- |
-| ![](/img/products/wiz750sr/gettingstarted/wiz750sr_top_parts_rev1.2.png) |
+| <a target="_blank" href={require("/img/products/wiz750sr/gettingstarted/wiz750sr_top_parts_rev1.2.png").default}><img src={require("/img/products/wiz750sr/gettingstarted/wiz750sr_top_parts_rev1.2.png").default} alt=""/></a> |
 | Figure: ***WIZ750SR Revision 1.1 Top***                              |
 
 |                                                                         |
 | ----------------------------------------------------------------------- |
-| ![](/img/products/wiz750sr/gettingstarted/wiz750sr_bottom_parts_rev1.2.png) |
+| <a target="_blank" href={require("/img/products/wiz750sr/gettingstarted/wiz750sr_bottom_parts_rev1.2.png").default}><img src={require("/img/products/wiz750sr/gettingstarted/wiz750sr_bottom_parts_rev1.2.png").default} alt=""/></a> |
 | Figure: ***WIZ750SR Revision 1.1 Bottom***                              |
 
 ### Parts
@@ -208,12 +208,12 @@ Connect the WIZ750SR module to evaluation board and also the cable as shown in t
 
 |                                                                        |
 | ---------------------------------------------------------------------- |
-| ![](/img/products/wiz750sr/gettingstarted/wiz750sr-ttl-evb_1_1024x816.png) |
+| <a target="_blank" href={require("/img/products/wiz750sr/gettingstarted/wiz750sr-ttl-evb_1_1024x816.png").default}><img src={require("/img/products/wiz750sr/gettingstarted/wiz750sr-ttl-evb_1_1024x816.png").default} alt=""/></a> |
 | Figure: **Combining WIZ750SR module and EVB**                          |
 
 |                                                                        |
 | ---------------------------------------------------------------------- |
-| ![](/img/products/wiz750sr/gettingstarted/wiz750sr-ttl-evb_2_1024x816.png) |
+| <a target="_blank" href={require("/img/products/wiz750sr/gettingstarted/wiz750sr-ttl-evb_2_1024x816.png").default}><img src={require("/img/products/wiz750sr/gettingstarted/wiz750sr-ttl-evb_2_1024x816.png").default} alt=""/></a> |
 | Figure: **WIZ750SR-EVB side view**                                     |
 
 #### Step 2: Power on
@@ -235,7 +235,7 @@ Open the configuration tool and click the search button. If the board is turned 
 
 |                                                       |
 | ----------------------------------------------------- |
-| ![](/img/products/wiz750sr/gettingstarted/configtool.png) |
+| <a target="_blank" href={require("/img/products/wiz750sr/gettingstarted/configtool.png").default}><img src={require("/img/products/wiz750sr/gettingstarted/configtool.png").default} alt=""/></a> |
 | Figure: **WIZnet Configuration Tool**                 |
 
 #### Step 4: Set up your WIZ750SR
@@ -259,7 +259,7 @@ The COM port for serial terminal program connection can be checked as below.
 
 |                                                                  |
 | ---------------------------------------------------------------- |
-| ![](/img/products/wiz750sr/gettingstarted/windows_devicemanager.png) |
+| <a target="_blank" href={require("/img/products/wiz750sr/gettingstarted/windows_devicemanager.png").default}><img src={require("/img/products/wiz750sr/gettingstarted/windows_devicemanager.png").default} alt=""/></a> |
 | Figure: Device Manager                                           |
 
 #### Step 6: Verify

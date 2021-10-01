@@ -6,7 +6,7 @@ date: 2020-04-03
 
 ## Pin Layout
 
-![20170718_w7500p_pinout](/img/products/w7500p/overview/20170718_w7500p_pinout.png)
+<a target="_blank" href={require("/img/products/w7500p/overview/20170718_w7500p_pinout.png").default}><img src={require("/img/products/w7500p/overview/20170718_w7500p_pinout.png").default} alt="20170718_w7500p_pinout"/></a>
 
 ## Pin Description
 

@@ -32,7 +32,7 @@ date: 2020-04-13
 
 ### WIZ550web Pinout
 
-![WIZ550WEB\_Pinout](/img/products/wiz550web/wiz550web_rev1.1_20160721.png)
+<a target="_blank" href={require("/img/products/wiz550web/wiz550web_rev1.1_20160721.png").default}><img src={require("/img/products/wiz550web/wiz550web_rev1.1_20160721.png").default} alt="WIZ550WEB\_Pinout"/></a>
 
 ### Pin Description
 
@@ -92,16 +92,16 @@ date: 2020-04-13
 
 ### WIZ550web Baseboard Pinout
 
-![WIZ550web Baseboard Pinout](/img/products/wiz550web/wiz550web_base_pinout_20160720.png)
+<a target="_blank" href={require("/img/products/wiz550web/wiz550web_base_pinout_20160720.png").default}><img src={require("/img/products/wiz550web/wiz550web_base_pinout_20160720.png").default} alt="WIZ550web Baseboard Pinout"/></a>
 
 ### WIZ550web Baseboard Callout
 
-![WIZ550web Baseboard Callout](/img/products/wiz550web/wiz550web_base_20160720.png)
+<a target="_blank" href={require("/img/products/wiz550web/wiz550web_base_20160720.png").default}><img src={require("/img/products/wiz550web/wiz550web_base_20160720.png").default} alt="WIZ550web Baseboard Callout"/></a>
 
 ### Digital Output Port
 
 WIZ550web Baseboard에는 8개(D0\~D7)의 릴레이 출력단이 있다. 기본 적인 내부 회로는 아래 사진과 같고
-Jumper를 통해 릴레이의 NC(Normal close), NO(Normal Open)를 설정할수 있다. ![WIZ550WEB Digital Output Port](/img/products/wiz550web/wiz550web_bb_output.png) 동작 상태는 아래 표와 같다.
+Jumper를 통해 릴레이의 NC(Normal close), NO(Normal Open)를 설정할수 있다. <a target="_blank" href={require("/img/products/wiz550web/wiz550web_bb_output.png").default}><img src={require("/img/products/wiz550web/wiz550web_bb_output.png").default} alt="WIZ550WEB Digital Output Port"/></a> 동작 상태는 아래 표와 같다.
 
 | 입력 값 | 릴레이 상태  | NC 출력 값   | NO 출력 값   |
 | ---- | ------- | --------- | --------- |
@@ -116,7 +116,7 @@ Jumper를 통해 릴레이의 NC(Normal close), NO(Normal Open)를 설정할수 
 ### Digital Input Port
 
 WIZ550web Baseboard에는 8개(D8\~D15)의 포토커플러를 통한 디지털 입력단이 있다. 기본적인 내부 회로는 아래
-사진과 같다. 입력에는 극성이 없고 입력 두신호의 전위차로 ON/OFF를 구별한다. ![WIZ550WEB Digital Input Port](/img/products/wiz550web/wiz550web_bb_input.png) 입력의 전기적
+사진과 같다. 입력에는 극성이 없고 입력 두신호의 전위차로 ON/OFF를 구별한다. <a target="_blank" href={require("/img/products/wiz550web/wiz550web_bb_input.png").default}><img src={require("/img/products/wiz550web/wiz550web_bb_input.png").default} alt="WIZ550WEB Digital Input Port"/></a> 입력의 전기적
 특성은 아래와 같다.
 
 | 1.4V 이하 | **Low**                        |
@@ -126,15 +126,15 @@ WIZ550web Baseboard에는 8개(D8\~D15)의 포토커플러를 통한 디지털 �
 | 극성      | **없음. 입력되는 두 신호의 전위차로 On/Off** |
 
 Digital Input 8개중에 4개(D8\~D11)는 Baseboard 내부의 택트 스위치와 같이 연결 되어 있고, 이 연결은
-J23\~J26 Jumper로 선택 할 수 있다. ![WIZ550WEB Digital Input Jumper](/img/products/wiz550web/wiz550web_bb_input_jumper.png)
+J23\~J26 Jumper로 선택 할 수 있다. <a target="_blank" href={require("/img/products/wiz550web/wiz550web_bb_input_jumper.png").default}><img src={require("/img/products/wiz550web/wiz550web_bb_input_jumper.png").default} alt="WIZ550WEB Digital Input Jumper"/></a>
 
 ### Analog Input Port
 
 WIZ550web Baseboard에는 4개(A0\~A3)의 아날로그 입력단이 있다. 기본적이 내부 회로도는 아래 사진과 같다.
-간단하게 0\~12V입력이 가능하고 내부 회로를 통과해 WIZ550WEB으로 입력 된다. ![WIZ550WEB Analog Input Port](/img/products/wiz550web/wiz550web_bb_analog.png)
+간단하게 0\~12V입력이 가능하고 내부 회로를 통과해 WIZ550WEB으로 입력 된다. <a target="_blank" href={require("/img/products/wiz550web/wiz550web_bb_analog.png").default}><img src={require("/img/products/wiz550web/wiz550web_bb_analog.png").default} alt="WIZ550WEB Analog Input Port"/></a>
 
 Analog Input은 4개중에 2개(A0,A1)는 Baseboard 내부의 가변저항(10K)과 온도센서(TC1047AVNB)에
-같이 연결이 되어 있거, 이 연결은 J26, J28 Jumper로 선택 할 수 있다. ![WIZ550WEB Analog Input Jumper](/img/products/wiz550web/wiz550web_bb_analog_jumper.png)
+같이 연결이 되어 있거, 이 연결은 J26, J28 Jumper로 선택 할 수 있다. <a target="_blank" href={require("/img/products/wiz550web/wiz550web_bb_analog_jumper.png").default}><img src={require("/img/products/wiz550web/wiz550web_bb_analog_jumper.png").default} alt="WIZ550WEB Analog Input Jumper"/></a>
 
 -----
 
@@ -216,8 +216,8 @@ Analog Input은 4개중에 2개(A0,A1)는 Baseboard 내부의 가변저항(10K)�
 ## WIZ550web V1.1/V1.2
 
 74.95mm(W) x 30mm(L) x 24mm(H) (±0.5)
-![](/img/products/wiz550web/wiz550web_v1.2_dimension.png)
+<a target="_blank" href={require("/img/products/wiz550web/wiz550web_v1.2_dimension.png").default}><img src={require("/img/products/wiz550web/wiz550web_v1.2_dimension.png").default} alt=""/></a>
 
 ## WIZ550web Baseboard
 
-145mm(W) x 85mm(L) x 28mm(H) (±0.5) ![WIZ550WEB Baseboard Dimension](/img/products/wiz550web/wiz550webds_kr/wiz550web-bb_v100_dimension.png)
+145mm(W) x 85mm(L) x 28mm(H) (±0.5) <a target="_blank" href={require("/img/products/wiz550web/wiz550webds_kr/wiz550web-bb_v100_dimension.png").default}><img src={require("/img/products/wiz550web/wiz550webds_kr/wiz550web-bb_v100_dimension.png").default} alt="WIZ550WEB Baseboard Dimension"/></a>

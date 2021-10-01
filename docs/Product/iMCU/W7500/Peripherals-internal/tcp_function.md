@@ -81,11 +81,11 @@ connect-request (Passive-open). The “TCP CLIENT” transmits the
 connect-request first to “TCP SERVER” to make the connection
 (Active-open).
 
-![TCP SERVER and TCP CLIENT](/img/products/w7500p/serverclient.jpg)
+<a target="_blank" href={require("/img/products/w7500p/serverclient.jpg").default}><img src={require("/img/products/w7500p/serverclient.jpg").default} alt="TCP SERVER and TCP CLIENT"/></a>
 
 ### TCP SERVER
 
-![TCP SERVER Operation Flow](/img/products/w7500p/server_flow.jpg)
+<a target="_blank" href={require("/img/products/w7500p/server_flow.jpg").default}><img src={require("/img/products/w7500p/server_flow.jpg").default} alt="TCP SERVER Operation Flow"/></a>
 
 ##### SOCKET Initialization
 
@@ -351,7 +351,7 @@ Sn_CR = CLOSE;
 It is same as TCP server except ‘CONNECT’ state. User can refer to the
 above "TCP SERVER” section.
 
-![TCP CLIENT Operation Flow](/img/products/w7500p/client_flow.jpg)
+<a target="_blank" href={require("/img/products/w7500p/client_flow.jpg").default}><img src={require("/img/products/w7500p/client_flow.jpg").default} alt="TCP CLIENT Operation Flow"/></a>
 
 ##### CONNECT
 

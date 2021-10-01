@@ -33,7 +33,7 @@ Connect the PC and the router (with DHCP function) with LAN cable.
 Connect the router and the WIZwiki board with LAN cable. Connect the PC
 and the WIZwiki board with USB cable.
 
-![](/img/products/wizwiki_mbed_kit/kit_en/tcp_loopback_system_config_en.png)
+<a target="_blank" href={require("/img/products/wizwiki_mbed_kit/kit_en/tcp_loopback_system_config_en.png").default}><img src={require("/img/products/wizwiki_mbed_kit/kit_en/tcp_loopback_system_config_en.png").default} alt=""/></a>
 
 
 ## Software
@@ -67,52 +67,52 @@ Execute serial terminal in PC. First press the Reset button of WIZwiki
 board and check messages. User can see that Server IP Address (ex:
 192.168.0.8) is assigned by DHCP function.
 
-![](/img/products/wizwiki_mbed_kit/kit_en/tcp_led_dhcp_1.jpg)
+<a target="_blank" href={require("/img/products/wizwiki_mbed_kit/kit_en/tcp_led_dhcp_1.jpg").default}><img src={require("/img/products/wizwiki_mbed_kit/kit_en/tcp_led_dhcp_1.jpg").default} alt=""/></a>
 
 Execute Hercules program in PC. Select TCP Client menu and configure the
 IP and Port. If user types the target Server IP Address (ex:
 192.168.0.8) and clicks the Ping button, this image will be shown.
-![](/img/products/wizwiki_mbed_kit/kit_en/tcp_led_client_1.jpg)
+<a target="_blank" href={require("/img/products/wizwiki_mbed_kit/kit_en/tcp_led_client_1.jpg").default}><img src={require("/img/products/wizwiki_mbed_kit/kit_en/tcp_led_client_1.jpg").default} alt=""/></a>
 
 The output message made by TCP server is shown in Terterm. User can know
 the Client (PC) is connected to Server (WIZwiki board). (ex: Connection
 from: 192.168.0.6)
 
-![](/img/products/wizwiki_mbed_kit/kit_en/tcp_led_server_1.jpg)
+<a target="_blank" href={require("/img/products/wizwiki_mbed_kit/kit_en/tcp_led_server_1.jpg").default}><img src={require("/img/products/wizwiki_mbed_kit/kit_en/tcp_led_server_1.jpg").default} alt=""/></a>
 
 Now let's control the LED on the WIZwiki board. When the TCP Client of
 the PC sends **"LED\_ON"** message to the WIZwiki board (TCP Server),
 then the LED turns on. Click the "Send" button on the red part in the
 figure below.
-![](/img/products/wizwiki_mbed_kit/kit_en/tcp_led_on_client.jpg)
+<a target="_blank" href={require("/img/products/wizwiki_mbed_kit/kit_en/tcp_led_on_client.jpg").default}><img src={require("/img/products/wizwiki_mbed_kit/kit_en/tcp_led_on_client.jpg").default} alt=""/></a>
 
 If the LED\_ON message is parsed (translated) at the TCP Server side,
 then LED turns on. Check the LED light on the blue circle turns on.
 
-![](/img/products/wizwiki_mbed_kit/kit_en/tcp_led_on_off.png)
+<a target="_blank" href={require("/img/products/wizwiki_mbed_kit/kit_en/tcp_led_on_off.png").default}><img src={require("/img/products/wizwiki_mbed_kit/kit_en/tcp_led_on_off.png").default} alt=""/></a>
 
 Besides the LED turn on, the other message is shown The TCP Client sends
 message to WIZwiki board (TCP Server), then WIZwiki board sends reversed
 message to TCP Client. Check the message returned back from Server on
 Teraterm in the figure below.
 
-![](/img/products/wizwiki_mbed_kit/kit_en/tcp_led_on_server.jpg)
+<a target="_blank" href={require("/img/products/wizwiki_mbed_kit/kit_en/tcp_led_on_server.jpg").default}><img src={require("/img/products/wizwiki_mbed_kit/kit_en/tcp_led_on_server.jpg").default} alt=""/></a>
 
 If **"Any messsage"**(ex: TEST) except the "LED\_ON" message to the
 WIZwiki board (TCP Server), then the LED turns off.
 
-![](/img/products/wizwiki_mbed_kit/kit_en/tcp_led_off_client.jpg)
+<a target="_blank" href={require("/img/products/wizwiki_mbed_kit/kit_en/tcp_led_off_client.jpg").default}><img src={require("/img/products/wizwiki_mbed_kit/kit_en/tcp_led_off_client.jpg").default} alt=""/></a>
 
 Besides the LED turn off, the other message is shown The TCP Client
 sends message to WIZwiki board (TCP Server), then WIZwiki board sends
 reversed message to TCP Client. Check the message returned back from
 Server on Teraterm in the figure below.
 
-![](/img/products/wizwiki_mbed_kit/kit_en/tcp_led_off_server.jpg)
+<a target="_blank" href={require("/img/products/wizwiki_mbed_kit/kit_en/tcp_led_off_server.jpg").default}><img src={require("/img/products/wizwiki_mbed_kit/kit_en/tcp_led_off_server.jpg").default} alt=""/></a>
 
 Check the LED light on the blue circle turns off.
 
-![](/img/products/wizwiki_mbed_kit/kit_en/tcp_led_on_off.png)
+<a target="_blank" href={require("/img/products/wizwiki_mbed_kit/kit_en/tcp_led_on_off.png").default}><img src={require("/img/products/wizwiki_mbed_kit/kit_en/tcp_led_on_off.png").default} alt=""/></a>
 
 
 ## Learning Resources

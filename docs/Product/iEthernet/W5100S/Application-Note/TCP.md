@@ -92,11 +92,11 @@ this Connection Process, the side transmitting Connection Request is
 SERVER’. TCP also provides reliable, ordered and error-checked delivery
 of a stream Data between applications running on hosts communicating by
 an IP network. ‘TCP SERVER’ and ‘TCP CLIENT’ are maintaining transmit
-and receive Data until the TCP connection is terminated. ![TCP SERVER and TCP CLIENT](/img/products/w7500p/serverclient.jpg)
+and receive Data until the TCP connection is terminated. <a target="_blank" href={require("/img/products/w7500p/serverclient.jpg").default}><img src={require("/img/products/w7500p/serverclient.jpg").default} alt="TCP SERVER and TCP CLIENT"/></a>
 
 ### TCP SERVER
 
-![TCP SERVER Operation Flow](/img/products/w7500p/server_flow.jpg)
+<a target="_blank" href={require("/img/products/w7500p/server_flow.jpg").default}><img src={require("/img/products/w7500p/server_flow.jpg").default} alt="TCP SERVER Operation Flow"/></a>
 
 #### SOCKET Initialization
 
@@ -483,7 +483,7 @@ and Sn\_CR\[CLOSE\] = '1'.
 
 ### TCP CLIENT
 
-![TCP CLIENT Operation Flow](/img/products/w5100s/application/tcp_client_flow.png)
+<a target="_blank" href={require("/img/products/w5100s/application/tcp_client_flow.png").default}><img src={require("/img/products/w5100s/application/tcp_client_flow.png").default} alt="TCP CLIENT Operation Flow"/></a>
 
 #### OPEN
 

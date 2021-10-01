@@ -8,7 +8,7 @@ date: 2020-04-08
   * [English](/) (current page)  
   * [Korean](/)
 
-![](/img/products/wiz750sr/docs_icon.png)
+<a target="_blank" href={require("/img/products/wiz750sr/docs_icon.png").default}><img src={require("/img/products/wiz750sr/docs_icon.png").default} alt=""/></a>
 
 -----
 
@@ -344,7 +344,7 @@ Data packing options can be multi-selected but has priority as shown below.
   - The search identification code is for identifying the device search.
   - If this option is selected, the assigned code must be entered when searching devices.
 
-![](/img/products/wiz750sr/usermanual/configtool_udp_search.png)
+<a target="_blank" href={require("/img/products/wiz750sr/usermanual/configtool_udp_search.png").default}><img src={require("/img/products/wiz750sr/usermanual/configtool_udp_search.png").default} alt=""/></a>
 
 <table>
 <tbody>

@@ -8,7 +8,7 @@ date: 2020-04-09
 * [English](getting_started-EN) (current page)  
 * [Korean](getting_started-KO)
 
-![](/img/products/wiz750sr/docs_icon.png)
+<a target="_blank" href={require("/img/products/wiz750sr/docs_icon.png").default}><img src={require("/img/products/wiz750sr/docs_icon.png").default} alt=""/></a>
 
 -----
 
@@ -23,7 +23,7 @@ WIZ750SR-100-EVB evaluation board.**
 
 |                                                              |
 | ------------------------------------------------------------ |
-| ![](/img/products/wiz750jr/gettingstarted/wiz750jr_pakage.png)   |
+| <a target="_blank" href={require("/img/products/wiz750jr/gettingstarted/wiz750jr_pakage.png").default}><img src={require("/img/products/wiz750jr/gettingstarted/wiz750jr_pakage.png").default} alt=""/></a>   |
 | Figure: ***WIZ750SR-100 Rev. 1.0 Evaluation Board Package*** |
 
 The WIZ750SR-100 evaluation board package contains the following parts.
@@ -40,12 +40,12 @@ Contents](overview-EN#product-contents) page.
 
 |                                                                            |
 | -------------------------------------------------------------------------- |
-| ![](/img/products/wiz750sr-100/gettingstarted/wiz750sr_callout_rev1.1_top.png) |
+| <a target="_blank" href={require("/img/products/wiz750sr-100/gettingstarted/wiz750sr_callout_rev1.1_top.png").default}><img src={require("/img/products/wiz750sr-100/gettingstarted/wiz750sr_callout_rev1.1_top.png").default} alt=""/></a> |
 | Figure: ***WIZ750SR-100 Revision 1.1 Top***                                |
 
 |                                                                               |
 | ----------------------------------------------------------------------------- |
-| ![](/img/products/wiz750sr-100/gettingstarted/wiz750sr_callout_rev1.1_bottom.png) |
+| <a target="_blank" href={require("/img/products/wiz750sr-100/gettingstarted/wiz750sr_callout_rev1.1_bottom.png").default}><img src={require("/img/products/wiz750sr-100/gettingstarted/wiz750sr_callout_rev1.1_bottom.png").default} alt=""/></a> |
 | Figure: ***WIZ750SR-100 Revision 1.1 Bottom***                                |
 
 ### Parts
@@ -224,12 +224,12 @@ as shown in the picture below.
 
 |                                                                |
 | -------------------------------------------------------------- |
-| ![](/img/products/wiz750jr/gettingstarted/wiz750jr_evb_combin.png) |
+| <a target="_blank" href={require("/img/products/wiz750jr/gettingstarted/wiz750jr_evb_combin.png").default}><img src={require("/img/products/wiz750jr/gettingstarted/wiz750jr_evb_combin.png").default} alt=""/></a> |
 | Figure: **Combining WIZ750SR-100 module and EVB**              |
 
 |                                                                   |
 | ----------------------------------------------------------------- |
-| ![](/img/products/wiz750jr/gettingstarted/wiz750jr-evb_side_view.png) |
+| <a target="_blank" href={require("/img/products/wiz750jr/gettingstarted/wiz750jr-evb_side_view.png").default}><img src={require("/img/products/wiz750jr/gettingstarted/wiz750jr-evb_side_view.png").default} alt=""/></a> |
 | Figure: **WIZ750SR-100-EVB side view**                            |
 
 #### Step 2: Power on
@@ -247,7 +247,7 @@ of the WIZ750SR-100 module can be checked using the configuration tool.
 
 |                                                       |
 | ----------------------------------------------------- |
-| ![](/img/products/wiz750sr/gettingstarted/configtool.png) |
+| <a target="_blank" href={require("/img/products/wiz750sr/gettingstarted/configtool.png").default}><img src={require("/img/products/wiz750sr/gettingstarted/configtool.png").default} alt=""/></a> |
 | Figure: **WIZnet Configuration Tool**                 |
 
 #### Step 4: Set up your WIZ750SR-100
@@ -277,7 +277,7 @@ below.
 
 |                                                                  |
 | ---------------------------------------------------------------- |
-| ![](/img/products/wiz750sr/gettingstarted/windows_devicemanager.png) |
+| <a target="_blank" href={require("/img/products/wiz750sr/gettingstarted/windows_devicemanager.png").default}><img src={require("/img/products/wiz750sr/gettingstarted/windows_devicemanager.png").default} alt=""/></a> |
 | Figure: Device Manager                                           |
 
 #### Step 6: Verify

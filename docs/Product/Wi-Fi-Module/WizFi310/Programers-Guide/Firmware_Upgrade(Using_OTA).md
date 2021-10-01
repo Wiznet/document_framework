@@ -14,7 +14,7 @@ Execute "WizFi310_Ota_Tool.exe" and select serial port and baud rate
 of WizFi310. For your information, WizFi310 is set to 115200 for default
 baudrate.
 
-![](/img/products/wizfi310/wizfi310pg/ota_1.png)
+<a target="_blank" href={require("/img/products/wizfi310/wizfi310pg/ota_1.png").default}><img src={require("/img/products/wizfi310/wizfi310pg/ota_1.png").default} alt=""/></a>
 
 #### Step 2
 
@@ -23,26 +23,26 @@ choice SSID which WizFi310 will connect. Choice SSID and input key value
 of AP and then push &#60;connect&#62; button, &#60;WizFi310 OTA Tool&#62; will enter
 commands to WizFi310 in order to connect to AP.
 
-![](/img/products/wizfi310/wizfi310pg/ota_2.png)
+<a target="_blank" href={require("/img/products/wizfi310/wizfi310pg/ota_2.png").default}><img src={require("/img/products/wizfi310/wizfi310pg/ota_2.png").default} alt=""/></a>
 
 #### Step 3
 
 If you push &#60;browse&#62; button, you can select binary file for uploading
 via OTA.
 
-![](/img/products/wizfi310/wizfi310pg/ota_3.png)
+<a target="_blank" href={require("/img/products/wizfi310/wizfi310pg/ota_3.png").default}><img src={require("/img/products/wizfi310/wizfi310pg/ota_3.png").default} alt=""/></a>
 
 #### Step 4
 
 Select IP Address of PC which &#60;WizFi310 OTA Tool&#62; is run and then
 click &#60;Start OTA&#62; button.
 
-![](/img/products/wizfi310/wizfi310pg/ota_4.png)
+<a target="_blank" href={require("/img/products/wizfi310/wizfi310pg/ota_4.png").default}><img src={require("/img/products/wizfi310/wizfi310pg/ota_4.png").default} alt=""/></a>
 
 If it is done successfully, you can see message as below.
 
-![](/img/products/wizfi310/wizfi310pg/ota_5.png)
+<a target="_blank" href={require("/img/products/wizfi310/wizfi310pg/ota_5.png").default}><img src={require("/img/products/wizfi310/wizfi310pg/ota_5.png").default} alt=""/></a>
 
 If this tool is displayed error message as below, you have to check
 WizFi310 or your binary whether it is right.
-![](/img/products/wizfi310/wizfi310pg/ota_6.png)
+<a target="_blank" href={require("/img/products/wizfi310/wizfi310pg/ota_6.png").default}><img src={require("/img/products/wizfi310/wizfi310pg/ota_6.png").default} alt=""/></a>

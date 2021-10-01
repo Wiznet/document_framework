@@ -38,7 +38,7 @@ Check the virtual COM port number in your system's properties.
 Please connect with any terminal to that serial port with
 **115200.8.N.1**.
 
-![](/img/products/w6100/w6100_evb/debug_msg.jpg)
+<a target="_blank" href={require("/img/products/w6100/w6100_evb/debug_msg.jpg").default}><img src={require("/img/products/w6100/w6100_evb/debug_msg.jpg").default} alt=""/></a>
 
 #### 4\. Loopback test
 
@@ -141,7 +141,7 @@ Set the settings on main window of Flash loader demonstrator program. It
 is easy to set along with each step.  
 The figure below shows the default configuration for W6100-EVB.
 
-![](/img/products/w6100/w6100_evb/4.png)
+<a target="_blank" href={require("/img/products/w6100/w6100_evb/4.png").default}><img src={require("/img/products/w6100/w6100_evb/4.png").default} alt=""/></a>
 
 #### 4\. Click to 'Next' button
 
@@ -150,17 +150,17 @@ loader demonstrator, users try again this action. 'Press the 'Boot0'
 push button switch on board until turn on the board after reset or power
 supply.'
 
-![](/img/products/w6100/w6100_evb/5.png)
-![](/img/products/w6100/w6100_evb/6.png)
-![](/img/products/w6100/w6100_evb/7.png)
-![](/img/products/w6100/w6100_evb/8.png)
-![](/img/products/w6100/w6100_evb/9.png)
+<a target="_blank" href={require("/img/products/w6100/w6100_evb/5.png").default}><img src={require("/img/products/w6100/w6100_evb/5.png").default} alt=""/></a>
+<a target="_blank" href={require("/img/products/w6100/w6100_evb/6.png").default}><img src={require("/img/products/w6100/w6100_evb/6.png").default} alt=""/></a>
+<a target="_blank" href={require("/img/products/w6100/w6100_evb/7.png").default}><img src={require("/img/products/w6100/w6100_evb/7.png").default} alt=""/></a>
+<a target="_blank" href={require("/img/products/w6100/w6100_evb/8.png").default}><img src={require("/img/products/w6100/w6100_evb/8.png").default} alt=""/></a>
+<a target="_blank" href={require("/img/products/w6100/w6100_evb/9.png").default}><img src={require("/img/products/w6100/w6100_evb/9.png").default} alt=""/></a>
 
 #### 5\. Run the new program
 
 After finish to flash programming and board reset, The MCU do running
 the program  
 When the running to loopback program, as below picture serial debug
-message print out. ![](/img/products/w6100/w6100_evb/debug_msg.jpg)
+message print out. <a target="_blank" href={require("/img/products/w6100/w6100_evb/debug_msg.jpg").default}><img src={require("/img/products/w6100/w6100_evb/debug_msg.jpg").default} alt=""/></a>
 
 -----

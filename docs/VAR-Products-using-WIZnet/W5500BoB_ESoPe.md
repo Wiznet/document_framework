@@ -11,8 +11,8 @@ I/F is free available. You can use any RJ45 for the connection.
 The **W5500BoB** Module is made by German company
 **[ESoPe](http://esope.de/)**.  
 Here pictures of Top and Bottom side:  
-![](/img/var_products/third_party/w5500bob_001.jpg)
-![](/img/var_products/third_party/w5500bob_002.jpg)  
+<a target="_blank" href={require("/img/var_products/third_party/w5500bob_001.jpg").default}><img src={require("/img/var_products/third_party/w5500bob_001.jpg").default} alt=""/></a>
+<a target="_blank" href={require("/img/var_products/third_party/w5500bob_002.jpg").default}><img src={require("/img/var_products/third_party/w5500bob_002.jpg").default} alt=""/></a>  
   
 The **schematic** is here:  
 [Download](/img/var_products/third_party/eth_spi_w5500_bob_v1_sch.pdf)

@@ -39,17 +39,17 @@ Check the the virtual COM port number in your systems properties.
 Please connect with any terminal to that serial port with
 **115200.8.N.1**.
 
-![](/img/products/w5500/w5500_evb/figures/downloading_serial_printout_on_terminal.jpg)
+<a target="_blank" href={require("/img/products/w5500/w5500_evb/figures/downloading_serial_printout_on_terminal.jpg").default}><img src={require("/img/products/w5500/w5500_evb/figures/downloading_serial_printout_on_terminal.jpg").default} alt=""/></a>
 
 
 #### 4. Loopback test
  The following is the
-![](/img/products/w5500/w5500_evb/icons/link.png) [loopback test procedure of the 'Tinygecko' board + W5500
+<a target="_blank" href={require("/img/products/w5500/w5500_evb/icons/link.png").default}><img src={require("/img/products/w5500/w5500_evb/icons/link.png").default} alt=""/></a> [loopback test procedure of the 'Tinygecko' board + W5500
 chip](/osh/energymicro/tinygecko#loopback). (Network configuration
 information can vary among different firmware.)  
 Please progress the test in accordance with the following procedure.  
 If you need detailed figures, please refer to the next link.  
-![](/img/products/w5500/w5500_evb/icons/link.png) [loopback\_test\#TCP and
+<a target="_blank" href={require("/img/products/w5500/w5500_evb/icons/link.png").default}><img src={require("/img/products/w5500/w5500_evb/icons/link.png").default} alt=""/></a> [loopback\_test\#TCP and
 UDP loopback test](/osh/cookie/loopback_test#TCP%20and%20UDP%20loopback%20test)
 
 
@@ -110,11 +110,11 @@ wiz_NetInfo gWIZNETINFO = { .mac = {0x00, 0x08, 0xdc,0x00, 0xab, 0xcd}, //<-mac 
 
 W5500 EVB firmware project based on LPCXpresso IDE. For more details
 about LPCXpresso IDE, please refer to
-![](/img/link.png) [NXP LPCXpresso platform
+<a target="_blank" href={require("/img/link.png").default}><img src={require("/img/link.png").default} alt=""/></a> [NXP LPCXpresso platform
 page](http://www.lpcware.com/lpcxpresso).
 
 **LPCXpresso IDE Install & Activation Guide**
-![](/img/link.png) [How to Install and
+<a target="_blank" href={require("/img/link.png").default}><img src={require("/img/link.png").default} alt=""/></a> [How to Install and
 Activate LPCXpresso IDE](how_to_install_and_activate_lpcxpresso)
 
 **Download the Libraries and Application example source code for
@@ -136,7 +136,7 @@ after reset or power supply.
 
 Flash Magic is a program to perform in-system programming (ISP) of the
 LPC flash via its UART.  
-![](/img/products/w5500/w5500_evb/icons/link.png)['Flash Magic' download
+<a target="_blank" href={require("/img/products/w5500/w5500_evb/icons/link.png").default}><img src={require("/img/products/w5500/w5500_evb/icons/link.png").default} alt=""/></a>['Flash Magic' download
 page](http://www.flashmagictool.com/)
 
 
@@ -146,7 +146,7 @@ Set the settings on main window of Flash Magic program. It is easy to
 set along with each step.  
 The figure below shows the default configuration for W5500 EVB.
 
-![](/img/products/w5500/w5500_evb/figures/downloading_nxp_flashmagic_3_tempsensor_box.jpg)
+<a target="_blank" href={require("/img/products/w5500/w5500_evb/figures/downloading_nxp_flashmagic_3_tempsensor_box.jpg").default}><img src={require("/img/products/w5500/w5500_evb/figures/downloading_nxp_flashmagic_3_tempsensor_box.jpg").default} alt=""/></a>
 
 #### 4. Flash programming start
 
@@ -156,6 +156,6 @@ Press the 'Start' button on main window of Flash Magic program.
 
 After flash programming and board reset, The MCU is now running the
 program;  
-![](/img/products/w5500/w5500_evb/figures/downloading_serial_printout_on_terminal_tempsensor.jpg)
+<a target="_blank" href={require("/img/products/w5500/w5500_evb/figures/downloading_serial_printout_on_terminal_tempsensor.jpg").default}><img src={require("/img/products/w5500/w5500_evb/figures/downloading_serial_printout_on_terminal_tempsensor.jpg").default} alt=""/></a>
 
 -----

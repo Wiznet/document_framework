@@ -28,7 +28,7 @@ WIZwiki 보드는 TCP Server로 동작시킨다. W7500의 TOE (TCP/IP Offload En
 DHCP가 지원되는 공유기와 PC를 LAN 케이블로 연결한다. 공유기와 WIZwiki 보드를 LAN 케이블로 연결한다. PC와
 WIZwiki 보드를 USB 케이블로 연결한다.
 
-![](/img/products/wizwiki_mbed_kit/kit_kr/tcp_loopback_system_config.png)
+<a target="_blank" href={require("/img/products/wizwiki_mbed_kit/kit_kr/tcp_loopback_system_config.png").default}><img src={require("/img/products/wizwiki_mbed_kit/kit_kr/tcp_loopback_system_config.png").default} alt=""/></a>
 
 ## 소프트웨어
 
@@ -59,49 +59,49 @@ PC와 WIZwiki 보드를 USB 케이블로 연결한다. (보드에 전원이 공�
 PC에서 시리얼터미널 프로그램을 실행시킨다. WIZwiki 보드의 Reset 스위치를 눌러준 후에 메시지를 확인한다. DHCP가
 동작해서 Server의 IP 주소(ex: 192.168.0.8)가 할당되는 것을 볼 수 있다.
 
-![](/img/products/wizwiki_mbed_kit/kit_en/tcp_led_dhcp_1.jpg)
+<a target="_blank" href={require("/img/products/wizwiki_mbed_kit/kit_en/tcp_led_dhcp_1.jpg").default}><img src={require("/img/products/wizwiki_mbed_kit/kit_en/tcp_led_dhcp_1.jpg").default} alt=""/></a>
 
 PC에서 Hercules 프로그램을 구동한다. Hercules에서 TCP Client 메뉴를 설정한다. 접속하고자 하는
 Server의 IP 주소 (ex: 192.168.0.8)를 입력하고, Ping을 클릭하고, Connect를 클릭한 후의 모습이다.
 
-![](/img/products/wizwiki_mbed_kit/kit_kr/tcp_led_client_1.jpg)
+<a target="_blank" href={require("/img/products/wizwiki_mbed_kit/kit_kr/tcp_led_client_1.jpg").default}><img src={require("/img/products/wizwiki_mbed_kit/kit_kr/tcp_led_client_1.jpg").default} alt=""/></a>
 
 TCP Server 에서 출력하는 메시지를 Teraterm 에서 본 화면이다. PC의 Client에서 Server로
 Connection 되었음을 할 수 있다. (ex: Connection from: 192.168.0.6)
 
-![](/img/products/wizwiki_mbed_kit/kit_kr/tcp_led_server_1.jpg)
+<a target="_blank" href={require("/img/products/wizwiki_mbed_kit/kit_kr/tcp_led_server_1.jpg").default}><img src={require("/img/products/wizwiki_mbed_kit/kit_kr/tcp_led_server_1.jpg").default} alt=""/></a>
 이제부터 WIZwiki 보드에 LED를 제어해본다.
 
 PC의 TCP Client에서 **"LED\_ON"**이라는 메시지를 WIZwiki 보드 (TCP Server)로 보내면 LED가
 켜진다. 아래 그림에서 "LED\_ON" 부분의 Send 버튼을 클릭한다.
 
-![](/img/products/wizwiki_mbed_kit/kit_kr/tcp_led_on_client.jpg)
+<a target="_blank" href={require("/img/products/wizwiki_mbed_kit/kit_kr/tcp_led_on_client.jpg").default}><img src={require("/img/products/wizwiki_mbed_kit/kit_kr/tcp_led_on_client.jpg").default} alt=""/></a>
 
 이 LED\_ON 메시지는 TCP Server 측에서 Parsing이 되고, LED가 켜진다. 아래 그림에서 파란색 동그라미
 부분의 LED가 켜짐을 확인한다.
 
-![](/img/products/wizwiki_mbed_kit/kit_kr/tcp_led_on_off.png)
+<a target="_blank" href={require("/img/products/wizwiki_mbed_kit/kit_kr/tcp_led_on_off.png").default}><img src={require("/img/products/wizwiki_mbed_kit/kit_kr/tcp_led_on_off.png").default} alt=""/></a>
 
 LED가 켜지는 동작 이외에 다른 메시지도 표시된다. TCP Client 프로그램이 WIZwiki 보드에 메시지를 보내고,
 WIZwiki 보드가 메시지를 반대의 순서로 TCP Client로 보낸다.
 
 아래 그림과 같이 시리얼 포트로 Loopback 된 메시지를 확인한다.
 
-![](/img/products/wizwiki_mbed_kit/kit_kr/tcp_led_on_server.jpg)
+<a target="_blank" href={require("/img/products/wizwiki_mbed_kit/kit_kr/tcp_led_on_server.jpg").default}><img src={require("/img/products/wizwiki_mbed_kit/kit_kr/tcp_led_on_server.jpg").default} alt=""/></a>
 
 PC의 TCP Client에서 "LED\_ON"이 아닌 **"아무 메시지"**(ex: TEST)를 WIZwiki 보드 (TCP
 Server)로 보내면 LED가 꺼진다.
 
-![](/img/products/wizwiki_mbed_kit/kit_kr/tcp_led_off_client.jpg)
+<a target="_blank" href={require("/img/products/wizwiki_mbed_kit/kit_kr/tcp_led_off_client.jpg").default}><img src={require("/img/products/wizwiki_mbed_kit/kit_kr/tcp_led_off_client.jpg").default} alt=""/></a>
 
 LED가 꺼지는 동작 이외에 다른 메시지도 표시된다. TCP Client 프로그램이 WIZwiki 보드에 메시지를 보내고,
 WIZwiki 보드가 메시지를 반대의 순서로 TCP Client로 보낸다.
 
-![](/img/products/wizwiki_mbed_kit/kit_kr/tcp_led_off_server.jpg)
+<a target="_blank" href={require("/img/products/wizwiki_mbed_kit/kit_kr/tcp_led_off_server.jpg").default}><img src={require("/img/products/wizwiki_mbed_kit/kit_kr/tcp_led_off_server.jpg").default} alt=""/></a>
 
 아래 그림에서 파란색 동그라미 부분의 LED가 꺼짐을 확인한다.
 
-![](/img/products/wizwiki_mbed_kit/kit_kr/tcp_led_on_off.png)
+<a target="_blank" href={require("/img/products/wizwiki_mbed_kit/kit_kr/tcp_led_on_off.png").default}><img src={require("/img/products/wizwiki_mbed_kit/kit_kr/tcp_led_on_off.png").default} alt=""/></a>
 
 ## 학습 자료
 

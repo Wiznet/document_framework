@@ -12,7 +12,7 @@ board (that is than named WizFi250-H).
 The pin headers have a **distance** of exactly **17mm**.
 
 
-![](/img/products/wizfi250/wizfi250evbsch/wizfi250-h_footprint.png)
+<a target="_blank" href={require("/img/products/wizfi250/wizfi250evbsch/wizfi250-h_footprint.png").default}><img src={require("/img/products/wizfi250/wizfi250evbsch/wizfi250-h_footprint.png").default} alt=""/></a>
 
 - <a href="/img/products/wizfi250/wizfi250evbsch/wizfi250_evb_sch_v100_131224_.pdf" target="_blank">EVB Schematic(PDF)</a>
 - <a href="/img/products/wizfi250/wizfi250evbsch/wizfi250_evb_sch_v100_131224_.zip" target="_blank">EVB Schematic(Eagle CAD)</a>

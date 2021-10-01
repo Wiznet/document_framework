@@ -22,25 +22,25 @@ compiler.
 
   - Mouse right click in left side bar -\> New -\> select C Project
 
-![](/img/products/w5100s/w5100s_evb/true_tool_set1.png)
+<a target="_blank" href={require("/img/products/w5100s/w5100s_evb/true_tool_set1.png").default}><img src={require("/img/products/w5100s/w5100s_evb/true_tool_set1.png").default} alt=""/></a>
 
 2\. Select Embedded C Project
 
   - Write to the project name and click to 'next'  
-    ![](/img/products/w5100s/w5100s_evb/true_tool_set2.png)
+    <a target="_blank" href={require("/img/products/w5100s/w5100s_evb/true_tool_set2.png").default}><img src={require("/img/products/w5100s/w5100s_evb/true_tool_set2.png").default} alt=""/></a>
 
 3\. Select to STM32F1 -\> MCUs -\> STM32F103VC and click to 'next'  
 \* Select Thumb-2 and little Endian  
-![](/img/products/w5100s/w5100s_evb/initial_set2.png)
+<a target="_blank" href={require("/img/products/w5100s/w5100s_evb/initial_set2.png").default}><img src={require("/img/products/w5100s/w5100s_evb/initial_set2.png").default} alt=""/></a>
 
 4\. Select Newlib standard and click to 'next'  
-![](/img/products/w5100s/w5100s_evb/initial_set3.png)
+<a target="_blank" href={require("/img/products/w5100s/w5100s_evb/initial_set3.png").default}><img src={require("/img/products/w5100s/w5100s_evb/initial_set3.png").default} alt=""/></a>
 
 5\. Select ST-LINK Debug probe and click to 'next'  
-![](/img/products/w5100s/w5100s_evb/initial_set4.png)
+<a target="_blank" href={require("/img/products/w5100s/w5100s_evb/initial_set4.png").default}><img src={require("/img/products/w5100s/w5100s_evb/initial_set4.png").default} alt=""/></a>
 
 6\. Click to Finish  
-![](/img/products/w5100s/w5100s_evb/initial_set5.png)
+<a target="_blank" href={require("/img/products/w5100s/w5100s_evb/initial_set5.png").default}><img src={require("/img/products/w5100s/w5100s_evb/initial_set5.png").default} alt=""/></a>
 
 -----
 
@@ -71,45 +71,45 @@ as follows.
       - W5100SRelFunctions.h
 
 Download the libraries and projects for W5100S-EVB from
-![](/img/products/w5500/w5500_evb/icons/link.png)[W5100S-EVB GitHub
+<a target="_blank" href={require("/img/products/w5500/w5500_evb/icons/link.png").default}><img src={require("/img/products/w5500/w5500_evb/icons/link.png").default} alt=""/></a>[W5100S-EVB GitHub
 repository](https://github.com/Wiznet/W5100S-EVB). After downloading,
 import the required project libraries to your workspace.
 
 1\. Delete "main.c", "tiny\_printf.c", "stm32f1xx\_it.c",
 "stm32f1xx\_it.h" these files  
-![](/img/products/w5100s/w5100s_evb/true_tool_set3.png)
+<a target="_blank" href={require("/img/products/w5100s/w5100s_evb/true_tool_set3.png").default}><img src={require("/img/products/w5100s/w5100s_evb/true_tool_set3.png").default} alt=""/></a>
 
 2\. **Src folder** mouse right click -\> click to Import  
-![](/img/products/w5100s/w5100s_evb/true_tool_set4.png)
+<a target="_blank" href={require("/img/products/w5100s/w5100s_evb/true_tool_set4.png").default}><img src={require("/img/products/w5100s/w5100s_evb/true_tool_set4.png").default} alt=""/></a>
 
 3\. Select General -\> Archive File  
-![](/img/products/w5100s/w5100s_evb/true_tool_set5.png)
+<a target="_blank" href={require("/img/products/w5100s/w5100s_evb/true_tool_set5.png").default}><img src={require("/img/products/w5100s/w5100s_evb/true_tool_set5.png").default} alt=""/></a>
 
 4\. Select Library from Github repository  
-![](/img/products/w5100s/w5100s_evb/tools_set4.png)
+<a target="_blank" href={require("/img/products/w5100s/w5100s_evb/tools_set4.png").default}><img src={require("/img/products/w5100s/w5100s_evb/tools_set4.png").default} alt=""/></a>
 
 5\. check to import files as below picture  
 \* Until now we loaded library file lists.
 
   - Next, we will load folder lists.
 
-![](/img/products/w5100s/w5100s_evb/true_tool_set6.png)
+<a target="_blank" href={require("/img/products/w5100s/w5100s_evb/true_tool_set6.png").default}><img src={require("/img/products/w5100s/w5100s_evb/true_tool_set6.png").default} alt=""/></a>
 
 6\. Mouse right click to **Libraries folder** -\> click to Import  
-![](/img/products/w5100s/w5100s_evb/true_tool_set7.png)
+<a target="_blank" href={require("/img/products/w5100s/w5100s_evb/true_tool_set7.png").default}><img src={require("/img/products/w5100s/w5100s_evb/true_tool_set7.png").default} alt=""/></a>
 
 7\. Select General -\> Archive File  
-![](/img/products/w5100s/w5100s_evb/true_tool_set5.png)
+<a target="_blank" href={require("/img/products/w5100s/w5100s_evb/true_tool_set5.png").default}><img src={require("/img/products/w5100s/w5100s_evb/true_tool_set5.png").default} alt=""/></a>
 
 8\. Select Library from Github repository  
-![](/img/products/w5100s/w5100s_evb/tools_set4.png)
+<a target="_blank" href={require("/img/products/w5100s/w5100s_evb/tools_set4.png").default}><img src={require("/img/products/w5100s/w5100s_evb/tools_set4.png").default} alt=""/></a>
 
 9\. Check to import folders as below picture
 
   - Until now we loaded all files
   - It is done to import files
 
-![](/img/products/w5100s/w5100s_evb/true_tool_set8.png)
+<a target="_blank" href={require("/img/products/w5100s/w5100s_evb/true_tool_set8.png").default}><img src={require("/img/products/w5100s/w5100s_evb/true_tool_set8.png").default} alt=""/></a>
 
 -----
 
@@ -119,26 +119,26 @@ Next step we will do set to Build & General setting in properties. **It
 set must be necessary.**
 
 1\. Execute properties in the menu (click project -\> properties)
-![](/img/products/w5100s/w5100s_evb/true_tool_set9.png)
+<a target="_blank" href={require("/img/products/w5100s/w5100s_evb/true_tool_set9.png").default}><img src={require("/img/products/w5100s/w5100s_evb/true_tool_set9.png").default} alt=""/></a>
 
 2\. Click C/C++ Build tap -\> Settings -\> Tool Settings -\> Assembler
 -\> Symbols and adds defined symbols list as below picture  
-![](/img/products/w5100s/w5100s_evb/true_tool_set11.png)
+<a target="_blank" href={require("/img/products/w5100s/w5100s_evb/true_tool_set11.png").default}><img src={require("/img/products/w5100s/w5100s_evb/true_tool_set11.png").default} alt=""/></a>
 
 3\. As above action that adds defined symbols in C compiler Symbols as
 below picture  
-![](/img/products/w5100s/w5100s_evb/true_tool_set10.png)
+<a target="_blank" href={require("/img/products/w5100s/w5100s_evb/true_tool_set10.png").default}><img src={require("/img/products/w5100s/w5100s_evb/true_tool_set10.png").default} alt=""/></a>
 
 4\. And Click Other tap-\> Output format and check to Convert build
 output as below picture
-![](/img/products/w5100s/w5100s_evb/true_tool_set12.png)
+<a target="_blank" href={require("/img/products/w5100s/w5100s_evb/true_tool_set12.png").default}><img src={require("/img/products/w5100s/w5100s_evb/true_tool_set12.png").default} alt=""/></a>
 
 5\. Next, Click C/C+ General tap -\> Paths and Symbols -\> includes -\>
 GNU C and adds include directories list as below picture
-![](/img/products/w5100s/w5100s_evb/true_tool_set13.png)
+<a target="_blank" href={require("/img/products/w5100s/w5100s_evb/true_tool_set13.png").default}><img src={require("/img/products/w5100s/w5100s_evb/true_tool_set13.png").default} alt=""/></a>
 
 6\. As above action that adds include directories in S,s,asm section as
-below picture ![](/img/products/w5100s/w5100s_evb/true_tool_set14.png)
+below picture <a target="_blank" href={require("/img/products/w5100s/w5100s_evb/true_tool_set14.png").default}><img src={require("/img/products/w5100s/w5100s_evb/true_tool_set14.png").default} alt=""/></a>
 
 -----
 
@@ -150,7 +150,7 @@ Users should be modified to stm32f10x.h as below picture.
   - **"\#define HSE\_VALUE ((uint32\_t)8000000)" -\> "\#define
     HSE\_VALUE ((uint32\_t)12000000)"**
 
-![](/img/products/w5100s/w5100s_evb/true_tool_set15.png)
+<a target="_blank" href={require("/img/products/w5100s/w5100s_evb/true_tool_set15.png").default}><img src={require("/img/products/w5100s/w5100s_evb/true_tool_set15.png").default} alt=""/></a>
 
 -----
 
@@ -159,10 +159,10 @@ Users should be modified to stm32f10x.h as below picture.
 Before Complete, Users should check build project
 
 1\. Project mouse right click -\> Click clean project
-![](/img/products/w5100s/w5100s_evb/true_tool_set16.png)
+<a target="_blank" href={require("/img/products/w5100s/w5100s_evb/true_tool_set16.png").default}><img src={require("/img/products/w5100s/w5100s_evb/true_tool_set16.png").default} alt=""/></a>
 
 2\. Project mouse right click -\> Click project build
-![](/img/products/w5100s/w5100s_evb/true_tool_set17.png)
+<a target="_blank" href={require("/img/products/w5100s/w5100s_evb/true_tool_set17.png").default}><img src={require("/img/products/w5100s/w5100s_evb/true_tool_set17.png").default} alt=""/></a>
 
 From now on, you can make your own application project based on the
 newly created project for W5100S-EVB\!  

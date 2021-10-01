@@ -64,7 +64,7 @@ How to update the Ethernet library.
     Library... -\> Add Library..." in Aruino IDE, and select the folder
     loacation. and then, you can see the new directory in your "My
     Document/Arduino/libraries/".\</del\>
-    ![](/img/osh/ioshield-a/cap_2013-08-27_11-10-53-747.png) 
+    <a target="_blank" href={require("/img/osh/ioshield-a/cap_2013-08-27_11-10-53-747.png").default}><img src={require("/img/osh/ioshield-a/cap_2013-08-27_11-10-53-747.png").default} alt=""/></a> 
 
 ## Change code depending WIZnet chip, W5100, W5200 or W5500
 
@@ -100,7 +100,7 @@ typedef uint8_t SOCKET;
 Now you are ready to go to "File -\> Example -\> Ethernet", and select
 examples what you want. There are many simple examples in Ethernet
 Library Folder as like
-![](/img/osh/ioshield-a/cap_2013-08-26_15-51-17-988.png)
+<a target="_blank" href={require("/img/osh/ioshield-a/cap_2013-08-26_15-51-17-988.png").default}><img src={require("/img/osh/ioshield-a/cap_2013-08-26_15-51-17-988.png").default} alt=""/></a>
 
 -----
 

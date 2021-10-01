@@ -21,7 +21,7 @@ Main system consists of:
     * Four AHB dedicated to 16-bit GPIOs
     * TCP/IP Hardware core
 
-![w7500p_system_architecture](/img/products/w7500p/w7500p_system_architecture.jpg)
+<a target="_blank" href={require("/img/products/w7500p/w7500p_system_architecture.jpg").default}><img src={require("/img/products/w7500p/w7500p_system_architecture.jpg").default} alt="w7500p_system_architecture"/></a>
 
 AHB-Lite BUS
 
@@ -40,7 +40,7 @@ The bytes are coded in memory in Little Endian format. The lowest numbered byte 
 
 ### Memory map
 
-![w7500_memory_map](/img/products/w7500/memory_map.png)
+<a target="_blank" href={require("/img/products/w7500/memory_map.png").default}><img src={require("/img/products/w7500/memory_map.png").default} alt="w7500_memory_map"/></a>
 
 
 ## System Configuration Controller (SYSCFG)

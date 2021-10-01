@@ -22,11 +22,11 @@ ADC를 이용해서 아날로그 온도 센서 값을 읽어내는 예제이다.
 ### 회로도
 
 전체 회로도는 아래와 같다.
-![](/img/products/wizwiki_mbed_kit/kit_en/cds_sensor_schem.png)
+<a target="_blank" href={require("/img/products/wizwiki_mbed_kit/kit_en/cds_sensor_schem.png").default}><img src={require("/img/products/wizwiki_mbed_kit/kit_en/cds_sensor_schem.png").default} alt=""/></a>
 
 ### 연결도
 
-![](/img/products/wizwiki_mbed_kit/kit_en/exam_cds_sensor.png)
+<a target="_blank" href={require("/img/products/wizwiki_mbed_kit/kit_en/exam_cds_sensor.png").default}><img src={require("/img/products/wizwiki_mbed_kit/kit_en/exam_cds_sensor.png").default} alt=""/></a>
 
 ## 소프트웨어
 
@@ -71,7 +71,7 @@ int main(void)
 
 다음은 예제의 실행 화면이다. 섭씨와 화씨 온도 값이 번갈아 보인다.
 
-![](/img/products/wizwiki_mbed_kit/kit_en/temp_sensor_result.jpg)
+<a target="_blank" href={require("/img/products/wizwiki_mbed_kit/kit_en/temp_sensor_result.jpg").default}><img src={require("/img/products/wizwiki_mbed_kit/kit_en/temp_sensor_result.jpg").default} alt=""/></a>
 
 ## 학습 자료
 

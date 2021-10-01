@@ -9,8 +9,8 @@ date: 2020-04-03
 
 ## Pin Layout
 ### W7500 Pin Layout
-<!---![GH-pages](/static/img/products/w7500/w7500_chip.png)--->
-![pin layout](/img/products/w7500/2_w7500_pin_layout.png)
+<!---<a target="_blank" href={require("/static/img/products/w7500/w7500_chip.png").default}><img src={require("/static/img/products/w7500/w7500_chip.png").default} alt="GH-pages"/></a>--->
+<a target="_blank" href={require("/img/products/w7500/2_w7500_pin_layout.png").default}><img src={require("/img/products/w7500/2_w7500_pin_layout.png").default} alt="pin layout"/></a>
 ## Pin Description
 
 

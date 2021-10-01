@@ -13,7 +13,7 @@ transmit data to various cloud services via MQTT over SSL.
 
 |                                                                |
 | -------------------------------------------------------------- |
-| ![](/img/products/wiz510ssl/datasheet/S2C_1.png) |
+| <a target="_blank" href={require("/img/products/wiz510ssl/datasheet/S2C_1.png").default}><img src={require("/img/products/wiz510ssl/datasheet/S2C_1.png").default} alt=""/></a> |
 | Figure: W510SSL Product Overview                              |
 
 WIZ510SSL is WIZnet’s first serial to cloud module, composed of W5100S and STM Cortex M33, can connect to all 3 major IoT cloud services –
@@ -37,7 +37,7 @@ WIZ510SSL is projected to be both price competitive (30% cheaper in average) and
 
 ### Cloud connectivity
 
-![](/img/products/wiz510ssl/datasheet/S2C_2.png)
+<a target="_blank" href={require("/img/products/wiz510ssl/datasheet/S2C_2.png").default}><img src={require("/img/products/wiz510ssl/datasheet/S2C_2.png").default} alt=""/></a>
 
 - Supports 3 main IoT Service: AWS, AZURE, GCP
 - AWS FreeRTOS + CLI (AWS FreeRTOS Qualified)​
@@ -49,15 +49,15 @@ WIZ510SSL is projected to be both price competitive (30% cheaper in average) and
 
 ## Product Contents
 
-![](/img/products/wiz510ssl/getting_started/wiz510ssl-evb_package.png)  
+<a target="_blank" href={require("/img/products/wiz510ssl/getting_started/wiz510ssl-evb_package.png").default}><img src={require("/img/products/wiz510ssl/getting_started/wiz510ssl-evb_package.png").default} alt=""/></a>  
 
 **WIZ510SSL-EVB Package** 
 
-![](/img/products/wiz510ssl/datasheet/W510SSL_angle.png)
+<a target="_blank" href={require("/img/products/wiz510ssl/datasheet/W510SSL_angle.png").default}><img src={require("/img/products/wiz510ssl/datasheet/W510SSL_angle.png").default} alt=""/></a>
 
 **WIZ510SSL**
 
-![](/img/products/wiz510ssl/wiz510ssl-evb/wiz510sslevb_sideview.png)
+<a target="_blank" href={require("/img/products/wiz510ssl/wiz510ssl-evb/wiz510sslevb_sideview.png").default}><img src={require("/img/products/wiz510ssl/wiz510ssl-evb/wiz510sslevb_sideview.png").default} alt=""/></a>
 
 **WIZ510SSL-EVB**
 

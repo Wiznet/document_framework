@@ -29,7 +29,7 @@ date: 2020-04-15
    * RJ45(Integrated Transformer)
    * 2.54mm Header x2
 
-![](/img/products/wiz550s2e/wiz550s2eds/wiz550s2e_pin.jpg)
+<a target="_blank" href={require("/img/products/wiz550s2e/wiz550s2eds/wiz550s2e_pin.jpg").default}><img src={require("/img/products/wiz550s2e/wiz550s2eds/wiz550s2e_pin.jpg").default} alt=""/></a>
 
 ### Pin Description
 
@@ -67,8 +67,8 @@ date: 2020-04-15
    * 상태 LED들
    * DC 전원 단자 (+5V 전원 입력용)
 
-![](/img/products/wiz550s2e/wiz550s2eds/rs232if_pin_20140729.jpg)
-![](/img/products/wiz550s2e/wiz550s2eds/크기변환_wiz550s2e-232-evb.png)
+<a target="_blank" href={require("/img/products/wiz550s2e/wiz550s2eds/rs232if_pin_20140729.jpg").default}><img src={require("/img/products/wiz550s2e/wiz550s2eds/rs232if_pin_20140729.jpg").default} alt=""/></a>
+<a target="_blank" href={require("/img/products/wiz550s2e/wiz550s2eds/크기변환_wiz550s2e-232-evb.png").default}><img src={require("/img/products/wiz550s2e/wiz550s2eds/크기변환_wiz550s2e-232-evb.png").default} alt=""/></a>
 
 -----
 
@@ -81,8 +81,8 @@ date: 2020-04-15
    * 상태 LED들
    * DC 전원 단자 (+5V 전원 입력용)
 
-![](/img/products/wiz550s2e/wiz550s2eds/rs485-422if_pin_20140729.jpg)
-![](/img/products/wiz550s2e/wiz550s2eds/크기변환_wiz550s2e-485-evb.png)
+<a target="_blank" href={require("/img/products/wiz550s2e/wiz550s2eds/rs485-422if_pin_20140729.jpg").default}><img src={require("/img/products/wiz550s2e/wiz550s2eds/rs485-422if_pin_20140729.jpg").default} alt=""/></a>
+<a target="_blank" href={require("/img/products/wiz550s2e/wiz550s2eds/크기변환_wiz550s2e-485-evb.png").default}><img src={require("/img/products/wiz550s2e/wiz550s2eds/크기변환_wiz550s2e-485-evb.png").default} alt=""/></a>
 
 -----
 # Characteristic
@@ -123,7 +123,7 @@ date: 2020-04-15
 
   - Rev 1.1/1.2 Update Schematic
 
-![](/img/products/wiz550s2e/wiz550s2e_rev_point.png)
+<a target="_blank" href={require("/img/products/wiz550s2e/wiz550s2e_rev_point.png").default}><img src={require("/img/products/wiz550s2e/wiz550s2e_rev_point.png").default} alt=""/></a>
 
 -----
 # Dimension
@@ -132,18 +132,18 @@ date: 2020-04-15
 
 ## WIZ550S2E
 
-![](/img/products/wiz550s2e/wiz550s2eds/wiz550s2e_dimension.jpg)
+<a target="_blank" href={require("/img/products/wiz550s2e/wiz550s2eds/wiz550s2e_dimension.jpg").default}><img src={require("/img/products/wiz550s2e/wiz550s2eds/wiz550s2e_dimension.jpg").default} alt=""/></a>
 
 -----
 
 ## WIZ550S2E-232 인터페이스 보드
 
-![](/img/products/wiz550s2e/wiz550s2eds/rs232if_dimension.jpg)
+<a target="_blank" href={require("/img/products/wiz550s2e/wiz550s2eds/rs232if_dimension.jpg").default}><img src={require("/img/products/wiz550s2e/wiz550s2eds/rs232if_dimension.jpg").default} alt=""/></a>
 
 -----
 
 ## WIZ550S2E-485/422 인터페이스 보드
 
-![](/img/products/wiz550s2e/wiz550s2eds/rs485-422if_dimension.jpg)
+<a target="_blank" href={require("/img/products/wiz550s2e/wiz550s2eds/rs485-422if_dimension.jpg").default}><img src={require("/img/products/wiz550s2e/wiz550s2eds/rs485-422if_dimension.jpg").default} alt=""/></a>
 
 -----

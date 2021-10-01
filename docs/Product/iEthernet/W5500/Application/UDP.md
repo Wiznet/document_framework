@@ -91,7 +91,7 @@ host retransmits damaged data or ignores the unwanted data which is
 received from others. The UDP protocol supports unicast, broadcast, and
 multicast communication. It follows the below communication flow.
 
-![UDP Operation Flow](/img/products/w5500/application/udp_flow.jpg)
+<a target="_blank" href={require("/img/products/w5500/application/udp_flow.jpg").default}><img src={require("/img/products/w5500/application/udp_flow.jpg").default} alt="UDP Operation Flow"/></a>
 
 
 ### Unicast and Broadcast
@@ -181,7 +181,7 @@ if (Sn_RX_RSR0 != 0x0000) goto Receiving Process stage;
 Process the received UDP data in Internal RX memory.  
 The structure of received UDP data is as below.
 
-![The Received UDP data format](/img/products/w5500/application/received_udp_data.jpg)
+<a target="_blank" href={require("/img/products/w5500/application/received_udp_data.jpg").default}><img src={require("/img/products/w5500/application/received_udp_data.jpg").default} alt="The Received UDP data format"/></a>
 
 The received UDP data consists of 8bytes PACKET-INFO, and DATA packet.
 The PACKETINFO contains transmitter’s information (IP address, Port

@@ -14,7 +14,7 @@ Feature Identification
 
 ---
 
-![](/img/products/wizfi310/wizfi310-evb_guide.png)
+<a target="_blank" href={require("/img/products/wizfi310/wizfi310-evb_guide.png").default}><img src={require("/img/products/wizfi310/wizfi310-evb_guide.png").default} alt=""/></a>
 
 #### Button Description
 
@@ -55,7 +55,7 @@ Feature Identification
 
 This chapter describes how to set WizFi310 in order to exchange data with peer system. This picture shows the environment for testing Serial to Wi-Fi example. In this example, WizFi310 is set to TCP server and peer system is set to TCP client. And then data can be exchanged between WizFi310 and the peer system.
 
-![](/img/products/wizfi310/quick_start_guide_2.png)
+<a target="_blank" href={require("/img/products/wizfi310/quick_start_guide_2.png").default}><img src={require("/img/products/wizfi310/quick_start_guide_2.png").default} alt=""/></a>
 
 #### Using Serial Command
 
@@ -94,7 +94,7 @@ In order to exit data mode or enter into command mode again, You have to send a 
 This section explains how to exchange data between WizFi310 and Peer System.
 This picture describes the flow for data communication.
 
-![](/img/products/wizfi310/quick_start_guide_3.png)
+<a target="_blank" href={require("/img/products/wizfi310/quick_start_guide_3.png").default}><img src={require("/img/products/wizfi310/quick_start_guide_3.png").default} alt=""/></a>
 
 After TCP connection is done successfully and then if WizFi310 receives serial data, the serial data will be sent to peer system immediately. And WizFi310 can receive data from peer system.
-![](/img/products/wizfi310/quick_start_guide_4.png)
+<a target="_blank" href={require("/img/products/wizfi310/quick_start_guide_4.png").default}><img src={require("/img/products/wizfi310/quick_start_guide_4.png").default} alt=""/></a>

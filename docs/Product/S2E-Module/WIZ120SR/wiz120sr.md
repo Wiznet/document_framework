@@ -6,7 +6,7 @@ date: 2021-07-22
 
 ## Overview
 
-![](/img/products/wiz120sr/wiz12sr-1.jpg)
+<a target="_blank" href={require("/img/products/wiz120sr/wiz12sr-1.jpg").default}><img src={require("/img/products/wiz120sr/wiz12sr-1.jpg").default} alt=""/></a>
 
 WIZ120SR is an embedded module based on WIZnet W5100 &  ARM Cortex-M3. WIZ120SR is the protocol converter that transmits the data sent by serial equipment as TCP/IP data type, and converts back the TCP/IP data received through the network into serial data to transmit back to the equipment. It supports two serial ports(3.3V LVTTL) so that it can communicate with two serial equipments at the same time.
 
@@ -36,7 +36,7 @@ WIZ120SR is an embedded module based on WIZnet W5100 &  ARM Cortex-M3. WIZ120SR 
 
 ## Pin Assignment
 
-![](/img/products/wiz120sr/pinmap1.jpg)
+<a target="_blank" href={require("/img/products/wiz120sr/pinmap1.jpg").default}><img src={require("/img/products/wiz120sr/pinmap1.jpg").default} alt=""/></a>
 
 ## Download
 

@@ -7,7 +7,7 @@ date: 2020-04-03
 # W5100S
 
 
-![](/img/products/w5100s/w5100s_pm.png)
+<a target="_blank" href={require("/img/products/w5100s/w5100s_pm.png").default}><img src={require("/img/products/w5100s/w5100s_pm.png").default} alt=""/></a>
 
 W5100S is an embedded Internet controller designed as a full hardwired
 TCP/IP with WIZnet technology. W5100S provides internet connectivity to
@@ -34,13 +34,13 @@ W5100S is a low-cost chip that exceeds its predecessor, W5100. Existing
 firmware using W5100 can be used on W5100S without modification. W5100S
 has two types of packages, 48 Pin LQFP & QFN Lead-Free Package.
 
-![W5100S Block diagram](/img/products/w5100s/w5100s_diagram.png)
+<a target="_blank" href={require("/img/products/w5100s/w5100s_diagram.png").default}><img src={require("/img/products/w5100s/w5100s_diagram.png").default} alt="W5100S Block diagram"/></a>
 
 -----
 
 
 ## Pin MAP
-![W5100S Pin map](/img/products/w5100s/w5100s_pinmap.png)
+<a target="_blank" href={require("/img/products/w5100s/w5100s_pinmap.png").default}><img src={require("/img/products/w5100s/w5100s_pinmap.png").default} alt="W5100S Pin map"/></a>
 
 -----
 

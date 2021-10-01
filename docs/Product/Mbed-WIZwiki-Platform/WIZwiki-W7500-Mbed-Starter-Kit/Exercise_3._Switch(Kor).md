@@ -25,13 +25,13 @@ date: 2020-04-08
 
 전체 회로도는 아래와 같다.
 
-![Button and LED](/img/products/wizwiki_mbed_kit/kit_en/button_led_scheme.png)
+<a target="_blank" href={require("/img/products/wizwiki_mbed_kit/kit_en/button_led_scheme.png").default}><img src={require("/img/products/wizwiki_mbed_kit/kit_en/button_led_scheme.png").default} alt="Button and LED"/></a>
 
 실습에 사용할 LED는 WIZwiki 보드에 장착되어 있으며, 아래 회로도에서 빨간색으로 표시된 부분이다. !🌎[RGB LED](/img/products/wizwiki_mbed_kit/kit_en/3_board_led.png)
 
 ### 연결도
 
-![](/img/products/wizwiki_mbed_kit/kit_en/3_board_all.png)
+<a target="_blank" href={require("/img/products/wizwiki_mbed_kit/kit_en/3_board_all.png").default}><img src={require("/img/products/wizwiki_mbed_kit/kit_en/3_board_all.png").default} alt=""/></a>
 
 ## 소프트웨어
 ### Example Code

@@ -14,11 +14,11 @@ To download the MDK-ARM installer, go to the following link.
 
 Fill the form and submit.
 
-![](/img/products/wiz750sr/developers/mdk-arm/1-mdk_arm.png)
+<a target="_blank" href={require("/img/products/wiz750sr/developers/mdk-arm/1-mdk_arm.png").default}><img src={require("/img/products/wiz750sr/developers/mdk-arm/1-mdk_arm.png").default} alt=""/></a>
 
 Once submitted, you will be taken to the download page.
 
-![](/img/products/wiz750sr/developers/mdk-arm/1-download.png)
+<a target="_blank" href={require("/img/products/wiz750sr/developers/mdk-arm/1-download.png").default}><img src={require("/img/products/wiz750sr/developers/mdk-arm/1-download.png").default} alt=""/></a>
 
 Download the installer file(MDK525.EXE). (About 860MB)
 
@@ -29,12 +29,12 @@ Download the installer file(MDK525.EXE). (About 860MB)
 Run the downloaded file to proceed the installation. You can install it
 with the default settings.
 
-![](/img/products/wiz750sr/developers/mdk-arm/keil_install-01.png)
-![](/img/products/wiz750sr/developers/mdk-arm/keil_install-02.png)
-![](/img/products/wiz750sr/developers/mdk-arm/keil_install-03.png)
-![](/img/products/wiz750sr/developers/mdk-arm/keil_install-04.png)
-![](/img/products/wiz750sr/developers/mdk-arm/keil_install-05.png)
-![](/img/products/wiz750sr/developers/mdk-arm/keil_install-fin.png)
+<a target="_blank" href={require("/img/products/wiz750sr/developers/mdk-arm/keil_install-01.png").default}><img src={require("/img/products/wiz750sr/developers/mdk-arm/keil_install-01.png").default} alt=""/></a>
+<a target="_blank" href={require("/img/products/wiz750sr/developers/mdk-arm/keil_install-02.png").default}><img src={require("/img/products/wiz750sr/developers/mdk-arm/keil_install-02.png").default} alt=""/></a>
+<a target="_blank" href={require("/img/products/wiz750sr/developers/mdk-arm/keil_install-03.png").default}><img src={require("/img/products/wiz750sr/developers/mdk-arm/keil_install-03.png").default} alt=""/></a>
+<a target="_blank" href={require("/img/products/wiz750sr/developers/mdk-arm/keil_install-04.png").default}><img src={require("/img/products/wiz750sr/developers/mdk-arm/keil_install-04.png").default} alt=""/></a>
+<a target="_blank" href={require("/img/products/wiz750sr/developers/mdk-arm/keil_install-05.png").default}><img src={require("/img/products/wiz750sr/developers/mdk-arm/keil_install-05.png").default} alt=""/></a>
+<a target="_blank" href={require("/img/products/wiz750sr/developers/mdk-arm/keil_install-fin.png").default}><img src={require("/img/products/wiz750sr/developers/mdk-arm/keil_install-fin.png").default} alt=""/></a>
 
 -----
 
@@ -50,20 +50,20 @@ administrator.**</span>
 
 Go to the 'File' - 'License Management'.
 
-![](/img/products/wiz750sr/developers/mdk-arm/license-00.png)
+<a target="_blank" href={require("/img/products/wiz750sr/developers/mdk-arm/license-00.png").default}><img src={require("/img/products/wiz750sr/developers/mdk-arm/license-00.png").default} alt=""/></a>
 
 Click the ‘Get LIC via Internet...’ button.
 
-![](/img/products/wiz750sr/developers/mdk-arm/license-01.png)
+<a target="_blank" href={require("/img/products/wiz750sr/developers/mdk-arm/license-01.png").default}><img src={require("/img/products/wiz750sr/developers/mdk-arm/license-01.png").default} alt=""/></a>
 
 Clicking the OK button will take you to the license registration page.
 
-![](/img/products/wiz750sr/developers/mdk-arm/license-02.png)
+<a target="_blank" href={require("/img/products/wiz750sr/developers/mdk-arm/license-02.png").default}><img src={require("/img/products/wiz750sr/developers/mdk-arm/license-02.png").default} alt=""/></a>
 
 Enter the required information with product serial number(PSN) and
 submit it.
 
-![](/img/products/wiz750sr/developers/mdk-arm/license_psn.png)
+<a target="_blank" href={require("/img/products/wiz750sr/developers/mdk-arm/license_psn.png").default}><img src={require("/img/products/wiz750sr/developers/mdk-arm/license_psn.png").default} alt=""/></a>
 
 If the registration is complete, you **will receive an LIC(License ID
 Code) by e-mail.**
@@ -79,7 +79,7 @@ Enter LIC in 'New License ID Code (LIC)' field and press 'Add LIC'
 button. If registered successfully, product information is displayed in
 the upper list.
 
-![](/img/products/wiz750sr/developers/mdk-arm/resiger_final.png)
+<a target="_blank" href={require("/img/products/wiz750sr/developers/mdk-arm/resiger_final.png").default}><img src={require("/img/products/wiz750sr/developers/mdk-arm/resiger_final.png").default} alt=""/></a>
 
 Your license registration is complete\!
 
@@ -95,11 +95,11 @@ Legacy Support Download page](http://www2.keil.com/mdk5/legacy)
 
 (MDKCM524.EXE, about 350MB)
 
-![](/img/products/wiz750sr/developers/mdk-arm/legacy-01.png)
-![](/img/products/wiz750sr/developers/mdk-arm/legacy-02.png)
-![](/img/products/wiz750sr/developers/mdk-arm/legacy-03.png)
-![](/img/products/wiz750sr/developers/mdk-arm/legacy-04.png)
-![](/img/products/wiz750sr/developers/mdk-arm/legacy-05.png)
+<a target="_blank" href={require("/img/products/wiz750sr/developers/mdk-arm/legacy-01.png").default}><img src={require("/img/products/wiz750sr/developers/mdk-arm/legacy-01.png").default} alt=""/></a>
+<a target="_blank" href={require("/img/products/wiz750sr/developers/mdk-arm/legacy-02.png").default}><img src={require("/img/products/wiz750sr/developers/mdk-arm/legacy-02.png").default} alt=""/></a>
+<a target="_blank" href={require("/img/products/wiz750sr/developers/mdk-arm/legacy-03.png").default}><img src={require("/img/products/wiz750sr/developers/mdk-arm/legacy-03.png").default} alt=""/></a>
+<a target="_blank" href={require("/img/products/wiz750sr/developers/mdk-arm/legacy-04.png").default}><img src={require("/img/products/wiz750sr/developers/mdk-arm/legacy-04.png").default} alt=""/></a>
+<a target="_blank" href={require("/img/products/wiz750sr/developers/mdk-arm/legacy-05.png").default}><img src={require("/img/products/wiz750sr/developers/mdk-arm/legacy-05.png").default} alt=""/></a>
 
 Done\!
 
@@ -117,11 +117,11 @@ Run the Keil uVision5.
 
 Go to the 'Project - Open Project...' of Menu.
 
-![](/img/products/wiz750sr/developers/mdk-arm/open_project.png)
+<a target="_blank" href={require("/img/products/wiz750sr/developers/mdk-arm/open_project.png").default}><img src={require("/img/products/wiz750sr/developers/mdk-arm/open_project.png").default} alt=""/></a>
 
 and open the project file(**W7500x\_S2E.uvproj**) from
 **WIZ750SR/Project/S2E\_App** path.
 
-![](/img/products/wiz750sr/developers/mdk-arm/project_path.png)
+<a target="_blank" href={require("/img/products/wiz750sr/developers/mdk-arm/project_path.png").default}><img src={require("/img/products/wiz750sr/developers/mdk-arm/project_path.png").default} alt=""/></a>
 
 -----

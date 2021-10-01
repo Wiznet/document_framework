@@ -22,7 +22,7 @@ The ioLibrary means **"Internet Offload Library"** for WIZnet chip. It includes 
 
 This driver provides the Berkeley Socket type APIs. The function names of this ioLibrary\_BSD are the same as the function names of the ioLibrary.
 
-  - Directory Structure ![](/img/products/w5500/iolibrary_bsd.jpg)
+  - Directory Structure <a target="_blank" href={require("/img/products/w5500/iolibrary_bsd.jpg").default}><img src={require("/img/products/w5500/iolibrary_bsd.jpg").default} alt=""/></a>
       - Ethernet : SOCKET APIs like BSD & WIZCHIP(W5500,W5200 and etc)
         Driver
       - Internet : 
@@ -564,7 +564,7 @@ Please refer to this link for more details.
 
 The figure below shows the folder structure of this ioLibrary.
 
-   ![](/img/products/w5500/folder.jpg)
+   <a target="_blank" href={require("/img/products/w5500/folder.jpg").default}><img src={require("/img/products/w5500/folder.jpg").default} alt=""/></a>
    
    -----
    

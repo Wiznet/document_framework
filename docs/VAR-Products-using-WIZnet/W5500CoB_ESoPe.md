@@ -11,8 +11,8 @@ I/F is free available. The vertical RJ45 for Top side connection.
 The **W5500CoB** Module is made by German company
 **[ESoPe](http://esope.de/)**.  
 Here pictures of Top and Bottom side:  
-![](/img/var_products/third_party/w5500cob_top_002.jpg)
-![](/img/var_products/third_party/w5500cob_bottom_001.jpg)  
+<a target="_blank" href={require("/img/var_products/third_party/w5500cob_top_002.jpg").default}><img src={require("/img/var_products/third_party/w5500cob_top_002.jpg").default} alt=""/></a>
+<a target="_blank" href={require("/img/var_products/third_party/w5500cob_bottom_001.jpg").default}><img src={require("/img/var_products/third_party/w5500cob_bottom_001.jpg").default} alt=""/></a>  
   
 The **schematic** is here:  
 [Download](/img/var_products/third_party/esope_w5500cob_v1.pdf)

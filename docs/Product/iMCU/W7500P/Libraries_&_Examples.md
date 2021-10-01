@@ -13,7 +13,7 @@ Only source files are provided for each example and user can tailor the provided
 
   - Directory Structure
   
-![Fig.directory_structure](/img/products/w7500/iolib_directory.png)
+<a target="_blank" href={require("/img/products/w7500/iolib_directory.png").default}><img src={require("/img/products/w7500/iolib_directory.png").default} alt="Fig.directory_structure"/></a>
 
   - ioLibrary
     - Application

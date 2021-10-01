@@ -8,7 +8,7 @@ date: 2020-04-08
    * [English](Getting_Started-EN)  
    * [Korean](Getting_Started-KO) (current page)
 
-![](/img/products/wiz750sr/docs_icon.png)
+<a target="_blank" href={require("/img/products/wiz750sr/docs_icon.png").default}><img src={require("/img/products/wiz750sr/docs_icon.png").default} alt=""/></a>
 
 -----
 
@@ -22,7 +22,7 @@ date: 2020-04-08
 
 |                                                                              |
 | ---------------------------------------------------------------------------- |
-| ![](/img/products/wiz750sr/gettingstarted/wiz750sr-ttl-evb_package_1024x858.jpg) |
+| <a target="_blank" href={require("/img/products/wiz750sr/gettingstarted/wiz750sr-ttl-evb_package_1024x858.jpg").default}><img src={require("/img/products/wiz750sr/gettingstarted/wiz750sr-ttl-evb_package_1024x858.jpg").default} alt=""/></a> |
 | Figure: ***WIZ750SR Rev. 1.1 개발 보드 패키지***                                    |
 
 WIZ750SR-RS232 개발 보드 패키지는 다음과 같이 구성되어 있습니다.
@@ -39,12 +39,12 @@ Contents](/overview-KO#product-contents) 페이지에서 확인 하실 수
 
 |                                                                          |
 | ------------------------------------------------------------------------ |
-| ![](/img/products/wiz750sr/gettingstarted/wiz750sr_top_parts_rev1.2.png) |
+| <a target="_blank" href={require("/img/products/wiz750sr/gettingstarted/wiz750sr_top_parts_rev1.2.png").default}><img src={require("/img/products/wiz750sr/gettingstarted/wiz750sr_top_parts_rev1.2.png").default} alt=""/></a> |
 | Figure: ***WIZ750SR Revision 1.1 전면부***                                  |
 
 |                                                                             |
 | --------------------------------------------------------------------------- |
-| ![](/img/products/wiz750sr/gettingstarted/wiz750sr_bottom_parts_rev1.2.png) |
+| <a target="_blank" href={require("/img/products/wiz750sr/gettingstarted/wiz750sr_bottom_parts_rev1.2.png").default}><img src={require("/img/products/wiz750sr/gettingstarted/wiz750sr_bottom_parts_rev1.2.png").default} alt=""/></a> |
 | Figure: ***WIZ750SR Revision 1.1 후면부***                                     |
 
 ### Parts
@@ -209,12 +209,12 @@ WIZ750SR 모듈과 개발보드를 아래 그림과 같이 결합한 후, 박스
 
 |                                                                        |
 | ---------------------------------------------------------------------- |
-| ![](/img/products/wiz750sr/gettingstarted/wiz750sr-ttl-evb_1_1024x816.png) |
+| <a target="_blank" href={require("/img/products/wiz750sr/gettingstarted/wiz750sr-ttl-evb_1_1024x816.png").default}><img src={require("/img/products/wiz750sr/gettingstarted/wiz750sr-ttl-evb_1_1024x816.png").default} alt=""/></a> |
 | Figure: **WIZ750SR 모듈과 개발보드 결합**                                       |
 
 |                                                                        |
 | ---------------------------------------------------------------------- |
-| ![](/img/products/wiz750sr/gettingstarted/wiz750sr-ttl-evb_2_1024x816.png) |
+| <a target="_blank" href={require("/img/products/wiz750sr/gettingstarted/wiz750sr-ttl-evb_2_1024x816.png").default}><img src={require("/img/products/wiz750sr/gettingstarted/wiz750sr-ttl-evb_2_1024x816.png").default} alt=""/></a> |
 | Figure: **WIZ750SR-EVB 측면부**                                           |
 
 #### Step 2: Power on
@@ -236,7 +236,7 @@ PC의 Configuration tool을 실행하여 상단 Search 버튼을 클릭합니다
 
 |                                                       |
 | ----------------------------------------------------- |
-| ![](/img/products/wiz750sr/gettingstarted/configtool.png) |
+| <a target="_blank" href={require("/img/products/wiz750sr/gettingstarted/configtool.png").default}><img src={require("/img/products/wiz750sr/gettingstarted/configtool.png").default} alt=""/></a> |
 | Figure: **WIZnet Configuration Tool**                 |
 
 #### Step 4: Set up your WIZ750SR
@@ -260,7 +260,7 @@ PC를 사용자 시리얼 장치 및 TCP 클라이언트로 삼아 데이터 통
 
 |                                                                  |
 | ---------------------------------------------------------------- |
-| ![](/img/products/wiz750sr/gettingstarted/windows_devicemanager.png) |
+| <a target="_blank" href={require("/img/products/wiz750sr/gettingstarted/windows_devicemanager.png").default}><img src={require("/img/products/wiz750sr/gettingstarted/windows_devicemanager.png").default} alt=""/></a> |
 | Figure: Device Manager                                           |
 
 #### Step 6: Verify

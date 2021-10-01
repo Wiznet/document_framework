@@ -4,7 +4,7 @@ title: WizFi360-EVB-Mini
 date: 2020-05-13
 ---
 
-![WizFi360-EVB-Mini](/img/products/wizfi360/board/wizfi360-evb-mini/wizfi360-mini3.png)
+<a target="_blank" href={require("/img/products/wizfi360/board/wizfi360-evb-mini/wizfi360-mini3.png").default}><img src={require("/img/products/wizfi360/board/wizfi360-evb-mini/wizfi360-mini3.png").default} alt="WizFi360-EVB-Mini"/></a>
 
 ## Overview
 

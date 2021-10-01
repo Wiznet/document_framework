@@ -20,7 +20,7 @@ module.exports = {
     hideableSidebar: true,
     announcementBar: {
       id: 'announcementBar-2', // Increment on change
-      content: '⭐️ Meet our new product: <a target="" rel="noopener noreferrer" href="/Product/Open-Source-Hardware/wiznet_ethernet_hat">WIZnet Ethernet HAT for Raspberry Pi Pico</a> ⭐️',
+      content: '⭐️ Meet our new products: <a target="" rel="noopener noreferrer" href="/Product/Open-Source-Hardware/wiznet_ethernet_hat">WIZnet Ethernet HAT for Raspberry Pi Pico</a> and <a target="" rel="noopener noreferrer" href="/Product/iEthernet/W5100S/w5100s-evb-pico">W5100S-EVB-Pico</a>⭐️',
       backgroundColor: '#C51A4A',
       textColor: '#fafbfc',
       isCloseable: false,

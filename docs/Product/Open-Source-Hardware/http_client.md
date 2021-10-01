@@ -16,15 +16,15 @@ Change "SimpleHttpExample.ino" file in the
 
 -----
 
-![](/img/osh/ioshield-a/cap_2013-08-28_15-14-38-205.png)
+<a target="_blank" href={require("/img/osh/ioshield-a/cap_2013-08-28_15-14-38-205.png").default}><img src={require("/img/osh/ioshield-a/cap_2013-08-28_15-14-38-205.png").default} alt=""/></a>
 
 -----
 
-![](/img/osh/ioshield-a/cap_2013-08-28_15-14-53-503.png)
+<a target="_blank" href={require("/img/osh/ioshield-a/cap_2013-08-28_15-14-53-503.png").default}><img src={require("/img/osh/ioshield-a/cap_2013-08-28_15-14-53-503.png").default} alt=""/></a>
 
 -----
 
 ## Result
 
 During the run the program, You can see the log message via Serial
-Monitor as follow: ![](/img/osh/ioshield-a/cap_2013-08-28_15-18-49-520.png)
+Monitor as follow: <a target="_blank" href={require("/img/osh/ioshield-a/cap_2013-08-28_15-18-49-520.png").default}><img src={require("/img/osh/ioshield-a/cap_2013-08-28_15-18-49-520.png").default} alt=""/></a>

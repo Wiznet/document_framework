@@ -27,7 +27,7 @@ date: 2020-05-08
    * RJ45(集成变压器)
    * 2.54mm 排针x2
 
-![](/img/products/wiz550s2e/wiz550s2eds/wiz550s2e_pin.jpg)
+<a target="_blank" href={require("/img/products/wiz550s2e/wiz550s2eds/wiz550s2e_pin.jpg").default}><img src={require("/img/products/wiz550s2e/wiz550s2eds/wiz550s2e_pin.jpg").default} alt=""/></a>
 
 #### 引脚
 
@@ -131,8 +131,8 @@ date: 2020-05-08
    * LED状态灯
    * DC-Jack (用于+5V电源输入)
 
-![](/img/products/wiz550s2e/wiz550s2eds/rs232if_pin_20140729.jpg)
-![](/img/products/wiz550s2e/wiz550s2eds/크기변환_wiz550s2e-232-evb.png)
+<a target="_blank" href={require("/img/products/wiz550s2e/wiz550s2eds/rs232if_pin_20140729.jpg").default}><img src={require("/img/products/wiz550s2e/wiz550s2eds/rs232if_pin_20140729.jpg").default} alt=""/></a>
+<a target="_blank" href={require("/img/products/wiz550s2e/wiz550s2eds/크기변환_wiz550s2e-232-evb.png").default}><img src={require("/img/products/wiz550s2e/wiz550s2eds/크기변환_wiz550s2e-232-evb.png").default} alt=""/></a>
 
 -----
 
@@ -145,8 +145,8 @@ date: 2020-05-08
    * LED状态灯
    * DC-Jack (用于+5V电源输出)
 
-![](/img/products/wiz550s2e/wiz550s2eds/rs485-422if_pin_20140729.jpg)
-![](/img/products/wiz550s2e/wiz550s2eds/크기변환_wiz550s2e-485-evb.png)
+<a target="_blank" href={require("/img/products/wiz550s2e/wiz550s2eds/rs485-422if_pin_20140729.jpg").default}><img src={require("/img/products/wiz550s2e/wiz550s2eds/rs485-422if_pin_20140729.jpg").default} alt=""/></a>
+<a target="_blank" href={require("/img/products/wiz550s2e/wiz550s2eds/크기변환_wiz550s2e-485-evb.png").default}><img src={require("/img/products/wiz550s2e/wiz550s2eds/크기변환_wiz550s2e-485-evb.png").default} alt=""/></a>
 
 -----
 # 特性
@@ -185,7 +185,7 @@ date: 2020-05-08
 
   - Rev 1.1 更新 原理图
 
-![](/img/products/wiz550s2e/wiz550s2e_rev.png)
+<a target="_blank" href={require("/img/products/wiz550s2e/wiz550s2e_rev.png").default}><img src={require("/img/products/wiz550s2e/wiz550s2e_rev.png").default} alt=""/></a>
 
 -----
 ## 尺寸
@@ -194,18 +194,18 @@ date: 2020-05-08
 
 ### WIZ550S2E
 
-![](/img/products/wiz550s2e/wiz550s2eds/wiz550s2e_dimension.jpg)
+<a target="_blank" href={require("/img/products/wiz550s2e/wiz550s2eds/wiz550s2e_dimension.jpg").default}><img src={require("/img/products/wiz550s2e/wiz550s2eds/wiz550s2e_dimension.jpg").default} alt=""/></a>
 
 -----
 
 ### WIZ550S2E-232 接口板
 
-![](/img/products/wiz550s2e/wiz550s2eds/rs232if_dimension.jpg)
+<a target="_blank" href={require("/img/products/wiz550s2e/wiz550s2eds/rs232if_dimension.jpg").default}><img src={require("/img/products/wiz550s2e/wiz550s2eds/rs232if_dimension.jpg").default} alt=""/></a>
 
 -----
 
 ### WIZ550S2E-485/422 接口板
 
-![](/img/products/wiz550s2e/wiz550s2eds/rs485-422if_dimension.jpg)
+<a target="_blank" href={require("/img/products/wiz550s2e/wiz550s2eds/rs485-422if_dimension.jpg").default}><img src={require("/img/products/wiz550s2e/wiz550s2eds/rs485-422if_dimension.jpg").default} alt=""/></a>
 
 -----

@@ -27,7 +27,7 @@ date: 2021-05-21
 
 :::important
  Save certificates and key during creation.
-![](/img/products/wiz510ssl/aws_connection_guide/sdk-attach-policy.png)
+<a target="_blank" href={require("/img/products/wiz510ssl/aws_connection_guide/sdk-attach-policy.png").default}><img src={require("/img/products/wiz510ssl/aws_connection_guide/sdk-attach-policy.png").default} alt=""/></a>
 AWS root CA can be downloaded from [**here**][link-aws-ca]
 :::
 
@@ -100,11 +100,11 @@ First, add appropriate command name in the beginning of the file.
 
 Refer to below example:
 
-![](/img/products/wiz510ssl/aws_connection_guide/certificate_with_command.png)
+<a target="_blank" href={require("/img/products/wiz510ssl/aws_connection_guide/certificate_with_command.png").default}><img src={require("/img/products/wiz510ssl/aws_connection_guide/certificate_with_command.png").default} alt=""/></a>
 
 Use following EOL settings:
 
-![](/img/products/wiz510ssl/aws_connection_guide/yat_settings.png)
+<a target="_blank" href={require("/img/products/wiz510ssl/aws_connection_guide/yat_settings.png").default}><img src={require("/img/products/wiz510ssl/aws_connection_guide/yat_settings.png").default} alt=""/></a>
 
 **Each certificate shall be sent separately.**
 
@@ -121,20 +121,20 @@ Below we will show configuration required for AWS connection.
 **Step 1.**
 
 Setup DHCP select following:
-![](/img/products/wiz510ssl/aws_connection_guide/basic_settings.png)
+<a target="_blank" href={require("/img/products/wiz510ssl/aws_connection_guide/basic_settings.png").default}><img src={require("/img/products/wiz510ssl/aws_connection_guide/basic_settings.png").default} alt=""/></a>
 
 Make settings in MQTT Options tab:
-![](/img/products/wiz510ssl/aws_connection_guide/mqtt_options_settings.png)
+<a target="_blank" href={require("/img/products/wiz510ssl/aws_connection_guide/mqtt_options_settings.png").default}><img src={require("/img/products/wiz510ssl/aws_connection_guide/mqtt_options_settings.png").default} alt=""/></a>
 
 Make settings in Certificate Manager tab:
-![](/img/products/wiz510ssl/aws_connection_guide/certificate_manager_settings.png)
+<a target="_blank" href={require("/img/products/wiz510ssl/aws_connection_guide/certificate_manager_settings.png").default}><img src={require("/img/products/wiz510ssl/aws_connection_guide/certificate_manager_settings.png").default} alt=""/></a>
 
 **Step 2.**
 
 To load certificates/keys follow below steps:
 
 - Click "Load File" button. File explorer window will appear.
-![](/img/products/wiz510ssl/aws_connection_guide/certificate_load.png)
+<a target="_blank" href={require("/img/products/wiz510ssl/aws_connection_guide/certificate_load.png").default}><img src={require("/img/products/wiz510ssl/aws_connection_guide/certificate_load.png").default} alt=""/></a>
 
 - Select file and click "Open"
 :::tip
@@ -142,7 +142,7 @@ Select original file, not the file with added AT command!
 :::
 
 - Click "Save to device" button. If succesful, "Upload Complete" pop-up window will appear.
-![](/img/products/wiz510ssl/aws_connection_guide/certificate_saved.png)
+<a target="_blank" href={require("/img/products/wiz510ssl/aws_connection_guide/certificate_saved.png").default}><img src={require("/img/products/wiz510ssl/aws_connection_guide/certificate_saved.png").default} alt=""/></a>
 
 :::tip
 When saving certificate or key, "Save to device" button shall be pressed for each one.
@@ -158,13 +158,13 @@ Reboot device.
 
 1. Send test message using Terminal
 
-![](/img/products/wiz510ssl/aws_connection_guide/pub_message.png)
+<a target="_blank" href={require("/img/products/wiz510ssl/aws_connection_guide/pub_message.png").default}><img src={require("/img/products/wiz510ssl/aws_connection_guide/pub_message.png").default} alt=""/></a>
 
 2. Since we subscribed to "updated" topic, when MQTT message is sent we can see reply message instantly.
 Also it is possible to check in AWS IoT -> Manage -> Things -> Shadow or Activity
 
-![](/img/products/wiz510ssl/aws_connection_guide/shadow_state_check.png)
-![](/img/products/wiz510ssl/aws_connection_guide/activity_check.png)
+<a target="_blank" href={require("/img/products/wiz510ssl/aws_connection_guide/shadow_state_check.png").default}><img src={require("/img/products/wiz510ssl/aws_connection_guide/shadow_state_check.png").default} alt=""/></a>
+<a target="_blank" href={require("/img/products/wiz510ssl/aws_connection_guide/activity_check.png").default}><img src={require("/img/products/wiz510ssl/aws_connection_guide/activity_check.png").default} alt=""/></a>
 
 
 **Congratulations**

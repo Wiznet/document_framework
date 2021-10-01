@@ -13,7 +13,7 @@ using the USB Interface.
 The first function is used without the driver, but the second function
 is used after install the driver.  
 CMSIS-DAP Interface of WIZwiKI-W7500 has shows as the photo below.  
-![CMSIS-DAP Interface](/img/products/w7500/overview/cmsis-dap_block.png)
+<a target="_blank" href={require("/img/products/w7500/overview/cmsis-dap_block.png").default}><img src={require("/img/products/w7500/overview/cmsis-dap_block.png").default} alt="CMSIS-DAP Interface"/></a>
 
 -----
 

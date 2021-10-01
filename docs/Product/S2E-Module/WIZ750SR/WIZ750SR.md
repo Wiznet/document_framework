@@ -9,7 +9,7 @@ date: 2020-04-08
 
 |                                                           |
 | --------------------------------------------------------- |
-| ![](/img/products/wiz750sr/wiz750sr_rev1.0_main_1024x693.png) |
+| <a target="_blank" href={require("/img/products/wiz750sr/wiz750sr_rev1.0_main_1024x693.png").default}><img src={require("/img/products/wiz750sr/wiz750sr_rev1.0_main_1024x693.png").default} alt=""/></a> |
 | Figure: ***WIZ750SR-TTL Rev. 1.0***                       |
 
 -----
@@ -124,7 +124,7 @@ date: 2020-04-08
 
 | **Module**                                                |
 | --------------------------------------------------------- |
-| ![](/img/products/wiz750sr/wiz750sr_rev1.0_main_1024x693.png) |
+| <a target="_blank" href={require("/img/products/wiz750sr/wiz750sr_rev1.0_main_1024x693.png").default}><img src={require("/img/products/wiz750sr/wiz750sr_rev1.0_main_1024x693.png").default} alt=""/></a> |
 
 **WIZ750SR-TTL**  
 **WIZ750SR-RS232**  
@@ -134,7 +134,7 @@ date: 2020-04-08
 
 | **Evaluation Board**                                  |
 | ----------------------------------------------------- |
-| ![](/img/products/wiz750sr/wiz750sr-ttl-evb_1024x683.png) |
+| <a target="_blank" href={require("/img/products/wiz750sr/wiz750sr-ttl-evb_1024x683.png").default}><img src={require("/img/products/wiz750sr/wiz750sr-ttl-evb_1024x683.png").default} alt=""/></a> |
 
 **WIZ750SR-EVB**  
   * RS-232 / TTL Type  
@@ -143,7 +143,7 @@ date: 2020-04-08
 
 | **Chip**                                     |
 | -------------------------------------------- |
-| ![](/img/products/wiz750sr/w7500p_pic_small.png) |
+| <a target="_blank" href={require("/img/products/wiz750sr/w7500p_pic_small.png").default}><img src={require("/img/products/wiz750sr/w7500p_pic_small.png").default} alt=""/></a> |
 
 **W7500-S2E**  
 (Pre-programmed chip) 

@@ -4,7 +4,7 @@ title: Overview
 date: 2021-07-16
 ---
 
-![](/img/products/w5100/W5100-7.jpg)
+<a target="_blank" href={require("/img/products/w5100/W5100-7.jpg").default}><img src={require("/img/products/w5100/W5100-7.jpg").default} alt=""/></a>
 
 **Hardwired Dual TCP/IP Stack Controller**
 
@@ -16,7 +16,7 @@ By using W5100, users can implement the Ethernet application they need by using 
 
 It is possible to use 4 independent hardware sockets simultaneously. BUS (Direct  & Indirect) & SPI (Serial Peripheral Interface) are provided for easy integration with the external MCU.
 
-![](/img/products/w5100/w5100-block-d.jpg)
+<a target="_blank" href={require("/img/products/w5100/w5100-block-d.jpg").default}><img src={require("/img/products/w5100/w5100-block-d.jpg").default} alt=""/></a>
 
 -----
 

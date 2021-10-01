@@ -12,4 +12,4 @@ operates and how programmers have to handle those commands to get the
 expected response.  
 For WizFi250 fans, the WizFi310 comes with compatible AT Commands
   
-![](/img/products/wizfi310/wizfi310-evb.png)
+<a target="_blank" href={require("/img/products/wizfi310/wizfi310-evb.png").default}><img src={require("/img/products/wizfi310/wizfi310-evb.png").default} alt=""/></a>

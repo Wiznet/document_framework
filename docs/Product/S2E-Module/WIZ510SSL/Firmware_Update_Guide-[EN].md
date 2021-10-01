@@ -54,7 +54,7 @@ The process of set up environment to use the WIZ510SS is available at the [WIZ51
 
 |                                                                      |
 | ---------------------------------------------------------------------|
-| ![](/img/products/wiz510ssl/firmware_update_guide/click_the_firmware_upload_button.png) |
+| <a target="_blank" href={require("/img/products/wiz510ssl/firmware_update_guide/click_the_firmware_upload_button.png").default}><img src={require("/img/products/wiz510ssl/firmware_update_guide/click_the_firmware_upload_button.png").default} alt=""/></a> |
 | Figure: ***Click the firmware upload button***                       |
 
   - Select the downloaded firmware (\*.bin)
@@ -63,19 +63,19 @@ The process of set up environment to use the WIZ510SS is available at the [WIZ51
 
 |                                                         |
 | --------------------------------------------------------|
-| ![](/img/products/wiz510ssl/firmware_update_guide/select_the_firmware.png) |
+| <a target="_blank" href={require("/img/products/wiz510ssl/firmware_update_guide/select_the_firmware.png").default}><img src={require("/img/products/wiz510ssl/firmware_update_guide/select_the_firmware.png").default} alt=""/></a> |
 | Figure: ***Select the firmware***                       |
 
 |                                                                |
 | ---------------------------------------------------------------|
-| ![](/img/products/wiz510ssl/firmware_update_guide/firmware_selection_warning.png) |
+| <a target="_blank" href={require("/img/products/wiz510ssl/firmware_update_guide/firmware_selection_warning.png").default}><img src={require("/img/products/wiz510ssl/firmware_update_guide/firmware_selection_warning.png").default} alt=""/></a> |
 | Figure: ***Firmware selection warning***                       |
 
   - Uploading firmware
 
 |                                                        |
 | -------------------------------------------------------|
-| ![](/img/products/wiz510ssl/firmware_update_guide/uploading_firmware.png) |
+| <a target="_blank" href={require("/img/products/wiz510ssl/firmware_update_guide/uploading_firmware.png").default}><img src={require("/img/products/wiz510ssl/firmware_update_guide/uploading_firmware.png").default} alt=""/></a> |
 | Figure: ***Uploading firmware***                       |
 
 
@@ -86,5 +86,5 @@ Firmware update is finished!
 
 |                                                              |
 | -------------------------------------------------------------|
-| ![](/img/products/wiz510ssl/firmware_update_guide/finished_firmware_update.png) |
+| <a target="_blank" href={require("/img/products/wiz510ssl/firmware_update_guide/finished_firmware_update.png").default}><img src={require("/img/products/wiz510ssl/firmware_update_guide/finished_firmware_update.png").default} alt=""/></a> |
 | Figure: ***Finished firmware update***                       |

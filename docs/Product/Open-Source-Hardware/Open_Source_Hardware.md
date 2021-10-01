@@ -6,7 +6,7 @@ date: 2020-04-03
 
 ## What's the Open Source Hardware?
 
-![](/img/osh/overview/oshw_logo.jpg) Open-source hardware consists of physical artifacts
+<a target="_blank" href={require("/img/osh/overview/oshw_logo.jpg").default}><img src={require("/img/osh/overview/oshw_logo.jpg").default} alt=""/></a> Open-source hardware consists of physical artifacts
 of technology designed and offered by the open design movement. Both
 free and open-source software (FOSS) as well as open-source hardware is
 created by this open-source culture movement and applies a like concept
@@ -63,7 +63,7 @@ Fourth : Moonlight Programmable LED Display
 
 -----
 
-![](/img/osh/overview/management_designcontest.jpg)  
+<a target="_blank" href={require("/img/osh/overview/management_designcontest.jpg").default}><img src={require("/img/osh/overview/management_designcontest.jpg").default} alt=""/></a>  
 **Design Contest with Parallax**
 
 The Spinneret Web Server design contest served to promote the emerging

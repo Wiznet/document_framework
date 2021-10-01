@@ -25,20 +25,20 @@ board.
   - Test S/W : In order to check serial data, terminal program is
     required on the PC. Tera Term is used in this exercise.
 
-![](/img/products/wizwiki_mbed_kit/kit_en/2_teraterm.png)
+<a target="_blank" href={require("/img/products/wizwiki_mbed_kit/kit_en/2_teraterm.png").default}><img src={require("/img/products/wizwiki_mbed_kit/kit_en/2_teraterm.png").default} alt=""/></a>
 
 ## Hardware
 
 ### The Circuit
 
-This is the circuit for this example. ![Button and LED](/img/products/wizwiki_mbed_kit/kit_en/button_led_scheme.png)
+This is the circuit for this example. <a target="_blank" href={require("/img/products/wizwiki_mbed_kit/kit_en/button_led_scheme.png").default}><img src={require("/img/products/wizwiki_mbed_kit/kit_en/button_led_scheme.png").default} alt="Button and LED"/></a>
 
 The LED for this example is placed on the WIZwiki board and it is shown
-in the red box in the cicuit below. ![RGB LED](/img/products/wizwiki_mbed_kit/kit_en/3_board_all.png)
+in the red box in the cicuit below. <a target="_blank" href={require("/img/products/wizwiki_mbed_kit/kit_en/3_board_all.png").default}><img src={require("/img/products/wizwiki_mbed_kit/kit_en/3_board_all.png").default} alt="RGB LED"/></a>
 
 ### Connections
 
-![](/img/products/wizwiki_mbed_kit/kit_en/3_board_all.png)
+<a target="_blank" href={require("/img/products/wizwiki_mbed_kit/kit_en/3_board_all.png").default}><img src={require("/img/products/wizwiki_mbed_kit/kit_en/3_board_all.png").default} alt=""/></a>
 
 ## Software
 

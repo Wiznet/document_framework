@@ -6,7 +6,7 @@ date: 2021-07-21
 
 ## Overview
 
-![](/img/products/wiz110sr/wiz110sr-web-1.jpg)
+<a target="_blank" href={require("/img/products/wiz110sr/wiz110sr-web-1.jpg").default}><img src={require("/img/products/wiz110sr/wiz110sr-web-1.jpg").default} alt=""/></a>
 
 WIZ110SR is the serial to Ethernet module using W5100 & 8051 MCU.  WIZ110SR is the protocol converter that transmits the data sent by serial equipment as TCP/IP data type, and converts back the TCP/IP data received through the network into serial data to transmit back to the equipment.
 
@@ -36,7 +36,7 @@ Just by connecting LAN & Serial cable to the modules, you can easily add the ‘
 
 ## Hardware Interface
 
-![](/img/products/wiz110sr/interface.jpg)
+<a target="_blank" href={require("/img/products/wiz110sr/interface.jpg").default}><img src={require("/img/products/wiz110sr/interface.jpg").default} alt=""/></a>
 
 ## Download
 

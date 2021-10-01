@@ -27,27 +27,27 @@ serial commands for simple Wi-Fi settings; not only serial devices but
 8/16/32 bit micro controllers can also use UART for simple Wi-Fi
 settings.  
   
- ![](/img/products/wizfi630a/wizfi630a0.png)
+ <a target="_blank" href={require("/img/products/wizfi630a/wizfi630a0.png").default}><img src={require("/img/products/wizfi630a/wizfi630a0.png").default} alt=""/></a>
 
   - **WizFi630A**
 
- ![](/img/products/wizfi630a/wizfi630a01.png)
+ <a target="_blank" href={require("/img/products/wizfi630a/wizfi630a01.png").default}><img src={require("/img/products/wizfi630a/wizfi630a01.png").default} alt=""/></a>
 
   - **WizFi630A-EVB**
 
-![](/img/products/wizfi630a/wizfi630a02.png)
+<a target="_blank" href={require("/img/products/wizfi630a/wizfi630a02.png").default}><img src={require("/img/products/wizfi630a/wizfi630a02.png").default} alt=""/></a>
 
   - **WizFi630A-Antenna**
 
-![](/img/products/wizfi630a/wizfi630a03.png)
+<a target="_blank" href={require("/img/products/wizfi630a/wizfi630a03.png").default}><img src={require("/img/products/wizfi630a/wizfi630a03.png").default} alt=""/></a>
 
   - **WizFi630A-Serial Cable**
 
-![](/img/products/wizfi630a/wizfi630a04.png)
+<a target="_blank" href={require("/img/products/wizfi630a/wizfi630a04.png").default}><img src={require("/img/products/wizfi630a/wizfi630a04.png").default} alt=""/></a>
 
   - **WizFi630A-LAN Cable**
 
-![](/img/products/wizfi630a/wizfi630a05.png)
+<a target="_blank" href={require("/img/products/wizfi630a/wizfi630a05.png").default}><img src={require("/img/products/wizfi630a/wizfi630a05.png").default} alt=""/></a>
 
   - **WizFi630A-Adapter**
   

@@ -8,7 +8,7 @@ date: 2020-04-08
    * [English](Configuration_Tool_Manual-EN) (current page)  
    * [Korean](/)
 
-![](/img/products/wiz750sr/clitool/datasheet/wiz750sr_pinout_exp_rev1.2.png)
+<a target="_blank" href={require("/img/products/wiz750sr/clitool/datasheet/wiz750sr_pinout_exp_rev1.2.png").default}><img src={require("/img/products/wiz750sr/clitool/datasheet/wiz750sr_pinout_exp_rev1.2.png").default} alt=""/></a>
 
 -----
 
@@ -21,7 +21,7 @@ opened.
 
 |                                                                     |
 | ------------------------------------------------------------------- |
-| ![](/img/products/wiz750sr/usermanual/configtool_overview.png)          |
+| <a target="_blank" href={require("/img/products/wiz750sr/usermanual/configtool_overview.png").default}><img src={require("/img/products/wiz750sr/usermanual/configtool_overview.png").default} alt=""/></a>          |
 | Figure: **Configuration Tool for WIZ750SR & WIZ107/108SR Products** |
 
 -----
@@ -30,7 +30,7 @@ opened.
 
 |                                                          |
 | -------------------------------------------------------- |
-| ![](/img/products/wiz750sr/usermanual/configtool_layout.png) |
+| <a target="_blank" href={require("/img/products/wiz750sr/usermanual/configtool_layout.png").default}><img src={require("/img/products/wiz750sr/usermanual/configtool_layout.png").default} alt=""/></a> |
 | Figure: **Configuration Tool Layout**                    |
 
 The configuration tool is composed of four sections. Details of each
@@ -62,7 +62,7 @@ section are available below.
 
 |                                                             |
 | ----------------------------------------------------------- |
-| ![](/img/products/wiz750sr/usermanual/configtool_icon_menu.png) |
+| <a target="_blank" href={require("/img/products/wiz750sr/usermanual/configtool_icon_menu.png").default}><img src={require("/img/products/wiz750sr/usermanual/configtool_icon_menu.png").default} alt=""/></a> |
 | Figure: **Menu Icons**                                      |
 
 1.  Program is operated in Windows only.
@@ -117,7 +117,7 @@ section are available below.
 
 |                                                                          |
 | ------------------------------------------------------------------------ |
-| ![](/img/products/wiz750sr/usermanual/configtool_firmwareupload_success.png) |
+| <a target="_blank" href={require("/img/products/wiz750sr/usermanual/configtool_firmwareupload_success.png").default}><img src={require("/img/products/wiz750sr/usermanual/configtool_firmwareupload_success.png").default} alt=""/></a> |
 | Figure: **Popup Message - Firmware Upload Successfully**                 |
 
   - Use **TCP/UDP port 50002 to upload firmware** on to WIZ750SR.
@@ -159,7 +159,7 @@ DURING FIRMWARE UPLOADING**
 
 |                                                                |
 | -------------------------------------------------------------- |
-| ![](/img/products/wiz750sr/usermanual/configtool_ping_success.png) |
+| <a target="_blank" href={require("/img/products/wiz750sr/usermanual/configtool_ping_success.png").default}><img src={require("/img/products/wiz750sr/usermanual/configtool_ping_success.png").default} alt=""/></a> |
 | Figure: **Ping Request and Reply**                             |
 
 #### 7\) Firewall
@@ -178,7 +178,7 @@ DURING FIRMWARE UPLOADING**
 
 |                                                               |
 | ------------------------------------------------------------- |
-| ![](/img/products/wiz750sr/usermanual/configtool_device_list.png) |
+| <a target="_blank" href={require("/img/products/wiz750sr/usermanual/configtool_device_list.png").default}><img src={require("/img/products/wiz750sr/usermanual/configtool_device_list.png").default} alt=""/></a> |
 | Figure: **Device List**                                       |
 
   - List of devices searched will appears.
@@ -244,7 +244,7 @@ The serial debug message is printed via separate Debug UART and not Data UART, a
 
 |                                                               |
 | ------------------------------------------------------------- |
-| ![](/img/products/wiz750sr/usermanual/configtool_tab_network.png) |
+| <a target="_blank" href={require("/img/products/wiz750sr/usermanual/configtool_tab_network.png").default}><img src={require("/img/products/wiz750sr/usermanual/configtool_tab_network.png").default} alt=""/></a> |
 | Figure: **Network Configuration Tab**                         |
 
 #### 1\) IP Address Allocation
@@ -301,7 +301,7 @@ settings](users_manual-EN#ip-address-settings).
 
 |                                                              |
 | ------------------------------------------------------------ |
-| ![](/img/products/wiz750sr/usermanual/configtool_tab_serial.png) |
+| <a target="_blank" href={require("/img/products/wiz750sr/usermanual/configtool_tab_serial.png").default}><img src={require("/img/products/wiz750sr/usermanual/configtool_tab_serial.png").default} alt=""/></a> |
 | Figure: **Serial Configuration Tab**                         |
 
 #### 1\) Debug Message Enable
@@ -433,7 +433,7 @@ multi-selected but has priority as shown below.
 
 |                                                               |
 | ------------------------------------------------------------- |
-| ![](/img/products/wiz750sr/usermanual/configtool_tab_options.png) |
+| <a target="_blank" href={require("/img/products/wiz750sr/usermanual/configtool_tab_options.png").default}><img src={require("/img/products/wiz750sr/usermanual/configtool_tab_options.png").default} alt=""/></a> |
 | Figure: **Options Configuration Tab**                         |
 
 #### 1\) Inactivity Timer Settings
@@ -525,9 +525,9 @@ multi-selected but has priority as shown below.
 
 ### 6\. Progress Bar
 
-| Device Search             | ![](/img/products/wiz750sr/usermanual/configtool_operation_results.png) |
+| Device Search             | <a target="_blank" href={require("/img/products/wiz750sr/usermanual/configtool_operation_results.png").default}><img src={require("/img/products/wiz750sr/usermanual/configtool_operation_results.png").default} alt=""/></a> |
 | ------------------------- | ------------------------------------------------------------------- |
-| Firmware Upload           | ![](/img/products/wiz750sr/usermanual/configtool_progress_bar.png)      |
+| Firmware Upload           | <a target="_blank" href={require("/img/products/wiz750sr/usermanual/configtool_progress_bar.png").default}><img src={require("/img/products/wiz750sr/usermanual/configtool_progress_bar.png").default} alt=""/></a>      |
 | Figures: **Progress Bar** |                                                                     |
 
   - Shows the result of search.

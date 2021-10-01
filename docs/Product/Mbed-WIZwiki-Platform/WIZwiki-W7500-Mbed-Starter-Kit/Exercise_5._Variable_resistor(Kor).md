@@ -24,14 +24,14 @@ Converter)를 이용한다. 아날로그 값을 출력하는 센서들의 출력
 
 전체 회로도는 아래와 같다.
 
-![](/img/products/wizwiki_mbed_kit/kit_en/5_potentiometer_schem.png)
+<a target="_blank" href={require("/img/products/wizwiki_mbed_kit/kit_en/5_potentiometer_schem.png").default}><img src={require("/img/products/wizwiki_mbed_kit/kit_en/5_potentiometer_schem.png").default} alt=""/></a>
 
 
 ### 연결도
 
-![WIZwiki 와 가변저항 연결도](/img/products/wizwiki_mbed_kit/kit_en/5_board_all.jpg)
-![](/img/products/wizwiki_mbed_kit/kit_en/5_board_analog1.jpg)
-![](/img/products/wizwiki_mbed_kit/kit_en/5_board_analog2.jpg)
+<a target="_blank" href={require("/img/products/wizwiki_mbed_kit/kit_en/5_board_all.jpg").default}><img src={require("/img/products/wizwiki_mbed_kit/kit_en/5_board_all.jpg").default} alt="WIZwiki 와 가변저항 연결도"/></a>
+<a target="_blank" href={require("/img/products/wizwiki_mbed_kit/kit_en/5_board_analog1.jpg").default}><img src={require("/img/products/wizwiki_mbed_kit/kit_en/5_board_analog1.jpg").default} alt=""/></a>
+<a target="_blank" href={require("/img/products/wizwiki_mbed_kit/kit_en/5_board_analog2.jpg").default}><img src={require("/img/products/wizwiki_mbed_kit/kit_en/5_board_analog2.jpg").default} alt=""/></a>
 
 
 ## 소프트웨어
@@ -71,7 +71,7 @@ int main(/) {
 ### 실행 방법 및 결과
 
 가변저항기의 다이얼을 움직여 가며 시리얼 포트의 메시지를 확인한다. 사진과 같이 주기적으로 밀리볼트 (mV) 단위의 measure
-값을 확인할 수 있다. ![](/img/products/wizwiki_mbed_kit/kit_en/5_test_result.jpg)
+값을 확인할 수 있다. <a target="_blank" href={require("/img/products/wizwiki_mbed_kit/kit_en/5_test_result.jpg").default}><img src={require("/img/products/wizwiki_mbed_kit/kit_en/5_test_result.jpg").default} alt=""/></a>
 
 이 예제에서는 가변기의 다이얼을 시계방향으로 회전시키면 measure 값이 올라간다. measure 값이 2000mV 이상이면
 WIZwiki 보드에 장착된 LED1이 켜진다. measure 값이 2000mV 이하이면 LED1이 꺼진다.
