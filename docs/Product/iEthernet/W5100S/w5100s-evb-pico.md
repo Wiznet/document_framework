@@ -4,8 +4,8 @@ title: W5100S-EVB-Pico
 date: 2021-09-07
 keywords:
   - Raspberry Pi Pico
-  - pico
-  - ethernet
+  - RP2040
+  - Ethernet
   - W5100S
 description: W5100S-EVB-Pico made for prototyping and testing Ethernet capabilities on Pico
 ---
