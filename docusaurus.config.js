@@ -17,6 +17,12 @@ module.exports = {
       trackingID: 'UA-207547783-2',
       anonymizeIP: true,
     },
+    gtag: {
+      // You can also use your "G-" Measurement ID here.
+      trackingID: 'G-B4NBQPV6VG',
+      // Optional fields.
+      anonymizeIP: false, // Should IPs be anonymized?
+    },
     hideableSidebar: true,
     announcementBar: {
       id: 'announcementBar-2', // Increment on change
