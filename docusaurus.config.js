@@ -91,8 +91,9 @@ module.exports = {
         },
          // {to: 'docs/introduction', label: 'INTRODUCTION TO WIZNET DOCUMENTS ➤', position: 'right'},
          // {to: 'docs/download', label: 'Download', position: 'right'},
-         {href: 'https://forum.wiznet.io/', label: 'Forum', position: 'right'},
          {href: 'https://www.wiznet.io/', label: 'WIZnet', position: 'right'},
+         {href: 'https://forum.wiznet.io/', label: 'Forum', position: 'right'},
+         
 
         //{to: 'blog', label: 'Blog', position: 'left'},
         {
@@ -112,31 +113,76 @@ module.exports = {
               label: 'Introduction',
               to: 'introduction',
             },
+            {
+              label: 'Products',
+              to: '/',
+            },
+            {
+              label: 'Design Guide',
+              to: '/Design-Guide/design_guide',
+            },
+            {
+              label: 'VAR Products',
+              to: '/VAR-Products-using-WIZnet/var_products_using_wiznet',
+            },
           ],
         },
         {
-          title: 'Community',
+          title: 'Buy',
           items: [
             {
-              label: 'WIZnet Forum',
+              label: 'USA',
+              href: 'https://eshop.wiznet.io/',
+            },
+            {
+              label: 'EU',
+              href: 'http://shop.wiznet.eu/',
+            },
+            {
+              label: 'China',
+              href: 'https://www.wiznet.hk/en/',
+            },
+            {
+              label: 'Korea',
+              href: 'http://wiznetshop.co.kr/',
+            },
+          ],
+        },
+        {
+          title: 'Support',
+          items: [
+            {
+              label: 'WIZnet Homepage',
+              href: 'https://wiznet.io',
+            },
+            {
+              label: 'Forum',
               href: 'https://forum.wiznet.io',
             },
             {
-              label: 'WIZnet Maker',
+              label: 'Maker Community',
               href: 'http://maker.wiznet.io/',
             },
+            {
+              label: 'GitHub',
+              href: 'https://github.com/Wiznet/document_framework',
+            },
+          //  {
+          //    label: 'Twitter',
+          //    href: '',
+          //  },
           ],
         },
         {
           title: 'Social',
           items: [
-            //{
-            //  label: 'Blog',
-            //  to: 'blog',
-            //},
             {
-              label: 'GitHub',
-              href: 'https://github.com/Wiznet/document_framework',
+              label: 'Facebook',
+              href: 'https://www.facebook.com/wiznettechnology',
+            },
+            {
+              label: 'LinkedIn',
+              href: 'https://www.linkedin.com/company/wiznet/',
             },
           //  {
           //    label: 'Twitter',
