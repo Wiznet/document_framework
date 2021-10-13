@@ -119,7 +119,7 @@ TBA
 
 ### Schematic
 
-<a target="_blank" href={require('/img/osh/w5100s_evb_pico/w5100s-evb_pico_schematic.png').default}><img src={require('/img/osh/w5100s_evb_pico/w5100s-evb_pico_schematic.png').default} alt="W5100S-EVB_Pico_schematic"/></a>
+<a target="_blank" href={require('/img/osh/w5100s_evb_pico/w5100S-evb_pico_schematic.png').default}><img src={require('/img/osh/w5100s_evb_pico/w5100S-evb_pico_schematic.png').default} alt="W5100S-EVB_Pico_schematic"/></a>
 
 ### Schematic & Part list & Gerber File
 
