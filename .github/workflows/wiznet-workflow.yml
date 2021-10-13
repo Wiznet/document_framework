@@ -1,33 +1,50 @@
-name: Docusaurus on Windows
+name: deploy
 
 on:
-  # Trigger the workflow on push or pull request,
-  # but only for the master branch
+  pull_request:
+    branches: [master]
   push:
-    branches:
-      - master
+    branches: [master]
 
 jobs:
-  build:
-    runs-on: windows-2019
-    strategy:
-      matrix:
-        node-version: [14.x.x]
+  checks:
+    if: github.event_name != 'push'
+    runs-on: ubuntu-latest
     steps:
-    - uses: actions/checkout@v1
-    - name: Use Node.js ${{ matrix.node-version }}
-      uses: actions/setup-node@v1
-      with:
-        node-version: ${{ matrix.node-version }}
-    - name: Installation
-      run: yarn
-#       run: npm i
-    - name: Docusaurus 2 Build
-      run: yarn build
-#       run: npm run build
-    - name: Deploy
-      uses: peaceiris/actions-gh-pages@v3
-      with:
-        github_token: ${{ secrets.GITHUB_TOKEN }}
-#         publish_dir: ./website/build
-        publish_dir: ./build/
+      - uses: actions/checkout@v1
+      - uses: actions/setup-node@v1
+        with:
+          node-version: '12.x'
+      - name: Test Build
+        run: |
+          if [ -e yarn.lock ]; then
+          yarn install --frozen-lockfile
+          elif [ -e package-lock.json ]; then
+          npm ci
+          else
+          npm i
+          fi
+          npm run build
+  gh-release:
+    if: github.event_name != 'pull_request'
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v1
+      - uses: actions/setup-node@v1
+        with:
+          node-version: '12.x'
+      - name: Build
+        run: |
+          if [ -e yarn.lock ]; then
+          yarn install --frozen-lockfile
+          elif [ -e package-lock.json ]; then
+          npm ci
+          else
+          npm i
+          fi
+          npm run build
+      - name: Release to GitHub Pages
+        uses: peaceiris/actions-gh-pages@v3
+        with:
+          github_token: ${{ secrets.GITHUB_TOKEN }}
+          publish_dir: ./build
