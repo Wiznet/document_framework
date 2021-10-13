@@ -212,7 +212,7 @@ Application을 이용해서 WizFi310을 제어하는 과정은 위와 같은 절
   
 Open API로 테스트 하는 방법은 데이터 조회와 동일하다. 대부분의 제어 명령은 "제어 요청"과 "결과 조회" 두가지로 되어있다. 아래 예제는 WizFi310(GW)의 상태를 확인하는 "GW Status Check" 이다.
 
-![](/img/products/wizfi250/control_2_openAPI.png)  
+![](/img/products/wizfi250/control_2_openapi.png)  
 
 *  Open API 중 "GW Status Check"를 사용해서 Application이 ThingPlug로 제어 요청 메세지를 보내면 아래와 같은 응답을 받게 된다.
 * stateActionStatus의 내용은 PROGRESS로 ThingPlug가 제어 명령을 수신했다는 의미이다.
