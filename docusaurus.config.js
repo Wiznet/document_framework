@@ -97,7 +97,7 @@ module.exports = {
 
         //{to: 'blog', label: 'Blog', position: 'left'},
         {
-          href: 'https://github.com/Wiznet/document_framework',
+          href: 'https://github.com/Wiznet/',
           label: 'GitHub',
           position: 'right',
         },
@@ -165,7 +165,7 @@ module.exports = {
             },
             {
               label: 'GitHub',
-              href: 'https://github.com/Wiznet/document_framework',
+              href: 'https://github.com/Wiznet/',
             },
           //  {
           //    label: 'Twitter',
@@ -184,10 +184,10 @@ module.exports = {
               label: 'LinkedIn',
               href: 'https://www.linkedin.com/company/wiznet/',
             },
-          //  {
-          //    label: 'Twitter',
-          //    href: '',
-          //  },
+            {
+              label: 'Twitter',
+              href: 'https://twitter.com/wiznetteam',
+            },
           ],
         },
       ],

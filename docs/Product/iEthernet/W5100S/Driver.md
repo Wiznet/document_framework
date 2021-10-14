@@ -6,7 +6,7 @@ date: 2020-04-03
 
 The ioLibrary means **"Internet Offload Library"** for WIZnet chip. It
 includes **drivers** and **application protocols**. The ioLibrary can be
-used for [W5100S](Overview.mdt) application designs. These
+used for [W5100S](Overview.md) application designs. These
 will be updated continuously.
 
 -----

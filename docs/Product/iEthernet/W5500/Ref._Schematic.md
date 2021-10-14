@@ -56,7 +56,7 @@ The RJ45 from UDE (RB1-125BAG1A) is used in many of our **W5100** and
 #### RJ45 with integrated Transformer
 
 - J1B121ZCCD from CETUS 
-<a href="/img/blob/master/static/img/products/w5500/1.j1b121zccd-v0-101115.pdf" target="_blank">datasheet</a>  
+<a href="/img/products/w5500/1.j1b121zccd-v0-101115.pdf" target="_blank">datasheet</a>  
 - J1B1211CCD from CETUS (used in * 1) 
 <a href="/img/products/w5500/2.j1b1211ccd.pdf" target="_blank">datasheet</a>  
 - RB1-1D5B8K1A from UDE 

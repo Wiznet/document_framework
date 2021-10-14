@@ -27,7 +27,7 @@ import useBaseUrl from '@docusaurus/useBaseUrl';
 </tr>
 <tr class="odd">
 <td>Microsoft Azure Sphere SDK (Support Window/Linux OS)</td>
-<td><a href=" http://aka.ms/AzureSphereSDK">Link</a></td>
+<td><a href="https://aka.ms/AzureSphereSDK">Link</a></td>
 </tr>
 </tbody>
 </table>
