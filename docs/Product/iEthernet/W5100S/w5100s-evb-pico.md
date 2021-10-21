@@ -134,3 +134,8 @@ TBA
 Please refer to below links to find firmware example.
 
 - [C/C++ Examples](https://github.com/Wiznet/RP2040-HAT-C)
+
+## How to buy
+
+[![WIZnetUS Online Shop, USA](/img/products/w5500/w5500_evb/icons/dollar.png)](https://eshop.wiznet.io/shop/module/w5100s-evb-pico/)
+[![WIZnetKorea Online Shop, Korea](/img/products/w5500/w5500_evb/icons/won.png)](http://wiznetshop.co.kr/product/detail.html?product_no=1049&cate_no=1&display_group=2)

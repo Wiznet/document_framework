@@ -66,18 +66,10 @@ module.exports = {
           label: 'Documents',
           position: 'right', // or 'left'
           items: [
-            // {
-            //   label: 'HOME',
-            //   to: '/',
-            // },
             {
               label: 'Introduction ➤',
               to: 'introduction',
             },
-//             {
-//               label: 'Products',
-//               to: '/',
-//             },
             {
               label: 'Design Guide ➤',
               to: '/Design-Guide/design_guide',
@@ -101,6 +93,7 @@ module.exports = {
           label: 'GitHub',
           position: 'right',
         },
+
       ],
     },
     footer: {
