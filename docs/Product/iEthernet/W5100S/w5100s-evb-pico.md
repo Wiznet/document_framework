@@ -134,6 +134,7 @@ TBA
 Please refer to below links to find firmware example.
 
 - [C/C++ Examples](https://github.com/Wiznet/RP2040-HAT-C)
+- [CircuitPython Examples](https://github.com/Wiznet/RP2040-HAT-CircuitPython)
 
 ## How to buy
 
