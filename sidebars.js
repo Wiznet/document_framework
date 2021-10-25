@@ -227,32 +227,32 @@ module.exports = {
 					'Product/iEthernet/W5500/driver',
 					'Product/iEthernet/W5500/ref_schematic',
 					'Product/iEthernet/W5500/migration_from_w5200',
-				{
-				type: 'category',
-				label: 'Application',
-				items: [
-					'Product/iEthernet/W5500/Application/w5500_application',
-					'Product/iEthernet/W5500/Application/tcp',
-					'Product/iEthernet/W5500/Application/udp',
-					'Product/iEthernet/W5500/Application/ipraw',
-					'Product/iEthernet/W5500/Application/pppoe',
-					'Product/iEthernet/W5500/Application/spi_performance',
-					'Product/iEthernet/W5500/Application/esd_test_document',
-				],
-				},
+					{
+					type: 'category',
+					label: 'Application',
+					items: [
+						'Product/iEthernet/W5500/Application/w5500_application',
+						'Product/iEthernet/W5500/Application/tcp',
+						'Product/iEthernet/W5500/Application/udp',
+						'Product/iEthernet/W5500/Application/ipraw',
+						'Product/iEthernet/W5500/Application/pppoe',
+						'Product/iEthernet/W5500/Application/spi_performance',
+						'Product/iEthernet/W5500/Application/esd_test_document',
+					],
+					},
 					//'Product/iEthernet/W5500/all_pages',
 					//'Product/iEthernet/W5500/all_pages_jp',
-				{
-				type: 'category',
-				label: 'W5500-EVB',
-				items: [
-					'Product/iEthernet/W5500/W5500-EVB/w5500_evb',
-					'Product/iEthernet/W5500/W5500-EVB/getting_started',
-					'Product/iEthernet/W5500/W5500-EVB/make_new_projects',
-					'Product/iEthernet/W5500/W5500-EVB/how_to_install_and_activate_lpcxpresso',
-					'Product/iEthernet/W5500/W5500-EVB/w5500-evb_firmware',
-				],
-				}
+					{
+					type: 'category',
+					label: 'W5500-EVB',
+					items: [
+						'Product/iEthernet/W5500/W5500-EVB/w5500_evb',
+						'Product/iEthernet/W5500/W5500-EVB/getting_started',
+						'Product/iEthernet/W5500/W5500-EVB/make_new_projects',
+						'Product/iEthernet/W5500/W5500-EVB/how_to_install_and_activate_lpcxpresso',
+						'Product/iEthernet/W5500/W5500-EVB/w5500-evb_firmware',
+					],
+					}
 				],
 				},
 				{
@@ -293,7 +293,14 @@ module.exports = {
 						'Product/iEthernet/W3150/document',
 						'Product/iEthernet/W3150/w3150-evb',
 					],
-				}
+				},
+				{
+						type: 'category',
+						label: 'W5200',
+						items: [
+							'Product/iEthernet/W5200/w5200',
+						],
+					}
 			],
 		},
 		{
