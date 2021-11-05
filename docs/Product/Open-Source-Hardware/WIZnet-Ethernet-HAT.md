@@ -7,8 +7,12 @@ keywords:
   - Ethernet HAT
   - RP2040
   - Ethernet
+  - wiznet-ethernet-hat
+  - wiznet
 description: WIZnet Ethernet HAT - easiest way to add Ethernet to Raspberry Pi Pico
 ---
+
+
 
 ## Overview
 
@@ -19,7 +23,7 @@ Please refer to this link to find more information about [W5100S](../../Product/
 - Raspberry Pi Pico Pin-Compatible
 - Ethernet (W5100S Hardwired TCP/IP CHIP)
 
-![](/img/osh/wiznet_ethernet_hat/wiznet_ethernet_hat.png)
+![](/img/osh/wiznet-ethernet-hat/wiznet-ethernet-hat.png)
 
 ## Features
 
@@ -41,7 +45,7 @@ Please refer to this link to find more information about [W5100S](../../Product/
 
 ### Pin-out
 
-![WIZnet_Ethernet_HAT_3D_Pinout](/img/osh/wiznet_ethernet_hat/wiznet_ethernet_hat_pinout.png)
+![WIZnet-Ethernet-HAT-Pinout](/img/osh/wiznet-ethernet-hat/wiznet-ethernet-hat-pinout.png)
 
 ### Pin Description
 
@@ -75,13 +79,13 @@ TBA
 
 ### Schematic
 
-![WIZnet_Ethernet_HAT_Schematic](/img/osh/wiznet_ethernet_hat/wiznet_ethernet_hat_schematic.png)
+![WIZnet-Ethernet-HAT-Schematic](/img/osh/wiznet-ethernet-hat/wiznet-ethernet-hat-schematic.png)
 
 ### Dimension (Unit : mm)
 
 21 x 68 x 18 (mm)
 
-![WIZnet_Ethernet_HAT_Dimension](/img/osh/wiznet_ethernet_hat/wiznet_ethernet_hat_dimension.png)
+![WIZnet-Ethernet-HAT-Dimension](/img/osh/wiznet-ethernet-hat/wiznet-ethernet-hat-dimension.png)
 
 
 ### Firmware Examples
