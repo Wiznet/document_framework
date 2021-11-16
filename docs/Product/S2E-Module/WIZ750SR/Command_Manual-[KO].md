@@ -17,9 +17,9 @@ date: 2020-04-08
 WIZ750SR은 제품의 설정 및 제어를 위해 다양한 커맨드 셋을 제공합니다. 각 커맨드는 **2-byte의 알파벳 문자열**로
 구성되어 있으며, **대문자만 허용**합니다. 이러한 커맨드를 활용하면 사용자의 시리얼 장치(혹은 메인 MCU)에 스크립트를
 추가하여 상황에 따라 제품의 설정을 변경 할 수 있으며, 네트워크를 통해 WIZ750SR 모듈을 제어하는 전용
-프로그램\[1\]을 제작 할 수도 있습니다.
+프로그램을 제작 할 수도 있습니다.
 
-각각의 커맨드는 parameter의 유무에 따라 읽기/쓰기 동작을 수행하도록 제작되어 있으며, 읽기 전용 커맨드\[2\]도
+각각의 커맨드는 parameter의 유무에 따라 읽기/쓰기 동작을 수행하도록 제작되어 있으며, 읽기 전용 커맨드도
 존재합니다.
 
 시리얼 포트를 통한 제품의 **커맨드 모드 전환과 커맨드 입력은 Data UART port를 통해 수행**되며, **Debug
@@ -42,13 +42,13 @@ UART port는 커맨드의 입력과 수행을 지원하지 않습니다.**
 
 ### Abbreviations
 
-| CR | Carriage Return, 커서를 맨 왼쪽 시작 위치로 이동 ('\\r', 0x0D) |
-| -- | ------------------------------------------------- |
-| LF | Line Feed, 커서를 한 칸 아래로 이동하여 새 줄 추가 ('\\n', 0x0A)  |
-| N  | 커맨드의 개수                                           |
-| RW | 읽기와 쓰기 가능(Read / Write)                           |
-| RO | 읽기 전용(Read only)                                  |
-| WO | 쓰기 전용(Write only)                                 |
+| CR  | Carriage Return, 커서를 맨 왼쪽 시작 위치로 이동 ('\\r', 0x0D)   |
+| --- | ---------------------------------------------------------------- |
+| LF  | Line Feed, 커서를 한 칸 아래로 이동하여 새 줄 추가 ('\\n', 0x0A) |
+| N   | 커맨드의 개수                                                    |
+| RW  | 읽기와 쓰기 가능(Read / Write)                                   |
+| RO  | 읽기 전용(Read only)                                             |
+| WO  | 쓰기 전용(Write only)                                            |
 
 -----
 
@@ -67,35 +67,35 @@ UART port는 커맨드의 입력과 수행을 지원하지 않습니다.**
       - 제품 동작 시, 초기에 한 번의 설정 변경 등이 필요한 경우 활용 할 수 있습니다.
 
 ```
-  - **하드웨어 트리거 핀(HW_TRIG)을 Low로 인가합니다.** 
+  - 하드웨어 트리거 핀(HW_TRIG)을 Low로 인가합니다.
     * EVB의 경우, HW_TRIG 스위치를 Command로 위치 시킵니다.
-  - **WIZ750SR을 Power on 시킵니다.**
+  - WIZ750SR을 Power on 시킵니다.
     * 시리얼 커맨드 모드로 동작하는 경우, Debug UART port를 통해 다음 메시지를 확인 할 수 있습니다.
     * <code>> SEG:AT Mode</code> 
-  - **설정이 필요한 항목의 Command와 Parameter를 시리얼((Data UART port))로 입력합니다.**
-  - **[[#ex|EX]] 커맨드를 이용하여 데이터 전송 모드로 전환합니다.**
+  - 설정이 필요한 항목의 Command와 Parameter를 시리얼((Data UART port))로 입력합니다.
+  - [[#ex|EX]] 커맨드를 이용하여 데이터 전송 모드로 전환합니다.
     * 성공적으로 데이터 모드로 전환 된 경우, Debug UART port를 통해 다음 메시지를 확인 할 수 있습니다.
     * <code>> SEG:GW Mode</code>
 ```
 
-  - **2. 커맨드 모드 전환 코드\[1\]를 이용한 커맨드 모드 진입**
+  - **2. 커맨드 모드 전환 코드를 이용한 커맨드 모드 진입**
       - WIZ750SR 제품에서 지원하는 커맨드 모드 전환 코드를 이용하여 커맨드 모드로 진입 할 수 있습니다.
       - 커맨드 모드 전환 코드는 제품 설정 프로그램에서 커맨드 모드 전환 코드 사용 여부가 허용(Enabled) 되어
         있어야 활용 가능합니다. (**default: Enabled**)
       - 커맨드 모드 전환 코드는 3-byte Hex 코드로 구성되어 있으며, 사용자의 목적에 맞게 다른 값으로 변경
         가능합니다. 단 해당 코드는 Hex 값 만을 허용합니다. (**default: Hex
-        \[2B\]\[2B\]\[2B\]**\[2\])
+        \[2B\]\[2B\]\[2B\]** (Char '+++'))
 
 
 
 ``` 
-  - **제품 설정 프로그램(Configuration Tool)의 'Serial command mode switch code' 항목 Enable 여부와 3-bytes '커맨드 모드 전환 코드'를 확인합니다.**
-  - **Data UART port로 커맨드 모드 전환 코드를 입력하여 모드를 변경합니다.**
-    * 아래 **'커맨드 모드 전환 시 주의점'**을 확인하여야 합니다.
+  - 제품 설정 프로그램(Configuration Tool)의 'Serial command mode switch code' 항목 Enable 여부와 3-bytes '커맨드 모드 전환 코드'를 확인합니다.
+  - Data UART port로 커맨드 모드 전환 코드를 입력하여 모드를 변경합니다.
+    * 아래 '커맨드 모드 전환 시 주의점'을 확인하여야 합니다.
     * 시리얼 커맨드 모드로 정상 변경된 경우, Debug UART port를 통해 다음 메시지를 확인 할 수 있습니다.
     * <code>> SEG:AT Mode</code>  
-  - **설정이 필요한 항목의 Command와 Parameter를 시리얼로 입력합니다.**
-  - **[[#ex|EX]] 커맨드를 이용하여 데이터 전송 모드로 전환합니다.**
+  - 설정이 필요한 항목의 Command와 Parameter를 시리얼로 입력합니다.
+  - [[#ex|EX]] 커맨드를 이용하여 데이터 전송 모드로 전환합니다.
     * 성공적으로 데이터 모드로 전환 된 경우, Debug UART port를 통해 다음 메시지를 확인 할 수 있습니다.
     * <code>> SEG:GW Mode</code> 
 ```
@@ -108,10 +108,6 @@ UART port는 커맨드의 입력과 수행을 지원하지 않습니다.**
   - 커맨드 모드 전환 코드의 말미에는 CR과 LF를 붙이지 않습니다.((이와 반대로, 모드 전환 후 입력 될 시리얼 커맨드의 경우에는 각 커맨드의 마지막에 CR과 LF를 붙여야 합니다.))
   - 커맨드 모드 전환 코드 전, 후 간격과 사이 간격의 **초기 값은 500ms**이며, 시리얼 데이터 패킹 옵션의 **Timer** 값이 설정된 경우 간격 값은 설정된 Timer 값으로 변경됩니다.
 ```
-
-1.  Command mode switch trigger code via Data UART port
-
-2.  Char '+++'
 
 #### Serial Command Frame Format
 
@@ -141,7 +137,7 @@ UART port는 커맨드의 입력과 수행을 지원하지 않습니다.**
 ### Command over Ethernet
 
 다음과 같은 형태로 커맨드를 활용하면, Ethernet을 통해 제품을 제어하거나 모니터링 할 수 있습니다. 이 때 사용자는
-**UDP 혹은 TCP 클라이언트**\[1\]를 활용하여 지정된 형태로 커맨드를 전송하여야 하며, 커맨드 처리를 위한 포트 번호는
+**UDP 혹은 TCP 클라이언트**를 활용하여 지정된 형태로 커맨드를 전송하여야 하며, 커맨드 처리를 위한 포트 번호는
 **50001**번 입니다.
 
 **커맨드 전송을 위한 제품 네트워크 정보:**  
@@ -160,15 +156,15 @@ Ethernet을 통해 제품을 제어 할 때는 커맨드 코드 전송 이전에
       - 제품의 제어 및 모니터 시, **제품의 MAC 주소**를 나타내기 위한 필드입니다.
       - TCP와 UDP의 두 경우 모두 2-byte의 MA 커맨드 이후에 6-byte의 제품 MAC 주소를 포함시켜
         전송하여야 합니다.
-          - UDP로 Get Request만 Broadcast하는 경우\[2\], 해당 필드의 값을 Broadcast
-            MAC 주소\[3\]로 지정 할 수 있습니다. 이러한 경우 다수의 Peer에게 응답(response)를 수신
+          - UDP로 Get Request만 Broadcast하는 경우, 해당 필드의 값을 Broadcast
+            MAC 주소로 지정 할 수 있습니다. 이러한 경우 다수의 Peer에게 응답(response)를 수신
             할 수 있으며, 설정 프로그램의 Search 기능이 이러한 방법으로 구현 되어 있습니다.
 
   - **\[PW\] 커맨드**
       - 제품의 설정 중 제품 그룹 식별을 위한 **'Search ID Code'**를 사용 할 경우, PW 커맨드 이후에
         해당 제품의 설정 값을 포함시켜 전송하여야 합니다.
       - 만약 **'Search ID Code'**를 사용하지 않는 경우, PW 커맨드와 CR/LF 사이의 필드(Search
-        ID)를 비워서는 안되며, **0x20**\[4\] 값이 입력되어야 합니다.
+        ID)를 비워서는 안되며, **0x20** 값이 입력되어야 합니다.
 
 **Ethernet을 통한 커맨드 전송 시의 커맨드
 프레임은  
@@ -195,7 +191,7 @@ Ethernet을 통해 제품을 제어 할 때는 커맨드 코드 전송 이전에
     MA [MAC] [CR] [LF] PW [Search ID] [CR] [LF] ([Command] [CR] [LF]) * N
 
   - Get Request에 대한 Response는 Request와 동일한 포맷의 프레임에 Parameter를 포함한 형태로
-    응답합니다.\[1\]
+    응답합니다.
 
 ##### Set Request
 
@@ -317,7 +313,7 @@ Ethernet을 통해 제품을 제어 할 때는 커맨드 코드 전송 이전에
 
 
 
-**IP 주소 형식\[1\] 설정의 변경 시,
+**IP 주소 형식 설정의 변경 시,
 '192.168.11.5'와 같이  
 '.'(dot, 0x2E)도 함께 포함하여 전송하여야 합니다.**
 
@@ -328,9 +324,9 @@ Ethernet을 통해 제품을 제어 할 때는 커맨드 코드 전송 이전에
   - 커맨드 입력 시 Parameter가 포함되면 해당 값을 설정하는 Set 커맨드로 동작합니다.
   - 커맨드만 입력 시 해당 값을 읽어오는 Get 커맨드로 동작합니다.
   - 별도로 Read only 표기가 없다면 Get / Set을 모두 지원하는 커맨드 입니다.
-  - Write only 커맨드는 Parameter 없이 제품의 동작을 제어하는 커맨드\[2\] 입니다.
-  - 기본 커맨드 리스트\[3\]와 확장 커맨드 리스트\[4\]로 분리 구성 되어 있습니다.
-  - 커맨드 모드를 통해 변경한 사항 중 IP 할당 방법 설정, DNS 동작 관련 설정\[5\] 등의 항목은
+  - Write only 커맨드는 Parameter 없이 제품의 동작을 제어하는 커맨드 입니다.
+  - 기본 커맨드 리스트와 확장 커맨드 리스트로 분리 구성 되어 있습니다.
+  - 커맨드 모드를 통해 변경한 사항 중 IP 할당 방법 설정, DNS 동작 관련 설정 등의 항목은
     **[SV](#sv)** 커맨드를 이용한 '설정 저장' 이후 **[RT](#rt)** 커맨드를 이용한 '모듈 재시작'을
     수행해야 정상적으로 적용됩니다.
 
@@ -348,47 +344,47 @@ Ethernet을 통해 제품을 제어 할 때는 커맨드 코드 전송 이전에
 
 ### Basic Commands
 
-| CMD       | Category                     | Description                               | Type |
-| --------- | ---------------------------- | ----------------------------------------- | ---- |
-| [MC](#mc) | Device Information           | MAC address                               | RO   |
-| [VR](#vr) | :::                          | Firmware version                          | RO   |
-| [MN](#mn) | :::                          | Product name                              | RO   |
-| [ST](#st) | :::                          | Operation status                          | RO   |
-| [UN](#un) | :::                          | UART interface(Str)                       | RO   |
-| [UI](#un) | :::                          | UART interface(Code)                      | RO   |
-| [OP](#op) | Network Settings             | Network operation mode                    | RW   |
-| [IM](#im) | :::                          | IP address allocation method(Static/DHCP) | RW   |
+| CMD       | Category                     | Description                                 | Type |
+| --------- | ---------------------------- | ------------------------------------------- | ---- |
+| [MC](#mc) | Device Information           | MAC address                                 | RO   |
+| [VR](#vr) | :::                          | Firmware version                            | RO   |
+| [MN](#mn) | :::                          | Product name                                | RO   |
+| [ST](#st) | :::                          | Operation status                            | RO   |
+| [UN](#un) | :::                          | UART interface(Str)                         | RO   |
+| [UI](#un) | :::                          | UART interface(Code)                        | RO   |
+| [OP](#op) | Network Settings             | Network operation mode                      | RW   |
+| [IM](#im) | :::                          | IP address allocation method(Static/DHCP)   | RW   |
 | [LI](#li) | :::                          | Local IP 주소                               | RW   |
-| [SM](#sm) | :::                          | 서브넷 마스크                                   | RW   |
-| [GW](#gw) | :::                          | 게이트웨이 주소                                  | RW   |
-| [DS](#ds) | :::                          | DNS 서버 주소                                 | RW   |
-| [LP](#lp) | :::                          | Local 포트 번호                               | RW   |
-| [RH](#rh) | :::                          | 원격지(remote) IP 주소 / 도메인                   | RW   |
-| [RP](#rp) | :::                          | 원격지(remote) 포트 번호                         | RW   |
-| [BR](#br) | Data UART Settings           | UART Baud rate                            | RW   |
-| [DB](#db) | :::                          | UART Data bit                             | RW   |
-| [PR](#pr) | :::                          | UART Parity bit                           | RW   |
-| [SB](#sb) | :::                          | UART Stop bit                             | RW   |
-| [FL](#fl) | :::                          | UART Flow control                         | RW   |
-| [PT](#pt) | Serial Data Packing Options  | Time 설정 값                                 | RW   |
-| [PS](#ps) | :::                          | Size 설정 값                                 | RW   |
-| [PD](#pd) | :::                          | Char 설정 값                                 | RW   |
-| [IT](#it) | Options                      | 비활성 타이머 설정 값                              | RW   |
-| [CP](#cp) | :::                          | 연결 비밀번호 사용 설정(TCP server only)            | RW   |
-| [NP](#np) | :::                          | 연결 비밀번호(TCP server only)                  | RW   |
-| [SP](#sp) | :::                          | 검색 ID 코드                                  | RW   |
-| [DG](#dg) | :::                          | 디버그 메시지 허용 설정                             | RW   |
-| [KA](#ka) | :::                          | TCP Keep-alive 허용 설정                      | RW   |
-| [KI](#ki) | :::                          | TCP Keep-alive 초기 간격                      | RW   |
-| [KE](#ke) | :::                          | TCP Keep-alive 재시도 간격                     | RW   |
-| [RI](#ri) | :::                          | TCP 클라이언트 재연결 간격(TCP client only)         | RW   |
+| [SM](#sm) | :::                          | 서브넷 마스크                               | RW   |
+| [GW](#gw) | :::                          | 게이트웨이 주소                             | RW   |
+| [DS](#ds) | :::                          | DNS 서버 주소                               | RW   |
+| [LP](#lp) | :::                          | Local 포트 번호                             | RW   |
+| [RH](#rh) | :::                          | 원격지(remote) IP 주소 / 도메인             | RW   |
+| [RP](#rp) | :::                          | 원격지(remote) 포트 번호                    | RW   |
+| [BR](#br) | Data UART Settings           | UART Baud rate                              | RW   |
+| [DB](#db) | :::                          | UART Data bit                               | RW   |
+| [PR](#pr) | :::                          | UART Parity bit                             | RW   |
+| [SB](#sb) | :::                          | UART Stop bit                               | RW   |
+| [FL](#fl) | :::                          | UART Flow control                           | RW   |
+| [PT](#pt) | Serial Data Packing Options  | Time 설정 값                                | RW   |
+| [PS](#ps) | :::                          | Size 설정 값                                | RW   |
+| [PD](#pd) | :::                          | Char 설정 값                                | RW   |
+| [IT](#it) | Options                      | 비활성 타이머 설정 값                       | RW   |
+| [CP](#cp) | :::                          | 연결 비밀번호 사용 설정(TCP server only)    | RW   |
+| [NP](#np) | :::                          | 연결 비밀번호(TCP server only)              | RW   |
+| [SP](#sp) | :::                          | 검색 ID 코드                                | RW   |
+| [DG](#dg) | :::                          | 디버그 메시지 허용 설정                     | RW   |
+| [KA](#ka) | :::                          | TCP Keep-alive 허용 설정                    | RW   |
+| [KI](#ki) | :::                          | TCP Keep-alive 초기 간격                    | RW   |
+| [KE](#ke) | :::                          | TCP Keep-alive 재시도 간격                  | RW   |
+| [RI](#ri) | :::                          | TCP 클라이언트 재연결 간격(TCP client only) | RW   |
 | [EC](#ec) | :::                          | UART 입력 Echoback                          | RW   |
-| [TE](#te) | Command Mode Switch Settings | 커맨드 모드 전환 코드 허용 설정                        | RW   |
-| [SS](#ss) | :::                          | 커맨드 모드 전환 코드(3-bytes Hex)                 | RW   |
-| [EX](#ex) | Device Control               | 커맨드 모드 종료 (Data 모드로 전환)                   | WO   |
-| [SV](#sv) | :::                          | 디바이스 설정 저장                                | WO   |
-| [RT](#rt) | :::                          | 디바이스 Reboot                               | WO   |
-| [FR](#fr) | :::                          | 디바이스 공장 초기화                               | WO   |
+| [TE](#te) | Command Mode Switch Settings | 커맨드 모드 전환 코드 허용 설정             | RW   |
+| [SS](#ss) | :::                          | 커맨드 모드 전환 코드(3-bytes Hex)          | RW   |
+| [EX](#ex) | Device Control               | 커맨드 모드 종료 (Data 모드로 전환)         | WO   |
+| [SV](#sv) | :::                          | 디바이스 설정 저장                          | WO   |
+| [RT](#rt) | :::                          | 디바이스 Reboot                             | WO   |
+| [FR](#fr) | :::                          | 디바이스 공장 초기화                        | WO   |
 
 ### Extended Commands
 
@@ -583,14 +579,14 @@ Status I/O</td>
 
 
 
-| Status  | Description                           |
-| ------- | ------------------------------------- |
+| Status  | Description                                                   |
+| ------- | ------------------------------------------------------------- |
 | BOOT    | Boot 모드 입니다. 제품의 설정과 펌웨어 업데이트가 가능합니다. |
-| OPEN    | TCP 연결 성립 이전의 상태입니다.                  |
-| CONNECT | TCP 연결이 성립된 상태입니다.                    |
-| UPGRADE | 펌웨어 업데이트나 DHCP IP 할당 중인 상태입니다.        |
-| ATMODE  | 시리얼 AT 커맨드 모드 상태입니다.                  |
-| UDP     | UDP 모드 상태입니다.                         |
+| OPEN    | TCP 연결 성립 이전의 상태입니다.                              |
+| CONNECT | TCP 연결이 성립된 상태입니다.                                 |
+| UPGRADE | 펌웨어 업데이트나 DHCP IP 할당 중인 상태입니다.               |
+| ATMODE  | 시리얼 AT 커맨드 모드 상태입니다.                             |
+| UDP     | UDP 모드 상태입니다.                                          |
 
 
 
@@ -617,10 +613,10 @@ Status I/O</td>
 
 
 
-| UART Interface | Description                          |
-| -------------- | ------------------------------------ |
+| UART Interface | Description                                        |
+| -------------- | -------------------------------------------------- |
 | RS-232/TTL     | RS-232C 혹은 TTL 신호의 UART 입/출력을 지원합니다. |
-| RS-422/485     | RS-422과 RS-485 신호의 UART 입/출력을 지원합니다. |
+| RS-422/485     | RS-422과 RS-485 신호의 UART 입/출력을 지원합니다.  |
 
 
 
@@ -647,10 +643,10 @@ Status I/O</td>
 
 
 
-| Return value | Description                        | Remarks    |
-| ------------ | ---------------------------------- | ---------- |
+| Return value | Description                                    | Remarks    |
+| ------------ | ---------------------------------------------- | ---------- |
 | 0            | RS-232C 혹은 TTL 신호의 UART 입/출력 지원 모델 | RS-232/TTL |
-| 1            | RS-422과 RS-485 신호의 UART 입/출력 지원 모델 | RS-422/485 |
+| 1            | RS-422과 RS-485 신호의 UART 입/출력 지원 모델  | RS-422/485 |
 
 
 
@@ -1382,7 +1378,7 @@ Return value</th>
 -----
 
   - **Format:** `PT<Parameter>[CR][LF]`
-  - **Meaning:** 시리얼 인터페이스(Data UART)의 데이터 패킹 - 시간 옵션\[1\]
+  - **Meaning:** 시리얼 인터페이스(Data UART)의 데이터 패킹 - 시간 옵션
   - **Command Type:** Read / Write
   - **Parameter / Return Type:** Number (0 \~ 65535)
   - **Parameter / Return Value:**
@@ -1415,7 +1411,7 @@ Return value</th>
 -----
 
   - **Format:** `PS<Parameter>[CR][LF]`
-  - **Meaning:** 시리얼 인터페이스(Data UART)의 데이터 패킹 - 데이터 길이(size) 옵션\[2\]
+  - **Meaning:** 시리얼 인터페이스(Data UART)의 데이터 패킹 - 데이터 길이(size) 옵션
   - **Command Type:** Read / Write
   - **Parameter / Return Type:** Number (0 \~ 255)
   - **Parameter / Return Value:**
@@ -1448,7 +1444,7 @@ Return value</th>
 -----
 
   - **Format:** `PD<Parameter>[CR][LF]`
-  - **Meaning:** 시리얼 인터페이스(Data UART)의 데이터 패킹 - 지정 문자(char) 옵션\[3\]
+  - **Meaning:** 시리얼 인터페이스(Data UART)의 데이터 패킹 - 지정 문자(char) 옵션
   - **Command Type:** Read / Write
   - **Parameter / Return Type:** 1-byte Character (Hex only)
   - **Parameter / Return Value:**
@@ -2285,9 +2281,9 @@ Return value</th>
       - 해당 장비의 통신 준비가 완료 됨을 상대방 장치에 알리는 신호 (RS-232, Output)
       - 상대 장비의 DSR과 연결함
 
-| Return value | Meaning            | Remarks |
-| ------------ | ------------------ | ------- |
-| 0            | 통신 불가              | \-      |
+| Return value | Meaning                         | Remarks |
+| ------------ | ------------------------------- | ------- |
+| 0            | 통신 불가                       | \-      |
 | 1            | 해당 장비의 통신 준비가 완료 됨 | \-      |
 
 
@@ -2318,18 +2314,18 @@ Return value</th>
   - **TCP connection status 핀으로 동작하는 경우**
       - TCP server / client / mixed mode only 
 
-| Return value | Meaning            | Remarks |
-| ------------ | ------------------ | ------- |
-| 0            | TCP 연결 성립 상태       | \-      |
+| Return value | Meaning                       | Remarks |
+| ------------ | ----------------------------- | ------- |
+| 0            | TCP 연결 성립 상태            | \-      |
 | 1            | TCP 통신이 연결되어 있지 않음 | \-      |
 
   - \*\* DSR(Data Set Ready) 핀으로 동작하는 경우\*\*
       - 상대 장비의 통신 준비가 완료 되었는지 확인하는 신호 (RS-232, Input)
       - 상대 장비의 DTR과 연결함
 
-| Return value | Meaning            | Remarks |
-| ------------ | ------------------ | ------- |
-| 0            | 통신 불가              | \-      |
+| Return value | Meaning                         | Remarks |
+| ------------ | ------------------------------- | ------- |
+| 0            | 통신 불가                       | \-      |
 | 1            | 상대 장비의 통신 준비가 완료 됨 | \-      |
 
 
@@ -2342,6 +2338,17 @@ Return value</th>
       - In ASCII: `S10\r\n`
 
 
+
+## Error Code
+
+잘못된 Command set을 입력할 경우 Error 코드가 반환됩니다.
+
+| Error Message  | Description                                          | Example   |
+| -------------- | ---------------------------------------------------- | --------- |
+| ERIGNORED      | Read Only, Write 할수 없는 Command                   | **MC**111 |
+| ERNOCOMMAND    | 정의 되지 않은 Command 를 입력                       | **IP**    |
+| ERINVALIDPARAM | Parameter를 잘못 입력                                | **LI**22  |
+| ERNOTAVAIL     | Write Only, Parameter가 없는 Command에 Parameter입력 | **SV**00  |
 
 -----
 

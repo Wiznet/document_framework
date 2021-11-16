@@ -18,11 +18,11 @@ WIZ750SR provides various commands for the product’s setting and
 control. Each command is composed of a **2 byte alphabet character
 strings** and all **capital letters**. By using these commands users can
 add script to the serial device or main MCU for product settings, and
-also can create a program\[1\] for controlling the WIZ750SR module via
+also can create a program for controlling the WIZ750SR module via
 network.
 
 Each command can operate read/write depending on the parameter, and
-there is also a **read only command**\[2\].
+there is also a **read only command**.
 
 Entering the command and switching the command mode of the serial port
 device is done using the **data UART** port. The **debug UART** port is
@@ -41,13 +41,13 @@ The different command modes are as following.
 
 ### Abbreviations
 
-| CR | Carriage Return, moves the cursor to the far left(starting) position ('\\r', 0x0D) |
-| -- | ---------------------------------------------------------------------------------- |
-| LF | Line Feed, moves the cursor to the new line below ('\\n', 0x0A)                    |
-| N  | Number of commands                                                                 |
-| RW | Read / Write                                                                       |
-| RO | Read only                                                                          |
-| WO | Write only                                                                         |
+| CR  | Carriage Return, moves the cursor to the far left(starting) position ('\\r', 0x0D) |
+| --- | ---------------------------------------------------------------------------------- |
+| LF  | Line Feed, moves the cursor to the new line below ('\\n', 0x0A)                    |
+| N   | Number of commands                                                                 |
+| RW  | Read / Write                                                                       |
+| RO  | Read only                                                                          |
+| WO  | Write only                                                                         |
 
 -----
 
@@ -57,7 +57,7 @@ The different command modes are as following.
 2.  For example, when the **MC** command for checking the MAC address
     and the **VR** command for checking the firmware are identical.
     
-    ## Usage of Command Set
+## Usage of Command Set
 
 ### Entering Serial Command Mode
 
@@ -83,14 +83,14 @@ mode.
      * If the switch to data transmission mode is successful, users can check the following message via Debug UART port.
      * <code>> SEG:GW Mode </code>
 
- - **2. Enter command mode using command mode switch code**\[1\]
+ - **2. Enter command mode using command mode switch code**
       - Users can enter command mode using the command mode switch code
         provided by WIZ750SR.
       - The command mode switch codes can be used only if it is enabled
         in the configuration tool. (**default: Enabled**)
       - The command mode switch code is composed of 3-byte Hex codes,
         and can be changed to a different value if needed. The code only
-        accepts Hex value. (**default: Hex \[2B\]\[2B\]\[2B**\]\[2\])
+        accepts Hex value. (**default: Hex \[2B\]\[2B\]\[2B**\] (Char '+++'))
 
   - **Check if 'Serial command mode switch code' is enabled at the configuration tool and the 3-bytes 'command mode switch code'.**
   - **Enter the ‘command mode switch code’ via data UART port to change modes.**
@@ -103,9 +103,6 @@ mode.
     * <code>> SEG:GW Mode </code>
 
 
-1.  Command mode switch trigger code via Data UART port
-
-2.  Char '+++'
 
 **Please be cautious when using the trigger code to switch command
 mode.**
@@ -147,7 +144,7 @@ command.
 ### Command over Ethernet
 
 Users can control or monitor WIZ750SR via Ethernet by using the
-following commands. The user must use **UDP** or **TCP client** \[1\] to
+following commands. The user must use **UDP** or **TCP client**  to
 send commands, and the port number for processing the commands is
 **50001**.
 
@@ -169,9 +166,9 @@ The two additional commands are **MA** and **PW**.
       - This field shows the **product’s MAC address**.
       - In both cases of TCP and UDP, 6-byte MAC address must be
         included after the 2-byte MA command.
-          - When users wish to broadcast only Get Request via UDP\[2\],
+          - When users wish to broadcast only Get Request via UDP,
             the relevant field value can be set as the Broadcast MAC
-            address\[3\]. Users can receive responses from multiple
+            address. Users can receive responses from multiple
             peers. The search function of the configuration tool is
             implemented like this
 
@@ -197,7 +194,7 @@ The two additional commands are **MA** and **PW**.
     MA [MAC] [CR] [LF] PW [Search ID] [CR] [LF] ([Command] [CR] [LF]) * Number of commands
 
   - The response for ‘get request’ will have the identical format as
-    ‘request’ but include the parameter\[1\].
+    ‘request’ but include the parameter.
 
 ##### Set Request
 
@@ -298,7 +295,7 @@ The two additional commands are **MA** and **PW**.
     None
 
 **When modifying the IP
-address format\[1\], '.'(dot, 0x2E) must be included such as the
+address format, '.'(dot, 0x2E) must be included such as the
 '192.168.11.5'.** 
 
 -----
@@ -309,14 +306,12 @@ address format\[1\], '.'(dot, 0x2E) must be included such as the
     parameter is included when entering the command.
   - The Get command reading the applicable value will operate if only
     the command is entered.
-  - If the ‘Read only’ sign does not appear, it means the command
-    supports both Get / Set. 
+  - If the ‘Read only’ sign does not appear, it means the command supports both Get / Set. 
   - Write only command is for controlling the product without the
-    parameter\[2\].
-  - There is a basic command list\[3\] and an expanded command
-    list\[4\].
+    parameter.
+  - There is a basic command list and an expanded command list.
   - Settings like IP allocation settings or DNS operation settings via
-    command mode\[5\] require ‘module reboot’ via **[RT](#rt)** command
+    command mode require ‘module reboot’ via **[RT](#rt)** command
     after the settings are saved via **[SV](#sv)** command.
 
 1.  IPv4 address forms like IP address, Gateway address, subnet mask,
@@ -1571,7 +1566,7 @@ Return value</th>
 
   - **Format:** `PT<Parameter>[CR][LF]`
   - **Meaning:** Data packing of serial interface (Data UART) – Time
-    delimiter\[1\]
+    delimiter
   - **Command Type:** Read / Write
   - **Parameter / Return Type:** Number (0 \~ 65535)
   - **Parameter / Return Value:**
@@ -1605,7 +1600,7 @@ Return value</th>
 
   - **Format:** `PS<Parameter>[CR][LF]`
   - **Meaning:** Data packing of serial interface (Data UART) – Data
-    size delimiter\[2\]
+    size delimiter
   - **Command Type:** Read / Write
   - **Parameter / Return Type:** Number (0 \~ 255)
   - **Parameter / Return Value:**
@@ -1648,7 +1643,7 @@ Return value</th>
 
   - **Format:** `PD<Parameter>[CR][LF]`
   - **Meaning:** Data packing of serial interface (Data UART) -
-    designated character delimiter\[1\]
+    designated character delimiter
   - **Command Type:** Read / Write
   - **Parameter / Return Type:** 1-byte Character (Hex only)
   - **Parameter / Return Value:**
@@ -2559,6 +2554,20 @@ Return value</th>
       - In ASCII: `S10\r\n`
 
 
+
+
+
+## Error Code
+
+
+If you enter an incorrect command set, an Error code is returned.
+
+| Error Message  | Description                 | Example   |
+| -------------- | --------------------------- | --------- |
+| ERIGNORED      | Read Only Command           | **MC**111 |
+| ERNOCOMMAND    | Undefined Command           | **IP**    |
+| ERINVALIDPARAM | Wrong Parameter             | **LI**22  |
+| ERNOTAVAIL     | Write Only and No Parameter | **SV**00  |
 
 -----
 
