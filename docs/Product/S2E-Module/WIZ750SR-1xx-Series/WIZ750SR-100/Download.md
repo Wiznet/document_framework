@@ -138,7 +138,7 @@ Repository**
 ## W7500(P) ISP Tool
 
   
-[Go to ISP tool manual & Program download](/Product/iMCU/W7500/documents/appnote/how_to_use_isp_tool)  
+[Go to ISP tool manual & Program download](/Product/iMCU/W7500/documents/appnote/how-to-use-isp-tool)  
 
 -----
 

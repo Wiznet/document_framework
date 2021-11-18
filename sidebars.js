@@ -110,10 +110,10 @@ module.exports = {
 								label: 'Appnote',
 								items: [
 								'Product/iMCU/W7500/documents/appnote/how_to_install_KEIL',
-								'Product/iMCU/W7500/documents/appnote/how_to_make_keil_new_project_for_w7500',
-								'Product/iMCU/W7500/documents/appnote/how_to_use_gcc_for_w7500_peripherals_examples',
-								'Product/iMCU/W7500/documents/appnote/how_to_use_isp_tool',
-								'Product/iMCU/W7500/documents/appnote/how_to_use_mdk_for_w7500_peripherals_examples',							
+								'Product/iMCU/W7500/documents/appnote/how-to-make-keil-new-project-for-w7500',
+								'Product/iMCU/W7500/documents/appnote/how-to-use-gcc-for-w7500-peripherals-examples',
+								'Product/iMCU/W7500/documents/appnote/how-to-use-isp-tool',
+								'Product/iMCU/W7500/documents/appnote/how-to-use-mdk-for-w7500-peripherals-examples',							
 						],
 						},
 							],
@@ -250,7 +250,7 @@ module.exports = {
 						'Product/iEthernet/W5500/W5500-EVB/getting_started',
 						'Product/iEthernet/W5500/W5500-EVB/make_new_projects',
 						'Product/iEthernet/W5500/W5500-EVB/how_to_install_and_activate_lpcxpresso',
-						'Product/iEthernet/W5500/W5500-EVB/w5500-evb_firmware',
+						//'Product/iEthernet/W5500/W5500-EVB/w5500-evb_firmware',
 					],
 					}
 				],
@@ -828,118 +828,22 @@ module.exports = {
 			type: 'category',
 			label: 'Mbed WIZwiki Platform',
 			items: [
-			'Product/Mbed-WIZwiki-Platform/mbed_wizwiki_platform',
+			'Product/Mbed-WIZwiki-Platform/mbed-wizwiki-platform',
+			'Product/Mbed-WIZwiki-Platform/wizwiki-w7500',
+			'Product/Mbed-WIZwiki-Platform/wizwiki-w7500p',
+			'Product/Mbed-WIZwiki-Platform/wizwiki-w7500eco',
+			'Product/Mbed-WIZwiki-Platform/wizwiki-w7500-eco-shield',
 			{
 			type: 'category',
-			label: 'WIZwiki-W7500',
+			label: 'Getting Started',
 			items: [
-			'Product/Mbed-WIZwiki-Platform/WIZwiki-W7500/overview',
-			{
-				type: 'category',
-				label: 'Getting Started',
-				items: [
-				'Product/Mbed-WIZwiki-Platform/WIZwiki-W7500/how_to_start_wizwiki_w7500_board',
-				'Product/Mbed-WIZwiki-Platform/WIZwiki-W7500/how_to_install_wizwiki_7500_serial_driver',
-				'Product/Mbed-WIZwiki-Platform/WIZwiki-W7500/how_to_write_firmware_into_wizwiki_w7500',
-				'Product/Mbed-WIZwiki-Platform/WIZwiki-W7500/how_to_debug_wizwiki_w7500',
-				'Product/Mbed-WIZwiki-Platform/WIZwiki-W7500/how_to_write_firmware_into_cmsis_dap',
-				'Product/Mbed-WIZwiki-Platform/WIZwiki-W7500/using_cmsis_dap_debugger',
+				'Product/Mbed-WIZwiki-Platform/Getting-Started/how-to-start-wizwiki-w7500-board',
+				'Product/Mbed-WIZwiki-Platform/Getting-Started/how-to-install-wizwiki-7500-serial-driver',
+				'Product/Mbed-WIZwiki-Platform/Getting-Started/how-to-write-firmware-into-wizwiki-w7500',
+				'Product/Mbed-WIZwiki-Platform/Getting-Started/how-to-debug-wizwiki-w7500',
+				'Product/Mbed-WIZwiki-Platform/Getting-Started/how-to-write-firmware-into-cmsis-dap',
+				'Product/Mbed-WIZwiki-Platform/Getting-Started/using-cmsis-dap-debugger',
 				],
-				},
-				{
-					type: 'category',
-					label: 'Make New WIZwiki-W7500 Projects',
-					items: [
-					'Product/Mbed-WIZwiki-Platform/WIZwiki-W7500/how_to_install_keil_uvision',
-					'Product/Mbed-WIZwiki-Platform/WIZwiki-W7500/how_to_make_w7500_keil_project',
-					'Product/Mbed-WIZwiki-Platform/WIZwiki-W7500/how_to_use_mdk_for_w7500',
-					'Product/Mbed-WIZwiki-Platform/WIZwiki-W7500/how_to_use_makefile_with_windows7',
-					],
-					},
-					{
-						type: 'category',
-						label: 'Etc.',
-						items: [
-						'Product/Mbed-WIZwiki-Platform/WIZwiki-W7500/how_to_use_isp_tool',
-						],
-						},
-			],
-			},
-			{
-			type: 'category',
-			label: 'WIZwiki-W7500P',
-			items: [
-			'Product/Mbed-WIZwiki-Platform/WIZwiki-W7500P/overview',
-			{
-				type: 'category',
-				label: 'Getting Started',
-				items: [	
-				'Product/Mbed-WIZwiki-Platform/WIZwiki-W7500P/how_to_start_wizwiki_w7500p_board',
-				'Product/Mbed-WIZwiki-Platform/WIZwiki-W7500P/how_to_install_wizwiki_w7500p_serial_driver',
-				'Product/Mbed-WIZwiki-Platform/WIZwiki-W7500P/how_to_write_firmware_into_wizwiki_w7500p',
-				'Product/Mbed-WIZwiki-Platform/WIZwiki-W7500P/how_to_debug_wizwiki_w7500p',
-				'Product/Mbed-WIZwiki-Platform/WIZwiki-W7500P/how_to_write_firmware_into_cmsis_dap',
-				
-				],
-				},
-				{
-					type: 'category',
-					label: 'Make New WIZwiki-W7500P Projects',
-					items: [
-					'Product/Mbed-WIZwiki-Platform/WIZwiki-W7500P/make_new_wizwiki_w7500p_projects',
-					'Product/Mbed-WIZwiki-Platform/WIZwiki-W7500P/how_to_install_keil_uvision',
-					'Product/Mbed-WIZwiki-Platform/WIZwiki-W7500P/how_to_make_w7500_keil_project',
-					'Product/Mbed-WIZwiki-Platform/WIZwiki-W7500P/how_to_use_mdk_for_w7500',
-					'Product/Mbed-WIZwiki-Platform/WIZwiki-W7500P/how_to_use_makefile_with_windows7',
-					],
-					},
-					{
-						type: 'category',
-						label: 'Etc.',
-						items: [
-						'Product/Mbed-WIZwiki-Platform/WIZwiki-W7500P/how_to_use_isp_tool',
-						],
-						},
-			],
-			},
-			{
-			type: 'category',
-			label: 'WIZwiki-W7500ECO',
-			items: [
-			'Product/Mbed-WIZwiki-Platform/WIZwiki-W7500ECO/overview',
-			'Product/Mbed-WIZwiki-Platform/WIZwiki-W7500ECO/eco-shield',
-			{
-				type: 'category',
-				label: 'Getting Started',
-				items: [
-				'Product/Mbed-WIZwiki-Platform/WIZwiki-W7500ECO/how_to_debug_wizwiki_w7500eco',
-				'Product/Mbed-WIZwiki-Platform/WIZwiki-W7500ECO/how_to_start_wizwiki_w7500eco_board',
-				'Product/Mbed-WIZwiki-Platform/WIZwiki-W7500ECO/how_to_install_wizwiki_w7500eco_driver',
-				'Product/Mbed-WIZwiki-Platform/WIZwiki-W7500ECO/how_to_write_firmware_wizwiki_w7500eco',
-				'Product/Mbed-WIZwiki-Platform/WIZwiki-W7500ECO/how_to_write_firmware_into_cmsis_dap',
-				'Product/Mbed-WIZwiki-Platform/WIZwiki-W7500ECO/using_cmsis_dap_debugger',
-				
-				],
-				},
-				{
-					type: 'category',
-					label: 'Make New WIZwiki-W7500ECO Projects',
-					items: [
-					'Product/Mbed-WIZwiki-Platform/WIZwiki-W7500ECO/make_new_wizwiki_w7500eco_projects',
-					'Product/Mbed-WIZwiki-Platform/WIZwiki-W7500ECO/how_to_install_keil_uvision',
-					'Product/Mbed-WIZwiki-Platform/WIZwiki-W7500ECO/how_to_make_w7500_keil_project',
-					'Product/Mbed-WIZwiki-Platform/WIZwiki-W7500ECO/how_to_use_mdk_for_w7500',
-					'Product/Mbed-WIZwiki-Platform/WIZwiki-W7500ECO/how_to_use_makefile_with_windows7',
-					],
-				},
-					{
-						type: 'category',
-						label: 'Etc.',
-						items: [
-						'Product/Mbed-WIZwiki-Platform/WIZwiki-W7500ECO/how_to_use_isp_tool',
-						],
-					},
-			],
 			},
 			{
 			type: 'category',

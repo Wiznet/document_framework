@@ -83,9 +83,9 @@ The **IOP4IoT W7500** chip is the one-chip solution which integrates an ARM Cort
 
 ## Mbed WIZwiki Platform
 
-  - [WIZwiki-W7500](Mbed-WIZwiki-Platform/WIZwiki-W7500/Overview.md)
-  - [WIZwiki-W7500P](Mbed-WIZwiki-Platform/WIZwiki-W7500P/Overview.md) 
-  - [WIZwiki-W7500ECO](Mbed-WIZwiki-Platform/WIZwiki-W7500ECO/Overview.md)
+  - [WIZwiki-W7500](Mbed-WIZwiki-Platform/wizwiki-w7500.md)
+  - [WIZwiki-W7500P](Mbed-WIZwiki-Platform/wizwiki-w7500p.md) 
+  - [WIZwiki-W7500ECO](Mbed-WIZwiki-Platform/wizwiki-w7500eco.md)
   - [WIZwiki-W7500 mbed Starter Kit](Mbed-WIZwiki-Platform/WIZwiki-W7500-Mbed-Starter-Kit/WIZwiki-W7500_Mbed_Starter_Kit.md)
 
 -----

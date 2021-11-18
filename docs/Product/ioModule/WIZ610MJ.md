@@ -7,7 +7,7 @@ date: 2020-04-15
 ### Overview
 
 WIZ610MJ is the network module that includes W6100 (TCP/IP hardwired chip, include PHY), MAG-JACK (RJ45 with X’FMR) with other glue logics. Please click the link for the further information about
-**[W6100](../../iEthernet/W6100/overview)**. It can be used as a component and no effort is required to interface W6100 and Transformer. The best advantage of the WIZ610MJ is that it supports IPv6. The WIZ610MJ is an  option for users who want to develop their Internet enabling systems rapidly.
+**[W6100](../iEthernet/W6100/overview)**. It can be used as a component and no effort is required to interface W6100 and Transformer. The best advantage of the WIZ610MJ is that it supports IPv6. The WIZ610MJ is an  option for users who want to develop their Internet enabling systems rapidly.
 
 |                                                  |
 | ------------------------------------------------ |

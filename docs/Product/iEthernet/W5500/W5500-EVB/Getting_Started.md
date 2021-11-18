@@ -4,18 +4,15 @@ title: Getting Started
 date: 2020-04-07
 ---
 
+## Connect your board
 
-## Hello World
-
-If you've just purchased W5500 EVB, let the following points for the
-checking board operation at the first time.
+If you've just purchased W5500 EVB, follow below steps to start working with your board for the first time.
 
 Connect your board to a PC using USB and connect LAN cable. **Don't forget : LAN cable should be
 connected to the board**  
 The W5500 EVB Need to be LAN cable connected because default demo
-firmware check the PHY link status periodically. If the LAN cable is not
-connected, the board does not operate and RGB LED is not blinking.
-
+firmware checks the PHY link status periodically. If the LAN cable is not
+connected, the board will not operate and RGB LED will not be not blinking.
 
 #### 1. RGB LED blinky
 
@@ -43,25 +40,13 @@ Please connect with any terminal to that serial port with
 
 
 #### 4. Loopback test
- The following is the
-![](/img/products/w5500/w5500_evb/icons/link.png) [loopback test procedure of the 'Tinygecko' board + W5500
-chip](/osh/energymicro/tinygecko#loopback). (Network configuration
-information can vary among different firmware.)  
-Please progress the test in accordance with the following procedure.  
-If you need detailed figures, please refer to the next link.  
-![](/img/products/w5500/w5500_evb/icons/link.png) [loopback\_test\#TCP and
-UDP loopback test](/osh/cookie/loopback_test#TCP%20and%20UDP%20loopback%20test)
-
 
 The loopback example runs with a TCP session and a UDP session.
 
 First, Board and your PC should have the network config with the same
 network range.  
 If you want to modify board-side, edit the following code in
-\[src\>\>LB\_main.c\] with the same range which your PC has. If you want
-to modify your PC-side, refer to [IP
-configuration](/osh/cookie/ip_conf_b).
-
+\[src\>\>LB\_main.c\] with the same range which your PC has.
 ``` cpp
 wiz_NetInfo gWIZNETINFO = { .mac = {0x00, 0x08, 0xdc,0x00, 0xab, 0xcd}, //<-mac should be unique.
                             .ip = {192, 168, 1, 123},
@@ -75,7 +60,7 @@ wiz_NetInfo gWIZNETINFO = { .mac = {0x00, 0x08, 0xdc,0x00, 0xab, 0xcd}, //<-mac 
 ##### TCP
 
 1.  Connect to Board 
-      - Using [Hercules test program](/osh/cookie/loopback_test) or
+      - Using [Hercules test program](https://www.hw-group.com/software/hercules-setup-utility) or
         others, try to connect to board with xxx.xxx.xxx.xxx listen port
         5000.
 2.  When connected
@@ -92,7 +77,7 @@ wiz_NetInfo gWIZNETINFO = { .mac = {0x00, 0x08, 0xdc,0x00, 0xab, 0xcd}, //<-mac 
 ##### UDP
 
 1.  Send data
-      - Using [Hercules test program](/osh/cookie/loopback_test) or
+      - Using [Hercules test program](https://www.hw-group.com/software/hercules-setup-utility) or
         others, send to board's xxx.xxx.xxx.xxx port 3000.
 2.  When success
       - check to the loopback data
@@ -108,22 +93,17 @@ wiz_NetInfo gWIZNETINFO = { .mac = {0x00, 0x08, 0xdc,0x00, 0xab, 0xcd}, //<-mac 
 
 ## Firmware
 
-W5500 EVB firmware project based on LPCXpresso IDE. For more details
-about LPCXpresso IDE, please refer to
-![](/img/link.png) [NXP LPCXpresso platform
-page](http://www.lpcware.com/lpcxpresso).
+W5500 EVB firmware project based on LPCXpresso IDE. For more details about LPCXpresso IDE, please refer to ![](/img/link.png) [NXP LPCXpresso platform page](http://www.lpcware.com/lpcxpresso).
 
 **LPCXpresso IDE Install & Activation Guide**
-![](/img/link.png) [How to Install and
-Activate LPCXpresso IDE](how_to_install_and_activate_lpcxpresso)
+![](/img/link.png) [How to Install and Activate LPCXpresso IDE](how_to_install_and_activate_lpcxpresso)
 
-**Download the Libraries and Application example source code for
-W5500-EVB** ![](/img/github.png) https://github.com/Wiznet/W5500_EVB
+**Download the Libraries and Application example source code for W5500-EVB** ![](/img/github.png) https://github.com/Wiznet/W5500_EVB
 
 
 -----
 
-## Downloading a new program
+## Download a new program
 
 ### Flash programming via UART
 
@@ -136,8 +116,7 @@ after reset or power supply.
 
 Flash Magic is a program to perform in-system programming (ISP) of the
 LPC flash via its UART.  
-![](/img/products/w5500/w5500_evb/icons/link.png)['Flash Magic' download
-page](http://www.flashmagictool.com/)
+![](/img/products/w5500/w5500_evb/icons/link.png)['Flash Magic' download page](http://www.flashmagictool.com/)
 
 
 #### 3. Tool settings

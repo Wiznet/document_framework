@@ -17,10 +17,10 @@ WIZwiki-W7500 mbed Starter Kit products. Include the following:
 ![mbed Starter Kit all parts](/img/products/wizwiki_mbed_kit/kit_kr/mbed_starter_kit_all.jpg)
 
 The WIZwiki-W7500 mbed Starter Kit is a product that you can learn how
-to take advantage of **🌎[WIZwiki-W7500](../WIZwiki-W7500/overview)**
+to take advantage of **🌎[WIZwiki-W7500](../wizwiki-w7500)**
 platform board.
 
-This Kit includes the **[WIZwiki-W7500](../WIZwiki-W7500/overview)**
+This Kit includes the **[WIZwiki-W7500](../wizwiki-w7500)**
 board, USB cable, LAN cable, breadboards, jumper wires, sensors,
 buttons, LEDs and resistors for users to implement the hardware DIY.
 
@@ -80,7 +80,7 @@ These documents are available at the ARM mbed website.
 
 These documents are available at WIZnet’s website.
 
-   * [WIZnet WIZwiki-W7500 page](../WIZwiki-W7500/overview)
-   * [How to start W7500 Board](../WIZwiki-W7500/how_to_start_wizwiki_w7500_board)
-   * [How to install W7500 serial driver](../WIZwiki-W7500/how_to_install_wizwiki_7500_serial_driver)
-   * [How to write the firmware into W7500](../WIZwiki-W7500/how_to_write_firmware_into_wizwiki_w7500)
+   * [WIZnet WIZwiki-W7500 page](../wizwiki-w7500)
+   * [How to start W7500 Board](../Getting-Started/how-to-start-wizwiki-w7500-board)
+   * [How to install W7500 serial driver](../Getting-Started/how-to-install-wizwiki-7500-serial-driver)
+   * [How to write the firmware into W7500](../Getting-Started/how-to-write-firmware-into-wizwiki-w7500)

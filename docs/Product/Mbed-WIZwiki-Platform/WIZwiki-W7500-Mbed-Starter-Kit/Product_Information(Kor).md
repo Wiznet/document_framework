@@ -19,10 +19,10 @@ date: 2020-04-08
 ![mbed Starter Kit all parts](/img/products/wizwiki_mbed_kit/kit_kr/mbed_starter_kit_all.jpg)
 
 WIZwiki-W7500 mbed 스타터킷은
-**[WIZwiki-W7500](../WIZwiki-W7500/overview)** 의 활용 방법을 학습할 수 있는
+**[WIZwiki-W7500](../wizwiki-w7500)** 의 활용 방법을 학습할 수 있는
 제품이다.
 
-DIY (Do-It-Yourself) 방식으로 하드웨어를 구현할 수 있도록 **[WIZwiki-W7500 보드](../WIZwiki-W7500/overview)** 와 USB케이블, LAN케이블, 브레드보드, 와이어,
+DIY (Do-It-Yourself) 방식으로 하드웨어를 구현할 수 있도록 **[WIZwiki-W7500 보드](../wizwiki-w7500)** 와 USB케이블, LAN케이블, 브레드보드, 와이어,
 센서, 버튼, LED, 저항 등을 포함하고 있다.
 
 ARM mbed에 올려진 각종 라이브러리와 예제 코드를 이용해, 초보 사용자도 쉽게 소프트웨어를 구현할 수 있다.
@@ -69,7 +69,7 @@ USB케이블, LAN케이블, 브레드보드, 와이어, 센서, 버튼, LED, 저
 
 mbed 의 예제와 온라인 컴파일러를 이용해 실습해 볼 수 있는 튜토리얼이다.
 
-  * [스타터 킷 튜토리얼](/)
+  * [스타터 킷 튜토리얼](tutorial_kor)
   
 ## 관련 자료들
 
@@ -80,10 +80,10 @@ ARM mbed 사이트 자료들이다.
 
 위즈네트에서 운영하는 위즈위키 페이지의 자료들이다.
 
-  - [WIZnet WIZwiki-W7500 페이지](../WIZwiki-W7500/overview)
-  - [WIZwiki-W7500 Board 시작하기](../WIZwiki-W7500/how_to_start_wizwiki_w7500_board)
-  - [WIZwiki-W7500를 위한 시리얼드라이버 설치하기](../WIZwiki-W7500/how_to_install_wizwiki_7500_serial_driver)
-  - [WIZwiki-W7500에 Firmware 굽기](../WIZwiki-W7500/how_to_write_firmware_into_wizwiki_w7500)
+  - [WIZnet WIZwiki-W7500 페이지](../wizwiki-w7500)
+  - [WIZwiki-W7500 Board 시작하기](../Getting-Started/how-to-start-wizwiki-w7500-board)
+  - [WIZwiki-W7500를 위한 시리얼드라이버 설치하기](../Getting-Started/how-to-install-wizwiki-7500-serial-driver)
+  - [WIZwiki-W7500에 Firmware 굽기](../Getting-Started/how-to-write-firmware-into-wizwiki-w7500)
 
 
 #### 관련 페이지로 가기

@@ -27,10 +27,10 @@ You may find following indexes to start with:
 including datasheets, source files, application notes and related
 application info.
 
-  - **[WIZwiki-W7500](Product/iMCU/W7500/Overview.md)**![](/img/star.png)
-  - **[WIZwiki-W7500P](Product/iMCU/W7500P/Overview.md)**
+  - **[WIZwiki-W7500](Product/Mbed-WIZwiki-Platform/wizwiki-w7500.md)**![](/img/star.png)
+  - **[WIZwiki-W7500P](Product/Mbed-WIZwiki-Platform/wizwiki-w7500p.md)**
     ![](/img/star.png)
-  - [WIZwiki-W7500ECO](Product/Mbed-WIZwiki-Platform/WIZwiki-W7500ECO/Overview.md)
+  - [WIZwiki-W7500ECO](Product/Mbed-WIZwiki-Platform/wizwiki-w7500eco.md)
   - [WIZwiki-W7500 mbed Starter Kit](Product/Mbed-WIZwiki-Platform/WIZwiki-W7500-Mbed-Starter-Kit/WIZwiki-W7500_Mbed_Starter_Kit.md)
   - [W7500](Product/iMCU/W7500/Overview.md)
   - [W7500P](Product/iMCU/W7500P/Overview.md)

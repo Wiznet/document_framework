@@ -125,10 +125,10 @@ page of configuration in Github.
 
 ## W7500(P) ISP Tool
 
-  - **[Guide: How to use ISP tool](../iMCU/W7500/documents/appnote/how_to_use_isp_tool)**
+  - **[Guide: How to use ISP tool](../iMCU/W7500/documents/appnote/how-to-use-isp-tool)**
   - [W7500(P) Flash programming guide using ISP Tool](WIZ750SR/developers_guide-EN#flash-programming-using-wizisp-tool)
 
-[Go to ISP tool manual & Program download](../iMCU/W7500/documents/appnote/how_to_use_isp_tool)  
+[Go to ISP tool manual & Program download](../iMCU/W7500/documents/appnote/how-to-use-isp-tool)  
 
 -----
 

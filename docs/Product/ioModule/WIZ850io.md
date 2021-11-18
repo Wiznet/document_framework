@@ -15,7 +15,7 @@ compatible with WIZ820io. WIZ820io users, to migrate to WIZ850io, need
 to modify the Firmware.  
 
 For the detailed information on implementation of Hardware TCP/IP, refer
-to the [W5500 Datasheet](../../iEthernet/W5500/datasheet).
+to the [W5500 Datasheet](../iEthernet/W5500/datasheet).
 
 ![WIZ850io](/img/products/wiz850io/wiz850io.png)  
 
@@ -284,7 +284,7 @@ communicate with WIZ850io. (Refer to 5. Timing Diagram)
 
 As WIZ850io consists of W5500 and others, SPI operation of WIZ850io
 follows one of W5500. For more information about SPI operation of
-WIZ850io, please refer to [W5500 Datasheet](../../iEthernet/W5500/datasheet)).
+WIZ850io, please refer to [W5500 Datasheet](../iEthernet/W5500/datasheet).
 
 -----
 

@@ -1,5 +1,5 @@
 ---
-id: mbed_wizwiki_platform
+id: mbed-wizwiki-platform
 title: Mbed Platform Board
 date: 2020-04-07
 ---
@@ -16,9 +16,9 @@ date: 2020-04-07
 
 ## Product Family
 
-  - [WIZwiki-W7500](WIZwiki-W7500/overview)
-  - [WIZwiki-W7500P](WIZwiki-W7500P/overview)
-  - [WIZwiki-W7500ECO](WIZwiki-W7500ECO/overview)
+  - [WIZwiki-W7500](wizwiki-w7500)
+  - [WIZwiki-W7500P](wizwiki-w7500p)
+  - [WIZwiki-W7500ECO](wizwiki-w7500eco)
   - [WIZwiki-W7500 Mbed Starter Kit](WIZwiki-W7500-Mbed-Starter-Kit/wizwiki_w7500_mbed_starter_kit)
 
 -----

@@ -1,10 +1,8 @@
 ---
-id: how_to_use_gcc_for_w7500_peripherals_examples
-title: How to use GCC for W7500 Peripherals Examples
+id: how-to-use-gcc-for-w7500-peripherals-examples
+title: How to use the gcc in windows7
 date: 2020-04-20
 --- 
-
-# How to use the makefile with windows7
 
 ******************************************************************************
 (C) COPYRIGHT 2015 WIZnet
