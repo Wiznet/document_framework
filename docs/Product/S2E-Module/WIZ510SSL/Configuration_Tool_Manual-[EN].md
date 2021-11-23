@@ -125,8 +125,7 @@ section are available below.
       - In this case, try to search after turning off the firewall or
         virus protection software.
       - Please refer to this guide if still unsuccessful.
-          - **[Troubleshooting Guide: Device cannot be
-            searched](troubleshooting_guide-[en]#module-cannot-be-searched)**
+          - **[Troubleshooting Guide: Device cannot be searched](troubleshooting_guide#module-cannot-be-searched)**
 
 #### 2\) Apply Settings
 

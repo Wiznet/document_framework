@@ -186,8 +186,10 @@ module.exports = {
       ],
       copyright: `Copyright © ${new Date().getFullYear()} WIZnet Co., Ltd. Built with Docusaurus.`,
     },
+    image: 'img/wiznet-logo.png',
   },
   //plugins: ['./PreventTrailingSlash/PreventTrailingSlashPlugin'],
+  
   presets: [
     [
       '@docusaurus/preset-classic',

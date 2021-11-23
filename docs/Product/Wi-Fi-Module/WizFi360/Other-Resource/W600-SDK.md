@@ -17,7 +17,7 @@ Protocol and other public function modules.
 ## Software SDK
 
   - Official SDK
-      - [Contact Us](/wizfi@wiznet.io)
+      - [Contact Us](mailto:wizfi@wiznet.io)
 
   - Official SDK from chip vendor
       - Download link - <a href="/img/products/wizfi360/board/wizfi360sdk/wm_sdk_w60x_g3.02.00_190729.zip" target="_blank">W600 Chip SDK (wm\_sdk\_w60x\_g3.02.00\_190729.zip)</a>
@@ -28,9 +28,9 @@ Protocol and other public function modules.
 ## Software SDK User Manual
 
   - Basic
-      - <a href="/img/products/wizfi360/board/wizfi360sdk/wizfi360_w600_sdk_guide_v0.0.1_e.pdf" target="_blank">WizFi360\_W600\_SDK\_Guide\_v0.0.1\_E</a>
+      - <a href="/img/products/wizfi360/board/wizfi360sdk/wizfi360_w600_sdk_guide_v0.0.1_e.pdf" target="_blank">WizFi360\W600\SDK\Guide\v0.0.1\E</a>
         : Describes the basic way to download and compile of W600 SDK in English.
-      - <a href="/img/products/wizfi360/board/wizfi360sdk/wizfi360_w600_sdk_guide_v0.0.1_k.pdf" target="_blank">WizFi360\_W600\_SDK\_Guide\_v0.0.1\_K</a>
+      - <a href="/img/products/wizfi360/board/wizfi360sdk/wizfi360_w600_sdk_guide_v0.0.1_k.pdf" target="_blank">WizFi360\W600\SDK\Guide\v0.0.1\K</a>
         : Describes the basic way to download and compile of W600 SDK in Korean.
       - <a href="/img/products/wizfi360/board/wizfi360sdk/wm_w60x_sdk_user_manual_v1.1.pdf" target="_blank">SDK User Manual V1.1</a>
         : Describes the functions and usage of W600 SDK.

@@ -126,14 +126,14 @@ Flow control: None, RTS / CTS, XON / XOFF</td>
 <td>1.0</td>
 <td>RS-232</td>
 <td>Altium</td>
-<td><img src="" /> <a href="">Download</a></td>
+<td>Coming soon</td>
 <td>-</td>
 </tr>
 <tr class="even">
 <td>:::</td>
 <td>:::</td>
 <td>PDF</td>
-<td><img src="" /> <a href="/img/productsWIZ510SSL/static/WIZ510SSL_schematic.pdf">Download</a></td>
+<td><img src="" /> <a href="/img/products/wiz510ssl/static/WIZ510SSL_schematic.pdf" target="_blank">Download</a></td>
 <td>-</td>
 </tr>
 </tbody>
@@ -146,7 +146,7 @@ Flow control: None, RTS / CTS, XON / XOFF</td>
 | H/W version | Filetype | Download Link      | Remarks |
 | ----------- | -------- | ------------------ | ------- |
 | 1.0         | Excel    | <a href="/img/products/WIZ510SSL/static/Bill-of-Materials-WIZ510SSL.xlsx" target="_blank">Download</a>|         |
-|         | PDF  |  <a href="/img/productsWIZ510SSL/static/WIZ510SSL_partlist.pdf" target="_blank">Download</a> |         |
+|         | PDF  |  <a href="/img/products/WIZ510SSL/static/WIZ510SSL_partlist.pdf" target="_blank">Download</a> |         |
 
 -----
 

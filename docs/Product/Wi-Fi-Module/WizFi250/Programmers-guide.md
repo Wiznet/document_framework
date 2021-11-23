@@ -2054,8 +2054,7 @@ AT+FOTA
 
 - **Meaning:** Launch OTA Mode
 
-User can update firmware in OTA modewhich can be entered by this command. Refer to [Wi-Fi OTA](how_to_upgrade_firmware#wi-fi-otaover-the-air---app)
-
+User can update firmware in OTA modewhich can be entered by this command. Refer to [Wi-Fi OTA](#wi-fi-otaover-the-air---app)
 - **Response:**
 
     [OK]
@@ -2351,7 +2350,7 @@ Gateway    : 192.168.0.1
 
 #### Start OTA mode using FUNCTION pin
 
-1. If entered the OTA Mode using FUNCTION pin, you will see messages as below.Refer to [FUNCTION Pin Usage](io_pin#function-pin-usage)
+1. If entered the OTA Mode using FUNCTION pin, you will see messages as below. Refer to [FUNCTION Pin Usage](#function-pin-usage)
 
 ![](/img/products/wizfi250/wizfi250pg/wizfi250pg-17.png)
 
@@ -3157,5 +3156,4 @@ at+scon=o,tsn,,,4000,0
     command.
   - Data Mode : Data Mode is the mode which passes data of application
     layers to peer-device directly, without commands.
-  - For more information, Refer to [Command mode & Data
-    mode](at_command_set#cmd-data-mode).
+  - For more information, Refer to [Command mode & Data mode](#command-mode--data-mode).

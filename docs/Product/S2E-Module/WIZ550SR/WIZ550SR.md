@@ -26,8 +26,8 @@ date: 2020-04-16
       - Basic operations
 
   - **User's Guide**:
-    [[English](User's_Manual(Programmer's_Guide)-EN)] /
-    [[Korean](User's_Manual(Programmer's_Guide)-KO)]
+    [[English](users_manual_programmers_guide-EN)] /
+    [[Korean](users_manual_programmers_guide-KO)]
       - Configuration Tool
       - Serial AT command set
 

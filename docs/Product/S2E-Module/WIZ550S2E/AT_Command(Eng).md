@@ -284,27 +284,29 @@ Event occurred.</td>
 
 - **Example 1:**
 
-`AT+NSET\r\n`  
+  `AT+NSET\r\n`  
 
-`AT+NSET?\r\n`
+  `AT+NSET?\r\n`
 
-- **Meaning:** Get Current Network Setting
+  - **Meaning:** Get Current Network Setting
+  
+  Note that < IP>,< SN>,< GW>,< DNS> address of response are not actual addresses, but addresses stored in the memory. So when DHCP is on, they are usually different from actual addresses.
+  
+  - ***Response:***
 
-Note that < IP>,< SN>,< GW>,< DNS> address of response are not actual addresses, but addresses stored in the memory. So when DHCP is on, they are usually different from actual addresses.
+  `[S,,S,192.168.11.100,255.255.255.0,192.168.11.1,8.8.8.8]`
 
-`[S,,S,192.168.11.100,255.255.255.0,192.168.11.1,8.8.8.8]`
-
-`[S,,D]`
+  `[S,,D]`
 
 - ***Example 2:***
 
-`AT+NSET-2,192.168.11.110\r\n`
+  `AT+NSET-2,192.168.11.110\r\n`
 
-  - ***Meaning:*** *Update Second Parameter*
+    - ***Meaning:*** *Update Second Parameter*
 
-  - ***Response:***
+    - ***Response:***
 
-`[S]`
+  `[S]`
 
 
 ### AT+NSTAT
@@ -323,15 +325,15 @@ Note that < IP>,< SN>,< GW>,< DNS> address of response are not actual addresses,
 
 - ***Example 1:***
 
-`AT+NSTAT\r\n` `AT+NSTAT?\r\n`
+  `AT+NSTAT\r\n` `AT+NSTAT?\r\n`
 
-- ***Meaning:*** *Display Current Network Status*
+  - ***Meaning:*** *Display Current Network Status*
 
-- ***Response:***
+  - ***Response:***
 
-`[S,,S,192.168.11.100,255.255.255.0,192.168.11.1,8.8.8.8]`
+  `[S,,S,192.168.11.100,255.255.255.0,192.168.11.1,8.8.8.8]`
 
-`[S,,D]`
+  `[S,,D]`
 
 -----
 
@@ -351,11 +353,11 @@ Note that < IP>,< SN>,< GW>,< DNS> address of response are not actual addresses,
 
 - ***Example 1:***
 
-`AT+NMAC=00:08:dc:1d:bb:8b\r\n`
+  `AT+NMAC=00:08:dc:1d:bb:8b\r\n`
 
-- ***Meaning:*** *Set MAC Address*
+  - ***Meaning:*** *Set MAC Address*
 
-- ***Response:***
+  - ***Response:***
 
 `[S]`
 
@@ -363,13 +365,13 @@ Note that < IP>,< SN>,< GW>,< DNS> address of response are not actual addresses,
 
 - ***Example 2:***
 
-`AT+NMAC\r\n` `AT+NMAC?\r\n`
+  `AT+NMAC\r\n` `AT+NMAC?\r\n`
 
-***Meaning:*** *Get MAC Address*
+  ***Meaning:*** *Get MAC Address*
 
-- ***Response:***
+  - ***Response:***
 
-`[S,,00:08:dc:1d:bb:8a]`
+  `[S,,00:08:dc:1d:bb:8a]`
 
 ### AT+NOPEN
   
@@ -398,27 +400,27 @@ Note that < IP>,< SN>,< GW>,< DNS> address of response are not actual addresses,
 
 - ***Example 1:***
 
-`AT+NOPEN=C,3000,192.168.11.100,3000`
+  `AT+NOPEN=C,3000,192.168.11.100,3000`
 
-- ***Meaning:*** *Create TCP Client Socket*
+  - ***Meaning:*** *Create TCP Client Socket*
 
-- ***Response:***
+  - ***Response:***
 
-```jsx
-[W,0]
-[S,0]
-[W,0]
-[F,,1]
-```
+  ```jsx
+  [W,0]
+  [S,0]
+  [W,0]
+  [F,,1]
+  ```
 
 - ***Example 2:***
 
-`AT+NOPEN=S,5000,,`
+  `AT+NOPEN=S,5000,,`
 
-- ***Meaning:*** *Create TCP Server Socket*
+  - ***Meaning:*** *Create TCP Server Socket*
 
-- ***Response:***
-`[S,,0]`
+  - ***Response:***
+  `[S,,0]`
 
 ### AT+NCLOSE 
   
@@ -438,17 +440,17 @@ Note that < IP>,< SN>,< GW>,< DNS> address of response are not actual addresses,
 
 - ***Example 1:***
 
-`AT+NCLOSE\r\n`
+  `AT+NCLOSE\r\n`
 
-- ***Meaning:*** // Close Socket//
+  - ***Meaning:*** // Close Socket//
 
-- ***Response:***
+  - ***Response:***
 
-```
-[W,0]
-[S,0]
-[F,,11]
-```
+  ```
+  [W,0]
+  [S,0]
+  [F,,11]
+  ```
 
 ### AT+NSEND
   
@@ -478,17 +480,61 @@ Note that < IP>,< SN>,< GW>,< DNS> address of response are not actual addresses,
 
 ***Example 1:*** 
 
-`AT+NSEND=0,4\r\n`  
-`aaaa`
+  `AT+NSEND=0,4\r\n`  
+  `aaaa`
 
-- ***Meaning:*** *In TCP Server mode, Destination IP and port are not need.*
+  - ***Meaning:*** *In TCP Server mode, Destination IP and port are not need.*
 
-- ***Response:***
+  - ***Response:***
 
-```
-[W,0]
-[S,0]
-```
+  ```
+  [W,0]
+  [S,0]
+  ```
+
+
+### AT+NSOCK
+ 
+- **Format:** 
+
+`AT+NSOCK`
+
+`AT+NSOCK?`
+
+`AT+NSOCK=<SockId>`
+
+- **Meaning:** Read socket information in AT Command Mode.
+
+< SockId\>: Socket ID  
+Currently there is only 1 socket that can be used in AT+Command Mode. That's why socket ID is 0.
+
+- **Response:**
+
+`[D,,<Size>]`
+
+`[<Data>]`
+
+- ***Example 1: If socket was created as "AT+NOPEN=C,5000,192.168.0.3,5000"***
+
+  `AT+NSOCK\r\n` 
+
+  - ***Meaning:*** *Get socket information in AT Command Mode.*
+
+  - ***Response:***
+
+  `[D,,25]`
+
+  `0,C,5000,192.168.0.3,5000`
+
+- ***Example 2: If socket was not created***
+
+ `AT+NSOCK\r\n` 
+
+  - ***Meaning:*** *Get socket information in AT Command Mode.*
+
+  - ***Response:***
+
+  `[D,,0]`
 
 ### AT+NMODE
   
@@ -510,13 +556,13 @@ S = Server, C = Client, U = UDP, M = Mixed TCP(Server/Client)
 
 - ***Example 1:*** To change the network information of the module to Client, Local Port 5000, Server IP 192.168.0.3, Remote Port 5000
 
-`AT+NMODE=C,5000,192.168.0.3,5000`
+  `AT+NMODE=C,5000,192.168.0.3,5000`
 
-- ***Meaning:*** *Change & save network information of module to client, local port 5000, server IP 192.168.0.3, remote port 5000*
+  - ***Meaning:*** *Change & save network information of module to client, local port 5000, server IP 192.168.0.3, remote port 5000*
 
-- ***Response:***
+  - ***Response:***
 
-`[S]`
+  `[S]`
 
 ## Management Commands
 
@@ -532,6 +578,12 @@ S = Server, C = Client, U = UDP, M = Mixed TCP(Server/Client)
 | [AT+MRST](#atmrst)     | None      |                      | \[S\]                       |
 | :::                                                               | \=        | F                    | \[S\]                       |
 | [AT+MDATA](#atmdata)   | None      |                      | \[S\]                       |
+| [AT+MMODE](#atmmode)   | None or ? |                                          | \[S,,(S/C/U/M/Q)),(SrcPort),(DstIP),(DstPort)\] |
+| :::                                                               | =        | (S/C/U/M),(SrcPort),(DstIP),(DstPort)    | \[S\]                                           |
+| [AT+MPASS](#atmpass)   | None or ? |                                          | \[S,,(Setting Password),(Connection Password)\] |
+| :::                                                               | =        | (Setting Password),(Connection Password) | \[S\]                                           |
+| [AT+MNAME](#atmname)   | None or ? |                                          | \[S,,(Module Name)\]                            |
+| :::                                                               | =        | (Module Name)                            | \[S\]                                           |
 
 -----
 ### AT 
@@ -621,21 +673,35 @@ S = Server, C = Client, U = UDP, M = Mixed TCP(Server/Client)
 
 - **Example1:** 
 
-`AT+MUSART`
+  `AT+MUSART`
 
-`AT+MUSART?`
+  `AT+MUSART?`
 
-- **Meaning:** Get Serial Interface Information
+  - **Meaning:** Get Serial Interface Information
 
-- **Response:**
+  - **Response:**
 
-`[S,,<BR>,( <W>, <P>, <S> ) <F>]`
+  `[S,,<BR>,( <W>, <P>, <S> ) <F>]`
 
 - **Example2:**
 
-`AT+MUSART=,,E,,0`
+  `AT+MUSART=,,E,,0`
 
-- **Meaning:** Set Serial Interface Information
+  - **Meaning:** Set Serial Interface Information
+
+  - **Response:**
+
+  `[S]`
+
+### AT+MSAVE
+  
+- **Format:** 
+
+`AT+MSAVE`
+
+- **Meaning:** Save the setting value.
+
+The values set via AT+MUSART, AT+NSET (except AT+NMAC) are basically only until the module is reset. (In Data Mode, the corresponding setting value is shared. Check through Search in Configuration Tool) In other words, when module is reset, it returns to the value before setting. However, the user can save the set value through the corresponding command (AT+MSAVE) so that the module does not change even if it is reset. That is, it is the same as Setting function in Configuration Tool.
 
 - **Response:**
 
@@ -665,17 +731,72 @@ S = Server, C = Client, U = UDP, M = Mixed TCP(Server/Client)
 
 `[S]`
 
-#### AT+MSAVE
+### AT+MMODE
   
-- **Format:** 
+- **Notice:** **This command was added in firmware v1.0.3, starting from v1.1.5 it was changed to AT+MMODE.** 
+**Starting from v1.2.0 parameter Q(MQTT) was added.** 
 
-`AT+MSAVE`
+- **Format:**
 
-- **Meaning:** Save the setting value.
+`AT+MMODE`
 
-The values set via AT+MUSART, AT+NSET (except AT+NMAC) are basically only until the module is reset. (In Data Mode, the corresponding setting value is shared. Check through Search in Configuration Tool) In other words, when module is reset, it returns to the value before setting. However, the user can save the set value through the corresponding command (AT+MSAVE) so that the module does not change even if it is reset. That is, it is the same as Setting function in Configuration Tool.
+`AT+MMODE?`
+
+`AT+MMODE=S/C/U/M/Q,<SrcPort>,<DstIP>,<DstPort>`
+
+- **Meaning:** Check or setup operating environment in data mode.
 
 - **Response:**
+
+`[S,,S/C/U/M/Q,<SrcPort>,<DstIP>,<DstPort>]`
+
+`[S,,S/C/U/M/Q,<SrcPort>,<DstIP>,<DstPort>]`
+
+`[S]`
+
+### AT+MPASS   
+  
+- **Notice:**  **This command was added starting from v1.1.5.** 
+
+- **Format:**
+
+`AT+MPASS`
+
+`AT+MPASS?`
+
+`AT+MPASS=<Setting Password>,<Connection Password>`
+
+- **Meaning:** Check or setup module's setting password and connection password.
+
+- **Response:**
+
+`[S,,<Setting Password>,<Connection Password>]`
+
+`[S,,<Setting Password>,<Connection Password>]`
+
+`[S]`
+
+-----
+
+### AT+MNAME   
+  
+- **Notice:**  **This command was added starting from v1.1.5.** 
+
+- **Format:**
+
+`AT+MNAME`
+
+`AT+MNAME?`
+
+`AT+MNAME=<Module Name>`
+
+- **Meaning:** Check or setup module's name.
+
+- **Response:**
+
+`[S,,<Module Name>]`
+
+`[S,,<Module Name>]`
 
 `[S]`
 
@@ -702,3 +823,106 @@ The values set via AT+MUSART, AT+NSET (except AT+NMAC) are basically only until 
 
 `[D,,17]`  
 `173.194.126.180`
+
+## MQTT Commands
+
+| Command                                                       | Prop. | Input Parameter | Response          | Query Response |
+| ------------------------------------------------------------- | ----- | --------------- | -------------------- | -------------- |
+| [AT+MQTTSET](#atmqttset)                                      | None or ? |                 | [S,,(UserName),(Password),(ClientID)] |  Firmware v1.3.0 Later  |
+| :::                                                           | =     | (UserName),(Password),(ClientID) | [S] | Firmware v1.3.0 Later |
+| [AT+MQTTCON](#atmqttcon)                                      | =     | (UserName),(Password),(ClientID) | [S] | Firmware v1.3.0 Later |
+| [AT+MQTTPUB](#atmqttpub)                                      | =     | (UserName),(Password),(ClientID) | [W,(SockId)] <br/> [S,(SockId)] | Firmware v1.3.0 Later |
+| [AT+MQTTSUB](#atmqttsub)                                      | =     | (UserName),(Password),(ClientID) | [S,,(Sub/Unsub),(Topic)] | Firmware v1.3.0 Later |
+
+
+### AT+MQTTSET 
+  
+- **Notice:**  **These commands were aded in FW v.1.3.0 and higher.**
+
+- **Format:**
+
+`AT+MQTTSET`
+
+`AT+MQTTSET?`
+
+`AT+MQTTSET=<UserName>,<Password>,<ClientID>`
+
+- **Meaning:** Input MQTT settings
+
+< UserName\>: The User Name used in the broker authentication (Required, Max: 10 Character)  
+< Password\>: The Password used in the broker authentication (Required, Max: 10 Character)  
+< ClientID\>: The Client ID connected to the broker (Required, Max: 25 Character)  
+
+- **Response:**
+
+`[S,,<UserName>,<Password>,<ClientID>]`
+
+`[S,,<UserName>,<Password>,<ClientID>]`
+
+`[S]`
+
+-----
+
+### AT+MQTTCON
+  
+- **Notice:**  **These commands were aded in FW v.1.3.0 and higher.**
+
+- **Format:**
+
+`AT+MQTTCON=<Con/Discon>,<BrokerIP>,<BrokerPort>`
+
+- **Meaning:** Connect to MQTT broker.
+
+< Con/Discon\>: MQTT Connection (Required)
+
+| Parameter | Meaning                    |
+| --------- | -------------------------- |
+| 1         | Connect to the broker      |
+| 0         | Disconnect from the broker |
+
+- **Response:**
+
+`[W,(SockId)]`
+
+`[S,(SockId)]`
+
+-----
+
+### AT+MQTTPUB 
+  
+- **Notice:**  **These commands were aded in FW v.1.3.0 and higher.**
+
+- **Format:**
+
+`AT+MQTTPUB=<SockId>,<Topic>,<Size>`
+
+- **Meaning:** Publish the message to subscribed Client
+
+- **Response:**
+
+`[W,(SockId)]`
+
+`[S,(SockId)]`
+
+-----
+
+### AT+MQTTSUB 
+  
+- **Notice:**  **These commands were aded in FW v.1.3.0 and higher.**
+
+- **Format:**
+
+`AT+MQTTSUB =<Sub/Unsub>,<Topic>`
+
+- **Meaning:** Such topics will be pushed to the WIZ550S2E when received by the Broker
+
+< Sub/Unsub\>: Subscribe/Unsubscribe the Topic (Required)
+
+| Parameter | Meaning               |
+| --------- | --------------------- |
+| 1         | Subscribe the topic   |
+| 0         | Unsubscribe the topic |
+
+- **Response:**
+
+`[S,,<Sub/Unsub>,<Topic>]`

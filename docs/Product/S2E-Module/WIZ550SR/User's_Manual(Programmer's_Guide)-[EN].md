@@ -524,7 +524,7 @@ aaaa`
 | [AT](#at)               | None      |                      | \[S\]                       |
 | :::                                                              | ?         | :::                  | \[D,,(Size)\]↓(Data)        |
 | [AT+MSTAT](#atmstat)   | None or ? |                      | \[S,,(Version)\]            |
-| [AT+MUSART](&#atmusart) | None or ? |                      | \[S,,(BR),(W),(P),(S),(F)\] |
+| [AT+MUSART](#atmusart) | None or ? |                      | \[S,,(BR),(W),(P),(S),(F)\] |
 | :::                                                              | \=        | (BR),(W),(P),(S),(F) | \[S\]                       |
 | :::                                                              | \-        | *num*,Param          | \[S\]                       |
 | [AT+MSAVE](#atmsave)   | None      |                      | \[S\]                       |

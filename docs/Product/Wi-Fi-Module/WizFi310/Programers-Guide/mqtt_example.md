@@ -30,7 +30,7 @@ AT+MQTTPUB=<Topic>,<Length>
 
 You can find the detailed description about the AT Commands for MQTT
 at the link below.  
-[AT Commands list for MQTT](/products/wizfi310/wizfi310pg/at_command_set-mqtt_commands)
+[AT Commands list for MQTT](at_commands#mqtt-commands)
 
   
 ### Example AT Command

@@ -4,42 +4,35 @@ title: AT Command(Chn)
 date: 2020-04-16
 ---
 
-
-
 ## WIZ550S2E AT 命令集
 
-This section provides a list of WIZ550S2E AT commands and their
-functions. Users can input commands and parameters through USART line.
-Every command starts with “AT.” Any other initial character will cause
-an error in return. Commands and parameters are all ASCII characters,
-i.e. when you input 'AT+NSTAT', you should input ASCII characters 'A',
-'T', '+', 'N', 'S', 'T', 'A', 'T' and 'Enter Key' which is CR, LF (0x0d,
-0x0A).
+This section provides a list of WIZ550S2E AT commands and their functions. Users can input commands and parameters through USART line.
 
- **All commands should be terminated with
-CR(0x0D), LF(0x0A)**
+## Enter/Exit Command Mode
 
-Some parameters are mandatory and others are optional. Parameters must
-be entered in the order of format column given by the command tables.
-Although the optional parameter is not used, the comma delimiters must
-still be included in the command. In most cases, valid commands return
-the character \[S\] and invalid inputs return \[F\]. The possible
-responses sent from WIZ550S2E to the user are described as Responses.
-Below are examples of user input. As you can see, WIZ550S2E return
-“\\r\\n” back instead of “\\r”, which means user (host system) always
-handle '\\r\\n' as the only delimiter.
+The command mode is entered by sending the "Trigger Code" (default 2B 2B 2B in Hex) to the serial port of the WIZ550S2E module. This three byte Trigger Code need to be send without any character before and after the three byte = also without CR or LF for 500ms time.  
+The command mode is closed by sending "AT+MDATA/r/n" The Trigger Code can be en/disabled and also changed with the config tool.  
+  
+**The three byte Trigger Code need to be isolated = without CR(0x0D), LF(0x0A)** 
+
+Every command starts with “AT”. Any other initial character will cause an error in return. Commands and parameters are all ASCII characters, i.e. when you input 'AT+NSTAT', you should input ASCII characters 'A', 'T', '+', 'N', 'S', 'T', 'A', 'T' and 'Enter Key' which is CR, LF (0x0d, 0x0A).  
+
+**All commands should be terminated with CR(0x0D), LF(0x0A)** 
+
+Some parameters are mandatory and others are optional. Parameters must be entered in the order of format column given by the command tables. Although the optional parameter is not used, the comma delimiters ',' must still be included in the command. In most cases, valid commands return the character \[S\] and invalid inputs return \[F\]. The possible responses sent from WIZ550S2E to the user are described as Responses. Below are examples of user input. As you can see, WIZ550S2E return
+“\\r\\n” back instead of “\\r”, which means user (host system) always handle '\\r\\n' as the only delimiter.
 
 | Input by User         | AT\\r\\n (0x61 0x74 0x0d 0x0a)         |
 | --------------------- | -------------------------------------- |
 | Output from WIZ550S2E | \[S\]\\r\\n (0x5b 0x53 0x5d 0x0d 0x0a) |
 
 -----
-
 ## Responses
 
 ### Response Format
 
-    [(Type),(Id),(Param1),(Param2),(Param3),(Param4),(Param5),(Param6)]↓(Data)↓
+`[(Type),(Id),(Param1),(Param2),(Param3),(Param4),(Param5),(Param6)]↓(Data)↓
+`
 
   - (Type): Type of response. It can be one of **S**, **D**, **F**,
     **W**, **R** and **V**.
@@ -94,17 +87,17 @@ Event occurred.</td>
 </tr>
 </tbody>
 </table>
-\* (Id): 0 - System ID or 0\~n - Socket Number
 
-  - (Size): Byte size of to output data
+  - (Id): 0 - System ID or 0\~n - Socket Number
+  - (Size): Byte size of the output data
   - (ErrorCode): Error Code
   - (ErrorParam): Value of description for Error Code
   - (SockId): Socket Identifier of the socket which received data
   - (ReceivedSize): Byte size of received data
-  - (SrcIP): Sender's IP address. This is mandatory in case of UDP. In
-    case of TCP this is omitted.
+  - (SrcIP): Sender's IP address. This is mandatory in case of UDP & TCP
+    Client. In case of TCP Server this is omitted.
   - (SrcPort): Sender socket's port number. This is mandatory in case of
-    UDP.
+    UDP & TCP Client.In case of TCP Server this is omitted.
   - (EventCode): Indication of which event happened. 
 
   
@@ -135,6 +128,7 @@ Event occurred.</td>
 | 13   | ERR\_SockNotConnected     | Not Connected        |
 | 14   | ERR\_SockWrongAddr        | Wrong Address        |
 | 15   | ERR\_SockDataNotAvailable | Data Not Available   |
+
 #### Other Error Code
 
 | Code | Error Name     | Description    |
@@ -142,7 +136,7 @@ Event occurred.</td>
 | 20   | ERR\_NoFreeMem | No Free Memory |
 
   
-#### Event Code 
+### Event Code 
 
 #### Socket Event Code
 
@@ -168,7 +162,7 @@ Event occurred.</td>
 </thead>
 <tbody>
 <tr class="odd">
-<td><a href="/products/wiz550s2e/wiz550s2epg_en/atcomm&amp;#at+nset">AT+NSET</a></td>
+<td><a href="#atnset">AT+NSET</a></td>
 <td>None or ?</td>
 <td></td>
 <td>[S,,S,(IP),(SN),(GW),(DNS)]</td>
@@ -198,13 +192,13 @@ Event occurred.</td>
 <td>[S]</td>
 </tr>
 <tr class="even">
-<td><a href="/products/wiz550s2e/wiz550s2epg_en/atcomm&amp;#at+nstat">AT+NSTAT</a></td>
+<td><a href="#atnstat">AT+NSTAT</a></td>
 <td>None or ?</td>
 <td></td>
 <td>[S,,S/D,(IP),(SN),(GW),(DNS)]</td>
 </tr>
 <tr class="odd">
-<td><a href="/products/wiz550s2e/wiz550s2epg_en/atcomm#at+nmac">AT+NMAC</a></td>
+<td><a href="#atnmac">AT+NMAC</a></td>
 <td>None or ?</td>
 <td></td>
 <td>[S,,(MAC)]</td>
@@ -216,7 +210,7 @@ Event occurred.</td>
 <td>[S]</td>
 </tr>
 <tr class="odd">
-<td><a href="/products/wiz550s2e/wiz550s2epg_en/atcomm#at+nopen">AT+NOPEN</a></td>
+<td><a href="#atnopen">AT+NOPEN</a></td>
 <td>=</td>
 <td>S/C/U,(SrcPort),(DstIP),(DstPort)</td>
 <td>[W,(SockId)]<br />
@@ -229,21 +223,21 @@ Event occurred.</td>
 <td>:::</td>
 </tr>
 <tr class="odd">
-<td><a href="/products/wiz550s2e/wiz550s2epg_en/atcomm#at+nclose">AT+NCLOSE</a></td>
+<td><a href="#atnclose">AT+NCLOSE</a></td>
 <td>=</td>
 <td>(SockId)</td>
 <td>[W,(SockId)]<br />
 [S,(SockId)]</td>
 </tr>
 <tr class="even">
-<td><a href="/products/wiz550s2e/wiz550s2epg_en/atcomm#at+nsend">AT+NSEND</a></td>
+<td><a href="#atnsend">AT+NSEND</a></td>
 <td>=</td>
 <td>(SockId),(size),(DstIP),(DstPort)</td>
 <td>[W,(SockId)]<br />
 [S,(SockId)]</td>
 </tr>
 <tr class="odd">
-<td><a href="/products/wiz550s2e/wiz550s2epg_en/atcomm#at+nsock">AT+NSOCK</a></td>
+<td><a href="#atnsock">AT+NSOCK</a></td>
 <td>None or ?</td>
 <td></td>
 <td>[D,,(Size)]↓(Data)</td>
@@ -254,426 +248,328 @@ Event occurred.</td>
 <td>(SockId)</td>
 <td>[S,,S/C/U,(SrcPort),(DstIP),(DstPort)]</td>
 </tr>
+<tr class="odd">
+<td><a href="#atnmode">AT+NMODE</a></td>
+<td>=</td>
+<td>S/C/U/M,(SrcPort),(DstIP),(DstPort)</td>
+<td>[S]</td>
+</tr>
 </tbody>
 </table>
 
------
+### AT+NSET
 
->
+- **Format:** 
 
-     AT+NSET 
-  
-  
-\* **Format** 
+ `AT+NSET=<DHCP>,<IP>,<SN>,<GW>,<DNS>`
 
-    AT+NSET=<DHCP>,<IP>,<SN>,<GW>
+- **Meaning:** Network Configuration
 
-
-
-  - **Meaning:** Network Configuration
-
-\<DHCP\>: Static/DHCP
+< DHCP\>: Static/DHCP
 
 | Parameter | Meaning              |
 | --------- | -------------------- |
 | S         | DHCP Off, Static     |
 | D         | DHCP On, DHCP Client |
 
-\<IP\>: IP Address (Optional)  
-\<SN\>: Subnet Mask (Optional)  
-\<GW\>: Gateway Address (Optional) 
+< IP\>: IP Address (Optional)  
+< SN\>: Subnet Mask (Optional)  
+< GW\>: Gateway Address (Optional)  
+< DNS\>: DNS Address(Optional) 
 
-  - **Response:**
+**Response:** 
 
->
+`[S]`
 
-    [S]
+- **Example 1:**
 
+`AT+NSET\r\n`  
 
+`AT+NSET?\r\n`
 
-  - **Example 1:**
+- **Meaning:** Get Current Network Setting
 
->
+Note that < IP>,< SN>,< GW>,< DNS> address of response are not actual addresses, but addresses stored in the memory. So when DHCP is on, they are usually different from actual addresses.
 
-    AT+NSET\r\n
+`[S,,S,192.168.11.100,255.255.255.0,192.168.11.1,8.8.8.8]`
 
-    AT+NSET?\r\n
+`[S,,D]`
 
+- ***Example 2:***
 
-
-  - **Meaning:** Get Current Network Setting
-
- Note that \<IP\>,\<SN\>,\<GW\> address of response are not actual addresses, but addresses stored in the memory.
-So when DHCP is on, they are usually different from actual addresses.
-
-
-  - **Response:**
-
->
-
-    [S,,S,192.168.11.100,255.255.255.0,192.168.11.1,8.8.8.8]
-
-    [S,,D]
-
-
-
-  - ***Example 2:***
-
-//
->
-
-    AT+NSET-2,192.168.11.110\r\n
-
-
+`AT+NSET-2,192.168.11.110\r\n`
 
   - ***Meaning:*** *Update Second Parameter*
 
-
-
   - ***Response:***
->
 
-     [S]
+`[S]`
+
+
+### AT+NSTAT
+  
+- **Format:** 
+
+`AT+NSTAT`
+
+`AT+NSTAT?`
+
+- **Meaning:** Display Current Network Status
+
+- **Response:**
+
+`[S,,<DHCP>,<IP>,<SN>,<GW>,<DNS>]`
+
+- ***Example 1:***
+
+`AT+NSTAT\r\n` `AT+NSTAT?\r\n`
+
+- ***Meaning:*** *Display Current Network Status*
+
+- ***Response:***
+
+`[S,,S,192.168.11.100,255.255.255.0,192.168.11.1,8.8.8.8]`
+
+`[S,,D]`
 
 -----
->
 
-    AT+NSTAT
+### AT+NMAC 
   
+- **Format:** 
+
+`AT+NMAC`
+
+`AT+NMAC?`
+
+- **Meaning:** Get MAC Address
+
+- **Response:**
+
+`[S,,<MAC>]`
+
+- ***Example 1:***
+
+`AT+NMAC=00:08:dc:1d:bb:8b\r\n`
+
+- ***Meaning:*** *Set MAC Address*
+
+- ***Response:***
+
+`[S]`
+
+-----
+
+- ***Example 2:***
+
+`AT+NMAC\r\n` `AT+NMAC?\r\n`
+
+***Meaning:*** *Get MAC Address*
+
+- ***Response:***
+
+`[S,,00:08:dc:1d:bb:8a]`
+
+### AT+NOPEN
   
-  * **Format:** 
+- **Format:** 
 
-    AT+NSTAT
+`AT+NOPEN=<SockType>,<SrcPort>,<DstIP>,<DstPort>`
 
-    AT+NSTAT?
+- **Meaning:** Initialize Socket
 
+< SockType\>: Socket Type
 
+| Parameter | Meaning           |
+| --------- | ----------------- |
+| S         | TCP Server Socket |
+| C         | TCP Client Socket |
+| U         | UDP Socket        |
 
-  - **Meaning:** Display Current Network Status
+< SrcPort\>: Local Port Number  
+< DstIP\>: Destination IP Address  
 
+- **Response:**
 
+`[W,(SockId)]`
+
+`[S,(SockId)]`
+
+- ***Example 1:***
+
+`AT+NOPEN=C,3000,192.168.11.100,3000`
+
+- ***Meaning:*** *Create TCP Client Socket*
+
+- ***Response:***
+
+```jsx
+[W,0]
+[S,0]
+[W,0]
+[F,,1]
+```
+
+- ***Example 2:***
+
+`AT+NOPEN=S,5000,,`
+
+- ***Meaning:*** *Create TCP Server Socket*
+
+- ***Response:***
+`[S,,0]`
+
+### AT+NCLOSE 
+  
+- **Format:** 
+
+`AT+NCLOSE=(SockId)`
+
+- **Meaning:** Close Socket
+
+< SockId\>: Socket ID 
+
+- **Response:**
+
+`[W,(SockId)]`
+
+`[S,(SockId)]`
+
+- ***Example 1:***
+
+`AT+NCLOSE\r\n`
+
+- ***Meaning:*** // Close Socket//
+
+- ***Response:***
+
+```
+[W,0]
+[S,0]
+[F,,11]
+```
+
+### AT+NSEND
+  
+- **Format:** 
+
+`AT+NSEND=<SockId>,<size>,<DstIP>,<DstPort>`
+
+- **Meaning:** Send Data
+
+< SockId\>: Socket ID
+
+| Parameter | Meaning           |
+| --------- | ----------------- |
+| S         | TCP Server Socket |
+| C         | TCP Client Socket |
+| U         | UDP Socket        |
+
+< SrcPort\>: Local Port Number  
+< DstIP\>: Destination IP Address  
+< DstPort\>: Destination Port Number 
 
   - **Response:**
 
->
+`[W,(SockId)]`
 
-    [S,,<DHCP>,<IP>,<SN>,<GW>,<DNS>]
+`[S,(SockId)]`
 
+***Example 1:*** 
 
-  - ***Example 1:***
->
+`AT+NSEND=0,4\r\n`  
+`aaaa`
 
-     AT+NSTAT\r\n` `AT+NSTAT?\r\n`
+- ***Meaning:*** *In TCP Server mode, Destination IP and port are not need.*
 
-  - ***Meaning:*** *Display Current Network Status*
+- ***Response:***
 
+```
+[W,0]
+[S,0]
+```
 
-
-  - ***Response:***
->
-
-[S,,S,192.168.11.100,255.255.255.0,192.168.11.1,8.8.8.8]
-[S,,D]
-
-
------
->
-
-    AT+NMAC 
+### AT+NMODE
   
-  
-   * **Format:** 
+- **Notice:**  This feature has been added to v1.0.3 and v1.1.5 has been renamed AT + MMODE.
 
-    AT+NMAC
-
-    AT+NMAC?
-
-
-
-  - **Meaning:** Get MAC Address
-
-
-
-  - **Response:**
-
->
-
-    [S,,<MAC>]
-
-
-
-  - ***Example 1:***
->
-
-    AT+NMAC=00:08:dc:1d:bb:8b
-
-  - ***Meaning:*** *Set MAC Address*
-
-
-
-  - ***Response:***
->
-
-    [S]
-
-
-  - ***Example 2:***
->
-
-    AT+NMAC\r\n` `AT+NMAC?
-
-  - ***Meaning:*** *Get MAC Address*
-
-
-
-  - ***Response:***
->
-
-    [S,,00:08:dc:1d:bb:8a]
-
-
------
->
+- **Format:**
  
-    AT+NOPEN
-  
-  
-  * **Format:** 
+`AT+NSOCK=S/C/U/M,<SrcPort>,<DstIP><DstPort>,`
 
-    `AT+NOPEN=<SockType>,<SrcPort>,<DstIP>,<DstPort>`
 
+- **Meaning:** Change the network information of the module (automatically saved in EEPROM)
 
+S/C/U/M: Network Mode  
+S = Server, C = Client, U = UDP, M = Mixed TCP(Server/Client)
 
-  - **Meaning:** Initialize Socket
+- **Response:**
 
-\<SockType\>: Socket Type
+`[S]`
 
-| Parameter | Meaning           |
-| --------- | ----------------- |
-| S         | TCP Server Socket |
-| C         | TCP Client Socket |
-| U         | UDP Socket        |
+- ***Example 1:*** To change the network information of the module to Client, Local Port 5000, Server IP 192.168.0.3, Remote Port 5000
 
-\<SrcPort\>: Local Port Number  
-\<DstIP\>: Destination IP Address  
-\<DstPort\>: Destination Port Number
+`AT+NMODE=C,5000,192.168.0.3,5000`
 
-  - **Response:**
+- ***Meaning:*** *Change & save network information of module to client, local port 5000, server IP 192.168.0.3, remote port 5000*
 
->
+- ***Response:***
 
-    [W,(SockId)]
+`[S]`
 
-    [S,(SockId)]
-
-
-
-  - ***Example 1:***
->
-
-     AT+NOPEN=C,3000,192.168.11.100,3000
-
-  - ***Meaning:*** *Create Client Socket*
-
-
-
-  - ***Response:***
-
-        [W,0]
-        [S,0]
-        [W,0]
-        [F,,1]
-
-  - ***Example 2:***
-
-* AT+NOPEN=S,5000
-
-  - ***Meaning:*** *Create Server Socket*
-
-
-
-  - ***Response:***
->
-
-    [S,,0]
-
-
------
-
-AT+NCLOSE 
-  
-  
-  * **Format:** 
-
-    AT+NCLOSE=(SockId)
-
-
-
-  - **Meaning:** Close Socket
-
-\<SockId\>: Socket ID 
-
-  - **Response:**
-
->
-
-    [W,(SockId)]
-
-    [S,(SockId)]
-
-
-
-  - ***Example 1:***
->
-
-        AT+NCLOSE
-
-  - ***Meaning:*** // Close Socket//
-
-
-
-  - ***Response:***
-
-        [W,0]
-        [S,0]
-        [F,,11]
-
-
------
->
-
-    AT+NSEND 
-  
-  
-  * **Format:** 
-
-    `AT+NSEND=<SockId>,<size>,<DstIP>,<DstPort>`
-
-
-
-  - **Meaning:** Send Data
-
-\<SockId\>: Socket ID
-
-| Parameter | Meaning           |
-| --------- | ----------------- |
-| S         | TCP Server Socket |
-| C         | TCP Client Socket |
-| U         | UDP Socket        |
-
-\<SrcPort\>: Local Port Number  
-\<DstIP\>: Destination IP Address  
-\<DstPort\>: Destination Port Number 
-
-  - **Response:**
-
->
-
-    [W,(SockId)]
-
-    [S,(SockId)]
-
-
-
-  - ***Example 1:***
->
-
-     `AT+NSEND=0,4\r\n`
-     aaaa
-
-  - ***Meaning:*** *In TCP mode, Destination IP and port are not need.*
-
-
-
-  - ***Response:***
->
-
-        [W,0]
-        [S,0]
-
-
------
 ## Management Commands
 
 | Command                                                           | Prop.     | Input Parameter      | Response                    |
 | ----------------------------------------------------------------- | --------- | -------------------- | --------------------------- |
-| [AT](/products/wiz550s2e/wiz550s2epg_en/atcomm&#at)               | None      |                      | \[S\]                       |
+| [AT](#at)               | None      |                      | \[S\]                       |
 | :::                                                               | ?         | :::                  | \[D,,(Size)\]↓(Data)        |
-| [AT+MSTAT](/products/wiz550s2e/wiz550s2epg_en/atcomm&#at+mstat)   | None or ? |                      | \[S,,(Version)\]            |
-| [AT+MUSART](/products/wiz550s2e/wiz550s2epg_en/atcomm&#at+musart) | None or ? |                      | \[S,,(BR),(W),(P),(S),(F)\] |
+| [AT+MSTAT](#atmstat)   | None or ? |                      | \[S,,(Version)\]            |
+| [AT+MUSART](#atmusart) | None or ? |                      | \[S,,(BR),(W),(P),(S),(F)\] |
 | :::                                                               | \=        | (BR),(W),(P),(S),(F) | \[S\]                       |
 | :::                                                               | \-        | *num*,Param          | \[S\]                       |
-| [AT+MSAVE](/products/wiz550s2e/wiz550s2epg_en/atcomm&#at+msave)   | None      |                      | \[S\]                       |
-| [AT+MRST](/products/wiz550s2e/wiz550s2epg_en/atcomm&#at+mrst)     | None      |                      | \[S\]                       |
+| [AT+MSAVE](#atmsave)   | None      |                      | \[S\]                       |
+| [AT+MRST](#atmrst)     | None      |                      | \[S\]                       |
 | :::                                                               | \=        | F                    | \[S\]                       |
-| [AT+MDATA](/products/wiz550s2e/wiz550s2epg_en/atcomm&#at+mdata)   | None      |                      | \[S\]                       |
+| [AT+MDATA](#atmdata)   | None      |                      | \[S\]                       |
 
 -----
->
-
-    AT
+### AT 
   
+- **Format:** 
+
+`AT`
+
+- **Meaning:** Terminal Check
+
+- **Response:**
+
+`[S]`
+
+### AT+MSTAT  
   
-  * **Format:** 
->
-      
-      AT
+**Format:** 
 
+`AT+MSTAT`  
 
-  - **Meaning:** Terminal Check
+`AT+MSTAT?`
 
+- **Meaning:** Get Current Version
 
+- **Response:**
 
-  - **Response:**
+`[S,,<Version>]`
 
->
-
-    [S]
-
-
------
->
-
-    AT+MSTAT 
+### AT+MUSART 
   
-  
-  * **Format:** 
+- **Format:** 
 
-    `AT+MSTAT`
+`AT+MUSART=<BR>,<W>,<P>,<S>,<F>`
 
-    `AT+MSTAT?`
+- **Meaning:** Serial Interface Configuration
 
+< BR\>: Baud rate  
 
-
-  - **Meaning:** Get Current Version
-
-
-
-  - **Response:**
-
->
-
-    [S,,<Version>]
-
-
------
->
-
-    `AT+MUSART`
-  
-  
-  * **Format:**
-
-    `AT+MUSART`
-
-
-
-  - **Meaning:** Serial Interface Configuration
-
- br&#62;: Baud rate  
-
-
-| Parameter       |  Meaning         |
+| Parameter | Meaning |
 | ------ | --------- |
 | 300    | 300bps    |
 | 600    | 600bps    |
@@ -687,144 +583,121 @@ AT+NCLOSE
 | 115200 | 115200bps |
 | 230400 | 230400bps |
 
-**Word length**  
+< W\>: Word length  
 
-
-|Parameter   |   Meaning     |
-| -- | ------ |
+| Parameter | Meaning |
+| - | ------ |
 | 7 | 7 bits |
 | 8 | 8 bits |
 
-**Parity bit**  
+< P\>: Parity bit  
 
-
-| Parameter  |   Meaning    |
-| -- | ---- |
+| Parameter | Meaning |
+| - | ---- |
 | N | NONE |
 | O | ODD  |
 | E | EVEN |
 
-**Stop bit** 
+< S\>: Stop bit  
 
-
-|Parameter   | Meaning       |
-| -- | ------ |
+| Parameter | Meaning |
+| - | ------ |
 | 1 | 1 bits |
 | 2 | 2 bits |
 
-**Flow Control**  
+< F\>: Flow Control  
 
-
-|Parameter   |Meaning         |
-| -- | ------- |
+| Parameter | Meaning |
+| - | ------- |
 | 0 | NONE    |
 | 1 | RTS/CTS |
 | 2 | RS422   |
 | 3 | RS485   |
 
+- **Response:**
 
+`[S,,<BR>,( <W>, <P>, <S> ) <F>]`
 
-  - **Response:**
+- **Example1:** 
 
->
+`AT+MUSART`
 
-    [S,,<BR>,( <W>, <P>, <S> ) <F>]
+`AT+MUSART?`
 
+- **Meaning:** Get Serial Interface Information
 
+- **Response:**
+
+`[S,,<BR>,( <W>, <P>, <S> ) <F>]`
+
+- **Example2:**
+
+`AT+MUSART=,,E,,0`
+
+- **Meaning:** Set Serial Interface Information
+
+- **Response:**
+
+`[S]`
+
+### AT+MRST 
+  
+- **Format:** 
+
+`AT+MRST`
+
+- **Meaning:** Reset the module.
+
+- **Response:**
+
+`[S]`
+
+### AT+MDATA
+  
+- **Format:** 
+
+`AT+MDATA`
+
+- **Meaning:** Terminal Check - exit AT Command mode
+
+- **Response:**
+
+`[S]`
+
+#### AT+MSAVE
+  
+- **Format:** 
+
+`AT+MSAVE`
+
+- **Meaning:** Save the setting value.
+
+The values set via AT+MUSART, AT+NSET (except AT+NMAC) are basically only until the module is reset. (In Data Mode, the corresponding setting value is shared. Check through Search in Configuration Tool) In other words, when module is reset, it returns to the value before setting. However, the user can save the set value through the corresponding command (AT+MSAVE) so that the module does not change even if it is reset. That is, it is the same as Setting function in Configuration Tool.
+
+- **Response:**
+
+`[S]`
+
+## Function Commands
+
+| Command                                                       | Prop. | Input Parameter | Input Resp.          | Query Response |
+| ------------------------------------------------------------- | ----- | --------------- | -------------------- | -------------- |
+| [AT+FDNS](#atfdns) | None  |                 | \[D,,(Size)\]↓(Data) |                |
 
 -----
- * **Example1:** 
 
-    `AT+MUSART`
-
-    `AT+MUSART?`
-
-
-
-  - **Meaning:** Get Serial Interface Information
-
-
-
-  - **Response:**
-
->
-
-    [S,,<BR>,( <W>, <P>, <S> ) <F>]
-
-
-
-  - **Example2:**
-
->
-
-    `AT+MUSART=,,E,,0`
-
-
-
-  - **Meaning:** Set Serial Interface Information
-
-
-
-  - **Response:**
-
->
-
-    `[S]`
-
-
-
------
->
-
-    `AT+MDATA`
+### AT+FDNS
   
-  
-  * **Format:** 
+**Format:** 
 
-    `AT+MDATA`
+`AT+FDNS`
 
+- **Meaning:** Do DNS Query and then return its result. Using Domain and DNS Server IP what has set via Configuration Tool.
 
+- **Response:**
 
-  - **Meaning:** Terminal Check
+`[D,,13]`  
+`DNS Timeout`
 
-
-
-  - **Response:**
->
-
-    `[S]`
-
-#### Function Commands
-
-| Command | Prop. | Input Parameter | Input Resp.          | Query Response |
-| ------- | ----- | --------------- | -------------------- | -------------- |
-| AT+FDNS | None  |                 | \[D,,(Size)\]↓(Data) |                |
-
------
->
-
-    `AT+FDNS`
-  
-  
-  * **Format:** 
-
-    `AT+FDNS`
-
-
-
-  - **Meaning:** Do DNS Query and then return its result. Using Domain
-    and DNS Server IP what has set via Configuration Tool.
-
-
-
-  - **Response:**
-
->
-
-    [D,,13]
-    DNS Timeout
-
-
-
-    [D,,17]
-    173.194.126.180
+`[D,,17]`  
+`173.194.126.180`

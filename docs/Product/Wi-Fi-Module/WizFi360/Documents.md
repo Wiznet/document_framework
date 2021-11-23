@@ -91,11 +91,11 @@ Comparison Sheet** provides comparison with ESP8266 AT command.
 
 ### CE
 
-- <a href="/img/products/wizfi360/wizfi360ds/emc104756_red_evaluation.pdf" target="_blank">WizFi360 Certification</a>
+- <a href="/img/products/wizfi360/wizfi360ds/EMC110706-RED-Evaluation.pdf" target="_blank">WizFi360 Certification</a>
 
 | Date    | Decription |
 | ------- | ---------- |
-| AUG2019 | \-         |
+| NOV2020 | \-         |
 
 ### FCC
 
@@ -107,8 +107,8 @@ Comparison Sheet** provides comparison with ESP8266 AT command.
 
 ### KC
 
- - <a href="/img/products/wizfi360/wizfi360ds/%EC%9D%B8%EC%A6%9D%EC%84%9C_wizfi360-pa_emc_%ED%8C%8C%EC%83%9D%EC%B6%94%EA%B0%80.pdf" target="_blank">WizFi360-PA_EMC Certification</a>
- - <a href="/img/products/wizfi360/wizfi360ds/%EC%9D%B8%EC%A6%9D%EC%84%9C_wizfi360-con_emc_%EC%95%88%ED%85%8C%EB%82%98_%EC%B6%94%EA%B0%80.pdf" target="_blank">WizFi360-CON_EMC Certification</a>
+ - <a href="/img/products/wizfi360/wizfi360ds/인증서_wizfi360-pa_emc_파생추가.pdf" target="_blank">WizFi360-PA_EMC Certification</a>
+ - <a href="/img/products/wizfi360/wizfi360ds/인증서_wizfi360-con_emc_안테나_추가.pdf" target="_blank">WizFi360-CON_EMC Certification</a>
 
 | Date    | Decription |
 | ------- | ---------- |
@@ -133,7 +133,7 @@ Comparison Sheet** provides comparison with ESP8266 AT command.
 
 ### REACH
 
-- <a href="/img/products/wizfi360/wizfi360ds/svhc_%EC%8B%9C%ED%97%98_%EC%84%B1%EC%A0%81%EC%84%9C_ayn19-156716_4000_4920_ayaa19-59688.pdf" target="_blank">SGS REACH SVHC Test Report</a>
+- <a href="/img/products/wizfi360/wizfi360ds/svhc_시험_성적서_ayn19-156716_4000_4920_ayaa19-59688.pdf" target="_blank">SGS REACH SVHC Test Report</a>
 
 | Date    | Decription |
 | ------- | ---------- |
