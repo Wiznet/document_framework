@@ -71,7 +71,7 @@ The RP2040 GPIO used inside W5100S-EVB-Pico is as follows.
 |  I   | GPIO21   | Connected to INTn on W5100S                    |
 |  I   | GPIO24   | VBUS sense - high if VBUS is present, else low |
 |  O   | GPIO25   | Connected to user LED                          |
-|  I   | GPIO25   | Used in ADC mode (ADC3) to measure VSYS/3      |
+|  I   | GPIO29   | Used in ADC mode (ADC3) to measure VSYS/3      |
 
 
 
