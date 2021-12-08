@@ -16,6 +16,7 @@ The W5100S-EVB-Pico is a microcontroller evaluation board based on the Raspberry
 
 - Raspberry Pi Pico Clone
 - Ethernet (W5100S Hardwired TCP/IP CHIP)
+- [AWS IoT Core Qualified](https://devices.amazonaws.com/detail/a3G8a00000E2TSBEA3/W5100S-EVB-Pico)
 
 <a target="_blank" href={require('/img/osh/w5100s_evb_pico/w5100s-evb-pico_side.png').default}><img src={require('/img/osh/w5100s_evb_pico/w5100s-evb-pico_side.png').default} alt="W5100S-EVB-RP2040"/></a>
 
@@ -135,6 +136,17 @@ Please refer to below links to find firmware example.
 
 - [C/C++ Examples](https://github.com/Wiznet/RP2040-HAT-C)
 - [CircuitPython Examples](https://github.com/Wiznet/RP2040-HAT-CircuitPython)
+- [AWS Examples](https://github.com/Wiznet/RP2040-HAT-AWS-C)
+
+
+### AWS Qualification
+
+W5100S-EVB-Pico is first RP2040-based device that got AWS IoT Core Qualification.
+
+![](/img/osh/w5100s_evb_pico/AWS_DQP_iot_500px.png)
+
+- [AWS Device Catalog](https://devices.amazonaws.com/detail/a3G8a00000E2TSBEA3/W5100S-EVB-Pico)
+- <a href="/img/products/w5100s-evb-pico/w5100s-evb-pico_getting_started_guide_for_aws_iot_core_v_1_0_0.pdf" target="_blank">Getting Started with AWS IoT Core</a>
 
 ## How to buy
 
