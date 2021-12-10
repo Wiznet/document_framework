@@ -18,7 +18,7 @@ date: 2020-04-08
 </thead>
 <tbody>
 <tr class="odd">
-<td>MCU</td>
+<td rowspan="3">MCU</td>
 <td>ARM<br />
 Cortex-M0<br />
 Core</td>

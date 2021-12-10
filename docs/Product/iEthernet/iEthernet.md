@@ -14,21 +14,99 @@ Core & MAC (\&PHY).
 
 ## Product Family
 
-  - [W6100](W6100/overview): IPv4/IPv6,Hardwired TCP/IP w/ 802.3
-    Ethernet MAC and PHY, 8-sockets, Fast SPI/BUS
-  - [W5100S](W5100S/overview): Hardwired TCP/IP w/ 802.3 Ethernet
-    MAC and PHY, 4-sockets, Fast SPI/BUS
-  - [W5500](W5500/overview): Hardwired TCP/IP w/ 802.3 Ethernet
-    MAC and PHY, 8-sockets, Fast SPI
-  - [W5300](W5300/overview): Hardwired TCP/IP
-    w/ 802.3 Ethernet MAC and PHY, 8-sockets, High-throughput
-  - [W5100](W5100/overview): Hardwired TCP/IP
-    w/ 802.3 Ethernet MAC and PHY, 4-sockets
-  - [W3150A+](W3150/overview): Hardwired
-    TCP/IP w/ 802.3 Ethernet MAC, 4-sockets
+:::caution
 
------
+**W5200 is not recommended for new design. This chip is not supported by ioLibrary.**
 
+If there are any questions, please use our [`Forum`](https://forum.wiznet.io) or [`contact us`](https://www.wiznet.io/inqueries/).
+:::
+
+<table>
+<thead>
+<tr>
+<th></th>
+<th><a href="W6100/w6100">W6100</a></th>
+<th><a href="W5100S/overview">W5100S</a></th>
+<th><a href="W5500/overview">W5500</a></th>
+<th><a href="W5300/overview">W5300</a></th>
+<th><a href="W5100/w5100">W5100</a></th>
+<th><a href="W3150/overview">W3150A+</a></th>
+<th><a href="W5200/w5200">W5200</a></th>
+</tr>
+</thead>
+<tbody>
+<tr class="even">
+<td>Image</td>
+<td><a href="/product-item/w6100/"><img src="https://www.wiznet.io/wp-content/uploads/2019/03/size_w6100_6.jpg"/><br /></a></td>
+<td><a href="/product-item/w5100s/"><br /><img src="https://www.wiznet.io/wp-content/uploads/2018/03/제목-없음-1-1024x605.jpg"/><br /></a></td>
+<td><a href="/product-item/w5500/"><img src="https://www.wiznet.io/wp-content/uploads/2015/04/w5500.png"/></a></td>
+<td><a href="/product-item/w5300/"><img src="https://www.wiznet.io/wp-content/uploads/2015/04/W5300.png"/></a></td>
+<td><a href="/product-item/w5100"><img src="https://www.wiznet.io/wp-content/uploads/2015/04/W5100.png" /></a></td>
+<td><a href="/product-item/w3150a+/"><img src="https://www.wiznet.io/wp-content/uploads/2015/04/W3150A_plus.png"/></a></td>
+<td><a href="/product-item/w5200"><img src="https://www.wiznet.io/wp-content/uploads/2015/04/W5200.png" /></a></td>
+</tr>
+<tr class="odd">
+<td>Embedded Core</td>
+<td>TCP/IPv4/IPv6, MAC &amp; PHY</td>
+<td>TCP/IP, MAC &amp; PHY</td>
+<td>TCP/IP, MAC &amp; PHY</td>
+<td>TCP/IP, MAC &amp; PHY</td>
+<td>TCP/IP, MAC &amp; PHY</td>
+<td>TCP/IP &amp; MAC</td>
+<td>TCP/IP, MAC &amp; PHY</td>
+</tr>
+<tr class="even">
+<td >Host I/F</td>
+<td>8bit BUS, Fast SPI</td>
+<td>8bit BUS, SPI</td>
+<td>Fast SPI</td>
+<td>8/16bit BUS</td>
+<td>8bit BUS, SPI</td>
+<td>8bit BUS, SPI</td>
+<td>Fast SPI</td>
+</tr>
+<tr class="odd">
+<td >TX/RX Buffer</td><td>32KB</td><td>16KB</td><td>32KB</td><td>128KB</td><td>16KB</td><td>16KB</td><td>32KB</td>
+</tr>
+<tr class="even">
+<td >HW Socket #</td><td>8</td><td>4</td><td>8</td><td>8</td><td>4</td><td>4</td><td>8</td>
+</tr>
+<tr class="odd">
+<td >Network Performance</td><td>Max.25Mbps</td><td>Max.25Mbps</td><td>Max 15Mbps</td><td>Max 80Mbps</td><td>Max.25Mbps</td><td>Max.25Mbps</td><td>Max. 10Mbps</td>
+</tr>
+<tr class="even">
+	<td >Operation Temp (℃)</td><td>-40 ~ 85</td><td>-40 ~ 85</td><td>-40 ~ 85</td><td>-40 ~ 85</td><td>-40 ~ 85</td><td>-40 ~ 85</td><td>-40 ~ 85</td>
+</tr>
+<tr class="odd">
+<td >Package</td><td>48LQFP / QFN></td>
+<td>48LQFP / QFN</td>
+<td>48LQFP</td>
+<td>100LQFP</td>
+<td>80LQFP</td>
+<td>64LQFP</td>
+<td>48QFN</td>
+</tr>
+<tr class="even">
+<td >Size</td><td>7x7</td>
+<td>7x7<br /></td>
+<td>7x7</td>
+<td>14x14</td>
+<td>10x10</td>
+<td>10x10</td>
+<td>7x7</td>
+</tr>
+<tr class="odd">
+<td>Evaluation Board</td>
+<td><a href="/Product/iEthernet/W6100/w6100_evb">W6100-EVB</a></td>
+<td><a href="/Product/iEthernet/W5100s/w5100s_evb">W5100S-EVB</a><br /><br /><a href="/Product/iEthernet/W5100S/w5100s-evb-pico">W5100S-EVB-Pico</a></td>
+<td><a href="/Product/iEthernet/W5500/W5500-EVB/w5500_evb">W5500-EVB</a></td>
+<td><a href="/Product/iEthernet/W5300/w5300-evb">W5300E01-ARM</a></td>
+<td><a href="/Product/iEthernet/W5100/w5100-evb">W5100E01-AVR</a></td>
+<td><a href="/Product/iEthernet/W3150/w3150-evb">EVB-B1+</a></td>
+<td>W5200E01-M3</td>
+</tr>
+</tbody>
+</table>
 
 ## Product Application Project
 
