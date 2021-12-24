@@ -181,6 +181,10 @@ module.exports = {
               label: 'Twitter',
               href: 'https://twitter.com/wiznetteam',
             },
+            {
+              label: 'Youtube',
+              href: 'https://www.youtube.com/channel/UCAxgCSp_xA2aQ1KA2Eknvqg',
+            },
           ],
         },
       ],
