@@ -41,8 +41,7 @@ module.exports = {
       },
     },
      algolia: {
-      appId: 'VXDI0EL2J7',
-      apiKey: '966f094e2a2b035dc3ec49a0751713b1',
+       apiKey: 'd2ede60bed9975d4b60dd5436896fe91',
        indexName: 'wiznet',
              // Optional: see doc section bellow
        contextualSearch: false,
