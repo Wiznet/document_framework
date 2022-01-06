@@ -1,5 +1,5 @@
 ---
-id: wiz107sr_um
+id: wiz107sr-um-temp
 title: WIZ107SR User's Manual
 date: 2020-04-16
 ---

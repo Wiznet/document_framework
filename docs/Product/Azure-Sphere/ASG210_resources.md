@@ -44,7 +44,7 @@ import useBaseUrl from '@docusaurus/useBaseUrl';
 </thead>
 <tbody>
 <tr class="odd">
-<td>ASG210_Samples</td>
+<td>ASG210-examples</td>
 <td>Peripheral Interface examples for each M4 core and A7 core <br /><br />
 GPIO<br />
 - GPIO_HLApp_mt3620_BareMetal<br />
@@ -67,7 +67,7 @@ DHCP Server/Client<br />
 - DHCP_Server_HLApp<br />
 - DHCP_Server_RTApp
 </td>
-<td><a href="https://github.com/WIZnet-Azure-Sphere/ASG210-Samples" target="_blank">Github Link</a></td>
+<td><a href="https://github.com/WIZnet-Azure-Sphere/ASG210-examples" target="_blank">Github Link</a></td>
 </tr>
 <tr class="even">
 <td>ASG210_Application</td>

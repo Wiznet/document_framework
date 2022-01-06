@@ -1,6 +1,6 @@
 ---
-id: wiz107sr
-title: WIZ107SR
+id: wiz107sr-temp
+title: WIZ107SR-temp
 date: 2020-04-16
 ---
 ## WIZ107SR / WIZ108SR
