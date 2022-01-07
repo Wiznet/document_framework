@@ -136,7 +136,9 @@ Please refer to below links to find firmware example.
 
 - [C/C++ Examples](https://github.com/Wiznet/RP2040-HAT-C)
 - [CircuitPython Examples](https://github.com/Wiznet/RP2040-HAT-CircuitPython)
+- [MicroPython Examples](https://github.com/Wiznet/RP2040-HAT-MicroPython)
 - [AWS Examples](https://github.com/Wiznet/RP2040-HAT-AWS-C)
+- [Azure Examples](https://github.com/Wiznet/RP2040-HAT-AZURE-C)
 
 
 ### AWS Qualification
