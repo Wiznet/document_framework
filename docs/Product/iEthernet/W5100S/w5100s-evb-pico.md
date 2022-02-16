@@ -12,7 +12,7 @@ description: W5100S-EVB-Pico made for prototyping and testing Ethernet capabilit
 
 ## Overview
 
-The W5100S-EVB-Pico is a microcontroller evaluation board based on the Raspberry Pi RP2040 microcontroller chip and full hardwired TCP/IP controller W5100S chip. The W5100S-EVB-Pico has the same role as the Raspberry Pi Pico platform and includes W5100S, so the Ethernet function is basically included.
+W5100S-EVB-Pico is a microcontroller evaluation board based on the Raspberry Pi RP2040 and fully hardwired TCP/IP controller W5100S – and basically works the same as Raspberry Pi Pico board but with additional Ethernet via W5100S.
 
 - Raspberry Pi Pico Clone
 - Ethernet (W5100S Hardwired TCP/IP CHIP)
