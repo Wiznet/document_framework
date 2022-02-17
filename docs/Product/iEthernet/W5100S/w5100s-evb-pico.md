@@ -17,6 +17,7 @@ W5100S-EVB-Pico is a microcontroller evaluation board based on the Raspberry Pi 
 - Raspberry Pi Pico Clone
 - Ethernet (W5100S Hardwired TCP/IP CHIP)
 - [AWS IoT Core Qualified](https://devices.amazonaws.com/detail/a3G8a00000E2TSBEA3/W5100S-EVB-Pico)
+- [Microsoft Azure Certified](https://devicecatalog.azure.com/devices/9171d1ae-eb6d-4636-b512-611dc96bc2c7)
 
 <a target="_blank" href={require('/img/osh/w5100s_evb_pico/w5100s-evb-pico_side.png').default}><img src={require('/img/osh/w5100s_evb_pico/w5100s-evb-pico_side.png').default} alt="W5100S-EVB-RP2040"/></a>
 
@@ -149,6 +150,15 @@ W5100S-EVB-Pico is first RP2040-based device that got AWS IoT Core Qualification
 
 - [AWS Device Catalog](https://devices.amazonaws.com/detail/a3G8a00000E2TSBEA3/W5100S-EVB-Pico)
 - <a href="/img/products/w5100s-evb-pico/w5100s-evb-pico_getting_started_guide_for_aws_iot_core_v_1_0_0.pdf" target="_blank">Getting Started with AWS IoT Core</a>
+
+### MS Azure Certification
+
+W5100S-EVB-Pico is first RP2040-based device certified to run with Microsoft Azure.
+
+![](/img/osh/w5100s_evb_pico/Azure-Certified-Device-Badge_RGB.png)
+
+- [Azure Certified Device catalog](https://devicecatalog.azure.com/devices/9171d1ae-eb6d-4636-b512-611dc96bc2c7)
+- <a href="/img/products/w5100s-evb-pico/w5100s-evb-pico-getting-started-guide-for-azure-v1-0-0.pdf" target="_blank">Getting Started for Azure IoT</a>
 
 ## How to buy
 
