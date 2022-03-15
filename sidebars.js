@@ -252,7 +252,8 @@ module.exports = {
 						'Product/iEthernet/W5500/W5500-EVB/how_to_install_and_activate_lpcxpresso',
 						//'Product/iEthernet/W5500/W5500-EVB/w5500-evb_firmware',
 					],
-					}
+					},
+					'Product/iEthernet/W5500/w5500-evb-pico'
 				],
 				},
 				{
