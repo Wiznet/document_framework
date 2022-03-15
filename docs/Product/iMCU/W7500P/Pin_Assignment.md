@@ -22,7 +22,7 @@ date: 2020-04-03
 |8|PC_15|AIN0/GPIO3_15/MOSI0|
 |9|GND|GROUND|
 |10|VDD|Digital Power Input: 3.3v|
-|11|PC_06|GPIO3_6/U_TXD2|
+|11|PC_06|GPIO3_6/U_TXD2 (RS232/485 selection pin)|
 |12|TEST|TEST|
 |13|REGIN|Register Power Input|
 |14|LED0|LED0 and PHY Address[0]|

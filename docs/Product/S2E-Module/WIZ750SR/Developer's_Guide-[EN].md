@@ -113,7 +113,7 @@ steps: (WIZ750SR-EVB Rev1.0)
 Users can use the ISP Tool to update the WIZ750SR firmware.
 
 :::note
-[Go to ISP tool manual & Program download](/img/products/w7500/documents/appnote/isptool)  
+[Go to ISP tool manual & Program download](/Product/iMCU/W7500/documents/appnote/how-to-use-isp-tool)
 :::
 
 Connect the device to PC using the USB type B cable and change the power

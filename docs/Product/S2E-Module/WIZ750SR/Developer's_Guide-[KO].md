@@ -109,7 +109,7 @@ Rev1.0 기준)
 사용자는 ISP Tool을 사용하여 WIZ750SR의 전체(App+Boot) 펌웨어 업데이트를 진행할 수 있습니다.
 
 :::note
-[Go to ISP tool manual & Program download](/img/products/w7500/documents/appnote/isptool)  
+[Go to ISP tool manual & Program download](/Product/iMCU/W7500/documents/appnote/how-to-use-isp-tool)
 :::
 
 먼저, Micro USB type B 케이블을 이용하여 PC와 장치를 연결합니다.
