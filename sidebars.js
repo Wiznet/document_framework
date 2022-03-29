@@ -893,7 +893,9 @@ module.exports = {
 			'Product/Open-Source-Hardware/w5100s_mkr_ethernet_shield',
 			'Product/Open-Source-Hardware/w6100_mkr_ethernet_shield',
 			'Product/Open-Source-Hardware/wizarduino_m0_eth',
+			'Product/Open-Source-Hardware/wizarduino_m0_eth_eng',
 			'Product/Open-Source-Hardware/wizarduino_mega_wifi',
+			'Product/Open-Source-Hardware/wizarduino_mega_wifi_eng',
 			'Product/Open-Source-Hardware/wizfi310_shield',
 			{
 				type: 'category',
