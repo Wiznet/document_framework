@@ -23,13 +23,15 @@ Comparison Sheet** provides comparison with ESP8266 AT command.
 
 ### WizFi360
 
-  - <a href="/img/products/wizfi360/wizfi360ds/wizfi360_ds_v107_en.pdf" target="_blank">WizFi360 Datasheet v1.07</a>
+  - <a href="/img/products/wizfi360/wizfi360ds/wizfi360_ds_v108_en.pdf" target="_blank">WizFi360 Datasheet v1.08</a>
 
-  - 2022-02-09 V1.07
-      - Edited “5. Pin Definitions” Figure 3
+  - 2022-04-05 V1.08
+      - Edited “2. Features”
 
 **Old Datasheet History**
 
+  - 2022-02-09 V1.07
+      - Edited “5. Pin Definitions” Figure 3
   - 2021-03-17 V1.06
       - Edited “5. Pin Definitions” No.19
   - 2019-10-18 V1.03 Edited “Figure3. WizFi360 Pinout”
