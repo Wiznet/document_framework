@@ -125,7 +125,7 @@ TBA
 
 ### Schematic & Part list & Gerber File
 
-- [Go to Github](https://github.com/Wiznet/Hardware-Files-of-WIZnet/tree/master/02_iEthernet/W5100S/W5100S-EVB-Pico_V100)
+- [Go to Github](https://github.com/Wiznet/Hardware-Files-of-WIZnet/tree/master/02_iEthernet/W5100S/W5100S-EVB-Pico)
 
 ### Dimension (Unit : mm)
 
