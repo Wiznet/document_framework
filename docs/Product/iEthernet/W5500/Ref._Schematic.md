@@ -16,7 +16,7 @@ date: 2020-04-03
 
 ## RJ45 with Transformer Type
 
-<a href="/img/products/w5500/w5500_sch_v110_use_trans_.pdf" target="_blank">W5500 Ref.Schematic - RJ45 with Transformer</a>
+<a href="/img/products/w5500/w5500_sch_v110_use_mag_.pdf" target="_blank">W5500 Ref.Schematic - RJ45 with Transformer</a>
 
 ![W5500 Reference Schematic (RJ45 with Transformer)](/img/products/w5500/w5500_sch_v110_use_mag_.png)
 
