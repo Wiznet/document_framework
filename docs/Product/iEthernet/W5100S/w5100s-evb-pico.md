@@ -141,7 +141,7 @@ Please refer to below links to find firmware example.
 - [AWS Examples](https://github.com/Wiznet/RP2040-HAT-AWS-C)
 - [Azure Examples](https://github.com/Wiznet/RP2040-HAT-AZURE-C)
 - [FreeRTOS Examples](https://github.com/Wiznet/RP2040-HAT-FREERTOS-C)
-
+- [LwIP Examples](https://github.com/Wiznet/RP2040-HAT-LWIP-C)
 
 ### AWS Qualification
 
