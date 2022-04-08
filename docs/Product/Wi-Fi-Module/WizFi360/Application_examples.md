@@ -44,9 +44,9 @@ AP configration setting and TCP communication using Smartphone App.
 * <a href="/img/products/wizfi360/wizfi360ds/wizfi360_airkiss_en.pdf" target="_blank">AirKiss guide EN V1.0.0</a>
 * AirKiss setup example code - 🌎[[https://github.com/WIZnet-WizFi360/WizFi360_AirKiss_Test.git]]
 
-## SPI MODE
+## SPI mode
 
 SPI Slave Communication mode.
- 
-* <a href="/img/products/wizfi360/wizfi360app/wizfi360_an_spi_k_103_1.pdf" target="_blank">WizFi360 SPI MODE guide KR V1.0.3</a>
-* <a href="/img/products/wizfi360/wizfi360app/wizfi360_an_spi_e_101_1.pdf" target="_blank">WizFi360 SPI MODE guide EN V1.0.1</a>
+
+* <a href="/img/products/wizfi360/wizfi360app/wizfi360_an_spi_v103_k.pdf" target="_blank">WizFi360 SPI mode guide KR V1.0.3</a>
+* <a href="/img/products/wizfi360/wizfi360app/wizfi360_an_spi_v101_e.pdf" target="_blank">WizFi360 SPI mode guide EN V1.0.1</a>
