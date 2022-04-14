@@ -34,8 +34,9 @@ The **IOP4IoT W7500** chip is the one-chip solution which integrates an ARM Cort
 
 ### Evaluation Board
 
-  -  [W5500-EVB](iEthernet/W5500/W5500-EVB/W5500-EVB.md): W5500 chip evaluation
-    board
+  -  [W5100S-EVB-Pico](iEthernet/W5100S/w5100s-evb-pico.md): RP2040-based W5100S chip evaluation board
+  -  [W5500-EVB-Pico](iEthernet/W5500/w5500-evb-pico.md): RP2040-based W5500 chip evaluation board
+  -  [W5500-EVB](iEthernet/W5500/W5500-EVB/W5500-EVB.md): W5500 chip evaluation board
 
 -----
 
@@ -92,6 +93,7 @@ The **IOP4IoT W7500** chip is the one-chip solution which integrates an ARM Cort
 
 ## Open Source Hardware
 
+  - [WizFi360-EVB-Pico](Open-Source-Hardware/WizFi360-EVB-Pico.md)
   - [WIZnet Ethernet HAT](Open-Source-Hardware/WIZnet-Ethernet-HAT.md)
   - [WizArduino M0 ETH](Open-Source-Hardware/WizArduino_M0_ETH.md)
   - [WizArduino MEGA WIFI](Open-Source-Hardware/WizArduino_MEGA_WIFI.md)

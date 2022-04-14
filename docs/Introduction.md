@@ -53,9 +53,9 @@ application info.
 [Open Source Hardware Home](Product/Open-Source-Hardware/Open_Source_Hardware.md) - Materials and information on WIZnet
 open source hardware products.
 
-  - **[WIZnet Ethernet HAT](Product/Open-Source-Hardware/WIZnet-Ethernet-HAT.md)**
-  - **[W5500 Ethernet Shield](Product/Open-Source-Hardware/W5500_Ethernet_Shield.md)**
-    ![](/img/star.png)
+  - **[WizFi360-EVB-Pico](Product/Open-Source-Hardware/WizFi360-EVB-Pico.md)** ![](/img/star.png)
+  - **[WIZnet Ethernet HAT](Product/Open-Source-Hardware/WIZnet-Ethernet-HAT.md)** ![](/img/star.png)
+  - [W5500 Ethernet Shield](Product/Open-Source-Hardware/W5500_Ethernet_Shield.md)
   - [ioShield-A](Product/Open-Source-Hardware/ioShield-A.md) for Arduino
   - [ioShield-K](Product/Open-Source-Hardware/ioShield-K.md) for Gadget Renesas KURUMI
   - [ioShield-L](Product/Open-Source-Hardware/ioShield-L.md) for TI’s MSP430 LaunchPad
