@@ -889,6 +889,7 @@ module.exports = {
 			'Product/Open-Source-Hardware/wiznet_ethernet_hat',
 			'Product/Open-Source-Hardware/wizfi360-evb-pico',
 			'Product/Open-Source-Hardware/w2e-gateway-pico',
+			'Product/iEthernet/W5500/w5500-evb-pico',
 			'Product/iEthernet/W5100S/w5100s-evb-pico',
 			'Product/Open-Source-Hardware/w5100s_mkr_ethernet_shield',
 			'Product/Open-Source-Hardware/w6100_mkr_ethernet_shield',
