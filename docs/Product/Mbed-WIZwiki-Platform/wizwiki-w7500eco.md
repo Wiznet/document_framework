@@ -97,29 +97,28 @@ CMSIS-DAP for debuging and ethernet-phy.
 
 **W7500 Library**
 
-  * [W7500 Library PAGE](../iMCU/W7500/Libraries_&_Examples.md)
+  * [W7500 Library PAGE](./../iMCU/W7500/Libraries-Examples.md)
     
     -----
 
 
 ## Getting Started
 
-   * [How to start WIZwiki-W7500 Board](Getting-Started/how-to-start-wizwiki-w7500-board)
-   * [How to install WIZwiki-W7500 serial driver](Getting-Started/how-to-install-wizwiki-7500-serial-driver)
-   * [How to write the firmware into WIZwiki-W7500](Getting-Started/how-to-write-firmware-into-wizwiki-w7500)
-   * [How to debug Wizwiki-W7500](Getting-Started/how-to-debug-wizwiki-w7500)
-   * [How to write the firmware into CMSIS-DAP](Getting-Started/how-to-write-firmware-into-cmsis-dap)
+   * [How to start WIZwiki-W7500 Board](./Getting-Started/How_to_start_WIZwiki_W7500_Board.md)
+   * [How to install WIZwiki-W7500 serial driver](./Getting-Started/How_to_install_WIZwiki_W7500_serial_driver.md)
+   * [How to write the firmware into WIZwiki-W7500](./Getting-Started/How_to_write_the_firmware_into_WIZwiki_W7500.md)
+   * [How to debug Wizwiki-W7500](./Getting-Started/How_to_debug_Wizwiki_W7500.md)
+   * [How to write the firmware into CMSIS-DAP](./Getting-Started/How_to_write_the_firmware_into_CMSIS_DAP.md)
 
 -----
 
 
 ## Make New WIZwiki-W7500ECO Projects
-
-   * [How to install KEIL uVision5](../iMCU/W7500/documents/appnote/how_to_install_KEIL)
-   * [How to create KEIL uVision5 new project for W7500](../iMCU/W7500/documents/appnote/how-to-make-keil-new-project-for-w7500)
-   * [How to use MDK for W7500 Peripherals Examples](../iMCU/W7500/documents/appnote/how-to-use-mdk-for-w7500-peripherals-examples)
-   * [How to use gcc for W7500 Peripherals Examples](../iMCU/W7500/documents/appnote/how-to-use-gcc-for-w7500-peripherals-examples)
-
+ 
+   * [How to install KEIL uVision5](./../iMCU/W7500/documents/appnote/How_to_install_KEIL.md)
+   * [How to create KEIL uVision5 new project for W7500](./../iMCU/W7500/documents/appnote/How_to_make_KEIL_new_project_for_W7500.md)
+   * [How to use MDK for W7500 Peripherals Examples](./../iMCU/W7500/documents/appnote/How-to-use-MDK-for-W7500-Peripherals-Examples.md)
+   * [How to use gcc for W7500 Peripherals Examples](./../iMCU/W7500/documents/appnote/How_to_use_GCC_for_W7500_Peripherals_Examples.md)
 
 -----
 
@@ -128,7 +127,7 @@ CMSIS-DAP for debuging and ethernet-phy.
 
 **Datasheet**
 
-   * [W7500 Documents](../iMCU/W7500/Documents.md)
+   * [W7500 Documents](./../iMCU/W7500/Documents.md)
    * <a href="/img/products/w7500/overview/IP101G_DS_R01_20121224.pdf" target="_blank">IP101GRI Datasheet</a>
    * <a href="/img/products/w7500p/overview/LPC11U3X.pdf" target="_blank">LPC11U35FHI33/501 Datasheet</a>
 
@@ -161,11 +160,10 @@ CMSIS-DAP for debuging and ethernet-phy.
    
 **W7500 ISP Program**
 
-   * [Go to ISP tool manual & Program download](../iMCU/W7500/documents/appnote/how-to-use-isp-tool)
+   * [Go to ISP tool manual & Program download](./../iMCU/W7500/documents/appnote/How-to-use-ISP-tool.md)
 
  **Examples Binary**
-
    
-   * [WIZwiki-W7500 Examples Binary](Getting-Started/how-to-write-firmware-into-wizwiki-w7500#examples-binary)
+   * [WIZwiki-W7500 Examples Binary](./Getting-Started/How_to_write_the_firmware_into_WIZwiki_W7500.md#examples-binary)
 
 -----

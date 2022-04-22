@@ -154,6 +154,6 @@ ARP problem in the NLB environment V1.0
     
   - [How to use GCC for W7500 Peripherals Examples](../W7500/documents/appnote/How_to_use_GCC_for_W7500_Peripherals_Examples.md)
   
-  - [How to use ISP tool](../W7500/documents/appnote/how-to-use-isp-tool)
+  - [How to use ISP tool](../W7500/documents/appnote/How-to-use-ISP-tool.md)
   
 -----

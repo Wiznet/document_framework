@@ -1,5 +1,5 @@
 ---
-id: comparison_sheet
+id: comparison-sheet
 title: W5100S Comparison Sheet
 date: 2020-04-03
 ---

@@ -8,40 +8,39 @@ date: 2020-04-02
 
 ## W5500:
 
-3rd party products using our 🌎[W5500
-chip](../Product/iEthernet/W5500/overview):  
+3rd party products using our 🌎[W5500 chip](../Product/iEthernet/W5500/Overview.md):  
 ### W5500CoB (ESoPe)
 
 ![oshw\_W5500CoB\_001](/img/var_products/third_party/w5500cob_top_002.jpg)
 ![](/img/var_products/third_party/w5500cob_bottom_001.jpg)
-A small **"Connector-on-Board"** Plug-In Module with 🌎[W5500 chip](../Product/iEthernet/W5500/overview) + 100mil 8-Pin-Headers 'Breadboard friendly' Footprint. The W5500's SPI I/F and PHY I/F is free available.
-Details:[ESoPe W5500CoB](w5500CoB_ESoPe)
+A small **"Connector-on-Board"** Plug-In Module with 🌎[W5500 chip](../Product/iEthernet/W5500/Overview.md) + 100mil 8-Pin-Headers 'Breadboard friendly' Footprint. The W5500's SPI I/F and PHY I/F is free available.
+Details:[ESoPe W5500CoB](./W5500CoB_ESoPe.md)
 
 ### W5500BoB (ESoPe)
 
 ![oshw\_W5500BoB\_001](/img/var_products/third_party/w5500bob_001.jpg)
 ![](/img/var_products/third_party/w5500bob_002.jpg)
-A small 'stamp' sized “Break-out-Board” Module with 🌎[W5500 chip](../Product/iEthernet/W5500/overview) + with 900mil distanced Pin-Headers 'Breadboard friendly' Footprint. The W5500's SPI I/F and PHY I/F is free available. [ESoPe W5500BoB](w5500BoB_ESoPe).
+A small 'stamp' sized “Break-out-Board” Module with 🌎[W5500 chip](../Product/iEthernet/W5500/Overview.md) + with 900mil distanced Pin-Headers 'Breadboard friendly' Footprint. The W5500's SPI I/F and PHY I/F is free available. [ESoPe W5500BoB](./W5500BoB_ESoPe.md).
 
 ### Netzwerk Adapter (eHaJo)
 
 ![oshw\_eHaJo\_001](/img/var_products/third_party/ehajo_w5500-adapter_001.jpg)
 ![oshw\_eHaJo\_002](/img/var_products/third_party/ehajo_w5500-adapter_002.jpg)
 
-A small Adapter with 🌎[W5500 chip](../Product/iEthernet/W5500/overview) + MCU (ATXmega8E5) for future purpose. The W5500's SPI I/F is free available and the MCU is free programmable and some IOs are available. 🌎[eHaJo Netzwerk-Adapter](https://www.ehajo.de/dokuwiki/bausaetze:netzwerk-adapter:anleitung)
+A small Adapter with 🌎[W5500 chip](../Product/iEthernet/W5500/Overview.md) + MCU (ATXmega8E5) for future purpose. The W5500's SPI I/F is free available and the MCU is free programmable and some IOs are available. 🌎[eHaJo Netzwerk-Adapter](https://www.ehajo.de/dokuwiki/bausaetze:netzwerk-adapter:anleitung)
 
 ### Ethernet Booster Pack
 
 ![oshw\_RobG\_002](/img/var_products/third_party/edit_w5500_03_ethernet_boosterpack_1.jpg)
 ![oshw\_RobG\_001](/img/var_products/third_party/edit_w5500_03_ethernet_boosterpack_2.jpg)
 
-🌎[The Ethernet Boosterpack in 43oh Store](http://store.43oh.com/index.php?route=product/product&product_id=83) was developled by Rob from the 🌎[43oh Forums](http://forum.43oh.com/topic/4490-ethernet-booster-pack-v3/). To know more about the Ethernet BoosterPack, visit Rob's thread here. This BoosterPack is perfect for all TI MSP430 Launch-Pad MCU boards and is fitted with the 🌎[W5500 chip](../Product/iEthernet/W5500/overview) which is an embedded Ethernet controller composed of a fully hardwired market-proven TCP/IP stack and an integrated Ethernet MAC & PHY.
+🌎[The Ethernet Boosterpack in 43oh Store](http://store.43oh.com/index.php?route=product/product&product_id=83) was developled by Rob from the 🌎[43oh Forums](http://forum.43oh.com/topic/4490-ethernet-booster-pack-v3/). To know more about the Ethernet BoosterPack, visit Rob's thread here. This BoosterPack is perfect for all TI MSP430 Launch-Pad MCU boards and is fitted with the 🌎[W5500 chip](../Product/iEthernet/W5500/Overview.md) which is an embedded Ethernet controller composed of a fully hardwired market-proven TCP/IP stack and an integrated Ethernet MAC & PHY.
 
 ### W5500 Breakout (HAIRY.GEEK.NZ)
 
 ![oshw\_hairy-geek-nz\_001](/img/var_products/third_party/hairy-gook-nz_top.png)
 
-The breakout board includes all the passives and a crystal needed to drive the chip. The 🌎[WIZnet](http://www.wiznet.co.kr/sub_modules/en/) 🌎[W5500](../Product/iEthernet/W5500/overview) does not include a pre-programmed MAC, you will need to obtain one for production use. As this is a 3.3V part and no level shifting is included, if you want to use this board with a 5V Arduino (ie, most of them) then you’ll need to do some level shifting on the SPI interface yourself.
+The breakout board includes all the passives and a crystal needed to drive the chip. The 🌎[WIZnet](http://www.wiznet.co.kr/sub_modules/en/) 🌎[W5500](../Product/iEthernet/W5500/Overview.md) does not include a pre-programmed MAC, you will need to obtain one for production use. As this is a 3.3V part and no level shifting is included, if you want to use this board with a 5V Arduino (ie, most of them) then you’ll need to do some level shifting on the SPI interface yourself.
 These may eventually be put into production, but for now it’s purely for my own code development.
 🌎[W5500 Breakout](http://hairy.geek.nz/projects/w5500-breakout/)
 
@@ -67,8 +66,7 @@ These may eventually be put into production, but for now it’s purely for my ow
 > to keep data during power cycling without needing a battery backup.
 > 
 > This module is based on the
-> 🌎[WIZnet](http://www.wiznet.co.kr/sub_modules/en/) 🌎[W5500 Ethernet
-> chip.](../Product/iEthernet/W5500/overview)
+> 🌎[WIZnet](http://www.wiznet.co.kr/sub_modules/en/) 🌎[W5500 Ethernet > chip.](../Product/iEthernet/W5500/Overview.md)
 
 -----
 ### Microduino-W5500
@@ -77,8 +75,7 @@ These may eventually be put into production, but for now it’s purely for my ow
 ![edit\_microduino-w5500-rect.jpg](/img/var_products/third_party/edit_microduino-w5500-rect.jpg)
 
 > 🌎[Microduino-W5500](http://www.microduino.cc/w5500) is the Ethernet
-> control module, developed by adopting 🌎[W5500 network
-> chip.](../Product/iEthernet/W5500/overview) Only
+> control module, developed by adopting 🌎[W5500 network > chip.](../Product/iEthernet/W5500/Overview.md) Only
 > when Microduino-W5500 is stacked with Microduino-RJ45 can it form a
 > complete network module. It can not be used individually.
 
@@ -99,8 +96,7 @@ UDP, UDP Server;Working model related parameters can be set via a serial
 port or network;5 V RS232/RS485 level ; It has been widely used in IOT
 field. Besides, it has characters of low price, high speed and high
 stability. This module is based on the
-🌎[WIZnet](http://www.wiznet.co.kr/sub_modules/en/) 🌎[W5500 Ethernet
-chip.](../Product/iEthernet/W5500/overview)
+🌎[WIZnet](http://www.wiznet.co.kr/sub_modules/en/) 🌎[W5500 Ethernet chip.](../Product/iEthernet/W5500/Overview.md)
 
 -----
 ## W5200:
@@ -211,8 +207,7 @@ chip:
 > with a button that can be read under user control. A second button
 > resets the Propeller to reload the firmware from the EEPROM.
 > 
-> 🌎[Wiznet W5100 ethernet
-> chip](http://wiznet.co.kr/sub_modules/en/product/Product_Detail.asp?cate1=5&cate2=7&cate3=26&pid=1011)
+> 🌎[Wiznet W5100 ethernet > chip](http://wiznet.co.kr/sub_modules/en/product/Product_Detail.asp?cate1=5&cate2=7&cate3=26&pid=1011)
 > offloads TCP/IP stack, using minimal Propeller resources.
 
 -----
@@ -234,8 +229,7 @@ chip:
 
 ![edit\_19.andymark\_sasquatch\_robot\_controller\_am-2527\_.jpg](/img/var_products/third_party/edit_19.andymark_sasquatch_robot_controller_am-2527_.jpg)
 
-> The 🌎[Sasquatch Robot
-> Controller](http://www.andymark.com/product-p/am-2527.htm) is an
+> The 🌎[Sasquatch Robot > Controller](http://www.andymark.com/product-p/am-2527.htm) is an
 > 🌎[Arduino Mega](http://arduino.cc/en/Main/ArduinoBoardMega2560) variant
 > made by 221 Robotic Systems. This board utilizes the RobotOpen
 > Protocol to stream line information from a computer to the robot and
@@ -252,8 +246,7 @@ chip:
 > A newly updated Driver Station app is web-based and features graphs,
 > charts and data-logging along with graphical mapping of input devices.
 > 
-> This board is based on is based on the 🌎[Wiznet W5100 Ethernet
-> chip](http://wiznet.co.kr/sub_modules/en/product/Product_Detail.asp?cate1=5&cate2=7&cate3=26&pid=1011).
+> This board is based on is based on the 🌎[Wiznet W5100 Ethernet > chip](http://wiznet.co.kr/sub_modules/en/product/Product_Detail.asp?cate1=5&cate2=7&cate3=26&pid=1011).
 
 -----
 ### Iboard (IM120410001)
@@ -262,8 +255,7 @@ chip:
 ![edit\_20.iboard\_3.jpg](/img/var_products/third_party/edit_20.iboard_3.jpg)
 
 > 🌎[Iboard](http://imall.iteadstudio.com/development-platform/im120410001.html)
-> is a unique Arduino platform which features a 🌎[Wiznet W5100 Ethernet
-> chip,](http://wiznet.co.kr/sub_modules/en/product/Product_Detail.asp?cate1=5&cate2=7&cate3=26&pid=1011)
+> is a unique Arduino platform which features a 🌎[Wiznet W5100 Ethernet > chip](http://wiznet.co.kr/sub_modules/en/product/Product_Detail.asp?cate1=5&cate2=7&cate3=26&pid=1011)
 > an XBee socket, nRF24L01+ wireless interface and an ATMega328. This
 > board will add wireless XBee / nRF24L01+ control as well as internet
 > connectivity to your projects. It’s great for anything from home
@@ -291,10 +283,8 @@ chip:
 ![edit\_22.iboard\_pro\_2.jpg](/img/var_products/third_party/edit_22.iboard_pro_2.jpg)
 ![edit\_22.iboard\_pro\_3.jpg](/img/var_products/third_party/edit_22.iboard_pro_3.jpg)
 
-> 🌎[Iboard
-> Pro](http://imall.iteadstudio.com/development-platform/iboard-pro.html)
-> is a unique Arduino board which features a 🌎[Wiznet W5100 Ethernet
-> chip](http://wiznet.co.kr/sub_modules/en/product/Product_Detail.asp?cate1=5&cate2=7&cate3=26&pid=1011)
+> 🌎[Iboard > Pro](http://imall.iteadstudio.com/development-platform/iboard-pro.html)
+> is a unique Arduino board which features a 🌎[Wiznet W5100 Ethernet > chip](http://wiznet.co.kr/sub_modules/en/product/Product_Detail.asp?cate1=5&cate2=7&cate3=26&pid=1011)
 > with POE, an XBee socket, ITDB02 Serial/Parallel LCD module interface,
 > RTC, nRF24L01+ module interface, Micro SD socket and an ATMega2560.
 > This board will add wireless XBee control as well as internet
@@ -319,8 +309,7 @@ chip:
 > operating voltage, I / O port can withstand 5V voltage.
 > 
 > This module is based on the
-> 🌎[WIZnet](http://www.wiznet.co.kr/sub_modules/en/) 🌎[W5100 ethernet
-> chip.](http://www.wiznet.co.kr/sub_modules/en/product/Product_Detail.asp?cate1=5&cate2=7&cate3=26&pid=1011)
+> 🌎[WIZnet](http://www.wiznet.co.kr/sub_modules/en/) 🌎[W5100 ethernet > chip.](http://www.wiznet.co.kr/sub_modules/en/product/Product_Detail.asp?cate1=5&cate2=7&cate3=26&pid=1011)
 
 -----
 ## WIZnet Module:
@@ -339,7 +328,6 @@ chip:
 > you show it love.
 > 
 > This kits is based on the
-> 🌎[WIZnet](http://www.wiznet.co.kr/sub_modules/en/) 🌎[WIZ811MJ
-> module.](http://www.wiznet.co.kr/sub_modules/en/product/Product_Detail.asp?cate1=5&cate2=42&cate3=0&pid=1030)
+> 🌎[WIZnet](http://www.wiznet.co.kr/sub_modules/en/) 🌎[WIZ811MJ > module.](http://www.wiznet.co.kr/sub_modules/en/product/Product_Detail.asp?cate1=5&cate2=42&cate3=0&pid=1030)
 
 -----

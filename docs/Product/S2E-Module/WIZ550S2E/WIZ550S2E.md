@@ -1,7 +1,7 @@
 ---
 id: wiz550s2e
 title: WIZ550S2E
-date: 2020-03-
+date: 2020-03-10
 ---
 
 WIZ550S2E is a gateway module that converts serial protocol
@@ -14,36 +14,36 @@ versa.
 
 ## Datasheet / Hardware information
 
-[한글](datasheet_kor)  
-[English](datasheet_eng)  
-[中文](datasheet_chn) 
+[한글](Datasheet-Kor.md)  
+[English](Datasheet-Eng.md)  
+[中文](Datasheet-Chn.md) 
 
 ## Programmer's Guide 
 
-[한글](programmer_guide_kor)  
-  * [AT Command](programmer_guide_kor#wiz550s2e-at-command-set)  
-  * [Configuration Tool](programmer_guide_kor#configuration-tool)
+[한글](Programmer-Guide-Kor.md)  
+  * [AT Command](AT-Command-Kor.md)  
+  * [Configuration Tool](Programmer-Guide-Kor.md#configuration-tool)
 
-[English](programmer_guide_eng)  
-  * [AT Command](programmer_guide_eng#wiz550s2e-at-command-set)  
-  * [Configuration Tool](programmer_guide_eng#configuration-tool)  
+[English](Programmer-Guide-Eng.md)  
+  * [AT Command](AT-Command-Eng.md)  
+  * [Configuration Tool](Programmer-Guide-Eng.md#configuration-tool)  
 
-[中文](programmer_guide_chn)  
-  * [AT Command](programmer_guide_chn#wiz550s2e-at-command-set)  
-  * [Configuration Tool](programmer_guide_chn#configuration-tool)  
+[中文](Programmer-Guide-Chn.md)  
+  * [AT Command](AT-Command-Chn.md)
+  * [Configuration Tool](Programmer-Guide-Chn.md#configuration-tool)
 
 ## Future Plan 
 
-[한글](future_plan_kor)  
-[English](future_plan_eng)  
+[한글](Future-Plan-KO.md)  
+[English](Future-Plan-EN.md)  
 
 ## Download 
 
-[Download](download)  
+[Download](Download.md)  
 
 ## Tutorial
 
-[한글](tutorial_kor)  
-[English](tutorial_eng)  
+[한글](Tutorial-Kor.md)  
+[English](Tutorial-Eng.md)  
 
 -----

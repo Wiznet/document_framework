@@ -61,4 +61,4 @@ Operation is almost the same as the non-interrupt mode except checking INT regis
 ------------------------------
 
 ## Peripheral_Examples
-- [ADC Illumination example](illumination_sensor.md)
+- [ADC Illumination example](illumination-sensor.md)

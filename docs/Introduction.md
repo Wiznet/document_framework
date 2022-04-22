@@ -31,7 +31,7 @@ application info.
   - **[WIZwiki-W7500P](Product/Mbed-WIZwiki-Platform/wizwiki-w7500p.md)**
     ![](/img/star.png)
   - [WIZwiki-W7500ECO](Product/Mbed-WIZwiki-Platform/wizwiki-w7500eco.md)
-  - [WIZwiki-W7500 mbed Starter Kit](Product/Mbed-WIZwiki-Platform/WIZwiki-W7500-Mbed-Starter-Kit/WIZwiki-W7500_Mbed_Starter_Kit.md)
+  - [WIZwiki-W7500 mbed Starter Kit](Product/Mbed-WIZwiki-Platform/WIZwiki-W7500-Mbed-Starter-Kit/WIZwiki-W7500-Mbed-Starter-Kit.md)
   - [W7500](Product/iMCU/W7500/Overview.md)
   - [W7500P](Product/iMCU/W7500P/Overview.md)
   - **[W6100](Product/iEthernet/W6100/Overview.md): Hardwired TCP/IP Chip(IPv4/6 Dual Stack)** ![](/img/star.png) 
@@ -76,7 +76,7 @@ open source hardware products.
 
 ### Application References
 
-  - [BLE to Ethernet](VAR-Products-using-WIZnet/ble_to_ethernet)
+  - [BLE to Ethernet](VAR-Products-using-WIZnet/bletoethernet.md)
 
 
 ### External Links

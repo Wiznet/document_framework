@@ -162,4 +162,4 @@ The below Figure shows the command sequences available for the I2C slave.
 
  - [I2C Read/Write example](init.md)
  - [I2C and M24CXX EEPROM communication example](eeprom.md)
- - [I2C and LM75 Temperature Sensor communication example](lm75_temperature.md)
+ - [I2C and LM75 Temperature Sensor communication example](lm75-temperature.md)

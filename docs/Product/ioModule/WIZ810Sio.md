@@ -58,8 +58,7 @@ rapidly.
 
 **Schematic & Part list & Gerber**
 
-  - 🌎[Go to
-    Github](https://github.com/Wiznet/Hardware-Files-of-WIZnet/tree/master/05_Network_Module)
+  - 🌎[Go to Github](https://github.com/Wiznet/Hardware-Files-of-WIZnet/tree/master/05_Network_Module)
 
 -----
 

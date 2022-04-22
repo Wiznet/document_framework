@@ -10,7 +10,7 @@ date: 2020-04-03
 
 ## Overview
 
-WizArduino M0 ETH is built on 🌎[M0 board](http://www.arduino.org/products/boards/arduino-m0) but adds 🌎[W5500 TCP/IP Embedded Ethernet Controller](../iEthernet/W5500/overview), thus making it simple as Arduino UNO platform and applicable for IoT development.
+WizArduino M0 ETH is built on 🌎[M0 board](http://www.arduino.org/products/boards/arduino-m0) but adds 🌎[W5500 TCP/IP Embedded Ethernet Controller](./../iEthernet/W5500/Overview.md), thus making it simple as Arduino UNO platform and applicable for IoT development.
 
 
 ![](/img/osh/wizarduino/m0_ethernetshield.png)

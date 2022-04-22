@@ -83,9 +83,9 @@ Apart from GPIO and ground pins, there are 7 other pins on the main 40-pin inter
 | VSYS Max                  | DC 5.5V                      |
 
 
-<!--
+
 ## Electrical Specification
--->
+
 ## Technical Reference
 
 ### RP2040 Datasheet
@@ -110,6 +110,6 @@ Apart from GPIO and ground pins, there are 7 other pins on the main 40-pin inter
 
 ### Firmware Example
 
-- [C/C++ Examples](https://github.com/Wiznet/WizFi360-EVB-Pico-C)
+Coming soon
 
 <!--Please refer to below links to find firmware example.-->

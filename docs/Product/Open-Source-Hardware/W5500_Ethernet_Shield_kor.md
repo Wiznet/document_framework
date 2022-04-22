@@ -39,14 +39,14 @@ Platform과 ARM mbed Platform에 호환되어 사용됩니다.
   - W5500 Ethernet Shield를 사용하기 위해 Arduino IDE (Sketch Program)에 포함된
     WIZnet Ethernet Library의 Update가 필요하다. (**필수**)
   - 아래 링크를 참조하기 바란다.
-      - Follow this URL: [Getting Started\_kor](getting_started_arduino_kr)
+      - Follow this URL: [Getting Started\_kor](./getting_started_arduino_kr.md)
 
 -----
 
 ## Language
 
-  - [Eng.Ver](w5500_ethernet_shield)
-  - [Jp.Ver](w5500_ethernet_shield_jp)
+  - [Eng.Ver](./W5500_Ethernet_Shield.md)
+  - [Jp.Ver](./W5500_Ethernet_Shield_jp.md)
 
 -----
 
@@ -93,7 +93,7 @@ W5500 Ethernet shield is Possible to User Select GPIO
 **SPI Operation**
 
 W5500 Ethernet shield는 W5500 기반으로 제작되었습니다. 그러므로 SPI 동작 & 타이밍 등은 W5500
-Datasheet를 확인해주세요. 더 많은 정보를 원하시면[W5500](../iEthernet/W5500/overview)과
+Datasheet를 확인해주세요. 더 많은 정보를 원하시면[W5500](./../iEthernet/W5500/Overview.md)과
 Datasheet 확인해주세요.
 
   - <a href="/img/products/w5500/w5500_ds_v106e_141230.pdf" target="_blank">W5500 Datasheet v1.0.6 - English</a>
@@ -134,7 +134,7 @@ Datasheet 확인해주세요.
 
 **Ethernet shield Library 추가하기**
 
-  - [Ethernet Library for ioShield-A](ethernet_library_for_ioShield_A)
+  - [Ethernet Library for ioShield-A](./ethernet_library_for_ioShield_A.md)
 
 **Arduino 예제**
 

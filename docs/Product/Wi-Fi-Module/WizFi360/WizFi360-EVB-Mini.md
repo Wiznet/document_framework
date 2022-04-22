@@ -51,13 +51,13 @@ be up to 2Mbps, which can meet the requirement of various applications.
 
 ## Quick Start Guide
 
-  - 🌎[Quick Start Guide](documents#quick-start-guide)
+  - 🌎[Quick Start Guide](./Documents.md#quick-start-guide)
 
 -----
 
 ## Datasheet
 
-  - 🌎[Download](documents#wizfi360-evb-mini)
+  - 🌎[Download](./Documents.md#wizfi360-evb-mini)
 
 -----
 
@@ -65,8 +65,7 @@ be up to 2Mbps, which can meet the requirement of various applications.
 
 **Ref Schematic & Other Board Schematics**
 
-  - 🌎[Go to
-    Github](https://github.com/Wiznet/Hardware-Files-of-WIZnet/tree/master/07_WizFi_Module)
+  - 🌎[Go to Github](https://github.com/Wiznet/Hardware-Files-of-WIZnet/tree/master/07_WizFi_Module)
 
 -----
 
@@ -80,7 +79,6 @@ be up to 2Mbps, which can meet the requirement of various applications.
 
 #### Serial Port Driver
 
-  - 🌎[CP210x USB to UART Bridge VCP
-    Drivers](http://www.silabs.com/products/development-tools/software/usb-to-uart-bridge-vcp-drivers)
+  - 🌎[CP210x USB to UART Bridge VCP Drivers](http://www.silabs.com/products/development-tools/software/usb-to-uart-bridge-vcp-drivers)
 
 -----

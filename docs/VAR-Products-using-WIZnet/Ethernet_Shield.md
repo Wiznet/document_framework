@@ -12,11 +12,8 @@ There are many resource Products using WIZnet Ethernet chip.
 
 ![arduino_ethernet_shield](/img/var_products/edit_04.arduino_ethernet_shield.jpg)
 
-> This 🌎[Ethernet
-> Shield](http://arduino.cc/en/Guide/ArduinoEthernetShield) which is
-> based on the 🌎[Wiznet](http://wiznet.co.kr/Sub_Modules/en/) 🌎[W5100
-> Ethernet
-> Chip](http://wiznet.co.kr/sub_modules/en/product/Product_Detail.asp?cate1=5&cate2=7&cate3=26&pid=1011)
+> This 🌎[Ethernet > Shield](http://arduino.cc/en/Guide/ArduinoEthernetShield) which is
+> based on the 🌎[Wiznet](http://wiznet.co.kr/Sub_Modules/en/) 🌎[W5100 > Ethernet > Chip](http://wiznet.co.kr/sub_modules/en/product/Product_Detail.asp?cate1=5&cate2=7&cate3=26&pid=1011)
 > gives you an easy way to get your Arduino Online.
 > 
 > It is directly supported by official Ethernet Library. It adds a
@@ -29,13 +26,11 @@ There are many resource Products using WIZnet Ethernet chip.
 
 ![arduino_ethernet_shield_r2](/img/var_products/edit_03.arduino_ethernet_shield_r2.jpg)
 
-> The 🌎[Arduino Ethernet
-> shield](http://www.nkcelectronics.com/arduino-ethernet-shield.html)
+> The 🌎[Arduino Ethernet > shield](http://www.nkcelectronics.com/arduino-ethernet-shield.html)
 > (This item is Ethernet shield R2) allows an Arduino board to connect
 > to a LAN using the Ethernet library.
 > 
-> TCP/IP stack on board provided by the 🌎[W5100
-> chip](http://wiznet.co.kr/sub_modules/en/product/Product_Detail.asp?cate1=5&cate2=7&cate3=26&pid=1011)
+> TCP/IP stack on board provided by the 🌎[W5100 > chip](http://wiznet.co.kr/sub_modules/en/product/Product_Detail.asp?cate1=5&cate2=7&cate3=26&pid=1011)
 
 -----
 
@@ -44,10 +39,8 @@ There are many resource Products using WIZnet Ethernet chip.
 ![arduino_ethernet_shield_r3_front](/img/var_products/01.arduino_ethernet_shield_r3_front_.jpg)
 ![arduino_ethernet_shield_r3_back](/img/var_products/01.arduino_ethernet_shield_r3_back_.jpg)
 
-> The 🌎[Arduino Ethernet Shield
-> R3.0](http://arduino.cc/en/Main/ArduinoEthernetShield) allows an
-> Arduino board to connect to the internet. It is based on the 🌎[Wiznet
-> W5100 ethernet
+> The 🌎[Arduino Ethernet Shield > R3.0](http://arduino.cc/en/Main/ArduinoEthernetShield) allows an
+> Arduino board to connect to the internet. It is based on the 🌎[Wiznet > W5100 ethernet
 > chip.](http://wiznet.co.kr/sub_modules/en/product/Product_Detail.asp?cate1=5&cate2=7&cate3=26&pid=1011)
 > The Wiznet W5100 provides a network (IP) stack capable of both TCP and
 > UDP. It supports up to four simultaneous socket connections. Use the
@@ -71,10 +64,8 @@ There are many resource Products using WIZnet Ethernet chip.
 > well.
 > 
 > The Ethernet differs from other boards in that it does not have an
-> onboard USB-to-serial driver chip, but has a 🌎[Wiznet W5100 ethernet
-> chip.](http://wiznet.co.kr/sub_modules/en/product/Product_Detail.asp?cate1=5&cate2=7&cate3=26&pid=1011)
-> This is the same interface found on the 🌎[Ethernet
-> shield.](http://arduino.cc/en/Main/ArduinoEthernetShield)
+> onboard USB-to-serial driver chip, but has a 🌎[Wiznet W5100 ethernet > chip.](http://wiznet.co.kr/sub_modules/en/product/Product_Detail.asp?cate1=5&cate2=7&cate3=26&pid=1011)
+> This is the same interface found on the 🌎[Ethernet > shield.](http://arduino.cc/en/Main/ArduinoEthernetShield)
 
 -----
 
@@ -91,8 +82,7 @@ There are many resource Products using WIZnet Ethernet chip.
 > way to add ethernet to any project. These are older and possibly more
 > familiar to some people.
 > 
-> The 🌎[WIZnet WIZ811mj
-> module](http://wiznet.co.kr/sub_modules/en/product/Product_Detail.asp?cate1=5&cate2=42&cate3=0&pid=1030)
+> The 🌎[WIZnet WIZ811mj > module](http://wiznet.co.kr/sub_modules/en/product/Product_Detail.asp?cate1=5&cate2=42&cate3=0&pid=1030)
 > is compatible with the official Arduino Ethernet library, which is
 > easy to use and very powerful.
 
@@ -103,12 +93,10 @@ There are many resource Products using WIZnet Ethernet chip.
 ![electronics_ethernet_shield-1](/img/var_products/edit_07.electronics_ethernet_shield-1.jpg)
 ![electronics_ethernet_shield-2](/img/var_products/edit_07.electronics_ethernet_shield-2.jpg)
 
-> 🌎[DFRduino Ethernet
-> Shield](http://www.china-electronics-gadgets.com/electronics-diy-arduino-ethernet-shield-w5100-p-354.html)
+> 🌎[DFRduino Ethernet > Shield](http://www.china-electronics-gadgets.com/electronics-diy-arduino-ethernet-shield-w5100-p-354.html)
 > is compatible with the standard Arduino Ethernet library Compatible
 > with Arduino Duemianove, Uno, Mega 1280 and 2560 Based on the
-> 🌎[Wiznet](http://wiznet.co.kr/Sub_Modules/en/) 🌎[W5100 ethernet
-> chip](http://wiznet.co.kr/sub_modules/en/product/Product_Detail.asp?cate1=5&cate2=7&cate3=26&pid=1011)
+> 🌎[Wiznet](http://wiznet.co.kr/Sub_Modules/en/) 🌎[W5100 ethernet > chip](http://wiznet.co.kr/sub_modules/en/product/Product_Detail.asp?cate1=5&cate2=7&cate3=26&pid=1011)
 > and comes fully assembled Micro SD card slot for data loggingVoltage:
 > 3.8-12V
 
@@ -118,8 +106,7 @@ There are many resource Products using WIZnet Ethernet chip.
 ![dfrduino_ethernet_shield-1](/img/var_products/edit_08.dfrduino_ethernet_shield-1.jpg)
 
 
-> The 🌎[DFRduino Ethernet Shield
-> V2.1](http://www.dfrobot.com/index.php?route=product/product&filter_name=ethernet&page=2&product_id=455%20-%20.U0eDr5awemQ#.U0zlS5awemQ)
+> The 🌎[DFRduino Ethernet Shield > V2.1](http://www.dfrobot.com/index.php?route=product/product&filter_name=ethernet&page=2&product_id=455%20-%20.U0eDr5awemQ#.U0zlS5awemQ)
 > is now released. This version of Ethernet Shield is not only
 > compatible with Mega 1280 and 2560, but also provides a Micro SD card
 > slot for reading/writing.
@@ -130,8 +117,7 @@ There are many resource Products using WIZnet Ethernet chip.
 > 
 > This Ethernet Shield provides an Arduino controller board with
 > internet access. It is based on the
-> 🌎[Wiznet](http://wiznet.co.kr/Sub_Modules/en/) 🌎[W5100 ethernet
-> chip.](http://wiznet.co.kr/sub_modules/en/product/Product_Detail.asp?cate1=5&cate2=7&cate3=26&pid=1011)
+> 🌎[Wiznet](http://wiznet.co.kr/Sub_Modules/en/) 🌎[W5100 ethernet > chip.](http://wiznet.co.kr/sub_modules/en/product/Product_Detail.asp?cate1=5&cate2=7&cate3=26&pid=1011)
 
 -----
 
@@ -142,13 +128,11 @@ There are many resource Products using WIZnet Ethernet chip.
 > The 🌎[Arduino Ethernet
 > Shield](http://www.dfrobot.com/index.php?route=product/product&filter_name=ethernet&page=1&product_id=52%20-%20.U0eEGZawemQ#.U0znpJawemQ)
 > gives you an easy way to get your Arduino Online. It uses Arduino
-> official 🌎[Wzinet](http://wiznet.co.kr/Sub_Modules/en/) 🌎[W5100 ethernet
-> chip](http://wiznet.co.kr/sub_modules/en/product/Product_Detail.asp?cate1=5&cate2=7&cate3=26&pid=1011)
+> official 🌎[Wzinet](http://wiznet.co.kr/Sub_Modules/en/) 🌎[W5100 ethernet > chip](http://wiznet.co.kr/sub_modules/en/product/Product_Detail.asp?cate1=5&cate2=7&cate3=26&pid=1011)
 > (not cheap ENC28J60) And it is directly supported by Arduino official
 > Ethernet Library.
 > 
-> The 🌎[Wzinet](http://wiznet.co.kr/Sub_Modules/en/) 🌎[W5100 ethernet
-> chip](http://wiznet.co.kr/sub_modules/en/product/Product_Detail.asp?cate1=5&cate2=7&cate3=26&pid=1011)
+> The 🌎[Wzinet](http://wiznet.co.kr/Sub_Modules/en/) 🌎[W5100 ethernet > chip](http://wiznet.co.kr/sub_modules/en/product/Product_Detail.asp?cate1=5&cate2=7&cate3=26&pid=1011)
 > provides a network (IP) stack capable of both TCP and UDP. It supports
 > up to four simultaneous socket connections. Use the Ethernet library
 > to write sketches which connect to the internet using the shield.
@@ -159,8 +143,7 @@ There are many resource Products using WIZnet Ethernet chip.
 ![edit\_10.xboard\_v2-1.jpg](/img/var_products/edit_10.xboard_v2-1.jpg)
 ![edit\_10.xboard\_v2-2.jpg](/img/var_products/edit_10.xboard_v2-2.jpg)
 
-> This is 🌎[Version 2.0 of the
-> Xboard.](http://www.dfrobot.com/index.php?route=product/product&path=52_104&product_id=564%20-%20.U0eCYJawemQ#.U0zn7ZawemQ)
+> This is 🌎[Version 2.0 of the > Xboard.](http://www.dfrobot.com/index.php?route=product/product&path=52_104&product_id=564%20-%20.U0eCYJawemQ#.U0zn7ZawemQ)
 > The main improvement is that it now operates at 5V, making it
 > compatible with most sensors and I2C protocol with out the need of a
 > voltage level converter.
@@ -180,10 +163,8 @@ There are many resource Products using WIZnet Ethernet chip.
 ![w5200_03_dfrobot_1](/img/var_products/edit_w5200_03_dfrobot_1.jpg)
 ![w5200_03_dfrobot_2](/img/var_products/edit_w5200_03_dfrobot_2.jpg)
 
-> This 🌎[Arduino-sized Ethernet
-> Shield](http://www.dfrobot.com/index.php?route=product/product&filter_name=ethernet&product_id=1028%20-%20.U0eGUpawemQ#.U0eGY5awemQ)
-> is based on the 🌎[Wiznet W5200 Ethernet
-> Chip](http://wiznet.co.kr/sub_modules/en/product/Product_Detail.asp?cate1=5&cate2=7&cate3=56&pid=1144),
+> This 🌎[Arduino-sized Ethernet > Shield](http://www.dfrobot.com/index.php?route=product/product&filter_name=ethernet&product_id=1028%20-%20.U0eGUpawemQ#.U0eGY5awemQ)
+> is based on the 🌎[Wiznet W5200 Ethernet > Chip](http://wiznet.co.kr/sub_modules/en/product/Product_Detail.asp?cate1=5&cate2=7&cate3=56&pid=1144),
 > and provides an easy way of getting your Arduino Online. Fits all
 > version of arduino Main board,e.g.UNO, mega 2560. To start, just plug
 > this module onto your Arduino board, connect it to your network with

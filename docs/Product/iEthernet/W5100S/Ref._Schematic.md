@@ -1,5 +1,5 @@
 ---
-id: ref_schematic
+id: ref-schematic
 title: Reference Schematics
 date: 2020-04-03
 ---

@@ -33,8 +33,8 @@ code.
 
 ## MS-Azure cloud example
 
-* <a href="/img/products/wizfi360/wizfi360app/wizfi360_an_azure_v101_e.pdf" target="_blank">Azure V1.0.1 - English</a>
-* <a href="/img/products/wizfi360/wizfi360app/wizfi360_an_azure_v101_k.pdf" target="_blank">Azure V1.0.1 - Korean</a>
+* <a href="/img/products/wizfi360/wizfi360ds/wizfi360_an_azure_v100_e.pdf" target="_blank">Azure V1.0.1 - English</a>
+* <a href="/img/products/wizfi360/wizfi360ds/wizfi360_an_azure_v100_k.pdf" target="_blank">Azure V1.0.1 - Korean</a>
 
 ## Airkiss
 

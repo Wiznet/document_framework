@@ -34,9 +34,7 @@ Principles and Definition v1.0](http://freedomdefined.org/OSHW).
 
 ## Wiznet's activity in Open Source Hardware
 
-Wiznet has sponsored 🌎[Open Source Hardware
-Summit](http://2013.oshwa.org/) since 2011 and attend the 🌎[2013 OSHW
-summit](http://2013.oshwa.org/sponsors/).
+Wiznet has sponsored 🌎[Open Source Hardware Summit](http://2013.oshwa.org/) since 2011 and attend the 🌎[2013 OSHW summit](http://2013.oshwa.org/sponsors/).
 
 ![](/img/osh/overview/platform_img5.gif)  
 **2007 iEthernet Design Contest**  
@@ -80,4 +78,4 @@ prototyping platform based on flexible, easy-to-use hardware and
 software. WIZnet’ chip and module are being used in the Arduino’s
 Ethernet Shield, and adopted in its clones. ![](/img/osh/overview/platform_img3.gif)
 
-  - [Open Source Hardware using Wiznet](../../VAR-Products-using-WIZnet/var_products_using_wiznet)
+  - [Open Source Hardware using Wiznet](./../../VAR-Products-using-WIZnet/VAR_Products_using_WIZnet.md)

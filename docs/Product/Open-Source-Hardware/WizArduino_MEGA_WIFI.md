@@ -10,7 +10,7 @@ date: 2020-04-03
 
 ## Overview
 
-WizArduino MEGA WIFI는 Arduino의 🌎[MEGA 2560 board](http://www.arduino.org/products/boards/arduino-mega-2560) 를 기반으로 [WizFi310](../Wi-Fi-Module/WizFi310/WizFi310.md) 가 추가되어 Arduino UNO 플랫폼처럼 간단하면서도 IoT기능 구현을 위한 기본 기능을 가지고 있습니다.
+WizArduino MEGA WIFI는 Arduino의 🌎[MEGA 2560 board](http://www.arduino.org/products/boards/arduino-mega-2560) 를 기반으로 [WizFi310](./../Wi-Fi-Module/WizFi310/WizFi310.md) 가 추가되어 Arduino UNO 플랫폼처럼 간단하면서도 IoT기능 구현을 위한 기본 기능을 가지고 있습니다.
 
 ![](/img/osh/wizarduino_mega_wifi/mega2560_wizfi310_1.png)
 
@@ -46,7 +46,7 @@ WizArduino MEGA WIFI는 Arduino의 🌎[MEGA 2560 board](http://www.arduino.org/
   - Soft AP : Enough memory retention, Wi-Fi Security (WEP,
     WPA/WPA2PSK), L2 Switching
   - OTA(Over The Air F/W Upgrading)
-  - 더 자세한 내용은 [WizFi310 page](../Wi-Fi-Module/WizFi310/WizFi310.md)를 참고 하세요.
+  - 더 자세한 내용은 [WizFi310 page](./../Wi-Fi-Module/WizFi310/WizFi310.md)를 참고 하세요.
 
 ### Pinout
 
@@ -134,16 +134,11 @@ GitHub와 아두이노 스케치에서 다운로드 및 설치 하는 방법에 
 
 #### IoT
 
-  - 🌎[ThingSpeak
-    연동](http://wiznetian.com/article/wizarduino-wifi-thingspeak-%EC%97%B0%EB%8F%99%ED%95%98%EA%B3%A0-%EC%84%BC%EC%84%9C-%EA%B0%92%EC%9D%84-%EB%B3%B4%EB%82%B4%EA%B8%B0/)
-  - 🌎[OpenWeatherMap
-    연동](http://wiznetian.com/article/wizarduino-wifi%EB%A1%9C-openweathermap-%EC%82%AC%EC%9D%B4%ED%8A%B8%EC%97%90%EC%84%9C-%EB%82%A0%EC%94%A8%EB%8D%B0%EC%9D%B4%ED%84%B0-%EA%B0%80%EC%A0%B8%EC%98%A4%EA%B8%B0/)
-  - 🌎[Dweet.io
-    연동](http://wiznetian.com/article/wizarduino-wifi-cloud%ec%97%90-%ec%84%bc%ec%84%9c-%ec%a0%95%eb%b3%b4-%ec%a0%80%ec%9e%a5%ed%95%98%ea%b8%b0-dweet-io/)
-  - 🌎[CoAP
-    통신](http://wiznetian.com/article/wizaruino-wifi-coap-%ed%86%b5%ec%8b%a0%ed%95%98%ea%b8%b0/)
-  - 🌎[Ubidots
-    연동](http://wiznetian.com/article/wizarduino-wifi-ubidots-%ed%81%b4%eb%9d%bc%ec%9a%b0%eb%93%9c-%ec%97%b0%eb%8f%99/)
+  - 🌎[ThingSpeak 연동](http://wiznetian.com/article/wizarduino-wifi-thingspeak-%EC%97%B0%EB%8F%99%ED%95%98%EA%B3%A0-%EC%84%BC%EC%84%9C-%EA%B0%92%EC%9D%84-%EB%B3%B4%EB%82%B4%EA%B8%B0/)
+  - 🌎[OpenWeatherMap 연동](http://wiznetian.com/article/wizarduino-wifi%EB%A1%9C-openweathermap-%EC%82%AC%EC%9D%B4%ED%8A%B8%EC%97%90%EC%84%9C-%EB%82%A0%EC%94%A8%EB%8D%B0%EC%9D%B4%ED%84%B0-%EA%B0%80%EC%A0%B8%EC%98%A4%EA%B8%B0/)
+  - 🌎[Dweet.io 연동](http://wiznetian.com/article/wizarduino-wifi-cloud%ec%97%90-%ec%84%bc%ec%84%9c-%ec%a0%95%eb%b3%b4-%ec%a0%80%ec%9e%a5%ed%95%98%ea%b8%b0-dweet-io/)
+  - 🌎[CoAP 통신](http://wiznetian.com/article/wizaruino-wifi-coap-%ed%86%b5%ec%8b%a0%ed%95%98%ea%b8%b0/)
+  - 🌎[Ubidots 연동](http://wiznetian.com/article/wizarduino-wifi-ubidots-%ed%81%b4%eb%9d%bc%ec%9a%b0%eb%93%9c-%ec%97%b0%eb%8f%99/)
   - 🌎[MQTT](http://wiznetian.com/article/wizarduino-wifimqtt-%EC%82%AC%EC%9A%A9%ED%95%98%EA%B8%B0/)
   - You can find more examples at
     🌎[WizFi310\_arduino\_library/examples](https://github.com/Wiznet/WizFi310_arduino_library/tree/master/examples)

@@ -11,18 +11,9 @@ module.exports = {
   favicon: 'img/wizfavicon.ico',
   organizationName: 'WIZnet Co., Ltd.', // Usually your GitHub org/user name.
   projectName: 'document_framework', // Usually your repo name.
-  trailingSlash: 'false',
+  //trailingSlash: 'false',
   themeConfig: {
-    googleAnalytics: {
-      trackingID: 'UA-207547783-2',
-      anonymizeIP: true,
-    },
-    gtag: {
-      // You can also use your "G-" Measurement ID here.
-      trackingID: 'G-B4NBQPV6VG',
-      // Optional fields.
-      anonymizeIP: false, // Should IPs be anonymized?
-    },
+    autoCollapseSidebarCategories: true,
     hideableSidebar: true,
     announcementBar: {
       id: 'announcementBar-2', // Increment on change
@@ -35,10 +26,10 @@ module.exports = {
       defaultMode: 'light',
       disableSwitch: false,
       respectPrefersColorScheme: false,
-      switchConfig: {
+      /*switchConfig: {
         darkIcon: '\u{26c8}',
         lightIcon: '\u{1f324}',
-      },
+      },*/
     },
      algolia: {
       appId: 'VXDI0EL2J7',
@@ -206,6 +197,16 @@ module.exports = {
           sidebarPath: require.resolve('./sidebars.js'),
           editUrl:          
             'https://github.com/Wiznet/document_framework/tree/master/',
+        },
+        googleAnalytics: {
+          trackingID: 'UA-207547783-2',
+          anonymizeIP: true,
+        },
+        gtag: {
+          // You can also use your "G-" Measurement ID here.
+          trackingID: 'G-B4NBQPV6VG',
+          // Optional fields.
+          anonymizeIP: false, // Should IPs be anonymized?
         },
 //         sitemap:{
 //         trailingSlash: false

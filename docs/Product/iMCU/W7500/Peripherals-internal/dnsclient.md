@@ -23,7 +23,7 @@ This example shows how to use DNS Client in UDP mode.
 In this example:
 
   - 1) Domain Name Service Client in UDP mode
-  - 2) For more detail, please visit [TCP Function description](tcp_function.md)
+  - 2) For more detail, please visit [TCP Function description](tcp-function.md)
 ______________________________________________________________________________
 
 ### Directory contents

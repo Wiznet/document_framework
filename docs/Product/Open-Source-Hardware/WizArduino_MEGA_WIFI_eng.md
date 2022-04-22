@@ -10,7 +10,7 @@ date: 2020-04-03
 
 ## Overview
 
-WizArduino MEGA WIFI is composed of 🌎[MEGA 2560 board](http://www.arduino.org/products/boards/arduino-mega-2560) and [WizFi310](../Wi-Fi-Module/WizFi310/WizFi310.md), which makes it as simple as the Arduino UNO platform and applicable for IoT development.
+WizArduino MEGA WIFI is composed of 🌎[MEGA 2560 board](http://www.arduino.org/products/boards/arduino-mega-2560) and [WizFi310](./../Wi-Fi-Module/WizFi310/WizFi310.md), which makes it as simple as the Arduino UNO platform and applicable for IoT development.
 
 ![](/img/osh/wizarduino_mega_wifi/mega2560_wizfi310_1.png)
 
@@ -42,7 +42,7 @@ WizArduino MEGA WIFI is composed of 🌎[MEGA 2560 board](http://www.arduino.org
   - Soft AP : Enough memory retention, Wi-Fi Security (WEP,
     WPA/WPA2PSK), L2 Switching
   - OTA(Over The Air F/W Upgrading)
-  - For more details refer to [WizFi310 page](../Wi-Fi-Module/WizFi310/wizfi310).
+  - For more details refer to [WizFi310 page](./../Wi-Fi-Module/WizFi310/WizFi310.md).
 
 ### Pinout
 

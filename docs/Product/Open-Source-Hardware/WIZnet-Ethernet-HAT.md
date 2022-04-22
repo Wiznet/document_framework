@@ -18,7 +18,7 @@ description: WIZnet Ethernet HAT - easiest way to add Ethernet to Raspberry Pi P
 
 WIZnet Ethernet HAT (Hardware Attached on Top) is a Raspberry Pi Pico pin-compatible board that utilizes W5100S and supports both 3.3V & 5V.
 
-Please refer to this link to find more information about [W5100S](../../Product/iEthernet/W5100S/overview).
+Please refer to this link to find more information about [W5100S](./../../Product/iEthernet/W5100S/Overview.md).
 
 - Raspberry Pi Pico Pin-Compatible
 - Ethernet (W5100S Hardwired TCP/IP CHIP)

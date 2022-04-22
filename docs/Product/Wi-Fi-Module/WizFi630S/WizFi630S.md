@@ -63,16 +63,16 @@ documents are available online.
 
 ## Details
 
-  - [Datasheet](datasheet)
+  - [Datasheet](./Datasheet.md)
     : This section provides guides on the features of the WizFi630S,
     WizFi630S-EVB.
-  - [User Manual](user_guide)
+  - [User Manual](./User_Guide.md)
     : This section provides guides documents for basic operating methods
     of products.
-  - [HW Reference](hw_reference)
+  - [HW Reference](./HW_Reference.md)
     : This section provides guide documents for HW design with the
     WizFi630S.
-  - [Certificate](certificate)
+  - [Certificate](./Certificate.md)
     : This section provides WizFi630S certificate and test reports.
 
 -----

@@ -140,7 +140,7 @@ in.
 
 #### Datasheet
 
-  - [WizFi310 Datasheet](../../Product/Wi-Fi-Module/WizFi310/datasheet)
+  - [WizFi310 Datasheet](./../../Product/Wi-Fi-Module/WizFi310/Datasheet.md)
 
 #### Schematic
 

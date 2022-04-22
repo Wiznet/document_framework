@@ -119,7 +119,7 @@ as below
 In order to set WizFi310 to data mode, you have to enter 1 value to
 &#60;Data Mode&#62; parameter of &#60;AT+SCON&#62; command. For detailed information
 to this command, refer to
-[AT+SCON](at_commands#atscon).  
+[AT+SCON](./AT_Commands.md#atscon).  
 
   * Mode: Data Mode, TCP Client
   * Remote IP : 192.168.12.102
@@ -164,7 +164,7 @@ command.
 **Socket Open**
 
 This section explains how to open &#60;TCP Server Socket&#62; and communicate with peer system. Below is the example for setting TCP Server and then changing to data mode. For detailed information about &#60;AT+SCON&#62; command, refer to
-[AT+SCON](at_commands#atscon)and [Socket Open](#example---data-communication).  
+[AT+SCON](./AT_Commands.md#atscon) and [Socket Open](#example---data-communication).  
     * Mode : Data Mode, TCP Server
     * Local Port : 5000
     
@@ -193,8 +193,7 @@ Checking socket status is the same as previous [Checking Socket Status](#socket-
 #### Method of setting UDP Client and exchanging data in Data Mode
 
 **Socket Open**
-This section explains how to open &#60;UDP Client Socket&#62; and communicate to peer system. Below is an example for setting up UDP Client and changing into data mode. For detailed information about &#60;AT+SCON&#62; command, refer to [AT+SCON (at_commands#atscon) and [Socket
-Open](#socket-open).  
+This section explains how to open &#60;UDP Client Socket&#62; and communicate to peer system. Below is an example for setting up UDP Client and changing into data mode. For detailed information about &#60;AT+SCON&#62; command, refer to [AT+SCON](./AT_Commands.md#atscon) and [Socket Open](#socket-open).  
 
   * Mode : Data Mode, UDP Client
   * Remote IP : 192.168.12.23
@@ -213,8 +212,7 @@ AT+SCON=O,UCN,192.168.12.23,5001,5000,1
 
 **Exchanging data with a peer system**
 
-Exchanging data with its peer system is the same as previous [Exchanging
-data with a peer system](#exchanging-data-with-a-peer-system).
+Exchanging data with its peer system is the same as previous [Exchanging data with a peer system](#exchanging-data-with-a-peer-system).
 
 **Socket Close**
 
@@ -228,7 +226,7 @@ Checking socket status is the same as previous [Checking Socket Status](#checkin
 
 **Socket Open**
 
-This section explains how to open &#60;UDP Server Socket&#62; and communicate to peer system. Below is an example for setting up UDP Server and changing into data mode. For detailed information about &#60;AT+SCON&#62; command, refer to [AT+SCON](at_commands#atscon)
+This section explains how to open &#60;UDP Server Socket&#62; and communicate to peer system. Below is an example for setting up UDP Server and changing into data mode. For detailed information about &#60;AT+SCON&#62; command, refer to [AT+SCON](./AT_Commands.md#atscon)
 and [Socket Open](#socket-open).  
 
   * Mode: Data Mode, UDP Server
@@ -271,7 +269,7 @@ Checking socket status is the same as previous [Checking Socket Status](#checkin
 
 This section explains how to set &#60;TCP Client&#62; in&#60;Command Mode&#62; and communicate to peer system. Below is the example for setting TCP Client on the Command Mode . In order to enter in the Command Mode, you have to enter 0 value to &#60;Data Mode&#62; parameter of
 &#60;AT+SCON&#62; command. For detailed information to this command, refer to
-[AT+SCON](at_commands#atscon)  
+[AT+SCON](./AT_Commands.md#atscon)  
 
   * Mode : Command Mode, TCP Client
   * Remote IP: 192.168.12.23
@@ -326,7 +324,7 @@ using &#60;AT+SMGMT=?&#62; command.
 **Socket Open**
 
 This section explains how to set &#60;TCP Server&#62; in &#60;Command Mode&#62; and communicate to peer system. Below is the example for setting TCP Server on the Command Mode. For detailed information about &#60;AT+SCON&#62; command, refer to
-[AT+SCON](at_commands#atscon)
+[AT+SCON](./AT_Commands.md#atscon)
 and [Socket Open](#socket-open).  
  
    * Mode : Command Mode, TCP Server 
@@ -358,7 +356,7 @@ Close](#socket-close).
 **Socket Open**
 
 This section explains how to set &#60;UDP Client&#62; in &#60;Command Mode&#62; and communicate to peer system. Below is an example for setting UDP Client on Command Mode. For detailed information about &#60;AT+SCON&#62; command, refer to
-[AT+SCON](at_commands#atscon)
+[AT+SCON](./AT_Commands.md#atscon)
 and [Socket Open](#socket-open).  
 
   * Mode : Command Mode, UDP Client 
@@ -393,7 +391,7 @@ Close](#socket-close).
 
 This section explains how to open &#60;UDP Server Socket&#62;
 in Command Mode and communicate to peer system. Below is an example for
-setting UDP Server on Command Mode. For detailed information about&#60;AT+SCON&#62; command, refer to [AT+SCON](at_commands#atscon) and [Socket Open](#socket-open).  
+setting UDP Server on Command Mode. For detailed information about&#60;AT+SCON&#62; command, refer to [AT+SCON](./AT_Commands.md#atscon) and [Socket Open](#socket-open).  
 
   * Mode : Command Mode, UDP Server
   * Local Port : 5000
@@ -827,7 +825,7 @@ which can use TCP like &#60;Android App&#62;.
 In order to config the WizFi310 using Android APP, WizFi310 should
 operate as SoftAP mode.  
 After operating SoftAP,
-&#60;[AT+MAIRCMD](at_commands#atmaircmd)&#62;
+&#60;[AT+MAIRCMD](./AT_Commands.md#atmaircmd)&#62;
 command should be set like "Example - Air Command".
 
 Another way for setting WizFi310 in order to use &#60;Android app&#62;, You
@@ -903,17 +901,17 @@ join to AP and connect to destination server.
 You can find the examples of mqtt using the WizFi310 at following
 link.  
   
-**Refer to [MQTT Example](mqtt_example)**
+**Refer to [MQTT Example](./mqtt_example.md)**
 
 ## Example - GMMP
 
 You can find the examples of gmmp using the WizFi310 at following
 link.  
   
-**Refer to [GMMP Example(written korean)](gmmp_example)**
+**Refer to [GMMP Example(written korean)](./gmmp_example.md)**
 ## Example - ThingPlug
 
 You can find the examples of connecting to ThingPlug using the WizFi310
 at following link.  
   
-**Refer to [ThingPlug Example(written in Korean)](thingplug_example)**
+**Refer to [ThingPlug Example(written in Korean)](./thingplug_example.md)**

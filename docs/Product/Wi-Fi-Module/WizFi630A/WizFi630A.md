@@ -10,7 +10,7 @@ date: 2020-05-13
 
 This product is discontinued.  
 Please refer to the New compatible
-product🌎([WizFi630S](../WizFi630S/wizfi630s)).
+product🌎([WizFi630S](./../WizFi630S/WizFi630S.md)).
 
 :::
 
