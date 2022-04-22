@@ -2,6 +2,12 @@
 id: wizfi360-evb-pico
 title: WizFi360-EVB-Pico
 date: 2022-02-18
+keywords:
+  - Raspberry-Pi-Pico
+  - RP2040-Wifi
+  - Wifi
+  - WizFi360
+description: WizFi360-EVB-Pico made for prototyping and testing Wifi capabilities on RP2040
 ---
 
 ## Overview

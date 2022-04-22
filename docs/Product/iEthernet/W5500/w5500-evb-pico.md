@@ -3,7 +3,7 @@ id: w5500-evb-pico
 title: W5500-EVB-Pico
 date: 2022-03-15
 keywords:
-  - Raspberry Pi Pico
+  - Raspberry-Pi-Pico
   - RP2040
   - Ethernet
   - W5500

@@ -145,8 +145,8 @@ Flow control: None, RTS / CTS, XON / XOFF</td>
 
 | H/W version | Filetype | Download Link      | Remarks |
 | ----------- | -------- | ------------------ | ------- |
-| 1.0         | Excel    | <a href="/img/products/WIZ510SSL/static/Bill-of-Materials-WIZ510SSL.xlsx" target="_blank">Download</a>|         |
-|         | PDF  |  <a href="/img/products/WIZ510SSL/static/WIZ510SSL_partlist.pdf" target="_blank">Download</a> |         |
+| 1.0         | Excel    | <a href="/img/products/wiz510ssl/static/Bill-of-Materials-WIZ510SSL.xlsx" target="_blank">Download</a>|         |
+|         | PDF  |  <a href="/img/products/wiz510ssl/static/WIZ510SSL_partlist.pdf" target="_blank">Download</a> |         |
 
 -----
 
