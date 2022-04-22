@@ -13,7 +13,7 @@ We will use the 🌎[release](https://github.com/Wiznet/WIZ550S2E/releases) page
 <a href="https://github.com/Wiznet/WIZ550S2E-Modbus/releases/download/v1.4.1/Binary_v141.zip" target="_blank">Ver 1.4.1 - Modbus Ver</a> 
  - Added features - Modbus 
     - Source code - https://github.com/Wiznet/WIZ550S2E-Modbus 
-    - v1.31 Configuration Tool or later is required. 
+    - v1.3.1 Configuration Tool or later is required. 
 
 <a href="https://github.com/Wiznet/WIZ550S2E/releases/download/v1.3.0/Binary_v130.zip" target="_blank">Ver 1.3.0 - MQTT Ver</a> 
   - Added features - MQTT 
@@ -68,7 +68,7 @@ Please refer to below compatibility table and use appropriate version.
 |------------|----------------------------|
 | 1.0.3      | 1.0.3                      |
 | 1.3.0      | 1.3.2                      |
-| 1.4.0      | 1.4.0 or 1.3.2             |
+| 1.4.1      | 1.3.2                      |
 
 
 
