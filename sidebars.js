@@ -445,6 +445,8 @@ module.exports = {
 						'Product/S2E-Module/WIZ752SR-12x-Series/WIZ752SR-120/getting-started-guide-EN',
 						'Product/S2E-Module/WIZ752SR-12x-Series/WIZ752SR-120/getting-started-guide-KO',				
 						'Product/S2E-Module/WIZ752SR-12x-Series/WIZ752SR-120/datasheet',
+						'Product/S2E-Module/WIZ752SR-12x-Series/WIZ752SR-120/command-manual-EN',
+						'Product/S2E-Module/WIZ752SR-12x-Series/WIZ752SR-120/command-manual-KO',
 						],
 						},
 						{
@@ -458,6 +460,8 @@ module.exports = {
 							'Product/S2E-Module/WIZ752SR-12x-Series/WIZ752SR-125/getting-started-guide-EN',
 							'Product/S2E-Module/WIZ752SR-12x-Series/WIZ752SR-125/getting-started-guide-KO',
 							'Product/S2E-Module/WIZ752SR-12x-Series/WIZ752SR-125/datasheet',
+							'Product/S2E-Module/WIZ752SR-12x-Series/WIZ752SR-120/command-manual-EN',
+							'Product/S2E-Module/WIZ752SR-12x-Series/WIZ752SR-120/command-manual-KO',
 							],
 							},
 					],
