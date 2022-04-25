@@ -45,7 +45,7 @@ WizFi360-EVB-Pico is based on Raspberry Pi RP2040 and adds Wi-Fi connectivity us
 
 ## Hardware Specification
 
-### Pin- out
+### Pin-out
 
 ![WizFi360-EVB-Pico_Pinout_220405](/img/osh/wizfi360-evb-pico/WizFi360-EVB-Pico_Pinout_220405.png)
 
@@ -116,6 +116,5 @@ Apart from GPIO and ground pins, there are 7 other pins on the main 40-pin inter
 
 ### Firmware Example
 
-Coming soon
-
-<!--Please refer to below links to find firmware example.-->
+Please refer to below links to find firmware example.
+- [C/C++ Examples](https://github.com/Wiznet/WizFi360-EVB-Pico-C)
