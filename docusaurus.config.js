@@ -48,7 +48,7 @@ module.exports = {
      },
 
     navbar: {
-//      hideOnScroll: true,
+      hideOnScroll: true,
       //title: 'WIZnet',
       logo: {
         alt: 'Wiznet Company Logo',
