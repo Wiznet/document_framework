@@ -132,7 +132,7 @@ same Ethernet network.
 </tbody>
 </table>
 
-  - User should to matching the network settings of 'WIZ550SR's remote
+  - User should to match the network settings of 'WIZ550SR's remote
     host' and 'PC (or laptop)' for testing TCP mode.
 
 
