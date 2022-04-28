@@ -9,7 +9,7 @@ The **DataSheet** provides the ordering information and mechanical device charac
 The **Reference Manual** provides the register map of peripherals and brief description.  
 The **PHY Reference** provides the How to Access W7500x PHY Register and description of W7500P Internal PHY.  
 The **Errata Sheet** describes error Phenomenon and solution .  
-The **Getting Started** user's guide describes the installation of MDK,How to make KEIL new project for W7500, How to use MDK for W7500 Peripherals Examples, How to use GCC for W7500 Peripherals Examples and How to use ISP tool from starting a project to using the ISP tool.
+The **Getting Started** user's guide describes the installation of MDK: How to make KEIL new project for W7500, How to use MDK for W7500 Peripherals Examples, How to use GCC for W7500 Peripherals Examples and How to use ISP tool from starting a project to using the ISP tool.
 
 -------------------
 
