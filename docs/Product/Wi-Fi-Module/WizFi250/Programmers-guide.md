@@ -3043,7 +3043,7 @@ STA MAC: CE:52:AF:C6:CF:B5
 To connect your smartphone to WizFi250 via < WiFi Direct>, select
 < WizFi250-P2P> in the list as below.  
 ![](/img/products/wizfi250/wizfi250pg/screenshot_2014-05-12-09-31-05.png)  
-After dozens of seconds, your smartphone will connect to WizFi250 via
+After a few seconds, your smartphone will connect to WizFi250 via
 < WiFi Direct >  
 ![](/img/products/wizfi250/wizfi250pg/screenshot_2014-05-12-09-33-00.png)  
 And you can see the result of < WiFi Direct> in WizFi250.
