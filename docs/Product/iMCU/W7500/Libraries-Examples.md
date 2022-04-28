@@ -9,7 +9,7 @@ date: 2020-04-03
 The W7500 provides the CMSIS, driver and Peripheral Example.
 The W7500 Standard Peripherals library provides a rich set of examples covering the main features of each peripheral. 
 All the examples are independent from the WIZwiki-W7500 platform. 
-Only source files are provided for each example and user can tailor the provided project template to run the selected example with his preferred tool chain. 
+Only source files are provided for each example and the user can tailor the provided project template to run the selected example with the user's preferred tool chain. 
 
   - Directory Structure
   
