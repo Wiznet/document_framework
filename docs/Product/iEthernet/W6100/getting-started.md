@@ -6,8 +6,7 @@ date: 2020-04-03
 
 ## Check the board
 
-**If you've just purchased W6100-EVB, let the following points for the
-checking board check & operation at the first time.**  
+**If you have just purchased W6100-EVB, follow the procedure presented below: **  
 Connect your board to a PC using USB and connect LAN cable. **USB is
 Micro B USB type.** W6100-EVB doesn't care uses Micro USB B type or
 DC-JACK(DC-5V) **Don't forget: It
