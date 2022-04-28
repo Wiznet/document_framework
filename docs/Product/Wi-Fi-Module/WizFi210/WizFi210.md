@@ -6,7 +6,7 @@ date: 2021-07-16
 
 ## Overview
 
-WizFi210 is a Wi-Fi module that provides the robust and stable Wi-Fi connectivity with low power consumption. WizFi210 performs all functions for Wi-Fi connectivity and TCP/IP processing. All you have to do is just sending commands to the module via serial interface.
+WizFi210 is a Wi-Fi module that provides a robust and stable Wi-Fi connectivity with low power consumption. WizFi210 performs all functions for Wi-Fi connectivity and TCP/IP processing. All you have to do is just send commands to the module via serial interface.
 
 ![](/img/products/wizfi210/wizfi210-300.jpg)
 
