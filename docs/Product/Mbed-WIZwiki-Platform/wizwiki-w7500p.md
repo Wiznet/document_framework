@@ -14,13 +14,13 @@ date: 2020-04-07
 WIZnet WIZwiki Platform based on WIZnet's MCU. WIZnet WIZwiki-W7500P is
 a WIZwiki platform board based on W7500P. The IOP4IoT W7500P chip is the
 one-chip solution which integrates an ARM Cortex-M0, 128KB Flash,
-hardwired TCP/IP core for various embedded application platform, 10/100
+hardwired TCP/IP core for various embedded application platforms, 10/100
 Ethernet MAC and PHY, and especially internet of things. The TCP/IP core
 is a market-proven hardwired TCP/IP stack and PHY is IC plus IP101G, an
-IEEE 802.3/802.3u Fast Ethernet Transcevier for 10/100Mbps. The
+IEEE 802.3/802.3u Fast Ethernet Transceiver for 10/100Mbps. The
 Hardwired TCP/IP stack supports the TCP, UDP, IPv4, ICMP, ARP, IGMP and
 PPPoE which has been used in various applications for more than 15
-years. W7500P suits users who need Internet connectivity best.
+years. W7500P best suits users who need Internet connectivity.
 
 -----
 
