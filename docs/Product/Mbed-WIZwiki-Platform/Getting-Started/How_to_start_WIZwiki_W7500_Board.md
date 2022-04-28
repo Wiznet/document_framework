@@ -6,8 +6,8 @@ date: 2020-04-07
 
 When you get a WIZwiki-W7500 platform board first on your hand, the
 serial driver installation and hardware test are needed. Because
-WIZwiki-W7500 uses CMSIS-DAP firmware writing and does serial
-communicate through UART1 on W7500 (Target MCU).  
+WIZwiki-W7500 uses CMSIS-DAP firmware writing and serial
+communicates through UART1 on W7500 (Target MCU).  
 
 -----
 
