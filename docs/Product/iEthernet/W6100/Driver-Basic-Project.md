@@ -5,7 +5,7 @@ date: 2020-04-03
 ---
 
 The io6Library means **"Internet Offload Library"** for WIZnet chip. It
-includes **drivers** and **application protocols**.It is only for IPv6
+includes **drivers** and **application protocols**. It is only for IPv6
 and for dual TCP/IP stack controller such as W6100. The io6Library can
 be used for [W6100](overview) application designs. These
 will be updated continuously.
