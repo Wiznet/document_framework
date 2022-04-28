@@ -4,8 +4,8 @@ title: Make New W5100S-EVB Projects using TrueSTUDIO
 date: 2020-04-03
 ---
 
-This page introduces that how to make the project for W5100S-EVB with
-different IDEs like STMicroelectronics TrueSTUDIO.
+This page introduces how to make the project for W5100S-EVB with
+different IDEs such as STMicroelectronics TrueSTUDIO.
 
 ## Make a new W5100S-EVB project with TrueSTUDIO IDE
 
@@ -115,8 +115,7 @@ import the required project libraries to your workspace.
 
 ### 3\. Set to Properties
 
-Next step we will do set to Build & General setting in properties. **It
-set must be necessary.**
+Next step we will set to Build & General setting in properties. **This step is necessary.**
 
 1\. Execute properties in the menu (click project -\> properties)
 ![](/img/products/w5100s/w5100s_evb/true_tool_set9.png)
