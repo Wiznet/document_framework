@@ -11,7 +11,7 @@ date: 2020-04-03
 
 ----
 
-The IOP4IoT W7500 chip is the one-chip solution which integrates an ARM Cortex-M0, 128KB Flash and hardwired TCP/IP core for various embedded application platform, especially internet of things.
+The IOP4IoT W7500 chip is the one-chip solution which integrates an ARM Cortex-M0, 128KB Flash and hardwired TCP/IP core for various embedded application platforms.
 The TCP/IP core is a market-proven hardwired TCP/IP stack with an integrated Ethernet MAC. The Hardwired TCP/IP stack supports the TCP, UDP, IPv4, ICMP, ARP, IGMP and PPPoE which has been used in various applications for more than 15 years. W7500 suits users who need Internet connectivity best.
 
 ## Features
