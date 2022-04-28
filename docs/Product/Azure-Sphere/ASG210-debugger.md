@@ -14,7 +14,7 @@ ASG Debugger board supports programming and debugging Azure Sphere 3 Cores, A7 C
 
 ## USB-Debug/Prog. UART Interface 
 
-ASG210 supports Debuger Connector for ASG Debugger board to debug and program. ASG Debugger board includes on-board, the Microsoft-specified FTDI 4-port USB to Serial bridge implementation of the RECOVERY, SERVICE, DEBUG and SWD interfaces. These interfaces are primarily used for software application development and/or programming of USI Azure Sphere Combo module onboarded on ASG210. This requires a USB cable to be connected from Micro-USB PortA, to a Windows-10 (or Linux) computer on which Azure Sphere SDK and the relevant USB drivers have been installed.
+ASG210 supports Debugger Connector for ASG Debugger board to debug and program. ASG Debugger board includes on-board, the Microsoft-specified FTDI 4-port USB to Serial bridge implementation of the RECOVERY, SERVICE, DEBUG and SWD interfaces. These interfaces are primarily used for software application development and/or programming of USI Azure Sphere Combo module onboarded on ASG210. This requires a USB cable to be connected from Micro-USB PortA, to a Windows-10 (or Linux) computer on which Azure Sphere SDK and the relevant USB drivers have been installed.
 
 ASG Debugger board also supports Micro-USB PortB to debug M4 cores and BT SWD to download/debug BT in USI Azure Sphere Combo module. User can debug M4 cores using Micro-USB PortB with baud rate of 115200. 
 
