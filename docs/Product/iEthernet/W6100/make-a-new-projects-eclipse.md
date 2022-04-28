@@ -4,15 +4,15 @@ title: Make New W5100S-EVB Projects using Eclipse
 date: 2020-04-03
 ---
 
-This page introduces that how to make the project for W5100S-EVB with
-different IDEs like Freeware Eclipse.
+This page introduces how to make the project for W5100S-EVB with
+different IDEs such as Freeware Eclipse.
 
 ## Make a new W5100S-EVB project with Eclipse IDE
 
 ### 0\. Download and install Dev. enviroment & compiler
 
-Eclipse provides a free Dev. Environment. But, It doesn't include C
-compiler. So Users must install all programs  
+Eclipse provides a free Dev. Environment; however, It does not include C
+compiler. Users must install all programs  
 **Your need program list here(Download links)**  
   * 🌎[Eclipse
 CDT](http://www.eclipse.org/downloads/packages/eclipse-ide-cc-developers/neon3rc3)
@@ -39,7 +39,7 @@ CDT](http://www.eclipse.org/downloads/packages/eclipse-ide-cc-developers/neon3rc
 
 
   - Windows Build Tools
-      - After finished installed, copy all Build tools files
+      - After finished installment, copy all Build tools files
         (C:\\Program Files\\GNU ARM Eclpise\\Build
         Tools\\2.8-201611221915\\bin) to GNU ARM Toolchain
         directory.(C:\\Program Files(x86)\\GNU Tools ARM Embedded\\5.4
@@ -48,7 +48,7 @@ CDT](http://www.eclipse.org/downloads/packages/eclipse-ide-cc-developers/neon3rc
 
 
   - Eclipse CDT
-      - You must be install Plugin. It Executes \[Help\] - \[Install New
+      - You must install Plugin. It Executes \[Help\] - \[Install New
         Software\] and Click \[Add...\] and copy below words and paste
         to plugin name & Location.
       - Name: GNU ARM Eclipse Plug-ins
@@ -144,8 +144,7 @@ import the required project libraries to your workspace.
 
 ### 3\. Set to Properties
 
-Next step we will do set to Build & General setting in properties. **It
-set must be necessary.**
+Next step: Set Build & General setting in properties. **This set is necessary.**
 
 1\. Execute properties in the menu (Click project -\> properties)
 ![](/img/products/w5100s/w5100s_evb/e_tools_set11.png)
