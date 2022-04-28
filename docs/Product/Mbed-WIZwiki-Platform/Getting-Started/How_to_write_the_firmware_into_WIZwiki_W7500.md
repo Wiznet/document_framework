@@ -24,10 +24,10 @@ There are four ways to write firmware into WIZwiki-W7500.
 
 ## Using the CMSIS-DAP (Drag and Drop)
 
-1. When you connect the USB cable to the WIZwiki-W7500, PC recognized
-as a removable disk. Removable disk name is MBED.
+1. When you connect the USB cable to the WIZwiki-W7500, The PC recognizes it
+as a removable disk named MBED.
 
-2. You "drag and drop" or copy the firmware to the removable disk, the
+2. You "drag and drop" or copy the firmware to the removable disk - the
 firmware writing progress has completed.  
 ![Drag and drop](/img/products/wizwiki_w7500/start_getting_started/drap_n_drop.png)
 
