@@ -12,7 +12,7 @@ date: 2020-04-07
 
 The **W7500(P)-S2E** is a chip product that has the firmware programmed
 in the WIZnet W7500 / W7500P MCU. This product includes the latest
-'WIZ750SR serial to Ethernet module' firmware for widely used in various
+'WIZ750SR serial to Ethernet module' firmware which is widely used in various
 applications around the world
 
 ![s2e_img_2](/img/products/w7500-s2e/s2e_img_2.png)
