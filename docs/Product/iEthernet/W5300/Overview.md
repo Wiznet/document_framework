@@ -8,7 +8,7 @@ date: 2021-07-15
 
 **Hardwired Dual TCP/IP Stack Controller**
 
-The W5300 chip is a Hardwired TCP/IP embedded Ethernet controller that enables easier internet connection for embedded systems that required high network performance.
+The W5300 chip is a Hardwired TCP/IP embedded Ethernet controller that enables easier internet connection for embedded systems that require high network performance.
 
 W5300 suits users in need of stable internet connectivity best, using a single chip to implement TCP/IP Stack, 10/100 Ethernet MAC and PHY. Hardwired TCP/IP stack supports TCP, UDP, IPv4, ICMP, ARP, IGMP, and PPPoE, …, which has been proven through various applications over many years. W5300 uses a 128Kbytes internal buffer as its data communication memory.
 
