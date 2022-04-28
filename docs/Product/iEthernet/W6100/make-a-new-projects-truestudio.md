@@ -4,8 +4,8 @@ title: Make New W6100-EVB Projects using TrueSTUDIO
 date: 2020-04-03
 ---
 
-This page introduces that how to make the project for W6100-EVB with
-different IDEs like STMicroelectronics TrueSTUDIO.
+This page introduces how to make the project for W6100-EVB with
+different IDEs such as STMicroelectronics TrueSTUDIO.
 
 ## Make a new W6100-EVB project with TrueSTUDIO IDE
 
