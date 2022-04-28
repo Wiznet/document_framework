@@ -6,18 +6,17 @@ date: 2020-04-09
 
 ## Check the board
 
-**If you've just purchased W5100S-EVB, let the following points for the
-checking board check & operation at the first time.**  
+**If you've just purchased W5100S-EVB, follow the procedure below**  
 Connect your board to a PC using USB and connect LAN cable. **USB is
-Micro B USB type.** W5100S-EVB doesn't care uses Micro USB B type or
+Micro B USB type.** W5100S-EVB can use either Micro USB B type or
 DC-JACK(DC-5V)
 :::important
 **Don't forget: It must be supplied DC-5V**  
-The W5100S-EVB can use be Micro USB B type or DC-JACK to the power
-supply. Users can the choice that one of both.
+The W5100S-EVB can use both Micro USB B type or DC-JACK for the power
+supply. 
 :::
 :::tip
-When users did connect to LAN cable, users should be check
+When users connect to LAN cable, users should check
 RJ-45(ethernet connector) LEDs. There are two indicator LEDs in RJ-45.
 Orange LED indicates 100M ACT. Green LED indicates LINK.
 :::
@@ -25,9 +24,9 @@ Orange LED indicates 100M ACT. Green LED indicates LINK.
 
 ## Hello World
 
-This section is descriptive to W5100S-EVB operation. let the following
+This section is descriptive to W5100S-EVB operation. Follow the
 points for the board operation. W5100S-EVB supported to eclipse loopback
-example code. Make new W5100S-EVB Project is clicking on this link. If
+example code. Make new W5100S-EVB Project by clicking on this link. If
 you want to know "How to download the program" click on this link.
 
 #### 1. Serial Debug message print out
