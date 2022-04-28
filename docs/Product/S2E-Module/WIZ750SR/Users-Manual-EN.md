@@ -34,7 +34,7 @@ WIZ750SR provides two ways of assigning the IP address. The allocation of IP add
 
 
   - **Automatic IP allocation (DHCP)**
-      - This method will automatically assign the IP address integrated in the NAT Router via the DHCP server. Users do not need to do any settings and devices using the assigned IP from the same router can communicate with each other. Usually a private IP address\[5\] from the dynamic IP allocation range\[6\] is assigned, but there are cases when a public IP is assigned((Example) When an IP address is assigned by an ISP (Internet Service Provider).
+      - This method will automatically assign the IP address integrated in the NAT Router via the DHCP server. Users do not need to do any settings, and devices using the assigned IP from the same router can communicate with each other. Usually a private IP address\[5\] from the dynamic IP allocation range\[6\] is assigned, but there are cases when a public IP is assigned((Example) When an IP address is assigned by an ISP (Internet Service Provider).
       - The DHCP server assigns the IP address, Gateway address, Subnet mask, and DNS address.
           - In cases of using a router, WIZ750SR can be used in TCP client mode to sync with the external server.
           - In cases of using TCP server mode, users need to set the router’s [port forwarding](https://en.wikipedia.org/wiki/Port_forwarding) for access of external network.
