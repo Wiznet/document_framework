@@ -40,7 +40,7 @@ import useBaseUrl from '@docusaurus/useBaseUrl';
 
 ### USI Azure Sphere Combo module
 
-Azure Sphere combo module uniquely is designed for IoT applications, with multi-funcionality design-in support by standard SDK, customer can easily migrate from discrete MCU solution.
+Azure Sphere combo module is uniquely designed for IoT applications, with multi-functionality design-in support by standard SDK. Customers can easily migrate from discrete MCU solution.
 
 ###	Ethernet Interface
 
@@ -49,7 +49,7 @@ Azure Sphere combo module uniquely is designed for IoT applications, with multi-
 The onboard [MicroChip ENC28J60](https://www.microchip.com/wwwproducts/en/en022889) ehternet controller device provides a 10 Mbps interface using TCP or UDP network protocols:
 •	Public network, communicating with Azure IoT or other internet-based services
 
-Use of Ethernet requires a “board configuration image” in addition to the user application image. This contains into required by the Azure Sphere Security Monitor to add Ethernet support to Azure Sphere OS. ISU0 is used for SPI0 interface signals to the ENC28J60 device, with interrupts on GPIO5.
+Use of Ethernet requires a “board configuration image” in addition to the user application image. This is required by the Azure Sphere Security Monitor to add Ethernet support to Azure Sphere OS. ISU0 is used for SPI0 interface signals to the ENC28J60 device, with interruptions on GPIO5.
 
 | Signal Name  | GPIO   |  Comments   |
 | -------------| ------ | ----------- |
@@ -70,7 +70,7 @@ The onboard W5500 chip is a Hardwired Internet controller designed as a full har
 
 •	Private network, communicating with Brown-field various network protocol services
 
-W5500 supports TCP, UDP, IPv4, ICMP, ARP, IGMP, and PPPoE and 8 independent SOCKETs to be used simultaneously and 32KB internal memory for data communication. User can develop an Ethernet application easily by using the simple W5500 SOCKET program instead of handling a complex Ethernet controller. W5500 also provides WOL(Wake on LAN) and a Power Down Mode in order to reduce power consumption.
+W5500 supports TCP, UDP, IPv4, ICMP, ARP, IGMP, and PPPoE and 8 independent SOCKETs are used simultaneously and 32KB internal memory for data communication. User can develop an Ethernet application easily by using the simple W5500 SOCKET program instead of handling a complex Ethernet controller. W5500 also provides WOL(Wake on LAN) and a Power Down Mode in order to reduce power consumption.
 
 | Signal Name  | GPIO   |  Comments   |
 | -------------| ------ | ----------- |
@@ -92,7 +92,7 @@ The MT3620 on USI Azure Sphere Combo module integrates a Wi-Fi 802.11 bgn radio 
 
 ### BLE 5.0
 
-USI Azure Sphere Combo module includes NRF52832 supports BLE 5.0 and antenna hole for external BT antenna. User can download and degug with BT SWD pin header on ASG Debuger board.
+USI Azure Sphere Combo module includes NRF52832 supports BLE 5.0 and antenna hole for external BT antenna. User can download and debug with BT SWD pin header on ASG Debugger board.
 
 | Signal Name  | GPIO   |  Comments   |
 | -------------| ------ | ----------- |
@@ -139,7 +139,7 @@ More detail on Application manifest is available here:
 ### I2C Connector
 
 ASG210 supports I2C connector to communicate with external devices such as Brown-field devices. USI Azure Sphere Combo module supports ISU3 used as I2C or UART by user selection. 
-To use ISU3 as I2C, user should define I2C Interface in Azure Sphere Application manifest file. And GPIO8(WIZNET_ASG210_ISU3_NSDA_RXD_SEL) should be “Low Level” to select ISU3 SDA.
+To use ISU3 as I2C, user should define I2C Interface in Azure Sphere Application manifest file, and GPIO8(WIZNET_ASG210_ISU3_NSDA_RXD_SEL) should be set to “Low Level” to select ISU3 SDA.
 
 ```
 “Capabilities”:
