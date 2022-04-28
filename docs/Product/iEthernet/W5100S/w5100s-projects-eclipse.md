@@ -4,8 +4,8 @@ title: Make New W5100S-EVB Projects using Eclipse
 date: 2020-04-03
 ---
 
-This page introduces that how to make the project for W5100S-EVB with
-different IDEs like Freeware Eclipse.
+This page introduces how to make the project for W5100S-EVB with
+different IDEs such as Freeware Eclipse.
 
 ## Make a new W5100S-EVB project with Eclipse IDE
 
@@ -13,7 +13,7 @@ different IDEs like Freeware Eclipse.
 
 Eclipse provides a free Dev. Environment. But, It doesn't include C
 compiler. So Users must install all programs  
-**Your need program list here(Download links)**  
+**Your will need program list here(Download links)**  
 - [Eclipse CDT](http://www.eclipse.org/downloads/packages/eclipse-ide-cc-developers/neon3rc3)
 - [Windows Build Tools(gnuarmeclipse-build-tools-win64-2.8-201611221915-setup.exe)](https://github.com/gnu-mcu-eclipse/windows-build-tools/releases/tag/v2.8)
 - [Java JRE(Windows x64 Offline)](http://www.oracle.com/technetwork/java/javase/downloads/jre8-downloads-2133155.html)
