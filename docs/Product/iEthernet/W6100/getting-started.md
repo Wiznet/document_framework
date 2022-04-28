@@ -12,7 +12,7 @@ Micro B USB type.** W6100-EVB doesn't care uses Micro USB B type or
 DC-JACK(DC-5V) **Don't forget: It
 must be supplied DC-5V**  
 The W6100-EVB can use be Micro USB B type or DC-JACK to the power
-supply. Users can the choice that one of both.
+supply. Users can chooseone of these options.
 
 **LAN Connector**  
 When users did connect to LAN cable, users should be check
@@ -157,9 +157,9 @@ supply.'
 
 #### 5\. Run the new program
 
-After finish to flash programming and board reset, The MCU do running
+After finish to flash programming and board reset, The MCU will be running
 the program  
-When the running to loopback program, as below picture serial debug
+When running to loopback program, ie as below picture serial debug
 message print out. ![](/img/products/w6100/w6100_evb/debug_msg.jpg)
 
 -----
