@@ -47,7 +47,7 @@ Please check cmake options in settings.json for Visual Studio Code:
 
 ### Azure Sphere Debugger
 
-The MT3620 exposes two dedicated UARTs and SWD interface for debugging. The Azure Sphere PC software tools require the use of a USB-to-UART interface that exposes these interfaces to a PC in away that allows the tools to recognize and interact with them. For this, ASG200 components have a ‘Debugger’ board which can attaches to 18pin headers on ASG200. To use this debugger board, user should init the interface information with FTDI tools.
+The MT3620 exposes two dedicated UARTs and SWD interface for debugging. The Azure Sphere PC software tools require the use of a USB-to-UART interface that exposes these interfaces to a PC in a way that allows the tools to recognize and interact with them. For this, ASG200 components have a ‘Debugger’ board which can attach to 18pin headers on ASG200. To use this debugger board, user should init the interface information with FTDI tools.
 
 Please follow these steps described in this link:
 
@@ -111,7 +111,7 @@ azsphere tenant create -n <tenant name>
 
 ### Claim
 
-Check the selected tenant for development environment. Once ASG200 claimed to the Azure Sphere tenant, claiming to other tenant is prohibited followed Azure Sphere Security policy.
+Check the selected tenant for development environment. Once ASG200 is claimed to the Azure Sphere tenant, claiming to other tenants is prohibited following Azure Sphere Security policy.
 
 ```
 azsphere device claim
