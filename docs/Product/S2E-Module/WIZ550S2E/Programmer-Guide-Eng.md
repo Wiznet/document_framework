@@ -18,7 +18,7 @@ This section provides a list of WIZ550S2E AT commands and their functions. Users
 
 ### Enter/Exit Command Mode
 
-The command mode is entered by sending the "Trigger Code" (default 2B 2B 2B in Hex) to the serial port of the WIZ550S2E module. This three byte Trigger Code need to be send without any character before and after the three byte = also without CR or LF for 500ms time.  
+The command mode is entered by sending the "Trigger Code" (default 2B 2B 2B in Hex) to the serial port of the WIZ550S2E module. This three byte Trigger Code needs to be sent without any character before and after the three byte = also without CR or LF for 500ms time.  
 The command mode is closed by sending "AT+MDATA/r/n" The Trigger Code can be en/disabled and also changed with the config tool.  
   
 **The three byte Trigger Code need to be isolated = without CR(0x0D), LF(0x0A)** 
