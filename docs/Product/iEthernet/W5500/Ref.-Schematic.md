@@ -33,8 +33,7 @@ Please refer to the following schematic:
 
   - *C23 and C24 must be added. Otherwise, W5500 won't operate well.*
   - *And by connected center tap, Power dissipation may be raised.*
-  - *So, you'd better use a MAGJACK without connected center tap except
-    the case that you have to use one with connected center tap.*
+  - *Use a MAGJACK without connected center tap when you have to use one with connected center tap.*
 
 
 ![w5500_schematic-connected-cts_003.jpg](/img/products/w5500/w5500_schematic-connected-cts_003.jpg)  
