@@ -11,8 +11,8 @@ firmware writing to the W7500 (Target MCU) through USB Interface. The
 second function is to receive and transmit data in the UART1 of W7500
 using the USB Interface.  
 The first function is used without the driver, but the second function
-is used after install the driver.  
-CMSIS-DAP Interface of WIZwiKI-W7500 has shows as the photo below.  
+is used after installing the driver.  
+CMSIS-DAP Interface of WIZwiKI-W7500 as shown in the photo below.  
 ![CMSIS-DAP Interface](/img/products/w7500/overview/cmsis-dap_block.png)
 
 -----
