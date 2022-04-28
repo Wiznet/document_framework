@@ -15,7 +15,7 @@ W7500 embeds a voltage regulator in order to supply the internal 1.5V digital po
 
 ## Voltage regulator 
 
-The voltage regulator is always enabled after Reset and works on in only one mode.
+The voltage regulator is always enabled after Reset and works in only one mode.
 
 - In Run mode, the regulator supplies full power to the 1.5V domain.
 - There is no power down or sleep mode.
@@ -31,14 +31,14 @@ W7500 has an integrated reset (POR) circuit which is always active and ensure pr
 
 
 ## Low power modes
-W7500 is in RUN mode after a system or power reset. There are two low power modes to save power when the CPU does not need to be kept running. These modes are useful for instances like when the CPU is waiting for an external interrupt. Please note that there is no power-off mode for W7500.
+W7500 is in RUN mode after a system or power reset. There are two low power modes to save power when the CPU does not need to be kept running. These modes are useful when the CPU is waiting for an external interrupt. Please note that there is no power-off mode for W7500.
 
 The device features two low power modes:
 
 - Sleep mode
 - Deep Sleep mode
 
-Additionally, the power consumption can be reducing by following method:
+Additionally, the power consumption can be reduced by the following methods:
 
 - User can slow down the system clocks
 - User can block the clocks to the peripherals while they are unused.
