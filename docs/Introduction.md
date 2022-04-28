@@ -7,9 +7,8 @@ date: 2020-04-30
 # WIZnet Document Wiki
 
 This site is an open information collection platform hosting information
-on [WIZnet products](Product/Products.md) and [Open Source Hardware](Product/Open-Source-Hardware/Open_Source_Hardware.md) works.
-Please feel free to improve the contents, contributions from the
-registered account would receive our appreciations.
+on [WIZnet products](Product/Products.md) and [Open Source Hardware](Product/Open-Source-Hardware/Open_Source_Hardware.md).
+Please feel free to improve the contents, contributions would be greatly appreciated.
 
 **Most of the materials of Open Source Hardware are hosted on the
 🌎[WIZnet GitHub site](https://github.com/Wiznet)**
@@ -51,7 +50,7 @@ application info.
 ### Open Source Hardware
 
 [Open Source Hardware Home](Product/Open-Source-Hardware/Open_Source_Hardware.md) - Materials and information on WIZnet
-open source hardware products.
+Open source hardware products.
 
   - **[WizFi360-EVB-Pico](Product/Open-Source-Hardware/WizFi360-EVB-Pico.md)** ![](/img/star.png)
   - **[WIZnet Ethernet HAT](Product/Open-Source-Hardware/WIZnet-Ethernet-HAT.md)** ![](/img/star.png)
