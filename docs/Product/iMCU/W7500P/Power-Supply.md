@@ -28,14 +28,14 @@ W7500 has an integrated reset (POR) circuit which is always active and ensure pr
 ![Figure 1 POR reset waveform](/img/products/w7500/por_reset_waveform.jpg)
 
 ## Low power modes
-W7500P is in RUN mode after a system or power reset. There are two low power modes to save power when the CPU does not need to be kept running. These modes are useful for instances like when the CPU is waiting for an external interrupt. Please note that there is no power-off mode for W7500P.
+W7500P is in RUN mode after a system or power reset. There are two low power modes to save power when the CPU does not need to be kept running. These modes are useful for instances such as when the CPU is waiting for an external interrupt. Please note that there is no power-off mode for W7500P.
 
 The device features two low power modes:
 
 - Sleep mode
 - Deep Sleep mode
 
-Additionally, the power consumption can be reducing by following method:
+Additionally, the power consumption can be reduced by following methods:
 
 - User can slow down the system clocks
 - User can block the clocks to the peripherals while they are unused.
@@ -43,7 +43,7 @@ Additionally, the power consumption can be reducing by following method:
 ### Sleep mode vs. Deep sleep mode
 
 W7500P has two kinds of sleep modes. One is Sleep mode and the other is Deep sleep mode.
-Two of them are almost the same except the clock gated peripherals kinds. 
+Both are almost the same except the clock gated peripherals kinds. 
 
 <table>
   <tr>
