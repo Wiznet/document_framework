@@ -14,11 +14,11 @@ date: 2020-04-07
 ## WIZwiki Platform
 
 WIZnet WIZwiki-W7500ECO is a WIZwiki platform board based on W7500. The
-IOP4IoT W7500 chip is one-chip solution which integrates an ARM
+IOP4IoT W7500 chip is a one-chip solution which integrates an ARM
 Cortex-M0, 128KB Flash and hardwired TCP/IP core for various embedded
-application platform especially internet of things. You can develop
-prototype product more quickly using WIZwiki-W7500ECO and it includes
-CMSIS-DAP for debuging and ethernet-phy.
+application platforms especially internet of things. You can develop
+prototype products more quickly using WIZwiki-W7500ECO and it includes
+CMSIS-DAP for debugging and ethernet-phy.
 
 ![WIZwiki-W7500ECO TOP Side](/img/products/wizwiki-w7500eco/wizwiki-w7500eco3d0degtop.png)
 ![WIZwiki-W7500ECO BOTTOM Side](/img/products/wizwiki-w7500eco/wizwiki-w7500eco3d0degbottom.png)
