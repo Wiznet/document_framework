@@ -114,15 +114,16 @@ W5100S-EVB firmware project based on Eclipse IDE. For more details about
 Eclipse IDE, please refer to below link. **DMA example** has been added
 to the project.
 
-**Download the Libraries and
-Application example source code for W5100S-EVB** 
+**Download the Libraries and Application example source code for W5100S-EVB**
+
 ![](/img/github.png)
 https://github.com/Wiznet/W5100S-EVB
 
- **DMA User Guide**  
+**DMA User Guide**
+
 <a href="/img/products/w5100s/w5100s_evb/w5100s_an_dma_v100k.pdf" target="_blank">W5100S DMA V1.0.0 Korean.pdf</a>
-For More information about DMA, click
-[DMA](Application-Note/dma)
+
+For More information about DMA, click [DMA](./Application-Note/DMA.md)
 
 
 -----
