@@ -5,7 +5,7 @@ date: 2020-05-13
 ---
 
 The **DataSheet** provides a brief introduce about WizFi360.
-These documents describe the Features,package information and etc. The
+These documents describe the Features, package information and etc. The
 **Program Guide** provides the AT Instruction set and AT command
 examles. The AT Instruction document include the description of AT
 command and the AT command examples document include TCP/UDP/SSL
