@@ -165,12 +165,12 @@ AT command. WizFi360 basically provides a command compatible with
 ESP8266. In addition, commands are provided for using MQTT and Azure IoT
 Hub.
 
-- <a href="/img/products/wizfi360/wizfi360ds/wizfi360_atset_v1112e.pdf" target="_blank">AT Instruction set V1.1.1.2 - English</a>
-- <a href="/img/products/wizfi360/wizfi360ds/wizfi360_atset_v1112k.pdf" target="_blank">AT Instruction set V1.1.1.2 - Korean</a>
+- <a href="/img/products/wizfi360/wizfi360ds/wizfi360_atset_v1117e.pdf" target="_blank">AT Instruction set V1.1.1.7 - English</a>
+- <a href="/img/products/wizfi360/wizfi360ds/wizfi360_atset_v1117k.pdf" target="_blank">AT Instruction set V1.1.1.7 - Korean</a>
 
-| Version   | Date    | Decription                                                                     |
-| --------- | ------- | ------------------------------------------------------------------------------ |
-| V 1.1.1.2 | 22APR2021 | Add AT+AWSCON, AT+AWSPKSEND, AT+CLICASEND                                    |
+| Version   | Date    | Decription                                |
+| --------- | ------- | ----------------------------------------- |
+| V 1.1.1.7 | MAY2022 | Modify AT+CIUPDATE firmware download link |
 
 **Old Datasheet History**
 
@@ -186,6 +186,7 @@ Hub.
 | V 1.0.7 | MAR2020 | Add AT+WIZ\_NETCONFIG, Modify AT+CWSTARTSMART, Modify minor typos and error                 |
 | V 1.0.7.2 | MAR2020 | Modify AT+WIZ\_NETCONFIG, Modify AT+CWSTARTSMART, Modify minor typos and error            |
 | V 1.1.1.1 | JAN2021 | Modify AT+MQTTCON                                                                         |
+| V 1.1.1.2 | APR2021 | Add AT+AWSCON, AT+AWSPKSEND, AT+CLICASEND                                                 |
 
 ### AT Command Comparison Sheet
 
