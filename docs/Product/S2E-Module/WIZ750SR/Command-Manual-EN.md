@@ -61,56 +61,59 @@ The different command modes are as following.
 
 ### Entering Serial Command Mode
 
-You can use either of the two methods below to enter serial command
-mode.
+You can use either of the two methods below to enter serial command mode.
 
-  - **1. Enter command mode using hardware trigger pin**
-      - Use the HW\_TRIG pin of the WIZ750SR (For the EVB, HW\_TRIG
-        switch) to enter command mode.
-      - Upon turning the power on, check the pin to enter command mode.
-        Use the trigger pin to re-enter the command mode when rebooting.
-      - The trigger pin should be pull-up, and operates as low active.
-      - This method is used when users wish to change settings while the
-        product operation is initiated.
+- **1. Enter command mode using hardware trigger pin**
+    -   Use the HW\_TRIG pin of the WIZ750SR (For the EVB, HW\_TRIG switch) to enter command mode.
+    -   Upon turning the power on, check the pin to enter command mode. Use the trigger pin to re-enter the command mode when rebooting.
+    -   The trigger pin should be pull-up, and operates as low active.
+    -   This method is used when users wish to change settings while the product operation is initiated.
 
-  - **Set the hardware trigger pin(HW_TRIG) to Low. **
-     * When using the EVB, place the HW_TRIG switch to Command.
-  - **Power on the WIZ750SR.**
-     * When operating in serial command mode, users can check the following message via Debug UART port.
-     * <code>> SEG:AT Mode </code>
-  - **Enter the Command and Parameter that needs setting via serial port**((Data UART port)).
-  - **Switch to data transmission mode(GW mode) using [[#ex|EX]] command**.
-     * If the switch to data transmission mode is successful, users can check the following message via Debug UART port.
-     * <code>> SEG:GW Mode </code>
+        1) **Set the hardware trigger pin(HW_TRIG) to Low.**
 
- - **2. Enter command mode using command mode switch code**
-      - Users can enter command mode using the command mode switch code
-        provided by WIZ750SR.
-      - The command mode switch codes can be used only if it is enabled
-        in the configuration tool. (**default: Enabled**)
-      - The command mode switch code is composed of 3-byte Hex codes,
-        and can be changed to a different value if needed. The code only
-        accepts Hex value. (**default: Hex \[2B\]\[2B\]\[2B**\] (Char '+++'))
+        - When using the EVB, place the HW_TRIG switch to Command.
 
-  - **Check if 'Serial command mode switch code' is enabled at the configuration tool and the 3-bytes 'command mode switch code'.**
-  - **Enter the ‘command mode switch code’ via data UART port to change modes.**
-    * Read below what you need to be cautious about when switching to command mode.
-    * When operating in serial command mode, users can check the following message via Debug UART port.
-    * <code>> SEG:AT Mode </code>
-  - **Enter the Command and Parameter that needs setting via serial port.**
-  - **Use [[#ex|EX]] command to switch to data transmission mode.**
-    * When operating in data transmission mode, users can check the following message via Debug UART port.
-    * <code>> SEG:GW Mode </code>
+        2) **Power on the WIZ752SR.**
 
+        - When operating in serial command mode, users can check the following message via Debug UART port.
+        - <code> SEG:AT Mode </code>
 
+        3) **Enter the Command and Parameter that needs setting via serial port**.
 
-**Please be cautious when using the trigger code to switch command
-mode.**
+        4) **Switch to data transmission mode(GW mode) using [EX](#ex) command**.
 
-  - There has to be a time gap of **at least 500ms** at the start and end of the ‘command mode switch code’ in order it to be read as switch code.
-  - The entering time in between each byte of the ‘3-byte command mode switch code’ has to be **below 500ms**.
-  - Do not add CR or LF at the end of the command mode switch code((Conversely, the serial command after mode switch must end with CR or LF.)).
-  - The default values of 1 and 2 above are **500ms**; these values change to the timer value if the timer value of the serial data packing option is set to a certain value.
+        - If the switch to data transmission mode is successful, users can check the following message via Debug UART port.
+        - <code> SEG:GW Mode </code>
+
+- **2. Enter command mode using command mode switch code**
+
+-   Users can enter command mode using the command mode switch code provided by WIZ752SR.
+-   The command mode switch codes can be used only if it is enabled in the configuration tool. (**default: Enabled**)
+-   The command mode switch code is composed of 3-byte Hex codes, and can be changed to a different value if needed. The code only accepts Hex value. (**default: Hex \[2B\]\[2B\]\[2B**\])
+    
+    1) **Check if 'Serial command mode switch code' is enabled at the configuration tool and the 3-bytes 'command mode switch code'.**
+
+    2) **Enter the ‘command mode switch code’ via data UART port to change modes.**
+
+    - Read below what you need to be cautious about when switching to command mode.
+    - When operating in serial command mode, users can check the following message via Debug UART port.
+    - <code> SEG:AT Mode </code>
+
+    3) **Enter the Command and Parameter that needs setting via serial port.**
+
+    4) **Use [EX](#ex) command to switch to data transmission mode.**
+
+    - When operating in data transmission mode, users can check the following message via Debug UART port.
+    - <code> SEG:GW Mode </code> 
+
+:::caution
+**Please be cautious when using the trigger code to switch command mode.**
+
+1. There has to be a time gap of **at least 500ms** at the start and end of the ‘command mode switch code’ in order it to be read as switch code.
+2. The entering time in between each byte of the ‘3-byte command mode switch code’ has to be **below 500ms**.
+3. Do not add CR or LF at the end of the command mode switch code[^6].
+4. The default values of 1 and 2 above are **500ms**; these values change to the timer value if the timer value of the serial data packing option is set to a certain value.
+:::
 
 #### Serial Command Frame Format
 

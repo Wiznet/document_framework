@@ -473,6 +473,13 @@ module.exports = {
 				label: 'WIZ5xx Series',
 				items:[
 					{
+						type:'category',
+						label:'WIZ500SR-RP',
+						items: [
+						'Product/S2E-Module/WIZ500SR-RP/datasheet',	
+						]
+					},
+					{
 						type: 'category',
 						label: 'WIZ510SSL',
 						link: {type: 'doc', id: 'Product/S2E-Module/WIZ510SSL/wiz510ssl'},

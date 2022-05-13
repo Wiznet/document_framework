@@ -524,15 +524,15 @@ High : Link down</td>
 <td>SPDn</td>
 <td>Link Speed LED Signal<br />
 Low : 100Mbps<br />
-High : 10Mbps</tr>
-</tr></td>
+High : 10Mbps</td>
+</tr>
 <tr class="even">
 <td>10</td>
 <td>ACTn</td>
 <td>Active LED Signal<br />
 No Flash : Link up state without TX/RX<br />
 Flash : Link up state with TX/RX data<br />
-High : Link-down state</tr>
+High : Link-down state</td>
 </tr>
 <tr class="odd">
 <td>11</td>
@@ -548,11 +548,6 @@ High : No Collision</td>
 </tr>
 </tbody>
 </table>
-
-```
-
-```
-
 
 
 ------------------------------------------------------------------------
@@ -637,12 +632,12 @@ was connected to MCU directly.**
 <tr class="odd">
 <td>9</td>
 <td>HW_TRIG</td>
-<td>-</tr>
-</tr></td>
+<td>-</td>
+</tr>
 <tr class="even">
 <td>10</td>
 <td>GPIO26/ADC0</td>
-<td>connect with RP2040 38pin</tr>
+<td>connect with RP2040 38pin</td>
 </tr>
 <tr class="odd">
 <td>11</td>

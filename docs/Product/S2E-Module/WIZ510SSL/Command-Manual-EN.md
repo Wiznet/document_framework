@@ -6,9 +6,9 @@ date: 2021-05-21
 
 ## WIZ510SSL Command Overview
 
-WIZ510SSL provides various commands for the product’s setting and control. Each command is composed of a **2 byte alphabet character strings** and all **capital letters**. By using these commands users can add script to the serial device or main MCU for product settings, and also can create a program\[1\] for controlling the WIZ510SSL module via network.
+WIZ510SSL provides various commands for the product’s setting and control. Each command is composed of a **2 byte alphabet character strings** and all **capital letters**. By using these commands users can add script to the serial device or main MCU for product settings, and also can create a program for controlling the WIZ510SSL module via network.
 
-Each command can operate read/write depending on the parameter, and there is also a **read only command**\[2\].
+Each command can operate read/write depending on the parameter, and there is also a **read only command**.
 
 Entering the command and switching the command mode of the serial port device is done using the **data UART** port. The **debug UART** port is not supported for command entering or operation.
 
@@ -42,69 +42,61 @@ The different command modes are as following.
 
 ## Usage of Command Set
 
-
-
 ### Entering Serial Command Mode
 
 You can use either of the two methods below to enter serial command mode.
 
-**1. Enter command mode using hardware trigger pin**
-  - Use the HW\_TRIG pin of the WIZ510SSL (For the EVB, HW\_TRIG switch) to enter command mode.
-  - Upon turning the power on, check the pin to enter command mode. Use the trigger pin to re-enter the command mode when rebooting.
-  - The trigger pin should be pull-up, and operates as low active.
-  - This method is used when users wish to change settings while the product operation is initiated.
+- **1. Enter command mode using hardware trigger pin**
+    -   Use the HW\_TRIG pin of the WIZ750SR (For the EVB, HW\_TRIG switch) to enter command mode.
+    -   Upon turning the power on, check the pin to enter command mode. Use the trigger pin to re-enter the command mode when rebooting.
+    -   The trigger pin should be pull-up, and operates as low active.
+    -   This method is used when users wish to change settings while the product operation is initiated.
 
-```
-  - Set the hardware trigger pin(HW_TRIG) to Low.
-     · When using the EVB, place the HW_TRIG switch to Command.
+        1) **Set the hardware trigger pin(HW_TRIG) to Low.**
 
-  - Power on the WIZ510SSL.
-     · When operating in serial command mode, users can check the following message via Debug UART port.
-     · <code>> SEG:AT Mode </code>
-  - Enter the Command and Parameter that needs setting via serial port((Data UART port)).
+        - When using the EVB, place the HW_TRIG switch to Command.
 
-  - Switch to data transmission mode(GW mode) using [[#ex|EX]] command.
-     · If the switch to data transmission mode is successful, users can check the following message via Debug UART port.
-     · <code>> SEG:GW Mode </code>
-```
+        2) **Power on the WIZ752SR.**
 
-**2. Enter command mode using command mode switch code**\[1\]
-  - Users can enter command mode using the command mode switch code provided by WIZ510SSL.
-  - The command mode switch codes can be used only if it is enabled in the configuration tool. (**default: Enabled**)
-  - The command mode switch code is composed of 3-byte Hex codes, and can be changed to a different value if needed. The code only accepts Hex value. (**default: Hex \[2B\]\[2B\]\[2B**\]\[2\])
+        - When operating in serial command mode, users can check the following message via Debug UART port.
+        - <code> SEG:AT Mode </code>
 
-```
-  - Check if 'Serial command mode switch code' is enabled at the configuration tool and the 3-bytes 'command mode switch code'.
+        3) **Enter the Command and Parameter that needs setting via serial port**[^3].
 
-  - Enter the ‘command mode switch code’ via data UART port to change modes.
-    · Read below what you need to be cautious about when switching to command mode.
-    · When operating in serial command mode, users can check the following message via Debug UART port.
-    · <code>> SEG:AT Mode </code>
+        4) **Switch to data transmission mode(GW mode) using [EX](#ex) command**.
 
-  - Enter the Command and Parameter that needs setting via serial port.
+        - If the switch to data transmission mode is successful, users can check the following message via Debug UART port.
+        - <code> SEG:GW Mode </code>
 
-  - Use [[#ex|EX]] command to switch to data transmission mode.
-    · When operating in data transmission mode, users can check the following message via Debug UART port.
-    · <code>> SEG:GW Mode </code>
-```
+- **2. Enter command mode using command mode switch code**[^4]
 
-1. Command mode switch trigger code via Data UART port
+-   Users can enter command mode using the command mode switch code provided by WIZ752SR.
+-   The command mode switch codes can be used only if it is enabled in the configuration tool. (**default: Enabled**)
+-   The command mode switch code is composed of 3-byte Hex codes, and can be changed to a different value if needed. The code only accepts Hex value. (**default: Hex \[2B\]\[2B\]\[2B**\][^5])
+    
+    1) **Check if 'Serial command mode switch code' is enabled at the configuration tool and the 3-bytes 'command mode switch code'.**
 
-2. Char '+++'
+    2) **Enter the ‘command mode switch code’ via data UART port to change modes.**
 
+    - Read below what you need to be cautious about when switching to command mode.
+    - When operating in serial command mode, users can check the following message via Debug UART port.
+    - <code> SEG:AT Mode </code>
+
+    3) **Enter the Command and Parameter that needs setting via serial port.**
+
+    4) **Use [EX](#ex) command to switch to data transmission mode.**
+
+    - When operating in data transmission mode, users can check the following message via Debug UART port.
+    - <code> SEG:GW Mode </code> 
+
+:::caution
 **Please be cautious when using the trigger code to switch command mode.**
 
-```
-  - There has to be a time gap of **at least 500ms** at the start and end of the ‘command mode switch code’ in order it to be read as switch code.
-
-  - The entering time in between each byte of the ‘3-byte command mode switch code’ has to be **below 500ms**.
-
-  - Do not add CR or LF at the end of the command mode switch code((Conversely, the serial command after mode switch must end with CR or LF.)).
-
-  - The default values of 1 and 2 above are **500ms**; these values change to the timer value if the timer value of the serial data packing option is set to a certain value.
-```
-
-
+1. There has to be a time gap of **at least 500ms** at the start and end of the ‘command mode switch code’ in order it to be read as switch code.
+2. The entering time in between each byte of the ‘3-byte command mode switch code’ has to be **below 500ms**.
+3. Do not add CR or LF at the end of the command mode switch code[^6].
+4. The default values of 1 and 2 above are **500ms**; these values change to the timer value if the timer value of the serial data packing option is set to a certain value.
+:::
 
 #### Serial Command Frame Format
 
@@ -137,7 +129,7 @@ You must include CR and LF at the end of each command. CR and LF must be include
 
 ### Command over Ethernet
 
-Users can control or monitor WIZ510SSL via Ethernet by using the following commands. The user must use **UDP** or **TCP client** \[1\] to send commands, and the port number for processing the commands is **50001**.
+Users can control or monitor WIZ510SSL via Ethernet by using the following commands. The user must use **UDP** or **TCP client** to send commands, and the port number for processing the commands is **50001**.
 
 **Network information for command transmission:** **UDP / TCP Server : 50001** (User can send the commands by UDP / TCP Client to device)
 
@@ -152,7 +144,7 @@ The two additional commands are **MA** and **PW**.
   - **\[MA\] command**
     - This field shows the **product’s MAC address**.
     - In both cases of TCP and UDP, 6-byte MAC address must be included after the 2-byte MA command.
-        - When users wish to broadcast only Get Request via UDP\[2\], the relevant field value can be set as the Broadcast MAC address\[3\]. Users can receive responses from multiple peers. The search function of the configuration tool is implemented like this
+        - When users wish to broadcast only Get Request via UDP, the relevant field value can be set as the Broadcast MAC address. Users can receive responses from multiple peers. The search function of the configuration tool is implemented like this
 
   - **\[PW\] command**
 
@@ -176,7 +168,7 @@ The two additional commands are **MA** and **PW**.
 
     MA [MAC] [CR] [LF] PW [Search ID] [CR] [LF] ([Command] [CR] [LF]) * Number of commands
 
-  - The response for ‘get request’ will have the identical format as ‘request’ but include the parameter\[1\].
+  - The response for ‘get request’ will have the identical format as ‘request’ but include the parameter.
 
 
 
@@ -281,7 +273,7 @@ The two additional commands are **MA** and **PW**.
 
     None
 
-**When modifying the IP address format\[1\], '.'(dot, 0x2E) must be included such as the '192.168.11.5'.**
+**When modifying the IP address format, '.'(dot, 0x2E) must be included such as the '192.168.11.5'.**
 
 -----
 
@@ -292,9 +284,9 @@ The two additional commands are **MA** and **PW**.
   - The Set command setting the applicable value will operate if the parameter is included when entering the command.
   - The Get command reading the applicable value will operate if only the command is entered.
   - If the ‘Read only’ sign does not appear, it means the command supports both Get / Set.
-  - Write only command is for controlling the product without the parameter\[2\].
-  - There is a basic command list\[3\] and an expanded command list\[4\].
-  - Settings like IP allocation settings or DNS operation settings via command mode\[5\] require ‘module reboot’ via **[RT](#rt)** command after the settings are saved via **[SV](#sv)** command.
+  - Write only command is for controlling the product without the parameter.
+  - There is a basic command list and an expanded command list.
+  - Settings like IP allocation settings or DNS operation settings via command mode require ‘module reboot’ via **[RT](#rt)** command after the settings are saved via **[SV](#sv)** command.
 
 1. IPv4 address forms like IP address, Gateway address, subnet mask, DNS server address, or Remote IP address.
 
@@ -1521,7 +1513,7 @@ Return value</th>
 
   - **Format:** `PT<Parameter>[CR][LF]`
 
-  - **Meaning:** Data packing of serial interface (Data UART) – Time delimiter\[1\]
+  - **Meaning:** Data packing of serial interface (Data UART) – Time delimiter
 
   - **Command Type:** Read / Write
 
@@ -1551,7 +1543,7 @@ Return value</th>
 
   - **Format:** `PS<Parameter>[CR][LF]`
 
-  - **Meaning:** Data packing of serial interface (Data UART) – Data size delimiter\[2\]
+  - **Meaning:** Data packing of serial interface (Data UART) – Data size delimiter
 
   - **Command Type:** Read / Write
 
@@ -1584,7 +1576,7 @@ Return value</th>
 
   - **Format:** `PD<Parameter>[CR][LF]`
 
-  - **Meaning:** Data packing of serial interface (Data UART) - designated character delimiter\[1\]
+  - **Meaning:** Data packing of serial interface (Data UART) - designated character delimiter
 
   - **Command Type:** Read / Write
 

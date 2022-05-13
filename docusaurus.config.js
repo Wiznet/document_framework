@@ -13,8 +13,13 @@ module.exports = {
   projectName: 'document_framework', // Usually your repo name.
   //trailingSlash: 'false',
   themeConfig: {
-    autoCollapseSidebarCategories: true,
-    hideableSidebar: true,
+    
+    docs:{
+      sidebar: {
+        hideable: true,
+        autoCollapseCategories: true,
+      },
+    },
     announcementBar: {
       id: 'announcementBar-2', // Increment on change
       content: '⭐️ Meet our new products: <a target="" rel="noopener noreferrer" href="/Product/Open-Source-Hardware/wizfi360-evb-pico">WizFi360-EVB-Pico</a> and <a target="" rel="noopener noreferrer" href="/Product/iEthernet/W5500/w5500-evb-pico">W5500-EVB-Pico</a> ⭐️',
