@@ -554,7 +554,7 @@ High : No Collision</td>
 
 ### 1x12 UART1 (J4)
 
-<img src="/img/products/s2e_module/WIZ500SR-RP/HW/Document/WIZ500SR-RP (J3-Pinmap).png" width="600" />
+<img src="/img/products/s2e_module/WIZ500SR-RP/HW/Document/WIZ500SR-RP (J4-Pinmap).png" width="600" />
 
 | Pin Number | Signal    | Description                                                  |
 | ---------- | --------- | ------------------------------------------------------------ |
