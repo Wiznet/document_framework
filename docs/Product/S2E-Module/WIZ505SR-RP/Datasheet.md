@@ -1,22 +1,22 @@
 ---
 id: datasheet
-title: WIZ500SR-RP Datasheet
+title: WIZ505SR-RP Datasheet
 date: 2022-05-09
 
 ---
 
 ## Overview
 
-WIZ500SR-RP is a compact sized serial to Ethernet module using the
+WIZ505SR-RP is a compact sized serial to Ethernet module using the
 RP2040 MCU with W5100S Ethernet Chip.
-WIZ500SR-RP is a protocol converter that transmits
+WIZ505SR-RP is a protocol converter that transmits
 data sent by serial equipment as TCP/IP data, and converts the TCP/IP
 data received through the network back into serial data to the serial
 equipment.
 
-In addition, WIZ500SR-RP contains serial debug port(J1).
+In addition, WIZ505SR-RP contains serial debug port(J1).
 
-**WIZ500SR-RP is the best fit solution to control user's serial device
+**WIZ505SR-100 is the best fit solution to control user's serial device
 via Ethernet network.**
 
 ------
@@ -26,9 +26,9 @@ via Ethernet network.**
 ## Features
 
   - Serial to Ethernet Module based on **RP2040** MCU (TTL level)
-  - Included W5100S
+  - Included W5100S and RJ45 Modular Jack
   - **10/100Mbps Ethernet & Up to 230kbps serial speed**
-  - **2mm pitch 1x12 Pin-header(3ea) mounted module**
+  - **2.54mm pitch 2x7 Pin-header mounted module**
   - Status pins: PHY link status / TCP connection status
   - Serial signals(UART or RS-232C)
     - WIZ500SR-RP module(UART): TXD, RXD, RTS, CTS
@@ -39,6 +39,7 @@ via Ethernet network.**
   - Configuration is possible via serial AT commands or via
     Configuration tool 
   - Support WIZ VSP (Virtual Serial Port) program 
+  - Built in 10/100Mbps Ethernet ESD Protection IC
 
 ------
 
@@ -46,13 +47,13 @@ via Ethernet network.**
 
 ## Product Contents
 
-### WIZ500SR-RP Module Series
+### WIZ505SR-RP Module Series
 
 | Ordering Information | Item                    | Q'ty | Remarks |
 | -------------------- | ----------------------- | ---- | ------- |
-| WIZ500SR- RP         | WIZ500SR-RP module(TTL) | 1    | \-      |
+| WIZ505SR- RP         | WIZ505SR-RP module(TTL) | 1    | \-      |
 
-### WIZ5xxSR-RP Evaluation Board Series
+### WIZ505SR-RP Evaluation Board Series
 
 | Ordering Information | Category | Item            | Q'ty | Remarks |
 | -------------------- | -------- | --------------- | ---- | ------- |
@@ -138,24 +139,25 @@ Flow control: None, RTS / CTS, XON / XOFF</td>
 
 
 
+
 ------------------------------------------------------------------------
 
-### WIZ500SR-RP Callout
+### WIZ505SR-RP Callout
 
 |                                                              |
 | ------------------------------------------------------------ |
-| <img src="/img/products/s2e_module/WIZ500SR-RP/HW/Document/WIZ500SR-RP Callout_Top.png" width="600" /> |
+| <img src="/img/products/s2e_module/WIZ505SR-RP/HW/Document/WIZ505SR-RP Callout_Top.png" width="600" /> |
 | TOP                                                          |
-| <img src="/img/products/s2e_module/WIZ500SR-RP/HW/Document/WIZ500SR-RP Callout_Bot.png" width="600" /> |
+| <img src="/img/products/s2e_module/WIZ505SR-RP/HW/Document/WIZ505SR-RP 3D(BOT).png" width="600" /> |
 | BOTTOM                                                       |
 
 
 
 ------------------------------------------------------------------------
 
-### WIZ500SR-RP indicate
+### WIZ505SR-RP indicate
 
-<img src="/img/products/s2e_module/WIZ500SR-RP/HW/Document/WIZ500SR-RP LED.png" width="800" />
+<img src="/img/products/s2e_module/WIZ505SR-RP/HW/Document/WIZ505SR-RP LED.png" width="800" />
 
 <table>
 <thead>
@@ -209,7 +211,7 @@ When Module working well Blinking every 1.0s </td>
 -   H/W Trig Slide SW.
 -   Expansion GPIO TEST (Digital / Analog)
 -   Micro USB.
--   WIZ750SR-100-EVB (RS-232)
+-   WIZ5xxSR-100-EVB (RS-232)
     -   RS-232C Transceiver, D-SUB9-MALE.
 
 <img src="/img/products/wiz750jr/datasheet/wiz750jr-evb_description.png" width="800" />
@@ -248,33 +250,33 @@ When Module working well Blinking every 1.0s </td>
 
 | H/W version | Type | Filetype | Download Link                                                | Remarks |
 | ----------- | ---- | -------- | ------------------------------------------------------------ | ------- |
-| 1.0         | TTL  | Altium   | ![](/img/products/w5500/w5500_evb/icons/download.png) <a href="/img/products/s2e_module/wiz500sr-RP/HW/Schematic & Artwork/WIZ500SR-RP_SCH_V100.ZIP" target="_blank">Download</a> | \-      |
-| :::         | :::  | PDF      | ![](/img/products/w5500/w5500_evb/icons/download.png) <a href="/img/products/s2e_module/wiz500sr-RP/HW/Schematic & Artwork/WIZ500SR-RP_SCH_V100.PDF" target="_blank">Download</a> | \-      |
+| 1.0         | TTL  | Altium   | ![](/img/products/w5500/w5500_evb/icons/download.png) <a href="/img/products/s2e_module/wiz505sr-RP/HW/Schematic & Artwork/WIZ505SR-RP_SCH_V100.ZIP" target="_blank">Download</a> | \-      |
+| :::         | :::  | PDF      | ![](/img/products/w5500/w5500_evb/icons/download.png) <a href="/img/products/s2e_module/wiz505sr-RP/HW/Schematic & Artwork/WIZ505SR-RP_SCH_V100.PDF" target="_blank">Download</a> | \-      |
 
 ### WIZ5xxSR-RP-EVB (TBD)
 
-| H/W version | Type  | Filetype | Download Link                                                | Remarks |
-| ----------- | ----- | -------- | ------------------------------------------------------------ | ------- |
-| 1.0         | RS232 | Altium   | ![](/img/products/w5500/w5500_evb/icons/download.png) <a href="/img/products/wiz750sr-100/datasheet/wiz750sr-100-evb_sch_v1.0.zip" target="_blank">Download</a> | \-      |
-| :::         | :::   | PDF      | ![](/img/products/w5500/w5500_evb/icons/download.png) <a href="/img/products/wiz750sr-100/datasheet/wiz750sr-100-evb.pdf" target="_blank">Download</a> | \-      |
+| H/W version | Type  | Filetype | Download Link | Remarks |
+| ----------- | ----- | -------- | ------------- | ------- |
+|             | RS232 | Altium   |               | \-      |
+| :::         | :::   | PDF      |               | \-      |
 
 ------------------------------------------------------------------------
 
 ## Part list
 
-### WIZ500SR-RP
+### WIZ505SR-RP
 
 | H/W version | Type | Filetype | Download Link                                                | Remarks |
 | ----------- | ---- | -------- | ------------------------------------------------------------ | ------- |
-| 1.0         | TTL  | Excel    | ![](/img/products/w5500/w5500_evb/icons/download.png) <a href="/img/products/s2e_module/wiz500sr-RP/HW/PartList/WIZ500SR-RP_PL_V100.xlsx" target="_blank">Download</a> |         |
-| :::         | :::  | PDF      | ![](/img/products/w5500/w5500_evb/icons/download.png) <a href="/img/products/s2e_module/wiz500sr-RP/HW/PartList/WIZ500SR-RP_PL_V100.PDF" target="_blank">Download</a> |         |
+| 1.0         | TTL  | Excel    | ![](/img/products/w5500/w5500_evb/icons/download.png) <a href="/img/products/s2e_module/wiz505sr-RP/HW/PartList/WIZ505SR-RP_PL_V100.xlsx" target="_blank">Download</a> |         |
+| :::         | :::  | PDF      | ![](/img/products/w5500/w5500_evb/icons/download.png) <a href="/img/products/s2e_module/wiz505sr-RP/HW/PartList/WIZ505SR-RP_PL_V100.PDF" target="_blank">Download</a> |         |
 
 ### WIZ5xxSR-RP-EVB (TBD)
 
-| H/W version | Type | Filetype | Download Link                                                | Remarks |
-| ----------- | ---- | -------- | ------------------------------------------------------------ | ------- |
-| 1.0         | TTL  | Excel    | ![](/img/products/w5500/w5500_evb/icons/download.png) <a href="/img/products/wiz750sr-100/datasheet/wiz750sr-100_evb_v1.1_pl_20171215.xls" target="_blank">Download</a> |         |
-| :::         | :::  | PDF      | ![](/img/products/w5500/w5500_evb/icons/download.png) <a href="/img/products/wiz750sr-100/datasheet/wiz750sr-100_evb_v1.1_pl_20171215.pdf" target="_blank">Download</a> |         |
+| H/W version | Type | Filetype | Download Link | Remarks |
+| ----------- | ---- | -------- | ------------- | ------- |
+| 1.0         | TTL  | Excel    |               |         |
+| :::         | :::  | PDF      |               |         |
 
 ------------------------------------------------------------------------
 
@@ -382,7 +384,7 @@ When Module working well Blinking every 1.0s </td>
 | N*END* | **Sector Endurance** | 100,000 | Cycles |
 | T*DR*  | **Data Retention**   | 20      | Years  |
 
-### 
+
 
 ------------------------------------------------------------------------
 
@@ -390,7 +392,7 @@ When Module working well Blinking every 1.0s </td>
 
 ### 1x6 UART0, SWD (J1)
 
-<img src="/img/products/s2e_module/WIZ500SR-RP/HW/Document/WIZ500SR-RP (J1-Pinmap).png" width="800" />
+<img src="/img/products/s2e_module/WIZ505SR-RP/HW/Document/WIZ505SR-RP (J1-Pinmap).png" width="800" />
 
 <table>
 <thead>
@@ -436,9 +438,9 @@ When Module working well Blinking every 1.0s </td>
 
 
 
-### 1x2 BOOTSEL set pin (J2)
+### 2x7 UART1, Download (J2)
 
-<img src="/img/products/s2e_module/WIZ500SR-RP/HW/Document/WIZ500SR-RP (J2-Pinmap).png" width="800" />
+<img src="/img/products/s2e_module/WIZ505SR-RP/HW/Document/WIZ505SR-RP (J2-Pinmap).png" width="800" />
 
 <table>
 <thead>
@@ -451,133 +453,89 @@ When Module working well Blinking every 1.0s </td>
 <tbody>
 <tr class="odd">
 <td>1</td>
-<td>BOOTSEL</td>
-<td>Active Low<br />
-Drive this pin Low and Power on(or reset) then RP2040 will be USB Mass Storage Device mode</td>
+<td>RUN</td>
+<td>RP2040 Reset Signal Input<br />
+Active Low</td>
 </tr>
 <tr class="even">
 <td>2</td>
-<td>GND</td>
-<td>System Ground</td>
-</tr>
-</tbody>
-</table>
-
-
-
-
-### 1x12 Network Line (J3)
-
-<img src="/img/products/s2e_module/WIZ500SR-RP/HW/Document/WIZ500SR-RP (J3-Pinmap).png" width="800" />
-
-<table>
-<thead>
-<tr class="header">
-<th>Pin Number</th>
-<th>Signal</th>
-<th>Description</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>1</td>
 <td>VCC</td>
 <td>System Power Input (3.3V)</td>
 </tr>
-<tr class="even">
-<td>2</td>
-<td>RX_N</td>
-<td>10/100M MDIO Receiver Differential Signal (N signal)</td>
-</tr>
 <tr class="odd">
 <td>3</td>
-<td>RX_N</td>
-<td>10/100M MDIO Receiver Differential Signal (P signal)</td>
+<td>UART1_RX</td>
+<td>UART1 RX</td>
 </tr>
 <tr class="even">
 <td>4</td>
-<td>GND</td>
-<td>System Ground</td>
+<td>VCC</td>
+<td>System Power Input (3.3V)</td>
 </tr>
 <tr class="odd">
 <td>5</td>
-<td>TX_N</td>
-<td>10/100M MDIO Transceiver Differential Signal (N signal)</td>
+<td>UART1_CTS</td>
+<td>UART1 CTS</td>
 </tr>
 <tr class="even">
 <td>6</td>
-<td>TX_N</td>
-<td>10/100M MDIO Transceiver Differential Signal (P signal)</td>
+<td>FACT RST</td>
+<td>Factory Reset Signal input<br />
+Drive this pin Low 5.0s Module will be Factory Reset </td>
 </tr>
 <tr class="odd">
 <td>7</td>
-<td>GND</td>
-<td>System Ground</td>
+<td>UART1 TX</td>
+<td>UART1 TX</td>
 </tr>
 <tr class="even">
 <td>8</td>
-<td>LINKn</td>
-<td>Link Status LED Signal<br />
-Low : Link up<br />
-High : Link down</td>
+<td>HW_TRIG</td>
+<td>HW TRIG signal input<br />
+Active Low<br />
+Low : AT command<br />
+High : Gateway mode</td>
 </tr>
 <tr class="odd">
 <td>9</td>
-<td>SPDn</td>
-<td>Link Speed LED Signal<br />
-Low : 100Mbps<br />
-High : 10Mbps</td>
+<td>UART1_RTS</td>
+<td>UART1 RTS</td>
 </tr>
 <tr class="even">
 <td>10</td>
-<td>ACTn</td>
-<td>Active LED Signal<br />
-No Flash : Link up state without TX/RX<br />
-Flash : Link up state with TX/RX data<br />
-High : Link-down state</td>
+<td>BOOTSEL</td>
+<td>Active Low<br />
+Drive this pin Low and Power on(or reset) then RP2040 will be USB Mass Storage Device mode</td>
 </tr>
 <tr class="odd">
 <td>11</td>
-<td>COLn</td>
-<td>Link Collision Detect LED Signal<br />
-Low : Collision Detected<br />
-High : No Collision</td>
+<td>GND</td>
+<td>System Ground</td>
 </tr>
 <tr class="even">
 <td>12</td>
-<td>VCC</td>
-<td>System Power Input (3.3V)</td>
+<td>GND</td>
+<td>System Ground</td>
+</tr>
+<tr class="odd">
+<td>13</td>
+<td>USB_DP</td>
+<td>USB DP signal input for RP2040</td>
+</tr>
+<tr class="even">
+<td>14</td>
+<td>USB_DM</td>
+<td>USB DM Signal input for RP2040</td>
 </tr>
 </tbody>
 </table>
 
 
-------------------------------------------------------------------------
 
-### 1x12 UART1 (J4)
 
-<img src="/img/products/s2e_module/WIZ500SR-RP/HW/Document/WIZ500SR-RP (J4-Pinmap).png" width="800" />
+### 1x2 Boot mode select (J3)
 
-| Pin Number | Signal    | Description                                                  |
-| ---------- | --------- | ------------------------------------------------------------ |
-| 1          | VCC       | System Power Input (3.3V)                                    |
-| 2          | RUN       | RP2040 Reset Signal input<br />Active Low                    |
-| 3          | GND       | System Ground                                                |
-| 4          | UART1_TX  | UART1 TX                                                     |
-| 5          | UART1_RTS | UART1 RTS                                                    |
-| 6          | UART1_DTR | UART1 DTR                                                    |
-| 7          | GND       | System Ground                                                |
-| 8          | UART1_RX  | UART1 RX                                                     |
-| 9          | UART1_CTS | UART1 CTS                                                    |
-| 10         | UART1_DSR | UART1 DSR                                                    |
-| 11         | GND       | System Ground                                                |
-| 12         | BLINK     | Working LED Signal <br />When Module working well Switch Toggle every 1.0s |
-
-------------------------------------------------------------------------
-
-### 1x12 Other pin (J5)
-
-<img src="/img/products/s2e_module/WIZ500SR-RP/HW/Document/WIZ500SR-RP (J5-Pinmap).png" width="800" />
+<img src="/img/products/s2e_module/WIZ505SR-RP/HW/Document/WIZ505SR-RP (J3-Pinmap).png" width="800" />
 
 <table>
 <thead>
@@ -590,70 +548,12 @@ High : No Collision</td>
 <tbody>
 <tr class="odd">
 <td>1</td>
-<td>GND</td>
-<td>System Ground</td>
-</tr>
-<tr class="even">
-<td>2</td>
-<td>LINK_STATUS</td>
-<td>Link Status signal<br />
-High : Link<br />
-Low : UnLink</td>
-</tr>
-<tr class="odd">
-<td>3</td>
-<td>TCP_STATUS</td>
-<td>TCP Connection<br />
-High : Connect<br />
-Low : Disconnect</td>
-</tr>
-<tr class="even">
-<td>4</td>
-<td>BOOTSEL</td>
-<td>Active Low<br />
-Drive this pin Low and Power on(or reset) then RP2040 will be USB Mass Storage Device mode</td>
-</tr>
-<tr class="odd">
-<td>5</td>
-<td>USB_DP</td>
-<td>USB DP Signal input for RP2040</td>
-</tr>
-<tr class="even">
-<td>6</td>
-<td>USB_DM</td>
-<td>USB DM Signal input for RP2040</td>
-</tr>
-<tr class="odd">
-<td>7</td>
 <td>PREV_BANK</td>
 <td>Boot Mode Select signal input<br />
 Active Low : Enter Boot mode</td>
 </tr>
 <tr class="even">
-<td>8</td>
-<td>FACT_RST</td>
-<td>Factory Reset Signal input<br />
-Drive this pin Low 5.0s Module will be Factory Reset</td>
-</tr>
-<tr class="odd">
-<td>9</td>
-<td>HW_TRIG</td>
-<td>Active Low<br />
-High : Gateway Mode<br />
-Low : AT Command Mode</td>
-</tr>
-<tr class="even">
-<td>10</td>
-<td>GPIO26/ADC0</td>
-<td>Reserved</td>
-</tr>
-<tr class="odd">
-<td>11</td>
-<td>GPIO27/ADC1</td>
-<td>Reserved</td>
-</tr>
-<tr class="even">
-<td>12</td>
+<td>2</td>
 <td>GND</td>
 <td>System Ground</td>
 </tr>
@@ -667,11 +567,21 @@ Low : AT Command Mode</td>
 
 ## Switch Specification
 
-
-
 ### Reset Switch (SW1)
 
-<img src="/img/products/s2e_module/WIZ500SR-RP/HW/Document/WIZ500SR-RP (Reset).png" width="800" />
+<img src="/img/products/s2e_module/WIZ505SR-RP/HW/Document/WIZ505SR-RP (Reset).png" width="800" />
+
+
+
+
+
+### Boot Select Switch (SW2)
+
+<img src="/img/products/s2e_module/WIZ505SR-RP/HW/Document/WIZ505SR-RP (BOOT).png" width="800" />
+
+
+
+
 
 
 
@@ -681,13 +591,15 @@ Low : AT Command Mode</td>
 
 ## Dimension
 
+
+
 -   WIZ500SR-RP Rev1.0 Dimension :
-    -   50mm x 30mm x 1.6mm ( PCB board size )
-    -   50mm x 30mm x TBDmm ( Included part size )
+    -   40mm x 62mm x 1.6mm ( PCB board size )
+    -   40mm x TBDmm x TBDmm ( Included part size )
 
-<img src="/img/products/s2e_module/WIZ500SR-RP/HW/Document/WIZ500SR-RP PCB TOP.png" width="700" />
+<img src="/img/products/s2e_module/WIZ505SR-RP/HW/Document/WIZ505SR-RP PCB TOP.png" width="700" />
 
-<img src="/img/products/s2e_module/WIZ500SR-RP/HW/Document/WIZ500SR-RP PCB BOT.png" width="700" />
+<img src="/img/products/s2e_module/WIZ505SR-RP/HW/Document/WIZ505SR-RP PCB BOT.png" width="700" />
 
 -   WIZ5xxSR-RP-EVB Rev1.0 Dimension :
     -   TBD ( PCB board size )
