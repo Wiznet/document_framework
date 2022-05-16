@@ -14,8 +14,7 @@ data sent by serial equipment as TCP/IP data, and converts the TCP/IP
 data received through the network back into serial data to the serial
 equipment.
 
-In addition, WIZ500SR-RP contains serial debug port(J1) and 2-pin GPIO expansion port(J5 10,11pin) that can
-be controlled freely by the user(analog input or digital in/out).
+In addition, WIZ500SR-RP contains serial debug port(J1).
 
 **WIZ750SR-100 is the best fit solution to control user's serial device
 via Ethernet network.**
@@ -28,7 +27,6 @@ via Ethernet network.**
 
   - Serial to Ethernet Module based on **RP2040** MCU (TTL level)
   - Included W5100S
-  - Software and Hardware compatible with WIZ100SR S2E Module 호환되는 모듈 있는지 (확인 필요)
   - **10/100Mbps Ethernet & Up to 230kbps serial speed**
   - **2mm pitch 1x12 Pin-header(3ea) mounted module**
   - **2-Pins Configurable User's I/O**
@@ -578,7 +576,7 @@ was connected to MCU directly.**
 
 ### 1x12 Other pin (J5)
 
-<img src="/img/products/s2e_module/WIZ500SR-RP/HW/Document/WIZ500SR-RP (J4-Pinmap).png" width="600" />
+<img src="/img/products/s2e_module/WIZ500SR-RP/HW/Document/WIZ500SR-RP (J5-Pinmap).png" width="600" />
 
 <table>
 <thead>
