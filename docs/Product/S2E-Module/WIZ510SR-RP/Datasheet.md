@@ -490,7 +490,8 @@ When Module working well Blinking every 1.0s </td>
 <tbody>
 <tr class="odd">
 <td>1</td>
-<td>BOOT MODE<td>Boot Mode Select signal input<br />
+<td>BOOT MODE</td>
+<td>Boot Mode Select signal input<br />
 Active Low : Enter Boot mode</td>
 </tr>
 <tr class="even">
@@ -500,6 +501,7 @@ Active Low : Enter Boot mode</td>
 </tr>
 </tbody>
 </table>
+
 
 -   J3 is not mounted
 
