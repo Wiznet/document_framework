@@ -399,21 +399,31 @@ When Module working well Blinking every 1.0s </td>
 
 
 
+### Magnetic RJ45 modular jack (P1)
+
+<img src="/img/products/s2e_module/WIZ510SR-RP/HW/Document/WIZ510SR-RP (P1).png" width="800" />
+
+- When Ethernet not connect, WIZ505SR-RP will be in reset loop
+
+  
+
+
+
 
 ### DB9M Serial Interface (J2)
 
 <img src="/img/products/s2e_module/WIZ510SR-RP/HW/Document/WIZ510SR-RP (J2-Pinmap).png" width="800" />
 
-<img src="/img/products/wiz750sr-100/datasheet/wiz750sr-100-evb_pinout.png" width="400" />
+<img src="/img/products/s2e_module/WIZ510SR-RP/HW/Document/WIZ510SR-RP DB9M.png" width="400" />
 
 | Pin Number | Signal | Description                  |
 | ---------- | ------ | ---------------------------- |
 | 1          | DCD    | NC                           |
 | 2          | RXD    | Receive Data                 |
 | 3          | TXD    | Transmit Data                |
-| 4          | DTR    | Data Terminal Ready          |
+| 4          | DTR    | NC                           |
 | 5          | GND    | System Ground(Signal Ground) |
-| 6          | DSR    | Data Set Ready               |
+| 6          | DSR    | NC                           |
 | 7          | RTS    | Request To Send              |
 | 8          | CTS    | Clear To Send                |
 | 9          | RI     | NC                           |
@@ -422,9 +432,7 @@ When Module working well Blinking every 1.0s </td>
     hardware handshaking.
 -   RXD, TXD, GND, RTS, CTS: These are the signals used when serial
     device uses hardware handshaking.
--   DTR, DSR: Not used
-
-<img src="/img/products/wiz750sr-100/datasheet/wiz750sr-100-serial_cable.png" width="600" />
+-   DCD, DTR, DSR, RI: Not used
 
 
 
@@ -565,18 +573,13 @@ Active Low : Enter Boot mode</td>
 <img src="/img/products/s2e_module/WIZ510SR-RP/HW/Document/WIZ510SR-RP (Reset).png" width="800" />
 
 -   When Push SW1, WIZ510SR-RP will be reset
-
-
-
-------
+-   
 
 ### BOOTSEL Switch (SW2)
 
 <img src="/img/products/s2e_module/WIZ510SR-RP/HW/Document/WIZ510SR-RP (BOOTSEL).png" width="800" />
 
 -   Push SW2 and Power on(or reset) then RP2040 will be USB Mass Storage Device mode 
-
-------
 
 
 
