@@ -26,7 +26,7 @@ via Ethernet network.**
 ## Features
 
   - Serial to Ethernet Module based on **RP2040** MCU (TTL level)
-  - Included W5100S without magnetic rj45 modular jack
+  - Included W5100S
   - **10/100Mbps Ethernet & Up to 230kbps serial speed**
   - **2mm pitch 1x12 Pin-header(3ea) mounted module**
   - Status pins: PHY link status / TCP connection status
@@ -146,9 +146,9 @@ Flow control: None, RTS / CTS, XON / XOFF</td>
 
 |                                                              |
 | ------------------------------------------------------------ |
-| <img src="/img/products/s2e_module/WIZ500SR-RP/HW/Document/WIZ500SR-RP Callout_Top.png" width="600" /> |
+| <img src="/img/products/s2e_module/WIZ500SR-RP/HW/Document/WIZ500SR-RP Callout_Top.png" width="800" /> |
 | TOP                                                          |
-| <img src="/img/products/s2e_module/WIZ500SR-RP/HW/Document/WIZ500SR-RP Callout_Bot.png" width="600" /> |
+| <img src="/img/products/s2e_module/WIZ500SR-RP/HW/Document/WIZ500SR-RP Callout_Bot.png" width="800" /> |
 | BOTTOM                                                       |
 
 
@@ -250,8 +250,8 @@ When Module working well Blinking every 1.0s </td>
 
 | H/W version | Type | Filetype | Download Link                                                | Remarks |
 | ----------- | ---- | -------- | ------------------------------------------------------------ | ------- |
-| 1.0         | TTL  | Altium   | ![](/img/products/w5500/w5500_evb/icons/download.png) <a href="/img/products/s2e_module/WIZ500SR-RP/HW/Schematic & Artwork/WIZ500SR-RP_SCH_V100.ZIP" target="_blank">Download</a> | \-      |
-| :::         | :::  | PDF      | ![](/img/products/w5500/w5500_evb/icons/download.png) <a href="/img/products/s2e_module/WIZ500SR-RP/HW/Schematic & Artwork/WIZ500SR-RP_SCH_V100.PDF" target="_blank">Download</a> | \-      |
+| 1.0         | TTL  | Altium   | ![](/img/products/w5500/w5500_evb/icons/download.png) <a href="/img/products/s2e_module/WIZ500SR-RP/HW/Schematic & Artwork/WIZ500SR-RP_SCH_V100.zip" target="_blank">Download</a> | \-      |
+| :::         | :::  | PDF      | ![](/img/products/w5500/w5500_evb/icons/download.png) <a href="/img/products/s2e_module/WIZ500SR-RP/HW/Schematic & Artwork/WIZ500SR-RP_SCH_V100.pdf" target="_blank">Download</a> | \-      |
 
 ### WIZ5xxSR-RP-EVB (TBD)
 
@@ -268,8 +268,8 @@ When Module working well Blinking every 1.0s </td>
 
 | H/W version | Type | Filetype | Download Link                                                | Remarks |
 | ----------- | ---- | -------- | ------------------------------------------------------------ | ------- |
-| 1.0         | TTL  | Excel    | ![](/img/products/w5500/w5500_evb/icons/download.png) <a href="/img/products/s2e_module/WIZ500SR-RP/HW/PartList/WIZ500SR-RP_PL_V100.xlsx" target="_blank">Download</a> |         |
-| :::         | :::  | PDF      | ![](/img/products/w5500/w5500_evb/icons/download.png) <a href="/img/products/s2e_module/WIZ500SR-RP/HW/PartList/WIZ500SR-RP_PL_V100.PDF" target="_blank">Download</a> |         |
+| 1.0         | TTL  | Excel    | ![](/img/products/w5500/w5500_evb/icons/download.png) <a href="/img/products/s2e_module/WIZ500SR-RP/HW/PartList/WIZ500SR-RP_PL_V100.xls" target="_blank">Download</a> |         |
+| :::         | :::  | PDF      | ![](/img/products/w5500/w5500_evb/icons/download.png) <a href="/img/products/s2e_module/WIZ500SR-RP/HW/PartList/WIZ500SR-RP_PL_V100.pdf" target="_blank">Download</a> |         |
 
 ### WIZ5xxSR-RP-EVB (TBD)
 
@@ -390,82 +390,6 @@ When Module working well Blinking every 1.0s </td>
 
 ## Connector Specification
 
-### 1x6 UART0, SWD (J1)
-
-<img src="/img/products/s2e_module/WIZ500SR-RP/HW/Document/WIZ500SR-RP (J1-Pinmap).png" width="800" />
-
-<table>
-<thead>
-<tr class="header">
-<th>Pin Number</th>
-<th>Signal</th>
-<th>Description</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>1</td>
-<td>VCC</td>
-<td>System Power input (3.3V)</td>
-</tr>
-<tr class="even">
-<td>2</td>
-<td>TX</td>
-<td>UART0_TX (Debug)</td>
-</tr>
-<tr class="odd">
-<td>3</td>
-<td>RX</td>
-<td>UART0_RX (Debug)</td>
-</tr>
-<tr class="even">
-<td>4</td>
-<td>SWCLK</td>
-<td>SWD CLK</td>
-</tr>
-<tr class="odd">
-<td>5</td>
-<td>SWDIO</td>
-<td>SWD IO</td>
-</tr>
-<tr class="even">
-<td>6</td>
-<td>GND</td>
-<td>System Ground</td>
-</tr>
-</tbody>
-</table>
-
-
-
-### 1x2 BOOTSEL set pin (J2)
-
-<img src="/img/products/s2e_module/WIZ500SR-RP/HW/Document/WIZ500SR-RP (J2-Pinmap).png" width="800" />
-
-<table>
-<thead>
-<tr class="header">
-<th>Pin Number</th>
-<th>Signal</th>
-<th>Description</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>1</td>
-<td>BOOTSEL</td>
-<td>Active Low<br />
-Drive this pin Low and Power on(or reset) then RP2040 will be USB Mass Storage Device mode</td>
-</tr>
-<tr class="even">
-<td>2</td>
-<td>GND</td>
-<td>System Ground</td>
-</tr>
-</tbody>
-</table>
-
-
 
 
 ### 1x12 Network Line (J3)
@@ -552,9 +476,9 @@ High : No Collision</td>
 </tr>
 </tbody>
 </table>
+- When Ethernet not connect, WIZ500SR-RP will be in reset loop
 
-
-------------------------------------------------------------------------
+  
 
 ### 1x12 UART1 (J4)
 
@@ -575,7 +499,7 @@ High : No Collision</td>
 | 11         | GND       | System Ground                                                |
 | 12         | BLINK     | Working LED Signal <br />When Module working well Switch Toggle every 1.0s |
 
-------------------------------------------------------------------------
+
 
 ### 1x12 Other pin (J5)
 
@@ -663,6 +587,85 @@ Low : AT Command Mode</td>
 </table>
 
 
+### 1x6 UART0, SWD (J1)
+
+<img src="/img/products/s2e_module/WIZ500SR-RP/HW/Document/WIZ500SR-RP (J1-Pinmap).png" width="800" />
+
+<table>
+<thead>
+<tr class="header">
+<th>Pin Number</th>
+<th>Signal</th>
+<th>Description</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>1</td>
+<td>VCC</td>
+<td>System Power input (3.3V)</td>
+</tr>
+<tr class="even">
+<td>2</td>
+<td>TX</td>
+<td>UART0_TX (Debug)</td>
+</tr>
+<tr class="odd">
+<td>3</td>
+<td>RX</td>
+<td>UART0_RX (Debug)</td>
+</tr>
+<tr class="even">
+<td>4</td>
+<td>SWCLK</td>
+<td>SWD CLK</td>
+</tr>
+<tr class="odd">
+<td>5</td>
+<td>SWDIO</td>
+<td>SWD IO</td>
+</tr>
+<tr class="even">
+<td>6</td>
+<td>GND</td>
+<td>System Ground</td>
+</tr>
+</tbody>
+</table>
+
+**J1 is not mounted connector**
+
+
+
+### 1x2 BOOTSEL set pin (J2)
+
+<img src="/img/products/s2e_module/WIZ500SR-RP/HW/Document/WIZ500SR-RP (J2-Pinmap).png" width="800" />
+
+<table>
+<thead>
+<tr class="header">
+<th>Pin Number</th>
+<th>Signal</th>
+<th>Description</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>1</td>
+<td>BOOTSEL</td>
+<td>Active Low<br />
+Drive this pin Low and Power on(or reset) then RP2040 will be USB Mass Storage Device mode</td>
+</tr>
+<tr class="even">
+<td>2</td>
+<td>GND</td>
+<td>System Ground</td>
+</tr>
+</tbody>
+</table>
+
+**J2 is not mounted connector**
+
 
 
 
@@ -672,11 +675,11 @@ Low : AT Command Mode</td>
 
 
 
-### Reset Switch (SW1)
+### RESET Switch (SW1)
 
 <img src="/img/products/s2e_module/WIZ500SR-RP/HW/Document/WIZ500SR-RP (Reset).png" width="800" />
 
-
+-   When push SW1, WIZ500SR-RP will be reset
 
 ------
 
