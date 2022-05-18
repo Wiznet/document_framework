@@ -405,7 +405,13 @@ When Module working well Blinking every 1.0s </td>
 
 - When Ethernet not connect, WIZ505SR-RP will be in reset loop
 
-  
+
+
+### 2Ø DC-JACK (P2)
+
+<img src="/img/products/s2e_module/WIZ510SR-RP/HW/Document/WIZ510SR-RP DC-JACK.png" width="800" />
+
+- 5V input 
 
 
 

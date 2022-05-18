@@ -155,6 +155,12 @@ Flow control: None, RTS / CTS, XON / XOFF</td>
 
 
 
+------
+
+### WIZ505SR-RP Pinout
+
+<img src="/img/products/s2e_module/WIZ505SR-RP/HW/Document/WIZ505SR-RP Pinout.png" width="800" />
+
 ------------------------------------------------------------------------
 
 ### WIZ505SR-RP indicate
@@ -394,6 +400,14 @@ When Module working well Blinking every 1.0s </td>
 
 
 
+### Magnetic rj45 modular jack (P1)
+
+<img src="/img/products/s2e_module/WIZ505SR-RP/HW/Document/WIZ505SR-RP (P1).png" width="800" />
+
+-   When Ethernet not connect, WIZ505SR-RP will be in reset loop
+
+
+
 
 ### 2x7 UART1, Download (J2)
 
@@ -564,16 +578,7 @@ Active Low : Enter Boot mode</td>
 </tr>
 </tbody>
 </table>
-
 **J3 is not mounted connector**
-
-
-
-### Magnetic rj45 modular jack (P1)
-
-<img src="/img/products/s2e_module/WIZ505SR-RP/HW/Document/WIZ505SR-RP (P1).png" width="800" />
-
--   When Ethernet not connect, WIZ505SR-RP will be in reset loop
 
 
 
