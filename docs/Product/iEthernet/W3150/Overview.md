@@ -1,8 +1,15 @@
 ---
 id: overview
-title: W3150A+ Overview
+title: Overview
 date: 2021-07-16
 ---
+
+:::caution
+
+Please note that this product was discontinued.
+We do not recommend using it in new design. 
+
+:::
 
 ![](/img/products/w3150/photo_w3150A-1.jpg)
 

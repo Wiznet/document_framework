@@ -4,6 +4,13 @@ title: WizFi310
 date: 2020-05-13
 ---
 
+:::caution
+
+This product is discontinued.  
+Please refer to the New compatible product [WizFi360](./../WizFi360/WizFi360.md).
+
+:::
+
 ## Overview
 
 WizFi310 offers a quick, easy, and cost-effective way for device and

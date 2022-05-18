@@ -1,8 +1,15 @@
 ---
 id: ioshield_a
-title: ioShield-A
+title: ioShield-A (discontinued)
 date: 2020-04-03
 ---
+
+:::caution
+
+Please note that this product was discontinued.
+We do not recommend using it in new design. 
+
+:::
 
 ## Overview
 

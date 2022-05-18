@@ -1,6 +1,6 @@
 ---
 id: datasheet
-title: WIZ510SR-RP Datasheet
+title: Datasheet
 date: 2022-05-09
 
 ---
@@ -548,7 +548,7 @@ Active Low : Enter Boot mode</td>
 <td>USB_DM</td>
 <td>USB DM Signal input for RP2040</td>
 </tr>
-</tr>
+
 <tr class="even">
 <td>4</td>
 <td>GND</td>

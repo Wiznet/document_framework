@@ -303,7 +303,7 @@ module.exports = {
 				//	label: 'W3150A+', // string - the label that should be displayed.
 				//	href: 'https://www.wiznet.io/product-item/w3150a+/' // string - the target URL.
 					type: 'category',
-					label: 'W3150A+',
+					label: 'W3150A+ (Discontinued)',
 					link: {type: 'doc', id: 'Product/iEthernet/W3150/w3150'},
 					items: [
 						//'Product/iEthernet/W3150/w3150',
@@ -484,6 +484,13 @@ module.exports = {
 						label:'WIZ505SR-RP',
 						items: [
 						'Product/S2E-Module/WIZ505SR-RP/datasheet',	
+						]
+					},
+					{
+						type:'category',
+						label:'WIZ510SR-RP',
+						items: [
+						'Product/S2E-Module/WIZ510SR-RP/datasheet',	
 						]
 					},
 					{
@@ -709,12 +716,40 @@ module.exports = {
 			//'Product/Wi-Fi-Module/wi_fi_module',
 			{
 				type: 'category',
-				label: 'WizFi210/220',
-				link: {type: 'doc', id: 'Product/Wi-Fi-Module/WizFi210/wizfi210'},
+				label: 'WizFi630S',
+				link: {type: 'doc', id: 'Product/Wi-Fi-Module/WizFi630S/wizfi630s'},
 				items: [
-					//'Product/Wi-Fi-Module/WizFi210/wizfi210',
-					'Product/Wi-Fi-Module/WizFi210/wizfi210-evb',
-				],	
+				//'Product/Wi-Fi-Module/WizFi630S/wizfi630s',
+				'Product/Wi-Fi-Module/WizFi630S/datasheet',
+				'Product/Wi-Fi-Module/WizFi630S/user_guide',
+				'Product/Wi-Fi-Module/WizFi630S/hw_reference',
+				'Product/Wi-Fi-Module/WizFi630S/certificate',
+				],
+			},
+			{
+				type: 'category',
+				label: 'WizFi360',
+				link: {type: 'doc', id: 'Product/Wi-Fi-Module/WizFi360/wizfi360'},
+				items: [
+				//'Product/Wi-Fi-Module/WizFi360/wizfi360',
+				'Product/Wi-Fi-Module/WizFi360/documents',
+				'Product/Wi-Fi-Module/WizFi360/application_examples',
+				'Product/Wi-Fi-Module/WizFi360/wizfi360_evb_shield',
+				'Product/Wi-Fi-Module/WizFi360/wizfi360_evb_mini',
+				'Product/Wi-Fi-Module/WizFi360/wizfi360io',
+					{
+					type: 'category',
+					label: 'Other Resource',
+					items: [
+					'Product/Wi-Fi-Module/WizFi360/Other-Resource/w600_sdk',
+					]
+					},
+					{
+						type: 'link',
+						label: 'AT-Command Firmware release', // string - the label that should be displayed.
+						href: 'https://github.com/wizfi/Release/tree/master/Binary' // string - the target URL.
+					}
+				],
 			},
 			{
 				type: 'category',
@@ -771,62 +806,47 @@ module.exports = {
 				'Product/Wi-Fi-Module/WizFi250/wizfi250_firmware',
 				'Product/Wi-Fi-Module/WizFi250/reference_youtube',
 				],
-				},
-				{
-					type: 'category',
-					label: 'WizFi310',
-					link: {type: 'doc', id: 'Product/Wi-Fi-Module/WizFi310/wizfi310'},
-					items: [
-					//'Product/Wi-Fi-Module/WizFi310/wizfi310',
-					'Product/Wi-Fi-Module/WizFi310/datasheet',
-					{
-					type: 'category',
-					label: 'Programers Guide',
-					link: {type: 'doc', id: 'Product/Wi-Fi-Module/WizFi310/Programers-Guide/overview'},
-					items: [
-					//'Product/Wi-Fi-Module/WizFi310/Programers-Guide/overview',
-					'Product/Wi-Fi-Module/WizFi310/Programers-Guide/at_commands',
-					'Product/Wi-Fi-Module/WizFi310/Programers-Guide/firmware_upgrade_using_serial_interface',
-					'Product/Wi-Fi-Module/WizFi310/Programers-Guide/firmware_upgrade_using_ota',
-					'Product/Wi-Fi-Module/WizFi310/Programers-Guide/examples',
-					'Product/Wi-Fi-Module/WizFi310/Programers-Guide/gmmp_example',
-					'Product/Wi-Fi-Module/WizFi310/Programers-Guide/thingplug_example',
-					'Product/Wi-Fi-Module/WizFi310/Programers-Guide/mqtt_example',
-					]
-					},
-					'Product/Wi-Fi-Module/WizFi310/quick_start_guide',
-					'Product/Wi-Fi-Module/WizFi310/wizfi310_evb_if_dimension',
-					'Product/Wi-Fi-Module/WizFi310/wizfi310_evb_sch',
-					'Product/Wi-Fi-Module/WizFi310/wizfi310_firmware_using_serial',
-					'Product/Wi-Fi-Module/WizFi310/wizfi310_firmware_using_ota',
-					],
-					},	
-			{
-			type: 'category',
-			label: 'WizFi360',
-			link: {type: 'doc', id: 'Product/Wi-Fi-Module/WizFi360/wizfi360'},
-			items: [
-			//'Product/Wi-Fi-Module/WizFi360/wizfi360',
-			'Product/Wi-Fi-Module/WizFi360/documents',
-			'Product/Wi-Fi-Module/WizFi360/application_examples',
-			'Product/Wi-Fi-Module/WizFi360/wizfi360_evb_shield',
-			'Product/Wi-Fi-Module/WizFi360/wizfi360_evb_mini',
-			'Product/Wi-Fi-Module/WizFi360/wizfi360io',
-			{
-			type: 'category',
-			label: 'Other Resource',
-			items: [
-			'Product/Wi-Fi-Module/WizFi360/Other-Resource/w600_sdk',
-			]
-			},
-			{
-				type: 'link',
-				label: 'AT-Command Firmware release', // string - the label that should be displayed.
-				href: 'https://github.com/wizfi/Release/tree/master/Binary' // string - the target URL.
-			}
-			],
 			},
 			'Product/Wi-Fi-Module/WizFi630A/wizfi630a',
+			{
+				type: 'category',
+				label: 'WizFi310 (Discontinued)',
+				link: {type: 'doc', id: 'Product/Wi-Fi-Module/WizFi310/wizfi310'},
+				items: [
+				//'Product/Wi-Fi-Module/WizFi310/wizfi310',
+				'Product/Wi-Fi-Module/WizFi310/datasheet',
+				{
+				type: 'category',
+				label: 'Programers Guide',
+				link: {type: 'doc', id: 'Product/Wi-Fi-Module/WizFi310/Programers-Guide/overview'},
+				items: [
+				//'Product/Wi-Fi-Module/WizFi310/Programers-Guide/overview',
+				'Product/Wi-Fi-Module/WizFi310/Programers-Guide/at_commands',
+				'Product/Wi-Fi-Module/WizFi310/Programers-Guide/firmware_upgrade_using_serial_interface',
+				'Product/Wi-Fi-Module/WizFi310/Programers-Guide/firmware_upgrade_using_ota',
+				'Product/Wi-Fi-Module/WizFi310/Programers-Guide/examples',
+				'Product/Wi-Fi-Module/WizFi310/Programers-Guide/gmmp_example',
+				'Product/Wi-Fi-Module/WizFi310/Programers-Guide/thingplug_example',
+				'Product/Wi-Fi-Module/WizFi310/Programers-Guide/mqtt_example',
+				]
+				},
+				'Product/Wi-Fi-Module/WizFi310/quick_start_guide',
+				'Product/Wi-Fi-Module/WizFi310/wizfi310_evb_if_dimension',
+				'Product/Wi-Fi-Module/WizFi310/wizfi310_evb_sch',
+				'Product/Wi-Fi-Module/WizFi310/wizfi310_firmware_using_serial',
+				'Product/Wi-Fi-Module/WizFi310/wizfi310_firmware_using_ota',
+				],
+			},
+			{
+				type: 'category',
+				label: 'WizFi210/220 (Discontinued)',
+				link: {type: 'doc', id: 'Product/Wi-Fi-Module/WizFi210/wizfi210'},
+				items: [
+					//'Product/Wi-Fi-Module/WizFi210/wizfi210',
+					'Product/Wi-Fi-Module/WizFi210/wizfi210-evb',
+				],	
+			},			
+			
 			/*{
 				type: 'category',
 				label: 'WizFi630A',
@@ -834,18 +854,7 @@ module.exports = {
 				'Product/Wi-Fi-Module/WizFi630A/wizfi630a',
 				],
 				},*/
-			{
-			type: 'category',
-			label: 'WizFi630S',
-			link: {type: 'doc', id: 'Product/Wi-Fi-Module/WizFi630S/wizfi630s'},
-			items: [
-			//'Product/Wi-Fi-Module/WizFi630S/wizfi630s',
-			'Product/Wi-Fi-Module/WizFi630S/datasheet',
-			'Product/Wi-Fi-Module/WizFi630S/user_guide',
-			'Product/Wi-Fi-Module/WizFi630S/hw_reference',
-			'Product/Wi-Fi-Module/WizFi630S/certificate',
-			],
-			}
+			
 			],
 		},
 		

@@ -1,6 +1,6 @@
 ---
 id: wizfi630a
-title: WizFi630A
+title: WizFi630A (Discontinued)
 date: 2020-05-13
 ---
 
@@ -9,8 +9,7 @@ date: 2020-05-13
 :::caution
 
 This product is discontinued.  
-Please refer to the New compatible
-product🌎([WizFi630S](./../WizFi630S/WizFi630S.md)).
+Please refer to the New compatible product🌎([WizFi630S](./../WizFi630S/WizFi630S.md)).
 
 :::
 
