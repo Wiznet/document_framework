@@ -153,6 +153,12 @@ Flow control: None, RTS / CTS, XON / XOFF</td>
 
 
 
+------
+
+### WIZ500SR-RP Pinout
+
+<img src="/img/products/s2e_module/WIZ500SR-RP/HW/Document/WIZ500SR-RP Pinout.png" width="800" />
+
 ------------------------------------------------------------------------
 
 ### WIZ500SR-RP indicate
@@ -692,8 +698,6 @@ Drive this pin Low and Power on(or reset) then RP2040 will be USB Mass Storage D
     -   50mm x 30mm x TBDmm ( Included part size )
 
 <img src="/img/products/s2e_module/WIZ500SR-RP/HW/Document/WIZ500SR-RP PCB TOP.png" width="700" />
-
-<img src="/img/products/s2e_module/WIZ500SR-RP/HW/Document/WIZ500SR-RP PCB BOT.png" width="700" />
 
 -   WIZ5xxSR-RP-EVB Rev1.0 Dimension :
     -   TBD ( PCB board size )
