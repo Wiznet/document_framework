@@ -26,7 +26,7 @@ via Ethernet network.**
 ## Features
 
   - Serial to Ethernet Module based on **RP2040** MCU (TTL level)
-  - Included W5100S and RJ45 Modular Jack
+  - Included W5100S and magnetic rj45 modular jack
   - **10/100Mbps Ethernet & Up to 230kbps serial speed**
   - **2.54mm pitch 2x7 Pin-header mounted module**
   - Status pins: PHY link status / TCP connection status
@@ -35,6 +35,8 @@ via Ethernet network.**
     - WIZ5xxSR-RP-EVB(RS-232C): TXD, RXD, RTS, CTS
     - Optional DTR/DSR signals supported (Status pins or DTR/DSR pins
       selectable)
+  - WIZ505SR-RP has UART x 2, SWD x 1, Ethernet x 1
+    - UART0, SWD for Debug and UART1, Ethernet for Data transceive
   - Separate **Data UART** and **Debug UART** port
   - Configuration is possible via serial AT commands or via
     Configuration tool 
@@ -246,12 +248,12 @@ When Module working well Blinking every 1.0s </td>
 
 ## Schematic & Artwork
 
-### WIZ500SR-RP
+### WIZ505SR-RP
 
 | H/W version | Type | Filetype | Download Link                                                | Remarks |
 | ----------- | ---- | -------- | ------------------------------------------------------------ | ------- |
-| 1.0         | TTL  | Altium   | ![](/img/products/w5500/w5500_evb/icons/download.png) <a href="/img/products/s2e_module/wiz505sr-RP/HW/Schematic & Artwork/WIZ505SR-RP_SCH_V100.ZIP" target="_blank">Download</a> | \-      |
-| :::         | :::  | PDF      | ![](/img/products/w5500/w5500_evb/icons/download.png) <a href="/img/products/s2e_module/wiz505sr-RP/HW/Schematic & Artwork/WIZ505SR-RP_SCH_V100.PDF" target="_blank">Download</a> | \-      |
+| 1.0         | TTL  | Altium   | ![](/img/products/w5500/w5500_evb/icons/download.png) <a href="/img/products/s2e_module/WIZ505SR-RP/HW/Schematic & Artwork/WIZ505SR-RP_SCH_V100.ZIP" target="_blank">Download</a> | \-      |
+| :::         | :::  | PDF      | ![](/img/products/w5500/w5500_evb/icons/download.png) <a href="/img/products/s2e_module/WIZ505SR-RP/HW/Schematic & Artwork/WIZ505SR-RP_SCH_V100.PDF" target="_blank">Download</a> | \-      |
 
 ### WIZ5xxSR-RP-EVB (TBD)
 
@@ -268,8 +270,8 @@ When Module working well Blinking every 1.0s </td>
 
 | H/W version | Type | Filetype | Download Link                                                | Remarks |
 | ----------- | ---- | -------- | ------------------------------------------------------------ | ------- |
-| 1.0         | TTL  | Excel    | ![](/img/products/w5500/w5500_evb/icons/download.png) <a href="/img/products/s2e_module/wiz505sr-RP/HW/PartList/WIZ505SR-RP_PL_V100.xlsx" target="_blank">Download</a> |         |
-| :::         | :::  | PDF      | ![](/img/products/w5500/w5500_evb/icons/download.png) <a href="/img/products/s2e_module/wiz505sr-RP/HW/PartList/WIZ505SR-RP_PL_V100.PDF" target="_blank">Download</a> |         |
+| 1.0         | TTL  | Excel    | ![](/img/products/w5500/w5500_evb/icons/download.png) <a href="/img/products/s2e_module/WIZ505SR-RP/HW/PartList/WIZ505SR-RP_PL_V100.xlsx" target="_blank">Download</a> |         |
+| :::         | :::  | PDF      | ![](/img/products/w5500/w5500_evb/icons/download.png) <a href="/img/products/s2e_module/WIZ505SR-RP/HW/PartList/WIZ505SR-RP_PL_V100.PDF" target="_blank">Download</a> |         |
 
 ### WIZ5xxSR-RP-EVB (TBD)
 

@@ -26,7 +26,7 @@ via Ethernet network.**
 ## Features
 
   - Serial to Ethernet Module based on **RP2040** MCU (TTL level)
-  - Included W5100S
+  - Included W5100S without magnetic rj45 modular jack
   - **10/100Mbps Ethernet & Up to 230kbps serial speed**
   - **2mm pitch 1x12 Pin-header(3ea) mounted module**
   - Status pins: PHY link status / TCP connection status
@@ -35,6 +35,8 @@ via Ethernet network.**
     - WIZ5xxSR-RP-EVB(RS-232C): TXD, RXD, RTS, CTS
     - Optional DTR/DSR signals supported (Status pins or DTR/DSR pins
       selectable)
+  - WIZ500SR-RP has UART x 2, SWD x 1, Ethernet x 1
+    - UART0, SWD for Debug and UART1, Ethernet for Data transceive
   - Separate **Data UART** and **Debug UART** port
   - Configuration is possible via serial AT commands or via
     Configuration tool 
@@ -248,8 +250,8 @@ When Module working well Blinking every 1.0s </td>
 
 | H/W version | Type | Filetype | Download Link                                                | Remarks |
 | ----------- | ---- | -------- | ------------------------------------------------------------ | ------- |
-| 1.0         | TTL  | Altium   | ![](/img/products/w5500/w5500_evb/icons/download.png) <a href="/img/products/s2e_module/wiz500sr-RP/HW/Schematic & Artwork/WIZ500SR-RP_SCH_V100.ZIP" target="_blank">Download</a> | \-      |
-| :::         | :::  | PDF      | ![](/img/products/w5500/w5500_evb/icons/download.png) <a href="/img/products/s2e_module/wiz500sr-RP/HW/Schematic & Artwork/WIZ500SR-RP_SCH_V100.PDF" target="_blank">Download</a> | \-      |
+| 1.0         | TTL  | Altium   | ![](/img/products/w5500/w5500_evb/icons/download.png) <a href="/img/products/s2e_module/WIZ500SR-RP/HW/Schematic & Artwork/WIZ500SR-RP_SCH_V100.ZIP" target="_blank">Download</a> | \-      |
+| :::         | :::  | PDF      | ![](/img/products/w5500/w5500_evb/icons/download.png) <a href="/img/products/s2e_module/WIZ500SR-RP/HW/Schematic & Artwork/WIZ500SR-RP_SCH_V100.PDF" target="_blank">Download</a> | \-      |
 
 ### WIZ5xxSR-RP-EVB (TBD)
 
@@ -266,8 +268,8 @@ When Module working well Blinking every 1.0s </td>
 
 | H/W version | Type | Filetype | Download Link                                                | Remarks |
 | ----------- | ---- | -------- | ------------------------------------------------------------ | ------- |
-| 1.0         | TTL  | Excel    | ![](/img/products/w5500/w5500_evb/icons/download.png) <a href="/img/products/s2e_module/wiz500sr-RP/HW/PartList/WIZ500SR-RP_PL_V100.xlsx" target="_blank">Download</a> |         |
-| :::         | :::  | PDF      | ![](/img/products/w5500/w5500_evb/icons/download.png) <a href="/img/products/s2e_module/wiz500sr-RP/HW/PartList/WIZ500SR-RP_PL_V100.PDF" target="_blank">Download</a> |         |
+| 1.0         | TTL  | Excel    | ![](/img/products/w5500/w5500_evb/icons/download.png) <a href="/img/products/s2e_module/WIZ500SR-RP/HW/PartList/WIZ500SR-RP_PL_V100.xlsx" target="_blank">Download</a> |         |
+| :::         | :::  | PDF      | ![](/img/products/w5500/w5500_evb/icons/download.png) <a href="/img/products/s2e_module/WIZ500SR-RP/HW/PartList/WIZ500SR-RP_PL_V100.PDF" target="_blank">Download</a> |         |
 
 ### WIZ5xxSR-RP-EVB (TBD)
 
@@ -625,7 +627,7 @@ Drive this pin Low and Power on(or reset) then RP2040 will be USB Mass Storage D
 </tr>
 <tr class="odd">
 <td>7</td>
-<td>PREV_BANK</td>
+<td>BOOT MODE</td>
 <td>Boot Mode Select signal input<br />
 Active Low : Enter Boot mode</td>
 </tr>
@@ -659,6 +661,7 @@ Low : AT Command Mode</td>
 </tr>
 </tbody>
 </table>
+
 
 
 
