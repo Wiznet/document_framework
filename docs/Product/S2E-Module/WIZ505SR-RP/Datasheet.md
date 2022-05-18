@@ -1,6 +1,6 @@
 ---
 id: datasheet
-title: Datasheet
+title: WIZ505SR-RP Datasheet
 date: 2022-05-09
 
 ---
@@ -26,12 +26,12 @@ via Ethernet network.**
 ## Features
 
   - Serial to Ethernet Module based on **RP2040** MCU (TTL level)
-  - Included W5100S and magnetic rj45 modular jack
+  - Included W5100S and magnetic RJ45 modular jack
   - **10/100Mbps Ethernet & Up to 230kbps serial speed**
   - **2.54mm pitch 2x7 Pin-header mounted module**
   - Status pins: PHY link status / TCP connection status
   - Serial signals(UART or RS-232C)
-    - WIZ500SR-RP module(UART): TXD, RXD, RTS, CTS
+    - WIZ505SR-RP module(UART): TXD, RXD, RTS, CTS
     - WIZ5xxSR-RP-EVB(RS-232C): TXD, RXD, RTS, CTS
     - Optional DTR/DSR signals supported (Status pins or DTR/DSR pins
       selectable)
@@ -392,51 +392,6 @@ When Module working well Blinking every 1.0s </td>
 
 ## Connector Specification
 
-### 1x6 UART0, SWD (J1)
-
-<img src="/img/products/s2e_module/WIZ505SR-RP/HW/Document/WIZ505SR-RP (J1-Pinmap).png" width="800" />
-
-<table>
-<thead>
-<tr class="header">
-<th>Pin Number</th>
-<th>Signal</th>
-<th>Description</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>1</td>
-<td>VCC</td>
-<td>System Power input (3.3V)</td>
-</tr>
-<tr class="even">
-<td>2</td>
-<td>TX</td>
-<td>UART0_TX (Debug)</td>
-</tr>
-<tr class="odd">
-<td>3</td>
-<td>RX</td>
-<td>UART0_RX (Debug)</td>
-</tr>
-<tr class="even">
-<td>4</td>
-<td>SWCLK</td>
-<td>SWD CLK</td>
-</tr>
-<tr class="odd">
-<td>5</td>
-<td>SWDIO</td>
-<td>SWD IO</td>
-</tr>
-<tr class="even">
-<td>6</td>
-<td>GND</td>
-<td>System Ground</td>
-</tr>
-</tbody>
-</table>
 
 
 
@@ -533,6 +488,54 @@ Drive this pin Low and Power on(or reset) then RP2040 will be USB Mass Storage D
 </table>
 
 
+### 1x6 UART0, SWD (J1)
+
+<img src="/img/products/s2e_module/WIZ505SR-RP/HW/Document/WIZ505SR-RP (J1-Pinmap).png" width="800" />
+
+<table>
+<thead>
+<tr class="header">
+<th>Pin Number</th>
+<th>Signal</th>
+<th>Description</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>1</td>
+<td>VCC</td>
+<td>System Power input (3.3V)</td>
+</tr>
+<tr class="even">
+<td>2</td>
+<td>TX</td>
+<td>UART0_TX (Debug)</td>
+</tr>
+<tr class="odd">
+<td>3</td>
+<td>RX</td>
+<td>UART0_RX (Debug)</td>
+</tr>
+<tr class="even">
+<td>4</td>
+<td>SWCLK</td>
+<td>SWD CLK</td>
+</tr>
+<tr class="odd">
+<td>5</td>
+<td>SWDIO</td>
+<td>SWD IO</td>
+</tr>
+<tr class="even">
+<td>6</td>
+<td>GND</td>
+<td>System Ground</td>
+</tr>
+</tbody>
+</table>
+
+**J1 is not mounted connector**
+
 
 
 ### 1x2 Boot mode select (J3)
@@ -550,7 +553,7 @@ Drive this pin Low and Power on(or reset) then RP2040 will be USB Mass Storage D
 <tbody>
 <tr class="odd">
 <td>1</td>
-<td>PREV_BANK</td>
+<td>BOOTMODE</td>
 <td>Boot Mode Select signal input<br />
 Active Low : Enter Boot mode</td>
 </tr>
@@ -562,6 +565,15 @@ Active Low : Enter Boot mode</td>
 </tbody>
 </table>
 
+**J3 is not mounted connector**
+
+
+
+### Magnetic rj45 modular jack (P1)
+
+<img src="/img/products/s2e_module/WIZ505SR-RP/HW/Document/WIZ505SR-RP (P1).png" width="800" />
+
+-   When Ethernet not connect, WIZ505SR-RP will be in reset loop
 
 
 
@@ -569,21 +581,19 @@ Active Low : Enter Boot mode</td>
 
 ## Switch Specification
 
-### Reset Switch (SW1)
+### RESET Switch (SW1)
 
 <img src="/img/products/s2e_module/WIZ505SR-RP/HW/Document/WIZ505SR-RP (Reset).png" width="800" />
 
+-   When push SW1, WIZ500SR-RP will be reset
 
 
 
-
-### Boot Select Switch (SW2)
+### BOOTSEL Switch (SW2)
 
 <img src="/img/products/s2e_module/WIZ505SR-RP/HW/Document/WIZ505SR-RP (BOOT).png" width="800" />
 
-
-
-
+-   Push SW2 and Power on(or reset) then RP2040 will be USB Mass Storage Device mode 
 
 
 
@@ -595,13 +605,11 @@ Active Low : Enter Boot mode</td>
 
 
 
--   WIZ500SR-RP Rev1.0 Dimension :
+-   WIZ505SR-RP Rev1.0 Dimension :
     -   40mm x 62mm x 1.6mm ( PCB board size )
     -   40mm x TBDmm x TBDmm ( Included part size )
 
 <img src="/img/products/s2e_module/WIZ505SR-RP/HW/Document/WIZ505SR-RP PCB TOP.png" width="700" />
-
-<img src="/img/products/s2e_module/WIZ505SR-RP/HW/Document/WIZ505SR-RP PCB BOT.png" width="700" />
 
 -   WIZ5xxSR-RP-EVB Rev1.0 Dimension :
     -   TBD ( PCB board size )
