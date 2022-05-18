@@ -383,6 +383,18 @@ When Module working well Blinking every 1.0s </td>
 </table>
 
 
+### Ethernet Power Dissipation
+
+| Condition                      | Min  | Typ  | Max  | Tol  | Unit |
+| ------------------------------ | ---- | ---- | ---- | ---- | ---- |
+| 100M Link                      | \-   | TBD  | \-   |      | mA   |
+| 10M Link                       | \-   | TBD  | \-   |      | mA   |
+| Unlink (Auto-negotiation mode) |      | TBD  |      |      | mA   |
+| 100M Transmitting              | \-   |      | 90   |      | mA   |
+| 10M Transmitting               | \-   | TBD  | \-   |      | mA   |
+
+
+
 
 ### External Flash Memory
 
