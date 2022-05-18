@@ -257,8 +257,8 @@ When Module working well Blinking every 1.0s </td>
 
 | H/W version | Type | Filetype | Download Link                                                | Remarks |
 | ----------- | ---- | -------- | ------------------------------------------------------------ | ------- |
-| 1.0         | TTL  | Altium   | ![](/img/products/w5500/w5500_evb/icons/download.png) <a href="/img/products/s2e_module/WIZ510SR-RP/HW/Schematic & Artwork/WIZ510SR-RP_V100.ZIP" target="_blank">Download</a> | \-      |
-| :::         | :::  | PDF      | ![](/img/products/w5500/w5500_evb/icons/download.png) <a href="/img/products/s2e_module/WIZ510SR-RP/HW/Schematic & Artwork/WIZ510SR-RP_SCH_V100.PDF" target="_blank">Download</a> | \-      |
+| 1.0         | TTL  | Altium   | ![](/img/products/w5500/w5500_evb/icons/download.png) <a href="/img/products/s2e_module/WIZ510SR-RP/HW/Schematic & Artwork/WIZ510SR-RP_V100.zip" target="_blank">Download</a> | \-      |
+| :::         | :::  | PDF      | ![](/img/products/w5500/w5500_evb/icons/download.png) <a href="/img/products/s2e_module/WIZ510SR-RP/HW/Schematic & Artwork/WIZ510SR-RP_SCH_V100.pdf" target="_blank">Download</a> | \-      |
 
 ### WIZ5xxSR-RP-EVB (TBD)
 
@@ -275,8 +275,8 @@ When Module working well Blinking every 1.0s </td>
 
 | H/W version | Type | Filetype | Download Link                                                | Remarks |
 | ----------- | ---- | -------- | ------------------------------------------------------------ | ------- |
-| 1.0         | TTL  | Excel    | ![](/img/products/w5500/w5500_evb/icons/download.png) <a href="/img/products/s2e_module/WIZ510SR-RP/HW/PartList/WIZ510SR-RP_PL_V100.xlsx" target="_blank">Download</a> |         |
-| :::         | :::  | PDF      | ![](/img/products/w5500/w5500_evb/icons/download.png) <a href="/img/products/s2e_module/WIZ510SR-RP/HW/PartList/WIZ510SR-RP_PL_V100.PDF" target="_blank">Download</a> |         |
+| 1.0         | TTL  | Excel    | ![](/img/products/w5500/w5500_evb/icons/download.png) <a href="/img/products/s2e_module/WIZ510SR-RP/HW/PartList/WIZ510SR-RP_PL_V100.xls" target="_blank">Download</a> |         |
+| :::         | :::  | PDF      | ![](/img/products/w5500/w5500_evb/icons/download.png) <a href="/img/products/s2e_module/WIZ510SR-RP/HW/PartList/WIZ510SR-RP_PL_V100.pdf" target="_blank">Download</a> |         |
 
 ### WIZ5xxSR-RP-EVB (TBD)
 
@@ -397,6 +397,70 @@ When Module working well Blinking every 1.0s </td>
 
 ## Connector Specification
 
+
+
+
+### DB9M Serial Interface (J2)
+
+<img src="/img/products/s2e_module/WIZ510SR-RP/HW/Document/WIZ510SR-RP (J2-Pinmap).png" width="800" />
+
+<img src="/img/products/wiz750sr-100/datasheet/wiz750sr-100-evb_pinout.png" width="400" />
+
+| Pin Number | Signal | Description                  |
+| ---------- | ------ | ---------------------------- |
+| 1          | DCD    | NC                           |
+| 2          | RXD    | Receive Data                 |
+| 3          | TXD    | Transmit Data                |
+| 4          | DTR    | Data Terminal Ready          |
+| 5          | GND    | System Ground(Signal Ground) |
+| 6          | DSR    | Data Set Ready               |
+| 7          | RTS    | Request To Send              |
+| 8          | CTS    | Clear To Send                |
+| 9          | RI     | NC                           |
+
+-   RXD, TXD, GND: These are all you need if the device does not use
+    hardware handshaking.
+-   RXD, TXD, GND, RTS, CTS: These are the signals used when serial
+    device uses hardware handshaking.
+-   DTR, DSR: Not used
+
+<img src="/img/products/wiz750sr-100/datasheet/wiz750sr-100-serial_cable.png" width="600" />
+
+
+
+### 1x4 Download (J5)
+
+<img src="/img/products/s2e_module/WIZ510SR-RP/HW/Document/WIZ510SR-RP (J5-Pinmap).png" width="800" />
+
+<table>
+<thead>
+<tr class="header">
+<th>Pin Number</th>
+<th>Signal</th>
+<th>Description</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>1</td>
+<td>VCC</td>
+<td>System Power input (3.3V)</td>
+</tr>
+<tr class="even">
+<td>2</td>
+<td>USB_DP</td>
+<td>USB DP Signal input for RP2040</td>
+</tr>
+<tr class="odd">
+<td>3</td>
+<td>USB_DM</td>
+<td>USB DM Signal input for RP2040</td>
+</tr>
+</tbody>
+</table>
+
+
+
 ### 1x6 UART0, SWD (J1)
 
 <img src="/img/products/s2e_module/WIZ510SR-RP/HW/Document/WIZ510SR-RP (J1-Pinmap).png" width="800" />
@@ -443,35 +507,7 @@ When Module working well Blinking every 1.0s </td>
 </tbody>
 </table>
 
-
-
-### DB9M Serial Interface (J2)
-
-<img src="/img/products/s2e_module/WIZ510SR-RP/HW/Document/WIZ510SR-RP (J2-Pinmap).png" width="800" />
-
-<img src="/img/products/wiz750sr-100/datasheet/wiz750sr-100-evb_pinout.png" width="400" />
-
-| Pin Number | Signal | Description                  |
-| ---------- | ------ | ---------------------------- |
-| 1          | DCD    | NC                           |
-| 2          | RXD    | Receive Data                 |
-| 3          | TXD    | Transmit Data                |
-| 4          | DTR    | Data Terminal Ready          |
-| 5          | GND    | System Ground(Signal Ground) |
-| 6          | DSR    | Data Set Ready               |
-| 7          | RTS    | Request To Send              |
-| 8          | CTS    | Clear To Send                |
-| 9          | RI     | NC                           |
-
--   RXD, TXD, GND: These are all you need if the device does not use
-    hardware handshaking.
--   RXD, TXD, GND, RTS, CTS: These are the signals used when serial
-    device uses hardware handshaking.
--   DTR, DSR: Not used
-
-<img src="/img/products/wiz750sr-100/datasheet/wiz750sr-100-serial_cable.png" width="600" />
-
-
+-   J1 is not mounted
 
 
 
@@ -501,11 +537,9 @@ Active Low : Enter Boot mode</td>
 </tr>
 </tbody>
 </table>
-
-
 -   J3 is not mounted
 
-------------------------------------------------------------------------
+
 
 ### 1x2 FACT RST (J4)
 
@@ -517,45 +551,6 @@ Active Low : Enter Boot mode</td>
 | 2          | GND      | System Ground                                                |
 
 -   J4 is not mounted
-
-------
-
-### 1x4 Download (J5)
-
-<img src="/img/products/s2e_module/WIZ510SR-RP/HW/Document/WIZ510SR-RP (J5-Pinmap).png" width="800" />
-
-<table>
-<thead>
-<tr class="header">
-<th>Pin Number</th>
-<th>Signal</th>
-<th>Description</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>1</td>
-<td>VCC</td>
-<td>System Power input (3.3V)</td>
-</tr>
-<tr class="even">
-<td>2</td>
-<td>USB_DP</td>
-<td>USB DP Signal input for RP2040</td>
-</tr>
-<tr class="odd">
-<td>3</td>
-<td>USB_DM</td>
-<td>USB DM Signal input for RP2040</td>
-</tr>
-
-<tr class="even">
-<td>4</td>
-<td>GND</td>
-<td>System Ground</td>
-</tr>
-</tbody>
-</table>
 
 
 
