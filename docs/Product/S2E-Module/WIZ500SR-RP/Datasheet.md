@@ -1,6 +1,6 @@
 ---
 id: datasheet
-title: WIZ500SR-RP Datasheet
+title: Datasheet
 date: 2022-05-09
 
 ---

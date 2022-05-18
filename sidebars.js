@@ -480,6 +480,13 @@ module.exports = {
 						]
 					},
 					{
+						type:'category',
+						label:'WIZ505SR-RP',
+						items: [
+						'Product/S2E-Module/WIZ505SR-RP/datasheet',	
+						]
+					},
+					{
 						type: 'category',
 						label: 'WIZ510SSL',
 						link: {type: 'doc', id: 'Product/S2E-Module/WIZ510SSL/wiz510ssl'},
