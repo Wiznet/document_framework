@@ -33,8 +33,7 @@ via Ethernet network.**
   - Serial signals(UART or RS-232C)
     - WIZ500SR-RP module(UART): TXD, RXD, RTS, CTS
     - WIZ5xxSR-RP-EVB(RS-232C): TXD, RXD, RTS, CTS
-    - Optional DTR/DSR signals supported (Status pins or DTR/DSR pins
-      selectable)
+    - Optional DTR/DSR signals supported
   - WIZ500SR-RP has UART x 2, SWD x 1, Ethernet x 1
     - UART0, SWD for Debug and UART1, Ethernet for Data transceive
   - Separate **Data UART** and **Debug UART** port
@@ -91,6 +90,7 @@ Dure Core</td>
 <td>133Mhz maximum frequency<br />
 264KB on-chip SRAM<br />
 16KB on-chip ROM<br />
+2MB External ROM<br />
 2 × UART, 2 × SPI controllers, 2 × I2C controllers, 16 × PWM channels<br />
 1 × USB 1.1 controller and PHY, with host and device support<br />
 8 × Programmable I/O (PIO) state machines for custom peripheral support</td>
@@ -136,6 +136,7 @@ Flow control: None, RTS / CTS, XON / XOFF</td>
 </tr>
 </tbody>
 </table>
+
 
 
 
@@ -553,7 +554,8 @@ Low : Disconnect</td>
 <td>4</td>
 <td>BOOTSEL</td>
 <td>Active Low<br />
-Drive this pin Low and Power on(or reset) then RP2040 will be USB Mass Storage Device mode</td>
+Drive this pin Low and reset(or power on),then RP2040 will enter USB Mass Storage Device mode<br />
+Then RP2040 can be re-programming</td>
 </tr>
 <tr class="odd">
 <td>5</td>
@@ -569,20 +571,22 @@ Drive this pin Low and Power on(or reset) then RP2040 will be USB Mass Storage D
 <td>7</td>
 <td>BOOT MODE</td>
 <td>Boot Mode Select signal input<br />
-Active Low : Enter Boot mode</td>
+Active Low<br />
+Drive this pin low and reset(or power on),then WIZ500SR-RP will enter Boot mode</td>
 </tr>
 <tr class="even">
 <td>8</td>
 <td>FACT_RST</td>
 <td>Factory Reset Signal input<br />
-Drive this pin Low 5.0s Module will be Factory Reset</td>
+Drive this pin to Low for at least 5.0s then WIZ500SR-RP will be reset to factory settings</td>
 </tr>
 <tr class="odd">
 <td>9</td>
 <td>HW_TRIG</td>
 <td>Active Low<br />
 High : Gateway Mode<br />
-Low : AT Command Mode</td>
+Low : AT Command Mode<br />
+Changes will be reflected after reset</td>
 </tr>
 <tr class="even">
 <td>10</td>
@@ -601,6 +605,7 @@ Low : AT Command Mode</td>
 </tr>
 </tbody>
 </table>
+
 
 
 ### 1x6 UART0, SWD (J1)
@@ -634,12 +639,12 @@ Low : AT Command Mode</td>
 <tr class="even">
 <td>4</td>
 <td>SWCLK</td>
-<td>SWD CLK</td>
+<td>SWDCLK</td>
 </tr>
 <tr class="odd">
 <td>5</td>
 <td>SWDIO</td>
-<td>SWD IO</td>
+<td>SWDIO</td>
 </tr>
 <tr class="even">
 <td>6</td>
@@ -670,8 +675,8 @@ Low : AT Command Mode</td>
 <td>1</td>
 <td>BOOTSEL</td>
 <td>Active Low<br />
-Drive this pin Low and Power on(or reset) then RP2040 will be USB Mass Storage Device mode</td>
-</tr>
+Drive this pin Low and reset(or power on),then RP2040 will enter USB Mass Storage Device mode<br />
+Then RP2040 can be re-programming</td>
 <tr class="even">
 <td>2</td>
 <td>GND</td>

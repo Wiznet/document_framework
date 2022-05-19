@@ -92,6 +92,7 @@ Dure Core</td>
 <td>133Mhz maximum frequency<br />
 264KB on-chip SRAM<br />
 16KB on-chip ROM<br />
+2MB External ROM<br />
 2 × UART, 2 × SPI controllers, 2 × I2C controllers, 16 × PWM channels<br />
 1 × USB 1.1 controller and PHY, with host and device support<br />
 8 × Programmable I/O (PIO) state machines for custom peripheral support</td>
@@ -137,6 +138,7 @@ Flow control: None, RTS / CTS, XON / XOFF</td>
 </tr>
 </tbody>
 </table>
+
 
 
 
@@ -258,8 +260,8 @@ When Module working well Blinking every 1.0s </td>
 
 | H/W version | Type | Filetype | Download Link                                                | Remarks |
 | ----------- | ---- | -------- | ------------------------------------------------------------ | ------- |
-| 1.0         | TTL  | Altium   | ![](/img/products/w5500/w5500_evb/icons/download.png) <a href="/img/products/s2e_module/WIZ505SR-RP/HW/Schematic & Artwork/WIZ505SR-RP_SCH_V100.ZIP" target="_blank">Download</a> | \-      |
-| :::         | :::  | PDF      | ![](/img/products/w5500/w5500_evb/icons/download.png) <a href="/img/products/s2e_module/WIZ505SR-RP/HW/Schematic & Artwork/WIZ505SR-RP_SCH_V100.PDF" target="_blank">Download</a> | \-      |
+| 1.0         | TTL  | Altium   | ![](/img/products/w5500/w5500_evb/icons/download.png) <a href="/img/products/s2e_module/WIZ505SR-RP/HW/Schematic & Artwork/WIZ505SR-RP_SCH_V100.zip" target="_blank">Download</a> | \-      |
+| :::         | :::  | PDF      | ![](/img/products/w5500/w5500_evb/icons/download.png) <a href="/img/products/s2e_module/WIZ505SR-RP/HW/Schematic & Artwork/WIZ505SR-RP_SCH_V100.pdf" target="_blank">Download</a> | \-      |
 
 ### WIZ5xxSR-RP-EVB (TBD)
 
@@ -277,7 +279,7 @@ When Module working well Blinking every 1.0s </td>
 | H/W version | Type | Filetype | Download Link                                                | Remarks |
 | ----------- | ---- | -------- | ------------------------------------------------------------ | ------- |
 | 1.0         | TTL  | Excel    | ![](/img/products/w5500/w5500_evb/icons/download.png) <a href="/img/products/s2e_module/WIZ505SR-RP/HW/PartList/WIZ505SR-RP_PL_V100.xlsx" target="_blank">Download</a> |         |
-| :::         | :::  | PDF      | ![](/img/products/w5500/w5500_evb/icons/download.png) <a href="/img/products/s2e_module/WIZ505SR-RP/HW/PartList/WIZ505SR-RP_PL_V100.PDF" target="_blank">Download</a> |         |
+| :::         | :::  | PDF      | ![](/img/products/w5500/w5500_evb/icons/download.png) <a href="/img/products/s2e_module/WIZ505SR-RP/HW/PartList/WIZ505SR-RP_PL_V100.pdf" target="_blank">Download</a> |         |
 
 ### WIZ5xxSR-RP-EVB (TBD)
 
@@ -465,7 +467,7 @@ Active Low</td>
 <td>6</td>
 <td>FACT RST</td>
 <td>Factory Reset Signal input<br />
-Drive this pin Low 5.0s Module will be Factory Reset </td>
+Drive this pin to Low for at least 5.0s then WIZ505SR-RP will be reset to factory settings</td>
 </tr>
 <tr class="odd">
 <td>7</td>
@@ -477,8 +479,9 @@ Drive this pin Low 5.0s Module will be Factory Reset </td>
 <td>HW_TRIG</td>
 <td>HW TRIG signal input<br />
 Active Low<br />
-Low : AT command<br />
-High : Gateway mode</td>
+High : Gateway Mode<br />
+Low : AT Command Mode<br />
+Changes will be reflected after reset</td>
 </tr>
 <tr class="odd">
 <td>9</td>
@@ -489,7 +492,8 @@ High : Gateway mode</td>
 <td>10</td>
 <td>BOOTSEL</td>
 <td>Active Low<br />
-Drive this pin Low and Power on(or reset) then RP2040 will be USB Mass Storage Device mode</td>
+Drive this pin Low and reset(or power on),then RP2040 will enter USB Mass Storage Device mode<br />
+Then RP2040 can be re-programming</td>
 </tr>
 <tr class="odd">
 <td>11</td>
@@ -513,6 +517,7 @@ Drive this pin Low and Power on(or reset) then RP2040 will be USB Mass Storage D
 </tr>
 </tbody>
 </table>
+
 
 
 ### 1x6 UART0, SWD (J1)
@@ -546,12 +551,12 @@ Drive this pin Low and Power on(or reset) then RP2040 will be USB Mass Storage D
 <tr class="even">
 <td>4</td>
 <td>SWCLK</td>
-<td>SWD CLK</td>
+<td>SWDCLK</td>
 </tr>
 <tr class="odd">
 <td>5</td>
 <td>SWDIO</td>
-<td>SWD IO</td>
+<td>SWDIO</td>
 </tr>
 <tr class="even">
 <td>6</td>
@@ -582,7 +587,8 @@ Drive this pin Low and Power on(or reset) then RP2040 will be USB Mass Storage D
 <td>1</td>
 <td>BOOTMODE</td>
 <td>Boot Mode Select signal input<br />
-Active Low : Enter Boot mode</td>
+Active Low<br />
+Drive this pin low and reset(or power on),then WIZ505SR-RP will enter Boot mode</td>
 </tr>
 <tr class="even">
 <td>2</td>
@@ -591,6 +597,7 @@ Active Low : Enter Boot mode</td>
 </tr>
 </tbody>
 </table>
+
 **J3 is not mounted connector**
 
 
@@ -611,7 +618,9 @@ Active Low : Enter Boot mode</td>
 
 <img src="/img/products/s2e_module/WIZ505SR-RP/HW/Document/WIZ505SR-RP (BOOT).png" width="800" />
 
--   Push SW2 and Power on(or reset) then RP2040 will be USB Mass Storage Device mode 
+- Push SW2 and reset(or power on),then RP2040 will enter USB Mass Storage Device mode
+
+  Then RP2040 can be re-programming
 
 
 

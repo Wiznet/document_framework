@@ -82,7 +82,10 @@ interfaces.
 | [WIZ125SR](WIZ125SR/wiz125sr.md)<br />not recommended for new design | ![WIZ125SR](/img/products/wiz125sr/125.jpg) | 2xRS32 DB-9 | RJ-45 | N/A | 0 ~ 70 | 60x89x18 | N/A |
 | [WIZ140SR](WIZ140SR/wiz140sr.md) | ![WIZ140SR](/img/products/wiz140sr/wiz140sr-web-2.jpg) | 4xTTL(3.3V) | Transformer | 1x14 2.5mm | 0 ~ 70 | 48x36x16 | [	WIZ140SR-EVB](WIZ140SR/wiz140sr-evb.md) |
 | [WIZ145SR](WIZ145SR/wiz145sr.md) | ![WIZ145SR](/img/products/wiz145sr/wiz145sr-2-300.jpg) | 4xTTL(3.3V) | RJ-45 | 1x14, 2x14 | 0 ~ 70 | 48x61x25 | [WIZ145SR-EVB](WIZ145SR/wiz145sr-evb.md) |
-| [W7100A-S2E](./../Pre-programmed-MCU/W7500P-S2E/W7500-P-S2E-EN.md) | | Serial to Ethernet Chip (WIZ107SR or WIZ108SR firmware programmed) |
+| [W7100A-S2E](./../Pre-programmed-MCU/W7500P-S2E/W7500-P-S2E-EN.md) | | Serial to Ethernet Chip (WIZ107SR or WIZ108SR firmware programmed) ||||||
+| [WIZ500SR-RP](WIZ500SR-RP/Datasheet.md) | | 1xTTL(3.3V) |Transformer|1x12<br />2.0mm<br />Pin Header  x 3ea|-20 ~ 85|||
+| [WIZ505SR-RP](WIZ505SR-RP/Datasheet.md) | | 1xTTL(3.3V) |RJ-45|2x7<br />2.54mm<br />Pin Header<br />x 1ea|-20 ~ 85|||
+| [WIZ510SR-RP](WIZ510SR-RP/Datasheet.md) | | 1xTTL(3.3V) |RJ-45|1x4<br />2.54mm<br />Pin Header<br />x 1ea|-20 ~ 85|||
 
 -----
 
