@@ -1,6 +1,6 @@
 ---
 id: wizfi630a
-title: WizFi630A (Discontinued)
+title: WizFi630A
 date: 2020-05-13
 ---
 
