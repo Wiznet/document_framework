@@ -274,7 +274,7 @@ When Module working well Blinking every 1.0s </td>
 
 | H/W version | Type | Filetype | Download Link                                                | Remarks |
 | ----------- | ---- | -------- | ------------------------------------------------------------ | ------- |
-| 1.0         | TTL  | Excel    | ![](/img/products/w5500/w5500_evb/icons/download.png) <a href="/img/products/s2e_module/WIZ500SR-RP/HW/PartList/WIZ500SR-RP_PL_V100.xls" target="_blank">Download</a> |         |
+| 1.0         | TTL  | Excel    | ![](/img/products/w5500/w5500_evb/icons/download.png) <a href="/img/products/s2e_module/WIZ500SR-RP/HW/PartList/WIZ500SR-RP_PL_V100.xlsx" target="_blank">Download</a> |         |
 | :::         | :::  | PDF      | ![](/img/products/w5500/w5500_evb/icons/download.png) <a href="/img/products/s2e_module/WIZ500SR-RP/HW/PartList/WIZ500SR-RP_PL_V100.pdf" target="_blank">Download</a> |         |
 
 ### WIZ5xxSR-RP-EVB (TBD)
