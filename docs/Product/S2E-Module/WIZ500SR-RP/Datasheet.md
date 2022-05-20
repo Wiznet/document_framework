@@ -653,7 +653,6 @@ Changes will be reflected after reset</td>
 </tr>
 </tbody>
 </table>
-
 **J1 is not mounted connector**
 
 
@@ -662,28 +661,10 @@ Changes will be reflected after reset</td>
 
 <img src="/img/products/s2e_module/WIZ500SR-RP/HW/Document/WIZ500SR-RP (J2-Pinmap).png" width="800" />
 
-<table>
-<thead>
-<tr class="header">
-<th>Pin Number</th>
-<th>Signal</th>
-<th>Description</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>1</td>
-<td>BOOTSEL</td>
-<td>Active Low<br />
-Drive this pin Low and reset(or power on),then RP2040 will enter USB Mass Storage Device mode<br />
-Then RP2040 can be re-programming</td>
-<tr class="even">
-<td>2</td>
-<td>GND</td>
-<td>System Ground</td>
-</tr>
-</tbody>
-</table>
+| Pin Number | Signal  | Description                                                  |
+| ---------- | ------- | ------------------------------------------------------------ |
+| 1          | BOOTSEL | Active Low<br />Drive this pin Low and reset(or power on),then RP2040 will enter USB Mass Storage Device mode<br />Then RP2040 can be re-programming |
+| 2          | GND     | System Ground                                                |
 
 **J2 is not mounted connector**
 
