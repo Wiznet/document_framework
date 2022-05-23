@@ -691,7 +691,7 @@ Changes will be reflected after reset</td>
 
 -   WIZ500SR-RP Rev1.0 Dimension :
     -   50mm x 30mm x 1.6mm ( PCB board size )
-    -   50mm x 30mm x TBDmm ( Included part size )
+    -   50mm x 30mm x 5.7mm ( Included part size )
 
 <img src="/img/products/s2e_module/WIZ500SR-RP/HW/Document/WIZ500SR-RP PCB TOP.png" width="700" />
 

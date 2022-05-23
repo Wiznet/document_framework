@@ -623,7 +623,7 @@ Drive this pin low and reset(or power on),then WIZ510SR-RP will enter Boot mode<
 
 -   WIZ510SR-RP Rev1.0 Dimension :
     -   63mm x 45mm x 1.6mm ( PCB board size )
-    -   TBDmm x TBDmm x TBDmm ( Included part size )
+    -   76mm x 45mm x 15mm ( Included part size )
 
 <img src="/img/products/s2e_module/WIZ510SR-RP/HW/Document/WIZ510SR-RP PCB TOP.png" width="700" />
 
