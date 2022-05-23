@@ -22,10 +22,12 @@ date: 2020-04-08
 
   - [Setting up a KEIL uvision5 Development Environment](./mdk-arm.md)
       - 대표적인 Cortex-M 시리즈 개발 환경인 Arm KEIL uvision 5 개발 환경 구축 방법에 대해 소개합니다.
-
+      - 
+<!-- 
 **StablE Contest 참가자를 위한 KEIL 라이선스 제공 안내**  
 WIZnet에서는 Hackster.io에서 개최되는 [Serial to Ethernet, StablE](https://www.hackster.io/contests/wiznet) 컨테스트(2018 3/16 \~ 6/30) 참가자 중, 신청자를 대상으로 Arm에서 제공하는 Time-limited KEIL 라이선스를 발급해 드릴 예정입니다. 라이선스 신청 방법은 2018년 4월 중에 [CONTEST BRIEF](https://www.hackster.io/contests/wiznet)에 안내됩니다.
-
+ -->
+ 
 <!--
 ### Eclipse IDE with GNU Arm toolchain
 
