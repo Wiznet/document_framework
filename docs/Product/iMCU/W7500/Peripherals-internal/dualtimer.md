@@ -10,16 +10,16 @@ The dual timer consists two programmable 32-bit or 16-bit Free-running counters(
 
 ## Features 
 
-  *  One dual timer has two Free-Running Counters(FRCs).
-  *	One dual timer has one interrupt handler and one clock.
-  *	One dual timer has two clock enable signals.
-  *	There are 2 dual timers.
-  *	A 32-bit or a 16-bit down counter.
-  *	One of the following repetition modes: one-shot and wrapping mode.
-  *	One of the following wrapping modes: Free-running and periodic mode.
-  *	There is prescaler that can divide down the clock rate by 1, 16, or 256.
+* One dual timer has two Free-Running Counters(FRCs).
+*	One dual timer has one interrupt handler and one clock.
+*	One dual timer has two clock enable signals.
+*	There are 2 dual timers.
+*	A 32-bit or a 16-bit down counter.
+*	One of the following repetition modes: one-shot and wrapping mode.
+*	One of the following wrapping modes: Free-running and periodic mode.
+*	There is prescaler that can divide down the clock rate by 1, 16, or 256.
 
-![](/img/products/w7500p/peripheral/dualtimer_block_diagram.jpg"Figure 1 DualTimer block diagram")
+![Figure 1 DualTimer block diagram](/img/products/w7500p/peripheral/dualtimer_block_diagram.jpg)
 
 ## Functional description
 
@@ -84,9 +84,10 @@ Otherwise, after reaching a zero count, if the timer is operating in free-runnin
 
 ### How to set the dual timers
 
-![](/img/products/w7500p/peripheral/dualtimer_flow_chart.jpg "Figure 2 The DualTimer setting flow")
+!["Figure 2 The DualTimer setting flow"](/img/products/w7500p/peripheral/dualtimer_flow_chart.jpg)
 
 ------------------------------
 
 ## Peripheral_Examples
-- [Dual Timer Timerun example](timerrun.md)
+
+- [Dual Timer Timerun example](./timerrun.md)
