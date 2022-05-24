@@ -7,6 +7,8 @@ date: 2022-05-09
 
 ## Overview
 
+<img src="https://github.com/Wiznet/Hardware-Files-of-WIZnet/blob/4d4c49d044e6d49c58748386eb2b5292ab607564/04_Serial_to_Ethernet_Module/WIZ500SR-RP/Pictures/WIZ500SR-V100%202.png" width="800" />
+
 WIZ500SR-RP is a compact sized serial to Ethernet module using the
 RP2040 MCU with W5100S Ethernet Chip.
 WIZ500SR-RP is a protocol converter that transmits
@@ -257,7 +259,7 @@ When Module working well Blinking every 1.0s </td>
 
 | H/W version | Type | Filetype | Download Link                                                | Remarks |
 | ----------- | ---- | -------- | ------------------------------------------------------------ | ------- |
-| 1.0         | TTL  | Altium   | ![](/img/products/w5500/w5500_evb/icons/download.png) <a href="/img/products/s2e_module/WIZ500SR-RP/HW/Schematic & Artwork/WIZ500SR-RP_SCH_V100.zip" target="_blank">Download</a> | \-      |
+| 1.0         | TTL  | Altium   | ![](/img/products/w5500/w5500_evb/icons/download.png) <a href="https://github.com/Wiznet/Hardware-Files-of-WIZnet/blob/4d4c49d044e6d49c58748386eb2b5292ab607564/04_Serial_to_Ethernet_Module/WIZ500SR-RP/WIZ500SR-RP_V100/Schematic/WIZ500SR-RP_SCH_V100.zip">Download</a> | \-      |
 | :::         | :::  | PDF      | ![](/img/products/w5500/w5500_evb/icons/download.png) <a href="/img/products/s2e_module/WIZ500SR-RP/HW/Schematic & Artwork/WIZ500SR-RP_SCH_V100.pdf" target="_blank">Download</a> | \-      |
 
 ### WIZ5xxSR-RP-EVB (TBD)
