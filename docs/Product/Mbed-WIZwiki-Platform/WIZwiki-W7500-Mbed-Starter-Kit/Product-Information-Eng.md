@@ -75,8 +75,8 @@ This tutorial helps user experiment mbed examples with on-line compiler.
 
 These documents are available at the ARM mbed website.
 
-  - 🌎[mbed developer site](https://developer.mbed.org)
-  - 🌎[mbed WIZwiki-W7500 page](https://developer.mbed.org/platforms/WIZwiki-W7500/)
+  - 🌎[mbed developer site](https://os.mbed.com)
+  - 🌎[mbed WIZwiki-W7500 page](https://os.mbed.com/platforms/WIZwiki-W7500/)
 
 These documents are available at WIZnet’s website.
 

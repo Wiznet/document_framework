@@ -36,7 +36,7 @@ ADC를 이용해서 아날로그 온도 센서 값을 읽어내는 예제이다.
 
 아래 페이지를 열고 "Import this program" 으로 프로그램을 불러와 컴파일 한다.
 
-🌎https://developer.mbed.org/teams/IOP/code/Temp36_HelloWorld_WIZwiki-W7500/
+🌎https://os.mbed.com/teams/IOP/code/Temp36_HelloWorld_WIZwiki-W7500/
 
 또는, mbed 환경에서 main.c에 아래 code를 복사해 붙여넣기 한 후 컴파일한다.
 

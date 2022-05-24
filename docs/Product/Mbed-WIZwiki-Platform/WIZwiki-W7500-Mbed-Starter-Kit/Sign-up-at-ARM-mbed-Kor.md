@@ -5,7 +5,7 @@ date: 2020-04-08
 ---
 
 mbed.org 에 접속하면 아래와 같은 화면이 나온다. 화면에서 빨간색 표시된 부분 (Developer Site)을 클릭해서
-🌎[mbed 개발자 사이트](https://developer.mbed.org)로 이동한다.
+🌎[mbed 개발자 사이트](https://os.mbed.com)로 이동한다.
 
 ![](/img/products/wizwiki_w7500_starter_kit_temp/tutorial_kr/100_mbed_org.png)
 

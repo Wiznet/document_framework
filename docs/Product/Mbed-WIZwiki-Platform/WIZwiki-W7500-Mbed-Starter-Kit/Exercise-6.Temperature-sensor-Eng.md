@@ -39,7 +39,7 @@ Here is an example code.
 
 Open the page below and compile by importing the program with "Import this program".
 
-🌎https://developer.mbed.org/teams/IOP/code/Temp36_HelloWorld_WIZwiki-W7500/
+🌎https://os.mbed.com/teams/IOP/code/Temp36_HelloWorld_WIZwiki-W7500/
 
 Or, compile after copying and pasting the following code to main.c in the mbed environment.
 

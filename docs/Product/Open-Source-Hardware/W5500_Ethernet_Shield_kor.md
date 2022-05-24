@@ -19,11 +19,11 @@ Platform과 ARM mbed Platform에 호환되어 사용됩니다.
 ## Available Board List
 
   - ARM mbed Board
-      - [ARM mbed Platform](http://developer.mbed.org/platforms/) : ARM
+      - [ARM mbed Platform](http://os.mbed.com/platforms/) : ARM
         mbed platform Site
-      - [FRDM-KL25Z](http://developer.mbed.org/platforms/KL25Z/) :
+      - [FRDM-KL25Z](http://os.mbed.com/platforms/KL25Z/) :
         Freescale
-      - [NXP LPC800-MAX](http://developer.mbed.org/platforms/NXP-LPC800-MAX/)
+      - [NXP LPC800-MAX](http://os.mbed.com/platforms/NXP-LPC800-MAX/)
         : NXP
   - Arduino Board
       - [Arduino board (e.g. the Uno, Mega, Due)](http://www.arduino.cc/en/Main/Products)

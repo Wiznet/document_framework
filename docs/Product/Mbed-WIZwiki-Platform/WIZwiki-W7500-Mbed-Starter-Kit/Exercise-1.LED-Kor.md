@@ -16,7 +16,7 @@ mbed 회원 가입을 하는 방법을 알 수 있다. mbed 플랫폼 보드를 
 
 ## mbed 사이트 로그인 하기
 
-mbed 회원 가입이 되어 있으면 🌎[mbed 개발자 사이트](https://developer.mbed.org)로 로그인 한다.
+mbed 회원 가입이 되어 있으면 🌎[mbed 개발자 사이트](https://os.mbed.com)로 로그인 한다.
 
 mbed 회원 가입이 안 되어 있는 경우엔 아래 페이지를 참고해 회원 가입을 한다.
 

@@ -22,7 +22,7 @@ CMSIS-DAP Interface of WIZwiKI-W7500 as shown in the photo below.
 
 The driver could be found on the LINK below, click on the "Download
 latest driver" can download the latest driver.  
-🌎[ARM mbed Window serial configuration PAGE](http://developer.mbed.org/handbook/Windows-serial-configuration)  
+🌎[ARM mbed Window serial configuration PAGE](http://os.mbed.com/handbook/Windows-serial-configuration)  
 If the driver is successfully installed, serial port that is created as
 "mbed Seral Port (COMn)" in Device Manager.
 

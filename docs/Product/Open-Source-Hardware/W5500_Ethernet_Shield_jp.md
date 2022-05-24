@@ -18,11 +18,11 @@ mbedのプラットフォームと互換して使用されます。
 ## 使用可能なボードリスト
 
   - ARM mbed ボード
-      - [ARM mbed Platform](http://developer.mbed.org/platforms/) : ARM
+      - [ARM mbed Platform](http://os.mbed.com/platforms/) : ARM
         mbed platform Site
-      - [FRDM-KL25Z](http://developer.mbed.org/platforms/) : Freescale
+      - [FRDM-KL25Z](http://os.mbed.com/platforms/) : Freescale
       - [NXP
-        LPC800-MAX](http://developer.mbed.org/platforms/NXP-LPC800-MAX/)
+        LPC800-MAX](http://os.mbed.com/platforms/NXP-LPC800-MAX/)
         : NXP
   - Arduino ボード
       - [Arduino board (e.g. the Uno, Mega,

@@ -146,7 +146,7 @@ years. W7500P best suits users who need Internet connectivity.
 
 **Serial Port Driver**
 
-   * 🌎[ARM mbed Window serial configuration PAGE ](http://developer.mbed.org/handbook/Windows-serial-configuration)
+   * 🌎[ARM mbed Window serial configuration PAGE ](http://os.mbed.com/handbook/Windows-serial-configuration)
 
 **W7500 ISP Program**
 

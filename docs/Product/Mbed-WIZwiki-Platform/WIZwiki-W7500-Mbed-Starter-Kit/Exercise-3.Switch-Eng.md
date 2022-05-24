@@ -77,7 +77,7 @@ When you release the button, the LED turns off.
 
 To learn Class and API like the DigitalOut and DigitalIn parts of the
 above example code, refer to the mbed Handbook page.
-🌎https://developer.mbed.org/handbook/Homepage
+🌎https://os.mbed.com/handbook/Homepage
 
 
 ## Related Links

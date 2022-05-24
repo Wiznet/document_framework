@@ -19,7 +19,7 @@ for the platform board.
 
 ## Log on to mbed website
 
-Please log on to 🌎[mbed website](https://developer.mbed.org)mbed website
+Please log on to 🌎[mbed website](https://os.mbed.com)mbed website
 for further testing. If you haven’t signed up yet, please sign up.
 [Sign-up at ARM mbed Developer Site](./Sign-up-at-ARM-mbed-Eng.md)
 

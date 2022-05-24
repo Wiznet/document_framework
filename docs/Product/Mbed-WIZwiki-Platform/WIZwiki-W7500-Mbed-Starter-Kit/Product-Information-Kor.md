@@ -75,8 +75,8 @@ mbed 의 예제와 온라인 컴파일러를 이용해 실습해 볼 수 있는 
 
 ARM mbed 사이트 자료들이다.
 
-  - 🌎[mbed 개발자 사이트](https://developer.mbed.org)
-  - 🌎[mbed WIZwiki-W7500 페이지](https://developer.mbed.org/platforms/WIZwiki-W7500/)
+  - 🌎[mbed 개발자 사이트](https://os.mbed.com)
+  - 🌎[mbed WIZwiki-W7500 페이지](https://os.mbed.com/platforms/WIZwiki-W7500/)
 
 위즈네트에서 운영하는 위즈위키 페이지의 자료들이다.
 

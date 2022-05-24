@@ -54,7 +54,7 @@ WIZwiki 보드를 USB 케이블로 연결한다.
 
 아래 페이지의 예제 코드를 사용한다.
 
-🌎https://developer.mbed.org/teams/WIZnet/code/TCPEchoServer-WIZwiki-W7500/?platform=WIZwiki-W7500
+🌎https://os.mbed.com/teams/WIZnet/code/TCPEchoServer-WIZwiki-W7500/?platform=WIZwiki-W7500
 
 아래 그림에서 빨간색 부분인 "Import this program" 부분을 클릭한다.
 
@@ -94,12 +94,12 @@ Client로 보낸다. 아래 그림에서 Loopback 된 메시지를 확인한다.
 
 아래에 위즈네트 제품에 사용할 mbed 라이브러리와 예제들이 있다.
 
-  - 🌎[WIZnet 팀 페이지](https://developer.mbed.org/teams/WIZnet/)
+  - 🌎[WIZnet 팀 페이지](https://os.mbed.com/teams/WIZnet/)
 
 아래에 위즈네트의 Hardware TCP/IP chip (W5500) 과 WIZnet TCP/IP Offload Engine
 (W7500)을 위한 mbed 라이브러리가 있다.
 
-  - 🌎[WIZnetInterface 페이지](https://developer.mbed.org/teams/WIZnet/code/WIZnetInterface/)
+  - 🌎[WIZnetInterface 페이지](https://os.mbed.com/teams/WIZnet/code/WIZnetInterface/)
     
 
 ## 관련 링크

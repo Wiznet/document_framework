@@ -59,7 +59,7 @@ and the WIZwiki board with USB cable.
 ### Example Code
 
 Use the example code in the page below.
-🌎https://developer.mbed.org/teams/WIZnet/code/TCP_LED_Control-WIZwiki-W7500/
+🌎https://os.mbed.com/teams/WIZnet/code/TCP_LED_Control-WIZwiki-W7500/
 
 ### How to run and test result
 
@@ -120,12 +120,12 @@ Check the LED light on the blue circle turns off.
 The WIZnet team page in the ARM mbed provides mbed libraries and
 examples for WIZnet products.
 
-  - 🌎[WIZnet Team page](https://developer.mbed.org/teams/WIZnet/)
+  - 🌎[WIZnet Team page](https://os.mbed.com/teams/WIZnet/)
 
 There are mbed libraries below which are used for Hardware TCP/IP chip
 (W5500) and WIZnet TCP/IP Offload Engine (W7500).
 
-  - 🌎[WIZnetInterface page](https://developer.mbed.org/teams/WIZnet/code/WIZnetInterface/)
+  - 🌎[WIZnetInterface page](https://os.mbed.com/teams/WIZnet/code/WIZnetInterface/)
     
 
 ## Related Links
