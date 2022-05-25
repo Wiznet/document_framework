@@ -44,11 +44,12 @@ module.exports = {
       //apiKey: 'd2ede60bed9975d4b60dd5436896fe91',
       //indexName: 'wiznet',
              // Optional: see doc section bellow
-      contextualSearch: true,
+     // contextualSearch: true,
 
        // Optional: Algolia search parameters
-      searchParameters: {},
+      //searchParameters: {},
        //inputSelector: 'I',
+      //algoliaOptions: {'facetFilters': ["type:content"] },
        //... other Algolia params
      },
 
