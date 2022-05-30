@@ -2502,6 +2502,64 @@ Return value</th>
 
 
 
+### User I/O Settings
+
+
+
+-----
+
+#### CA - CD
+
+-----
+
+  - **Format:** `Cx<Parameter>[CR][LF] (CA ~ CD)`
+
+  - **Meaning:** User I/O pin setting (type / direction)
+
+  - **Command Type:** Read / Write
+
+  - **Parameter / Return Type:** Number (0 ~ 2)
+
+  - **Parameter / Return Value:**
+
+<table>
+<thead>
+<tr class="header">
+<th>Parameter / Return value</th>
+<th>I/O Setting</th>
+<th>Remarks</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>0</td>
+<td>Digital input</td>
+<td>-</td>
+</tr>
+<tr class="even">
+<td>1</td>
+<td>Digital output</td>
+<td>-</td>
+</tr>
+<tr class="odd">
+<td>2</td>
+<td>Analog input</td>
+<td>-</td>
+</tr>
+</tbody>
+</table>
+
+  - **Response**
+
+	**Without Parameter (Get)**
+    - In ASCII: `CA2\r\n` `CB0\r\n`
+
+	**With Parameter (Set)**
+    - No response
+    - Change user I/Os setting
+
+
+
 ### Status I/O
 
 

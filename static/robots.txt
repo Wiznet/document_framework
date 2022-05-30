@@ -1,5 +1,0 @@
-# Algolia-Crawler-Verif: 6BF6FB587B8CF71D
-
-User-agent: *
-Allow: /
-Sitemap: https://docs.wiznet.io/sitemap.xml
