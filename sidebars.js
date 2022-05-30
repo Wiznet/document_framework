@@ -456,45 +456,46 @@ module.exports = {
 			},
 			{
 				type: 'category',
-				label: 'WIZ5xx Series',
-				items:[
+				label: 'WIZ5xxSR-RP Series',
+				items: [
 				{
 					type: 'category',
-					label: 'WIZ5xxSR-RP Series',
+					label: 'Common docs for WIZ5xxSR-RP',
 					items: [
-					{
-						type: 'category',
-						label: 'Common docs for WIZ5xxSR-RP',
-						items: [
-						'Product/S2E-Module/WIZ5xxSR-RP-Series/command_manual',
-						]
-					},
-					{
-						type:'category',
-						label:'WIZ500SR-RP',
-						link: {type: 'doc', id: 'Product/S2E-Module/WIZ5xxSR-RP-Series/WIZ500SR-RP/overview'},
-						items: [
-						'Product/S2E-Module/WIZ5xxSR-RP-Series/WIZ500SR-RP/datasheet',
-					]					
-					},
-					{
-						type:'category',
-						label:'WIZ505SR-RP',
-						link: {type: 'doc', id: 'Product/S2E-Module/WIZ5xxSR-RP-Series/WIZ505SR-RP/overview'},
-						items: [
-						'Product/S2E-Module/WIZ5xxSR-RP-Series/WIZ505SR-RP/datasheet'
-						]
-					},
-					{
-						type:'category',
-						label:'WIZ510SR-RP',
-						link: {type: 'doc', id: 'Product/S2E-Module/WIZ5xxSR-RP-Series/WIZ510SR-RP/overview'},
-						items: [
-						'Product/S2E-Module/WIZ5xxSR-RP-Series/WIZ510SR-RP/datasheet'
-						]
-					}					
+					'Product/S2E-Module/WIZ5xxSR-RP-Series/command_manual',
 					]
 				},
+				{
+					type:'category',
+					label:'WIZ500SR-RP',
+					link: {type: 'doc', id: 'Product/S2E-Module/WIZ5xxSR-RP-Series/WIZ500SR-RP/overview'},
+					items: [
+					'Product/S2E-Module/WIZ5xxSR-RP-Series/WIZ500SR-RP/datasheet',
+				]					
+				},
+				{
+					type:'category',
+					label:'WIZ505SR-RP',
+					link: {type: 'doc', id: 'Product/S2E-Module/WIZ5xxSR-RP-Series/WIZ505SR-RP/overview'},
+					items: [
+					'Product/S2E-Module/WIZ5xxSR-RP-Series/WIZ505SR-RP/datasheet'
+					]
+				},
+				{
+					type:'category',
+					label:'WIZ510SR-RP',
+					link: {type: 'doc', id: 'Product/S2E-Module/WIZ5xxSR-RP-Series/WIZ510SR-RP/overview'},
+					items: [
+					'Product/S2E-Module/WIZ5xxSR-RP-Series/WIZ510SR-RP/datasheet'
+					]
+				}					
+				]
+			},
+			{
+				type: 'category',
+				label: 'WIZ5xx Series',
+				items:[
+				
 //				{
 //					type:'category',
 //					label:'WIZ500SR-RP',
