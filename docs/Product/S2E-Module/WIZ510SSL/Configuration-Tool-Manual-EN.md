@@ -427,30 +427,10 @@ section are available below.
 
 #### 1\) Status & Serial Interface
 
-<table>
-<thead>
-<tr class="header">
-<th>Status[1]</th>
-<th>Shows the operational status of the device<br />
-<br />
-- <strong>BOOT</strong>: Settings and firmware upload is possible during this status<br />
-- <strong>OPEN</strong>: Status before TCP connection<br />
-- <strong>CONNECT</strong>: Status after TCP connection<br />
-- <strong>UPGRADE</strong>: Firmware update or DHCP IP allocation during this status<br />
-- <strong>ATMODE</strong>: Serial AT command mode.<br />
-- <strong>UDP</strong>: UDP mode</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>Serial interface[2]</td>
-<td>Shows the types of UART interfaces.<br />
-<br />
-- <strong>RS-232/TTL</strong>: WIZ510SSL hardware TTL or RS-232 version.<br />
-- <strong>RS-422/485</strong>: WIZ510SSL hardware RS-422/485 version.</td>
-</tr>
-</tbody>
-</table>
+| Item  | Description |
+| ----- | ----------- |
+| Status[1] | Shows the operational status of the device<br />- <strong>BOOT</strong>: Settings and firmware upload is possible during this status<br />- <strong>OPEN</strong>: Status before TCP connection<br />- <strong>CONNECT</strong>: Status after TCP connection<br />- <strong>UPGRADE</strong>: Firmware update or DHCP IP allocation during this status<br />- <strong>ATMODE</strong>: Serial AT command mode.<br />- <strong>UDP</strong>: UDP mode<br /> |
+| Serial interface[2] | Shows the types of UART interfaces.<br />- <strong>RS-232/TTL</strong>: WIZ510SSL hardware TTL or RS-232 version.<br />- <strong>RS-422/485</strong>: WIZ510SSL hardware RS-422/485 version. |
 
 -----
 
@@ -514,8 +494,9 @@ section are available below.
           - CTS/RTS: Hardware flow control
           - RTS on TX:
           - RTS on TX (Invert):
-      - RS-422/485 versions will operate as ‘NONE’ shown above no matter
-        which option is selected.
+
+      - RS-422/485 versions will operate as ‘NONE’ shown above no matter which option is selected.
+
 
 
 -----
