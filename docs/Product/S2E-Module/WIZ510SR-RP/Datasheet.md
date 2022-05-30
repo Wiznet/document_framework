@@ -7,6 +7,8 @@ date: 2022-05-09
 
 ## Overview
 
+<img src="https://github.com/Wiznet/Hardware-Files-of-WIZnet/blob/master/04_Serial_to_Ethernet_Module/WIZ510SR-RP/Pictures/WIZ510SR-RP_TOP.png?raw=true" width="800" />
+
 WIZ510SR-RP is a compact sized serial to Ethernet module using the
 RP2040 MCU with W5100S Ethernet Chip.
 WIZ510SR-RP is a protocol converter that transmits
