@@ -458,28 +458,62 @@ module.exports = {
 				type: 'category',
 				label: 'WIZ5xx Series',
 				items:[
+				{
+					type: 'category',
+					label: 'WIZ5xxSR-RP Series',
+					items: [
+					{
+						type: 'category',
+						label: 'Common docs for WIZ5xxSR-RP',
+						items: [
+						'Product/S2E-Module/WIZ5xxSR-RP-Series/command_manual',
+						]
+					},
 					{
 						type:'category',
 						label:'WIZ500SR-RP',
 						items: [
-						'Product/S2E-Module/WIZ500SR-RP/datasheet',	
-						]
+						'Product/S2E-Module/WIZ5xxSR-RP-Series/WIZ500SR-RP/datasheet',
+					]					
 					},
 					{
 						type:'category',
 						label:'WIZ505SR-RP',
 						items: [
-						'Product/S2E-Module/WIZ505SR-RP/datasheet',	
+						'Product/S2E-Module/WIZ5xxSR-RP-Series/WIZ505SR-RP/datasheet'
 						]
 					},
 					{
 						type:'category',
 						label:'WIZ510SR-RP',
 						items: [
-						'Product/S2E-Module/WIZ510SR-RP/datasheet',	
+						'Product/S2E-Module/WIZ5xxSR-RP-Series/WIZ510SR-RP/datasheet'
 						]
-					},
-					{
+					}					
+					]
+				},
+//				{
+//					type:'category',
+//					label:'WIZ500SR-RP',
+//					items: [
+//					'Product/S2E-Module/WIZ500SR-RP/datasheet',	
+//					]
+//				},
+//				{
+//					type:'category',
+//					label:'WIZ505SR-RP',
+//					items: [
+//					'Product/S2E-Module/WIZ505SR-RP/datasheet',	
+//					]
+//				},
+//				{
+//					type:'category',
+//					label:'WIZ510SR-RP',
+//					items: [
+//					'Product/S2E-Module/WIZ510SR-RP/datasheet',	
+//					]
+//				},
+				{
 						type: 'category',
 						label: 'WIZ510SSL',
 						link: {type: 'doc', id: 'Product/S2E-Module/WIZ510SSL/wiz510ssl'},
@@ -496,8 +530,8 @@ module.exports = {
 						'Product/S2E-Module/WIZ510SSL/troubleshooting-guide',
 						'Product/S2E-Module/WIZ510SSL/aws-connection-guide',
 						],
-					},
-					{	
+				},
+				{	
 						type: 'category',
 						label: 'WIZ550SR',
 						link: {type: 'doc', id: 'Product/S2E-Module/WIZ550SR/wiz550sr'},
@@ -515,8 +549,8 @@ module.exports = {
 						'Product/S2E-Module/WIZ550SR/datasheet_hardware_spec_characteristics-KO',	
 						'Product/S2E-Module/WIZ550SR/download',
 						],
-					},
-					{
+				},
+				{
 					type: 'category',
 					label: 'WIZ550S2E',
 					link: {type: 'doc', id: 'Product/S2E-Module/WIZ550S2E/wiz550s2e'},
