@@ -2713,3 +2713,16 @@ Return value</th>
 
 	**Without Parameter (Get)**
     - In ASCII: `S10\r\n`
+
+
+
+-----
+
+
+
+**If there is any problem?**  
+Please refer to our **[Troubleshooting Guide]()**!
+
+
+
+-----

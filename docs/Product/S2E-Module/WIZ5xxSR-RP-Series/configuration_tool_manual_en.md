@@ -48,9 +48,9 @@ The list of products supported by WIZnet-S2E-Tool-GUI is as follows.
   - [WIZ750SR-105](../WIZ750SR-1xx-Series/WIZ750SR-105/WIZ750SR-105.md)
   - [WIZ750SR-110](../WIZ750SR-1xx-Series/WIZ750SR-110/WIZ750SR-110.md)
   - [WIZ510SSL](../WIZ510SSL/WIZ510SSL.md)
-  - [WIZ500SR-RP](/WIZ500SR-RP/overview_en.md)
-  - [WIZ505SR-RP](/WIZ505SR-RP/overview_en.md)
-  - [WIZ510SR-RP](/WIZ510SR-RP/overview_en.md)
+  - [WIZ500SR-RP](./WIZ500SR-RP/overview_en.md)
+  - [WIZ505SR-RP](./WIZ505SR-RP/overview_en.md)
+  - [WIZ510SR-RP](./WIZ510SR-RP/overview_en.md)
 
 
 

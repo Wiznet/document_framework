@@ -464,6 +464,7 @@ module.exports = {
 					items: [
 					'Product/S2E-Module/WIZ5xxSR-RP-Series/command_manual',
 					'Product/S2E-Module/WIZ5xxSR-RP-Series/configuration_tool_manual',
+					'Product/S2E-Module/WIZ5xxSR-RP-Series/ssl_connection_guide',
 					]
 				},
 				{
@@ -472,6 +473,7 @@ module.exports = {
 					link: {type: 'doc', id: 'Product/S2E-Module/WIZ5xxSR-RP-Series/WIZ500SR-RP/overview'},
 					items: [
 					'Product/S2E-Module/WIZ5xxSR-RP-Series/WIZ500SR-RP/datasheet',
+					'Product/S2E-Module/WIZ5xxSR-RP-Series/WIZ500SR-RP/getting-started',
 				]					
 				},
 				{
@@ -480,6 +482,7 @@ module.exports = {
 					link: {type: 'doc', id: 'Product/S2E-Module/WIZ5xxSR-RP-Series/WIZ505SR-RP/overview'},
 					items: [
 					'Product/S2E-Module/WIZ5xxSR-RP-Series/WIZ505SR-RP/datasheet'
+					'Product/S2E-Module/WIZ5xxSR-RP-Series/WIZ500SR-RP/getting-started',
 					]
 				},
 				{
@@ -488,6 +491,7 @@ module.exports = {
 					link: {type: 'doc', id: 'Product/S2E-Module/WIZ5xxSR-RP-Series/WIZ510SR-RP/overview'},
 					items: [
 					'Product/S2E-Module/WIZ5xxSR-RP-Series/WIZ510SR-RP/datasheet'
+					'Product/S2E-Module/WIZ5xxSR-RP-Series/WIZ500SR-RP/getting-started',
 					]
 				}					
 				]
