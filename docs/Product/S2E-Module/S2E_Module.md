@@ -62,9 +62,9 @@ interfaces.
 
 |   | Image | UART | LAN Interface | Pin Header & Pitch | Operation Temp (℃) | Dimension (mm) | Evaluation Board |
 | --- | ----- | ---- | ------------- | ------------------ | ------------------- | -------------- | ---------------- |
-| [WIZ500SR-RP](./WIZ5xxSR-RP-Series/WIZ500SR-RP/overview_en.md) | ![WIZ500SR-RP](/img/products/s2e_module/WIZ500SR-RP/wiz500sr-rp-top.png) | 1xTTL(3.3V) |Transformer|1x12<br />2.0mm<br />Pin Header  x 3ea|-20 ~ 85| TBA | TBA |
-| [WIZ505SR-RP](./WIZ5xxSR-RP-Series/WIZ505SR-RP/overview_en.md) | ![WIZ505SR-RP](/img/products/s2e_module/WIZ505SR-RP/wiz505sr-rp-side.png) | 1xTTL(3.3V) |RJ-45|2x7<br />2.54mm<br />Pin Header<br />x 1ea|-20 ~ 85| TBA | TBA |
-| [WIZ510SR-RP](./WIZ5xxSR-RP-Series/WIZ510SR-RP/overview_en.md) | ![WIZ510SR-RP](/img/products/s2e_module/WIZ510SR-RP/wiz510sr-rp-top.png) | 1xTTL(3.3V) |RJ-45|1x4<br />2.54mm<br />Pin Header<br />x 1ea|-20 ~ 85| TBA | TBA |
+| [WIZ500SR-RP](./WIZ5xxSR-RP-Series/WIZ500SR-RP/overview_en.md) | ![WIZ500SR-RP](/img/products/s2e_module/wiz500sr-rp/wiz500sr-rp-top.png) | 1xTTL(3.3V) |Transformer|1x12<br />2.0mm<br />Pin Header  x 3ea|-20 ~ 85| TBA | TBA |
+| [WIZ505SR-RP](./WIZ5xxSR-RP-Series/WIZ505SR-RP/overview_en.md) | ![WIZ505SR-RP](/img/products/s2e_module/wiz505sr-rp/wiz505sr-rp-side.png) | 1xTTL(3.3V) |RJ-45|2x7<br />2.54mm<br />Pin Header<br />x 1ea|-20 ~ 85| TBA | TBA |
+| [WIZ510SR-RP](./WIZ5xxSR-RP-Series/WIZ510SR-RP/overview_en.md) | ![WIZ510SR-RP](/img/products/s2e_module/wiz510sr-r/wiz510sr-rp-top.png) | 1xTTL(3.3V) |RJ-45|1x4<br />2.54mm<br />Pin Header<br />x 1ea|-20 ~ 85| TBA | TBA |
 | [W7500S2E-R1](W7500S2E-R1/W7500S2E-R1.md) | ![W7500S2E-R1](/img/products/w5500s2e-z1/500k_w7500s2e_r1.jpg) | 1xTTL(3.3V) | Transformer | 1x11, 1x12 2.54mm | -40~85 | 44.45×31.75×23.00 (mm) | [Breakout board](http://wiznetshop.co.kr/product/detail.html?product_no=814&cate_no=56&display_group=1) |
 | [W5500S2E-Z1](W5500S2E-Z1/W5500S2E-Z1.md) | ![W5500S2E-Z1](/img/products/w5500s2e-z1/500k_w5500s2e_z1.jpg) |  1xTTL(3.3V) | Transformer | 1x11, 1x12 2.54mm | -40~85 | 44.45×31.75×15.75 (mm) | [Breakout board](http://wiznetshop.co.kr/product/detail.html?product_no=814&cate_no=56&display_group=1) |
 | [W5500S2E-S1](W5500S2E-S1/W5500S2E-S1.md) | ![W5500S2E-S1](/img/products/w5500s2e-z1/500k_w5500s2e_s1.jpg) | 1xTTL(3.3V) | Transformer | 2x7, 1x7 2.54mm | -40~85 | 34×24×12.40 (mm) | [Breakout board](http://wiznetshop.co.kr/product/detail.html?product_no=814&cate_no=56&display_group=1) |
