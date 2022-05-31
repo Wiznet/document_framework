@@ -18,10 +18,10 @@ As WIZ505SR-RP already has Ethernet port, it is necessary to use WIZ500/505SR-RP
 
 ### Device Layout
 
-|                                                                               |
-| ----------------------------------------------------------------------------- |
-| ![](/img/products/s2e_module/WIZ505SR-RP/HW/Document/WIZ505SR-RP-Callout_Top.png) |
-| Figure: ***WIZ505SR-RP Revision 1.0 Top***                                   |
+|                                                                       |
+| --------------------------------------------------------------------- |
+| ![](/img/products/s2e_module/wiz505sr-rp/WIZ505SR-RP-Callout_Top.png) |
+| Figure: ***WIZ505SR-RP Revision 1.0 Top***                            |
 
 
 ### Parts

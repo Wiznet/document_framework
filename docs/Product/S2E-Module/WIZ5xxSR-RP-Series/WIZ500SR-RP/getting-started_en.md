@@ -18,10 +18,10 @@ As WIZ500SR-RP does not have Serial and Ethernet port, two evaluation boards are
 
 ### Device Layout
 
-|                                                                               |
-| ----------------------------------------------------------------------------- |
-| ![](/img/products/s2e_module/WIZ500SR-RP/HW/Document/WIZ500SR-RP-Callout_Top.png) |
-| Figure: ***WIZ500SR-RP Revision 1.0 Top***                                   |
+|                                                                       |
+| --------------------------------------------------------------------- |
+| ![](/img/products/s2e_module/wiz500sr-rp/WIZ500SR-RP-Callout_Top.png) |
+| Figure: ***WIZ500SR-RP Revision 1.0 Top***                            |
 
 
 ### Parts

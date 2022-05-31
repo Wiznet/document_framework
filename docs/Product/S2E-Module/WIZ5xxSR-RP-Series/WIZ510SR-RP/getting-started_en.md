@@ -18,10 +18,10 @@ As WIZ510SR-RP already has Serial and Ethernet port, no separate evaluation boar
 
 ### Device Layout
 
-|                                                                               |
-| ----------------------------------------------------------------------------- |
-| ![](/img/products/s2e_module/WIZ510SR-RP/HW/Document/WIZ510SR-RP-Callout_Top.png) |
-| Figure: ***WIZ510SR-RP Revision 1.0 Top***                                   |
+|                                                                       |
+| --------------------------------------------------------------------- |
+| ![](/img/products/s2e_module/wiz510sr-rp/WIZ510SR-RP-Callout_Top.png) |
+| Figure: ***WIZ510SR-RP Revision 1.0 Top***                            |
 
 
 ### Parts
