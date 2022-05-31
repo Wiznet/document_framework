@@ -1,7 +1,7 @@
 ---
 id: command_manual
 title: Command Manual
-date: 2022-05-26
+date: 2022-05-30
 ---
 
 
@@ -33,13 +33,14 @@ The different command modes are as following.
 
 ### Abbreviations
 
-| CR | Carriage Return, moves the cursor to the far left(starting) position ('\\r', 0x0D) |
-| -- | ---------------------------------------------------------------------------------- |
-| LF | Line Feed, moves the cursor to the new line below ('\\n', 0x0A)                    |
-| N  | Number of commands                                                                 |
-| RW | Read / Write                                                                       |
-| RO | Read only                                                                          |
-| WO | Write only                                                                         |
+| Abbreviation | Description                                                                        |
+| :----------: | ---------------------------------------------------------------------------------- |
+| CR           | Carriage Return, moves the cursor to the far left(starting) position ('\\r', 0x0D) |
+| LF           | Line Feed, moves the cursor to the new line below ('\\n', 0x0A)                    |
+| N            | Number of commands                                                                 |
+| RW           | Read / Write                                                                       |
+| RO           | Read only                                                                          |
+| WO           | Write only                                                                         |
 
 
 
@@ -339,326 +340,326 @@ The two additional commands are **MA** and **PW**.
 </thead>
 <tbody>
 <tr class="odd">
-<td><a href="#mc">MC</a></td>
+<td align="center"><a href="#mc">MC</a></td>
 <td align="center">Device Information</td>
 <td>MAC address</td>
 <td align="center">RO</td>
 </tr>
 <tr class="even">
-<td><a href="#vr">VR</a></td>
+<td align="center"><a href="#vr">VR</a></td>
 <td align="center">:::</td>
 <td>Firmware version</td>
 <td align="center">RO</td>
 </tr>
 <tr class="odd">
-<td><a href="#mn">MN</a></td>
+<td align="center"><a href="#mn">MN</a></td>
 <td align="center">:::</td>
 <td>Product name</td>
 <td align="center">RO</td>
 </tr>
 <tr class="even">
-<td><a href="#st">ST</a></td>
+<td align="center"v><a href="#st">ST</a></td>
 <td align="center">:::</td>
 <td>Operation status</td>
 <td align="center">RO</td>
 </tr>
 <tr class="odd">
-<td><a href="#un">UN</a></td>
+<td align="center"><a href="#un">UN</a></td>
 <td align="center">:::</td>
 <td>UART interface(str)</td>
 <td align="center">RO</td>
 </tr>
 <tr class="even">
-<td><a href="#ui">UI</a></td>
+<td align="center"><a href="#ui">UI</a></td>
 <td align="center">:::</td>
 <td>UART interface(code)</td>
 <td align="center">RO</td>
 </tr>
 <tr class="odd">
-<td><a href="#op">OP</a></td>
+<td align="center"><a href="#op">OP</a></td>
 <td align="center">Network Settings</td>
 <td>Network operation mode</td>
 <td align="center">RW</td>
 </tr>
 <tr class="even">
-<td><a href="#im">IM</a></td>
+<td align="center"><a href="#im">IM</a></td>
 <td align="center">:::</td>
 <td>IP address allocation method (static/DHCP)</td>
 <td align="center">RW</td>
 </tr>
 <tr class="odd">
-<td><a href="#li">LI</a></td>
+<td align="center"><a href="#li">LI</a></td>
 <td align="center">:::</td>
 <td>Local IP address</td>
 <td align="center">RW</td>
 </tr>
 <tr class="even">
-<td><a href="#sm">SM</a></td>
+<td align="center"><a href="#sm">SM</a></td>
 <td align="center">:::</td>
 <td>Subnet mask</td>
 <td align="center">RW</td>
 </tr>
 <tr class="odd">
-<td><a href="#gw">GW</a></td>
+<td align="center"><a href="#gw">GW</a></td>
 <td align="center">:::</td>
 <td>Gateway address</td>
 <td align="center">RW</td>
 </tr>
 <tr class="even">
-<td><a href="#ds">DS</a></td>
+<td align="center"><a href="#ds">DS</a></td>
 <td align="center">:::</td>
 <td>DNS server address</td>
 <td align="center">RW</td>
 </tr>
 <tr class="odd">
-<td><a href="#lp">LP</a></td>
+<td align="center"><a href="#lp">LP</a></td>
 <td align="center">:::</td>
 <td>Local port number</td>
 <td align="center">RW</td>
 </tr>
 <tr class="even">
-<td><a href="#rh">RH</a></td>
+<td align="center"><a href="#rh">RH</a></td>
 <td align="center">:::</td>
 <td>Remote host IP address / Domain</td>
 <td align="center">RW</td>
 </tr>
 <tr class="odd">
-<td><a href="#rp">RP</a></td>
+<td align="center"><a href="#rp">RP</a></td>
 <td align="center">:::</td>
 <td>Remote host port number</td>
 <td align="center">RW</td>
 </tr>
 <tr class="even">
-<td><a href="#br">BR</a></td>
+<td align="center"><a href="#br">BR</a></td>
 <td align="center">Data UART Settings</td>
 <td>UART Baud rate</td>
 <td align="center">RW</td>
 </tr>
 <tr class="odd">
-<td><a href="#db">DB</a></td>
+<td align="center"><a href="#db">DB</a></td>
 <td align="center">:::</td>
 <td>UART Data bit</td>
 <td align="center">RW</td>
 </tr>
 <tr class="even">
-<td><a href="#pr">PR</a></td>
+<td align="center"><a href="#pr">PR</a></td>
 <td align="center">:::</td>
 <td>UART Parity bit</td>
 <td align="center">RW</td>
 </tr>
 <tr class="odd">
-<td><a href="#sb">SB</a></td>
+<td align="center"><a href="#sb">SB</a></td>
 <td align="center">:::</td>
 <td>UART Stop bit</td>
 <td align="center">RW</td>
 </tr>
 <tr class="even">
-<td><a href="#fl">FL</a></td>
+<td align="center"><a href="#fl">FL</a></td>
 <td align="center">:::</td>
 <td>UART Flow control</td>
 <td align="center">RW</td>
 </tr>
 <tr class="odd">
-<td><a href="#ec">EC</a></td>
+<td align="center"><a href="#ec">EC</a></td>
 <td align="center">:::</td>
 <td>UART Echoback enable</td>
 <td align="center">RW</td>
 </tr>
 <tr class="even">
-<td><a href="#pt">PT</a></td>
+<td align="center"><a href="#pt">PT</a></td>
 <td align="center">Serial Data Packing Options</td>
 <td>Time delimiter</td>
 <td align="center">RW</td>
 </tr>
 <tr class="odd">
-<td><a href="#ps">PS</a></td>
+<td align="center"><a href="#ps">PS</a></td>
 <td align="center">:::</td>
 <td>Size delimiter</td>
 <td align="center">RW</td>
 </tr>
 <tr class="even">
-<td><a href="#pd">PD</a></td>
+<td align="center"><a href="#pd">PD</a></td>
 <td align="center">:::</td>
 <td>Char delimiter</td>
 <td align="center">RW</td>
 </tr>
 <tr class="odd">
-<td><a href="#it">IT</a></td>
+<td align="center"><a href="#it">IT</a></td>
 <td align="center">Options</td>
 <td>Inactivity timer value</td>
 <td align="center">RW</td>
 </tr>
 <tr class="even">
-<td><a href="#cp">CP</a></td>
+<td align="center"><a href="#cp">CP</a></td>
 <td align="center">:::</td>
 <td>Connection password enable (TCP server only)</td>
 <td align="center">RW</td>
 </tr>
 <tr class="odd">
-<td><a href="#np">NP</a></td>
+<td align="center"><a href="#np">NP</a></td>
 <td align="center">:::</td>
 <td>Connection password (TCP server only)</td>
 <td align="center">RW</td>
 </tr>
 <tr class="even">
-<td><a href="#sp">SP</a></td>
+<td align="center"><a href="#sp">SP</a></td>
 <td align="center">:::</td>
 <td>Search ID code</td>
 <td align="center">RW</td>
 </tr>
 <tr class="odd">
-<td><a href="#dg">DG</a></td>
+<td align="center"><a href="#dg">DG</a></td>
 <td align="center">:::</td>
 <td>Serial debug message enable</td>
 <td align="center">RW</td>
 </tr>
 <tr class="even">
-<td><a href="#ka">KA</a></td>
+<td align="center"><a href="#ka">KA</a></td>
 <td align="center">:::</td>
 <td>TCP Keep-alive enable</td>
 <td align="center">RW</td>
 </tr>
 <tr class="odd">
-<td><a href="#ki">KI</a></td>
+<td align="center"><a href="#ki">KI</a></td>
 <td align="center">:::</td>
 <td>TCP Keep-alive initial interval</td>
 <td align="center">RW</td>
 </tr>
 <tr class="even">
-<td><a href="#ke">KE</a></td>
+<td align="center"><a href="#ke">KE</a></td>
 <td align="center">:::</td>
 <td>TCP Keep-alive retry interval</td>
 <td align="center">RW</td>
 </tr>
 <tr class="odd">
-<td><a href="#ri">RI</a></td>
+<td align="center"><a href="#ri">RI</a></td>
 <td align="center">:::</td>
 <td>TCP Reconnection interval<br/>
 (TCP client only)</td>
 <td align="center">RW</td>
 </tr>
 <tr class="even">
-<td><a href="#qu">QU</a></td>
+<td align="center"><a href="#qu">QU</a></td>
 <td align="center">MQTT Settings</td>
 <td>MQTT user name</td>
 <td align="center">RW</td>
 </tr>
 <tr class="odd">
-<td><a href="#qp">QP</a></td>
+<td align="center"><a href="#qp">QP</a></td>
 <td align="center">:::</td>
 <td>MQTT password</td>
 <td align="center">RW</td>
 </tr>
 <tr class="even">
-<td><a href="#qc">QC</a></td>
+<td align="center"><a href="#qc">QC</a></td>
 <td align="center">:::</td>
 <td>MQTT client ID</td>
 <td align="center">RW</td>
 </tr>
 <tr class="odd">
-<td><a href="#qk">QK</a></td>
+<td align="center"><a href="#qk">QK</a></td>
 <td align="center">:::</td>
 <td>MQTT Keep-alive</td>
 <td align="center">RW</td>
 </tr>
 <tr class="even">
-<td><a href="#pu">PU</a></td>
+<td align="center"><a href="#pu">PU</a></td>
 <td align="center">:::</td>
 <td>MQTT publish topic</td>
 <td align="center">RW</td>
 </tr>
 <tr class="odd">
-<td><a href="#u0">U0</a></td>
+<td align="center"><a href="#u0">U0</a></td>
 <td align="center">:::</td>
 <td>MQTT subscribe topic 1</td>
 <td align="center">RW</td>
 </tr>
 <tr class="even">
-<td><a href="#u1">U1</a></td>
+<td align="center"><a href="#u1">U1</a></td>
 <td align="center">:::</td>
 <td>MQTT subscribe topic 2</td>
 <td align="center">RW</td>
 </tr>
 <tr class="odd">
-<td><a href="#u2">U2</a></td>
+<td align="center"><a href="#u2">U2</a></td>
 <td align="center">:::</td>
 <td>MQTT subscribe topic 3</td>
 <td align="center">RW</td>
 </tr>
 <tr class="even">
-<td><a href="#qo">QO</a></td>
+<td align="center"><a href="#qo">QO</a></td>
 <td align="center">:::</td>
 <td>MQTT QoS level</td>
 <td align="center">RW</td>
 </tr>
 <tr class="odd">
-<td><a href="#rc">RC</a></td>
+<td align="center"><a href="#rc">RC</a></td>
 <td align="center">Certificate Settings</td>
 <td>Root CA verify option</td>
 <td align="center">RW</td>
 </tr>
 <tr class="even">
-<td><a href="#ce">CE</a></td>
+<td align="center"><a href="#ce">CE</a></td>
 <td align="center">:::</td>
 <td>Client certificate enable</td>
 <td align="center">RW</td>
 </tr>
 <tr class="odd">
-<td><a href="#oc">OC</a></td>
+<td align="center"><a href="#oc">OC</a></td>
 <td align="center">:::</td>
 <td>Root CA</td>
 <td align="center">WO</td>
 </tr>
 <tr class="even">
-<td><a href="#lc">LC</a></td>
+<td align="center"><a href="#lc">LC</a></td>
 <td align="center">:::</td>
 <td>Client certificate</td>
 <td align="center">WO</td>
 </tr>
 <tr class="odd">
-<td><a href="#pk">PK</a></td>
+<td align="center"><a href="#pk">PK</a></td>
 <td align="center">:::</td>
 <td>Private key</td>
 <td align="center">WO</td>
 </tr>
 <tr class="even">
-<td><a href="#te">TE</a></td>
+<td align="center"><a href="#te">TE</a></td>
 <td align="center">Command Mode Switch Settings</td>
 <td>Command mode switch code enable</td>
 <td align="center">RW</td>
 </tr>
 <tr class="odd">
-<td><a href="#ss">SS</a></td>
+<td align="center"><a href="#ss">SS</a></td>
 <td align="center">:::</td>
 <td>Command mode switch code (3-bytes Hex)</td>
 <td align="center">RW</td>
 </tr>
 <tr class="even">
-<td><a href="#ex">EX</a></td>
+<td align="center"><a href="#ex">EX</a></td>
 <td align="center">Device Control</td>
 <td>Command mode exit (switch to data transfer mode)</td>
 <td align="center">WO</td>
 </tr>
 <tr class="odd">
-<td><a href="#sv">SV</a></td>
+<td align="center"><a href="#sv">SV</a></td>
 <td align="center">:::</td>
 <td>Save device setting</td>
 <td align="center">WO</td>
 </tr>
 <tr class="even">
-<td><a href="#ba">BA</a></td>
+<td align="center"><a href="#ba">BA</a></td>
 <td align="center">:::</td>
 <td>Current firmware bank</td>
 <td align="center">RW</td>
 </tr>
 <tr class="odd">
-<td><a href="#rt">RT</a></td>
+<td align="center"><a href="#rt">RT</a></td>
 <td align="center">:::</td>
 <td>Device reboot</td>
 <td align="center">WO</td>
 </tr>
 <tr class="even">
-<td><a href="#fr">FR</a></td>
+<td align="center"><a href="#fr">FR</a></td>
 <td align="center">:::</td>
 <td>Device factory reset</td>
 <td align="center">WO</td>
@@ -681,19 +682,19 @@ The two additional commands are **MA** and **PW**.
 </thead>
 <tbody>
 <tr class="odd">
-<td><a href="#sc">SC</a></td>
+<td align="center"><a href="#sc">SC</a></td>
 <td align="center">Status I/O</td>
 <td>Status pin S0 &amp; S1 operation mode setting</td>
 <td align="center">RW</td>
 </tr>
 <tr class="even">
-<td><a href="#s0">S0</a></td>
+<td align="center"><a href="#s0">S0</a></td>
 <td align="center">:::</td>
 <td>Status of pin S0 (PHY link or DTR)</td>
 <td align="center">RO</td>
 </tr>
 <tr class="odd">
-<td><a href="#s1">S1</a></td>
+<td align="center"><a href="#s1">S1</a></td>
 <td align="center">:::</td>
 <td>Status of pin S1 (TCP connect or DSR)</td>
 <td align="center">RO</td>
@@ -812,7 +813,7 @@ The two additional commands are **MA** and **PW**.
   - **Return Value:**
 
 | Status  | Description                                                   |
-| ------- | ------------------------------------------------------------- |
+| :-----: | ------------------------------------------------------------- |
 | BOOT    | Boot mode; Users can update the product setting and firmware. |
 | OPEN    | Status before TCP connection is successful.                   |
 | CONNECT | Status after TCP connection is successful.                    |
@@ -1989,11 +1990,11 @@ Return value</th>
 
 
 
------
+---
 
 #### QU
 
------
+---
 
   - **Format:** `QU<Parameter>[CR][LF]`
 
@@ -2016,11 +2017,11 @@ Return value</th>
 
 
 
------
+---
 
 #### QP
 
------
+---
 
   - **Format:** `QP<Parameter>[CR][LF]`
 
