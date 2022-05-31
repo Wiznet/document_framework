@@ -463,6 +463,7 @@ module.exports = {
 					label: 'Common docs for WIZ5xxSR-RP',
 					items: [
 					'Product/S2E-Module/WIZ5xxSR-RP-Series/command_manual',
+					'Product/S2E-Module/WIZ5xxSR-RP-Series/configuration_tool_manual',
 					]
 				},
 				{
@@ -495,28 +496,6 @@ module.exports = {
 				type: 'category',
 				label: 'WIZ5xx Series',
 				items:[
-				
-//				{
-//					type:'category',
-//					label:'WIZ500SR-RP',
-//					items: [
-//					'Product/S2E-Module/WIZ500SR-RP/datasheet',	
-//					]
-//				},
-//				{
-//					type:'category',
-//					label:'WIZ505SR-RP',
-//					items: [
-//					'Product/S2E-Module/WIZ505SR-RP/datasheet',	
-//					]
-//				},
-//				{
-//					type:'category',
-//					label:'WIZ510SR-RP',
-//					items: [
-//					'Product/S2E-Module/WIZ510SR-RP/datasheet',	
-//					]
-//				},
 				{
 						type: 'category',
 						label: 'WIZ510SSL',
