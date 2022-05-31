@@ -1,7 +1,7 @@
 ---
 id: configuration_tool_manual
 title: Configuration Tool Manual
-date: 2022-05-30
+date: 2022-05-31
 ---
 
 
@@ -10,7 +10,7 @@ date: 2022-05-30
 
 
 
-## Configuration Tool
+## Configuration Tool Overview
 
 WIZnet’s configuration tool enables product search, product settings, and firmware upload via the network. WIZ5xxSR-RP is compatible with WIZ107SR / WIZ108SR, WIZ750SR / WIZ750SR-1xx / WIZ750SR-12x and WIZ510SSL and uses the same configuration tool.
 
@@ -140,7 +140,7 @@ The configuration tool is composed of four sections. Details of each section are
   - Use **TCP/UDP port 50001** to search WIZ5xxSR-RP. Search can be unsuccessful due to firewall or virus protection software.
     - In this case, try to search after turning off the firewall or virus protection software.
     - Please refer to this guide if still unsuccessful.
-        - **[Troubleshooting Guide: Device cannot be searched]()**
+        - **Troubleshooting Guide: Device cannot be searched**
 
 
 
@@ -165,7 +165,7 @@ The configuration tool is composed of four sections. Details of each section are
     Firmware upload can be unsuccessful due to firewall or virus protection software.
     - In this case, try to upload after turning off the firewall or virus protection software.
     - Please refer to this guide if still unsuccessful.
-        - **[Troubleshooting Guide: Firmware cannot be uploaded]()**
+        - **Troubleshooting Guide: Firmware cannot be uploaded**
   - The module will not work properly if the firmware is not correctly uploaded.
 
 **DO NOT TURN OFF POWER DURING FIRMWARE UPLOADING**  
@@ -182,7 +182,7 @@ The configuration tool is composed of four sections. Details of each section are
 #### 5\) Factory Reset
 
   - Returns the settings of WIZ5xxSR-RP to factory default.
-  - Factory default setting of can be checked at [WIZ5xxSR-RP Factory Settings]().
+  - Factory default setting of can be checked at WIZ5xxSR-RP Factory Settings.
   - Then the module will automatically reboot.
 
 
@@ -597,7 +597,7 @@ The configuration tool is composed of four sections. Details of each section are
 
 
 **If there is any problem?**  
-Please refer to our **[Troubleshooting Guide]()**!
+Please refer to our **Troubleshooting Guide**!
 
 
 
