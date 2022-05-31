@@ -481,7 +481,7 @@ module.exports = {
 					label:'WIZ505SR-RP',
 					link: {type: 'doc', id: 'Product/S2E-Module/WIZ5xxSR-RP-Series/WIZ505SR-RP/overview'},
 					items: [
-					'Product/S2E-Module/WIZ5xxSR-RP-Series/WIZ505SR-RP/datasheet'
+					'Product/S2E-Module/WIZ5xxSR-RP-Series/WIZ505SR-RP/datasheet',
 					'Product/S2E-Module/WIZ5xxSR-RP-Series/WIZ505SR-RP/getting-started',
 					]
 				},
@@ -490,7 +490,7 @@ module.exports = {
 					label:'WIZ510SR-RP',
 					link: {type: 'doc', id: 'Product/S2E-Module/WIZ5xxSR-RP-Series/WIZ510SR-RP/overview'},
 					items: [
-					'Product/S2E-Module/WIZ5xxSR-RP-Series/WIZ510SR-RP/datasheet'
+					'Product/S2E-Module/WIZ5xxSR-RP-Series/WIZ510SR-RP/datasheet',
 					'Product/S2E-Module/WIZ5xxSR-RP-Series/WIZ510SR-RP/getting-started',
 					]
 				}					
