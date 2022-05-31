@@ -2721,7 +2721,7 @@ Return value</th>
 
 
 **If there is any problem?**  
-Please refer to our **[Troubleshooting Guide]()**!
+Please refer to our **Troubleshooting Guide**!
 
 
 
