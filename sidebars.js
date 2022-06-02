@@ -464,6 +464,7 @@ module.exports = {
 					items: [
 					'Product/S2E-Module/WIZ5xxSR-RP-Series/command_manual',
 					'Product/S2E-Module/WIZ5xxSR-RP-Series/configuration_tool_manual',
+					'Product/S2E-Module/WIZ5xxSR-RP-Series/mqtt_connection_guide',
 					'Product/S2E-Module/WIZ5xxSR-RP-Series/ssl_connection_guide',
 					]
 				},
