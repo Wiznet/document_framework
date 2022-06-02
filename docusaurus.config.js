@@ -12,7 +12,7 @@ module.exports = {
   favicon: 'img/wizfavicon.ico',
   organizationName: 'WIZnet Co., Ltd.', // Usually your GitHub org/user name.
   projectName: 'document_framework', // Usually your repo name.
-  //trailingSlash: 'false',
+  trailingSlash: 'false',
   themeConfig: {
     
     docs:{
