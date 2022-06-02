@@ -1,7 +1,7 @@
 ---
 id: ssl_connection_guide
 title: SSL Connection Guide
-date: 2022-05-31
+date: 2022-06-02
 ---
 
 
@@ -43,7 +43,7 @@ date: 2022-05-31
     - [Download the Older Versions](https://github.com/Wiznet/WIZnet-S2E-Tool-GUI/releases)
     - [GitHub Repository](https://github.com/Wiznet/WIZnet-S2E-Tool-GUI)
   - OpenSSL:
-	- [Download the Latest Version](https://slproweb.com/products/Win32OpenSSL.html)
+	- [Download Link](https://slproweb.com/products/Win32OpenSSL.html)
 
 
 
@@ -104,16 +104,16 @@ s_server -accept 443 -cert server.crt -key server.key
 | ![](/img/products/s2e_module/wiz5xxsr-rp/ssl_connection_guide/select_ssl_tcp_client_mode.png) |
 | Figure: **Select SSL TCP client mode**                                                        |
 
-2. Input the **remote host IP (or URL)** and **remote port** in the **Remote host / port** section
+2. Setup the **remote host IP (or URL)** and **remote port** in the **Remote host / port** section
 
 |                                                                                                         |
 | :-----------------------------------------------------------------------------------------------------: |
-| ![](/img/products/s2e_module/wiz5xxsr-rp/ssl_connection_guide/input_remote_host_ip_and_remote_port.png) |
-| Figure: **Input remote host IP and remote port**                                                        |
+| ![](/img/products/s2e_module/wiz5xxsr-rp/ssl_connection_guide/setup_remote_host_ip_and_remote_port.png) |
+| Figure: **Setup remote host IP and remote port**                                                        |
 
 3. Click the **Apply Settings** button to save the settings
 
-|                                                        			                             |
+|                                                                                                |
 | :--------------------------------------------------------------------------------------------: |
 | ![](/img/products/s2e_module/wiz5xxsr-rp/ssl_connection_guide/click_apply_settings_button.png) |
 | Figure: **Click Apply Settings button**                                                        |
@@ -124,7 +124,7 @@ s_server -accept 443 -cert server.crt -key server.key
 | Figure: **Saved settings**                                                        |
 
 
-> **Note**: If you need certificates to connect to SSL server, please refer to the [**'What If I Need Certificates to Connect to SSL Server?'**](#what-if-i-need-certificates-to-connect-to-ssl-server?) section below.
+> **Note**: If you need certificates to connect to the SSL server, please refer to the [**'What If I Need Certificates to Connect to SSL Server'**](#what-if-i-need-certificates-to-connect-to-ssl-server?) section below.
 
 
 
