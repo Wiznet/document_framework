@@ -21,10 +21,13 @@ The WIZ5xxSR-RP configuration tool is published on the Github under the name of 
 
 The following screen will appear once the program is installed and opened.
 
-|                                                                                                           |
-| :-------------------------------------------------------------------------------------------------------: |
+|                                                                                                            |
+| :--------------------------------------------------------------------------------------------------------: |
 | ![](/img/products/s2e_module/wiz5xxsr-rp/configuration_tool_manual/configuration_tool_for_wiz5xxsr-rp.png) |
-| Figure: **Configuration Tool for WIZ5xxSR-RP**                                                            |
+| Figure: **Configuration Tool for WIZ5xxSR-RP**                                                             |
+
+  - WIZnet-S2E-Tool-GUI is Python interpreter based and it is platform-independent.
+  - If user has used one of WIZ107SR / WIZ108SR, WIZ750SR / WIZ750SR-1xx / WIZ750SR-12x or WIZ510SSL, the same program can be used for WIZ5xxSR-RP.
 
 
 
@@ -70,18 +73,12 @@ The list of products supported by WIZnet-S2E-Tool-GUI is as follows.
 
 
 
-1.  WIZnet-S2E-Tool-GUI is Python interpreter based and it is platform-independent.
-
-2.  If user has used one of WIZ107SR / WIZ108SR, WIZ750SR / WIZ750SR-1xx / WIZ750SR-12x or WIZ510SSL, the same program can be used for WIZ5xxSR-RP.
-
-
-
 ## Configuration Tool Layout
 
-|                                                                                                  |
-| :----------------------------------------------------------------------------------------------: |
+|                                                                                                   |
+| :-----------------------------------------------------------------------------------------------: |
 | ![](/img/products/s2e_module/wiz5xxsr-rp/configuration_tool_manual/configuration_tool_layout.png) |
-| Figure: **Configuration Tool layout**                                                            |
+| Figure: **Configuration Tool layout**                                                             |
 
 The configuration tool is composed of four sections. Details of each section are available below.
 
@@ -141,17 +138,17 @@ The configuration tool is composed of four sections. Details of each section are
 
 ### 1. Icon Menu
 
-|                                                                                   |
-| :-------------------------------------------------------------------------------: |
+|                                                                                    |
+| :--------------------------------------------------------------------------------: |
 | ![](/img/products/s2e_module/wiz5xxsr-rp/configuration_tool_manual/menu_icons.png) |
-| Figure: **Menu icons**                                                            |
+| Figure: **Menu icons**                                                             |
 
 
 
 #### 1\) Device Search
 
   - Searches for WIZ5xxSR-RP on the same network.
-  - Search can be done via [UDP Broadcast](https://en.wikipedia.org/wiki/Broadcasting_\(networking\))\[1\] or [TCP Unicast](https://en.wikipedia.org/wiki/Unicast)\[2\]
+  - Search can be done via [UDP Broadcast](https://en.wikipedia.org/wiki/Broadcasting_\(networking\)) or [TCP Unicast](https://en.wikipedia.org/wiki/Unicast)
   - Use **TCP/UDP port 50001** to search WIZ5xxSR-RP. Search can be unsuccessful due to firewall or virus protection software.
     - In this case, try to search after turning off the firewall or virus protection software.
     - Please refer to this guide if still unsuccessful.
@@ -222,41 +219,29 @@ The configuration tool is composed of four sections. Details of each section are
 
 
 
------
-
-
-
 ### 2\. Network Interface configuration
 
-|                                                                                         |
-| :-------------------------------------------------------------------------------------: |
+|                                                                                          |
+| :--------------------------------------------------------------------------------------: |
 | ![](/img/products/s2e_module/wiz5xxsr-rp/configuration_tool_manual/network_adapters.png) |
-| Figure: ***Network adapters**                                                           |
+| Figure: **Network adapters**                                                             |
 
   - If using multiple types of network adapters, a list of adapters and the bands in use are displayed and can be selected according to your environment.
-    - Example 1) If your laptop is using both Ethernet and WiFi
+    - Example 1) If your laptop is using both Ethernet and Wi-Fi
     - Example 2) Using Virtual Machine
-
-
-
------
 
 
 
 ### 3\. Device List
 
-|                                                                                    |
-| :--------------------------------------------------------------------------------: |
+|                                                                                     |
+| :---------------------------------------------------------------------------------: |
 | ![](/img/products/s2e_module/wiz5xxsr-rp/configuration_tool_manual/device_list.png) |
-| Figure: ***Device list**                                                           |
+| Figure: ***Device list**                                                            |
 
   - List of devices searched will appears.
     - **Searched results** shows the number of devices searched.
     - Each device is identified by its MAC address and device name.
-
-
-
------
 
 
 
@@ -273,11 +258,9 @@ The configuration tool is composed of four sections. Details of each section are
 
 #### Search method
 
-  - Search can be done via [UDP Broadcast](https://en.wikipedia.org/wiki/Broadcasting_\(networking\))\[1\] or [TCP Unicast](https://en.wikipedia.org/wiki/Unicast)\[2\]
-
-
-
------
+  - Search can be done via [UDP Broadcast](https://en.wikipedia.org/wiki/Broadcasting_\(networking\)) or [TCP Unicast](https://en.wikipedia.org/wiki/Unicast)
+    - UDP Broadcast Search: can search multiple devices
+    - TCP Unicast Search: can search only one device
 
 
 
@@ -289,26 +272,18 @@ The configuration tool is composed of four sections. Details of each section are
 
 
 
------
-
-
-
 ### 6-1. Basic settings Tab
 
-|                                                                                           |
-| :---------------------------------------------------------------------------------------: |
+|                                                                                            |
+| :----------------------------------------------------------------------------------------: |
 | ![](/img/products/s2e_module/wiz5xxsr-rp/configuration_tool_manual/basic_settings_tab.png) |
-| Figure: ***Basic settings tab**                                                           |
-
-1.  UDP Broadcast Search: can search multiple devices
-
-2.  TCP Unicast Search: can search only one device
+| Figure: **Basic settings tab**                                                             |
 
 
 
 #### 1\) Device information
 
-  - Shows the current **firmware version**\[1\]
+  - Shows the current **firmware version**
   - Composed of three sections: **Major version number**, **Minor version number**, and **Maintenance version number** ex) v1.0.0
 
 
@@ -317,7 +292,7 @@ The configuration tool is composed of four sections. Details of each section are
 
   - **Range: Up to 8-bytes string**
     - Default: Null (Not used)
-  - The search identification code is for identifying the device search\[2\].
+  - The search identification code is for identifying the device search.
   - If this option is selected, the assigned code must be entered when searching devices.
 
 
@@ -332,20 +307,12 @@ The configuration tool is composed of four sections. Details of each section are
 
 
 
------
-
-
-
 ### 6-2. Options Tab
 
-|                                                                                    |
-| :--------------------------------------------------------------------------------: |
+|                                                                                     |
+| :---------------------------------------------------------------------------------: |
 | ![](/img/products/s2e_module/wiz5xxsr-rp/configuration_tool_manual/options_tab.png) |
-| Figure: ***Options tab**                                                           |
-
-
-
------
+| Figure: **Options tab**                                                             |
 
 
 
@@ -388,13 +355,13 @@ The configuration tool is composed of four sections. Details of each section are
 
 **Please take caution of the following when using Trigger code.**
 
-1.  It can only be recognized as switch code if there is a time gap of at least 500ms of no data communication time before and after the 3-byte command mode switch.
+1. It can only be recognized as switch code if there is a time gap of at least 500ms of no data communication time before and after the 3-byte command mode switch.
 
-2.  The time interval for each byte of the 3-byte command mode switch code has to be at most 500ms.
+2. The time interval for each byte of the 3-byte command mode switch code has to be at most 500ms.
 
-3.  Do not end the command mode switch code\[1\] with CR((CR: Carriage return, ('\\r', 0x0D) )) or LF((LF: Line feed, ('\\n', 0x0A) )).
+3. Do not end the command mode switch code with CR((CR: Carriage return, ('\\r', 0x0D) )) or LF((LF: Line feed, ('\\n', 0x0A) )).
 
-4.  The default interval of the time gap before and after the command mode switch code is 500ms. The operation is based on the timer value of the serial data packaging option.
+4. The default interval of the time gap before and after the command mode switch code is 500ms. The operation is based on the timer value of the serial data packaging option.
 
 
 
@@ -408,16 +375,12 @@ The configuration tool is composed of four sections. Details of each section are
 
 
 
------
-
-
-
 ### 6-3. MQTT Options Tab
 
-|                                                                                         |
-| :-------------------------------------------------------------------------------------: |
+|                                                                                          |
+| :--------------------------------------------------------------------------------------: |
 | ![](/img/products/s2e_module/wiz5xxsr-rp/configuration_tool_manual/mqtt_options_tab.png) |
-| Figure: ***MQTT options tab**                                                           |
+| Figure: **MQTT options tab**                                                             |
 
 
 
@@ -454,10 +417,10 @@ The configuration tool is composed of four sections. Details of each section are
 
 ### 6-4. Certificate Manager Tab
 
-|                                                                                                |
-| :--------------------------------------------------------------------------------------------: |
+|                                                                                                 |
+| :---------------------------------------------------------------------------------------------: |
 | ![](/img/products/s2e_module/wiz5xxsr-rp/configuration_tool_manual/certificate_manager_tab.png) |
-| Figure: ***Certificate manager tab**                                                           |
+| Figure: **Certificate manager tab**                                                             |
 
 
 
@@ -486,12 +449,12 @@ The configuration tool is composed of four sections. Details of each section are
 
 ### 7\. Channel Tab
 
-|                                                                                    |
-| :--------------------------------------------------------------------------------: |
+|                                                                                     |
+| :---------------------------------------------------------------------------------: |
 | ![](/img/products/s2e_module/wiz5xxsr-rp/configuration_tool_manual/channel_tab.png) |
-| Figure: ***Channel tab**                                                           |
+| Figure: **Channel tab**                                                             |
 
-1.  The serial command after switching modes must end with CR and LF.
+  - The serial command after switching modes must end with CR and LF.
 
 
 
@@ -502,9 +465,9 @@ The configuration tool is composed of four sections. Details of each section are
 | Status[1] | Shows the operational status of the device<br />- <strong>BOOT</strong>: Settings and firmware upload is possible during this status<br />- <strong>OPEN</strong>: Status before TCP connection<br />- <strong>CONNECT</strong>: Status after TCP connection<br />- <strong>UPGRADE</strong>: Firmware update or DHCP IP allocation during this status<br />- <strong>ATMODE</strong>: Serial AT command mode.<br />- <strong>UDP</strong>: UDP mode<br /> |
 | Serial interface[2] | Shows the types of UART interfaces.<br />- <strong>RS-232/TTL</strong>: WIZ5xxSR-RP hardware TTL or RS-232 version.<br />- <strong>RS-422/485</strong>: WIZ5xxSR-RP hardware RS-422/485 version. |
 
-
-
------
+  - Difference between WIZ107/108SR is the addition of BOOT and UDP mode.
+  - Difference between WIZ107/108SR is the number of UART interfaces.
+  - TCP client mode includes the TCP client mode of the TCP mixed mode.
 
 
 
@@ -516,28 +479,12 @@ The configuration tool is composed of four sections. Details of each section are
 
 
 
------
-
-
-
 #### 3\) Local port & Remote host / Port
 
   - Local port
   - Remote host / Port
-    - Users can enter the IP address or domain name of the destination or remote host when the module attempts connection in TCP client mode\[3\] or UDP mode.
+    - Users can enter the IP address or domain name of the destination or remote host when the module attempts connection in TCP client mode or UDP mode.
     - The port number of the destination is required.
-
-
-
------
-
-
-
-1.  Difference between WIZ107/108SR is the addition of BOOT and UDP mode.
-
-2.  Difference between WIZ107/108SR is the number of UART interfaces(1).
-
-3.  TCP client mode includes the TCP client mode of the TCP mixed mode.
 
 
 
@@ -566,13 +513,9 @@ The configuration tool is composed of four sections. Details of each section are
 
 
 
------
-
-
-
 #### 5\) Serial data packing condition
 
-  - WIZ5xxSR-RP provides **multiple serial data packing options**\[1\]. By using this option, user command frame or all other data can be collected and sent together.
+  - WIZ5xxSR-RP provides **multiple serial data packing options**. By using this option, user command frame or all other data can be collected and sent together.
   - Data packing options can be multi-selected but has priority as shown below.  
     **Character =\> Size =\> Timer**
   - **Timer**
@@ -594,10 +537,6 @@ The configuration tool is composed of four sections. Details of each section are
 
 
 
------
-
-
-
 #### 6\) Timer interval
 
   - **Inactivity Timer**
@@ -611,10 +550,6 @@ The configuration tool is composed of four sections. Details of each section are
     - The re-connection interval is for **TCP Client Operation, including TCP Client of the mixed mode**.
     - This option is requires in order to re-connect TCP communication in case it is lost.
     - The setting must be at least 1ms.
-
-
-
------
 
 
 
@@ -632,10 +567,6 @@ The configuration tool is composed of four sections. Details of each section are
         - Retry interval: The time interval between each ‘keep-alive’ packets
   - This option is recommended in case of a physical disconnection with the remote device.
     - This option is recommended especially in TCP server mode.
-
-
-
------
 
 
 
