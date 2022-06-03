@@ -1,5 +1,5 @@
 ---
-id: ssl_connection_guide
+id: ssl-connection-guide
 title: SSL Connection Guide
 date: 2022-06-02
 ---

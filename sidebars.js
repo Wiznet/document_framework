@@ -462,10 +462,10 @@ module.exports = {
 					type: 'category',
 					label: 'Common docs for WIZ5xxSR-RP',
 					items: [
-					'Product/S2E-Module/WIZ5xxSR-RP-Series/command_manual',
-					'Product/S2E-Module/WIZ5xxSR-RP-Series/configuration_tool_manual',
-					'Product/S2E-Module/WIZ5xxSR-RP-Series/mqtt_connection_guide',
-					'Product/S2E-Module/WIZ5xxSR-RP-Series/ssl_connection_guide',
+					'Product/S2E-Module/WIZ5xxSR-RP-Series/command-manual',
+					'Product/S2E-Module/WIZ5xxSR-RP-Series/configuration-tool-manual',
+					'Product/S2E-Module/WIZ5xxSR-RP-Series/mqtt-connection-guide',
+					'Product/S2E-Module/WIZ5xxSR-RP-Series/ssl-connection-guide',
 					]
 				},
 				{
