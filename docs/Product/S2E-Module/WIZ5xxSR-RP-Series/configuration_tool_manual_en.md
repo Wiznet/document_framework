@@ -23,7 +23,7 @@ The following screen will appear once the program is installed and opened.
 
 |                                                                                                           |
 | :-------------------------------------------------------------------------------------------------------: |
-| ![](/img/products/s2e_module/wiz5xxsr-rp/configuration_tool_manua/configuration_tool_for_wiz5xxsr-rp.png) |
+| ![](/img/products/s2e_module/wiz5xxsr-rp/configuration_tool_manual/configuration_tool_for_wiz5xxsr-rp.png) |
 | Figure: **Configuration Tool for WIZ5xxSR-RP**                                                            |
 
 
@@ -80,7 +80,7 @@ The list of products supported by WIZnet-S2E-Tool-GUI is as follows.
 
 |                                                                                                  |
 | :----------------------------------------------------------------------------------------------: |
-| ![](/img/products/s2e_module/wiz5xxsr-rp/configuration_tool_manua/configuration_tool_layout.png) |
+| ![](/img/products/s2e_module/wiz5xxsr-rp/configuration_tool_manual/configuration_tool_layout.png) |
 | Figure: **Configuration Tool layout**                                                            |
 
 The configuration tool is composed of four sections. Details of each section are available below.
@@ -143,7 +143,7 @@ The configuration tool is composed of four sections. Details of each section are
 
 |                                                                                   |
 | :-------------------------------------------------------------------------------: |
-| ![](/img/products/s2e_module/wiz5xxsr-rp/configuration_tool_manua/menu_icons.png) |
+| ![](/img/products/s2e_module/wiz5xxsr-rp/configuration_tool_manual/menu_icons.png) |
 | Figure: **Menu icons**                                                            |
 
 
@@ -230,7 +230,7 @@ The configuration tool is composed of four sections. Details of each section are
 
 |                                                                                         |
 | :-------------------------------------------------------------------------------------: |
-| ![](/img/products/s2e_module/wiz5xxsr-rp/configuration_tool_manua/network_adapters.png) |
+| ![](/img/products/s2e_module/wiz5xxsr-rp/configuration_tool_manual/network_adapters.png) |
 | Figure: ***Network adapters**                                                           |
 
   - If using multiple types of network adapters, a list of adapters and the bands in use are displayed and can be selected according to your environment.
@@ -247,7 +247,7 @@ The configuration tool is composed of four sections. Details of each section are
 
 |                                                                                    |
 | :--------------------------------------------------------------------------------: |
-| ![](/img/products/s2e_module/wiz5xxsr-rp/configuration_tool_manua/device_list.png) |
+| ![](/img/products/s2e_module/wiz5xxsr-rp/configuration_tool_manual/device_list.png) |
 | Figure: ***Device list**                                                           |
 
   - List of devices searched will appears.
@@ -297,7 +297,7 @@ The configuration tool is composed of four sections. Details of each section are
 
 |                                                                                           |
 | :---------------------------------------------------------------------------------------: |
-| ![](/img/products/s2e_module/wiz5xxsr-rp/configuration_tool_manua/basic_settings_tab.png) |
+| ![](/img/products/s2e_module/wiz5xxsr-rp/configuration_tool_manual/basic_settings_tab.png) |
 | Figure: ***Basic settings tab**                                                           |
 
 1.  UDP Broadcast Search: can search multiple devices
@@ -340,7 +340,7 @@ The configuration tool is composed of four sections. Details of each section are
 
 |                                                                                    |
 | :--------------------------------------------------------------------------------: |
-| ![](/img/products/s2e_module/wiz5xxsr-rp/configuration_tool_manua/options_tab.png) |
+| ![](/img/products/s2e_module/wiz5xxsr-rp/configuration_tool_manual/options_tab.png) |
 | Figure: ***Options tab**                                                           |
 
 
@@ -416,7 +416,7 @@ The configuration tool is composed of four sections. Details of each section are
 
 |                                                                                         |
 | :-------------------------------------------------------------------------------------: |
-| ![](/img/products/s2e_module/wiz5xxsr-rp/configuration_tool_manua/mqtt_options_tab.png) |
+| ![](/img/products/s2e_module/wiz5xxsr-rp/configuration_tool_manual/mqtt_options_tab.png) |
 | Figure: ***MQTT options tab**                                                           |
 
 
@@ -456,7 +456,7 @@ The configuration tool is composed of four sections. Details of each section are
 
 |                                                                                                |
 | :--------------------------------------------------------------------------------------------: |
-| ![](/img/products/s2e_module/wiz5xxsr-rp/configuration_tool_manua/certificate_manager_tab.png) |
+| ![](/img/products/s2e_module/wiz5xxsr-rp/configuration_tool_manual/certificate_manager_tab.png) |
 | Figure: ***Certificate manager tab**                                                           |
 
 
@@ -488,7 +488,7 @@ The configuration tool is composed of four sections. Details of each section are
 
 |                                                                                    |
 | :--------------------------------------------------------------------------------: |
-| ![](/img/products/s2e_module/wiz5xxsr-rp/configuration_tool_manua/channel_tab.png) |
+| ![](/img/products/s2e_module/wiz5xxsr-rp/configuration_tool_manual/channel_tab.png) |
 | Figure: ***Channel tab**                                                           |
 
 1.  The serial command after switching modes must end with CR and LF.
