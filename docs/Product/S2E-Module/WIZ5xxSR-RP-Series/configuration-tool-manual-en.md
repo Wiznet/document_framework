@@ -1,7 +1,7 @@
 ---
 id: configuration-tool-manual
 title: Configuration Tool Manual
-date: 2022-06-03
+date: 2022-06-08
 ---
 
 
@@ -151,8 +151,6 @@ The configuration tool is composed of four sections. Details of each section are
   - Search can be done via [UDP Broadcast](https://en.wikipedia.org/wiki/Broadcasting_\(networking\)) or [TCP Unicast](https://en.wikipedia.org/wiki/Unicast)
   - Use **TCP/UDP port 50001** to search WIZ5xxSR-RP. Search can be unsuccessful due to firewall or virus protection software.
     - In this case, try to search after turning off the firewall or virus protection software.
-    - Please refer to this guide if still unsuccessful.
-        - **Troubleshooting Guide: Device cannot be searched**
 
 
 
@@ -176,8 +174,6 @@ The configuration tool is composed of four sections. Details of each section are
   - Use **TCP/UDP port 50002 to upload firmware** on to WIZ5xxSR-RP.
     Firmware upload can be unsuccessful due to firewall or virus protection software.
     - In this case, try to upload after turning off the firewall or virus protection software.
-    - Please refer to this guide if still unsuccessful.
-        - **Troubleshooting Guide: Firmware cannot be uploaded**
   - The module will not work properly if the firmware is not correctly uploaded.
 
 **DO NOT TURN OFF POWER DURING FIRMWARE UPLOADING**  
@@ -576,15 +572,6 @@ The configuration tool is composed of four sections. Details of each section are
         - Default: 2000 (Use, 2 seconds)
     - This option allows only in **SSL TCP client** mode
     - If there is no response until the set time, a timeout occurs.
-
-
-
------
-
-
-
-**If there is any problem?**  
-Please refer to our **Troubleshooting Guide**!
 
 
 

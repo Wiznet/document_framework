@@ -464,6 +464,7 @@ module.exports = {
 					items: [
 					'Product/S2E-Module/WIZ5xxSR-RP-Series/command-manual',
 					'Product/S2E-Module/WIZ5xxSR-RP-Series/configuration-tool-manual',
+					'Product/S2E-Module/WIZ5xxSR-RP-Series/firmware-update-guide',					
 					'Product/S2E-Module/WIZ5xxSR-RP-Series/mqtt-connection-guide',
 					'Product/S2E-Module/WIZ5xxSR-RP-Series/ssl-connection-guide',
 					]
@@ -501,24 +502,24 @@ module.exports = {
 				type: 'category',
 				label: 'WIZ5xx Series',
 				items:[
-				{
-						type: 'category',
-						label: 'WIZ510SSL',
-						link: {type: 'doc', id: 'Product/S2E-Module/WIZ510SSL/wiz510ssl'},
-						items: [
-						//'Product/S2E-Module/WIZ510SSL/wiz510ssl',
-						'Product/S2E-Module/WIZ510SSL/datasheet',
-						'Product/S2E-Module/WIZ510SSL/wiz510ssl-evb',
-						'Product/S2E-Module/WIZ510SSL/getting-started',
-						//'Product/S2E-Module/WIZ510SSL/getting_started-[ko]',
-						'Product/S2E-Module/WIZ510SSL/command-manual',
-						'Product/S2E-Module/WIZ510SSL/configuration-tool-manual',
-						'Product/S2E-Module/WIZ510SSL/firmware-update-guide',
-						'Product/S2E-Module/WIZ510SSL/ssl-connection-guide',
-						'Product/S2E-Module/WIZ510SSL/troubleshooting-guide',
-						'Product/S2E-Module/WIZ510SSL/aws-connection-guide',
-						],
-				},
+//				{
+//						type: 'category',
+//						label: 'WIZ510SSL',
+//						link: {type: 'doc', id: 'Product/S2E-Module/WIZ510SSL/wiz510ssl'},
+//						items: [
+//						//'Product/S2E-Module/WIZ510SSL/wiz510ssl',
+//						'Product/S2E-Module/WIZ510SSL/datasheet',
+//						'Product/S2E-Module/WIZ510SSL/wiz510ssl-evb',
+//						'Product/S2E-Module/WIZ510SSL/getting-started',
+//						//'Product/S2E-Module/WIZ510SSL/getting_started-[ko]',
+//						'Product/S2E-Module/WIZ510SSL/command-manual',
+//						'Product/S2E-Module/WIZ510SSL/configuration-tool-manual',
+//						'Product/S2E-Module/WIZ510SSL/firmware-update-guide',
+//						'Product/S2E-Module/WIZ510SSL/ssl-connection-guide',
+//						'Product/S2E-Module/WIZ510SSL/troubleshooting-guide',
+//						'Product/S2E-Module/WIZ510SSL/aws-connection-guide',
+//						],
+//				},
 				{	
 						type: 'category',
 						label: 'WIZ550SR',

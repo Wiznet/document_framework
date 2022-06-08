@@ -1,7 +1,7 @@
 ---
 id: command-manual
 title: Command Manual
-date: 2022-05-30
+date: 2022-06-08
 ---
 
 
@@ -78,11 +78,11 @@ You can use either of the two methods below to enter serial command mode.
     · <code>> SEG:GW Mode </code>
 ```
 
-**2. Enter command mode using command mode switch code**\[1\]
+**2. Enter command mode using command mode switch code**
 
   - Users can enter command mode using the command mode switch code provided by WIZ5xxSR-RP.
   - The command mode switch codes can be used only if it is enabled in the configuration tool. (**default: Enabled**)
-  - The command mode switch code is composed of 3-byte Hex codes, and can be changed to a different value if needed. The code only accepts Hex value. (**default: Hex \[2B\]\[2B\]\[2B**\]\[2\])
+  - The command mode switch code is composed of 3-byte Hex codes, and can be changed to a different value if needed. The code only accepts Hex value. (**default: Hex \[2B\]\[2B\]\[2B**\])
 
 ```
   - Check if 'Serial command mode switch code' is enabled at the configuration tool and the 3-bytes 'command mode switch code'.
@@ -150,7 +150,7 @@ You must include CR and LF at the end of each command. CR and LF must be include
 
 ### Control Device Using Ethernet Network
 
-Users can control or monitor WIZ5xxSR-RP via Ethernet by using the following commands. The user must use **UDP** or **TCP client** \[1\] to send commands, and the port number for processing the commands is **50001**.
+Users can control or monitor WIZ5xxSR-RP via Ethernet by using the following commands. The user must use **UDP** or **TCP client** to send commands, and the port number for processing the commands is **50001**.
 
 **Network information for command transmission:** **UDP / TCP Server : 50001** (User can send the commands by UDP / TCP Client to device)
 
@@ -165,7 +165,7 @@ The two additional commands are **MA** and **PW**.
   - **\[MA\] command**
     - This field shows the **product’s MAC address**.
     - In both cases of TCP and UDP, 6-byte MAC address must be included after the 2-byte MA command.
-        - When users wish to broadcast only Get Request via UDP\[2\], the relevant field value can be set as the Broadcast MAC address\[3\]. Users can receive responses from multiple peers. The search function of the configuration tool is implemented like this
+        - When users wish to broadcast only Get Request via UDP, the relevant field value can be set as the Broadcast MAC address. Users can receive responses from multiple peers. The search function of the configuration tool is implemented like this
 
   - **\[PW\] command**
 
@@ -189,7 +189,7 @@ The two additional commands are **MA** and **PW**.
 
     MA [MAC] [CR] [LF] PW [Search ID] [CR] [LF] ([Command] [CR] [LF]) * Number of commands
 
-  - The response for ‘get request’ will have the identical format as ‘request’ but include the parameter\[1\].
+  - The response for ‘get request’ will have the identical format as ‘request’ but include the parameter.
 
 
 
@@ -294,7 +294,7 @@ The two additional commands are **MA** and **PW**.
 
     None
 
-**When modifying the IP address format\[1\], '.'(dot, 0x2E) must be included such as the '192.168.11.5'.**
+**When modifying the IP address format, '.'(dot, 0x2E) must be included such as the '192.168.11.5'.**
 
 
 
@@ -307,9 +307,9 @@ The two additional commands are **MA** and **PW**.
   - The Set command setting the applicable value will operate if the parameter is included when entering the command.
   - The Get command reading the applicable value will operate if only the command is entered.
   - If the ‘Read only’ sign does not appear, it means the command supports both Get / Set.
-  - Write only command is for controlling the product without the parameter\[2\].
-  - There is a basic command list\[3\] and an expanded command list\[4\].
-  - Settings like IP allocation settings or DNS operation settings via command mode\[5\] require ‘module reboot’ via **[RT](#rt)** command after the settings are saved via **[SV](#sv)** command.
+  - Write only command is for controlling the product without the parameter.
+  - There is a basic command list and an expanded command list.
+  - Settings like IP allocation settings or DNS operation settings via command mode require ‘module reboot’ via **[RT](#rt)** command after the settings are saved via **[SV](#sv)** command.
 
 1. IPv4 address forms like IP address, Gateway address, subnet mask, DNS server address, or Remote IP address.
 
@@ -647,18 +647,12 @@ The two additional commands are **MA** and **PW**.
 <td align="center">WO</td>
 </tr>
 <tr class="even">
-<td align="center"><a href="#ba">BA</a></td>
-<td align="center">:::</td>
-<td>Current firmware bank</td>
-<td align="center">RW</td>
-</tr>
-<tr class="odd">
 <td align="center"><a href="#rt">RT</a></td>
 <td align="center">:::</td>
 <td>Device reboot</td>
 <td align="center">WO</td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td align="center"><a href="#fr">FR</a></td>
 <td align="center">:::</td>
 <td>Device factory reset</td>
@@ -1603,7 +1597,7 @@ Return value</th>
 
   - **Format:** `PT<Parameter>[CR][LF]`
 
-  - **Meaning:** Data packing of serial interface (data UART) – Time delimiter\[1\]
+  - **Meaning:** Data packing of serial interface (data UART) – Time delimiter
 
   - **Command Type:** Read / Write
 
@@ -1633,7 +1627,7 @@ Return value</th>
 
   - **Format:** `PS<Parameter>[CR][LF]`
 
-  - **Meaning:** Data packing of serial interface (data UART) – Data size delimiter\[2\]
+  - **Meaning:** Data packing of serial interface (data UART) – Data size delimiter
 
   - **Command Type:** Read / Write
 
@@ -1666,7 +1660,7 @@ Return value</th>
 
   - **Format:** `PD<Parameter>[CR][LF]`
 
-  - **Meaning:** Data packing of serial interface (data UART) - designated character delimiter\[1\]
+  - **Meaning:** Data packing of serial interface (data UART) - designated character delimiter
 
   - **Command Type:** Read / Write
 
@@ -2713,15 +2707,6 @@ Return value</th>
 
 	**Without Parameter (Get)**
     - In ASCII: `S10\r\n`
-
-
-
------
-
-
-
-**If there is any problem?**  
-Please refer to our **Troubleshooting Guide**!
 
 
 

@@ -1,7 +1,7 @@
 ---
 id: ssl-connection-guide
 title: SSL Connection Guide
-date: 2022-06-02
+date: 2022-06-08
 ---
 
 
@@ -157,15 +157,6 @@ After loading the certificate by clicking the '**Load file**' button, be sure to
 | :------------------------------------------------------------------------------------: |
 | ![](/img/products/s2e_module/wiz5xxsr-rp/ssl_connection_guide/upload_certificates.png) |
 | Figure: **Upload certificates**                                                        |
-
-
-
------
-
-
-
-**If there is any problem?**  
-Please refer to our **Troubleshooting Guide**!
 
 
 

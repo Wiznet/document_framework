@@ -1,7 +1,7 @@
 ---
 id: mqtt-connection-guide
 title: MQTT Connection Guide
-date: 2022-06-02
+date: 2022-06-08
 ---
 
 
@@ -146,15 +146,6 @@ WIZ5xxSR-RP is successfully connected to the MQTT broker!
 | :----------------------------------------------------------------------------------------: |
 | ![](/img/products/s2e_module/wiz5xxsr-rp/mqtt_connection_guide/connect_to_mqtt_broker.png) |
 | Figure: **Connect to MQTT broker**                                                         |
-
-
-
------
-
-
-
-**If there is any problem?**  
-Please refer to our **Troubleshooting Guide**!
 
 
 
