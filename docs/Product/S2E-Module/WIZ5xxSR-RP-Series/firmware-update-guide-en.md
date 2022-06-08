@@ -73,7 +73,7 @@ The process of setup environment to use the WIZ5xxSR-RP each product is availabl
 
 |                                                                                                  |
 | :----------------------------------------------------------------------------------------------: |
-| ![](/img/products/s2e_module/wiz5xxsr-rp/mqtt_connection_guide/click_firmware_upload_button.png) |
+| ![](/img/products/s2e_module/wiz5xxsr-rp/firmware_update_guide/click_firmware_upload_button.png) |
 | Figure: **Click Firmware Upload button**                                                         |
 
 2. Select the uploaded firmware
@@ -84,14 +84,14 @@ Firmware in a file format other than .bin cannot be uploaded or updated properly
 
 |                                                                                              |
 | :------------------------------------------------------------------------------------------: |
-| ![](/img/products/s2e_module/wiz5xxsr-rp/mqtt_connection_guide/select_uploaded_firmware.png) |
+| ![](/img/products/s2e_module/wiz5xxsr-rp/firmware_update_guide/select_uploaded_firmware.png) |
 | Figure: **Select uploaded firmware**                                                         |
 
 3. Uploading the firmware
 
 |                                                                                        |
 | :------------------------------------------------------------------------------------: |
-| ![](/img/products/s2e_module/wiz5xxsr-rp/mqtt_connection_guide/uploading_firmware.png) |
+| ![](/img/products/s2e_module/wiz5xxsr-rp/firmware_update_guide/uploading_firmware.png) |
 | Figure: **Uploading firmware**                                                         |
 
 
@@ -100,9 +100,9 @@ Firmware in a file format other than .bin cannot be uploaded or updated properly
 
 Firmware upload or update complete!
 
-|                                                                                        |
-| :------------------------------------------------------------------------------------: |
-| ![](/img/products/s2e_module/wiz5xxsr-rp/mqtt_connection_guide/firmware_upload_or_update_complete.png) |
+|                                                                                                        |
+| :----------------------------------------------------------------------------------------------------: |
+| ![](/img/products/s2e_module/wiz5xxsr-rp/firmware_update_guide/firmware_upload_or_update_complete.png) |
 | Figure: **Firmware upload or update complete**                                                         |
 
 
