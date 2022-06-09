@@ -31,26 +31,26 @@ be up to 2Mbps, which can meet the requirement of various applications.
 ## Features
 
   - WiFi 2.4G, 802.11 b/g/n
-  - Support Station / SoftAP / SoftAP+Station operation modes
-  - Support “Data pass-through” and “AT command data transfer” mode
-  - Support serial AT command configuration
-  - Support TCP Server / TCP Client / UDP operating mode
-  - Support configuration of operating channel 0 \~ 13
-  - Support auto 20MHz / 40MHz bandwidth
-  - Support WPA\_PSK / WPA2\_PSK encryption
+  - Supports Station / SoftAP / SoftAP+Station operation modes
+  - Supports “Data pass-through” and “AT command data transfer” mode
+  - Supports serial AT command configuration
+  - Supports TCP Server / TCP Client / UDP operating mode
+  - Supports configuration of operating channel 0 \~ 13
+  - Supports auto 20MHz / 40MHz bandwidth
+  - Supports WPA\_PSK / WPA2\_PSK encryption
   - Serial port baud rate up from 600bps to 2Mbps with 16 common values
-  - Support up to 5 TCP / UDP links
+  - Supports up to 5 TCP / UDP links
   - Obtaining IP address automatically from the DHCP server (Station
     mode)
   - DHCP service for Wireless LAN clients (AP mode)
-  - Support DNS for communication with servers by domain name
-  - Support “Keep-Alive” to monitor TCP connection
-  - Support “Ping” for monitoring network status
+  - Supports DNS for communication with servers by domain name
+  - Supports “Keep-Alive” to monitor TCP connection
+  - Supports “Ping” for monitoring network status
   - Built-in SNTP client for receiving the network time
-  - Support built-in unique MAC address and user configurable
-  - Support firmware upgrade by UART Download / OTA (via WLAN)
+  - Supports built-in unique MAC address and user configurable
+  - Supports firmware upgrade by UART Download / OTA (via WLAN)
   - Industrial grade (operating temperature range: -40 ° C \~ 85 ° C)
-  - CE, FCC certification 
+  - KC, CE, FCC, TELEC certification 
 
 -----
 
