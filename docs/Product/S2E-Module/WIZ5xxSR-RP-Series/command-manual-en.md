@@ -1,7 +1,7 @@
 ---
 id: command-manual
 title: Command Manual
-date: 2022-06-08
+date: 2022-06-09
 ---
 
 
@@ -490,161 +490,173 @@ The two additional commands are **MA** and **PW**.
 <td align="center">RW</td>
 </tr>
 <tr class="even">
-<td align="center"><a href="#cp">CP</a></td>
-<td align="center">:::</td>
-<td>Connection password enable (TCP server only)</td>
-<td align="center">RW</td>
-</tr>
-<tr class="odd">
-<td align="center"><a href="#np">NP</a></td>
-<td align="center">:::</td>
-<td>Connection password (TCP server only)</td>
-<td align="center">RW</td>
-</tr>
-<tr class="even">
-<td align="center"><a href="#sp">SP</a></td>
-<td align="center">:::</td>
-<td>Search ID code</td>
-<td align="center">RW</td>
-</tr>
-<tr class="odd">
-<td align="center"><a href="#dg">DG</a></td>
-<td align="center">:::</td>
-<td>Serial debug message enable</td>
-<td align="center">RW</td>
-</tr>
-<tr class="even">
-<td align="center"><a href="#ka">KA</a></td>
-<td align="center">:::</td>
-<td>TCP Keep-alive enable</td>
-<td align="center">RW</td>
-</tr>
-<tr class="odd">
-<td align="center"><a href="#ki">KI</a></td>
-<td align="center">:::</td>
-<td>TCP Keep-alive initial interval</td>
-<td align="center">RW</td>
-</tr>
-<tr class="even">
-<td align="center"><a href="#ke">KE</a></td>
-<td align="center">:::</td>
-<td>TCP Keep-alive retry interval</td>
-<td align="center">RW</td>
-</tr>
-<tr class="odd">
 <td align="center"><a href="#ri">RI</a></td>
 <td align="center">:::</td>
 <td>TCP Reconnection interval<br/>
 (TCP client only)</td>
 <td align="center">RW</td>
 </tr>
+<tr class="odd">
+<td align="center"><a href="#cp">CP</a></td>
+<td align="center">:::</td>
+<td>Connection password enable (TCP server only)</td>
+<td align="center">RW</td>
+</tr>
 <tr class="even">
+<td align="center"><a href="#np">NP</a></td>
+<td align="center">:::</td>
+<td>Connection password (TCP server only)</td>
+<td align="center">RW</td>
+</tr>
+<tr class="odd">
+<td align="center"><a href="#sp">SP</a></td>
+<td align="center">:::</td>
+<td>Search ID code</td>
+<td align="center">RW</td>
+</tr>
+<tr class="even">
+<td align="center"><a href="#dg">DG</a></td>
+<td align="center">:::</td>
+<td>Serial debug message enable</td>
+<td align="center">RW</td>
+</tr>
+<tr class="odd">
+<td align="center"><a href="#ka">KA</a></td>
+<td align="center">:::</td>
+<td>TCP Keep-alive enable</td>
+<td align="center">RW</td>
+</tr>
+<tr class="even">
+<td align="center"><a href="#ki">KI</a></td>
+<td align="center">:::</td>
+<td>TCP Keep-alive initial interval</td>
+<td align="center">RW</td>
+</tr>
+<tr class="odd">
+<td align="center"><a href="#ke">KE</a></td>
+<td align="center">:::</td>
+<td>TCP Keep-alive retry interval</td>
+<td align="center">RW</td>
+</tr>
+<tr class="even">
+<td align="center"><a href="#so">SO</a></td>
+<td align="center">:::</td>
+<td>SSL receive timeout</td>
+<td align="center">RW</td>
+</tr>
+<tr class="odd">
 <td align="center"><a href="#qu">QU</a></td>
 <td align="center">MQTT Settings</td>
 <td>MQTT user name</td>
 <td align="center">RW</td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td align="center"><a href="#qp">QP</a></td>
 <td align="center">:::</td>
 <td>MQTT password</td>
 <td align="center">RW</td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td align="center"><a href="#qc">QC</a></td>
 <td align="center">:::</td>
 <td>MQTT client ID</td>
 <td align="center">RW</td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td align="center"><a href="#qk">QK</a></td>
 <td align="center">:::</td>
 <td>MQTT Keep-alive</td>
 <td align="center">RW</td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td align="center"><a href="#pu">PU</a></td>
 <td align="center">:::</td>
 <td>MQTT publish topic</td>
 <td align="center">RW</td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td align="center"><a href="#u0">U0</a></td>
 <td align="center">:::</td>
 <td>MQTT subscribe topic 1</td>
 <td align="center">RW</td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td align="center"><a href="#u1">U1</a></td>
 <td align="center">:::</td>
 <td>MQTT subscribe topic 2</td>
 <td align="center">RW</td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td align="center"><a href="#u2">U2</a></td>
 <td align="center">:::</td>
 <td>MQTT subscribe topic 3</td>
 <td align="center">RW</td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td align="center"><a href="#qo">QO</a></td>
 <td align="center">:::</td>
 <td>MQTT QoS level</td>
 <td align="center">RW</td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td align="center"><a href="#rc">RC</a></td>
 <td align="center">Certificate Settings</td>
 <td>Root CA verify option</td>
 <td align="center">RW</td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td align="center"><a href="#ce">CE</a></td>
 <td align="center">:::</td>
 <td>Client certificate enable</td>
 <td align="center">RW</td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td align="center"><a href="#oc">OC</a></td>
 <td align="center">:::</td>
 <td>Root CA</td>
 <td align="center">WO</td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td align="center"><a href="#lc">LC</a></td>
 <td align="center">:::</td>
 <td>Client certificate</td>
 <td align="center">WO</td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td align="center"><a href="#pk">PK</a></td>
 <td align="center">:::</td>
 <td>Private key</td>
 <td align="center">WO</td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td align="center"><a href="#te">TE</a></td>
 <td align="center">Command Mode Switch Settings</td>
 <td>Command mode switch code enable</td>
 <td align="center">RW</td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td align="center"><a href="#ss">SS</a></td>
 <td align="center">:::</td>
 <td>Command mode switch code (3-bytes Hex)</td>
 <td align="center">RW</td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td align="center"><a href="#ex">EX</a></td>
 <td align="center">Device Control</td>
 <td>Command mode exit (switch to data transfer mode)</td>
 <td align="center">WO</td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td align="center"><a href="#sv">SV</a></td>
 <td align="center">:::</td>
 <td>Save device setting</td>
 <td align="center">WO</td>
+</tr>
+<tr class="odd">
+<td align="center"><a href="#uf">UF</a></td>
+<td align="center">:::</td>
+<td>Copy firmware from firmware binary bank to application bank</td>
+<td align="center">RW</td>
 </tr>
 <tr class="even">
 <td align="center"><a href="#rt">RT</a></td>
@@ -1682,7 +1694,7 @@ Return value</th>
     - None
     - Change designated character delimiter of serial data packing
 
-	1. The received serial data is collected until the designated character is received and will be sent all together via Ethernet.
+	The received serial data is collected until the designated character is received and will be sent all together via Ethernet.
 
 
 
@@ -1945,6 +1957,38 @@ Return value</th>
 	**With Parameter (Set)**
     - No response
     - Change keep-alive packet transmission retry interval value
+
+
+
+---
+
+#### SO
+
+---
+
+  - **Format:** `SO<Parameter>[CR][LF]`
+
+  - **Meaning:** SSL receive timeout value for SSL connection close
+
+  - **Command Type:** Read / Write
+
+  - **Parameter / Return Type:** Number (0 ~ 60000)
+
+  - **Parameter / Return Value:**
+
+    0: Not used  
+    1 ~ 60000: SSL receive timeout (unit: millisecond)
+
+    If the timeout is set, the SSL connection closes when SSL receive timeout over.
+
+  - **Response**
+
+	**Without Parameter (Get)**
+    - In ASCII: `SO2000\r\n`
+
+	**With Parameter (Set)**
+    - No response
+    - Change SSL receive timeout value
 
 
 
@@ -2498,6 +2542,35 @@ Return value</th>
 	**Without Parameter**
     - No response
     - Save changed settings
+
+
+
+---
+
+#### UF
+
+---
+
+  - **Format:** `UF[CR][LF]`
+
+  - **Meaning:** Copy firmware from firmware binary bank to application bank
+
+  - **Command Type:** Read / Write
+
+  - **Parameter / Return:**
+
+    Ex> 1
+
+  - **Response**
+
+	**Without Parameter (Get)**
+    - In ASCII: `UF0\r\n`
+
+	**With Parameter (Set)**
+    - No response
+    - Change current bank flag
+
+	After reset, copy firmware from firmware binary bank to application bank.
 
 
 
