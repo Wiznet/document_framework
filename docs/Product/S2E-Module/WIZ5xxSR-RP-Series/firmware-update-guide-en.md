@@ -1,8 +1,61 @@
 ---
 id: firmware-update-guide
 title: Firmware Update Guide
-date: 2022-06-08
+date: 2022-06-09
 ---
+
+
+
+-----
+
+
+
+## WIZ5xxSR-RP Firmware Update Overview
+
+
+
+### Memory Map
+
+  - Internal Flash
+    - Main flash size: 2 Mbytes
+
+```cpp
+ Top Flash Memory address /-------------------------------------------\  0x10200000
+                          |                                           |
+                          |             Parameters (64KB)             |
+                          |-------------------------------------------|  0x101F0000
+                          |                                           |
+                          |              Reserved (448KB)             |
+                          |                                           |
+                          |-------------------------------------------|  0x10180000
+                          |                                           |
+                          |                                           |
+                          |        Firmware Binary Bank (512KB)       |
+                          |                                           |
+                          |                                           |
+                          |-------------------------------------------|  0x10100000
+                          |                                           |
+                          |                                           |
+                          |          Application Bank (512KB)         |
+                          |                                           |
+                          |                                           |
+                          |-------------------------------------------|  0x10080000
+                          |                                           |
+      Page 1 (256KB)      |                                           |
+                          |             Bootloader (512KB)            |
+      Page 0 (256KB)      |                                           |
+                          |                                           |
+                          \-------------------------------------------/  0x100000000
+```
+
+
+
+### Firmware Update Sequence
+
+|                                                                                              |
+| :------------------------------------------------------------------------------------------: |
+| ![](/img/products/s2e_module/wiz5xxsr-rp/firmware_update_guide/firmware_update_sequence.png) |
+| Figure: **Firmware Update Sequence**                                                         |
 
 
 
@@ -98,7 +151,9 @@ Firmware in a file format other than .bin cannot be uploaded or updated properly
 
 #### Step 3: Done
 
-Firmware upload or update complete!
+Firmware upload or update completed!
+
+WIZ5xxSR-RP is searched after about 5 seconds in the Configuration Tool after firmware upload or update completed.
 
 |                                                                                                        |
 | :----------------------------------------------------------------------------------------------------: |
