@@ -165,8 +165,8 @@ AT command. WizFi360 basically provides a command compatible with
 ESP8266. In addition, commands are provided for using MQTT and Azure IoT
 Hub.
 
-- <a href="/img/products/wizfi360/wizfi360ds/wizfi360_atset_v1117e.pdf" target="_blank">AT Instruction set V1.1.1.7 - English</a>
-- <a href="/img/products/wizfi360/wizfi360ds/wizfi360_atset_v1117k.pdf" target="_blank">AT Instruction set V1.1.1.7 - Korean</a>
+- <a href="/img/products/wizfi360/wizfi360ds/wizfi360_atset_v1118_e.pdf" target="_blank">AT Instruction set V1.1.1.8 - English</a>
+- <a href="/img/products/wizfi360/wizfi360ds/wizfi360_atset_v1118_k.pdf" target="_blank">AT Instruction set V1.1.1.8 - Korean</a>
 
 | Version   | Date    | Decription                                |
 | --------- | ------- | ----------------------------------------- |
