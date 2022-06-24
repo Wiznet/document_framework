@@ -177,7 +177,7 @@ W5100S-EVB-Pico is first RP2040-based device that got AWS IoT Core Qualification
 ![](/img/osh/w5100s_evb_pico/AWS_DQP_iot_500px.png)
 
 - [AWS Device Catalog](https://devices.amazonaws.com/detail/a3G8a00000E2TSBEA3/W5100S-EVB-Pico)
-- <a href="/img/products/w5100s-evb-pico/w5100s-evb-pico_getting_started_guide_for_aws_iot_core_v_1_0_0.pdf" target="_blank">Getting Started with AWS IoT Core</a>
+- <a href="/img/products/w5100s-evb-pico/w5100s-evb-pico-getting-started-guide-for-aws-iot-core-v1-1-0.pdf" target="_blank">Getting Started with AWS IoT Core</a>
 
 ### MS Azure Certification
 
