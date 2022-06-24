@@ -168,9 +168,9 @@ Hub.
 - <a href="/img/products/wizfi360/wizfi360ds/wizfi360_atset_v1118_e.pdf" target="_blank">AT Instruction set V1.1.1.8 - English</a>
 - <a href="/img/products/wizfi360/wizfi360ds/wizfi360_atset_v1118_k.pdf" target="_blank">AT Instruction set V1.1.1.8 - Korean</a>
 
-| Version   | Date    | Decription                                |
-| --------- | ------- | ----------------------------------------- |
-| V 1.1.1.7 | MAY2022 | Modify AT+CIUPDATE firmware download link |
+| Version   | Date    | Decription                                            |
+| --------- | ------- | ----------------------------------------------------  |
+| V 1.1.1.8 | JUN2022 | Modify AT+MQTTTOPIC, Add AT+MQTTQOS, AT+MQTTPUBSEND   |
 
 **Old Datasheet History**
 
@@ -187,7 +187,8 @@ Hub.
 | V 1.0.7.2 | MAR2020 | Modify AT+WIZ\_NETCONFIG, Modify AT+CWSTARTSMART, Modify minor typos and error            |
 | V 1.1.1.1 | JAN2021 | Modify AT+MQTTCON                                                                         |
 | V 1.1.1.2 | APR2021 | Add AT+AWSCON, AT+AWSPKSEND, AT+CLICASEND                                                 |
-| V 1.1.1.8 | JUN2022 | Modify AT+MQTTTOPIC, Add AT+MQTTQOS, AT+MQTTPUBSEND                                       |
+| V 1.1.1.7 | MAY2022 | Modify AT+CIUPDATE firmware download link                                                 |
+
 
 ### AT Command Comparison Sheet
 
