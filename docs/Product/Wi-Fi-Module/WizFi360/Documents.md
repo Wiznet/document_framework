@@ -1,7 +1,7 @@
 ---
 id: documents
 title: Documents
-date: 2020-05-13
+date: 2022-06-27
 ---
 
 The **DataSheet** provides a brief introduce about WizFi360.
