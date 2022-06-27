@@ -161,10 +161,10 @@ Connect the 5V power adaptor or USB cable to the evaluation board and turn on th
 
 Open the configuration tool and click the search button. If the board is turned on and connected to the same network, the MAC address or settings of the WIZ500SR-RP module can be checked using the configuration tool.
 
-|                                                       |
-| ----------------------------------------------------- |
-| TO BE CHANGED <br />![](/img/products/wiz750sr/gettingstarted/configtool.png) |
-| Figure: **WIZnet Configuration Tool**                 |
+|                                                                                                            |
+| ---------------------------------------------------------------------------------------------------------- |
+| ![](/img/products/s2e_module/wiz5xxsr-rp/configuration_tool_manual/configuration_tool_for_wiz5xxsr-rp.png) |
+| Figure: **WIZnet Configuration Tool**                                                                      |
 
 #### Step 4: Set up your WIZ500SR-RP
 
