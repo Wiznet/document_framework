@@ -168,9 +168,9 @@ Hub.
 - <a href="/img/products/wizfi360/wizfi360ds/wizfi360_atset_v1118_e.pdf" target="_blank">AT Instruction set V1.1.1.8 - English</a>
 - <a href="/img/products/wizfi360/wizfi360ds/wizfi360_atset_v1118_k.pdf" target="_blank">AT Instruction set V1.1.1.8 - Korean</a>
 
-| Version   | Date    | Decription                                            |
-| --------- | ------- | ----------------------------------------------------  |
-| V 1.1.1.8 | JUN2022 | Modify AT+MQTTTOPIC, Add AT+MQTTQOS, AT+MQTTPUBSEND   |
+| Version   | Date    | Decription                                          |
+| --------- | ------- | ----------------------------------------------------|
+| V 1.1.1.8 | JUN2022 | Modify AT+MQTTTOPIC, Add AT+MQTTQOS, AT+MQTTPUBSEND |
 
 **Old Datasheet History**
 

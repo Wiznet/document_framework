@@ -1,7 +1,7 @@
 ---
 id: mqtt-connection-guide
 title: MQTT Connection Guide
-date: 2022-06-08
+date: 2022-06-28
 ---
 
 
@@ -39,7 +39,7 @@ date: 2022-06-08
 ### Software
 
   - WIZnet S2E Configuration Tool
-	- [Download the Latest Version](https://github.com/Wiznet/WIZnet-S2E-Tool-GUI/releases/tag/V1.4.2)
+	- [Download the Latest Version](https://github.com/Wiznet/WIZnet-S2E-Tool-GUI/releases/tag/V1.5.0)
     - [Download the Older Versions](https://github.com/Wiznet/WIZnet-S2E-Tool-GUI/releases)
     - [GitHub Repository](https://github.com/Wiznet/WIZnet-S2E-Tool-GUI)
   - Mosquitto:

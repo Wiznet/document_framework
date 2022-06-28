@@ -1,7 +1,7 @@
 ---
 id: firmware-update-guide
 title: Firmware Update Guide
-date: 2022-06-09
+date: 2022-06-28
 ---
 
 
@@ -100,7 +100,7 @@ That's the way over ethernet using the Configuration Tool.
 #### Software
 
   - WIZnet S2E Configuration Tool
-	- [Download the Latest Version](https://github.com/Wiznet/WIZnet-S2E-Tool-GUI/releases/tag/V1.4.2)
+	- [Download the Latest Version](https://github.com/Wiznet/WIZnet-S2E-Tool-GUI/releases/tag/V1.5.0)
     - [Download the Older Versions](https://github.com/Wiznet/WIZnet-S2E-Tool-GUI/releases)
     - [GitHub Repository](https://github.com/Wiznet/WIZnet-S2E-Tool-GUI)
 
