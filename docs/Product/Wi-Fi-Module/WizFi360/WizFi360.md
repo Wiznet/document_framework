@@ -1,7 +1,7 @@
 ---
 id: wizfi360
 title: WizFi360
-date: 2020-05-13
+date: 2022-06-60
 ---
 
 ## Overview
@@ -35,7 +35,7 @@ be up to 2Mbps, which can meet the requirement of various applications.
   - Supports “Data pass-through” and “AT command data transfer” mode
   - Supports serial AT command configuration
   - Supports TCP Server / TCP Client / UDP operating mode
-  - Supports configuration of operating channel 0 \~ 13
+  - Supports configuration of operating channel 1 \~ 13
   - Supports auto 20MHz / 40MHz bandwidth
   - Supports WPA\_PSK / WPA2\_PSK encryption
   - Serial port baud rate up from 600bps to 2Mbps with 16 common values

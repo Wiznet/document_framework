@@ -1,7 +1,7 @@
 ---
 id: documents
 title: Documents
-date: 2022-06-27
+date: 2022-06-30
 ---
 
 The **DataSheet** provides a brief introduce about WizFi360.
@@ -23,10 +23,11 @@ Comparison Sheet** provides comparison with ESP8266 AT command.
 
 ### WizFi360
 
-  - <a href="/img/products/wizfi360/wizfi360ds/wizfi360_ds_v108_en.pdf" target="_blank">WizFi360 Datasheet v1.08</a>
+  - <a href="/img/products/wizfi360/wizfi360ds/wizfi360_ds_v109_en.pdf" target="_blank">WizFi360 Datasheet v1.09</a>
 
-  - 2022-04-05 V1.08
-      - Edited “2. Features”
+  - 2022-06-30 V1.09
+      - Edited “4. Package Information” Figure 2
+      - Edited “7. Peripheral Circuit Reference Design” Figure 6
 
 **Old Datasheet History**
 
@@ -53,6 +54,8 @@ Comparison Sheet** provides comparison with ESP8266 AT command.
   - 2019-12-11 V1.05
       - Edited “5. Pin Definitions”
           - No.11 & No.19
+  - 2022-04-05 V1.08
+      - Edited “2. Features”
 
 ### WizFi360-EVB-Shield
 
@@ -270,8 +273,9 @@ TCP/UDP/SSL connection result and AT command used example.
 
 ## Hardware Design Guide
 
-- <a href="/img/products/wizfi360/wizfi360ds/wizfi360_hardware_design_guide_v103_en.pdf" target="_blank">Hardware Design Guide</a>
+- <a href="/img/products/wizfi360/wizfi360ds/wizfi360_hardware_design_guide_v104_en.pdf" target="_blank">Hardware Design Guide</a>
 
-| Version | Date    | Decription      |
-| ------- | ------- | --------------- |
+| Version | Date    | Decription |
+| ------- | ------- | ---------- |
 | V1.0.3  | NOV2019 | Initial Release |
+| V1.0.4  | JUN2022 | Edited “Figure 1. WizFi360 Pinout”<br>Edited “Figure 1. Reference Schematic”<br>Edited “Figure 2. UART”<br>Edited “Figure 3. SPI Interface”<br>Edited “Figure 4. UART Flow Control”|
