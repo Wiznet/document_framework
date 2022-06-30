@@ -278,4 +278,4 @@ TCP/UDP/SSL connection result and AT command used example.
 | Version | Date    | Decription |
 | ------- | ------- | ---------- |
 | V1.0.3  | NOV2019 | Initial Release |
-| V1.0.4  | JUN2022 | Edited “Figure 1. WizFi360 Pinout”<br>Edited “Figure 1. Reference Schematic”<br>Edited “Figure 2. UART”<br>Edited “Figure 3. SPI Interface”<br>Edited “Figure 4. UART Flow Control”|
+| V1.0.4  | JUN2022 | Edited “Figure 1. WizFi360 Pinout”<br/>Edited “Figure 1. Reference Schematic”<br/>Edited “Figure 2. UART”<br/>Edited “Figure 3. SPI Interface”<br/>Edited “Figure 4. UART Flow Control”|
