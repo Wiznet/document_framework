@@ -5,14 +5,10 @@ date: 2022-05-26
 
 ---
 
-<img src="https://github.com/Wiznet/Hardware-Files-of-WIZnet/blob/master/04_Serial_to_Ethernet_Module/WIZ505SR-RP/Pictures/WIZ505SR-V100%202.png?raw=true" width="800" />
+![WIZ505SR-RP](/img/products/s2e_module/wiz505sr-rp/wiz505sr-rp-side.png)
 
-WIZ505SR-RP is a compact sized serial to Ethernet module using the
-RP2040 MCU with W5100S Ethernet Chip.
-WIZ505SR-RP is a protocol converter that transmits
-data sent by serial equipment as TCP/IP data, and converts the TCP/IP
-data received through the network back into serial data to the serial
-equipment.
+WIZ505SR-RP is a compact sized serial to Ethernet module using the RP2040 MCU with W5100S Ethernet Chip.
+WIZ505SR-RP is a protocol converter that transmits data sent by serial equipment as TCP/IP data, and converts the TCP/IP data received through the network back into serial data to the serial equipment.
 
 In addition, WIZ505SR-RP contains serial debug port(J1).
 

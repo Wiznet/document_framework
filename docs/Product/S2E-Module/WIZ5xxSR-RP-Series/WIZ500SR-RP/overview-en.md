@@ -5,7 +5,7 @@ date: 2022-05-26
 
 ---
 
-<img src="https://user-images.githubusercontent.com/105198785/169985388-c38ead73-1a75-434f-bbb5-7854ea4b90db.png" width="800" />
+![WIZ500SR-RP](/img/products/s2e_module/wiz500sr-rp/wiz500sr-rp-top.png)
 
 WIZ500SR-RP is a compact sized serial to Ethernet module using the RP2040 MCU with W5100S Ethernet Chip.
 WIZ500SR-RP is a protocol converter that transmits data sent by serial equipment as TCP/IP data, and converts the TCP/IP

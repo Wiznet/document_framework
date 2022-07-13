@@ -12,7 +12,7 @@ The WIZ510SR-RP evaluation board package contains the following parts.
 
   - WIZ510SR-RP Module
 
-The entire list of parts of the board is available at the [WIZ510SR-RP Overview: Product Contents](./overview_en.md#product-contents) page.
+The entire list of parts of the board is available at the [WIZ510SR-RP Overview: Product Contents](./overview-en.md#product-contents) page.
 
 As WIZ510SR-RP already has Serial and Ethernet port, no separate evaluation board is needed to get started working with module.
 
