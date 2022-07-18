@@ -146,8 +146,8 @@ When Module working well Blinking every 1.0s </td>
 
 ------------------------------------------------------------------------
 
-## WIZ5xxSR-RP-EVB (추후 수정 예정)
-
+## WIZ505SR-RP-EVB (TBD)
+<!--
 -   WIZ500SR-RP Developer Board.
 -   USB to UART chip, CP2104.
 -   RESET Tact SW.
@@ -186,6 +186,9 @@ When Module working well Blinking every 1.0s </td>
 
 <img src="/img/products/wiz750sr-100/datasheet/wiz750sr-100-serial_cable.png" width="600" />
 
+-->
+
+
 ------------------------------------------------------------------------
 
 ## Schematic & Artwork
@@ -201,8 +204,8 @@ When Module working well Blinking every 1.0s </td>
 
 | H/W version | Type  | Filetype | Download Link                                                | Remarks |
 | ----------- | ----- | -------- | ------------------------------------------------------------ | ------- |
-| 1.0         | RS232 | Altium   | ![](/img/products/w5500/w5500_evb/icons/download.png) <a href="/img/products/wiz750sr-100/datasheet/wiz750sr-100-evb_sch_v1.0.zip" target="_blank">Download</a> | \-      |
-| :::         | :::   | PDF      | ![](/img/products/w5500/w5500_evb/icons/download.png) <a href="/img/products/wiz750sr-100/datasheet/wiz750sr-100-evb.pdf" target="_blank">Download</a> | \-      |
+| -         | - | -  |  | \-      |
+| :::         | :::   | -      |  | \-      |
 
 ------------------------------------------------------------------------
 
@@ -217,10 +220,10 @@ When Module working well Blinking every 1.0s </td>
 
 ### WIZ5xxSR-RP-EVB (TBD)
 
-| H/W version | Type | Filetype | Download Link                                                | Remarks |
-| ----------- | ---- | -------- | ------------------------------------------------------------ | ------- |
-| 1.0         | TTL  | Excel    | ![](/img/products/w5500/w5500_evb/icons/download.png) <a href="/img/products/wiz750sr-100/datasheet/wiz750sr-100_evb_v1.1_pl_20171215.xls" target="_blank">Download</a> |         |
-| :::         | :::  | PDF      | ![](/img/products/w5500/w5500_evb/icons/download.png) <a href="/img/products/wiz750sr-100/datasheet/wiz750sr-100_evb_v1.1_pl_20171215.pdf" target="_blank">Download</a> |         |
+| H/W version | Type  | Filetype | Download Link                                                | Remarks |
+| ----------- | ----- | -------- | ------------------------------------------------------------ | ------- |
+| -         | - | -  |  | \-      |
+| :::         | :::   | -      |  | \-      |
 
 ------------------------------------------------------------------------
 
@@ -322,11 +325,7 @@ When Module working well Blinking every 1.0s </td>
 
 | Condition                      | Min  | Typ  | Max  | Tol  | Unit |
 | ------------------------------ | ---- | ---- | ---- | ---- | ---- |
-| 100M Link                      | \-   | TBD  | \-   |      | mA   |
-| 10M Link                       | \-   | TBD  | \-   |      | mA   |
-| Unlink (Auto-negotiation mode) | -    | TBD  | -    |      | mA   |
-| 100M Transmitting              | \-   | TBD  | -    |      | mA   |
-| 10M Transmitting               | \-   | TBD  | \-   |      | mA   |
+| 100M Transmitting              | \-   | 120  | -    |      | mA   |
 
 
 
