@@ -149,47 +149,6 @@ When Module working well Blinking every 1.0s </td>
 
 
 
-------------------------------------------------------------------------
-
-## WIZ5xxSR-RP-EVB (추후 수정 예정)
-
--   WIZ510SR-RP Developer Board.
--   USB to UART chip, CP2104.
--   RESET Tact SW.
--   BOOT0 Slide SW.
--   H/W Trig Slide SW.
--   Expansion GPIO TEST (Digital / Analog)
--   Micro USB.
--   WIZ750SR-100-EVB (RS-232)
-    -   RS-232C Transceiver, D-SUB9-MALE.
-
-<img src="/img/products/wiz750jr/datasheet/wiz750jr-evb_description.png" width="800" />
-
-------------------------------------------------------------------------
-
-### Serial Interface
-
-<img src="/img/products/wiz750sr-100/datasheet/wiz750sr-100-evb_pinout.png" width="400" />
-
-| Pin Number | Signal | Description                  |
-| ---------- | ------ | ---------------------------- |
-| 1          | DCD    | NC                           |
-| 2          | RXD    | Receive Data                 |
-| 3          | TXD    | Transmit Data                |
-| 4          | DTR    | Data Terminal Ready          |
-| 5          | GND    | System Ground(Signal Ground) |
-| 6          | DSR    | Data Set Ready               |
-| 7          | RTS    | Request To Send              |
-| 8          | CTS    | Clear To Send                |
-| 9          | RI     | NC                           |
-
--   RXD, TXD, GND: These are all you need if the device does not use
-    hardware handshaking.
--   RXD, TXD, GND, RTS, CTS: These are the signals used when serial
-    device uses hardware handshaking.
--   DTR, DSR: Not used
-
-<img src="/img/products/wiz750sr-100/datasheet/wiz750sr-100-serial_cable.png" width="600" />
 
 ------------------------------------------------------------------------
 
@@ -201,14 +160,6 @@ When Module working well Blinking every 1.0s </td>
 | ----------- | ---- | -------- | ------------------------------------------------------------ | ------- |
 | 1.0         | TTL  | Altium   | ![](/img/products/w5500/w5500_evb/icons/download.png) <a href="https://github.com/Wiznet/Hardware-Files-of-WIZnet/raw/4d4c49d044e6d49c58748386eb2b5292ab607564/04_Serial_to_Ethernet_Module/WIZ510SR-RP/WIZ510SR-RP_V100/Schematic/WIZ510SR-RP_V100.zip" target="_blank">Download</a> | \-      |
 | :::         | :::  | PDF      | ![](/img/products/w5500/w5500_evb/icons/download.png) <a href="https://github.com/Wiznet/Hardware-Files-of-WIZnet/raw/4d4c49d044e6d49c58748386eb2b5292ab607564/04_Serial_to_Ethernet_Module/WIZ510SR-RP/WIZ510SR-RP_V100/Schematic/WIZ510SR-RP_SCH_V100.pdf" target="_blank">Download</a> | \-      |
-
-### WIZ5xxSR-RP-EVB (TBD)
-
-| H/W version | Type  | Filetype | Download Link                                                | Remarks |
-| ----------- | ----- | -------- | ------------------------------------------------------------ | ------- |
-| 1.0         | RS232 | Altium   | ![](/img/products/w5500/w5500_evb/icons/download.png) <a href="/img/products/wiz750sr-100/datasheet/wiz750sr-100-evb_sch_v1.0.zip" target="_blank">Download</a> | \-      |
-| :::         | :::   | PDF      | ![](/img/products/w5500/w5500_evb/icons/download.png) <a href="/img/products/wiz750sr-100/datasheet/wiz750sr-100-evb.pdf" target="_blank">Download</a> | \-      |
-
 ------------------------------------------------------------------------
 
 ## Part list
@@ -217,16 +168,8 @@ When Module working well Blinking every 1.0s </td>
 
 | H/W version | Type | Filetype | Download Link                                                | Remarks |
 | ----------- | ---- | -------- | ------------------------------------------------------------ | ------- |
-| 1.0         | TTL  | Excel    | ![](/img/products/w5500/w5500_evb/icons/download.png) <a href="https://github.com/Wiznet/Hardware-Files-of-WIZnet/raw/4d4c49d044e6d49c58748386eb2b5292ab607564/04_Serial_to_Ethernet_Module/WIZ510SR-RP/WIZ510SR-RP_V100/Partlist/WIZ510SR-RP_PL_V100.xlsx" target="_blank">Download</a> |         |
-| :::         | :::  | PDF      | ![](/img/products/w5500/w5500_evb/icons/download.png) <a href="https://github.com/Wiznet/Hardware-Files-of-WIZnet/raw/4d4c49d044e6d49c58748386eb2b5292ab607564/04_Serial_to_Ethernet_Module/WIZ510SR-RP/WIZ510SR-RP_V100/Partlist/WIZ510SR-RP_PL_V100.pdf" target="_blank">Download</a> |         |
-
-### WIZ5xxSR-RP-EVB (TBD)
-
-| H/W version | Type | Filetype | Download Link                                                | Remarks |
-| ----------- | ---- | -------- | ------------------------------------------------------------ | ------- |
-| 1.0         | TTL  | Excel    | ![](/img/products/w5500/w5500_evb/icons/download.png) <a href="/img/products/wiz750sr-100/datasheet/wiz750sr-100_evb_v1.1_pl_20171215.xls" target="_blank">Download</a> |         |
-| :::         | :::  | PDF      | ![](/img/products/w5500/w5500_evb/icons/download.png) <a href="/img/products/wiz750sr-100/datasheet/wiz750sr-100_evb_v1.1_pl_20171215.pdf" target="_blank">Download</a> |         |
-
+| 1.0         | TTL  | Excel    | ![](/img/products/w5500/w5500_evb/icons/download.png) <a href="https://github.com/Wiznet/Hardware-Files-of-WIZnet/raw/4d4c49d044e6d49c58748386eb2b5292ab607564/04_Serial_to_Ethernet_Module/WIZ510SR-RP/WIZ510SR-RP_V100/Partlist/WIZ510SR-RP_PL_V100.xlsx" target="_blank">Download</a> | \-      |
+| :::         | :::  | PDF      | ![](/img/products/w5500/w5500_evb/icons/download.png) <a href="https://github.com/Wiznet/Hardware-Files-of-WIZnet/raw/4d4c49d044e6d49c58748386eb2b5292ab607564/04_Serial_to_Ethernet_Module/WIZ510SR-RP/WIZ510SR-RP_V100/Partlist/WIZ510SR-RP_PL_V100.pdf" target="_blank">Download</a> | \-      |
 ------------------------------------------------------------------------
 
 ## Electrical Characteristics
@@ -329,11 +272,7 @@ When Module working well Blinking every 1.0s </td>
 
 | Condition                      | Min  | Typ  | Max  | Tol  | Unit |
 | ------------------------------ | ---- | ---- | ---- | ---- | ---- |
-| 100M Link                      | \-   | TBD  | \-   |      | mA   |
-| 10M Link                       | \-   | TBD  | \-   |      | mA   |
-| Unlink (Auto-negotiation mode) |      | TBD  |      |      | mA   |
-| 100M Transmitting              | \-   |      | 90   |      | mA   |
-| 10M Transmitting               | \-   | TBD  | \-   |      | mA   |
+| 100M Transmitting              | \-   |      | 130  |      | mA   |
 
 
 
@@ -566,8 +505,4 @@ Drive this pin low and reset(or power on),then WIZ510SR-RP will enter Boot mode<
     -   76mm x 45mm x 15mm ( Included part size )
 
 <img src="https://github.com/Wiznet/Hardware-Files-of-WIZnet/blob/master/04_Serial_to_Ethernet_Module/WIZ510SR-RP/Pictures/WIZ510SR-RP%20PCB%20TOP.png?raw=true" width="700" />
-
--   WIZ5xxSR-RP-EVB Rev1.0 Dimension :
-    -   TBD ( PCB board size )
-    -   TBD ( Included part size )
 
