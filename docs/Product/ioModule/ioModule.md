@@ -28,7 +28,7 @@ develop their Internet enabling system rapidly.
 -->
 
 |    | [W5100S-io](https://docs.wiznet.io/Product/ioModule/W5100S-io) | [W5500-io](https://docs.wiznet.io/Product/ioModule/W5500-io) | [W6100-io](https://docs.wiznet.io/Product/ioModule/W6100-io) |
-| --- | -------------------------| -------------------------| --------------------| -------------------| ------------------ | --------------- | ------------ |
+| --- | -------------------------| -------------------------| --------------------|
 | Image | <img src="https://github.com/Wiznet/Hardware-Files-of-WIZnet/raw/master/05_Network_Module/W5100S-io/Pictures/W5100S-io%203D.png" width="150" />|<img src="https://raw.githubusercontent.com/Wiznet/Hardware-Files-of-WIZnet/master/05_Network_Module/W5500-io/Pictures/W5500-io 3D.png" width="150" />|<img src="https://github.com/Wiznet/Hardware-Files-of-WIZnet/blob/master/05_Network_Module/W6100-io/Pictures/W6100-io%203D.png?raw=true" width="150" />|
 | Embedded Block | W5100S, No MAG Jack | W5500, No MAG Jack | W6100, No MAG Jack |
 | Host Interface | SPI | SPI | SPI |
