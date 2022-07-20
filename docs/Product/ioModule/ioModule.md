@@ -14,6 +14,9 @@ develop their Internet enabling system rapidly.
 ## Product Family
 
 <!--
+  - [W5100S-io](W5100S-io) : W5100S No MagJack, Compact size(Hardware compatible with W5500-io, W6100-io)
+  - [W5500-io](W5500-io) : W5500 No MagJack, Compact size(Hardware compatible with W5100S-io, W6100-io)
+  - [W6100-io](W6100-io) : W6100 No MagJack, Compact size(Hardware compatible with W5100S-io, W5500-io)
   - [WIZ850io](wiz850io): W5500 w/ MagJack, Compact size(Hardware compatible with WIZ820io)
   - [WIZ550io](wiz550io): W5500 w/ MagJack, Unique MAC Address, Auto-configurable
   - [WIZ820io](wiz820io): W5200 w/ MagJack, Compact Size
@@ -23,6 +26,18 @@ develop their Internet enabling system rapidly.
   - [WIZ830MJ](wiz830mj): W5300 w/ MagJack High-throughput
   - [NM7010B+](nm7010b): W3150A+ w/ External PHY and MagJack
 -->
+
+|    | [W5100S-io](https://docs.wiznet.io/Product/ioModule/W5100S-io) | [W5500-io](https://docs.wiznet.io/Product/ioModule/W5500-io) | [W6100-io](https://docs.wiznet.io/Product/ioModule/W6100-io) |
+| --- | -------------------------| -------------------------| --------------------| -------------------| ------------------ | --------------- | ------------ |
+| Image | <img src="https://github.com/Wiznet/Hardware-Files-of-WIZnet/raw/master/05_Network_Module/W5100S-io/Pictures/W5100S-io%203D.png" width="150" />|<img src="https://raw.githubusercontent.com/Wiznet/Hardware-Files-of-WIZnet/master/05_Network_Module/W5500-io/Pictures/W5500-io 3D.png" width="150" />|<img src="https://github.com/Wiznet/Hardware-Files-of-WIZnet/blob/master/05_Network_Module/W6100-io/Pictures/W6100-io%203D.png?raw=true" width="150" />|
+| Embedded Block | W5100S, No MAG Jack | W5500, No MAG Jack | W6100, No MAG Jack |
+| Host Interface | SPI | SPI | SPI |
+| HW Socket | 4 | 8 | 8 |
+| Auto MDIX | Yes | No | Yes |
+| Pin Header | Two 1x7(2.54mm) <br /> One 1x6(2.54mm) <br />(Just soldering point.<br /> Not include pin header) | Two 1x7(2.54mm) <br /> One 1x6(2.54mm) <br />(Just soldering point. <br />Not include pin header) | Two 1x7(2.54mm) <br /> One 1x6(2.54mm) <br />(Just soldering point. <br />Not include pin header) |
+| Dimension (mm) | 24 x 20 x 2.6 | 24 x 20 x 2.6 | 24 x 20 x 2.6 |
+| Operation Temp (℃) | -40..85 | -40..85 | -40..85 |
+| MAC Address | No |No |No |
 
 |    | [WIZ610io](./WIZ610io.md) | [WIZ610mj](./WIZ610MJ.md) | [WIZ810Sio](./WIZ810Sio.md) | [WIZ810SMJ](./WIZ810SMJ.md) | [WIZ850io](./WIZ850io.md) | [WIZ550io](./wiz550io.md) | [WIZ830MJ](./WIZ830MJ.md) |
 | --- | -------------------------| -------------------------| --------------------| -------------------| ------------------ | --------------- | ------------ |

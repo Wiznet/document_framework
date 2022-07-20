@@ -661,6 +661,9 @@ module.exports = {
 			link: {type: 'doc', id: 'Product/ioModule/iomodule'},
 			items: [
 			//'Product/ioModule/iomodule',
+			'Product/ioModule/W5100S-io',
+			'Product/ioModule/W5500-io',
+			'Product/ioModule/W6100-io',
 			'Product/ioModule/wiz610io',
 			'Product/ioModule/wiz610mj',
 			'Product/ioModule/wiz810sio',
