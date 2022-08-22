@@ -27,9 +27,9 @@ develop their Internet enabling system rapidly.
   - [NM7010B+](nm7010b): W3150A+ w/ External PHY and MagJack
 -->
 
-|    | [W5100S-io](https://docs.wiznet.io/Product/ioModule/W5100S-io) | [W5500-io](https://docs.wiznet.io/Product/ioModule/W5500-io) | [W6100-io](https://docs.wiznet.io/Product/ioModule/W6100-io) |
+|    | [W5100S-io](./W5100S-io.md) | [W5500-io](./W5500-io.md) | [W6100-io](./W6100-io.md) |
 | --- | -------------------------| -------------------------| --------------------|
-| Image | <img src="https://github.com/Wiznet/Hardware-Files-of-WIZnet/raw/master/05_Network_Module/W5100S-io/Pictures/W5100S-io%203D.png" width="150" />|<img src="https://raw.githubusercontent.com/Wiznet/Hardware-Files-of-WIZnet/master/05_Network_Module/W5500-io/Pictures/W5500-io 3D.png" width="150" />|<img src="https://github.com/Wiznet/Hardware-Files-of-WIZnet/blob/master/05_Network_Module/W6100-io/Pictures/W6100-io%203D.png?raw=true" width="150" />|
+| Image | ![W5100S-io](/img/products/w5100s-io/w5100s-io-top.png) | ![W5500-io](/img/products/w5500-io/w5500-io-top.png) | ![W6100-io](/img/products/w6100-io/w6100-io-top.png) |
 | Embedded Block | W5100S, No MAG Jack | W5500, No MAG Jack | W6100, No MAG Jack |
 | Host Interface | SPI | SPI | SPI |
 | HW Socket | 4 | 8 | 8 |
