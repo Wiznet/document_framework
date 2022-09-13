@@ -10,12 +10,12 @@ date: 2022-09-13
 
 We will use the 🌎[release](https://github.com/Wiznet/WIZ550S2E/releases) page of WIZ550S2E's in github.
 
-- <a href="https://github.com/Wiznet/WIZ550S2E-Modbus/releases/download/v1.4.1/Binary_v141.zip" target="_blank">v1.4.1 - Modbus Version</a>
+- [v1.4.1 - Modbus Version](https://github.com/Wiznet/WIZ550S2E-Modbus/releases/download/v1.4.1/Binary_v141.zip)
     - Added features - Modbus
         - Source code - https://github.com/Wiznet/WIZ550S2E-Modbus
         - v1.30 Configuration Tool or later is required.
 
-- <a href="https://github.com/Wiznet/WIZ550S2E/releases/download/v1.3.0/Binary_v130.zip" target="_blank">v1.3.0 - MQTT Version</a>
+- [v1.3.0 - MQTT Version](https://github.com/Wiznet/WIZ550S2E/releases/download/v1.3.0/Binary_v130.zip)
     - Added features - MQTT
         - Source code - https://github.com/Wiznet/WIZ550S2E
         - AT+MQTTSET : (AT command) This command is used to initialize the necessary parameters of MQTT connection(set information automatically saved)
