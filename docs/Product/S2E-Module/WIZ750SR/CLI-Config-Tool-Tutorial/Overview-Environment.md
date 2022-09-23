@@ -10,9 +10,10 @@ CLI Configuration Tool Tutorial #1
 
 ## Overview
 
-This is Configuration & Test Tool for WIZnet S2E devices.  
-Python interpreter based and it is platform independent.  
-It works on **version 2.7 and 3.6 python**.
+This is command-line Configuration & Test Tool for WIZnet Serial to Ethernet devices.
+
+Python interpreter based and it is platform independent.
+It works on **python 3.6 or later**.
 
 ### Supported Devices
 
@@ -39,15 +40,10 @@ It works on **version 2.7 and 3.6 python**.
 
 #### Python Install
 
-This Tool works on python version 2.7 and 3.6.  
+This Tool works on python version 3.6 or later.  
 If you don't have Python, refer to [Python download page](https://www.python.org/downloads/)
 
 If python already installed, check the version as follow. (on cmd.exe)
-
-    >python --version
-    Python 2.7.X
-
-or,
 
     >python --version
     Python 3.6.X
