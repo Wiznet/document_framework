@@ -1,7 +1,7 @@
 ---
 id: documents
 title: Documents
-date: 2022-09-30
+date: 2022-06-30
 ---
 
 The **DataSheet** provides a brief introduce about WizFi360.
@@ -171,27 +171,27 @@ Hub.
 - <a href="/img/products/wizfi360/wizfi360ds/wizfi360_atset_v1118_e.pdf" target="_blank">AT Instruction set V1.1.1.8 - English</a>
 - <a href="/img/products/wizfi360/wizfi360ds/wizfi360_atset_v1118_k.pdf" target="_blank">AT Instruction set V1.1.1.8 - Korean</a>
 
-| Version   | Date    | Decription      |
-| --------- | ------- | --------------- |
-| V 1.1.1.9 | SEP2022 | Modify AT+AZSET |
+| Version   | Date    | Decription                                          |
+| --------- | ------- | ----------------------------------------------------|
+| V 1.1.1.8 | JUN2022 | Modify AT+MQTTTOPIC, Add AT+MQTTQOS, AT+MQTTPUBSEND |
 
 **Old Datasheet History**
 
-| Version   | Date    | Decription                                                                     |
-| --------- | ------- | -------------------------------------------------------------------------------|
-| V 1.0.0   | AUG2019 | Initial Release                                                                |
-| V 1.0.1   | AUG2019 | Please refer to document                                                       |
-| V 1.0.2   | AUG2019 | Add AT+WPS, AT+SLEEP, AT+GLSP Command, renewal layout                          |
-| V 1.0.3   | AUG2019 | Add MQTT Commands                                                              |
-| V 1.0.4   | SEP2019 | Fix typo                                                                       |
-| V 1.0.5   | OCT2019 | Modify CWMODE Factory Default                                                  |
-| V 1.0.6   | OCT2019 | Add Azure commands, AT+SSLCONF and AT+CASEND, Fix typo, Add Command History    |
-| V 1.0.7   | MAR2020 | Add AT+WIZ\_NETCONFIG, Modify AT+CWSTARTSMART, Modify minor typos and error    |
-| V 1.0.7.2 | MAR2020 | Modify AT+WIZ\_NETCONFIG, Modify AT+CWSTARTSMART, Modify minor typos and error |
-| V 1.1.1.1 | JAN2021 | Modify AT+MQTTCON                                                              |
-| V 1.1.1.2 | APR2021 | Add AT+AWSCON, AT+AWSPKSEND, AT+CLICASEND                                      |
-| V 1.1.1.7 | MAY2022 | Modify AT+CIUPDATE firmware download link                                      |
-| V 1.1.1.8 | JUN2022 | Modify AT+MQTTTOPIC, Add AT+MQTTQOS, AT+MQTTPUBSEND                            |
+| Version | Date    | Decription                                                                                  |
+| ------- | ------- | ------------------------------------------------------------------------------------------- |
+| V 1.0.0 | AUG2019 | Initial Release                                                                             |
+| V 1.0.1 | AUG2019 | Please refer to document                                                                    |
+| V 1.0.2 | AUG2019 | Add AT+WPS, AT+SLEEP, AT+GLSP Command, renewal layout                                       |
+| V 1.0.3 | AUG2019 | Add MQTT Commands                                                                           |
+| V 1.0.4 | SEP2019 | Fix typo                                                                                    |
+| V 1.0.5 | OCT2019 | Modify CWMODE Factory Default                                                               |
+| V 1.0.6 | OCT2019 | Add Azure commands, AT+SSLCONF command and AT+CASEND command, Fix typo, Add Command History |
+| V 1.0.7 | MAR2020 | Add AT+WIZ\_NETCONFIG, Modify AT+CWSTARTSMART, Modify minor typos and error                 |
+| V 1.0.7.2 | MAR2020 | Modify AT+WIZ\_NETCONFIG, Modify AT+CWSTARTSMART, Modify minor typos and error            |
+| V 1.1.1.1 | JAN2021 | Modify AT+MQTTCON                                                                         |
+| V 1.1.1.2 | APR2021 | Add AT+AWSCON, AT+AWSPKSEND, AT+CLICASEND                                                 |
+| V 1.1.1.7 | MAY2022 | Modify AT+CIUPDATE firmware download link                                                 |
+
 
 ### AT Command Comparison Sheet
 
