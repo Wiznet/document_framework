@@ -189,6 +189,7 @@ module.exports = {
 					'Product/iEthernet/W6100/ref-schematic',
 					'Product/iEthernet/W6100/application-note',
 					'Product/iEthernet/W6100/w6100-evb',
+					'Product/iEthernet/W6100/w6100-evb-pico',
 					'Product/iEthernet/W6100/getting-started-w6100evb',
 					'Product/iEthernet/W6100/new-project-truestudio',
 					'Product/iEthernet/W6100/new-project-eclipse',
