@@ -788,3 +788,5 @@ BOOT</td>
     -   50.00(W) x 30.00(L) x 9.00(H) (Unit : mm)
 
 <img src="/img/products/s2e_module/wiz752sr-120/wiz752sr-120_dimension.png" width="700" alt="WIZ752SR-120 V1.0 Dimension" />
+
+<img src="https://github.com/Wiznet/Hardware-Files-of-WIZnet/blob/master/04_Serial_to_Ethernet_Module/WIZ752SR-120/Pictures/WIZ752SR-120_Dimension_BOT.png?raw=true" width="700" />
