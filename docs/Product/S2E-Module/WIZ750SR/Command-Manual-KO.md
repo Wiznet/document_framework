@@ -66,17 +66,17 @@ UART port는 커맨드의 입력과 수행을 지원하지 않습니다.**
       - 해당 핀은 Pull-up 상태이며, Low Active로 동작합니다.
       - 제품 동작 시, 초기에 한 번의 설정 변경 등이 필요한 경우 활용 할 수 있습니다.
 
-```
-  - 하드웨어 트리거 핀(HW_TRIG)을 Low로 인가합니다.
-    * EVB의 경우, HW_TRIG 스위치를 Command로 위치 시킵니다.
-  - WIZ750SR을 Power on 시킵니다.
-    * 시리얼 커맨드 모드로 동작하는 경우, Debug UART port를 통해 다음 메시지를 확인 할 수 있습니다.
-    * <code>> SEG:AT Mode</code> 
-  - 설정이 필요한 항목의 Command와 Parameter를 시리얼((Data UART port))로 입력합니다.
-  - [[#ex|EX]] 커맨드를 이용하여 데이터 전송 모드로 전환합니다.
-    * 성공적으로 데이터 모드로 전환 된 경우, Debug UART port를 통해 다음 메시지를 확인 할 수 있습니다.
-    * <code>> SEG:GW Mode</code>
-```
+<pre>
+1. 하드웨어 트리거 핀(HW_TRIG)을 Low로 인가합니다.<br/>
+  &nbsp;* EVB의 경우, HW_TRIG 스위치를 Command로 위치 시킵니다.<br/>
+2. WIZ750SR을 Power on 시킵니다.<br/>
+  &nbsp;* 시리얼 커맨드 모드로 동작하는 경우, Debug UART port를 통해 다음 메시지를 확인 할 수 있습니다.<br/>
+  &nbsp;&nbsp;<b>> SEG:AT Mode</b><br/>
+3. 설정이 필요한 항목의 Command와 Parameter를 시리얼(Data UART port)로 입력합니다.<br/>
+4. <a href="#ex">EX</a> 커맨드를 이용하여 데이터 전송 모드로 전환합니다.<br/>
+  &nbsp;* 성공적으로 데이터 모드로 전환 된 경우, Debug UART port를 통해 다음 메시지를 확인 할 수 있습니다.<br/>
+  &nbsp;&nbsp;<b>> SEG:GW Mode</b><br/>
+</pre>
 
   - **2. 커맨드 모드 전환 코드를 이용한 커맨드 모드 진입**
       - WIZ750SR 제품에서 지원하는 커맨드 모드 전환 코드를 이용하여 커맨드 모드로 진입 할 수 있습니다.
@@ -87,27 +87,29 @@ UART port는 커맨드의 입력과 수행을 지원하지 않습니다.**
         \[2B\]\[2B\]\[2B\]** (Char '+++'))
 
 
+<pre>
+- 제품 설정 프로그램(Configuration Tool)의 'Serial command mode switch code' 항목 Enable 여부와 3-bytes '커맨드 모드 전환 코드'를 확인합니다.<br/>
+- Data UART port로 커맨드 모드 전환 코드를 입력하여 모드를 변경합니다.<br/>
+  &nbsp;* 아래 '커맨드 모드 전환 시 주의점'을 확인하여야 합니다.<br/>
+  &nbsp;* 시리얼 커맨드 모드로 정상 변경된 경우, Debug UART port를 통해 다음 메시지를 확인 할 수 있습니다.<br/>
+  &nbsp;&nbsp;<b>> SEG:AT Mode</b><br/>
+- 설정이 필요한 항목의 Command와 Parameter를 시리얼로 입력합니다.<br/>
+- <a href="#ex">EX</a> 커맨드를 이용하여 데이터 전송 모드로 전환합니다.<br/>
+  &nbsp;* 성공적으로 데이터 모드로 전환 된 경우, Debug UART port를 통해 다음 메시지를 확인 할 수 있습니다.<br/>
+  &nbsp;&nbsp;<b>> SEG:GW Mode</b><br/>
+</pre>
 
-``` 
-  - 제품 설정 프로그램(Configuration Tool)의 'Serial command mode switch code' 항목 Enable 여부와 3-bytes '커맨드 모드 전환 코드'를 확인합니다.
-  - Data UART port로 커맨드 모드 전환 코드를 입력하여 모드를 변경합니다.
-    * 아래 '커맨드 모드 전환 시 주의점'을 확인하여야 합니다.
-    * 시리얼 커맨드 모드로 정상 변경된 경우, Debug UART port를 통해 다음 메시지를 확인 할 수 있습니다.
-    * <code>> SEG:AT Mode</code>  
-  - 설정이 필요한 항목의 Command와 Parameter를 시리얼로 입력합니다.
-  - [[#ex|EX]] 커맨드를 이용하여 데이터 전송 모드로 전환합니다.
-    * 성공적으로 데이터 모드로 전환 된 경우, Debug UART port를 통해 다음 메시지를 확인 할 수 있습니다.
-    * <code>> SEG:GW Mode</code> 
-```
 
 **Trigger code를 이용한 커맨드 모드 전환 시 주의점**은 다음과 같습니다.
 
-``` 
-  - 3-byte 커맨드 모드 전환 코드의 전, 후로 **500ms 이상**의 데이터 전송 없는 시간 간격(Time gap)이 있어야 전환 코드로 인식합니다.
-  - 3-byte 커맨드 모드 전환 코드의 각 byte 간 사이의 입력 시간 간격이 **500ms 이하**여야 합니다.
-  - 커맨드 모드 전환 코드의 말미에는 CR과 LF를 붙이지 않습니다.((이와 반대로, 모드 전환 후 입력 될 시리얼 커맨드의 경우에는 각 커맨드의 마지막에 CR과 LF를 붙여야 합니다.))
-  - 커맨드 모드 전환 코드 전, 후 간격과 사이 간격의 **초기 값은 500ms**이며, 시리얼 데이터 패킹 옵션의 **Timer** 값이 설정된 경우 간격 값은 설정된 Timer 값으로 변경됩니다.
-```
+<pre>
+- 3-byte 커맨드 모드 전환 코드의 전, 후로 <b>500ms 이상</b>의 데이터 전송 없는 시간 간격(Time gap)이 있어야 전환 코드로 인식합니다.<br/>
+- 3-byte 커맨드 모드 전환 코드의 각 byte 간 사이의 입력 시간 간격이 <b>500ms 이하</b>여야 합니다.<br/>
+- 커맨드 모드 전환 코드의 말미에는 CR과 LF를 붙이지 않습니다.(이와 반대로, 모드 전환 후 입력 될 시리얼 커맨드의 경우에는 각 커맨드의 마지막에 CR과 LF를 붙여야 합니다.)<br/>
+- 커맨드 모드 전환 코드 전, 후 간격과 사이 간격의 <b>초기 값은 500ms</b>이며, 시리얼 데이터 패킹 옵션의 <b>Timer</b> 값이 설정된 경우 간격 값은 설정된 Timer 값으로 변경됩니다.<br/>
+</pre>
+
+
 
 #### Serial Command Frame Format
 
