@@ -106,7 +106,7 @@ Comparison Sheet** provides comparison with ESP8266 AT command.
 
 ### FCC
 
-  - <a href="/img/products/wizfi360/wizfi360ds/certificate_sts1906023e_fcc_sdoc_cer.pdf" target="_blank">WizFi360 Certification</a>
+  - <a href="/img/products/wizfi360/wizfi360ds/EMC104756 FCC Grant.pdf" target="_blank">WizFi360 Certification</a>
 
 | Date    | Decription |
 | ------- | ---------- |
@@ -124,7 +124,7 @@ Comparison Sheet** provides comparison with ESP8266 AT command.
 ### J-MIC(TELEC)
 
   - <a href="/img/products/wizfi360/wizfi360ds/certificate_022-190204_wizfi360-pa_20191111.pdf" target="_blank">WizFi360-PA Certification</a>
-  - <a href="/img/products/wizfi360/wizfi360ds/certificate_022-190205_wizfi360-con_20191111.pdf" target="_blank">WizFi360-PA Certification</a>
+  - <a href="/img/products/wizfi360/wizfi360ds/certificate_022-190205_wizfi360-con_20191111.pdf" target="_blank">WizFi360-CON Certification</a>
 
 | Date    | Decription |
 | ------- | ---------- |
