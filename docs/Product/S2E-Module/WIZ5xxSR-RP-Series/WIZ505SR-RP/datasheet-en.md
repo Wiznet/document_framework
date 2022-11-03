@@ -1,4 +1,4 @@
----
+﻿---
 id: datasheet
 title: Datasheet
 date: 2022-05-09
@@ -91,261 +91,6 @@ Flow control: None, RTS / CTS, XON / XOFF</td>
 | BOTTOM                                                       |
 
 
-
-------
-
-### WIZ505SR-RP Pinout
-
-<img src="https://github.com/Wiznet/Hardware-Files-of-WIZnet/blob/master/04_Serial_to_Ethernet_Module/WIZ505SR-RP/Pictures/WIZ505SR-RP%20Pinout.png?raw=true" width="800" />
-
-------------------------------------------------------------------------
-
-### WIZ505SR-RP indicate
-
-<img src="https://github.com/Wiznet/Hardware-Files-of-WIZnet/blob/master/04_Serial_to_Ethernet_Module/WIZ505SR-RP/Pictures/WIZ505SR-RP%20LED.png?raw=true" width="800" />
-
-<table>
-<thead>
-<tr class="header">
-<th>Pin Number</th>
-<th>Pin Name</th>
-<th>Signal</th>
-<th>Description</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>1</td>
-<td>LD2</td>
-<td>Power LED(Red)</td>
-<td>Power on LED</td>
-</tr>
-<tr class="even">
-<td>2</td>
-<td>LD3</td>
-<td>TCP_STATUS LED(Green)</td>
-<td>ON : Connect<br />
-OFF : Disconnect</td>
-</tr>
-<tr class="odd">
-<td>3</td>
-<td>LD4</td>
-<td>LINK_STATUS LED(Green)</td>
-<td>ON : LINK<br />
-OFF : Unlink</td>
-</tr>
-<tr class="even">
-<td>4</td>
-<td>LD5</td>
-<td>BLINK LED(Green)</td>
-<td>Working indicate<br />
-When Module working well Blinking every 1.0s </td>
-</tr>
-</tbody>
-</table>
-
-
-------------------------------------------------------------------------
-
-## WIZ5xxSR-RP-EVB (TBD)
-
-
-<!--
-
--   WIZ500SR-RP Developer Board.
--   USB to UART chip, CP2104.
--   RESET Tact SW.
--   BOOT0 Slide SW.
--   H/W Trig Slide SW.
--   Expansion GPIO TEST (Digital / Analog)
--   Micro USB.
--   WIZ5xxSR-100-EVB (RS-232)
-    -   RS-232C Transceiver, D-SUB9-MALE.
-
-<img src="/img/products/wiz750jr/datasheet/wiz750jr-evb_description.png" width="800" />
-
-------------------------------------------------------------------------
-
-### Serial Interface
-
-<img src="/img/products/wiz750sr-100/datasheet/wiz750sr-100-evb_pinout.png" width="400" />
-
-| Pin Number | Signal | Description                  |
-| ---------- | ------ | ---------------------------- |
-| 1          | DCD    | NC                           |
-| 2          | RXD    | Receive Data                 |
-| 3          | TXD    | Transmit Data                |
-| 4          | DTR    | Data Terminal Ready          |
-| 5          | GND    | System Ground(Signal Ground) |
-| 6          | DSR    | Data Set Ready               |
-| 7          | RTS    | Request To Send              |
-| 8          | CTS    | Clear To Send                |
-| 9          | RI     | NC                           |
-
--   RXD, TXD, GND: These are all you need if the device does not use
-    hardware handshaking.
--   RXD, TXD, GND, RTS, CTS: These are the signals used when serial
-    device uses hardware handshaking.
--   DTR, DSR: Not used
-
-<img src="/img/products/wiz750sr-100/datasheet/wiz750sr-100-serial_cable.png" width="600" />
-
--->
-
-------------------------------------------------------------------------
-
-## Schematic & Artwork
-
-### WIZ505SR-RP
-
-| H/W version | Type | Filetype | Download Link                                                | Remarks |
-| ----------- | ---- | -------- | ------------------------------------------------------------ | ------- |
-| 1.0         | TTL  | Altium   | ![](/img/products/w5500/w5500_evb/icons/download.png) <a href="https://github.com/Wiznet/Hardware-Files-of-WIZnet/raw/4d4c49d044e6d49c58748386eb2b5292ab607564/04_Serial_to_Ethernet_Module/WIZ505SR-RP/WIZ505SR-RP_V100/Schematic/WIZ505SR-RP_SCH_V100.zip" target="_blank">Download</a> | \-      |
-| :::         | :::  | PDF      | ![](/img/products/w5500/w5500_evb/icons/download.png) <a href="https://github.com/Wiznet/Hardware-Files-of-WIZnet/raw/4d4c49d044e6d49c58748386eb2b5292ab607564/04_Serial_to_Ethernet_Module/WIZ505SR-RP/WIZ505SR-RP_V100/Schematic/WIZ505SR-RP_SCH_V100.pdf" target="_blank">Download</a> | \-      |
-
-### WIZ5xxSR-RP-EVB (TBD)
-
-| H/W version | Type  | Filetype | Download Link | Remarks |
-| ----------- | ----- | -------- | ------------- | ------- |
-|             | RS232 | -   |               | \-      |
-| :::         | :::   | -      |               | \-      |
-
-------------------------------------------------------------------------
-
-## Part list
-
-### WIZ505SR-RP
-
-| H/W version | Type | Filetype | Download Link                                                | Remarks |
-| ----------- | ---- | -------- | ------------------------------------------------------------ | ------- |
-| 1.0         | TTL  | Excel    | ![](/img/products/w5500/w5500_evb/icons/download.png) <a href="https://github.com/Wiznet/Hardware-Files-of-WIZnet/raw/4d4c49d044e6d49c58748386eb2b5292ab607564/04_Serial_to_Ethernet_Module/WIZ505SR-RP/WIZ505SR-RP_V100/Partlist/WIZ505SR-RP_PL_V100.xlsx" target="_blank">Download</a> |\-      |
-| :::         | :::  | PDF      | ![](/img/products/w5500/w5500_evb/icons/download.png) <a href="https://github.com/Wiznet/Hardware-Files-of-WIZnet/raw/4d4c49d044e6d49c58748386eb2b5292ab607564/04_Serial_to_Ethernet_Module/WIZ505SR-RP/WIZ505SR-RP_V100/Partlist/WIZ505SR-RP_PL_V100.pdf" target="_blank">Download</a> |\-      |
-
-### WIZ5xxSR-RP-EVB (TBD)
-
-| H/W version | Type | Filetype | Download Link | Remarks |
-| ----------- | ---- | -------- | ------------- | ------- |
-| 1.0         | TTL  | -    |               |\-      |
-| :::         | :::  | -    |               |\-      |
-
-------------------------------------------------------------------------
-
-## Electrical Characteristics
-
-### Operating Conditions
-
-<table>
-<thead>
-<tr class="header">
-<th>Symbol</th>
-<th>Parameter</th>
-<th>Min</th>
-<th>Typ</th>
-<th>Max</th>
-<th>Unit</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>V<em>cc</em></td>
-<td><strong>Operating Voltage</strong></td>
-<td>3.135</td>
-<td>3.3</td>
-<td>3.465</td>
-<td>V</td>
-</tr>
-<tr class="even">
-<td>V<em>ss</em></td>
-<td><strong>Ground</strong></td>
-<td></td>
-<td>0</td>
-<td>50</td>
-<td>mV</td>
-</tr>
-<tr class="odd">
-<td>f<em>FCLK</em></td>
-<td><strong>Internal CPU clock frequency</strong></td>
-<td>-</td>
-<td>-</td>
-<td>133</td>
-<td>MHz</td>
-</tr>
-<tr class="even">
-<td>T<em>stg</em></td>
-<td><strong>Storage Temperature (max)</strong></td>
-<td>-20</td>
-<td></td>
-<td>85</td>
-<td>℃</td>
-</tr>
-<tr class="odd">
-<td>T<em>A</em></td>
-<td><strong>Ambient operating temperature</strong></td>
-<td>-20</td>
-<td></td>
-<td>85</td>
-<td>℃</td>
-</tr>
-<tr class="odd">
-<td>V<em>IH</em></td>
-<td><strong>Input high voltage</strong></td>
-<td>2.5</td>
-<td></td>
-<td></td>
-<td>V</td>
-</tr>
-<tr class="even">
-<td>V<em>IL</em></td>
-<td><strong>Input low voltage</strong></td>
-<td></td>
-<td></td>
-<td>0.6</td>
-<td>V</td>
-</tr>
-<tr class="odd">
-<td>V<em>OH</em></td>
-<td><strong>Output high voltage<br />
-(High driving strength Current load = 6mA)<br />
-(Low driving strength Current load = 3mA)</strong></td>
-<td>2.83</td>
-<td></td>
-<td></td>
-<td>V</td>
-</tr>
-<tr class="even">
-<td>V<em>OL</em></td>
-<td><strong>Output high voltage<br />
-(High driving strength Current load = 6mA)<br />
-(Low driving strength Current load = 3mA)</strong></td>
-<td></td>
-<td></td>
-<td>0.32</td>
-<td>V</td>
-</tr>
-</tbody>
-</table>
-
-
-
-### Ethernet Power Dissipation
-
-| Condition                      | Min  | Typ  | Max  | Tol  | Unit |
-| ------------------------------ | ---- | ---- | ---- | ---- | ---- |
-| 100M Transmitting              | \-   |      | 125  |      | mA   |
-
-
-
-
-### External Flash Memory
-
-| Symbol | Parameter            | Min     | Unit   |
-| ------ | -------------------- | ------- | ------ |
-| N*END* | **Sector Endurance** | 100,000 | Cycles |
-| T*DR*  | **Data Retention**   | 20      | Years  |
-
-
-
-------------------------------------------------------------------------
 
 ## Connector Specification
 
@@ -538,8 +283,6 @@ Drive this pin low and reset(or power on),then WIZ505SR-RP will enter Boot mode<
 
 
 
-------------------------------------------------------------------------
-
 ## Switch Specification
 
 ### RESET Switch (SW1)
@@ -560,12 +303,201 @@ Drive this pin low and reset(or power on),then WIZ505SR-RP will enter Boot mode<
 
 
 
-------
+## WIZ505SR-RP indicate
+
+<img src="https://github.com/Wiznet/Hardware-Files-of-WIZnet/blob/master/04_Serial_to_Ethernet_Module/WIZ505SR-RP/Pictures/WIZ505SR-RP%20LED.png?raw=true" width="800" />
+
+<table>
+<thead>
+<tr class="header">
+<th>Pin Number</th>
+<th>Pin Name</th>
+<th>Signal</th>
+<th>Description</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>1</td>
+<td>LD2</td>
+<td>Power LED(Red)</td>
+<td>Power on LED</td>
+</tr>
+<tr class="even">
+<td>2</td>
+<td>LD3</td>
+<td>TCP_STATUS LED(Green)</td>
+<td>ON : Connect<br />
+OFF : Disconnect</td>
+</tr>
+<tr class="odd">
+<td>3</td>
+<td>LD4</td>
+<td>LINK_STATUS LED(Green)</td>
+<td>ON : LINK<br />
+OFF : Unlink</td>
+</tr>
+<tr class="even">
+<td>4</td>
+<td>LD5</td>
+<td>BLINK LED(Green)</td>
+<td>Working indicate<br />
+When Module working well Blinking every 1.0s </td>
+</tr>
+</tbody>
+</table>
+
+------------------------------------------------------------------------
+## WIZ505SR-RP EVB
+  
+  connect WIZ505SR-RP J2  with [WIZ505SR-RP EVB](https://docs.wiznet.io/Product/S2E-Module/WIZ5xxSR-RP-Series/WIZ505SR-RP EVB/datasheet-en) J6 
+
+|                                                              |
+| ------------------------------------------------------------ |
+| <img src="https://github.com/Wiznet/Hardware-Files-of-WIZnet/blob/master/04_Serial_to_Ethernet_Module/WIZ505SR-RP/Pictures/combine_2.png?raw=true" width="700" /> |
+| TOP                                                          |
+| <img src="https://github.com/Wiznet/Hardware-Files-of-WIZnet/blob/master/04_Serial_to_Ethernet_Module/WIZ505SR-RP/Pictures/combine_1.png?raw=true" width="600" /> |
+| BOTTOM    
+
+  
+## Schematic & Artwork
+
+### WIZ505SR-RP
+
+| H/W version | Type | Filetype | Download Link                                                | Remarks |
+| ----------- | ---- | -------- | ------------------------------------------------------------ | ------- |
+| 1.0         | TTL  | Altium   | ![](/img/products/w5500/w5500_evb/icons/download.png) <a href="https://github.com/Wiznet/Hardware-Files-of-WIZnet/raw/4d4c49d044e6d49c58748386eb2b5292ab607564/04_Serial_to_Ethernet_Module/WIZ505SR-RP/WIZ505SR-RP_V100/Schematic/WIZ505SR-RP_SCH_V100.zip" target="_blank">Download</a> | \-      |
+| :::         | :::  | PDF      | ![](/img/products/w5500/w5500_evb/icons/download.png) <a href="https://github.com/Wiznet/Hardware-Files-of-WIZnet/raw/4d4c49d044e6d49c58748386eb2b5292ab607564/04_Serial_to_Ethernet_Module/WIZ505SR-RP/WIZ505SR-RP_V100/Schematic/WIZ505SR-RP_SCH_V100.pdf" target="_blank">Download</a> | \-      |
+
+-------------------------------------------------------------------------------------
+
+## Part list
+
+### WIZ505SR-RP
+
+| H/W version | Type | Filetype | Download Link                                                | Remarks |
+| ----------- | ---- | -------- | ------------------------------------------------------------ | ------- |
+| 1.0         | TTL  | Excel    | ![](/img/products/w5500/w5500_evb/icons/download.png) <a href="https://github.com/Wiznet/Hardware-Files-of-WIZnet/raw/4d4c49d044e6d49c58748386eb2b5292ab607564/04_Serial_to_Ethernet_Module/WIZ505SR-RP/WIZ505SR-RP_V100/Partlist/WIZ505SR-RP_PL_V100.xlsx" target="_blank">Download</a> |\-      |
+| :::         | :::  | PDF      | ![](/img/products/w5500/w5500_evb/icons/download.png) <a href="https://github.com/Wiznet/Hardware-Files-of-WIZnet/raw/4d4c49d044e6d49c58748386eb2b5292ab607564/04_Serial_to_Ethernet_Module/WIZ505SR-RP/WIZ505SR-RP_V100/Partlist/WIZ505SR-RP_PL_V100.pdf" target="_blank">Download</a> |\-      |
+
+------------------------------------------------------------------------
+
+## Electrical Characteristics
+
+### Operating Conditions
+
+<table>
+<thead>
+<tr class="header">
+<th>Symbol</th>
+<th>Parameter</th>
+<th>Min</th>
+<th>Typ</th>
+<th>Max</th>
+<th>Unit</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>V<em>cc</em></td>
+<td><strong>Operating Voltage</strong></td>
+<td>3.135</td>
+<td>3.3</td>
+<td>3.465</td>
+<td>V</td>
+</tr>
+<tr class="even">
+<td>V<em>ss</em></td>
+<td><strong>Ground</strong></td>
+<td></td>
+<td>0</td>
+<td>50</td>
+<td>mV</td>
+</tr>
+<tr class="odd">
+<td>f<em>FCLK</em></td>
+<td><strong>Internal CPU clock frequency</strong></td>
+<td>-</td>
+<td>-</td>
+<td>133</td>
+<td>MHz</td>
+</tr>
+<tr class="even">
+<td>T<em>stg</em></td>
+<td><strong>Storage Temperature (max)</strong></td>
+<td>-20</td>
+<td></td>
+<td>85</td>
+<td>℃</td>
+</tr>
+<tr class="odd">
+<td>T<em>A</em></td>
+<td><strong>Ambient operating temperature</strong></td>
+<td>-20</td>
+<td></td>
+<td>85</td>
+<td>℃</td>
+</tr>
+<tr class="odd">
+<td>V<em>IH</em></td>
+<td><strong>Input high voltage</strong></td>
+<td>2.5</td>
+<td></td>
+<td></td>
+<td>V</td>
+</tr>
+<tr class="even">
+<td>V<em>IL</em></td>
+<td><strong>Input low voltage</strong></td>
+<td></td>
+<td></td>
+<td>0.6</td>
+<td>V</td>
+</tr>
+<tr class="odd">
+<td>V<em>OH</em></td>
+<td><strong>Output high voltage<br />
+(High driving strength Current load = 6mA)<br />
+(Low driving strength Current load = 3mA)</strong></td>
+<td>2.83</td>
+<td></td>
+<td></td>
+<td>V</td>
+</tr>
+<tr class="even">
+<td>V<em>OL</em></td>
+<td><strong>Output high voltage<br />
+(High driving strength Current load = 6mA)<br />
+(Low driving strength Current load = 3mA)</strong></td>
+<td></td>
+<td></td>
+<td>0.32</td>
+<td>V</td>
+</tr>
+</tbody>
+</table>
 
 
+### Ethernet Power Dissipation
+
+| Condition                      | Min  | Typ  | Max  | Tol  | Unit |
+| ------------------------------ | ---- | ---- | ---- | ---- | ---- |
+| 100M Transmitting              | \-   |      | 125  |      | mA   |
+
+
+
+### External Flash Memory
+
+| Symbol | Parameter            | Min     | Unit   |
+| ------ | -------------------- | ------- | ------ |
+| N*END* | **Sector Endurance** | 100,000 | Cycles |
+| T*DR*  | **Data Retention**   | 20      | Years  |
+
+
+
+------------------------------------------------------------------------
 
 ## Dimension
-
 
 
 -   WIZ505SR-RP Rev1.0 Dimension :
@@ -573,8 +505,4 @@ Drive this pin low and reset(or power on),then WIZ505SR-RP will enter Boot mode<
     -   40mm x 66.5mm x 15mm ( Included part size )
 
 <img src="https://github.com/Wiznet/Hardware-Files-of-WIZnet/blob/master/04_Serial_to_Ethernet_Module/WIZ505SR-RP/Pictures/WIZ505SR-RP%20PCB%20TOP.png?raw=true" width="700" />
-
--   WIZ5xxSR-RP-EVB Rev1.0 Dimension :
-    -   TBD ( PCB board size )
-    -   TBD ( Included part size )
 
