@@ -501,8 +501,8 @@ module.exports = {
 					type:'category',
 					label:'EVB',
 					items: [
-					'Product/S2E-Module/WIZ5xxSR-RP-Series/EVB/WIZ500SR-RP EVB',
-					'Product/S2E-Module/WIZ5xxSR-RP-Series/EVB/WIZ505SR-RP EVB',
+					'Product/S2E-Module/WIZ5xxSR-RP-Series/EVB/WIZ500SR-RP-EVB',
+					'Product/S2E-Module/WIZ5xxSR-RP-Series/EVB/WIZ505SR-RP-EVB',
 					]
 				}						
 				]
