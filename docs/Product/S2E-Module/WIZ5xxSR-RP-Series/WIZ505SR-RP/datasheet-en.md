@@ -350,7 +350,7 @@ When Module working well Blinking every 1.0s </td>
 ------------------------------------------------------------------------
 ## WIZ505SR-RP EVB
   
-  connect WIZ505SR-RP J2  with [WIZ505SR-RP EVB](https://docs.wiznet.io/Product/S2E-Module/WIZ5xxSR-RP-Series/WIZ505SR-RP-EVB/datasheet) J6 
+  connect WIZ505SR-RP J2  with [WIZ505SR-RP EVB](https://docs.wiznet.io/Product/S2E-Module/WIZ5xxSR-RP-Series/wiz505sr-rp-evb) J6 
 
 |                                                              |
 | ------------------------------------------------------------ |
