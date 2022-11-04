@@ -359,6 +359,7 @@ When Module working well Blinking every 1.0s </td>
 | <img src="https://github.com/Wiznet/Hardware-Files-of-WIZnet/blob/master/04_Serial_to_Ethernet_Module/WIZ505SR-RP/Pictures/combine_1.png?raw=true" width="600" /> |
 | BOTTOM    
 
+----------------------------------------------------------------------
   
 ## Schematic & Artwork
 
@@ -369,7 +370,7 @@ When Module working well Blinking every 1.0s </td>
 | 1.0         | TTL  | Altium   | ![](/img/products/w5500/w5500_evb/icons/download.png) <a href="https://github.com/Wiznet/Hardware-Files-of-WIZnet/raw/4d4c49d044e6d49c58748386eb2b5292ab607564/04_Serial_to_Ethernet_Module/WIZ505SR-RP/WIZ505SR-RP_V100/Schematic/WIZ505SR-RP_SCH_V100.zip" target="_blank">Download</a> | \-      |
 | :::         | :::  | PDF      | ![](/img/products/w5500/w5500_evb/icons/download.png) <a href="https://github.com/Wiznet/Hardware-Files-of-WIZnet/raw/4d4c49d044e6d49c58748386eb2b5292ab607564/04_Serial_to_Ethernet_Module/WIZ505SR-RP/WIZ505SR-RP_V100/Schematic/WIZ505SR-RP_SCH_V100.pdf" target="_blank">Download</a> | \-      |
 
--------------------------------------------------------------------------------------
+
 
 ## Part list
 
