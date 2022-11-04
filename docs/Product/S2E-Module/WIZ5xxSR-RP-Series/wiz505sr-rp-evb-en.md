@@ -1,6 +1,6 @@
 ﻿---
-id: datasheet
-title: Datasheet
+id: wiz505sr-rp-evb
+title: WIZ505SR-RP-EVB
 date: 2022-05-09
 
 ---
