@@ -496,7 +496,9 @@ module.exports = {
 					'Product/S2E-Module/WIZ5xxSR-RP-Series/WIZ510SR-RP/datasheet',
 					'Product/S2E-Module/WIZ5xxSR-RP-Series/WIZ510SR-RP/getting-started',
 					]
-				}				
+				},
+				'Product/S2E-Module/WIZ5xxSR-RP-Series/wiz500sr-rp-evb',
+				'Product/S2E-Module/WIZ5xxSR-RP-Series/wiz505sr-rp-evb'
 				]
 			},
 			{
