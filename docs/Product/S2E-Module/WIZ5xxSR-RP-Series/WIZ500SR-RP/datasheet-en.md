@@ -421,7 +421,7 @@ When Module working well Blinking every 1.0s </td>
 
 ## WIZ500SR-RP EVB SET
 
--   The WIZ500SR-RP EVB SET is a combination of [WIZ500SR-RP EVB](./WIZ500SR-RP-EVB/datasheet-en.md) and [WIZ505SR-RP EVB](./WIZ505SR-RP-EVB/datasheet-en.md).
+-   The WIZ500SR-RP EVB SET is a combination of [WIZ500SR-RP EVB](https://github.com/Wiznet/document_framework/blob/master/docs/Product/S2E-Module/WIZ5xxSR-RP-Series/WIZ500SR-RP-EVB/datasheet-en.md) and [WIZ505SR-RP EVB](https://docs.wiznet.io/Product/S2E-Module/WIZ5xxSR-RP-Series/WIZ505SR-RP-EVB/datasheet).
 
 
 <img src="https://github.com/Wiznet/Hardware-Files-of-WIZnet/blob/master/04_Serial_to_Ethernet_Module/WIZ500SR-RP-EVB(RJ45)/Images/%EA%B2%B0%ED%95%A9%EC%82%AC%EC%A7%842-1.png?raw=true" width="700" />
