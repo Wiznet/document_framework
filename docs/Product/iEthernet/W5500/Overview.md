@@ -45,16 +45,16 @@ LAN) and a Power Down Mode in order to reduce power consumption.
 
 ### Language
 
-  - [Japanese Version](japanese_v)
+  - [Japanese Version](./japanese-v.md)
 
 ### Material
 
   - [W5500 Datasheet](Datasheet.md)
-  - [W5500 Driver](driver)
-  - [W5500 Reference Schematic](Ref._Schematic.md)
-  - [Migration from W5200 to W5500](migration_from_w5200)
+  - [W5500 Driver](./Driver.md)
+  - [W5500 Reference Schematic](Ref.-Schematic.md)
+  - [Migration from W5200 to W5500](./Migration-from-W5200.md)
   - [W5500 TCP Function](Application/TCP.md)
   - [W5500 UDP Function](Application/UDP.md)
   - [W5500 Application Note (IPRAW)](Application/IPRAW.md)
   - [W5500 Application Note (PPPoE)](Application/PPPoE.md)
-  - [W5500 Confirmation of ESD Test](Application/SPI_Performance.md)
+  - [W5500 Confirmation of ESD Test](Application/SPI-Performance.md)

@@ -1,5 +1,5 @@
 ---
-id: comparison_sheet
+id: comparison-sheet
 title: W5100S Comparison Sheet
 date: 2020-04-03
 ---
@@ -9,7 +9,7 @@ slight differences in Hardware Specification. Also Software can be shared.
 For example, Software written for the W5100 or W5500 is compatible with
 Hardware for the W5100S. However, there are some differences between
 W5100S and W5100/W5500 in Software and Hardware. The difference are
-described in the document titled "W5100S comparison sheet" below.
+described in the document titled "Comparison Sheet" below.
 
 -----
 

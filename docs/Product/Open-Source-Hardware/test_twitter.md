@@ -12,10 +12,8 @@ date: 2020-04-03
     ![](/img/osh/ioshield-a/tweet_library_for_arduino.png)
 2.  Then you can get the token-code.
     ![](/img/osh/ioshield-a/arduino_tweet_lib_token.png)
-3.  Update new "Ethernet" library for ioShield. please refer [Update
-    Ethernet Library](/osh/ioshield-a/updatelib)
-4.  You can see an example sketch from "File -\> Examples -\> Ethernet
-    -\> Twitter\_SimplePost".
+3.  Update new "Ethernet" library for ioShield. please refer [Update Ethernet Library](./ioShield-A.md)
+4.  You can see an example sketch from "File -\> Examples -\> Ethernet -\> Twitter\_SimplePost".
 5.  Done\~\~.
 6.  original source from
     <http://playground.arduino.cc/Code/TwitterLibrary>
@@ -38,8 +36,7 @@ IPAddress dnsip(1,1,1,1);
 Twitter twitter("YOUR-TOKEN-HERE"); // this was YourID:Password in 1.0.1
 ```
 
-You need also to refer [begin Ethernet
-library](http://arduino.cc/en/Reference/EthernetBegin).
+You need also to refer [begin Ethernet library](http://arduino.cc/en/Reference/EthernetBegin).
 
 please refer the below image to change code.
 ![](/img/osh/ioshield-a/cap_2013-08-19_15-09-30-656.png)

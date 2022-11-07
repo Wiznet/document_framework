@@ -1,5 +1,5 @@
 ---
-id: w5500_application
+id: w5500-application
 title: W5500 Application
 date: 2020-05-14
 ---
@@ -10,4 +10,4 @@ date: 2020-05-14
   * [UDP](UDP.md)
   * [IPRAW](IPRAW.md)
   * [PPPoE](PPPoE.md)
-  * [SPI Performance](SPI_Performance.md)
+  * [SPI Performance](SPI-Performance.md)

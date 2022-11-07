@@ -71,13 +71,13 @@ similar to the Xbee pin layout. But it is not exactly compatible.
           
 ## Quick Start Guide
 
-  - 🌎[Quick Start Guide](documents#quick-start-guide)
+  - 🌎[Quick Start Guide](./Documents.md#quick-start-guide)
 
 -----
 
 ## Datasheet
 
-  - 🌎[Download](documents#wizfi360io-series)
+  - 🌎[Download](./Documents.md#wizfi360io-series)
 
 -----
 

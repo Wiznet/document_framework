@@ -12,12 +12,14 @@ date: 2020-04-16
 
   - **Full Binary (Boot + App), Uesing the Flash Loader Demonstrator**
 
-  - **Full Binary (App Boot + App)**  
+  - **Full Binary (App Boot + App)**
+
 <a href="/img/products/wiz550sr/wiz550sr_download/wiz550sr_160531.zip" target="_blank">Download (Boot + App)</a>  
 
   - **App Binary (App), Uesing the WIZnet Configuration Tool**
 
 **App Binary (App)**  
+
 <a href="/img/products/wiz550sr/wiz550sr_download/wiz550sr_app_160531.zip" target="_blank">Download (App)</a>  
 
 
@@ -33,36 +35,34 @@ date: 2020-04-16
 
 ## Download Configuration Tool
 
- WIZnet Configuration Tool made Java
-base. so runs on any OS that JRE be installed.  
+WIZnet Configuration Tool made Java base. so runs on any OS that JRE be installed.
 Install JAVA Runtime Environment
 
-  - <http://www.java.com/>
-  - Click on the **Free Java Download** button.
-  - Install the downloaded installation file.
+- <http://www.java.com/>
+- Click on the **Free Java Download** button.
+- Install the downloaded installation file.
 
 
 ![WIZnet Configuration Tool Version 1.0.3](/img/products/wiz550sr/wiz550sr_download/configuration.png)
 
-**WIZnet Configuration Tool
-Version 1.0.3**  
+**WIZnet Configuration Tool Version 1.0.3**  
+
 <a href="/img/products/wiz550sr/wiz550sr_download/wiznet_configuration_tool_ver1.03.zip" target="_blank">Download (zip)</a>
 
 
 -----
 
 **Configuration Tool Firmware Upload Guide(TFTP)**  
-<a href="/img/products/wiz550sr/wiz550s2e_fw_uploading_tftp.pdf" target="_blank">Configuration Tool Fw upload guide(TFTP)</a>
 
+<a href="/img/products/wiz550sr/wiz550s2e_fw_uploading_tftp.pdf" target="_blank">Configuration Tool Fw upload guide(TFTP)</a>
 
 -----
 
 ## Download WIZ550SR EVB USB Driver
 
-In order to use WIZ550SR is required
-for USB driver(Provided by the FTDI).  
-**Virtual COM Port
-Drivers.**  
+In order to use WIZ550SR is required for USB driver(Provided by the FTDI).  
+
+**Virtual COM Port Drivers.**  
   
 <http://www.ftdichip.com/Drivers/VCP.htm>
 
@@ -84,29 +84,24 @@ Therefore, Write firmware must use the program provided by STmicro.
 
 ![](/img/products/wiz750sr/usermanual/wiz_vsp.jpg)
 
-  - WIZ VSP (WIZnet Virtual Serial COM port) is the software for those
-    users who want to use the existing application programs based on
-    serial communication. For more detailed information, please visit
-    the following link and see the bottom of the page.
+- WIZ VSP (WIZnet Virtual Serial COM port) is the software for those users who want to use the existing application programs based on serial communication. For more detailed information, please visit the following link and see the bottom of the page.
 
-**Go to WIZVSP end user license agreement page:**  
-**<http://wizvsp.wiznet.io>**
+**Go to WIZVSP end user license agreement page: <http://wizvsp.wiznet.io>**
 
 -----
 
 ## How to program WIZ550SR code flash memory
 
-#### 1\. WIZ550SR enter the ISP mode
+1. WIZ550SR enter the ISP mode
 
-Press the 'Boot' push button switch on WIZ550SR EVB(or BOOT pin) until
-turn on the board after reset or power supply
+Press the 'Boot' push button switch on WIZ550SR EVB(or BOOT pin) until turn on the board after reset or power supply
 
-#### 2\. Run the 'Flash Loader Demonstrator' Program
+2. Run the 'Flash Loader Demonstrator' Program
 
 Refer to [Flash Loader Demonstrator](http://www.st.com/web/en/catalog/tools/FM147/CL1794/SC961/SS1533/PF257525?s_searchtype=keyword)
 
-#### 3\. Flash program and Run the new application firmware
+3. Flash program and Run the new application firmware
 
-#### 4\. How to WIZ550web Firmware
+4. How to WIZ550web Firmware
 
 -----

@@ -942,21 +942,21 @@ ISP mode firmware downloader port</td>
 
  **WIZ750SR** 
 
-  - **User's Manual [(English)](users_manual-EN)/[(Korean)](users_manual-KO)** 
+  - **User's Manual [(English)](./Users-Manual-EN.md)/[(Korean)](./Users-Manual-KO.md)** 
   
-  - **Device Command Manual [(English)](Command_Manual-EN)/[(Korean)](Command_Manual-KO)**
+  - **Device Command Manual [(English)](./Command-Manual-EN.md)/[(Korean)](./Command-Manual-KO.md)**
   
-  - **Troubleshooting Guide [(English)](Trouble_Shooting-EN)/[(Korean)](Trouble_Shooting-KO)**
+  - **Troubleshooting Guide [(English)](./Trouble-Shooting-EN.md)/[(Korean)](./Trouble-Shooting-KO.md)**
   
-  - **Update History [(English)](Series_Update_History-EN)/[(Korean)](Series_Update_History-KO)**
+  - **Update History [(English)](./Series-Update-History-EN.md)/[(Korean)](./Series-Update-History-KO.md)**
   
 -----
 
 **WIZ750SR series Downloads** 
 
-  - **[Software Download](Download)**
+  - **[Software Download](./Download.md)**
 
-  - **[Technical References](Technical_References)**
+  - **[Technical References](./Technical-References.md)**
 
 -----
 

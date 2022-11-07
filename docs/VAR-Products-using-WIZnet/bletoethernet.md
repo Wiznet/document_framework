@@ -26,7 +26,7 @@ Application Note is to build a low power IoT node environment.
 | --------- | ------------------------------------------------------------------------------------------------------------------------------- |
 | nRF52832  | [Download](http://infocenter.nordicsemi.com/pdf/nRF52832_PS_v1.0.pdf)                                                           |
 | PCA10040  | [Download](http://infocenter.nordicsemi.com/topic/com.nordic.infocenter.nrf52/dita/nrf52/development/nrf52_dev_kit.html?cp=2_0) |
-| W5500     | [Download](../Product/iEthernet/W5500/datasheet)                                                        |
+| W5500     | [Download](../Product/iEthernet/W5500/Datasheet.md)                                                        |
 | Schematic | [Download](https://drive.google.com/open?id=0Bx-BD_H8XJXxVWdrcVliY1E1RGM)                                                       |
 | Altium    | [Download](https://drive.google.com/open?id=0Bx-BD_H8XJXxek13TlBubXZZclE)                                                       |
 | Gerber    | [Download](https://drive.google.com/open?id=0Bx-BD_H8XJXxWmg0MDlnWVJLZ2M)                                                       |
@@ -47,7 +47,7 @@ link below.
 
 | Protocol           | Document                                                                                                                          |
 | ------------------ | --------------------------------------------------------------------------------------------------------------------------------- |
-| W5500 TCP          | [Doc Link](../Product/iEthernet/W5500/Application/tcp)                                           |
+| W5500 TCP          | [Doc Link](../Product/iEthernet/W5500/Application/TCP.md)                                           |
 | BLE NUS Central    | [Doc Link](http://infocenter.nordicsemi.com/topic/com.nordic.infocenter.sdk5.v11.0.0/ble_sdk_app_nus_c.html?cp=5_0_0_4_2_0_3)     |
 | BLE NUS Peripheral | [Doc Link](http://infocenter.nordicsemi.com/topic/com.nordic.infocenter.sdk5.v11.0.0/ble_sdk_app_nus_eval.html?cp=5_0_0_4_2_2_18) |
 

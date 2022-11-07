@@ -59,7 +59,7 @@ This chapter describes how to set WizFi310 in order to exchange data with peer s
 
 #### Using Serial Command
 
-This section explains how to connect to AP by using serial command. The default value which module will start is command mode so user can input AT command. If you input the AT commands as below, WizFi310 will connect to AP and then start TCP server. In the example, AP is set like that. ( SSID : WizFiDemoAP, Security : WAP2, Key : 12345678 )
+This section explains how to connect to AP by using serial command. The default value which module will start is command mode, so users can input AT command. If you input the AT commands as below, WizFi310 will connect to AP and then start TCP server. In the example, AP is set like as such. ( SSID : WizFiDemoAP, Security : WAP2, Key : 12345678 )
 
     AT                     (Sent AT command with 0x0d (Hex of Enter button))
     [OK]                          (response meaning successful execution)

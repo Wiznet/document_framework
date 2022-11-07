@@ -30,7 +30,7 @@ AT+MQTTPUB=<Topic>,<Length>
 
 You can find the detailed description about the AT Commands for MQTT
 at the link below.  
-[AT Commands list for MQTT](at_commands#mqtt-commands)
+[AT Commands list for MQTT](./AT_Commands.md#mqtt-commands)
 
   
 ### Example AT Command
@@ -125,7 +125,7 @@ Then, You can see the graph that was made up of raw data.
 ![](/img/products/wizfi310/wizfi310pg/3_create_aio_key_1.png)
 
 ### Connect to Adafruit Broker
-Before connection, you have to know the information about below.  
+Before connection, you have to know the information below.  
 
 - Username
 - Adafruit AIO Key

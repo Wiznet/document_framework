@@ -18,11 +18,11 @@ mbedのプラットフォームと互換して使用されます。
 ## 使用可能なボードリスト
 
   - ARM mbed ボード
-      - [ARM mbed Platform](http://developer.mbed.org/platforms/) : ARM
+      - [ARM mbed Platform](http://os.mbed.com/platforms/) : ARM
         mbed platform Site
-      - [FRDM-KL25Z](http://developer.mbed.org/platforms/) : Freescale
+      - [FRDM-KL25Z](http://os.mbed.com/platforms/) : Freescale
       - [NXP
-        LPC800-MAX](http://developer.mbed.org/platforms/NXP-LPC800-MAX/)
+        LPC800-MAX](http://os.mbed.com/platforms/NXP-LPC800-MAX/)
         : NXP
   - Arduino ボード
       - [Arduino board (e.g. the Uno, Mega,
@@ -41,15 +41,14 @@ mbedのプラットフォームと互換して使用されます。
   -  W5500 Ethernet shieldを使用するために、ArduinoIDEに含まれているWIZnet Ethernet
     LibraryのUpdateが必要である。（**必須**）
   - 下のリンクを参照してください。
-      - このURLに従ってください[Getting
-        Started\_jp](getting_started_arduino_jp)
+      - このURLに従ってください[Getting Started\_jp](./getting_started_arduino_jp.md)
 
 -----
 
 ## 言語
 
-  - [Eng.Ver](w5500_ethernet_shield)
-  - [Kor.Ver](w5500_ethernet_shield_kor)
+  - [Eng.Ver](./W5500_Ethernet_Shield.md)
+  - [Kor.Ver](./W5500_Ethernet_Shield_kor.md)
 
 -----
 
@@ -93,7 +92,7 @@ W5500イーサネットシールドはGPIOピンを使用者が選択できま�
 
 **SPIオペレーション**
 
-W5500イーサネットシールドにはW5500チップが使用されました。ですのでSPIオペレーションやタイミングダイアグラムは[W5500](../iEthernet/W5500/overview)と同一です。詳しい情報は下のW5500チップのデータシートをご覧ください。
+W5500イーサネットシールドにはW5500チップが使用されました。ですのでSPIオペレーションやタイミングダイアグラムは[W5500](./../iEthernet/W5500/Overview.md)と同一です。詳しい情報は下のW5500チップのデータシートをご覧ください。
 
   - <a href="/img/products/w5500/w5500_ds_v106e_141230.pdf" target="_blank">W5500 Datasheet v1.0.6 - English</a>
   - <a href="/img/products/w5500/w5500_ds_v106k_141230.pdf" target="_blank">W5500 Datasheet v1.0.6 - Korean</a>
@@ -133,7 +132,7 @@ W5500イーサネットシールドにはW5500チップが使用されました�
 
 **ioShield-A使用者のWIZnetイーサネットライブラリ**
 
-  - [Ethernet Library for ioShield-A](ethernet_library_for_ioShield_A)
+  - [Ethernet Library for ioShield-A](./ethernet_library_for_ioShield_A.md)
 
 **例**
 
@@ -147,11 +146,9 @@ W5500イーサネットシールドにはW5500チップが使用されました�
 
 ##  参考
 
-![](/img/products/w5500/w5500_evb/icons/link.png) [WizWiki
-Forum](https://forum.wiznet.io/) : WIZnetの技術的サポートやプロジェクトを共有するフォーラム
+![](/img/products/w5500/w5500_evb/icons/link.png) [WizWiki Forum](https://forum.wiznet.io/) : WIZnetの技術的サポートやプロジェクトを共有するフォーラム
 
-[Ethernet Library for ioShield-A](ethernet_library_for_ioShield_A) : WIZnet
-WIZ550ioの技術的サポート
+[Ethernet Library for ioShield-A](./ethernet_library_for_ioShield_A.md) : WIZnet WIZ550ioの技術的サポート
 
 <!--<http://wizwiki.net/jp> : WIZnet 日本ブログ-->
 

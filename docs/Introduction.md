@@ -7,9 +7,8 @@ date: 2020-04-30
 # WIZnet Document Wiki
 
 This site is an open information collection platform hosting information
-on [WIZnet products](Product/Products.md) and [Open Source Hardware](Product/Open-Source-Hardware/Open_Source_Hardware.md) works.
-Please feel free to improve the contents, contributions from the
-registered account would receive our appreciations.
+on [WIZnet products](Product/Products.md) and [Open Source Hardware](Product/Open-Source-Hardware/Open_Source_Hardware.md).
+Please feel free to improve the content by registering an account. Your contributions would be greatly appreciated.
 
 **Most of the materials of Open Source Hardware are hosted on the
 🌎[WIZnet GitHub site](https://github.com/Wiznet)**
@@ -31,7 +30,7 @@ application info.
   - **[WIZwiki-W7500P](Product/Mbed-WIZwiki-Platform/wizwiki-w7500p.md)**
     ![](/img/star.png)
   - [WIZwiki-W7500ECO](Product/Mbed-WIZwiki-Platform/wizwiki-w7500eco.md)
-  - [WIZwiki-W7500 mbed Starter Kit](Product/Mbed-WIZwiki-Platform/WIZwiki-W7500-Mbed-Starter-Kit/WIZwiki-W7500_Mbed_Starter_Kit.md)
+  - [WIZwiki-W7500 mbed Starter Kit](Product/Mbed-WIZwiki-Platform/WIZwiki-W7500-Mbed-Starter-Kit/WIZwiki-W7500-Mbed-Starter-Kit.md)
   - [W7500](Product/iMCU/W7500/Overview.md)
   - [W7500P](Product/iMCU/W7500P/Overview.md)
   - **[W6100](Product/iEthernet/W6100/Overview.md): Hardwired TCP/IP Chip(IPv4/6 Dual Stack)** ![](/img/star.png) 
@@ -51,11 +50,11 @@ application info.
 ### Open Source Hardware
 
 [Open Source Hardware Home](Product/Open-Source-Hardware/Open_Source_Hardware.md) - Materials and information on WIZnet
-open source hardware products.
+Open source hardware products.
 
-  - **[WIZnet Ethernet HAT](Product/Open-Source-Hardware/WIZnet-Ethernet-HAT.md)**
-  - **[W5500 Ethernet Shield](Product/Open-Source-Hardware/W5500_Ethernet_Shield.md)**
-    ![](/img/star.png)
+  - **[WizFi360-EVB-Pico](Product/Open-Source-Hardware/WizFi360-EVB-Pico.md)** ![](/img/star.png)
+  - **[WIZnet Ethernet HAT](Product/Open-Source-Hardware/WIZnet-Ethernet-HAT.md)** ![](/img/star.png)
+  - [W5500 Ethernet Shield](Product/Open-Source-Hardware/W5500_Ethernet_Shield.md)
   - [ioShield-A](Product/Open-Source-Hardware/ioShield-A.md) for Arduino
   - [ioShield-K](Product/Open-Source-Hardware/ioShield-K.md) for Gadget Renesas KURUMI
   - [ioShield-L](Product/Open-Source-Hardware/ioShield-L.md) for TI’s MSP430 LaunchPad
@@ -76,7 +75,7 @@ open source hardware products.
 
 ### Application References
 
-  - [BLE to Ethernet](VAR-Products-using-WIZnet/ble_to_ethernet)
+  - [BLE to Ethernet](VAR-Products-using-WIZnet/bletoethernet.md)
 
 
 ### External Links

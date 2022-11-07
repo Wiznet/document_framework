@@ -1,13 +1,13 @@
 ---
 id: documents
 title: Documents
-date: 2020-05-13
+date: 2022-06-30
 ---
 
 The **DataSheet** provides a brief introduce about WizFi360.
-These documents describe the Features,package information and etc. The
+These documents describe the Features, package information and etc. The
 **Program Guide** provides the AT Instruction set and AT command
-examles. The AT Instruction document include the description of AT
+examples. The AT Instruction document include the description of AT
 command and the AT command examples document include TCP/UDP/SSL
 connection result and AT command used example. The **Quick Start Guide**
 provides WizFi360-EVB-Shield,WizFi360io and Firmware upgrade guide. The
@@ -23,13 +23,16 @@ Comparison Sheet** provides comparison with ESP8266 AT command.
 
 ### WizFi360
 
-  - <a href="/img/products/wizfi360/wizfi360ds/wizfi360_ds_v107_en.pdf" target="_blank">WizFi360 Datasheet v1.07</a>
+  - <a href="/img/products/wizfi360/wizfi360ds/wizfi360_ds_v109_en.pdf" target="_blank">WizFi360 Datasheet v1.09</a>
 
-  - 2022-02-09 V1.07
-      - Edited “5. Pin Definitions” Figure 3
+  - 2022-06-30 V1.09
+      - Edited “4. Package Information” Figure 2
+      - Edited “7. Peripheral Circuit Reference Design” Figure 6
 
 **Old Datasheet History**
 
+  - 2022-02-09 V1.07
+      - Edited “5. Pin Definitions” Figure 3
   - 2021-03-17 V1.06
       - Edited “5. Pin Definitions” No.19
   - 2019-10-18 V1.03 Edited “Figure3. WizFi360 Pinout”
@@ -51,6 +54,8 @@ Comparison Sheet** provides comparison with ESP8266 AT command.
   - 2019-12-11 V1.05
       - Edited “5. Pin Definitions”
           - No.11 & No.19
+  - 2022-04-05 V1.08
+      - Edited “2. Features”
 
 ### WizFi360-EVB-Shield
 
@@ -101,7 +106,7 @@ Comparison Sheet** provides comparison with ESP8266 AT command.
 
 ### FCC
 
-  - <a href="/img/products/wizfi360/wizfi360ds/certificate_sts1906023e_fcc_sdoc_cer.pdf" target="_blank">WizFi360 Certification</a>
+  - <a href="/img/products/wizfi360/wizfi360ds/EMC104756 FCC Grant.pdf" target="_blank">WizFi360 Certification</a>
 
 | Date    | Decription |
 | ------- | ---------- |
@@ -119,7 +124,7 @@ Comparison Sheet** provides comparison with ESP8266 AT command.
 ### J-MIC(TELEC)
 
   - <a href="/img/products/wizfi360/wizfi360ds/certificate_022-190204_wizfi360-pa_20191111.pdf" target="_blank">WizFi360-PA Certification</a>
-  - <a href="/img/products/wizfi360/wizfi360ds/certificate_022-190205_wizfi360-con_20191111.pdf" target="_blank">WizFi360-PA Certification</a>
+  - <a href="/img/products/wizfi360/wizfi360ds/certificate_022-190205_wizfi360-con_20191111.pdf" target="_blank">WizFi360-CON Certification</a>
 
 | Date    | Decription |
 | ------- | ---------- |
@@ -163,12 +168,12 @@ AT command. WizFi360 basically provides a command compatible with
 ESP8266. In addition, commands are provided for using MQTT and Azure IoT
 Hub.
 
-- <a href="/img/products/wizfi360/wizfi360ds/wizfi360_atset_v1112e.pdf" target="_blank">AT Instruction set V1.1.1.2 - English</a>
-- <a href="/img/products/wizfi360/wizfi360ds/wizfi360_atset_v1112k.pdf" target="_blank">AT Instruction set V1.1.1.2 - Korean</a>
+- <a href="/img/products/wizfi360/wizfi360ds/wizfi360_atset_v1118_e.pdf" target="_blank">AT Instruction set V1.1.1.8 - English</a>
+- <a href="/img/products/wizfi360/wizfi360ds/wizfi360_atset_v1118_k.pdf" target="_blank">AT Instruction set V1.1.1.8 - Korean</a>
 
-| Version   | Date    | Decription                                                                     |
-| --------- | ------- | ------------------------------------------------------------------------------ |
-| V 1.1.1.2 | 22APR2021 | Add AT+AWSCON, AT+AWSPKSEND, AT+CLICASEND                                    |
+| Version   | Date    | Decription                                          |
+| --------- | ------- | ----------------------------------------------------|
+| V 1.1.1.8 | JUN2022 | Modify AT+MQTTTOPIC, Add AT+MQTTQOS, AT+MQTTPUBSEND |
 
 **Old Datasheet History**
 
@@ -184,6 +189,9 @@ Hub.
 | V 1.0.7 | MAR2020 | Add AT+WIZ\_NETCONFIG, Modify AT+CWSTARTSMART, Modify minor typos and error                 |
 | V 1.0.7.2 | MAR2020 | Modify AT+WIZ\_NETCONFIG, Modify AT+CWSTARTSMART, Modify minor typos and error            |
 | V 1.1.1.1 | JAN2021 | Modify AT+MQTTCON                                                                         |
+| V 1.1.1.2 | APR2021 | Add AT+AWSCON, AT+AWSPKSEND, AT+CLICASEND                                                 |
+| V 1.1.1.7 | MAY2022 | Modify AT+CIUPDATE firmware download link                                                 |
+
 
 ### AT Command Comparison Sheet
 
@@ -265,8 +273,9 @@ TCP/UDP/SSL connection result and AT command used example.
 
 ## Hardware Design Guide
 
-- <a href="/img/products/wizfi360/wizfi360ds/wizfi360_hardware_design_guide_v103_en.pdf" target="_blank">Hardware Design Guide</a>
+- <a href="/img/products/wizfi360/wizfi360ds/wizfi360_hardware_design_guide_v104_en.pdf" target="_blank">Hardware Design Guide</a>
 
-| Version | Date    | Decription      |
-| ------- | ------- | --------------- |
+| Version | Date    | Decription |
+| ------- | ------- | ---------- |
 | V1.0.3  | NOV2019 | Initial Release |
+| V1.0.4  | JUN2022 | Edited “Figure 1. WizFi360 Pinout”<br/>Edited “Figure 1. Reference Schematic”<br/>Edited “Figure 2. UART”<br/>Edited “Figure 3. SPI Interface”<br/>Edited “Figure 4. UART Flow Control”|

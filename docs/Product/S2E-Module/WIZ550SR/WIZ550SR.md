@@ -14,33 +14,33 @@ date: 2020-04-16
 ## Documents
 
   - **Product Overview** :
-    [[English](Overview-EN)] /
-    [[Korean](Overview-KO)]
+    [[English](./Overview-EN.md)] /
+    [[Korean](./Overview-KO.md)]
       - Overview
       - Features
 
   - **Getting Started Guide**:
-    [[English](getting_started-EN)] /
-    [[Korean](getting_started-KO)]
+    [[English](./Getting-Started-EN.md)] /
+    [[Korean](./Getting-Started-KO.md)]
       - Product Preview, Hello world
       - Basic operations
 
   - **User's Guide**:
-    [[English](users_manual_programmers_guide-EN)] /
-    [[Korean](users_manual_programmers_guide-KO)]
+    [[English](./Users-Manual-Programmers-Guide-EN.md)] /
+    [[Korean](./Users-Manual-Programmers-Guide-KO.md)]
       - Configuration Tool
       - Serial AT command set
 
   - **Tutorials**:
-    [[English](ATcommand_Tutorial-EN)] /
-    [[Korean](ATcommand_Tutorial-KO)]
+    [[English](./AT-command-Tutorial-EN.md)] /
+    [[Korean](./AT-command-Tutorial-KO.md)]
       - Tutorials; Under construction
 
 ## Datasheet
 
   - **Datasheet**: 
-  [[English](datasheet_hardware_spec_characteristics-EN)] /
-    [[Korean](datasheet_hardware_spec_characteristics-KO)] 
+  [[English](./Datasheet-EN.md)] /
+    [[Korean](./Datasheet-KO.md)] 
      - Hardware Specification
      - Electrical Characteristics
      - Reference Schematics
@@ -48,7 +48,7 @@ date: 2020-04-16
 
 ## Download
 
-  - **[Download](Download)**
+  - **[Download](./Download.md)**
       - Firmware binary
       - Firmware Source code 
       - Configuration Tool (Java ver.)

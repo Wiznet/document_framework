@@ -1,5 +1,5 @@
 ---
-id: socket_less_command
+id: socket-less-command
 title: SOCKET-less Command
 date: 2020-04-03
 ---

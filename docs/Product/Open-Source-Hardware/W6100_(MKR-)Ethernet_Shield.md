@@ -13,7 +13,7 @@ date: 2020-04-03
 
 W6100 Ethernet shield is designed using the WIZnet W6100 chip. Please
 click the link for the further information about
-**[W6100](../../Product/iEthernet/W6100/overview)**. The best advantage of the W6100
+**[W6100](./../iEthernet/W6100/Overview.md)**. The best advantage of the W6100
 (MKR-)Ethernet Shield is that it supports IPv6. It supports both 3.3V &
 5V. This Ethernet Shield is compatible with Arduino and ARM mbed
 Platform.

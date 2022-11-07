@@ -11,8 +11,8 @@ firmware writing to the W7500 (Target MCU) through USB Interface. The
 second function is to receive and transmit data in the UART1 of W7500
 using the USB Interface.  
 The first function is used without the driver, but the second function
-is used after install the driver.  
-CMSIS-DAP Interface of WIZwiKI-W7500 has shows as the photo below.  
+is used after installing the driver.  
+CMSIS-DAP Interface of WIZwiKI-W7500 as shown in the photo below.  
 ![CMSIS-DAP Interface](/img/products/w7500/overview/cmsis-dap_block.png)
 
 -----
@@ -22,7 +22,7 @@ CMSIS-DAP Interface of WIZwiKI-W7500 has shows as the photo below.
 
 The driver could be found on the LINK below, click on the "Download
 latest driver" can download the latest driver.  
-🌎[ARM mbed Window serial configuration PAGE](http://developer.mbed.org/handbook/Windows-serial-configuration)  
+🌎[ARM mbed Window serial configuration PAGE](http://os.mbed.com/handbook/Windows-serial-configuration)  
 If the driver is successfully installed, serial port that is created as
 "mbed Seral Port (COMn)" in Device Manager.
 

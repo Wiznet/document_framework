@@ -19,7 +19,7 @@ Internet enabling systems rapidly.
 
 ![](/img/products/wiz550io/wiz550io_small_005.png)
 
-For more information on the [W5500](../iEthernet/w5500/overview) chip inside the WIZ550io module please also refer to the chip's [datasheet](../iEthernet/w5500/datasheet).
+For more information on the [W5500](./../iEthernet/W5500/Overview.md) chip inside the WIZ550io module please also refer to the chip's [datasheet](./../iEthernet/W5500/Datasheet.md).
 
 ### Datasheet
 
@@ -327,7 +327,7 @@ SW reset, and writing those information to WIZ550io after SW reset.*
 ## SPI Operations
 
 There is a W5500 inside WIZ550io. Therefore SPI operation of WIZ550io follows one of W5500. For more information about SPI operation of
-WIZ550io, please refer to [W5500 Datasheet](../iEthernet/w5500/datasheet).
+WIZ550io, please refer to [W5500 Datasheet](./../iEthernet/W5500/Datasheet.md).
 
 ## Timing diagram
 
@@ -398,6 +398,6 @@ change in all parts placement.
 
 ## Related Products
 
- * [ioShield-A](../Open-Source-Hardware/ioshield_a)
- * [ioShield-K](../Open-Source-Hardware/ioshield_k)
- * [ioShield-L](../Open-Source-Hardware/ioshield_l)
+ * [ioShield-A](./../Open-Source-Hardware/ioShield-A.md)
+ * [ioShield-K](./../Open-Source-Hardware/ioShield-K.md)
+ * [ioShield-L](./../Open-Source-Hardware/ioShield-L.md)

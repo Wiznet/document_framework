@@ -12,8 +12,7 @@ WizFi250 provides UART and SPI interfaces which enable connections to
 any embedded design utilizing an 8/16/32-bit microcontroller via simple
 AT commands. WizFi250 is an ideal solution for organizations with
 limited or no WiFi or RF expertise, as it not only reduces RF design
-time but also removes the burden of testing and certification, allowing
-customers; allowing customers to focus on their core application,
+time but also removes the burden of testing and certification; allowing customers to focus on their core application,
 product, or expertise. WizFi250 is compliant with 802.11b/g/n.  
 ![](/img/products/wizfi250/dsc00057.jpg)  
 
@@ -61,12 +60,12 @@ antenna) :
 **comparison to
 🌎[WizFi210/220](http://www.wiznet.co.kr/sub_modules/en/product/Product_Line.asp?cate1=5&cate2=43)
 module family:**  
-[Please use this link for a comparison](comparison)
+[Please use this link for a comparison](./comparison.md)
 
 ## Material
 
-  - [WizFi250 Datasheet](wizfi250_datasheet)
-  - [WizFi250 Programmer's Guide](wizfi250_programmersguide)
-  - [WizFi250 Quick Start Guide](wizfi250_quickstart)
-  - [WizFi250 EVB SCH](wizfi250_evb_sch)
-  - [Reference YouTube](reference_youtube)
+  - [WizFi250 Datasheet](./Datasheet.md)
+  - [WizFi250 Programmer's Guide](./Programmers-guide.md)
+  - [WizFi250 Quick Start Guide](./Quickstart_guide.md)
+  - [WizFi250 EVB SCH](./WizFi250_EVB_SCH.md)
+  - [Reference YouTube](./Reference_YouTube.md)

@@ -40,8 +40,8 @@ This document provides features of the WizFi630S-EVB and how to use it.
 
 ## WizFi630S Migration Guide
 
-This document provides guide for users to migrate WizFi630A,old one, to
-the WizFi630S.
+This document provides a guide for users to migrate from the old  WizFi630A, 
+the new WizFi630S.
 
   * <a href="/img/products/wizfi630s/wizfi630s_ds/wizfi630s_guide_migration_wizfi630a_to_wizfi630s_kr_v1_0_.pdf" target="_blank">WizFi630S Migration Guide-Kr</a>
   * <a href="/img/products/wizfi630s/wizfi630s_ds/wizfi630s_guide_migration_wizfi630a_to_wizfi630s_en_v1_0_.pdf" target="_blank">WizFi630S Migration Guide-En</a>

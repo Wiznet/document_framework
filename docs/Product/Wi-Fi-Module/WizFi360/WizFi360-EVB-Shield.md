@@ -69,13 +69,13 @@ which can meet the requirement of various applications.
 
 ## Quick Start Guide
 
-  - 🌎[Quick Start Guide](documents#quick-start-guide)
+  - 🌎[Quick Start Guide](./Documents.md#quick-start-guide)
 
 -----
 
 ## Datasheet
 
-  - 🌎[Download](documents#wizfi360-evb-shield)
+  - 🌎[Download](./Documents.md#wizfi360-evb-shield)
 
 -----
 

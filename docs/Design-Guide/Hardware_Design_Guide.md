@@ -23,13 +23,13 @@ performance.
 
   - W5100, W5300, W7100 should be configured as shown above.
   - For the W5500, please follow the URL below for your reference.
-      - 🌎[Ref. Schematic](../Product/iEthernet/W5500/ref_schematic)
+      - 🌎[Ref. Schematic](../Product/iEthernet/W5500/Ref.-Schematic.md)
   - Since the W7500 must use an external PHY, you should contact the
     manufacturer of PHY you are using.
-      - 🌎[Ref. Schematic](../Product/iMCU/W7500/w7500_ref_schematic)
+      - 🌎[Ref. Schematic](../Product/iMCU/W7500/W7500-Ref.Schematic.md)
   - W7500P has built in PHY, and the circuit should be constructed by
     removing part A from the above diagram.
-      - 🌎[Ref. Schematic](../Product/iMCU/W7500P/w7500p_ref_schematic)
+      - 🌎[Ref. Schematic](../Product/iMCU/W7500P/W7500P-Ref.Schematic.md)
 
 -----
 ## Parts Placement

@@ -1,14 +1,21 @@
 ---
 id: ioshield_k
-title: ioShield-K
+title: ioShield-K (discontinued)
 date: 2020-04-03
 ---
+
+:::caution
+
+Please note that this product was discontinued.
+We do not recommend using it in new design. 
+
+:::
 
 ## Overview
 
 ![](/img/osh/ioshield-k/io_s_k.png) 
 
-ioShield-K is an Ethernet Shield for GR-KURUMI(Gadget Renesas KURUMI). The ioShield-K allows a GR-KURUMI board to connect to the internet. It is based on the Wiznet W5500 ethernet chip ([W5500 Datasheet](../iEthernet/W5500/datasheet)). The Wiznet W5500 provides a network (IP) stack capable of both TCP and UDP. It supports up to eight simultaneous socket connections. Use the Ethernet library(📄[WIZ_Ethernet_Library](https://github.com/Wiznet/WIZ_Ethernet_Library)) to write sketches which connect to the internet using the shield. The ioShield-K connects to an GR-KURUMI board using long wire-wrap headers which extend through the shield.
+ioShield-K is an Ethernet Shield for GR-KURUMI(Gadget Renesas KURUMI). The ioShield-K allows a GR-KURUMI board to connect to the internet. It is based on the Wiznet W5500 ethernet chip ([W5500 Datasheet](./../iEthernet/W5500/Datasheet.md)). The Wiznet W5500 provides a network (IP) stack capable of both TCP and UDP. It supports up to eight simultaneous socket connections. Use the Ethernet library(📄[WIZ_Ethernet_Library](https://github.com/Wiznet/WIZ_Ethernet_Library)) to write sketches which connect to the internet using the shield. The ioShield-K connects to an GR-KURUMI board using long wire-wrap headers which extend through the shield.
 
 ![](/img/osh/ioshield-k/io_s_k.png)
 
@@ -28,8 +35,6 @@ do rapid prototyping.
  * Library      :[KURUMI SKETCH (Japanese)](http://tool-cloud.renesas.com/Renesas/ref_kurumi/gr_reference_j.html)
 
 
-
-
 ## GR-KURUMI
 
 GR-KURUMI is the reference board that incorporates the RL78G14 (Renesas
@@ -39,12 +44,4 @@ Arduino language and standard libraries from both hardware and software
 aspects. 
 
   - H/W
-
-
-
-
-
-  - S/W [KURUMI Library
-    (Japanese)](<http://renesasrulz.com/app_kits_and_demo_boards/gadget_renesas_user_forum/f/128/t/3968.aspx>)
-
-
+  - S/W [KURUMI Library (Japanese)](<http://renesasrulz.com/app_kits_and_demo_boards/gadget_renesas_user_forum/f/128/t/3968.aspx>)

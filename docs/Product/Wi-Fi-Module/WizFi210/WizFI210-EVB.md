@@ -10,7 +10,7 @@ date: 2021-07-16
 
 WizFi210-EVB is a evaluation board for WizFi210.
 
-WizFi210 is a Wi-Fi module in 2.4GHz, 802.11b standard and also provides the robust and stable Wi-Fi connectivity with low power consumption. WizFi210 performs all functions for Wi-Fi connectivity and TCP/IP processing. All you have to do is just sending commands to the module via serial interface.
+WizFi210 is a Wi-Fi module in 2.4GHz, 802.11b standard and also provides a robust and stable Wi-Fi connectivity with low power consumption. WizFi210 performs all functions for Wi-Fi connectivity and TCP/IP processing. All you have to do is just send commands to the module via serial interface.
 
 ## Features & Benefits
 

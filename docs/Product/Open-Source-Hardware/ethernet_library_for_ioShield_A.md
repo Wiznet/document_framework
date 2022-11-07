@@ -106,34 +106,22 @@ Library Folder as like
 
   - [Test Twitter](twitter_test): A Twitter Simple
     Posting or refer <http://playground.arduino.cc/Code/TwitterLibrary>
-  - [Test HTTP Client(WebClient)](http_client): A
-    Simple HTTP Client test
+  - [Test HTTP Client(WebClient)](http_client): A Simple HTTP Client test
 
 Basically, you can refer the usage for each examples in Arduino site.
 
-  - <http://arduino.cc/en/Tutorial/ChatServer>: set up a simple chat
-    server.
+  - <http://arduino.cc/en/Tutorial/ChatServer>: set up a simple chat server.
   - <http://arduino.cc/en/Tutorial/WebClient>: make a HTTP request.
-  - <http://arduino.cc/en/Tutorial/WebClientRepeating>: Make repeated
-    HTTP requests.
-  - <http://arduino.cc/en/Tutorial/WebServer>: host a simple HTML page
-    that displays analog sensor values.
-  - [XivelyClient](http://arduino.cc/en/Tutorial/PachubeClient): connect
-    to ~~pachube.com~~ **xively.com**, a free datalogging site. **not a
+  - <http://arduino.cc/en/Tutorial/WebClientRepeating>: Make repeated HTTP requests.
+  - <http://arduino.cc/en/Tutorial/WebServer>: host a simple HTML page that displays analog sensor values.
+  - [XivelyClient](http://arduino.cc/en/Tutorial/PachubeClient): connect to ~~pachube.com~~ **xively.com**, a free datalogging site. **not a
     big change except service name.**
   - [XivelyClientString](http://arduino.cc/en/Tutorial/PachubeClientString):
-    send strings to ~~pachube.com~~ **xively.com**. **not a big change
-    except service name.**
-  - <http://arduino.cc/en/Tutorial/BarometricPressureWebServer>: outputs
-    the values from a barometric pressure sensor as a web page.
-  - <http://arduino.cc/en/Tutorial/UDPSendReceiveString>: Send and
-    receive text strings via UDP.
-  - <http://arduino.cc/en/Tutorial/UdpNtpClient>: Query a Network Time
-    Protocol (NTP) server using UDP.
-  - <http://arduino.cc/en/Tutorial/DnsWebClient>: DNS and DHCP-based Web
-    client.
-  - <http://arduino.cc/en/Tutorial/DhcpChatServer>: A simple DHCP Chat
-    Server
-  - <http://arduino.cc/en/Tutorial/DhcpAddressPrinter>: Get an IP
-    address via DHCP and print it out
+    send strings to ~~pachube.com~~ **xively.com**. **not a big change except service name.**
+  - <http://arduino.cc/en/Tutorial/BarometricPressureWebServer>: outputs the values from a barometric pressure sensor as a web page.
+  - <http://arduino.cc/en/Tutorial/UDPSendReceiveString>: Send and receive text strings via UDP.
+  - <http://arduino.cc/en/Tutorial/UdpNtpClient>: Query a Network Time  Protocol (NTP) server using UDP.
+  - <http://arduino.cc/en/Tutorial/DnsWebClient>: DNS and DHCP-based Web client.
+  - <http://arduino.cc/en/Tutorial/DhcpChatServer>: A simple DHCP Chat Server
+  - <http://arduino.cc/en/Tutorial/DhcpAddressPrinter>: Get an IP address via DHCP and print it out
   - <http://arduino.cc/en/Tutorial/TelnetClient>: A simple Telnet client

@@ -14,13 +14,13 @@ date: 2020-04-07
 WIZnet WIZwiki Platform based on WIZnet's MCU. WIZnet WIZwiki-W7500P is
 a WIZwiki platform board based on W7500P. The IOP4IoT W7500P chip is the
 one-chip solution which integrates an ARM Cortex-M0, 128KB Flash,
-hardwired TCP/IP core for various embedded application platform, 10/100
+hardwired TCP/IP core for various embedded application platforms, 10/100
 Ethernet MAC and PHY, and especially internet of things. The TCP/IP core
 is a market-proven hardwired TCP/IP stack and PHY is IC plus IP101G, an
-IEEE 802.3/802.3u Fast Ethernet Transcevier for 10/100Mbps. The
+IEEE 802.3/802.3u Fast Ethernet Transceiver for 10/100Mbps. The
 Hardwired TCP/IP stack supports the TCP, UDP, IPv4, ICMP, ARP, IGMP and
 PPPoE which has been used in various applications for more than 15
-years. W7500P suits users who need Internet connectivity best.
+years. W7500P best suits users who need Internet connectivity.
 
 -----
 
@@ -84,28 +84,28 @@ years. W7500P suits users who need Internet connectivity best.
 
 **W7500P Library**
 
-   * [W7500P Library PAGE](../iMCU/W7500P/libraries_examples)
+   * [W7500P Library PAGE](./../iMCU/W7500P/Libraries-Examples.md)
 
 -----
 
 
 ## Getting Started
 
-   * [How to start WIZwiki-W7500P Board](Getting-Started/how-to-start-wizwiki-w7500-board)
-   * [How to install WIZwiki-W7500P serial driver](Getting-Started/how-to-install-wizwiki-7500-serial-driver)
-   * [How to write the firmware into WIZwiki-W7500P](Getting-Started/how-to-write-firmware-into-wizwiki-w7500)
-   * [How to debug Wizwiki-W7500P](Getting-Started/how-to-debug-wizwiki-w7500)
-   * [How to write the firmware into CMSIS-DAP](Getting-Started/how-to-write-firmware-into-cmsis-dap)
+   * [How to start WIZwiki-W7500P Board](./Getting-Started/How_to_start_WIZwiki_W7500_Board.md)
+   * [How to install WIZwiki-W7500P serial driver](./Getting-Started/How_to_install_WIZwiki_W7500_serial_driver.md)
+   * [How to write the firmware into WIZwiki-W7500P](./Getting-Started/How_to_write_the_firmware_into_WIZwiki_W7500.md)
+   * [How to debug Wizwiki-W7500P](./Getting-Started/How_to_debug_Wizwiki_W7500.md)
+   * [How to write the firmware into CMSIS-DAP](./Getting-Started/How_to_write_the_firmware_into_CMSIS_DAP.md)
 
 -----
 
 ## Make New WIZwiki-W7500P Projects
 
-   * [How to use ARM mbed.org platform](WIZwiki-W7500-Mbed-Starter-Kit/tutorial_eng)
-   * [How to install KEIL uVision5](../iMCU/W7500/documents/appnote/how_to_install_KEIL)
-   * [How to create KEIL uVision5 new project for W7500](../iMCU/W7500/documents/appnote/how-to-make-keil-new-project-for-w7500)
-   * [How to use MDK for W7500 Peripherals Examples](../iMCU/W7500/documents/appnote/how-to-use-mdk-for-w7500-peripherals-examples)
-   * [How to use gcc for W7500 Peripherals Examples](../iMCU/W7500/documents/appnote/how-to-use-gcc-for-w7500-peripherals-examples)
+   * [How to use ARM mbed.org platform](./WIZwiki-W7500-Mbed-Starter-Kit/Tutorial-Eng.md)
+   * [How to install KEIL uVision5](./../iMCU/W7500/documents/appnote/How_to_install_KEIL.md)
+   * [How to create KEIL uVision5 new project for W7500](./../iMCU/W7500/documents/appnote/How_to_make_KEIL_new_project_for_W7500.md)
+   * [How to use MDK for W7500 Peripherals Examples](./../iMCU/W7500/documents/appnote/How-to-use-MDK-for-W7500-Peripherals-Examples.md)
+   * [How to use gcc for W7500 Peripherals Examples](./../iMCU/W7500/documents/appnote/How_to_use_GCC_for_W7500_Peripherals_Examples.md)
 
 -----
 
@@ -113,7 +113,7 @@ years. W7500P suits users who need Internet connectivity best.
 
 **Datasheet**
 
-   * [W7500P Documents](../iMCU/W7500/Documents.md)
+   * [W7500P Documents](./../iMCU/W7500/Documents.md)
    * <a href="/img/products/w7500p/overview/LPC11U3X.pdf" target="_blank">LPC11U35FHI33/501 Datasheet</a>
 
 **Schematic**
@@ -146,15 +146,14 @@ years. W7500P suits users who need Internet connectivity best.
 
 **Serial Port Driver**
 
-   * 🌎[ARM mbed Window serial configuration PAGE ](http://developer.mbed.org/handbook/Windows-serial-configuration)
+   * 🌎[ARM mbed Window serial configuration PAGE ](http://os.mbed.com/handbook/Windows-serial-configuration)
 
 **W7500 ISP Program**
 
-   * [Go to ISP tool manual & Program download](../iMCU/W7500/documents/appnote/how-to-use-isp-tool)
+   * [Go to ISP tool manual & Program download](./../iMCU/W7500/documents/appnote/How-to-use-ISP-tool.md)
 
  **Examples Binary**
 
+   * [WIZwiki-W7500 Examples Binary](./Getting-Started/How_to_write_the_firmware_into_WIZwiki_W7500.md#examples-binary)
    
-   * [WIZwiki-W7500 Examples Binary](Getting-Started/how-to-write-firmware-into-wizwiki-w7500#examples-binary)
-
------
+    -----

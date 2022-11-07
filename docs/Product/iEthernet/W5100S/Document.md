@@ -9,10 +9,10 @@ date: 2020-04-03
 ## Datasheet
 
 ### Korean
- * <a href="/img/products/w5100s/w5100s_ds_v126k.pdf" target="_blank">W5100S Datasheet v1.2.6</a>
+ * <a href="/img/products/w5100s/w5100s_ds_v127k.pdf" target="_blank">W5100S Datasheet v1.2.7</a>
 
 ### English
- * <a href="/img/products/w5100s/w5100s_ds_v126e.pdf" target="_blank">W5100S Datasheet v1.2.6</a>
+ * <a href="/img/products/w5100s/w5100s_ds_v127e.pdf" target="_blank">W5100S Datasheet v1.2.7</a>
 
 ----
 

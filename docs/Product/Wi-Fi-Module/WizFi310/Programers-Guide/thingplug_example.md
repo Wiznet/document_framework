@@ -14,7 +14,7 @@ ThingPlug는 SK Telecom의 IoT 플랫폼으로, oneM2M 표준 기반의 IoT 서�
 You can find the detailed description about the AT Commands for
 connecting to ThingPlug at the link below.  
 [AT Commands list for Connecting to
-ThingPlug](at_commands#connecting-thingplug-commands)  
+ThingPlug](./AT_Commands.md#connecting-thingplug-commands)  
   
 ### WizFi310 ThingPlug 연동
 
@@ -44,20 +44,20 @@ WizFi310을 ThingPlug의 디바이스로 등록하기
 ### WizFi310으로 선 등록된 디바이스와 연동
 
 1. AP에 접속한 WizFi310을
-[AT+SKTPCON](at_commands#atsktpcon)
+[AT+SKTPCON](./AT_Commands.md#atsktpcon)
 커맨드로 ThingPlug에 접속한다.  
 2. ThingPlug에 성공적으로 접속이 되면,
-[AT+SKTPDEVICE](at_commands#atsktpdevice)
+[AT+SKTPDEVICE](./AT_Commands.md#atsktpdevice)
 커맨드로 디바이스 등록을 한다.  
   
 ![](/img/products/wizfi310/wizfi310pg/5.png)
 
 ### WizFi310으로 ThingPlug에 Data 전송
 
-1. [AT+SKTPCONTAINER](at_commands#atsktpcontainer)커맨드로
+1. [AT+SKTPCONTAINER](./AT_Commands.md#atsktpcontainer)커맨드로
 Container를 생성한다.  
 2. 해당 디바이스의 생성된 Container에
-[AT+SKPSEND](at_commands#atsktpsend)
+[AT+SKPSEND](./AT_Commands.md#atsktpsend)
 커맨드로 데이터를 전송한다.  
 3. 전송된 데이터는 ThingPlug에서 데이터 조회와 대시보드를 통해 확인이 가능하다.  
 \* 전송된 데이터의 조회는 Develop - 디바이스 데이터 조회 탭에서 확인이 가능하다.  

@@ -42,4 +42,4 @@ The below Figure show the flowchart of RNG operation.
 ------------------------------
 
 ## Peripheral_Examples
-- [Random Number Generation example](rng_ex.md)
+- [Random Number Generation example](rng-ex.md)

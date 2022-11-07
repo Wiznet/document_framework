@@ -29,5 +29,5 @@ External interrupt working as following expression:
 ------------------------------
 
 ## Peripheral_Examples
-- [EXTI LED_Toggle example](led_toggle.md)
+- [EXTI LED-Toggle example](./led-toggle.md)
 - [EXTI Sleep example](sleep.md)

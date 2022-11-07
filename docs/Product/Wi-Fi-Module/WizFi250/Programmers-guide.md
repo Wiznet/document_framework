@@ -2869,14 +2869,14 @@ When using this parameter, you can use functions of < S> and < O> at the same ti
 
 This section explains how to connect to and communicate with SSL server. To connect to SSL server, use < TCS(TCP Client SSL)> / < TSS(TCP Server SSL)> parameter of < AT+SCON> command. ( When using UDP, WizFi250 cannot use SSL Connection. ) In order to use SSL connection, you can use AT command as below.
 
-      AT+SCON=SO,TCS,199.59.148.212,443,5000,0
-      [OK]
-
-      [CONNECT 0]
-      AT+SSEND=0,,,18
-      GET / HTTP/1.1{0x0d}{0x0a}
-      {0x0d}{0x0a}
-      [OK]
+```
+AT+SCON=SO,TCS,199.59.148.212,443,5000,0
+[OK]
+[CONNECT 0]
+AT+SSEND=0,,,18
+GET / HTTP/1.1{0x0d}{0x0a}
+{0x0d}{0x0a}
+[OK]
       
 {0,173.194.33.38,443,990}HTTP/1.1 302 Found
 Location: https://www.google.co.kr/
@@ -2891,9 +2891,10 @@ Content-Length: 222
 X-XSS-Protection: 1; mode=block
 X-Frame-Options: SAMEORIGIN
 
-< HTML>< HEAD>< meta http-equiv="content-type" content="text/html;charset=utf-8">< TITLE>302 Moved< /TITLE>< /HEAD>< BODY>< H1>302 Moved< /H1>The document has moved< A HREF="https://www.google.co.kr/">here< /A>.
-< /BODY>< /HTML>
- [DISCONNECT 0]
+<HTML><HEAD><meta http-equiv="content-type" content="text/html;charset=utf-8"><TITLE>302 Moved</TITLE></HEAD><BODY><H1>302 Moved</H1>The document has moved< A HREF="https://www.google.co.kr/">here</A>.
+</BODY></HTML>
+[DISCONNECT 0]
+```
 
 ### Example of Multi Socket Connection
 
@@ -2953,15 +2954,17 @@ This section explains how to operate Air-command-mode of WizFi250. With this Air
 
 Please have a look at the following hints:
 
-Air-command-mode should only be used for configuration of WizFi250. It is not recommended to use the command mode for other purpopses.
-The Air-command-mode will automatically be started, when the module WizFi250 will be booted into the AP mode. The module can then be configured on the port 50001 on its IP address.
+- Air-command-mode should only be used for configuration of WizFi250. It is not recommended to use the command mode for other purpopses.
+- The Air-command-mode will automatically be started, when the module WizFi250 will be booted into the AP mode. The module can then be configured on the port 50001 on its IP address.
+
 The AT command consists of following parts: Command header (WizFi250AirCmd:), AT command (for example: AT) and Carriage Return (\r).
 
 The command should be sent with these conditions:
 
-The command header “WizFi250AirCmd:” is case sensitive and has to be sent in this kind. It is 15 Bytes long.
-A < Carriage Return, 0x1d> has to follow the AT command directly.
-Air-command header, AT command and Carriage Return should be combined into one packet.
+- The command header “WizFi250AirCmd:” is case sensitive and has to be sent in this kind. It is 15 Bytes long.
+- A < Carriage Return, 0x1d> has to follow the AT command directly.
+- Air-command header, AT command and Carriage Return should be combined into one packet.
+
 Example usage of the WizFi250AirCmd:
 
       AT+WSET=1,WizFi250_AIRCMD
@@ -3043,7 +3046,7 @@ STA MAC: CE:52:AF:C6:CF:B5
 To connect your smartphone to WizFi250 via < WiFi Direct>, select
 < WizFi250-P2P> in the list as below.  
 ![](/img/products/wizfi250/wizfi250pg/screenshot_2014-05-12-09-31-05.png)  
-After dozens of seconds, your smartphone will connect to WizFi250 via
+After a few seconds, your smartphone will connect to WizFi250 via
 < WiFi Direct >  
 ![](/img/products/wizfi250/wizfi250pg/screenshot_2014-05-12-09-33-00.png)  
 And you can see the result of < WiFi Direct> in WizFi250.

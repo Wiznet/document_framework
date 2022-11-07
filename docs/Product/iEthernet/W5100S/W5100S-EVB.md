@@ -1,5 +1,5 @@
 ---
-id: w5100s_evb
+id: w5100s-evb
 title: W5100S-EVB
 date: 2020-04-03
 ---
@@ -49,7 +49,7 @@ devices using the W5100S chip.
   - Support Auto-MDIX when Auto-Negotiation Mode.
   - Hardwired TCP/IP stack supports TCP, UDP, WOL over UDP, ICMP,
     IGMPv1/v2, IPv4, ARP,PPPoE protocols
-  - ![](/img/link.png) [W5100s Product page](Overview.md)
+  - ![](/img/link.png) [W5100s Product page](./Overview.md)
 
 **STMicroelectronics STM32F103VCT6 MCU**
 
@@ -114,15 +114,16 @@ W5100S-EVB firmware project based on Eclipse IDE. For more details about
 Eclipse IDE, please refer to below link. **DMA example** has been added
 to the project.
 
-**Download the Libraries and
-Application example source code for W5100S-EVB** 
+**Download the Libraries and Application example source code for W5100S-EVB**
+
 ![](/img/github.png)
 https://github.com/Wiznet/W5100S-EVB
 
- **DMA User Guide**  
+**DMA User Guide**
+
 <a href="/img/products/w5100s/w5100s_evb/w5100s_an_dma_v100k.pdf" target="_blank">W5100S DMA V1.0.0 Korean.pdf</a>
-For More information about DMA, click
-[DMA](Application-Note/dma)
+
+For More information about DMA, click [DMA](./Application-Note/DMA.md)
 
 
 -----
@@ -130,18 +131,18 @@ For More information about DMA, click
 ## Getting Started
 
 
-![](/img/link.png) [Getting Started](w5100s_getting_started)
+![](/img/link.png) [Getting Started](./w5100s-getting-started.md)
 
-![](/img/link.png) [How to upload firmware](w5100s_getting_started#how-to-upload-firmware)
+![](/img/link.png) [How to upload firmware](./w5100s-getting-started.md#how-to-upload-firmware)
 
 -----
 
 ## Make New W5100S-EVB Projects
 
 
-![](/img/link.png) [Make New W5100S-EVB Projects using Eclipse](w5100s_projects_eclipse)
+![](/img/link.png) [Make New W5100S-EVB Projects using Eclipse](./w5100s-projects-eclipse.md)
 
-![](/img/link.png) [Make New W5100S-EVB Projects using TrueSTUDIO](w5100s_projects_truestudio)
+![](/img/link.png) [Make New W5100S-EVB Projects using TrueSTUDIO](./w5100s-projects-truestudio.md)
 
 -----
 
@@ -150,7 +151,7 @@ For More information about DMA, click
 
 **Datasheet**
 
-  - 🌎[datasheet\#W5100S Datasheet](document)
+  - 🌎[datasheet\#W5100S Datasheet](./Document.md)
   - 🌎[STMicroelectronics STM32F103VCT6 Datasheet](http://www.st.com/en/microcontrollers/stm32f103vc.html)
   - 🌎[Virtual COM Port:
     CP2104 COM Port Datasheet](https://www.silabs.com/products/interface/usb-bridges/classic-usb-bridges/device.cp2104)

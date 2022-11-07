@@ -34,21 +34,20 @@ core. We use EMF32TG840F32 in EFM32TG family. Its SPEC is as follows.
 
 ## Preparation for adding W5500
 
-  - [WIZ550io](../..ioModule/wiz550io) or [ioShileds](oshield_a)
+  - [WIZ550io](./../ioModule/wiz550io.md) or [ioShileds](./ioShield-A.md)
   - Tiny Gecko Starter Kit
 
 
 
   - [IAR Embedded Workbench for ARM](http://www.iar.com/)
-  - [Simplicity
-    Studio](http://www.silabs.com/products/mcu/Pages/simplicity-studio.aspx)
+  - [Simplicity Studio](http://www.silabs.com/products/mcu/Pages/simplicity-studio.aspx)
       - Energy Micro Library : emlib
       - Application notes & example
       - Documents
 
 
 
-  - [Download the latest ioLibrary BSD](../../iMCU/W5500/driver)
+  - [Download the latest ioLibrary BSD](./../iEthernet/W5500/Driver.md)
       - Ethernet
       - Internet 
 
@@ -162,8 +161,7 @@ First, Board and your PC should have the network config with the same
 network range.  
 If you want to modify board-side, edit the following code in
 \[src\>\>LB\_main.c\] with the same range which your PC has. If you want
-to modify your PC-side, refer to [IP
-configuration](/osh/cookie/ip_conf_b).
+to modify your PC-side, refer to [IP configuration](./../Open-Source-Hardware/cookie.md).
 
 ``` cpp
 wiz_NetInfo gWIZNETINFO = { .mac = {0x00, 0x08, 0xdc,0x00, 0xab, 0xcd}, //<-mac should be unique.

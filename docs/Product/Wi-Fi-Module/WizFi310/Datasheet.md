@@ -4,7 +4,7 @@ title: Datasheet
 date: 2020-04-24
 ---
 
-<a href="img/products/wizfi310/wizfi310ds/wizfi310_ds_v100e_1610.pdf" target="_blank">WizFi310 Datasheet v0.0.0 - English</a>
+<a href="/img/products/wizfi310/wizfi310ds/wizfi310_ds_v100e_1610.pdf" target="_blank">WizFi310 Datasheet v0.0.0 - English</a>
 
 #### Datasheet History
 
@@ -16,11 +16,11 @@ date: 2020-04-24
 
 WizFi310 is a small size wireless module for the highest level of integration, featuring 802.11b/g and 802.11n.
 
-It have onboard antenna, and external antenna interface, RF output PIN also exist in the board.
+It has an onboard antenna, and an external antenna interface, RF output PIN also exists in the board.
 
 WizFi310 internally integrated TCP / IP protocol stack, supporting numerous protocols such as ARP, IP, ICMP, TCP, UDP, DHCP CLIENT, DHCP SERVER, DNS and other etc. It supports AP mode, Station mode. It also support rich AT commands for most kinds of application needs. Users can easily and quickly use it on wifi networking and data transmission. The baud rate of module serial port up to 921600bps, which can fully meet on low-rate applications.
 
-In networking part, WizFi310 supports network parameters storage in the module that reduces time to connect to network. It also supports WPS. For application protocols, MQTT and SSL were supported in this module.
+In the networking part, WizFi310 supports network parameters storage in the module that reduces time to connect to a network. It also supports WPS. For application protocols, MQTT and SSL were supported in this module.
 
 For software and driver development, WIZnet provides extensive technical documents and reference software codes for system integration.
 
@@ -238,4 +238,4 @@ Note: NVM flash is used to store user configuration or firmware, do not use to s
 
 ## Reference schematic
 
-<a href="img/products/wizfi310/wizfi310ds/wizfi310.pdf" target="_blank">WizFi310 Ref.Schematic</a>
+<a href="/img/products/wizfi310/wizfi310ds/wizfi310.pdf" target="_blank">WizFi310 Ref.Schematic</a>

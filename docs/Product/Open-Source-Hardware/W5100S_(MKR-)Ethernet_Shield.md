@@ -13,7 +13,7 @@ date: 2020-04-03
 
 W5100S Ethernet shield is designed using the WIZnet W5100S chip. Please
 click the link for the further information about
-[W5100S](../../Product/iEthernet/W5100S/overview). It supports both 3.3V & 5V. This
+[W5100S](./../iEthernet/W5100S/Overview.md). It supports both 3.3V & 5V. This
 Ethernet Shield is compatible with Arduino and ARM mbed Platform. The
 W5100S Ethernet shield is compatible with the Arduino Ethernet Shield
 (W5100).

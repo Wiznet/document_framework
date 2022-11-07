@@ -19,8 +19,14 @@ W5100S-EVB-Pico is a microcontroller evaluation board based on the Raspberry Pi 
 - [AWS IoT Core Qualified](https://devices.amazonaws.com/detail/a3G8a00000E2TSBEA3/W5100S-EVB-Pico)
 - [Microsoft Azure Certified](https://devicecatalog.azure.com/devices/9171d1ae-eb6d-4636-b512-611dc96bc2c7)
 
-<a target="_blank" href={require('/img/osh/w5100s_evb_pico/w5100s-evb-pico_side.png').default}><img src={require('/img/osh/w5100s_evb_pico/w5100s-evb-pico_side.png').default} alt="W5100S-EVB-RP2040"/></a>
+<a target="_blank" href={require('/img/osh/w5100s_evb_pico/w5100s-evb-pico-1.1-side.png').default}><img src={require('/img/osh/w5100s_evb_pico/w5100s-evb-pico-1.1-side.png').default} alt="W5100S-EVB-RP2040"/></a>
 
+## Revision history
+
+| Date | Version | Description |
+| ---- | ------- | ----------- |
+| Oct 2021 | 1.0 | Initial board release |
+| Apr 2022 | 1.1 | Added SW RUN |
 
 ## Features
 
@@ -55,9 +61,16 @@ W5100S-EVB-Pico is a microcontroller evaluation board based on the Raspberry Pi 
 
 ## Hardware Specification
 
-### Pin-out
+### Pin-out v1.1
 
+
+<a target="_blank" href={require('/img/osh/w5100s_evb_pico/w5100s-evb-pico-1.1-pinout.png').default}><img src={require('/img/osh/w5100s_evb_pico/w5100s-evb-pico-1.1-pinout.png').default} alt="W5100S-EVB-Pico_PINOUT"/></a>
+
+<details>
+<summary>Above image presents pinout for v1.1. If you are looking for pinout of version 1.0, click here.
+</summary>
 <a target="_blank" href={require('/img/osh/w5100s_evb_pico/w5100s-evb-pic-pinout_v1.png').default}><img src={require('/img/osh/w5100s_evb_pico/w5100s-evb-pic-pinout_v1.png').default} alt="W5100S-EVB-Pico_PINOUT"/></a>
+</details>
 
 W5100S-EVB-Pico pinout is directly connected to the GPIO of RP2040 as shown in the picture above. It has the same pinout as the Raspberry Pi Pico board. However, GPIO16, GPIO17, GPIO18, GPIO19, GPIO20, GPIO21 are connected to W5100S inside the board. These pins enable SPI communication with W5100S to use Ethernet function. If you are using the Ethernet function, these pins cannot be used for any other purpose.
 
@@ -103,11 +116,13 @@ Apart from GPIO and ground pins, there are 7 other pins on the main 40-pin inter
 
 Recommended maximum ambient temperature of operation is 70C.
 
+<!--
 ## Electrical Specification
 
 ### Power Consumption
 
 TBA
+-->
 
 ## Technical Reference
 
@@ -117,19 +132,31 @@ TBA
 
 ### W5100S Datasheet
 
-- [Download](https://docs.wiznet.io/Product/iEthernet/W5100S/overview)
+- [Download](Overview.md)
 
-### Schematic
+### Schematic v1.1
 
+<a target="_blank" href={require('/img/osh/w5100s_evb_pico/w5100s-evb-pico_sch_v110.jpg').default}><img src={require('/img/osh/w5100s_evb_pico/w5100s-evb-pico_sch_v110.jpg').default} alt="W5100S-EVB_Pico_schematic"/></a>
+
+<details>
+<summary>Above image presents schematic for v1.1. If you are looking for schematic of version 1.0, click here.
+</summary>
 <a target="_blank" href={require('/img/osh/w5100s_evb_pico/w5100S-evb_pico_schematic.png').default}><img src={require('/img/osh/w5100s_evb_pico/w5100S-evb_pico_schematic.png').default} alt="W5100S-EVB_Pico_schematic"/></a>
+</details>
 
 ### Schematic & Part list & Gerber File
 
-- [Go to Github](https://github.com/Wiznet/Hardware-Files-of-WIZnet/tree/master/02_iEthernet/W5100S/W5100S-EVB-Pico_V100)
+- [Go to Github](https://github.com/Wiznet/Hardware-Files-of-WIZnet/tree/master/02_iEthernet/W5100S/W5100S-EVB-Pico)
 
-### Dimension (Unit : mm)
+### Dimension v1.1 (Unit : mm)
 
+<a target="_blank" href={require('/img/osh/w5100s_evb_pico/w5100s-evb-pico-1.1-dimension.png').default}><img src={require('/img/osh/w5100s_evb_pico/w5100s-evb-pico-1.1-dimension.png').default} alt="W5100S-EVB-RP2040_Dimension"/></a>
+
+<details>
+<summary>Above image presents dimension for v1.1. If you are looking for dimension of version 1.0, click here.
+</summary>
 <a target="_blank" href={require('/img/osh/w5100s_evb_pico/w5100s-evb-pico_dimension.png').default}><img src={require('/img/osh/w5100s_evb_pico/w5100s-evb-pico_dimension.png').default} alt="W5100S-EVB-RP2040_Dimension"/></a>
+</details>
 
 ### Firmware Example
 
@@ -141,7 +168,7 @@ Please refer to below links to find firmware example.
 - [AWS Examples](https://github.com/Wiznet/RP2040-HAT-AWS-C)
 - [Azure Examples](https://github.com/Wiznet/RP2040-HAT-AZURE-C)
 - [FreeRTOS Examples](https://github.com/Wiznet/RP2040-HAT-FREERTOS-C)
-
+- [LwIP Examples](https://github.com/Wiznet/RP2040-HAT-LWIP-C)
 
 ### AWS Qualification
 
@@ -150,7 +177,7 @@ W5100S-EVB-Pico is first RP2040-based device that got AWS IoT Core Qualification
 ![](/img/osh/w5100s_evb_pico/AWS_DQP_iot_500px.png)
 
 - [AWS Device Catalog](https://devices.amazonaws.com/detail/a3G8a00000E2TSBEA3/W5100S-EVB-Pico)
-- <a href="/img/products/w5100s-evb-pico/w5100s-evb-pico_getting_started_guide_for_aws_iot_core_v_1_0_0.pdf" target="_blank">Getting Started with AWS IoT Core</a>
+- <a href="/img/products/w5100s-evb-pico/w5100s-evb-pico-getting-started-guide-for-aws-iot-core-v1-1-0.pdf" target="_blank">Getting Started with AWS IoT Core</a>
 
 ### MS Azure Certification
 

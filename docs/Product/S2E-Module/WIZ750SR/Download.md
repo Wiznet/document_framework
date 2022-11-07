@@ -17,8 +17,7 @@ date: 2020-04-08
 
 \* Latest application Firmware binary image for update using
 **configuration tool**  
-(Older versions can be found in the [WIZ750SR Github
-repository](https://github.com/Wiznet/WIZ750SR/releases))
+(Older versions can be found in the [WIZ750SR Github repository](https://github.com/Wiznet/WIZ750SR/releases))
 
 **For users prior to v1.2.0,
 the device must be updated using all(boot+app) version firmware & WIZISP
@@ -121,7 +120,7 @@ Repository**
 
 ## WIZnet S2E Configuration Tool
 
-  - **[S2E Configuration Tool Manual (New)](configuration_tool_manual_new-EN)**
+  - **[S2E Configuration Tool Manual (New)](./Configuration-Tool-Manual-New-EN.md)**
 
 
 ![](/img/products/wiz750sr/download/wizconfig_main_v1.0.0.png) 
@@ -136,7 +135,7 @@ Repository**
 ## W7500(P) ISP Tool
 
   
-[Go to ISP tool manual & Program download](/Product/iMCU/W7500/documents/appnote/how-to-use-isp-tool)  
+[Go to ISP tool manual & Program download](./../../iMCU/W7500/documents/appnote/How-to-use-ISP-tool.md)  
 
 -----
 
@@ -169,20 +168,20 @@ Repository**
 
  **WIZ750SR** 
 
-  - **User's Manual [(English)](users_manual-EN)/[(Korean)](users_manual-KO)** 
+  - **User's Manual [(English)](./Users-Manual-EN.md)/[(Korean)](./Users-Manual-KO.md)** 
   
-  - **Device Command Manual [(English)](Command_Manual-EN)/[(Korean)](Command_Manual-KO)**
+  - **Device Command Manual [(English)](./Command-Manual-EN.md)/[(Korean)](./Command-Manual-KO.md)**
   
-  - **Troubleshooting Guide [(English)](Trouble_Shooting-EN)/[(Korean)](Trouble_Shooting-KO)**
+  - **Troubleshooting Guide [(English)](./Trouble-Shooting-EN.md)/[(Korean)](./Trouble-Shooting-KO.md)**
   
-  - **Update History [(English)](Series_Update_History-EN)/[(Korean)](Series_Update_History-KO)**
+  - **Update History [(English)](./Series-Update-History-EN.md)/[(Korean)](./Series-Update-History-KO.md)**
   
 -----
 
 **WIZ750SR series Downloads** 
 
-  - **[Software Download](Download)**
+  - **[Software Download](./Download.md)**
 
-  - **[Technical References](Technical_References)**
+  - **[Technical References](./Technical-References.md)**
 
 -----

@@ -20,16 +20,8 @@ customize their own objective.
 
 ## Documents
 
-  - **H/W Rev1.0 Datasheet**:
-    [[English]](/) /
-    [[Korean]](/) 
-      - Hardware Specification
-      - Reference Schematics
-      - Dimension
-
   - **H/W Rev1.1/1.2 Datasheet**:
-    [[English]](datasheet_eng) /
-    [[Korean]](datasheet_kor) 
+    [[English]](Datasheet-Eng.md) /  [[Korean]](Datasheet-Kor.md) 
       - Hardware Specification
       - Reference Schematics
       - Dimension
@@ -37,37 +29,36 @@ customize their own objective.
 
 
   - **Getting Started Guide**:
-    [[English]](getting_started_guide_eng) /
-    [[Korean]](getting_started_guide_kor)
+    [[English]](Getting-Started-Guide-Eng.md) /
+    [[Korean]](Getting-Started-Guide-Kor.md)
       - Product Preview, Hello world
       - Basic operations
       - Webpage demo
 
 
 
-  - **User's Guide**: [[English]](users_guide_eng)
-    / [[Korean]](users_guide_kor)
+  - **User's Guide**: [[English]](Users-Guide-Eng.md)
+    / [[Korean]](Users-Guide-Kor.md)
       - Configuration Tool
       - Serial AT command set
       - TFTP Guide Document
 
 
 
-  - **Future Plans**: [[English]](future_plan_eng)
-    / [[Korean]](future_plan_kor)
+  - **Future Plans**: [[English]](Future-Plan-Eng.md)
+    / [[Korean]](./Future-Plan-Kor.md)
       - Plans for next version firmware
 
 
 
   - **Tutorials**:
-    [[English]](tutorials_eng) /
-    [[Korean]](tutorials_kor)
+    [[English]](Tutorials-Eng.md) / [[Korean]](./Tutorials-Kor.md)
       - Tutorials; Under construction
 
 
 ## Download
 
-  - **[H/W Rev1.0 Download](download)**
+  - **[H/W Rev1.0 Download](Download.md)**
       - Firmware binary (Boot / App / Boot+App)
       - Firmware Source code 
       - Configuration Tool (Java ver.)
@@ -75,8 +66,7 @@ customize their own objective.
 
 
 
-  - **[H/W Rev1.1/1.2
-    Download](download)**
+  - **[H/W Rev1.1/1.2 Download](Download.md)**
       - Firmware binary (Boot / App / Boot+App)
       - Firmware Source code 
       - Configuration Tool (Java ver.)

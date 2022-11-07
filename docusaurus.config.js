@@ -4,42 +4,38 @@ module.exports = {
   title: "WIZnet Document System",
   tagline: "Welcome to new WIZnet Document System!",
   //url: 'https://wiznet.github.io',
-  url: "https://docs.wiznet.io",
-  baseUrl: "/document_framework/",
-  onBrokenLinks: "warn",
-  onDuplicateRoutes: "warn",
-  favicon: "img/wizfavicon.ico",
-  organizationName: "WIZnet Co., Ltd.", // Usually your GitHub org/user name.
-  projectName: "document_framework", // Usually your repo name.
-  trailingSlash: "false",
+  url: 'https://docs.wiznet.io',
+  baseUrl: '/',
+  onBrokenLinks: 'warn',
+  onBrokenMarkdownLinks: 'warn',
+  onDuplicateRoutes: 'warn',
+  favicon: 'img/wizfavicon.ico',
+  organizationName: 'WIZnet Co., Ltd.', // Usually your GitHub org/user name.
+  projectName: 'document_framework', // Usually your repo name.
+  trailingSlash: 'false',
   themeConfig: {
-    googleAnalytics: {
-      trackingID: "UA-207547783-2",
-      anonymizeIP: true
+    
+    docs:{
+      sidebar: {
+        hideable: true,
+        autoCollapseCategories: true,
+      },
     },
-    gtag: {
-      // You can also use your "G-" Measurement ID here.
-      trackingID: "G-B4NBQPV6VG",
-      // Optional fields.
-      anonymizeIP: false // Should IPs be anonymized?
-    },
-    hideableSidebar: true,
     announcementBar: {
-      id: "announcementBar-2", // Increment on change
-      content:
-        '⭐️ Meet our new products: <a target="" rel="noopener noreferrer" href="/Product/Open-Source-Hardware/wiznet_ethernet_hat">WIZnet Ethernet HAT for Raspberry Pi Pico</a> and <a target="" rel="noopener noreferrer" href="/Product/iEthernet/W5100S/w5100s-evb-pico">W5100S-EVB-Pico</a> ⭐️',
-      backgroundColor: "#C51A4A",
-      textColor: "#fafbfc",
-      isCloseable: false
+      id: 'announcementBar-2', // Increment on change
+      content: '⭐️ Meet our new products: <a target="" rel="noopener noreferrer" href="/Product/Open-Source-Hardware/wizfi360-evb-pico">WizFi360-EVB-Pico</a> and <a target="" rel="noopener noreferrer" href="/Product/iEthernet/W5500/w5500-evb-pico">W5500-EVB-Pico</a> ⭐️',
+      backgroundColor: '#C51A4A',
+      textColor: '#fafbfc',
+      isCloseable: false,
     },
     colorMode: {
       defaultMode: "light",
       disableSwitch: false,
       respectPrefersColorScheme: false,
-      switchConfig: {
-        darkIcon: "\u{26c8}",
-        lightIcon: "\u{1f324}"
-      }
+      /*switchConfig: {
+        darkIcon: '\u{26c8}',
+        lightIcon: '\u{1f324}',
+      },*/
     },
     algolia: {
       appId: "VXDI0EL2J7",
@@ -47,18 +43,18 @@ module.exports = {
       indexName: "wiznet",
       //apiKey: 'd2ede60bed9975d4b60dd5436896fe91',
       //indexName: 'wiznet',
-      // Optional: see doc section bellow
-      contextualSearch: false,
+             // Optional: see doc section bellow
+     // contextualSearch: true,
 
-      // Optional: Algolia search parameters
-      searchParameters: {},
-      //inputSelector: 'I',
-      algoliaOptions: { facetFilters: [ "type:content" ] }
-      //... other Algolia params
-    },
+       // Optional: Algolia search parameters
+      //searchParameters: {},
+       //inputSelector: 'I',
+      //algoliaOptions: {'facetFilters': ["type:content"] },
+       //... other Algolia params
+     },
 
     navbar: {
-      //      hideOnScroll: true,
+      hideOnScroll: true,
       //title: 'WIZnet',
       logo: {
         alt: "Wiznet Company Logo",
@@ -205,9 +201,19 @@ module.exports = {
           sidebarPath: require.resolve("./sidebars.js"),
           editUrl: "https://github.com/Wiznet/document_framework/tree/master/"
         },
-        //         sitemap:{
-        //         trailingSlash: false
-        //         },
+        googleAnalytics: {
+          trackingID: 'UA-207547783-2',
+          anonymizeIP: true,
+        },
+        gtag: {
+          // You can also use your "G-" Measurement ID here.
+          trackingID: 'G-B4NBQPV6VG',
+          // Optional fields.
+          anonymizeIP: false, // Should IPs be anonymized?
+        },
+//         sitemap:{
+//         trailingSlash: false
+//         },
         theme: {
           customCss: require.resolve("./src/css/custom.css")
         }

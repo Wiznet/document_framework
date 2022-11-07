@@ -539,7 +539,7 @@ The following paragraphs provide the requirements for the size, weight and mount
 
 ![](/img/products/wizfi250/wizfi250ds/wifi250ds-6.png)  
 
-A-B. Temp.: 150\~200℃; soak time:60\~120sec.  
+A-B. Temp.: 150-200℃; soak time:60-120sec.  
 C. Peak temp: 235\~245℃.  
 D. Time above 220 ℃: 40\~90sec.  
 Suggestion: Optimal cooling rate is \<1℃/sec. from peak to 220 ℃.

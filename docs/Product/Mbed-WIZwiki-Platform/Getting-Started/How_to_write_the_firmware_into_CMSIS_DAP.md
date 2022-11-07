@@ -29,7 +29,7 @@ This page shows how to write firmware into CMSIS-DAP.
 
 ### To follow
 
-   1. With pressing the Reset SW on WIZwiki-W7500, connect the USB cable to WIZwiki-W7500 and  wait for a removable disk, CRP_DISABLD, popped up.
+   1. While pressing the Reset SW on WIZwiki-W7500, connect the USB cable to WIZwiki-W7500 and  wait for a removable disk, CRP_DISABLD, to appear.
 
    2. Then you can find the difference between a normal removable disk and a removable disk with pressing the **Reset SW**.
     

@@ -1,8 +1,15 @@
 ---
 id: wizfi310_shield
-title: WizFi310 Shield
+title: WizFi310 Shield (Discontinued)
 date: 2020-04-03
 ---
+
+:::caution
+
+This product is discontinued.  
+Please refer to the New compatible product [WizFi360](./../Wi-Fi-Module/WizFi360/WizFi360.md).
+
+:::
 
 ![WizFi310 Shield](/img/osh/wizfi310_shield/wizfi310_shield_1.png)
 
@@ -140,7 +147,7 @@ in.
 
 #### Datasheet
 
-  - [WizFi310 Datasheet](../../Product/Wi-Fi-Module/WizFi310/datasheet)
+  - [WizFi310 Datasheet](./../../Product/Wi-Fi-Module/WizFi310/Datasheet.md)
 
 #### Schematic
 

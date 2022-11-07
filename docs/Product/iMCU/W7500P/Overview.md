@@ -53,10 +53,10 @@ The TCP/IP core is a market-proven hardwired TCP/IP stack and PHY is IC plus IP1
 
 
 ## Details
-- [Pin Assignment](Pin_Assignment.md)
-- [System and Memory](System_and_Memory.md)
-- [Interrupt and Events](Interrupt_and_Event.md)
-- [Power supply](Power_Supply.md)
-- [Booting Sequence](Booting_Sequence.md)
-- [Electrical Characteristics](Electrical_Characteristics.md)
-- [W7500P Ref. Schematic](W7500P_Ref.Schematic.md)
+- [Pin Assignment](Pin-Assignment.md)
+- [System and Memory](System-and-Memory.md)
+- [Interrupt and Events](Interrupt-and-Event.md)
+- [Power supply](Power-Supply.md)
+- [Booting Sequence](Booting-Sequence.md)
+- [Electrical Characteristics](Electrical-Characteristics.md)
+- [W7500P Ref. Schematic](W7500P-Ref.Schematic.md)

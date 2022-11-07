@@ -4,6 +4,12 @@ title: WIZ120SR
 date: 2021-07-22
 ---
 
+:::tip
+WIZ120SR is not discontinued, but we do not recommend it for new designs.
+
+Please check **[WIZ752SR-120](./../WIZ752SR-12x-Series/WIZ752SR-120/WIZ752SR-120.md)** instead.
+:::
+
 ## Overview
 
 ![](/img/products/wiz120sr/wiz12sr-1.jpg)
