@@ -78,13 +78,13 @@ Last Update: 2020.11.17
 
 #### Old firmware
 
-| Version | Description |
-|---------|-------------|
-|Firmware v1.6.4|- Last Update: 2015.01.07<br />- Telnet mode is added<br />- Bug fix about serial data corruption with data from ethernet<br />- Bug fix with Data packing condition ‘Size’|
-|Firmware v1.6.1|- Last Update: 2013.11.18<br />- Bug fixed : The previous firmware has error, when trying to connect to the remote server|
-|Firmware v1.6.0|- Last Update: 2013.08.07<br />- Baud rate : 600 bps added<br />- The format of Serial cmd WnBU/RnBU got changed<br />- Debug message displays current network information<br />- The notation of firmware version was changed to x.x.x|
-|Firmware v1.5.2|- Last Update: 2013.06.11<br />- Bug fixed : When transmitting to WIZ140/145SR more than  8K bytes data continuously, some data is lost|
-|Firmware v1.5|- Last Update: 2013.04.18<br />- Optimize the code by reflecting W5300 erratum4 & erratum5|
+| Version         | Description                                                                                                                                                                                                                             |
+| --------------- | --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| Firmware v1.6.4 | - Last Update: 2015.01.07<br />- Telnet mode is added<br />- Bug fix about serial data corruption with data from ethernet<br />- Bug fix with Data packing condition ‘Size’                                                             |
+| Firmware v1.6.1 | - Last Update: 2013.11.18<br />- Bug fixed : The previous firmware has error, when trying to connect to the remote server                                                                                                               |
+| Firmware v1.6.0 | - Last Update: 2013.08.07<br />- Baud rate : 600 bps added<br />- The format of Serial cmd WnBU/RnBU got changed<br />- Debug message displays current network information<br />- The notation of firmware version was changed to x.x.x |
+| Firmware v1.5.2 | - Last Update: 2013.06.11<br />- Bug fixed : When transmitting to WIZ140/145SR more than  8K bytes data continuously, some data is lost                                                                                                 |
+| Firmware v1.5   | - Last Update: 2013.04.18<br />- Optimize the code by reflecting W5300 erratum4 & erratum5                                                                                                                                              |
 
 <a href="/img/products/wiz140sr/WIZ14x_old_FW.zip" target="_blank">Download</a>
 
@@ -105,11 +105,7 @@ Last Update: 2020.11.17
 
 #### WIZVSP Program for Windows
 
-- Last Update: 2017. 04. 28
-- Virtual Serial COM Port program: It can be used to change the device that is connected to the PC through the existing serial interface to control by the remote Ethernet network.
-- If you agree with the End User License Agreement for WIZVSP, you will be able to download the program and get a registration key. When registering the product with license agreement, the MAC address of the product in use and the email address of the contact person are required.
-
-[Download](http://wizvsp.wiznet.io/)
+[**Go to WIZ VSP Guide page**](./../serial-to-ethernet-guide.md#wiz-vsp)
 
 ### Hardware Design Guide
 

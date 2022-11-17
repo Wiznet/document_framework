@@ -141,24 +141,12 @@ Repository**
 
 ## WIZ VSP
 
+[**Go to WIZ VSP Guide page**](./../serial-to-ethernet-guide.md#wiz-vsp)
+
 
 ![](/img/products/wiz750sr/usermanual/wiz_vsp.jpg) 
 
-  - WIZ VSP (WIZnet Virtual Serial COM port) is the software for those
-    users who want to use the existing application programs based on
-    serial communication. For more detailed information, please visit
-    the following link and see the bottom of the page.
-  - WIZnet Virtual Serial Port: It can be used to change the device that
-    is connected to the PC through the existing serial interface to
-    control by the remote Ethernet network.
-  - **If you agree with the End User License Agreement for WIZVSP, you
-    will be able to download the program and get a registration key.
-    When registering the product with license agreement, the MAC address
-    of the product in use and the Email address of the contact person
-    are required.**
 
-**Go to WIZVSP end user license agreement page:**  
-**<http://wizvsp.wiznet.io>**
 
 -----
 
