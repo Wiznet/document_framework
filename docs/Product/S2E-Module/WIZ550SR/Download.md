@@ -82,11 +82,8 @@ Therefore, Write firmware must use the program provided by STmicro.
 
 ## WIZ VSP
 
-![](/img/products/wiz750sr/usermanual/wiz_vsp.jpg)
+[**Go to WIZ VSP Guide page**](./../serial-to-ethernet-guide.md#wiz-vsp)
 
-- WIZ VSP (WIZnet Virtual Serial COM port) is the software for those users who want to use the existing application programs based on serial communication. For more detailed information, please visit the following link and see the bottom of the page.
-
-**Go to WIZVSP end user license agreement page: <http://wizvsp.wiznet.io>**
 
 -----
 

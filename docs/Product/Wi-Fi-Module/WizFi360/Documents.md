@@ -23,11 +23,12 @@ Comparison Sheet** provides comparison with ESP8266 AT command.
 
 ### WizFi360
 
-  - <a href="/img/products/wizfi360/wizfi360ds/wizfi360_ds_v109_en.pdf" target="_blank">WizFi360 Datasheet v1.09</a>
+  - <a href="/img/products/wizfi360/wizfi360ds/wizfi360_ds_v110_en.pdf" target="_blank">WizFi360 Datasheet v1.10</a>
 
-  - 2022-06-30 V1.09
-      - Edited “4. Package Information” Figure 2
-      - Edited “7. Peripheral Circuit Reference Design” Figure 6
+  - 2022-10-14 V1.10
+      - Added “ISED certification number” 
+      - Added “FCC ID”
+      - Added “Industry Canada statement”
 
 **Old Datasheet History**
 
@@ -56,6 +57,9 @@ Comparison Sheet** provides comparison with ESP8266 AT command.
           - No.11 & No.19
   - 2022-04-05 V1.08
       - Edited “2. Features”
+  - 2022-06-30 V1.09
+      - Edited “4. Package Information” Figure 2
+      - Edited “7. Peripheral Circuit Reference Design” Figure 6
 
 ### WizFi360-EVB-Shield
 
@@ -111,6 +115,14 @@ Comparison Sheet** provides comparison with ESP8266 AT command.
 | Date    | Decription |
 | ------- | ---------- |
 | AUG2019 | \-         |
+
+### IC
+
+  - <a href="/img/products/wizfi360/wizfi360ds/ISED Certificate.pdf" target="_blank">WizFi360-PA Certification</a>
+
+| Date    | Decription |
+| ------- | ---------- |
+| NOV2022 | \-         |
 
 ### KC
 
