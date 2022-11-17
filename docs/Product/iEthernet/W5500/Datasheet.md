@@ -5,8 +5,8 @@ date: 2020-04-03
 ---
 
 
-- <a href = "/img/products/w5500/w5500_ds_v109e.pdf" target ="_blank">W5500 Datasheet v1.0.9 - English</a>
-- <a href = "/img/products/w5500/w5500_ds_v109k.pdf" target ="_blank">W5500 Datasheet v1.0.9 - Korean</a>
+- <a href = "/img/products/w5500/w5500_ds_v110e.pdf" target ="_blank">W5500 Datasheet v1.1.0 - English</a>
+- <a href = "/img/products/w5500/w5500_ds_v110k.pdf" target ="_blank">W5500 Datasheet v1.1.0 - Korean</a>
 
 
 
@@ -24,6 +24,8 @@ date: 2020-04-03
 | 1.0.7   | 2016-02-24 | 1\. Corrected Interrupt Assert Wait Time function (P.34) / 2. Notice PLLclk is 150MHz (P.34)                                                                                                                                                                                                                                |
 | 1.0.8   | 2017-05-19 | 1\. Corrected Driver Level Range Unit uW/MHz to uW (P.60)                                                                                                                                                                                                                                                                   |
 | 1.0.9   | 2019-05-22 | 1\. Corrected Sn\_IMR Description (P.55) 2. Corrected Junction temperature Min value TJ (P.57) 3. Added Maximum junction temperature TJMAX (P.58)                                                                                                                                                                           |
+
+| 1.1.0   | 2022-11-17 | 1\. Modify Pull-Up Resister Min Value RPU (P.59) 2. Updated latest Package Descriptions (P.64)                                                                                                                                                                           |
 
 -----
 
