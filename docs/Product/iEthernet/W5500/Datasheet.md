@@ -5,8 +5,8 @@ date: 2020-04-03
 ---
 
 
-- <a href = "/img/products/w5500/w5500_ds_v110e.pdf" target ="_blank">W5500 Datasheet v1.1.0 - English</a>
-- <a href = "/img/products/w5500/w5500_ds_v110k.pdf" target ="_blank">W5500 Datasheet v1.1.0 - Korean</a>
+- <a href = "/img/products/w5500/W5500_ds_v110e.pdf" target ="_blank">W5500 Datasheet v1.1.0 - English</a>
+- <a href = "/img/products/w5500/W5500_ds_v110k.pdf" target ="_blank">W5500 Datasheet v1.1.0 - Korean</a>
 
 
 
