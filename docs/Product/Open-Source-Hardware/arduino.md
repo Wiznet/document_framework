@@ -4,6 +4,8 @@ title: Arduino
 date: 2022-11-17
 ---
 
+[Arduino](https://www.arduino.cc) is an open-source electronics prototyping platform based on flexible, easy-to-use hardware and software. WIZnet’ chip and module are being used in the Arduino’s Ethernet Shield, and adopted in its clones.
+
 ### Board
 
 * [WizArduino M0 ETH](Product/Open-Source-Hardware/WizArduino_M0_ETH_eng.md)

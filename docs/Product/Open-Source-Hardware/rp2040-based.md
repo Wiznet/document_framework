@@ -6,7 +6,9 @@ date: 2022-11-17
 
 ### RP2040 (Raspberry Pi Pico) based 
 
-Below is a list of products based on the RP2040. Click on the product name for a detailed description of each product.
+Below is a list of products based on the [Raspberry Pi RP2040](https://www.raspberrypi.com/documentation/microcontrollers/rp2040.html). 
+
+Click on the product name for a detailed description of each product.
 
 ### Board
 

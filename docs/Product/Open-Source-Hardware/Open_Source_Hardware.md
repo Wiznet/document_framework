@@ -71,9 +71,9 @@ designs.
 🌎[Click here to view the contest
 winners.](http://classic.parallax.com/tabid/944/Default.aspx)
 
-## Open Source Hardware using Wiznet chip
+## Open Source Hardware using WIZnet chip
 
-🌎[Arduino](http://www.arduino.cc) is an open-source electronics
+🌎[Arduino](https://www.arduino.cc) is an open-source electronics
 prototyping platform based on flexible, easy-to-use hardware and
 software. WIZnet’ chip and module are being used in the Arduino’s
 Ethernet Shield, and adopted in its clones. ![](/img/osh/overview/platform_img3.gif)
