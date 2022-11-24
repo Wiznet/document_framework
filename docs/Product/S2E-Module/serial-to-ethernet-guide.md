@@ -101,18 +101,18 @@ Please refer to below compatibility table and use appropriate version.
 
 <!-- end list -->
 
-  - <a href="http://www.wiznet.io/wp-content/uploads/wiznethome/S2E%20Module/WIZ100-105-110SR/Document/WIZ100SR_UM_v220e.pdf" target="_blank">Download WIZ100SR User Manual v2.2.0</a>
-  - <a href="http://www.wiznet.io/wp-content/uploads/wiznethome/S2E%20Module/WIZ100-105-110SR/Document/WIZ105SR_UM_v130e.pdf" target="_blank">Download WIZ105SR User Manual v1.3.0</a>
-  - <a href="http://www.wiznet.io/wp-content/uploads/wiznethome/S2E%20Module/WIZ100-105-110SR/Document/WIZ110SR_UM_v210e.pdf" target="_blank">Download WIZ110SR User Manual v2.1.0</a>
+  - <a href="https://www.wiznet.io/wp-content/uploads/wiznethome/S2E%20Module/WIZ100-105-110SR/Document/WIZ100SR_UM_v220e.pdf" target="_blank">Download WIZ100SR User Manual v2.2.0</a>
+  - <a href="https://www.wiznet.io/wp-content/uploads/wiznethome/S2E%20Module/WIZ100-105-110SR/Document/WIZ105SR_UM_v130e.pdf" target="_blank">Download WIZ105SR User Manual v1.3.0</a>
+  - <a href="https://www.wiznet.io/wp-content/uploads/wiznethome/S2E%20Module/WIZ100-105-110SR/Document/WIZ110SR_UM_v210e.pdf" target="_blank">Download WIZ110SR User Manual v2.1.0</a>
 
 <!-- end list -->
 
-- <a href="http://www.wiznet.io/wp-content/uploads/wiznethome/S2E%20Module/WIZ100-105-110SR/Document/WIZ1x0SR_AN_S2E-Programming-Guide_V030E.pdf" target="_blank">WIZ100SR/ WIZ105SR/ WIZ110SR Programmer’s Guide</a>
+- <a href="https://www.wiznet.io/wp-content/uploads/wiznethome/S2E%20Module/WIZ100-105-110SR/Document/WIZ1x0SR_AN_S2E-Programming-Guide_V030E.pdf" target="_blank">WIZ100SR/ WIZ105SR/ WIZ110SR Programmer’s Guide</a>
 
 ![](/img/products/configtool/wiz1xx_configtool.png)  
 **WIZ120/125SR Configuration Tool v1.1.0**
 
-<a href="http://www.wiznet.io/wp-content/uploads/wiznethome/S2E%20Module/WIZ120_125SR/Utility/WIZ12xSR_Config_V110.zip" target="_blank">💾 Download WIZ120/125SR Configuration Tool</a>  
+<a href="https://www.wiznet.io/wp-content/uploads/wiznethome/S2E%20Module/WIZ120_125SR/Utility/WIZ12xSR_Config_V110.zip" target="_blank">💾 Download WIZ120/125SR Configuration Tool</a>  
 
 -----
 
@@ -125,13 +125,13 @@ Please refer to below compatibility table and use appropriate version.
 
 <!-- end list -->
 
-  - <a href="http://www.wiznet.io/wp-content/uploads/wiznethome/S2E%20Module/WIZ120_125SR/Document/WIZ120SR_UM_v110e.pdf" target="_blank">WIZ120SR User manual</a>
-  - <a href="http://www.wiznet.io/wp-content/uploads/wiznethome/S2E%20Module/WIZ120_125SR/Document/WIZ125SR_User_Manual_EN_V1.0.pdf" target="_blank">WIZ125SR User manual</a>
+  - <a href="https://www.wiznet.io/wp-content/uploads/wiznethome/S2E%20Module/WIZ120_125SR/Document/WIZ120SR_UM_v110e.pdf" target="_blank">WIZ120SR User manual</a>
+  - <a href="https://www.wiznet.io/wp-content/uploads/wiznethome/S2E%20Module/WIZ120_125SR/Document/WIZ125SR_User_Manual_EN_V1.0.pdf" target="_blank">WIZ125SR User manual</a>
 
 ![](/img/products/configtool/wiz12xsr_configtool.png)  
 **WIZ120/125SR Configuration Tool v1.1.0**
 
-<a href="http://www.wiznet.io/wp-content/uploads/wiznethome/S2E%20Module/WIZ120_125SR/Utility/WIZ12xSR_Config_V110.zip" target="_blank">💾 Download WIZ120/125SR Configuration Tool</a>  
+<a href="https://www.wiznet.io/wp-content/uploads/wiznethome/S2E%20Module/WIZ120_125SR/Utility/WIZ12xSR_Config_V110.zip" target="_blank">💾 Download WIZ120/125SR Configuration Tool</a>  
 
 -----
 
@@ -142,11 +142,11 @@ Please refer to below compatibility table and use appropriate version.
   - [WIZ140SR](WIZ140SR/wiz140sr.md)
   - [WIZ145SR](WIZ145SR/wiz145sr.md)
 
-  - <a href="http://www.wiznet.io/wp-content/uploads/wiznethome/S2E%20Module/WIZ140_145SR/Document/WIZ14xSR_UM_v201e.pdf" target="_blank">WIZ140/145SR User manual</a>
+  - <a href="https://www.wiznet.io/wp-content/uploads/wiznethome/S2E%20Module/WIZ140_145SR/Document/WIZ14xSR_UM_v201e.pdf" target="_blank">WIZ140/145SR User manual</a>
 
 ![](/img/products/configtool/wiz140sr-configtool.png)
 
-<a href="http://www.wiznet.io/wp-content/uploads/wiznethome/S2E%20Module/WIZ140_145SR/Utility/WIZ14xSRConfig_Rev1_7.zip" target="_blank">💾 Download WIZ140/145SR Configuration Tool</a>  
+<a href="https://www.wiznet.io/wp-content/uploads/wiznethome/S2E%20Module/WIZ140_145SR/Utility/WIZ14xSRConfig_Rev1_7.zip" target="_blank">💾 Download WIZ140/145SR Configuration Tool</a>  
 
 -----
 
