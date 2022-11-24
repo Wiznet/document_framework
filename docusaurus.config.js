@@ -2,12 +2,10 @@
 
 //docusaurus.config.js for Docs only Mode
 
-const rlc = require("remark-link-card");
-// const rvl  = require("remark-validate-links");
+// const rlc = require("remark-link-card");
 
-/** @type {import('@docusaurus/types').Config} */
-// module.exports = {
-const config = {
+// const config = {
+  module.exports = {
   title: "WIZnet Document System",
   tagline: "Welcome to new WIZnet Document System!",
   //url: 'https://wiznet.github.io',
@@ -19,7 +17,7 @@ const config = {
   favicon: 'img/wizfavicon.ico',
   organizationName: 'WIZnet Co., Ltd.', // Usually your GitHub org/user name.
   projectName: 'document_framework', // Usually your repo name.
-  trailingSlash: 'false',
+  trailingSlash: false,
   themeConfig: {
     docs:{
       sidebar: {
@@ -206,7 +204,8 @@ const config = {
           routeBasePath: "/",
           sidebarPath: require.resolve("./sidebars.js"),
           editUrl: "https://github.com/Wiznet/document_framework/tree/master/",
-          remarkPlugins: [rlc]
+          // remarkPlugins: [rlc]
+          remarkPlugins: []
         },
         googleAnalytics: {
           trackingID: 'UA-207547783-2',
@@ -229,4 +228,4 @@ const config = {
   ]
 };
 
-module.exports = config;
+// module.exports = config;
