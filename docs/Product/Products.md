@@ -49,6 +49,8 @@ The **IOP4IoT W7500** chip is the one-chip solution which integrates an ARM Cort
 
 ## S2E Module (Serial to Ethernet Module)
 
+### 1 Serial Port
+
  * [WIZ107SR](S2E-Module/WIZ107SR/wiz107sr.md)
  * [WIZ108SR](S2E-Module/WIZ108SR/wiz108sr.md)
  * [WIZ750SR](S2E-Module/WIZ750SR/WIZ750SR.md)
@@ -64,6 +66,10 @@ The **IOP4IoT W7500** chip is the one-chip solution which integrates an ARM Cort
  * [WIZ500SR-RP](S2E-Module/WIZ5xxSR-RP-Series/WIZ500SR-RP/overview-en.md)
  * [WIZ505SR-RP](S2E-Module/WIZ5xxSR-RP-Series/WIZ500SR-RP/overview-en.md)
  * [WIZ510SR-RP](S2E-Module/WIZ5xxSR-RP-Series/WIZ500SR-RP/overview-en.md)
+
+<!-- ### 2 Serial Port -->
+
+<!-- ### 4 Serial Port -->
 
 -----
 
@@ -94,6 +100,35 @@ The **IOP4IoT W7500** chip is the one-chip solution which integrates an ARM Cort
 
 ## Open Source Hardware
 
+### RP2040 (Raspberry Pi Pico) based 
+
+* Board
+  * [WizFi360-EVB-Pico](Open-Source-Hardware/WizFi360-EVB-Pico.md)
+  * [W5500-EVB-Pico](iEthernet/W5500/w5500-evb-pico.md)
+  * [W5100S-EVB-Pico](iEthernet/W5100S/w5100s-evb-pico.md)
+* HAT
+  * [WIZnet Ethernet HAT](Open-Source-Hardware/WIZnet-Ethernet-HAT.md)
+
+### Arduino
+
+* Board
+  * [WizArduino M0 ETH](Open-Source-Hardware/WizArduino_M0_ETH_eng.md)
+    * [WizArduino M0 ETH (KO)](Open-Source-Hardware/WizArduino_M0_ETH.md)
+  * [WizArduino MEGA WIFI](Open-Source-Hardware/WizArduino_MEGA_WIFI_eng.md)
+    * [WizArduino MEGA WIFI (KO)](Open-Source-Hardware/WizArduino_MEGA_WIFI.md)
+* Shield
+  * [W5500 Ethernet Shield](Open-Source-Hardware/W5500_Ethernet_Shield.md)
+    * [W5500 Ethernet Shield (KO)](Open-Source-Hardware/W5500_Ethernet_Shield_kor.md)
+    * [W5500 Ethernet Shield (JP)](Open-Source-Hardware/W5500_Ethernet_Shield_jp.md)
+  * [W5100S (MKR-)Ethernet Shield](Open-Source-Hardware/W5100S_(MKR-)Ethernet_Shield.md)
+  * [W6100 (MKR-)Ethernet Shield](Open-Source-Hardware/W6100_(MKR-)Ethernet_Shield.md)
+  * [WizFi310 Shield (discontinued)](Open-Source-Hardware/WizFi310_Shield.md)
+  * [ioShield-A](Open-Source-Hardware/ioShield-A.md)
+  * [ioShield-K](Open-Source-Hardware/ioShield-K.md)
+  * [ioShield-L](Open-Source-Hardware/ioShield-L.md)
+
+
+<!-- 
   - [WizFi360-EVB-Pico](Open-Source-Hardware/WizFi360-EVB-Pico.md)
   - [WIZnet Ethernet HAT](Open-Source-Hardware/WIZnet-Ethernet-HAT.md)
   - [WizArduino M0 ETH](Open-Source-Hardware/WizArduino_M0_ETH.md)
@@ -102,6 +137,6 @@ The **IOP4IoT W7500** chip is the one-chip solution which integrates an ARM Cort
   - [W5500 Ethernet Shield](Open-Source-Hardware/W5500_Ethernet_Shield.md)
   - [ioShield-A](Open-Source-Hardware/ioShield-A.md)
   - [ioShield-K](Open-Source-Hardware/ioShield-K.md)
-  - [ioShield-L](Open-Source-Hardware/ioShield-L.md)
-
+  - [ioShield-L](Open-Source-Hardware/ioShield-L.md) 
+-->
 -----

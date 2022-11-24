@@ -1,8 +1,13 @@
+// @ts-check
+
 //docusaurus.config.js for Docs only Mode
 
-module.exports = {
-  title: 'WIZnet Document System',
-  tagline: 'Welcome to new WIZnet Document System!',
+// const rlc = require("remark-link-card");
+
+// const config = {
+  module.exports = {
+  title: "WIZnet Document System",
+  tagline: "Welcome to new WIZnet Document System!",
   //url: 'https://wiznet.github.io',
   url: 'https://docs.wiznet.io',
   baseUrl: '/',
@@ -12,9 +17,8 @@ module.exports = {
   favicon: 'img/wizfavicon.ico',
   organizationName: 'WIZnet Co., Ltd.', // Usually your GitHub org/user name.
   projectName: 'document_framework', // Usually your repo name.
-  trailingSlash: 'false',
+  trailingSlash: false,
   themeConfig: {
-    
     docs:{
       sidebar: {
         hideable: true,
@@ -29,7 +33,7 @@ module.exports = {
       isCloseable: false,
     },
     colorMode: {
-      defaultMode: 'light',
+      defaultMode: "light",
       disableSwitch: false,
       respectPrefersColorScheme: false,
       /*switchConfig: {
@@ -37,10 +41,10 @@ module.exports = {
         lightIcon: '\u{1f324}',
       },*/
     },
-     algolia: {
-      appId: 'VXDI0EL2J7',
-      apiKey: '966f094e2a2b035dc3ec49a0751713b1',
-      indexName: 'wiznet',
+    algolia: {
+      appId: "VXDI0EL2J7",
+      apiKey: "966f094e2a2b035dc3ec49a0751713b1",
+      indexName: "wiznet",
       //apiKey: 'd2ede60bed9975d4b60dd5436896fe91',
       //indexName: 'wiznet',
              // Optional: see doc section bellow
@@ -57,152 +61,151 @@ module.exports = {
       hideOnScroll: true,
       //title: 'WIZnet',
       logo: {
-        alt: 'Wiznet Company Logo',
-        src: 'img/wiznet_logo.svg',
-        srcDark: 'img/wiznet_logo-white.svg',
+        alt: "Wiznet Company Logo",
+        src: "img/wiznet_logo.svg",
+        srcDark: "img/wiznet_logo-white.svg"
       },
       items: [
         {
-          label: 'Documents',
-          position: 'right', // or 'left'
+          label: "Documents",
+          position: "right", // or 'left'
           items: [
             {
-              label: 'Introduction ➤',
-              to: 'introduction',
+              label: "Introduction ➤",
+              to: "introduction"
             },
             {
-              label: 'Design Guide ➤',
-              to: '/Design-Guide/design_guide',
+              label: "Design Guide ➤",
+              to: "/Design-Guide/design_guide"
             },
             {
-              label: 'VAR Products ➤',
-              to: '/VAR-Products-using-WIZnet/var_products_using_wiznet',
-            },
+              label: "VAR Products ➤",
+              to: "/VAR-Products-using-WIZnet/var_products_using_wiznet"
+            }
             // ... more items
-          ],
+          ]
         },
-         // {to: 'docs/introduction', label: 'INTRODUCTION TO WIZNET DOCUMENTS ➤', position: 'right'},
-         // {to: 'docs/download', label: 'Download', position: 'right'},
-         {href: 'https://www.wiznet.io/', label: 'WIZnet', position: 'right'},
-         {href: 'https://forum.wiznet.io/', label: 'Forum', position: 'right'},
-         
+        // {to: 'docs/introduction', label: 'INTRODUCTION TO WIZNET DOCUMENTS ➤', position: 'right'},
+        // {to: 'docs/download', label: 'Download', position: 'right'},
+        { href: "https://www.wiznet.io/", label: "WIZnet", position: "right" },
+        { href: "https://forum.wiznet.io/", label: "Forum", position: "right" },
 
         //{to: 'blog', label: 'Blog', position: 'left'},
         {
-          href: 'https://github.com/Wiznet/',
-          label: 'GitHub',
-          position: 'right',
-        },
-
-      ],
+          href: "https://github.com/Wiznet/",
+          label: "GitHub",
+          position: "right"
+        }
+      ]
     },
     footer: {
-      style: 'dark',
+      style: "dark",
       links: [
         {
-          title: 'Docs',
+          title: "Docs",
           items: [
             {
-              label: 'Introduction',
-              to: 'introduction',
+              label: "Introduction",
+              to: "introduction"
             },
             {
-              label: 'Products',
-              to: '/',
+              label: "Products",
+              to: "/"
             },
             {
-              label: 'Design Guide',
-              to: '/Design-Guide/design_guide',
+              label: "Design Guide",
+              to: "/Design-Guide/design_guide"
             },
             {
-              label: 'VAR Products',
-              to: '/VAR-Products-using-WIZnet/var_products_using_wiznet',
-            },
-          ],
+              label: "VAR Products",
+              to: "/VAR-Products-using-WIZnet/var_products_using_wiznet"
+            }
+          ]
         },
         {
-          title: 'Buy',
+          title: "Buy",
           items: [
             {
-              label: 'USA',
-              href: 'https://eshop.wiznet.io/',
+              label: "USA",
+              href: "https://eshop.wiznet.io/"
             },
             {
-              label: 'EU',
-              href: 'http://shop.wiznet.eu/',
+              label: "EU",
+              href: "http://shop.wiznet.eu/"
             },
             {
-              label: 'China',
-              href: 'https://www.wiznet.hk/en/',
+              label: "China",
+              href: "https://www.wiznet.hk/en/"
             },
             {
-              label: 'Korea',
-              href: 'http://wiznetshop.co.kr/',
-            },
-          ],
+              label: "Korea",
+              href: "http://wiznetshop.co.kr/"
+            }
+          ]
         },
         {
-          title: 'Support',
+          title: "Support",
           items: [
             {
-              label: 'WIZnet Homepage',
-              href: 'https://wiznet.io',
+              label: "WIZnet Homepage",
+              href: "https://wiznet.io"
             },
             {
-              label: 'Forum',
-              href: 'https://forum.wiznet.io',
+              label: "Forum",
+              href: "https://forum.wiznet.io"
             },
             {
-              label: 'Maker Community',
-              href: 'http://maker.wiznet.io/',
+              label: "Maker Community",
+              href: "http://maker.wiznet.io/"
             },
             {
-              label: 'GitHub',
-              href: 'https://github.com/Wiznet/',
-            },
-          //  {
-          //    label: 'Twitter',
-          //    href: '',
-          //  },
-          ],
+              label: "GitHub",
+              href: "https://github.com/Wiznet/"
+            }
+            //  {
+            //    label: 'Twitter',
+            //    href: '',
+            //  },
+          ]
         },
         {
-          title: 'Social',
+          title: "Social",
           items: [
             {
-              label: 'Facebook',
-              href: 'https://www.facebook.com/wiznettechnology',
+              label: "Facebook",
+              href: "https://www.facebook.com/wiznettechnology"
             },
             {
-              label: 'LinkedIn',
-              href: 'https://www.linkedin.com/company/wiznet/',
+              label: "LinkedIn",
+              href: "https://www.linkedin.com/company/wiznet/"
             },
             {
-              label: 'Twitter',
-              href: 'https://twitter.com/wiznetteam',
+              label: "Twitter",
+              href: "https://twitter.com/wiznetteam"
             },
             {
-              label: 'Youtube',
-              href: 'https://www.youtube.com/channel/UCAxgCSp_xA2aQ1KA2Eknvqg',
-            },
-          ],
-        },
+              label: "Youtube",
+              href: "https://www.youtube.com/channel/UCAxgCSp_xA2aQ1KA2Eknvqg"
+            }
+          ]
+        }
       ],
-      copyright: `Copyright © ${new Date().getFullYear()} WIZnet Co., Ltd. Built with Docusaurus.`,
+      copyright: `Copyright © ${new Date().getFullYear()} WIZnet Co., Ltd. Built with Docusaurus.`
     },
-    image: 'img/wiznet-logo.png',
+    image: "img/wiznet-logo.png"
   },
   //plugins: ['./PreventTrailingSlash/PreventTrailingSlashPlugin'],
-  
+
   presets: [
     [
-      '@docusaurus/preset-classic',
+      "@docusaurus/preset-classic",
       {
         docs: {
-          routeBasePath:'/',
-          sidebarPath: require.resolve('./sidebars.js'),
-          editUrl:          
-            'https://github.com/Wiznet/document_framework/tree/master/',
+          routeBasePath: "/",
+          sidebarPath: require.resolve("./sidebars.js"),
+          editUrl: "https://github.com/Wiznet/document_framework/tree/master/",
+          // remarkPlugins: [rlc]
+          remarkPlugins: []
         },
         googleAnalytics: {
           trackingID: 'UA-207547783-2',
@@ -218,9 +221,11 @@ module.exports = {
 //         trailingSlash: false
 //         },
         theme: {
-          customCss: require.resolve('./src/css/custom.css'),
-        },
-      },
-    ],
-  ],
+          customCss: require.resolve("./src/css/custom.css")
+        }
+      }
+    ]
+  ]
 };
+
+// module.exports = config;

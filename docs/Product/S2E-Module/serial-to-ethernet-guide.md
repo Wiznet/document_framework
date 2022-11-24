@@ -32,7 +32,9 @@ The configuration tool used is different depending on the S2E product family, so
   <!-- - [WIZ510SSL](./WIZ510SSL/WIZ510SSL.md) -->
 
 
-[**Download the latest version (GitHub Repository)**](https://github.com/Wiznet/WIZnet-S2E-Tool-GUI/releases)
+**Download the latest version (GitHub Repository)**
+
+[https://github.com/Wiznet/WIZnet-S2E-Tool-GUI/releases](https://github.com/Wiznet/WIZnet-S2E-Tool-GUI/releases)
 
 [**Open Wiki page**](https://github.com/Wiznet/WIZnet-S2E-Tool-GUI/wiki)
 
@@ -85,7 +87,7 @@ Please refer to below compatibility table and use appropriate version.
 ![](/img/products/wiz750sr/usermanual/configtool_overview.png)  
 **WIZ107/108SR & WIZ750SR Configuration Tool**
 
-<a href="https://www.wiznet.io/wp-content/uploads/wiznethome/S2E%20Module/WIZ107_108SR/Utility/WIZ107_108_config_tool.zip" target="_blank">Download WIZ107/108SR & WIZ750SR Configuration Tool</a>  
+<a href="https://www.wiznet.io/wp-content/uploads/wiznethome/S2E%20Module/WIZ107_108SR/Utility/WIZ107_108_config_tool.zip" target="_blank">💾 Download WIZ107/108SR & WIZ750SR Configuration Tool</a>  
 
 -----
 
@@ -110,7 +112,7 @@ Please refer to below compatibility table and use appropriate version.
 ![](/img/products/configtool/wiz1xx_configtool.png)  
 **WIZ120/125SR Configuration Tool v1.1.0**
 
-<a href="http://www.wiznet.io/wp-content/uploads/wiznethome/S2E%20Module/WIZ120_125SR/Utility/WIZ12xSR_Config_V110.zip" target="_blank">Download WIZ120/125SR Configuration Tool</a>  
+<a href="http://www.wiznet.io/wp-content/uploads/wiznethome/S2E%20Module/WIZ120_125SR/Utility/WIZ12xSR_Config_V110.zip" target="_blank">💾 Download WIZ120/125SR Configuration Tool</a>  
 
 -----
 
@@ -129,7 +131,7 @@ Please refer to below compatibility table and use appropriate version.
 ![](/img/products/configtool/wiz12xsr_configtool.png)  
 **WIZ120/125SR Configuration Tool v1.1.0**
 
-<a href="http://www.wiznet.io/wp-content/uploads/wiznethome/S2E%20Module/WIZ120_125SR/Utility/WIZ12xSR_Config_V110.zip" target="_blank">Download WIZ120/125SR Configuration Tool</a>  
+<a href="http://www.wiznet.io/wp-content/uploads/wiznethome/S2E%20Module/WIZ120_125SR/Utility/WIZ12xSR_Config_V110.zip" target="_blank">💾 Download WIZ120/125SR Configuration Tool</a>  
 
 -----
 
@@ -144,7 +146,7 @@ Please refer to below compatibility table and use appropriate version.
 
 ![](/img/products/configtool/wiz140sr-configtool.png)
 
-<a href="http://www.wiznet.io/wp-content/uploads/wiznethome/S2E%20Module/WIZ140_145SR/Utility/WIZ14xSRConfig_Rev1_7.zip" target="_blank">Download WIZ140/145SR Configuration Tool</a>  
+<a href="http://www.wiznet.io/wp-content/uploads/wiznethome/S2E%20Module/WIZ140_145SR/Utility/WIZ14xSRConfig_Rev1_7.zip" target="_blank">💾 Download WIZ140/145SR Configuration Tool</a>  
 
 -----
 
@@ -169,7 +171,7 @@ For detailed instructions, see the link below.
 
 - [How to re-enter the MAC address on your devices](WIZ750SR/Developers-Guide-EN.md#how-to-re-enter-the-mac-address-on-your-devices)
 
-<a href="/img/products/wiz750sr/developers/restore-mac/wizmactool_v20151127.zip" target="_blank">Download the WizMACTool Program</a>  
+<a href="/img/products/wiz750sr/developers/restore-mac/wizmactool_v20151127.zip" target="_blank">💾 Download the WizMACTool Program</a>  
 
 
 -----
