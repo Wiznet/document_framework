@@ -401,32 +401,32 @@ Ethernet을 통해 제품을 제어 할 때는 커맨드 코드 전송 이전에
 </thead>
 <tbody>
 <tr class="odd">
-<td><a href="#ca_-_cd">CA</a></td>
+<td><a href="#ca---cd">CA</a></td>
 <td>사용자 I/O 설정<br />
 User I/O Settings</td>
 <td>사용자 I/O A pin Type과 Direction</td>
 <td>RW</td>
 </tr>
 <tr class="even">
-<td><a href="#ca_-_cd">CB</a></td>
+<td><a href="#ca---cd">CB</a></td>
 <td>:::</td>
 <td>사용자 I/O B pin Type과 Direction</td>
 <td>:::</td>
 </tr>
 <tr class="odd">
-<td><a href="#ca_-_cd">CC</a></td>
+<td><a href="#ca---cd">CC</a></td>
 <td>:::</td>
 <td>사용자 I/O C pin Type과 Direction</td>
 <td>:::</td>
 </tr>
 <tr class="even">
-<td><a href="#ca_-_cd">CD</a></td>
+<td><a href="#ca---cd">CD</a></td>
 <td>:::</td>
 <td>사용자 I/O D pin Type과 Direction</td>
 <td>:::</td>
 </tr>
 <tr class="odd">
-<td><a href="#ga_-_gd">GA</a></td>
+<td><a href="#ga---gd">GA</a></td>
 <td>사용자 I/O 값<br />
 User I/O<br />
 Status / Value</td>
@@ -436,19 +436,19 @@ Digital in: RO<br />
 Analog in: RO</td>
 </tr>
 <tr class="even">
-<td><a href="#ga_-_gd">GB</a></td>
+<td><a href="#ga---gd">GB</a></td>
 <td>:::</td>
 <td>사용자 I/O B pin의 status 혹은 value</td>
 <td>:::</td>
 </tr>
 <tr class="odd">
-<td><a href="#ga_-_gd">GC</a></td>
+<td><a href="#ga---gd">GC</a></td>
 <td>:::</td>
 <td>사용자 I/O C pin의 status 혹은 value</td>
 <td>:::</td>
 </tr>
 <tr class="even">
-<td><a href="#ga_-_gd">GD</a></td>
+<td><a href="#ga---gd">GD</a></td>
 <td>:::</td>
 <td>사용자 I/O D pin의 status 혹은 value</td>
 <td>:::</td>
