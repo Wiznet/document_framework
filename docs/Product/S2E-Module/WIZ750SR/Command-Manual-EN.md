@@ -596,31 +596,31 @@ address format, '.'(dot, 0x2E) must be included such as the
 </thead>
 <tbody>
 <tr class="odd">
-<td><a href="#ca_-_cd">CA</a></td>
+<td><a href="#ca---cd">CA</a></td>
 <td>User I/O Settings</td>
 <td>User I/O pin A type &amp; direction</td>
 <td>RW</td>
 </tr>
 <tr class="even">
-<td><a href="#ca_-_cd">CB</a></td>
+<td><a href="#ca---cd">CB</a></td>
 <td>:::</td>
 <td>User I/O pin B type &amp; direction</td>
 <td>:::</td>
 </tr>
 <tr class="odd">
-<td><a href="#ca_-_cd">CC</a></td>
+<td><a href="#ca---cd">CC</a></td>
 <td>:::</td>
 <td>User I/O pin C type &amp; direction</td>
 <td>:::</td>
 </tr>
 <tr class="even">
-<td><a href="#ca_-_cd">CD</a></td>
+<td><a href="#ca---cd">CD</a></td>
 <td>:::</td>
 <td>User I/O pin D type &amp; direction</td>
 <td>:::</td>
 </tr>
 <tr class="odd">
-<td><a href="#ga_-_gd">GA</a></td>
+<td><a href="#ga---gd">GA</a></td>
 <td>User I/O<br />
 Status / Value</td>
 <td>User I/O pin A status or value</td>
@@ -629,19 +629,19 @@ Digital in: RO<br />
 Analog in: RO</td>
 </tr>
 <tr class="even">
-<td><a href="#ga_-_gd">GB</a></td>
+<td><a href="#ga---gd">GB</a></td>
 <td>:::</td>
 <td>User I/O pin B status or value</td>
 <td>:::</td>
 </tr>
 <tr class="odd">
-<td><a href="#ga_-_gd">GC</a></td>
+<td><a href="#ga---gd">GC</a></td>
 <td>:::</td>
 <td>User I/O pin C status or value</td>
 <td>:::</td>
 </tr>
 <tr class="even">
-<td><a href="#ga_-_gd">GD</a></td>
+<td><a href="#ga---gd">GD</a></td>
 <td>:::</td>
 <td>User I/O pin D status or value</td>
 <td>:::</td>
