@@ -448,7 +448,7 @@ DURING FIRMWARE UPLOADING**
   - **Baud Rate**
       - The supported baud rates are as below.
       - 300, 600, 1200, 1800, 2400, 4800, 9600, 14400, 19200, 28800,
-        38400, 57600, 115200(default), 230400, 460800
+        38400, 57600, 115200(default), 230400
 
 
 
