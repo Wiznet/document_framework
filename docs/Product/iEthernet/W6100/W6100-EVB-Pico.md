@@ -18,7 +18,7 @@ W6100-EVB-Pico is a microcontroller evaluation board based on the Raspberry Pi R
 - Ethernet (W6100 Hardwired TCP/IP CHIP)
 
 
-<img src="https://github.com/Wiznet/Hardware-Files-of-WIZnet/blob/master/02_iEthernet/W6100/W6100-EVB-Pico/W6100-EVB-Pico_V100/Pictures/W6100-EVB-Pico-Picture.png?raw=true" width="800" /></a>
+<img src="https://github.com/Wiznet/Hardware-Files-of-WIZnet/blob/master/02_iEthernet/W6100/W6100-EVB-Pico/W6100-EVB-Pico_V100/Pictures/W6100-EVB-Pico-Picture.png?raw=true" width="800" />
 
 ## Revision history
 
@@ -62,7 +62,7 @@ W6100-EVB-Pico is a microcontroller evaluation board based on the Raspberry Pi R
 ### Pin-out v1.0
 
 
-<img src="https://github.com/Wiznet/Hardware-Files-of-WIZnet/blob/master/02_iEthernet/W6100/W6100-EVB-Pico/W6100-EVB-Pico_V100/Pictures/W6100S-EVB-PICO.jpg?raw=true" width="800" /></a>
+<img src="https://github.com/Wiznet/Hardware-Files-of-WIZnet/blob/master/02_iEthernet/W6100/W6100-EVB-Pico/W6100-EVB-Pico_V100/Pictures/W6100S-EVB-PICO.jpg?raw=true" width="800" />
 
 
 W6100-EVB-Pico pinout is directly connected to the GPIO of RP2040 as shown in the picture above. It has the same pinout as the Raspberry Pi Pico board. However, GPIO16, GPIO17, GPIO18, GPIO19, GPIO20, GPIO21 are connected to W6100 inside the board. These pins enable SPI communication with W5100S to use Ethernet function. If you are using the Ethernet function, these pins cannot be used for any other purpose.
@@ -129,7 +129,7 @@ TBA
 
 ### Schematic v1.0
 
-<img src="https://github.com/Wiznet/Hardware-Files-of-WIZnet/blob/master/02_iEthernet/W6100/W6100-EVB-Pico/W6100-EVB-Pico_V100/Pictures/W6100-EVB-Pico_SCH_V100.jpg?raw=true" width="800" /></a>
+<img src="https://github.com/Wiznet/Hardware-Files-of-WIZnet/blob/master/02_iEthernet/W6100/W6100-EVB-Pico/W6100-EVB-Pico_V100/Pictures/W6100-EVB-Pico_SCH_V100.jpg?raw=true" width="800" />
 
 
 ### Schematic & Part list & Gerber File
@@ -138,6 +138,6 @@ TBA
 
 ### Dimension v1.0 (Unit : mm)
 
-<img src="https://github.com/Wiznet/Hardware-Files-of-WIZnet/blob/master/02_iEthernet/W6100/W6100-EVB-Pico/W6100-EVB-Pico_V100/Pictures/w6100-evb-pico-1.0-dimension.png?raw=true" width="800" /></a>
+<img src="https://github.com/Wiznet/Hardware-Files-of-WIZnet/blob/master/02_iEthernet/W6100/W6100-EVB-Pico/W6100-EVB-Pico_V100/Pictures/w6100-evb-pico-1.0-dimension.png?raw=true" width="800" />
 
 
