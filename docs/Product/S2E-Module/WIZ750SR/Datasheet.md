@@ -71,7 +71,7 @@ Flow control: None, RTS / CTS, XON / XOFF</td>
 <tr class="odd">
 <td>:::</td>
 <td>Speed</td>
-<td>Up to 460Kbps</td>
+<td>Up to 230Kbps</td>
 </tr>
 <tr class="even">
 <td>Dimension</td>
