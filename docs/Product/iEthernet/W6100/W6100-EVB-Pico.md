@@ -12,14 +12,13 @@ description: W6100-EVB-Pico made for prototyping and testing Ethernet capabiliti
 
 ## Overview
 
-W6100-EVB-Pico is a microcontroller evaluation board based on the Raspberry Pi RP2040 and fully hardwired TCP/IP controller W5100S – and basically works the same as Raspberry Pi Pico board but with additional Ethernet via W6100.
+W6100-EVB-Pico is a microcontroller evaluation board based on the Raspberry Pi RP2040 and fully hardwired TCP/IP controller W6100 – and basically works the same as Raspberry Pi Pico board but with additional Ethernet via W6100.
 
 - Raspberry Pi Pico Clone
 - Ethernet (W6100 Hardwired TCP/IP CHIP)
-- [AWS IoT Core Qualified](https://devices.amazonaws.com/detail/a3G8a00000E2TSBEA3/W5100S-EVB-Pico)
-- [Microsoft Azure Certified](https://devicecatalog.azure.com/devices/9171d1ae-eb6d-4636-b512-611dc96bc2c7)
 
-<a target="_blank" href={require('/img/osh/w5100s_evb_pico/w5100s-evb-pico-1.1-side.png').default}><img src={require('/img/osh/w5100s_evb_pico/w5100s-evb-pico-1.1-side.png').default} alt="W5100S-EVB-RP2040"/></a>
+
+<img src="https://www.dropbox.com/s/vdyu1q37xdcyyaj/3-1-1-taylor-2.png?dl=0" width="800" /></a>
 
 ## Revision history
 
@@ -65,15 +64,10 @@ W6100-EVB-Pico is a microcontroller evaluation board based on the Raspberry Pi R
 
 <img src="https://github.com/Wiznet/Hardware-Files-of-WIZnet/blob/master/02_iEthernet/W6100/W6100-EVB_V110/Pictures/W6100S-EVB-PICO.jpg?raw=true" width="800" /></a>
 
-<details>
-<summary>Above image presents pinout for v1.0.
-</summary>
-<a target="_blank" href={require('/img/osh/w5100s_evb_pico/w5100s-evb-pic-pinout_v1.png').default}><img src={require('/img/osh/w5100s_evb_pico/w5100s-evb-pic-pinout_v1.png').default} alt="W5100S-EVB-Pico_PINOUT"/></a>
-</details>
 
 W6100-EVB-Pico pinout is directly connected to the GPIO of RP2040 as shown in the picture above. It has the same pinout as the Raspberry Pi Pico board. However, GPIO16, GPIO17, GPIO18, GPIO19, GPIO20, GPIO21 are connected to W6100 inside the board. These pins enable SPI communication with W5100S to use Ethernet function. If you are using the Ethernet function, these pins cannot be used for any other purpose.
 
-The RP2040 GPIO used inside W5100S-EVB-Pico is as follows.
+The RP2040 GPIO used inside W6100-EVB-Pico is as follows.
 
 | I/O  | Pin Name | Description                                    |
 | :--: | -------- | ---------------------------------------------- |
@@ -129,19 +123,14 @@ TBA
 
 - [Download](https://datasheets.raspberrypi.org/rp2040/rp2040-datasheet.pdf)
 
-### W6100S Datasheet
+### W6100 Datasheet
 
 - [Download](Overview.md)
 
 ### Schematic v1.0
 
-<a target="_blank" href={require('/img/osh/w5100s_evb_pico/w5100s-evb-pico_sch_v110.jpg').default}><img src={require('/img/osh/w5100s_evb_pico/w5100s-evb-pico_sch_v110.jpg').default} alt="W5100S-EVB_Pico_schematic"/></a>
+<img src="02_iEthernet/W6100/W6100-EVB-Pico/W6100-EVB-Pico_V100/Schematic/W6100-EVB-Pico_SCH_V100.pdf" width="800" /></a>
 
-<details>
-<summary>Above image presents schematic for v1.0.
-</summary>
-<a target="_blank" href={require('/img/osh/w5100s_evb_pico/w5100S-evb_pico_schematic.png').default}><img src={require('/img/osh/w5100s_evb_pico/w5100S-evb_pico_schematic.png').default} alt="W5100S-EVB_Pico_schematic"/></a>
-</details>
 
 ### Schematic & Part list & Gerber File
 
@@ -150,11 +139,5 @@ TBA
 ### Dimension v1.0 (Unit : mm)
 
 <img src="https://github.com/Wiznet/Hardware-Files-of-WIZnet/blob/master/02_iEthernet/W6100/W6100-EVB-Pico/W6100-EVB-Pico_V100/Pictures/w6100-evb-pico-1.0-dimension.png" width="800" /></a>
-
-<details>
-<summary>Above image presents dimension for v1.0.
-</summary>
-<a target="_blank" href={require('/img/osh/w5100s_evb_pico/w5100s-evb-pico_dimension.png').default}><img src={require('/img/osh/w5100s_evb_pico/w5100s-evb-pico_dimension.png').default} alt="W5100S-EVB-RP2040_Dimension"/></a>
-</details>
 
 
