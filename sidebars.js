@@ -904,11 +904,12 @@ module.exports = {
 				label: 'RP2040 Based',
 				link: {type: 'doc', id: 'Product/Open-Source-Hardware/rp2040_based'},
 				items: [
-					'Product/Open-Source-Hardware/wiznet_ethernet_hat',
+					//'Product/Open-Source-Hardware/w2e-gateway-pico',
 					'Product/Open-Source-Hardware/wizfi360-evb-pico',
-					'Product/Open-Source-Hardware/w2e-gateway-pico',
+					'Product/iEthernet/W6100/w6100-evb-pico',
 					'Product/iEthernet/W5500/w5500-evb-pico',
 					'Product/iEthernet/W5100S/w5100s-evb-pico',
+					'Product/Open-Source-Hardware/wiznet_ethernet_hat',
 				]
 			},
 			{

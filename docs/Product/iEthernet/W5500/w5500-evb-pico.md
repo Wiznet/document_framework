@@ -1,7 +1,7 @@
 ---
 id: w5500-evb-pico
 title: W5500-EVB-Pico
-date: 2022-03-15
+date: 2022-12-09
 keywords:
   - Raspberry-Pi-Pico
   - RP2040
@@ -16,6 +16,8 @@ W5500-EVB-Pico is a microcontroller evaluation board based on the Raspberry Pi R
 
 - Raspberry Pi Pico Clone
 - Ethernet (W5500 Hardwired TCP/IP CHIP)
+- [AWS IoT Core Qualified](https://devices.amazonaws.com/detail/a3G8a00000311tuEAA/W5500-EVB-Pico)
+- [Microsoft Azure Device Certified](https://devicecatalog.azure.com/devices/b278ce42-dde1-46b7-919e-4ae3a5266a3c)
 
 ![W5500-EVB-RP2040](/img/products/w5500-evb-pico/w5500_evb_pico_side.png)
 
@@ -122,10 +124,34 @@ Recommended maximum ambient temperature of operation is 70C.
 
 Please refer to below links to find firmware example.
 
-- [C/C++ Examples](https://github.com/Wiznet/RP2040-HAT-C)
+- C/C++
+  - [Ethernet Examples](https://github.com/Wiznet/RP2040-HAT-C)
+  - [AWS Examples](https://github.com/Wiznet/RP2040-HAT-AWS-C)
+  - [Azure Examples](https://github.com/Wiznet/RP2040-HAT-AZURE-C)
+  - [LwIP Examples](https://github.com/Wiznet/RP2040-HAT-LWIP-C)
+  - [FreeRTOS Examples](https://github.com/Wiznet/RP2040-HAT-FREERTOS-C)
 - [CircuitPython Examples](https://github.com/Wiznet/RP2040-HAT-CircuitPython)
 - [MicroPython Examples](https://github.com/Wiznet/RP2040-HAT-MicroPython)
-- [AWS Examples](https://github.com/Wiznet/RP2040-HAT-AWS-C)
-- [Azure Examples](https://github.com/Wiznet/RP2040-HAT-AZURE-C)
-- [FreeRTOS Examples](https://github.com/Wiznet/RP2040-HAT-FREERTOS-C)
-- [LwIP Examples](https://github.com/Wiznet/RP2040-HAT-LWIP-C)
+
+### AWS Qualification
+
+W5500S-EVB-Pico is RP2040-based device that got AWS IoT Core Qualification.
+
+![](/img/osh/w5100s_evb_pico/AWS_DQP_iot_500px.png)
+
+- [AWS Partner Device Catalog](https://devices.amazonaws.com/detail/a3G8a00000311tuEAA/W5500-EVB-Pico)
+- <a href="/img/products/w5500-evb-pico/w5500-evb-pico-getting-started-guide-for-aws-iot-core-v1-0-0.pdf" target="_blank">Getting Started with AWS IoT Core</a>
+
+### Microsoft Azure Certification
+
+W5500-EVB-Pico is RP2040-based device certified to run with Microsoft Azure.
+
+![](/img/osh/w5100s_evb_pico/Azure-Certified-Device-Badge_RGB.png)
+
+- [Azure Certified Device Catalog](https://devicecatalog.azure.com/devices/b278ce42-dde1-46b7-919e-4ae3a5266a3c)
+- <a href="/img/products/w5500-evb-pico/w5500-evb-pico-getting-started-guide-for-azure-iot-v1-0-1.pdf" target="_blank">Getting Started for Azure IoT</a>
+
+## How to buy
+
+[![WIZnetUS Online Shop, USA](/img/products/w5500-evb-pico/icons/dollar.png)](https://eshop.wiznet.io/shop/module/w5500-evb-pico/)
+[![WIZnetKorea Online Shop, Korea](/img/products/w5500-evb-pico/icons/won.png)](http://wiznetshop.io/product/detail.html?product_no=1052&cate_no=54&display_group=1)

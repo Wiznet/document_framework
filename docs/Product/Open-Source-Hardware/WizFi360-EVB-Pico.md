@@ -1,7 +1,7 @@
 ---
 id: wizfi360-evb-pico
 title: WizFi360-EVB-Pico
-date: 2022-06-24
+date: 2022-12-09
 keywords:
   - Raspberry-Pi-Pico
   - RP2040-Wifi
@@ -16,6 +16,8 @@ WizFi360-EVB-Pico is based on Raspberry Pi RP2040 and adds Wi-Fi connectivity us
 
 - Raspberry Pi Pico Clone
 - Wi-Fi ([WizFi360](./../Wi-Fi-Module/WizFi360/WizFi360.md))
+- [AWS IoT Core Qualified](https://devices.amazonaws.com/detail/a3G8a00000311vZEAQ/WizFi360-EVB-Pico)
+- [Microsoft Azure Device Certified](https://devicecatalog.azure.com/devices/34fb2c62-1d19-45b0-8339-56be64811387)
 
 ![WizFi360-EVB-Pico_Main](/img/osh/wizfi360-evb-pico/WizFi360-EVB-Pico_Main.png)
 
@@ -117,6 +119,33 @@ Apart from GPIO and ground pins, there are 7 other pins on the main 40-pin inter
 ### Firmware Example
 
 Please refer to below links to find firmware example.
-- [C/C++ Examples](https://github.com/Wiznet/WizFi360-EVB-Pico-C)
-- [AWS Examples](https://github.com/Wiznet/WizFi360-EVB-Pico-AWS-C)
-- [Azure Examples](https://github.com/Wiznet/WizFi360-EVB-Pico-AZURE-C)
+
+- C/C++
+  - [Basic Examples](https://github.com/Wiznet/WizFi360-EVB-Pico-C)
+  - [AWS Examples](https://github.com/Wiznet/WizFi360-EVB-Pico-AWS-C)
+  - [Azure Examples](https://github.com/Wiznet/WizFi360-EVB-Pico-AZURE-C)
+- [CircuitPython Examples](https://github.com/Wiznet/WizFi360-EVB-Pico-CircuitPython)
+- [MicroPython Examples](https://github.com/Wiznet/WizFi360-EVB-Pico-MicroPython)
+
+### AWS Qualification
+
+WizFi360-EVB-Pico is RP2040-based device that got AWS IoT Core Qualification.
+
+![](/img/osh/w5100s_evb_pico/AWS_DQP_iot_500px.png)
+
+- [AWS Partner Device Catalog](https://devices.amazonaws.com/detail/a3G8a00000311vZEAQ/WizFi360-EVB-Pico)
+- <a href="/img/products/wizfi360-evb-pico/wizfi360-evb-pico-getting-started-guide-for-aws-iot-core-v1-0-0.pdf" target="_blank">Getting Started with AWS IoT Core</a>
+
+### Microsoft Azure Certification
+
+WizFi360-EVB-Pico is RP2040-based device certified to run with Microsoft Azure.
+
+![](/img/osh/w5100s_evb_pico/Azure-Certified-Device-Badge_RGB.png)
+
+- [Azure Certified Device Catalog](https://devicecatalog.azure.com/devices/34fb2c62-1d19-45b0-8339-56be64811387)
+- <a href="/img/products/wizfi360-evb-pico/wizfi360-evb-pico-getting-started-guide-for-azure-iot-v1-0-1.pdf" target="_blank">Getting Started for Azure IoT</a>
+
+## How to buy
+
+[![WIZnetUS Online Shop, USA](/img/products/wizfi360-evb-pico/icons/dollar.png)](https://eshop.wiznet.io/shop/module/wizfi360-evb-pico/)
+[![WIZnetKorea Online Shop, Korea](/img/products/wizfi360-evb-pico/icons/won.png)](http://wiznetshop.io/product/detail.html?product_no=1054&cate_no=44&display_group=1)

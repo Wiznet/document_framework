@@ -1,7 +1,7 @@
 ---
 id: w5100s-evb-pico
 title: W5100S-EVB-Pico
-date: 2021-09-07
+date: 2022-12-09
 keywords:
   - Raspberry Pi Pico
   - RP2040
@@ -17,7 +17,7 @@ W5100S-EVB-Pico is a microcontroller evaluation board based on the Raspberry Pi 
 - Raspberry Pi Pico Clone
 - Ethernet (W5100S Hardwired TCP/IP CHIP)
 - [AWS IoT Core Qualified](https://devices.amazonaws.com/detail/a3G8a00000E2TSBEA3/W5100S-EVB-Pico)
-- [Microsoft Azure Certified](https://devicecatalog.azure.com/devices/9171d1ae-eb6d-4636-b512-611dc96bc2c7)
+- [Microsoft Azure Device Certified](https://devicecatalog.azure.com/devices/9171d1ae-eb6d-4636-b512-611dc96bc2c7)
 
 <a target="_blank" href={require('/img/osh/w5100s_evb_pico/w5100s-evb-pico-1.1-side.png').default}><img src={require('/img/osh/w5100s_evb_pico/w5100s-evb-pico-1.1-side.png').default} alt="W5100S-EVB-RP2040"/></a>
 
@@ -162,13 +162,14 @@ TBA
 
 Please refer to below links to find firmware example.
 
-- [C/C++ Examples](https://github.com/Wiznet/RP2040-HAT-C)
+- C/C++
+  - [Ethernet Examples](https://github.com/Wiznet/RP2040-HAT-C)
+  - [AWS Examples](https://github.com/Wiznet/RP2040-HAT-AWS-C)
+  - [Azure Examples](https://github.com/Wiznet/RP2040-HAT-AZURE-C)
+  - [LwIP Examples](https://github.com/Wiznet/RP2040-HAT-LWIP-C)
+  - [FreeRTOS Examples](https://github.com/Wiznet/RP2040-HAT-FREERTOS-C)
 - [CircuitPython Examples](https://github.com/Wiznet/RP2040-HAT-CircuitPython)
 - [MicroPython Examples](https://github.com/Wiznet/RP2040-HAT-MicroPython)
-- [AWS Examples](https://github.com/Wiznet/RP2040-HAT-AWS-C)
-- [Azure Examples](https://github.com/Wiznet/RP2040-HAT-AZURE-C)
-- [FreeRTOS Examples](https://github.com/Wiznet/RP2040-HAT-FREERTOS-C)
-- [LwIP Examples](https://github.com/Wiznet/RP2040-HAT-LWIP-C)
 
 ### AWS Qualification
 
@@ -176,19 +177,19 @@ W5100S-EVB-Pico is first RP2040-based device that got AWS IoT Core Qualification
 
 ![](/img/osh/w5100s_evb_pico/AWS_DQP_iot_500px.png)
 
-- [AWS Device Catalog](https://devices.amazonaws.com/detail/a3G8a00000E2TSBEA3/W5100S-EVB-Pico)
+- [AWS Partner Device Catalog](https://devices.amazonaws.com/detail/a3G8a00000E2TSBEA3/W5100S-EVB-Pico)
 - <a href="/img/products/w5100s-evb-pico/w5100s-evb-pico-getting-started-guide-for-aws-iot-core-v1-1-0.pdf" target="_blank">Getting Started with AWS IoT Core</a>
 
-### MS Azure Certification
+### Microsoft Azure Certification
 
 W5100S-EVB-Pico is first RP2040-based device certified to run with Microsoft Azure.
 
 ![](/img/osh/w5100s_evb_pico/Azure-Certified-Device-Badge_RGB.png)
 
-- [Azure Certified Device catalog](https://devicecatalog.azure.com/devices/9171d1ae-eb6d-4636-b512-611dc96bc2c7)
-- <a href="/img/products/w5100s-evb-pico/w5100s-evb-pico-getting-started-guide-for-azure-v1-0-0.pdf" target="_blank">Getting Started for Azure IoT</a>
+- [Azure Certified Device Catalog](https://devicecatalog.azure.com/devices/9171d1ae-eb6d-4636-b512-611dc96bc2c7)
+- <a href="/img/products/w5100s-evb-pico/w5100s-evb-pico-getting-started-guide-for-azure-iot-v1-0-1.pdf" target="_blank">Getting Started for Azure IoT</a>
 
 ## How to buy
 
-[![WIZnetUS Online Shop, USA](/img/products/w5500/w5500_evb/icons/dollar.png)](https://eshop.wiznet.io/shop/module/w5100s-evb-pico/)
-[![WIZnetKorea Online Shop, Korea](/img/products/w5500/w5500_evb/icons/won.png)](http://wiznetshop.co.kr/product/detail.html?product_no=1049&cate_no=1&display_group=2)
+[![WIZnetUS Online Shop, USA](/img/products/w5100s-evb-pico/icons/dollar.png)](https://eshop.wiznet.io/shop/module/w5100s-evb-pico/)
+[![WIZnetKorea Online Shop, Korea](/img/products/w5100s-evb-pico/icons/won.png)](http://wiznetshop.io/product/detail.html?product_no=1049&cate_no=54&display_group=1)
