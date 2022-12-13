@@ -225,7 +225,7 @@ module.exports = {
 					'Product/iEthernet/W5100S/w5100s-evb',
 					'Product/iEthernet/W5100S/w5100s-evb-pico',
 					'Product/iEthernet/W5100S/w5100s-getting-started',
-					'Product/iEthernet/W5100S/w5100s-projects-w5100s-projects-stm32cubeide',
+					'Product/iEthernet/W5100S/w5100s-projects-stm32cubeide',
 					'Product/iEthernet/W5100S/w5100s-projects-truestudio',
 					'Product/iEthernet/W5100S/w5100s-projects-eclipse',
 				//'Product/iEthernet/W5100S/all_pages',
