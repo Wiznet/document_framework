@@ -72,7 +72,7 @@ as follows.
 
 Download the libraries and projects for W5100S-EVB from
 ![](/img/products/w5500/w5500_evb/icons/link.png)[W5100S-EVB GitHub
-repository](https://github.com/Wiznet/W5100S-EVB). After downloading,
+repository](https://github.com/Wiznet/W5100S-EVB/tree/truestudio_ver). After downloading,
 import the required project libraries to your workspace.
 
 1\. Delete "main.c", "tiny\_printf.c", "stm32f1xx\_it.c",

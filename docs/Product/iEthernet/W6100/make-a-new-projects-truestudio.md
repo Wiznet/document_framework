@@ -24,8 +24,7 @@ You should import provided projects to your new project for easy to
 configure.
 
 Download the projects for W6100-EVB from
-![](/img/link.png)[W6100\_EVB GitHub
-repository](https://github.com/Wiznet/W6100_EVB). After downloading,
+![](/img/link.png)[W6100\_EVB GitHub repository](https://github.com/Wiznet/W6100-EVB/tree/truestudio_ver). After downloading,
 import the required project to your workspace.
 
 1\. mouse right click → click to Import  
