@@ -284,7 +284,8 @@ module.exports = {
 						//'Product/iEthernet/W5300/w5300',
 						'Product/iEthernet/W5300/overview',
 						'Product/iEthernet/W5300/document',
-						'Product/iEthernet/W5300/w5300-evb',
+						'Product/iEthernet/W5300/w5300-evb'
+						'Product/iEthernet/W5300/w5300-TOE-Shield',
 					],
 				},
 				{
