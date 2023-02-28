@@ -13,7 +13,7 @@ Click on the product name for a detailed description of each product.
 ### Board
 
 * [WizFi360-EVB-Pico](Product/Open-Source-Hardware/WizFi360-EVB-Pico.md)
-* [W6100-EVB-Pico](Product/iEthernet/W6100/w6100-evb-pico.md)
+* [W6100-EVB-Pico](Product/iEthernet/W6100/W6100-EVB-Pico.md)
 * [W5500-EVB-Pico](Product/iEthernet/W5500/w5500-evb-pico.md)
 * [W5100S-EVB-Pico](Product/iEthernet/W5100S/w5100s-evb-pico.md)
 
