@@ -1,7 +1,7 @@
 ---
 id: W5300-TOE-Shield
 title: W5300-TOE-Shield
-date: 2023-03-02
+date: 2023-03-03
 ---
 
 ![](/img/osh/w5300-toe-shield/W5300-TOE-Shield-1.png)
@@ -17,17 +17,17 @@ date: 2023-03-02
     - [NUCLEO-F722ZE](https://www.st.com/en/evaluation-tools/nucleo-f722ze.html)
     - [NUCLEO-F756ZG](https://www.st.com/en/evaluation-tools/nucleo-f756zg.html)
     - [NUCLEO-F767ZI](https://www.st.com/en/evaluation-tools/nucleo-f767zi.html)
-- 16Bit, 8Bit communication options available
-- 25 MHz Crystal Oscillator
-- Ethernet compliant with IEEE-802.3-2002
-- MCU, W5300, and User push-buttons
-- Arduino Shield connector
+- Supports 16/8 bit data bus width
+- Supports 8 independent sockets simultaneously
+- Usable without H/W design for W5300, transformer & RJ-45
+- Built-in 25 MHz crystal oscillator
+- Arduino pin compatible
 
 
 
 ## Description
 
-The W5300-TOE-Shield is a board that enables high-speed bus communication with the W5300 and ST's Coretex MCU.The W5300-TOE-Shield is a board that can be mounted on a Nucleo board. Individual actions cannot be performed without the Nucleo board, and only the Nucleo-F429 board is currently supported. It also supports various shield boards in the form of Arduino Shield. However, the pinmap has changed a little in the process of using the W5300, so please refer to the pin map below.
+The W5300-TOE-Shield is a board that enables high-speed bus communication with the W5300 and ST's Cortex MCU. The W5300-TOE-Shield is a board that can be mounted on a Nucleo board. Individual actions cannot be performed without the Nucleo-144 board, and the NUCLEO-F207ZG, NUCLEO-F429ZI, NUCLEO-F439ZI, NUCLEO-F722ZE, NUCLEO-F756ZG and NUCLEO-F767ZI boards are currently supported. It also supports various shield boards compatible with Arduino pins. However, the pin-out has changed a little in the process of using the W5300, so please refer to the pin map below.
 
 
 
