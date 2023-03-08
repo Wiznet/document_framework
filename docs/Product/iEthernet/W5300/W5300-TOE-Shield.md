@@ -43,7 +43,7 @@ The W5300-TOE-Shield is a board that enables high-speed bus communication with t
 
 ### Schematic
 
-<a href="/img/products/w5300/w5300e01-arm_linux.zip" target="_blank">Download</a>
+<a href="/img/osh/w5300-toe-shield/Schematic-W5300-TOE-Shield-V001.pdf" target="_blank">Download</a>
 
 
 
@@ -58,7 +58,7 @@ The W5300-TOE-Shield is a board that enables high-speed bus communication with t
 
 ### Hardware
 
-<a href="/img/products/w5300/W5300E01_ARM_HW.zip" target="_blank">Download</a>
+<a href="/img/osh/w5300-toe-shield/W5300-TOE-Shield-V001.zip" target="_blank">Download</a>
 
 - W5300-TOE-Shield Schematic
 - W5300-TOE-Shield Part List
