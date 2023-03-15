@@ -94,7 +94,6 @@ It combines with the W5500, W5100S, and W6100 Io Module to provide Ethernet as w
 | Operation Temperature MIN    | -20C                         |
 | +5V                          | DC 5V (+/- 10%)              |
 | +3.3V                        | DC 3.3V                      |
-| VSYS Max                     | DC 5.5V                      |
 | Power Max                    | 6.6W                         |
 | +3.3V Output Max (LDO Output)| 1.98W                        |
 
