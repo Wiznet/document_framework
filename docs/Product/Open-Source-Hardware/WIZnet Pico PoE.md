@@ -81,7 +81,9 @@ Removed Raspberry Pi Pico, WIZnet Ethernet IO Module
 #### Raspberry Pi Pico
 
 WIZnet IO Module pinout is directly connected to the GPIO of Pico Board as shown in the picture above.  GPIO16, GPIO17, GPIO18, GPIO19, GPIO20, GPIO21 are connected to WIZnet IO Module. These pins enable SPI communication with WIZnet Chip to use Ethernet function. If you are using the Ethernet function, these pins cannot be used for any other purpose
+
 ######Raspberry Pi Pico to WIZnet IO Module Connecttion Pin
+
 | I/O  | Pin Name | Description                                    |
 | :--: | -------- | ---------------------------------------------- |
 |  I   | GPIO16   | Connected to MISO on W5100S                    |
