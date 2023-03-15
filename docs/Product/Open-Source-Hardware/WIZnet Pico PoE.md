@@ -157,7 +157,7 @@ TBA
 
 ### PCB Data
 
-<a href="/img/products/wiznet-pico-pie/WIZnet-Pico-PoE.zip" target="_blank">Download</a>
+<a href="/img/products/wiznet-pico-poe/WIZnet-Pico-PoE.zip" target="_blank">Download</a>
 
 ### Dimension (Unit : mm)
 
