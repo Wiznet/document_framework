@@ -71,11 +71,15 @@ It combines with the W5500, W5100S, and W6100 Io Module to provide Ethernet as w
 
 ## Hardware Specification
 
-<a target="_blank" href={require('/img/osh/WIZnet_Pico_PoE/WIznet-Pico-PoE-1.png').default}><img src={require('/img/osh/WIZnet_Pico_PoE/WIznet-Pico-PoE-1.png').default} alt="WIZnet Pico PoE"/></a>
+<a target="_blank" href={require('/img/osh/WIZnet_Pico_PoE/WIznet-Pico-PoE-1.png').default}><img src={require('/img/osh/WIZnet_Pico_PoE/WIznet-Pico_PoE-1.png').default} alt="WIZnet Pico PoE"/></a>
+Mounting Raspberry Pi Pico, WIZnet Ethernet IO Module
 
 <a target="_blank" href={require('/img/osh/WIZnet_Pico_PoE/WIZnet-Pico_PoE-2.png').default}><img src={require('/img/osh/WIZnet_Pico_PoE/WIZnet-Pico_PoE-2.png').default} alt="WIZnet Pico PoE"/></a>
+Removed Raspberry Pi Pico, WIZnet Ethernet IO Module
 
-### J1 Power Output Header
+<a target="_blank" href={require('/img/osh/WIZnet_Pico_PoE/WIZnet-Pico_PoE-2.png').default}><img src={require('/img/osh/WIZnet_Pico_PoE/WIZnet-Pico_PoE-Part.png').default} alt="WIZnet Pico PoE Part"/></a>
+
+#### J1 Power Output Header
 
 | Pin No. | Pin Name | Description                                                                      |
 | ------- | -------- | -------------------------------------------------------------------------------- |
@@ -83,7 +87,7 @@ It combines with the W5500, W5100S, and W6100 Io Module to provide Ethernet as w
 | 2       | +3.3V    | +3.3V voltage dropped out of +5V to the internal LDO. It can output up to 1.98W. |
 | 3       | GND      | Ground |
 
-### J7 SWD Header
+#### J7 SWD Header
 3-pin ARM Serial Wire Debug (SWD) port
 
 | Pin No. | Pin Name | 
