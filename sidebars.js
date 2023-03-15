@@ -917,6 +917,14 @@ module.exports = {
 			},
 			{
 				type: 'category',
+				label: 'WIZnet Pico PoE',
+				link: {type: 'doc', id: 'Product/Open-Source-Hardware/WIZnet Pico PoE'},
+				items: [
+					
+				]
+			},
+			{
+				type: 'category',
 				label: 'Arduino',
 				link: {type: 'doc', id: 'Product/Open-Source-Hardware/arduino'},
 				items: [
