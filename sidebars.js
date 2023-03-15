@@ -915,14 +915,9 @@ module.exports = {
 					'Product/Open-Source-Hardware/wiznet_ethernet_hat',
 				]
 			},
-			{
-				type: 'category',
-				label: 'WIZnet Pico PoE',
-				link: {type: 'doc', id: 'Product/Open-Source-Hardware/WIZnet Pico PoE'},
-				items: [
-					
-				]
-			},
+				//type: 'doc', 
+				//label: 'WIZnet Pico PoE', 
+			'Product/Open-Source-Hardware/wiznet-pico-poe',
 			{
 				type: 'category',
 				label: 'Arduino',
@@ -952,12 +947,6 @@ module.exports = {
 						],
 					},
 				]
-			},
-			{
-				type: 'category',
-				label: 'WIZnet Pico PoE',
-				link: {type: 'doc', id: 'Product/Open-Source-Hardware/WIZnet Pico PoE'},
-
 			},
 			/*'Product/Open-Source-Hardware/Tutorial',
 			'Product/Open-Source-Hardware/IP_Configuration',

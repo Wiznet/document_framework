@@ -1,5 +1,5 @@
 ---
-id: WIZnet Pico PoE
+id: wiznet-pico-poe
 title: WIZnet Pico PoE
 date: 2023-03-09
 keywords:
@@ -65,11 +65,11 @@ It combines with the W5500, W5100S, and W6100 Io Module to provide Ethernet as w
 
 ## Hardware Specification
 
-<a target="_blank" href={require('/img/osh/WIZnet_Pico_PoE/WIZnet-Pico_PoE-1.png').default}><img src={require('/img/osh/WIZnet_Pico_PoE/WIZnet-Pico_PoE-1.png').default} alt="WIZnet Pico PoE"/></a>
+<a target="_blank" href={require('/img/osh/WIZnet_Pico_PoE/WIznet-Pico-PoE-1.png').default}><img src={require('/img/osh/WIZnet_Pico_PoE/WIznet-Pico-PoE-1.png').default} alt="WIZnet Pico PoE"/></a>
 
 <a target="_blank" href={require('/img/osh/WIZnet_Pico_PoE/WIZnet-Pico_PoE-2.png').default}><img src={require('/img/osh/WIZnet_Pico_PoE/WIZnet-Pico_PoE-2.png').default} alt="WIZnet Pico PoE"/></a>
 
-#####J1 Power Output Header
+### J1 Power Output Header
 
 | Pin No. | Pin Name | Description                                                                      |
 | ------- | -------- | -------------------------------------------------------------------------------- |
@@ -77,7 +77,7 @@ It combines with the W5500, W5100S, and W6100 Io Module to provide Ethernet as w
 | 2       | +3.3V    | +3.3V voltage dropped out of +5V to the internal LDO. It can output up to 1.98W. |
 | 3       | GND      | Ground |
 
-#####J7 SWD Header
+#### J7 SWD Header
 3-pin ARM Serial Wire Debug (SWD) port
 
 | Pin No. | Pin Name | 
@@ -127,7 +127,7 @@ TBA
 
 ### Dimension (Unit : mm)
 
-<a target="_blank" href={require('/img/osh/w5100s_evb_pico/Dimention.png').default}><img src={require('/img/osh/w5100s_evb_pico/Dimention.png').default} alt="Dimention"/></a>
+<a target="_blank" href={require('/img/osh/WIZnet_Pico_PoE/Dimention.png').default}><img src={require('/img/osh/WIZnet_Pico_PoE/Dimention.png').default} alt="Dimention"/></a>
 
 
 
