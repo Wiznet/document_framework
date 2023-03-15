@@ -945,6 +945,12 @@ module.exports = {
 					},
 				]
 			},
+			{
+				type: 'category',
+				label: 'WIZnet Pico PoE',
+				link: {type: 'doc', id: 'Product/Open-Source-Hardware/WIZnet Pico PoE'},
+
+			},
 			/*'Product/Open-Source-Hardware/Tutorial',
 			'Product/Open-Source-Hardware/IP_Configuration',
 			'Product/Open-Source-Hardware/http_client',
