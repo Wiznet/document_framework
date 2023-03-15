@@ -25,7 +25,7 @@ It combines with the W5500, W5100S, and W6100 Io Module to provide Ethernet as w
 
 
 ## Features
-#####Raspberry Pi Pico
+##### Raspberry Pi Pico
 - RP2040 microcontroller with 2MByte Flash
   - Dual-core cortex M0+ at up to 133MHz
   - 264kByte multi-bank high performance SRAM
@@ -41,8 +41,8 @@ It combines with the W5500, W5100S, and W6100 Io Module to provide Ethernet as w
   - Flexible, user-programmable high-speed IO
   - Can emulate interfaces such as SD Card and VGA
  
-#####Install and use one of W5100S-io, and W6100-io
-######Caution : Incompatible with W5500-io Module. Compatible with next revision
+##### Install and use one of W5100S-io, and W6100-io
+###### Caution : Incompatible with W5500-io Module. Compatible with next revision
 
 - W5100S-IO
   - Supports Hardwired Internet Protocols: TCP, UDP, WOL over UDP, ICMP, IGMPv1/v2, IPv4, ARP, PPPoE
@@ -60,7 +60,7 @@ It combines with the W5500, W5100S, and W6100 Io Module to provide Ethernet as w
   - Internal 16 Kbytes Memory for TX/ RX Buffers
   - SPI Interface
 
-#####Other Functions
+##### Other Functions
 - 3-pin ARM Serial Wire Debug (SWD) port
 - 10 / 100 Ethernet PHY embedded
 - Supports Auto Negotiation
@@ -78,11 +78,12 @@ Mounting Raspberry Pi Pico, WIZnet Ethernet IO Module
 Removed Raspberry Pi Pico, WIZnet Ethernet IO Module
 
 <a target="_blank" href={require('/img/osh/WIZnet_Pico_PoE/WIZnet-Pico_PoE-Part.png').default}><img src={require('/img/osh/WIZnet_Pico_PoE/WIZnet-Pico_PoE-Part.png').default} alt="WIZnet Pico PoE Part"/></a>
+
 #### Raspberry Pi Pico
 
 WIZnet IO Module pinout is directly connected to the GPIO of Pico Board as shown in the picture above.  GPIO16, GPIO17, GPIO18, GPIO19, GPIO20, GPIO21 are connected to WIZnet IO Module. These pins enable SPI communication with WIZnet Chip to use Ethernet function. If you are using the Ethernet function, these pins cannot be used for any other purpose
 
-######Raspberry Pi Pico to WIZnet IO Module Connecttion Pin
+###### Raspberry Pi Pico to WIZnet IO Module Connecttion Pin
 
 |  I/O  | Pin Name | Description                                    |
 | :---: | -------- | ---------------------------------------------- |
@@ -96,7 +97,7 @@ WIZnet IO Module pinout is directly connected to the GPIO of Pico Board as shown
 |   O   | GPIO25   | Connected to user LED                          |
 |   I   | GPIO29   | Used in ADC mode (ADC3) to measure VSYS/3      |
 
-######Power Pin of Raspberry Pi Pico
+###### Power Pin of Raspberry Pi Pico
 | Pin No. | Pin Name | Description                                                                                                                         |
 | ------- | -------- | ----------------------------------------------------------------------------------------------------------------------------------- |
 | PIN40   | VBUS     | Micro-USB input voltage, connected to micro-USB port pin 1. Nominally 5V.                                                           |
