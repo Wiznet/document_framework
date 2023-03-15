@@ -71,6 +71,9 @@ It combines with the W5500, W5100S, and W6100 Io Module to provide Ethernet as w
 
 ## Hardware Specification
 
+<a target="_blank" href={require('/img/osh/WIZnet_Pico_PoE/WIZnet-Pico_PoE-1.png').default}><img src={require('/img/osh/WIZnet_Pico_PoE/WIZnet-Pico_PoE-1.png').default} alt="WIZnet Pico PoE"/></a>
+Mounting Raspberry Pi Pico, WIZnet Ethernet IO Module
+
 <a target="_blank" href={require('/img/osh/WIZnet_Pico_PoE/WIZnet-Pico_PoE-2.png').default}><img src={require('/img/osh/WIZnet_Pico_PoE/WIZnet-Pico_PoE-2.png').default} alt="WIZnet Pico PoE"/></a>
 Removed Raspberry Pi Pico, WIZnet Ethernet IO Module
 
@@ -152,10 +155,9 @@ TBA
 <a target="_blank" href={require('/img/osh/WIZnet_Pico_PoE/Schematics-WIZnet-Pico-PoE.png').default}><img src={require('/img/osh/WIZnet_Pico_PoE/Schematics-WIZnet-Pico-PoE.png').default} alt="Schematics-WIZnet-Pico-PoE"/></a>
 - <a href="/img/osh/WIZnet_Pico_PoE/Schematics-WIZnet-Pico-PoE.PDF" target="_blank">Schematics-WIZnet-Pico-PoE</a>
 
-
 ### PCB Data
 
-- <a href="/img/osh/WIZnet_Pico_PoE/WIZnet-Pico-PoE.zip" target="_blank">PCB-WIZnet-Pico-PoE</a>
+<a href="/img/products/wiznet-pico-pie/WIZnet-Pico-PoE.zip" target="_blank">Download</a>
 
 ### Dimension (Unit : mm)
 
