@@ -25,7 +25,7 @@ It combines with the W5500, W5100S, and W6100 Io Module to provide Ethernet as w
 
 
 ## Features
-
+#####Raspberry Pi Pico
 - RP2040 microcontroller with 2MByte Flash
   - Dual-core cortex M0+ at up to 133MHz
   - 264kByte multi-bank high performance SRAM
@@ -39,13 +39,17 @@ It combines with the W5500, W5100S, and W6100 Io Module to provide Ethernet as w
     - 1 × Timer with 4 alarms, 1 × Real Time Counter
   - 2 × Programmable IO (PIO) blocks, 8 state machines total
   - Flexible, user-programmable high-speed IO
-  - Can emulate interfaces such as SD Card and VGA  
+  - Can emulate interfaces such as SD Card and VGA
+ 
+#####Install and use one of W5100S-io, and W6100-io
+######Caution : Incompatible with W5500-io Module. Compatible with next revision
+
 - W5100S-IO
   - Supports Hardwired Internet Protocols: TCP, UDP, WOL over UDP, ICMP, IGMPv1/v2, IPv4, ARP, PPPoE
   - Supports 4 Independent Hardware SOCKETs simultaneously
   - Internal 16 Kbytes Memory for TX/ RX Buffers
   - SPI Interface
-- W5500-IO
+- W5500-IO (Not currently available on the board)
   - Supports Hardwired Internet Protocols: TCP, UDP, ICMP, IPv4, ARP, IGMP, PPPoE
   - Supports 8 Independent Hardware SOCKETs simultaneously
   - Internal 32 Kbytes Memory for TX/ RX Buffers
@@ -55,6 +59,8 @@ It combines with the W5500, W5100S, and W6100 Io Module to provide Ethernet as w
   - Supports 8 independent SOCKETs simultaneously with 32KB memory
   - Internal 16 Kbytes Memory for TX/ RX Buffers
   - SPI Interface
+
+#####Other Functions
 - 3-pin ARM Serial Wire Debug (SWD) port
 - 10 / 100 Ethernet PHY embedded
 - Supports Auto Negotiation
@@ -111,19 +117,18 @@ TBA
 
 ### RP2040 Datasheet
 
-
-
-### W5100S Datasheet
-
+- [Download](https://datasheets.raspberrypi.org/rp2040/rp2040-datasheet.pdf)
 
 
 ### Schematic
 
+<a target="_blank" href={require('/img/osh/WIZnet_Pico_PoE/Schematics-WIZnet-Pico-PoE.JPEG').default}><img src={require('/img/osh/WIZnet_Pico_PoE/Schematics-WIZnet-Pico-PoE.JPEG').default} alt="Schematics-WIZnet-Pico-PoE"/></a>
+- <a href="/img/osh/WIZnet_Pico_PoE/Schematics-WIZnet-Pico-PoE.PDF" target="_blank">Schematics-WIZnet-Pico-PoE</a>
 
 
-### Schematic & Part list & Gerber File
+### PCB Data
 
-
+- <a href="/img/osh/WIZnet_Pico_PoE/WIZnet-Pico-PoE.zip" target="_blank">PCB-WIZnet-Pico-PoE</a>
 
 ### Dimension (Unit : mm)
 
