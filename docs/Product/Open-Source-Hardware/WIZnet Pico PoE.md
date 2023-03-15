@@ -83,7 +83,7 @@ It combines with the W5500, W5100S, and W6100 Io Module to provide Ethernet as w
 | 2       | +3.3V    | +3.3V voltage dropped out of +5V to the internal LDO. It can output up to 1.98W. |
 | 3       | GND      | Ground |
 
-#### J7 SWD Header
+### J7 SWD Header
 3-pin ARM Serial Wire Debug (SWD) port
 
 | Pin No. | Pin Name | 
@@ -122,7 +122,7 @@ TBA
 
 ### Schematic
 
-<a target="_blank" href={require('/img/osh/WIZnet_Pico_PoE/Schematics-WIZnet-Pico-PoE.JPEG').default}><img src={require('/img/osh/WIZnet_Pico_PoE/Schematics-WIZnet-Pico-PoE.JPEG').default} alt="Schematics-WIZnet-Pico-PoE"/></a>
+<a target="_blank" href={require('/img/osh/WIZnet_Pico_PoE/Schematics-WIZnet-Pico-PoE.png').default}><img src={require('/img/osh/WIZnet_Pico_PoE/Schematics-WIZnet-Pico-PoE.png').default} alt="Schematics-WIZnet-Pico-PoE"/></a>
 - <a href="/img/osh/WIZnet_Pico_PoE/Schematics-WIZnet-Pico-PoE.PDF" target="_blank">Schematics-WIZnet-Pico-PoE</a>
 
 
