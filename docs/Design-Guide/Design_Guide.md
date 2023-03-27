@@ -23,8 +23,10 @@ using WIZnet's chips.: easily, quickly, accurately
 
 -----
 ## Design Guide Download
-  - [Hardware Design Guide (ENG)](/img/design_guide/Wiznet Ethernet Design Guide_ENG.pdf)
-  - [Hardware Design Guide (KOR)](/img/design_guide/Wiznet Ethernet Design Guide_KOR.pdf)
+  - [Hardware Design Guide(ENG)](/img/design_guide/Wiznet Ethernet Design Guide_ENG.pdf)
+  - [Hardware Design Guide(KOR)](/img/design_guide/Wiznet Ethernet Design Guide_KOR.pdf)
+
+-----
 
 ## Limitation Note
 
