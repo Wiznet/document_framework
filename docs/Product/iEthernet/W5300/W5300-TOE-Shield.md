@@ -1,6 +1,6 @@
 ---
 id: W5300-TOE-Shield
-title: W5300-TOE-Shield
+title: W5300 TOE Shield
 date: 2023-03-03
 ---
 
@@ -27,7 +27,7 @@ date: 2023-03-03
 
 ## Description
 
-The W5300-TOE-Shield is a board that enables high-speed bus communication with the W5300 and ST's Cortex MCU. The W5300-TOE-Shield is a board that can be mounted on a Nucleo board. Individual actions cannot be performed without the Nucleo-144 board, and the NUCLEO-F207ZG, NUCLEO-F429ZI, NUCLEO-F439ZI, NUCLEO-F722ZE, NUCLEO-F756ZG and NUCLEO-F767ZI boards are currently supported. It also supports various shield boards compatible with Arduino pins. However, the pin-out has changed a little in the process of using the W5300, so please refer to the pin map below.
+The W5300 TOE Shield is a board that enables high-speed bus communication with the W5300 and ST's Cortex MCU. The W5300-TOE-Shield is a board that can be mounted on a Nucleo board. Individual actions cannot be performed without the Nucleo-144 board, and the NUCLEO-F207ZG, NUCLEO-F429ZI, NUCLEO-F439ZI, NUCLEO-F722ZE, NUCLEO-F756ZG and NUCLEO-F767ZI boards are currently supported. It also supports various shield boards compatible with Arduino pins. However, the pin-out has changed a little in the process of using the W5300, so please refer to the pin map below.
 
 
 
@@ -37,7 +37,7 @@ The W5300-TOE-Shield is a board that enables high-speed bus communication with t
 
 ### Datasheet
 
-<a href="/img/osh/w5300-toe-shield/W5300-ToE-Shield-Datasheet.pdf" target="_blank">W5300-ToE-Shield-Datasheet V1.0</a>
+<a href="/img/osh/w5300-toe-shield/W5300-ToE-Shield-Datasheet.pdf" target="_blank">W5300 ToE Shield-Datasheet V1.0</a>
 
 
 
@@ -60,16 +60,16 @@ The W5300-TOE-Shield is a board that enables high-speed bus communication with t
 
 <a href="/img/osh/w5300-toe-shield/W5300-TOE-Shield-V001.zip" target="_blank">Download</a>
 
-- W5300-TOE-Shield Schematic
-- W5300-TOE-Shield Part List
+- W5300 TOE Shield Schematic
+- W5300 TOE Shield Part List
 
 
 
 ## Firmware Example
 
 - C/C++
-    - [W5300-TOE-C](https://github.com/Wiznet/W5300-TOE-C)
+    - [W5300-TOE-C](https://github.com/Wiznet/W5300 TOE C)
 - Arduino
-    - [W5300-TOE-Arduino](https://github.com/Wiznet/W5300-TOE-Arduino)
+    - [W5300-TOE-Arduino](https://github.com/Wiznet/W5300 TOE Arduino)
 - MicroPython
-    - [W5300-TOE-MicroPython](https://github.com/Wiznet/W5300-TOE-MicroPython)
+    - [W5300-TOE-MicroPython](https://github.com/Wiznet/W5300 TOE MicroPython)
