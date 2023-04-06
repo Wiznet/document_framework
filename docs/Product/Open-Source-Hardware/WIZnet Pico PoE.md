@@ -93,10 +93,12 @@ It combines with the W5500, W5100S, and W6100 Io Module to provide Ethernet as w
 
 ## Hardware Specification
 
-<a target="_blank" href={require('/img/osh/WIZnet_Pico_PoE/WIZnet-Pico_PoE-1.png').default}><img src={require('/img/osh/WIZnet_Pico_PoE/WIZnet-Pico_PoE-1.png').default} alt="WIZnet Pico PoE 1"/></a>
+<a target="_blank" href={require('/img/osh/WIZnet_Pico_PoE/WIZnet-Pico_PoE-1.png').default}><img src={require('/img/osh/WIZnet_Pico_PoE/WIZnet-Pico_PoE-1.png').default} alt="WIZnet-Pico_PoE-1"/></a>
+
 Mounting Raspberry Pi Pico, WIZnet Ethernet IO Module
 
-<a target="_blank" href={require('/img/osh/WIZnet_Pico_PoE/WIZnet-Pico_PoE-2.png').default}><img src={require('/img/osh/WIZnet_Pico_PoE/WIZnet-Pico_PoE-2.png').default} alt="WIZnet Pico PoE 2"/></a>
+<a target="_blank" href={require('/img/osh/WIZnet_Pico_PoE/WIZnet-Pico_PoE-2.png').default}><img src={require('/img/osh/WIZnet_Pico_PoE/WIZnet-Pico_PoE-2.png').default} alt="WIZnet-Pico_PoE-2"/></a>
+
 Removed Raspberry Pi Pico, WIZnet Ethernet IO Module
 
 <a target="_blank" href={require('/img/osh/WIZnet_Pico_PoE/WIZnet-Pico_PoE-Part.png').default}><img src={require('/img/osh/WIZnet_Pico_PoE/WIZnet-Pico_PoE-Part.png').default} alt="WIZnet Pico PoE Part"/></a>
