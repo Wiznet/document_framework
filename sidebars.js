@@ -913,11 +913,9 @@ module.exports = {
 					'Product/iEthernet/W5500/w5500-evb-pico',
 					'Product/iEthernet/W5100S/w5100s-evb-pico',
 					'Product/Open-Source-Hardware/wiznet_ethernet_hat',
+					'Product/Open-Source-Hardware/wiznet-pico-poe',
 				]
 			},
-				//type: 'doc', 
-				//label: 'WIZnet Pico PoE', 
-			'Product/Open-Source-Hardware/wiznet-pico-poe',
 			{
 				type: 'category',
 				label: 'Arduino',
