@@ -23,9 +23,33 @@ It combines with the W5500, W5100S, and W6100 Io Module to provide Ethernet as w
 
 <a target="_blank" href={require('/img/osh/WIZnet_Pico_PoE/WIZnet-Pico_PoE-3.png').default}><img src={require('/img/osh/WIZnet_Pico_PoE/WIZnet-Pico_PoE-3.png').default} alt="WIZnet Pico PoE"/></a>
 
-
 ## Features
-##### Raspberry Pi Pico
+
+#### PoE
+
+- IEEE802.3af compliant
+- Mode A, Mode B
+- Wide input voltage range 37Vdc ~ 57Vdc
+- Over current protection
+- Over voltage protection
+- High DC/DC convertion efficiency
+- Isolation level 2KVrms
+- Enhanced surge protection
+- Internal build in 2 channel bridge rectifiers
+
+#### Electrical Specifications
+
+|  No  | Value | Specification                                    |
+| :---: | -------- | ---------------------------------------------- |
+|   1   | Input Voltage    | 37 ~ 57V                |
+|   2   | Output Voltage   | 5V (1.32A)                     |
+|   3   |                  | 3.3V  (1A LDO)                  |
+|   3   | Power            | 6.6W                    |
+|   4   | Switching Frequency   | 400kHz fixed             |
+|   5   | Isolation   | 2kVrms                    |
+|   6   | Operating Temperature   | Industrial                   |
+
+#### Raspberry Pi Pico
 - RP2040 microcontroller with 2MByte Flash
   - Dual-core cortex M0+ at up to 133MHz
   - 264kByte multi-bank high performance SRAM
@@ -41,8 +65,8 @@ It combines with the W5500, W5100S, and W6100 Io Module to provide Ethernet as w
   - Flexible, user-programmable high-speed IO
   - Can emulate interfaces such as SD Card and VGA
  
-##### Install and use one of W5100S-io, and W6100-io
-###### Caution : Incompatible with W5500-io Module. Compatible with next revision
+#### Install and use one of W5100S-io, and W6100-io
+##### Caution : Incompatible with W5500-io Module. Compatible with next revision
 
 - W5100S-IO
   - Supports Hardwired Internet Protocols: TCP, UDP, WOL over UDP, ICMP, IGMPv1/v2, IPv4, ARP, PPPoE
@@ -60,7 +84,7 @@ It combines with the W5500, W5100S, and W6100 Io Module to provide Ethernet as w
   - Internal 16 Kbytes Memory for TX/ RX Buffers
   - SPI Interface
 
-##### Other Functions
+#### Other Functions
 - 3-pin ARM Serial Wire Debug (SWD) port
 - 10 / 100 Ethernet PHY embedded
 - Supports Auto Negotiation
@@ -68,6 +92,7 @@ It combines with the W5500, W5100S, and W6100 Io Module to provide Ethernet as w
   - 10 / 100 Based
 - Built-in RJ45(RJC-191R)
 - Built-in LDO (LM8805SF5-33V)
+
 
 ## Hardware Specification
 
