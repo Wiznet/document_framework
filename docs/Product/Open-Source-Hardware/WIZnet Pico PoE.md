@@ -15,7 +15,7 @@ description: WIZnet Pico PoE made for prototyping and testing Ethernet capabilit
 
 ## Overview
 
-It combines with the W5500, W5100S, and W6100 Io Module to provide Ethernet as well as a separate power supply. It can supply up to 6.6 W 
+It combines with the W5500, W5100S, and W6100 Io Module to provide Ethernet as well as a separate power supply. It can supply up to 6.6 W
 
 - Raspberry Pi Pico Mountable
 - Ethernet W5100S, W5500, W6100 IO Module Mountable
@@ -25,7 +25,7 @@ It combines with the W5500, W5100S, and W6100 Io Module to provide Ethernet as w
 
 ## Features
 
-#### PoE
+### PoE
 
 - IEEE802.3af compliant
 - Mode A, Mode B
@@ -33,24 +33,41 @@ It combines with the W5500, W5100S, and W6100 Io Module to provide Ethernet as w
 - Over current protection
 - Over voltage protection
 - High DC/DC convertion efficiency
-- Isolation level 2KVrms
+- Isolation level 2kVrms
 - Enhanced surge protection
 - Internal build in 2 channel bridge rectifiers
 
-#### Electrical Specifications
+#### PoE Electrical Specifications
 
-|  No  | Value | Specification                                    |
-| :---: | -------- | ---------------------------------------------- |
+|  No  | Value | Specification                       |
+| :---: | -------- | ------------------------------- |
 |   1   | Input Voltage    | 37 ~ 57V                |
-|   2   | Output Voltage   | 5V (1.32A)                     |
-|   3   |                  | 3.3V  (1A LDO)                  |
+|   2   | Output Voltage   | 5V (1.32A)              |
+|   3   |                  | 3.3V  (1A LDO)          |
 |   3   | Power            | 6.6W                    |
-|   4   | Switching Frequency   | 400kHz fixed             |
-|   5   | Isolation   | 2kVrms                    |
-|   6   | Operating Temperature   | Industrial                   |
+|   4   | Switching Frequency   | 400kHz fixed       |
+|   5   | Isolation   | 2kVrms                       |
+|   6   | Operating Temperature   | Industrial       |
 
-#### Raspberry Pi Pico
-- RP2040 microcontroller with 2MByte Flash
+### WIZnet IO Module
+- **W5100S-IO**
+  - Supports Hardwired Internet Protocols: TCP, UDP, WOL over UDP, ICMP, IGMPv1/v2, IPv4, ARP, PPPoE
+  - Supports 4 Independent Hardware SOCKETs simultaneously
+  - Internal 16 Kbytes Memory for TX/ RX Buffers
+  - SPI Interface
+- **W5500-IO**
+  - Supports Hardwired Internet Protocols: TCP, UDP, ICMP, IPv4, ARP, IGMP, PPPoE
+  - Supports 8 Independent Hardware SOCKETs simultaneously
+  - Internal 32 Kbytes Memory for TX/ RX Buffers
+  - Supports High Speed Serial Peripheral Interface(SPI MODE 0, 3)
+- **W6100-IO**
+  - Supports Hardwired Internet Protocols: TCP, UDP, IPv6, IPv4, ICMPv6, ICMPv4, IGMP, MLDv1, ARP, PPPoE
+  - Supports 8 independent SOCKETs simultaneously with 32KB memory
+  - Internal 16 Kbytes Memory for TX/ RX Buffers
+  - SPI Interface
+
+### Raspberry Pi Pico
+- **RP2040 microcontroller with 2MByte Flash**
   - Dual-core cortex M0+ at up to 133MHz
   - 264kByte multi-bank high performance SRAM
   - External Quad-SPI Flash with eXecute In Place (XIP)
@@ -64,27 +81,8 @@ It combines with the W5500, W5100S, and W6100 Io Module to provide Ethernet as w
   - 2 × Programmable IO (PIO) blocks, 8 state machines total
   - Flexible, user-programmable high-speed IO
   - Can emulate interfaces such as SD Card and VGA
- 
-#### Install and use one of W5100S-io, and W6100-io
-##### Caution : Incompatible with W5500-io Module. Compatible with next revision
 
-- W5100S-IO
-  - Supports Hardwired Internet Protocols: TCP, UDP, WOL over UDP, ICMP, IGMPv1/v2, IPv4, ARP, PPPoE
-  - Supports 4 Independent Hardware SOCKETs simultaneously
-  - Internal 16 Kbytes Memory for TX/ RX Buffers
-  - SPI Interface
-- W5500-IO (Not currently available on the board)
-  - Supports Hardwired Internet Protocols: TCP, UDP, ICMP, IPv4, ARP, IGMP, PPPoE
-  - Supports 8 Independent Hardware SOCKETs simultaneously
-  - Internal 32 Kbytes Memory for TX/ RX Buffers
-  - Supports High Speed Serial Peripheral Interface(SPI MODE 0, 3)
-- W6100-IO
-  - Supports Hardwired Internet Protocols: TCP, UDP, IPv6, IPv4, ICMPv6, ICMPv4, IGMP, MLDv1, ARP, PPPoE
-  - Supports 8 independent SOCKETs simultaneously with 32KB memory
-  - Internal 16 Kbytes Memory for TX/ RX Buffers
-  - SPI Interface
-
-#### Other Functions
+### Other Functions
 - 3-pin ARM Serial Wire Debug (SWD) port
 - 10 / 100 Ethernet PHY embedded
 - Supports Auto Negotiation
@@ -93,22 +91,31 @@ It combines with the W5500, W5100S, and W6100 Io Module to provide Ethernet as w
 - Built-in RJ45(RJC-191R)
 - Built-in LDO (LM8805SF5-33V)
 
-
 ## Hardware Specification
 
-<a target="_blank" href={require('/img/osh/WIZnet_Pico_PoE/WIznet-Pico_PoE-1.png').default}><img src={require('/img/osh/WIZnet_Pico_PoE/WIznet-Pico_PoE-1.png').default} alt="WIZnet Pico PoE"/></a>
-Mounting Raspberry Pi Pico, WIZnet Ethernet IO Module
+<figure>
+  <a href="/img/osh/WIZnet_Pico_PoE/WIznet-Pico_PoE-1.png" target="_blank">
+    <img src="/img/osh/WIZnet_Pico_PoE/WIznet-Pico_PoE-1.png" alt="WIZnet Pico PoE">
+  </a>
+  <figcaption>Mounting Raspberry Pi Pico, WIZnet Ethernet IO Module</figcaption>
+</figure>
 
-<a target="_blank" href={require('/img/osh/WIZnet_Pico_PoE/WIZnet-Pico_PoE-2.png').default}><img src={require('/img/osh/WIZnet_Pico_PoE/WIZnet-Pico_PoE-2.png').default} alt="WIZnet Pico PoE"/></a>
-Removed Raspberry Pi Pico, WIZnet Ethernet IO Module
+
+<figure>
+  <a href="/img/osh/WIZnet_Pico_PoE/WIznet-Pico_PoE-2.png" target="_blank">
+    <img src="/img/osh/WIZnet_Pico_PoE/WIznet-Pico_PoE-2.png" alt="WIZnet Pico PoE">
+  </a>
+  <figcaption>Removed Raspberry Pi Pico, WIZnet Ethernet IO Module</figcaption>
+</figure>
+
 
 <a target="_blank" href={require('/img/osh/WIZnet_Pico_PoE/WIZnet-Pico_PoE-Part.png').default}><img src={require('/img/osh/WIZnet_Pico_PoE/WIZnet-Pico_PoE-Part.png').default} alt="WIZnet Pico PoE Part"/></a>
 
-#### Raspberry Pi Pico
+### Raspberry Pi Pico
 
 WIZnet IO Module pinout is directly connected to the GPIO of Pico Board as shown in the picture above.  GPIO16, GPIO17, GPIO18, GPIO19, GPIO20, GPIO21 are connected to WIZnet IO Module. These pins enable SPI communication with WIZnet Chip to use Ethernet function. If you are using the Ethernet function, these pins cannot be used for any other purpose
 
-###### Raspberry Pi Pico to WIZnet IO Module Connecttion Pin
+### Raspberry Pi Pico to WIZnet IO Module Connecttion Pin
 
 |  I/O  | Pin Name | Description                                    |
 | :---: | -------- | ---------------------------------------------- |
@@ -122,7 +129,7 @@ WIZnet IO Module pinout is directly connected to the GPIO of Pico Board as shown
 |   O   | GPIO25   | Connected to user LED                          |
 |   I   | GPIO29   | Used in ADC mode (ADC3) to measure VSYS/3      |
 
-###### Power Pin of Raspberry Pi Pico
+### Power Pin of Raspberry Pi Pico
 | Pin No. | Pin Name | Description                                                                                                                         |
 | ------- | -------- | ----------------------------------------------------------------------------------------------------------------------------------- |
 | PIN40   | VBUS     | Micro-USB input voltage, connected to micro-USB port pin 1. Nominally 5V.                                                           |
@@ -133,15 +140,15 @@ WIZnet IO Module pinout is directly connected to the GPIO of Pico Board as shown
 | PIN33   | AGND     | Ground reference for GPIO26-29.                                                                                                     |
 | PIN30   | RUN      | RP2040 enable pin, To reset RP2040, short this pin low.                                                                             |
 
-#### J1 Power Output Header
+### J1 Power Output Header
 
-| Pin No. | Pin Name | Description                                                                      |
-| ------- | -------- | -------------------------------------------------------------------------------- |
-| 1       | +5V      | Main +5V power output pin. Up to 6.6W, 1.32A                                     |
-| 2       | +3.3V    | +3.3V voltage dropped out of +5V to the internal LDO. It can output up to 1.98W. |
-| 3       | GND      | Ground                                                                           |
+| Pin No. | Pin Name | Description  |
+| ------- | -------- | ------------ |
+| 1       | +5V      | +5V Power I/O Pin    |
+| 2       | +3.3V    | +3.3V Power I/O Pin  |
+| 3       | GND      | Ground       |
 
-#### J7 SWD Header
+### J7 SWD Header
 3-pin ARM Serial Wire Debug (SWD) port
 
 | Pin No. | Pin Name |
@@ -162,14 +169,6 @@ WIZnet IO Module pinout is directly connected to the GPIO of Pico Board as shown
 | +3.3V Output Max (LDO Output) | 1.98W                        |
 
 Recommended maximum ambient temperature of operation is 70C.
-
-<!--
-## Electrical Specification
-
-### Power Consumption
-
-TBA
--->
 
 ## Technical Reference
 
