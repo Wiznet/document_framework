@@ -21,7 +21,7 @@ It combines with the W5500, W5100S, and W6100 Io Module to provide Ethernet as w
 - Ethernet W5100S, W5500, W6100 IO Module Mountable
 
 
-<a target="_blank" href={require('/img/osh/WIZnet_Pico_PoE/WIZnet-Pico_PoE-3.png').default}><img src={require('/img/osh/WIZnet_Pico_PoE/WIZnet-Pico_PoE-3.png').default} alt="WIZnet Pico PoE"/></a>
+<a target="_blank" href={require('/img/osh/WIZnet_Pico_PoE/WIZnet_Pico_PoE-3.png').default}><img src={require('/img/osh/WIZnet_Pico_PoE/WIZnet_Pico_PoE-3.png').default} alt="WIZnet Pico PoE"/></a>
 
 ## Features
 
@@ -39,15 +39,15 @@ It combines with the W5500, W5100S, and W6100 Io Module to provide Ethernet as w
 
 #### PoE Electrical Specifications
 
-|  No  | Value | Specification                       |
-| :---: | -------- | ------------------------------- |
-|   1   | Input Voltage    | 37 ~ 57V                |
-|   2   | Output Voltage   | 5V (1.32A)              |
-|   3   |                  | 3.3V  (1A LDO)          |
-|   3   | Power            | 6.6W                    |
-|   4   | Switching Frequency   | 400kHz fixed       |
-|   5   | Isolation   | 2kVrms                       |
-|   6   | Operating Temperature   | Industrial       |
+|  No   | Value                 | Specification  |
+| :---: | --------------------- | -------------- |
+|   1   | Input Voltage         | 37 ~ 57V       |
+|   2   | Output Voltage        | 5V (1.32A)     |
+|   3   |                       | 3.3V  (1A LDO) |
+|   3   | Power                 | 6.6W           |
+|   4   | Switching Frequency   | 400kHz fixed   |
+|   5   | Isolation             | 2kVrms         |
+|   6   | Operating Temperature | Industrial     |
 
 ### WIZnet IO Module
 - **W5100S-IO**
@@ -93,15 +93,15 @@ It combines with the W5500, W5100S, and W6100 Io Module to provide Ethernet as w
 
 ## Hardware Specification
 
-<a target="_blank" href={require('/img/osh/WIZnet_Pico_PoE/WIZnet-Pico_PoE-1.png').default}><img src={require('/img/osh/WIZnet_Pico_PoE/WIZnet-Pico_PoE-1.png').default} alt="WIZnet-Pico_PoE-1"/></a>
+<a target="_blank" href={require('/img/osh/WIZnet_Pico_PoE/WIZnet_Pico_PoE-1.png').default}><img src={require('/img/osh/WIZnet_Pico_PoE/WIZnet_Pico_PoE-1.png').default} alt="WIZnet_Pico_PoE-1"/></a>
 
 Mounting Raspberry Pi Pico, WIZnet Ethernet IO Module
 
-<a target="_blank" href={require('/img/osh/WIZnet_Pico_PoE/WIZnet-Pico_PoE-2.png').default}><img src={require('/img/osh/WIZnet_Pico_PoE/WIZnet-Pico_PoE-2.png').default} alt="WIZnet-Pico_PoE-2"/></a>
+<a target="_blank" href={require('/img/osh/WIZnet_Pico_PoE/WIZnet_Pico_PoE-2.png').default}><img src={require('/img/osh/WIZnet_Pico_PoE/WIZnet_Pico_PoE-2.png').default} alt="WIZnet_Pico_PoE-2"/></a>
 
 Removed Raspberry Pi Pico, WIZnet Ethernet IO Module
 
-<a target="_blank" href={require('/img/osh/WIZnet_Pico_PoE/WIZnet-Pico_PoE-Part.png').default}><img src={require('/img/osh/WIZnet_Pico_PoE/WIZnet-Pico_PoE-Part.png').default} alt="WIZnet Pico PoE Part"/></a>
+<a target="_blank" href={require('/img/osh/WIZnet_Pico_PoE/WIZnet_Pico_PoE-Part.png').default}><img src={require('/img/osh/WIZnet_Pico_PoE/WIZnet_Pico_PoE-Part.png').default} alt="WIZnet Pico PoE Part"/></a>
 
 ### Raspberry Pi Pico
 
@@ -134,11 +134,11 @@ WIZnet IO Module pinout is directly connected to the GPIO of Pico Board as shown
 
 ### J1 Power Output Header
 
-| Pin No. | Pin Name | Description  |
-| ------- | -------- | ------------ |
-| 1       | +5V      | +5V Power I/O Pin    |
-| 2       | +3.3V    | +3.3V Power I/O Pin  |
-| 3       | GND      | Ground       |
+| Pin No. | Pin Name | Description         |
+| ------- | -------- | ------------------- |
+| 1       | +5V      | +5V Power I/O Pin   |
+| 2       | +3.3V    | +3.3V Power I/O Pin |
+| 3       | GND      | Ground              |
 
 ### J7 SWD Header
 3-pin ARM Serial Wire Debug (SWD) port
