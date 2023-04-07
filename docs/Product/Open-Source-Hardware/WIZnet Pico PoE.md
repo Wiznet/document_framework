@@ -28,10 +28,9 @@ It combines with the W5500, W5100S, and W6100 Io Module to provide Ethernet as w
 ### PoE
 
 - IEEE802.3af compliant
-- Mode A, Mode B
+- Mode A(Endspan), Mode B(Midspan)
 - Wide input voltage range 37Vdc ~ 57Vdc
-- Over current protection
-- Over voltage protection
+- Circuit Protection (OV,OC)
 - High DC/DC convertion efficiency
 - Isolation level 2kVrms
 - Enhanced surge protection
@@ -43,11 +42,11 @@ It combines with the W5500, W5100S, and W6100 Io Module to provide Ethernet as w
 | :---: | --------------------- | -------------- |
 |   1   | Input Voltage         | 37 ~ 57V       |
 |   2   | Output Voltage        | 5V (1.32A)     |
-|   3   |                       | 3.3V  (1A LDO) |
+|      |                        | 3.3V  (1A LDO) |
 |   3   | Power                 | 6.6W           |
-|   4   | Switching Frequency   | 400kHz fixed   |
+|   4   | Switching Frequency   | 300kHz fixed   |
 |   5   | Isolation             | 2kVrms         |
-|   6   | Operating Temperature | Industrial     |
+|   6   | Operating Temperature | -20 ~ 85℃     |
 
 ### WIZnet IO Module
 - **W5100S-IO**
@@ -88,19 +87,19 @@ It combines with the W5500, W5100S, and W6100 Io Module to provide Ethernet as w
 - Supports Auto Negotiation
   - Full / Half Duplex
   - 10 / 100 Based
-- Built-in RJ45(RJC-191R)
-- Built-in LDO (LM8805SF5-33V)
+- Built-in RJ45(BR1-ZZ-0049)
+- Built-in LDO (AEM1117-33)
 
 ## Hardware Specification
-
+Mounting Raspberry Pi Pico, WIZnet Ethernet IO Module
 <a target="_blank" href={require('/img/osh/WIZnet_Pico_PoE/WIZnet_Pico_PoE-1.png').default}><img src={require('/img/osh/WIZnet_Pico_PoE/WIZnet_Pico_PoE-1.png').default} alt="WIZnet_Pico_PoE-1"/></a>
 
-Mounting Raspberry Pi Pico, WIZnet Ethernet IO Module
-
-<a target="_blank" href={require('/img/osh/WIZnet_Pico_PoE/WIZnet_Pico_PoE-2.png').default}><img src={require('/img/osh/WIZnet_Pico_PoE/WIZnet_Pico_PoE-2.png').default} alt="WIZnet_Pico_PoE-2"/></a>
 
 Removed Raspberry Pi Pico, WIZnet Ethernet IO Module
+<a target="_blank" href={require('/img/osh/WIZnet_Pico_PoE/WIZnet_Pico_PoE-2.png').default}><img src={require('/img/osh/WIZnet_Pico_PoE/WIZnet_Pico_PoE-2.png').default} alt="WIZnet_Pico_PoE-2"/></a>
 
+
+Parts
 <a target="_blank" href={require('/img/osh/WIZnet_Pico_PoE/WIZnet_Pico_PoE-Part.png').default}><img src={require('/img/osh/WIZnet_Pico_PoE/WIZnet_Pico_PoE-Part.png').default} alt="WIZnet Pico PoE Part"/></a>
 
 ### Raspberry Pi Pico
@@ -149,20 +148,21 @@ WIZnet IO Module pinout is directly connected to the GPIO of Pico Board as shown
 | 2       | GND      |
 | 3       | SWCLK    |
 
-### Operation Condition
+### Recommended operating conditions
 
 | Item                          | Description                  |
 | ----------------------------- | ---------------------------- |
-| Operation Temperature MAX     | 85C (including self-heating) |
-| Operation Temperature MIN     | -20C                         |
-| +5V                           | DC 5V (+/- 10%)              |
-| +3.3V                         | DC 3.3V                      |
-| Power Max                     | 6.6W                         |
-| +3.3V Output Max (LDO Output) | 1.98W                        |
+| Operation Temperature MAX     | 70℃                        |
+| Input Volatge                 | 48 ~ 57V                    |
 
-Recommended maximum ambient temperature of operation is 70C.
+
 
 ## Technical Reference
+
+### io-Module
+- [W5100S-io Data Reference](https://docs.wiznet.io/Product/ioModule/W5100S-io)
+- [W5500-io Data Reference](https://docs.wiznet.io/Product/ioModule/W5500-io)
+- [W6100-io Data Reference](https://docs.wiznet.io/Product/ioModule/W6100-io)
 
 ### RP2040 Datasheet
 
