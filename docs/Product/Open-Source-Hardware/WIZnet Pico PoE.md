@@ -168,14 +168,14 @@ WIZnet IO Module pinout is directly connected to the GPIO of Pico Board as shown
 
 - [Download](https://datasheets.raspberrypi.org/rp2040/rp2040-datasheet.pdf)
 
-### Schematic
+### Schematic V002
 
 <a target="_blank" href={require('/img/osh/WIZnet_Pico_PoE/Schematics-WIZnet-Pico-PoE.png').default}><img src={require('/img/osh/WIZnet_Pico_PoE/Schematics-WIZnet-Pico-PoE.png').default} alt="Schematics-WIZnet-Pico-PoE"/></a>
 - <a href="/img/osh/WIZnet_Pico_PoE/Schematics-WIZnet-Pico-PoE.PDF" target="_blank">Schematics-WIZnet-Pico-PoE</a>
 
-### PCB Data
+### Schematic & Partlist & Gerber File
 
-<a href="/img/products/wiznet-pico-poe/WIZnet-Pico-PoE.Zip" target="_blank">Download</a>
+- [Go to Github](https://github.com/Wiznet/Hardware-Files-of-WIZnet/tree/master/08_OSHW/WIZnet%20Pico%20PoE)
 
 ### Dimension (Unit : mm)
 
