@@ -44,7 +44,7 @@ It combines with the W5500, W5100S, and W6100 Io Module to provide Ethernet as w
 |   2   | Output Voltage        | 5V (1.32A)     |
 |      |                        | 3.3V  (1A LDO) |
 |   3   | Power                 | 6.6W           |
-|   4   | Switching Frequency   | 300kHz fixed   |
+|   4   | Switching Frequency   | 400kHz fixed   |
 |   5   | Isolation             | 2kVrms         |
 |   6   | Operating Temperature | -20 ~ 85℃     |
 
@@ -88,7 +88,7 @@ It combines with the W5500, W5100S, and W6100 Io Module to provide Ethernet as w
   - Full / Half Duplex
   - 10 / 100 Based
 - Built-in RJ45(BR1-ZZ-0049)
-- Built-in LDO (AEM1117-33)
+- Built-in LDO (IL1117-3.3)
 
 ## Hardware Specification
 
