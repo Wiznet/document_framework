@@ -15,7 +15,7 @@ description: WIZnet Pico PoE made for prototyping and testing Ethernet capabilit
 
 ## Overview
 
-It combines with the W5500, W5100S, and W6100 Io Module to provide Ethernet as well as a separate power supply. It can supply up to 6.6 W
+It combines with the W5500, W5100S, and W6100 Io Module to provide Ethernet as well as a separate power supply. It can supply up to 8W
 
 - Raspberry Pi Pico Mountable
 - Ethernet W5100S, W5500, W6100 IO Module Mountable
@@ -41,9 +41,9 @@ It combines with the W5500, W5100S, and W6100 Io Module to provide Ethernet as w
 |  No   | Value                 | Specification  |
 | :---: | --------------------- | -------------- |
 |   1   | Input Voltage         | 37 ~ 57V       |
-|   2   | Output Voltage        | 5V (1.32A)     |
+|   2   | Output Voltage        | 5V (1.6A)     |
 |      |                        | 3.3V  (1A LDO) |
-|   3   | Power                 | 6.6W           |
+|   3   | Power                 | 8W           |
 |   4   | Switching Frequency   | 400kHz fixed   |
 |   5   | Isolation             | 2kVrms         |
 |   6   | Operating Temperature | -20 ~ 85℃     |
