@@ -217,9 +217,12 @@
           // Optional fields.
           anonymizeIP: false, // Should IPs be anonymized?
         },
-//         sitemap:{
-//         trailingSlash: false
-//         },
+         sitemap: { 
+          changefreq: 'weekly',
+          priority: 0.5,
+          ignorePatterns: ['/tags/**'],
+          filename: 'sitemap.xml',
+         },
         theme: {
           customCss: require.resolve("./src/css/custom.css")
         }

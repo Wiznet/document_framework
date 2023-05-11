@@ -66,6 +66,7 @@ It combines with the W5500, W5100S, and W6100 Io Module to provide Ethernet as w
   - SPI Interface
 
 ### Raspberry Pi Pico
+
 - **RP2040 microcontroller with 2MByte Flash**
   - Dual-core cortex M0+ at up to 133MHz
   - 264kByte multi-bank high performance SRAM
@@ -102,6 +103,7 @@ It combines with the W5500, W5100S, and W6100 Io Module to provide Ethernet as w
 
 <a target="_blank" href={require('/img/osh/WIZnet_Pico_PoE/WIZnet_Pico_PoE-Part.png').default}><img src={require('/img/osh/WIZnet_Pico_PoE/WIZnet_Pico_PoE-Part.png').default} alt="WIZnet Pico PoE Part"/></a>
 <center>Parts</center>
+
 ### Raspberry Pi Pico
 
 WIZnet IO Module pinout is directly connected to the GPIO of Pico Board as shown in the picture above.  GPIO16, GPIO17, GPIO18, GPIO19, GPIO20, GPIO21 are connected to WIZnet IO Module. These pins enable SPI communication with WIZnet Chip to use Ethernet function. If you are using the Ethernet function, these pins cannot be used for any other purpose
