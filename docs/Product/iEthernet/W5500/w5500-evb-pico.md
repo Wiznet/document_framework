@@ -2,11 +2,7 @@
 id: w5500-evb-pico
 title: W5500-EVB-Pico
 date: 2022-12-09
-keywords:
-  - Raspberry-Pi-Pico
-  - RP2040
-  - Ethernet
-  - W5500
+keywords: [raspberry pi pico, rp2040, pico ethernet, w5500]
 description: W5500-EVB-Pico made for prototyping and testing Ethernet capabilities on Pico
 ---
 

@@ -2,11 +2,7 @@
 id: w6100-evb-pico
 title: W6100-EVB-Pico
 date: 2022-10-12
-keywords:
-  - Raspberry Pi Pico
-  - RP2040
-  - Ethernet
-  - W6100
+keywords: [raspberry pi pico, rp2040 ethernet, pico ethernet, W6100]
 description: W6100-EVB-Pico made for prototyping and testing Ethernet capabilities on Pico
 ---
 

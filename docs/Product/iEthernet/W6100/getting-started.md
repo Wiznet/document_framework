@@ -2,6 +2,8 @@
 id: getting-started-w6100evb
 title: Getting Started with the W6100-EVB
 date: 2020-04-03
+keywords: [w6100,ethernet chip,wiznet,hardwired tcp/ip,arduino ethernet,pico ethernet]
+description: W6100 chip is a Hardwired Internet controller designed as a full hardwired TCP/IP stack with WIZnet technology
 ---
 
 ## Check the board

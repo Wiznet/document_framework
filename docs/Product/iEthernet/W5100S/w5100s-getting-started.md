@@ -2,6 +2,8 @@
 id: w5100s-getting-started
 title: Getting Started with W5100S-EVB
 date: 2020-04-09
+keywords: [w5100s,ethernet chip,wiznet,hardwired tcp/ip,arduino ethernet,pico ethernet]
+description: W5100S chip is a Hardwired Internet controller designed as a full hardwired TCP/IP stack with WIZnet technology
 ---
 
 ## Check the board

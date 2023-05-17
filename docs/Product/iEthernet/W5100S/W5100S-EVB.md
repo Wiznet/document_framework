@@ -2,6 +2,8 @@
 id: w5100s-evb
 title: W5100S-EVB
 date: 2020-04-03
+keywords: [w5100s,ethernet chip,wiznet,hardwired tcp/ip,arduino ethernet,pico ethernet]
+description: W5100S chip is a Hardwired Internet controller designed as a full hardwired TCP/IP stack with WIZnet technology
 ---
 
   - W5100S chip development platform for **net-enabled** microcontroller

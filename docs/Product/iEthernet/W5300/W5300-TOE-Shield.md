@@ -2,6 +2,8 @@
 id: W5300-TOE-Shield
 title: W5300 TOE Shield
 date: 2023-03-03
+keywords: [w5300,w5300 toe shield, ethernet chip,wiznet,hardwired tcp/ip,arduino ethernet,pico ethernet]
+description: W5300 chip is a Hardwired Internet controller designed as a full hardwired TCP/IP stack with WIZnet technology
 ---
 
 ![](/img/osh/w5300-toe-shield/W5300-TOE-Shield-2.png)

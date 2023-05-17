@@ -2,12 +2,13 @@
 id: iethernet
 title: iEthernet
 date: 2020-04-07
+keywords: [w5500, w5100s, w6100,ethernet chip,wiznet,hardwired tcp/ip,arduino ethernet,pico ethernet]
+description: iEthernet is the Ethernet controller chip that includes hardwired TCP/IP Core & MAC (\&PHY).
 ---
 
 ## Overview
 
-iEthernet is the Ethernet controller chip that includes hardwired TCP/IP
-Core & MAC (\&PHY).
+iEthernet is the Ethernet controller chip that includes hardwired TCP/IP Core & MAC (\&PHY).
 
 -----
 

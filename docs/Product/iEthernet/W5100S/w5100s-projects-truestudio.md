@@ -2,6 +2,8 @@
 id: w5100s-projects-truestudio
 title: Make New W5100S-EVB Projects using TrueSTUDIO
 date: 2020-04-03
+keywords: [w5100s,ethernet chip,wiznet,hardwired tcp/ip,arduino ethernet,pico ethernet]
+description: W5100S chip is a Hardwired Internet controller designed as a full hardwired TCP/IP stack with WIZnet technology
 ---
 
 This page introduces how to make the project for W5100S-EVB with

@@ -2,6 +2,8 @@
 id: ref-schematic
 title: Reference Schematic
 date: 2020-04-03
+keywords: [w5500,w5500 schematic,ethernet chip,wiznet,hardwired tcp/ip,arduino ethernet,pico ethernet]
+description: W5500 chip is a Hardwired Internet controller designed as a full hardwired TCP/IP stack with WIZnet technology
 ---
 
 

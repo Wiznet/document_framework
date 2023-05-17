@@ -19,6 +19,7 @@
   projectName: 'document_framework', // Usually your repo name.
   trailingSlash: false,
   themeConfig: {
+    metadata: [{name: 'keywords', content: 'wiznet,documentation,datasheet,w5500,hardwired tcp/ip,ethernet chip,ethernet shield,embedded ethernet'}],
     docs:{
       sidebar: {
         hideable: true,
