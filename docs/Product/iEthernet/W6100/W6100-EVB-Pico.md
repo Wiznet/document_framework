@@ -13,7 +13,7 @@ W6100-EVB-Pico is a microcontroller evaluation board based on the Raspberry Pi R
 - Raspberry Pi Pico Clone
 - Ethernet (W6100 Hardwired TCP/IP CHIP)
 
-![w6100-evb-pico](/img/osh/w6100-evb-pico/W6100-EVB-Pico-side.png)
+![w6100-evb-pico](/img/osh/w6100-evb-pico/w6100-evb-pico-side.png)
 
 ![Powered By Raspberry Pi logo](/img/pbp-logo-small.jpg)
 
