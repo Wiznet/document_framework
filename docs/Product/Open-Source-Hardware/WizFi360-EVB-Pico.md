@@ -21,6 +21,8 @@ WizFi360-EVB-Pico is based on Raspberry Pi RP2040 and adds Wi-Fi connectivity us
 
 ![WizFi360-EVB-Pico_Main](/img/osh/wizfi360-evb-pico/WizFi360-EVB-Pico_Main.png)
 
+![Powered By Raspberry Pi logo](/img/pbp-logo-small.jpg)
+
 ## Features
 
 - RP2040 microcontroller with 2MByte Flash

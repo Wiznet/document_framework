@@ -17,6 +17,8 @@ W5100S-EVB-Pico is a microcontroller evaluation board based on the Raspberry Pi 
 
 <a target="_blank" href={require('/img/osh/w5100s_evb_pico/w5100s-evb-pico-1.1-side.png').default}><img src={require('/img/osh/w5100s_evb_pico/w5100s-evb-pico-1.1-side.png').default} alt="W5100S-EVB-RP2040"/></a>
 
+![Powered By Raspberry Pi logo](/img/pbp-logo-small.jpg)
+
 ## Revision history
 
 | Date | Version | Description |

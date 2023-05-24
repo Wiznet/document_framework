@@ -17,6 +17,8 @@ W5500-EVB-Pico is a microcontroller evaluation board based on the Raspberry Pi R
 
 ![W5500-EVB-RP2040](/img/products/w5500-evb-pico/w5500_evb_pico_side.png)
 
+![Powered By Raspberry Pi logo](/img/pbp-logo-small.jpg)
+
 ## Features
 
 - RP2040 microcontroller with 2MByte Flash
