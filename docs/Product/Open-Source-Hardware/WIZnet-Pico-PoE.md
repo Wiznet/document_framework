@@ -173,7 +173,7 @@ WIZnet IO Module pinout is directly connected to the GPIO of Pico Board as shown
 ### Schematic V002
 
 <a target="_blank" href={require('/img/osh/WIZnet_Pico_PoE/Schematics-WIZnet-Pico-PoE.png').default}><img src={require('/img/osh/WIZnet_Pico_PoE/Schematics-WIZnet-Pico-PoE.png').default} alt="Schematics-WIZnet-Pico-PoE"/></a>
-- <a href="/img/osh/WIZnet_Pico_PoE/Schematics-WIZnet-Pico-PoE.PDF" target="_blank">Schematics-WIZnet-Pico-PoE</a>
+- <a href="/img/osh/WIZnet_Pico_PoE/Schematics-WIZnet-Pico-PoE.pdf" target="_blank">Schematics-WIZnet-Pico-PoE</a>
 
 ### Schematic & Partlist & Gerber File
 

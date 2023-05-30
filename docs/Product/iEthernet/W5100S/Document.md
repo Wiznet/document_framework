@@ -11,13 +11,22 @@ description: W5100S chip is a Hardwired Internet controller designed as a full h
 ## Datasheet
 
 ### Korean
- * <a href="/img/products/w5100s/w5100s_ds_v127k.pdf" target="_blank">W5100S Datasheet v1.2.7</a>
+ * <a href="/img/products/w5100s/w5100s_ds_v128k.pdf" target="_blank">W5100S Datasheet v1.2.8</a>
 
 ### English
- * <a href="/img/products/w5100s/w5100s_ds_v127e.pdf" target="_blank">W5100S Datasheet v1.2.7</a>
+ * <a href="/img/products/w5100s/w5100s_ds_v128e.pdf" target="_blank">W5100S Datasheet v1.2.8</a>
 
 ----
 
+## Errata Sheet
+
+### Korean
+ * <a href="/img/products/w5100s/w5100s_errata_kr_v100.pdf" target="_blank">W5100S Errata Sheet v1.0.0</a>
+
+### English
+ * <a href="/img/products/w5100s/w5100s_errata_en_v100.pdf" target="_blank">W5100S Errata Sheet v1.0.0</a>
+
+----
 
 ## W5100S vs W5100 Comparison Sheet
 
