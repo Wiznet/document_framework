@@ -196,7 +196,12 @@
     image: "img/wiznet-logo.png"
   },
   //plugins: ['./PreventTrailingSlash/PreventTrailingSlashPlugin'],
-
+  plugins: [
+    [
+      "@gracefullight/docusaurus-plugin-channelio",
+      { pluginKey: "cb95c060-ab4c-45ec-bbe8-fe40a1ea3aec" },
+    ],
+  ],
   presets: [
     [
       "@docusaurus/preset-classic",
