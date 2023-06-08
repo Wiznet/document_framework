@@ -30,7 +30,7 @@ WIZ610io is the network module that includes W6100 (TCP/IP hardwired chip, inclu
     save
   - Support Wake on LAN over UDP
   - Supports high speed SPI Interface (SPI mode 0/3)
-  - Internal 16Kbytes Memory for TX/ RX Buffers
+  - Internal 32Kbytes Memory for TX/ RX Buffers
   - 10BaseT/10BaseTe/100BaseTX Ethernet PHY Integrated
   - Support Auto Negotiation (Full and half duplex, 10 and 100-based )
   - Support Auto-MDIX only when Auto-Negotiation mode

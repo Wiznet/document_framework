@@ -43,11 +43,11 @@ develop their Internet enabling system rapidly.
 | --- | -------------------------| -------------------------| --------------------| -------------------| ------------------ | --------------- | ------------ |
 | Image | ![WIZ610io](/img/products/wiz610io/wiz610io_1.png) | ![WIZ610MJ](/img/products/wiz610mj/wiz610mj1.png) | ![WIZ810Sio](/img/products/wiz810sio/wiz810io_2.png) | ![WIZ810Sio](/img/products/wiz810smj/wiz810smj_2.png) | ![WIZ850io](/img/products/wiz850io/wiz850io.png)   | ![](/img/products/wiz550io/wiz550io_small_005.png) | ![](/img/products/wiz830mj/wiz830_web_1.jpg) |
 | Embedded Block | W6100, MAG Jack | W6100, MAG Jack | W5100S, MAG Jack | W5100S, MAG Jack | W5500, MAG Jack | W5500, MAG Jack | W5300, MAG Jack |
-| Host Interface | SPI | SPI | SPI | SPI | SPI | SPI | 8/16bit Bus |
-| HW Socket | 4 | 4 | 4 | 4 | 8 | 8 | 8 |
+| Host Interface | SPI | SPI, 8bit bus | SPI | SPI | SPI | SPI | 8/16bit Bus |
+| HW Socket | 8 | 8 | 4 | 4 | 8 | 8 | 8 |
 | Auto MDIX | Yes | Yes | Yes | Yes | No | No | Yes |
-| Pin Header | 	1x6 | 	1x6 | 	1x6 | 	1x10 | Two 1x6 | 1x8, 1x6 | Two 2x14 |
-| Dimension (mm) | 23 x 25 x 23.5 | 23 x 25 x 23.5 | 23 x 25 x 23.5 | 25 x 52 x 23 | 23 x 25 x 18 | 54 x 26 x 24 | 53.3x34x19.5 |
+| Pin Header | 	Two 1x6 | Two 1x6 | Two 1x6 | Two	1x10 | Two 1x6 | 1x8, 1x6 | Two 2x14 |
+| Dimension (mm) | 23 x 25 x 23.5 | 25 x 52 x 23 | 23 x 25 x 23.5 | 25 x 52 x 23 | 23 x 25 x 18 | 54 x 26 x 24 | 53.3x34x19.5 |
 | Operation Temp (℃) | -40..85 | -40..85 | -40..85 | -40..85 | -40..85 | -40..85 | -40..85 |
 | MAC Address | No |No |No |No |No | Yes | No |
 

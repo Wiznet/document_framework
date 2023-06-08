@@ -2,7 +2,8 @@
 id: datasheet
 title: Datasheet
 date: 2022-05-09
-
+keywords: [wiznet, wiz505sr-rp,wiz505sr-rp datasheet, hardwired tcp/ip,serial-to-ethernet, w5100s, rp2040]
+description: WIZ500SR-RP is a compact sized serial to Ethernet module using the RP2040 MCU with W5100S Ethernet Chip
 ---
 
 ## Hardware Specification
@@ -74,32 +75,26 @@ Flow control: None, RTS / CTS, XON / XOFF</td>
 </tbody>
 </table>
 
-
-
-
-
 ------------------------------------------------------------------------
 
 ### WIZ500SR-RP Callout
 
 |                                                              |
 | ------------------------------------------------------------ |
-| <img src="https://raw.githubusercontent.com/Wiznet/Hardware-Files-of-WIZnet/master/04_Serial_to_Ethernet_Module/WIZ500SR-RP/Pictures/WIZ500SR-RP%20Callout_Top.png" width="800" /> |
+| ![WIZ500SR-RP Callout top](/img/products/s2e_module/wiz500sr-rp/wiz500sr-rp-callout-top.png) |
 | TOP                                                          |
-| <img src="https://raw.githubusercontent.com/Wiznet/Hardware-Files-of-WIZnet/master/04_Serial_to_Ethernet_Module/WIZ500SR-RP/Pictures/WIZ500SR-RP%20Callout_Bot.png" width="800" /> |
+| ![WIZ500SR-RP callout bottom](/img/products/s2e_module/wiz500sr-rp/wiz500sr-rp-callout-bot.png) |
 | BOTTOM                                                       |
 
 
 
 ------
 
-### Connector Specification
-
-
+## Connector Specification
 
 ### 1x12 Network Line (J3)
 
-<img src="https://github.com/Wiznet/Hardware-Files-of-WIZnet/blob/master/04_Serial_to_Ethernet_Module/WIZ500SR-RP/Pictures/WIZ500SR-RP%20(J3-Pinmap).png?raw=true" width="800" />
+![WIZ500SR-RP 1x12 Network Line (J3)](/img/products/s2e_module/wiz500sr-rp/wiz500sr-rp-j3-pinmap.png)
 
 <table>
 <thead>
@@ -181,13 +176,13 @@ High : No Collision</td>
 </tr>
 </tbody>
 </table>
-- When Ethernet not connect, WIZ500SR-RP will be in reset loop
+- If there is no Ethernet connection, the WIZ500SR-RP device will enter into a continuous reset loop.
 
 
 
 ### 1x12 UART1 (J4)
 
-<img src="https://github.com/Wiznet/Hardware-Files-of-WIZnet/blob/master/04_Serial_to_Ethernet_Module/WIZ500SR-RP/Pictures/WIZ500SR-RP%20(J4-Pinmap).png?raw=true" width="800" />
+![WIZ500SR-RP 1x12 UART1 (J4)](/img/products/s2e_module/wiz500sr-rp/wiz500sr-rp-j4-pinmap.png)
 
 | Pin Number | Signal    | Description                                                  |
 | ---------- | --------- | ------------------------------------------------------------ |
@@ -208,7 +203,7 @@ High : No Collision</td>
 
 ### 1x12 Other pin (J5)
 
-<img src="https://github.com/Wiznet/Hardware-Files-of-WIZnet/blob/master/04_Serial_to_Ethernet_Module/WIZ500SR-RP/Pictures/WIZ500SR-RP%20(J5-Pinmap).png?raw=true" width="800" />
+![WIZ500SR-RP 1x12 Other pin (J5)](/img/products/s2e_module/wiz500sr-rp/wiz500sr-rp-j5-pinmap.png)
 
 <table>
 <thead>
@@ -294,11 +289,9 @@ Changes will be reflected after reset</td>
 </tbody>
 </table>
 
-
-
 ### 1x6 UART0, SWD (J1)
 
-<img src="https://github.com/Wiznet/Hardware-Files-of-WIZnet/blob/master/04_Serial_to_Ethernet_Module/WIZ500SR-RP/Pictures/WIZ500SR-RP%20(J1-Pinmap).png?raw=true" width="800" />
+![WIZ500SR-RP 1x6 UART0, SWD (J1)](/img/products/s2e_module/wiz500sr-rp/wiz500sr-rp-j1-pinmap.png)
 
 <table>
 <thead>
@@ -341,13 +334,12 @@ Changes will be reflected after reset</td>
 </tr>
 </tbody>
 </table>
+
 **J1 is not mounted connector**
-
-
 
 ### 1x2 BOOTSEL set pin (J2)
 
-<img src="https://github.com/Wiznet/Hardware-Files-of-WIZnet/blob/master/04_Serial_to_Ethernet_Module/WIZ500SR-RP/Pictures/WIZ500SR-RP%20(J2-Pinmap).png?raw=true" width="800" />
+![WIZ500SR-RP 1x2 BOOTSEL set pin (J2)](/img/products/s2e_module/wiz500sr-rp/wiz500sr-rp-j2-pinmap.png)
 
 | Pin Number | Signal  | Description                                                  |
 | ---------- | ------- | ------------------------------------------------------------ |
@@ -357,24 +349,20 @@ Changes will be reflected after reset</td>
 **J2 is not mounted connector**
 
 
-
-
 ------------------------------------------------------------------------
 
 ## Switch Specification
 
-
-
 ### RESET Switch (SW1)
 
-<img src="https://github.com/Wiznet/Hardware-Files-of-WIZnet/blob/master/04_Serial_to_Ethernet_Module/WIZ500SR-RP/Pictures/WIZ500SR-RP%20(Reset).png?raw=true" width="800" />
+![WIZ500SR-RP RESET Switch (SW1)](/img/products/s2e_module/wiz500sr-rp/wiz500sr-rp-reset.png)
 
--   When push SW1, WIZ500SR-RP will be reset
+-   Pressing SW1 will initiate a reset of the WIZ500SR-RP device.
 ------------------------------------------------------------------------
 
-### WIZ500SR-RP indicate
+## WIZ500SR-RP indicators
 
-<img src="https://github.com/Wiznet/Hardware-Files-of-WIZnet/blob/master/04_Serial_to_Ethernet_Module/WIZ500SR-RP/Pictures/WIZ500SR-RP%20LED.png?raw=true" width="800" />
+![WIZ500SR-RP LED indicators](/img/products/s2e_module/wiz500sr-rp/wiz500sr-rp-led.png)
 
 <table>
 <thead>
@@ -421,28 +409,14 @@ When Module working well Blinking every 1.0s </td>
 
 ## WIZ500SR-RP EVB SET
 
--   The WIZ500SR-RP EVB SET is a combination of [WIZ500SR-RP EVB](https://docs.wiznet.io/Product/S2E-Module/WIZ5xxSR-RP-Series/wiz500sr-rp-evb) and [WIZ505SR-RP EVB](https://docs.wiznet.io/Product/S2E-Module/WIZ5xxSR-RP-Series/wiz505sr-rp-evb).
+-   The WIZ500SR-RP EVB SET is a combination of [WIZ500SR-RP EVB](../wiz500sr-rp-evb-en.md) and [WIZ505SR-RP EVB](../wiz505sr-rp-evb-en.md).
 
 
-<img src="https://github.com/Wiznet/Hardware-Files-of-WIZnet/blob/master/04_Serial_to_Ethernet_Module/WIZ500SR-RP-EVB(RJ45)/Images/%EA%B2%B0%ED%95%A9%EC%82%AC%EC%A7%842-1.png?raw=true" width="700" />
-
-------------------------------------------------------------------------
-
-### Switch Specification
-
-
-### RESET Switch (SW1)
-
-<img src="https://github.com/Wiznet/Hardware-Files-of-WIZnet/blob/master/04_Serial_to_Ethernet_Module/WIZ500SR-RP/Pictures/WIZ500SR-RP%20(Reset).png?raw=true" width="800" />
-
--   When push SW1, WIZ500SR-RP will be reset
-
+![WIZ500SR-RP EVB SET](/img/products/s2e_module/wiz500sr-rp/wiz500sr-rp-evb.png)
 
 ------------------------------------------------------------------------
 
 ## Schematic & Artwork
-
-### WIZ500SR-RP
 
 | H/W version | Type | Filetype | Download Link                                                | Remarks |
 | ----------- | ---- | -------- | ------------------------------------------------------------ | ------- |
@@ -453,8 +427,6 @@ When Module working well Blinking every 1.0s </td>
 ------------------------------------------------------------------------
 
 ## Part list
-
-### WIZ500SR-RP
 
 | H/W version | Type | Filetype | Download Link                                                | Remarks |
 | ----------- | ---- | -------- | ------------------------------------------------------------ | ------- |
@@ -567,8 +539,6 @@ When Module working well Blinking every 1.0s </td>
 | 100M Transmitting              | \-   | 120  | -    |      | mA   |
 
 
-
-
 ### External Flash Memory
 
 | Symbol | Parameter            | Min     | Unit   |
@@ -580,16 +550,10 @@ When Module working well Blinking every 1.0s </td>
 
 ------------------------------------------------------------------------
 
-
-
-
-
-## Dimension
+## Dimensions
 
 -   WIZ500SR-RP Rev1.0 Dimension :
     -   50mm x 30mm x 1.6mm ( PCB board size )
     -   50mm x 30mm x 5.7mm ( Included part size )
 
-<img src="https://github.com/Wiznet/Hardware-Files-of-WIZnet/blob/master/04_Serial_to_Ethernet_Module/WIZ500SR-RP/Pictures/WIZ500SR-RP%20PCB%20TOP.png?raw=true" width="700" />
-
-
+![WIZ500SR-RP Dimension](/img/products/s2e_module/wiz500sr-rp/wiz500sr-rp-pcb-top.png)

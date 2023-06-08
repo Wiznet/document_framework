@@ -2,7 +2,8 @@
 id: datasheet
 title: Datasheet
 date: 2022-05-09
-
+keywords: [wiznet, wiz505sr-rp,wiz505sr-rp datasheet, hardwired tcp/ip,serial-to-ethernet, w5100s, rp2040]
+description: WIZ505SR-RP is a compact sized serial to Ethernet module using the RP2040 MCU with W5100S Ethernet Chip
 ---
 
 ## Hardware Specification
@@ -74,20 +75,15 @@ Flow control: None, RTS / CTS, XON / XOFF</td>
 </tbody>
 </table>
 
-
-
-
-
-
 ------------------------------------------------------------------------
 
 ### WIZ505SR-RP Callout
 
 |                                                              |
 | ------------------------------------------------------------ |
-| <img src="https://github.com/Wiznet/Hardware-Files-of-WIZnet/blob/master/04_Serial_to_Ethernet_Module/WIZ505SR-RP/Pictures/WIZ505SR-RP%20Callout_Top.png?raw=true" width="700" /> |
+| ![WIZ505SR-RP Callout top](/img/products/s2e_module/wiz505sr-rp/wiz505sr-rp-callout-top.png) |
 | TOP                                                          |
-| <img src="https://github.com/Wiznet/Hardware-Files-of-WIZnet/blob/master/04_Serial_to_Ethernet_Module/WIZ505SR-RP/Pictures/WIZ505SR-RP%203D(BOT).png?raw=true" width="600" /> |
+| ![WIZ505SR-RP callout bottom](/img/products/s2e_module/wiz505sr-rp/wiz505sr-rp-3d-bot.png) |
 | BOTTOM                                                       |
 
 
@@ -98,16 +94,13 @@ Flow control: None, RTS / CTS, XON / XOFF</td>
 
 ### Magnetic rj45 modular jack (P1)
 
-<img src="https://github.com/Wiznet/Hardware-Files-of-WIZnet/blob/master/04_Serial_to_Ethernet_Module/WIZ505SR-RP/Pictures/WIZ505SR-RP%20(P1).png?raw=true" width="800" />
+![WIZ505SR-RP Magnetic rj45 modular jack (P1)](/img/products/s2e_module/wiz505sr-rp/wiz505sr-rp-p1.png)
 
--   When Ethernet not connect, WIZ505SR-RP will be in reset loop
-
-
-
+-   If there is no Ethernet connection, the WIZ505SR-RP device will enter into a continuous reset loop.
 
 ### 2x7 UART1, Download (J2)
 
-<img src="https://github.com/Wiznet/Hardware-Files-of-WIZnet/blob/master/04_Serial_to_Ethernet_Module/WIZ505SR-RP/Pictures/WIZ505SR-RP%20(J2-Pinmap).png?raw=true" width="800" />
+![WIZ505SR-RP 2x7 UART1, Download (J2)](/img/products/s2e_module/wiz505sr-rp/wiz505sr-rp-j2-pinmap.png)
 
 <table>
 <thead>
@@ -199,11 +192,9 @@ Then RP2040 can be re-programming</td>
 </tbody>
 </table>
 
-
-
 ### 1x6 UART0, SWD (J1)
 
-<img src="https://github.com/Wiznet/Hardware-Files-of-WIZnet/blob/master/04_Serial_to_Ethernet_Module/WIZ505SR-RP/Pictures/WIZ505SR-RP%20(J1-Pinmap).png?raw=true" width="800" />
+![WIZ505SR-RP 1x6 UART0, SWD (J1)](/img/products/s2e_module/wiz505sr-rp/wiz505sr-rp-j1-pinmap.png)
 
 <table>
 <thead>
@@ -249,11 +240,9 @@ Then RP2040 can be re-programming</td>
 
 **J1 is not mounted connector**
 
-
-
 ### 1x2 Boot mode select (J3)
 
-<img src="https://github.com/Wiznet/Hardware-Files-of-WIZnet/blob/master/04_Serial_to_Ethernet_Module/WIZ505SR-RP/Pictures/WIZ505SR-RP%20(J3-Pinmap).png?raw=true" width="800" />
+![WIZ505SR-RP x2 Boot mode select (J3)](/img/products/s2e_module/wiz505sr-rp/wiz505sr-rp-j3-pinmap.png)
 
 <table>
 <thead>
@@ -281,31 +270,23 @@ Drive this pin low and reset(or power on),then WIZ505SR-RP will enter Boot mode<
 
 **J3 is not mounted connector**
 
-
-
 ## Switch Specification
 
 ### RESET Switch (SW1)
 
-<img src="https://github.com/Wiznet/Hardware-Files-of-WIZnet/blob/master/04_Serial_to_Ethernet_Module/WIZ505SR-RP/Pictures/WIZ505SR-RP%20(Reset).png?raw=true" width="800" />
+![WIZ505SR-RP RESET Switch (SW1)](/img/products/s2e_module/wiz505sr-rp/wiz505sr-rp-reset.png)
 
--   When push SW1, WIZ500SR-RP will be reset
-
-
+- Pressing SW1 will initiate a reset of the WIZ500SR-RP device.
 
 ### BOOTSEL Switch (SW2)
 
-<img src="https://github.com/Wiznet/Hardware-Files-of-WIZnet/blob/master/04_Serial_to_Ethernet_Module/WIZ505SR-RP/Pictures/WIZ505SR-RP%20(BOOT).png?raw=true" width="800" />
+![WIZ505SR-RP BOOTSEL Switch (SW2)](/img/products/s2e_module/wiz505sr-rp/wiz505sr-rp-boot.png)
 
-- Push SW2 and reset(or power on),then RP2040 will enter USB Mass Storage Device mode
+- Pressing SW2 and resetting (or powering on) will cause the RP2040 to enter USB Mass Storage Device mode. This enables the RP2040 to be reprogrammed.
 
-  Then RP2040 can be re-programming
+## WIZ505SR-RP indicators
 
-
-
-## WIZ505SR-RP indicate
-
-<img src="https://github.com/Wiznet/Hardware-Files-of-WIZnet/blob/master/04_Serial_to_Ethernet_Module/WIZ505SR-RP/Pictures/WIZ505SR-RP%20LED.png?raw=true" width="800" />
+![WIZ505SR-RP LED indicators](/img/products/s2e_module/wiz505sr-rp/wiz505sr-rp-led.png)
 
 <table>
 <thead>
@@ -349,32 +330,26 @@ When Module working well Blinking every 1.0s </td>
 
 ------------------------------------------------------------------------
 ## WIZ505SR-RP EVB
-  
-  connect WIZ505SR-RP J2  with [WIZ505SR-RP EVB](https://docs.wiznet.io/Product/S2E-Module/WIZ5xxSR-RP-Series/wiz505sr-rp-evb) J6 
+
+To utilize the [WIZ505SR-RP EVB](../wiz505sr-rp-evb-en.md), connect the J1 connector of the WIZ505SR-RP to the J6 connector of the EVB.  
 
 |                                                              |
 | ------------------------------------------------------------ |
-| <img src="https://github.com/Wiznet/Hardware-Files-of-WIZnet/blob/master/04_Serial_to_Ethernet_Module/WIZ505SR-RP/Pictures/combine_2.png?raw=true" width="700" /> |
+| ![WIZ505SR-RP LED indicators](/img/products/s2e_module/wiz505sr-rp/wiz505sr-rp-evb-top.png) |
 | TOP                                                          |
-| <img src="https://github.com/Wiznet/Hardware-Files-of-WIZnet/blob/master/04_Serial_to_Ethernet_Module/WIZ505SR-RP/Pictures/combine_1.png?raw=true" width="600" /> |
-| BOTTOM    
+| ![WIZ505SR-RP LED indicators](/img/products/s2e_module/wiz505sr-rp/wiz505sr-rp-evb-bottom.png) |
+| BOTTOM    |
 
 ----------------------------------------------------------------------
   
 ## Schematic & Artwork
-
-### WIZ505SR-RP
 
 | H/W version | Type | Filetype | Download Link                                                | Remarks |
 | ----------- | ---- | -------- | ------------------------------------------------------------ | ------- |
 | 1.0         | TTL  | Altium   | ![](/img/products/w5500/w5500_evb/icons/download.png) <a href="https://github.com/Wiznet/Hardware-Files-of-WIZnet/raw/4d4c49d044e6d49c58748386eb2b5292ab607564/04_Serial_to_Ethernet_Module/WIZ505SR-RP/WIZ505SR-RP_V100/Schematic/WIZ505SR-RP_SCH_V100.zip" target="_blank">Download</a> | \-      |
 | :::         | :::  | PDF      | ![](/img/products/w5500/w5500_evb/icons/download.png) <a href="https://github.com/Wiznet/Hardware-Files-of-WIZnet/raw/4d4c49d044e6d49c58748386eb2b5292ab607564/04_Serial_to_Ethernet_Module/WIZ505SR-RP/WIZ505SR-RP_V100/Schematic/WIZ505SR-RP_SCH_V100.pdf" target="_blank">Download</a> | \-      |
 
-
-
 ## Part list
-
-### WIZ505SR-RP
 
 | H/W version | Type | Filetype | Download Link                                                | Remarks |
 | ----------- | ---- | -------- | ------------------------------------------------------------ | ------- |
@@ -498,12 +473,10 @@ When Module working well Blinking every 1.0s </td>
 
 ------------------------------------------------------------------------
 
-## Dimension
-
+## Dimensions
 
 -   WIZ505SR-RP Rev1.0 Dimension :
     -   40mm x 62mm x 1.6mm ( PCB board size )
     -   40mm x 66.5mm x 15mm ( Included part size )
 
-<img src="https://github.com/Wiznet/Hardware-Files-of-WIZnet/blob/master/04_Serial_to_Ethernet_Module/WIZ505SR-RP/Pictures/WIZ505SR-RP%20PCB%20TOP.png?raw=true" width="700" />
-
+![WIZ505SR-RP Dimensions](/img/products/s2e_module/wiz505sr-rp/wiz505sr-rp-pcb-top.png)

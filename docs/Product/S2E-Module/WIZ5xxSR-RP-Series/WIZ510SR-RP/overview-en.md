@@ -2,7 +2,8 @@
 id: overview
 title: Overview
 date: 2022-05-26
-
+keywords: [wiznet, wiz510sr-rp,wiz510sr-rp datasheet, hardwired tcp/ip,serial-to-ethernet, w5100s, rp2040]
+description: WIZ510SR-RP is a compact sized serial to Ethernet module using the RP2040 MCU with W5100S Ethernet Chip
 ---
 
 ![WIZ510SR-RP](/img/products/s2e_module/wiz510sr-rp/wiz510sr-rp-top.png)

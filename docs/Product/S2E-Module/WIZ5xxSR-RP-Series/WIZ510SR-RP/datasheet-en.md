@@ -2,7 +2,8 @@
 id: datasheet
 title: Datasheet
 date: 2022-05-09
-
+keywords: [wiznet, wiz510sr-rp,wiz510sr-rp datasheet, hardwired tcp/ip,serial-to-ethernet, w5100s, rp2040]
+description: WIZ510SR-RP is a compact sized serial to Ethernet module using the RP2040 MCU with W5100S Ethernet Chip
 ---
 
 ## Hardware Specification
@@ -75,20 +76,15 @@ Flow control: None, RTS / CTS </td>
 </tbody>
 </table>
 
-
-
-
-
-
 ------------------------------------------------------------------------
 
 ### WIZ510SR-RP Callout
 
 |                                                              |
 | ------------------------------------------------------------ |
-| <img src="https://github.com/Wiznet/Hardware-Files-of-WIZnet/blob/master/04_Serial_to_Ethernet_Module/WIZ510SR-RP/Pictures/WIZ510SR-RP%20Callout_Top.png?raw=true" width="800" /> |
+| ![WIZ510SR-RP Callout](/img/products/s2e_module/wiz510sr-rp/wiz510sr-rp-callout-top.png) |
 | TOP                                                          |
-| <img src="https://github.com/Wiznet/Hardware-Files-of-WIZnet/blob/master/04_Serial_to_Ethernet_Module/WIZ510SR-RP/Pictures/WIZ510SR-RP%203D(BOT).png?raw=true" width="800" /> |
+| ![WIZ510SR-RP Bottom](/img/products/s2e_module/wiz510sr-rp/wiz510sr-rp-3d-bottom.png) |
 | BOTTOM                                                       |
 
 
@@ -97,15 +93,15 @@ Flow control: None, RTS / CTS </td>
 
 ### WIZ510SR-RP Pinout
 
-<img src="https://github.com/Wiznet/Hardware-Files-of-WIZnet/blob/master/04_Serial_to_Ethernet_Module/WIZ510SR-RP/Pictures/WIZ510SR-RP%20Pinout.png?raw=true" width="800" />
+![WIZ510SR-RP Pinout](/img/products/s2e_module/wiz510sr-rp/wiz510sr-rp-pinout.png)
 
 ------
 
 
 
-### WIZ510SR-RP indicate
+### WIZ510SR-RP indicators
 
-<img src="https://github.com/Wiznet/Hardware-Files-of-WIZnet/blob/master/04_Serial_to_Ethernet_Module/WIZ510SR-RP/Pictures/WIZ510SR-RP%20LED.png?raw=true" width="800" />
+![WIZ510SR-RP LED indicators](/img/products/s2e_module/wiz510sr-rp/wiz510sr-rp-led.png)
 
 <table>
 <thead>
@@ -147,14 +143,9 @@ When Module working well Blinking every 1.0s </td>
 </tbody>
 </table>
 
-
-
-
 ------------------------------------------------------------------------
 
 ## Schematic & Artwork
-
-### WIZ510SR-RP
 
 | H/W version | Type | Filetype | Download Link                                                | Remarks |
 | ----------- | ---- | -------- | ------------------------------------------------------------ | ------- |
@@ -163,8 +154,6 @@ When Module working well Blinking every 1.0s </td>
 ------------------------------------------------------------------------
 
 ## Part list
-
-### WIZ510SR-RP
 
 | H/W version | Type | Filetype | Download Link                                                | Remarks |
 | ----------- | ---- | -------- | ------------------------------------------------------------ | ------- |
@@ -284,36 +273,29 @@ When Module working well Blinking every 1.0s </td>
 | N*END* | **Sector Endurance** | 100,000 | Cycles |
 | T*DR*  | **Data Retention**   | 20      | Years  |
 
-### 
-
 ------------------------------------------------------------------------
 
 ## Connector Specification
 
-
-
 ### Magnetic RJ45 modular jack (P1)
 
-<img src="https://github.com/Wiznet/Hardware-Files-of-WIZnet/blob/master/04_Serial_to_Ethernet_Module/WIZ510SR-RP/Pictures/WIZ510SR-RP%20(P1).png?raw=true" width="800" />
+![WIZ510SR-RP Magnetic RJ45 modular jack (P1)](/img/products/s2e_module/wiz510sr-rp/wiz510sr-rp-p1.png)
 
-- When Ethernet not connect, WIZ505SR-RP will be in reset loop
+-   If there is no Ethernet connection, the WIZ510SR-RP device will enter into a continuous reset loop.
 
 
 
 ### 2Ø DC-JACK (P2)
 
-<img src="https://github.com/Wiznet/Hardware-Files-of-WIZnet/blob/master/04_Serial_to_Ethernet_Module/WIZ510SR-RP/Pictures/WIZ510SR-RP%20DC-JACK.png?raw=true" width="800" />
+![WIZ510SR-RP 2Ø DC-JACK (P2)](/img/products/s2e_module/wiz510sr-rp/wiz510sr-rp-dc-jack.png)
 
 - 5V input 
 
-
-
-
 ### DB9M Serial Interface (J2)
 
-<img src="https://github.com/Wiznet/Hardware-Files-of-WIZnet/blob/master/04_Serial_to_Ethernet_Module/WIZ510SR-RP/Pictures/WIZ510SR-RP%20(J2-Pinmap).png?raw=true" width="800" />
+![WIZ510SR-RP Serial Interface (J2)](/img/products/s2e_module/wiz510sr-rp/wiz510sr-rp-j2-pinmap.png)
 
-<img src="https://github.com/Wiznet/Hardware-Files-of-WIZnet/blob/master/04_Serial_to_Ethernet_Module/WIZ510SR-RP/Pictures/WIZ510SR-RP%20DB9M.png?raw=true" width="400" />
+![WIZ510SR-RP DB9M](/img/products/s2e_module/wiz510sr-rp/wiz510sr-rp-db9m.png)
 
 | Pin Number | Signal | Description                  |
 | ---------- | ------ | ---------------------------- |
@@ -327,17 +309,14 @@ When Module working well Blinking every 1.0s </td>
 | 8          | CTS    | Clear To Send                |
 | 9          | RI     | NC                           |
 
--   RXD, TXD, GND: These are all you need if the device does not use
-    hardware handshaking.
--   RXD, TXD, GND, RTS, CTS: These are the signals used when serial
-    device uses hardware handshaking.
+-   RXD, TXD, GND: These are all you need if the device does not use hardware handshaking.
+-   RXD, TXD, GND, RTS, CTS: These are the signals used when serial device uses hardware handshaking.
 -   DCD, DTR, DSR, RI: Not used
-
 
 
 ### 1x4 Download (J5)
 
-<img src="https://github.com/Wiznet/Hardware-Files-of-WIZnet/blob/master/04_Serial_to_Ethernet_Module/WIZ510SR-RP/Pictures/WIZ510SR-RP%20(J5-Pinmap).png?raw=true" width="800" />
+![WIZ510SR-RP 1x4 Download (J5)](/img/products/s2e_module/wiz510sr-rp/wiz510sr-rp-j5-pinmap.png)
 
 <table>
 <thead>
@@ -366,11 +345,9 @@ When Module working well Blinking every 1.0s </td>
 </tbody>
 </table>
 
-
-
 ### 1x6 UART0, SWD (J1)
 
-<img src="https://github.com/Wiznet/Hardware-Files-of-WIZnet/blob/master/04_Serial_to_Ethernet_Module/WIZ510SR-RP/Pictures/WIZ510SR-RP%20(J1-Pinmap).png?raw=true" width="800" />
+![WIZ510SR-RP 1x6 UART0, SWD (J1)](/img/products/s2e_module/wiz510sr-rp/wiz510sr-rp-j1-pinmap.png)
 
 <table>
 <thead>
@@ -421,7 +398,7 @@ When Module working well Blinking every 1.0s </td>
 
 ### 1x2 BOOT MODE (J3)
 
-<img src="https://github.com/Wiznet/Hardware-Files-of-WIZnet/blob/master/04_Serial_to_Ethernet_Module/WIZ510SR-RP/Pictures/WIZ510SR-RP%20(J3-Pinmap).png?raw=true" width="800" />
+![WIZ510SR-RP 1x2 BOOT MODE (J3)](/img/products/s2e_module/wiz510sr-rp/wiz510sr-rp-j3-pinmap.png)
 
 <table>
 <thead>
@@ -453,7 +430,7 @@ Drive this pin low and reset(or power on),then WIZ510SR-RP will enter Boot mode<
 
 ### 1x2 FACT RST (J4)
 
-<img src="https://github.com/Wiznet/Hardware-Files-of-WIZnet/blob/master/04_Serial_to_Ethernet_Module/WIZ510SR-RP/Pictures/WIZ510SR-RP%20(J4-Pinmap).png?raw=true" width="800" />
+![WIZ510SR-RP 1x2 FACT RST (J4)](/img/products/s2e_module/wiz510sr-rp/wiz510sr-rp-j4-pinmap.png)
 
 | Pin Number | Signal   | Description                                                  |
 | ---------- | -------- | ------------------------------------------------------------ |
@@ -472,23 +449,21 @@ Drive this pin low and reset(or power on),then WIZ510SR-RP will enter Boot mode<
 
 ### Reset Switch (SW1)
 
-<img src="https://github.com/Wiznet/Hardware-Files-of-WIZnet/blob/master/04_Serial_to_Ethernet_Module/WIZ510SR-RP/Pictures/WIZ510SR-RP%20(Reset).png?raw=true" width="800" />
+![WIZ510SR-RP Reset Switch (SW1)](/img/products/s2e_module/wiz510sr-rp/wiz510sr-rp-reset.png)
 
--   When Push SW1, WIZ510SR-RP will be reset
+- Pressing SW1 will initiate a reset of the WIZ510SR-RP device.
 
 ### BOOTSEL Switch (SW2)
 
-<img src="https://github.com/Wiznet/Hardware-Files-of-WIZnet/blob/master/04_Serial_to_Ethernet_Module/WIZ510SR-RP/Pictures/WIZ510SR-RP%20(BOOTSEL).png?raw=true" width="800" />
+![WIZ510SR-RP BOOTSEL Switch (SW2)](/img/products/s2e_module/wiz510sr-rp/wiz510sr-rp-bootsel.png)
 
-- Push SW2 and reset(or power on),then RP2040 will enter USB Mass Storage Device mode
-
-  Then RP2040 can be re-programming
+- Pressing SW2 and resetting (or powering on) will cause the RP2040 to enter USB Mass Storage Device mode. This enables the RP2040 to be reprogrammed.
 
 
 
 ### HW TRIG Switch (SW3)
 
-<img src="https://github.com/Wiznet/Hardware-Files-of-WIZnet/blob/master/04_Serial_to_Ethernet_Module/WIZ510SR-RP/Pictures/WIZ510SR-RP%20(HW%20TRIG).png?raw=true" width="800" />
+![WIZ510SR-RP HW TRIG Switch (SW3)](/img/products/s2e_module/wiz510sr-rp/wiz510sr-rp-hw-trig.png)
 
 -   Slide SW3 Left : AT command
 -   Slide SW3 Right : Gateway Mode
@@ -504,5 +479,5 @@ Drive this pin low and reset(or power on),then WIZ510SR-RP will enter Boot mode<
     -   63mm x 45mm x 1.6mm ( PCB board size )
     -   76mm x 45mm x 15mm ( Included part size )
 
-<img src="https://github.com/Wiznet/Hardware-Files-of-WIZnet/blob/master/04_Serial_to_Ethernet_Module/WIZ510SR-RP/Pictures/WIZ510SR-RP%20PCB%20TOP.png?raw=true" width="700" />
+![WIZ510SR-RP Dimension](/img/products/s2e_module/wiz510sr-rp/wiz510sr-rp-pcb-top.png)
 
