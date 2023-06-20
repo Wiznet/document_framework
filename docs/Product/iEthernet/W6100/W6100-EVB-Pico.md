@@ -133,3 +133,18 @@ TBA
 ### Dimension v1.0 (Unit : mm)
 
 ![w6100-evb-pico-dimension](/img/osh/w6100-evb-pico/w6100-evb-pico-1.0-dimension.png)
+
+### Firmware Example
+
+Please refer to below links to find firmware example.
+
+ C/C++
+  - [Ethernet Examples](https://github.com/Wiznet/RP2040-v6-HAT-C)
+  - [FreeRTOS Examples](https://github.com/Wiznet/RP2040-v6-HAT-FREERTOS-C)
+
+
+## How to buy
+
+[![WIZnetUS Online Shop, USA](/img/products/w5100s-evb-pico/icons/dollar.png)](https://eshop.wiznet.io/shop/module/w6100-evb-pico/)
+[![WIZnetKorea Online Shop, Korea](/img/products/w5100s-evb-pico/icons/won.png)](https://wiznetshop.io/product/detail.html?product_no=1078&cate_no=54&display_group=1)
+  
