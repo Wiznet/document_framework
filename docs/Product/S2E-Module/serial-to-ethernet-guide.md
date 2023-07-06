@@ -4,6 +4,8 @@ title: Serial to Ethernet Tool guide
 date: 2020-04-03
 ---
 
+[📃 한국어 버전 보기](./serial-to-ethernet-guide-KO.md)
+
 ## Configuration Tool
 
 Configuration Tool selection guide for S2E(Serial to ethernet) devices.

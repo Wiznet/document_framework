@@ -28,33 +28,16 @@ opened.
 
 |                                                                            |
 | -------------------------------------------------------------------------- |
-| ![](/img/products/wiz750sr/guiconfigtoolmanual/gui_configtool_main.png)        |
+| ![](/img/products/wiz750sr/guiconfigtoolmanual/gui_configtool_main.png)    |
 | Figure: **Configuration Tool for WIZ750SR series & WIZ107/108SR Products** |
 
 -----
 
 ### Support Devices
 
-The list of products supported by WIZnet-S2E-Tool-GUI is as follows.
+Refer to the link below for a list of supported devices.
 
-#### 1 Port Serial to Ethernet Module
-
-  - [WIZ750SR](./WIZ750SR.md)
-  - [WIZ750SR](https://github.com/Wiznet/WIZ750SR)
-  - [WIZ750SR-100](./../WIZ750SR-1xx-Series/WIZ750SR-100/WIZ750SR-100.md)
-  - [WIZ750SR-105](./../WIZ750SR-1xx-Series/WIZ750SR-105/WIZ750SR-105.md)
-  - [WIZ750SR-110](./../WIZ750SR-1xx-Series/WIZ750SR-110/WIZ750SR-110.md)
-  - [WIZ107SR](./../WIZ107SR/wiz107sr.md)
-  - [WIZ108SR](./../WIZ108SR/wiz108sr.md)
-
-#### 2 Port Serial to Ethernet Module
-
-  - [WIZ752SR-120](./../WIZ752SR-12x-Series/WIZ752SR-120/WIZ752SR-120.md)
-  - [WIZ752SR-125](./../WIZ752SR-12x-Series/WIZ752SR-125/WIZ752SR-125.md)
-
-#### Pre-programmed MCU
-
-  - [W7500(P)-S2E](./../../Pre-programmed-MCU/W7500P-S2E/W7500-P-S2E-EN.md)
+* [**WIZnet-S2E-Tool-GUI Support Devices**](https://github.com/Wiznet/WIZnet-S2E-Tool-GUI#support-devices)
 
 -----
 
@@ -66,10 +49,10 @@ The list of products supported by WIZnet-S2E-Tool-GUI is as follows.
     
 ## Configuration Tool Layout
 
-|                                                                       |
-| --------------------------------------------------------------------- |
+|                                                                           |
+| ------------------------------------------------------------------------- |
 | ![](/img/products/wiz750sr/guiconfigtoolmanual/gui_configtool_layout.png) |
-| Figure: **Configuration Tool Layout**                                 |
+| Figure: **Configuration Tool Layout**                                     |
 
 The configuration tool is composed of four sections. Details of each
 section are available below.
@@ -111,10 +94,10 @@ section are available below.
 
 ### 1. Icon Menu
 
-|                                                                          |
-| ------------------------------------------------------------------------ |
+|                                                                              |
+| ---------------------------------------------------------------------------- |
 | ![](/img/products/wiz750sr/guiconfigtoolmanual/gui_configtool_icon_menu.png) |
-| Figure: **Menu Icons**                                                   |
+| Figure: **Menu Icons**                                                       |
 
 #### 1\) Device Search
 
@@ -151,10 +134,10 @@ section are available below.
   - The following pop-up will appear once the firmware upload is
     complete.
 
-|                                                                                       |
-| ------------------------------------------------------------------------------------- |
+|                                                                                           |
+| ----------------------------------------------------------------------------------------- |
 | ![](/img/products/wiz750sr/guiconfigtoolmanual/gui_configtool_firmwareupload_success.png) |
-| Figure: **Popup Message - Firmware Upload Successfully**                              |
+| Figure: **Popup Message - Firmware Upload Successfully**                                  |
 
   - Use **TCP/UDP port 50002 to upload firmware** on to WIZ750SR.
     Firmware upload can be unsuccessful due to firewall or virus
@@ -199,10 +182,10 @@ DURING FIRMWARE UPLOADING**
 
 ### 2\. Network Interface configuration
 
-|                                                                            |
-| -------------------------------------------------------------------------- |
+|                                                                                |
+| ------------------------------------------------------------------------------ |
 | ![](/img/products/wiz750sr/guiconfigtoolmanual/gui_configtool_net_adapter.png) |
-| Figure: **Network adapters**                                               |
+| Figure: **Network adapters**                                                   |
 
   - If using multiple types of network adapters, a list of adapters and
     the bands in use are displayed and can be selected according to your
@@ -214,10 +197,10 @@ DURING FIRMWARE UPLOADING**
 
 ### 3\. Device List
 
-|                                                                            |
-| -------------------------------------------------------------------------- |
+|                                                                                |
+| ------------------------------------------------------------------------------ |
 | ![](/img/products/wiz750sr/guiconfigtoolmanual/gui_configtool_device_list.png) |
-| Figure: **Device List**                                                    |
+| Figure: **Device List**                                                        |
 
   - List of devices searched will appears.
       - **Searched results** shows the number of devices searched.
@@ -252,10 +235,10 @@ DURING FIRMWARE UPLOADING**
 
 ### 6-2. Basic settings Tab
 
-|                                                                                  |
-| -------------------------------------------------------------------------------- |
+|                                                                                      |
+| ------------------------------------------------------------------------------------ |
 | ![](/img/products/wiz750sr/guiconfigtoolmanual/gui_configtool_tab_basicsettings.png) |
-| Figure: **Basic settings Tab**                                                   |
+| Figure: **Basic settings Tab**                                                       |
 
 1.  UDP Broadcast Search: can search multiple devices
 
@@ -295,10 +278,10 @@ DURING FIRMWARE UPLOADING**
 
 ### 6-2. Options Tab
 
-|                                                                            |
-| -------------------------------------------------------------------------- |
+|                                                                                |
+| ------------------------------------------------------------------------------ |
 | ![](/img/products/wiz750sr/guiconfigtoolmanual/gui_configtool_tab_options.png) |
-| Figure: **Option Tab**                                                     |
+| Figure: **Option Tab**                                                         |
 
 -----
 
@@ -376,10 +359,10 @@ DURING FIRMWARE UPLOADING**
 
 ### 7\. Channel Tab
 
-|                                                                            |
-| -------------------------------------------------------------------------- |
+|                                                                                |
+| ------------------------------------------------------------------------------ |
 | ![](/img/products/wiz750sr/guiconfigtoolmanual/gui_configtool_tab_channel.png) |
-| Figure: **Network Configuration Tab**                                      |
+| Figure: **Network Configuration Tab**                                          |
 
 1.  The serial command after switching modes must end with CR and LF.
 

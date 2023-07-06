@@ -27,49 +27,31 @@ WIZnet 페이지 내에 공개되어 있으며, 최신 버전의 실행 파일�
 
 |                                                                            |
 | -------------------------------------------------------------------------- |
-| ![](/img/products/wiz750sr/guiconfigtoolmanual/gui_configtool_main.png)        |
+| ![](/img/products/wiz750sr/guiconfigtoolmanual/gui_configtool_main.png)    |
 | Figure: **Configuration Tool for WIZ750SR series & WIZ107/108SR Products** |
 
 -----
 
 ### Support Devices
 
-WIZnet-S2E-Tool-GUI에서 지원하는 제품 리스트는 아래와 같습니다.
+WIZnet-S2E-Tool-GUI에서 지원하는 제품 리스트는 다음 링크에서 참조할 수 있습니다.
 
-#### 1 Port Serial to Ethernet Module
-
-  - [WIZ750SR](./WIZ750SR.md)
-  - [WIZ750SR](https://github.com/Wiznet/WIZ750SR)
-  - [WIZ750SR-100](./../WIZ750SR-1xx-Series/WIZ750SR-100/WIZ750SR-100.md)
-  - [WIZ750SR-105](./../WIZ750SR-1xx-Series/WIZ750SR-105/WIZ750SR-105.md)
-  - [WIZ750SR-110](./../WIZ750SR-1xx-Series/WIZ750SR-110/WIZ750SR-110.md)
-  - [WIZ107SR](./../WIZ107SR/wiz107sr.md)
-  - [WIZ108SR](./../WIZ108SR/wiz108sr.md)
-
+* [**WIZnet-S2E-Tool-GUI 지원 장치 목록**](https://github.com/Wiznet/WIZnet-S2E-Tool-GUI#support-devices)
 
 
 1.  WIZnet-S2E-Tool-GUI는 Python 기반으로 제작되어 OS 종류에 관계 없이 실행 가능합니다.
 
 2.  기존 제품 사용자의 경우, 하나의 설정 프로그램으로 WIZ750SR series 제품과 WIZ107/108SR 제품을 함께
     제어 할 수 있습니다.
-    
-    #### 2 Port Serial to Ethernet Module
-
-  - [WIZ752SR-120](./../WIZ752SR-12x-Series/WIZ752SR-120/WIZ752SR-120.md)
-  - [WIZ752SR-125](./../WIZ752SR-12x-Series/WIZ752SR-125/WIZ752SR-125.md)
-
-#### Pre-programmed MCU
-
-  - [W7500(P)-S2E](./../../Pre-programmed-MCU/W7500P-S2E/W7500-P-S2E-KO.md)
 
 -----
 
 ## Configuration Tool Layout
 
-|                                                                       |
-| --------------------------------------------------------------------- |
+|                                                                           |
+| ------------------------------------------------------------------------- |
 | ![](/img/products/wiz750sr/guiconfigtoolmanual/gui_configtool_layout.png) |
-| Figure: **Configuration Tool Layout**                                 |
+| Figure: **Configuration Tool Layout**                                     |
 
 설정 프로그램은 위 그림과 같이 기능 별로 나눌 수 있습니다.
 
@@ -112,10 +94,10 @@ WIZnet-S2E-Tool-GUI에서 지원하는 제품 리스트는 아래와 같습니�
 Configuration tool 상단에 위치하며, 제품의 검색 / 펌웨어 업로드 / 재시작 / 초기화 등을 수행 할 수
 있습니다.
 
-|                                                                          |
-| ------------------------------------------------------------------------ |
+|                                                                              |
+| ---------------------------------------------------------------------------- |
 | ![](/img/products/wiz750sr/guiconfigtoolmanual/gui_configtool_icon_menu.png) |
-| Figure: **Menu Icons**                 
+| Figure: **Menu Icons**                                                       |
 
 #### 1) Device Search
 
@@ -143,10 +125,10 @@ Configuration tool 상단에 위치하며, 제품의 검색 / 펌웨어 업로�
   - 제품은 동작이 완료된 이후 자동으로 재시작(Reboot) 됩니다. 
   - 성공적으로 펌웨어 업로드 완료 시, 다음과 같은 메시지 팝업을 확인 할 수 있습니다.
 
-|                                                                                       |
-| ------------------------------------------------------------------------------------- |
+|                                                                                           |
+| ----------------------------------------------------------------------------------------- |
 | ![](/img/products/wiz750sr/guiconfigtoolmanual/gui_configtool_firmwareupload_success.png) |
-| Figure: **Popup Message - Firmware Upload Successfully**                              |
+| Figure: **Popup Message - Firmware Upload Successfully**                                  |
 
   - **네트워크를 이용한 WIZ750SR 장치 펌웨어 업로드 기능은 TCP 포트 50002번을 이용**합니다. 만약 방화벽이나 백신 프로그램에서 해당 포트를 차단하고 있을 경우, 장치 펌웨어 업로드에 실패할 수 있습니다.
       - 이러한 경우, 방화벽이나 백신 프로그램의 동작을 해제 하신 후 테스트 해 보시기를 권장합니다.
@@ -191,10 +173,10 @@ Configuration tool 상단에 위치하며, 제품의 검색 / 펌웨어 업로�
 
 ### 2. Network Interface configuration
 
-|                                                                            |
-| -------------------------------------------------------------------------- |
+|                                                                                |
+| ------------------------------------------------------------------------------ |
 | ![](/img/products/wiz750sr/guiconfigtoolmanual/gui_configtool_net_adapter.png) |
-| Figure: **Network adapters**                                               |
+| Figure: **Network adapters**                                                   |
 
   - 여러 종류의 네트워크 어댑터를 사용하는 경우, 어댑터 리스트와 사용 중인 대역이 표시되며, 환경에 따라 사용할 네트워크 대역을 선택할 수 있습니다.
       - 예시 1) 노트북에서 이더넷과 WiFi를 함께 사용하고 있는 경우
@@ -204,10 +186,10 @@ Configuration tool 상단에 위치하며, 제품의 검색 / 펌웨어 업로�
 
 ### 3. Device List
 
-|                                                                            |
-| -------------------------------------------------------------------------- |
+|                                                                                |
+| ------------------------------------------------------------------------------ |
 | ![](/img/products/wiz750sr/guiconfigtoolmanual/gui_configtool_device_list.png) |
-| Figure: **Device List**                                                    |
+| Figure: **Device List**                                                        |
 
   - Search 기능을 통해 검색된 장치의 리스트가 표시됩니다. 
       - Searched results에는 검색된 장치 수가 표시됩니다.
@@ -239,10 +221,10 @@ Configuration tool 상단에 위치하며, 제품의 검색 / 펌웨어 업로�
 
 ### 6-1. Basic settings Tab
 
-|                                                                                  |
-| -------------------------------------------------------------------------------- |
+|                                                                                      |
+| ------------------------------------------------------------------------------------ |
 | ![](/img/products/wiz750sr/guiconfigtoolmanual/gui_configtool_tab_basicsettings.png) |
-| Figure: **Basic settings Tab**                                                   |
+| Figure: **Basic settings Tab**                                                       |
 
 #### 1) Device information
 
@@ -281,10 +263,10 @@ Configuration tool 상단에 위치하며, 제품의 검색 / 펌웨어 업로�
 
 ### 6-2. Options Tab
 
-|                                                                            |
-| -------------------------------------------------------------------------- |
+|                                                                                |
+| ------------------------------------------------------------------------------ |
 | ![](/img/products/wiz750sr/guiconfigtoolmanual/gui_configtool_tab_options.png) |
-| Figure: **Option Tab**                                                     |
+| Figure: **Option Tab**                                                         |
 
 -----
 
@@ -341,10 +323,10 @@ Configuration tool 상단에 위치하며, 제품의 검색 / 펌웨어 업로�
 
 ### 7. Channel Tab
 
-|                                                                            |
-| -------------------------------------------------------------------------- |
+|                                                                                |
+| ------------------------------------------------------------------------------ |
 | ![](/img/products/wiz750sr/guiconfigtoolmanual/gui_configtool_tab_channel.png) |
-| Figure: **Network Configuration Tab**                                      |
+| Figure: **Network Configuration Tab**                                          |
 
 #### 1\) Status & Serial Interface
 

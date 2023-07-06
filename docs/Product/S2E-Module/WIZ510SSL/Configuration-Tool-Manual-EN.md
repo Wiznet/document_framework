@@ -17,35 +17,18 @@ can be downloaded from the release page.
 
 The following screen will appear once the program is installed and opened.
 
-|                                                                            |
-| -------------------------------------------------------------------------- |
-| ![](/img/products/wiz510ssl/configuration_tool_manual/gui_configtool_main.png)        |
-| Figure: **Configuration Tool for WIZ510SSL & WIZ107/108SR Products** |
+|                                                                                |
+| ------------------------------------------------------------------------------ |
+| ![](/img/products/wiz510ssl/configuration_tool_manual/gui_configtool_main.png) |
+| Figure: **Configuration Tool for WIZ510SSL & WIZ107/108SR Products**           |
 
 -----
 
 ### Support Devices
 
-The list of products supported by WIZnet-S2E-Tool-GUI is as follows.
+Refer to the link below for a list of supported devices.
 
-#### 1 Port Serial to Ethernet Module
-
-  - [WIZ510SSL](WIZ510SSL.md)
-  - [WIZ750SR](../WIZ750SR/WIZ750SR.md)
-  - [WIZ750SR-100](../WIZ750SR-1xx-Series/WIZ750SR-100/WIZ750SR-100.md)
-  - [WIZ750SR-105](../WIZ750SR-1xx-Series/WIZ750SR-105/WIZ750SR-105.md)
-  - [WIZ750SR-110](../WIZ750SR-1xx-Series/WIZ750SR-110/WIZ750SR-110.md)
-  - [WIZ107SR](../WIZ107SR/wiz107sr.md)
-  - [WIZ108SR](../WIZ108SR/wiz108sr.md)
-
-#### 2 Port Serial to Ethernet Module
-
-  - [WIZ752SR-120](../WIZ752SR-12x-Series/WIZ752SR-120/WIZ752SR-120.md)
-  - [WIZ752SR-125](../WIZ752SR-12x-Series/WIZ752SR-125/WIZ752SR-125.md)
-
-#### Pre-programmed MCU
-
-  - [W7500(P)-S2E](../../Pre-programmed-MCU/W7500P-S2E/W7500-P-S2E-EN.md)
+* [**WIZnet-S2E-Tool-GUI Support Devices**](https://github.com/Wiznet/WIZnet-S2E-Tool-GUI#support-devices)
 
 -----
 
@@ -55,10 +38,10 @@ The list of products supported by WIZnet-S2E-Tool-GUI is as follows.
     
 ## Configuration Tool Layout
 
-|                                                                       |
-| --------------------------------------------------------------------- |
+|                                                                                  |
+| -------------------------------------------------------------------------------- |
 | ![](/img/products/wiz510ssl/configuration_tool_manual/gui_configtool_layout.png) |
-| Figure: **Configuration Tool Layout**                                 |
+| Figure: **Configuration Tool Layout**                                            |
 
 The configuration tool is composed of four sections. Details of each
 section are available below.
@@ -99,10 +82,10 @@ section are available below.
 
 ### 1. Icon Menu
 
-|                                                                          |
-| ------------------------------------------------------------------------ |
+|                                                                                     |
+| ----------------------------------------------------------------------------------- |
 | ![](/img/products/wiz510ssl/configuration_tool_manual/gui_configtool_icon_menu.png) |
-| Figure: **Menu Icons**                                                   |
+| Figure: **Menu Icons**                                                              |
 
 #### 1\) Device Search
 
@@ -136,10 +119,10 @@ section are available below.
   - Then the module will automatically reboot.
   - The following pop-up will appear once the firmware upload is complete.
 
-|                                                                                       |
-| ------------------------------------------------------------------------------------- |
+|                                                                                                  |
+| ------------------------------------------------------------------------------------------------ |
 | ![](/img/products/wiz510ssl/configuration_tool_manual/gui_configtool_firmwareupload_success.png) |
-| Figure: **Popup Message - Firmware Upload Successfully**                              |
+| Figure: **Popup Message - Firmware Upload Successfully**                                         |
 
   - Use **TCP/UDP port 50002 to upload firmware** on to WIZ510SSL.
     Firmware upload can be unsuccessful due to firewall or virus protection software.
@@ -181,10 +164,10 @@ section are available below.
 
 ### 2\. Network Interface configuration
 
-|                                                                            |
-| -------------------------------------------------------------------------- |
+|                                                                                       |
+| ------------------------------------------------------------------------------------- |
 | ![](/img/products/wiz510ssl/configuration_tool_manual/gui_configtool_net_adapter.png) |
-| Figure: **Network adapters**                                               |
+| Figure: **Network adapters**                                                          |
 
   - If using multiple types of network adapters, a list of adapters and
     the bands in use are displayed and can be selected according to your
@@ -196,10 +179,10 @@ section are available below.
 
 ### 3\. Device List
 
-|                                                                            |
-| -------------------------------------------------------------------------- |
+|                                                                                       |
+| ------------------------------------------------------------------------------------- |
 | ![](/img/products/wiz510ssl/configuration_tool_manual/gui_configtool_device_list.png) |
-| Figure: **Device List**                                                    |
+| Figure: **Device List**                                                               |
 
   - List of devices searched will appears.
       - **Searched results** shows the number of devices searched.
@@ -235,10 +218,10 @@ section are available below.
 
 ### 6-1. Basic settings Tab
 
-|                                                                                  |
-| -------------------------------------------------------------------------------- |
+|                                                                                             |
+| ------------------------------------------------------------------------------------------- |
 | ![](/img/products/wiz510ssl/configuration_tool_manual/gui_configtool_tab_basicsettings.png) |
-| Figure: **Basic settings Tab**                                                   |
+| Figure: **Basic settings Tab**                                                              |
 
 1.  UDP Broadcast Search: can search multiple devices
 
@@ -282,10 +265,10 @@ section are available below.
 
 ### 6-2. Options Tab
 
-|                                                                            |
-| -------------------------------------------------------------------------- |
+|                                                                                       |
+| ------------------------------------------------------------------------------------- |
 | ![](/img/products/wiz510ssl/configuration_tool_manual/gui_configtool_tab_options.png) |
-| Figure: **Option Tab**                                                     |
+| Figure: **Option Tab**                                                                |
 
 -----
 
@@ -360,10 +343,10 @@ section are available below.
 -----
 ### 6-3. MQTT Options Tab
 
-|                                                                            |
-| -------------------------------------------------------------------------- |
+|                                                                                        |
+| -------------------------------------------------------------------------------------- |
 | ![](/img/products/wiz510ssl/configuration_tool_manual/gui_configtool_mqtt_options.png) |
-| Figure: **MQTT Option Tab**                                                |
+| Figure: **MQTT Option Tab**                                                            |
 
 #### 1) MQTT Credentials
 
@@ -392,10 +375,10 @@ section are available below.
 
 ### 6-4. Certificate Manager Tab
 
-|                                                                            |
-| -------------------------------------------------------------------------- |
+|                                                                                         |
+| --------------------------------------------------------------------------------------- |
 | ![](/img/products/wiz510ssl/configuration_tool_manual/gui_configtool_certi_options.png) |
-| Figure: **Certificate Manager Tab**                                        |
+| Figure: **Certificate Manager Tab**                                                     |
 
 #### 1) Root CA
 
@@ -418,19 +401,19 @@ section are available below.
 
 ### 7\. Channel Tab
 
-|                                                                            |
-| -------------------------------------------------------------------------- |
+|                                                                                       |
+| ------------------------------------------------------------------------------------- |
 | ![](/img/products/wiz510ssl/configuration_tool_manual/gui_configtool_tab_channel.png) |
-| Figure: **Network Configuration Tab**                                      |
+| Figure: **Network Configuration Tab**                                                 |
 
 1.  The serial command after switching modes must end with CR and LF.
 
 #### 1\) Status & Serial Interface
 
-| Item  | Description |
-| ----- | ----------- |
-| Status[1] | Shows the operational status of the device<br />- <strong>BOOT</strong>: Settings and firmware upload is possible during this status<br />- <strong>OPEN</strong>: Status before TCP connection<br />- <strong>CONNECT</strong>: Status after TCP connection<br />- <strong>UPGRADE</strong>: Firmware update or DHCP IP allocation during this status<br />- <strong>ATMODE</strong>: Serial AT command mode.<br />- <strong>UDP</strong>: UDP mode<br /> |
-| Serial interface[2] | Shows the types of UART interfaces.<br />- <strong>RS-232/TTL</strong>: WIZ510SSL hardware TTL or RS-232 version.<br />- <strong>RS-422/485</strong>: WIZ510SSL hardware RS-422/485 version. |
+| Item                | Description                                                                                                                                                                                                                                                                                                                                                                                                                                                |
+| ------------------- | ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| Status[1]           | Shows the operational status of the device<br />- <strong>BOOT</strong>: Settings and firmware upload is possible during this status<br />- <strong>OPEN</strong>: Status before TCP connection<br />- <strong>CONNECT</strong>: Status after TCP connection<br />- <strong>UPGRADE</strong>: Firmware update or DHCP IP allocation during this status<br />- <strong>ATMODE</strong>: Serial AT command mode.<br />- <strong>UDP</strong>: UDP mode<br /> |
+| Serial interface[2] | Shows the types of UART interfaces.<br />- <strong>RS-232/TTL</strong>: WIZ510SSL hardware TTL or RS-232 version.<br />- <strong>RS-422/485</strong>: WIZ510SSL hardware RS-422/485 version.                                                                                                                                                                                                                                                               |
 
 -----
 

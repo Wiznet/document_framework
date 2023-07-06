@@ -24,7 +24,7 @@ The following screen will appear once the program is installed and opened.
 |                                                                                                            |
 | :--------------------------------------------------------------------------------------------------------: |
 | ![](/img/products/s2e_module/wiz5xxsr-rp/configuration_tool_manual/configuration_tool_for_wiz5xxsr-rp.png) |
-| Figure: **Configuration Tool for WIZ5xxSR-RP**                                                             |
+|                               Figure: **Configuration Tool for WIZ5xxSR-RP**                               |
 
   - WIZnet-S2E-Tool-GUI is Python interpreter based and it is platform-independent.
   - If user has used one of WIZ107SR / WIZ108SR, WIZ750SR / WIZ750SR-1xx / WIZ750SR-12x or WIZ510SSL, the same program can be used for WIZ5xxSR-RP.
@@ -34,39 +34,11 @@ The following screen will appear once the program is installed and opened.
 -----
 
 
-
 ### Support Devices
 
-The list of products supported by WIZnet-S2E-Tool-GUI is as follows.
+Refer to the link below for a list of supported devices.
 
-
-
-#### Pre-programmed MCU
-
-  - [W7500(P)-S2E](../../Pre-programmed-MCU/W7500P-S2E/W7500-P-S2E-EN.md)
-
-
-
-#### 1 Port Serial to Ethernet Module
-
-  - [WIZ107SR](../WIZ107SR/wiz107sr.md)
-  - [WIZ108SR](../WIZ108SR/wiz108sr.md)
-  - [WIZ750SR](../WIZ750SR/WIZ750SR.md)
-  - [WIZ750SR-100](../WIZ750SR-1xx-Series/WIZ750SR-100/WIZ750SR-100.md)
-  - [WIZ750SR-105](../WIZ750SR-1xx-Series/WIZ750SR-105/WIZ750SR-105.md)
-  - [WIZ750SR-110](../WIZ750SR-1xx-Series/WIZ750SR-110/WIZ750SR-110.md)
-  - [WIZ510SSL](../WIZ510SSL/WIZ510SSL.md)
-  - [WIZ500SR-RP](./WIZ500SR-RP/overview-en.md)
-  - [WIZ505SR-RP](./WIZ505SR-RP/overview-en.md)
-  - [WIZ510SR-RP](./WIZ510SR-RP/overview-en.md)
-
-
-
-#### 2 Port Serial to Ethernet Module
-
-  - [WIZ752SR-120](../WIZ752SR-12x-Series/WIZ752SR-120/WIZ752SR-120.md)
-  - [WIZ752SR-125](../WIZ752SR-12x-Series/WIZ752SR-125/WIZ752SR-125.md)
-
+* [**WIZnet-S2E-Tool-GUI Support Devices**](https://github.com/Wiznet/WIZnet-S2E-Tool-GUI#support-devices)
 
 
 -----
@@ -78,7 +50,7 @@ The list of products supported by WIZnet-S2E-Tool-GUI is as follows.
 |                                                                                                   |
 | :-----------------------------------------------------------------------------------------------: |
 | ![](/img/products/s2e_module/wiz5xxsr-rp/configuration_tool_manual/configuration_tool_layout.png) |
-| Figure: **Configuration Tool layout**                                                             |
+|                               Figure: **Configuration Tool layout**                               |
 
 The configuration tool is composed of four sections. Details of each section are available below.
 
@@ -141,7 +113,7 @@ The configuration tool is composed of four sections. Details of each section are
 |                                                                                    |
 | :--------------------------------------------------------------------------------: |
 | ![](/img/products/s2e_module/wiz5xxsr-rp/configuration_tool_manual/menu_icons.png) |
-| Figure: **Menu icons**                                                             |
+|                               Figure: **Menu icons**                               |
 
 
 
@@ -220,7 +192,7 @@ The configuration tool is composed of four sections. Details of each section are
 |                                                                                          |
 | :--------------------------------------------------------------------------------------: |
 | ![](/img/products/s2e_module/wiz5xxsr-rp/configuration_tool_manual/network_adapters.png) |
-| Figure: **Network adapters**                                                             |
+|                               Figure: **Network adapters**                               |
 
   - If using multiple types of network adapters, a list of adapters and the bands in use are displayed and can be selected according to your environment.
     - Example 1) If your laptop is using both Ethernet and Wi-Fi
@@ -233,7 +205,7 @@ The configuration tool is composed of four sections. Details of each section are
 |                                                                                     |
 | :---------------------------------------------------------------------------------: |
 | ![](/img/products/s2e_module/wiz5xxsr-rp/configuration_tool_manual/device_list.png) |
-| Figure: ***Device list**                                                            |
+|                              Figure: ***Device list**                               |
 
   - List of devices searched will appears.
     - **Searched results** shows the number of devices searched.
@@ -273,7 +245,7 @@ The configuration tool is composed of four sections. Details of each section are
 |                                                                                            |
 | :----------------------------------------------------------------------------------------: |
 | ![](/img/products/s2e_module/wiz5xxsr-rp/configuration_tool_manual/basic_settings_tab.png) |
-| Figure: **Basic settings tab**                                                             |
+|                               Figure: **Basic settings tab**                               |
 
 
 
@@ -308,7 +280,7 @@ The configuration tool is composed of four sections. Details of each section are
 |                                                                                     |
 | :---------------------------------------------------------------------------------: |
 | ![](/img/products/s2e_module/wiz5xxsr-rp/configuration_tool_manual/options_tab.png) |
-| Figure: **Options tab**                                                             |
+|                               Figure: **Options tab**                               |
 
 
 
@@ -376,7 +348,7 @@ The configuration tool is composed of four sections. Details of each section are
 |                                                                                          |
 | :--------------------------------------------------------------------------------------: |
 | ![](/img/products/s2e_module/wiz5xxsr-rp/configuration_tool_manual/mqtt_options_tab.png) |
-| Figure: **MQTT options tab**                                                             |
+|                               Figure: **MQTT options tab**                               |
 
 
 
@@ -416,7 +388,7 @@ The configuration tool is composed of four sections. Details of each section are
 |                                                                                                 |
 | :---------------------------------------------------------------------------------------------: |
 | ![](/img/products/s2e_module/wiz5xxsr-rp/configuration_tool_manual/certificate_manager_tab.png) |
-| Figure: **Certificate manager tab**                                                             |
+|                               Figure: **Certificate manager tab**                               |
 
 
 
@@ -448,7 +420,7 @@ The configuration tool is composed of four sections. Details of each section are
 |                                                                                     |
 | :---------------------------------------------------------------------------------: |
 | ![](/img/products/s2e_module/wiz5xxsr-rp/configuration_tool_manual/channel_tab.png) |
-| Figure: **Channel tab**                                                             |
+|                               Figure: **Channel tab**                               |
 
   - The serial command after switching modes must end with CR and LF.
 
@@ -456,10 +428,10 @@ The configuration tool is composed of four sections. Details of each section are
 
 #### 1\) Status & Serial Interface
 
-| Item                | Description |
-| :-----------------: | ----------- |
-| Status[1] | Shows the operational status of the device<br />- <strong>BOOT</strong>: Settings and firmware upload is possible during this status<br />- <strong>OPEN</strong>: Status before TCP connection<br />- <strong>CONNECT</strong>: Status after TCP connection<br />- <strong>UPGRADE</strong>: Firmware update or DHCP IP allocation during this status<br />- <strong>ATMODE</strong>: Serial AT command mode.<br />- <strong>UDP</strong>: UDP mode<br /> |
-| Serial interface[2] | Shows the types of UART interfaces.<br />- <strong>RS-232/TTL</strong>: WIZ5xxSR-RP hardware TTL or RS-232 version.<br />- <strong>RS-422/485</strong>: WIZ5xxSR-RP hardware RS-422/485 version. |
+|        Item         | Description                                                                                                                                                                                                                                                                                                                                                                                                                                                |
+| :-----------------: | ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+|      Status[1]      | Shows the operational status of the device<br />- <strong>BOOT</strong>: Settings and firmware upload is possible during this status<br />- <strong>OPEN</strong>: Status before TCP connection<br />- <strong>CONNECT</strong>: Status after TCP connection<br />- <strong>UPGRADE</strong>: Firmware update or DHCP IP allocation during this status<br />- <strong>ATMODE</strong>: Serial AT command mode.<br />- <strong>UDP</strong>: UDP mode<br /> |
+| Serial interface[2] | Shows the types of UART interfaces.<br />- <strong>RS-232/TTL</strong>: WIZ5xxSR-RP hardware TTL or RS-232 version.<br />- <strong>RS-422/485</strong>: WIZ5xxSR-RP hardware RS-422/485 version.                                                                                                                                                                                                                                                           |
 
   - Difference between WIZ107/108SR is the addition of BOOT and UDP mode.
   - Difference between WIZ107/108SR is the number of UART interfaces.
