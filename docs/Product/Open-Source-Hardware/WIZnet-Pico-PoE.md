@@ -181,7 +181,7 @@ WIZnet IO Module pinout is directly connected to the GPIO of Pico Board as shown
 
 ### Dimension (Unit : mm)
 
-<a target="_blank" href={require('/img/osh/WIZnet_Pico_PoE/Dimention.png').default}><img src={require('/img/osh/WIZnet_Pico_PoE/Dimention.png').default} alt="Dimention"/></a>
+<a target="_blank" href={require('/img/osh/WIZnet_Pico_PoE/Dimension.png').default}><img src={require('/img/osh/WIZnet_Pico_PoE/Dimension.png').default} alt="Dimension"/></a>
 
 
 
