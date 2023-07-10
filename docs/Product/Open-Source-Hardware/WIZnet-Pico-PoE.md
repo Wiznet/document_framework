@@ -21,7 +21,7 @@ It combines with the W5500, W5100S, and W6100 Io Module to provide Ethernet as w
 - Ethernet W5100S, W5500, W6100 IO Module Mountable
 
 
-<a target="_blank" href={require('/img/osh/WIZnet_Pico_PoE/WIZnet_Pico_PoE-3.png').default}><img src={require('/img/osh/WIZnet_Pico_PoE/WIZnet_Pico_PoE-3.png').default} alt="WIZnet Pico PoE"/></a>
+<a target="_blank" href={require('/img/osh/WIZnet_Pico_PoE/WIZnet_Pico_PoE_FIN_CR_C.png').default}><img src={require('/img/osh/WIZnet_Pico_PoE/WIZnet_Pico_PoE_FIN_CR_C.png').default} alt="WIZnet Pico PoE"/></a>
 
 ## Features
 
