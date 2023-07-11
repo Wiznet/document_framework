@@ -101,7 +101,7 @@ performance.
         100Ω.
   - Connect TX+/- and RX+/- signals as short as possible.
   - Recommended signal length is less than 25mm (1000 mil).
-      - Less than 75mm (3000mil).
+      - In worst case, MDI maximum routing length is 75mm (3000mil).
   - Connect TX+/TX- and RX+/RX- with the same length as possible.
       - \+/- Differential signal should be same length.
       - Timing problems may occur depending on the Trace length.
