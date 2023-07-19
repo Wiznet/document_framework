@@ -67,6 +67,7 @@ performance.
   - The analog GND pin and digital GND pin should be maintained in a
     good path.
       - We recommend you not to separate analog and digital GND.
+      - In some cases, such as the W5100 and W5300 reference circuits, DGND and AGND can be separated by beads, but if there is enough GND space, it is better to integrate them into DGND than to separate them by beads.
   - Place a 0.1uF Bypass Capacitor near the input pin to reduce noise
     from power supply.
       - Place as close as possible to the input pin through the Bypass
