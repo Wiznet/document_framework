@@ -107,7 +107,7 @@ Default Remote host settings of WIZ750SR
 
 4.  In UDP 1:1 mode, data sent from an unspecified remote host are all discarded
     
-    ## Network Operation Mode
+## Network Operation Mode
 
 WIZ750SR supports four kinds of operation modes based on the network; **TCP server mode, TCP client mode, TCP server/client mixed mode, and UDP mode**. Users can select the network operation mode according to the feature and purpose of the serial device. Each operation modes are explained in detail below.
 
@@ -285,6 +285,7 @@ Flow control disabled</td>
   - The existing TCP connection will be lost if the mode changes to serial command mode.
   - Each byte value reads hex code only.
 
+:::info
 **Please take caution of the following when using Trigger code.**
 
 1.  It can only be recognized as switch code if there is a time gap of at least 500ms of no data communication time before and after the 3-byte command mode switch.
@@ -292,7 +293,8 @@ Flow control disabled</td>
 3.  Do not end the command mode switch code with CR or LF.
 4.  The default interval of the time gap before and after the command mode switch code is 500ms. The operation is based on the timer value of the serial data packaging option.
 
-1.  The serial command after switching modes must end with CR and LF.
+5.  The serial command after switching modes must end with CR and LF.
+:::
 
 ### Serial Data Packing
 

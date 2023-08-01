@@ -321,6 +321,7 @@ The configuration tool is composed of four sections. Details of each section are
         - Default: \[2B\]\[2B\]\[2B\] (+++)
     - Each byte value reads hex code only.
 
+:::info
 **Please take caution of the following when using Trigger code.**
 
 1. It can only be recognized as switch code if there is a time gap of at least 500ms of no data communication time before and after the 3-byte command mode switch.
@@ -330,7 +331,7 @@ The configuration tool is composed of four sections. Details of each section are
 3. Do not end the command mode switch code with CR((CR: Carriage return, ('\\r', 0x0D) )) or LF((LF: Line feed, ('\\n', 0x0A) )).
 
 4. The default interval of the time gap before and after the command mode switch code is 500ms. The operation is based on the timer value of the serial data packaging option.
-
+:::
 
 
 #### 5\) Connection password (TCP server mode only)

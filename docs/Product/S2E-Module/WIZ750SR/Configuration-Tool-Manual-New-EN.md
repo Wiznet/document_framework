@@ -330,6 +330,7 @@ DURING FIRMWARE UPLOADING**
 
 
 
+:::info
 **Please take caution of the following when using Trigger code.**
 
 1.  It can only be recognized as switch code if there is a time gap of
@@ -343,7 +344,7 @@ DURING FIRMWARE UPLOADING**
     mode switch code is 500ms. The operation is based on the timer value
     of the serial data packaging option.
 
-
+:::
 
 #### 5\) Connection password (TCP server mode only)
 

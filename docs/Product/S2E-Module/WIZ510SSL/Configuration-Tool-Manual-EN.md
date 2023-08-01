@@ -316,6 +316,7 @@ section are available below.
 
 
 
+:::info
 **Please take caution of the following when using Trigger code.**
 
 1.  It can only be recognized as switch code if there is a time gap of
@@ -328,7 +329,7 @@ section are available below.
 4.  The default interval of the time gap before and after the command
     mode switch code is 500ms. The operation is based on the timer value
     of the serial data packaging option.
-
+:::
 
 
 #### 5\) Connection password (TCP server mode only)
