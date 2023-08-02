@@ -506,7 +506,7 @@ multi-selected but has priority as shown below.
 1.  Serial data can be collected according to the setting (character,
     size, or time) and be sent together.
     
-    #### 6\) Timer interval
+#### 6\) Timer interval
 
   - **Inactivity Timer**
       - **Range: 0 \~ 65535 / Unit: seconds**

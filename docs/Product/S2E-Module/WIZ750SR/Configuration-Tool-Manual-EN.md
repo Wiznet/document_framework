@@ -70,7 +70,7 @@ section are available below.
 2.  If user has used either WIZ107/108SR, the same program can be used
     for WIZ750SR.
     
-    #### 1\) Device Search
+#### 1\) Device Search
 
   - Searches for WIZ750SR on the same network.
   - Search can be done via [UDP
@@ -237,7 +237,7 @@ The serial debug message is printed via separate Debug UART and not Data UART, a
 3.  Difference between WIZ107/108SR is the addition of BOOT and UDP
     mode.
     
-    ### 3\. Network Configuration Tab
+### 3\. Network Configuration Tab
 
 |                                                                   |
 | ----------------------------------------------------------------- |

@@ -50,7 +50,7 @@ WIZwiki 보드를 USB 케이블로 연결한다.
       - EX) Hercules 등
       - TCP/IP Client Server terminal 을 이용해 메시지 송수신에 사용
       
-      ### Example Code
+### Example Code
 
 아래 페이지의 예제 코드를 사용한다.
 

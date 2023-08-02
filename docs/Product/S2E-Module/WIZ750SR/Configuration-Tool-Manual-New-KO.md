@@ -240,7 +240,7 @@ Configuration tool 상단에 위치하며, 제품의 검색 / 펌웨어 업로�
 
 3.  개발 버전의 경우, dev가 추가됩니다. 안정화 완료 버전(stable version) 펌웨어의 경우 별도의 표기 없이 버전만 표시되며, 제품의 동작 안정성을 위해 안정화 버전의 사용을 권장합니다. 예) 개발 버전: v1.0.0dev, 안정화 버전: v1.0.0
     
-    #### 2) Search identification code
+#### 2) Search identification code
 
   - **범위 및 구분: 최대 8-byte의 문자열**
       - Default: Null (사용하지 않음)
@@ -455,7 +455,7 @@ Configuration tool 상단에 위치하며, 제품의 검색 / 펌웨어 업로�
 
 1.  시리얼 데이터의 수신 시 **'지정 시간', '지정 크기', '특정 문자'**를 기준으로 데이터를 모아 전송 할 수 있습니다.
     
-    #### 6\) Timer interval
+#### 6\) Timer interval
 
   - **Inactivity timer**
       - **범위: 0 \~ 65535, 단위: 초(second)**

@@ -70,7 +70,7 @@ Configuration tool 상단에 위치하며, 제품의 검색 / 펌웨어 업로�
 2.  기존 제품 사용자의 경우, 하나의 설정 프로그램으로 WIZ750SR 제품과 WIZ107/108SR 제품을 함께 제어 할 수
     있습니다.
     
-    #### 1\) Device Search
+#### 1\) Device Search
 
   - 동일 네트워크 상에 연결된 WIZ750SR 장치를 검색합니다.
   -  [UDP Broadcast](https://en.wikipedia.org/wiki/Broadcasting_\(networking\))\[1\]

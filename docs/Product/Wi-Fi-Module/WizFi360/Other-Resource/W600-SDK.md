@@ -54,7 +54,7 @@ Protocol and other public function modules.
         : Describes SECBOOT functions and usages for designer and developer.
       - <a href="/img/products/wizfi360/board/wizfi360sdk/wm_w60x_swd_debugging_guide_v1.4.pdf" target="_blank">SWD Debugging Guide V1.4</a>
         : Describes chip on-line debug configuration under KEIL IDE.
-        ## Chip vendor original page
+## Chip vendor original page
 
 ![](/img/products/w5500/w5500_evb/icons/link.png)
 🌎[W600](http://www.winnermicro.com/en/html/1/156/158/497.html) :

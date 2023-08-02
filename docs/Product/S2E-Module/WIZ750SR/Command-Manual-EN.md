@@ -1682,7 +1682,7 @@ Return value</th>
 1.  The received serial data is collected until the designated character
     is received and will be sent all together via Ethernet.
     
-    ### Options
+### Options
 
 -----
 
