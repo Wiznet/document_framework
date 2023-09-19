@@ -33,8 +33,8 @@ code.
 
 ## MS-Azure cloud example
 
-* <a href="/img/products/wizfi360/wizfi360ds/wizfi360_an_azure_v100_e.pdf" target="_blank">Azure V1.0.1 - English</a>
-* <a href="/img/products/wizfi360/wizfi360ds/wizfi360_an_azure_v100_k.pdf" target="_blank">Azure V1.0.1 - Korean</a>
+* <a href="/img/products/wizfi360/wizfi360app/wizfi360_an_azure_v101_e.pdf" target="_blank">Azure V1.0.1 - English</a>
+* <a href="/img/products/wizfi360/wizfi360app/wizfi360_an_azure_v101_k.pdf" target="_blank">Azure V1.0.1 - Korean</a>
 
 ## Airkiss
 
@@ -42,7 +42,7 @@ AP configration setting and TCP communication using Smartphone App.
 
 * <a href="/img/products/wizfi360/wizfi360ds/wizfi360_airkiss.pdf" target="_blank">AirKiss guide KR V1.0.0</a>
 * <a href="/img/products/wizfi360/wizfi360ds/wizfi360_airkiss_en.pdf" target="_blank">AirKiss guide EN V1.0.0</a>
-* AirKiss setup example code - 🌎[[https://github.com/WIZnet-WizFi360/WizFi360_AirKiss_Test.git]]
+* AirKiss setup example code - 🌎[Github: WizFi360_AirKiss_Test](https://github.com/WIZnet-WizFi360/WizFi360_AirKiss_Test)
 
 ## SPI mode
 
