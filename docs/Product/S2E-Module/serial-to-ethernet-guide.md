@@ -112,9 +112,10 @@ Please refer to below compatibility table and use appropriate version.
 - <a href="https://www.wiznet.io/wp-content/uploads/wiznethome/S2E%20Module/WIZ100-105-110SR/Document/WIZ1x0SR_AN_S2E-Programming-Guide_V030E.pdf" target="_blank">WIZ100SR/ WIZ105SR/ WIZ110SR Programmer’s Guide</a>
 
 ![](/img/products/configtool/wiz1xx_configtool.png)  
-**WIZ120/125SR Configuration Tool v1.1.0**
 
-<a href="https://www.wiznet.io/wp-content/uploads/wiznethome/S2E%20Module/WIZ120_125SR/Utility/WIZ12xSR_Config_V110.zip" target="_blank">💾 Download WIZ120/125SR Configuration Tool</a>  
+**WIZ100SR/ WIZ105SR/ WIZ110SR Configuration Tool v3.0.2**
+
+<a href="/img/products/wiz110sr/WIZ1xxSR_Config.zip" target="_blank">Download WIZ100SR/ WIZ105SR/ WIZ110SR Configuration Tool</a>  
 
 -----
 
