@@ -28,7 +28,7 @@
     },
     announcementBar: {
       id: 'announcementBar-2', // Increment on change
-      content: '⭐️ Meet our new products: <a target="" rel="noopener noreferrer" href="/Product/Open-Source-Hardware/wizfi360-evb-pico">WizFi360-EVB-Pico</a> and <a target="" rel="noopener noreferrer" href="/Product/iEthernet/W5500/w5500-evb-pico">W5500-EVB-Pico</a> ⭐️',
+      content: '⭐️ Meet our new products: <a target="" rel="noopener noreferrer" href="/Product/Open-Source-Hardware/wiznet-pico-poe">WIZnet Pico PoE</a> and <a target="" rel="noopener noreferrer" href="/Product/iEthernet/W5500/w5500-evb-pico">W5500-EVB-Pico</a> ⭐️',
       backgroundColor: '#C51A4A',
       textColor: '#fafbfc',
       isCloseable: false,
