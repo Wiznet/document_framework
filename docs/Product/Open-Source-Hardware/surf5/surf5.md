@@ -10,7 +10,9 @@ description: Surf5 is evaluation board for W7500P
 
 Surf5 is a microcontroller evaluation board based on the W7500P.
 
-<a target="_blank" href={require('/img/osh/surf5/surf5_R100_img.png').default}>
+</summary>
+<a target="_blank" href={require('/img/osh/surf5/surf5_R100_img.png').default}><img src={require('/img/osh/surf5/surf5_R100_img.png').default} alt="Surf5_img"/></a>
+</details>
 
 
 ## Revision history
@@ -68,7 +70,9 @@ Surf5 is a microcontroller evaluation board based on the W7500P.
 ### Pin-out v1.0
 
 
-<a target="_blank" href={require('/img/osh/surf5/Surf5_1.0_Pinmap.png').default}><img src={require('/img/osh/surf5/Surf5_1.0_Pinmap.png').default} alt="Surf5_PINOUT"/></a>
+</summary>
+<a target="_blank" href={require('/img/osh/surf5/Surf5_1.0_Pinout.png').default}><img src={require('/img/osh/surf5/Surf5_1.0_Pinout.png').default} alt="Surf5_PINOUT"/></a>
+</details>
 
 
 The pins below are fixed functions in surf5
@@ -123,11 +127,8 @@ TBA
 
 ### Schematic v1.0
 
-<a target="_blank" href={require('/img/osh/surf5/Surf5_1.0_Schematic.png').default}><img src={require('/img/osh/surf5/Surf5_1.0_Schematic.png').default} alt="Surf5_schematic"/></a>
-
-
 </summary>
-<a target="_blank" href={require('/img/osh/surf5/Surf5_1.0_Schematic.png').default}><img src={require('/img/osh/surf5/Surf5_1.0_Schematic.png').default} alt="Surf5_schematic"/></a>
+<a target="_blank" href={require('/img/osh/surf5/Surf5_1.0_Schematic.png').default}><img src={require('/img/osh/surf5/Surf5_1.0_Schematic.png').default} alt="Surf5_Schematic"/></a>
 </details>
 
 ### Schematic & Part list & Gerber File

@@ -1,6 +1,6 @@
 ---
-id: w7500(p)_based
-title: W7500(P) Based
+id: w7500-based
+title: W7500 Based
 date: 2023-10-13
 ---
 
@@ -12,7 +12,7 @@ Click on the product name for a detailed description of each product.
 
 ### Board
 
-* [Surf5](./Surf5.md)
+* [Surf5](./surf5.md)
 
 
 ### HAT
