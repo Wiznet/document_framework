@@ -10,7 +10,7 @@ description: Surf5 is evaluation board for W7500P
 
 Surf5 is a microcontroller evaluation board based on the W7500P.
 
-<a target="_blank" href={require('/img/osh/surf5/surf5_R100_img.png').default}>
+<a target="_blank" href={require('/img/osh/surf5/surf5_R100_img.png').default}><img src={require('/img/osh/surf5/surf5_R100_img.png').default} alt="Surf5"/></a>
 
 
 ## Revision history
@@ -135,7 +135,7 @@ TBA
 
 ### Firmware Example
 
-Comming soon
+Coming soon
 
 <!--
 
@@ -151,7 +151,7 @@ Please refer to below links to find firmware example.
 
 ## How to buy
 
-Comming soon
+Coming soon
 
 <!--
 [![WIZnetUS Online Shop, USA](/img/products/w5100s-evb-pico/icons/dollar.png)](https://eshop.wiznet.io/shop/module/w5100s-evb-pico/)

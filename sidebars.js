@@ -901,7 +901,10 @@ module.exports = {
 			label: 'Open Source Hardware',
 			link: {type: 'doc', id: 'Product/Open-Source-Hardware/open_source_hardware'},
 			items: [
-			//'Product/Open-Source-Hardware/open_source_hardware',
+			{
+				Surf: [	'Product/Open-Source-Hardware/surf5/surf5',	'Product/Open-Source-Hardware/surf5/Errata',	'Product/Open-Source-Hardware/surf5/w7500-based',],
+			},
+			
 			{
 				type: 'category',
 				label: 'RP2040 Based',

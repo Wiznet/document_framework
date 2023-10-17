@@ -6,5 +6,5 @@ keywords: [iMCU, ethernet, w7500P]
 description: Errata sheet of surf5
 ---
 
-## Comming soon
+## Coming soon
 
