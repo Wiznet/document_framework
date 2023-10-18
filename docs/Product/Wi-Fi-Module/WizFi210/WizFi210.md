@@ -5,10 +5,9 @@ date: 2021-07-16
 ---
 
 :::caution
+**This product is discontinued.**
 
-This product is discontinued.  
-Please refer to the New compatible product [WizFi360](./../WizFi360/WizFi360.md).
-
+**Technical support for this product has officially ended.**
 :::
 
 ## Overview

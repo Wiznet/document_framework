@@ -4,6 +4,12 @@ title: WIZ140SR-EVB
 date: 2021-07-22
 ---
 
+:::caution
+**WIZ140SR is not discontinued, but we do not recommend it for new designs.**
+
+**Technical support for this product has officially ended.**
+:::
+
 ## Overview
 
 ![](/img/products/wiz140sr/ShopDtl_1104_20150108165522.jpg)

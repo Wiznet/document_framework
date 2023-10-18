@@ -4,8 +4,10 @@ title: WIZ125SR
 date: 2021-07-22
 ---
 
-:::tip
-WIZ125SR is not discontinued, but we do not recommend it for new designs.
+:::caution
+**WIZ125SR is not discontinued, but we do not recommend it for new designs.**
+
+**Technical support for this product has officially ended.**
 
 Please check **[WIZ752SR-125](./../WIZ752SR-12x-Series/WIZ752SR-125/WIZ752SR-125.md)** instead.
 :::

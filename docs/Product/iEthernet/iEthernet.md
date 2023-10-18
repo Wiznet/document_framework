@@ -22,7 +22,7 @@ iEthernet is the Ethernet controller chip that includes hardwired TCP/IP Core & 
 If there are any questions, please use our [`Forum`](https://forum.wiznet.io) or [`contact us`](https://www.wiznet.io/inqueries/).
 :::
 
-|                     | [W6100](W6100/W6100.md) | [W5100S](W5100S/Overview.md) | [W5500](W5500/Overview.md) | [W5300](W5300/W5300.md) | [W5100](W5100/W5100.md) | [W3150A+](W3150/W3150.md) | [W5200](W5200/w5200.md) |
+|                     | [W6100](W6100/W6100.md) | [W5100S](W5100S/Overview.md) | [W5500](W5500/Overview.md) | [W5300](W5300/W5300.md) | [W5100](W5100/W5100.md) | [W3150A+](W3150/W3150.md)<br />not recommended for new design | [W5200](W5200/w5200.md)<br />not recommended for new design |
 | ------------------- | ----------------------- | --- | --- | --- | --- | --- | --- |
 | Image               | ![W6100](/img/products/w6100/w6100_4.jpg) | ![W5100S](/img/products/w5100s/w5100s_pm.png) | ![W5500](/img/products/w5500/img_w5500h.jpg) | ![W5300](/img/products/w5300/w5300_280.jpg) | ![W5100](/img/products/w5100/W5100-7.jpg) | ![W3150A](/img/products/w3150/photo_w3150A-1.jpg) |  |
 | Embedded Core       | TCP/IPv4/IPv6, MAC & PHY | TCP/IP, MAC & PHY | TCP/IP, MAC & PHY | TCP/IP, MAC & PHY | TCP/IP, MAC & PHY | TCP/IP & MAC | TCP/IP, MAC & PHY |

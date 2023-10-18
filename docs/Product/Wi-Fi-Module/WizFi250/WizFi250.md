@@ -4,6 +4,10 @@ title: WizFi250
 date: 2020-05-06
 ---
 
+:::caution
+**Technical support for this product has officially ended.**
+:::
+
 ## Overview
 
 WizFi250 offers a quick, easy, and cost-effective way for device and

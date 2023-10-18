@@ -51,9 +51,9 @@ develop their Internet enabling system rapidly.
 | Operation Temp (℃) | -40..85 | -40..85 | -40..85 | -40..85 | -40..85 | -40..85 | -40..85 |
 | MAC Address | No |No |No |No |No | Yes | No |
 
-|    | [WIZ810MJ](./WIZ810MJ.md) | [WIZ811MJ](./WIZ811MJ.md) | [WIZ812MJ](./WIZ812MJ.md) | [NM7010B+](./NM7010B%2B.md) | [WIZ820io](./WIZ820io.md) |
+|    | [WIZ810MJ](./WIZ810MJ.md) | [WIZ811MJ](./WIZ811MJ.md) | [WIZ812MJ](./WIZ812MJ.md) | [NM7010B+](./NM7010B%2B.md)<br />Not recommended<br /> for new design | [WIZ820io](./WIZ820io.md)<br />Not recommended<br /> for new design |
 | -- | ------------------------- | ------------------------- | ------------------------- | --------------------------- | ------------------------- |
-| Image | ![WIZ810MJ](/img/products/wiz810mj/wiz810mj.png) | ![WIZ811MJ](/img/products/wiz811mj/wiz811mj.png) | ![WIZ812MJ](/img/products/wiz812mj/wiz812mj.png) | ![NM71B+](/img/products/nm7010/nm7010b.png) | ![WIZ820io](/img/products/wiz820io/wiz820io_web_1.jpg)<br />Not recommended for new design |
+| Image | ![WIZ810MJ](/img/products/wiz810mj/wiz810mj.png) | ![WIZ811MJ](/img/products/wiz811mj/wiz811mj.png) | ![WIZ812MJ](/img/products/wiz812mj/wiz812mj.png) | ![NM71B+](/img/products/nm7010/nm7010b.png) | ![WIZ820io](/img/products/wiz820io/wiz820io_web_1.jpg) |
 | Embedded block | W5100, MAG Jack | W5100, MAG Jack | 	W5100, MAG Jack | W3150A+, PHY, MAG Jack | W5200, MAG Jack |
 | Host Interface | 8bit Bus, SPI | 8bit Bus, SPI | 8bit Bus, SPI | 8bit Bus, SPI | SPI |
 | HW Socket | 4 | 4 | 4 | 4 | 8 |

@@ -4,6 +4,14 @@ title: WIZ100SR-EVB
 date: 2021-07-21
 ---
 
+:::caution
+**WIZ100SR is not discontinued, but we do not recommend it for new designs.**
+
+**Technical support for this product has officially ended.**
+
+Please check **[WIZ750SR-100](./../WIZ750SR-1xx-Series/WIZ750SR-100/WIZ750SR-100.md)** instead.
+:::
+
 ## Overview
 
 ![](/img/products/wiz100sr/ShopDtl_1075_201501081554051.jpg)

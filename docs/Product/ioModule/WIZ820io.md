@@ -5,8 +5,9 @@ date: 2020-04-16
 ---
 
 :::caution
-
 **WIZ820io is not recommended for new design. W5200 chip is not supported by ioLibrary.**
+
+**Technical support for this product has officially ended.**
 
 If there are any questions, please use our [`Forum`](https://forum.wiznet.io) or [`contact us`](https://www.wiznet.io/inqueries/).
 :::

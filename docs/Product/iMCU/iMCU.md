@@ -26,7 +26,7 @@ integrates MCU and Hardwired TCP/IP cores.
     compatible core, 64KB Flash, Hardwired TCP/IP, MAC w/ **PHY**
 -->
 
-|   | [W7500P](W7500P/Overview.md) | [W7500](W7500/Overview.md) | [W7100A](W7100/W7100A.md) |
+|   | [W7500P](W7500P/Overview.md) | [W7500](W7500/Overview.md) | [W7100A](W7100/W7100A.md)<br />not recommended for new design |
 | ----- | ---- | ----- | ----- |
 | Image | ![W7500P](/img/products/w7500p/20150908_171109.png) | ![W7500](/img/products/w7500/w7500_chip.png) | ![W7100A](/img/products/w7100a/W7100A.png) |
 | Embedded Core | Cortex-M0, TCP/IP, MAC & PHY | Cortex-M0, TCP/IP & MAC | 8051, TCP/IP, MAC & PHY |

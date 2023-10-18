@@ -4,6 +4,12 @@ title: WIZ140SR
 date: 2021-07-22
 ---
 
+:::caution
+**WIZ140SR is not discontinued, but we do not recommend it for new designs.**
+
+**Technical support for this product has officially ended.**
+:::
+
 ## Overview
 
 ![](/img/products/wiz140sr/wiz140sr-web-2.jpg)

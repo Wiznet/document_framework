@@ -37,13 +37,13 @@ interfaces.
 | [WIZ100SR](WIZ100SR/wiz100sr.md)<br />not recommended for new design | ![WIZ100SR](/img/products/wiz100sr/wiz100sr_web_280.jpg) | 1xTTL(3.3V) | Transformer | Two 1x12 2mm | 0 ~ 80 | 50x30x12 | [WIZ100SR-EVB](WIZ100SR/wiz100sr-evb.md) |
 | [WIZ105SR](WIZ105SR/wiz105sr.md)<br />not recommended for new design | ![WIZ105SR](/img/products/wiz105sr/wiz105sr-web-1.jpg) | 1xTTL(3.3V) | 	RJ-45 | 2x6 2mm | 0 ~ 80 | 40x62x17 | [WIZ105SR-EVB](WIZ105SR/wiz105sr-evb.md) |
 | [WIZ110SR](WIZ110SR/wiz110sr.md)<br />not recommended for new design | ![WIZ110SR](/img/products/wiz110sr/wiz110sr-web-1.jpg) | 1xRS232 (DB-9) | RJ-45 | N/A | 0 ~ 80 | 75x50x17 | N/A |
-| [WIZ107SR](WIZ107SR/wiz107sr.md) | ![WIZ107SR](/img/products/wiz107sr/WIZ108SR-1-e1429085175138.jpg) | 1xTTL(3.3V) or 1xRS232 (Optional) | RJ-45 | 2x6 2.5mm | -40 ~ 85 | 48x30x18 | [WIZ107SR-EVB](WIZ107SR/wiz107sr-evb.md) |
-| [WIZ108SR](WIZ108SR/wiz108sr.md) | ![WIZ108SR](/img/products/wiz108sr/WIZ108SR-1-e1429085175138.jpg) | 1x RS422/485 | RJ-45 | 2x6 2.5mm | -40 ~ 85 | 48x30x18 | [WIZ108SR-EVB](WIZ108SR/wiz108sr-evb.md) |
+| [WIZ107SR](WIZ107SR/wiz107sr.md)<br />not recommended for new design | ![WIZ107SR](/img/products/wiz107sr/WIZ108SR-1-e1429085175138.jpg) | 1xTTL(3.3V) or 1xRS232 (Optional) | RJ-45 | 2x6 2.5mm | -40 ~ 85 | 48x30x18 | [WIZ107SR-EVB](WIZ107SR/wiz107sr-evb.md) |
+| [WIZ108SR](WIZ108SR/wiz108sr.md)<br />not recommended for new design | ![WIZ108SR](/img/products/wiz108sr/WIZ108SR-1-e1429085175138.jpg) | 1x RS422/485 | RJ-45 | 2x6 2.5mm | -40 ~ 85 | 48x30x18 | [WIZ108SR-EVB](WIZ108SR/wiz108sr-evb.md) |
 | [WIZ120SR](WIZ120SR/wiz120sr.md)<br />not recommended for new design | ![WIZ120SR](/img/products/wiz120sr/wiz12sr-1.jpg) | 2xTTL(3.3V) | Transformer | Two 1x14 2mm | 0 ~ 70 | 50x30x9 | [WI120SR-EVB](WIZ120SR/wiz120sr-evb.md) |
 | [WIZ125SR](WIZ125SR/wiz125sr.md)<br />not recommended for new design | ![WIZ125SR](/img/products/wiz125sr/125.jpg) | 2xRS32 DB-9 | RJ-45 | N/A | 0 ~ 70 | 60x89x18 | N/A |
-| [WIZ140SR](WIZ140SR/wiz140sr.md) | ![WIZ140SR](/img/products/wiz140sr/wiz140sr-web-2.jpg) | 4xTTL(3.3V) | Transformer | 1x14 2.5mm | 0 ~ 70 | 48x36x16 | [	WIZ140SR-EVB](WIZ140SR/wiz140sr-evb.md) |
-| [WIZ145SR](WIZ145SR/wiz145sr.md) | ![WIZ145SR](/img/products/wiz145sr/wiz145sr-2-300.jpg) | 4xTTL(3.3V) | RJ-45 | 1x14, 2x14 | 0 ~ 70 | 48x61x25 | [WIZ145SR-EVB](WIZ145SR/wiz145sr-evb.md) |
-| [W7100A-S2E](./../Pre-programmed-MCU/W7500P-S2E/W7500-P-S2E-EN.md) | | Serial to Ethernet Chip (WIZ107SR or WIZ108SR firmware programmed) ||||||
+| [WIZ140SR](WIZ140SR/wiz140sr.md)<br />not recommended for new design | ![WIZ140SR](/img/products/wiz140sr/wiz140sr-web-2.jpg) | 4xTTL(3.3V) | Transformer | 1x14 2.5mm | 0 ~ 70 | 48x36x16 | [	WIZ140SR-EVB](WIZ140SR/wiz140sr-evb.md) |
+| [WIZ145SR](WIZ145SR/wiz145sr.md)<br />not recommended for new design | ![WIZ145SR](/img/products/wiz145sr/wiz145sr-2-300.jpg) | 4xTTL(3.3V) | RJ-45 | 1x14, 2x14 | 0 ~ 70 | 48x61x25 | [WIZ145SR-EVB](WIZ145SR/wiz145sr-evb.md) |
+| [W7100A-S2E](./../Pre-programmed-MCU/W7500P-S2E/W7500-P-S2E-EN.md)<br />not recommended for new design | | Serial to Ethernet Chip (WIZ107SR or WIZ108SR firmware programmed) ||||||
 
 -----
 

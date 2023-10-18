@@ -4,8 +4,10 @@ title: WIZ110SR
 date: 2021-07-21
 ---
 
-:::tip
-WIZ110SR is not discontinued, but we do not recommend it for new designs.
+:::caution
+**WIZ110SR is not discontinued, but we do not recommend it for new designs.**
+
+**Technical support for this product has officially ended.**
 
 Please check **[WIZ750SR-110](./../WIZ750SR-1xx-Series/WIZ750SR-110/WIZ750SR-110.md)** instead.
 :::

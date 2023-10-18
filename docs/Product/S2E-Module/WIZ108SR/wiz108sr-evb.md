@@ -4,6 +4,12 @@ title: WIZ108SR-EVB
 date: 2021-07-21
 ---
 
+:::caution
+**WIZ108SR is not discontinued, but we do not recommend it for new designs.**
+
+**Technical support for this product has officially ended.**
+:::
+
 ## Overview
 
 ![](/img/products/wiz108sr/ShopDtl_1088_20100915160045.jpg)
