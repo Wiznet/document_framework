@@ -36,6 +36,11 @@ The entire list of parts of the board is available at the [WIZ750SR Overview: Pr
   you can download driver <a href="https://github.com/Wiznet/Hardware-Files-of-WIZnet/raw/master/01_iMCU/W7500P/Surf5/Doc/CH340N/Driver.ZIP">here</a> or CH340 manufacturer's web
   CH340N's manufacture [link](https://wch-ic.com/downloads/CH341SER_ZIP.html)
 
+<a target="_blank" href={require('/img/osh/surf5/Setup_img.png').default}><img src={require('/img/osh/surf5/Setup_img.png').default} alt="Surf5"/></a>
+  After unzipping the downloaded ZIP file, you'll find a SETUP.EXE executable in the folder, which you'll need to run.
+<a target="_blank" href={require('/img/osh/surf5/install_img.png').default}><img src={require('/img/osh/surf5/install_img.png').default} alt="Surf5"/></a>
+  When you run SETUP.EXE, the DriverSetup window appears, and you can select INSTALL to install the driver.
+
   ### Example Source Using Keil
 
   comming soon
