@@ -118,7 +118,7 @@ TBA
 
 ### W7500P 
 
-- [datasheet](../../iMCU/W7500P/Documents.md)
+- [datasheet](./../../iMCU/W7500P/Documents.md)
 
 
 ### Schematic v1.0
