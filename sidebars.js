@@ -902,7 +902,22 @@ module.exports = {
 			link: {type: 'doc', id: 'Product/Open-Source-Hardware/open_source_hardware'},
 			items: [
 			{
-				Surf: [	'Product/Open-Source-Hardware/surf5/surf5',	'Product/Open-Source-Hardware/surf5/Errata',	'Product/Open-Source-Hardware/surf5/w7500-based',],
+				type: 'category',
+				label: 'W7500 Based',
+				link: {type: 'doc', id: 'Product/Open-Source-Hardware/surf5/w7500-based'},
+				items: [
+					{
+						type: 'category',
+						label: 'Surf5',
+						link: {type: 'doc', id: 'Product/Open-Source-Hardware/surf5/surf5'},
+						items: [
+							'Product/Open-Source-Hardware/surf5/Errata',
+						]
+						
+					}
+
+				]
+				//Surf: [	'Product/Open-Source-Hardware/surf5/surf5',	'Product/Open-Source-Hardware/surf5/Errata',	'Product/Open-Source-Hardware/surf5/w7500-based',],
 			},
 			
 			{
