@@ -911,6 +911,7 @@ module.exports = {
 						label: 'Surf5',
 						link: {type: 'doc', id: 'Product/Open-Source-Hardware/surf5/surf5'},
 						items: [
+							'Product/Open-Source-Hardware/surf5/getting-started',
 							'Product/Open-Source-Hardware/surf5/Errata',
 						]
 						
