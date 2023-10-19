@@ -131,8 +131,8 @@ TBA
 
 ### Firmware Example
 
-* [How to install KEIL uVision5](./../iMCU/W7500/documents/appnote/How_to_install_KEIL.md)
-* [How to create KEIL uVision5 new project for W7500](./../iMCU/W7500/documents/appnote/How_to_make_KEIL_new_project_for_W7500.md)
+* [How to install KEIL uVision5](./../../iMCU/W7500/documents/appnote/How_to_install_KEIL.md)
+* [How to create KEIL uVision5 new project for W7500](./../../iMCU/W7500/documents/appnote/How_to_make_KEIL_new_project_for_W7500.md)
 
 <!--
 
