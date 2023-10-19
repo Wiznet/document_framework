@@ -43,7 +43,8 @@ The entire list of parts of the board is available at the [WIZ750SR Overview: Pr
 
   ### Example Source Using Keil
 
-  comming soon
+* [How to install KEIL uVision5](./../iMCU/W7500/documents/appnote/How_to_install_KEIL.md)
+* [How to create KEIL uVision5 new project for W7500](./../iMCU/W7500/documents/appnote/How_to_make_KEIL_new_project_for_W7500.md)
 
   ### Example Source Using VSCODE  
 
