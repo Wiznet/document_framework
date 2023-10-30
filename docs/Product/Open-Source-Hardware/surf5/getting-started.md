@@ -81,7 +81,7 @@ The entire list of parts of the board is available at the [WIZ750SR Overview: Pr
 
 <a target="_blank" href={require('/img/osh/surf5/vsset4.png').default}><img src={require('/img/osh/surf5/vsset4.png').default} alt="Surf5"/></a>
 
-<a target="_blank" href={require('/img/osh/surf5/empty.png').default}><img src={require('/img/osh/surf5/vsset4.png').default} alt="Surf5"/></a>
+<a target="_blank" href={require('/img/osh/surf5/empty.png').default}><img src={require('/img/osh/surf5/empty.png').default} alt="Surf5"/></a>
 
 
 (2)	Install CMake
@@ -100,7 +100,7 @@ The entire list of parts of the board is available at the [WIZ750SR Overview: Pr
 
 <a target="_blank" href={require('/img/osh/surf5/vsset9.png').default}><img src={require('/img/osh/surf5/vsset9.png').default} alt="Surf5"/></a>
 
-<a target="_blank" href={require('/img/osh/surf5/empty.png').default}><img src={require('/img/osh/surf5/vsset4.png').default} alt="Surf5"/></a>
+<a target="_blank" href={require('/img/osh/surf5/empty.png').default}><img src={require('/img/osh/surf5/empty.png').default} alt="Surf5"/></a>
 
 
 
@@ -119,7 +119,7 @@ The entire list of parts of the board is available at the [WIZ750SR Overview: Pr
 
 <a target="_blank" href={require('/img/osh/surf5/vsset14.png').default}><img src={require('/img/osh/surf5/vsset14.png').default} alt="Surf5"/></a>
 
-<a target="_blank" href={require('/img/osh/surf5/empty.png').default}><img src={require('/img/osh/surf5/vsset4.png').default} alt="Surf5"/></a>
+<a target="_blank" href={require('/img/osh/surf5/empty.png').default}><img src={require('/img/osh/surf5/empty.png').default} alt="Surf5"/></a>
 
 
 
@@ -138,7 +138,7 @@ The entire list of parts of the board is available at the [WIZ750SR Overview: Pr
 
 <a target="_blank" href={require('/img/osh/surf5/vsset19.png').default}><img src={require('/img/osh/surf5/vsset19.png').default} alt="Surf5"/></a>
 
-<a target="_blank" href={require('/img/osh/surf5/empty.png').default}><img src={require('/img/osh/surf5/vsset4.png').default} alt="Surf5"/></a>
+<a target="_blank" href={require('/img/osh/surf5/empty.png').default}><img src={require('/img/osh/surf5/empty.png').default} alt="Surf5"/></a>
 
 
 
@@ -150,7 +150,7 @@ Click “Download Now” Button
 
 <a target="_blank" href={require('/img/osh/surf5/vsset20.png').default}><img src={require('/img/osh/surf5/vsset20.png').default} alt="Surf5"/></a>
 
-<a target="_blank" href={require('/img/osh/surf5/empty.png').default}><img src={require('/img/osh/surf5/vsset4.png').default} alt="Surf5"/></a>
+<a target="_blank" href={require('/img/osh/surf5/empty.png').default}><img src={require('/img/osh/surf5/empty.png').default} alt="Surf5"/></a>
 
 
 
@@ -166,7 +166,7 @@ Extract the xpack-windows-build-tool-4.x.x.x.zip archive. Save the extracted fol
 
 **Recommended storage path for the xpack-windows-build-tools folder** : C:\Program Files (x86)\xpack-windows-build-tools-4.x.x.
 
-<a target="_blank" href={require('/img/osh/surf5/empty.png').default}><img src={require('/img/osh/surf5/vsset4.png').default} alt="Surf5"/></a>
+<a target="_blank" href={require('/img/osh/surf5/empty.png').default}><img src={require('/img/osh/surf5/empty.png').default} alt="Surf5"/></a>
 
 
 
@@ -198,7 +198,7 @@ If you've added the workspace with the W7500P folder path, then click on "File -
 
 Simply press "Save" with the same file name.
 
-<a target="_blank" href={require('/img/osh/surf5/empty.png').default}><img src={require('/img/osh/surf5/vsset4.png').default} alt="Surf5"/></a>
+<a target="_blank" href={require('/img/osh/surf5/empty.png').default}><img src={require('/img/osh/surf5/empty.png').default} alt="Surf5"/></a>
 
 
 
@@ -235,7 +235,7 @@ Adjust the Configure Args to match your own file paths according to your setup.
 
 Once you have completed the path configuration, enter "Unix Makefiles" in the "CMake: Generator" field.
 
-<a target="_blank" href={require('/img/osh/surf5/empty.png').default}><img src={require('/img/osh/surf5/vsset4.png').default} alt="Surf5"/></a>
+<a target="_blank" href={require('/img/osh/surf5/empty.png').default}><img src={require('/img/osh/surf5/empty.png').default} alt="Surf5"/></a>
 
 
 
