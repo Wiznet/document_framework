@@ -52,7 +52,7 @@ The entire list of parts of the board is available at the [WIZ750SR Overview: Pr
 
 ## Example Source Using VSCODE
 
-  **1. Software Download**
+  ***1. Software Download***
   
   - ARM GCC Compiler
 
@@ -85,7 +85,8 @@ The entire list of parts of the board is available at the [WIZ750SR Overview: Pr
   
 (2)	Install CMake
 [Download link](https://cmake.org/download)
-  
+
+
 <a target="_blank" href={require('/img/osh/surf5/cmakedownload.png').default}><img src={require('/img/osh/surf5/vsset5.png').default} alt="Surf5"/></a>
 
 <a target="_blank" href={require('/img/osh/surf5/vsset5.png').default}><img src={require('/img/osh/surf5/vsset6.png').default} alt="Surf5"/></a>
@@ -146,7 +147,7 @@ Click “Download Now” Button
 
 
 
-**2. Extract xpack-windows-build-tools-4.x.x.x**
+***2. Extract xpack-windows-build-tools-4.x.x.x***
 
 
 <a target="_blank" href={require('/img/osh/surf5/vsset21.png').default}><img src={require('/img/osh/surf5/vsset21.png').default} alt="Surf5"/></a>
@@ -160,7 +161,7 @@ Extract the xpack-windows-build-tool-4.x.x.x.zip archive. Save the extracted fol
 
 
 
-**3. Create a New Workspace (Prevent Changes to Existing Settings)**
+***3. Create a New Workspace (Prevent Changes to Existing Settings)***
 
 
 Create a new workspace. The reason for creating a new workspace is to prevent changes to the existing settings.
@@ -190,7 +191,7 @@ Simply press "Save" with the same file name.
 
 
 
-**4.  Save the CMake Extension Settings for the stored workspace.**
+***4.  Save the CMake Extension Settings for the stored workspace.***
 
 
 <a target="_blank" href={require('/img/osh/surf5/vsset26.png').default}><img src={require('/img/osh/surf5/vsset26.png').default} alt="Surf5"/></a>
@@ -225,7 +226,7 @@ Once you have completed the path configuration, enter "Unix Makefiles" in the "C
 
 
 
-**5. Build Project in VS Code**
+***5. Build Project in VS Code***
 
 
 <a target="_blank" href={require('/img/osh/surf5/vsset30.png').default}><img src={require('/img/osh/surf5/vsset30.png').default} alt="Surf5"/></a>
