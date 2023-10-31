@@ -83,8 +83,8 @@ date: 2022-11-03
 
 | H/W version | Type | Filetype | Download Link                                                | Remarks |
 | ----------- | ---- | -------- | ------------------------------------------------------------ | ------- |
-| 1.0         | TTL  | Altium   | ![](/img/products/w5500/w5500_evb/icons/download.png) <a href="https://github.com/Wiznet/Hardware-Files-of-WIZnet/raw/4d4c49d044e6d49c58748386eb2b5292ab607564/04_Serial_to_Ethernet_Module/WIZ500SR-RP-EVB(RJ45)/WIZ500SR-RP_EVB_V100/Schematic/WIZ500SR-RP-EVB_RJ45.SchDoc">Download</a> | \-      |
-| :::         | :::  | PDF      | ![](/img/products/w5500/w5500_evb/icons/download.png) <a href="https://github.com/Wiznet/Hardware-Files-of-WIZnet/raw/4d4c49d044e6d49c58748386eb2b5292ab607564/04_Serial_to_Ethernet_Module/WIZ500SR-RP-EVB(RJ45)/WIZ500SR-RP_EVB_V100/Schematic/WIZ500SR-RP-EVB_RJ45.pdf" target="_blank">Download</a> | \-      |
+| 1.0         | TTL  | Altium   | ![](/img/products/w5500/w5500_evb/icons/download.png) <a href="https://github.com/Wiznet/Hardware-Files-of-WIZnet/raw/master/04_Serial_to_Ethernet_Module/WIZ500SR-RP-EVB(RJ45)/WIZ500SR-RP_EVB_V100/Schematic/WIZ500SR-RP-EVB_RJ45.SchDoc">Download</a> | \-      |
+| :::         | :::  | PDF      | ![](/img/products/w5500/w5500_evb/icons/download.png) <a href="https://github.com/Wiznet/Hardware-Files-of-WIZnet/raw/master/04_Serial_to_Ethernet_Module/WIZ500SR-RP-EVB(RJ45)/WIZ500SR-RP_EVB_V100/Schematic/WIZ500SR-RP-EVB_RJ45.pdf" target="_blank">Download</a> | \-      |
 
 
 
@@ -98,8 +98,8 @@ date: 2022-11-03
 
 | H/W version | Type | Filetype | Download Link                                                | Remarks |
 | ----------- | ---- | -------- | ------------------------------------------------------------ | ------- |
-| 1.0         | TTL  | Excel    | ![](/img/products/w5500/w5500_evb/icons/download.png) <a href="https://github.com/Wiznet/Hardware-Files-of-WIZnet/raw/4d4c49d044e6d49c58748386eb2b5292ab607564/04_Serial_to_Ethernet_Module/WIZ500SR-RP-EVB(RJ45)/WIZ500SR-RP_EVB_V100/Partlist/WIZ500SR_RP EVB_V110.xlsx" target="_blank">Download</a> | \-       |
-| :::         | :::  | PDF      | ![](/img/products/w5500/w5500_evb/icons/download.png) <a href="https://github.com/Wiznet/Hardware-Files-of-WIZnet/raw/4d4c49d044e6d49c58748386eb2b5292ab607564/04_Serial_to_Ethernet_Module/WIZ500SR-RP-EVB(RJ45)/WIZ500SR-RP_EVB_V100/Partlist/WIZ500SR_RP EVB_V110.pdf" target="_blank">Download</a> | \-       |
+| 1.0         | TTL  | Excel    | ![](/img/products/w5500/w5500_evb/icons/download.png) <a href="https://github.com/Wiznet/Hardware-Files-of-WIZnet/raw/master/04_Serial_to_Ethernet_Module/WIZ500SR-RP-EVB(RJ45)/WIZ500SR-RP_EVB_V100/Partlist/WIZ500SR_RP EVB_V110.xlsx" target="_blank">Download</a> | \-       |
+| :::         | :::  | PDF      | ![](/img/products/w5500/w5500_evb/icons/download.png) <a href="https://github.com/Wiznet/Hardware-Files-of-WIZnet/raw/master/04_Serial_to_Ethernet_Module/WIZ500SR-RP-EVB(RJ45)/WIZ500SR-RP_EVB_V100/Partlist/WIZ500SR_RP EVB_V110.pdf" target="_blank">Download</a> | \-       |
 
 
 
