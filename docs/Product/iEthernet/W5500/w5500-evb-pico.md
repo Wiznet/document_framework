@@ -131,6 +131,27 @@ Please refer to below links to find firmware example.
 - [CircuitPython Examples](https://github.com/Wiznet/RP2040-HAT-CircuitPython)
 - [MicroPython Examples](https://github.com/Wiznet/RP2040-HAT-MicroPython)
 
+
+### Certification
+
+#### CE
+
+- <a href="/img/products/w5500-evb-pico/Certificate-CE-W5500-EVB-Pico.pdf" target="_blank">CE Certificate</a>
+- <a href="/img/products/w5500-evb-pico/Test-Report-CE-W5500-EVB-Pico.pdf" target="_blank">CE Test Report</a>
+
+| Date    | Decription |
+| ------- | ---------- |
+| OCT2023 | \-         |
+
+#### FCC
+
+- <a href="/img/products/w5500-evb-pico/Certificate-FCC-W5500-EVB-Pico.pdf" target="_blank">FCC Certificate</a>
+- <a href="/img/products/w5500-evb-pico/Test-Report-FCC-W5500-EVB-Pico.pdf" target="_blank">FCC Test Report</a>
+
+| Date    | Decription |
+| ------- | ---------- |
+| OCT2023 | \-         |
+
 ### AWS Qualification
 
 W5500S-EVB-Pico is RP2040-based device that got AWS IoT Core Qualification.

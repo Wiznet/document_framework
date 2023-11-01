@@ -169,6 +169,26 @@ Please refer to below links to find firmware example.
 - [CircuitPython Examples](https://github.com/Wiznet/RP2040-HAT-CircuitPython)
 - [MicroPython Examples](https://github.com/Wiznet/RP2040-HAT-MicroPython)
 
+### Certification
+
+#### CE
+
+- <a href="/img/osh/w5100s_evb_pico/Certificate-CE-W5100S-EVB-Pico.pdf" target="_blank">CE Certificate</a>
+- <a href="/img/osh/w5100s_evb_pico/Report-CE-W5100S-EVB-Pico.pdf" target="_blank">CE Test Report</a>
+
+| Date    | Decription |
+| ------- | ---------- |
+| OCT2023 | \-         |
+
+#### FCC
+
+- <a href="/img/osh/w5100s_evb_pico/Certificate-FCC-W5100S-EVB-Pico.pdf" target="_blank">FCC Certificate</a>
+- <a href="/img/osh/w5100s_evb_pico/Report-FCC-W5100S-EVB-Pico.pdf" target="_blank">FCC Test Report</a>
+
+| Date    | Decription |
+| ------- | ---------- |
+| OCT2023 | \-         |
+
 ### AWS Qualification
 
 W5100S-EVB-Pico is first RP2040-based device that got AWS IoT Core Qualification.

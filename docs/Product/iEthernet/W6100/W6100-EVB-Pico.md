@@ -142,6 +142,25 @@ Please refer to below links to find firmware example.
   - [Ethernet Examples](https://github.com/Wiznet/RP2040-v6-HAT-C)
   - [FreeRTOS Examples](https://github.com/Wiznet/RP2040-v6-HAT-FREERTOS-C)
 
+### Certification
+
+#### CE
+
+- <a href="/img/osh/w6100-evb-pico/Certificate-CE-W6100-EVB-Pico.pdf" target="_blank">CE Certificate</a>
+- <a href="/img/osh/w6100-evb-pico/Test-Report-CE-W6100-EVB-Pico.pdf" target="_blank">CE Test Report</a>
+
+| Date    | Decription |
+| ------- | ---------- |
+| OCT2023 | \-         |
+
+#### FCC
+
+- <a href="/img/osh/w6100-evb-pico/Certificate-FCC-W6100-EVB-Pico.pdf" target="_blank">FCC Certificate</a>
+- <a href="/img/osh/w6100-evb-pico/Test-Report-FCC-W6100-EVB-Pico.pdf" target="_blank">FCC Test Report</a>
+
+| Date    | Decription |
+| ------- | ---------- |
+| OCT2023 | \-         |
 
 ## How to buy
 
