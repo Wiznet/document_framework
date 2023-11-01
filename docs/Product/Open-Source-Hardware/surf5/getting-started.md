@@ -71,7 +71,7 @@ The entire list of parts of the board is available at the [WIZ750SR Overview: Pr
 [Download link](https://developer.arm.com/downloads/-/gnu-rm)
 
 
-<a target="_blank" href={require('/img/osh/surf5/arndownload.png').default}><img src={require('/img/osh/surf5/vsset2.png').default} alt="Surf5"/></a>
+<a target="_blank" href={require('/img/osh/surf5/arndownload.png').default}><img src={require('/img/osh/surf5/arndownload.png').default} alt="Surf5"/></a>
 
 <a target="_blank" href={require('/img/osh/surf5/vsset1.png').default}><img src={require('/img/osh/surf5/vsset1.png').default} alt="Surf5"/></a>
 
@@ -88,7 +88,7 @@ The entire list of parts of the board is available at the [WIZ750SR Overview: Pr
 [Download link](https://cmake.org/download)
 
 
-<a target="_blank" href={require('/img/osh/surf5/cmakedownload.png').default}><img src={require('/img/osh/surf5/vsset5.png').default} alt="Surf5"/></a>
+<a target="_blank" href={require('/img/osh/surf5/cmakedownload.png').default}><img src={require('/img/osh/surf5/cmakedownload.png').default} alt="Surf5"/></a>
 
 <a target="_blank" href={require('/img/osh/surf5/vsset5.png').default}><img src={require('/img/osh/surf5/vsset6.png').default} alt="Surf5"/></a>
 
@@ -107,7 +107,7 @@ The entire list of parts of the board is available at the [WIZ750SR Overview: Pr
 (3)	Install Build Tools for Visual Studio 2019
 [Download link](https://visualstudio.microsoft.com/ko/downloads/)
 
-<a target="_blank" href={require('/img/osh/surf5/vsdownload.png').default}><img src={require('/img/osh/surf5/vsset10.png').default} alt="Surf5"/></a>
+<a target="_blank" href={require('/img/osh/surf5/vsdownload.png').default}><img src={require('/img/osh/surf5/vsdownload.png').default} alt="Surf5"/></a>
 
 <a target="_blank" href={require('/img/osh/surf5/vsset10.png').default}><img src={require('/img/osh/surf5/vsset10.png').default} alt="Surf5"/></a>
 
@@ -126,7 +126,7 @@ The entire list of parts of the board is available at the [WIZ750SR Overview: Pr
 (4)	Install Visual Studio Code
 [Download link](https://visualstudio.microsoft.com/downloads/#build-tools-for-visual-studio-2019)
 
-<a target="_blank" href={require('/img/osh/surf5/vscodedownload.png').default}><img src={require('/img/osh/surf5/vsset15.png').default} alt="Surf5"/></a>
+<a target="_blank" href={require('/img/osh/surf5/vscodedownload.png').default}><img src={require('/img/osh/surf5/vscodedownload.png').default} alt="Surf5"/></a>
 
 <a target="_blank" href={require('/img/osh/surf5/vsset15.png').default}><img src={require('/img/osh/surf5/vsset15.png').default} alt="Surf5"/></a>
 
