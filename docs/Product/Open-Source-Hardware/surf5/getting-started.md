@@ -90,7 +90,7 @@ The entire list of parts of the board is available at the [WIZ750SR Overview: Pr
 
 <a target="_blank" href={require('/img/osh/surf5/cmakedownload.png').default}><img src={require('/img/osh/surf5/cmakedownload.png').default} alt="Surf5"/></a>
 
-<a target="_blank" href={require('/img/osh/surf5/vsset5.png').default}><img src={require('/img/osh/surf5/vsset6.png').default} alt="Surf5"/></a>
+<a target="_blank" href={require('/img/osh/surf5/vsset5.png').default}><img src={require('/img/osh/surf5/vsset5.png').default} alt="Surf5"/></a>
 
 <a target="_blank" href={require('/img/osh/surf5/vsset6.png').default}><img src={require('/img/osh/surf5/vsset6.png').default} alt="Surf5"/></a>
 
