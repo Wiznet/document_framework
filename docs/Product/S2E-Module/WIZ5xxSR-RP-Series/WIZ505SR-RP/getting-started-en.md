@@ -57,7 +57,7 @@ As WIZ505SR-RP already has Ethernet port, it is necessary to use WIZ500/505SR-RP
 - Ethernet cable
 - DB9 serial RS-232 cable (for Data UART, RS-232/TTL Ver. only)
 - Power source for device
-  - Such as 5V DC adapter, USB port on your computer, or 3.3V Power source
+  - When you use WIZ505SR-RP with WIZ500/500SR-RP EVB, you can use 5V DC adapter or USB port on your computer. But use only WIZ505SR-RP, connect 3.3V Power source on J2 - 2pin and 4pin
 
 :::tip
 J1, J3 pins are not mounted.
