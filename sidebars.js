@@ -913,6 +913,7 @@ module.exports = {
 						items: [
 							'Product/Open-Source-Hardware/surf5/getting-started',
 							'Product/Open-Source-Hardware/surf5/Errata',
+							'Product/Open-Source-Hardware/surf5/VS_Code_Setup_Guide',
 						]
 						
 					}
