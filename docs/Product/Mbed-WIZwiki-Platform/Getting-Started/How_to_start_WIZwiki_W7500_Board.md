@@ -29,16 +29,13 @@ the default firmware as below.
 
 **Test Sequence**
 
-1. Connect Ethernet cable, USB cable to WIZwiki-W7500. If you have a SD
-card, insert the SD card.
+1. Connect Ethernet cable, USB cable to WIZwiki-W7500. If you have a SD card, insert the SD card.
 
-2. Run the Device Manager in Control panel and check which COM port is
-allocated to the USB port on WIZwiki-W7500.
+2. Run the Device Manager in Control panel and check which COM port is allocated to the USB port on WIZwiki-W7500.
 
-3. Press Reset SW, then LED 'D4' on WIZwiki-W7500 will be turned on. If
-D4 is turned off, then press the Reset SW again.
+3. Press Reset SW, then LED 'D4' on WIZwiki-W7500 will be turned on. If D4 is turned off, then press the Reset SW again.
 
-    <Serial setting>
+    **Serial setting**
     Baud rate : 115200
     Data bits : 8
     Parity : None

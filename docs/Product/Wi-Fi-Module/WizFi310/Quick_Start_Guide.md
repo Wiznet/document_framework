@@ -87,7 +87,7 @@ This section explains how to connect to AP by using serial command. The default 
 
     [CONNECT 0]       (When TCP connection is done, it shows this message)
 
-If it is done successfully, Mode LED will be on because WizFi310 is set to < data mode>. For more detailed information about < data mode>, refer to 🌎[<Command mode & Data mode>](/)
+If it is done successfully, Mode LED will be on because WizFi310 is set to < data mode >. For more detailed information about < data mode >, refer to 🌎[Command mode & Data mode](/)
 In order to exit data mode or enter into command mode again, You have to send a single '+++' string without CR or LF (0x0D, 0x0A) - just the three (0x2B = '+') characters.
 
 #### Exchanging data with a peer system

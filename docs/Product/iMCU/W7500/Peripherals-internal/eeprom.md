@@ -20,7 +20,7 @@ THE PRESENT FIRMWARE WHICH IS FOR GUIDANCE ONLY AIMS AT PROVIDING CUSTOMERS WITH
 
 This example provides a basic example of how to use the I2C firmware library and
 an associate I2C EEPROM driver to communicate with an I2C EEPROM device (here the
-example is interfacing with M24CXX EEPROMs where XX={01, 02, 04, 08, 16, 32, 64}.
+example is interfacing with M24CXX EEPROMs where XX = \{ 01, 02, 04, 08, 16, 32, 64 \}.)
 
 I2C peripheral is configured in Master transmitter during write operation and in
 Master receiver during read operation from I2C EEPROM. 

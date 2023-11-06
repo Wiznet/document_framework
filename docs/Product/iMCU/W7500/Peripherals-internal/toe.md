@@ -143,7 +143,7 @@ Common Register Block configures the general information of TOE such as IP and M
 
 ### Socket register map
 
-TOE supports 8 Sockets for communication channel. Each Socket is controlled by Socket n Register (n = 0,…,7  ,where n is socket number). <Table 2> defines the 16bits Offset Address of registers in Socket n Register Block.
+TOE supports 8 Sockets for communication channel. Each Socket is controlled by Socket n Register (n = 0,…,7  ,where n is socket number). < Table 2 > defines the 16bits Offset Address of registers in Socket n Register Block.
 Refer to [Memory](toe.md#memory) for more details about each register.
 
 

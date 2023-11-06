@@ -65,8 +65,7 @@ W5100S-EVB-Pico is a microcontroller evaluation board based on the Raspberry Pi 
 <a target="_blank" href={require('/img/osh/w5100s_evb_pico/w5100s-evb-pico-1.1-pinout.png').default}><img src={require('/img/osh/w5100s_evb_pico/w5100s-evb-pico-1.1-pinout.png').default} alt="W5100S-EVB-Pico_PINOUT"/></a>
 
 <details>
-<summary>Above image presents pinout for v1.1. If you are looking for pinout of version 1.0, click here.
-</summary>
+<summary>Above image presents pinout for v1.1. If you are looking for pinout of version 1.0, click here.</summary>
 <a target="_blank" href={require('/img/osh/w5100s_evb_pico/w5100s-evb-pic-pinout_v1.png').default}><img src={require('/img/osh/w5100s_evb_pico/w5100s-evb-pic-pinout_v1.png').default} alt="W5100S-EVB-Pico_PINOUT"/></a>
 </details>
 
@@ -137,8 +136,7 @@ TBA
 <a target="_blank" href={require('/img/osh/w5100s_evb_pico/w5100s-evb-pico_sch_v110.jpg').default}><img src={require('/img/osh/w5100s_evb_pico/w5100s-evb-pico_sch_v110.jpg').default} alt="W5100S-EVB_Pico_schematic"/></a>
 
 <details>
-<summary>Above image presents schematic for v1.1. If you are looking for schematic of version 1.0, click here.
-</summary>
+<summary>Above image presents schematic for v1.1. If you are looking for schematic of version 1.0, click here.</summary>
 <a target="_blank" href={require('/img/osh/w5100s_evb_pico/w5100S-evb_pico_schematic.png').default}><img src={require('/img/osh/w5100s_evb_pico/w5100S-evb_pico_schematic.png').default} alt="W5100S-EVB_Pico_schematic"/></a>
 </details>
 
@@ -151,8 +149,7 @@ TBA
 <a target="_blank" href={require('/img/osh/w5100s_evb_pico/w5100s-evb-pico-1.1-dimension.png').default}><img src={require('/img/osh/w5100s_evb_pico/w5100s-evb-pico-1.1-dimension.png').default} alt="W5100S-EVB-RP2040_Dimension"/></a>
 
 <details>
-<summary>Above image presents dimension for v1.1. If you are looking for dimension of version 1.0, click here.
-</summary>
+<summary>Above image presents dimension for v1.1. If you are looking for dimension of version 1.0, click here.</summary>
 <a target="_blank" href={require('/img/osh/w5100s_evb_pico/w5100s-evb-pico_dimension.png').default}><img src={require('/img/osh/w5100s_evb_pico/w5100s-evb-pico_dimension.png').default} alt="W5100S-EVB-RP2040_Dimension"/></a>
 </details>
 

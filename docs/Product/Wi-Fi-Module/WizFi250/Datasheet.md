@@ -270,23 +270,23 @@ WiFi TX EVM following the IEEE spec as listed in the table below:
 
 | Characteristics             |          | IEEE Spec | Unit |
 | --------------------------- | -------- | --------- | ---- |
-| RF Average Output EVM (11b) | @1 Mbps  | \-10      | dB   |
-| :::                         | @11 Mbps | \-10      | dB   |
-| RF Average Output EVM (11g) | @6 Mbps  | \-5       | dB   |
-| :::                         | @54 Mbps | \-25      | dB   |
-| RF Average Output EVM (11n) | @ MCS0   | \-5       | dB   |
-| :::                         | @ MCS7   | \-28      | dB   |
+| RF Average Output EVM (11b) | @1 Mbps  | -10      | dB   |
+| :::                         | @11 Mbps | -10      | dB   |
+| RF Average Output EVM (11g) | @6 Mbps  | -5       | dB   |
+| :::                         | @54 Mbps | -25      | dB   |
+| RF Average Output EVM (11n) | @ MCS0   | -5       | dB   |
+| :::                         | @ MCS7   | -28      | dB   |
 
 The WizFi250 Wi-Fi sensitivity as listed in the table below:
 
 | Receiver Characteristics            | Typ. | Max. | Unit |
 | ----------------------------------- | ---- | ---- | ---- |
-| PER <8%, Rx Sensitivity @ 1 Mbps   | \-96 | \-89 | dBm  |
-| PER <8%, Rx Sensitivity @ 11 Mbps  | \-88 | \-84 | dBm  |
-| PER <10%, Rx Sensitivity @ 6 Mbps  | \-90 | \-83 | dBm  |
-| PER <10%, Rx Sensitivity @ 54 Mbps | \-74 | \-70 | dBm  |
-| PER <10%, Rx Sensitivity @ MCS0    | \-89 | \-83 | dBm  |
-| PER <10%, Rx Sensitivity @ MCS7    | \-71 | \-67 | dBm  |
+| PER < 8%, Rx Sensitivity @ 1 Mbps   | -96 | -89 | dBm  |
+| PER < 8%, Rx Sensitivity @ 11 Mbps  | -88 | -84 | dBm  |
+| PER < 10%, Rx Sensitivity @ 6 Mbps  | -90 | -83 | dBm  |
+| PER < 10%, Rx Sensitivity @ 54 Mbps | -74 | -70 | dBm  |
+| PER < 10%, Rx Sensitivity @ MCS0    | -89 | -83 | dBm  |
+| PER < 10%, Rx Sensitivity @ MCS7    | -71 | -67 | dBm  |
 
 
 ## 6. I/O port characteristics

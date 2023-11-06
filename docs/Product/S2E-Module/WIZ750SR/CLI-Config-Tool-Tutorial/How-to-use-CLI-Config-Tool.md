@@ -146,11 +146,13 @@ python wizconfig.py -h
   --getfile GETFILE     File name to Get info. Refer default command(cmd_oneport.txt or cmd_twoport.txt).
 ```
 
-**<About Channel \#N Options\>**  
+**About Channel #N Options**  
+
 **1 Port S2E devices**  
-Use Channel \#0 Options only.  
+Use Channel #0 Options only.  
+
 **2 Port S2E devices**  
-Use both Channel \#0 Options & Channel \#1 Options.
+Use both Channel #0 Options & Channel #1 Options.
 
 -----
 
@@ -163,10 +165,10 @@ python wizconfig.py -s
 ```
 
 Search result printed as standard out, and the mac address of the
-searched devices is recorded in **mac\_list.txt** file.
+searched devices is recorded in **mac_list.txt** file.
 
 If new device is found, it is displayed as 'New Device', and this is
-determined by whether it is recorded in mac\_list.txt.
+determined by whether it is recorded in mac_list.txt.
 
 ![](/img/products/configtool/option/option_search_new.png)
 

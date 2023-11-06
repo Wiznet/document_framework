@@ -29,7 +29,7 @@ date: 2020-04-16
 
 **WIZ550SR GitHub Repository V1.0 (Link)**
 
-<https://github.com/Wiznet/WIZ550SR> 
+https://github.com/Wiznet/WIZ550SR
 
 -----
 
@@ -38,7 +38,7 @@ date: 2020-04-16
 WIZnet Configuration Tool made Java base. so runs on any OS that JRE be installed.
 Install JAVA Runtime Environment
 
-- <http://www.java.com/>
+- http://www.java.com/
 - Click on the **Free Java Download** button.
 - Install the downloaded installation file.
 
@@ -64,7 +64,7 @@ In order to use WIZ550SR is required for USB driver(Provided by the FTDI).
 
 **Virtual COM Port Drivers.**  
   
-<http://www.ftdichip.com/Drivers/VCP.htm>
+http://www.ftdichip.com/Drivers/VCP.htm
 
 -----
 

@@ -43,7 +43,7 @@ compiler. So Users must install all programs
         Software\] and Click \[Add...\] and copy below words and paste
         to plugin name & Location.
       - Name: GNU ARM Eclipse Plug-ins
-      - Location: <http://gnuarmeclipse.sourceforge.net/updates>
+      - Location: http://gnuarmeclipse.sourceforge.net/updates
 
 ### 1\. Select 'New project' and project type
 

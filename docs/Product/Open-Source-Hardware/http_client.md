@@ -6,7 +6,7 @@ date: 2020-04-03
 
 ## Before Compile
 
-1.  Download source file from <https://github.com/amcewen/HttpClient>.
+1.  Download source file from [https://github.com/amcewen/HttpClient](https://github.com/amcewen/HttpClient).
 2.  Extract and Copy all files into "Arduino/libraries/Ethernet/".
 
 ## Change code

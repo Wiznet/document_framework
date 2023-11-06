@@ -20,12 +20,7 @@ WIZ750SR-105-EVB evaluation board.\*\*
 ## Unpacking the WIZ750SR-105
 
 ### What's in the Box?
-<!-->
-|                                                              |
-| ------------------------------------------------------------ |
-|                                                              |
-| Figure: ***WIZ750SR-105 Rev. 1.0 Evaluation Board Package*** |
--->
+
 The WIZ750SR-105 evaluation board package contains the following parts.
 
   - WIZ750SR-105 TTL Module

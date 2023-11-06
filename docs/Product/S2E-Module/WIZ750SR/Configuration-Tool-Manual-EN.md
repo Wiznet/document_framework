@@ -171,7 +171,7 @@ DURING FIRMWARE UPLOADING**
 
 -----
 
-### 2\. Device List
+### 2. Device List
 
 |                                                                   |
 | ----------------------------------------------------------------- |
@@ -186,46 +186,13 @@ DURING FIRMWARE UPLOADING**
   - Users can check the below information by clicking the searched MAC
     address.
 
-<table>
-<thead>
-<tr class="header">
-<th>Model name</th>
-<th>Will be shown as <strong>WIZ750SR</strong>.</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>UART[1]</td>
-<td>Shows the types of UART interfaces.<br />
-<br />
-- <strong>RS-232/TTL</strong>: WIZ750SR hardware TTL or RS-232 version.<br />
-- <strong>RS-422/485</strong>: WIZ750SR hardware RS-422/485 version.</td>
-</tr>
-<tr class="even">
-<td>Firmware version</td>
-<td>Shows the current <strong>firmware version</strong>[2]<br />
-<br />
-Composed of three sections: <strong>Major version number</strong>, <strong>Minor version number</strong>, and <strong>Maintenance version number</strong> ex) v1.0.0</td>
-</tr>
-<tr class="odd">
-<td>Status[3]</td>
-<td>Shows the operational status of the device<br />
-<br />
-- <strong>BOOT</strong>: Settings and firmware upload is possible during this status<br />
-- <strong>OPEN</strong>: Status before TCP connection<br />
-- <strong>CONNECT</strong>: Status after TCP connection<br />
-- <strong>UPGRADE</strong>: Firmware update or DHCP IP allocation during this status<br />
-- <strong>ATMODE</strong>: Serial AT command mode.<br />
-- <strong>UDP</strong>: UDP mode</td>
-</tr>
-<tr class="even">
-<td>Debug message</td>
-<td>Shows the <strong>status of serial debug message</strong><br />
-<br />
-The serial debug message is printed via separate Debug UART and not Data UART, and the interface connection setting is fixed as <strong>115200-8-N-1:None</strong></td>
-</tr>
-</tbody>
-</table>
+| Model name       | Description |
+|------------------|-------------|
+| UART[1]          | Shows the types of UART interfaces.<br /><br />- **RS-232/TTL**: WIZ750SR hardware TTL or RS-232 version.<br />- **RS-422/485**: WIZ750SR hardware RS-422/485 version. |
+| Firmware version | Shows the current **firmware version**[2]<br /><br />Composed of three sections: **Major version number**, **Minor version number**, and **Maintenance version number** ex) v1.0.0 |
+| Status[3]        | Shows the operational status of the device<br /><br />- **BOOT**: Settings and firmware upload is possible during this status<br />- **OPEN**: Status before TCP connection<br />- **CONNECT**: Status after TCP connection<br />- **UPGRADE**: Firmware update or DHCP IP allocation during this status<br />- **ATMODE**: Serial AT command mode.<br />- **UDP**: UDP mode |
+| Debug message    | Shows the **status of serial debug message**<br /><br />The serial debug message is printed via separate Debug UART and not Data UART, and the interface connection setting is fixed as **115200-8-N-1:None** |
+
 
 -----
 

@@ -13,18 +13,14 @@ Connecting to the Internet using the W5500 powered Ethernet Shield
 
 ## Arduino Ethernet Library
 
-from : <http://arduino.cc/en/Reference/Ethernet>
+from : [http://arduino.cc/en/Reference/Ethernet](http://arduino.cc/en/Reference/Ethernet)
 
-> Arduino Ethernet Shield allows an Arduino board to connect to the
-> internet. It can serve as either a server accepting incoming
-> connections or a client making outgoing ones. The library supports up
-> to four concurrent connection (incoming or outgoing or a combination).
+Arduino Ethernet Shield allows an Arduino board to connect to the internet. It can serve as either a server accepting incoming connections or a client making outgoing ones. The library supports up to four concurrent connection (incoming or outgoing or a combination).
 
 For more details, please visit : [Arduino Ethernet Library
 Page](http://arduino.cc/en/Reference/Ethernet).
 
-Before COMPILING THE SOFTWARE, **Download
-and install Arduino 1.0.5** from the Arduino software page.
+Before COMPILING THE SOFTWARE, **Download and install Arduino 1.0.5** from the Arduino software page.
 
   - **Note: Certain functions may not work in earlier versions.** Before
     using this library, please update [the latest verison of Arduino
@@ -55,13 +51,13 @@ GitHub](https://github.com/Wiznet/WIZ_Ethernet_Library.git).
 
 How to update the Ethernet library.
 
-1.  **Open the archive and extract the file "WIZ\_Ether\_Library.zip"**
+1.  **Open the archive and extract the file "WIZ_Ether_Library.zip"**
     to a convenient spot (I use the Desktop). 
 2.  **Put(Overwrite) the "Ethernet" folder in this library to the
     libraries folder in the Arduino Installation Folder** (for example,
     normaly you can find Arduino libraries folder as "C:\\Program
-    Files\\Arduino\\libraries\\".), \<del\> or select "Sketch -\> Import
-    Library... -\> Add Library..." in Aruino IDE, and select the folder
+    Files\\Arduino\\libraries\\".), \<del\> or select "Sketch -> Import
+    Library... -> Add Library..." in Aruino IDE, and select the folder
     loacation. and then, you can see the new directory in your "My
     Document/Arduino/libraries/".\</del\>
     ![](/img/osh/ioshield-a/cap_2013-08-27_11-10-53-747.png) 
@@ -105,23 +101,23 @@ Library Folder as like
 -----
 
   - [Test Twitter](twitter_test): A Twitter Simple
-    Posting or refer <http://playground.arduino.cc/Code/TwitterLibrary>
+    Posting or refer [http://playground.arduino.cc/Code/TwitterLibrary](http://playground.arduino.cc/Code/TwitterLibrary)
   - [Test HTTP Client(WebClient)](http_client): A Simple HTTP Client test
 
 Basically, you can refer the usage for each examples in Arduino site.
 
-  - <http://arduino.cc/en/Tutorial/ChatServer>: set up a simple chat server.
-  - <http://arduino.cc/en/Tutorial/WebClient>: make a HTTP request.
-  - <http://arduino.cc/en/Tutorial/WebClientRepeating>: Make repeated HTTP requests.
-  - <http://arduino.cc/en/Tutorial/WebServer>: host a simple HTML page that displays analog sensor values.
+  - [http://arduino.cc/en/Tutorial/ChatServer](http://arduino.cc/en/Tutorial/ChatServer): set up a simple chat server.
+  - [http://arduino.cc/en/Tutorial/WebClient(http://arduino.cc/en/Tutorial/WebClient): make a HTTP request.
+  - [http://arduino.cc/en/Tutorial/WebClientRepeating](http://arduino.cc/en/Tutorial/WebClientRepeating): Make repeated HTTP requests.
+  - [http://arduino.cc/en/Tutorial/WebServer](http://arduino.cc/en/Tutorial/WebServer): host a simple HTML page that displays analog sensor values.
   - [XivelyClient](http://arduino.cc/en/Tutorial/PachubeClient): connect to ~~pachube.com~~ **xively.com**, a free datalogging site. **not a
     big change except service name.**
   - [XivelyClientString](http://arduino.cc/en/Tutorial/PachubeClientString):
     send strings to ~~pachube.com~~ **xively.com**. **not a big change except service name.**
-  - <http://arduino.cc/en/Tutorial/BarometricPressureWebServer>: outputs the values from a barometric pressure sensor as a web page.
-  - <http://arduino.cc/en/Tutorial/UDPSendReceiveString>: Send and receive text strings via UDP.
-  - <http://arduino.cc/en/Tutorial/UdpNtpClient>: Query a Network Time  Protocol (NTP) server using UDP.
-  - <http://arduino.cc/en/Tutorial/DnsWebClient>: DNS and DHCP-based Web client.
-  - <http://arduino.cc/en/Tutorial/DhcpChatServer>: A simple DHCP Chat Server
-  - <http://arduino.cc/en/Tutorial/DhcpAddressPrinter>: Get an IP address via DHCP and print it out
-  - <http://arduino.cc/en/Tutorial/TelnetClient>: A simple Telnet client
+  - [http://arduino.cc/en/Tutorial/BarometricPressureWebServer](http://arduino.cc/en/Tutorial/BarometricPressureWebServer): outputs the values from a barometric pressure sensor as a web page.
+  - [http://arduino.cc/en/Tutorial/UDPSendReceiveString](http://arduino.cc/en/Tutorial/UDPSendReceiveString): Send and receive text strings via UDP.
+  - [http://arduino.cc/en/Tutorial/UdpNtpClient](http://arduino.cc/en/Tutorial/UdpNtpClient): Query a Network Time  Protocol (NTP) server using UDP.
+  - [http://arduino.cc/en/Tutorial/DnsWebClient](http://arduino.cc/en/Tutorial/DnsWebClient): DNS and DHCP-based Web client.
+  - [http://arduino.cc/en/Tutorial/DhcpChatServer](http://arduino.cc/en/Tutorial/DhcpChatServer): A simple DHCP Chat Server
+  - [http://arduino.cc/en/Tutorial/DhcpAddressPrinter](http://arduino.cc/en/Tutorial/DhcpAddressPrinter): Get an IP address via DHCP and print it out
+  - [http://arduino.cc/en/Tutorial/TelnetClient](http://arduino.cc/en/Tutorial/TelnetClient): A simple Telnet client

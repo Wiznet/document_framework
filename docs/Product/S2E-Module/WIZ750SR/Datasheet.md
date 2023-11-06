@@ -8,97 +8,19 @@ date: 2020-04-08
 
 ### Product Spec Table
 
-<table>
-<thead>
-<tr class="header">
-<th>Category</th>
-<th></th>
-<th>Description</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td rowspan="3">MCU</td>
-<td>ARM<br />
-Cortex-M0<br />
-Core</td>
-<td>W7500P<br />
-PHY Included<br />
-48Mhz maximum frequency<br />
-Internal 8Mhz RC Oscillator<br />
-Flash: 128KB<br />
-Large flexible-size SRAM buffer for various User Application<br />
-- Min 16KB available if full 32KB socket buffer used<br />
-- Max 48KB available if no socket buffer used<br />
-ROM for boot code: 6 KB</td>
-</tr>
-<tr class="even">
-<td>:::</td>
-<td>Hardwired<br />
-TCP/IP<br />
-Core</td>
-<td>8 independent Sockets<br />
-SRAM for socket: 32KB<br />
-MII (Medium-Independent Interface)<br />
-TCP/IP Protocols: TCP, UDP, ICMP, IPv4, ARP, IGMP, PPPoE</td>
-</tr>
-<tr class="odd">
-<td>:::</td>
-<td>PHY</td>
-<td>IC+(IP101G) PHY<br />
-Auto negotiation (Full-duplex and Half-duplex)<br />
-Auto MDI/MDIX</td>
-</tr>
-<tr class="even">
-<td>Serial</td>
-<td>Interface</td>
-<td>WIZ750SR-TTL: TTL Version<br />
-WIZ750SR-232: 232 Version<br />
-WIZ750SR-422/485: 422/485 Version</td>
-</tr>
-<tr class="odd">
-<td>:::</td>
-<td>Signal</td>
-<td>TXD, RXD, RTS, CTS, GND</td>
-</tr>
-<tr class="even">
-<td>:::</td>
-<td>Parameters</td>
-<td>Parity: None, Odd, Even<br />
-Data bits: 7, 8 bit<br />
-Flow control: None, RTS / CTS, XON / XOFF</td>
-</tr>
-<tr class="odd">
-<td>:::</td>
-<td>Speed</td>
-<td>Up to 230Kbps</td>
-</tr>
-<tr class="even">
-<td>Dimension</td>
-<td></td>
-<td>45mm x 30mm ( PCB board size )<br />
-48mm x 30mm x 18mm ( Include part size )</td>
-</tr>
-<tr class="odd">
-<td>Connector type</td>
-<td></td>
-<td>2.54mm Pitch 6x2 Pin-header(Data Line)<br />
-2.54mm Pitch 1x6 Pin-header(ISP)<br />
-2.54mm Pitch 1x6 Pin-header(Expansion GPIO &amp; app_boot)<br />
-1.27mm Pitch 1x5 Pin-header (JTAG)</td>
-</tr>
-<tr class="even">
-<td>Input Voltage</td>
-<td></td>
-<td>DC 3.3V</td>
-</tr>
-<tr class="odd">
-<td>Temperature</td>
-<td></td>
-<td>0℃ ~ 70℃ (Operation), -40℃ ~ 85℃ (Storage range)</td>
-</tr>
-</tbody>
-</table>
+| Category |                | Description |
+|----------|----------------|------------------------|
+| MCU      | ARM Cortex-M0 Core | W7500P PHY Included 48Mhz maximum frequency Internal 8Mhz RC Oscillator Flash: 128KB Large flexible-size SRAM buffer for various User Application - Min 16KB available if full 32KB socket buffer used - Max 48KB available if no socket buffer used ROM for boot code: 6 KB |
+|          | :::            | Hardwired TCP/IP Core 8 independent Sockets SRAM for socket: 32KB MII (Medium-Independent Interface) TCP/IP Protocols: TCP, UDP, ICMP, IPv4, ARP, IGMP, PPPoE |
+|          | :::            | IC+(IP101G) PHY Auto negotiation (Full-duplex and Half-duplex) Auto MDI/MDIX |
+| Serial   | Interface      | WIZ750SR-TTL: TTL Version WIZ750SR-232: RS-232 Version WIZ750SR-422/485: RS-422/485 Version |
+|          | Signal         | TXD, RXD, RTS, CTS, GND |
+|          | Parameters     | Parity: None, Odd, Even Data bits: 7, 8 bit Flow control: None, RTS / CTS, XON / XOFF |
+|          | Speed          | Up to 230Kbps |
+| Dimension|                | 45mm x 30mm (PCB board size) 48mm x 30mm x 18mm (Include part size) |
+| Connector type |            | 2.54mm Pitch 6x2 Pin-header(Data Line) 2.54mm Pitch 1x6 Pin-header(ISP) 2.54mm Pitch 1x6 Pin-header(Expansion GPIO & app_boot) 1.27mm Pitch 1x5 Pin-header (JTAG) |
+| Input Voltage |            | DC 3.3V |
+| Temperature |              | 0℃ ~ 70℃ (Operation), -40℃ ~ 85℃ (Storage range) |
 
 -----
 
@@ -229,24 +151,24 @@ Flow control: None, RTS / CTS, XON / XOFF</td>
 |                                                                           |
 | ------------------------------------------------------------------------- |
 | ![](/img/products/wiz750sr/clitool/datasheet/wiz750sr-evb_ttl_232_description_v3.png) |
-| **<WIZ750SR EVB TTL/RS232 Call Out\>**                                   |
+| **WIZ750SR EVB TTL/RS232 Call Out**                                   |
 
 |                                                                  |
 | ---------------------------------------------------------------- |
 | ![](/img/products/wiz750sr/clitool/datasheet/wiz750sr-evb_ttl_232_block.png) |
-| **<WIZ750SR EVB TTL/RS232 Block Diagram\>**                     |
+| **WIZ750SR EVB TTL/RS232 Block Diagram**                     |
 
 ### RS422 / RS485 Version
 
 |                                                                        |
 | ---------------------------------------------------------------------- |
 | ![](/img/products/wiz750sr/clitool/datasheet/wiz750sr-evb_422_485_description.png) |
-| **<WIZ750SR EVB RS422/485 Call Out\>**                                |
+| **WIZ750SR EVB RS422/485 Call Out**                                |
 
 |                                                                    |
 | ------------------------------------------------------------------ |
 | ![](/img/products/wiz750sr/clitool/datasheet/wiz750sr-evb_rs422_485_block.png) |
-| **<WIZ750SR EVB RS422/485 Block Diagram\>**                       |
+| **WIZ750SR EVB RS422/485 Block Diagram**                       |
 
 -----
 

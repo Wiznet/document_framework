@@ -297,12 +297,12 @@ The ‘Group hardware address’ is selected at the assigned range (From
 “01:00:5e:00:00:00”to “01:00:5e:7f:ff:ff”) and the ‘Group IP address’
 is selected in D-class IP address (From “224.0.0.0” to
 “239.255.255.255”, please refer to the website;
-🌎<http://www.iana.org/assignments/multicast-addresses>).  
+🌎 http://www.iana.org/assignments/multicast-addresses).  
 When selecting, the upper 23bits of 6bytes ‘Group hardware address’ and
 the 4bytes ‘Group IP address’ must be the same. For example, if the user
 selects the ‘Group IP address’ to “244.1.1.11,” the ‘Group hardware
 address’ is selected to “01:00:5e:01:01:0b.” Please refer to the
-“RFC1112” (🌎<http://www.ietf.org/rfc.html>).  
+“RFC1112” (🌎 http://www.ietf.org/rfc.html).  
 In the W5100S, IGMP processing to register the multicast-group is
 internally (automatically) processed. When the user opens the SOCKET n
 with multicast mode, the “Join” message is internally transmitted. If

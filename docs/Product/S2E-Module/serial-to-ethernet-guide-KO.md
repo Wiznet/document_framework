@@ -51,12 +51,12 @@ S2E 제품군에 따라 사용하는 Configuration Tool이 다르므로 해당 �
 #### Configuration Tool User guide
 
 ![](/img/products/w5500/w5500_evb/icons/github.png)
-<https://github.com/Wiznet/WIZ550S2E>
+https://github.com/Wiznet/WIZ550S2E
 
 #### Source code
 
 ![](/img/products/w5500/w5500_evb/icons/github.png)
-<https://github.com/Wiznet/WIZnet_Configuration_Tool>
+https://github.com/Wiznet/WIZnet_Configuration_Tool
 
 ![](/img/products/configtool/wiz550sr-configtool.png) WIZ550SR/WIZ550S2E
 Configuration Tool
@@ -92,19 +92,13 @@ Configuration Tool
 
 ### WIZ100/105/110SR Series
 
-<!-- __This tool will no longer be updated.__ -->
-
   - [WIZ100SR](WIZ100SR/wiz100sr.md)
   - [WIZ105SR](WIZ105SR/wiz105sr.md)
   - [WIZ110SR](WIZ110SR/wiz110sr.md)
 
-<!-- end list -->
-
   - <a href="http://www.wiznet.io/wp-content/uploads/wiznethome/S2E%20Module/WIZ100-105-110SR/Document/WIZ100SR_UM_v220e.pdf" target="_blank">Download WIZ100SR User Manual v2.2.0</a>
   - <a href="http://www.wiznet.io/wp-content/uploads/wiznethome/S2E%20Module/WIZ100-105-110SR/Document/WIZ105SR_UM_v130e.pdf" target="_blank">Download WIZ105SR User Manual v1.3.0</a>
   - <a href="http://www.wiznet.io/wp-content/uploads/wiznethome/S2E%20Module/WIZ100-105-110SR/Document/WIZ110SR_UM_v210e.pdf" target="_blank">Download WIZ110SR User Manual v2.1.0</a>
-
-<!-- end list -->
 
 - <a href="http://www.wiznet.io/wp-content/uploads/wiznethome/S2E%20Module/WIZ100-105-110SR/Document/WIZ1x0SR_AN_S2E-Programming-Guide_V030E.pdf" target="_blank">WIZ100SR/ WIZ105SR/ WIZ110SR Programmer’s Guide</a>
 
@@ -118,12 +112,8 @@ Configuration Tool
 
 ### WIZ120/125SR
 
-<!-- __This tool will no longer be updated.__ -->
-
   - [WIZ120SR](WIZ120SR/wiz120sr.md)
   - [WIZ125SR](WIZ125SR/wiz125sr.md)
-
-<!-- end list -->
 
   - <a href="http://www.wiznet.io/wp-content/uploads/wiznethome/S2E%20Module/WIZ120_125SR/Document/WIZ120SR_UM_v110e.pdf" target="_blank">WIZ120SR User manual</a>
   - <a href="http://www.wiznet.io/wp-content/uploads/wiznethome/S2E%20Module/WIZ120_125SR/Document/WIZ125SR_User_Manual_EN_V1.0.pdf" target="_blank">WIZ125SR User manual</a>
@@ -136,8 +126,6 @@ Configuration Tool
 -----
 
 ### WIZ140/145SR
-
-<!-- __This tool will no longer be updated.__ -->
 
   - [WIZ140SR](WIZ140SR/wiz140sr.md)
   - [WIZ145SR](WIZ145SR/wiz145sr.md)
@@ -200,6 +188,6 @@ WIZMacTool은 제품의 펌웨어 업그레이드 과정에서 MAC 주소가 삭
 
 
 **WIZVSP end user license agreement 페이지로 이동:**  
-**<http://wizvsp.wiznet.io>**
+**http://wizvsp.wiznet.io**
 
 -----

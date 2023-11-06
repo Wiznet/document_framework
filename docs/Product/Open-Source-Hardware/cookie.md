@@ -28,9 +28,9 @@ hardware and software building blocks.
 
 ![](/img/osh/cookie/cookie_numicro_v1_s.png)
 
-[Learn more](<http://www.coocox.org/Cookie.html>)
+[Learn more](http://www.coocox.org/Cookie.html)
 
-[Cookie Numirco Edition](<http://www.coocox.org/Cookie/Cookie_Nuvoton.html>)
+[Cookie Numirco Edition](http://www.coocox.org/Cookie/Cookie_Nuvoton.html)
 
 -----
 
@@ -38,7 +38,7 @@ hardware and software building blocks.
 
 Visit to the Web site
 
-URL :🌎<http://www.coocox.org/Index.html>\](<http://www.coocox.org/Index.html>.
+URL :🌎[http://www.coocox.org/Index.html](http://www.coocox.org/Index.html).
 
 -----
 
@@ -51,7 +51,7 @@ tool-chains. So you need to install tool-chains at first. We use ARM gcc
 
 **ARM GCC 4.7 Features:**
 
-\- All GCC 4.7 features, plus latest mainline features - Additional code
+- All GCC 4.7 features, plus latest mainline features - Additional code
 size optimizations - Newlib-nano: newlib branch optimized for code size
 
 [Download the latest
@@ -66,11 +66,11 @@ supports ARM gcc based development environment of **eclipse**.
 
 **System requirements:**
 
-\- Windows XP SP3 / Windows Vista / Windows 7
+- Windows XP SP3 / Windows Vista / Windows 7
 
 **Features:**
 
-\- Free to use - Full functional IDE - Component-oriented development
+- Free to use - Full functional IDE - Component-oriented development
 platform - Internet-based, efficient integration of network resources -
 Integrates CoOS - Peripheral registers
 

@@ -15,7 +15,7 @@ TCP performance test result with a UART interface.
 
 ## HTTP Server
 
-Please visit 🌎<https://github.com/wizfi/WizFi360EVB-Arduino> for the
+Please visit 🌎 https://github.com/wizfi/WizFi360EVB-Arduino for the
 code.
 
 * <a href="/img/products/wizfi360/wizfi360ds/wizfi360_an_hs_v101e.pdf" target="_blank">Arduino HTTP Server V1.0.1 - English</a>

@@ -8,93 +8,20 @@ date: 2021-03-15
 
 ### Product Spec Table
 
-<table>
-<thead>
-<tr class="header">
-<th>Category</th>
-<th></th>
-<th>Description</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>MCU</td>
-<td>Arm® 32-bit Cortex®-M33 CPU<br />with TrustZone® and FPU</td>
-<td>
-48Mhz maximum frequency<br />
-Internal 16Mhz RC Oscillator<br />
-Flash: 512KB<br />
-256 Kbytes of SRAM including 64 Kbytes with hardware parity check<br />
-Arm® TrustZone® and securable I/Os, memories and peripherals<br />
-512-byte OTP (one-time programmable) for user data<br />
-</td>
-</tr>
-<tr class="even">
-<td>:::</td>
-<td>Hardwired<br />
-TCP/IP<br />
-Core</td>
-<td>4 independent Sockets<br />
-SRAM for socket: 32KB<br />
-MII (Medium-Independent Interface)<br />
-TCP/IP Protocols: TCP, UDP, ICMP, IPv4, ARP, IGMP, PPPoE</td>
-</tr>
-<tr class="odd">
-<td>:::</td>
-<td>PHY</td>
-<td>IC+(IP101G) PHY<br />
-Auto negotiation (Full-duplex and Half-duplex)<br />
-Auto MDI/MDIX</td>
-</tr>
-<tr class="even">
-<td>Serial</td>
-<td>Interface</td>
-<td>WIZ510SSL<br />
-</td>
-</tr>
-<tr class="odd">
-<td>:::</td>
-<td>Signal</td>
-<td>TXD, RXD, RTS, CTS, GND</td>
-</tr>
-<tr class="even">
-<td>:::</td>
-<td>Parameters</td>
-<td>Parity: None, Odd, Even<br />
-Data bits: 7, 8 bit<br />
-Flow control: None, RTS / CTS, XON / XOFF</td>
-</tr>
-<tr class="odd">
-<td>:::</td>
-<td>Speed</td>
-<td>Up to 460Kbps</td>
-</tr>
-<tr class="even">
-<td>Dimension</td>
-<td></td>
-<td> ( PCB board size )<br />
- ( Include part size )</td>
-</tr>
-<tr class="odd">
-<td>Connector type</td>
-<td></td>
-<td>TBC 2.54mm Pitch 1x12 Pin-header(Data Line)<br />
-2.54mm Pitch 1x12 Pin-header(ISP)<br />
-2.54mm Pitch 1x12 Pin-header(Expansion GPIO &amp; app_boot)<br />
-1.27mm Pitch 1x5 Pin-header (JTAG)</td>
-</tr>
-<tr class="even">
-<td>Input Voltage</td>
-<td></td>
-<td>DC 3.3V</td>
-</tr>
-<tr class="odd">
-<td>Temperature</td>
-<td></td>
-<td>TBC 0℃ ~ 70℃ (Operation), -40℃ ~ 85℃ (Storage range)</td>
-</tr>
-</tbody>
-</table>
+| Category        | Description                                      | Description |
+|-----------------|--------------------------------------------------|-------------|
+| MCU             | Arm® 32-bit Cortex®-M33 CPU with TrustZone® and FPU | 48Mhz maximum frequency<br />Internal 16Mhz RC Oscillator<br />Flash: 512KB<br />256 Kbytes of SRAM including 64 Kbytes with hardware parity check<br />Arm® TrustZone® and securable I/Os, memories and peripherals<br />512-byte OTP (one-time programmable) for user data |
+| MCU             | Hardwired TCP/IP Core                             | 4 independent Sockets<br />SRAM for socket: 32KB<br />MII (Medium-Independent Interface)<br />TCP/IP Protocols: TCP, UDP, ICMP, IPv4, ARP, IGMP, PPPoE |
+| MCU             | PHY                                               | IC+(IP101G) PHY<br />Auto negotiation (Full-duplex and Half-duplex)<br />Auto MDI/MDIX |
+| Serial          | Interface                                         | WIZ510SSL   |
+| Serial          | Signal                                            | TXD, RXD, RTS, CTS, GND |
+| Serial          | Parameters                                        | Parity: None, Odd, Even<br />Data bits: 7, 8 bit<br />Flow control: None, RTS / CTS, XON / XOFF |
+| Serial          | Speed                                             | Up to 460Kbps |
+| Dimension       |                                                   | ( PCB board size )<br />( Include part size ) |
+| Connector type  |                                                   | TBC 2.54mm Pitch 1x12 Pin-header(Data Line)<br />2.54mm Pitch 1x12 Pin-header(ISP)<br />2.54mm Pitch 1x12 Pin-header(Expansion GPIO & app_boot)<br />1.27mm Pitch 1x5 Pin-header (JTAG) |
+| Input Voltage   |                                                   | DC 3.3V      |
+| Temperature     |                                                   | TBC 0℃ ~ 70℃ (Operation), -40℃ ~ 85℃ (Storage range) |
+
 
 -----
 

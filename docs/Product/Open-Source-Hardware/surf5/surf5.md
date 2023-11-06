@@ -1,5 +1,5 @@
 ---
-id: surf 5
+id: surf5
 title: Surf 5
 date: 2023-10-11
 keywords: [iMCU, ethernet, w7500]

@@ -169,7 +169,8 @@ GitHub와 아두이노 스케치에서 다운로드 및 설치 하는 방법에 
 
 ## FAQ
 
-<details><summary>WizArduino MEGA WIFI에 장착된 WizFi310과 다른 WiFi모듈과 차이점은 뭔가요?</summary>
+<details>
+<summary>WizArduino MEGA WIFI에 장착된 WizFi310과 다른 WiFi모듈과 차이점은 뭔가요?</summary>
 WizFi310 특징
 
 요즘 Embedded WiFi 모듈이 많이 나와 있는데, 기술이 어느 정도 평준화 되어서 (일부 저가 WiFi 모듈을 제외하고는) 스펙이나 특징에서 특별한 차이점이 없습니다.
@@ -191,11 +192,10 @@ WizFi310 특징
 
 SKT나 KT의 IoT 플랫폼에 WiFi로 접속하려는 분들에게는 특히나 좋은 선택이 될 듯 합니다.
 </details>
+
 <details>
 <summary>WiFi 통신 거리는 어떻게 되나요?</summary>
 내부적으로 테스트한 결과 WizFi310은 개활지에서 최대 160m 까지 통신 가능합니다. (단, 이경우 사용하는 공유기의 안테나에 따른 성능 차이는 있습니다.)
 </details>
-
-<!-->  - [WizArduino WiFi에서 Software Serial 사용하는 방법?](/)-->
 
 -----

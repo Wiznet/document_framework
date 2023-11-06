@@ -9,20 +9,16 @@ different IDEs such as Freeware Eclipse.
 
 ## Make a new W5100S-EVB project with Eclipse IDE
 
-### 0\. Download and install Dev. enviroment & compiler
+### 0. Download and install Dev. enviroment & compiler
 
 Eclipse provides a free Dev. Environment; however, It does not include C
 compiler. Users must install all programs  
 **Your need program list here(Download links)**  
-  * 🌎[Eclipse
-CDT](http://www.eclipse.org/downloads/packages/eclipse-ide-cc-developers/neon3rc3)
+  * 🌎[Eclipse CDT](http://www.eclipse.org/downloads/packages/eclipse-ide-cc-developers/neon3rc3)
 
-  - 🌎[Windows Build
-    Tools(gnuarmeclipse-build-tools-win64-2.8-201611221915-setup.exe)](https://github.com/gnu-mcu-eclipse/windows-build-tools/releases/tag/v2.8)
-  - 🌎[Java JRE(Windows x64
-    Offline)](http://www.oracle.com/technetwork/java/javase/downloads/jre8-downloads-2133155.html)
-  - 🌎[GCC
-    Complier(gcc-arm-none-eabi-5\_4-2016q2-20160622-win32.exe)](https://launchpad.net/gcc-arm-embedded/5.0/5-2016-q2-update)  
+  - 🌎[Windows Build Tools(gnuarmeclipse-build-tools-win64-2.8-201611221915-setup.exe)](https://github.com/gnu-mcu-eclipse/windows-build-tools/releases/tag/v2.8)
+  - 🌎[Java JRE(Windows x64 Offline)](http://www.oracle.com/technetwork/java/javase/downloads/jre8-downloads-2133155.html)
+  - 🌎[GCC Complier(gcc-arm-none-eabi-5\_4-2016q2-20160622-win32.exe)](https://launchpad.net/gcc-arm-embedded/5.0/5-2016-q2-update)  
 
 
 
@@ -52,9 +48,9 @@ CDT](http://www.eclipse.org/downloads/packages/eclipse-ide-cc-developers/neon3rc
         Software\] and Click \[Add...\] and copy below words and paste
         to plugin name & Location.
       - Name: GNU ARM Eclipse Plug-ins
-      - Location: <http://gnuarmeclipse.sourceforge.net/updates>
+      - Location: http://gnuarmeclipse.sourceforge.net/updates
 
-### 1\. Select 'New project' and project type
+### 1. Select 'New project' and project type
 
 1\. Execute Eclipse IDE
 

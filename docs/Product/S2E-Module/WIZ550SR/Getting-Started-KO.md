@@ -169,19 +169,17 @@ WIZ550SR-EVB의 초기 상태를 확인을 한다.
 
 PC의 Configuration tool을 실행하여 상단 Search 버튼을 클릭 한다. 보드에 전원이 인가되고 동일한 네트워크에 연결되어 동작 중인 경우 WIZ550SR 모듈의 MAC 주소와 설정 값을 tool에서 확인 할 수 있다.
 
-{{ :products:wiz550sr:gettingstarted:search.png ? direct | Configuration tool }}
-
 PC의 시리얼 터미널 프로그램을 실행하여, WIZ550SR의 Debug UART의 시리얼 포트에 연결은 한다. 보드에 전원인 인가하면, 아래 사진과 같은 Debug Message를 확인 할수 있다.
 
-{{ :products:wiz550sr:gettingstarted:debug_message.png ? direct | Debug Message}}
-
 #### Step 4: Set up your WIZ550SR
+
 사용자 환경에 맞춰 제품의 설정 값을 변경한다. 본 Step에서는 제품의 공장 초기화 설정을 기반으로 초기 테스트를 수행한다.
   * Configuration tool에서 설정 변경 후, 변경된 값을 적용하려면 Setting 버튼을 클릭해야하고 **Setting Password**를 입력해야 한다.
   * Setting Password 의 초기 값은 **WIZnet** 이다.
   * 설정이 완료되면 **Success Set**이라는 메시지가 나오고 WIZ550SR은 Reset이 된다.
 
 #### Step 5: Connect
+
 PC를 사용자 시리얼 장치 및 TCP 클라이언트로 삼아 데이터 통신을 테스트하기 위한 연결을 수행한다. 이를 위해 PC에서 시리얼 터미널 프로그램 및 TCP 클라이언트 터미널 프로그램이 실행 되어야 한다. 공장 초기값 기준으로 PC와 장치를 연결하기 위해 각각 프로그램은 다음과 같이 설정 후 연결하면 된다. 
 
   * 시리얼 터미널 프로그램
@@ -193,6 +191,7 @@ PC를 사용자 시리얼 장치 및 TCP 클라이언트로 삼아 데이터 통
     * 5초 이내에 Connection Password를 입력하지 않은 연결이 중단 된다.
 
 #### Step 6: Verify
+
 아래와 같은 데이터 통신 과정이 올바르게 수행되면, WIZ550SR 제품의 기본적인 데이터 전송 기능 검증이 완료된다.
 
   * 시리얼 to 이더넷: 데이터 전송 검증
@@ -201,6 +200,7 @@ PC를 사용자 시리얼 장치 및 TCP 클라이언트로 삼아 데이터 통
     * TCP 클라이언트 터미널 측에 문자열을 입력하고, 동일한 문자열이 시리얼 터미널 측에 표시되는지 확인해 봅시다.
 
 #### Step 7: Done
+
 이제 WIZ550SR 제품을 활용할 준비가 완료되었습니다! 
 
   * 본 내용은 PC를 시리얼 장치 및 원격 네트워크 장비로 가정하고 WIZ550SR 제품의 동작을 테스트하는 과정입니다.

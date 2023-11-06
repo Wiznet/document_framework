@@ -47,7 +47,7 @@ For all revision binary files including below, you can see at the [release](http
 ### Source code
 
 ![](/img/products/w5500/w5500_evb/icons/github.png)
-<https://github.com/Wiznet/WIZ550S2E>
+https://github.com/Wiznet/WIZ550S2E
 
 -----
 
@@ -79,9 +79,9 @@ Please refer to below compatibility table and use appropriate version.
 ### Environment configuration
 
 ![](/img/github.png)
-<https://github.com/Wiznet/WIZ550S2E#configuration-tool>
+https://github.com/Wiznet/WIZ550S2E#configuration-tool
 
 ### Source code
 
 ![](/img/github.png)
-<https://github.com/Wiznet/WIZnet_Configuration_Tool>
+https://github.com/Wiznet/WIZnet_Configuration_Tool

@@ -6,7 +6,7 @@ date: 2020-04-03
 
 ## Before Compile
 
-1.  Before tweeting, get a token at <http://arduino-tweet.appspot.com/>
+1.  Before tweeting, get a token at http://arduino-tweet.appspot.com/
     . This library send a tweet via the site to avoid using up the
     memory of Arduino by complex OAuth signature stuff.
     ![](/img/osh/ioshield-a/tweet_library_for_arduino.png)
@@ -16,7 +16,7 @@ date: 2020-04-03
 4.  You can see an example sketch from "File -\> Examples -\> Ethernet -\> Twitter\_SimplePost".
 5.  Done\~\~.
 6.  original source from
-    <http://playground.arduino.cc/Code/TwitterLibrary>
+    http://playground.arduino.cc/Code/TwitterLibrary
 
 ## Change code & Compile
 

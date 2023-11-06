@@ -227,8 +227,8 @@ Open the configuration tool and click the search button. If the board is turned 
 
 **The new WIZ750SR configuration tool can be downloaded from Github below.**
 
-  - <https://github.com/Wiznet/WIZnet-S2E-Tool-GUI>
-  - <https://github.com/Wiznet/WIZnet-S2E-Tool-GUI/releases>
+  - https://github.com/Wiznet/WIZnet-S2E-Tool-GUI
+  - https://github.com/Wiznet/WIZnet-S2E-Tool-GUI/releases
 
 
 

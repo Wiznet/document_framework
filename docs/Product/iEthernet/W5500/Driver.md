@@ -39,9 +39,9 @@ This driver provides the Berkeley Socket type APIs. The function names of this i
  **ioLibrary\_BSD GitHub
 Repository**
 
-🌎<https://github.com/Wiznet/ioLibrary_Driver> 
+🌎 https://github.com/Wiznet/ioLibrary_Driver
 
-<ioLibrary_BSD : old version>
+ioLibrary_BSD : old version
 
 <table>
 <tbody>
@@ -348,41 +348,18 @@ ex) uint16_t</td>
 </tr>
 <tr class="odd">
 <td>Register Naming</td>
-<td>REGName + Index<br />
-<br />
-ex) SIPR0 , SIPR1, SIPR2, SIPR3</td>
-<td>REGName &amp; WIZCHIP_OFFSET_INC<br />
-<br />
-ex&gt; SIP,<br />
-WIZCHIP_OFFSET_INC(SIP,1),<br />
-WIZCHIP_OFFSET_INC(SIP,2),<br />
-WIZCHIP_OFFSET_INC(SIP,3)</td>
+<td>REGName + Index<br /><br />ex) SIPR0 , SIPR1, SIPR2, SIPR3</td>
+<td>REGName &amp; WIZCHIP_OFFSET_INC<br /><br />ex&gt; SIP,<br />WIZCHIP_OFFSET_INC(SIP,1),<br />WIZCHIP_OFFSET_INC(SIP,2),<br />WIZCHIP_OFFSET_INC(SIP,3)</td>
 </tr>
 <tr class="even">
 <td>Basic IO function</td>
-<td>IINCHIP_READ<br />
-IINCHIP_WRITE<br />
-IINCHIP_READ_BUF<br />
-IINCHIP_WRITE_BUF<br />
-<br />
-16bit Address Space<br />
-User should implement Functions<br />
-MCU Dependent</td>
-<td>WIZCHIP_READ<br />
-WIZCHIP_WRITE<br />
-WIZCHIP_READ_BUF<br />
-WIZCHIP_WRITE_BUF<br />
-<br />
-32bit Address Space<br />
-Since users implement MCU-dependent parts and then register them as Callback function, users don't need to implement the Function itself.<br />
-<br />
-Supports IINCHIP_XXX function for backward compatiblity.</td>
+<td>IINCHIP_READ<br />IINCHIP_WRITE<br />IINCHIP_READ_BUF<br />IINCHIP_WRITE_BUF<br /><br />16bit Address Space<br />User should implement Functions<br />MCU Dependent</td>
+<td>WIZCHIP_READ<br />WIZCHIP_WRITE<br />WIZCHIP_READ_BUF<br />WIZCHIP_WRITE_BUF<br /><br />32bit Address Space<br />Since users implement MCU-dependent parts and then register them as Callback function, users don't need to implement the Function itself.<br /><br />Supports IINCHIP_XXX function for backward compatiblity.</td>
 </tr>
 <tr class="odd">
 <td>Register Function</td>
 <td>IINCHIP_XXX can be used. Supports some getREG(/) &amp; setREG(/) functions.</td>
-<td><br />
-It is not recommended to use WIZCHIP_XXXX. Supports getREG(/) &amp; setREG(/) functions or macros for all registers.</td>
+<td><br />It is not recommended to use WIZCHIP_XXXX. Supports getREG(/) &amp; setREG(/) functions or macros for all registers.</td>
 </tr>
 <tr class="even">
 <td>Extra Functions</td>
@@ -401,31 +378,13 @@ It is not recommended to use WIZCHIP_XXXX. Supports getREG(/) &amp; setREG(/) fu
 </tr>
 <tr class="even">
 <td>Return Value</td>
-<td>void<br />
-Success or Fail<br />
-Transmit/Receive Size</td>
-<td>Success or Fail<br />
-Transmit/Receive Size<br />
-All functions return.</td>
+<td>void<br />Success or Fail<br />Transmit/Receive Size</td>
+<td>Success or Fail<br />Transmit/Receive Size<br />All functions return.</td>
 </tr>
 <tr class="odd">
 <td>Error Code</td>
 <td>None</td>
-<td>SOCK_BUSY : 0<br />
-SOCKERR_SOCKNUM<br />
-SOCKERR_SOCKOPT<br />
-SOCKERR_SOCKINIT<br />
-SOCKERR_SOCKCLOSED<br />
-SOCKERR_SOCKMODE<br />
-SOCKERR_SOCKFLAG<br />
-SOCKERR_SOCKSTATUS<br />
-SOCKERR_ARG<br />
-SOCKERR_PORTZERO<br />
-SOCKERR_IPINVALID<br />
-SOCKERR_TIMEOUT<br />
-SOCKERR_DATALEN<br />
-SOCKERR_BUFFER<br />
-SOCKFATAL_PACKLEN</td>
+<td>SOCK_BUSY : 0<br />SOCKERR_SOCKNUM<br />SOCKERR_SOCKOPT<br />SOCKERR_SOCKINIT<br />SOCKERR_SOCKCLOSED<br />SOCKERR_SOCKMODE<br />SOCKERR_SOCKFLAG<br />SOCKERR_SOCKSTATUS<br />SOCKERR_ARG<br />SOCKERR_PORTZERO<br />SOCKERR_IPINVALID<br />SOCKERR_TIMEOUT<br />SOCKERR_DATALEN<br />SOCKERR_BUFFER<br />SOCKFATAL_PACKLEN</td>
 </tr>
 <tr class="even">
 <td>IO Mode</td>
@@ -434,16 +393,8 @@ SOCKFATAL_PACKLEN</td>
 </tr>
 <tr class="odd">
 <td>Block Function</td>
-<td>send<br />
-recv<br />
-sendto<br />
-recvfrom</td>
-<td><br />
-send<br />
-recv<br />
-sendto<br />
-recvfrom<br />
-connect</td>
+<td>send<br />recv<br />sendto<br />recvfrom</td>
+<td><br />send<br />recv<br />sendto<br />recvfrom<br />connect</td>
 </tr>
 <tr class="even">
 <td>Non-Block Function</td>

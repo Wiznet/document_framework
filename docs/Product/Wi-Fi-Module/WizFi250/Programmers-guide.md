@@ -900,7 +900,7 @@ AT+SFORM=<Format>,<Start>,<Delim>,<End>,<Cls1>,<Cls2>
 - **Meaning:** Define Data Receive Header Form
 
 Define the header of received data which is used at command mode. For example, default receiving format look like below.  
-"{0,192.168.0.216,59834,5}hello(0xd)(0xa)"  
+"\{0,192.168.0.216,59834,5\}hello(0xd)(0xa)"  
 This means ASCII code "hello" was received from 192.168.0.216:59834 by socket ID 0, and its length was 5. You can change this format to suit your system through this command. Factory default option is "111111111,7B,2C,7D,0D,0A"  
   
 &lt;Format&gt;: Decide each of header items to use. (Required)  
@@ -2644,21 +2644,21 @@ This section explains how to set <  TCP Client> in <  Command Mode> and communic
   
 #### Exchanging data with a peer system
 
-If WizFi250 connects to peer system successfully, WizFi250 will print [CONNECT(CID)] message. At this time, WizFi250 is in command mode. In order to send data to peer system, you have to use <  AT+SSEND=CID, Destination IP, Destination Port, Data Length> command. If you input serial command like <  Data Length> , WizFi250 will send serial data to peer system.
+If WizFi250 connects to peer system successfully, WizFi250 will print [CONNECT(CID)] message. At this time, WizFi250 is in command mode. In order to send data to peer system, you have to use <  AT+SSEND=CID, Destination IP, Destination Port, Data Length > command. If you input serial command like < Data Length > , WizFi250 will send serial data to peer system.
   
     AT+SSEND=0,,,5   ( Sending data to a Socket with CID 0 )
     Hello             < = When serial data is 5byte, WizFi250 send this data to peer system
     [OK]
 
-    {0,192.168.12.23,5000,11}Hi WizFi250  ( Receiving data from pear system )
+    \{ 0,192.168.12.23,5000,11 \} Hi WizFi250  ( Receiving data from pear system )
  
 #### Socket Close
 
-In < AT Command Mode>, TCP connection can be closed through < AT+SMGMT=CID> or < AT+SMGMT=ALL> command.
+In < AT Command Mode >, TCP connection can be closed through < AT+SMGMT=CID> or < AT+SMGMT=ALL> command.
 
 #### Checking Socket Status
 
-In < AT Command Mode>, Information of connected sockets are shown by using < AT+SMGMT=?> command.
+In < AT Command Mode >, Information of connected sockets are shown by using < AT+SMGMT=?> command.
   
     AT+SMGMT=?
     Number of Sockets : 1 (SCID/Socket/Mode/Remote/Local/DataMode)
@@ -2737,7 +2737,7 @@ This section explains how to open < UDP Server Socket> in Command Mode and commu
 
 < UDP Server Mode> of WizFi250 can connect UDP connection without peer system information like IP address and port number. Before peer system is connected to WizFi250, WizFi250 does not send data to peer system. So you should be careful when using < UDP Server Mode>.
 
-{0,192.168.12.23,5001,11}Hi WizFi250  ( Receiving data from peer system )
+\{0,192.168.12.23,5001,11\} Hi WizFi250  ( Receiving data from peer system )
 
       AT+SSEND=0,,,5                     ( Sending data to a Socket with CID 0 )
       Hello           < = When serial data is 5byte, WizFi250 send this data to peer system
@@ -2930,20 +2930,20 @@ This section explains how to use < Multi Socket Connection> function. WizFi250 c
       Hello_TCP_Client
       [OK]
 
-      {0,192.168.12.23,5000,16}Hello_TCP_Client
+      \{0,192.168.12.23,5000,16\}Hello_TCP_Client
 
       AT+SSEND=1,,,16
       Hello_TCP_Server
       [OK]
 
-      {1,192.168.12.23,58769,16}Hello_TCP_Server
+      \{1,192.168.12.23,58769,16\}Hello_TCP_Server
 
       AT+SSEND=2,,,16
       Hello_UDP_Client
       [OK]
 
-      {2,192.168.12.23,7000,16}Hello_UDP_Client
-      {3,192.168.12.23,8000,16}Hello_UDP_Server
+      \{2,192.168.12.23,7000,16\}Hello_UDP_Client
+      \{3,192.168.12.23,8000,16\}Hello_UDP_Server
       AT+SSEND=3,,,16
       Hello_UDP_Server
       [OK]
@@ -3065,8 +3065,8 @@ And you can see the result of < WiFi Direct> in WizFi250.
       IP Addr    : 192.168.49.219
       Gateway    : 192.168.49.1
 
-As above, ip address of WizFi250 is <192.168.49.219> and that of
-smartphone is <192.168.49.1>  
+As above, ip address of WizFi250 is < 192.168.49.219 > and that of
+smartphone is < 192.168.49.1 >  
 
 ### Data Communication 
 

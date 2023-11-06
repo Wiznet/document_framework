@@ -82,7 +82,7 @@ W5500 Ethernet shield is Possible to User Select GPIO
   - 사용자가 Chip Select 변경하여 다른 Module 사용 가능
   - 다른 보드와 중첩하여 사용 가능
 
-**Caution)** 사용자가 5V Platform을 사용할 때, SD-CARD동작의 낮은 신뢰성이 요구된다. 하지만, 충분한
+**Caution** 사용자가 5V Platform을 사용할 때, SD-CARD동작의 낮은 신뢰성이 요구된다. 하지만, 충분한
 테스트를 통해 사용해도 무방하다. 신뢰성 있는 동작을 원한다면 buffer와 100nF Capacitor를 실장하여
 사용바란다.
 
@@ -99,7 +99,7 @@ Datasheet 확인해주세요.
   - <a href="/img/products/w5500/w5500_ds_v106e_141230.pdf" target="_blank">W5500 Datasheet v1.0.6 - English</a>
   - <a href="/img/products/w5500/w5500_ds_v106k_141230.pdf" target="_blank">W5500 Datasheet v1.0.6 - Korean</a>
 
-\---
+---
 
 ## Technical Reference
 
@@ -142,6 +142,6 @@ Datasheet 확인해주세요.
 
 **Ethernet Library**
 
-  - <https://github.com/Wiznet/WIZ_Ethernet_Library>
+  - [https://github.com/Wiznet/WIZ_Ethernet_Library](https://github.com/Wiznet/WIZ_Ethernet_Library)
 
 -----

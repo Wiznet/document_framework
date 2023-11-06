@@ -8,7 +8,7 @@ date: 2020-04-03
 
 Visit to the Web site
 
-URL :🌎<http://www.coocox.org/Index.html>\](<http://www.coocox.org/Index.html>.
+URL :🌎[http://www.coocox.org/Index.html](http://www.coocox.org/Index.html)
 
 
 -----
@@ -22,11 +22,10 @@ tool-chains. So you need to install tool-chains at first. We use ARM gcc
 
 **ARM GCC 4.7 Features:**
 
-\- All GCC 4.7 features, plus latest mainline features - Additional code
+- All GCC 4.7 features, plus latest mainline features - Additional code
 size optimizations - Newlib-nano: newlib branch optimized for code size
 
-[Download the latest
-arm-gcc-embbed](https://launchpad.net/gcc-arm-embedded/+download)
+[Download the latest arm-gcc-embbed](https://launchpad.net/gcc-arm-embedded/+download)
 
 
 ## CooCox Open IDE
@@ -38,16 +37,15 @@ supports ARM gcc based development environment of **eclipse**.
 
 **System requirements:**
 
-\- Windows XP SP3 / Windows Vista / Windows 7
+- Windows XP SP3 / Windows Vista / Windows 7
 
 **Features:**
 
-\- Free to use - Full functional IDE - Component-oriented development
+- Free to use - Full functional IDE - Component-oriented development
 platform - Internet-based, efficient integration of network resources -
 Integrates CoOS - Peripheral registers
 
-[CoIDE Download and learn
-more](http://www.coocox.org/CooCox_CoIDE.htm) 
+[CoIDE Download and learn more](http://www.coocox.org/CooCox_CoIDE.htm) 
 
 ## Tool-chains setting in CoIDE
 
@@ -56,8 +54,7 @@ more](http://www.coocox.org/CooCox_CoIDE.htm)
 Before you use CoIDE to start your project, you need to
 config the GCC compiler at first.
 
-[Compiler Setting in
-CoIDE](http://www.coocox.org/CoIDE/Compiler_Settings.html)
+[Compiler Setting in CoIDE](http://www.coocox.org/CoIDE/Compiler_Settings.html)
 
 
 ## CoX-Peripheral Interface

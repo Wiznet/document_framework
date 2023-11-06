@@ -369,30 +369,12 @@ DURING FIRMWARE UPLOADING**
 
 #### 1\) Status & Serial Interface
 
-<table>
-<thead>
-<tr class="header">
-<th>Status[1]</th>
-<th>Shows the operational status of the device<br />
-<br />
-- <strong>BOOT</strong>: Settings and firmware upload is possible during this status<br />
-- <strong>OPEN</strong>: Status before TCP connection<br />
-- <strong>CONNECT</strong>: Status after TCP connection<br />
-- <strong>UPGRADE</strong>: Firmware update or DHCP IP allocation during this status<br />
-- <strong>ATMODE</strong>: Serial AT command mode.<br />
-- <strong>UDP</strong>: UDP mode</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>Serial interface[2]</td>
-<td>Shows the types of UART interfaces.<br />
-<br />
-- <strong>RS-232/TTL</strong>: WIZ750SR hardware TTL or RS-232 version.<br />
-- <strong>RS-422/485</strong>: WIZ750SR hardware RS-422/485 version.</td>
-</tr>
-</tbody>
-</table>
+| Status[1] | Shows the operational status of the device<br /><br />- **BOOT**: Settings and firmware upload is possible during this status<br />- **OPEN**: Status before TCP connection<br />- **CONNECT**: Status after TCP connection<br />- **UPGRADE**: Firmware update or DHCP IP allocation during this status<br />- **ATMODE**: Serial AT command mode.<br />- **UDP**: UDP mode |
+|-----------|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+
+| Serial interface[2] | Shows the types of UART interfaces.<br /><br />- **RS-232/TTL**: WIZ750SR hardware TTL or RS-232 version.<br />- **RS-422/485**: WIZ750SR hardware RS-422/485 version. |
+|---------------------|----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+
 
 -----
 

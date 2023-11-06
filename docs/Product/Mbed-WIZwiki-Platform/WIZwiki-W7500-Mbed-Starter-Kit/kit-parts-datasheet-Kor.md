@@ -47,11 +47,10 @@ date: 2020-04-08
 
 ![](/img/products/wizwiki_mbed_kit/kit_kr/dht-11.png)
 
-  *온도와 습도 측정
-  *습도 측정 범위 : 20 -90% (5%  오차 )
-  *온도 측정 범위 : 0 - 50 ℃ (2 ℃ 오차 )
-  *데이터시트: {{:products:wizwiki_mbed_kit:kit_kr:datasheet-dht11.pdf|}}
-  *참고: https://learn.adafruit.com/downloads/pdf/dht.pdf
+  * 온도와 습도 측정
+  * 습도 측정 범위 : 20 -90% (5%  오차 )
+  * 온도 측정 범위 : 0 - 50 ℃ (2 ℃ 오차 )
+  * 참고: https://learn.adafruit.com/downloads/pdf/dht.pdf
 
 -----
 
@@ -60,11 +59,10 @@ date: 2020-04-08
 ![](/img/products/wizwiki_mbed_kit/kit_kr/tmp36gt9.jpg)
 ![](/img/products/wizwiki_mbed_kit/kit_kr/tmp36gt9_pin.png)
 
- *Vs : 3.3V 전원 공급
- *Vout : ADC 입력핀에 연결
- *GND : 그라운드와 연결
- *데이터시트: {{:products:wizwiki_mbed_kit:kit_kr:tmp35_36_37.pdf|}}
- *참고: http://www.analog.com/media/en/technical-documentation/data-sheets/TMP35_36_37.pdf
+ * Vs : 3.3V 전원 공급
+ * Vout : ADC 입력핀에 연결
+ * GND : 그라운드와 연결
+ * 참고: http://www.analog.com/media/en/technical-documentation/data-sheets/TMP35_36_37.pdf
 
 
 -----
@@ -75,6 +73,6 @@ date: 2020-04-08
 
   * 빛의 밝기에 따라 저항값이 변하는 특성을 이용한 센서
   * 광센서, 포토셀 혹든 조도 센서라 불림
-  * 데이터시트: {{:products:wizwiki_mbed_kit:kit_kr:cds-resistor-pgm.pdf|}}
+  
 
 -----

@@ -13,10 +13,9 @@ different IDEs such as STMicroelectronics TrueSTUDIO.
 
 ### 0\. Download and install Dev. enviroment & compiler
 
-TrueSTUDIO provides a free Dev. Environment incl. It include IDE and C
-compiler.  
+TrueSTUDIO provides a free Dev. Environment incl. It include IDE and Ccompiler.  
 **Download the IDE + compiler here:**  
-<https://atollic.com/>  
+https://atollic.com/
 
 ### 1\. Select 'New project' and project type
 

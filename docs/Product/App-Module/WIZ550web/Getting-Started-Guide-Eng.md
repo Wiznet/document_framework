@@ -66,11 +66,11 @@ GitHub Repository'**
   - Serial cable x 1
   - 12V Power adapter x 1
 
-**WIZ550web module &
-EVB support microSD card**
+**WIZ550web module & EVB support microSD card**
+
 ![](/img/products/wiz550web/sdcard/sandisk-4gb-micro-sd-memory-card.mobiles_productpage.left.png)
-\* Provides Sandisk 4GB microSD card but can be substituted with
-different product that has same features depends on manufacturer.
+
+* Provides Sandisk 4GB microSD card but can be substituted with different product that has same features depends on manufacturer.
 
 
 Recommend to use listed SD card in case of using different SD card.
@@ -91,9 +91,9 @@ The SD card isn't included with module. The SD card supports
 The process for using the SD card as a storage media for web content of
 WIZ550web is described below.
 
-#### \>\> The process for using the SD card (for Windows)
+#### The process for using the SD card (for Windows)
 
-1\. Format a Micro SD card with FAT32 file system
+1. Format a Micro SD card with FAT32 file system
 
 Insert the Micro SD card into an SD card reader and format it with the
 Windows explorer
@@ -106,24 +106,23 @@ Windows explorer
 
 ![](/img/products/wiz550web/sdcard/sdcard_format_complete.jpg)
 
-2\. Download the demo web page from [WIZ550web GitHub
+2. Download the demo web page from [WIZ550web GitHub
 repository](https://github.com/Wiznet/WIZ550web)
 
 ![](/img/products/wiz550web/sdcard/sdcard_github_clone_box.jpg)
 
-3\. Copy the demo Web page to the Micro SD card
+3. Copy the demo Web page to the Micro SD card
 
 ![](/img/products/wiz550web/sdcard/sdcard_webpage_folder_merge_box.jpg)
 
-4\. Insert the Micro SD card into the SD card slot of WIZ550web
+4. Insert the Micro SD card into the SD card slot of WIZ550web
 
-5\. After powering up the module you can access the webserver.
+5. After powering up the module you can access the webserver.
 
 ### Data flash Initialization
 
- **We support storage method of data
-flash as well as SD card after v1.1.0 release.**
-<https://github.com/Wiznet/WIZ550web/releases>
+**We support storage method of data flash as well as SD card after v1.1.0 release.**
+[https://github.com/Wiznet/WIZ550web/releases](https://github.com/Wiznet/WIZ550web/releases)
 
 1.  You can use one of a SD card and a data flash. The mount priority of
     a SD card is higher than a data flash.
@@ -138,15 +137,14 @@ flash as well as SD card after v1.1.0 release.**
         tool.([ALFTP](http://www.altools.com/ALTools/ALFTP.aspx))
 
 
-Refer to WIZ550web+FatFS+FTPServer Project Tutorial.
-(<http://youtu.be/XtnT2_CNgaY>)
+Refer to [WIZ550web+FatFS+FTPServer Project Tutorial](http://youtu.be/XtnT2_CNgaY)
 
-Refer to WIZ550web+WindowsFTP Tutorial. (<http://youtu.be/kelGSGj3kOQ>)
-**Need to apply a commit
-[cfce843](https://github.com/Wiznet/WIZ550web/commit/cfce843031bf4657fc9530e5c505a9a3d555fc91).**
+Refer to [WIZ550web+WindowsFTP Tutorial.](http://youtu.be/kelGSGj3kOQ)
 
+**Need to apply a commit [cfce843](https://github.com/Wiznet/WIZ550web/commit/cfce843031bf4657fc9530e5c505a9a3d555fc91).**
 
-Refer to WIZ550web+LinuxFTP Tutorial. (<http://youtu.be/6qsPZA5QKEI>)
+Refer to [WIZ550web+LinuxFTP Tutorial](http://youtu.be/6qsPZA5QKEI)
+
 ### Serial Debug Message
 
 When power is applied to the WIZ550web module, the serial debug message
@@ -228,7 +226,7 @@ request method. The CGI for each HTTP methods are handled as below.
 
   - The method for getting the values from web server
   - Passed in the form of a **JavaScript callback function parameters**
-      - Same structures as **JSON**\[1\]
+      - Same structures as **JSON**
       - The function name in the HTTP response body must be the same on
         the Web page's JavaScript Callback function name
       - e.g., If the 'function IoStatusCallback' is Javascript function
@@ -242,9 +240,9 @@ request method. The CGI for each HTTP methods are handled as below.
   - Values are passing by the **Web form element**
   - **Name-value pairs**; Each pair is separated by '&' and the
     Name/value of a pair is represented by '='
-      - e.g., 'Pin : 1, Val : 1' =\> 'Pin=1\&Val=1'
+      - e.g., 'Pin : 1, Val : 1' => 'Pin=1 & Val=1'
 
-Each requests are handled by **AJAX**\[2\] techniques for efficient data
+Each requests are handled by **AJAX** techniques for efficient data
 processing in the limited resources embedded web server. The advantage
 is that the server avoids the full web page reload and reduces the load
 on the server.
@@ -270,7 +268,7 @@ below.
           - UART2 : AT command port (RS485/422 on the dev board)
 
 
-\* **Digital I/O Status**: Indicates Digital I/O's Direction and Status
+**Digital I/O Status**: Indicates Digital I/O's Direction and Status
 
   * On-board LED Status
   * Digital I/O Direction / Status: When the I/O is output direction, users can be set On/Off
@@ -299,7 +297,7 @@ The 'Device Settings' tab is configured as below.
 The user can check the device information like MAC address / Firmware
 version and set the network information (IP address, DHCP options and
 etc.), serial port configuration through the 'Device Settings' tab.
-After adjusting the settings, if the **\[Save Settings and Reboot\]**
+After adjusting the settings, if the **Save Settings and Reboot**
 button is pressed, the configurations is saved and the WIZ550web module
 reboots. Please note that the module will change the settings after
 reboot.  
@@ -319,9 +317,9 @@ is output to terminal as below.
 The 'Digital I/O Status' tab is configured as below.
 ![](/img/products/wiz550web/webpage_basicdemo/basic_demopage_2.jpg)
 
-\[On-board LED\] WIZ550web's LEDs can be control by On/Off button in web
+On-board LED WIZ550web's LEDs can be control by On/Off button in web
 page.  
-\[Digital I/O Status\] Digital I/O Status indicates the current status.
+Digital I/O Status Digital I/O Status indicates the current status.
 When the I/O is output, users can set On/Off. Each I/O information are
 configured as below.
 
@@ -332,13 +330,13 @@ configured as below.
     ![](/img/products/wiz550web/webpage_basicdemo/di_off.png) Off)
   - **On/Off Buttons** (for Output directions)
   For 'Input',  
-\- On/Off button is not indicated. If the input signal is 'high', the
+- On/Off button is not indicated. If the input signal is 'high', the
 'green LED' is turned on.  
 For 'Output',  
-\- On/Off button is indicated. If the output signal is 'high', the 'blue
+- On/Off button is indicated. If the output signal is 'high', the 'blue
 LED' is turned on.  
 For 'NotUsed',  
-\- On/Off button is not indicated. turned off the LED (off LED).  
+- On/Off button is not indicated. turned off the LED (off LED).  
   
 Users can set each I/O directions in 'I/O configuration' tab. See below
 for digital I/O status setting examples.
@@ -350,25 +348,19 @@ for digital I/O status setting examples.
 The 'ADC Status' tab is configured as below.
 ![](/img/products/wiz550web/webpage_basicdemo/basic_demopage_3_cut.jpg)
 
-The Analog input signal through ADC changes into a bar graphs is
-displayed in real-time.  
-WIZ550web baseboard is equipped with Potentiometer and Temperature
-sensor on A0 / A1. For example, by adjusting the value of the
-Potentiometer (A0), users can see the changes in the graph as below.
+The Analog input signal through ADC changes into a bar graphs is displayed in real-time.  
+WIZ550web baseboard is equipped with Potentiometer and Temperature sensor on A0 / A1. For example, by adjusting the value of the Potentiometer (A0), users can see the changes in the graph as below.
 
 ### I/O Configuration
 
 The 'I/O Configuration' tab is configured as below.
 ![](/img/products/wiz550web/webpage_basicdemo/basic_demopage_4.jpg)
 
-Change of the I/O Directions and Aliases setting will be reflected
-immediately. Each I/O's LED images are the same as I/O status page (Blue
-/ Green / Off).
+Change of the I/O Directions and Aliases setting will be reflected immediately. Each I/O's LED images are the same as I/O status page (Blue / Green / Off).
 
-Only when the 'Not Used' option is selected, the red 'X' is displayed
-for visibility.
+Only when the 'Not Used' option is selected, the red 'X' is displayed for visibility.
 
-When you press the **\[IO Settings Factory Reset and Reboot\]** button,
+When you press the **IO Settings Factory Reset and Reboot** button,
 the WIZ550web module factory reset is executed, and is rebooted. Please
 note that the module is rebooted into default settings.
 
@@ -384,8 +376,8 @@ The 'Serial Data' tab is configured as below.
 In this page, user can test the 'Serial data input/output through
 Webpage to UART1' (Serial data Tx/Rx) functions.
 
-Type 'hello world\!' in the **'Data to send'** input box and then press
-the **\[Send\]** button.
+Type 'hello world!' in the **'Data to send'** input box and then press
+the **Send** button.
 
 ![](/img/products/wiz550web/webpage_basicdemo/basic_demopage_5_cut_helloworld_checked.jpg)
 Serial terminal shows the string from web page through UART1.
@@ -400,6 +392,7 @@ On the contrary, if the user types the string on serial terminal, the
 ### Note
 
 **Favicon**  
+
 Favicon is a complex word of 'favorites' and 'icon', and is displayed as
 a small icon in the address bar / tabs of web browser (e.g., Google
 Chrome, MS Internet Explorer). By using this, the user is able to know
@@ -415,8 +408,7 @@ User can add the 'Favicon' as the following steps
 2.  Move the 'favicon.ico' to web content storage
 3.  Insert the link code at the top of the 'index.html' page
 
-e.g., `<link rel='shortcut icon' href='/favicon.ico'
-type='image/x-icon'>`
+e.g., ```<link rel='shortcut icon' href='/favicon.ico' type='image/x-icon'>```
 
 -----
 
@@ -451,10 +443,8 @@ same method described on this page.
 
 ### WIZ550web Web I/O Examples
 
- This Section is **UNDER
-CONSTRUCTION**.  
+This Section is **UNDER CONSTRUCTION**.  
 Check back soon. 
-
 
 1.  **FAT: File Allocation Table**  
     as File system format, because it used by the majority of memory

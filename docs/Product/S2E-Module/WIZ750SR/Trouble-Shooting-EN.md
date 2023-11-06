@@ -159,12 +159,10 @@ date: 2020-04-08
 <summary>What is the next step if my problem is still not solved?</summary>
 
   - Users can ask questions at the [WIZnet Forum](https://forum.wiznet.io/).
-      - <https://forum.wiznet.io/>
+      - https://forum.wiznet.io/
 
-  - All WIZnet products have a **warranty of 1 year from the purchase
-    date**.
-  - Contact the person you purchased the product from and request a
-    **RMA**.
+  - All WIZnet products have a **warranty of 1 year from the purchase date**.
+  - Contact the person you purchased the product from and request a **RMA**.
 
 </details>
 

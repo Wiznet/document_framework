@@ -9,92 +9,20 @@ date: 2020-04-08
 
 ### Product Spec Table
 
-<table>
-<thead>
-<tr class="header">
-<th>Category</th>
-<th></th>
-<th>Description</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>MCU</td>
-<td>ARM<br />
-Cortex-M0<br />
-Core</td>
-<td>W7500<br />
-48Mhz maximum frequency<br />
-Internal 8Mhz RC Oscillator<br />
-Flash: 128KB<br />
-Large flexible-size SRAM buffer for various User Application<br />
-- Min 16KB available if full 32KB socket buffer used<br />
-- Max 48KB available if no socket buffer used<br />
-ROM for boot code: 6 KB</td>
-</tr>
-<tr class="even">
-<td>:::</td>
-<td>Hardwired<br />
-TCP/IP<br />
-Core</td>
-<td>8 independent Sockets<br />
-SRAM for socket: 32KB<br />
-MII (Medium-Independent Interface)<br />
-TCP/IP Protocols: TCP, UDP, ICMP, IPv4, ARP, IGMP, PPPoE</td>
-</tr>
-<tr class="odd">
-<td>PHY</td>
-<td>Transceiver</td>
-<td>IP101GRI<br />
-Single 10/100M Ethernet Transceiver</td>
-</tr>
-<tr class="even">
-<td>Serial</td>
-<td>Interface</td>
-<td>WIZ750SR-105: TTL Version<br />
-WIZ105SR-EVB: RS-232 Version</td>
-</tr>
-<tr class="odd">
-<td>:::</td>
-<td>Signal</td>
-<td>TXD, RXD, RTS, CTS, GND</td>
-</tr>
-<tr class="even">
-<td>:::</td>
-<td>Parameters</td>
-<td>Parity: None, Odd, Even<br />
-Data bits: 7, 8 bit<br />
-Flow control: None, RTS / CTS, XON / XOFF</td>
-</tr>
-<tr class="odd">
-<td>:::</td>
-<td>Speed</td>
-<td>Up to 230Kbps</td>
-</tr>
-<tr class="even">
-<td>Dimension</td>
-<td></td>
-<td>62mm x 40mm ( PCB board size )<br />
-62mm x 40mm x 18mm ( Include part size )</td>
-</tr>
-<tr class="odd">
-<td>Connector type</td>
-<td></td>
-<td><strong>RJ-45(Ethernet Connector)</strong><br />
-2.00mm Pitch 2x6 SMD Pin-header(Data Line)</td>
-</tr>
-<tr class="even">
-<td>Input Voltage</td>
-<td></td>
-<td>DC 3.3V, 100mA under</td>
-</tr>
-<tr class="odd">
-<td>Temperature</td>
-<td></td>
-<td>-40℃ ~ 85℃ (Operation), -40℃ ~ 85℃ (Storage range)</td>
-</tr>
-</tbody>
-</table>
+| Category       |                        | Description |
+|----------------|------------------------|-------------|
+| MCU            | ARM Cortex-M0 Core      | W7500<br />48Mhz maximum frequency<br />Internal 8Mhz RC Oscillator<br />Flash: 128KB<br />Large flexible-size SRAM buffer for various User Application<br />- Min 16KB available if full 32KB socket buffer used<br />- Max 48KB available if no socket buffer used<br />ROM for boot code: 6 KB |
+| MCU            | Hardwired TCP/IP Core   | 8 independent Sockets<br />SRAM for socket: 32KB<br />MII (Medium-Independent Interface)<br />TCP/IP Protocols: TCP, UDP, ICMP, IPv4, ARP, IGMP, PPPoE |
+| PHY            | Transceiver             | IP101GRI<br />Single 10/100M Ethernet Transceiver |
+| Serial         | Interface               | WIZ750SR-105: TTL Version<br />WIZ105SR-EVB: RS-232 Version |
+| Serial         | Signal                  | TXD, RXD, RTS, CTS, GND |
+| Serial         | Parameters              | Parity: None, Odd, Even<br />Data bits: 7, 8 bit<br />Flow control: None, RTS / CTS, XON / XOFF |
+| Serial         | Speed                   | Up to 230Kbps |
+| Dimension      |                        | 62mm x 40mm (PCB board size)<br />62mm x 40mm x 18mm (Include part size) |
+| Connector type |                        | **RJ-45(Ethernet Connector)**<br />2.00mm Pitch 2x6 SMD Pin-header(Data Line) |
+| Input Voltage  |                        | DC 3.3V, 100mA under |
+| Temperature    |                        | -40℃ ~ 85℃ (Operation), -40℃ ~ 85℃ (Storage range) |
+
 
 ------------------------------------------------------------------------
 

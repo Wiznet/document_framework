@@ -298,7 +298,7 @@ peer system.
     Hello             &#60;= When serial data is 5byte, WizFi310 send this data to peer system
     [OK]
     
-    {0,192.168.12.23,5000,11}Hi WizFi310  ( Receiving data from pear system )
+    \{0,192.168.12.23,5000,11\}Hi WizFi310  ( Receiving data from pear system )
 
 ##### Socket Close
 
@@ -413,7 +413,7 @@ system information like IP address and port number. Before peer system
 is connected to WizFi310, WizFi310 does not send data to peer system. So
 you should be careful when using &#60;UDP Server Mode&#62;.
 
-    {0,192.168.12.23,5001,11}Hi WizFi310  ( Receiving data from peer system )
+    \{0,192.168.12.23,5001,11\}Hi WizFi310  ( Receiving data from peer system )
     
     AT+SSEND=0,,,5                     ( Sending data to a Socket with CID 0 )
     Hello           &#60;= When serial data is 5byte, WizFi310 send this data to peer system
@@ -578,11 +578,11 @@ command as below.
     AT+SSEND=0,,,18
     [0,,,18]
     ...
-    GET / HTTP/1.1{0x0d}{0x0a}                      ( Send data to Facebook )
-    {0x0d}{0x0a}
+    GET / HTTP/1.1\{0x0d\}\{0x0a\}                      ( Send data to Facebook )
+    \{0x0d\}\{0x0a\}
     ...
     [OK]
-    {0,173.252.120.68,443,1500}HTTP/1.1 400 Bad Request     ( Receive data from Facebook )
+    \{0,173.252.120.68,443,1500\}HTTP/1.1 400 Bad Request     ( Receive data from Facebook )
     Content-Type: text/html; charset=utf-8
     Date: Tue, 24 May 2016 06:03:48 GMT
     Connection: close

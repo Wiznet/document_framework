@@ -80,7 +80,7 @@ WIZ750SR 제품 IP 주소의 초기 설정 값
 WIZ750SR 제품 포트 번호의 초기 설정 값: **5000** 
 :::
 
-1.  Internet Assigned Numbers Authority, <http://www.iana.org>
+1.  Internet Assigned Numbers Authority, http://www.iana.org
 
 ### 원격지 호스트 설정
 

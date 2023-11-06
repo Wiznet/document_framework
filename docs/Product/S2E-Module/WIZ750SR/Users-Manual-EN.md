@@ -99,7 +99,7 @@ Default Remote host settings of WIZ750SR
 
 -----
 
-1.  Internet Assigned Numbers Authority, <http://www.iana.org>
+1.  Internet Assigned Numbers Authority, http://www.iana.org
 
 2.  TCP client mode or TCP server/client mixed mode
 

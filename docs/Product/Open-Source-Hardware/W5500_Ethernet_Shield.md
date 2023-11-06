@@ -86,7 +86,7 @@ W5500 Ethernet shield has several configurable GPIOs
   - W5500 INTn pin is linked to D2 (2,3 Short). So, if you need INTn
     pin. You soldering to 0R Resistor to Dx pin
 
-**Caution)** When the user uses 5V Platform, we cannot confirm a stable
+**Caution** When the user uses 5V Platform, we cannot confirm a stable
 operation of SD-CARD. Therefore, though 5V Platform is safe to use after
 going through enough tests, it is highly recommended to mount buffer &
 100nF Capacitor for a secure operation.
@@ -167,6 +167,6 @@ to the chip's datasheet:
 
 **Ethernet Library**
 
-  - 🌎<https://github.com/Wiznet/WIZ_Ethernet_Library>
+  - 🌎[https://github.com/Wiznet/WIZ_Ethernet_Library](https://github.com/Wiznet/WIZ_Ethernet_Library)
 
 -----

@@ -80,7 +80,7 @@ PC 환경마다 다를 수 있다. ![](/img/products/wizwiki_mbed_kit/kit_en/2d.
 
 데이터 출력뿐만이 아니라 입력도 테스트 할 수 있는 예제이다. 이 예제는 WIZnet 팀에서 만든 예제이다. 아래 링크를 클릭한
 후 main.cpp를 열어 코드를 복사해 테스트해 볼 수도 있고, Import해서 실행할 수도 있다.
-🌎<https://os.mbed.com/teams/WIZnet/code/Serial_HelloWorld_WIZwiki-W7500/>
+🌎[https://os.mbed.com/teams/WIZnet/code/Serial_HelloWorld_WIZwiki-W7500/](https://os.mbed.com/teams/WIZnet/code/Serial_HelloWorld_WIZwiki-W7500/)
 
 ## 관련 링크
 

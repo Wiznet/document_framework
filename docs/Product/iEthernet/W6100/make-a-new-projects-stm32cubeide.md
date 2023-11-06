@@ -9,16 +9,16 @@ different IDEs such as STMicroelectronics STM32CubeIDE.
 
 ## Make a new W6100-EVB project with STM32CubeIDE
 
-### 0\. Download and install Dev. enviroment & compiler
+### 0. Download and install Dev. enviroment & compiler
 
 STM32CubeIDE provides a free Dev. Environment incl. It include IDE and C
 compiler.  
 **Download the IDE + compiler here:**  
-<https://www.st.com/en/development-tools/stm32cubeide.html>  
+https://www.st.com/en/development-tools/stm32cubeide.html
 
 -----
 
-### 1\. Import libraries to STM32CubeIDE workspace
+### 1. Import libraries to STM32CubeIDE workspace
 
 You should import provided projects to your new project for easy to
 configure.

@@ -16,7 +16,7 @@ different IDEs such as STMicroelectronics STM32CubeIDE.
 STM32CubeIDE provides a free Dev. Environment incl. It include IDE and C
 compiler.  
 **Download the IDE + compiler here:**  
-<https://www.st.com/en/development-tools/stm32cubeide.html>  
+https://www.st.com/en/development-tools/stm32cubeide.html
 
 
 ### 1\. Import libraries to STM32CubeIDE workspace

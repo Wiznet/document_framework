@@ -102,9 +102,8 @@ V1.3 Boot + V1.2.x App : **Not Working.**
 
 #### WIZ750SR Series Firmware source code link
 
-**WIZ750SR Series GitHub
-Repository**  
-<https://github.com/Wiznet/WIZ750SR>
+**WIZ750SR Series GitHub Repository**  
+https://github.com/Wiznet/WIZ750SR
 
 
   - The above link is an integrated firmware project(MDK-ARM)'s
@@ -112,9 +111,8 @@ Repository**
 
 #### WIZ752SR Series Firmware source code link
 
-**WIZ752SR Series GitHub
-Repository**  
-<https://github.com/Wiznet/WIZ752SR-12x> 
+**WIZ752SR Series GitHub Repository**  
+https://github.com/Wiznet/WIZ752SR-12x
 
 -----
 
@@ -124,11 +122,12 @@ Repository**
 
 
 ![](/img/products/wiz750sr/download/wizconfig_main_v1.0.0.png) 
+
 **Download the latest version**
-<https://github.com/Wiznet/WIZnet-S2E-Tool-GUI/releases> 
+https://github.com/Wiznet/WIZnet-S2E-Tool-GUI/releases
 
  **GitHub Repository**
-<https://github.com/Wiznet/WIZnet-S2E-Tool-GUI> 
+https://github.com/Wiznet/WIZnet-S2E-Tool-GUI
 
 -----
 

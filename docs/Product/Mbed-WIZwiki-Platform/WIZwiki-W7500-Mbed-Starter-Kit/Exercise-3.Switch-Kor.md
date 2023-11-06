@@ -65,7 +65,7 @@ mybutton(D6); 부분은 D6 핀을 입력모드로 설정한다.
 버튼에서 손을 떼면 LED가 꺼진다.
 
 위 Example Code 부분 DigitalOut 과 DigitalIn 등의 Class와 API에 대한 학습은 mbed
-Handbook 페이지를 참고한다. 🌎<https://os.mbed.com/handbook/Homepage>
+Handbook 페이지를 참고한다. 🌎[https://os.mbed.com/handbook/Homepage](https://os.mbed.com/handbook/Homepage)
 
 ## 관련 링크
 

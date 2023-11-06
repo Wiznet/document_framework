@@ -31,16 +31,16 @@ As ioShield uses W5500 chipset, instead of W5100 which was used before in the Ar
         : Based on 🌎[Arduino Duemilanove](http://arduino.cc/en/Main/ArduinoBoardDuemilanove)
 
 -----
->
+
  Although you have non-AVR Arduino-compatible board, you could use ioShield Hardware. But you should use adequate S/W libraries for each chipsets. please refer to each product's web site.
 
   - Cookie Board : Based on ARM Cortex-M3/M0
-    🌎<http://www.coocox.org/Cookie.html>
+    🌎http://www.coocox.org/Cookie.html
   - GR-Sakura Board : Based on Renesas 32-bit RX63N
-    🌎<http://www.renesas.com/products/promotion/gr/index.jsp#board>
-  - Chipkit : Based on Microchip PIC series 🌎<http://chipkit.net/>
+    🌎http://www.renesas.com/products/promotion/gr/index.jsp#board
+  - Chipkit : Based on Microchip PIC series 🌎http://chipkit.net/
 
->
+
 
 ## Available Resource
 
@@ -48,4 +48,4 @@ All design files and source codes for the ioShield can be found on GitHub:
 
   - Hardware Ver1.0: schematic(<a href="/img/osh/ioshield-a/ioshield-a.pdf" target="_blank">PDF file</a>), schematic & PCB file([Eagle CAD](/img/osh/ioshield-a/ioshield-a_eaglecad.zip)), Part List(<a href="/img/osh/ioshield-a/ioshield-a_v1_0_pl_130904.pdf" target="_blank">PDF file</a>)
   - Hardware Ver1.1: schematic(<a href="/img/osh/ioshield-a/ioshield-a_v1.1_sch.pdf" target="_blank">PDF file</a>), schematic & PCB file([Eagle CAD](/img/osh/ioshield-a/ver1_1.zip)), Part List(<a href="/img/osh/ioshield-a/ioshield-a_v1_1_pl_140120.pdf" target="_blank">PDF file</a>)
-  - Ethernet Library : 🌎<https://github.com/Wiznet/WIZ_Ethernet_Library>
+  - Ethernet Library : 🌎https://github.com/Wiznet/WIZ_Ethernet_Library

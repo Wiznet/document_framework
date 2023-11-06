@@ -30,13 +30,9 @@ WIZ550web은 WIZnet W5500 Hardwired TCP/IP 칩을 기반으로 한 임베디드 
       - Application / Boot
   - Demo webpage
 
- **WIZ550web GitHub Repository**
+ [**WIZ550web GitHub Repository**](https://github.com/Wiznet/WIZ550web)
 
-<https://github.com/Wiznet/WIZ550web>
-
- **WIZ550web GitHub Page**
-
-<http://wiznet.github.io/WIZ550web> 
+ [**WIZ550web GitHub Page**](http://wiznet.github.io/WIZ550web)
 
 **개발 환경**
 
@@ -70,8 +66,7 @@ WIZ550web은 WIZnet W5500 Hardwired TCP/IP 칩을 기반으로 한 임베디드 
 EVB는 SD card를 함께 제공한다.**
 ![](/img/products/wiz550web/sdcard/sandisk-4gb-micro-sd-memory-card.mobiles_productpage.left.png)
 
-\* Sandisk 4GB microSD card를 제공하며, 제조사의 사정에 따라 동일한 품질의 다른 제품으로 제공 될 수
-있다.
+* Sandisk 4GB microSD card를 제공하며, 제조사의 사정에 따라 동일한 품질의 다른 제품으로 제공 될 수 있다.
 
 만약 다른 SD card를 사용 할 경우, list up 된 SD card를 사용할 것을 권장한다.
 
@@ -86,14 +81,14 @@ EVB는 SD card를 함께 제공한다.**
 ### SD card Initialization
 
 WIZ550web은 Micro SD card를 web content storage로 이용하며, 별매품이다. SD card를 위한
-file system으로 **FAT**\[1\] file system format을 지원하며, FAT32를 사용하는 것을
+file system으로 **FAT** file system format을 지원하며, FAT32를 사용하는 것을
 권장한다.
 
 SD card를 WIZ550web의 web content storage로 이용하기 위한 전체 과정은 다음과 같다.
 
-#### \>\> SD card를 사용하기 위해 준비해야 할 과정 (for Windows)
+#### SD card를 사용하기 위해 준비해야 할 과정 (for Windows)
 
-1\. 준비된 Micro SD card를 FAT32 file system으로 포맷(format)
+1. 준비된 Micro SD card를 FAT32 file system으로 포맷(format)
 
 Micro SD card를 SD card reader에 삽입하고, PC에 연결한 뒤 Windows 탐색기(explorer)에서
 해당 장치의 포맷을 수행한다.
@@ -106,23 +101,22 @@ Micro SD card를 SD card reader에 삽입하고, PC에 연결한 뒤 Windows 탐
 
 ![](/img/products/wiz550web/sdcard/sdcard_format_complete.jpg)
 
-2\. [WIZ550web GitHub repository](https://github.com/Wiznet/WIZ550web)에서
+2. [WIZ550web GitHub repository](https://github.com/Wiznet/WIZ550web)에서
 Web page demo 다운로드
 
 ![](/img/products/wiz550web/sdcard/sdcard_github_clone_box.jpg)
 
-3\. Web page demo를 Micro SD card로 복사
+3. Web page demo를 Micro SD card로 복사
 
 ![](/img/products/wiz550web/sdcard/sdcard_webpage_folder_merge_box.jpg)
 
-4\. Micro SD card를 WIZ550web의 SD card slot에 삽입
+4. Micro SD card를 WIZ550web의 SD card slot에 삽입
 
-5\. 완료
+5. 완료
 
 ### Data flash Initialization
 
- **버전 v1.1.0 이상부터는 메모리 카드 뿐만 아니라 data
-flash를 추가 지원한다.** <https://github.com/Wiznet/WIZ550web/releases>
+ **버전 v1.1.0 이상부터는 메모리 카드 뿐만 아니라 data flash를 추가 지원한다.** [https://github.com/Wiznet/WIZ550web/releases](https://github.com/Wiznet/WIZ550web/releases)
 
 1.  메모리 카드 또는 data flash 중 하나를 이용 가능하며 마운트 되는 우선순위는 메모리 카드가 data flash
     보다 우선한다.
@@ -135,15 +129,13 @@ flash를 추가 지원한다.** <https://github.com/Wiznet/WIZ550web/releases>
 
 
 
-참조 : WIZ550web+FatFS+FTPServer Project Tutorial.
-(<http://youtu.be/XtnT2_CNgaY>)
+참조 : [WIZ550web+FatFS+FTPServer Project Tutorial](http://youtu.be/XtnT2_CNgaY)
 
-참조 : WIZ550web+WindowsFTP Tutorial. (<http://youtu.be/kelGSGj3kOQ>)
-**commit
-[cfce843](https://github.com/Wiznet/WIZ550web/commit/cfce843031bf4657fc9530e5c505a9a3d555fc91)
-적용 필요.** 
+참조 : [WIZ550web+WindowsFTP Tutorial](http://youtu.be/kelGSGj3kOQ)
 
-참조 : WIZ550web+LinuxFTP Tutorial. (<http://youtu.be/6qsPZA5QKEI>)
+**commit [cfce843](https://github.com/Wiznet/WIZ550web/commit/cfce843031bf4657fc9530e5c505a9a3d555fc91) 적용 필요.** 
+
+참조 : [WIZ550web+LinuxFTP Tutorial](http://youtu.be/6qsPZA5QKEI)
 
 ### Serial Debug Message
 
@@ -220,7 +212,7 @@ Request) 으로 구성되며, 다음의 각각 HTTP method에 따라 동작한�
 
   - 웹 서버의 값을 얻기 위한 방법
   - **JavaScript callback function parameter**의 형태로 전달
-      - **JSON**\[1\]과 동일한 구조
+      - **JSON**과 동일한 구조
       - 웹 서버 측에서 웹 페이지의 JavaScript 함수명과 동일한 이름을 가진 묶음의 데이터를 전달해야 함
       - e.g., 웹 페이지의 JavaScript 함수명이 `function IoStatusCallback` 인 경우, 웹
         서버는 `IoStatusCallback({"din":[{"v":"1"}, {"v":"0"}],
@@ -232,9 +224,9 @@ Request) 으로 구성되며, 다음의 각각 HTTP method에 따라 동작한�
   - **Web form element**를 통한 값 전달
   - **Name-value pair**의 형태로 표현. ‘&’로 각각 pair가 구분되며 한 pair의 name에 대한
     value는 ‘=’로 표시
-      - e.g., ‘Pin : 1, Val : 1’ =\> ‘Pin=1\&Val=1’
+      - e.g., ‘Pin : 1, Val : 1’ => ‘Pin=1 & Val=1’
 
-임베디드 웹 서버의 제한적인 리소스 안에서 효율적인 데이터 처리를 위해 각 요청은 **AJAX**\[2\]로 처리한다. 이를 통해
+임베디드 웹 서버의 제한적인 리소스 안에서 효율적인 데이터 처리를 위해 각 요청은 **AJAX**로 처리한다. 이를 통해
 웹 브라우저의 페이지 이동(Web page reload) 없이 변경된 서버의 값 표현이 가능하며 수신 데이터의 양이 적어지기
 때문에 웹 서버의 데이터 처리에 대한 부하를 줄일 수 있다.
 
@@ -242,8 +234,7 @@ Request) 으로 구성되며, 다음의 각각 HTTP method에 따라 동작한�
 
 ## Basic Demo Web Pages
 
-Basic Demo Web Page의 Screenshot은 **Google
-Chrome Browser version 37**에서 이루어졌다.
+Basic Demo Web Page의 Screenshot은 **Google Chrome Browser version 37**에서 이루어졌다.
 
 WIZ550web에 기본적으로 제공되는 Demo webpage는 index.html 하나의 파일에 탭(Tab) 형태의 구조이며,
 다음과 같은 세부 탭 항목으로 구성되어 있다. 각 탭은 다음과 같은 목적으로 구성된다.
@@ -255,29 +246,20 @@ WIZ550web에 기본적으로 제공되는 Demo webpage는 index.html 하나의 �
           - UART1 : Data/Console/Debug/Program port (EVB 경우 RS232)
           - UART2 : AT command port (EVB 경우 RS485/422)
 
-
-
   - **Digital I/O Status**: Digital I/O의 Direction 및 Status 표시
       - On-board LED Status
       - Digital I/O Direction / Status: Output Pin의 경우 On/Off 설정 가능
 
-
-
   - **ADC Status**: Analog 입력의 값 변화 표시
       - Analog Input Signals
-
-
 
   - **I/O Configuration**: Digital I/O의 Direction 및 Alias 설정 
       - Digital I/O State and Alias Configuration
       - Digital I/O Settings Factory Default
 
-
-
   - **Serial Data**: 웹 페이지와 UART1의 Serial data 입/출력 확인
       - Serial Tx (Web to UART1) / Rx (UART1 to Web)
       - GitHub의 WIZ550web 오픈 코드는 Tx기능만 구현
-
 
 ### Device Settings
 
@@ -286,7 +268,7 @@ Device Settings 탭의 기본 구성은 다음과 같다.
 
 Device Settings 탭에서는 모듈의 MAC 주소, 펌웨어의 버전 정보 등을 확인할 수 있으며 Device Name 및
 각종 Network 정보(IP 주소, DHCP 사용 여부 등)와 Serial Port 설정 정보를 변경할 수 있다. 각종
-정보 변경 후 **\[Save Settings and Reboot\]** 버튼을 누르면 변경된 정보가 저장되고
+정보 변경 후 **Save Settings and Reboot** 버튼을 누르면 변경된 정보가 저장되고
 WIZ550web이 Reboot된다. Network 정보 설정 등이 이루어지는 만큼, 설정 이후 모듈이 Reboot 됨에
 주의하여야 한다.  
   
@@ -315,11 +297,11 @@ Digital I/O Status를 통해 I/O 각각의 상태를 확인하고 Output인 경�
   - **On/Off 버튼** (Output의 경우)
 
 Input의 경우,  
-\- On/Off 버튼은 없으며 Input signal이 있는 경우 Green LED가 점등된다.  
+- On/Off 버튼은 없으며 Input signal이 있는 경우 Green LED가 점등된다.  
 Output의 경우,  
-\- On/Off 버튼으로 설정이 가능하며 Output On인 경우 Blue LED가 점등된다.  
+- On/Off 버튼으로 설정이 가능하며 Output On인 경우 Blue LED가 점등된다.  
 NotUsed의 경우,  
-\- On/Off 버튼은 없으며 Off LED만 표시된다.  
+- On/Off 버튼은 없으며 Off LED만 표시된다.  
   
 각각 I/O의 Direction은 I/O configuration 페이지에서 설정할 수 있으며, 예를 들어 다음과 같이 설정할 수
 있다.
@@ -346,7 +328,7 @@ I/O Configuration 탭의 기본 구성은 다음과 같다.
 
 각 I/O의 Direction과 Alias설정은 변경 즉시 반영되어 확인할 수 있다. 각각 I/O의 Direction에 따른
 LED 이미지 색은 Off / Blue / Green으로 동일하며, NotUsed의 경우만 Visibility를 고려하여
-**'X'**로 표기된다. **\[IO Settings Factory Reset and Reboot\]** 버튼을 누르면 설정 값
+**'X'**로 표기된다. **IO Settings Factory Reset and Reboot** 버튼을 누르면 설정 값
 초기화와 함께 WIZ550web 모듈이 Reboot 됨을 유의해야 한다.  
   
 각종 설정을 변경하면 다음과 같이 표시되며, 변경 즉시 확인 할 수 있다.
@@ -359,7 +341,7 @@ Serial Data 탭의 기본 구성은 다음과 같다.
 ![](/img/products/wiz550web/webpage_basicdemo/basic_demopage_5_cut.jpg)
 
 이 페이지에서는 Webpage와 UART1 간의 Serial data 입/출력 (Serial data Tx/Rx)을 확인 할 수
-있다. **'Data to send'**에 'hello world\!'를 입력하고 **\[Send\]** 버튼을 누른다.
+있다. **'Data to send'**에 'hello world!'를 입력하고 **Send** 버튼을 누른다.
 
 ![](/img/products/wiz550web/webpage_basicdemo/basic_demopage_5_cut_helloworld_checked.jpg)
 
@@ -386,8 +368,7 @@ Favicon은 즐겨찾기(favorites)와 아이콘(icon)의 합성어로, 주소창
 2.  웹 페이지가 위치한 Content storage에 해당 icon을 저장한다.
 3.  index.html 페이지 상단에 다음과 같은 링크 코드를 삽입한다.
 
-e.g., `<link rel='shortcut icon' href='/favicon.ico'
-type='image/x-icon'>`
+e.g., ```<link rel='shortcut icon' href='/favicon.ico' type='image/x-icon'>```
 
 -----
 

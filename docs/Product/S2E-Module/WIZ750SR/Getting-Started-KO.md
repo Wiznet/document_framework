@@ -227,8 +227,8 @@ PC의 Configuration tool을 실행하여 상단 Search 버튼을 클릭합니다
 
 **새 Configuration tool은 아래 Github 링크를 통해 다운로드 가능합니다.**
 
-  - <https://github.com/Wiznet/WIZnet-S2E-Tool-GUI>
-  - <https://github.com/Wiznet/WIZnet-S2E-Tool-GUI/releases>
+  - https://github.com/Wiznet/WIZnet-S2E-Tool-GUI
+  - https://github.com/Wiznet/WIZnet-S2E-Tool-GUI/releases
 
 
 

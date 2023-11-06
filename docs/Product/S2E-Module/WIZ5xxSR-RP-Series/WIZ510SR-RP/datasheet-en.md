@@ -10,71 +10,15 @@ description: WIZ510SR-RP is a compact sized serial to Ethernet module using the 
 
 ### Product Spec Table
 
-<table>
-<thead>
-<tr class="header">
-<th>Category</th>
-<th></th>
-<th>Description</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>MCU<br />
-(RP2040)</td>
-<td>ARM<br />
-Cortex-M0+<br />
-Dure Core</td>
-<td>133Mhz maximum frequency<br />
-264KB on-chip SRAM<br />
-16KB on-chip ROM<br />
-2MB External ROM<br />
-2 × UART, 2 × SPI controllers, 2 × I2C controllers, 16 × PWM channels<br />
-1 × USB 1.1 controller and PHY, with host and device support<br />
-8 × Programmable I/O (PIO) state machines for custom peripheral support</td>
-</tr>
-<tr class="even">
-<td>Ethernet<br />
-(W5100S)</td>
-<td>Hardwired<br />
-TCP/IP<br />
-With MAX and PHY</td>
-<td>Support Hardwired Internet protocols<br />
-: TCP, UDP, WOL over UDP, ICMP, IGMPv1/v2, IPv4, ARP, PPPoE<br />
-Support 4 independent SOCKETs simultaneously<br />
-Support SOCKET-less Command<br />
-: ARP-Request, PING-Request<br />
-Internal 16Kbytes Memory for TX/ RX Buffers<br />
-10BaseT/100BaseTX Ethernet PHY Integrated<br />
-    </td>
-</tr>
-<tr class="even">
-<td>Serial</td>
-<td>Interface</td>
-<td>UART (LVTTL 3.3V) only debug<br />
-SWD<br />
-RS232C</td>
-</tr>
-<tr class="odd">
-<td>:::</td>
-<td>Signal</td>
-<td>TXD, RXD, RTS, CTS, GND<br />
-SWCLK, SWDIO</td>
-</tr>
-<tr class="even">
-<td>:::</td>
-<td>Parameters</td>
-<td>Parity: None, Odd, Even<br />
-Data bits: 7, 8 bit<br />
-Flow control: None, RTS / CTS </td>
-</tr>
-<tr class="odd">
-<td>:::</td>
-<td>Speed</td>
-<td>TBD</td>
-</tr>
-</tbody>
-</table>
+| Category       |               | Description   |
+|----------------|---------------|---------------|
+| MCU (RP2040)   | ARM Cortex-M0+ Dual Core | 133Mhz maximum frequency<br />264KB on-chip SRAM<br />16KB on-chip ROM<br />2MB External ROM<br />2 × UART, 2 × SPI controllers, 2 × I2C controllers, 16 × PWM channels<br />1 × USB 1.1 controller and PHY, with host and device support<br />8 × Programmable I/O (PIO) state machines for custom peripheral support |
+| Ethernet (W5100S) | Hardwired TCP/IP With MAC and PHY | Support Hardwired Internet protocols<br />TCP, UDP, WOL over UDP, ICMP, IGMPv1/v2, IPv4, ARP, PPPoE<br />Support 4 independent SOCKETs simultaneously<br />Support SOCKET-less Command<br />ARP-Request, PING-Request<br />Internal 16Kbytes Memory for TX/RX Buffers<br />10BaseT/100BaseTX Ethernet PHY Integrated |
+| Serial         | Interface     | UART (LVTTL 3.3V) only for debug<br />SWD<br />RS232C |
+| Serial         | Signal        | TXD, RXD, RTS, CTS, GND<br />SWCLK, SWDIO |
+| Serial         | Parameters    | Parity: None, Odd, Even<br />Data bits: 7, 8 bit<br />Flow control: None, RTS / CTS |
+| Serial         | Speed         | TBD           |
+
 
 ------------------------------------------------------------------------
 

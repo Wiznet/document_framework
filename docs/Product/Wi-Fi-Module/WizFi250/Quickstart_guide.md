@@ -94,7 +94,7 @@ LED results of WIZFI250:
 
 ![](/img/products/wizfi250/wizfi250qsg/wizfi250qsg-3.png)
 
- * If you select “S2W Setting & Scan Network” menu, …the web page will be shown as below.\\ If WizFi250 is set successfully, it shows the success message … as in the following picture on the right.\\ If you select <Next_Step> button, you can move to next page. 
+ * If you select “S2W Setting & Scan Network” menu, …the web page will be shown as below.\\ If WizFi250 is set successfully, it shows the success message … as in the following picture on the right.\\ If you select < Next_Step > button, you can move to next page. 
 
 
 | WizFi250 TCP/IP Settings guide |                                |

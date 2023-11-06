@@ -712,7 +712,7 @@ In data mode, it can be changed to command mode temporally by using serial '+++'
  * **Meaning:** Define Data Receive Header Form
  
 Define the header of received data which is used at command mode. For example, default receiving format look like below.
-“{0,192.168.0.216,59834,5}hello(0xd)(0xa)”
+“\{0,192.168.0.216,59834,5\}hello(0xd)(0xa)”
 This means ASCII code "hello" was received from 192.168.0.216:59834 by
 socket ID 0, and its length was 5. You can change this format to suit
 your system through this command.  
@@ -2122,8 +2122,8 @@ ThingPlug는 SK Telecom의 IoT 플랫폼으로, oneM2M 표준 기반의 IoT 서�
   
 - **Format:** 
 
-    AT+SKTPCON=<Con/Discon>,<ThingPlug IP>,<ThingPlug Port>,<Alive Time>,
-    <ThingPlug Portal ID>,<Credential ID>,<Service ID>,<Version>,<Device ID> 
+    AT+SKTPCON=< Con/Discon >,< ThingPlug IP >,< ThingPlug Port >,< Alive Time >,
+    < ThingPlug Portal ID >,< Credential ID >,< Service ID >,< Version >,< Device ID > 
 
   - **Meaning:** This command is used to connect to ThingPlug. 
 

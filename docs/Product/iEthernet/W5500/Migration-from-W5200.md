@@ -30,8 +30,8 @@ This driver is provided only for current W5200 users to help with a fast migrati
 </tr>
 <tr>
 <td>Package</td>
-<td>48 LQFP (7*7 mm^2)</td>
-<td>48 QFN  (7*7 mm^2)</td>
+<td>48 LQFP ( 7 * 7 mm ^ 2 )</td>
+<td>48 QFN  ( 7 * 7 mm ^ 2 )</td>
 </tr>
 <tr>
 <td>IO Voltage / Core Voltage</td>

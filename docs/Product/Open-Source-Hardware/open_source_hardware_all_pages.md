@@ -42,7 +42,7 @@ Edition](<http://www.coocox.org/Cookie/Cookie_Nuvoton.html>)
 
 Visit to the Web site
 
-URL :🌎<http://www.coocox.org/Index.html>\](<http://www.coocox.org/Index.html>.
+URL :🌎[http://www.coocox.org/Index.html](http://www.coocox.org/Index.html)
 
 
 -----

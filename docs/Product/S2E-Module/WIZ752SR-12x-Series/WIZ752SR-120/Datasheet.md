@@ -9,95 +9,20 @@ date: 2020-04-08
 
 ### Product Spec Table
 
-<table>
-<thead>
-<tr class="header">
-<th>Category</th>
-<th></th>
-<th>Description</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>MCU</td>
-<td>ARM<br />
-Cortex-M0<br />
-Core</td>
-<td>W7500<br />
-48Mhz maximum frequency<br />
-Internal 8Mhz RC Oscillator<br />
-Flash: 128KB<br />
-Large flexible-size SRAM buffer for various User Application<br />
-- Min 16KB available if full 32KB socket buffer used<br />
-- Max 48KB available if no socket buffer used<br />
-ROM for boot code: 6 KB</td>
-</tr>
-<tr class="even">
-<td>:::</td>
-<td>Hardwired<br />
-TCP/IP<br />
-Core</td>
-<td>8 independent Sockets<br />
-SRAM for socket: 32KB<br />
-MII (Medium-Independent Interface)<br />
-TCP/IP Protocols: TCP, UDP, ICMP, IPv4, ARP, IGMP, PPPoE</td>
-</tr>
-<tr class="odd">
-<td>PHY</td>
-<td>Ethernet<br />
-Transceiver</td>
-<td>IP101GRI<br />
-Single 10/100M Ethernet Transceiver</td>
-</tr>
-<tr class="even">
-<td>Serial</td>
-<td>Interface</td>
-<td>UART0<br />
-UART1</td>
-</tr>
-<tr class="odd">
-<td>:::</td>
-<td>Signal</td>
-<td>TXD0, RXD0, RTS0, CTS0<br />
-TXD1, RXD1, RTS1, CTS1</td>
-</tr>
-<tr class="even">
-<td>:::</td>
-<td>Parameters</td>
-<td>Parity: None, Odd, Even<br />
-Data bits: 7, 8 bit<br />
-Flow control: None, RTS / CTS, XON / XOFF</td>
-</tr>
-<tr class="odd">
-<td>:::</td>
-<td>Speed</td>
-<td>Up to 230Kbps</td>
-</tr>
-<tr class="even">
-<td>Dimension</td>
-<td></td>
-<td>50.00(W) x 30.00(L) x 9.00(H) (Unit : mm)</td>
-</tr>
-<tr class="odd">
-<td>Connector type</td>
-<td></td>
-<td><strong>2.00mm Pitch 1x14 Pin-header 2EA (Main)</strong><br />
-2.54mm Pitch 1x6 Pin-header(Expansion GPIO, Not Mount)<br />
-2.54mm Pitch 1x6 Pin-header (ISP &amp; Debug UART, Not Mount)<br />
-1.27mm Pitch 1x5 Pin-header (SWD(Serial Wire Debug), Not Mount)</td>
-</tr>
-<tr class="even">
-<td>Input Voltage</td>
-<td></td>
-<td>DC 3.3V</td>
-</tr>
-<tr class="odd">
-<td>Operation Temperature</td>
-<td></td>
-<td>-40℃ ~ 85℃ (Operation)</td>
-</tr>
-</tbody>
-</table>
+| Category |                | Description |
+|----------|----------------|------------------|
+| MCU      | ARM Cortex-M0 Core | W7500 48Mhz maximum frequency Internal 8Mhz RC Oscillator Flash: 128KB Large flexible-size SRAM buffer for various User Application - Min 16KB available if full 32KB socket buffer used - Max 48KB available if no socket buffer used ROM for boot code: 6 KB |
+|          | :::            | Hardwired TCP/IP Core 8 independent Sockets SRAM for socket: 32KB MII (Medium-Independent Interface) TCP/IP Protocols: TCP, UDP, ICMP, IPv4, ARP, IGMP, PPPoE |
+| PHY      | Ethernet Transceiver | IP101GRI Single 10/100M Ethernet Transceiver |
+| Serial   | Interface      | UART0 UART1 |
+|          | Signal         | TXD0, RXD0, RTS0, CTS0 TXD1, RXD1, RTS1, CTS1 |
+|          | Parameters     | Parity: None, Odd, Even Data bits: 7, 8 bit Flow control: None, RTS / CTS, XON / XOFF |
+|          | Speed          | Up to 230Kbps |
+| Dimension|                | 50.00(W) x 30.00(L) x 9.00(H) (Unit: mm) |
+| Connector type |            | **2.00mm Pitch 1x14 Pin-header 2EA (Main)** 2.54mm Pitch 1x6 Pin-header(Expansion GPIO, Not Mount) 2.54mm Pitch 1x6 Pin-header (ISP & Debug UART, Not Mount) 1.27mm Pitch 1x5 Pin-header (SWD(Serial Wire Debug), Not Mount) |
+| Input Voltage |            | DC 3.3V |
+| Operation Temperature |     | -40℃ ~ 85℃ (Operation) |
+
 
 ------------------------------------------------------------------------
 
@@ -296,12 +221,7 @@ Flow control: None, RTS / CTS, XON / XOFF</td>
 </thead>
 <tbody>
 <tr class="odd">
-<td><br />
-J6<br />
-<br />
-UART<br />
-Data<br />
-Connector</td>
+<td><br />J6<br /><br />UART<br />Data<br />Connector</td>
 <td>1</td>
 <td>3.3V</td>
 <td>P</td>
@@ -413,12 +333,7 @@ Connector</td>
 </thead>
 <tbody>
 <tr class="odd">
-<td><br />
-J7<br />
-<br />
-Ethernet<br />
-&amp;<br />
-Indicate</td>
+<td><br />J7<br /><br />Ethernet<br />&amp;<br />Indicate</td>
 <td>1</td>
 <td>TPTX-</td>
 <td>O</td>
@@ -545,11 +460,7 @@ Low : Connected</td>
 </thead>
 <tbody>
 <tr class="odd">
-<td><br />
-J1<br />
-<br />
-SWD<br />
-(Serial Wire Debug)</td>
+<td><br />J1<br /><br />SWD<br />(Serial Wire Debug)</td>
 <td>1</td>
 <td>3.3V</td>
 <td>P</td>
@@ -598,12 +509,7 @@ SWD<br />
 </thead>
 <tbody>
 <tr class="odd">
-<td><br />
-J2<br />
-<br />
-ISP<br />
-&amp;<br />
-Debug UART</td>
+<td><br />J2<br /><br />ISP<br />&amp;<br />Debug UART</td>
 <td>1</td>
 <td>3.3V</td>
 <td>P</td>
@@ -663,11 +569,7 @@ Low : Application operating</td>
 </thead>
 <tbody>
 <tr class="odd">
-<td><br />
-J3<br />
-<br />
-Expansion<br />
-GPIO</td>
+<td><br />J3<br /><br />Expansion<br />GPIO</td>
 <td>1</td>
 <td>3.3V</td>
 <td>P</td>
@@ -723,11 +625,7 @@ GPIO</td>
 </thead>
 <tbody>
 <tr class="odd">
-<td><br />
-J4<br />
-<br />
-System<br />
-BOOT</td>
+<td><br />J4<br /><br />System<br />BOOT</td>
 <td>1</td>
 <td>3.3V</td>
 <td>P</td>
@@ -738,11 +636,7 @@ BOOT</td>
 <td>2</td>
 <td>BOOT</td>
 <td>I</td>
-<td>System BOOT<br />
-4.7k Pull down<br />
-When booting(Power on or Reset),<br />
-High : System Boot operating<br />
-Low : Application operating</td>
+<td>System BOOT<br />4.7k Pull down<br />When booting(Power on or Reset),<br />High : System Boot operating<br />Low : Application operating</td>
 </tr>
 </tbody>
 </table>
@@ -759,11 +653,7 @@ Low : Application operating</td>
 </thead>
 <tbody>
 <tr class="odd">
-<td><br />
-J5<br />
-<br />
-Application<br />
-BOOT</td>
+<td><br />J5<br /><br />Application<br />BOOT</td>
 <td>1</td>
 <td>APP_BOOT</td>
 <td>I</td>

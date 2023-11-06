@@ -83,7 +83,7 @@ W5500イーサネットシールドはGPIOピンを使用者が選択できま�
   - 使用者がチップセレクトを変更して他のモジュールにも使用可能
   - 他のボードと重畳して使用可能
 
-**Caution)**
+**Caution**
 注意)使用者が5Vプラットフォームを使うとき、SDカードの動作は信頼性が低い。しかし、十分なテストをした後なら使用可能。信頼性を求めるならバッファーと100nFコンデンサーを設置して使用をおすすめします。
 
 -----
@@ -140,7 +140,7 @@ W5500イーサネットシールドにはW5500チップが使用されました�
 
 **イーサネットライブラリ**
 
-  - <https://github.com/Wiznet/WIZ_Ethernet_Library>
+  - [https://github.com/Wiznet/WIZ_Ethernet_Library](https://github.com/Wiznet/WIZ_Ethernet_Library)
 
 -----
 
@@ -149,8 +149,6 @@ W5500イーサネットシールドにはW5500チップが使用されました�
 ![](/img/products/w5500/w5500_evb/icons/link.png) [WizWiki Forum](https://forum.wiznet.io/) : WIZnetの技術的サポートやプロジェクトを共有するフォーラム
 
 [Ethernet Library for ioShield-A](./ethernet_library_for_ioShield_A.md) : WIZnet WIZ550ioの技術的サポート
-
-<!--<http://wizwiki.net/jp> : WIZnet 日本ブログ-->
 
 ![](/img/products/w5500/w5500_evb/icons/download.png) 製品概要: 追加予定
 

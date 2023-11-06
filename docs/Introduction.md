@@ -93,7 +93,6 @@ Open source hardware products.
 
 ### Tech Support
 
-For technical support please post your questions at
-🌎<https://forum.wiznet.io>
+For technical support please post your questions at [https://forum.wiznet.io](https://forum.wiznet.io)
 
 ![](/img/mainlogo.jpg)

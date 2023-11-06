@@ -6,9 +6,9 @@ date: 2020-04-07
 
 ## Download the LPCXpresso IDE
 
-  - Access the 🌎<http://www.lpcware.com/lpcxpresso/download> Web site and
+  - Access the 🌎 http://www.lpcware.com/lpcxpresso/download Web site and
     LPCXpress Download
-  - Caution) You will assign OS Environment a install file
+  - Caution: You will assign OS Environment a install file
 
 ![](/img/osh/lpcxpresso/down.png)
 
@@ -16,8 +16,7 @@ date: 2020-04-07
 
 ## Create an Acount at LPCXpresso website
 
-  - Access the 🌎<http://www.lpcware.com/lpcxpresso> Web site and create
-    new account
+  - Access the 🌎 http://www.lpcware.com/lpcxpresso Web site and create new account
 
 ![](/img/osh/lpcxpresso/lpx.png)
 

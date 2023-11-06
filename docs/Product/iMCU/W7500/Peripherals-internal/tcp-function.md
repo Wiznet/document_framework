@@ -34,8 +34,8 @@ basic network information.
         address allocation. The manufacturer which produces the network
         device allocates the MAC address to product.
       - Details on MAC address allocation refer to the website as below.
-      - <http://www.ieee.org/>
-      - <http://standards.ieee.org/regauth/oui/index.shtml>
+      - http://www.ieee.org/
+      - http://standards.ieee.org/regauth/oui/index.shtml
 2.  GAR(Gateway Address Register)
 3.  SUBR(Subnet Mask Register)
 4.  SIPR(Source IP Address Register)
