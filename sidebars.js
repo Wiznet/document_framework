@@ -908,7 +908,7 @@ module.exports = {
 				items: [
 					{
 						type: 'category',
-						label: 'Surf5',
+						label: 'Surf 5',
 						link: {type: 'doc', id: 'Product/Open-Source-Hardware/surf5/surf5'},
 						items: [
 							'Product/Open-Source-Hardware/surf5/getting-started',
