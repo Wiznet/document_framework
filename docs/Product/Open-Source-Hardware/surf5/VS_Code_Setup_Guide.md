@@ -179,7 +179,7 @@ CMAKE_MAKE_PROGRAM is the location of the make executable (inside the previously
 
 ARM_TOOLCHAIN_DIR is the location of the GNU Arm compiler's executable files that you previously downloaded.
 
-For example, the author used:
+For example, the author used: 
 
 
 -DARM_TOOLCHAIN_DIR=C:/Program Files (x86)/GNU Arm Embedded Toolchain/10 2021.10/bin
