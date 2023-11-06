@@ -913,13 +913,13 @@ module.exports = {
 						items: [
 							'Product/Open-Source-Hardware/surf5/getting-started',
 							'Product/Open-Source-Hardware/surf5/Errata',
-							'Product/Open-Source-Hardware/surf5/VS_Code_Setup_Guide',
+							'Product/Open-Source-Hardware/surf5/vs-code-setup-guide',
 						]
 						
 					}
 
 				]
-				//Surf: [	'Product/Open-Source-Hardware/surf5/surf5',	'Product/Open-Source-Hardware/surf5/Errata',	'Product/Open-Source-Hardware/surf5/w7500-based',],
+				//Surf: [	'Product/Open-Source-Hardware/surf5/surf5',	'Product/Open-Source-Hardware/surf5/Errata',	'Product/Open-Source-Hardware/surf5/w7500-based',	'Product/Open-Source-Hardware/surf5/VS_Code_Setup_Guide',],
 			},
 			
 			{

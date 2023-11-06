@@ -1,5 +1,5 @@
 ---
-id: VS Code Setup Guide
+id: vs-code-setup-guide
 title: VS Code Setup Guide
 date: 2023-11-06
 ---
