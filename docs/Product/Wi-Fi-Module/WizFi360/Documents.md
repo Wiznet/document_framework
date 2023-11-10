@@ -105,6 +105,11 @@ Comparison Sheet** provides comparison with ESP8266 AT command.
 ### CE
 
 - <a href="/img/products/wizfi360/wizfi360ds/EMC110706-RED-Evaluation.pdf" target="_blank">WizFi360 Certification</a>
+- <a href="/img/products/wizfi360/wizfi360ds/Certificate_STS2205025RE_VOC.pdf" target="_blank">Verification of conformity</a>
+- <a href="/img/products/wizfi360/wizfi360ds/TR_STS2205025A01_Safety_EN-IEC-62368-1.pdf" target="_blank">Test Report EN IEC 62368-1</a>
+- <a href="/img/products/wizfi360/wizfi360ds/TR_STS2205025E01_EMC_EN-301489-1-17.pdf" target="_blank">Test Report EN 301 489-1</a>
+- <a href="/img/products/wizfi360/wizfi360ds/TR_STS2205025H01_EMF_EN-50663.pdf" target="_blank">Test Report EN 50663</a>
+- <a href="/img/products/wizfi360/wizfi360ds/TR_STS2205025W01_WLAN_EN-300328.pdf" target="_blank">Test Report EN 300 328</a>
 
 | Date    | Decription |
 | ------- | ---------- |
@@ -112,7 +117,11 @@ Comparison Sheet** provides comparison with ESP8266 AT command.
 
 ### FCC
 
-  - <a href="/img/products/wizfi360/wizfi360ds/EMC104756 FCC Grant.pdf" target="_blank">WizFi360 Certification</a>
+- <a href="/img/products/wizfi360/wizfi360ds/EMC104756 FCC Grant.pdf" target="_blank">WizFi360 Certification</a>
+- <a href="/img/products/wizfi360/wizfi360ds/Certificate_STS2205025EF.pdf" target="_blank">Declaration of Conformity</a>
+- <a href="/img/products/wizfi360/wizfi360ds/TR_STS2205025W02_RF_Part-15.247-WLAN.pdf" target="_blank">Test Report Part 15.247</a>
+- <a href="/img/products/wizfi360/wizfi360ds/TR_STS2205025E02_FCC-47-CFR-Part-15-Subpart-B.pdf" target="_blank">Test Report CFR Patf 15 Subpart B</a>
+
 
 | Date    | Decription |
 | ------- | ---------- |
@@ -129,8 +138,10 @@ Comparison Sheet** provides comparison with ESP8266 AT command.
 
 ### KC
 
- - <a href="/img/products/wizfi360/wizfi360ds/인증서_wizfi360-pa_emc_파생추가.pdf" target="_blank">WizFi360-PA_EMC Certification</a>
- - <a href="/img/products/wizfi360/wizfi360ds/인증서_wizfi360-con_emc_안테나_추가.pdf" target="_blank">WizFi360-CON_EMC Certification</a>
+- <a href="/img/products/wizfi360/wizfi360ds/인증서_wizfi360-pa_emc_파생추가.pdf" target="_blank">WizFi360-PA_EMC Certification</a>
+- <a href="/img/products/wizfi360/wizfi360ds/인증서_wizfi360-con_emc_안테나_추가.pdf" target="_blank">WizFi360-CON_EMC Certification</a>
+- <a href="/img/products/wizfi360/wizfi360ds/RF성적서_WizFi360-PA.pdf" target="_blank">WizFi360-PA Test Report</a>
+- <a href="/img/products/wizfi360/wizfi360ds/RF성적서_WizFi360-CON.pdf" target="_blank">WizFi360-CON Test Report</a>
 
 | Date    | Decription |
 | ------- | ---------- |
