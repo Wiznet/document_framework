@@ -9,32 +9,30 @@ date: 2023-11-06
 # VS Code Setup Guide for Surf 5
 
 ## 1. Software Download
-<br />
-
 ### Installing ARM GCC Compiler [Download link](https://developer.arm.com/downloads/-/gnu-rm)
 <br />
 
+Step 1. Download the .exe file that suits your user environment.
 
-<img src="/img/osh/surf5/arndownload.png" width="400" /><br />
+<img src="/img/osh/surf5/arndownload.png" width="400" /><br /><br />
 
-<img src="/img/osh/surf5/vsset1.png" width="400" /><br />
+Step 2. Press Next.
 
-<img src="/img/osh/surf5/vsset2.png" width="400" /><br />
+<img src="/img/osh/surf5/vsset1.png" width="400" /><br /><br />
 
-<img src="/img/osh/surf5/vsset3.png" width="400" /><br />
+
+Step 3. Set the path. We recommend installing it in the "C:\Program Files (x86)..." directory. Please remember this path, as it will be required in the VS Code environment settings below. If you have completed the path configuration, press Install.
+
+<img src="/img/osh/surf5/vsset2.png" width="400" /><br /><br />
+
+Step 4. Wait for the download to complete.
+
+<img src="/img/osh/surf5/vsset3.png" width="400" /><br /><br />
+
+Step 5. Click on the checkboxes below to match the picture and press Finish.
 
 <img src="/img/osh/surf5/vsset4.png" width="400" /><br />
 
-<!-- 
-<a target="_blank" href={require('/img/osh/surf5/arndownload.png').default}><img src={require('/img/osh/surf5/arndownload.png').default} alt="Surf5"/></a>
-
-<a target="_blank" href={require('/img/osh/surf5/vsset1.png').default}><img src={require('/img/osh/surf5/vsset1.png').default} alt="Surf5"/></a>
-
-<a target="_blank" href={require('/img/osh/surf5/vsset2.png').default}><img src={require('/img/osh/surf5/vsset2.png').default} alt="Surf5"/></a>
-
-<a target="_blank" href={require('/img/osh/surf5/vsset3.png').default}><img src={require('/img/osh/surf5/vsset3.png').default} alt="Surf5"/></a>
-
-<a target="_blank" href={require('/img/osh/surf5/vsset4.png').default}><img src={require('/img/osh/surf5/vsset4.png').default} alt="Surf5"/></a> -->
   <br />
   <br />
   <br />
@@ -42,30 +40,30 @@ date: 2023-11-06
 ### Installing CMake [Download link](https://cmake.org/download)
   <br />
 
-<img src="img/osh/surf5/cmakedownload.png" width="400" /><br />
+Step 1. Download the file that suits your user environment.
 
-<img src="/img/osh/surf5/vsset5.png" width="400" /><br />
+<img src="/img/osh/surf5/cmakedownload.png" width="400" /><br /><br />
 
-<img src="/img/osh/surf5/vsset6.png" width="400" /><br />
+Step 2. Press Next.
 
-<img src="/img/osh/surf5/vsset7.png" width="400" /><br />
+<img src="/img/osh/surf5/vsset5.png" width="400" /><br /><br />
 
-<img src="/img/osh/surf5/vsset8.png" width="400" /><br />
+Step 3. Select "Add CMake to the system PATH for all users" and click Next.
+
+<img src="/img/osh/surf5/vsset6.png" width="400" /><br /><br />
+
+Step 4. Verify the download path and click Next.
+
+<img src="/img/osh/surf5/vsset7.png" width="400" /><br /><br />
+
+Step 5. Wait for the download to complete.
+
+<img src="/img/osh/surf5/vsset8.png" width="400" /><br /><br />
+
+Step 6. Press Finish to complete the installation.
 
 <img src="/img/osh/surf5/vsset9.png" width="400" /><br />
 
-<!-- 
-<a target="_blank" href={require('/img/osh/surf5/cmakedownload.png').default}><img src={require('/img/osh/surf5/cmakedownload.png').default} alt="Surf5"/></a>
-
-<a target="_blank" href={require('/img/osh/surf5/vsset5.png').default}><img src={require('/img/osh/surf5/vsset5.png').default} alt="Surf5"/></a>
-
-<a target="_blank" href={require('/img/osh/surf5/vsset6.png').default}><img src={require('/img/osh/surf5/vsset6.png').default} alt="Surf5"/></a>
-
-<a target="_blank" href={require('/img/osh/surf5/vsset7.png').default}><img src={require('/img/osh/surf5/vsset7.png').default} alt="Surf5"/></a>
-
-<a target="_blank" href={require('/img/osh/surf5/vsset8.png').default}><img src={require('/img/osh/surf5/vsset8.png').default} alt="Surf5"/></a>
-
-<a target="_blank" href={require('/img/osh/surf5/vsset9.png').default}><img src={require('/img/osh/surf5/vsset9.png').default} alt="Surf5"/></a> -->
   <br />
   <br />
   <br />
@@ -73,30 +71,28 @@ date: 2023-11-06
 ### Installing Build Tools for Visual Studio 2019 [Download link](https://visualstudio.microsoft.com/ko/downloads/)
   <br />
 
-<img src="img/osh/surf5/vsdownload.png" width="400" /><br />
+Step 1. Click on "Free download" for the Community version and download the installation file. If you already have Visual Studio, you don't need to install it again.
 
-<img src="/img/osh/surf5/vsset10.png" width="400" /><br />
+<img src="/img/osh/surf5/vsdownload.png" width="400" /><br /><br />
 
-<img src="/img/osh/surf5/vsset11.png" width="400" /><br />
+Step 2. Press Continue.
 
-<img src="/img/osh/surf5/vsset12.png" width="400" /><br />
+<img src="/img/osh/surf5/vsset10.png" width="400" /><br /><br />
+
+Step 3. Wait for the download to complete.
+
+<img src="/img/osh/surf5/vsset11.png" width="400" /><br /><br />
+
+Step 4. Please check the "C++ build tools" under the "Desktop & Mobile" tab in the left box. Then, in the right box under the "Installation details" tab, click the checkboxes as shown in the picture below. and press Install.
+
+<img src="/img/osh/surf5/vsset12.png" width="400" /><br /><br />
+
+Step 5. Wait for the download to complete.
 
 <img src="/img/osh/surf5/vsset13.png" width="400" /><br />
 
 <img src="/img/osh/surf5/vsset14.png" width="400" /><br />
 
-<!-- 
-<a target="_blank" href={require('/img/osh/surf5/vsdownload.png').default}><img src={require('/img/osh/surf5/vsdownload.png').default} alt="Surf5"/></a>
-
-<a target="_blank" href={require('/img/osh/surf5/vsset10.png').default}><img src={require('/img/osh/surf5/vsset10.png').default} alt="Surf5"/></a>
-
-<a target="_blank" href={require('/img/osh/surf5/vsset11.png').default}><img src={require('/img/osh/surf5/vsset11.png').default} alt="Surf5"/></a>
-
-<a target="_blank" href={require('/img/osh/surf5/vsset12.png').default}><img src={require('/img/osh/surf5/vsset12.png').default} alt="Surf5"/></a>
-
-<a target="_blank" href={require('/img/osh/surf5/vsset13.png').default}><img src={require('/img/osh/surf5/vsset13.png').default} alt="Surf5"/></a>
-
-<a target="_blank" href={require('/img/osh/surf5/vsset14.png').default}><img src={require('/img/osh/surf5/vsset14.png').default} alt="Surf5"/></a> -->
   <br />
   <br />
   <br />
@@ -104,30 +100,30 @@ date: 2023-11-06
 ### Installing Visual Studio Code [Download link](https://visualstudio.microsoft.com/downloads/#build-tools-for-visual-studio-2019)
   <br />
 
-<img src="img/osh/surf5/vscodedownload.png" width="400" /><br />
+Step 1. Click on "Free download" for Visual Studio Code and download the installation file. If you already have Visual Studio Code, you don't need to install it again.
 
-<img src="/img/osh/surf5/vsset15.png" width="400" /><br />
+<img src="/img/osh/surf5/vscodedownload.png" width="400" /><br /><br />
 
-<img src="/img/osh/surf5/vsset16.png" width="400" /><br />
+Step 2. Click "I accept the agreement" and then press Next.
 
-<img src="/img/osh/surf5/vsset17.png" width="400" /><br />
+<img src="/img/osh/surf5/vsset15.png" width="400" /><br /><br />
 
-<img src="/img/osh/surf5/vsset18.png" width="400" /><br />
+Step 3. Verify the download path and press Next.
+
+<img src="/img/osh/surf5/vsset16.png" width="400" /><br /><br />
+
+Step 4. Click the checkboxes as shown in the picture below and press Next.
+
+<img src="/img/osh/surf5/vsset17.png" width="400" /><br /><br />
+
+Step 5. Wait for the download to complete.
+
+<img src="/img/osh/surf5/vsset18.png" width="400" /><br /><br />
+
+Step 6. Press Finish to complete the installation.
 
 <img src="/img/osh/surf5/vsset19.png" width="400" /><br />
 
-<!-- 
-<a target="_blank" href={require('/img/osh/surf5/vscodedownload.png').default}><img src={require('/img/osh/surf5/vscodedownload.png').default} alt="Surf5"/></a>
-
-<a target="_blank" href={require('/img/osh/surf5/vsset15.png').default}><img src={require('/img/osh/surf5/vsset15.png').default} alt="Surf5"/></a>
-
-<a target="_blank" href={require('/img/osh/surf5/vsset16.png').default}><img src={require('/img/osh/surf5/vsset16.png').default} alt="Surf5"/></a>
-
-<a target="_blank" href={require('/img/osh/surf5/vsset17.png').default}><img src={require('/img/osh/surf5/vsset17.png').default} alt="Surf5"/></a>
-
-<a target="_blank" href={require('/img/osh/surf5/vsset18.png').default}><img src={require('/img/osh/surf5/vsset18.png').default} alt="Surf5"/></a>
-
-<a target="_blank" href={require('/img/osh/surf5/vsset19.png').default}><img src={require('/img/osh/surf5/vsset19.png').default} alt="Surf5"/></a> -->
   <br />
   <br />
   <br />
@@ -139,7 +135,6 @@ Click “Download Now” Button
 
 <img src="/img/osh/surf5/vsset20.png" width="400" />
 
-<!-- <a target="_blank" href={require('/img/osh/surf5/vsset20.png').default}><img src={require('/img/osh/surf5/vsset20.png').default} alt="Surf5"/></a> -->
 <br />
 <br />
 <br />
@@ -153,8 +148,6 @@ Extract the xpack-windows-build-tool-4.x.x.x.zip archive. Save the extracted fol
 
 <img src="/img/osh/surf5/vsset21.png" width="400" />
 
-<!-- <a target="_blank" href={require('/img/osh/surf5/vsset21.png').default}><img src={require('/img/osh/surf5/vsset21.png').default} alt="Surf5"/></a> -->
-
 **Recommended storage path for the xpack-windows-build-tools folder** : C:\Program Files (x86)\xpack-windows-build-tools-4.x.x.
 <br />
 <br />
@@ -166,7 +159,7 @@ Extract the xpack-windows-build-tool-4.x.x.x.zip archive. Save the extracted fol
 Create a new workspace. The reason for creating a new workspace is to prevent changes to the existing settings.
 
 <img src="/img/osh/surf5/vsset22.png" width="400" />
-<!-- <a target="_blank" href={require('/img/osh/surf5/vsset22.png').default}><img src={require('/img/osh/surf5/vsset22.png').default} alt="Surf5"/></a> -->
+
   <br />
   <br />
 
@@ -174,7 +167,6 @@ First, select "File -> Add Folder to Workspace."
 
 <img src="/img/osh/surf5/vsset23.png" width="400" />
 
-<!-- <a target="_blank" href={require('/img/osh/surf5/vsset23.png').default}><img src={require('/img/osh/surf5/vsset23.png').default} alt="Surf5"/></a> -->
   <br />
   <br />
 
@@ -182,14 +174,14 @@ Select the "W7500P" project folder as the target for the workspace, and then cli
 (The "W7500P" should be the top-level directory.)
 
 <img src="/img/osh/surf5/vsset24.png" width="400" />
-<!-- <a target="_blank" href={require('/img/osh/surf5/vsset24.png').default}><img src={require('/img/osh/surf5/vsset24.png').default} alt="Surf5"/></a> -->
+
   <br />
   <br />
 
 If you've added the workspace with the W7500P folder path, then click on "File -> Save Workspace As..." again.
 
 <img src="/img/osh/surf5/vsset25.png" width="600" />
-<!-- <a target="_blank" href={require('/img/osh/surf5/vsset25.png').default}><img src={require('/img/osh/surf5/vsset25.png').default} alt="Surf5"/></a> -->
+
   <br />
   <br />
 
@@ -204,10 +196,8 @@ Simply press "Save" with the same file name.
 In CMake Tools, go to the gear icon (settings) -> Extension Settings -> Navigate to the Workspace tab. In the top search bar, type "@ext:ms-vscode.cmake-tools" to search.
 
 <img src="/img/osh/surf5/vsset26.png" width="400" />
-<img src="/img/osh/surf5/vsset27.png" width="400" />
+<img src="/img/osh/surf5/vsset27.png" width="430" />
 
-<!-- <a target="_blank" href={require('/img/osh/surf5/vsset26.png').default}><img src={require('/img/osh/surf5/vsset26.png').default} alt="Surf5"/></a>
-<a target="_blank" href={require('/img/osh/surf5/vsset27.png').default}><img src={require('/img/osh/surf5/vsset27.png').default} alt="Surf5"/></a> -->
 <br />
 <br />
 
@@ -224,13 +214,7 @@ For example, the author used:
 |-DARM_TOOLCHAIN_DIR=C:/Program Files (x86)/GNU Arm Embedded Toolchain/10 2021.10/bin<br /> |
 |-DCMAKE_MAKE_PROGRAM=C:/Program Files (x86)/xpack-windows-build-tools-4.4.0-1/bin/make.exe |
 
-<!-- 
-
-***-DARM_TOOLCHAIN_DIR=C:/Program Files (x86)/GNU Arm Embedded Toolchain/10 2021.10/bin***
-
-***-DCMAKE_MAKE_PROGRAM=C:/Program Files (x86)/xpack-windows-build-tools-4.4.0-1/bin/make.exe*** -->
-<img src="/img/osh/surf5/vsset28.png" width="600" />
-<!-- <a target="_blank" href={require('/img/osh/surf5/vsset28.png').default}><img src={require('/img/osh/surf5/vsset28.png').default} alt="Surf5"/></a> -->
+<img src="/img/osh/surf5/vsset28.png" width="650" />
 
 Adjust the Configure Args to match your own file paths according to your setup.
 <br />
@@ -243,7 +227,6 @@ Once you have completed the path configuration, enter "Unix Makefiles" in the "C
 |Unix Makefiles<br /> |
 
 <img src="/img/osh/surf5/vsset29.png" width="600" />
-<!-- <a target="_blank" href={require('/img/osh/surf5/vsset29.png').default}><img src={require('/img/osh/surf5/vsset29.png').default} alt="Surf5"/></a> -->
 <br />
 <br />
 <br />
@@ -255,7 +238,6 @@ Once you have completed the path configuration, enter "Unix Makefiles" in the "C
 Press the F1 key, and then click on "CMake: Select a Kit."
 
 <img src="/img/osh/surf5/vsset30.png" width="400" />
-<!-- <a target="_blank" href={require('/img/osh/surf5/vsset30.png').default}><img src={require('/img/osh/surf5/vsset30.png').default} alt="Surf5"/></a> -->
 <br />
 <br />
 
@@ -263,7 +245,6 @@ Select "GCC Arm Embedded" to configure the kit.
 
 <img src="/img/osh/surf5/vsset31.png" width="400" />
 
-<!-- <a target="_blank" href={require('/img/osh/surf5/vsset31.png').default}><img src={require('/img/osh/surf5/vsset31.png').default} alt="Surf5"/></a> -->
 <br />
 <br />
 
@@ -271,7 +252,6 @@ Click the "Build" button at the bottom or press F7 to start the build process.
 
 <img src="/img/osh/surf5/vsset32.png" width="400" />
 
-<!-- <a target="_blank" href={require('/img/osh/surf5/vsset32.png').default}><img src={require('/img/osh/surf5/vsset32.png').default} alt="Surf5"/></a> -->
 <br />
 <br />
 
@@ -279,7 +259,6 @@ Once the build is completed, you will see a message like the one above in the OU
 
 <img src="/img/osh/surf5/vsset33.png" width="600" />
 
-<!-- <a target="_blank" href={require('/img/osh/surf5/vsset33.png').default}><img src={require('/img/osh/surf5/vsset33.png').default} alt="Surf5"/></a> -->
 <br />
 <br />
 
@@ -287,7 +266,6 @@ You will also be able to confirm that the Build directory has been created. The 
 
 <img src="/img/osh/surf5/vsset34.png" width="400" />
 
-<!-- <a target="_blank" href={require('/img/osh/surf5/vsset34.png').default}><img src={require('/img/osh/surf5/vsset34.png').default} alt="Surf5"/></a> -->
 
 
   
