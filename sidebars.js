@@ -659,6 +659,7 @@ module.exports = {
 					'Product/S2E-Module/W7500S2E-R1/overview-EN',
 					],
 				},
+			'Product/S2E-Module/wiz1000',
 		],
 		},
 		{
