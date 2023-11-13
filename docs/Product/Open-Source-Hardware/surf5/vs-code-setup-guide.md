@@ -6,8 +6,6 @@ date: 2023-11-06
 
 **Guide to Setting up the Surf 5 Development Environment Using Visual Studio Code**
 
------
-
 # VS Code Setup Guide for Surf 5
 
 ## 1. Software Download
@@ -152,15 +150,22 @@ In CMake Tools, go to the gear icon (settings) -> Extension Settings -> Navigate
 
 In the options, press "Add Item" in the Configure Args section and add the following two definitions:
 
-CMAKE_MAKE_PROGRAM is the location of the make executable (inside the previously extracted xpack folder).
+-DCMAKE_MAKE_PROGRAM is the location of the make executable (inside the previously extracted xpack folder).
 
-ARM_TOOLCHAIN_DIR is the location of the GNU Arm compiler's executable files that you previously downloaded.
+-DARM_TOOLCHAIN_DIR is the location of the GNU Arm compiler's executable files that you previously downloaded.
 
 For example, the author used: 
 
+| CMake: Configure Args                        |
+|----------------------------------------------|
+|-DARM_TOOLCHAIN_DIR=C:/Program Files (x86)/GNU Arm Embedded Toolchain/10 2021.10/bin<br /> |
+|-DCMAKE_MAKE_PROGRAM=C:/Program Files (x86)/xpack-windows-build-tools-4.4.0-1/bin/make.exe |
 
--DARM_TOOLCHAIN_DIR=C:/Program Files (x86)/GNU Arm Embedded Toolchain/10 2021.10/bin
--DCMAKE_MAKE_PROGRAM=C:/Program Files (x86)/xpack-windows-build-tools-4.4.0-1/bin/make.exe
+<!-- 
+
+***-DARM_TOOLCHAIN_DIR=C:/Program Files (x86)/GNU Arm Embedded Toolchain/10 2021.10/bin***
+
+***-DCMAKE_MAKE_PROGRAM=C:/Program Files (x86)/xpack-windows-build-tools-4.4.0-1/bin/make.exe*** -->
 
 <a target="_blank" href={require('/img/osh/surf5/vsset28.png').default}><img src={require('/img/osh/surf5/vsset28.png').default} alt="Surf5"/></a>
 
@@ -168,7 +173,11 @@ Adjust the Configure Args to match your own file paths according to your setup.
 <br />
 <br />
 
-Once you have completed the path configuration, enter "Unix Makefiles" in the "CMake: Generator" field.
+Once you have completed the path configuration, enter "Unix Makefiles" in the "CMake: Generator" field. Please make sure to check the case sensitivity of "Unix Makefiles".
+
+| CMake: Generator    |
+|---------------------|
+|Unix Makefiles<br /> |
 
 <a target="_blank" href={require('/img/osh/surf5/vsset29.png').default}><img src={require('/img/osh/surf5/vsset29.png').default} alt="Surf5"/></a>
 <br />
@@ -177,7 +186,7 @@ Once you have completed the path configuration, enter "Unix Makefiles" in the "C
 <br />
 <br />
 
-## 5. Build Project in VS Code
+## Build Project in VS Code
 
 Press the F1 key, and then click on "CMake: Select a Kit."
 

@@ -32,7 +32,7 @@ The entire list of parts of the board is available at the [WIZ750SR Overview: Pr
 
   ### Install UART to USB driver 
 
-  Surf5 has UART to USB converter IC(CH340N) that need to install driver.
+  Surf 5 has UART to USB converter IC(CH340N) that need to install driver.
   you can download driver <a href="https://github.com/Wiznet/Hardware-Files-of-WIZnet/raw/master/01_iMCU/W7500P/Surf5/Doc/CH340N/Driver.ZIP">here</a> or CH340 manufacturer's web
   CH340N's manufacture [link](https://wch-ic.com/downloads/CH341SER_ZIP.html)
 
@@ -47,4 +47,9 @@ The entire list of parts of the board is available at the [WIZ750SR Overview: Pr
 
 * [How to install KEIL uVision5](./../../iMCU/W7500/documents/appnote/How_to_install_KEIL.md)
 * [How to create KEIL uVision5 new project for W7500](./../../iMCU/W7500/documents/appnote/How_to_make_KEIL_new_project_for_W7500.md)
+-----
+
+## VS Code Setup Guide
+
+* [VS Code Setup Guide](vs-code-setup-guide.md)
 
