@@ -15,15 +15,15 @@ date: 2023-11-06
 <br />
 
 
-<img src="img/osh/surf5/arndownload.png" width="400" />
+<img src="/img/osh/surf5/arndownload.png" width="400" /><br />
 
-<img src="/img/osh/surf5/vsset1.png" width="400" />
+<img src="/img/osh/surf5/vsset1.png" width="400" /><br />
 
-<img src="/img/osh/surf5/vsset2.png" width="400" />
+<img src="/img/osh/surf5/vsset2.png" width="400" /><br />
 
-<img src="/img/osh/surf5/vsset3.png" width="400" />
+<img src="/img/osh/surf5/vsset3.png" width="400" /><br />
 
-<img src="/img/osh/surf5/vsset4.png" width="400" />
+<img src="/img/osh/surf5/vsset4.png" width="400" /><br />
 
 <!-- 
 <a target="_blank" href={require('/img/osh/surf5/arndownload.png').default}><img src={require('/img/osh/surf5/arndownload.png').default} alt="Surf5"/></a>
@@ -42,17 +42,17 @@ date: 2023-11-06
 ### Installing CMake [Download link](https://cmake.org/download)
   <br />
 
-<img src="img/osh/surf5/cmakedownload.png" width="400" />
+<img src="img/osh/surf5/cmakedownload.png" width="400" /><br />
 
-<img src="/img/osh/surf5/vsset5.png" width="400" />
+<img src="/img/osh/surf5/vsset5.png" width="400" /><br />
 
-<img src="/img/osh/surf5/vsset6.png" width="400" />
+<img src="/img/osh/surf5/vsset6.png" width="400" /><br />
 
-<img src="/img/osh/surf5/vsset7.png" width="400" />
+<img src="/img/osh/surf5/vsset7.png" width="400" /><br />
 
-<img src="/img/osh/surf5/vsset8.png" width="400" />
+<img src="/img/osh/surf5/vsset8.png" width="400" /><br />
 
-<img src="/img/osh/surf5/vsset9.png" width="400" />
+<img src="/img/osh/surf5/vsset9.png" width="400" /><br />
 
 <!-- 
 <a target="_blank" href={require('/img/osh/surf5/cmakedownload.png').default}><img src={require('/img/osh/surf5/cmakedownload.png').default} alt="Surf5"/></a>
@@ -73,17 +73,17 @@ date: 2023-11-06
 ### Installing Build Tools for Visual Studio 2019 [Download link](https://visualstudio.microsoft.com/ko/downloads/)
   <br />
 
-<img src="img/osh/surf5/vsdownload.png" width="400" />
+<img src="img/osh/surf5/vsdownload.png" width="400" /><br />
 
-<img src="/img/osh/surf5/vsset10.png" width="400" />
+<img src="/img/osh/surf5/vsset10.png" width="400" /><br />
 
-<img src="/img/osh/surf5/vsset11.png" width="400" />
+<img src="/img/osh/surf5/vsset11.png" width="400" /><br />
 
-<img src="/img/osh/surf5/vsset12.png" width="400" />
+<img src="/img/osh/surf5/vsset12.png" width="400" /><br />
 
-<img src="/img/osh/surf5/vsset13.png" width="400" />
+<img src="/img/osh/surf5/vsset13.png" width="400" /><br />
 
-<img src="/img/osh/surf5/vsset14.png" width="400" />
+<img src="/img/osh/surf5/vsset14.png" width="400" /><br />
 
 <!-- 
 <a target="_blank" href={require('/img/osh/surf5/vsdownload.png').default}><img src={require('/img/osh/surf5/vsdownload.png').default} alt="Surf5"/></a>
@@ -104,17 +104,17 @@ date: 2023-11-06
 ### Installing Visual Studio Code [Download link](https://visualstudio.microsoft.com/downloads/#build-tools-for-visual-studio-2019)
   <br />
 
-<img src="img/osh/surf5/vscodedownload.png" width="400" />
+<img src="img/osh/surf5/vscodedownload.png" width="400" /><br />
 
-<img src="/img/osh/surf5/vsset15.png" width="400" />
+<img src="/img/osh/surf5/vsset15.png" width="400" /><br />
 
-<img src="/img/osh/surf5/vsset16.png" width="400" />
+<img src="/img/osh/surf5/vsset16.png" width="400" /><br />
 
-<img src="/img/osh/surf5/vsset17.png" width="400" />
+<img src="/img/osh/surf5/vsset17.png" width="400" /><br />
 
-<img src="/img/osh/surf5/vsset18.png" width="400" />
+<img src="/img/osh/surf5/vsset18.png" width="400" /><br />
 
-<img src="/img/osh/surf5/vsset19.png" width="400" />
+<img src="/img/osh/surf5/vsset19.png" width="400" /><br />
 
 <!-- 
 <a target="_blank" href={require('/img/osh/surf5/vscodedownload.png').default}><img src={require('/img/osh/surf5/vscodedownload.png').default} alt="Surf5"/></a>
@@ -188,7 +188,7 @@ Select the "W7500P" project folder as the target for the workspace, and then cli
 
 If you've added the workspace with the W7500P folder path, then click on "File -> Save Workspace As..." again.
 
-<img src="/img/osh/surf5/vsset25.png" width="400" />
+<img src="/img/osh/surf5/vsset25.png" width="600" />
 <!-- <a target="_blank" href={require('/img/osh/surf5/vsset25.png').default}><img src={require('/img/osh/surf5/vsset25.png').default} alt="Surf5"/></a> -->
   <br />
   <br />
@@ -229,7 +229,7 @@ For example, the author used:
 ***-DARM_TOOLCHAIN_DIR=C:/Program Files (x86)/GNU Arm Embedded Toolchain/10 2021.10/bin***
 
 ***-DCMAKE_MAKE_PROGRAM=C:/Program Files (x86)/xpack-windows-build-tools-4.4.0-1/bin/make.exe*** -->
-<img src="/img/osh/surf5/vsset28.png" width="400" />
+<img src="/img/osh/surf5/vsset28.png" width="600" />
 <!-- <a target="_blank" href={require('/img/osh/surf5/vsset28.png').default}><img src={require('/img/osh/surf5/vsset28.png').default} alt="Surf5"/></a> -->
 
 Adjust the Configure Args to match your own file paths according to your setup.
@@ -242,7 +242,7 @@ Once you have completed the path configuration, enter "Unix Makefiles" in the "C
 |---------------------|
 |Unix Makefiles<br /> |
 
-<img src="/img/osh/surf5/vsset29.png" width="400" />
+<img src="/img/osh/surf5/vsset29.png" width="600" />
 <!-- <a target="_blank" href={require('/img/osh/surf5/vsset29.png').default}><img src={require('/img/osh/surf5/vsset29.png').default} alt="Surf5"/></a> -->
 <br />
 <br />
@@ -277,7 +277,7 @@ Click the "Build" button at the bottom or press F7 to start the build process.
 
 Once the build is completed, you will see a message like the one above in the OUTPUT window.
 
-<img src="/img/osh/surf5/vsset33.png" width="400" />
+<img src="/img/osh/surf5/vsset33.png" width="600" />
 
 <!-- <a target="_blank" href={require('/img/osh/surf5/vsset33.png').default}><img src={require('/img/osh/surf5/vsset33.png').default} alt="Surf5"/></a> -->
 <br />
