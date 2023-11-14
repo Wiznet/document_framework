@@ -8,19 +8,6 @@ description: How to setup keil with Surf 5
 
 # How to install Keil uVision MDK-Lite version
 
-******************************************************************************
-(C) COPYRIGHT 2015 WIZnet
-
-  * author  : IOP Team
-  * version : V1.0.0
-  * date    : 1-May-2015
-  * brief   : Description of installation Keil uVision MDK-Lite version.
-
-******************************************************************************
-
-## Introduction
-
-This application note guides user to install Keil uVision MDK-Lite version:5.14.0.0 compiler. 
 
 ## Download MDK
 

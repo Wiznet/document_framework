@@ -919,7 +919,7 @@ module.exports = {
 								items: [
 									'Product/Open-Source-Hardware/surf5/getting-started/install-usb-driver',
 									'Product/Open-Source-Hardware/surf5/getting-started/flashing-surf5',
-									'Product/Open-Source-Hardware/surf5/getting-started/vs-code-setup-guide',
+									'Product/Open-Source-Hardware/surf5/getting-started/install-vscode-guide',
 									'Product/Open-Source-Hardware/surf5/getting-started/install-keil-guide',
 									'Product/Open-Source-Hardware/surf5/getting-started/fw-examples',
 									'Product/Open-Source-Hardware/surf5/getting-started/debugger-surf5',
