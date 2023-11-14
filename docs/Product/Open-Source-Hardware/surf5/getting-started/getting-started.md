@@ -36,7 +36,7 @@ Refer to the link above and follow the project creation instructions that are su
 <br />
 <br />
 
-### Debugger for Surf 5 : <br /><br />[Debugger for surf 5](fw-debuging-surf5.md)
+### Surf 5 Debugger : <br /><br />[Surf 5 Debugger](debugger-surf5.md)
 
 
 

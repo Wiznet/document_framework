@@ -19,4 +19,3 @@ For details, please refer the following tables.
 | ISP Protocol Manual | V1.0           | <a href="/img/products/w7500/documents/appnote/w7500x_isp_communication_protocol_v1_0.pdf" target="_blank">W7500x\_ISP\_Protocol</a>                           | Common  |
 | Python ISP module   | V1.0           | <a href="/img/products/w7500/documents/appnote/w7500isp.zip" target="_blank">W7500x\_ISP\_Python\_module</a>                                             | Common  |
 
------

@@ -8,8 +8,6 @@ description: How to install VS Code for Surf 5
 
 **Guide to Setting up the Surf 5 Development Environment Using Visual Studio Code**
 
------
-
 # VS Code Setup Guide for Surf 5
 
 ## 1. Software Download
@@ -153,6 +151,8 @@ Extract the xpack-windows-build-tool-4.x.x.x.zip archive. Save the extracted fol
 <img src="/img/osh/surf5/vsset21.png" width="400" />
 
 **Recommended storage path for the xpack-windows-build-tools folder** : C:\Program Files (x86)\xpack-windows-build-tools-4.x.x.
+
+
 <!-- <br />
 <br />
 <br />

@@ -143,7 +143,9 @@ Please refer to below links to find firmware example.
 
 <a target="_blank" href={require('/img/osh/surf5/Dimension.png').default}><img src={require('/img/osh/surf5/Dimension.png').default} alt="Surf5_Dimension"/></a>
 
+## Getting Started
 
+- [Getting Started](../getting-started/getting-started.md)
 
 
 ## How to buy
