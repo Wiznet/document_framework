@@ -3,11 +3,12 @@ id: fw-examples
 title: How to use Example Projects
 date: 2023-11-14
 keywords: [iMCU, ethernet, w7500]
-description: How to setup keil with Surf 5
+description: How to set-up vs code and keil 5 before using Surf 5
 ---
 
 -----
-# VS Code Setup Guide for Surf 5
+
+  # VS Code Setup Guide for Surf 5
 
 ## 1. Create a New Workspace (Prevent Changes to Existing Settings)
 Create a new workspace. The reason for creating a new workspace is to prevent changes to the existing settings.

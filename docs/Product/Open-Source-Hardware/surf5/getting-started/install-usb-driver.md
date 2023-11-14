@@ -1,12 +1,12 @@
 ---
 id: install-usb-driver
-title: Install UART to USB driver
+title: Install UART to USB Driver
 date: 2023-11-14
 keywords: [iMCU, ethernet, w7500]
 description: How to install usb driver for Surf 5
 ---
 -----
-  ### Install UART to USB driver 
+  # Install UART to USB driver 
 
   Surf 5 has UART to USB converter IC(CH340N) that need to install driver.
   you can download driver <a href="https://github.com/Wiznet/Hardware-Files-of-WIZnet/raw/master/01_iMCU/W7500P/Surf5/Doc/CH340N/Driver.ZIP">here</a> or CH340 manufacturer's web

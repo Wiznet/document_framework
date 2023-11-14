@@ -1,7 +1,9 @@
 ---
 id: vs-code-setup-guide
-title: VS Code Setup Guide
-date: 2023-11-06
+title: How to install VS Code for Surf 5
+date: 2023-11-14
+keywords: [iMCU, ethernet, w7500]
+description: How to install VS Code for Surf 5
 ---
 
 **Guide to Setting up the Surf 5 Development Environment Using Visual Studio Code**
