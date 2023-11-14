@@ -912,9 +912,18 @@ module.exports = {
 						label: 'Surf 5',
 						link: {type: 'doc', id: 'Product/Open-Source-Hardware/surf5/surf5'},
 						items: [
-							'Product/Open-Source-Hardware/surf5/getting-started',
-							'Product/Open-Source-Hardware/surf5/Errata',
-							'Product/Open-Source-Hardware/surf5/vs-code-setup-guide',
+							{
+								type: 'category',
+								label: 'Getting Started',
+								link: {type: 'doc', id: 'Product/Open-Source-Hardware/surf5/getting-started'},
+								items: [
+									'Product/Open-Source-Hardware/surf5/usb-driver-install',
+									'Product/Open-Source-Hardware/surf5/flashing-Surf5',
+									'Product/Open-Source-Hardware/surf5/keil-setup-guide',
+									'Product/Open-Source-Hardware/surf5/vs-code-setup-guide',
+									'Product/Open-Source-Hardware/surf5/debuging-surf5',
+								]
+							}
 						]
 						
 					}
