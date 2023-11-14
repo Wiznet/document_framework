@@ -915,23 +915,13 @@ module.exports = {
 							{
 								type: 'category',
 								label: 'Getting Started',
-								link: {type: 'doc', id: 'Product/Open-Source-Hardware/surf5/getting-started'},
+								link: {type: 'doc', id: 'Product/Open-Source-Hardware/surf5/getting-started/getting-started'},
 								items: [
-									'Product/Open-Source-Hardware/surf5/usb-driver-install',
-									'Product/Open-Source-Hardware/surf5/flashing-Surf5',
-									'Product/Open-Source-Hardware/surf5/keil-setup-guide',
-									'Product/Open-Source-Hardware/surf5/vs-code-setup-guide',
-									'Product/Open-Source-Hardware/surf5/debuging-surf5',
-
-									{
-										type: 'category',
-										label: 'Getting Started',
-										link: {type: 'doc', id: 'Product/Open-Source-Hardware/surf5/getting-started/getting-started'},
-										items: [
-											'Product/Open-Source-Hardware/surf5/gettings/vs-code-setup-guide',										
-
-										]
-									}
+									'Product/Open-Source-Hardware/surf5/getting-started/usb-driver-install',
+									'Product/Open-Source-Hardware/surf5/getting-started/flashing-Surf5',
+									'Product/Open-Source-Hardware/surf5/getting-started/keil-setup-guide',
+									'Product/Open-Source-Hardware/surf5/getting-started/vs-code-setup-guide',
+									'Product/Open-Source-Hardware/surf5/getting-started/debuging-surf5',
 								]
 							}
 						]
