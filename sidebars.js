@@ -917,18 +917,19 @@ module.exports = {
 								label: 'Getting Started',
 								link: {type: 'doc', id: 'Product/Open-Source-Hardware/surf5/getting-started/getting-started'},
 								items: [
-									'Product/Open-Source-Hardware/surf5/getting-started/usb-driver-install',
-									'Product/Open-Source-Hardware/surf5/getting-started/flashing-Surf5',
-									'Product/Open-Source-Hardware/surf5/getting-started/keil-setup-guide',
+									'Product/Open-Source-Hardware/surf5/getting-started/install-usb-driver',
+									'Product/Open-Source-Hardware/surf5/getting-started/flashing-surf5',
+									'Product/Open-Source-Hardware/surf5/getting-started/install-keil-guide',
 									'Product/Open-Source-Hardware/surf5/getting-started/vs-code-setup-guide',
 									'Product/Open-Source-Hardware/surf5/getting-started/debuging-surf5',
-								]
-							}
-						]
+									'Product/Open-Source-Hardware/surf5/getting-started/fw-examples',
+								],
+							},
+						],
 						
-					}
+					},
 
-				]
+				],
 				//Surf: [	'Product/Open-Source-Hardware/surf5/surf5',	'Product/Open-Source-Hardware/surf5/Errata',	'Product/Open-Source-Hardware/surf5/w7500-based',	'Product/Open-Source-Hardware/surf5/VS_Code_Setup_Guide',],
 			},
 			
