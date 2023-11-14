@@ -13,7 +13,7 @@ description: How to install VS Code for Surf 5
 # VS Code Setup Guide for Surf 5
 
 ## 1. Software Download
-### Installing ARM GCC Compiler [Download link](https://developer.arm.com/downloads/-/gnu-rm)
+* ### Installing ARM GCC Compiler [Download link](https://developer.arm.com/downloads/-/gnu-rm)
 <br />
 
 Step 1. Download the .exe file that suits your user environment.
@@ -41,7 +41,7 @@ Step 5. Click on the checkboxes below to match the picture and press Finish.
   <br />
   <br />
 
-### Installing CMake [Download link](https://cmake.org/download)
+* ### Installing CMake [Download link](https://cmake.org/download)
   <br />
 
 Step 1. Download the file that suits your user environment.
@@ -72,7 +72,7 @@ Step 6. Press Finish to complete the installation.
   <br />
   <br />
 
-### Installing Build Tools for Visual Studio 2019 [Download link](https://visualstudio.microsoft.com/ko/downloads/)
+* ### Installing Build Tools for Visual Studio 2019 [Download link](https://visualstudio.microsoft.com/ko/downloads/)
   <br />
 
 Step 1. Click on "Free download" for the Community version and download the installation file. If you already have Visual Studio, you don't need to install it again.
@@ -101,7 +101,7 @@ Step 5. Wait for the download to complete.
   <br />
   <br />
 
-### Installing Visual Studio Code [Download link](https://visualstudio.microsoft.com/downloads/#build-tools-for-visual-studio-2019)
+* ### Installing Visual Studio Code [Download link](https://visualstudio.microsoft.com/downloads/#build-tools-for-visual-studio-2019)
   <br />
 
 Step 1. Click on "Free download" for Visual Studio Code and download the installation file. If you already have Visual Studio Code, you don't need to install it again.
@@ -132,7 +132,7 @@ Step 6. Press Finish to complete the installation.
   <br />
   <br />
 
-### Installing Xpack Build Tools [Download link](https://github.com/xpack-dev-tools/windows-build-tools-xpack/releases/)
+* ### Installing Xpack Build Tools [Download link](https://github.com/xpack-dev-tools/windows-build-tools-xpack/releases/)
   <br />
 
 Click “Download Now” Button

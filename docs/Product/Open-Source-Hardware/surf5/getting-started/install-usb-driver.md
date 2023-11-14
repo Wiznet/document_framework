@@ -1,6 +1,6 @@
 ---
 id: install-usb-driver
-title: Install UART to USB Driver
+title: How to Install UART to USB Driver
 date: 2023-11-14
 keywords: [iMCU, ethernet, w7500]
 description: How to install usb driver for Surf 5

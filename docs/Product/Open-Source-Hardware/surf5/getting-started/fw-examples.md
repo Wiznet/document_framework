@@ -1,6 +1,6 @@
 ---
 id: fw-examples
-title: How to use Example Projects
+title: How to make Surf 5 Projects
 date: 2023-11-14
 keywords: [iMCU, ethernet, w7500]
 description: How to set-up vs code and keil 5 before using Surf 5
@@ -8,7 +8,7 @@ description: How to set-up vs code and keil 5 before using Surf 5
 
 -----
 
-  # VS Code Setup Guide for Surf 5
+# How to make Surf 5 Project in VS Code
 
 ## 1. Create a New Workspace (Prevent Changes to Existing Settings)
 Create a new workspace. The reason for creating a new workspace is to prevent changes to the existing settings.
@@ -127,7 +127,7 @@ You will also be able to confirm that the Build directory has been created. The 
 <br />
 
 -----
-# How to make W7500 Keil Project
+# How to make Surf 5 Project in Keil 5
 
 ******************************************************************************
 (C) COPYRIGHT 2015 WIZnet
@@ -145,26 +145,26 @@ You will also be able to confirm that the Build directory has been created. The 
 
 This application note is a tutorial for making a KEIL project for W7500 MCU. This document show you how to make a project and a bin file for W7500 step by step in order for you to follow up easily.
 
-## STEP 1. Download and install KEIL5!
+### STEP 1. Download and install KEIL5!
 
 ![keil0](/img/products/w7500/documents/appnote/keil0.jpg)
 
 * Download MDK-ARM v5 : [KEIL5](https://www.keil.com/download/product/)
 * Installation instructions, please see the Link : [Install](how_to_install_KEIL)
 
-## STEP 2. Download W7500 Library!
+### STEP 2. Download W7500 Library!
 
 ![keil1](/img/products/w7500/documents/appnote/keil1.jpg)
 
 You can download W7500 Library from WIZnet's Github repository : [W7500 Library](https://github.com/Wiznet/W7500)
 
-## STEP 3. make workspace! and move the W7500 Library to workspace!
+### STEP 3. make workspace! and move the W7500 Library to workspace!
 
 ![keil2](/img/products/w7500/documents/appnote/keil2.jpg)
 
 In this example, it is **D:\workspace\project\Library**
 
-## STEP 4. Execute KEIL5 and make new project!
+### STEP 4. Execute KEIL5 and make new project!
 
 ![keil3](/img/products/w7500/documents/appnote/keil3.jpg)
 
@@ -179,7 +179,7 @@ In this example, **D:\workspace\project\W7500_test\W7500_Test.uvproj**
 
 Choose 'Cortex-M0' because W7500 MCU is based on Cortex-M0
 
-## STEP 5. W7500 start up code and system code setting!
+### STEP 5. W7500 start up code and system code setting!
 
 ![keil7](/img/products/w7500/documents/appnote/keil7.jpg)
 
@@ -222,7 +222,7 @@ Select C file and Name it with 'main' and click 'Add'.
 
 Include **w7500x.h** header but... you should show red X because you did not path.
 
-## STEP 6. setting for include paths
+### STEP 6. setting for include paths
 
 ![keil18](/img/products/w7500/documents/appnote/keil18.jpg)
 
@@ -246,7 +246,7 @@ Set 'include path' with
 
 
 
-## STEP 7. Memory setting!
+### STEP 7. Memory setting!
 
 ![](/img/products/w7500/documents/appnote/keil18.jpg)
 
@@ -262,7 +262,7 @@ Click "Target" tap and set with the values which are shown in above pictures
 
 And click "Linker" tap and check [Use Memory Layout from Target Dialog]
 
-## STEP 8. Selection of Peripherals to use 
+### STEP 8. Selection of Peripherals to use 
 
 ![keil18](/img/products/w7500/documents/appnote/keil18.jpg)
 
@@ -272,7 +272,7 @@ Click "Options for Target..."
 
 Click "C/C++" tap and add **CORTEX_M0 USE_STDPERIPH_DRIVER** in "Define" field.
 
-## STEP 9. Setting user program to use with the created bin file
+### STEP 9. Setting user program to use with the created bin file
 
 ![keil18](/img/products/w7500/documents/appnote/keil18.jpg)
 
@@ -283,7 +283,7 @@ Click "Options for Target..."
 Click "User" tap and check "Run #1" in "Run User Programs After Build/Rebuild" section  
 and write this command **[fromelf --bin -o "$L@L.bin" "#L"]** in order CMSIS DAP to use the bin file.
 
-## STEP 10. Compile the example
+### STEP 10. Compile the example
 
 ![keil26](/img/products/w7500/documents/appnote/keil26.jpg)
 

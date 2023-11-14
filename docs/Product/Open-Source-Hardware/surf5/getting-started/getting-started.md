@@ -16,25 +16,27 @@ The image above illustrates the setup process for Surf 5 before using it.
 
 If you want to use Surf 5 effectively, follow the steps below to complete the setup process:
 
-### <Step 1><br /> <br /> [Install UART to USB Driver](install-usb-driver.md)
+### Step 1 : <br /> <br /> [Install UART to USB Driver](install-usb-driver.md)
 Click on the link above to install the 'UART to USB Driver' for connecting your PC to Surf 5.
 <br />
 <br />
 
-### <Step 2><br /><br />  [How to use ISP tool](flashing-surf5.md)
+### Step 2 : <br /><br />  [How to use ISP tool](flashing-surf5.md)
 Click on the link above to install the 'ISP Tool' for downloading the firmware file to the Flash memory.
 <br />
 <br />
 
-### <Step 3><br /><br />[Install VS Code for Surf 5](vs-code-setup-guide.md)<br />     [Install Keil 5 for Surf 5](install-keil-guide.md)
+### Step 3 : <br /><br />[Install VS Code for Surf 5](vs-code-setup-guide.md)<br />     [Install Keil 5 for Surf 5](install-keil-guide.md)
 Install the development environment you prefer between VS Code and Keil 5.
 <br />
 <br />
 
-### Step 4.<br /><br />[How to use Example Projects](fw-examples.md)
+### Step 4 : <br /><br />[How to use Example Projects](fw-examples.md)
 Refer to the link above and follow the project creation instructions that are suitable for the development environment you have installed.
+<br />
+<br />
 
-
+### <Debugger for surf 5><br /><br />[Debugger for surf 5](fw-debuging-surf5.md)
 
 
 
