@@ -6,7 +6,9 @@ keywords: [iMCU, ethernet, w7500]
 description: How to set-up vs code and keil 5 before using Surf 5
 ---
 
+**If you haven't downloaded the Surf 5 project yet, Click the link below to access GitHub and download it.**
 
+[Surf 5 Github Link](https://github.com/Wiznet/W7500x-Surf5/tree/main)
 
 -----
 
@@ -28,15 +30,15 @@ First, select "File -> Add Folder to Workspace."
   <br />
   <br />
 
-Select the "W7500P" project folder as the target for the workspace, and then click the "Add" button.
-(The "W7500P" should be the top-level directory.)
+Select the "W7500x-Surf5" project folder as the target for the workspace, and then click the "Add" button.
+(The "W7500x-Surf5" should be the top-level directory.)
 
 <img src="/img/osh/surf5/vsset24.png" width="400" />
 
   <br />
   <br />
 
-If you've added the workspace with the W7500P folder path, then click on "File -> Save Workspace As..." again.
+If you've added the workspace with the W7500x-Surf5 folder path, then click on "File -> Save Workspace As..." again.
 
 <img src="/img/osh/surf5/vsset25.png" width="600" />
 
@@ -120,7 +122,7 @@ Once the build is completed, you will see a message like the one above in the OU
 <br />
 <br />
 
-You will also be able to confirm that the Build directory has been created. The project folder within the Build directory contains the generated bin files. You can save these bin files to the W7500 device and use the project.
+You will also be able to confirm that the Build directory has been created. The project folder within the Build directory contains the generated bin files. You can save these bin files to your Surf 5 and use the project.
 
 <img src="/img/osh/surf5/vsset34.png" width="400" />
 

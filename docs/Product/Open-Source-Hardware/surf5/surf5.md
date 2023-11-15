@@ -143,9 +143,13 @@ Please refer to below links to find firmware example.
 
 <a target="_blank" href={require('/img/osh/surf5/Dimension.png').default}><img src={require('/img/osh/surf5/Dimension.png').default} alt="Surf5_Dimension"/></a>
 
+## Surf 5 Project Files
+
+- [Surf 5 Github Link](https://github.com/Wiznet/W7500x-Surf5/tree/main)
+
 ## Getting Started
 
-- [Getting Started](../getting-started/getting-started.md)
+- [Getting Started](getting-started/getting-started.md)
 
 
 ## How to buy

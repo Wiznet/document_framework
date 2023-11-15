@@ -6,10 +6,6 @@ keywords: [iMCU, ethernet, w7500]
 description: How to install VS Code for Surf 5
 ---
 
-**This document serves as a guide for users to reference before using Surf 5.**
-
------
-# VS Code Setup Guide for Surf 5
 
 ## 1. Software Download
 * ### Installing ARM GCC Compiler [Download link](https://developer.arm.com/downloads/-/gnu-rm)
