@@ -6,8 +6,9 @@ keywords: [iMCU, ethernet, w7500]
 description: How to install VS Code for Surf 5
 ---
 
-**Guide to Setting up the Surf 5 Development Environment Using Visual Studio Code**
+**This document serves as a guide for users to reference before using Surf 5.**
 
+-----
 # VS Code Setup Guide for Surf 5
 
 ## 1. Software Download

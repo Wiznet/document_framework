@@ -29,7 +29,9 @@ Click on the link above to install the 'ISP Tool' for downloading the firmware f
 <br />
 
 ### Step 3 : 
-[Install VS Code for Surf 5](vs-code-setup-guide.md)<br />     [Install Keil 5 for Surf 5](install-keil-guide.md)
+[Install VS Code for Surf 5](install-vscode-guide.md)
+
+[Install Keil 5 for Surf 5](install-keil-guide.md)
 
 Install the development environment you prefer between VS Code and Keil 5.
 <br />

@@ -6,5 +6,9 @@ keywords: [iMCU, ethernet, w7500]
 description: How to debug Surf 5
 ---
 
+<!-- **This document serves as a guide for users to reference before using Surf 5.** -->
+
+-----
+
 ## Coming soon
 
