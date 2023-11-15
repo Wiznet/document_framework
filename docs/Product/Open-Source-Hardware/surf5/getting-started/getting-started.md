@@ -40,7 +40,7 @@ Install the development environment you prefer between VS Code and Keil 5.
 
 
 ### Step 4 : 
-[How to use Example Projects](fw-examples.md)
+[How to make Surf 5 Projects in VS Code & Keil 5](fw-examples.md)
 
 Refer to the link above and follow the project creation instructions that are suitable for the development environment you have installed.
 
