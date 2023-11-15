@@ -151,23 +151,16 @@ If the build is still not working despite configuring Visual Studio Code setting
 
 If other files have appeared in the .vscode directory, please structure the directory as shown in the image below. You should delete all files except "cmake-kits.json."
 
-<img src="/img/osh/surf5/error1.png" width="600" />
+<img src="/img/osh/surf5/error1.png" width="500" />
 <br />
 <br />
 
-**Step 2. Delete the "Build" directory**
 
-Next, please delete the "Build" directory. Deleting this directory should not pose any issues for the build process.
+**Step 2. Verify the path settings of "CMake: Configure Args" and "CMake: Generator" command in the "Extension Settings" of "CMake Tools**
 
-<img src="/img/osh/surf5/error2.png" width="600" />
-<br />
-<br />
+Please check the path that was previously set in CMake: Configure Args. If it hasn't been saved to the workspace, it is advisable to add it again and save. Configure "CMake: Configure Args" according to your own path as shown in the picture below. Also, check if the directory exists on your PC at that path.
 
-**Step 3. Verify path settings and CMake generator command in the "Extension Settings" of "CMake Tools**
-
-Please check the path that was previously set in CMake: Configure Args. If it hasn't been saved to the workspace, it is advisable to add it again and save. Configure "CMake: Configure Args" according to your own path as shown in the picture below.
-
-<img src="/img/osh/surf5/vsset28.png" width="650" />
+<img src="/img/osh/surf5/vsset28.png" width="600" />
 
 <br />
 <br />
@@ -178,6 +171,13 @@ Please check the command for the CMake generator. If the command is not entered,
 <br />
 <br />
 
+**Step 3. Delete the "Build" directory**
+
+Next, please delete the "Build" directory. Deleting this directory should not pose any issues for the build process.
+
+<img src="/img/osh/surf5/error2.png" width="500" />
+<br />
+<br />
 **Step 4. Rebuild**
 
 If you have completed the three steps above perfectly, try building the project again within VS Code.
