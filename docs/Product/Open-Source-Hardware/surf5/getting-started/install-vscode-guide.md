@@ -8,7 +8,8 @@ description: How to install VS Code for Surf 5
 
 -----
 
-## 1. Software Download
+## Preparation for using VS Code
+
 * ### Installing ARM GCC Compiler [Download link](https://developer.arm.com/downloads/-/gnu-rm)
 <br />
 
@@ -131,24 +132,18 @@ Step 6. Press Finish to complete the installation.
 * ### Installing Xpack Build Tools [Download link](https://github.com/xpack-dev-tools/windows-build-tools-xpack/releases/)
   <br />
 
-Click “Download Now” Button
+Download “xpack-windows-build-tools-4.4.x-x-win32-x64.zip” 
 
-<img src="/img/osh/surf5/vsset20.png" width="400" />
-
-<br />
-<br />
-<br />
-<br />
-<br />
+<img src="/img/osh/surf5/vsset20.png" width="400" /><br />
+<img src="/img/osh/surf5/vsset21.png" width="400" />
 <br />
 
-
-## 2. Extract xpack-windows-build-tools-4.x.x.x
 Extract the xpack-windows-build-tool-4.x.x.x.zip archive. Save the extracted folder to the recommended path below.
 
-<img src="/img/osh/surf5/vsset21.png" width="400" />
-
 **Recommended storage path for the xpack-windows-build-tools folder** : C:\Program Files (x86)\xpack-windows-build-tools-4.x.x.
+
+
+
 
 
 <!-- <br />
