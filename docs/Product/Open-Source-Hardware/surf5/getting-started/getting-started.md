@@ -25,7 +25,7 @@ If you want to use Surf 5 effectively, follow the steps below to complete the se
 
 Click on the link above to install the 'UART to USB Driver' for connecting your PC to Surf 5.
 
-### Step 2 :
+### Step 2 : 
 [How to use ISP tool](flashing-surf5.md)
 
 Click on the link above to install the 'ISP Tool' for downloading the firmware file to the Flash memory.
