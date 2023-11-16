@@ -171,16 +171,32 @@ Please check the command for the CMake generator. If the command is not entered,
 <br />
 <br />
 
-**Step 3. Delete the "Build" directory**
+**Step 3. Setting up the kit with "GCC Arm Embedded"**
+
+Press the F1 key, and then click on "CMake: Select a Kit."
+
+<img src="/img/osh/surf5/vsset30.png" width="400" />
+<br />
+<br />
+
+Select "GCC Arm Embedded" to configure the kit.
+
+<img src="/img/osh/surf5/vsset31.png" width="400" />
+
+<br />
+<br />
+
+**Step 4. Delete the "Build" directory**
 
 Next, please delete the "Build" directory. Deleting this directory should not pose any issues for the build process.
 
 <img src="/img/osh/surf5/error2.png" width="500" />
 <br />
 <br />
-**Step 4. Rebuild**
 
-If you have completed the three steps above perfectly, try building the project again within VS Code.
+**Step 5. Rebuild**
+
+If you have completed the four steps above perfectly, try building the project again within VS Code.
 
 <br />
 <br />
