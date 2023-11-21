@@ -26,14 +26,14 @@ Create a new workspace. The reason for creating a new workspace is to prevent ch
 
   <br />
   <br />
-
+  <br />
 First, select "File -> Add Folder to Workspace."
 
 <img src="/img/osh/surf5/vsset23.png" width="400" />
 
   <br />
   <br />
-
+  <br />
 Select the "W7500x-Surf5" project folder as the target for the workspace, and then click the "Add" button.
 (The "W7500x-Surf5" should be the top-level directory.)
 
@@ -41,14 +41,14 @@ Select the "W7500x-Surf5" project folder as the target for the workspace, and th
 
   <br />
   <br />
-
+  <br />
 If you've added the workspace with the W7500x-Surf5 folder path, then click on "File -> Save Workspace As..." again.
 
 <img src="/img/osh/surf5/vsset25.png" width="600" />
 
   <br />
   <br />
-
+  <br />
 Simply press "Save" with the same file name.
 <br />
 <br />
@@ -64,7 +64,7 @@ In CMake Tools, go to the gear icon (settings) -> Extension Settings -> Navigate
 
 <br />
 <br />
-
+<br />
 In the options, press "Add Item" in the Configure Args section and add the following two definitions:
 
 -DCMAKE_MAKE_PROGRAM is the location of the make executable (inside the previously extracted xpack folder).
@@ -84,7 +84,6 @@ Adjust the Configure Args to match your own file paths according to your setup.
 <br />
 <br />
 <br />
-<br />
 
 
 Once you have completed the path configuration, enter "Unix Makefiles" in the "CMake: Generator" field. Please make sure to check the case sensitivity of "Unix Makefiles".
@@ -99,7 +98,7 @@ Once you have completed the path configuration, enter "Unix Makefiles" in the "C
 <br />
 <br />
 <br />
-
+<br />
 ### 3. Build Project in VS Code
 
 Press the F1 key, and then click on "CMake: Select a Kit."
@@ -107,18 +106,18 @@ Press the F1 key, and then click on "CMake: Select a Kit."
 <img src="/img/osh/surf5/vsset30.png" width="400" />
 <br />
 <br />
-
+<br />
 Select "GCC Arm Embedded" to configure the kit.
 
 <img src="/img/osh/surf5/vsset31.png" width="400" />
-
+<br />
 <br />
 <br />
 
 Click the "Build" button at the bottom or press F7 to start the build process.
 
 <img src="/img/osh/surf5/vsset32.png" width="400" />
-
+<br />
 <br />
 <br />
 
@@ -128,7 +127,7 @@ Once the build is completed, you will see a message like the one above in the OU
 
 <br />
 <br />
-
+<br />
 You will also be able to confirm that the Build directory has been created. The project folder within the Build directory contains the generated bin files. You can save these bin files to your Surf 5 and use the project.
 
 <img src="/img/osh/surf5/vsset34.png" width="400" />
@@ -137,12 +136,12 @@ You will also be able to confirm that the Build directory has been created. The 
 <br />
 <br />
 <br />
-
-### How to solve Surf 5 build error in VS Code
+<br />
+<br />
+### 4. How to solve Surf 5 build error in VS Code
 
 
 If the build is still not working despite configuring Visual Studio Code settings, follow the steps below.
-<br />
 <br />
 <br />
 <br />
@@ -154,45 +153,48 @@ If other files have appeared in the .vscode directory, please structure the dire
 <img src="/img/osh/surf5/error1.png" width="500" />
 <br />
 <br />
+<br />
+<br />
+
 
 
 **Step 2. Verify the path settings of "CMake: Configure Args" and "CMake: Generator" command in the "Extension Settings" of "CMake Tools**
 
 Please check the path that was previously set in CMake: Configure Args. If it hasn't been saved to the workspace, it is advisable to add it again and save. Configure "CMake: Configure Args" according to your own path as shown in the picture below. Also, check if the directory exists on your PC at that path.
 
-<img src="/img/osh/surf5/vsset28.png" width="600" />
-
-<br />
-<br />
+<img src="/img/osh/surf5/vsset28.png" width="600" /><br /><br /><br />
 
 Please check the command for the CMake generator. If the command is not entered, please input the command as follows:
 
-<img src="/img/osh/surf5/vsset29.png" width="600" />
-<br />
-<br />
+<img src="/img/osh/surf5/vsset29.png" width="600" /><br /><br /><br /><br />
 
-**Step 3. Setting up the kit with "GCC Arm Embedded"**
 
-Press the F1 key, and then click on "CMake: Select a Kit."
 
-<img src="/img/osh/surf5/vsset30.png" width="400" />
-<br />
-<br />
 
-Select "GCC Arm Embedded" to configure the kit.
 
-<img src="/img/osh/surf5/vsset31.png" width="400" />
-
-<br />
-<br />
-
-**Step 4. Delete the "Build" directory**
+**Step 3. Delete the "Build" directory**
 
 Next, please delete the "Build" directory. Deleting this directory should not pose any issues for the build process.
 
-<img src="/img/osh/surf5/error2.png" width="500" />
-<br />
-<br />
+<img src="/img/osh/surf5/error2.png" width="500" /><br /><br /><br /><br />
+
+
+
+
+
+
+**Step 4. Setting up the kit with "GCC Arm Embedded"**
+
+Press the F1 key, and then click on "CMake: Select a Kit."
+
+<img src="/img/osh/surf5/vsset30.png" width="400" /><br /><br /><br />
+
+Select "GCC Arm Embedded" to configure the kit.
+
+<img src="/img/osh/surf5/vsset31.png" width="400" /><br /><br /><br /><br />
+
+
+
 
 **Step 5. Rebuild**
 

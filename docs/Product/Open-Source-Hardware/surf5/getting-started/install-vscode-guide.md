@@ -11,131 +11,124 @@ description: How to install VS Code for Surf 5
 ## Preparation for using VS Code
 
 * ### Installing ARM GCC Compiler [Download link](https://developer.arm.com/downloads/-/gnu-rm)
-<br />
-
 Step 1. Download the .exe file that suits your user environment.
 
-<img src="/img/osh/surf5/arndownload.png" width="400" /><br /><br />
+<img src="/img/osh/surf5/arndownload.png" width="400" /><br /><br /><br />
 
 Step 2. Press Next.
 
-<img src="/img/osh/surf5/vsset1.png" width="400" /><br /><br />
+<img src="/img/osh/surf5/vsset1.png" width="400" /><br /><br /><br />
 
 
 Step 3. Set the path. We recommend installing it in the "C:\Program Files (x86)..." directory. Please remember this path, as it will be required in the VS Code environment settings below. If you have completed the path configuration, press Install.
 
-<img src="/img/osh/surf5/vsset2.png" width="400" /><br /><br />
+<img src="/img/osh/surf5/vsset2.png" width="400" /><br /><br /><br />
 
 Step 4. Wait for the download to complete.
 
-<img src="/img/osh/surf5/vsset3.png" width="400" /><br /><br />
+<img src="/img/osh/surf5/vsset3.png" width="400" /><br /><br /><br />
 
 Step 5. Click on the checkboxes below to match the picture and press Finish.
 
-<img src="/img/osh/surf5/vsset4.png" width="400" /><br />
+<img src="/img/osh/surf5/vsset4.png" width="400" /><br /><br /><br /><br /><br />
 
-  <br />
-  <br />
-  <br />
+
+
+
+
 
 * ### Installing CMake [Download link](https://cmake.org/download)
-  <br />
 
 Step 1. Download the file that suits your user environment.
 
-<img src="/img/osh/surf5/cmakedownload.png" width="400" /><br /><br />
+<img src="/img/osh/surf5/cmakedownload.png" width="400" /><br /><br /><br />
 
 Step 2. Press Next.
 
-<img src="/img/osh/surf5/vsset5.png" width="400" /><br /><br />
+<img src="/img/osh/surf5/vsset5.png" width="400" /><br /><br /><br />
 
 Step 3. Select "Add CMake to the system PATH for all users" and click Next.
 
-<img src="/img/osh/surf5/vsset6.png" width="400" /><br /><br />
+<img src="/img/osh/surf5/vsset6.png" width="400" /><br /><br /><br />
 
 Step 4. Verify the download path and click Next.
 
-<img src="/img/osh/surf5/vsset7.png" width="400" /><br /><br />
+<img src="/img/osh/surf5/vsset7.png" width="400" /><br /><br /><br />
 
 Step 5. Wait for the download to complete.
 
-<img src="/img/osh/surf5/vsset8.png" width="400" /><br /><br />
+<img src="/img/osh/surf5/vsset8.png" width="400" /><br /><br /><br />
 
 Step 6. Press Finish to complete the installation.
 
-<img src="/img/osh/surf5/vsset9.png" width="400" /><br />
+<img src="/img/osh/surf5/vsset9.png" width="400" /><br /><br /><br /><br /><br />
 
-  <br />
-  <br />
-  <br />
+
+
 
 * ### Installing Build Tools for Visual Studio 2019 [Download link](https://visualstudio.microsoft.com/ko/downloads/)
-  <br />
 
 Step 1. Click on "Free download" for the Community version and download the installation file. If you already have Visual Studio, you don't need to install it again.
 
-<img src="/img/osh/surf5/vsdownload.png" width="400" /><br /><br />
+<img src="/img/osh/surf5/vsdownload.png" width="400" /><br /><br /><br />
 
 Step 2. Press Continue.
 
-<img src="/img/osh/surf5/vsset10.png" width="400" /><br /><br />
+<img src="/img/osh/surf5/vsset10.png" width="400" /><br /><br /><br />
 
 Step 3. Wait for the download to complete.
 
-<img src="/img/osh/surf5/vsset11.png" width="400" /><br /><br />
+<img src="/img/osh/surf5/vsset11.png" width="400" /><br /><br /><br />
 
 Step 4. Please check the "C++ build tools" under the "Desktop & Mobile" tab in the left box. Then, in the right box under the "Installation details" tab, click the checkboxes as shown in the picture below. and press Install.
 
-<img src="/img/osh/surf5/vsset12.png" width="400" /><br /><br />
+<img src="/img/osh/surf5/vsset12.png" width="400" /><br /><br /><br />
 
 Step 5. Wait for the download to complete.
 
 <img src="/img/osh/surf5/vsset13.png" width="400" /><br />
 
-<img src="/img/osh/surf5/vsset14.png" width="400" /><br />
+<img src="/img/osh/surf5/vsset14.png" width="400" /><br /><br /><br /><br /><br />
 
-  <br />
-  <br />
-  <br />
 
 * ### Installing Visual Studio Code [Download link](https://visualstudio.microsoft.com/downloads/#build-tools-for-visual-studio-2019)
-  <br />
+
 
 Step 1. Click on "Free download" for Visual Studio Code and download the installation file. If you already have Visual Studio Code, you don't need to install it again.
 
-<img src="/img/osh/surf5/vscodedownload.png" width="400" /><br /><br />
+<img src="/img/osh/surf5/vscodedownload.png" width="400" /><br /><br /><br />
 
 Step 2. Click "I accept the agreement" and then press Next.
 
-<img src="/img/osh/surf5/vsset15.png" width="400" /><br /><br />
+<img src="/img/osh/surf5/vsset15.png" width="400" /><br /><br /><br />
 
 Step 3. Verify the download path and press Next.
 
-<img src="/img/osh/surf5/vsset16.png" width="400" /><br /><br />
+<img src="/img/osh/surf5/vsset16.png" width="400" /><br /><br /><br />
 
 Step 4. Click the checkboxes as shown in the picture below and press Next.
 
-<img src="/img/osh/surf5/vsset17.png" width="400" /><br /><br />
+<img src="/img/osh/surf5/vsset17.png" width="400" /><br /><br /><br />
 
 Step 5. Wait for the download to complete.
 
-<img src="/img/osh/surf5/vsset18.png" width="400" /><br /><br />
+<img src="/img/osh/surf5/vsset18.png" width="400" /><br /><br /><br />
 
 Step 6. Press Finish to complete the installation.
 
-<img src="/img/osh/surf5/vsset19.png" width="400" /><br />
+<img src="/img/osh/surf5/vsset19.png" width="400" /><br /><br /><br /><br /><br />
+ 
 
-  <br />
-  <br />
-  <br />
+
+
 
 * ### Installing Xpack Build Tools [Download link](https://github.com/xpack-dev-tools/windows-build-tools-xpack/releases/)
-  <br />
-
+ 
 Download “xpack-windows-build-tools-4.4.x-x-win32-x64.zip” 
 
 <img src="/img/osh/surf5/vsset20.png" width="400" /><br />
 <img src="/img/osh/surf5/vsset21.png" width="400" />
+<br />
 <br />
 
 Extract the xpack-windows-build-tool-4.x.x.x.zip archive. Save the extracted folder to the recommended path below.
