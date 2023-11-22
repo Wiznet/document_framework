@@ -100,6 +100,12 @@ The **IOP4IoT W7500** chip is the one-chip solution which integrates an ARM Cort
 
 ## Open Source Hardware
 
+### W7500 based 
+
+* Board
+  * [Surf 5](Open-Source-Hardware/surf5/surf5.md)
+
+
 ### RP2040 (Raspberry Pi Pico) based 
 
 * Board
@@ -127,6 +133,10 @@ The **IOP4IoT W7500** chip is the one-chip solution which integrates an ARM Cort
   * [ioShield-K](Open-Source-Hardware/ioShield-K.md)
   * [ioShield-L](Open-Source-Hardware/ioShield-L.md)
 
+### PoE 
+
+* Module
+  * [WIZPoE-S1](Open-Source-Hardware/PoE/WIZPoE-S1.md)
 
 <!-- 
   - [WizFi360-EVB-Pico](Open-Source-Hardware/WizFi360-EVB-Pico.md)
