@@ -1,6 +1,6 @@
 ---
-id: PoE_Main
-title: PoE
+id: PoE-Main
+title: PoE-Main
 date: 2023-11-22
 keywords:
   - Raspberry Pi Pico
