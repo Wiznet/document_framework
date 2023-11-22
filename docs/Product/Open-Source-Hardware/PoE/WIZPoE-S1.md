@@ -21,7 +21,7 @@ It combines with the W5500, W5100S, and W6100 Io Module to provide Ethernet as w
 - Ethernet W5100S, W5500, W6100 IO Module Mountable
 
 
-<a target="_blank" href={require('/img/osh/WIZnet_Pico_PoE/WIZnet_Pico_PoE_FIN_CR_C.png').default}><img src={require('/img/osh/WIZnet_Pico_PoE/WIZnet_Pico_PoE_FIN_CR_C.png').default} alt="WIZnet Pico PoE"/></a>
+<a target="_blank" href={require('/img/osh/PoE/WIZPoE-S1.png').default}><img src={require('/img/osh/PoE/WIZPoE-S1.png').default} alt="WIZPoE-S1"/></a>
 
 ## Features
 
@@ -29,41 +29,21 @@ It combines with the W5500, W5100S, and W6100 Io Module to provide Ethernet as w
 
 - IEEE802.3af compliant
 - Mode A(Endspan), Mode B(Midspan)
-- Wide input voltage range 37Vdc ~ 57Vdc
-- Circuit Protection (OV,OC)
+- Wide input voltage range 40Vdc ~ 60Vdc
 - High DC/DC convertion efficiency
-- Isolation level 2kVrms
-- Enhanced surge protection
+- Non-Isolation
 - Internal build in 2 channel bridge rectifiers
 
 #### PoE Electrical Specifications
 
 |  No   | Value                 | Specification  |
 | :---: | --------------------- | -------------- |
-|   1   | Input Voltage         | 37 ~ 57V       |
-|   2   | Output Voltage        | 5V (1.6A)     |
-|      |                        | 3.3V  (1A LDO) |
-|   3   | Power                 | 8W           |
-|   4   | Switching Frequency   | 400kHz fixed   |
-|   5   | Isolation             | 2kVrms         |
-|   6   | Operating Temperature | -20 ~ 85℃     |
+|   1   | Input Voltage         | 40 ~ 60V       |
+|   2   | Output Voltage        | 5V (1.5A)      |
+|   3   | Power                 | 7.5W           |
+|   4   | Switching Frequency   | 300kHz fixed   |
+|   6   | Operating Temperature | Up to 85℃     |
 
-### WIZnet IO Module
-- **W5100S-IO**
-  - Supports Hardwired Internet Protocols: TCP, UDP, WOL over UDP, ICMP, IGMPv1/v2, IPv4, ARP, PPPoE
-  - Supports 4 Independent Hardware SOCKETs simultaneously
-  - Internal 16 Kbytes Memory for TX/ RX Buffers
-  - SPI Interface
-- **W5500-IO**
-  - Supports Hardwired Internet Protocols: TCP, UDP, ICMP, IPv4, ARP, IGMP, PPPoE
-  - Supports 8 Independent Hardware SOCKETs simultaneously
-  - Internal 32 Kbytes Memory for TX/ RX Buffers
-  - Supports High Speed Serial Peripheral Interface(SPI MODE 0, 3)
-- **W6100-IO**
-  - Supports Hardwired Internet Protocols: TCP, UDP, IPv6, IPv4, ICMPv6, ICMPv4, IGMP, MLDv1, ARP, PPPoE
-  - Supports 8 independent SOCKETs simultaneously with 32KB memory
-  - Internal 16 Kbytes Memory for TX/ RX Buffers
-  - SPI Interface
 
 ### Raspberry Pi Pico
 
@@ -82,14 +62,6 @@ It combines with the W5500, W5100S, and W6100 Io Module to provide Ethernet as w
   - Flexible, user-programmable high-speed IO
   - Can emulate interfaces such as SD Card and VGA
 
-### Other Functions
-- 3-pin ARM Serial Wire Debug (SWD) port
-- 10 / 100 Ethernet PHY embedded
-- Supports Auto Negotiation
-  - Full / Half Duplex
-  - 10 / 100 Based
-- Built-in RJ45(BR1-ZZ-0049)
-- Built-in LDO (IL1117-3.3)
 
 ## Hardware Specification
 
