@@ -989,14 +989,9 @@ module.exports = {
 			'Product/Open-Source-Hardware/open_source_hardware_coocox',
 			'Product/Open-Source-Hardware/open_source_hardware_all_pages',*/
 			],
-			{
-				type: 'category',
-				label: 'PoE',
-				link: {type: 'doc', id: 'Product/Open-Source-Hardware/PoE/PoE-Main'},
-				items: [
-					'Product/Open-Source-Hardware/PoE/WIZPoE-S1',
-				]
-			},
+			
+				
+			
 		},
 		{
 			type: "category",
