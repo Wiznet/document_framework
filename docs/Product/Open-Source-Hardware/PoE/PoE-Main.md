@@ -21,7 +21,7 @@ It combines with the W5500, W5100S, and W6100 Io Module to provide Ethernet as w
 - Ethernet W5100S, W5500, W6100 IO Module Mountable
 
 
-<a target="_blank" href={require('/img/osh/PoE/WIZPoE-S1.png').default}><img src={require('/img/osh/PoE/WIZPoE-S1.png').default} alt="WIZPoE-S1"/></a>
+<!-- <a target="_blank" href={require('/img/osh/PoE/WIZPoE-S1.png').default}><img src={require('/img/osh/PoE/WIZPoE-S1.png').default} alt="WIZPoE-S1"/></a> -->
 
 ## Features
 
@@ -65,7 +65,7 @@ It combines with the W5500, W5100S, and W6100 Io Module to provide Ethernet as w
 
 ## Hardware Specification
 
-<a target="_blank" href={require('/img/osh/WIZnet_Pico_PoE/WIZnet_Pico_PoE-1.png').default}><img src={require('/img/osh/WIZnet_Pico_PoE/WIZnet_Pico_PoE-1.png').default} alt="WIZnet_Pico_PoE-1"/></a>
+<!-- <a target="_blank" href={require('/img/osh/WIZnet_Pico_PoE/WIZnet_Pico_PoE-1.png').default}><img src={require('/img/osh/WIZnet_Pico_PoE/WIZnet_Pico_PoE-1.png').default} alt="WIZnet_Pico_PoE-1"/></a>
 <center>Mounting Raspberry Pi Pico, WIZnet Ethernet IO Module</center>
 
 
@@ -74,7 +74,7 @@ It combines with the W5500, W5100S, and W6100 Io Module to provide Ethernet as w
 
 
 <a target="_blank" href={require('/img/osh/WIZnet_Pico_PoE/WIZnet_Pico_PoE-Part.png').default}><img src={require('/img/osh/WIZnet_Pico_PoE/WIZnet_Pico_PoE-Part.png').default} alt="WIZnet Pico PoE Part"/></a>
-<center>Parts</center>
+<center>Parts</center> -->
 
 ### Raspberry Pi Pico
 
@@ -144,8 +144,8 @@ WIZnet IO Module pinout is directly connected to the GPIO of Pico Board as shown
 
 ### Schematic V100
 
-<a target="_blank" href={require('/img/osh/WIZnet_Pico_PoE/Sch_WIZnet_Pico_PoE_FIN_1.png').default}><img src={require('/img/osh/WIZnet_Pico_PoE/Sch_WIZnet_Pico_PoE_FIN_1.png').default} alt="Sch_WIZnet_Pico_PoE_FIN_1"/></a>
-- <a href="/img/osh/WIZnet_Pico_PoE/Sch_WIZnet_Pico_PoE_FIN.pdf" target="_blank">Sch_WIZnet_Pico_PoE_FIN</a>
+<!-- <a target="_blank" href={require('/img/osh/WIZnet_Pico_PoE/Sch_WIZnet_Pico_PoE_FIN_1.png').default}><img src={require('/img/osh/WIZnet_Pico_PoE/Sch_WIZnet_Pico_PoE_FIN_1.png').default} alt="Sch_WIZnet_Pico_PoE_FIN_1"/></a>
+- <a href="/img/osh/WIZnet_Pico_PoE/Sch_WIZnet_Pico_PoE_FIN.pdf" target="_blank">Sch_WIZnet_Pico_PoE_FIN</a> -->
 
 ### Schematic & Partlist & Gerber File
 
@@ -153,7 +153,7 @@ WIZnet IO Module pinout is directly connected to the GPIO of Pico Board as shown
 
 ### Dimension (Unit : mm)
 
-<a target="_blank" href={require('/img/osh/WIZnet_Pico_PoE/Dimension.png').default}><img src={require('/img/osh/WIZnet_Pico_PoE/Dimension.png').default} alt="Dimension"/></a>
+<!-- <a target="_blank" href={require('/img/osh/WIZnet_Pico_PoE/Dimension.png').default}><img src={require('/img/osh/WIZnet_Pico_PoE/Dimension.png').default} alt="Dimension"/></a> -->
 
 
 
