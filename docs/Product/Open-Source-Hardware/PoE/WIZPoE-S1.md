@@ -28,22 +28,24 @@ By using WIZPoE-S1, which supports both Mode A and Mode B, you can efficiently p
 - Non-Isolation
 - Internal build in 2 channel bridge rectifiers
 
-## PoE Electrical Specifications
+## Electrical Parameter technical standards
 
-|  No   | Value                 | Specification  |
-| :---: | --------------------- | -------------- |
-|   1   | Input Voltage         | 40 ~ 60V       |
-|   2   | Output Voltage        | 5V (1.5A)      |
-|   3   | Power                 | 7.5W           |
-|   4   | Switching Frequency   | 300kHz         |
-|   6   | Operating Temperature | Up to 85℃     |
+|  No   | Value                 | Symbol    | Min   |  Typical  | Max  |  Units |
+| :---: | --------------------- | :-------: | :---: | :-------: | :--: | :----: |
+|   1   | Input Voltage         | VCC       | 41    |           | 61   |    V   |
+|   2   | Output Voltage        | VCC       | 4.75  |     5     | 5.25 |    V   |
+|   3   | Output Power          | PWR       |       |     8     |      |    W   |
+|   4   | Switching Frequency   | Freq      | 280   |    300    | 320  |  kHz   |
 
-### Recommended operating conditions
+## Electrical Characteristics
 
-| Item                          | Description                  |
-| ----------------------------- | ---------------------------- |
-| Operation Temperature MAX     | 70℃                        |
-| Input Volatge                 | 48 ~ 57V                    |
+|  No   | Value                   | Symbol    | Min   |  Typical  | Max  |  Units |
+| :---: | ----------------------- | :-------: | :---: | :-------: | :--: | :----: |
+|   1   | Line Regulation         | VLINE     | 2.5   |           | 7.5  |    %   |
+|   2   | Load Regulation         | VLOAD     | 2.5   |           | 7.5  |    V   |
+|   3   | Output Ripple and Noise | VRN       | 20    |    100    | 200  | mVp-p  |
+|   4   | Load Regulation         | RLOAD     | 150   |    200    | 250  |   mA   |
+|   5   | Efficiency @80% Load    | EFF       | 70    |    80     | 90   |    %   |
 
 ## Hardware Specification
 
@@ -53,12 +55,10 @@ By using WIZPoE-S1, which supports both Mode A and Mode B, you can efficiently p
 
 ## Technical Reference
 
-
 ### WIZPoE-S1 Datasheet
 
 ### Dimension (Unit : mm)
 
-<a target="_blank" href={require('/img/osh/WIZnet_Pico_PoE/Dimension.png').default}><img src={require('/img/osh/WIZnet_Pico_PoE/Dimension.png').default} alt="Dimension"/></a>
 
 
 
