@@ -39,7 +39,7 @@ Surf 5 is a microcontroller evaluation board based on the W7500.
 	  * 8-to-24MHz external crystal oscillator
 	  * Internal 8MHz RC Oscillator
 	  * PLL for CPU clock
-  * ADC : 12bit, 8ch, 1Msps
+  * ADC : 12bit, 8ch, 1Msps (Cannot use more than 2 channels simultaneously)
   * DMA
       * 6-channel DMA controller
       * Peripheral supported: UARTs, SPIs
@@ -54,7 +54,6 @@ Surf 5 is a microcontroller evaluation board based on the W7500.
   * Communication Interfaces
      * 3 UART (2 UARTs with FIFO and Flow Control, 1 simple UART)
      * 2 SPI
-     * 2 I2C (Master/Slave, Fast-mode (400 kbps))
   * Crypto
      * 1 RNG (Random Number Generator): 32-bit random number
   * Package
@@ -121,13 +120,13 @@ TBA
 - [datasheet](./../../iMCU/W7500/Documents.md)
 
 
-### Schematic v1.0
+### Schematic V1.0
 
 <a target="_blank" href={require('/img/osh/surf5/Surf5_1.0_Schematic.png').default}><img src={require('/img/osh/surf5/Surf5_1.0_Schematic.png').default} alt="Surf5_Schematic"/></a>
 
 ### Schematic & Part list & Gerber File
 
-- [Go to Github](https://github.com/Wiznet/Hardware-Files-of-WIZnet/tree/master/01_iMCU/W7500P/Surf5/Schematic)
+- [Go to Github](https://github.com/Wiznet/Hardware-Files-of-WIZnet/tree/master/01_iMCU/W7500/Surf5/R100/Schematic)
 
 <!--
 
