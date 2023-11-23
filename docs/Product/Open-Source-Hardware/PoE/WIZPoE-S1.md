@@ -28,6 +28,13 @@ By using WIZPoE-S1, which supports both Mode A and Mode B, you can efficiently p
 - Non-Isolation
 - Internal build in 2 channel bridge rectifiers
 
+## Compatible WIZnet Modules
+
+|        | Image    |    MCU    | --            | Pitch              | Features            | Dimension (mm) |
+|  :--:  | :-----:  |   :----:  | ------------- | ------------------ | ------------------- | -------------- |
+| [Surf 5](././Open-Source-Hardware/surf5/surf5.md) | ![WIZPoE-S1](/img/osh/surf5/WIZPoE-S1/WIZPoE-S1.png) | W7500 |Transformer|1x12<br />2.0mm<br />Pin Header  x 3ea|-20 ~ 85| 50mm x 30mm x 5.7mm |
+
+
 ## Electrical Parameter technical standards
 
 |  No   | Value                 | Symbol    | Min   |  Typical  | Max  |  Units |
