@@ -8,9 +8,12 @@ description: Surf 5 is evaluation board for W7500
 
 ## Overview
 
-Surf 5 is a microcontroller evaluation board based on the W7500.
+Surf 5 is a microcontroller evaluation board based on the W7500 that can be used with our PoE Modules.
+
 
 <a target="_blank" href={require('/img/osh/surf5/surf5_R100_img.png').default}><img src={require('/img/osh/surf5/surf5_R100_img.png').default} alt="Surf5"/></a>
+
+You can get a detail infomation of our PoE [here](https://docs.wiznet.io/Product/Open-Source-Hardware/PoE/PoE-Main).
 
 
 ## Revision history
