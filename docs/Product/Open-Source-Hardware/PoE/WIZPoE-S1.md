@@ -30,9 +30,9 @@ By using WIZPoE-S1, which supports both Mode A and Mode B, you can efficiently p
 
 ## Compatible WIZnet Modules
 
-|        | Image    |    MCU    | --            | Pitch              | Features            | Dimension (mm) |
-|  :--:  | :-----:  |   :----:  | ------------- | ------------------ | ------------------- | -------------- |
-| [Surf 5](././Open-Source-Hardware/surf5/surf5.md) | ![WIZPoE-S1](/img/osh/surf5/only_surf5_R100_img.png) | W7500 |Transformer|1x12<br />2.0mm<br />Pin Header  x 3ea|-20 ~ 85| 50mm x 30mm x 5.7mm |
+|           | Standalone |  Combined  |  MCU       | Features           |     Dimension (mm) |
+|  :-----:  | :-----:  |   :----:  | ------------- | ------------------ |  -------------- |
+| [Surf 5](././Open-Source-Hardware/surf5/surf5.md) | ![WIZPoE-S1](/img/osh/surf5/only_surf5_R100_img.png) | ![WIZPoE-S1](/img/osh/PoE/Surf5 with WIZPOE-S1.png) |W7500|Compatible with the Raspberry Pi Pico Pinmap , Serial to Ethernet firmware provided, Offers various peripherals such as GPIO/SPI/PWM/ADC/DMA and more| 75mm x 21mm x 15mm |
 
 
 ## Electrical Parameter technical standards
