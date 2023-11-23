@@ -23,7 +23,7 @@ By using WIZPoE-S1, which supports both Mode A and Mode B, you can efficiently p
 |   | Image | UART | LAN Interface | Pin Header & Pitch | Operation Temp (℃) | Dimension (mm) | Evaluation Board |
 | --- | ----- | ---- | ------------- | ------------------ | ------------------- | -------------- | ---------------- |
 | [WIZPoE-S1](././Open-Source-Hardware/PoE/WIZPoE-S1.md) | ![WIZPoE-S1](/img/osh/PoE/WIZPoE-S1/WIZPoE-S1.png) | 1xTTL(3.3V) |Transformer|1x12<br />2.0mm<br />Pin Header  x 3ea|-20 ~ 85| 50mm x 30mm x 5.7mm | [WIZ500SR-RP-EVB](WIZ5xxSR-RP-Series/WIZ500SR-RP/datasheet-en.md#wiz500sr-rp-evb-set) |
-| [WIZPoE-P1](././Open-Source-Hardware/PoE/WIZPoE-S1.md) | ![WIZ505SR-RP](/img/products/s2e_module/wiz505sr-rp/wiz505sr-rp-side.png) | 1xTTL(3.3V) |RJ-45|2x7<br />2.54mm<br />Pin Header<br />x 1ea|-20 ~ 85| 40mm x 66.5mm x 15mm | [WIZ505SR-RP-EVB](WIZ5xxSR-RP-Series/wiz505sr-rp-evb-en.md) |
+| [WIZPoE-P1](././Open-Source-Hardware/PoE/WIZPoE-S1.md) | ![WIZPoE-P1](/img/osh/PoE/WIZPoE-S1/WIZPoE-P1.png) | 1xTTL(3.3V) |RJ-45|2x7<br />2.54mm<br />Pin Header<br />x 1ea|-20 ~ 85| 40mm x 66.5mm x 15mm | [WIZ505SR-RP-EVB](WIZ5xxSR-RP-Series/wiz505sr-rp-evb-en.md) |
 
 ### PoE
 
