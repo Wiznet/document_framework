@@ -32,7 +32,7 @@ By using WIZPoE-S1, which supports both Mode A and Mode B, you can efficiently p
 
 |        | Image    |    MCU    | --            | Pitch              | Features            | Dimension (mm) |
 |  :--:  | :-----:  |   :----:  | ------------- | ------------------ | ------------------- | -------------- |
-| [Surf 5](././Open-Source-Hardware/surf5/surf5.md) | ![WIZPoE-S1](/img/osh/surf5/WIZPoE-S1/WIZPoE-S1.png) | W7500 |Transformer|1x12<br />2.0mm<br />Pin Header  x 3ea|-20 ~ 85| 50mm x 30mm x 5.7mm |
+| [Surf 5](././Open-Source-Hardware/surf5/surf5.md) | ![WIZPoE-S1](/img/osh/surf5/only_surf5_R100_img.png) | W7500 |Transformer|1x12<br />2.0mm<br />Pin Header  x 3ea|-20 ~ 85| 50mm x 30mm x 5.7mm |
 
 
 ## Electrical Parameter technical standards
