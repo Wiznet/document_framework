@@ -126,7 +126,7 @@ TBA
 
 ### Schematic & Part list & Gerber File
 
-- [Go to Github](https://github.com/Wiznet/Hardware-Files-of-WIZnet/tree/master/01_iMCU/W7500/Surf5/R100/Schematic)
+- [Go to Github](https://github.com/Wiznet/Hardware-Files-of-WIZnet/tree/master/01_iMCU/W7500/Surf5/R100)
 
 <!--
 
