@@ -57,6 +57,7 @@ By using WIZPoE-S1, which supports both Mode A and Mode B, you can efficiently p
 ## Hardware Specification
 
 ### Pin definition
+<a target="_blank" href={require('/img/osh/PoE/WIZPoE-S1/WIZPoE-S1-3D.png').default}><img src={require('/img/osh/PoE/WIZPoE-S1/WIZPoE-S1-3D.png').default} alt="WIZPoE-S1-3D"/></a>
 
 <a target="_blank" href={require('/img/osh/PoE/WIZPoE-S1/WIZPoE-S1-Description.png').default}><img src={require('/img/osh/PoE/WIZPoE-S1/WIZPoE-S1-Description.png').default} alt="WIZPoE-S1"/></a>
 
