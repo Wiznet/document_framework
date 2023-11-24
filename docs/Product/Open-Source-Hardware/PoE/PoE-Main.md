@@ -3,12 +3,7 @@ id: PoE-Main
 title: PoE-Main
 date: 2023-11-22
 keywords:
-  - Raspberry Pi Pico
-  - RP2040
   - Ethernet
-  - W5100S
-  - W5500
-  - W6100
   - PoE
 description: WIZnet Pico PoE made for prototyping and testing Ethernet capabilities on Pico
 ---
@@ -17,13 +12,12 @@ description: WIZnet Pico PoE made for prototyping and testing Ethernet capabilit
 
 You can utilize a variety of PoE boards to easily enable Ethernet applications without the need for power lines
 
-<!-- <a target="_blank" href={require('/img/osh/PoE/WIZPoE-S1/WIZPoE-S1.png').default}><img src={require('/img/osh/PoE/WIZPoE-S1/WIZPoE-S1.png').default} alt="WIZPoE-S1"/></a> -->
 
 ### Product Family
 |       | Image   | Isolation | Power | Output Voltage| IEEE |Characteristics| Compatible Board |
 | :---: | :-----: | :-------: | :----:| :------------:| :-------------:| :----------------: | :----:|
-| [WIZPoE-S1](./PoE/WIZPoE-S1.md) | ![WIZPoE-S1](/img/osh/PoE/WIZPoE-S1/WIZPoE-S1.png) | X |8W|5V|802.3af|| [Surf5](./surf5/surf5.md) |
-| [WIZPoE-P1](./PoE/WIZPoE-S1.md) | ![WIZPoE-P1](/img/osh/PoE/WIZPoE-S1/WIZPoE-P1.png) | O |8W|5V| 802.3af|| [Surf5](./surf5/surf5.md) |
+| [WIZPoE-S1](./PoE/WIZPoE-S1.md) |![WIZPoE-S1](/img/osh/PoE/WIZPoE-S1/WIZPoE-S1.png) | X |8W|5V|802.3af|| [Surf5](./surf5/surf5.md) |
+| [WIZPoE-S1](./PoE/WIZPoE-S1.md) |![WIZPoE-P1](/img/osh/PoE/WIZPoE-S1/WIZPoE-P1.png) | O |8W|5V| 802.3af|| [Surf5](./surf5/surf5.md) |
 | [WIZnet Pico PoE](./WIZnet-Pico-PoE.md)|![WIZnet-Pico-PoE](/img/osh/WIZnet_Pico_PoE_FIN_FW_C.png)|O|8W|5V|802.3af|Raspberry PI Pico Compatible|Standalone|
 
 ### Common Features of WIZnet PoE Boards
