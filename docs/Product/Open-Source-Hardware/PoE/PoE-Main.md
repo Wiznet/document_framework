@@ -17,7 +17,7 @@ You can utilize a variety of PoE boards to easily enable Ethernet applications w
 |       | Image   | Isolation | Power | Output Voltage| IEEE |Characteristics| Compatible Board |
 | :---: | :-----: | :-------: | :----:| :------------:| :-------------:| :----------------: | :----:|
 | [WIZPoE-S1](./PoE/WIZPoE-S1.md) |![WIZPoE-S1](/img/osh/PoE/WIZPoE-S1/WIZPoE-S1.png) | X |8W|5V|802.3af|| [Surf5](./surf5/surf5.md) |
-| [WIZPoE-P1](./PoE/WIZPoE-P1.md) |![WIZPoE-P1](/img/osh/PoE/WIZPoE-S1/wizpoe-p1.png) | O |8W|5V| 802.3af|| [Surf5](./surf5/surf5.md) |
+| [WIZPoE-P1](./PoE/WIZPoE-P1.md) |![WIZPoE-P1](/img/osh/PoE/WIZPoE-S1/WIZPOE-P1.png) | O |8W|5V| 802.3af|| [Surf5](./surf5/surf5.md) |
 | [WIZnet Pico PoE](./WIZnet-Pico-PoE.md)|![WIZnet-Pico-PoE](/img/osh/WIZnet_Pico_PoE_FIN_FW_C.png)|O|8W|5V|802.3af|Raspberry PI Pico Compatible|Standalone|
 
 
