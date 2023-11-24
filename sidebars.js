@@ -994,6 +994,7 @@ module.exports = {
 				link: {type: 'doc', id: 'Product/Open-Source-Hardware/PoE/PoE-Main'},
 				items: [
 					'Product/Open-Source-Hardware/PoE/WIZPoE-S1',
+					'Product/Open-Source-Hardware/PoE/WIZPoE-P1',
 					]
 				},
 			],
