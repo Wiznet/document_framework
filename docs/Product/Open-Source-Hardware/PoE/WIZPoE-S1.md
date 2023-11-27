@@ -59,8 +59,21 @@ By using WIZPoE-S1, which supports both Mode A and Mode B, you can efficiently p
 ### Pin definition
 <a target="_blank" href={require('/img/osh/PoE/WIZPoE-S1/WIZPoE-S1-3D.png').default}><img src={require('/img/osh/PoE/WIZPoE-S1/WIZPoE-S1-3D.png').default} alt="WIZPoE-S1-3D"/></a>
 
-<a target="_blank" href={require('/img/osh/PoE/WIZPoE-S1/WIZPoE-S1-Description.png').default}><img src={require('/img/osh/PoE/WIZPoE-S1/WIZPoE-S1-Description.png').default} alt="WIZPoE-S1"/></a>
+#### PoE Input - P1
+|  No   | Value                   | Description |
+| :---: | ----------------------- | :--------- |
+|   1   | VC 1(+)|RX Input (1). This input pin is used in conjunction with VC1 (-) and connects to the center tap of the transformer connected to pins 1&2 of the RJ45 connector (RX) - it is not polarity sensitive. WIZPoE this pin is direct Input +. This pin connects to the positive (+) output of the input bridge rectifier.|
+|   2   | VC 1(-)| TX Input (2). This input pin is used in conjunction with VC1 (+) and connects to the center tap of the transformer connected to pins 3&6 of the RJ45 connector (TX) - it is not polarity sensitive. WIZPoE this pin is direct Input -. This pin connects to the negative (-) output of the input bridge rectifier.|
+|   3   | VC 2(+)| Direct Input (1). This input pin is used in conjunction with VC2 (-) and connects to pin 4 & 5 of the RJ45 connector - it is not polarity sensitive. WIZPoE this pin is direct Input +. This pin connects to the positive (+) output of the input bridge rectifier.|
+|   4   | VC 2(-)| Direct Input (2). This input pin is used in conjunction with VC2 (-) and connects to pin 7 & 8 of the RJ45 connector - it is not polarity sensitive. WIZPoE this pin is direct Input -. This pin connects to the negative (-) output of the input bridge rectifier   |
 
+#### PoE Output - P2
+|  No   | Value                   | Description |
+| :---: | ----------------------- | :--------- |
+|   1   | OUT|+5V Voltage Output|
+|   2   | OUT|+5V Voltage Output|
+|   3   | GND| Ground|
+|   4   | GND| Ground|
 ## Technical Reference
 
 ### WIZPoE-S1 Datasheet
