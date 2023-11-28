@@ -156,10 +156,5 @@ Please refer to below links to find firmware example.
 
 ## How to buy
 
-Coming soon
-
-<!--
-[![WIZnetUS Online Shop, USA](/img/products/w5100s-evb-pico/icons/dollar.png)](https://eshop.wiznet.io/shop/module/w5100s-evb-pico/)
-[![WIZnetKorea Online Shop, Korea](/img/products/w5100s-evb-pico/icons/won.png)](http://wiznetshop.io/product/detail.html?product_no=1049&cate_no=54&display_group=1)
-
--->
+[![WIZnetUS Online Shop, USA](/img/products/w5100s-evb-pico/icons/dollar.png)](https://eshop.wiznet.io/shop/module/surf5/)
+[![WIZnetKorea Online Shop, Korea](/img/products/w5100s-evb-pico/icons/won.png)](https://wiznetshop.io/product/detail.html?product_no=1087&cate_no=1&display_group=3)
