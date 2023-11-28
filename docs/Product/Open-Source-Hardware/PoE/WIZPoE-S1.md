@@ -15,7 +15,7 @@ description: WIZnet Pico PoE made for prototyping and testing Ethernet capabilit
 
 ## Overview
 
-By using WIZPoE-S1, which supports both Mode A and Mode B, you can efficiently power external applications within the 7W range without the need for a power cable, not only for Ethernet but also for various external applications
+By using WIZPoE-S1, which supports both Mode A and Mode B, you can efficiently power external applications within the 8W range without the need for a power cable, not only for Ethernet but also for various external applications
 
 <a target="_blank" href={require('/img/osh/PoE/WIZPoE-S1/WIZPoE-S1.png').default}><img src={require('/img/osh/PoE/WIZPoE-S1/WIZPoE-S1.png').default} alt="WIZPoE-S1"/></a>
 
@@ -39,7 +39,7 @@ By using WIZPoE-S1, which supports both Mode A and Mode B, you can efficiently p
 
 |  No   | Value                 | Symbol    | Min   |  Typical  | Max  |  Units |
 | :---: | --------------------- | :-------: | :---: | :-------: | :--: | :----: |
-|   1   | Input Voltage         | VCC       | 41    |           | 61   |    V   |
+|   1   | Input Voltage         | VCC       | 40    |           | 60   |    V   |
 |   2   | Output Voltage        | VCC       | 4.75  |     5     | 5.25 |    V   |
 |   3   | Output Power          | PWR       |       |     8     |      |    W   |
 |   4   | Switching Frequency   | Freq      | 280   |    300    | 320  |  kHz   |
