@@ -93,14 +93,7 @@ It combines with the W5500, W5100S, and W6100 Io Module to provide Ethernet as w
 
 ## Hardware Specification
 
-<a target="_blank" href={require('/img/osh/WIZnet_Pico_PoE/WIZnet_Pico_PoE_FIN_FW_C.png').default}><img src={require('/img/osh/WIZnet_Pico_PoE/WIZnet_Pico_PoE_FIN_FW_C.png').default} alt="WIZnet_Pico_PoE_FIN_FW_C"/></a>
-Front
-
-<a target="_blank" href={require('/img/osh/WIZnet_Pico_PoE/WIZnet_Pico_PoE_FIN_BK.png').default}><img src={require('/img/osh/WIZnet_Pico_PoE/WIZnet_Pico_PoE_FIN_BK.png').default} alt="WIZnet_Pico_PoE_FIN_BK"/></a>
-Back
-
 <a target="_blank" href={require('/img/osh/WIZnet_Pico_PoE/WIZnet_Pico_PoE-Part.png').default}><img src={require('/img/osh/WIZnet_Pico_PoE/WIZnet_Pico_PoE-Part.png').default} alt="WIZnet Pico PoE Part"/></a>
-Parts
 
 ### Raspberry Pi Pico
 
