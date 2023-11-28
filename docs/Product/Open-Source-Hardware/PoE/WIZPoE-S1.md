@@ -78,8 +78,12 @@ By using WIZPoE-S1, which supports both Mode A and Mode B, you can efficiently p
 
 ### WIZPoE-S1 Datasheet
 
+- <a href="/img/osh/w5100s_evb_pico/Certificate-CE-W5100S-EVB-Pico.pdf" target="_blank">WIZPoE-S1 Datasheet</a>
+
 ### Dimension (Unit : mm)
+- <a target="_blank" href={require('/img/osh/PoE/WIZPoE-S1/wizpoe-s1-demension.png').default}><img src={require('/img/osh/PoE/WIZPoE-S1/wizpoe-s1-demension.png').default} alt="wizpoe-s1-demension"/></a>
 
+## Buy
 
-
-
+[![WIZnetUS Online Shop, USA](/img/products/w5100s-evb-pico/icons/dollar.png)](https://wiznetshop.io/product/detail.html?product_no=1088&cate_no=1&display_group=3)
+[![WIZnetKorea Online Shop, Korea](/img/products/w5100s-evb-pico/icons/won.png)](http://wiznetshop.io/product/detail.html?product_no=1049&cate_no=54&display_group=1)
