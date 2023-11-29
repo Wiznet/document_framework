@@ -24,7 +24,7 @@ Press Next
 
 
 **Step 3** 
-Set the path. We recommend installing it in the <span style='background-color: #f7ddbe;'>"C:\Program Files (x86)..."</span> directory. Please remember this path, as it will be required in the VS Code environment settings below. If you have completed the path configuration, press Install.
+Set the path. We recommend installing it in the "C:\Program Files (x86)..." directory. Please remember this path, as it will be required in the VS Code environment settings below. If you have completed the path configuration, press Install.
 
 <img src="/img/osh/surf5/vsset2.png" width="400" /><br /><br /><br />
 
@@ -56,7 +56,7 @@ Press Next
 <img src="/img/osh/surf5/vsset5.png" width="400" /><br /><br /><br />
 
 **Step 3**
-Select <span style='background-color: #f7ddbe;'>"Add CMake to the system PATH for all users"</span> and click Next.
+Select "Add CMake to the system PATH for all users" and click Next.
 
 <img src="/img/osh/surf5/vsset6.png" width="400" /><br /><br /><br />
 
@@ -81,7 +81,7 @@ Press Finish to complete the installation.
 ### Installing Build Tools for Visual Studio 2019 [Download link](https://visualstudio.microsoft.com/ko/downloads/)
 
 **Step 1**
-Click on <span style='background-color: #f7ddbe;'>"Free download"</span> for the Community version and download the installation file. If you already have Visual Studio, you don't need to install it again.
+Click on "Free download" for the Community version and download the installation file. If you already have Visual Studio, you don't need to install it again.
 
 <img src="/img/osh/surf5/vsdownload.png" width="400" /><br /><br /><br />
 
@@ -96,7 +96,7 @@ Wait for the download to complete.
 <img src="/img/osh/surf5/vsset11.png" width="400" /><br /><br /><br />
 
 **Step 4**
-Please check the <span style='background-color: #f7ddbe;'>"C++ build tools"</span> under the <span style='background-color: #f7ddbe;'>"Desktop & Mobile"</span> tab in the left box. Then, in the right box under the "Installation details" tab, click the checkboxes as shown in the picture below. and press Install.
+Please check the "C++ build tools" under the "Desktop & Mobile" tab in the left box. Then, in the right box under the "Installation details" tab, click the checkboxes as shown in the picture below. and press Install.
 
 <img src="/img/osh/surf5/vsset12.png" width="400" /><br /><br /><br />
 
@@ -112,12 +112,12 @@ Wait for the download to complete.
 
 
 **Step 1**
-Click on <span style='background-color: #f7ddbe;'>"Free download"</span> for Visual Studio Code and download the installation file. If you already have Visual Studio Code, you don't need to install it again.
+Click on "Free download" for Visual Studio Code and download the installation file. If you already have Visual Studio Code, you don't need to install it again.
 
 <img src="/img/osh/surf5/vscodedownload.png" width="400" /><br /><br /><br />
 
 **Step 2**
-Click <span style='background-color: #f7ddbe;'>"I accept the agreement"</span> and then press Next.
+Click "I accept the agreement" and then press Next.
 
 <img src="/img/osh/surf5/vsset15.png" width="400" /><br /><br /><br />
 
@@ -147,16 +147,16 @@ Press Finish to complete the installation.
 
 ### Installing Xpack Build Tools [Download link](https://github.com/xpack-dev-tools/windows-build-tools-xpack/releases/)
 
-Download <span style='background-color: #f7ddbe;'>“xpack-windows-build-tools-4.4.x-x-win32-x64.zip”</span>
+Download “xpack-windows-build-tools-4.4.x-x-win32-x64.zip”
 
 <img src="/img/osh/surf5/vsset20.png" width="400" /><br />
 <img src="/img/osh/surf5/vsset21.png" width="400" />
 <br />
 <br />
 
-Extract the <span style='background-color: #f7ddbe;'>xpack-windows-build-tool-4.x.x.x.zip</span> archive. Save the extracted folder to the recommended path below.
+Extract the xpack-windows-build-tool-4.x.x.x.zip archive. Save the extracted folder to the recommended path below.
 
-**Recommended storage path for the xpack-windows-build-tools folder** : <span style='background-color: #f7ddbe;'>C:\Program Files (x86)\xpack-windows-build-tools-4.x.x.</span>
+**Recommended storage path for the xpack-windows-build-tools folder** : C:\Program Files (x86)\xpack-windows-build-tools-4.x.x.
 
 
 
@@ -218,7 +218,7 @@ In the options, press "Add Item" in the Configure Args section and add the follo
 
 -DARM_TOOLCHAIN_DIR is the location of the GNU Arm compiler's executable files that you previously downloaded.
 
-For example, the author used: 
+For example, the author used:
 
 | CMake: Configure Args                        |
 |----------------------------------------------|
