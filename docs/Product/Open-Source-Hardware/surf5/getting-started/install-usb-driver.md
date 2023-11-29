@@ -16,11 +16,11 @@ description: How to install usb driver for Surf 5
 
 <img src="/img/osh/surf5/Setup_img.png" />
 
-After unzipping the downloaded ZIP file, you'll find a SETUP.EXE executable in the folder, which you'll need to run.
+After unzipping the downloaded ZIP file, you'll find a <span style='background-color: #f7ddbe'>SETUP.EXE</span> executable in the folder, which you'll need to run.
 
 <img src="/img/osh/surf5/install_img.png" width="500" />
 
-When you run SETUP.EXE, the DriverSetup window appears, and you can select INSTALL to install the driver.
+When you run SETUP.EXE, the DriverSetup window appears, and you can select <span style='background-color: #f7ddbe'>INSTALL</span> to install the driver.
 
 <img src="/img/osh/surf5/Driver_install.png" width="500" />
-After Install the driver, you can find "USB-SERIAL CH340" on your Device manager when you connect Surf5.
+After Install the driver, you can find <span style='background-color: #f7ddbe'>"USB-SERIAL CH340"</span> on your Device manager when you connect Surf5.
