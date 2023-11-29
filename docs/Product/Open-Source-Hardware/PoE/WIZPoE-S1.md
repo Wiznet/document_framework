@@ -24,7 +24,7 @@ By using WIZPoE-S1, which supports both Mode A and Mode B, you can efficiently p
 - IEEE802.3af compliant
 - Mode A(Endspan), Mode B(Midspan)
 - Wide input voltage range 40Vdc ~ 60Vdc
-- High DC/DC convertion efficiency
+- High DC/DC conversion efficiency
 - Non-Isolation
 - Internal build in 2 channel bridge rectifiers
 
