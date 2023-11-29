@@ -24,7 +24,7 @@ Press Next
 
 
 **Step 3** 
-<div style="text-align: left">Set the path. We recommend installing it in the <span style='background-color: #f7ddbe'>"C:\Program Files (x86)..."</span> directory. Please remember this path, as it will be required in the VS Code environment settings below. If you have completed the path configuration, press Install.</div>
+Set the path. We recommend installing it in the <span style='background-color: #f7ddbe'>"C:\Program Files (x86)..."</span> directory. Please remember this path, as it will be required in the VS Code environment settings below. If you have completed the path configuration, press Install.
 
 <img src="/img/osh/surf5/vsset2.png" width="400" /><br /><br /><br />
 
