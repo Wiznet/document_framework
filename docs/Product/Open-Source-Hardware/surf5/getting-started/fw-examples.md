@@ -146,7 +146,7 @@ If the build is still not working despite configuring Visual Studio Code setting
 <br />
 <br />
 
-**Step 1. Delete files within the .vscode directory, excluding "cmake-kits.json"**
+**Step 1** 
 
 If other files have appeared in the .vscode directory, please structure the directory as shown in the image below. You should delete all files except "cmake-kits.json."
 
@@ -158,7 +158,7 @@ If other files have appeared in the .vscode directory, please structure the dire
 
 
 
-**Step 2. Verify the path settings of "CMake: Configure Args" and "CMake: Generator" command in the "Extension Settings" of "CMake Tools**
+**Step 2** 
 
 Please check the path that was previously set in CMake: Configure Args. If it hasn't been saved to the workspace, it is advisable to add it again and save. Configure "CMake: Configure Args" according to your own path as shown in the picture below. Also, check if the directory exists on your PC at that path.
 
@@ -172,7 +172,7 @@ Please check the command for the CMake generator. If the command is not entered,
 
 
 
-**Step 3. Delete the "Build" directory**
+**Step 3** 
 
 Next, please delete the "Build" directory. Deleting this directory should not pose any issues for the build process.
 
@@ -183,7 +183,7 @@ Next, please delete the "Build" directory. Deleting this directory should not po
 
 
 
-**Step 4. Setting up the kit with "GCC Arm Embedded"**
+**Step 4** 
 
 Press the F1 key, and then click on "CMake: Select a Kit."
 
@@ -196,8 +196,9 @@ Select "GCC Arm Embedded" to configure the kit.
 
 
 
-**Step 5. Rebuild**
+**Step 5**  
 
+Rebuild now.
 If you have completed the four steps above perfectly, try building the project again within VS Code.
 
 <br />
@@ -210,185 +211,136 @@ If you have completed the four steps above perfectly, try building the project a
 ## How to make Surf 5 Project in Keil 5
 
 
-### 1. Download and install KEIL5!
+### 1. Download Keil 5 & Compiler for Keil 5 
 
-![keil0](/img/products/w7500/documents/appnote/keil0.jpg)
+If you haven't installed the Keil 5 development environment and the compiler for Keil 5 (version 5.37 or later) yet, click the link below to install them first.
 
-* Download MDK-ARM v5 : [KEIL5](https://www.keil.com/download/product/)
-* Installation instructions, please see the Link : [Install](how_to_install_KEIL)
+ [Install Keil 5 for Surf 5](install-keil-guide.md)
 
-### 2. Download W7500 Library!
+<br />
+<br />
+<br />
 
-![keil1](/img/products/w7500/documents/appnote/keil1.jpg)
+### 2. Set-up Compiler in Keil 5
 
-You can download W7500 Library from WIZnet's Github repository : [W7500 Library](https://github.com/Wiznet/W7500)
+**Step 1**
 
-### 3. make workspace! and move the W7500 Library to workspace!
+Run Keil 5 and click on the 'Project' -> 'Manage' -> 'Project Items...' tab at the top.
 
-![keil2](/img/products/w7500/documents/appnote/keil2.jpg)
+<img src="/img/osh/surf5/keil5_setup1.png" width="400" />
 
-In this example, it is **D:\workspace\project\Library**
+<br />
+<br />
 
-### 4. Execute KEIL5 and make new project!
+**Step 2**
 
-![keil3](/img/products/w7500/documents/appnote/keil3.jpg)
+Click the '...' button under the 'Folders/Extensions' tab.
 
-Click to New uVision Project...
+<img src="/img/osh/surf5/keil5_setup2.png" width="400" />
 
-![keil4](/img/products/w7500/documents/appnote/keil4.jpg)
 
-Select a project save folder and choose project name.
-In this example, **D:\workspace\project\W7500_test\W7500_Test.uvproj**
+<br />
+<br />
 
-![keil5](/img/products/w7500/documents/appnote/keil5.jpg)
+**Step 3**
 
-Choose 'Cortex-M0' because W7500 MCU is based on Cortex-M0
+Click the 'Add another ARM Compiler Version to List...' button.
 
-### 5. W7500 start up code and system code setting!
+<img src="/img/osh/surf5/keil5_setup3.png" width="400" />
 
-![keil7](/img/products/w7500/documents/appnote/keil7.jpg)
 
-Return to project. You need to make the same folders like the image which is shown on right side
+<br />
+<br />
 
-![keil8](/img/products/w7500/documents/appnote/keil8.jpg)
-![direction_leftdown](/img/products/w7500/documents/appnote/direction_leftdown.jpg)
-![keil9](/img/products/w7500/documents/appnote/keil9.jpg)
-![direction_leftdown](/img/products/w7500/documents/appnote/direction_leftdown.jpg)
-![keil10](/img/products/w7500/documents/appnote/keil10.jpg)
-![direction_leftdown](/img/products/w7500/documents/appnote/direction_leftdown.jpg)
-![keil11](/img/products/w7500/documents/appnote/keil11.jpg)
-![direction_leftdown](/img/products/w7500/documents/appnote/direction_leftdown.jpg)
-![keil12](/img/products/w7500/documents/appnote/keil12.jpg)
-![direction_leftdown](/img/products/w7500/documents/appnote/direction_leftdown.jpg)
-![keil13](/img/products/w7500/documents/appnote/keil13.jpg)
+**Step 4**
 
-Follow like upper images. 
+Set the path to the installed compiler for the latest version of Keil 5 (version 5.37 or later). If you haven't installed the compiler for the latest version of Keil 5, please refer to [[Install Keil 5 for Surf 5](install-keil-guide.md)].
 
-![keil14](/img/products/w7500/documents/appnote/keil14.jpg)
+<img src="/img/osh/surf5/keil5_setup4.png" width="400" />
 
-And in the same way...  CMSIS Folder include D:\workspace\project\Libraries\CMSIS\Device\WIZnet\W7500\Source\system_W7500.c file
 
-W7500_Periphs folder includes Peripherals to use.
+<br />
+<br />
 
-And User folder has to include main.c and so on.
+**Step 5**
 
+Verify that the compiler has been added and click the 'Close' button.
 
-Let's make main.c
+<img src="/img/osh/surf5/keil5_setup5.png" width="400" />
 
-![keil15](/img/products/w7500/documents/appnote/keil15.jpg)
 
-Click to Add New Item to the Group.
+<br />
+<br />
 
-![keil16](/img/products/w7500/documents/appnote/keil16.jpg)
+**Step 6**
 
-Select C file and Name it with 'main' and click 'Add'.
+Press the 'OK' button to complete the compiler path setup.
 
-![keil17](/img/products/w7500/documents/appnote/keil17.jpg)
+<img src="/img/osh/surf5/keil5_setup6.png" width="400" />
 
-Include **w7500x.h** header but... you should show red X because you did not path.
 
-### 6. setting for include paths
+<br />
+<br />
+<br />
 
-![keil18](/img/products/w7500/documents/appnote/keil18.jpg)
+### 3. Build Surf 5 Project in Keil 5
 
-Click to Options for Target...
+**Step 1**
 
-![keil19](/img/products/w7500/documents/appnote/keil19.jpg)
+within the 'Project' tab at the top, click on 'New uVision Project...'
 
-Select 'Include Paths' in C\C++ tap and click the folder icon and click to ... icon
+<img src="/img/osh/surf5/keil5_setup7.png" width="400" />
 
-![keil20](/img/products/w7500/documents/appnote/keil20.jpg)
 
-![keil+](/img/products/w7500/documents/appnote/keil_.jpg)
+<br />
+<br />
 
-Set 'include path' with
+**Step 2**
 
-   **D:\workspace\project\Libraries\CMSIS\Device\WIZnet\W7500\Include**
-   **D:\workspace\project\Libraries\W7500x_stdPeriph_Driver\inc**
-   **D:\workspace\project\Libraries\CMSIS\Include**
+Open the project by selecting 'Project.uvproj' from the path '...\w7500x-surf5\Projects\W7500x_StdPeriph_Templates\MDK' where the project files exist in the Surf 5 library.
 
-![keil21](/img/products/w7500/documents/appnote/keil21.jpg)
+<img src="/img/osh/surf5/keil5_setup8.png" width="400" />
 
 
+<br />
+<br />
 
-### 7. Memory setting!
+**Step 3**
 
-![](/img/products/w7500/documents/appnote/keil18.jpg)
+Within the 'Project' tab at the top, click on 'Options for Target 'W7500x'...'
 
-Click "Options for Target..."
+<img src="/img/osh/surf5/keil5_setup9.png" width="400" />
 
-![keil22-1](/img/products/w7500/documents/appnote/keil22-1.jpg)
-![direction_down](/img/products/w7500/documents/appnote/direction_down.jpg)
-![keil22-2](/img/products/w7500/documents/appnote/keil22-2.jpg)
 
-Click "Target" tap and set with the values which are shown in above pictures
+<br />
+<br />
 
-![keil23](/img/products/w7500/documents/appnote/keil23.jpg)
+**Step 4**
 
-And click "Linker" tap and check [Use Memory Layout from Target Dialog]
+Go to the 'Target' tab at the top, set the ARM Compiler under Code Generation to 'V5.06 update 7 (build 960)', and click the 'OK' button
 
-### 8. Selection of Peripherals to use 
+<img src="/img/osh/surf5/keil5_setup10.png" width="400" />
 
-![keil18](/img/products/w7500/documents/appnote/keil18.jpg)
 
-Click "Options for Target..."
+<br />
+<br />
 
-![keil24](/img/products/w7500/documents/appnote/keil24.jpg)
+**Step 5**
 
-Click "C/C++" tap and add **CORTEX_M0 USE_STDPERIPH_DRIVER** in "Define" field.
+In the Keil 5 project, click on 'main.c' in the 'User' folder to open the file.
 
-### 9. Setting user program to use with the created bin file
+<img src="/img/osh/surf5/keil5_setup12.png" width="400" />
 
-![keil18](/img/products/w7500/documents/appnote/keil18.jpg)
 
-Click "Options for Target..."
+<br />
+<br />
 
-![keil25](/img/products/w7500/documents/appnote/keil25.jpg)
+**Step 6**
 
-Click "User" tap and check "Run #1" in "Run User Programs After Build/Rebuild" section  
-and write this command **[fromelf --bin -o "$L@L.bin" "#L"]** in order CMSIS DAP to use the bin file.
+Press the 'F7' button to complete the build.
 
-### 10. Compile the example
+<img src="/img/osh/surf5/keil5_setup11.png" width="400" />
 
-![keil26](/img/products/w7500/documents/appnote/keil26.jpg)
 
-Let's compile the example code in **D:\workspace\project\Projects\Peripheral_Examples\GPIO\Blink_LED**
-This fold consists of **main.c**,  **W7500x_conf.h**, **W7500x_it.c** and **W7500x_it.h** and you should copy these four files to **D:\workspace\project\W7500_Test**(my project folder)
-
-![keil27](/img/products/w7500/documents/appnote/keil27.jpg)
-
-And copy W7500x_gpio.c into W7500_Periphs folder in order to use gpio peripheral 
-
-![keil28](/img/products/w7500/documents/appnote/keil28.jpg)
-
-And copy **W7500x_it.c** into User folder for interrupt handlers
-
-Add "Include Path" for **W7500x_conf.h** and **W7500x_it.h**
-
-![keil18](/img/products/w7500/documents/appnote/keil18.jpg)
-
-Click "Options for Target..."
-
-![keil19](/img/products/w7500/documents/appnote/keil19.jpg)
-
-Click "Include Paths" in C\C++ tap, "folder icon and ... icon
-
-![keil29](/img/products/w7500/documents/appnote/keil29.jpg)
-
-Set "include path" with **D:\workspace\project\W7500_Test**
-
-![keil30](/img/products/w7500/documents/appnote/keil30.jpg)
-
-Now compile this project!! by pressing **F7** or clicking **Build icon**
-
-![keil31](/img/products/w7500/documents/appnote/keil31.jpg)
-
-After compile, **W7500_Test.bin** file will be created.
-And then WIZwiki-W7500 will upload this bin file on itself via the User program you registered.
-
-![](/img/products/w7500/documents/appnote/pdf.jpg)
-
-If you want to convert this document to the PDF file? Click to [Export to PDF]
-
-&copy; COPYRIGHT 2015 WIZnet Co.,Ltd.
-
+<br />
+<br />
