@@ -108,13 +108,25 @@ Apart from GPIO and ground pins, there are 5 other pins on the main 40-pin inter
 
 Recommended maximum ambient temperature of operation is 50C.
 
-<!--
-## Electrical Specification
 
-### Power Consumption
 
-TBA
--->
+
+## Power Consumption
+
+The power comsumption of Surf5 depends on how much user use the peripheral in what temperature environment.
+
+We measured power consumption by running TCP Server Loopback example code in a 25 degree environment.
+
+<a target="_blank" href={require('/img/osh/surf5/power.png').default}><img src={require('/img/osh/surf5/power.png').default} /></a>
+
+|      | Current(A) | Voltage(V)               |
+| :--: | --------   | ------------------------ |
+|  AVR |     0.059  | 5V (VBUS)                |
+|  MIN | 0.057      | 5V (VBUS)                |
+|  MAX | 0.061      | 5V (VBUS)                |
+
+If you're planning to use a low-powered application, it's a good idea to test your code before mass production.
+
 
 ## Technical Reference
 
