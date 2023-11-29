@@ -31,7 +31,7 @@ It combines with the W5500, W5100S, and W6100 Io Module to provide Ethernet as w
 - Mode A(Endspan), Mode B(Midspan)
 - Wide input voltage range 37Vdc ~ 57Vdc
 - Circuit Protection (OV,OC)
-- High DC/DC convertion efficiency
+- High DC/DC conversion efficiency
 - Isolation level 2kVrms
 - Enhanced surge protection
 - Internal build in 2 channel bridge rectifiers
