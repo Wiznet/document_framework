@@ -111,7 +111,7 @@ Press "Finish" to complete the download and wait.
 <br />
 <br />
 
-**Step 12**
+**Step 12**  
 
 After the download is complete, the "Pack Installer" window will appear. Click "OK".
 
