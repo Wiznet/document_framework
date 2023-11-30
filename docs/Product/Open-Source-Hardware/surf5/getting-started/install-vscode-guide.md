@@ -38,7 +38,7 @@ Download the .exe file that suits your user environment.
 
 **Step 2**
 
-Press Next
+Press Next.
 
 
 
@@ -60,7 +60,7 @@ Set the path. We recommend installing it in the <span style={{ backgroundColor: 
 
 **Step 4**
 
-Wait for the download to complete
+Wait for the download to complete.
 
 
 
@@ -104,7 +104,7 @@ Download the file that suits your user environment.
 
 **Step 2**
 
-Press Next
+Press Next.
 
 
 
