@@ -14,28 +14,31 @@ description: How to setup keil with Surf 5
 
 **Step 1**
 
-Connect to [keil.com](http://www.keil.com/). And then click the **Downloads** button on the top.
+Connect to [keil.com](http://www.keil.com/). And then click the <span style={{ backgroundColor: '#f7ddbe' }}>Downloads button</span> on the top.
 
 <img src="/img/osh/surf5/keil-download1.png" width="400" />
 
 <br />
 <br />
+<br />
 
 **Step 2**
 
-Select "MDK-Arm".
+Select <span style={{ backgroundColor: '#f7ddbe' }}>"MDK-Arm"</span>.
 
 <img src="/img/osh/surf5/keil-download2.png" width="400" />
 
 <br />
 <br />
+<br />
 
 **Step 3**
 
-Enter personal information and click "Submit".
+Enter personal information and click <span style={{ backgroundColor: '#f7ddbe' }}>"Submit"</span>.
 
 <img src="/img/osh/surf5/keil-download3.png" width="400" />
 
+<br />
 <br />
 <br />
 
@@ -47,6 +50,7 @@ Click on the download file below.
 
 <br />
 <br />
+<br />
 
 **Step 5**
 
@@ -56,40 +60,45 @@ Once the download of the installation file is complete, run the installation fil
 
 <br />
 <br />
+<br />
 
 **Step 6**
 
-Click on "Next".
+Click on <span style={{ backgroundColor: '#f7ddbe' }}>"Next"</span>.
 
 <img src="/img/osh/surf5/keil-download6.png" width="400" />
 
 <br />
 <br />
+<br />
 
 **Step 7**
 
-Agree and click "Next".
+Agree and click <span style={{ backgroundColor: '#f7ddbe' }}>"Next"</span>.
 
 <img src="/img/osh/surf5/keil-download7.png" width="400" />
 
 <br />
 <br />
+<br />
 
 **Step 8**
 
-Check the path and click "Next".
+Check the path and click <span style={{ backgroundColor: '#f7ddbe' }}>"Next"</span>.
 
 <img src="/img/osh/surf5/keil-download8.png" width="400" />
 
 <br />
 <br />
+<br />
 
 **Step 9**
 
-Enter personal information and click "Next".
+Enter personal information and click <span style={{ backgroundColor: '#f7ddbe' }}>"Next"</span>.
 
 <img src="/img/osh/surf5/keil-download9.png" width="400" />
 
+<br />
 <br />
 <br />
 
@@ -101,51 +110,57 @@ Wait for the download to complete.
 
 <br />
 <br />
+<br />
 
 **Step 11**
 
-Press "Finish" to complete the download and wait.
+Press <span style={{ backgroundColor: '#f7ddbe' }}>"Finish"</span> to complete the download and wait.
 
 <img src="/img/osh/surf5/keil-download11.png" width="400" />
 
 <br />
 <br />
+<br />
 
 **Step 12**  
 
-After the download is complete, the "Pack Installer" window will appear. Click "OK".
+After the download is complete, the <span style={{ backgroundColor: '#f7ddbe' }}>"Pack Installer"</span> window will appear. Click "OK".
 
 <img src="/img/osh/surf5/keil-download12.png" width="400" />
 
 <br />
 <br />
-
-
-
-## Install uVision MDK-Lite
-
-After downloading is completed, double click the mdk514.exe file and then setup process will be started.
-
-![keil_5](/img/products/w7500/documents/appnote/keil_4.jpg)
-
 <br />
 <br />
 
+-----
 
 ## Install MDK Version 5 - Legacy Support
 
 After installation is completed, you need to install the MDK version 5 - legacy support because MDK-Lite version does not support W7500 example project devices.
 
-[Download link](http://www2.keil.com/mdk5/legacy/)
+**Step 1**
 
-Click **Download Legacy Support for Cortex-M Devices** button.
+Click this [Download link](http://www2.keil.com/mdk5/legacy/) button.
 
-![keil_6](/img/products/w7500/documents/appnote/keil_6.jpg)
+<img src="/img/osh/surf5/keil-lagacy1.png" width="400" />
 
-After downloading is completed, double click the **MDKCM514.EXE** file nad then setup process will be started.
+<br />
+<br />
+<br />
 
-![keil_7](/img/products/w7500/documents/appnote/keil_7.jpg)
+**Step 2**
 
+After downloading is completed, double click the <span style={{ backgroundColor: '#f7ddbe' }}>MDKCM525.EXE</span> file nad then setup process will be started.
+
+<img src="/img/osh/surf5/keil-lagacy2.png" width="400" />
+
+<br />
+<br />
+<br />
+<br />
+
+-----
 
 ## Install Arm Compiler 5.06 
 
@@ -163,6 +178,7 @@ Finally, if you want to proceed with the build on <span style={{ backgroundColor
 
 <br />
 <br />
+<br />
 
 **Step 2**
 
@@ -171,6 +187,7 @@ Finally, if you want to proceed with the build on <span style={{ backgroundColor
 <img src="/img/osh/surf5/keil_cp_download2.png" width="400" />
 
 
+<br />
 <br />
 <br />
 
@@ -183,6 +200,7 @@ Run the <span style={{ backgroundColor: '#f7ddbe' }}>"setup.exe"</span>  file in
 
 <br />
 <br />
+<br />
 
 **Step 4**
 
@@ -191,6 +209,7 @@ Run the <span style={{ backgroundColor: '#f7ddbe' }}>"setup.exe"</span>  file in
 <img src="/img/osh/surf5/keil_cp_download4.png" width="400" />
 
 
+<br />
 <br />
 <br />
 
@@ -203,6 +222,7 @@ Click the checkbox for <span style={{ backgroundColor: '#f7ddbe' }}>"I accept th
 
 <br />
 <br />
+<br />
 
 **Step 6**
 
@@ -213,6 +233,7 @@ Click the checkbox for <span style={{ backgroundColor: '#f7ddbe' }}>"I accept th
 
 <br />
 <br />
+<br />
 
 **Step 7**
 
@@ -221,6 +242,7 @@ Locate the directory where "Keil_v5" is installed on your PC, then create a fold
 <img src="/img/osh/surf5/keil_cp_download7.png" width="400" />
 
 
+<br />
 <br />
 <br />
 
@@ -234,6 +256,7 @@ Confirm the following path and click <span style={{ backgroundColor: '#f7ddbe' }
 
 <br />
 <br />
+<br />
 
 **Step 9** 
 
@@ -242,6 +265,7 @@ click <span style={{ backgroundColor: '#f7ddbe' }}>"Next"</span>.
 <img src="/img/osh/surf5/keil_cp_download9.png" width="400" />
 
 
+<br />
 <br />
 <br />
 
@@ -254,6 +278,7 @@ click <span style={{ backgroundColor: '#f7ddbe' }}>"Install"</span>.
 
 <br />
 <br />
+<br />
 
 **Step 11** 
 
@@ -262,6 +287,7 @@ Wait for the download to complete.
 <img src="/img/osh/surf5/keil_cp_download11.png" width="400" />
 
 
+<br />
 <br />
 <br />
 

@@ -313,79 +313,79 @@ Press the <span style={{ backgroundColor: '#f7ddbe' }}>"OK"</span> button to com
 <br />
 <br />
 
-<!-- ### 3. Build Surf 5 Project in Keil 5
-
-**Step 1**
-
-within the 'Project' tab at the top, click on <span style={{ backgroundColor: '#f7ddbe' }}>"New uVision Project..."</span>
-
-<img src="/img/osh/surf5/keil5_setup7.png" width="400" />
-
-
-<br />
-<br />
-
-**Step 2**
-
-Open the project by selecting <span style={{ backgroundColor: '#f7ddbe' }}>"Project.uvproj"</span> from the path <span style={{ backgroundColor: '#f7ddbe' }}>"...\w7500x-surf5\Projects\W7500x_StdPeriph_Templates\MDK"</span> where the project files exist in the Surf 5 library.
-
-<img src="/img/osh/surf5/keil5_setup8.png" width="400" />
-
-
-<br />
-<br />
-
-**Step 3**
-
-Within the 'Project' tab at the top, click on <span style={{ backgroundColor: '#f7ddbe' }}>"Options for Target 'W7500x'..."</span>
-
-<img src="/img/osh/surf5/keil5_setup9.png" width="400" />
-
-
-<br />
-<br />
-
-**Step 4**
-
-Go to the <span style={{ backgroundColor: '#f7ddbe' }}>"Target"</span> tab at the top, set the ARM Compiler under Code Generation to <span style={{ backgroundColor: '#f7ddbe' }}>"V5.06 update 7 (build 960)"</span>, and click the <span style={{ backgroundColor: '#f7ddbe' }}>"OK"</span> button
-
-<img src="/img/osh/surf5/keil5_setup10.png" width="400" />
-
-
-<br />
-<br />
-
-**Step 5**
-
-In the Keil 5 project, click on <span style={{ backgroundColor: '#f7ddbe' }}>"main.c"</span> in the <span style={{ backgroundColor: '#f7ddbe' }}>"User"</span> folder to open the file.
-
-<img src="/img/osh/surf5/keil5_setup12.png" width="400" />
-
-
-<br />
-<br />
-
-**Step 6**
-
-Press the <span style={{ backgroundColor: '#f7ddbe' }}>"F7"</span> button to complete the build.
-
-<img src="/img/osh/surf5/keil5_setup11.png" width="400" />
-
-
-<br />
-<br /> -->
-
-
-
 ### 3. Build Surf 5 Project in Keil 5
 
 **Step 1**
 
 within the 'Project' tab at the top, click on <span style={{ backgroundColor: '#f7ddbe' }}>"New uVision Project..."</span>
 
-<p align="center">
 <img src="/img/osh/surf5/keil5_setup7.png" width="400" />
-</p>
+
+
+<br />
+<br />
+
+**Step 2**
+
+Open the project by selecting <span style={{ backgroundColor: '#f7ddbe' }}>"Project.uvproj"</span> from the path <span style={{ backgroundColor: '#f7ddbe' }}>"...\w7500x-surf5\Projects\W7500x_StdPeriph_Templates\MDK"</span> where the project files exist in the Surf 5 library.
+
+<img src="/img/osh/surf5/keil5_setup8.png" width="400" />
+
+
+<br />
+<br />
+
+**Step 3**
+
+Within the 'Project' tab at the top, click on <span style={{ backgroundColor: '#f7ddbe' }}>"Options for Target 'W7500x'..."</span>
+
+<img src="/img/osh/surf5/keil5_setup9.png" width="400" />
+
+
+<br />
+<br />
+
+**Step 4**
+
+Go to the <span style={{ backgroundColor: '#f7ddbe' }}>"Target"</span> tab at the top, set the ARM Compiler under Code Generation to <span style={{ backgroundColor: '#f7ddbe' }}>"V5.06 update 7 (build 960)"</span>, and click the <span style={{ backgroundColor: '#f7ddbe' }}>"OK"</span> button
+
+<img src="/img/osh/surf5/keil5_setup10.png" width="400" />
+
+
+<br />
+<br />
+
+**Step 5**
+
+In the Keil 5 project, click on <span style={{ backgroundColor: '#f7ddbe' }}>"main.c"</span> in the <span style={{ backgroundColor: '#f7ddbe' }}>"User"</span> folder to open the file.
+
+<img src="/img/osh/surf5/keil5_setup12.png" width="400" />
+
+
+<br />
+<br />
+
+**Step 6**
+
+Press the <span style={{ backgroundColor: '#f7ddbe' }}>"F7"</span> button to complete the build.
+
+<img src="/img/osh/surf5/keil5_setup11.png" width="400" />
+
+
+<br />
+<br /> 
+
+
+<!-- 
+### 3. Build Surf 5 Project in Keil 5
+
+**Step 1**
+
+within the 'Project' tab at the top, click on <span style={{ backgroundColor: '#f7ddbe' }}>"New uVision Project..."</span>
+
+
+<img src="/img/osh/surf5/keil5_setup7.png" width="400" />
+
 
 <br />
 <br />
@@ -443,4 +443,4 @@ Press the <span style={{ backgroundColor: '#f7ddbe' }}>"F7"</span> button to com
 </p>
 
 <br />
-<br />
+<br /> -->
