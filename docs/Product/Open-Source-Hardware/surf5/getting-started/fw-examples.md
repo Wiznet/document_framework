@@ -112,11 +112,13 @@ Adjust the Configure Args to match your own file paths according to your setup.
 
 Once you have completed the path configuration, enter "Unix Makefiles" in the "CMake: Generator" field. Please make sure to check the case sensitivity of <span style={{ backgroundColor: '#f7ddbe' }}>"Unix Makefiles"</span>.
 
-<img src="/img/osh/surf5/vsset29.png" width="700" />
-
 | CMake: Generator    |
 |---------------------|
 |Unix Makefiles<br /> |
+
+<img src="/img/osh/surf5/vsset29.png" width="700" />
+
+
 
 <br />
 <br />
@@ -178,7 +180,7 @@ If the build is still not working despite configuring Visual Studio Code setting
 
 If other files have appeared in the .vscode directory, please structure the directory as shown in the image below. You should delete all files <span style={{ backgroundColor: '#f7ddbe' }}>except "cmake-kits.json"</span>.
 
-<img src="/img/osh/surf5/error1.png" width="500" />
+<img src="/img/osh/surf5/error1.png" width="700" />
 <br />
 <br />
 <br />
@@ -190,11 +192,11 @@ If other files have appeared in the .vscode directory, please structure the dire
 
 Please check the path that was previously set in CMake: Configure Args. If it hasn't been saved to the workspace, it is advisable to add it again and save. Configure <span style={{ backgroundColor: '#f7ddbe' }}>"CMake: Configure Args"</span> according to your own path as shown in the picture below. Also, check if the directory exists on your PC at that path.
 
-<img src="/img/osh/surf5/vsset28.png" width="600" /><br /><br /><br />
+<img src="/img/osh/surf5/vsset28.png" width="700" /><br /><br /><br />
 
 Please check the command for the CMake generator. If the command is not entered, please input the command as follows:
 
-<img src="/img/osh/surf5/vsset29.png" width="600" /><br /><br /><br /><br />
+<img src="/img/osh/surf5/vsset29.png" width="700" /><br /><br /><br /><br />
 
 
 
@@ -204,7 +206,7 @@ Please check the command for the CMake generator. If the command is not entered,
 
 Next, please delete the "Build" directory. Deleting this directory should not pose any issues for the build process.
 
-<img src="/img/osh/surf5/error2.png" width="400" /><br /><br /><br /><br />
+<img src="/img/osh/surf5/error2.png" width="700" /><br /><br /><br /><br />
 
 
 
@@ -215,11 +217,11 @@ Next, please delete the "Build" directory. Deleting this directory should not po
 
 Press the F1 key, and then click on <span style={{ backgroundColor: '#f7ddbe' }}>"CMake: Select a Kit"</span>.
 
-<img src="/img/osh/surf5/vsset30.png" width="400" /><br /><br /><br />
+<img src="/img/osh/surf5/vsset30.png" width="700" /><br /><br /><br />
 
 Select <span style={{ backgroundColor: '#f7ddbe' }}>"GCC Arm Embedded"</span> to configure the kit.
 
-<img src="/img/osh/surf5/vsset31.png" width="400" /><br /><br /><br /><br />
+<img src="/img/osh/surf5/vsset31.png" width="700" /><br /><br /><br /><br />
 
 
 
