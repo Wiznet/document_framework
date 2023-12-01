@@ -15,7 +15,7 @@
 <link rel="search" type="application/opensearchdescription+xml" title="WIZnet Document System" href="/opensearch.xml">
 <link rel="preconnect" href="https://cdn.channel.io">
 <script>!function(){var n=window;if(n.ChannelIO)return(window.console.error||window.console.log||function(){})("ChannelIO script included twice.");var e=function(){e.c(arguments)};function t(){if(!n.ChannelIOInitialized){n.ChannelIOInitialized=!0;var e=document.createElement("script");e.type="text/javascript",e.async=!0,e.src="https://cdn.channel.io/plugin/ch-plugin-web.js",e.charset="UTF-8";var t=document.getElementsByTagName("script")[0];t.parentNode.insertBefore(e,t)}}e.q=[],e.c=function(n){e.q.push(n)},n.ChannelIO=e,"complete"===document.readyState?t():window.attachEvent?window.attachEvent("onload",t):(window.addEventListener("DOMContentLoaded",t,!1),window.addEventListener("load",t,!1))}(),ChannelIO("boot",{pluginKey:"cb95c060-ab4c-45ec-bbe8-fe40a1ea3aec"})</script><link rel="stylesheet" href="/assets/css/styles.562445d9.css">
-<script src="/assets/js/runtime~main.e07affef.js" defer="defer"></script>
+<script src="/assets/js/runtime~main.a92681a2.js" defer="defer"></script>
 <script src="/assets/js/main.143ee853.js" defer="defer"></script>
 </head>
 <body class="navigation-with-keyboard">
@@ -29,7 +29,7 @@
 <p><strong>Step 1</strong></p>
 <p>Create a new workspace. The reason for creating a new workspace is to prevent changes to the existing settings.</p>
 <p>First, select <span style="background-color:#f7ddbe">&quot;File -&gt; Add Folder to Workspace&quot;</span>.</p>
-<img src="/img/osh/surf5/vsset22.png" width="400">
+<img src="/img/osh/surf5/vsset22.png" width="700">
 <br>
 <br>
 <br>
@@ -42,7 +42,7 @@
 <br>
 <p><strong>Step 3</strong></p>
 <p>If you&#x27;ve added the workspace with the W7500x-Surf5 folder path, then click on <span style="background-color:#f7ddbe">&quot;File -&gt; Save Workspace As...&quot;</span> again.</p>
-<img src="/img/osh/surf5/vsset24.png" width="400">
+<img src="/img/osh/surf5/vsset24.png" width="700">
 <br>
 <br>
 <br>
@@ -56,9 +56,12 @@
 <br>
 <h3 class="anchor anchorWithHideOnScrollNavbar_WYt5" id="2--save-the-cmake-extension-settings-for-the-stored-workspace">2.  Save the CMake Extension Settings for the stored workspace.<a href="#2--save-the-cmake-extension-settings-for-the-stored-workspace" class="hash-link" aria-label="Direct link to 2.  Save the CMake Extension Settings for the stored workspace." title="Direct link to 2.  Save the CMake Extension Settings for the stored workspace.">​</a></h3>
 <p><strong>Step 1</strong></p>
-<p>In CMake Tools, go to <span style="background-color:#f7ddbe">&quot;the gear icon (settings) -&gt; Extension Settings -&gt; Navigate&quot;</span> to the Workspace tab. In the top search bar, type <span style="background-color:#f7ddbe">&quot;@ext<!-- -->:ms-vscode<!-- -->.cmake-tools&quot;</span> to search.</p>
-<img src="/img/osh/surf5/vsset26.png" width="400">
-<img src="/img/osh/surf5/vsset27.png" width="430">
+<p>In CMake Tools, go to <span style="background-color:#f7ddbe">&quot;the gear icon (settings) -&gt; Extension Settings </span></p>
+<img src="/img/osh/surf5/vsset26.png" width="700">
+<br>
+<br>
+<p>Go to the Workspace tab in the red box. In the top search bar, type <span style="background-color:#f7ddbe">&quot;@ext<!-- -->:ms-vscode<!-- -->.cmake-tools&quot;</span> to search.</p>
+<img src="/img/osh/surf5/vsset27.png" width="700">
 <br>
 <br>
 <br>
@@ -68,14 +71,14 @@
 <p><span style="background-color:#f7ddbe">-DARM_TOOLCHAIN_DIR</span> is the location of the GNU Arm compiler&#x27;s executable files that you previously downloaded.</p>
 <p>For example, the author used:</p>
 <table><thead><tr><th>CMake: Configure Args</th></tr></thead><tbody><tr><td>-DARM_TOOLCHAIN_DIR=C:/Program Files (x86)/GNU Arm Embedded Toolchain/10 2021.10/bin<br></td></tr><tr><td>-DCMAKE_MAKE_PROGRAM=C:/Program Files (x86)/xpack-windows-build-tools-4.4.0-1/bin/make.exe</td></tr></tbody></table>
-<img src="/img/osh/surf5/vsset28.png" width="650">
+<img src="/img/osh/surf5/vsset28.png" width="700">
 <p>Adjust the Configure Args to match your own file paths according to your setup.</p>
 <br>
 <br>
 <br>
 <p><strong>Step 3</strong></p>
 <p>Once you have completed the path configuration, enter &quot;Unix Makefiles&quot; in the &quot;CMake: Generator&quot; field. Please make sure to check the case sensitivity of <span style="background-color:#f7ddbe">&quot;Unix Makefiles&quot;</span>.</p>
-<img src="/img/osh/surf5/vsset29.png" width="600">
+<img src="/img/osh/surf5/vsset29.png" width="700">
 <table><thead><tr><th>CMake: Generator</th></tr></thead><tbody><tr><td>Unix Makefiles<br></td></tr></tbody></table>
 <br>
 <br>
@@ -84,31 +87,26 @@
 <h3 class="anchor anchorWithHideOnScrollNavbar_WYt5" id="3-build-project-in-vs-code">3. Build Project in VS Code<a href="#3-build-project-in-vs-code" class="hash-link" aria-label="Direct link to 3. Build Project in VS Code" title="Direct link to 3. Build Project in VS Code">​</a></h3>
 <p><strong>Step 1</strong></p>
 <p>Press the F1 key, and then click on <span style="background-color:#f7ddbe">&quot;CMake: Select a Kit&quot;</span>.</p>
-<img src="/img/osh/surf5/vsset30.png" width="400">
+<img src="/img/osh/surf5/vsset30.png" width="700">
 <br>
 <br>
 <br>
 <p><strong>Step 2</strong></p>
 <p>Select <span style="background-color:#f7ddbe">&quot;GCC Arm Embedded&quot;</span> to configure the kit.</p>
-<img src="/img/osh/surf5/vsset31.png" width="400">
+<img src="/img/osh/surf5/vsset31.png" width="700">
 <br>
 <br>
 <br>
 <p><strong>Step 3</strong></p>
 <p>Click the <span style="background-color:#f7ddbe">&quot;Build&quot;</span> button at the bottom or press F7 to start the build process.</p>
-<img src="/img/osh/surf5/vsset32.png" width="400">
+<img src="/img/osh/surf5/vsset32.png" width="700">
 <br>
 <br>
 <br>
 <p><strong>Step 4</strong></p>
 <p>Once the build is completed, you will see a message like the one above in the OUTPUT window.</p>
-<img src="/img/osh/surf5/vsset33.png" width="600">
-<br>
-<br>
-<br>
-<p><strong>Step 5</strong></p>
 <p>You will also be able to confirm that the Build directory has been created. The project folder within the Build directory contains the generated bin files. You can save these bin files to your Surf 5 and use the project.</p>
-<img src="/img/osh/surf5/vsset34.png" width="400">
+<img src="/img/osh/surf5/vsset33.png" width="700">
 <br>
 <br>
 <br>
