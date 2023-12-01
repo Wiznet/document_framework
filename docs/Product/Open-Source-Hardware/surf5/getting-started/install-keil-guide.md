@@ -300,3 +300,15 @@ Click the <span style={{ backgroundColor: '#f7ddbe' }}>"Finish"</span> button to
 
 <br />
 <br />
+
+
+-----
+
+## How to make Surf 5 Project in Keil 5
+
+If you want to create a project in the KEIL environment, please refer to the link below.
+
+[How to make Surf 5 Project in Keil 5](fw-examples.md#How-to-make-Surf-5-Project-in-Keil-5)
+
+<br />
+<br />

@@ -316,7 +316,21 @@ Extract the <span style={{ backgroundColor: '#f7ddbe' }}>xpack-windows-build-too
 
 **Recommended storage path for the xpack-windows-build-tools folder** : <span style={{ backgroundColor: '#f7ddbe' }}>C:\Program Files (x86)\xpack-windows-build-tools-4.x.x.</span>
 
+<br />
+<br />
+<br />
 
+
+-----
+
+## How to make Surf 5 Project in VS Code
+
+If you want to create a project in the KEIL environment, please refer to the link below.
+
+[How to make Surf 5 Project in VS Code](fw-examples.md#How-to-make-Surf-5-Project-in-VS-Code)
+
+<br />
+<br />
 
 
 
