@@ -27,7 +27,7 @@ Create a new workspace. The reason for creating a new workspace is to prevent ch
 
 First, select <span style={{ backgroundColor: '#f7ddbe' }}>"File -> Add Folder to Workspace"</span>.
 
-<img src="/img/osh/surf5/vsset22.png" width="400" />
+<img src="/img/osh/surf5/vsset22.png" width="700" />
 
 
   <br />
@@ -49,7 +49,7 @@ Select the <span style={{ backgroundColor: '#f7ddbe' }}>"W7500x-Surf5"</span> pr
 
 If you've added the workspace with the W7500x-Surf5 folder path, then click on <span style={{ backgroundColor: '#f7ddbe' }}>"File -> Save Workspace As..."</span> again.
 
-<img src="/img/osh/surf5/vsset24.png" width="400" />
+<img src="/img/osh/surf5/vsset24.png" width="700" />
 
   <br />
   <br />
@@ -70,10 +70,17 @@ Simply press <span style={{ backgroundColor: '#f7ddbe' }}>"Save"</span> with the
 
 **Step 1** 
 
-In CMake Tools, go to <span style={{ backgroundColor: '#f7ddbe' }}>"the gear icon (settings) -> Extension Settings -> Navigate"</span> to the Workspace tab. In the top search bar, type <span style={{ backgroundColor: '#f7ddbe' }}>"@ext:ms-vscode.cmake-tools"</span> to search.
+In CMake Tools, go to <span style={{ backgroundColor: '#f7ddbe' }}>"the gear icon (settings) -> Extension Settings </span> 
 
-<img src="/img/osh/surf5/vsset26.png" width="400" />
-<img src="/img/osh/surf5/vsset27.png" width="430" />
+<img src="/img/osh/surf5/vsset26.png" width="700" />
+
+<br />
+<br />
+
+Go to the Workspace tab in the red box. In the top search bar, type <span style={{ backgroundColor: '#f7ddbe' }}>"@ext:ms-vscode.cmake-tools"</span> to search.
+
+
+<img src="/img/osh/surf5/vsset27.png" width="700" />
 
 <br />
 <br />
@@ -94,7 +101,7 @@ For example, the author used:
 |-DARM_TOOLCHAIN_DIR=C:/Program Files (x86)/GNU Arm Embedded Toolchain/10 2021.10/bin<br /> |
 |-DCMAKE_MAKE_PROGRAM=C:/Program Files (x86)/xpack-windows-build-tools-4.4.0-1/bin/make.exe |
 
-<img src="/img/osh/surf5/vsset28.png" width="650" />
+<img src="/img/osh/surf5/vsset28.png" width="700" />
 
 Adjust the Configure Args to match your own file paths according to your setup.
 <br />
@@ -105,7 +112,7 @@ Adjust the Configure Args to match your own file paths according to your setup.
 
 Once you have completed the path configuration, enter "Unix Makefiles" in the "CMake: Generator" field. Please make sure to check the case sensitivity of <span style={{ backgroundColor: '#f7ddbe' }}>"Unix Makefiles"</span>.
 
-<img src="/img/osh/surf5/vsset29.png" width="600" />
+<img src="/img/osh/surf5/vsset29.png" width="700" />
 
 | CMake: Generator    |
 |---------------------|
@@ -122,7 +129,7 @@ Once you have completed the path configuration, enter "Unix Makefiles" in the "C
 
 Press the F1 key, and then click on <span style={{ backgroundColor: '#f7ddbe' }}>"CMake: Select a Kit"</span>.
 
-<img src="/img/osh/surf5/vsset30.png" width="400" />
+<img src="/img/osh/surf5/vsset30.png" width="700" />
 <br />
 <br />
 <br />
@@ -131,7 +138,7 @@ Press the F1 key, and then click on <span style={{ backgroundColor: '#f7ddbe' }}
 
 Select <span style={{ backgroundColor: '#f7ddbe' }}>"GCC Arm Embedded"</span> to configure the kit.
 
-<img src="/img/osh/surf5/vsset31.png" width="400" />
+<img src="/img/osh/surf5/vsset31.png" width="700" />
 <br />
 <br />
 <br />
@@ -140,7 +147,7 @@ Select <span style={{ backgroundColor: '#f7ddbe' }}>"GCC Arm Embedded"</span> to
 
 Click the <span style={{ backgroundColor: '#f7ddbe' }}>"Build"</span> button at the bottom or press F7 to start the build process.
 
-<img src="/img/osh/surf5/vsset32.png" width="400" />
+<img src="/img/osh/surf5/vsset32.png" width="700" />
 <br />
 <br />
 <br />
@@ -149,18 +156,9 @@ Click the <span style={{ backgroundColor: '#f7ddbe' }}>"Build"</span> button at 
 
 Once the build is completed, you will see a message like the one above in the OUTPUT window.
 
-<img src="/img/osh/surf5/vsset33.png" width="600" />
-
-<br />
-<br />
-<br />
-
-**Step 5** 
-
 You will also be able to confirm that the Build directory has been created. The project folder within the Build directory contains the generated bin files. You can save these bin files to your Surf 5 and use the project.
 
-<img src="/img/osh/surf5/vsset34.png" width="400" />
-
+<img src="/img/osh/surf5/vsset33.png" width="700" />
 
 <br />
 <br />

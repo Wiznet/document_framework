@@ -217,7 +217,7 @@ Run the <span style={{ backgroundColor: '#f7ddbe' }}>"setup.exe"</span>  file in
 
 Click the checkbox for <span style={{ backgroundColor: '#f7ddbe' }}>"I accept the terms in the License Agreement"</span> and then click <span style={{ backgroundColor: '#f7ddbe' }}>"Next"</span>.
 
-<img src="/img/osh/surf5/keil_cp_download5.png" width="550" />
+<img src="/img/osh/surf5/keil_cp_download5.png" width="400" />
 
 
 <br />
@@ -302,7 +302,7 @@ Click the <span style={{ backgroundColor: '#f7ddbe' }}>"Finish"</span> button to
 <br />
 
 
------
+<!-- -----
 
 ## How to make Surf 5 Project in Keil 5
 
@@ -311,4 +311,4 @@ If you want to create a project in the KEIL environment, please refer to the lin
 [How to make Surf 5 Project in Keil 5](fw-examples.md#How-to-make-Surf-5-Project-in-Keil-5)
 
 <br />
-<br />
+<br /> -->
