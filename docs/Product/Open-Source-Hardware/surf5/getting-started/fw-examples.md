@@ -257,7 +257,7 @@ If you haven't installed the Keil 5 development environment and the compiler for
 
 Run Keil 5 and click on the <span style={{ backgroundColor: '#f7ddbe' }}>"Project' -> 'Manage' -> 'Project Items..."</span> tab at the top.
 
-<img src="/img/osh/surf5/keil5_setup1.png" width="700" />
+<img src="/img/osh/surf5/keil5_setup1.png" width="800" />
 
 <br />
 <br />
@@ -266,7 +266,7 @@ Run Keil 5 and click on the <span style={{ backgroundColor: '#f7ddbe' }}>"Projec
 
 Click the <span style={{ backgroundColor: '#f7ddbe' }}>"..."</span> button under the 'Folders/Extensions' tab.
 
-<img src="/img/osh/surf5/keil5_setup2.png" width="400" />
+<img src="/img/osh/surf5/keil5_setup2.png" width="550" />
 
 
 <br />
@@ -276,7 +276,7 @@ Click the <span style={{ backgroundColor: '#f7ddbe' }}>"..."</span> button under
 
 Click the <span style={{ backgroundColor: '#f7ddbe' }}>"Add another ARM Compiler Version to List..."</span> button.
 
-<img src="/img/osh/surf5/keil5_setup3.png" width="400" />
+<img src="/img/osh/surf5/keil5_setup3.png" width="550" />
 
 
 <br />
@@ -286,7 +286,7 @@ Click the <span style={{ backgroundColor: '#f7ddbe' }}>"Add another ARM Compiler
 
 Set the path to the installed compiler for the latest version of Keil 5 (version 5.37 or later). If you haven't installed the compiler for the latest version of Keil 5, please refer to [[Install Keil 5 for Surf 5](install-keil-guide.md)].
 
-<img src="/img/osh/surf5/keil5_setup4.png" width="400" />
+<img src="/img/osh/surf5/keil5_setup4.png" width="550" />
 
 
 <br />
@@ -296,7 +296,7 @@ Set the path to the installed compiler for the latest version of Keil 5 (version
 
 Verify that the compiler has been added and click the <span style={{ backgroundColor: '#f7ddbe' }}>"Close"</span> button.
 
-<img src="/img/osh/surf5/keil5_setup5.png" width="400" />
+<img src="/img/osh/surf5/keil5_setup5.png" width="550" />
 
 
 <br />
@@ -306,7 +306,7 @@ Verify that the compiler has been added and click the <span style={{ backgroundC
 
 Press the <span style={{ backgroundColor: '#f7ddbe' }}>"OK"</span> button to complete the compiler path setup.
 
-<img src="/img/osh/surf5/keil5_setup6.png" width="400" />
+<img src="/img/osh/surf5/keil5_setup6.png" width="550" />
 
 
 <br />
@@ -329,7 +329,7 @@ within the 'Project' tab at the top, click on <span style={{ backgroundColor: '#
 
 Open the project by selecting <span style={{ backgroundColor: '#f7ddbe' }}>"Project.uvproj"</span> from the path <span style={{ backgroundColor: '#f7ddbe' }}>"...\w7500x-surf5\Projects\W7500x_StdPeriph_Templates\MDK"</span> where the project files exist in the Surf 5 library.
 
-<img src="/img/osh/surf5/keil5_setup8.png" width="400" />
+<img src="/img/osh/surf5/keil5_setup8.png" width="550" />
 
 
 <br />
@@ -349,7 +349,7 @@ Within the 'Project' tab at the top, click on <span style={{ backgroundColor: '#
 
 Go to the <span style={{ backgroundColor: '#f7ddbe' }}>"Target"</span> tab at the top, set the ARM Compiler under Code Generation to <span style={{ backgroundColor: '#f7ddbe' }}>"V5.06 update 7 (build 960)"</span>, and click the <span style={{ backgroundColor: '#f7ddbe' }}>"OK"</span> button
 
-<img src="/img/osh/surf5/keil5_setup10.png" width="400" />
+<img src="/img/osh/surf5/keil5_setup10.png" width="550" />
 
 
 <br />
@@ -359,7 +359,7 @@ Go to the <span style={{ backgroundColor: '#f7ddbe' }}>"Target"</span> tab at th
 
 In the Keil 5 project, click on <span style={{ backgroundColor: '#f7ddbe' }}>"main.c"</span> in the <span style={{ backgroundColor: '#f7ddbe' }}>"User"</span> folder to open the file.
 
-<img src="/img/osh/surf5/keil5_setup12.png" width="400" />
+<img src="/img/osh/surf5/keil5_setup12.png" width="550" />
 
 
 <br />
@@ -369,7 +369,7 @@ In the Keil 5 project, click on <span style={{ backgroundColor: '#f7ddbe' }}>"ma
 
 Press the <span style={{ backgroundColor: '#f7ddbe' }}>"F7"</span> button to complete the build.
 
-<img src="/img/osh/surf5/keil5_setup11.png" width="400" />
+<img src="/img/osh/surf5/keil5_setup11.png" width="550" />
 
 
 <br />
