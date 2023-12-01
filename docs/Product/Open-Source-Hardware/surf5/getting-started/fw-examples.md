@@ -315,9 +315,9 @@ Press the <span style={{ backgroundColor: '#f7ddbe' }}>"OK"</span> button to com
 
 **Step 1**
 
-within the 'Project' tab at the top, click on <span style={{ backgroundColor: '#f7ddbe' }}>"New uVision Project..."</span>
+within the 'Project' tab at the top, click on <span style={{ backgroundColor: '#f7ddbe' }}>"Open Project..."</span>
 
-<img src="/img/osh/surf5/keil5_setup7.png" width="400" />
+<img src="/img/osh/surf5/keil5_setup7.png" width="700" />
 
 
 <br />
@@ -337,7 +337,7 @@ Open the project by selecting <span style={{ backgroundColor: '#f7ddbe' }}>"Proj
 
 Within the 'Project' tab at the top, click on <span style={{ backgroundColor: '#f7ddbe' }}>"Options for Target 'W7500x'..."</span>
 
-<img src="/img/osh/surf5/keil5_setup9.png" width="400" />
+<img src="/img/osh/surf5/keil5_setup9.png" width="700" />
 
 
 <br />
@@ -357,7 +357,7 @@ Go to the <span style={{ backgroundColor: '#f7ddbe' }}>"Target"</span> tab at th
 
 In the Keil 5 project, click on <span style={{ backgroundColor: '#f7ddbe' }}>"main.c"</span> in the <span style={{ backgroundColor: '#f7ddbe' }}>"User"</span> folder to open the file.
 
-<img src="/img/osh/surf5/keil5_setup12.png" width="550" />
+<img src="/img/osh/surf5/keil5_setup12.png" width="700" />
 
 
 <br />
@@ -367,7 +367,7 @@ In the Keil 5 project, click on <span style={{ backgroundColor: '#f7ddbe' }}>"ma
 
 Press the <span style={{ backgroundColor: '#f7ddbe' }}>"F7"</span> button to complete the build.
 
-<img src="/img/osh/surf5/keil5_setup11.png" width="550" />
+<img src="/img/osh/surf5/keil5_setup11.png" width="700" />
 
 
 <br />
