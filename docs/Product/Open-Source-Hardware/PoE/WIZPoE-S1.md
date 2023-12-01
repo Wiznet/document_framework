@@ -83,6 +83,9 @@ By using WIZPoE-S1, which supports both Mode A and Mode B, you can efficiently p
 ### Dimension (Unit : mm)
 <a target="_blank" href={require('/img/osh/PoE/WIZPoE-S1/wizpoe-s1-demension.png').default}><img src={require('/img/osh/PoE/WIZPoE-S1/wizpoe-s1-demension.png').default} alt="wizpoe-s1-demension"/></a>
 
+<a target="_blank" href={require('/img/osh/PoE/WIZPoE-S1/wizpoe-s1-demension-height.png').default}><img src={require('/img/osh/PoE/WIZPoE-S1/wizpoe-s1-demension-height.png').default} alt="wizpoe-s1-demension-height"/></a>
+
+
 ## Certification
 
 ### EMI
