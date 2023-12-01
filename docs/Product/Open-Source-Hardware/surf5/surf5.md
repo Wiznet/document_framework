@@ -24,43 +24,7 @@ You can get a detail infomation of our PoE [here](../PoE/PoE-Main.md).
 
 ## Features
 
-- W7500 microcontroller
-  * ARM Cortex-M0
-    * 48MHz maximum frequency
-  * Hardwired TCP/IP Core
-     * 8 Sockets
-     * SRAM for socket: 32 KB
-  * PHY
-      * IC+(IP101G)
-  * Memories
-    * Flash: 128 KB
-    * SRAM: 16KB
-    * ROM for boot code: 6 KB
-  * Clock, reset and supply management
-	  * POR (Power-On Reset)
-	  * Internal Voltage Regulator : 3.3V to 1.5V
-	  * 8-to-24MHz external crystal oscillator
-	  * Internal 8MHz RC Oscillator
-	  * PLL for CPU clock
-  * ADC : 12bit, 8ch, 1Msps (Cannot use more than 2 channels simultaneously)
-  * DMA
-      * 6-channel DMA controller
-      * Peripheral supported: UARTs, SPIs
-  * GPIO
-      * 34 I/Os (15 IO x 2ea, 4 IO x 1ea)
-  * Debug mode
-      * Serial Wire Debug (SWD)
-  * Timer/PWM
-  	* 1 Watchdog (32-bit down-counter)
-  	* 4 Timers (32-bit or 16-bit down-counter)
-  	* 8 PWMs (32-bit counter/timers with programmable 6-bit prescaler)
-  * Communication Interfaces
-     * 3 UART (2 UARTs with FIFO and Flow Control, 1 simple UART)
-     * 2 SPI
-  * Crypto
-     * 1 RNG (Random Number Generator): 32-bit random number
-  * Package
-      * 64 LQFP (7x7 mm)
+- [W7500](../../iMCU/W7500/Overview.md) microcontroller
 - Built-in RJ45
 - Built-in LDO
 - Built-in UART to USB 
@@ -111,7 +75,7 @@ Recommended maximum ambient temperature of operation is 50C.
 
 
 
-## Power Consumption
+### Power Consumption
 
 The power comsumption of Surf5 depends on how much user use the peripheral in what temperature environment.
 
