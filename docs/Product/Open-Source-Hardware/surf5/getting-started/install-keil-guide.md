@@ -171,7 +171,7 @@ Finally, if you want to proceed with the build on <span style={{ backgroundColor
 
 **Step 1**
 
- Pressing this [Download link](https://developer.arm.com/downloads/view/ACOMP5) button will take you to the screen similar to the one in the picture below. Click on the <span style={{ backgroundColor: '#f7ddbe' }}>"Download Now"</span> button to download the file. Since a login is required, please log in before proceeding.
+ Pressing this [Download link](https://developer.arm.com/downloads/view/ACOMP5) button will take you to the screen similar to the one in the picture below. Click on the <span style={{ backgroundColor: '#f7ddbe' }}>"Download Now"</span> button to download the file. Since a login is required, log in before proceeding.
 
 <img src="/img/osh/surf5/keil_cp_download1.png" width="600" />
 
@@ -260,7 +260,7 @@ Confirm the following path and click <span style={{ backgroundColor: '#f7ddbe' }
 
 **Step 9** 
 
-click <span style={{ backgroundColor: '#f7ddbe' }}>"Next"</span>.
+Click <span style={{ backgroundColor: '#f7ddbe' }}>"Next"</span>.
 
 <img src="/img/osh/surf5/keil_cp_download9.png" width="550" />
 
@@ -271,7 +271,7 @@ click <span style={{ backgroundColor: '#f7ddbe' }}>"Next"</span>.
 
 **Step 10** 
 
-click <span style={{ backgroundColor: '#f7ddbe' }}>"Install"</span>.
+Click <span style={{ backgroundColor: '#f7ddbe' }}>"Install"</span>.
 
 <img src="/img/osh/surf5/keil_cp_download10.png" width="550" />
 

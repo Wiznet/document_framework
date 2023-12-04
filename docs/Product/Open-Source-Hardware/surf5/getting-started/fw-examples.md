@@ -110,7 +110,7 @@ Adjust the Configure Args to match your own file paths according to your setup.
 
 **Step 3** 
 
-Once you have completed the path configuration, enter "Unix Makefiles" in the "CMake: Generator" field. Please make sure to check the case sensitivity of <span style={{ backgroundColor: '#f7ddbe' }}>"Unix Makefiles"</span>.
+Once you have completed the path configuration, enter "Unix Makefiles" in the "CMake: Generator" field. make sure to check the case sensitivity of <span style={{ backgroundColor: '#f7ddbe' }}>"Unix Makefiles"</span>.
 
 | CMake: Generator    |
 |---------------------|
@@ -190,11 +190,11 @@ If other files have appeared in the .vscode directory, please structure the dire
 
 **Step 2** 
 
-Please check the path that was previously set in CMake: Configure Args. If it hasn't been saved to the workspace, it is advisable to add it again and save. Configure <span style={{ backgroundColor: '#f7ddbe' }}>"CMake: Configure Args"</span> according to your own path as shown in the picture below. Also, check if the directory exists on your PC at that path.
+Check the path that was previously set in CMake: Configure Args. If it hasn't been saved to the workspace, it is advisable to add it again and save. Configure <span style={{ backgroundColor: '#f7ddbe' }}>"CMake: Configure Args"</span> according to your own path as shown in the picture below. Also, check if the directory exists on your PC at that path.
 
 <img src="/img/osh/surf5/vsset28.png" width="700" /><br /><br /><br />
 
-Please check the command for the CMake generator. If the command is not entered, please input the command as follows:
+Check the command for the CMake generator. If the command is not entered, please input the command as follows:
 
 <img src="/img/osh/surf5/vsset29.png" width="700" /><br /><br /><br /><br />
 
@@ -204,7 +204,7 @@ Please check the command for the CMake generator. If the command is not entered,
 
 **Step 3** 
 
-Next, please delete the "Build" directory. Deleting this directory should not pose any issues for the build process.
+Next, delete the "Build" directory. Deleting this directory should not pose any issues for the build process.
 
 <img src="/img/osh/surf5/error2.png" width="700" /><br /><br /><br /><br />
 
@@ -284,7 +284,7 @@ Click the <span style={{ backgroundColor: '#f7ddbe' }}>"Add another ARM Compiler
 
 **Step 4**
 
-Set the path to the installed compiler for the latest version of Keil 5 (version 5.37 or later). If you haven't installed the compiler for the latest version of Keil 5, please refer to [[Install Keil 5 for Surf 5](install-keil-guide.md)].
+Set the path to the installed compiler for the latest version of Keil 5 (version 5.37 or later). If you haven't installed the compiler for the latest version of Keil 5, refer to [[Install Keil 5 for Surf 5](install-keil-guide.md)].
 
 <img src="/img/osh/surf5/keil5_setup4.png" width="550" />
 

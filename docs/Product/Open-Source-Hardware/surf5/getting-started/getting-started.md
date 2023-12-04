@@ -39,7 +39,7 @@ Click on the link above to install the 'ISP Tool' for downloading the firmware f
 
 - **VS Code**
 
-If you want to develop in the VS Code environment, please click the link below.
+If you want to develop in the VS Code environment, click the link below.
 
 [Install VS Code for Surf 5](install-vscode-guide.md)
 
@@ -47,7 +47,7 @@ If you want to develop in the VS Code environment, please click the link below.
 
 - **KEIL**
 
-If you want to develop in the KEIL environment, please click the link below.
+If you want to develop in the KEIL environment, click the link below.
 
 [Install Keil 5 for Surf 5](install-keil-guide.md)
 

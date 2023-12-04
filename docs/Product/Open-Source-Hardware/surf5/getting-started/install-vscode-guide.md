@@ -194,7 +194,7 @@ Wait for the download to complete.
 
 **Step 4**
 
-Please check the <span style={{ backgroundColor: '#f7ddbe' }}>"C++ build tools"</span> under the <span style={{ backgroundColor: '#f7ddbe' }}>"Desktop & Mobile"</span> tab in the left box. Then, in the right box under the <span style={{ backgroundColor: '#f7ddbe' }}>"Installation details"</span> tab, click the checkboxes as shown in the picture below. and press Install.
+Check the <span style={{ backgroundColor: '#f7ddbe' }}>"C++ build tools"</span> under the <span style={{ backgroundColor: '#f7ddbe' }}>"Desktop & Mobile"</span> tab in the left box. Then, in the right box under the <span style={{ backgroundColor: '#f7ddbe' }}>"Installation details"</span> tab, click the checkboxes as shown in the picture below. and press Install.
 
 
 
