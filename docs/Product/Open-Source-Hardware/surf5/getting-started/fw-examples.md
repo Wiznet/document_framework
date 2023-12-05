@@ -194,7 +194,7 @@ Check the path that was previously set in CMake: Configure Args. If it hasn't be
 
 <img src="/img/osh/surf5/vsset28.png" width="700" /><br /><br /><br />
 
-Check the command for the CMake generator. If the command is not entered, please input the command as follows:
+Check the command for the <span style={{ backgroundColor: '#f7ddbe' }}>"Cmake: Generator"</span>. If the command is not entered, please input the command as follows. also, Be sure to respect the case sensitivity of <span style={{ backgroundColor: '#f7ddbe' }}>"Unix Makefiles"</span>.
 
 <img src="/img/osh/surf5/vsset29.png" width="700" /><br /><br /><br /><br />
 
