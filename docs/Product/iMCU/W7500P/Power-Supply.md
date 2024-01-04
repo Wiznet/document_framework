@@ -9,7 +9,7 @@ date: 2020-04-03
 
 W7500P embeds a voltage regulator in order to supply the internal 1.5V digital power domain.
 
-- Require a 2.7V ~ 5.5V operating supply voltage (VDD)
+- Require a 2.7V ~ 3.6V operating supply voltage (VDD)
 - ADC ref voltage is same as VDD
 
 
