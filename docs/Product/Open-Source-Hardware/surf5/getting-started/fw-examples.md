@@ -19,7 +19,21 @@ If you haven't downloaded the Surf 5 project yet, Click the link below to access
 ## How to make Surf 5 Project in VS Code
 
 
-### 1. Create a New Workspace (Prevent Changes to Existing Settings)
+### 1. Installing Extensions in VS Code
+
+
+Search for and install the three extensions shown in the image below in the extension program search bar.
+
+
+<img src="/img/osh/surf5/vscodeextensions.png" width="700" />
+
+<br />
+<br />
+<br />
+<br />
+<br />
+
+### 2. Create a New Workspace (Prevent Changes to Existing Settings)
 
 **Step 1** 
 
@@ -66,7 +80,7 @@ Simply press <span style={{ backgroundColor: '#f7ddbe' }}>"Save"</span> with the
 <br />
 <br />
 
-### 2.  Save the CMake Extension Settings for the stored workspace.
+### 3.  Save the CMake Extension Settings for the stored workspace.
 
 **Step 1** 
 
@@ -125,7 +139,7 @@ Once you have completed the path configuration, enter "Unix Makefiles" in the "C
 <br />
 <br />
 
-### 3. Build Project in VS Code
+### 4. Build Project in VS Code
 
 **Step 1** 
 
@@ -168,7 +182,7 @@ You will also be able to confirm that the Build directory has been created. The 
 <br />
 <br />
 
-### 4. How to solve Surf 5 build error in VS Code
+### 5. How to solve Surf 5 build error in VS Code
 
 
 If the build is still not working despite configuring Visual Studio Code settings, follow the steps below.
