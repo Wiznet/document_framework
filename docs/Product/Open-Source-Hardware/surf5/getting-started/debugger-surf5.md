@@ -39,7 +39,7 @@ This guide is based on Surf5's default example, Loopback
     <img src="/img/osh/surf5/Add_DFP6.png" width="400" /><br /><br /><br />Now you can see the W7500 added with the __pyocd list --targets__ command.
 
 # 5. Set GDB path and Excutable(.elf) path
-    <a href="/img/osh/surf5/WIZnet.launch.zip" target="_blank">Download</a> launch.jason and edit executable path and gdbpath
+    <a href="/img/osh/surf5/launch.zip" target="_blank">Download</a> launch.jason and edit executable path and gdbpath
     <img src="/img/osh/surf5/Set_GDB_Path.png" width="600" /><br /><br /><br />
     Set the executable path to the path of the .elf file you want to debug and the GDB path to the path of the ARM TOOL CHAIN you installed.
 
