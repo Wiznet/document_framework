@@ -115,9 +115,14 @@ For example, the author used:
 |-DARM_TOOLCHAIN_DIR=C:/Program Files (x86)/GNU Arm Embedded Toolchain/10 2021.10/bin<br /> |
 |-DCMAKE_MAKE_PROGRAM=C:/Program Files (x86)/xpack-windows-build-tools-4.4.0-1/bin/make.exe |
 
+
+ <span style={{ backgroundColor: '#f7ddbe' }}>Adjust the Configure Args to match your own file paths according to your setup.</span>.
+
+ 
+<br />
+
 <img src="/img/osh/surf5/vsset28.png" width="700" />
 
-Adjust the Configure Args to match your own file paths according to your setup.
 <br />
 <br />
 <br />
