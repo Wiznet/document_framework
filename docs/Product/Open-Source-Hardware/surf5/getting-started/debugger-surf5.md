@@ -6,11 +6,7 @@ keywords: [iMCU, ethernet, w7500]
 description: How to debug Surf 5
 ---
 
-<!-- **This document serves as a guide for users to reference before using Surf 5.** -->
-
------
-
-
+## How to debug Surf5 in VSCODE
 This guide is based on Surf5's default example, Loopback
 
 
@@ -23,6 +19,8 @@ This guide is based on Surf5's default example, Loopback
 
 # 3. Check Debugger connection.
     <img src="/img/osh/surf5/pyocd_list.png" width="400" /><br /><br /><br />
+
+    <a target="_blank" href={require('/img/osh/surf5/pyocd_list.png').default}><img src={require('/img/osh/surf5/pyocd_list.png').default} alt="pyOCD_list"/></a>
     You can check PC and Debugger connection using __pyocd list__ command
 
 # 4. Add W7500 in pyocd CMSIS-PACK
