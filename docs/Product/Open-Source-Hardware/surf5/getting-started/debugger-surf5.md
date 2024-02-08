@@ -18,38 +18,44 @@ This guide is based on Surf5's default example, Loopback
     (Depending on your PC environment, you may need to write the command __python3 -m pip install -U pyocd__).
 
 # 3. Check Debugger connection.
-    <img src="/img/osh/surf5/pyocd_list.png" width="400" /><br /><br /><br />
-
     <a target="_blank" href={require('/img/osh/surf5/pyocd_list.png').default}><img src={require('/img/osh/surf5/pyocd_list.png').default} alt="pyOCD_list"/></a>
     You can check PC and Debugger connection using __pyocd list__ command
 
 # 4. Add W7500 in pyocd CMSIS-PACK
-    <img src="/img/osh/surf5/Add_DFP1.png" width="400" /><br /><br /><br />Make Directory named __WIZnet.W7500_DFP.1.0.0__ in __W7500X-SURF5/tools__
+    <a target="_blank" href={require('/img/osh/surf5/Add_DFP1.png').default}><img src={require('/img/osh/surf5/Add_DFP1.png').default} alt="pyOCD_mkdir"/></a>
+    Make Directory named __WIZnet.W7500_DFP.1.0.0__ in __W7500X-SURF5/tools__
     
-    <img src="/img/osh/surf5/Add_DFP2.png" width="400" /><br /><br /><br />Make Directory named __Flash__ in __W7500X-SURF5/tools/WIZnet.W7500_DFP.1.0.0__
+    <a target="_blank" href={require('/img/osh/surf5/Add_DFP2.png').default}><img src={require('/img/osh/surf5/Add_DFP2.png').default} alt="pyOCD_mkdir2"/></a>
+    Make Directory named __Flash__ in __W7500X-SURF5/tools/WIZnet.W7500_DFP.1.0.0__
 
-    <img src="/img/osh/surf5/Add_DFP3.png" width="400" /><br /><br /><br />Download the W7500 Flash <a href="/img/products/w7500/overview/w7500_128_flm.zip" target="_blank">file</a> and copy in __W7500X-SURF5/tools/WIZnet.W7500_DFP.1.0.0/Flash__
+    <a target="_blank" href={require('/img/osh/surf5/Add_DFP3.png').default}><img src={require('/img/osh/surf5/Add_DFP3.png').default} alt="pyOCD_Add_DFP3"/></a>
+    Download the W7500 Flash <a href="/img/products/w7500/overview/w7500_128_flm.zip" target="_blank">file</a> and copy in __W7500X-SURF5/tools/WIZnet.W7500_DFP.1.0.0/Flash__
 
-    <img src="/img/osh/surf5/Add_DFP4.png" width="400" /><br /><br /><br />Download the WIZnet.W7500_DFP.pdsc<a href="/img/osh/surf5/WIZnet.W7500_DFP.zip" target="_blank">file</a>and copy in __W7500X-SURF5/tools/WIZnet.W7500_DFP.1.0.0__ 
+    <a target="_blank" href={require('/img/osh/surf5/Add_DFP4.png').default}><img src={require('/img/osh/surf5/Add_DFP4.png').default} alt="pyOCD_Add_DFP4"/></a>
+    Download the WIZnet.W7500_DFP.pdsc <a href="/img/osh/surf5/WIZnet.W7500_DFP.zip" target="_blank">file</a> and copy in __W7500X-SURF5/tools/WIZnet.W7500_DFP.1.0.0__ 
 
-    <img src="/img/osh/surf5/Add_DFP5.png" width="600" /><br /><br /><br />The WIZnet.W7500_DFP.pdsc file is an XML file that sets the device name and Core, Clock, and Memory areas.
+    <a target="_blank" href={require('/img/osh/surf5/Add_DFP5.png').default}><img src={require('/img/osh/surf5/Add_DFP5png').default} alt="pyOCD_Add_DFP5"/></a>
+    The WIZnet.W7500_DFP.pdsc file is an XML file that sets the device name and Core, Clock, and Memory areas.
 
-    <img src="/img/osh/surf5/Add_DFP6.png" width="400" /><br /><br /><br />Now you can see the W7500 added with the __pyocd list --targets__ command.
+    <a target="_blank" href={require('/img/osh/surf5/Add_DFP6.png').default}><img src={require('/img/osh/surf5/Add_DFP6.png').default} alt="pyOCD_Add_DFP6"/></a>
+    Now you can see the W7500 added with the __pyocd list --targets__ command.
 
 # 5. Set GDB path and Excutable(.elf) path
     <a href="/img/osh/surf5/launch.zip" target="_blank">Download</a> launch.jason and edit executable path and gdbpath
-    <img src="/img/osh/surf5/Set_GDB_Path.png" width="600" /><br /><br /><br />
+    <a target="_blank" href={require('/img/osh/surf5/Set_GDB_Path.png').default}><img src={require('/img/osh/surf5/Set_GDB_Path.png').default} alt="pyOCD_Set_GDB_Path"/></a>
     Set the executable path to the path of the .elf file you want to debug and the GDB path to the path of the ARM TOOL CHAIN you installed.
 
 # 6. Install Cortex-Debug Extension
-    <img src="/img/osh/surf5/Debug.png" width="400" /><br /><br /><br />
+    <a target="_blank" href={require('/img/osh/surf5/Debug.png').default}><img src={require('/img/osh/surf5/Debug.png').default} alt="pyOCD_Debug.png"/></a>
     Install Cortex-Debug Extension in VSCODE
 
 # 7. Run Debug
-    <img src="/img/osh/surf5/Debug1.png" width="400" /><br /><br /><br />
+    <a target="_blank" href={require('/img/osh/surf5/Debug1.png').default}><img src={require('/img/osh/surf5/Debug1.png').default} alt="pyOCD_Debug1.png"/></a>
     You can click __Run and Debug__ to enter debug mode.
-    <img src="/img/osh/surf5/Debug2.png" width="400" /><br /><br /><br />
+
+    <a target="_blank" href={require('/img/osh/surf5/Debug2.png').default}><img src={require('/img/osh/surf5/Debug2.png').default} alt="pyOCD_Debug2.png"/></a>
     By clicking the play icon you can run the debug in debug mode.
-    <img src="/img/osh/surf5/Debug3.png" width="400" /><br /><br /><br />
+
+    <a target="_blank" href={require('/img/osh/surf5/Debu3.png').default}><img src={require('/img/osh/surf5/Debug3.png').default} alt="pyOCD_Debug3.png"/></a>
     
 
