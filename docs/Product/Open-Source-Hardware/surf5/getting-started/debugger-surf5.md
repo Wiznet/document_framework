@@ -34,7 +34,7 @@ This guide is based on Surf5's default example, Loopback
 
     <img src="/img/osh/surf5/Add_DFP5.png" width="600" /><br />The WIZnet.W7500_DFP.pdsc file is an XML file that sets the device name and Core, Clock, and Memory areas.
 
-    <img src="/img/osh/surf5/Add_DFP6.png" width="400" /><br />Now you can see the W7500 added with the __pyocd list --targets__ command.
+    <img src="/img/osh/surf5/Add_DFP6.png" width="500" /><br />Now you can see the W7500 added with the __pyocd list --targets__ command.
 
 # 5. Set GDB path and Excutable(.elf) path
     <a href="/img/osh/surf5/launch.zip" target="_blank">Download</a> launch.jason and edit executable path and gdbpath
@@ -42,7 +42,7 @@ This guide is based on Surf5's default example, Loopback
     Set the executable path to the path of the .elf file you want to debug and the GDB path to the path of the ARM TOOL CHAIN you installed.
 
 # 6. Install Cortex-Debug Extension
-    <img src="/img/osh/surf5/Debug.png" width="400" /><br />
+    <img src="/img/osh/surf5/Debug.png" width="500" /><br />
     Install Cortex-Debug Extension in VSCODE
 
 # 7. Run Debug
