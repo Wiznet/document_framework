@@ -23,16 +23,16 @@ This guide is based on Surf5's default example, Loopback
 
 # 4. Add W7500 in pyocd CMSIS-PACK
     <img src="/img/osh/surf5/Add_DFP1.png" width="400" /><br />
-    Make Directory named __WIZnet.W7500_DFP.1.0.0__ in __W7500X-SURF5/tools__
+    Make Directory named __WIZnet.W7500_DFP.1.0.0__ in __W7500X-SURF5/tools__<br /><br />
     
     <img src="/img/osh/surf5/Add_DFP2.png" width="400" /><br />
-    Make Directory named __Flash__ in __W7500X-SURF5/tools/WIZnet.W7500_DFP.1.0.0__
+    Make Directory named __Flash__ in __W7500X-SURF5/tools/WIZnet.W7500_DFP.1.0.0__<br /><br />
 
-    <img src="/img/osh/surf5/Add_DFP3.png" width="400" /><br />Download the W7500 Flash <a href="/img/products/w7500/overview/w7500_128_flm.zip" target="_blank">file</a> and copy in __W7500X-SURF5/tools/WIZnet.W7500_DFP.1.0.0/Flash__
+    <img src="/img/osh/surf5/Add_DFP3.png" width="400" /><br />Download the W7500 Flash <a href="/img/products/w7500/overview/w7500_128_flm.zip" target="_blank">file</a> and copy in __W7500X-SURF5/tools/WIZnet.W7500_DFP.1.0.0/Flash__<br /><br />
 
-    <img src="/img/osh/surf5/Add_DFP4.png" width="400" /><br />Download the WIZnet.W7500_DFP.pdsc<a href="/img/osh/surf5/WIZnet.W7500_DFP.zip" target="_blank">file</a>and copy in __W7500X-SURF5/tools/WIZnet.W7500_DFP.1.0.0__ 
+    <img src="/img/osh/surf5/Add_DFP4.png" width="400" /><br />Download the WIZnet.W7500_DFP.pdsc <a href="/img/osh/surf5/WIZnet.W7500_DFP.zip" target="_blank">file</a>and copy in __W7500X-SURF5/tools/WIZnet.W7500_DFP.1.0.0__ <br /><br />
 
-    <img src="/img/osh/surf5/Add_DFP5.png" width="600" /><br />The WIZnet.W7500_DFP.pdsc file is an XML file that sets the device name and Core, Clock, and Memory areas.
+    <img src="/img/osh/surf5/Add_DFP5.png" width="600" /><br />The WIZnet.W7500_DFP.pdsc file is an XML file that sets the device name and Core, Clock, and Memory areas.<br /><br />
 
     <img src="/img/osh/surf5/Add_DFP6.png" width="500" /><br />Now you can see the W7500 added with the __pyocd list --targets__ command.
 
@@ -46,8 +46,8 @@ This guide is based on Surf5's default example, Loopback
     Install Cortex-Debug Extension in VSCODE
 
 # 7. Run Debug
-    <img src="/img/osh/surf5/Debug1.png" width="400" /><br />
+    <img src="/img/osh/surf5/Debug1.png" width="400" /><br /><br />
     You can click __Run and Debug__ to enter debug mode.
-    <img src="/img/osh/surf5/Debug2.png" width="400" /><br />
+    <img src="/img/osh/surf5/Debug2.png" width="400" /><br /><br />
     By clicking the play icon you can run the debug in debug mode.
     <img src="/img/osh/surf5/Debug3.png" width="400" /><br />
