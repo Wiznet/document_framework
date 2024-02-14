@@ -37,20 +37,20 @@ If you are ready, please download the ISP Tool according to your environment and
 ### Manual
 
 You must enter Boot mode for using ISP tool
-<img src="/img/osh/surf5/surf5_boot.png" width="400" /><br />
+<img src="/img/osh/surf5/surf5_boot.png" width="300" /><br />
 Press and hold the Boot SW and apply power, or press and hold the BOOT SW while power is applied and press the RESET SW shortly.
 
 <img src="/img/osh/surf5/Driver_install.png" width="500" />
 Check The com port number of Surf5 in Device manager.<br />
-The com port number can vary from PC to PC.<br /><br />
+The com port number can be differnet depending on the PC you're connecting to.<br /><br />
 
-<img src="/img/osh/surf5/surf5_ISP.png" width="500" /><br />
+<img src="/img/osh/surf5/surf5_ISP.png" width="600" /><br />
 Select Serial port, set Baud Rate to 115200 and click __Open__.<br />
 If your Surf5 connect with ISP tool successfull, you can see __Serial Open Complete__ message on the left bottom of ISP tool.<br /><br />
 
-<img src="/img/osh/surf5/surf5_bin.png" width="500" /><br />
+<img src="/img/osh/surf5/surf5_bin.png" width="600" /><br />
 After ISP tool is connected, press the Browse button to select the binary file you want to download.<br /><br />
 
-<img src="/img/osh/surf5/surf5_download.png" width="500" /><br />
+<img src="/img/osh/surf5/surf5_download.png" width="600" /><br />
 When you press the __Start all steps__ button, Surf5 will erase old data and download the binary file you selected.<br />
 When the download completes successfully, the Download complete popup appears.
