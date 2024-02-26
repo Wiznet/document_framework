@@ -316,6 +316,8 @@ WIZ850io, please refer to [W5500 Datasheet](../iEthernet/W5500/Datasheet.md).
 
   - Revision 1.0 <a href="/img/products/wiz850io/wiz850io_sch_v100.pdf" target="_blank">WIZ850io Rev1.0 Schematic(PDF)</a>
   - Revision 1.0 <a href="/img/products/wiz850io/wiz850io_sch_v100.zip" target="_blank">WIZ850io Rev1.0 Schematic(Altium)</a>
+  - Revision 1.1 <a href="/img/products/wiz850io/wiz850io_sch_v110.pdf" target="_blank">WIZ850io Rev1.0 Schematic(PDF)</a>
+  - Revision 1.1 <a href="/img/products/wiz850io/wiz850io_sch_v110.zip" target="_blank">WIZ850io Rev1.0 Schematic(Altium)</a>
 
 -----
 
