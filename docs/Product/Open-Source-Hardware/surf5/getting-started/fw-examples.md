@@ -262,7 +262,7 @@ Enter the following path, then delete the Code director.
 
 Next, Reinstall VS Code and then rebuild.
 
-<img src="/img/osh/surf5/vscodeinstaller.png" width="250" /><br /><br /><br /><br />
+<img src="/img/osh/surf5/vscodeinstaller.png" width="150" /><br /><br /><br /><br />
 
 <br />
 <br />
