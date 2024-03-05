@@ -180,6 +180,9 @@ Once the build is completed, you will see a message like the one above in the OU
 You will also be able to confirm that the Build directory has been created. The project folder within the Build directory contains the generated bin files. You can save these bin files to your Surf 5 and use the project.
 
 <img src="/img/osh/surf5/vsset33.png" width="700" />
+<br />
+<br />
+<br />
 
 **Step 5** 
 
@@ -413,6 +416,12 @@ Press the <span style={{ backgroundColor: '#f7ddbe' }}>"F7"</span> button to com
 
 <br />
 <br /> 
+
+**Step 7** 
+
+Flash 'W7500x.bin' file of the desired project in the 'obj' directory to Surf 5 Project. If you want to know how to flash W7500x.bin file to Surf 5, refer to [How to use ISP tool](flashing-Surf5.md)
+
+<img src="/img/osh/surf5/vsset35.png" width="500" />
 
 
 <!-- 
