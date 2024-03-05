@@ -250,6 +250,20 @@ Select <span style={{ backgroundColor: '#f7ddbe' }}>"GCC Arm Embedded"</span> to
 Rebuild now.
 If you have completed the four steps above perfectly, try building the project again within VS Code.
 
+<br /><br /><br /><br />
+
+
+<span style={{ backgroundColor: '#f7ddbe' }}>"If building Surf 5 Project still doesn't work in VS Code"</span>
+
+
+Enter the following path, then delete the Code director.
+
+<img src="/img/osh/surf5/codedir.png" width="700" /><br /><br /><br />
+
+Next, Reinstall VS Code and then rebuild.
+
+<img src="/img/osh/surf5/vscodeinstaller.png" width="700" /><br /><br /><br /><br />
+
 <br />
 <br />
 <br />
