@@ -181,6 +181,12 @@ You will also be able to confirm that the Build directory has been created. The 
 
 <img src="/img/osh/surf5/vsset33.png" width="700" />
 
+**Step 5** 
+
+Flash the .bin file of the desired project in the 'build' directory to Surf 5 Project. If you want to know how to flash .bin files to Surf 5, refer to [How to use ISP tool](flashing-Surf5.md)
+
+<img src="/img/osh/surf5/vsset34.png" width="500" />
+
 <br />
 <br />
 <br />
