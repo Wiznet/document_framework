@@ -555,7 +555,7 @@ These are stress ratings only and functional operation of the device at these co
 
 ![Figure 1 ADC transform function](/img/products/w7500/overview/adc_transform_function.jpg)
 
-## I2C interface Characteristics
+<!-- ## I2C interface Characteristics
 
 <table class="tg">
   <tr>
@@ -681,7 +681,7 @@ These are stress ratings only and functional operation of the device at these co
   </tr>
 </table>
 
-![Figure 2 I2C bus AC waveform](/img/products/w7500/overview/i2c_bus_ac_waveform.jpg)
+![Figure 2 I2C bus AC waveform](/img/products/w7500/overview/i2c_bus_ac_waveform.jpg) -->
 
 ## SSP Interface Characteristics
 

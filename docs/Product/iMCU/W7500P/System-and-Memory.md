@@ -29,7 +29,7 @@ AHB-Lite BUS
 
 Two APB BUSs
 
-- These buses connect Seventeen APB peripherals (Watchdog, two dual timers, pwm, two UARTs, simple UART, two I2Cs, two SSPs, random number generator, real time clock, 12bits analog digital converter, clock controller, IO configuration, PAD MUX controller)
+- These buses connect Seventeen APB peripherals (Watchdog, two dual timers, pwm, two UARTs, simple UART<!--,two I2Cs-->, two SSPs, random number generator, real time clock, 12bits analog digital converter, clock controller, IO configuration, PAD MUX controller)
 
 
 ## Memory organization

@@ -45,7 +45,7 @@ The TCP/IP core is a market-proven hardwired TCP/IP stack and PHY is IC plus IP1
 * Communication Interfaces
     * 3 UART (2 UARTs with FIFO and Flow Control, 1 simple UART)
     * 2 SPI
-    * 2 I2C (Master/Slave, Fast-mode (400 kbps))
+    <!-- * 2 I2C (Master/Slave, Fast-mode (400 kbps)) -->
 * Crypto
     * 1 RNG (Random Number Generator): 32-bit random number
 * Package

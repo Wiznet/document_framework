@@ -22,8 +22,8 @@ W7500P contains interrupt service and event service as below
 |IRQ[2]  | UART0          | UART0 global interrupt              | 0x0000_0048 | 
 |IRQ[3]  | UART1          | UART1 global interrupt              | 0x0000_004C | 
 |IRQ[4]  | UART2          | UART2 global interrupt              | 0x0000_0050 | 
-|IRQ[5]  | I2C0           | I2C0 global interrupt               | 0x0000_0054 | 
-|IRQ[6]  | I2C1           | I2C1 global interrupt               | 0x0000_0058 | 
+|IRQ[5]  | <!--I2C0-->           | <!--I2C0--> global interrupt               | 0x0000_0054 | 
+|IRQ[6]  | <!--I2C1-->           | <!--I2C1--> global interrupt               | 0x0000_0058 | 
 |IRQ[7]  | GPIO0          | GPIO0 global interrupt              | 0x0000_005c | 
 |IRQ[8]  | GPIO1          | GPIO1 global interrupt              | 0x0000_0060 | 
 |IRQ[9]  | GPIO2          | GPIO2 global interrupt              | 0x0000_0064 | 

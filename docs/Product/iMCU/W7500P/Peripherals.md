@@ -13,7 +13,7 @@ date: 2020-04-03
 |[DualTimer](../W7500/Peripherals-internal/dualtimer.md)|[TimerRun](../W7500/Peripherals-internal/timerrun.md)|
 |[EXTI](../W7500/Peripherals-internal/exti.md)          |[LED-Toggle](../W7500/Peripherals-internal/led-toggle.md),[Sleep](../W7500/Peripherals-internal/sleep.md)|
 |[Flash](../W7500/Peripherals-internal/flash.md)        |[IAP-Example](../W7500/Peripherals-internal/IAP-Example.md)|
-|[I2C](../W7500/Peripherals-internal/i2c.md)            |[Default](../W7500/Peripherals-internal/init.md),[EEPROM-24LS02](../W7500/Peripherals-internal/eeprom.md),[Temperature LM75](../W7500/Peripherals-internal/lm75-temperature.md)|
+|<!--[I2C](../W7500/Peripherals-internal/i2c.md)-->            |<!--[Default](../W7500/Peripherals-internal/init.md),[EEPROM-24LS02](../W7500/Peripherals-internal/eeprom.md),[Temperature LM75](../W7500/Peripherals-internal/lm75-temperature.md)-->|
 |[PWM](../W7500/Peripherals-internal/pwm.md)            |[CaptureMode](../W7500/Peripherals-internal/capturemode.md),[CounterMode](../W7500/Peripherals-internal/countermode.md),[DeadZoneGeneration](../W7500/Peripherals-internal/deadzonegeneration.md),[PWMOutput](../W7500/Peripherals-internal/pwmoutput.md),[TimerMode](../W7500/Peripherals-internal/timermode.md)|
 |[RNG](../W7500/Peripherals-internal/rng.md)            |[Random number generation example](../W7500/Peripherals-internal/rng-ex.md)|
 |[SSP](../W7500/Peripherals-internal/ssp.md)            |[Loopback](../W7500/Peripherals-internal/Loopback.md),[SD Card LED](../W7500/Peripherals-internal/SD-Card-LED.md)|
