@@ -42,7 +42,7 @@ CMSIS-DAP for debugging and ethernet-phy.
    * Timer/PWM 
    * UART (3)
    * SPI (2)
-   * I2C (2)
+   * I2C (Operate using GPIO)
 
 
 **External Ethernet PHY**

@@ -43,7 +43,7 @@ years. W7500P best suits users who need Internet connectivity.
    * Timer/PWM 
    * UART (3)
    * SPI (2)
-   * I2C (2)
+   * I2C (Operate using GPIO)
    * 64 LQFP (7x7 mm)
 
 **CMSIS-DAP**
