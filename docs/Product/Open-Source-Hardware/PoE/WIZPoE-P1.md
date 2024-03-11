@@ -12,9 +12,8 @@ keywords:
   - PoE
 description: WIZnet Pico PoE made for prototyping and testing Ethernet capabilities on Pico
 ---
-# Comming Soon
 
-<!--
+
 ## Overview
 
 By using WIZPoE-P1, which supports both Mode A and Mode B, you can efficiently power external applications within the 7W range without the need for a power cable, not only for Ethernet but also for various external applications
@@ -27,14 +26,14 @@ By using WIZPoE-P1, which supports both Mode A and Mode B, you can efficiently p
 - Mode A(Endspan), Mode B(Midspan)
 - Wide input voltage range 40Vdc ~ 60Vdc
 - High DC/DC convertion efficiency
-- Non-Isolation
+- Isolation
 - Internal build in 2 channel bridge rectifiers
 
 ## Compatible WIZnet Modules
 
 |           | Standalone |  Combined  |  MCU       | Features           |     Dimension (mm) |
 |  :-----:  | :-----:  |   :----:  | ------------- | ------------------ |  -------------- |
-| [Surf 5](././Open-Source-Hardware/surf5/surf5.md) | ![WIZPoE-S1](/img/osh/surf5/only_surf5_R100_img.png) | ![WIZPoE-S1](/img/osh/PoE/WIZPoE-S1/Surf5-WIZPOE-S1.png) |W7500|Compatible with the Raspberry Pi Pico Pinmap , Serial to Ethernet firmware provided, Offers various peripherals such as GPIO/SPI/PWM/ADC/DMA and more| 75mm x 21mm x 15mm |
+| [Surf 5](././Open-Source-Hardware/surf5/surf5.md) | ![WIZPoE-S1](/img/osh/surf5/only_surf5_R100_img.png) | ![WIZPoE-S1](/img/osh/PoE/WIZPoE-S1/Surf5 with WIZPOE-P1.png) |W7500|Compatible with the Raspberry Pi Pico Pinmap , Serial to Ethernet firmware provided, Offers various peripherals such as GPIO/SPI/PWM/ADC/DMA and more| 75mm x 21mm x 15mm |
 
 
 ## Electrical Parameter technical standards
@@ -67,7 +66,7 @@ By using WIZPoE-P1, which supports both Mode A and Mode B, you can efficiently p
 ### WIZPoE-S1 Datasheet
 
 ### Dimension (Unit : mm)
--->
+
 
 
 
