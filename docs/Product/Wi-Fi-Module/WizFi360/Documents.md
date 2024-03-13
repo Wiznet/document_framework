@@ -1,10 +1,10 @@
 ---
 id: documents
 title: Documents
-date: 2022-06-30
+date: 2024-03-13
 ---
 
-The **DataSheet** provides a brief introduce about WizFi360.
+The **Datasheet** provides a brief introduce about WizFi360.
 These documents describe the Features, package information and etc. The
 **Program Guide** provides the AT Instruction set and AT command
 examples. The AT Instruction document include the description of AT
@@ -23,45 +23,49 @@ Comparison Sheet** provides comparison with ESP8266 AT command.
 
 ### WizFi360
 
-  - <a href="/img/products/wizfi360/wizfi360ds/wizfi360_ds_v111_en.pdf" target="_blank">WizFi360 Datasheet v1.11</a>
+- <a href="/img/products/wizfi360/wizfi360ds/wizfi360_ds_v112_en.pdf" target="_blank">WizFi360 Datasheet v1.12</a>
 
-  - 2022-11-28 V1.11
-      - Added “WizFi360-CON-C label” 
+**Last Datasheet History**
+- 2024-03-13 V1.12
+    - Edited “2. Features”
+    - Edited “4. Package Information”
 
 **Old Datasheet History**
 
-  - 2022-02-09 V1.07
-      - Edited “5. Pin Definitions” Figure 3
-  - 2021-03-17 V1.06
-      - Edited “5. Pin Definitions” No.19
-  - 2019-10-18 V1.03 Edited “Figure3. WizFi360 Pinout”
-  - 2019-10-10 V1.02 Edited “Table 1. Description on Power Consumption”
-  - 2019-09-19 V1.01
-      - Edited “Figure3. WizFi360 Pinout”
-      - Edited “Table4. WizFi360 Pin Function”
-      - Added “7. Peripheral Circuit Reference Design”
-      - Added “8. Recommended PCB Land Pattern”
-      - Added “9. Reflow Condition”
-  - 2019-09-02 V1.0
-      - Edited “5. Pin Definitions”
-      - Added “5.1 Initial Value of GPIO Pins”
-      - Added “Figure3. WizFi360 Pinout”
-  - 2019-11-27 V1.04
-      - Edited “Figure3. WizFi360 Pinout”
-      - Edited “Table4. WizFi360 Pin Function”
-      - Edited “Table6. Initial Value of GPIO Pins”
-  - 2019-12-11 V1.05
-      - Edited “5. Pin Definitions”
-          - No.11 & No.19
-  - 2022-04-05 V1.08
-      - Edited “2. Features”
-  - 2022-06-30 V1.09
-      - Edited “4. Package Information” Figure 2
-      - Edited “7. Peripheral Circuit Reference Design” Figure 6
-  - 2022-10-14 V1.10
-      - Added “ISED certification number” 
-      - Added “FCC ID”
-      - Added “Industry Canada statement”
+- 2022-02-09 V1.07
+    - Edited “5. Pin Definitions” Figure 3
+- 2021-03-17 V1.06
+    - Edited “5. Pin Definitions” No.19
+- 2019-10-18 V1.03 Edited “Figure3. WizFi360 Pinout”
+- 2019-10-10 V1.02 Edited “Table 1. Description on Power Consumption”
+- 2019-09-19 V1.01
+    - Edited “Figure3. WizFi360 Pinout”
+    - Edited “Table4. WizFi360 Pin Function”
+    - Added “7. Peripheral Circuit Reference Design”
+    - Added “8. Recommended PCB Land Pattern”
+    - Added “9. Reflow Condition”
+- 2019-09-02 V1.0
+    - Edited “5. Pin Definitions”
+    - Added “5.1 Initial Value of GPIO Pins”
+    - Added “Figure3. WizFi360 Pinout”
+- 2019-11-27 V1.04
+    - Edited “Figure3. WizFi360 Pinout”
+    - Edited “Table4. WizFi360 Pin Function”
+    - Edited “Table6. Initial Value of GPIO Pins”
+- 2019-12-11 V1.05
+    - Edited “5. Pin Definitions”
+        - No.11 & No.19
+- 2022-04-05 V1.08
+    - Edited “2. Features”
+- 2022-06-30 V1.09
+    - Edited “4. Package Information” Figure 2
+    - Edited “7. Peripheral Circuit Reference Design” Figure 6
+- 2022-10-14 V1.10
+    - Added “ISED certification number”
+    - Added “FCC ID”
+    - Added “Industry Canada statement”
+- 2022-11-28 V1.11
+    - Added “WizFi360-CON-C label”
 
 ### WizFi360-EVB-Shield
 
@@ -198,25 +202,25 @@ Hub.
 - <a href="/img/products/wizfi360/wizfi360ds/wizfi360_atset_v1118_k.pdf" target="_blank">AT Instruction set V1.1.1.8 - Korean</a>
 
 | Version   | Date    | Decription                                          |
-| --------- | ------- | ----------------------------------------------------|
+| --------- | ------- | --------------------------------------------------- |
 | V 1.1.1.8 | JUN2022 | Modify AT+MQTTTOPIC, Add AT+MQTTQOS, AT+MQTTPUBSEND |
 
 **Old Datasheet History**
 
-| Version | Date    | Decription                                                                                  |
-| ------- | ------- | ------------------------------------------------------------------------------------------- |
-| V 1.0.0 | AUG2019 | Initial Release                                                                             |
-| V 1.0.1 | AUG2019 | Please refer to document                                                                    |
-| V 1.0.2 | AUG2019 | Add AT+WPS, AT+SLEEP, AT+GLSP Command, renewal layout                                       |
-| V 1.0.3 | AUG2019 | Add MQTT Commands                                                                           |
-| V 1.0.4 | SEP2019 | Fix typo                                                                                    |
-| V 1.0.5 | OCT2019 | Modify CWMODE Factory Default                                                               |
-| V 1.0.6 | OCT2019 | Add Azure commands, AT+SSLCONF command and AT+CASEND command, Fix typo, Add Command History |
-| V 1.0.7 | MAR2020 | Add AT+WIZ\_NETCONFIG, Modify AT+CWSTARTSMART, Modify minor typos and error                 |
-| V 1.0.7.2 | MAR2020 | Modify AT+WIZ\_NETCONFIG, Modify AT+CWSTARTSMART, Modify minor typos and error            |
-| V 1.1.1.1 | JAN2021 | Modify AT+MQTTCON                                                                         |
-| V 1.1.1.2 | APR2021 | Add AT+AWSCON, AT+AWSPKSEND, AT+CLICASEND                                                 |
-| V 1.1.1.7 | MAY2022 | Modify AT+CIUPDATE firmware download link                                                 |
+| Version   | Date    | Decription                                                                                  |
+| --------- | ------- | ------------------------------------------------------------------------------------------- |
+| V 1.0.0   | AUG2019 | Initial Release                                                                             |
+| V 1.0.1   | AUG2019 | Please refer to document                                                                    |
+| V 1.0.2   | AUG2019 | Add AT+WPS, AT+SLEEP, AT+GLSP Command, renewal layout                                       |
+| V 1.0.3   | AUG2019 | Add MQTT Commands                                                                           |
+| V 1.0.4   | SEP2019 | Fix typo                                                                                    |
+| V 1.0.5   | OCT2019 | Modify CWMODE Factory Default                                                               |
+| V 1.0.6   | OCT2019 | Add Azure commands, AT+SSLCONF command and AT+CASEND command, Fix typo, Add Command History |
+| V 1.0.7   | MAR2020 | Add AT+WIZ\_NETCONFIG, Modify AT+CWSTARTSMART, Modify minor typos and error                 |
+| V 1.0.7.2 | MAR2020 | Modify AT+WIZ\_NETCONFIG, Modify AT+CWSTARTSMART, Modify minor typos and error              |
+| V 1.1.1.1 | JAN2021 | Modify AT+MQTTCON                                                                           |
+| V 1.1.1.2 | APR2021 | Add AT+AWSCON, AT+AWSPKSEND, AT+CLICASEND                                                   |
+| V 1.1.1.7 | MAY2022 | Modify AT+CIUPDATE firmware download link                                                   |
 
 
 ### AT Command Comparison Sheet
@@ -301,7 +305,7 @@ TCP/UDP/SSL connection result and AT command used example.
 
 - <a href="/img/products/wizfi360/wizfi360ds/wizfi360_hardware_design_guide_v104_en.pdf" target="_blank">Hardware Design Guide</a>
 
-| Version | Date    | Decription |
-| ------- | ------- | ---------- |
-| V1.0.3  | NOV2019 | Initial Release |
-| V1.0.4  | JUN2022 | Edited “Figure 1. WizFi360 Pinout”<br/>Edited “Figure 1. Reference Schematic”<br/>Edited “Figure 2. UART”<br/>Edited “Figure 3. SPI Interface”<br/>Edited “Figure 4. UART Flow Control”|
+| Version | Date    | Decription                                                                                                                                                                              |
+| ------- | ------- | --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| V1.0.3  | NOV2019 | Initial Release                                                                                                                                                                         |
+| V1.0.4  | JUN2022 | Edited “Figure 1. WizFi360 Pinout”<br/>Edited “Figure 1. Reference Schematic”<br/>Edited “Figure 2. UART”<br/>Edited “Figure 3. SPI Interface”<br/>Edited “Figure 4. UART Flow Control” |
