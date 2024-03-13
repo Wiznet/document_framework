@@ -33,7 +33,7 @@ By using WIZPoE-P1, which supports both Mode A and Mode B, you can efficiently p
 
 |           | Standalone |  Combined  |  MCU       | Features           |     Dimension (mm) |
 |  :-----:  | :-----:  |   :----:  | ------------- | ------------------ |  -------------- |
-| [Surf 5](./../surf5/surf5.md) | ![WIZPoE-S1](/img/osh/surf5/only_surf5_R100_img.png) | ![WIZPoE-S1](/img/osh/PoE/WIZPoE-S1/Surf5_WIZPOE_P1.png) |W7500|Compatible with the Raspberry Pi Pico Pinmap , Serial to Ethernet firmware provided, Offers various peripherals such as GPIO/SPI/PWM/ADC/DMA and more| 75mm x 21mm x 15mm |
+| [Surf 5](./../surf5/surf5.md) | ![WIZPoE-S1](/img/osh/surf5/only_surf5_R100_img.png) | ![WIZPoE-S1](/img/osh/PoE/WIZPoE-S1/Surf5-WIZPOE-P1.png) |W7500|Compatible with the Raspberry Pi Pico Pinmap , Serial to Ethernet firmware provided, Offers various peripherals such as GPIO/SPI/PWM/ADC/DMA and more| 75mm x 21mm x 15mm |
 
 
 ## Electrical Parameter technical standards
