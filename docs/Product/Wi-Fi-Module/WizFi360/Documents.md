@@ -19,7 +19,7 @@ Comparison Sheet** provides comparison with ESP8266 AT command.
 
 -----
 
-## DataSheet
+## Datasheet
 
 ### WizFi360
 
@@ -121,7 +121,7 @@ Comparison Sheet** provides comparison with ESP8266 AT command.
 
 ### FCC
 
-- <a href="/img/products/wizfi360/wizfi360ds/EMC104756 FCC Grant.pdf" target="_blank">WizFi360 Certification</a>
+- <a href="/img/products/wizfi360/wizfi360ds/EMC104756 FCC Grant.pdf" target="_blank">WizFi360 Certification</a>
 - <a href="/img/products/wizfi360/wizfi360ds/Certificate_STS2205025EF.pdf" target="_blank">Declaration of Conformity</a>
 - <a href="/img/products/wizfi360/wizfi360ds/TR_STS2205025W02_RF_Part-15.247-WLAN.pdf" target="_blank">Test Report Part 15.247</a>
 - <a href="/img/products/wizfi360/wizfi360ds/TR_STS2205025E02_FCC-47-CFR-Part-15-Subpart-B.pdf" target="_blank">Test Report CFR Patf 15 Subpart B</a>
