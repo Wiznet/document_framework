@@ -153,7 +153,30 @@ Press Finish to complete the installation.
 
 
 
-### Installing Visual Studio Code [Download link](https://visualstudio.microsoft.com/downloads/#build-tools-for-visual-studio-2019)
+### Installing Visual Studio 2022 [Download link](https://visualstudio.microsoft.com/downloads)
+
+
+
+
+
+**Step 1**
+
+Click on <span style={{ backgroundColor: '#f7ddbe' }}>"Free download"</span> for Visual Studio 2022 and download the installation file of Commmunity. If you already have Visual Studio 2022, you don't need to install it again.
+
+
+
+<img src="/img/osh/surf5/vsdownload.png" width="400" /><br /><br /><br />
+
+
+
+**Step 2**
+
+Choose the <span style={{ backgroundColor: '#f7ddbe' }}>"Desktop development with C++"</span> workload. and Click install button. 
+
+<img src="/img/osh/surf5/visualstudio-install2.png" width="500" /><br /><br /><br /><br /><br />
+
+
+### Installing Visual Studio Code [Download link](https://visualstudio.microsoft.com/downloads)
 
 
 
@@ -226,7 +249,7 @@ Press Finish to complete the installation.
 
 
 
-
+<!-- 
 ### Installing Xpack Build Tools [Download link](https://github.com/xpack-dev-tools/windows-build-tools-xpack/releases/)
 
 
@@ -253,7 +276,7 @@ Extract the <span style={{ backgroundColor: '#f7ddbe' }}>xpack-windows-build-too
 
 <br />
 <br />
-<br />
+<br /> -->
 
 
 <!-- -----
