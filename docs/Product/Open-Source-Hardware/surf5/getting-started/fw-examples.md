@@ -18,8 +18,43 @@ If you haven't downloaded the Surf 5 project yet, Click the link below to access
 
 ## How to make Surf 5 Project in VS Code
 
+### 1. Launching VS Code
 
-### 1. Installing Extensions in VS Code
+**Step 1** 
+
+In 'Developer Command Prompt for VS 2022', you must call the code command to run VS Code. Execute 'Developer Command Prompt for VS 2022' in the Windows search bar below.
+
+
+<img src="/img/osh/surf5/command_prompt1.png" width="500" />
+<br />
+<br />
+<br />
+
+**Step 2** 
+
+Call the 'Code' command to execute VS Code.
+
+
+<img src="/img/osh/surf5/command_prompt2.png" width="500" />
+<br />
+<br />
+<br />
+
+**Step 3** 
+
+Load the project folder of Surf 5 in VS Code.
+
+
+<img src="/img/osh/surf5/vscodeon.png" width="500" />
+
+<br />
+<br />
+<br />
+<br />
+<br />
+
+
+### 2. Installing Extensions in VS Code
 
 
 Search for and install the three extensions shown in the image below in the extension program search bar.
@@ -27,53 +62,7 @@ Search for and install the three extensions shown in the image below in the exte
 
 <img src="/img/osh/surf5/vscodeextensions.png" width="700" />
 
-<br />
-<br />
-<br />
-<br />
-<br />
 
-### 2. Create a New Workspace (Prevent Changes to Existing Settings)
-
-**Step 1** 
-
-Create a new workspace. The reason for creating a new workspace is to prevent changes to the existing settings.
-
-First, select <span style={{ backgroundColor: '#f7ddbe' }}>"File -> Add Folder to Workspace"</span>.
-
-<img src="/img/osh/surf5/vsset22.png" width="700" />
-
-
-  <br />
-  <br />
-  <br />
-
-**Step 2** 
-
-Select the <span style={{ backgroundColor: '#f7ddbe' }}>"W7500x-Surf5"</span> project folder as the target for the workspace, and then click the <span style={{ backgroundColor: '#f7ddbe' }}>"Add"</span> button. 
-(The "W7500x-Surf5" should be the top-level directory.)
-
-<img src="/img/osh/surf5/vsset23.png" width="400" />
-
-  <br />
-  <br />
-  <br />
-  
-**Step 3** 
-
-If you've added the workspace with the W7500x-Surf5 folder path, then click on <span style={{ backgroundColor: '#f7ddbe' }}>"File -> Save Workspace As..."</span> again.
-
-<img src="/img/osh/surf5/vsset24.png" width="700" />
-
-  <br />
-  <br />
-  <br />
-
-**Step 4** 
-
-Simply press <span style={{ backgroundColor: '#f7ddbe' }}>"Save"</span> with the same file name.
-
-<img src="/img/osh/surf5/vsset25.png" width="600" />
 <br />
 <br />
 <br />
@@ -82,69 +71,36 @@ Simply press <span style={{ backgroundColor: '#f7ddbe' }}>"Save"</span> with the
 
 ### 3.  Save the CMake Extension Settings for the stored workspace.
 
-**Step 1** 
-
-In CMake Tools, go to <span style={{ backgroundColor: '#f7ddbe' }}>"the gear icon (settings) -> Extension Settings </span> 
-
-<img src="/img/osh/surf5/vsset26.png" width="700" />
-
-<br />
-<br />
-
-Go to the Workspace tab in the red box. In the top search bar, type <span style={{ backgroundColor: '#f7ddbe' }}>"@ext:ms-vscode.cmake-tools"</span> to search.
-
-
-<img src="/img/osh/surf5/vsset27.png" width="700" />
-
-<br />
-<br />
-<br />
-
-**Step 2** 
-
-In the options, press <span style={{ backgroundColor: '#f7ddbe' }}>"Add Item"</span> in the Configure Args section and add the following two definitions:
-
-<span style={{ backgroundColor: '#f7ddbe' }}>-DCMAKE_MAKE_PROGRAM</span> is the location of the make executable (inside the previously extracted xpack folder).
-
-<span style={{ backgroundColor: '#f7ddbe' }}>-DARM_TOOLCHAIN_DIR</span> is the location of the GNU Arm compiler's executable files that you previously downloaded.
-
-For example, the author used: 
-
-| CMake: Configure Args                        |
-|----------------------------------------------|
-|-DARM_TOOLCHAIN_DIR=C:/Program Files (x86)/GNU Arm Embedded Toolchain/10 2021.10/bin<br /> |
-|-DCMAKE_MAKE_PROGRAM=C:/Program Files (x86)/xpack-windows-build-tools-4.4.0-1/bin/make.exe |
-
-
- <span style={{ backgroundColor: '#f7ddbe' }}>Adjust the Configure Args to match your own file paths according to your setup.</span>.
-
- 
-<br />
-
-<img src="/img/osh/surf5/vsset28.png" width="700" />
-
-<br />
-<br />
-<br />
-
-**Step 3** 
-
-Once you have completed the path configuration, enter "Unix Makefiles" in the "CMake: Generator" field. make sure to check the case sensitivity of <span style={{ backgroundColor: '#f7ddbe' }}>"Unix Makefiles"</span>.
+Once you have completed the path configuration, enter "NMake Makefiles" in the "CMake: Generator" field. make sure to check the case sensitivity of <span style={{ backgroundColor: '#f7ddbe' }}>"NMake Makefiles"</span>.
 
 | CMake: Generator    |
 |---------------------|
-|Unix Makefiles<br /> |
+|NMake Makefiles<br /> |
 
 <img src="/img/osh/surf5/vsset29.png" width="700" />
 
 
 
+### 4. Modifying the contents of the 'arm-none-eabi-gcc.cmake' file
+
+Within the 'arm-none-eabi-gcc.cmake' file in the tools directory, you need to specify the 'ARM_TOOLCHAIN_DIR' path. 'ARM_TOOLCHAIN_DIR' is located inside the path where your GNU Arm Embedded Toolchain executable is installed. Find your path and enter it.
+
+<span style={{ backgroundColor: '#f7ddbe' }}>When setting the path, be sure to delete the backslash (\) and enter it as a slash (/).</span>. You may refer to the example code below.
+
+| Code to be added to 'arm-none-eabi-gcc.cmake                        |
+|----------------------------------------------|
+|set(ARM_TOOLCHAIN_DIR "C:/Program Files (x86)/GNU Arm Embedded Toolchain/10 2021.10/bin")<br /> |
+
+
+<img src="/img/osh/surf5/cmakefile_edit.png" width="500" />
+
+<br />
 <br />
 <br />
 <br />
 <br />
 
-### 4. Build Project in VS Code
+### 5. Build Project in VS Code
 
 **Step 1** 
 
@@ -157,7 +113,7 @@ Press the F1 key, and then click on <span style={{ backgroundColor: '#f7ddbe' }}
 
 **Step 2** 
 
-Select <span style={{ backgroundColor: '#f7ddbe' }}>"GCC Arm Embedded"</span> to configure the kit.
+Select <span style={{ backgroundColor: '#f7ddbe' }}>"GCC 10.x.x arm-none-eabi"</span> to configure the kit.
 
 <img src="/img/osh/surf5/vsset31.png" width="700" />
 <br />
@@ -196,36 +152,20 @@ Flash the .bin file of the desired project in the 'build' directory to Surf 5 Pr
 <br />
 <br />
 
+
 ### 5. How to solve Surf 5 build error in VS Code
 
 
 If the build is still not working despite configuring Visual Studio Code settings, follow the steps below.
-<br />
-<br />
-<br />
+
 
 **Step 1** 
 
-If other files have appeared in the .vscode directory, please structure the directory as shown in the image below. You should delete all files <span style={{ backgroundColor: '#f7ddbe' }}>except "cmake-kits.json"</span>.
 
-<img src="/img/osh/surf5/error1.png" width="700" />
-<br />
-<br />
-<br />
-<br />
+<img src="/img/osh/surf5/cmakefile_edit.png" width="700" /><br /><br /><br /><br />
 
-
-
-**Step 2** 
-
-Check the path that was previously set in CMake: Configure Args. If it hasn't been saved to the workspace, it is advisable to add it again and save. Configure <span style={{ backgroundColor: '#f7ddbe' }}>"CMake: Configure Args"</span> according to your own path as shown in the picture below. Also, check if the directory exists on your PC at that path.
-
-<img src="/img/osh/surf5/vsset28.png" width="700" /><br /><br /><br />
-
-Check the command for the <span style={{ backgroundColor: '#f7ddbe' }}>"Cmake: Generator"</span>. If the command is not entered, please input the command as follows. also, Be sure to respect the case sensitivity of <span style={{ backgroundColor: '#f7ddbe' }}>"Unix Makefiles"</span>.
 
 <img src="/img/osh/surf5/vsset29.png" width="700" /><br /><br /><br /><br />
-
 
 
 
@@ -247,7 +187,7 @@ Press the F1 key, and then click on <span style={{ backgroundColor: '#f7ddbe' }}
 
 <img src="/img/osh/surf5/vsset30.png" width="700" /><br /><br /><br />
 
-Select <span style={{ backgroundColor: '#f7ddbe' }}>"GCC Arm Embedded"</span> to configure the kit.
+Select <span style={{ backgroundColor: '#f7ddbe' }}>"GCC 10.x.x arm-none-eabi"</span> to configure the kit.
 
 <img src="/img/osh/surf5/vsset31.png" width="700" /><br /><br /><br /><br />
 
@@ -278,6 +218,8 @@ Next, Reinstall VS Code and then rebuild.
 <br />
 <br />
 <br />
+
+
 -----
 
 ## How to make Surf 5 Project in Keil 5
