@@ -78,7 +78,11 @@ Once you have completed the path configuration, enter "NMake Makefiles" in the "
 |NMake Makefiles<br /> |
 
 <img src="/img/osh/surf5/vsset29.png" width="700" />
-
+<br />
+<br />
+<br />
+<br />
+<br />
 
 
 ### 4. Modifying the contents of the 'arm-none-eabi-gcc.cmake' file
@@ -87,7 +91,7 @@ Within the 'arm-none-eabi-gcc.cmake' file in the tools directory, you need to sp
 
 <span style={{ backgroundColor: '#f7ddbe' }}>When setting the path, be sure to delete the backslash (\) and enter it as a slash (/).</span>. You may refer to the example code below.
 
-| Code to be added to 'arm-none-eabi-gcc.cmake                        |
+| arm-none-eabi-gcc.cmake                        |
 |----------------------------------------------|
 |set(ARM_TOOLCHAIN_DIR "C:/Program Files (x86)/GNU Arm Embedded Toolchain/10 2021.10/bin")<br /> |
 
@@ -161,8 +165,11 @@ If the build is still not working despite configuring Visual Studio Code setting
 
 **Step 1** 
 
+Please recheck the path for the code section marked in red in the photo below. And when writing the code, make sure to enter the path with slashes(/) instead of backslashes.
 
 <img src="/img/osh/surf5/cmakefile_edit.png" width="700" /><br /><br /><br /><br />
+
+Click on the gear icon of the CMake Tools extension pack to go to 'Extension Settings'. Check if the code in the 'CMake: Generator' section is 'NMake Makefiles' as shown in the photo below. Also, make sure to enter this code with the exact case sensitivity.
 
 
 <img src="/img/osh/surf5/vsset29.png" width="700" /><br /><br /><br /><br />
