@@ -15,7 +15,7 @@
 <link rel="search" type="application/opensearchdescription+xml" title="WIZnet Document System" href="/opensearch.xml">
 <link rel="preconnect" href="https://cdn.channel.io">
 <script>!function(){var n=window;if(n.ChannelIO)return(window.console.error||window.console.log||function(){})("ChannelIO script included twice.");var e=function(){e.c(arguments)};function t(){if(!n.ChannelIOInitialized){n.ChannelIOInitialized=!0;var e=document.createElement("script");e.type="text/javascript",e.async=!0,e.src="https://cdn.channel.io/plugin/ch-plugin-web.js",e.charset="UTF-8";var t=document.getElementsByTagName("script")[0];t.parentNode.insertBefore(e,t)}}e.q=[],e.c=function(n){e.q.push(n)},n.ChannelIO=e,"complete"===document.readyState?t():window.attachEvent?window.attachEvent("onload",t):(window.addEventListener("DOMContentLoaded",t,!1),window.addEventListener("load",t,!1))}(),ChannelIO("boot",{pluginKey:"cb95c060-ab4c-45ec-bbe8-fe40a1ea3aec"})</script><link rel="stylesheet" href="/assets/css/styles.562445d9.css">
-<script src="/assets/js/runtime~main.d9fa667f.js" defer="defer"></script>
+<script src="/assets/js/runtime~main.b6cc9aa8.js" defer="defer"></script>
 <script src="/assets/js/main.cfecac57.js" defer="defer"></script>
 </head>
 <body class="navigation-with-keyboard">
@@ -25,7 +25,28 @@
 <p><a href="https://github.com/Wiznet/W7500x-Surf5/tree/main" target="_blank" rel="noopener noreferrer">Surf 5 Github Link</a></p>
 <hr>
 <h2 class="anchor anchorWithHideOnScrollNavbar_WYt5" id="how-to-make-surf-5-project-in-vs-code">How to make Surf 5 Project in VS Code<a href="#how-to-make-surf-5-project-in-vs-code" class="hash-link" aria-label="Direct link to How to make Surf 5 Project in VS Code" title="Direct link to How to make Surf 5 Project in VS Code">​</a></h2>
-<h3 class="anchor anchorWithHideOnScrollNavbar_WYt5" id="1-installing-extensions-in-vs-code">1. Installing Extensions in VS Code<a href="#1-installing-extensions-in-vs-code" class="hash-link" aria-label="Direct link to 1. Installing Extensions in VS Code" title="Direct link to 1. Installing Extensions in VS Code">​</a></h3>
+<h3 class="anchor anchorWithHideOnScrollNavbar_WYt5" id="1-launching-vs-code">1. Launching VS Code<a href="#1-launching-vs-code" class="hash-link" aria-label="Direct link to 1. Launching VS Code" title="Direct link to 1. Launching VS Code">​</a></h3>
+<p><strong>Step 1</strong></p>
+<p>In &#x27;Developer Command Prompt for VS 2022&#x27;, you must call the code command to run VS Code. Execute &#x27;Developer Command Prompt for VS 2022&#x27; in the Windows search bar below.</p>
+<img src="/img/osh/surf5/command_prompt1.png" width="500">
+<br>
+<br>
+<br>
+<p><strong>Step 2</strong></p>
+<p>Call the &#x27;Code&#x27; command to execute VS Code.</p>
+<img src="/img/osh/surf5/command_prompt2.png" width="500">
+<br>
+<br>
+<br>
+<p><strong>Step 3</strong></p>
+<p>Load the project folder of Surf 5 in VS Code.</p>
+<img src="/img/osh/surf5/vscodeon.png" width="500">
+<br>
+<br>
+<br>
+<br>
+<br>
+<h3 class="anchor anchorWithHideOnScrollNavbar_WYt5" id="2-installing-extensions-in-vs-code">2. Installing Extensions in VS Code<a href="#2-installing-extensions-in-vs-code" class="hash-link" aria-label="Direct link to 2. Installing Extensions in VS Code" title="Direct link to 2. Installing Extensions in VS Code">​</a></h3>
 <p>Search for and install the three extensions shown in the image below in the extension program search bar.</p>
 <img src="/img/osh/surf5/vscodeextensions.png" width="700">
 <br>
@@ -33,67 +54,21 @@
 <br>
 <br>
 <br>
-<h3 class="anchor anchorWithHideOnScrollNavbar_WYt5" id="2-create-a-new-workspace-prevent-changes-to-existing-settings">2. Create a New Workspace (Prevent Changes to Existing Settings)<a href="#2-create-a-new-workspace-prevent-changes-to-existing-settings" class="hash-link" aria-label="Direct link to 2. Create a New Workspace (Prevent Changes to Existing Settings)" title="Direct link to 2. Create a New Workspace (Prevent Changes to Existing Settings)">​</a></h3>
-<p><strong>Step 1</strong></p>
-<p>Create a new workspace. The reason for creating a new workspace is to prevent changes to the existing settings.</p>
-<p>First, select <span style="background-color:#f7ddbe">&quot;File -&gt; Add Folder to Workspace&quot;</span>.</p>
-<img src="/img/osh/surf5/vsset22.png" width="700">
-<br>
-<br>
-<br>
-<p><strong>Step 2</strong></p>
-<p>Select the <span style="background-color:#f7ddbe">&quot;W7500x-Surf5&quot;</span> project folder as the target for the workspace, and then click the <span style="background-color:#f7ddbe">&quot;Add&quot;</span> button.
-(The &quot;W7500x-Surf5&quot; should be the top-level directory.)</p>
-<img src="/img/osh/surf5/vsset23.png" width="400">
-<br>
-<br>
-<br>
-<p><strong>Step 3</strong></p>
-<p>If you&#x27;ve added the workspace with the W7500x-Surf5 folder path, then click on <span style="background-color:#f7ddbe">&quot;File -&gt; Save Workspace As...&quot;</span> again.</p>
-<img src="/img/osh/surf5/vsset24.png" width="700">
-<br>
-<br>
-<br>
-<p><strong>Step 4</strong></p>
-<p>Simply press <span style="background-color:#f7ddbe">&quot;Save&quot;</span> with the same file name.</p>
-<img src="/img/osh/surf5/vsset25.png" width="600">
-<br>
-<br>
-<br>
-<br>
-<br>
 <h3 class="anchor anchorWithHideOnScrollNavbar_WYt5" id="3--save-the-cmake-extension-settings-for-the-stored-workspace">3.  Save the CMake Extension Settings for the stored workspace.<a href="#3--save-the-cmake-extension-settings-for-the-stored-workspace" class="hash-link" aria-label="Direct link to 3.  Save the CMake Extension Settings for the stored workspace." title="Direct link to 3.  Save the CMake Extension Settings for the stored workspace.">​</a></h3>
-<p><strong>Step 1</strong></p>
-<p>In CMake Tools, go to <span style="background-color:#f7ddbe">&quot;the gear icon (settings) -&gt; Extension Settings </span></p>
-<img src="/img/osh/surf5/vsset26.png" width="700">
-<br>
-<br>
-<p>Go to the Workspace tab in the red box. In the top search bar, type <span style="background-color:#f7ddbe">&quot;@ext<!-- -->:ms-vscode<!-- -->.cmake-tools&quot;</span> to search.</p>
-<img src="/img/osh/surf5/vsset27.png" width="700">
-<br>
-<br>
-<br>
-<p><strong>Step 2</strong></p>
-<p>In the options, press <span style="background-color:#f7ddbe">&quot;Add Item&quot;</span> in the Configure Args section and add the following two definitions:</p>
-<p><span style="background-color:#f7ddbe">-DCMAKE_MAKE_PROGRAM</span> is the location of the make executable (inside the previously extracted xpack folder).</p>
-<p><span style="background-color:#f7ddbe">-DARM_TOOLCHAIN_DIR</span> is the location of the GNU Arm compiler&#x27;s executable files that you previously downloaded.</p>
-<p>For example, the author used:</p>
-<table><thead><tr><th>CMake: Configure Args</th></tr></thead><tbody><tr><td>-DARM_TOOLCHAIN_DIR=C:/Program Files (x86)/GNU Arm Embedded Toolchain/10 2021.10/bin<br></td></tr><tr><td>-DCMAKE_MAKE_PROGRAM=C:/Program Files (x86)/xpack-windows-build-tools-4.4.0-1/bin/make.exe</td></tr></tbody></table>
-<p><span style="background-color:#f7ddbe">Adjust the Configure Args to match your own file paths according to your setup.</span>.</p>
-<br>
-<img src="/img/osh/surf5/vsset28.png" width="700">
-<br>
-<br>
-<br>
-<p><strong>Step 3</strong></p>
-<p>Once you have completed the path configuration, enter &quot;Unix Makefiles&quot; in the &quot;CMake: Generator&quot; field. make sure to check the case sensitivity of <span style="background-color:#f7ddbe">&quot;Unix Makefiles&quot;</span>.</p>
-<table><thead><tr><th>CMake: Generator</th></tr></thead><tbody><tr><td>Unix Makefiles<br></td></tr></tbody></table>
+<p>Once you have completed the path configuration, enter &quot;NMake Makefiles&quot; in the &quot;CMake: Generator&quot; field. make sure to check the case sensitivity of <span style="background-color:#f7ddbe">&quot;NMake Makefiles&quot;</span>.</p>
+<table><thead><tr><th>CMake: Generator</th></tr></thead><tbody><tr><td>NMake Makefiles<br></td></tr></tbody></table>
 <img src="/img/osh/surf5/vsset29.png" width="700">
+<h3 class="anchor anchorWithHideOnScrollNavbar_WYt5" id="4-modifying-the-contents-of-the-arm-none-eabi-gcccmake-file">4. Modifying the contents of the &#x27;arm-none-eabi-gcc.cmake&#x27; file<a href="#4-modifying-the-contents-of-the-arm-none-eabi-gcccmake-file" class="hash-link" aria-label="Direct link to 4. Modifying the contents of the &#x27;arm-none-eabi-gcc.cmake&#x27; file" title="Direct link to 4. Modifying the contents of the &#x27;arm-none-eabi-gcc.cmake&#x27; file">​</a></h3>
+<p>Within the &#x27;arm-none-eabi-gcc.cmake&#x27; file in the tools directory, you need to specify the &#x27;ARM_TOOLCHAIN_DIR&#x27; path. &#x27;ARM_TOOLCHAIN_DIR&#x27; is located inside the path where your GNU Arm Embedded Toolchain executable is installed. Find your path and enter it.</p>
+<p><span style="background-color:#f7ddbe">When setting the path, be sure to delete the backslash () and enter it as a slash (/).</span>. You may refer to the example code below.</p>
+<table><thead><tr><th>Code to be added to &#x27;arm-none-eabi-gcc.cmake</th></tr></thead><tbody><tr><td>set(ARM_TOOLCHAIN_DIR &quot;C:/Program Files (x86)/GNU Arm Embedded Toolchain/10 2021.10/bin&quot;)<br></td></tr></tbody></table>
+<img src="/img/osh/surf5/cmakefile_edit.png" width="500">
 <br>
 <br>
 <br>
 <br>
-<h3 class="anchor anchorWithHideOnScrollNavbar_WYt5" id="4-build-project-in-vs-code">4. Build Project in VS Code<a href="#4-build-project-in-vs-code" class="hash-link" aria-label="Direct link to 4. Build Project in VS Code" title="Direct link to 4. Build Project in VS Code">​</a></h3>
+<br>
+<h3 class="anchor anchorWithHideOnScrollNavbar_WYt5" id="5-build-project-in-vs-code">5. Build Project in VS Code<a href="#5-build-project-in-vs-code" class="hash-link" aria-label="Direct link to 5. Build Project in VS Code" title="Direct link to 5. Build Project in VS Code">​</a></h3>
 <p><strong>Step 1</strong></p>
 <p>Press the F1 key, and then click on <span style="background-color:#f7ddbe">&quot;CMake: Select a Kit&quot;</span>.</p>
 <img src="/img/osh/surf5/vsset30.png" width="700">
@@ -101,7 +76,7 @@
 <br>
 <br>
 <p><strong>Step 2</strong></p>
-<p>Select <span style="background-color:#f7ddbe">&quot;GCC Arm Embedded&quot;</span> to configure the kit.</p>
+<p>Select <span style="background-color:#f7ddbe">&quot;GCC 10.x.x arm-none-eabi&quot;</span> to configure the kit.</p>
 <img src="/img/osh/surf5/vsset31.png" width="700">
 <br>
 <br>
@@ -129,23 +104,12 @@
 <br>
 <h3 class="anchor anchorWithHideOnScrollNavbar_WYt5" id="5-how-to-solve-surf-5-build-error-in-vs-code">5. How to solve Surf 5 build error in VS Code<a href="#5-how-to-solve-surf-5-build-error-in-vs-code" class="hash-link" aria-label="Direct link to 5. How to solve Surf 5 build error in VS Code" title="Direct link to 5. How to solve Surf 5 build error in VS Code">​</a></h3>
 <p>If the build is still not working despite configuring Visual Studio Code settings, follow the steps below.</p>
-<br>
-<br>
-<br>
 <p><strong>Step 1</strong></p>
-<p>If other files have appeared in the .vscode directory, please structure the directory as shown in the image below. You should delete all files <span style="background-color:#f7ddbe">except &quot;cmake-kits.json&quot;</span>.</p>
-<img src="/img/osh/surf5/error1.png" width="700">
+<img src="/img/osh/surf5/cmakefile_edit.png" width="700">
 <br>
 <br>
 <br>
 <br>
-<p><strong>Step 2</strong></p>
-<p>Check the path that was previously set in CMake: Configure Args. If it hasn&#x27;t been saved to the workspace, it is advisable to add it again and save. Configure <span style="background-color:#f7ddbe">&quot;CMake: Configure Args&quot;</span> according to your own path as shown in the picture below. Also, check if the directory exists on your PC at that path.</p>
-<img src="/img/osh/surf5/vsset28.png" width="700">
-<br>
-<br>
-<br>
-<p>Check the command for the <span style="background-color:#f7ddbe">&quot;Cmake: Generator&quot;</span>. If the command is not entered, please input the command as follows. also, Be sure to respect the case sensitivity of <span style="background-color:#f7ddbe">&quot;Unix Makefiles&quot;</span>.</p>
 <img src="/img/osh/surf5/vsset29.png" width="700">
 <br>
 <br>
@@ -164,7 +128,7 @@
 <br>
 <br>
 <br>
-<p>Select <span style="background-color:#f7ddbe">&quot;GCC Arm Embedded&quot;</span> to configure the kit.</p>
+<p>Select <span style="background-color:#f7ddbe">&quot;GCC 10.x.x arm-none-eabi&quot;</span> to configure the kit.</p>
 <img src="/img/osh/surf5/vsset31.png" width="700">
 <br>
 <br>
@@ -267,6 +231,6 @@ If you have completed the four steps above perfectly, try building the project a
 <br>
 <p><strong>Step 7</strong></p>
 <p>Flash &#x27;W7500x.bin&#x27; file of the desired project in the &#x27;obj&#x27; directory to Surf 5 Project. If you want to know how to flash W7500x.bin file to Surf 5, refer to <a href="/Product/Open-Source-Hardware/surf5/getting-started/flashing-surf5">How to use ISP tool</a></p>
-<img src="/img/osh/surf5/vsset35.png" width="500"></div><footer class="theme-doc-footer docusaurus-mt-lg"><div class="theme-doc-footer-edit-meta-row row"><div class="col"><a href="https://github.com/Wiznet/document_framework/tree/master/docs/Product/Open-Source-Hardware/surf5/getting-started/fw-examples.md" target="_blank" rel="noopener noreferrer" class="theme-edit-this-page"><svg fill="currentColor" height="20" width="20" viewBox="0 0 40 40" class="iconEdit_Z9Sw" aria-hidden="true"><g><path d="m34.5 11.7l-3 3.1-6.3-6.3 3.1-3q0.5-0.5 1.2-0.5t1.1 0.5l3.9 3.9q0.5 0.4 0.5 1.1t-0.5 1.2z m-29.5 17.1l18.4-18.5 6.3 6.3-18.4 18.4h-6.3v-6.2z"></path></g></svg>Edit this page</a></div><div class="col lastUpdated_vwxv"></div></div></footer></article><nav class="pagination-nav docusaurus-mt-lg" aria-label="Docs pages"><a class="pagination-nav__link pagination-nav__link--prev" href="/Product/Open-Source-Hardware/surf5/getting-started/install-keil-guide"><div class="pagination-nav__sublabel">Previous</div><div class="pagination-nav__label">How to install Keil uVision MDK-Lite version</div></a><a class="pagination-nav__link pagination-nav__link--next" href="/Product/Open-Source-Hardware/surf5/getting-started/debugger-surf5"><div class="pagination-nav__sublabel">Next</div><div class="pagination-nav__label">Surf 5 Debugger</div></a></nav></div></div><div class="col col--3"><div class="tableOfContents_bqdL thin-scrollbar theme-doc-toc-desktop"><ul class="table-of-contents table-of-contents__left-border"><li><a href="#surf-5-github-link" class="table-of-contents__link toc-highlight">Surf 5 Github Link</a></li><li><a href="#how-to-make-surf-5-project-in-vs-code" class="table-of-contents__link toc-highlight">How to make Surf 5 Project in VS Code</a><ul><li><a href="#1-installing-extensions-in-vs-code" class="table-of-contents__link toc-highlight">1. Installing Extensions in VS Code</a></li><li><a href="#2-create-a-new-workspace-prevent-changes-to-existing-settings" class="table-of-contents__link toc-highlight">2. Create a New Workspace (Prevent Changes to Existing Settings)</a></li><li><a href="#3--save-the-cmake-extension-settings-for-the-stored-workspace" class="table-of-contents__link toc-highlight">3.  Save the CMake Extension Settings for the stored workspace.</a></li><li><a href="#4-build-project-in-vs-code" class="table-of-contents__link toc-highlight">4. Build Project in VS Code</a></li><li><a href="#5-how-to-solve-surf-5-build-error-in-vs-code" class="table-of-contents__link toc-highlight">5. How to solve Surf 5 build error in VS Code</a></li></ul></li><li><a href="#how-to-make-surf-5-project-in-keil-5" class="table-of-contents__link toc-highlight">How to make Surf 5 Project in Keil 5</a><ul><li><a href="#1-download-keil-5--compiler-for-keil-5" class="table-of-contents__link toc-highlight">1. Download Keil 5 &amp; Compiler for Keil 5</a></li><li><a href="#2-set-up-compiler-in-keil-5" class="table-of-contents__link toc-highlight">2. Set-up Compiler in Keil 5</a></li><li><a href="#3-build-surf-5-project-in-keil-5" class="table-of-contents__link toc-highlight">3. Build Surf 5 Project in Keil 5</a></li></ul></li></ul></div></div></div></div></main></div></div></div><footer class="footer footer--dark"><div class="container container-fluid"><div class="row footer__links"><div class="col footer__col"><div class="footer__title">Docs</div><ul class="footer__items clean-list"><li class="footer__item"><a class="footer__link-item" href="/introduction">Introduction</a></li><li class="footer__item"><a class="footer__link-item" href="/">Products</a></li><li class="footer__item"><a class="footer__link-item" href="/Design-Guide/design_guide">Design Guide</a></li><li class="footer__item"><a class="footer__link-item" href="/VAR-Products-using-WIZnet/var_products_using_wiznet">VAR Products</a></li></ul></div><div class="col footer__col"><div class="footer__title">Buy</div><ul class="footer__items clean-list"><li class="footer__item"><a href="https://eshop.wiznet.io/" target="_blank" rel="noopener noreferrer" class="footer__link-item">USA<svg width="13.5" height="13.5" aria-hidden="true" viewBox="0 0 24 24" class="iconExternalLink_nPIU"><path fill="currentColor" d="M21 13v10h-21v-19h12v2h-10v15h17v-8h2zm3-12h-10.988l4.035 4-6.977 7.07 2.828 2.828 6.977-7.07 4.125 4.172v-11z"></path></svg></a></li><li class="footer__item"><a href="http://shop.wiznet.eu/" target="_blank" rel="noopener noreferrer" class="footer__link-item">EU<svg width="13.5" height="13.5" aria-hidden="true" viewBox="0 0 24 24" class="iconExternalLink_nPIU"><path fill="currentColor" d="M21 13v10h-21v-19h12v2h-10v15h17v-8h2zm3-12h-10.988l4.035 4-6.977 7.07 2.828 2.828 6.977-7.07 4.125 4.172v-11z"></path></svg></a></li><li class="footer__item"><a href="https://www.wiznet.hk/en/" target="_blank" rel="noopener noreferrer" class="footer__link-item">China<svg width="13.5" height="13.5" aria-hidden="true" viewBox="0 0 24 24" class="iconExternalLink_nPIU"><path fill="currentColor" d="M21 13v10h-21v-19h12v2h-10v15h17v-8h2zm3-12h-10.988l4.035 4-6.977 7.07 2.828 2.828 6.977-7.07 4.125 4.172v-11z"></path></svg></a></li><li class="footer__item"><a href="http://wiznetshop.co.kr/" target="_blank" rel="noopener noreferrer" class="footer__link-item">Korea<svg width="13.5" height="13.5" aria-hidden="true" viewBox="0 0 24 24" class="iconExternalLink_nPIU"><path fill="currentColor" d="M21 13v10h-21v-19h12v2h-10v15h17v-8h2zm3-12h-10.988l4.035 4-6.977 7.07 2.828 2.828 6.977-7.07 4.125 4.172v-11z"></path></svg></a></li></ul></div><div class="col footer__col"><div class="footer__title">Support</div><ul class="footer__items clean-list"><li class="footer__item"><a href="https://wiznet.io" target="_blank" rel="noopener noreferrer" class="footer__link-item">WIZnet Homepage<svg width="13.5" height="13.5" aria-hidden="true" viewBox="0 0 24 24" class="iconExternalLink_nPIU"><path fill="currentColor" d="M21 13v10h-21v-19h12v2h-10v15h17v-8h2zm3-12h-10.988l4.035 4-6.977 7.07 2.828 2.828 6.977-7.07 4.125 4.172v-11z"></path></svg></a></li><li class="footer__item"><a href="https://forum.wiznet.io" target="_blank" rel="noopener noreferrer" class="footer__link-item">Forum<svg width="13.5" height="13.5" aria-hidden="true" viewBox="0 0 24 24" class="iconExternalLink_nPIU"><path fill="currentColor" d="M21 13v10h-21v-19h12v2h-10v15h17v-8h2zm3-12h-10.988l4.035 4-6.977 7.07 2.828 2.828 6.977-7.07 4.125 4.172v-11z"></path></svg></a></li><li class="footer__item"><a href="http://maker.wiznet.io/" target="_blank" rel="noopener noreferrer" class="footer__link-item">Maker Community<svg width="13.5" height="13.5" aria-hidden="true" viewBox="0 0 24 24" class="iconExternalLink_nPIU"><path fill="currentColor" d="M21 13v10h-21v-19h12v2h-10v15h17v-8h2zm3-12h-10.988l4.035 4-6.977 7.07 2.828 2.828 6.977-7.07 4.125 4.172v-11z"></path></svg></a></li><li class="footer__item"><a href="https://github.com/Wiznet/" target="_blank" rel="noopener noreferrer" class="footer__link-item">GitHub<svg width="13.5" height="13.5" aria-hidden="true" viewBox="0 0 24 24" class="iconExternalLink_nPIU"><path fill="currentColor" d="M21 13v10h-21v-19h12v2h-10v15h17v-8h2zm3-12h-10.988l4.035 4-6.977 7.07 2.828 2.828 6.977-7.07 4.125 4.172v-11z"></path></svg></a></li></ul></div><div class="col footer__col"><div class="footer__title">Social</div><ul class="footer__items clean-list"><li class="footer__item"><a href="https://www.facebook.com/wiznettechnology" target="_blank" rel="noopener noreferrer" class="footer__link-item">Facebook<svg width="13.5" height="13.5" aria-hidden="true" viewBox="0 0 24 24" class="iconExternalLink_nPIU"><path fill="currentColor" d="M21 13v10h-21v-19h12v2h-10v15h17v-8h2zm3-12h-10.988l4.035 4-6.977 7.07 2.828 2.828 6.977-7.07 4.125 4.172v-11z"></path></svg></a></li><li class="footer__item"><a href="https://www.linkedin.com/company/wiznet/" target="_blank" rel="noopener noreferrer" class="footer__link-item">LinkedIn<svg width="13.5" height="13.5" aria-hidden="true" viewBox="0 0 24 24" class="iconExternalLink_nPIU"><path fill="currentColor" d="M21 13v10h-21v-19h12v2h-10v15h17v-8h2zm3-12h-10.988l4.035 4-6.977 7.07 2.828 2.828 6.977-7.07 4.125 4.172v-11z"></path></svg></a></li><li class="footer__item"><a href="https://twitter.com/wiznetteam" target="_blank" rel="noopener noreferrer" class="footer__link-item">Twitter<svg width="13.5" height="13.5" aria-hidden="true" viewBox="0 0 24 24" class="iconExternalLink_nPIU"><path fill="currentColor" d="M21 13v10h-21v-19h12v2h-10v15h17v-8h2zm3-12h-10.988l4.035 4-6.977 7.07 2.828 2.828 6.977-7.07 4.125 4.172v-11z"></path></svg></a></li><li class="footer__item"><a href="https://www.youtube.com/channel/UCAxgCSp_xA2aQ1KA2Eknvqg" target="_blank" rel="noopener noreferrer" class="footer__link-item">Youtube<svg width="13.5" height="13.5" aria-hidden="true" viewBox="0 0 24 24" class="iconExternalLink_nPIU"><path fill="currentColor" d="M21 13v10h-21v-19h12v2h-10v15h17v-8h2zm3-12h-10.988l4.035 4-6.977 7.07 2.828 2.828 6.977-7.07 4.125 4.172v-11z"></path></svg></a></li></ul></div></div><div class="footer__bottom text--center"><div class="footer__copyright">Copyright © 2024 WIZnet Co., Ltd. Built with Docusaurus.</div></div></div></footer></div>
+<img src="/img/osh/surf5/vsset35.png" width="500"></div><footer class="theme-doc-footer docusaurus-mt-lg"><div class="theme-doc-footer-edit-meta-row row"><div class="col"><a href="https://github.com/Wiznet/document_framework/tree/master/docs/Product/Open-Source-Hardware/surf5/getting-started/fw-examples.md" target="_blank" rel="noopener noreferrer" class="theme-edit-this-page"><svg fill="currentColor" height="20" width="20" viewBox="0 0 40 40" class="iconEdit_Z9Sw" aria-hidden="true"><g><path d="m34.5 11.7l-3 3.1-6.3-6.3 3.1-3q0.5-0.5 1.2-0.5t1.1 0.5l3.9 3.9q0.5 0.4 0.5 1.1t-0.5 1.2z m-29.5 17.1l18.4-18.5 6.3 6.3-18.4 18.4h-6.3v-6.2z"></path></g></svg>Edit this page</a></div><div class="col lastUpdated_vwxv"></div></div></footer></article><nav class="pagination-nav docusaurus-mt-lg" aria-label="Docs pages"><a class="pagination-nav__link pagination-nav__link--prev" href="/Product/Open-Source-Hardware/surf5/getting-started/install-keil-guide"><div class="pagination-nav__sublabel">Previous</div><div class="pagination-nav__label">How to install Keil uVision MDK-Lite version</div></a><a class="pagination-nav__link pagination-nav__link--next" href="/Product/Open-Source-Hardware/surf5/getting-started/debugger-surf5"><div class="pagination-nav__sublabel">Next</div><div class="pagination-nav__label">Surf 5 Debugger</div></a></nav></div></div><div class="col col--3"><div class="tableOfContents_bqdL thin-scrollbar theme-doc-toc-desktop"><ul class="table-of-contents table-of-contents__left-border"><li><a href="#surf-5-github-link" class="table-of-contents__link toc-highlight">Surf 5 Github Link</a></li><li><a href="#how-to-make-surf-5-project-in-vs-code" class="table-of-contents__link toc-highlight">How to make Surf 5 Project in VS Code</a><ul><li><a href="#1-launching-vs-code" class="table-of-contents__link toc-highlight">1. Launching VS Code</a></li><li><a href="#2-installing-extensions-in-vs-code" class="table-of-contents__link toc-highlight">2. Installing Extensions in VS Code</a></li><li><a href="#3--save-the-cmake-extension-settings-for-the-stored-workspace" class="table-of-contents__link toc-highlight">3.  Save the CMake Extension Settings for the stored workspace.</a></li><li><a href="#4-modifying-the-contents-of-the-arm-none-eabi-gcccmake-file" class="table-of-contents__link toc-highlight">4. Modifying the contents of the &#39;arm-none-eabi-gcc.cmake&#39; file</a></li><li><a href="#5-build-project-in-vs-code" class="table-of-contents__link toc-highlight">5. Build Project in VS Code</a></li><li><a href="#5-how-to-solve-surf-5-build-error-in-vs-code" class="table-of-contents__link toc-highlight">5. How to solve Surf 5 build error in VS Code</a></li></ul></li><li><a href="#how-to-make-surf-5-project-in-keil-5" class="table-of-contents__link toc-highlight">How to make Surf 5 Project in Keil 5</a><ul><li><a href="#1-download-keil-5--compiler-for-keil-5" class="table-of-contents__link toc-highlight">1. Download Keil 5 &amp; Compiler for Keil 5</a></li><li><a href="#2-set-up-compiler-in-keil-5" class="table-of-contents__link toc-highlight">2. Set-up Compiler in Keil 5</a></li><li><a href="#3-build-surf-5-project-in-keil-5" class="table-of-contents__link toc-highlight">3. Build Surf 5 Project in Keil 5</a></li></ul></li></ul></div></div></div></div></main></div></div></div><footer class="footer footer--dark"><div class="container container-fluid"><div class="row footer__links"><div class="col footer__col"><div class="footer__title">Docs</div><ul class="footer__items clean-list"><li class="footer__item"><a class="footer__link-item" href="/introduction">Introduction</a></li><li class="footer__item"><a class="footer__link-item" href="/">Products</a></li><li class="footer__item"><a class="footer__link-item" href="/Design-Guide/design_guide">Design Guide</a></li><li class="footer__item"><a class="footer__link-item" href="/VAR-Products-using-WIZnet/var_products_using_wiznet">VAR Products</a></li></ul></div><div class="col footer__col"><div class="footer__title">Buy</div><ul class="footer__items clean-list"><li class="footer__item"><a href="https://eshop.wiznet.io/" target="_blank" rel="noopener noreferrer" class="footer__link-item">USA<svg width="13.5" height="13.5" aria-hidden="true" viewBox="0 0 24 24" class="iconExternalLink_nPIU"><path fill="currentColor" d="M21 13v10h-21v-19h12v2h-10v15h17v-8h2zm3-12h-10.988l4.035 4-6.977 7.07 2.828 2.828 6.977-7.07 4.125 4.172v-11z"></path></svg></a></li><li class="footer__item"><a href="http://shop.wiznet.eu/" target="_blank" rel="noopener noreferrer" class="footer__link-item">EU<svg width="13.5" height="13.5" aria-hidden="true" viewBox="0 0 24 24" class="iconExternalLink_nPIU"><path fill="currentColor" d="M21 13v10h-21v-19h12v2h-10v15h17v-8h2zm3-12h-10.988l4.035 4-6.977 7.07 2.828 2.828 6.977-7.07 4.125 4.172v-11z"></path></svg></a></li><li class="footer__item"><a href="https://www.wiznet.hk/en/" target="_blank" rel="noopener noreferrer" class="footer__link-item">China<svg width="13.5" height="13.5" aria-hidden="true" viewBox="0 0 24 24" class="iconExternalLink_nPIU"><path fill="currentColor" d="M21 13v10h-21v-19h12v2h-10v15h17v-8h2zm3-12h-10.988l4.035 4-6.977 7.07 2.828 2.828 6.977-7.07 4.125 4.172v-11z"></path></svg></a></li><li class="footer__item"><a href="http://wiznetshop.co.kr/" target="_blank" rel="noopener noreferrer" class="footer__link-item">Korea<svg width="13.5" height="13.5" aria-hidden="true" viewBox="0 0 24 24" class="iconExternalLink_nPIU"><path fill="currentColor" d="M21 13v10h-21v-19h12v2h-10v15h17v-8h2zm3-12h-10.988l4.035 4-6.977 7.07 2.828 2.828 6.977-7.07 4.125 4.172v-11z"></path></svg></a></li></ul></div><div class="col footer__col"><div class="footer__title">Support</div><ul class="footer__items clean-list"><li class="footer__item"><a href="https://wiznet.io" target="_blank" rel="noopener noreferrer" class="footer__link-item">WIZnet Homepage<svg width="13.5" height="13.5" aria-hidden="true" viewBox="0 0 24 24" class="iconExternalLink_nPIU"><path fill="currentColor" d="M21 13v10h-21v-19h12v2h-10v15h17v-8h2zm3-12h-10.988l4.035 4-6.977 7.07 2.828 2.828 6.977-7.07 4.125 4.172v-11z"></path></svg></a></li><li class="footer__item"><a href="https://forum.wiznet.io" target="_blank" rel="noopener noreferrer" class="footer__link-item">Forum<svg width="13.5" height="13.5" aria-hidden="true" viewBox="0 0 24 24" class="iconExternalLink_nPIU"><path fill="currentColor" d="M21 13v10h-21v-19h12v2h-10v15h17v-8h2zm3-12h-10.988l4.035 4-6.977 7.07 2.828 2.828 6.977-7.07 4.125 4.172v-11z"></path></svg></a></li><li class="footer__item"><a href="http://maker.wiznet.io/" target="_blank" rel="noopener noreferrer" class="footer__link-item">Maker Community<svg width="13.5" height="13.5" aria-hidden="true" viewBox="0 0 24 24" class="iconExternalLink_nPIU"><path fill="currentColor" d="M21 13v10h-21v-19h12v2h-10v15h17v-8h2zm3-12h-10.988l4.035 4-6.977 7.07 2.828 2.828 6.977-7.07 4.125 4.172v-11z"></path></svg></a></li><li class="footer__item"><a href="https://github.com/Wiznet/" target="_blank" rel="noopener noreferrer" class="footer__link-item">GitHub<svg width="13.5" height="13.5" aria-hidden="true" viewBox="0 0 24 24" class="iconExternalLink_nPIU"><path fill="currentColor" d="M21 13v10h-21v-19h12v2h-10v15h17v-8h2zm3-12h-10.988l4.035 4-6.977 7.07 2.828 2.828 6.977-7.07 4.125 4.172v-11z"></path></svg></a></li></ul></div><div class="col footer__col"><div class="footer__title">Social</div><ul class="footer__items clean-list"><li class="footer__item"><a href="https://www.facebook.com/wiznettechnology" target="_blank" rel="noopener noreferrer" class="footer__link-item">Facebook<svg width="13.5" height="13.5" aria-hidden="true" viewBox="0 0 24 24" class="iconExternalLink_nPIU"><path fill="currentColor" d="M21 13v10h-21v-19h12v2h-10v15h17v-8h2zm3-12h-10.988l4.035 4-6.977 7.07 2.828 2.828 6.977-7.07 4.125 4.172v-11z"></path></svg></a></li><li class="footer__item"><a href="https://www.linkedin.com/company/wiznet/" target="_blank" rel="noopener noreferrer" class="footer__link-item">LinkedIn<svg width="13.5" height="13.5" aria-hidden="true" viewBox="0 0 24 24" class="iconExternalLink_nPIU"><path fill="currentColor" d="M21 13v10h-21v-19h12v2h-10v15h17v-8h2zm3-12h-10.988l4.035 4-6.977 7.07 2.828 2.828 6.977-7.07 4.125 4.172v-11z"></path></svg></a></li><li class="footer__item"><a href="https://twitter.com/wiznetteam" target="_blank" rel="noopener noreferrer" class="footer__link-item">Twitter<svg width="13.5" height="13.5" aria-hidden="true" viewBox="0 0 24 24" class="iconExternalLink_nPIU"><path fill="currentColor" d="M21 13v10h-21v-19h12v2h-10v15h17v-8h2zm3-12h-10.988l4.035 4-6.977 7.07 2.828 2.828 6.977-7.07 4.125 4.172v-11z"></path></svg></a></li><li class="footer__item"><a href="https://www.youtube.com/channel/UCAxgCSp_xA2aQ1KA2Eknvqg" target="_blank" rel="noopener noreferrer" class="footer__link-item">Youtube<svg width="13.5" height="13.5" aria-hidden="true" viewBox="0 0 24 24" class="iconExternalLink_nPIU"><path fill="currentColor" d="M21 13v10h-21v-19h12v2h-10v15h17v-8h2zm3-12h-10.988l4.035 4-6.977 7.07 2.828 2.828 6.977-7.07 4.125 4.172v-11z"></path></svg></a></li></ul></div></div><div class="footer__bottom text--center"><div class="footer__copyright">Copyright © 2024 WIZnet Co., Ltd. Built with Docusaurus.</div></div></div></footer></div>
 </body>
 </html>
