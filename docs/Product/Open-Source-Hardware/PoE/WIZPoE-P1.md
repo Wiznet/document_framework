@@ -82,9 +82,9 @@ By using WIZPoE-P1, which supports both Mode A and Mode B, you can efficiently p
 - <a href="/img/osh/PoE/WIZPoE-S1/wizpoe-s1-datasheet.pdf" target="_blank">Datasheet</a>
 
 ### Dimension (Unit : mm)
-<a target="_blank" href={require('/img/osh/PoE/WIZPoE-S1/wizpoe-s1-demension.png').default}><img src={require('/img/osh/PoE/WIZPoE-S1/wizpoe-s1-demension.png').default} alt="wizpoe-s1-demension"/></a>
+<a target="_blank" href={require('/img/osh/PoE/WIZPoE-S1/wizpoe-p1-demension.png').default}><img src={require('/img/osh/PoE/WIZPoE-S1/wizpoe-p1-demension.png').default} alt="wizpoe-p1-demension"/></a>
 
-<a target="_blank" href={require('/img/osh/PoE/WIZPoE-S1/wizpoe-s1-demension-height.png').default}><img src={require('/img/osh/PoE/WIZPoE-S1/wizpoe-s1-demension-height.png').default} alt="wizpoe-s1-demension-height"/></a>
+<a target="_blank" href={require('/img/osh/PoE/WIZPoE-S1/wizpoe-p1-demension-height.png').default}><img src={require('/img/osh/PoE/WIZPoE-S1/wizpoe-p1-demension-height.png').default} alt="wizpoe-p1-demension-height"/></a>
 
 
 ## Certification
@@ -92,13 +92,13 @@ By using WIZPoE-P1, which supports both Mode A and Mode B, you can efficiently p
 ### EMI
 
 - #### RE (Radiated Emission)
- <a href="/img/osh/PoE/WIZPoE-S1/re-surf5-s1-3.5w.pdf" target="_blank">RE Test Report</a>
+ <a href="/img/osh/PoE/WIZPoE-S1/re-surf5-p1-3.5w.pdf" target="_blank">RE Test Report</a>
 | Date    | Decription |
 | ------- | ---------- |
 | NOV2023 | Only Test Report |
 
 - #### CE (Conducted Emission)
- <a href="/img/osh/PoE/WIZPoE-S1/ce-picopoe-s1.pdf" target="_blank">CE Test Report</a>
+ <a href="/img/osh/PoE/WIZPoE-S1/ce-picopoe-p1.pdf" target="_blank">CE Test Report</a>
 | Date    | Decription |
 | ------- | ---------- |
 | NOV2023 | Only Test Report |
