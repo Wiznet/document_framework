@@ -15,7 +15,7 @@
 <link rel="search" type="application/opensearchdescription+xml" title="WIZnet Document System" href="/opensearch.xml">
 <link rel="preconnect" href="https://cdn.channel.io">
 <script>!function(){var n=window;if(n.ChannelIO)return(window.console.error||window.console.log||function(){})("ChannelIO script included twice.");var e=function(){e.c(arguments)};function t(){if(!n.ChannelIOInitialized){n.ChannelIOInitialized=!0;var e=document.createElement("script");e.type="text/javascript",e.async=!0,e.src="https://cdn.channel.io/plugin/ch-plugin-web.js",e.charset="UTF-8";var t=document.getElementsByTagName("script")[0];t.parentNode.insertBefore(e,t)}}e.q=[],e.c=function(n){e.q.push(n)},n.ChannelIO=e,"complete"===document.readyState?t():window.attachEvent?window.attachEvent("onload",t):(window.addEventListener("DOMContentLoaded",t,!1),window.addEventListener("load",t,!1))}(),ChannelIO("boot",{pluginKey:"cb95c060-ab4c-45ec-bbe8-fe40a1ea3aec"})</script><link rel="stylesheet" href="/assets/css/styles.562445d9.css">
-<script src="/assets/js/runtime~main.b961f44a.js" defer="defer"></script>
+<script src="/assets/js/runtime~main.c7b778a6.js" defer="defer"></script>
 <script src="/assets/js/main.cfecac57.js" defer="defer"></script>
 </head>
 <body class="navigation-with-keyboard">
@@ -40,7 +40,7 @@
 <br>
 <p><strong>Step 3</strong></p>
 <p>Load the project folder of Surf 5 in VS Code.</p>
-<img src="/img/osh/surf5/vscodeon.png" width="500">
+<img src="/img/osh/surf5/vscodeon.png" width="700">
 <br>
 <br>
 <br>
@@ -67,7 +67,7 @@
 <p>Within the &#x27;arm-none-eabi-gcc.cmake&#x27; file in the tools directory, you need to specify the &#x27;ARM_TOOLCHAIN_DIR&#x27; path. &#x27;ARM_TOOLCHAIN_DIR&#x27; is located inside the path where your GNU Arm Embedded Toolchain executable is installed. Find your path and enter it.</p>
 <p><span style="background-color:#f7ddbe">When setting the path, be sure to delete the backslash () and enter it as a slash (/).</span>. You may refer to the example code below.</p>
 <table><thead><tr><th>arm-none-eabi-gcc.cmake</th></tr></thead><tbody><tr><td>set(ARM_TOOLCHAIN_DIR &quot;C:/Program Files (x86)/GNU Arm Embedded Toolchain/10 2021.10/bin&quot;)<br></td></tr></tbody></table>
-<img src="/img/osh/surf5/cmakefile_edit.png" width="500">
+<img src="/img/osh/surf5/cmakefile_edit.png" width="700">
 <br>
 <br>
 <br>
@@ -116,6 +116,7 @@
 <br>
 <br>
 <br>
+<p><strong>Step 2</strong></p>
 <p>Click on the gear icon of the CMake Tools extension pack to go to &#x27;Extension Settings&#x27;. Check if the code in the &#x27;CMake: Generator&#x27; section is &#x27;NMake Makefiles&#x27; as shown in the photo below. Also, make sure to enter this code with the exact case sensitivity.</p>
 <img src="/img/osh/surf5/vsset29.png" width="700">
 <br>
@@ -135,13 +136,14 @@
 <br>
 <br>
 <br>
+<p><strong>Step 5</strong></p>
 <p>Select <span style="background-color:#f7ddbe">&quot;GCC 10.x.x arm-none-eabi&quot;</span> to configure the kit.</p>
 <img src="/img/osh/surf5/vsset31.png" width="700">
 <br>
 <br>
 <br>
 <br>
-<p><strong>Step 5</strong></p>
+<p><strong>Step 6</strong></p>
 <p>Rebuild now.
 If you have completed the four steps above perfectly, try building the project again within VS Code.</p>
 <br>
