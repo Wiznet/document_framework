@@ -166,7 +166,7 @@ If the build is still not working despite configuring Visual Studio Code setting
 <br />
 
 
-**Before resolving the error, Did you by any chance not install the programs required to build the Surf 5 project in VS Code?** 
+**Before solving the error, Did you by any chance not install the programs required to build the Surf 5 project in VS Code?** 
 
 Please check the following link to ensure that the programs needed for the build have not been installed.
 
