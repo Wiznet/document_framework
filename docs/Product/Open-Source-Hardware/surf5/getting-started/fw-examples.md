@@ -45,7 +45,7 @@ Call the 'Code' command to execute VS Code.
 Load the project folder of Surf 5 in VS Code.
 
 
-<img src="/img/osh/surf5/vscodeon.png" width="500" />
+<img src="/img/osh/surf5/vscodeon.png" width="700" />
 
 <br />
 <br />
@@ -96,7 +96,7 @@ Within the 'arm-none-eabi-gcc.cmake' file in the tools directory, you need to sp
 |set(ARM_TOOLCHAIN_DIR "C:/Program Files (x86)/GNU Arm Embedded Toolchain/10 2021.10/bin")<br /> |
 
 
-<img src="/img/osh/surf5/cmakefile_edit.png" width="500" />
+<img src="/img/osh/surf5/cmakefile_edit.png" width="700" />
 
 <br />
 <br />
@@ -169,6 +169,9 @@ Please recheck the path for the code section marked in red in the photo below. A
 
 <img src="/img/osh/surf5/cmakefile_edit.png" width="700" /><br /><br /><br /><br />
 
+
+**Step 2** 
+
 Click on the gear icon of the CMake Tools extension pack to go to 'Extension Settings'. Check if the code in the 'CMake: Generator' section is 'NMake Makefiles' as shown in the photo below. Also, make sure to enter this code with the exact case sensitivity.
 
 
@@ -194,6 +197,8 @@ Press the F1 key, and then click on <span style={{ backgroundColor: '#f7ddbe' }}
 
 <img src="/img/osh/surf5/vsset30.png" width="700" /><br /><br /><br />
 
+**Step 5**  
+
 Select <span style={{ backgroundColor: '#f7ddbe' }}>"GCC 10.x.x arm-none-eabi"</span> to configure the kit.
 
 <img src="/img/osh/surf5/vsset31.png" width="700" /><br /><br /><br /><br />
@@ -201,7 +206,7 @@ Select <span style={{ backgroundColor: '#f7ddbe' }}>"GCC 10.x.x arm-none-eabi"</
 
 
 
-**Step 5**  
+**Step 6**  
 
 Rebuild now.
 If you have completed the four steps above perfectly, try building the project again within VS Code.
