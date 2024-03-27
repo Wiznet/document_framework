@@ -208,8 +208,57 @@ If you have completed the four steps above perfectly, try building the project a
 
 <br /><br /><br /><br />
 
+<span style={{ backgroundColor: '#f7ddbe' }}>GCC 10.x.x arm-none-eabi' compiler is not appearing</span>
 
-<span style={{ backgroundColor: '#f7ddbe' }}>"If building Surf 5 Project still doesn't work in VS Code"</span>
+
+This issue may be due to the compiler's path not being added to the environment variables during installation. Follow the steps below to add the path of the compiler.
+
+<br />
+<br />
+
+Search for 'View advanced system settings' in the Windows search bar and click on it.
+
+<img src="/img/osh/surf5/edit_sys_properties1.png" width="700" /><br /><br /><br />
+
+In System Properties, click on 'Environment Variables ...' below.
+
+<img src="/img/osh/surf5/edit_sys_properties2.png" width="700" /><br /><br /><br />
+
+Select 'Path' in the 'User variables for xxx' category and press 'Edit...'
+
+<img src="/img/osh/surf5/edit_sys_properties3.png" width="700" /><br /><br /><br />
+
+
+Press 'New' to add the toolchain directory and press 'OK'.
+
+<img src="/img/osh/surf5/edit_sys_properties4.png" width="700" /><br /><br /><br />
+
+
+If you have added the variable, restart your PC or laptop.
+
+<img src="/img/osh/surf5/edit_sys_properties5.png" width="700" /><br /><br /><br />
+
+In 'Developer Command Prompt for VS 2022', you must call the code command to run VS Code.
+And in VS Code, press 'F1' and click on 'CMake: Select a Kit'.
+
+<img src="/img/osh/surf5/edit_sys_properties6.png" width="700" /><br /><br /><br />
+
+Click on [Scan for Kits].
+
+<img src="/img/osh/surf5/edit_sys_properties7.png" width="700" /><br /><br /><br />
+
+
+Check the added compiler below and build it.
+
+<img src="/img/osh/surf5/edit_sys_properties8.png" width="700" /><br /><br /><br />
+
+
+<br /><br /><br /><br />
+
+
+
+
+<span style={{ backgroundColor: '#f7ddbe' }}>If building Surf 5 Project still doesn't work in VS Code</span>
 
 
 Enter the following path, then delete the Code director.
