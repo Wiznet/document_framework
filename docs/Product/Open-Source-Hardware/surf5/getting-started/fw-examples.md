@@ -162,6 +162,17 @@ Flash the .bin file of the desired project in the 'build' directory to Surf 5 Pr
 
 If the build is still not working despite configuring Visual Studio Code settings, follow the steps below.
 
+<br />
+<br />
+
+
+**Before resolving the error, Did you by any chance not install the programs required to build the Surf 5 project in VS Code?** 
+
+Please check the following link to ensure that the programs needed for the build have not been installed.
+
+[How to install VS Code for Surf 5](install-vscode-guide.md)
+
+<br /><br /><br /><br />
 
 **Step 1** 
 
