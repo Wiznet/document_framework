@@ -218,25 +218,25 @@ This issue may be due to the compiler's path not being added to the environment 
 
 Search for 'View advanced system settings' in the Windows search bar and click on it.
 
-<img src="/img/osh/surf5/edit_sys_properties1.png" width="700" /><br /><br /><br />
+<img src="/img/osh/surf5/edit_sys_properties1.png" width="500" /><br /><br /><br />
 
 In System Properties, click on 'Environment Variables ...' below.
 
-<img src="/img/osh/surf5/edit_sys_properties2.png" width="700" /><br /><br /><br />
+<img src="/img/osh/surf5/edit_sys_properties2.png" width="500" /><br /><br /><br />
 
 Select 'Path' in the 'User variables for xxx' category and press 'Edit...'
 
-<img src="/img/osh/surf5/edit_sys_properties3.png" width="700" /><br /><br /><br />
+<img src="/img/osh/surf5/edit_sys_properties3.png" width="500" /><br /><br /><br />
 
 
 Press 'New' to add the toolchain directory and press 'OK'.
 
-<img src="/img/osh/surf5/edit_sys_properties4.png" width="700" /><br /><br /><br />
+<img src="/img/osh/surf5/edit_sys_properties4.png" width="500" /><br /><br /><br />
 
 
 If you have added the variable, restart your PC or laptop.
 
-<img src="/img/osh/surf5/edit_sys_properties5.png" width="700" /><br /><br /><br />
+<img src="/img/osh/surf5/edit_sys_properties5.png" width="500" /><br /><br /><br />
 
 In 'Developer Command Prompt for VS 2022', you must call the code command to run VS Code.
 And in VS Code, press 'F1' and click on 'CMake: Select a Kit'.
