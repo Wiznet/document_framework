@@ -257,7 +257,7 @@ Check the added compiler below and build it.
 
 <img src="/img/osh/surf5/edit_sys_properties8.png" width="700" /><br /><br /><br />
 
-
+<!-- 
 <br /><br /><br /><br />
 
 
@@ -272,7 +272,7 @@ Enter the following path, then delete the Code director.
 
 Next, Reinstall VS Code and then rebuild.
 
-<img src="/img/osh/surf5/vscodeinstaller.png" width="150" /><br /><br /><br /><br />
+<img src="/img/osh/surf5/vscodeinstaller.png" width="150" /><br /><br /><br /><br /> -->
 
 <br />
 <br />
