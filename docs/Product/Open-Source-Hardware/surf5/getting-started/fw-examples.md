@@ -71,7 +71,27 @@ Search for and install the three extensions shown in the image below in the exte
 
 ### 3.  Save the CMake Extension Settings for the stored workspace.
 
-Once you have completed the path configuration, enter "NMake Makefiles" in the "CMake: Generator" field. make sure to check the case sensitivity of <span style={{ backgroundColor: '#f7ddbe' }}>"NMake Makefiles"</span>.
+**Step 1** 
+
+In CMake Tools, go to <span style={{ backgroundColor: '#f7ddbe' }}>"the gear icon (settings) -> Extension Settings </span> 
+
+<img src="/img/osh/surf5/vsset26.png" width="700" />
+
+<br />
+<br />
+
+Go to the Workspace tab in the red box. In the top search bar, type <span style={{ backgroundColor: '#f7ddbe' }}>"@ext:ms-vscode.cmake-tools"</span> to search.
+
+
+<img src="/img/osh/surf5/vsset27.png" width="700" />
+
+<br />
+<br />
+
+
+**Step 2** 
+
+enter "NMake Makefiles" in the "CMake: Generator" field. make sure to check the case sensitivity of <span style={{ backgroundColor: '#f7ddbe' }}>"NMake Makefiles"</span>.
 
 | CMake: Generator    |
 |---------------------|
