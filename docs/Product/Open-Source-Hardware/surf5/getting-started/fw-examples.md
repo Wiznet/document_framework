@@ -157,7 +157,7 @@ Flash the .bin file of the desired project in the 'build' directory to Surf 5 Pr
 <br />
 
 
-### 5. How to solve Surf 5 build error in VS Code
+### [How to solve Surf 5 build error in VS Code]
 
 
 If the build is still not working despite configuring Visual Studio Code settings, follow the steps below.
@@ -208,7 +208,7 @@ If you have completed the four steps above perfectly, try building the project a
 
 <br /><br /><br /><br />
 
-<span style={{ backgroundColor: '#f7ddbe' }}>GCC 10.x.x arm-none-eabi' compiler is not appearing</span>
+<span style={{ backgroundColor: '#bec2f7' }}>GCC 10.x.x arm-none-eabi' compiler is not appearing</span>
 
 
 This issue may be due to the compiler's path not being added to the environment variables during installation. Follow the steps below to add the path of the compiler.
@@ -258,7 +258,7 @@ Check the added compiler below and build it.
 
 
 
-<span style={{ backgroundColor: '#f7ddbe' }}>If building Surf 5 Project still doesn't work in VS Code</span>
+<span style={{ backgroundColor: '#bec2f7' }}>If building Surf 5 Project still doesn't work in VS Code</span>
 
 
 Enter the following path, then delete the Code director.
