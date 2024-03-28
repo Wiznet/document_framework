@@ -243,7 +243,7 @@ Select <span style={{ backgroundColor: '#f7ddbe' }}>"GCC 10.x.x arm-none-eabi"</
 Rebuild now.
 If you have completed the four steps above perfectly, try building the project again within VS Code.
 
-<br /><br /><br /><br />
+<br /><br />
 
 <span style={{ backgroundColor: '#bec2f7' }}>GCC 10.x.x arm-none-eabi' compiler is not appearing</span>
 
@@ -276,7 +276,14 @@ If you have added the variable, restart your PC or laptop.
 <img src="/img/osh/surf5/edit_sys_properties5.png" width="500" /><br /><br /><br />
 
 In 'Developer Command Prompt for VS 2022', you must call the code command to run VS Code.
-And in VS Code, press 'F1' and click on 'CMake: Select a Kit'.
+
+<img src="/img/osh/surf5/command_prompt1.png" width="500" />
+
+<img src="/img/osh/surf5/command_prompt2.png" width="500" /><br /><br /><br />
+
+
+
+And in VS Code, load Surf 5 project and press 'F1' and click on 'CMake: Select a Kit'.
 
 <img src="/img/osh/surf5/vsset30.png" width="700" /><br /><br /><br />
 
