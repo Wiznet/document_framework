@@ -80,14 +80,6 @@ In CMake Tools, go to <span style={{ backgroundColor: '#f7ddbe' }}>"the gear ico
 <br />
 <br />
 
-Go to the Workspace tab in the red box. In the top search bar, type <span style={{ backgroundColor: '#f7ddbe' }}>"@ext:ms-vscode.cmake-tools"</span> to search.
-
-
-<img src="/img/osh/surf5/vsset27.png" width="700" />
-
-<br />
-<br />
-
 
 **Step 2** 
 
