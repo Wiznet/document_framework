@@ -129,6 +129,15 @@ Press the F1 key, and then click on <span style={{ backgroundColor: '#f7ddbe' }}
 
 **Step 2** 
 
+click on <span style={{ backgroundColor: '#f7ddbe' }}>"[Scan for Kits]"</span>.
+
+<img src="/img/osh/surf5/scanforkits.png" width="700" />
+<br />
+<br />
+<br />
+
+**Step 3** 
+
 Select <span style={{ backgroundColor: '#f7ddbe' }}>"GCC 10.x.x arm-none-eabi"</span> to configure the kit.
 
 <img src="/img/osh/surf5/vsset31.png" width="700" />
@@ -136,7 +145,7 @@ Select <span style={{ backgroundColor: '#f7ddbe' }}>"GCC 10.x.x arm-none-eabi"</
 <br />
 <br />
 
-**Step 3** 
+**Step 4** 
 
 Click the <span style={{ backgroundColor: '#f7ddbe' }}>"Build"</span> button at the bottom or press F7 to start the build process.
 
@@ -145,7 +154,7 @@ Click the <span style={{ backgroundColor: '#f7ddbe' }}>"Build"</span> button at 
 <br />
 <br />
 
-**Step 4** 
+**Step 5** 
 
 Once the build is completed, you will see a message like the one above in the OUTPUT window.
 
@@ -156,7 +165,7 @@ You will also be able to confirm that the Build directory has been created. The 
 <br />
 <br />
 
-**Step 5** 
+**Step 6** 
 
 Flash the .bin file of the desired project in the 'build' directory to Surf 5 Project. If you want to know how to flash .bin files to Surf 5, refer to [How to use ISP tool](flashing-Surf5.md)
 
