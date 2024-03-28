@@ -278,16 +278,16 @@ If you have added the variable, restart your PC or laptop.
 In 'Developer Command Prompt for VS 2022', you must call the code command to run VS Code.
 And in VS Code, press 'F1' and click on 'CMake: Select a Kit'.
 
-<img src="/img/osh/surf5/edit_sys_properties6.png" width="700" /><br /><br /><br />
+<img src="/img/osh/surf5/vsset30.png" width="700" /><br /><br /><br />
 
 Click on [Scan for Kits].
 
-<img src="/img/osh/surf5/edit_sys_properties7.png" width="700" /><br /><br /><br />
+<img src="/img/osh/surf5/scanforkits.png" width="700" /><br /><br /><br />
 
 
 Check the added compiler below and build it.
 
-<img src="/img/osh/surf5/edit_sys_properties8.png" width="700" /><br /><br /><br />
+<img src="/img/osh/surf5/vsset31.png" width="700" /><br /><br /><br />
 
 <!-- 
 <br /><br /><br /><br />
