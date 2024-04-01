@@ -77,9 +77,9 @@ By using WIZPoE-P1, which supports both Mode A and Mode B, you can efficiently p
 |   4   | GND| Ground|
 ## Technical Reference
 
-### WIZPoE-S1 Datasheet
+### WIZPoE-P1 Datasheet
 
-- <a href="/img/osh/PoE/WIZPoE-S1/wizpoe-s1-datasheet.pdf" target="_blank">Datasheet</a>
+- <a href="/img/osh/PoE/WIZPoE-S1/wizpoe-p1-datasheet.pdf" target="_blank">Datasheet</a>
 
 ### Dimension (Unit : mm)
 <a target="_blank" href={require('/img/osh/PoE/WIZPoE-S1/wizpoe-p1-demension.png').default}><img src={require('/img/osh/PoE/WIZPoE-S1/wizpoe-p1-demension.png').default} alt="wizpoe-p1-demension"/></a>
