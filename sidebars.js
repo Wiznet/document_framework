@@ -660,6 +660,7 @@ module.exports = {
 					],
 				},
 			'Product/S2E-Module/wiz1000',
+		//	'Product/S2E-Module/W232N',
 		],
 		},
 		{
@@ -995,6 +996,7 @@ module.exports = {
 				items: [
 					'Product/Open-Source-Hardware/PoE/WIZPoE-S1',
 					'Product/Open-Source-Hardware/PoE/WIZPoE-P1',
+				//	'Product/Open-Source-Hardware/PoE/raspberrypi-5-hat-poe',
 					]
 				},
 			],
