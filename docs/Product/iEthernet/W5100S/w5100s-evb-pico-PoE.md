@@ -33,7 +33,7 @@ description: W5100S-EVB-Pico-PoE made for prototyping and testing Ethernet capab
 ## Overview
 
 
-W5100S-EVB-Pico-PoE is a microcontroller evaluation board based on the Raspberry Pi RP2040 and fully hardwired TCP/IP controller W5100S – and basically works the same as Raspberry Pi Pico board but with additional Ethernet via W5100S.
+W5100S-EVB-Pico-PoE is a microcontroller evaluation board based on the Raspberry Pi RP2040 and fully hardwired TCP/IP controller W5100S – and basically works the same as Raspberry Pi Pico board but with additional Ethernet via W5100S. It can also use the WIZPoE-P1 (Isolation) module.
 
 
 - Raspberry Pi Pico Clone
