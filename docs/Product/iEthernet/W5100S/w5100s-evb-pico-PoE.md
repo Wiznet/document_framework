@@ -42,6 +42,9 @@ W5100S-EVB-Pico-PoE is a microcontroller evaluation board based on the Raspberry
 
 ![w5100s-evb-pico-PoE](/img/osh/PoE/WIZPoE-S1/w5100s-evb-pico-poe_img3(add%20poe).png)
 
+<a target="_blank" href={require('/img/osh/PoE/WIZPoE-S1/w5100s-evb-pico-poe_img3(add%20poe).png').default}><img src={require('/img/osh/PoE/WIZPoE-S1/w5100s-evb-pico-poe_img3(add%20poe).png').default} alt="w5100s-evb-pico-PoE"/></a>
+
+
 You can get a detail infomation of our PoE [here](https://docs.wiznet.io/Product/Open-Source-Hardware/PoE/PoE-Main).
 
 
@@ -80,3 +83,4 @@ You can get a detail infomation of our PoE [here](https://docs.wiznet.io/Product
 ### Pin-out v1.0
 
 ![w5100s-evb-pico-PoE](/img/osh/PoE/WIZPoE-S1/w5100s-evb-pico-poe_pinout.png)
+<a target="_blank" href={require('/img/osh/PoE/WIZPoE-S1/w5100s-evb-pico-poe_pinout.png').default}><img src={require('/img/osh/PoE/WIZPoE-S1/w5100s-evb-pico-poe_pinout.png').default} alt="w5100s-evb-pico-PoE"/></a>
