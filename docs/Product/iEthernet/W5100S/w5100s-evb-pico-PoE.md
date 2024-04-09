@@ -79,5 +79,4 @@ You can get a detail infomation of our PoE [here](https://docs.wiznet.io/Product
 ## Hardware Specification
 ### Pin-out v1.0
 
-![w5100s-evb-pico-PoE_pinout](https://github.com/Wiznet/document_framework/blob/master/img/osh/PoE/WIZPoE-S1/w5100s-evb-pico-poe_pinout.png)
-
+![w5100s-evb-pico-PoE](/img/osh/PoE/WIZPoE-S1/w5100s-evb-pico-poe_pinout.png)
