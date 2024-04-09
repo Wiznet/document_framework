@@ -76,3 +76,8 @@ You can get a detail infomation of our PoE [here](https://docs.wiznet.io/Product
 - Built-in RJ45(RB1-125BAG1A)
 - Built-in LDO (LM8805SF5-33V)
 
+## Hardware Specification
+### Pin-out v1.0
+
+![w5100s-evb-pico-PoE_pinout](https://github.com/Wiznet/document_framework/blob/master/img/osh/PoE/WIZPoE-S1/w5100s-evb-pico-poe_pinout.png)
+
