@@ -40,9 +40,9 @@ W5100S-EVB-Pico-PoE is a microcontroller evaluation board based on the Raspberry
 - Ethernet (W5100S Hardwired TCP/IP CHIP)
 
 
-![w5100s-evb-pico-PoE](/img/osh/PoE/WIZPoE-S1/w5100s-evb-pico-poe_img3(add%20poe).png)
+![w5100s-evb-pico-PoE](/img/osh/w5100s-evb-pico-PoE/w5100s-evb-pico-poe_img3(add%20poe).png)
 
-<a target="_blank" href={require('/img/osh/PoE/WIZPoE-S1/w5100s-evb-pico-poe_img3(add%20poe).png').default}><img src={require('/img/osh/PoE/WIZPoE-S1/w5100s-evb-pico-poe_img3(add%20poe).png').default} alt="w5100s-evb-pico-PoE"/></a>
+<a target="_blank" href={require('/img/osh/w5100s-evb-pico-PoE/w5100s-evb-pico-poe_img3(add%20poe).png').default}><img src={require('/img/osh/w5100s-evb-pico-PoE/w5100s-evb-pico-poe_img3(add%20poe).png').default} alt="w5100s-evb-pico-PoE"/></a>
 
 
 You can get a detail infomation of our PoE [here](https://docs.wiznet.io/Product/Open-Source-Hardware/PoE/PoE-Main).
@@ -82,9 +82,9 @@ You can get a detail infomation of our PoE [here](https://docs.wiznet.io/Product
 ## Hardware Specification
 ### Pin-out v1.0
 
-![w5100s-evb-pico-PoE_pinout](/img/osh/PoE/WIZPoE-S1/w5100s-evb-pico-poe_pinout.png)
+![w5100s-evb-pico-PoE_pinout](/img/osh/w5100s-evb-pico-PoE/w5100s-evb-pico-poe_pinout.png)
 
-<a target="_blank" href={require('/img/osh/PoE/WIZPoE-S1/w5100s-evb-pico-poe_pinout.png').default}><img src={require('/img/osh/PoE/WIZPoE-S1/w5100s-evb-pico-poe_pinout.png').default} alt="w5100s-evb-pico-PoE_pinout"/></a>
+<a target="_blank" href={require('/img/osh/w5100s-evb-pico-PoE/w5100s-evb-pico-poe_pinout.png').default}><img src={require('/img/osh/w5100s-evb-pico-PoE/w5100s-evb-pico-poe_pinout.png').default} alt="w5100s-evb-pico-PoE_pinout"/></a>
 
 
 W5100S-EVB-Pico pinout is directly connected to the GPIO of RP2040 as shown in the picture above. It has the same pinout as the Raspberry Pi Pico board. However, GPIO16, GPIO17, GPIO18, GPIO19, GPIO20, GPIO21 are connected to W5100S inside the board. These pins enable SPI communication with W5100S to use Ethernet function. If you are using the Ethernet function, these pins cannot be used for any other purpose.
