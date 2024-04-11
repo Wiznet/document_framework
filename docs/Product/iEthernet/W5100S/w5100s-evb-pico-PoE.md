@@ -74,8 +74,6 @@ You can get a detail infomation of our PoE [here](https://docs.wiznet.io/Product
 - Supports Auto Negotiation
   - Full / Half Duplex
   - 10 / 100 Based
-- Built-in RJ45(RB1-125BAG1A)
-- Built-in LDO (LM8805SF5-33V)
 
 ## Hardware Specification
 ### Pin-out v1.0
