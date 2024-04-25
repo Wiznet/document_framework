@@ -48,7 +48,7 @@ Refer to the link below for a list of supported devices.
     
 ### Supported Firmware Versions
 
-**Important Compatibility Note**: The CLI Configuration Tool version 1.5.5 requires firmware version 1.0.8 or higher to function correctly.
+**Important Compatibility Note**: WIZnet-S2E-Tool-GUI ver 1.5.5 requires firmware version 1.0.8 or higher to function correctly.
 
 -----
 
