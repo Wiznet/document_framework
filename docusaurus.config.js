@@ -205,7 +205,7 @@
   scripts: [   
     {
       src: 'https://www.chatbase.co/embed.min.js',
-      chatbotId: 'rLU437z3i0DCQVCt4qLcE',
+      chatbotId: 'mzPtKtrGGxl7KLpJJ_s9j',
       domain: 'www.chatbase.co',
       async: true,
       defer: true
