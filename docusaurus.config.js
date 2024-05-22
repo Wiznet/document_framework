@@ -4,8 +4,8 @@
 
 // const rlc = require("remark-link-card");
 
-// const config = {
-  module.exports = {
+ const config = {
+  //export default {
   title: "WIZnet Document System",
   tagline: "Welcome to new WIZnet Document System!",
   //url: 'https://wiznet.github.io',
@@ -202,6 +202,15 @@
       { pluginKey: "cb95c060-ab4c-45ec-bbe8-fe40a1ea3aec" },
     ],
   ],
+  scripts: [   
+    {
+      src: 'https://www.chatbase.co/embed.min.js',
+      chatbotId: 'mzPtKtrGGxl7KLpJJ_s9j',
+      domain: 'www.chatbase.co',
+      async: true,
+      defer: true
+    },
+  ],
   presets: [
     [
       "@docusaurus/preset-classic",
@@ -237,4 +246,5 @@
   ]
 };
 
+export default config;
 // module.exports = config;

@@ -41,6 +41,11 @@ Refer to the link below for a list of supported devices.
 * [**WIZnet-S2E-Tool-GUI Support Devices**](https://github.com/Wiznet/WIZnet-S2E-Tool-GUI#support-devices)
 
 
+### Supported Firmware Versions
+
+**Important Compatibility Note**: WIZnet-S2E-Tool-GUI version 1.5.5 requires firmware version 1.0.8 or higher to function correctly.
+
+
 -----
 
 

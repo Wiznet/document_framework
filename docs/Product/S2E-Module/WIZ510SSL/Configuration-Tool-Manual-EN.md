@@ -30,11 +30,11 @@ Refer to the link below for a list of supported devices.
 
 * [**WIZnet-S2E-Tool-GUI Support Devices**](https://github.com/Wiznet/WIZnet-S2E-Tool-GUI#support-devices)
 
------
-
 1.  WIZnet-S2E-Tool-GUI is Python interpreter based and it is platform-independent.
 
 2.  If user has used either WIZ107/108SR, the same program can be used for WIZ510SSL.
+
+-----
     
 ## Configuration Tool Layout
 
