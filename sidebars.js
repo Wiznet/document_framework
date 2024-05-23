@@ -471,6 +471,7 @@ module.exports = {
 					'Product/S2E-Module/WIZ5xxSR-RP-Series/firmware-update-guide',					
 					'Product/S2E-Module/WIZ5xxSR-RP-Series/mqtt-connection-guide',
 					'Product/S2E-Module/WIZ5xxSR-RP-Series/ssl-connection-guide',
+					'Product/S2E-Module/WIZ5xxSR-RP-Series/modbus-connection-guide',
 					]
 				},
 				{
