@@ -9,7 +9,7 @@ description: How to use Surf 5 as S2E
 ## How to use Surf5 as S2E
 This guide should be done after the user has read and worked through guides [How to install USB driver](./install-usb-driver.md) and [How to use ISP tool](./flashing-Surf5.md).
 
-# 1. Download WIZ5xxSR-RP FW
+# 1. Download WIZ750SR-1xx FW
    Download [WIZ750SR-1xx FW](https://github.com/Wiznet/WIZ750SR/releases) last verson.
    You need WIZ750SR-1xxvxxx_incl_Boot.bin file that combined App and Boot.
 
@@ -41,18 +41,19 @@ This guide should be done after the user has read and worked through guides [How
 
 
 # 4. Set Surf5 PA00 pin to LOW
-
-    In the WIZ750SR-1xx FW, the W7500 uses PA00 to read the linkup signal from the IP101GRI (PHY IC) to verify linkup.
-    So the WIZ750SR-1xx modules are connected to Surf5's PA00 with a link signal from the IP101GRI.
+    <img src="/img/osh/surf5/check_link.png" width="400" /><br />
+    In the WIZ750SR-1xx FW, the W7500 uses PA00 to read the linkup signal from the IP101GRI (PHY IC) to verify linkup.<br />
+    So the WIZ750SR-1xx modules are connected to Surf5's PA00 with a link signal from the IP101GRI.<br />
+    <img src="/img/osh/surf5/PA00.png" width="400" /><br />
     However, the Surf5 does not have a Link signal connected to the PA00, and the Link signal from the IP101GRI(PHY) is not connected to the connector. Therefore, You need to force the Surf5 into a linked-up state by connecting the PA00 to GND to drive the S2E FW.
     (This will be improved in next revision by connecting the link signal to a connector)
     
 
 # 5. Search Surf5
-    <img src="/img/osh/surf5/config.png" width="400" /><br />
+    <img src="/img/osh/surf5/config.png" width="600" /><br />
     Search Surf5 using Wizconfig Tool.
     It is normal for Surf5 to be detected as WIZ750SR-1xx.
 
-    <img src="/img/osh/surf5/dtr.png" width="400" /><br />
+    <img src="/img/osh/surf5/dtr.png" width="600" /><br />
     If you don't use DTR,DSR and only use UART TX and RX, please set the Status pin as shown in the picture.
     
