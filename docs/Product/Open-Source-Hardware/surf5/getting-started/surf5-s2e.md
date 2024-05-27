@@ -35,7 +35,7 @@ This guide should be done after the user has read and worked through guides [How
 
 # 3. Enter MAC Address
     <img src="/img/osh/surf5/mac.png" width="400" /><br />
-    When you receive the message __INPUT FIRST MAC?__, type __MC00:08:DC:xx:xx:xx$0d$0a__ to enter your MAC.
+    After flasing you can receive the message __INPUT FIRST MAC?__ through same port with ISP port,then you can type __MC00:08:DC:xx:xx:xx$0d$0a__ to enter your MAC.
     <img src="/img/osh/surf5/status.png" width="400" /><br />
     After Enter the MAC address, you can see the status message.
 
