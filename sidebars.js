@@ -925,6 +925,7 @@ module.exports = {
 									'Product/Open-Source-Hardware/surf5/getting-started/install-keil-guide',
 									'Product/Open-Source-Hardware/surf5/getting-started/fw-examples',
 									'Product/Open-Source-Hardware/surf5/getting-started/debugger-surf5',
+									'Product/Open-Source-Hardware/surf5/getting-started/surf5-s2e',
 									
 								],
 							},
