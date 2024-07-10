@@ -43,7 +43,7 @@ module.exports = {
 				{
 				type: 'category',
 				label: 'W55RP20',
-				link: {type: 'doc', id: 'Product/iMCU/imcu'},
+				link: {type: 'doc', id: 'Product/ioMCU/W55RP20/overview'},
 				items: [
 					
 				],
