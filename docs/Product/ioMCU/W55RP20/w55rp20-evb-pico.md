@@ -112,57 +112,6 @@ Recommended maximum ambient temperature of operation is 70C.
 
 ![W5500-EVB-RP2040](/img/products/w5500-evb-pico/w5500-evb-pico-dimension.png)
 
-### Firmware Example
-
-Please refer to below links to find firmware example.
-
-- C/C++
-  - [Ethernet Examples](https://github.com/Wiznet/RP2040-HAT-C)
-  - [AWS Examples](https://github.com/Wiznet/RP2040-HAT-AWS-C)
-  - [Azure Examples](https://github.com/Wiznet/RP2040-HAT-AZURE-C)
-  - [LwIP Examples](https://github.com/Wiznet/RP2040-HAT-LWIP-C)
-  - [FreeRTOS Examples](https://github.com/Wiznet/RP2040-HAT-FREERTOS-C)
-- [CircuitPython Examples](https://github.com/Wiznet/RP2040-HAT-CircuitPython)
-- [MicroPython Examples](https://github.com/Wiznet/RP2040-HAT-MicroPython)
-
-
-### Certification
-
-#### CE
-
-- <a href="/img/products/w5500-evb-pico/Certificate-CE-W5500-EVB-Pico.pdf" target="_blank">CE Certificate</a>
-- <a href="/img/products/w5500-evb-pico/Test-Report-CE-W5500-EVB-Pico.pdf" target="_blank">CE Test Report</a>
-
-| Date    | Decription |
-| ------- | ---------- |
-| OCT2023 | \-         |
-
-#### FCC
-
-- <a href="/img/products/w5500-evb-pico/Certificate-FCC-W5500-EVB-Pico.pdf" target="_blank">FCC Certificate</a>
-- <a href="/img/products/w5500-evb-pico/Test-Report-FCC-W5500-EVB-Pico.pdf" target="_blank">FCC Test Report</a>
-
-| Date    | Decription |
-| ------- | ---------- |
-| OCT2023 | \-         |
-
-### AWS Qualification
-
-W5500S-EVB-Pico is RP2040-based device that got AWS IoT Core Qualification.
-
-![](/img/osh/w5100s_evb_pico/AWS_DQP_iot_500px.png)
-
-- [AWS Partner Device Catalog](https://devices.amazonaws.com/detail/a3G8a00000311tuEAA/W5500-EVB-Pico)
-- <a href="/img/products/w5500-evb-pico/w5500-evb-pico-getting-started-guide-for-aws-iot-core-v1-0-0.pdf" target="_blank">Getting Started with AWS IoT Core</a>
-
-### Microsoft Azure Certification
-
-W5500-EVB-Pico is RP2040-based device certified to run with Microsoft Azure.
-
-![](/img/osh/w5100s_evb_pico/Azure-Certified-Device-Badge_RGB.png)
-
-- [Azure Certified Device Catalog](https://devicecatalog.azure.com/devices/b278ce42-dde1-46b7-919e-4ae3a5266a3c)
-- <a href="/img/products/w5500-evb-pico/w5500-evb-pico-getting-started-guide-for-azure-iot-v1-0-1.pdf" target="_blank">Getting Started for Azure IoT</a>
 
 ## How to buy
 
