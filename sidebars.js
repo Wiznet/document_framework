@@ -45,7 +45,7 @@ module.exports = {
 				label: 'W55RP20',
 				link: {type: 'doc', id: 'Product/ioMCU/W55RP20/overview'},
 				items: [
-					'Product/ioMCU/W55RP20/'w55rp20-evb-pico,
+				'Product/ioMCU/W55RP20/w55rp20-evb-pico',
 				],
 				},			
 			],
