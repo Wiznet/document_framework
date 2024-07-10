@@ -37,7 +37,7 @@ module.exports = {
 		{
 			type: 'category',
 			label: 'ioMCU',
-			link: {type: 'doc', id: 'Product/ioMCU/ioMCU'},
+			link: {type: 'doc', id: 'Product/ioMCU/iomcu'},
 			items: [
 				//'Product/ioMCU/iomcu',
 				{
