@@ -45,21 +45,9 @@ module.exports = {
 				label: 'W55RP20',
 				link: {type: 'doc', id: 'Product/ioMCU/W55RP20/Overview'},
 				items: [
-					//'Product/iMCU/W7500/overview',
-					'Product/iMCU/W7500/pin-assignment',
-					'Product/iMCU/W7500/system-and-memory',
-					'Product/iMCU/W7500/interrupt-and-event',
-					'Product/iMCU/W7500/power-supply',
-					'Product/iMCU/W7500/booting-sequence',
-					'Product/iMCU/W7500/electrical-characteristics-w7500',
-					'Product/iMCU/W7500/w7500-ref-schematic',
-					'Product/iMCU/W7500/documents_md',
-					'Product/iMCU/W7500/peripherals',
-					'Product/iMCU/W7500/libraries-examples',
-					//'Product/iMCU/W7500/all_pages',
+					
 				],
-				},
-					//'Product/iMCU/w7100a',			
+				},			
 			],
 		},
 		{
