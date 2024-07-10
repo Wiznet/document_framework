@@ -22,15 +22,15 @@ integrates MCU and Hardwired TCP/IP cores.
     Hardwired TCP/IP, 802.3 Ethernet MAC
 -->
 
-|   | [W55RP20 |
-| ----- | ---- | ----- | ----- |
-| Image |  |
-| Embedded Core | Cortex-M0, TCP/IP, MAC & PHY |
-| TX/RX Buffer  | 32KB |
-| HW Socket #   | 8 |
-| Operation Temp (℃) |-40 .. 85 |
-| Process | 0.13µm |
-| Package & Size | 64 TQFP : 7x7 (mm) |
-| Evaluation board | |
+|                      |          W55RP20             |
+| -------------------- | ---------------------------- |
+| Image                |                              |
+| Embedded Core        | Cortex-M0, TCP/IP, MAC & PHY |
+| TX/RX Buffer         | 32KB                         |
+| HW Socket #          | 8                            |
+| Operation Temp (℃)   |-40 .. 85                    |
+| Process              | 0.13µm                       |
+| Package & Size       | 64 TQFP : 7x7 (mm)           |
+| Evaluation board     | W55RP20-EVB-PICO             |
 
 -----

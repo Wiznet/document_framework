@@ -1,5 +1,5 @@
 ---
-id: w55RP20-evb-pico
+id: w55rp20-evb-pico
 title: w55rp20-evb-pico
 date: 2024-07-09
 keywords: [raspberry pi pico, rp2040, pico ethernet, w5500]
@@ -95,10 +95,6 @@ Recommended maximum ambient temperature of operation is 70C.
 ### RP2040 Datasheet
 
 - <a href="https://datasheets.raspberrypi.org/rp2040/rp2040-datasheet.pdf" target="_blank">Download</a>
-
-### W5500 Datasheet
-
-- [W5500 overview](Overview.md)
 
 ### Schematic
 
