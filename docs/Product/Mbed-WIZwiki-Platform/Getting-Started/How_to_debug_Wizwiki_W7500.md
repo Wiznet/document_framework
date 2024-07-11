@@ -81,7 +81,7 @@ message and the ULINK Debugger at the bottom. Chick the 'Debug icon' or
 
 ## Using CMSIS-DAP Debugger
 
-CMSIS-DAP does support USB cable and Debugger as well. You need to [Set Flash Algorithm](#set_flash_algorithm) to use CMSIS-DAP Debugger in Keil.  
+CMSIS-DAP does support USB cable and Debugger as well. You need to [Set Flash Algorithm](#set-flash-algorithm) to use CMSIS-DAP Debugger in Keil.  
 
 ### To Follow
 

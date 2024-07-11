@@ -1,6 +1,6 @@
 ---
 id: w55rp20-evb-pico
-title: w55rp20-evb-pico
+title: W55RP20-EVB-PICO
 date: 2024-07-09
 keywords: [raspberry pi pico, rp2040, pico ethernet, w5500]
 description: W55RP20-EVB-Pico made for prototyping and testing Ethernet capabilities on Pico

@@ -94,7 +94,7 @@ s_server -accept 443 -cert server.crt -key server.key
 | ![](/img/products/wiz510ssl/ssl_connection_guide/saved_settings.png) |
 | Figure: ***Saved settings***
 
-※ **Note**: If you need certificates to connect to SSL server, please refer to the [**'Upload Certificates'**](#upload_certificates) section below.
+※ **Note**: If you need certificates to connect to SSL server, please refer to the [**'Upload Certificates'**](#upload-certificates) section below.
 
 ### Step 4: Done
 

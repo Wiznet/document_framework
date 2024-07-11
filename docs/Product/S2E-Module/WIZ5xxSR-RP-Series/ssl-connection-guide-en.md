@@ -124,7 +124,7 @@ s_server -accept 443 -cert server.crt -key server.key
 | Figure: **Saved settings**                                                        |
 
 
-> **Note**: If you need certificates to connect to the SSL server, please refer to the [**'What If I Need Certificates to Connect to SSL Server'**](#what-if-i-need-certificates-to-connect-to-ssl-server?) section below.
+> **Note**: If you need certificates to connect to the SSL server, please refer to the [**'What If I Need Certificates to Connect to SSL Server'**](#what-if-i-need-certificates-to-connect-to-ssl-server) section below.
 
 
 

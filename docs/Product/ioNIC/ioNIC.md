@@ -1,6 +1,6 @@
 ---
-id: iomcu
-title: ioMCU
+id: ionic
+title: ioNIC
 date: 2024-07-10
 ---
 

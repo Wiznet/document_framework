@@ -36,16 +36,16 @@ module.exports = {
 		},
 		{
 			type: 'category',
-			label: 'ioMCU',
-			link: {type: 'doc', id: 'Product/ioMCU/iomcu'},
+			label: 'ioNIC',
+			link: {type: 'doc', id: 'Product/ioNIC/ionic'},
 			items: [
 				//'Product/ioMCU/iomcu',
 				{
 				type: 'category',
 				label: 'W55RP20',
-				link: {type: 'doc', id: 'Product/ioMCU/W55RP20/overview'},
+				link: {type: 'doc', id: 'Product/ioNIC/W55RP20/overview'},
 				items: [
-				'Product/ioMCU/W55RP20/w55rp20-evb-pico',
+				'Product/ioNIC/W55RP20/w55rp20-evb-pico',
 				],
 				},			
 			],
