@@ -8,7 +8,8 @@ description: W55RP20-EVB-Pico made for prototyping and testing Ethernet capabili
 
 ## Overview
 
-W5500-EVB-Pico is a microcontroller evaluation board based on the Raspberry Pi RP2040 and fully hardwired TCP/IP controller W5500 – and basically works the same as Raspberry Pi Pico board but with additional Ethernet via W5500.
+W55RP20-EVB-Pico is an evaluation board for W55RP20, a chip that combines W5500, a wired TCP/IP controller, and RP2040.
+Therefore, both the functions of Raspberry Pi Pico and those of the W5500 are available.
 
 - Raspberry Pi Pico Clone
 - Ethernet (W55RP20 Hardwired TCP/IP CHIP)
@@ -52,7 +53,7 @@ W5500-EVB-Pico is a microcontroller evaluation board based on the Raspberry Pi R
 
 ### Pin-out
 
-![W5500-EVB-RP2040](/img/products/w55rp20-evb-pico/w55rp20-evb-pico-pinout.png)
+![W55RP20-EVB-PICO](/img/products/w55rp20-evb-pico/w55rp20-evb-pico-pinout.png)
 
 W55RP20-EVB-Pico pinout is directly connected to the GPIO of RP2040 as shown in the above picture. It has the same pinout as the Raspberry Pi Pico board. However, GPIO17, GPIO20, GPIO21, GPIO22, GPIO23, GPIO24, and GPIO25 are not available due to the connection inside the board.
 
