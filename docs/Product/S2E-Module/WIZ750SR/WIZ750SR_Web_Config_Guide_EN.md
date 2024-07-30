@@ -30,7 +30,7 @@ date: 2024-07-30
 ### Hardware
 
   - WIZ750SR
-
+    - [WIZ750SR](./WIZ750SR/WIZ750SR.md)
 
 
 
@@ -54,7 +54,7 @@ date: 2024-07-30
 
 After connecting the power and Ethernet cables to the WIZ750SR, run the Configuration Tool you downloaded from the 'Software' section above. Then, click the buttons in the order shown in the picture below to set the IP range to the same as the user's PC.
 
-<img src="/img/products/wiz750sr/usermanual/webserver_config_1.png" width="600" /><br /><br />
+<img src="/img/products/wiz750sr/webserver_config_1.png" width="600" /><br /><br />
 
 
 ### Step 2: Access the web server for configuration
@@ -62,7 +62,7 @@ After connecting the power and Ethernet cables to the WIZ750SR, run the Configur
 Connect to the web server at port **50003** of the S2E module address you have configured.
 
 
-<img src="/img/products/wiz750sr/usermanual/webserver_config_2.png" width="600" /><br /><br />
+<img src="/img/products/wiz750sr/webserver_config_2.png" width="600" /><br /><br />
 
 |                                                                                            
 
@@ -72,7 +72,7 @@ Connect to the web server at port **50003** of the S2E module address you have c
 
 |                                                                                               |
 | :-------------------------------------------------------------------------------------------: |
-| ![](/img/products/wiz750sr/usermanual/webserver_config_3.png) |
+| ![](/img/products/wiz750sr/webserver_config_3.png) |
 | Figure: **Click the "Get Settings" button to load the information from the WIZ750SR**                                                        |
 
 <br />
@@ -84,7 +84,7 @@ Connect to the web server at port **50003** of the S2E module address you have c
 
 |                                                                                                         |
 | :-----------------------------------------------------------------------------------------------------: |
-| ![](/img/products/wiz750sr/usermanual/webserver_config_4.png) |
+| ![](/img/products/wiz750sr/webserver_config_4.png) |
 | Figure: **Device Name Field**                                                        |
 
 <br />
@@ -92,7 +92,7 @@ Connect to the web server at port **50003** of the S2E module address you have c
 
 |                                                                                                         |
 | :-----------------------------------------------------------------------------------------------------: |
-| ![](/img/products/wiz750sr/usermanual/webserver_config_5.png) |
+| ![](/img/products/wiz750sr/webserver_config_5.png) |
 | Figure: **Network Information Field for WIZ750SR**                                                        |
 
 <br />
@@ -100,7 +100,7 @@ Connect to the web server at port **50003** of the S2E module address you have c
 
 |                                                                                                         |
 | :-----------------------------------------------------------------------------------------------------: |
-| ![](/img/products/wiz750sr/usermanual/webserver_config_6.png) |
+| ![](/img/products/wiz750sr/webserver_config_6.png) |
 | Figure: **Operation Mode and Port Field for WIZ750SR**                                                        |
 
 <br />
@@ -108,7 +108,7 @@ Connect to the web server at port **50003** of the S2E module address you have c
 
 |                                                                                               |
 | :-------------------------------------------------------------------------------------------: |
-| ![](/img/products/wiz750sr/usermanual/webserver_config_7.png) |
+| ![](/img/products/wiz750sr/webserver_config_7.png) |
 | Figure: **UART Field for WIZ750SRR**                                                        |
 
 <br />
@@ -119,5 +119,5 @@ Connect to the web server at port **50003** of the S2E module address you have c
 
 |                                                                                                |
 | :--------------------------------------------------------------------------------------------: |
-| ![](/img/products/wiz750sr/usermanual/webserver_config_8.png) |
+| ![](/img/products/wiz750sr/webserver_config_8.png) |
 | Figure: **Click "Get Settings" and save the updated information for the WIZ750SR**                                                        |
