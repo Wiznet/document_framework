@@ -1,6 +1,6 @@
 ---
 id: WIZ750SR_Web_Config_Guide_EN
-title: WIZ750SR Web Config Guide
+title: WIZ750SR Web Server Configuration Guide
 date: 2024-07-30
 ---
 
@@ -116,7 +116,7 @@ Using a web browser (e.g., Chrome), connect to the web server at port **50003** 
 |                                                                                               |
 | :-------------------------------------------------------------------------------------------: |
 | <img src="/img/products/wiz750sr/webserver_config_7.png" width="600" /> |
-| Figure: **UART Field for WIZ750SRR**                                                        |
+| Figure: **UART Field for WIZ750SR**                                                        |
 
 <br />
 <br />

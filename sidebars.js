@@ -369,6 +369,7 @@ module.exports = {
 							'Product/S2E-Module/WIZ750SR/download',
 							'Product/S2E-Module/WIZ750SR/developers-guide-EN',
 							'Product/S2E-Module/WIZ750SR/developers-guide-KO',
+							'Product/S2E-Module/WIZ750SR/WIZ750SR_Web_Config_Guide_EN',
 						],	
 					},
 					{
