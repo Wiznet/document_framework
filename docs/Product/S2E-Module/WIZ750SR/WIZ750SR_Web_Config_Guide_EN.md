@@ -15,7 +15,7 @@ date: 2024-07-30
 ## WIZ750SR Web Server Configuration Overview
 
 **WIZ750SR** supports **Web server for Configuration**.
-  > **Note** : The feature in the WIZ750SR requires a dedicated firmware update for web server configuration.
+  > **Note** : This content is available starting from F/W Version 1.4.0.
 
 
 
@@ -33,14 +33,19 @@ date: 2024-07-30
     - [WIZ750SR](./WIZ750SR/WIZ750SR.md)
 
 
-
 ### Software
+  
+  - Firmware 
+    - [Firmware Ver 1.4.0 Download Link](https://github.com/Wiznet/WIZ750SR/releases/tag/v1.4.0)
+  > **Note** : Version below 1.4.0 do not support web server configuration. **Be sure to download Version 1.4.0.**
 
-- [Firmware Download Link](https://maker.wiznet.io/_lib/download.asp?path=project/20&downfile=W7500x_S2E_App_WebServer_231205.bin)
-	
-- [Configuration Tool Download Link](https://github.com/Wiznet/WIZnet-S2E-Tool-GUI/releases)
-  > **Note** : You need a configuration tool for the firmware update.
 
+### Configuration Tool
+
+  - WIZnet S2E Configuration Tool 
+    - [Download the Latest Version](https://github.com/Wiznet/WIZnet-S2E-Tool-GUI/releases)
+      - [GitHub Repository](https://github.com/Wiznet/WIZnet-S2E-Tool-GUI)
+    > **Note** : You need a configuration tool for the firmware update.
 
 
 -----
@@ -58,9 +63,10 @@ After connecting the power and Ethernet cables to the WIZ750SR, run the Configur
 <img src="/img/products/wiz750sr/webserver_config_1.png" width="600" /><br /><br />
 
 
+
 ### Step 2: Access the web server for configuration
 
-Connect to the web server at port **50003** of the S2E module address you have configured.
+Using a web browser (e.g., Chrome), connect to the web server at port **50003** of the S2E module address you have configured.
 
 
 <img src="/img/products/wiz750sr/webserver_config_2.png" width="600" /><br /><br />
