@@ -36,8 +36,9 @@ date: 2024-07-30
 
 ### Software
 
-  - [Firmware Download Link](https://maker.wiznet.io/_lib/download.asp?path=project/20&downfile=W7500x_S2E_App_WebServer_231205.bin)
-	- [Download the Latest Version](https://github.com/Wiznet/WIZnet-S2E-Tool-GUI/releases)
+- [Firmware Download Link](https://maker.wiznet.io/_lib/download.asp?path=project/20&downfile=W7500x_S2E_App_WebServer_231205.bin)
+	
+- [Configuration Tool Download Link](https://github.com/Wiznet/WIZnet-S2E-Tool-GUI/releases)
   > **Note** : You need a configuration tool for the firmware update.
 
 
@@ -72,7 +73,7 @@ Connect to the web server at port **50003** of the S2E module address you have c
 
 |                                                                                               |
 | :-------------------------------------------------------------------------------------------: |
-| ![](/img/products/wiz750sr/webserver_config_3.png) |
+| <img src="/img/products/wiz750sr/webserver_config_3.png" width="600" /> |
 | Figure: **Click the "Get Settings" button to load the information from the WIZ750SR**                                                        |
 
 <br />
@@ -84,7 +85,7 @@ Connect to the web server at port **50003** of the S2E module address you have c
 
 |                                                                                                         |
 | :-----------------------------------------------------------------------------------------------------: |
-| ![](/img/products/wiz750sr/webserver_config_4.png) |
+| <img src="/img/products/wiz750sr/webserver_config_4.png" width="600" /> |
 | Figure: **Device Name Field**                                                        |
 
 <br />
@@ -92,7 +93,7 @@ Connect to the web server at port **50003** of the S2E module address you have c
 
 |                                                                                                         |
 | :-----------------------------------------------------------------------------------------------------: |
-| ![](/img/products/wiz750sr/webserver_config_5.png) |
+| <img src="/img/products/wiz750sr/webserver_config_5.png" width="600" /> |
 | Figure: **Network Information Field for WIZ750SR**                                                        |
 
 <br />
@@ -100,7 +101,7 @@ Connect to the web server at port **50003** of the S2E module address you have c
 
 |                                                                                                         |
 | :-----------------------------------------------------------------------------------------------------: |
-| ![](/img/products/wiz750sr/webserver_config_6.png) |
+| <img src="/img/products/wiz750sr/webserver_config_6.png" width="600" /> |
 | Figure: **Operation Mode and Port Field for WIZ750SR**                                                        |
 
 <br />
@@ -108,7 +109,7 @@ Connect to the web server at port **50003** of the S2E module address you have c
 
 |                                                                                               |
 | :-------------------------------------------------------------------------------------------: |
-| ![](/img/products/wiz750sr/webserver_config_7.png) |
+| <img src="/img/products/wiz750sr/webserver_config_7.png" width="600" /> |
 | Figure: **UART Field for WIZ750SRR**                                                        |
 
 <br />
@@ -119,5 +120,5 @@ Connect to the web server at port **50003** of the S2E module address you have c
 
 |                                                                                                |
 | :--------------------------------------------------------------------------------------------: |
-| ![](/img/products/wiz750sr/webserver_config_8.png) |
+| <img src="/img/products/wiz750sr/webserver_config_8.png" width="600" /> |
 | Figure: **Click "Get Settings" and save the updated information for the WIZ750SR**                                                        |
