@@ -13,9 +13,9 @@ W6100-EVB-Pico is a microcontroller evaluation board based on the Raspberry Pi R
 - Raspberry Pi Pico2 Clone
 - Ethernet (W6100 Hardwired TCP/IP CHIP)
 
-![w6100-evb-pico2](/img/osh/w6100-evb-pico/w6100-evb-pico-side.png)
+<!-- ![w6100-evb-pico2](/img/osh/w6100-evb-pico/w6100-evb-pico-side.png)
 
-![Powered By Raspberry Pi logo](/img/pbp-logo-small.jpg)
+![Powered By Raspberry Pi logo](/img/pbp-logo-small.jpg) -->
 
 ## Revision history
 
@@ -72,7 +72,7 @@ W6100-EVB-Pico is a microcontroller evaluation board based on the Raspberry Pi R
 
 ### Pin-out v1.0
 
-![w6100-evb-pico-pinout](/img/osh/w6100-evb-pico/w6100-evb-pico-pinout.jpg)
+<!-- ![w6100-evb-pico-pinout](/img/osh/w6100-evb-pico/w6100-evb-pico-pinout.jpg) -->
 
 W6100-EVB-Pico pinout is directly connected to the GPIO of RP2040 as shown in the picture above. It has the same pinout as the Raspberry Pi Pico board. However, GPIO16, GPIO17, GPIO18, GPIO19, GPIO20, GPIO21 are connected to W6100 inside the board. These pins enable SPI communication with W5100S to use Ethernet function. If you are using the Ethernet function, these pins cannot be used for any other purpose.
 
@@ -134,7 +134,7 @@ TBA
 
 ### W6100 Datasheet
 
-- [Download](Overview.md)
+<!-- - [Download](Overview.md) -->
 
 ### Schematic v1.0
 
@@ -153,7 +153,7 @@ TBA
 Please refer to below links to find firmware example.
 
  C/C++
-  - [Ethernet Examples](https://github.com/Wiznet/RP2350-v6-HAT-C)
+  <!-- - [Ethernet Examples](https://github.com/Wiznet/RP2350-v6-HAT-C) -->
   <!-- - [FreeRTOS Examples](https://github.com/Wiznet/RP2040-v6-HAT-FREERTOS-C) -->
 
 ### Certification
