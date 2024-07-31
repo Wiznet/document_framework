@@ -128,4 +128,4 @@ Using a web browser (e.g., Chrome), connect to the web server at port **50003** 
 |                                                                                                |
 | :--------------------------------------------------------------------------------------------: |
 | <img src="/img/products/wiz750sr/webserver_config_8.png" width="600" /> |
-| Figure: **Click "Get Settings" and save the updated information for the WIZ750SR**                                                        |
+| Figure: **Click "Set Settings" and save the updated information for the WIZ750SR**                                                        |
