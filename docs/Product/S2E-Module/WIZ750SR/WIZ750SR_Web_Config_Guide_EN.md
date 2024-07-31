@@ -15,7 +15,8 @@ date: 2024-07-30
 ## WIZ750SR Web Server Configuration Overview
 
 **WIZ750SR** supports **Web server for Configuration**.
-  > **Note** : This content is available starting from F/W Version 1.4.0.
+  > **Note** : This content is available starting from F/W Version 1.4.0. If the **Search identification code** is set, Web Server Configuration will not work.
+ 
 
 
 
