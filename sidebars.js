@@ -46,6 +46,8 @@ module.exports = {
 				link: {type: 'doc', id: 'Product/ioNIC/W55RP20/overview'},
 				items: [
 				'Product/ioNIC/W55RP20/w55rp20-evb-pico',
+				'Product/ioNIC/W55RP20/documents_md',
+				'Product/ioNIC/W55RP20/user-manual',
 				],
 				},			
 			],
