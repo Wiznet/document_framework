@@ -1,6 +1,6 @@
 ---
 id: WIZ750SR_Web_Config_Guide_EN
-title: WIZ750SR Web Server Configuration Guide
+title: WIZ750SR Web Server Configuration Guide-[EN]
 date: 2024-07-30
 ---
 
