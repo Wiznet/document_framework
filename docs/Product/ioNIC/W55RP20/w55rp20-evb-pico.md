@@ -99,7 +99,7 @@ Recommended maximum ambient temperature of operation is 70C.
 
 ### Schematic
 
-![W5500-EVB-RP2040](/img/products/w5500-evb-pico/w5500_evb_pico_schematic.png)
+![schematics-w55rp20-evb-pico](/img/products/w55rp20-evb-pico/schematics-w55rp20-evb-pico.png)
 
 ### Schematic & Part list & Gerber File
 
@@ -107,10 +107,11 @@ Recommended maximum ambient temperature of operation is 70C.
 
 ### Dimension (Unit : mm)
 
-![W5500-EVB-RP2040](/img/products/w5500-evb-pico/w5500-evb-pico-dimension.png)
+![W5500-EVB-RP2040](/img/products/w55rp20-evb-pico/w55rp20-evb-pico-dimension.png)
 
 
 ## How to buy
 
 [![WIZnetUS Online Shop, USA](/img/products/w5500-evb-pico/icons/dollar.png)](https://eshop.wiznet.io/shop/module/w5500-evb-pico/)
 [![WIZnetKorea Online Shop, Korea](/img/products/w5500-evb-pico/icons/won.png)](http://wiznetshop.io/product/detail.html?product_no=1052&cate_no=54&display_group=1)
+
