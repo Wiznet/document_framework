@@ -31,7 +31,6 @@ date: 2024-07-30
 ### Hardware
 
   - WIZ750SR
-    - [WIZ750SR](./WIZ750SR/WIZ750SR.md)
 
 
 ### Software
