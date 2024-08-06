@@ -87,13 +87,7 @@ That's the way over ethernet using the Configuration Tool.
 
 #### Hardware
 
-  - WIZ5xxSR-RP
-    - [WIZ500SR-RP](./WIZ500SR-RP/overview-en.md)
-    - [WIZ505SR-RP](./WIZ505SR-RP/overview-en.md)
-    - [WIZ510SR-RP](./WIZ510SR-RP/overview-en.md)
-  - WIZ5xxSR-RP Evaluation Board (WIZ510SR-RP can be used without WIZ5xxSR-RP Evaluation Board.)
-  - 5V Power adapter
-  - Cables (Ethernet / Serial)
+
 
 
 
@@ -113,10 +107,6 @@ That's the way over ethernet using the Configuration Tool.
 #### Step 1: Setup Environment to Use WIZ5xxSR-RP
 
 The process of setup environment to use the WIZ5xxSR-RP each product is available at the **'Getting Started'** document below.
-
-  - [Getting Started: WIZ500SR-RP](./WIZ500SR-RP/getting-started-en.md)
-  - [Getting Started: WIZ505SR-RP](./WIZ505SR-RP/getting-started-en.md)
-  - [Getting Started: WIZ510SR-RP](./WIZ510SR-RP/getting-started-en.md)
 
 
 
