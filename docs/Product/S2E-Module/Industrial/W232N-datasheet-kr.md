@@ -98,7 +98,7 @@ W232N의 패키지는 아래와 같이 구성되어있습니다.
 
 -   W232N은 TXD, RXD, CTS, RTS, DTR, DSR 총 6개의 신호를 지원합니다.
 
-<img src="/img/products/w232n/serial.png" width="600" />
+<img src="/img/products/w232n/Serial.png" width="600" />
 
 
 |                                                                       |
