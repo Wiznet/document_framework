@@ -10,20 +10,20 @@ date: 2022-06-09
 
 
 
-## W232N AT 커맨드 개요
+## W232N AT Command Overview
 
-W232N은 제품 설정과 제어를 위한 다양한 명령어를 제공합니다. 각 명령어는 **2바이트 알파벳 문자열로 구성되며 모두 대문자**입니다. 사용자는 이러한 명령어를 사용하여 직렬 장치나 주 MCU에 스크립트를 추가하거나 네트워크를 통해 W232N 모듈을 제어하기 위한 프로그램을 만들 수 있습니다.
+W232N provides various commands for the product’s setting and control. Each command is composed of a **2 byte alphabet character strings** and all **capital letters**. By using these commands users can add script to the serial device or main MCU for product settings, and also can create a program for controlling the W232N module via network.
 
-각 명령어는 매개변수에 따라 읽기/쓰기 작업을 수행할 수 있으며 읽기 전용 명령어도 있습니다.
+Each command can operate read/write depending on the parameter, and there is also a read only command.
 
-명령어 입력 및 직렬 포트 장치의 명령 모드 전환은 **데이터 UART 포트**를 사용하여 수행됩니다. **디버그 UART** 포트는 명령어 입력이나 작동을 지원하지 않습니다.
+Entering the command and switching the command mode of the serial port device is done using the **data UART** port. The **debug UART** port is not supported for command entering or operation.
 
-직렬 및 이더넷 네트워크를 통해 제품 설정을 위한 명령어로 동일한 2바이트 문자열을 사용하지만, 송신 프레임 형식에는 차이가 있습니다. 따라서 이 문서에서는 모든 명령어와 각 송신 방법 및 프레임 형식에 대한 설명 및 가이드를 다룹니다.
+Identical 2-byte character strings is used for setting the product with commands via serial and Ethernet network, but there will a distinction of the sending frame form. Thus this document will cover explanations of all commands and guides for each sending methods and its form of frames.
 
-다른 명령 모드는 다음과 같습니다.
+The different command modes are as following.
 
-  - [**시리얼 커맨드 모드로 디바이스 제어**](#control-device-using-serial-command-mode)
-  - [**이더넷 네트워크를 통한 디바이스 제어**](#control-device-using-ethernet-network)
+  - [**Control Device Using Serial Command Mode**](#control-device-using-serial-command-mode)
+  - [**Control Device Using Ethernet Network**](#control-device-using-ethernet-network)
 
 1. The **Configuration tool** provided by WIZnet uses the identical command set to control W232N.
 
