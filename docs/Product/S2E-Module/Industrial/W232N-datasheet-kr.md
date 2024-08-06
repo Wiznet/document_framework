@@ -81,7 +81,7 @@ W232N의 패키지는 아래와 같이 구성되어있습니다.
 
 |                                                                       |
 | --------------------------------------------------------------------- |
-| ![](/img/products/w232n/serial.png)                                   |
+| ![](/img/products/w232n/w232n_pinout.png)                                   |
 | ***W232N Revision 1.0 DB9M port***                                    |
 
 | Pin Number | Signal | Description                  |
