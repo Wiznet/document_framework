@@ -14,7 +14,7 @@ description: W232N is a industrial serial to Ethernet module using the W55RP20
 
 ## 특징
 
-- RS232 <-> 이더넷 프로토콜 변환 디바이스
+- RS232 to 이더넷 프로토콜 변환 디바이스
 - 기존 시리얼 장치에 이더넷을 쉽게 구현할 수 있도록 지원
 - KC,FCC 인증으로 높은 시스템 안정성과 신뢰성 보장
 - 10/100Mbps 이더넷과 최대 230kbps 시리얼 속도 지원
