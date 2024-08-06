@@ -155,13 +155,13 @@ W232N은 DC Jack, 터미널 블럭, PoE 지원 제품일 경우 RJ45 Jack을 통
 정상 동작시 POWER LED가 빨간색으로 점등하고 RUN LED가 1초 주기로 점멸하면서 W232N의 FW가 정상적으로 부팅되었음을 확인할 수 있습니다.
 
 ## 매뉴얼
-- [Config-tool 사용법](./Config-tool-Guide-kr.md) <br>
-- [Web config 사용법](./Web_Config_Guide_KO.md) <br>
-- [AT 커맨드 사용법](./command-manual-kr.md) <br>
-- [MQTT 연결 방법](./mqtt-connection-guide-kr.md) <br>
-- [SSL 연결 방법](./ssl-connection-guide-kr.md) <br>
-- [Modbus 연결 방법](./modbus-connection-guide-kr.md) <br>
-- [FW 업데이트 가이드](./firmware-update-guide-kr.md) <br>
+- [Config-tool 사용법](./Config-tool-Guide-kr.md)
+- [Web config 사용법](./Web_Config_Guide_KO.md)
+- [AT 커맨드 사용법](./command-manual-kr.md)
+- [MQTT 연결 방법](./mqtt-connection-guide-kr.md)
+- [SSL 연결 방법](./ssl-connection-guide-kr.md)
+- [Modbus 연결 방법](./modbus-connection-guide-kr.md)
+- [FW 업데이트 가이드](./firmware-update-guide-kr.md)
 
 
 ## 인증
