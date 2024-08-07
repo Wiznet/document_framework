@@ -10,7 +10,7 @@ date: 2022-06-09
 
 
 
-## W232N AT 커맨드 개요
+## W232N 커맨드 모드 개요
 
 W232N은 제품 설정과 제어를 위한 다양한 명령어를 제공합니다. 각 명령어는 **2바이트 알파벳 문자열로 구성되며 모두 대문자**입니다. 사용자는 이러한 명령어를 사용하여 직렬 장치나 주 MCU에 스크립트를 추가하거나 네트워크를 통해 W232N 모듈을 제어하기 위한 프로그램을 만들 수 있습니다.
 
@@ -22,22 +22,22 @@ W232N은 제품 설정과 제어를 위한 다양한 명령어를 제공합니�
 
 다른 명령 모드는 다음과 같습니다.
 
-  - [**시리얼 커맨드 모드로 디바이스 제어**](#control-device-using-serial-command-mode)
-  - [**이더넷 네트워크를 통한 디바이스 제어**](#control-device-using-ethernet-network)
+  - [**시리얼 커맨드 모드로 디바이스 제어**](#시리얼-커맨드를-사용한-디바이스-제어)
+  - [**이더넷 네트워크를 통한 디바이스 제어**](#이더넷-네트워크를-통한-디바이스-제어)
 
-1. The **Configuration tool** provided by WIZnet uses the identical command set to control W232N.
+1. **Configuration tool**또한 디바이스를 검색 및 세팅시 동일한 커맨드를 사용합니다.
 
-2. For example, when the **MC** command for checking the MAC address and the **VR** command for checking the firmware are identical.
+2. 예를 들어, MAC 주소를 확인하기 위한 **MC** 명령과 펌웨어를 확인하기 위한 **VR** 명령이 동일합니다.
 
 
 
-### Abbreviations
+### 용어
 
-| Abbreviation | Description                                                                        |
+| 용어 | 설명                                                                        |
 | :----------: | ---------------------------------------------------------------------------------- |
-| CR           | Carriage Return, moves the cursor to the far left(starting) position ('\\r', 0x0D) |
-| LF           | Line Feed, moves the cursor to the new line below ('\\n', 0x0A)                    |
-| N            | Number of commands                                                                 |
+| CR           | 캐리지 리턴, 커서를 맨 왼쪽(시작) 위치로 이동합니다. ('\\r', 0x0D) |
+| LF           | 라인 피드, 커서를 아래의 새 줄로 이동합니다. ('\\n', 0x0A)                    |
+| N            | 명령어 개수                                                                 |
 | RW           | Read / Write                                                                       |
 | RO           | Read only                                                                          |
 | WO           | Write only                                                                         |
@@ -48,99 +48,80 @@ W232N은 제품 설정과 제어를 위한 다양한 명령어를 제공합니�
 
 
 
-## Usage of Command Set
+## 명령 집합 사용
 
 
 
-### Control Device Using Serial Command Mode
+### 시리얼 커맨드를 사용한 디바이스 제어
 
-You can use either of the two methods below to enter serial command mode.
+아래 두 가지 방법 중 하나를 사용하여 시리얼 명령 모드로 들어갈 수 있습니다.
 
-**1. Enter command mode using hardware trigger pin**
+**1. 모드 스위치를 사용하여 시리얼 커맨드 모드로 진입**
 
-  - Use the HW\_TRIG pin of the W232N (For the EVB, HW\_TRIG switch) to enter command mode.
-  - Upon turning the power on, check the pin to enter command mode. Use the trigger pin to re-enter the command mode when rebooting.
-  - The trigger pin should be pull-up, and operates as low active.
-  - This method is used when users wish to change settings while the product operation is initiated.
+  - 모드 선택 슬라이드 스위치를 AT MODE 쪽으로 위치시킵니다.
 
-```
-  - Set the hardware trigger pin(HW_TRIG) to Low.
-    · When using the EVB, place the HW_TRIG switch to Command.
-
-  - Power on the W232N.
-    · When operating in serial command mode, users can check the following message via Debug UART port.
+  - 디바이스를 리셋 시키거나 디바이스를 재가동합니다.
+    · 디바이스의 Serial debug가 활성화 되어있다면 시리얼 커맨드 모드 진입시 아래와 같은 메시지가 디버그 포트로 출력됩니다.
     · <code>> SEG:AT Mode </code>
 
-  - Enter the Command and Parameter that needs setting via serial port((Data UART port)).
-
-  - Switch to data transmission mode(GW mode) using [[#ex|EX]] command.
-    · If the switch to data transmission mode is successful, users can check the following message via Debug UART port.
+  - 시리얼 커맨드 모드를 종료하려먼 EX[CR][LF] 명령어를 사용합니다.
+    · 디바이스의 Serial debug가 활성화 되어있다면 시리얼 커맨드 모드 진입시 아래와 같은 메시지가 디버그 포트로 출력됩니다.
     · <code>> SEG:GW Mode </code>
-```
 
-**2. Enter command mode using command mode switch code**
 
-  - Users can enter command mode using the command mode switch code provided by W232N.
-  - The command mode switch codes can be used only if it is enabled in the configuration tool. (**default: Enabled**)
-  - The command mode switch code is composed of 3-byte Hex codes, and can be changed to a different value if needed. The code only accepts Hex value. (**default: Hex \[2B\]\[2B\]\[2B**\])
+**2. command mode switch code를 사용한 커맨드 모드 진입**
 
-```
-  - Check if 'Serial command mode switch code' is enabled at the configuration tool and the 3-bytes 'command mode switch code'.
+  - 출고 세팅은 command mode switch code가 활성화 되어있고 코드는 HEX로 [2B][2B][2B]가 기본으로 설정되어있습니다.유저가 Config-tool에서 다른 코드로 변경 가능합니다.
+  - HEX [2B][2B][2B]는 ascii +++ 이므로 문자열로 +++ 입력하셔도 진입 가능합니다.
 
-  - Enter the ‘command mode switch code’ via data UART port to change modes.
-    · Read below what you need to be cautious about when switching to command mode.
-    · When operating in serial command mode, users can check the following message via Debug UART port.
+  - 시리얼 포트로 command mode switch code를 입력합니다.
+    · 디바이스의 Serial debug가 활성화 되어있다면 시리얼 커맨드 모드 진입시 아래와 같은 메시지가 디버그 포트로 출력됩니다.
     · <code>> SEG:AT Mode </code>
 
   - Enter the Command and Parameter that needs setting via serial port.
 
-  - Use [[#ex|EX]] command to switch to data transmission mode.
-    · When operating in data transmission mode, users can check the following message via Debug UART port.
+  - 시리얼 커맨드 모드를 종료하려먼 EX[CR][LF] 명령어를 사용합니다.
+    · 디바이스의 Serial debug가 활성화 되어있다면 시리얼 커맨드 모드 진입시 아래와 같은 메시지가 디버그 포트로 출력됩니다.
     · <code>> SEG:GW Mode </code>
-```
 
-1. Command mode switch trigger code via Data UART port
 
-2. Char '+++'
+**command mode switch code를 사용하여 커맨드 모드 진입시 주의사항**
 
-**Please be cautious when using the trigger code to switch command mode.**
+  - 'command mode switch code'의 시작과 끝에 **최소 500ms**의 시간 간격이 있어야 전환 코드로 인식할 수 있습니다.
 
-```
-  - There has to be a time gap of **at least 500ms** at the start and end of the ‘command mode switch code’ in order it to be read as switch code.
+  - ‘3-byte command mode switch code’의 각 바이트 사이 입력 시간은 **500ms 미만**이어야 합니다.<br />예시) command mode switch code가 [2B][2B][2B] 일 때, [2B]와 [2B]의 사이는 **500ms 미만**
 
-  - The entering time in between each byte of the ‘3-byte command mode switch code’ has to be **below 500ms**.
+  - 'command mode switch code' 끝에 CR 또는 LF를 추가하지 않습니다.(반대로 모드 전환 후 커맨드 명령은 CR 또는 LF로 끝나야 합니다).
 
-  - Do not add CR or LF at the end of the command mode switch code((Conversely, the serial command after mode switch must end with CR or LF.)).
-
-  - The default values of 1 and 2 above are **500ms**; these values change to the timer value if the timer value of the serial data packing option is set to a certain value.
-```
+  - 'command mode switch code' 시작과 끝 시간 간격과 ‘3-byte command mode switch code’ 사이 입력 시간은 데이터 패킹 옵션의 타이머 값이 설정되어 있다면 해당 값으로 변경됩니다.
 
 
 
-#### Serial Command Frame Format
 
-You must include CR and LF at the end of each command. CR and LF must be included at the end of each commands when multiple commands are entered simultaneously.
+#### 시리얼 커맨드 프레임 형식
+
+각 명령의 끝에 CR과 LF를 포함해야 합니다. 여러 명령을 동시에 입력하는 경우 각 명령의 끝에 CR과 LF를 포함해야 합니다.
 
 
 
-##### Get Request
+##### 시리얼 커맨드를 입력하여 디바이스의 응답을 받는 경우
 
     [2-bytes Command Code] [CR] [LF]
 
-  - Enter command without parameter.
-  - The response relevant to the command will return.
+  - 매개 변수 없이 명령을 입력합니다.
+  - 명령과 관련된 응답이 반환됩니다.
 
 
 
-##### Set Request
+##### 시리얼 커맨드를 입력하여 디바이스의 세팅을 변경할 경우
 
     [2-bytes Command Code] [Parameters] [CR] [LF]
 
-  - Enter the command and parameters you wish to set.
-  - There will be no particular response and the field value relevant to the command will change instantly.
-  - You have to use the **[SV](#sv)** command in order to save settings, and use the **[RT](#rt)** command to change IP allocation methods or other initial operation changes.
+  - 설정하려는 명령과 매개변수를 입력합니다.
+  - 특별한 응답은 없으며 명령과 관련된 필드 값이 즉시 변경됩니다.
+  - 정을 저장하려면 **[SV](#sv)** 명령을 사용해야 하며, IP 할당 방법이나 기타 초기 작업 변경을 변경하려면 **[RT](#rt)** 명령을 사용해야 합니다.
 
-\* Note: You can check the Echoback of UART command via **[EC](#ec)** command.
+\* 참고: **[EC](#ec)** 명령을 통해 UART 명령의 에코백을 확인할 수 있습니다.
 
 
 
@@ -148,34 +129,30 @@ You must include CR and LF at the end of each command. CR and LF must be include
 
 
 
-### Control Device Using Ethernet Network
+### 이더넷 네트워크를 통한 디바이스 제어
 
-Users can control or monitor W232N via Ethernet by using the following commands. The user must use **UDP** or **TCP client** to send commands, and the port number for processing the commands is **50001**.
+**명령 전송을 위한 네트워크 정보:** **UDP/TCP 서버 : 50001** (사용자는 UDP/TCP 클라이언트를 통해 장치로 명령을 전송해야 합니다.)
 
-**Network information for command transmission:** **UDP / TCP Server : 50001** (User can send the commands by UDP / TCP Client to device)
+#### 이더넷 커맨드 프레임 형식
 
+이더넷을 통해 W232N을 제어할 때는 명령 코드를 보내기 전에 두 가지 추가 명령이 필요합니다. 다른 모든 설정과 조작은 데이터 포트를 통해 시리얼 명령 코드를 전송할 때와 동일합니다.
 
-
-#### Ethernet Command Frame Format
-
-Two additional commands are required before sending the command code when controlling the W232N via Ethernet. All other settings and operations are the same as when sending the serial command code via data UART port.
-
-The two additional commands are **MA** and **PW**.
+두 가지 추가 명령은 **MA**와 **PW**입니다.
 
   - **\[MA\] command**
-    - This field shows the **product’s MAC address**.
-    - In both cases of TCP and UDP, 6-byte MAC address must be included after the 2-byte MA command.
-        - When users wish to broadcast only Get Request via UDP, the relevant field value can be set as the Broadcast MAC address. Users can receive responses from multiple peers. The search function of the configuration tool is implemented like this
+    - 이 필드에는 **제품의 MAC 주소**가 표시됩니다.
+    - TCP와 UDP의 경우 모두 2바이트 MA 명령 뒤에 6바이트 MAC 주소를 포함해야 합니다.
+        - 사용자가 UDP를 통해 Get Request만 브로드캐스트하려는 경우, 관련 필드 값을 브로드캐스트 MAC 주소로 설정할 수 있습니다. 사용자는 여러 피어로부터 응답을 받을 수 있습니다. 설정 도구의 검색 기능은 다음과 같이 구현됩니다.
 
   - **\[PW\] command**
 
-1. Users must use UDP or TCP client because the UDP or TCP server is operating to handle the device commands.
+1. 이더넷 커맨드를 사용하기 위해서는 사용자가 UDP 또는 TCP 클라이언트를 사용해야 합니다.
 
-2. Data is sent to the broadcast IP address 255.255.255.255, and data can be sent to all peers in the same network.
+2. 데이터는 브로드캐스트 IP 주소 255.255.255.255로 전송되며, 동일한 네트워크에 있는 모든 피어에게 데이터를 전송할 수 있습니다.
 
 3. FF:FF:FF:FF:FF:FF
 
-4. Hex 0x20 is ASCII code, which means blank.
+4. Hex 0x20은 공백을 의미하는 ASCII 코드입니다.
 
 
 
