@@ -39,16 +39,40 @@ W232N의 패키지는 아래와 같이 구성되어있습니다.
 
 ### 외관
 
-<div style={{ display: 'flex', justifyContent: 'space-around', alignItems: 'center' }}>
-  <img src="/img/products/w232n/LED.png" width="150" alt="W232N Revision 1.0 LED" />
-  <img src="/img/products/w232n/Front.png" width="300" alt="W232N Revision 1.0 Front" />
-  <img src="/img/products/w232n/Back.png" width="300" alt="W232N Revision 1.0 Back" />
-</div>
+|                                                                       |
+| --------------------------------------------------------------------- |
+| ![](/img/products/w232n/Front.png) |
+| ***W232N Revision 1.0 Front***                                        |
+| <img src="/img/products/w232n/Front.png" width="500" />               |
+| ***W232N Revision 1.0 Front***                                        |
 
-<div style={{ display: 'flex', justifyContent: 'space-around', alignItems: 'center' }}>
-  <img src="/img/products/w232n/RJ45.png" width="200" alt="W232N Revision 1.0 RJ45,power jack" />
-  <img src="/img/products/w232n/DSUB.png" width="200" alt="W232N Revision 1.0 DSUB" />
-</div>
+|                                                                       |
+| --------------------------------------------------------------------- |
+| ![](/img/products/w232n/Back.png) |
+| ***W232N Revision 1.0 Back***                                         |
+| <img src="/img/products/w232n/Back.png" width="500" />                |
+| ***W232N Revision 1.0 Back***                                         |
+
+|                                                                       |
+| --------------------------------------------------------------------- |
+| ![](/img/products/w232n/LED.png)                                      |
+| ***W232N Revision 1.0 LED***                                          |
+| <img src="/img/products/w232n/LED.png" width="400" />                 |
+| ***W232N Revision 1.0 LED***                                          |
+
+|                                                                       |
+| --------------------------------------------------------------------- |
+| ![](/img/products/w232n/RJ45.png) |
+| <img src="/img/products/w232n/RJ45.png" width="300" />                |
+| ***W232N Revision 1.0 RJ45,power jack***                              |
+
+|                                                                       |
+| --------------------------------------------------------------------- |
+| ![](/img/products/w232n/DSUB.png) |
+| ***W232N Revision 1.0 DSUB***                                         |
+| <img src="/img/products/w232n/DSUB.png" width="300" />                |
+| ***W232N Revision 1.0 DSUB***                                         |
+
 
 <!--
 ### 치수
