@@ -40,26 +40,14 @@ W232N의 패키지는 아래와 같이 구성되어있습니다.
 ### 외관
 
 <div style={{ display: 'flex', justifyContent: 'space-around', alignItems: 'center' }}>
-  <div>
-    <img src="/img/products/w232n/LED.png" width="200" alt="W232N Revision 1.0 LED" />
-    <p>W232N Revision 1.0 LED</p>
-  </div>
-  <div>
-    <img src="/img/products/w232n/Front.png" width="300" alt="W232N Revision 1.0 Front" />
-    <p>W232N Revision 1.0 Front</p>
-  </div>
-  <div>
-    <img src="/img/products/w232n/Back.png" width="300" alt="W232N Revision 1.0 Back" />
-    <p>W232N Revision 1.0 Back</p>
-  </div>
-  <div>
-    <img src="/img/products/w232n/RJ45.png" width="300" alt="W232N Revision 1.0 RJ45,power jack" />
-    <p>W232N Revision 1.0 RJ45,power jack</p>
-  </div>
-  <div>
-    <img src="/img/products/w232n/DSUB.png" width="300" alt="W232N Revision 1.0 DSUB" />
-    <p>W232N Revision 1.0 DSUB</p>
-  </div>
+  <img src="/img/products/w232n/LED.png" width="150" alt="W232N Revision 1.0 LED" />
+  <img src="/img/products/w232n/Front.png" width="300" alt="W232N Revision 1.0 Front" />
+  <img src="/img/products/w232n/Back.png" width="300" alt="W232N Revision 1.0 Back" />
+</div>
+
+<div style={{ display: 'flex', justifyContent: 'space-around', alignItems: 'center' }}>
+  <img src="/img/products/w232n/RJ45.png" width="200" alt="W232N Revision 1.0 RJ45,power jack" />
+  <img src="/img/products/w232n/DSUB.png" width="200" alt="W232N Revision 1.0 DSUB" />
 </div>
 
 <!--
