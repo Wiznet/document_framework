@@ -87,9 +87,9 @@ W232N의 패키지는 아래와 같이 구성되어있습니다.
 | 1          | DCD    | NC                           |
 | 2          | RXD    | Receive Data                 |
 | 3          | TXD    | Transmit Data                |
-| 4          | DTR    | Transmit Data                |
+| 4          | DTR    | Data Terminal Ready          |
 | 5          | GND    | System Ground(Signal Ground) |
-| 6          | DSR    | Receive Data                 |
+| 6          | DSR    | Data Set Ready               |
 | 7          | RTS    | Request To Send              |
 | 8          | CTS    | Clear To Send                |
 | 9          | RI     | NC                           |

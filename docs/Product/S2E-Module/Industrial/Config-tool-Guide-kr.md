@@ -10,7 +10,7 @@ description: W232N is a industrial serial to Ethernet module using the W55RP20
 
 본 문서는 Config-tool의 자세한 사용법에 대한 내용입니다.
 
-## Config tool 사용
+## Config tool 지원 목록 및 다운로드
 
 위즈네트 Configuration tool은 네트워크 상에서 제품의 **검색, 설정 변경, 펌웨어 업로드** 등을 지원하는 설정 툴 입니다.
 * [**WIZnet-S2E-Tool-GUI 지원 장치 목록**](https://github.com/Wiznet/WIZnet-S2E-Tool-GUI#support-devices)
@@ -24,7 +24,7 @@ Python 기반으로 제작되어 OS 종류에 관계 없이 실행 가능합니�
   - **최신 버전 다운로드: [WIZnet-S2E-Tool-GUI Github repository: Release](https://github.com/Wiznet/WIZnet-S2E-Tool-GUI/releases)**
 
 
-### Configuration Tool Layout
+## Configuration Tool Layout
 
 프로그램을 설치하여 실행하면 다음과 같은 실행 화면을 확인 할 수 있습니다.
 
@@ -35,7 +35,7 @@ Python 기반으로 제작되어 OS 종류에 관계 없이 실행 가능합니�
 
 설정 프로그램은 위 그림과 같이 기능 별로 나눌 수 있습니다.
 
-#### ① 상단 Icon Menu
+### ① 상단 Icon Menu
 
 
 - Configuration tool 상단에 위치하며, 제품의 검색 / 펌웨어 업로드 / 재시작 / 초기화 등을 수행 할 수
@@ -108,7 +108,7 @@ Static 모드 (직접 IP 할당) 사용 시, 다음 예와 같이 설정 바랍�
 
   - Configuration tool을 종료합니다.
 
-#### ② Network Interface configuration
+### ② Network Interface configuration
 
   - 여러 종류의 네트워크 어댑터를 사용하는 경우, 어댑터 리스트와 사용 중인 대역이 표시되며, 환경에 따라 사용할 네트워크 대역을 선택할 수 있습니다.<br />
   
@@ -119,7 +119,7 @@ Static 모드 (직접 IP 할당) 사용 시, 다음 예와 같이 설정 바랍�
 
 
 
-#### ③ 검색된 Device List
+### ③ 검색된 Device List
 
   |                                                                                |
   | ------------------------------------------------------------------------------ |
@@ -131,7 +131,13 @@ Static 모드 (직접 IP 할당) 사용 시, 다음 예와 같이 설정 바랍�
   - 각각의 디바이스는 MAC 주소와 장치명으로 구분되어 표시됩니다.
   - 검색된 디바이스를 클릭하여 선택합니다.
 
-#### ④ Search ID code & Search method
+### ④ Search ID code & Search method
+
+  |                                                                                |
+  | ------------------------------------------------------------------------------ |
+  | ![](/img/products/w232n/Search_ID.png) |
+  | Figure: **Search ID code & Search method**                                     |
+
 - Search ID code
   - 검색 ID 코드(Search identification code)가 설정된 경우 code를 입력하기 위한 부분입니다.
   - 제품 검색 시 설정된 동일 코드가 입력 되어야만 제품 리스트에 표시됩니다.
@@ -141,12 +147,17 @@ Static 모드 (직접 IP 할당) 사용 시, 다음 예와 같이 설정 바랍�
   - UDP broadcast는 망 내 모듈 검색, 다수의 모듈 제품 검색 가능합니다.
   - TCP unicast는 특정 디바이스의 IP와 50001포트를 사용해 해당 디바이스 1대만 검색합니다. <br />공유기의 포트 포워딩 기능과 같이 사용하면 외부 망에서 디바이스 검색 및 세팅 변경이 가능합니다.
 
-#### ⑤ Status bar
+### ⑤ Status bar
+
+  |                                                                                |
+  | ------------------------------------------------------------------------------ |
+  | ![](/img/products/w232n/status.png) |
+  | Figure: **Status bar**                                     |
 
   - 검색 동작의 과정 및 결과를 표시합니다.<br />이 때, 장치가 다수 일 경우 사용자가 선택한 장치의 MAC 주소를 함께 표시합니다.
   - 펌웨어 업데이트 수행 시, 진행 현황 표시(Progress bar)를 함께 나타냅니다.
 
-#### ⑥ General options
+### ⑥ General options
 
   - 제품 상세 설정 확인 및 변경
   - Basic settings / Options / MQTT option / Certificate manager 탭으로 구성 (W232N 기준)
@@ -252,7 +263,7 @@ Static 모드 (직접 IP 할당) 사용 시, 다음 예와 같이 설정 바랍�
       - Load File : 미리 저장한 Root CA file을 불러옴
       - Save to device : 불러온 파일을 디바이스에 저장
 
-#### ⑦ channel options
+### ⑦ channel options
 
 |                                                                                      |
 | ------------------------------------------------------------------------------------ |
