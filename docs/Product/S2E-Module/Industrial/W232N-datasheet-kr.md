@@ -39,11 +39,12 @@ W232N의 패키지는 아래와 같이 구성되어있습니다.
 
 ### 외관
 
-<div style="display: flex; justify-content: space-around; align-items: center;">
+<div style={{ display: 'flex', justifyContent: 'space-around', alignItems: 'center' }}>
   <img src="/img/products/w232n/Front.png" width="300" alt="W232N Revision 1.0 Front" />
   <img src="/img/products/w232n/Back.png" width="300" alt="W232N Revision 1.0 Back" />
   <img src="/img/products/w232n/LED.png" width="100" alt="W232N Revision 1.0 LED" />
 </div>
+
 
 |                                                                       |
 | --------------------------------------------------------------------- |
