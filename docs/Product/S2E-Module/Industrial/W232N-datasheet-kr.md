@@ -41,35 +41,27 @@ W232N의 패키지는 아래와 같이 구성되어있습니다.
 
 |                                                                       |
 | --------------------------------------------------------------------- |
-| ![](/img/products/w232n/Front.png) |
-| ***W232N Revision 1.0 Front***                                        |
-| <img src="/img/products/w232n/Front.png" width="500" />               |
+| <img src="/img/products/w232n/Front.png" width="400" />               |
 | ***W232N Revision 1.0 Front***                                        |
 
 |                                                                       |
 | --------------------------------------------------------------------- |
-| ![](/img/products/w232n/Back.png) |
-| ***W232N Revision 1.0 Back***                                         |
-| <img src="/img/products/w232n/Back.png" width="500" />                |
+| <img src="/img/products/w232n/Back.png" width="400" />                |
 | ***W232N Revision 1.0 Back***                                         |
 
 |                                                                       |
 | --------------------------------------------------------------------- |
-| ![](/img/products/w232n/LED.png)                                      |
-| ***W232N Revision 1.0 LED***                                          |
-| <img src="/img/products/w232n/LED.png" width="400" />                 |
+| <img src="/img/products/w232n/LED.png" width="350" />                 |
 | ***W232N Revision 1.0 LED***                                          |
 
 |                                                                       |
 | --------------------------------------------------------------------- |
-| ![](/img/products/w232n/RJ45.png) |
+| ![](/img/products/w232n/RJ45.png)                                     |
 | <img src="/img/products/w232n/RJ45.png" width="300" />                |
 | ***W232N Revision 1.0 RJ45,power jack***                              |
 
 |                                                                       |
 | --------------------------------------------------------------------- |
-| ![](/img/products/w232n/DSUB.png) |
-| ***W232N Revision 1.0 DSUB***                                         |
 | <img src="/img/products/w232n/DSUB.png" width="300" />                |
 | ***W232N Revision 1.0 DSUB***                                         |
 
@@ -100,9 +92,6 @@ W232N의 패키지는 아래와 같이 구성되어있습니다.
 | 7          | RTS    | Request To Send              |
 | 8          | CTS    | Clear To Send                |
 | 9          | RI     | NC                           |
-
--   W232N은 TXD, RXD, CTS, RTS, DTR, DSR 총 6개의 신호를 지원합니다.
-
 <img src="/img/products/w232n/Serial.png" width="600" />
 
 
