@@ -1,6 +1,6 @@
 ---
 id: W232N-datasheet-kr
-title: W232N-datasheet-kr
+title: W232N datasheet-[KR]
 date: 2024-07-30
 keywords: [wiznet, w55rp20,w232n datasheet, hardwired tcp/ip,serial-to-ethernet, w5500, rp2040]
 description: W232N is a industrial serial to Ethernet module using the W55RP20

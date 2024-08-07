@@ -1,6 +1,6 @@
 ---
-id: ssl-connection-guide
-title: SSL Connection Guide
+id: ssl-connection-guide-en
+title: SSL Connection Guide-[EN]
 date: 2022-06-28
 ---
 

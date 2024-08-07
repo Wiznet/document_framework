@@ -1,6 +1,6 @@
 ---
-id: mqtt-connection-guide
-title: MQTT Connection Guide
+id: mqtt-connection-guide-kr
+title: MQTT Connection Guide-[KR]
 date: 2022-06-28
 ---
 

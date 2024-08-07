@@ -1,6 +1,6 @@
 ---
-id: command-manual
-title: Command Manual
+id: command-manual-kr
+title: Command Manual-[KR]
 date: 2022-06-09
 ---
 

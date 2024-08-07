@@ -1,6 +1,6 @@
 ---
-id: WIZ750SR_Web_Config_Guide_EN
-title: WIZ750SR Web Server Configuration Guide-[EN]
+id: Web_Config_Guide_EN
+title: Web Server Configuration Guide-[EN]
 date: 2024-07-30
 ---
 
@@ -12,9 +12,9 @@ date: 2024-07-30
 
 
 
-## WIZ750SR Web Server Configuration Overview
+## W232N Web Server Configuration Overview
 
-**WIZ750SR** supports **Web server for Configuration**.
+**W232N** supports **Web server for Configuration**.
   > **Note** : This content is available starting from F/W Version 1.4.0. If the **Search identification code** is set, Web Server Configuration will not work.
  
 
@@ -30,7 +30,7 @@ date: 2024-07-30
 
 ### Hardware
 
-  - WIZ750SR
+  - W232N
 
 
 ### Software
@@ -52,13 +52,13 @@ date: 2024-07-30
 
 
 
-## How to Configure in WIZ750SR Web server
+## How to Configure in W232N Web server
 
 
 
 ### Step 1: Setup the S2E to an IP in the same range as the PC
 
-After connecting the power and Ethernet cables to the WIZ750SR, run the Configuration Tool you downloaded from the 'Software' section above. Then, click the buttons in the order shown in the picture below to set the IP range to the same as the user's PC.
+After connecting the power and Ethernet cables to the W232N, run the Configuration Tool you downloaded from the 'Software' section above. Then, click the buttons in the order shown in the picture below to set the IP range to the same as the user's PC.
 
 <img src="/img/products/wiz750sr/webserver_config_1.png" width="600" /><br /><br />
 
@@ -75,12 +75,12 @@ Using a web browser (e.g., Chrome), connect to the web server at port **50003** 
 
 ### Step 3: Exploring the Configuration Feature
 
-(1) Get WIZ750SR information
+(1) Get W232N information
 
 |                                                                                               |
 | :-------------------------------------------------------------------------------------------: |
 | <img src="/img/products/wiz750sr/webserver_config_3.png" width="600" /> |
-| Figure: **Click the "Get Settings" button to load the information from the WIZ750SR**                                                        |
+| Figure: **Click the "Get Settings" button to load the information from the W232N**                                                        |
 
 <br />
 <br />
@@ -100,7 +100,7 @@ Using a web browser (e.g., Chrome), connect to the web server at port **50003** 
 |                                                                                                         |
 | :-----------------------------------------------------------------------------------------------------: |
 | <img src="/img/products/wiz750sr/webserver_config_5.png" width="600" /> |
-| Figure: **Network Information Field for WIZ750SR**                                                        |
+| Figure: **Network Information Field for W232N**                                                        |
 
 <br />
 <br />
@@ -108,7 +108,7 @@ Using a web browser (e.g., Chrome), connect to the web server at port **50003** 
 |                                                                                                         |
 | :-----------------------------------------------------------------------------------------------------: |
 | <img src="/img/products/wiz750sr/webserver_config_6.png" width="600" /> |
-| Figure: **Operation Mode and Port Field for WIZ750SR**                                                        |
+| Figure: **Operation Mode and Port Field for W232N**                                                        |
 
 <br />
 <br />
@@ -116,15 +116,15 @@ Using a web browser (e.g., Chrome), connect to the web server at port **50003** 
 |                                                                                               |
 | :-------------------------------------------------------------------------------------------: |
 | <img src="/img/products/wiz750sr/webserver_config_7.png" width="600" /> |
-| Figure: **UART Field for WIZ750SR**                                                        |
+| Figure: **UART Field for W232N**                                                        |
 
 <br />
 <br />
 <br />
 <br />
-(3) Set WIZ750SR information
+(3) Set W232N information
 
 |                                                                                                |
 | :--------------------------------------------------------------------------------------------: |
 | <img src="/img/products/wiz750sr/webserver_config_8.png" width="600" /> |
-| Figure: **Click "Set Settings" and save the updated information for the WIZ750SR**                                                        |
+| Figure: **Click "Set Settings" and save the updated information for the W232N**                                                        |

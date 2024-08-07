@@ -1,6 +1,6 @@
 ---
-id: firmware-update-guide
-title: Firmware Update Guide
+id: firmware-update-guide-kr
+title: Firmware update guide-[KR]
 date: 2022-06-28
 ---
 

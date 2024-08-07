@@ -1,6 +1,6 @@
 ---
-id: ssl-connection-guide
-title: SSL Connection Guide
+id: ssl-connection-guide-kr
+title: SSL Connection Guide-[KR]
 date: 2022-06-28
 ---
 

@@ -1,6 +1,6 @@
 ---
-id: W232N config-tool-guide(KR)
-title: W232N config-tool-guide(KR)
+id: Config-tool-Guide-en
+title: Config tool Guide-[EN]
 date: 2024-08-06
 keywords: [wiznet, w55rp20,w232n datasheet, hardwired tcp/ip,serial-to-ethernet, w5500, rp2040]
 description: W232N is a industrial serial to Ethernet module using the W55RP20

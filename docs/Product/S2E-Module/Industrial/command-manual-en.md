@@ -1,6 +1,6 @@
 ---
-id: command-manual
-title: Command Manual
+id: command-manual-en
+title: Command Manual-[EN]
 date: 2022-06-09
 ---
 

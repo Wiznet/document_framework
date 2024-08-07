@@ -1,6 +1,6 @@
 ---
-id: modbus-connection-guide
-title: Modbus Connection Guide
+id: modbus-connection-guide-en
+title: Modbus Connection Guide-[EN]
 date: 2024-05-23
 ---
 

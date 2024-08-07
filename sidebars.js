@@ -661,8 +661,8 @@ module.exports = {
 					'Product/S2E-Module/W5500S2E-S1/overview-EN',
 				
 				],
-				},
-				{	
+			},
+			{	
 				type: 'category',
 				label: 'W5500S2E-Z1',
 				link: {type: 'doc', id: 'Product/S2E-Module/W5500S2E-Z1/w5500s2e_z1'},
@@ -670,8 +670,8 @@ module.exports = {
 					//'Product/S2E-Module/W5500S2E-Z1/w5500s2e_z1',
 					'Product/S2E-Module/W5500S2E-Z1/overview-EN',
 				],
-				},
-				{	
+			},
+			{	
 				type: 'category',
 				label: 'W7500S2E-R1',
 				link: {type: 'doc', id: 'Product/S2E-Module/W7500S2E-R1/w7500s2e_r1'},
@@ -679,9 +679,37 @@ module.exports = {
 					//'Product/S2E-Module/W7500S2E-R1/w7500s2e_r1',
 					'Product/S2E-Module/W7500S2E-R1/overview-EN',
 					],
-				},
+			},
+			{
+				type: 'category',
+				label: 'Industrial',
+				items: [
+					{
+						type: 'category',
+						label: 'Common docs for using',
+						items: [
+						'Product/S2E-Module/Industrial/configuration-tool-manual-kr',
+						'Product/S2E-Module/Industrial/command-manual-kr',					
+						'Product/S2E-Module/Industrial/mqtt-connection-guide-kr',
+						'Product/S2E-Module/Industrial/ssl-connection-guide-kr',
+						'Product/S2E-Module/Industrial/modbus-connection-guide-kr',
+						'Product/S2E-Module/Industrial/firmware-update-guide-kr',
+						'Product/S2E-Module/Industrial/Web_Config_Guide_KO',
+						]
+					},
+					{
+						type: 'category',
+						label: 'W232N',
+						items: [
+						'Product/S2E-Module/Industrial/W232N-datasheet-kr',
+						]
+					},
+					
+				]
+
+			},
 			'Product/S2E-Module/wiz1000',
-		//	'Product/S2E-Module/W232N',
+		//	'Product/S2E-Module/Inustiral',
 		],
 		},
 		{
