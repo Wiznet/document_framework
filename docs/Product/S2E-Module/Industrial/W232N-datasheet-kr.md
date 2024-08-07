@@ -65,14 +65,16 @@ W232N의 패키지는 아래와 같이 구성되어있습니다.
 | ***W232N Revision 1.0 DSUB***                                         |
 
 
-<!--
+
 ### 치수
 
 |                                                                       |
 | --------------------------------------------------------------------- |
-| ![](/img/products/w232n/Dimension.png) |
+| <img src="/img/products/w232n/Dimension.png" width="300" />                |
 | ***W232N Revision 1.0 Dimension***                                    |
--->
+
+- 78 x 52 x 28 (mm)
+
 ### 핀맵
 
 |                                                                       |
