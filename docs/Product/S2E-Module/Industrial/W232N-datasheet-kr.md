@@ -41,33 +41,33 @@ W232N의 패키지는 아래와 같이 구성되어있습니다.
 
 |                                                                       |
 | --------------------------------------------------------------------- |
-| ![](/img/products/w232n/Front.png) |
-| ***W232N Revision 1.0 Front***                                          |
+| <img src="/img/products/w232n/Front.png" width="500" />               |
+| ***W232N Revision 1.0 Front***                                        |
 
 |                                                                       |
 | --------------------------------------------------------------------- |
-| ![](/img/products/w232n/Back.png) |
-| ***W232N Revision 1.0 Back***                                          |
+| <img src="/img/products/w232n/Back.png" width="500" />                |
+| ***W232N Revision 1.0 Back***                                         |
 
 |                                                                       |
 | --------------------------------------------------------------------- |
-| ![](/img/products/w232n/LED.png) |
-| ***W232N Revision 1.0 LED***                              |
+| <img src="/img/products/w232n/LED.png" width="500" />                 |
+| ***W232N Revision 1.0 LED***                                          |
 
 |                                                                       |
 | --------------------------------------------------------------------- |
-| ![](/img/products/w232n/RJ45.png) |
+| <img src="/img/products/w232n/RJ45.png" width="500" />                |
 | ***W232N Revision 1.0 RJ45,power jack***                              |
 
 |                                                                       |
 | --------------------------------------------------------------------- |
-| ![](/img/products/w232n/DSUB.png) |
-| ***W232N Revision 1.0 DSUB***                              |
+| <img src="/img/products/w232n/DSUB.png" width="500" />                |
+| ***W232N Revision 1.0 DSUB***                                         |
 
 |                                                                       |
 | --------------------------------------------------------------------- |
-| ![](/img/products/w232n/W232_Rail_mount.png) |
-| ***W232N Revision 1.0 Rail bracket***                                 |
+| <img src="/img/products/w232n/W232_Rail_mount.png" width="500" />     |
+| ***W232N Revision 1.0 Rail Mount***                                   |
 
 <!--
 ### 치수
@@ -81,7 +81,7 @@ W232N의 패키지는 아래와 같이 구성되어있습니다.
 
 |                                                                       |
 | --------------------------------------------------------------------- |
-| ![](/img/products/w232n/w232n_pinout.png)                                   |
+| <img src="/img/products/w232n/w232n_pinout.png" width="500" />        |
 | ***W232N Revision 1.0 DB9M port***                                    |
 
 | Pin Number | Signal | Description                  |
@@ -103,7 +103,7 @@ W232N의 패키지는 아래와 같이 구성되어있습니다.
 
 |                                                                       |
 | --------------------------------------------------------------------- |
-| ![](/img/products/w232n/RJ45_PIN.png)                                   |
+| <img src="/img/products/w232n/RJ45_PIN.png" width="500" />            |
 | ***W232N Revision 1.0 RJ45 port***                                    |
 
 | Pin Number | Signal | Description                  |
@@ -149,8 +149,8 @@ W232N은 DC Jack, 터미널 블럭, PoE 지원 제품일 경우 RJ45 Jack을 통
 
 |                                                                       |
 | --------------------------------------------------------------------- |
-| ![](/img/products/w232n/POWER_LED.png)                                 |
-| ***전원 LED***                                                   |
+| <img src="/img/products/w232n/POWER_LED.png" width="400" />           |
+| ***전원 LED***                                                         |
 
 정상 동작시 POWER LED가 빨간색으로 점등하고 RUN LED가 1초 주기로 점멸하면서 W232N의 FW가 정상적으로 부팅되었음을 확인할 수 있습니다.
 
