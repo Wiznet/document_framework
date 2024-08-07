@@ -10,7 +10,7 @@ description: W232N is a industrial serial to Ethernet module using the W55RP20
 
 본 문서는 산업용 Ethernet to RS232 데이터 변환 디바이스인 W232N의 HW 스펙에 대한 문서입니다.
 
-<img src="/img/products/w232n/W232_Rail_mount.png" width="400" />
+<img src="/img/products/w232n/W232_Rail_mount.png" width="600" />
 
 ## 특징
 
@@ -39,19 +39,20 @@ W232N의 패키지는 아래와 같이 구성되어있습니다.
 
 ### 외관
 
-|                                                                       |
-| --------------------------------------------------------------------- |
-| <img src="/img/products/w232n/Front.png" width="500" />               |
-| ***W232N Revision 1.0 Front***                                        |
+<div style="display: flex; justify-content: space-around; align-items: center;">
+  <img src="/img/products/w232n/Front.png" width="300" alt="W232N Revision 1.0 Front" />
+  <img src="/img/products/w232n/Back.png" width="300" alt="W232N Revision 1.0 Back" />
+  <img src="/img/products/w232n/LED.png" width="100" alt="W232N Revision 1.0 LED" />
+</div>
 
 |                                                                       |
 | --------------------------------------------------------------------- |
-| <img src="/img/products/w232n/Back.png" width="500" />                |
+| <img src="/img/products/w232n/Back.png" width="300" />                |
 | ***W232N Revision 1.0 Back***                                         |
 
 |                                                                       |
 | --------------------------------------------------------------------- |
-| <img src="/img/products/w232n/LED.png" width="500" />                 |
+| <img src="/img/products/w232n/LED.png" width="100" />                 |
 | ***W232N Revision 1.0 LED***                                          |
 
 |                                                                       |
