@@ -695,6 +695,7 @@ module.exports = {
 						'Product/S2E-Module/Industrial/modbus-connection-guide-kr',
 						'Product/S2E-Module/Industrial/firmware-update-guide-kr',
 						'Product/S2E-Module/Industrial/Web_Config_Guide_KO',
+						'Product/S2E-Module/Industrial/factory-rst-guide-kr',
 						]
 					},
 					{
