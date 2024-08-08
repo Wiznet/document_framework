@@ -1,7 +1,7 @@
 ---
 id: ssl-connection-guide-kr
 title: SSL Connection Guide-[KR]
-date: 2022-06-28
+date: 2024-08-08
 ---
 
 
@@ -10,9 +10,9 @@ date: 2022-06-28
 
 
 
-## WIZ5xxSR-RP SSL Connection Overview
+## W232N SSL 연결 개요
 
-**WIZ5xxSR-RP** supports **SSL TCP client** mode.
+**W232N**는 **SSL TCP client** 모드를 지원하니다. 
 
 
 
@@ -20,28 +20,24 @@ date: 2022-06-28
 
 
 
-## Required Hardware and Software
+## 필요한 하드웨어 및 소프트웨어
 
 
 
-### Hardware
+### 하드웨어
 
-  - WIZ5xxSR-RP
-
-  - WIZ5xxSR-RP Evaluation Board (WIZ510SR-RP can be used without WIZ5xxSR-RP Evaluation Board.)
-  - 5V Power adapter
-  - Cables (Ethernet / Serial)
+  - W232N
+  - 5~36V 전원 어댑터
+  - 데이터 케이블 (Ethernet / Serial)
 
 
-
-### Software
+### 소프트웨어
 
   - WIZnet S2E Configuration Tool
-	- [Download the Latest Version](https://github.com/Wiznet/WIZnet-S2E-Tool-GUI/releases/tag/V1.5.0)
-    - [Download the Older Versions](https://github.com/Wiznet/WIZnet-S2E-Tool-GUI/releases)
+	  - [최신 버전 다운로드](https://github.com/Wiznet/WIZnet-S2E-Tool-GUI/releases/tag/V1.5.0)
     - [GitHub Repository](https://github.com/Wiznet/WIZnet-S2E-Tool-GUI)
   - OpenSSL:
-	- [Download Link](https://slproweb.com/products/Win32OpenSSL.html)
+	 - [다운로드 링크](https://slproweb.com/products/Win32OpenSSL.html)
 
 
 
@@ -49,21 +45,17 @@ date: 2022-06-28
 
 
 
-## How to Connect to SSL Server through OpenSSL
+## OpenSSL을 통해 SSL 서버에 연결하는 방법
 
 
 
-### Step 1: Setup Environment to Use WIZ5xxSR-RP
+### 1단계: Config-tool 실행
 
-The process of setup environment to use the WIZ5xxSR-RP each product is available at the **'Getting Started'** document below.
+설치된 **'Config-tool'** 실행
 
+### 2단계: OpenSSL 설정
 
-
-
-
-### Step 2: Setup OpenSSL
-
-Setup OpenSSL to use as the SSL Server.
+SSL 서버로 사용할 OpenSSL을 설정합니다.
 
 ```bash
 genrsa -des3 -out [key_name].key 2048
@@ -78,9 +70,9 @@ x509 -req -days 365 -in server.csr -signkey server.key -out server.crt
 
 
 
-### Step 3: Run SSL Server through OpenSSL
+### 3단계: OpenSSL를 사용해 SSL서버 실행
 
-If you have setup the OpenSSL to use as the SSL server, run the SSL server.
+OpenSSL을 SSL 서버로 사용하도록 설정한 경우 SSL 서버를 실행합니다.
 
 ```bash
 s_server -accept [port] -cert [crt_name].crt -key [key_name].key
@@ -91,23 +83,23 @@ s_server -accept 443 -cert server.crt -key server.key
 
 
 
-### Step 4: Setup WIZ5xxSR-RP through WIZnet S2E Configuration Tool for SSL Server Connection
+### 4단계: Configuration Tool을 사용해 W232N을 SSL Server 연결할 수 있도록 설정
 
-1. Select **SSL TCP client** mode in the **Operation mode** setting section
+1.   **Operation mode** 섹션에서 **SSL TCP client** 모드를 선택
 
 |                                                                                               |
 | :-------------------------------------------------------------------------------------------: |
 | ![](/img/products/s2e_module/wiz5xxsr-rp/ssl_connection_guide/select_ssl_tcp_client_mode.png) |
 | Figure: **Select SSL TCP client mode**                                                        |
 
-2. Setup the **remote host IP (or URL)** and **remote port** in the **Remote host / port** section
+2. **Remote host / port** 섹션의 **remote host IP (or URL)** 와 **remote port** 를 설정 
 
 |                                                                                                         |
 | :-----------------------------------------------------------------------------------------------------: |
 | ![](/img/products/s2e_module/wiz5xxsr-rp/ssl_connection_guide/setup_remote_host_ip_and_remote_port.png) |
 | Figure: **Setup remote host IP and remote port**                                                        |
 
-3. Click the **Apply Settings** button to save the settings
+3. **Apply Settings** 버튼을 눌러 세팅을 저장합니다.
 
 |                                                                                                |
 | :--------------------------------------------------------------------------------------------: |
@@ -120,13 +112,13 @@ s_server -accept 443 -cert server.crt -key server.key
 | Figure: **Saved settings**                                                        |
 
 
-> **Note**: If you need certificates to connect to the SSL server, please refer to the [**'What If I Need Certificates to Connect to SSL Server'**](#what-if-i-need-certificates-to-connect-to-ssl-server) section below.
+> **Note**: SSL 서버에 연결하기 위해 인증서가 필요한 경우 아래의 [SSL 서버에 연결하기 위해 인증서가 필요한 경우 어떻게 하나요?](#SSL-서버에-연결하기-위해-인증서가-필요한-경우)를 참고해주세요
 
 
 
-### Step 5: Done
+### 5단계: 완료
 
-WIZ5xxSR-RP is successfully connected to the SSL server!
+W232N이 SSL 서버에 성공적으로 연결되었습니다!
 
 
 
@@ -134,20 +126,16 @@ WIZ5xxSR-RP is successfully connected to the SSL server!
 
 
 
-## Appendix
+## SSL 서버에 연결하기 위해 인증서가 필요한 경우
 
-
-
-### What If I Need Certificates to Connect to SSL Server?
-
-You can upload certificates below in the '**Certificate manager**' tab of the'WIZnet S2E Configuration Tool'.
+Config-tool의 '**Certificate manager**' 탭에서 인증서를 업로드할 수 있습니다.
   - Root CA
   - Client Certificate
   - Private key
 
-Upload and setup the certificates required by the SSL server you want to connect to.
+연결하려는 SSL 서버에 필요한 인증서를 업로드하고 설정합니다.
 
-After loading the certificate by clicking the '**Load file**' button, be sure to save it by clicking the '**Save to device**' button.
+'**Load file**' 버튼을 클릭하여 인증서를 로드한 후, '**Save to device**' 버튼을 클릭하여 저장해야 합니다.
 
 |                                                                                        |
 | :------------------------------------------------------------------------------------: |
