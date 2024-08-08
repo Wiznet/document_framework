@@ -118,15 +118,11 @@ W232N의 패키지는 아래와 같이 구성되어있습니다.
 
 |                                                                       |
 | --------------------------------------------------------------------- |
-| <img src="/img/products/w232n/RST.png" width="400" />                 |
+| <img src="/img/products/w232n/RST.png" width="100" />                 |
 | ***W232N Revision 1.0 Reset SW***                                     |
 
 - HW 리셋 스위치
 
-|                                                                       |
-| --------------------------------------------------------------------- |
-| <img src="/img/products/w232n/RST.png" width="400" />                 |
-| ***W232N Revision 1.0 Reset SW***                                     |
 
 -----
 
@@ -136,7 +132,7 @@ W232N의 패키지는 아래와 같이 구성되어있습니다.
 
 |                                                                       |
 | --------------------------------------------------------------------- |
-| <img src="/img/products/w232n/Screw.png" width="400" />               |
+| <img src="/img/products/w232n/Screw.png" width="300" />               |
 | ***W232N Case bolts***                                                |
 
 #### AT 모드 스위치
@@ -224,7 +220,7 @@ W232N은 DC Jack, 터미널 블럭, PoE 지원 제품일 경우 RJ45 Jack을 통
 - [SSL 연결 방법](./ssl-connection-guide-kr.md)
 - [Modbus 연결 방법](./modbus-connection-guide-kr.md)
 - [FW 업데이트 가이드](./firmware-update-guide-kr.md)
-- [공장초기화 가이드](./firmware-update-guide-kr.md)
+- [공장초기화 가이드](./factory-rst-guide-kr.md)
 
 
 ## 인증
