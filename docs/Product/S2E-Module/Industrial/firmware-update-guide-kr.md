@@ -1,7 +1,7 @@
 ---
 id: firmware-update-guide-kr
 title: Firmware update guide-[KR]
-date: 2022-06-28
+date: 2024-08-08
 ---
 
 
@@ -10,7 +10,7 @@ date: 2022-06-28
 
 
 
-## WIZ5xxSR-RP Firmware Update Overview
+## W232N Firmware Update Overview
 
 
 
@@ -22,40 +22,47 @@ date: 2022-06-28
 ```cpp
  Top Flash Memory Address /-------------------------------------------\  0x10200000
                           |                                           |
+                          ~                                           ~
+                          |             Reserved (832KB)              |
+                          |-------------------------------------------|  0x10130000
+                          |                                           |
                           |             Parameters (64KB)             |
-                          |-------------------------------------------|  0x101F0000
                           |                                           |
-                          |              Reserved (448KB)             |
+                          |-------------------------------------------|  0x10120000
                           |                                           |
-                          |-------------------------------------------|  0x10180000
+                          |                                           |
                           |                                           |
                           |                                           |
                           |        Firmware Binary Bank (512KB)       |
                           |                                           |
                           |                                           |
-                          |-------------------------------------------|  0x10100000
+                          |                                           |
+                          |-------------------------------------------|  00x100A0000
                           |                                           |
                           |                                           |
-                          |          Application Bank (512KB)         |
                           |                                           |
                           |                                           |
-                          |-------------------------------------------|  0x10080000
+                          |        Application Bank (512KB)           |
+                          |                                           |
+                          |                                           |
+                          |                                           |
+                          |-------------------------------------------|  0x10020000
                           |                                           |
       Page 1 (256KB)      |                                           |
-                          |             Bootloader (512KB)            |
+                          |             Bootloader (128KB)            |
       Page 0 (256KB)      |                                           |
                           |                                           |
-                          \-------------------------------------------/  0x100000000
+                          \-------------------------------------------/  0x10000000
 ```
 
 
 
-### Firmware Update Sequence
+### 펌웨어 업데이트 순서도
 
 |                                                                                              |
 | :------------------------------------------------------------------------------------------: |
 | ![](/img/products/s2e_module/wiz5xxsr-rp/firmware_update_guide/firmware_update_sequence.png) |
-| Figure: **Firmware Update Sequence**                                                         |
+| Figure: **펌웨어 업데이트 순서도**                                                         |
 
 
 
@@ -63,13 +70,15 @@ date: 2022-06-28
 
 
 
-## How to Upload or Update the Firmware of WIZ5xxSR-RP
+## W232N 펌웨어 업로드 또는 업데이트 방법
 
-The WIZ5xxSR-RP provides one method of uploading or updating firmware.
+W232N은 펌웨어를 업로드하거나 업데이트하는 세 가지 방법을 제공합니다.
 
-That's the way over ethernet using the Configuration Tool.
+- [Config-Tool을 사용하는 방법](#Config-Tool을-사용해-FW-업로드-및-업데이트)
+- [USB를 사용하는 방법](#USB를-사용하는-방법)
+- [SWD를 사용하는 방법](#SWD를-사용하는-방법)
 
-  - [Using the Configuration Tool](#using-the-configuration-tool)
+
 
 
 
@@ -77,60 +86,54 @@ That's the way over ethernet using the Configuration Tool.
 
 
 
-## Using the Configuration Tool
+
+## 필요한 하드웨어 및 소프트웨어
 
 
 
-### Required Hardware and Software
+### 하드웨어
 
+- W232N
+- 5V~36V의 전원 어댑터
+- 데이터 케이블 (이더넷)
 
+### 소프트웨어
 
-#### Hardware
-
-
-
-
-
-#### Software
-
-  - WIZnet S2E Configuration Tool
-	- [Download the Latest Version](https://github.com/Wiznet/WIZnet-S2E-Tool-GUI/releases/tag/V1.5.0)
-    - [Download the Older Versions](https://github.com/Wiznet/WIZnet-S2E-Tool-GUI/releases)
+  - WIZnet S2E Configuration Tool 
+    - [최신 버전 다운로드](https://github.com/Wiznet/WIZnet-S2E-Tool-GUI/releases)
     - [GitHub Repository](https://github.com/Wiznet/WIZnet-S2E-Tool-GUI)
 
 
 
-### How to Upload or Update the Firmware
+## Config-Tool을 사용한 FW 업로드-및-업데이트 방법
 
 
+### 1단계: Config-tool 실행
 
-#### Step 1: Setup Environment to Use WIZ5xxSR-RP
-
-The process of setup environment to use the WIZ5xxSR-RP each product is available at the **'Getting Started'** document below.
-
+설치된 **'Config-tool'** 실행
 
 
-#### Step 2: Upload Firmware
+### 1단계: 펌웨어 업로드
 
-1. Click the **Firmware Upload** button
+1. **Firmware Upload** 클릭
 
 |                                                                                                  |
 | :----------------------------------------------------------------------------------------------: |
 | ![](/img/products/s2e_module/wiz5xxsr-rp/firmware_update_guide/click_firmware_upload_button.png) |
 | Figure: **Click Firmware Upload button**                                                         |
 
-2. Select the uploaded firmware
+2. 업로드할 FW 선택
 
-When selecting firmware, you must select **.bin**(*_linker.bin).
+업로드할 FW는 **.bin**(*_linker.bin)형식만 지원합니다.
 
-Firmware in a file format other than .bin cannot be uploaded or updated properly.
+.bin 이외의 파일 형식의 펌웨어는 제대로 업로드하거나 업데이트할 수 없습니다.
 
 |                                                                                              |
 | :------------------------------------------------------------------------------------------: |
 | ![](/img/products/s2e_module/wiz5xxsr-rp/firmware_update_guide/select_uploaded_firmware.png) |
 | Figure: **Select uploaded firmware**                                                         |
 
-3. Uploading the firmware
+3. FW 업로드
 
 |                                                                                        |
 | :------------------------------------------------------------------------------------: |
@@ -139,11 +142,11 @@ Firmware in a file format other than .bin cannot be uploaded or updated properly
 
 
 
-#### Step 3: Done
+### 3단계: 완료
 
-Firmware upload or update completed!
+펌웨어 업로드 또는 업데이트 완료!
 
-WIZ5xxSR-RP is searched after about 5 seconds in the Configuration Tool after firmware upload or update completed.
+펌웨어 업로드 또는 업데이트가 완료된 후 구성 도구에서 약 5초 후에 W232N이 검색됩니다.
 
 |                                                                                                        |
 | :----------------------------------------------------------------------------------------------------: |
