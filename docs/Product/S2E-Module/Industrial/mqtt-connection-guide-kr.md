@@ -1,7 +1,7 @@
 ---
 id: mqtt-connection-guide-kr
 title: MQTT Connection Guide-[KR]
-date: 2022-06-28
+date: 2024-08-08
 ---
 
 
@@ -10,9 +10,9 @@ date: 2022-06-28
 
 
 
-## WIZ5xxSR-RP MQTT Connection Overview
+## W232N MQTT 연결 개요
 
-**WIZ5xxSR-RP** supports **MQTT client** and **MQTTS client** mode.
+**W232N** 는 **MQTT client** 와 **MQTTS client** 모드를 지원합니다.
 
 
 
@@ -20,27 +20,26 @@ date: 2022-06-28
 
 
 
-## Required Hardware and Software
+## 필요한 하드웨어 및 소프트웨어
 
 
 
-### Hardware
+### 하드웨어
 
 
-  - WIZ5xxSR-RP Evaluation Board (WIZ510SR-RP can be used without WIZ5xxSR-RP Evaluation Board.)
-  - 5V Power adapter
-  - Cables (Ethernet / Serial)
+  - W232N
+  - 5V~36V의 전원 어댑터
+  - 데이터 케이블 (이더넷 / 시리얼)
 
 
 
-### Software
+### 소프트웨어
 
-  - WIZnet S2E Configuration Tool
-	- [Download the Latest Version](https://github.com/Wiznet/WIZnet-S2E-Tool-GUI/releases/tag/V1.5.0)
-    - [Download the Older Versions](https://github.com/Wiznet/WIZnet-S2E-Tool-GUI/releases)
+  - WIZnet S2E Configuration Tool 
+    - [최신 버전 다운로드](https://github.com/Wiznet/WIZnet-S2E-Tool-GUI/releases)
     - [GitHub Repository](https://github.com/Wiznet/WIZnet-S2E-Tool-GUI)
-  - Mosquitto:
-	- [Download Link](https://mosquitto.org/download/)
+  - Mosquitto
+	  - [Download Link](https://mosquitto.org/download/)
 
 
 
@@ -48,36 +47,36 @@ date: 2022-06-28
 
 
 
-## How to Connect to MQTT Broker through Mosquitto
+## Mosquitto를 통한 MQTT Broker 연결 방법
 
-WIZ5xxSR-RP supports MQTT client and MQTTS client mode, but this section guides how to connect to MQTT broker through Mosquitto based on MQTT client mode.
+W232N은 MQTT 클라이언트 모드와 MQTTS 클라이언트 모드를 지원하만, 본 문서는 MQTT 클라이언트 모드를 기준으로 Mosquitto를 통해 MQTT 브로커에 연결하는 방법을 안내합니다.
 
-> **Note** : MQTTS client mode requires additional security-related settings, unlike MQTT client mode.
-
-
-
-### Step 1: Setup Environment to Use WIZ5xxSR-RP
-
-The process of setup environment to use the WIZ5xxSR-RP each product is available at the **'Getting Started'** document below.
+> **Note** : MQTTS 클라이언트 모드는 MQTT 클라이언트 모드와 달리 추가적인 보안 관련 설정이 필요합니다.
 
 
 
+### 1단계: W232N을 사용하기 위한 환경 설정하기
 
+Config-tool을 사용한 W232N의 MQTT 설정 방법은 아래의 **'Config tool Guide'** 문서에서 확인하실 수 있습니다.
 
-### Step 2: Setup Mosquitto
-
-Depending on the Mosquitto version, you may need to setup Mosquitto, so refer to the below to setup.
-
-  - In Mosquitto versions earlier than 2.0 the default is to allow clients to connect without authentication.
-  - In 2.0 and up, you must choose your authentication options explicitly before clients can connect.
-
-Therefore, if you are using version 2.0 or later, refer to following link to setup 'mosquitto.conf' in the directory where Mosquitto is installed.
-
-  - [Authentication Methods](https://mosquitto.org/documentation/authentication-methods/)
+[Config tool Guide](./Config-tool-Guide-kr.md)
 
 
 
-### Step 3: Run MQTT Broker through Mosquitto
+### 2단계: Mosquitto 설정
+
+Mosquitto 버전에 따라 모스키토 설정이 필요할 수 있으므로 아래를 참조하여 설정하세요.
+
+  - 2.0V 이전 버전에서는 클라이언트가 인증 없이 연결할 수 있도록 허용하는 것이 기본값입니다.
+  - 2.0V 이상에서는 클라이언트가 연결하기 전에 인증 옵션을 명시적으로 선택해야 합니다.
+
+따라서 버전 2.0 이상을 사용하는 경우, 다음 링크를 참조하여 Mosquitto가 설치된 디렉토리에 'mosquitto.conf'를 설정하세요.
+
+  - [인증 방법](https://mosquitto.org/documentation/authentication-methods/)
+
+
+
+### 3단계: Mosquitto를 통해 MQTT 브로커 실행하기
 
 ```bash
 Ex>
@@ -87,50 +86,50 @@ mosquitto -c mosquitto.conf -p 1883 -v
 |                                                                                                       |
 | :---------------------------------------------------------------------------------------------------: |
 | ![](/img/products/s2e_module/wiz5xxsr-rp/mqtt_connection_guide/run_mqtt_broker_through_mosquitto.png) |
-| Figure: **Run MQTT broker through Mosquitto**                                                         |
+| Figure: **Mosquitto를 통해 MQTT 브로커 실행**                                                         |
 
 
 
-### Step 4: Setup WIZ5xxSR-RP through WIZnet S2E Configuration Tool for MQTT Broker Connection
+### 4단계: MQTT 브로커 연결을 위해 Config-Tool을 사용해 W232N을 설정하기
 
-1. Select **MQTT client** mode in the **Operation mode** setting section
+1. **Operation mode** 설정 섹션에서 **MQTT client** 모드를 선택합니다.
 
 |                                                                                             |
 | :-----------------------------------------------------------------------------------------: |
 | ![](/img/products/s2e_module/wiz5xxsr-rp/mqtt_connection_guide/select_mqtt_client_mode.png) |
-| Figure: **Select MQTT client mode**                                                         |
+| Figure: **MQTT client mode 선택**                                                         |
 
-2. Setup the **remote host IP (or URL)** and **remote port** in the **Remote host / port** section
+2. **Remote host / port** 설정 섹션에서 **remote host IP (or URL)** 와 **remote port** 를 설정합니다.
 
 |                                                                                                          |
 | :------------------------------------------------------------------------------------------------------: |
 | ![](/img/products/s2e_module/wiz5xxsr-rp/mqtt_connection_guide/setup_remote_host_ip_and_remote_port.png) |
-| Figure: **Setup remote host IP and remote port**                                                         |
+| Figure: **remote host IP 와 remote port 설정**                                                         |
 
-3. Setup MQTT options
+3. MQTT options 설정
 
 |                                                                                        |
 | :------------------------------------------------------------------------------------: |
 | ![](/img/products/s2e_module/wiz5xxsr-rp/mqtt_connection_guide/setup_mqtt_options.png) |
-| Figure: **Setup MQTT options**                                                         |
+| Figure: **MQTT options 설정**                                                         |
 
-4. Click the **Apply Settings** button to save the settings
+4. **Apply Settings** 버튼을 눌러 세팅값 적용.
 
 |                                                                                                 |
 | :---------------------------------------------------------------------------------------------: |
 | ![](/img/products/s2e_module/wiz5xxsr-rp/mqtt_connection_guide/click_apply_settings_button.png) |
-| Figure: **Click Apply Settings button**                                                         |
+| Figure: **Apply Settings 클릭**                                                         |
 
 |                                                                                    |
 | :--------------------------------------------------------------------------------: |
 | ![](/img/products/s2e_module/wiz5xxsr-rp/mqtt_connection_guide/saved_settings.png) |
-| Figure: **Saved settings**                                                         |
+| Figure: **세팅값 저장**                                                         |
 
 
 
-### Step 5: Done
+### 5단계: 완료
 
-WIZ5xxSR-RP is successfully connected to the MQTT broker!
+W232N이 MQTT 브로커에 성공적으로 연결되었습니다!
 
 |                                                                            |
 | :------------------------------------------------------------------------: |

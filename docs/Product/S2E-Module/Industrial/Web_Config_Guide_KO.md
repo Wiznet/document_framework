@@ -8,49 +8,27 @@ date: 2024-07-30
 
 
 
------
 
 
+## 개요
 
-## 웹 서버를 이용한 W232N 설정 개요
-
-**W232N**은 **웹 서버를 이용하여 W232N 설정**이 가능합니다.
-  > **Note** : 
-이 기능은 F/W 버전 1.4.0부터 사용 가능합니다. **Search identification code**가 설정되어 있으면 웹 서버를 이용한 W232N 설정이 작동하지 않습니다.
- 
-
-
+본 문서는 산업용 Ethernet to RS232 데이터 변환 디바이스인 W232N의 웹서버 Config 가이드입니다.
 
 -----
-
-
 
 ## 필요한 하드웨어 및 소프트웨어
 
 
-
 ### 하드웨어
 
-  - W232N
+  - 웹 서버 Config 지원 디바이스 목록
+    - W232N
 
-
-
-### 소프트웨어
-  
-  - F/W
-    - [F/W Ver 1.4.0 다운로드 링크](https://github.com/Wiznet/WIZ750SR/releases/tag/v1.4.0)
-  > **Note** : 1.4.0 버전 이하에서는 웹 서버를 이용한 W232N 설정을 지원하지 않습니다. 반드시 **1.4.0 버전**을 다운로드하십시오.
-
-
-### Configuration Tool
+### 소프트웨어  
 
   - WIZnet S2E Configuration Tool 
     - [최신 버전 다운로드](https://github.com/Wiznet/WIZnet-S2E-Tool-GUI/releases)
-      - [GitHub Repository](https://github.com/Wiznet/WIZnet-S2E-Tool-GUI)
-    > **Note** : 펌웨어 업데이트를 위한 configuration tool이 필요합니다.
-
-
------
+    - [GitHub Repository](https://github.com/Wiznet/WIZnet-S2E-Tool-GUI)
 
 
 
