@@ -75,8 +75,8 @@ date: 2024-08-08
 W232N은 펌웨어를 업로드하거나 업데이트하는 세 가지 방법을 제공합니다.
 
 - [Config-Tool을 사용하는 방법](#Config-Tool을-사용한-FW-업로드-및-업데이트-방법)
-- [USB를 사용하는 방법](#USB를-사용하는-방법)
-- [SWD를 사용하는 방법](#SWD를-사용하는-방법)
+- [USB를 사용하는 방법](#USB-인터페이스를-사용한-FW-업로드-및-업데이트-방법)
+- [SWD를 사용하는 방법](#SWD-인터페이스를-사용한-FW-업로드-및-업데이트-방법)
 
 
 
@@ -84,28 +84,24 @@ W232N은 펌웨어를 업로드하거나 업데이트하는 세 가지 방법을
 
 -----
 
+## Config-Tool을 사용한 FW 업로드 및 업데이트 방법
+
+
+### 필요한 하드웨어 및 소프트웨어
 
 
 
-## 필요한 하드웨어 및 소프트웨어
-
-
-
-### 하드웨어
+#### 하드웨어
 
 - W232N
 - 5V~36V의 전원 어댑터
 - 데이터 케이블 (이더넷)
 
-### 소프트웨어
+#### 소프트웨어
 
   - WIZnet S2E Configuration Tool 
     - [최신 버전 다운로드](https://github.com/Wiznet/WIZnet-S2E-Tool-GUI/releases)
     - [GitHub Repository](https://github.com/Wiznet/WIZnet-S2E-Tool-GUI)
-
-
-
-## Config-Tool을 사용한 FW 업로드 및 업데이트 방법
 
 
 ### 1단계: Config-tool 실행
@@ -153,6 +149,8 @@ W232N은 펌웨어를 업로드하거나 업데이트하는 세 가지 방법을
 | ![](/img/products/s2e_module/wiz5xxsr-rp/firmware_update_guide/firmware_upload_or_update_complete.png) |
 | Figure: **Firmware upload or update complete**                                                         |
 
+## USB 인터페이스를 사용한 FW 업로드 및 업데이트 방법
 
+## SWD 인터페이스를 사용한 FW 업로드 및 업데이트 방법
 
 -----
