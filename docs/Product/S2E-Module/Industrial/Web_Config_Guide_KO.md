@@ -1,6 +1,6 @@
 ---
 id: Web_Config_Guide_KO
-title: Web Server Configuration Guide-[KO]
+title: Web Server Configuration Guide-[KR]
 date: 2024-07-30
 ---
 
