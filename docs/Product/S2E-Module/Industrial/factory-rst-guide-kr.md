@@ -58,11 +58,11 @@ W232N공장 초기화는 두 가지 방법으로 시행 가능합니다.
 
 ### 2단계: 상단 Icon Menu에서 ⑦Facory Rest 선택
 
-<img src="/img/products/s2e_module/wiz5xxsr-rp/configuration_tool_manual/menu_icons.png" width="150" /> 
+<img src="/img/products/s2e_module/wiz5xxsr-rp/configuration_tool_manual/menu_icons.png" width="400" /> 
 
 ### 3단계: 공장 초기화 진행
 
-<img src="/img/products/w232n/config-fact.png" width="400" /> 
+<img src="/img/products/w232n/config-fact.png" width="500" /> 
 
 - 공장 초기화 진행을 묻는 알림창이 뜨면 Yes 를 선택합니다.
 
@@ -70,7 +70,7 @@ W232N공장 초기화는 두 가지 방법으로 시행 가능합니다.
 
 ### 4단계: 완료
 
-<img src="/img/products/w232n/config-fact-ok.png" width="400" /> 
+<img src="/img/products/w232n/config-fact-ok.png" width="500" /> 
 
 - 공장 초기화가 정상적으로 완료되었다면 완료 알림창을 확인할 수 있습니다.
 
@@ -79,7 +79,7 @@ W232N공장 초기화는 두 가지 방법으로 시행 가능합니다.
 
 ### 1단계: 상단 케이스 분리
 
-<img src="/img/products/w232n/Screw.png" width="400" />
+<img src="/img/products/w232n/Screw.png" width="200" />
 
 - 디바이스 양 옆의 볼트를 제거하여 상단 케이스를 분리
 
