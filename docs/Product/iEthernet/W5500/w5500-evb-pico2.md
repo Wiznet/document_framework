@@ -15,7 +15,7 @@ W5500-EVB-Pico2 is a microcontroller evaluation board based on the Raspberry Pi 
 <!-- - [AWS IoT Core Qualified](https://devices.amazonaws.com/detail/a3G8a00000311tuEAA/W5500-EVB-Pico)
 - [Microsoft Azure Device Certified](https://devicecatalog.azure.com/devices/b278ce42-dde1-46b7-919e-4ae3a5266a3c) -->
 
-![W5500-EVB-RP2350](/img/products/w5500-evb-pico/w5500_evb_pico_side.png)
+![W5500-EVB-PICO2](/img/products/w5500-evb-pico2/w5500-evb-pico2-org.png)
 
 ![Powered By Raspberry Pi logo](/img/pbp-logo-small.jpg)
 
