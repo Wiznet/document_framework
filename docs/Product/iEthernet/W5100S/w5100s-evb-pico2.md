@@ -136,7 +136,7 @@ Recommended maximum ambient temperature of operation is 70C.
 
 ### Schematic & Part list & Gerber File
 
-- [Go to Github](https://github.com/Wiznet/Hardware-Files-of-WIZnet/tree/master/02_iEthernet/W5100S/W5100S-EVB-Pico2-V100)
+- [Go to Github](https://github.com/Wiznet/Hardware-Files-of-WIZnet/tree/master/02_iEthernet/W5100S/W5100S-EVB-Pico2_V100)
 
 
 ### Dimension v1.0 (Unit : mm)
