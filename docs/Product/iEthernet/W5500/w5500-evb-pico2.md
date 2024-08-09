@@ -12,6 +12,7 @@ W5500-EVB-Pico2 is a microcontroller evaluation board based on the Raspberry Pi 
 
 - Enhanced Raspberry Pi Pico2 Clone
 - Ethernet (W5500 Hardwired TCP/IP CHIP)
+
 <!-- - [AWS IoT Core Qualified](https://devices.amazonaws.com/detail/a3G8a00000311tuEAA/W5500-EVB-Pico)
 - [Microsoft Azure Device Certified](https://devicecatalog.azure.com/devices/b278ce42-dde1-46b7-919e-4ae3a5266a3c) -->
 
