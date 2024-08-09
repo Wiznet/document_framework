@@ -1,7 +1,7 @@
 ---
 id: modbus-connection-guide-kr
 title: Modbus Connection Guide-[KR]
-date: 2024-05-23
+date: 2024-08-09
 ---
 
 
@@ -12,36 +12,34 @@ date: 2024-05-23
 
 
 
-## WIZ5xxSR-RP Modbus Connection Overview
+## W232N Modbus 연결 개요
 
-**WIZ5xxSR-RP** supports **Modbus TCP server** and **Modbus UDP** mode.
-  > **Note** : Modbus protocol requires firmware version 1.0.8 or higher to function correctly.
-
+**W232N**는 **Modbus TCP server** 와 **Modbus UDP** 모드를 지원합니다.
 
 
 -----
 
 
 
-## Required Hardware and Software
+## 필요한 하드웨어 및 소프트웨어
 
 
 
-### Hardware
+### 하드웨어
 
 
-  - WIZ5xxSR-RP Evaluation Board (WIZ510SR-RP can be used without WIZ5xxSR-RP Evaluation Board.)
-  - 5V Power adapter
-  - Cables (Ethernet / Serial)
+  - W232N
+  - 5~36V 전원 어댑터
+  - 케이블 (이더넷 / 시리얼)
 
 
 
-### Software
+### 소프트웨어
 
   - WIZnet S2E Configuration Tool 
-  > **Note** : Modbus protocol requires the latest version of WIZnet-S2E-Tool-GUI version 1.5.5 or higher.
+  > **Note** : Modbus protocol은 WIZnet-S2E-Tool-GUI 1.5.5 버전 이상이 필요합니다.
 	- [Download the Latest Version](https://github.com/Wiznet/WIZnet-S2E-Tool-GUI/releases)
-    - [GitHub Repository](https://github.com/Wiznet/WIZnet-S2E-Tool-GUI)
+  - [GitHub Repository](https://github.com/Wiznet/WIZnet-S2E-Tool-GUI)
   - Modbus Poll & Slave:
 	- [Download Link](https://www.modbustools.com/download.html)
 
@@ -51,24 +49,22 @@ date: 2024-05-23
 
 
 
-## How to Connect to Modbus
-
-
-
-### Step 1: Setup Environment to Use WIZ5xxSR-RP
-
-The process of setup environment to use the WIZ5xxSR-RP each product is available at the **'Getting Started'** document below.
+## Modbus 연결하는 법
 
 
 
 
+### 1단계: Config-tool 실행
 
-### Step 2: Setup Modbus Poll & Slave
+설치된 **'Config-tool'** 실행
 
-Setup Modbus Poll & Slave Program.
 
-  - Modbus Poll connects via Modbus TCP/IP or Modbus UDP/IP depending on the settings.
-  - Modbus Slave connects via the Serial Port.
+### 2단계: Modbus Poll & Slave 설정
+
+Modbus Poll & Slave 프로그램을 세팅합니다.
+
+  - Modbus Poll은 설정에 따라 모드버스 TCP/IP 또는 모드버스 UDP/IP를 통해 연결됩니다.
+  - Modbus Slave는 직렬 포트를 통해 연결됩니다.
 
 |                                                                                                |
 | :--------------------------------------------------------------------------------------------: |
@@ -77,23 +73,22 @@ Setup Modbus Poll & Slave Program.
 
 
 
-### Step 3: Setup WIZ5xxSR-RP through WIZnet S2E Configuration Tool for Modbus Connection
+### 3단계: Modbus 연결을 위해 W232N를 WIZnet S2E Configuration Tool로 세팅하기
 
-1. Select **TCP Server** or **UDP** mode in the **Operation mode** setting section
-
+1. **Operation mode**섹선에 있는 **TCP Server** 혹은 **UDP** 모드를 설정합니다.
 |                                                                                               |
 | :-------------------------------------------------------------------------------------------: |
 | ![](/img/products/s2e_module/wiz5xxsr-rp/modbus-connection-guide/select_operation_mode.png) |
 | Figure: **Select TCP Server or UDP mode**                                                        |
 
-2. Setup Modbus Option
+2. Modbus 옵션을 설정합니다.
 
 |                                                                                                         |
 | :-----------------------------------------------------------------------------------------------------: |
 | ![](/img/products/s2e_module/wiz5xxsr-rp/modbus-connection-guide/setup_modbus_option.png) |
 | Figure: **Setup Setup Modbus Option**                                                        |
 
-3. Click the **Apply Settings** button to save the settings
+3. **Apply Settings**을 눌러서 세팅을 저장합니다.
 
 |                                                                                                |
 | :--------------------------------------------------------------------------------------------: |
@@ -108,9 +103,9 @@ Setup Modbus Poll & Slave Program.
 
 
 
-### Step 4: Done
+### 4단계: 완료
 
-WIZ5xxSR-RP is successfully connected to the Modbus!
+W232N가 모드버스에 성공적으로 연결되었습니다!
 |                                                                                   |
 | :-------------------------------------------------------------------------------: |
 | ![](/img/products/s2e_module/wiz5xxsr-rp/modbus-connection-guide/connect_modbus.png) |
