@@ -138,7 +138,7 @@ TBA
 
 ### Schematic v1.0
 
-<!-- ![w6100-evb-pico2-schematic](/img/osh/w6100-evb-pico2/w6100-evb-pico2-sch-v100.jpg) -->
+![w6100-evb-pico2-schematic](/img/products/w6100-evb-pico2/sch-w6100-evb-pico2.jpg)
 
 ### Schematic & Part list & Gerber File
 
