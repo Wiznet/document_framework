@@ -130,7 +130,7 @@ TBA
 
 ### RP2350 Datasheet
 
-<!-- - [Download](https://datasheets.raspberrypi.org/rp2040/rp2040-datasheet.pdf) -->
+- [Download](https://datasheets.raspberrypi.com/rp2350/rp2350-datasheet.pdf)
 
 ### W6100 Datasheet
 
@@ -142,11 +142,11 @@ TBA
 
 ### Schematic & Part list & Gerber File
 
-<!-- - [Go to Github](https://github.com/Wiznet/Hardware-Files-of-WIZnet/tree/master/02_iEthernet/W6100/W6100-EVB-Pico/W6100-EVB-Pico_V100/Schematic) -->
+![w6100-evb-pico2](/img/products/w6100-evb-pico2/sch-w6100-evb-pico2-v100.png)
 
 ### Dimension v1.0 (Unit : mm)
 
-<!-- ![w6100-evb-pico2-dimension](/img/osh/w6100-evb-pico/w6100-evb-pico-1.0-dimension.png) -->
+![w6100-evb-pico2-dimension](/img/osh/w6100-evb-pico/w6100-evb-pico-1.0-dimension.png)
 
 ### Firmware Example
 
