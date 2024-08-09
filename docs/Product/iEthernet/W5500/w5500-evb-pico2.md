@@ -130,7 +130,7 @@ Recommended maximum ambient temperature of operation is 70C.
 
 ### Schematic
 
-![W5500-EVB-Pico2](/img/products/w5500-evb-pico2/sch-w5500-evb-pico2-v100.png)
+![SCH-W5500-EVB-PICO2-V100](/img/products/w5500-evb-pico2/sch-w5500-evb-pico2-v100.png)
 
 ### Schematic & Part list & Gerber File
 
