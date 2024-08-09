@@ -14,8 +14,11 @@ W5100S-EVB-Pico2 is a microcontroller evaluation board based on the Raspberry Pi
 
 - Enhanced Raspberry Pi Pico Clone
 - Ethernet (W5100S Hardwired TCP/IP CHIP)
+
+
 <!-- - [AWS IoT Core Qualified](https://devices.amazonaws.com/detail/a3G8a00000E2TSBEA3/W5100S-EVB-Pico)
 - [Microsoft Azure Device Certified](https://devicecatalog.azure.com/devices/9171d1ae-eb6d-4636-b512-611dc96bc2c7) -->
+
 
 ![W5100S-EVB-PICO2](/img/products/w5100s-evb-pico2/w5100s-evb-pico2-docs.png)
 
