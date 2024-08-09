@@ -16,7 +16,7 @@
 <link rel="preconnect" href="https://cdn.channel.io">
 <script>!function(){var n=window;if(n.ChannelIO)return(window.console.error||window.console.log||function(){})("ChannelIO script included twice.");var e=function(){e.c(arguments)};function t(){if(!n.ChannelIOInitialized){n.ChannelIOInitialized=!0;var e=document.createElement("script");e.type="text/javascript",e.async=!0,e.src="https://cdn.channel.io/plugin/ch-plugin-web.js",e.charset="UTF-8";var t=document.getElementsByTagName("script")[0];t.parentNode.insertBefore(e,t)}}e.q=[],e.c=function(n){e.q.push(n)},n.ChannelIO=e,"complete"===document.readyState?t():window.attachEvent?window.attachEvent("onload",t):(window.addEventListener("DOMContentLoaded",t,!1),window.addEventListener("load",t,!1))}(),ChannelIO("boot",{pluginKey:"cb95c060-ab4c-45ec-bbe8-fe40a1ea3aec"})</script>
 <script src="https://www.chatbase.co/embed.min.js" chatbotid="mzPtKtrGGxl7KLpJJ_s9j" domain="www.chatbase.co" async defer="defer"></script><link rel="stylesheet" href="/assets/css/styles.f9d3e7cd.css">
-<script src="/assets/js/runtime~main.376d1c2c.js" defer="defer"></script>
+<script src="/assets/js/runtime~main.a8153bd1.js" defer="defer"></script>
 <script src="/assets/js/main.7f9d40df.js" defer="defer"></script>
 </head>
 <body class="navigation-with-keyboard">
@@ -104,7 +104,7 @@
 </ul>
 <h2 class="anchor anchorWithHideOnScrollNavbar_WYt5" id="hardware-specification">Hardware Specification<a class="hash-link" aria-label="Direct link to Hardware Specification" title="Direct link to Hardware Specification" href="/Product/iEthernet/W6100/w6100-evb-pico2#hardware-specification">​</a></h2>
 <h3 class="anchor anchorWithHideOnScrollNavbar_WYt5" id="pin-out-v10">Pin-out v1.0<a class="hash-link" aria-label="Direct link to Pin-out v1.0" title="Direct link to Pin-out v1.0" href="/Product/iEthernet/W6100/w6100-evb-pico2#pin-out-v10">​</a></h3>
-<p><img decoding="async" loading="lazy" alt="w6100-evb-pico-pinout" src="/assets/images/w6100-evb-pico-pinout-06ebd5c54b7d73c2034b0634d0a32122.jpg" width="821" height="716" class="img_ev3q"></p>
+<p><img decoding="async" loading="lazy" alt="w6100-evb-pico-pinout" src="/assets/images/w6100-evb-pico2-pinout-48c7359c2ddcf0094aebf2de69718849.png" width="1772" height="1458" class="img_ev3q"></p>
 <p>W6100-EVB-Pico2 pinout is directly connected to the GPIO of RP2350 as shown in the picture above. It has the same pinout as the Raspberry Pi Pico2 board. However, GPIO16, GPIO17, GPIO18, GPIO19, GPIO20, GPIO21 are connected to W6100 inside the board. These pins enable SPI communication with W5100S to use Ethernet function. If you are using the Ethernet function, these pins cannot be used for any other purpose.</p>
 <p>The RP2350 GPIO used inside W6100-EVB-Pico is as follows.</p>
 <table><thead><tr><th style="text-align:center">I/O</th><th>Pin Name</th><th>Description</th></tr></thead><tbody><tr><td style="text-align:center">I</td><td>GPIO16</td><td>Connected to MISO on W6100</td></tr><tr><td style="text-align:center">O</td><td>GPIO17</td><td>Connected to CSn on W6100</td></tr><tr><td style="text-align:center">O</td><td>GPIO18</td><td>Connected to SCLK on W6100</td></tr><tr><td style="text-align:center">O</td><td>GPIO19</td><td>Connected to MOSI on W6100</td></tr><tr><td style="text-align:center">O</td><td>GPIO20</td><td>Connected to RSTn on W6100</td></tr><tr><td style="text-align:center">I</td><td>GPIO21</td><td>Connected to INTn on W6100</td></tr><tr><td style="text-align:center">I</td><td>GPIO24</td><td>VBUS sense - high if VBUS is present, else low</td></tr><tr><td style="text-align:center">O</td><td>GPIO25</td><td>Connected to user LED</td></tr><tr><td style="text-align:center">I</td><td>GPIO29</td><td>Used in ADC mode (ADC3) to measure VSYS/3</td></tr></tbody></table>
@@ -115,13 +115,19 @@
 <p>Recommended maximum ambient temperature of operation is 70C.</p>
 <h2 class="anchor anchorWithHideOnScrollNavbar_WYt5" id="technical-reference">Technical Reference<a class="hash-link" aria-label="Direct link to Technical Reference" title="Direct link to Technical Reference" href="/Product/iEthernet/W6100/w6100-evb-pico2#technical-reference">​</a></h2>
 <h3 class="anchor anchorWithHideOnScrollNavbar_WYt5" id="rp2350-datasheet">RP2350 Datasheet<a class="hash-link" aria-label="Direct link to RP2350 Datasheet" title="Direct link to RP2350 Datasheet" href="/Product/iEthernet/W6100/w6100-evb-pico2#rp2350-datasheet">​</a></h3>
+<ul>
+<li><a href="https://datasheets.raspberrypi.com/rp2350/rp2350-datasheet.pdf" target="_blank" rel="noopener noreferrer">Download</a></li>
+</ul>
 <h3 class="anchor anchorWithHideOnScrollNavbar_WYt5" id="w6100-datasheet">W6100 Datasheet<a class="hash-link" aria-label="Direct link to W6100 Datasheet" title="Direct link to W6100 Datasheet" href="/Product/iEthernet/W6100/w6100-evb-pico2#w6100-datasheet">​</a></h3>
 <ul>
 <li><a href="/Product/iEthernet/W6100/overview">Download</a></li>
 </ul>
 <h3 class="anchor anchorWithHideOnScrollNavbar_WYt5" id="schematic-v10">Schematic v1.0<a class="hash-link" aria-label="Direct link to Schematic v1.0" title="Direct link to Schematic v1.0" href="/Product/iEthernet/W6100/w6100-evb-pico2#schematic-v10">​</a></h3>
+<p><img decoding="async" loading="lazy" alt="w6100-evb-pico2-schematic" src="/assets/images/sch-w6100-evb-pico2-v100-99d217a5d5ee0a068e76503fd0daa68d.png" width="2339" height="1654" class="img_ev3q"></p>
 <h3 class="anchor anchorWithHideOnScrollNavbar_WYt5" id="schematic--part-list--gerber-file">Schematic &amp; Part list &amp; Gerber File<a class="hash-link" aria-label="Direct link to Schematic &amp; Part list &amp; Gerber File" title="Direct link to Schematic &amp; Part list &amp; Gerber File" href="/Product/iEthernet/W6100/w6100-evb-pico2#schematic--part-list--gerber-file">​</a></h3>
+<p><img decoding="async" loading="lazy" alt="w6100-evb-pico2" src="/assets/images/sch-w6100-evb-pico2-v100-99d217a5d5ee0a068e76503fd0daa68d.png" width="2339" height="1654" class="img_ev3q"></p>
 <h3 class="anchor anchorWithHideOnScrollNavbar_WYt5" id="dimension-v10-unit--mm">Dimension v1.0 (Unit : mm)<a class="hash-link" aria-label="Direct link to Dimension v1.0 (Unit : mm)" title="Direct link to Dimension v1.0 (Unit : mm)" href="/Product/iEthernet/W6100/w6100-evb-pico2#dimension-v10-unit--mm">​</a></h3>
+<p><img decoding="async" loading="lazy" alt="w6100-evb-pico2-dimension" src="/assets/images/w6100-evb-pico-1.0-dimension-1d521e216ea51c36c10adf8c681f919a.png" width="2339" height="1653" class="img_ev3q"></p>
 <h3 class="anchor anchorWithHideOnScrollNavbar_WYt5" id="firmware-example">Firmware Example<a class="hash-link" aria-label="Direct link to Firmware Example" title="Direct link to Firmware Example" href="/Product/iEthernet/W6100/w6100-evb-pico2#firmware-example">​</a></h3>
 <p>Please refer to below links to find firmware example.</p>
 <p>C/C++</p>
