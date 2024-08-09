@@ -118,14 +118,6 @@ Apart from GPIO and ground pins, there are 7 other pins on the main 40-pin inter
 
 Recommended maximum ambient temperature of operation is 70C.
 
-<!--
-## Electrical Specification
-
-### Power Consumption
-
-TBA
--->
-
 ## Technical Reference
 
 ### RP2350 Datasheet
@@ -142,7 +134,7 @@ TBA
 
 ### Schematic & Part list & Gerber File
 
-![w6100-evb-pico2](/img/products/w6100-evb-pico2/sch-w6100-evb-pico2-v100.png)
+- [Go to Github](https://github.com/Wiznet/Hardware-Files-of-WIZnet/tree/master/02_iEthernet/W6100/W6100-EVB-Pico2-V100)
 
 ### Dimension v1.0 (Unit : mm)
 
@@ -170,7 +162,7 @@ Please refer to below links to find firmware example.
 
 #### FCC
 
-<!-- 
+<!--
 - <a href="/img/osh/w6100-evb-pico/Certificate-FCC-W6100-EVB-Pico.pdf" target="_blank">FCC Certificate</a>
 - <a href="/img/osh/w6100-evb-pico/Test-Report-FCC-W6100-EVB-Pico.pdf" target="_blank">FCC Test Report</a>
 
