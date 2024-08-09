@@ -72,7 +72,7 @@ W6100-EVB-Pico2 is a microcontroller evaluation board based on the Raspberry Pi 
 
 ### Pin-out v1.0
 
-![w6100-evb-pico-pinout](/img/osh/w6100-evb-pico2/w6100-evb-pico-pinout.png)
+![w6100-evb-pico-pinout](/img/osh/w6100-evb-pico2/w6100-evb-pico2-pinout.png)
 
 W6100-EVB-Pico2 pinout is directly connected to the GPIO of RP2350 as shown in the picture above. It has the same pinout as the Raspberry Pi Pico2 board. However, GPIO16, GPIO17, GPIO18, GPIO19, GPIO20, GPIO21 are connected to W6100 inside the board. These pins enable SPI communication with W5100S to use Ethernet function. If you are using the Ethernet function, these pins cannot be used for any other purpose.
 
