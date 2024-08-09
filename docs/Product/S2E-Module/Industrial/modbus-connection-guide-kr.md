@@ -14,7 +14,7 @@ date: 2024-08-09
 
 ## W232N Modbus 연결 개요
 
-**W232N**는 **Modbus TCP server** 와 **Modbus UDP** 모드를 지원합니다.
+**W232N**는 **Modbus TCP server/UDP** 와 **Modbus RTU/ASCII** 사이의 프로토콜 변환 기능을 지원합니다.
 
 
 -----
@@ -76,6 +76,7 @@ Modbus Poll & Slave 프로그램을 세팅합니다.
 ### 3단계: Modbus 연결을 위해 W232N를 WIZnet S2E Configuration Tool로 세팅하기
 
 1. **Operation mode**섹선에 있는 **TCP Server** 혹은 **UDP** 모드를 설정합니다.
+
 |                                                                                               |
 | :-------------------------------------------------------------------------------------------: |
 | ![](/img/products/s2e_module/wiz5xxsr-rp/modbus-connection-guide/select_operation_mode.png) |
