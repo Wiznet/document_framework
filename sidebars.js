@@ -208,6 +208,7 @@ module.exports = {
 					'Product/iEthernet/W6100/application-note',
 					'Product/iEthernet/W6100/w6100-evb',
 					'Product/iEthernet/W6100/w6100-evb-pico',
+					'Product/iEthernet/W6100/w6100-evb-pico2',
 					'Product/iEthernet/W6100/getting-started-w6100evb',
 					'Product/iEthernet/W6100/new-project-stm32cubeide',
 					'Product/iEthernet/W6100/new-project-truestudio',
@@ -242,6 +243,7 @@ module.exports = {
 					},
 					'Product/iEthernet/W5100S/w5100s-evb',
 					'Product/iEthernet/W5100S/w5100s-evb-pico',
+					'Product/iEthernet/W5100S/w5100s-evb-pico2',
 					'Product/iEthernet/W5100S/w5100s-getting-started',
 					'Product/iEthernet/W5100S/w5100s-projects-stm32cubeide',
 					'Product/iEthernet/W5100S/w5100s-projects-truestudio',
@@ -288,7 +290,8 @@ module.exports = {
 						//'Product/iEthernet/W5500/W5500-EVB/w5500-evb_firmware',
 					],
 					},
-					'Product/iEthernet/W5500/w5500-evb-pico'
+					'Product/iEthernet/W5500/w5500-evb-pico',
+					'Product/iEthernet/W5500/w5500-evb-pico2'
 				],
 				},
 				{
@@ -994,8 +997,11 @@ module.exports = {
 					//'Product/Open-Source-Hardware/w2e-gateway-pico',
 					'Product/Open-Source-Hardware/wizfi360-evb-pico',
 					'Product/iEthernet/W6100/w6100-evb-pico',
+					'Product/iEthernet/W6100/w6100-evb-pico2',
 					'Product/iEthernet/W5500/w5500-evb-pico',
+					'Product/iEthernet/W5500/w5500-evb-pico2',
 					'Product/iEthernet/W5100S/w5100s-evb-pico',
+					'Product/iEthernet/W5100S/w5100s-evb-pico2',
 					'Product/Open-Source-Hardware/wiznet_ethernet_hat',
 					'Product/Open-Source-Hardware/wiznet-pico-poe',
 				]
