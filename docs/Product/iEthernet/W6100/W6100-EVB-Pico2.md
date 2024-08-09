@@ -54,7 +54,7 @@ W6100-EVB-Pico2 is a microcontroller evaluation board based on the Raspberry Pi 
   - SPI Interface
 
 - **Connectivity**
-  - Micro-USB B port for power and data (and for reprogramming the Flash)
+  - C-Type USB port for power and data (and for reprogramming the Flash)
   - 40 pin 21x51 'DIP' style 1mm thick PCB with 0.1" through-hole pins also with edge castellations
   - 3-pin ARM Serial Wire Debug (SWD) port
 
