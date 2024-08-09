@@ -130,16 +130,16 @@ Recommended maximum ambient temperature of operation is 70C.
 - [Download](Overview.md)
 
 
-### Schematic v1.1
+### Schematic v1.0
 ![w5100s-evb-pico2-schematic](/img/products/w5100s-evb-pico2/sch-w5100s-evb-pico2-v100.png)
 
 
 ### Schematic & Part list & Gerber File
 
-<!-- - [Go to Github](https://github.com/Wiznet/Hardware-Files-of-WIZnet/tree/master/02_iEthernet/W5100S/W5100S-EVB-Pico) -->
+- [Go to Github](https://github.com/Wiznet/Hardware-Files-of-WIZnet/tree/master/02_iEthernet/W5100S/W5100S-EVB-Pico2-V100)
 
 
-### Dimension v1.1 (Unit : mm)
+### Dimension v1.0 (Unit : mm)
 
 <!-- <a target="_blank" href={require('/img/osh/w5100s_evb_pico/w5100s-evb-pico-1.1-dimension.png').default}><img src={require('/img/osh/w5100s_evb_pico/w5100s-evb-pico-1.1-dimension.png').default} alt="W5100S-EVB-RP2040_Dimension"/></a>
 
