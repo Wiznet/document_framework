@@ -141,7 +141,7 @@ Recommended maximum ambient temperature of operation is 70C.
 
 ### Dimension v1.0 (Unit : mm)
 
-<!-- <a target="_blank" href={require('/img/osh/w5100s_evb_pico/w5100s-evb-pico-1.1-dimension.png').default}><img src={require('/img/osh/w5100s_evb_pico/w5100s-evb-pico-1.1-dimension.png').default} alt="W5100S-EVB-RP2040_Dimension"/></a>
+![Dimension-W5100S-EVB-PICO2](/img/products/w5100s-evb-pico2/dimension-w5100s-evb-pico2.png)
 
 <details>
 

@@ -138,7 +138,7 @@ Recommended maximum ambient temperature of operation is 70C.
 
 ### Dimension v1.0 (Unit : mm)
 
-![w6100-evb-pico2-dimension](/img/osh/w6100-evb-pico/w6100-evb-pico-1.0-dimension.png)
+![w6100-evb-pico2-dimension](/img/products/w6100-evb-pico2/dimension-w6100-evb-pico2.png)
 
 ### Firmware Example
 
