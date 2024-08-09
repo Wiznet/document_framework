@@ -138,7 +138,7 @@ Recommended maximum ambient temperature of operation is 70C.
 
 ### Dimension (Unit : mm)
 
-<!-- ![W5500-EVB-Pico2](/img/products/w5500-evb-pico/w5500-evb-pico-dimension.png) -->
+![Dimension-W5500-EVB-Pico2](/img/products/w5500-evb-pico2/dimension-w5500-evb-pico2.png)
 
 ### Firmware Example
 
