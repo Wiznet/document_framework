@@ -118,20 +118,6 @@ Apart from GPIO and ground pins, there are 7 other pins on the main 40-pin inter
 
 Recommended maximum ambient temperature of operation is 70C.
 
-
-
-
-
-
-## Electrical Specification
-
-### Power Consumption
-
-
-
-TBA
-
-
 ## Technical Reference
 
 ### RP2350 Datasheet
