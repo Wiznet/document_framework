@@ -997,13 +997,23 @@ module.exports = {
 					//'Product/Open-Source-Hardware/w2e-gateway-pico',
 					'Product/Open-Source-Hardware/wizfi360-evb-pico',
 					'Product/iEthernet/W6100/w6100-evb-pico',
-					'Product/iEthernet/W6100/w6100-evb-pico2',
 					'Product/iEthernet/W5500/w5500-evb-pico',
-					'Product/iEthernet/W5500/w5500-evb-pico2',
 					'Product/iEthernet/W5100S/w5100s-evb-pico',
-					'Product/iEthernet/W5100S/w5100s-evb-pico2',
 					'Product/Open-Source-Hardware/wiznet_ethernet_hat',
 					'Product/Open-Source-Hardware/wiznet-pico-poe',
+				]
+			},
+			{
+				type: 'category',
+				label: 'RP2350 Based',
+				link: {type: 'doc', id: 'Product/Open-Source-Hardware/rp2350_based'},
+				items: [
+					//'Product/Open-Source-Hardware/w2e-gateway-pico',
+					'Product/iEthernet/W6100/w6100-evb-pico2',
+					'Product/iEthernet/W5500/w5500-evb-pico2',
+					'Product/iEthernet/W5100S/w5100s-evb-pico2',
+					// 'Product/Open-Source-Hardware/wiznet_ethernet_hat',
+					// 'Product/Open-Source-Hardware/wiznet-pico-poe',
 				]
 			},
 			{
