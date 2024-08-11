@@ -39,12 +39,12 @@ The **IOP4IoT W7500** chip is the one-chip solution which integrates an ARM Cort
   -  [W5100S-EVB-Pico](iEthernet/W5100S/w5100s-evb-pico.md): RP2040-based W5100S chip evaluation board
   -  [W5500-EVB-Pico](iEthernet/W5500/w5500-evb-pico.md): RP2040-based W5500 chip evaluation board
   -  [W5500-EVB](iEthernet/W5500/W5500-EVB/W5500-EVB.md): W5500 chip evaluation board
-  -  [W6100-EVB-Pico](Product/iEthernet/W6100/w6100-evb-pico.md): RP2040-based W6100 chip evaluation board
+  -  [W6100-EVB-Pico](iEthernet/W6100/w6100-EVB-pico.md): RP2040-based W6100 chip evaluation board
 
 * RP2350 Based
   -  [W5100S-EVB-Pico2](iEthernet/W5100S/w5100s-evb-pico2.md): RP2350-based W5100S chip evaluation board
   -  [W5500-EVB-Pico2](iEthernet/W5500/w5500-evb-pico2.md): RP2350-based W5500 chip evaluation board
-  -  [W6100-EVB-Pico2](Product/iEthernet/W6100/w6100-evb-pico2.md): RP2350-based W6100 chip evaluation board
+  -  [W6100-EVB-Pico2](iEthernet/W6100/w6100-EVB-pico2.md): RP2350-based W6100 chip evaluation board
 -----
 
 ## io Module (Internet Offload Module)
@@ -117,7 +117,7 @@ The **IOP4IoT W7500** chip is the one-chip solution which integrates an ARM Cort
 
 * Board
   * [WizFi360-EVB-Pico](Open-Source-Hardware/WizFi360-EVB-Pico.md)
-  * [W6100-EVB-Pico](Product/iEthernet/W6100/w6100-evb-pico.md)
+  * [W6100-EVB-Pico](iEthernet/W6100/w6100-EVB-pico.md)
   * [W5500-EVB-Pico](iEthernet/W5500/w5500-evb-pico.md)
   * [W5100S-EVB-Pico](iEthernet/W5100S/w5100s-evb-pico.md)
 
@@ -125,7 +125,7 @@ The **IOP4IoT W7500** chip is the one-chip solution which integrates an ARM Cort
 ### RP2350 (Raspberry Pi Pico2) based 
 
 * Board
-  * [W6100-EVB-Pico2](Product/iEthernet/W6100/w6100-evb-pico2.md)
+  * [W6100-EVB-Pico2](iEthernet/W6100/w6100-EVB-pico2.md)
   * [W5500-EVB-Pico2](iEthernet/W5500/w5500-evb-pico2.md)
   * [W5100S-EVB-Pico2](iEthernet/W5100S/w5100s-evb-pico2.md)
   
