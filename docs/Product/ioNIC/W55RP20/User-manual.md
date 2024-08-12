@@ -18,11 +18,11 @@ date: 2024-07-31
 Please refer to below links to find firmware example.
 
 - C/C++
-  - Ethernet Examples
-  - AWS Examples
-  - Azure Examples
-  - LwIP Examples
-  - FreeRTOS Examples
+  - [Ethernet Examples](https://github.com/WIZnet-ioNIC/WIZnet-PICO-C)
+  - [AWS Examples](https://github.com/WIZnet-ioNIC/WIZnet-PICO-AWS-C)
+  - [Azure Examples](https://github.com/WIZnet-ioNIC/WIZnet-PICO-AZURE-C)
+  - [LwIP Examples](https://github.com/WIZnet-ioNIC/WIZnet-PICO-LWIP-C)
+  - [FreeRTOS Examples](https://github.com/WIZnet-ioNIC/WIZnet-PICO-FREERTOS-C)
 - CircuitPython Examples
 - MicroPython Examples
 
