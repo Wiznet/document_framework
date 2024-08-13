@@ -44,7 +44,7 @@ The **IOP4IoT W7500** chip is the one-chip solution which integrates an ARM Cort
 * RP2350 Based
   -  [W5100S-EVB-Pico2](iEthernet/W5100S/w5100s-evb-pico2.md): RP2350-based W5100S chip evaluation board
   -  [W5500-EVB-Pico2](iEthernet/W5500/w5500-evb-pico2.md): RP2350-based W5500 chip evaluation board
-  -  [W6100-EVB-Pico2](iEthernet/W6100/W6100-EVB-Pico.md): RP2350-based W6100 chip evaluation board
+  -  [W6100-EVB-Pico2](iEthernet/W6100/W6100-EVB-Pico2.md): RP2350-based W6100 chip evaluation board
 -----
 
 ## io Module (Internet Offload Module)
