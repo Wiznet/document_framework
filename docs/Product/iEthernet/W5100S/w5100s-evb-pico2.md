@@ -153,7 +153,8 @@ Please refer to below links to find firmware example.
   - [AWS Examples](https://github.com/WIZnet-ioNIC/WIZnet-PICO-AWS-C)
   - [Azure Examples](https://github.com/WIZnet-ioNIC/WIZnet-PICO-AZURE-C)
   - [LwIP Examples](https://github.com/WIZnet-ioNIC/WIZnet-PICO-LWIP-C)
-  - [FreeRTOS Examples](https://github.com/WIZnet-ioNIC/WIZnet-PICO-FREERTOS-C)
+  
+  <!-- - [FreeRTOS Examples](https://github.com/WIZnet-ioNIC/WIZnet-PICO-FREERTOS-C) -->
 
 ### Certification
 
