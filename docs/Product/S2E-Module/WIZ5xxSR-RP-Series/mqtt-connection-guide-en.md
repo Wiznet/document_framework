@@ -150,3 +150,197 @@ WIZ5xxSR-RP is successfully connected to the MQTT broker!
 
 
 -----
+
+
+
+## how to connect using MQTT with AWS
+
+### Step 1: Creating a Thing and Policy in AWS and downloading the certificate
+
+1. To use AWS services, you must first log in. Please click the link below to proceed to the login page.
+
+**[AWS Login Page](https://aws.amazon.com/console/)**
+
+2. After logging in, search for "IoT console" in the search bar and click on it.
+
+|                                                                                             |
+| :-----------------------------------------------------------------------------------------: |
+| ![](/img/products/w232n/aws_execute/1_aws_iot_core.png) |
+| Figure: **search for "IoT console"**                                                         |
+
+
+2. Click on the "Things" tab on the left, and then press the orange "Create things" button.
+
+|                                                                                             |
+| :-----------------------------------------------------------------------------------------: |
+| ![](/img/products/w232n/aws_execute/2_aws_creating_thing.png) |
+| Figure: **Click "create Things"**                                                         |
+
+
+3. Select "Create single thing" and then press the Next button.
+
+|                                                                                             |
+| :-----------------------------------------------------------------------------------------: |
+| ![](/img/products/w232n/aws_execute/3_aws_creating_thing.png) |
+| Figure: **search for "IoT console"**                                                         |
+
+
+4. Enter the "Thing name" and press the Next button.
+
+|                                                                                             |
+| :-----------------------------------------------------------------------------------------: |
+| ![](/img/products/w232n/aws_execute/4_aws_creating_thing.png) |
+| Figure: **Enter the "Thing name"**                                                         |
+
+5. Select "Auto-generate a new certificate (recommended)" and press the Next button.
+
+|                                                                                             |
+| :-----------------------------------------------------------------------------------------: |
+| ![](/img/products/w232n/aws_execute/5_aws_creating_thing.png) |
+| Figure: **Select "Device certificate"**                                                         |
+
+
+6. Next, you need to create a policy for the security of the thing. Click on "Create policy"
+
+|                                                                                             |
+| :-----------------------------------------------------------------------------------------: |
+| ![](/img/products/w232n/aws_execute/6_aws_creating_policy.png) |
+| Figure: **Click on "Create policy"**                                                         |
+
+
+7. Set the name of the policy, configure the Policy Document as shown in the picture, and then press the Create button.
+
+|                                                                                             |
+| :-----------------------------------------------------------------------------------------: |
+| ![](/img/products/w232n/aws_execute/7_aws_creating_policy.png) |
+| Figure: **Setting Policy Information**                                                         |
+
+
+8. Return to the previously opened "Create single thing" page and press the "Create thing" button.
+
+|                                                                                             |
+| :-----------------------------------------------------------------------------------------: |
+| ![](/img/products/w232n/aws_execute/8_aws_combine_policy.png) |
+| Figure: **press the "Create thing" button**                                                         |
+
+
+9. Download all the Key & certificates.
+
+|                                                                                             |
+| :-----------------------------------------------------------------------------------------: |
+| ![](/img/products/w232n/aws_execute/9_aws_downloading cert_key.png) |
+| Figure: **Downloading all the Key & certificates**                                                         |
+
+
+
+
+### Step 2: Entering the certificate into the S2E module
+
+1. Enter the MQTT test client tab in AWS and copy the endpoint.
+
+|                                                                                             |
+| :-----------------------------------------------------------------------------------------: |
+| ![](/img/products/w232n/aws_execute/10_aws_copy_endpoint.png) |
+| Figure: **search for "IoT console"**                                                         |
+
+2. Turn on the configuration tool, search for the device, and set the "Basic settings" tab as follows.
+
+|                                                                                             |
+| :-----------------------------------------------------------------------------------------: |
+| ![](/img/products/w232n/aws_execute/1_device_search.png) |
+| Figure: **setting the "Basic settings" tab of configuration tool**                                                         |
+
+
+3. Set the "MQTT options" tab as follows.
+
+- MQTT Topics Section
+  - **Publish Topic:** `$aws/things/my_w232n_thing/shadow/update`
+  - **Subscribe Topic:** `$aws/things/my_w232n_thing/shadow/update/accepted`
+
+- MQTT Options
+  - **Client ID:** `my_w232n_thing`
+  - **Keep-Alive:** `60`
+  - **QoS:** `QoS 0`
+
+- Remote Host / Port
+  - **Remote Host:** `Paste the endpoint copied earlier`  
+  - **Remote Port:** `8883`
+
+|                                                                                             |
+| :-----------------------------------------------------------------------------------------: |
+| ![](/img/products/w232n/aws_execute/2_MQTT_option.png) |
+| Figure: **Setting the "MQTT options"**                                                         |
+
+4. Go to the Certificate Manager tab and adjust the Root CA section to match the settings shown in the picture below.
+
+|                                                                                             |
+| :-----------------------------------------------------------------------------------------: |
+| ![](/img/products/w232n/aws_execute/3_MQTT_cert_key.png) |
+| Figure: **adjusting the Root CA section**                                                         |
+
+5. Press "Load file" to load the following certificate and key files:
+
+- **Root CA** : AmazonRootCA1.pem
+- **Client Certificate** : xxxxx-certificate.pem.crt
+- **Private Key** : xxxxx-private.pem.key
+
+|                                                                                             |
+| :-----------------------------------------------------------------------------------------: |
+| ![](/img/products/w232n/aws_execute/4_MQTT_cert_key.png) |
+| Figure: **Load certificate and key files**                                                         |
+
+6. Press the "Save to device" button three times.
+
+|                                                                                             |
+| :-----------------------------------------------------------------------------------------: |
+| ![](/img/products/w232n/aws_execute/5_MQTT_cert_key.png) |
+| Figure: **Save certificate and key files**                                                         |
+
+7. Press "Apply settings"
+
+|                                                                                             |
+| :-----------------------------------------------------------------------------------------: |
+| ![](/img/products/w232n/aws_execute/6_MQTT_cert_key.png) |
+| Figure: **Press "Apply settings"**                                                         |
+
+
+### Step 3: execute (Subscribe)
+
+1. Return to the AWS IoT console page and click on "MQTT test client" under the "Test" section to enter. Then, enter the Publish Topic **$aws/things/my_w232n_thing/shadow/update** from the MQTT Topics Section in the Configuration Tool into the "Topic filter". Press the Subscribe button.
+
+|                                                                                             |
+| :-----------------------------------------------------------------------------------------: |
+| ![](/img/products/w232n/aws_execute/1_aws_sub_topic.png) |
+| Figure: **Subscribe to a topic**                                                         |
+
+2. Open the USB port connected to the S2E module's UART using a serial terminal tool, and send the data.
+
+|                                                                                             |
+| :-----------------------------------------------------------------------------------------: |
+| ![](/img/products/w232n/aws_execute/2_aws_sub_topic.png) |
+| Figure: **Sending data**                                                         |
+
+3. This way, you can confirm that the MQTT communication is working correctly with AWS.
+
+|                                                                                             |
+| :-----------------------------------------------------------------------------------------: |
+| ![](/img/products/w232n/aws_execute/3_aws_sub_topic.png) |
+| Figure: **sucessful MQTT communication with AWS**                                                         |
+
+
+### Step 4: execute (Publish)
+
+1. Return to the AWS IoT console page and click on "MQTT test client" under the "Test" section. Then, enter the Subscribe Topic $aws/things/my_w232n_thing/shadow/update/accepted from the MQTT Topics Section in the Configuration Tool into the "Topic name". Press the Publish button.
+
+|                                                                                             |
+| :-----------------------------------------------------------------------------------------: |
+| ![](/img/products/w232n/aws_execute/4_aws_pub_topic.png) |
+| Figure: **Publish to a topic**                                                         |
+
+
+2. You can verify the data sent from AWS in the serial window.
+
+|                                                                                             |
+| :-----------------------------------------------------------------------------------------: |
+| ![](/img/products/w232n/aws_execute/5_aws_pub_topic.png) |
+| Figure: **sucessful MQTT communication with AWS**                                                         |
