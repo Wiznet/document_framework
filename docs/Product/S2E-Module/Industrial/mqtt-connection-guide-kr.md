@@ -249,7 +249,7 @@ W232N이 MQTT 브로커에 성공적으로 연결되었습니다!
 
 |                                                                                             |
 | :-----------------------------------------------------------------------------------------: |
-| ![](/img/products/w232n/aws_execute/9_aws_downloading_cert_key.png) |
+| ![](/img/products/w232n/aws_execute/9_aws_downloading cert_key.png) |
 | 그림: **모든 Key 및 인증서 다운로드**                                                         |
 
 <br />
