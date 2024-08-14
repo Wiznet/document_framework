@@ -165,7 +165,7 @@ WIZ5xxSR-RP is successfully connected to the MQTT broker!
 
 |                                                                                             |
 | :-----------------------------------------------------------------------------------------: |
-| ![](/img/products/w232n/aws_execute/1_aws_iot_core.png) |
+| <img src="/img/products/w232n/aws_execute/1_aws_iot_core.png" width="600" /> |
 | Figure: **search for "IoT console"**                                                         |
 
 
@@ -173,7 +173,7 @@ WIZ5xxSR-RP is successfully connected to the MQTT broker!
 
 |                                                                                             |
 | :-----------------------------------------------------------------------------------------: |
-| ![](/img/products/w232n/aws_execute/2_aws_creating_thing.png) |
+| <img src="/img/products/w232n/aws_execute/2_aws_creating_thing.png" width="600" /> |
 | Figure: **Click "create Things"**                                                         |
 
 
@@ -181,7 +181,7 @@ WIZ5xxSR-RP is successfully connected to the MQTT broker!
 
 |                                                                                             |
 | :-----------------------------------------------------------------------------------------: |
-| ![](/img/products/w232n/aws_execute/3_aws_creating_thing.png) |
+| <img src="/img/products/w232n/aws_execute/3_aws_creating_thing.png" width="600" /> |
 | Figure: **search for "IoT console"**                                                         |
 
 
@@ -189,14 +189,14 @@ WIZ5xxSR-RP is successfully connected to the MQTT broker!
 
 |                                                                                             |
 | :-----------------------------------------------------------------------------------------: |
-| ![](/img/products/w232n/aws_execute/4_aws_creating_thing.png) |
+| <img src="/img/products/w232n/aws_execute/4_aws_creating_thing.png" width="600" /> |
 | Figure: **Enter the "Thing name"**                                                         |
 
 5. Select "Auto-generate a new certificate (recommended)" and press the Next button.
 
 |                                                                                             |
 | :-----------------------------------------------------------------------------------------: |
-| ![](/img/products/w232n/aws_execute/5_aws_creating_thing.png) |
+| <img src="/img/products/w232n/aws_execute/5_aws_creating_thing.png" width="600" /> |
 | Figure: **Select "Device certificate"**                                                         |
 
 
@@ -204,7 +204,7 @@ WIZ5xxSR-RP is successfully connected to the MQTT broker!
 
 |                                                                                             |
 | :-----------------------------------------------------------------------------------------: |
-| ![](/img/products/w232n/aws_execute/6_aws_creating_policy.png) |
+| <img src="/img/products/w232n/aws_execute/6_aws_creating_policy.png" width="600" /> |
 | Figure: **Click on "Create policy"**                                                         |
 
 
@@ -212,7 +212,7 @@ WIZ5xxSR-RP is successfully connected to the MQTT broker!
 
 |                                                                                             |
 | :-----------------------------------------------------------------------------------------: |
-| ![](/img/products/w232n/aws_execute/7_aws_creating_policy.png) |
+| <img src="/img/products/w232n/aws_execute/7_aws_creating_policy.png" width="600" /> |
 | Figure: **Setting Policy Information**                                                         |
 
 
@@ -220,7 +220,7 @@ WIZ5xxSR-RP is successfully connected to the MQTT broker!
 
 |                                                                                             |
 | :-----------------------------------------------------------------------------------------: |
-| ![](/img/products/w232n/aws_execute/8_aws_combine_policy.png) |
+| <img src="/img/products/w232n/aws_execute/8_aws_combine_policy.png" width="600" /> |
 | Figure: **press the "Create thing" button**                                                         |
 
 
@@ -228,7 +228,7 @@ WIZ5xxSR-RP is successfully connected to the MQTT broker!
 
 |                                                                                             |
 | :-----------------------------------------------------------------------------------------: |
-| ![](/img/products/w232n/aws_execute/9_aws_downloading_cert_key.png) |
+| <img src="/img/products/w232n/aws_execute/9_aws_downloading_cert_key.png" width="600" /> |
 | Figure: **Downloading all the Key & certificates**                                                         |
 
 
@@ -240,14 +240,14 @@ WIZ5xxSR-RP is successfully connected to the MQTT broker!
 
 |                                                                                             |
 | :-----------------------------------------------------------------------------------------: |
-| ![](/img/products/w232n/aws_execute/10_aws_copy_endpoint.png) |
+| <img src="/img/products/w232n/aws_execute/10_aws_copy_endpoint.png" width="600" /> |
 | Figure: **search for "IoT console"**                                                         |
 
 2. Turn on the configuration tool, search for the device, and set the "Basic settings" tab as follows.
 
 |                                                                                             |
 | :-----------------------------------------------------------------------------------------: |
-| ![](/img/products/w232n/aws_execute/1_device_search.png) |
+| <img src="/img/products/w232n/aws_execute/1_device_search.png" width="600" /> |
 | Figure: **setting the "Basic settings" tab of configuration tool**                                                         |
 
 
@@ -268,14 +268,14 @@ WIZ5xxSR-RP is successfully connected to the MQTT broker!
 
 |                                                                                             |
 | :-----------------------------------------------------------------------------------------: |
-| ![](/img/products/w232n/aws_execute/2_MQTT_option.png) |
+| <img src="/img/products/w232n/aws_execute/2_MQTT_option.png" width="600" /> |
 | Figure: **Setting the "MQTT options"**                                                         |
 
 4. Go to the Certificate Manager tab and adjust the Root CA section to match the settings shown in the picture below.
 
 |                                                                                             |
 | :-----------------------------------------------------------------------------------------: |
-| ![](/img/products/w232n/aws_execute/3_MQTT_cert_key.png) |
+| <img src="/img/products/w232n/aws_execute/3_MQTT_cert_key.png" width="600" /> |
 | Figure: **adjusting the Root CA section**                                                         |
 
 5. Press "Load file" to load the following certificate and key files:
@@ -286,21 +286,21 @@ WIZ5xxSR-RP is successfully connected to the MQTT broker!
 
 |                                                                                             |
 | :-----------------------------------------------------------------------------------------: |
-| ![](/img/products/w232n/aws_execute/4_MQTT_cert_key.png) |
+| <img src="/img/products/w232n/aws_execute/4_MQTT_cert_key.png" width="600" /> |
 | Figure: **Load certificate and key files**                                                         |
 
 6. Press the "Save to device" button three times.
 
 |                                                                                             |
 | :-----------------------------------------------------------------------------------------: |
-| ![](/img/products/w232n/aws_execute/5_MQTT_cert_key.png) |
+| <img src="/img/products/w232n/aws_execute/5_MQTT_cert_key.png" width="600" /> |
 | Figure: **Save certificate and key files**                                                         |
 
 7. Press "Apply settings"
 
 |                                                                                             |
 | :-----------------------------------------------------------------------------------------: |
-| ![](/img/products/w232n/aws_execute/6_MQTT_cert_key.png) |
+| <img src="/img/products/w232n/aws_execute/6_MQTT_cert_key.png" width="600" /> |
 | Figure: **Press "Apply settings"**                                                         |
 
 
@@ -310,21 +310,21 @@ WIZ5xxSR-RP is successfully connected to the MQTT broker!
 
 |                                                                                             |
 | :-----------------------------------------------------------------------------------------: |
-| ![](/img/products/w232n/aws_execute/1_aws_sub_topic.png) |
+| <img src="/img/products/w232n/aws_execute/1_aws_sub_topic.png" width="600" /> |
 | Figure: **Subscribe to a topic**                                                         |
 
 2. Open the USB port connected to the S2E module's UART using a serial terminal tool, and send the data.
 
 |                                                                                             |
 | :-----------------------------------------------------------------------------------------: |
-| ![](/img/products/w232n/aws_execute/2_aws_sub_topic.png) |
+| <img src="/img/products/w232n/aws_execute/2_aws_sub_topic.png" width="600" /> |
 | Figure: **Sending data**                                                         |
 
 3. This way, you can confirm that the MQTT communication is working correctly with AWS.
 
 |                                                                                             |
 | :-----------------------------------------------------------------------------------------: |
-| ![](/img/products/w232n/aws_execute/3_aws_sub_topic.png) |
+| <img src="/img/products/w232n/aws_execute/3_aws_sub_topic.png" width="600" /> |
 | Figure: **sucessful MQTT communication with AWS**                                                         |
 
 
@@ -334,7 +334,7 @@ WIZ5xxSR-RP is successfully connected to the MQTT broker!
 
 |                                                                                             |
 | :-----------------------------------------------------------------------------------------: |
-| ![](/img/products/w232n/aws_execute/4_aws_pub_topic.png) |
+| <img src="/img/products/w232n/aws_execute/4_aws_pub_topic.png" width="600" /> |
 | Figure: **Publish to a topic**                                                         |
 
 
@@ -342,5 +342,5 @@ WIZ5xxSR-RP is successfully connected to the MQTT broker!
 
 |                                                                                             |
 | :-----------------------------------------------------------------------------------------: |
-| ![](/img/products/w232n/aws_execute/5_aws_pub_topic.png) |
+| <img src="/img/products/w232n/aws_execute/5_aws_pub_topic.png" width="600" /> |
 | Figure: **sucessful MQTT communication with AWS**                                                         |
