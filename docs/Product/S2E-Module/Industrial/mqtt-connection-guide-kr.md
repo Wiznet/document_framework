@@ -141,4 +141,264 @@ W232N이 MQTT 브로커에 성공적으로 연결되었습니다!
 
 
 
+
 -----
+
+
+
+## MQTT를 이용하여 AWS에 연결하는 방법
+
+### 1단계: AWS에서 Thing 및 정책 생성 및 인증서 다운로드
+
+1. AWS 서비스를 사용하려면 먼저 로그인해야 합니다. 아래 링크를 클릭하여 로그인 페이지로 이동하세요.
+
+**[AWS 로그인 페이지](https://aws.amazon.com/console/)**
+
+<br />
+<br />
+
+
+2. 로그인 후 검색 창에서 "IoT 콘솔"을 검색하고 클릭하세요.
+
+|                                                                                             |
+| :-----------------------------------------------------------------------------------------: |
+| ![](/img/products/w232n/aws_execute/1_aws_iot_core.png) |
+| 그림: **"IoT 콘솔" 검색**                                                         |
+
+<br />
+<br />
+
+2. 왼쪽의 "Things" 탭을 클릭한 다음 오렌지색 "Create things" 버튼을 누르세요.
+
+|                                                                                             |
+| :-----------------------------------------------------------------------------------------: |
+| ![](/img/products/w232n/aws_execute/2_aws_creating_thing.png) |
+| 그림: **"Things 생성" 클릭**                                                         |
+
+<br />
+<br />
+
+
+3. "Create single thing"을 선택하고 다음 버튼을 누르세요.
+
+|                                                                                             |
+| :-----------------------------------------------------------------------------------------: |
+| ![](/img/products/w232n/aws_execute/3_aws_creating_thing.png) |
+| 그림: **"IoT 콘솔" 검색**                                                         |
+
+<br />
+<br />
+
+
+4. "Thing name"을 입력하고 다음 버튼을 누르세요.
+
+|                                                                                             |
+| :-----------------------------------------------------------------------------------------: |
+| ![](/img/products/w232n/aws_execute/4_aws_creating_thing.png) |
+| 그림: **"Thing name" 입력**                                                         |
+
+<br />
+<br />
+
+
+5. "Auto-generate a new certificate (recommended)"을 선택하고 다음 버튼을 누르세요.
+
+|                                                                                             |
+| :-----------------------------------------------------------------------------------------: |
+| ![](/img/products/w232n/aws_execute/5_aws_creating_thing.png) |
+| 그림: **"Device certificate" 선택**                                                         |
+
+<br />
+<br />
+
+
+6. 다음으로, Thing의 보안을 위한 정책을 생성해야 합니다. "Create policy"를 클릭하세요.
+
+|                                                                                             |
+| :-----------------------------------------------------------------------------------------: |
+| ![](/img/products/w232n/aws_execute/6_aws_creating_policy.png) |
+| 그림: **"Create policy" 클릭**                                                         |
+
+<br />
+<br />
+
+
+7. 정책의 이름을 설정하고 그림과 같이 Policy Document를 구성한 후 생성 버튼을 누르세요.
+
+|                                                                                             |
+| :-----------------------------------------------------------------------------------------: |
+| ![](/img/products/w232n/aws_execute/7_aws_creating_policy.png) |
+| 그림: **정책 정보 설정**                                                         |
+
+<br />
+<br />
+
+
+8. 이전에 열었던 "Create single thing" 페이지로 돌아가서 "Create thing" 버튼을 누르세요.
+
+|                                                                                             |
+| :-----------------------------------------------------------------------------------------: |
+| ![](/img/products/w232n/aws_execute/8_aws_combine_policy.png) |
+| 그림: **"Create thing" 버튼 누르기**                                                         |
+
+<br />
+<br />
+
+
+9. 모든 Key 및 인증서를 다운로드하세요.
+
+|                                                                                             |
+| :-----------------------------------------------------------------------------------------: |
+| ![](/img/products/w232n/aws_execute/9_aws_downloading_cert_key.png) |
+| 그림: **모든 Key 및 인증서 다운로드**                                                         |
+
+<br />
+<br />
+<br />
+<br />
+
+### 2단계: S2E 모듈에 인증서 입력
+
+1. AWS에서 MQTT 테스트 클라이언트 탭을 입력하고 엔드포인트를 복사하세요.
+
+|                                                                                             |
+| :-----------------------------------------------------------------------------------------: |
+| ![](/img/products/w232n/aws_execute/10_aws_copy_endpoint.png) |
+| 그림: **"IoT 콘솔" 검색**                                                         |
+
+<br />
+<br />
+
+2. 구성 도구를 켜서 장치를 검색하고 다음과 같이 "Basic settings" 탭을 설정하세요.
+
+|                                                                                             |
+| :-----------------------------------------------------------------------------------------: |
+| ![](/img/products/w232n/aws_execute/1_device_search.png) |
+| 그림: **구성 도구의 "Basic settings" 탭 설정**                                                         |
+
+<br />
+<br />
+
+3. 다음과 같이 "MQTT options" 탭을 설정하세요.
+
+- MQTT Topics Section
+  - **Publish Topic:** `$aws/things/my_w232n_thing/shadow/update`
+  - **Subscribe Topic:** `$aws/things/my_w232n_thing/shadow/update/accepted`
+
+- MQTT Options
+  - **Client ID:** `my_w232n_thing`
+  - **Keep-Alive:** `60`
+  - **QoS:** `QoS 0`
+
+- Remote Host / Port
+  - **Remote Host:** `복사한 엔드포인트 붙여넣기`  
+  - **Remote Port:** `8883`
+
+|                                                                                             |
+| :-----------------------------------------------------------------------------------------: |
+| ![](/img/products/w232n/aws_execute/2_MQTT_option.png) |
+| 그림: **"MQTT options" 설정**                                                         |
+
+<br />
+<br />
+
+
+4. Certificate Manager 탭으로 가서 아래 그림과 같이 Root CA 섹션을 조정하세요.
+
+|                                                                                             |
+| :-----------------------------------------------------------------------------------------: |
+| ![](/img/products/w232n/aws_execute/3_MQTT_cert_key.png) |
+| 그림: **Root CA 섹션 조정**                                                         |
+
+<br />
+<br />
+
+5. "Load file"을 눌러 다음 인증서 및 키 파일을 로드하세요:
+
+- **Root CA** : AmazonRootCA1.pem
+- **Client Certificate** : xxxxx-certificate.pem.crt
+- **Private Key** : xxxxx-private.pem.key
+
+|                                                                                             |
+| :-----------------------------------------------------------------------------------------: |
+| ![](/img/products/w232n/aws_execute/4_MQTT_cert_key.png) |
+| 그림: **인증서 및 키 파일 로드**                                                         |
+
+<br />
+<br />
+
+6. "Save to device" 버튼을 세 번 누르세요.
+
+|                                                                                             |
+| :-----------------------------------------------------------------------------------------: |
+| ![](/img/products/w232n/aws_execute/5_MQTT_cert_key.png) |
+| 그림: **인증서 및 키 파일 저장**                                                         |
+
+<br />
+<br />
+
+7. "Apply settings"을 누르세요.
+
+|                                                                                             |
+| :-----------------------------------------------------------------------------------------: |
+| ![](/img/products/w232n/aws_execute/6_MQTT_cert_key.png) |
+| 그림: **"Apply settings" 누르기**                                                         |
+
+<br />
+<br />
+<br />
+<br />
+
+
+### 3단계: 실행 (Subscribe)
+
+1. AWS IoT 콘솔 페이지로 돌아가서 "Test" 섹션 아래의 "MQTT test client"를 클릭하여 들어갑니다. 그런 다음 구성 도구의 MQTT Topics Section에서 Publish Topic **$aws/things/my_w232n_thing/shadow/update**를 "Topic filter"에 입력하고 Subscribe 버튼을 누르세요.
+
+|                                                                                             |
+| :-----------------------------------------------------------------------------------------: |
+| ![](/img/products/w232n/aws_execute/1_aws_sub_topic.png) |
+| 그림: **주제 구독**                                                         |
+
+<br />
+<br />
+
+2. S2E 모듈의 UART에 연결된 USB 포트를 시리얼 터미널 도구를 사용하여 열고 데이터를 전송하세요.
+
+|                                                                                             |
+| :-----------------------------------------------------------------------------------------: |
+| ![](/img/products/w232n/aws_execute/2_aws_sub_topic.png) |
+| 그림: **데이터 전송**                                                         |
+
+<br />
+<br />
+
+3. 이렇게 하면 AWS와의 MQTT 통신이 올바르게 작동하는지 확인할 수 있습니다.
+
+|                                                                                             |
+| :-----------------------------------------------------------------------------------------: |
+| ![](/img/products/w232n/aws_execute/3_aws_sub_topic.png) |
+| 그림: **AWS와의 성공적인 MQTT 통신**                                                         |
+
+<br />
+<br />
+<br />
+<br />
+
+### 4단계: 실행 (Publish)
+
+1. AWS IoT 콘솔 페이지로 돌아가서 "Test" 섹션 아래의 "MQTT test client"를 클릭합니다. 그런 다음 구성 도구의 MQTT Topics Section에서 Subscribe Topic $aws/things/my_w232n_thing/shadow/update/accepted를 "Topic name"에 입력하고 Publish 버튼을 누르세요.
+
+|                                                                                             |
+| :-----------------------------------------------------------------------------------------: |
+| ![](/img/products/w232n/aws_execute/4_aws_pub_topic.png) |
+| 그림: **주제에 게시**                                                         |
+
+<br />
+<br />
+
+2. 시리얼 창에서 AWS에서 보낸 데이터를 확인할 수 있습니다.
+
+|                                                                                             |
+| :-----------------------------------------------------------------------------------------: |
+| ![](/img/products/w232n/aws_execute/5_aws_pub_topic.png) |
+| 그림: **AWS와의 성공적인 MQTT 통신**                                                         |

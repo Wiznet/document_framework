@@ -153,7 +153,7 @@ WIZ5xxSR-RP is successfully connected to the MQTT broker!
 
 
 
-## how to connect using MQTT with AWS
+## How to connect using MQTT with AWS
 
 ### Step 1: Creating a Thing and Policy in AWS and downloading the certificate
 
