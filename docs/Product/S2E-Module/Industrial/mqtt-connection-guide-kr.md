@@ -162,7 +162,7 @@ W232N이 MQTT 브로커에 성공적으로 연결되었습니다!
 
 |                                                                                             |
 | :-----------------------------------------------------------------------------------------: |
-| ![](/img/products/w232n/aws_execute/1_aws_iot_core.png) |
+| <img src="/img/products/w232n/aws_execute/1_aws_iot_core.png" width="400" /> |
 | 그림: **"IoT 콘솔" 검색**                                                         |
 
 <br />
@@ -172,7 +172,7 @@ W232N이 MQTT 브로커에 성공적으로 연결되었습니다!
 
 |                                                                                             |
 | :-----------------------------------------------------------------------------------------: |
-| ![](/img/products/w232n/aws_execute/2_aws_creating_thing.png) |
+| <img src="/img/products/w232n/aws_execute/2_aws_creating_thing.png" width="400" /> |
 | 그림: **"Things 생성" 클릭**                                                         |
 
 <br />
@@ -183,7 +183,7 @@ W232N이 MQTT 브로커에 성공적으로 연결되었습니다!
 
 |                                                                                             |
 | :-----------------------------------------------------------------------------------------: |
-| ![](/img/products/w232n/aws_execute/3_aws_creating_thing.png) |
+| <img src="/img/products/w232n/aws_execute/3_aws_creating_thing.png" width="400" /> |
 | 그림: **"IoT 콘솔" 검색**                                                         |
 
 <br />
@@ -194,7 +194,7 @@ W232N이 MQTT 브로커에 성공적으로 연결되었습니다!
 
 |                                                                                             |
 | :-----------------------------------------------------------------------------------------: |
-| ![](/img/products/w232n/aws_execute/4_aws_creating_thing.png) |
+| <img src="/img/products/w232n/aws_execute/4_aws_creating_thing.png" width="400" /> |
 | 그림: **"Thing name" 입력**                                                         |
 
 <br />
@@ -205,7 +205,7 @@ W232N이 MQTT 브로커에 성공적으로 연결되었습니다!
 
 |                                                                                             |
 | :-----------------------------------------------------------------------------------------: |
-| ![](/img/products/w232n/aws_execute/5_aws_creating_thing.png) |
+| <img src="/img/products/w232n/aws_execute/5_aws_creating_thing.png" width="400" /> |
 | 그림: **"Device certificate" 선택**                                                         |
 
 <br />
@@ -216,7 +216,7 @@ W232N이 MQTT 브로커에 성공적으로 연결되었습니다!
 
 |                                                                                             |
 | :-----------------------------------------------------------------------------------------: |
-| ![](/img/products/w232n/aws_execute/6_aws_creating_policy.png) |
+| <img src="/img/products/w232n/aws_execute/6_aws_creating_policy.png" width="400" /> |
 | 그림: **"Create policy" 클릭**                                                         |
 
 <br />
@@ -227,7 +227,7 @@ W232N이 MQTT 브로커에 성공적으로 연결되었습니다!
 
 |                                                                                             |
 | :-----------------------------------------------------------------------------------------: |
-| ![](/img/products/w232n/aws_execute/7_aws_creating_policy.png) |
+| <img src="/img/products/w232n/aws_execute/7_aws_creating_policy.png" width="400" /> |
 | 그림: **정책 정보 설정**                                                         |
 
 <br />
@@ -238,7 +238,7 @@ W232N이 MQTT 브로커에 성공적으로 연결되었습니다!
 
 |                                                                                             |
 | :-----------------------------------------------------------------------------------------: |
-| ![](/img/products/w232n/aws_execute/8_aws_combine_policy.png) |
+| <img src="/img/products/w232n/aws_execute/8_aws_combine_policy.png" width="400" /> |
 | 그림: **"Create thing" 버튼 누르기**                                                         |
 
 <br />
@@ -249,7 +249,7 @@ W232N이 MQTT 브로커에 성공적으로 연결되었습니다!
 
 |                                                                                             |
 | :-----------------------------------------------------------------------------------------: |
-| ![](/img/products/w232n/aws_execute/9_aws_downloading_cert_key.png) |
+| <img src="/img/products/w232n/aws_execute/9_aws_downloading_cert_key.png" width="400" /> |
 | 그림: **모든 Key 및 인증서 다운로드**                                                         |
 
 <br />
@@ -263,7 +263,7 @@ W232N이 MQTT 브로커에 성공적으로 연결되었습니다!
 
 |                                                                                             |
 | :-----------------------------------------------------------------------------------------: |
-| ![](/img/products/w232n/aws_execute/10_aws_copy_endpoint.png) |
+| <img src="/img/products/w232n/aws_execute/10_aws_copy_endpoint.png" width="400" /> |
 | 그림: **"IoT 콘솔" 검색**                                                         |
 
 <br />
@@ -273,7 +273,7 @@ W232N이 MQTT 브로커에 성공적으로 연결되었습니다!
 
 |                                                                                             |
 | :-----------------------------------------------------------------------------------------: |
-| ![](/img/products/w232n/aws_execute/1_device_search.png) |
+| <img src="/img/products/w232n/aws_execute/1_device_search.png" width="400" /> |
 | 그림: **구성 도구의 "Basic settings" 탭 설정**                                                         |
 
 <br />
@@ -282,21 +282,21 @@ W232N이 MQTT 브로커에 성공적으로 연결되었습니다!
 3. 다음과 같이 "MQTT options" 탭을 설정하세요.
 
 - MQTT Topics Section
-  - **Publish Topic:** `$aws/things/my_w232n_thing/shadow/update`
-  - **Subscribe Topic:** `$aws/things/my_w232n_thing/shadow/update/accepted`
+  - **Publish Topic:** $aws/things/my_w232n_thing/shadow/update
+  - **Subscribe Topic:** $aws/things/my_w232n_thing/shadow/update/accepted
 
 - MQTT Options
-  - **Client ID:** `my_w232n_thing`
-  - **Keep-Alive:** `60`
-  - **QoS:** `QoS 0`
+  - **Client ID:** my_w232n_thing
+  - **Keep-Alive:** 60
+  - **QoS:** QoS 0
 
 - Remote Host / Port
-  - **Remote Host:** `복사한 엔드포인트 붙여넣기`  
-  - **Remote Port:** `8883`
+  - **Remote Host:** 복사한 엔드포인트 붙여넣기  
+  - **Remote Port:** 8883
 
 |                                                                                             |
 | :-----------------------------------------------------------------------------------------: |
-| ![](/img/products/w232n/aws_execute/2_MQTT_option.png) |
+| <img src="/img/products/w232n/aws_execute/2_MQTT_option.png" width="400" /> |
 | 그림: **"MQTT options" 설정**                                                         |
 
 <br />
@@ -307,7 +307,7 @@ W232N이 MQTT 브로커에 성공적으로 연결되었습니다!
 
 |                                                                                             |
 | :-----------------------------------------------------------------------------------------: |
-| ![](/img/products/w232n/aws_execute/3_MQTT_cert_key.png) |
+| <img src="/img/products/w232n/aws_execute/3_MQTT_cert_key.png" width="400" /> |
 | 그림: **Root CA 섹션 조정**                                                         |
 
 <br />
@@ -321,7 +321,7 @@ W232N이 MQTT 브로커에 성공적으로 연결되었습니다!
 
 |                                                                                             |
 | :-----------------------------------------------------------------------------------------: |
-| ![](/img/products/w232n/aws_execute/4_MQTT_cert_key.png) |
+| <img src="/img/products/w232n/aws_execute/4_MQTT_cert_key.png" width="400" /> |
 | 그림: **인증서 및 키 파일 로드**                                                         |
 
 <br />
@@ -331,7 +331,7 @@ W232N이 MQTT 브로커에 성공적으로 연결되었습니다!
 
 |                                                                                             |
 | :-----------------------------------------------------------------------------------------: |
-| ![](/img/products/w232n/aws_execute/5_MQTT_cert_key.png) |
+| <img src="/img/products/w232n/aws_execute/5_MQTT_cert_key.png" width="400" /> |
 | 그림: **인증서 및 키 파일 저장**                                                         |
 
 <br />
@@ -341,7 +341,7 @@ W232N이 MQTT 브로커에 성공적으로 연결되었습니다!
 
 |                                                                                             |
 | :-----------------------------------------------------------------------------------------: |
-| ![](/img/products/w232n/aws_execute/6_MQTT_cert_key.png) |
+| <img src="/img/products/w232n/aws_execute/6_MQTT_cert_key.png" width="400" /> |
 | 그림: **"Apply settings" 누르기**                                                         |
 
 <br />
@@ -356,7 +356,7 @@ W232N이 MQTT 브로커에 성공적으로 연결되었습니다!
 
 |                                                                                             |
 | :-----------------------------------------------------------------------------------------: |
-| ![](/img/products/w232n/aws_execute/1_aws_sub_topic.png) |
+| <img src="/img/products/w232n/aws_execute/1_aws_sub_topic.png" width="400" /> |
 | 그림: **주제 구독**                                                         |
 
 <br />
@@ -366,7 +366,7 @@ W232N이 MQTT 브로커에 성공적으로 연결되었습니다!
 
 |                                                                                             |
 | :-----------------------------------------------------------------------------------------: |
-| ![](/img/products/w232n/aws_execute/2_aws_sub_topic.png) |
+| <img src="/img/products/w232n/aws_execute/2_aws_sub_topic.png" width="400" /> |
 | 그림: **데이터 전송**                                                         |
 
 <br />
@@ -376,7 +376,7 @@ W232N이 MQTT 브로커에 성공적으로 연결되었습니다!
 
 |                                                                                             |
 | :-----------------------------------------------------------------------------------------: |
-| ![](/img/products/w232n/aws_execute/3_aws_sub_topic.png) |
+| <img src="/img/products/w232n/aws_execute/3_aws_sub_topic.png" width="400" /> |
 | 그림: **AWS와의 성공적인 MQTT 통신**                                                         |
 
 <br />
@@ -390,7 +390,7 @@ W232N이 MQTT 브로커에 성공적으로 연결되었습니다!
 
 |                                                                                             |
 | :-----------------------------------------------------------------------------------------: |
-| ![](/img/products/w232n/aws_execute/4_aws_pub_topic.png) |
+| <img src="/img/products/w232n/aws_execute/4_aws_pub_topic.png" width="400" /> |
 | 그림: **주제에 게시**                                                         |
 
 <br />
@@ -400,5 +400,5 @@ W232N이 MQTT 브로커에 성공적으로 연결되었습니다!
 
 |                                                                                             |
 | :-----------------------------------------------------------------------------------------: |
-| ![](/img/products/w232n/aws_execute/5_aws_pub_topic.png) |
-| 그림: **AWS와의 성공적인 MQTT 통신**                                                         |
+| <img src="/img/products/w232n/aws_execute/5_aws_pub_topic.png" width="400" /> |
+| 그림: **AWS와의 성공적인 MQTT 통신**       
