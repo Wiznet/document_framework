@@ -184,7 +184,7 @@ W232N이 MQTT 브로커에 성공적으로 연결되었습니다!
 |                                                                                             |
 | :-----------------------------------------------------------------------------------------: |
 | <img src="/img/products/w232n/aws_execute/3_aws_creating_thing.png" width="600" /> |
-| 그림: **"IoT 콘솔" 검색**                                                         |
+| 그림: **"Create things" 검색**                                                         |
 
 <br />
 <br />
@@ -206,7 +206,7 @@ W232N이 MQTT 브로커에 성공적으로 연결되었습니다!
 |                                                                                             |
 | :-----------------------------------------------------------------------------------------: |
 | <img src="/img/products/w232n/aws_execute/5_aws_creating_thing.png" width="600" /> |
-| 그림: **"Device certificate" 선택**                                                         |
+| 그림: **"Auto-generate a new certificate" 선택 후 "Next"클릭**                                                         |
 
 <br />
 <br />

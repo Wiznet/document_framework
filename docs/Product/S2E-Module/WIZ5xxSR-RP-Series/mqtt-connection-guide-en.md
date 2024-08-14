@@ -182,7 +182,7 @@ WIZ5xxSR-RP is successfully connected to the MQTT broker!
 |                                                                                             |
 | :-----------------------------------------------------------------------------------------: |
 | <img src="/img/products/w232n/aws_execute/3_aws_creating_thing.png" width="600" /> |
-| Figure: **search for "IoT console"**                                                         |
+| Figure: **Select "Create single thing" and Click "Next"**                                                         |
 
 
 4. Enter the "Thing name" and press the Next button.
@@ -197,7 +197,7 @@ WIZ5xxSR-RP is successfully connected to the MQTT broker!
 |                                                                                             |
 | :-----------------------------------------------------------------------------------------: |
 | <img src="/img/products/w232n/aws_execute/5_aws_creating_thing.png" width="600" /> |
-| Figure: **Select "Device certificate"**                                                         |
+| Figure: **Select "Auto-generate a new certificate" and Click "Next"**                                                         |
 
 
 6. Next, you need to create a policy for the security of the thing. Click on "Create policy"
@@ -241,7 +241,7 @@ WIZ5xxSR-RP is successfully connected to the MQTT broker!
 |                                                                                             |
 | :-----------------------------------------------------------------------------------------: |
 | <img src="/img/products/w232n/aws_execute/10_aws_copy_endpoint.png" width="600" /> |
-| Figure: **search for "IoT console"**                                                         |
+| Figure: **Copy 'Endpoint'"**                                                         |
 
 2. Turn on the configuration tool, search for the device, and set the "Basic settings" tab as follows.
 
