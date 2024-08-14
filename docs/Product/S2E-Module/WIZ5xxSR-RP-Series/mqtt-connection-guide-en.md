@@ -228,7 +228,7 @@ WIZ5xxSR-RP is successfully connected to the MQTT broker!
 
 |                                                                                             |
 | :-----------------------------------------------------------------------------------------: |
-| ![](/img/products/w232n/aws_execute/9_aws_downloading cert_key.png) |
+| ![](/img/products/w232n/aws_execute/9_aws_downloading_cert_key.png) |
 | Figure: **Downloading all the Key & certificates**                                                         |
 
 
