@@ -54,7 +54,7 @@ Install JAVA Runtime Environment
 
 **Configuration Tool Firmware Upload Guide(TFTP)**  
 
-<a href="/img/products/wiz550sr/wiz550s2e_fw_uploading_tftp.pdf" target="_blank">Configuration Tool Fw upload guide(TFTP)</a>
+<a href="/img/products/wiz550sr/wiz550s2e_fw_uploading_tftp_new.pdf" target="_blank">Configuration Tool Fw upload guide(TFTP)</a>
 
 -----
 

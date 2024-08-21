@@ -35,7 +35,7 @@ For all revision binary files including below, you can see at the [release](http
 
 ### Firmware upload(TFTP) guide
 
-<a href="/img/products/wiz550s2e/wiz550s2e_fw_uploading_tftp.pdf" target="_blank">Guide Document</a>
+<a href="/img/products/wiz550s2e/wiz550s2e_fw_uploading_tftp_new.pdf" target="_blank">Guide Document</a>
 
 - **Notice**
     - a working gateway is needed
