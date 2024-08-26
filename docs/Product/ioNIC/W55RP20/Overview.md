@@ -8,13 +8,15 @@ date: 2023-03-21
 
 # W55RP20
 
+![](/img/products/w55rp20/W55RP20_Chip.jpg)
+
+----
+
 ## Overview
 
 - Our latest ioNIC integrates serial interfaces with Ethernet connectivity, offering tailor-made networking solutions for you. Experience optimized performance for industry-specific applications with support for various network protocols, enhanced SSL security features and cloud SDKs! 
 
 ![](/img/products/w55rp20/w55rp20_overview.png)
-
-![](/img/products/w55rp20/W55RP20_Chip.jpg)
 
 ----
 
