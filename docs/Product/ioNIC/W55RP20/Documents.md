@@ -4,31 +4,29 @@ title: Documents
 date: 2024-07-31
 ---
 
-The **DataSheet** provides the ordering information and mechanical device characteristics of the W55RP20 microcontrollers.  
-The **Reference Manual** provides the register map of peripherals and brief description.  
+## W55RP20 DataSheet
 
+### Korean
+- W55RP20 Datesheet (Update Coming Soon)
 
-
-## Data Sheet
-
-### W55RP20 Data sheet
-- W55RP20 Data sheet
+### English
+- W55RP20 Datesheet (Update Coming Soon)
 
 | Version | Date      | Decription                                                                                                               |
 | ------- | --------- | ------------------------------------------------------------------------------------------------------------------------ |
-| V 1.0.0 |  | Initial Release                                                                                                          |
+| Update Coming Soon |  | Update Coming Soon                                                                                                         |
 
 -------------------
 For detailed technical information, electrical characteristics, and programming guidelines, please refer to the datasheets for the individual components of the W55RP20 chip.
-### RP2040 Data sheet
-- [RP2040 Data sheet](https://www.raspberrypi.com/documentation/microcontrollers/rp2040.html#documentation)
+## RP2040 Datasheet
+- [RP2040 Datasheet](https://www.raspberrypi.com/documentation/microcontrollers/rp2040.html#documentation)
 
-### W5500 Data sheet
-- [W5500 Data sheet](https://docs.wiznet.io/Product/iEthernet/W5500/datasheet)
+## W5500 Datasheet
+- [W5500 Datasheet](https://docs.wiznet.io/Product/iEthernet/W5500/datasheet)
 
 
 
-## Reference Manual
-  - Reference Manual
+## Reference Design
+  - Reference Design
 
 

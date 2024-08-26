@@ -8,29 +8,63 @@ date: 2023-03-21
 
 # W55RP20
 
-
-----
-
-**Coming sooon**
-
-
-
-![image](https://github.com/Wiznet/document_framework/assets/77008882/fcfc0573-8de7-434a-9608-0f47a39f557a)
-
-
-
 ## Overview
 
 - Our latest ioNIC integrates serial interfaces with Ethernet connectivity, offering tailor-made networking solutions for you. Experience optimized performance for industry-specific applications with support for various network protocols, enhanced SSL security features and cloud SDKs! 
 
-![](/img/products/sip.jpg)
+![](/img/products/w55rp20/w55rp20_overview.jpg)
+
+![](/img/products/w55rp20/W55RP20_Chip.jpg)
+
+----
+
+The W55RP20 chip is a System-in-Package (SiP) solution that integrates WIZnet's W5500 Ethernet controller with the RP2040 microcontroller from Raspberry Pi, providing networking and processing capabilities for IoT devices and smart applications. The W5500 supports a hardware TCP/IP stack, simplifying network connectivity and communication management, and offers an efficient solution without the need for external memory. The RP2040 features a dual-core ARM Cortex-M0+ processor, enabling fast data processing and multitasking capabilities to handle multiple tasks simultaneously. 
+
+This chip is designed to be compatible with various programming environments, supporting languages such as Python and C/C++, making it easier for developers to implement applications. Additionally, it supports various external interfaces and GPIO, ADC, UART, SPI, and I2C, facilitating connections with sensors, actuators, and other peripheral devices. 
+
+![](/img/products/w55rp20/W55RP20_system_overview.png)
+
+## Pin Map
+
+![](/img/products/w55rp20/W55RP20_pinout_v2_1.png)
 
 ## Features
+* Dual ARM Cortex-M0+ @ 133MHz 
+* Hardwired TCP/IP stack 
+* 2MByte Flash memory on-chip 
+* 264kB on-chip SRAM in six independent banks 
+* DMA controller 
+* Fully-connected AHB crossbar 
+* Interpolator and integer divider peripherals 
+* On-chip programmable LDO to generate core voltage 
+* 2 on-chip PLLs to generate USB and core clocks 
+* 23 GPIO pins, 4 of which can be used as analogue inputs 
+* Peripherals 
+    * 2 UARTs 
+    * 2 SPI controllers 
+    * 2 I2C controllers 
+    * 16 PWM channels 
+    * USB 1.1 controller and PHY, with host and device support 
+    * 8 PIO state machines 
+* Supported Network Protocols 
+    * TCP  
+    * UDP 
+    * IPv4 
+    * ICMP 
+    * ARP 
+    * IGMP 
+    * PPPoE 
 
-* 2-in-1: Dual-core ARM Cortex-M0+ & Hardwired TCP/IP stack
-* Compact size
-* Flash Memory : 2MB
-* Supported input power 1.8–5.5V DC
-* Protocol support: TCP, UDP, IPv4, ICMP, ARP, IGMP, and PPPoE
-* SDK : C/C++, MicroPython, CircuitPython, FreeRTOS, Arduino, LwIP
-* Service : AWS, Azure, TLS, SSL, MQTT, HTTP.etc.)
+
+## Details
+### Documents
+- Datasheet
+    - [W55RP20](https://docs.wiznet.io/Product/ioNIC/W55RP20/documents_md#data-sheet)
+    - [RP2040](https://docs.wiznet.io/Product/ioNIC/W55RP20/documents_md#rp2040-data-sheet)
+    - [W5500](https://docs.wiznet.io/Product/iEthernet/W5500/datasheet)
+
+### Related EVB-Pico
+- [Description of W55RP20-EVB-Pico](https://docs.wiznet.io/Product/ioNIC/W55RP20/w55rp20-evb-pico)
+    - Features
+    - Technical Reference
+    - Firmware Example

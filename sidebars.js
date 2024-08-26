@@ -37,7 +37,7 @@ module.exports = {
 		{
 			type: 'category',
 			label: 'ioNIC',
-			link: {type: 'doc', id: 'Product/ioNIC/ionic'},
+			//link: {type: 'doc', id: 'Product/ioNIC/ionic'},
 			items: [
 				//'Product/ioMCU/iomcu',
 				{
@@ -47,7 +47,6 @@ module.exports = {
 				items: [
 				'Product/ioNIC/W55RP20/w55rp20-evb-pico',
 				'Product/ioNIC/W55RP20/documents_md',
-				'Product/ioNIC/W55RP20/user-manual',
 				],
 				},			
 			],
