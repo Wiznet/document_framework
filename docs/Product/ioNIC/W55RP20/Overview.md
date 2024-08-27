@@ -8,7 +8,17 @@ date: 2023-03-21
 
 # W55RP20
 
-![](/img/products/w55rp20/W55RP20_Chip.jpg)
+<p align="center">
+  <img src="/img/products/w55rp20/W55RP20_Chip_Coming_Soon.png">
+</p>
+
+![](/img/products/w55rp20/W55RP20_Chip_Coming_Soon.png)
+<!-- ![](/img/products/w55rp20/W55RP20_Chip.jpg) -->
+
+:::note
+
+Experience optimized networking with our upcoming W55RP20 chip, integrating serial interfaces and Ethernet for enhanced performance and security.
+:::
 
 ----
 
@@ -69,4 +79,12 @@ This chip is designed to be compatible with various programming environments, su
 - [Description of W55RP20-EVB-Pico](https://docs.wiznet.io/Product/ioNIC/W55RP20/w55rp20-evb-pico)
     - Features
     - Technical Reference
-    - Firmware Example
+- Firmware Example
+    - C/C++
+        - [Ethernet Examples](https://github.com/WIZnet-ioNIC/WIZnet-PICO-C)
+        - [AWS Examples](https://github.com/WIZnet-ioNIC/WIZnet-PICO-AWS-C)
+        - [Azure Examples](https://github.com/WIZnet-ioNIC/WIZnet-PICO-AZURE-C)
+        - [LwIP Examples](https://github.com/WIZnet-ioNIC/WIZnet-PICO-LWIP-C)
+        - [FreeRTOS Examples](https://github.com/WIZnet-ioNIC/WIZnet-PICO-FREERTOS-C)
+    - CircuitPython Examples (Update Coming Soon)
+    - MicroPython Examples (Update Coming Soon)
