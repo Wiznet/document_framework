@@ -37,7 +37,10 @@ This chip is designed to be compatible with various programming environments, su
 
 ## Pin Map
 
-![](/img/products/w55rp20/W55RP20_pinout_v2_1.png)
+
+<p align="center">
+  <img src="/img/products/w55rp20/W55RP20_pinout_v2_1.png" />
+</p>
 
 ## Features
 * Dual ARM Cortex-M0+ @ 133MHz 
