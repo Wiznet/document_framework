@@ -9,7 +9,7 @@ date: 2023-03-21
 # W55RP20
 
 <p align="center">
-  <img src="/img/products/w55rp20/W55RP20_Chip_Coming_Soon.png">
+  <img src="/img/products/w55rp20/W55RP20_Chip_Coming_Soon.png" />
 </p>
 
 ![](/img/products/w55rp20/W55RP20_Chip_Coming_Soon.png)
