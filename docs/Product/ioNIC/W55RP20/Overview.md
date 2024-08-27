@@ -12,7 +12,6 @@ date: 2023-03-21
   <img src="/img/products/w55rp20/W55RP20_Chip_Coming_Soon.png" />
 </p>
 
-![](/img/products/w55rp20/W55RP20_Chip_Coming_Soon.png)
 <!-- ![](/img/products/w55rp20/W55RP20_Chip.jpg) -->
 
 :::note
