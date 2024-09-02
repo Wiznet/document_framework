@@ -39,7 +39,7 @@ This chip is designed to be compatible with various programming environments, su
 
 
 <p align="center">
-  <img src="/img/products/w55rp20/W55RP20_pinout_v2_1.png" />
+  <img src="/img/products/w55rp20/W55RP20_pinout_v3.png" />
 </p>
 
 ## Features
