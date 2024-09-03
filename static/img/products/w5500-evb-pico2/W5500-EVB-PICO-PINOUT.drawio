@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/127.0.0.0 Safari/537.36" version="24.7.7">
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/127.0.0.0 Safari/537.36" version="24.7.10">
   <diagram id="nEwKaOGvaP_pqvt0_Eo6" name="페이지-1">
-    <mxGraphModel dx="3160" dy="3634" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="3452" dy="3796" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -1177,20 +1177,17 @@
             <mxPoint x="459.9305" y="-847.8409000000001" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="35cWbwqmRifJ8qldfdW6-1" value="" style="shape=image;verticalLabelPosition=bottom;labelBackgroundColor=default;verticalAlign=top;aspect=fixed;imageAspect=0;image=https://docs.wiznet.io/assets/images/w5500-evb-pico-pinout-fe942a8c8d6e9d591c0ae8bc7312d592.png;clipPath=inset(0.19% 54.67% 22.08% 0%);" vertex="1" parent="1">
+        <mxCell id="35cWbwqmRifJ8qldfdW6-1" value="" style="shape=image;verticalLabelPosition=bottom;labelBackgroundColor=default;verticalAlign=top;aspect=fixed;imageAspect=0;image=https://docs.wiznet.io/assets/images/w5500-evb-pico-pinout-fe942a8c8d6e9d591c0ae8bc7312d592.png;clipPath=inset(0.19% 54.67% 22.08% 0%);" parent="1" vertex="1">
           <mxGeometry x="-428" y="-1152.73" width="740.62" height="1121.82" as="geometry" />
         </mxCell>
-        <mxCell id="35cWbwqmRifJ8qldfdW6-3" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;jumpSize=6;orthogonalLoop=1;jettySize=auto;html=1;fontSize=23;fontColor=#000000;strokeColor=#CCCCCC;strokeWidth=3;endArrow=none;endFill=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="hW7YEvY4cNFws47uEGlz-19" target="35cWbwqmRifJ8qldfdW6-2">
+        <mxCell id="35cWbwqmRifJ8qldfdW6-3" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;jumpSize=6;orthogonalLoop=1;jettySize=auto;html=1;fontSize=23;fontColor=#000000;strokeColor=#CCCCCC;strokeWidth=3;endArrow=none;endFill=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="hW7YEvY4cNFws47uEGlz-19" target="35cWbwqmRifJ8qldfdW6-2" edge="1">
           <mxGeometry x="450" y="-980" as="geometry">
             <mxPoint x="1050" y="-323" as="targetPoint" />
             <mxPoint x="870" y="-324" as="sourcePoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="35cWbwqmRifJ8qldfdW6-2" value="" style="shape=image;verticalLabelPosition=bottom;labelBackgroundColor=default;verticalAlign=top;aspect=fixed;imageAspect=0;image=https://docs.wiznet.io/assets/images/w5500-evb-pico-pinout-fe942a8c8d6e9d591c0ae8bc7312d592.png;clipPath=inset(0.57% 0% 39.06% 66%);" vertex="1" parent="1">
+        <mxCell id="35cWbwqmRifJ8qldfdW6-2" value="" style="shape=image;verticalLabelPosition=bottom;labelBackgroundColor=default;verticalAlign=top;aspect=fixed;imageAspect=0;image=https://docs.wiznet.io/assets/images/w5500-evb-pico-pinout-fe942a8c8d6e9d591c0ae8bc7312d592.png;clipPath=inset(0.57% 0% 39.06% 66%);" parent="1" vertex="1">
           <mxGeometry x="656.05" y="-1143" width="550.19" height="863" as="geometry" />
-        </mxCell>
-        <mxCell id="35cWbwqmRifJ8qldfdW6-4" value="" style="shape=image;verticalLabelPosition=bottom;labelBackgroundColor=default;verticalAlign=top;aspect=fixed;imageAspect=0;image=https://docs.wiznet.io/assets/images/w5500-evb-pico-pinout-fe942a8c8d6e9d591c0ae8bc7312d592.png;clipPath=inset(63.21% 0% 0% 66%);" vertex="1" parent="1">
-          <mxGeometry x="670" y="-277.15000000000003" width="552.87" height="528.4786764705882" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
