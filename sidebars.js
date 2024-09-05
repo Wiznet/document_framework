@@ -687,6 +687,14 @@ module.exports = {
 				label: 'Industrial',
 				items: [
 					{
+
+						type: 'category',
+						label: 'W232N',
+						items: [
+						'Product/S2E-Module/Industrial/W232N-datasheet-kr',
+						]
+					},
+					{
 						type: 'category',
 						label: 'Common docs for using',
 						items: [
@@ -698,13 +706,6 @@ module.exports = {
 						'Product/S2E-Module/Industrial/firmware-update-guide-kr',
 						'Product/S2E-Module/Industrial/Web_Config_Guide_KO',
 						'Product/S2E-Module/Industrial/factory-rst-guide-kr',
-						]
-					},
-					{
-						type: 'category',
-						label: 'W232N',
-						items: [
-						'Product/S2E-Module/Industrial/W232N-datasheet-kr',
 						]
 					},
 					
