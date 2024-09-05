@@ -229,3 +229,29 @@ W232N은 DC Jack, 터미널 블럭, PoE 지원 제품일 경우 RJ45 Jack을 통
 - <a href="/img/products/w232n/KC.pdf" target="_blank">KC 인증</a>
 - <a href="/img/products/w232n/FCC.pdf" target="_blank">FCC 인증</a>
 -->
+
+## 설계 파일
+
+### 회로
+
+| H/W version | Filetype | Download Link                                                | Remarks |
+| ----------- | ---- | -------- | ------------------------------------------------------------ | ------- |
+| 1.0         | Altium   | ![](/img/products/w5500/w5500_evb/icons/download.png) <a href="https://github.com/Wiznet/Hardware-Files-of-WIZnet/raw/master/04_Serial_to_Ethernet_Module/W232N/Schematic/W232N_R100.zip" target="_blank">Download</a> | \-      |
+| :::         | PDF      | ![](/img/products/w5500/w5500_evb/icons/download.png) <a href="https://github.com/Wiznet/Hardware-Files-of-WIZnet/raw/bfa5e2d9cdb636196d6c1341709c02d7052f4d18/04_Serial_to_Ethernet_Module/W232N/Schematic/W232N_R100.pdf" target="_blank">Download</a> | \-      |
+
+
+### Part list
+
+| H/W version | Filetype | Download Link                                               | Remarks |
+| ----------- | ---- | -------- | ------------------------------------------------------------ | ------- |
+| 1.0         | Excel    | ![](/img/products/w5500/w5500_evb/icons/download.png) <a href="https://github.com/Wiznet/Hardware-Files-of-WIZnet/raw/bfa5e2d9cdb636196d6c1341709c02d7052f4d18/04_Serial_to_Ethernet_Module/W232N/Partlist/W232N%20PL_R100.xlsx" target="_blank">Download</a> | \-      |
+| :::         | PDF      | ![](/img/products/w5500/w5500_evb/icons/download.png) <a href="https://github.com/Wiznet/Hardware-Files-of-WIZnet/raw/bfa5e2d9cdb636196d6c1341709c02d7052f4d18/04_Serial_to_Ethernet_Module/W232N/Partlist/W232N%20PL_R100.pdf" target="_blank">Download</a> | \-      |
+
+<!--
+### 3D Model
+
+| H/W version | Filetype | Download Link                                               | Remarks |
+| ----------- | ---- | -------- | ------------------------------------------------------------ | ------- |
+| 1.0         |     | ![](/img/products/w5500/w5500_evb/icons/download.png) <a href="https://github.com/Wiznet/Hardware-Files-of-WIZnet/raw/4d4c49d044e6d49c58748386eb2b5292ab607564/04_Serial_to_Ethernet_Module/WIZ510SR-RP/WIZ510SR-RP_V100/Partlist/WIZ510SR-RP_PL_V100.xlsx" target="_blank">Download</a> | \-      |
+
+-->
