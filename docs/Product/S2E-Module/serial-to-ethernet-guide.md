@@ -180,7 +180,7 @@ For detailed instructions, see the link below.
 :::info
 
 * Environments under Windows 7 support only the old version, if necessary, contact the technical support team.
-  * [Developer Forum](https://forum.wiznet.io)
+  * [Developer Forum](https://maker.wiznet.io/forum)
   * Channel Talk: https://www.wiznet.io --> Click the button on bottom right
 * **The current WIZVSP driver does not officially support the Windows 11 environment**, so operation cannot be guaranteed and technical support is difficult.
   * To use in the Windows 11 environment, you must manually enable the port using the 'Scan for hardware changes' menu in Device Manager.

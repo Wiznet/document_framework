@@ -146,7 +146,7 @@ W5500イーサネットシールドにはW5500チップが使用されました�
 
 ##  参考
 
-![](/img/products/w5500/w5500_evb/icons/link.png) [WizWiki Forum](https://forum.wiznet.io/) : WIZnetの技術的サポートやプロジェクトを共有するフォーラム
+![](/img/products/w5500/w5500_evb/icons/link.png) [WizWiki Forum](https://maker.wiznet.io/forum/) : WIZnetの技術的サポートやプロジェクトを共有するフォーラム
 
 [Ethernet Library for ioShield-A](./ethernet_library_for_ioShield_A.md) : WIZnet WIZ550ioの技術的サポート
 

@@ -160,15 +160,7 @@ module.exports = {
 					//'Product/iMCU/W7500P/all_pages',
 				],
 				},
-				{			
-					type: 'category',
-					label: 'W7100',
-					link: {type: 'doc', id: 'Product/iMCU/W7100/w7100a'},
-					items: [
-						//'Product/iMCU/W7100/w7100a',
-						'Product/iMCU/W7100/imcu7100-evb',
-					],
-				},
+				
 					//'Product/iMCU/w7100a',			
 			],
 		},
@@ -615,20 +607,7 @@ module.exports = {
 				},
 				//'Product/S2E-Module/wiz107sr',
 				//'Product/S2E-Module/wiz107sr_um',
-				{
-				type: 'category',
-				label: 'WIZ107SR', // string - the label that should be displayed.
-				link: {type: 'doc', id: 'Product/S2E-Module/WIZ107SR/wiz107sr'},
-				items: [//'Product/S2E-Module/WIZ107SR/wiz107sr',
-						'Product/S2E-Module/WIZ107SR/wiz107sr-evb']
-				},
-				{
-				type: 'category',
-				label: 'WIZ108SR', // string - the label that should be displayed.
-				link: {type: 'doc', id: 'Product/S2E-Module/WIZ108SR/wiz108sr'},
-				items: [//'Product/S2E-Module/WIZ108SR/wiz108sr',
-						'Product/S2E-Module/WIZ108SR/wiz108sr-evb']
-				},
+				
 				'Product/S2E-Module/WIZ110SR/wiz110sr',
 				{
 				type: 'category',
@@ -1076,6 +1055,16 @@ module.exports = {
 				type: "category",
 				label: "Chips",
 				items: [
+					{			
+						type: 'category',
+						label: 'W7100',
+						link: {type: 'doc', id: 'Product/iMCU/W7100/w7100a'},
+						items: [
+							//'Product/iMCU/W7100/w7100a',
+							'Product/iMCU/W7100/imcu7100-evb',
+						],
+					},
+					
 					'Product/Obsolete/w7200',
 					{
 						type: 'category',
@@ -1095,6 +1084,20 @@ module.exports = {
 					type: "category",
 					label: "S2E / IO Modules",
 					items: [
+						{
+							type: 'category',
+							label: 'WIZ107SR', // string - the label that should be displayed.
+							link: {type: 'doc', id: 'Product/S2E-Module/WIZ107SR/wiz107sr'},
+							items: [//'Product/S2E-Module/WIZ107SR/wiz107sr',
+									'Product/S2E-Module/WIZ107SR/wiz107sr-evb']
+							},
+							{
+							type: 'category',
+							label: 'WIZ108SR', // string - the label that should be displayed.
+							link: {type: 'doc', id: 'Product/S2E-Module/WIZ108SR/wiz108sr'},
+							items: [//'Product/S2E-Module/WIZ108SR/wiz108sr',
+									'Product/S2E-Module/WIZ108SR/wiz108sr-evb']
+							},
 						'Product/Obsolete/egsr7100a',
 						'Product/Obsolete/nm7010a',
 						'Product/Obsolete/wiz220io',

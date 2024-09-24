@@ -89,7 +89,7 @@
         // {to: 'docs/introduction', label: 'INTRODUCTION TO WIZNET DOCUMENTS ➤', position: 'right'},
         // {to: 'docs/download', label: 'Download', position: 'right'},
         { href: "https://www.wiznet.io/", label: "WIZnet", position: "right" },
-        { href: "https://forum.wiznet.io/", label: "Forum", position: "right" },
+        { href: "https://maker.wiznet.io/forum/", label: "Forum", position: "right" },
 
         //{to: 'blog', label: 'Blog', position: 'left'},
         {
@@ -153,7 +153,7 @@
             },
             {
               label: "Forum",
-              href: "https://forum.wiznet.io"
+              href: "https://maker.wiznet.io/forum"
             },
             {
               label: "Maker Community",

@@ -5,9 +5,7 @@ date: 2021-07-21
 ---
 
 :::caution
-**WIZ107SR is not discontinued, but we do not recommend it for new designs.**
-
-**Technical support for this product has officially ended.**
+**The WIZ107SR has been discontinued because the W7100A test platform is no longer available.**
 :::
 
 ## Overview

@@ -82,7 +82,7 @@ It is recommended to upload firmware for both banks to prevent board becoming un
 ## Still having troubles?
 
 
-  - Check related category in our [WIZnet Forum](https://forum.wiznet.io/).
+  - Check related category in our [WIZnet Forum](https://maker.wiznet.io/forum/).
 
   - All WIZnet products have a **warranty of 1 year from the purchase date**.
 

@@ -4,6 +4,12 @@ title: iMCU7100-EVB
 date: 2021-07-26
 ---
 
+:::caution
+**The W7100A has been discontinued because the W7100A test platform is no longer available.**
+
+If there are any questions, please use our [`Forum`](https://maker.wiznet.io/forum) or [`contact us`](https://wiznet.io/contact-us).
+:::
+
 ![](/img/products/w7100a/w7100A_evb_f-280.jpg)
 
 ## Key Features

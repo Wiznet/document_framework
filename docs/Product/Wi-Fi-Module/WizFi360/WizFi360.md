@@ -87,6 +87,6 @@ For more information visit the 🌎[WizFi360 Github](https://github.com/WIZnet-W
 
 ## Q & A
 
-![](/img/link.png) 🌎[WizFi360 Forum](https://forum.wiznet.io/c/wifi-module/wizfi360) : WIZnet Forum for Technical support and Project sharing
+![](/img/link.png) 🌎[WizFi360 Forum](https://maker.wiznet.io/forum/c/wifi-module/wizfi360) : WIZnet Forum for Technical support and Project sharing
 
 -----

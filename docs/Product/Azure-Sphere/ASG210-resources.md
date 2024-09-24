@@ -39,4 +39,4 @@ Technical Support Resources:
 
 - [Microsoft Azure Sphere MSDN forum (technical questions, answers and support)](https://aka.ms/AzureSphereSupport)
 - [Microsoft Azure Sphere Documentation](https://docs.microsoft.com/en-us/azure-sphere/)
-- [WIZnet Azure Sphere Guadian product Community Forums](https://forum.wiznet.io/AzureSphereGuardian)
+- [WIZnet Azure Sphere Guadian product Community Forums](https://maker.wiznet.io/forum/AzureSphereGuardian)

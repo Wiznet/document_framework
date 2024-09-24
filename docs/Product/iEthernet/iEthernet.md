@@ -19,7 +19,7 @@ iEthernet is the Ethernet controller chip that includes hardwired TCP/IP Core & 
 
 **W5200 is not recommended for new design. This chip is not supported by ioLibrary.**
 
-If there are any questions, please use our [`Forum`](https://forum.wiznet.io) or [`contact us`](https://www.wiznet.io/inqueries/).
+If there are any questions, please use our [`Forum`](https://maker.wiznet.io/forum) or [`contact us`](https://www.wiznet.io/inqueries/).
 :::
 
 |                     | [W6100](W6100/W6100.md) | [W5100S](W5100S/Overview.md) | [W5500](W5500/Overview.md) | [W5300](W5300/W5300.md) | [W5100](W5100/W5100.md) | [W3150A+](W3150/W3150.md)<br />not recommended for new design | [W5200](W5200/w5200.md)<br />not recommended for new design |

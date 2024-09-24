@@ -65,10 +65,10 @@ Open source hardware products.
 
 ### VAR Products
 
-  - [V(alue) A(dded) R(eseller) Products](VAR-Products-using-WIZnet/VAR_Products_using_WIZnet)
-  - [Ethernet Shield](VAR-Products-using-WIZnet/Ethernet_Shield.md)
-  - [WiFi Shield](VAR-Products-using-WIZnet/Wi-Fi_Shield.md)
-  - [Third-party](VAR-Products-using-WIZnet/Third_party.md)
+  - [V(alue) A(dded) R(eseller) Products](./VAR-Products-using-WIZnet/VAR_Products_using_WIZnet.md)
+  - [Ethernet Shield](./VAR-Products-using-WIZnet/Ethernet_Shield.md)
+  - [WiFi Shield](./VAR-Products-using-WIZnet/Wi-Fi_Shield.md)
+  - [Third-party](./VAR-Products-using-WIZnet/Third_party.md)
 
 
 
@@ -81,7 +81,7 @@ Open source hardware products.
 ### External Links
 
   - 🌎[WIZnet Official Website](http://www.wiznet.io/)
-  - 🌎[WIZnet Developer Forum](http://forum.wiznet.io/)
+  - 🌎[WIZnet Developer Forum](http://maker.wiznet.io/forum/)
   - 🌎[WIZnet Museum](http://wiznetmuseum.com/): Collection of IoTs
   - 🌎[WIZnet Github](https://github.com/Wiznet): Open source repository
 
@@ -93,6 +93,6 @@ Open source hardware products.
 
 ### Tech Support
 
-For technical support please post your questions at [https://forum.wiznet.io](https://forum.wiznet.io)
+For technical support please post your questions at [https://maker.wiznet.io/forum](https://maker.wiznet.io/forum)
 
 ![](/img/mainlogo.jpg)
