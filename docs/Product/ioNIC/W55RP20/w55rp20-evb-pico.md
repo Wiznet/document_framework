@@ -118,8 +118,9 @@ Please refer to below links to find firmware example.
   - [Azure Examples](https://github.com/WIZnet-ioNIC/WIZnet-PICO-AZURE-C)
   - [LwIP Examples](https://github.com/WIZnet-ioNIC/WIZnet-PICO-LWIP-C)
   - [FreeRTOS Examples](https://github.com/WIZnet-ioNIC/WIZnet-PICO-FREERTOS-C)
+- MicroPython Examples
+  - [Ethernet Examples](https://github.com/WIZnet-ioNIC/WIZnet-ioNIC-micropython)
 - CircuitPython Examples (Update Coming Soon)
-- MicroPython Examples (Update Coming Soon)
 
 ## How to buy
 
