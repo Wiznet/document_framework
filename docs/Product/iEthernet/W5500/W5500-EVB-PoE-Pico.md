@@ -107,7 +107,7 @@ Recommended maximum ambient temperature of operation is 70C.
 
 ### Schematic
 
-![W5500-EVB-RP2040](/img/products/W5500-EVB-PoE-Pico/W5500-EVB-PoE-Pico_sch.jpeg)
+![W5500-EVB-PoE-Pico](/img/products/W5500-EVB-PoE-Pico/W5500-EVB-PoE-Pico_sch.jpeg)
 
 ### Schematic & Part list & Gerber File
 
@@ -115,7 +115,7 @@ Recommended maximum ambient temperature of operation is 70C.
 
 ### Dimension (Unit : mm)
 
-![W5500-EVB-RP2040](/img/products/W5500-EVB-PoE-Pico/W5500-EVB-PoE-Pico-Dimension.png)
+![W5500-EVB-PoE-Pico](/img/products/W5500-EVB-PoE-Pico/W5500-EVB-PoE-Pico-Dimension.png)
 
 ### Firmware Example
 
