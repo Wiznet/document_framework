@@ -103,7 +103,7 @@ Recommended maximum ambient temperature of operation is 70C.
 
 ### Schematic & Part list & Gerber File
 
-- [Go to Github](https://github.com/Wiznet/Hardware-Files-of-WIZnet/tree/master/02_iEthernet/W5500)
+- [Go to Github](https://github.com/Wiznet/Hardware-Files-of-WIZnet/tree/master/09_ioNIC)
 
 ### Dimension (Unit : mm)
 
