@@ -282,7 +282,9 @@ module.exports = {
 					],
 					},
 					'Product/iEthernet/W5500/w5500-evb-pico',
-					'Product/iEthernet/W5500/w5500-evb-pico2'
+					'Product/iEthernet/W5500/W5500-EVB-Pico-PoE',
+					'Product/iEthernet/W5500/w5500-evb-pico2',
+					
 				],
 				},
 				{
