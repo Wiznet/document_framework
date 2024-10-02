@@ -153,26 +153,24 @@ Please refer to below links to find firmware example.
 
 #### CE
 
-<!-- - <a href="/img/osh/w6100-evb-pico/Certificate-CE-W6100-EVB-Pico.pdf" target="_blank">CE Certificate</a>
-- <a href="/img/osh/w6100-evb-pico/Test-Report-CE-W6100-EVB-Pico.pdf" target="_blank">CE Test Report</a>
+- <a href="/img/osh/w6100-evb-pico/Certificate-CE-W6100-EVB-Pico2.pdf" target="_blank">CE Certificate</a>
+- <a href="/img/osh/w6100-evb-pico/Test-Report-CE-W6100-EVB-Pico2.pdf" target="_blank">CE Test Report</a>
 
 | Date    | Decription |
-| ------- | ---------- | -->
+| ------- | ---------- |
 | OCT2023 | \-         |
 
 #### FCC
 
-<!--
-- <a href="/img/osh/w6100-evb-pico/Certificate-FCC-W6100-EVB-Pico.pdf" target="_blank">FCC Certificate</a>
-- <a href="/img/osh/w6100-evb-pico/Test-Report-FCC-W6100-EVB-Pico.pdf" target="_blank">FCC Test Report</a>
+- <a href="/img/osh/w6100-evb-pico/Certificate-FCC-W6100-EVB-Pico2.pdf" target="_blank">FCC Certificate</a>
+- <a href="/img/osh/w6100-evb-pico/Test-Report-FCC-W6100-EVB-Pico2.pdf" target="_blank">FCC Test Report</a>
 
 | Date    | Decription |
 | ------- | ---------- |
-| OCT2023 | \-         | -->
+| OCT2023 | \-         |
 
 ## How to buy
 
-<!-- [![WIZnetUS Online Shop, USA](/img/products/w5100s-evb-pico/icons/dollar.png)](https://eshop.wiznet.io/shop/module/w6100-evb-pico/)
-[![WIZnetKorea Online Shop, Korea](/img/products/w5100s-evb-pico/icons/won.png)](https://wiznetshop.io/product/detail.html?product_no=1078&cate_no=54&display_group=1)
-   -->
+[![WIZnetUS Online Shop, USA](/img/products/w5100s-evb-pico/icons/dollar.png)](https://eshop.wiznet.io/shop/module/w6100-evb-pico2/)
+[![WIZnetKorea Online Shop, Korea](/img/products/w5100s-evb-pico/icons/won.png)](https://wiznetshop.io/product/detail.html?product_no=1097&cate_no=55&display_group=1)
 
