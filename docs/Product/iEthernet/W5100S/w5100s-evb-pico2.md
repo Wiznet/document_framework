@@ -160,23 +160,23 @@ Please refer to below links to find firmware example.
 
 #### CE
 
-<!-- - <a href="/img/osh/w5100s_evb_pico/Certificate-CE-W5100S-EVB-Pico.pdf" target="_blank">CE Certificate</a>
-- <a href="/img/osh/w5100s_evb_pico/Report-CE-W5100S-EVB-Pico.pdf" target="_blank">CE Test Report</a>
+- <a href="/img/osh/w5100s_evb_pico/Certificate-CE-W5100S-EVB-Pico2.pdf" target="_blank">CE Certificate</a>
+- <a href="/img/osh/w5100s_evb_pico/Report-CE-W5100S-EVB-Pico2.pdf" target="_blank">CE Test Report</a>
 
 | Date    | Decription |
 | ------- | ---------- |
-| OCT2023 | /-         | -->
+| OCT2023 | /-         |
 
 
 #### FCC
 
-<!-- - <a href="/img/osh/w5100s_evb_pico/Certificate-FCC-W5100S-EVB-Pico.pdf" target="_blank">FCC Certificate</a>
-- <a href="/img/osh/w5100s_evb_pico/Report-FCC-W5100S-EVB-Pico.pdf" target="_blank">FCC Test Report</a>
+- <a href="/img/osh/w5100s_evb_pico/Certificate-FCC-W5100S-EVB-Pico2.pdf" target="_blank">FCC Certificate</a>
+- <a href="/img/osh/w5100s_evb_pico/Report-FCC-W5100S-EVB-Pico2.pdf" target="_blank">FCC Test Report</a>
 
 
 | Date    | Decription |
 | ------- | ---------- |
-| OCT2023 | /-         | -->
+| OCT2023 | /-         |
 
 
 ### AWS Qualification
@@ -208,8 +208,6 @@ Please refer to below links to find firmware example.
 
 ## How to buy
 
-<!-- [![WIZnetUS Online Shop, USA](/img/products/w5100s-evb-pico/icons/dollar.png)](https://eshop.wiznet.io/shop/module/w5100s-evb-pico/)
-[![WIZnetKorea Online Shop, Korea](/img/products/w5100s-evb-pico/icons/won.png)](http://wiznetshop.io/product/detail.html?product_no=1049&cate_no=54&display_group=1)
+[![WIZnetUS Online Shop, USA](/img/products/w5100s-evb-pico/icons/dollar.png)](https://eshop.wiznet.io/shop/module/w5100s-evb-pico2/)
+[![WIZnetKorea Online Shop, Korea](/img/products/w5100s-evb-pico/icons/won.png)](https://wiznetshop.io/product/detail.html?product_no=1095&cate_no=55&display_group=1)
 
-
- -->
