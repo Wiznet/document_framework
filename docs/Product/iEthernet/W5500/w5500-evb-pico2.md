@@ -156,8 +156,8 @@ Please refer to below links to find firmware example.
 
 #### CE
 
-- <a href="/img/products/w5500-evb-pico/Certificate-CE-W5500-EVB-Pico2.pdf" target="_blank">CE Certificate</a>
-- <a href="/img/products/w5500-evb-pico/Test-Report-CE-W5500-EVB-Pico2.pdf" target="_blank">CE Test Report</a>
+- <a href="/img/products/w5500-evb-pico2/Certificate-CE-W5500-EVB-Pico2.pdf" target="_blank">CE Certificate</a>
+- <a href="/img/products/w5500-evb-pico2/Test-Report-CE-W5500-EVB-Pico2.pdf" target="_blank">CE Test Report</a>
 
 | Date    | Decription |
 | ------- | ---------- |
@@ -165,8 +165,8 @@ Please refer to below links to find firmware example.
 
 #### FCC
 
-- <a href="/img/products/w5500-evb-pico/Certificate-FCC-W5500-EVB-Pico2.pdf" target="_blank">FCC Certificate</a>
-- <a href="/img/products/w5500-evb-pico/Test-Report-FCC-W5500-EVB-Pico2.pdf" target="_blank">FCC Test Report</a>
+- <a href="/img/products/w5500-evb-pico2/Certificate-FCC-W5500-EVB-Pico2.pdf" target="_blank">FCC Certificate</a>
+- <a href="/img/products/w5500-evb-pico2/Test-Report-FCC-W5500-EVB-Pico2.pdf" target="_blank">FCC Test Report</a>
 
 | Date    | Decription |
 | ------- | ---------- |

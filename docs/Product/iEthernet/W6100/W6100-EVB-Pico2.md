@@ -153,8 +153,8 @@ Please refer to below links to find firmware example.
 
 #### CE
 
-- <a href="/img/osh/w6100-evb-pico/Certificate-CE-W6100-EVB-Pico2.pdf" target="_blank">CE Certificate</a>
-- <a href="/img/osh/w6100-evb-pico/Test-Report-CE-W6100-EVB-Pico2.pdf" target="_blank">CE Test Report</a>
+- <a href="/img/products/w6100-evb-pico2/Certificate-CE-W6100-EVB-Pico2.pdf" target="_blank">CE Certificate</a>
+- <a href="/img/products/w6100-evb-pico2/Test-Report-CE-W6100-EVB-Pico2.pdf" target="_blank">CE Test Report</a>
 
 | Date    | Decription |
 | ------- | ---------- |
@@ -162,8 +162,8 @@ Please refer to below links to find firmware example.
 
 #### FCC
 
-- <a href="/img/osh/w6100-evb-pico/Certificate-FCC-W6100-EVB-Pico2.pdf" target="_blank">FCC Certificate</a>
-- <a href="/img/osh/w6100-evb-pico/Test-Report-FCC-W6100-EVB-Pico2.pdf" target="_blank">FCC Test Report</a>
+- <a href="/img/products/w6100-evb-pico2/Certificate-FCC-W6100-EVB-Pico2.pdf" target="_blank">FCC Certificate</a>
+- <a href="/img/products/w6100-evb-pico2/Test-Report-FCC-W6100-EVB-Pico2.pdf" target="_blank">FCC Test Report</a>
 
 | Date    | Decription |
 | ------- | ---------- |
