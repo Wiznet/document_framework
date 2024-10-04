@@ -109,6 +109,14 @@ Recommended maximum ambient temperature of operation is 70C.
 
 ![W5500-EVB-RP2040](/img/products/w55rp20-evb-pico/w55rp20-evb-pico-dimension.png)
 
+### Certification
+
+- <a href="/img/products/w55rp20-evb-pico/Certificate-CE-W55RP20-EVB-Pico.pdf" target="_blank">CE DoC</a>
+- <a href="/img/products/w55rp20-evb-pico/Test-Report-CE-W55RP20-EVB-Pico.pdf" target="_blank">CE Test report</a>
+- <a href="/img/products/w55rp20-evb-pico/Certificate-FCC-W55RP20-EVB-Pico.pdf" target="_blank">FCC DoC</a>
+- <a href="/img/products/w55rp20-evb-pico/Test-Report-FCC-W55RP20-EVB-Pico.pdf" target="_blank">FCC Test report</a>
+
+
 ### Firmware Example
 Please refer to below links to find firmware example.
 
