@@ -679,6 +679,14 @@ module.exports = {
 							'Product/S2E-Module/Industrial/firmware-update-guide-kr',
 							'Product/S2E-Module/Industrial/Web_Config_Guide_KO',
 							'Product/S2E-Module/Industrial/factory-rst-guide-kr',
+						//	'Product/S2E-Module/Industrial/Config-tool-Guide-en',
+						//	'Product/S2E-Module/Industrial/command-manual-en',
+						//	'Product/S2E-Module/Industrial/mqtt-connection-guide-en',
+						//	'Product/S2E-Module/Industrial/ssl-connection-guide-en',
+						//	'Product/S2E-Module/Industrial/modbus-connection-guide-en',
+						//	'Product/S2E-Module/Industrial/firmware-update-guide-en',
+						//	'Product/S2E-Module/Industrial/Web_Config_Guide_EN',
+						//	'Product/S2E-Module/Industrial/factory-rst-guide-en',
 						],
 					},
 					{
@@ -686,6 +694,7 @@ module.exports = {
 						label: 'W232N',
 						items: [
 							'Product/S2E-Module/Industrial/W232N-datasheet-kr',
+							'Product/S2E-Module/Industrial/W232N-datasheet-en',
 						],
 					},
 				],
