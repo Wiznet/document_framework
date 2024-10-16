@@ -691,8 +691,8 @@ module.exports = {
 								label: 'English',
 								items: [
 									'Product/S2E-Module/Industrial/Config-tool-Guide-en',
-								//	'Product/S2E-Module/Industrial/command-manual-en',
-								//	'Product/S2E-Module/Industrial/mqtt-connection-guide-en',
+									'Product/S2E-Module/Industrial/command-manual-en',
+									'Product/S2E-Module/Industrial/mqtt-connection-guide-en',
 								//	'Product/S2E-Module/Industrial/ssl-connection-guide-en',
 								//	'Product/S2E-Module/Industrial/modbus-connection-guide-en',
 								//	'Product/S2E-Module/Industrial/firmware-update-guide-en',
