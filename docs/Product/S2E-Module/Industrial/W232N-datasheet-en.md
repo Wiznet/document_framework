@@ -223,10 +223,11 @@ During normal operation, the POWER LED will be solid red and the RUN LED will fl
 
 
 ## Certification
-<!--
-- <a href="/img/products/w232n/KC.pdf" target="_blank">KC 인증</a>
-- <a href="/img/products/w232n/FCC.pdf" target="_blank">FCC 인증</a>
--->
+
+- <a href="/img/products/w232n/KC.pdf" target="_blank">KC</a>
+- <a href="/img/products/w232n/FCC.pdf" target="_blank">FCC</a>
+- <a href="/img/products/w232n/CE.pdf" target="_blank">CE</a>
+
 
 ## Design file
 

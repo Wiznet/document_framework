@@ -225,10 +225,11 @@ W232N은 DC Jack, 터미널 블럭, PoE 지원 제품일 경우 RJ45 Jack을 통
 
 
 ## 인증
-<!--
+
 - <a href="/img/products/w232n/KC.pdf" target="_blank">KC 인증</a>
 - <a href="/img/products/w232n/FCC.pdf" target="_blank">FCC 인증</a>
--->
+- <a href="/img/products/w232n/CE.pdf" target="_blank">CE 인증</a>
+
 
 ## 설계 파일
 
