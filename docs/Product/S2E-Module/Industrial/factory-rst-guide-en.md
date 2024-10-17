@@ -1,5 +1,5 @@
 ---
-id: factory-rst-guide-kr
+id: factory-rst-guide-en
 title: Factory Reset Guide-[EN]
 date: 2024-08-08
 ---
