@@ -24,12 +24,6 @@ date: 2024-07-30
   - 웹 서버 Config 지원 디바이스 목록
     - W232N
 
-### 소프트웨어  
-
-  - WIZnet S2E Configuration Tool 
-    - [최신 버전 다운로드](https://github.com/Wiznet/WIZnet-S2E-Tool-GUI/releases)
-    - [GitHub Repository](https://github.com/Wiznet/WIZnet-S2E-Tool-GUI)
-
 
 
 ## 웹 서버를 이용하여 W232N을 설정하는 방법

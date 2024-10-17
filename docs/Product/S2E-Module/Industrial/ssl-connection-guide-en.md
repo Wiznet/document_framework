@@ -10,9 +10,9 @@ date: 2022-06-28
 
 
 
-## WIZ5xxSR-RP SSL Connection Overview
+## W232N SSL Connection Overview
 
-**WIZ5xxSR-RP** supports **SSL TCP client** mode.
+**W232N** supports **SSL TCP client** mode.
 
 
 
@@ -26,10 +26,8 @@ date: 2022-06-28
 
 ### Hardware
 
-  - WIZ5xxSR-RP
-
-  - WIZ5xxSR-RP Evaluation Board (WIZ510SR-RP can be used without WIZ5xxSR-RP Evaluation Board.)
-  - 5V Power adapter
+  - W232N
+  - 5~36V Power adapter
   - Cables (Ethernet / Serial)
 
 
@@ -53,13 +51,9 @@ date: 2022-06-28
 
 
 
-### Step 1: Setup Environment to Use WIZ5xxSR-RP
+### Step 1: Run Config-tool
 
-The process of setup environment to use the WIZ5xxSR-RP each product is available at the **'Getting Started'** document below.
-
-
-
-
+Run installed **'Config-tool'**
 
 ### Step 2: Setup OpenSSL
 
@@ -91,7 +85,7 @@ s_server -accept 443 -cert server.crt -key server.key
 
 
 
-### Step 4: Setup WIZ5xxSR-RP through WIZnet S2E Configuration Tool for SSL Server Connection
+### Step 4: Setup W232N through WIZnet S2E Configuration Tool for SSL Server Connection
 
 1. Select **SSL TCP client** mode in the **Operation mode** setting section
 
@@ -126,7 +120,7 @@ s_server -accept 443 -cert server.crt -key server.key
 
 ### Step 5: Done
 
-WIZ5xxSR-RP is successfully connected to the SSL server!
+W232N is successfully connected to the SSL server!
 
 
 

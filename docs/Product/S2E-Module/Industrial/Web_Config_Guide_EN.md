@@ -14,11 +14,8 @@ date: 2024-07-30
 
 ## W232N Web Server Configuration Overview
 
-**W232N** supports **Web server for Configuration**.
-  > **Note** : This content is available starting from F/W Version 1.4.0. If the **Search identification code** is set, Web Server Configuration will not work.
+This document is a web server configuration guide for the W232N, an industrial Ethernet to RS232 data conversion device.
  
-
-
 
 -----
 
@@ -29,26 +26,11 @@ date: 2024-07-30
 
 
 ### Hardware
-
-  - W232N
-
-
-### Software
-  
-  - Firmware 
-    - [Firmware Ver 1.4.0 Download Link](https://github.com/Wiznet/WIZ750SR/releases/tag/v1.4.0)
-  > **Note** : Version below 1.4.0 do not support web server configuration. **Be sure to download Version 1.4.0.**
+  - Web Server Config Supported Devices List
+    - W232N
+    - WIZ75xSR Series
 
 
-### Configuration Tool
-
-  - WIZnet S2E Configuration Tool 
-    - [Download the Latest Version](https://github.com/Wiznet/WIZnet-S2E-Tool-GUI/releases)
-      - [GitHub Repository](https://github.com/Wiznet/WIZnet-S2E-Tool-GUI)
-    > **Note** : You need a configuration tool for the firmware update.
-
-
------
 
 
 

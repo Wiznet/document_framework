@@ -10,7 +10,7 @@ date: 2022-06-28
 
 
 
-## WIZ5xxSR-RP Firmware Update Overview
+## W232N Firmware Update Overview
 
 
 
@@ -22,30 +22,37 @@ date: 2022-06-28
 ```cpp
  Top Flash Memory Address /-------------------------------------------\  0x10200000
                           |                                           |
+                          ~                                           ~
+                          |             Reserved (832KB)              |
+                          |-------------------------------------------|  0x10130000
+                          |                                           |
                           |             Parameters (64KB)             |
-                          |-------------------------------------------|  0x101F0000
                           |                                           |
-                          |              Reserved (448KB)             |
+                          |-------------------------------------------|  0x10120000
                           |                                           |
-                          |-------------------------------------------|  0x10180000
+                          |                                           |
                           |                                           |
                           |                                           |
                           |        Firmware Binary Bank (512KB)       |
                           |                                           |
                           |                                           |
-                          |-------------------------------------------|  0x10100000
+                          |                                           |
+                          |-------------------------------------------|  0x100A0000
                           |                                           |
                           |                                           |
-                          |          Application Bank (512KB)         |
                           |                                           |
                           |                                           |
-                          |-------------------------------------------|  0x10080000
+                          |        Application Bank (512KB)           |
+                          |                                           |
+                          |                                           |
+                          |                                           |
+                          |-------------------------------------------|  0x10020000
                           |                                           |
       Page 1 (256KB)      |                                           |
-                          |             Bootloader (512KB)            |
+                          |             Bootloader (128KB)            |
       Page 0 (256KB)      |                                           |
                           |                                           |
-                          \-------------------------------------------/  0x100000000
+                          \-------------------------------------------/  0x10000000
 ```
 
 
@@ -63,14 +70,14 @@ date: 2022-06-28
 
 
 
-## How to Upload or Update the Firmware of WIZ5xxSR-RP
+## How to upload or update the W232N firmware
 
-The WIZ5xxSR-RP provides one method of uploading or updating firmware.
+The W232N provides three ways to upload or update the firmware.
 
-That's the way over ethernet using the Configuration Tool.
-
-  - [Using the Configuration Tool](#using-the-configuration-tool)
-
+- [Using Config-Tool](#Using-the-Configuration-Tool)
+- [Using Web-Config](#Using-Web-Config)
+- [Using USB](#Using-USB)
+- [Using SWD](#Using-SWD)
 
 
 -----
@@ -87,8 +94,9 @@ That's the way over ethernet using the Configuration Tool.
 
 #### Hardware
 
-
-
+  - W232N
+  - 5~36V Power adapter
+  - Cables (Ethernet / Serial)
 
 
 #### Software
@@ -100,13 +108,10 @@ That's the way over ethernet using the Configuration Tool.
 
 
 
-### How to Upload or Update the Firmware
 
+### Step 1: Run Config-tool
 
-
-#### Step 1: Setup Environment to Use WIZ5xxSR-RP
-
-The process of setup environment to use the WIZ5xxSR-RP each product is available at the **'Getting Started'** document below.
+Run installed **'Config-tool'**
 
 
 
@@ -143,13 +148,20 @@ Firmware in a file format other than .bin cannot be uploaded or updated properly
 
 Firmware upload or update completed!
 
-WIZ5xxSR-RP is searched after about 5 seconds in the Configuration Tool after firmware upload or update completed.
+W232N is searched after about 5 seconds in the Configuration Tool after firmware upload or update completed.
 
 |                                                                                                        |
 | :----------------------------------------------------------------------------------------------------: |
 | ![](/img/products/s2e_module/wiz5xxsr-rp/firmware_update_guide/firmware_upload_or_update_complete.png) |
 | Figure: **Firmware upload or update complete**                                                         |
 
+## Using Web config
+- update soon
 
+## Using USB
+- update soon
+
+## Using SWD
+- update soon
 
 -----
