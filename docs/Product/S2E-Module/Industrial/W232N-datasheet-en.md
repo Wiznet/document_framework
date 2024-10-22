@@ -243,8 +243,8 @@ During normal operation, the POWER LED will be solid red and the RUN LED will fl
 
 | H/W version | Filetype | Download Link                                               | Remarks |
 | ----------- | -------- | ------------------------------------------------------------ | ------- |
-| 1.0         | Excel    | ![](/img/products/w5500/w5500_evb/icons/download.png) <a href="https://github.com/Wiznet/Hardware-Files-of-WIZnet/raw/bfa5e2d9cdb636196d6c1341709c02d7052f4d18/04_Serial_to_Ethernet_Module/W232N/Partlist/W232N%20PL_R100.xlsx" target="_blank">Download</a> | \-      |
-| :::         | PDF      | ![](/img/products/w5500/w5500_evb/icons/download.png) <a href="https://github.com/Wiznet/Hardware-Files-of-WIZnet/raw/bfa5e2d9cdb636196d6c1341709c02d7052f4d18/04_Serial_to_Ethernet_Module/W232N/Partlist/W232N%20PL_R100.pdf" target="_blank">Download</a> | \-      |
+| 1.0         | Excel    | ![](/img/products/w5500/w5500_evb/icons/download.png) <a href="https://github.com/Wiznet/Hardware-Files-of-WIZnet/raw/bfa5e2d9cdb636196d6c1341709c02d7052f4d18/04_Serial_to_Ethernet_Module/W232N/Partlist/W232N_R100_Partlist.xlsx" target="_blank">Download</a> | \-      |
+| :::         | PDF      | ![](/img/products/w5500/w5500_evb/icons/download.png) <a href="https://github.com/Wiznet/Hardware-Files-of-WIZnet/raw/bfa5e2d9cdb636196d6c1341709c02d7052f4d18/04_Serial_to_Ethernet_Module/W232N/Partlist/W232N_R100_Partlist.pdf" target="_blank">Download</a> | \-      |
 
 
 ### 3D file
