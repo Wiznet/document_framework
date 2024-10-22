@@ -45,8 +45,43 @@ module.exports = {
 				label: 'W55RP20',
 				link: {type: 'doc', id: 'Product/ioNIC/W55RP20/overview'},
 				items: [
-				'Product/ioNIC/W55RP20/w55rp20-evb-pico',
 				'Product/ioNIC/W55RP20/documents_md',
+				{
+					type: 'category',
+					label: 'W55RP20-S2E',
+					link: {type: 'doc', id: 'Product/ioNIC/W55RP20/W55RP20-S2E/W55RP20-S2E'},
+					items: [
+						{
+							type: 'category',
+							label: 'Common docs for using-[KR]',
+							items: [
+								'Product/S2E-Module/Industrial/Config-tool-Guide-kr',
+								'Product/S2E-Module/Industrial/command-manual-kr',
+								'Product/S2E-Module/Industrial/mqtt-connection-guide-kr',
+								'Product/S2E-Module/Industrial/ssl-connection-guide-kr',
+								'Product/S2E-Module/Industrial/modbus-connection-guide-kr',
+								'Product/S2E-Module/Industrial/firmware-update-guide-kr',
+								'Product/S2E-Module/Industrial/Web_Config_Guide_KO',
+								'Product/S2E-Module/Industrial/factory-rst-guide-kr',																											
+							],
+						},
+						{
+							type: 'category',
+							label: 'Common docs for using-[EN]',
+							items: [
+								'Product/S2E-Module/Industrial/Config-tool-Guide-en',
+								'Product/S2E-Module/Industrial/command-manual-en',
+								'Product/S2E-Module/Industrial/mqtt-connection-guide-en',
+								'Product/S2E-Module/Industrial/ssl-connection-guide-en',
+								'Product/S2E-Module/Industrial/modbus-connection-guide-en',
+								'Product/S2E-Module/Industrial/firmware-update-guide-en',
+								'Product/S2E-Module/Industrial/Web_Config_Guide_EN',
+								'Product/S2E-Module/Industrial/factory-rst-guide-en',
+							],
+						},
+					],
+				},
+				'Product/ioNIC/W55RP20/w55rp20-evb-pico',
 				],
 				},			
 			],
@@ -669,41 +704,6 @@ module.exports = {
 				items: [
 					{
 						type: 'category',
-						label: 'Common docs for using',
-						items: [
-							{
-								type: 'category',
-								label: 'Korean',
-								items: [
-									'Product/S2E-Module/Industrial/Config-tool-Guide-kr',
-									'Product/S2E-Module/Industrial/command-manual-kr',
-									'Product/S2E-Module/Industrial/mqtt-connection-guide-kr',
-									'Product/S2E-Module/Industrial/ssl-connection-guide-kr',
-									'Product/S2E-Module/Industrial/modbus-connection-guide-kr',
-									'Product/S2E-Module/Industrial/firmware-update-guide-kr',
-									'Product/S2E-Module/Industrial/Web_Config_Guide_KO',
-									'Product/S2E-Module/Industrial/factory-rst-guide-kr',
-									
-								],
-							},
-							{
-								type: 'category',
-								label: 'English',
-								items: [
-									'Product/S2E-Module/Industrial/Config-tool-Guide-en',
-									'Product/S2E-Module/Industrial/command-manual-en',
-									'Product/S2E-Module/Industrial/mqtt-connection-guide-en',
-									'Product/S2E-Module/Industrial/ssl-connection-guide-en',
-									'Product/S2E-Module/Industrial/modbus-connection-guide-en',
-									'Product/S2E-Module/Industrial/firmware-update-guide-en',
-									'Product/S2E-Module/Industrial/Web_Config_Guide_EN',
-									'Product/S2E-Module/Industrial/factory-rst-guide-en',
-								],
-							},
-						],
-					},
-					{
-						type: 'category',
 						label: 'W232N',
 						items: [
 							'Product/S2E-Module/Industrial/W232N-datasheet-kr',
@@ -995,12 +995,13 @@ module.exports = {
 				link: {type: 'doc', id: 'Product/Open-Source-Hardware/rp2040_based'},
 				items: [
 					//'Product/Open-Source-Hardware/w2e-gateway-pico',
-					'Product/Open-Source-Hardware/wizfi360-evb-pico',
+					'Product/ioNIC/W55RP20/w55rp20-evb-pico',
 					'Product/iEthernet/W6100/w6100-evb-pico',
 					'Product/iEthernet/W5500/w5500-evb-pico',
 					'Product/iEthernet/W5100S/w5100s-evb-pico',
 					'Product/Open-Source-Hardware/wiznet_ethernet_hat',
 					'Product/Open-Source-Hardware/wiznet-pico-poe',
+					'Product/Open-Source-Hardware/wizfi360-evb-pico',
 				]
 			},
 			{
