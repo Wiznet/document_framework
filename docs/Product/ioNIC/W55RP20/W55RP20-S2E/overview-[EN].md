@@ -100,9 +100,9 @@ The **W55RP20-S2E** is a pre-programmed product with an Serial to Ethernet FW an
 | 47         | RESERVED    | RESERVED PIN        |
 | 48         | RESERVED    | RESERVED PIN          |
 | 49         | RESERVED    | RESERVED PIN          |
-| 50         | PMODE2      |  PHY Operation mode select pins<br />These pins determine the network mode. Refer to the table below for details.<br />Default: Pull-up (77kΩ)<br /><br />**PMODE[2:0] Description**<br /><table><thead><tr><th>2</th><th>1</th><th>0</th><th>Description</th></tr></thead><tbody><tr><td>0</td><td>0</td><td>0</td><td>10BT Half-duplex, Auto-negotiation disabled</td></tr><tr><td>0</td><td>0</td><td>1</td><td>10BT Full-duplex, Auto-negotiation disabled</td></tr><tr><td>0</td><td>1</td><td>0</td><td>100BT Half-duplex, Auto-negotiation disabled</td></tr><tr><td>0</td><td>1</td><td>1</td><td>100BT Full-duplex, Auto-negotiation disabled</td></tr><tr><td>1</td><td>0</td><td>0</td><td>100BT Half-duplex, Auto-negotiation enabled</td></tr><tr><td>1</td><td>0</td><td>1</td><td>Not used</td></tr><tr><td>1</td><td>1</td><td>0</td><td>Not used</td></tr><tr><td>1</td><td>1</td><td>1</td><td>All capable, Auto-negotiation enabled</td></tr></tbody></table>  |
-| 51         | PMODE1      | PHY Operation mode select pin      |
-| 52         | PMODE0      | PHY Operation mode select pin       |
+| 50         | PMODE2      | PHY Operation mode select pins.<br />Default: Pull-up (77kΩ)<br />|
+| 51         | PMODE1      | PHY Operation mode select pins.<br />Default: Pull-up (77kΩ)<br />|
+| 52         | PMODE0      | PHY Operation mode select pins.<br />Default: Pull-up (77kΩ)<br />|
 | 53         | IOVDD       | Digital IO Supply<br>Power supply for digital GPIOs, nominal voltage 3.3V. |
 | 54         | ADC_AVDD    | ADC supply<br>Power supply for analogue-to-digital converter, nominal voltage 3.3V.    |
 | 55         | VREG_VIN    | Voltage regulator input supply<br>Power input for the internal core voltage regulator, nominal voltage 1.8V to 3.3V.              |
@@ -119,18 +119,19 @@ The **W55RP20-S2E** is a pre-programmed product with an Serial to Ethernet FW an
 | 66         | UART0_TX    | Debug TX        |
 | 67         | RESERVED    | RESERVED PIN       |
 | 68         | RESERVED    | RESERVED PIN       |
-
+| 69         | GND    | Ground       |
 
 
 ## Manuals
-- [How to use Config-tool](./../../../S2E-Module/Industrial/Config-tool-Guide-en.md)
-- [How to use Web config](./../../../S2E-Module/Industrial/Web_Config_Guide_EN.md)
-- [How to use AT CMD](./../../../S2E-Module/Industrial/command-manual-en.md)
-- [How to connect MQTT](./../../../S2E-Module/Industrial/mqtt-connection-guide-en.md)
-- [How to connet SSL](./../../../S2E-Module/Industrial/ssl-connection-guide-en.md)
-- [How to connet Modbus](./../../../S2E-Module/Industrial/modbus-connection-guide-en.md)
-- [How to update FW](./../../../S2E-Module/Industrial/firmware-update-guide-en.md)
-- [How to do factory reset](./../../../S2E-Module/Industrial/factory-rst-guide-en.md)
+- [How to use Config-tool](./Web_Config_Guide_EN.md)
+- [How to use Web config](./Web_Config_Guide_EN.md)
+- [How to use AT CMD](./command-manual-en.md)
+- [How to connect MQTT](./mqtt-connection-guide-en.md)
+- [How to connet SSL](./ssl-connection-guide-en.md)
+- [How to connet Modbus](./modbus-connection-guide-en.md)
+- [How to update FW](./firmware-update-guide-en.md)
+- [How to do factory reset](./factory-rst-guide-en.md)
+- [How to write MAC Address](./mac_address-write-guide-en.md)
 
 ## Customization Services
 
