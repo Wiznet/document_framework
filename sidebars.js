@@ -46,41 +46,6 @@ module.exports = {
 				link: {type: 'doc', id: 'Product/ioNIC/W55RP20/overview'},
 				items: [
 				'Product/ioNIC/W55RP20/documents_md',
-				{
-					type: 'category',
-					label: 'W55RP20-S2E',
-					items: [
-						'Product/ioNIC/W55RP20/W55RP20-S2E/overview-[EN]',
-//						{
-//							type: 'category',
-//							label: 'Common docs for using-[KR]',
-//							items: [
-//								'Product/ioNIC/W55RP20/W55RP20-S2E/Config-tool-Guide-kr',
-//								'Product/ioNIC/W55RP20/W55RP20-S2E/command-manual-kr',
-//								'Product/ioNIC/W55RP20/W55RP20-S2E/mqtt-connection-guide-kr',
-//								'Product/ioNIC/W55RP20/W55RP20-S2E/ssl-connection-guide-kr',
-//								'Product/ioNIC/W55RP20/W55RP20-S2E/modbus-connection-guide-kr',
-//								'Product/ioNIC/W55RP20/W55RP20-S2E/firmware-update-guide-kr',
-//								'Product/ioNIC/W55RP20/W55RP20-S2E/Web_Config_Guide_KO',
-//								'Product/ioNIC/W55RP20/W55RP20-S2E/factory-rst-guide-kr',																											
-//							],
-//						},
-						{
-							type: 'category',
-							label: 'Common docs for using',
-							items: [
-								'Product/ioNIC/W55RP20/W55RP20-S2E/Config-tool-Guide-en',
-								'Product/ioNIC/W55RP20/W55RP20-S2E/command-manual-en',
-								'Product/ioNIC/W55RP20/W55RP20-S2E/mqtt-connection-guide-en',
-								'Product/ioNIC/W55RP20/W55RP20-S2E/ssl-connection-guide-en',
-								'Product/ioNIC/W55RP20/W55RP20-S2E/modbus-connection-guide-en',
-								'Product/ioNIC/W55RP20/W55RP20-S2E/firmware-update-guide-en',
-								'Product/ioNIC/W55RP20/W55RP20-S2E/Web_Config_Guide_EN',
-								'Product/ioNIC/W55RP20/W55RP20-S2E/factory-rst-guide-en',
-							],
-						},
-					],
-				},
 				'Product/ioNIC/W55RP20/w55rp20-evb-pico',
 				],
 				},			
@@ -211,6 +176,41 @@ module.exports = {
 					items: [
 						'Product/Pre-programmed-MCU/W7500P-S2E/w7500p-s2e-EN',
 						'Product/Pre-programmed-MCU/W7500P-S2E/w7500p-s2e-KO',
+					],
+				},
+				{
+					type: 'category',
+					label: 'W55RP20-S2E',
+					items: [
+						'Product/ioNIC/W55RP20/W55RP20-S2E/overview-[EN]',
+//						{
+//							type: 'category',
+//							label: 'Common docs for using-[KR]',
+//							items: [
+//								'Product/ioNIC/W55RP20/W55RP20-S2E/Config-tool-Guide-kr',
+//								'Product/ioNIC/W55RP20/W55RP20-S2E/command-manual-kr',
+//								'Product/ioNIC/W55RP20/W55RP20-S2E/mqtt-connection-guide-kr',
+//								'Product/ioNIC/W55RP20/W55RP20-S2E/ssl-connection-guide-kr',
+//								'Product/ioNIC/W55RP20/W55RP20-S2E/modbus-connection-guide-kr',
+//								'Product/ioNIC/W55RP20/W55RP20-S2E/firmware-update-guide-kr',
+//								'Product/ioNIC/W55RP20/W55RP20-S2E/Web_Config_Guide_KO',
+//								'Product/ioNIC/W55RP20/W55RP20-S2E/factory-rst-guide-kr',																											
+//							],
+//						},
+						{
+							type: 'category',
+							label: 'Common docs for using',
+							items: [
+								'Product/ioNIC/W55RP20/W55RP20-S2E/Config-tool-Guide-en',
+								'Product/ioNIC/W55RP20/W55RP20-S2E/command-manual-en',
+								'Product/ioNIC/W55RP20/W55RP20-S2E/mqtt-connection-guide-en',
+								'Product/ioNIC/W55RP20/W55RP20-S2E/ssl-connection-guide-en',
+								'Product/ioNIC/W55RP20/W55RP20-S2E/modbus-connection-guide-en',
+								'Product/ioNIC/W55RP20/W55RP20-S2E/firmware-update-guide-en',
+								'Product/ioNIC/W55RP20/W55RP20-S2E/Web_Config_Guide_EN',
+								'Product/ioNIC/W55RP20/W55RP20-S2E/factory-rst-guide-en',
+							],
+						},
 					],
 				},	
 			],
