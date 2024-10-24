@@ -47,7 +47,7 @@ The **W55RP20-S2E** is a pre-programmed product with an Serial to Ethernet FW an
 
 ### Pin Assignment
 
-<img src="/img/products/w55rp20-evb-pico/w55rp20-s2e-pinmap.png" width="600" />
+<img src="/img/products/w55rp20-s2e/w55rp20-s2e-pinmap.png" width="600" />
 
 | Pin Number |    Signal   | Description                                                  |
 |------------|-------------|------------------------------------------------------------|
