@@ -77,7 +77,7 @@ Run installed **'Config-tool'**
 
 ### Step 1: Pull low Factory Reset pin
 
-<img src="/img/products/w55rp20-s2e/w55rp20-s2e-frst.png" width="400" />
+<img src="/img/products/w55rp20-s2e/w55rp20-s2e-frst.png" width="700" />
 
 - Press and hold the factory reset switch for 5 seconds with the W55RP20-S2E booting normally.
 - The RUN STATUS PIN, LINK_STATUS PIN, and TCP_STATUS PIN will toggle twice rapidly.
