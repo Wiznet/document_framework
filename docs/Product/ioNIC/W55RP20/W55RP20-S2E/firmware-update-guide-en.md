@@ -1,6 +1,6 @@
 ---
 id: firmware-update-guide-en
-title: Firmware update guide
+title: Firmware Upload & Update guide
 date: 2022-06-28
 ---
 
@@ -10,7 +10,7 @@ date: 2022-06-28
 
 
 
-## W232N Firmware Update Overview
+## W55RP20-S2E Firmware Upload & Update Overview
 
 
 
@@ -57,27 +57,14 @@ date: 2022-06-28
 
 
 
-### Firmware Update Sequence
-
-|                                                                                              |
-| :------------------------------------------------------------------------------------------: |
-| ![](/img/products/s2e_module/wiz5xxsr-rp/firmware_update_guide/firmware_update_sequence.png) |
-| Figure: **Firmware Update Sequence**                                                         |
-
-
-
------
-
-
-
-## How to upload or update the W232N firmware
+## How to upload or update the W55RP20-S2E firmware
 
 The W232N provides three ways to upload or update the firmware.
 
-- [Using Config-Tool](#Using-the-Configuration-Tool)
-- [Using Web-Config](#Using-Web-Config)
-- [Using USB](#Using-USB)
-- [Using SWD](#Using-SWD)
+- [Using Config-Tool](#using-the-configuration-tool)
+- [Using Web-Config](#using-web-config)
+- [Using USB](#using-usb)
+- [Using SWD](#using-swd)
 
 
 -----
@@ -87,26 +74,28 @@ The W232N provides three ways to upload or update the firmware.
 ## Using the Configuration Tool
 
 
+### Update Sequence using Configuration Tool
+
+|                                                                                              |
+| :------------------------------------------------------------------------------------------: |
+| ![](/img/products/s2e_module/wiz5xxsr-rp/firmware_update_guide/firmware_update_sequence.png) |
+| Figure: **Application Bank Update Sequence**                                                 |
+
+**Firmware updates using the Configuration Tool can only update the Application area.**
 
 ### Required Hardware and Software
 
 
-
 #### Hardware
 
-  - W232N
-  - 5~36V Power adapter
+  - W55RP20-S2E
   - Cables (Ethernet / Serial)
 
 
 #### Software
 
-  - WIZnet S2E Configuration Tool
-	- [Download the Latest Version](https://github.com/Wiznet/WIZnet-S2E-Tool-GUI/releases/tag/V1.5.0)
-    - [Download the Older Versions](https://github.com/Wiznet/WIZnet-S2E-Tool-GUI/releases)
-    - [GitHub Repository](https://github.com/Wiznet/WIZnet-S2E-Tool-GUI)
-
-
+  - [W55RP20-S2E](https://github.com/WIZnet-ioNIC/W55RP20-S2E/releases)
+  - [WIZnet S2E Configuration Tool](https://github.com/Wiznet/WIZnet-S2E-Tool-GUI/releases)
 
 
 ### Step 1: Run Config-tool
@@ -148,7 +137,7 @@ Firmware in a file format other than .bin cannot be uploaded or updated properly
 
 Firmware upload or update completed!
 
-W232N is searched after about 5 seconds in the Configuration Tool after firmware upload or update completed.
+W55RP20-S2E is searched after about 5 seconds in the Configuration Tool after firmware upload or update completed.
 
 |                                                                                                        |
 | :----------------------------------------------------------------------------------------------------: |

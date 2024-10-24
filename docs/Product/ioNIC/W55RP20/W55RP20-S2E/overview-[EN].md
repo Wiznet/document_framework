@@ -124,6 +124,9 @@ The **W55RP20-S2E** is a pre-programmed product with an Serial to Ethernet FW an
 | 69         | GND    | Ground       |
 
 
+
+
+
 ## Manuals
 - [How to use Config-tool](./Web_Config_Guide_EN.md)
 - [How to use Web config](./Web_Config_Guide_EN.md)
@@ -131,7 +134,7 @@ The **W55RP20-S2E** is a pre-programmed product with an Serial to Ethernet FW an
 - [How to connect MQTT](./mqtt-connection-guide-en.md)
 - [How to connet SSL](./ssl-connection-guide-en.md)
 - [How to connet Modbus](./modbus-connection-guide-en.md)
-- [How to update FW](./firmware-update-guide-en.md)
+- [How to upload/update FW](./firmware-update-guide-en.md)
 - [How to do factory reset](./factory-rst-guide-en.md)
 - [How to write MAC Address](./mac_address-write-guide-en.md)
 
