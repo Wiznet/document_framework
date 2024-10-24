@@ -38,8 +38,8 @@ The MAC address is stored in different memory address from the firmware area of 
 
 There are two ways to write MAC Address
 
-- [Using WIZMacTool](#Using-WIZMacTool)
-- [Using Serial Command](#Using-Serial-Command)
+- [Using WIZMacTool](#using-wizmactool)
+- [Using Serial Command](#using-serial-command)
 
 
 ## Using WIZMacTool
