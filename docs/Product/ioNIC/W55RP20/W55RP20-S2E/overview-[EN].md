@@ -29,11 +29,11 @@ The **W55RP20-S2E** is a pre-programmed product with an Serial to Ethernet FW an
 ## Features
 
 **The following key features are included with the W55RP20-S2E product.**
-
+  - 10/100Mbps Ethernet & Up to 921,600bps serial speed
   - Easy to add Ethernet networking function through UART interface
         of any device / MCU
-    - Support **RS-232C** and **RS-422/485** if an external circuit is configured.
-    - Configurable via Ethernet(Web config, WIZnet Configuration tool) and AT command.
+  - Support **RS-232C** and **RS-422/485** if an external circuit is configured.
+  - Status pins: PHY link status / TCP connection status / Run status
   - Support multiple protocols
     - SSL TCP client
     - MQTT client
@@ -41,6 +41,8 @@ The **W55RP20-S2E** is a pre-programmed product with an Serial to Ethernet FW an
   - Support protocol conversion between modbus RTU/ASCII and modbus tcp 
   - Support serial data packing
   - Support TCP connection password
+  - Configuration is possible via serial AT commands or via Configuration tool
+  - Separate Data UART and Debug UART port
   - Unique **MAC Address** (WIZnet OUI)
 
 ## Hardware Design Guide & References
