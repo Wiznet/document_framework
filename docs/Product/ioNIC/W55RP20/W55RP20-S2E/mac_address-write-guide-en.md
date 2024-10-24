@@ -47,7 +47,7 @@ There are two ways to write MAC Address
 ### Step 1: Connect UART1 of W55RP20-S2E to PC
 
 At this step, you will need a separate UART to USB module.<br />
-<img src="/img/products/w55rp20-s2e/usb-connect.png" width="300" />
+<img src="/img/products/w55rp20-s2e/usb-connect.png" width="500" />
 
 
 ### Step 2: Run WIZMacTool
@@ -83,22 +83,22 @@ or checking it via AT commands.<br />
 ### Step 1: Connect UART1 of W55RP20-S2E to PC
 
 At this step, you will need a separate UART to USB module.<br />
-<img src="/img/products/w55rp20-s2e/usb-connect.png" width="300" />
+<img src="/img/products/w55rp20-s2e/usb-connect.png" width="500" />
 
 ### Step 2: Run serial program
 
 Open the COM port connected to the W55RP20-S2E using a serial monitor program. In this manual, we used an open-source tool named Hercules.<br />
-<img src="/img/products/w55rp20-s2e/hercul-open.png" width="300" />
+<img src="/img/products/w55rp20-s2e/hercul-open.png" width="500" />
 
 ### Step 3: Check INPUT MAC
 
 After the COM port of the W55RP20-S2E is opened in the serial program, reset the W55RP20-S2E and verify that "INPUT MAC" is displayed.<br />
-<img src="/img/products/w55rp20-s2e/hercul-input.png" width="300" />
+<img src="/img/products/w55rp20-s2e/hercul-input.png" width="500" />
 
 ### Step 4: Write MAC Address
 
 Send the character 'S' followed by the MAC address you wish to input. The W55RP20-S2E will respond with the character 'R' and the MAC address you sent, indicating that the MAC address has been successfully written.<br />
-<img src="/img/products/w55rp20-s2e/hercul-write-mac.png" width="300" />
+<img src="/img/products/w55rp20-s2e/hercul-write-mac.png" width="500" />
 
 ### Step 5: Done
 

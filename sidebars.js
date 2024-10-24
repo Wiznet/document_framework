@@ -209,6 +209,7 @@ module.exports = {
 								'Product/ioNIC/W55RP20/W55RP20-S2E/firmware-update-guide-en',
 								'Product/ioNIC/W55RP20/W55RP20-S2E/Web_Config_Guide_EN',
 								'Product/ioNIC/W55RP20/W55RP20-S2E/factory-rst-guide-en',
+								'Product/ioNIC/W55RP20/W55RP20-S2E/mac_address-write-guide-en',
 							],
 						},
 					],
