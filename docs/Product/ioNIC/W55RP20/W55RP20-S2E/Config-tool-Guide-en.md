@@ -3,7 +3,7 @@ id: Config-tool-Guide-en
 title: Config tool Guide
 date: 2024-10-04
 keywords: [wiznet, w55rp20,w232n datasheet, hardwired tcp/ip,serial-to-ethernet, w5500, rp2040]
-description: W232N is a industrial serial to Ethernet module using the W55RP20
+
 ---
 
 ## Overview
@@ -153,7 +153,7 @@ PC IP: 192.168.**11**.3 (another IP address in the same Class C private IP band)
 ### ⑥ General options
 
   - Viewing and changing product details settings
-  - Configure with Preferences Basic settings / Options / MQTT Options / Certificate Manager tab (as of W232N)
+  - Configure with Preferences Basic settings / Options / MQTT Options / Certificate Manager tab (as of W55RP20-S2E)
     |                                                                                      |
     | ------------------------------------------------------------------------------------ |
     | ![](/img/products/s2e_module/wiz5xxsr-rp/configuration_tool_manual/basic_settings_tab.png) |
@@ -283,7 +283,7 @@ PC IP: 192.168.**11**.3 (another IP address in the same Class C private IP band)
       - Listens for connection requests from TCP clients and establishes a TCP connection when a client connection request is received, allowing data to be sent/received on a successful connection.
     - TCP MIX
       - When operating as a TCP server and waiting for a connection from a TCP client after setting up, when serial data is input,<br /> it exits the TCP server mode and switches to TCP client mode and attempts to connect to the entered remote host IP and port to establish a TCP connection<br />If data transmission or reception is not made within the set time (Inactivity timer) after the TCP connection, the device disconnects from the TCP server and operates in TCP server mode, which is the initial operating state of TCP MIX mode.<br />
-      ![](/img/products/w232n/TCP_MIX.png)
+      ![](/img/products/w232n/TCP_MIX_en.png)
     - UDP
       - 1:1 UDP mode
         - Communicate to the set remote destination host address (domain name) and port number.

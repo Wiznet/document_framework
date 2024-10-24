@@ -12,7 +12,7 @@ date: 2022-06-28
 
 ## MQTT Connection Overview
 
-**W232N** supports **MQTT client** and **MQTTS client** mode.
+**W55RP20-S2E** supports **MQTT client** and **MQTTS client** mode.
 
 
 
@@ -27,8 +27,7 @@ date: 2022-06-28
 ### Hardware
 
 
-  - W232N
-  - 5V Power adapter
+  - W55RP20-S2E
   - Cables (Ethernet / Serial)
 
 
@@ -50,7 +49,7 @@ date: 2022-06-28
 
 ## How to Connect to MQTT Broker through Mosquitto
 
-W232N supports MQTT client and MQTTS client mode, but this section guides how to connect to MQTT broker through Mosquitto based on MQTT client mode.
+W55RP20-S2E supports MQTT client and MQTTS client mode, but this section guides how to connect to MQTT broker through Mosquitto based on MQTT client mode.
 
 > **Note** : MQTTS client mode requires additional security-related settings, unlike MQTT client mode.
 

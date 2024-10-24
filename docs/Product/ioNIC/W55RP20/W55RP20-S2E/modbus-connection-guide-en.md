@@ -12,9 +12,9 @@ date: 2024-05-23
 
 
 
-## W232N Modbus Connection Overview
+## W55RP20-S2E Modbus Connection Overview
 
-The **W232N** supports protocol conversion between **Modbus TCP server/UDP** and **Modbus RTU/ASCII**.
+The **W55RP20-S2E** supports protocol conversion between **Modbus TCP server/UDP** and **Modbus RTU/ASCII**.
 
 
 -----
@@ -28,8 +28,7 @@ The **W232N** supports protocol conversion between **Modbus TCP server/UDP** and
 ### Hardware
 
 
-  - W232N
-  - 5~36V Power adapter
+  - W55RP20-S2E
   - Cables (Ethernet / Serial)
 
 
@@ -72,7 +71,7 @@ Setup Modbus Poll & Slave Program.
 
 
 
-### Step 3: Setup W232N through WIZnet S2E Configuration Tool for Modbus Connection
+### Step 3: Setup W55RP20-S2E through WIZnet S2E Configuration Tool for Modbus Connection
 
 1. Select **TCP Server** or **UDP** mode in the **Operation mode** setting section
 
@@ -105,7 +104,7 @@ Setup Modbus Poll & Slave Program.
 
 ### Step 4: Done
 
-W232N is successfully connected to the Modbus!
+W55RP20-S2E is successfully connected to the Modbus!
 |                                                                                   |
 | :-------------------------------------------------------------------------------: |
 | ![](/img/products/s2e_module/wiz5xxsr-rp/modbus-connection-guide/connect_modbus.png) |

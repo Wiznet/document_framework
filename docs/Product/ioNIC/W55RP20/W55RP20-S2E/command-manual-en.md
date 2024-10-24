@@ -10,9 +10,9 @@ date: 2022-06-09
 
 
 
-## W232N AT Command Overview
+## W55RP20-S2E AT Command Overview
 
-W232N provides various commands for the product’s setting and control. Each command is composed of a **2 byte alphabet character strings** and all **capital letters**. By using these commands users can add script to the serial device or main MCU for product settings, and also can create a program for controlling the W232N module via network.
+W55RP20-S2E provides various commands for the product’s setting and control. Each command is composed of a **2 byte alphabet character strings** and all **capital letters**. By using these commands users can add script to the serial device or main MCU for product settings, and also can create a program for controlling the W55RP20-S2E module via network.
 
 Each command can operate read/write depending on the parameter, and there is also a read only command.
 
@@ -25,7 +25,7 @@ The different command modes are as following.
   - [**Control Device Using Serial Command Mode**](#control-device-using-serial-command-mode)
   - [**Control Device Using Ethernet Network**](#control-device-using-ethernet-network)
 
-1. The **Configuration tool** provided by WIZnet uses the identical command set to control W232N.
+1. The **Configuration tool** provided by WIZnet uses the identical command set to control W55RP20-S2E.
 
 2. For example, when the **MC** command for checking the MAC address and the **VR** command for checking the firmware are identical.
 
@@ -58,16 +58,15 @@ You can use either of the two methods below to enter serial command mode.
 
 **1. Enter command mode using hardware trigger pin**
 
-  - Use the HW\_TRIG pin of the W232N (For the EVB, HW\_TRIG switch) to enter command mode.
+  - Use the AT_MODE pin of the W55RP20-S2E to enter command mode.
   - Upon turning the power on, check the pin to enter command mode. Use the trigger pin to re-enter the command mode when rebooting.
   - The trigger pin should be pull-up, and operates as low active.
   - This method is used when users wish to change settings while the product operation is initiated.
 
 ```
-  - Set the hardware trigger pin(HW_TRIG) to Low.
-    · When using the EVB, place the HW_TRIG switch to Command.
+  - Set the hardware AT_MODE pin to Low.
 
-  - Power on the W232N.
+  - Power on the W55RP20-S2E.
     · When operating in serial command mode, users can check the following message via Debug UART port.
     · <code>> SEG:AT Mode </code>
 
@@ -80,7 +79,7 @@ You can use either of the two methods below to enter serial command mode.
 
 **2. Enter command mode using command mode switch code**
 
-  - Users can enter command mode using the command mode switch code provided by W232N.
+  - Users can enter command mode using the command mode switch code provided by W55RP20-S2E.
   - The command mode switch codes can be used only if it is enabled in the configuration tool. (**default: Enabled**)
   - The command mode switch code is composed of 3-byte Hex codes, and can be changed to a different value if needed. The code only accepts Hex value. (**default: Hex \[2B\]\[2B\]\[2B**\])
 
@@ -150,7 +149,7 @@ You must include CR and LF at the end of each command. CR and LF must be include
 
 ### Control Device Using Ethernet Network
 
-Users can control or monitor W232N via Ethernet by using the following commands. The user must use **UDP** or **TCP client** to send commands, and the port number for processing the commands is **50001**.
+Users can control or monitor W55RP20-S2E via Ethernet by using the following commands. The user must use **UDP** or **TCP client** to send commands, and the port number for processing the commands is **50001**.
 
 **Network information for command transmission:** **UDP / TCP Server : 50001** (User can send the commands by UDP / TCP Client to device)
 
@@ -158,7 +157,7 @@ Users can control or monitor W232N via Ethernet by using the following commands.
 
 #### Ethernet Command Frame Format
 
-Two additional commands are required before sending the command code when controlling the W232N via Ethernet. All other settings and operations are the same as when sending the serial command code via data UART port.
+Two additional commands are required before sending the command code when controlling the W55RP20-S2E via Ethernet. All other settings and operations are the same as when sending the serial command code via data UART port.
 
 The two additional commands are **MA** and **PW**.
 
@@ -228,7 +227,7 @@ The two additional commands are **MA** and **PW**.
 
     4D 41 FF FF FF FF FF FF 0D 0A 50 57 20 0D 0A 4D 43 0D 0A 4C 49 0D 0A
 
-| Response by W232N |
+| Response by W55RP20-S2E |
 | ----------------------- |
 
 1. The response for ‘Get Request’ has the same form as ‘Set Request’.
@@ -259,7 +258,7 @@ The two additional commands are **MA** and **PW**.
 
     4D 41 00 08 DC 00 00 11 0D 0A 50 57 20 0D 0A 4C 49 0D 0A
 
-| Response by W232N |
+| Response by W55RP20-S2E |
 | ----------------------- |
 
 **Command Frame**
@@ -289,7 +288,7 @@ The two additional commands are **MA** and **PW**.
 
     4D 41 00 08 DC 00 00 11 0D 0A 50 57 48 45 4C 4C 4F 0D 0A 4C 49 31 39 32 2E 31 36 38 2E 31 31 2E 35 0D 0A
 
-| Response by W232N |
+| Response by W55RP20-S2E |
 | --------------------- |
 
     None
@@ -321,7 +320,7 @@ The two additional commands are **MA** and **PW**.
 
 5. WIZ510SSL sync command list, including \[UN\], \[UI\] command
 
-6. W232N exclusive command list
+6. W55RP20-S2E exclusive command list
 
 7. When the remote peer address is changed from IP address to domain
 

@@ -12,7 +12,7 @@ date: 2024-08-08
 
 ## Factory reset overview
 
-A factory reset will return the settings on the **W232N** to their factory state.
+A factory reset will return the settings on the **W55RP20-S2E** to their factory state.
 
 
 
@@ -26,8 +26,7 @@ A factory reset will return the settings on the **W232N** to their factory state
 
 ### Hardware
 
-  - W232N
-  - 5~36V Power adapter
+  - W55RP20-S2E
   - Cables (Ethernet / Serial)
 
 
@@ -40,12 +39,12 @@ A factory reset will return the settings on the **W232N** to their factory state
 
 
 -----
-## How to factory reset the W232N
+## How to factory reset the W55RP20-S2E
 
-There are two ways to perform a W232N factory reset.
+There are two ways to perform a W55RP20-S2E factory reset.
 
-- [Using Config-Tool](#Using-Config-Tool)
-- [Using Factory reset switch](#Using-Factory-reset-switch)
+- [Using Config-Tool](#using-config-tool)
+- [Using Factory reset switch](#using-factory-reset-pin)
 
 ## Using Config Tool
 
@@ -57,39 +56,33 @@ Run installed **'Config-tool'**
 
 ### Step 2: Select ⑦Factory Rest from the top icon menu
 
-<img src="/img/products/s2e_module/wiz5xxsr-rp/configuration_tool_manual/menu_icons.png" width="400" /> 
+<img src="/img/products/s2e_module/wiz5xxsr-rp/configuration_tool_manual/menu_icons.png" width="450" /> 
 
 
 ### step 3: Do factory reset
 
-<img src="/img/products/w232n/config-fact.png" width="500" /> 
+<img src="/img/products/w232n/config-fact.png" width="550" /> 
 
 - select **Yes** 
 
 
 ### Step 4: Done
 
-<img src="/img/products/w232n/config-fact-ok.png" width="500" /> 
+<img src="/img/products/w232n/config-fact-ok.png" width="550" /> 
 
 - If the factory reset completed successfully, you'll see a completion notification.
 
 
-## Using factory reset switch
+## Using factory reset pin
 
-### Step 1: Remove the top case
+### Step 1: Pull low Factory Reset pin
 
-<img src="/img/products/w232n/Screw.png" width="200" />
+<img src="/img/products/w55rp20-s2e/w55rp20-s2e-frst.png" width="400" />
 
-- Remove the bolts on either side of the device to remove the top case
+- Press and hold the factory reset switch for 5 seconds with the W55RP20-S2E booting normally.
+- The RUN STATUS PIN, LINK_STATUS PIN, and TCP_STATUS PIN will toggle twice rapidly.
 
-### Step 2: Click the Factory Reset switch
-
-<img src="/img/products/w232n/fact_rst.png" width="400" />
-
-- Press and hold the factory reset switch for 5 seconds with the W232N booting normally.
-- The RUN, LINK, and TCP LEDs blink twice rapidly.
-
-### Step 3: Done
+### Step 2: Done
 
 - Use Config-tool to verify that it initialized properly.
 

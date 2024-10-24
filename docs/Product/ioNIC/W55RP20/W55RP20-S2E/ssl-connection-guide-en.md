@@ -10,9 +10,9 @@ date: 2022-06-28
 
 
 
-## W232N SSL Connection Overview
+## W55RP20-S2E SSL Connection Overview
 
-**W232N** supports **SSL TCP client** mode.
+**W55RP20-S2E** supports **SSL TCP client** mode.
 
 
 
@@ -26,8 +26,7 @@ date: 2022-06-28
 
 ### Hardware
 
-  - W232N
-  - 5~36V Power adapter
+  - W55RP20-S2E
   - Cables (Ethernet / Serial)
 
 
@@ -85,7 +84,7 @@ s_server -accept 443 -cert server.crt -key server.key
 
 
 
-### Step 4: Setup W232N through WIZnet S2E Configuration Tool for SSL Server Connection
+### Step 4: Setup W55RP20-S2E through WIZnet S2E Configuration Tool for SSL Server Connection
 
 1. Select **SSL TCP client** mode in the **Operation mode** setting section
 
@@ -120,7 +119,7 @@ s_server -accept 443 -cert server.crt -key server.key
 
 ### Step 5: Done
 
-W232N is successfully connected to the SSL server!
+W55RP20-S2E is successfully connected to the SSL server!
 
 
 
