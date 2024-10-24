@@ -40,18 +40,19 @@ This manual is a guide for downloading the W55RP20-S2E firmware to the W55RP20-E
 ### Step 1: Flash W55RP20-S2E Firmware onto W55RP20-EVB-PICO
 
 Download the last verson of W55RP20-S2E Bin_Files_VXXX.zip<br />
-<img src="/img/products/w55rp20-s2e/S2E_BIN.png" width="500" /> <br />
+[W55RP20-S2E](https://github.com/WIZnet-ioNIC/W55RP20-S2E/releases)
+<img src="/img/products/w55rp20-s2e/S2E_BIN.png" width="550" /> <br />
 
 
 Unzip the Bin_Files_VXXX.zip<br />
-<img src="/img/products/w55rp20-s2e/S2E_folder.png" width="500" /> <br />
+<img src="/img/products/w55rp20-s2e/S2E_folder.png" width="300" /> <br />
 
 Connect the w55rp20-evb-pico via USB. While holding down the BOOTSEL button, press the Reset button briefly once.<br />
 <img src="/img/products/w55rp20-s2e/w55rp20-evb-pico-bt.png" width="500" />
 
 You can see RPI-RP2 removable disk will appear.<br />
 Drag and drop App_linker.uf2 and Boot.uf2, one by one, into the Bin_Files_VXXX folder.<br />
-<img src="/img/products/w55rp20-s2e/drag-drop.png" width="500" />
+<img src="/img/products/w55rp20-s2e/drag-drop.png" width="400" />
 
 ### Step 2: Write MAC address
 
