@@ -182,7 +182,7 @@ module.exports = {
 					type: 'category',
 					label: 'W55RP20-S2E',
 					items: [
-						'Product/ioNIC/W55RP20/W55RP20-S2E/overview-[EN]',
+						'Product/ioNIC/W55RP20/W55RP20-S2E/overview-en',
 						'Product/ioNIC/W55RP20/W55RP20-S2E/w55rp20-evb-pico-s2e',
 //						{
 //							type: 'category',
