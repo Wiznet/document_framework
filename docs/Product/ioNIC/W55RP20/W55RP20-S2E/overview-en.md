@@ -123,7 +123,7 @@ The **W55RP20-S2E** is a pre-programmed product with an Serial to Ethernet FW an
 | 68         | RESERVED    | RESERVED PIN       |
 | 69         | GND    | Ground       |
 
-
+****BOOT_MODE pin is for Entering W55RP20-S2E BOOT mode and BOOT pin is for Entering RP2040 core BOOT mode.**
 
 
 

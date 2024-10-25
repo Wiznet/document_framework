@@ -204,7 +204,52 @@ when FW update success you can see **'F/W Update Complete. Device Reboot Please 
 The web-config page does not refresh automatically, so reconnect to 'your IP address:50003'
 
 ## Using USB
-- update soon
+
+### Required Hardware and Software
+
+
+#### Hardware
+
+  - W55RP20-S2E
+  - Cables (Ethernet / USB)
+
+
+#### Software
+
+  - [W55RP20-S2E](https://github.com/WIZnet-ioNIC/W55RP20-S2E/releases)
+
+### Step 1: Connect W55RP20-S2E and PC with USB cable
+
+|                                                                                              |
+| :------------------------------------------------------------------------------------------: |
+| ![](/img/products/w55rp20-s2e/w55rp20-s2e-usb.png)                                           |
+| Figure: **USB connection**                                                                   |
+
+### Step 2: Enter Boot mode
+
+Hold the BOOT pin(pin num 63) low and pull-low the RUN pin shortly.<br />
+You can see Mass Storage Device named RPI-RP2.
+
+|                                                                                              |
+| :------------------------------------------------------------------------------------------: |
+| ![](/img/products/w55rp20-s2e/w55rp20-s2e-rpi-rp2.png)                                       |
+| Figure: **RPI-RP2**                                                                   |
+
+### Step 3: Flash W55RP20-S2E Firmware
+
+[W55RP20-S2E](https://github.com/WIZnet-ioNIC/W55RP20-S2E/releases)<br />
+Drag and drop App_linker.uf2 and Boot.uf2, one by one, from the Bin_Files_VXXX folder.<br />
+<img src="/img/products/w55rp20-s2e/drag-drop.png" width="400" />
+
+### Step 4: Done
+
+Firmware upload or update completed!
+
+W55RP20-S2E is searched after about 5 seconds in the Configuration Tool after firmware upload or update completed.
+
+If the MAC address is not stored in the MAC address memory, an additional MAC address entry is required.<br />
+[How to write MAC Address](./mac_address-write-guide-en.md)
+
 
 ## Using SWD
 - update soon
