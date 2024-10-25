@@ -102,6 +102,8 @@ The W232N provides three ways to upload or update the firmware.
 
 Run installed **'Config-tool'**
 
+Firmware updates using Config-tool require the device and PC to be on the **same subnet.**<br />
+(ex PC: 192.168.**11**.197, device: 192.168.**11**.2)
 
 
 #### Step 2: Upload Firmware
@@ -172,7 +174,9 @@ W55RP20-S2E is searched after about 5 seconds in the Configuration Tool after fi
 
 ### Step 1: Check IP address of W55RP20-S2E
 
-You can Check your IP address **Config-tool** or **using AT command**
+You can Check your Device IP address **Config-tool** or **using AT command**<br />
+Firmware updates using web config require the device and PC to be on the **same subnet.**<br />
+(ex PC: 192.168.**11**.197, device: 192.168.**11**.2)
 
 ### Step 2: Access the web server 
 
@@ -185,6 +189,7 @@ You can see your device infomation after click **GET Settings**
 
 ### Step 3: Upload Firmware
 
+[W55RP20-S2E](https://github.com/WIZnet-ioNIC/W55RP20-S2E/releases)<br />
 Select bin file(App_linker.bin).<br />
 Web server can only update Application bank so **do not upload Boot.bin**
 |                                                                                              |
