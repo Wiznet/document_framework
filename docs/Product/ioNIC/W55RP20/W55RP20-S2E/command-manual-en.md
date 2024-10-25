@@ -58,13 +58,13 @@ You can use either of the two methods below to enter serial command mode.
 
 **1. Enter command mode using hardware trigger pin**
 
-  - Use the AT_MODE pin of the W55RP20-S2E to enter command mode.
+  - Use the HW_TRIG pin of the W55RP20-S2E to enter command mode.
   - Upon turning the power on, check the pin to enter command mode. Use the trigger pin to re-enter the command mode when rebooting.
   - The trigger pin should be pull-up, and operates as low active.
   - This method is used when users wish to change settings while the product operation is initiated.
 
 ```
-  - Set the hardware AT_MODE pin to Low.
+  - Set the hardware HW_TRIG pin to Low.
 
   - Power on the W55RP20-S2E.
     · When operating in serial command mode, users can check the following message via Debug UART port.
