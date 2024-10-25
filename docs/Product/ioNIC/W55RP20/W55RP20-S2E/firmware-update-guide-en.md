@@ -117,13 +117,11 @@ Firmware updates using Config-tool require the device and PC to be on the **same
 
 2. Select the uploaded firmware
 
-When selecting firmware, you must select **.bin**(*_linker.bin).
-Config-tool can only update Application bank so **do not upload Boot.bin**
-Firmware in a file format other than .bin cannot be uploaded or updated properly.
-
+When selecting firmware, you must select **.bin**(*_linker.bin).<br />
+Config-tool can only update Application bank so **do not upload Boot.bin**<br />
 |                                                                                              |
 | :------------------------------------------------------------------------------------------: |
-| ![](/img/products/s2e_module/wiz5xxsr-rp/firmware_update_guide/select_uploaded_firmware.png) |
+| ![](/img/products/w55rp20-s2e/config-fw.png) |
 | Figure: **Select uploaded firmware**                                                         |
 
 3. Uploading the firmware
