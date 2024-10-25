@@ -16,7 +16,7 @@
 <link rel="preconnect" href="https://cdn.channel.io">
 <script>!function(){var n=window;if(n.ChannelIO)return(window.console.error||window.console.log||function(){})("ChannelIO script included twice.");var e=function(){e.c(arguments)};function t(){if(!n.ChannelIOInitialized){n.ChannelIOInitialized=!0;var e=document.createElement("script");e.type="text/javascript",e.async=!0,e.src="https://cdn.channel.io/plugin/ch-plugin-web.js",e.charset="UTF-8";var t=document.getElementsByTagName("script")[0];t.parentNode.insertBefore(e,t)}}e.q=[],e.c=function(n){e.q.push(n)},n.ChannelIO=e,"complete"===document.readyState?t():window.attachEvent?window.attachEvent("onload",t):(window.addEventListener("DOMContentLoaded",t,!1),window.addEventListener("load",t,!1))}(),ChannelIO("boot",{pluginKey:"cb95c060-ab4c-45ec-bbe8-fe40a1ea3aec"})</script>
 <script src="https://www.chatbase.co/embed.min.js" chatbotid="mzPtKtrGGxl7KLpJJ_s9j" domain="www.chatbase.co" async defer="defer"></script><link rel="stylesheet" href="/assets/css/styles.7b8db03c.css">
-<script src="/assets/js/runtime~main.127e091f.js" defer="defer"></script>
+<script src="/assets/js/runtime~main.f847d299.js" defer="defer"></script>
 <script src="/assets/js/main.27520772.js" defer="defer"></script>
 </head>
 <body class="navigation-with-keyboard">
@@ -57,6 +57,8 @@
 </ul>
 <h3 class="anchor anchorWithHideOnScrollNavbar_WYt5" id="step-1-run-config-tool">Step 1: Run Config-tool<a href="#step-1-run-config-tool" class="hash-link" aria-label="Direct link to Step 1: Run Config-tool" title="Direct link to Step 1: Run Config-tool">​</a></h3>
 <p>Run installed <strong>&#x27;Config-tool&#x27;</strong></p>
+<p>Firmware updates using Config-tool require the device and PC to be on the <strong>same subnet.</strong><br>
+(ex PC: 192.168.<strong>11</strong>.197, device: 192.168.<strong>11</strong>.2)</p>
 <h4 class="anchor anchorWithHideOnScrollNavbar_WYt5" id="step-2-upload-firmware">Step 2: Upload Firmware<a href="#step-2-upload-firmware" class="hash-link" aria-label="Direct link to Step 2: Upload Firmware" title="Direct link to Step 2: Upload Firmware">​</a></h4>
 <ol>
 <li>Click the <strong>Firmware Upload</strong> button</li>
@@ -93,13 +95,16 @@ Firmware in a file format other than .bin cannot be uploaded or updated properly
 <li><a href="https://github.com/Wiznet/WIZnet-S2E-Tool-GUI/releases" target="_blank" rel="noopener noreferrer">WIZnet S2E Configuration Tool</a></li>
 </ul>
 <h3 class="anchor anchorWithHideOnScrollNavbar_WYt5" id="step-1-check-ip-address-of-w55rp20-s2e">Step 1: Check IP address of W55RP20-S2E<a href="#step-1-check-ip-address-of-w55rp20-s2e" class="hash-link" aria-label="Direct link to Step 1: Check IP address of W55RP20-S2E" title="Direct link to Step 1: Check IP address of W55RP20-S2E">​</a></h3>
-<p>You can Check your IP address <strong>Config-tool</strong> or <strong>using AT command</strong></p>
+<p>You can Check your Device IP address <strong>Config-tool</strong> or <strong>using AT command</strong><br>
+Firmware updates using web config require the device and PC to be on the <strong>same subnet.</strong><br>
+(ex PC: 192.168.<strong>11</strong>.197, device: 192.168.<strong>11</strong>.2)</p>
 <h3 class="anchor anchorWithHideOnScrollNavbar_WYt5" id="step-2-access-the-web-server">Step 2: Access the web server<a href="#step-2-access-the-web-server" class="hash-link" aria-label="Direct link to Step 2: Access the web server" title="Direct link to Step 2: Access the web server">​</a></h3>
 <p>Using a web browser (e.g., Chrome), connect to the web server at port 50003 of the S2E module address you have configured.<br>
 You can see your device infomation after click <strong>GET Settings</strong></p>
 <table><thead><tr><th style="text-align:center"></th></tr></thead><tbody><tr><td style="text-align:center"><img decoding="async" loading="lazy" src="/assets/images/w55rp20-s2e-web-fw-41784014ba6dabfdb543f74764c20c17.png" width="762" height="999" class="img_ev3q"></td></tr><tr><td style="text-align:center">Figure: <strong>Web server config</strong></td></tr></tbody></table>
 <h3 class="anchor anchorWithHideOnScrollNavbar_WYt5" id="step-3-upload-firmware">Step 3: Upload Firmware<a href="#step-3-upload-firmware" class="hash-link" aria-label="Direct link to Step 3: Upload Firmware" title="Direct link to Step 3: Upload Firmware">​</a></h3>
-<p>Select bin file(App_linker.bin).<br>
+<p><a href="https://github.com/WIZnet-ioNIC/W55RP20-S2E/releases" target="_blank" rel="noopener noreferrer">W55RP20-S2E</a><br>
+Select bin file(App_linker.bin).<br>
 Web server can only update Application bank so <strong>do not upload Boot.bin</strong></p>
 <table><thead><tr><th style="text-align:center"></th></tr></thead><tbody><tr><td style="text-align:center"><img decoding="async" loading="lazy" src="/assets/images/w55rp20-s2e-web-up-98f73d1e7cb2e8c09a259c5f5ce27419.png" width="1093" height="1011" class="img_ev3q"></td></tr><tr><td style="text-align:center">Figure: <strong>Select Bin file</strong></td></tr></tbody></table>
 <p>After select .bin file, click the <strong>Module Update</strong> and select <strong>Confirm</strong></p>
