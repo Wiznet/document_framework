@@ -2625,84 +2625,6 @@ Return value</th>
 
 ### Status I/O
 
-
-
----
-
-#### SC
-
----
-
-  - **Format:** `SC<Parameter_0><Parameter_1>[CR][LF]`
-
-  - **Meaning:** Set status I/O pin **[S0](#s0)(PA\_10) and [S1](#s1)(PA\_01)** operation mode
-
-  - **Command Type:** Read / Write
-
-  - **Parameter / Return Type:** Number (0 / 1)
-
-  - **Parameter / Return Value:**
-
-  - **Parameter\_0** (upper byte)
-
-<table>
-<thead>
-<tr class="header">
-<th>Parameter / Return value</th>
-<th>Meaning</th>
-<th>Remarks</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td align="center">0</td>
-<td>PHY link status</td>
-<td align="center">Default</td>
-</tr>
-<tr class="even">
-<td align="center">1</td>
-<td>DTR</td>
-<td align="center">Data Terminal Ready (RS-232/TTL only)</td>
-</tr>
-</tbody>
-</table>
-
-  - **Parameter\_1** (lower byte)
-
-<table>
-<thead>
-<tr class="header">
-<th>Parameter / Return value</th>
-<th>Meaning</th>
-<th>Remarks</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td align="center">0</td>
-<td>TCP connection status</td>
-<td align="center">Default</td>
-</tr>
-<tr class="even">
-<td align="center">1</td>
-<td>DSR</td>
-<td align="center">Data Set Ready (RS-232/TTL only)</td>
-</tr>
-</tbody>
-</table>
-
-  - **Response**
-
-	**Without Parameter (Get)**
-    - In ASCII: (Connection Status) `SC00\r\n`
-    - In ASCII: (DTR / DSR) `SC11\r\n`
-
-	**With Parameter (Set)**
-    - No response
-    - Change status I/O pins operation mode
-
-
-
 ---
 
 #### S0
@@ -2711,7 +2633,7 @@ Return value</th>
 
   - **Format:** `S0<Parameter>[CR][LF]`
 
-  - **Meaning:** Status I/O pin **S0(PA\_10)** value
+  - **Meaning:** Status I/O pin **S0(GP\_10)** value
 
   - **Command Type:** Read only
 
@@ -2750,7 +2672,7 @@ Return value</th>
 
   - **Format:** `S1<Parameter>[CR][LF]`
 
-  - **Meaning:** Status I/O pin **S1(PA\_01)** value
+  - **Meaning:** Status I/O pin **S1(GP\_11)** value
 
   - **Command Type:** Read only
 
