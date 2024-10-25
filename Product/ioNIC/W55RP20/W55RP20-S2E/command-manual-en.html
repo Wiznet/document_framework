@@ -16,7 +16,7 @@
 <link rel="preconnect" href="https://cdn.channel.io">
 <script>!function(){var n=window;if(n.ChannelIO)return(window.console.error||window.console.log||function(){})("ChannelIO script included twice.");var e=function(){e.c(arguments)};function t(){if(!n.ChannelIOInitialized){n.ChannelIOInitialized=!0;var e=document.createElement("script");e.type="text/javascript",e.async=!0,e.src="https://cdn.channel.io/plugin/ch-plugin-web.js",e.charset="UTF-8";var t=document.getElementsByTagName("script")[0];t.parentNode.insertBefore(e,t)}}e.q=[],e.c=function(n){e.q.push(n)},n.ChannelIO=e,"complete"===document.readyState?t():window.attachEvent?window.attachEvent("onload",t):(window.addEventListener("DOMContentLoaded",t,!1),window.addEventListener("load",t,!1))}(),ChannelIO("boot",{pluginKey:"cb95c060-ab4c-45ec-bbe8-fe40a1ea3aec"})</script>
 <script src="https://www.chatbase.co/embed.min.js" chatbotid="mzPtKtrGGxl7KLpJJ_s9j" domain="www.chatbase.co" async defer="defer"></script><link rel="stylesheet" href="/assets/css/styles.7b8db03c.css">
-<script src="/assets/js/runtime~main.b01d6907.js" defer="defer"></script>
+<script src="/assets/js/runtime~main.73e89679.js" defer="defer"></script>
 <script src="/assets/js/main.27520772.js" defer="defer"></script>
 </head>
 <body class="navigation-with-keyboard">
@@ -2063,49 +2063,6 @@ Keep-alive packet transmission becomes active only when at least one Ethernet da
 </ul>
 <h3 class="anchor anchorWithHideOnScrollNavbar_WYt5" id="status-io">Status I/O<a href="#status-io" class="hash-link" aria-label="Direct link to Status I/O" title="Direct link to Status I/O">​</a></h3>
 <hr>
-<h4 class="anchor anchorWithHideOnScrollNavbar_WYt5" id="sc">SC<a href="#sc" class="hash-link" aria-label="Direct link to SC" title="Direct link to SC">​</a></h4>
-<hr>
-<ul>
-<li>
-<p><strong>Format:</strong> <code>SC&lt;Parameter_0&gt;&lt;Parameter_1&gt;[CR][LF]</code></p>
-</li>
-<li>
-<p><strong>Meaning:</strong> Set status I/O pin <strong><a href="#s0">S0</a>(PA_10) and <a href="#s1">S1</a>(PA_01)</strong> operation mode</p>
-</li>
-<li>
-<p><strong>Command Type:</strong> Read / Write</p>
-</li>
-<li>
-<p><strong>Parameter / Return Type:</strong> Number (0 / 1)</p>
-</li>
-<li>
-<p><strong>Parameter / Return Value:</strong></p>
-</li>
-<li>
-<p><strong>Parameter_0</strong> (upper byte)</p>
-</li>
-</ul>
-<table><thead><tr class="header"><th>Parameter / Return value</th><th>Meaning</th><th>Remarks</th></tr></thead><tbody><tr class="odd"><td align="center">0</td><td>PHY link status</td><td align="center">Default</td></tr><tr class="even"><td align="center">1</td><td>DTR</td><td align="center">Data Terminal Ready (RS-232/TTL only)</td></tr></tbody></table>
-<ul>
-<li><strong>Parameter_1</strong> (lower byte)</li>
-</ul>
-<table><thead><tr class="header"><th>Parameter / Return value</th><th>Meaning</th><th>Remarks</th></tr></thead><tbody><tr class="odd"><td align="center">0</td><td>TCP connection status</td><td align="center">Default</td></tr><tr class="even"><td align="center">1</td><td>DSR</td><td align="center">Data Set Ready (RS-232/TTL only)</td></tr></tbody></table>
-<ul>
-<li>
-<p><strong>Response</strong></p>
-<p><strong>Without Parameter (Get)</strong></p>
-<ul>
-<li>In ASCII: (Connection Status) <code>SC00\r\n</code></li>
-<li>In ASCII: (DTR / DSR) <code>SC11\r\n</code></li>
-</ul>
-<p><strong>With Parameter (Set)</strong></p>
-<ul>
-<li>No response</li>
-<li>Change status I/O pins operation mode</li>
-</ul>
-</li>
-</ul>
-<hr>
 <h4 class="anchor anchorWithHideOnScrollNavbar_WYt5" id="s0">S0<a href="#s0" class="hash-link" aria-label="Direct link to S0" title="Direct link to S0">​</a></h4>
 <hr>
 <ul>
@@ -2113,7 +2070,7 @@ Keep-alive packet transmission becomes active only when at least one Ethernet da
 <p><strong>Format:</strong> <code>S0&lt;Parameter&gt;[CR][LF]</code></p>
 </li>
 <li>
-<p><strong>Meaning:</strong> Status I/O pin <strong>S0(PA_10)</strong> value</p>
+<p><strong>Meaning:</strong> Status I/O pin <strong>S0(GP_10)</strong> value</p>
 </li>
 <li>
 <p><strong>Command Type:</strong> Read only</p>
@@ -2155,7 +2112,7 @@ Keep-alive packet transmission becomes active only when at least one Ethernet da
 <p><strong>Format:</strong> <code>S1&lt;Parameter&gt;[CR][LF]</code></p>
 </li>
 <li>
-<p><strong>Meaning:</strong> Status I/O pin <strong>S1(PA_01)</strong> value</p>
+<p><strong>Meaning:</strong> Status I/O pin <strong>S1(GP_11)</strong> value</p>
 </li>
 <li>
 <p><strong>Command Type:</strong> Read only</p>
