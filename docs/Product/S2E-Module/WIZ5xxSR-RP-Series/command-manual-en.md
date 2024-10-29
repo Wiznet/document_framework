@@ -880,7 +880,6 @@ The two additional commands are **MA** and **PW**.
 | Return value | Description                                                     | Remarks    |
 | :----------: | --------------------------------------------------------------- | :--------: |
 | 0            | Device supports UART input/output of RS-232 or TTL signals.     | RS-232/TTL |
-| 1            | Device supports UART input/output of RS-422 and RS-485 signals. | RS-422/485 |
 
   - **Response**
 
