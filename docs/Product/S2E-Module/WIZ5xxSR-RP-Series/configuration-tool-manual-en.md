@@ -437,7 +437,7 @@ The configuration tool is composed of four sections. Details of each section are
 |        Item         | Description                                                                                                                                                                                                                                                                                                                                                                                                                                                |
 | :-----------------: | ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
 |      Status[1]      | Shows the operational status of the device<br />- <strong>BOOT</strong>: Settings and firmware upload is possible during this status<br />- <strong>OPEN</strong>: Status before TCP connection<br />- <strong>CONNECT</strong>: Status after TCP connection<br />- <strong>UPGRADE</strong>: Firmware update or DHCP IP allocation during this status<br />- <strong>ATMODE</strong>: Serial AT command mode.<br />- <strong>UDP</strong>: UDP mode<br /> |
-| Serial interface[2] | Shows the types of UART interfaces.<br />- <strong>RS-232/TTL</strong>: WIZ5xxSR-RP hardware TTL or RS-232 version.<br />- <strong>RS-422/485</strong>: WIZ5xxSR-RP hardware RS-422/485 version.                                                                                                                                                                                                                                                           |
+| Serial interface[2] | Shows the types of UART interfaces.<br />- <strong>RS-232/TTL</strong>: WIZ5xxSR-RP hardware TTL or RS-232 version.<br />                   |
 
   - Difference between WIZ107/108SR is the addition of BOOT and UDP mode.
   - Difference between WIZ107/108SR is the number of UART interfaces.
@@ -483,7 +483,7 @@ The configuration tool is composed of four sections. Details of each section are
         - CTS/RTS: Hardware flow control
         - RTS on TX:
         - RTS on TX (Invert):
-    - RS-422/485 versions will operate as ‘NONE’ shown above no matter which option is selected.
+
 
 
 

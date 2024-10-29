@@ -852,7 +852,7 @@ The two additional commands are **MA** and **PW**.
 | UART interface | Description                                                     |
 | :------------: | --------------------------------------------------------------- |
 | RS-232/TTL     | Device supports UART input/output of RS-232C or TTL signals.    |
-| RS-422/485     | Device supports UART input/output of RS-422 and RS-485 signals. |
+
 
   - **Response**
 
