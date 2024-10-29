@@ -16,7 +16,7 @@
 <link rel="preconnect" href="https://cdn.channel.io">
 <script>!function(){var n=window;if(n.ChannelIO)return(window.console.error||window.console.log||function(){})("ChannelIO script included twice.");var e=function(){e.c(arguments)};function t(){if(!n.ChannelIOInitialized){n.ChannelIOInitialized=!0;var e=document.createElement("script");e.type="text/javascript",e.async=!0,e.src="https://cdn.channel.io/plugin/ch-plugin-web.js",e.charset="UTF-8";var t=document.getElementsByTagName("script")[0];t.parentNode.insertBefore(e,t)}}e.q=[],e.c=function(n){e.q.push(n)},n.ChannelIO=e,"complete"===document.readyState?t():window.attachEvent?window.attachEvent("onload",t):(window.addEventListener("DOMContentLoaded",t,!1),window.addEventListener("load",t,!1))}(),ChannelIO("boot",{pluginKey:"cb95c060-ab4c-45ec-bbe8-fe40a1ea3aec"})</script>
 <script src="https://www.chatbase.co/embed.min.js" chatbotid="mzPtKtrGGxl7KLpJJ_s9j" domain="www.chatbase.co" async defer="defer"></script><link rel="stylesheet" href="/assets/css/styles.7b8db03c.css">
-<script src="/assets/js/runtime~main.5d9ffe6a.js" defer="defer"></script>
+<script src="/assets/js/runtime~main.c32a0dff.js" defer="defer"></script>
 <script src="/assets/js/main.27520772.js" defer="defer"></script>
 </head>
 <body class="navigation-with-keyboard">
@@ -362,7 +362,7 @@ Firmware upload can be unsuccessful due to firewall or virus protection software
 <li>The serial command after switching modes must end with CR and LF.</li>
 </ul>
 <h4 class="anchor anchorWithHideOnScrollNavbar_WYt5" id="1-status--serial-interface">1) Status &amp; Serial Interface<a href="#1-status--serial-interface" class="hash-link" aria-label="Direct link to 1) Status &amp; Serial Interface" title="Direct link to 1) Status &amp; Serial Interface">​</a></h4>
-<table><thead><tr><th style="text-align:center">Item</th><th>Description</th></tr></thead><tbody><tr><td style="text-align:center">Status[1]</td><td>Shows the operational status of the device<br>- <strong>BOOT</strong>: Settings and firmware upload is possible during this status<br>- <strong>OPEN</strong>: Status before TCP connection<br>- <strong>CONNECT</strong>: Status after TCP connection<br>- <strong>UPGRADE</strong>: Firmware update or DHCP IP allocation during this status<br>- <strong>ATMODE</strong>: Serial AT command mode.<br>- <strong>UDP</strong>: UDP mode<br></td></tr><tr><td style="text-align:center">Serial interface[2]</td><td>Shows the types of UART interfaces.<br>- <strong>RS-232/TTL</strong>: WIZ5xxSR-RP hardware TTL or RS-232 version.<br>- <strong>RS-422/485</strong>: WIZ5xxSR-RP hardware RS-422/485 version.</td></tr></tbody></table>
+<table><thead><tr><th style="text-align:center">Item</th><th>Description</th></tr></thead><tbody><tr><td style="text-align:center">Status[1]</td><td>Shows the operational status of the device<br>- <strong>BOOT</strong>: Settings and firmware upload is possible during this status<br>- <strong>OPEN</strong>: Status before TCP connection<br>- <strong>CONNECT</strong>: Status after TCP connection<br>- <strong>UPGRADE</strong>: Firmware update or DHCP IP allocation during this status<br>- <strong>ATMODE</strong>: Serial AT command mode.<br>- <strong>UDP</strong>: UDP mode<br></td></tr><tr><td style="text-align:center">Serial interface[2]</td><td>Shows the types of UART interfaces.<br>- <strong>RS-232/TTL</strong>: WIZ5xxSR-RP hardware TTL or RS-232 version.<br></td></tr></tbody></table>
 <ul>
 <li>Difference between WIZ107/108SR is the addition of BOOT and UDP mode.</li>
 <li>Difference between WIZ107/108SR is the number of UART interfaces.</li>
@@ -421,7 +421,6 @@ Firmware upload can be unsuccessful due to firewall or virus protection software
 <li>RTS on TX (Invert):</li>
 </ul>
 </li>
-<li>RS-422/485 versions will operate as ‘NONE’ shown above no matter which option is selected.</li>
 </ul>
 </li>
 </ul>
