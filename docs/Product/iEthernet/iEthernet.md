@@ -29,7 +29,7 @@ If there are any questions, please use our [`Forum`](https://maker.wiznet.io/for
 | Host I/F            | 8bit BUS, Fast SPI  | 8bit BUS, SPI | Fast SPI | 8/16bit BUS | 8bit BUS, SPI | 8bit BUS, SPI | Fast SPI |
 | TX/RX Buffer        | 32KB                   | 16KB | 32KB | 128KB | 16KB | 16KB | 32KB |
 | HW Socket #         | 8                       | 4 | 8 | 8 | 4 | 4 | 8 |
-| Network Performance | Max.25Mbps         | Max.25Mbps | Max.15Mbps | Max.80Mbps | Max.25Mbps | Max.25Mbps | Max.10Mbps |
+| Network Performance | Max.50Mbps         | Max.25Mbps | Max.50Mbps | Max.80Mbps | Max.25Mbps | Max.25Mbps | Max.10Mbps |
 | Operation Temp (℃) | -40 .. +85              | -40 .. +85 | -40 .. +85 | -40 .. +85 | -40 .. +85 | -40 .. +85 | -40 .. +85 |
 | Package             | 48LQFP / QFN            | 48LQFP / QFN | 48LQFP | 100LQFP | 80LQFP | 64LQFP | 48QFN |
 | Size                | 7x7                     | 7x7 | 7x7 | 14x14 | 10x10 | 10x10 | 7x7 |
