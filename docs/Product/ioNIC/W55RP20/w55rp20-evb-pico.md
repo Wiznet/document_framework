@@ -128,7 +128,10 @@ Please refer to below links to find firmware example.
   - [FreeRTOS Examples](https://github.com/WIZnet-ioNIC/WIZnet-PICO-FREERTOS-C)
 - MicroPython Examples
   - [Ethernet Examples](https://github.com/WIZnet-ioNIC/WIZnet-ioNIC-micropython)
-- CircuitPython Examples (Update Coming Soon)
+- CircuitPython Examples
+  - [CircuitPython Examples](https://github.com/WIZnet-ioNIC/WIZnet-ioNIC-Circuitpython)
+- Arduino Examples
+  - [Arduino Examples](https://github.com/earlephilhower/arduino-pico)
 
 ## How to buy
 
