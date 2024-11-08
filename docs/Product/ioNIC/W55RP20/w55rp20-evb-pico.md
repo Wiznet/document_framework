@@ -99,13 +99,11 @@ Recommended maximum ambient temperature of operation is 70C.
 
 ### W5500 Datasheet
 
-- <a href="https://docs.wiznet.io/Product/iEthernet/W5500/datasheet" 
-target="_blank">Download</a>
+- <a href="https://docs.wiznet.io/Product/iEthernet/W5500/datasheet" target="_blank">Download</a>
 
 ### W55RP20 Datasheet
 
-- <a href="https://docs.wiznet.io/Product/ioNIC/W55RP20/documents_md#w55rp20-datasheet" 
-target="_blank">Download</a>
+- <a href="https://docs.wiznet.io/Product/ioNIC/W55RP20/documents_md#w55rp20-datasheet" target="_blank">Download</a>
 
 ### Schematic
 
