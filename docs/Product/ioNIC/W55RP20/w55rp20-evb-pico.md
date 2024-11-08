@@ -97,6 +97,16 @@ Recommended maximum ambient temperature of operation is 70C.
 
 - <a href="https://datasheets.raspberrypi.org/rp2040/rp2040-datasheet.pdf" target="_blank">Download</a>
 
+### W5500 Datasheet
+
+- <a href="https://docs.wiznet.io/Product/iEthernet/W5500/datasheet" 
+target="_blank">Download</a>
+
+### W55RP20 Datasheet
+
+- <a href="https://docs.wiznet.io/Product/ioNIC/W55RP20/documents_md#w55rp20-datasheet" 
+target="_blank">Download</a>
+
 ### Schematic
 
 ![schematics-w55rp20-evb-pico](/img/products/w55rp20-evb-pico/schematics-w55rp20-evb-pico.png)
