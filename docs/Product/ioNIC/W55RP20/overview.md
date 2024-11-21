@@ -82,11 +82,15 @@ This chip is designed to be compatible with various programming environments, su
     - Features
     - Technical Reference
 - Firmware Example
-    - C/C++
-        - [Ethernet Examples](https://github.com/WIZnet-ioNIC/WIZnet-PICO-C)
-        - [AWS Examples](https://github.com/WIZnet-ioNIC/WIZnet-PICO-AWS-C)
-        - [Azure Examples](https://github.com/WIZnet-ioNIC/WIZnet-PICO-AZURE-C)
-        - [LwIP Examples](https://github.com/WIZnet-ioNIC/WIZnet-PICO-LWIP-C)
-        - [FreeRTOS Examples](https://github.com/WIZnet-ioNIC/WIZnet-PICO-FREERTOS-C)
-    - CircuitPython Examples (Update Coming Soon)
-    - MicroPython Examples (Update Coming Soon)
+	- C/C++
+  	  - [Ethernet Examples](https://github.com/WIZnet-ioNIC/WIZnet-PICO-C)
+  	  - [AWS Examples](https://github.com/WIZnet-ioNIC/WIZnet-PICO-AWS-C)
+  	  - [Azure Examples](https://github.com/WIZnet-ioNIC/WIZnet-PICO-AZURE-C)
+  	  - [LwIP Examples](https://github.com/WIZnet-ioNIC/WIZnet-PICO-LWIP-C)
+  	  - [FreeRTOS Examples](https://github.com/WIZnet-ioNIC/WIZnet-PICO-FREERTOS-C)
+	- MicroPython Examples
+	  - [Ethernet Examples](https://github.com/WIZnet-ioNIC/WIZnet-ioNIC-micropython)
+	- CircuitPython Examples
+ 	  - [CircuitPython Examples](https://github.com/WIZnet-ioNIC/WIZnet-ioNIC-Circuitpython)
+	- Arduino Examples
+  	  - [Arduino Examples](https://github.com/earlephilhower/arduino-pico)
