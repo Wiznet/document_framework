@@ -124,6 +124,14 @@ Recommended maximum ambient temperature of operation is 70C.
 - <a href="/img/products/w55rp20-evb-pico/Certificate-FCC-W55RP20-EVB-Pico.pdf" target="_blank">FCC DoC</a>
 - <a href="/img/products/w55rp20-evb-pico/Test-Report-FCC-W55RP20-EVB-Pico.pdf" target="_blank">FCC Test report</a>
 
+### AWS Qualification
+
+W55RP20-EVB-Pico is RP2040-based device that got AWS IoT Core Qualification.
+
+![](/img/products/w55rp20/aws_qualified_device_badge.png)
+
+- [AWS Partner Device Catalog](https://partners.amazonaws.com/devices/a3Gaq00000000cjEAA/W55RP20-EVB-Pico)
+- <a href="https://github.com/WIZnet-ioNIC/WIZnet-PICO-AWS-C?tab=readme-ov-file#getting-started-guide-for-aws-iot-core" target="_blank">Getting Started Guide for AWS IoT Core</a>
 
 ### Firmware Example
 Please refer to below links to find firmware example.
