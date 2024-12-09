@@ -89,8 +89,8 @@ This chip is designed to be compatible with various programming environments, su
   	  - [LwIP Examples](https://github.com/WIZnet-ioNIC/WIZnet-PICO-LWIP-C)
   	  - [FreeRTOS Examples](https://github.com/WIZnet-ioNIC/WIZnet-PICO-FREERTOS-C)
 	- MicroPython Examples
-	  - [Ethernet Examples](https://github.com/WIZnet-ioNIC/WIZnet-ioNIC-micropython)
+  	  - [Ethernet Examples](https://github.com/WIZnet-ioNIC/WIZnet-ioNIC-micropython)
 	- CircuitPython Examples
- 	  - [CircuitPython Examples](https://github.com/WIZnet-ioNIC/WIZnet-ioNIC-Circuitpython)
+   	  - [CircuitPython Examples](https://github.com/WIZnet-ioNIC/WIZnet-ioNIC-Circuitpython)
 	- Arduino Examples
   	  - [Arduino Examples](https://github.com/earlephilhower/arduino-pico)
