@@ -1,6 +1,6 @@
 ---
 id: datasheet
-title: WIZ750SR-125 Datasheet
+title: WIZ752SR-125 Datasheet
 date: 2020-04-08
 ---
 
