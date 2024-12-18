@@ -308,8 +308,8 @@ Please refer to below links to find firmware example.
   - <a href = "/img/application_notes/PICO-C/SNTP_EXAMPLE_AN_V100.pdf" target ="_blank">SNTP_EXAMPLE_AN_V100 - English</a>
   - <a href = "/img/application_notes/PICO-C/TCP_Client_over_SSL_EXAMPLE_AN_V100.pdf" target ="_blank">TCP_Client_over_SSL_EXAMPLE_AN_V100 - English</a>
   - <a href = "/img/application_notes/PICO-C/TFTP_Client_EXAMPLE_AN_V100.pdf" target ="_blank">TFTP_Client_EXAMPLE_AN_V100 - English</a>
-  - <a href = "/img/application_notes/PICO-C/AWS_IoT_HTTP_EXAMPLE_AN_V100.pdf" target ="_blank">AWS_IoT_HTTP_EXAMPLE_AN_V100 - English</a>
-  - <a href = "/img/application_notes/PICO-C/AWS_IoT_MQTT_EXAMPLE_AN_V100.pdf" target ="_blank">AWS_IoT_MQTT_EXAMPLE_AN_V100 - English</a>
+  - <a href = "/img/application_notes/PICO-AWS-C/AWS_IoT_HTTP_EXAMPLE_AN_V100.pdf" target ="_blank">AWS_IoT_HTTP_EXAMPLE_AN_V100 - English</a>
+  - <a href = "/img/application_notes/PICO-AWS-C/AWS_IoT_MQTT_EXAMPLE_AN_V100.pdf" target ="_blank">AWS_IoT_MQTT_EXAMPLE_AN_V100 - English</a>
   
 
 ### Certification

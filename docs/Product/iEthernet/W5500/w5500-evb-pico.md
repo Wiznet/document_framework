@@ -133,7 +133,8 @@ Please refer to below links to find firmware example.
 
 ### Application Notes
 
-- C/C++
+#### C/C++
+- Ethernet Examples
   - <a href = "/img/application_notes/PICO-C/DHCP_DNS_EXAMPLE_AN_V100.pdf" target ="_blank">DHCP_DNS_EXAMPLE_AN_V100 - English</a>
   - <a href = "/img/application_notes/PICO-C/FTP_Client_EXAMPLE_AN_V100.pdf" target ="_blank">FTP_Client_EXAMPLE_AN_V100 - English</a>
   - <a href = "/img/application_notes/PICO-C/FTP_Server_EXAMPLE_AN_V100.pdf" target ="_blank">FTP_Server_EXAMPLE_AN_V100 - English</a>
@@ -146,8 +147,15 @@ Please refer to below links to find firmware example.
   - <a href = "/img/application_notes/PICO-C/SNTP_EXAMPLE_AN_V100.pdf" target ="_blank">SNTP_EXAMPLE_AN_V100 - English</a>
   - <a href = "/img/application_notes/PICO-C/TCP_Client_over_SSL_EXAMPLE_AN_V100.pdf" target ="_blank">TCP_Client_over_SSL_EXAMPLE_AN_V100 - English</a>
   - <a href = "/img/application_notes/PICO-C/TFTP_Client_EXAMPLE_AN_V100.pdf" target ="_blank">TFTP_Client_EXAMPLE_AN_V100 - English</a>
-  - <a href = "/img/application_notes/PICO-C/AWS_IoT_HTTP_EXAMPLE_AN_V100.pdf" target ="_blank">AWS_IoT_HTTP_EXAMPLE_AN_V100 - English</a>
-  - <a href = "/img/application_notes/PICO-C/AWS_IoT_MQTT_EXAMPLE_AN_V100.pdf" target ="_blank">AWS_IoT_MQTT_EXAMPLE_AN_V100 - English</a>
+  - <a href = "/img/application_notes/PICO-C/UDP_multicast_receiver_EXAMPLE_AN_V100.pdf" target ="_blank">UDP_multicast_receiver_EXAMPLE_AN_V100 - English</a>
+- AWS Examples
+  - <a href = "/img/application_notes/PICO-AWS-C/AWS_IoT_HTTP_EXAMPLE_AN_V100.pdf" target ="_blank">AWS_IoT_HTTP_EXAMPLE_AN_V100 - English</a>
+  - <a href = "/img/application_notes/PICO-AWS-C/AWS_IoT_MQTT_EXAMPLE_AN_V100.pdf" target ="_blank">AWS_IoT_MQTT_EXAMPLE_AN_V100 - English</a>
+- Azure Examples
+  - <a href = "/img/application_notes/PICO-AZURE-C/AZURE_telemetry_EXAMPLE_AN_V100.pdf" target ="_blank">AZURE_telemetry_EXAMPLE_AN_V100 - English</a>
+  - <a href = "/img/application_notes/PICO-AZURE-C/AZURE_2CD_EXAMPLE_AN_V100.pdf" target ="_blank">AZURE_2CD_EXAMPLE_AN_V100 - English</a>
+  - <a href = "/img/application_notes/PICO-AZURE-C/AZURE_client_X509_EXAMPLE_AN_V100.pdf" target ="_blank">AZURE_client_X509_EXAMPLE_AN_V100 - English</a>
+  - <a href = "/img/application_notes/PICO-AZURE-C/AZURE_prov_X509_EXAMPLE_AN_V100.pdf" target ="_blank">AZURE_prov_X509_EXAMPLE_AN_V100 - English</a>
   
 ### Certification
 
