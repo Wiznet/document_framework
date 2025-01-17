@@ -81,6 +81,7 @@ Server IP : TFTP Server IP
 
 ☞ WIZ550S2E Configure tool is not supported TFTP server. So you use TFTP
 program separately.
+
 ### Reset
 
 This is the function which makes Module reboot. This requires password
@@ -180,6 +181,7 @@ This section is for setting WIZ550S2E's Port information.
 
   
 #### Working Mode 
+
 The working mode of WIZ550S2E can be divided into TCP Server, TCP Client and TCP Mixed according to the connection
 establishing method, but UDP processes the data communication without connection establishment.  
   
@@ -188,6 +190,7 @@ the connection trial from the client. WIZ550S2E operates as the client
 in TCP Client mode and tries to connect to the server’s IP and Port.
 Mixed mode supports both Server and Client. The communication process of
 each mode is as below.
+
 #### TCP server mode communication
 
 During the TCP Server mode, WIZ550S2E waits for the connection request.
@@ -253,6 +256,7 @@ WIZ550S2E is used, to check the device status. In addition to this, if
 any emergency occurs in the serial device, the module will change to TCP
 Client mode to establish the connection to the TCP server and deliver
 the emergency status of the device.
+
 #### UDP mode Communication
 
 UDP is not a connection oriented protocol but the communication port
@@ -321,34 +325,37 @@ capable to control the module through serial terminal (AT command).
   
 Module Default setting: Enable  
 Default trigger to AT command: 2B 2B 2B in Hex.  
+
 #### Packing Conditions
+
 Normally, data received from UART are sent to Ethernet immediately. But in many cases, users want to send data as a
 chunk of the whole frame without separated ones. This option is for packetizing data into one frame.
 
-    Time (0 ~ 65535 ms, ‘0’: Function Disable) : 
-        This field is for specifying time value (in ms) to judge whether one frame 
-        is received totally. If the time specified in this field is expired 
-        after receiving one byte, then WIZ550S2E notice one data frame is finished, 
-        make an Ethernet packet with all data in its serial buffer and send it to 
-        the peer system via Ethernet. 
-        If WIZ550S2E receives another byte from UART before the specified time is expired, 
-        it restart timer and add the received one to the end of serial data buffer.
-    Size (0 ~ 255 byte, ‘0’: Function Disable) : 
-        This field is for specifying size value to judge whether one frame is 
-        received totally. If the size specified in this field is received, then WIZ550S2E 
-        notice one data frame is finished, make an Ethernet packet with specifying size's 
-        data in its serial buffer and send it to the peer system via Ethernet.       
-    Char : 
-        This field is for specifying delimiter value to judge whether one frame is 
-        received totally. Char delimiters can be set up to 4 bytes in HEX and valid 
-        character count is decided according to the value in Length field. In case the 
-        value of Length field is '0', this option becomes inactivated. 
-        Appendix is another option for this. If user selects any value in Appendix field,
-        WIZ550S2E make an ethernet packet with all received data by Char delimiter and 
-        next bytes in counts, which designated by Appendix field. 
-        When Appendix is set with any value, not '0', even though WIZ550S2E received Char 
-        delimiters, it will wait until it receives next data.
-        -----
+Time (0 ~ 65535 ms, ‘0’: Function Disable) : 
+    This field is for specifying time value (in ms) to judge whether one frame 
+    is received totally. If the time specified in this field is expired 
+    after receiving one byte, then WIZ550S2E notice one data frame is finished, 
+    make an Ethernet packet with all data in its serial buffer and send it to 
+    the peer system via Ethernet. 
+    If WIZ550S2E receives another byte from UART before the specified time is expired, 
+    it restart timer and add the received one to the end of serial data buffer.
+
+Size (0 ~ 255 byte, ‘0’: Function Disable) : 
+    This field is for specifying size value to judge whether one frame is 
+    received totally. If the size specified in this field is received, then WIZ550S2E 
+    notice one data frame is finished, make an Ethernet packet with specifying size's 
+    data in its serial buffer and send it to the peer system via Ethernet.       
+    
+Char : 
+    This field is for specifying delimiter value to judge whether one frame is 
+    received totally. Char delimiters can be set up to 4 bytes in HEX and valid 
+    character count is decided according to the value in Length field. In case the 
+    value of Length field is '0', this option becomes inactivated. 
+    Appendix is another option for this. If user selects any value in Appendix field,
+    WIZ550S2E make an ethernet packet with all received data by Char delimiter and 
+    next bytes in counts, which designated by Appendix field. 
+    When Appendix is set with any value, not '0', even though WIZ550S2E received Char 
+    delimiters, it will wait until it receives next data.
 
 ## Options Configurations
 
