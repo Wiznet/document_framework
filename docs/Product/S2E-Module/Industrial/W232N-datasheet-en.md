@@ -34,8 +34,6 @@ This document is the HW specification for the W232N, an industrial Ethernet to R
 The package of W232N is organized as follows.
 
   - W232N
-  - 5V 2A power adapter
-  - Ethernet cable
 
 
 ### Appearance

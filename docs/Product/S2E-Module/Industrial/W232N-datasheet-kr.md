@@ -34,8 +34,6 @@ description: W232N is a industrial serial to Ethernet module using the W55RP20
 W232N의 패키지는 아래와 같이 구성되어있습니다.
 
   - W232N
-  - 5V 2A 전원 어댑터
-  - Ethernet 케이블
 
 
 ### 외관
