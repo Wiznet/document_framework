@@ -14,7 +14,7 @@ description: w6300 chip is a Hardwired Internet controller designed as a full ha
 ## W6300
 Chip Image is comming soon
 
-![image](https://github.com/Wiznet/document_framework/assets/77008882/fcfc0573-8de7-434a-9608-0f47a39f557a)
+![image](https://github.com/Wiznet/document_framework/assets/77008882/fcfc0573-8de7-434a-9608-0f47a39f557a)   
 
 overview
 
