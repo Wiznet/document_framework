@@ -7,7 +7,8 @@ date: 2025-02-27
 
 ## W6300 Application Notes
 
-  * 🌎 [**ioNIC Projects**](https://github.com/WIZnet-ioNIC/WIZnet-PICO-v6-C)
+  * 🌎 [**ioNIC Projects**]
+  <!-- (https://github.com/WIZnet-ioNIC/WIZnet-PICO-v6-C) -->
   
   <!-- * **HTTP Server**
     * 🌎 [TrueStudio](https://github.com/WIZnet-ioLibrary/W6100EVB-HTTP_Server)
