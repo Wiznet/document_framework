@@ -21,10 +21,8 @@ overview
 W6300 is a WIZnet 10/100 TOE ethernet chip that combines the high-speed ethernet performance with Dual IPv4/v6 Hardware stack. 
 To support ethernet performance over 80Mbps and above, it supports 150MHz system clock and QSPI interface(including 4 Data lines). 
 W6300 supports a total SRAM size of 64KB for 8 sockets, each has 4KB TX/RX buffer by default. 
-And it also provides external MII interface for user external PHYs.
 
-
-![w6300_block_diagram](https://github.com/Wiznet/document_framework/assets/77008882/a6e46089-6483-423f-9752-05fdafd6af9b)
+![](/img/products/w6300/VS_CODE_SET_UP/W6300_block_diagram_250228.png)
 
 ---
 
@@ -43,7 +41,7 @@ And it also provides external MII interface for user external PHYs.
  - Support Ethernet Power Down Mode & System Clock Switching for power save
  - Support Wake on LAN over UDP
  - Support Serial & Parallel Host Interface: High Speed QSPI(MODE 0/3), System Bus with 2 Address signal & 8bit Data
- - Internal 32Kbytes Memory for TX/ RX Buffers
+ - Internal 32Kbytes Memory for TX/ RX Buffers(total 64Kbytes Memory)
  - 10BaseT / 10BaseTe / 100BaseTX Ethernet PHY Integrated
  - Support Auto Negotiation (Full and half duplex, 10 and 100-based )
  - Support Auto-MDIX only on Auto-Negotiation Mode

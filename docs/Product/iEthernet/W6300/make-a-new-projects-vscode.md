@@ -18,7 +18,6 @@ VS Code.
 
   * 🌎[VS Code](https://code.visualstudio.com/)
 
-  - VS Code
       
 ### 1. Install WIZnet PICO Project
 
