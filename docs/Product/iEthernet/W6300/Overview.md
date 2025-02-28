@@ -30,7 +30,7 @@ W6300 supports a total SRAM size of 64KB for 8 sockets, each has 4KB TX/RX buffe
 
 ![W6300_pinmap](https://github.com/Wiznet/document_framework/assets/77008882/1651376c-6a33-48b4-a6c0-338f08095b17)
 
----
+--- 
 
 
 ## Features
