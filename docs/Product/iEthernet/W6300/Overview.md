@@ -22,8 +22,8 @@ W6300 is a WIZnet 10/100 TOE ethernet chip that combines the high-speed ethernet
 To support ethernet performance over 80Mbps and above, it supports 150MHz system clock and QSPI interface(including 4 Data lines). 
 W6300 supports a total SRAM size of 64KB for 8 sockets, each has 4KB TX/RX buffer by default. 
 
-![](/img/products/w6300/overview/W6300_block_diagram_250228.png)
 
+![](/static/img/products/w6300/overview/W6300_block_diagram_250228.png)
 ---
 
 ## Pin MAP
