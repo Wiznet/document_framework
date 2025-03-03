@@ -23,7 +23,7 @@ To support ethernet performance over 80Mbps and above, it supports 150MHz system
 W6300 supports a total SRAM size of 64KB for 8 sockets, each has 4KB TX/RX buffer by default. 
 
 
-![](/static/img/products/w6300/overview/W6300_block_diagram_250228.png)
+![](/img/products/w6300/overview/W6300_block_diagram_250228.png)
 ---
 
 ## Pin MAP
