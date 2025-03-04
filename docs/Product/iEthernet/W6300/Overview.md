@@ -14,9 +14,9 @@ description: w6300 chip is a Hardwired Internet controller designed as a full ha
 ## W6300
 Chip Image is comming soon
 
-![image](https://github.com/Wiznet/document_framework/assets/77008882/fcfc0573-8de7-434a-9608-0f47a39f557a)   
+<!-- ![image](https://github.com/Wiznet/document_framework/assets/77008882/fcfc0573-8de7-434a-9608-0f47a39f557a)    -->
 
-overview
+<img src="https://github.com/Wiznet/document_framework/assets/77008882/fcfc0573-8de7-434a-9608-0f47a39f557a" width="500" />
 
 W6300 is a WIZnet 10/100 TOE ethernet chip that combines the high-speed ethernet performance with Dual IPv4/v6 Hardware stack. 
 To support ethernet performance over 80Mbps and above, it supports 150MHz system clock and QSPI interface(including 4 Data lines). 
@@ -29,8 +29,8 @@ W6300 supports a total SRAM size of 64KB for 8 sockets, each has 4KB TX/RX buffe
 
 ## Pin MAP
 
-![W6300_pinmap](https://github.com/Wiznet/document_framework/assets/77008882/1651376c-6a33-48b4-a6c0-338f08095b17)
-
+<!-- ![W6300_pinmap](https://github.com/Wiznet/document_framework/assets/77008882/1651376c-6a33-48b4-a6c0-338f08095b17) -->
+<img src="https://github.com/Wiznet/document_framework/assets/77008882/1651376c-6a33-48b4-a6c0-338f08095b17" width="500" />
 --- 
 
 
