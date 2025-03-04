@@ -4,7 +4,7 @@ title: Make New W6300-EVB-PICO2 Projects using VS Code
 date: 2025-02-27
 ---
 
-This page introduces how to make the project for W6300-EVB-PICO2 with
+<!-- This page introduces how to make the project for W6300-EVB-PICO2 with
 VS Code.
 
 ## Make a new W6300-EVB-PICO2 project with VS Code
@@ -64,5 +64,5 @@ Once the build is complete, as shown in the terminal window in the image below, 
 ![](/img/products/w6300/VS_CODE_SET_UP/vs-code-set-up-5.png)
 ![](/img/products/w6300/VS_CODE_SET_UP/vs-code-set-up-6.png)
 
------
+----- -->
 

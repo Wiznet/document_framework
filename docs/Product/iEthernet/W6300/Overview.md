@@ -23,7 +23,8 @@ To support ethernet performance over 80Mbps and above, it supports 150MHz system
 W6300 supports a total SRAM size of 64KB for 8 sockets, each has 4KB TX/RX buffer by default. 
 
 
-![](/img/products/w6300/overview/W6300_block_diagram_250228.png)
+<img src="/img/products/w6300/overview/W6300_block_diagram_250228.png" width="500" />
+
 ---
 
 ## Pin MAP
@@ -64,5 +65,25 @@ W6300 supports a total SRAM size of 64KB for 8 sockets, each has 4KB TX/RX buffe
  - Embedded Servers
  - Internet of Things (IoT) Devices
  - IoT Cloud Devices
+
+---
+
+## iperf 3 Test Results
+
+This test measured network speed using **RP2350** and **W6300* with **iperf 3**. The goal was to compare performance across different modes (**SINGLE**, **DUAL**, **QUAD**) and clock speeds.
+
+<img src="/img/products/w6300/overview/iperf_test_1.png" width="600" />
+
+### Test Method
+- **Clock Speed:** 5MHz ~ 43MHz
+- **Communication Modes:** QSPI SINGLE/DUAL/QUAD
+- **Measurement Tool:** iperf 3
+
+### Key Results
+- **SINGLE Mode:** Up to **36.32 Mbits/sec**
+- **DUAL Mode:** Up to **62.53 Mbits/sec**
+- **QUAD Mode:** Up to **91.2 Mbits/sec**
+
+The highest speed was achieved in **QUAD mode** at **43MHz**, reaching **91.2 Mbits/sec**.
 
 ---
