@@ -10,11 +10,11 @@ date: 2024-07-31
 - W55RP20 Datesheet (Update Coming Soon)
 
 ### English
-- <a href = "/img/products/w55rp20/W55RP20_ds_v010e.pdf" target ="_blank">W55RP20 Datasheet v0.1.0 - English</a>
+- <a href = "/img/products/w55rp20/W55RP20_ds_v100e.pdf" target ="_blank">W55RP20 Datasheet v1.0.0 - English</a>
 
 | Version | Date      | Decription                                                                                                               |
 | ------- | --------- | ------------------------------------------------------------------------------------------------------------------------ |
-| 0.1.0 | 2024-09-02 |   Preliminary document for ES provision. No redistribution allowed.                                                                                                       |
+| 1.0.0 | 2025-03-05 |   Initial Release                                                                                                       |
 
 -------------------
 For detailed technical information, electrical characteristics, and programming guidelines, please refer to the datasheets for the individual components of the W55RP20 chip.
