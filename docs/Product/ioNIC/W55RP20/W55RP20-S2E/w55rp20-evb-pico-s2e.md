@@ -1,6 +1,6 @@
 ---
 id: w55rp20-evb-pico-s2e
-title: Getting Start with W55RP20-EVB-PICO
+title: Getting Started with W55RP20-EVB-PICO
 date: 2024-10-24
 ---
 
@@ -10,7 +10,7 @@ date: 2024-10-24
 
 
 
-## overview
+## Overview
 
 
 
@@ -54,12 +54,17 @@ You can see RPI-RP2 removable disk will appear.<br />
 Drag and drop App_linker.uf2 and Boot.uf2, one by one, from the Bin_Files_VXXX folder.<br />
 <img src="/img/products/w55rp20-s2e/drag-drop.png" width="400" />
 
+:::tip
+After dropping the first file onto the drive, the drive will disappear. To proceed, you need to put the board into BOOTSEL mode again and then drop the second file onto the drive.
+
+:::
+
 ### Step 2: Write MAC address
 
-Write MAC address refer this [link](./mac_address-write-guide-en.md)
+To write MAC address refer this [link](./mac_address-write-guide-en.md)
 
 
-### Step 5: Done
+### Step 3: Done
 
 Once the MAC address input is completed, the user LED on the W55RP20-EVB-PICO will change to the Running LED. <br />This toggles every second while the S2E application is running.<br />
 <img src="/img/products/w55rp20-s2e/w55rp20-evb-pico-user.png" width="500" />
