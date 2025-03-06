@@ -7,7 +7,7 @@ date: 2025-02-27
 This page introduces how to make the project for W6300-EVB-PICO2 with
 VS Code.
 
-## Make a new W6300-EVB-PICO2 project with VS Code
+## Make a new W6300-EVB-PICO2 project with VS Code (for Window)
 
 -----
 
@@ -19,7 +19,8 @@ VS Code.
   * 🌎[ARM GCC Compiler](https://developer.arm.com/downloads/-/gnu-rm)
   * 🌎[CMake](https://cmake.org/download/)
   * 🌎[Git](https://git-scm.com/downloads/win)
-  * 🌎[Python](https://www.python.org/downloads/)  
+  * 🌎[Python](https://www.python.org/downloads/)
+  * 🌎[Visual Studio Community](https://visualstudio.microsoft.com/ko/downloads/)  
   * 🌎[VS Code](https://code.visualstudio.com/)
 
 **- Install ARM GCC Compiler**
@@ -51,6 +52,28 @@ Select <span style={{ backgroundColor: '#f7ddbe' }}>"Add CMake to the system PAT
 Run the installer. On the first screen, make sure that "Install launcher for all users (recommended)" is selected and check "Add Python to PATH".
 
 <img src="/img/products/w6300/VS_CODE_SET_UP/install-python-1.png" width="500" /><br /><br />
+
+
+**- Install Visual Studio Community**
+
+
+
+Click on <span style={{ backgroundColor: '#f7ddbe' }}>"Free download"</span> for Visual Studio 2022 and download the installation file of Commmunity. If you already have Visual Studio 2022, you don't need to install it again.
+
+
+
+<img src="/img/osh/surf5/vsdownload.png" width="400" /><br /><br /><br />
+
+
+
+Choose the <span style={{ backgroundColor: '#f7ddbe' }}>"Desktop development with C++"</span> workload. and Click install button. 
+
+<img src="/img/osh/surf5/visualstudio-install2.png" width="500" /><br /><br /><br /><br /><br />
+
+
+### Installing Visual Studio Code [Download link](https://visualstudio.microsoft.com/downloads)
+
+
 
 **- Install VS Code**
 
@@ -110,16 +133,33 @@ Press 'New' to add the toolchain directory & PICO-SDK and press 'OK'.
 
 <img src="/img/osh/surf5/edit_sys_properties3.png" width="500" /><br /><br /><br />
 
-Environment_variables
-
 If you have added the variable, restart your PC or laptop.
 
-<img src="/img/osh/surf5/edit_sys_properties5.png" width="500" /><br />
+<img src="/img/osh/surf5/edit_sys_properties5.png" width="300" /><br />
 
 -----
 
 
 ### 2\. Install VS Code Extensions
+
+
+In 'Developer Command Prompt for VS 2022', you must call the code command to run VS Code. Execute 'Developer Command Prompt for VS 2022' in the Windows search bar below.
+
+
+<img src="/img/osh/surf5/command_prompt1.png" width="500" />
+<br />
+<br />
+<br />
+
+
+Call the 'Code' command to execute VS Code.
+
+
+<img src="/img/osh/surf5/command_prompt2.png" width="500" />
+<br />
+<br />
+<br />
+
 
 
 Search for and install the three extensions shown in the image below in the extension program search bar.
@@ -128,8 +168,6 @@ Search for and install the three extensions shown in the image below in the exte
 <img src="/img/osh/surf5/vscodeextensions.png" width="700" />
 
 
-<br />
-<br />
 <br />
 <br />
 <br />
@@ -183,7 +221,7 @@ If the build is successful, the following logs will appear in the Problems tab o
 
 Upload the UF2 file located in the build directory to the PICO storage to use it!
 
-<img src="/img/products/w6300/VS_CODE_SET_UP/success_build-2.png" width="600" />
+<img src="/img/products/w6300/VS_CODE_SET_UP/success_build-2.png" width="300" />
 
 -----
 
