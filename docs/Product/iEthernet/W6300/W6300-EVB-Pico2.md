@@ -13,7 +13,7 @@ W6300-EVB-Pico2 is a microcontroller evaluation board based on the Raspberry Pi 
 - Raspberry Pi Pico2 Clone
 - Ethernet (W6300 Hardwired TCP/IP CHIP)
 
-![W6300-EVB-PICO2](/img/products/w6100-evb-pico2/w6100-evb-pico2-docs.png)
+![W6300-EVB-PICO2](/img/products/w6300-evb-pico2/w6300-evb-pico2-docs.png)
 
 ![Powered By Raspberry Pi logo](/img/pbp-logo-small.jpg)
 

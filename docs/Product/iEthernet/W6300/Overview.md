@@ -12,11 +12,8 @@ description: w6300 chip is a Hardwired Internet controller designed as a full ha
 ---
 
 ## W6300
-Chip Image is comming soon
 
-<!-- ![image](https://github.com/Wiznet/document_framework/assets/77008882/fcfc0573-8de7-434a-9608-0f47a39f557a)    -->
-
-<img src="https://github.com/Wiznet/document_framework/assets/77008882/fcfc0573-8de7-434a-9608-0f47a39f557a" width="500" />
+![](/img/products/w6300/overview/w6300_chip.png)
 
 W6300 is a WIZnet 10/100 TOE ethernet chip that combines the high-speed ethernet performance with Dual IPv4/v6 Hardware stack. 
 To support ethernet performance over 80Mbps and above, it supports 150MHz system clock and QSPI interface(including 4 Data lines). 
@@ -90,7 +87,7 @@ The highest speed was achieved in **QUAD mode** at **43MHz**, reaching **91.2 Mb
 
 
 
-### with STM32
+<!-- ### with STM32 -->
 
 
 ---
