@@ -70,20 +70,27 @@ W6300 supports a total SRAM size of 64KB for 8 sockets, each has 4KB TX/RX buffe
 
 ## iperf 3 Test Results
 
+### with RP2350
+
 This test measured network speed using **RP2350** and **W6300* with **iperf 3**. The goal was to compare performance across different modes (**SINGLE**, **DUAL**, **QUAD**) and clock speeds.
 
 <img src="/img/products/w6300/overview/iperf_test_1.png" width="600" />
 
-### Test Method
+#### Test Method
 - **Clock Speed:** 5MHz ~ 43MHz
 - **Communication Modes:** QSPI SINGLE/DUAL/QUAD
 - **Measurement Tool:** iperf 3
 
-### Key Results
+#### Key Results
 - **SINGLE Mode:** Up to **36.32 Mbits/sec**
 - **DUAL Mode:** Up to **62.53 Mbits/sec**
 - **QUAD Mode:** Up to **91.2 Mbits/sec**
 
 The highest speed was achieved in **QUAD mode** at **43MHz**, reaching **91.2 Mbits/sec**.
+
+
+
+### with STM32
+
 
 ---
