@@ -44,8 +44,8 @@ A factory reset will return the settings on the **W232N** to their factory state
 
 There are two ways to perform a W232N factory reset.
 
-- [Using Config-Tool](#Using-Config-Tool)
-- [Using Factory reset switch](#Using-Factory-reset-switch)
+- [Using Config-Tool](#using-config-tool)
+- [Using Factory reset switch](#using-factory-reset-switch)
 
 ## Using Config Tool
 

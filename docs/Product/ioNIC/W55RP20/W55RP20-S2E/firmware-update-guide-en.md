@@ -61,10 +61,10 @@ date: 2022-06-28
 
 The W232N provides three ways to upload or update the firmware.
 
-- [Using Config-Tool](#using-the-configuration-tool) **Application Bank Only**
-- [Using Web-Config](#using-web-config) **Application Bank Only**
-- [Using USB](#using-usb)
-- [Using SWD](#using-swd)
+- [Using Config-Tool](./firmware-update-guide-en.md#using-the-configuration-tool) **Application Bank Only**
+- [Using Web-Config](./firmware-update-guide-en.md#using-web-config) **Application Bank Only**
+- [Using USB](./firmware-update-guide-en.md#using-usb)
+- [Using SWD](./firmware-update-guide-en.md#using-swd)
 
 
 -----

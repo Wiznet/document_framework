@@ -1080,7 +1080,7 @@ module.exports = {
 				label: 'PoE',
 				link: {type: 'doc', id: 'Product/Open-Source-Hardware/PoE/PoE-Main'},
 				items: [
-					'Product/Open-Source-Hardware/PoE/WIZPoE-S1',
+					//'Product/Open-Source-Hardware/PoE/WIZPoE-S1',
 					'Product/Open-Source-Hardware/PoE/WIZPoE-P1',
 				//	'Product/Open-Source-Hardware/PoE/raspberrypi-5-hat-poe',
 					]

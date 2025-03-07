@@ -527,8 +527,8 @@ aaaa`
 | [AT+MUSART](#atmusart) | None or ? |                      | \[S,,(BR),(W),(P),(S),(F)\] |
 | :::                                                              | \=        | (BR),(W),(P),(S),(F) | \[S\]                       |
 | :::                                                              | \-        | *num*,Param          | \[S\]                       |
-| [AT+MSAVE](#atmsave)   | None      |                      | \[S\]                       |
-| [AT+MRST](#atmrst)     | None      |                      | \[S\]                       |
+| AT+MSAVE   | None      |                      | \[S\]                       |
+| AT+MRST     | None      |                      | \[S\]                       |
 | :::                                                              | \=        | F                    | \[S\]                       |
 | [AT+MDATA](#atmdata)   | None      |                      | \[S\]                       |
 

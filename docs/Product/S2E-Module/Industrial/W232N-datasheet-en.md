@@ -139,7 +139,7 @@ The package of W232N is organized as follows.
 | <img src="/img/products/w232n/AT_SW.png" width="400" />               |
 | ***AT Mode SW***                                                      |
 
-- You can use an AT Morse switch to enter serial command mode. <br />For more information, see How to use the AT command in the [Manual](#Manuals) below.
+- You can use an AT Morse switch to enter serial command mode. <br />For more information, see How to use the AT command in the [Manual](#manuals) below.
 - 
 
 #### Factory Reset SW
@@ -149,7 +149,7 @@ The package of W232N is organized as follows.
 | <img src="/img/products/w232n/fact_rst.png" width="400" />            |
 | ***Factory Reset SW***                                                |
 
-- You can use the factory reset switch to factory reset your device. <br />For detailed instructions, see the Factory Reset guide in the [Manual](#Manuals) below.
+- You can use the factory reset switch to factory reset your device. <br />For detailed instructions, see the Factory Reset guide in the [Manual](#manuals) below.
 
 #### BOOT SW
 
@@ -172,7 +172,7 @@ The package of W232N is organized as follows.
 | <img src="/img/products/w232n/USB_header.png" width="400" />          |
 | ***USB Header***  
 
--The USB header is used to upload and update the FW after the W55RP20 enters BOOT mode. <br />For detailed instructions, see the FW update guide in the [Manual](#Manuals) below.
+-The USB header is used to upload and update the FW after the W55RP20 enters BOOT mode. <br />For detailed instructions, see the FW update guide in the [Manual](#manuals) below.
 
 -----
 
@@ -210,6 +210,7 @@ If the polarity is reversed when power is applied, a protection circuit will pre
 During normal operation, the POWER LED will be solid red and the RUN LED will flash in 1-second cycles, confirming that the W232N's FW has booted successfully.
 
 ## Manuals
+
 - [How to use Config-tool](./Config-tool-Guide-en.md)
 - [How to use Web config](./Web_Config_Guide_EN.md)
 - [How to use AT CMD](./command-manual-en.md)
