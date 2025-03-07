@@ -1027,7 +1027,7 @@ module.exports = {
 				link: {type: 'doc', id: 'Product/Open-Source-Hardware/rp2350_based'},
 				items: [
 					//'Product/Open-Source-Hardware/w2e-gateway-pico',
-					'Product/iEthernet/W6100/w6300-evb-pico2',
+					'Product/iEthernet/W6300/w6300-evb-pico2',
 					'Product/iEthernet/W6100/w6100-evb-pico2',
 					'Product/iEthernet/W5500/w5500-evb-pico2',
 					'Product/iEthernet/W5100S/w5100s-evb-pico2',
