@@ -13,7 +13,7 @@ description: W6100 chip is a Hardwired Internet controller designed as a full ha
 English : <a href="/img/products/w6100/w6100_ds_v105e.pdf" target="_blank">W6100 DataSheet v1.0.5</a> -->
 
 -----
-
+<!-- 
 ## Link for Project & Library
 
 **io6Library GitHub Repository**
@@ -23,7 +23,7 @@ English : <a href="/img/products/w6100/w6100_ds_v105e.pdf" target="_blank">W6100
 <!-- [WIZnet ioNIC](https://github.com/WIZnet-ioNIC/WIZnet-PICO-v6-C) -->
 
 **VS Code Guide to Set up & Build**
-[VS Code Guide](make-a-new-projects-vscode.md)
+[VS Code Guide](make-a-new-projects-vscode.md) -->
 
 
 -----

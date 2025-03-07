@@ -82,7 +82,9 @@ W6300-EVB-Pico2 is a microcontroller evaluation board based on the Raspberry Pi 
 
 ### Pin-out v1.0
 
-![w6300-evb-pico-pinout](/img/products/w6100-evb-pico2/w6100-evb-pico2-pinout.png)
+<!-- ![w6300-evb-pico-pinout](/img/products/w6100-evb-pico2/w6100-evb-pico2-pinout.png) -->
+
+PIN-OUT IMAGE COMMING SOON
 
 W6300-EVB-Pico2 pinout is directly connected to the GPIO of RP2350 as shown in the picture above. It has the same pinout as the Raspberry Pi Pico2 board. However, GPIO15, GPIO16, GPIO17, GPIO18, GPIO19, GPIO20, GPIO21, GPIO22 are connected to W6300 inside the board. These pins enable QSPI communication with W6300 to use the Ethernet function. If you are using the Ethernet function, these pins cannot be used for any other purpose.
 
@@ -162,9 +164,9 @@ Recommended maximum ambient temperature of operation is 70C.
 
 <!-- - [Download](https://datasheets.raspberrypi.com/rp2350/rp2350-datasheet.pdf) -->
 
-### W6100 Datasheet
+### W6300 Datasheet
 
-- [Download](Overview.md)
+<!-- - [Download](Overview.md) -->
 
 ### Schematic v1.0
 

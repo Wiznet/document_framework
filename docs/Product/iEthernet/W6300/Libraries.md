@@ -14,24 +14,20 @@ will be updated continuously.
 
 ## io6Library
 
-  - Directory Structure 
+[io6Library](https://github.com/Wiznet/io6Library) 
 
-#### Download
+**WIZnet ioNIC Project**
 
-**io6Library GitHub Repository**
+[WIZnet ioNIC](https://github.com/WIZnet-ioNIC/WIZnet-PICO-v6-C)
 
-https://github.com/Wiznet/io6Library
+**VS Code Guide to Set up & Build**
 
-## W6300 Basic Project
+[VS Code Guide](make-a-new-projects-vscode.md) -->
 
- **W6300 Loopback GitHub
-Repository**
 
-<!-- https://github.com/Wiznet/W6100_EVB -->
+<!-- ## W6300 Tutorial Project
 
-## W6300 Tutorial Project
-
-  - **[Guide To Build in VS Code](make-a-new-projects-vscode.md)**
+  - **[Guide To Build in VS Code](make-a-new-projects-vscode.md)** -->
 
 <!-- 🌎[W6100 Loopback](https://maker.wiznet.io/2019/04/30/wiznetw6100evb-loopback-2/)
 
