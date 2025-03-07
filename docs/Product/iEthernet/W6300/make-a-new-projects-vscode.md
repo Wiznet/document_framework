@@ -7,14 +7,12 @@ date: 2025-02-27
 This page introduces how to make the project for W6300-EVB-PICO2 with
 VS Code.
 
-## Make a new W6300-EVB-PICO2 project with VS Code (for Window)
-
 -----
 
-### 1\. Install Files
+## 1\. Install Files
 
 
-#### - Your need program list here(Download links)
+### - Your need program list here(Download links)
 
   * 🌎[ARM GCC Compiler](https://developer.arm.com/downloads/-/gnu-rm)
   * 🌎[CMake](https://cmake.org/download/)
@@ -23,7 +21,7 @@ VS Code.
   * 🌎[Visual Studio Community](https://visualstudio.microsoft.com/ko/downloads/)  
   * 🌎[VS Code](https://code.visualstudio.com/)
 
-#### - Install ARM GCC Compiler
+### - Install ARM GCC Compiler
 
 Set the path. We recommend installing it in the <span style={{ backgroundColor: '#f7ddbe' }}>"C:\Program Files (x86)..."</span> directory. Please remember this path, as it will be required in the VS Code environment settings below. If you have completed the path configuration, press Install.
 
@@ -33,7 +31,7 @@ Click on the checkboxes below to match the picture and press Finish.
 
 <img src="/img/products/w6300/VS_CODE_SET_UP/install-gcc-2.png" width="500" /><br /><br />
 
-#### - Install CMake
+### - Install CMake
 
 Download the file that suits your user environment.
 
@@ -43,18 +41,18 @@ Select <span style={{ backgroundColor: '#f7ddbe' }}>"Add CMake to the system PAT
 
 <img src="/img/products/w6300/VS_CODE_SET_UP/install-cmake-2.png" width="500" /><br /><br />
 
-#### - Install Git
+### - Install Git
 
 <img src="/img/products/w6300/VS_CODE_SET_UP/install-git-1.png" width="500" /><br /><br />
 
-#### - Install Python
+### - Install Python
 
 Run the installer. On the first screen, make sure that "Install launcher for all users (recommended)" is selected and check "Add Python to PATH".
 
 <img src="/img/products/w6300/VS_CODE_SET_UP/install-python-1.png" width="500" /><br /><br />
 
 
-#### - Install Visual Studio Community
+### - Install Visual Studio Community
 
 
 
@@ -73,7 +71,7 @@ Choose the <span style={{ backgroundColor: '#f7ddbe' }}>"Desktop development wit
 
 
 
-#### - Install VS Code
+### - Install VS Code
 
 
 Verify the download path and press Next.
@@ -102,7 +100,7 @@ Press Finish to complete the installation.
 <img src="/img/osh/surf5/vsset19.png" width="400" /><br /><br /><br />
 
 
-#### - Install WIZnet Pico Project**
+### - Install WIZnet Pico Project**
 
 * [WIZnet-PICO-C (W5100S/W5500/W55RP20)](https://github.com/WIZnet-ioNIC/WIZnet-PICO-C)
 * [WIZnet-PICO-v6-C (W6100/W6300)](https://github.com/WIZnet-ioNIC/WIZnet-PICO-v6-C)
@@ -113,7 +111,7 @@ and Please Remember "PICO-SDK PATH".
 
 <img src="/img/products/w6300/VS_CODE_SET_UP/vs-code-set-up-1.png" width="500" /><br /><br />
 
-#### - Update Environment Variables**
+### - Update Environment Variables**
 
 Search for 'View advanced system settings' in the Windows search bar and click on it.
 
@@ -138,7 +136,7 @@ If you have added the variable, restart your PC or laptop.
 -----
 
 
-### 2\. Install VS Code Extensions
+## 2\. Install VS Code Extensions
 
 
 In 'Developer Command Prompt for VS 2022', you must call the code command to run VS Code. Execute 'Developer Command Prompt for VS 2022' in the Windows search bar below.
@@ -189,7 +187,7 @@ enter "NMake Makefiles" in the "CMake: Generator" field. make sure to check the 
 
 -----
 
-### 3\. Build Project in VS Code
+## 3\. Build Project in VS Code
 
 
 
@@ -214,7 +212,7 @@ If the build is successful, the following logs will appear in the Problems tab o
 
 -----
 
-### 4\. Use WIZnet PICO Program!
+## 4\. Use WIZnet PICO Program!
 
 
 Upload the UF2 file located in the build directory to the PICO storage to use it!

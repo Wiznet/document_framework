@@ -26,7 +26,7 @@ date: 2025-02-27
     * 🌎 [TrueStudio](https://github.com/WIZnet-ioLibrary/W6100EVB-MQTT) -->
     
   * **Loopback**
-    * 🌎 [VS Code](https://github.com/WIZnet-ioNIC/WIZnet-PICO-v6-C/tree/main/examples/loopback)
+    * 🌎 [Loopback](https://github.com/WIZnet-ioNIC/WIZnet-PICO-v6-C/tree/main/examples/loopback)
     
   <!-- * **HTTP Client**
     * 🌎 [TrueStudio](https://github.com/WIZnet-ioLibrary/W6100EVB-HTTP_Client)
