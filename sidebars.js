@@ -222,23 +222,22 @@ module.exports = {
 			label: 'iEthernet',
 			link: {type: 'doc', id: 'Product/iEthernet/iethernet'},
 				items: [
-				//'Product/iEthernet/iethernet',
-				// {
-				// 	type: 'category',
-				// 	label: 'W6300',
-				// 	link: {type: 'doc', id: 'Product/iEthernet/W6300/w6300'},
-				// 	items: [
-				// 		//'Product/iEthernet/W6300/W6300',
-				// 		'Product/iEthernet/W6300/application-note',
-				// 		'Product/iEthernet/W6300/document',
-				// 		'Product/iEthernet/W6300/libraries-w6300',
-				// 		'Product/iEthernet/W6300/new-project-vscode',
-				// 		'Product/iEthernet/W6300/application-note',
-				// 		'Product/iEthernet/W6300/overview',
-				// 		'Product/iEthernet/W6300/ref-schematic',
-				// 		'Product/iEthernet/W6300/w6300-evb-pico2',
-				// 	],
-				// },
+				'Product/iEthernet/iethernet',
+				{
+				type: 'category',
+				label: 'W6300',
+				link: {type: 'doc', id: 'Product/iEthernet/W6300/w6300'},
+				items: [
+					//'Product/iEthernet/W6300/W6300',
+					'Product/iEthernet/W6300/overview',
+					'Product/iEthernet/W6300/application-note',
+					'Product/iEthernet/W6300/document',
+					'Product/iEthernet/W6300/libraries-w6300',
+					'Product/iEthernet/W6300/new-project-vscode',
+					'Product/iEthernet/W6300/ref-schematic',
+					'Product/iEthernet/W6300/w6300-evb-pico2',
+				],
+				},
 				{
 				type: 'category',
 				label: 'W6100',
@@ -1028,7 +1027,7 @@ module.exports = {
 				link: {type: 'doc', id: 'Product/Open-Source-Hardware/rp2350_based'},
 				items: [
 					//'Product/Open-Source-Hardware/w2e-gateway-pico',
-					// 'Product/iEthernet/W6100/w6300-evb-pico2',
+					'Product/iEthernet/W6100/w6300-evb-pico2',
 					'Product/iEthernet/W6100/w6100-evb-pico2',
 					'Product/iEthernet/W5500/w5500-evb-pico2',
 					'Product/iEthernet/W5100S/w5100s-evb-pico2',
