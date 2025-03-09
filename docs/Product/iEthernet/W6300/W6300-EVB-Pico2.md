@@ -196,18 +196,18 @@ Please refer to below links to find firmware example.
 <!-- - <a href="/img/products/w6100-evb-pico2/Certificate-CE-W6100-EVB-Pico2.pdf" target="_blank">CE Certificate</a>
 - <a href="/img/products/w6100-evb-pico2/Test-Report-CE-W6100-EVB-Pico2.pdf" target="_blank">CE Test Report</a> -->
 
-| Date    | Decription |
+<!-- | Date    | Decription |
 | ------- | ---------- |
-| OCT2023 | \-         |
+| OCT2023 | \-         | -->
 
 #### FCC
 
 <!-- - <a href="/img/products/w6100-evb-pico2/Certificate-FCC-W6100-EVB-Pico2.pdf" target="_blank">FCC Certificate</a>
 - <a href="/img/products/w6100-evb-pico2/Test-Report-FCC-W6100-EVB-Pico2.pdf" target="_blank">FCC Test Report</a> -->
 
-| Date    | Decription |
+<!-- | Date    | Decription |
 | ------- | ---------- |
-| OCT2023 | \-         |
+| OCT2023 | \-         | -->
 
 ## How to buy
 
