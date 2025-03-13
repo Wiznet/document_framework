@@ -22,18 +22,18 @@ iEthernet is the Ethernet controller chip that includes hardwired TCP/IP Core & 
 If there are any questions, please use our [`Forum`](https://maker.wiznet.io/forum) or [`contact us`](https://www.wiznet.io/inqueries/).
 :::
 
-|                     | [W6100](W6100/W6100.md) | [W5100S](W5100S/Overview.md) | [W5500](W5500/Overview.md) | [W5300](W5300/W5300.md) | [W5100](W5100/W5100.md) | [W3150A+](W3150/W3150.md)<br />not recommended for new design | [W5200](W5200/w5200.md)<br />not recommended for new design |
-| ------------------- | ----------------------- | --- | --- | --- | --- | --- | --- |
-| Image               | ![W6100](/img/products/w6100/w6100_4.jpg) | ![W5100S](/img/products/w5100s/w5100s_pm.png) | ![W5500](/img/products/w5500/img_w5500h.jpg) | ![W5300](/img/products/w5300/w5300_280.jpg) | ![W5100](/img/products/w5100/W5100-7.jpg) | ![W3150A](/img/products/w3150/photo_w3150A-1.jpg) |  |
-| Embedded Core       | TCP/IPv4/IPv6, MAC & PHY | TCP/IP, MAC & PHY | TCP/IP, MAC & PHY | TCP/IP, MAC & PHY | TCP/IP, MAC & PHY | TCP/IP & MAC | TCP/IP, MAC & PHY |
-| Host I/F            | 8bit BUS, Fast SPI  | 8bit BUS, SPI | Fast SPI | 8/16bit BUS | 8bit BUS, SPI | 8bit BUS, SPI | Fast SPI |
-| TX/RX Buffer        | 32KB                   | 16KB | 32KB | 128KB | 16KB | 16KB | 32KB |
-| HW Socket #         | 8                       | 4 | 8 | 8 | 4 | 4 | 8 |
-| Network Performance | Max.50Mbps         | Max.25Mbps | Max.50Mbps | Max.80Mbps | Max.25Mbps | Max.25Mbps | Max.10Mbps |
-| Operation Temp (℃) | -40 .. +85              | -40 .. +85 | -40 .. +85 | -40 .. +85 | -40 .. +85 | -40 .. +85 | -40 .. +85 |
-| Package             | 48LQFP / QFN            | 48LQFP / QFN | 48LQFP | 100LQFP | 80LQFP | 64LQFP | 48QFN |
-| Size                | 7x7                     | 7x7 | 7x7 | 14x14 | 10x10 | 10x10 | 7x7 |
-| Evaluation Board    | [W6100-EVB](W6100/W6100-EVB.md) | [W5100S-EVB](W5100S/W5100S-EVB.md) <br /><br /> [W5100S-EVB-Pico](W5100S/w5100s-evb-pico.md) | [W5500-EVB](W5500/W5500-EVB/W5500-EVB.md) | [W5300-E01-ARM](W5300/W5300-EVB.md) | [W5100E01-AVR](W5100/W5100-EVB.md) | [EVB-B1+](W3150/W3150-EVB.md) | W5200E01-M3 |
+|                     | [W6300](W6300/W6300.md) | [W6100](W6100/W6100.md) | [W5100S](W5100S/Overview.md) | [W5500](W5500/Overview.md) | [W5300](W5300/W5300.md) | [W5100](W5100/W5100.md) | [W3150A+](W3150/W3150.md)<br />not recommended for new design | [W5200](W5200/w5200.md)<br />not recommended for new design |
+| ------------------- | ----------------------- | ----------------------- | --- | --- | --- | --- | --- | --- |
+| Image               | ![W6300](/img/w6300/overview/iperf_test_1.png) | ![W6100](/img/products/w6100/w6100_4.jpg) | ![W5100S](/img/products/w5100s/w5100s_pm.png) | ![W5500](/img/products/w5500/img_w5500h.jpg) | ![W5300](/img/products/w5300/w5300_280.jpg) | ![W5100](/img/products/w5100/W5100-7.jpg) | ![W3150A](/img/products/w3150/photo_w3150A-1.jpg) |  |
+| Embedded Core       | TCP/IPv4/IPv6, MAC & PHY | TCP/IPv4/IPv6, MAC & PHY | TCP/IP, MAC & PHY | TCP/IP, MAC & PHY | TCP/IP, MAC & PHY | TCP/IP, MAC & PHY | TCP/IP & MAC | TCP/IP, MAC & PHY |
+| Host I/F            | 8bit BUS, QSPI | 8bit BUS, Fast SPI  | 8bit BUS, SPI | Fast SPI | 8/16bit BUS | 8bit BUS, SPI | 8bit BUS, SPI | Fast SPI |
+| TX/RX Buffer        | 64KB                   | 32KB                   | 16KB | 32KB | 128KB | 16KB | 16KB | 32KB |
+| HW Socket #         | 8                       | 8                       | 4 | 8 | 8 | 4 | 4 | 8 |
+| Network Performance | Max.91Mbps         | Max.50Mbps         | Max.25Mbps | Max.50Mbps | Max.80Mbps | Max.25Mbps | Max.25Mbps | Max.10Mbps |
+| Operation Temp (℃) | -40 .. +85              | -40 .. +85              | -40 .. +85 | -40 .. +85 | -40 .. +85 | -40 .. +85 | -40 .. +85 | -40 .. +85 |
+| Package             | 48LQFP            | 48LQFP / QFN            | 48LQFP / QFN | 48LQFP | 100LQFP | 80LQFP | 64LQFP | 48QFN |
+| Size                | 7x7 | 7x7 | 7x7 | 7x7 | 14x14 | 10x10 | 10x10 | 7x7 |
+| Evaluation Board    | [W6300-EVB-Pico2](W6300/W6300-EVB-Pico2.md) | [W6100-EVB](W6100/W6100-EVB.md) <br /><br /> [W6100-EVB-Pico](W6100/W6100-EVB-Pico.md) <br /><br /> [W6100-EVB-Pico2](W6100/W6100-EVB-Pico2.md) | [W5100S-EVB](W5100S/W5100S-EVB.md) <br /><br /> [W5100S-EVB-Pico](W5100S/w5100s-evb-pico.md)  <br /><br /> [W5100S-EVB-Pico2](W5100S/w5100s-evb-pico2.md) | [W5500-EVB](W5500/W5500-EVB/W5500-EVB.md) <br /><br /> [W5500-EVB-Pico](W5500/W5500-evb-pico.md) <br /><br /> [W5500-EVB-Pico2](W5500/W5500-evb-pico2.md) | [W5300-E01-ARM](W5300/W5300-EVB.md) | [W5100E01-AVR](W5100/W5100-EVB.md) | [EVB-B1+](W3150/W3150-EVB.md) | W5200E01-M3 |
 
 **We used iPerf tool for measure Network Performance.**
 
