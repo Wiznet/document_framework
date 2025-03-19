@@ -1,6 +1,6 @@
 ---
-id: Config-tool-Guide-en
-title: Config tool Guide
+id: hw-design-guide-en
+title: HW design guide en
 date: 2024-10-04
 keywords: [wiznet, w55rp20,w232n datasheet, hardwired tcp/ip,serial-to-ethernet, w5500, rp2040]
 
