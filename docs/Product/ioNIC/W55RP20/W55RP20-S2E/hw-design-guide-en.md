@@ -1,6 +1,6 @@
 ---
 id: hw-design-guide-en
-title: HW design guide en
+title: HW design guide
 date: 2024-10-04
 keywords: [wiznet, w55rp20,w232n datasheet, hardwired tcp/ip,serial-to-ethernet, w5500, rp2040]
 
@@ -13,7 +13,7 @@ The W55RP20 combines WIZnet’s W5500 Ethernet controller and Raspberry Pi’s R
 
 ## Pinout Description
 
-###Setting Pin
+### Setting Pin
 
 | Pin      |Pinout|Name| Description                                  |
 |--------------|------||----------------------------------------------|
@@ -21,7 +21,7 @@ The W55RP20 combines WIZnet’s W5500 Ethernet controller and Raspberry Pi’s R
 | BOOT Mode    |21|GP15| Firmware boot mode control                    |
 | AT Mode      |20|GP14| Enter AT command mode (Active Low)            |
 | RP BOOT      |63|BOOT| Flash reset & RP2040 boot (Active Low)        |
-| 232/485 Select|18|GP12| Low: TTL/RS-232, High: RS-422/485             |
+| 232/485 Select|18|GP12| Low: TTL/RS-232, High: RS-422/485            |
 | Factory RST  | 40|GP18|Reset IP settings (Firmware retained)         |
 
 - RST PinThis pin is used for MCU reset and operates in an Active Low state.
@@ -38,7 +38,7 @@ The W55RP20 combines WIZnet’s W5500 Ethernet controller and Raspberry Pi’s R
 
 - Factory RST PinResets the IP settings to factory defaults while keeping the firmware unchanged.
 
-###Data Pin
+### Data Pin
 
 | Pin      |Pinout|Name| Description                                  |
 |--------------|------||----------------------------------------------|
