@@ -16,7 +16,7 @@ The W55RP20 combines WIZnet’s W5500 Ethernet controller and Raspberry Pi’s R
 ### Setting Pin
 
 | Pin      |Pinout|Name| Description                                  |
-|--------------|------||----------------------------------------------|
+|--------------|------|-|----------------------------------------------|
 | RST          |29|RUN| MCU Reset (Active Low)                        |
 | BOOT Mode    |21|GP15| Firmware boot mode control                    |
 | AT Mode      |20|GP14| Enter AT command mode (Active Low)            |
@@ -41,7 +41,7 @@ The W55RP20 combines WIZnet’s W5500 Ethernet controller and Raspberry Pi’s R
 ### Data Pin
 
 | Pin      |Pinout|Name| Description                                  |
-|--------------|------||----------------------------------------------|
+|--------------|--|-|----------------------------------------------|
 | UART_TX       |9|GP4| UART data transmission.                  |
 | UART_RX       |10|GP5| UART data reception.                    |
 | UART_RTS      |12|GP7| UART request to send (flow control)     |
@@ -54,8 +54,8 @@ The W55RP20 combines WIZnet’s W5500 Ethernet controller and Raspberry Pi’s R
 ### LED Indicators - Status
 
 | Pin      |Pinout|Name| Description                                  |
-|--------------|------||-------------------------------------------|
-| RUN            |19|GP19| MCU status LED, blinks when the MCU is operating normally.                 |
+|--------------|------|-|-------------------------------------------|
+| RUN            |19|GP19| MCU status LED, blinks when the MCU is operating normally.   |
 | PHY LINK       |16|GP10| Indicates PHY link status                    |
 | TCP Conectoin  |17|GP11| Indicates active TCP connection     |
 
