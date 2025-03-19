@@ -202,6 +202,7 @@ module.exports = {
 							type: 'category',
 							label: 'Common docs for using',
 							items: [
+								'Product/ioNIC/W55RP20/W55RP20-S2E/hw-design-guide-en',
 								'Product/ioNIC/W55RP20/W55RP20-S2E/Config-tool-Guide-en',
 								'Product/ioNIC/W55RP20/W55RP20-S2E/command-manual-en',
 								'Product/ioNIC/W55RP20/W55RP20-S2E/mqtt-connection-guide-en',
