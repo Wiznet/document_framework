@@ -53,10 +53,11 @@ To transmit TCP or UDP data, follow these steps:
 
 ***NACK** : If the Master sends a Data Length exceeding 2048 bytes or if the Slave is not connected to a network, it responds with NACK (0x0B + 3 dummy bytes (0xFF)).
 
-<img src="/img/osh/W55RP20/W55RP20-S2E/spi-mode/w55rp20-s2e_spi_tx_data_frame1.png" height="180" /><br />
-Figure 1. SPI TX Data Frame ①<br />
-<img src="/img/osh/W55RP20/W55RP20-S2E/spi-mode/w55rp20-s2e_spi_tx_data_frame2.png" height="180" /><br />
-Figure 2. SPI TX Data Frame ②<br />
+<img src="/img/products/w55rp20-s2e/w55rp20-s2e_spi_tx_data_frame1.png" height="180" /><br />
+*Figure 1. SPI TX Data Frame ①*
+
+<img src="/img/products/w55rp20-s2e/w55rp20-s2e_spi_tx_data_frame2.png" height="180" /><br />
+*Figure 2. SPI TX Data Frame ②*
 
 #### 4.1.2 RX Data Frame
 
@@ -68,11 +69,11 @@ To receive TCP or UDP data, follow these steps:
 5.	The Slave sends the data in the Data Phase.
 6.	Upon completion, the SPI_INT signal is set to High.
 
-<img src="/img/osh/W55RP20/W55RP20-S2E/spi-mode/w55rp20-s2e_spi_rx_data_frame1.png" height="180" /><br />
-Figure 3. SPI RX Data Frame ①<br />
-<img src="/img/osh/W55RP20/W55RP20-S2E/spi-mode/w55rp20-s2e_spi_rx_data_frame2.png" height="180" /><br />
-Figure 4. SPI RX Data Frame ②<br />
+<img src="/img/products/w55rp20-s2e/w55rp20-s2e_spi_rx_data_frame1.png" height="180" /><br />
+*Figure 3. SPI RX Data Frame ①*
 
+<img src="/img/products/w55rp20-s2e/w55rp20-s2e_spi_rx_data_frame2.png" height="180" /><br />
+*Figure 4. SPI RX Data Frame ②*
 
 ### 4.2 Master AT CMD Frame
 
@@ -88,11 +89,11 @@ To send an AT command, follow these steps:
 
 **Note**: refer to the [AT Command Manual](./command-manual-en.md) document for details on the AT CMD format.
 
-<img src="/img/osh/W55RP20/W55RP20-S2E/spi-mode/w55rp20-s2e_spi_tx_atcmd_frame1.png" height="180" /><br />
-Figure 5. SPI AT CMD TX(SET) Frame ①
+<img src="/img/products/w55rp20-s2e/w55rp20-s2e_spi_tx_atcmd_frame1.png" height="180" /><br />
+*Figure 5. SPI AT CMD TX(SET) Frame ①*
 
-<img src="/img/osh/W55RP20/W55RP20-S2E/spi-mode/w55rp20-s2e_spi_tx_atcmd_frame2.png" height="180" /><br />
-Figure 6. SPI AT CMD TX(SET) Frame ②
+<img src="/img/products/w55rp20-s2e/w55rp20-s2e_spi_tx_atcmd_frame2.png" height="180" /><br />
+*Figure 6. SPI AT CMD TX(SET) Frame ②*
 
 #### 4.2.2 AT CMD RX(GET) Frame
 
@@ -105,11 +106,11 @@ To get an AT command response, follow these steps:
 
 **Note**: refer to the [AT Command Manual](./command-manual-en.md) document for details on the AT CMD format.
 
-<img src="/img/osh/W55RP20/W55RP20-S2E/spi-mode/w55rp20-s2e_spi_rx_atcmd_frame1.png" height="180" /><br />
-Figure 7. SPI AT CMD RX(GET) Frame ①
+<img src="/img/products/w55rp20-s2e/w55rp20-s2e_spi_rx_atcmd_frame1.png" height="180" /><br />
+*Figure 7. SPI AT CMD RX(GET) Frame ①*
 
-<img src="/img/osh/W55RP20/W55RP20-S2E/spi-mode/w55rp20-s2e_spi_rx_atcmd_frame2.png" height="180" /><br />
-Figure 8. SPI AT CMD RX(GET) Frame ②
+<img src="/img/products/w55rp20-s2e/w55rp20-s2e_spi_rx_atcmd_frame2.png" height="180" /><br />
+*Figure 8. SPI AT CMD RX(GET) Frame ②*
 
 
 ## 5. Operation
@@ -120,15 +121,15 @@ Figure 8. SPI AT CMD RX(GET) Frame ②
 
 To transmit TCP or UDP DATA, proceed as followings.
 
-<img src="/img/osh/W55RP20/W55RP20-S2E/spi-mode/w55rp20-s2e_spi_tx_data_flowchart.png" width="180" /><br />
-Figure 9. SPI TX Data Operation Flowchart
+<img src="/img/products/w55rp20-s2e/w55rp20-s2e_spi_tx_data_flowchart.png" width="180" /><br />
+*Figure 9. SPI TX Data Operation Flowchart*
 
 #### 5.1.2 RX Data Opertion
 
 To receive TCP or UDP DATA, proceed as followings.
 
-<img src="/img/osh/W55RP20/W55RP20-S2E/spi-mode/w55rp20-s2e_spi_rx_data_flowchart.png" width="180" /><br />
-Figure 10. SPI RX Data Operation Flowchart
+<img src="/img/products/w55rp20-s2e/w55rp20-s2e_spi_rx_data_flowchart.png" width="180" /><br />
+*Figure 10. SPI RX Data Operation Flowchart*
 
 ### 5.2 AT CMD Operation
 
@@ -136,12 +137,12 @@ Figure 10. SPI RX Data Operation Flowchart
 
 To transmit AT commands, proceed as followings.
 
-<img src="/img/osh/W55RP20/W55RP20-S2E/spi-mode/w55rp20-s2e_spi_tx_atcmd_flowchart.png" width="180" /><br />
-Figure 11. SPI AT CMD TX(SET) Operation Flowchart
+<img src="/img/products/w55rp20-s2e/w55rp20-s2e_spi_tx_atcmd_flowchart.png" width="180" /><br />
+*Figure 11. SPI AT CMD TX(SET) Operation Flowchart*
 
 #### 5.1.2 AT CMD RX(GET) Opertion
 
 To receive AT commands, proceed as followings.
 
-<img src="/img/osh/W55RP20/W55RP20-S2E/spi-mode/w55rp20-s2e_spi_rx_atcmd_flowchart.png" width="180" /><br />
-Figure 12. SPI AT CMD RX(GET) Operation Flowchart
+<img src="/img/products/w55rp20-s2e/w55rp20-s2e_spi_rx_atcmd_flowchart.png" width="180" /><br />
+*Figure 12. SPI AT CMD RX(GET) Operation Flowchart*
