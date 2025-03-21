@@ -212,6 +212,7 @@ module.exports = {
 								'Product/ioNIC/W55RP20/W55RP20-S2E/Web_Config_Guide_EN',
 								'Product/ioNIC/W55RP20/W55RP20-S2E/factory-rst-guide-en',
 								'Product/ioNIC/W55RP20/W55RP20-S2E/mac_address-write-guide-en',
+								'Product/ioNIC/W55RP20/W55RP20-S2E/w55rp20-s2e-an-spi-mode-en',
 							],
 						},
 					],
