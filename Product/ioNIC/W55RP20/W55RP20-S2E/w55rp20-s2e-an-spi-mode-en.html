@@ -17,7 +17,7 @@
 <link rel="preconnect" href="https://cdn.channel.io">
 <script>!function(){var n=window;if(n.ChannelIO)return(window.console.error||window.console.log||function(){})("ChannelIO script included twice.");var e=function(){e.c(arguments)};function t(){if(!n.ChannelIOInitialized){n.ChannelIOInitialized=!0;var e=document.createElement("script");e.type="text/javascript",e.async=!0,e.src="https://cdn.channel.io/plugin/ch-plugin-web.js",e.charset="UTF-8";var t=document.getElementsByTagName("script")[0];t.parentNode.insertBefore(e,t)}}e.q=[],e.c=function(n){e.q.push(n)},n.ChannelIO=e,"complete"===document.readyState?t():window.attachEvent?window.attachEvent("onload",t):(window.addEventListener("DOMContentLoaded",t,!1),window.addEventListener("load",t,!1))}(),ChannelIO("boot",{pluginKey:"cb95c060-ab4c-45ec-bbe8-fe40a1ea3aec"})</script>
 <script src="https://www.chatbase.co/embed.min.js" chatbotid="mzPtKtrGGxl7KLpJJ_s9j" domain="www.chatbase.co" async defer="defer"></script><link rel="stylesheet" href="/assets/css/styles.547e05fd.css">
-<script src="/assets/js/runtime~main.fc5cb4ba.js" defer="defer"></script>
+<script src="/assets/js/runtime~main.12b3641c.js" defer="defer"></script>
 <script src="/assets/js/main.34c03097.js" defer="defer"></script>
 </head>
 <body class="navigation-with-keyboard">
@@ -52,10 +52,10 @@ All commands are 4 bytes long. For example, the Data Read Command consists of:</
 <li>After completion, the Slave transmits an ACK.</li>
 </ol>
 <p>*<strong>NACK</strong> : If the Master sends a Data Length exceeding 2048 bytes or if the Slave is not connected to a network, it responds with NACK (0x0B + 3 dummy bytes (0xFF)).</p>
-<img src="/img/produts/w55rp20-s2e/w55rp20-s2e_spi_tx_data_frame1.png" height="180">
+<img src="/img/products/w55rp20-s2e/w55rp20-s2e_spi_tx_data_frame1.png" height="180">
 <br>
 <p><em>Figure 1. SPI TX Data Frame ①</em></p>
-<img src="/img/produts/w55rp20-s2e/w55rp20-s2e_spi_tx_data_frame2.png" height="180">
+<img src="/img/produtcs/w55rp20-s2e/w55rp20-s2e_spi_tx_data_frame2.png" height="180">
 <br>
 <p><em>Figure 2. SPI TX Data Frame ②</em></p>
 <h4 class="anchor anchorWithHideOnScrollNavbar_WYt5" id="412-rx-data-frame">4.1.2 RX Data Frame<a href="#412-rx-data-frame" class="hash-link" aria-label="Direct link to 4.1.2 RX Data Frame" title="Direct link to 4.1.2 RX Data Frame">​</a></h4>
@@ -68,10 +68,10 @@ All commands are 4 bytes long. For example, the Data Read Command consists of:</
 <li>The Slave sends the data in the Data Phase.</li>
 <li>Upon completion, the SPI_INT signal is set to High.</li>
 </ol>
-<img src="/img/produts/w55rp20-s2e/w55rp20-s2e_spi_rx_data_frame1.png" height="180">
+<img src="/img/produtcs/w55rp20-s2e/w55rp20-s2e_spi_rx_data_frame1.png" height="180">
 <br>
 <p><em>Figure 3. SPI RX Data Frame ①</em></p>
-<img src="/img/produts/w55rp20-s2e/w55rp20-s2e_spi_rx_data_frame2.png" height="180">
+<img src="/img/products/w55rp20-s2e/w55rp20-s2e_spi_rx_data_frame2.png" height="180">
 <br>
 <p><em>Figure 4. SPI RX Data Frame ②</em></p>
 <h3 class="anchor anchorWithHideOnScrollNavbar_WYt5" id="42-master-at-cmd-frame">4.2 Master AT CMD Frame<a href="#42-master-at-cmd-frame" class="hash-link" aria-label="Direct link to 4.2 Master AT CMD Frame" title="Direct link to 4.2 Master AT CMD Frame">​</a></h3>
