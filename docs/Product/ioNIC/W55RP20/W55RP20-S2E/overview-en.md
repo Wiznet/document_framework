@@ -137,6 +137,8 @@ The **W55RP20-S2E** is a pre-programmed product with an Serial to Ethernet FW an
 - [How to upload/update FW](./firmware-update-guide-en.md)
 - [How to do factory reset](./factory-rst-guide-en.md)
 - [How to write MAC Address](./mac_address-write-guide-en.md)
+- [How to design hardware](./hw-design-guide-en.md)
+- [How to use SPI Mode](./w55rp20-s2e-an-spi-mode-en.md)
 
 ## Customization Services
 
