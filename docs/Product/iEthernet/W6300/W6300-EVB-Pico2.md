@@ -15,7 +15,7 @@ W6300-EVB-Pico2 is a microcontroller evaluation board based on the Raspberry Pi 
 
 ![W6300-EVB-PICO2](/img/products/w6300-evb-pico2/w6300-evb-pico2-docs.png)
 
-![Powered By Raspberry Pi logo](/img/pbp-logo-small.jpg)
+<!-- ![Powered By Raspberry Pi logo](/img/pbp-logo-small.jpg) -->
 
 ## Revision history
 
