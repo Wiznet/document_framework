@@ -13,7 +13,7 @@ WIZ630io is the network module that includes W6300 (TCP/IP hardwired chip, inclu
 
 |                                                   |
 | ------------------------------------------------- |
-| ![WIZ630io](/img/products/wiz630io/wiz630io_1.png) |
+| ![WIZ630io](/img/products/wiz630io/WIZ630io_Front side view.png) |
 | Figure: ***WIZ630io***                            |
 
 -----
