@@ -1,10 +1,9 @@
-WIZ630io page
-
 ---
 id: wiz630io
 title: WIZ630io
 date: 2025-03-28
 ---
+
 
 ### Overview
 
