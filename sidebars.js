@@ -744,12 +744,12 @@ module.exports = {
 			'Product/ioModule/W5100S-io',
 			'Product/ioModule/W5500-io',
 			'Product/ioModule/W6100-io',
+			'Product/ioModule/wiz550io',
 			'Product/ioModule/wiz610io',
 			'Product/ioModule/wiz610mj',
+			'Product/ioModule/wiz630io',
 			'Product/ioModule/wiz810sio',
 			'Product/ioModule/wiz810smj',
-			'Product/ioModule/wiz850io',
-			'Product/ioModule/wiz550io',
 			/*{
 				type: 'category',
 				label: 'WIZ550io',
@@ -765,11 +765,12 @@ module.exports = {
 				//'Product/ioModule/WIZ550io/all_pages',
 				],
 			},*/
-			'Product/ioModule/wiz820io',
 			'Product/ioModule/wiz810mj',
 			'Product/ioModule/wiz811mj',
 			'Product/ioModule/wiz812mj',
+			'Product/ioModule/wiz820io',
 			'Product/ioModule/wiz830mj',
+			'Product/ioModule/wiz850io',
 			'Product/ioModule/nm7010b'
 			],
 		},
