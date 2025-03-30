@@ -62,51 +62,28 @@ WIZ630io is the network module that includes W6300 (TCP/IP hardwired chip, inclu
 
 -----
 
-### Datasheet
+### Datasheet(W6300)
 
-  - ![](/img/products/w5500/w5500_evb/icons/download.png)
-    <a href="/img/products/wiz630io/wiz630io_user_manual_v1.1.pdf" target="_blank">Download</a> 
+  - https://docs.wiznet.io/Product/iEthernet/W6300/document
 
 -----
 
 ### Technical Reference
 
 **Schematic & Part list & Gerber**
-
-  - 🌎[Go to Github](https://github.com/Wiznet/Hardware-Files-of-WIZnet/tree/master/05_Network_Module)
-
------
-
-**Ethernet Library**
-
-  - 🌎[Go to Github](https://github.com/Wiznet/ioLibrary_Driver)
-
------
-
-
-### Getting Started
 
   - **Coming soon**
 
 -----
 
-### Datasheet
-
-  - ![](/img/products/w5500/w5500_evb/icons/download.png)
-    <a href="/img/products/wiz630io/wiz630io_user_manual_v1.1.pdf" target="_blank">Download</a> 
-
------
-
-### Technical Reference
-
-**Schematic & Part list & Gerber**
-
-  - 🌎[Go to Github](https://github.com/Wiznet/Hardware-Files-of-WIZnet/tree/master/05_Network_Module)
-
------
-
 **Ethernet Library**
 
   - 🌎[Go to Github](https://github.com/Wiznet/ioLibrary_Driver)
 
 -----
+
+### Datasheet
+
+  - ![](/docs/products/Product/iEthernet/W6300/document.md)
+    <a href="/img/products/wiz630io/wiz630io_user_manual_v1.1.pdf" target="_blank">Download</a> 
+
