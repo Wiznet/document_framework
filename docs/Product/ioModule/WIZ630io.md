@@ -64,7 +64,7 @@ WIZ630io is the network module that includes W6300 (TCP/IP hardwired chip, inclu
 
 ### Datasheet(W6300)
 
-  - https://docs.wiznet.io/Product/iEthernet/W6300/document
+  - <a href="/img/products/w6300/W6300 DS_V090E.pdf" target="_blank">W6300 DataSheet v1.0.0</a>
 
 -----
 
@@ -81,9 +81,3 @@ WIZ630io is the network module that includes W6300 (TCP/IP hardwired chip, inclu
   - 🌎[Go to Github](https://github.com/Wiznet/ioLibrary_Driver)
 
 -----
-
-### Datasheet
-
-  - ![](/docs/products/Product/iEthernet/W6300/document.md)
-    <a href="/img/products/wiz630io/wiz630io_user_manual_v1.1.pdf" target="_blank">Download</a> 
-
