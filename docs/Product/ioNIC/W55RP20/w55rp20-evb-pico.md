@@ -13,6 +13,7 @@ Therefore, both the functions of Raspberry Pi Pico and those of the W5500 are av
 
 - Raspberry Pi Pico Clone
 - Ethernet (W55RP20 Hardwired TCP/IP CHIP)
+- [AWS IoT Core Qualified](https://partners.amazonaws.com/devices/a3Gaq00000000cjEAA/W55RP20-EVB-Pico)
 
 ![W55RP20-EVB-Pico](/img/products/w55rp20-evb-pico/w55rp20-evb-pico-docs.png)
 

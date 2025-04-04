@@ -12,6 +12,7 @@ W5500-EVB-Pico2 is a microcontroller evaluation board based on the Raspberry Pi 
 
 - Enhanced Raspberry Pi Pico2 Clone
 - Ethernet (W5500 Hardwired TCP/IP CHIP)
+- [AWS IoT Core Qualified](https://partners.amazonaws.com/devices/a3Gaq00000009GDEAY/W5500-EVB-Pico2)
 
 <!-- - [AWS IoT Core Qualified](https://devices.amazonaws.com/detail/a3G8a00000311tuEAA/W5500-EVB-Pico)
 - [Microsoft Azure Device Certified](https://devicecatalog.azure.com/devices/b278ce42-dde1-46b7-919e-4ae3a5266a3c) -->
@@ -204,12 +205,12 @@ Please refer to below links to find firmware example.
 
 ### AWS Qualification
 
-<!-- W5500S-EVB-Pico is RP2040-based device that got AWS IoT Core Qualification.
+W55RP20-EVB-Pico is RP2040-based device that got AWS IoT Core Qualification.
 
-![](/img/osh/w5100s_evb_pico/AWS_DQP_iot_500px.png)
+![](/img/products/w5500-evb-pico2/aws_qualified_device_badge.png)
 
-- [AWS Partner Device Catalog](https://devices.amazonaws.com/detail/a3G8a00000311tuEAA/W5500-EVB-Pico)
-- <a href="/img/products/w5500-evb-pico/w5500-evb-pico-getting-started-guide-for-aws-iot-core-v1-0-0.pdf" target="_blank">Getting Started with AWS IoT Core</a> -->
+- [AWS Partner Device Catalog](https://partners.amazonaws.com/devices/a3Gaq00000009GDEAY/W5500-EVB-Pico2)
+- <a href="https://github.com/WIZnet-ioNIC/WIZnet-PICO-AWS-C?tab=readme-ov-file#getting-started-guide-for-aws-iot-core" target="_blank">Getting Started Guide for AWS IoT Core</a>
 
 ### Microsoft Azure Certification
 
