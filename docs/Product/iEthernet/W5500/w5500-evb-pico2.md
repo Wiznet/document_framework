@@ -205,7 +205,7 @@ Please refer to below links to find firmware example.
 
 ### AWS Qualification
 
-W55RP20-EVB-Pico is RP2040-based device that got AWS IoT Core Qualification.
+W5500-EVB-Pico2 is RP2350-based device that got AWS IoT Core Qualification.
 
 ![](/img/products/w5500-evb-pico2/aws_qualified_device_badge.png)
 
