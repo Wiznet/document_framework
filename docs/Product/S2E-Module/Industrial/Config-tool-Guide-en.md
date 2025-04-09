@@ -272,7 +272,7 @@ PC IP: 192.168.**11**.3 (another IP address in the same Class C private IP band)
     - ATMODE : Serial AT Command Mode Status
     - UDP : UDP Mode Status
   - Serial Interface
-    - The type of serial interface
+    - The type of serial interface(W232N is only support RS232).
 
   #### 2) Operation mode
   - Set the device's network behavior mode
@@ -283,7 +283,7 @@ PC IP: 192.168.**11**.3 (another IP address in the same Class C private IP band)
       - Listens for connection requests from TCP clients and establishes a TCP connection when a client connection request is received, allowing data to be sent/received on a successful connection.
     - TCP MIX
       - When operating as a TCP server and waiting for a connection from a TCP client after setting up, when serial data is input,<br /> it exits the TCP server mode and switches to TCP client mode and attempts to connect to the entered remote host IP and port to establish a TCP connection<br />If data transmission or reception is not made within the set time (Inactivity timer) after the TCP connection, the device disconnects from the TCP server and operates in TCP server mode, which is the initial operating state of TCP MIX mode.<br />
-      ![](/img/products/w232n/TCP_MIX.png)
+      ![](/img/products/w232n/TCP_MIX_en.png)
     - UDP
       - 1:1 UDP mode
         - Communicate to the set remote destination host address (domain name) and port number.
@@ -319,12 +319,14 @@ PC IP: 192.168.**11**.3 (another IP address in the same Class C private IP band)
   - Timer
     - 0~65535(ms), Default is 0 (unused)
     - Buffer data for a specified time and send it all at once
+    - If the data exceeds the buffer (4KByte) within the specified time, all data in the buffer is deleted (not sent).
   - Size
     - 0~255(byte), Default is 0 (unused)
     - Stores data in a buffer until the specified data size is reached, then sends it all at once
   - Character
     - 1-byte Character(Hex code), Default is 0 (unused)
-    - Stores data in a buffer until the specified character is entered, and then sends it all at once, including the specified character, when the specified character is in the data.<br />If the buffer size is exceeded, send only data excluding the specified characters.
+    - Stores data in a buffer until the specified character is entered, and then sends it all at once, including the specified character, when the specified character is in the data.
+    - If the buffer (4KByte) is exceeded, all data in the buffer is deleted (not sent).
   #### 6) Timer interval
   - Inactivity timer
     - 0 ~ 65535(s), Default is 0 (unused)
