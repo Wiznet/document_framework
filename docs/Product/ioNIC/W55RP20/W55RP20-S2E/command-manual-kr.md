@@ -522,130 +522,136 @@ W232N은 제품 설정과 제어를 위한 다양한 명령어를 제공합니�
 <td align="center">RW</td>
 </tr>
 <tr class="odd">
+  <td align="center"><a href="#po">PO</a></td>
+  <td align="center">Modbus Settings</td>
+  <td>Select Modbus protocol type (None / RTU / ASCII)</td>
+  <td align="center">RW</td>
+</tr>
+<tr class="even">
 <td align="center"><a href="#qu">QU</a></td>
 <td align="center">MQTT Settings</td>
 <td>MQTT user name</td>
 <td align="center">RW</td>
 </tr>
-<tr class="even">
-<td align="center"><a href="#qp">QP</a></td>
-<td align="center">:::</td>
-<td>MQTT password</td>
-<td align="center">RW</td>
-</tr>
 <tr class="odd">
-<td align="center"><a href="#qc">QC</a></td>
-<td align="center">:::</td>
-<td>MQTT client ID</td>
-<td align="center">RW</td>
+  <td align="center"><a href="#qp">QP</a></td>
+  <td align="center">:::</td>
+  <td>MQTT password</td>
+  <td align="center">RW</td>
 </tr>
 <tr class="even">
-<td align="center"><a href="#qk">QK</a></td>
-<td align="center">:::</td>
-<td>MQTT Keep-alive</td>
-<td align="center">RW</td>
+  <td align="center"><a href="#qc">QC</a></td>
+  <td align="center">:::</td>
+  <td>MQTT client ID</td>
+  <td align="center">RW</td>
 </tr>
 <tr class="odd">
-<td align="center"><a href="#pu">PU</a></td>
-<td align="center">:::</td>
-<td>MQTT publish topic</td>
-<td align="center">RW</td>
+  <td align="center"><a href="#qk">QK</a></td>
+  <td align="center">:::</td>
+  <td>MQTT Keep-alive</td>
+  <td align="center">RW</td>
 </tr>
 <tr class="even">
-<td align="center"><a href="#u0">U0</a></td>
-<td align="center">:::</td>
-<td>MQTT subscribe topic 1</td>
-<td align="center">RW</td>
+  <td align="center"><a href="#pu">PU</a></td>
+  <td align="center">:::</td>
+  <td>MQTT publish topic</td>
+  <td align="center">RW</td>
 </tr>
 <tr class="odd">
-<td align="center"><a href="#u1">U1</a></td>
-<td align="center">:::</td>
-<td>MQTT subscribe topic 2</td>
-<td align="center">RW</td>
+  <td align="center"><a href="#u0">U0</a></td>
+  <td align="center">:::</td>
+  <td>MQTT subscribe topic 1</td>
+  <td align="center">RW</td>
 </tr>
 <tr class="even">
-<td align="center"><a href="#u2">U2</a></td>
-<td align="center">:::</td>
-<td>MQTT subscribe topic 3</td>
-<td align="center">RW</td>
+  <td align="center"><a href="#u1">U1</a></td>
+  <td align="center">:::</td>
+  <td>MQTT subscribe topic 2</td>
+  <td align="center">RW</td>
 </tr>
 <tr class="odd">
-<td align="center"><a href="#qo">QO</a></td>
-<td align="center">:::</td>
-<td>MQTT QoS level</td>
-<td align="center">RW</td>
+  <td align="center"><a href="#u2">U2</a></td>
+  <td align="center">:::</td>
+  <td>MQTT subscribe topic 3</td>
+  <td align="center">RW</td>
 </tr>
 <tr class="even">
-<td align="center"><a href="#rc">RC</a></td>
-<td align="center">Certificate Settings</td>
-<td>Root CA verify option</td>
-<td align="center">RW</td>
+  <td align="center"><a href="#qo">QO</a></td>
+  <td align="center">:::</td>
+  <td>MQTT QoS level</td>
+  <td align="center">RW</td>
 </tr>
 <tr class="odd">
-<td align="center"><a href="#ce">CE</a></td>
-<td align="center">:::</td>
-<td>Client certificate enable</td>
-<td align="center">RW</td>
+  <td align="center"><a href="#rc">RC</a></td>
+  <td align="center">Certificate Settings</td>
+  <td>Root CA verify option</td>
+  <td align="center">RW</td>
 </tr>
 <tr class="even">
-<td align="center"><a href="#oc">OC</a></td>
-<td align="center">:::</td>
-<td>Root CA</td>
-<td align="center">WO</td>
+  <td align="center"><a href="#ce">CE</a></td>
+  <td align="center">:::</td>
+  <td>Client certificate enable</td>
+  <td align="center">RW</td>
 </tr>
 <tr class="odd">
-<td align="center"><a href="#lc">LC</a></td>
-<td align="center">:::</td>
-<td>Client certificate</td>
-<td align="center">WO</td>
+  <td align="center"><a href="#oc">OC</a></td>
+  <td align="center">:::</td>
+  <td>Root CA</td>
+  <td align="center">WO</td>
 </tr>
 <tr class="even">
-<td align="center"><a href="#pk">PK</a></td>
-<td align="center">:::</td>
-<td>Private key</td>
-<td align="center">WO</td>
+  <td align="center"><a href="#lc">LC</a></td>
+  <td align="center">:::</td>
+  <td>Client certificate</td>
+  <td align="center">WO</td>
 </tr>
 <tr class="odd">
-<td align="center"><a href="#te">TE</a></td>
-<td align="center">Command Mode Switch Settings</td>
-<td>Command mode switch code enable</td>
-<td align="center">RW</td>
+  <td align="center"><a href="#pk">PK</a></td>
+  <td align="center">:::</td>
+  <td>Private key</td>
+  <td align="center">WO</td>
 </tr>
 <tr class="even">
-<td align="center"><a href="#ss">SS</a></td>
-<td align="center">:::</td>
-<td>Command mode switch code (3-bytes Hex)</td>
-<td align="center">RW</td>
+  <td align="center"><a href="#te">TE</a></td>
+  <td align="center">Command Mode Switch Settings</td>
+  <td>Command mode switch code enable</td>
+  <td align="center">RW</td>
 </tr>
 <tr class="odd">
-<td align="center"><a href="#ex">EX</a></td>
-<td align="center">Device Control</td>
-<td>Command mode exit (switch to data transfer mode)</td>
-<td align="center">WO</td>
+  <td align="center"><a href="#ss">SS</a></td>
+  <td align="center">:::</td>
+  <td>Command mode switch code (3-bytes Hex)</td>
+  <td align="center">RW</td>
 </tr>
 <tr class="even">
-<td align="center"><a href="#sv">SV</a></td>
-<td align="center">:::</td>
-<td>Save device setting</td>
-<td align="center">WO</td>
+  <td align="center"><a href="#ex">EX</a></td>
+  <td align="center">Device Control</td>
+  <td>Command mode exit (switch to data transfer mode)</td>
+  <td align="center">WO</td>
 </tr>
 <tr class="odd">
-<td align="center"><a href="#uf">UF</a></td>
-<td align="center">:::</td>
-<td>Copy firmware from firmware binary bank to application bank</td>
-<td align="center">RW</td>
+  <td align="center"><a href="#sv">SV</a></td>
+  <td align="center">:::</td>
+  <td>Save device setting</td>
+  <td align="center">WO</td>
 </tr>
 <tr class="even">
-<td align="center"><a href="#rt">RT</a></td>
-<td align="center">:::</td>
-<td>Device reboot</td>
-<td align="center">WO</td>
+  <td align="center"><a href="#uf">UF</a></td>
+  <td align="center">:::</td>
+  <td>Copy firmware from firmware binary bank to application bank</td>
+  <td align="center">RW</td>
 </tr>
 <tr class="odd">
-<td align="center"><a href="#fr">FR</a></td>
-<td align="center">:::</td>
-<td>Device factory reset</td>
-<td align="center">WO</td>
+  <td align="center"><a href="#rt">RT</a></td>
+  <td align="center">:::</td>
+  <td>Device reboot</td>
+  <td align="center">WO</td>
+</tr>
+<tr class="even">
+  <td align="center"><a href="#fr">FR</a></td>
+  <td align="center">:::</td>
+  <td>Device factory reset</td>
+  <td align="center">WO</td>
 </tr>
 </tbody>
 </table>
@@ -1998,6 +2004,45 @@ Return value</th>
 	**With Parameter (Set)**
     - No response
     - Change TCP client reconnection interval value
+
+
+
+### Modbus Settings
+
+
+
+---
+
+#### PO
+
+---
+
+  - **Format:** `PO<Parameter>[CR][LF]`
+
+  - **Meaning:** Sets the Modbus protocol type when operating in TCP Server mode.
+
+  - **Command Type:** Read / Write
+
+  - **Parameter / Return Type:** Number (0 ~ 2)
+
+  - **Parameter / Return Value:**
+
+| Value | Description    |
+|:-----:|----------------|
+| 0     | None           |
+| 1     | Modbus RTU     |
+| 2     | Modbus ASCII   |
+
+
+  - **Response**
+
+	**Without Parameter (Get)**
+    - In ASCII: `PO0\r\n`
+
+	**With Parameter (Set)**
+    - No response
+    - Change Modbus option
+
 
 
 

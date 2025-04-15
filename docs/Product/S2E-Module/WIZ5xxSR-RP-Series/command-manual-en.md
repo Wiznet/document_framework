@@ -2022,6 +2022,43 @@ Return value</th>
     - Change TCP client reconnection interval value
 
 
+### Modbus Settings
+
+
+
+---
+
+#### PO
+
+---
+
+  - **Format:** `PO<Parameter>[CR][LF]`
+
+  - **Meaning:** Sets the Modbus protocol type when operating in TCP Server mode.
+
+  - **Command Type:** Read / Write
+
+  - **Parameter / Return Type:** Number (0 ~ 2)
+
+  - **Parameter / Return Value:**
+
+| Value | Description    |
+|:-----:|----------------|
+| 0     | None           |
+| 1     | Modbus RTU     |
+| 2     | Modbus ASCII   |
+
+
+  - **Response**
+
+	**Without Parameter (Get)**
+    - In ASCII: `PO0\r\n`
+
+	**With Parameter (Set)**
+    - No response
+    - Change Modbus option
+
+
 
 ### MQTT Settings
 
