@@ -16,6 +16,11 @@ date: 2024-10-23
 
 The MAC address is stored in different memory address from the firmware area of the W55RP20-S2E.<br />Therefore, reflashing the W55RP20-S2E firmware will not erase the MAC address input if only the firmware area is overwritten.
 
+WIZnet’s MAC address OUI is **00:08:DC**:XX:XX:XX.
+If you need to use a different OUI, please use [W55RP20-S2E FW](https://github.com/WIZnet-ioNIC/W55RP20-S2E/releases) version 1.1.2 or later,
+modify the MAC_OUI0, MAC_OUI1, and MAC_OUI2 defines in **port/app/configuration/inc/ConfigData.h** with your desired OUI,
+then build and download the new firmware before proceeding with the setup guide.<br />
+<img src="/img/products/w55rp20-s2e/diff_oui.png" width="400" />
 
 -----
 
@@ -37,9 +42,9 @@ The MAC address is stored in different memory address from the firmware area of 
 ## How to write MAC Address
 
 There are two ways to write MAC Address
-
 - [Using WIZMacTool](#using-wizmactool)
 - [Using Serial Command](#using-serial-command)
+
 
 
 ## Using WIZMacTool
