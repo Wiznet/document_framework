@@ -35,15 +35,25 @@ The **W55RP20-S2E** is a pre-programmed product with an Serial to Ethernet FW an
   - Support **RS-232C** and **RS-422/485** if an external circuit is configured.
   - Status pins: PHY link status / TCP connection status / Run status
   - Support multiple protocols
-    - SSL TCP client
-    - MQTT client
-    - MQTTS client    
-  - Support protocol conversion between modbus RTU/ASCII and modbus tcp 
+    - TCP Server
+    - TCP Client
+    - SSL TCP Client
+    - TCP Mixed
+    - Modbus RTU/ASCII (available only in TCP Server mode)
+    - UDP
+    - MQTT Client
+    - MQTTS Client
+  - Support custom protocols (Please submit custom protocol requests via [**this link**](https://direct.wiznet.io/custom-firmware-request).)
+    - HTTP
+    - HTTPS
+    - CoAP
+    - External device OTA
   - Support serial data packing
   - Support TCP connection password
   - Configuration is possible via serial AT commands or via Configuration tool
   - Separate Data UART and Debug UART port
   - Unique **MAC Address** (WIZnet OUI)
+
 
 ## Hardware Design Guide & References
 

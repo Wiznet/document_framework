@@ -15,7 +15,20 @@ This document is the HW specification for the W232N, an industrial Ethernet to R
 ## Features
 
 - RS232 to Ethernet protocol conversion device
-- Supports Modbus TCP to Modbus RTU/ASCII protocol conversion
+- Support multiple protocols
+  - TCP Server
+  - TCP Client
+  - SSL TCP Client
+  - TCP Mixed
+  - Modbus RTU/ASCII (available only in TCP Server mode)
+  - UDP
+  - MQTT Client
+  - MQTTS Client
+- Support custom protocols (Please submit custom protocol requests via [**this link**](https://direct.wiznet.io/custom-firmware-request).)
+  - HTTP
+  - HTTPS
+  - CoAP
+  - External device OTA
 - Enables easy implementation of Ethernet into existing serial devices
 - KC,FCC certified to ensure high system stability and reliability
 - Supports 10/100Mbps Ethernet and up to 230kbps serial speeds
