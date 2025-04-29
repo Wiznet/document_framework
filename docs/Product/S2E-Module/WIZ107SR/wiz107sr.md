@@ -6,6 +6,7 @@ date: 2021-07-21
 
 :::caution
 **The WIZ107SR has been discontinued because the W7100A test platform is no longer available.**
+Please check **[WIZ750SR](./../WIZ750SR/Overview-EN.md)** instead.
 :::
 
 ## Overview

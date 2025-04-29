@@ -76,8 +76,8 @@ Three firmware upload methods:
 ## MAC Address Setup
 Initial firmware upload via USB/SWD required. MAC setup essential via WIZnet MAC Tool (115200 baud). MAC address must be purchased separately.
   - [download  - WIZMacTool](https://docs.wiznet.io/img/products/wiz750sr/developers/restore-mac/wizmactool_v20151127.zip)
-  - [How to use WIZMacTool](#using-wizmactool)
-  - [Using Serial Command](#using-serial-command)
+  - [How to use WIZMacTool](../W55RP20-S2E/mac_address-write-guide-en.md#using-wizmactool)
+  - [Using Serial Command](../W55RP20-S2E/mac_address-write-guide-en.md#using-serial-command)
 
 ## Configuration
 Advanced settings and further configurations available using the latest WIZnet Configuration Tool.

@@ -8,13 +8,14 @@
 module.exports = {
   docs: [
 	'introduction',
-    {
+    
+	{
 		type: 'category',
 		label: 'Products',
 		link: {type: 'doc', id: 'Product/products'},
 		items: [
 		//,
-		{
+		/*{
 			type: 'category',
 			label: 'Azure Sphere Guardian Module',
 			items: [
@@ -33,7 +34,7 @@ module.exports = {
 				],
 				},
 			],
-		},
+		},*/
 		{
 			type: 'category',
 			label: 'ioNIC',
@@ -224,7 +225,7 @@ module.exports = {
 			label: 'iEthernet',
 			link: {type: 'doc', id: 'Product/iEthernet/iethernet'},
 				items: [
-				'Product/iEthernet/iethernet',
+				//'Product/iEthernet/iethernet',
 				{
 				type: 'category',
 				label: 'W6300',
