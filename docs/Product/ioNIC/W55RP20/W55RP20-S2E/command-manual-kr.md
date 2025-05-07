@@ -636,18 +636,12 @@ W232N은 제품 설정과 제어를 위한 다양한 명령어를 제공합니�
   <td align="center">WO</td>
 </tr>
 <tr class="even">
-  <td align="center"><a href="#uf">UF</a></td>
-  <td align="center">:::</td>
-  <td>Copy firmware from firmware binary bank to application bank</td>
-  <td align="center">RW</td>
-</tr>
-<tr class="odd">
   <td align="center"><a href="#rt">RT</a></td>
   <td align="center">:::</td>
   <td>Device reboot</td>
   <td align="center">WO</td>
 </tr>
-<tr class="even">
+<tr class="odd">
   <td align="center"><a href="#fr">FR</a></td>
   <td align="center">:::</td>
   <td>Device factory reset</td>
@@ -2564,35 +2558,6 @@ Return value</th>
 	**Without Parameter**
     - No response
     - Save changed settings
-
-
-
----
-
-#### UF
-
----
-
-  - **Format:** `UF[CR][LF]`
-
-  - **Meaning:** Copy firmware from firmware binary bank to application bank
-
-  - **Command Type:** Read / Write
-
-  - **Parameter / Return:**
-
-    Ex> 1
-
-  - **Response**
-
-	**Without Parameter (Get)**
-    - In ASCII: `UF0\r\n`
-
-	**With Parameter (Set)**
-    - No response
-    - Change current bank flag
-
-	After reset, copy firmware from firmware binary bank to application bank.
 
 
 
