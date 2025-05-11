@@ -467,8 +467,8 @@ RS-485</td>
 <td>T<em>A</em></td>
 <td><strong>Ambient operating temperature</strong></td>
 <td>ALL</td>
-<td>-40</td>
-<td>85</td>
+<td>0</td>
+<td>70</td>
 <td></td>
 <td>℃</td>
 </tr>
