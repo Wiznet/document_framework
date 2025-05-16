@@ -70,8 +70,8 @@ The W5300 TOE Shield is a board that enables high-speed bus communication with t
 ## Firmware Example
 
 - C/C++
-    - [W5300-TOE-C](https://github.com/Wiznet/W5300 TOE C)
+    - [W5300-TOE-C](https://github.com/Wiznet/W5300-TOE-C)
 - Arduino
-    - [W5300-TOE-Arduino](https://github.com/Wiznet/W5300 TOE Arduino)
+    - [W5300-TOE-Arduino](https://github.com/Wiznet/W5300-TOE-Arduino)
 - MicroPython
-    - [W5300-TOE-MicroPython](https://github.com/Wiznet/W5300 TOE MicroPython)
+    - [W5300-TOE-MicroPython](https://github.com/Wiznet/W5300-TOE-MicroPython)
