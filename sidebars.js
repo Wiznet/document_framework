@@ -238,6 +238,7 @@ module.exports = {
 					// 'Product/iEthernet/W6300/libraries-w6300',
 					// 'Product/iEthernet/W6300/new-project-vscode',
 					'Product/iEthernet/W6300/ref-schematic',
+					'Product/iEthernet/W6300/w6300-evb-pico',
 					'Product/iEthernet/W6300/w6300-evb-pico2',
 				],
 				},
