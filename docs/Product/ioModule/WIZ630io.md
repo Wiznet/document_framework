@@ -40,19 +40,9 @@ WIZ630io is the network module that includes W6300 (TCP/IP hardwired chip, inclu
   - Interfaces with two 2.54mm pitch 1 x 6 header pin
   - Temperature : -40 \~ 85℃(Operation)
 
+### Pin Out
 
-# target application
- - Home Network Devices: Set-Top Boxes, PVRs, Digital Media Adapters
- - Serial-to-Ethernet: Access Controls, LED displays, Wireless AP relays, etc.
- - Parallel-to-Ethernet: POS / Mini Printers, Copiers
- - USB-to-Ethernet: Storage Devices, Network Printers
- - GPIO-to-Ethernet: Home Network Sensors
- - Security Systems: DVRs, Network Cameras, Kiosks
- - Factory, Building, Home Automations
- - Medical Monitoring Equipment
- - Embedded Servers
- - Internet of Things (IoT) Devices
- - IoT Cloud Devices
+![WIZ630io Pinmap](/img/products/wiz630io/WIZ630io_pin_out.png)  
 
 -----
 
