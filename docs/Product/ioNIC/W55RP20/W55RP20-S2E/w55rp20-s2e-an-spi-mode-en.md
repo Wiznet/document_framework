@@ -6,7 +6,7 @@ date: 2025-03-20
 
 ## 1. Introduction
 
-The W55RP20-S2E operates in SPI Slave Mode and can be controlled using AT Commands. To communicate with the MCU, it is need to connect the SPI pins and set the UART_SPI_SEL (GPIO13) pin to High to use SPI. Refer to Figure 1 for the W55RP20-S2E SPI Pinout.<br />
+The W55RP20-S2E operates in SPI Slave Mode and can be controlled using AT Commands. The maximum SPI clock speed supported in this mode is 10 MHz. To communicate with the MCU, it is need to connect the SPI pins and set the UART_SPI_SEL (GPIO13) pin to High to use SPI.  Refer to Figure 1 for the W55RP20-S2E SPI Pinout.<br />
 When the W55RP20-S2E (SPI Slave) needs to send data, the SPI_INT (GPIO26) signal should be set to Low so that the SPI Master can read it. If communication is occasionally interrupted, disable Serial Debug through the [Config Tool](./Config-tool-Guide-en.md).
 
 
@@ -14,7 +14,7 @@ When the W55RP20-S2E (SPI Slave) needs to send data, the SPI_INT (GPIO26) signal
 
   - The SPI Master code for W55RP20-S2E can be found at:
   
-    [W55RP20-S2E: SPI Mode Master](https://github.com/WIZnet-ioNIC/W55RP20-S2E/blob/SPI/main/SPI_Mode_Master/SPI_Mode_Master.c)
+    [Github : W55RP20-S2E - SPI Mode Master](https://github.com/WIZnet-ioNIC/W55RP20-S2E/blob/SPI/main/SPI_Mode_Master/SPI_Mode_Master.c)
 
 
 ## 3. Pinout
@@ -22,17 +22,16 @@ When the W55RP20-S2E (SPI Slave) needs to send data, the SPI_INT (GPIO26) signal
 | Fuction      |Pin Number  |Symbol  | Description                                                 |
 |--------------|:----------:|--------|-------------------------------------------------------------|
 | SPI_SCK      |  67        | GPIO2  | SCK input pin for Data SPI transmission (SPI MODE)          |
-| *SPI_MISO    |  68        | GPIO3  | MISO pin for Data SPI reception (SPI MODE)                  |
-| *SPI_MOSI    |  9         | GPIO4  | MOSI pin for Data SPI transmission (SPI MODE)               |
+| SPI_MISO     |  68        | GPIO3  | MISO pin for Data SPI reception (SPI MODE)                  |
+| SPI_MOSI     |  9         | GPIO4  | MOSI pin for Data SPI transmission (SPI MODE)               |
 | SPI_CSn      |  10        | GPIO5  | SPI Chip Select pin (SPI MODE)                              |
 | SPI_INT      |  46        | GPIO26 | SPI Master Recv data pending pin                            |
 | UART_SPI_SEL |  19        | GPIO13 | UART/SPI interface select pin<br />(High:SPI, Low/NC:UART)  |
 | Debug_UART_TX|  65        | GPIO0  | TX pin for Output Debug Messages                            |
 | Debug_UART_RX|  66        | GPIO1  | RX pin for Output Debug Messages                            |
 
-  ***Note: SPI_MOSI and SPI_MISO should be connected in a cross-wired manner.**
   
-## 4. SPI Frame Fornat
+## 4. SPI Frame Format
 
 The W55RP20-S2E operates based on SPI Frames transmitted by the SPI Master. The SPI Frame Format consists of DATA Frame and AT CMD Frame.<br />
 All commands are 4 bytes long. For example, the Data Read Command consists of:
