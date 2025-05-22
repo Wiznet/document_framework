@@ -1,7 +1,7 @@
 ---
 id: wiz630io
 title: WIZ630io
-date: 2025-03-28
+date: 2025-05-22
 ---
 
 
@@ -60,9 +60,18 @@ WIZ630io is the network module that includes W6300 (TCP/IP hardwired chip, inclu
 
 ### Technical Reference
 
-**Schematic & Part list & Gerber**
+## Schematic
 
-  - **Coming soon**
+  - Revision 1.0 <a href="/img/products/wiz630io/WIZ630IO_sch.pdf" target="_blank">WIZ630io Rev1.0 Schematic(PDF)</a>
+
+## Dimension
+
+![WIZ630io Dimension](/img/products/wiz630io/WIZ630IO_Dimension.png)
+
+## 3D Step File
+
+  - Revision 1.0 <a href="/img/products/wiz630io/WIZ630IO.step" target="_blank">WIZ630io Rev1.0 3D(STEP)</a>
+
 
 -----
 
