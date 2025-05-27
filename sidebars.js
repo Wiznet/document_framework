@@ -303,8 +303,8 @@ module.exports = {
 				label: 'W5500',
 				link: {type: 'doc', id: 'Product/iEthernet/W5500/overview'},
 				items: [
-					//'Product/iEthernet/W5500/overview',
-					'Product/iEthernet/W5500/japanese-v',
+					'Product/iEthernet/W5500/overview',
+					//'Product/iEthernet/W5500/japanese-v',
 					'Product/iEthernet/W5500/datasheet',
 					'Product/iEthernet/W5500/driver',
 					'Product/iEthernet/W5500/ref-schematic',
