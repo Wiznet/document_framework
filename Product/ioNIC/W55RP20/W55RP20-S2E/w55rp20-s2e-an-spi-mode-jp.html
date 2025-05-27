@@ -17,7 +17,7 @@
 <link rel="preconnect" href="https://cdn.channel.io">
 <script>!function(){var n=window;if(n.ChannelIO)return(window.console.error||window.console.log||function(){})("ChannelIO script included twice.");var e=function(){e.c(arguments)};function t(){if(!n.ChannelIOInitialized){n.ChannelIOInitialized=!0;var e=document.createElement("script");e.type="text/javascript",e.async=!0,e.src="https://cdn.channel.io/plugin/ch-plugin-web.js",e.charset="UTF-8";var t=document.getElementsByTagName("script")[0];t.parentNode.insertBefore(e,t)}}e.q=[],e.c=function(n){e.q.push(n)},n.ChannelIO=e,"complete"===document.readyState?t():window.attachEvent?window.attachEvent("onload",t):(window.addEventListener("DOMContentLoaded",t,!1),window.addEventListener("load",t,!1))}(),ChannelIO("boot",{pluginKey:"cb95c060-ab4c-45ec-bbe8-fe40a1ea3aec"})</script>
 <script src="https://www.chatbase.co/embed.min.js" chatbotid="mzPtKtrGGxl7KLpJJ_s9j" domain="www.chatbase.co" async defer="defer"></script><link rel="stylesheet" href="/assets/css/styles.547e05fd.css">
-<script src="/assets/js/runtime~main.2b122104.js" defer="defer"></script>
+<script src="/assets/js/runtime~main.f41176e0.js" defer="defer"></script>
 <script src="/assets/js/main.fc3267db.js" defer="defer"></script>
 </head>
 <body class="navigation-with-keyboard">
@@ -73,7 +73,7 @@ W55RP20-S2E（SPIスレーブ）がデータを送信する必要がある場合
 <li>スレーブはACKとして0x0Aと3バイトのダミーバイト (0xFF) で応答します。</li>
 <li>マスターは残りのATコマンドデータを送信します。</li>
 <li>完了後、スレーブはACKを送信します。
-<strong>注意</strong>: AT CMDフォーマットの詳細については、<a href="/Product/ioNIC/W55RP20/W55RP20-S2E/command-manual-jp.md">AT Command Manual</a> ドキュメントを参照してください。</li>
+<strong>注意</strong>: AT CMDフォーマットの詳細については、<a href="/Product/ioNIC/W55RP20/W55RP20-S2E/command-manual-en">AT Command Manual</a> ドキュメントを参照してください。</li>
 </ol>
 <table><thead><tr><th style="text-align:center"></th></tr></thead><tbody><tr><td style="text-align:center"><img src="/img/products/w55rp20-s2e/w55rp20-s2e_spi_tx_atcmd_frame1.png" height="180"></td></tr><tr><td style="text-align:center">図: <strong>SPI AT CMD TX（SET）フレーム ①</strong></td></tr></tbody></table>
 <table><thead><tr><th style="text-align:center"></th></tr></thead><tbody><tr><td style="text-align:center"><img src="/img/products/w55rp20-s2e/w55rp20-s2e_spi_tx_atcmd_frame2.png" height="180"></td></tr><tr><td style="text-align:center">図: <strong>SPI AT CMD TX（SET）フレーム ②</strong></td></tr></tbody></table>
@@ -86,7 +86,7 @@ W55RP20-S2E（SPIスレーブ）がデータを送信する必要がある場合
 <li>スレーブはATコマンドデータの応答を送信します。</li>
 <li>マスターがAT CMDデータの読み取りを完了すると、スレーブはSPI_INT信号をHighに設定します。</li>
 </ol>
-<p><strong>注意</strong>: AT CMDフォーマットの詳細については、<a href="/Product/ioNIC/W55RP20/W55RP20-S2E/command-manual-jp.md">AT Command Manual</a> ドキュメントを参照してください。</p>
+<p><strong>注意</strong>: AT CMDフォーマットの詳細については、<a href="/Product/ioNIC/W55RP20/W55RP20-S2E/command-manual-en">AT Command Manual</a> ドキュメントを参照してください。</p>
 <table><thead><tr><th style="text-align:center"></th></tr></thead><tbody><tr><td style="text-align:center"><img src="/img/products/w55rp20-s2e/w55rp20-s2e_spi_rx_atcmd_frame1.png" height="180"></td></tr><tr><td style="text-align:center">図: <strong>SPI AT CMD RX（GET）フレーム ①</strong></td></tr></tbody></table>
 <table><thead><tr><th style="text-align:center"></th></tr></thead><tbody><tr><td style="text-align:center"><img src="/img/products/w55rp20-s2e/w55rp20-s2e_spi_rx_atcmd_frame2.png" height="180"></td></tr><tr><td style="text-align:center">図: <strong>SPI AT CMD RX（GET）フレーム ②</strong></td></tr></tbody></table>
 <h2 class="anchor anchorWithHideOnScrollNavbar_WYt5" id="5-操作">5. 操作<a href="#5-操作" class="hash-link" aria-label="Direct link to 5. 操作" title="Direct link to 5. 操作">​</a></h2>
