@@ -14,7 +14,7 @@ W6300-EVB-Pico is a microcontroller evaluation board based on the Raspberry Pi R
 - Raspberry Pi Pico
 - Ethernet (W6300 Hardwired TCP/IP CHIP)
 
-<!-- ![W6300-EVB-PICO2](/img/products/w6300-evb-pico2/w6300-evb-pico2-docs.png) -->
+![W6300-EVB-PICO](/img/products/w6300-evb-pico/w6300-evb-pico-docs.png)
 
 <!-- ![Powered By Raspberry Pi logo](/img/pbp-logo-small.jpg) -->
 
