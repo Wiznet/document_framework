@@ -22,30 +22,30 @@ W55RP20-EVB-Picoは、W5500（有線TCP/IPコントローラー）とRP2040を�
 ## 特徴
 
 - W55RP20マイクロコントローラー  
-- 内蔵2MByteフラッシュ  
-- デュアルコアCortex M0+（最大133MHz）  
-- 264kByteのマルチバンク高性能SRAM  
-- 外部Quad-SPIフラッシュ（eXecute In Place (XIP)対応）  
-- 高性能フルクロスバスファブリック  
-- 22の多機能GPIO（うち4つはADCとして使用可能）  
-- 1.8-3.3V IO電圧（注：PicoのIO電圧は3.3V固定）  
-- 12ビット500kspsのアナログ-デジタルコンバーター（ADC）  
-- 多様なデジタルペリフェラル  
-- 2 × UART、2 × I2C、2 × SPI、16 × PWMチャネル  
-- 1 × タイマー（4つのアラーム付き）、1 × リアルタイムカウンター  
-- 2 × プログラマブルIO（PIO）ブロック、合計8ステートマシン  
-- 柔軟でユーザーがプログラム可能な高速IO  
-- SDカードやVGAなどのインターフェースをエミュレート可能  
-- ハードワイヤードインターネットプロトコル対応：TCP、UDP、ICMP、IPv4、ARP、IGMP、PPPoE  
-- 最大8つの独立したハードウェアソケットを同時にサポート  
-- TX/RXバッファ用の内蔵32Kbytesメモリ  
-- 高速シリアルペリフェラルインターフェース（SPI MODE 0、3）対応  
+  - 内蔵2MByteフラッシュ  
+  - デュアルコアCortex M0+（最大133MHz）  
+  - 264kByteのマルチバンク高性能SRAM  
+  - 外部Quad-SPIフラッシュ（eXecute In Place (XIP)対応）  
+  - 高性能フルクロスバスファブリック  
+  - 22の多機能GPIO（うち4つはADCとして使用可能）  
+    - 1.8-3.3V IO電圧（注：PicoのIO電圧は3.3V固定）  
+  - 12ビット500kspsのアナログ-デジタルコンバーター（ADC）  
+  - 多様なデジタルペリフェラル  
+    - 2 × UART、2 × I2C、2 × SPI、16 × PWMチャネル  
+    - 1 × タイマー（4つのアラーム付き）、1 × リアルタイムカウンター  
+  - 2 × プログラマブルIO（PIO）ブロック、合計8ステートマシン  
+  - 柔軟でユーザーがプログラム可能な高速IO  
+  - SDカードやVGAなどのインターフェースをエミュレート可能  
+  - ハードワイヤードインターネットプロトコル対応：TCP、UDP、ICMP、IPv4、ARP、IGMP、PPPoE  
+  - 最大8つの独立したハードウェアソケットを同時にサポート  
+  - TX/RXバッファ用の内蔵32Kbytesメモリ  
+  - 高速シリアルペリフェラルインターフェース（SPI MODE 0、3）対応  
 - 電源およびデータ用USB-Cポート（フラッシュの再プログラミングも可能）  
 - 3ピンARMシリアルワイヤデバッグ（SWD）ポート  
 - 10 / 100 Ethernet PHY内蔵  
 - オートネゴシエーション対応  
-- フル/ハーフデュプレックス  
-- 10 / 100 Base対応  
+  - フル/ハーフデュプレックス  
+  - 10 / 100 Base対応  
 - RJ45（POE）内蔵  
 - 内蔵DCDC（PWM/PFM）  
 - POEを可能にする追加モジュールを搭載  
@@ -180,5 +180,4 @@ W55RP20-EVB-Pico は RP2040 ベースのデバイスで、AWS IoT Core 認証を
 
 ## 購入方法  
 
-[![WIZnetUS オンラインショップ (米国)](/img/products/w5500-evb-pico/icons/dollar.png)](https://eshop.wiznet.io/shop/module/w55rp20-evb-pico/)  
-[![WIZnetKorea オンラインショップ (韓国)](/img/products/w5500-evb-pico/icons/won.png)](https://wiznetshop.io/product/detail.html?product_no=1094&cate_no=55&display_group=1)  
+[![WIZnetUS オンラインショップ (米国)](/img/products/w5500-evb-pico/icons/dollar.png)](https://eshop.wiznet.io/shop/module/w55rp20-evb-pico/) [![WIZnetKorea オンラインショップ (韓国)](/img/products/w5500-evb-pico/icons/won.png)](https://wiznetshop.io/product/detail.html?product_no=1094&cate_no=55&display_group=1)  

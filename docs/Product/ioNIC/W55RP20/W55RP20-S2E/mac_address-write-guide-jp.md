@@ -32,8 +32,8 @@ WIZnetのMACアドレスOUIは**00:08:DC**:XX:XX:XXです。
 ## MACアドレスの書き込み方法
 
 MACアドレスの書き込み方法は2通りあります。
-- [WIZMacToolを使用する場合](#using-wizmactool)
-- [シリアルコマンドを使用する場合](#using-serial-command)
+- [WIZMacToolを使用する場合](#WIZMacToolを使用する場合)
+- [シリアルコマンドを使用する場合](#シリアルコマンドを使用する場合)
 
 ## WIZMacToolを使用する場合
 
@@ -68,6 +68,8 @@ MACアドレスが正常に書き込まれると、W55RP20-S2Eは「R」と入�
 <img src="/img/products/w55rp20-s2e/config-mac.png" width="500" /> <br />
 またはATコマンドで確認できます。<br />
 <img src="/img/products/w55rp20-s2e/at-mac.png" width="500" /> <br />
+
+
 
 ## シリアルコマンドを使用する場合
 

@@ -51,16 +51,21 @@ date: 2025-05-27
 
 ## W55RP20-S2E ファームウェアをアップロードまたはアップデートする方法
 
-W232Nは、ファームウェアをアップロードまたはアップデートするための3つの方法を提供します。
+W55RP20-S2Eは、ファームウェアをアップロードまたはアップデートするための3つの方法を提供します。
 
 - [Config-Toolを使用する](./firmware-update-guide-jp.md) **アプリケーションバンクのみ**  
 - [Web-Configを使用する](./firmware-update-guide-jp.md) **アプリケーションバンクのみ**  
 - [USBを使用する](./firmware-update-guide-jp.md)  
 - [SWDを使用する](./firmware-update-guide-jp.md)  
 
+
 -----
 
+
+
+
 ## Configuration Toolを使用する
+
 
 ### Configuration Toolを使用したアップデート手順
 
@@ -73,6 +78,7 @@ W232Nは、ファームウェアをアップロードまたはアップデート
 
 ### 必要なハードウェアとソフトウェア
 
+
 #### ハードウェア
 
 - W55RP20-S2E  
@@ -82,6 +88,7 @@ W232Nは、ファームウェアをアップロードまたはアップデート
 
 - [W55RP20-S2E](https://github.com/WIZnet-ioNIC/W55RP20-S2E/releases)  
 - [WIZnet S2E Configuration Tool](https://github.com/Wiznet/WIZnet-S2E-Tool-GUI/releases)  
+
 
 ### ステップ1: Config-toolを実行する
 
@@ -114,6 +121,8 @@ Config-toolはアプリケーションバンクのみを更新できるため、
 | :------------------------------------------------------------------------------------: |
 | ![](/img/products/s2e_module/wiz5xxsr-rp/firmware_update_guide/uploading_firmware.png) |
 | 図: **ファームウェアをアップロード中**                                                  |
+
+
 
 #### ステップ3: 完了
 

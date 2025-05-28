@@ -138,7 +138,7 @@ The **W55RP20-S2E** is a pre-programmed product with an Serial to Ethernet FW an
 
 
 ## Manuals
-- [How to use Config-tool](./Web_Config_Guide_EN.md)
+- [How to use Config-tool](./command-manual-en.md)
 - [How to use Web config](./Web_Config_Guide_EN.md)
 - [How to use AT CMD](./command-manual-en.md)
 - [How to connect MQTT](./mqtt-connection-guide-en.md)

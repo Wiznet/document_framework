@@ -12,11 +12,15 @@ date: 2025-05-27
 
 -----
 
+
 ## 必要なハードウェアとソフトウェア
+
 
 ### ハードウェア
   - W55RP20-S2E  
   - ケーブル（イーサネット / シリアル）  
+
+
 
 ### ソフトウェア
   - WIZnet S2E Configuration Tool  
@@ -26,12 +30,16 @@ date: 2025-05-27
   - OpenSSL:  
     - [ダウンロードリンク](https://slproweb.com/products/Win32OpenSSL.html)  
 
+
 -----
+
 
 ## OpenSSLを使用してSSLサーバーに接続する方法
 
+
 ### ステップ1: Config-toolを実行
 インストールした**「Config-tool」**を実行します。
+
 
 ### ステップ2: OpenSSLのセットアップ
 OpenSSLをSSLサーバーとして使用するように設定します。
@@ -68,8 +76,8 @@ s_server -accept 443 -cert server.crt -key server.key
 
 2. **Remote host / port**セクションで、**リモートホストIP（またはURL）**と**リモートポート**を設定します。
 
-|                                                                                                         |
-| :-----------------------------------------------------------------------------------------------------: |
+|                                                                                                 |
+| :---------------------------------------------------------------------------------------------: |
 | ![](/img/products/s2e_module/wiz5xxsr-rp/ssl_connection_guide/setup_remote_host_ip_and_remote_port.png) |
 | 図: **リモートホストIPとリモートポートを設定**                                                          |
 

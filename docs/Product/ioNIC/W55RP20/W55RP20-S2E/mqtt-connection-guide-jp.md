@@ -22,9 +22,9 @@ date: 2025-05-27
 ### ソフトウェア
 
 - WIZnet S2E Configuration Tool  
-- [最新バージョンをダウンロード](https://github.com/Wiznet/WIZnet-S2E-Tool-GUI/releases/tag/V1.5.0)  
-- [旧バージョンをダウンロード](https://github.com/Wiznet/WIZnet-S2E-Tool-GUI/releases)  
-- [GitHubリポジトリ](https://github.com/Wiznet/WIZnet-S2E-Tool-GUI)  
+  - [最新バージョンをダウンロード](https://github.com/Wiznet/WIZnet-S2E-Tool-GUI/releases/tag/V1.5.0)  
+  - [旧バージョンをダウンロード](https://github.com/Wiznet/WIZnet-S2E-Tool-GUI/releases)  
+  - [GitHubリポジトリ](https://github.com/Wiznet/WIZnet-S2E-Tool-GUI)  
 - Mosquitto:  
   - [ダウンロードリンク](https://mosquitto.org/download/)
 
@@ -44,8 +44,8 @@ W55RP20-S2EはMQTTクライアントおよびMQTTSクライアントモードを
 
 Mosquittoのバージョンによっては設定が必要になる場合があります。以下を参考に設定してください。
 
-- Mosquittoのバージョンが2.0より前の場合、デフォルトで認証なしでクライアントの接続が許可されます。  
-- 2.0以降では、クライアントが接続する前に認証オプションを明示的に選択する必要があります。
+  - Mosquittoのバージョンが2.0より前の場合、デフォルトで認証なしでクライアントの接続が許可されます。  
+  - 2.0以降では、クライアントが接続する前に認証オプションを明示的に選択する必要があります。
 
 そのため、バージョン2.0以降を使用している場合は、Mosquittoがインストールされているディレクトリ内の「mosquitto.conf」を設定するために、以下のリンクを参照してください。  
 
@@ -126,10 +126,6 @@ mosquitto -c mosquitto.conf -p 1883 -v
 <br />
 
 2. サインイン後、検索バーで「IoT Console」と検索し、それをクリックします。
-### ステップ1: AWS IoT Coreで「Thing」を作成する
-
-1. 左側のメニューから「IoTコンソール (IoT Console)」を検索します。
-
 |                                                                                             |
 | :-----------------------------------------------------------------------------------------: |
 | <img src="/img/products/w232n/aws_execute/1_aws_iot_core.png" width="600" /> |
@@ -138,7 +134,7 @@ mosquitto -c mosquitto.conf -p 1883 -v
 <br />
 <br />
 
-2. 左側の「Things」タブをクリックし、オレンジ色の「Create things」ボタンを押します。
+3. 左側の「Things」タブをクリックし、オレンジ色の「Create things」ボタンを押します。
 
 |                                                                                             |
 | :-----------------------------------------------------------------------------------------: |
@@ -148,7 +144,7 @@ mosquitto -c mosquitto.conf -p 1883 -v
 <br />
 <br />
 
-3. 「Create single thing」を選択し、「Next」ボタンを押します。
+4. 「Create single thing」を選択し、「Next」ボタンを押します。
 
 |                                                                                             |
 | :-----------------------------------------------------------------------------------------: |
@@ -158,7 +154,7 @@ mosquitto -c mosquitto.conf -p 1883 -v
 <br />
 <br />
 
-4. 「Thing name」を入力し、「Next」ボタンを押します。
+5. 「Thing name」を入力し、「Next」ボタンを押します。
 
 |                                                                                             |
 | :-----------------------------------------------------------------------------------------: |
@@ -168,7 +164,7 @@ mosquitto -c mosquitto.conf -p 1883 -v
 <br />
 <br />
 
-5. 「Auto-generate a new certificate (recommended)」を選択し、「Next」ボタンを押します。
+6. 「Auto-generate a new certificate (recommended)」を選択し、「Next」ボタンを押します。
 
 |                                                                                             |
 | :-----------------------------------------------------------------------------------------: |
@@ -178,7 +174,7 @@ mosquitto -c mosquitto.conf -p 1883 -v
 <br />
 <br />
 
-6. 次に、Thingを保護するためのポリシーを作成する必要があります。「Create policy」をクリックします。
+7. 次に、Thingを保護するためのポリシーを作成する必要があります。「Create policy」をクリックします。
 
 |                                                                                             |
 | :-----------------------------------------------------------------------------------------: |
@@ -188,7 +184,7 @@ mosquitto -c mosquitto.conf -p 1883 -v
 <br />
 <br />
 
-7. ポリシーの名前を設定し、ポリシードキュメントを指示通りに構成して、「Create」ボタンを押します。
+8. ポリシーの名前を設定し、ポリシードキュメントを指示通りに構成して、「Create」ボタンを押します。
 
 |                                                                                             |
 | :-----------------------------------------------------------------------------------------: |
@@ -198,7 +194,7 @@ mosquitto -c mosquitto.conf -p 1883 -v
 <br />
 <br />
 
-8. 先ほど開いていた「Create single thing」ページに戻り、「Create thing」ボタンを押します。
+9. 先ほど開いていた「Create single thing」ページに戻り、「Create thing」ボタンを押します。
 
 |                                                                                             |
 | :-----------------------------------------------------------------------------------------: |
@@ -208,7 +204,7 @@ mosquitto -c mosquitto.conf -p 1883 -v
 <br />
 <br />
 
-9. すべてのキーと証明書をダウンロードします。
+10. すべてのキーと証明書をダウンロードします。
 
 |                                                                                             |
 | :-----------------------------------------------------------------------------------------: |
@@ -256,6 +252,7 @@ mosquitto -c mosquitto.conf -p 1883 -v
 - Remote Host / Port  
   - **Remote Host:** コピーしたエンドポイントを貼り付け  
   - **Remote Port:** 8883  
+  
 |                                                                                             |
 | :-----------------------------------------------------------------------------------------: |
 | <img src="/img/products/w232n/aws_execute/2_MQTT_option.png" width="600" /> |
@@ -264,7 +261,7 @@ mosquitto -c mosquitto.conf -p 1883 -v
 <br />
 <br />
 
-4. Certificate Managerタブに移動し、以下のようにRoot CAセクションを調整します。
+1. Certificate Managerタブに移動し、以下のようにRoot CAセクションを調整します。
 
 |                                                                                             |
 | :-----------------------------------------------------------------------------------------: |

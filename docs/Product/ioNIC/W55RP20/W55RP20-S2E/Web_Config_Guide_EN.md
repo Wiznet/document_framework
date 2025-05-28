@@ -54,7 +54,7 @@ Using a web browser (e.g., Chrome), connect to the web server at port **50003** 
 
 <img src="/img/products/wiz750sr/webserver_config_2.png" width="600" /><br /><br />
 
-|                                                                                            
+                                                                                          
 
 ### Step 3: Exploring the Configuration Feature
 

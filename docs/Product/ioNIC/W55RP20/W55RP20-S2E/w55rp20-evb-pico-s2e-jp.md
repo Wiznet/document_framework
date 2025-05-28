@@ -4,6 +4,7 @@ title: Getting Started with W55RP20-EVB-PICO
 date: 2025-05-27  
 ---
 
+
 -----
 
 ## 概要  
@@ -45,6 +46,7 @@ Bin_Files_VXXXフォルダからApp_linker.uf2とBoot.uf2を1つずつドラッ�
 
 :::tip  
 最初のファイルをドライブにドロップした後、ドライブが消えることがあります。その場合、再度BOOTSELモードに設定し、次のファイルをドライブにドロップしてください。  
+
 :::
 
 ### ステップ2: MACアドレスの書き込み  

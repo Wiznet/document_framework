@@ -59,7 +59,7 @@ date: 2022-06-28
 
 ## How to upload or update the W55RP20-S2E firmware
 
-The W232N provides three ways to upload or update the firmware.
+The W55RP20-S2E provides three ways to upload or update the firmware.
 
 - [Using Config-Tool](./firmware-update-guide-en.md#using-the-configuration-tool) **Application Bank Only**
 - [Using Web-Config](./firmware-update-guide-en.md#using-web-config) **Application Bank Only**

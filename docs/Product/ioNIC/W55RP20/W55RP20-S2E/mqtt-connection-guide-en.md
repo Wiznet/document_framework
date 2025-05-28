@@ -168,7 +168,7 @@ Device is successfully connected to the MQTT broker!
 <br />
 <br />
 
-2. Click the “Things” tab on the left, then hit the orange “Create things” button.
+3. Click the “Things” tab on the left, then hit the orange “Create things” button.
 
 |                                                                                             |
 | :-----------------------------------------------------------------------------------------: |
@@ -179,7 +179,7 @@ Device is successfully connected to the MQTT broker!
 <br />
 
 
-3. Select “Create single thing” and press the Next button.
+4. Select “Create single thing” and press the Next button.
 
 |                                                                                             |
 | :-----------------------------------------------------------------------------------------: |
@@ -190,7 +190,7 @@ Device is successfully connected to the MQTT broker!
 <br />
 
 
-4. Enter “Thing name” and hit the Next button.
+5. Enter “Thing name” and hit the Next button.
 
 |                                                                                             |
 | :-----------------------------------------------------------------------------------------: |
@@ -201,7 +201,7 @@ Device is successfully connected to the MQTT broker!
 <br />
 
 
-5. Select “Auto-generate a new certificate (recommended)” and press the Next button.
+6. Select “Auto-generate a new certificate (recommended)” and press the Next button.
 
 |                                                                                             |
 | :-----------------------------------------------------------------------------------------: |
@@ -212,7 +212,7 @@ Device is successfully connected to the MQTT broker!
 <br />
 
 
-6. Next, you need to create a policy for securing your Thing. Click “Create policy”.
+7. Next, you need to create a policy for securing your Thing. Click “Create policy”.
 
 |                                                                                             |
 | :-----------------------------------------------------------------------------------------: |
@@ -223,7 +223,7 @@ Device is successfully connected to the MQTT broker!
 <br />
 
 
-7. Set a name for the policy, configure the Policy Document as shown, and hit the Create button.
+8. Set a name for the policy, configure the Policy Document as shown, and hit the Create button.
 
 |                                                                                             |
 | :-----------------------------------------------------------------------------------------: |
@@ -234,7 +234,7 @@ Device is successfully connected to the MQTT broker!
 <br />
 
 
-8. Go back to the “Create single thing” page you opened earlier and press the “Create thing” button.
+9. Go back to the “Create single thing” page you opened earlier and press the “Create thing” button.
 
 |                                                                                             |
 | :-----------------------------------------------------------------------------------------: |
@@ -245,7 +245,7 @@ Device is successfully connected to the MQTT broker!
 <br />
 
 
-9. Download all keys and certificates.
+10. Download all keys and certificates.
 
 |                                                                                             |
 | :-----------------------------------------------------------------------------------------: |

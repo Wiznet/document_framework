@@ -24,19 +24,19 @@ The W55RP20 combines WIZnet’s W5500 Ethernet controller and Raspberry Pi’s R
 | 232/485 Select|18|GP12| Low: TTL/RS-232, High: RS-422/485            |
 | Factory RST  | 40|GP18|Reset IP settings (Firmware retained)         |
 
-- RST PinThis pin is used for MCU reset and operates in an Active Low state.
+- RST Pin : This pin is used for MCU reset and operates in an Active Low state.
 
-- BOOT Mode PinDesigned to control the boot mode of the Serial to Ethernet internal firmware.
+- BOOT Mode : PinDesigned to control the boot mode of the Serial to Ethernet internal firmware.
 
-- AT Mode PinOperates as Active Low; controlling this pin allows entry into AT command mode via serial for chip control.
+- AT Mode Pin : Operates as Active Low; controlling this pin allows entry into AT command mode via serial for chip control.
 
-- RP BOOT PinThe reset pin for internal flash memory, operating as Active Low, following the RP2040 boot sequence.
+- RP BOOT Pin : The reset pin for internal flash memory, operating as Active Low, following the RP2040 boot sequence.
 
-- 232/485 Select PinDetermines the communication method based on its state at initial chip operation.
+- 232/485 Select Pin : Determines the communication method based on its state at initial chip operation.
 	- Low: Sets UART or RS-232 mode
 	- High: Sets RS-422 or RS-485 mode
 
-- Factory RST PinResets the IP settings to factory defaults while keeping the firmware unchanged.
+- Factory RST Pin : Resets the IP settings to factory defaults while keeping the firmware unchanged.
 
 ### Data Pin
 
@@ -82,4 +82,4 @@ Initial firmware upload via USB/SWD required. MAC setup essential via WIZnet MAC
 ## Configuration
 Advanced settings and further configurations available using the latest WIZnet Configuration Tool.
 
-  - [Configuration Guide](https://docs.wiznet.io/Product/S2E-Module/Industrial/Config-tool-Guide-en1)
+  - [Configuration Guide](./Config-tool-Guide-en.md)
