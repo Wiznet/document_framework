@@ -128,7 +128,7 @@ date: 2025-05-27
 ## マニュアル
 - [Configツールの使用方法](./Web_Config_Guide-jp.md)
 - [Web設定の使用方法](./Web_Config_Guide-jp.md)
-- [ATコマンドの使用方法](./command-manual-en.md)
+- [ATコマンドの使用方法](./command-manual-jp.md)
 - [MQTT接続方法](./mqtt-connection-guide-jp.md)
 - [SSL接続方法](./ssl-connection-guide-jp.md)
 - [Modbus接続方法](./modbus-connection-guide-jp.md)

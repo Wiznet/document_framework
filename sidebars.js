@@ -243,7 +243,7 @@ module.exports = {
 									items: [
 										'Product/ioNIC/W55RP20/W55RP20-S2E/hw-design-guide-jp',
 										'Product/ioNIC/W55RP20/W55RP20-S2E/Config-tool-Guide-jp',
-										'Product/ioNIC/W55RP20/W55RP20-S2E/command-manual-en',
+										'Product/ioNIC/W55RP20/W55RP20-S2E/command-manual-jp',
 										'Product/ioNIC/W55RP20/W55RP20-S2E/mqtt-connection-guide-jp',
 										'Product/ioNIC/W55RP20/W55RP20-S2E/ssl-connection-guide-jp',
 										'Product/ioNIC/W55RP20/W55RP20-S2E/modbus-connection-guide-jp',
