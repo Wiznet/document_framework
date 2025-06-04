@@ -146,9 +146,9 @@ Recommended maximum ambient temperature of operation is 70C.
 
 - [Download](Overview.md)
 
-### Schematic v1.0
+### Schematic
 
-- [Reference Schematics](Ref.-Schematic.md)
+![W6300-EVB-RP2040](/img/products/w6300-evb-pico/w6300_evb_pico_schematic.png)
 
 ### Schematic & Part list & Gerber File
 
