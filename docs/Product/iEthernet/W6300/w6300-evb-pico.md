@@ -158,13 +158,13 @@ Recommended maximum ambient temperature of operation is 70C.
 
 ![w6300-evb-pico-dimension](/img/products/w6300-evb-pico/dimension-w6300-evb-pico.png)
 
-<!-- ### Firmware Example
+### Firmware Example
 
 Please refer to below links to find firmware example.
 
- C/C++ -->
+ C/C++
 
-  <!-- - [Ethernet Examples](https://github.com/WIZnet-ioNIC/WIZnet-PICO-v6-C) -->
+ - [Ethernet Examples](https://github.com/WIZnet-ioNIC/WIZnet-PICO-C)
   <!-- - [FreeRTOS Examples](https://github.com/Wiznet/RP2040-v6-HAT-FREERTOS-C) -->
 
 ### Certification

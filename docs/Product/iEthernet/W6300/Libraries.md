@@ -12,13 +12,13 @@ will be updated continuously.
 
 -----
 
-## io6Library
+## ioLibrary
 
-<!-- [io6Library](https://github.com/Wiznet/io6Library)  -->
+[ioLibrary_Driver](https://github.com/Wiznet/ioLibrary_Driver) 
 
 **WIZnet ioNIC Project**
 
-<!-- [WIZnet ioNIC](https://github.com/WIZnet-ioNIC/WIZnet-PICO-v6-C) -->
+[WIZnet ioNIC](https://github.com/WIZnet-ioNIC/WIZnet-PICO-C)
 
 **VS Code Guide to Set up & Build**
 

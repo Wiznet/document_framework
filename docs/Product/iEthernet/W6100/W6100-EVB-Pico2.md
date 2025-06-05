@@ -146,7 +146,7 @@ Please refer to below links to find firmware example.
 
  C/C++
 
-  - [Ethernet Examples](https://github.com/WIZnet-ioNIC/WIZnet-PICO-v6-C)
+ - [Ethernet Examples](https://github.com/WIZnet-ioNIC/WIZnet-PICO-C)
   <!-- - [FreeRTOS Examples](https://github.com/Wiznet/RP2040-v6-HAT-FREERTOS-C) -->
 
 ### Certification
