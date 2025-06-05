@@ -66,3 +66,8 @@ WIZ610MJ is the network module that includes W6100 (TCP/IP hardwired chip, inclu
   - 🌎[Go to Github](https://github.com/Wiznet/ioLibrary_Driver)
 
 -----
+
+## 3D File
+
+-   ![](/img/products/w5500/w5500_evb/icons/download.png)
+    <a href="/img/products/3d-step-files/WIZ610MJ.step" target="_blank"> Download</a>

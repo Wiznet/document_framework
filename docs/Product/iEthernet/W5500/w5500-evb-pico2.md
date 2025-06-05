@@ -137,6 +137,11 @@ Recommended maximum ambient temperature of operation is 70C.
 
 - [Go to Github](https://github.com/Wiznet/Hardware-Files-of-WIZnet/tree/master/02_iEthernet/W5500/W5500-EVB-Pico2_V100)
 
+### 3D File
+
+-   ![](/img/products/w5500/w5500_evb/icons/download.png)
+    <a href="/img/products/3d-step-files/W5500-EVB-Pico2_V100.step" target="_blank"> Download</a>
+
 ### Dimension (Unit : mm)
 
 ![Dimension-W5500-EVB-Pico2](/img/products/w5500-evb-pico2/dimension-w5500-evb-pico2.png)

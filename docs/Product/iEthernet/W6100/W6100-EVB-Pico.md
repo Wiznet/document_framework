@@ -130,6 +130,11 @@ TBA
 
 - [Go to Github](https://github.com/Wiznet/Hardware-Files-of-WIZnet/tree/master/02_iEthernet/W6100/W6100-EVB-Pico/W6100-EVB-Pico_V100/Schematic)
 
+### 3D File
+
+-   ![](/img/products/w5500/w5500_evb/icons/download.png)
+    <a href="/img/products/3d-step-files/W6100-EVB-Pico_V101.step" target="_blank"> Download</a>
+
 ### Dimension v1.0 (Unit : mm)
 
 ![w6100-evb-pico-dimension](/img/osh/w6100-evb-pico/w6100-evb-pico-1.0-dimension.png)

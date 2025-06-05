@@ -154,6 +154,11 @@ Recommended maximum ambient temperature of operation is 70C.
 
 - [Go to Github](https://github.com/Wiznet/Hardware-Files-of-WIZnet/tree/master/02_iEthernet/W6300/W6300-EVB-Pico_V100)
 
+### 3D File
+
+-   ![](/img/products/w5500/w5500_evb/icons/download.png)
+    <a href="/img/products/3d-step-files/W6300-EVB-Pico.step" target="_blank"> Download</a>
+
 ### Dimension v1.0 (Unit : mm)
 
 ![w6300-evb-pico-dimension](/img/products/w6300-evb-pico/dimension-w6300-evb-pico.png)

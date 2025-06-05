@@ -370,6 +370,12 @@ When Module working well Blinking every 1.0s </td>
 
 ------------------------------------------------------------------------
 
+## 3D File
+
+| H/W version | Type | Filetype | Download Link                                                | Remarks |
+| ----------- | ---- | -------- | ------------------------------------------------------------ | ------- |
+| 1.0         | TTL  | Altium   | ![](/img/products/w5500/w5500_evb/icons/download.png) <a href="/img/products/3d-step-files/WIZ500SR-RP_V100.step">Download</a> | \-      |
+
 ## Part list
 
 | H/W version | Type | Filetype | Download Link                                                | Remarks |

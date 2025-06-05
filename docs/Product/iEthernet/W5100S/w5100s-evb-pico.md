@@ -168,121 +168,40 @@ TBA
 
 - [Download](https://datasheets.raspberrypi.org/rp2040/rp2040-datasheet.pdf)
 
-
 ### W5100S Datasheet
-
-
-
-
-
-
 
 - [Download](Overview.md)
 
-
-
-
-
-
-
 ### Schematic v1.1
-
-
-
-
-
-
 
 <a target="_blank" href={require('/img/osh/w5100s_evb_pico/w5100s-evb-pico_sch_v110.jpg').default}><img src={require('/img/osh/w5100s_evb_pico/w5100s-evb-pico_sch_v110.jpg').default} alt="W5100S-EVB_Pico_schematic"/></a>
 
-
-
-
-
-
-
 <details>
-
-
-
 <summary>Above image presents schematic for v1.1. If you are looking for schematic of version 1.0, click here.</summary>
-
-
-
 <a target="_blank" href={require('/img/osh/w5100s_evb_pico/w5100S-evb_pico_schematic.png').default}><img src={require('/img/osh/w5100s_evb_pico/w5100S-evb_pico_schematic.png').default} alt="W5100S-EVB_Pico_schematic"/></a>
-
-
-
 </details>
-
-
-
-
-
-
 
 ### Schematic & Part list & Gerber File
 
-
-
-
-
-
-
 - [Go to Github](https://github.com/Wiznet/Hardware-Files-of-WIZnet/tree/master/02_iEthernet/W5100S/W5100S-EVB-Pico)
 
+### 3D File
 
-
-
-
-
+-   ![](/img/products/w5500/w5500_evb/icons/download.png)
+    <a href="/img/products/3d-step-files/W5100S-EVB-Pico_V111.step" target="_blank"> Download</a>
 
 ### Dimension v1.1 (Unit : mm)
 
-
-
-
-
-
-
 <a target="_blank" href={require('/img/osh/w5100s_evb_pico/w5100s-evb-pico-1.1-dimension.png').default}><img src={require('/img/osh/w5100s_evb_pico/w5100s-evb-pico-1.1-dimension.png').default} alt="W5100S-EVB-RP2040_Dimension"/></a>
 
-
-
-
-
-
-
 <details>
-
-
-
 <summary>Above image presents dimension for v1.1. If you are looking for dimension of version 1.0, click here.</summary>
-
-
-
 <a target="_blank" href={require('/img/osh/w5100s_evb_pico/w5100s-evb-pico_dimension.png').default}><img src={require('/img/osh/w5100s_evb_pico/w5100s-evb-pico_dimension.png').default} alt="W5100S-EVB-RP2040_Dimension"/></a>
-
-
-
 </details>
-
-
-
-
-
-
 
 ### Firmware Example
 
-
-
-
-
-
-
 Please refer to below links to find firmware example.
-
 
 - C/C++
   - [Ethernet Examples](https://github.com/WIZnet-ioNIC/WIZnet-PICO-C)

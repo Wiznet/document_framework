@@ -114,6 +114,11 @@ Recommended maximum ambient temperature of operation is 70C.
 
 - [Go to Github](https://github.com/Wiznet/Hardware-Files-of-WIZnet/tree/master/09_ioNIC)
 
+### 3D File
+
+-   ![](/img/products/w5500/w5500_evb/icons/download.png)
+    <a href="/img/products/3d-step-files/WW5RP20-EVB-Pico_V100.step" target="_blank"> Download</a>
+
 ### Dimension (Unit : mm)
 
 ![W5500-EVB-RP2040](/img/products/w55rp20-evb-pico/w55rp20-evb-pico-dimension.png)

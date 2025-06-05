@@ -118,6 +118,13 @@ replacement for WIZ105SR.**
 
 ------------------------------------------------------------------------
 
+## 3D File
+
+| H/W version | Type | Filetype | Download Link | Remarks |
+|-------------|------|----------|---------------|---------|
+| 1.0         | TTL  | Altium   | ![](/img/products/w5500/w5500_evb/icons/download.png) <a href="/img/products/3d-step-files/WIZ750SR-105_V1.0.step" target="_blank">Download</a> | \-      |
+
+
 ## Part list
 
 ### WIZ750SR-105

@@ -111,6 +111,11 @@ Recommended maximum ambient temperature of operation is 70C.
 
 - [Go to Github](https://github.com/Wiznet/Hardware-Files-of-WIZnet/tree/master/02_iEthernet/W5500)
 
+### 3D File
+
+-   ![](/img/products/w5500/w5500_evb/icons/download.png)
+    <a href="/img/products/3d-step-files/W5500-EVB-Pico-PoE_V1.1.step" target="_blank"> Download</a>
+
 ### Dimension (Unit : mil)
 
 ![W5500-EVB-RP2040](/img/products/w5500-evb-pico-poe/W5500-EVB-PoE-Pico-Dimension.png)

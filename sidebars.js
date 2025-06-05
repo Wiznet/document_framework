@@ -1256,7 +1256,7 @@ module.exports = {
 		'Design-Guide/eagle_cad_library_of_wiznet_products',
 		],
 	},
-	{
+	/*{
 		type: 'category',
 		label: 'VAR Products using WIZnet',
 		link: {type: 'doc', id: 'VAR-Products-using-WIZnet/var_products_using_wiznet'},
@@ -1270,6 +1270,6 @@ module.exports = {
 		'VAR-Products-using-WIZnet/w5500CoB_ESoPe',
 		'VAR-Products-using-WIZnet/third_party',	
 		],
-	},
+	},*/
 	],
 }; 

@@ -166,6 +166,12 @@ TCP connection indicate</td>
 
 ------------------------------------------------------------------------
 
+## 3D File
+
+| H/W version | Type | Filetype | Download Link | Remarks |
+|-------------|------|----------|-----------------------------------------------------------------------------------------------------------------------------------------------------------------|---------|
+| 1.1         | TTL  | Altium   | ![](/img/products/w5500/w5500_evb/icons/download.png) <a href="/img/products/3d-step-files/WIZ750SR-100_V1.1.step" target="_blank">Download</a> | \-      |
+
 ## Part list
 
 ### WIZ750SR-100

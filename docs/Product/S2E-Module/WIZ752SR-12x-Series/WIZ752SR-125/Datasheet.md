@@ -488,6 +488,11 @@ Low : Application operating</td>
 
 ------------------------------------------------------------------------
 
+## 3D File
+
+-   ![](/img/products/w5500/w5500_evb/icons/download.png)
+    <a href="/img/products/3d-step-files/WIZ752SR-125_V100.step" target="_blank"> Download</a>
+
 ## Part list
 
 ### WIZ752SR-125

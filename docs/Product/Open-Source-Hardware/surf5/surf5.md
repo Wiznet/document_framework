@@ -117,6 +117,12 @@ Please refer to below links to find firmware example.
   - [FreeRTOS Examples](https://github.com/Wiznet/RP2040-HAT-FREERTOS-C)
   
   -->
+
+### 3D File
+
+-   ![](/img/products/w5500/w5500_evb/icons/download.png)
+    <a href="/img/products/3d-step-files/Surf5_R110.step" target="_blank"> Download</a>
+
 ### Dimension v1.0 (Unit : mm)
 
 <a target="_blank" href={require('/img/osh/surf5/Dimension.png').default}><img src={require('/img/osh/surf5/Dimension.png').default} alt="Surf5_Dimension"/></a>

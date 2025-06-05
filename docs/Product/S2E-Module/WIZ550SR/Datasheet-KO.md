@@ -447,3 +447,8 @@ Source Current</td>
 ![WIZ550SR Dimension](/img/products/wiz550sr/wiz550sr_ds/wiz550sr_dimension.jpg)
 
 -----
+
+## 3D File
+
+-   ![](/img/products/w5500/w5500_evb/icons/download.png)
+    <a href="/img/products/3d-step-files/WIZ550SR_V1.0.step" target="_blank"> Download</a>

@@ -371,6 +371,10 @@ WIZ550io, please refer to [W5500 Datasheet](./../iEthernet/W5500/Datasheet.md).
   - <a href="/img/products/wiz550io/wiz550io_ver1.1_pl_140128_.pdf" target="_blank">WIZ550io Rev1.1 Partlist</a>
   - <a href="/img/products/wiz550io/wiz550io_ver1.2_pl.pdf" target="_blank">WIZ550io Rev1.2 Partlist</a>
 
+## 3D File
+
+-   ![](/img/products/w5500/w5500_evb/icons/download.png)
+    <a href="/img/products/3d-step-files/WIZ550io V1.3.step" target="_blank"> Download</a>
 
 ## Dimension
 

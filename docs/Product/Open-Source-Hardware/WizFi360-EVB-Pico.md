@@ -114,6 +114,11 @@ Apart from GPIO and ground pins, there are 7 other pins on the main 40-pin inter
 
 - [Go to Github](https://github.com/Wiznet/Hardware-Files-of-WIZnet/tree/master/08_OSHW/WizFi360-EVB-Pico)
 
+### 3D File
+
+-   ![](/img/products/w5500/w5500_evb/icons/download.png)
+    <a href="/img/products/3d-step-files/WizFi360-EVB-Pico_V101.step" target="_blank"> Download</a>
+
 ### Dimension (Unit : mm)
 
 ![WizFi360-EVB-Pico_V100_Dimension-1](/img/osh/wizfi360-evb-pico/WizFi360-EVB-Pico_V100_Dimension-1.png)

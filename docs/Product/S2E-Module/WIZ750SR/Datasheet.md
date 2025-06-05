@@ -282,6 +282,32 @@ RS-485</td>
 
 -----
 
+## 3D File
+
+
+<table>
+<thead>
+<tr class="header">
+<th>H/W version</th>
+<th>Type</th>
+<th>Filetype</th>
+<th>Download Link</th>
+<th>Remarks</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>1.2</td>
+<td>TTL<br />
+RS-232<br />
+RS-485</td>
+<td>Altium</td>
+<td><img src="/img/products/w5500/w5500_evb/icons/download.png" /> <a href="/img/products/3d-step-files/WIZ750SR_V1.2.step" target="_blank">Download</a></td>
+<td>-</td>
+</tr>
+</tbody>
+</table>
+
 ## Part list
 
 ### WIZ750SR
