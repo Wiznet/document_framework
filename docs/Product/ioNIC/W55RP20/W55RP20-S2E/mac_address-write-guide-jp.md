@@ -32,7 +32,7 @@ WIZnetのMACアドレスOUIは**00:08:DC**:XX:XX:XXです。
 ## MACアドレスの書き込み方法
 
 MACアドレスの書き込み方法は2通りあります。
-- [WIZMacToolを使用する場合](#WIZMacToolを使用する場合)
+- [WIZMacToolを使用する場合](#wizmactoolを使用する場合)
 - [シリアルコマンドを使用する場合](#シリアルコマンドを使用する場合)
 
 ## WIZMacToolを使用する場合

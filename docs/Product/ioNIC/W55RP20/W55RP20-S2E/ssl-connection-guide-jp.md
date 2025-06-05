@@ -93,7 +93,7 @@ s_server -accept 443 -cert server.crt -key server.key
 | ![](/img/products/s2e_module/wiz5xxsr-rp/ssl_connection_guide/saved_settings.png) |
 | 図: **保存された設定**                                                            |
 
-> **注意**: SSLサーバーに接続するために証明書が必要な場合は、以下の[**「SSLサーバーに接続するために証明書が必要な場合」**](#what-if-i-need-certificates-to-connect-to-ssl-server)セクションを参照してください。
+> **注意**: SSLサーバーに接続するために証明書が必要な場合は、以下の[**「SSLサーバーに接続するために証明書が必要な場合**](#sslサーバーに接続するために証明書が必要な場合)セクションを参照してください。
 
 ### ステップ5: 完了
 W55RP20-S2EはSSLサーバーに正常に接続されました！

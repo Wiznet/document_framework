@@ -32,7 +32,7 @@ date: 2025-05-27
 
 W55RP20-S2Eのファクトリーリセットを行う方法は2つあります。
 
-- [Config-Toolを使用](#Config-Toolを使用)  
+- [Config-Toolを使用](#config-toolを使用)  
 - [ファクトリーリセットスイッチを使用](#ファクトリーリセットスイッチを使用)  
 
 ## Config-Toolを使用
