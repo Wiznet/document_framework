@@ -10,19 +10,25 @@ description: w6300 chip is a Hardwired Internet controller designed as a full ha
 
 ## W6300-EVB-PICO Schematic
 
-<!-- [Go to
-github](https://github.com/Wiznet/Hardware-Files-of-WIZnet/tree/master/02_iEthernet/W6100/Reference%20Schematic)
 
-![](/img/products/w6100/w6100_ref_schematic_v120_use_trans.jpg) -->
+![W6300-EVB-RP2040](/img/products/w6300-evb-pico/w6300_evb_pico_schematic.png)
+
+### Schematic & Part list & Gerber File
+
+- [Go to Github](https://github.com/Wiznet/Hardware-Files-of-WIZnet/tree/master/02_iEthernet/W6300/W6300-EVB-Pico_V100)
+
 
 
 -----
 
 ## W6300-EVB-PICO2 Schematic
 
-<!-- [Go to
-github](https://github.com/Wiznet/Hardware-Files-of-WIZnet/tree/master/02_iEthernet/W6100/Reference%20Schematic)
 
-![](/img/products/w6100/w6100_ref_schematic_v120_use_trans.jpg) -->
+![W6300-EVB-PICO2](/img/products/w6300-evb-pico2/w6300_evb_pico2_schematic.png)
+
+### Schematic & Part list & Gerber File
+
+- [Go to Github](https://github.com/Wiznet/Hardware-Files-of-WIZnet/tree/master/02_iEthernet/W6300/W6300-EVB-Pico2_V100)
+
 
 -----
