@@ -163,3 +163,55 @@ WIZ5xxSR-RP is searched after about 5 seconds in the Configuration Tool after fi
 
 
 -----
+
+## Using USB
+
+### Required Hardware and Software
+
+
+#### Hardware
+
+  - WIZ505SR-RP or WIZ500SR-RP
+  - [WIZ505SR-RP-EVB](./wiz505sr-rp-evb-en.md)
+  - Cables (Ethernet / USB)
+
+
+#### Software
+
+  - [WIZ5XXSR-RP](https://github.com/Wiznet/WIZ5XXSR-RP-C/releases)
+
+### Step 1: Connect the WIZ505SR-RP-EVB to the WIZ5xxSR-RP
+
+Flip the WIZ505SR-RP and directly connect its J2 header to the J6 header on the WIZ505SR-RP-EVB.<br />
+Similarly, for the WIZ500SR-RP, connect its J4 and J5 headers to the J1 and J2 headers on the WIZ505SR-RP-EVB.
+
+### Step 2: Connect WIZ505SR-RP-EVB and PC with USB cable
+
+|                                                                                              |
+| :------------------------------------------------------------------------------------------: |
+| ![](/img/products/s2e_module/wiz505sr-rp/wiz505sr-rp-using-usb.png)                                           |
+| Figure: **USB connection**                                                                   |
+
+### Step 3: Enter Boot mode
+
+While holding down the BOOTSEL (SW1) button on the EVB, press and release the RESET (SW5) button.<br />
+You can see Mass Storage Device named RPI-RP2.
+
+|                                                                                              |
+| :------------------------------------------------------------------------------------------: |
+| ![](/img/products/w55rp20-s2e/w55rp20-s2e-rpi-rp2.png)                                       |
+| Figure: **RPI-RP2**                                                                   |
+
+### Step 4: Flash WIZ5xxSR-RP Firmware
+
+[WIZ5XXSR-RP](https://github.com/Wiznet/WIZ5XXSR-RP-C/releases)<br />
+Drag and drop the Boot.uf2 file from the Bin_Files_VXXX folder onto the USB mass storage device.<br />
+Once it is complete, repeat Step 2 and then drag and drop the App_linker.uf2 file onto the newly appeared USB device.<br />
+<img src="/img/products/w55rp20-s2e/drag-drop.png" width="400" />
+
+### Step 5: Done
+
+Firmware upload or update completed!
+
+WIZ5XXSR-RP is searched after about 5 seconds in the Configuration Tool after firmware upload or update completed.
+
