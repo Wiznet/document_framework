@@ -1,0 +1,46 @@
+---
+id: libraries-w6300-jp
+title: Libraries
+date: 2025-06-11
+---
+
+io6LibraryはWIZnetチップ向けの**「Internet Offload Library」**を意味します。
+このライブラリには、**driver**および**application protocol**が含まれています。IPv6専用であり、W6300のようなデュアルTCP/IPスタックコントローラ用です。io6Libraryは[W6300](overview-jp)のアプリケーション設計に利用できます。
+これらは継続的に更新されます。
+
+-----
+
+## ioLibrary
+
+[ioLibrary_Driver](https://github.com/Wiznet/ioLibrary_Driver) 
+
+**WIZnet ioNIC project**
+
+[WIZnet ioNIC](https://github.com/WIZnet-ioNIC/WIZnet-PICO-C)
+
+**VS Code Setup & Build Guide**
+
+<!-- [VS Codeガイド](make-a-new-projects-vscode.md) --> -->
+
+
+<!-- ## W6300チュートリアルproject
+
+  - **[VS Codeでのビルドガイド](make-a-new-projects-vscode.md)** -->
+
+<!-- 🌎[W6100ループバック](https://maker.wiznet.io/2019/04/30/wiznetw6100evb-loopback-2/)
+
+🌎[W6100 NTP](https://maker.wiznet.io/2019/04/30/wiznetw6100evb-ntp-3/)
+
+🌎[W6100 DNS](https://maker.wiznet.io/2019/04/30/wiznetw6100evb-dns/)
+
+🌎[W6100 FTPサーバー](https://maker.wiznet.io/2019/04/30/wiznetw6100evb-ftpserver/)
+
+🌎[W6100 FTPクライアント](https://maker.wiznet.io/2019/04/30/wiznetw6100evb-ftpc/)
+
+🌎[W6100 IPv6自動構成](https://maker.wiznet.io/2019/04/30/wiznetw6100evb-addressautoconfiguration/)
+
+🌎[W6100 TLS](https://maker.wiznet.io/2019/04/30/wiznetw6100evb-tls/)
+
+🌎[W6100 HTTPサーバー](https://maker.wiznet.io/2019/04/30/wiznetw6100evb-http_server/) -->
+
+-----

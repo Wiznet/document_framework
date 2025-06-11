@@ -266,21 +266,44 @@ module.exports = {
 			link: {type: 'doc', id: 'Product/iEthernet/iethernet'},
 				items: [
 				//'Product/iEthernet/iethernet',
+				
 				{
-				type: 'category',
-				label: 'W6300',
-				link: {type: 'doc', id: 'Product/iEthernet/W6300/w6300'},
-				items: [
-					//'Product/iEthernet/W6300/W6300',
-					'Product/iEthernet/W6300/overview',
-					// 'Product/iEthernet/W6300/application-note',
-					'Product/iEthernet/W6300/document',
-					'Product/iEthernet/W6300/libraries-w6300',
-					// 'Product/iEthernet/W6300/new-project-vscode',
-					'Product/iEthernet/W6300/ref-schematic',
-					'Product/iEthernet/W6300/w6300-evb-pico',
-					'Product/iEthernet/W6300/w6300-evb-pico2',
-				],
+					type: 'category',
+					label: 'W6300',
+					items: [
+						{
+							type: 'category',
+							label: 'W6300 [EN]',
+							link: {type: 'doc', id: 'Product/iEthernet/W6300/w6300'},
+							items: [
+							//'Product/iEthernet/W6300/W6300',
+							'Product/iEthernet/W6300/overview',
+							// 'Product/iEthernet/W6300/application-note',
+							'Product/iEthernet/W6300/document',
+							'Product/iEthernet/W6300/libraries-w6300',
+							// 'Product/iEthernet/W6300/new-project-vscode',
+							'Product/iEthernet/W6300/ref-schematic',
+							'Product/iEthernet/W6300/w6300-evb-pico',
+							'Product/iEthernet/W6300/w6300-evb-pico2',
+							]
+						},
+						{
+							type: 'category',
+							label: 'W6300 [JP]',
+							link: {type: 'doc', id: 'Product/iEthernet/W6300/w6300-jp'},
+							items: [
+							//'Product/iEthernet/W6300/W6300',
+							'Product/iEthernet/W6300/overview-jp',
+							// 'Product/iEthernet/W6300/application-note',
+							'Product/iEthernet/W6300/document-jp',
+							'Product/iEthernet/W6300/libraries-w6300-jp',
+							// 'Product/iEthernet/W6300/new-project-vscode',
+							'Product/iEthernet/W6300/ref-schematic-jp',
+							'Product/iEthernet/W6300/w6300-evb-pico-jp',
+							'Product/iEthernet/W6300/w6300-evb-pico2-jp',
+							]
+						},
+					]
 				},
 				{
 				type: 'category',
