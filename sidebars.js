@@ -278,7 +278,7 @@ module.exports = {
 							items: [
 							//'Product/iEthernet/W6300/W6300',
 							'Product/iEthernet/W6300/overview',
-							// 'Product/iEthernet/W6300/application-note',
+							'Product/iEthernet/W6300/application-note',
 							'Product/iEthernet/W6300/document',
 							'Product/iEthernet/W6300/libraries-w6300',
 							// 'Product/iEthernet/W6300/new-project-vscode',
