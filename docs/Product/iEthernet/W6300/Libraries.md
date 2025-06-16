@@ -18,11 +18,11 @@ will be updated continuously.
 
 ## W6300 Projects(Raspberry Pi Pico)
 
-[Ethernet Examples](https://github.com/WIZnet-ioNIC/WIZnet-PICO-C)
-[FreeRTOS Examples](https://github.com/WIZnet-ioNIC/WIZnet-PICO-FREERTOS-C)
-[AWS Examples](https://github.com/WIZnet-ioNIC/WIZnet-PICO-AWS-C)
-[Azure Examples](https://github.com/WIZnet-ioNIC/WIZnet-PICO-AZURE-C)
-[Chip Performance(iperf3) Examples](https://github.com/WIZnet-ioNIC/WIZnet-PICO-IPERF3-C)
+- [Ethernet Examples](https://github.com/WIZnet-ioNIC/WIZnet-PICO-C)
+- [FreeRTOS Examples](https://github.com/WIZnet-ioNIC/WIZnet-PICO-FREERTOS-C)
+- [AWS Examples](https://github.com/WIZnet-ioNIC/WIZnet-PICO-AWS-C)
+- [Azure Examples](https://github.com/WIZnet-ioNIC/WIZnet-PICO-AZURE-C)
+- [Chip Performance(iperf3) Examples](https://github.com/WIZnet-ioNIC/WIZnet-PICO-IPERF3-C)
 
 <!-- **VS Code Guide to Set up & Build** -->
 
