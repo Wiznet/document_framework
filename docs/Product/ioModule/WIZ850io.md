@@ -33,6 +33,7 @@ to the [W5500 Datasheet](../iEthernet/W5500/Datasheet.md).
    * Support power down mode and Wake-on-LAN function
    * Very small form factor : 23mm x 25mm x 18mm
    * 1 x 6, 2.54mm Pin Header x 2
+   * Temperature : -40 ~ 85℃(Operation)
 
 ### Pin Out
 
