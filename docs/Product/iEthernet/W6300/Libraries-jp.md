@@ -23,16 +23,16 @@ io6LibraryはWIZnetチップ向けの**「Internet Offload Library」**を意味
 - [Chip Performance(iperf3) Examples](https://github.com/WIZnet-ioNIC/WIZnet-PICO-IPERF3-C)
 
 
-**VS Code Setup & Build Guide**
+<!-- **VS Code Setup & Build Guide**
 
-<!-- [VS Codeガイド](make-a-new-projects-vscode.md) --> -->
+[VS Codeガイド](make-a-new-projects-vscode.md) 
 
 
-<!-- ## W6300チュートリアルproject
+## W6300チュートリアルproject
 
-  - **[VS Codeでのビルドガイド](make-a-new-projects-vscode.md)** -->
+  - **[VS Codeでのビルドガイド](make-a-new-projects-vscode.md)**
 
-<!-- 🌎[W6100ループバック](https://maker.wiznet.io/2019/04/30/wiznetw6100evb-loopback-2/)
+🌎[W6100ループバック](https://maker.wiznet.io/2019/04/30/wiznetw6100evb-loopback-2/)
 
 🌎[W6100 NTP](https://maker.wiznet.io/2019/04/30/wiznetw6100evb-ntp-3/)
 

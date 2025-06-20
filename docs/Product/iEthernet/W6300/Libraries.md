@@ -24,16 +24,16 @@ will be updated continuously.
 - [Azure Examples](https://github.com/WIZnet-ioNIC/WIZnet-PICO-AZURE-C)
 - [Chip Performance(iperf3) Examples](https://github.com/WIZnet-ioNIC/WIZnet-PICO-IPERF3-C)
 
-<!-- **VS Code Guide to Set up & Build** -->
+<!-- **VS Code Guide to Set up & Build**
 
-<!-- [VS Code Guide](make-a-new-projects-vscode.md) --> -->
+[VS Code Guide](make-a-new-projects-vscode.md) 
 
 
-<!-- ## W6300 Tutorial Project
+## W6300 Tutorial Project
 
-  - **[Guide To Build in VS Code](make-a-new-projects-vscode.md)** -->
+  - **[Guide To Build in VS Code](make-a-new-projects-vscode.md)**
 
-<!-- 🌎[W6100 Loopback](https://maker.wiznet.io/2019/04/30/wiznetw6100evb-loopback-2/)
+🌎[W6100 Loopback](https://maker.wiznet.io/2019/04/30/wiznetw6100evb-loopback-2/)
 
 🌎[W6100 NTP](https://maker.wiznet.io/2019/04/30/wiznetw6100evb-ntp-3/)
 
@@ -47,7 +47,7 @@ will be updated continuously.
 
 🌎[W6100 TLS](https://maker.wiznet.io/2019/04/30/wiznetw6100evb-tls/)
 
-🌎[W6100 HTTP Server](https://maker.wiznet.io/2019/04/30/wiznetw6100evb-http_server/) -->
+🌎[W6100 HTTP Server](https://maker.wiznet.io/2019/04/30/wiznetw6100evb-http_server/)
 
 -----
-
+ -->

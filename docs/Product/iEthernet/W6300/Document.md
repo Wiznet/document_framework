@@ -9,6 +9,6 @@ description: w6300 chip is a Hardwired Internet controller designed as a full ha
 
 ## Datasheet
 
-English : <a href="/img/products/w6300/W6300 DS_V090E.pdf" target="_blank">W6300 DataSheet v1.0.0</a>
+English : <a href="/img/products/w6300/W6300 DS_V100E.pdf" target="_blank">W6300 DataSheet v1.0.0</a>
 
 -----
