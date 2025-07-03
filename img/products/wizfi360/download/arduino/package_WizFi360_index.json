@@ -1,0 +1,189 @@
+{
+	"packages": [
+		{
+			"maintainer": "WizFi360 Community",
+			"help": {
+				"online": "https://forum.wiznet.io/"
+			},
+			"websiteURL": "https://www.wiznet.io/ko/",
+			"email": "support@wiznet.co.kr",
+			"name": "WizFi360",
+			"platforms": [
+				{
+					"category": "WizFi360",
+					"help": {
+						"online": "https://wizwiki.net/wiki/doku.php/products:wizfi360:start"
+					},
+					"url": "http://wizwiki.net/download/WizFi360/arduino/WizFi360-arduino-0.2.8.zip",
+					"checksum": "SHA-256:87b12e2d0732ecd9ad74fbba3cd266a14a20feb1ec6332fdd8b291a2efe9c5b6",
+					"name": "WizFi360",
+					"version": "0.2.8",
+					"architecture": "WizFi360",
+					"archiveFileName": "WizFi360-arduino-0.2.8.zip",
+					"size": "5192561",
+					"toolsDependencies": [
+						{
+							"packager": "WizFi360",
+							"version": "4_9-2015q1-20150306",
+							"name": "gcc-arm-none-eabi"
+						},
+						{
+							"packager": "WizFi360",
+							"version": "0.2.2",
+							"name": "wmtools"
+						}
+					],
+					"boards": [
+						{ "name": "Generic WizFi360 EV Module" },
+						{ "name": "WizFi360-EVB-mini" },{ "name": "WizFi360-EVB-shield" }
+					]
+				},
+				{
+					"category": "WizFi360",
+					"help": {
+						"online": "https://wizwiki.net/wiki/doku.php/products:wizfi360:start"
+					},
+					"url": "https://dev.tencent.com/u/beewu/p/Download/git/raw/master/w600-arduino-0.2.6.zip",
+					"checksum": "SHA-256:12BC9AF6D30DDF19F08D6B20BA0809CE4B4495BF0707C54E9DF639857BC71F48",
+					"name": "WizFi360",
+					"version": "0.2.6",
+					"architecture": "WizFi360",
+					"archiveFileName": "w600-arduino-0.2.6.zip",
+					"size": "5139729",
+					"toolsDependencies": [
+						{
+							"packager": "WizFi360",
+							"version": "4_9-2015q1-20150306",
+							"name": "gcc-arm-none-eabi"
+						},
+						{
+							"packager": "WizFi360",
+							"version": "0.2.2",
+							"name": "wmtools"
+						}
+					],
+					"boards": [
+						{ "name": "Generic WizFi360 EV Module" },
+						{ "name": "WizFi360-EVB-mini" },{ "name": "WizFi360-EVB-shield" }
+					]
+				},
+				{
+					"category": "WizFi360",
+					"help": {
+						"online": "https://wizwiki.net/wiki/doku.php/products:wizfi360:start"
+					},
+					"url": "https://dev.tencent.com/u/beewu/p/Download/git/raw/master/w600-arduino-0.2.5.zip",
+					"checksum": "SHA-256:B83C79760D26428D72E2E32D25F9149A3AE720C76E846C143C533E9BE41115D0",
+					"name": "WizFi360",
+					"version": "0.2.5",
+					"architecture": "WizFi360",
+					"archiveFileName": "w600-arduino-0.2.5.zip",
+					"size": "5118823",
+					"toolsDependencies": [
+						{
+							"packager": "WizFi360",
+							"version": "4_9-2015q1-20150306",
+							"name": "gcc-arm-none-eabi"
+						},
+						{
+							"packager": "WizFi360",
+							"version": "0.2.2",
+							"name": "wmtools"
+						}
+					],
+					"boards": [
+						{ "name": "Generic WizFi360 EV Module" },
+						{ "name": "WizFi360-EVB-mini" },{ "name": "WizFi360-EVB-shield" }
+					]
+				},
+				{
+					"category": "WizFi360",
+					"help": {
+						"online": "https://wizwiki.net/wiki/doku.php/products:wizfi360:start"
+					},
+					"url": "https://dev.tencent.com/u/beewu/p/Download/git/raw/master/w600-arduino-0.2.4.zip",
+					"checksum": "SHA-256:DDDAFD2BA3C40047AECB803EAE3285A75C9585B097520EE726F4255C4C208289",
+					"name": "WizFi360",
+					"version": "0.2.4",
+					"architecture": "WizFi360",
+					"archiveFileName": "w600-arduino-0.2.4.zip",
+					"size": "5774721",
+					"toolsDependencies": [
+						{
+							"packager": "WizFi360",
+							"version": "4_9-2015q1-20150306",
+							"name": "gcc-arm-none-eabi"
+						},
+						{
+							"packager": "WizFi360",
+							"version": "0.2.2",
+							"name": "wmtools"
+						}
+					],
+					"boards": [
+						{ "name": "Generic WizFi360 EV Module" },
+						{ "name": "WizFi360-EVB-mini" },{ "name": "WizFi360-EVB-shield" }
+					]
+				},
+                {
+					"category": "WizFi360",
+					"help": {
+						"online": "https://wizwiki.net/wiki/doku.php/products:wizfi360:start"
+					},
+					"url": "https://dev.tencent.com/u/beewu/p/Download/git/raw/master/w600-arduino-0.2.2.zip",
+					"checksum": "SHA-256:c33ee7d9fb5888dc358404c1b81752c63bd2a724c8df28bc091f4f39b36616ff",
+					"name": "WizFi360",
+					"version": "0.2.2",
+					"architecture": "WizFi360",
+					"archiveFileName": "w600-arduino-0.2.2.zip",
+					"size": "27929187",
+					"toolsDependencies": [
+						{
+							"packager": "WizFi360",
+							"version": "4_9-2015q1-20150306",
+							"name": "gcc-arm-none-eabi"
+						},
+						{
+							"packager": "WizFi360",
+							"version": "0.2.2",
+							"name": "wmtools"
+						}
+					],
+					"boards": [
+						{ "name": "Generic WizFi360 EV Module" },
+						{ "name": "WizFi360-EVB-mini" },{ "name": "WizFi360-EVB-shield" }
+					]
+				}
+
+			],
+			"tools": [
+				{
+					"version": "0.2.2",
+					"name": "wmtools",
+					"systems": [
+						{
+							"url": "https://download.w600.fun/arduino/wmtools-0.2.2.zip",
+							"checksum": "SHA-256:F428C5D80E848387304E16ADC9569CF5601EF16159527C668975208086A6376B",
+							"host": "i686-mingw32",
+							"archiveFileName": "wmtools-0.2.2.zip",
+							"size": "5874209"
+						}
+					]
+				},
+				{
+					"version": "4_9-2015q1-20150306",
+					"name": "gcc-arm-none-eabi",
+					"systems": [
+						{
+							"url": "https://download.w600.fun/arduino/gcc-arm-none-eabi-arduino-4_9-2015q1-20150306-win32.zip",
+							"checksum": "SHA-256:6C6662813A71B0E3262F6BE77F7BC63CEFD154FE400177040F561A841E7DAFCE",
+							"host": "i686-mingw32",
+							"archiveFileName": "gcc-arm-none-eabi-arduino-4_9-2015q1-20150306-win32.zip",
+							"size": "98594242"
+						}
+					]
+				}
+			]
+		}
+	]
+}
