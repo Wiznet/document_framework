@@ -1,0 +1,48 @@
+WizFi360_SDK-1.0.7.2
+- initial project
+
+WizFi360_SDK_v_1_0_8_0_200929
+- MQTT issue 수정
+- "AT+WIZ_NETCONFIG"를 이용하여, web server를 사용하여 설정 시에 노출되는 WizFi360 SSID 수정
+ -> "AT+CWHOSTNAME"를 이용하여 수정 가능하도록 구현
+- release version 수정
+ -> 1.0.7.2 → 1.0.8.0
+
+WizFi360_SDK_v_1_0_8_0_201005
+- FreeRTOS_read() 함수 안에 delay 주석 처리
+
+WizFi360_SDK_v_1_0_8_4_201019
+- release version 수정
+ -> 1.0.8.0 → 1.0.8.4
+ 
+WizFi360_SDK_v_1_0_8_41_210119
+- MQTT hex data 전송 issue 수정
+ -> "AT+MQTTPUBBUF" AT command 추가(AT+CIPSENDBUF 비슷)
+- MQTT 접속 / 접속 실패 시에 발생하는 response 값 수정
+ -> CONNECT → MQTT CONNECT
+ -> CONNECT FAIL → MQTT CONNECT FAIL
+- release version 수정
+ -> 1.0.8.4 → 1.0.8.41
+ 
+WizFi360_SDK_v_1_0_8_42_210303
+- MQTT receive 시, receive data 함께 receive data length(decimal)가 출력되도록 수정
+ -> e.g. wizfi360/server -> 6:Hello!
+- release version 수정
+ -> 1.0.8.41 → 1.0.8.42
+ 
+WizFi360_SDK_v_1_0_8_43_210416
+- MQTT connect, publish/subscribe timeout 변경
+ -> 10초 → 5초
+- "MQTT Pub ERROR" 후에 실행하던 MQTT close sequence를 "MQTT Pub ERROR" 전에 실행하도록 수정
+- AT_MQTT_YIELD_TASK_STK_SIZE 256 → 512 변경
+- 'AT+MQTTPUBBUF' at_setupCmdMQTTPubbuf() 함수에서 send message 하는 부분 수정
+ -> buffer segment 관련 함수를 사용하지 않도록 수정
+- release version 수정
+ -> 1.0.8.42 → 1.0.8.43
+
+WizFi360_SDK_v_1_0_8_44_230307
+- MQTT connect, publish timeout AT command 추가
+ -> AT+MQTTTO?
+ -> AT+MQTTTO=<timeout>, timeout default 값: 5000, 범위: 5000 ~ 10000, 단위: millisecond  
+- release version 수정
+ -> 1.0.8.43 → 1.0.8.44
