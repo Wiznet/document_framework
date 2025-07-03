@@ -892,7 +892,6 @@ module.exports = {
 				//'Product/Wi-Fi-Module/WizFi360/wizfi360',
 				'Product/Wi-Fi-Module/WizFi360/documents',
 				'Product/Wi-Fi-Module/WizFi360/application_examples',
-				'Product/Wi-Fi-Module/WizFi360/wizfi360_firmware',
 				'Product/Wi-Fi-Module/WizFi360/wizfi360_evb_shield',
 				'Product/Wi-Fi-Module/WizFi360/wizfi360_evb_mini',
 				'Product/Wi-Fi-Module/WizFi360/wizfi360io',
