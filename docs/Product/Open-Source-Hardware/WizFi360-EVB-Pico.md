@@ -10,6 +10,14 @@ keywords:
 description: WizFi360-EVB-Pico made for prototyping and testing Wifi capabilities on RP2040
 ---
 
+:::warning
+**We’ve Moved On!**
+
+This product has been discontinued as part of our ongoing commitment to innovation.
+
+You can still access resources below.
+:::
+
 ## Overview
 
 WizFi360-EVB-Pico is based on Raspberry Pi RP2040 and adds Wi-Fi connectivity using WizFi360. It is pin compatible with Raspberry Pi Pico board and can be used for IoT Solution development.

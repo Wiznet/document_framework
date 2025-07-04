@@ -6,6 +6,16 @@ keywords: [iMCU, ethernet, w7500]
 description: Surf 5 is evaluation board for W7500
 ---
 
+:::warning
+
+**We’ve Moved On!**
+
+This product has been discontinued as part of our ongoing commitment to innovation.
+
+You can still access resources below.
+
+:::
+
 ## Overview
 
 Surf 5 is a microcontroller evaluation board based on the W7500 that can be used with our PoE Modules.

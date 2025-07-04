@@ -4,6 +4,14 @@ title: WizFi360-EVB-Mini
 date: 2020-05-13
 ---
 
+:::warning
+**We’ve Moved On!**
+
+This product has been discontinued as part of our ongoing commitment to innovation.
+
+You can still access resources below.
+:::
+
 ![WizFi360-EVB-Mini](/img/products/wizfi360/board/wizfi360-evb-mini/wizfi360-mini3.png)
 
 ## Overview

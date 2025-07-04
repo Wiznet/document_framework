@@ -4,6 +4,14 @@ title: WIZ812MJ
 date: 2020-04-16
 ---
 
+:::warning
+**We’ve Moved On!**
+
+This product has been discontinued as part of our ongoing commitment to innovation.
+
+You can still access resources below.
+:::
+
 ![](/img/products/wiz812mj/wiz812_web_280.jpg)
 
 ## Overview

@@ -316,13 +316,10 @@ module.exports = {
 					'Product/iEthernet/W6100/driver-basic-project',
 					'Product/iEthernet/W6100/ref-schematic',
 					'Product/iEthernet/W6100/application-note',
-					'Product/iEthernet/W6100/w6100-evb',
+					
 					'Product/iEthernet/W6100/w6100-evb-pico',
 					'Product/iEthernet/W6100/w6100-evb-pico2',
-					'Product/iEthernet/W6100/getting-started-w6100evb',
-					'Product/iEthernet/W6100/new-project-stm32cubeide',
-					'Product/iEthernet/W6100/new-project-truestudio',
-					'Product/iEthernet/W6100/new-project-eclipse',
+					
 				],
 				},
 				{
@@ -351,13 +348,10 @@ module.exports = {
 						'Product/iEthernet/W5100S/Application-Note/dma',
 						],
 					},
-					'Product/iEthernet/W5100S/w5100s-evb',
+					
 					'Product/iEthernet/W5100S/w5100s-evb-pico',
 					'Product/iEthernet/W5100S/w5100s-evb-pico2',
-					'Product/iEthernet/W5100S/w5100s-getting-started',
-					'Product/iEthernet/W5100S/w5100s-projects-stm32cubeide',
-					'Product/iEthernet/W5100S/w5100s-projects-truestudio',
-					'Product/iEthernet/W5100S/w5100s-projects-eclipse',
+					
 				//'Product/iEthernet/W5100S/all_pages',
 				],
 				},
@@ -388,18 +382,7 @@ module.exports = {
 					},
 					//'Product/iEthernet/W5500/all_pages',
 					//'Product/iEthernet/W5500/all_pages_jp',
-					{
-					type: 'category',
-					label: 'W5500-EVB',
-					link: {type: 'doc', id: 'Product/iEthernet/W5500/W5500-EVB/w5500-evb'},
-					items: [
-						//'Product/iEthernet/W5500/W5500-EVB/w5500_evb',
-						'Product/iEthernet/W5500/W5500-EVB/getting-started',
-						'Product/iEthernet/W5500/W5500-EVB/make-new-projects',
-						'Product/iEthernet/W5500/W5500-EVB/how-to-install-and-activate-lpcxpresso',
-						//'Product/iEthernet/W5500/W5500-EVB/w5500-evb_firmware',
-					],
-					},
+					
 					'Product/iEthernet/W5500/w5500-evb-pico',
 					'Product/iEthernet/W5500/W5500-EVB-Pico-PoE',
 					'Product/iEthernet/W5500/w5500-evb-pico2',
@@ -681,29 +664,7 @@ module.exports = {
 						'Product/S2E-Module/WIZ550SR/download',
 						],
 				},
-				{
-					type: 'category',
-					label: 'WIZ550S2E',
-					link: {type: 'doc', id: 'Product/S2E-Module/WIZ550S2E/wiz550s2e'},
-					items: [
-					//'Product/S2E-Module/WIZ550S2E/wiz550s2e',
-					'Product/S2E-Module/WIZ550S2E/datasheet-eng',
-					'Product/S2E-Module/WIZ550S2E/datasheet-kor',
-					'Product/S2E-Module/WIZ550S2E/datasheet-chn',
-					'Product/S2E-Module/WIZ550S2E/programmer-guide-eng',
-					'Product/S2E-Module/WIZ550S2E/programmer-guide-kor',
-					'Product/S2E-Module/WIZ550S2E/programmer-guide-chn',
-					'Product/S2E-Module/WIZ550S2E/at-command-eng',
-					'Product/S2E-Module/WIZ550S2E/at-command-kor',
-					'Product/S2E-Module/WIZ550S2E/at-command-chn',
-					'Product/S2E-Module/WIZ550S2E/configuration-tool-eng', 
-					'Product/S2E-Module/WIZ550S2E/configuration-tool-kor',
-					'Product/S2E-Module/WIZ550S2E/configuration-tool-chn',
-					'Product/S2E-Module/WIZ550S2E/tutorial-eng',
-					'Product/S2E-Module/WIZ550S2E/tutorial-kor',
-					'Product/S2E-Module/WIZ550S2E/download',
-					],
-				},
+				
 				
 			],
 			},		
@@ -730,28 +691,9 @@ module.exports = {
 				//'Product/S2E-Module/wiz107sr_um',
 				
 				'Product/S2E-Module/WIZ110SR/wiz110sr',
-				{
-				type: 'category',
-				label: 'WIZ120SR', // string - the label that should be displayed.
-				link: {type: 'doc', id: 'Product/S2E-Module/WIZ120SR/wiz120sr'},
-				items: [//'Product/S2E-Module/WIZ120SR/wiz120sr',
-						'Product/S2E-Module/WIZ120SR/wiz120sr-evb']
-				},
-				'Product/S2E-Module/WIZ125SR/wiz125sr',
-				{
-				type: 'category',
-				label: 'WIZ140SR', // string - the label that should be displayed.
-				link: {type: 'doc', id: 'Product/S2E-Module/WIZ140SR/wiz140sr'},
-				items: [//'Product/S2E-Module/WIZ140SR/wiz140sr',
-						'Product/S2E-Module/WIZ140SR/wiz140sr-evb']
-				},
-				{
-				type: 'category',
-				label: 'WIZ145SR', // string - the label that should be displayed.
-				link: {type: 'doc', id: 'Product/S2E-Module/WIZ145SR/wiz145sr'},
-				items: [//'Product/S2E-Module/WIZ145SR/wiz145sr',
-						'Product/S2E-Module/WIZ145SR/wiz145sr-evb']
-				},
+				
+				
+				
 			],
 			},
 			{	
@@ -796,7 +738,7 @@ module.exports = {
 					},
 				],
 			},
-			'Product/S2E-Module/wiz1000',
+			
 		//	'Product/S2E-Module/Inustiral',
 		],
 		},
@@ -806,9 +748,9 @@ module.exports = {
 			link: {type: 'doc', id: 'Product/ioModule/iomodule'},
 			items: [
 			//'Product/ioModule/iomodule',
-			'Product/ioModule/W5100S-io',
+			
 			'Product/ioModule/W5500-io',
-			'Product/ioModule/W6100-io',
+			
 			'Product/ioModule/wiz550io',
 			'Product/ioModule/wiz610io',
 			'Product/ioModule/wiz610mj',
@@ -832,40 +774,14 @@ module.exports = {
 			},*/
 			'Product/ioModule/wiz810mj',
 			'Product/ioModule/wiz811mj',
-			'Product/ioModule/wiz812mj',
+			
 			'Product/ioModule/wiz820io',
 			'Product/ioModule/wiz830mj',
 			'Product/ioModule/wiz850io',
 			'Product/ioModule/nm7010b'
 			],
 		},
-		{
-			type: 'category',
-			label: 'App Module',
-			link: {type: 'doc', id: 'Product/App-Module/app-module'},
-			items: [
-			//'Product/App-Module/app_module',
-			{
-			type: 'category',
-			label: 'WIZ550web',
-			link: {type: 'doc', id: 'Product/App-Module/WIZ550web/wiz550web'},
-			items: [
-			//'Product/App-Module/WIZ550web/wiz550web',
-			'Product/App-Module/WIZ550web/datasheet-eng',
-			'Product/App-Module/WIZ550web/datasheet-kor',
-			'Product/App-Module/WIZ550web/getting-started-guide-eng',
-			'Product/App-Module/WIZ550web/getting-started-guide-kor',
-			'Product/App-Module/WIZ550web/users-guide-eng',
-			'Product/App-Module/WIZ550web/users-guide-kor',
-			'Product/App-Module/WIZ550web/future-plan-eng',
-			'Product/App-Module/WIZ550web/future-plan-kor',
-			'Product/App-Module/WIZ550web/tutorials-eng',
-			'Product/App-Module/WIZ550web/tutorials-kor',
-			'Product/App-Module/WIZ550web/download',
-			],
-			}
-			],
-		},
+		
 		{
 			type: 'category',
 			label: 'Wi-Fi Module',
@@ -893,7 +809,6 @@ module.exports = {
 				'Product/Wi-Fi-Module/WizFi360/documents',
 				'Product/Wi-Fi-Module/WizFi360/application_examples',
 				'Product/Wi-Fi-Module/WizFi360/wizfi360_evb_shield',
-				'Product/Wi-Fi-Module/WizFi360/wizfi360_evb_mini',
 				'Product/Wi-Fi-Module/WizFi360/wizfi360io',
 					{
 					type: 'category',
@@ -909,62 +824,7 @@ module.exports = {
 					}
 				],
 			},
-			{
-				type: 'category',
-				label: 'WizFi250',
-				link: {type: 'doc', id: 'Product/Wi-Fi-Module/WizFi250/wizfi250'},
-				items: [
-				//'Product/Wi-Fi-Module/WizFi250/wizfi250',
-				'Product/Wi-Fi-Module/WizFi250/wizfi250_datasheet',
-				'Product/Wi-Fi-Module/WizFi250/wizfi250_programmersguide',
-				'Product/Wi-Fi-Module/WizFi250/wizfi250_quickstart',
-				/*{
-				type: 'category',
-				label: 'Datasheet',
-				items: [
-				'Product/Wi-Fi-Module/WizFi250/Datasheet/1_introduction',
-				'Product/Wi-Fi-Module/WizFi250/Datasheet/2_features',
-				'Product/Wi-Fi-Module/WizFi250/Datasheet/3_block_diagram',
-				'Product/Wi-Fi-Module/WizFi250/Datasheet/4_pin_description',
-				'Product/Wi-Fi-Module/WizFi250/Datasheet/5_technical_specification',
-				'Product/Wi-Fi-Module/WizFi250/Datasheet/6_io_port_characteristics',
-				'Product/Wi-Fi-Module/WizFi250/Datasheet/7_dimensions_weight_and_mounting',
-				'Product/Wi-Fi-Module/WizFi250/Datasheet/8_design_guide',
-				'Product/Wi-Fi-Module/WizFi250/Datasheet/9_recommend_reflow_profile',
-				'Product/Wi-Fi-Module/WizFi250/Datasheet/10_wizfi250_ref_schematic',
-				'Product/Wi-Fi-Module/WizFi250/Datasheet/instruction_to_oem',
-				]
-				},
-				{
-				type: 'category',
-				label: 'Programers Guide',
-				items: [
-				'Product/Wi-Fi-Module/WizFi250/Programers-Guide/overview',
-				'Product/Wi-Fi-Module/WizFi250/Programers-Guide/at_command_set',
-				'Product/Wi-Fi-Module/WizFi250/Programers-Guide/io_pin',
-				'Product/Wi-Fi-Module/WizFi250/Programers-Guide/how_to_use_web_configuration',
-				'Product/Wi-Fi-Module/WizFi250/Programers-Guide/how_to_upgrade_firmware',
-				'Product/Wi-Fi-Module/WizFi250/Programers-Guide/examples_association_disassociation',
-				'Product/Wi-Fi-Module/WizFi250/Programers-Guide/examples_data_communication',
-				'Product/Wi-Fi-Module/WizFi250/Programers-Guide/examples_wifi_direct',
-				'Product/Wi-Fi-Module/WizFi250/Programers-Guide/appendix',
-				]
-				},
-				{
-				type: 'category',
-				label: 'Quick Start Guide',
-				items: [
-				'Product/Wi-Fi-Module/WizFi250/Quick-Start-Guide/1_wizfi250_evaluation_board',
-				'Product/Wi-Fi-Module/WizFi250/Quick-Start-Guide/2_start_serial_to_wi_fi',
-				]
-				},*/
-				'Product/Wi-Fi-Module/WizFi250/comparison',
-				'Product/Wi-Fi-Module/WizFi250/wizfi250_evb_if_fimension',
-				'Product/Wi-Fi-Module/WizFi250/wizfi250_evb_sch',
-				'Product/Wi-Fi-Module/WizFi250/wizfi250_firmware',
-				'Product/Wi-Fi-Module/WizFi250/reference_youtube',
-				],
-			},
+			
 						
 			
 			/*{
@@ -1040,40 +900,7 @@ module.exports = {
 			type: 'category',
 			label: 'Open Source Hardware',
 			link: {type: 'doc', id: 'Product/Open-Source-Hardware/open_source_hardware'},
-			items: [
-			{
-				type: 'category',
-				label: 'W7500 Based',
-				link: {type: 'doc', id: 'Product/Open-Source-Hardware/surf5/w7500-based'},
-				items: [
-					{
-						type: 'category',
-						label: 'Surf 5',
-						link: {type: 'doc', id: 'Product/Open-Source-Hardware/surf5/surf5'},
-						items: [
-							{
-								type: 'category',
-								label: 'Getting Started',
-								link: {type: 'doc', id: 'Product/Open-Source-Hardware/surf5/getting-started/getting-started'},
-								items: [
-									'Product/Open-Source-Hardware/surf5/getting-started/install-usb-driver',
-									'Product/Open-Source-Hardware/surf5/getting-started/flashing-surf5',
-									'Product/Open-Source-Hardware/surf5/getting-started/install-vscode-guide',
-									'Product/Open-Source-Hardware/surf5/getting-started/install-keil-guide',
-									'Product/Open-Source-Hardware/surf5/getting-started/fw-examples',
-									'Product/Open-Source-Hardware/surf5/getting-started/debugger-surf5',
-									'Product/Open-Source-Hardware/surf5/getting-started/surf5-s2e',
-									
-								],
-							},
-						],
-						
-					},
-
-				],
-				//Surf: [	'Product/Open-Source-Hardware/surf5/surf5',	'Product/Open-Source-Hardware/surf5/Errata',	'Product/Open-Source-Hardware/surf5/w7500-based',	'Product/Open-Source-Hardware/surf5/VS_Code_Setup_Guide',],
-			},
-			
+			items: [		
 			{
 				type: 'category',
 				label: 'RP2040 Based',
@@ -1087,7 +914,7 @@ module.exports = {
 					'Product/iEthernet/W5100S/w5100s-evb-pico',
 					'Product/Open-Source-Hardware/wiznet_ethernet_hat',
 					'Product/Open-Source-Hardware/wiznet-pico-poe',
-					'Product/Open-Source-Hardware/wizfi360-evb-pico',
+					
 				]
 			},
 			{
@@ -1109,8 +936,7 @@ module.exports = {
 				label: 'Arduino',
 				link: {type: 'doc', id: 'Product/Open-Source-Hardware/arduino'},
 				items: [
-					'Product/Open-Source-Hardware/w5100s_mkr_ethernet_shield',
-					'Product/Open-Source-Hardware/w6100_mkr_ethernet_shield',
+					
 					'Product/Open-Source-Hardware/wizarduino_m0_eth',
 					'Product/Open-Source-Hardware/wizarduino_m0_eth_eng',
 					'Product/Open-Source-Hardware/wizarduino_mega_wifi',
@@ -1190,35 +1016,130 @@ module.exports = {
 				],
 				},
 				{
+					type: 'category',
+					label: 'App Module',
+					link: {type: 'doc', id: 'Product/App-Module/app-module'},
+					items: [
+					//'Product/App-Module/app_module',
+					{
+					type: 'category',
+					label: 'WIZ550web',
+					link: {type: 'doc', id: 'Product/App-Module/WIZ550web/wiz550web'},
+					items: [
+					//'Product/App-Module/WIZ550web/wiz550web',
+					'Product/App-Module/WIZ550web/datasheet-eng',
+					'Product/App-Module/WIZ550web/datasheet-kor',
+					'Product/App-Module/WIZ550web/getting-started-guide-eng',
+					'Product/App-Module/WIZ550web/getting-started-guide-kor',
+					'Product/App-Module/WIZ550web/users-guide-eng',
+					'Product/App-Module/WIZ550web/users-guide-kor',
+					'Product/App-Module/WIZ550web/future-plan-eng',
+					'Product/App-Module/WIZ550web/future-plan-kor',
+					'Product/App-Module/WIZ550web/tutorials-eng',
+					'Product/App-Module/WIZ550web/tutorials-kor',
+					'Product/App-Module/WIZ550web/download',
+					],
+					}
+					],
+				},
+				{
 					type: "category",
 					label: "S2E / IO Modules",
 					items: [
+	
 						{
-							type: 'category',
-							label: 'WIZ107SR', // string - the label that should be displayed.
-							link: {type: 'doc', id: 'Product/S2E-Module/WIZ107SR/wiz107sr'},
-							items: [//'Product/S2E-Module/WIZ107SR/wiz107sr',
-									'Product/S2E-Module/WIZ107SR/wiz107sr-evb']
-							},
-							{
-							type: 'category',
-							label: 'WIZ108SR', // string - the label that should be displayed.
-							link: {type: 'doc', id: 'Product/S2E-Module/WIZ108SR/wiz108sr'},
-							items: [//'Product/S2E-Module/WIZ108SR/wiz108sr',
-									'Product/S2E-Module/WIZ108SR/wiz108sr-evb']
-							},
+						type: 'category',
+						label: 'WIZ107SR', // string - the label that should be displayed.
+						link: {type: 'doc', id: 'Product/S2E-Module/WIZ107SR/wiz107sr'},
+						items: [//'Product/S2E-Module/WIZ107SR/wiz107sr',
+								'Product/S2E-Module/WIZ107SR/wiz107sr-evb']
+						},
+						{
+						type: 'category',
+						label: 'WIZ108SR', // string - the label that should be displayed.
+						link: {type: 'doc', id: 'Product/S2E-Module/WIZ108SR/wiz108sr'},
+						items: [//'Product/S2E-Module/WIZ108SR/wiz108sr',
+								'Product/S2E-Module/WIZ108SR/wiz108sr-evb']
+						},
+						{
+						type: 'category',
+						label: 'WIZ120SR', // string - the label that should be displayed.
+						link: {type: 'doc', id: 'Product/S2E-Module/WIZ120SR/wiz120sr'},
+						items: [//'Product/S2E-Module/WIZ120SR/wiz120sr',
+								'Product/S2E-Module/WIZ120SR/wiz120sr-evb']
+						},
+						'Product/S2E-Module/WIZ125SR/wiz125sr',
+						{
+						type: 'category',
+						label: 'WIZ140SR', // string - the label that should be displayed.
+						link: {type: 'doc', id: 'Product/S2E-Module/WIZ140SR/wiz140sr'},
+						items: [//'Product/S2E-Module/WIZ140SR/wiz140sr',
+								'Product/S2E-Module/WIZ140SR/wiz140sr-evb']
+						},
+						{
+						type: 'category',
+						label: 'WIZ145SR', // string - the label that should be displayed.
+						link: {type: 'doc', id: 'Product/S2E-Module/WIZ145SR/wiz145sr'},
+						items: [//'Product/S2E-Module/WIZ145SR/wiz145sr',
+								'Product/S2E-Module/WIZ145SR/wiz145sr-evb']
+						},
+						
 						'Product/Obsolete/egsr7100a',
 						'Product/Obsolete/nm7010a',
 						'Product/Obsolete/wiz220io',
 						'Product/Obsolete/wiz220web',
 						'Product/Obsolete/wizsm10',
+						{
+							type: 'category',
+							label: 'WIZ550S2E',
+							link: {type: 'doc', id: 'Product/S2E-Module/WIZ550S2E/wiz550s2e'},
+							items: [
+							//'Product/S2E-Module/WIZ550S2E/wiz550s2e',
+							'Product/S2E-Module/WIZ550S2E/datasheet-eng',
+							'Product/S2E-Module/WIZ550S2E/datasheet-kor',
+							'Product/S2E-Module/WIZ550S2E/datasheet-chn',
+							'Product/S2E-Module/WIZ550S2E/programmer-guide-eng',
+							'Product/S2E-Module/WIZ550S2E/programmer-guide-kor',
+							'Product/S2E-Module/WIZ550S2E/programmer-guide-chn',
+							'Product/S2E-Module/WIZ550S2E/at-command-eng',
+							'Product/S2E-Module/WIZ550S2E/at-command-kor',
+							'Product/S2E-Module/WIZ550S2E/at-command-chn',
+							'Product/S2E-Module/WIZ550S2E/configuration-tool-eng', 
+							'Product/S2E-Module/WIZ550S2E/configuration-tool-kor',
+							'Product/S2E-Module/WIZ550S2E/configuration-tool-chn',
+							'Product/S2E-Module/WIZ550S2E/tutorial-eng',
+							'Product/S2E-Module/WIZ550S2E/tutorial-kor',
+							'Product/S2E-Module/WIZ550S2E/download',
+							],
+						},
 						'Product/Obsolete/wiz850sw',
+						'Product/S2E-Module/wiz1000',
+						'Product/ioModule/W5100S-io',
+						'Product/ioModule/W6100-io',
+						'Product/ioModule/wiz812mj',
 					],
 				},
 				{
 					type: "category",
 					label: "Wi-Fi Modules",
 					items: [
+						{
+							type: 'category',
+							label: 'WizFi250',
+							link: {type: 'doc', id: 'Product/Wi-Fi-Module/WizFi250/wizfi250'},
+							items: [
+							//'Product/Wi-Fi-Module/WizFi250/wizfi250',
+							'Product/Wi-Fi-Module/WizFi250/wizfi250_datasheet',
+							'Product/Wi-Fi-Module/WizFi250/wizfi250_programmersguide',
+							'Product/Wi-Fi-Module/WizFi250/wizfi250_quickstart',
+							'Product/Wi-Fi-Module/WizFi250/comparison',
+							'Product/Wi-Fi-Module/WizFi250/wizfi250_evb_if_fimension',
+							'Product/Wi-Fi-Module/WizFi250/wizfi250_evb_sch',
+							'Product/Wi-Fi-Module/WizFi250/wizfi250_firmware',
+							'Product/Wi-Fi-Module/WizFi250/reference_youtube',
+							],
+						},
+						
 						'Product/Obsolete/wizfi630',
 						'Product/Obsolete/wiz610wi',
 						'Product/Wi-Fi-Module/WizFi630A/wizfi630a',
@@ -1260,6 +1181,81 @@ module.exports = {
 								'Product/Wi-Fi-Module/WizFi210/wizfi210-evb',
 							],	
 						},
+					],
+				},
+				{
+					type: 'category',
+					label: 'Evaluation Boards',
+					items: [
+						{
+						type: 'category',
+						label: 'W6100-EVB',
+						link: {type: 'doc', id: 'Product/iEthernet/W6100/w6100-evb'},
+						items: [
+							'Product/iEthernet/W6100/getting-started-w6100evb',
+							'Product/iEthernet/W6100/new-project-stm32cubeide',
+							'Product/iEthernet/W6100/new-project-truestudio',
+							'Product/iEthernet/W6100/new-project-eclipse',
+						],
+						},
+						{
+						type: 'category',
+						label: 'W5500-EVB',
+						link: {type: 'doc', id: 'Product/iEthernet/W5500/W5500-EVB/w5500-evb'},
+						items: [
+							//'Product/iEthernet/W5500/W5500-EVB/w5500_evb',
+							'Product/iEthernet/W5500/W5500-EVB/getting-started',
+							'Product/iEthernet/W5500/W5500-EVB/make-new-projects',
+							'Product/iEthernet/W5500/W5500-EVB/how-to-install-and-activate-lpcxpresso',
+							//'Product/iEthernet/W5500/W5500-EVB/w5500-evb_firmware',
+						],
+						},
+						{
+						type: 'category',
+						label: 'W5100S-EVB',
+						link: {type: 'doc', id: 'Product/iEthernet/W5100S/w5100s-evb'},
+						items: [
+							'Product/iEthernet/W5100S/w5100s-getting-started',
+							'Product/iEthernet/W5100S/w5100s-projects-stm32cubeide',
+							'Product/iEthernet/W5100S/w5100s-projects-truestudio',
+							'Product/iEthernet/W5100S/w5100s-projects-eclipse',
+						],
+						},
+						
+						
+						'Product/Open-Source-Hardware/wizfi360-evb-pico',
+						'Product/Wi-Fi-Module/WizFi360/wizfi360_evb_mini',
+					],
+				},
+				{
+					type: 'category',
+					label: 'Open Source Hardware',
+					items: [
+						{
+						type: 'category',
+						label: 'Surf 5',
+						link: {type: 'doc', id: 'Product/Open-Source-Hardware/surf5/surf5'},
+						items: [
+							{
+								type: 'category',
+								label: 'Getting Started',
+								link: {type: 'doc', id: 'Product/Open-Source-Hardware/surf5/getting-started/getting-started'},
+								items: [
+									'Product/Open-Source-Hardware/surf5/getting-started/install-usb-driver',
+									'Product/Open-Source-Hardware/surf5/getting-started/flashing-surf5',
+									'Product/Open-Source-Hardware/surf5/getting-started/install-vscode-guide',
+									'Product/Open-Source-Hardware/surf5/getting-started/install-keil-guide',
+									'Product/Open-Source-Hardware/surf5/getting-started/fw-examples',
+									'Product/Open-Source-Hardware/surf5/getting-started/debugger-surf5',
+									'Product/Open-Source-Hardware/surf5/getting-started/surf5-s2e',
+									
+								],
+							},
+						],
+						
+						},
+						'Product/Open-Source-Hardware/w5100s_mkr_ethernet_shield',
+						'Product/Open-Source-Hardware/w6100_mkr_ethernet_shield',
 					],
 				},				
 			],

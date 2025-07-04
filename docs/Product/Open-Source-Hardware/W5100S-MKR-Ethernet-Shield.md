@@ -4,6 +4,16 @@ title: W5100S (MKR-)Ethernet Shield
 date: 2020-04-03
 ---
 
+:::warning
+
+**We’ve Moved On!**
+
+This product has been discontinued as part of our ongoing commitment to innovation.
+
+You can still access resources below.
+
+:::
+
 ## Overview
 
   - **ARM mbed compatible** operation

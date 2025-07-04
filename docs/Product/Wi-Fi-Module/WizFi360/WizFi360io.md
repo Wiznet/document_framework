@@ -4,6 +4,14 @@ title: WizFi360io
 date: 2020-05-13
 ---
 
+:::warning
+**We’ve Moved On!**
+
+This product has been discontinued as part of our ongoing commitment to innovation.
+
+You can still access resources below.
+:::
+
 ## Overview
 
 This page describes the io interface boards using WizFi360. WizFi360io

@@ -4,8 +4,12 @@ title: WizFi250
 date: 2020-05-06
 ---
 
-:::caution
-**Technical support for this product has officially ended.**
+:::warning
+**We’ve Moved On!**
+
+This product has been discontinued as part of our ongoing commitment to innovation.
+
+You can still access resources below.
 :::
 
 ## Overview

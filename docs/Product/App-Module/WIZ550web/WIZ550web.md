@@ -4,6 +4,14 @@ title: WIZ550web
 date: 2020-04-13
 ---
 
+:::warning
+**We’ve Moved On!**
+
+This product has been discontinued as part of our ongoing commitment to innovation.
+
+You can still access resources below.
+:::
+
 ![](/img/products/wiz550web/wiz550web_001_small.png)
 
 ## Overview

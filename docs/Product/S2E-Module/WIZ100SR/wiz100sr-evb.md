@@ -10,6 +10,8 @@ date: 2021-07-21
 **Technical support for this product has officially ended.**
 
 Please check **[WIZ750SR-100](./../WIZ750SR-1xx-Series/WIZ750SR-100/WIZ750SR-100.md)** instead.
+
+Evaluation board for WIZ100SR is discontinued.
 :::
 
 ## Overview

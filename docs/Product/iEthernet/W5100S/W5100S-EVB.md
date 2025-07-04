@@ -6,6 +6,14 @@ keywords: [w5100s,ethernet chip,wiznet,hardwired tcp/ip,arduino ethernet,pico et
 description: W5100S chip is a Hardwired Internet controller designed as a full hardwired TCP/IP stack with WIZnet technology
 ---
 
+:::warning
+**We’ve Moved On!**
+
+This product has been discontinued as part of our ongoing commitment to innovation.
+
+You can still access resources below.
+:::
+
   - W5100S chip development platform for **net-enabled** microcontroller
     applications
   - Ethernet (W5100S Hardwired TCP/IP chip) and 32-bit ARM® Cortex™-M3

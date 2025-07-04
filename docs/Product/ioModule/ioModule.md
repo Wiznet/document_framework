@@ -64,6 +64,7 @@ develop their Internet enabling system rapidly.
 | Operation Temp (℃) | -40 .. 85 | -40 .. 85 | -40 .. 85 | -40 .. 85 | -40 .. 85 |
 | MAC Address | No | No | No | No | No |
 
+
 ### WIZ81xMJ Comparision Table
 
 ![](/img/products/io_module/comparison-table.jpg)
