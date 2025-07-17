@@ -55,7 +55,7 @@ The W55RP20 combines WIZnet’s W5500 Ethernet controller and Raspberry Pi’s R
 
 | Pin      |Pinout|Name| Description                                  |
 |--------------|------|-|-------------------------------------------|
-| RUN            |19|GP19| MCU status LED, blinks when the MCU is operating normally.   |
+| RUN            |41|GP19| MCU status LED, blinks when the MCU is operating normally.   |
 | PHY LINK       |16|GP10| Indicates PHY link status                    |
 | TCP Conectoin  |17|GP11| Indicates active TCP connection     |
 
