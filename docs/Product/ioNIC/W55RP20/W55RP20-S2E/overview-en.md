@@ -71,8 +71,8 @@ The **W55RP20-S2E** is a pre-programmed product with an Serial to Ethernet FW an
 | 6          | AVDD        | TOE Analog 3.3V power                    |
 | 7          | EXRES1      | External Resistor pin<br />Connect a resistor of 12.4KΩ to the AGND.<br />(Refer to the “Reference schematic”)      |
 | 8          | AVDD        | TOE Analog 3.3V power                   |
-| 9          | UART1_TX    | Serial data TX           |
-| 10         | UART1_RX    | Serial data RX         |
+| 9          | UART1_TX / SPI_MOSI | Serial data TX / MOSI pin for Data SPI transmission |
+| 10         | UART1_RX / SPI_CSn  | Serial data RX / SPI Chip Select pin        |
 | 11         | UART1_CTS   | Clear To Send (RX)<br />Associated with the RTS of the connected device and is used to transmit data when the RTS sent from that pin is low.                                                                                                                                            |
 | 12         | UART1_RTS   | Request To Send<br />Connects with the CTS of the connected equipment and sends a low signal when the W55RP20-S2E is in a state where it can receive data.<br /><br />When 485/422 selected by UART_IF_SEL pin, this pin act as 485/422 select pin. <br />NC : 485<br />Low : 422<br /> |
 | 13         | IOVDD       | Digital IO Supply<br />Power supply for digital GPIOs, nominal voltage 3.3V                                                                                                                                                                                                             |
@@ -81,7 +81,7 @@ The **W55RP20-S2E** is a pre-programmed product with an Serial to Ethernet FW an
 | 16         | LINK_STATUS | Link Status signal<br />High : Link<br />Low : UnLink       |
 | 17         | TCP_STATUS  | TCP Connection<br />High : Connect<br />Low : Disconnect        |
 | 18         | UART_IF_SEL | UART Interface select <br /> High : 485/422<br />Low or NC : TTL/232|
-| 19         | RESERVED    | RESERVED PIN                    |
+| 19         | UART_SPI_SEL | UART/SPI interface select pin<br />High:SPI, Low/NC:UART |
 | 20         | HW_TRIG     | AT Command mode pin<br />High : Gateway Mode (default)<br />Low : AT Command Mode<br />Changes will be reflected after reset                                                                                                                                                                |
 | 21         | BOOT_MODE   | Boot Mode pin<br />Low : Enter W55RP20-S2E BOOT mode<br />Changes will be reflected after reset                                                                                                                                                                                           |
 | 22         | TESTEN      | Factory test mode pin<br />Tie to GND.                      |
@@ -108,7 +108,7 @@ The **W55RP20-S2E** is a pre-programmed product with an Serial to Ethernet FW an
 | 43         | IOVDD       | Digital IO Supply<br />Power supply for digital GPIOs, nominal voltage 3.3V    |
 | 44         | XI          | 25MHz crystal input/output<br />A 25MHz crystal and oscillator is used to connect these pins.   |
 | 45         | XO          | 25MHz crystal input/output<br />A 25MHz crystal and oscillator is used to connect these pins.   |
-| 46         | RESERVED    | RESERVED PIN       |
+| 46         | SPI_INT     | SPI Master Recv data pending pin |
 | 47         | RESERVED    | RESERVED PIN        |
 | 48         | RESERVED    | RESERVED PIN          |
 | 49         | RESERVED    | RESERVED PIN          |
@@ -128,9 +128,9 @@ The **W55RP20-S2E** is a pre-programmed product with an Serial to Ethernet FW an
 | 63         | BOOT        | BOOT Pin<br />When power is applied and during reset, if the BOOT pin is low, the device enters BOOTSEL mode.     |
 | 64         | IOVDD       | Digital IO Supply<br />Power supply for digital GPIOs, nominal voltage 3.3V    |
 | 65         | UART0_RX    | Debug RX       |
-| 66         | UART0_TX    | Debug TX        |
-| 67         | RESERVED    | RESERVED PIN       |
-| 68         | RESERVED    | RESERVED PIN       |
+| 66         | UART0_TX    | Debug TX       |
+| 67         | SPI_SCK     | SCK input pin for Data SPI transmission (SPI MODE) |
+| 68         | SPI_MISO    | MISO pin for Data SPI reception (SPI MODE) |
 | 69         | GND    | Ground       |
 
 ****BOOT_MODE pin is for Entering W55RP20-S2E BOOT mode and BOOT pin is for Entering RP2040 core BOOT mode.**
