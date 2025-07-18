@@ -17,7 +17,7 @@
 <link rel="preconnect" href="https://cdn.channel.io">
 <script>!function(){var n=window;if(n.ChannelIO)return(window.console.error||window.console.log||function(){})("ChannelIO script included twice.");var e=function(){e.c(arguments)};function t(){if(!n.ChannelIOInitialized){n.ChannelIOInitialized=!0;var e=document.createElement("script");e.type="text/javascript",e.async=!0,e.src="https://cdn.channel.io/plugin/ch-plugin-web.js",e.charset="UTF-8";var t=document.getElementsByTagName("script")[0];t.parentNode.insertBefore(e,t)}}e.q=[],e.c=function(n){e.q.push(n)},n.ChannelIO=e,"complete"===document.readyState?t():window.attachEvent?window.attachEvent("onload",t):(window.addEventListener("DOMContentLoaded",t,!1),window.addEventListener("load",t,!1))}(),ChannelIO("boot",{pluginKey:"cb95c060-ab4c-45ec-bbe8-fe40a1ea3aec"})</script>
 <script src="https://www.chatbase.co/embed.min.js" chatbotid="mzPtKtrGGxl7KLpJJ_s9j" domain="www.chatbase.co" async defer="defer"></script><link rel="stylesheet" href="/assets/css/styles.d0ee98fb.css">
-<script src="/assets/js/runtime~main.062eaf59.js" defer="defer"></script>
+<script src="/assets/js/runtime~main.cd559f19.js" defer="defer"></script>
 <script src="/assets/js/main.ed4b0feb.js" defer="defer"></script>
 </head>
 <body class="navigation-with-keyboard">
@@ -55,10 +55,15 @@
 </li>
 </ul>
 <h3 class="anchor anchorWithHideOnScrollNavbar_WYt5" id="data-pin">Data Pin<a href="#data-pin" class="hash-link" aria-label="Direct link to Data Pin" title="Direct link to Data Pin">​</a></h3>
+<p><strong>The selection between SPI mode and UART mode can be determined at boot by reading the state of the UART_SPI_SEL pin.</strong></p>
+<table><thead><tr><th>Pin</th><th>Pinout</th><th>Name</th><th>Description</th></tr></thead><tbody><tr><td>UART_SPI_SEL</td><td>19</td><td>GP13</td><td>UART/SPI interface select pin<br>High<!-- -->:SPI<!-- -->, Low/NC<!-- -->:UART</td></tr></tbody></table>
+<p>UART mode</p>
 <table><thead><tr><th>Pin</th><th>Pinout</th><th>Name</th><th>Description</th></tr></thead><tbody><tr><td>UART_TX</td><td>9</td><td>GP4</td><td>UART data transmission.</td></tr><tr><td>UART_RX</td><td>10</td><td>GP5</td><td>UART data reception.</td></tr><tr><td>UART_RTS</td><td>12</td><td>GP7</td><td>UART request to send (flow control)</td></tr><tr><td>UART_CTS</td><td>11</td><td>GP6</td><td>UART clear to send (flow control)</td></tr><tr><td>UART_DTR</td><td>14</td><td>GP8</td><td>UART data terminal ready (flow control)</td></tr><tr><td>UART_DSR</td><td>15</td><td>GP9</td><td>UART data set ready (flow control)</td></tr></tbody></table>
 <ul>
 <li><strong>UART_RTS Pin: UART request to send (flow control); determines communication mode (floating for RS-485, Low for RS-422)</strong></li>
 </ul>
+<p>SPI mode</p>
+<table><thead><tr><th>Pin</th><th>Pinout</th><th>Name</th><th>Description</th></tr></thead><tbody><tr><td>SPI_SCK</td><td>67</td><td>GP2</td><td>SCK input pin for Data SPI transmission</td></tr><tr><td>SPI_MISO</td><td>68</td><td>GP3</td><td>MISO pin for Data SPI reception</td></tr><tr><td>SPI_MOSI</td><td>9</td><td>GP4</td><td>MOSI pin for Data SPI transmission</td></tr><tr><td>SPI_CSn</td><td>10</td><td>GP5</td><td>SPI Chip Select pin</td></tr><tr><td>SPI_INT</td><td>46</td><td>GP26</td><td>SPI Master Recv data pending pin</td></tr></tbody></table>
 <h3 class="anchor anchorWithHideOnScrollNavbar_WYt5" id="led-indicators---status">LED Indicators - Status<a href="#led-indicators---status" class="hash-link" aria-label="Direct link to LED Indicators - Status" title="Direct link to LED Indicators - Status">​</a></h3>
 <table><thead><tr><th>Pin</th><th>Pinout</th><th>Name</th><th>Description</th></tr></thead><tbody><tr><td>RUN</td><td>41</td><td>GP19</td><td>MCU status LED, blinks when the MCU is operating normally.</td></tr><tr><td>PHY LINK</td><td>16</td><td>GP10</td><td>Indicates PHY link status</td></tr><tr><td>TCP Conectoin</td><td>17</td><td>GP11</td><td>Indicates active TCP connection</td></tr></tbody></table>
 <h2 class="anchor anchorWithHideOnScrollNavbar_WYt5" id="firmware-upload">Firmware Upload<a href="#firmware-upload" class="hash-link" aria-label="Direct link to Firmware Upload" title="Direct link to Firmware Upload">​</a></h2>
