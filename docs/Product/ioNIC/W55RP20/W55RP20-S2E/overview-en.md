@@ -18,7 +18,7 @@ The **W55RP20-S2E** is a pre-programmed product with an Serial to Ethernet FW an
 
 
 
-  - With this product, it is possible to **easily add an Ethernet networking function to a device supporting UART interface**, the
+  - With this product, it is possible to **easily add an Ethernet networking function to a device supporting UART/SPI interface**, the
     devices can be controlled via an Ethernet network - Internet.
 
  
@@ -30,7 +30,7 @@ The **W55RP20-S2E** is a pre-programmed product with an Serial to Ethernet FW an
 
 **The following key features are included with the W55RP20-S2E product.**
   - 10/100Mbps Ethernet & Up to 921,600bps serial speed
-  - Easy to add Ethernet networking function through UART interface
+  - Easy to add Ethernet networking function through UART or SPI interface
         of any device / MCU
   - Support **RS-232C** and **RS-422/485** if an external circuit is configured.
   - Status pins: PHY link status / TCP connection status / Run status
