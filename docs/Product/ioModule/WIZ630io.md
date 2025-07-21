@@ -42,7 +42,7 @@ WIZ630io is the network module that includes W6300 (TCP/IP hardwired chip, inclu
 
 ### Pin Out
 
-![WIZ630io Pinmap](/img/products/wiz630io/WIZ630io_pin_out.png)  
+![WIZ630io Pinmap](/img/products/wiz630io/WIZ630io_pin_out_1.png)  
 
 -----
 
