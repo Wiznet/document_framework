@@ -377,6 +377,6 @@ PC IP: 192.168.**11**.3 (another IP address in the same Class C private IP band)
 - This function allows the device to automatically send a predefined string over the Ethernet interface when a TCP or UDP connection is established.  
 - Available in WIZnet-S2E-Tool-GUI version 1.5.7 or later and firmware version 1.1.8 or later.
 - When the Ethernet connection is established, the configured string (up to 30 characters) is transmitted to the remote host.
-- Connect data  
+- Connect data
   - Specifies the string to send automatically over Ethernet upon successful TCP or UDP connection.
   
