@@ -17,7 +17,7 @@
 <link rel="preconnect" href="https://cdn.channel.io">
 <script>!function(){var n=window;if(n.ChannelIO)return(window.console.error||window.console.log||function(){})("ChannelIO script included twice.");var e=function(){e.c(arguments)};function t(){if(!n.ChannelIOInitialized){n.ChannelIOInitialized=!0;var e=document.createElement("script");e.type="text/javascript",e.async=!0,e.src="https://cdn.channel.io/plugin/ch-plugin-web.js",e.charset="UTF-8";var t=document.getElementsByTagName("script")[0];t.parentNode.insertBefore(e,t)}}e.q=[],e.c=function(n){e.q.push(n)},n.ChannelIO=e,"complete"===document.readyState?t():window.attachEvent?window.attachEvent("onload",t):(window.addEventListener("DOMContentLoaded",t,!1),window.addEventListener("load",t,!1))}(),ChannelIO("boot",{pluginKey:"cb95c060-ab4c-45ec-bbe8-fe40a1ea3aec"})</script>
 <script src="https://www.chatbase.co/embed.min.js" chatbotid="mzPtKtrGGxl7KLpJJ_s9j" domain="www.chatbase.co" async defer="defer"></script><link rel="stylesheet" href="/assets/css/styles.d0ee98fb.css">
-<script src="/assets/js/runtime~main.506e0d7a.js" defer="defer"></script>
+<script src="/assets/js/runtime~main.b24e3db2.js" defer="defer"></script>
 <script src="/assets/js/main.ed4b0feb.js" defer="defer"></script>
 </head>
 <body class="navigation-with-keyboard">
@@ -147,11 +147,10 @@
 <h4 class="anchor anchorWithHideOnScrollNavbar_WYt5" id="ethernet-command-examples">Ethernet Command Examples<a href="#ethernet-command-examples" class="hash-link" aria-label="Direct link to Ethernet Command Examples" title="Direct link to Ethernet Command Examples">​</a></h4>
 <h5 class="anchor anchorWithHideOnScrollNavbar_WYt5" id="example-1-udp-get-command-frame">Example #1: UDP Get Command Frame<a href="#example-1-udp-get-command-frame" class="hash-link" aria-label="Direct link to Example #1: UDP Get Command Frame" title="Direct link to Example #1: UDP Get Command Frame">​</a></h5>
 <ul>
-<li>When requesting MAC and local IP from multiple devices via UDP<!-- -->
+<li>
+<p>When requesting MAC and local IP from multiple devices via UDP</p>
 <ul>
 <li>Search ID is not used</li>
-</ul>
-</li>
 </ul>
 <table><thead><tr><th>Request from User</th></tr></thead></table>
 <p><strong>Command Frame</strong></p>
@@ -166,13 +165,14 @@
 <p>MA [00 08 DC 00 00 11] [CR] [LF] PW [ ] [CR] [LF] MC [00 08 DC 00 00 11] [CR] [LF] LI [192.168.11.2] [CR] [LF]</p>
 <p><strong>Hex code version of Command Frame</strong></p>
 <p>4D 41 00 08 DC 00 00 11 0D 0A 50 57 20 0D 0A 4D 43 00 08 DC 00 00 11 0D 0A 4C 49 31 39 32 2E 31 36 38 2E 31 31 2E 32 0D 0A</p>
+</li>
+</ul>
 <h5 class="anchor anchorWithHideOnScrollNavbar_WYt5" id="example-2-tcp-get-command-frame">Example #2: TCP Get Command Frame<a href="#example-2-tcp-get-command-frame" class="hash-link" aria-label="Direct link to Example #2: TCP Get Command Frame" title="Direct link to Example #2: TCP Get Command Frame">​</a></h5>
 <ul>
-<li>When requesting the local IP of the device, which MAC address is 00:08:DC:00:00:11, via TCP<!-- -->
+<li>
+<p>When requesting the local IP of the device, which MAC address is 00:08:DC:00:00:11, via TCP</p>
 <ul>
 <li>Search ID is not used</li>
-</ul>
-</li>
 </ul>
 <table><thead><tr><th>Request from User</th></tr></thead></table>
 <p><strong>Command Frame</strong></p>
@@ -184,14 +184,15 @@
 <p>MA [00 08 DC 00 00 11] [CR] [LF] PW [ ] [CR] [LF] LI [192.168.11.2] [CR] [LF]</p>
 <p><strong>Hex code version of Command Frame</strong></p>
 <p>4D 41 00 08 DC 00 00 11 0D 0A 50 57 20 0D 0A 4C 49 31 39 32 2E 31 36 38 2E 31 31 2E 32 0D 0A</p>
+</li>
+</ul>
 <h5 class="anchor anchorWithHideOnScrollNavbar_WYt5" id="example-3-tcp-set-command-frame">Example #3: TCP Set Command Frame<a href="#example-3-tcp-set-command-frame" class="hash-link" aria-label="Direct link to Example #3: TCP Set Command Frame" title="Direct link to Example #3: TCP Set Command Frame">​</a></h5>
 <ul>
-<li>When requesting the local IP of the device, which MAC address is 00:08:DC:00:00:11, via TCP<!-- -->
+<li>
+<p>When requesting the local IP of the device, which MAC address is 00:08:DC:00:00:11, via TCP</p>
 <ul>
 <li>If the Search ID is set to HELLO</li>
 <li>Or if user wishes to change the local IP to 192.168.11.5</li>
-</ul>
-</li>
 </ul>
 <table><thead><tr><th>Request from User</th></tr></thead></table>
 <p><strong>Command Frame</strong></p>
@@ -201,6 +202,8 @@
 <table><thead><tr><th>Response by W55RP20-S2E</th></tr></thead></table>
 <p>None</p>
 <p><strong>When modifying the IP address format, &#x27;.&#x27;(dot, 0x2E) must be included such as the &#x27;192.168.11.5&#x27;.</strong></p>
+</li>
+</ul>
 <hr>
 <h2 class="anchor anchorWithHideOnScrollNavbar_WYt5" id="command-list">Command list<a href="#command-list" class="hash-link" aria-label="Direct link to Command list" title="Direct link to Command list">​</a></h2>
 <ul>
@@ -1404,6 +1407,111 @@ Keep-alive packet transmission becomes active only when at least one Ethernet da
 <ul>
 <li>No response</li>
 <li>Change TCP client reconnection interval value</li>
+</ul>
+</li>
+</ul>
+<hr>
+<h4 class="anchor anchorWithHideOnScrollNavbar_WYt5" id="sd">SD<a href="#sd" class="hash-link" aria-label="Direct link to SD" title="Direct link to SD">​</a></h4>
+<hr>
+<ul>
+<li>
+<p><strong>Format:</strong> <code>SD&lt;Parameter&gt;[CR][LF]</code></p>
+</li>
+<li>
+<p><strong>Meaning:</strong> String to be sent to the serial port upon TCP/UDP connection (Connect message)</p>
+</li>
+<li>
+<p><strong>Command Type:</strong> Read / Write</p>
+</li>
+<li>
+<p><strong>Parameter / Return Type:</strong> String (max 30 characters)</p>
+</li>
+<li>
+<p><strong>Parameter / Return Value:</strong></p>
+<p>Not set or empty: Not used<br>
+<!-- -->Other: Designated character</p>
+<p>A user-defined string to be sent to the serial interface when a TCP or UDP connection is established</p>
+</li>
+<li>
+<p><strong>Response</strong></p>
+<p><strong>Without Parameter (Get)</strong></p>
+<ul>
+<li>In ASCII: <code>SDconnect\r\n</code></li>
+</ul>
+<p><strong>With Parameter (Set)</strong></p>
+<ul>
+<li>No response</li>
+<li>Change the connect message to be sent via serial port on Ethernet connection</li>
+</ul>
+</li>
+</ul>
+<hr>
+<h4 class="anchor anchorWithHideOnScrollNavbar_WYt5" id="dd">DD<a href="#dd" class="hash-link" aria-label="Direct link to DD" title="Direct link to DD">​</a></h4>
+<hr>
+<ul>
+<li>
+<p><strong>Format:</strong> <code>DD&lt;Parameter&gt;[CR][LF]</code></p>
+</li>
+<li>
+<p><strong>Meaning:</strong> String to be sent to the serial port upon TCP/UDP connection (Disconnect message)</p>
+</li>
+<li>
+<p><strong>Command Type:</strong> Read / Write</p>
+</li>
+<li>
+<p><strong>Parameter / Return Type:</strong> String (max 30 characters)</p>
+</li>
+<li>
+<p><strong>Parameter / Return Value:</strong></p>
+<p>Not set or empty: Not used<br>
+<!-- -->Other: Designated character</p>
+<p>A user-defined string to be sent to the serial interface when a TCP or UDP connection is closed</p>
+</li>
+<li>
+<p><strong>Response</strong></p>
+<p><strong>Without Parameter (Get)</strong></p>
+<ul>
+<li>In ASCII: <code>DDdisconnect\r\n</code></li>
+</ul>
+<p><strong>With Parameter (Set)</strong></p>
+<ul>
+<li>No response</li>
+<li>Change the disconnect message that will be sent to the serial port when the Ethernet connection is closed</li>
+</ul>
+</li>
+</ul>
+<hr>
+<h4 class="anchor anchorWithHideOnScrollNavbar_WYt5" id="se">SE<a href="#se" class="hash-link" aria-label="Direct link to SE" title="Direct link to SE">​</a></h4>
+<hr>
+<ul>
+<li>
+<p><strong>Format:</strong> <code>SE&lt;Parameter&gt;[CR][LF]</code></p>
+</li>
+<li>
+<p><strong>Meaning:</strong> String to be sent over Ethernet upon TCP/UDP connection (Connect message)</p>
+</li>
+<li>
+<p><strong>Command Type:</strong> Read / Write</p>
+</li>
+<li>
+<p><strong>Parameter / Return Type:</strong> String (max 30 characters)</p>
+</li>
+<li>
+<p><strong>Parameter / Return Value:</strong></p>
+<p>Not set or empty: Not used<br>
+<!-- -->Other: Designated character</p>
+<p>A user-defined string to be sent over Ethernet when a TCP or UDP connection is established</p>
+</li>
+<li>
+<p><strong>Response</strong></p>
+<p><strong>Without Parameter (Get)</strong></p>
+<ul>
+<li>In ASCII: <code>SEconnect\r\n</code></li>
+</ul>
+<p><strong>With Parameter (Set)</strong></p>
+<ul>
+<li>No response</li>
+<li>Change the connect message to be sent over Ethernet on connection establishment</li>
 </ul>
 </li>
 </ul>

@@ -17,7 +17,7 @@
 <link rel="preconnect" href="https://cdn.channel.io">
 <script>!function(){var n=window;if(n.ChannelIO)return(window.console.error||window.console.log||function(){})("ChannelIO script included twice.");var e=function(){e.c(arguments)};function t(){if(!n.ChannelIOInitialized){n.ChannelIOInitialized=!0;var e=document.createElement("script");e.type="text/javascript",e.async=!0,e.src="https://cdn.channel.io/plugin/ch-plugin-web.js",e.charset="UTF-8";var t=document.getElementsByTagName("script")[0];t.parentNode.insertBefore(e,t)}}e.q=[],e.c=function(n){e.q.push(n)},n.ChannelIO=e,"complete"===document.readyState?t():window.attachEvent?window.attachEvent("onload",t):(window.addEventListener("DOMContentLoaded",t,!1),window.addEventListener("load",t,!1))}(),ChannelIO("boot",{pluginKey:"cb95c060-ab4c-45ec-bbe8-fe40a1ea3aec"})</script>
 <script src="https://www.chatbase.co/embed.min.js" chatbotid="mzPtKtrGGxl7KLpJJ_s9j" domain="www.chatbase.co" async defer="defer"></script><link rel="stylesheet" href="/assets/css/styles.d0ee98fb.css">
-<script src="/assets/js/runtime~main.506e0d7a.js" defer="defer"></script>
+<script src="/assets/js/runtime~main.b24e3db2.js" defer="defer"></script>
 <script src="/assets/js/main.ed4b0feb.js" defer="defer"></script>
 </head>
 <body class="navigation-with-keyboard">
@@ -1404,6 +1404,111 @@ Keep-alive packet transmission becomes active only when at least one Ethernet da
 <ul>
 <li>No response</li>
 <li>Change TCP client reconnection interval value</li>
+</ul>
+</li>
+</ul>
+<hr>
+<h4 class="anchor anchorWithHideOnScrollNavbar_WYt5" id="sd">SD<a href="#sd" class="hash-link" aria-label="Direct link to SD" title="Direct link to SD">​</a></h4>
+<hr>
+<ul>
+<li>
+<p><strong>Format:</strong> <code>SD&lt;Parameter&gt;[CR][LF]</code></p>
+</li>
+<li>
+<p><strong>Meaning:</strong> String to be sent to the serial port upon TCP/UDP connection (Connect message)</p>
+</li>
+<li>
+<p><strong>Command Type:</strong> Read / Write</p>
+</li>
+<li>
+<p><strong>Parameter / Return Type:</strong> String (max 30 characters)</p>
+</li>
+<li>
+<p><strong>Parameter / Return Value:</strong></p>
+<p>Not set or empty: Not used<br>
+<!-- -->Other: Designated character</p>
+<p>A user-defined string to be sent to the serial interface when a TCP or UDP connection is established</p>
+</li>
+<li>
+<p><strong>Response</strong></p>
+<p><strong>Without Parameter (Get)</strong></p>
+<ul>
+<li>In ASCII: <code>SDconnect\r\n</code></li>
+</ul>
+<p><strong>With Parameter (Set)</strong></p>
+<ul>
+<li>No response</li>
+<li>Change the connect message to be sent via serial port on Ethernet connection</li>
+</ul>
+</li>
+</ul>
+<hr>
+<h4 class="anchor anchorWithHideOnScrollNavbar_WYt5" id="dd">DD<a href="#dd" class="hash-link" aria-label="Direct link to DD" title="Direct link to DD">​</a></h4>
+<hr>
+<ul>
+<li>
+<p><strong>Format:</strong> <code>DD&lt;Parameter&gt;[CR][LF]</code></p>
+</li>
+<li>
+<p><strong>Meaning:</strong> String to be sent to the serial port upon TCP/UDP connection (Disconnect message)</p>
+</li>
+<li>
+<p><strong>Command Type:</strong> Read / Write</p>
+</li>
+<li>
+<p><strong>Parameter / Return Type:</strong> String (max 30 characters)</p>
+</li>
+<li>
+<p><strong>Parameter / Return Value:</strong></p>
+<p>Not set or empty: Not used<br>
+<!-- -->Other: Designated character</p>
+<p>A user-defined string to be sent to the serial interface when a TCP or UDP connection is closed</p>
+</li>
+<li>
+<p><strong>Response</strong></p>
+<p><strong>Without Parameter (Get)</strong></p>
+<ul>
+<li>In ASCII: <code>DDdisconnect\r\n</code></li>
+</ul>
+<p><strong>With Parameter (Set)</strong></p>
+<ul>
+<li>No response</li>
+<li>Change the disconnect message that will be sent to the serial port when the Ethernet connection is closed</li>
+</ul>
+</li>
+</ul>
+<hr>
+<h4 class="anchor anchorWithHideOnScrollNavbar_WYt5" id="se">SE<a href="#se" class="hash-link" aria-label="Direct link to SE" title="Direct link to SE">​</a></h4>
+<hr>
+<ul>
+<li>
+<p><strong>Format:</strong> <code>SE&lt;Parameter&gt;[CR][LF]</code></p>
+</li>
+<li>
+<p><strong>Meaning:</strong> String to be sent over Ethernet upon TCP/UDP connection (Connect message)</p>
+</li>
+<li>
+<p><strong>Command Type:</strong> Read / Write</p>
+</li>
+<li>
+<p><strong>Parameter / Return Type:</strong> String (max 30 characters)</p>
+</li>
+<li>
+<p><strong>Parameter / Return Value:</strong></p>
+<p>Not set or empty: Not used<br>
+<!-- -->Other: Designated character</p>
+<p>A user-defined string to be sent over Ethernet when a TCP or UDP connection is established</p>
+</li>
+<li>
+<p><strong>Response</strong></p>
+<p><strong>Without Parameter (Get)</strong></p>
+<ul>
+<li>In ASCII: <code>SEconnect\r\n</code></li>
+</ul>
+<p><strong>With Parameter (Set)</strong></p>
+<ul>
+<li>No response</li>
+<li>Change the connect message to be sent over Ethernet on connection establishment</li>
 </ul>
 </li>
 </ul>
