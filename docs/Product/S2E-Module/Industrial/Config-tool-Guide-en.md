@@ -272,7 +272,7 @@ PC IP: 192.168.**11**.3 (another IP address in the same Class C private IP band)
     - ATMODE : Serial AT Command Mode Status
     - UDP : UDP Mode Status
   - Serial Interface
-    - The type of serial interface
+    - The type of serial interface(W232N is only support RS232).
 
 #### 2) Operation mode
   - Set the device's network behavior mode
