@@ -1,9 +1,9 @@
 ---
 id: Config-tool-Guide-en
-title: Config tool Guide
+title: Config tool Guide-[EN]
 date: 2024-10-04
 keywords: [wiznet, w55rp20,w232n datasheet, hardwired tcp/ip,serial-to-ethernet, w5500, rp2040]
-
+description: W232N is a industrial serial to Ethernet module using the W55RP20
 ---
 
 ## Overview
@@ -153,7 +153,7 @@ PC IP: 192.168.**11**.3 (another IP address in the same Class C private IP band)
 ### ⑥ General options
 
   - Viewing and changing product details settings
-  - Configure with Preferences Basic settings / Options / MQTT Options / Certificate Manager tab (as of W55RP20-S2E)
+  - Configure with Preferences Basic settings / Options / MQTT Options / Certificate Manager tab (as of W232N)
     |                                                                                      |
     | ------------------------------------------------------------------------------------ |
     | ![](/img/products/s2e_module/wiz5xxsr-rp/configuration_tool_manual/basic_settings_tab.png) |
