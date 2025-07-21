@@ -216,29 +216,29 @@ The two additional commands are **MA** and **PW**.
   - When requesting MAC and local IP from multiple devices via UDP
     - Search ID is not used
 
-| Request from User |
-| ----------------- |
+    | Request from User |
+    | ----------------- |
 
-**Command Frame**
+    **Command Frame**
 
-    MA [FF FF FF FF FF FF] [CR] [LF] PW [ ] [CR] [LF] MC [CR] [LF] LI [CR] [LF]
+        MA [FF FF FF FF FF FF] [CR] [LF] PW [ ] [CR] [LF] MC [CR] [LF] LI [CR] [LF]
 
-**Hex code version of Command Frame**
+    **Hex code version of Command Frame**
 
-    4D 41 FF FF FF FF FF FF 0D 0A 50 57 20 0D 0A 4D 43 0D 0A 4C 49 0D 0A
+        4D 41 FF FF FF FF FF FF 0D 0A 50 57 20 0D 0A 4D 43 0D 0A 4C 49 0D 0A
 
-| Response by W55RP20-S2E |
-| ----------------------- |
+    | Response by W55RP20-S2E |
+    | ----------------------- |
 
-1. The response for ‘Get Request’ has the same form as ‘Set Request’.
+    1. The response for ‘Get Request’ has the same form as ‘Set Request’.
 
-**Command Frame**
+    **Command Frame**
 
-    MA [00 08 DC 00 00 11] [CR] [LF] PW [ ] [CR] [LF] MC [00 08 DC 00 00 11] [CR] [LF] LI [192.168.11.2] [CR] [LF]
+        MA [00 08 DC 00 00 11] [CR] [LF] PW [ ] [CR] [LF] MC [00 08 DC 00 00 11] [CR] [LF] LI [192.168.11.2] [CR] [LF]
 
-**Hex code version of Command Frame**
+    **Hex code version of Command Frame**
 
-    4D 41 00 08 DC 00 00 11 0D 0A 50 57 20 0D 0A 4D 43 00 08 DC 00 00 11 0D 0A 4C 49 31 39 32 2E 31 36 38 2E 31 31 2E 32 0D 0A
+        4D 41 00 08 DC 00 00 11 0D 0A 50 57 20 0D 0A 4D 43 00 08 DC 00 00 11 0D 0A 4C 49 31 39 32 2E 31 36 38 2E 31 31 2E 32 0D 0A
 
 
 
@@ -247,27 +247,27 @@ The two additional commands are **MA** and **PW**.
   - When requesting the local IP of the device, which MAC address is 00:08:DC:00:00:11, via TCP
     - Search ID is not used
 
-| Request from User |
-| ----------------- |
+    | Request from User |
+    | ----------------- |
 
-**Command Frame**
+    **Command Frame**
 
-    MA [00 08 DC 00 00 11] [CR] [LF] PW [ ] [CR] [LF] LI [CR] [LF]
+        MA [00 08 DC 00 00 11] [CR] [LF] PW [ ] [CR] [LF] LI [CR] [LF]
 
-**Hex code version of Command Frame**
+    **Hex code version of Command Frame**
 
-    4D 41 00 08 DC 00 00 11 0D 0A 50 57 20 0D 0A 4C 49 0D 0A
+        4D 41 00 08 DC 00 00 11 0D 0A 50 57 20 0D 0A 4C 49 0D 0A
 
-| Response by W55RP20-S2E |
-| ----------------------- |
+    | Response by W55RP20-S2E |
+    | ----------------------- |
 
-**Command Frame**
+    **Command Frame**
 
-    MA [00 08 DC 00 00 11] [CR] [LF] PW [ ] [CR] [LF] LI [192.168.11.2] [CR] [LF]
+        MA [00 08 DC 00 00 11] [CR] [LF] PW [ ] [CR] [LF] LI [192.168.11.2] [CR] [LF]
 
-**Hex code version of Command Frame**
+    **Hex code version of Command Frame**
 
-    4D 41 00 08 DC 00 00 11 0D 0A 50 57 20 0D 0A 4C 49 31 39 32 2E 31 36 38 2E 31 31 2E 32 0D 0A
+        4D 41 00 08 DC 00 00 11 0D 0A 50 57 20 0D 0A 4C 49 31 39 32 2E 31 36 38 2E 31 31 2E 32 0D 0A
 
 
 
@@ -277,23 +277,23 @@ The two additional commands are **MA** and **PW**.
     - If the Search ID is set to HELLO
     - Or if user wishes to change the local IP to 192.168.11.5
 
-| Request from User |
-| ----------------- |
+    | Request from User |
+    | ----------------- |
 
-**Command Frame**
+    **Command Frame**
 
-    MA [00 08 DC 00 00 11] [CR] [LF] PW [HELLO] [CR] [LF] LI [192.168.11.5] [CR] [LF]
+        MA [00 08 DC 00 00 11] [CR] [LF] PW [HELLO] [CR] [LF] LI [192.168.11.5] [CR] [LF]
 
-**Hex code version of Command Frame**
+    **Hex code version of Command Frame**
 
-    4D 41 00 08 DC 00 00 11 0D 0A 50 57 48 45 4C 4C 4F 0D 0A 4C 49 31 39 32 2E 31 36 38 2E 31 31 2E 35 0D 0A
+        4D 41 00 08 DC 00 00 11 0D 0A 50 57 48 45 4C 4C 4F 0D 0A 4C 49 31 39 32 2E 31 36 38 2E 31 31 2E 35 0D 0A
 
-| Response by W55RP20-S2E |
-| --------------------- |
+    | Response by W55RP20-S2E |
+    | --------------------- |
 
-    None
+        None
 
-**When modifying the IP address format, '.'(dot, 0x2E) must be included such as the '192.168.11.5'.**
+    **When modifying the IP address format, '.'(dot, 0x2E) must be included such as the '192.168.11.5'.**
 
 
 
@@ -2020,6 +2020,100 @@ Return value</th>
 	**With Parameter (Set)**
     - No response
     - Change TCP client reconnection interval value
+
+
+
+---
+
+#### SD
+
+---
+
+  - **Format:** `SD<Parameter>[CR][LF]`
+
+  - **Meaning:** String to be sent to the serial port upon TCP/UDP connection (Connect message)
+
+  - **Command Type:** Read / Write
+
+  - **Parameter / Return Type:** String (max 30 characters)
+
+  - **Parameter / Return Value:**
+
+    Not set or empty: Not used  
+    Other: Designated character
+
+    A user-defined string to be sent to the serial interface when a TCP or UDP connection is established  
+
+  - **Response**
+
+	**Without Parameter (Get)**
+    - In ASCII: `SDconnect\r\n`
+
+	**With Parameter (Set)**
+    - No response
+    - Change the connect message to be sent via serial port on Ethernet connection
+
+---
+
+#### DD
+
+---
+
+  - **Format:** `DD<Parameter>[CR][LF]`
+
+  - **Meaning:** String to be sent to the serial port upon TCP/UDP connection (Disconnect message)
+
+  - **Command Type:** Read / Write
+
+  - **Parameter / Return Type:** String (max 30 characters)
+
+  - **Parameter / Return Value:**
+
+    Not set or empty: Not used  
+    Other: Designated character
+
+    A user-defined string to be sent to the serial interface when a TCP or UDP connection is closed  
+
+  - **Response**
+
+	**Without Parameter (Get)**
+    - In ASCII: `DDdisconnect\r\n`
+
+	**With Parameter (Set)**
+    - No response
+    - Change the disconnect message that will be sent to the serial port when the Ethernet connection is closed
+
+
+
+---
+
+#### SE
+
+---
+
+  - **Format:** `SE<Parameter>[CR][LF]`
+
+  - **Meaning:** String to be sent over Ethernet upon TCP/UDP connection (Connect message)
+
+  - **Command Type:** Read / Write
+
+  - **Parameter / Return Type:** String (max 30 characters)
+
+  - **Parameter / Return Value:**
+
+    Not set or empty: Not used  
+    Other: Designated character
+
+    A user-defined string to be sent over Ethernet when a TCP or UDP connection is established
+
+  - **Response**
+
+	**Without Parameter (Get)**
+    - In ASCII: `SEconnect\r\n`
+
+	**With Parameter (Set)**
+    - No response
+    - Change the connect message to be sent over Ethernet on connection establishment
 
 
 

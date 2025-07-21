@@ -2017,6 +2017,101 @@ Return value</th>
     - Change TCP client reconnection interval value
 
 
+---
+
+#### SD
+
+---
+
+  - **Format:** `SD<Parameter>[CR][LF]`
+
+  - **Meaning:** String to be sent to the serial port upon TCP/UDP connection (Connect message)
+
+  - **Command Type:** Read / Write
+
+  - **Parameter / Return Type:** String (max 30 characters)
+
+  - **Parameter / Return Value:**
+
+    Not set or empty: Not used  
+    Other: Designated character
+
+    A user-defined string to be sent to the serial interface when a TCP or UDP connection is established  
+
+  - **Response**
+
+	**Without Parameter (Get)**
+    - In ASCII: `SDconnect\r\n`
+
+	**With Parameter (Set)**
+    - No response
+    - Change the connect message to be sent via serial port on Ethernet connection
+
+---
+
+#### DD
+
+---
+
+  - **Format:** `DD<Parameter>[CR][LF]`
+
+  - **Meaning:** String to be sent to the serial port upon TCP/UDP connection (Disconnect message)
+
+  - **Command Type:** Read / Write
+
+  - **Parameter / Return Type:** String (max 30 characters)
+
+  - **Parameter / Return Value:**
+
+    Not set or empty: Not used  
+    Other: Designated character
+
+    A user-defined string to be sent to the serial interface when a TCP or UDP connection is closed  
+
+  - **Response**
+
+	**Without Parameter (Get)**
+    - In ASCII: `DDdisconnect\r\n`
+
+	**With Parameter (Set)**
+    - No response
+    - Change the disconnect message that will be sent to the serial port when the Ethernet connection is closed
+
+
+
+---
+
+#### SE
+
+---
+
+  - **Format:** `SE<Parameter>[CR][LF]`
+
+  - **Meaning:** String to be sent over Ethernet upon TCP/UDP connection (Connect message)
+
+  - **Command Type:** Read / Write
+
+  - **Parameter / Return Type:** String (max 30 characters)
+
+  - **Parameter / Return Value:**
+
+    Not set or empty: Not used  
+    Other: Designated character
+
+    A user-defined string to be sent over Ethernet when a TCP or UDP connection is established
+
+  - **Response**
+
+	**Without Parameter (Get)**
+    - In ASCII: `SEconnect\r\n`
+
+	**With Parameter (Set)**
+    - No response
+    - Change the connect message to be sent over Ethernet on connection establishment
+
+
+
+
 
 ### MQTT Settings
 
