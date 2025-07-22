@@ -40,6 +40,13 @@ The W55RP20 combines WIZnet’s W5500 Ethernet controller and Raspberry Pi’s R
 
 ### Data Pin
 
+**The selection between SPI mode and UART mode can be determined at boot by reading the state of the UART_SPI_SEL pin.**
+| Pin      |Pinout|Name| Description                                  |
+|--------------|--|-|----------------------------------------------|
+| UART_SPI_SEL |19|GP13| UART/SPI interface select pin<br />High:SPI, Low/NC:UART |
+
+UART mode
+
 | Pin      |Pinout|Name| Description                                  |
 |--------------|--|-|----------------------------------------------|
 | UART_TX       |9|GP4| UART data transmission.                  |
@@ -51,11 +58,21 @@ The W55RP20 combines WIZnet’s W5500 Ethernet controller and Raspberry Pi’s R
 
 - **UART_RTS Pin: UART request to send (flow control); determines communication mode (floating for RS-485, Low for RS-422)**
 
+SPI mode
+
+| Pin      |Pinout|Name| Description                               |
+|--------------|--|-|----------------------------------------------|
+| SPI_SCK      |67|GP2| SCK input pin for Data SPI transmission    |
+| SPI_MISO     |68|GP3| MISO pin for Data SPI reception            |
+| SPI_MOSI     |9|GP4| MOSI pin for Data SPI transmission          |
+| SPI_CSn      |10|GP5| SPI Chip Select pin                        |
+| SPI_INT      |46|GP26| SPI Master Recv data pending pin          |
+
 ### LED Indicators - Status
 
 | Pin      |Pinout|Name| Description                                  |
 |--------------|------|-|-------------------------------------------|
-| RUN            |19|GP19| MCU status LED, blinks when the MCU is operating normally.   |
+| RUN            |41|GP19| MCU status LED, blinks when the MCU is operating normally.   |
 | PHY LINK       |16|GP10| Indicates PHY link status                    |
 | TCP Conectoin  |17|GP11| Indicates active TCP connection     |
 

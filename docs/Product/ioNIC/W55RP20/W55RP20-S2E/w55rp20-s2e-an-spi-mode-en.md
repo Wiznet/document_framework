@@ -7,8 +7,7 @@ date: 2025-03-20
 ## 1. Introduction
 
 The W55RP20-S2E operates in SPI Slave Mode and can be controlled using AT Commands. The maximum SPI clock speed supported in this mode is 10 MHz. To communicate with the MCU, it is need to connect the SPI pins and set the UART_SPI_SEL (GPIO13) pin to High to use SPI.  Refer to Figure 1 for the W55RP20-S2E SPI Pinout.<br />
-When the W55RP20-S2E (SPI Slave) needs to send data, the SPI_INT (GPIO26) signal should be set to Low so that the SPI Master can read it. If communication is occasionally interrupted, disable Serial Debug through the [Config Tool](./Config-tool-Guide-en.md).
-
+When the W55RP20-S2E (SPI Slave) needs to send data, the SPI_INT (GPIO26) signal should be set to Low so that the SPI Master can read it.
 
 ## 2. Github Link
 

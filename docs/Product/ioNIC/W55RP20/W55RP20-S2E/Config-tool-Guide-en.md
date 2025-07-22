@@ -31,7 +31,7 @@ After installing and running the program, you can see the following launch scree
 
 |                                                                           |
 | ------------------------------------------------------------------------- |
-| ![](/img/products/s2e_module/wiz5xxsr-rp/configuration_tool_manual/configuration_tool_layout.png) |
+| ![](/img/products/w55rp20-s2e/w55rp20-s2e_configuration_tool_layout.png) |
 | Figure: **Configuration Tool Layout**                                     |
 
 The Settings program can be divided by function, as shown in the image above.
@@ -128,7 +128,7 @@ PC IP: 192.168.**11**.3 (another IP address in the same Class C private IP band)
 
   |                                                                                |
   | ------------------------------------------------------------------------------ |
-  | ![](/img/products/w232n/Search_ID.png) |
+  | ![](/img/products/w55rp20-s2e/w55rp20-s2e_Search_ID.png) |
   | Figure: **Search ID code & Search method**                                     |
 
 - Search ID code
@@ -144,7 +144,7 @@ PC IP: 192.168.**11**.3 (another IP address in the same Class C private IP band)
 
   |                                                                                |
   | ------------------------------------------------------------------------------ |
-  | ![](/img/products/w232n/status.png) |
+  | ![](/img/products/w55rp20-s2e/w55rp20-s2e_status.png) |
   | Figure: **Status bar**                                     |
 
   - Displays the process and results of a search action.<br />If there are multiple devices, the MAC addresses of the devices you select are displayed together.
@@ -260,10 +260,10 @@ PC IP: 192.168.**11**.3 (another IP address in the same Class C private IP band)
 
 |                                                                                      |
 | ------------------------------------------------------------------------------------ |
-| ![](/img/products/s2e_module/wiz5xxsr-rp/configuration_tool_manual/channel_tab.png) |
+| ![](/img/products/w55rp20-s2e/w55rp20-s2e_channel_tab.png) |
 | Figure: **Channel Tab**                                                              |
 
-  #### 1) Status & Serial Interface
+#### 1) Status & Serial Interface
   - Status
     - BOOT : This is the boot entry state and allows you to update the product's settings and firmware.
     - OPEN : The state before a TCP connection is established
@@ -274,7 +274,7 @@ PC IP: 192.168.**11**.3 (another IP address in the same Class C private IP band)
   - Serial Interface
     - The type of serial interface
 
-  #### 2) Operation mode
+#### 2) Operation mode
   - Set the device's network behavior mode
   - Choose from four modes to fit your application and goals: TCP client mode, TCP server mode (default), mixed TCP client/server mode, and UDP mode
     - TCP Client
@@ -293,16 +293,16 @@ PC IP: 192.168.**11**.3 (another IP address in the same Class C private IP band)
          - Available when Remote host IP is set to 0.0.0.0
         - Can send data to the destination from which it was sent<br /> The destination address changes to the new destination address when data is received from another destination
         - It can be utilized in applications that send data from multiple UDP destinations, to which a serial device responds.
-  #### 3) Local port, Remote host / Port
+#### 3) Local port, Remote host / Port
   - Local port
     - Ports the device opens
   - Remote host
     - The IP of the destination that the device connects to when it's a client, which is the IP of the server.
   - Remote port
     - The port of the destination to which the connection is made when Dabais is the client, i.e., the port opened by the server.
-  #### 4) Serial Options
+#### 4) Serial Options
   - Baud Rate
-    - surpport 300, 600, 1200, 1800, 2400, 4800, 9600, 14400, 19200, 28800, 38400, 57600, 115200(default), 230400
+    - surpport 300, 600, 1200, 1800, 2400, 4800, 9600, 14400, 19200, 28800, 38400, 57600, 115200(default), 230400, 460800, 921600
   - Data bit
     - surpport 7, 8(default)
   - Parity
@@ -313,7 +313,7 @@ PC IP: 192.168.**11**.3 (another IP address in the same Class C private IP band)
     - NONE(default): not use flow control
     - XON/XOFF: Software flow control
     - CTS/RTS: Hardware flow control
-  #### 5) Serial data packing condition
+#### 5) Serial data packing condition
   - Various serial data packing options so that serial data can be collected and transmitted according to user's conditions <br />When utilized, user command frames or cyclic data that need to be sent at once can be collected and sent.
   - Application priority is Character => Size => Timer and can be set to overlap
   - Timer
@@ -325,7 +325,17 @@ PC IP: 192.168.**11**.3 (another IP address in the same Class C private IP band)
   - Character
     - 1-byte Character(Hex code), Default is 0 (unused)
     - Stores data in a buffer until the specified character is entered, and then sends it all at once, including the specified character, when the specified character is in the data.<br />If the buffer size is exceeded, send only data excluding the specified characters.
-  #### 6) Timer interval
+  
+#### 6) Serial data connection condition
+- This function is useful for notifying serial devices or systems of changes in network connection status.  
+- Sends a predefined string to the serial port when the Ethernet connection status changes.
+- Available in WIZnet-S2E-Tool-GUI version 1.5.7 or later and firmware version 1.1.8 or later.
+- Connect message  
+  - Sends the configured string (up to 30 characters) to the serial port when a TCP or UDP connection is established.
+- Disconnect message  
+  - Sends the configured string (up to 30 characters) to the serial port when a TCP or UDP connection is closed.
+
+#### 7) Timer interval
   - Inactivity timer
     - 0 ~ 65535(s), Default is 0 (unused)
     - When the Inactivity timer is set, it terminates the connection after a specified amount of time without sending data since the last data transfer.
@@ -336,7 +346,7 @@ PC IP: 192.168.**11**.3 (another IP address in the same Class C private IP band)
     - This option is required for reconnection attempts if a TCP connection attempt fails.
     - It must be set to at least 1 ms.
 
-  #### 7) TCP Keep-alive interval
+#### 8) TCP Keep-alive interval
 - When this option is checked, keep-alive packets are sent when the product is operating in TCP mode (including TCP Server, TCP Client, and TCP MIX) to maintain connectivity.
 - If there is no response to the keepalive packet, the TCP connection is closed. (Socket close / disconnect)
 - The device starts sending keepalive packets after it has sent at least one Ethernet packet.
@@ -347,9 +357,26 @@ PC IP: 192.168.**11**.3 (another IP address in the same Class C private IP band)
   - Retry intercal
     - 0 ~ 65535(ms), Default is 5000 (7 seconds applied)
     - The interval between sending each keepalive packet
-  #### 8) Timeout
-  - 0 ~ 60000(ms), Default is 2000 (2 seconds applied)
-  - Raise a timeout if no SSL response by a specified time
-  - Works only in SSL TCP client mode
+  
+#### 9) Timeout
+- 0 ~ 60000(ms), Default is 2000 (2 seconds applied)
+- Raise a timeout if no SSL response by a specified time
+- Works only in SSL TCP client mode
 
+#### 10) Modbus Option
+- WIZnet-S2E-Tool-GUI version 1.5.5 or higher is required to use the Modbus protocol.  
+- Operation mode
+  - Make sure to select TCP Server or UDP mode in the Operation mode settings. 
+- protocol
+  - The serial protocol supports both RTU and ASCII modes and can be selected based on system requirements.   
+- Modbus Poll connects via Modbus TCP/IP or UDP/IP, depending on the configuration.  
+- Modbus Slave connects via the serial port.  
+- For more details, please refer to the [Modbus Connection Guide](https://docs.wiznet.io/Product/ioNIC/W55RP20/W55RP20-S2E/modbus-connection-guide-en).
+  
+#### 11) Ethernet data connection condition
+- This function allows the device to automatically send a predefined string over the Ethernet interface when a TCP or UDP connection is established.  
+- Available in WIZnet-S2E-Tool-GUI version 1.5.7 or later and firmware version 1.1.8 or later.
+- When the Ethernet connection is established, the configured string (up to 30 characters) is transmitted to the remote host.
+- Connect data
+  - Specifies the string to send automatically over Ethernet upon successful TCP or UDP connection.
   

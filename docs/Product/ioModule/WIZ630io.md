@@ -1,7 +1,7 @@
 ---
 id: wiz630io
 title: WIZ630io
-date: 2025-05-22
+date: 2025-07-22
 ---
 
 
@@ -42,7 +42,7 @@ WIZ630io is the network module that includes W6300 (TCP/IP hardwired chip, inclu
 
 ### Pin Out
 
-![WIZ630io Pinmap](/img/products/wiz630io/WIZ630io_pin_out.png)  
+![WIZ630io Pinmap](/img/products/wiz630io/WIZ630io_pin_out_1.png)  
 
 -----
 
