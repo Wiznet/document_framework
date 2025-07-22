@@ -69,6 +69,34 @@ module.exports = {
 				//'Product/iMCU/imcu',
 				{
 				type: 'category',
+				label: 'W55MH32',
+				link: {type: 'doc', id: 'Product/iMCU/W55MH32/overview'},
+				items: [
+					'Product/iMCU/W55MH32/overview',
+					'Product/iMCU/W55MH32/datasheet',
+					'Product/iMCU/W55MH32/electrical-characteristics',
+					'Product/iMCU/W55MH32/pin-assignment',
+					'Product/iMCU/W55MH32/ref-schematic',
+					{
+						type: 'category',
+						label: 'Reference Code',
+						items: [
+								'Product/iMCU/W55MH32/install_keil',
+								'Product/iMCU/W55MH32/W55MH32_examples',					
+						],
+					},
+					{
+						type: 'category',
+						label: 'EVB',
+						items: [
+								'Product/iMCU/W55MH32/W55MH32L-evb',
+								'Product/iMCU/W55MH32/W55MH32Q-evb',					
+						],
+					},
+					],
+				},
+				{
+				type: 'category',
 				label: 'W7500',
 				link: {type: 'doc', id: 'Product/iMCU/W7500/overview'},
 				items: [
