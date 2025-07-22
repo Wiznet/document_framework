@@ -30,7 +30,7 @@ Python 기반으로 제작되어 OS 종류에 관계 없이 실행 가능합니�
 
 |                                                                           |
 | ------------------------------------------------------------------------- |
-| ![](/img/products/s2e_module/wiz5xxsr-rp/configuration_tool_manual/configuration_tool_layout.png) |
+| ![](/img/products/w55rp20-s2e/w55rp20-s2e_configuration_tool_layout.png) |
 | Figure: **Configuration Tool Layout**                                     |
 
 설정 프로그램은 위 그림과 같이 기능 별로 나눌 수 있습니다.
@@ -135,7 +135,7 @@ Static 모드 (직접 IP 할당) 사용 시, 다음 예와 같이 설정 바랍�
 
   |                                                                                |
   | ------------------------------------------------------------------------------ |
-  | ![](/img/products/w232n/Search_ID.png) |
+  | ![](/img/products/w55rp20-s2e/w55rp20-s2e_Search_ID.png) |
   | Figure: **Search ID code & Search method**                                     |
 
 - Search ID code
@@ -151,7 +151,7 @@ Static 모드 (직접 IP 할당) 사용 시, 다음 예와 같이 설정 바랍�
 
   |                                                                                |
   | ------------------------------------------------------------------------------ |
-  | ![](/img/products/w232n/status.png) |
+  | ![](/img/products/w55rp20-s2e/w55rp20-s2e_status.png) |
   | Figure: **Status bar**                                     |
 
   - 검색 동작의 과정 및 결과를 표시합니다.<br />이 때, 장치가 다수 일 경우 사용자가 선택한 장치의 MAC 주소를 함께 표시합니다.
@@ -267,10 +267,10 @@ Static 모드 (직접 IP 할당) 사용 시, 다음 예와 같이 설정 바랍�
 
 |                                                                                      |
 | ------------------------------------------------------------------------------------ |
-| ![](/img/products/s2e_module/wiz5xxsr-rp/configuration_tool_manual/channel_tab.png) |
+| ![](/img/products/w55rp20-s2e/w55rp20-s2e_channel_tab.png) |
 | Figure: **Channel Tab**                                                              |
 
-  #### 1) Status & Serial Interface
+#### 1) Status & Serial Interface
   - Status
     - BOOT : Boot 진입 상태로 제품의 설정과 펌웨어 업데이트가 가능
     - OPEN : TCP 연결 성립 이전의 상태
@@ -281,7 +281,7 @@ Static 모드 (직접 IP 할당) 사용 시, 다음 예와 같이 설정 바랍�
   - Serial Interface
     - W232N은 RS232 고정.
 
-  #### 2) Operation mode
+#### 2) Operation mode
   - 디바이스의 네트워크 동작 모드를 설정
   - TCP 클라이언트 모드, TCP 서버 모드(default), TCP 클라이언트/서버 혼용 모드, UDP 모드의 네 가지 모드 중 사용자의 응용과 목적에 맞게 선택 가능
     - TCP Client
@@ -300,14 +300,14 @@ Static 모드 (직접 IP 할당) 사용 시, 다음 예와 같이 설정 바랍�
          -  Remote host IP를 0.0.0.0으로 설정시 사용 가능
         - 데이터를 보내온 목적지로 데이터를 전송 할 수 있음<br /> 목적지 주소는 또 다른 목적지에서 데이터가 수신 될 때 새로운 목적지 주소로 변경됨
         - 다수의 UDP 목적지에서 데이터를 보내오고, 이에 시리얼 장치가 응답하는 형태의 응용에서 활용 가능합니다.
-  #### 3) Local port, Remote host / Port
+#### 3) Local port, Remote host / Port
   - Local port
     - 디바이스가 오픈하는 포트
   - Remote host
     - 디바이스가 클라이언트일 때 연결되는 목적지(destination)의 IP 즉, 서버의 IP
   - Remote port
     - 다바이스가 클라이언트일 때 연결되는 목적지(destination)의 포트 즉, 서버에서 오픈한 Port
-  #### 4) Serial Options
+#### 4) Serial Options
   - Baud Rate
     - 300, 600, 1200, 1800, 2400, 4800, 9600, 14400, 19200, 28800, 38400, 57600, 115200(default), 230400 지원
   - Data bit
@@ -320,7 +320,7 @@ Static 모드 (직접 IP 할당) 사용 시, 다음 예와 같이 설정 바랍�
     - NONE(default): 흐름제어를 사용하지 않습니다.
     - XON/XOFF: 소프트웨어 흐름제어 (Software flow control)
     - CTS/RTS: 하드웨어 흐름제어 (Hardware flow control)
-  #### 5) Serial data packing condition
+#### 5) Serial data packing condition
   - 사용자의 조건에 따라 시리얼 데이터를 모아서 전송 할 수 있도록 다양한 시리얼 데이터 패킹 옵션 <br />활용시 한번에 전송해야 할 유저 커맨드 프레임이나 주기 데이터를 모아서 전송 가능
   - 적용 우선 순위는 Character => Size => Timer 이고 중복으로 설정 가능
   - Timer
@@ -334,7 +334,18 @@ Static 모드 (직접 IP 할당) 사용 시, 다음 예와 같이 설정 바랍�
     - 1-byte 문자(Hex code), Default는 00(미사용)
     - 지정된 문자가 입력 될 때 까지 데이터를 버퍼에 저장하다가 지정한 문자가 데이터로 들어오면 지정 문자를 포함하여 한번에 전송
     - 버퍼(4KByte)를 초과하면 버퍼에 있는 데이터 모두 삭제(전송되지 않음).
-  #### 6) Timer interval
+
+  #### 6) Serial data connection condition
+  - 네트워크 연결 상태 변화 시, 시리얼 장치나 시스템에 상태를 알리기 위한 기능입니다.
+  - TCP 또는 UDP 연결 상태가 변할 때, 시리얼 포트로 설정된 문자열을 전송합니다.
+  - WIZnet-S2E-Tool-GUI 버전 1.5.7 이상, 펌웨어 버전 1.1.8 이상에서 지원됩니다.
+  - Connect 메시지
+    - TCP 또는 UDP 연결이 성립되었을 때, 설정된 문자열(최대 30자)을 시리얼 포트로 전송
+  - Disconnect 메시지
+    - TCP 또는 UDP 연결이 종료되었을 때, 설정된 문자열(최대 30자)을 시리얼 포트로 전송
+
+  
+#### 7) Timer interval
   - Inactivity timer(비활성 타이머)
     - 0 ~ 65535(s), Default는 0(미사용)
     - 비활성 타이머(Inactivity timer)가 설정되면, 마지막 데이터 전송 이후 부터 데이터 전송 없이 지정된 시간 경과 후 연결을 종료합니다.
@@ -345,7 +356,7 @@ Static 모드 (직접 IP 할당) 사용 시, 다음 예와 같이 설정 바랍�
     - TCP 연결 시도가 실패한 경우, 재연결 시도를 위해 필요한 옵션입니다.
     - 최소 1ms 이상 설정되어야 합니다.
 
-  #### 7) TCP Keep-alive interval
+#### 8) TCP Keep-alive interval
 - 해당 옵션이 체크되면, 제품이 TCP 모드(TCP 서버, TCP 클라이언트 및 TCP MIX 포함)로 동작 시 연결 상태 유지를 위한 연결 유지(Keep-Alive) 패킷이 전송됩니다.
 - 연결 유지 패킷에 대한 응답이 없을 경우, 해당 TCP 연결은 종료됩니다. (Socket close / disconnect)
 - 디바이스에서 한 번 이상 이더넷 패킷이 송신된 이후부터 연결 유지 패킷 전송이 시작됩니다.
@@ -356,7 +367,26 @@ Static 모드 (직접 IP 할당) 사용 시, 다음 예와 같이 설정 바랍�
   - Retry intercal
     - 0 ~ 65535(ms), Default는 5000(7초 적용)
     - 매 연결 유지 패킷 전송 시 사이의 간격
-  #### 8) Timeout
+
+#### 9) Timeout
   - 0 ~ 60000(ms), Default는 2000(2초 적용)
   - 지정한 시간까지 SSL 응답이 없으면 timeout을 발생시킴
   - SSL TCP 클라이언트 모드에서만 동작함
+
+#### 10) Modbus Option
+
+- Modbus 프로토콜을 사용하려면 WIZnet-S2E-Tool-GUI 버전 1.5.5 이상이 필요합니다.  
+- Operation mode  
+  - 동작 모드에서 TCP Server 또는 UDP 모드를 선택해야 합니다.
+- protocol  
+  - 시리얼 프로토콜은 RTU와 ASCII 모드를 모두 지원하며, 시스템 요구에 따라 선택 가능합니다.  
+- Modbus Poll은 설정에 따라 Modbus TCP/IP 또는 UDP/IP 방식으로 연결됩니다.  
+- Modbus Slave는 시리얼 포트를 통해 연결됩니다.  
+- 자세한 내용은 [Modbus 연결 가이드](https://docs.wiznet.io/Product/ioNIC/W55RP20/W55RP20-S2E/modbus-connection-guide-en)를 참조해 주십시오.
+  
+#### 11) Ethernet data connection condition
+- 이 기능은 TCP 또는 UDP 연결이 성립되었을 때, 설정된 문자열을 이더넷을 통해 원격 호스트로 자동 전송할 수 있도록 합니다.
+- WIZnet-S2E-Tool-GUI 버전 1.5.7 이상 및 펌웨어 버전 1.1.8 이상에서 지원됩니다.
+- 이더넷 연결이 성립되면, 설정된 문자열(최대 30자)이 원격 호스트로 전송됩니다.
+- Connect data(연결 시 데이터)  
+  - TCP 또는 UDP 연결이 성공했을 때 자동으로 이더넷을 통해 전송할 문자열을 설정합니다.

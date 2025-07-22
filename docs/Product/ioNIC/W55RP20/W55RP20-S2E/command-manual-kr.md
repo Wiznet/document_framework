@@ -335,7 +335,7 @@ W232N은 제품 설정과 제어를 위한 다양한 명령어를 제공합니�
 <td align="center">RO</td>
 </tr>
 <tr class="even">
-<td align="center"v><a href="#st">ST</a></td>
+<td align="center"><a href="#st">ST</a></td>
 <td align="center">:::</td>
 <td>Operation status</td>
 <td align="center">RO</td>
@@ -474,58 +474,70 @@ W232N은 제품 설정과 제어를 위한 다양한 명령어를 제공합니�
 <td align="center">RW</td>
 </tr>
 <tr class="odd">
+<td align="center"><a href="#sd">SD</a></td>
+<td align="center">:::</td>
+<td>String to be sent to the serial port upon TCP/UDP connection</td>
+<td align="center">RW</td>
+</tr>
+<tr class="even">
+<td align="center"><a href="#dd">DD</a></td>
+<td align="center">:::</td>
+<td>String to be sent to the serial port upon TCP/UDP disconnection</td>
+<td align="center">RW</td>
+</tr>
+<tr class="odd">
+<td align="center"><a href="#se">SE</a></td>
+<td align="center">:::</td>
+<td>String to be sent over Ethernet upon TCP/UDP connection</td>
+<td align="center">RW</td>
+</tr>
+<tr class="even">
 <td align="center"><a href="#cp">CP</a></td>
 <td align="center">:::</td>
 <td>Connection password enable (TCP server only)</td>
 <td align="center">RW</td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td align="center"><a href="#np">NP</a></td>
 <td align="center">:::</td>
 <td>Connection password (TCP server only)</td>
 <td align="center">RW</td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td align="center"><a href="#sp">SP</a></td>
 <td align="center">:::</td>
 <td>Search ID code</td>
 <td align="center">RW</td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td align="center"><a href="#dg">DG</a></td>
 <td align="center">:::</td>
 <td>Serial debug message enable</td>
 <td align="center">RW</td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td align="center"><a href="#ka">KA</a></td>
 <td align="center">:::</td>
 <td>TCP Keep-alive enable</td>
 <td align="center">RW</td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td align="center"><a href="#ki">KI</a></td>
 <td align="center">:::</td>
 <td>TCP Keep-alive initial interval</td>
 <td align="center">RW</td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td align="center"><a href="#ke">KE</a></td>
 <td align="center">:::</td>
 <td>TCP Keep-alive retry interval</td>
 <td align="center">RW</td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td align="center"><a href="#so">SO</a></td>
 <td align="center">:::</td>
 <td>SSL receive timeout</td>
 <td align="center">RW</td>
-</tr>
-<tr class="odd">
-  <td align="center"><a href="#po">PO</a></td>
-  <td align="center">Modbus Settings</td>
-  <td>Select Modbus protocol type (None / RTU / ASCII)</td>
-  <td align="center">RW</td>
 </tr>
 <tr class="even">
 <td align="center"><a href="#qu">QU</a></td>
@@ -534,106 +546,106 @@ W232N은 제품 설정과 제어를 위한 다양한 명령어를 제공합니�
 <td align="center">RW</td>
 </tr>
 <tr class="odd">
-  <td align="center"><a href="#qp">QP</a></td>
-  <td align="center">:::</td>
-  <td>MQTT password</td>
-  <td align="center">RW</td>
+<td align="center"><a href="#qp">QP</a></td>
+<td align="center">:::</td>
+<td>MQTT password</td>
+<td align="center">RW</td>
 </tr>
 <tr class="even">
-  <td align="center"><a href="#qc">QC</a></td>
-  <td align="center">:::</td>
-  <td>MQTT client ID</td>
-  <td align="center">RW</td>
+<td align="center"><a href="#qc">QC</a></td>
+<td align="center">:::</td>
+<td>MQTT client ID</td>
+<td align="center">RW</td>
 </tr>
 <tr class="odd">
-  <td align="center"><a href="#qk">QK</a></td>
-  <td align="center">:::</td>
-  <td>MQTT Keep-alive</td>
-  <td align="center">RW</td>
+<td align="center"><a href="#qk">QK</a></td>
+<td align="center">:::</td>
+<td>MQTT Keep-alive</td>
+<td align="center">RW</td>
 </tr>
 <tr class="even">
-  <td align="center"><a href="#pu">PU</a></td>
-  <td align="center">:::</td>
-  <td>MQTT publish topic</td>
-  <td align="center">RW</td>
+<td align="center"><a href="#pu">PU</a></td>
+<td align="center">:::</td>
+<td>MQTT publish topic</td>
+<td align="center">RW</td>
 </tr>
 <tr class="odd">
-  <td align="center"><a href="#u0">U0</a></td>
-  <td align="center">:::</td>
-  <td>MQTT subscribe topic 1</td>
-  <td align="center">RW</td>
+<td align="center"><a href="#u0">U0</a></td>
+<td align="center">:::</td>
+<td>MQTT subscribe topic 1</td>
+<td align="center">RW</td>
 </tr>
 <tr class="even">
-  <td align="center"><a href="#u1">U1</a></td>
-  <td align="center">:::</td>
-  <td>MQTT subscribe topic 2</td>
-  <td align="center">RW</td>
+<td align="center"><a href="#u1">U1</a></td>
+<td align="center">:::</td>
+<td>MQTT subscribe topic 2</td>
+<td align="center">RW</td>
 </tr>
 <tr class="odd">
-  <td align="center"><a href="#u2">U2</a></td>
-  <td align="center">:::</td>
-  <td>MQTT subscribe topic 3</td>
-  <td align="center">RW</td>
+<td align="center"><a href="#u2">U2</a></td>
+<td align="center">:::</td>
+<td>MQTT subscribe topic 3</td>
+<td align="center">RW</td>
 </tr>
 <tr class="even">
-  <td align="center"><a href="#qo">QO</a></td>
-  <td align="center">:::</td>
-  <td>MQTT QoS level</td>
-  <td align="center">RW</td>
+<td align="center"><a href="#qo">QO</a></td>
+<td align="center">:::</td>
+<td>MQTT QoS level</td>
+<td align="center">RW</td>
 </tr>
 <tr class="odd">
-  <td align="center"><a href="#rc">RC</a></td>
-  <td align="center">Certificate Settings</td>
-  <td>Root CA verify option</td>
-  <td align="center">RW</td>
+<td align="center"><a href="#rc">RC</a></td>
+<td align="center">Certificate Settings</td>
+<td>Root CA verify option</td>
+<td align="center">RW</td>
 </tr>
 <tr class="even">
-  <td align="center"><a href="#ce">CE</a></td>
-  <td align="center">:::</td>
-  <td>Client certificate enable</td>
-  <td align="center">RW</td>
+<td align="center"><a href="#ce">CE</a></td>
+<td align="center">:::</td>
+<td>Client certificate enable</td>
+<td align="center">RW</td>
 </tr>
 <tr class="odd">
-  <td align="center"><a href="#oc">OC</a></td>
-  <td align="center">:::</td>
-  <td>Root CA</td>
-  <td align="center">WO</td>
+<td align="center"><a href="#oc">OC</a></td>
+<td align="center">:::</td>
+<td>Root CA</td>
+<td align="center">WO</td>
 </tr>
 <tr class="even">
-  <td align="center"><a href="#lc">LC</a></td>
-  <td align="center">:::</td>
-  <td>Client certificate</td>
-  <td align="center">WO</td>
+<td align="center"><a href="#lc">LC</a></td>
+<td align="center">:::</td>
+<td>Client certificate</td>
+<td align="center">WO</td>
 </tr>
 <tr class="odd">
-  <td align="center"><a href="#pk">PK</a></td>
-  <td align="center">:::</td>
-  <td>Private key</td>
-  <td align="center">WO</td>
+<td align="center"><a href="#pk">PK</a></td>
+<td align="center">:::</td>
+<td>Private key</td>
+<td align="center">WO</td>
 </tr>
 <tr class="even">
-  <td align="center"><a href="#te">TE</a></td>
-  <td align="center">Command Mode Switch Settings</td>
-  <td>Command mode switch code enable</td>
-  <td align="center">RW</td>
+<td align="center"><a href="#te">TE</a></td>
+<td align="center">Command Mode Switch Settings</td>
+<td>Command mode switch code enable</td>
+<td align="center">RW</td>
 </tr>
 <tr class="odd">
-  <td align="center"><a href="#ss">SS</a></td>
-  <td align="center">:::</td>
-  <td>Command mode switch code (3-bytes Hex)</td>
-  <td align="center">RW</td>
+<td align="center"><a href="#ss">SS</a></td>
+<td align="center">:::</td>
+<td>Command mode switch code (3-bytes Hex)</td>
+<td align="center">RW</td>
 </tr>
 <tr class="even">
-  <td align="center"><a href="#ex">EX</a></td>
-  <td align="center">Device Control</td>
-  <td>Command mode exit (switch to data transfer mode)</td>
-  <td align="center">WO</td>
+<td align="center"><a href="#ex">EX</a></td>
+<td align="center">Device Control</td>
+<td>Command mode exit (switch to data transfer mode)</td>
+<td align="center">WO</td>
 </tr>
 <tr class="odd">
-  <td align="center"><a href="#sv">SV</a></td>
-  <td align="center">:::</td>
-  <td>Save device setting</td>
-  <td align="center">WO</td>
+<td align="center"><a href="#sv">SV</a></td>
+<td align="center">:::</td>
+<td>Save device setting</td>
+<td align="center">WO</td>
 </tr>
 <tr class="even">
   <td align="center"><a href="#rt">RT</a></td>
@@ -1305,6 +1317,11 @@ Return value</th>
 <tr class="odd">
 <td align="center">14</td>
 <td>460800</td>
+<td align="center">-</td>
+</tr>
+<tr class="even">
+<td align="center">15</td>
+<td>921600</td>
 <td align="center">-</td>
 </tr>
 </tbody>
