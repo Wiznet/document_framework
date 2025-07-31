@@ -19,26 +19,22 @@ WIZ630io is the network module that includes W6300 (TCP/IP hardwired chip, inclu
 
 ### Feature
 
-  - Support Hardwired Internet protocols
-      - : TCP, UDP, IPv6, IPv4, ICMPv6, ICMPv4, IGMP, MLDv1, ARP, PPPoE
-  - Support IPv4/IPv6 Dual Stack
-  - Support 8 independent SOCKETs simultaneously with 32KB Memory
-  - Supports half/full duplex operation
-  - Support SOCKET-less command
-      - : ARP, PING, ICMPv6(PING, ARP,DAD,NA,RS) Command for IPv6
-        Auto-configuration& Network Monitoring
-  - Support Ethernet Power down mode & Main Clock Switching for power
-    save
-  - Support Wake on LAN over UDP
-  - Supports high speed SPI Interface (SPI mode 0/3)
-  - Internal 32Kbytes Memory for TX/ RX Buffers
-  - 10BaseT/10BaseTe/100BaseTX Ethernet PHY Integrated
-  - Support Auto Negotiation (Full and half duplex, 10 and 100-based )
-  - Support Auto-MDIX only when Auto-Negotiation mode
-  - Not support IP Fragmentation
-  - 3.3V operation with 5V I/O signal tolerance
-  - Interfaces with two 2.54mm pitch 1 x 6 header pin
-  - Temperature : -40 \~ 85℃(Operation)
+  - Supports hardwired TCP/IP protocols : TCP, UDP, IPv6, IPv4, ICMPv6, ICMPv4, IGMP, MLDv1, ARP, PPPoE
+  - Supports IPv4/IPv6 dual stack
+  - Supports 8 independent SOCKETs simultaneously with 32KB memory
+  - Supports SOCKET-less commands : ARP, ICMPv6 (ARP, DAD, NA, RS) command for IPv6 auto-configuration & network monitoring (PING, PING6)
+  - Supports Ethernet PHY power down mode & system clock switching for power save
+  - Supports wake on LAN over UDP
+  - Supports serial & parallel HOST interface : High speed SPI (MODE 0/3), system BUS with 2 address signals & 8bit data
+  - Internal 32Kbytes memory for TX/ RX Buffers
+  - 10BaseT/ 10BaseTe / 100BaseTX Ethernet PHY integrated
+  - Supports auto negotiation (full/half duplex, 10 and 100-based)
+  - Supports auto-MDIX only on auto-negotiation mode
+  - Does not support IP fragmentation & jumbo packet
+  - 3V operation with 5V I/O signal tolerance
+  - Network indicator LEDs (full/half duplex, link, 10/100 speed, active)
+  - Interfaces with two 2.54mm pitch 1 x 6 header pin and one 2.54mm pitch 1 x 8 header pin
+  - Temperature : -40 ~ 85℃(Operation)
 
 ### Pin Out
 
