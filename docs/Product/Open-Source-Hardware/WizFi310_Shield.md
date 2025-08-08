@@ -7,7 +7,7 @@ date: 2020-04-03
 :::caution
 
 This product is discontinued.  
-Please refer to the New compatible product [WizFi360](./../Wi-Fi-Module/WizFi360/WizFi360.md).
+Please refer to the New compatible product [WizFi360](./../Wi-Fi-Module/WizFi360/WizFi360.mdx).
 
 :::
 

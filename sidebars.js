@@ -456,6 +456,7 @@ module.exports = {
 				}*/
 			],
 		},
+		
 		{
 			type: 'category',
 			label: 'Serial to Ethernet Module',
@@ -1066,54 +1067,24 @@ module.exports = {
 			label: 'Wi-Fi Module',
 			link: {type: 'doc', id: 'Product/Wi-Fi-Module/wi_fi_module'},
 			items: [
-			//'Product/Wi-Fi-Module/wi_fi_module',
-			{
-				type: 'category',
-				label: 'WizFi630S',
-				link: {type: 'doc', id: 'Product/Wi-Fi-Module/WizFi630S/wizfi630s'},
-				items: [
-				//'Product/Wi-Fi-Module/WizFi630S/wizfi630s',
-				'Product/Wi-Fi-Module/WizFi630S/datasheet',
-				'Product/Wi-Fi-Module/WizFi630S/user_guide',
-				'Product/Wi-Fi-Module/WizFi630S/hw_reference',
-				'Product/Wi-Fi-Module/WizFi630S/certificate',
-				],
-			},
-			{
-				type: 'category',
-				label: 'WizFi360',
-				link: {type: 'doc', id: 'Product/Wi-Fi-Module/WizFi360/wizfi360'},
-				items: [
-				//'Product/Wi-Fi-Module/WizFi360/wizfi360',
-				'Product/Wi-Fi-Module/WizFi360/documents',
-				'Product/Wi-Fi-Module/WizFi360/application_examples',
-				'Product/Wi-Fi-Module/WizFi360/wizfi360_evb_shield',
-				'Product/Wi-Fi-Module/WizFi360/wizfi360io',
-					{
+
+				{
 					type: 'category',
-					label: 'Other Resource',
+					label: 'WizFi360',
+					link: {type: 'doc', id: 'Product/Wi-Fi-Module/WizFi360/wizfi360'},
 					items: [
-					'Product/Wi-Fi-Module/WizFi360/Other-Resource/w600_sdk',
-					]
-					},
-					{
-						type: 'link',
-						label: 'AT-Command Firmware release', // string - the label that should be displayed.
-						href: 'https://github.com/wizfi/Release/tree/master/Binary' // string - the target URL.
-					}
-				],
-			},
-			
-						
-			
-			/*{
-				type: 'category',
-				label: 'WizFi630A',
-				items: [
-				'Product/Wi-Fi-Module/WizFi630A/wizfi630a',
-				],
-				},*/
-			
+						'Product/Wi-Fi-Module/WizFi360/wizfi360_evb_shield',
+					],
+				},
+				
+				{
+					type: 'category',
+					label: 'WizFi630S',
+					link: {type: 'doc', id: 'Product/Wi-Fi-Module/WizFi630S/wizfi630s'},
+					items: [
+						'Product/Wi-Fi-Module/WizFi630S/wizfi630_evb',
+					],
+				},
 			],
 		},
 		
@@ -1460,6 +1431,7 @@ module.exports = {
 								'Product/Wi-Fi-Module/WizFi210/wizfi210-evb',
 							],	
 						},
+						'Product/Wi-Fi-Module/WizFi360/wizfi360io',
 					],
 				},
 				{

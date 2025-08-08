@@ -77,15 +77,25 @@ similar to the Xbee pin layout. But it is not exactly compatible.
       - Xbee Form Factor
           - 2.00mm Pin Header
           
-## Quick Start Guide
-
-  - 🌎[Quick Start Guide](./Documents.md#quick-start-guide)
-
 -----
 
 ## Datasheet
 
-  - 🌎[Download](./Documents.md#wizfi360io-series)
+#### WizFi360io-C
+
+<a href="/img/products/wizfi360/wizfi360ds/wizfi360io-c_ds_102_en.pdf" target="_blank">WizFi360io-C Datasheet</a>
+
+| Version | Date    | Decription      |
+| ------- | ------- | --------------- |
+| V 1.0.2 | SEP2019 | Initial Release |
+
+#### WizFi360io-H
+
+<a href="/img/products/wizfi360/wizfi360ds/wizfi360io-h_ds_101_en.pdf" target="_blank">WizFi360io-H Datasheet</a>
+
+| Version | Date    | Decription      |
+| ------- | ------- | --------------- |
+| V 1.0.1 | AUG2019 | Initial Release |
 
 -----
 

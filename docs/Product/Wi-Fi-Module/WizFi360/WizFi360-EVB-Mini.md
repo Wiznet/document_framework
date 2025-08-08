@@ -59,13 +59,22 @@ be up to 2Mbps, which can meet the requirement of various applications.
 
 ## Quick Start Guide
 
-  - 🌎[Quick Start Guide](./Documents.md#quick-start-guide)
+- <a href="/img/products/wizfi360/wizfi360ds/wizfi360qs_v113e.pdf" target="_blank">Quick Start Guide V1.1.3 - English</a>
+- <a href="/img/products/wizfi360/wizfi360ds/wizfi360qs_v113k.pdf" target="_blank">Quick Start Guide V1.1.3 - Korean</a>
+
+| Version | Date    | Decription                                       |
+| ------- | ------- | ------------------------------------------------ |
+| V1.1.3  | SEP2019 | Modified the Environment setting and the Example |
 
 -----
 
 ## Datasheet
 
-  - 🌎[Download](./Documents.md#wizfi360-evb-mini)
+<a href="/img/products/wizfi360/wizfi360ds/wizfi360-evb-mini_ds_100_en.pdf" target="_blank">WizFi360-EVB-Mini Datasheet</a>
+
+| Version | Date    | Decription      |
+| ------- | ------- | --------------- |
+| V 1.0.0 | SEP2019 | Initial Release |
 
 -----
 

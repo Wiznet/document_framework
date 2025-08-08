@@ -9,7 +9,7 @@ date: 2020-05-13
 
 **Technical support for this product has officially ended.**
 
-Please refer to the New compatible product [WizFi360](./../WizFi360/WizFi360.md).
+Please refer to the New compatible product [WizFi360](./../WizFi360/WizFi360.mdx).
 :::
 
 ## Overview

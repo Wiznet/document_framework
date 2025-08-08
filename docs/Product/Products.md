@@ -97,8 +97,8 @@ The **IOP4IoT W7500** chip is the one-chip solution which integrates an ARM Cort
 
   * [WizFi250](./Wi-Fi-Module/WizFi250/WizFi250.md)
   * [WizFi310](./Wi-Fi-Module/WizFi310/WizFi310.md)
-  * [WizFi360](./Wi-Fi-Module/WizFi360/WizFi360.md)
-  * [WizFi630S](./Wi-Fi-Module/WizFi630S/WizFi630S.md)
+  * [WizFi360](./Wi-Fi-Module/WizFi360/WizFi360.mdx)
+  * [WizFi630S](./Wi-Fi-Module/WizFi630S/WizFi630S.mdx)
   * [WizFi630A](./Wi-Fi-Module/WizFi630A/WizFi630A.md)
 
 -----
