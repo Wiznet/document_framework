@@ -5,8 +5,8 @@ date: 2020-04-08
 ---
 
 **Supported Languages**
-  * [English](./Getting-Started-EN.md) (current page)  
-  * [Korean](./Getting-Started-KO.md)
+  * [English](./Getting-Started-EN) (current page)  
+  * [Korean](./Getting-Started-KO)
 
 ![](/img/products/wiz750sr/docs_icon.png)
 
@@ -74,7 +74,7 @@ The entire list of parts of the board is available at the [WIZ750SR Overview: Pr
 
 ### Software
 
-  - Configuration tool program ([Download page](./Download.md))
+  - Configuration tool program ([Download page](./Download))
   - TCP server / TCP client / UDP terminal program
   - Serial terminal program
 
@@ -286,7 +286,7 @@ Now you’re ready to use the WIZ750SR!
 -----
 
 **If there is any problem?**  
-Please refer to our **[Troubleshooting Guide](./Trouble-Shooting-EN.md)**!
+Please refer to our **[Troubleshooting Guide](./Trouble-Shooting-EN)**!
 
 -----
 
@@ -296,20 +296,20 @@ Please refer to our **[Troubleshooting Guide](./Trouble-Shooting-EN.md)**!
 
  **WIZ750SR** 
 
-  - **User's Manual [(English)](./Users-Manual-EN.md)/[(Korean)](./Users-Manual-KO.md)** 
+  - **User's Manual [(English)](./Users-Manual-EN)/[(Korean)](./Users-Manual-KO)** 
   
-  - **Device Command Manual [(English)](./Command-Manual-EN.md)/[(Korean)](./Command-Manual-KO.md)**
+  - **Device Command Manual [(English)](./Command-Manual-EN)/[(Korean)](./Command-Manual-KO)**
   
-  - **Troubleshooting Guide [(English)](./Trouble-Shooting-EN.md)/[(Korean)](./Trouble-Shooting-KO.md)**
+  - **Troubleshooting Guide [(English)](./Trouble-Shooting-EN)/[(Korean)](./Trouble-Shooting-KO)**
   
-  - **Update History [(English)](./Series-Update-History-EN.md)/[(Korean)](./Series-Update-History-KO.md)**
+  - **Update History [(English)](./Series-Update-History-EN)/[(Korean)](./Series-Update-History-KO)**
   
 -----
 
 **WIZ750SR series Downloads** 
 
-  - **[Software Download](./Download.md)**
+  - **[Software Download](./Download)**
 
-  - **[Technical References](./Technical-References.md)**
+  - **[Technical References](./Technical-References)**
 
 -----

@@ -5,8 +5,8 @@ date: 2020-04-08
 ---
 
 **Supported Languages**
-   * [English](./Getting-Started-EN.md)  
-   * [Korean](./Getting-Started-KO.md) (current page)
+   * [English](./Getting-Started-EN)  
+   * [Korean](./Getting-Started-KO) (current page)
 
 ![](/img/products/wiz750sr/docs_icon.png)
 
@@ -73,7 +73,7 @@ WIZ750SR-RS232 개발 보드 패키지는 다음과 같이 구성되어 있습�
 
 ### Software
 
-  - Configuration tool 프로그램 ([Download page](./Download.md))
+  - Configuration tool 프로그램 ([Download page](./Download))
   - TCP 서버 / TCP 클라이언트 / UDP 터미널 프로그램
   - 시리얼 터미널 프로그램
 
@@ -286,7 +286,7 @@ PC를 사용자 시리얼 장치 및 TCP 클라이언트로 삼아 데이터 통
 -----
 
 **동작에 문제가 있나요?**  
-**[Troubleshooting 가이드](./Trouble-Shooting-KO.md)** 문서를 참고해 보세요\! 
+**[Troubleshooting 가이드](./Trouble-Shooting-KO)** 문서를 참고해 보세요\! 
 
 -----
 
@@ -296,20 +296,20 @@ PC를 사용자 시리얼 장치 및 TCP 클라이언트로 삼아 데이터 통
 
  **WIZ750SR** 
 
-  - **User's Manual [(English)](./Users-Manual-EN.md)/[(Korean)](./Users-Manual-KO.md)** 
+  - **User's Manual [(English)](./Users-Manual-EN)/[(Korean)](./Users-Manual-KO)** 
   
-  - **Device Command Manual [(English)](./Command-Manual-EN.md)/[(Korean)](./Command-Manual-KO.md)**
+  - **Device Command Manual [(English)](./Command-Manual-EN)/[(Korean)](./Command-Manual-KO)**
   
-  - **Troubleshooting Guide [(English)](./Trouble-Shooting-EN.md)/[(Korean)](./Trouble-Shooting-KO.md)**
+  - **Troubleshooting Guide [(English)](./Trouble-Shooting-EN)/[(Korean)](./Trouble-Shooting-KO)**
   
-  - **Update History [(English)](./Series-Update-History-EN.md)/[(Korean)](./Series-Update-History-KO.md)**
+  - **Update History [(English)](./Series-Update-History-EN)/[(Korean)](./Series-Update-History-KO)**
   
 -----
 
 **WIZ750SR series Downloads** 
 
-  - **[Software Download](./Download.md)**
+  - **[Software Download](./Download)**
 
-  - **[Technical References](./Technical-References.md)**
+  - **[Technical References](./Technical-References)**
 
 -----

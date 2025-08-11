@@ -28,7 +28,7 @@ relevant serial interface systems (TTL / RS-232 / RS-422/485).
 | ![](/img/products/wiz750sr/overview/wiz750sr_product_overview.png) |
 | Figure: WIZ750SR Product Overview                              |
 
-**WIZ750SR is compatible\[1\] with the WIZnet WIZ107/108SR S2E module.**
+**WIZ750SR is compatible with the WIZnet WIZ107/108SR S2E module.**
 In addition, WIZ750SR contains an 4-pin GPIO expansion port that can be
 controlled freely by the user. (analog input or digital in/out)
 
@@ -118,20 +118,20 @@ of the product.
 
  **WIZ750SR** 
 
-  - **User's Manual [(English)](./Users-Manual-EN.md)/[(Korean)](./Users-Manual-KO.md)** 
+  - **User's Manual [(English)](./Users-Manual-EN)/[(Korean)](./Users-Manual-KO)** 
   
-  - **Device Command Manual [(English)](./Command-Manual-EN.md)/[(Korean)](./Command-Manual-KO.md)**
+  - **Device Command Manual [(English)](./Command-Manual-EN)/[(Korean)](./Command-Manual-KO)**
   
-  - **Troubleshooting Guide [(English)](./Trouble-Shooting-EN.md)/[(Korean)](./Trouble-Shooting-KO.md)**
+  - **Troubleshooting Guide [(English)](./Trouble-Shooting-EN)/[(Korean)](./Trouble-Shooting-KO)**
   
-  - **Update History [(English)](./Series-Update-History-EN.md)/[(Korean)](./Series-Update-History-KO.md)**
+  - **Update History [(English)](./Series-Update-History-EN)/[(Korean)](./Series-Update-History-KO)**
   
 -----
 
 **WIZ750SR series Downloads** 
 
-  - **[Software Download](./Download.md)**
+  - **[Software Download](./Download)**
 
-  - **[Technical References](./Technical-References.md)**
+  - **[Technical References](./Technical-References)**
 
 -----

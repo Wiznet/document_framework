@@ -458,11 +458,66 @@ module.exports = {
 		},
 		{
 			type: 'category',
-			label: 'S2E Module',
+			label: 'Serial to Ethernet Module',
 			link: {type: 'doc', id: 'Product/S2E-Module/s2e_module'},
 			items: [
-			//'Product/S2E-Module/s2e_module',
-			'Product/S2E-Module/serial-to-ethernet-guide',
+				{
+					type: 'category',
+					label: 'WIZ750SR',
+					link: {type: 'doc', id: 'Product/S2E-Module/WIZ750SR/wiz750sr'},
+					items: [
+						{
+							type: 'category',
+							label: 'Documentation',
+							items: [
+								'Product/S2E-Module/WIZ750SR/users-manual-EN',
+								'Product/S2E-Module/WIZ750SR/users-manual-KO',
+								'Product/S2E-Module/WIZ750SR/datasheet',
+							],
+						},
+						{
+							type: 'category',
+							label: 'Setup & Configuration',
+							items: [
+								'Product/S2E-Module/WIZ750SR/command-manual-EN',
+								'Product/S2E-Module/WIZ750SR/command-manual-KO',
+								'Product/S2E-Module/WIZ750SR/configuration-tool-manual-EN',
+								'Product/S2E-Module/WIZ750SR/configuration-tool-manual-KO',
+								'Product/S2E-Module/WIZ750SR/configuration-tool-manual-new-EN',
+								'Product/S2E-Module/WIZ750SR/configuration-tool-manual-new-KO',
+								'Product/S2E-Module/WIZ750SR/WIZ750SR_Web_Config_Guide_EN',
+								'Product/S2E-Module/WIZ750SR/WIZ750SR_Web_Config_Guide_KO',
+								{
+								type: 'category',
+								label: 'CLI-Config-Tool-Tutorial',
+								link: {type: 'doc', id: 'Product/S2E-Module/WIZ750SR/CLI-Config-Tool-Tutorial/cli-config-tool-tutorial',},
+								items: [
+									'Product/S2E-Module/WIZ750SR/CLI-Config-Tool-Tutorial/overview-environment',
+									'Product/S2E-Module/WIZ750SR/CLI-Config-Tool-Tutorial/how-to-use-cli-config-tool',
+									'Product/S2E-Module/WIZ750SR/CLI-Config-Tool-Tutorial/single-device-configuration',
+									'Product/S2E-Module/WIZ750SR/CLI-Config-Tool-Tutorial/multi-device-configuration',
+									'Product/S2E-Module/WIZ750SR/CLI-Config-Tool-Tutorial/file-options',
+									],
+								},
+							],
+						},
+						{
+							type: 'category',
+							label: 'User Guides',
+							items: [
+									'Product/S2E-Module/WIZ750SR/getting-started-EN',
+									'Product/S2E-Module/WIZ750SR/getting-started-KO',
+									'Product/S2E-Module/WIZ750SR/trouble-shooting-EN',
+									'Product/S2E-Module/WIZ750SR/trouble-shooting-KO',
+									'Product/S2E-Module/WIZ750SR/developers-guide-EN',
+									'Product/S2E-Module/WIZ750SR/developers-guide-KO',
+
+								],
+						},
+						'Product/S2E-Module/WIZ750SR/download',
+					],
+				},
+				
 			{
 				type: 'category',
 				label: 'WIZ75x Series',

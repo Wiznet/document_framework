@@ -206,3 +206,112 @@ div[class^='chatbase-message-bubbles'] {
   right: 1.5rem !important;
   bottom: 10rem !important;
 }
+
+.link-card {
+  display: block;
+  text-decoration: none;
+  color: inherit;
+  border: 1px solid #ddd;
+  border-radius: 12px;
+  padding: 1.5rem;
+  margin-bottom: 0.5rem;
+  background: #fff;
+  transition: background 0.2s, box-shadow 0.2s, border-color 0.2s;
+  box-shadow: none;
+}
+.link-card:hover {
+  background: #f5f7fa;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.08);
+  border-color: #2bbbad;
+  text-decoration: none !important;
+  color: inherit !important;
+}
+.link-card-content {
+  display: flex;
+  align-items: center;
+  text-decoration: none !important;
+  color: inherit !important;
+}
+.link-card-content img {
+  width: 120px;
+  margin-right: 2rem;
+}
+.link-card-content h3 {
+  margin: 0;
+}
+.link-card-content p {
+  margin: 0;
+}
+
+.main-card {
+  border: 1px solid #ddd;
+  border-radius: 12px;
+  padding: 1rem;
+  display: flex;
+  align-items: center;
+  margin-bottom: 2rem;
+  background: #fff;
+}
+.main-card img {
+  width: 300px;
+  margin-right: 1rem;
+}
+.main-card h3 {
+  margin: 0;
+}
+.main-card p {
+  margin: 0;
+}
+
+@media (max-width: 600px) {
+  .main-card {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+  .main-card img {
+    width: 100%;
+    margin-right: 0;
+    margin-bottom: 1rem;
+  }
+}
+
+
+.main_intro {
+  display: flex;
+  gap: 20px;
+  align-items: center; /* 세로 중앙 정렬로 변경 */
+  flex-direction: row;
+}
+
+.main_intro_image {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 950px; /* 이미지 기본 사이즈 변경 */
+  text-align: center;
+}
+
+.main_intro_text {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: left;
+  height: 100%;
+}
+
+@media (max-width: 768px) {
+  .main_intro {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .main_intro_image {
+    width: 100%;
+    justify-content: center;
+  }
+
+  .main_intro_text {
+    align-items: center;
+    text-align: center;
+  }
+}

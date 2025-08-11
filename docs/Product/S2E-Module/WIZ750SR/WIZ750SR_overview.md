@@ -1,5 +1,5 @@
 ---
-id: wiz750sr
+id: wiz750sr_overview
 title: WIZ750SR
 date: 2020-04-08
 ---

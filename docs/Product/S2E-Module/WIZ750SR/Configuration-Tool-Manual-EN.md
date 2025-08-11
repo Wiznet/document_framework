@@ -5,7 +5,7 @@ date: 2020-04-08
 ---
 
 **Supported Languages** 
-   * [English](./Command-Manual-EN.md) (current page)  
+   * [English](./Configuration-Tool-Manual-EN.md) (current page)  
    * [Korean](./Configuration-Tool-Manual-KO.md)
 
 ![](/img/products/wiz750sr/clitool/datasheet/wiz750sr_pinout_exp_rev1.2.png)
@@ -98,7 +98,7 @@ section are available below.
       - In this case, try to search after turning off the firewall or
         virus protection software.
       - Please refer to this guide if still unsuccessful.
-          - **[Troubleshooting Guide: Device cannot be searched](./Trouble-Shooting-EN.md)**
+          - **[Troubleshooting Guide: Device cannot be searched](./Trouble-Shooting-EN)**
 
 #### 2\) Save Settings
 
@@ -125,7 +125,7 @@ section are available below.
       - In this case, try to upload after turning off the firewall or
         virus protection software.
       - Please refer to this guide if still unsuccessful.
-          - **[Troubleshooting Guide: Firmware cannot be uploaded](./Trouble-Shooting-EN.md)**
+          - **[Troubleshooting Guide: Firmware cannot be uploaded](./Trouble-Shooting-EN)**
   - The module will not work properly if the firmware is not correctly
     uploaded.
 
@@ -498,7 +498,7 @@ multi-selected but has priority as shown below.
 -----
 
 **If there is any problem?**  
-Please refer to our **[Troubleshooting Guide](./Trouble-Shooting-EN.md)**\! 
+Please refer to our **[Troubleshooting Guide](./Trouble-Shooting-EN)**\! 
 
 -----
 
@@ -508,21 +508,21 @@ Please refer to our **[Troubleshooting Guide](./Trouble-Shooting-EN.md)**\!
 
  **WIZ750SR** 
 
-  - **User's Manual [(English)](./Users-Manual-EN.md)/[(Korean)](./Users-Manual-KO.md)** 
+  - **User's Manual [(English)](./Users-Manual-EN)/[(Korean)](./Users-Manual-KO)** 
   
-  - **Device Command Manual [(English)](./Command-Manual-EN.md)/[(Korean)](./Command-Manual-KO.md)**
+  - **Device Command Manual [(English)](./Command-Manual-EN)/[(Korean)](./Command-Manual-KO)**
   
-  - **Troubleshooting Guide [(English)](./Trouble-Shooting-EN.md)/[(Korean)](./Trouble-Shooting-KO.md)**
+  - **Troubleshooting Guide [(English)](./Trouble-Shooting-EN)/[(Korean)](./Trouble-Shooting-KO)**
   
-  - **Update History [(English)](./Series-Update-History-EN.md)/[(Korean)](./Series-Update-History-KO.md)**
+  - **Update History [(English)](./Series-Update-History-EN)/[(Korean)](./Series-Update-History-KO)**
   
 -----
 
 **WIZ750SR series Downloads** 
 
-  - **[Software Download](./Download.md)**
+  - **[Software Download](./Download)**
 
-  - **[Technical References](./Technical-References.md)**
+  - **[Technical References](./Technical-References)**
 
 -----
 
