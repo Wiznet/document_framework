@@ -931,8 +931,6 @@ module.exports = {
 			},
 			
 		//	'Product/S2E-Module/Inustiral',
-		],
-		},
 		{
 			type: 'category',
 			label: 'ioModule',
