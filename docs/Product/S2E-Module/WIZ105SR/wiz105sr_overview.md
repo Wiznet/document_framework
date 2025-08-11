@@ -1,5 +1,5 @@
 ---
-id: wiz105sr
+id: wiz105sr_overview
 title: WIZ105SR
 date: 2021-07-21
 ---

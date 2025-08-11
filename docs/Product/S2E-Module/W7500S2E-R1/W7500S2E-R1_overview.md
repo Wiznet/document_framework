@@ -1,5 +1,5 @@
 ---
-id: w7500s2e_r1
+id: w7500s2e_r1_overview
 title: W7500S2E-R1
 date: 2020-04-07
 ---

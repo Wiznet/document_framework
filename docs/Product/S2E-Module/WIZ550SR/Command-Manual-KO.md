@@ -1,6 +1,6 @@
 ---
-id: users_manual_programmers_guide-KO
-title: User's Manual (Programmer's Guide)-[KO]
+id: command-manual-KO
+title: Command Manual-[KO]
 date: 2020-04-24
 ---
 

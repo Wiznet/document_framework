@@ -1,6 +1,6 @@
 ---
-id: users_manual_programmers_guide-EN
-title: User's Manual (Programmer's Guide)-[EN]
+id: command-manual-EN
+title: Command Manual-[EN]
 date: 2020-04-16
 ---
 

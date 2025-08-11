@@ -1,0 +1,215 @@
+---
+id: wiz505sr-rp
+title: WIZ505SR-RP
+date: 2025-08-06
+---
+
+import Tabs from '@theme/Tabs';
+import TabItem from '@theme/TabItem';
+
+# WIZ505SR-RP
+
+<div className="main-card">
+  <img src="/img/products/s2e_module/wiz505sr-rp/wiz505sr-rp-side.png" alt="WIZ505SR-RP" />
+  <div>
+    <h3>WIZ505SR-RP</h3>
+    <br />
+    <p>
+      WIZ505SR-RP is a compact sized serial to Ethernet module using the RP2040 MCU with W5100S Ethernet Chip.
+    </p>
+  </div>
+</div>
+
+WIZ505SR-RP is a protocol converter that transmits data sent by serial equipment as TCP/IP data, and converts the TCP/IP data received through the network back into serial data to the serial equipment.
+
+In addition, WIZ505SR-RP contains serial debug port(J1).
+
+**WIZ505SR-100 is the best fit solution to control user's serial device via Ethernet network.**
+
+------
+
+
+## Features
+
+  - Serial to Ethernet Module based on **RP2040** MCU (TTL level)
+  - Includes W5100S and magnetic RJ45 modular jack
+  - **10/100Mbps Ethernet & Up to 230kbps serial speed**
+  - **2.54mm pitch 2x7 Pin-header mounted module**
+  - Status pins: PHY link status / TCP connection status
+  - Serial signals(UART or RS-232C)
+    - WIZ505SR-RP module(UART): TXD, RXD, RTS, CTS
+    - WIZ5xxSR-RP-EVB(RS-232C): TXD, RXD, RTS, CTS
+    - Optional DTR/DSR signals supported (Status pins or DTR/DSR pins
+      selectable)
+  - WIZ505SR-RP has UART x 2, SWD x 1, Ethernet x 1
+    - UART0, SWD for Debug and UART1, Ethernet for Data transceive
+  - Separate **Data UART** and **Debug UART** port
+  - Configuration is possible via serial AT commands or via
+    Configuration tool 
+  - Support WIZ VSP (Virtual Serial Port) program 
+  - Built in 10/100Mbps Ethernet ESD Protection IC
+
+
+## Documentation
+
+This section provides key documentation, including user manuals and datasheets, to help you understand product features, specifications, and usage.
+
+| Title | Description | Link | Notes |
+|-------|-------------|------|-------|
+| User's Manual  | Product usage instructions | - | TBD |
+| Datasheet | Technical specifications | ![link](\img\link.png) [EN](./Datasheet.md) | - |
+
+
+## Setup & Configuration
+
+This section provides essential guides and manuals for setting up and configuring your device.
+Learn how to use various tools and interfaces—including command manuals, configuration utilities, web-based setup, and CLI tutorials—to efficiently manage and customize your product.
+
+| Title | Description | Link | Notes |
+|-------|-------------|------|-------|
+| Command Manual | Guide to main commands and usage | ![link](\img\link.png) [EN](./Command-Manual-EN.mdx) | - |
+| Configuration Tool Manual | How to use the configuration tool | ![link](\img\link.png) [EN](./Configuration-Tool-Manual-EN.mdx) | - |
+| Web Server Configuration Guide | Web-based configuration guide | - | TBD |
+
+
+## User Guide
+
+This section offers essential guides to help you get started, troubleshoot issues, and make the most of your device. Find setup instructions, developer resources, and support materials below.
+
+| Title | Description | Link | Notes |
+|-------|-------------|------|-------|
+| Getting Started | Quick setup instructions for using your WIZ500SR-RP device | ![link](\img\link.png) [EN](./Getting-Started-EN.md) | - |
+| Trouble Shooting Guide | Solutions to common issues and troubleshooting steps | - | TBD |
+| Developer's Guide | Setup, customization, and advanced usage for developers | - | TBD |
+| MQTT Connection Guide | How to set up and use MQTT communication | ![link](\img\link.png) [EN](./mqtt-connection-guide-en.mdx) | - |
+| SSL Connection Guide | How to configure secure SSL connections | ![link](\img\link.png) [EN](./ssl-connection-guide-en.mdx) | - |
+| Modbus Connection Guide | How to connect and use Modbus protocol | ![link](\img\link.png) [EN](./modbus-connection-guide-en.mdx) | - |
+
+
+## Software Resources
+
+This section provides essential software resources, including configuration tools, firmware, and source code for your device.
+
+<Tabs>
+  <TabItem value="tool" label="Tools" default>
+      
+  | Title | Description | Download | Notes |
+  |-------|-------------|----------|-------|
+  | WIZnet S2E Configuration Tool | WIZnet device search, configuration, and firmware upload tool | ![link](\img\link.png) [Download](https://github.com/Wiznet/WIZnet-S2E-Tool-GUI/releases) | - |
+  | WIZVSP | Virtual COM port software for serial-based applications | ![link](\img\link.png) [Download](http://wizvsp.wiznet.io/) | ![link](\img\link.png) [Note](./Download.mdx#wiz-vsp) |
+
+  :::info
+
+  The configuration tool used is different depending on the S2E product family, so need to use a tool suitable for the product.
+  :::
+
+  </TabItem>
+  <TabItem value="firmware" label="Firmware" default>
+
+  - [Firmware Download Guide](./Download.mdx)
+
+  | Title | Description                        | Download      | Notes |
+  |-------|------------------------------------|---------------|-------|
+  | firmware | Firmware | ![link](\img\link.png) [Download](https://github.com/Wiznet/WIZ5XXSR-RP-C/releases) | - |
+  
+  </TabItem>
+
+  <TabItem value="source_code" label="Source code" default>
+  WIZ500SR-RP Series Firmware source code link
+
+  ![link](\img\link.png) [**WIZ500SR-RP Series GitHub Repository**](https://github.com/Wiznet/WIZ5XXSR-RP-C)
+  
+  </TabItem>
+</Tabs>
+ 
+
+## Hardware Resources
+
+This section provides essential hardware resources, including schematics, 3D models, and part lists for your reference.
+
+| Title | Description | Download | Notes |
+|-------|-------------|----------|-------|
+| schematic | Circuit diagram for hardware design reference | ![download](/img/products/w5500/w5500_evb/icons/download.png) [Altium] / ![download](/img/products/w5500/w5500_evb/icons/download.png) [PDF] | Latest version H/W |
+| 3D File | 3D model for mechanical design and visualization | ![download](/img/products/w5500/w5500_evb/icons/download.png) [Altium]  | ::: |
+| Part list | List of components used in the hardware | ![download](/img/products/w5500/w5500_evb/icons/download.png) [ZIP] | ::: | 
+
+:::note
+
+Old versions of the hardware resources can be found at [**this link**](https://docs.wiznet.io/Product/S2E-Module/WIZ750SR/datasheet#schematic).
+
+:::
+
+
+## Test & Certification
+
+This section provides official test results and certification documents for product compliance and safety standards.
+
+| Title | Description | Download | Notes |
+|-------|-------------|----------|-------|
+| KC | Korea safety certification | ![](\img\products\w5500\w5500_evb\icons\docs_icon_small.png) [Download] | - |
+| FCC | U.S. EMI certification | ![](\img\products\w5500\w5500_evb\icons\docs_icon_small.png) [Download] | - |
+| CE | EU safety certification | ![](\img\products\w5500\w5500_evb\icons\docs_icon_small.png) [Download] | - |
+
+
+## Evaluation Boards & Related modules
+
+<Tabs>
+  <TabItem value="eval_board" label="Evaluation Boards" default>
+
+  <div className="link-card">
+  <a
+    href="/Product/S2E-Module/WIZ5xxSR-RP-Series/WIZ505SR-RP/wiz505sr-rp-evb"
+    target="_blank"
+    rel="noopener noreferrer"
+    className="link-card-content"
+  >
+    <img src="https://github.com/Wiznet/Hardware-Files-of-WIZnet/blob/master/04_Serial_to_Ethernet_Module/WIZ505SR-RP-EVB/Images/WIZ500SR-RP%201%20.png?raw=true" alt="WIZ505SR-RP-EVB" />
+    <div>
+      <h3>WIZ505SR-RP-EVB</h3>
+      <p>
+        WIZ500SR-RP Developer Board.
+      </p>
+    </div>
+  </a>
+  </div>
+
+  </TabItem>
+
+  <TabItem value="related_modules" label="Related modules" default>
+
+  <div className="link-card">
+  <a
+    href="/Product/S2E-Module/WIZ5xxSR-RP-Series/WIZ500SR-RP"
+    target="_blank"
+    rel="noopener noreferrer"
+    className="link-card-content"
+  >
+    <img src="/img/products/s2e_module/wiz500sr-rp/wiz500sr-rp-top.png" alt="WIZ500SR-RP" />
+    <div>
+      <h3>WIZ500SR-RP</h3>
+      <p>
+        WIZ500SR-RP is a compact sized serial to Ethernet module using the RP2040 MCU with W5100S Ethernet Chip.
+      </p>
+    </div>
+  </a>
+  </div>
+
+  <div className="link-card">
+  <a
+    href="/Product/S2E-Module/WIZ5xxSR-RP-Series/WIZ510SR-RP"
+    target="_blank"
+    rel="noopener noreferrer"
+    className="link-card-content"
+  >
+    <img src="/img/products/s2e_module/wiz510sr-rp/wiz510sr-rp-top.png" alt="WIZ510SR-RP" />
+    <div>
+      <h3>WIZ510SR-RP</h3>
+      <p>
+        WIZ510SR-RP is a compact sized serial to Ethernet module using the RP2040 MCU with W5100S Ethernet Chip.
+      </p>
+    </div>
+  </a>
+  </div>
+
+  </TabItem>
+</Tabs>

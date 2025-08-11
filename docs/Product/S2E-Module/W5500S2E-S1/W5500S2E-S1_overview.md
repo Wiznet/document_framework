@@ -1,5 +1,5 @@
 ---
-id: w5500s2e_s1
+id: w5500s2e_s1_overview
 title: W5500S2E-S1
 date: 2020-04-07
 ---

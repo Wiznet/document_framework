@@ -1,6 +1,6 @@
 ---
 id: firmware-update-guide-en
-title: Firmware update guide-[EN]
+title: Download
 date: 2022-06-28
 ---
 
