@@ -1,5 +1,5 @@
 ---
-id: wiz752sr-125
+id: wiz752sr-125_overview
 title: WIZ752SR-125
 date: 2020-04-13
 ---

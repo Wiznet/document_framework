@@ -97,23 +97,23 @@ MII supported for PHY interface
 
 ## Documents
 
-[Product Overview](./../../S2E-Module/WIZ750SR/WIZ750SR.md)
+[Product Overview](./../../S2E-Module/WIZ750SR/WIZ750SR.mdx)
 
-Getting Started Guide [(English)](../../S2E-Module/WIZ750SR/Getting-Started-EN.md)/[(Korean)](../../S2E-Module/WIZ750SR/Getting-Started-KO.md)
+Getting Started Guide [(English)](../../S2E-Module/WIZ750SR/Getting-Started-EN.md)/[(Korean)](../../S2E-Module/WIZ750SR/Getting-Started-KO)
 
-User's Manual [(English)](../../S2E-Module/WIZ750SR/Users-Manual-EN.md)/[(Korean)](../../S2E-Module/WIZ750SR/Users-Manual-KO.md)
+User's Manual [(English)](../../S2E-Module/WIZ750SR/Users-Manual-EN)/[(Korean)](../../S2E-Module/WIZ750SR/Users-Manual-KO)
 
-Configuration Tool Manual [(English)](../../S2E-Module/WIZ750SR/Configuration-Tool-Manual-EN.md)/[(Korean)](../../S2E-Module/WIZ750SR/Configuration-Tool-Manual-KO.md)
+Configuration Tool Manual [(English)](../../S2E-Module/WIZ750SR/Configuration-Tool-Manual-EN)/[(Korean)](../../S2E-Module/WIZ750SR/Configuration-Tool-Manual-KO)
 
-Configuration Tool Manual New [(English)](../../S2E-Module/WIZ750SR/Configuration-Tool-Manual-New-EN.md)/[(Korean)](../../S2E-Module/WIZ750SR/Configuration-Tool-Manual-New-KO.md)
+Configuration Tool Manual New [(English)](../../S2E-Module/WIZ750SR/Configuration-Tool-Manual-New-EN)/[(Korean)](../../S2E-Module/WIZ750SR/Configuration-Tool-Manual-New-KO)
 
-[CLI Config Tool Tutorial](./../../S2E-Module/WIZ750SR/CLI-Config-Tool-Tutorial/CLI-Config-Tool-Tutorial.md)
+[CLI Config Tool Tutorial](./../../S2E-Module/WIZ750SR/CLI-Config-Tool-Tutorial/CLI-Config-Tool-Tutorial.mdx)
 
-Device Command Manual [(English)](../../S2E-Module/WIZ750SR/Command-Manual-EN.md)/[(Korean)](../../S2E-Module/WIZ750SR/Command-Manual-KO.md)
+Device Command Manual [(English)](../../S2E-Module/WIZ750SR/Command-Manual-EN.md)/[(Korean)](../../S2E-Module/WIZ750SR/Command-Manual-KO)
 
 [Education Data](../../S2E-Module/WIZ750SR/Education-Data.md)
 
-Troubleshooting Guide [(English)](../../S2E-Module/WIZ750SR/Trouble-Shooting-EN.md)/[(Korean)](../../S2E-Module/WIZ750SR/Trouble-Shooting-KO.md)
+Troubleshooting Guide [(English)](../../S2E-Module/WIZ750SR/Trouble-Shooting-EN)/[(Korean)](../../S2E-Module/WIZ750SR/Trouble-Shooting-KO)
 
 Update History [(English)](../../S2E-Module/WIZ750SR/Series-Update-History-EN.md)/[(Korean)](../../S2E-Module/WIZ750SR/Series-Update-History-KO.md)
 
@@ -126,13 +126,13 @@ Update History [(English)](../../S2E-Module/WIZ750SR/Series-Update-History-EN.md
 
 ## Developer's Guide
 
-**Developer's Guide [(English)](../../S2E-Module/WIZ750SR/Developers-Guide-EN.md)/[(Korean)](../../S2E-Module/WIZ750SR/Developers-Guide-KO.md)**
+**Developer's Guide [(English)](../../S2E-Module/WIZ750SR/Developers-Guide-EN.mdx)/[(Korean)](../../S2E-Module/WIZ750SR/Developers-Guide-KO.mdx)**
 
 -----
 
 ## Download
 
-**[Software Download](../../S2E-Module/WIZ750SR/Download.md)**
+**[Software Download](../../S2E-Module/WIZ750SR/Download.mdx)**
 
 **[Technical References](../../S2E-Module/WIZ750SR/Technical-References.md)**
 

@@ -91,20 +91,20 @@ WIZ750SR-110 모듈은 RS-232C로 동작합니다.
 
 WIZ750SR series Common Documents 
 
-  - **User's Manual [(English)](./../../WIZ750SR/Users-Manual-EN.md)/[(Korean)](./../../WIZ750SR/Users-Manual-KO.md)** 
+  - **User's Manual [(English)](./../../WIZ750SR/Users-Manual-EN)/[(Korean)](./../../WIZ750SR/Users-Manual-KO)** 
   
-  - **Device Command Manual [(English)](./../../WIZ750SR/Command-Manual-EN.md)/[(Korean)](./../../WIZ750SR/Command-Manual-KO.md)**
+  - **Device Command Manual [(English)](./../../WIZ750SR/Command-Manual-EN)/[(Korean)](./../../WIZ750SR/Command-Manual-KO)**
   
-  - **Troubleshooting Guide [(English)](./../../WIZ750SR/Trouble-Shooting-EN.md)/[(Korean)](./../../WIZ750SR/Trouble-Shooting-KO.md)**
+  - **Troubleshooting Guide [(English)](./../../WIZ750SR/Trouble-Shooting-EN)/[(Korean)](./../../WIZ750SR/Trouble-Shooting-KO)**
   
-  - **Update History [(English)](./../../WIZ750SR/Series-Update-History-EN.md)/[(Korean)](./../../WIZ750SR/Series-Update-History-KO.md)**
+  - **Update History [(English)](./../../WIZ750SR/Series-Update-History-EN)/[(Korean)](./../../WIZ750SR/Series-Update-History-KO)**
   
 -----
 
 **WIZ750SR series Downloads** 
 
-  - **[Software Download](./../../WIZ750SR/Download.md)**
-  - **[Technical References](./../../WIZ750SR/Technical-References.md)**
+  - **[Software Download](./../../WIZ750SR/Download)**
+  - **[Technical References](./../../WIZ750SR/Technical-References)**
 
 -----
 
