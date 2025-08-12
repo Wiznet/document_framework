@@ -118,8 +118,8 @@ This section offers essential guides to help you get started, troubleshoot issue
 
 This section provides essential software resources, including configuration tools, firmware, and source code for your device.
 
-<Tabs>
-  <TabItem value="tool" label="Tools">
+<Tabs groupId="Firmware">
+  <TabItem value="tool" label="Tools" default>
       
   | Title | Description | Download | Notes |
   |-------|-------------|----------|-------|
@@ -133,12 +133,12 @@ This section provides essential software resources, including configuration tool
   </TabItem>
   <TabItem value="firmware" label="Firmware">
 
-  - [Firmware Download Guide](./Download)
+  - [Firmware Download Guide](./Download.md)
 
   | Title | Description                        | Download      | Notes |
   |-------|------------------------------------|---------------|-------|
-  | firmware | Application Firmware  | ![download](/img/products/w5500/w5500_evb/icons/download.png) [Application v1.4.2](https://github.com/Wiznet/WIZ750SR/releases/download/v1.4.2/WIZ750SRv142.bin) |  For ConfigTool only |
-  | ::: | All (Boot + App)           | ![download](/img/products/w5500/w5500_evb/icons/download.png) [All v1.4.2](https://github.com/Wiznet/WIZ750SR/releases/download/v1.4.2/WIZ750SRv142_incl_boot.bin)                 | For WIZISP only |
+  | firmware | Application Firmware  | ![link](\img\link.png) [Application v1.2.2](https://github.com/Wiznet/WIZ550SR/releases) |  For ConfigTool only |
+  | ::: | All (Boot + App)           | ![link](\img\link.png) [All v1.2.2](https://github.com/Wiznet/WIZ550SR/releases)                 | For Flash Loader Demonstrator only |
 
   :::info
 
@@ -148,12 +148,10 @@ This section provides essential software resources, including configuration tool
   </TabItem>
 
   <TabItem value="source_code" label="Source code">
-  WIZ750SR Series Firmware source code link
+  WIZ550SR Firmware source code link
 
-  ![link](\img\link.png) [**WIZ750SR Series GitHub Repository**](https://github.com/Wiznet/WIZ750SR)
+  ![link](\img\link.png) [**WIZ550SR Series GitHub Repository**](https://github.com/Wiznet/WIZ550SR)
   
-  > **Note:** The above link is an integrated firmware project(MDK-ARM)'s
-    repository of WIZ750SR and WIZ750SR-100 series.
   </TabItem>
 </Tabs>
  
@@ -164,13 +162,13 @@ This section provides essential hardware resources, including schematics, 3D mod
 
 | Title | Description | Download | Notes |
 |-------|-------------|----------|-------|
-| schematic | Circuit diagram for hardware design reference | ![download](/img/products/w5500/w5500_evb/icons/download.png) [Altium] / ![download](/img/products/w5500/w5500_evb/icons/download.png) [PDF] | Latest version H/W |
-| 3D File | 3D model for mechanical design and visualization | ![download](/img/products/w5500/w5500_evb/icons/download.png) [Altium] | ::: |
-| Part list | List of components used in the hardware | ![download](/img/products/w5500/w5500_evb/icons/download.png) [ZIP] | ::: | 
+| schematic | Circuit diagram for hardware design reference | ![download](/img/products/w5500/w5500_evb/icons/download.png) [Altium](/img/products/wiz550sr/wiz550sr_ds/wiz550sr_sch_v100.zip) / ![download](/img/products/w5500/w5500_evb/icons/download.png) [PDF](/img/products/wiz550sr/wiz550sr_ds/wiz550sr_sch_v100.pdf) | Latest version H/W |
+| 3D File | 3D model for mechanical design and visualization | ![download](/img/products/w5500/w5500_evb/icons/download.png) [Altium](/img/products/3d-step-files/WIZ550SR_V1.0.step) | ::: |
+| Part list | List of components used in the hardware | ![download](/img/products/w5500/w5500_evb/icons/download.png) [PDF](/img/products/wiz550sr/wiz550sr_ds/wiz550sr_bom_v100_160511.pdf) | ::: | 
 
 :::note
 
-Old versions of the hardware resources can be found at [**this link**](https://docs.wiznet.io/Product/S2E-Module/WIZ750SR/datasheet#schematic).
+Old versions of the hardware resources can be found at [**this link**](https://docs.wiznet.io/Product/S2E-Module/WIZ550SR/datasheet-EN#schematics--bom).
 
 :::
 
@@ -181,9 +179,9 @@ This section provides official test results and certification documents for prod
 
 | Title | Description | Download | Notes |
 |-------|-------------|----------|-------|
-| KC | Korea safety certification | ![](\img\products\w5500\w5500_evb\icons\docs_icon_small.png) [Download] | - |
-| FCC | U.S. EMI certification | ![](\img\products\w5500\w5500_evb\icons\docs_icon_small.png) [Download] | - |
-| CE | EU safety certification | ![](\img\products\w5500\w5500_evb\icons\docs_icon_small.png) [Download] | - |
+| KC | Korea safety certification | - | TBD |
+| FCC | U.S. EMI certification | - | TBD |
+| CE | EU safety certification | - | TBD |
 
 
 ## Evaluation Boards
