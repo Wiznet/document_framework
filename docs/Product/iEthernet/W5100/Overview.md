@@ -12,7 +12,7 @@ import TabItem from '@theme/TabItem';
 <h1>W5100</h1>
 <div className="main_intro"> 
   <div className="main_intro_image">
-    <img src="/img/products/W5100/W5100-7-500x500.jpg" width="550" />
+    <img src="/img/products/w5100/W5100-7-500x500.jpg" width="550" />
   </div>
   <div className="w5100-text">
     <p>
@@ -23,7 +23,7 @@ import TabItem from '@theme/TabItem';
 
 <details>
 <summary><b>Block Diagram</b></summary> 
-<img src="/img/products/W5100/w5100-block-d.jpg" alt="W5100_Block_Diagram" width="500"/>
+<img src="/img/products/w5100/w5100-block-d.jpg" alt="W5100_Block_Diagram" width="500"/>
 
 </details>
 
@@ -144,7 +144,7 @@ import TabItem from '@theme/TabItem';
     rel="noopener noreferrer"
     className="link-card-content"
   >
-    <img src="/img/products/W5100/W5100E01-AVR1.jpg" alt="W5100-EVB" />
+    <img src="/img/products/w5100/W5100E01-AVR1.jpg" alt="W5100-EVB" />
     <div>
       <h3>W5100-EVB</h3>
       <p>

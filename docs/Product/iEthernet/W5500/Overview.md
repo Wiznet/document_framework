@@ -12,7 +12,7 @@ import TabItem from '@theme/TabItem';
 <!-- <h1>W5500</h1> -->
 <div className="main_intro"> 
   <div className="main_intro_image">
-    <img src="/img/products/W5500/img_w5500h.jpg" width="550" />
+    <img src="/img/products/w5500/img_w5500h.jpg" width="550" />
   </div>
   <div className="w5500-text">
     <p>
@@ -51,8 +51,6 @@ import TabItem from '@theme/TabItem';
 
 -----
 
-id: documentation
-title: Documentation
 ## Documentation
 
 
@@ -167,7 +165,7 @@ title: Documentation
     rel="noopener noreferrer"
     className="link-card-content"
   >
-    <img src="/img/products/W5500/msw5500_evb_v1.0_side.png" alt="W5500 Ethernet Shield" />
+    <img src="/img/products/w5500/msw5500_evb_v1.0_side.png" alt="W5500 Ethernet Shield" />
     <div>
       <h3>W5500 Ethernet Shield</h3>
       <p>
@@ -190,7 +188,7 @@ title: Documentation
     rel="noopener noreferrer"
     className="link-card-content"
   >
-    <img src="/img/products/W5500/w5500_evb_pico.png" alt="W5500-EVB-Pico" />
+    <img src="/img/products/w5500/w5500_evb_pico.png" alt="W5500-EVB-Pico" />
     <div>
       <h3>W5500-EVB-Pico</h3>
       <p>
@@ -207,7 +205,7 @@ title: Documentation
     rel="noopener noreferrer"
     className="link-card-content"
   >
-    <img src="/img/products/W5500/w5500-evb-pico-poe.png" alt="W5500-EVB-Pico-PoE" />
+    <img src="/img/products/w5500/w5500-evb-pico-poe.png" alt="W5500-EVB-Pico-PoE" />
     <div>
       <h3>W5500-EVB-Pico-PoE</h3>
       <p>
@@ -224,7 +222,7 @@ title: Documentation
     rel="noopener noreferrer"
     className="link-card-content"
   >
-    <img src="/img/products/W5500/w5500-evb-pico2.png" alt="w5500-evb-pico2" />
+    <img src="/img/products/w5500/w5500-evb-pico2.png" alt="w5500-evb-pico2" />
     <div>
       <h3>W5500-EVB-Pico2</h3>
       <p>
