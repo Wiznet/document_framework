@@ -315,3 +315,26 @@ div[class^='chatbase-message-bubbles'] {
     text-align: center;
   }
 }
+
+/* 더 구체적인 선택자 사용 
+ .tabs-container .tabs__item,
+.tabs .tabs__item {
+  color: #424242 !important;
+  border-bottom-color: #00ccff !important;
+
+  background-color: #ffffff !important; // 비활성 탭 배경색 
+}
+
+.tabs-container .tabs__item--active,
+.tabs .tabs__item--active {
+  color: #000000 !important;
+  border-bottom-color: #00ccff !important;
+  background-color: #9cc7ee !important; // 활성 탭 배경색 
+}
+
+.tabs-container .tabs__item:hover,
+.tabs .tabs__item:hover {
+  color: #00ccff !important;
+  border-bottom-color: #00ccff !important;
+  background-color: #e6f3ff !important; // 호버 시 배경색 
+} */

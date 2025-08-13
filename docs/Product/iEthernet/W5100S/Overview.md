@@ -1,51 +1,39 @@
 ---
 id: overview
 title: Overview
-date: 2020-04-03
+date: 2025-08-13
 keywords: [w5100s,ethernet chip,wiznet,hardwired tcp/ip,arduino ethernet,pico ethernet]
 description: W5100S chip is a Hardwired Internet controller designed as a full hardwired TCP/IP stack with WIZnet technology
 ---
+import Tabs from '@theme/Tabs';
+import TabItem from '@theme/TabItem';
 
 # W5100S
+<h1>W5100S</h1>
+<div className="main_intro"> 
+  <div className="main_intro_image">
+        <img src="/img/products/w5100s/w5100s_pm.png" width="550" />
+  </div>
+  <div className="w5100s-text">
+  <p>
+    W5100S is an embedded Internet controller designed as a full hardwired TCP/IP with WIZnet technology. W5100S provides internet connectivity to your embedded system by using SPI (Serial Peripheral Interface) or Parallel System BUS. SPI and Parallel System BUS provide easy connection via external MCU to W5100S. The clock speed of W5100S SPI supports up to 70MHz and the Parallel System Bus supports higher speed network communication than SPI.
+    </p>
+  </div>
+</div>
 
+<details>
+<summary><b>Block Diagram</b></summary> 
 
-![](/img/products/w5100s/w5100s_pm.png)
+<img src="/img/products/w5100s/w5100s_diagram.png" alt="W5100S_Block_Diagram" width="500"/>
 
-W5100S is an embedded Internet controller designed as a full hardwired
-TCP/IP with WIZnet technology. W5100S provides internet connectivity to
-your embedded system by using SPI (Serial Peripheral Interface) or
-Parallel System BUS. SPI and Parallel System BUS provide easy connection
-via external MCU to W5100S. The clock speed of W5100S SPI supports upto
-70MHz and the Parallel System Bus supports higher speed network
-communication than SPI.
+</details>
 
-Since W5100S integrates the Hardwired TCP/IP stack with 10/100 Ethernet
-MAC and PHY, it is truly a one-chip solution for the stable internet
-connectivity. WIZnet’s hardwired TCP/IP stack supports TCP, UDP, IPv4,
-ICMP, ARP, IGMP, and PPPoE - and it has been proven through various
-applications over the last decade.
+<details>
+<summary><b>Pin Map</b></summary> 
 
-W5100S provides four independent SOCKETs to be used simultaneously and
-16KB internal memory for data communication. Users can develop an
-Ethernet application easily by using the simple W5100S SOCKET program
-instead of handling a complex Ethernet controller. W5100S also provides
-WOL (Wake on LAN) and a Power Down Mode in order to reduce power
-consumption.
+<img src="/img/products/w5100s/w5100s_pinmap.png" alt="W5100S_Pin_Map" width="500"/>
 
-W5100S is a low-cost chip that exceeds its predecessor, W5100. Existing
-firmware using W5100 can be used on W5100S without modification. W5100S
-has two types of packages, 48 Pin LQFP & QFN Lead-Free Package.
-
-![W5100S Block diagram](/img/products/w5100s/w5100s_diagram.png)
-
------
-
-
-## Pin MAP
-![W5100S Pin map](/img/products/w5100s/w5100s_pinmap.png)
-
------
-
+</details>
 
 ## Features
 
@@ -67,21 +55,311 @@ has two types of packages, 48 Pin LQFP & QFN Lead-Free Package.
 
 -----
 
+## Documentation
 
-## Target Application
+### Technical Documents
 
-  - User product based on W5100 : No need to modify Firmware
-  - Home Network Devices: Set-Top Boxes, PVRs, Digital Media Adapters
-  - Serial-to-Ethernet: Access Controls, LED displays, Wireless AP
-    relays, etc.
-  - Parallel-to-Ethernet: POS / Mini Printers, Copiers
-  - USB-to-Ethernet: Storage Devices, Network Printers
-  - GPIO-to-Ethernet: Home Network Sensors
-  - Security Systems: DVRs, Network Cameras, Kiosks
-  - Factory, Building, Home Automations
-  - Medical Monitoring Equipment
-  - Embedded Servers
-  - Internet of Things (IoT) Devices
-  - IoT Cloud Devices
+| **Title** | **Description** | **Notes** |
+| --------- | --------------- | --------- |
+| [![link](\img\link.png) W5100S Datasheet][link-W5100S-Datasheet] | Technical specifications and features of the W5100S chip | - |
+| [![link](\img\link.png) W5100S Errata Sheet][link-W5100S-errata] | Known issues and corrections for the W5100S chip | - |
+| [![link](\img\link.png) W5100S vs W5100 Comparison Sheet][link-W5100S-vs-W5100-Comparison-Sheet] | Feature comparison between W5100S and W5100 chips | - |
 
------
+
+## Software Resources
+
+
+<Tabs groupId="Software Resources" >
+<TabItem value="Driver" label="Driver" default >
+
+### Driver
+The ioLibrary means "Internet Offload Library" for WIZnet chip. It includes drivers and application protocols. The ioLibrary can be used for W5100S and other chips's application designs. These will be updated continuously.
+
+| **Resource** | **Description** |
+|--------------|-----------------|
+| [![link](\img\link.png) ioLibrary_Driver][link-ioLibrary-Driver] | Official WIZnet driver library for W5100S and other chips |
+
+
+<details>
+<summary><b>Click to view supported protocols</b></summary>
+### Supported Protocols 
+
+| **Name** | **Description**                       | **Notes**                        |
+|----------|---------------------------------------|----------------------------------|
+| DHCP        | Dynamic Host Configuration Protocol - Automatically obtains IP address from network |     |
+| DNS         | Domain Name System - Resolves domain names to IP addresses  |     |
+| MQTT        | Message Queuing Telemetry Transport - Lightweight publish/subscribe messaging protocol |     |
+| SNTP        | Simple Network Time Protocol - Synchronizes system time with network time servers |     |
+| TFTP        | Trivial File Transfer Protocol - Simple file transfer over UDP |     |
+| httpServer  | HTTP Server - Web server implementation for hosting web pages and APIs |     |
+
+</details>
+
+  :::info
+  The ioLibrary_Driver is a host MCU-independent library that provides complete control functions for the W5500 chip. It is compatible with all WIZnet chips and includes implementations of various network protocols. This library serves as the foundation for developing TCP/IP-based applications with minimal host MCU dependencies.
+  :::
+
+</TabItem>
+<TabItem value="Application Note" label="Application Note" >
+
+### Application Note
+| **Name** | **Description**                       | **Notes**                        |
+|------------------|---------------------------------------|----------------------------------|
+| [![link](\img\link.png) IPRAW][link-W5100S-AppNote-ipraw]             | How to use IPRAW Mode    | IPRAW Mode handles IPv4 layer communication    |
+| [![link](\img\link.png) PPPoE][link-W5100S-AppNote-pppoe]             | How to use PPP/PPPoE     | PPP is Link-Layer protocol for point-to-point  |
+| [![link](\img\link.png) SOCKET-less command][link-W5100S-AppNote-slc] | Non-Socket ARP and PING process  | Command based handling ARP and PING processing     |
+| [![link](\img\link.png) Interrupt][link-W5100S-AppNote-interrupt]     | Interrupt example             | Publishes messages to broker     |
+
+
+</TabItem>
+</Tabs>
+
+## Hardware Resources
+
+### Technical Resources
+
+| **Resource**           | **Description**                | **Notes**                           |
+|------------------------|--------------------------------|-------------------------------------|
+| [![link](\img\link.png) Reference Schematic][link-W5100S-Ref-Sch]    | Typical application schematic    | Includes recommended circuit design |
+| [![link](\img\link.png) Reference Schematic(Ext.)][link-W5100S-Ref-Ext]    | External Transformer type        | Includes recommended circuit design |
+| [![link](\img\link.png) Reference Schematic(Int.)][link-W5100S-Ref-Int]    | RJ45 with Transformer type       | Includes recommended circuit design |
+| ![link](\img\link.png) SCH & PCB Library     | TBD |  |
+| ![link](\img\link.png) Design Guide          | TBD |  |
+
+### Test & Certification
+
+| **Resource**                | **Description**                        | **Notes**                      |
+|-----------------------------|----------------------------------------|-------------------------------|
+| ![link](\img\link.png) Ethernet Compliance Test | TBD | |
+| ![link](\img\link.png) Distance Test            | TBD | |
+| ![link](\img\link.png) EMC Test                 | TBD | |
+| ![link](\img\link.png) Reliability Test         | TBD | |
+| ![link](\img\link.png) Certificate              | TBD | |
+
+
+<Tabs groupId="Evaluation Boards" >
+<TabItem value="Hat & shield" label="Hat & shield" default>
+
+
+
+<div className="link-card">
+  <a
+    href="https://wiznetshop.io/product/detail.html?product_no=818&cate_no=57&display_group=1"
+    target="_blank"
+    rel="noopener noreferrer"
+    className="link-card-content"
+  >
+  <img src="/img/products/w5100s/w5100s-ethernet-shield.png" alt="W5100S Ethernet Shield" />
+    <div>
+      <h3>W5100S Ethernet Shield</h3>
+      <p>
+W5100S Ethernet shield is designed using the WIZnet W5100S chip. Please click the link for the further information about W5100S. It supports both 3.3V & 5V. This Ethernet Shield is compatible with Arduino and ARM mbed Platform. The W5100S Ethernet shield is compatible with the Arduino Ethernet Shield (W5100).
+      </p>
+    </div>
+  </a>
+</div>
+
+
+<div className="link-card">
+  <a
+    href="/Product/ioModule/wiz810sio"
+    target="_blank"
+    rel="noopener noreferrer"
+    className="link-card-content"
+  >
+  <img src="/img/products/w5100s/wiz810sio.png" alt="WIZ810Sio" />
+    <div>
+      <h3>WIZ810Sio</h3>
+      <p>
+WIZ810Sio is the internet offload network module that includes W5100S (TCP/IP hardwired chip, include PHY), MAG-JACK (RJ45 with X’FMR) with other glue logics. It can be used as a component and no effort is required to interface W5100S and Transformer. The WIZ810Sio is an ideal option for users who want to develop their Internet enabling systems rapidly.
+      </p>
+    </div>
+  </a>
+</div>
+
+
+<div className="link-card">
+  <a
+    href="/Product/ioModule/wiz810smj"
+    target="_blank"
+    rel="noopener noreferrer"
+    className="link-card-content"
+  >
+  <img src="/img/products/w5100s/wiz810smj.png" alt="WIZ810SMJ" />
+    <div>
+      <h3>WIZ810SMJ</h3>
+      <p>
+WIZ810SMJ is the network module that includes W5100S (TCP/IP hardwired chip, include PHY), MAG-JACK (RJ45 with X’FMR) with other glue logics. It can be used as a component and no effort is required to interface W5100S and Transformer. The WIZ810SMJ is an ideal option for users who want to develop their Internet enabling systems rapidly.
+      </p>
+    </div>
+  </a>
+</div>
+
+</TabItem>
+<TabItem value="eval_board" label="Evaluation Boards" >
+
+<div className="link-card">
+  <a
+    href="/Product/iEthernet/W5100S/w5100s-evb-pico"
+    target="_blank"
+    rel="noopener noreferrer"
+    className="link-card-content"
+  >
+  <img src="/img/products/w5100s/w5100s-evb-pico.png" alt="W5100S-EVB-Pico" />
+    <div>
+      <h3>W5100S-EVB-Pico</h3>
+      <p>
+W5100S-EVB-Pico is a microcontroller evaluation board based on the Raspberry Pi RP2040 and fully hardwired TCP/IP controller W5100S – and basically works the same as Raspberry Pi Pico board but with additional Ethernet via W5100S.
+      </p>
+    </div>
+  </a>
+</div>
+
+<div className="link-card">
+  <a
+    href="/Product/iEthernet/W5100S/w5100s-evb-pico2"
+    target="_blank"
+    rel="noopener noreferrer"
+    className="link-card-content"
+  >
+  <img src="/img/products/w5100s/w5100s-evb-pico2.png" alt="W5100S-EVB-Pico2" />
+    <div>
+      <h3>W5100S-EVB-Pico2</h3>
+      <p>
+W5100S-EVB-Pico2 is a microcontroller evaluation board based on the Raspberry Pi RP2350 and fully hardwired TCP/IP controller W5100S – enhancing the capabilities of the traditional Raspberry Pi Pico board with additional Ethernet functionality via W5100S.
+      </p>
+    </div>
+  </a>
+</div>
+
+
+
+
+
+</TabItem>
+</Tabs>
+
+
+
+
+<!-- Chip current overview -->
+[link-rp2040]: https://www.raspberrypi.org/products/rp2040/
+[link-rp2350]: https://www.raspberrypi.com/products/rp2350/
+[link-w5100s]: https://docs.wiznet.io/Product/iEthernet/W5100S/overview
+[link-w5500]: https://docs.wiznet.io/Product/iEthernet/W5500/overview
+[link-w6100]: https://docs.wiznet.io/Product/iEthernet/W6100/overview
+[link-w6300]: https://docs.wiznet.io/Product/iEthernet/W6300/overview
+[link-wiznet_ethernet_chips]: https://docs.wiznet.io/Product/iEthernet#product-family
+
+<!-- Datasheet -->
+[link-W5500-Datasheet]: https://docs.wiznet.io/Product/iEthernet/W5500/datasheet
+[link-W5300-Datasheet]: https://docs.wiznet.io/img/products/w5300/W5300_DS_V134E.pdf
+[link-W6300-Datasheet]: https://docs.wiznet.io/img/products/w6300/W6300%20DS_V100E.pdf
+[link-W55RP20-Datasheet]: https://docs.wiznet.io/img/products/w55rp20/W55RP20_ds_v100e.pdf
+[link-RP2040-Datasheet]: https://www.raspberrypi.com/documentation/microcontrollers/silicon.html#documentation
+[link-W5100-Datasheet]: https://docs.wiznet.io/img/products/w5100/W5100_DS_V128E.pdf
+[link-W5100S-Datasheet]: https://docs.wiznet.io/img/products/w5100s/w5100s-ds-v128e.pdf
+[link-W7500x-Datasheet]: https://docs.wiznet.io/img/products/w7500/w7500x_ds_v110.pdf
+[link-W7500x-Datasheet-Ref]: https://docs.wiznet.io/img/products/w7500/w7500x_rm_v112_20181017_.pdf
+[link-W7500P-PHY-Datasheet]: http://www.bdtic.com/DataSheet/ICplus/IP101G_DS_R01_20121224.pdf
+
+<!-- Technical Documents -->
+[link-W5200-to-W5500-Migration-Sheet]: https://docs.wiznet.io/Product/iEthernet/W5500/migration-from-w5200
+[link-W5300-W5100-Comparison-Sheet]: https://docs.wiznet.io/img/products/w5300/Comparison_Sheet_between_W5100_and_W5300_V1.1_kor.pdf
+[link-W5100S-vs-W5100-Comparison-Sheet]: https://docs.wiznet.io/img/products/w5100s/application/w5100svsw5100_cs_v110e.pdf
+[link-W5100-errata]: https://docs.wiznet.io/img/products/w5100/3150Aplus_5100_ES_V260E.pdf
+[link-W5100S-errata]: https://docs.wiznet.io/img/products/w5100s/w5100s-errata-en-v100.pdf
+[link-W7500P-errata]: https://docs.wiznet.io/img/products/w7500/w7500x_erratasheet_v120e.pdf
+[link-W7500x-phy-access]: https://docs.wiznet.io/img/products/w7500p/ref_sch/how_to_access_phy_application_note_v100.pdf
+[link-W7500x-NLB]: https://docs.wiznet.io/img/products/w7500/w7500_arp_problem_in_the_nlb.pdf
+
+<!-- Library -->
+[link-ioLibrary-Driver]: https://github.com/Wiznet/ioLibrary_Driver
+[link-w55mh32-Driver]: https://gitee.com/wiznet-hk/W55MH32_reference_code/tree/master/Libraries/W55MH32Lib
+[link-w55rp20-Driver-c/c++]: https://github.com/WIZnet-ioNIC/WIZnet-PICO-C
+[link-w55rp20-Driver-micropython]: https://github.com/WIZnet-ioNIC/WIZnet-ioNIC-micropython
+[link-w55rp20-Driver-arduino]: https://github.com/WIZnet-ioNIC/WIZnet-ioNIC-arduino-library
+[link-w55rp20-Driver-circuitpython]: https://github.com/WIZnet-ioNIC/WIZnet-ioNIC-Circuitpython
+
+<!-- Library examples -->
+[link-example-aac]: https://github.com/Wiznet/ioLibrary_Driver/tree/master/Internet/AAC
+[link-example-dhcp]: https://github.com/Wiznet/ioLibrary_Driver/tree/master/Internet/DHCP
+[link-example-dhcp6]: https://github.com/Wiznet/ioLibrary_Driver/tree/master/Internet/DHCP6
+[link-example-dns]: https://github.com/Wiznet/ioLibrary_Driver/tree/master/Internet/DNS
+[link-example-mqtt]: https://github.com/Wiznet/ioLibrary_Driver/tree/master/Internet/MQTT
+[link-example-snmp]: https://github.com/Wiznet/ioLibrary_Driver/tree/master/Internet/SNMP
+[link-example-sntp]: https://github.com/Wiznet/ioLibrary_Driver/tree/master/Internet/SNTP
+[link-example-tftp]: https://github.com/Wiznet/ioLibrary_Driver/tree/master/Internet/TFTP
+[link-example-httpserver]: https://github.com/Wiznet/ioLibrary_Driver/tree/master/Internet/httpServer
+[link-w55mh32-keil]: https://docs.wiznet.io/Product/iMCU/W55MH32/install_keil
+[link-w55mh32-examples]: https://docs.wiznet.io/Product/iMCU/W55MH32/W55MH32_examples
+
+<!-- Application Notes  -->
+[download-W5300-Application-Note]: https://docs.wiznet.io/img/products/w5300/W5300_app_note.zip
+[download-W5100-Application-Note]: https://docs.wiznet.io/img/products/w5100/W5100_Application_Note.zip
+[link-W5100S-AppNote-ipraw]: https://docs.wiznet.io/img/products/w5100s/w5100s_an_ipraw_v100e.pdf
+[link-W5100S-AppNote-pppoe]: https://docs.wiznet.io/img/products/w5100s/application/w5100s_an_pppoe_v100e.pdf
+[link-W5100S-AppNote-slc]: https://docs.wiznet.io/img/products/w5100s/application/w5100s_an_slc_v100e.pdf
+[link-W5100S-AppNote-interrupt]: https://docs.wiznet.io/img/products/w5100s/application/w5100s_an_interrupt_v100e.pdf
+
+<!-- Hardware Resources -->
+[download-W5300-Ref-Schematic]: https://docs.wiznet.io/img/products/w5300/W5300_ref_schematics(2010_2_12).zip
+[link-w6100-ref-sch]: https://github.com/Wiznet/Hardware-Files-of-WIZnet/tree/master/02_iEthernet/W6100/Reference%20Schematic
+[link-w6300-ref-sch]: https://github.com/Wiznet/Hardware-Files-of-WIZnet/tree/master/02_iEthernet/W6300/W6300-EVB-Pico_V100
+[link-w55rp20-ref-sch]: https://github.com/Wiznet/Hardware-Files-of-WIZnet/tree/master/09_ioNIC
+[link-w55rp20-dimension]: https://docs.wiznet.io/img/products/w55rp20-evb-pico/w55rp20-evb-pico-dimension.png
+[download-W5100-Ref-Sch]: https://docs.wiznet.io/img/products/w5100/w5100_hardware.zip
+[link-W5100S-Ref-Sch]: https://github.com/Wiznet/Hardware-Files-of-WIZnet/blob/master/02_iEthernet/W5100S/Reference%20Schematic/W5100S_Ref_Schematic_V120_use_trans.pdf
+[link-W5100S-Ref-Ext]: https://github.com/Wiznet/Hardware-Files-of-WIZnet/blob/master/02_iEthernet/W5100S/Reference%20Schematic/W5100S_ext_Ref_Schematic_V100.pdf
+[link-W5100S-Ref-Int]: https://github.com/Wiznet/Hardware-Files-of-WIZnet/blob/master/02_iEthernet/W5100S/Reference%20Schematic/W5100S_int_Ref_Schematic_V100.pdf
+[link-W5100S-crystal]: https://docs.wiznet.io/img/products/w5100s/w5100s_crystal_selection_guide_v100e.pdf
+[link-W5100S-reflow]: https://docs.wiznet.io/img/design_guide/reflow_profile/ir_reflow_profile.pdf
+[link-W7500P-Ref-Sch]: https://github.com/Wiznet/Hardware-Files-of-WIZnet/blob/master/01_iMCU/W7500P/Reference%20Schematic/W7500P_Ref_Schematic_V130.pdf
+
+<!-- Test & Certification -->
+[download-W5100-Qual]: https://docs.wiznet.io/img/products/w5100/W5100_qual_report.zip
+
+<!-- Related Boards -->
+[link-W55MH32L-EVB]: https://docs.wiznet.io/Product/iMCU/W55MH32/W55MH32L-evb
+[link-W55MH32Q-EVB]: https://docs.wiznet.io/Product/iMCU/W55MH32/W55MH32Q-evb
+[link-w5500-ethernet-shield]: https://docs.wiznet.io/Product/Open-Source-Hardware/w5500_ethernet_shield_kor
+[link-W5100S-Ethernet_Shield]: https://wiznetshop.io/product/detail.html?product_no=818&cate_no=57&display_group=1
+[link-w55rp20-evb-pico]: https://docs.wiznet.io/Product/ioNIC/W55RP20/w55rp20-evb-pico
+[link-raspberry_pi_pico]: https://www.raspberrypi.com/products/raspberry-pi-pico/
+[link-wiznet_ethernet_hat]: https://docs.wiznet.io/Product/Open-Source-Hardware/wiznet_ethernet_hat
+[link-w5100s-evb-pico]: https://docs.wiznet.io/Product/iEthernet/W5100S/w5100s-evb-pico
+[link-w5500-evb-pico]: https://docs.wiznet.io/Product/iEthernet/W5500/w5500-evb-pico
+[link-w5500-evb-pico-poe]: https://docs.wiznet.io/Product/iEthernet/W5500/W5500-EVB-Pico-PoE
+[link-w6100-evb-pico]: https://docs.wiznet.io/Product/iEthernet/W6100/w6100-evb-pico
+[link-w6300-evb-pico]: https://docs.wiznet.io/Product/iEthernet/W6300/w6300-evb-pico
+[link-w5500-evb-pico2]: https://docs.wiznet.io/Product/iEthernet/W5500/w5500-evb-pico2
+[link-w5100s-evb-pico2]: https://docs.wiznet.io/Product/iEthernet/W5100S/w5100s-evb-pico2
+[link-w5500-io]: https://docs.wiznet.io/Product/ioModule/W5500-io
+[link-wiz550-io]: https://docs.wiznet.io/Product/ioModule/wiz550io
+[link-wiz610-io]: https://docs.wiznet.io/Product/ioModule/wiz610io
+[link-wiz610-mj]: https://docs.wiznet.io/Product/ioModule/wiz610mj
+[link-wiz630-io]: https://docs.wiznet.io/Product/ioModule/wiz630io
+[link-wiz810s-io]: https://docs.wiznet.io/Product/ioModule/wiz810sio
+[link-wiz810s-mj]: https://docs.wiznet.io/Product/ioModule/wiz810smj
+[link-wiz810-mj]: https://docs.wiznet.io/Product/ioModule/wiz810mj
+[link-wiz811-mj]: https://docs.wiznet.io/Product/ioModule/wiz811mj
+[link-wiz830-mj]: https://docs.wiznet.io/Product/ioModule/wiz830mj
+[link-wiz850-io]: https://docs.wiznet.io/Product/ioModule/wiz850io
+[link-wizarduino-m0-eth]: https://docs.wiznet.io/Product/Open-Source-Hardware/wizarduino_m0_eth_eng
+[link-wiz750sr]: https://docs.wiznet.io/Product/S2E-Module/WIZ750SR
+[link-wiz750sr-100]: https://docs.wiznet.io/Product/S2E-Module/WIZ750SR-1xx-Series/WIZ750SR-100
+[link-wiz750sr-105]: https://docs.wiznet.io/Product/S2E-Module/WIZ750SR-1xx-Series/WIZ750SR-105
+[link-wiz750sr-110]: https://docs.wiznet.io/Product/S2E-Module/WIZ750SR-1xx-Series/WIZ750SR-110
+[link-wiz750sr-120]: https://docs.wiznet.io/Product/S2E-Module/WIZ752SR-12x-Series/WIZ752SR-120
+[link-wiz750sr-125]: https://docs.wiznet.io/Product/S2E-Module/WIZ752SR-12x-Series/WIZ752SR-125
+[link-wiz500sr-rp]: https://docs.wiznet.io/Product/S2E-Module/WIZ5xxSR-RP-Series/WIZ500SR-RP/overview
+[link-wiz505sr-rp]: https://docs.wiznet.io/Product/S2E-Module/WIZ5xxSR-RP-Series/WIZ505SR-RP/overview
+[link-wiz510sr-rp]: https://docs.wiznet.io/Product/S2E-Module/WIZ5xxSR-RP-Series/WIZ510SR-RP/overview
+[link-wiz500sr-evb]: https://docs.wiznet.io/Product/S2E-Module/WIZ5xxSR-RP-Series/wiz500sr-rp-evb
+[link-wiz505sr-rp-evb]: https://docs.wiznet.io/Product/S2E-Module/WIZ5xxSR-RP-Series/wiz505sr-rp-evb
+[link-wiz550sr]: https://docs.wiznet.io/Product/S2E-Module/WIZ550SR
+[link-w5500s2e-s1]: https://docs.wiznet.io/Product/S2E-Module/W5500S2E-S1
+[link-w5500s2e-z1]: https://docs.wiznet.io/Product/S2E-Module/W5500S2E-Z1
+[link-w7500s2e-r1]: https://docs.wiznet.io/Product/S2E-Module/W7500S2E-R1
+[link-w232n]: https://docs.wiznet.io/Product/S2E-Module/Industrial/W232N-datasheet-en
+[link-wizwiki-7500p]: https://docs.wiznet.io/Product/Mbed-WIZwiki-Platform/wizwiki-w7500p

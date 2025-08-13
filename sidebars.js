@@ -298,55 +298,72 @@ module.exports = {
 				{
 					type: 'category',
 					label: 'W6300',
+					link: {type: 'doc', id: 'Product/iEthernet/W6300/overview'},
 					items: [
 						{
 							type: 'category',
-							label: 'W6300 [EN]',
-							link: {type: 'doc', id: 'Product/iEthernet/W6300/w6300'},
+							label: 'Documents',
 							items: [
-							//'Product/iEthernet/W6300/W6300',
-							'Product/iEthernet/W6300/overview',
-							'Product/iEthernet/W6300/application-note',
-							'Product/iEthernet/W6300/document',
-							'Product/iEthernet/W6300/libraries-w6300',
-							// 'Product/iEthernet/W6300/new-project-vscode',
-							'Product/iEthernet/W6300/ref-schematic',
-							'Product/iEthernet/W6300/w6300-evb-pico',
-							'Product/iEthernet/W6300/w6300-evb-pico2',
-							]
+								'Product/iEthernet/W6300/datasheet',
+								'Product/iEthernet/W6300/ref-schematic',
+							],
 						},
-						{
-							type: 'category',
-							label: 'W6300 [JP]',
-							link: {type: 'doc', id: 'Product/iEthernet/W6300/w6300-jp'},
-							items: [
-							//'Product/iEthernet/W6300/W6300',
-							'Product/iEthernet/W6300/overview-jp',
-							// 'Product/iEthernet/W6300/application-note',
-							'Product/iEthernet/W6300/document-jp',
-							'Product/iEthernet/W6300/libraries-w6300-jp',
-							// 'Product/iEthernet/W6300/new-project-vscode',
-							'Product/iEthernet/W6300/ref-schematic-jp',
-							'Product/iEthernet/W6300/w6300-evb-pico-jp',
-							'Product/iEthernet/W6300/w6300-evb-pico2-jp',
-							]
-						},
+						'Product/iEthernet/W6300/application-note',
+						// {
+						// 	type: 'category',
+						// 	label: 'W6300 [EN]',
+						// 	link: {type: 'doc', id: 'Product/iEthernet/W6300/overview'},
+						// 	items: [
+						// 	//'Product/iEthernet/W6300/W6300',
+						// 	'Product/iEthernet/W6300/overview',
+						// 	'Product/iEthernet/W6300/application-note',
+						// 	'Product/iEthernet/W6300/libraries-w6300',
+						// 	// 'Product/iEthernet/W6300/new-project-vscode',
+						// 	'Product/iEthernet/W6300/ref-schematic',
+						// 	'Product/iEthernet/W6300/w6300-evb-pico',
+						// 	'Product/iEthernet/W6300/w6300-evb-pico2',
+						// 	]
+						// },
+						// {
+						// 	type: 'category',
+						// 	label: 'W6300 [JP]',
+						// 	link: {type: 'doc', id: 'Product/iEthernet/W6300/w6300-jp'},
+						// 	items: [
+						// 	//'Product/iEthernet/W6300/W6300',
+						// 	'Product/iEthernet/W6300/overview-jp',
+						// 	// 'Product/iEthernet/W6300/application-note',
+						// 	'Product/iEthernet/W6300/document-jp',
+						// 	'Product/iEthernet/W6300/libraries-w6300-jp',
+						// 	// 'Product/iEthernet/W6300/new-project-vscode',
+						// 	'Product/iEthernet/W6300/ref-schematic-jp',
+						// 	'Product/iEthernet/W6300/w6300-evb-pico-jp',
+						// 	'Product/iEthernet/W6300/w6300-evb-pico2-jp',
+						// 	]
+						// },
 					]
 				},
 				{
 				type: 'category',
 				label: 'W6100',
-				link: {type: 'doc', id: 'Product/iEthernet/W6100/w6100'},
+				link: {type: 'doc', id: 'Product/iEthernet/W6100/overview'},
 				items: [
-					//'Product/iEthernet/W6100/w6100',
-					'Product/iEthernet/W6100/overview',
-					'Product/iEthernet/W6100/document',
-					'Product/iEthernet/W6100/driver-basic-project',
-					'Product/iEthernet/W6100/ref-schematic',
+						{	
+						type: 'category',
+						label: 'Documents',
+						items: [
+							'Product/iEthernet/W6100/datasheet',
+							'Product/iEthernet/W6100/ref-schematic',
+						],
+					},
+					// //'Product/iEthernet/W6100/w6100',
+					// 'Product/iEthernet/W6100/overview',
+					// 'Product/iEthernet/W6100/document',
+					// 'Product/iEthernet/W6100/driver-basic-project',
+					// 'Product/iEthernet/W6100/ref-schematic',
 					'Product/iEthernet/W6100/application-note',
 					
-					'Product/iEthernet/W6100/w6100-evb-pico',
-					'Product/iEthernet/W6100/w6100-evb-pico2',
+					// 'Product/iEthernet/W6100/w6100-evb-pico',
+					// 'Product/iEthernet/W6100/w6100-evb-pico2',
 					
 				],
 				},
@@ -355,11 +372,11 @@ module.exports = {
 				label: 'W5100S',
 				link: {type: 'doc', id: 'Product/iEthernet/W5100S/overview'},
 				items: [
-					//'Product/iEthernet/W5100S/overview',
+				// 	//'Product/iEthernet/W5100S/overview',
 					'Product/iEthernet/W5100S/document',
 					'Product/iEthernet/W5100S/driver',
-					'Product/iEthernet/W5100S/ref-schematic',
-					'Product/iEthernet/W5100S/comparison-sheet',
+				// 	'Product/iEthernet/W5100S/ref-schematic',
+				// 	'Product/iEthernet/W5100S/comparison-sheet',
 					
 					{
 					type: 'category',
@@ -377,10 +394,10 @@ module.exports = {
 						],
 					},
 					
-					'Product/iEthernet/W5100S/w5100s-evb-pico',
-					'Product/iEthernet/W5100S/w5100s-evb-pico2',
+				// 	'Product/iEthernet/W5100S/w5100s-evb-pico',
+				// 	'Product/iEthernet/W5100S/w5100s-evb-pico2',
 					
-				//'Product/iEthernet/W5100S/all_pages',
+				// //'Product/iEthernet/W5100S/all_pages',
 				],
 				},
 				{
@@ -388,12 +405,26 @@ module.exports = {
 				label: 'W5500',
 				link: {type: 'doc', id: 'Product/iEthernet/W5500/overview'},
 				items: [
-					'Product/iEthernet/W5500/overview',
-					//'Product/iEthernet/W5500/japanese-v',
-					'Product/iEthernet/W5500/datasheet',
+					{
+					type: 'category',
+					label: 'Documents',
+					// link: {type: 'doc', id: 'Product/iEthernet/W5500/Application/w5500-application'},
+					items: [
+						'Product/iEthernet/W5500/datasheet',
+						'Product/iEthernet/W5500/ref-schematic',
+						'Product/iEthernet/W5500/Application/esd-test-document',
+					],
+					},
+					// 'Product/iEthernet/W5500/datasheet',
+					// 'Product/iEthernet/W5500/datasheet',
+
+
+					// 'Product/iEthernet/W5500/overview',
+					// //'Product/iEthernet/W5500/japanese-v',
+					// 'Product/iEthernet/W5500/datasheet',
 					'Product/iEthernet/W5500/driver',
-					'Product/iEthernet/W5500/ref-schematic',
-					'Product/iEthernet/W5500/migration-from-w5200',
+					// 'Product/iEthernet/W5500/ref-schematic',
+					// 'Product/iEthernet/W5500/migration-from-w5200',
 					{
 					type: 'category',
 					label: 'Application',
@@ -405,15 +436,15 @@ module.exports = {
 						'Product/iEthernet/W5500/Application/ipraw',
 						'Product/iEthernet/W5500/Application/pppoe',
 						'Product/iEthernet/W5500/Application/spi-performance',
-						'Product/iEthernet/W5500/Application/esd-test-document',
+					
 					],
 					},
-					//'Product/iEthernet/W5500/all_pages',
-					//'Product/iEthernet/W5500/all_pages_jp',
+					// //'Product/iEthernet/W5500/all_pages',
+					// //'Product/iEthernet/W5500/all_pages_jp',
 					
-					'Product/iEthernet/W5500/w5500-evb-pico',
-					'Product/iEthernet/W5500/W5500-EVB-Pico-PoE',
-					'Product/iEthernet/W5500/w5500-evb-pico2',
+					// 'Product/iEthernet/W5500/w5500-evb-pico',
+					// 'Product/iEthernet/W5500/W5500-EVB-Pico-PoE',
+					// 'Product/iEthernet/W5500/w5500-evb-pico2',
 					
 				],
 				},
@@ -423,13 +454,13 @@ module.exports = {
 				//	href: 'http://www.wiznet.io/product-item/w5300/' // string - the target URL.
 					type: 'category',
 					label: 'W5300',
-					link: {type: 'doc', id: 'Product/iEthernet/W5300/w5300'},
+					link: {type: 'doc', id: 'Product/iEthernet/W5300/overview'},
 					items: [
-						//'Product/iEthernet/W5300/w5300',
-						'Product/iEthernet/W5300/overview',
+						// //'Product/iEthernet/W5300/w5300',
+						// 'Product/iEthernet/W5300/overview',
 						'Product/iEthernet/W5300/document',
-						'Product/iEthernet/W5300/w5300-evb',
-						'Product/iEthernet/W5300/W5300-TOE-Shield'
+						// 'Product/iEthernet/W5300/w5300-evb',
+						// 'Product/iEthernet/W5300/W5300-TOE-Shield'
 					],
 				},
 				{
@@ -438,12 +469,12 @@ module.exports = {
 				//	href: 'https://www.wiznet.io/product-item/w5100/' // string - the target URL.
 					type: 'category',
 					label: 'W5100',
-					link: {type: 'doc', id: 'Product/iEthernet/W5100/w5100'},
+					link: {type: 'doc', id: 'Product/iEthernet/W5100/overview'},
 					items: [
-						//'Product/iEthernet/W5100/w5100',
-						'Product/iEthernet/W5100/overview',
+						// //'Product/iEthernet/W5100/w5100',
+						// 'Product/iEthernet/W5100/overview',
 						'Product/iEthernet/W5100/document',
-						'Product/iEthernet/W5100/w5100-evb',
+						// 'Product/iEthernet/W5100/w5100-evb',
 					],
 				},
 
