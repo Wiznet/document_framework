@@ -9,14 +9,13 @@ import Tabs from '@theme/Tabs';
 import TabItem from '@theme/TabItem';
 
 # W5100S
-<h1>W5100S</h1>
 <div className="main_intro"> 
   <div className="main_intro_image">
         <img src="/img/products/w5100s/w5100s_pm.png" width="550" />
   </div>
   <div className="w5100s-text">
   <p>
-    W5100S is an embedded Internet controller designed as a full hardwired TCP/IP with WIZnet technology. W5100S provides internet connectivity to your embedded system by using SPI (Serial Peripheral Interface) or Parallel System BUS. SPI and Parallel System BUS provide easy connection via external MCU to W5100S. The clock speed of W5100S SPI supports up to 70MHz and the Parallel System Bus supports higher speed network communication than SPI.
+    W5100S is a hardwired TCP/IP stack internet controller chip with WIZnet technology, which provides easy internet connectivity to an external MCU via SPI or Parallel System BUS. The SPI interface supports up to 70MHz clock speed, while the Parallel System BUS provides higher data throughput for faster network communication. W5100S integrates an embedded Ethernet MAC and PHY, allowing developers to build Ethernet applications easily through socket programming.
     </p>
   </div>
 </div>
@@ -57,20 +56,24 @@ import TabItem from '@theme/TabItem';
 
 ## Documentation
 
-### Technical Documents
+### datasheet 
 
 | **Title** | **Description** | **Notes** |
 | --------- | --------------- | --------- |
 | [![link](\img\link.png) W5100S Datasheet][link-W5100S-Datasheet] | Technical specifications and features of the W5100S chip | - |
+
+### Technical Documents
+
+| **Title** | **Description** | **Notes** |
+| --------- | --------------- | --------- |
 | [![link](\img\link.png) W5100S Errata Sheet][link-W5100S-errata] | Known issues and corrections for the W5100S chip | - |
 | [![link](\img\link.png) W5100S vs W5100 Comparison Sheet][link-W5100S-vs-W5100-Comparison-Sheet] | Feature comparison between W5100S and W5100 chips | - |
-
 
 ## Software Resources
 
 
-<Tabs groupId="Software Resources" >
-<TabItem value="Driver" label="Driver" default >
+<Tabs groupId="software"  queryString>
+<TabItem value="driver" label="Driver" default >
 
 ### Driver
 The ioLibrary means "Internet Offload Library" for WIZnet chip. It includes drivers and application protocols. The ioLibrary can be used for W5100S and other chips's application designs. These will be updated continuously.
@@ -80,35 +83,29 @@ The ioLibrary means "Internet Offload Library" for WIZnet chip. It includes driv
 | [![link](\img\link.png) ioLibrary_Driver][link-ioLibrary-Driver] | Official WIZnet driver library for W5100S and other chips |
 
 
-<details>
-<summary><b>Click to view supported protocols</b></summary>
-### Supported Protocols 
+      :::info
 
-| **Name** | **Description**                       | **Notes**                        |
-|----------|---------------------------------------|----------------------------------|
-| DHCP        | Dynamic Host Configuration Protocol - Automatically obtains IP address from network |     |
-| DNS         | Domain Name System - Resolves domain names to IP addresses  |     |
-| MQTT        | Message Queuing Telemetry Transport - Lightweight publish/subscribe messaging protocol |     |
-| SNTP        | Simple Network Time Protocol - Synchronizes system time with network time servers |     |
-| TFTP        | Trivial File Transfer Protocol - Simple file transfer over UDP |     |
-| httpServer  | HTTP Server - Web server implementation for hosting web pages and APIs |     |
+The ioLibrary_Driver is an MCU-independent library for WIZnet W5x00, W6x00 chips .
+It provides implementations of essential TCP/IP services, enabling developers to build network applications with minimal MCU dependencies.
+      ### Supported services
+DHCP, DNS, MQTT, SNTP, TFTP, HTTP Server
 
-</details>
-
-  :::info
-  The ioLibrary_Driver is a host MCU-independent library that provides complete control functions for the W5500 chip. It is compatible with all WIZnet chips and includes implementations of various network protocols. This library serves as the foundation for developing TCP/IP-based applications with minimal host MCU dependencies.
-  :::
+      :::
+  
 
 </TabItem>
-<TabItem value="Application Note" label="Application Note" >
+<TabItem value="appnote" label="Application Note" >
 
 ### Application Note
 | **Name** | **Description**                       | **Notes**                        |
 |------------------|---------------------------------------|----------------------------------|
+| [![link](\img\link.png) TCP Function](/Product/iEthernet/W5100S/Application-Note/TCP)            | How to use IPRAW Mode    | IPRAW Mode handles IPv4 layer communication    |
+| [![link](\img\link.png) UDP Function](/Product/iEthernet/W5100S/Application-Note/udp)            | How to use IPRAW Mode    | IPRAW Mode handles IPv4 layer communication    |
 | [![link](\img\link.png) IPRAW][link-W5100S-AppNote-ipraw]             | How to use IPRAW Mode    | IPRAW Mode handles IPv4 layer communication    |
 | [![link](\img\link.png) PPPoE][link-W5100S-AppNote-pppoe]             | How to use PPP/PPPoE     | PPP is Link-Layer protocol for point-to-point  |
 | [![link](\img\link.png) SOCKET-less command][link-W5100S-AppNote-slc] | Non-Socket ARP and PING process  | Command based handling ARP and PING processing     |
 | [![link](\img\link.png) Interrupt][link-W5100S-AppNote-interrupt]     | Interrupt example             | Publishes messages to broker     |
+| [![link](\img\link.png) DMA](/Product/iEthernet/W5100S/Application-Note/dma)            | How to use IPRAW Mode    | IPRAW Mode handles IPv4 layer communication    |
 
 
 </TabItem>
@@ -136,11 +133,54 @@ The ioLibrary means "Internet Offload Library" for WIZnet chip. It includes driv
 | ![link](\img\link.png) Reliability Test         | TBD | |
 | ![link](\img\link.png) Certificate              | TBD | |
 
+## Related modules
+<Tabs groupId="evb" queryString>
 
-<Tabs groupId="Evaluation Boards" >
-<TabItem value="Hat & shield" label="Hat & shield" default>
+<TabItem value="evb" label="Evaluation Boards" default>
+
+### Evaluation Boards
+<div className="link-card">
+  <a
+    href="/Product/iEthernet/W5100S/w5100s-evb-pico"
+    target="_blank"
+    rel="noopener noreferrer"
+    className="link-card-content"
+  >
+  <img src="/img/products/w5100s/w5100s-evb-pico.png" alt="W5100S-EVB-Pico" />
+    <div>
+      <h3>W5100S-EVB-Pico</h3>
+      <p>
+W5100S-EVB-Pico is a microcontroller evaluation board based on the Raspberry Pi RP2040 and fully hardwired TCP/IP controller W5100S – and basically works the same as Raspberry Pi Pico board but with additional Ethernet via W5100S.
+      </p>
+    </div>
+  </a>
+</div>
+
+<div className="link-card">
+  <a
+    href="/Product/iEthernet/W5100S/w5100s-evb-pico2"
+    target="_blank"
+    rel="noopener noreferrer"
+    className="link-card-content"
+  >
+  <img src="/img/products/w5100s/w5100s-evb-pico2.png" alt="W5100S-EVB-Pico2" />
+    <div>
+      <h3>W5100S-EVB-Pico2</h3>
+      <p>
+W5100S-EVB-Pico2 is a microcontroller evaluation board based on the Raspberry Pi RP2350 and fully hardwired TCP/IP controller W5100S – enhancing the capabilities of the traditional Raspberry Pi Pico board with additional Ethernet functionality via W5100S.
+      </p>
+    </div>
+  </a>
+</div>
 
 
+
+
+
+</TabItem>
+<TabItem value="hat" label="Hat & shield" >
+
+### Hat & shield
 
 <div className="link-card">
   <a
@@ -196,47 +236,8 @@ WIZ810SMJ is the network module that includes W5100S (TCP/IP hardwired chip, inc
 </div>
 
 </TabItem>
-<TabItem value="eval_board" label="Evaluation Boards" >
-
-<div className="link-card">
-  <a
-    href="/Product/iEthernet/W5100S/w5100s-evb-pico"
-    target="_blank"
-    rel="noopener noreferrer"
-    className="link-card-content"
-  >
-  <img src="/img/products/w5100s/w5100s-evb-pico.png" alt="W5100S-EVB-Pico" />
-    <div>
-      <h3>W5100S-EVB-Pico</h3>
-      <p>
-W5100S-EVB-Pico is a microcontroller evaluation board based on the Raspberry Pi RP2040 and fully hardwired TCP/IP controller W5100S – and basically works the same as Raspberry Pi Pico board but with additional Ethernet via W5100S.
-      </p>
-    </div>
-  </a>
-</div>
-
-<div className="link-card">
-  <a
-    href="/Product/iEthernet/W5100S/w5100s-evb-pico2"
-    target="_blank"
-    rel="noopener noreferrer"
-    className="link-card-content"
-  >
-  <img src="/img/products/w5100s/w5100s-evb-pico2.png" alt="W5100S-EVB-Pico2" />
-    <div>
-      <h3>W5100S-EVB-Pico2</h3>
-      <p>
-W5100S-EVB-Pico2 is a microcontroller evaluation board based on the Raspberry Pi RP2350 and fully hardwired TCP/IP controller W5100S – enhancing the capabilities of the traditional Raspberry Pi Pico board with additional Ethernet functionality via W5100S.
-      </p>
-    </div>
-  </a>
-</div>
 
 
-
-
-
-</TabItem>
 </Tabs>
 
 
@@ -324,7 +325,7 @@ W5100S-EVB-Pico2 is a microcontroller evaluation board based on the Raspberry Pi
 [link-W55MH32Q-EVB]: https://docs.wiznet.io/Product/iMCU/W55MH32/W55MH32Q-evb
 [link-w5500-ethernet-shield]: https://docs.wiznet.io/Product/Open-Source-Hardware/w5500_ethernet_shield_kor
 [link-W5100S-Ethernet_Shield]: https://wiznetshop.io/product/detail.html?product_no=818&cate_no=57&display_group=1
-[link-w55rp20-evb-pico]: https://docs.wiznet.io/Product/ioNIC/W55RP20/w55rp20-evb-pico
+[link-w55rp20-evb-pico]: https://docs.wiznet.io/Product/iMCU/W55RP20/w55rp20-evb-pico
 [link-raspberry_pi_pico]: https://www.raspberrypi.com/products/raspberry-pi-pico/
 [link-wiznet_ethernet_hat]: https://docs.wiznet.io/Product/Open-Source-Hardware/wiznet_ethernet_hat
 [link-w5100s-evb-pico]: https://docs.wiznet.io/Product/iEthernet/W5100S/w5100s-evb-pico

@@ -7,6 +7,7 @@ date: 2025-02-27
 
 ## W6300 Application Notes
 
+
 #### C/C++
 - Ethernet Examples
   - <a href = "/img/application_notes/PICO-C/DHCP_DNS_EXAMPLE_AN_V100.pdf" target ="_blank">DHCP_DNS_EXAMPLE_AN_V100 - English</a>

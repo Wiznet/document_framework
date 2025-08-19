@@ -35,32 +35,32 @@ module.exports = {
 				},
 			],
 		},*/
-		{
-			type: 'category',
-			label: 'ioNIC',
-			//link: {type: 'doc', id: 'Product/ioNIC/ionic'},
-			items: [
-				//'Product/ioMCU/iomcu',
-				{
-				type: 'category',
-				label: 'W55RP20 [EN]',
-				link: {type: 'doc', id: 'Product/ioNIC/W55RP20/overview'},
-				items: [
-					'Product/ioNIC/W55RP20/documents_md',
-					'Product/ioNIC/W55RP20/w55rp20-evb-pico',
-					],
-				},
-				{
-				type: 'category',
-				label: 'W55RP20 [JP]',
-				link: {type: 'doc', id: 'Product/ioNIC/W55RP20/overview-jp'},
-				items: [
-					'Product/ioNIC/W55RP20/documents_md-jp',
-					'Product/ioNIC/W55RP20/w55rp20-evb-pico-jp',
-					],
-				},			
-			],
-		},
+		// {
+		// 	type: 'category',
+		// 	label: 'ioNIC',
+		// 	//link: {type: 'doc', id: 'Product/ioNIC/ionic'},
+		// 	items: [
+		// 		//'Product/ioMCU/iomcu',
+		// 		{
+		// 		type: 'category',
+		// 		label: 'W55RP20',
+		// 		link: {type: 'doc', id: 'Product/iMCU/W55RP20/overview'},
+		// 		items: [
+		// 			// 'Product/iMCU/W55RP20/documents_md',
+		// 			// 'Product/iMCU/W55RP20/w55rp20-evb-pico',
+		// 			],
+		// 		},
+		// 		// {
+		// 		// type: 'category',
+		// 		// label: 'W55RP20 [JP]',
+		// 		// link: {type: 'doc', id: 'Product/iMCU/W55RP20/overview-jp'},
+		// 		// items: [
+		// 		// 	'Product/iMCU/W55RP20/documents_md-jp',
+		// 		// 	'Product/iMCU/W55RP20/w55rp20-evb-pico-jp',
+		// 		// 	],
+		// 		// },			
+		// 	],
+		// },
 		{
 			type: 'category',
 			label: 'iMCU',
@@ -69,30 +69,125 @@ module.exports = {
 				//'Product/iMCU/imcu',
 				{
 				type: 'category',
+				label: 'W55RP20',
+				link: {type: 'doc', id: 'Product/iMCU/W55RP20/overview'},
+				items: [
+						{
+							type: 'category',
+							label: 'documentation',
+							link: {type: 'generated-index', slug: '/Product/iMCU/W55RP20/overview#documentation'},  
+							items: [
+								// 하위 항목들
+								{ type: 'link', label: 'Datasheet', href: '/Product/iMCU/W55RP20/overview#datasheet' },
+								{ type: 'link', label: 'technical documents', href: '/Product/iMCU/W55RP20/overview#technical-documents' },
+								// { type: 'link', label: 'getting-started', href: '/Product/iMCU/W55RP20/overview#getting-started' },
+							]
+
+						},
+						{
+							type: 'category',
+							label: 'Software resources',
+							link: {type: 'generated-index', slug: '/Product/iMCU/W55RP20/overview#software-resources'},  
+							items: [
+								// 하위 항목들
+								{ type: 'link', label: 'Driver', href: '/Product/iMCU/W55RP20?software=driver/overview#software-resources' },
+								{ type: 'link', label: 'Example', href: '/Product/iMCU/W55RP20?software=example/overview#software-resources' },
+							]
+						},
+
+						{
+							type: 'category',
+							label: 'Hardware resources',
+							link: {type: 'generated-index', slug: '/Product/iMCU/W55RP20/overview#hardware-resources'},  
+							items: [
+								// 하위 항목들
+								{ type: 'link', label: 'technical resources', href: '/Product/iMCU/W55RP20/overview#technical-resources' },
+								{ type: 'link', label: 'test certification',  href: '/Product/iMCU/W55RP20/overview#test--certification' },
+							]
+						},
+						{
+							type: 'category',
+							label: 'Rselated-modules',
+							link: {type: 'generated-index', slug: '/Product/iMCU/W55RP20/overview#related-modules'},  
+							items: [
+								// 하위 항목들
+								{ type: 'link', label: 'evaluation-boards', href: '/Product/iMCU/W55RP20/overview#evaluation-boards' },
+								// { type: 'link', label: 'serial-to-ethernet-module',  href: '/Product/iMCU/W55RP20/overview#serial-to-ethernet-module' },
+							]
+						},
+					],
+				},
+				{
+				type: 'category',
 				label: 'W55MH32',
 				link: {type: 'doc', id: 'Product/iMCU/W55MH32/overview'},
 				items: [
-					'Product/iMCU/W55MH32/overview',
-					'Product/iMCU/W55MH32/datasheet',
-					'Product/iMCU/W55MH32/electrical-characteristics',
-					'Product/iMCU/W55MH32/pin-assignment',
-					'Product/iMCU/W55MH32/ref-schematic',
-					{
-						type: 'category',
-						label: 'Reference Code',
-						items: [
-								'Product/iMCU/W55MH32/install_keil',
-								'Product/iMCU/W55MH32/W55MH32_examples',					
-						],
-					},
-					{
-						type: 'category',
-						label: 'EVB',
-						items: [
-								'Product/iMCU/W55MH32/W55MH32L-evb',
-								'Product/iMCU/W55MH32/W55MH32Q-evb',					
-						],
-					},
+					// 'Product/iMCU/W55MH32/overview',
+					// 'Product/iMCU/W55MH32/datasheet',
+					// 'Product/iMCU/W55MH32/electrical-characteristics',
+					// 'Product/iMCU/W55MH32/pin-assignment',
+					// 'Product/iMCU/W55MH32/ref-schematic',
+						{
+							type: 'category',
+							label: 'documentation',
+							link: {type: 'generated-index', slug: '/Product/iMCU/W55MH32/overview#documentation'},  
+							items: [
+								// 하위 항목들
+								{ type: 'link', label: 'Datasheet', href: '/Product/iMCU/W55MH32/overview#datasheet' },
+								{ type: 'link', label: 'technical documents', href: '/Product/iMCU/W55MH32/overview#technical-documents' },
+								// { type: 'link', label: 'getting-started', href: '/Product/iMCU/W55MH32/overview#getting-started' },
+							]
+
+						},
+						{
+							type: 'category',
+							label: 'Software resources',
+							link: {type: 'generated-index', slug: '/Product/iMCU/W55MH32/overview#software-resources'},  
+							items: [
+								// 하위 항목들
+								{ type: 'link', label: 'Driver', href: '/Product/iMCU/W55MH32?software=driver/overview#software-resources' },
+								{ type: 'link', label: 'application-note', href: '/Product/iMCU/W55MH32?software=appnote/overview#software-resources' },
+							]
+						},
+
+						{
+							type: 'category',
+							label: 'Hardware resources',
+							link: {type: 'generated-index', slug: '/Product/iMCU/W55MH32/overview#hardware-resources'},  
+							items: [
+								// 하위 항목들
+								{ type: 'link', label: 'technical resources', href: '/Product/iMCU/W55MH32/overview#technical-resources' },
+								{ type: 'link', label: 'test certification',  href: '/Product/iMCU/W55MH32/overview#test--certification' },
+							]
+						},
+
+
+						{
+							type: 'category',
+							label: 'Related modules',
+							link: {type: 'generated-index', slug: '/Product/iMCU/W55MH32/overview#related-modules'},  
+							items: [
+								// 하위 항목들
+								{ type: 'link', label: 'evaluation-boards', href: '/Product/iMCU/W55MH32/overview#evaluation-boards' },
+								// { type: 'link', label: 'test certification',  href: '/Product/iMCU/W55RP20/overview#serial-to-ethernet-module' },
+							]
+						},
+					// {
+					// 	type: 'category',
+					// 	label: '[will be RM]Reference Code',
+					// 	items: [
+					// 			'Product/iMCU/W55MH32/install_keil',
+					// 			'Product/iMCU/W55MH32/W55MH32_examples',					
+					// 	],
+					// },
+					// {
+					// 	type: 'category',
+					// 	label: 'EVB',
+					// 	items: [
+					// 			'Product/iMCU/W55MH32/W55MH32L-evb',
+					// 			'Product/iMCU/W55MH32/W55MH32Q-evb',					
+					// 	],
+					// },
 					],
 				},
 				{
@@ -100,109 +195,197 @@ module.exports = {
 				label: 'W7500',
 				link: {type: 'doc', id: 'Product/iMCU/W7500/overview'},
 				items: [
-					//'Product/iMCU/W7500/overview',
-					'Product/iMCU/W7500/pin-assignment',
-					'Product/iMCU/W7500/system-and-memory',
-					'Product/iMCU/W7500/interrupt-and-event',
-					'Product/iMCU/W7500/power-supply',
-					'Product/iMCU/W7500/booting-sequence',
-					'Product/iMCU/W7500/electrical-characteristics-w7500',
-					'Product/iMCU/W7500/w7500-ref-schematic',
-					'Product/iMCU/W7500/documents_md',
-					'Product/iMCU/W7500/peripherals',
-					'Product/iMCU/W7500/libraries-examples',
-					//'Product/iMCU/W7500/all_pages',
-					{
-						type: 'category',
-						label: 'Peripherals Internal',
-						items: [
-							'Product/iMCU/W7500/Peripherals-internal/adc',
-							'Product/iMCU/W7500/Peripherals-internal/afc',
-							'Product/iMCU/W7500/Peripherals-internal/blink-led',
-							'Product/iMCU/W7500/Peripherals-internal/capturemode',
-							'Product/iMCU/W7500/Peripherals-internal/countermode',
-							'Product/iMCU/W7500/Peripherals-internal/crg',
-							'Product/iMCU/W7500/Peripherals-internal/deadzonegeneration',
-							'Product/iMCU/W7500/Peripherals-internal/delay',
-							'Product/iMCU/W7500/Peripherals-internal/deladhcpclient',
-							'Product/iMCU/W7500/Peripherals-internal/dma',
-							'Product/iMCU/W7500/Peripherals-internal/dmdnsclient',
-							// 'Product/iMCU/W7500/Peripherals-internal/eeprom',
-							'Product/iMCU/W7500/Peripherals-internal/exti',
-							'Product/iMCU/W7500/Peripherals-internal/flash',
-							'Product/iMCU/W7500/Peripherals-internal/flowcontrol',
-							'Product/iMCU/W7500/Peripherals-internal/gpio',
-							// 'Product/iMCU/W7500/Peripherals-internal/i2c',
-							'Product/iMCU/W7500/Peripherals-internal/iap-example',
-							'Product/iMCU/W7500/Peripherals-internal/illumination-sensor',
-							// 'Product/iMCU/W7500/Peripherals-internal/init',
-							'Product/iMCU/W7500/Peripherals-internal/inter',
-							'Product/iMCU/W7500/Peripherals-internal/led-toggle',
-							// 'Product/iMCU/W7500/Peripherals-internal/lm75-temperature',
-							'Product/iMCU/W7500/Peripherals-internal/loopback',
-							'Product/iMCU/W7500/Peripherals-internal/padcon',
-							'Product/iMCU/W7500/Peripherals-internal/polling',
-							'Product/iMCU/W7500/Peripherals-internal/printf',
-							'Product/iMCU/W7500/Peripherals-internal/pwm',
-							'Product/iMCU/W7500/Peripherals-internal/pwmoutput',
-							'Product/iMCU/W7500/Peripherals-internal/rng-ex',
-							'Product/iMCU/W7500/Peripherals-internal/rng',
-							'Product/iMCU/W7500/Peripherals-internal/sd-card-led',
-							'Product/iMCU/W7500/Peripherals-internal/sleep',
-							'Product/iMCU/W7500/Peripherals-internal/ssp',
-							'Product/iMCU/W7500/Peripherals-internal/systick',
-							'Product/iMCU/W7500/Peripherals-internal/tcp-function',
-							'Product/iMCU/W7500/Peripherals-internal/timermode',
-							'Product/iMCU/W7500/Peripherals-internal/timerrun',
-							'Product/iMCU/W7500/Peripherals-internal/toe',
-							'Product/iMCU/W7500/Peripherals-internal/uart',
-							'Product/iMCU/W7500/Peripherals-internal/wdt',
-							'Product/iMCU/W7500/Peripherals-internal/wdtreset',						
-						],
+			{
+							type: 'category',
+							label: 'documentation',
+							link: {type: 'generated-index', slug: '/Product/iMCU/W7500/overview#documentation'},  
+							items: [
+								// 하위 항목들
+								{ type: 'link', label: 'Datasheet', href: '/Product/iMCU/W7500/overview#datasheet' },
+								{ type: 'link', label: 'technical documents', href: '/Product/iMCU/W7500/overview#technical-documents' },
+								{ type: 'link', label: 'getting-started', href: '/Product/iMCU/W7500/overview#getting-started' },
+							]
+
 						},
 						{
 							type: 'category',
-							label: 'Other Documents',
+							label: 'Software resources',
+							link: {type: 'generated-index', slug: '/Product/iMCU/W7500/overview#software-resources'},  
 							items: [
-							{
-								type: 'category',
-								label: 'Appnote',
-								items: [
-								'Product/iMCU/W7500/documents/appnote/how_to_install_KEIL',
-								'Product/iMCU/W7500/documents/appnote/how-to-make-keil-new-project-for-w7500',
-								'Product/iMCU/W7500/documents/appnote/how-to-use-gcc-for-w7500-peripherals-examples',
-								'Product/iMCU/W7500/documents/appnote/how-to-use-isp-tool',
-								'Product/iMCU/W7500/documents/appnote/how-to-use-mdk-for-w7500-peripherals-examples',							
-						],
+								// 하위 항목들
+								{ type: 'link', label: 'Driver', href: '/Product/iMCU/W7500/overview#driver' },
+							]
 						},
-							],
-							},
-				],
+
+						{
+							type: 'category',
+							label: 'Hardware resources',
+							link: {type: 'generated-index', slug: '/Product/iMCU/W7500/overview#hardware-resources'},  
+							items: [
+								// 하위 항목들
+								{ type: 'link', label: 'technical resources', href: '/Product/iMCU/W7500/overview#technical-resources' },
+								{ type: 'link', label: 'test certification',  href: '/Product/iMCU/W7500/overview#test--certification' },
+							]
+						},
+
+
+						{
+							type: 'category',
+							label: 'Related modules',
+							link: {type: 'generated-index', slug: '/Product/iMCU/W7500/overview#related-modules'},  
+							items: [
+								// 하위 항목들
+								{ type: 'link', label: 'evaluation-boards', href: '/Product/iMCU/W7500/overview#evaluation-boards' },
+								// { type: 'link', label: 'test certification',  href: '/Product/iMCU/W7500/overview#serial-to-ethernet-module' },
+							]
+						},
+
+
+					],
 				},
 				{
 				type: 'category',
 				label: 'W7500P',
 				link: {type: 'doc', id: 'Product/iMCU/W7500P/overview'},
 				items: [
+					{
+							type: 'category',
+							label: 'documentation',
+							link: {type: 'generated-index', slug: '/Product/iMCU/W7500P/overview#documentation'},  
+							items: [
+								// 하위 항목들
+								{ type: 'link', label: 'Datasheet', href: '/Product/iMCU/W7500P/overview#datasheet' },
+								{ type: 'link', label: 'technical documents', href: '/Product/iMCU/W7500P/overview#technical-documents' },
+								{ type: 'link', label: 'getting-started', href: '/Product/iMCU/W7500P/overview#getting-started' },
+							]
+
+						},
+						{
+							type: 'category',
+							label: 'Software resources',
+							link: {type: 'generated-index', slug: '/Product/iMCU/W7500P/overview#software-resources'},  
+							items: [
+								// 하위 항목들
+								{ type: 'link', label: 'Driver', href: '/Product/iMCU/W7500P/overview#driver' },
+							]
+						},
+
+						{
+							type: 'category',
+							label: 'Hardware resources',
+							link: {type: 'generated-index', slug: '/Product/iMCU/W7500P/overview#hardware-resources'},  
+							items: [
+								// 하위 항목들
+								{ type: 'link', label: 'technical resources', href: '/Product/iMCU/W7500P/overview#technical-resources' },
+								{ type: 'link', label: 'test certification',  href: '/Product/iMCU/W7500P/overview#test--certification' },
+							]
+						},
+
+
+						{
+							type: 'category',
+							label: 'Related-modules',
+							link: {type: 'generated-index', slug: '/Product/iMCU/W7500P/overview#related-modules'},  
+							items: [
+								// 하위 항목들
+								{ type: 'link', label: 'evaluation-boards', href: '/Product/iMCU/W7500P?module=evb/overview#related-modules' },
+								{ type: 'link', label: 'serial-to-ethernet-module',  href: '/Product/iMCU/W7500P?module=s2e/overview#related-modules' },
+							]
+						},
+
+
 					//'Product/iMCU/W7500P/overview',
-					'Product/iMCU/W7500P/pin-assignment',
-					'Product/iMCU/W7500P/system-and-memory',
-					'Product/iMCU/W7500P/interrupt-and-event',
-					'Product/iMCU/W7500P/power-supply',
-					'Product/iMCU/W7500P/booting-sequence',
-					'Product/iMCU/W7500P/electrical-characteristics',
-					'Product/iMCU/W7500P/w7500p-ref-schematic',
-					'Product/iMCU/W7500P/documents',
-					'Product/iMCU/W7500P/peripherals',
-					'Product/iMCU/W7500P/libraries-examples',
+					// 'Product/iMCU/W7500P/pin-assignment',
+					// 'Product/iMCU/W7500P/system-and-memory',
+					// 'Product/iMCU/W7500P/interrupt-and-event',
+					// 'Product/iMCU/W7500P/power-supply',
+					// 'Product/iMCU/W7500P/booting-sequence',
+					// 'Product/iMCU/W7500P/electrical-characteristics',
+					// 'Product/iMCU/W7500P/w7500p-ref-schematic',
+					// 'Product/iMCU/W7500P/documents',
+					// 'Product/iMCU/W7500P/peripherals',
+					// 'Product/iMCU/W7500P/libraries-examples',
 					//'Product/iMCU/W7500P/all_pages',
 				],
 				},
-				
-					//'Product/iMCU/w7100a',			
-			],
-		},
-		{
+				// {
+				// //	type: 'link',
+				// //	label: 'W5100', // string - the label that should be displayed.
+				// //	href: 'https://www.wiznet.io/product-item/w5100/' // string - the target URL.
+				// 	type: 'category',
+				// 	label: '📜W7500X Common resource',
+				// 	// link: {type: 'doc', id: 'Product/iEthernet/W5100/overview'},
+				// 	items: [
+				// 	{
+				// 		type: 'category',
+				// 		label: 'Peripherals Internal',
+				// 		items: [
+				// 			// 'Product/iMCU/w7500x_Common_resource/Peripherals-internal/adc',
+				// 			// 'Product/iMCU/w7500x_Common_resource/Peripherals-internal/afc',
+				// 			'Product/iMCU/w7500x_Common_resource/Peripherals-internal/blink-led',
+				// 			'Product/iMCU/w7500x_Common_resource/Peripherals-internal/capturemode',
+				// 			'Product/iMCU/w7500x_Common_resource/Peripherals-internal/countermode',
+				// 			// 'Product/iMCU/w7500x_Common_resource/Peripherals-internal/crg',
+				// 			'Product/iMCU/w7500x_Common_resource/Peripherals-internal/deadzonegeneration',
+				// 			'Product/iMCU/w7500x_Common_resource/Peripherals-internal/delay',
+				// 			'Product/iMCU/w7500x_Common_resource/Peripherals-internal/deladhcpclient',
+				// 			// 'Product/iMCU/w7500x_Common_resource/Peripherals-internal/dma',
+				// 			'Product/iMCU/w7500x_Common_resource/Peripherals-internal/dmdnsclient',
+				// 			// 'Product/iMCU/w7500x_Common_resource/Peripherals-internal/eeprom',
+				// 			// 'Product/iMCU/w7500x_Common_resource/Peripherals-internal/exti',
+				// 			// 'Product/iMCU/w7500x_Common_resource/Peripherals-internal/flash',
+				// 			'Product/iMCU/w7500x_Common_resource/Peripherals-internal/flowcontrol',
+				// 			// 'Product/iMCU/w7500x_Common_resource/Peripherals-internal/gpio',
+				// 			// 'Product/iMCU/w7500x_Common_resource/Peripherals-internal/i2c',
+				// 			'Product/iMCU/w7500x_Common_resource/Peripherals-internal/iap-example',
+				// 			'Product/iMCU/w7500x_Common_resource/Peripherals-internal/illumination-sensor',
+				// 			// 'Product/iMCU/w7500x_Common_resource/Peripherals-internal/init',
+				// 			'Product/iMCU/w7500x_Common_resource/Peripherals-internal/inter',
+				// 			'Product/iMCU/w7500x_Common_resource/Peripherals-internal/led-toggle',
+				// 			// 'Product/iMCU/w7500x_Common_resource/Peripherals-internal/lm75-temperature',
+				// 			'Product/iMCU/w7500x_Common_resource/Peripherals-internal/loopback',
+				// 			// 'Product/iMCU/w7500x_Common_resource/Peripherals-internal/padcon',
+				// 			'Product/iMCU/w7500x_Common_resource/Peripherals-internal/polling',
+				// 			'Product/iMCU/w7500x_Common_resource/Peripherals-internal/printf',
+				// 			// 'Product/iMCU/w7500x_Common_resource/Peripherals-internal/pwm',
+				// 			'Product/iMCU/w7500x_Common_resource/Peripherals-internal/pwmoutput',
+				// 			'Product/iMCU/w7500x_Common_resource/Peripherals-internal/rng-ex',
+				// 			// 'Product/iMCU/w7500x_Common_resource/Peripherals-internal/rng',
+				// 			'Product/iMCU/w7500x_Common_resource/Peripherals-internal/sd-card-led',
+				// 			'Product/iMCU/w7500x_Common_resource/Peripherals-internal/sleep',
+				// 			// 'Product/iMCU/w7500x_Common_resource/Peripherals-internal/ssp',
+				// 			// 'Product/iMCU/w7500x_Common_resource/Peripherals-internal/systick',
+				// 			'Product/iMCU/w7500x_Common_resource/Peripherals-internal/tcp-function',
+				// 			'Product/iMCU/w7500x_Common_resource/Peripherals-internal/timermode',
+				// 			'Product/iMCU/w7500x_Common_resource/Peripherals-internal/timerrun',
+				// 			// 'Product/iMCU/w7500x_Common_resource/Peripherals-internal/toe',
+				// 			// 'Product/iMCU/w7500x_Common_resource/Peripherals-internal/uart',
+				// 			// 'Product/iMCU/w7500x_Common_resource/Peripherals-internal/wdt',
+				// 			'Product/iMCU/w7500x_Common_resource/Peripherals-internal/wdtreset',						
+				// 		],
+				// 	},
+				// 	// {
+				// 	// 	type: 'category',
+				// 	// 	label: 'Other Documents',
+				// 	// 	items: 
+				// 	// 	[
+				// 	// 		{
+				// 	// 			type: 'category',
+				// 	// 			label: 'Appnote',
+				// 	// 			items: [
+				// 	// 			'Product/iMCU/w7500x_Common_resource/appnote/how_to_install_KEIL',
+				// 	// 			'Product/iMCU/w7500x_Common_resource/appnote/how-to-make-keil-new-project-for-w7500',
+				// 	// 			'Product/iMCU/w7500x_Common_resource/appnote/how-to-use-gcc-for-w7500-peripherals-examples',
+				// 	// 			'Product/iMCU/w7500x_Common_resource/appnote/how-to-use-isp-tool',
+				// 	// 			'Product/iMCU/w7500x_Common_resource/appnote/how-to-use-mdk-for-w7500-peripherals-examples',							
+				// 	// 			],
+				// 	// 		},
+				// 	// 	],
+				// 	// },
+				// ],
+				// },
+
+						{
 			type: 'category',
 			label: 'Pre-programmed MCU',
 			link: {type: 'doc', id: 'Product/Pre-programmed-MCU/pre_programmed_mcu'},
@@ -224,37 +407,37 @@ module.exports = {
 							type: 'category',
 							label: 'W55RP20-S2E [EN]',
 							items: [
-								'Product/ioNIC/W55RP20/W55RP20-S2E/overview-en',
-								'Product/ioNIC/W55RP20/W55RP20-S2E/w55rp20-evb-pico-s2e',
+								'Product/iMCU/W55RP20/W55RP20-S2E/overview-en',
+								'Product/iMCU/W55RP20/W55RP20-S2E/w55rp20-evb-pico-s2e',
 		//						{
 		//							type: 'category',
 		//							label: 'Common docs for using-[KR]',
 		//							items: [
-		//								'Product/ioNIC/W55RP20/W55RP20-S2E/Config-tool-Guide-kr',
-		//								'Product/ioNIC/W55RP20/W55RP20-S2E/command-manual-kr',
-		//								'Product/ioNIC/W55RP20/W55RP20-S2E/mqtt-connection-guide-kr',
-		//								'Product/ioNIC/W55RP20/W55RP20-S2E/ssl-connection-guide-kr',
-		//								'Product/ioNIC/W55RP20/W55RP20-S2E/modbus-connection-guide-kr',
-		//								'Product/ioNIC/W55RP20/W55RP20-S2E/firmware-update-guide-kr',
-		//								'Product/ioNIC/W55RP20/W55RP20-S2E/Web_Config_Guide_KO',
-		//								'Product/ioNIC/W55RP20/W55RP20-S2E/factory-rst-guide-kr',																											
+		//								'Product/iMCU/W55RP20/W55RP20-S2E/Config-tool-Guide-kr',
+		//								'Product/iMCU/W55RP20/W55RP20-S2E/command-manual-kr',
+		//								'Product/iMCU/W55RP20/W55RP20-S2E/mqtt-connection-guide-kr',
+		//								'Product/iMCU/W55RP20/W55RP20-S2E/ssl-connection-guide-kr',
+		//								'Product/iMCU/W55RP20/W55RP20-S2E/modbus-connection-guide-kr',
+		//								'Product/iMCU/W55RP20/W55RP20-S2E/firmware-update-guide-kr',
+		//								'Product/iMCU/W55RP20/W55RP20-S2E/Web_Config_Guide_KO',
+		//								'Product/iMCU/W55RP20/W55RP20-S2E/factory-rst-guide-kr',																											
 		//							],
 		//						},
 								{
 									type: 'category',
 									label: 'Common docs for using',
 									items: [
-										'Product/ioNIC/W55RP20/W55RP20-S2E/hw-design-guide-en',
-										'Product/ioNIC/W55RP20/W55RP20-S2E/Config-tool-Guide-en',
-										'Product/ioNIC/W55RP20/W55RP20-S2E/command-manual-en',
-										'Product/ioNIC/W55RP20/W55RP20-S2E/mqtt-connection-guide-en',
-										'Product/ioNIC/W55RP20/W55RP20-S2E/ssl-connection-guide-en',
-										'Product/ioNIC/W55RP20/W55RP20-S2E/modbus-connection-guide-en',
-										'Product/ioNIC/W55RP20/W55RP20-S2E/firmware-update-guide-en',
-										'Product/ioNIC/W55RP20/W55RP20-S2E/Web_Config_Guide_EN',
-										'Product/ioNIC/W55RP20/W55RP20-S2E/factory-rst-guide-en',
-										'Product/ioNIC/W55RP20/W55RP20-S2E/mac_address-write-guide-en',
-										'Product/ioNIC/W55RP20/W55RP20-S2E/w55rp20-s2e-an-spi-mode-en',
+										'Product/iMCU/W55RP20/W55RP20-S2E/hw-design-guide-en',
+										'Product/iMCU/W55RP20/W55RP20-S2E/Config-tool-Guide-en',
+										'Product/iMCU/W55RP20/W55RP20-S2E/command-manual-en',
+										'Product/iMCU/W55RP20/W55RP20-S2E/mqtt-connection-guide-en',
+										'Product/iMCU/W55RP20/W55RP20-S2E/ssl-connection-guide-en',
+										'Product/iMCU/W55RP20/W55RP20-S2E/modbus-connection-guide-en',
+										'Product/iMCU/W55RP20/W55RP20-S2E/firmware-update-guide-en',
+										'Product/iMCU/W55RP20/W55RP20-S2E/Web_Config_Guide_EN',
+										'Product/iMCU/W55RP20/W55RP20-S2E/factory-rst-guide-en',
+										'Product/iMCU/W55RP20/W55RP20-S2E/mac_address-write-guide-en',
+										'Product/iMCU/W55RP20/W55RP20-S2E/w55rp20-s2e-an-spi-mode-en',
 									],
 								},
 							],
@@ -263,23 +446,23 @@ module.exports = {
 							type: 'category',
 							label: 'W55RP20-S2E [JP]',
 							items: [
-								'Product/ioNIC/W55RP20/W55RP20-S2E/overview-jp',
-								'Product/ioNIC/W55RP20/W55RP20-S2E/w55rp20-evb-pico-s2e-jp',
+								'Product/iMCU/W55RP20/W55RP20-S2E/overview-jp',
+								'Product/iMCU/W55RP20/W55RP20-S2E/w55rp20-evb-pico-s2e-jp',
 								{
 									type: 'category',
 									label: 'Common docs for using',
 									items: [
-										'Product/ioNIC/W55RP20/W55RP20-S2E/hw-design-guide-jp',
-										'Product/ioNIC/W55RP20/W55RP20-S2E/Config-tool-Guide-jp',
-										'Product/ioNIC/W55RP20/W55RP20-S2E/command-manual-jp',
-										'Product/ioNIC/W55RP20/W55RP20-S2E/mqtt-connection-guide-jp',
-										'Product/ioNIC/W55RP20/W55RP20-S2E/ssl-connection-guide-jp',
-										'Product/ioNIC/W55RP20/W55RP20-S2E/modbus-connection-guide-jp',
-										'Product/ioNIC/W55RP20/W55RP20-S2E/firmware-update-guide-jp',
-										'Product/ioNIC/W55RP20/W55RP20-S2E/Web_Config_Guide-jp',
-										'Product/ioNIC/W55RP20/W55RP20-S2E/factory-rst-guide-jp',
-										'Product/ioNIC/W55RP20/W55RP20-S2E/mac_address-write-guide-jp',
-										'Product/ioNIC/W55RP20/W55RP20-S2E/w55rp20-s2e-an-spi-mode-jp',
+										'Product/iMCU/W55RP20/W55RP20-S2E/hw-design-guide-jp',
+										'Product/iMCU/W55RP20/W55RP20-S2E/Config-tool-Guide-jp',
+										'Product/iMCU/W55RP20/W55RP20-S2E/command-manual-jp',
+										'Product/iMCU/W55RP20/W55RP20-S2E/mqtt-connection-guide-jp',
+										'Product/iMCU/W55RP20/W55RP20-S2E/ssl-connection-guide-jp',
+										'Product/iMCU/W55RP20/W55RP20-S2E/modbus-connection-guide-jp',
+										'Product/iMCU/W55RP20/W55RP20-S2E/firmware-update-guide-jp',
+										'Product/iMCU/W55RP20/W55RP20-S2E/Web_Config_Guide-jp',
+										'Product/iMCU/W55RP20/W55RP20-S2E/factory-rst-guide-jp',
+										'Product/iMCU/W55RP20/W55RP20-S2E/mac_address-write-guide-jp',
+										'Product/iMCU/W55RP20/W55RP20-S2E/w55rp20-s2e-an-spi-mode-jp',
 									],
 								},
 							],
@@ -288,6 +471,9 @@ module.exports = {
 				},	
 			],
 		},
+			],
+		},
+
 		{
 			type: 'category',
 			label: 'iEthernet',
@@ -302,13 +488,59 @@ module.exports = {
 					items: [
 						{
 							type: 'category',
-							label: 'Documents',
+							label: 'documentation',
+							link: {type: 'generated-index', slug: '/Product/iEthernet/W6300/overview#documentation'},  
 							items: [
-								'Product/iEthernet/W6300/datasheet',
-								'Product/iEthernet/W6300/ref-schematic',
-							],
+								// 하위 항목들
+								{ type: 'link', label: 'datasheet', href: '/Product/iEthernet/W6300/overview#datasheet' },
+								// { type: 'link', label: 'datasheet', href: '/Product/iEthernet/W6300/overview#technical-documents' },
+							]
+
 						},
-						'Product/iEthernet/W6300/application-note',
+						{
+							type: 'category',
+							label: 'Software resources',
+							link: {type: 'generated-index', slug: '/Product/iEthernet/W6300/overview#software-resources'},  
+							items: [
+								// 하위 항목들
+								{ type: 'link', label: 'Driver', href: '/Product/iEthernet/W6300/overview?software=driver#software-resources' },
+							]
+						},
+
+
+
+						{
+							type: 'category',
+							label: 'Hardware resources',
+							link: {type: 'generated-index', slug: '/Product/iEthernet/W6300/overview#hardware-resources'},  
+							items: [
+								// 하위 항목들
+								{ type: 'link', label: 'technical resources', href: '/Product/iEthernet/W6300/overview#technical-resources' },
+								{ type: 'link', label: 'test certification', href: '/Product/iEthernet/W6300/overview#test--certification' },
+							]
+						},
+						{
+							type: 'category',
+							label: 'Related-modules',
+							link: {type: 'generated-index', slug: '/Product/iEthernet/W6300/overview#related-modules'},  
+							items: [
+								// 하위 항목들
+								{ type: 'link', label: 'evaluation-boards', href: '/Product/iEthernet/W6300/overview?module=evb#related-modules' },
+								{ type: 'link', label: 'Hat & shield',  href: '/Product/iEthernet/W6300/overview?module=hat#related-modules' },
+							]
+						},
+
+
+
+						// {
+						// 	type: 'category',
+						// 	label: 'Documents',
+						// 	items: [
+						// 		'Product/iEthernet/W6300/datasheet',
+						// 		'Product/iEthernet/W6300/ref-schematic',
+						// 	],
+						// },
+					
 						// {
 						// 	type: 'category',
 						// 	label: 'W6300 [EN]',
@@ -347,20 +579,63 @@ module.exports = {
 				label: 'W6100',
 				link: {type: 'doc', id: 'Product/iEthernet/W6100/overview'},
 				items: [
-						{	
-						type: 'category',
-						label: 'Documents',
-						items: [
-							'Product/iEthernet/W6100/datasheet',
-							'Product/iEthernet/W6100/ref-schematic',
-						],
-					},
+						{
+							type: 'category',
+							label: 'documentation',
+							link: {type: 'generated-index', slug: '/Product/iEthernet/W6100/overview#documentation'},  
+							items: [
+								// 하위 항목들
+								{ type: 'link', label: 'datasheet', href: '/Product/iEthernet/W6100/overview#datasheet' },
+								// { type: 'link', label: 'technical-docs', href: '/Product/iEthernet/W6100/overview#technical-documents' },
+							]
+
+						},
+						{
+							type: 'category',
+							label: 'Software resources',
+							link: {type: 'generated-index', slug: '/Product/iEthernet/W6100/overview#software-resources'},  
+							items: [
+								// 하위 항목들
+								{ type: 'link', label: 'Driver', href: '/Product/iEthernet/W6100/overview?software=driver#software-resources' },
+							]
+						},
+
+						{
+							type: 'category',
+							label: 'Hardware resources',
+							link: {type: 'generated-index', slug: '/Product/iEthernet/W6100/overview#hardware-resources'},  
+							items: [
+								// 하위 항목들
+								{ type: 'link', label: 'technical resources', href: '/Product/iEthernet/W6100/overview#technical-resources' },
+								{ type: 'link', label: 'test certification', href: '/Product/iEthernet/W6100/overview#test--certification' },
+							]
+						},
+
+						{
+							type: 'category',
+							label: 'Related-modules',
+							link: {type: 'generated-index', slug: '/Product/iEthernet/W6100/overview#related-modules'},  
+							items: [
+								// 하위 항목들
+								{ type: 'link', label: 'evaluation-boards', href: '/Product/iEthernet/W6100/overview?module=evb#related-modules' },
+								{ type: 'link', label: 'Hat & shield',  href: '/Product/iEthernet/W6100/overview?module=hat#related-modules' },
+							]
+						},
+
+					// 	{
+					// 	type: 'category',
+					// 	label: 'Documents',
+					// 	items: [
+					// 		'Product/iEthernet/W6100/datasheet',
+					// 		'Product/iEthernet/W6100/ref-schematic',
+					// 	],
+					// },
 					// //'Product/iEthernet/W6100/w6100',
 					// 'Product/iEthernet/W6100/overview',
 					// 'Product/iEthernet/W6100/document',
 					// 'Product/iEthernet/W6100/driver-basic-project',
 					// 'Product/iEthernet/W6100/ref-schematic',
-					'Product/iEthernet/W6100/application-note',
+					// 'Product/iEthernet/W6100/application-note',
 					
 					// 'Product/iEthernet/W6100/w6100-evb-pico',
 					// 'Product/iEthernet/W6100/w6100-evb-pico2',
@@ -372,27 +647,74 @@ module.exports = {
 				label: 'W5100S',
 				link: {type: 'doc', id: 'Product/iEthernet/W5100S/overview'},
 				items: [
+						{
+							type: 'category',
+							label: 'documentation',
+							link: {type: 'generated-index', slug: '/Product/iEthernet/W5100S/overview#documentation'},  
+							items: [
+								// 하위 항목들
+								{ type: 'link', label:'datasheet', href: '/Product/iEthernet/W5100S/overview#datasheet' },
+								{ type: 'link', label: 'technical-docs', href: '/Product/iEthernet/W5100S/overview#technical-documents' },
+							]
+
+						},
+						{
+							type: 'category',
+							label: 'Software resources',
+							link: {type: 'generated-index', slug: '/Product/iEthernet/W5100S/overview#software-resources'},  
+							items: [
+								// 하위 항목들
+								{ type: 'link', label: 'Driver', href: '/Product/iEthernet/W5100S/overview?software=driver#software-resources' },
+								{ type: 'link', label: 'App Note', href: '/Product/iEthernet/W5100S/overview?software=appnote#software-resources' },
+							]
+						},
+
+
+						{
+							type: 'category',
+							label: 'Hardware resources',
+							link: {type: 'generated-index', slug: '/Product/iEthernet/W5100S/overview#hardware-resources'},  
+							items: [
+								// 하위 항목들
+								{ type: 'link', label: 'technical resources', href: '/Product/iEthernet/W5100S/overview#technical-resources' },
+								{ type: 'link', label: 'test certification', href: '/Product/iEthernet/W5100S/overview#test--certification' },
+							]
+						},
+
+						{
+							type: 'category',
+							label: 'Related-modules',
+							link: {type: 'generated-index', slug: '/Product/iEthernet/W5100S/overview#related-modules'},  
+							items: [
+								// 하위 항목들
+								{ type: 'link', label: 'evaluation-boards', href: '/Product/iEthernet/W5100S/overview?module=evb#related-modules' },
+								{ type: 'link', label: 'Hat & shield',  href: '/Product/iEthernet/W5100S/overview?module=hat#related-modules' },
+							]
+						},
+
+
+
 				// 	//'Product/iEthernet/W5100S/overview',
-					'Product/iEthernet/W5100S/document',
-					'Product/iEthernet/W5100S/driver',
+					// 'Product/iEthernet/W5100S/document',
+					// 'Product/iEthernet/W5100S/driver',
 				// 	'Product/iEthernet/W5100S/ref-schematic',
 				// 	'Product/iEthernet/W5100S/comparison-sheet',
 					
-					{
-					type: 'category',
-					label: 'Application Note',
-					link: {type: 'doc', id: 'Product/iEthernet/W5100S/Application-Note/w5100s-application'},
-					items: [
-						//'Product/iEthernet/W5100S/Application-Note/w5100s_application',
-						'Product/iEthernet/W5100S/Application-Note/tcp',
-						'Product/iEthernet/W5100S/Application-Note/udp',
-						'Product/iEthernet/W5100S/Application-Note/ipraw',
-						'Product/iEthernet/W5100S/Application-Note/pppoe',
-						'Product/iEthernet/W5100S/Application-Note/socket-less-command',
-						'Product/iEthernet/W5100S/Application-Note/interrupt',
-						'Product/iEthernet/W5100S/Application-Note/dma',
-						],
-					},
+					// {
+					// type: 'category',
+					// label: 'Application Note',
+					// link: {type: 'doc', id: 'Product/iEthernet/W5100S/Application-Note/w5100s-application'},
+					// items: [
+					// 	//'Product/iEthernet/W5100S/Application-Note/w5100s_application',
+					// 	'Product/iEthernet/W5100S/Application-Note/tcp',
+					// 	'Product/iEthernet/W5100S/Application-Note/udp',
+					// 	'Product/iEthernet/W5100S/Application-Note/ipraw',
+					// 	'Product/iEthernet/W5100S/Application-Note/pppoe',
+					// 	'Product/iEthernet/W5100S/Application-Note/socket-less-command',
+					// 	'Product/iEthernet/W5100S/Application-Note/interrupt',
+					// 	'Product/iEthernet/W5100S/Application-Note/dma',
+					// 	],
+					// },
 					
 				// 	'Product/iEthernet/W5100S/w5100s-evb-pico',
 				// 	'Product/iEthernet/W5100S/w5100s-evb-pico2',
@@ -405,16 +727,61 @@ module.exports = {
 				label: 'W5500',
 				link: {type: 'doc', id: 'Product/iEthernet/W5500/overview'},
 				items: [
-					{
-					type: 'category',
-					label: 'Documents',
-					// link: {type: 'doc', id: 'Product/iEthernet/W5500/Application/w5500-application'},
-					items: [
-						'Product/iEthernet/W5500/datasheet',
-						'Product/iEthernet/W5500/ref-schematic',
-						'Product/iEthernet/W5500/Application/esd-test-document',
-					],
-					},
+						{
+							type: 'category',
+							label: 'documentation',
+							link: {type: 'generated-index', slug: '/Product/iEthernet/W5500/overview#documentation'},  
+							items: [
+								// 하위 항목들
+								{ type: 'link', label: 'datasheet', href: '/Product/iEthernet/W5500/overview#datasheet' },
+								{ type: 'link', label: 'technical documents', href: '/Product/iEthernet/W5500/overview#technical-documents' },
+							]
+
+						},
+						{
+							type: 'category',
+							label: 'Software resources',
+							link: {type: 'generated-index', slug: '/Product/iEthernet/W5500/overview#software-resources'},  
+							items: [
+								// 하위 항목들
+								{ type: 'link', label: 'Driver', href: '/Product/iEthernet/W5500/overview?software=driver#software-resources' },
+								{ type: 'link', label: 'App Note', href: '/Product/iEthernet/W5500/overview?software=appnote#software-resources' },
+							]
+						},
+
+
+
+						{
+							type: 'category',
+							label: 'Hardware resources',
+							link: {type: 'generated-index', slug: '/Product/iEthernet/W5500/overview#hardware-resources'},  
+							items: [
+								// 하위 항목들
+								{ type: 'link', label: 'technical resources', href: '/Product/iEthernet/W5500/overview#technical-resources' },
+								{ type: 'link', label: 'test certification', href: '/Product/iEthernet/W5500/overview#test--certification' },
+							]
+						},
+						{
+							type: 'category',
+							label: 'Related-modules',
+							link: {type: 'generated-index', slug: '/Product/iEthernet/W5500/overview#related-modules'},  
+							items: [
+								// 하위 항목들
+								{ type: 'link', label: 'evaluation-boards', href: '/Product/iEthernet/W5500/overview?module=evb#related-modules' },
+								{ type: 'link', label: 'Hat & shield',  href: '/Product/iEthernet/W5500/overview?module=hat#related-modules' },
+							]
+						},
+
+					// {
+					// type: 'category',
+					// label: 'Documents',
+					// // link: {type: 'doc', id: 'Product/iEthernet/W5500/Application/w5500-application'},
+					// items: [
+					// 	'Product/iEthernet/W5500/datasheet',
+					// 	'Product/iEthernet/W5500/ref-schematic',
+					// 	'Product/iEthernet/W5500/Application/esd-test-document',
+					// ],
+					// },
 					// 'Product/iEthernet/W5500/datasheet',
 					// 'Product/iEthernet/W5500/datasheet',
 
@@ -422,23 +789,23 @@ module.exports = {
 					// 'Product/iEthernet/W5500/overview',
 					// //'Product/iEthernet/W5500/japanese-v',
 					// 'Product/iEthernet/W5500/datasheet',
-					'Product/iEthernet/W5500/driver',
+					// 'Product/iEthernet/W5500/driver',
 					// 'Product/iEthernet/W5500/ref-schematic',
 					// 'Product/iEthernet/W5500/migration-from-w5200',
-					{
-					type: 'category',
-					label: 'Application',
-					link: {type: 'doc', id: 'Product/iEthernet/W5500/Application/w5500-application'},
-					items: [
-						//'Product/iEthernet/W5500/Application/w5500_application',
-						'Product/iEthernet/W5500/Application/tcp',
-						'Product/iEthernet/W5500/Application/udp',
-						'Product/iEthernet/W5500/Application/ipraw',
-						'Product/iEthernet/W5500/Application/pppoe',
-						'Product/iEthernet/W5500/Application/spi-performance',
+					// {
+					// type: 'category',
+					// label: '📜Application',
+					// link: {type: 'doc', id: 'Product/iEthernet/W5500/Application/w5500-application'},
+					// items: [
+					// 	//'Product/iEthernet/W5500/Application/w5500_application',
+					// 	'Product/iEthernet/W5500/Application/tcp',
+					// 	'Product/iEthernet/W5500/Application/udp',
+					// 	'Product/iEthernet/W5500/Application/ipraw',
+					// 	'Product/iEthernet/W5500/Application/pppoe',
+					// 	'Product/iEthernet/W5500/Application/spi-performance',
 					
-					],
-					},
+					// ],
+					// },
 					// //'Product/iEthernet/W5500/all_pages',
 					// //'Product/iEthernet/W5500/all_pages_jp',
 					
@@ -456,9 +823,55 @@ module.exports = {
 					label: 'W5300',
 					link: {type: 'doc', id: 'Product/iEthernet/W5300/overview'},
 					items: [
+						{
+							type: 'category',
+							label: 'documentation',
+							link: {type: 'generated-index', slug: '/Product/iEthernet/W5300/overview#documentation'},  
+							items: [
+								// 하위 항목들
+								{ type: 'link', label: 'datasheet', href: '/Product/iEthernet/W5300/overview#datasheet' },
+								{ type: 'link', label: 'technical documents', href: '/Product/iEthernet/W5300/overview#technical-documents' },
+							]
+
+						},
+						{
+							type: 'category',
+							label: 'Software resources',
+							link: {type: 'generated-index', slug: '/Product/iEthernet/W5300/overview#software-resources'},  
+							items: [
+								// 하위 항목들
+								{ type: 'link', label: 'Driver', href: '/Product/iEthernet/W5300/overview?software=driver#software-resources' },
+								{ type: 'link', label: 'App Note', href: '/Product/iEthernet/W5300/overview?software=appnote#software-resources' },
+							]
+						},
+
+
+
+						{
+							type: 'category',
+							label: 'Hardware resources',
+							link: {type: 'generated-index', slug: '/Product/iEthernet/W5300/overview#hardware-resources'},  
+							items: [
+								// 하위 항목들
+								{ type: 'link', label: 'technical resources', href: '/Product/iEthernet/W5300/overview#technical-resources' },
+								{ type: 'link', label: 'test certification', href: '/Product/iEthernet/W5300/overview#test--certification' },
+							]
+						},
+
+						{
+							type: 'category',
+							label: 'Related-modules',
+							link: {type: 'generated-index', slug: '/Product/iEthernet/W5300/overview#related-modules'},  
+							items: [
+								// 하위 항목들
+								// { type: 'link', label: 'evaluation-boards', href: '/Product/iEthernet/W5300/overview?module=evb#evaluation-boards' },
+								{ type: 'link', label: 'Hat & shield',  href: '/Product/iEthernet/W5300/overview?module=hat#related-modules' },
+							]
+						},
+
 						// //'Product/iEthernet/W5300/w5300',
 						// 'Product/iEthernet/W5300/overview',
-						'Product/iEthernet/W5300/document',
+						// 'Product/iEthernet/W5300/document',
 						// 'Product/iEthernet/W5300/w5300-evb',
 						// 'Product/iEthernet/W5300/W5300-TOE-Shield'
 					],
@@ -471,13 +884,73 @@ module.exports = {
 					label: 'W5100',
 					link: {type: 'doc', id: 'Product/iEthernet/W5100/overview'},
 					items: [
+							{
+							type: 'category',
+							label: 'documentation',
+							link: {type: 'generated-index', slug: '/Product/iEthernet/W5100/overview#documentation'},  
+							items: [
+								// 하위 항목들
+								{ type: 'link', label: 'datasheet', href: '/Product/iEthernet/W5100/overview#datasheet' },
+								{ type: 'link', label: 'technical documents', href: '/Product/iEthernet/W5100/overview#technical-documents' },
+							]
+
+						},
+						{
+							type: 'category',
+							label: 'Software resources',
+							link: {type: 'generated-index', slug: '/Product/iEthernet/W5100/overview#software-resources'},  
+							items: [
+								// 하위 항목들
+								{ type: 'link', label: 'Driver', href: '/Product/iEthernet/W5100/overview?software=driver#software-resources' },
+								{ type: 'link', label: 'App Note', href: '/Product/iEthernet/W5100/overview?software=appnote#software-resources' },
+							]
+						},
+						{
+							type: 'category',
+							label: 'Hardware resources',
+							link: {type: 'generated-index', slug: '/Product/iEthernet/W5100/overview#hardware-resources'},  
+							items: [
+								// 하위 항목들
+								{ type: 'link', label: 'technical resources', href: '/Product/iEthernet/W5100/overview#technical-resources' },
+								{ type: 'link', label: 'test certification', href: '/Product/iEthernet/W5100/overview#test--certification' },
+							]
+						},
+
+						{
+							type: 'category',
+							label: 'Related-modules',
+							link: {type: 'generated-index', slug: '/Product/iEthernet/W5100/overview#related-modules'},  
+							items: [
+								// 하위 항목들
+								{ type: 'link', label: 'evaluation-boards', href: '/Product/iEthernet/W5100/overview?module=evb#related-modules' },
+								{ type: 'link', label: 'Hat & shield',  href: '/Product/iEthernet/W5100/overview?module=hat#related-modules' },
+							]
+						},
+
+						//Product/iEthernet/W5100/overview#features
+
 						// //'Product/iEthernet/W5100/w5100',
 						// 'Product/iEthernet/W5100/overview',
-						'Product/iEthernet/W5100/document',
+						// 'Product/iEthernet/W5100/document',
 						// 'Product/iEthernet/W5100/w5100-evb',
 					],
 				},
-
+				// {
+				// //	type: 'link',
+				// //	label: 'W5100', // string - the label that should be displayed.
+				// //	href: 'https://www.wiznet.io/product-item/w5100/' // string - the target URL.
+				// 	type: 'category',
+				// 	label: '📜SW resource',
+				// 	// link: {type: 'doc', id: 'Product/iEthernet/W5100/overview'},
+				// 	items: [
+				// 			'Product/iEthernet/SW_Resource/application-note',
+				// 			'Product/iEthernet/SW_Resource/driver',
+				// 		// //'Product/iEthernet/W5100/w5100',
+				// 		// 'Product/iEthernet/W5100/overview',
+				// 		// 'Product/iEthernet/W5100/document',
+				// 		// 'Product/iEthernet/W5100/w5100-evb',
+				// 	],
+				// },
 				/*{
 					type: 'category',
 					label: 'W5200',
@@ -1188,7 +1661,7 @@ module.exports = {
 				link: {type: 'doc', id: 'Product/Open-Source-Hardware/rp2040_based'},
 				items: [
 					//'Product/Open-Source-Hardware/w2e-gateway-pico',
-					'Product/ioNIC/W55RP20/w55rp20-evb-pico',
+					'Product/iMCU/W55RP20/w55rp20-evb-pico',
 					'Product/iEthernet/W6300/w6300-evb-pico',
 					'Product/iEthernet/W6100/w6100-evb-pico',
 					'Product/iEthernet/W5500/w5500-evb-pico',

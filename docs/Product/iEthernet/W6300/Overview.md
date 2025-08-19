@@ -15,7 +15,7 @@ import TabItem from '@theme/TabItem';
   </div>
   <div className="w6300-text">
     <p>
-     W6300 is a WIZnet 10/100 TOE ethernet chip that combines the high-speed ethernet performance with Dual IPv4/v6 Hardware stack. To support ethernet performance over 90Mbps and above, it supports 150MHz system clock and QSPI interface(including 4 Data lines). W6300 supports a total SRAM size of 64KB for 8 sockets, each has 4KB TX/RX buffer by default.
+W6300 is a hardwired TCP/IP stack internet controller chip with WIZnet technology, designed for high-speed Ethernet communication. It integrates Dual IPv4/IPv6 hardware stack, 10/100 Ethernet MAC, and PHY in a single chip. To achieve performance over 90Mbps, W6300 supports a 150MHz system clock and QSPI interface with 4 data lines. It provides 8 independent SOCKETs and 64KB of internal SRAM, enabling reliable Ethernet application development through socket programming.
     </p>
   </div>
 </div>
@@ -30,7 +30,7 @@ import TabItem from '@theme/TabItem';
 <summary><b>Pin Map</b></summary> 
 TBD
 </details>
-
+---
 ## Features
 
   - Supports following Hardwired TCP/IP Protocols : TCP, UDP, ICMP, IPv4, IPv6, ARP, IGMP, PPPoE
@@ -51,56 +51,41 @@ TBD
 ## Documentation
 
 
-### Technical Documents
+### datasheet 
 
 | **Title** | **Description** | **Notes** |
 | --------- | --------------- | --------- |
 | [![link](/img/products/w5500/w5500_evb/icons/download.png) W6300 Datasheet (EN)](/img/products/w6300/W6300%20DS_V100E.pdf) <br />  | Technical specifications and features of the W6300 chip | - |
 
 
-
+---
 ## Software Resources
 
-<Tabs groupId="Software Resources" >
-  <TabItem value="Driver" label="Driver" default >
+<Tabs groupId="software"  queryString>
+  <TabItem value="driver" label="Driver" default >
+  
+### Driver
 
     | **Resource** | **Description** |
     |--------------|-----------------|
-    | [ioLibrary_Driver][link-ioLibrary-Driver] | Official WIZnet driver library for W6300 and other chips |
-      
- 
-
-
-<details>
-<summary><b>Click to view supported protocols</b></summary>
-### Supported Protocols 
-
-| **Name** | **Description**                       | **Notes**                        |
-|----------|---------------------------------------|----------------------------------|
-| DHCP        | Dynamic Host Configuration Protocol - Automatically obtains IP address from network |     |
-| DNS         | Domain Name System - Resolves domain names to IP addresses  |     |
-| MQTT        | Message Queuing Telemetry Transport - Lightweight publish/subscribe messaging protocol |     |
-| SNTP        | Simple Network Time Protocol - Synchronizes system time with network time servers |     |
-| TFTP        | Trivial File Transfer Protocol - Simple file transfer over UDP |     |
-| httpServer  | HTTP Server - Web server implementation for hosting web pages and APIs |     |
-
-</details>
+    | [![link](\img\link.png) ioLibrary_Driver][link-ioLibrary-Driver] | Official WIZnet driver library for W6300 and other chips |
 
       :::info
-      The ioLibrary_Driver is a host MCU-independent library that provides complete control functions for the W6300 chip. It is compatible with all WIZnet chips and includes implementations of various network protocols. This library serves as the foundation for developing TCP/IP-based applications with minimal host MCU dependencies.
+
+The ioLibrary_Driver is an MCU-independent library for WIZnet W5x00, W6x00 chips .
+It provides implementations of essential TCP/IP services, enabling developers to build network applications with minimal MCU dependencies.
+      ### Supported services
+DHCP, DNS, MQTT, SNTP, TFTP, HTTP Server
+
       :::
+  
   
   </TabItem>
 
-  <TabItem value="Application Note" label="Application Note" >
 
-Please refer to the datasheet.
-
-
-  </TabItem>
 </Tabs>
 
-
+---
 ## Hardware Resources
 
 ### Technical Resources
@@ -123,36 +108,14 @@ Please refer to the datasheet.
 | ![link](/img/link.png) EMC Test                 | TBD | - |
 | ![link](/img/link.png) Reliability Test         | TBD | - |
 | ![link](/img/link.png) Certificate              | TBD | - | 
+---
+## Related modules
 
-## Evaluation Boards & Related modules
+<Tabs groupId="module" queryString>
 
-<Tabs groupId="Evaluation Boards" >
+  <TabItem value="evb" label="Evaluation Boards" default >
 
- <TabItem value="Hat & shield" label="Hat & shield" default>
-
-  <div className="link-card">
-  <a
-    href="/Product/ioModule/wiz630io"
-    target="_blank"
-    rel="noopener noreferrer"
-    className="link-card-content"
-  >
-    <img src="/img/products/wiz630io/WIZ630io_Front_side_view.png" alt="WIZ630io" />
-    <div>
-      <h3>WIZ630io</h3>
-      <p>
-       WIZ630io is a compact size network module that includes a W6300 (TCP/IP hardwired chip and PHY embedded), a transformer and RJ45. It can be used as a component and no effort is required to interface W6300 and Transformer. 
-      </p>
-    </div>
-  </a>
-  </div>
-
-
-  </TabItem>
-
-
-  <TabItem value="eval_board" label="Evaluation Boards" >
-
+### Evaluation Boards
   <div className="link-card">
   <a
     href="https://docs.wiznet.io/Product/iEthernet/W6300/w6300-evb-pico"
@@ -189,6 +152,29 @@ Please refer to the datasheet.
 
   </TabItem>
 
+ <TabItem value="hat" label="Hat & shield" >
+
+### Hat & shield
+
+  <div className="link-card">
+  <a
+    href="/Product/ioModule/wiz630io"
+    target="_blank"
+    rel="noopener noreferrer"
+    className="link-card-content"
+  >
+    <img src="/img/products/wiz630io/WIZ630io_Front_side_view.png" alt="WIZ630io" />
+    <div>
+      <h3>WIZ630io</h3>
+      <p>
+       WIZ630io is a compact size network module that includes a W6300 (TCP/IP hardwired chip and PHY embedded), a transformer and RJ45. It can be used as a component and no effort is required to interface W6300 and Transformer. 
+      </p>
+    </div>
+  </a>
+  </div>
+
+
+  </TabItem>
 </Tabs>
 
 <!-- Chip current overview -->
@@ -273,7 +259,7 @@ Please refer to the datasheet.
 [link-W55MH32Q-EVB]: https://docs.wiznet.io/Product/iMCU/W55MH32/W55MH32Q-evb
 [link-w5500-ethernet-shield]: https://docs.wiznet.io/Product/Open-Source-Hardware/w5500_ethernet_shield_kor
 [link-W5100S-Ethernet_Shield]: https://wiznetshop.io/product/detail.html?product_no=818&cate_no=57&display_group=1
-[link-w55rp20-evb-pico]: https://docs.wiznet.io/Product/ioNIC/W55RP20/w55rp20-evb-pico
+[link-w55rp20-evb-pico]: https://docs.wiznet.io/Product/iMCU/W55RP20/w55rp20-evb-pico
 [link-raspberry_pi_pico]: https://www.raspberrypi.com/products/raspberry-pi-pico/
 [link-wiznet_ethernet_hat]: https://docs.wiznet.io/Product/Open-Source-Hardware/wiznet_ethernet_hat
 [link-w5100s-evb-pico]: https://docs.wiznet.io/Product/iEthernet/W5100S/w5100s-evb-pico

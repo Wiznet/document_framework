@@ -15,11 +15,7 @@ import TabItem from '@theme/TabItem';
   </div>
   <div className="w6100-text">
   <p>
-   W6100 is a hardwired Internet controller chip supporting IPv4/IPv6 dual stack by adding IPv6 functions on the basis of WIZnet’s patented hardwired TCP/IP core technology. W6100 supports TCP/IP protocols such as TCP, UDP, IPv6, IPv4, ICMPv6, ICMPv4, IGMP, ARP and PPPoE. W6100 also includes 10Base-T / 10Base-Te / 100Base-TX Ethernet PHY and Ethernet MAC Controller which makes it suitable for embedded internet-enabled devices.
-
-  W6100 has 8 independent hardwired SOCKETs and supports various SOCKET-less commands, which are for IPv6 auto-configuration, monitoring, and managing the network via ARP, PINGv4, and PINGv6.
-
-  W6100 supports two kinds of HOST interfaces; SPI and parallel system BUS. It has 32KB internal memory for sending and receiving data. Designed for low power and low heat, W6100 provides WOL (Wake On LAN), Ethernet PHY power down mode and etc. W6100 has two package types, 48 LQFP and 48 QFN lead-free. Both versions are PIN-2-PIN compatible with W5100S.
+W6100 is a hardwired TCP/IP stack internet controller chip with WIZnet technology, supporting both IPv4 and IPv6. It integrates 10/100 Ethernet MAC and PHY and supports TCP, UDP, ICMPv4/v6, IGMP, ARP, and PPPoE protocols. W6100 provides 8 independent hardware SOCKETs and 32KB internal memory, making it easy to develop Ethernet applications using socket programming. It also supports WOL (Wake on LAN) and Power Down Mode for reduced power consumption, and offers SPI and Parallel System BUS interfaces.
     </p>
   </div>
 </div>
@@ -66,7 +62,7 @@ Please refer to the datasheet.
 
 ## Documentation
 
-### Technical Documents
+### datasheet 
 
 | **Title** | **Description** | **Notes** |
 | --------- | --------------- | --------- |
@@ -79,8 +75,8 @@ Please refer to the datasheet.
 
 
 
-<Tabs groupId="Software Resources" >
-<TabItem value="Driver" label="Driver" default >
+<Tabs groupId="software"  queryString>
+<TabItem value="driver" label="Driver" default >
 
 ### Driver
 The ioLibrary means "Internet Offload Library" for WIZnet chip. It includes drivers and application protocols. The ioLibrary can be used for W5100S and other chips's application designs. These will be updated continuously.
@@ -90,33 +86,19 @@ The ioLibrary means "Internet Offload Library" for WIZnet chip. It includes driv
 | [![link](\img\link.png) ioLibrary_Driver][link-ioLibrary-Driver] | Official WIZnet driver library for W5100S and other chips |
 
 
-<details>
-<summary><b>Click to view supported protocols</b></summary>
-### Supported Protocols 
+      :::info
 
-| **Name** | **Description**                       | **Notes**                        |
-|----------|---------------------------------------|----------------------------------|
-| DHCP        | Dynamic Host Configuration Protocol - Automatically obtains IP address from network |     |
-| DNS         | Domain Name System - Resolves domain names to IP addresses  |     |
-| MQTT        | Message Queuing Telemetry Transport - Lightweight publish/subscribe messaging protocol |     |
-| SNTP        | Simple Network Time Protocol - Synchronizes system time with network time servers |     |
-| TFTP        | Trivial File Transfer Protocol - Simple file transfer over UDP |     |
-| httpServer  | HTTP Server - Web server implementation for hosting web pages and APIs |     |
+The ioLibrary_Driver is an MCU-independent library for WIZnet W5x00, W6x00 chips .
+It provides implementations of essential TCP/IP services, enabling developers to build network applications with minimal MCU dependencies.
+      ### Supported services
+DHCP, DNS, MQTT, SNTP, TFTP, HTTP Server
 
-</details>
-
-  :::info
-  The ioLibrary_Driver is a host MCU-independent library that provides complete control functions for the W5500 chip. It is compatible with all WIZnet chips and includes implementations of various network protocols. This library serves as the foundation for developing TCP/IP-based applications with minimal host MCU dependencies.
-  :::
+      :::
+  
 
 </TabItem>
 
-<TabItem value="Application Note" label="Application Note" >
 
-### Application Note
-Please refer to the datasheet.
-
-</TabItem>
 </Tabs>
 
 ## Hardware Resources
@@ -138,51 +120,13 @@ Please refer to the datasheet.
 | ![link](\img\link.png) EMC Test                 | TBD |  | 
 | ![link](\img\link.png) Reliability Test         | TBD |  |
 | ![link](\img\link.png) Certificate              | TBD |  |
+## Related modules
 
+<Tabs groupId="module" queryString>
 
-<Tabs groupId="Evaluation Boards" >
-<TabItem value="Hat & shield" label="Hat & shield" default>
+<TabItem value="evb" label="Evaluation Boards" default >
 
-
-
-
-<div className="link-card">
-  <a
-    href="/Product/ioModule/wiz610io"
-    target="_blank"
-    rel="noopener noreferrer"
-    className="link-card-content"
-  >
-  <img src="/img/products/w6100/WIZ610io.png" alt="WIZ610io" />
-    <div>
-      <h3>WIZ610io</h3>
-      <p>
-WIZ610io is the network module that includes W6100 (TCP/IP hardwired chip, include PHY), MAG-JACK (RJ45 with X’FMR) with other glue logics. It can be used as a component and no effort is required to interface W6100 and Transformer. The best advantage of the WIZ610io is that it supports IPv6. The WIZ610io is an ideal option for users who want to develop their Internet enabling systems rapidly.
-      </p>
-    </div>
-  </a>
-</div>
-
-<div className="link-card">
-  <a
-    href="/Product/ioModule/wiz610mj"
-    target="_blank"
-    rel="noopener noreferrer"
-    className="link-card-content"
-  >
-  <img src="/img/products/w6100/WIZ610mj.png" alt="WIZ610MJ" />
-    <div>
-      <h3>WIZ610MJ</h3>
-      <p>
-WIZ610MJ is the network module that includes W6100 (TCP/IP hardwired chip, include PHY), MAG-JACK (RJ45 with X’FMR) with other glue logics. It can be used as a component and no effort is required to interface W6100 and Transformer. The best advantage of the WIZ610MJ is that it supports IPv6. The WIZ610MJ is an option for users who want to develop their Internet enabling systems rapidly.
-      </p>
-    </div>
-  </a>
-</div>
-
-</TabItem>
-<TabItem value="eval_board" label="Evaluation Boards" >
-
+### Evaluation Boards
 
 <div className="link-card">
   <a
@@ -223,6 +167,47 @@ W6100-EVB-Pico2 is a microcontroller evaluation board based on the Raspberry Pi 
 
 
 </TabItem>
+
+<TabItem value="hat" label="Hat & shield" >
+
+### Hat & shield
+
+<div className="link-card">
+  <a
+    href="/Product/ioModule/wiz610io"
+    target="_blank"
+    rel="noopener noreferrer"
+    className="link-card-content"
+  >
+  <img src="/img/products/w6100/WIZ610io.png" alt="WIZ610io" />
+    <div>
+      <h3>WIZ610io</h3>
+      <p>
+WIZ610io is the network module that includes W6100 (TCP/IP hardwired chip, include PHY), MAG-JACK (RJ45 with X’FMR) with other glue logics. It can be used as a component and no effort is required to interface W6100 and Transformer. The best advantage of the WIZ610io is that it supports IPv6. The WIZ610io is an ideal option for users who want to develop their Internet enabling systems rapidly.
+      </p>
+    </div>
+  </a>
+</div>
+
+<div className="link-card">
+  <a
+    href="/Product/ioModule/wiz610mj"
+    target="_blank"
+    rel="noopener noreferrer"
+    className="link-card-content"
+  >
+  <img src="/img/products/w6100/WIZ610mj.png" alt="WIZ610MJ" />
+    <div>
+      <h3>WIZ610MJ</h3>
+      <p>
+WIZ610MJ is the network module that includes W6100 (TCP/IP hardwired chip, include PHY), MAG-JACK (RJ45 with X’FMR) with other glue logics. It can be used as a component and no effort is required to interface W6100 and Transformer. The best advantage of the WIZ610MJ is that it supports IPv6. The WIZ610MJ is an option for users who want to develop their Internet enabling systems rapidly.
+      </p>
+    </div>
+  </a>
+</div>
+
+</TabItem>
+
 </Tabs>
 
 
@@ -311,7 +296,7 @@ W6100-EVB-Pico2 is a microcontroller evaluation board based on the Raspberry Pi 
 [link-W55MH32Q-EVB]: https://docs.wiznet.io/Product/iMCU/W55MH32/W55MH32Q-evb
 [link-w5500-ethernet-shield]: https://docs.wiznet.io/Product/Open-Source-Hardware/w5500_ethernet_shield_kor
 [link-W5100S-Ethernet_Shield]: https://wiznetshop.io/product/detail.html?product_no=818&cate_no=57&display_group=1
-[link-w55rp20-evb-pico]: https://docs.wiznet.io/Product/ioNIC/W55RP20/w55rp20-evb-pico
+[link-w55rp20-evb-pico]: https://docs.wiznet.io/Product/iMCU/W55RP20/w55rp20-evb-pico
 [link-raspberry_pi_pico]: https://www.raspberrypi.com/products/raspberry-pi-pico/
 [link-wiznet_ethernet_hat]: https://docs.wiznet.io/Product/Open-Source-Hardware/wiznet_ethernet_hat
 [link-w5100s-evb-pico]: https://docs.wiznet.io/Product/iEthernet/W5100S/w5100s-evb-pico

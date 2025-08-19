@@ -16,7 +16,7 @@ import TabItem from '@theme/TabItem';
   </div>
   <div className="w5100-text">
     <p>
-        W5300 is a hardwired TCP/IP embedded Ethernet controller designed to simplify internet connectivity for embedded systems requiring high network performance. It integrates a TCP/IP stack, 10/100 Ethernet MAC, and PHY in a single chip, supporting protocols such as TCP, UDP, IPv4, ICMP, ARP, IGMP, and PPPoE, which have been proven stable through extensive real-world applications. With a 128KByte internal buffer memory and support for up to 8 independent hardware sockets, the W5300 allows users to develop Ethernet applications using simple socket programming without dealing with complex Ethernet controller logic. It also provides direct and indirect BUS interfaces for easy integration with external MCUs and supports a maximum network throughput of 80Mbps.
+W5300 is a hardwired TCP/IP stack internet controller chip with WIZnet technology, integrating 10/100 Ethernet MAC and PHY in a single package. It supports multiple protocols such as TCP, UDP, IPv4, ICMP, ARP, IGMP, and PPPoE, proven stable through real-world applications. W5300 provides 8 independent hardware SOCKETs and 128KB of internal buffer memory, allowing Ethernet applications to be developed through socket programming. It also offers direct and indirect BUS interfaces for easy MCU integration.
     </p>
   </div>
 </div>
@@ -56,18 +56,26 @@ import TabItem from '@theme/TabItem';
 
 ## Documentation
 
-### Technical Documents
+### datasheet 
 
 | **Title** | **Description** | **Notes** |
 | --------- | --------------- | --------- |
 | [![link](\img\download.png) W5300 Datasheet][link-W5300-Datasheet] | Technical specifications and features of the W5300 chip | - |
+
+### Technical Documents
+
+| **Title** | **Description** | **Notes** |
+| --------- | --------------- | --------- |
 | [![link](\img\download.png) Comparision sheet of W5300 & W5100][link-W5300-W5100-Comparison-Sheet] | Comparison between W5300 and W5100 | - |
 
 ## Software Resources
 
 
-<Tabs groupId="Software Resources" >
-<TabItem value="Driver" label="Driver" default >
+<Tabs groupId="software"  queryString>
+<TabItem value="driver" label="Driver" default >
+
+### Driver
+
 The ioLibrary means "Internet Offload Library" for WIZnet chip. It includes drivers and application protocols. The ioLibrary can be used for W5300 and other chips's application designs. These will be updated continuously.
 
 | **Resource** | **Description** |
@@ -76,27 +84,18 @@ The ioLibrary means "Internet Offload Library" for WIZnet chip. It includes driv
 
 
 
-<details>
-<summary><b>Click to view supported protocols</b></summary>
-### Supported Protocols 
+      :::info
 
-| **Name** | **Description**                       | **Notes**                        |
-|----------|---------------------------------------|----------------------------------|
-| DHCP        | Dynamic Host Configuration Protocol - Automatically obtains IP address from network |     |
-| DNS         | Domain Name System - Resolves domain names to IP addresses  |     |
-| MQTT        | Message Queuing Telemetry Transport - Lightweight publish/subscribe messaging protocol |     |
-| SNTP        | Simple Network Time Protocol - Synchronizes system time with network time servers |     |
-| TFTP        | Trivial File Transfer Protocol - Simple file transfer over UDP |     |
-| httpServer  | HTTP Server - Web server implementation for hosting web pages and APIs |     |
+The ioLibrary_Driver is an MCU-independent library for WIZnet W5x00, W6x00 chips .
+It provides implementations of essential TCP/IP services, enabling developers to build network applications with minimal MCU dependencies.
+      ### Supported services
+DHCP, DNS, MQTT, SNTP, TFTP, HTTP Server
 
-</details>
-
-  :::info
-  The ioLibrary_Driver is a host MCU-independent library that provides complete control functions for the W5500 chip. It is compatible with all WIZnet chips and includes implementations of various network protocols. This library serves as the foundation for developing TCP/IP-based applications with minimal host MCU dependencies.
-  :::
+      :::
+  
 
 </TabItem>
-<TabItem value="Application Note" label="Application Note" >
+<TabItem value="appnote" label="Application Note" >
 
 ### Application Note
 | **Example Name** | **Description**                       | **Notes**                        |
@@ -128,12 +127,12 @@ The ioLibrary means "Internet Offload Library" for WIZnet chip. It includes driv
 | ![link](\img\link.png) Certificate              | TBD | - |
 
 
+## Related modules
+<Tabs groupId="evb" queryString>
 
-<Tabs groupId="Evaluation Boards" >
+<TabItem value="hat" label="Hat & shield" default>
 
-<TabItem value="Hat & shield" label="Hat & shield" default>
-
-## Evaluation Boards & Related modules
+### Related modules
 
 <div className="link-card">
   <a
@@ -237,7 +236,7 @@ The ioLibrary means "Internet Offload Library" for WIZnet chip. It includes driv
 [link-W55MH32Q-EVB]: https://docs.wiznet.io/Product/iMCU/W55MH32/W55MH32Q-evb
 [link-w5500-ethernet-shield]: https://docs.wiznet.io/Product/Open-Source-Hardware/w5500_ethernet_shield_kor
 [link-W5100S-Ethernet_Shield]: https://wiznetshop.io/product/detail.html?product_no=818&cate_no=57&display_group=1
-[link-w55rp20-evb-pico]: https://docs.wiznet.io/Product/ioNIC/W55RP20/w55rp20-evb-pico
+[link-w55rp20-evb-pico]: https://docs.wiznet.io/Product/iMCU/W55RP20/w55rp20-evb-pico
 [link-raspberry_pi_pico]: https://www.raspberrypi.com/products/raspberry-pi-pico/
 [link-wiznet_ethernet_hat]: https://docs.wiznet.io/Product/Open-Source-Hardware/wiznet_ethernet_hat
 [link-w5100s-evb-pico]: https://docs.wiznet.io/Product/iEthernet/W5100S/w5100s-evb-pico

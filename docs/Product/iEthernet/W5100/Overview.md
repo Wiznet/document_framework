@@ -9,14 +9,13 @@ import Tabs from '@theme/Tabs';
 import TabItem from '@theme/TabItem';
 
 # W5100
-<h1>W5100</h1>
 <div className="main_intro"> 
   <div className="main_intro_image">
     <img src="/img/products/w5100/W5100-7-500x500.jpg" width="550" />
   </div>
   <div className="w5100-text">
     <p>
-       W5100 is an embedded Internet controller designed as a full hardwired TCP/IP with WIZnet technology. W5100 provides internet connectivity to your embedded system by using SPI (Serial Peripheral Interface) or Parallel System BUS. SPI and Parallel System BUS provide easy connection via external MCU to W5100. The clock speed of W5100 SPI supports up to 70MHz and the Parallel System Bus supports higher speed network communication than SPI.
+W5100 is a hardwired TCP/IP stack internet controller chip with WIZnet technology, which enables easy internet connectivity to an external MCU via SPI or Parallel System BUS. The SPI interface supports up to 70MHz clock speed, and the Parallel System BUS offers higher communication performance compared to SPI. With an embedded Ethernet MAC and PHY, W5100 allows simple Ethernet application development using socket programming.
     </p>
   </div>
 </div>
@@ -55,45 +54,42 @@ import TabItem from '@theme/TabItem';
 
 ## Documentation
 
+### datasheet 
+
+| **Title** | **Description** | **Notes** |
+| --------- | --------------- | --------- |
+| [![link](\img\download.png) W5100 Datasheet (EN)](/img/products/w5100/W5100_DS_V128E.pdf) | Technical specifications and features of the W5100 chip | - |
+
 ### Technical Documents
 
 | **Title** | **Description** | **Notes** |
 | --------- | --------------- | --------- |
-| [![link](\img\download.png) W5100 Datasheet (EN)](/img/products/w5100/W5100_DS_V128E.pdf) | Technical specifications and features of the W5500 chip | - |
 | [![link](\img\download.png) W5100 Errarta](/img/products/w5100/3150Aplus_5100_ES_V260E.pdf) | Known issues and corrections for the W5100 chip | - |
 
 ## Software Resources
 
-<Tabs groupId="Software Resources" >
-  <TabItem value="Driver" label="Driver" default >
+<Tabs groupId="software"  queryString>
+  <TabItem value="driver" label="Driver" default >
+### Driver
 
     | **Resource** | **Description** |
     |--------------|-----------------|
     | [![link](\img\link.png) ioLibrary_Driver][link-ioLibrary-Driver]| Official WIZnet driver library for W5100 and other chips |
 
 
-
-<details>
-<summary><b>Click to view supported protocols</b></summary>
-### Supported Protocols 
-
-| **Name** | **Description**                       | **Notes**                        |
-|----------|---------------------------------------|----------------------------------|
-| DHCP        | Dynamic Host Configuration Protocol - Automatically obtains IP address from network |     |
-| DNS         | Domain Name System - Resolves domain names to IP addresses  |     |
-| MQTT        | Message Queuing Telemetry Transport - Lightweight publish/subscribe messaging protocol |     |
-| SNTP        | Simple Network Time Protocol - Synchronizes system time with network time servers |     |
-| TFTP        | Trivial File Transfer Protocol - Simple file transfer over UDP |     |
-| httpServer  | HTTP Server - Web server implementation for hosting web pages and APIs |     |
-
-</details>
-
       :::info
-      The ioLibrary_Driver is a host MCU-independent library that provides complete control functions for the W5500 chip. It is compatible with all WIZnet chips and includes implementations of various network protocols. This library serves as the foundation for developing TCP/IP-based applications with minimal host MCU dependencies.
+
+The ioLibrary_Driver is an MCU-independent library for WIZnet W5x00, W6x00 chips .
+It provides implementations of essential TCP/IP services, enabling developers to build network applications with minimal MCU dependencies.
+      ### Supported services
+DHCP, DNS, MQTT, SNTP, TFTP, HTTP Server
+
       :::
+  
     
   </TabItem>
-  <TabItem value="Application Note" label="Application Note" >
+  <TabItem value="appnote" label="Application Note" >
+### Application Note
 
     | **Resource** | **Description** |
     |--------------|-----------------|
@@ -101,14 +97,13 @@ import TabItem from '@theme/TabItem';
     | [![link](\img\download.png) DHCP ](/img/products/w5100/documents/App_note_DHCP.pdf) | How to implement DHCP |
     | [![link](\img\download.png) Multi-casting ](/img/products/w5100/documents/HowtoMulticasting_En_v1.0.pdf)  | How to use Multi-casting |
     | [![link](\img\download.png) ADSL (PPPoE) ](/img/products/w5100/documents/HowtoADSL_En_v1.0.pdf)  | How to use ADSL (PPPoE) |
-    <details>
-      <summary><b>Click to view supported protocols</b></summary>
-      ### Supported Protocols
+
+      ### project download
 
       | **Name** | **Description**                       | **Notes**                        |
       |----------|---------------------------------------|----------------------------------|
       | [![link](\img\download.png) DNS, DHCP, Multicasting, PPPoE](/img/products/w5100/W5100_Application_Note.zip)               | How to use  DNS, DHCP, Multicasting, PPPoE     | DNS, DHCP, Multicasting, PPPoE handles communication    |
-    </details>
+
     :::info
    These application notes explain how to use W5100's core networking functions including DNS, DHCP, Multi-casting , and ADSL (PPPoE) protocols.
     :::
@@ -133,9 +128,10 @@ import TabItem from '@theme/TabItem';
 | [![link](\img\link.png) Reliability Test](img/products/w5100/W5100_qual_report.zip)           | Reliability and endurance test reports     | Includes thermal cycling and aging analysis |
 | [![link](\img\link.png) **Certificate**]               | Official certification documents           | CE, FCC, and RoHS certificates available |
 
-## Evaluation Boards & Related modules
-<Tabs groupId="Evaluation Boards" >
- <TabItem value="eval_board" label="Evaluation Boards" >
+## Related modules
+<Tabs groupId="evb" queryString >
+ <TabItem value="evb" label="Evaluation Boards" default >
+### Evaluation Boards
 
   <div className="link-card">
   <a

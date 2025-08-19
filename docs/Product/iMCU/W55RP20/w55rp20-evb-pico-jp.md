@@ -103,7 +103,7 @@ GPIOとグランドピン以外に、メイン40ピンインターフェース�
 
 ### W55RP20データシート
 
-- <a href="https://docs.wiznet.io/Product/ioNIC/W55RP20/documents_md#w55rp20-datasheet" target="_blank">ダウンロード</a>  
+- <a href="https://docs.wiznet.io/Product/iMCU/W55RP20/documents_md#w55rp20-datasheet" target="_blank">ダウンロード</a>  
 
 ### 回路図
 

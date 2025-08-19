@@ -1939,7 +1939,7 @@ Return value</th>
 ------------------------------------------------------------------------
 
 ** WIZ750SR series Downloads **
--   **[Software Downloads](./../../WIZ750SR/Download.md)**
+-   **[Software Downloads](./../../WIZ750SR/Download.mdx)**
 -   **[Technical Reference](./../../WIZ750SR/Technical-References.md)**
 
 ** WIZ750SR Individual documents ** 

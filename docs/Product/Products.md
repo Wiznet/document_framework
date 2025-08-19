@@ -7,7 +7,7 @@ slug: /
 
 ## ioNIC
 
-- [W55RP20](./ioNIC/W55RP20/overview.md)
+- [W55RP20](./iMCU/W55RP20/overview.md)
 
 
 
