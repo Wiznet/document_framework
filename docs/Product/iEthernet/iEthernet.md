@@ -30,7 +30,7 @@ description: Ethernet is the Ethernet controller chip that includes hardwired TC
 **We used iPerf tool for measure Network Performance.**
 
 :::caution
-수정예정 
+<!-- 수정예정  -->
 **W5200 , W3150A is not recommended for new design. This chip is not supported by ioLibrary.**
 
 If there are any questions, please use our [`Forum`](https://maker.wiznet.io/forum) or [`contact us`](https://www.wiznet.io/inqueries/).

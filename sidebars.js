@@ -48,8 +48,8 @@ module.exports = {
 										link: {type: 'generated-index', slug: '/Product/iMCU/W55RP20/overview#software-resources'},  
 										items: [
 											// 하위 항목들
-											{ type: 'link', label: 'Driver', href: '/Product/iMCU/W55RP20?software=driver/overview#software-resources' },
-											{ type: 'link', label: 'Example', href: '/Product/iMCU/W55RP20?software=example/overview#software-resources' },
+											{ type: 'link', label: 'Driver', href: '/Product/iMCU/W55RP20/overview?software=driver#software-resources' },
+											{ type: 'link', label: 'Example', href: '/Product/iMCU/W55RP20/overview?software=example#software-resources' },
 										]
 									},
 
@@ -103,8 +103,8 @@ module.exports = {
 										link: {type: 'generated-index', slug: '/Product/iMCU/W55MH32/overview#software-resources'},  
 										items: [
 											// 하위 항목들
-											{ type: 'link', label: 'Driver', href: '/Product/iMCU/W55MH32?software=driver/overview#software-resources' },
-											{ type: 'link', label: 'application-note', href: '/Product/iMCU/W55MH32?software=appnote/overview#software-resources' },
+											{ type: 'link', label: 'Driver', href: '/Product/iMCU/W55MH32/overview?software=driver#software-resources' },
+											{ type: 'link', label: 'application-note', href: '/Product/iMCU/W55MH32/overview?software=appnote#software-resources' },
 										]
 									},
 
@@ -247,8 +247,8 @@ module.exports = {
 										link: {type: 'generated-index', slug: '/Product/iMCU/W7500P/overview#related-modules'},  
 										items: [
 											// 하위 항목들
-											{ type: 'link', label: 'evaluation-boards', href: '/Product/iMCU/W7500P?module=evb/overview#related-modules' },
-											{ type: 'link', label: 'serial-to-ethernet-module',  href: '/Product/iMCU/W7500P?module=s2e/overview#related-modules' },
+											{ type: 'link', label: 'evaluation-boards', href: '/Product/iMCU/W7500P/overview?module=evb#related-modules' },
+											{ type: 'link', label: 'serial-to-ethernet-module',  href: '/Product/iMCU/W7500P/overview?module=s2e#related-modules' },
 										]
 									},
 

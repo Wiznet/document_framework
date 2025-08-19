@@ -31,7 +31,7 @@ date: 2020-04-03
 <!-- | [W7100A](W7100/W7100A.md)<br />not recommended for new design | ![W7100A](/img/products/w7100a/W7100A.png) | 8051, TCP/IP, MAC & PHY | 32 KB | 8 | -40 .. 85 | 0.18µm | 100LQFP : 14 x 14 (mm) <br />64QFN : 10 x 10 (mm) |  -->
 -----
 :::caution
-수정예정
+<!-- 수정예정 -->
 **W7100A is not recommended for new design. This chip is not supported by ioLibrary.**
 
 If there are any questions, please use our [`Forum`](https://maker.wiznet.io/forum) or [`contact us`](https://www.wiznet.io/inqueries/).

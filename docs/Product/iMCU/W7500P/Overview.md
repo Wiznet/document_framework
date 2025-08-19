@@ -14,7 +14,7 @@ import TabItem from '@theme/TabItem';
 <h1>W7500P</h1>
 <div className="main_intro"> 
   <div className="main_intro_image">
-    <img src="/img/products/w7500P/20150908_171109.png" width="550" />
+    <img src="/img/products/w7500p/20150908_171109.png" width="550" />
   </div>
   <div className="w7500-text">
     <p>
@@ -112,8 +112,6 @@ TBD
       | [![link](\img\link.png) Library and Peripheral Example](https://github.com/Wiznet/W7500x_StdPeriph_Lib) | The W7500p Standard Peripherals library provides a rich set of examples covering the main features of each peripheral |
         
   
-ㅊ
-
   </TabItem>
 </Tabs>
 
