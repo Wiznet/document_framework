@@ -25,7 +25,8 @@ import TabItem from '@theme/TabItem';
 
 <details>
 <summary><b>Block Diagram</b></summary> 
-TBD
+
+![Block diagram](\img\products\W55MH32\Block_Diagram.png)
 
 </details>
 
@@ -86,13 +87,13 @@ TBD
 <Tabs groupId="software" queryString >
 <TabItem value="driver" label="Driver" >
 
-### Driver
-The ioLibrary means "Internet Offload Library" for WIZnet chip. It includes drivers and application protocols. The ioLibrary can be used for W5100S and other chips's application designs. These will be updated continuously.
+### Reference Code
+The following are the reference codes for W55MH32:
 
-| **Resource** | **Description** |
-|--------------|-----------------|
-| [🔗 ioLibrary_Driver](https://github.com/Wiznet/ioLibrary_Driver) | Official WIZnet driver library for W55MH32 and other chips |
-| [🔗 W55MH32Lib](https://gitee.com/wiznet-hk/W55MH32_reference_code/tree/master/Libraries/W55MH32Lib) | Official WIZnet driver library for W55MH32 and other chips |
+| **Resource**                                                 | **Description**                                      |
+| ------------------------------------------------------------ | ---------------------------------------------------- |
+| [🔗 W55MH32Lib (EN)](https://github.com/Wiznet/W55MH32-Reference-code) | Official WIZnet W55MH32 reference code in Github     |
+| [🔗 W55MH32Lib (CN)](https://gitee.com/wiznet-hk/W55MH32_reference_code/tree/master) | Official WIZnet W55MH32 reference code in Gitee (CN) |
 
   </TabItem>
 
@@ -138,7 +139,7 @@ The ioLibrary means "Internet Offload Library" for WIZnet chip. It includes driv
   >
     <img src="/img/products/W55MH32/W55MH32L-EVB_HD.png" alt="W55MH32L-EVB_HD" />
     <div>
-      <h3>WW55MH32L-EVB_HD</h3>
+      <h3>WW55MH32L-EVB</h3>
       <p>
 The W55MH32L-EVB is a comprehensive evaluation board built around the W55MH32L microcontroller, designed for high-performance industrial, IoT, and embedded system applications. Powered by a 216MHz 32-bit Cortex-M3 processor, it integrates 1024KB Flash and 96KB SRAM, providing ample memory for complex, real-time applications.
       </p>
@@ -155,13 +156,14 @@ The W55MH32L-EVB is a comprehensive evaluation board built around the W55MH32L m
   >
     <img src="/img/products/W55MH32/W55MH32Q-EVB_HD.png" alt="W55MH32Q-EVB_HD" />
     <div>
-      <h3>W55MH32Q-EVB_HD</h3>
+      <h3>W55MH32Q-EVB</h3>
       <p>
-The W55MH32L-EVB is a comprehensive evaluation board built around the W55MH32L microcontroller, designed for high-performance industrial, IoT, and embedded system applications. Powered by a 216MHz 32-bit Cortex-M3 processor, it integrates 1024KB Flash and 96KB SRAM, providing ample memory for complex, real-time applications.
+The W55MH32Q-EVB is an advanced evaluation board built around the W55MH32Q microcontroller, offering robust performance and efficient networking capabilities for industrial, IoT, and embedded system applications. Powered by a 216MHz 32-bit processor, it integrates 1024KB Flash and 96KB SRAM, ensuring high-speed data processing. 
       </p>
     </div>
   </a>
   </div>
+
   </TabItem>
 
 </Tabs>
