@@ -65,7 +65,7 @@ Whether for industrial automation, secure networking, smart energy systems, or r
 
 **Form-factor**
 
-  - Dimension : 110 X 85 X 21(H) (Unit : mm)
+  - Dimension : 75 X 100 X 12(H) (Unit : mm)
   - 5V from power supply USB type C connector
   - GPIO Input Voltage : 0 \~ 5V
   - GPIO Output Voltage : 0 \~ 3.3V

@@ -56,7 +56,7 @@ Additional features like USB-C for power and data, built-in RJ45, onboard DCDC c
 
 **Form-factor**
 
-  - Dimension : 110 X 85 X 21(H) (Unit : mm)
+  - Dimension : 26 X 80 X 11.2(H) (Unit : mm)
   - 5V from power supply USB type C connector
   - GPIO Input Voltage : 0 \~ 5V
   - GPIO Output Voltage : 0 \~ 3.3V

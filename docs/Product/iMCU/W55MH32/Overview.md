@@ -94,6 +94,7 @@ The following are the reference codes for W55MH32:
 | ------------------------------------------------------------ | ---------------------------------------------------- |
 | [🔗 W55MH32Lib (EN)](https://github.com/Wiznet/W55MH32-Reference-code) | Official WIZnet W55MH32 reference code in Github     |
 | [🔗 W55MH32Lib (CN)](https://gitee.com/wiznet-hk/W55MH32_reference_code/tree/master) | Official WIZnet W55MH32 reference code in Gitee (CN) |
+| [🔗 W55MH32 Package and Flash Algorithm](\img\products\W55MH32\4.Package_files.rar) | W55MH32 Package and Flash Algorithm                  |
 
   </TabItem>
 
