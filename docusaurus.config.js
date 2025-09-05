@@ -202,6 +202,7 @@
       { pluginKey: "cb95c060-ab4c-45ec-bbe8-fe40a1ea3aec" },
     ],
   ],
+/*
   scripts: [   
     {
       src: 'https://www.chatbase.co/embed.min.js',
@@ -211,6 +212,7 @@
       defer: true
     },
   ],
+*/
   presets: [
     [
       "@docusaurus/preset-classic",

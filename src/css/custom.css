@@ -195,7 +195,7 @@ html[data-theme="dark"] .rlc-description {
 .markdown table td {
   padding: 8px;
 }
-
+/* 
 div[class^='chatbase-message-bubbles'] {
   right: 1rem !important;
   bottom: 100px !important;
@@ -205,4 +205,4 @@ div[class^='chatbase-message-bubbles'] {
 #chatbase-bubble-button {
   right: 1.5rem !important;
   bottom: 10rem !important;
-}
+} */
