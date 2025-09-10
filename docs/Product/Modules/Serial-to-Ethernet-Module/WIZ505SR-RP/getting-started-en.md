@@ -14,8 +14,6 @@ The WIZ505SR-RP evaluation board package contains the following parts.
 
   - WIZ505SR-RP Module
 
-The entire list of parts of the board is available at the [WIZ505SR-RP Overview: Product Contents](./overview-en.md#product-contents) page.
-
 As WIZ505SR-RP already has Ethernet port, it is necessary to use WIZ500/505SR-RP-EVB to get started working with module.
 
 ### Device Layout
@@ -46,7 +44,7 @@ As WIZ505SR-RP already has Ethernet port, it is necessary to use WIZ500/505SR-RP
 
 ### Software
 
-- Configuration tool program ([Download page](./../../WIZ750SR/Download.md#wiznet-s2e-configuration-tool))
+- Configuration tool program ([Download page](./Configuration-Tool-Manual-EN.mdx))
 - TCP server / TCP client / UDP terminal program
 - Serial terminal program
 
@@ -213,11 +211,5 @@ Now you’re ready to use the WIZ505SR-RP!
 
 - This document is based on the **assumption of the PC as the serial device / remote network device**. 
 - The next step is to **connect the WIZ505SR-RP module to the target serial device** and check if the device can **communicate, control, and monitor** via the **remote PC or monitoring server**.
-
------
-
-**If there is any problem?**
-
-Please refer to our **[Troubleshooting guide](./../../WIZ750SR/Trouble-Shooting-EN.md)**!
 
 -----

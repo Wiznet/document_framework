@@ -218,7 +218,7 @@ Configuration tool 상단에 위치하며, 제품의 검색 / 펌웨어 업로�
       - 자동 IP 주소 할당 모드를 선택합니다. 이 옵션을 선택하면 **하단 2)**의 각 필드가 비활성화 되며, 모듈과
         동일 네트워크 상에 위치한 공유기(DHCP 서버)로부터 IP 설정을 할당받게 됩니다.
 
-\* IP 주소 할당에 관한 상세 설명은 [WIZ750SR User's Manual: IP 주소 설정](./Users-Manual-KO.md#ip-주소-설정)에서 다룹니다.
+\* IP 주소 할당에 관한 상세 설명은 [WIZ750SR User's Manual: IP 주소 설정](./Users-Manual-KO.mdx#ip-주소-설정)에서 다룹니다.
 
 #### 2\) IP 주소 설정 필드
 
@@ -231,7 +231,7 @@ Configuration tool 상단에 위치하며, 제품의 검색 / 펌웨어 업로�
   - 제품의 네트워크 동작 모드를 설정합니다.
       - **TCP 클라이언트 모드, TCP 서버 모드(default), TCP 클라이언트/서버 혼용 모드, UDP
         모드**의 네 가지 모드 중 사용자의 응용과 목적에 맞게 선택 할 수 있습니다.
-      - 각 네트워크 동작 모드의 특징과 전용 옵션은 [WIZ750SR User's Manual: 네트워크 동작 모드](./Users-Manual-KO.md#네트워크-동작-모드)에서 다룹니다.
+      - 각 네트워크 동작 모드의 특징과 전용 옵션은 [WIZ750SR User's Manual: 네트워크 동작 모드](./Users-Manual-KO.mdx#네트워크-동작-모드)에서 다룹니다.
 
 #### 4\) 원격지 호스트 설정
 
@@ -239,7 +239,7 @@ Configuration tool 상단에 위치하며, 제품의 검색 / 펌웨어 업로�
     목적지(destination)를 원격지 호스트(remote host)라 하며, **IP 주소 및 도메인
     네임**을 입력 할 수 있습니다.
   - **목적지의 포트 번호**가 꼭 필요합니다.
-  - 원격지 호스트 설정에 관한 상세 설명은 [WIZ750SR User's Manual: 원격지 호스트 설정](./Users-Manual-KO.md#원격지-호스트-설정)에서 다룹니다.
+  - 원격지 호스트 설정에 관한 상세 설명은 [WIZ750SR User's Manual: 원격지 호스트 설정](./Users-Manual-KO.mdx#원격지-호스트-설정)에서 다룹니다.
 
 \* WIZ750SR은 **PPPoE**와 **DDNS**를 지원하지 않습니다.
 
@@ -466,29 +466,5 @@ Configuration tool 상단에 위치하며, 제품의 검색 / 펌웨어 업로�
 
 **동작에 문제가 있나요?**  
 **[Troubleshooting 가이드](./Trouble-Shooting-KO)** 문서를 참고해 보세요\!
-
------
-
-## Navigation
-
------
-
- **WIZ750SR** 
-
-  - **User's Manual [(English)](./Users-Manual-EN)/[(Korean)](./Users-Manual-KO)** 
-  
-  - **Device Command Manual [(English)](./Command-Manual-EN)/[(Korean)](./Command-Manual-KO)**
-  
-  - **Troubleshooting Guide [(English)](./Trouble-Shooting-EN)/[(Korean)](./Trouble-Shooting-KO)**
-  
-  - **Update History [(English)](./Series-Update-History-EN)/[(Korean)](./Series-Update-History-KO)**
-  
------
-
-**WIZ750SR series Downloads** 
-
-  - **[Software Download](./Download)**
-
-  - **[Technical References](./Technical-References)**
 
 -----

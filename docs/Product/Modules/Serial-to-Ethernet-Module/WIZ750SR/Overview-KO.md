@@ -4,12 +4,6 @@ title: Overview-[KO]
 date: 2020-04-08
 ---
 
-**Supported Languages**  
-  * [English](overview-EN)  
-  * [Korean](overview-KO) (current page)
-
------
-
 ## Overview
 
 ![](/img/products/wiz750sr/overview/wiz750sr_simple_product_overview_v2.png)
@@ -107,29 +101,5 @@ WIZ750SR은 시리얼 장비가 보낸 데이터를 TCP/IP 패킷으로 변환�
 | :::                  | :::      | 24AWG CAT5e UTP cable         | 1    | LAN cable  |
 
 \* 본 구성은 제품의 성능 향상을 위해 더 나은 구성품으로 대체 될 수 있습니다.
-
------
-
-## Navigation
-
------
-
- **WIZ750SR** 
-
-  - **User's Manual [(English)](./Users-Manual-EN)/[(Korean)](./Users-Manual-KO)** 
-  
-  - **Device Command Manual [(English)](./Command-Manual-EN)/[(Korean)](./Command-Manual-KO)**
-  
-  - **Troubleshooting Guide [(English)](./Trouble-Shooting-EN)/[(Korean)](./Trouble-Shooting-KO)**
-  
-  - **Update History [(English)](./Series-Update-History-EN)/[(Korean)](./Series-Update-History-KO)**
-  
------
-
-**WIZ750SR series Downloads** 
-
-  - **[Software Download](./Download)**
-
-  - **[Technical References](./Technical-References)**
 
 -----

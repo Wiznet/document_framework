@@ -4,12 +4,6 @@ title: Overview-[KO]
 date: 2020-04-13
 ---
 
- **Supported Languages**  
-* [English](overview-EN) 
-* [Korean](overview-KO) (current page)
-
------
-
 ## Overview
 
 ![WIZ752SR-120 Product Overview](/img/products/s2e_module/wiz752sr-120/wiz752sr-120_product_overview.png)

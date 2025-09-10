@@ -9,7 +9,7 @@ date: 2021-07-21
 
 **Technical support for this product has officially ended.**
 
-Please check **[WIZ750SR-100](./../WIZ750SR-1xx-Series/WIZ750SR-100/WIZ750SR-100.md)** instead.
+Please check **[WIZ750SR-100](/Product/Modules/Serial-to-Ethernet-Module/WIZ750SR-100/WIZ750SR-100.mdx)** instead.
 
 Evaluation board for WIZ100SR is discontinued.
 :::

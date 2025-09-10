@@ -353,7 +353,7 @@ When Module working well Blinking every 1.0s </td>
 
 ## WIZ500SR-RP EVB SET
 
--   The WIZ500SR-RP EVB SET is a combination of [WIZ500SR-RP EVB](../wiz500sr-rp-evb-en.md) and [WIZ505SR-RP EVB](../wiz505sr-rp-evb-en.md).
+-   The WIZ500SR-RP EVB SET is a combination of [WIZ500SR-RP EVB](./wiz500sr-rp-evb-en.mdx) and [WIZ505SR-RP EVB](./wiz505sr-rp-evb-en.mdx).
 
 
 ![WIZ500SR-RP EVB SET](/img/products/s2e_module/wiz500sr-rp/wiz500sr-rp-evb.png)

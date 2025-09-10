@@ -883,28 +883,3 @@ ISP mode firmware downloader port</td>
       - 73mm x 65mm x 18mm ( Included part size )
 
 ![](/img/products/wiz750sr/clitool/datasheet/wiz750sr-evb-dimension_485.png)
-
-## Navigation
-
------
-
- **WIZ750SR** 
-
-  - **User's Manual [(English)](./Users-Manual-EN)/[(Korean)](./Users-Manual-KO)** 
-  
-  - **Device Command Manual [(English)](./Command-Manual-EN)/[(Korean)](./Command-Manual-KO)**
-  
-  - **Troubleshooting Guide [(English)](./Trouble-Shooting-EN)/[(Korean)](./Trouble-Shooting-KO)**
-  
-  - **Update History [(English)](./Series-Update-History-EN)/[(Korean)](./Series-Update-History-KO)**
-  
------
-
-**WIZ750SR series Downloads** 
-
-  - **[Software Download](./Download)**
-
-  - **[Technical References](./Technical-References)**
-
------
-

@@ -83,27 +83,3 @@ date: 2020-04-08
 | RS-232 | 1.0      | 2017\. 12 | First release | \-   |
 
 -----
-
-## Navigation
-
------
-
- **WIZ750SR** 
-
-  - **User's Manual [(English)](./Users-Manual-EN)/[(Korean)](./Users-Manual-KO)** 
-  
-  - **Device Command Manual [(English)](./Command-Manual-EN)/[(Korean)](./Command-Manual-KO)**
-  
-  - **Troubleshooting Guide [(English)](./Trouble-Shooting-EN)/[(Korean)](./Trouble-Shooting-KO)**
-  
-  - **Update History [(English)](./Series-Update-History-EN)/[(Korean)](./Series-Update-History-KO)**
-  
------
-
-**WIZ750SR series Downloads** 
-
-  - **[Software Download](./Download)**
-
-  - **[Technical References](./Technical-References)**
-
------

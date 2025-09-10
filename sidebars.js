@@ -1379,8 +1379,6 @@ module.exports = {
 										type: 'category',
 										label: 'Documentation',
 										items: [
-											// 'Product/Modules/Serial-to-Ethernet-Module/WIZ510SR-RP/users-manual-EN',
-											// 'Product/Modules/Serial-to-Ethernet-Module/WIZ510SR-RP/users-manual-KO',
 											'Product/Modules/Serial-to-Ethernet-Module/WIZ510SR-RP/datasheet',
 										],
 									},
@@ -1397,10 +1395,6 @@ module.exports = {
 										label: 'User Guides',
 										items: [
 												'Product/Modules/Serial-to-Ethernet-Module/WIZ510SR-RP/getting-started',
-												// 'Product/Modules/Serial-to-Ethernet-Module/WIZ510SR-RP/trouble-shooting-EN',
-												// 'Product/Modules/Serial-to-Ethernet-Module/WIZ510SR-RP/trouble-shooting-KO',
-												// 'Product/Modules/Serial-to-Ethernet-Module/WIZ510SR-RP/developers-guide-EN',
-												// 'Product/Modules/Serial-to-Ethernet-Module/WIZ510SR-RP/developers-guide-KO',
 												'Product/Modules/Serial-to-Ethernet-Module/WIZ510SR-RP/mqtt-connection-guide',
 												'Product/Modules/Serial-to-Ethernet-Module/WIZ510SR-RP/ssl-connection-guide',
 												'Product/Modules/Serial-to-Ethernet-Module/WIZ510SR-RP/modbus-connection-guide',
@@ -1418,7 +1412,7 @@ module.exports = {
 								type: 'category',
 								label: 'WIZ100SR', // string - the label that should be displayed.
 								link: {type: 'doc', id: 'Product/Modules/Serial-to-Ethernet-Module/WIZ1xx-series/WIZ100SR/wiz100sr'},
-								items: [//'Product/Modules/Serial-to-Ethernet-Module/WIZ1xx-series/WIZ100SR/wiz100sr',
+								items: [
 										'Product/Modules/Serial-to-Ethernet-Module/WIZ1xx-series/WIZ100SR/wiz100sr-evb'
 										]
 								},
@@ -1426,26 +1420,20 @@ module.exports = {
 								type: 'category',
 								label: 'WIZ105SR', // string - the label that should be displayed.
 								link: {type: 'doc', id: 'Product/Modules/Serial-to-Ethernet-Module/WIZ1xx-series/WIZ105SR/wiz105sr'},
-								items: [//'Product/Modules/Serial-to-Ethernet-Module/WIZ1xx-series/WIZ105SR/wiz105sr',
+								items: [
 										'Product/Modules/Serial-to-Ethernet-Module/WIZ1xx-series/WIZ105SR/wiz105sr-evb']
 								},
-								//'Product/Modules/Serial-to-Ethernet-Module/WIZ1xx-series/wiz107sr',
-								//'Product/Modules/Serial-to-Ethernet-Module/WIZ1xx-series/wiz107sr_um',
-								
 								'Product/Modules/Serial-to-Ethernet-Module/WIZ1xx-series/WIZ110SR/wiz110sr',
 								],
 							},
-
 							'Product/Modules/Serial-to-Ethernet-Module/W5500S2E-S1/w5500s2e_s1',
 							'Product/Modules/Serial-to-Ethernet-Module/W5500S2E-Z1/w5500s2e_z1',
 							'Product/Modules/Serial-to-Ethernet-Module/W7500S2E-R1/w7500s2e_r1',
-
 							{
 								type: 'category',
 								label: 'W232N',
 								link: {type: 'doc', id: 'Product/Modules/Serial-to-Ethernet-Module/W232N/w232n'},
 								items: [
-
 									{
 										type: 'category',
 										label: 'Documentation',
@@ -1487,39 +1475,21 @@ module.exports = {
 					{
 						type: 'category',
 						label: 'ioModule',
-						link: {type: 'doc', id: 'Product/ioModule/iomodule'},
+						link: {type: 'doc', id: 'Product/Modules/ioModule/iomodule'},
 						items: [
-						//'Product/ioModule/iomodule',
-						
-						'Product/ioModule/W5500-io',
-						
-						'Product/ioModule/wiz550io',
-						'Product/ioModule/wiz610io',
-						'Product/ioModule/wiz610mj',
-						'Product/ioModule/wiz630io',
-						'Product/ioModule/wiz810sio',
-						'Product/ioModule/wiz810smj',
-						/*{
-							type: 'category',
-							label: 'WIZ550io',
-							items: [
-							'Product/ioModule/WIZ550io/overview',
-							'Product/ioModule/WIZ550io/hardware_pins',
-							'Product/ioModule/WIZ550io/characteristic',
-							'Product/ioModule/WIZ550io/spi_operations',
-							'Product/ioModule/WIZ550io/timing_diagram',
-							'Product/ioModule/WIZ550io/block_diagram_schematic',
-							'Product/ioModule/WIZ550io/dimension',
-							'Product/ioModule/WIZ550io/related_products',
-							//'Product/ioModule/WIZ550io/all_pages',
-							],
-						},*/
-						'Product/ioModule/wiz810mj',
-						'Product/ioModule/wiz811mj',
-						'Product/ioModule/wiz820io',
-						'Product/ioModule/wiz830mj',
-						'Product/ioModule/wiz850io',
-						'Product/ioModule/nm7010b'
+							'Product/Modules/ioModule/W5500-io',
+							'Product/Modules/ioModule/wiz550io',
+							'Product/Modules/ioModule/wiz610io',
+							'Product/Modules/ioModule/wiz610mj',
+							'Product/Modules/ioModule/wiz630io',
+							'Product/Modules/ioModule/wiz810sio',
+							'Product/Modules/ioModule/wiz810smj',
+							'Product/Modules/ioModule/wiz810mj',
+							'Product/Modules/ioModule/wiz811mj',
+							'Product/Modules/ioModule/wiz820io',
+							'Product/Modules/ioModule/wiz830mj',
+							'Product/Modules/ioModule/wiz850io',
+							'Product/Modules/ioModule/nm7010b'
 						],
 					},
 					{
@@ -1527,7 +1497,6 @@ module.exports = {
 						label: 'Wi-Fi Module',
 						link: {type: 'doc', id: 'Product/Wi-Fi-Module/wi_fi_module'},
 						items: [
-
 							{
 								type: 'category',
 								label: 'WizFi360',
@@ -1536,7 +1505,6 @@ module.exports = {
 									'Product/Wi-Fi-Module/WizFi360/wizfi360_evb_shield',
 								],
 							},
-							
 							{
 								type: 'category',
 								label: 'WizFi630S',
@@ -1766,38 +1734,38 @@ module.exports = {
 					{
 					type: 'category',
 					label: 'WIZ107SR', // string - the label that should be displayed.
-					link: {type: 'doc', id: 'Product/S2E-Module/WIZ107SR/wiz107sr'},
-					items: [//'Product/S2E-Module/WIZ107SR/wiz107sr',
-							'Product/S2E-Module/WIZ107SR/wiz107sr-evb']
+					link: {type: 'doc', id: 'Product/Modules/Serial-to-Ethernet-Module/WIZ107SR/wiz107sr'},
+					items: [
+							'Product/Modules/Serial-to-Ethernet-Module/WIZ107SR/wiz107sr-evb']
 					},
 					{
 					type: 'category',
 					label: 'WIZ108SR', // string - the label that should be displayed.
-					link: {type: 'doc', id: 'Product/S2E-Module/WIZ108SR/wiz108sr'},
-					items: [//'Product/S2E-Module/WIZ108SR/wiz108sr',
-							'Product/S2E-Module/WIZ108SR/wiz108sr-evb']
+					link: {type: 'doc', id: 'Product/Modules/Serial-to-Ethernet-Module/WIZ108SR/wiz108sr'},
+					items: [
+							'Product/Modules/Serial-to-Ethernet-Module/WIZ108SR/wiz108sr-evb']
 					},
 					{
 					type: 'category',
 					label: 'WIZ120SR', // string - the label that should be displayed.
-					link: {type: 'doc', id: 'Product/S2E-Module/WIZ120SR/wiz120sr'},
-					items: [//'Product/S2E-Module/WIZ120SR/wiz120sr',
-							'Product/S2E-Module/WIZ120SR/wiz120sr-evb']
+					link: {type: 'doc', id: 'Product/Modules/Serial-to-Ethernet-Module/WIZ120SR/wiz120sr'},
+					items: [
+							'Product/Modules/Serial-to-Ethernet-Module/WIZ120SR/wiz120sr-evb']
 					},
-					'Product/S2E-Module/WIZ125SR/wiz125sr',
+					'Product/Modules/Serial-to-Ethernet-Module/WIZ125SR/wiz125sr',
 					{
 					type: 'category',
 					label: 'WIZ140SR', // string - the label that should be displayed.
-					link: {type: 'doc', id: 'Product/S2E-Module/WIZ140SR/wiz140sr'},
-					items: [//'Product/S2E-Module/WIZ140SR/wiz140sr',
-							'Product/S2E-Module/WIZ140SR/wiz140sr-evb']
+					link: {type: 'doc', id: 'Product/Modules/Serial-to-Ethernet-Module/WIZ140SR/wiz140sr'},
+					items: [
+							'Product/Modules/Serial-to-Ethernet-Module/WIZ140SR/wiz140sr-evb']
 					},
 					{
 					type: 'category',
 					label: 'WIZ145SR', // string - the label that should be displayed.
-					link: {type: 'doc', id: 'Product/S2E-Module/WIZ145SR/wiz145sr'},
-					items: [//'Product/S2E-Module/WIZ145SR/wiz145sr',
-							'Product/S2E-Module/WIZ145SR/wiz145sr-evb']
+					link: {type: 'doc', id: 'Product/Modules/Serial-to-Ethernet-Module/WIZ145SR/wiz145sr'},
+					items: [
+							'Product/Modules/Serial-to-Ethernet-Module/WIZ145SR/wiz145sr-evb']
 					},
 					
 					'Product/Obsolete/egsr7100a',
@@ -1808,31 +1776,31 @@ module.exports = {
 					{
 						type: 'category',
 						label: 'WIZ550S2E',
-						link: {type: 'doc', id: 'Product/S2E-Module/WIZ550S2E/wiz550s2e'},
+						link: {type: 'doc', id: 'Product/Modules/Serial-to-Ethernet-Module/WIZ550S2E/wiz550s2e'},
 						items: [
-						//'Product/S2E-Module/WIZ550S2E/wiz550s2e',
-						'Product/S2E-Module/WIZ550S2E/datasheet-eng',
-						'Product/S2E-Module/WIZ550S2E/datasheet-kor',
-						'Product/S2E-Module/WIZ550S2E/datasheet-chn',
-						'Product/S2E-Module/WIZ550S2E/programmer-guide-eng',
-						'Product/S2E-Module/WIZ550S2E/programmer-guide-kor',
-						'Product/S2E-Module/WIZ550S2E/programmer-guide-chn',
-						'Product/S2E-Module/WIZ550S2E/at-command-eng',
-						'Product/S2E-Module/WIZ550S2E/at-command-kor',
-						'Product/S2E-Module/WIZ550S2E/at-command-chn',
-						'Product/S2E-Module/WIZ550S2E/configuration-tool-eng', 
-						'Product/S2E-Module/WIZ550S2E/configuration-tool-kor',
-						'Product/S2E-Module/WIZ550S2E/configuration-tool-chn',
-						'Product/S2E-Module/WIZ550S2E/tutorial-eng',
-						'Product/S2E-Module/WIZ550S2E/tutorial-kor',
-						'Product/S2E-Module/WIZ550S2E/download',
+						//'Product/Modules/Serial-to-Ethernet-Module/WIZ550S2E/wiz550s2e',
+						'Product/Modules/Serial-to-Ethernet-Module/WIZ550S2E/datasheet-eng',
+						'Product/Modules/Serial-to-Ethernet-Module/WIZ550S2E/datasheet-kor',
+						'Product/Modules/Serial-to-Ethernet-Module/WIZ550S2E/datasheet-chn',
+						'Product/Modules/Serial-to-Ethernet-Module/WIZ550S2E/programmer-guide-eng',
+						'Product/Modules/Serial-to-Ethernet-Module/WIZ550S2E/programmer-guide-kor',
+						'Product/Modules/Serial-to-Ethernet-Module/WIZ550S2E/programmer-guide-chn',
+						'Product/Modules/Serial-to-Ethernet-Module/WIZ550S2E/at-command-eng',
+						'Product/Modules/Serial-to-Ethernet-Module/WIZ550S2E/at-command-kor',
+						'Product/Modules/Serial-to-Ethernet-Module/WIZ550S2E/at-command-chn',
+						'Product/Modules/Serial-to-Ethernet-Module/WIZ550S2E/configuration-tool-eng', 
+						'Product/Modules/Serial-to-Ethernet-Module/WIZ550S2E/configuration-tool-kor',
+						'Product/Modules/Serial-to-Ethernet-Module/WIZ550S2E/configuration-tool-chn',
+						'Product/Modules/Serial-to-Ethernet-Module/WIZ550S2E/tutorial-eng',
+						'Product/Modules/Serial-to-Ethernet-Module/WIZ550S2E/tutorial-kor',
+						'Product/Modules/Serial-to-Ethernet-Module/WIZ550S2E/download',
 						],
 					},
 					'Product/Obsolete/wiz850sw',
-					'Product/S2E-Module/wiz1000',
-					'Product/ioModule/W5100S-io',
-					'Product/ioModule/W6100-io',
-					'Product/ioModule/wiz812mj',
+					'Product/Modules/Serial-to-Ethernet-Module/WIZ1000/wiz1000',
+					'Product/Modules/ioModule/W5100S-io',
+					'Product/Modules/ioModule/W6100-io',
+					'Product/Modules/ioModule/wiz812mj',
 				],
 			},
 			{

@@ -200,7 +200,7 @@ date: 2020-04-08
 | 10M Transmitting               | \-  | TBD | \-  |     | mA   |
 
 ※ Refer to WIZ752SR-120 Power Dissipation information (below Link)  
-[WIZ750SR\_Power dissipation](/Product/S2E-Module/WIZ750SR/Datasheet.md#ethernet-power-dissipation)
+[WIZ750SR\_Power dissipation](/Product/Modules/Serial-to-Ethernet-Module/WIZ750SR/Datasheet.md#ethernet-power-dissipation)
 
 ------------------------------------------------------------------------
 

@@ -80,7 +80,7 @@ Contents](overview-EN#product-contents) page.
 
 ### Software
 
-  - Configuration tool program ([Download page](./../../WIZ750SR/Download.md))
+  - Configuration tool program ([Download page](./Configuration-Tool-Manual-New-EN.mdx))
   - TCP server / TCP client / UDP terminal program
   - Serial terminal program
 
@@ -310,30 +310,6 @@ Now you’re ready to use the WIZ750SR-100\!
 
 **If there is any problem?**  
 
-Please refer to our **[Troubleshooting Guide](./../../WIZ750SR/Trouble-Shooting-EN.md)**! 
+Please refer to our **[Troubleshooting Guide](./Trouble-Shooting-EN.mdx)**! 
 
 -----
-
-## Navigation
-
------
-
-WIZ750SR series Common Documents 
-
-  - **User's Manual [(English)](./../../WIZ750SR/Users-Manual-EN.md)/[(Korean)](./../../WIZ750SR/Users-Manual-KO.md)** 
-  
-  - **Device Command Manual [(English)](./../../WIZ750SR/Command-Manual-EN.md)/[(Korean)](./../../WIZ750SR/Command-Manual-KO.md)**
-  
-  - **Troubleshooting Guide [(English)](./../../WIZ750SR/Trouble-Shooting-EN.md)/[(Korean)](./../../WIZ750SR/Trouble-Shooting-KO.md)**
-  
-  - **Update History [(English)](./../../WIZ750SR/Series-Update-History-EN.md)/[(Korean)](./../../WIZ750SR/Series-Update-History-KO.md)**
-  
------
-
-**WIZ750SR series Downloads** 
-
-  - **[Software Download](./../../WIZ750SR/Download.md)**
-  - **[Technical References](./../../WIZ750SR/Technical-References.md)**
-
------
-

@@ -224,7 +224,7 @@ DURING FIRMWARE UPLOADING**
       - By selecting this option, all information in **section 2** is
         automatically allocated from the router (DHCP server).
 
-\* Details of IP address allocation are available at [WIZ750SR User's Manual: IP address settings](./Users-Manual-EN.md#ip-address-settings).  
+\* Details of IP address allocation are available at [WIZ750SR User's Manual: IP address settings](./Users-Manual-EN.mdx#ip-address-settings).  
 \* PPPoE mode is not supported.
 
 #### 2\) IP Address Setting Field
@@ -242,7 +242,7 @@ DURING FIRMWARE UPLOADING**
         application: TCP client mode, TCP server mode (default), TCP
         client/server mixed mode, UDP mode.
       - Details of each network operation mode are available at
-        [WIZ750SR User's Manual: Network Operation Mode](./Users-Manual-EN.md#network-operation-mode).
+        [WIZ750SR User's Manual: Network Operation Mode](./Users-Manual-EN.mdx#network-operation-mode).
 
 #### 4\) Remote Host Settings
 
@@ -250,7 +250,7 @@ DURING FIRMWARE UPLOADING**
     remote host when the module attempts connection in TCP client
     mode\[1\] or UDP mode.
   - The port number of the destination is required.
-  - Details of the remote host setting are available at [WIZ750SR User's Manual: Remote Host Settings](./Users-Manual-EN.md#remote-host-settings).
+  - Details of the remote host setting are available at [WIZ750SR User's Manual: Remote Host Settings](./Users-Manual-EN.mdx#remote-host-settings).
 
 \* WIZ750SR does not support PPPoE / DDNS
 
@@ -501,28 +501,3 @@ multi-selected but has priority as shown below.
 Please refer to our **[Troubleshooting Guide](./Trouble-Shooting-EN)**\! 
 
 -----
-
-## Navigation
-
------
-
- **WIZ750SR** 
-
-  - **User's Manual [(English)](./Users-Manual-EN)/[(Korean)](./Users-Manual-KO)** 
-  
-  - **Device Command Manual [(English)](./Command-Manual-EN)/[(Korean)](./Command-Manual-KO)**
-  
-  - **Troubleshooting Guide [(English)](./Trouble-Shooting-EN)/[(Korean)](./Trouble-Shooting-KO)**
-  
-  - **Update History [(English)](./Series-Update-History-EN)/[(Korean)](./Series-Update-History-KO)**
-  
------
-
-**WIZ750SR series Downloads** 
-
-  - **[Software Download](./Download)**
-
-  - **[Technical References](./Technical-References)**
-
------
-

@@ -32,8 +32,6 @@ The WIZ750SR-110 evaluation board package contains the following parts.
   - WIZ750SR-110 RS-232C Module
   - Cables (Ethernet / Serial)
 
-The entire list of parts of the board is available at the [WIZ750SR-110 Overview: Product Contents](./Overview-EN.md#product-contents) page.
-
 ### Device Layout
 
 |                                                                               |
@@ -81,7 +79,7 @@ The entire list of parts of the board is available at the [WIZ750SR-110 Overview
 
 ### Software
 
-  - Configuration tool program ([Download page](./../../WIZ750SR/Download))
+  - Configuration tool program ([Download page](./Download))
   - TCP server / TCP client / UDP terminal program
   - Serial terminal program
 
@@ -320,29 +318,6 @@ Now you’re ready to use the WIZ750SR-110\!
 -----
 
 **If there is any problem?**  
-Please refer to our **[Troubleshooting guide](./../../WIZ750SR/Trouble-Shooting-EN)**\!
-
------
-
-## Navigation
-
------
-
-WIZ750SR series Common Documents 
-
-  - **User's Manual [(English)](./../../WIZ750SR/Users-Manual-EN)/[(Korean)](./../../WIZ750SR/Users-Manual-KO)** 
-  
-  - **Device Command Manual [(English)](./../../WIZ750SR/Command-Manual-EN)/[(Korean)](./../../WIZ750SR/Command-Manual-KO)**
-  
-  - **Troubleshooting Guide [(English)](./../../WIZ750SR/Trouble-Shooting-EN)/[(Korean)](./../../WIZ750SR/Trouble-Shooting-KO)**
-  
-  - **Update History [(English)](./../../WIZ750SR/Series-Update-History-EN)/[(Korean)](./../../WIZ750SR/Series-Update-History-KO)**
-  
------
-
-**WIZ750SR series Downloads** 
-
-  - **[Software Download](./../../WIZ750SR/Download)**
-  - **[Technical References](./../../WIZ750SR/Technical-References)**
+Please refer to our **[Troubleshooting guide](./Trouble-Shooting-EN)**\!
 
 -----

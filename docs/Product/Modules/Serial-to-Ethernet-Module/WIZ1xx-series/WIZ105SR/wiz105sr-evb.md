@@ -7,7 +7,7 @@ date: 2021-07-21
 :::caution
 **WIZ105SR is not discontinued, but we do not recommend it for new designs.**
 
-Please check **[WIZ750SR-105](./../WIZ750SR-1xx-Series/WIZ750SR-105/WIZ750SR-105.md)** instead.
+Please check **[WIZ750SR-105](/Product/Modules/Serial-to-Ethernet-Module/WIZ750SR-105/WIZ750SR-105.mdx)** instead.
 
 Evaluation board for WIZ105SR is now discontinued.
 :::

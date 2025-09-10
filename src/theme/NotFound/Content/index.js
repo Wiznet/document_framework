@@ -7,6 +7,9 @@ export default function ContentWrapper(props) {
 
   useEffect(() => {
     const redirects = [
+
+      /* Serial to Ethernet Module */
+
       {
         match: '/Product/S2E-Module/WIZ750SR-1xx-Series/wiz750sr-1xx-series',
         target: '/Product/Modules/Serial-to-Ethernet-Module/s2e_module',
@@ -83,9 +86,127 @@ export default function ContentWrapper(props) {
         match: '/Product/S2E-Module/Industrial',
         target: '/Product/Modules/Serial-to-Ethernet-Module/W232N',
       },
+      {
+        match: '/Product/S2E-Module/WIZ550S2E',
+        target: '/Product/Modules/Serial-to-Ethernet-Module/WIZ550S2E',
+      },
+      {
+        match: '/Product/S2E-Module/WIZ107SR/wiz107sr-evb',
+        target: '/Product/Modules/Serial-to-Ethernet-Module/WIZ107SR/wiz107sr-evb',
+      },
+      {
+        match: '/Product/S2E-Module/WIZ107SR/wiz107sr',
+        target: '/Product/Modules/Serial-to-Ethernet-Module/WIZ107SR',
+      },
+      {
+        match: '/Product/S2E-Module/WIZ108SR/wiz108sr-evb',
+        target: '/Product/Modules/Serial-to-Ethernet-Module/WIZ108SR/wiz108sr-evb',
+      },
+      {
+        match: '/Product/S2E-Module/WIZ108SR/wiz108sr',
+        target: '/Product/Modules/Serial-to-Ethernet-Module/WIZ108SR',
+      },
+      {
+        match: '/Product/S2E-Module/WIZ120SR/wiz120sr',
+        target: '/Product/Modules/Serial-to-Ethernet-Module/WIZ120SR',
+      },
+      {
+        match: '/Product/S2E-Module/WIZ120SR/wiz120sr-evb',
+        target: '/Product/Modules/Serial-to-Ethernet-Module/WIZ120SR/wiz120sr-evb',
+      },
+      {
+        match: '/Product/S2E-Module/WIZ125SR/wiz125sr',
+        target: '/Product/Modules/Serial-to-Ethernet-Module/WIZ125SR',
+      },
+      {
+        match: '/Product/S2E-Module/WIZ140SR/wiz140sr-evb',
+        target: '/Product/Modules/Serial-to-Ethernet-Module/WIZ140SR/wiz140sr-evb',
+      },
+      {
+        match: '/Product/S2E-Module/WIZ140SR/wiz140sr',
+        target: '/Product/Modules/Serial-to-Ethernet-Module/WIZ140SR',
+      },
+      {
+        match: '/Product/S2E-Module/WIZ145SR/wiz145sr-evb',
+        target: '/Product/Modules/Serial-to-Ethernet-Module/WIZ145SR/wiz145sr-evb',
+      },
+      {
+        match: '/Product/S2E-Module/WIZ145SR/wiz145sr',
+        target: '/Product/Modules/Serial-to-Ethernet-Module/WIZ145SR',
+      },
+      {
+        match: '/Product/S2E-Module/wiz1000',
+        target: '/Product/Modules/Serial-to-Ethernet-Module/WIZ1000',
+      },
+      // For all other cases, redirect to /Product/Modules/Serial-to-Ethernet-Module/s2e_module
+      {
+        match: '/Product/S2E-Module',
+        target: '/Product/Modules/Serial-to-Ethernet-Module/s2e_module',
+      },
 
+      /* io Module */
 
-
+      {
+        match: '/Product/ioModule/W5100S-io',
+        target: '/Product/Modules/ioModule/W5100S-io',
+      },
+      {
+        match: '/Product/ioModule/W5500-io',
+        target: '/Product/Modules/ioModule/W5500-io',
+      },
+      {
+        match: '/Product/ioModule/W6100-io',
+        target: '/Product/Modules/ioModule/W6100-io',
+      },
+      {
+        match: '/Product/ioModule/nm7010b',
+        target: '/Product/Modules/ioModule/nm7010b',
+      },
+      {
+        match: '/Product/ioModule/wiz610mj',
+        target: '/Product/Modules/ioModule/wiz610mj',
+      },
+      {
+        match: '/Product/ioModule/wiz630io',
+        target: '/Product/Modules/ioModule/wiz630io',
+      },
+      {
+        match: '/Product/ioModule/wiz810mj',
+        target: '/Product/Modules/ioModule/wiz810mj',
+      },
+      {
+        match: '/Product/ioModule/wiz810sio',
+        target: '/Product/Modules/ioModule/wiz810sio',
+      },
+      {
+        match: '/Product/ioModule/wiz810smj',
+        target: '/Product/Modules/ioModule/wiz810smj',
+      },
+      {
+        match: '/Product/ioModule/wiz811mj',
+        target: '/Product/Modules/ioModule/wiz811mj',
+      },
+      {
+        match: '/Product/ioModule/wiz812mj',
+        target: '/Product/Modules/ioModule/wiz812mj',
+      },
+      {
+        match: '/Product/ioModule/wiz820io',
+        target: '/Product/Modules/ioModule/wiz820io',
+      },
+      {
+        match: '/Product/ioModule/wiz830mj',
+        target: '/Product/Modules/ioModule/wiz830mj',
+      },
+      {
+        match: '/Product/ioModule/wiz850io',
+        target: '/Product/Modules/ioModule/wiz850io',
+      },
+      // For all other cases, redirect to /Product/Modules/ioModule
+      {
+        match: '/Product/ioModule',
+        target: '/Product/Modules/ioModule',
+      },
 
     ];
 

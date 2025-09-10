@@ -75,7 +75,7 @@ Contents](overview-KO#product-contents) 페이지에서 확인
 
 ### Software
 
-  - Configuration tool 프로그램 ([Download page](./../../WIZ750SR/Download.md))
+  - Configuration tool 프로그램 ([Download page](./Configuration-Tool-Manual-New-KO.mdx))
   - TCP 서버 / TCP 클라이언트 / UDP 터미널 프로그램
   - 시리얼 터미널 프로그램
 
@@ -291,29 +291,6 @@ PC를 사용자 시리얼 장치 및 TCP 클라이언트로 삼아 데이터 통
 -----
 
 **동작에 문제가 있나요?**  
-**[Troubleshooting 가이드](./../../WIZ750SR/Trouble-Shooting-KO.md)** 문서를 참고해 보세요\!
-
------
-
-## Navigation
-
------
-
-WIZ750SR series Common Documents 
-
-  - **User's Manual [(English)](./../../WIZ750SR/Users-Manual-EN.md)/[(Korean)](./../../WIZ750SR/Users-Manual-KO.md)** 
-  
-  - **Device Command Manual [(English)](./../../WIZ750SR/Command-Manual-EN.md)/[(Korean)](./../../WIZ750SR/Command-Manual-KO.md)**
-  
-  - **Troubleshooting Guide [(English)](./../../WIZ750SR/Trouble-Shooting-EN.md)/[(Korean)](./../../WIZ750SR/Trouble-Shooting-KO.md)**
-  
-  - **Update History [(English)](./../../WIZ750SR/Series-Update-History-EN.md)/[(Korean)](./../../WIZ750SR/Series-Update-History-KO.md)**
-  
------
-
-**WIZ750SR series Downloads** 
-
-  - **[Software Download](./../../WIZ750SR/Download.md)**
-  - **[Technical References](./../../WIZ750SR/Technical-References.md)**
+**[Troubleshooting 가이드](./Trouble-Shooting-KO.mdx)** 문서를 참고해 보세요\!
 
 -----

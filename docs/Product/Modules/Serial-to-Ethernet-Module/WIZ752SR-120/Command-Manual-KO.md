@@ -1666,7 +1666,7 @@ Return value</th>
     -   **Without Parameter**
         -   No response
         -   제품의 동작 설정을 공장 초기화 상태(출고 시 초기 상태)로 변경합니다.
-    -   제품의 초기 설정 값은 **[WIZ750SR Factory Settings](./../../WIZ750SR/Getting-Started-KO.md#wiz750sr-factory-settings)**에서
+    -   제품의 초기 설정 값은 **[WIZ750SR Factory Settings](./Getting-Started-KO.md#wiz750sr-factory-settings)**에서
         확인 할 수 있습니다.
     -   공장 초기화 수행 시, **[RT](#rt)** 커맨드를 수행 한 것과 동일하게 제품을 재시작 합니다.
         -   만약 시리얼 디버그 메시지를 사용 중인 경우, Data UART 포트를 통해 다음과 같은 메시지를 출력합니다.
@@ -1924,50 +1924,6 @@ Return value</th>
         -   In ASCII: `S10\r\n`
 
 ------------------------------------------------------------------------
-
-## Navigation
-
-------------------------------------------------------------------------
-
-** WIZ750SR series Common Documents ** 
-
--   **[User's Manual](./../../WIZ750SR/Users-Manual-KO.md)**
--   **[Device Command Manual](./../../WIZ750SR/Command-Manual-KO.md)**
--   **[Troubleshooting Guide](./../../WIZ750SR/Trouble-Shooting-KO.md)**
--   **[Update History](./../../WIZ750SR/Series-Update-History-KO.md)**
-
-------------------------------------------------------------------------
-
-** WIZ750SR series Downloads **
--   **[Software Downloads](./../../WIZ750SR/Download.md)**
--   **[Technical Reference](./../../WIZ750SR/Technical-References.md)**
-
-** WIZ750SR Individual documents ** 
-
--   **[WIZ750SR Product Overview](./../../WIZ750SR/WIZ750SR.md)**
--   **[WIZ750SR Getting Started Guide](./../../WIZ750SR/Getting-Started-KO.md)**
--   **[WIZ750SR Datasheet](./../../WIZ750SR/Datasheet.md)**
-
-------------------------------------------------------------------------
-
-** WIZ750SR-100 Individual documents **
--   **[WIZ750SR-100 Product Overview](./../../WIZ750SR-1xx-Series/WIZ750SR-100/Overview-KO.md)**
--   **[WIZ750SR-100 Getting Started Guide](./../../WIZ750SR-1xx-Series/WIZ750SR-100/Getting-Started-KO.md)**
--   **[WIZ750SR-100 Datasheet](./../../WIZ750SR-1xx-Series/WIZ750SR-100/Datasheet.md)**
-
-------------------------------------------------------------------------
-
-** WIZ750SR-105 Individual documents **
--   **[WIZ750SR-105 Product Overview](./../../WIZ750SR-1xx-Series/WIZ750SR-105/Overview-KO.md)**
--   **[WIZ750SR-105 Getting Started Guide](./../../WIZ750SR-1xx-Series/WIZ750SR-105/Getting-Started-KO.md)**
--   **[WIZ750SR-105 Datasheet](./../../WIZ750SR-1xx-Series/WIZ750SR-105/Datasheet.md)**
-
-------------------------------------------------------------------------
-
-** WIZ750SR-110 Individual documents **
--   **[WIZ750SR-110 Product Overview](./../../WIZ750SR-1xx-Series/WIZ750SR-110/Overview-KO.md)**
--   **[WIZ750SR-110 Getting Started Guide](./../../WIZ750SR-1xx-Series/WIZ750SR-110/Getting-Started-KO.md)**
--   **[WIZ750SR-110 Datasheet](./../../WIZ750SR-1xx-Series/WIZ750SR-110/Datasheet.md)**
 
 [^1]: 위즈네트에서 제공하는 제품 설정 프로그램(Configuration tool)도 동일한 커맨드 셋을 이용하여 WIZ750SR 제품을 제어합니다.
 [^2]: 예를 들어, 제품의 MAC 주소를 확인하는 MC 커맨드와 펌웨어 버전을 확인하는 VR 커맨드와 같은 경우.

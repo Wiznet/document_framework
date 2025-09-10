@@ -27,8 +27,6 @@ The WIZ750SR-105 evaluation board package contains the following parts.
   - WIZ105SR-EVB Evaluation Board (RS-232C interface)
   - Cables (Ethernet / Serial)
 
-The entire list of parts of the board is available at the [WIZ750SR-105 Overview: Product Contents](./Overview-EN.md#product-contents) page.
-
 ### Device Layout
 
 |                                                                               |
@@ -74,7 +72,7 @@ The entire list of parts of the board is available at the [WIZ750SR-105 Overview
 
 ### Software
 
-  - Configuration tool program ([Download page](./../../WIZ750SR/Download.md))
+  - Configuration tool program ([Download page](./Configuration-Tool-Manual-New-EN.mdx))
   - TCP server / TCP client / UDP terminal program
   - Serial terminal program
 
@@ -315,33 +313,5 @@ Now you’re ready to use the WIZ750SR-105\!
   - The next step is to **connect the WIZ750SR-105 module to the target
     serial device** and check if the device can **communicate, control,
     and monitor** via the **remote PC or monitoring server**.
-
------
-
-**If there is any problem?**  
-Please refer to our **[Troubleshooting Guide](./../../WIZ750SR/Trouble-Shooting-EN.md)**\!
-
------
-
-## Navigation
-
------
-
-WIZ750SR series Common Documents 
-
-  - **User's Manual [(English)](./../../WIZ750SR/Users-Manual-EN.md)/[(Korean)](./../../WIZ750SR/Users-Manual-KO.md)** 
-  
-  - **Device Command Manual [(English)](./../../WIZ750SR/Command-Manual-EN.md)/[(Korean)](./../../WIZ750SR/Command-Manual-KO.md)**
-  
-  - **Troubleshooting Guide [(English)](./../../WIZ750SR/Trouble-Shooting-EN.md)/[(Korean)](./../../WIZ750SR/Trouble-Shooting-KO.md)**
-  
-  - **Update History [(English)](./../../WIZ750SR/Series-Update-History-EN.md)/[(Korean)](./../../WIZ750SR/Series-Update-History-KO.md)**
-  
------
-
-**WIZ750SR series Downloads** 
-
-  - **[Software Download](./../../WIZ750SR/Download.md)**
-  - **[Technical References](./../../WIZ750SR/Technical-References.md)**
 
 -----

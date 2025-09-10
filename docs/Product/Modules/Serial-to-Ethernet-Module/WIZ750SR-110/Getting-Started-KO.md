@@ -82,7 +82,7 @@ WIZ750SR-110 개발 보드 패키지는 다음과 같이 구성되어 있습니�
 
 ### Software
 
-  - Configuration tool 프로그램 ([Download page](./../../WIZ750SR/Download))
+  - Configuration tool 프로그램 ([Download page](./Download))
   - TCP 서버 / TCP 클라이언트 / UDP 터미널 프로그램
   - 시리얼 터미널 프로그램
 
@@ -296,30 +296,4 @@ PC를 사용자 시리얼 장치 및 TCP 클라이언트로 삼아 데이터 통
 -----
 
 **동작에 문제가 있나요?**  
-**[Troubleshooting 가이드](./../../WIZ750SR/Trouble-Shooting-KO)** 문서를 참고해 보세요\!
-
------
-
-## Navigation
-
------
-
-WIZ750SR series Common Documents 
-
-  - **User's Manual [(English)](./../../WIZ750SR/Users-Manual-EN)/[(Korean)](./../../WIZ750SR/Users-Manual-KO)** 
-  
-  - **Device Command Manual [(English)](./../../WIZ750SR/Command-Manual-EN)/[(Korean)](./../../WIZ750SR/Command-Manual-KO)**
-  
-  - **Troubleshooting Guide [(English)](./../../WIZ750SR/Trouble-Shooting-EN)/[(Korean)](./../../WIZ750SR/Trouble-Shooting-KO)**
-  
-  - **Update History [(English)](./../../WIZ750SR/Series-Update-History-EN)/[(Korean)](./../../WIZ750SR/Series-Update-History-KO)**
-  
------
-
-**WIZ750SR series Downloads** 
-
-  - **[Software Download](./../../WIZ750SR/Download)**
-  - **[Technical References](./../../WIZ750SR/Technical-References)**
-
------
-
+**[Troubleshooting 가이드](./Trouble-Shooting-KO)** 문서를 참고해 보세요\!

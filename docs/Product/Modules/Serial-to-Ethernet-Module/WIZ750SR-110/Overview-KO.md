@@ -4,12 +4,6 @@ title: Overview-[KO]
 date: 2020-04-09
 ---
 
-**Supported Languages**  
-* [English](overview-EN) 
-* [Korean](overview-KO) (current page)
-
------
-
 ## Overview
 
 WIZ750SR-110은 Cortex-M0 기반의 W7500 MCU와 외부 PHY IC가 탑재된 시리얼 to 이더넷 모듈
@@ -82,29 +76,3 @@ WIZ750SR-110 모듈은 RS-232C로 동작합니다.
 | :::                  | :::      | 24AWG CAT5e UTP cable      | 1    | LAN cable |
 
 \* 본 구성은 제품의 성능 향상을 위해 더 나은 구성품으로 대체 될 수 있습니다.
-
------
-
-## Navigation
-
------
-
-WIZ750SR series Common Documents 
-
-  - **User's Manual [(English)](./../../WIZ750SR/Users-Manual-EN)/[(Korean)](./../../WIZ750SR/Users-Manual-KO)** 
-  
-  - **Device Command Manual [(English)](./../../WIZ750SR/Command-Manual-EN)/[(Korean)](./../../WIZ750SR/Command-Manual-KO)**
-  
-  - **Troubleshooting Guide [(English)](./../../WIZ750SR/Trouble-Shooting-EN)/[(Korean)](./../../WIZ750SR/Trouble-Shooting-KO)**
-  
-  - **Update History [(English)](./../../WIZ750SR/Series-Update-History-EN)/[(Korean)](./../../WIZ750SR/Series-Update-History-KO)**
-  
------
-
-**WIZ750SR series Downloads** 
-
-  - **[Software Download](./../../WIZ750SR/Download)**
-  - **[Technical References](./../../WIZ750SR/Technical-References)**
-
------
-

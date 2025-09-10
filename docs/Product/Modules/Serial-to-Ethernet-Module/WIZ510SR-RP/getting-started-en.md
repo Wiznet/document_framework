@@ -14,8 +14,6 @@ The WIZ510SR-RP evaluation board package contains the following parts.
 
   - WIZ510SR-RP Module
 
-The entire list of parts of the board is available at the [WIZ510SR-RP Overview: Product Contents](./overview-en.md#product-contents) page.
-
 As WIZ510SR-RP already has Serial and Ethernet port, no separate evaluation board is needed to get started working with module.
 
 ### Device Layout
@@ -49,7 +47,7 @@ As WIZ510SR-RP already has Serial and Ethernet port, no separate evaluation boar
 
 ### Software
 
-- Configuration tool program ([Download page](./../../WIZ750SR/Download.md#wiznet-s2e-configuration-tool))
+- Configuration tool program ([Download page](./Configuration-Tool-Manual-EN.mdx))
 - TCP server / TCP client / UDP terminal program
 - Serial terminal program
 
@@ -213,11 +211,5 @@ Now you’re ready to use the WIZ510SR-RP!
 
 - This document is based on the **assumption of the PC as the serial device / remote network device**. 
 - The next step is to **connect the WIZ510SR-RP module to the target serial device** and check if the device can **communicate, control, and monitor** via the **remote PC or monitoring server**.
-
------
-
-**If there is any problem?**
-
-Please refer to our **[Troubleshooting guide](./../../WIZ750SR/Trouble-Shooting-EN.md)**!
 
 -----

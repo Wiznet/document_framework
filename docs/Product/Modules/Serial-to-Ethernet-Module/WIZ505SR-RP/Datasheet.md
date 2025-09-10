@@ -276,7 +276,7 @@ When Module working well Blinking every 1.0s </td>
 ------------------------------------------------------------------------
 ## WIZ505SR-RP EVB
 
-To utilize the [WIZ505SR-RP EVB](../wiz505sr-rp-evb-en.md), connect the J1 connector of the WIZ505SR-RP to the J6 connector of the EVB.  
+To utilize the [WIZ505SR-RP EVB](./wiz505sr-rp-evb-en.mdx), connect the J1 connector of the WIZ505SR-RP to the J6 connector of the EVB.  
 
 |                                                              |
 | ------------------------------------------------------------ |

@@ -35,14 +35,12 @@ The WIZ752SR-120 evaluation board package contains the following parts.
   - Cables (Ethernet / Serial)
   - DC 5V/2A adapter
 
-The entire list of parts of the board is available at the [WIZ752SR-120 Overview: Product Contents](./Overview-EN.md#product-contents)
-page.
 
 ## Prerequisites for Setup
 
 ### Software
 
-  - Configuration tool program ([Download page](./../../WIZ750SR/Download.md))
+  - Configuration tool program ([Download page](./Configuration-Tool-Manual-New-EN.mdx))
   - TCP server / TCP client / UDP terminal program
   - Serial terminal program
 
@@ -258,6 +256,6 @@ Now you’re ready to use the WIZ752SR-120\!
 -----
 
 **If there is any problem?**  
-Please refer to our **[Troubleshooting Guide](./../../WIZ750SR/Trouble-Shooting-EN.md)**\!
+Please refer to our **[Troubleshooting Guide](./Trouble-Shooting-EN.mdx)**\!
 
 -----

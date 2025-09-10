@@ -4,11 +4,6 @@ title: Overview-[KO]
 date: 2020-04-15
 ---
 
- **Supported Languages**  
-* [English](overview-EN) 
-* [Korean](overview-KO) (current page)
-
------
 
 ## Overview
 

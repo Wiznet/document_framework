@@ -1885,7 +1885,7 @@ Return value</th>
     -   **Without Parameter**
         -   No response
         -   Reset to device factory default setting
-    -   The device’s default setting values can be found at **[WIZ750SR Factory Settings](./../../WIZ750SR/Getting-Started-EN.md#wiz750sr-factory-settings)**
+    -   The device’s default setting values can be found at **[WIZ750SR Factory Settings](./Getting-Started-EN.md#wiz750sr-factory-settings)**
     -   The device reboots after factory reset, like **[RT](#rt)** command.
         -   While the serial debug message is being used, the following message will output via data UART.
         -   `> REBOOT`
@@ -2140,50 +2140,6 @@ Return value</th>
     -   In ASCII: `S10\r\n`
 
 ------------------------------------------------------------------------
-
-## Navigation
-
-------------------------------------------------------------------------
-
-** WIZ750SR series Common Documents ** 
-
--   **[User's Manual](./../../WIZ750SR/Users-Manual-EN.md)**
--   **[Device Command Manual](./../../WIZ750SR/Command-Manual-EN.md)**
--   **[Troubleshooting Guide](./../../WIZ750SR/Trouble-Shooting-EN.md)**
--   **[Update History](./../../WIZ750SR/Series-Update-History-EN.md)**
-
-------------------------------------------------------------------------
-
-** WIZ750SR series Downloads **
--   **[Software Downloads](./../../WIZ750SR/Download.md)**
--   **[Technical Reference](./../../WIZ750SR/Technical-References.md)**
-
-** WIZ750SR Individual documents ** 
-
--   **[WIZ750SR Product Overview](./../../WIZ750SR/WIZ750SR.md)**
--   **[WIZ750SR Getting Started Guide](./../../WIZ750SR/Getting-Started-EN.md)**
--   **[WIZ750SR Datasheet](./../../WIZ750SR/Datasheet.md)**
-
-------------------------------------------------------------------------
-
-** WIZ750SR-100 Individual documents **
--   **[WIZ750SR-100 Product Overview](./../../WIZ750SR-1xx-Series/WIZ750SR-100/Overview-EN.md)**
--   **[WIZ750SR-100 Getting Started Guide](./../../WIZ750SR-1xx-Series/WIZ750SR-100/Getting-Started-EN.md)**
--   **[WIZ750SR-100 Datasheet](./../../WIZ750SR-1xx-Series/WIZ750SR-100/Datasheet.md)**
-
-------------------------------------------------------------------------
-
-** WIZ750SR-105 Individual documents **
--   **[WIZ750SR-105 Product Overview](./../../WIZ750SR-1xx-Series/WIZ750SR-105/Overview-EN.md)**
--   **[WIZ750SR-105 Getting Started Guide](./../../WIZ750SR-1xx-Series/WIZ750SR-105/Getting-Started-EN.md)**
--   **[WIZ750SR-105 Datasheet](./../../WIZ750SR-1xx-Series/WIZ750SR-105/Datasheet.md)**
-
-------------------------------------------------------------------------
-
-** WIZ750SR-110 Individual documents **
--   **[WIZ750SR-110 Product Overview](./../../WIZ750SR-1xx-Series/WIZ750SR-110/Overview-EN.md)**
--   **[WIZ750SR-110 Getting Started Guide](./../../WIZ750SR-1xx-Series/WIZ750SR-110/Getting-Started-EN.md)**
--   **[WIZ750SR-110 Datasheet](./../../WIZ750SR-1xx-Series/WIZ750SR-110/Datasheet.md)**
 
 [^1]: The Configuration tool provided by WIZnet uses the identical command set to control WIZ750SR.
 

@@ -30,8 +30,8 @@ slug: /
 # Modules
 ### io Module (Internet Offload Module)
 
-  * [WIZ850io](./ioModule/WIZ850io.md)
-  * [WIZ550io](./ioModule/wiz550io.md)
+  * [WIZ850io](./Modules/ioModule/WIZ850io.md)
+  * [WIZ550io](./Modules/ioModule/wiz550io.md)
 
 -----
 
@@ -39,21 +39,21 @@ slug: /
 
 <!-- ### 1 Serial Port -->
 
- * [WIZ107SR](./S2E-Module/WIZ107SR/wiz107sr.md)
- * [WIZ108SR](./S2E-Module/WIZ108SR/wiz108sr.md)
- * [WIZ750SR](./S2E-Module/WIZ750SR/WIZ750SR.md)
- * [WIZ750SR-100](./S2E-Module/WIZ750SR-1xx-Series/WIZ750SR-100/WIZ750SR-100.md)
- * [WIZ750SR-105](./S2E-Module/WIZ750SR-1xx-Series/WIZ750SR-105/WIZ750SR-105.md)
- * [WIZ750SR-110](./S2E-Module/WIZ750SR-1xx-Series/WIZ750SR-110/WIZ750SR-110.md)
- * [WIZ550SR](./S2E-Module/WIZ550SR/WIZ550SR.md)
- * [WIZ550S2E](./S2E-Module/WIZ550S2E/WIZ550S2E.md)
- * [W7500S2E-R1](./S2E-Module/W7500S2E-R1/W7500S2E-R1.md)
- * [W5500S2E-S1](./S2E-Module/W5500S2E-S1/W5500S2E-S1.md)
- * [W5500S2E-Z1](./S2E-Module/W5500S2E-Z1/W5500S2E-Z1.md)
- * [WIZ510SSL](./S2E-Module/WIZ510SSL/WIZ510SSL.md)
- * [WIZ500SR-RP](./S2E-Module/WIZ5xxSR-RP-Series/WIZ500SR-RP/overview-en.md)
- * [WIZ505SR-RP](./S2E-Module/WIZ5xxSR-RP-Series/WIZ500SR-RP/overview-en.md)
- * [WIZ510SR-RP](./S2E-Module/WIZ5xxSR-RP-Series/WIZ500SR-RP/overview-en.md)
+ * [WIZ107SR](./Modules/Serial-to-Ethernet-Module/WIZ107SR/wiz107sr.md)
+ * [WIZ108SR](./Modules/Serial-to-Ethernet-Module/WIZ108SR/wiz108sr.md)
+ * [WIZ750SR](./Modules/Serial-to-Ethernet-Module/WIZ750SR/WIZ750SR.mdx)
+ * [WIZ750SR-100](./Modules/Serial-to-Ethernet-Module/WIZ750SR-100/WIZ750SR-100.mdx)
+ * [WIZ750SR-105](./Modules/Serial-to-Ethernet-Module/WIZ750SR-105/WIZ750SR-105.mdx)
+ * [WIZ750SR-110](./Modules/Serial-to-Ethernet-Module/WIZ750SR-110/WIZ750SR-110.mdx)
+ * [WIZ550SR](./Modules/Serial-to-Ethernet-Module/WIZ550SR/WIZ550SR.mdx)
+ * [WIZ550S2E](./Modules/Serial-to-Ethernet-Module/WIZ550S2E/WIZ550S2E.md)
+ * [W7500S2E-R1](./Modules/Serial-to-Ethernet-Module/W7500S2E-R1/W7500S2E-R1.mdx)
+ * [W5500S2E-S1](./Modules/Serial-to-Ethernet-Module/W5500S2E-S1/W5500S2E-S1.mdx)
+ * [W5500S2E-Z1](./Modules/Serial-to-Ethernet-Module/W5500S2E-Z1/W5500S2E-Z1.mdx)
+ * [WIZ510SSL](./Modules/Serial-to-Ethernet-Module/WIZ510SSL/WIZ510SSL.md)
+ * [WIZ500SR-RP](./Modules/Serial-to-Ethernet-Module/WIZ500SR-RP/WIZ500SR-RP.mdx)
+ * [WIZ505SR-RP](./Modules/Serial-to-Ethernet-Module/WIZ505SR-RP/WIZ505SR-RP.mdx)
+ * [WIZ510SR-RP](./Modules/Serial-to-Ethernet-Module/WIZ510SR-RP/WIZ510SR-RP.mdx)
 
 <!-- ### 2 Serial Port -->
 

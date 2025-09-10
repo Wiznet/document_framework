@@ -38,7 +38,7 @@ WIZ752SR-125 보드는 별도의 악세사리 없이 모듈 단품만 판매합�
 
 ### Software
 
-  - Configuration tool 프로그램 ([Download page](./../../WIZ750SR/Download.md))
+  - Configuration tool 프로그램 ([Download page](./Configuration-Tool-Manual-New-KO.mdx))
   - TCP 서버 / TCP 클라이언트 / UDP 터미널 프로그램
   - 시리얼 터미널 프로그램
 
@@ -243,7 +243,7 @@ PC를 사용자 시리얼 장치 및 TCP 클라이언트로 삼아 데이터 통
 -----
 
 **동작에 문제가 있나요?**  
-**[Troubleshooting 가이드](./../../WIZ750SR/Trouble-Shooting-KO.md)** 문서를 참고해
+**[Troubleshooting 가이드](/Product/Modules/Serial-to-Ethernet-Module/WIZ750SR/trouble-shooting-KO)** 문서를 참고해
 보세요\!
 
 -----
