@@ -42,7 +42,7 @@ to any 8/16/32-bit microcontroller via simple AT commands.
 | Operation Temp (℃) | -25°C .. +80°C |  -40 .. 85 | -20 .. 85 |
 | Dimension (mm) | 33 x 43 x 3 | PA : 24x16x3, CON : 17x16x3 | 28x20x1.9 |
 | Certification | KC, CE, FCC, TELEC |  KC, CE, FCC, TELEC | KC, CE, FCC |
-| Evaluation Board | [WizFi630S-EVB](./WizFi630S/WizFi630S-EVB.mdx) | [WizFi360-EVB-Pico](./../Open-Source-Hardware/WizFi360-EVB-Pico.md) <br /> [WizFi360-EVB-Shield](./WizFi360/WizFi360-EVB-Shield.mdx) <br /> [WizFi360-EVB-Mini](./WizFi360/WizFi360-EVB-Mini.md) |  [WizFi250-EVB](./WizFi250/Quickstart_guide.md#wizfi250-evaluation-board) |
+| Evaluation Board | [WizFi630S-EVB](./WizFi630S/WizFi630S-EVB.mdx) | [WizFi360-EVB-Pico](./../../Open-Source-Hardware/WizFi360-EVB-Pico.md) <br /> [WizFi360-EVB-Shield](./WizFi360/WizFi360-EVB-Shield.mdx) <br /> [WizFi360-EVB-Mini](./WizFi360/WizFi360-EVB-Mini.md) |  [WizFi250-EVB](./WizFi250/Quickstart_guide.md#wizfi250-evaluation-board) |
 
 :::caution
 Please note that **WizFi630A, WizFi310, WizFi210** Wi-Fi modules are discontinued.

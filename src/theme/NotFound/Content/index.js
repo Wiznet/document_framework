@@ -144,6 +144,42 @@ export default function ContentWrapper(props) {
         target: '/Product/Modules/Serial-to-Ethernet-Module/s2e_module',
       },
 
+      
+      /* WiFi Module */
+      {
+        match: '/Product/Wi-Fi-Module/WizFi210',
+        target: '/Product/Modules/Wi-Fi-Module/WizFi210',
+      },
+      {
+        match: '/Product/Wi-Fi-Module/WizFi250',
+        target: '/Product/Modules/Wi-Fi-Module/WizFi250',
+      },
+      {
+        match: '/Product/Wi-Fi-Module/WizFi310',
+        target: '/Product/Modules/Wi-Fi-Module/WizFi310',
+      },
+      {
+        match: '/Product/Wi-Fi-Module/WizFi360',
+        target: '/Product/Modules/Wi-Fi-Module/WizFi360',
+      },
+      {
+        match: '/Product/Wi-Fi-Module/WizFi630A',
+        target: '/Product/Modules/Wi-Fi-Module/WizFi630A',
+      },
+      {
+        match: '/Product/Wi-Fi-Module/WizFi630S',
+        target: '/Product/Modules/Wi-Fi-Module/WizFi630S',
+      },
+      {
+        match: '/Product/Wi-Fi-Module/wi_fi_module',
+        target: '/Product/Modules/Wi-Fi-Module/wi_fi_module',
+      },
+      {
+        match: '/Product/Obsolete/wizfi630',
+        target: '/Product/Modules/Wi-Fi-Module/wizfi630',
+      },
+
+
       /* io Module */
 
       {
