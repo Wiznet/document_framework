@@ -1,6 +1,7 @@
 ---
 id: overview
 title: Overview
+slug: /Product/iEthernet/W5300/
 date: 2025-08-13
 keywords: [w5300,ethernet chip,wiznet,hardwired tcp/ip,arduino ethernet,pico ethernet]
 description: W5300 chip is a Hardwired Internet controller designed as a full hardwired TCP/IP stack with WIZnet technology

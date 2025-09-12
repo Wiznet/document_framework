@@ -243,7 +243,62 @@ export default function ContentWrapper(props) {
         match: '/Product/ioModule',
         target: '/Product/Modules/ioModule',
       },
+      /* Ethernet Module */
+      {
+        match: '/Product/iEthernet/W6300',
+        target: '/Product/iEthernet/W6300',
+      },
+      {
+        match: '/Product/iEthernet/W6100',
+        target: '/Product/iEthernet/W6100',
+      },
+      {
+        match: '/Product/iEthernet/W5100S',
+        target: '/Product/iEthernet/W5100S',
+      },
+      {
+        match: '/Product/iEthernet/W5300',
+        target: '/Product/iEthernet/W5300',
+      },
+      {
+        match: '/Product/iEthernet/W5500',
+        target: '/Product/iEthernet/W5500',
+      },
+      {
+        match: '/Product/ioNIC',
+        target: '/Product/iMCU',
+      },
+    
+      {
+        match: '/Product/ioNIC/W55RP20',
+        target: '/Product/iMCU/W55RP20',
+      },
+      {
+        match: '/Product/iMCU/W55RP20',
+        target: '/Product/iMCU/W55RP20',
+      },
+      {
+        match: '/Product/iMCU/W55MH32',
+        target: '/Product/iMCU/W55MH32',
+      },
+      {
+        match: '/Product/iMCU/W7500',
+        target: '/Product/iMCU/W7500',
+      },
+      {
+        match: '/Product/iMCU/W7500P',
+        target: '/Product/iMCU/W7500P',
+      },
 
+      // For all other cases, redirect to /Product`
+      {
+          match: '/Product',
+          target: '/',
+      },
+      {
+          match: '/',
+          target: '/',
+      },
     ];
 
     const delay = 2000;

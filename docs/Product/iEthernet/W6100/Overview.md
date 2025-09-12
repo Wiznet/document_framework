@@ -2,6 +2,7 @@
 id: overview
 title: Overview
 date: 2025-08-13
+slug: /Product/iEthernet/W6100/
 keywords: [w6100,ethernet chip,wiznet,hardwired tcp/ip,arduino ethernet,pico ethernet]
 description: W6100 chip is a Hardwired Internet controller designed as a full hardwired TCP/IP stack with WIZnet technology
 ---

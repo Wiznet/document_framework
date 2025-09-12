@@ -8,7 +8,7 @@ slug: /
 # Chips
 ### MCU
 
-  - [W55RP20](./iMCU/W55RP20/overview.md)
+  - [W55RP20](./iMCU/W55RP20/Overview.mdx)
   - [W55MH32](./iMCU/W55MH32/Overview.md)
   - [W7500](./iMCU/W7500/Overview.md)
   - [W7500P](./iMCU/W7500P/Overview.md)
@@ -69,11 +69,11 @@ slug: /
 
 ### Wi-Fi Module
 
-  * [WizFi250](./Wi-Fi-Module/WizFi250/WizFi250.md)
-  * [WizFi310](./Wi-Fi-Module/WizFi310/WizFi310.md)
-  * [WizFi360](./Wi-Fi-Module/WizFi360/WizFi360.mdx)
-  * [WizFi630S](./Wi-Fi-Module/WizFi630S/WizFi630S.mdx)
-  * [WizFi630A](./Wi-Fi-Module/WizFi630A/WizFi630A.md)
+  * [WizFi250](./Modules/Wi-Fi-Module/WizFi250/WizFi250.md)
+  * [WizFi310](./Modules/Wi-Fi-Module/WizFi310/WizFi310.md)
+  * [WizFi360](./Modules/Wi-Fi-Module/WizFi360/WizFi360.mdx)
+  * [WizFi630S](./Modules/Wi-Fi-Module/WizFi630S/WizFi630S.mdx)
+  * [WizFi630A](./Modules/Wi-Fi-Module/WizFi630A/WizFi630A.md)
 
 -----
 

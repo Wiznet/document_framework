@@ -10,7 +10,7 @@ date: 2020-04-03
 
 ## Overview
 
-WizArduino MEGA WIFI는 Arduino의 🌎[MEGA 2560 board](http://www.arduino.org/products/boards/arduino-mega-2560) 를 기반으로 [WizFi310](./../Wi-Fi-Module/WizFi310/WizFi310.md) 가 추가되어 Arduino UNO 플랫폼처럼 간단하면서도 IoT기능 구현을 위한 기본 기능을 가지고 있습니다.
+WizArduino MEGA WIFI는 Arduino의 🌎[MEGA 2560 board](http://www.arduino.org/products/boards/arduino-mega-2560) 를 기반으로 [WizFi310](./../Modules/Wi-Fi-Module/WizFi310/WizFi310.md) 가 추가되어 Arduino UNO 플랫폼처럼 간단하면서도 IoT기능 구현을 위한 기본 기능을 가지고 있습니다.
 
 ![](/img/osh/wizarduino_mega_wifi/mega2560_wizfi310_1.png)
 
@@ -46,7 +46,7 @@ WizArduino MEGA WIFI는 Arduino의 🌎[MEGA 2560 board](http://www.arduino.org/
   - Soft AP : Enough memory retention, Wi-Fi Security (WEP,
     WPA/WPA2PSK), L2 Switching
   - OTA(Over The Air F/W Upgrading)
-  - 더 자세한 내용은 [WizFi310 page](./../Wi-Fi-Module/WizFi310/WizFi310.md)를 참고 하세요.
+  - 더 자세한 내용은 [WizFi310 page](./../Modules/Wi-Fi-Module/WizFi310/WizFi310.md)를 참고 하세요.
 
 ### Pinout
 

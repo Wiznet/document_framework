@@ -1,6 +1,7 @@
 ---
 id: overview
 title: Overview
+slug: /Product/iMCU/W55MH32/
 date: 2020-04-03
 keywords: [W55MH32,ethernet chip,wiznet,hardwired tcp/ip,arduino ethernet,pico ethernet]
 description: W55MH32 chip is a Hardwired Internet controller designed as a full hardwired TCP/IP stack with WIZnet technology

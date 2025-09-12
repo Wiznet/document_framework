@@ -8,7 +8,7 @@ date: 2025-07-22
 ### Overview
 
 WIZ630io is the network module that includes W6300 (TCP/IP hardwired chip, include PHY), MAG-JACK (RJ45 with X’FMR) with other glue logics. Please click the link for the further information about
-**[W6300](../iEthernet/W6300/Overview.md)**. It can be used as a component and no effort is required to interface W6300 and Transformer. To support ethernet performance over 80Mbps and above, it supports 150MHz system clock and QSPI interface(including 4 Data lines). W6300 supports a total SRAM size of 64KB for 8 sockets, each has 4KB TX/RX buffer by default.
+**[W6300](../../iEthernet/W6300/Overview.md)**. It can be used as a component and no effort is required to interface W6300 and Transformer. To support ethernet performance over 80Mbps and above, it supports 150MHz system clock and QSPI interface(including 4 Data lines). W6300 supports a total SRAM size of 64KB for 8 sockets, each has 4KB TX/RX buffer by default.
 
 |                                                   |
 | ------------------------------------------------- |

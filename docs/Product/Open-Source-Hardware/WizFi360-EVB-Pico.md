@@ -23,7 +23,7 @@ You can still access resources below.
 WizFi360-EVB-Pico is based on Raspberry Pi RP2040 and adds Wi-Fi connectivity using WizFi360. It is pin compatible with Raspberry Pi Pico board and can be used for IoT Solution development.
 
 - Raspberry Pi Pico Clone
-- Wi-Fi ([WizFi360](./../Wi-Fi-Module/WizFi360/WizFi360.mdx))
+- Wi-Fi ([WizFi360](./../Modules/Wi-Fi-Module/WizFi360/WizFi360.mdx))
 - [AWS IoT Core Qualified](https://devices.amazonaws.com/detail/a3G8a00000311vZEAQ/WizFi360-EVB-Pico)
 - [Microsoft Azure Device Certified](https://devicecatalog.azure.com/devices/34fb2c62-1d19-45b0-8339-56be64811387)
 
@@ -112,7 +112,7 @@ Apart from GPIO and ground pins, there are 7 other pins on the main 40-pin inter
 
 ### WizFi360 Datasheet
 
-- [Download](../Wi-Fi-Module/WizFi360/WizFi360.mdx#Documentation)
+- [Download](../Modules/Wi-Fi-Module/WizFi360/WizFi360.mdx#Documentation)
 
 ### Schematic
 

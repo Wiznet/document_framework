@@ -1,6 +1,7 @@
 ---
 id: overview
 title: Overview
+slug: /Product/iEthernet/W6300/
 date: 2025-07-30
 keywords: [w6300,ethernet chip,wiznet,hardwired tcp/ip,arduino ethernet,pico ethernet]
 description: W6300 chip is a Hardwired Internet controller designed as a full hardwired TCP/IP stack with WIZnet technology

@@ -1,6 +1,7 @@
 ---
 id: overview
 title: Overview
+slug: /Product/iEthernet/W5100S/
 date: 2025-08-13
 keywords: [w5100s,ethernet chip,wiznet,hardwired tcp/ip,arduino ethernet,pico ethernet]
 description: W5100S chip is a Hardwired Internet controller designed as a full hardwired TCP/IP stack with WIZnet technology

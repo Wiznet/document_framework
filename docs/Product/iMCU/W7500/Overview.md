@@ -1,6 +1,7 @@
 ---
 id: overview
 title: Overview
+slug: /Product/iMCU/W7500/
 date: 2025-08-11
 keywords: [W7500P,ethernet chip,wiznet,hardwired tcp/ip,arduino ethernet,pico ethernet]
 description: W7500P is an ARM Cortex-M0-based MCU with built-in hardwired TCP/IP, 128KB Flash, and 16KB RAM, ideal for compact Ethernet IoT applications.

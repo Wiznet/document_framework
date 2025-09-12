@@ -1,6 +1,7 @@
 ---
 id: mcu
 title: MCU
+slug: /Product/iMCU
 date: 2020-04-03
 ---
 **Ethernet MCU with Hardwired TCP/IP Core**
