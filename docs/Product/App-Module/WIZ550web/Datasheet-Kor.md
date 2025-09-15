@@ -199,7 +199,7 @@ Analog Input은 4개중에 2개(A0,A1)는 Baseboard 내부의 가변저항(10K)�
 | Parts         | Descripsion                                   | Datasheet                                                                    |
 | ------------- | --------------------------------------------- | ---------------------------------------------------------------------------- |
 | STM32F103RCT6 | **ARM 32-bit Cortex™-M3 CPU Core**            | <a href="/img/products/wiz550web/wiz550webds_kr/stm32f103rct6_256kb.pdf" target="_blank">STM32F103RCT6</a> |
-| W5500         | **WIZnet TCP/IP Chip**                        | [W5500](./../../iEthernet/W5500/Datasheet.md) |
+| W5500         | **WIZnet TCP/IP Chip**                        | [W5500](./../../Chip/Ethernet/W5500/Datasheet.md) |
 | AT45DB081D-SU | **8-Megabit Serial Flash Memory**             | <a href="/img/products/wiz550web/wiz550webds_kr/at45db081d-su.pdf" target="_blank">AT45DB081D-SU</a>       |
 | 24AA64T-I/OT  | **64K I2C™ Serial EEPROM**                    | <a href="/img/products/wiz550web/wiz550webds_kr/24aa64t-i_ot.pdf" target="_blank">24AA64T-I/OT</a>         |
 | J1B1211CCD    | **Transformer + RJ45 + LED, Industrial**      | <a href="/img/products/wiz550web/wiz550webds_kr/j1b1211ccd.pdf" target="_blank">J1B1211CCD</a>             |

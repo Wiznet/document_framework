@@ -28,7 +28,7 @@
     },
     announcementBar: {
       id: 'announcementBar-2', // Increment on change
-      content: '⭐️ Meet our new products: <a target="" rel="noopener noreferrer" href="/Product/iMCU/W55RP20/overview">ioNIC Chip</a> and <a target="" rel="noopener noreferrer" href="/Product/iMCU/W55RP20/w55rp20-evb-pico">W55RP20-EVB-Pico</a> ⭐️',
+      content: '⭐️ Meet our new products: <a target="" rel="noopener noreferrer" href="/Product/Chip/MCU/W55RP20">ioNIC Chip</a> and <a target="" rel="noopener noreferrer" href="/Product/Chip/MCU/W55RP20/w55rp20-evb-pico">W55RP20-EVB-Pico</a> ⭐️',
       backgroundColor: '#C51A4A',
       textColor: '#fafbfc',
       isCloseable: false,

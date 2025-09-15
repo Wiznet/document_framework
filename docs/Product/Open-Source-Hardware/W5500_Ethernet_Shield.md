@@ -12,7 +12,7 @@ date: 2020-04-03
 
 W5500 Ethernet shield is designed using the WIZnet W5500 chip. Please
 click the link for the further information about
-[W5500](./../iEthernet/W5500/Overview.md). It supports both 3.3V & 5V. This
+[W5500](./../Chip/Ethernet/W5500/Overview.md). It supports both 3.3V & 5V. This
 Ethernet Shield is compatible with Arduino and ARM mbed Platform.
 
 ![](/img/osh/w5500_ethernet_shield/w5500_main_picture2.png)
@@ -98,7 +98,7 @@ going through enough tests, it is highly recommended to mount buffer &
 
 There is a W5500 inside W5500 Ethernet shield. Therefore SPI operation &
 Timing Diagram of Ethernet shield follows one of W5500. For more
-information about [W5500](./../iEthernet/W5500/Overview.md) chip please also refer
+information about [W5500](./../Chip/Ethernet/W5500/Overview.md) chip please also refer
 to the chip's datasheet:
 
   - <a href="/img/osh/w5500_ethernet_shield/limitation_note_-_arp_problem_in_the_nlb_environment_-_korean_0312_.pdf" target="_blank">W5500 Datasheet v1.0.6 - English</a>

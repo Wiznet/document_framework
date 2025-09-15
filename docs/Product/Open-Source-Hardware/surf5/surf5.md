@@ -34,7 +34,7 @@ You can get a detail infomation of our PoE [here](../PoE/PoE-Main.md).
 
 ## Features
 
-- [W7500](../../iMCU/W7500/Overview.md) microcontroller
+- [W7500](../../Chip/MCU/W7500/Overview.md) microcontroller
 - Built-in RJ45
 - Built-in LDO
 - Built-in UART to USB 
@@ -106,7 +106,7 @@ If you're planning to use a low-powered application, it's a good idea to test yo
 
 ### W7500 
 
-- [datasheet](./../../iMCU/W7500/Documents.md)
+- [datasheet](./../../Chip/MCU/W7500/Documents.md)
 
 
 ### Schematic V1.0

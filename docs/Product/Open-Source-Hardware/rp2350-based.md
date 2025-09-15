@@ -12,9 +12,9 @@ Click on the product name for a detailed description of each product.
 
 ### Board
 
-* [W6100-EVB-Pico2](Product/iEthernet/W6100/W6100-EVB-Pico2.md)
-* [W5500-EVB-Pico2](Product/iEthernet/W5500/w5500-evb-pico2.md)
-* [W5100S-EVB-Pico2](Product/iEthernet/W5100S/w5100s-evb-pico2.md)
+* [W6100-EVB-Pico2](Product/Chip/Ethernet/W6100/W6100-EVB-Pico2.md)
+* [W5500-EVB-Pico2](Product/Chip/Ethernet/W5500/w5500-evb-pico2.md)
+* [W5100S-EVB-Pico2](Product/Chip/Ethernet/W5100S/w5100s-evb-pico2.md)
 
 ### HAT
 

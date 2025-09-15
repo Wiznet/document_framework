@@ -92,7 +92,7 @@ firmware writing.
 
 **W7500 Library**
 
-   * [W7500 Library PAGE ](./../iMCU/W7500/Libraries-Examples.md)
+   * [W7500 Library PAGE ](./../Chip/MCU/W7500/Libraries-Examples.md)
 
 -----
 
@@ -111,10 +111,10 @@ firmware writing.
 ## Make New WIZwiki-W7500 Projects
 
    * [How to use ARM mbed.org platform](./WIZwiki-W7500-Mbed-Starter-Kit/Tutorial-Eng.md)
-   * [How to install KEIL uVision5](./../iMCU/W7500/documents/appnote/How_to_install_KEIL.md)
-   * [How to create KEIL uVision5 new project for W7500](./../iMCU/W7500/documents/appnote/How_to_make_KEIL_new_project_for_W7500.md)
-   * [How to use MDK for W7500 Peripherals Examples](./../iMCU/W7500/documents/appnote/How-to-use-MDK-for-W7500-Peripherals-Examples.md)
-   * [How to use gcc for W7500 Peripherals Examples](./../iMCU/W7500/documents/appnote/How_to_use_GCC_for_W7500_Peripherals_Examples.md)
+   * [How to install KEIL uVision5](./../Chip/MCU/W7500/documents/appnote/How_to_install_KEIL.md)
+   * [How to create KEIL uVision5 new project for W7500](./../Chip/MCU/W7500/documents/appnote/How_to_make_KEIL_new_project_for_W7500.md)
+   * [How to use MDK for W7500 Peripherals Examples](./../Chip/MCU/W7500/documents/appnote/How-to-use-MDK-for-W7500-Peripherals-Examples.md)
+   * [How to use gcc for W7500 Peripherals Examples](./../Chip/MCU/W7500/documents/appnote/How_to_use_GCC_for_W7500_Peripherals_Examples.md)
 
 -----
 
@@ -123,7 +123,7 @@ firmware writing.
 
 **Datasheet**
 
-   * 🌎[W7500 Documents](./../iMCU/W7500/Documents.md)
+   * 🌎[W7500 Documents](./../Chip/MCU/W7500/Documents.md)
    * 🌎<a href="/img/products/w7500/overview/IP101G_DS_R01_20121224.pdf" target="_blank">IP101GA Datasheet</a>
    * 🌎<a href="/img/products/w7500/overview/LPC11U3X.pdf" target="_blank">LPC11U35FHI33/501 Datasheet</a>
 
@@ -162,7 +162,7 @@ firmware writing.
 
 **W7500 ISP Program**
 
-   * [Go to ISP tool manual & Program download](./../iMCU/W7500/documents/appnote/How-to-use-ISP-tool.md)
+   * [Go to ISP tool manual & Program download](./../Chip/MCU/W7500/documents/appnote/How-to-use-ISP-tool.md)
 
  **Examples Binary**
 

@@ -93,7 +93,7 @@ W5500 Ethernet shield is Possible to User Select GPIO
 **SPI Operation**
 
 W5500 Ethernet shield는 W5500 기반으로 제작되었습니다. 그러므로 SPI 동작 & 타이밍 등은 W5500
-Datasheet를 확인해주세요. 더 많은 정보를 원하시면[W5500](./../iEthernet/W5500/Overview.md)과
+Datasheet를 확인해주세요. 더 많은 정보를 원하시면[W5500](./../Chip/Ethernet/W5500/Overview.md)과
 Datasheet 확인해주세요.
 
   - <a href="/img/products/w5500/w5500_ds_v106e_141230.pdf" target="_blank">W5500 Datasheet v1.0.6 - English</a>

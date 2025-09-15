@@ -371,7 +371,7 @@ PC IP: 192.168.**11**.3 (another IP address in the same Class C private IP band)
   - The serial protocol supports both RTU and ASCII modes and can be selected based on system requirements.   
 - Modbus Poll connects via Modbus TCP/IP or UDP/IP, depending on the configuration.  
 - Modbus Slave connects via the serial port.  
-- For more details, please refer to the [Modbus Connection Guide](https://docs.wiznet.io/Product/iMCU/W55RP20/W55RP20-S2E/modbus-connection-guide-en).
+- For more details, please refer to the [Modbus Connection Guide](https://docs.wiznet.io/Product/Chip/MCU/W55RP20/W55RP20-S2E/modbus-connection-guide-en).
   
 #### 11) Ethernet data connection condition
 - This function allows the device to automatically send a predefined string over the Ethernet interface when a TCP or UDP connection is established.  

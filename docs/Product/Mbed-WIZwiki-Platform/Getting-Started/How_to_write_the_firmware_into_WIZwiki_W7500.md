@@ -75,7 +75,7 @@ CMSIS-DAP does support USB cable and Debugger as well. You need to [Set Flash Al
 
 **W7500 ISP Program**
 
-[Go to ISP tool manual & Program download](../../iMCU/W7500/documents/appnote/how-to-use-isp-tool)
+[Go to ISP tool manual & Program download](../../Chip/MCU/W7500/documents/appnote/how-to-use-isp-tool)
 
 When W7500 is in the boot mode, firmware writing is possible via the ISP
 since WIZwiki-W7500 has built-in an ISP header. As ISP header supports

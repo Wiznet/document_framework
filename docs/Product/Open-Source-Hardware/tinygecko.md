@@ -47,7 +47,7 @@ core. We use EMF32TG840F32 in EFM32TG family. Its SPEC is as follows.
 
 
 
-  - [Download the latest ioLibrary BSD](./../iEthernet/W5500/Driver.md)
+  - [Download the latest ioLibrary BSD](./../Chip/Ethernet/W5500/Driver.md)
       - Ethernet
       - Internet 
 

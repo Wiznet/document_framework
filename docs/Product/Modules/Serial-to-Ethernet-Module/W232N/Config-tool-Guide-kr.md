@@ -382,7 +382,7 @@ Static 모드 (직접 IP 할당) 사용 시, 다음 예와 같이 설정 바랍�
   - 시리얼 프로토콜은 RTU와 ASCII 모드를 모두 지원하며, 시스템 요구에 따라 선택 가능합니다.  
 - Modbus Poll은 설정에 따라 Modbus TCP/IP 또는 UDP/IP 방식으로 연결됩니다.  
 - Modbus Slave는 시리얼 포트를 통해 연결됩니다.  
-- 자세한 내용은 [Modbus 연결 가이드](https://docs.wiznet.io/Product/iMCU/W55RP20/W55RP20-S2E/modbus-connection-guide-en)를 참조해 주십시오.
+- 자세한 내용은 [Modbus 연결 가이드](https://docs.wiznet.io/Product/Chip/MCU/W55RP20/W55RP20-S2E/modbus-connection-guide-en)를 참조해 주십시오.
   
 #### 11) Ethernet data connection condition
 - 이 기능은 TCP 또는 UDP 연결이 성립되었을 때, 설정된 문자열을 이더넷을 통해 원격 호스트로 자동 전송할 수 있도록 합니다.

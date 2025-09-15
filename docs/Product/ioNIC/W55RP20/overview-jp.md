@@ -71,7 +71,7 @@ W55RP20チップは、Raspberry PiのRP2040マイクロコントローラーとW
 - データシート  
     - [W55RP20](https://docs.wiznet.io/Product/ioNIC/W55RP20/documents_md#data-sheet)  
     - [RP2040](https://docs.wiznet.io/Product/ioNIC/W55RP20/documents_md#rp2040-data-sheet)  
-    - [W5500](https://docs.wiznet.io/Product/iEthernet/W5500/datasheet)  
+    - [W5500](https://docs.wiznet.io/Product/Chip/Ethernet/W5500/datasheet)  
 
 ### 関連EVB-Pico
 - [W55RP20-EVB-Picoの説明](https://docs.wiznet.io/Product/ioNIC/W55RP20/w55rp20-evb-pico)  

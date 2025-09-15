@@ -73,12 +73,12 @@ This chip is designed to be compatible with various programming environments, su
 ## Details
 ### Documents
 - Datasheet
-    - [W55RP20](https://docs.wiznet.io/Product/iMCU/W55RP20/documents_md#data-sheet)
-    - [RP2040](https://docs.wiznet.io/Product/iMCU/W55RP20/documents_md#rp2040-data-sheet)
-    - [W5500](https://docs.wiznet.io/Product/iEthernet/W5500/datasheet)
+    - [W55RP20](https://docs.wiznet.io/Product/Chip/MCU/W55RP20/documents_md#data-sheet)
+    - [RP2040](https://docs.wiznet.io/Product/Chip/MCU/W55RP20/documents_md#rp2040-data-sheet)
+    - [W5500](https://docs.wiznet.io/Product/Chip/Ethernet/W5500/datasheet)
 
 ### Related EVB-Pico
-- [Description of W55RP20-EVB-Pico](https://docs.wiznet.io/Product/iMCU/W55RP20/w55rp20-evb-pico)
+- [Description of W55RP20-EVB-Pico](https://docs.wiznet.io/Product/Chip/MCU/W55RP20/w55rp20-evb-pico)
     - Features
     - Technical Reference
 - Firmware Example

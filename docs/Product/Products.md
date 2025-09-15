@@ -8,22 +8,22 @@ slug: /
 # Chips
 ### MCU
 
-  - [W55RP20](./iMCU/W55RP20/Overview.mdx)
-  - [W55MH32](./iMCU/W55MH32/Overview.md)
-  - [W7500](./iMCU/W7500/Overview.md)
-  - [W7500P](./iMCU/W7500P/Overview.md)
-  - [W7100A](./iMCU/W7100/W7100A.md)
+  - [W55RP20](./Chip/MCU/W55RP20/Overview.mdx)
+  - [W55MH32](./Chip/MCU/W55MH32/Overview.md)
+  - [W7500](./Chip/MCU/W7500/Overview.md)
+  - [W7500P](./Chip/MCU/W7500P/Overview.md)
+  - [W7100A](./Chip/MCU/W7100/W7100A.md)
 #### Pre-programmed MCU
-  - [Pre-programmed MCU](./Pre-programmed-MCU/Pre-programmed-MCU.md) 
+  - [Pre-programmed MCU](./Chip/Pre-programmed-MCU/Pre-programmed-MCU.md) 
 -----
 ### Ethernet: Hardwired TCP/IP Chip
 
-  - [W5100S](./iEthernet/W5100S/Overview.md)
-  - [W5100](./iEthernet/W5100/Overview.md)
-  - [W5300](./iEthernet/W5300/Overview.md)
-  - [W5500](./iEthernet/W5500/Overview.md)
-  - [W6100](./iEthernet/W6100/Overview.md)
-  - [W6300](./iEthernet/W6300/Overview.md)
+  - [W5100S](./Chip/Ethernet/W5100S/Overview.md)
+  - [W5100](./Chip/Ethernet/W5100/Overview.md)
+  - [W5300](./Chip/Ethernet/W5300/Overview.md)
+  - [W5500](./Chip/Ethernet/W5500/Overview.md)
+  - [W6100](./Chip/Ethernet/W6100/Overview.md)
+  - [W6300](./Chip/Ethernet/W6300/Overview.md)
 
 -----
 
@@ -98,18 +98,18 @@ slug: /
 
 * Board
   * [WizFi360-EVB-Pico](./Open-Source-Hardware/WizFi360-EVB-Pico.md)
-  * [W6100-EVB-Pico](./iEthernet/W6100/W6100-EVB-Pico.md)
-  * [W5500-EVB-Pico](./iEthernet/W5500/w5500-evb-pico.md)
-  * [W5100S-EVB-Pico](./iEthernet/W5100S/w5100s-evb-pico.md)
+  * [W6100-EVB-Pico](./Chip/Ethernet/W6100/W6100-EVB-Pico.md)
+  * [W5500-EVB-Pico](./Chip/Ethernet/W5500/w5500-evb-pico.md)
+  * [W5100S-EVB-Pico](./Chip/Ethernet/W5100S/w5100s-evb-pico.md)
 
 
 ### RP2350 (Raspberry Pi Pico2) based 
 
 * Board
-  * [W6300-EVB-Pico2](./iEthernet/W6300/W6300-EVB-Pico2.md)
-  * [W6100-EVB-Pico2](./iEthernet/W6100/W6100-EVB-Pico2.md)
-  * [W5500-EVB-Pico2](./iEthernet/W5500/w5500-evb-pico2.md)
-  * [W5100S-EVB-Pico2](./iEthernet/W5100S/w5100s-evb-pico2.md)
+  * [W6300-EVB-Pico2](./Chip/Ethernet/W6300/W6300-EVB-Pico2.md)
+  * [W6100-EVB-Pico2](./Chip/Ethernet/W6100/W6100-EVB-Pico2.md)
+  * [W5500-EVB-Pico2](./Chip/Ethernet/W5500/w5500-evb-pico2.md)
+  * [W5100S-EVB-Pico2](./Chip/Ethernet/W5100S/w5100s-evb-pico2.md)
   
 * HAT
   * [WIZnet Ethernet HAT](./Open-Source-Hardware/WIZnet-Ethernet-HAT.md)

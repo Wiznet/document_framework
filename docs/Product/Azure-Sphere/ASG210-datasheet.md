@@ -84,7 +84,7 @@ W5500 supports TCP, UDP, IPv4, ICMP, ARP, IGMP, and PPPoE and 8 independent SOCK
 | SYSRST_N     | SYSRST_N | Hardware System Reset |
 
 More detail on this topic is available here:
-[https://docs.wiznet.io/Product/iEthernet/W5500/overview](https://docs.wiznet.io/Product/iEthernet/W5500/overview)
+[https://docs.wiznet.io/Product/Chip/Ethernet/W5500/overview](https://docs.wiznet.io/Product/Chip/Ethernet/W5500/overview)
 
 ### Dual Band Wi-Fi- Interface
 

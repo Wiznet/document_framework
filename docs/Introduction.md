@@ -30,13 +30,13 @@ application info.
     ![](/img/star.png)
   - [WIZwiki-W7500ECO](Product/Mbed-WIZwiki-Platform/wizwiki-w7500eco.md)
   - [WIZwiki-W7500 mbed Starter Kit](Product/Mbed-WIZwiki-Platform/WIZwiki-W7500-Mbed-Starter-Kit/WIZwiki-W7500-Mbed-Starter-Kit.md)
-  - [W7500](Product/iMCU/W7500/Overview.md)
-  - [W7500P](Product/iMCU/W7500P/Overview.md)
-  - **[W6100](Product/iEthernet/W6100/Overview.md): Hardwired TCP/IP Chip(IPv4/6 Dual Stack)** ![](/img/star.png) 
-  - **[W5100S](Product/iEthernet/W5100S/Overview.md): Hardwired TCP/IP Chip**
+  - [W7500](Product/Chip/MCU/W7500/Overview.md)
+  - [W7500P](Product/Chip/MCU/W7500P/Overview.md)
+  - **[W6100](Product/Chip/Ethernet/W6100/Overview.md): Hardwired TCP/IP Chip(IPv4/6 Dual Stack)** ![](/img/star.png) 
+  - **[W5100S](Product/Chip/Ethernet/W5100S/Overview.md): Hardwired TCP/IP Chip**
     ![](/img/star.png) 
-  - [W5500](Product/iEthernet/W5500/Overview.md): Hardwired TCP/IP Chip
-  - [W5500-EVB](Product/iEthernet/W5500/W5500-EVB/W5500-EVB.md): W5500 Evaluation Board
+  - [W5500](Product/Chip/Ethernet/W5500/Overview.md): Hardwired TCP/IP Chip
+  - [W5500-EVB](Product/Chip/Ethernet/W5500/W5500-EVB/W5500-EVB.md): W5500 Evaluation Board
   - [WIZ550io](Product/ioModule/wiz550io.md): Plug-in Network Module 
   - [WIZ550S2E](Product/S2E-Module/WIZ550S2E/WIZ550S2E.md): Serial to Ethernet
   - [WIZ550web](Product/App-Module/WIZ550web/WIZ550web.md): Embedded Web Server

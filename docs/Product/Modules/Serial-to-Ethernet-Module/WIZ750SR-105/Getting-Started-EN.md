@@ -96,7 +96,7 @@ The WIZ750SR-105 evaluation board package contains the following parts.
     Cortex-M0
     architecture](http://www.arm.com/products/processors/cortex-m/cortex-m0.php)
     plus WIZnet hardwired TCP/IP core include Ethernet PHY. For more
-    details, please refer to [W7500 product page](./../../../iMCU/W7500/Overview.md)
+    details, please refer to [W7500 product page](./../../../Chip/MCU/W7500/Overview.md)
     
 ### WIZ750SR-105 Factory Settings
 
