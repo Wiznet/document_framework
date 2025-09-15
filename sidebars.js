@@ -1470,6 +1470,64 @@ module.exports = {
 									'Product/Modules/Serial-to-Ethernet-Module/W232N/firmware-update-guide-en',
 								],
 							},	
+
+							// here
+							{
+								type: 'category',
+								label: 'WIZSPE-T1L',
+								link: {type: 'doc', id: 'Product/Modules/Serial-to-Ethernet-Module/WIZSPE-T1L/wizspe-t1l'},
+								items: [
+									{
+										type: 'category',
+										label: 'Documentation',
+										items: [
+											'Product/Modules/Serial-to-Ethernet-Module/WIZSPE-T1L/users-manual-EN',
+											 'Product/Modules/Serial-to-Ethernet-Module/WIZSPE-T1L/users-manual-KO',
+											'Product/Modules/Serial-to-Ethernet-Module/WIZSPE-T1L/datasheet',
+										],
+									},
+									{
+										type: 'category',
+										label: 'Setup & Configuration',
+										items: [
+											'Product/Modules/Serial-to-Ethernet-Module/WIZSPE-T1L/command-manual-EN',
+											'Product/Modules/Serial-to-Ethernet-Module/WIZSPE-T1L/command-manual-KO',
+											'Product/Modules/Serial-to-Ethernet-Module/WIZSPE-T1L/configuration-tool-manual-new-EN',
+											'Product/Modules/Serial-to-Ethernet-Module/WIZSPE-T1L/configuration-tool-manual-new-KO',
+											'Product/Modules/Serial-to-Ethernet-Module/WIZSPE-T1L/WIZ750SR_Web_Config_Guide_EN',
+											'Product/Modules/Serial-to-Ethernet-Module/WIZSPE-T1L/WIZ750SR_Web_Config_Guide_KO',
+											{
+											type: 'category',
+											label: 'CLI-Config-Tool-Tutorial',
+											link: {type: 'doc', id: 'Product/Modules/Serial-to-Ethernet-Module/WIZSPE-T1L/CLI-Config-Tool-Tutorial/cli-config-tool-tutorial',},
+											items: [
+												'Product/Modules/Serial-to-Ethernet-Module/WIZSPE-T1L/CLI-Config-Tool-Tutorial/overview-environment',
+												'Product/Modules/Serial-to-Ethernet-Module/WIZSPE-T1L/CLI-Config-Tool-Tutorial/how-to-use-cli-config-tool',
+												'Product/Modules/Serial-to-Ethernet-Module/WIZSPE-T1L/CLI-Config-Tool-Tutorial/single-device-configuration',
+												'Product/Modules/Serial-to-Ethernet-Module/WIZSPE-T1L/CLI-Config-Tool-Tutorial/multi-device-configuration',
+												'Product/Modules/Serial-to-Ethernet-Module/WIZSPE-T1L/CLI-Config-Tool-Tutorial/file-options',
+												],
+											},
+										],
+									},
+									{
+										type: 'category',
+										label: 'User Guides',
+										items: [
+									 			'Product/Modules/Serial-to-Ethernet-Module/WIZSPE-T1L/getting-started-EN',
+												'Product/Modules/Serial-to-Ethernet-Module/WIZSPE-T1L/getting-started-KO',
+												'Product/Modules/Serial-to-Ethernet-Module/WIZSPE-T1L/trouble-shooting-EN',
+												'Product/Modules/Serial-to-Ethernet-Module/WIZSPE-T1L/trouble-shooting-KO',
+												'Product/Modules/Serial-to-Ethernet-Module/WIZSPE-T1L/developers-guide-EN',
+												'Product/Modules/Serial-to-Ethernet-Module/WIZSPE-T1L/developers-guide-KO',
+
+											],
+									},
+									 'Product/Modules/Serial-to-Ethernet-Module/WIZSPE-T1L/download',
+								],
+							},
+							// here
+
 						],
 					},
 					{
