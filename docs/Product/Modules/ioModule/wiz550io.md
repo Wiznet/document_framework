@@ -402,6 +402,6 @@ change in all parts placement.
 
 ## Related Products
 
- * [ioShield-A](./../../Open-Source-Hardware/ioShield-A.md)
- * [ioShield-K](./../../Open-Source-Hardware/ioShield-K.md)
- * [ioShield-L](./../../Open-Source-Hardware/ioShield-L.md)
+ * [ioShield-A](./../Open-Source-Hardware/ioShield-A.md)
+ * [ioShield-K](./../Open-Source-Hardware/ioShield-K.md)
+ * [ioShield-L](./../Open-Source-Hardware/ioShield-L.md)

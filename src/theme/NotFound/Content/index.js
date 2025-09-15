@@ -9,7 +9,6 @@ export default function ContentWrapper(props) {
     const redirects = [
 
       /* Serial to Ethernet Module */
-
       {
         match: '/Product/S2E-Module/WIZ750SR-1xx-Series/wiz750sr-1xx-series',
         target: '/Product/Modules/Serial-to-Ethernet-Module/s2e_module',
@@ -57,6 +56,10 @@ export default function ContentWrapper(props) {
       {
         match: '/Product/S2E-Module/WIZ5xxSR-RP-Series/WIZ510SR-RP',
         target: '/Product/Modules/Serial-to-Ethernet-Module/WIZ510SR-RP',
+      },
+      {
+        match: '/Product/S2E-Module/WIZ5xxSR-RP-Series',
+        target: '/Product/Modules/Serial-to-Ethernet-Module/WIZ500SR-RP',
       },
       {
         match: '/Product/S2E-Module/WIZ100SR',
@@ -144,7 +147,6 @@ export default function ContentWrapper(props) {
         target: '/Product/Modules/Serial-to-Ethernet-Module/s2e_module',
       },
 
-      
       /* WiFi Module */
       {
         match: '/Product/Wi-Fi-Module/WizFi210',
@@ -179,9 +181,7 @@ export default function ContentWrapper(props) {
         target: '/Product/Modules/Wi-Fi-Module/wizfi630',
       },
 
-
       /* io Module */
-
       {
         match: '/Product/ioModule/W5100S-io',
         target: '/Product/Modules/ioModule/W5100S-io',
@@ -238,10 +238,62 @@ export default function ContentWrapper(props) {
         match: '/Product/ioModule/wiz850io',
         target: '/Product/Modules/ioModule/wiz850io',
       },
-      // For all other cases, redirect to /Product/Modules/ioModule
       {
-        match: '/Product/ioModule',
-        target: '/Product/Modules/ioModule',
+        match: '/Product/Obsolete/egsr7100a',
+        target: '/Product/Modules/ioModule/egsr7100a',
+      },
+      {
+        match: '/Product/Obsolete/nm7010a',
+        target: '/Product/Modules/ioModule/nm7010a',
+      },
+      {
+        match: '/Product/Obsolete/w7200',
+        target: '/Product/Modules/ioModule/w7200',
+      },
+      {
+        match: '/Product/Obsolete/wiz220io',
+        target: '/Product/Modules/ioModule/wiz220io',
+      },
+      {
+        match: '/Product/Obsolete/wiz220web',
+        target: '/Product/Modules/ioModule/wiz220web',
+      },
+      {
+        match: '/Product/Obsolete/wiz610wi',
+        target: '/Product/Modules/ioModule/wiz610wi',
+      },
+      {
+        match: '/Product/Obsolete/wiz850sw',
+        target: '/Product/Modules/ioModule/wiz850sw',
+      },
+      {
+        match: '/Product/Obsolete/wizsm10',
+        target: '/Product/Modules/ioModule/wizsm10',
+      },
+
+      /* App Module */
+      {
+        match: '/Product/App-Module/WIZ550web',
+        target: '/Product/Modules/App-Module/WIZ550web',
+      },
+
+      /* Mbed WIZwiki Platform */
+      {
+        match: '/Product/Mbed-WIZwiki-Platform/Getting-Started',
+        target: '/Product/Modules/Mbed-WIZwiki-Platform/Getting-Started',
+      },
+      {
+        match: '/Product/Mbed-WIZwiki-Platform/WIZwiki-W7500-Mbed-Starter-Kit',
+        target: '/Product/Modules/Mbed-WIZwiki-Platform/WIZwiki-W7500-Mbed-Starter-Kit',
+      },
+      {
+        match: '/Product/Mbed-WIZwiki-Platform/mbed-wizwiki-platform',
+        target: '/Product/Modules/Mbed-WIZwiki-Platform/mbed-wizwiki-platform',
+      },
+      // For all other cases, redirect to /Product/Modules/Mbed-WIZwiki-Platform/mbed-wizwiki-platform
+      {
+        match: '/Product/Mbed-WIZwiki-Platform',
+        target: '/Product/Modules/Mbed-WIZwiki-Platform/mbed-wizwiki-platform',
       },
       /* Ethernet Module */
       {

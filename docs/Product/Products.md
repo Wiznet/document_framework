@@ -63,7 +63,7 @@ slug: /
 
 ### Application Module
 
-  * [WIZ550web](./App-Module/WIZ550web/WIZ550web.md): W5500 based Web Server module
+  * [WIZ550web](./Modules/App-Module/WIZ550web/WIZ550web.md): W5500 based Web Server module
 
 -----
 
@@ -79,10 +79,10 @@ slug: /
 
 ### Mbed WIZwiki Platform
 
-  - [WIZwiki-W7500](./Mbed-WIZwiki-Platform/wizwiki-w7500.md)
-  - [WIZwiki-W7500P](./Mbed-WIZwiki-Platform/wizwiki-w7500p.md) 
-  - [WIZwiki-W7500ECO](./Mbed-WIZwiki-Platform/wizwiki-w7500eco.md)
-  - [WIZwiki-W7500 mbed Starter Kit](./Mbed-WIZwiki-Platform/WIZwiki-W7500-Mbed-Starter-Kit/WIZwiki-W7500-Mbed-Starter-Kit.md)
+  - [WIZwiki-W7500](./Modules/Mbed-WIZwiki-Platform/wizwiki-w7500.md)
+  - [WIZwiki-W7500P](./Modules/Mbed-WIZwiki-Platform/wizwiki-w7500p.md) 
+  - [WIZwiki-W7500ECO](./Modules/Mbed-WIZwiki-Platform/wizwiki-w7500eco.md)
+  - [WIZwiki-W7500 mbed Starter Kit](./Modules/Mbed-WIZwiki-Platform/WIZwiki-W7500-Mbed-Starter-Kit/WIZwiki-W7500-Mbed-Starter-Kit.md)
 
 -----
 <!-- 
