@@ -202,15 +202,15 @@
       { pluginKey: "cb95c060-ab4c-45ec-bbe8-fe40a1ea3aec" },
     ],
   ],
-  scripts: [   
-    {
-      src: 'https://www.chatbase.co/embed.min.js',
-      chatbotId: 'mzPtKtrGGxl7KLpJJ_s9j',
-      domain: 'www.chatbase.co',
-      async: true,
-      defer: true
-    },
-  ],
+  // scripts: [   
+  //   {
+  //     src: 'https://www.chatbase.co/embed.min.js',
+  //     chatbotId: 'mzPtKtrGGxl7KLpJJ_s9j',
+  //     domain: 'www.chatbase.co',
+  //     async: true,
+  //     defer: true
+  //   },
+  // ],
   presets: [
     [
       "@docusaurus/preset-classic",

@@ -196,7 +196,7 @@ html[data-theme="dark"] .rlc-description {
   padding: 8px;
 }
 
-div[class^='chatbase-message-bubbles'] {
+/* div[class^='chatbase-message-bubbles'] {
   right: 1rem !important;
   bottom: 100px !important;
   left: unset !important;
@@ -205,7 +205,7 @@ div[class^='chatbase-message-bubbles'] {
 #chatbase-bubble-button {
   right: 1.5rem !important;
   bottom: 10rem !important;
-}
+} */
 
 .link-card {
   display: block;
