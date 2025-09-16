@@ -297,64 +297,103 @@ export default function ContentWrapper(props) {
       },
       /* Ethernet Module */
       {
-        match: '/Product/iEthernet/W6300',
+        match: ['/Product/iEthernet/W6300',
+                '/Product/Ethernet/W6300',
+                '/Product/Chip/Ethernet/W6300'],
         target: '/Product/Chip/Ethernet/W6300',
       },
       {
-        match: '/Product/iEthernet/W6100',
+        match: ['/Product/iEthernet/W6100',
+                '/Product/Ethernet/W6100',
+                '/Product/Chip/Ethernet/W6100'],
         target: '/Product/Chip/Ethernet/W6100',
       },
       {
-        match: '/Product/iEthernet/W5100S',
+        match: ['/Product/iEthernet/W5100S',
+                '/Product/Ethernet/W5100S',
+                '/Product/Chip/Ethernet/W5100S'],
         target: '/Product/Chip/Ethernet/W5100S',
       },
-      {
-        match: '/Product/iEthernet/W5300',
+     {
+        match: ['/Product/iEthernet/W5100',
+                '/Product/Ethernet/W5100',
+                '/Product/Chip/Ethernet/W5100'],
+        target: '/Product/Chip/Ethernet/W5100',
+      },
+
+     {
+        match: ['/Product/iEthernet/W5300',
+                '/Product/Ethernet/W5300',
+                '/Product/Chip/Ethernet/W5300'],
         target: '/Product/Chip/Ethernet/W5300',
       },
-      {
-        match: '/Product/iEthernet/W5500',
+     {
+        match: ['/Product/iEthernet/W5500',
+                '/Product/Ethernet/W5500',
+                '/Product/Chip/Ethernet/W5500'],
         target: '/Product/Chip/Ethernet/W5500',
       },
       {
-        match: '/Product/ioNIC',
+        match: ['/Product/iEthernet',
+                '/Product/Chip/Ethernet'],
+        target: ' /Product/Chip/Ethernet',
+      },
+      /* iMCU */
+      {
+        match: ['/Product/ioNIC',
+               '/Product/iMCU/W55RP20',
+                '/Product/Chip/MCU/W55RP20'],
         target: '/Product/Chip/MCU/W55RP20',
       },
       {
-        match: '/Product/iMCU/W55RP20',
-        target: '/Product/Chip/MCU/W55RP20',
-      },
-      {
-        match: '/Product/iMCU/W55MH32',
+        match: ['/Product/iMCU/W55MH32',
+                '/Product/Chip/MCU/W55MH32'],
         target: '/Product/Chip/MCU/W55MH32',
       },
       {
-        match: '/Product/iMCU/W7500',
-        target: '/Product/Chip/MCU/W7500',
+        match: ['/Product/iMCU/W7500P',
+                '/Product/Chip/MCU/W7500P'],
+        target: '/Product/Chip/MCU/W7500P',
       },
       {
-        match: '/Product/iMCU/W7500P',
-        target: '/Product/Chip/MCU/W7500P',
+        match:  ['/Product/iMCU/W7500',
+                '/Product/Chip/MCU/W7500'],
+        target: '/Product/Chip/MCU/W7500',
+      },
+
+     {
+        match:  ['/Product/iMCU',
+                '/Product/Chip/MCU'],
+        target: '/Product/Chip/MCU',
       },
 
       // For all other cases, redirect to /Product`
+
       {
-          match: '/Product',
-          target: '/',
-      },
-      {
-          match: '/',
+          match: ['/Product',
+                  '/'],
           target: '/',
       },
     ];
 
     const delay = 2000;
     for (const r of redirects) {
-      if (location.startsWith(r.match)) {
-        const timer = setTimeout(() => {
-          window.location.replace(r.target);
-        }, delay);
-        return () => clearTimeout(timer);
+      if (Array.isArray(r.match)) {
+        // match가 배열이면, 배열 안에 있는 문자열 중 하나라도 startsWith에 맞으면 성공
+        if (r.match.some(m => location.startsWith(m))) {
+          const timer = setTimeout(() => {
+            window.location.replace(r.target);
+          }, delay);
+          return () => clearTimeout(timer);
+        }
+      } else {
+        // match가 문자열이면 기존처럼 처리
+        if (location.startsWith(r.match)) {
+          const timer = setTimeout(() => {
+            window.location.replace(r.target);
+          }, delay);
+          return () => clearTimeout(timer);
+        }
       }
     }
   }, [location]);
