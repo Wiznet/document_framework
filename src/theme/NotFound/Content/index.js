@@ -299,8 +299,45 @@ export default function ContentWrapper(props) {
 
       /* Open-Source-Hardware */
       {
+        match: ['/Product/Open-Source-Hardware/rp2040_based',
+                '/Product/Open-Source-Hardware/wiznet_ethernet_hat',
+                '/Product/Open-Source-Hardware/wizfi360-evb-pico',
+                '/Product/Open-Source-Hardware/wiznet-pico-poe'
+              ],
+        target: '/Product/Modules/Open-Source-Hardware/rp2040_based',
+      },
+      {
+        match: '/Product/Open-Source-Hardware/rp2350_based',
+        target: '/Product/Modules/Open-Source-Hardware/rp2350_based',
+      },
+      {
+        match: '/Product/Open-Source-Hardware/surf5',
+        target: '/Product/Modules/Open-Source-Hardware/surf5',
+      },
+      {
+        match: '/Product/Open-Source-Hardware/PoE',
+        target: '/Product/Modules/Open-Source-Hardware/PoE/PoE-Main',
+      },
+      {
+        match: ['/Product/Open-Source-Hardware/arduino',
+                '/Product/Open-Source-Hardware/wizarduino_m0_eth',
+                '/Product/Open-Source-Hardware/wizarduino_m0_eth_eng',
+                '/Product/Open-Source-Hardware/wizarduino_mega_wifi',
+                '/Product/Open-Source-Hardware/wizarduino_mega_wifi_eng',
+                '/Product/Open-Source-Hardware/wizfi310_shield',
+                '/Product/Open-Source-Hardware/ioshield_a',
+                '/Product/Open-Source-Hardware/ioshield_k',
+                '/Product/Open-Source-Hardware/ioshield_l',
+                '/Product/Open-Source-Hardware/w5100s_mkr_ethernet_shield',
+                '/Product/Open-Source-Hardware/w5500_ethernet_shield',
+                '/Product/Open-Source-Hardware/w5500_ethernet_shield_jp',
+                '/Product/Open-Source-Hardware/w5500_ethernet_shield_kor',
+                '/Product/Open-Source-Hardware/w6100_mkr_ethernet_shield'],
+        target: '/Product/Modules/Open-Source-Hardware/arduino',
+      },
+      {
         match: '/Product/Open-Source-Hardware',
-        target: '/Product/Modules/Open-Source-Hardware',
+        target: '/Product/Modules/Open-Source-Hardware/open_source_hardware',
       },
 
       /* Azure-Sphere */
