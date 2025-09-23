@@ -37,7 +37,7 @@ TBD (3D image)
 
 ------------------------------------------------------------------------
 
-### WIZ750SR-110 Block Diagram
+### WIZSPE-T1L Block Diagram
 
 <img src="/img/products/wizspe-t1l/block_diagram.png" width="800" />
 
@@ -94,13 +94,13 @@ TBD
 ### SWD(JTAG) Pin (J10)
 
 
-| Pin Number | Signal | Description                      |
-|------------|--------|----------------------------------|
-| 1          | VCC    | System Power (3.3V)              |
-| 2          | SWDIO  | SWD(JTAG) Data I/O pin           |
-| 3          | SWCLK  | SWD(JTAG) Clock pin              |
-| 4          | nRESET | System Reset signal (Active Low) |
-| 5          | GND    | System Ground                    |
+| Parts | Pin Number | Signal | Description                      |
+|-------|------------|--------|----------------------------------|
+| J10   | 1          | VCC    | System Power (3.3V)              |
+| :::   | 2          | SWDIO  | SWD(JTAG) Data I/O pin           |
+| :::   | 3          | SWCLK  | SWD(JTAG) Clock pin              |
+| :::   | 4          | nRESET | System Reset signal (Active Low) |
+| :::   | 5          | GND    | System Ground                    |
 
 ------------------------------------------------------------------------
 
