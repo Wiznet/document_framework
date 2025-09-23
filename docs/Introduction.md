@@ -6,7 +6,7 @@ date: 2020-04-30
 
 # WIZnet Document Wiki
 This site is an open information collection platform hosting information
-on [WIZnet products](Product/Products.md) and [Open Source Hardware](Product/Open-Source-Hardware/Open_Source_Hardware.md).
+on [WIZnet products](Product/Products.md) and [Open Source Hardware](Product/Modules/Open-Source-Hardware/Open_Source_Hardware.md).
 Please feel free to improve the content by registering an account. Your contributions would be greatly appreciated.
 
 **Most of the materials of Open Source Hardware are hosted on the
