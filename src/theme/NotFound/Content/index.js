@@ -290,11 +290,25 @@ export default function ContentWrapper(props) {
         match: '/Product/Mbed-WIZwiki-Platform/mbed-wizwiki-platform',
         target: '/Product/Modules/Mbed-WIZwiki-Platform/mbed-wizwiki-platform',
       },
+
       // For all other cases, redirect to /Product/Modules/Mbed-WIZwiki-Platform/mbed-wizwiki-platform
       {
         match: '/Product/Mbed-WIZwiki-Platform',
         target: '/Product/Modules/Mbed-WIZwiki-Platform/mbed-wizwiki-platform',
       },
+
+      /* Open-Source-Hardware */
+      {
+        match: '/Product/Open-Source-Hardware',
+        target: '/Product/Modules/Open-Source-Hardware',
+      },
+
+      /* Azure-Sphere */
+      {
+        match: '/Product/Azure-Sphere',
+        target: '/Product/Modules/Serial-to-Ethernet-Module/s2e_module',
+      },
+
       /* Ethernet Module */
       {
         match: ['/Product/iEthernet/W6300',
@@ -338,6 +352,7 @@ export default function ContentWrapper(props) {
                 '/Product/Chip/Ethernet'],
         target: ' /Product/Chip/Ethernet',
       },
+      
       /* iMCU */
       {
         match: ['/Product/ioNIC',
@@ -368,7 +383,6 @@ export default function ContentWrapper(props) {
       },
 
       // For all other cases, redirect to /Product`
-
       {
           match: ['/Product',
                   '/'],
