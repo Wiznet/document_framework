@@ -2754,8 +2754,8 @@ Return value</th>
 
 | Return value | Meaning       | Remarks |
 | :----------: | ------------- | :-----: |
-| 0            | PHY link up   | -       |
-| 1            | PHY link down | -       |
+| 0            | PHY link down | -       |
+| 1            | PHY link up   | -       |
 
   - **When operating via DTR(Data Terminal Ready) pin**
     - Signal that the device communication is ready (RS-232, Output)
