@@ -7,8 +7,6 @@ date: 2025-02-27
 
 ## W6300 Application Notes
 
-#### Lihan: W6300을 포함, 다른 칩들도 공통적으로 해당되는 내용이기에 외부로 빼면 좋을 것 같습니다.
-
 #### C/C++
 - Ethernet Examples
   - <a href = "/img/application_notes/PICO-C/DHCP_DNS_EXAMPLE_AN_V100.pdf" target ="_blank">DHCP_DNS_EXAMPLE_AN_V100 - English</a>
