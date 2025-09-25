@@ -24,4 +24,5 @@ WIZnet ioPort includes two types of solution.
 | Module | Image | Embedded Block | Host Interface | HW Socket | LAN Interface | Pin Header | Dimension (mm) | Operation Temp (℃) | MAC Address |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
 | [WIZ-IP32](./ioPort/wizip32) | ![](/img/products/wiz-ip51s/resized_ip32.png) | W55MH32 in MAG Jack | UART (RS232 & RS485) | 8 | RJ45          | 14 (0.9mm) | 32.5 x 16.5 x 17.3 | -40..85 | Yes |
+| [WIZ-IP20](./ioPort/wizip20) | ![](/img/products/wiz-ip51s/resized_ip20.png) | W55RP20 in MAG Jack | UART | 8 | RJ45 | 14 (0.9mm) | 32.5 x 16.5 x 17.3 | -40..85 | Yes |
 | [WIZ-IP75](./ioPort/wizip75) | ![](/img/products/wiz-ip51s/resized_ip75.png) | W7500 in MAG Jack | UART (RS232 & RS485) | 8 | RJ45 | 14 (0.9mm) | 32.5 x 16.5 x 17.3 | -40..85 | Yes |

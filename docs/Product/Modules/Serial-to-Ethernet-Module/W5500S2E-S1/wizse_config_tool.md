@@ -1,12 +1,12 @@
 ---
-id: wizse_config_tool
+id: wizse_config_tool_55_75
 title: WIZse Config tool
 date: 2025-09-05
 ---
 
 # WIZS2E Config Tool software configuration
 
-WIZS2E Config Tool is an upper computer configuration software that runs on the Windows operating system and is compatible with WIZ-DTU, WIZ-IP32 and W7500S2E series serial to Ethernet modules. Users can easily search, view, and configure various functions and information of W5500S2E serial to Ethernet module through WIZS2E Config Tool.
+WIZS2E Config Tool is an upper computer configuration software that runs on the Windows operating system and is compatible with WIZ-DTU, WIZ-IP32, W5500S2E and W7500S2E series serial to Ethernet modules. Users can easily search, view, and configure various functions and information of W5500S2E / W7500S2E serial to Ethernet module through WIZS2E Config Tool.
 
 <span style={{ color: 'red' }}>**Note**: Before configuring, it is recommended to turn off the firewall and ensure that all module IP addresses within the local area network do not conflict.</span>
 
@@ -20,7 +20,7 @@ Basic Configuration Interface of WIZS2E Config Tool
 
  ![](/img/products/w5500s2e-z1/config1.png) 
 
-W5500S2E series channel 1 serial interface setup
+W5500S2E / W7500S2E series channel 1 serial interface setup
 
   ![](/img/products/w5500s2e-z1/config2.png) 
 
@@ -64,7 +64,7 @@ Right click on the module list on the left, as shown in the figure below, and a 
 
 ## Factory Reset
 
-For users need to factory Reset when using W5500S2E series modules, there are three methods: Configuration tools, AT command mode, and hardware mode.
+For users need to factory Reset when using W5500S2E / W7500S2E series modules, there are three methods: Configuration tools, AT command mode, and hardware mode.
 
 ### WIZSE config tools factory settings
 
@@ -74,9 +74,9 @@ For WIZSE config tools, click the left mouse button in the module list of WIZS2E
 
 ## Firmware Upgrade
 
-W5500S2E series supports two types of firmware upgrades: Configuration tool firmware upgrade and webpage firmware upgrade. 
+W5500S2E / W7500S2E series supports two types of firmware upgrades: Configuration tool firmware upgrade and webpage firmware upgrade. 
 
-<span style={{ color: 'red' }}>**Note**: The firmware referred to below must be the bin firmware of W5500S2E series provided by WIZnet officially.</span>
+<span style={{ color: 'red' }}>**Note**: The firmware referred to below must be the bin firmware of W5500S2E / W7500S2E series provided by WIZnet officially.</span>
 
 ### Upgrade firmware through WIZS2E Config Tool
 

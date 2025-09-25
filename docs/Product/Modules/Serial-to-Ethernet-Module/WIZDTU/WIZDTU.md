@@ -22,7 +22,7 @@ import TabItem from '@theme/TabItem';
 
 WIZ-DTU is a industrial grade dual serial port to Ethernet module. It supports TCP server, TCP client, UDP and Modbus modes. The maximum baud rate of the serial port is 1.152Mbps for RS232 and RS485. WIZ-DTU supports WIZS2E ConfigTool (Configuration Tool for Windows®), web page and AT command for configuring.
 
-WIZ-DTU integrated with the hardwired TCP/IP protocol technology in W55MH32.. This enables a faster, stable and secure Ethernet connectivity. With reference schematic(s) and guideline(s) in this user manual, user can simplify the design and reduce development time.
+WIZ-DTU integrated with the hardwired TCP/IP protocol technology in W55MH32. This enables a faster, stable and secure Ethernet connectivity. With reference schematic(s) and guideline(s) in this user manual, user can simplify the design and reduce development time.
 
 -----
 
@@ -66,7 +66,7 @@ Learn how to use various tools and interfaces—including command manuals, confi
 | Title | Description | Link | Notes |
 |-------|-------------|------|-------|
 | Command Manual | Guide to main commands and usage | ![link](\img\link.png)[EN](./wizse_at_command.md) | - |
-| Configuration Tool Manual | How to use the configuration tool | - | TBD |
+| Configuration Tool Manual | How to use the configuration tool | ![link](\img\link.png)[EN](./wizse_config_tool.md) | - |
 | Web Server Configuration Guide | Web-based configuration guide | - | TBD |
 | CLI Config Tool Tutorial | CLI-based configuration tool tutorial | - | TBD |
 
@@ -103,7 +103,7 @@ This section provides essential software resources, including configuration tool
 
 | Title | Description | Download | Notes |
 |-------|-------------|----------|-------|
-| firmware | Firmware binary  | - | TBD |
+| firmware | Firmware binary  | ![download](/img/products/w5500/w5500_evb/icons/download.png) [download](/img/products/wizdtu/WIZ_DTU_APP_1_0.bin) | - |
 
   </TabItem>
 

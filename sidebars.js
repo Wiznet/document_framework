@@ -1432,6 +1432,7 @@ module.exports = {
 								link: {type: 'doc', id: 'Product/Modules/Serial-to-Ethernet-Module/W5500S2E-S1/w5500s2e_s1'},
 								items: [
 										'Product/Modules/Serial-to-Ethernet-Module/W5500S2E-S1/wizse_at_command',
+										'Product/Modules/Serial-to-Ethernet-Module/W5500S2E-S1/wizse_config_tool_55_75',
 								],
 							},
 							{
@@ -1440,6 +1441,7 @@ module.exports = {
 								link: {type: 'doc', id: 'Product/Modules/Serial-to-Ethernet-Module/W5500S2E-Z1/w5500s2e_z1'},
 								items: [
 										'Product/Modules/Serial-to-Ethernet-Module/W5500S2E-Z1/wizse_at_command',
+										'Product/Modules/Serial-to-Ethernet-Module/W5500S2E-Z1/wizse_config_tool_55_75',
 								],
 							},
 							{
@@ -1448,6 +1450,7 @@ module.exports = {
 								link: {type: 'doc', id: 'Product/Modules/Serial-to-Ethernet-Module/W7500S2E-R1/w7500s2e_r1'},
 								items: [
 										'Product/Modules/Serial-to-Ethernet-Module/W7500S2E-R1/wizse_at_command',
+										'Product/Modules/Serial-to-Ethernet-Module/W7500S2E-R1/wizse_config_tool_55_75',
 								],
 							},
 							{
@@ -1456,6 +1459,7 @@ module.exports = {
 								link: {type: 'doc', id: 'Product/Modules/Serial-to-Ethernet-Module/WIZDTU/wizdtu'},
 								items: [
 										'Product/Modules/Serial-to-Ethernet-Module/WIZDTU/wizse_at_command',
+										'Product/Modules/Serial-to-Ethernet-Module/WIZDTU/wizse_config_tool_dtu',
 								],
 							},
 							{
@@ -1594,16 +1598,19 @@ module.exports = {
 							link: {type: 'doc', id: 'Product/Modules/ioPort/wizip32'},
 							items: [
 									'Product/Modules/ioPort/wizse_at_command_32',
+									'Product/Modules/ioPort/wizse_config_tool_dtu',
 							],
 						},
-							{
-								type: 'category',
-								label: 'WIZ-IP75',
-								link: {type: 'doc', id: 'Product/Modules/ioPort/wizip75'},
-								items: [
-										'Product/Modules/ioPort/wizse_at_command_75',
-								],
-							},
+						'Product/Modules/ioPort/wizip20',						
+						{
+							type: 'category',
+							label: 'WIZ-IP75',
+							link: {type: 'doc', id: 'Product/Modules/ioPort/wizip75'},
+							items: [
+									'Product/Modules/ioPort/wizse_at_command_75',
+									'Product/Modules/ioPort/wizse_config_tool_55_75',
+							],
+						},
 						],
 					},
 					{

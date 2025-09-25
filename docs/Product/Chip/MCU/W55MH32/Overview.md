@@ -12,10 +12,11 @@ import TabItem from '@theme/TabItem';
 # W55MH32
 <div className="main_intro"> 
   <div className="main_intro_image">
-    <img src="/img/products/W55MH32/W55MH32L.png" width="550" />
+    <img src="/img/products/W55MH32/20250513095226.png" width="550" />
   </div>
   <div className="w5500-text">
     <p>
+
 
     The **W55MH32** is a high-performance 32-bit microcontroller that combines **Cortex-M3** processing power with **Hardwired TCP/IP** for efficient and secure IoT solutions. It operates at up to **216MHz**, featuring **1024KB Flash** and **96KB SRAM** for fast data handling. This dedicated hardware networking stack ensures low latency and reduced CPU overhead, making it ideal for real-time applications. Security is a core focus, with **AES, DES, and SHA** hardware encryption, a **True Random Number Generator (TRNG)**, and **SRAM scrambling** to protect sensitive data through network communication.
 
@@ -34,7 +35,8 @@ import TabItem from '@theme/TabItem';
 <details>
 <summary><b>Pin Map</b></summary> 
 <img src="/assets/images/W55MH32L_Pin_assignment-b382cf3b2d3217054a0af58f0f633f06.png" alt="W55MH32_Pin_Map" width="500"/>
-
+<img src="/img/products/W55MH32/W55MH32Q_Pin_assignment.png" alt="W55MH32_Pin_Map" width="500"/>
+<summary><b>Pin Map</b></summary> 
 
 </details>
 
@@ -121,11 +123,11 @@ The following are the reference codes for W55MH32:
 
 | **Resource**                | **Description**                        | **Notes**                      |
 |-----------------------------|----------------------------------------|-------------------------------|
-| [🔗 Ethernet Compliance Test] | Results and documentation of Ethernet standard compliance tests | Covers IEEE 802.3 physical and protocol layer verification |
-| [🔗 Distance Test]              | Cable length performance test results      | Verified up to 100m Ethernet cable |
-| [🔗 EMC Test]                   | Electromagnetic compatibility test reports | Covers conducted and radiated emissions |
-| [🔗 Reliability Test]           | Reliability and endurance test reports     | Includes thermal cycling and aging analysis |
-| [🔗 Certificate]                | Official certification documents           | CE, FCC, and RoHS certificates available |
+| TBD | Results and documentation of Ethernet standard compliance tests | Covers IEEE 802.3 physical and protocol layer verification |
+| TBD            | Cable length performance test results      | Verified up to 100m Ethernet cable |
+| TBD                | Electromagnetic compatibility test reports | Covers conducted and radiated emissions |
+| TBD         | Reliability and endurance test reports     | Includes thermal cycling and aging analysis |
+| TBD              | Official certification documents           | CE, FCC, and RoHS certificates available |
 
 <Tabs groupId="module" queryString>
 <TabItem value="evb" label="Evaluation Boards & Related modules" default>
