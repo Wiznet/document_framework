@@ -94,10 +94,6 @@ export default function ContentWrapper(props) {
         target: '/Product/Modules/Serial-to-Ethernet-Module/W7500S2E-R1',
       },
       {
-        match: '/Product/S2E-Module/Industrial',
-        target: '/Product/Modules/Serial-to-Ethernet-Module/W232N',
-      },
-      {
         match: '/Product/S2E-Module/WIZ550S2E',
         target: '/Product/Modules/Serial-to-Ethernet-Module/WIZ550S2E',
       },
@@ -529,6 +525,15 @@ export default function ContentWrapper(props) {
           }, delay);
           return () => clearTimeout(timer);
         }
+      } else if (location.startsWith('/Product/S2E-Module/Industrial/')) {
+        const newPath = location.replace(
+          /^\/Product\/S2E-Module\/Industrial\//,
+          '/Product/Modules/Serial-to-Ethernet-Module/W232N/'
+        );
+        const timer = setTimeout(() => {
+          window.location.replace(newPath);
+        }, delay);
+        return () => clearTimeout(timer);
       } else {
         // match가 문자열이면 기존처럼 처리
         if (location.startsWith(r.match)) {

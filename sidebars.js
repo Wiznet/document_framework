@@ -1471,8 +1471,8 @@ module.exports = {
 										type: 'category',
 										label: 'Documentation',
 										items: [
-											'Product/Modules/Serial-to-Ethernet-Module/W232N/datasheet-en',
-											'Product/Modules/Serial-to-Ethernet-Module/W232N/datasheet-ko',
+											'Product/Modules/Serial-to-Ethernet-Module/W232N/W232N-datasheet-en',
+											'Product/Modules/Serial-to-Ethernet-Module/W232N/W232N-datasheet-kr',
 										],
 									},
 									{
