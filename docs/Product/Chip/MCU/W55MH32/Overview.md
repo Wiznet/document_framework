@@ -143,7 +143,7 @@ The following are the reference codes for W55MH32:
   >
     <img src="/img/products/W55MH32/W55MH32L-EVB_HD.png" alt="W55MH32L-EVB_HD" />
     <div>
-      <h3>WW55MH32L-EVB</h3>
+      <h3>W55MH32L-EVB</h3>
       <p>
 The W55MH32L-EVB is a comprehensive evaluation board built around the W55MH32L microcontroller, designed for high-performance industrial, IoT, and embedded system applications. Powered by a 216MHz 32-bit Cortex-M3 processor, it integrates 1024KB Flash and 96KB SRAM, providing ample memory for complex, real-time applications.
       </p>

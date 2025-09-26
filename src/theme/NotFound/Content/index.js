@@ -46,6 +46,14 @@ export default function ContentWrapper(props) {
         target: '/Product/Modules/Serial-to-Ethernet-Module/WIZ550SR',
       },
       {
+        match: '/Product/S2E-Module/WIZ5xxSR-RP-Series/wiz500sr-rp-evb-en',
+        target: '/Product/Modules/Serial-to-Ethernet-Module/WIZ500SR-RP/wiz500sr-rp-evb',
+      },
+      {
+        match: '/Product/S2E-Module/WIZ5xxSR-RP-Series/wiz505sr-rp-evb-en',
+        target: '/Product/Modules/Serial-to-Ethernet-Module/WIZ500SR-RP/wiz505sr-rp-evb',
+      },
+      {
         match: '/Product/S2E-Module/WIZ5xxSR-RP-Series/WIZ500SR-RP',
         target: '/Product/Modules/Serial-to-Ethernet-Module/WIZ500SR-RP',
       },
@@ -347,11 +355,32 @@ export default function ContentWrapper(props) {
       },
 
       /* Ethernet Module */
+
+      {
+        match: '/Product/iEthernet/W6300/w6300-evb-pico2',
+        target: '/Product/Chip/Ethernet/W6300/w6300-evb-pico2',
+      },
+      {
+        match: '/Product/iEthernet/W6300/w6300-evb-pico',
+        target: '/Product/Chip/Ethernet/W6300/w6300-evb-pico',
+      },
       {
         match: ['/Product/iEthernet/W6300',
                 '/Product/Ethernet/W6300',
                 '/Product/Chip/Ethernet/W6300'],
         target: '/Product/Chip/Ethernet/W6300',
+      },
+      {
+        match: '/Product/iEthernet/W6100/w6100-evb-pico2',
+        target: '/Product/Chip/Ethernet/W6100/w6100-evb-pico2',
+      },
+      {
+        match: '/Product/iEthernet/W6100/w6100-evb-pico',
+        target: '/Product/Chip/Ethernet/W6100/w6100-evb-pico',
+      },
+      {
+        match: '/Product/iEthernet/W6100/w6100-evb',
+        target: '/Product/Chip/Ethernet/W6100/w6100-evb',
       },
       {
         match: ['/Product/iEthernet/W6100',
@@ -360,25 +389,64 @@ export default function ContentWrapper(props) {
         target: '/Product/Chip/Ethernet/W6100',
       },
       {
+        match: '/Product/iEthernet/W5100S/w5100s-evb-pico2',
+        target: '/Product/Chip/Ethernet/W5100S/w5100s-evb-pico2',
+      },
+      {
+        match: '/Product/iEthernet/W5100S/w5100s-evb-pico',
+        target: '/Product/Chip/Ethernet/W5100S/w5100s-evb-pico',
+      },
+      {
+        match: '/Product/iEthernet/W5100S/w5100s-evb',
+        target: '/Product/Chip/Ethernet/W5100S/w5100s-evb',
+      },
+      {
         match: ['/Product/iEthernet/W5100S',
                 '/Product/Ethernet/W5100S',
                 '/Product/Chip/Ethernet/W5100S'],
         target: '/Product/Chip/Ethernet/W5100S',
       },
-     {
+      {
+        match: '/Product/iEthernet/W5100/w5100-evb',
+        target: '/Product/Chip/Ethernet/W5100/w5100-evb',
+      },
+      {
         match: ['/Product/iEthernet/W5100',
                 '/Product/Ethernet/W5100',
                 '/Product/Chip/Ethernet/W5100'],
         target: '/Product/Chip/Ethernet/W5100',
       },
-
-     {
+      {
+        match: '/Product/iEthernet/W5300/w5300-evb',
+        target: '/Product/Chip/Ethernet/W5300/w5300-evb',
+      },
+      {
+        match: '/Product/iEthernet/W5300/W5300-TOE-Shield',
+        target: '/Product/Chip/Ethernet/W5300/W5300-TOE-Shield',
+      },
+      {
         match: ['/Product/iEthernet/W5300',
                 '/Product/Ethernet/W5300',
                 '/Product/Chip/Ethernet/W5300'],
         target: '/Product/Chip/Ethernet/W5300',
       },
-     {
+      {
+        match: '/Product/iEthernet/W5500/w5500-evb-pico2',
+        target: '/Product/Chip/Ethernet/W5500/w5500-evb-pico2',
+      },
+      {
+        match: '/Product/iEthernet/W5500/w5500-evb-pico',
+        target: '/Product/Chip/Ethernet/W5500/w5500-evb-pico',
+      },
+      {
+        match: '/Product/iEthernet/W5500/W5500-EVB-Pico-PoE',
+        target: '/Product/Chip/Ethernet/W5500/W5500-EVB-Pico-PoE',
+      },
+      {
+        match: '/Product/iEthernet/W5500/W5500-EVB',
+        target: '/Product/Chip/Ethernet/W5500/W5500-EVB',
+      },
+      {
         match: ['/Product/iEthernet/W5500',
                 '/Product/Ethernet/W5500',
                 '/Product/Chip/Ethernet/W5500'],
@@ -389,13 +457,37 @@ export default function ContentWrapper(props) {
                 '/Product/Chip/Ethernet'],
         target: ' /Product/Chip/Ethernet',
       },
+
+      
+      /* Pre-programmed-MCU */
+      {
+        match: '/Product/ioNIC/W55RP20/W55RP20-S2E',
+        target: '/Product/Chip/MCU/W55RP20/W55RP20-S2E/overview-en',
+      },
+      {
+        match: '/Product/Pre-programmed-MCU/W7500P-S2E',
+        target: '/Product/Chip/Pre-programmed-MCU/W7500P-S2E/w7500p-s2e-EN',
+      },
       
       /* iMCU */
+
+      {
+        match: '/Product/ioNIC/W55RP20/w55rp20-evb-pico',
+        target: '/Product/Chip/MCU/W55RP20/w55rp20-evb-pico',
+      },
       {
         match: ['/Product/ioNIC',
                '/Product/iMCU/W55RP20',
                 '/Product/Chip/MCU/W55RP20'],
         target: '/Product/Chip/MCU/W55RP20',
+      },
+      {
+        match: '/Product/iMCU/W55MH32/W55MH32L-evb',
+        target: '/Product/Chip/MCU/W55MH32/W55MH32L-evb',
+      },
+      {
+        match: '/Product/iMCU/W55MH32/W55MH32Q-evb',
+        target: '/Product/Chip/MCU/W55MH32/W55MH32Q-evb',
       },
       {
         match: ['/Product/iMCU/W55MH32',

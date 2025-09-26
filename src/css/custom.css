@@ -254,6 +254,8 @@ html[data-theme="dark"] .rlc-description {
 }
 .main-card img {
   width: 300px;
+  max-height: 300px;
+  object-fit: contain;
   margin-right: 1rem;
 }
 .main-card h3 {
