@@ -1514,8 +1514,8 @@ module.exports = {
 										type: 'category',
 										label: 'Documentation',
 										items: [
-											'Product/Modules/Serial-to-Ethernet-Module/WIZSPE-T1L/users-manual-EN',
-											 'Product/Modules/Serial-to-Ethernet-Module/WIZSPE-T1L/users-manual-KO',
+											//'Product/Modules/Serial-to-Ethernet-Module/WIZSPE-T1L/users-manual-EN',
+											//'Product/Modules/Serial-to-Ethernet-Module/WIZSPE-T1L/users-manual-KO',
 											'Product/Modules/Serial-to-Ethernet-Module/WIZSPE-T1L/datasheet',
 										],
 									},
