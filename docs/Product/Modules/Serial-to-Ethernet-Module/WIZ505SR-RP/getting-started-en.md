@@ -44,7 +44,7 @@ As WIZ505SR-RP already has Ethernet port, it is necessary to use WIZ500/505SR-RP
 
 ### Software
 
-- Configuration tool program ([Download page](./Configuration-Tool-Manual-EN.mdx))
+- Configuration tool program ([Download page](./Configuration-Tool-Manual.mdx))
 - TCP server / TCP client / UDP terminal program
 - Serial terminal program
 

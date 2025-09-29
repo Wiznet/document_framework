@@ -10,23 +10,25 @@ export default function ContentWrapper(props) {
 
       /* Serial to Ethernet Module */
       {
-        match: '/Product/S2E-Module/WIZ750SR-1xx-Series/wiz750sr-1xx-series',
-        target: '/Product/Modules/Serial-to-Ethernet-Module/s2e_module',
-      },
-      {
-        match: '/Product/S2E-Module/WIZ750SR-1xx-Series/WIZ750SR-100',
+        match: ['/Product/S2E-Module/WIZ750SR-1xx-Series/WIZ750SR-100/wiz750sr-100',
+                '/Product/S2E-Module/WIZ750SR-1xx-Series/WIZ750SR-100/overview-EN'],
         target: '/Product/Modules/Serial-to-Ethernet-Module/WIZ750SR-100',
       },
       {
-        match: '/Product/S2E-Module/WIZ750SR-1xx-Series/WIZ750SR-105',
+        match: ['/Product/S2E-Module/WIZ750SR-1xx-Series/WIZ750SR-105/wiz750sr-105',
+                '/Product/S2E-Module/WIZ750SR-1xx-Series/WIZ750SR-105/overview-EN'],
         target: '/Product/Modules/Serial-to-Ethernet-Module/WIZ750SR-105',
       },
       {
-        match: '/Product/S2E-Module/WIZ750SR-1xx-Series/WIZ750SR-110',
+        match: ['/Product/S2E-Module/WIZ750SR-1xx-Series/WIZ750SR-110/wiz750sr-110',
+                '/Product/S2E-Module/WIZ750SR-1xx-Series/WIZ750SR-110/overview-EN'],
         target: '/Product/Modules/Serial-to-Ethernet-Module/WIZ750SR-110',
       },
       {
-        match: '/Product/S2E-Module/WIZ752SR-12x-Series/wiz750sr-1xx-series',
+        match: ['/Product/S2E-Module/WIZ750SR-1xx-Series/wiz750sr-1xx-series',
+                '/Product/S2E-Module/s2e_module',
+                '/Product/S2E-Module/serial-to-ethernet-guide',
+                '/Product/S2E-Module/serial-to-ethernet-guide-ko',],
         target: '/Product/Modules/Serial-to-Ethernet-Module/s2e_module',
       },
       {
@@ -38,11 +40,17 @@ export default function ContentWrapper(props) {
         target: '/Product/Modules/Serial-to-Ethernet-Module/WIZ752SR-125',
       },
       {
-        match: '/Product/S2E-Module/WIZ750SR',
+        match: ['/Product/S2E-Module/WIZ750SR/overview-EN',
+                '/Product/S2E-Module/WIZ750SR/wiz750sr'],
         target: '/Product/Modules/Serial-to-Ethernet-Module/WIZ750SR',
       },
       {
-        match: '/Product/S2E-Module/WIZ550SR',
+        match: '/Product/S2E-Module/WIZ750SR/CLI-Config-Tool-Tutorial/cli-config-tool-tutorial',
+        target: '/Product/Modules/Serial-to-Ethernet-Module/WIZ750SR/CLI-Config-Tool-Tutorial',
+      },
+      {
+        match: ['/Product/S2E-Module/WIZ550SR/overview-EN',
+                '/Product/S2E-Module/WIZ550SR/wiz550sr'],
         target: '/Product/Modules/Serial-to-Ethernet-Module/WIZ550SR',
       },
       {
@@ -54,20 +62,16 @@ export default function ContentWrapper(props) {
         target: '/Product/Modules/Serial-to-Ethernet-Module/WIZ500SR-RP/wiz505sr-rp-evb',
       },
       {
-        match: '/Product/S2E-Module/WIZ5xxSR-RP-Series/WIZ500SR-RP',
+        match: '/Product/S2E-Module/WIZ5xxSR-RP-Series/WIZ500SR-RP/overview',
         target: '/Product/Modules/Serial-to-Ethernet-Module/WIZ500SR-RP',
       },
       {
-        match: '/Product/S2E-Module/WIZ5xxSR-RP-Series/WIZ505SR-RP',
+        match: '/Product/S2E-Module/WIZ5xxSR-RP-Series/WIZ505SR-RP/overview',
         target: '/Product/Modules/Serial-to-Ethernet-Module/WIZ505SR-RP',
       },
       {
-        match: '/Product/S2E-Module/WIZ5xxSR-RP-Series/WIZ510SR-RP',
+        match: '/Product/S2E-Module/WIZ5xxSR-RP-Series/WIZ510SR-RP/overview',
         target: '/Product/Modules/Serial-to-Ethernet-Module/WIZ510SR-RP',
-      },
-      {
-        match: '/Product/S2E-Module/WIZ5xxSR-RP-Series',
-        target: '/Product/Modules/Serial-to-Ethernet-Module/WIZ500SR-RP',
       },
       {
         match: '/Product/S2E-Module/WIZ100SR',
@@ -92,10 +96,6 @@ export default function ContentWrapper(props) {
       {
         match: '/Product/S2E-Module/W7500S2E-R1',
         target: '/Product/Modules/Serial-to-Ethernet-Module/W7500S2E-R1',
-      },
-      {
-        match: '/Product/S2E-Module/WIZ550S2E',
-        target: '/Product/Modules/Serial-to-Ethernet-Module/WIZ550S2E',
       },
       {
         match: '/Product/S2E-Module/WIZ107SR/wiz107sr-evb',
@@ -144,11 +144,6 @@ export default function ContentWrapper(props) {
       {
         match: '/Product/S2E-Module/wiz1000',
         target: '/Product/Modules/Serial-to-Ethernet-Module/WIZ1000',
-      },
-      // For all other cases, redirect to /Product/Modules/Serial-to-Ethernet-Module/s2e_module
-      {
-        match: '/Product/S2E-Module',
-        target: '/Product/Modules/Serial-to-Ethernet-Module/s2e_module',
       },
 
       /* WiFi Module */
@@ -454,7 +449,6 @@ export default function ContentWrapper(props) {
         target: ' /Product/Chip/Ethernet',
       },
 
-      
       /* Pre-programmed-MCU */
       {
         match: '/Product/ioNIC/W55RP20/W55RP20-S2E',
@@ -466,7 +460,6 @@ export default function ContentWrapper(props) {
       },
       
       /* iMCU */
-
       {
         match: '/Product/ioNIC/W55RP20/w55rp20-evb-pico',
         target: '/Product/Chip/MCU/W55RP20/w55rp20-evb-pico',
@@ -500,51 +493,116 @@ export default function ContentWrapper(props) {
                 '/Product/Chip/MCU/W7500'],
         target: '/Product/Chip/MCU/W7500',
       },
-
-     {
+      {
         match:  ['/Product/iMCU',
                 '/Product/Chip/MCU'],
         target: '/Product/Chip/MCU',
       },
-
-      // For all other cases, redirect to /Product`
-      {
-          match: ['/Product',
-                  '/'],
-          target: '/',
-      },
     ];
 
     const delay = 2000;
-    for (const r of redirects) {
-      if (Array.isArray(r.match)) {
-        // match가 배열이면, 배열 안에 있는 문자열 중 하나라도 startsWith에 맞으면 성공
-        if (r.match.some(m => location.startsWith(m))) {
-          const timer = setTimeout(() => {
-            window.location.replace(r.target);
-          }, delay);
-          return () => clearTimeout(timer);
-        }
-      } else if (location.startsWith('/Product/S2E-Module/Industrial/')) {
-        const newPath = location.replace(
-          /^\/Product\/S2E-Module\/Industrial\//,
-          '/Product/Modules/Serial-to-Ethernet-Module/W232N/'
-        );
-        const timer = setTimeout(() => {
-          window.location.replace(newPath);
-        }, delay);
-        return () => clearTimeout(timer);
-      } else {
-        // match가 문자열이면 기존처럼 처리
-        if (location.startsWith(r.match)) {
-          const timer = setTimeout(() => {
-            window.location.replace(r.target);
-          }, delay);
-          return () => clearTimeout(timer);
-        }
+    const redirectWithDelay = (target) => {
+    const timer = setTimeout(() => {
+      window.location.replace(target);
+    }, delay);
+    return () => clearTimeout(timer);
+  };
+
+  for (const r of redirects) {
+    // match가 배열인 경우
+    if (Array.isArray(r.match)) {
+      if (r.match.some(m => location.startsWith(m))) {
+        return redirectWithDelay(r.target);
       }
+    } 
+    // match가 문자열인 경우
+    else if (location.startsWith(r.match)) {
+      return redirectWithDelay(r.target);
     }
-  }, [location]);
+  }
+
+  if (location.startsWith('/Product/S2E-Module/Industrial/')) {
+    const newPath = location.replace(
+      /^\/Product\/S2E-Module\/Industrial\//,
+      '/Product/Modules/Serial-to-Ethernet-Module/W232N/'
+    );
+    return redirectWithDelay(newPath);
+  }
+  if (location === '/Product/S2E-Module/WIZ550S2E/wiz550s2e') {
+    return redirectWithDelay('/Product/Modules/Serial-to-Ethernet-Module/WIZ550S2E');
+  }
+  if (location.startsWith('/Product/S2E-Module/WIZ550S2E/')) {
+    const newPath = location.replace(
+      /^\/Product\/S2E-Module\/WIZ550S2E\//,
+      '/Product/Modules/Serial-to-Ethernet-Module/WIZ550S2E/'
+    );
+    return redirectWithDelay(newPath);
+  }
+  if (location.startsWith('/Product/S2E-Module/WIZ550SR/')) {
+    const newPath = location.replace(
+      /^\/Product\/S2E-Module\/WIZ550SR\//,
+      '/Product/Modules/Serial-to-Ethernet-Module/WIZ550SR/'
+    );
+    return redirectWithDelay(newPath);
+  }
+  if (location.startsWith('/Product/S2E-Module/WIZ5xxSR-RP-Series/WIZ500SR-RP/')) {
+    const newPath = location.replace(
+      /^\/Product\/S2E-Module\/WIZ5xxSR-RP-Series\/WIZ500SR-RP\//,
+      '/Product/Modules/Serial-to-Ethernet-Module/WIZ500SR-RP/'
+    );
+    return redirectWithDelay(newPath);
+  }
+  if (location.startsWith('/Product/S2E-Module/WIZ5xxSR-RP-Series/WIZ505SR-RP/')) {
+    const newPath = location.replace(
+      /^\/Product\/S2E-Module\/WIZ5xxSR-RP-Series\/WIZ505SR-RP\//,
+      '/Product/Modules/Serial-to-Ethernet-Module/WIZ505SR-RP/'
+    );
+    return redirectWithDelay(newPath);
+  }
+  if (location.startsWith('/Product/S2E-Module/WIZ5xxSR-RP-Series/WIZ510SR-RP/')) {
+    const newPath = location.replace(
+      /^\/Product\/S2E-Module\/WIZ5xxSR-RP-Series\/WIZ510SR-RP\//,
+      '/Product/Modules/Serial-to-Ethernet-Module/WIZ510SR-RP/'
+    );
+    return redirectWithDelay(newPath);
+  }
+  if (location.startsWith('/Product/S2E-Module/WIZ5xxSR-RP-Series/')) {
+    const newPath = location.replace(
+      /^\/Product\/S2E-Module\/WIZ5xxSR-RP-Series\//,
+      '/Product/Modules/Serial-to-Ethernet-Module/WIZ500SR-RP/'
+    );
+    return redirectWithDelay(newPath);
+  }
+  if (location.startsWith('/Product/S2E-Module/WIZ750SR-1xx-Series/WIZ750SR-100/')) {
+    const newPath = location.replace(
+      /^\/Product\/S2E-Module\/WIZ750SR-1xx-Series\/WIZ750SR-100\//,
+      '/Product/Modules/Serial-to-Ethernet-Module/WIZ750SR-100/'
+    );
+    return redirectWithDelay(newPath);
+  }
+  if (location.startsWith('/Product/S2E-Module/WIZ750SR-1xx-Series/WIZ750SR-105/')) {
+    const newPath = location.replace(
+      /^\/Product\/S2E-Module\/WIZ750SR-1xx-Series\/WIZ750SR-105\//,
+      '/Product/Modules/Serial-to-Ethernet-Module/WIZ750SR-105/'
+    );
+    return redirectWithDelay(newPath);
+  }
+  if (location.startsWith('/Product/S2E-Module/WIZ750SR-1xx-Series/WIZ750SR-110/')) {
+    const newPath = location.replace(
+      /^\/Product\/S2E-Module\/WIZ750SR-1xx-Series\/WIZ750SR-110\//,
+      '/Product/Modules/Serial-to-Ethernet-Module/WIZ750SR-110/'
+    );
+    return redirectWithDelay(newPath);
+  }
+  if (location.startsWith('/Product/S2E-Module/WIZ750SR/')) {
+    const newPath = location.replace(
+      /^\/Product\/S2E-Module\/WIZ750SR\//,
+      '/Product/Modules/Serial-to-Ethernet-Module/WIZ750SR/'
+    );
+    return redirectWithDelay(newPath);
+  }
+
+}, [location]);
 
   return (
     <>

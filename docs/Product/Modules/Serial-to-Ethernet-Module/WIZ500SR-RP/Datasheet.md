@@ -1,5 +1,5 @@
 ﻿---
-id: datasheet
+id: datasheet-en
 title: Datasheet
 date: 2022-05-09
 keywords: [wiznet, wiz505sr-rp,wiz505sr-rp datasheet, hardwired tcp/ip,serial-to-ethernet, w5100s, rp2040]

@@ -42,7 +42,7 @@ As WIZ500SR-RP does not have Serial and Ethernet port, two evaluation boards are
 
 ### Software
 
-- Configuration tool program ([Download page](./Configuration-Tool-Manual-EN.mdx))
+- Configuration tool program ([Download page](./Configuration-Tool-Manual.mdx))
 - TCP server / TCP client / UDP terminal program
 - Serial terminal program
 

@@ -47,7 +47,7 @@ As WIZ510SR-RP already has Serial and Ethernet port, no separate evaluation boar
 
 ### Software
 
-- Configuration tool program ([Download page](./Configuration-Tool-Manual-EN.mdx))
+- Configuration tool program ([Download page](./Configuration-Tool-Manual.mdx))
 - TCP server / TCP client / UDP terminal program
 - Serial terminal program
 

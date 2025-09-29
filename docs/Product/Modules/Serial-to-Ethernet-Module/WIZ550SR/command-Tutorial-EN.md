@@ -1,5 +1,5 @@
 ---
-id: command_tutorial-EN
+id: atcommand_tutorial-EN
 title: Command Tutorial [EN]
 date: 2020-04-16
 ---

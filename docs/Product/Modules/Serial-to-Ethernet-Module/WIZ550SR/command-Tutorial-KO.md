@@ -1,5 +1,5 @@
 ---
-id: command_tutorial-KO
+id: atcommand_tutorial-KO
 title: Command Tutorial [KO]
 date: 2020-04-24
 ---
