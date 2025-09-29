@@ -16,10 +16,10 @@ date: 2025-09-03
 | Serial         | Signal                  | TXD, RXD, RTS, CTS, GND |
 |                | Parameters              | Parity: None, Odd, Even<br />Data bits: 7, 8 bit<br />Flow control: None, RTS / CTS, XON / XOFF |
 |                | Speed                   | Up to 230Kbps |
-| Dimension      |                        | TBD |
-| Connector type |                        | TBD |
-| Input Voltage  |                        | TBD |
-| Temperature    |                        | TBD |
+| Dimension      |                        | 100mm x 50mm x 1.6mm |
+| Connector type |                        | 2.54mm Pitch 6x2 Pin-header(Data Line), 3.81mm Pitch 3pin Pluggable terminal Block(Jack) |
+| Input Voltage  |                        | Power - 5.0V ~ 36.0V<br />Data Line - 3.3V LVTTL|
+| Temperature    |                        | -40℃ ~ 85℃ (Operation, Storage range) |
 
 
 ------------------------------------------------------------------------
