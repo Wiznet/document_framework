@@ -1,5 +1,5 @@
 ---
-id: command-manual-EN
+id: users_manual_programmers_guide-EN
 title: Command Manual-[EN]
 date: 2020-04-16
 ---

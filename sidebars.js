@@ -1263,16 +1263,16 @@ module.exports = {
 										type: 'category',
 										label: 'Documentation',
 										items: [
-												'Product/Modules/Serial-to-Ethernet-Module/WIZ550SR/datasheet-EN',	
-												'Product/Modules/Serial-to-Ethernet-Module/WIZ550SR/datasheet-KO',
+												'Product/Modules/Serial-to-Ethernet-Module/WIZ550SR/datasheet_hardware_spec_characteristics-EN',	
+												'Product/Modules/Serial-to-Ethernet-Module/WIZ550SR/datasheet_hardware_spec_characteristics-KO',
 											],
 									},
 									{
 										type: 'category',
 										label: 'Setup & Configuration',
 										items: [
-											'Product/Modules/Serial-to-Ethernet-Module/WIZ550SR/command-manual-EN',	
-											'Product/Modules/Serial-to-Ethernet-Module/WIZ550SR/command-manual-KO',
+											'Product/Modules/Serial-to-Ethernet-Module/WIZ550SR/users_manual_programmers_guide-EN',	
+											'Product/Modules/Serial-to-Ethernet-Module/WIZ550SR/users_manual_programmers_guide-KO',
 										],
 									},
 									{
@@ -1281,8 +1281,8 @@ module.exports = {
 										items: [
 												'Product/Modules/Serial-to-Ethernet-Module/WIZ550SR/getting_started-EN',	
 												'Product/Modules/Serial-to-Ethernet-Module/WIZ550SR/getting_started-KO',
-												'Product/Modules/Serial-to-Ethernet-Module/WIZ550SR/command_tutorial-EN',
-												'Product/Modules/Serial-to-Ethernet-Module/WIZ550SR/command_tutorial-KO',
+												'Product/Modules/Serial-to-Ethernet-Module/WIZ550SR/atcommand_tutorial-EN',
+												'Product/Modules/Serial-to-Ethernet-Module/WIZ550SR/atcommand_tutorial-KO',
 											],
 									},
 									'Product/Modules/Serial-to-Ethernet-Module/WIZ550SR/download',
@@ -1299,15 +1299,15 @@ module.exports = {
 										items: [
 											// 'Product/Modules/Serial-to-Ethernet-Module/WIZ500SR-RP/users-manual-EN',
 											// 'Product/Modules/Serial-to-Ethernet-Module/WIZ500SR-RP/users-manual-KO',
-											'Product/Modules/Serial-to-Ethernet-Module/WIZ500SR-RP/datasheet',
+											'Product/Modules/Serial-to-Ethernet-Module/WIZ500SR-RP/datasheet-en',
 										],
 									},
 									{
 										type: 'category',
 										label: 'Setup & Configuration',
 										items: [
-											'Product/Modules/Serial-to-Ethernet-Module/WIZ500SR-RP/command-manual-EN',
-											'Product/Modules/Serial-to-Ethernet-Module/WIZ500SR-RP/configuration-tool-manual-EN',
+											'Product/Modules/Serial-to-Ethernet-Module/WIZ500SR-RP/command-manual',
+											'Product/Modules/Serial-to-Ethernet-Module/WIZ500SR-RP/configuration-tool-manual',
 										],
 									},
 									{
@@ -1348,8 +1348,8 @@ module.exports = {
 										type: 'category',
 										label: 'Setup & Configuration',
 										items: [
-											'Product/Modules/Serial-to-Ethernet-Module/WIZ505SR-RP/command-manual-EN',
-											'Product/Modules/Serial-to-Ethernet-Module/WIZ505SR-RP/configuration-tool-manual-EN',
+											'Product/Modules/Serial-to-Ethernet-Module/WIZ505SR-RP/command-manual',
+											'Product/Modules/Serial-to-Ethernet-Module/WIZ505SR-RP/configuration-tool-manual',
 										],
 									},
 									{
@@ -1386,8 +1386,8 @@ module.exports = {
 										type: 'category',
 										label: 'Setup & Configuration',
 										items: [
-											'Product/Modules/Serial-to-Ethernet-Module/WIZ510SR-RP/command-manual-EN',
-											'Product/Modules/Serial-to-Ethernet-Module/WIZ510SR-RP/configuration-tool-manual-EN',
+											'Product/Modules/Serial-to-Ethernet-Module/WIZ510SR-RP/command-manual',
+											'Product/Modules/Serial-to-Ethernet-Module/WIZ510SR-RP/configuration-tool-manual',
 										],
 									},
 									{

@@ -1,5 +1,5 @@
 ---
-id: command-manual-KO
+id: users_manual_programmers_guide-KO
 title: Command Manual-[KO]
 date: 2020-04-24
 ---
