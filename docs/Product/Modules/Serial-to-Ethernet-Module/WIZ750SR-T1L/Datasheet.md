@@ -84,6 +84,35 @@ TBD
 
 ## Connector Specification
 
+### Power Source Select Pin (J1, J9)
+
+<img src="/img/products/wiz750sr-t1l/wiz750sr-t1l_pwrpin.png" width="800" />
+
+
+| Parts | Pin Number | Signal   | Description                   |
+|-------|------------|----------|-------------------------------|
+| J1    | 1          | 3V3_OUT  | This pin is connect with IC1(Step Down Convertor) output |
+| :::   | 2          | 3V3      | System Power (3.3V)                |
+
+| Parts | Pin Number | Signal | Description         |
+|-------|------------|--------|---------------------|
+| J9    | 1          | DC_JACK| This pin is connect with DC_Jack     |
+| :::   | 2          | VCC    | This pin is connect with J11_VCC pin |
+| :::   | 3          | 3V3    | System Power (3.3V) |
+
+
+**Set J1 and J9 according to the way you want to supply power to the module.**
+| Power Source | Input Voltage |     J1 Set    | J9 Set         |
+|--------------|---------------|---------------|----------------|
+|   DC Jack    |   5 - 36 VDC  | 1, 2 pin Short| NC             |
+| J11_VCC pin  |   3.3 VDC     | NC            | 2, 3 pin Short |
+| J11_VCC pin  |   5 - 36 VDC  | 1, 2 pin Short| 1, 2 pin Short |
+
+
+
+
+------------------------------------------------------------------------
+
 
 ### APP/BOOT Pin (J7, J8)
 
