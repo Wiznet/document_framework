@@ -12,17 +12,17 @@ date: 2025-09-03
 
 -----
 
-** This document is based on the use of the WIZSPE-T1L evaluation board. **
+** This document is based on the use of the WIZ750SR-T1L evaluation board. **
 
 -----
 
-## Unpacking the WIZSPE-T1L
+## Unpacking the WIZ750SR-T1L
 
 ### What's in the Box?
 
-The WIZSPE-T1L evaluation board package contains the following parts:
+The WIZ750SR-T1L evaluation board package contains the following parts:
 
-  - WIZSPE-T1L Module
+  - WIZ750SR-T1L Module
 
 ### Device Layout
 
@@ -60,16 +60,16 @@ TBD (img)
 
 ### Hardware
 
-  - WIZSPE-T1L Module  
+  - WIZ750SR-T1L Module  
   - Power supply for operation  
       - 5V – 36V DC adapter  
       - With optional WIZPoDL module, can be powered from PoDL PSE  
 
 -----
 
-## Connect Your WIZSPE-T1L
+## Connect Your WIZ750SR-T1L
 
-### WIZSPE-T1L Factory Settings
+### WIZ750SR-T1L Factory Settings
 
 | Network Settings | Device | IP Address     | 192.168.11.2  | -                |
 | ---------------- | ------ | -------------- | ------------- | ---------------- |
@@ -99,11 +99,11 @@ TBD (img)
 
 ### PC Settings
 
-The PC or laptop used for configuring WIZSPE-T1L must be on the **same Ethernet network segment** for communication.
+The PC or laptop used for configuring WIZ750SR-T1L must be on the **same Ethernet network segment** for communication.
 
 #### Example: PC Network Settings
 
-\* Example PC settings when WIZSPE-T1L is in factory default state:
+\* Example PC settings when WIZ750SR-T1L is in factory default state:
 
 | Network Settings | PC  | IP Address     | 192.168.11.3  | -                |
 | ---------------- | --- | -------------- | ------------- | ---------------- |
@@ -111,30 +111,30 @@ The PC or laptop used for configuring WIZSPE-T1L must be on the **same Ethernet 
 | :::              | ::: | Subnet Mask    | 255.255.255.0 | -                |
 | :::              | ::: | Port           | 5000          | -                |
 
-  - For testing TCP client and mixed TCP server/client mode, it is recommended to match the WIZSPE-T1L’s Remote host settings with the PC (or laptop).  
+  - For testing TCP client and mixed TCP server/client mode, it is recommended to match the WIZ750SR-T1L’s Remote host settings with the PC (or laptop).  
 
-  - When using DHCP (automatic IP allocation), both the WIZSPE-T1L and the PC must receive IP addresses from the **same router**.  
+  - When using DHCP (automatic IP allocation), both the WIZ750SR-T1L and the PC must receive IP addresses from the **same router**.  
 
 ### Connecting Steps
 
-The **WIZSPE-T1L** is designed to connect with serial devices via **UART**. For initial testing with a PC, you will need a **UART to USB converter** so that the module can communicate with the PC via serial interface.  
+The **WIZ750SR-T1L** is designed to connect with serial devices via **UART**. For initial testing with a PC, you will need a **UART to USB converter** so that the module can communicate with the PC via serial interface.  
 
 #### Step 1: Plug in
 
-After assembling the WIZSPE-T1L module with the evaluation board, connect as follows:
+After assembling the WIZ750SR-T1L module with the evaluation board, connect as follows:
 
   - **10BASE-T1L Ethernet Cable**  
-      - Connect the P and N of 10Base-T1L to the terminal block of the WIZSPE-T1L module. (Since polarity is detected and corrected, it does not matter if P and N are connected in reverse.)
+      - Connect the P and N of 10Base-T1L to the terminal block of the WIZ750SR-T1L module. (Since polarity is detected and corrected, it does not matter if P and N are connected in reverse.)
       - It is recommended to use twisted cables such as UTP cable or RS485 cable. Depending on the type of cable used, the maximum communication distance may vary (700 m – 1200 m). 
 
   - **Serial Cable**  
-      - Connect the J11 (UART port) of the WIZSPE-T1L module to the PC using a UART-to-USB module. The UART-to-USB module can be purchased from commercially available products.
+      - Connect the J11 (UART port) of the WIZ750SR-T1L module to the PC using a UART-to-USB module. The UART-to-USB module can be purchased from commercially available products.
 
 <!--
 |                             |
 | --------------------------- |
 |                             |
-| Figure: **WIZSPE-T1L Module** |
+| Figure: **WIZ750SR-T1L Module** |
 -->
 
 #### Step 2: Power on
@@ -144,14 +144,14 @@ Connect a 5V – 36V adapter or WIZPoDL (optional) to the PSE.
 
 #### Step 3: Search
 
-Run the Configuration Tool on the PC and click the **Search** button. If the board is powered and connected to the same network, the tool will display the WIZSPE-T1L module’s MAC address and configuration values.  
+Run the Configuration Tool on the PC and click the **Search** button. If the board is powered and connected to the same network, the tool will display the WIZ750SR-T1L module’s MAC address and configuration values.  
 
 |                                                       |
 | ----------------------------------------------------- |
-| ![](/img/products/wizspe-t1l/configtool.png) |
+| ![](/img/products/wiz750sr-t1l/configtool.png) |
 | Figure: **WIZnet Configuration Tool**                 |
 
-#### Step 4: Set up your WIZSPE-T1L
+#### Step 4: Set up your WIZ750SR-T1L
 
 Adjust the device settings according to your environment. For this step, initial testing is based on factory default values.  
 
@@ -164,7 +164,7 @@ Adjust the device settings according to your environment. For this step, initial
 Use the PC as a serial device and TCP client to perform data communication testing. For this, a serial terminal program and a TCP client terminal program must be running on the PC. Based on the factory default settings, connect the PC and the device after configuring each program as follows.
 
   - Serial terminal program: **115200-8-N-1, Flow control: None**  
-  - TCP client program: **192.168.11.2:5000** (IP address and port of WIZSPE-T1L)  
+  - TCP client program: **192.168.11.2:5000** (IP address and port of WIZ750SR-T1L)  
 
 The COM port for connecting the serial terminal program can be checked in the Windows Control Panel > Device Manager.
   - Control Panel > System > Device Manager  
@@ -176,7 +176,7 @@ The COM port for connecting the serial terminal program can be checked in the Wi
 
 #### Step 6: Verify
 
-If the following data communication works correctly, the basic data transmission function of WIZSPE-T1L is verified:
+If the following data communication works correctly, the basic data transmission function of WIZ750SR-T1L is verified:
 
   - **Serial to Ethernet: Transmission verification**  
       - Enter a string in the serial terminal. The same string should appear on the TCP client terminal.  
@@ -186,11 +186,11 @@ If the following data communication works correctly, the basic data transmission
 
 #### Step 7: Done
 
-Now you are ready to use the WIZSPE-T1L!
+Now you are ready to use the WIZ750SR-T1L!
 
-  - This section describes the process of testing the operation of the WIZSPE-T1L product, assuming the PC is used as a **serial device** and a **remote network device**.  
+  - This section describes the process of testing the operation of the WIZ750SR-T1L product, assuming the PC is used as a **serial device** and a **remote network device**.  
 
-  - Afterward, the user can connect the WIZSPE-T1L module to the **serial device where networking functions will be added**, and **control or monitor the device** through data transmission and reception from a remote PC or server (remote network device).
+  - Afterward, the user can connect the WIZ750SR-T1L module to the **serial device where networking functions will be added**, and **control or monitor the device** through data transmission and reception from a remote PC or server (remote network device).
 
 ## Documents History
 | Title | Description | Link | Notes |

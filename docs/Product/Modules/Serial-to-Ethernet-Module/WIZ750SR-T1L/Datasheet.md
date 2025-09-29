@@ -1,6 +1,6 @@
 ---
 id: datasheet
-title: WIZSPE-T1L Datasheet
+title: WIZ750SR-T1L Datasheet
 date: 2025-09-03
 ---
 
@@ -24,29 +24,29 @@ date: 2025-09-03
 
 ------------------------------------------------------------------------
 
-### WIZSPE-T1L Callout
+### WIZ750SR-T1L Callout
 
 TBD (3D image)
 
 ------------------------------------------------------------------------
 
-### WIZSPE-T1L Pinout
+### WIZ750SR-T1L Pinout
 
 TBD (3D image)
 
 
 ------------------------------------------------------------------------
 
-### WIZSPE-T1L Block Diagram
+### WIZ750SR-T1L Block Diagram
 
-<img src="/img/products/wizspe-t1l/block_diagram.png" width="800" />
+<img src="/img/products/wiz750sr-t1l/block_diagram.png" width="800" />
 
 
 ------------------------------------------------------------------------
 
 ## Schematic & Artwork
 
-### WIZSPE-T1L
+### WIZ750SR-T1L
 
 TBD 
 
@@ -58,7 +58,7 @@ TBD
 
 ## Part list
 
-### WIZSPE-T1L
+### WIZ750SR-T1L
 
 TBD 
 

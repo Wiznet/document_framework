@@ -12,17 +12,17 @@ date: 2025-09-03
 
 -----
 
-** 이 문서는 WIZSPE-T1L 개발 보드의 활용을 기준으로 작성되었습니다. **
+** 이 문서는 WIZ750SR-T1L 개발 보드의 활용을 기준으로 작성되었습니다. **
 
 -----
 
-## Unpacking the WIZSPE-T1L
+## Unpacking the WIZ750SR-T1L
 
 ### What's in the Box?
 
-The WIZSPE-T1L evaluation board package contains the following parts.
+The WIZ750SR-T1L evaluation board package contains the following parts.
 
-  - WIZSPE-T1L Module
+  - WIZ750SR-T1L Module
 
 
 ### Device Layout
@@ -61,16 +61,16 @@ TBD (img)
 
 ### Hardware
 
-  - WIZSPE-T1L 모듈
+  - WIZ750SR-T1L 모듈
   - 제품 동작을 위한 전원
       - 5V - 36V DC 어댑터
       - 별매되는 WIZPoDL 모듈 장착시 PoDL PSE로부터 전원 공급 받을 수 있음 
 
 -----
 
-## Connect Your WIZSPE-T1L
+## Connect Your WIZ750SR-T1L
 
-### WIZSPE-T1L Factory Settings
+### WIZ750SR-T1L Factory Settings
 
 | 네트워크 설정 | 장치  | IP 주소       | 192.168.11.2  | \-                |
 | ------- | --- | ----------- | ------------- | ----------------- |
@@ -104,12 +104,12 @@ TBD (img)
 
 ### PC Settings
 
-WIZSPE-T1L의 설정을 위한 PC 혹은
+WIZ750SR-T1L의 설정을 위한 PC 혹은
 노트북(laptop)은 **동일한 이더넷 네트워크 대역에 위치하여야 서로 통신이 가능합니다.**
 
 #### Example: PC Network Settings
 
-\* WIZSPE-T1L의 설정이 공장 초기화 값일 때, PC의 설정 예
+\* WIZ750SR-T1L의 설정이 공장 초기화 값일 때, PC의 설정 예
 
 | 네트워크 설정 | PC  | IP 주소       | 192.168.11.3  | \-                |
 | ------- | --- | ----------- | ------------- | ----------------- |
@@ -118,31 +118,31 @@ WIZSPE-T1L의 설정을 위한 PC 혹은
 | :::     | ::: | Port 번호     | 5000          | \-                |
 
 
-  - TCP 클라이언트 및 TCP 서버/클라이언트 혼용 모드의 테스트를 위해 WIZSPE-T1L의 Remote host
+  - TCP 클라이언트 및 TCP 서버/클라이언트 혼용 모드의 테스트를 위해 WIZ750SR-T1L의 Remote host
     설정은 PC(혹은 laptop)와 일치하는 것이 좋습니다.
 
 
 
-  - 만약 DHCP(자동 IP 할당) 기능을 사용 할 경우, WIZSPE-T1L 제품과 테스트용 PC는 **동일한
+  - 만약 DHCP(자동 IP 할당) 기능을 사용 할 경우, WIZ750SR-T1L 제품과 테스트용 PC는 **동일한
     공유기**로부터 IP 주소를 할당 받도록 설정하여야 합니다.
 
 ### Connecting Steps
 
-**WIZSPE-T1L**은 **UART**를 이용하여 시리얼 장치와 연결되도록 구성되어 있습니다. 따라서 PC를 이용한 초기 제품 테스트의 경우, 시중에 판매 중인 **UART to USB 컨버터**를 활용하시어 모듈과 PC가 시리얼 통신이 가능하도록 연결이 필요합니다.
+**WIZ750SR-T1L**은 **UART**를 이용하여 시리얼 장치와 연결되도록 구성되어 있습니다. 따라서 PC를 이용한 초기 제품 테스트의 경우, 시중에 판매 중인 **UART to USB 컨버터**를 활용하시어 모듈과 PC가 시리얼 통신이 가능하도록 연결이 필요합니다.
 
 
 
 #### Step 1: Plug in
 
-WIZSPE-T1L 모듈과 개발보드를 아래 그림과 같이 결합한 후, 다음과 같이 연결합니다.
+WIZ750SR-T1L 모듈과 개발보드를 아래 그림과 같이 결합한 후, 다음과 같이 연결합니다.
 
   - 10BASE-T1L 이더넷 케이블
-      - WIZSPE-T1L 모듈의 터미널 블럭에 10 Base-T1L의 P, N 을 연결합니다.
+      - WIZ750SR-T1L 모듈의 터미널 블럭에 10 Base-T1L의 P, N 을 연결합니다.
         (극성을 감지하여 보정하기 때문에 P, N을 반대로 연결하셔도 무방합니다.)
       - 케이블은 UTP 케이블, RS485 케이블처럼 꼬임 케이블을 권장드리며 사용되는 케이블에 따라 최대 통신 거리의 변동(700M - 1200M)이 있습니다.
 
   - 시리얼 케이블
-      - WIZSPE-T1L 모듈의 J11(UART 포트)와 PC를 UART to USB 모듈을 사용하여 연결합니다.
+      - WIZ750SR-T1L 모듈의 J11(UART 포트)와 PC를 UART to USB 모듈을 사용하여 연결합니다.
         UART to USB 모듈은 시중에 나와있는 모듈을 구매하여 사용합니다.
 
 
@@ -150,7 +150,7 @@ WIZSPE-T1L 모듈과 개발보드를 아래 그림과 같이 결합한 후, 다�
 |                             |
 | --------------------------- |
 |                             |
-| Figure: **WIZSPE-T1L 모듈** |
+| Figure: **WIZ750SR-T1L 모듈** |
 -->
 
 #### Step 2: Power on
@@ -161,14 +161,14 @@ WIZSPE-T1L 모듈과 개발보드를 아래 그림과 같이 결합한 후, 다�
 #### Step 3: Search
 
 PC의 Configuration tool을 실행하여 상단 Search 버튼을 클릭합니다. 보드에 전원이 인가되고 동일한 네트워크에
-연결되어 동작 중인 경우 WIZSPE-T1L 모듈의 MAC 주소와 설정 값을 tool에서 확인 할 수 있습니다.
+연결되어 동작 중인 경우 WIZ750SR-T1L 모듈의 MAC 주소와 설정 값을 tool에서 확인 할 수 있습니다.
 
 |                                                       |
 | ----------------------------------------------------- |
-| ![](/img/products/wizspe-t1l/configtool.png) |
+| ![](/img/products/wiz750sr-t1l/configtool.png) |
 | Figure: **WIZnet Configuration Tool**                 |
 
-#### Step 4: Set up your WIZSPE-T1L
+#### Step 4: Set up your WIZ750SR-T1L
 
 사용자 환경에 맞춰 제품의 설정 값을 변경합니다. 본 Step에서는 제품의 공장 초기화 설정을 기반으로 초기 테스트를 수행합니다.
 
@@ -183,7 +183,7 @@ PC를 사용자 시리얼 장치 및 TCP 클라이언트로 삼아 데이터 통
 연결하기 위해 각각 프로그램은 다음과 같이 설정 후 연결하면 됩니다.
 
   - 시리얼 터미널 프로그램: **115200-8-N-1, Flow control: None**
-  - TCP 클라이언트 프로그램: **192.168.11.2:5000** (WIZSPE-T1L의 IP 주소 및 포트 번호)
+  - TCP 클라이언트 프로그램: **192.168.11.2:5000** (WIZ750SR-T1L의 IP 주소 및 포트 번호)
 
 시리얼 터미널 프로그램을 연결하기 위한 COM 포트는 Windows 제어판 \> 장치 관리자에서 확인 할 수 있습니다.
 
@@ -196,7 +196,7 @@ PC를 사용자 시리얼 장치 및 TCP 클라이언트로 삼아 데이터 통
 
 #### Step 6: Verify
 
-아래와 같은 데이터 통신 과정이 올바르게 수행되면, WIZSPE-T1L 제품의 기본적인 데이터 전송 기능 검증이 완료됩니다.
+아래와 같은 데이터 통신 과정이 올바르게 수행되면, WIZ750SR-T1L 제품의 기본적인 데이터 전송 기능 검증이 완료됩니다.
 
   - **시리얼 to 이더넷: 데이터 전송 검증**
       - 시리얼 터미널 측에 문자열을 입력하고, 동일한 문자열이 TCP 클라이언트 터미널 측에 표시되는지 확인해 봅니다. 
@@ -208,14 +208,14 @@ PC를 사용자 시리얼 장치 및 TCP 클라이언트로 삼아 데이터 통
 
 #### Step 7: Done
 
-이제 WIZSPE-T1L 제품을 활용할 준비가 완료되었습니다.
+이제 WIZ750SR-T1L 제품을 활용할 준비가 완료되었습니다.
 
-  - 본 내용은 PC를 **시리얼 장치** 및 **원격 네트워크 장비**로 가정하고 WIZSPE-T1L 제품의 동작을
+  - 본 내용은 PC를 **시리얼 장치** 및 **원격 네트워크 장비**로 가정하고 WIZ750SR-T1L 제품의 동작을
     테스트하는 과정입니다. 
 
 
 
-  - 이후 사용자는 **네트워킹 기능을 추가 할 시리얼 장비**에 WIZSPE-T1L 모듈을 연결하고, 이 장비를
+  - 이후 사용자는 **네트워킹 기능을 추가 할 시리얼 장비**에 WIZ750SR-T1L 모듈을 연결하고, 이 장비를
     **원격지의 PC 혹은 서버 측(원격 네트워크 장비)**에서 데이터 송/수신을 통해 **제어 및 모니터링이
     가능**합니다.
 
