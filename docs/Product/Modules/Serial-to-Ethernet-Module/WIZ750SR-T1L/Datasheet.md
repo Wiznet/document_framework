@@ -12,7 +12,7 @@ date: 2025-09-03
 |----------------|------------------------|-------------|
 | MCU            | ARM Cortex-M0 Core      | W7500<br />48Mhz maximum frequency<br />Internal 8Mhz RC Oscillator<br />Flash: 128KB<br />Large flexible-size SRAM buffer for various User Application<br />- Min 16KB available if full 32KB socket buffer used<br />- Max 48KB available if no socket buffer used<br />ROM for boot code: 6 KB |
 |                | Hardwired TCP/IP Core   | 8 independent Sockets<br />SRAM for socket: 32KB<br />MII (Medium-Independent Interface)<br />TCP/IP Protocols: TCP, UDP, ICMP, IPv4, ARP, IGMP, PPPoE |
-| PHY            | Transceiver             | YT8111<br />Dual Robust 10Base-T1L Ethernet Transceiver |
+| PHY            | Transceiver             | 10Base-T1L Ethernet PHY |
 | Serial         | Signal                  | TXD, RXD, RTS, CTS, GND |
 |                | Parameters              | Parity: None, Odd, Even<br />Data bits: 7, 8 bit<br />Flow control: None, RTS / CTS, XON / XOFF |
 |                | Speed                   | Up to 230Kbps |
@@ -26,13 +26,23 @@ date: 2025-09-03
 
 ### WIZ750SR-T1L Callout
 
-TBD (3D image)
+<img src="/img/products/wiz750sr-t1l/wiz750sr-t1l_callout.png" width="800" />
 
 ------------------------------------------------------------------------
 
 ### WIZ750SR-T1L Pinout
 
-TBD (3D image)
+<img src="/img/products/wiz750sr-t1l/wiz750sr-t1l_pwrpin.png" width="800" />
+
+<img src="/img/products/wiz750sr-t1l/wiz750sr-t1l_j11_pin.png" width="800" />
+
+<img src="/img/products/wiz750sr-t1l/wiz750sr-t1l_j10_pin.png" width="800" />
+
+<img src="/img/products/wiz750sr-t1l/wiz750sr-t1l_j6_pin.png" width="800" />
+
+<img src="/img/products/wiz750sr-t1l/wiz750sr-t1l_j7,8_pin.png" width="800" />
+
+<img src="/img/products/wiz750sr-t1l/wiz750sr-t1l_led.png" width="800" />
 
 
 ------------------------------------------------------------------------
