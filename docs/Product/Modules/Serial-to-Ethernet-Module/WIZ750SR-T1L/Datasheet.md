@@ -28,22 +28,21 @@ date: 2025-09-03
 
 <img src="/img/products/wiz750sr-t1l/wiz750sr-t1l_callout.png" width="800" />
 
+
 ------------------------------------------------------------------------
 
-### WIZ750SR-T1L Pinout
-
-<img src="/img/products/wiz750sr-t1l/wiz750sr-t1l_pwrpin.png" width="800" />
-
-<img src="/img/products/wiz750sr-t1l/wiz750sr-t1l_j11_pin.png" width="800" />
-
-<img src="/img/products/wiz750sr-t1l/wiz750sr-t1l_j10_pin.png" width="800" />
-
-<img src="/img/products/wiz750sr-t1l/wiz750sr-t1l_j6_pin.png" width="800" />
-
-<img src="/img/products/wiz750sr-t1l/wiz750sr-t1l_j7,8_pin.png" width="800" />
+### WIZ750SR-T1L Indicator
 
 <img src="/img/products/wiz750sr-t1l/wiz750sr-t1l_led.png" width="800" />
 
+| Parts | Description                      |
+|-------|----------------------------------|
+| LD1   | Link LED                         |
+| LD2   | TCP Connection LED               |
+| LD3   | Power LED                        |
+| LD4   | Application Running LED          |
+| LD5   | User Config LED                  |
+| LD6   | User Config LED                  |
 
 ------------------------------------------------------------------------
 
@@ -86,7 +85,9 @@ TBD
 ## Connector Specification
 
 
-### BOOT Pin (J7, J8)
+### APP/BOOT Pin (J7, J8)
+
+<img src="/img/products/wiz750sr-t1l/wiz750sr-t1l_j7,8_pin.png" width="800" />
 
 
 | Parts | Pin Number | Signal   | Description                   |
@@ -103,6 +104,7 @@ TBD
 
 ### SWD(JTAG) Pin (J10)
 
+<img src="/img/products/wiz750sr-t1l/wiz750sr-t1l_j10_pin.png" width="800" />
 
 | Parts | Pin Number | Signal | Description                      |
 |-------|------------|--------|----------------------------------|
@@ -114,8 +116,9 @@ TBD
 
 ------------------------------------------------------------------------
 
-### ISP Port (J6)
+### ISP/DEBUG Port (J6)
 
+<img src="/img/products/wiz750sr-t1l/wiz750sr-t1l_j6_pin.png" width="800" />
 
 | Parts | Pin Number | Signal          | Description                          |
 |-------|------------|-----------------|--------------------------------------|
@@ -130,6 +133,7 @@ TBD
 
 ### Serial Port (J11)
 
+<img src="/img/products/wiz750sr-t1l/wiz750sr-t1l_j11_pin.png" width="800" />
 
 | Parts | Pin Number | Signal                 | Description                              |
 |-------|------------|------------------------|------------------------------------------|
@@ -145,7 +149,6 @@ TBD
 | :::   | 10         | UART0 DTR/PHY LINK     | Data Serial DTR / Phy link               |
 | :::   | 11         | GND                    | System Ground                            |
 | :::   | 12         | GND                    | System Ground                            |
-
 
 ------------------------------------------------------------------------
 
