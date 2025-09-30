@@ -140,6 +140,7 @@ WIZ750SR-T1L 모듈과 개발보드를 아래 그림과 같이 결합한 후, �
       - WIZ750SR-T1L 모듈의 터미널 블럭에 10 Base-T1L의 P, N 을 연결합니다.
         (극성을 감지하여 보정하기 때문에 P, N을 반대로 연결하셔도 무방합니다.)
       - 케이블은 UTP 케이블, RS485 케이블처럼 꼬임 케이블을 권장드리며 사용되는 케이블에 따라 최대 통신 거리의 변동(700M - 1200M)이 있습니다.
+      - 10BASE-T1L과 PC의 10/100/1000 Base-T 이더넷이 서로 통신하기 위해서는 T1L to 10/100 Base-T 미디어 컨버터(WIZMD-T1L)을 거쳐서 연결해야 서로 통신이 가능합니다.
 
   - 시리얼 케이블
       - WIZ750SR-T1L 모듈의 J11(UART 포트)와 PC를 UART to USB 모듈을 사용하여 연결합니다.
@@ -155,7 +156,12 @@ WIZ750SR-T1L 모듈과 개발보드를 아래 그림과 같이 결합한 후, �
 
 #### Step 2: Power on
 
-5V - 36V 전원 어댑터를 연결하거나 WIZPoDL(별매)를 PSE에 연결합니다.
+**전원 인가에 따른 세팅을 올바르게 세팅하지 않으면 고장의 원인이 될 수 있으니 주의 바랍니다.**
+| 5 - 36V to DC JACK or Using WIZPoDL Module | 5 - 36V to J11 2,4 PIN(VCC) | 3.3V to J11 2,3 PIN(VCC)   |
+| ------------------ | --------------------------- | -------------------------- |
+| ![wiz750sr-t1l_j1_short](/img/products/wiz750sr-t1l/wiz750sr-t1l_j1_short.png)    | ![wiz750sr-t1l_j9-1,2](/img/products/wiz750sr-t1l/wiz750sr-t1l_j9-1,2.png) | ![wiz750sr-t1l_j9-2,3](/img/products/wiz750sr-t1l/wiz750sr-t1l_j9-2,3.png)       |
+| J1 - Short<br />J9 - NC | J1 - Short<br />J9 - 1,2 PIN Short | J1 - NC<br />J9 - 2,3 PIN Short |
+
   - 정상적으로 전원이 공급된 경우, 모듈과 개발 보드의 전원 LED(red)가 점등됩니다.
 
 #### Step 3: Search
@@ -218,8 +224,9 @@ PC를 사용자 시리얼 장치 및 TCP 클라이언트로 삼아 데이터 통
   - 이후 사용자는 **네트워킹 기능을 추가 할 시리얼 장비**에 WIZ750SR-T1L 모듈을 연결하고, 이 장비를
     **원격지의 PC 혹은 서버 측(원격 네트워크 장비)**에서 데이터 송/수신을 통해 **제어 및 모니터링이
     가능**합니다.
-
+<!--
 ## Documents History
 | Title | Description | Link | Notes |
 |-------|-------------|------|-------|
 | Getting-Started  | Ver 1.0.0 (250919) | ![](\img\products\w5500\w5500_evb\icons\docs_icon_small.png) [Getting-Started-KO_V100](./docx/Getting-Started-KO_V100.pdf) | - |
+-->
