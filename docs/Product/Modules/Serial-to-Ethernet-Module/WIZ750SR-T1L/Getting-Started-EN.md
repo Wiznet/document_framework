@@ -70,15 +70,6 @@ The WIZ750SR-T1L evaluation board package contains the following parts:
 
 -----
 
-## Supply Power to WIZ750SR-T1L
-
-**Please note that an incorrect power configuration may cause damage, so caution is advised.**
-| 5 - 36V to DC JACK | 5 - 36V to J11 2,4 PIN(VCC) | 3.3V to J11 2,3 PIN(VCC)   |
-| ------------------ | --------------------------- | -------------------------- |
-| ![wiz750sr-t1l_j1_short](/img/products/wiz750sr-t1l/wiz750sr-t1l_j1_short.png)    | ![wiz750sr-t1l_j9-1,2](/img/products/wiz750sr-t1l/wiz750sr-t1l_j9-1,2.png) | ![wiz750sr-t1l_j9-2,3](/img/products/wiz750sr-t1l/wiz750sr-t1l_j9-2,3.png)       |
-| J1 - Short<br />J9 - NC | J1 - Short<br />J9 - 1,2 PIN Short | J1 - NC<br />J9 - 2,3 PIN Short |
-
-
 ## Connect Your WIZ750SR-T1L
 
 ### WIZ750SR-T1L Factory Settings
@@ -138,6 +129,7 @@ After assembling the WIZ750SR-T1L module with the evaluation board, connect as f
   - **10BASE-T1L Ethernet Cable**  
       - Connect the P and N of 10Base-T1L to the terminal block of the WIZ750SR-T1L module. (Since polarity is detected and corrected, it does not matter if P and N are connected in reverse.)
       - It is recommended to use twisted cables such as UTP cable or RS485 cable. Depending on the type of cable used, the maximum communication distance may vary (700 m – 1200 m). 
+      - A 10BASE-T1L Ethernet cable requires a T1L-to-10/100 Ethernet media converter (WIZMD-T1L) to connect with a PC’s 10/100/1000 Ethernet port through RJ45.
 
   - **Serial Cable**  
       - Connect the J11 (UART port) of the WIZ750SR-T1L module to the PC using a UART-to-USB module. The UART-to-USB module can be purchased from commercially available products.
@@ -151,8 +143,13 @@ After assembling the WIZ750SR-T1L module with the evaluation board, connect as f
 
 #### Step 2: Power on
 
-Connect a 5V – 36V adapter or WIZPoDL (optional) to the PSE.  
-  - When powered correctly, the power LED (red) on the module and board will light up.  
+**Please note that an incorrect power configuration may cause damage, so caution is advised.**
+| 5 - 36V to DC JACK or Using WIZPoDL Module | 5 - 36V to J11 2,4 PIN(VCC) | 3.3V to J11 2,3 PIN(VCC)   |
+| ------------------ | --------------------------- | -------------------------- |
+| ![wiz750sr-t1l_j1_short](/img/products/wiz750sr-t1l/wiz750sr-t1l_j1_short.png)    | ![wiz750sr-t1l_j9-1,2](/img/products/wiz750sr-t1l/wiz750sr-t1l_j9-1,2.png) | ![wiz750sr-t1l_j9-2,3](/img/products/wiz750sr-t1l/wiz750sr-t1l_j9-2,3.png)       |
+| J1 - Short<br />J9 - NC | J1 - Short<br />J9 - 1,2 PIN Short | J1 - NC<br />J9 - 2,3 PIN Short |
+
+When powered correctly, the power LED (red) on the module and board will light up.  
 
 #### Step 3: Search
 
@@ -203,8 +200,9 @@ Now you are ready to use the WIZ750SR-T1L!
   - This section describes the process of testing the operation of the WIZ750SR-T1L product, assuming the PC is used as a **serial device** and a **remote network device**.  
 
   - Afterward, the user can connect the WIZ750SR-T1L module to the **serial device where networking functions will be added**, and **control or monitor the device** through data transmission and reception from a remote PC or server (remote network device).
-
+<!--
 ## Documents History
 | Title | Description | Link | Notes |
 |-------|-------------|------|-------|
 | Getting-Started  | Ver 1.0.0 (250919) | ![](\img\products\w5500\w5500_evb\icons\docs_icon_small.png) [Getting-Started-EN_V100](./docx/Getting-Started-EN_V100.pdf) | - |
+-->
