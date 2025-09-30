@@ -64,22 +64,31 @@ date: 2025-09-03
 
 | H/W version | Type | Filetype | Download Link                                                | Remarks |
 | ----------- | ---- | -------- | ------------------------------------------------------------ | ------- |
-| 1.0         | -    | STEP     |                                                              | \-      |
+| 1.0         | -    | STEP     | ![](/img/products/w5500/w5500_evb/icons/download.png) <a href="https://github.com/Wiznet/Hardware-Files-of-WIZnet/raw/master/04_Serial_to_Ethernet_Module/WIZ750SR-T1L/WIZ750SR-T1L_V100/3D%20Step/WIZ750SR-T1L.zip" target="_blank">Download</a> | \-      |
 
 ### Part list
 
 | H/W version | Type | Filetype | Download Link                                                | Remarks |
 | ----------- | ---- | -------- | ------------------------------------------------------------ | ------- |
-| 1.0         | -    | Excel    |                                                              |  \-     |
-| :::         | :::  | PDF      | ![](/img/products/w5500/w5500_evb/icons/download.png) <a href="https://github.com/Wiznet/Hardware-Files-of-WIZnet/raw/master/04_Serial_to_Ethernet_Module/WIZ750SR-T1L/WIZ750SR-T1L_V100/Partlist/WIZSPE-T1L_R10.pdf" target="_blank">Download</a> |         |
+| 1.0         | -    | Excel    | ![](/img/products/w5500/w5500_evb/icons/download.png) <a href="https://github.com/Wiznet/Hardware-Files-of-WIZnet/raw/master/04_Serial_to_Ethernet_Module/WIZ750SR-T1L/WIZ750SR-T1L_V100/Partlist/WIZ750SR-T1L_R10.xlsx" target="_blank">Download</a> | \-      |
+| :::         | :::  | PDF      | ![](/img/products/w5500/w5500_evb/icons/download.png) <a href="https://github.com/Wiznet/Hardware-Files-of-WIZnet/raw/master/04_Serial_to_Ethernet_Module/WIZ750SR-T1L/WIZ750SR-T1L_V100/Partlist/WIZ750SR-T1L_R10.pdf" target="_blank">Download</a> | \-      |
 
 ## Electrical Characteristics
 
-TBD
+|    Symbol    |     Parameter                  | Pins |   Min   |   Typ	  |   Max   |  Unit   |
+|--------------|--------------------------------|------|---------|---------|---------|---------|
+|    Power     |    Power Source                | DC JACK  |  5.0  |    -     |    36     |     V    |
+|    VCC       |    W7500 Operating Voltage     | W7500 VCC|  3.135  |    3.3     |    3.465     |     V    |
+|      Vss     |	   Ground                   |	 ALL   |       |    0     |    50     |    mV    |
+|    fFCLK     |	Internal CPU clock frequency|  W7500   |   0   |    -	  |   48      |	   MHz   |
+|     VIO	   |I/O Signal voltage (Tolerance)  | W7500 IO |Vss-0.3|    3.3   |   3.6	  |	   V     |
 
 ### Operating Conditions
 
-TBD
+|    Symbol    |     Parameter                  | Pins |   Min   |   Typ	  |   Max   |  Unit   |
+|--------------|--------------------------------|------|---------|---------|---------|---------|
+|    Tstg      |	Storage Temperature (max)   |	ALL    |  -40  |	      |   85      |	   ℃    |
+|     TA	   |Ambient operating temperature   |	ALL	   |  -40  |	      |   85	  |	   ℃    |
 
 ------------------------------------------------------------------------
 
@@ -122,13 +131,15 @@ TBD
 
 | Parts | Pin Number | Signal   | Description                   |
 |-------|------------|----------|-------------------------------|
-| J7    | 1          | APP BOOT | Application Jump at BOOT mode |
+| J7    | 1          | APP BOOT | Application Jump at BOOT mode (Active Low)<br />When this pin is held Low and reset, the system runs only the Boot code and does not jump to the App code, unlike normal operation.<br /> This mode is used for debugging and forced uploading to the App area. |
 | :::   | 2          | GND      | System Ground                 |
 
 | Parts | Pin Number | Signal | Description         |
 |-------|------------|--------|---------------------|
-| J8    | 1          | BOOT   | System Ground       |
+| J8    | 1          | BOOT   | Boot mode Pin (Active High) |
 | :::   | 2          | VCC    | System Power (3.3V) |
+
+**For pin J7, the Boot mode refers to the code area’s Boot process. For pin J8, the Boot mode refers to the W7500’s native Boot mode, which allows ISP (In-System Programming) functionality.**
 
 ------------------------------------------------------------------------
 
@@ -153,7 +164,7 @@ TBD
 | Parts | Pin Number | Signal          | Description                          |
 |-------|------------|-----------------|--------------------------------------|
 | J6    | 1          | VCC             | System Power (3.3V)                  |
-| :::   | 2          | BOOT            | Go to Boot mode                      |
+| :::   | 2          | BOOT            | Boot mode Pin (Active High)          |
 | :::   | 3          | UART2 TX        | ISP Serial TX                        |
 | :::   | 4          | UART2 RX        | ISP Serial RX                        |
 | :::   | 5          | nRESET          | System Reset signal (Active Low)     |
@@ -172,7 +183,7 @@ TBD
 | :::   | 3          | UART0 RX               | Data Serial RX                           |
 | :::   | 4          | VCC                    | System Power (3.3V)                      |
 | :::   | 5          | UART0 CTS              | Data Serial CTS                          |
-| :::   | 6          | :::                    | :::                                      |
+| :::   | 6          | FACTORY RESET          | Factory Reset signal (Active 5.0s Low)   |
 | :::   | 7          | UART0 TX               | Data Serial TX                           |
 | :::   | 8          | HW_TRIG/UART0 DSR/ TCP | HW Trigger/ Data Serial DSR / TCP Status |
 | :::   | 9          | UART0 RTS              | Data Serial RTS                          |
