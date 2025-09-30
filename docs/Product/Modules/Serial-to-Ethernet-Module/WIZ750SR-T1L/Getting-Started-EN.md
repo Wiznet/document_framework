@@ -26,7 +26,10 @@ The WIZ750SR-T1L evaluation board package contains the following parts:
 
 ### Device Layout
 
-TBD (img)
+|                                     TOP                                       |                                BOTTOM                                     |
+|-------------------------------------------------------------------------------|---------------------------------------------------------------------------|
+| ![wiz750sr-t1l_3d_top](/img/products/wiz750sr-t1l/wiz750sr-t1l_3d_top.png)    | ![wiz750sr-t1l_3d_bot](/img/products/wiz750sr-t1l/wiz750sr-t1l_3d_bot.png)|
+
 
 ### Parts
   - Ethernet MCU **W7500** based on ARM Cortex-M0 with an integrated Hardwired TCP/IP core  
@@ -66,6 +69,15 @@ TBD (img)
       - With optional WIZPoDL module, can be powered from PoDL PSE  
 
 -----
+
+## Supply Power to WIZ750SR-T1L
+
+**Please note that an incorrect power configuration may cause damage, so caution is advised.**
+| 5 - 36V to DC JACK | 5 - 36V to J11 2,4 PIN(VCC) | 3.3V to J11 2,3 PIN(VCC)   |
+| ------------------ | --------------------------- | -------------------------- |
+| ![wiz750sr-t1l_j1_short](/img/products/wiz750sr-t1l/wiz750sr-t1l_j1_short.png)    | ![wiz750sr-t1l_j9-1,2](/img/products/wiz750sr-t1l/wiz750sr-t1l_j9-1,2.png) | ![wiz750sr-t1l_j9-2,3](/img/products/wiz750sr-t1l/wiz750sr-t1l_j9-2,3.png)       |
+| J1 - Short<br />J9 - NC | J1 - Short<br />J9 - 1,2 PIN Short | J1 - NC<br />J9 - 2,3 PIN Short |
+
 
 ## Connect Your WIZ750SR-T1L
 
