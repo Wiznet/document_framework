@@ -26,7 +26,7 @@ date: 2025-09-03
 
 ### WIZ750SR-T1L Callout
 
-<img src="/img/products/wiz750sr-t1l/wiz750sr-t1l_callout.png" width="800" />
+<img src="/img/products/wiz750sr-t1l/wiz750sr-t1l_callout.png" width="900" />
 
 
 ------------------------------------------------------------------------
@@ -50,35 +50,36 @@ date: 2025-09-03
 
 <img src="/img/products/wiz750sr-t1l/block_diagram.png" width="800" />
 
-
 ------------------------------------------------------------------------
 
-## Schematic & Artwork
 
-### WIZ750SR-T1L
+### Schematic & Artwork
 
-TBD 
+| H/W version | Type | Filetype | Download Link                                                | Remarks |
+| ----------- | ---- | -------- | ------------------------------------------------------------ | ------- |
+| 1.0         |  -  | Altium   | ![](/img/products/w5500/w5500_evb/icons/download.png) <a href="https://github.com/Wiznet/Hardware-Files-of-WIZnet/raw/master/04_Serial_to_Ethernet_Module/WIZ750SR-T1L/WIZ750SR-T1L_V100/Schematic/WIZ750SR-T1L_R10.zip">Download</a> | \-      |
+| :::         | :::  | PDF      | ![](/img/products/w5500/w5500_evb/icons/download.png) <a href="https://github.com/Wiznet/Hardware-Files-of-WIZnet/raw/master/04_Serial_to_Ethernet_Module/WIZ750SR-T1L/WIZ750SR-T1L_V100/Schematic/WIZ750SR-T1L_R10.pdf" target="_blank">Download</a> | \-      |
 
-------------------------------------------------------------------------
+### 3D File
 
-## 3D File
+| H/W version | Type | Filetype | Download Link                                                | Remarks |
+| ----------- | ---- | -------- | ------------------------------------------------------------ | ------- |
+| 1.0         | -    | STEP     |                                                              | \-      |
 
-TBD 
+### Part list
 
-## Part list
-
-### WIZ750SR-T1L
-
-TBD 
-
-------------------------------------------------------------------------
+| H/W version | Type | Filetype | Download Link                                                | Remarks |
+| ----------- | ---- | -------- | ------------------------------------------------------------ | ------- |
+| 1.0         | -    | Excel    |                                                              |  \-     |
+| :::         | :::  | PDF      | ![](/img/products/w5500/w5500_evb/icons/download.png) <a href="https://github.com/Wiznet/Hardware-Files-of-WIZnet/raw/master/04_Serial_to_Ethernet_Module/WIZ750SR-T1L/WIZ750SR-T1L_V100/Partlist/WIZSPE-T1L_R10.pdf" target="_blank">Download</a> |         |
 
 ## Electrical Characteristics
+
+TBD
 
 ### Operating Conditions
 
 TBD
-
 
 ------------------------------------------------------------------------
 
@@ -183,6 +184,8 @@ TBD
 
 ### SPE Terminal Block (J2)
 
+<img src="/img/products/wiz750sr-t1l/wiz750sr-t1l_terminal.png" width="800" />
+
 | Parts | Pin Number | Signal   | Description                                    |
 |-------|------------|----------|------------------------------------------------|
 | J2    | 1          | P        | Positive (+) line of the SPE differential pair |
@@ -192,4 +195,6 @@ TBD
 ------------------------------------------------------------------------
 
 ## Dimension
+
+<img src="/img/products/wiz750sr-t1l/wiz750sr-t1l_dimension.png" width="800" />
 
