@@ -23,7 +23,7 @@ import TabItem from '@theme/TabItem';
 
 <details>
 <summary><b>Block Diagram</b></summary> 
-<img src="/img/products/w5500/w5500_block_diagram.png" alt="w5500_block_diagram" width="500"/>
+<img src="/img/products/w5500/W5500_block_diagram.png" alt="w5500_block_diagram" width="500"/>
 
 </details>
 
