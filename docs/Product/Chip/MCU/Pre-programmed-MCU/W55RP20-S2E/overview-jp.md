@@ -6,7 +6,7 @@ date: 2025-05-27
 
 ## 概要
 
-**W55RP20-S2E**は、[W55RP20](./../overview-jp.md)にシリアルからイーサネットへのファームウェア（Serial to Ethernet FW）および有効なMACアドレスが事前にプログラムされた製品です。
+**W55RP20-S2E**は、[W55RP20](./../../W55RP20/overview-jp.md)にシリアルからイーサネットへのファームウェア（Serial to Ethernet FW）および有効なMACアドレスが事前にプログラムされた製品です。
 
 ### WIZnet S2Eソリューション
 

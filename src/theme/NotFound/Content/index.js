@@ -32,11 +32,13 @@ export default function ContentWrapper(props) {
         target: '/Product/Modules/Serial-to-Ethernet-Module/s2e_module',
       },
       {
-        match: '/Product/S2E-Module/WIZ752SR-12x-Series/WIZ752SR-120',
+        match: ['/Product/S2E-Module/WIZ752SR-12x-Series/WIZ752SR-120/wiz752sr-120',
+                '/Product/S2E-Module/WIZ752SR-12x-Series/WIZ752SR-120/overview-EN'],
         target: '/Product/Modules/Serial-to-Ethernet-Module/WIZ752SR-120',
       },
       {
-        match: '/Product/S2E-Module/WIZ752SR-12x-Series/WIZ752SR-125',
+        match: ['/Product/S2E-Module/WIZ752SR-12x-Series/WIZ752SR-125/wiz752sr-125',
+                '/Product/S2E-Module/WIZ752SR-12x-Series/WIZ752SR-125/overview-EN'],
         target: '/Product/Modules/Serial-to-Ethernet-Module/WIZ752SR-125',
       },
       {
@@ -451,12 +453,8 @@ export default function ContentWrapper(props) {
 
       /* Pre-programmed-MCU */
       {
-        match: '/Product/ioNIC/W55RP20/W55RP20-S2E',
-        target: '/Product/Chip/MCU/W55RP20/W55RP20-S2E/overview-en',
-      },
-      {
-        match: '/Product/Pre-programmed-MCU/W7500P-S2E',
-        target: '/Product/Chip/Pre-programmed-MCU/W7500P-S2E/w7500p-s2e-EN',
+        match: '/Product/Pre-programmed-MCU/pre_programmed_mcu',
+        target: '/Product/Chip/MCU/Pre-programmed-MCU',
       },
       
       /* iMCU */
@@ -465,8 +463,7 @@ export default function ContentWrapper(props) {
         target: '/Product/Chip/MCU/W55RP20/w55rp20-evb-pico',
       },
       {
-        match: ['/Product/ioNIC',
-               '/Product/iMCU/W55RP20',
+        match: ['/Product/iMCU/W55RP20',
                 '/Product/Chip/MCU/W55RP20'],
         target: '/Product/Chip/MCU/W55RP20',
       },
@@ -594,10 +591,31 @@ export default function ContentWrapper(props) {
     );
     return redirectWithDelay(newPath);
   }
+  if (location.startsWith('/Product/S2E-Module/WIZ752SR-12x-Series/')) {
+    const newPath = location.replace(
+      /^\/Product\/S2E-Module\/WIZ752SR-12x-Series\//,
+      '/Product/Modules/Serial-to-Ethernet-Module/'
+    );
+    return redirectWithDelay(newPath);
+  }
   if (location.startsWith('/Product/S2E-Module/WIZ750SR/')) {
     const newPath = location.replace(
       /^\/Product\/S2E-Module\/WIZ750SR\//,
       '/Product/Modules/Serial-to-Ethernet-Module/WIZ750SR/'
+    );
+    return redirectWithDelay(newPath);
+  }
+  if (location.startsWith('/Product/ioNIC/W55RP20/W55RP20-S2E/')) {
+    const newPath = location.replace(
+      /^\/Product\/ioNIC\/W55RP20\/W55RP20-S2E\//,
+      '/Product/Chip/MCU/Pre-programmed-MCU/W55RP20-S2E/'
+    );
+    return redirectWithDelay(newPath);
+  }
+  if (location.startsWith('/Product/Pre-programmed-MCU/W7500P-S2E/')) {
+    const newPath = location.replace(
+      /^\/Product\/Pre-programmed-MCU\/W7500P-S2E\//,
+      '/Product/Chip/MCU/Pre-programmed-MCU/W7500P-S2E/'
     );
     return redirectWithDelay(newPath);
   }

@@ -49,13 +49,13 @@ date: 2020-04-07
   
 ![](/img/products/w7500-s2e/w7500_c_500x500.png)
 
-**[W7500](../../../Chip/MCU/W7500/Overview.md)**  
+**[W7500](../../../../Chip/MCU/W7500/Overview.md)**  
 MII supported for PHY interface 
 
 
 ![](/img/products/w7500-s2e/w7500p_c_500x500.png)
 
-**[ W7500P](../../../Chip/MCU/W7500P/Overview.md)**  
+**[ W7500P](../../../../Chip/MCU/W7500P/Overview.md)**  
 10/100 Ethernet PHY integrated 
 
 -----

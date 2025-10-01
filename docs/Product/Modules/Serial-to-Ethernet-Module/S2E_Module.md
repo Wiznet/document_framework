@@ -38,7 +38,7 @@ interfaces.
 | [W5500S2E-S1](W5500S2E-S1/W5500S2E-S1.mdx) | ![W5500S2E-S1](/img/products/w5500s2e-z1/500k_w5500s2e_s1.jpg) | 1xTTL(3.3V) | Transformer | 2x7, 1x7 2.54mm | -40~85 | 34×24×12.40 (mm) | [Breakout board](http://wiznetshop.co.kr/product/detail.html?product_no=814&cate_no=56&display_group=1) |
 | [W5500S2E-Z1](W5500S2E-Z1/W5500S2E-Z1.mdx) | ![W5500S2E-Z1](/img/products/w5500s2e-z1/500k_w5500s2e_z1.jpg) |  1xTTL(3.3V) | Transformer | 1x11, 1x12 2.54mm | -40~85 | 44.45×31.75×15.75 (mm) | [Breakout board](http://wiznetshop.co.kr/product/detail.html?product_no=814&cate_no=56&display_group=1) |
 | [W7500S2E-R1](W7500S2E-R1/W7500S2E-R1.mdx) | ![W7500S2E-R1](/img/products/w5500s2e-z1/500k_w7500s2e_r1.jpg) | 1xTTL(3.3V) | Transformer | 1x11, 1x12 2.54mm | -40~85 | 44.45×31.75×23.00 (mm) | [Breakout board](http://wiznetshop.co.kr/product/detail.html?product_no=814&cate_no=56&display_group=1) |
-| [W7100A-S2E](./../../Chip/Pre-programmed-MCU/W7500P-S2E/W7500-P-S2E-EN.md)<br />not recommended for new design | | Serial to Ethernet Chip (WIZ107SR or WIZ108SR firmware programmed) ||||||
+| [W7100A-S2E](./../../Chip/MCU/Pre-programmed-MCU/W7500P-S2E/W7500-P-S2E-EN.md)<br />not recommended for new design | | Serial to Ethernet Chip (WIZ107SR or WIZ108SR firmware programmed) ||||||
 
 :::caution
 Please note that below modules are discontinued.

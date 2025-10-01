@@ -42,7 +42,6 @@ application info.
   - [WIZ550web](Product/Modules/App-Module/WIZ550web/WIZ550web.md): Embedded Web Server
   - [WizFi250](Product/Modules/Wi-Fi-Module/WizFi250/WizFi250.md): Wi-Fi Module
   - **[WizFi360](Product/Modules/Wi-Fi-Module/WizFi360/WizFi360.mdx): Wi-Fi Module(Release 1/8/19)**![](/img/star.png)
-  - **[WIZ510SSL](Product/Modules/Serial-to-Ethernet-Module/WIZ510SSL/WIZ510SSL.md): S2E Module(Release 5/25/21)**![](/img/star.png)
 
 
 

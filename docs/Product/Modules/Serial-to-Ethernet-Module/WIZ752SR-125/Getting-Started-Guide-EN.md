@@ -1,12 +1,12 @@
 ---
-id: getting-started-EN
+id: getting-started-guide-EN
 title: Getting Started Guide-[EN]
 date: 2020-04-15
 ---
 
  **Supported Languages**  
-* [English](./Getting-Started-EN.md) (current page)  
-* [Korean](./Getting-Started-KO.md)
+* [English](./Getting-Started-Guide-EN.md) (current page)  
+* [Korean](./Getting-Started-Guide-KO.md)
 
 ![](/img/products/wiz750sr/docs_icon.png)
 

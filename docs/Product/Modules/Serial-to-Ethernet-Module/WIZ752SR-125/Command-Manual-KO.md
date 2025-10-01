@@ -1666,7 +1666,7 @@ Return value</th>
     -   **Without Parameter**
         -   No response
         -   제품의 동작 설정을 공장 초기화 상태(출고 시 초기 상태)로 변경합니다.
-    -   제품의 초기 설정 값은 **[WIZ750SR Factory Settings](./Getting-Started-KO.md#wiz750sr-factory-settings)**에서
+    -   제품의 초기 설정 값은 **[WIZ750SR Factory Settings](./Getting-Started-Guide-KO.md#wiz750sr-factory-settings)**에서
         확인 할 수 있습니다.
     -   공장 초기화 수행 시, **[RT](#rt)** 커맨드를 수행 한 것과 동일하게 제품을 재시작 합니다.
         -   만약 시리얼 디버그 메시지를 사용 중인 경우, Data UART 포트를 통해 다음과 같은 메시지를 출력합니다.
