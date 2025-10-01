@@ -45,7 +45,7 @@ slug: /
  * [WIZ750SR-100](./Modules/Serial-to-Ethernet-Module/WIZ750SR-100/WIZ750SR-100.mdx)
  * [WIZ750SR-105](./Modules/Serial-to-Ethernet-Module/WIZ750SR-105/WIZ750SR-105.mdx)
  * [WIZ750SR-110](./Modules/Serial-to-Ethernet-Module/WIZ750SR-110/WIZ750SR-110.mdx)
- * [WIZSPE-T1L](./Modules/Serial-to-Ethernet-Module/WIZSPE-T1L/WIZSPE-T1L.mdx)
+ * [WIZ750SR-T1L](./Modules/Serial-to-Ethernet-Module/WIZ750SR-T1L/WIZ750SR-T1L.mdx)
  * [WIZ550SR](./Modules/Serial-to-Ethernet-Module/WIZ550SR/WIZ550SR.mdx)
  * [WIZ550S2E](./Modules/Serial-to-Ethernet-Module/WIZ550S2E/WIZ550S2E.md)
  * [W7500S2E-R1](./Modules/Serial-to-Ethernet-Module/W7500S2E-R1/W7500S2E-R1.mdx)
