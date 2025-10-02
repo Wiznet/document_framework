@@ -54,7 +54,7 @@ This section provides key documentation, including user manuals and datasheets, 
 
 | Title | Description | Link | Notes |
 |-------|-------------|------|-------|
-| User's Manual  | Product usage instructions | ![link](\img\docs_icon_small.png) [EN](\img\products\wizdtu\WIZ-DTU_User_manual.pdf) | - |
+| User's Manual  | Product usage instructions | ![link](\img\docs_icon_small.png) [EN](\img\products\wizdtu\WIZ-DTU_User_Manual_1_0.pdf) | - |
 | Datasheet | Technical specifications | - | TBD |
 
 
