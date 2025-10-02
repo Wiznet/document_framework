@@ -5,8 +5,8 @@ date: 2020-04-09
 ---
 
  **Supported Languages**  
-* [English](./Getting-Started-EN) 
-* [Korean](./Getting-Started-KO) (current page)
+* [English](./Getting-Started-EN.md) 
+* [Korean](./Getting-Started-KO.md) (current page)
 
 ![](/img/products/wiz750sr/docs_icon.png)
 
@@ -82,7 +82,7 @@ WIZ750SR-110 개발 보드 패키지는 다음과 같이 구성되어 있습니�
 
 ### Software
 
-  - Configuration tool 프로그램 ([Download page](./Download))
+  - Configuration tool 프로그램 ([Download page](./Download.mdx))
   - TCP 서버 / TCP 클라이언트 / UDP 터미널 프로그램
   - 시리얼 터미널 프로그램
 
@@ -296,4 +296,4 @@ PC를 사용자 시리얼 장치 및 TCP 클라이언트로 삼아 데이터 통
 -----
 
 **동작에 문제가 있나요?**  
-**[Troubleshooting 가이드](./Trouble-Shooting-KO)** 문서를 참고해 보세요\!
+**[Troubleshooting 가이드](./Trouble-Shooting-KO.mdx)** 문서를 참고해 보세요\!

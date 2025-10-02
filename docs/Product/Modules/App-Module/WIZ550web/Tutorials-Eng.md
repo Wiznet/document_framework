@@ -67,12 +67,12 @@ predefined interface function is as follows. In the web page, the
 request can be transmitted using the provided JavaScript for AJAX
 Get/Post.
 
-Please refer to [WIZ550web Interface Functions Guide](tutorials_eng#interface-functions-guide-for-wiz550web) for details of CGI name and
+Please refer to [WIZ550web Interface Functions Guide](#interface-functions-guide-for-wiz550web) for details of CGI name and
 parameters to utilize interface funcions.
 
 ## I/O Interface Functions
 
-**Guide Document** [WIZ550web Get/Set Interface Functions Guide](tutorials_eng#interface-functions-guide-for-wiz550web)
+**Guide Document** [WIZ550web Get/Set Interface Functions Guide](#interface-functions-guide-for-wiz550web)
 
 ### GET functions (HTTP GET Method)
 

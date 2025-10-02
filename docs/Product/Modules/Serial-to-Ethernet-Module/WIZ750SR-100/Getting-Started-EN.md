@@ -32,9 +32,9 @@ The WIZ750SR-100 evaluation board package contains the following parts.
   - WIZ750SR-100-EVB Evaluation Board
   - Cables (Ethernet / Serial / Micro USB Type B)
 
-The entire list of parts of the board is available at the [WIZ750SR-100
+<!-- The entire list of parts of the board is available at the [WIZ750SR-100
 Overview: Product
-Contents](overview-EN#product-contents) page.
+Contents](overview-EN#product-contents) page. -->
 
 ### Device Layout
 

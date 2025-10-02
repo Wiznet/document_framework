@@ -5,7 +5,7 @@ date: 2025-06-11
 ---
 
 io6LibraryはWIZnetチップ向けの**「Internet Offload Library」**を意味します。
-このライブラリには、**driver**および**application protocol**が含まれています。IPv6専用であり、W6300のようなデュアルTCP/IPスタックコントローラ用です。io6Libraryは[W6300](overview-jp)のアプリケーション設計に利用できます。
+このライブラリには、**driver**および**application protocol**が含まれています。IPv6専用であり、W6300のようなデュアルTCP/IPスタックコントローラ用です。io6Libraryは[W6300](./Overview-jp.md)のアプリケーション設計に利用できます。
 これらは継続的に更新されます。
 
 -----

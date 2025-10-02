@@ -5,8 +5,8 @@ date: 2020-04-09
 ---
 
 **Supported Languages**  
-* [English](./Getting-Started-EN) (current page)  
-* [Korean](./Getting-Started-KO)
+* [English](./Getting-Started-EN.md) (current page)  
+* [Korean](./Getting-Started-KO.md)
 
 ![](/img/products/wiz750sr/docs_icon.png)
 
@@ -79,7 +79,7 @@ The WIZ750SR-110 evaluation board package contains the following parts.
 
 ### Software
 
-  - Configuration tool program ([Download page](./Download))
+  - Configuration tool program ([Download page](./Download.mdx))
   - TCP server / TCP client / UDP terminal program
   - Serial terminal program
 
@@ -318,6 +318,6 @@ Now you’re ready to use the WIZ750SR-110\!
 -----
 
 **If there is any problem?**  
-Please refer to our **[Troubleshooting guide](./Trouble-Shooting-EN)**\!
+Please refer to our **[Troubleshooting guide](./Trouble-Shooting-EN.mdx)**\!
 
 -----

@@ -112,7 +112,7 @@ Apart from GPIO and ground pins, there are 7 other pins on the main 40-pin inter
 
 ### WizFi360 Datasheet
 
-- [Download](../Wi-Fi-Module/WizFi360/WizFi360.mdx#Documentation)
+- [Download](/img/products/wizfi360/wizfi360ds/wizfi360_ds_v112_en.pdf)
 
 ### Schematic
 

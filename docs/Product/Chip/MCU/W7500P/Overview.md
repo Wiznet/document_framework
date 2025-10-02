@@ -78,7 +78,7 @@ TBD
 | **Title** | **Description** | **Notes** |
 | --------- | --------------- | --------- |
 | [![link](\img\download.png) W7500P Datasheet](/img/products/w7500/w7500x_ds_v110.pdf) | Technical specifications and features of the W7500P chip | - |
-| [![link](\img\download.png) W7500P Internal PHY Datasheet]([/img/products/w7500/w7500x_ds_v110.pdf](https://www.bdtic.com/DataSheet/ICplus/IP101G_DS_R01_20121224.pdf)) | How to control the internal PHY of W7500P using indirect register access via PHYR/PHYSR, with busy flag polling for read/write operations. | - |
+| [![link](\img\download.png) W7500P Internal PHY Datasheet](/img/products/w7500/overview/IP101G_DS_R01_20121224.pdf) | How to control the internal PHY of W7500P using indirect register access via PHYR/PHYSR, with busy flag polling for read/write operations. | - |
 
 ### Technical Documents
 

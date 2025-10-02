@@ -13,7 +13,7 @@ date: 2020-04-08
 
 ### Datasheet
 
-  - ![](/img/products/w5500/w5500_evb/icons/link.png) [W7500P (ARM cortex-M0)](../../Chip/MCU/W7500P/overview)
+  - ![](/img/products/w5500/w5500_evb/icons/link.png) [W7500P (ARM cortex-M0)](../../../Chip/MCU/W7500P/Overview.md)
   - ![](/img/products/w5500/w5500_evb/icons/download.png) [Microchip, EEPROM (24AA16T-I/OT)](http://www.microchip.com/wwwproducts/en/24AA16)
   - ![](/img/products/w5500/w5500_evb/icons/download.png) [Texas Instruments, Ethernet ESD Protect IC (TPD4S009)](http://www.ti.com/product/TPD4S009?keyMatch=tpd4s009&tisearch=Search-EN-Everything)
   - ![](/img/products/w5500/w5500_evb/icons/download.png) [STmicro Electronics, Supervisor IC (STM6823TJWY6F)](http://www2.st.com/content/st_com/en/products/reset-and-supervisor-ics/microprocessor-supervisors/stm6823.html)
@@ -26,7 +26,7 @@ date: 2020-04-08
 
 ### Datasheet
 
-  - ![](/img/products/w5500/w5500_evb/icons/link.png) [W7500 (ARM cortex-M0)](../../Chip/MCU/W7500/overview)
+  - ![](/img/products/w5500/w5500_evb/icons/link.png) [W7500 (ARM cortex-M0)](../../../Chip/MCU/W7500/Overview.md)
   - ![](/img/products/w5500/w5500_evb/icons/download.png) <a href="https://www.bdtic.com/DataSheet/ICplus/IP101G_DS_R01_20121224.pdf" target="_blank">IC+, PHY IC (IP101GRI)</a>
   - ![](/img/products/w5500/w5500_evb/icons/download.png) [Microchip, EEPROM (24AA16T-I/OT)](http://www.microchip.com/wwwproducts/en/24AA16)
   - ![](/img/products/w5500/w5500_evb/icons/download.png) [Texas Instruments, Ethernet ESD Protect IC (TPD4S009)](http://www.ti.com/product/TPD4S009?keyMatch=tpd4s009&tisearch=Search-EN-Everything)

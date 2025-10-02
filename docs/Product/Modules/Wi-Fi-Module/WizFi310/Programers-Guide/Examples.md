@@ -216,7 +216,7 @@ Exchanging data with its peer system is the same as previous [Exchanging data wi
 
 **Socket Close**
 
-Closing socket connection is the same as previous [Socket Close](/#socket-close).
+Closing socket connection is the same as previous [Socket Close](#socket-close).
 
 **Checking Socket Status**
 
@@ -251,7 +251,7 @@ because WizFi310 does not know its information. Thus peer system must
 send data to WizFi310 in order to know peer system’s information like
 below. ![](/img/products/wizfi310/wizfi310pg/udp_server_caution.png) The
 other information for exchanging data is same as [Exchanging data with a
-peer system](/#exchanging-data-with-a-peer-system).
+peer system](#exchanging-data-with-a-peer-system).
 
 **Socket Close**
 
@@ -342,7 +342,7 @@ AT+SCON=O,TSN, , ,5000,0        ( AT command listening with a TCP Server Socket 
 
 ##### Exchanging data with a peer system
 
-Exchanging data with its peer system is the same with previous[Exchanging data with a peersystem](/#exchanging-data-with-a-peer-system).
+Exchanging data with its peer system is the same with previous[Exchanging data with a peersystem](#exchanging-data-with-a-peer-system).
 
 #### Socket Close
 
@@ -376,7 +376,7 @@ AT+SCON=O,UCN,192.168.12.23,5001,5000,0
 ##### Exchanging data with a peer system
 
 Exchanging data with its peer system is the same as previous [Exchanging
-data with a peer system](/#exchanging-data-with-a-peer-system).
+data with a peer system](#exchanging-data-with-a-peer-system).
 
 #### Socket Close
 

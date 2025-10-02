@@ -5,8 +5,8 @@ date: 2025-09-03
 ---
 
  **Supported Languages**  
-* [English](./Getting-Started-EN) 
-* [Korean](./Getting-Started-KO) (current page)
+* [English](./Getting-Started-EN.md) 
+* [Korean](./Getting-Started-KO.md) (current page)
 
 ![](/img/products/wiz750sr/docs_icon.png)
 

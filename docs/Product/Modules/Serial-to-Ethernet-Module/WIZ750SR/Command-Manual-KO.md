@@ -5,8 +5,8 @@ date: 2020-04-08
 ---
 
 **Supported Languages** 
-   * [English](./Command-Manual-EN)  
-   * [Korean](./Command-Manual-KO) (current page)
+   * [English](./Command-Manual-EN.md)  
+   * [Korean](./Command-Manual-KO.md) (current page)
 
 ![](/img/products/wiz750sr/docs_icon.png)
 

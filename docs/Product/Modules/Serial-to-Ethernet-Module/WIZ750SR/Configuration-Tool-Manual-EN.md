@@ -98,7 +98,7 @@ section are available below.
       - In this case, try to search after turning off the firewall or
         virus protection software.
       - Please refer to this guide if still unsuccessful.
-          - **[Troubleshooting Guide: Device cannot be searched](./Trouble-Shooting-EN)**
+          - **[Troubleshooting Guide: Device cannot be searched](./Trouble-Shooting-EN.mdx)**
 
 #### 2\) Save Settings
 
@@ -125,7 +125,7 @@ section are available below.
       - In this case, try to upload after turning off the firewall or
         virus protection software.
       - Please refer to this guide if still unsuccessful.
-          - **[Troubleshooting Guide: Firmware cannot be uploaded](./Trouble-Shooting-EN)**
+          - **[Troubleshooting Guide: Firmware cannot be uploaded](./Trouble-Shooting-EN.mdx)**
   - The module will not work properly if the firmware is not correctly
     uploaded.
 
@@ -498,6 +498,6 @@ multi-selected but has priority as shown below.
 -----
 
 **If there is any problem?**  
-Please refer to our **[Troubleshooting Guide](./Trouble-Shooting-EN)**\! 
+Please refer to our **[Troubleshooting Guide](./Trouble-Shooting-EN.mdx)**\! 
 
 -----

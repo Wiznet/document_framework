@@ -99,7 +99,7 @@ MII supported for PHY interface
 
 [Product Overview](/Product/Modules/Serial-to-Ethernet-Module/WIZ750SR/WIZ750SR.mdx)
 
-Getting Started Guide [(English)](/Product/Modules/Serial-to-Ethernet-Module/WIZ750SR/Getting-Started-EN.md)/[(Korean)](/Product/Modules/Serial-to-Ethernet-Module/WIZ750SR/Getting-Started-KO)
+Getting Started Guide [(English)](/Product/Modules/Serial-to-Ethernet-Module/WIZ750SR/Getting-Started-EN.md)/[(Korean)](/Product/Modules/Serial-to-Ethernet-Module/WIZ750SR/Getting-Started-KO.md)
 
 User's Manual [(English)](/Product/Modules/Serial-to-Ethernet-Module/WIZ750SR/Users-Manual-EN)/[(Korean)](/Product/Modules/Serial-to-Ethernet-Module/WIZ750SR/Users-Manual-KO)
 
