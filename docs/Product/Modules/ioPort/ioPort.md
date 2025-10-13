@@ -14,6 +14,10 @@ WIZnet ioPort includes two types of solution.
 
 -----
 
+**All technical issue for <span style={{ color: 'blue' }}>WIZIP-51S</span> and <span style={{ color: 'blue' }}>WIZ-IP75</span>   , please contact WIZnet HK.**
+
+---
+
 ## Product Family
 
 | Module | Image | Embedded Block | Host Interface | HW Socket | Auto MDIX | Pin Header | Dimension (mm) | Operation Temp (℃) | MAC Address |
