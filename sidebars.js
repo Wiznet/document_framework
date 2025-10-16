@@ -982,6 +982,8 @@ module.exports = {
 												'Product/Modules/Serial-to-Ethernet-Module/WIZ750SR/trouble-shooting-KO',
 												'Product/Modules/Serial-to-Ethernet-Module/WIZ750SR/developers-guide-EN',
 												'Product/Modules/Serial-to-Ethernet-Module/WIZ750SR/developers-guide-KO',
+												'Product/Modules/Serial-to-Ethernet-Module/WIZ750SR/modbus-connection-guide-en',
+												'Product/Modules/Serial-to-Ethernet-Module/WIZ750SR/modbus-connection-guide-ko',
 
 											],
 									},
@@ -1036,6 +1038,8 @@ module.exports = {
 												'Product/Modules/Serial-to-Ethernet-Module/WIZ750SR-100/trouble-shooting-KO',
 												'Product/Modules/Serial-to-Ethernet-Module/WIZ750SR-100/developers-guide-EN',
 												'Product/Modules/Serial-to-Ethernet-Module/WIZ750SR-100/developers-guide-KO',
+												'Product/Modules/Serial-to-Ethernet-Module/WIZ750SR-100/modbus-connection-guide-en',
+												'Product/Modules/Serial-to-Ethernet-Module/WIZ750SR-100/modbus-connection-guide-ko',
 
 											],
 									},
@@ -1090,6 +1094,8 @@ module.exports = {
 												'Product/Modules/Serial-to-Ethernet-Module/WIZ750SR-105/trouble-shooting-KO',
 												'Product/Modules/Serial-to-Ethernet-Module/WIZ750SR-105/developers-guide-EN',
 												'Product/Modules/Serial-to-Ethernet-Module/WIZ750SR-105/developers-guide-KO',
+												'Product/Modules/Serial-to-Ethernet-Module/WIZ750SR-105/modbus-connection-guide-en',
+												'Product/Modules/Serial-to-Ethernet-Module/WIZ750SR-105/modbus-connection-guide-ko',
 
 											],
 									},
@@ -1144,6 +1150,8 @@ module.exports = {
 												'Product/Modules/Serial-to-Ethernet-Module/WIZ750SR-110/trouble-shooting-KO',
 												'Product/Modules/Serial-to-Ethernet-Module/WIZ750SR-110/developers-guide-EN',
 												'Product/Modules/Serial-to-Ethernet-Module/WIZ750SR-110/developers-guide-KO',
+												'Product/Modules/Serial-to-Ethernet-Module/WIZ750SR-110/modbus-connection-guide-en',
+												'Product/Modules/Serial-to-Ethernet-Module/WIZ750SR-110/modbus-connection-guide-ko',
 
 											],
 									},
@@ -1553,6 +1561,9 @@ module.exports = {
 												'Product/Modules/Serial-to-Ethernet-Module/WIZ750SR-T1L/trouble-shooting-KO',
 												'Product/Modules/Serial-to-Ethernet-Module/WIZ750SR-T1L/developers-guide-EN',
 												'Product/Modules/Serial-to-Ethernet-Module/WIZ750SR-T1L/developers-guide-KO',
+												'Product/Modules/Serial-to-Ethernet-Module/WIZ750SR-T1L/modbus-connection-guide-en',
+												'Product/Modules/Serial-to-Ethernet-Module/WIZ750SR-T1L/modbus-connection-guide-ko',
+												
 
 											],
 									},

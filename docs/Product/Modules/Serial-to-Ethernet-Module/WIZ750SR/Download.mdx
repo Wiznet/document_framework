@@ -4,130 +4,73 @@ title: Download
 date: 2020-04-08
 ---
 
-## WIZ750SR Series Downloads
+## WIZ750SR Firmware Update Guide
 
-**Supported Languages**
-   * English only
+Before updating the **WIZ750SR Series firmware**, understand that it consists of two parts: **Boot** and **Application (App)**.  
+This structure allows the **S2E (Serial to Ethernet)** module to easily update firmware over the network using the **Configuration Tool**.
 
------
+> ⚠️ **Check the compatibility table below**  
+> Make sure your module’s **Boot** and **App** versions are compatible before updating.
 
-## Download Firmware
+If the versions **do not match**, the firmware **cannot** be updated via the **Configuration Tool**.  
+In this case, use the **UART2 port** and the **ISP Tool** to upload the **All (Boot+App merge)** binary file.
 
-### Binary Images
-
-\* Latest application Firmware binary image for update using
-**configuration tool**  
-(Older versions can be found in the [WIZ750SR Github repository](https://github.com/Wiznet/WIZ750SR/releases))
-
-**For users prior to v1.2.0,
-the device must be updated using all(boot+app) version firmware & WIZISP
-first.**
-
-![Boot Version](https://user-images.githubusercontent.com/9648281/70778776-62690000-1dc6-11ea-8cc0-d205659312ba.png)
-
-  - With **F/W Ver 1.2.9 and lower than**, Boot copies Application ISR
-    address map into Boot ISR address region to merge two binary codes.
-    We eliminated copying Application ISR address map into Boot ISR
-    address region, and raised **F/W Ver to 1.3.x**.
-
-![Boot compatibility](https://user-images.githubusercontent.com/9648281/70020315-94f94880-15cf-11ea-89cd-6bb3b2f1b7f1.png)
-
-#### Please check the Boot code version before updating F/W with another one
-
-V1.2 Boot + V1.2.x App : Working  
-V1.2 Boot + V1.3.x App : Working  
-V1.3 Boot + V1.3.x App : Working  
-V1.3 Boot + V1.2.x App : **Not Working.**
-
-#### WIZ750SR
-
-  - WIZ750SR-TTL
-  - WIZ750SR-232
-  - WIZ750SR-485
-  - **W7500P-S2E**
-
-### Boot V1.2
-
-**Application Firmware Binary (ConfigTool)**  
-[Application v1.2.9](https://github.com/Wiznet/WIZ750SR/releases/download/v1.2.9/WIZ750SRv129.bin)
-
-**All(boot+app) Firmware Binary (WIZISP)**  
-[All v1.2.9](https://github.com/Wiznet/WIZ750SR/releases/download/v1.2.9/WIZ750SRv129_incl_Boot.bin)
-
-### Boot V1.3
-
-**Application Firmware Binary (ConfigTool)**  
-[Application v1.3.3](https://github.com/Wiznet/WIZ750SR/releases/download/v1.3.3/WIZ750SRv133.bin)
-
-**All(boot+app) Firmware Binary (WIZISP)**  
-[All v1.3.3](https://github.com/Wiznet/WIZ750SR/releases/download/v1.3.3/WIZ750SRv133_incl_Boot.bin)<br /><br /><br /><br />
-
-#### WIZ750SR-100 Series
-
-  - WIZ750SR-100
-  - WIZ750SR-105
-  - WIZ750SR-110
-  - **W7500-S2E**
-
-### Boot V1.2
-
-**Application Firmware Binary (ConfigTool)**  
-[Application v1.2.9](https://github.com/Wiznet/WIZ750SR/releases/download/v1.2.9/WIZ750SR-1xxv129.bin)
-
-**All(boot+app) Firmware Binary (WIZISP)**  
-[All v1.2.9](https://github.com/Wiznet/WIZ750SR/releases/download/v1.2.9/WIZ750SR-1xxv129_incl_Boot.bin)
+👉 For detailed upload instructions,  
+please refer to the **[ISP Tool Guide link](https://docs.wiznet.io/Product/Modules/Serial-to-Ethernet-Module/WIZ750SR/developers-guide-EN#flash-programming-using-wizisp-tool)** below.
 
 
-### Boot V1.3
+### ⚙️ Compatibility
+| Boot | App | Status |
+|------|------|--------|
+| V1.2 | V1.2.x ~ V1.3.x | ✅ Working |
+| V1.3 | V1.3.x ~ **V1.4.5** | ✅ Working |
+| V1.2 | V1.3.x | ❌ Not Working |
+| V1.2 | V1.4.x | ❌ Not Working |
+| V1.3 | V1.2.x | ❌ Not Working |
+> 💡 Existing V1.2 Boot users must use the ISP Tool (UART2) to update the firmware with All (boot+app) before upgrading to the V1.3.x firmware.
 
-**Application Firmware Binary (ConfigTool)**  
-[Application v1.3.3](https://github.com/Wiznet/WIZ750SR/releases/download/v1.3.3/WIZ750SR-1xxv133.bin)
+---
 
-**All(boot+app) Firmware Binary (WIZISP)**  
-[All v1.3.3](https://github.com/Wiznet/WIZ750SR/releases/download/v1.3.3/WIZ750SR-1xxv133_incl_Boot.bin)<br /><br /><br /><br />
+### 🔹 WIZ750SR Series  
+*(WIZ750SR-TTL / 232 / 485 / W7500P-S2E)*
 
-#### WIZ752SR Series
+| Boot | Type | Version(Download) | 
+|------|------|----------------|
+| V1.2 | App | [v1.2.9](https://github.com/Wiznet/WIZ750SR/releases/download/v1.2.9/WIZ750SRv129.bin) |
+|      | All(Boot+App merge) | [v1.2.9 incl. Boot](https://github.com/Wiznet/WIZ750SR/releases/download/v1.2.9/WIZ750SRv129_incl_Boot.bin) |
+| V1.3 | App | [v1.3.3](https://github.com/Wiznet/WIZ750SR/releases/download/v1.3.3/WIZ750SRv133.bin) |
+|      | All(Boot+App merge) | [v1.3.3 incl. Boot](https://github.com/Wiznet/WIZ750SR/releases/download/v1.3.3/WIZ750SRv133_incl_Boot.bin) |
+| V1.3 | App | [v1.4.5](https://github.com/Wiznet/WIZ750SR/releases/download/v1.4.5/WIZ750SRv145.bin) |
 
-  - WIZ752SR-120
-  - WIZ752SR-125
+---
 
-**Application Firmware Binary
-(ConfigTool)**  
-<a href="/img/products/wiz750sr/download/wiz752sr_app_v2.1.0.zip" target="_blank">Application v2.1.0</a>
+### 🔹 WIZ750SR-100 Series  
+*(WIZ750SR-100 / 105 / 110 / W7500-S2E)*
 
-**All(boot+app) Firmware Binary (WIZISP)**  
-<a href="/img/products/wiz750sr/download/wiz752sr_all_v2.1.0.zip" target="_blank">All v2.1.0</a><br /><br /><br /><br />
+| Boot | Type | Version(Download) | 
+|------|------|----------------|
+| V1.2 | App | [v1.2.9](https://github.com/Wiznet/WIZ750SR/releases/download/v1.2.9/WIZ750SR-1xxv129.bin) |
+|      | All(Boot+App merge) | [v1.2.9 incl. Boot](https://github.com/Wiznet/WIZ750SR/releases/download/v1.2.9/WIZ750SR-1xxv129_incl_Boot.bin) |
+| V1.3 | App | [v1.3.3](https://github.com/Wiznet/WIZ750SR/releases/download/v1.3.3/WIZ750SR-1xxv133.bin) |
+|      | All(Boot+App merge) | [v1.3.3 incl. Boot](https://github.com/Wiznet/WIZ750SR/releases/download/v1.3.3/WIZ750SR-1xxv133_incl_Boot.bin) |
+| V1.3 | App | [v1.4.5](https://github.com/Wiznet/WIZ750SR/releases/download/v1.4.5/WIZ750SR-1xxv145.bin) |
 
-### Source code
+---
 
-#### WIZ750SR Series Firmware source code link
+### 🔹 WIZ752SR Series  
+*(WIZ752SR-120 / 125)*
 
-**WIZ750SR Series GitHub Repository**  
-https://github.com/Wiznet/WIZ750SR
+| Type | Version(Download) |
+|------|----------------|
+| App | [v2.1.0](https://docs.wiznet.io/img/products/wiz750sr/download/wiz752sr_app_v2.1.0.zip) |
+| All(Boot+App merge) | [v2.1.0 incl. Boot](https://docs.wiznet.io/img/products/wiz750sr/download/wiz752sr_all_v2.1.0.zip) |
 
+---
 
-  - The above link is an integrated firmware project(MDK-ARM)'s
-    repository of WIZ750SR and WIZ750SR-100 series.
+### 🧠 Source
+- [WIZ750SR GitHub](https://github.com/Wiznet/WIZ750SR)
+- [WIZ752SR GitHub](https://github.com/Wiznet/WIZ752SR-12x)
 
-#### WIZ752SR Series Firmware source code link
-
-**WIZ752SR Series GitHub Repository**  
-https://github.com/Wiznet/WIZ752SR-12x
-
------
-
-## WIZnet S2E Configuration Tool
-
-  - **[S2E Configuration Tool Manual (New)](./Configuration-Tool-Manual-New-EN.mdx)**
-
-
-![](/img/products/wiz750sr/download/wizconfig_main_v1.0.0.png) 
-
-**Download the latest version**
-https://github.com/Wiznet/WIZnet-S2E-Tool-GUI/releases
-
- **GitHub Repository**
-https://github.com/Wiznet/WIZnet-S2E-Tool-GUI
 
 -----
 
