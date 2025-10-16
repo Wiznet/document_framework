@@ -121,18 +121,6 @@ This section provides essential software resources, including configuration tool
 
 
 
-
-## Test & Certification
-
-This section provides official test results and certification documents for product compliance and safety standards.
-
-| Title | Description | Download | Notes |
-|-------|-------------|----------|-------|
-| KC | Korea safety certification | - | TBD |
-| FCC | U.S. EMI certification | - | TBD |
-| CE | EU safety certification | - | TBD |
-
-
 ## Evaluation Boards & Related modules
 
 <Tabs>
