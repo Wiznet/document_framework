@@ -14,7 +14,7 @@ WIZnet ioPort includes two types of solution.
 
 -----
 
-**All technical issue for <span style={{ color: 'blue' }}>WIZIP-51S</span> and <span style={{ color: 'blue' }}>WIZ-IP75</span>   , please contact WIZnet HK.**
+**All technical issue for <span style={{ color: 'blue' }}>WIZ-IP51S</span> and <span style={{ color: 'blue' }}>WIZ-IP75</span>   , please contact [WIZnet HK](https://www.wiznet.hk/en/).**
 
 ---
 

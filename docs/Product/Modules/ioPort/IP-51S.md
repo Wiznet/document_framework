@@ -17,7 +17,7 @@ For users who wish to quickly develop networked systems, the WIZ-IP51S is an ide
 
 -----
 
-**All technical issue for <span style={{ color: 'blue' }}>WIZIP-51S</span> , please contact WIZnet HK.**
+**All technical issue for <span style={{ color: 'blue' }}>WIZ-IP51S</span> , please contact [WIZnet HK](https://www.wiznet.hk/en/).**
 
 ---
 
