@@ -1,0 +1,187 @@
+---
+id: wiz610io
+title: wiz610io
+slug: /Product/ioModule/WIZ610io/
+date: 2020-04-15
+keywords: [WIZ610io, Ethernet Module, W6100, WIZnet, ioModule, IPv6]
+description: WIZ610io is a compact Ethernet module based on W6100, supporting both IPv4 and IPv6 networking with integrated PHY and MAG-JACK.
+---
+
+import Tabs from '@theme/Tabs';
+import TabItem from '@theme/TabItem';
+
+# WIZ610io
+<h1>WIZ610io</h1>
+<div className="main_intro"> 
+  <div className="main_intro_image">
+    <img src="/img/products/wiz610io/wiz610io_1.png" width="700" />
+  </div>
+  <div className="w55rp20-text">
+    <p>
+      The <b>WIZ610io</b> is a compact network module featuring the <b>W6100</b> hardwired TCP/IP chip with integrated PHY and RJ45 (MAG-JACK). 
+      It supports <b>IPv4/IPv6 Dual Stack</b>, providing fast and reliable Ethernet connectivity for embedded systems. 
+      By integrating the W6100 chip and transformer in one module, it eliminates complex PCB design and ensures stable operation. 
+      WIZ610io is ideal for developers seeking rapid and robust Internet connectivity.
+    </p>
+  </div>
+</div>
+
+---
+
+## Pin Information
+
+<Tabs groupId="pinout" queryString>
+
+  <TabItem value="all" label="All Pins" default>
+<img src="/img/products/wiz610io/pinmap.png" width="600" />
+
+
+### J1 — SPI
+
+| Pin | Type | Name | Description |
+| --- | ---- | ---- | ----------- |
+| 1 | P | **GND** | Ground |
+| 2 | P | **GND** | Ground |
+| 3 | I | **MOSI** | SPI Master-Out / Slave-In |   
+| 4 | I | **SCLK** | SPI clock input |
+| 5 | I | **SCSn** | SPI chip select (active low) |
+| 6 | O | **INTn** | Interrupt output (low-active, cleared via IR/Sn_IR) |
+
+### J2 — Control & Status
+
+| Pin | Type | Name | Description |
+| --- | ---- | ---- | ----------- |
+| 1 | P | **GND** | Ground |
+| 2 | P | **3V3D** | 3.3 V power |
+| 3 | P | **3V3D** | 3.3 V power |
+| 4 | I | **NC** | Not connected |
+| 5 | I | **RSTn** | Hardware reset (active low, ≥ 500 µs) |
+| 6 | O | **MISO** | SPI Master-In / Slave-Out |
+
+
+  </TabItem>
+</Tabs>
+
+---
+
+## Features
+
+<ul>
+  <li>Supports <b>IPv4/IPv6 Dual Stack</b></li>
+  <li>Hardware-based Internet protocols: TCP, UDP, ICMPv6, ICMPv4, IGMP, MLDv1, ARP, PPPoE</li>
+  <li>8 independent sockets with 32 KB internal TX/RX buffer</li>
+  <li>Supports SOCKET-less commands: ARP, PING, ICMPv6 (DAD, NA, RS)</li>
+  <li>Auto-negotiation and Auto-MDIX for 10/100 Mbps operation</li>
+  <li>Ethernet Power-down & Main Clock Switching for low power</li>
+  <li>Supports Wake-on-LAN (UDP)</li>
+  <li>High-speed SPI interface (Mode 0/3)</li>
+  <li>3.3 V operation with 5 V I/O tolerance</li>
+  <li>2 × 6-pin headers (2.54 mm pitch)</li>
+  <li>Operating temperature: −40 °C to +85 °C</li>
+</ul>
+
+---
+
+## Electrical Characteristics
+
+<Tabs groupId="electrical" queryString>
+  <TabItem value="dc" label="DC Characteristics" default>
+
+| Symbol | Parameter | Pins | Min | Typ | Max | Unit |
+| ------- | ---------- | ---- | --- | --- | --- | ---- |
+| V<sub>DD</sub> | Supply voltage | 3.3 V | 2.97 | 3.3 | 3.63 | V |
+| V<sub>IH</sub> | High-level input | ALL | 2.0 | – | - | V |
+| V<sub>IL</sub> | Low-level input | ALL | – | – | 0.8 | V |
+| V<sub>OH</sub> | High-level output | ALL | 2.4 | 3.3 | – | V |
+| V<sub>OL</sub> | Low-level output | ALL | 0.0 | – | 0.4 | V |
+| I<sub>DD</sub> | Supply current (Normal) | 3.3 V | – | 132 | – | mA |
+| I<sub>PD</sub> | Supply current (Power-down) | 3.3 V | – | 13 | – | mA |
+
+  </TabItem>
+
+  <TabItem value="power" label="Power Dissipation">
+
+| Condition | Min | Typ | Max | Unit |
+| ---------- | --- | --- | --- | ---- |
+| 100M Link | – | 98 | 115 | mA |
+| 10M Link | – | 112 | 265 | mA |
+| 10M-Te Link | – | 75 | 190 | mA |
+| 100M Unlink | – | 50 | 199 | mA |
+| 10M Unlink | – | 26 | 170 | mA |
+| 10M-Te Unlink | – | 26 | 130 | mA |
+| Un-Link (Auto-negotiation mode) | – | 50 | 199 | mA |
+| Power Down mode | – | 14 | 20 | mA |
+
+  </TabItem>
+</Tabs>
+
+---
+
+## Documentation
+
+| Title | Description | Link |
+|-------|-------------|------|
+| User Manual | Technical guide for WIZ610io module usage | ![download](/img/products/w5500/w5500_evb/icons/download.png) [WIZ610io User Manual v1.1](/img/products/wiz610io/wiz610io_user_manual_v1.1.pdf) |
+
+---
+
+## Software Resources
+
+
+
+
+<Tabs groupId="software"  queryString>
+<TabItem value="driver" label="Driver" default >
+
+### Driver
+The ioLibrary means "Internet Offload Library" for WIZnet chip. It includes drivers and application protocols. The ioLibrary can be used for W5100S and other chips's application designs. These will be updated continuously.
+
+| **Resource** | **Description** |
+|--------------|-----------------|
+| [![link](\img\link.png) ioLibrary_Driver](https://github.com/Wiznet/ioLibrary_Driver) | Official WIZnet driver library for W6100 and other chips |
+
+
+      :::info
+
+The ioLibrary_Driver is an MCU-independent library for WIZnet W5x00, W6x00 chips .
+It provides implementations of essential TCP/IP services, enabling developers to build network applications with minimal MCU dependencies.
+      ### Supported services
+DHCP, DNS, MQTT, SNTP, TFTP, HTTP Server
+
+      :::
+  
+
+</TabItem>
+
+
+</Tabs>
+
+---
+
+## Hardware Resources
+
+| Title | Revision | Description | Download | Notes |
+|-------|----------|-------------|----------|-------|
+| schematic | 1.0 | Circuit diagram for hardware design reference | ![download](/img/products/w5500/w5500_evb/icons/download.png) [PDF](https://github.com/Wiznet/Hardware-Files-of-WIZnet/raw/master/05_Network_Module/WIZ610io/WIZ610io_V100/Schematic/WIZ610io_SCH_V100.pdf) | — |
+| 3D File | 1.0 | 3D model for mechanical design and visualization | ![download](/img/products/w5500/w5500_evb/icons/download.png) [STEP](/img/products/3d-step-files/WIZ610IO.step) | — |
+| Part list | 1.0 | List of components used in the hardware | ![download](/img/products/w5500/w5500_evb/icons/download.png) [PDF](https://github.com/Wiznet/Hardware-Files-of-WIZnet/raw/master/05_Network_Module/WIZ610io/WIZ610io_V100/Partlist/WIZ610io_PL_V100.pdf) | — |
+
+---
+
+## Mechanical Information
+
+<img src="/img/products/wiz610io/dimen.png" width="400"/>
+
+<ul>
+  <li><b>Form factor:</b> Compact ioModule with integrated RJ45 MAG-JACK</li>
+  <li><b>Pin pitch:</b> 2.54 mm</li>
+  <li><b>Dimensions:</b> 22.70 x 23.00 (mm)</li>
+</ul>
+
+---
+
+## Related Products
+
+| Product | Description |
+|----------|-------------|
+| [W6100 Chip](../../Chip/Ethernet/W6100/Overview.md) | Stand-alone W6100 Ethernet controller (IPv4/IPv6 Dual Stack) |
