@@ -1,0 +1,278 @@
+---
+id: W5500-io
+title: W5500-io
+slug: /Product/ioModule/W5500-io/
+date: 2022-12-16
+keywords: [W5500-io, Ethernet Module, W5500, WIZnet, ioModule]
+description: W5500-io is a compact SPI Ethernet module integrating W5500 TCP/IP offload engine with PHY, designed for easy Ethernet connectivity.
+---
+
+import Tabs from '@theme/Tabs';
+import TabItem from '@theme/TabItem';
+
+# W5500-io
+<h1>W5500-io</h1>
+<div className="main_intro"> 
+  <div className="main_intro_image">
+    <img src="/img/products/w5500-io/w5500-io-side.png" width="700" />
+  </div>
+  <div className="w55rp20-text">
+    <p>
+      The <b>W5500-io</b> is a compact plug-in network module featuring the <b>W5500 hardwired TCP/IP</b> chip with an integrated PHY. 
+      It allows users to add Ethernet functionality to embedded systems without complex hardware design. 
+      Fully compatible with <b>W5100S-io</b> and <b>W6100-io</b> modules, W5500-io enables quick evaluation and integration of Ethernet connectivity.
+    </p>
+  </div>
+</div>
+
+## Pin Information
+
+<Tabs groupId="pinout" queryString>
+
+  <TabItem value="all" label="ALL" default>
+
+<img src="/img/products/w5500-io/W5500-io Pinout.png" width="600" />
+
+**J1 — Ethernet Magnetics Interface**
+
+| Pin | Type | Name | Description |
+| --- | ---- | ---- | ----------- |
+| 1   | I    | **RX_P** | Differential receive (positive) |
+| 2   | I    | **RX_N** | Differential receive (negative) |
+| 3   | P    | **RCT** | RX centre tap; connect to transformer centre tap |
+| 4   | P    | **TCT** | TX centre tap; connect to transformer centre tap |
+| 5   | O    | **TX_P** | Differential transmit (positive) |
+| 6   | O    | **TX_N** | Differential transmit (negative) |
+
+**J2 — SPI and Status Signals**
+
+| Pin | Type | Name  | Description |
+| --- | ---- | ----- | ----------- |
+| 1   | P    | **GND**   | Ground |
+| 2   | P    | **GND**   | Ground |
+| 3   | I    | **MOSI**  | SPI Master‑Out/Slave‑In input |
+| 4   | I    | **SCLK**  | SPI clock input |
+| 5   | I    | **CSn**   | Chip‑select input (active low) |
+| 6   | O    | **INTn**  | Interrupt output (active low). Low = interrupt pending, High = no interrupt |
+| 7   | O    | **LINK**  | Link status output. Low = link OK, High = no link |
+
+**J3 — Power and Additional Signals**
+
+| Pin | Type | Name | Description |
+| --- | ---- | ---- | ----------- |
+| 1   | P    | **GND**  | Ground |
+| 2   | P    | **3.3V** | Power supply (3.3 V) |
+| 3   | P    | **3.3V** | Power supply (3.3 V) |
+| 4   | –    | **NC**   | Not connected |
+| 5   | I    | **RSTn** | Module reset (active low). Hold low for ≥ 500 µs to reset |
+| 6   | O    | **MISO** | SPI Master‑In/Slave‑Out output |
+| 7   | O    | **ACTn** | Activity LED indicator. Low = carrier sense active, High = no carrier sense |
+
+  </TabItem>
+
+  <TabItem value="j1" label="J1" default>
+
+<img src="/img/products/w5500-io/J1_PIN.png" width="600" />
+
+**J1 — Ethernet Magnetics Interface**
+
+| Pin | Type | Name | Description |
+| --- | ---- | ---- | ----------- |
+| 1   | I    | **RX_P** | Differential receive (positive) |
+| 2   | I    | **RX_N** | Differential receive (negative) |
+| 3   | P    | **RCT** | RX centre tap; connect to transformer centre tap |
+| 4   | P    | **TCT** | TX centre tap; connect to transformer centre tap |
+| 5   | O    | **TX_P** | Differential transmit (positive) |
+| 6   | O    | **TX_N** | Differential transmit (negative) |
+
+  </TabItem>
+
+  <TabItem value="j2" label="J2" default>
+
+<img src="/img/products/w5500-io/J2_PIN.png" width="600" />
+
+**J2 — SPI and Status Signals**
+
+| Pin | Type | Name  | Description |
+| --- | ---- | ----- | ----------- |
+| 1   | P    | **GND**   | Ground |
+| 2   | P    | **GND**   | Ground |
+| 3   | I    | **MOSI**  | SPI Master‑Out/Slave‑In input |
+| 4   | I    | **SCLK**  | SPI clock input |
+| 5   | I    | **CSn**   | Chip‑select input (active low) |
+| 6   | O    | **INTn**  | Interrupt output (active low). Low = interrupt pending, High = no interrupt |
+| 7   | O    | **LINK**  | Link status output. Low = link OK, High = no link |
+
+  </TabItem>
+
+    <TabItem value="j3" label="J3" default>
+
+<img src="/img/products/w5500-io/J3_PIN.png" width="600" />
+
+**J3 — Power and Additional Signals**
+
+| Pin | Type | Name | Description |
+| --- | ---- | ---- | ----------- |
+| 1   | P    | **GND**  | Ground |
+| 2   | P    | **3.3V** | Power supply (3.3 V) |
+| 3   | P    | **3.3V** | Power supply (3.3 V) |
+| 4   | –    | **NC**   | Not connected |
+| 5   | I    | **RSTn** | Module reset (active low). Hold low for ≥ 500 µs to reset |
+| 6   | O    | **MISO** | SPI Master‑In/Slave‑Out output |
+| 7   | O    | **ACTn** | Activity LED indicator. Low = carrier sense active, High = no carrier sense |
+
+  </TabItem>
+</Tabs>
+
+---
+
+## Features
+- Compact **plug-in Ethernet module**
+- Hardware compatible with **W5100S-io** and **W6100-io**
+- No external design effort for W5500 chip
+- High-speed **SPI interface**
+- **Power-down** and **Wake-on-LAN** support
+- Very small form factor: **20 mm × 24 mm × 2.6 mm**
+
+---
+
+## Electrical Characteristics
+
+<Tabs groupId="electrical-characteristics" queryString>
+  <TabItem value="dc" label="DC Characteristic" default>
+
+  **DC Characteristic**
+
+| Symbol | Parameter | Pins | Min | Typ | Max | Unit |
+|--------|-----------|------|-----|-----|-----|------|
+| V<sub>DD</sub> | Supply voltage              | 3.3 V | 2.97 | 3.3  | 3.63 | V |
+| V<sub>IL</sub> | High-level input            | ALL   | 2.0  | –    | 5.5  | V |
+| V<sub>IH</sub> | Low-level input             | ALL   | –0.3 | –    | 0.8  | V |
+| V<sub>OL</sub> | Low-level output            | ALL   | –    | –    | 0.4  | V |
+| V<sub>OH</sub> | High-level output           | ALL   | 2.4  | –    | –    | V |
+| I<sub>DD</sub> | Supply current (Normal)     | 3.3 V | –    | 132  | –    | mA |
+| I<sub>PD</sub> | Supply current (Power-down) | 3.3 V | –    | 13   | –    | mA |
+
+  </TabItem>
+
+  <TabItem value="power" label="Power Dissipation">
+
+  **Power Dissipation**
+
+| Condition                  | Typ | Unit |
+|---------------------------|-----|------|
+| 100 Mb/s Link             | 128 | mA   |
+| 10 Mb/s Link              | 75  | mA   |
+| Un-Link (Auto-negotiation)| 65  | mA   |
+| 100 Mb/s Tx               | 132 | mA   |
+| 10 Mb/s Tx                | 79  | mA   |
+| Power-down mode           | 13  | mA   |
+
+  </TabItem>
+</Tabs>
+
+---
+
+## Documentation
+
+This section provides key documentation, including user manuals and datasheets, to help you understand product features, specifications, and usage.
+
+| Title | Description | Link | Notes |
+|-------|-------------|------|-------|
+| Datasheet | Technical specifications and features of the W5500 chip | ![link](\img\link.png) [EN](/img/products/w5500/W5500_ds_v110e.pdf) / ![link](\img\link.png) [한국어](/img/products/w5500/W5500_ds_v110k.pdf)   | - |
+
+:::note
+
+**SPI operation of W5500-io follows one of W5500**. For more information about SPI operation of W5500-io, please refer to W5500 Datasheet.
+
+:::
+
+
+---
+
+## Software Resources
+
+<Tabs groupId="software"  queryString>
+  <TabItem value="driver" label="Driver" default >
+  **Driver**
+  
+    | **Resource** | **Description** |
+    |--------------|-----------------|
+    | [![link](\img\link.png) ioLibrary_Driver](https://github.com/Wiznet/ioLibrary_Driver)| Official WIZnet driver library for W5500 and other chips |
+
+      :::info
+
+The ioLibrary_Driver is an MCU-independent library for WIZnet W5x00, W6x00 chips .
+It provides implementations of essential TCP/IP services, enabling developers to build network applications with minimal MCU dependencies.
+      ### Supported services
+DHCP, DNS, MQTT, SNTP, TFTP, HTTP Server
+
+      :::
+  
+  </TabItem>
+
+  <TabItem value="appnote" label="Application Note" >
+  
+  **Application Note**
+
+  | **Example Name** | **Description**                       | **Notes**                        |
+|------------------|---------------------------------------|----------------------------------|
+| [![link](\img\link.png) TCP Function](docs/Product/Chip/Ethernet/W5500/Application/TCP.md) | How to use TCP Function    | ITCP Function handles IPv4 layer communication    |
+| [![link](\img\link.png) UDP Function](docs/Product/Chip/Ethernet/W5500/Application/UDP.md) | How to use UDP Function   | UDP Function  handles IPv4 layer communication    |
+| [![link](\img\link.png) IPRAW](docs/Product/Chip/Ethernet/W5500/Application/IPRAW.md) | How to use IPRAW Mode    | IPRAW Mode handles IPv4 layer communication    |
+| [![link](\img\link.png) PPPoE](docs/Product/Chip/Ethernet/W5500/Application/PPPoE.md) | How to use PPP/PPPoE     | PPP is Link-Layer protocol for point-to-point  | 
+
+  :::info
+  These application notes explain how to use W5500's core networking functions including TCP, UDP, IPRAW mode, and PPPoE protocols.
+  :::
+
+  </TabItem>
+</Tabs>
+
+## Hardware Resources
+
+This section provides essential hardware resources, including schematics, 3D models, and part lists for your reference.
+
+| Title | Revision | Description | Download | Notes |
+|-------|----------|-------------|----------|-------|
+| schematic | 1.0 | Circuit diagram for hardware design reference | ![download](/img/products/w5500/w5500_evb/icons/download.png) [Altium](/img/products/wiz750sr/clitool/datasheet/wiz750sr_schematic_v1.2_wiki_upload.zip) <br />![download](/img/products/w5500/w5500_evb/icons/download.png) [PDF](https://github.com/Wiznet/Hardware-Files-of-WIZnet/raw/master/05_Network_Module/W5500-io/W5500-io_V100/Schematic/W5500-io_SCH_V100.pdf) |  |
+| 3D File | 1.0 | 3D model for mechanical design and visualization | ![download](/img/products/w5500/w5500_evb/icons/download.png) [Step](/img/products/3d-step-files/W5500-io_V100.step)  |  |
+| Part list | 1.0 | List of components used in the hardware | ![download](/img/products/w5500/w5500_evb/icons/download.png) [Excel](https://github.com/Wiznet/Hardware-Files-of-WIZnet/raw/master/05_Network_Module/W5500-io/W5500-io_V100/Partlist/W5500-io_PL_V100.xlsx)<br />![download](/img/products/w5500/w5500_evb/icons/download.png) [PDF](https://github.com/Wiznet/Hardware-Files-of-WIZnet/raw/master/05_Network_Module/W5500-io/W5500-io_V100/Partlist/W5500S-io_PL_V100.pdf)  |  | 
+
+<!--
+:::note
+
+Old versions of the hardware resources can be found at [**this link**](https://docs.wiznet.io/Product/Modules/Serial-to-Ethernet-Module/WIZ750SR/datasheet#schematic).
+
+:::
+
+-->
+
+---
+
+## Mechanical Information
+
+<img src="https://github.com/Wiznet/Hardware-Files-of-WIZnet/blob/master/05_Network_Module/W5500-io/Pictures/W5500-io%20dimension.png?raw=true" width="400" />
+
+* **PCB size:** 24 mm × 20 mm × 1.0 mm  
+* **Overall height:** 2.6 mm (including components)
+
+---
+
+<!--
+
+## Related Modules
+
+<Tabs groupId="modules" queryString>
+<TabItem value="ioModules" label="ioModules" default>
+
+### ioModules
+- [W5100S-io](../W5100S-io.md) — Compact SPI Ethernet module using W5100S chip  
+- [W6100-io](../W6100-io.md) — Dual IPv4/IPv6 compatible module  
+
+</TabItem>
+</Tabs>
+
+---
+
+-->
