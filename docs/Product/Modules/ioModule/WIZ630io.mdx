@@ -1,0 +1,197 @@
+---
+id: wiz630io
+title: WIZ630io
+slug: /Product/ioModule/WIZ630io/
+date: 2025-07-22
+keywords: [WIZ630io, Ethernet Module, W6300, WIZnet, ioModule, QSPI, IPv6]
+description: WIZ630io is a high-speed Ethernet module based on the W6300 chip supporting QSPI interface and 150MHz operation for enhanced performance.
+---
+
+import Tabs from '@theme/Tabs';
+import TabItem from '@theme/TabItem';
+
+# WIZ630io
+<h1>WIZ630io</h1>
+<div className="main_intro"> 
+  <div className="main_intro_image">
+    <img src="/img/products/wiz630io/WIZ630io_Front_side_view.png" width="700" />
+  </div>
+  <div className="w55rp20-text">
+    <p>
+      The <b>WIZ630io</b> is a next-generation Ethernet module based on the <b>W6300</b> hardwired TCP/IP chip with integrated PHY and RJ45 (MAG-JACK).
+      It supports <b>QSPI and high-speed operation up to 150 MHz</b>, enabling data throughput over 80 Mbps.  
+      The module integrates all essential Ethernet components, including the transformer and connector, simplifying design for embedded network systems.
+      With dual IPv4/IPv6 stack and 64 KB total buffer memory, WIZ630io is ideal for performance-critical IoT applications.
+    </p>
+  </div>
+</div>
+
+---
+
+## Pin Information
+
+<Tabs groupId="pinout" queryString>
+
+  <TabItem value="all" label="All Pins" default>
+<img src="/img/products/wiz630io/WIZ630io_pin_out_1.png" width="600" />
+
+### J1
+
+| Pin | Type | Name | Description |
+| --- | ---- | ---- | ----------- |
+| 1 | P | **GND** | Ground |
+| 2 | P | **GND** | Ground |
+| 3 | O | **MISO/Q1** | SPI Master-In / Slave-Out <br /> QSPI I/O data line 1|
+| 4 | I | **SCLK** | SPI clock input |
+| 5 | I | **SCSn** | SPI chip select (active low) |
+| 6 | O | **INTn** | Interrupt output (low-active) |
+
+
+### J2
+
+| Pin | Type | Name | Description |
+| --- | ---- | ---- | ----------- |
+| 1 | P | **GND** | Ground |
+| 2 | P | **3V3D** | 3.3 V power |
+| 3 | P | **3V3D** | 3.3 V power |
+| 4 | I | **NC** | No connect |
+| 5 | I | **RSTn** | Hardware reset (active low, ≥ 500 µs) |
+| 6 | I | **MOSI/Q0** | SPI Master-Out / Slave-In <br /> QSPI I/O data line 0|  
+
+### J3
+| Pin | Type | Name | Description |
+| --- | ---- | ---- | ----------- |
+| 1 | IO | **Q3** | QSPI I/O data line 3| 
+| 2 | IO | **Q2** | QSPI I/O data line 2| 
+| 3 |  | **MISO/Q1** | SPI Master-In / Slave-Out <br /> QSPI I/O data line 1|
+| 4 | I | **NC** | No connect |
+| 5 | I | **RSTn** | Hardware reset (active low, ≥ 500 µs) |
+| 6 | I | **MOSI/Q0** | SPI Master-Out / Slave-In <br /> QSPI I/O data line 0|  
+
+  </TabItem>
+</Tabs>
+
+---
+
+## Features
+
+<ul>
+  <li>Supports <b>Hardwired TCP/IP protocols</b>: TCP, UDP, IPv6, IPv4, ICMPv6, ICMPv4, IGMP, MLDv1, ARP, PPPoE</li>
+  <li>Dual Stack <b>IPv4/IPv6</b> support</li>
+  <li>High-speed operation with <b>150 MHz system clock</b></li>
+  <li>Up to <b>80 Mbps throughput</b> via QSPI (4-bit data interface)</li>
+  <li>8 independent sockets with total <b>64 KB SRAM</b> (4 KB TX/RX per socket)</li>
+  <li>Supports SOCKET-less commands (ARP, ICMPv6 for DAD, NA, RS)</li>
+  <li>Integrated transformer and RJ45 MAG-JACK</li>
+  <li>Supports Ethernet PHY power down & clock switching for low power</li>
+  <li>Supports <b>Wake-on-LAN (UDP)</b></li>
+  <li>Supports <b>SPI and QSPI</b> interfaces</li>
+  <li>10BaseT / 10Base-Te / 100BaseTX Ethernet PHY integrated</li>
+  <li>Auto-Negotiation and Auto-MDIX supported</li>
+  <li>3.0 V operation (5 V I/O tolerant)</li>
+  <li>Network LEDs for link, speed, duplex, and activity</li>
+  <li>Operating temperature: −40 °C to +85 °C</li>
+</ul>
+
+---
+
+## Electrical Characteristics
+
+<Tabs groupId="electrical" queryString>
+  <TabItem value="dc" label="DC Characteristics" default>
+
+| Symbol | Parameter | Pins | Min | Typ | Max | Unit |
+| ------- | ---------- | ---- | --- | --- | --- | ---- |
+| V<sub>DD</sub> | Supply voltage | 3.3 V | 2.97 | 3.3 | 3.63 | V |
+| V<sub>IH</sub> | High-level input | ALL | 2.0 | – | - | V |
+| V<sub>IL</sub> | Low-level input | ALL | – | – | 0.8 | V |
+| V<sub>OH</sub> | High-level output | ALL | 2.4 | 3.3 | – | V |
+| V<sub>OL</sub> | Low-level output | ALL | 0.0 | – | 0.4 | V |
+| I<sub>DD</sub> | Supply current (Normal) | 3.3 V | – | TBD | – | mA |
+| I<sub>PD</sub> | Supply current (Power-down) | 3.3 V | – | TBD | – | mA |
+
+  </TabItem>
+
+  <TabItem value="power" label="Power Dissipation">
+
+| Condition | Min | Typ | Max | Unit |
+| ---------- | --- | --- | --- | ---- |
+| 100M Link | – | TBD | TBD | mA |
+| 10M Link | – | TBD | TBD | mA |
+| 10M-Te Link | – | TBD | TBD | mA |
+| 100M Unlink | – | TBD | TBD | mA |
+| 10M Unlink | – | TBD | TBD | mA |
+| 10M-Te Unlink | – | TBD | TBD | mA |
+| Un-Link (Auto-negotiation mode) | – | TBD | TBD | mA |
+| Power Down mode | – | TBD | TBD | mA |
+
+  </TabItem>
+</Tabs>
+
+---
+
+## Documentation
+
+| Title | Description | Link |
+|-------|-------------|------|
+| Datasheet (W6300) | Technical datasheet for W6300 Ethernet chip | ![download](/img/products/w5500/w5500_evb/icons/download.png) [W6300 Datasheet v1.0.0](/img/products/w6300/W6300%20DS_V100E.pdf) |
+
+---
+
+## Software Resources
+
+<Tabs groupId="software" queryString>
+  <TabItem value="driver" label="Driver" default>
+
+<h4>Driver</h4>
+
+<table>
+<thead>
+<tr><th>Resource</th><th>Description</th></tr>
+</thead>
+<tbody>
+<tr>
+<td><a href="https://github.com/Wiznet/ioLibrary_Driver" target="_blank"><img src="/img/link.png" width="14"/> ioLibrary_Driver</a></td>
+<td>Official WIZnet driver library supporting W6300 and related Ethernet controllers.</td>
+</tr>
+</tbody>
+</table>
+
+<blockquote>
+  <b>Note:</b> The <b>ioLibrary_Driver</b> provides platform-independent network APIs for WIZnet chips.<br/>
+  Includes DHCP, DNS, SNTP, MQTT, and HTTP server modules for easy network development.
+</blockquote>
+
+  </TabItem>
+</Tabs>
+
+---
+
+## Hardware Resources
+
+| Title | Revision | Description | Download | Notes |
+|-------|----------|-------------|----------|-------|
+| schematic | 1.0 | Circuit diagram for hardware design reference | ![download](/img/products/w5500/w5500_evb/icons/download.png) [PDF](/img/products/wiz630io/WIZ630IO_sch.pdf) | — |
+| 3D File | 1.0 | 3D model for mechanical design and visualization | ![download](/img/products/w5500/w5500_evb/icons/download.png) [STEP](/img/products/wiz630io/WIZ630IO.step) | — |
+
+---
+
+## Mechanical Information
+
+<img src="/img/products/wiz630io/WIZ630IO_Dimension.png" width="400"/>
+
+<ul>
+  <li><b>Form factor:</b> ioModule with integrated RJ45 MAG-JACK</li>
+  <li><b>Pin pitch:</b> 2.54 mm (header pins)</li>
+  <li><b>Dimensions:</b> 29.00 x 23.00 (mm)</li>
+</ul>
+
+---
+
+## Related Products
+
+| Product | Description |
+|----------|-------------|
+| [W6300 Chip](../../Chip/Ethernet/W6300/Overview.md) | High-performance Ethernet controller (QSPI, 150 MHz) |
+| [WIZ610MJ](./WIZ610MJ.mdx) | Ethernet module with W6100 chip, SPI and parallel bus support |
+| [WIZ610io](./WIZ610io.mdx) | Compact SPI Ethernet module using W6100 |
