@@ -1,0 +1,226 @@
+---
+id: wiz830mj
+title: WIZ830MJ
+slug: /Product/ioModule/WIZ830MJ/
+date: 2020-04-16
+keywords: [WIZ830MJ, Ethernet Module, W5300, WIZnet, ioModule]
+description: WIZ830MJ is a high-performance Ethernet module integrating W5300 with an onboard PHY and RJ45 MAG-JACK, supporting 8 sockets and parallel MCU BUS interface.
+---
+
+import Tabs from '@theme/Tabs';
+import TabItem from '@theme/TabItem';
+
+# WIZ830MJ
+<h1>WIZ830MJ</h1>
+<div className="main_intro"> 
+  <div className="main_intro_image">
+    <img src="/img/products/wiz830mj/WIZ830MJ_main.png" width="300" />
+  </div>
+  <div className="w55rp20-text">
+    <p>
+      The <b>WIZ830MJ</b> is a high-performance Ethernet module based on the <b>W5300</b> hardwired TCP/IP chip with integrated MAC and PHY.  
+      It includes an onboard RJ45 (MAG-JACK) and necessary interface logic, allowing developers to rapidly add Ethernet functionality to embedded systems.  
+      Designed for easy integration via a <b>16/8-bit parallel MCU BUS interface</b>, WIZ830MJ offers outstanding throughput and stability for industrial applications.
+    </p>
+  </div>
+</div>
+
+---
+
+## Pin Information
+
+<Tabs groupId="pinout" queryString>
+
+  <TabItem value="all" label="All Pins" default>
+<img src="/img/products/wiz830mj/pinmap.png" width="650" />
+
+### J1
+
+| Pin | Type | Name  | Description       |
+| --- | ---- | ----- | ----------------- |
+| 1   | P    | **3V3D** | 3.3 V Power       |
+| 2   | I/O  | **D15** | BUS : Data Bit 15 |
+| 3   | I/O  | **D14** | BUS : Data Bit 14 |
+| 4   | I/O  | **D13** | BUS : Data Bit 13 |
+| 5   | I/O  | **D12** | BUS : Data Bit 12 |
+| 6   | I/O  | **D11** | BUS : Data Bit 11 |
+| 7   | I/O  | **D10** | BUS : Data Bit 10 |
+| 8   | I/O  | **D9**  | BUS : Data Bit 9  |
+| 9   | I/O  | **D8**  | BUS : Data Bit 8  |
+| 10  | I/O  | **D7**  | BUS : Data Bit 7  |
+| 11  | I/O  | **D6**  | BUS : Data Bit 6  |
+| 12  | I/O  | **D5**  | BUS : Data Bit 5  |
+| 13  | I/O  | **D4**  | BUS : Data Bit 4  |
+| 14  | I/O  | **D3**  | BUS : Data Bit 3  |
+| 15  | I/O  | **D2**  | BUS : Data Bit 2  |
+| 16  | I/O  | **D1**  | BUS : Data Bit 1  |
+| 17  | I/O  | **D0**  | BUS : Data Bit 0  |
+| 18 | P | **GND** | Ground |
+| 19  | I/O  | **A9**  | BUS : Address line A9 |
+| 20  | I/O  | **A8**  | BUS : Address line A8 |
+| 21  | I/O  | **A7**  | BUS : Address line A7 |
+| 22  | I/O  | **A6**  | BUS : Address line A6 |
+| 23  | I/O  | **A5**  | BUS : Address line A5 |
+| 24  | I/O  | **A4**  | BUS : Address line A4 |
+| 25  | I/O  | **A3**  | BUS : Address line A3 |
+| 26  | I/O  | **A2**  | BUS : Address line A2 |
+| 27  | I/O  | **A1**  | BUS : Address line A1 |
+| 28  | I/O  | **A0**  | BUS : Address line A0 |
+
+### J2
+
+| Pin | Type | Name | Description |
+| --- | ---- | ---- | ----------- |
+| 1 | P | **3V3D** | 3.3 V Power       |
+| 2 | I | **BIT16_EN** | 16/8 bit data bus select<br /> High : 16 bit data bus  <br /> Low : 8 bit data bus |
+| 3   | O    | **/LINKLED**| Link status LED (active low)                           |
+| 4   | O    | **/TXLED**  | Transmit activity LED (active low)                     |
+| 5   | O    | **/RXLED**  | Receive activity LED (active low)                      |
+| 6   | O    | **/COLLED** | Collision LED (active low)                             |
+| 7   | O    | **/FDXLED** | Full duplex LED (active low)                           |
+| 8   | O    | **/SPDLED** | Speed status LED (active low)                          |
+| 9   | O    | **/ACTLED** | Link/activity LED (active low)                         |
+| 10  | P    | **GND**     | Ground                                                  |
+| 11  | O    | **BRDY3**   | Bus Ready 3 signal                                      |
+| 12  | O    | **BRDY2**   | Bus Ready 2 signal                                      |
+| 13  | O    | **BRDY1**   | Bus Ready 1 signal                                      |
+| 14  | O    | **BRDY0**   | Bus Ready 0 signal                                      |
+| 15  | P    | **GND**     | Ground                                                  |
+| 16  | P    | **GND**     | Ground                                                  |
+| 17  | I    | **/RESET**  | Hardware reset input (active low)                      |
+| 18  | O    | **/INT**    | Interrupt output (active low)                          |
+| 19  | I    | **/CS**     | Chip select input (active low)                         |
+| 20  | I    | **/RD**     | Read strobe input (active low)                         |
+| 21  | I    | **/WR**     | Write strobe input (active low)                        |
+| 22  | —    | **NC**      | No connect                                              |
+| 23  | P    | **GND**     | Ground                                                  |
+| 24  | P    | **GND**     | Ground                                                  |
+| 25  | —    | **NC**      | No connect                                              |
+| 26  | —    | **NC**      | No connect                                              |
+| 27  | —    | **NC**      | No connect                                              |
+| 28  | —    | **NC**      | No connect                                              |
+
+  </TabItem>
+</Tabs>
+
+---
+
+## Features
+![](/img/products/wiz830mj/830MJ_Block.jpg)
+
+<ul>
+  <li>Plug-in network module integrating <b>W5300</b> hardwired TCP/IP chip, transformer, and RJ45 MAG-JACK</li>
+  <li>No external hardware design required for PHY or transformer</li>
+  <li><b>16/8-bit MCU parallel BUS interface</b> for high data throughput</li>
+  <li>Supports <b>8 independent hardware sockets</b></li>
+  <li>Provides up to <b>128 KB internal TX/RX buffer memory</b></li>
+  <li>Two PCB through-holes for secure mounting (Ø 3.00 mm)</li>
+  <li>Operating temperature: −40 °C to +85 °C</li>
+  <li>Ideal for high-performance Ethernet applications</li>
+</ul>
+
+---
+
+## Electrical Characteristics
+
+<Tabs groupId="electrical" queryString>
+  <TabItem value="dc" label="DC Characteristics" default>
+
+| Symbol | Parameter | Min | Typ | Max | Unit |
+| ------- | ---------- | --- | --- | --- | ---- |
+| V<sub>DD</sub> | Supply voltage | 2.97 | 3.3 | 3.6 | V |
+| V<sub>IH</sub> | High-level input voltage | 2.0 | – | 5.5 | V |
+| V<sub>IL</sub> | Low-level input voltage | –0.3 | – | 0.8 | V |
+| V<sub>OH</sub> | High-level output voltage | 2.4 | 3.3 | – | V |
+| V<sub>OL</sub> | Low-level output voltage | 0.0 | – | 0.4 | V |
+| I<sub>DD</sub> | Operating current VCC 3.3V (Normal) | – | 180 | 250 | mA |
+
+  </TabItem>
+
+  <TabItem value="power" label="Power Dissipation">
+
+| Symbol | Parameter | Min | Typ | Max | Unit |
+| ------- | ---------- | --- | --- | --- | ---- |
+| P<sub>IA</sub> | using the auto-negotiation of internal PHY mode  | - | 180 | 250 | mA |
+| P<sub>IM</sub> | using manual configuration of internal PHY mode | - | 175 | 210 | mA |
+| P<sub>E</sub> | using external PHY mode  | - | 65 | 150 | mA |
+
+    Condition : Vcc 3.3V, Temperature 25°C 
+
+  </TabItem>
+</Tabs>
+
+---
+
+## Documentation
+
+| Title | Description | Link |
+|-------|-------------|------|
+| Datasheet | Technical specifications and interface details for WIZ830MJ | ![download](/img/products/w5500/w5500_evb/icons/download.png) [WIZ830MJ Datasheet v1.3](/img/products/wiz830mj/WIZ830MJ_DS_V130E.pdf) |
+
+---
+
+## Software Resources
+
+<Tabs groupId="software" queryString>
+  <TabItem value="driver" label="Driver" default>
+
+<h4>Driver</h4>
+
+| **Resource** | **Description** |
+|--------------|-----------------|
+| [![link](\img\link.png) ioLibrary_Driver](https://github.com/Wiznet/ioLibrary_Driver) | Official WIZnet driver library supporting W5300 and other hardwired TCP/IP chips |
+| ![download](/img/products/w5500/w5500_evb/icons/download.png) [AX1.zip](/img/products/wiz820io/AX1.zip) | AX1 Loopback Test Program (install version) |
+
+<blockquote>
+  <b>Note:</b> The <b>ioLibrary_Driver</b> provides TCP/IP stack, DHCP, DNS, and other Internet protocols  
+  for WIZnet’s W5x00/W5300 series. It is MCU-independent and supports embedded Ethernet applications.
+</blockquote>
+
+  </TabItem>
+</Tabs>
+
+---
+
+## Hardware Resources
+
+| Title | Revision | Description | Download | Notes |
+|-------|----------|-------------|----------|-------|
+| schematic & Partlist | 1.1 | Circuit diagram and BOM for hardware reference | ![download](/img/products/w5500/w5500_evb/icons/download.png) [ZIP](/img/products/wiz830mj/WIZ830MJ_Hardware.zip) | — |
+
+---
+
+## Mechanical Information
+
+<img src="/img/products/wiz830mj/dimension1.png" width="600"/>
+<img src="/img/products/wiz830mj/dimension2.png" width="600"/>
+
+| Symbols | Dimensions (mm)  |
+|-------|------|
+| A | 34.00 |
+| B | 30.48 |
+| C | 25.40 |
+| D | 3.40 |
+| E | 4.00 |
+| F | 50.00 |
+| G | 3.30 |
+| H | 6.50 |
+| I | 2.54 |
+| J | 2.54 |
+| K | 15.90 |
+| L | 13.50 |
+| M | 6.00 |
+
+<ul>
+  <li><b>Form factor:</b> Plug-in ioModule with RJ45 MAG-JACK</li>
+  <li><b>Pin pitch:</b> 2.54 mm</li>
+  <li><b>Mounting holes:</b> Ø 3.00 mm × 2</li>
+</ul>
+
+---
+
+## Related Products
+
+| Product | Description |
+|----------|-------------|
+| [W5300 Chip](../../Chip/Ethernet/W5300/Overview.md) | High-performance hardwired TCP/IP Ethernet controller with 16-bit parallel interface |

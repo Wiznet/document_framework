@@ -1588,10 +1588,10 @@ module.exports = {
 							'Product/Modules/ioModule/wiz810smj',
 							'Product/Modules/ioModule/wiz810mj',
 							'Product/Modules/ioModule/wiz811mj',
-							'Product/Modules/ioModule/wiz820io',
+							//'Product/Modules/ioModule/wiz820io',
 							'Product/Modules/ioModule/wiz830mj',
-							'Product/Modules/ioModule/wiz850io',
-							'Product/Modules/ioModule/nm7010b'
+							'Product/Modules/ioModule/wiz850io'
+							//'Product/Modules/ioModule/nm7010b'
 						],
 					},
 					{
@@ -1933,6 +1933,9 @@ module.exports = {
 					'Product/Modules/ioModule/W5100S-io',
 					'Product/Modules/ioModule/W6100-io',
 					'Product/Modules/ioModule/wiz812mj',
+					'Product/Modules/ioModule/wiz820io',
+					'Product/Modules/ioModule/nm7010b',
+					
 				],
 			},
 			{

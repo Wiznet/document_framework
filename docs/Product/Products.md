@@ -30,8 +30,8 @@ slug: /
 # Modules
 ### io Module (Internet Offload Module)
 
-  * [WIZ850io](./Modules/ioModule/WIZ850io.md)
-  * [WIZ550io](./Modules/ioModule/wiz550io.md)
+  * [WIZ850io](./Modules/ioModule/WIZ850io.mdx)
+  * [WIZ550io](./Modules/ioModule/wiz550io.mdx)
 
 -----
 

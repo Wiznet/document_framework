@@ -1,0 +1,196 @@
+---
+id: wiz850io
+title: WIZ850io
+slug: /Product/ioModule/WIZ850io/
+date: 2020-04-15
+keywords: [WIZ850io, W5500, Ethernet Module, ioModule, WIZnet]
+description: WIZ850io is a compact Ethernet module with W5500 TCP/IP hardwired chip, integrated transformer, and RJ45 MAG-JACK, compatible with WIZ820io.
+---
+
+import Tabs from '@theme/Tabs';
+import TabItem from '@theme/TabItem';
+
+# WIZ850io
+<h1>WIZ850io</h1>
+<div className="main_intro"> 
+  <div className="main_intro_image">
+    <img src="/img/products/wiz850io/wiz850io.png" width="300" />
+  </div>
+  <div className="w55rp20-text">
+    <p>
+      The <b>WIZ850io</b> is a compact network module that integrates the <b>W5500</b> hardwired TCP/IP chip with a built-in PHY, transformer, and RJ45 MAG-JACK.  
+      It is fully compatible with <b>WIZ820io</b> hardware, providing developers with a seamless upgrade path and faster network performance.  
+      Ideal for rapid prototyping and Internet-enabled embedded systems, it requires no additional interface design between the W5500 and transformer.
+    </p>
+  </div>
+</div>
+
+---
+
+## Pin Information
+
+<Tabs groupId="pinout" queryString>
+
+  <TabItem value="pinmap" label="All" default>
+<img src="/img/products/wiz850io/wiz850io_pinmap.png" width="600" />
+
+### J1 — SPI Interface
+
+| Pin | Type | Name | Description |
+| --- | ---- | ---- | ----------- |
+| 1 | P | **GND** | Ground |
+| 2 | P | **GND** | Ground |
+| 3 | I | **MOSI** | SPI Master-Out / Slave-In |
+| 4 | I | **SCLK** | SPI clock input |
+| 5 | I | **SCNn** | SPI chip select (active low) |
+| 6 | O | **INTn** | Interrupt output (low-active) — indicates socket events like connection, disconnection, data reception, and WOL |
+
+### J2 — Power & Control
+
+| Pin | Type | Name | Description |
+| --- | ---- | ---- | ----------- |
+| 1 | P | **GND** | Ground |
+| 2 | P | **3V3D** | 3.3 V Power supply |
+| 3 | P | **3V3D** | 3.3 V Power supply |
+| 4 | – | **NC** | Not connected |
+| 5 | I | **RSTn** | Hardware reset input (active low, ≥ 500 µs) |
+| 6 | O | **MISO** | SPI Master-In / Slave-Out |
+
+<p><i>*Wait at least 50 ms after RSTn goes high before SPI communication.*</i></p>
+
+  </TabItem>
+</Tabs>
+
+---
+
+## Features
+
+<ul>
+  <li>Compact plug-in Ethernet module integrating <b>W5500</b> with transformer and RJ45 MAG-JACK</li>
+  <li>Hardware compatible with <b>WIZ820io</b></li>
+  <li>No hardware design required for PHY or transformer</li>
+  <li>Supports <b>high-speed SPI interface (Mode 0/3)</b></li>
+  <li>Power-down and Wake-on-LAN support</li>
+  <li>Small form factor: <b>20 × 25 mm</b></li>
+  <li>1×6-pin headers (2.54 mm pitch)</li>
+  <li>Operating temperature: −40 °C ~ +85 °C</li>
+</ul>
+
+---
+
+## Electrical Characteristics
+
+<Tabs groupId="electrical" queryString>
+  <TabItem value="dc" label="DC Characteristics" default>
+
+| Symbol | Parameter | Pins | Min | Typ | Max | Unit |
+| ------- | ---------- | ---- | --- | --- | --- | ---- |
+| V<sub>DD</sub> | Supply voltage | 3.3 V | 2.97 | 3.3 | 3.63 | V |
+| V<sub>IH</sub> | High-level input | ALL | 0.7×Vcc | – | 5.5 | V |
+| V<sub>IL</sub> | Low-level input | ALL | –0.3 | – | 0.3×Vcc | V |
+| V<sub>OH</sub> | High-level output | ALL | 2.9 | 3.3 | – | V |
+| V<sub>OL</sub> | Low-level output | ALL | 0.0 | – | 0.52 | V |
+| I<sub>DD</sub> | Supply current (Normal) | 3.3 V | – | 141 | – | mA |
+| I<sub>PD</sub> | Supply current (Power-down) | 3.3 V | – | 13 | – | mA |
+
+  </TabItem>
+
+  <TabItem value="power" label="Power Dissipation">
+
+| Condition | Min | Typ | Max | Unit |
+| ---------- | --- | --- | --- | ---- |
+| 100 Mb/s Link | – | 135 | – | mA |
+| 10 Mb/s Link | – | 80 | – | mA |
+| Unlink (Auto-negotiation) | 62 | – | 75 | mA |
+| 100 Mb/s Tx | 137 | – | 141 | mA |
+| 10 Mb/s Tx | – | 83 | – | mA |
+| Power-down | – | 13 | – | mA |
+
+  </TabItem>
+</Tabs>
+
+---
+
+## Documentation
+
+This section provides key documentation, including user manuals and datasheets, to help you understand product features, specifications, and usage.
+
+| Title | Description | Link | Notes |
+|-------|-------------|------|-------|
+| Datasheet | Technical specifications and features of the W5500 chip | ![link](\img\link.png) [EN](/img/products/w5500/W5500_ds_v110e.pdf) / ![link](\img\link.png) [한국어](/img/products/w5500/W5500_ds_v110k.pdf)   | - |
+
+:::note
+
+**SPI operation of W5500-io follows one of W5500**. For more information about SPI operation of W5500-io, please refer to W5500 Datasheet.
+
+:::
+
+
+---
+
+## Software Resources
+
+<Tabs groupId="software"  queryString>
+  <TabItem value="driver" label="Driver" default >
+  **Driver**
+  
+    | **Resource** | **Description** |
+    |--------------|-----------------|
+    | [![link](\img\link.png) ioLibrary_Driver](https://github.com/Wiznet/ioLibrary_Driver)| Official WIZnet driver library for W5500 and other chips |
+
+      :::info
+
+The ioLibrary_Driver is an MCU-independent library for WIZnet W5x00, W6x00 chips .
+It provides implementations of essential TCP/IP services, enabling developers to build network applications with minimal MCU dependencies.
+      **Supported services**<br />
+DHCP, DNS, MQTT, SNTP, TFTP, HTTP Server
+
+      :::
+  
+  </TabItem>
+
+  <TabItem value="appnote" label="Application Note" >
+  
+  **Application Note**
+
+  | **Example Name** | **Description**                       | **Notes**                        |
+|------------------|---------------------------------------|----------------------------------|
+| [![link](\img\link.png) TCP Function](docs/Product/Chip/Ethernet/W5500/Application/TCP.md) | How to use TCP Function    | ITCP Function handles IPv4 layer communication    |
+| [![link](\img\link.png) UDP Function](docs/Product/Chip/Ethernet/W5500/Application/UDP.md) | How to use UDP Function   | UDP Function  handles IPv4 layer communication    |
+| [![link](\img\link.png) IPRAW](docs/Product/Chip/Ethernet/W5500/Application/IPRAW.md) | How to use IPRAW Mode    | IPRAW Mode handles IPv4 layer communication    |
+| [![link](\img\link.png) PPPoE](docs/Product/Chip/Ethernet/W5500/Application/PPPoE.md) | How to use PPP/PPPoE     | PPP is Link-Layer protocol for point-to-point  | 
+
+  :::info
+  These application notes explain how to use W5500's core networking functions including TCP, UDP, IPRAW mode, and PPPoE protocols.
+  :::
+
+  </TabItem>
+</Tabs>
+---
+
+## Hardware Resources
+
+| Title | Revision | Description | Download | Notes |
+|-------|----------|-------------|----------|-------|
+| Schematic | 1.0 | Circuit diagram for reference | ![download](/img/products/w5500/w5500_evb/icons/download.png) [PDF](/img/products/wiz850io/wiz850io_sch_v100.pdf)<br/>![download](/img/products/w5500/w5500_evb/icons/download.png) [Altium ZIP](/img/products/wiz850io/wiz850io_sch_v100.zip) |  |
+| Schematic | 1.1 | Updated circuit and layout | ![download](/img/products/w5500/w5500_evb/icons/download.png) [PDF](/img/products/wiz850io/wiz850io_sch_v110.pdf)<br/>![download](/img/products/w5500/w5500_evb/icons/download.png) [Altium ZIP](/img/products/wiz850io/wiz850io_sch_v110.zip) |  |
+
+---
+
+## Mechanical Information
+
+<img src="/img/products/wiz850io/wiz850io_dimension.png" width="500"/>
+
+<ul>
+  <li><b>Form factor:</b> Plug-in ioModule</li>
+  <li><b>Pin pitch:</b> 2.54 mm</li>
+  <li><b>Dimensions:</b> 25 × 23 mm</li>
+</ul>
+
+---
+
+## Related Products
+
+| Product | Description |
+|----------|-------------|
+| [W5500 Chip](../../Chip/Ethernet/W5500/Overview.md) | Hardwired TCP/IP Ethernet controller with integrated PHY |

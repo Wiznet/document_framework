@@ -37,7 +37,7 @@ application info.
     ![](/img/star.png) 
   - [W5500](Product/Chip/Ethernet/W5500/Overview.md): Hardwired TCP/IP Chip
   - [W5500-EVB](Product/Chip/Ethernet/W5500/W5500-EVB/W5500-EVB.md): W5500 Evaluation Board
-  - [WIZ550io](Product/Modules/ioModule/wiz550io.md): Plug-in Network Module 
+  - [WIZ550io](Product/Modules/ioModule/wiz550io.mdx): Plug-in Network Module 
   - [WIZ550S2E](Product/Modules/Serial-to-Ethernet-Module/WIZ550S2E/WIZ550S2E.md): Serial to Ethernet
   - [WIZ550web](Product/Modules/App-Module/WIZ550web/WIZ550web.md): Embedded Web Server
   - [WizFi250](Product/Modules/Wi-Fi-Module/WizFi250/WizFi250.md): Wi-Fi Module
