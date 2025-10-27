@@ -12,6 +12,7 @@ W6300-EVB-Pico2 is a microcontroller evaluation board based on the Raspberry Pi 
 
 - Raspberry Pi Pico2 Clone
 - Ethernet (W6300 Hardwired TCP/IP CHIP)
+- [AWS IoT Core Qualified](https://partners.amazonaws.com/devices/a3Gaq0000000KJhEAM/W6300-EVB-Pico2)
 
 ![W6300-EVB-PICO2](/img/products/w6300-evb-pico2/w6300-evb-pico2-docs.png)
 
@@ -217,6 +218,17 @@ Please refer to below links to find firmware example.
 <!-- | Date    | Decription |
 | ------- | ---------- |
 | OCT2023 | \-         | -->
+
+
+## AWS Qualification
+
+W6300-EVB-Pico2 is RP2350-based device that got AWS IoT Core Qualification.
+
+![](/img/products/w6300-evb-pico2/aws_qualified_device_badge.png)
+
+- [AWS Partner Device Catalog](https://partners.amazonaws.com/devices/a3Gaq0000000KJhEAM/W6300-EVB-Pico2)
+- <a href="https://github.com/WIZnet-ioNIC/WIZnet-PICO-AWS-C?tab=readme-ov-file#getting-started-guide-for-aws-iot-core" target="_blank">Getting Started Guide for AWS IoT Core</a>
+
 
 ## How to buy
 
