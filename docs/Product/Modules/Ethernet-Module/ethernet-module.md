@@ -1,6 +1,6 @@
 ---
-id: iomodule
-title: ioModule
+id: ethernet_module
+title: ethernet_module
 date: 2020-04-15
 ---
 

@@ -728,6 +728,19 @@ module.exports = {
 											// 하위 항목들
 											{ type: 'link', label: 'evaluation-boards', href: '/Product/Chip/Ethernet/W5500/?module=evb#related-modules' },
 											{ type: 'link', label: 'Hat & shield',  href: '/Product/Chip/Ethernet/W5500/?module=hat#related-modules' },
+											{
+												type: 'category',
+												label: 'W5500 Ethernet Shield',
+												link: {type: 'doc', id: 'Product/Chip/Ethernet/W5500/W5500-Ethernet-Shield/w5500_ethernet_shield'},
+												items: [
+													//'Product/Modules/Open-Source-Hardware/w5500_ethernet_shield',
+													'Product/Chip/Ethernet/W5500/W5500-Ethernet-Shield/w5500_ethernet_shield_kor',
+													'Product/Chip/Ethernet/W5500/W5500-Ethernet-Shield/w5500_ethernet_shield_jp',
+													'Product/Chip/Ethernet/W5500/W5500-Ethernet-Shield/getting_started_arduino',
+													'Product/Chip/Ethernet/W5500/W5500-Ethernet-Shield/getting_started_arduino_kr',
+													'Product/Chip/Ethernet/W5500/W5500-Ethernet-Shield/getting_started_arduino_jp',
+												],
+											},
 										]
 									},
 
@@ -1572,56 +1585,46 @@ module.exports = {
 							},
 							// here
 
-						],
-					},
-					{
-						type: 'category',
-						label: 'ioModule',
-						link: {type: 'doc', id: 'Product/Modules/ioModule/iomodule'},
-						items: [
-							'Product/Modules/ioModule/W5500-io',
-							'Product/Modules/ioModule/wiz550io',
-							'Product/Modules/ioModule/wiz610io',
-							'Product/Modules/ioModule/wiz610mj',
-							'Product/Modules/ioModule/wiz630io',
-							'Product/Modules/ioModule/wiz810sio',
-							'Product/Modules/ioModule/wiz810smj',
-							'Product/Modules/ioModule/wiz810mj',
-							'Product/Modules/ioModule/wiz811mj',
-							//'Product/Modules/ioModule/wiz820io',
-							'Product/Modules/ioModule/wiz830mj',
-							'Product/Modules/ioModule/wiz850io'
-							//'Product/Modules/ioModule/nm7010b'
-						],
-					},
-					{
-						type: 'category',
-						label: 'ioPort',
-						link: {type: 'doc', id: 'Product/Modules/ioPort/ioport'},
-						items: [
-						//'Product/ioModule/iomodule',
-						
-						'Product/Modules/ioPort/wizip51s',
-						'Product/Modules/ioPort/wizip55',
-						{
+							{
 							type: 'category',
 							label: 'WIZ-IP32',
-							link: {type: 'doc', id: 'Product/Modules/ioPort/wizip32'},
+							link: {type: 'doc', id: 'Product/Modules/Serial-to-Ethernet-Module/WIZ-IP32/wizip32'},
 							items: [
-									'Product/Modules/ioPort/wizse_at_command_32',
-									'Product/Modules/ioPort/wizse_config_tool_dtu',
-							],
-						},
-						'Product/Modules/ioPort/wizip20',						
-						{
-							type: 'category',
-							label: 'WIZ-IP75',
-							link: {type: 'doc', id: 'Product/Modules/ioPort/wizip75'},
-							items: [
-									'Product/Modules/ioPort/wizse_at_command_75',
-									'Product/Modules/ioPort/wizse_config_tool_55_75',
-							],
-						},
+									'Product/Modules/Serial-to-Ethernet-Module/WIZ-IP32/wizse_at_command_32',
+									'Product/Modules/Serial-to-Ethernet-Module/WIZ-IP32/wizse_config_tool_dtu',
+								],
+							},
+							'Product/Modules/Serial-to-Ethernet-Module/WIZ-IP20/wizip20',
+							{
+								type: 'category',
+								label: 'WIZ-IP75',
+								link: {type: 'doc', id: 'Product/Modules/Serial-to-Ethernet-Module/WIZ-IP75/wizip75'},
+								items: [
+										'Product/Modules/Serial-to-Ethernet-Module/WIZ-IP75/wizse_at_command_75',
+										'Product/Modules/Serial-to-Ethernet-Module/WIZ-IP75/wizse_config_tool_55_75',
+								],
+							},
+
+						],
+					},
+					{
+						type: 'category',
+						label: 'Ethernet Module',
+						link: {type: 'doc', id: 'Product/Modules/Ethernet-Module/ethernet_module'},
+						items: [
+							'Product/Modules/Ethernet-Module/W5500-io',
+							'Product/Modules/Ethernet-Module/wiz550io',
+							'Product/Modules/Ethernet-Module/wiz610io',
+							'Product/Modules/Ethernet-Module/wiz610mj',
+							'Product/Modules/Ethernet-Module/wiz630io',
+							'Product/Modules/Ethernet-Module/wiz810sio',
+							'Product/Modules/Ethernet-Module/wiz810smj',
+							'Product/Modules/Ethernet-Module/wiz810mj',
+							'Product/Modules/Ethernet-Module/wiz811mj',
+							'Product/Modules/Ethernet-Module/wiz830mj',
+							'Product/Modules/Ethernet-Module/wiz850io',
+							'Product/Modules/Ethernet-Module/wizip51s',
+							'Product/Modules/Ethernet-Module/wizip55',
 						],
 					},
 					{
@@ -1646,6 +1649,16 @@ module.exports = {
 								],
 							},
 						],
+					},
+					{
+						type: 'category',
+						label: 'PoE',
+						link: {type: 'doc', id: 'Product/Modules/PoE/PoE-Main'},
+						items: [
+							//'Product/Modules/PoE/WIZPoE-S1',
+							'Product/Modules/PoE/WIZPoE-P1',
+						//	'Product/Modules/PoE/raspberrypi-5-hat-poe',
+							]
 					},
 					{
 						type: 'category',
@@ -1740,55 +1753,6 @@ module.exports = {
 								// 'Product/Open-Source-Hardware/wiznet-pico-poe',
 							]
 						},
-						{
-							type: 'category',
-							label: 'Arduino',
-							link: {type: 'doc', id: 'Product/Modules/Open-Source-Hardware/arduino'},
-							items: [
-								
-								'Product/Modules/Open-Source-Hardware/wizarduino_m0_eth',
-								'Product/Modules/Open-Source-Hardware/wizarduino_m0_eth_eng',
-								'Product/Modules/Open-Source-Hardware/wizarduino_mega_wifi',
-								'Product/Modules/Open-Source-Hardware/wizarduino_mega_wifi_eng',
-								'Product/Modules/Open-Source-Hardware/wizfi310_shield',
-								{
-									type: 'category',
-									label: 'W5500 Ethernet Shield',
-									link: {type: 'doc', id: 'Product/Modules/Open-Source-Hardware/w5500_ethernet_shield'},
-									items: [
-										//'Product/Modules/Open-Source-Hardware/w5500_ethernet_shield',
-										'Product/Modules/Open-Source-Hardware/w5500_ethernet_shield_kor',
-										'Product/Modules/Open-Source-Hardware/w5500_ethernet_shield_jp',
-										'Product/Modules/Open-Source-Hardware/getting_started_arduino',
-										'Product/Modules/Open-Source-Hardware/getting_started_arduino_kr',
-										'Product/Modules/Open-Source-Hardware/getting_started_arduino_jp',
-										'Product/Modules/Open-Source-Hardware/ioshield_a',
-										'Product/Modules/Open-Source-Hardware/ioshield_k',
-										'Product/Modules/Open-Source-Hardware/ioshield_l',
-									],
-								},
-							]
-						},
-						/*'Product/Modules/Open-Source-Hardware/Tutorial',
-						'Product/Modules/Open-Source-Hardware/IP_Configuration',
-						'Product/Modules/Open-Source-Hardware/http_client',
-						'Product/Modules/Open-Source-Hardware/loopback',
-						'Product/Modules/Open-Source-Hardware/Energy_micro',
-						'Product/Modules/Open-Source-Hardware/tinygecko',
-						'Product/Modules/Open-Source-Hardware/twitter_test',
-						'Product/Modules/Open-Source-Hardware/cookie', // is coocox already in cookie?
-						'Product/Modules/Open-Source-Hardware/open_source_hardware_coocox',
-						'Product/Modules/Open-Source-Hardware/open_source_hardware_all_pages',*/
-						{
-							type: 'category',
-							label: 'PoE',
-							link: {type: 'doc', id: 'Product/Modules/Open-Source-Hardware/PoE/PoE-Main'},
-							items: [
-								//'Product/Modules/Open-Source-Hardware/PoE/WIZPoE-S1',
-								'Product/Modules/Open-Source-Hardware/PoE/WIZPoE-P1',
-							//	'Product/Modules/Open-Source-Hardware/PoE/raspberrypi-5-hat-poe',
-								]
-						},
 						],
 					},
 
@@ -1810,11 +1774,11 @@ module.exports = {
 						label: 'W7100',
 						link: {type: 'doc', id: 'Product/Chip/MCU/W7100/w7100a'},
 						items: [
-							//'Product/Chip/MCU/W7100/w7100a',
+							//'Product/Chip/MCU/W7100/w7100a',ioModule
 							'Product/Chip/MCU/W7100/imcu7100-evb',
 						],
 					},
-					'Product/Modules/ioModule/w7200',
+					'Product/Modules/Ethernet-Module/w7200',
 					{
 						type: 'category',
 						label: 'W3150A+',
@@ -1900,11 +1864,11 @@ module.exports = {
 							'Product/Modules/Serial-to-Ethernet-Module/WIZ145SR/wiz145sr-evb']
 					},
 					
-					'Product/Modules/ioModule/egsr7100a',
-					'Product/Modules/ioModule/nm7010a',
-					'Product/Modules/ioModule/wiz220io',
-					'Product/Modules/ioModule/wiz220web',
-					'Product/Modules/ioModule/wizsm10',
+					'Product/Modules/Ethernet-Module/egsr7100a',
+					'Product/Modules/Ethernet-Module/nm7010a',
+					'Product/Modules/Ethernet-Module/wiz220io',
+					'Product/Modules/Ethernet-Module/wiz220web',
+					'Product/Modules/Ethernet-Module/wizsm10',
 					{
 						type: 'category',
 						label: 'WIZ550S2E',
@@ -1928,14 +1892,14 @@ module.exports = {
 						'Product/Modules/Serial-to-Ethernet-Module/WIZ550S2E/download',
 						],
 					},
-					'Product/Modules/ioModule/wiz850sw',
+					'Product/Modules/Ethernet-Module/wiz850sw',
 					'Product/Modules/Serial-to-Ethernet-Module/WIZ1000/wiz1000',
-					'Product/Modules/ioModule/W5100S-io',
-					'Product/Modules/ioModule/W6100-io',
-					'Product/Modules/ioModule/wiz812mj',
-					'Product/Modules/ioModule/wiz820io',
-					'Product/Modules/ioModule/nm7010b',
-					
+					'Product/Modules/Ethernet-Module/W5100S-io',
+					'Product/Modules/Ethernet-Module/W6100-io',
+					'Product/Modules/Ethernet-Module/wiz812mj',
+					'Product/Modules/Ethernet-Module/wiz820io',
+					'Product/Modules/Ethernet-Module/nm7010b',
+
 				],
 			},
 			{
@@ -1959,7 +1923,7 @@ module.exports = {
 						],
 					},
 					'Product/Modules/Wi-Fi-Module/wizfi630',
-					'Product/Modules/ioModule/wiz610wi',
+					'Product/Modules/Ethernet-Module/wiz610wi',
 					'Product/Modules/Wi-Fi-Module/WizFi630A/wizfi630a',
 					{
 						type: 'category',
@@ -2067,14 +2031,20 @@ module.exports = {
 									'Product/Modules/Open-Source-Hardware/surf5/getting-started/fw-examples',
 									'Product/Modules/Open-Source-Hardware/surf5/getting-started/debugger-surf5',
 									'Product/Modules/Open-Source-Hardware/surf5/getting-started/surf5-s2e',
-									
-								],
-							},
-						],
-						
+									],
+								},
+							],
 						},
 						'Product/Modules/Open-Source-Hardware/w5100s_mkr_ethernet_shield',
 						'Product/Modules/Open-Source-Hardware/w6100_mkr_ethernet_shield',
+						'Product/Chip/Ethernet/W5500/wizarduino_m0_eth',
+						'Product/Chip/Ethernet/W5500/wizarduino_m0_eth_eng',
+						'Product/Modules/Wi-Fi-Module/wizarduino_mega_wifi',
+						'Product/Modules/Wi-Fi-Module/wizarduino_mega_wifi_eng',
+						'Product/Modules/Wi-Fi-Module/WizFi310/wizfi310_shield',
+						'Product/Chip/Ethernet/W5500/W5500-Ethernet-Shield/ioshield_a',
+						'Product/Chip/Ethernet/W5500/W5500-Ethernet-Shield/ioshield_k',
+						'Product/Chip/Ethernet/W5500/W5500-Ethernet-Shield/ioshield_l',
 					],
 				},				
 			],
