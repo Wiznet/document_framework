@@ -287,10 +287,14 @@ module.exports = {
 												items: [
 													// 'Product/Modules/Serial-to-Ethernet-Module/WIZ750SR/wiz750sr',
 													{
-														type: 'doc',
-														id: 'Product/Modules/Serial-to-Ethernet-Module/WIZ750SR/wiz750sr',
+														type: 'link',
+														label: 'wiz750sr',
+														href: '/Product/Chip/MCU/W7500P/?module=s2e#related-modules',
 														customProps: {
-															openInNewTab: true
+															openInNewTab: true,
+															id: 'wiz750sr-external',
+															url: '/Product/Modules/Serial-to-Ethernet-Module/WIZ750SR/wiz750sr',
+															ignoreActive: true,
 														}
 													}
 													
@@ -528,15 +532,19 @@ module.exports = {
 											 },
 											{ 
 												type: 'category', 
-												label: 'Ethernet Module',
+												label: 'Ethernet Module2',
 												link: {type:'generated-index', slug: '/Product/Chip/Ethernet/W6300/?module=hat#related-modules'},
 												items: [
 													{
 														type: 'link',
 														label: 'WIZ630io',
-														href : '/Product/ioModule/wiz630io',
+														href: '/Product/Chip/Ethernet/W6300/?module=hat#related-modules',
+														// href : '/Product/ioModule/wiz630io',
 														customProps: {
-															openInNewTab: true
+															openInNewTab: true,
+															id: 'wiz630io-external',	
+															url: '/Product/ioModule/wiz630io',
+															ignoreActive: true,
 														}
 													}
 												]
@@ -607,17 +615,25 @@ module.exports = {
 													{
 														type: 'link',
 														label: 'WIZ610io',
-														href :'/Product/ioModule/wiz610io',
+														href :'/Product/Chip/Ethernet/W6100/?module=hat#related-modules',
+														
 														customProps: {
-															openInNewTab: true
+															openInNewTab: true,
+															id: 'WIZ610io-external',	
+															url: '/Product/ioModule/wiz610io',
+															ignoreActive: true,
 														}
 													},
 													{
 														type: 'link',
 														label: 'WIZ610mj',
-														href :'/Product/ioModule/wiz610mj',
+														href :'/Product/Chip/Ethernet/W6100/?module=hat#related-modules',
+
 														customProps: {
-															openInNewTab: true
+															openInNewTab: true,
+															id: 'WIZ610mj-external',	
+															url: '/Product/ioModule/wiz610mj',
+															ignoreActive: true,
 														}
 													}
 												]	
@@ -690,18 +706,27 @@ module.exports = {
 													{	
 														type: 'link',
 														label: 'WIZ810Sio',
-														href :'/Product/ioModule/wiz810sio',
+														href :'/Product/Chip/Ethernet/W5100S/?module=hat#related-modules',
+														
+
 														customProps: {
-															openInNewTab: true
+															openInNewTab: true,
+															id: 'WIZ810Sio-external',	
+															url: '/Product/ioModule/wiz810sio',
+															ignoreActive: true,
 														}
 													},
 
 													{
 														type: 'link',
 														label: 'WIZ810Smj',
-														href : '/Product/ioModule/wiz810smj',
+														href : '/Product/Chip/Ethernet/W5100S/?module=hat#related-modules',
+
 														customProps: {
-															openInNewTab: true
+															openInNewTab: true,
+															id: 'WIZ810Smj-external',	
+															url: '/Product/ioModule/wiz810smj',
+															ignoreActive: true,
 														}
 													},
 						
@@ -776,18 +801,24 @@ module.exports = {
 													{
 														type: 'link',
 														label: 'WIZ850io',
-														href: '/Product/ioModule/wiz850io',
+														href: '/Product/Chip/Ethernet/W5500/?module=hat#related-modules',
 														customProps: {
-															openInNewTab: true
+															openInNewTab: true,
+															id: 'WIZ850io-external',	
+															url: '/Product/ioModule/wiz850io',
+															ignoreActive: true,
 														}
 													},
 
 													{
 														type: 'link',
 														label: 'WIZ550io',
-														href: '/Product/ioModule/wiz550io',
+														href: '/Product/Chip/Ethernet/W5500/?module=hat#related-modules',
 														customProps: {
-															openInNewTab: true
+															openInNewTab: true,
+															id: 'WIZ550io-external',	
+															url: '/Product/ioModule/wiz550io',
+															ignoreActive: true,
 														}
 													},
 
@@ -925,9 +956,12 @@ module.exports = {
 													{	
 														type: 'link',
 														label: 'WIZ810MJ',
-														href :'/Product/ioModule/wiz810mj',
+														href : '/Product/Chip/Ethernet/W5100/?module=hat#related-modules',
 														customProps: {
-															openInNewTab: true
+															openInNewTab: true,
+															id: 'WIZ810MJ-external',	
+															url: '/Product/ioModule/wiz810mj',
+															ignoreActive: true,
 														}
 													}
 												]

@@ -1,26 +1,22 @@
-import React, { useEffect } from 'react';
+import React from 'react';
 import clsx from 'clsx';
-import {ThemeClassNames} from '@docusaurus/theme-common';
+import { ThemeClassNames } from '@docusaurus/theme-common';
 import Link from '@docusaurus/Link';
-import isInternalUrl from '@docusaurus/isInternalUrl';
-import IconExternalLink from '@theme/Icon/ExternalLink';
 import styles from './styles.module.css';
 
 export default function DocSidebarItemLink({
   item,
   onItemClick,
-  activePath,
   level,
-  index,
   ...props
 }) {
-  const {href, label, className, autoAddBaseUrl = true} = item;
-  const isActive = activePath === href;
-  const isInternalLink = isInternalUrl(href);
-  
-  // customProps에서 openInNewTab 확인
+  const { href, label, className, autoAddBaseUrl = true } = item;
   const openInNewTab = item.customProps?.openInNewTab;
-  
+  const url = item.customProps?.url;
+
+  // 항상 'to'를 줘야 커서와 클릭이 정상 작동
+  const linkTarget = url ? '#' : href;
+
   return (
     <li
       className={clsx(
@@ -29,32 +25,29 @@ export default function DocSidebarItemLink({
         'menu__list-item',
         className,
       )}
-      key={label}>
+      key={label}
+    >
       <Link
-        className={clsx(
-          'menu__link',
-          !isInternalLink && styles.menuExternalLink,
-          {
-            'menu__link--active': isActive,
-          },
-        )}
+        className="menu__link"
+        to={linkTarget} // ✅ 반드시 있어야 함
         autoAddBaseUrl={autoAddBaseUrl}
-        aria-current={isActive ? 'page' : undefined}
-        to={href}
-        {...(isInternalLink && {
-          onClick: onItemClick ? () => onItemClick(item) : undefined,
-        })}
-        // 새 탭 열기 처리
-        {...(openInNewTab && {
-          target: '_blank',
-          rel: 'noopener noreferrer',
-        })}
-        {...props}>
+        onClick={(e) => {
+          if (url) {
+            e.preventDefault(); // 내부 라우터 방지
+            if (openInNewTab) {
+              window.open(url, '_blank', 'noopener,noreferrer');
+            } else {
+              window.location.href = url;
+            }
+          } else if (onItemClick) {
+            onItemClick(item); // 기본 문서는 정상 이동
+          }
+        }}
+        {...props}
+      >
         {label}
-        {!isInternalLink && <IconExternalLink />}
-        {/* customProps 새 탭용 아이콘 추가 */}
-        {openInNewTab && isInternalLink && (
-          <span style={{marginLeft: '4px', fontSize: '12px'}}>↗</span>
+        {openInNewTab && (
+          <span style={{ marginLeft: '4px', fontSize: '12px' }}>↗</span>
         )}
       </Link>
     </li>
