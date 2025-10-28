@@ -7,7 +7,7 @@ date: 2020-04-03
 :::caution
 
 This product is discontinued.  
-Please refer to the New compatible product [WizFi360](./../Wi-Fi-Module/WizFi360/WizFi360.mdx).
+Please refer to the New compatible product [WizFi360](../WizFi360/WizFi360.mdx).
 
 :::
 
@@ -147,7 +147,7 @@ in.
 
 #### Datasheet
 
-  - [WizFi310 Datasheet](./../../Modules/Wi-Fi-Module/WizFi310/Datasheet.md)
+  - [WizFi310 Datasheet](./Datasheet.md)
 
 #### Schematic
 

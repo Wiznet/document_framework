@@ -37,7 +37,7 @@ application info.
     ![](/img/star.png) 
   - [W5500](Product/Chip/Ethernet/W5500/Overview.md): Hardwired TCP/IP Chip
   - [W5500-EVB](Product/Chip/Ethernet/W5500/W5500-EVB/W5500-EVB.md): W5500 Evaluation Board
-  - [WIZ550io](Product/Modules/ioModule/wiz550io.mdx): Plug-in Network Module 
+  - [WIZ550io](Product/Modules/Ethernet-Module/wiz550io.mdx): Plug-in Network Module 
   - [WIZ550S2E](Product/Modules/Serial-to-Ethernet-Module/WIZ550S2E/WIZ550S2E.md): Serial to Ethernet
   - [WIZ550web](Product/Modules/App-Module/WIZ550web/WIZ550web.md): Embedded Web Server
   - [WizFi250](Product/Modules/Wi-Fi-Module/WizFi250/WizFi250.md): Wi-Fi Module
@@ -52,10 +52,7 @@ Open source hardware products.
 
   - **[WizFi360-EVB-Pico](Product/Modules/Open-Source-Hardware/WizFi360-EVB-Pico.md)** ![](/img/star.png)
   - **[WIZnet Ethernet HAT](Product/Modules/Open-Source-Hardware/WIZnet-Ethernet-HAT.md)** ![](/img/star.png)
-  - [W5500 Ethernet Shield](Product/Modules/Open-Source-Hardware/W5500_Ethernet_Shield.md)
-  - [ioShield-A](Product/Modules/Open-Source-Hardware/ioShield-A.md) for Arduino
-  - [ioShield-K](Product/Modules/Open-Source-Hardware/ioShield-K.md) for Gadget Renesas KURUMI
-  - [ioShield-L](Product/Modules/Open-Source-Hardware/ioShield-L.md) for TI’s MSP430 LaunchPad
+  - [W5500 Ethernet Shield](Product/Chip/Ethernet/W5500/W5500-Ethernet-Shield/W5500_Ethernet_Shield.md)
   - [Cookie](Product/Modules/Open-Source-Hardware/cookie.md)
   - [EnergyMicro](Product/Modules/Open-Source-Hardware/EnergyMicro.md)
   - [WIZnet Eagle CAD Library](Design-Guide/Eagle_CAD_Library_of_WIZnet_Products.md)

@@ -28,20 +28,12 @@ slug: /
 -----
 
 # Modules
-### io Module (Internet Offload Module)
+### Ethernet Module (Internet Offload Module)
 
-  * [WIZ850io](./Modules/ioModule/WIZ850io.mdx)
-  * [WIZ550io](./Modules/ioModule/wiz550io.mdx)
-
------
-
-### io Port (Internet Offload RJ45 Module)
-
-- [WIZ-IP51S](./Modules/ioPort/IP-51S.md)
-- [WIZ-IP55](./Modules/ioPort/IP-55.md)
-- [WIZ-IP20](./Modules/ioPort/IP-20.md)
-- [WIZ-IP75](./Modules/ioPort/IP-75.md)
-- [WIZ-IP32](./Modules/ioPort/IP-32.md)
+  * [WIZ850io](./Modules/Ethernet-Module/WIZ850io.mdx)
+  * [WIZ550io](./Modules/Ethernet-Module/wiz550io.mdx)
+  * [WIZ-IP51S](./Modules/Ethernet-Module/IP-51S.md)
+  * [WIZ-IP55](./Modules/Ethernet-Module/IP-55.md)
 
 ---
 
@@ -64,6 +56,9 @@ slug: /
  * [WIZ550S2E](./Modules/Serial-to-Ethernet-Module/WIZ550S2E/WIZ550S2E.md)
  * [WIZ107SR](./Modules/Serial-to-Ethernet-Module/WIZ107SR/wiz107sr.md)
  * [WIZ108SR](./Modules/Serial-to-Ethernet-Module/WIZ108SR/wiz108sr.md)
+ * [WIZ-IP20](./Modules/Serial-to-Ethernet-Module/WIZ-IP20/IP-20.md)
+ * [WIZ-IP75](./Modules/Serial-to-Ethernet-Module/WIZ-IP75/IP-75.md)
+ * [WIZ-IP32](./Modules/Serial-to-Ethernet-Module/WIZ-IP32/IP-32.md)
 
 <!-- ### 2 Serial Port -->
 

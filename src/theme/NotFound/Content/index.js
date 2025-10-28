@@ -316,8 +316,8 @@ export default function ContentWrapper(props) {
         target: '/Product/Modules/Open-Source-Hardware/surf5',
       },
       {
-        match: '/Product/Open-Source-Hardware/PoE',
-        target: '/Product/Modules/Open-Source-Hardware/PoE/PoE-Main',
+        match: '/Product/Open-Source-Hardware/PoE/PoE-Main',
+        target: '/Product/Modules/PoE/PoE-Main',
       },
       {
         match: ['/Product/Open-Source-Hardware/arduino',
@@ -336,10 +336,10 @@ export default function ContentWrapper(props) {
                 '/Product/Open-Source-Hardware/w6100_mkr_ethernet_shield'],
         target: '/Product/Modules/Open-Source-Hardware/arduino',
       },
-      {
-        match: '/Product/Open-Source-Hardware',
-        target: '/Product/Modules/Open-Source-Hardware/open_source_hardware',
-      },
+      // {
+      //   match: '/Product/Open-Source-Hardware',
+      //   target: '/Product/Modules/Open-Source-Hardware/open_source_hardware',
+      // },
 
       /* Azure-Sphere */
       {
@@ -616,6 +616,13 @@ export default function ContentWrapper(props) {
     const newPath = location.replace(
       /^\/Product\/Pre-programmed-MCU\/W7500P-S2E\//,
       '/Product/Chip/MCU/Pre-programmed-MCU/W7500P-S2E/'
+    );
+    return redirectWithDelay(newPath);
+  }
+  if (location.startsWith('/Product/Open-Source-Hardware/PoE/')) {
+    const newPath = location.replace(
+      /^\/Product\/Open-Source-Hardware\/PoE\//,
+      '/Product/Modules/PoE/'
     );
     return redirectWithDelay(newPath);
   }

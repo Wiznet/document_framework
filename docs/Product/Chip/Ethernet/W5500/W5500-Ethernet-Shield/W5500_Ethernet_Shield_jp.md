@@ -92,7 +92,7 @@ W5500イーサネットシールドはGPIOピンを使用者が選択できま�
 
 **SPIオペレーション**
 
-W5500イーサネットシールドにはW5500チップが使用されました。ですのでSPIオペレーションやタイミングダイアグラムは[W5500](./../../Chip/Ethernet/W5500/Overview.md)と同一です。詳しい情報は下のW5500チップのデータシートをご覧ください。
+W5500イーサネットシールドにはW5500チップが使用されました。ですのでSPIオペレーションやタイミングダイアグラムは[W5500](../../W5500/Overview.md)と同一です。詳しい情報は下のW5500チップのデータシートをご覧ください。
 
   - <a href="/img/products/w5500/w5500_ds_v106e_141230.pdf" target="_blank">W5500 Datasheet v1.0.6 - English</a>
   - <a href="/img/products/w5500/w5500_ds_v106k_141230.pdf" target="_blank">W5500 Datasheet v1.0.6 - Korean</a>
