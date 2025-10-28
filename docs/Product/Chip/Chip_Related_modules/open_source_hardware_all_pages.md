@@ -9,8 +9,8 @@ date: 2020-04-03
 Cookie is Open-Source Hardware platform and is provided
 from CooCox. Cookie is Hardware compatible Arduino Board and based on
 Cortex M core instead of AVR. So, it can use with Arduino Shield as
-[ioShield-A](Product/Modules/Open-Source-Hardware/ioShield-A.md).
-[ioShield-A](Product/Modules/Open-Source-Hardware/ioShield-A.md) allows
+[ioShield-A](Product/Chip/Chip_Related_modules/ioShield-A.md).
+[ioShield-A](Product/Chip/Chip_Related_modules/ioShield-A.md) allows
 Cookie to connect to the Internet.
 
 Cookie is developed on IDE as CoIDE provided from CooCox, and For

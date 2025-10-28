@@ -135,7 +135,7 @@ DHCP, DNS, MQTT, SNTP, TFTP, HTTP Server
 | ![link](\img\link.png) Certificate              | TBD | |
 
 ## Related modules
-<Tabs groupId="evb" queryString>
+<Tabs groupId="module" queryString>
 
 <TabItem value="evb" label="Evaluation Boards" default>
 
@@ -179,9 +179,9 @@ W5100S-EVB-Pico2 is a microcontroller evaluation board based on the Raspberry Pi
 
 
 </TabItem>
-<TabItem value="hat" label="Hat & shield" >
+<TabItem value="hat" label="Ethernet Module" >
 
-### Hat & shield
+### Ethernet Module
 
 <div className="link-card">
   <a

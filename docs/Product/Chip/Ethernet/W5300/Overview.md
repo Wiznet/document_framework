@@ -129,9 +129,9 @@ DHCP, DNS, MQTT, SNTP, TFTP, HTTP Server
 
 
 ## Related modules
-<Tabs groupId="evb" queryString>
+<Tabs groupId="module" queryString>
 
-<TabItem value="hat" label="Hat & shield" default>
+<TabItem value="hat" label="Ethernet Module" default>
 
 ### Related modules
 

@@ -151,12 +151,12 @@ GPIO, ADC, DMA, CRG, DualTimer, EXTI, Flash, PWM, RNG, SSP, TOE, UART, WDT, SysT
 
 ## Related modules
 
-<Tabs groupId="evb" queryString>
+<Tabs groupId="module" queryString>
  <TabItem value="evb" label="Evaluation Boards" >
 
   <div className="link-card">
   <a
-    href="/Product/Mbed-WIZwiki-Platform/wizwiki-w7500"
+    href="/Product/Chip/MCU/Mbed-WIZwiki-Platform/wizwiki-w7500"
     target="_blank"
     rel="noopener noreferrer"
     className="link-card-content"
@@ -173,7 +173,7 @@ GPIO, ADC, DMA, CRG, DualTimer, EXTI, Flash, PWM, RNG, SSP, TOE, UART, WDT, SysT
 
    <div className="link-card">
   <a
-    href="/Product/Mbed-WIZwiki-Platform/wizwiki-w7500eco"
+    href="/Product/Chip/MCU/Mbed-WIZwiki-Platform/wizwiki-w7500eco"
     target="_blank"
     rel="noopener noreferrer"
     className="link-card-content"
@@ -192,5 +192,5 @@ GPIO, ADC, DMA, CRG, DualTimer, EXTI, Flash, PWM, RNG, SSP, TOE, UART, WDT, SysT
 
 
 [link-WIZ750SR]: https://docs.wiznet.io/Product/S2E-Module/WIZ750SR
-[link-WIZwiki-W7500P]: https://docs.wiznet.io/Product/Mbed-WIZwiki-Platform/wizwiki-w7500p
+[link-WIZwiki-W7500P]: https://docs.wiznet.io/Product/Chip/MCU/Mbed-WIZwiki-Platform/wizwiki-w7500p
 

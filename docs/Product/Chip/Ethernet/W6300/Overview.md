@@ -153,9 +153,9 @@ DHCP, DNS, MQTT, SNTP, TFTP, HTTP Server
 
   </TabItem>
 
- <TabItem value="hat" label="Hat & shield" >
+ <TabItem value="hat" label="Ethernet Module" >
 
-### Hat & shield
+### Ethernet Module
 
   <div className="link-card">
   <a

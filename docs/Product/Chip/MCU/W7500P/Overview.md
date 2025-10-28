@@ -146,7 +146,7 @@ TBD
 
   <div className="link-card">
   <a
-    href="https://docs.wiznet.io/Product/Mbed-WIZwiki-Platform/wizwiki-w7500p"
+    href="https://docs.wiznet.io/Product/Chip/MCU/Mbed-WIZwiki-Platform/wizwiki-w7500p"
     target="_blank"
     rel="noopener noreferrer"
     className="link-card-content"
@@ -167,7 +167,7 @@ TBD
 
    <div className="link-card">
   <a
-    href="https://docs.wiznet.io/Product/S2E-Module/WIZ750SR"
+    href="https://docs.wiznet.io/Product/Modules/Serial-to-Ethernet-Module/WIZ750SR"
     target="_blank"
     rel="noopener noreferrer"
     className="link-card-content"
@@ -186,5 +186,5 @@ TBD
 
 
 [link-WIZ750SR]: https://docs.wiznet.io/Product/S2E-Module/WIZ750SR
-[link-WIZwiki-W7500P]: https://docs.wiznet.io/Product/Mbed-WIZwiki-Platform/wizwiki-w7500p
+[link-WIZwiki-W7500P]: https://docs.wiznet.io/Product/Chip/MCU/Mbed-WIZwiki-Platform/wizwiki-w7500p
 

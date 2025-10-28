@@ -20,4 +20,4 @@ Click on the product name for a detailed description of each product.
 
 HAT is a Raspberry Pi Pico pin-compatible board.
 
-* [WIZnet Ethernet HAT](Product/Modules/Open-Source-Hardware/WIZnet-Ethernet-HAT.md)
+* [WIZnet Ethernet HAT](Product/Chip/Chip_Related_modules/WIZnet-Ethernet-HAT.md)

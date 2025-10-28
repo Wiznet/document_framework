@@ -280,22 +280,22 @@ export default function ContentWrapper(props) {
 
       /* Mbed WIZwiki Platform */
       {
-        match: '/Product/Mbed-WIZwiki-Platform/Getting-Started',
-        target: '/Product/Modules/Mbed-WIZwiki-Platform/Getting-Started',
+        match: '/Product/Chip/MCU/Mbed-WIZwiki-Platform/Getting-Started',
+        target: '/Product/Chip/MCU/Mbed-WIZwiki-Platform/Getting-Started',
       },
       {
-        match: '/Product/Mbed-WIZwiki-Platform/WIZwiki-W7500-Mbed-Starter-Kit',
-        target: '/Product/Modules/Mbed-WIZwiki-Platform/WIZwiki-W7500-Mbed-Starter-Kit',
+        match: '/Product/Chip/MCU/Mbed-WIZwiki-Platform/WIZwiki-W7500-Mbed-Starter-Kit',
+        target: '/Product/Chip/MCU/Mbed-WIZwiki-Platform/WIZwiki-W7500-Mbed-Starter-Kit',
       },
       {
-        match: '/Product/Mbed-WIZwiki-Platform/mbed-wizwiki-platform',
-        target: '/Product/Modules/Mbed-WIZwiki-Platform/mbed-wizwiki-platform',
+        match: '/Product/Chip/MCU/Mbed-WIZwiki-Platform/mbed-wizwiki-platform',
+        target: '/Product/Chip/MCU/Mbed-WIZwiki-Platform/mbed-wizwiki-platform',
       },
 
-      // For all other cases, redirect to /Product/Modules/Mbed-WIZwiki-Platform/mbed-wizwiki-platform
+      // For all other cases, redirect to /Product/Chip/MCU/Mbed-WIZwiki-Platform/mbed-wizwiki-platform
       {
         match: '/Product/Mbed-WIZwiki-Platform',
-        target: '/Product/Modules/Mbed-WIZwiki-Platform/mbed-wizwiki-platform',
+        target: '/Product/Chip/MCU/Mbed-WIZwiki-Platform/mbed-wizwiki-platform',
       },
 
       /* Open-Source-Hardware */
@@ -305,19 +305,19 @@ export default function ContentWrapper(props) {
                 '/Product/Open-Source-Hardware/wizfi360-evb-pico',
                 '/Product/Open-Source-Hardware/wiznet-pico-poe'
               ],
-        target: '/Product/Modules/Open-Source-Hardware/rp2040_based',
+        target: '/Product/Chip/Chip_Related_modules/rp2040_based',
       },
       {
         match: '/Product/Open-Source-Hardware/rp2350_based',
-        target: '/Product/Modules/Open-Source-Hardware/rp2350_based',
+        target: '/Product/Chip/Chip_Related_modules/rp2350_based',
       },
       {
         match: '/Product/Open-Source-Hardware/surf5',
-        target: '/Product/Modules/Open-Source-Hardware/surf5',
+        target: '/Product/Chip/Chip_Related_modules/surf5',
       },
       {
-        match: '/Product/Open-Source-Hardware/PoE/PoE-Main',
-        target: '/Product/Modules/PoE/PoE-Main',
+        match: '/Product/Open-Source-Hardware/PoE',
+        target: '/Product/Modules/Open-Source-Hardware/PoE/PoE-Main',
       },
       {
         match: ['/Product/Open-Source-Hardware/arduino',
@@ -334,12 +334,12 @@ export default function ContentWrapper(props) {
                 '/Product/Open-Source-Hardware/w5500_ethernet_shield_jp',
                 '/Product/Open-Source-Hardware/w5500_ethernet_shield_kor',
                 '/Product/Open-Source-Hardware/w6100_mkr_ethernet_shield'],
-        target: '/Product/Modules/Open-Source-Hardware/arduino',
+        target: '/Product/Chip/Chip_Related_modules/arduino',
       },
-      // {
-      //   match: '/Product/Open-Source-Hardware',
-      //   target: '/Product/Modules/Open-Source-Hardware/open_source_hardware',
-      // },
+      {
+        match: '/Product/Open-Source-Hardware',
+        target: '/Product/Modules/Open-Source-Hardware/open_source_hardware',
+      },
 
       /* Azure-Sphere */
       {

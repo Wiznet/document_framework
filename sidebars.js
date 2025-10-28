@@ -69,7 +69,14 @@ module.exports = {
 										link: {type: 'generated-index', slug: '/Product/Chip/MCU/W55RP20/#related-modules'},  
 										items: [
 											// 하위 항목들
-											{ type: 'link', label: 'evaluation-boards', href: '/Product/Chip/MCU/W55RP20/#evaluation-boards' },
+											{
+												type: 'category',
+												label: 'evaluation-boards', 
+												link: {type :'generated-index',  slug: '/Product/Chip/MCU/W55RP20/#evaluation-boards' },
+												items: [
+													'Product/Chip/MCU/W55RP20/w55rp20-evb-pico',
+												],
+											}
 											// { type: 'link', label: 'serial-to-ethernet-module',  href: '/Product/Chip/MCU/W55RP20/#serial-to-ethernet-module' },
 										]
 									},
@@ -126,7 +133,15 @@ module.exports = {
 										link: {type: 'generated-index', slug: '/Product/Chip/MCU/W55MH32/#related-modules'},  
 										items: [
 											// 하위 항목들
-											{ type: 'link', label: 'evaluation-boards', href: '/Product/Chip/MCU/W55MH32/#evaluation-boards' },
+											{ 
+												type: 'category', 
+												label: 'evaluation-boards', 
+												link: {type: 'generated-index', slug: '/Product/Chip/MCU/W55MH32/#evaluation-boards'},
+												items: [
+													'Product/Chip/MCU/W55MH32/W55MH32L-evb',
+													'Product/Chip/MCU/W55MH32/W55MH32Q-evb',
+												], 
+											},
 											// { type: 'link', label: 'test certification',  href: '/Product/Chip/MCU/W55RP20/#serial-to-ethernet-module' },
 										]
 									},
@@ -194,7 +209,16 @@ module.exports = {
 										link: {type: 'generated-index', slug: '/Product/Chip/MCU/W7500/#related-modules'},  
 										items: [
 											// 하위 항목들
-											{ type: 'link', label: 'evaluation-boards', href: '/Product/Chip/MCU/W7500/#evaluation-boards' },
+											{ 
+												type: 'category', 
+												label: 'Evaluation-boards', 
+												// link: {type: 'generated-index', slug: '/Product/Chip/MCU/W7500/?module=evb#related-modules'} ,
+												items: [
+													'Product/Chip/MCU/Mbed-WIZwiki-Platform/wizwiki-w7500',
+													'Product/Chip/MCU/Mbed-WIZwiki-Platform/wizwiki-w7500eco',
+												]
+											
+											},
 											// { type: 'link', label: 'test certification',  href: '/Product/Chip/MCU/W7500/#serial-to-ethernet-module' },
 										]
 									},
@@ -247,8 +271,33 @@ module.exports = {
 										link: {type: 'generated-index', slug: '/Product/Chip/MCU/W7500P/#related-modules'},  
 										items: [
 											// 하위 항목들
-											{ type: 'link', label: 'evaluation-boards', href: '/Product/Chip/MCU/W7500P/?module=evb#related-modules' },
-											{ type: 'link', label: 'serial-to-ethernet-module',  href: '/Product/Chip/MCU/W7500P/?module=s2e#related-modules' },
+											{ 
+												type: 'category', 
+												label: 'Evaluation-boards', 
+												link: {type: 'generated-index', slug: '/Product/Chip/MCU/W7500P/?module=evb#related-modules'} ,
+												items: [
+													 'Product/Chip/MCU/Mbed-WIZwiki-Platform/wizwiki-w7500p',
+												]
+											
+											},
+											{ 
+												type: 'category', 
+												label: 'Serial-to-Ethernet-Module', 
+												link: {type: 'generated-index', slug: '/Product/Chip/MCU/W7500P/?module=s2e#related-modules'} ,
+												items: [
+													// 'Product/Modules/Serial-to-Ethernet-Module/WIZ750SR/wiz750sr',
+													{
+														type: 'doc',
+														id: 'Product/Modules/Serial-to-Ethernet-Module/WIZ750SR/wiz750sr',
+														customProps: {
+															openInNewTab: true
+														}
+													}
+													
+												
+												]
+											
+											},
 										]
 									},
 
@@ -368,20 +417,7 @@ module.exports = {
 										items: [
 											'Product/Chip/MCU/Pre-programmed-MCU/W55RP20-S2E/overview-en',
 											'Product/Chip/MCU/Pre-programmed-MCU/W55RP20-S2E/w55rp20-evb-pico-s2e',
-					//						{
-					//							type: 'category',
-					//							label: 'Common docs for using-[KR]',
-					//							items: [
-					//								'Product/Chip/MCU/Pre-programmed-MCU/W55RP20-S2E/Config-tool-Guide-kr',
-					//								'Product/Chip/MCU/Pre-programmed-MCU/W55RP20-S2E/command-manual-kr',
-					//								'Product/Chip/MCU/Pre-programmed-MCU/W55RP20-S2E/mqtt-connection-guide-kr',
-					//								'Product/Chip/MCU/Pre-programmed-MCU/W55RP20-S2E/ssl-connection-guide-kr',
-					//								'Product/Chip/MCU/Pre-programmed-MCU/W55RP20-S2E/modbus-connection-guide-kr',
-					//								'Product/Chip/MCU/Pre-programmed-MCU/W55RP20-S2E/firmware-update-guide-kr',
-					//								'Product/Chip/MCU/Pre-programmed-MCU/W55RP20-S2E/Web_Config_Guide_KO',
-					//								'Product/Chip/MCU/Pre-programmed-MCU/W55RP20-S2E/factory-rst-guide-kr',																											
-					//							],
-					//						},
+	
 											{
 												type: 'category',
 												label: 'Common docs for using',
@@ -434,7 +470,7 @@ module.exports = {
 					},
 
 					{
-						type: 'category',
+						type: 'category', 
 						label: 'Ethernet',
 						link: {type: 'doc', id: 'Product/Chip/Ethernet/iethernet'},
 							items: [
@@ -465,9 +501,6 @@ module.exports = {
 											{ type: 'link', label: 'Driver', href: '/Product/Chip/Ethernet/W6300/?software=driver#software-resources' },
 										]
 									},
-
-
-
 									{
 										type: 'category',
 										label: 'Hardware resources',
@@ -484,53 +517,32 @@ module.exports = {
 										link: {type: 'generated-index', slug: '/Product/Chip/Ethernet/W6300/#related-modules'},  
 										items: [
 											// 하위 항목들
-											{ type: 'link', label: 'evaluation-boards', href: '/Product/Chip/Ethernet/W6300/?module=evb#related-modules' },
-											{ type: 'link', label: 'Hat & shield',  href: '/Product/Chip/Ethernet/W6300/?module=hat#related-modules' },
+											{ 
+												type: 'category',
+												label: 'evaluation-boards', 
+												link: {type:'generated-index', slug: '/Product/Chip/Ethernet/W6300/?module=evb#related-modules'},
+												items: [
+													'Product/Chip/Ethernet/W6300/w6300-evb-pico',
+													'Product/Chip/Ethernet/W6300/w6300-evb-pico2',
+												]
+											 },
+											{ 
+												type: 'category', 
+												label: 'Ethernet Module',
+												link: {type:'generated-index', slug: '/Product/Chip/Ethernet/W6300/?module=hat#related-modules'},
+												items: [
+													{
+														type: 'link',
+														label: 'WIZ630io',
+														href : '/Product/ioModule/wiz630io',
+														customProps: {
+															openInNewTab: true
+														}
+													}
+												]
+											 },
 										]
 									},
-
-
-
-									// {
-									// 	type: 'category',
-									// 	label: 'Documents',
-									// 	items: [
-									// 		'Product/Chip/Ethernet/W6300/datasheet',
-									// 		'Product/Chip/Ethernet/W6300/ref-schematic',
-									// 	],
-									// },
-								
-									// {
-									// 	type: 'category',
-									// 	label: 'W6300 [EN]',
-									// 	link: {type: 'doc', id: 'Product/Chip/Ethernet/W6300/overview'},
-									// 	items: [
-									// 	//'Product/Chip/Ethernet/W6300/W6300',
-									// 	'Product/Chip/Ethernet/W6300/overview',
-									// 	'Product/Chip/Ethernet/W6300/application-note',
-									// 	'Product/Chip/Ethernet/W6300/libraries-w6300',
-									// 	// 'Product/Chip/Ethernet/W6300/new-project-vscode',
-									// 	'Product/Chip/Ethernet/W6300/ref-schematic',
-									// 	'Product/Chip/Ethernet/W6300/w6300-evb-pico',
-									// 	'Product/Chip/Ethernet/W6300/w6300-evb-pico2',
-									// 	]
-									// },
-									// {
-									// 	type: 'category',
-									// 	label: 'W6300 [JP]',
-									// 	link: {type: 'doc', id: 'Product/Chip/Ethernet/W6300/w6300-jp'},
-									// 	items: [
-									// 	//'Product/Chip/Ethernet/W6300/W6300',
-									// 	'Product/Chip/Ethernet/W6300/overview-jp',
-									// 	// 'Product/Chip/Ethernet/W6300/application-note',
-									// 	'Product/Chip/Ethernet/W6300/document-jp',
-									// 	'Product/Chip/Ethernet/W6300/libraries-w6300-jp',
-									// 	// 'Product/Chip/Ethernet/W6300/new-project-vscode',
-									// 	'Product/Chip/Ethernet/W6300/ref-schematic-jp',
-									// 	'Product/Chip/Ethernet/W6300/w6300-evb-pico-jp',
-									// 	'Product/Chip/Ethernet/W6300/w6300-evb-pico2-jp',
-									// 	]
-									// },
 								]
 							},
 							{
@@ -576,29 +588,42 @@ module.exports = {
 										link: {type: 'generated-index', slug: '/Product/Chip/Ethernet/W6100/#related-modules'},  
 										items: [
 											// 하위 항목들
-											{ type: 'link', label: 'evaluation-boards', href: '/Product/Chip/Ethernet/W6100/?module=evb#related-modules' },
-											{ type: 'link', label: 'Hat & shield',  href: '/Product/Chip/Ethernet/W6100/?module=hat#related-modules' },
+											{ 
+												type: 'category',
+												label: 'evaluation-boards', 
+												link: {type: 'generated-index', slug: '/Product/Chip/Ethernet/W6100/?module=evb#related-modules' },
+												items: [
+													'Product/Chip/Ethernet/W6100/w6100-evb-pico',
+													'Product/Chip/Ethernet/W6100/w6100-evb-pico2',
+												]	
+											},
+										
+											{ 
+												type: 'category', 
+												label: 'Ethernet Module',  
+												link: {type: 'generated-index', slug: '/Product/Chip/Ethernet/W6100/?module=hat#related-modules' },
+												items: [
+													
+													{
+														type: 'link',
+														label: 'WIZ610io',
+														href :'/Product/ioModule/wiz610io',
+														customProps: {
+															openInNewTab: true
+														}
+													},
+													{
+														type: 'link',
+														label: 'WIZ610mj',
+														href :'/Product/ioModule/wiz610mj',
+														customProps: {
+															openInNewTab: true
+														}
+													}
+												]	
+											},
 										]
 									},
-
-								// 	{
-								// 	type: 'category',
-								// 	label: 'Documents',
-								// 	items: [
-								// 		'Product/Chip/Ethernet/W6100/datasheet',
-								// 		'Product/Chip/Ethernet/W6100/ref-schematic',
-								// 	],
-								// },
-								// //'Product/Chip/Ethernet/W6100/w6100',
-								// 'Product/Chip/Ethernet/W6100/overview',
-								// 'Product/Chip/Ethernet/W6100/document',
-								// 'Product/Chip/Ethernet/W6100/driver-basic-project',
-								// 'Product/Chip/Ethernet/W6100/ref-schematic',
-								// 'Product/Chip/Ethernet/W6100/application-note',
-								
-								// 'Product/Chip/Ethernet/W6100/w6100-evb-pico',
-								// 'Product/Chip/Ethernet/W6100/w6100-evb-pico2',
-								
 							],
 							},
 							{
@@ -646,39 +671,45 @@ module.exports = {
 										link: {type: 'generated-index', slug: '/Product/Chip/Ethernet/W5100S/#related-modules'},  
 										items: [
 											// 하위 항목들
-											{ type: 'link', label: 'evaluation-boards', href: '/Product/Chip/Ethernet/W5100S/?module=evb#related-modules' },
-											{ type: 'link', label: 'Hat & shield',  href: '/Product/Chip/Ethernet/W5100S/?module=hat#related-modules' },
+											{ 
+												type: 'category',
+											 	label: 'evaluation-boards', 
+												link: {type: 'generated-index', slug: '/Product/Chip/Ethernet/W5100S/?module=evb#related-modules'},
+												items: [
+													'Product/Chip/Ethernet/W5100S/w5100s-evb-pico',
+													'Product/Chip/Ethernet/W5100S/w5100s-evb-pico2',
+												]
+											 },
+											{ 
+												type: 'category', 
+												label: 'Ethernet Module',  
+												link: {type: 'generated-index', slug: '/Product/Chip/Ethernet/W5100S/?module=hat#related-modules'},	
+												items: [
+													
+
+													{	
+														type: 'link',
+														label: 'WIZ810Sio',
+														href :'/Product/ioModule/wiz810sio',
+														customProps: {
+															openInNewTab: true
+														}
+													},
+
+													{
+														type: 'link',
+														label: 'WIZ810Smj',
+														href : '/Product/ioModule/wiz810smj',
+														customProps: {
+															openInNewTab: true
+														}
+													},
+						
+												]
+											},
 										]
 									},
 
-
-
-							// 	//'Product/Chip/Ethernet/W5100S/overview',
-								// 'Product/Chip/Ethernet/W5100S/document',
-								// 'Product/Chip/Ethernet/W5100S/driver',
-							// 	'Product/Chip/Ethernet/W5100S/ref-schematic',
-							// 	'Product/Chip/Ethernet/W5100S/comparison-sheet',
-								
-								// {
-								// type: 'category',
-								// label: 'Application Note',
-								// link: {type: 'doc', id: 'Product/Chip/Ethernet/W5100S/Application-Note/w5100s-application'},
-								// items: [
-								// 	//'Product/Chip/Ethernet/W5100S/Application-Note/w5100s_application',
-								// 	'Product/Chip/Ethernet/W5100S/Application-Note/tcp',
-								// 	'Product/Chip/Ethernet/W5100S/Application-Note/udp',
-								// 	'Product/Chip/Ethernet/W5100S/Application-Note/ipraw',
-								// 	'Product/Chip/Ethernet/W5100S/Application-Note/pppoe',
-								// 	'Product/Chip/Ethernet/W5100S/Application-Note/socket-less-command',
-								// 	'Product/Chip/Ethernet/W5100S/Application-Note/interrupt',
-								// 	'Product/Chip/Ethernet/W5100S/Application-Note/dma',
-								// 	],
-								// },
-								
-							// 	'Product/Chip/Ethernet/W5100S/w5100s-evb-pico',
-							// 	'Product/Chip/Ethernet/W5100S/w5100s-evb-pico2',
-								
-							// //'Product/Chip/Ethernet/W5100S/all_pages',
 							],
 							},
 							{
@@ -695,7 +726,6 @@ module.exports = {
 											{ type: 'link', label: 'datasheet', href: '/Product/Chip/Ethernet/W5500/#datasheet' },
 											{ type: 'link', label: 'technical documents', href: '/Product/Chip/Ethernet/W5500/#technical-documents' },
 										]
-
 									},
 									{
 										type: 'category',
@@ -726,65 +756,59 @@ module.exports = {
 										link: {type: 'generated-index', slug: '/Product/Chip/Ethernet/W5500/#related-modules'},  
 										items: [
 											// 하위 항목들
-											{ type: 'link', label: 'evaluation-boards', href: '/Product/Chip/Ethernet/W5500/?module=evb#related-modules' },
-											{ type: 'link', label: 'Hat & shield',  href: '/Product/Chip/Ethernet/W5500/?module=hat#related-modules' },
-											{
-												type: 'category',
-												label: 'W5500 Ethernet Shield',
-												link: {type: 'doc', id: 'Product/Chip/Ethernet/W5500/W5500-Ethernet-Shield/w5500_ethernet_shield'},
+											{ 
+												type: 'category', 
+												label: 'evaluation-boards', 
+												link: { type: 'generated-index', slug: '/Product/Chip/Ethernet/W5500/?module=evb#related-modules' },
+												items: [	
+													'Product/Chip/Ethernet/W5500/w5500-evb-pico',
+													'Product/Chip/Ethernet/W5500/W5500-EVB-Pico-PoE',
+													'Product/Chip/Ethernet/W5500/w5500-evb-pico2',
+												]
+											},	
+											{ 
+												type: 'category', 
+												label: 'Ethernet Module',  
+												link: {type:'generated-index', slug: '/Product/Chip/Ethernet/W5500/?module=hat#related-modules' },
 												items: [
-													//'Product/Modules/Open-Source-Hardware/w5500_ethernet_shield',
-													'Product/Chip/Ethernet/W5500/W5500-Ethernet-Shield/w5500_ethernet_shield_kor',
-													'Product/Chip/Ethernet/W5500/W5500-Ethernet-Shield/w5500_ethernet_shield_jp',
-													'Product/Chip/Ethernet/W5500/W5500-Ethernet-Shield/getting_started_arduino',
-													'Product/Chip/Ethernet/W5500/W5500-Ethernet-Shield/getting_started_arduino_kr',
-													'Product/Chip/Ethernet/W5500/W5500-Ethernet-Shield/getting_started_arduino_jp',
-												],
+
+
+													{
+														type: 'link',
+														label: 'WIZ850io',
+														href: '/Product/ioModule/wiz850io',
+														customProps: {
+															openInNewTab: true
+														}
+													},
+
+													{
+														type: 'link',
+														label: 'WIZ550io',
+														href: '/Product/ioModule/wiz550io',
+														customProps: {
+															openInNewTab: true
+														}
+													},
+
+													{
+														type: 'category',
+														label: 'W5500 Ethernet Shield',
+														link: {type: 'doc', id: 'Product/Chip/Ethernet/W5500/W5500-Ethernet-Shield/w5500_ethernet_shield'},
+														items: [
+															//'Product/Chip/Chip_Related_modules/w5500_ethernet_shield',
+															'Product/Chip/Ethernet/W5500/W5500-Ethernet-Shield/w5500_ethernet_shield_kor',
+															'Product/Chip/Ethernet/W5500/W5500-Ethernet-Shield/w5500_ethernet_shield_jp',
+															'Product/Chip/Ethernet/W5500/W5500-Ethernet-Shield/getting_started_arduino',
+															'Product/Chip/Ethernet/W5500/W5500-Ethernet-Shield/getting_started_arduino_kr',
+															'Product/Chip/Ethernet/W5500/W5500-Ethernet-Shield/getting_started_arduino_jp',
+														],
+													},
+
+												]
 											},
 										]
 									},
-
-								// {
-								// type: 'category',
-								// label: 'Documents',
-								// // link: {type: 'doc', id: 'Product/Chip/Ethernet/W5500/Application/w5500-application'},
-								// items: [
-								// 	'Product/Chip/Ethernet/W5500/datasheet',
-								// 	'Product/Chip/Ethernet/W5500/ref-schematic',
-								// 	'Product/Chip/Ethernet/W5500/Application/esd-test-document',
-								// ],
-								// },
-								// 'Product/Chip/Ethernet/W5500/datasheet',
-								// 'Product/Chip/Ethernet/W5500/datasheet',
-
-
-								// 'Product/Chip/Ethernet/W5500/overview',
-								// //'Product/Chip/Ethernet/W5500/japanese-v',
-								// 'Product/Chip/Ethernet/W5500/datasheet',
-								// 'Product/Chip/Ethernet/W5500/driver',
-								// 'Product/Chip/Ethernet/W5500/ref-schematic',
-								// 'Product/Chip/Ethernet/W5500/migration-from-w5200',
-								// {
-								// type: 'category',
-								// label: '📜Application',
-								// link: {type: 'doc', id: 'Product/Chip/Ethernet/W5500/Application/w5500-application'},
-								// items: [
-								// 	//'Product/Chip/Ethernet/W5500/Application/w5500_application',
-								// 	'Product/Chip/Ethernet/W5500/Application/tcp',
-								// 	'Product/Chip/Ethernet/W5500/Application/udp',
-								// 	'Product/Chip/Ethernet/W5500/Application/ipraw',
-								// 	'Product/Chip/Ethernet/W5500/Application/pppoe',
-								// 	'Product/Chip/Ethernet/W5500/Application/spi-performance',
-								
-								// ],
-								// },
-								// //'Product/Chip/Ethernet/W5500/all_pages',
-								// //'Product/Chip/Ethernet/W5500/all_pages_jp',
-								
-								// 'Product/Chip/Ethernet/W5500/w5500-evb-pico',
-								// 'Product/Chip/Ethernet/W5500/W5500-EVB-Pico-PoE',
-								// 'Product/Chip/Ethernet/W5500/w5500-evb-pico2',
-								
 							],
 							},
 							{
@@ -804,7 +828,6 @@ module.exports = {
 											{ type: 'link', label: 'datasheet', href: '/Product/Chip/Ethernet/W5300/#datasheet' },
 											{ type: 'link', label: 'technical documents', href: '/Product/Chip/Ethernet/W5300/#technical-documents' },
 										]
-
 									},
 									{
 										type: 'category',
@@ -816,9 +839,6 @@ module.exports = {
 											{ type: 'link', label: 'App Note', href: '/Product/Chip/Ethernet/W5300/?software=appnote#software-resources' },
 										]
 									},
-
-
-
 									{
 										type: 'category',
 										label: 'Hardware resources',
@@ -837,21 +857,14 @@ module.exports = {
 										items: [
 											// 하위 항목들
 											// { type: 'link', label: 'evaluation-boards', href: '/Product/Chip/Ethernet/W5300/?module=evb#evaluation-boards' },
-											{ type: 'link', label: 'Hat & shield',  href: '/Product/Chip/Ethernet/W5300/?module=hat#related-modules' },
+											{ type: 'link', label: 'Ethernet Module',  href: '/Product/Chip/Ethernet/W5300/?module=hat#related-modules' },
 										]
 									},
 
-									// //'Product/Chip/Ethernet/W5300/w5300',
-									// 'Product/Chip/Ethernet/W5300/overview',
-									// 'Product/Chip/Ethernet/W5300/document',
-									// 'Product/Chip/Ethernet/W5300/w5300-evb',
-									// 'Product/Chip/Ethernet/W5300/W5300-TOE-Shield'
 								],
 							},
 							{
-							//	type: 'link',
-							//	label: 'W5100', // string - the label that should be displayed.
-							//	href: 'https://www.wiznet.io/product-item/w5100/' // string - the target URL.
+
 								type: 'category',
 								label: 'W5100',
 								link: {type: 'doc', id: 'Product/Chip/Ethernet/W5100/overview'},
@@ -888,51 +901,43 @@ module.exports = {
 										]
 									},
 
-									{
+
+
+{
 										type: 'category',
 										label: 'Related-modules',
 										link: {type: 'generated-index', slug: '/Product/Chip/Ethernet/W5100/#related-modules'},  
 										items: [
 											// 하위 항목들
-											{ type: 'link', label: 'evaluation-boards', href: '/Product/Chip/Ethernet/W5100/?module=evb#related-modules' },
-											{ type: 'link', label: 'Hat & shield',  href: '/Product/Chip/Ethernet/W5100/?module=hat#related-modules' },
+											{ 
+												type: 'category', 
+												label: 'evaluation-boards', 
+												link: { type: 'generated-index', slug: '/Product/Chip/Ethernet/W5100/?module=evb#related-modules' },
+												items: [	
+													'Product/Chip/Ethernet/W5100/w5100-evb',
+												]
+											},	
+											{ 
+												type: 'category', 
+												label: 'Ethernet Module',  
+												link: {type:'generated-index', slug: '/Product/Chip/Ethernet/W5100/?module=hat#related-modules' },
+												items: [
+													{	
+														type: 'link',
+														label: 'WIZ810MJ',
+														href :'/Product/ioModule/wiz810mj',
+														customProps: {
+															openInNewTab: true
+														}
+													}
+												]
+											},
 										]
-									},
-
-									//Product/Chip/Ethernet/W5100/#features
-
-									// //'Product/Chip/Ethernet/W5100/w5100',
-									// 'Product/Chip/Ethernet/W5100/overview',
-									// 'Product/Chip/Ethernet/W5100/document',
-									// 'Product/Chip/Ethernet/W5100/w5100-evb',
+									},		
 								],
 							},
-							// {
-							// //	type: 'link',
-							// //	label: 'W5100', // string - the label that should be displayed.
-							// //	href: 'https://www.wiznet.io/product-item/w5100/' // string - the target URL.
-							// 	type: 'category',
-							// 	label: '📜SW resource',
-							// 	// link: {type: 'doc', id: 'Product/Chip/Ethernet/W5100/overview'},
-							// 	items: [
-							// 			'Product/Chip/Ethernet/SW_Resource/application-note',
-							// 			'Product/Chip/Ethernet/SW_Resource/driver',
-							// 		// //'Product/Chip/Ethernet/W5100/w5100',
-							// 		// 'Product/Chip/Ethernet/W5100/overview',
-							// 		// 'Product/Chip/Ethernet/W5100/document',
-							// 		// 'Product/Chip/Ethernet/W5100/w5100-evb',
-							// 	],
-							// },
-							/*{
-								type: 'category',
-								label: 'W5200',
-								items: [
-									'Product/Chip/Ethernet/W5200/w5200',
-								],
-							}*/
 						],
 					},
-					
 				],
 			},
 			{
@@ -1660,101 +1665,99 @@ module.exports = {
 						//	'Product/Modules/PoE/raspberrypi-5-hat-poe',
 							]
 					},
-					{
-						type: 'category',
-						label: 'Mbed WIZwiki Platform',
-						link: {type: 'doc', id: 'Product/Modules/Mbed-WIZwiki-Platform/mbed-wizwiki-platform'},
-						items: [
-						//'Product/Modules/Mbed-WIZwiki-Platform/mbed-wizwiki-platform',
-						'Product/Modules/Mbed-WIZwiki-Platform/wizwiki-w7500',
-						'Product/Modules/Mbed-WIZwiki-Platform/wizwiki-w7500p',
-						'Product/Modules/Mbed-WIZwiki-Platform/wizwiki-w7500eco',
-						'Product/Modules/Mbed-WIZwiki-Platform/wizwiki-w7500-eco-shield',
-						{
-						type: 'category',
-						label: 'Getting Started',
-						link: {type: 'doc', id: 'Product/Modules/Mbed-WIZwiki-Platform/Getting-Started/getting-started'},
-						items: [
-							'Product/Modules/Mbed-WIZwiki-Platform/Getting-Started/how-to-start-wizwiki-w7500-board',
-							'Product/Modules/Mbed-WIZwiki-Platform/Getting-Started/how-to-install-wizwiki-7500-serial-driver',
-							'Product/Modules/Mbed-WIZwiki-Platform/Getting-Started/how-to-write-firmware-into-wizwiki-w7500',
-							'Product/Modules/Mbed-WIZwiki-Platform/Getting-Started/how-to-debug-wizwiki-w7500',
-							'Product/Modules/Mbed-WIZwiki-Platform/Getting-Started/how-to-write-firmware-into-cmsis-dap',
-							'Product/Modules/Mbed-WIZwiki-Platform/Getting-Started/using-cmsis-dap-debugger',
-							],
-						},
-						{
-						type: 'category',
-						label: 'WIZwiki-W7500 Mbed Starter Kit',
-						link: {type: 'doc', id: 'Product/Modules/Mbed-WIZwiki-Platform/WIZwiki-W7500-Mbed-Starter-Kit/wizwiki-w7500-mbed-starter-kit'},
-						items: [
-							//'Product/Modules/Mbed-WIZwiki-Platform/WIZwiki-W7500-Mbed-Starter-Kit/wizwiki_w7500_mbed_starter_kit',
-							'Product/Modules/Mbed-WIZwiki-Platform/WIZwiki-W7500-Mbed-Starter-Kit/product-information-eng',
-							'Product/Modules/Mbed-WIZwiki-Platform/WIZwiki-W7500-Mbed-Starter-Kit/tutorial-eng',
-							'Product/Modules/Mbed-WIZwiki-Platform/WIZwiki-W7500-Mbed-Starter-Kit/sign-up-at-arm-mbed-eng',
-							'Product/Modules/Mbed-WIZwiki-Platform/WIZwiki-W7500-Mbed-Starter-Kit/exercise-1-led-eng',
-							'Product/Modules/Mbed-WIZwiki-Platform/WIZwiki-W7500-Mbed-Starter-Kit/exercise-2-serial-port-eng',
-							'Product/Modules/Mbed-WIZwiki-Platform/WIZwiki-W7500-Mbed-Starter-Kit/exercise-3-switch-eng',
-							'Product/Modules/Mbed-WIZwiki-Platform/WIZwiki-W7500-Mbed-Starter-Kit/exercise-4-pwm-eng',
-							'Product/Modules/Mbed-WIZwiki-Platform/WIZwiki-W7500-Mbed-Starter-Kit/exercise-5-variable-resistor-eng',
-							'Product/Modules/Mbed-WIZwiki-Platform/WIZwiki-W7500-Mbed-Starter-Kit/exercise-6-temperature-sensor-eng',
-							'Product/Modules/Mbed-WIZwiki-Platform/WIZwiki-W7500-Mbed-Starter-Kit/exercise-7-photoresistor-eng',
-							'Product/Modules/Mbed-WIZwiki-Platform/WIZwiki-W7500-Mbed-Starter-Kit/network-exercise-1-tcp-loopback-eng',
-							'Product/Modules/Mbed-WIZwiki-Platform/WIZwiki-W7500-Mbed-Starter-Kit/network-exercise-2-led-with-tcp-eng',
-							'Product/Modules/Mbed-WIZwiki-Platform/WIZwiki-W7500-Mbed-Starter-Kit/kit-parts-datasheet',
-							'Product/Modules/Mbed-WIZwiki-Platform/WIZwiki-W7500-Mbed-Starter-Kit/product-information-kor',
-							'Product/Modules/Mbed-WIZwiki-Platform/WIZwiki-W7500-Mbed-Starter-Kit/tutorial-kor',
-							'Product/Modules/Mbed-WIZwiki-Platform/WIZwiki-W7500-Mbed-Starter-Kit/sign-up-at-arm-mbed-kor',
-							'Product/Modules/Mbed-WIZwiki-Platform/WIZwiki-W7500-Mbed-Starter-Kit/exercise-1-led-kor',
-							'Product/Modules/Mbed-WIZwiki-Platform/WIZwiki-W7500-Mbed-Starter-Kit/exercise-2-serial-port-kor',
-							'Product/Modules/Mbed-WIZwiki-Platform/WIZwiki-W7500-Mbed-Starter-Kit/exercise-3-switch-kor',
-							'Product/Modules/Mbed-WIZwiki-Platform/WIZwiki-W7500-Mbed-Starter-Kit/exercise-4-pwm-kor',
-							'Product/Modules/Mbed-WIZwiki-Platform/WIZwiki-W7500-Mbed-Starter-Kit/exercise-5-variable-resistor-kor',
-							'Product/Modules/Mbed-WIZwiki-Platform/WIZwiki-W7500-Mbed-Starter-Kit/exercise-6-temperature-sensor-kor',
-							'Product/Modules/Mbed-WIZwiki-Platform/WIZwiki-W7500-Mbed-Starter-Kit/exercise-7-photoresistor-kor',
-							'Product/Modules/Mbed-WIZwiki-Platform/WIZwiki-W7500-Mbed-Starter-Kit/network-exercise-1-tcp-loopback-kor',
-							'Product/Modules/Mbed-WIZwiki-Platform/WIZwiki-W7500-Mbed-Starter-Kit/network-exercise-2-led-with-tcp-kor',
-							'Product/Modules/Mbed-WIZwiki-Platform/WIZwiki-W7500-Mbed-Starter-Kit/kit-parts-datasheet-kor',
-						],
-						}
-						],
-					},
-					{
-						type: 'category',
-						label: 'Open Source Hardware',
-						link: {type: 'doc', id: 'Product/Modules/Open-Source-Hardware/open_source_hardware'},
-						items: [		
-						{
-							type: 'category',
-							label: 'RP2040 Based',
-							link: {type: 'doc', id: 'Product/Modules/Open-Source-Hardware/rp2040_based'},
-							items: [
-								//'Product/Open-Source-Hardware/w2e-gateway-pico',
-								'Product/Chip/MCU/W55RP20/w55rp20-evb-pico',
-								'Product/Chip/Ethernet/W6300/w6300-evb-pico',
-								'Product/Chip/Ethernet/W6100/w6100-evb-pico',
-								'Product/Chip/Ethernet/W5500/w5500-evb-pico',
-								'Product/Chip/Ethernet/W5100S/w5100s-evb-pico',
-								'Product/Modules/Open-Source-Hardware/wiznet_ethernet_hat',
-								'Product/Modules/Open-Source-Hardware/wiznet-pico-poe',
-							]
-						},
-						{
-							type: 'category',
-							label: 'RP2350 Based',
-							link: {type: 'doc', id: 'Product/Modules/Open-Source-Hardware/rp2350_based'},
-							items: [
-								//'Product/Open-Source-Hardware/w2e-gateway-pico',
-								'Product/Chip/Ethernet/W6300/w6300-evb-pico2',
-								'Product/Chip/Ethernet/W6100/w6100-evb-pico2',
-								'Product/Chip/Ethernet/W5500/w5500-evb-pico2',
-								'Product/Chip/Ethernet/W5100S/w5100s-evb-pico2',
-								// 'Product/Open-Source-Hardware/wiznet_ethernet_hat',
-								// 'Product/Open-Source-Hardware/wiznet-pico-poe',
-							]
-						},
-						],
-					},
+
+					// {
+					// 	type: 'category',
+					// 	label: 'Mbed WIZwiki Platform',
+					// 	link: {type: 'doc', id: 'Product/Modules/Mbed-WIZwiki-Platform/mbed-wizwiki-platform'},
+					// 	items: [
+					// 	//'Product/Modules/Mbed-WIZwiki-Platform/mbed-wizwiki-platform',
+					// 	'Product/Modules/Mbed-WIZwiki-Platform/wizwiki-w7500-eco-shield',
+					// 	{
+					// 	type: 'category',
+					// 	label: 'Getting Started',
+					// 	link: {type: 'doc', id: 'Product/Modules/Mbed-WIZwiki-Platform/Getting-Started/getting-started'},
+					// 	items: [
+					// 		'Product/Modules/Mbed-WIZwiki-Platform/Getting-Started/how-to-start-wizwiki-w7500-board',
+					// 		'Product/Modules/Mbed-WIZwiki-Platform/Getting-Started/how-to-install-wizwiki-7500-serial-driver',
+					// 		'Product/Modules/Mbed-WIZwiki-Platform/Getting-Started/how-to-write-firmware-into-wizwiki-w7500',
+					// 		'Product/Modules/Mbed-WIZwiki-Platform/Getting-Started/how-to-debug-wizwiki-w7500',
+					// 		'Product/Modules/Mbed-WIZwiki-Platform/Getting-Started/how-to-write-firmware-into-cmsis-dap',
+					// 		'Product/Modules/Mbed-WIZwiki-Platform/Getting-Started/using-cmsis-dap-debugger',
+					// 		],
+					// 	},
+					// 	{
+					// 	type: 'category',
+					// 	label: 'WIZwiki-W7500 Mbed Starter Kit',
+					// 	link: {type: 'doc', id: 'Product/Modules/Mbed-WIZwiki-Platform/WIZwiki-W7500-Mbed-Starter-Kit/wizwiki-w7500-mbed-starter-kit'},
+					// 	items: [
+					// 		//'Product/Modules/Mbed-WIZwiki-Platform/WIZwiki-W7500-Mbed-Starter-Kit/wizwiki_w7500_mbed_starter_kit',
+					// 		'Product/Modules/Mbed-WIZwiki-Platform/WIZwiki-W7500-Mbed-Starter-Kit/product-information-eng',
+					// 		'Product/Modules/Mbed-WIZwiki-Platform/WIZwiki-W7500-Mbed-Starter-Kit/tutorial-eng',
+					// 		'Product/Modules/Mbed-WIZwiki-Platform/WIZwiki-W7500-Mbed-Starter-Kit/sign-up-at-arm-mbed-eng',
+					// 		'Product/Modules/Mbed-WIZwiki-Platform/WIZwiki-W7500-Mbed-Starter-Kit/exercise-1-led-eng',
+					// 		'Product/Modules/Mbed-WIZwiki-Platform/WIZwiki-W7500-Mbed-Starter-Kit/exercise-2-serial-port-eng',
+					// 		'Product/Modules/Mbed-WIZwiki-Platform/WIZwiki-W7500-Mbed-Starter-Kit/exercise-3-switch-eng',
+					// 		'Product/Modules/Mbed-WIZwiki-Platform/WIZwiki-W7500-Mbed-Starter-Kit/exercise-4-pwm-eng',
+					// 		'Product/Modules/Mbed-WIZwiki-Platform/WIZwiki-W7500-Mbed-Starter-Kit/exercise-5-variable-resistor-eng',
+					// 		'Product/Modules/Mbed-WIZwiki-Platform/WIZwiki-W7500-Mbed-Starter-Kit/exercise-6-temperature-sensor-eng',
+					// 		'Product/Modules/Mbed-WIZwiki-Platform/WIZwiki-W7500-Mbed-Starter-Kit/exercise-7-photoresistor-eng',
+					// 		'Product/Modules/Mbed-WIZwiki-Platform/WIZwiki-W7500-Mbed-Starter-Kit/network-exercise-1-tcp-loopback-eng',
+					// 		'Product/Modules/Mbed-WIZwiki-Platform/WIZwiki-W7500-Mbed-Starter-Kit/network-exercise-2-led-with-tcp-eng',
+					// 		'Product/Modules/Mbed-WIZwiki-Platform/WIZwiki-W7500-Mbed-Starter-Kit/kit-parts-datasheet',
+					// 		'Product/Modules/Mbed-WIZwiki-Platform/WIZwiki-W7500-Mbed-Starter-Kit/product-information-kor',
+					// 		'Product/Modules/Mbed-WIZwiki-Platform/WIZwiki-W7500-Mbed-Starter-Kit/tutorial-kor',
+					// 		'Product/Modules/Mbed-WIZwiki-Platform/WIZwiki-W7500-Mbed-Starter-Kit/sign-up-at-arm-mbed-kor',
+					// 		'Product/Modules/Mbed-WIZwiki-Platform/WIZwiki-W7500-Mbed-Starter-Kit/exercise-1-led-kor',
+					// 		'Product/Modules/Mbed-WIZwiki-Platform/WIZwiki-W7500-Mbed-Starter-Kit/exercise-2-serial-port-kor',
+					// 		'Product/Modules/Mbed-WIZwiki-Platform/WIZwiki-W7500-Mbed-Starter-Kit/exercise-3-switch-kor',
+					// 		'Product/Modules/Mbed-WIZwiki-Platform/WIZwiki-W7500-Mbed-Starter-Kit/exercise-4-pwm-kor',
+					// 		'Product/Modules/Mbed-WIZwiki-Platform/WIZwiki-W7500-Mbed-Starter-Kit/exercise-5-variable-resistor-kor',
+					// 		'Product/Modules/Mbed-WIZwiki-Platform/WIZwiki-W7500-Mbed-Starter-Kit/exercise-6-temperature-sensor-kor',
+					// 		'Product/Modules/Mbed-WIZwiki-Platform/WIZwiki-W7500-Mbed-Starter-Kit/exercise-7-photoresistor-kor',
+					// 		'Product/Modules/Mbed-WIZwiki-Platform/WIZwiki-W7500-Mbed-Starter-Kit/network-exercise-1-tcp-loopback-kor',
+					// 		'Product/Modules/Mbed-WIZwiki-Platform/WIZwiki-W7500-Mbed-Starter-Kit/network-exercise-2-led-with-tcp-kor',
+					// 		'Product/Modules/Mbed-WIZwiki-Platform/WIZwiki-W7500-Mbed-Starter-Kit/kit-parts-datasheet-kor',
+					// 	],
+					// 	}
+					// 	],
+					// },
+					// {
+					// 	type: 'category',
+					// 	label: 'Open Source Hardware',
+					// 	link: {type: 'doc', id: 'Product/Modules/Open-Source-Hardware/open_source_hardware'},
+					// 	items: [		
+					// 	{
+					// 		type: 'category',
+					// 		label: 'RP2040 Based',
+					// 		link: {type: 'doc', id: 'Product/Modules/Open-Source-Hardware/rp2040_based'},
+					// 		items: [
+					// 			//'Product/Open-Source-Hardware/w2e-gateway-pico',
+					// 			'Product/Chip/MCU/W55RP20/w55rp20-evb-pico',
+					// 			'Product/Chip/Ethernet/W6300/w6300-evb-pico',
+					// 			'Product/Chip/Ethernet/W6100/w6100-evb-pico',
+					// 			'Product/Chip/Ethernet/W5500/w5500-evb-pico',
+					// 			'Product/Chip/Ethernet/W5100S/w5100s-evb-pico',
+					// 			'Product/Modules/Open-Source-Hardware/wiznet_ethernet_hat',
+					// 			'Product/Modules/Open-Source-Hardware/wiznet-pico-poe',
+					// 		]
+					// 	},
+					// 	{
+					// 		type: 'category',
+					// 		label: 'RP2350 Based',
+					// 		link: {type: 'doc', id: 'Product/Modules/Open-Source-Hardware/rp2350_based'},
+					// 		items: [
+					// 			//'Product/Open-Source-Hardware/w2e-gateway-pico',
+					// 			'Product/Chip/Ethernet/W6300/w6300-evb-pico2',
+					// 			'Product/Chip/Ethernet/W6100/w6100-evb-pico2',
+					// 			'Product/Chip/Ethernet/W5500/w5500-evb-pico2',
+					// 			'Product/Chip/Ethernet/W5100S/w5100s-evb-pico2',
+					// 			// 'Product/Open-Source-Hardware/wiznet_ethernet_hat',
+					// 			// 'Product/Open-Source-Hardware/wiznet-pico-poe',
+					// 		]
+					// 	},
+					// 	],
+					// },
 
 				],
 			},
@@ -1774,7 +1777,7 @@ module.exports = {
 						label: 'W7100',
 						link: {type: 'doc', id: 'Product/Chip/MCU/W7100/w7100a'},
 						items: [
-							//'Product/Chip/MCU/W7100/w7100a',ioModule
+							//'Product/Chip/MCU/W7100/w7100a',Ethernet-Module
 							'Product/Chip/MCU/W7100/imcu7100-evb',
 						],
 					},
@@ -2006,7 +2009,7 @@ module.exports = {
 						},
 						
 						
-						'Product/Modules/Open-Source-Hardware/wizfi360-evb-pico',
+						'Product/Chip/Chip_Related_modules/wizfi360-evb-pico',
 						'Product/Modules/Wi-Fi-Module/WizFi360/wizfi360_evb_mini',
 					],
 				},
@@ -2017,26 +2020,26 @@ module.exports = {
 						{
 						type: 'category',
 						label: 'Surf 5',
-						link: {type: 'doc', id: 'Product/Modules/Open-Source-Hardware/surf5/surf5'},
+						link: {type: 'doc', id: 'Product/Chip/Chip_Related_modules/surf5/surf5'},
 						items: [
 							{
 								type: 'category',
 								label: 'Getting Started',
-								link: {type: 'doc', id: 'Product/Modules/Open-Source-Hardware/surf5/getting-started/getting-started'},
+								link: {type: 'doc', id: 'Product/Chip/Chip_Related_modules/surf5/getting-started/getting-started'},
 								items: [
-									'Product/Modules/Open-Source-Hardware/surf5/getting-started/install-usb-driver',
-									'Product/Modules/Open-Source-Hardware/surf5/getting-started/flashing-surf5',
-									'Product/Modules/Open-Source-Hardware/surf5/getting-started/install-vscode-guide',
-									'Product/Modules/Open-Source-Hardware/surf5/getting-started/install-keil-guide',
-									'Product/Modules/Open-Source-Hardware/surf5/getting-started/fw-examples',
-									'Product/Modules/Open-Source-Hardware/surf5/getting-started/debugger-surf5',
-									'Product/Modules/Open-Source-Hardware/surf5/getting-started/surf5-s2e',
+									'Product/Chip/Chip_Related_modules/surf5/getting-started/install-usb-driver',
+									'Product/Chip/Chip_Related_modules/surf5/getting-started/flashing-surf5',
+									'Product/Chip/Chip_Related_modules/surf5/getting-started/install-vscode-guide',
+									'Product/Chip/Chip_Related_modules/surf5/getting-started/install-keil-guide',
+									'Product/Chip/Chip_Related_modules/surf5/getting-started/fw-examples',
+									'Product/Chip/Chip_Related_modules/surf5/getting-started/debugger-surf5',
+									'Product/Chip/Chip_Related_modules/surf5/getting-started/surf5-s2e',
 									],
 								},
 							],
 						},
-						'Product/Modules/Open-Source-Hardware/w5100s_mkr_ethernet_shield',
-						'Product/Modules/Open-Source-Hardware/w6100_mkr_ethernet_shield',
+						'Product/Chip/Chip_Related_modules/w5100s_mkr_ethernet_shield',
+						'Product/Chip/Chip_Related_modules/w6100_mkr_ethernet_shield',
 						'Product/Chip/Ethernet/W5500/wizarduino_m0_eth',
 						'Product/Chip/Ethernet/W5500/wizarduino_m0_eth_eng',
 						'Product/Modules/Wi-Fi-Module/wizarduino_mega_wifi',

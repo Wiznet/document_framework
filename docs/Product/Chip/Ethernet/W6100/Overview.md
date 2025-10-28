@@ -169,9 +169,9 @@ W6100-EVB-Pico2 is a microcontroller evaluation board based on the Raspberry Pi 
 
 </TabItem>
 
-<TabItem value="hat" label="Hat & shield" >
+<TabItem value="hat" label="Ethernet Module" >
 
-### Hat & shield
+### Ethernet Module
 
 <div className="link-card">
   <a

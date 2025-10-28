@@ -130,7 +130,7 @@ DHCP, DNS, MQTT, SNTP, TFTP, HTTP Server
 | [![link](\img\link.png) **Certificate**]               | Official certification documents           | CE, FCC, and RoHS certificates available |
 
 ## Related modules
-<Tabs groupId="evb" queryString >
+<Tabs groupId="module" queryString >
  <TabItem value="evb" label="Evaluation Boards" default >
 ### Evaluation Boards
 
@@ -142,6 +142,27 @@ DHCP, DNS, MQTT, SNTP, TFTP, HTTP Server
     className="link-card-content"
   >
     <img src="/img/products/w5100/W5100E01-AVR1.jpg" alt="W5100-EVB" />
+    <div>
+      <h3>W5100-EVB</h3>
+      <p>
+        W5100 EVB is a microcontroller evaluation board based on the ATMEL128 and fully hardwired TCP/IP controller W5100 
+      </p>
+    </div>
+  </a>
+  </div>  
+  </TabItem>
+  <TabItem value="hat" label="Ethernet Module" default >
+
+### Ethernet Module
+
+  <div className="link-card">
+  <a
+    href="/Product/ioModule/WIZ810MJ"
+    target="_blank"
+    rel="noopener noreferrer"
+    className="link-card-content"
+  >
+    <img src="/img/products/wiz810mj/810mj.png" alt="WIZ810MJ" />
     <div>
       <h3>W5100-EVB</h3>
       <p>

@@ -6,7 +6,7 @@ date: 2020-04-30
 
 # WIZnet Document Wiki
 This site is an open information collection platform hosting information
-on [WIZnet products](Product/Products.md) and [Open Source Hardware](Product/Modules/Open-Source-Hardware/Open_Source_Hardware.md).
+on [WIZnet products](Product/Products.md) and [Open Source Hardware](Product/Chip/Chip_Related_modules/Open_Source_Hardware.md).
 Please feel free to improve the content by registering an account. Your contributions would be greatly appreciated.
 
 **Most of the materials of Open Source Hardware are hosted on the
@@ -25,11 +25,11 @@ You may find following indexes to start with:
 including datasheets, source files, application notes and related
 application info.
 
-  - **[WIZwiki-W7500](Product/Modules/Mbed-WIZwiki-Platform/wizwiki-w7500.md)**![](/img/star.png)
-  - **[WIZwiki-W7500P](Product/Modules/Mbed-WIZwiki-Platform/wizwiki-w7500p.md)**
+  - **[WIZwiki-W7500](Product/Chip/MCU/Mbed-WIZwiki-Platform/wizwiki-w7500.md)**![](/img/star.png)
+  - **[WIZwiki-W7500P](Product/Chip/MCU/Mbed-WIZwiki-Platform/wizwiki-w7500p.md)**
     ![](/img/star.png)
-  - [WIZwiki-W7500ECO](Product/Modules/Mbed-WIZwiki-Platform/wizwiki-w7500eco.md)
-  - [WIZwiki-W7500 mbed Starter Kit](Product/Modules/Mbed-WIZwiki-Platform/WIZwiki-W7500-Mbed-Starter-Kit/WIZwiki-W7500-Mbed-Starter-Kit.md)
+  - [WIZwiki-W7500ECO](Product/Chip/MCU/Mbed-WIZwiki-Platform/wizwiki-w7500eco.md)
+  - [WIZwiki-W7500 mbed Starter Kit](Product/Chip/MCU/Mbed-WIZwiki-Platform/WIZwiki-W7500-Mbed-Starter-Kit/WIZwiki-W7500-Mbed-Starter-Kit.md)
   - [W7500](Product/Chip/MCU/W7500/Overview.md)
   - [W7500P](Product/Chip/MCU/W7500P/Overview.md)
   - **[W6100](Product/Chip/Ethernet/W6100/Overview.md): Hardwired TCP/IP Chip(IPv4/6 Dual Stack)** ![](/img/star.png) 
@@ -47,12 +47,15 @@ application info.
 
 ### Open Source Hardware
 
-[Open Source Hardware Home](Product/Modules/Open-Source-Hardware/Open_Source_Hardware.md) - Materials and information on WIZnet
+[Open Source Hardware Home](Product/Chip/Chip_Related_modules/Open_Source_Hardware.md) - Materials and information on WIZnet
 Open source hardware products.
 
   - **[WizFi360-EVB-Pico](Product/Modules/Open-Source-Hardware/WizFi360-EVB-Pico.md)** ![](/img/star.png)
   - **[WIZnet Ethernet HAT](Product/Modules/Open-Source-Hardware/WIZnet-Ethernet-HAT.md)** ![](/img/star.png)
-  - [W5500 Ethernet Shield](Product/Chip/Ethernet/W5500/W5500-Ethernet-Shield/W5500_Ethernet_Shield.md)
+  - [W5500 Ethernet Shield](Product/Modules/Open-Source-Hardware/W5500_Ethernet_Shield.md)
+  - [ioShield-A](Product/Modules/Open-Source-Hardware/ioShield-A.md) for Arduino
+  - [ioShield-K](Product/Modules/Open-Source-Hardware/ioShield-K.md) for Gadget Renesas KURUMI
+  - [ioShield-L](Product/Modules/Open-Source-Hardware/ioShield-L.md) for TI’s MSP430 LaunchPad
   - [Cookie](Product/Modules/Open-Source-Hardware/cookie.md)
   - [EnergyMicro](Product/Modules/Open-Source-Hardware/EnergyMicro.md)
   - [WIZnet Eagle CAD Library](Design-Guide/Eagle_CAD_Library_of_WIZnet_Products.md)
