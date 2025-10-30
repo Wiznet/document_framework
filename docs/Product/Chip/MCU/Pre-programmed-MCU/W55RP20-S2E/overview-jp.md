@@ -117,8 +117,8 @@ date: 2025-05-27
 | 62         | VDD         | フラッシュメモリの電源   |
 | 63         | BOOT        | BOOTピン<br />電源投入時およびリセット中に、BOOTピンがLowの場合、デバイスはBOOTSELモードに入ります。     |
 | 64         | IOVDD       | デジタルIO電源<br />デジタルGPIO用の電源、標準電圧3.3V    |
-| 65         | UART0_RX    | デバッグRX       |
-| 66         | UART0_TX    | デバッグTX        |
+| 65         | UART0_TX    | デバッグTX       |
+| 66         | UART0_RX    | デバッグRX        |
 | 67         | RESERVED    | 予約済みピン       |
 | 68         | RESERVED    | 予約済みピン       |
 | 69         | GND    | グラウンド       |
