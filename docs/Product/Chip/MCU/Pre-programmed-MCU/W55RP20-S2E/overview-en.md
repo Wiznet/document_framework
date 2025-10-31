@@ -127,8 +127,8 @@ The **W55RP20-S2E** is a pre-programmed product with an Serial to Ethernet FW an
 | 62         | VDD         | Power supply of the Flash Memory   |
 | 63         | BOOT        | BOOT Pin<br />When power is applied and during reset, if the BOOT pin is low, the device enters BOOTSEL mode.     |
 | 64         | IOVDD       | Digital IO Supply<br />Power supply for digital GPIOs, nominal voltage 3.3V    |
-| 65         | UART0_RX    | Debug RX       |
-| 66         | UART0_TX    | Debug TX       |
+| 65         | UART0_TX    | Debug TX       |
+| 66         | UART0_RX    | Debug RX       |
 | 67         | SPI_SCK     | SCK input pin for Data SPI transmission (SPI MODE) |
 | 68         | SPI_MISO    | MISO pin for Data SPI reception (SPI MODE) |
 | 69         | GND    | Ground       |
