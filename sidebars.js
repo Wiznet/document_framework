@@ -212,7 +212,6 @@ module.exports = {
 											{ 
 												type: 'category', 
 												label: 'Evaluation-boards', 
-												// link: {type: 'generated-index', slug: '/Product/Chip/MCU/W7500/?module=evb#related-modules'} ,
 												items: [
 													'Product/Chip/MCU/Mbed-WIZwiki-Platform/wizwiki-w7500',
 													'Product/Chip/MCU/Mbed-WIZwiki-Platform/wizwiki-w7500eco',
@@ -274,7 +273,6 @@ module.exports = {
 											{ 
 												type: 'category', 
 												label: 'Evaluation-boards', 
-												link: {type: 'generated-index', slug: '/Product/Chip/MCU/W7500P/?module=evb#related-modules'} ,
 												items: [
 													 'Product/Chip/MCU/Mbed-WIZwiki-Platform/wizwiki-w7500p',
 												]
@@ -283,9 +281,7 @@ module.exports = {
 											{ 
 												type: 'category', 
 												label: 'Serial-to-Ethernet-Module', 
-												link: {type: 'generated-index', slug: '/Product/Chip/MCU/W7500P/?module=s2e#related-modules'} ,
 												items: [
-													// 'Product/Modules/Serial-to-Ethernet-Module/WIZ750SR/wiz750sr',
 													{
 														type: 'link',
 														label: 'wiz750sr',
@@ -524,7 +520,6 @@ module.exports = {
 											{ 
 												type: 'category',
 												label: 'evaluation-boards', 
-												link: {type:'generated-index', slug: '/Product/Chip/Ethernet/W6300/?module=evb#related-modules'},
 												items: [
 													'Product/Chip/Ethernet/W6300/w6300-evb-pico',
 													'Product/Chip/Ethernet/W6300/w6300-evb-pico2',
@@ -533,12 +528,11 @@ module.exports = {
 											{ 
 												type: 'category', 
 												label: 'Ethernet Module2',
-												link: {type:'generated-index', slug: '/Product/Chip/Ethernet/W6300/?module=hat#related-modules'},
 												items: [
 													{
 														type: 'link',
 														label: 'WIZ630io',
-														href: '/Product/Chip/Ethernet/W6300/?module=hat#related-modules',
+														href: '/Product/Chip/Ethernet/W6300/#related-modules',
 														// href : '/Product/ioModule/wiz630io',
 														customProps: {
 															openInNewTab: true,
@@ -599,7 +593,6 @@ module.exports = {
 											{ 
 												type: 'category',
 												label: 'evaluation-boards', 
-												link: {type: 'generated-index', slug: '/Product/Chip/Ethernet/W6100/?module=evb#related-modules' },
 												items: [
 													'Product/Chip/Ethernet/W6100/w6100-evb-pico',
 													'Product/Chip/Ethernet/W6100/w6100-evb-pico2',
@@ -609,13 +602,12 @@ module.exports = {
 											{ 
 												type: 'category', 
 												label: 'Ethernet Module',  
-												link: {type: 'generated-index', slug: '/Product/Chip/Ethernet/W6100/?module=hat#related-modules' },
 												items: [
 													
 													{
 														type: 'link',
 														label: 'WIZ610io',
-														href :'/Product/Chip/Ethernet/W6100/?module=hat#related-modules',
+														href :'/Product/Chip/Ethernet/W6100/#related-modules',
 														
 														customProps: {
 															openInNewTab: true,
@@ -690,7 +682,6 @@ module.exports = {
 											{ 
 												type: 'category',
 											 	label: 'evaluation-boards', 
-												link: {type: 'generated-index', slug: '/Product/Chip/Ethernet/W5100S/?module=evb#related-modules'},
 												items: [
 													'Product/Chip/Ethernet/W5100S/w5100s-evb-pico',
 													'Product/Chip/Ethernet/W5100S/w5100s-evb-pico2',
@@ -699,16 +690,11 @@ module.exports = {
 											{ 
 												type: 'category', 
 												label: 'Ethernet Module',  
-												link: {type: 'generated-index', slug: '/Product/Chip/Ethernet/W5100S/?module=hat#related-modules'},	
 												items: [
-													
-
 													{	
 														type: 'link',
 														label: 'WIZ810Sio',
-														href :'/Product/Chip/Ethernet/W5100S/?module=hat#related-modules',
-														
-
+														href :'/Product/Chip/Ethernet/W5100S/related-modules',
 														customProps: {
 															openInNewTab: true,
 															id: 'WIZ810Sio-external',	
@@ -720,7 +706,7 @@ module.exports = {
 													{
 														type: 'link',
 														label: 'WIZ810Smj',
-														href : '/Product/Chip/Ethernet/W5100S/?module=hat#related-modules',
+														href : '/Product/Chip/Ethernet/W5100S/related-modules',
 
 														customProps: {
 															openInNewTab: true,
@@ -784,7 +770,6 @@ module.exports = {
 											{ 
 												type: 'category', 
 												label: 'evaluation-boards', 
-												link: { type: 'generated-index', slug: '/Product/Chip/Ethernet/W5500/?module=evb#related-modules' },
 												items: [	
 													'Product/Chip/Ethernet/W5500/w5500-evb-pico',
 													'Product/Chip/Ethernet/W5500/W5500-EVB-Pico-PoE',
@@ -794,10 +779,7 @@ module.exports = {
 											{ 
 												type: 'category', 
 												label: 'Ethernet Module',  
-												link: {type:'generated-index', slug: '/Product/Chip/Ethernet/W5500/?module=hat#related-modules' },
 												items: [
-
-
 													{
 														type: 'link',
 														label: 'WIZ850io',
@@ -943,7 +925,6 @@ module.exports = {
 											{ 
 												type: 'category', 
 												label: 'evaluation-boards', 
-												link: { type: 'generated-index', slug: '/Product/Chip/Ethernet/W5100/?module=evb#related-modules' },
 												items: [	
 													'Product/Chip/Ethernet/W5100/w5100-evb',
 												]
@@ -951,12 +932,11 @@ module.exports = {
 											{ 
 												type: 'category', 
 												label: 'Ethernet Module',  
-												link: {type:'generated-index', slug: '/Product/Chip/Ethernet/W5100/?module=hat#related-modules' },
 												items: [
 													{	
 														type: 'link',
 														label: 'WIZ810MJ',
-														href : '/Product/Chip/Ethernet/W5100/?module=hat#related-modules',
+														href : '/Product/Chip/Ethernet/W5100/#related-modules',
 														customProps: {
 															openInNewTab: true,
 															id: 'WIZ810MJ-external',	
