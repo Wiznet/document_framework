@@ -26,6 +26,10 @@ import TabItem from '@theme/TabItem';
 
 ---
 
+**All technical issue for WIZIP-51S , please contact [WIZnet HK](https://www.wiznet.hk/en/).**
+
+---
+
 ## Pin Information
 
 <Tabs groupId="pinout" queryString>

@@ -15,7 +15,7 @@ import TabItem from '@theme/TabItem';
     <h3>WIZ-DTU</h3>
     <br />
     <p>
-      WIZ-DTU is low price Dual Serial to Ethernet converter based on WIZnet's W55MH32 MCU.
+      WIZ-DTU is a Dual Serial to Ethernet converter based on WIZnet's W55MH32 MCU.
     </p>
   </div>
 </div>
