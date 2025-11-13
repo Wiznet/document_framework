@@ -1471,8 +1471,61 @@ module.exports = {
 								label: 'W5500S2E-S1',
 								link: {type: 'doc', id: 'Product/Modules/Serial-to-Ethernet-Module/W5500S2E-S1/w5500s2e_s1'},
 								items: [
-										'Product/Modules/Serial-to-Ethernet-Module/W5500S2E-S1/wizse_at_command',
-										'Product/Modules/Serial-to-Ethernet-Module/W5500S2E-S1/wizse_config_tool_55_75',
+									{
+										type: 'category',
+										label: 'Documentation',
+										link: {type: 'generated-index', slug: '/Product/Modules/Serial-to-Ethernet-Module/W5500S2E-S1/#documentation'}, 
+										items: [
+												{ type: 'link', label: 'User Manual', href: '/Product/Modules/Serial-to-Ethernet-Module/W5500S2E-S1/#documentation'},
+											// 'Product/Modules/Serial-to-Ethernet-Module/WIZ750SR/users-manual-EN',
+											// 'Product/Modules/Serial-to-Ethernet-Module/WIZ750SR/users-manual-KO',
+											// 'Product/Modules/Serial-to-Ethernet-Module/WIZ750SR/datasheet',
+										],
+									},
+									{
+										type: 'category',
+										label: 'Setup & Configuration',
+										link: {type: 'generated-index', slug: '/Product/Modules/Serial-to-Ethernet-Module/W5500S2E-S1/#setup--configuration'}, 
+										items: [
+												{ type: 'link', label: 'AT Commands', href: '/Product/Modules/Serial-to-Ethernet-Module/W5500S2E-S1/#setup--configuration'},
+											// 'Product/Modules/Serial-to-Ethernet-Module/WIZ750SR/command-manual-EN',
+											// 'Product/Modules/Serial-to-Ethernet-Module/WIZ750SR/command-manual-KO',
+											// 'Product/Modules/Serial-to-Ethernet-Module/WIZ750SR/configuration-tool-manual-EN',
+											// 'Product/Modules/Serial-to-Ethernet-Module/WIZ750SR/configuration-tool-manual-KO',
+											// 'Product/Modules/Serial-to-Ethernet-Module/WIZ750SR/configuration-tool-manual-new-EN',
+											// 'Product/Modules/Serial-to-Ethernet-Module/WIZ750SR/configuration-tool-manual-new-KO',
+											// 'Product/Modules/Serial-to-Ethernet-Module/WIZ750SR/WIZ750SR_Web_Config_Guide_EN',
+											// 'Product/Modules/Serial-to-Ethernet-Module/WIZ750SR/WIZ750SR_Web_Config_Guide_KO',
+										],
+									},
+									{
+										type: 'category',
+										label: 'User Guides',
+										link: {type: 'generated-index', slug: '/Product/Modules/Serial-to-Ethernet-Module/W5500S2E-S1/#user-guide'}, 
+										items: [
+												{ type: 'link', label: 'Getting Started', href: '/Product/Modules/Serial-to-Ethernet-Module/W5500S2E-S1/#user-guide'},
+												// 'Product/Modules/Serial-to-Ethernet-Module/WIZ750SR/getting-started-EN',
+												// 'Product/Modules/Serial-to-Ethernet-Module/WIZ750SR/getting-started-KO',
+												// 'Product/Modules/Serial-to-Ethernet-Module/WIZ750SR/trouble-shooting-EN',
+												// 'Product/Modules/Serial-to-Ethernet-Module/WIZ750SR/trouble-shooting-KO',
+												// 'Product/Modules/Serial-to-Ethernet-Module/WIZ750SR/developers-guide-EN',
+												// 'Product/Modules/Serial-to-Ethernet-Module/WIZ750SR/developers-guide-KO',
+												// 'Product/Modules/Serial-to-Ethernet-Module/WIZ750SR/modbus-connection-guide-en',
+												// 'Product/Modules/Serial-to-Ethernet-Module/WIZ750SR/modbus-connection-guide-ko',
+
+											],
+									},
+									{
+										type: 'category',
+										label: 'Software Resources',
+										link: {type: 'generated-index', slug: '/Product/Modules/Serial-to-Ethernet-Module/W5500S2E-S1/#software-resources'}, 
+										items: [
+												{ type: 'link', label: 'Config Tools', href: '/Product/Modules/Serial-to-Ethernet-Module/W5500S2E-S1/#software-resources'},
+
+										]
+									},
+										// 'Product/Modules/Serial-to-Ethernet-Module/W5500S2E-S1/wizse_at_command',
+										// 'Product/Modules/Serial-to-Ethernet-Module/W5500S2E-S1/wizse_config_tool_55_75',
 								],
 							},
 							{
@@ -1480,8 +1533,60 @@ module.exports = {
 								label: 'W5500S2E-Z1',
 								link: {type: 'doc', id: 'Product/Modules/Serial-to-Ethernet-Module/W5500S2E-Z1/w5500s2e_z1'},
 								items: [
-										'Product/Modules/Serial-to-Ethernet-Module/W5500S2E-Z1/wizse_at_command',
-										'Product/Modules/Serial-to-Ethernet-Module/W5500S2E-Z1/wizse_config_tool_55_75',
+									{
+										type: 'category',
+										label: 'Documentation',
+										link: {type: 'generated-index', slug: '/Product/Modules/Serial-to-Ethernet-Module/W5500S2E-Z1/#documentation'}, 
+										items: [
+												{ type: 'link', label: 'User Manual', href: '/Product/Modules/Serial-to-Ethernet-Module/W5500S2E-Z1/#documentation'},
+											// 'Product/Modules/Serial-to-Ethernet-Module/WIZ750SR/users-manual-EN',
+											// 'Product/Modules/Serial-to-Ethernet-Module/WIZ750SR/users-manual-KO',
+											// 'Product/Modules/Serial-to-Ethernet-Module/WIZ750SR/datasheet',
+										],
+									},
+									{
+										type: 'category',
+										label: 'Setup & Configuration',
+										link: {type: 'generated-index', slug: '/Product/Modules/Serial-to-Ethernet-Module/W5500S2E-Z1/#setup--configuration'}, 
+										items: [
+												{ type: 'link', label: 'AT Commands', href: '/Product/Modules/Serial-to-Ethernet-Module/W5500S2E-Z1/#setup--configuration'},
+											// 'Product/Modules/Serial-to-Ethernet-Module/WIZ750SR/command-manual-EN',
+											// 'Product/Modules/Serial-to-Ethernet-Module/WIZ750SR/command-manual-KO',
+											// 'Product/Modules/Serial-to-Ethernet-Module/WIZ750SR/configuration-tool-manual-EN',
+											// 'Product/Modules/Serial-to-Ethernet-Module/WIZ750SR/configuration-tool-manual-KO',
+											// 'Product/Modules/Serial-to-Ethernet-Module/WIZ750SR/configuration-tool-manual-new-EN',
+											// 'Product/Modules/Serial-to-Ethernet-Module/WIZ750SR/configuration-tool-manual-new-KO',
+											// 'Product/Modules/Serial-to-Ethernet-Module/WIZ750SR/WIZ750SR_Web_Config_Guide_EN',
+											// 'Product/Modules/Serial-to-Ethernet-Module/WIZ750SR/WIZ750SR_Web_Config_Guide_KO',
+										],
+									},
+									{
+										type: 'category',
+										label: 'User Guides',
+										link: {type: 'generated-index', slug: '/Product/Modules/Serial-to-Ethernet-Module/W5500S2E-Z1/#user-guide'}, 
+										items: [
+												{ type: 'link', label: 'Getting Started', href: '/Product/Modules/Serial-to-Ethernet-Module/W5500S2E-Z1/#user-guide'},
+												// 'Product/Modules/Serial-to-Ethernet-Module/WIZ750SR/getting-started-EN',
+												// 'Product/Modules/Serial-to-Ethernet-Module/WIZ750SR/getting-started-KO',
+												// 'Product/Modules/Serial-to-Ethernet-Module/WIZ750SR/trouble-shooting-EN',
+												// 'Product/Modules/Serial-to-Ethernet-Module/WIZ750SR/trouble-shooting-KO',
+												// 'Product/Modules/Serial-to-Ethernet-Module/WIZ750SR/developers-guide-EN',
+												// 'Product/Modules/Serial-to-Ethernet-Module/WIZ750SR/developers-guide-KO',
+												// 'Product/Modules/Serial-to-Ethernet-Module/WIZ750SR/modbus-connection-guide-en',
+												// 'Product/Modules/Serial-to-Ethernet-Module/WIZ750SR/modbus-connection-guide-ko',
+											],
+									},
+									{
+										type: 'category',
+										label: 'Software Resources',
+										link: {type: 'generated-index', slug: '/Product/Modules/Serial-to-Ethernet-Module/W5500S2E-Z1/#software-resources'}, 
+										items: [
+												{ type: 'link', label: 'Config Tools', href: '/Product/Modules/Serial-to-Ethernet-Module/W5500S2E-Z1/#software-resources'},
+
+										]
+									},
+										// 'Product/Modules/Serial-to-Ethernet-Module/W5500S2E-Z1/wizse_at_command',
+										// 'Product/Modules/Serial-to-Ethernet-Module/W5500S2E-Z1/wizse_config_tool_55_75',
 								],
 							},
 							{
@@ -1489,18 +1594,127 @@ module.exports = {
 								label: 'W7500S2E-R1',
 								link: {type: 'doc', id: 'Product/Modules/Serial-to-Ethernet-Module/W7500S2E-R1/w7500s2e_r1'},
 								items: [
-										'Product/Modules/Serial-to-Ethernet-Module/W7500S2E-R1/wizse_at_command',
-										'Product/Modules/Serial-to-Ethernet-Module/W7500S2E-R1/wizse_config_tool_55_75',
-								],
+									{
+										type: 'category',
+										label: 'Documentation',
+										link: {type: 'generated-index', slug: '/Product/Modules/Serial-to-Ethernet-Module/W7500S2E-R1/#documentation'}, 
+										items: [
+												{ type: 'link', label: 'User Manual', href: '/Product/Modules/Serial-to-Ethernet-Module/W7500S2E-R1/#documentation'},
+											// 'Product/Modules/Serial-to-Ethernet-Module/WIZ750SR/users-manual-EN',
+											// 'Product/Modules/Serial-to-Ethernet-Module/WIZ750SR/users-manual-KO',
+											// 'Product/Modules/Serial-to-Ethernet-Module/WIZ750SR/datasheet',
+										],
+									},
+									{
+										type: 'category',
+										label: 'Setup & Configuration',
+										link: {type: 'generated-index', slug: '/Product/Modules/Serial-to-Ethernet-Module/W7500S2E-R1/#setup--configuration'}, 
+										items: [
+												{ type: 'link', label: 'AT Commands', href: '/Product/Modules/Serial-to-Ethernet-Module/W7500S2E-R1/#setup--configuration'},
+											// 'Product/Modules/Serial-to-Ethernet-Module/WIZ750SR/command-manual-EN',
+											// 'Product/Modules/Serial-to-Ethernet-Module/WIZ750SR/command-manual-KO',
+											// 'Product/Modules/Serial-to-Ethernet-Module/WIZ750SR/configuration-tool-manual-EN',
+											// 'Product/Modules/Serial-to-Ethernet-Module/WIZ750SR/configuration-tool-manual-KO',
+											// 'Product/Modules/Serial-to-Ethernet-Module/WIZ750SR/configuration-tool-manual-new-EN',
+											// 'Product/Modules/Serial-to-Ethernet-Module/WIZ750SR/configuration-tool-manual-new-KO',
+											// 'Product/Modules/Serial-to-Ethernet-Module/WIZ750SR/WIZ750SR_Web_Config_Guide_EN',
+											// 'Product/Modules/Serial-to-Ethernet-Module/WIZ750SR/WIZ750SR_Web_Config_Guide_KO',
+
+										],
+									},
+									{
+										type: 'category',
+										label: 'User Guides',
+										link: {type: 'generated-index', slug: '/Product/Modules/Serial-to-Ethernet-Module/W7500S2E-R1/#user-guide'}, 
+										items: [
+												{ type: 'link', label: 'Getting Started', href: '/Product/Modules/Serial-to-Ethernet-Module/W7500S2E-R1/#user-guide'},
+												// 'Product/Modules/Serial-to-Ethernet-Module/WIZ750SR/getting-started-EN',
+												// 'Product/Modules/Serial-to-Ethernet-Module/WIZ750SR/getting-started-KO',
+												// 'Product/Modules/Serial-to-Ethernet-Module/WIZ750SR/trouble-shooting-EN',
+												// 'Product/Modules/Serial-to-Ethernet-Module/WIZ750SR/trouble-shooting-KO',
+												// 'Product/Modules/Serial-to-Ethernet-Module/WIZ750SR/developers-guide-EN',
+												// 'Product/Modules/Serial-to-Ethernet-Module/WIZ750SR/developers-guide-KO',
+												// 'Product/Modules/Serial-to-Ethernet-Module/WIZ750SR/modbus-connection-guide-en',
+												// 'Product/Modules/Serial-to-Ethernet-Module/WIZ750SR/modbus-connection-guide-ko',
+
+											],
+									},
+									{
+										type: 'category',
+										label: 'Software Resources',
+										link: {type: 'generated-index', slug: '/Product/Modules/Serial-to-Ethernet-Module/W7500S2E-R1/#software-resources'}, 
+										items: [
+												{ type: 'link', label: 'Config Tools', href: '/Product/Modules/Serial-to-Ethernet-Module/W7500S2E-R1/#software-resources'},
+
+										]
+									},
+								],	
+										// 'Product/Modules/Serial-to-Ethernet-Module/W7500S2E-R1/wizse_at_command',
+										// 'Product/Modules/Serial-to-Ethernet-Module/W7500S2E-R1/wizse_config_tool_55_75',
+
 							},
 							{
 								type: 'category',
 								label: 'WIZ-DTU',
 								link: {type: 'doc', id: 'Product/Modules/Serial-to-Ethernet-Module/WIZDTU/wizdtu'},
 								items: [
-										'Product/Modules/Serial-to-Ethernet-Module/WIZDTU/wizse_at_command',
-										'Product/Modules/Serial-to-Ethernet-Module/WIZDTU/wizse_config_tool_dtu',
-								],
+									{
+										type: 'category',
+										label: 'Documentation',
+										link: {type: 'generated-index', slug: '/Product/Modules/Serial-to-Ethernet-Module/WIZDTU/#documentation'}, 
+										items: [
+												{ type: 'link', label: 'User Manual', href: '/Product/Modules/Serial-to-Ethernet-Module/WIZDTU/#documentation'},
+											// 'Product/Modules/Serial-to-Ethernet-Module/WIZ750SR/users-manual-EN',
+											// 'Product/Modules/Serial-to-Ethernet-Module/WIZ750SR/users-manual-KO',
+											// 'Product/Modules/Serial-to-Ethernet-Module/WIZ750SR/datasheet',
+										],
+									},
+									{
+										type: 'category',
+										label: 'Setup & Configuration',
+										link: {type: 'generated-index', slug: '/Product/Modules/Serial-to-Ethernet-Module/WIZDTU/#setup--configuration'}, 
+										items: [
+												{ type: 'link', label: 'AT Commands', href: '/Product/Modules/Serial-to-Ethernet-Module/WIZDTU/#setup--configuration'},
+											// 'Product/Modules/Serial-to-Ethernet-Module/WIZ750SR/command-manual-EN',
+											// 'Product/Modules/Serial-to-Ethernet-Module/WIZ750SR/command-manual-KO',
+											// 'Product/Modules/Serial-to-Ethernet-Module/WIZ750SR/configuration-tool-manual-EN',
+											// 'Product/Modules/Serial-to-Ethernet-Module/WIZ750SR/configuration-tool-manual-KO',
+											// 'Product/Modules/Serial-to-Ethernet-Module/WIZ750SR/configuration-tool-manual-new-EN',
+											// 'Product/Modules/Serial-to-Ethernet-Module/WIZ750SR/configuration-tool-manual-new-KO',
+											// 'Product/Modules/Serial-to-Ethernet-Module/WIZ750SR/WIZ750SR_Web_Config_Guide_EN',
+											// 'Product/Modules/Serial-to-Ethernet-Module/WIZ750SR/WIZ750SR_Web_Config_Guide_KO',
+
+										],
+									},
+									{
+										type: 'category',
+										label: 'User Guides',
+										link: {type: 'generated-index', slug: '/Product/Modules/Serial-to-Ethernet-Module/WIZDTU/#user-guide'}, 
+										items: [
+												{ type: 'link', label: 'Getting Started', href: '/Product/Modules/Serial-to-Ethernet-Module/WIZDTU/#user-guide'},
+												// 'Product/Modules/Serial-to-Ethernet-Module/WIZ750SR/getting-started-EN',
+												// 'Product/Modules/Serial-to-Ethernet-Module/WIZ750SR/getting-started-KO',
+												// 'Product/Modules/Serial-to-Ethernet-Module/WIZ750SR/trouble-shooting-EN',
+												// 'Product/Modules/Serial-to-Ethernet-Module/WIZ750SR/trouble-shooting-KO',
+												// 'Product/Modules/Serial-to-Ethernet-Module/WIZ750SR/developers-guide-EN',
+												// 'Product/Modules/Serial-to-Ethernet-Module/WIZ750SR/developers-guide-KO',
+												// 'Product/Modules/Serial-to-Ethernet-Module/WIZ750SR/modbus-connection-guide-en',
+												// 'Product/Modules/Serial-to-Ethernet-Module/WIZ750SR/modbus-connection-guide-ko',
+
+											],
+									},
+									{
+										type: 'category',
+										label: 'Software Resources',
+										link: {type: 'generated-index', slug: '/Product/Modules/Serial-to-Ethernet-Module/WIZDTU/#software-resources'}, 
+										items: [
+												{ type: 'link', label: 'Config Tools', href: '/Product/Modules/Serial-to-Ethernet-Module/WIZDTU/#software-resources'},
+
+										]
+									},
+								],								
+								// 		'Product/Modules/Serial-to-Ethernet-Module/WIZDTU/wizse_at_command',
+								// 		'Product/Modules/Serial-to-Ethernet-Module/WIZDTU/wizse_config_tool_dtu',
 							},
 							{
 								type: 'category',
@@ -1609,8 +1823,63 @@ module.exports = {
 							label: 'WIZ-IP32',
 							link: {type: 'doc', id: 'Product/Modules/Serial-to-Ethernet-Module/WIZ-IP32/wizip32'},
 							items: [
-									'Product/Modules/Serial-to-Ethernet-Module/WIZ-IP32/wizse_at_command_32',
-									'Product/Modules/Serial-to-Ethernet-Module/WIZ-IP32/wizse_config_tool_dtu',
+									{
+										type: 'category',
+										label: 'Documentation',
+										link: {type: 'generated-index', slug: '/Product/Modules/Serial-to-Ethernet-Module/WIZ-IP32/#documentation'}, 
+										items: [
+												{ type: 'link', label: 'User Manual', href: '/Product/Modules/Serial-to-Ethernet-Module/WIZ-IP32/#documentation'},
+											// 'Product/Modules/Serial-to-Ethernet-Module/WIZ750SR/users-manual-EN',
+											// 'Product/Modules/Serial-to-Ethernet-Module/WIZ750SR/users-manual-KO',
+											// 'Product/Modules/Serial-to-Ethernet-Module/WIZ750SR/datasheet',
+
+										],
+									},
+									{
+										type: 'category',
+										label: 'Setup & Configuration',
+										link: {type: 'generated-index', slug: '/Product/Modules/Serial-to-Ethernet-Module/WIZ-IP32/#setup--configuration'}, 
+										items: [
+												{ type: 'link', label: 'AT Commands', href: '/Product/Modules/Serial-to-Ethernet-Module/WIZ-IP32/#setup--configuration'},
+											// 'Product/Modules/Serial-to-Ethernet-Module/WIZ750SR/command-manual-EN',
+											// 'Product/Modules/Serial-to-Ethernet-Module/WIZ750SR/command-manual-KO',
+											// 'Product/Modules/Serial-to-Ethernet-Module/WIZ750SR/configuration-tool-manual-EN',
+											// 'Product/Modules/Serial-to-Ethernet-Module/WIZ750SR/configuration-tool-manual-KO',
+											// 'Product/Modules/Serial-to-Ethernet-Module/WIZ750SR/configuration-tool-manual-new-EN',
+											// 'Product/Modules/Serial-to-Ethernet-Module/WIZ750SR/configuration-tool-manual-new-KO',
+											// 'Product/Modules/Serial-to-Ethernet-Module/WIZ750SR/WIZ750SR_Web_Config_Guide_EN',
+											// 'Product/Modules/Serial-to-Ethernet-Module/WIZ750SR/WIZ750SR_Web_Config_Guide_KO',
+
+										],
+									},
+									{
+										type: 'category',
+										label: 'User Guides',
+										link: {type: 'generated-index', slug: '/Product/Modules/Serial-to-Ethernet-Module/WIZ-IP32/#user-guide'}, 
+										items: [
+												{ type: 'link', label: 'Getting Started', href: '/Product/Modules/Serial-to-Ethernet-Module/WIZ-IP32/#user-guide'},
+												// 'Product/Modules/Serial-to-Ethernet-Module/WIZ750SR/getting-started-EN',
+												// 'Product/Modules/Serial-to-Ethernet-Module/WIZ750SR/getting-started-KO',
+												// 'Product/Modules/Serial-to-Ethernet-Module/WIZ750SR/trouble-shooting-EN',
+												// 'Product/Modules/Serial-to-Ethernet-Module/WIZ750SR/trouble-shooting-KO',
+												// 'Product/Modules/Serial-to-Ethernet-Module/WIZ750SR/developers-guide-EN',
+												// 'Product/Modules/Serial-to-Ethernet-Module/WIZ750SR/developers-guide-KO',
+												// 'Product/Modules/Serial-to-Ethernet-Module/WIZ750SR/modbus-connection-guide-en',
+												// 'Product/Modules/Serial-to-Ethernet-Module/WIZ750SR/modbus-connection-guide-ko',
+												
+											],
+									},
+									{
+										type: 'category',
+										label: 'Software Resources',
+										link: {type: 'generated-index', slug: '/Product/Modules/Serial-to-Ethernet-Module/WIZ-IP32/#software-resources'}, 
+										items: [
+												{ type: 'link', label: 'Config Tools', href: '/Product/Modules/Serial-to-Ethernet-Module/WIZ-IP32/#software-resources'},
+
+										]
+									},
+									// 'Product/Modules/Serial-to-Ethernet-Module/WIZ-IP32/wizse_at_command_32',
+									// 'Product/Modules/Serial-to-Ethernet-Module/WIZ-IP32/wizse_config_tool_dtu',
 								],
 							},
 							'Product/Modules/Serial-to-Ethernet-Module/WIZ-IP20/wizip20',
@@ -1619,8 +1888,61 @@ module.exports = {
 								label: 'WIZ-IP75',
 								link: {type: 'doc', id: 'Product/Modules/Serial-to-Ethernet-Module/WIZ-IP75/wizip75'},
 								items: [
-										'Product/Modules/Serial-to-Ethernet-Module/WIZ-IP75/wizse_at_command_75',
-										'Product/Modules/Serial-to-Ethernet-Module/WIZ-IP75/wizse_config_tool_55_75',
+									{
+										type: 'category',
+										label: 'Documentation',
+										link: {type: 'generated-index', slug: '/Product/Modules/Serial-to-Ethernet-Module/WIZ-IP75/#documentation'}, 
+										items: [
+												{ type: 'link', label: 'User Manual', href: '/Product/Modules/Serial-to-Ethernet-Module/WIZ-IP75/#documentation'},
+											// 'Product/Modules/Serial-to-Ethernet-Module/WIZ750SR/users-manual-EN',
+											// 'Product/Modules/Serial-to-Ethernet-Module/WIZ750SR/users-manual-KO',
+											// 'Product/Modules/Serial-to-Ethernet-Module/WIZ750SR/datasheet',
+										],
+									},
+									{
+										type: 'category',
+										label: 'Setup & Configuration',
+										link: {type: 'generated-index', slug: '/Product/Modules/Serial-to-Ethernet-Module/WIZ-IP75/#setup--configuration'}, 
+										items: [
+												{ type: 'link', label: 'AT Commands', href: '/Product/Modules/Serial-to-Ethernet-Module/WIZ-IP75/#setup--configuration'},
+											// 'Product/Modules/Serial-to-Ethernet-Module/WIZ750SR/command-manual-EN',
+											// 'Product/Modules/Serial-to-Ethernet-Module/WIZ750SR/command-manual-KO',
+											// 'Product/Modules/Serial-to-Ethernet-Module/WIZ750SR/configuration-tool-manual-EN',
+											// 'Product/Modules/Serial-to-Ethernet-Module/WIZ750SR/configuration-tool-manual-KO',
+											// 'Product/Modules/Serial-to-Ethernet-Module/WIZ750SR/configuration-tool-manual-new-EN',
+											// 'Product/Modules/Serial-to-Ethernet-Module/WIZ750SR/configuration-tool-manual-new-KO',
+											// 'Product/Modules/Serial-to-Ethernet-Module/WIZ750SR/WIZ750SR_Web_Config_Guide_EN',
+											// 'Product/Modules/Serial-to-Ethernet-Module/WIZ750SR/WIZ750SR_Web_Config_Guide_KO',
+											
+										],
+									},
+									{
+										type: 'category',
+										label: 'User Guides',
+										link: {type: 'generated-index', slug: '/Product/Modules/Serial-to-Ethernet-Module/WIZ-IP75/#user-guide'}, 
+										items: [
+												{ type: 'link', label: 'Getting Started', href: '/Product/Modules/Serial-to-Ethernet-Module/WIZ-IP75/#user-guide'},
+												// 'Product/Modules/Serial-to-Ethernet-Module/WIZ750SR/getting-started-EN',
+												// 'Product/Modules/Serial-to-Ethernet-Module/WIZ750SR/getting-started-KO',
+												// 'Product/Modules/Serial-to-Ethernet-Module/WIZ750SR/trouble-shooting-EN',
+												// 'Product/Modules/Serial-to-Ethernet-Module/WIZ750SR/trouble-shooting-KO',
+												// 'Product/Modules/Serial-to-Ethernet-Module/WIZ750SR/developers-guide-EN',
+												// 'Product/Modules/Serial-to-Ethernet-Module/WIZ750SR/developers-guide-KO',
+												// 'Product/Modules/Serial-to-Ethernet-Module/WIZ750SR/modbus-connection-guide-en',
+												// 'Product/Modules/Serial-to-Ethernet-Module/WIZ750SR/modbus-connection-guide-ko',
+												
+											],
+									},
+									{
+										type: 'category',
+										label: 'Software Resources',
+										link: {type: 'generated-index', slug: '/Product/Modules/Serial-to-Ethernet-Module/WIZ-IP75/#software-resources'}, 
+										items: [
+												{ type: 'link', label: 'Config Tools', href: '/Product/Modules/Serial-to-Ethernet-Module/WIZ-IP75/#software-resources'},
+										]
+									},
+										// 'Product/Modules/Serial-to-Ethernet-Module/WIZ-IP75/wizse_at_command_75',
+										// 'Product/Modules/Serial-to-Ethernet-Module/WIZ-IP75/wizse_config_tool_55_75',
 								],
 							},
 
