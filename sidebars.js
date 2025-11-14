@@ -1998,6 +1998,7 @@ module.exports = {
 						items: [
 							//'Product/Modules/PoE/WIZPoE-S1',
 							'Product/Modules/PoE/WIZPoE-P1',
+							'Product/Modules/PoE/WIZPoDL-P1',
 						//	'Product/Modules/PoE/raspberrypi-5-hat-poe',
 							]
 					},
