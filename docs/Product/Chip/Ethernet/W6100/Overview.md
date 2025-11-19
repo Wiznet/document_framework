@@ -113,7 +113,7 @@ DHCP, DNS, MQTT, SNTP, TFTP, HTTP Server
 | ![link](\img\link.png)[📄 AAC (KOR)](/img/products/w6100/w6100_an_autoconf_v1.0k.pdf) | How to implement Auto-Configuration | Stateless & Stateful IPv4/IPv6 address auto-configuration methods |
 | ![link](\img\link.png)[📄 AAC (ENG)](/img/products/w6100/w6100_an_autoconf_v1.0e.pdf) | How to implement Auto-Configuration | Stateless & Stateful IPv4/IPv6 address auto-configuration methods |
   :::info
-  These application notes explain how to use W5500's core networking functions including TCP, UDP, IPRAW mode, and PPPoE protocols.
+  These application notes explain how to use W6100's core networking functions including TCP, UDP, IPRAW mode, and PPPoE protocols.
   :::
 
   </TabItem>
