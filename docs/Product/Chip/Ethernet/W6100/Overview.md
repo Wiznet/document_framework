@@ -70,53 +70,55 @@ Please refer to the datasheet.
 | [📄 W6100 Datasheet (EN)](/img/products/w6100/w6100_ds_v105e.pdf) | Technical specifications and features of the W6100 chip | - |
 | [📄 W6100 Datasheet (KR)](/img/products/w6100/w6100_ds_v105k.pdf) | Technical specifications and features of the W6100 chip | - |
 
-
 ## Software Resources
 
-<Tabs groupId="software"  queryString>
-<TabItem value="driver" label="Driver" default >
+<Tabs groupId="software" queryString>
 
-  **Driver**
-The ioLibrary means "Internet Offload Library" for WIZnet chip. It includes drivers and application protocols. The ioLibrary can be used for W6100 and other chips's application designs. These will be updated continuously.
+<TabItem value="driver" label="Driver" default>
+
+**Driver**
+
+The ioLibrary means "Internet Offload Library" for WIZnet chip.  
+It includes drivers and application protocols.  
+The ioLibrary can be used for W6100 and other chips' application designs.  
+These will be updated continuously.
 
 | **Resource** | **Description** |
 |--------------|-----------------|
-| [![link](\img\link.png) ioLibrary_Driver][link-ioLibrary-Driver] | Official WIZnet driver library for W5100S and other chips |
+| [![link](\img\link.png) ioLibrary_Driver][link-ioLibrary-Driver] | Official WIZnet driver library for W5100S, W6100 and other chips |
 
-
-      :::info
-
-The ioLibrary_Driver is an MCU-independent library for WIZnet W5x00, W6x00 chips .
+:::
+The ioLibrary_Driver is an MCU-independent library for WIZnet W5x00, W6x00 chips.  
 It provides implementations of essential TCP/IP services, enabling developers to build network applications with minimal MCU dependencies.
-      ### Supported services
-DHCP, DNS, MQTT, SNTP, TFTP, HTTP Server
 
-      :::
-  
+**Supported services**  
+DHCP, DNS, MQTT, SNTP, TFTP, HTTP Server
+:::
 
 </TabItem>
 
-  <TabItem value="appnote" label="Application Note" >
+<TabItem value="appnote" label="Application Note">
 
-  **Application Note**
+**Application Note**
 
-| **Example Name**                                             | **Description**         | **Notes**                                      |
-| ------------------------------------------------------------ | ----------------------- | ---------------------------------------------- |
+| **Example Name** | **Description** | **Notes** |
+|------------------|-----------------|-----------|
 | ![link](\img\link.png)[📄 Interrupt (KOR)](/img/products/w6100/w6100_an_interrupt_v100k.pdf) | How to use Interrupt | Interrupt handling guide for W6100 |
 | ![link](\img\link.png)[📄 Interrupt (ENG)](/img/products/w6100/w6100_an_interrupt_v100e.pdf) | How to use Interrupt | Interrupt handling guide for W6100 |
 | ![link](\img\link.png)[📄 IPRAW (KOR)](/img/products/w6100/w6100_an_ipraw_v100k.pdf) | How to use IPRAW | IPRAW mode guide for raw IPv4 communication |
 | ![link](\img\link.png)[📄 IPRAW (ENG)](/img/products/w6100/w6100_an_ipraw_v100e.pdf) | How to use IPRAW | IPRAW mode guide for raw IPv4 communication |
-| ![link](\img\link.png)[📄 PSAA (KOR)](/img/products/w6100/w6100_an_psaa_v100k.pdf) | How to use PSAA | Prefer Source IPv4/IPv6 Address handling for SOCKET & SOCKET-less modes |
-| ![link](\img\link.png)[📄 PSAA (ENG)](/img/products/w6100/w6100_an_psaa_v100e.pdf) | How to use PSAA | Prefer Source IPv4/IPv6 Address handling for SOCKET & SOCKET-less modes |
-| ![link](\img\link.png)[📄 SLC (KOR)](/img/products/w6100/w6100_an_slc_v100k.pdf) | How to use SLC | SLC mode guide for Socket-less command control |
-| ![link](\img\link.png)[📄 SLC (ENG)](/img/products/w6100/w6100_an_slc_v100e.pdf) | How to use SLC | SLC mode guide for Socket-less command control |
-| ![link](\img\link.png)[📄 AAC (KOR)](/img/products/w6100/w6100_an_autoconf_v1.0k.pdf) | How to implement Auto-Configuration | Stateless & Stateful IPv4/IPv6 address auto-configuration methods |
-| ![link](\img\link.png)[📄 AAC (ENG)](/img/products/w6100/w6100_an_autoconf_v1.0e.pdf) | How to implement Auto-Configuration | Stateless & Stateful IPv4/IPv6 address auto-configuration methods |
-  :::info
-  These application notes explain how to use W6100's core networking functions including TCP, UDP, IPRAW mode, and PPPoE protocols.
-  :::
+| ![link](\img\link.png)[📄 PSAA (KOR)](/img/products/w6100/w6100_an_psaa_v100k.pdf) | How to use PSAA | Prefer Source IPv4/IPv6 Address handling |
+| ![link](\img\link.png)[📄 PSAA (ENG)](/img/products/w6100/w6100_an_psaa_v100e.pdf) | How to use PSAA | Prefer Source IPv4/IPv6 Address handling |
+| ![link](\img\link.png)[📄 SLC (KOR)](/img/products/w6100/w6100_an_slc_v100k.pdf) | How to use SLC | Socket-less command control guide |
+| ![link](\img\link.png)[📄 SLC (ENG)](/img/products/w6100/w6100_an_slc_v100e.pdf) | How to use SLC | Socket-less command control guide |
+| ![link](\img\link.png)[📄 AAC (KOR)](/img/products/w6100/w6100_an_autoconf_v1.0k.pdf) | Auto-Configuration | Stateless & Stateful IPv4/IPv6 auto-configuration |
+| ![link](\img\link.png)[📄 AAC (ENG)](/img/products/w6100/w6100_an_autoconf_v1.0e.pdf) | Auto-Configuration | Stateless & Stateful IPv4/IPv6 auto-configuration |
 
-  </TabItem>
+:::
+These application notes explain how to use W6100's core networking functions including TCP, UDP, IPRAW mode, and SLC/PSAA protocols.
+:::
+
+</TabItem>
 
 </Tabs>
 
