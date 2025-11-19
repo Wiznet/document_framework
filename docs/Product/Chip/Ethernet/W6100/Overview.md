@@ -103,16 +103,16 @@ DHCP, DNS, MQTT, SNTP, TFTP, HTTP Server
 
 | **Example Name** | **Description** | **Notes** |
 |------------------|-----------------|-----------|
-| ![link](\img\link.png)[📄 Interrupt (KOR)](/img/products/w6100/w6100_an_interrupt_v100k.pdf) | How to use Interrupt | Interrupt handling guide for W6100 |
-| ![link](\img\link.png)[📄 Interrupt (ENG)](/img/products/w6100/w6100_an_interrupt_v100e.pdf) | How to use Interrupt | Interrupt handling guide for W6100 |
-| ![link](\img\link.png)[📄 IPRAW (KOR)](/img/products/w6100/w6100_an_ipraw_v100k.pdf) | How to use IPRAW | IPRAW mode guide for raw IPv4 communication |
-| ![link](\img\link.png)[📄 IPRAW (ENG)](/img/products/w6100/w6100_an_ipraw_v100e.pdf) | How to use IPRAW | IPRAW mode guide for raw IPv4 communication |
-| ![link](\img\link.png)[📄 PSAA (KOR)](/img/products/w6100/w6100_an_psaa_v100k.pdf) | How to use PSAA | Prefer Source IPv4/IPv6 Address handling |
-| ![link](\img\link.png)[📄 PSAA (ENG)](/img/products/w6100/w6100_an_psaa_v100e.pdf) | How to use PSAA | Prefer Source IPv4/IPv6 Address handling |
-| ![link](\img\link.png)[📄 SLC (KOR)](/img/products/w6100/w6100_an_slc_v100k.pdf) | How to use SLC | Socket-less command control guide |
-| ![link](\img\link.png)[📄 SLC (ENG)](/img/products/w6100/w6100_an_slc_v100e.pdf) | How to use SLC | Socket-less command control guide |
-| ![link](\img\link.png)[📄 AAC (KOR)](/img/products/w6100/w6100_an_autoconf_v1.0k.pdf) | Auto-Configuration | Stateless & Stateful IPv4/IPv6 auto-configuration |
-| ![link](\img\link.png)[📄 AAC (ENG)](/img/products/w6100/w6100_an_autoconf_v1.0e.pdf) | Auto-Configuration | Stateless & Stateful IPv4/IPv6 auto-configuration |
+| ![link](\img\link.png)[📄 Interrupt (KOR)](/img/products/application/w6100/w6100_an_interrupt_v100k.pdf) | How to use Interrupt | Interrupt handling guide for W6100 |
+| ![link](\img\link.png)[📄 Interrupt (ENG)](/img/products/w6100/application/w6100_an_interrupt_v100e.pdf) | How to use Interrupt | Interrupt handling guide for W6100 |
+| ![link](\img\link.png)[📄 IPRAW (KOR)](/img/products/w6100/application/w6100_an_ipraw_v100k.pdf) | How to use IPRAW | IPRAW mode guide for raw IPv4 communication |
+| ![link](\img\link.png)[📄 IPRAW (ENG)](/img/products/w6100/application/w6100_an_ipraw_v100e.pdf) | How to use IPRAW | IPRAW mode guide for raw IPv4 communication |
+| ![link](\img\link.png)[📄 PSAA (KOR)](/img/products/w6100/application/w6100_an_psaa_v100k.pdf) | How to use PSAA | Prefer Source IPv4/IPv6 Address handling |
+| ![link](\img\link.png)[📄 PSAA (ENG)](/img/products/w6100/application/w6100_an_psaa_v100e.pdf) | How to use PSAA | Prefer Source IPv4/IPv6 Address handling |
+| ![link](\img\link.png)[📄 SLC (KOR)](/img/products/w6100/application/w6100_an_slc_v100k.pdf) | How to use SLC | Socket-less command control guide |
+| ![link](\img\link.png)[📄 SLC (ENG)](/img/products/w6100/application/w6100_an_slc_v100e.pdf) | How to use SLC | Socket-less command control guide |
+| ![link](\img\link.png)[📄 AAC (KOR)](/img/products/w6100/application/w6100_an_autoconf_v1.0k.pdf) | Auto-Configuration | Stateless & Stateful IPv4/IPv6 auto-configuration |
+| ![link](\img\link.png)[📄 AAC (ENG)](/img/products/w6100/application/w6100_an_autoconf_v1.0e.pdf) | Auto-Configuration | Stateless & Stateful IPv4/IPv6 auto-configuration |
 
 :::
 These application notes explain how to use W6100's core networking functions including TCP, UDP, IPRAW mode, and SLC/PSAA protocols.
