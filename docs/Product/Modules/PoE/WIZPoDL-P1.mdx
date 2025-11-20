@@ -1,0 +1,152 @@
+---
+id: WIZPoDL-P1
+title: WIZPoDL-P1
+date: 2025-11-03
+keywords:
+  - PoE
+  - SPE
+  - 10 Base-T1L
+  - WIZ750SR-T1L
+description: PoDL Module for SPE
+---
+
+import Tabs from '@theme/Tabs';
+import TabItem from '@theme/TabItem';
+
+# WIZPoDL-P1
+
+<div className="main-card">
+  <img src="/img/osh/PoE/WIZPoDL-P1/WIZPoDL-P1.png" alt="WIZPoDL-P1" />
+  <div>
+    <h3>WIZPoDL-P1</h3>
+    <br />
+    <p>
+      By using WIZPoDL-P1, you can efficiently power external applications within the 7W range without the need for a power cable, not only for Ethernet but also for various external applications.
+    </p>
+  </div>
+</div>
+
+
+## Features
+
+- Support PoDL Class 10, 11, 13
+- Support PoDL Detaction
+- Support PoDL SCCP protocol
+- Output Isolation
+- Internal build in 2 channel bridge rectifiers
+- auto polarity correction
+
+## Electrical Characteristics
+
+<Tabs groupId="electrical">
+  <TabItem value="technical" label="Technical standards" default>
+
+  |  No   | Value                 | Symbol    | Min   |  Typical  | Max  |  Units |
+  | :---: | --------------------- | :-------: | :---: | :-------: | :--: | :----: |
+  |   1   | Input Voltage         | Vpse      | 20    |           | 58   |    V   |
+  |   2   | Output Voltage        | VCC       | 4.75  |     5     | 5.25 |    V   |
+  |   3   | Output Power          | PWR       |       |     7     |      |    W   |
+  |   4   | Switching Frequency   | Freq      | 10    |           | 380  |  kHz   |
+  
+
+  </TabItem>
+  <TabItem value="electrical" label="Electrical Characteristics">
+
+
+  |  No   | Value                   | Symbol    | Min   |  Typical  | Max  |  Units |
+  | :---: | ----------------------- | :-------: | :---: | :-------: | :--: | :----: |
+  |   1   | Line Regulation         | VLINE     | TBD   |           | TBD  |    %   |
+  |   2   | Load Regulation         | VLOAD     | TBD   |           | TBD  |    %   |
+  |   3   | Output Ripple and Noise | VRN       | TBD   |           | TBD  | mVp-p  |
+  |   4   | Output Currnet          | IOUT      | TBD   |           | TBD  |   mA   |
+  |   5   | Efficiency @80% Load    | EFF       | TBD   |    TBD    | TBD  |    %   |
+
+  </TabItem>
+</Tabs>
+
+
+## Pin Information
+
+<a target="_blank" href={require('/img/osh/PoE/WIZPoDL-P1/pin.png').default}><img src={require('/img/osh/PoE/WIZPoDL-P1/pin.png').default} alt="WIZPoDL-P1" width="600" /></a>
+
+<Tabs groupId="pinout" queryString>
+
+  <TabItem value="all" label="All Pins" default>
+
+### PoDL Input - J1
+  |  No   | Value                   | Description |
+  | :---: | ----------------------- | :---------- |
+  |   1   | NC                      |  No Connect |   
+  |   2   | NC                      |  No Connect |   
+  |   3   | NC                      |  No Connect |  
+  |   4   | NC                      |  No Connect |   
+  |   5   | NC                      |  No Connect |   
+  |   6   | NC                      |  No Connect |  
+  |   7   | N   (-)| Direct Input (1). it is not polarity sensitive. WIZPoDL this pin is direct Input -|
+  |   8   | P   (+)| Direct Input (2). it is not polarity sensitive. WIZPoDL this pin is direct Input +|
+### PoDL Output - J2
+  |  No   | Value                   | Description |
+  | :---: | ----------------------- | :--------- |
+  |   1   | OUT|+5V Voltage Output|
+  |   2   | OUT|+5V Voltage Output|
+  |   3   | OUT|+5V Voltage Output|
+  |   4   | OUT|+5V Voltage Output|
+  |   5   | GND| Ground|
+  |   6   | GND| Ground|
+  |   7   | GND| Ground|
+  |   8   | GND| Ground|
+
+  </TabItem>
+
+  <TabItem value="p1" label="PoDL Input - J1">
+
+  |  No   | Value                   | Description |
+  | :---: | ----------------------- | :---------- |
+  |   1   | NC                      |  No Connect |   
+  |   2   | NC                      |  No Connect |   
+  |   3   | NC                      |  No Connect |  
+  |   4   | NC                      |  No Connect |   
+  |   5   | NC                      |  No Connect |   
+  |   6   | NC                      |  No Connect |  
+  |   7   | N   (-)| Direct Input (1). it is not polarity sensitive. WIZPoDL this pin is direct Input -|
+  |   8   | P   (+)| Direct Input (2). it is not polarity sensitive. WIZPoDL this pin is direct Input +|
+
+  </TabItem>
+  <TabItem value="p2" label="PoDL Output - J2">
+
+  |  No   | Value                   | Description |
+  | :---: | ----------------------- | :--------- |
+  |   1   | OUT|+5V Voltage Output|
+  |   2   | OUT|+5V Voltage Output|
+  |   3   | OUT|+5V Voltage Output|
+  |   4   | OUT|+5V Voltage Output|
+  |   5   | GND| Ground|
+  |   6   | GND| Ground|
+  |   7   | GND| Ground|
+  |   8   | GND| Ground|
+  </TabItem>
+</Tabs>
+
+## Mechanical Information
+
+- Dimension (Unit : mm)
+<a target="_blank" href={require('/img/osh/PoE/WIZPoDL-P1/dimension.png').default}><img src={require('/img/osh/PoE/WIZPoDL-P1/dimension.png').default} alt="wizpoe-p1-demension" width="600" /></a>
+
+<a target="_blank" href={require('/img/osh/PoE/WIZPoDL-P1/dimension-side.png').default}><img src={require('/img/osh/PoE/WIZPoDL-P1/dimension-side.png').default} alt="wizpoe-p1-demension-height" width="700" /></a>
+
+
+## Test & Certification
+
+This section provides official test results and certification documents for product compliance and safety standards.
+
+| Title | Description | Download | Notes |
+|-------|-------------|----------|-------|
+| RE | Radiated Emission | ![](\img\products\w5500\w5500_evb\icons\docs_icon_small.png) TBD |  |
+| CE | EU safety certification | ![](\img\products\w5500\w5500_evb\icons\docs_icon_small.png) TBD |  |
+
+
+## Compatible WIZnet Modules
+
+|           | Standalone |  Combined  |  MCU       | Features           |     Dimension (mm) |
+|  :-----:  | :-----:  |   :----:  | ------------- | ------------------ |  -------------- |
+| [WIZ750SR-T1L](./../Serial-to-Ethernet-Module/WIZ750SR-T1L/WIZ750SR-T1L.mdx) | <a target="_blank" href={require('/img/products/wiz750sr-t1l/wiz750sr-t1l_3d.png').default}><img src={require('/img/products/wiz750sr-t1l/wiz750sr-t1l_3d.png').default} alt="wizpoe-p1-demension" width="300" /></a> | To be Updated Soon |W7500| To be Updated Soon | 100mm x 50mm |
