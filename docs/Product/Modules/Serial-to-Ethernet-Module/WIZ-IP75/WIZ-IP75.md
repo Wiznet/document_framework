@@ -52,7 +52,7 @@ This section provides key documentation, including user manuals and datasheets, 
 
 | Title | Description | Link | Notes |
 |-------|-------------|------|-------|
-| User's Manual  | Product usage instructions | - | TBD |
+| User's Manual  | Product usage instructions | ![link](\img\docs_icon_small.png) [EN](\img\products\wiz-ip51s\WIZ-IP75_User_Manual_V1.0.pdf) | - |
 | Datasheet | Technical specifications | - | TBD |
 
 

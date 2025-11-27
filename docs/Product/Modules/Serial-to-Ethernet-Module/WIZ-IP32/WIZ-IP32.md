@@ -20,7 +20,7 @@ import TabItem from '@theme/TabItem';
   </div>
 </div>
 
-WIZ-IP32 is a industrial grade dual serial port to Ethernet module in a single Mag Jack. It supports TCP server, TCP client, UDP and Modbus modes. The maximum baud rate of the serial port is 1.152Mbps for RS232 and RS485. WIZ-DTU supports WIZS2E ConfigTool (Configuration Tool for Windows®), web page and AT command for configuring.
+WIZ-IP32 is a industrial grade dual serial port to Ethernet module in a single Mag Jack. It supports TCP server, TCP client, UDP and Modbus modes. The maximum baud rate of the serial port is 1.152Mbps for RS232 and RS485. WIZ-IP32 supports WIZS2E ConfigTool (Configuration Tool for Windows®), web page and AT command for configuring.
 
 WIZ-IP32 integrated with the hardwired TCP/IP protocol technology in W55MH32. This enables a faster, stable and secure Ethernet connectivity. With reference schematic(s) and guideline(s) in this user manual, user can simplify the design and reduce development time.
 
@@ -54,7 +54,7 @@ This section provides key documentation, including user manuals and datasheets, 
 
 | Title | Description | Link | Notes |
 |-------|-------------|------|-------|
-| User's Manual  | Product usage instructions | - | TBD |
+| User's Manual  | Product usage instructions | ![link](\img\docs_icon_small.png) [EN](\img\products\wiz-ip51s\WIZ-IP32_User_Manual_V1.0.pdf) | - |
 | Datasheet | Technical specifications | - | TBD |
 
 
