@@ -8,6 +8,9 @@ export default function Root({ children }) {
 
       const href = target.getAttribute('href');
       if (href && href.toLowerCase().endsWith('.pdf')) {
+        if (href.includes('github.com')) {
+          return;
+        }
         e.preventDefault();
         // 새 창으로 PDF viewer 열기
         window.open(`/pdf-viewer?file=${encodeURIComponent(href)}`, '_blank');
