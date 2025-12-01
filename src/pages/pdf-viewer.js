@@ -11,6 +11,10 @@ export default function PDFViewer() {
     const params = new URLSearchParams(location.search);
     const file = params.get('file');
     if (file) {
+      if (file.includes('github.com')) {
+        window.location.href = file;
+        return;
+      }
       setPdfUrl(file);
     }
 
