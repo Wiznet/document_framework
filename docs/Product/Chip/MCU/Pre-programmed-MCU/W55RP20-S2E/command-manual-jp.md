@@ -865,11 +865,11 @@ MA [00 08 DC 00 00 11] [CR] [LF] PW [HELLO] [CR] [LF] LI [192.168.11.5] [CR] [LF
 <tr class="even">
 <td align="center">3</td>
 <td>UDPモード</td>
-<td align="center">-</td>
+<td align="center">UDP ユニキャスト、ブロードキャスト、レスポンス、マルチキャスト（224.0.0.0–239.255.255.255）に対応</td>
 </tr>
 <tr class="odd">
 <td align="center">4</td>
-<td>SSL TCPClient モード</td>
+<td>SSL TCP Client モード</td>
 <td align="center">-</td>
 </tr>
 <tr class="even">

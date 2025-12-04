@@ -31,10 +31,10 @@ date: 2025-05-27
   - SSL TCPクライアント  
   - TCPミックス  
   - Modbus RTU/ASCII（TCPサーバーモードでのみ利用可能）  
-  - UDP  
+  - UDP（マルチキャストをサポート）
   - MQTTクライアント  
   - MQTTSクライアント  
-  - カスタムプロトコルのサポート（[**このリンク**](https://direct.wiznet.io/custom-firmware-request)からカスタムプロトコルリクエストを送信してください。）  
+- カスタムプロトコルのサポート（[**このリンク**](https://direct.wiznet.io/custom-firmware-request)からカスタムプロトコルリクエストを送信してください。）  
   - HTTP  
   - HTTPS  
   - CoAP  

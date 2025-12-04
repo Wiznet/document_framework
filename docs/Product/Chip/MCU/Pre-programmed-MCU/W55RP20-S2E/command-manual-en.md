@@ -936,7 +936,7 @@ Return value</th>
 <tr class="even">
 <td align="center">3</td>
 <td>UDP mode</td>
-<td align="center">-</td>
+<td align="center">UDP unicast, broadcast, response, and multicast (224.0.0.0–239.255.255.255) supported</td>
 </tr>
 <tr class="odd">
 <td align="center">4</td>

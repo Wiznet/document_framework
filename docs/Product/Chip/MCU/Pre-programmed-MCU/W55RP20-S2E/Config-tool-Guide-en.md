@@ -289,6 +289,9 @@ PC IP: 192.168.**11**.3 (another IP address in the same Class C private IP band)
         - Communicate to the set remote destination host address (domain name) and port number.
       - 1:N UDP Boradcast
         - If you set the remote host IP to 192.168.x.255, you can boardcast data to devices in the 192.168.x band that have an open remote port set on the device. 
+      - 1:N UDP Multicast
+        - Supported when the remote host IP address is set to a multicast group (224.0.0.0–239.255.255.255).
+        - Allows sending data to multiple devices that have joined the same multicast group.
       -  1:N UDP Response mode
          - Available when Remote host IP is set to 0.0.0.0
         - Can send data to the destination from which it was sent<br /> The destination address changes to the new destination address when data is received from another destination

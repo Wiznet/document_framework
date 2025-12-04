@@ -40,7 +40,7 @@ The **W55RP20-S2E** is a pre-programmed product with an Serial to Ethernet FW an
     - SSL TCP Client
     - TCP Mixed
     - Modbus RTU/ASCII (available only in TCP Server mode)
-    - UDP
+    - UDP (multicast supported)
     - MQTT Client
     - MQTTS Client
   - Support custom protocols (Please submit custom protocol requests via [**this link**](https://direct.wiznet.io/custom-firmware-request).)
