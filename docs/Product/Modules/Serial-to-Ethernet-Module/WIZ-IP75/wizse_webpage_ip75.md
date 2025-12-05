@@ -8,7 +8,7 @@ date: 2025-08-20
 
 # WIZ-IP75 Web Configuration
 
-WIZ-IP75  supports web page configuration. We recommend using Chrome or Firefox. Other browsers may have display or functional issues. Let's take Chrome browser as an example to illustrate.
+WIZ-IP75  supports web page configuration. We recommend using Chrome or Firefox. Other browsers may have display or functional issues. Let's take Chrome browser as an example to demonstrate.
 
 Before using web configuration, it is necessary to ensure that WIZ-IP75  can be accessed correctly. That is, if configuring within a local area network, WIZ-IP75  needs to be on the same network segment as the computer. If configuring remotely, WIZ-IP75  needs to be mapped to a public IP. Taking the local area network as an example for configuration, the specific configuration method is introduced as follows.
 
@@ -17,7 +17,7 @@ Before using web configuration, it is necessary to ensure that WIZ-IP75  can be 
 ## Webpage Setting list
 
 ### Basic Settings list
-<a name="network"></a>
+
 
 | [Network Setting](#network-setting) | Descriptions              | Default           |
 | --------------------------------------------------------- | ------------------------- | ----------------- |
@@ -28,7 +28,7 @@ Before using web configuration, it is necessary to ensure that WIZ-IP75  can be 
 | Gateway                                                   | Gateway                   | 192.168.1.1       |
 | DNS Server                                                | DNS server IP address     | 114.114.114.114   |
 
-<a name="socket"></a> 
+
 | [Socket Setting](#socket-setting)| Descriptions                                  | Default           |
 | ------------------------------------------------------ | --------------------------------------------- | ----------------- |
 | Start mode                                             | "AT Command Mode" or "Data pass-through mode" | AT Command Mode   |
@@ -38,10 +38,10 @@ Before using web configuration, it is necessary to ensure that WIZ-IP75  can be 
 | Local Port                                             | Local port number (0~65535, avoid used port)  | 5000              |
 | Bind Local Port                                        | Only valid in TCP client mode                 | Disable (uncheck) |
 
-<a name="uart"></a>
+
 | [UART Setting](#uart-setting) | Descriptions            | Default |
 | ------------------------------------------------ | ----------------------- | ------- |
-| Baud Rate                                        | 1200 bps ~ 1,152,000bps | 115,200 |
+| Baud Rate                                        | 1200 bps ~ 460,800bps 	 | 115,200 |
 | Data Bit                                         | 7 or 8 bits             | 8       |
 | Parity                                           | NONE, ODD or EVEN       | NONE    |
 | Stop Bit                                         | 1 or 2 bits             | 1       |
@@ -49,40 +49,54 @@ Before using web configuration, it is necessary to ensure that WIZ-IP75  can be 
 
 ### Advance Options
 
-<a name="device"></a>
+
 | [Device Options](#device-options) | Descriptions                     | Default           |
 | ------------------------------------------------------ | -------------------------------- | ----------------- |
 | Device Name                                            | Set/Display the module name      | Module Name       |
 | Use NETBIOS                                            | Enable/Disable NetBIOS function  | Disable (uncheck) |
 | HTTP Port                                              | Set/Display the HTTP port number | 80                |
 
-<a name="package"></a>
+
 | [Serial Data Packing Conditions](#serial-data-packing-conditions) | Descriptions                               | Default |
 | ------------------------------------------------------------ | ------------------------------------------ | ------- |
 | by Nagle Waiting Time (ms)                                   | Ethernet packets separate by time interval | 0       |
 | by Data Length (byte)                                        | Ethernet packets separate by Data length   | 0       |
 
-<a name="tcpconnection"></a>
+
 | [TCP Connection Options](#tcp-connection-options) | Descriptions                                                 | Default  |
 | ------------------------------------------------------------ | ------------------------------------------------------------ | -------- |
 | TCP Reconnection Time (ms)                                   | TCP reconnection time                                        | 0        |
 | Inactivity Time (ms)                                         | TCP inactivity time                                          | 0        |
 | Keep Alive Time (5s)                                         | TCP keep alive time                                          | 0        |
-| Clear Buffer if connected                                    | Clear Serial port buffer when Power on or Serial data Received | Power on |
+| Clear Buffer if connected                                    | Clear Serial port buffer when it connects to TCP 			  | Disable (uncheck) |
+| Connect TCP Server When  									   | Connect TCP server when Power on or Serial data received     | Power On          |
 
-<a name="security"></a>
+
 | [Security Options](#security-options) | Descriptions                         | Default    |
 | ------------------------------------------------------------ | ------------------------------------ | ---------- |
 | Request Admin Password                                       | Verification password for connection | No         |
 | Auto Message (First Packet)                                  | Auto message from the module         | No Message |
 
-<a name="serialoutput"></a>
+
 | [Serial Output Messages Enable/Disable](#serial-output-messages-enabledisable) | Descriptions          | Default          |
 | ------------------------------------------------------------ | --------------------- | ---------------- |
 | Show Debug Message                                           | Display debug message | Enable (checked) |
 | Echo in AT Mode                                              | Echo your inputs      | Enable (checked) |
 
+### Management list
 
+| [Change Admin Password](#change-admin-password) | Descriptions                                  | Default |
+| ----------------------------------------------- | --------------------------------------------- | ------- |
+| Old Password                                    | The default password or the previous password | admin   |
+| New Password                                    | Type in new password, Max 15 bytes 			  | -       |
+| Confirm New Password                            | Retype the new password 				      | -       |
+
+
+| [Factory Reset or Reset Your Device](#factory-reset-or-reset-your-device) | Descriptions                                  | Default |
+| ------------------------------------------------------------------------- | --------------------------------------------- | ------- |
+| Default                                  									| Reset module back to factory settings     	| - 	  |
+| Reset                                   									| Reset module without saving configuration  	| -       |
+| Logout                            										| Logout and back to login page 				| -       |
 
 ---
 
@@ -104,10 +118,14 @@ The default login password is “**admin**”. Click "Login" to log in and enter
 
 As shown in the figure below, it is the basic information page after logging in to the WIZ-IP75  configuration page. If you need to log out, click the "Logout" link in the upper right corner. This page provides an overview of the basic configuration information for WIZ-IP75 .
 
-|                                                        |
-| ------------------------------------------------------ |
-| ![](/img/products/w5500s2e-z1/web_device_overview.png) |
-| **Figure:** Basic Information Page                     |
+|                                                           |
+| --------------------------------------------------------- |
+| ![](/img/products/w5500s2e-z1/web_device_overview_r1.png) |
+| **Figure:** Basic Information Page                        |
+
+<a href="#webpage-setting-list">
+  <button>Back to top</button>
+</a>
 
 ---
 
@@ -115,10 +133,10 @@ As shown in the figure below, it is the basic information page after logging in 
 
 As shown in the following figure, it is the WIZ-IP75  basic parameter configuration page,which is divided into following parts for explanation.
 
-|                                                      |
-| ---------------------------------------------------- |
-| ![](/img/products/w5500s2e-z1/web_basic_setting.png) |
-| **Figure:** Basic Configuration Page                 |
+|                                                         |
+| ------------------------------------------------------- |
+| ![](/img/products/w5500s2e-z1/web_basic_setting_r1.png) |
+| **Figure:** Basic Configuration Page                    |
 
 ### Network setting 
 
@@ -129,7 +147,7 @@ As shown in the following figure, it is the WIZ-IP75  basic parameter configurat
 - **Gateway :** Display/set module gateway, **default is 192.168.1.1**
 - **DNS Server :** Display/set module DNS server address, **default is 114.114.114.114**
 
-<a href="#network">
+<a href="#basic-settings-list">
   <button>Back</button>
 </a>
 
@@ -142,21 +160,21 @@ As shown in the following figure, it is the WIZ-IP75  basic parameter configurat
 - **Local Port:** Displays/sets the local port number. **The default is 5000**, and the range is from 0 to 65535.
 - **Bind Local Port:** Binds the local port number. When checked, it enables the function of binding the local port number. This is effective when the module runs in TCP Client mode.
 
-<span style={{ color: 'red' }}>**Note:** Some protocols in the Ethernet protocol have default port numbers. These port numbers should be avoided. The default occupied port numbers can be found in the </span> [appendix](wizse_at_command#appendix).
+<span style={{ color: 'red' }}>**Note:** Some protocols in the Ethernet protocol have default port numbers. These port numbers should be avoided. The default occupied port numbers can be found in the </span> [appendix](wizse_at_command_ip75#appendix).
 
-<a href="#socket">
+<a href="#basic-settings-list">
   <button>Back</button>
 </a>
 
 ### UART Setting
 
-- **Baud Rate:** Displays/sets the serial port baud rate. **The default is 115200**. Users can select 16 common baud rate values ranging from 1200bps to 1.152Mbps.
+- **Baud Rate:** Displays/sets the serial port baud rate. **The default is 115200**. Users can select 16 common baud rate values ranging from 1200bps to 460,800bps.
 - **Data Bit:** Displays/sets the data bits of the serial port. **The default is 8**. It can be set to 7 or 8.
 - **Parity:** Displays/sets the parity bit of the serial port. **The default is NONE**. It can be set to NONE, ODD, or EVEN.
 - **Stop Bit:** Displays/sets the stop bits of the serial port. **The default is 1**. It can be set to 1 or 2.
 - **Flow Control:** Serial port flow control function configuration. **The default is NONE**. It can be set to NONE or CTS/RTS.
 
-<a href="#uart">
+<a href="#basic-settings-list">
   <button>Back</button>
 </a>
 
@@ -178,16 +196,20 @@ Click this button to restart the module. Note that this does not save any unsave
 | ![](/img/products/w5500s2e-z1/web_reset.png) |
 | **Figure:** Web Prompt - Reset               |
 
+<a href="#basic-settings-list">
+  <button>Back</button>
+</a>
+
 ---
 
 ## Advanced options
 
 As shown in the figure below, it is the advanced configuration page of WIZ-IP75 . The following is a detailed explanation:
 
-|                                                           |
-| --------------------------------------------------------- |
-| ![img](/img/products/w5500s2e-z1/web_advance_options.png) |
-| **Figure:** User Advanced Configuration Page              |
+|                                                              |
+| ------------------------------------------------------------ |
+| ![img](/img/products/w5500s2e-z1/web_advance_options_r1.png) |
+| **Figure:** User Advanced Configuration Page                 |
 
 ### Device Options
 
@@ -197,7 +219,7 @@ As shown in the figure below, it is the advanced configuration page of WIZ-IP75 
 
 **HTTP Port:** Set/Display the port number of the Web server of WIZ-IP75 . **The default is 80.** It is not recommended to change it. The range of values is 0 to 65,535. If not set to 80, then in the browser address bar, it should be entered as "IP:Port", for example: 192.168.1.88:8000.
 
-<a href="#device">
+<a href="#advance-options">
   <button>Back</button>
 </a>
 
@@ -207,7 +229,7 @@ As shown in the figure below, it is the advanced configuration page of WIZ-IP75 
 
 **by Data Length (byte):** This option sets and displays the byte length of the serial port data packets. The device serial port input data is packaged according to the byte length and converted into Ethernet packets for transmission. **The default value is 0 (no packetization)**, and the maximum value is 2048 bytes.
 
-<a href="#package">
+<a href="#advance-options">
   <button>Back</button>
 </a>
 
@@ -219,9 +241,11 @@ As shown in the figure below, it is the advanced configuration page of WIZ-IP75 
 
 **Keep Alive Time (5s):** Online time. This option is effective when the device is in TCP mode. The range of values is from 0 to 65536, with units of 5s. **The default value is 0 (this function is disabled).**
 
-**Clear Buffer if connected:** Whether to clear the serial port Buffer after connection establishment. This option is effective when TCP is used. It can be set as "Power on" to establish the connection immediately after power-on (default) or "Serial data received" to establish the connection after receiving data on the serial port. **The default value is Power on.**
+**Clear Buffer if connected:** Whether to clear the serial port Buffer after connection establishment. This option will only be activated when it is enabled (checked) and the module is working TCP modes. **The default is disabled (unchecked)** 
 
-<a href="#tcpconnection">
+**Connect TCP Server When:** In TCP client mode, the user could choose the pirority for TCP client to connect the Server. It can be set as "Power on" to establish the connection immediately after "power-on" or wait until "Serial data received" to establish the connection after receiving data from the serial port. **The default is power-on**.
+
+<a href="#advance-options">
   <button>Back</button>
 </a>
 
@@ -231,7 +255,7 @@ As shown in the figure below, it is the advanced configuration page of WIZ-IP75 
 
 **Auto Message (First Packet):** Sends information after connection establishment. It is effective in TCP mode. You can choose "**No message" to not send information (default)**, "Send Device Name" to send the device name, "Send MAC Address" to send the device MAC address, or "Send IP Address" to send the device IP address.
 
-<a href="#security">
+<a href="#advance-options">
   <button>Back</button>
 </a>
 
@@ -241,7 +265,9 @@ As shown in the figure below, it is the advanced configuration page of WIZ-IP75 
 
 **Echo in AT Mode:** Enable the AT command echo function. The echo function means that the WIZ-IP75 module returns the input command exactly as it is to the serial port and then displays it on the serial port software interface. When users use the serial port software to configure the module, enabling the echo function helps users configure it conveniently. However, when using single-chip microcontrollers or other embedded devices to configure the module, enabling the echo function will cause problems. In this case, the echo function must be turned off. **By default, this option is checked to enable the echo function.**
 
-<a href="#serialoutput">
+For saving your configured setups, please refer to "[Save Settings](#save-settings)" section. 
+
+<a href="#advance-options">
   <button>Back</button>
 </a>
 
@@ -251,10 +277,10 @@ As shown in the figure below, it is the advanced configuration page of WIZ-IP75 
 
 Click on "Management" to enter the device management page, as shown in the following figure. There are two sections as follows:
 
-|                                                   |
-| ------------------------------------------------- |
-| ![](/img/products/w5500s2e-z1/web_management.png) |
-| **Figure:** Equipment Management Page             |
+|                                                      |
+| ---------------------------------------------------- |
+| ![](/img/products/w5500s2e-z1/web_management_r1.png) |
+| **Figure:** Equipment Management Page                |
 
 ### Change Admin Password
 
@@ -270,6 +296,10 @@ Click on "Management" to enter the device management page, as shown in the follo
 | ------------------------------------------------------------ |
 | ![](/img/products/w5500s2e-z1/web_password.png)              |
 | **Figure:** Webpage message - Module password modification successful |
+
+<a href="#management-list">
+  <button>Back</button>
+</a>
 
 ### Factory Reset or Reset Your Device
 
@@ -294,7 +324,9 @@ Click on "Management" to enter the device management page, as shown in the follo
 | ![](/img/products/w5500s2e-z1/web_logout.png) |
 | **Figure:** Web Prompt - Logout               |
 
-
+<a href="#management-list">
+  <button>Back</button>
+</a>
 
  
 

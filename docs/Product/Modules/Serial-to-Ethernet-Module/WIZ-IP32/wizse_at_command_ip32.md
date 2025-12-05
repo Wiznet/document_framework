@@ -1,5 +1,5 @@
 ---
-id: wizse_at_command_32
+id: wizse_at_command_ip32
 title: WIZse AT Command
 date: 2025-08-20
 
@@ -133,7 +133,7 @@ The following are the information for WIZ-IP32:
 | [C[CH]_CLI_PP1](#cch_cli_pp1remote-host-port-number)         | Remote  host port number                      | RW        | 5          | 1~65535；  **Default: 5000**                                 |
 | [C[CH]_DOMAIN](#cch_domainremote-host-name) <a name = "at3"></a> | Remote  host domain name                      | RW        | 32         | **Default**: www.w5500.com                                   |
 | [C[CH]_RECONTIME](#cch_recontimereconnection-interval)       | Reconnect  time                               | RW        | 5          | Valid  for TCP client The value range is: 0~60000 Unit: ms **Default: 0 (reconnect  immediately)** |
-| [NETBIOS](#netbiosnetbios)                                   | NetBIOS  functionality                        | RW        | 1          | **0:  Disable NetBIOS function (default)** 1: Enable NetBIOS functionality |
+| [NETBIOS](#netbiosnetbios)                                   | NetBIOS  functionality                        | RW        | 1          | 0:  Disable NetBIOS function (default) **1: Enable NetBIOS functionality** |
 | [COM[CH]](#comch-serial-parameters)                          | Serial  port parameters                       | RW        | 10         | **Default:  9,1,0,1,0**                                      |
 | [C[CH]_BAUD](#cch_baudbaud-rate)                             | Baud  rate                                    | RW        | 2          | 0:  1200； 1: 2400； 2: 4800 3: 9600； 4: 14400； 5: 19200 6: 38400； 7: 56000； 8:  57600 **9: 115200 (default)**; 10: 128000 11: 234000； 12: 256000； 13: 468000 14:  921600； 15: 1152000 |
 | [C[CH]_DATAB](#cch_databdata-bit)                            | Data  bits                                    | RW        | 1          | 0:7  digits **1: 8-bit (default)**                           |
@@ -689,8 +689,8 @@ The following are the information for WIZ-IP32:
 | **Command format**                                           | **Parameters**                                               | **Function  Description** |
 | ------------------------------------------------------------ | ------------------------------------------------------------ | ------------------------- |
 | AT+NETBIOS?                                                  | Nil                                                          | Query current value       |
-| AT+NETBIOS=<span style={{ color: 'blue' }}>**Parameters**</span> | **0: Disable NetBIOS function (default)**                    | Set new value             |
-|                                                              | 1: Enable NetBIOS functionality                              |                           |
+| AT+NETBIOS=<span style={{ color: 'blue' }}>**Parameters**</span> | 0: Disable NetBIOS function (default)                        | Set new value             |
+|                                                              | **1: Enable NetBIOS functionality**                          |                           |
 | Response                                                     | [NETBIOS] Value is:<span style={{ color: 'green' }}>**Value**</span>\r\nOK\r\n |                           |
 | Example                                                      | Command: AT+NETBIOS=1\r\n                                    |                           |
 |                                                              | Response: [NETBIOS] Value is: 1\r\nOK\r\n                    |                           |
@@ -1486,6 +1486,6 @@ By setting this parameter, it disconnects the TCP connection when the serial or 
 | IPX                            | 213     |
 | Reserve                        | 160~223 |
 
- <a href="#at"><button>Back</button></a> <a href="#C[CH]_portlocal-port-number"><button>C[CH]_PORT</button></a> <a href="#C[CH]_cli_pp1remote-host-port-number"><button>C[CH]_CLI_PPL</button></a> <a href="#web_portweb-port-number"><button>WEB_PORT</button></a>
+ <a href="#at"><button>Back</button></a> <a href="#cch_portlocal-port-number"><button>C[CH]_PORT</button></a> <a href="#cch_cli_pp1remote-host-port-number"><button>C[CH]_CLI_PP1</button></a> <a href="#web_portweb-port-number"><button>WEB_PORT</button></a><a href="wizse_webpage_ip32"><button>Webpage Socket Settings</button></a> <a href="wizse_config_tool_ip32"><button>Configuration tools</button></a>
 
 ---

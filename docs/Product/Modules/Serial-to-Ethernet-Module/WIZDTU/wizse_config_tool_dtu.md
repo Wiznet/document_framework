@@ -1,12 +1,12 @@
 ---
-id: wizse_config_tool_ip32
+id: wizse_config_tool_dtu
 title: WIZse Config tool
 date: 2025-09-05
 ---
 
 # WIZS2E Config Tool software configuration
 
-WIZS2E Config Tool is an upper computer configuration software that runs on the Windows operating system and is compatible with WIZ-DTU, WIZ-IP32, W5500S2E and W7500S2E series serial to Ethernet modules. Users can easily search, view, and configure various functions and information of WIZ-IP32 serial to Ethernet converter through WIZS2E Config Tool.
+WIZS2E Config Tool is an upper computer configuration software that runs on the Windows operating system and is compatible with WIZ-DTU, WIZ-IP32, W5500S2E and W7500S2E series serial to Ethernet modules. Users can easily search, view, and configure various functions and information of WIZ-DTU serial to Ethernet converter through WIZS2E Config Tool.
 
 <span style={{ color: 'red' }}>**Note**: Before configuring, it is recommended to turn off the firewall and ensure that all module IP addresses within the local area network do not conflict.</span>
 
@@ -25,9 +25,9 @@ WIZS2E Config Tool is an upper computer configuration software that runs on the 
 
 3. Module Configuration - All configuration settings of the module. 
 
-For WIZ-IP32, it includes Basic Settings and Channel1 configurations.
+For WIZ-DTU converter, it includes Basic Settings and Channel1 configurations.
 
-The following are the list for all configurables for WIZ-IP32 .
+The following are the list for all configurables for WIZ-DTU converter.
 
 ### Basic Settings Tab
 
@@ -120,7 +120,7 @@ Users can first click "Update IP list!" to update the network card list and sele
 
 **4. Upload Firmware button** ![](/img/products/w5500s2e-z1/uploadfirmware.png) - Upload a module application firmware bin file to the module 
 
-<span style={{ color: 'red' }}>**Note:** The firmware must be the [Application firmware](../WIZ-IP32#software-resources) for WIZ-IP32 provided by WIZnet officially.</span> 
+<span style={{ color: 'red' }}>**Note:** The firmware must be the [Application firmware](../WIZDTU#software-resources)  for WIZ-DTU provided by WIZnet officially.</span> 
 
 Procedure for uploading the firmware:
 
@@ -187,7 +187,7 @@ Device list will show all the WIZSE modules within the same network segments. Th
 
 ## Basic Settings
 
-As shown in the following figure, these are the basic parameter for WIZ-IP32, which is divided into two parts for explanation.
+As shown in the following figure, these are the basic parameter for WIZ-DTU, which is divided into two parts for explanation.
 
 |                                                          |
 | ----------------------------------------------           |
@@ -225,17 +225,17 @@ As shown in the following figure, these are the basic parameter for WIZ-IP32, wh
 
 - **Show Debug Message** -  Display module debugging information. Checking this option will print the module debugging information from the serial port. **It is enabled by default.**
 
-- **Echo in AT Mode** -  Enable the AT command echo function. The echo function means that the WIZ-IP32 returns the input command exactly as it is to the serial port and then displays it on the serial port software interface. When users use the serial port software to configure the module, enabling the echo function helps users configure it conveniently. However, when using single-chip microcontrollers or other embedded devices to configure the module, enabling the echo function will cause problems. In this case, the echo function must be turned off. **By default, this option is checked to enable the echo function.**
+- **Echo in AT Mode** -  Enable the AT command echo function. The echo function means that the WIZ-DTU returns the input command exactly as it is to the serial port and then displays it on the serial port software interface. When users use the serial port software to configure the module, enabling the echo function helps users configure it conveniently. However, when using single-chip microcontrollers or other embedded devices to configure the module, enabling the echo function will cause problems. In this case, the echo function must be turned off. **By default, this option is checked to enable the echo function.**
 
 - **Device Name** - Set/Display the module name. It must consist of numbers, letters, or a combination of both, and cannot be empty. Case sensitivity is applied. The maximum length is 15 bytes. **The default is the module name.**
 
-- **Use NETBIOS** - Enable the NetBIOS function option. When checked, the NetBIOS function will be enabled. **By default, it is enabled.** After enabling the NetBIOS function, users can directly access the built-in web page of WIZ-IP32 by entering "http:// module name" in the browser address bar.
+- **Use NETBIOS** - Enable the NetBIOS function option. When checked, the NetBIOS function will be enabled. **By default, it is enabled.** After enabling the NetBIOS function, users can directly access the built-in web page of WIZ-DTU by entering "http:// module name" in the browser address bar.
 
 - **Pasword** - The current password for the module will not be displayed. User could change a new password directly without entering the previous password. **The default password is "admin"**.
 
 - **Entering Mode after power on or reset** - The list box beneath password section. User could choose AT command or Data mode (Transparent transmission) after the module has turned on or reset. **The default mode is AT command mode**.
 
-- **Embedded Web Server Port** - Set/Display the port number of the Web server of WIZ-IP32. **The default is 80.** It is not recommended to change it. The range of values is 0 to 65,535. If it is not set to 80, then it is required to add the web server port on the browser address bar. For example: 192.168.1.88:8000.
+- **Embedded Web Server Port** - Set/Display the port number of the Web server of WIZ-DTU. **The default is 80.** It is not recommended to change it. The range of values is 0 to 65,535. If it is not set to 80, then it is required to add the web server port on the browser address bar. For example: 192.168.1.88:8000.
 
 <a href="#basic-settings-tab">
   <button>Back</button>
@@ -245,7 +245,7 @@ As shown in the following figure, these are the basic parameter for WIZ-IP32, wh
 
 ## Channel1 
 
-As shown in the following figure, these are the TCP and Serial setups for WIZ-IP32, which is divided into four parts for explanation.
+As shown in the following figure, these are the TCP and Serial setups for WIZ-DTU, which is divided into four parts for explanation.
 
 |                                                          |
 | ----------------------------------------------           |
@@ -290,7 +290,7 @@ As shown in the following figure, these are the TCP and Serial setups for WIZ-IP
 
 - **Remote Port** - Displays/sets the port number of the remote host. The text box will be unlocked when the module is operating in TCP Client and UDP modes **The default is 5000 and the text box is locked**. The range is 0 to 65535.
 
-<span style={{ color: 'red' }}>**Note:** Some protocols in the Ethernet protocol have default port numbers. These port numbers should be avoided. The default occupied port numbers can be found in the </span> [appendix](wizse_at_command_ip32#appendix).
+<span style={{ color: 'red' }}>**Note:** Some protocols in the Ethernet protocol have default port numbers. These port numbers should be avoided. The default occupied port numbers can be found in the </span> [appendix](wizse_at_command_dtu#appendix).
 
 <a href="#channel1-and-channel2-tab">
   <button>Back</button>
@@ -318,7 +318,7 @@ As shown in the following figure, these are the TCP and Serial setups for WIZ-IP
 
 ### Modbus
 
-- **Enable Modbus** - Checkbox to enable/disable the Modbus Feature for WIZ-IP32. **The default is disbale (unchecked)**.
+- **Enable Modbus** - Checkbox to enable/disable the Modbus Feature for WIZ-DTU. **The default is disbale (unchecked)**.
 
 - **Work as** - The list box after the Modbus enable selection. it allows user to choose the Modbus to operate in "Modbus RTU" or **"Modbus ASCII". The default is "Modbus RTU" and it is disable (unchecked)**. 
 

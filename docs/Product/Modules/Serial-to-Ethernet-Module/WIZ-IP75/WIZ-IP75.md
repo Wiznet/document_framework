@@ -63,9 +63,9 @@ Learn how to use various tools and interfaces—including command manuals, confi
 
 | Title | Description | Link | Notes |
 |-------|-------------|------|-------|
-| Command Manual | Guide to main commands and usage | ![link](\img\link.png)[EN](./wizse_at_command_75) | - |
-| Configuration Tool Manual | How to use the configuration tool | ![link](\img\link.png)[EN](./wizse_config_tool_55_75) | - |
-| Web Server Configuration Guide | Web-based configuration guide | - | TBD |
+| Command Manual | Guide to main commands and usage | ![link](\img\link.png)[EN](./wizse_at_command_ip75.md) | - |
+| Configuration Tool Manual | How to use the configuration tool | ![link](\img\link.png)[EN](./wizse_config_tool_ip75.md) | - |
+| Web Server Configuration Guide | Web-based configuration guide | ![link](\img\link.png)[EN](./wizse_webpage_ip75.md) | - |
 | CLI Config Tool Tutorial | CLI-based configuration tool tutorial | - | TBD |
 
 

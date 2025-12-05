@@ -1,5 +1,5 @@
 ---
-id: wizse_at_command
+id: wizse_at_command_s1
 title: WIZse AT Command
 date: 2025-08-20
 
@@ -1462,7 +1462,7 @@ By setting this parameter, it disconnects the TCP connection when the serial or 
 | IPX                            | 213     |
 | Reserve                        | 160~223 |
 
- <a href="#at"><button>Back</button></a> <a href="#c1_portlocal-port-number"><button>C1_PORT</button></a> <a href="#c1_cli_pp1remote-host-port-number"><button>C1_CLI_PPL</button></a> <a href="#web_portweb-port-number"><button>WEB_PORT</button></a><a href="wizse_webpage#basic-settings"><button>Webpage Basic settings</button></a>
+ <a href="#at"><button>Back</button></a> <a href="#c1_portlocal-port-number"><button>C1_PORT</button></a> <a href="#c1_cli_pp1remote-host-port-number"><button>C1_CLI_PP1</button></a> <a href="#web_portweb-port-number"><button>WEB_PORT</button></a> <a href="wizse_webpage_s1"><button>Webpage Configuration</button></a> <a href="wizse_config_tool_s1"><button>Configuration tools</button></a>
 
 
 
