@@ -89,7 +89,7 @@ This section provides essential software resources, including configuration tool
       
 | Title | Description | Download | Notes |
 |-------|-------------|----------|-------|
-| WIZnet S2E Configuration Tool | WIZnet device search, configuration, and firmware upload tool | ![download](/img/products/w5500/w5500_evb/icons/download.png) [.exe only](/img/products/wiz-ip51s/wizs2e_configtool_v1.0.1.3.zip) | - |
+| WIZnet S2E Configuration Tool | WIZnet device search, configuration, and firmware upload tool | ![download](/img/products/w5500/w5500_evb/icons/download.png) [.exe only](/img/products/w5500s2e-z1/wizs2e_configtool_v1.0.1.3.zip) | - |
 
   :::info
 

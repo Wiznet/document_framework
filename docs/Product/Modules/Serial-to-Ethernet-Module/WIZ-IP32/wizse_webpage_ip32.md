@@ -134,14 +134,14 @@ Open the Chrome browser, enter the WIZ-IP32  module's IP address in the address 
 
 |                                         |
 | --------------------------------------- |
-| ![](/img/products/wizdtu/web_login.png) |
+| ![](/img/products/w5500s2e-z1/web_login.png) |
 | **Figure:** Web login interface         |
 
 The default login password is “**admin**”. Click "Login" to log in and enter the WIZ-IP32  homepage. It should be noted that after logging into the WIZ-IP32  webpage, in order to ensure the security of module information, if the user does not take any action within 5 minutes, they need to log in again, as shown in the following figure.
 
 |                                           |
 | ----------------------------------------- |
-| ![](/img/products/wizdtu/web_timeout.png) |
+| ![](/img/products/w5500s2e-z1/web_timeout.png) |
 | **Figure:** Web Prompt - Login Timeout    |
 
 As shown in the figure below, it is the basic information page after logging in to the WIZ-IP32  configuration page. If you need to log out, click the "Logout" link in the upper right corner. This page provides an overview of the basic configuration information for WIZ-IP32 .
@@ -207,7 +207,7 @@ Click the "Save Settings" button. The webpage will indicate that the settings we
 
 |                                                 |
 | ----------------------------------------------- |
-| ![](/img/products/wizdtu/web_saved_setting.png) |
+| ![](/img/products/w5500s2e-z1/web_saved_setting.png) |
 | **Figure:** Web Prompt - Save Successful        |
 
 ### Reset 
@@ -216,7 +216,7 @@ Click this button to restart the module. Note that this does not save any unsave
 
 |                                         |
 | --------------------------------------- |
-| ![](/img/products/wizdtu/web_reset.png) |
+| ![](/img/products/w5500s2e-z1/web_reset.png) |
 | **Figure:** Web Prompt - Reset          |
 
 <a href="#basic-settings-list">
@@ -348,7 +348,7 @@ Click on "Management" to enter the device management page, as shown in the follo
 
 |                                                              |
 | ------------------------------------------------------------ |
-| ![](/img/products/wizdtu/web_password.png)                   |
+| ![](/img/products/w5500s2e-z1/web_password.png)                   |
 | **Figure:** Webpage message - Module password modification successful |
 
 <a href="#management-list">
@@ -360,21 +360,21 @@ Click on "Management" to enter the device management page, as shown in the follo
 
 |                                                       |
 | ----------------------------------------------------- |
-| ![img](/img/products/wizdtu/web_factory_reset.png)    |
+| ![img](/img/products/w5500s2e-z1/web_factory_reset.png)    |
 | **Figure:** Webpage prompt - Restore factory settings |
 
 **Reset Device:** Reset Button to reset the module. It reset the module without saving any unsaved configuration. It shows the following window, click 'OK' and it will jump to the login page after reset.
 
 |                                         |
 | --------------------------------------- |
-| ![](/img/products/wizdtu/web_reset.png) |
+| ![](/img/products/w5500s2e-z1/web_reset.png) |
 | **Figure:** Web Prompt - Reset          |
 
 **Logout:** Logout Button to logout the WIZ-IP32  configuration page. It shows the following window, click "Ok' will jump to login page.
 
 |                                          |
 | ---------------------------------------- |
-| ![](/img/products/wizdtu/web_logout.png) |
+| ![](/img/products/w5500s2e-z1/web_logout.png) |
 | **Figure:** Web Prompt - Logout          |
 
 <a href="#management-list">

@@ -112,7 +112,7 @@ The following are the information for W5500S2E:
 | [AT](#atterminal-check)                                      | Terminal  detection                           | R         | -          | -                                                            |
 | [ECHO](#echoenable-or-disable-echoing)                       | Feedback                                      | RW        | 1          | 0:  Turn off echo display **1: Open echo (default)**         |
 | [DEBUGMSGEN](#debugmsgendebug-message)                       | Debug  information                            | RW        | 1          | 0:  Close debugging information **1: Enable debugging information (default)** |
-| [NAME](#namemodule-name)                                     | Equipment  name                               | RW        | 15         | It  must be a number, letter, or a combination of both       |
+| [NAME](#namemodule-name)                                     | Equipment  name                               | RW        | 15         | Must be a number, letter, or a combination of both       |
 | [PASS](#passmodule-password)                                 | module  password                              | RW        | 15         | Must  be a number, letter, or a combination of both. Default: admin |
 | [DEFAULT](#defaultreset-to-factory-default)                  | Restore  factory settings                     | W         | 15         | When  the parameter is "module password", factory Reset      |
 | [RESET](#resetsave-and-restart-the-module)                   | Save  configuration and restart module        | W         | 15         | When  the parameter is' module password ', restart the module |
@@ -577,15 +577,16 @@ The following are the information for W5500S2E:
 | Example                                                      | Command: AT+DNSEN=1\r\n                                      |                           |
 |                                                              | Response: [DNSEN] Value is:  1\r\nOK\r\n                     |                           |
 
-**Description**: This setting takes effect only when the module operates in TCP Client or UDP mode on the serial channel. After enabling DNS functionality, W5500S2E can access remote hosts using domain names. W5500S2E performs a DNS query upon each power-up.
+**Description**: This setting takes effect only when the module operates in TCP Client or UDP mode on the serial channel.  After enabling DNS functionality, W5500S2E can access remote hosts by domain name and 
+ perform a DNS query at each power-up. 
 
 <span style={{ color: 'red' }}>Note: </span>
 
-<span style={{ color: 'red' }}>1    If enabled and "C1_DOMAIN" is set, the "C1_CLI_IP1" command becomes invalid. The module communicates with the host defined by "C1_DOMAIN";</span>
+<span style={{ color: 'red' }}> 1. If enabled and "C1_DOMAIN" is set, the "C1_CLI_IP1" command becomes invalid. The module communicates with the host defined by "C1_DOMAIN"</span>
 
-<span style={{ color: 'red' }}>2    If disabled and "C1_CLI_IP1" is set, the "C1_DOMAIN" command becomes invalid. The module communicates with the IP defined by "C1_CLI_IP1"; </span>
+<span style={{ color: 'red' }}> 2. If disabled and "C1_CLI_IP1" is set, the "C1_DOMAIN" command becomes invalid. The module communicates with the IP defined by "C1_CLI_IP1" </span>
 
-<span style={{ color: 'red' }}>3    To use DNS functionality, the module IP information must be configured correctly. It is recommended to configure the module in DHCP mode.</span>
+<span style={{ color: 'red' }}> 3. To use DNS functionality, the module IP information must be configured correctly. It is recommended to configure the module in DHCP mode.</span>
 
 <br>
 
@@ -607,9 +608,9 @@ The following are the information for W5500S2E:
 | **Example**                                                  | Command: AT+C1_CLI_IP1=192.168.1.99\r\n                      |                           |
 |                                                              | Response: [C1_CLI_IP1] Value is:  192.168.1.99\r\nOK\r\n     |                           |
 
-**Description**: This command is only effective in TCP Client or UDP mode, used to configure the remote IP address for the corresponding serial channel of W5500S2E. The IP address must comply with IPv4 format, such as 192.168.1.99, as defined in the "IP" command.
+ **Description:** This command is effective only in TCP Client or UDP mode and configures the remote IP address for the corresponding serial channel of W5500S2E. The IP address must comply with IPv4 format, such as 192.168.1.99, as defined in the "IP" command.
 
-<span style={{ color: 'red' }}>**Note**: If the parameter value of the "DNSEN" command is 0, the parameters configured by the command are valid.</span>
+<span style={{ color: 'red' }}>**Note**: If the "DNSEN" command parameter is 0, the parameters configured by the command are valid. </span>
 
 <br>
 
@@ -723,7 +724,7 @@ The following are the information for W5500S2E:
 | Example                                                      | Command: AT+COM1=9,1,0,1,0\r\n                               |                           |
 |                                                              | Response: [COM1] Value is:  9,1,0,1,0\r\nOK\r\n              |                           |
 
-**Description**: This command is used to configure or query 5 commonly used parameters of serial channel 1  at once, or it can be configured or queried separately with the corresponding command.
+**Description**: This command configures or queries 5 commonly used parameters of serial channel one at once, or configures or queries them separately with the corresponding command. 
 
 <a href="#at3">
   <button>Back</button>
@@ -817,7 +818,7 @@ The following are the information for W5500S2E:
 
 **Description**: This command is used to configure or query the serial channel flow control of serial channel 1.
 
-<span style={{ color: 'red' }}>**Note**: This command with parameter equals 2 will enable the 485EN pin. The RTS pin becomes RS-485  enable output for connecting external 485 chips. 485EN pin is supported.</span>
+<span style={{ color: 'red' }}>**Note**: This command with the parameter set to 2 will enable the 485EN pin. The RTS pin becomes an RS-485 enable output for connecting external RS485 chips. 485EN pin is supported. </span>
 
 <br>
 
@@ -840,7 +841,7 @@ The following are the information for W5500S2E:
 | Example                                                      | Command: AT+C1_BUF_CLS=1\r\n                                 |                           |
 |                                                              | Response: [C1_BUF_CLS] Value is:  1\r\nOK\r\n                |                           |
 
-**Description**: The converter is effective when running in TCP mode and data transparent mode. If the connection suddenly disconnects during data exchange, there may be some data in the serial buffer that has not been sent. This command can be used to determine whether to send this data after the connection is reestablished.
+**Description**: The module is effective when running in TCP mode and data transparent mode. If the connection suddenly disconnects during data exchange, some data may remain in the serial buffer and not be sent. This command can be used to determine whether to send this data after the connection is reestablished.
 
 <a href="#at3">
   <button>Back</button>
@@ -894,7 +895,7 @@ The following are the information for W5500S2E:
 | Example                                                      | Command: AT+C1_IT=1000\r\n                                   |                           |
 |                                                              | Response: [C1_IT] Value is:  1000\r\nOK\r\n                  |                           |
 
-**Description**: The command is valid in TCP mode and data transparent mode. When the module operates in TCP mode, whether as a server or client, there may be situations where the other party has disconnected (forced disconnection or network failure), and the module is not aware of the disconnection message and continues to maintain this invalid connection. There will be an error where data cannot be delivered when either party initiates communication. 
+**Description**: The command is valid in TCP mode and data transparent mode. When the module operates in TCP mode, whether as a server or client, there may be situations in which the other party disconnects (e.g., due to a forced disconnection or network failure), and the module is unaware of the disconnection and continues to maintain an invalid connection. There will be an error when either party initiates communication, which will prevent data delivery. 
 
 By setting this parameter, it disconnects the TCP connection when the serial or Ethernet interface does not receive new data within a continuous timeout period during communication. When the value is set to 0, it means disable this function.
 
@@ -1252,7 +1253,7 @@ By setting this parameter, it disconnects the TCP connection when the serial or 
 
 **Description**: The command is valid when the module is running in TCP Server mode, which means that the command can only be configured correctly when the "C1_OP" command parameter is "0", otherwise an error will be reported. It can be closed through the "DISCON" command.
 
-<span style={{ color: 'red' }}>**Note**: After configuring this command, it is necessary to check whether the TCP connection has been established through the "C1_TCP_STATUS" command.</span> 
+<span style={{ color: 'red' }}>**Note**: After configuring this command, check whether the TCP connection has been established using the "C1_TCP_STATUS" command. </span> 
 
 <br></br>
 
@@ -1337,15 +1338,12 @@ By setting this parameter, it disconnects the TCP connection when the serial or 
 
 **Description**: 
 
-1    If the module is running in TCP Server or TCP Client mode, before configuring this command, it is necessary to check whether the TCP connection has been established by checking from result of the " TCP_STATUS" command;
-
-2    After successfully configuring the command, the serial port will receive the corresponding return value. The next serial data will be considered as data input and send out data, then it exits the data transmission and enter AT command mode;
-
-3    If the specified sending length is 0, the serial port will default to pack the inputted data at 50ms frame intervals. Starting from the first byte sent through the serial channel, if the idle time of the serial channel exceeds 50ms thereafter, the data will be immediately sent out. If the continuous byte length of the serial channel reaches 2048, the excess will be automatically discarded;
-
-4    If the specified sending length is not 0, the serial channel will be packaged according to its length, and the specified length of characters will be immediately packaged and sent to the converter's serial channel. If it exceeds the specified length, the excess part will be automatically discarded; If it is less than the specified length, it will wait indefinitely;
-
-5    After the data is successfully sent from the module's network port, the module's serial channel will immediately output a reply message in the format of "<span style={{ color: 'green' }}>len</span>".<span style={{ color: 'green' }}>len</span>: The number of bytes of data successfully sent from the module's network port, which users can use to determine whether their data has been successfully sent.
+ 1. If the module is running in TCP Server or TCP Client mode, before configuring this command, it is necessary to check whether the TCP connection has been 
+ established by checking the result of the " TCP_STATUS" command. 
+ 2. After successfully configuring the command, the serial port will receive the corresponding return value. The following serial data will be considered as data input and sent out data, then it exits the data transmission and enters AT command mode. 
+ 3. If the specified sending length is 0, the serial port will default to packing the input data at 50ms frame intervals. Starting from the first byte sent over the serial channel, if the idle time exceeds 50ms, the data will be sent immediately. If the continuous byte length of the serial channel reaches 2048, the excess will be automatically discarded. 
+ 4. If the specified sending length is not 0, the serial channel will be packaged according to its length, and the specified length of characters will be immediately packaged and sent to the converter's serial channel. If it exceeds the specified length, the excess part will be automatically discarded; If it is less than the specified length, it will wait indefinitely. 
+ 5. After the data is successfully sent from the module's network port, the module's serial channel will immediately output a reply message in the format of "<span style={{ color: 'green' }}>len</span>".<span style={{ color: 'green' }}>len</span>: The number of bytes of data successfully sent from the module's network port, which users can use to determine whether their data has been successfully sent. 
 
  <a href="#at5"><button>Back</button></a>
 
@@ -1381,13 +1379,10 @@ By setting this parameter, it disconnects the TCP connection when the serial or 
 
 **Description**:
 
-1    If the module is running in TCP Server or TCP Client mode, before configuring this command, it is necessary to check whether the TCP connection has been established by checking from result of the " TCP_STATUS" command；
-
-2    After successfully configuring the command, the module serial channel will output data from the network port receiving cache, then exit data reception and enter AT command mode;
-
-3    The size of the cache received by the 3 network ports is 2048 bytes. If the total length of data in the cache received by the network port is equal to 2048 bytes, the network port will no longer receive data;
-
-4    If the length of the data in the cache received by the network port is less than the specified length set by the "RCV" command, it will not be received. Thus, the number of received data bytes is 0.
+ 1. If the module is running in TCP Server or TCP Client mode, before configuring this command, it is necessary to check whether the TCP connection has been established by checking the result of the " TCP_STATUS" command. 
+ 2. After successfully configuring the command, the module serial channel will output data from the network port receiving cache, then exit data reception and enter AT command mode. 
+ 3. The size of the cache received by the three network ports is 2048 bytes. If the total length of data received by the network port from the cache is 2048 bytes, the network port will stop receiving data. 
+ 4. If the length of the data in the cache received by the network port is less than the specified length set by the "RCV" command, it will not be received. Thus, the number of received data bytes is 0. 
 
  <a href="#at5"><button>Back</button></a>
 
