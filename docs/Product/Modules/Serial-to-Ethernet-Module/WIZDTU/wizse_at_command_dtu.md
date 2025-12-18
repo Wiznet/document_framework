@@ -113,7 +113,7 @@ The following are the information for WIZ-DTU:
 | [AT](#atterminal-check)                                      | Terminal  detection                           | R         | -          | -                                                            |
 | [ECHO](#echoenable-or-disable-echoing)                       | Feedback                                      | RW        | 1          | 0:  Turn off echo display **1: Open echo (default)**         |
 | [DEBUGMSGEN](#debugmsgendebug-message)                       | Debug  information                            | RW        | 1          | 0:  Close debugging information **1: Enable debugging information (default)** |
-| [NAME](#nameconverter-name)                                  | Equipment  name                               | RW        | 15         | It  must be a number, letter, or a combination of both       |
+| [NAME](#nameconverter-name)                                  | Equipment  name                               | RW        | 15         | Must be a number, letter, or a combination of both       |
 | [PASS](#passconverter-password)                              | converter  password                           | RW        | 15         | Must  be a number, letter, or a combination of both. Default: admin |
 | [DEFAULT](#defaultreset-to-factory-default)                  | Restore  factory settings                     | W         | 15         | When  the parameter is "converter password", factory Reset   |
 | [RESET](#resetsave-and-restart-the-converter)                | Save  configuration and restart converter     | W         | 15         | When  the parameter is' converter password ', restart the converter |
@@ -338,13 +338,13 @@ The following are the information for WIZ-DTU:
 
 **Description:**
 
-1    Save the current configuration information;
+ 1. Save the current conﬁguration information
 
-2    Restart the converter to make the configuration information take effect;
+ 2. Restart the converter to make the conﬁguration information take eﬀect
 
-3    When users need to directly enter data transmission mode during the next power on, they can configure the parameter value of the "AT+START-MODE=1\r\n" command to be 1, and then configure the "RESET" command;
+ 3. When users need to directly enter data transmission mode during the next power on, they can conﬁgure the parameter value of the "AT+START-MODE=1\r\n" command to be 1, and then conﬁgure the "RESET" command
 
-4    The converter password can be queried and set through the "PASS" command.
+ 4. The converter password can be queried and set through the "PASS" command
 
 <a href="#at">
   <button>Back</button>
@@ -833,7 +833,8 @@ The following are the information for WIZ-DTU:
 | Example                                                      | Command: AT+C1_BUF_CLS=1\r\n                                 |                           |
 |                                                              | Response: [C1_BUF_CLS] Value is:  1\r\nOK\r\n                |                           |
 
-**Description**: The converter is effective when running in TCP mode and data transparent mode. If the connection suddenly disconnects during data exchange, there may be some data in the serial buffer that has not been sent. This command can be used to determine whether to send this data after the connection is reestablished.
+**Description**: The converter is eﬀective when running  in TCP mode and data transparent mode. If the connection suddenly disconnects during data exchange, some data may remain in the serial buﬀer and not be sent. This command can be used to determine whether to send this data after the connection is reestablished. 
+
 
 <a href="#at3">
   <button>Back</button>
@@ -887,9 +888,9 @@ The following are the information for WIZ-DTU:
 | Example                                                      | Command: AT+C1_IT=1000\r\n                                   |                           |
 |                                                              | Response: [C1_IT] Value is:  1000\r\nOK\r\n                  |                           |
 
-**Description**: The command is valid in TCP mode and data transparent mode. When the converter operates in TCP mode, whether as a server or client, there may be situations where the other party has disconnected (forced disconnection or network failure), and the converter is not aware of the disconnection message and continues to maintain this invalid connection. There will be an error where data cannot be delivered when either party initiates communication. 
+**Description**: The command is valid in TCP mode and  data transparent mode. When the converter operates in TCP mode, whether as a server or client, there may be situations in which the other party has disconnected (e.g., due to a forced disconnection or network failure), and the converter is unaware of the disconnection message and continues to maintain an invalid connection. There will be an error when either party initiates communication, preventing data delivery. 
 
-By setting this parameter, it disconnects the TCP connection when the serial or Ethernet interface does not receive new data within a continuous timeout period during communication. When the value is set to 0, it means disable this function.
+Setting this parameter disconnects the TCP connection if the serial or Ethernet interface does not receive new data within a continuous timeout period during communication. Setting the value to 0 disables this function.
 
 <a href="#at3">
   <button>Back</button>
@@ -926,7 +927,7 @@ By setting this parameter, it disconnects the TCP connection when the serial or 
 | Example                                                      | Command: AT+C1_LINK_P=1\r\n                                  |                           |
 |                                                              | Response: [C1_LINK_P] Value is:  1\r\nOK\r\n                 |                           |
 
-**Description**: The converter's serial channel is valid when running in TCP Server mode and data transparent mode. In order to improve communication security, the converter will provide a "Connection password verification" function. When the converter communicates with the client as a TCP Server and the "Connection Password Verification" function is turned on, the client needs to send the converter password as the first packet of data after establishing a connection with the converter. If the password is correct, communication can begin; If the password is incorrect, you will be prompted to re-enter the correct password. The converter password can be queried and set through the "PASS" command.
+**Description**: The converter's serial channel is valid  when running in TCP Server mode and data transparent mode. In order to improve communication security, the converter will provide a "Connection password veriﬁcation" function. When the converter communicates with the client as a TCP Server and the "Connection Password Veriﬁcation" function is turned on, the client needs to send the converter password as the ﬁrst packet of data after establishing a connection with the converter. If the password is correct, communication can begin; if it is incorrect, you will be prompted to re-enter the correct password. The converter password can be queried and set through the "PASS" command. 
 
 <a href="#at3">
   <button>Back</button>
@@ -945,7 +946,7 @@ By setting this parameter, it disconnects the TCP connection when the serial or 
 | Example                                                      | Command: AT+C1_LINK_T=1\r\n                                  |                           |
 |                                                              | Response: [C1_LINK_T] Value is:  1\r\nOK\r\n                 |                           |
 
-**Description**: This command is valid in TCP Client mode and data transparent mode. This command is used to configure under what conditions the converter establishes a connection with TCP Server. When configured as Establish connection after receiving data through serial channel , the converter will not initiate a connection to the server until the converter's serial channel receives the first packet of data and immediately initiates a connection request to the server. After successful connection, the converter's serial channel will send the first packet of data to the server and start normal data transmission mode.
+**Description**: This command is valid in TCP Client mode  and data transparent mode. This command is used to conﬁgure under what conditions the converter establishes a connection with TCP Server. When conﬁgured to establish connection after receiving data through the serial channel, the converter will not initiate a connection to the server until it gets the ﬁrst packet of data, and it will then immediately send a connection request to the server. After a successful connection, the converter's serial channel will send the ﬁrst data packet to the server and enter normal data transmission mode.
 
 <a href="#at3">
   <button>Back</button>
@@ -966,7 +967,7 @@ By setting this parameter, it disconnects the TCP connection when the serial or 
 | Example                                                      | Command: AT+C1_LINK_M=1\r\n                                  |                           |
 |                                                              | Response: [C1_LINK_M] Value is:  1\r\nOK\r\n                 |                           |
 
-**Description**: The command is valid in TCP Client mode and is valid in both data transparent mode and AT command transmission data mode. This command is used to configure the information that the converter sends immediately after the connection is established.
+**Description**: The command is valid in TCP Client mode  and is valid in both data transparent mode and AT command transmission data mode. This command is used to conﬁgure the information that the converter sends immediately after the connection is established. 
 
 <a href="#at3">
   <button>Back</button>
@@ -1236,7 +1237,7 @@ By setting this parameter, it disconnects the TCP connection when the serial or 
 | Example                                                      | Command: AT+WEB_PORT=80\r\n                                  |                           |
 |                                                              | Response: [WEB_PORT] Value is:  80\r\nOK\r\n                 |                           |
 
-**Description**: This port number to access converter's web page configuration site through a web browser, and it is not recommended to modify it. If configured with any port number other than 80, when accessing the converter through a browser, the address bar should enter "IP: Port", for example: 192.168.1.88:8000.
+**Description**: This port number is used to access the  converter's web page conﬁguration site through a web browser, and it is not recommended to modify it. If conﬁgured with any port number other than 80, when accessing the converter  through a browser, the address bar should enter "IP: Port", for example: 192.168.1.88:8000. 
 
 <span style={{ color: 'red' }}>**Note:** Some protocols in the Ethernet protocol have default port numbers, which should be avoided. The default occupied port numbers are shown in the</span> [appendix](#appendix).
 
@@ -1276,7 +1277,7 @@ By setting this parameter, it disconnects the TCP connection when the serial or 
 
 **Description**: The command is valid when the converter is running in TCP Server mode, which means that the command can only be configured correctly when the "C[CH]_OP" command parameter is "0", otherwise an error will be reported. It can be closed through the "DISCON" command.
 
-<span style={{ color: 'red' }}>**Note**: After configuring this command, it is necessary to check whether the TCP connection has been established through the "C[CH]_TCP_STATUS" command.</span> 
+<span style={{ color: 'red' }}>**Note**: After conﬁguring this command, check whether the TCP connection has been established using the "C[CH]_TCP_STATUS" command. </span> 
 
 <br></br>
 
@@ -1297,7 +1298,7 @@ By setting this parameter, it disconnects the TCP connection when the serial or 
 
 **Description**: The command is valid when the converter is running in TCP Client mode. This command can only be configured correctly when the parameter of the "C[CH]_OP" command is "1", otherwise an error will be reported. After configuring this command, the converter immediately initiates a connection request to the TCP Server. If a TCP connection is not established after 3 seconds, an error message will be reported.
 
-<span style={{ color: 'red' }}>**Note**: After configuring this command, it is necessary to check whether the TCP connection has been established through the "C[CH]_TCP_STATUS" command.</span> 
+<span style={{ color: 'red' }}>**Note**: After conﬁguring this command, check whether  the TCP connection has been established using the "C[CH]_TCP_STATUS" command. </span> 
 
 <br></br>
 
@@ -1361,15 +1362,14 @@ By setting this parameter, it disconnects the TCP connection when the serial or 
 
 **Description**: 
 
-1    If the converter is running in TCP Server or TCP Client mode, before configuring this command, it is necessary to check whether the TCP connection has been established by checking from result of the " TCP_STATUS" command;
+ 1. If the converter is running in TCP Server or TCP Client mode, before conﬁguring this command, it is necessary to check whether the TCP connection has been established by checking the result of the " TCP_STATUS" command. 
+ 2. After successfully conﬁguring the command, the serial port will receive the corresponding return value. The following serial data will be considered input data, sent as output data, then the data transmission exits and enters AT command mode.
 
-2    After successfully configuring the command, the serial port will receive the corresponding return value. The next serial data will be considered as data input and send out data, then it exits the data transmission and enter AT command mode;
+ 3 If the speciﬁed sending length is 0, the serial port will default to pack the input data at 50ms frame intervals. Starting from the ﬁrst byte sent over the serial channel, if the channel's idle time exceeds 50ms, the data will be sent immediately. If the continuous byte length of the serial channel reaches 2048, the excess will be automatically discarded. 
 
-3    If the specified sending length is 0, the serial port will default to pack the inputted data at 50ms frame intervals. Starting from the first byte sent through the serial channel, if the idle time of the serial channel exceeds 50ms thereafter, the data will be immediately sent out. If the continuous byte length of the serial channel reaches 2048, the excess will be automatically discarded;
+ 4. If the speciﬁed sending length is not 0, the serial channel will be packaged according to its length, and the speciﬁed length of characters will be immediately packaged and sent to the converter's serial channel. If it exceeds the speciﬁed length, the excess part will be automatically discarded; If it is less than the speciﬁed length, it will wait indeﬁnitely. 
 
-4    If the specified sending length is not 0, the serial channel will be packaged according to its length, and the specified length of characters will be immediately packaged and sent to the converter's serial channel. If it exceeds the specified length, the excess part will be automatically discarded; If it is less than the specified length, it will wait indefinitely;
-
-5    After the data is successfully sent from the converter's network port, the converter's serial channel will immediately output a reply message in the format of "<span style={{ color: 'green' }}>len</span>".<span style={{ color: 'green' }}>len</span>: The number of bytes of data successfully sent from the converter's network port, which users can use to determine whether their data has been successfully sent.
+ 5. After the data is successfully sent from the module's network port, the module's serial channel will immediately output a reply message in the format of "<span style={{ color: 'green' }}>len</span>".<span style={{ color: 'green' }}>len</span>: The number of bytes of data successfully sent from the module's network port, which users can use to determine whether their data has been successfully sent. 
 
  <a href="#at5"><button>Back</button></a>
 
@@ -1405,13 +1405,13 @@ By setting this parameter, it disconnects the TCP connection when the serial or 
 
 **Description**:
 
-1    If the converter is running in TCP Server or TCP Client mode, before configuring this command, it is necessary to check whether the TCP connection has been established by checking from result of the " TCP_STATUS" command；
+ 1. If the converter is running in TCP Server or TCP Client mode, before conﬁguring this command, it is necessary to check whether the TCP connection has been established by checking the result of the " C[CH]_TCP_STATUS" command.
 
-2    After successfully configuring the command, the converter serial channel will output data from the network port receiving cache, then exit data reception and enter AT command mode;
+ 2. After successfully conﬁguring the command, the converter serial channel will output data from the network port receiving cache, then exit data reception and enter AT command mode. 
 
-3    The size of the cache received by the 3 network ports is 2048 bytes. If the total length of data in the cache received by the network port is equal to 2048 bytes, the network port will no longer receive data;
-
-4    If the length of the data in the cache received by the network port is less than the specified length set by the "RCV" command, it will not be received. Thus, the number of received data bytes is 0.
+ 3. The size of the cache received by the three network ports is 2048 bytes. If the total length of data received by the network port from the cache is 2048 bytes, the network port will stop receiving data. 
+ 
+ 4. If the length of the data in the cache received by the network port is less than the speciﬁed length set by the "C[CH]_RCV" command, it will not be received. Thus, the number of received data bytes is 0. 
 
  <a href="#at5"><button>Back</button></a>
 

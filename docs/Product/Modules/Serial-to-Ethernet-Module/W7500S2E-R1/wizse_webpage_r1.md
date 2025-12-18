@@ -59,8 +59,8 @@ Before using web configuration, it is necessary to ensure that W7500S2E series c
 
 | [Serial Data Packing Conditions](#serial-data-packing-conditions) | Descriptions                               | Default |
 | ------------------------------------------------------------ | ------------------------------------------ | ------- |
-| by Nagle Waiting Time (ms)                                   | Ethernet packets separate by time interval | 0       |
-| by Data Length (byte)                                        | Ethernet packets separate by Data length   | 0       |
+| by Nagle Waiting Time (ms)                                   | Ethernet packets are separated by time interval | 0       |
+| by Data Length (byte)                                        | Ethernet packets are separated by Data length   | 0       |
 
 
 | [TCP Connection Options](#tcp-connection-options) | Descriptions                                                 | Default  |
@@ -96,13 +96,13 @@ Before using web configuration, it is necessary to ensure that W7500S2E series c
 | ------------------------------------------------------------------------- | --------------------------------------------- | ------- |
 | Default                                  									| Reset module back to factory settings     	| - 	  |
 | Reset                                   									| Reset module without saving configuration  	| -       |
-| Logout                            										| Logout and back to login page 				| -       |  
+| Logout                            										| Logout and go back to login page 				| -       |  
 
 ---
 
 ## Login page
 
-Open the Chrome browser, enter the W7500S2E series module's IP address in the address bar (the factory default is 192.168.1.88), and the login interface shown in the ﬁgure below will appear.
+Open the Chrome browser, enter the IP address of W7500S2E series module in the address bar (the factory default is 192.168.1.88), and the login interface shown in the ﬁgure below will appear.
 
 |                                              |
 | -------------------------------------------- |
@@ -155,10 +155,10 @@ As shown in the following figure, it is the W7500S2E series basic parameter conf
 
 - **Start Mode:** Device startup mode configuration, which can be set to AT command mode and data transmission mode. The W7500S2E series will operate in this mode upon the next power-on/reboot. **The default is AT command mode.**
 - **Work as:** Module operation mode configuration, which can be set to TCP Server, TCP Client, and UDP modes. **The default is TCP Server.**
-- **Remote Host:** Displays/sets the IP address/domain name of the remote host. This is effective when the module is running in TCP Client and UDP modes. **The default is 192.168.1.99.** If this is set to the domain name of the remote host, the module will automatically perform domain name resolution. The maximum length of the domain name is 32 characters.
+- **Remote Host:** Displays/sets the IP address/domain name of the remote host. This is effective when the module is running in TCP Client and UDP modes. **The default is 192.168.1.99.** If this is set to the remote host's domain name, the module will automatically perform domain name resolution. The maximum length of the domain name is 32 characters.
 - **Remote Port:** Displays/sets the port number of the remote host. **The default is 5000**, and the range is 0 to 65535.
 - **Local Port:** Displays/sets the local port number. **The default is 5000**, and the range is from 0 to 65535.
-- **Bind Local Port:** Binds the local port number. When checked, it enables the function of binding the local port number. This is effective when the module runs in TCP Client mode.
+- **Bind Local Port:** Binds the local port number. When checked, it enables binding to the local port number. This is effective when the module runs in TCP Client mode.
 
 <span style={{ color: 'red' }}>**Note:** Some protocols in the Ethernet protocol have default port numbers. These port numbers should be avoided. The default occupied port numbers can be found in the </span> [appendix](wizse_at_command_r1#appendix).
 
@@ -168,7 +168,7 @@ As shown in the following figure, it is the W7500S2E series basic parameter conf
 
 ### UART Setting
 
-- **Baud Rate:** Displays/sets the serial port baud rate. **The default is 115200**. Users can select 16 common baud rate values ranging from 1200bps to 460,800bps.
+- **Baud Rate:** Displays/sets the serial port baud rate. **The default is 115200**. Users can select 16 common baud rates ranging from 1200 bps to 460800 Mbps.
 - **Data Bit:** Displays/sets the data bits of the serial port. **The default is 8**. It can be set to 7 or 8.
 - **Parity:** Displays/sets the parity bit of the serial port. **The default is NONE**. It can be set to NONE, ODD, or EVEN.
 - **Stop Bit:** Displays/sets the stop bits of the serial port. **The default is 1**. It can be set to 1 or 2.
@@ -235,15 +235,15 @@ As shown in the figure below, it is the advanced configuration page of W7500S2E 
 
 ### TCP Connection Options 
 
-**TCP Reconnection Time (ms):** Sets/Displays the reconnection time. This option is effective when the device is in TCP Client mode. It sets the waiting time for the TCP Client to reconnect to the TCP Server after the connection is disconnected. **The default value is 0, it means immediate reconnection.** The range of values is from 0 to 60000, with units in ms.
+**TCP Reconnection Time (ms):** Sets/Displays the reconnection time. This option is effective when the device is in TCP Client mode. It sets the waiting time for the TCP Client to reconnect to the TCP Server after the connection is disconnected. **The default value is 0, which means immediate reconnection.** The range is 0 to 60000, with units in ms.
 
-**Inactivity Time (ms):** The time interval for timeout disconnection. This option is effective when the device is in TCP mode. The range of values is from 0 to 60000, with units in ms. **The default value is 0 (this function is disabled).**
+**Inactivity Time (ms):** The time interval for timeout disconnection. This option is effective when the device is in TCP mode. The range is 0 to 60000, with units in ms. **The default value is 0 (this function is disabled).**
 
-**Keep Alive Time (5s):** Online time. This option is effective when the device is in TCP mode. The range of values is from 0 to 65536, with units of 5s. **The default value is 0 (this function is disabled).**
+**Keep Alive Time (5s):** Online time. This option is effective when the device is in TCP mode. The range is 0 to 65536, with units of 5s. **The default value is 0 (this function is disabled).**
 
-**Clear Buffer if connected:** Whether to clear the serial port Buffer after connection establishment. This option will only be activated when it is enabled (checked) and the module is working TCP modes. **The default is disabled (unchecked)** 
+**Clear Buffer if connected:** Whether to clear the serial port Buffer after connection establishment. This option will only be activated when it is enabled (checked) and the module is working in TCP modes. **The default is disabled (unchecked)** 
 
-**Connect TCP Server When:** In TCP client mode, the user could choose the pirority for TCP client to connect the Server. It can be set as "Power on" to establish the connection immediately after "power-on" or wait until "Serial data received" to establish the connection after receiving data from the serial port. **The default is power-on**.
+**Connect TCP Server When:** In TCP client mode, the user could choose the priority for TCP client to connect the Server. It can be set as "Power on" to establish the connection immediately after "power-on" or wait until "Serial data received" to establish the connection after receiving data from the serial port. **The default is power-on**.
 
 <a href="#advance-options">
   <button>Back</button>
@@ -286,7 +286,7 @@ Click on "Management" to enter the device management page, as shown in the follo
 
 **Old Password:** Original module password, **default is admin**.
 
-**New Password:** New module password, maximum length is 15 bytes, must be a numbers, letters or a combination of both. it cannot be left blank.
+**New Password:** New module password, maximum length is 15 bytes, must be a number, letter or a combination of both. It cannot be left blank.
 
 **Confirm New Password**: Retype your new module password for confirmation.
 
@@ -303,7 +303,7 @@ Click on "Management" to enter the device management page, as shown in the follo
 
 ### Factory Reset or Reset Your Device
 
-**Factory Default:** When clicked the default button, the page prompts whether to restore the module to its factory settings. As shown in the picture below, click "OK" and the module will perform the factory reset and jump to the login page.
+**Factory Default:** When the default button is pressed, the page prompts whether to restore the module to its factory settings. As shown in the picture below, click "OK" and the module will perform the factory reset and jump to the login page.
 
 |                                                         |
 | ------------------------------------------------------- |
@@ -317,7 +317,7 @@ Click on "Management" to enter the device management page, as shown in the follo
 | ![](/img/products/w5500s2e-z1/web_reset.png) |
 | **Figure:** Web Prompt - Reset               |
 
-**Logout:** Logout Button to logout the W7500S2E series configuration page. It shows the following window, click "Ok' will jump to login page.
+**Logout:** Logout Button to logout of the W7500S2E series configuration page. It shows the following window, click "Ok' will jump to login page.
 
 |                                               |
 | --------------------------------------------- |

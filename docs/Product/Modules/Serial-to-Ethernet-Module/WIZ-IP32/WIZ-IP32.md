@@ -20,7 +20,7 @@ import TabItem from '@theme/TabItem';
   </div>
 </div>
 
-WIZ-IP32 is a industrial grade dual serial port to Ethernet module in a single Mag Jack. It supports TCP server, TCP client, UDP and Modbus modes. The maximum baud rate of the serial port is 1.152Mbps for RS232 and RS485. WIZ-IP32 supports WIZS2E ConfigTool (Configuration Tool for Windows®), web page and AT command for configuring.
+WIZ-IP32 is a industrial grade dual serial port to Ethernet module in a single Mag Jack. It supports TCP server, TCP client, UDP and Modbus modes. The maximum baud rate of the serial port is 1.152Mbps for RS232 and RS485. WIZ-IP32 supports the WIZS2E ConﬁgTool (Conﬁguration Tool for Windows®), a web page, and AT commands for conﬁguration. 
 
 WIZ-IP32 integrated with the hardwired TCP/IP protocol technology in W55MH32. This enables a faster, stable and secure Ethernet connectivity. With reference schematic(s) and guideline(s) in this user manual, user can simplify the design and reduce development time.
 
@@ -29,7 +29,7 @@ WIZ-IP32 integrated with the hardwired TCP/IP protocol technology in W55MH32. Th
 
 ## Features
 
-  - Two serial port for **RS232** and **RS485** 
+  - Two serial ports for **RS232** and **RS485** 
   - Baud Rate can be configured to any standard value from 2Kbps to
     **1.152Mbps**
   - 10/100 Mbps Ethernet interface
@@ -43,7 +43,7 @@ WIZ-IP32 integrated with the hardwired TCP/IP protocol technology in W55MH32. Th
   - Support **NetBIOS** allows user to identify module’s name
   - Support user password authorization for security
   - Support serial AT command configuration method
-  - **Built-in web server** for browser and remote configuring
+  - **Built-in web server** for browsing and remote conﬁguration 
   - Provide user-friendly configuration tool program (WIZS2E ConfigTool)
   - Support local and remote firmware upgrade
 
@@ -55,7 +55,7 @@ This section provides key documentation, including user manuals and datasheets, 
 | Title | Description | Link | Notes |
 |-------|-------------|------|-------|
 | User's Manual  | Product usage instructions | ![link](\img\docs_icon_small.png) [EN](\img\products\wiz-ip51s\WIZ-IP32_User_Manual_V1.0.pdf) | - |
-| Datasheet | Technical specifications | - | TBD |
+| Datasheet | Technical specifications | ![link](\img\docs_icon_small.png) [EN](./Datasheet_ip32.md) | - |
 
 
 ## Setup & Configuration
@@ -77,8 +77,8 @@ This section offers essential guides to help you get started, troubleshoot issue
 
 | Title | Description | Link | Notes |
 |-------|-------------|------|-------|
-| Getting Started | Quick setup instructions for using your WIZ-DTU device | - | TBD |
-| Trouble Shooting Guide | Solutions to common issues and troubleshooting steps | - | TBD |
+| Getting Started | Quick setup instructions for using your WIZ-IP32 device | - | TBD |
+| Troubleshooting Guide | Solutions to common issues and troubleshooting steps | - | TBD |
 | Developer's Guide | Setup, customization, and advanced usage for developers | - | TBD |
 
 

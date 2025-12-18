@@ -8,7 +8,7 @@ date: 2025-09-05
 
 WIZS2E Config Tool is an upper computer configuration software that runs on the Windows operating system and is compatible with WIZ-DTU, WIZ-IP32, W5500S2E and W7500S2E series serial to Ethernet modules. Users can easily search, view, and configure various functions and information of W5500S2E / W7500S2E serial to Ethernet module through WIZS2E Config Tool.
 
-<span style={{ color: 'red' }}>**Note**: Before configuring, it is recommended to turn off the firewall and ensure that all module IP addresses within the local area network do not conflict.</span>
+<span style={{ color: 'red' }}>**Note**: Before configuring, it is recommended to turn off the firewall and ensure that all module IP addresses on the local area network do not conflict.</span>
 
 ---
 
@@ -21,11 +21,11 @@ WIZS2E Config Tool is an upper computer configuration software that runs on the 
 
 1. [Icon Menu](#icon-menu) - Network interface configuration, Device Search, save settings, firmware upload and device reset
 
-2. [Device List](#device-list) - Listed all exist modules in the same local area network (LAN)
+2. [Device List](#device-list) - Listed all existing modules in the same local area network (LAN)
 
 3. Module Configuration - All configuration settings of the module. 
 
-For W7500S2E series module, it includes Basic Settings and Channel1 configurations.
+The W7500S2E series module includes Basic Settings and Channel1 configurations.
 
 The following are the list for all configurables for W7500S2E modules.
 
@@ -98,25 +98,25 @@ The following are the list for all configurables for W7500S2E modules.
 
 **1. Network Interface Selection** -  To solve the problem of not being able to determine whether the current module is a wired or wireless network card. 
 
-The following is a example of the modules network interface selection List 
+The following is an example of the module's network interface selection List 
 |                                                  |
 | ----------------------------------------------   |
 | ![](/img/products/w5500s2e-z1/networkcard.png)   |
 | **Figure:** Network Interface Selection list     |
 
-Users can first click "Update IP list!" to update the network card list and select the corresponding network card for configuring the module.
+Users can ﬁrst click "Update IP list!" to update the network card list, then select the corresponding network card to configure the module.
 
-**2. Search button** ![](/img/products/w5500s2e-z1/search.png) - Search all the listing modules with in the same network and categorize by module's MAC address.
+**2. Search button** ![](/img/products/w5500s2e-z1/search.png) - Search all the listing modules within the same network and categorize by module's MAC address.
 
 **3. Apply Settings button** ![](/img/products/w5500s2e-z1/applysetting.png) - It applies all your modified settings by pressing the button.
 
 **4. Upload Firmware button** ![](/img/products/w5500s2e-z1/uploadfirmware.png) - Upload a module application firmware bin file to the module 
 
-<span style={{ color: 'red' }}>**Note:** The firmware must be the [Application firmware](../W7500S2E-R1#software-resources) for W5500S2E / W7500S2E series provided by WIZnet officially.</span> 
+<span style={{ color: 'red' }}>**Note:** The firmware must be the officially provided [Application firmware](../W7500S2E-R1#software-resources) for the W5500S2E / W7500S2E series from WIZnet.</span> 
 
 Procedure for uploading the firmware:
 
-**a)** Set or select the network interface are having the same IP segment with the module
+**a)** Set or select the network interface that has the same IP segment as the module
 
 |                                                          |
 | ----------------------------------------------           |
@@ -130,7 +130,7 @@ Procedure for uploading the firmware:
 | ![](/img/products/w5500s2e-z1/config_file.png)           |
 | **Figure:** Application firmware bin file                |
 
-**c)** Wait until the upgrading firmware progress is complete. It will pop up a window like the image below to show the progress is over.
+**c)** Wait until the firmware upgrade progress  is complete. It will pop up a window like the image below to show  that the  progress is over. 
 
 
 |                                                          |
@@ -155,16 +155,16 @@ Procedure for uploading the firmware:
 
 ## Device List
 
-Device list will show all the WIZSE modules within the same network segments. The followings are the features can be used in this Device list.
+Device list will show all the WIZSE modules within the same network segments. The following features can be used in this Device list . 
 
-**a) Expand the module details** - It has a "![](/img/products/w5500s2e-z1/plus.png)" button next to the MAC address of the module to expand the detials of the module.
+**a) Expand the module details** - It has a "![](/img/products/w5500s2e-z1/plus.png)" button next to the MAC address of the module to expand the details of the module.
 
 |                                                          |
 | ----------------------------------------------           |
 | ![](/img/products/w5500s2e-z1/config_details.png)        |
 | **Figure:** Module details                			   |
 
-**b) Right Click** - If you right click on the device list, it shows extra feature for expanding, collapsing, sorting or research all the modules within the same network segment.
+**b) Right Click** - If you right click on the device list, it shows extra  features  for expanding, collapsing, sorting or  researching  all the modules within the same network segment.
 
 |                                                          |
 | ----------------------------------------------           |
@@ -179,7 +179,7 @@ Device list will show all the WIZSE modules within the same network segments. Th
 
 ## Basic Settings
 
-As shown in the following figure, these are the basic parameter for W7500S2E series module, which is divided into two parts for explanation.
+As shown in the following figure, these are the basic parameters for the W7500S2E series module, which is divided into two parts for explanation.
 
 |                                                          |
 | ----------------------------------------------           |
@@ -188,7 +188,7 @@ As shown in the following figure, these are the basic parameter for W7500S2E ser
 
 ### Network Settings
 
-- **IP Address Method**- There are two option for user to choose. 
+- **IP Address Method**- There are two options for user to choose. 
 
 	- **Use the Follow IP Address** - Static IP mode and the module uses the IP information showed on the WIZSE configuration tools **(Default)**
 	- **Get IP Address from DHCP Server** - DHCP mode and the module IP address from the DHCP Server
@@ -213,7 +213,7 @@ As shown in the following figure, these are the basic parameter for W7500S2E ser
   <button>Back</button>
 </a>
 
-### Addtional Functions
+### Additional Functions
 
 - **Show Debug Message** -  Display module debugging information. Checking this option will print the module debugging information from the serial port. **It is enabled by default.**
 
@@ -223,11 +223,11 @@ As shown in the following figure, these are the basic parameter for W7500S2E ser
 
 - **Use NETBIOS** - Enable the NetBIOS function option. When checked, the NetBIOS function will be enabled. **By default, it is not enabled.** After enabling the NetBIOS function, users can directly access the built-in web page of W7500S2E series by entering "http:// module name" in the browser address bar.
 
-- **Pasword** - The current password for the module will not be displayed. User could change a new password directly without entering the previous password. **The default password is "admin"**.
+- **Password** - The current password for the module will not be displayed. User could change a new password directly without entering the previous password. **The default password is "admin"**.
 
 - **Entering Mode after power on or reset** - The list box beneath password section. User could choose AT command or Data mode (Transparent transmission) after the module has turned on or reset. **The default mode is AT command mode**.
 
-- **Embedded Web Server Port** - Set/Display the port number of the Web server of W7500S2E series. **The default is 80.** It is not recommended to change it. The range of values is 0 to 65,535. If it is not set to 80, then it is required to add the web server port on the browser address bar. For example: 192.168.1.88:8000.
+- **Embedded Web Server Port** - Set/Display the port number of the Web server of W7500S2E series. **The default is 80.** It is not recommended to change it. The range of values is 0 to 65,535. If it is not set to 80, then it is required to add the web server port to the browser address bar. For example: 192.168.1.88:8000.
 
 <a href="#basic-settings-tab">
   <button>Back</button>
@@ -246,7 +246,7 @@ As shown in the following figure, these are the TCP and Serial setups for W7500S
 
 ### COM Port Settings
 
-- **Baud Rate** - Displays/sets the serial port baud rate. **The default is 115200**. Users can select 16 common baud rate values ranging from 1200bps to 460800bps.
+- **Baud Rate** - Displays/sets the serial port baud rate. **The default is 115200**. Users can select 16 common baud rates ranging from 1200 bps to 460800 bps.
 
 - **Data Bit:** Displays/sets the data bits of the serial port. **The default is 8**. It can be set to 7 or 8.
 
@@ -262,9 +262,9 @@ As shown in the following figure, these are the TCP and Serial setups for W7500S
 
 ### Serial Data Packing Condition
 
-- **by Nagle Waiting Time (ms)** - This option feature package the serial port input data into Ethernet packets by time interval. **The default value is 0 (no packetization)** and the maximum value is 60000 ms.
+- **by Nagle Waiting Time (ms)** - This option features a package that serial port input data into Ethernet packets by time interval. **The default value is 0 (no packetization)** and the maximum value is 60000 ms.
 
-- **by Data Length (byte)** - This option feature package the serial port input data into Ethernet package by length.  **The default value is 0 (no packetization)** and the maximum value is 2048 bytes.
+- **by Data Length (byte)** - This option features a package that packages the serial port input data into an Ethernet package by length.  **The default value is 0 (no packetization)** and the maximum value is 2048 bytes.
 
 <a href="#channel1-tab">
   <button>Back</button>
@@ -278,9 +278,9 @@ As shown in the following figure, these are the TCP and Serial setups for W7500S
 
 - **Bind Local Port** - Binds the local port number. When checked, it enables the function of binding the local port number. This is effective when the module runs in TCP Client mode.
 
-- **Remote Host** - Displays/sets the IP address/domain name of the remote host. The text box will be unlocked when the module is operating in TCP Client and UDP modes. **The default is 192.168.1.99 and the text box is locked**. If this is set to the domain name of the remote host, the module will automatically perform domain name resolution. The maximum length of the domain name is 32 characters.
+- **Remote Host** - Displays/sets the IP address/domain name of the remote host. The text box will be unlocked when the module is operating in TCP Client and UDP modes. **The default is 192.168.1.99 and the text box is locked**. If this is set to the remote host's domain name, the module will automatically perform domain name resolution. The maximum length of the domain name is 32 characters.
 
-- **Remote Port** - Displays/sets the port number of the remote host. The text box will be unlocked when the module is operating in TCP Client and UDP modes **The default is 5000 and the text box is locked**. The range is 0 to 65535.
+- **Remote Port** - Displays/sets the port number of the remote host. The text box will be unlocked when the module is operating in TCP Client and UDP modes. **The default is 5000 and the text box is locked**. The range is 0 to 65535.
 
 <span style={{ color: 'red' }}>**Note:** Some protocols in the Ethernet protocol have default port numbers. These port numbers should be avoided. The default occupied port numbers can be found in the </span> [appendix](wizse_at_command_r1#appendix).
 
@@ -290,17 +290,17 @@ As shown in the following figure, these are the TCP and Serial setups for W7500S
 
 ### Communication
 
-- **Clean Data Buffer when TCP Connected** - Whether to clear the serial port Buffer after connection establishment. This option will only be activated when it is enabled (checked) and the module is working TCP modes. **The default is disabled (unchecked)**. 
+- **Clean Data Buffer when TCP Connected** - Whether to clear the serial port Buffer after connection establishment. This option will only be activated when it is enabled (checked) and the module is working in TCP modes. **The default is disabled (unchecked)**. 
 
-- **Connect TCP Server when** - In TCP client mode, the user could choose the pirority for TCP client to connect the Server. It can be set as "Power on" to establish the connection immediately after "power-on" or wait until "Serial data received" to establish the connection after receiving data from the serial port. **The default is power-on and locked**
+- **Connect TCP Server when** - In TCP client mode, the user could choose the priority for TCP client to connect to the Server. It can be set as "Power on" to establish the connection immediately after "power-on" or wait until "Serial data received" to establish the connection after receiving data from the serial port. **The default is power-on and locked**.
 
-- **Request Admin Password** - This feature is activating connection verification password. It is effective when the device is operating in TCP Server mode. If the checkbox is checked, the client sends a connection request and establishes a connection in TCP Server mode, the client needs to send the device password to communicate with the module. Otherwise, the connection will be disconnected. **The default is disable (unchecked) and locked.**
+- **Request Admin Password** - This feature is activates the connection verification password. It is effective when the device is operating in TCP Server mode. If the checkbox is checked, the client sends a connection request and establishes a connection in TCP Server mode, the client needs to send the device password to communicate with the module. Otherwise, the connection will be disconnected. **The default is disabled (unchecked) and locked.**
 
 - **Auto Message** - Sends information after connection establishment. It is effective in TCP mode. You can choose "**No message" to not send information (default)**, "Send Device Name" to send the device name, "Send MAC Address" to send the device MAC address, or "Send IP Address" to send the device IP address.
 
 - **Inactivity Time (ms)** - Sets/Displays the time interval for timeout disconnection. This option is effective when the device is in TCP mode. The range of values is from 0 to 60000 in ms. **The default value is 0 (this function is disabled).**
 
-- **TCP Reconnection Time (ms)** - Sets/Displays the reconnection time. This option is effective when the device is in TCP Client mode. It sets the waiting time for the TCP Client to reconnect to the TCP Server after the connection is disconnected. **The default value is 0, it means immediate reconnection.** The range of values is from 0 to 60000 in ms.
+- **TCP Reconnection Time (ms)** - Sets/Displays the reconnection time. This option is effective when the device is in TCP Client mode. It sets the TCP Client's wait time before reconnecting  to the TCP Server after the connection is disconnected. **The default value is 0, which means immediate reconnection.** The range of values is from 0 to 60000 in ms.
 
 - **Keep Alive Time (5s)** - TCP connection keep alive time. This option is effective when the device is in TCP mode. The range of values is from 0 to 65536 with units of 5s. **The default value is 0 (this function is disabled).**
 

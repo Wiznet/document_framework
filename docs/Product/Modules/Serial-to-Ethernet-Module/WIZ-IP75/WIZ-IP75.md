@@ -42,7 +42,7 @@ W7500S2E integrated with the hardwired TCP/IP protocol MCU W7500. This enables a
   - Support NetBIOS allows user to identify module’s name
   - Support user password authorization for security
   - Support serial AT command configuration method
-  - Built-in web server for browser and remote configuring
+  - Built-in web server for browser and remote configuration
   - Provide user-friendly configuration tool program (WIZS2E ConfigTool)
 
 
@@ -53,7 +53,7 @@ This section provides key documentation, including user manuals and datasheets, 
 | Title | Description | Link | Notes |
 |-------|-------------|------|-------|
 | User's Manual  | Product usage instructions | ![link](\img\docs_icon_small.png) [EN](\img\products\wiz-ip51s\WIZ-IP75_User_Manual_V1.0.pdf) | - |
-| Datasheet | Technical specifications | - | TBD |
+| Datasheet | Technical specifications | ![link](\img\docs_icon_small.png) [EN](./Datasheet_ip75.md) | - |
 
 
 ## Setup & Configuration

@@ -575,8 +575,7 @@ The following are the information for W7500S2E:
 | Example                                                      | Command: AT+DNSEN=1\r\n                                      |                           |
 |                                                              | Response: [DNSEN] Value is:  1\r\nOK\r\n                     |                           |
 
-**Description**: This setting takes effect only when the module operates in TCP Client or UDP mode on the serial channel. After enabling DNS functionality, W7500S2E can access remote hosts by domain name and 
- perform a DNS query at each power-up. 
+**Description**: This setting takes effect only when the module operates in TCP Client or UDP mode on the serial channel. After enabling DNS functionality, W7500S2E can access remote hosts by domain name and perform a DNS query at each power-up. 
 
 <span style={{ color: 'red' }}>Note: </span>
 

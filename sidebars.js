@@ -1476,7 +1476,7 @@ module.exports = {
 										label: 'Documentation',
 										link: {type: 'generated-index', slug: '/Product/Modules/Serial-to-Ethernet-Module/W5500S2E-S1/#documentation'}, 
 										items: [
-												{ type: 'link', label: 'User Manual', href: '/Product/Modules/Serial-to-Ethernet-Module/W5500S2E-S1/#documentation'},
+												'Product/Modules/Serial-to-Ethernet-Module/W5500S2E-S1/datasheet-s1',
 
 										],
 									},
@@ -1530,10 +1530,7 @@ module.exports = {
 										label: 'Documentation',
 										link: {type: 'generated-index', slug: '/Product/Modules/Serial-to-Ethernet-Module/W5500S2E-Z1/#documentation'}, 
 										items: [
-												{ type: 'link', label: 'User Manual', href: '/Product/Modules/Serial-to-Ethernet-Module/W5500S2E-Z1/#documentation'},
-											// 'Product/Modules/Serial-to-Ethernet-Module/WIZ750SR/users-manual-EN',
-											// 'Product/Modules/Serial-to-Ethernet-Module/WIZ750SR/users-manual-KO',
-											// 'Product/Modules/Serial-to-Ethernet-Module/WIZ750SR/datasheet',
+												'Product/Modules/Serial-to-Ethernet-Module/W5500S2E-Z1/datasheet-z1',
 										],
 									},
 									{
@@ -1585,10 +1582,7 @@ module.exports = {
 										label: 'Documentation',
 										link: {type: 'generated-index', slug: '/Product/Modules/Serial-to-Ethernet-Module/W7500S2E-R1/#documentation'}, 
 										items: [
-												{ type: 'link', label: 'User Manual', href: '/Product/Modules/Serial-to-Ethernet-Module/W7500S2E-R1/#documentation'},
-											// 'Product/Modules/Serial-to-Ethernet-Module/WIZ750SR/users-manual-EN',
-											// 'Product/Modules/Serial-to-Ethernet-Module/WIZ750SR/users-manual-KO',
-											// 'Product/Modules/Serial-to-Ethernet-Module/WIZ750SR/datasheet',
+												'Product/Modules/Serial-to-Ethernet-Module/W7500S2E-R1/datasheet-r1',
 										],
 									},
 									{
@@ -1642,8 +1636,8 @@ module.exports = {
 										label: 'Documentation',
 										link: {type: 'generated-index', slug: '/Product/Modules/Serial-to-Ethernet-Module/WIZDTU/#documentation'}, 
 										items: [
-												{ type: 'link', label: 'User Manual', href: '/Product/Modules/Serial-to-Ethernet-Module/WIZDTU/#documentation'},
-
+												//{ type: 'link', label: 'User Manual', href: '/Product/Modules/Serial-to-Ethernet-Module/WIZDTU/#documentation'},
+												'Product/Modules/Serial-to-Ethernet-Module/WIZDTU/datasheet-dtu',
 										],
 									},
 									{
@@ -1799,10 +1793,7 @@ module.exports = {
 										label: 'Documentation',
 										link: {type: 'generated-index', slug: '/Product/Modules/Serial-to-Ethernet-Module/WIZ-IP32/#documentation'}, 
 										items: [
-												{ type: 'link', label: 'User Manual', href: '/Product/Modules/Serial-to-Ethernet-Module/WIZ-IP32/#documentation'},
-											// 'Product/Modules/Serial-to-Ethernet-Module/WIZ750SR/users-manual-EN',
-											// 'Product/Modules/Serial-to-Ethernet-Module/WIZ750SR/users-manual-KO',
-											// 'Product/Modules/Serial-to-Ethernet-Module/WIZ750SR/datasheet',
+												'Product/Modules/Serial-to-Ethernet-Module/WIZ-IP32/datasheet-ip32',
 
 										],
 									},
@@ -1859,10 +1850,7 @@ module.exports = {
 										label: 'Documentation',
 										link: {type: 'generated-index', slug: '/Product/Modules/Serial-to-Ethernet-Module/WIZ-IP75/#documentation'}, 
 										items: [
-												{ type: 'link', label: 'User Manual', href: '/Product/Modules/Serial-to-Ethernet-Module/WIZ-IP75/#documentation'},
-											// 'Product/Modules/Serial-to-Ethernet-Module/WIZ750SR/users-manual-EN',
-											// 'Product/Modules/Serial-to-Ethernet-Module/WIZ750SR/users-manual-KO',
-											// 'Product/Modules/Serial-to-Ethernet-Module/WIZ750SR/datasheet',
+												'Product/Modules/Serial-to-Ethernet-Module/WIZ-IP75/datasheet-ip75',
 										],
 									},
 									{
