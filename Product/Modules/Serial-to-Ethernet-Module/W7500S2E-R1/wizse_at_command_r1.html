@@ -16,8 +16,8 @@
 <link rel="search" type="application/opensearchdescription+xml" title="WIZnet Document System" href="/opensearch.xml">
 <link rel="preconnect" href="https://cdn.channel.io">
 <script>!function(){var n=window;if(n.ChannelIO)return(window.console.error||window.console.log||function(){})("ChannelIO script included twice.");var e=function(){e.c(arguments)};function t(){if(!n.ChannelIOInitialized){n.ChannelIOInitialized=!0;var e=document.createElement("script");e.type="text/javascript",e.async=!0,e.src="https://cdn.channel.io/plugin/ch-plugin-web.js",e.charset="UTF-8";var t=document.getElementsByTagName("script")[0];t.parentNode.insertBefore(e,t)}}e.q=[],e.c=function(n){e.q.push(n)},n.ChannelIO=e,"complete"===document.readyState?t():window.attachEvent?window.attachEvent("onload",t):(window.addEventListener("DOMContentLoaded",t,!1),window.addEventListener("load",t,!1))}(),ChannelIO("boot",{pluginKey:"cb95c060-ab4c-45ec-bbe8-fe40a1ea3aec"})</script><link rel="stylesheet" href="/assets/css/styles.e63e7729.css">
-<script src="/assets/js/runtime~main.65a8dd65.js" defer="defer"></script>
-<script src="/assets/js/main.0ad98282.js" defer="defer"></script>
+<script src="/assets/js/runtime~main.ff83779e.js" defer="defer"></script>
+<script src="/assets/js/main.ce0b258b.js" defer="defer"></script>
 </head>
 <body class="navigation-with-keyboard">
 <svg xmlns="http://www.w3.org/2000/svg" style="display: none;"><defs>
@@ -194,8 +194,7 @@
 <hr>
 <h3 class="anchor anchorWithHideOnScrollNavbar_WYt5" id="dnsendns-enable">DNSEN(DNS enable)<a href="#dnsendns-enable" class="hash-link" aria-label="Direct link to DNSEN(DNS enable)" title="Direct link to DNSEN(DNS enable)">​</a></h3>
 <table><thead><tr><th><strong>Command format</strong></th><th><strong>Parameters</strong></th><th><strong>Function  Description</strong></th></tr></thead><tbody><tr><td>AT+DNSEN?</td><td>Nil</td><td>Query current value</td></tr><tr><td>AT+DNSEN=<span style="color:blue"><strong>Parameters</strong></span></td><td><strong>0: Disable DNS function (default)</strong></td><td>Set new value</td></tr><tr><td></td><td>1: Enable DNS function</td><td></td></tr><tr><td>Response</td><td>[DNSEN] Value is:  <span style="color:green"><strong>Value</strong></span>\r\nOK\r\n</td><td></td></tr><tr><td>Example</td><td>Command: AT+DNSEN=1\r\n</td><td></td></tr><tr><td></td><td>Response: [DNSEN] Value is:  1\r\nOK\r\n</td><td></td></tr></tbody></table>
-<p><strong>Description</strong>: This setting takes effect only when the module operates in TCP Client or UDP mode on the serial channel. After enabling DNS functionality, W7500S2E can access remote hosts by domain name and
-perform a DNS query at each power-up.</p>
+<p><strong>Description</strong>: This setting takes effect only when the module operates in TCP Client or UDP mode on the serial channel. After enabling DNS functionality, W7500S2E can access remote hosts by domain name and perform a DNS query at each power-up.</p>
 <span style="color:red">Note: </span>
 <span style="color:red"> 1. If enabled and &quot;C1_DOMAIN&quot; is set, the &quot;C1_CLI_IP1&quot; command becomes invalid. The module communicates with the host defined by &quot;C1_DOMAIN&quot;</span>
 <span style="color:red"> 2. If disabled and &quot;C1_CLI_IP1&quot; is set, the &quot;C1_DOMAIN&quot; command becomes invalid. The module communicates with the IP defined by &quot;C1_CLI_IP1&quot;  </span>

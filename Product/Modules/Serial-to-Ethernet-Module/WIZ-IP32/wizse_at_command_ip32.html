@@ -16,8 +16,8 @@
 <link rel="search" type="application/opensearchdescription+xml" title="WIZnet Document System" href="/opensearch.xml">
 <link rel="preconnect" href="https://cdn.channel.io">
 <script>!function(){var n=window;if(n.ChannelIO)return(window.console.error||window.console.log||function(){})("ChannelIO script included twice.");var e=function(){e.c(arguments)};function t(){if(!n.ChannelIOInitialized){n.ChannelIOInitialized=!0;var e=document.createElement("script");e.type="text/javascript",e.async=!0,e.src="https://cdn.channel.io/plugin/ch-plugin-web.js",e.charset="UTF-8";var t=document.getElementsByTagName("script")[0];t.parentNode.insertBefore(e,t)}}e.q=[],e.c=function(n){e.q.push(n)},n.ChannelIO=e,"complete"===document.readyState?t():window.attachEvent?window.attachEvent("onload",t):(window.addEventListener("DOMContentLoaded",t,!1),window.addEventListener("load",t,!1))}(),ChannelIO("boot",{pluginKey:"cb95c060-ab4c-45ec-bbe8-fe40a1ea3aec"})</script><link rel="stylesheet" href="/assets/css/styles.e63e7729.css">
-<script src="/assets/js/runtime~main.65a8dd65.js" defer="defer"></script>
-<script src="/assets/js/main.0ad98282.js" defer="defer"></script>
+<script src="/assets/js/runtime~main.ff83779e.js" defer="defer"></script>
+<script src="/assets/js/main.ce0b258b.js" defer="defer"></script>
 </head>
 <body class="navigation-with-keyboard">
 <svg xmlns="http://www.w3.org/2000/svg" style="display: none;"><defs>
@@ -124,10 +124,20 @@
 <h3 class="anchor anchorWithHideOnScrollNavbar_WYt5" id="resetsave-and-restart-the-module">RESET(Save and restart the module)<a href="#resetsave-and-restart-the-module" class="hash-link" aria-label="Direct link to RESET(Save and restart the module)" title="Direct link to RESET(Save and restart the module)">​</a></h3>
 <table><thead><tr><th><strong>Command format</strong></th><th><strong>Parameters</strong></th><th><strong>Function  Description</strong></th></tr></thead><tbody><tr><td>AT+RESET=<span style="color:blue"><strong>Parameters</strong></span></td><td>module password</td><td>Set new value</td></tr><tr><td></td><td><strong>Default: admin</strong></td><td></td></tr><tr><td>Response</td><td>OK\r\n</td><td></td></tr><tr><td>Example</td><td>Command: AT+RESET=admin\r\n</td><td></td></tr><tr><td></td><td>Response: OK\r\n</td><td></td></tr></tbody></table>
 <p><strong>Description:</strong></p>
-<p>1    Save the current configuration information;</p>
-<p>2    Restart the module to make the configuration information take effect;</p>
-<p>3    When users need to directly enter data transmission mode during the next power on, they can configure the parameter value of the &quot;AT+START-MODE=1\r\n&quot; command to be 1, and then configure the &quot;RESET&quot; command;</p>
-<p>4    The module password can be queried and set through the &quot;PASS&quot; command.</p>
+<ol>
+<li>
+<p>Save the current conﬁguration information</p>
+</li>
+<li>
+<p>Restart the converter to make the conﬁguration information take eﬀect</p>
+</li>
+<li>
+<p>When users need to directly enter data transmission mode during the next power on, they can conﬁgure the parameter value of the &quot;AT+START-MODE=1\r\n&quot; command to be 1, and then conﬁgure the &quot;RESET&quot; command</p>
+</li>
+<li>
+<p>The converter password can be queried and set through the &quot;PASS&quot; command</p>
+</li>
+</ol>
 <a href="#at"><button>Back</button></a>
 <hr>
 <h3 class="anchor anchorWithHideOnScrollNavbar_WYt5" id="exitsave-and-exit-command-mode">EXIT(Save and exit command mode)<a href="#exitsave-and-exit-command-mode" class="hash-link" aria-label="Direct link to EXIT(Save and exit command mode)" title="Direct link to EXIT(Save and exit command mode)">​</a></h3>
@@ -264,7 +274,7 @@
 <hr>
 <h3 class="anchor anchorWithHideOnScrollNavbar_WYt5" id="cch_buf_clsclear-buffer-if-connected">C[CH]_BUF_CLS(Clear Buffer if Connected)<a href="#cch_buf_clsclear-buffer-if-connected" class="hash-link" aria-label="Direct link to C[CH]_BUF_CLS(Clear Buffer if Connected)" title="Direct link to C[CH]_BUF_CLS(Clear Buffer if Connected)">​</a></h3>
 <table><thead><tr><th><strong>Command format</strong></th><th><strong>Parameters</strong></th><th><strong>Function  Description</strong></th></tr></thead><tbody><tr><td>AT+C[CH]_BUF_CLS?</td><td>Nil</td><td>Query current value</td></tr><tr><td>AT+C[CH]_BUF_CLS=<span style="color:blue"><strong>parameter</strong></span></td><td><strong>0: Do not clear the serial port buffer  after establishing a connection (default)</strong></td><td>Set new value</td></tr><tr><td></td><td>1: Clear the serial port buffer after  establishing a connection</td><td></td></tr><tr><td>Response</td><td>[C[CH]_BUF_CLS] Value is:  <span style="color:green"><strong>value</strong></span>\r\nOK\r\n</td><td></td></tr><tr><td>Example</td><td>Command: AT+C1_BUF_CLS=1\r\n</td><td></td></tr><tr><td></td><td>Response: [C1_BUF_CLS] Value is:  1\r\nOK\r\n</td><td></td></tr></tbody></table>
-<p><strong>Description</strong>: The module is effective when running in TCP mode and data transparent mode. If the connection suddenly disconnects during data exchange, there may be some data in the serial buffer that has not been sent. This command can be used to determine whether to send this data after the connection is reestablished.</p>
+<p><strong>Description</strong>: The converter is eﬀective when running  in TCP mode and data transparent mode. If the connection suddenly disconnects during data exchange, some data may remain in the serial buﬀer and not be sent. This command can be used to determine whether to send this data after the connection is reestablished.</p>
 <a href="#at3"><button>Back</button></a>
 <hr>
 <h3 class="anchor anchorWithHideOnScrollNavbar_WYt5" id="cch_ser_lenserial-packaging-length">C[CH]_SER_LEN(Serial packaging Length)<a href="#cch_ser_lenserial-packaging-length" class="hash-link" aria-label="Direct link to C[CH]_SER_LEN(Serial packaging Length)" title="Direct link to C[CH]_SER_LEN(Serial packaging Length)">​</a></h3>
@@ -279,8 +289,8 @@
 <hr>
 <h3 class="anchor anchorWithHideOnScrollNavbar_WYt5" id="cch_itinactivity-timeout">C[CH]_IT(Inactivity timeout)<a href="#cch_itinactivity-timeout" class="hash-link" aria-label="Direct link to C[CH]_IT(Inactivity timeout)" title="Direct link to C[CH]_IT(Inactivity timeout)">​</a></h3>
 <table><thead><tr><th><strong>Command format</strong></th><th><strong>Parameters</strong></th><th><strong>Function  Description</strong></th></tr></thead><tbody><tr><td>AT+C[CH]_IT?</td><td>Nil</td><td>Query current value</td></tr><tr><td>AT+C[CH]_IT=<span style="color:blue"><strong>parameter</strong></span></td><td>The time interval for timeout  disconnection, with a value range of:  0~60000, unit: ms, <strong>default: 0 (disable  this function)</strong></td><td>Set new value</td></tr><tr><td>Response</td><td>[C[CH]_IT] Value is: <span style="color:green"><strong>value</strong></span>\r\nOK\r\n</td><td></td></tr><tr><td>Example</td><td>Command: AT+C1_IT=1000\r\n</td><td></td></tr><tr><td></td><td>Response: [C1_IT] Value is:  1000\r\nOK\r\n</td><td></td></tr></tbody></table>
-<p><strong>Description</strong>: The command is valid in TCP mode and data transparent mode. When the module operates in TCP mode, whether as a server or client, there may be situations where the other party has disconnected (forced disconnection or network failure), and the module is not aware of the disconnection message and continues to maintain this invalid connection. There will be an error where data cannot be delivered when either party initiates communication.</p>
-<p>By setting this parameter, it disconnects the TCP connection when the serial or Ethernet interface does not receive new data within a continuous timeout period during communication. When the value is set to 0, it means disable this function.</p>
+<p><strong>Description</strong>: The command is valid in TCP mode and  data transparent mode. When the converter operates in TCP mode, whether as a server or client, there may be situations in which the other party has disconnected (e.g., due to a forced disconnection or network failure), and the converter is unaware of the disconnection message and continues to maintain an invalid connection. There will be an error when either party initiates communication, preventing data delivery.</p>
+<p>Setting this parameter disconnects the TCP connection if the serial or Ethernet interface does not receive new data within a continuous timeout period during communication. Setting the value to 0 disables this function.</p>
 <a href="#at3"><button>Back</button></a>
 <hr>
 <h3 class="anchor anchorWithHideOnScrollNavbar_WYt5" id="cch_tcpattcp-keepalive-interval">C[CH]_TCPAT(TCP keepalive interval)<a href="#cch_tcpattcp-keepalive-interval" class="hash-link" aria-label="Direct link to C[CH]_TCPAT(TCP keepalive interval)" title="Direct link to C[CH]_TCPAT(TCP keepalive interval)">​</a></h3>
@@ -295,12 +305,12 @@
 <hr>
 <h3 class="anchor anchorWithHideOnScrollNavbar_WYt5" id="cch_link_tconnection-condition">C[CH]_LINK_T(Connection Condition)<a href="#cch_link_tconnection-condition" class="hash-link" aria-label="Direct link to C[CH]_LINK_T(Connection Condition)" title="Direct link to C[CH]_LINK_T(Connection Condition)">​</a></h3>
 <table><thead><tr><th><strong>Command format</strong></th><th><strong>Parameters</strong></th><th><strong>Function  Description</strong></th></tr></thead><tbody><tr><td>AT+C[CH]_LINK_T?</td><td>Nil</td><td>Query current value</td></tr><tr><td>AT+C[CH]_LINK_T=<span style="color:blue"><strong>parameter</strong></span></td><td><strong>0: Establish connection immediately  after power on (default)</strong></td><td>Set new value</td></tr><tr><td></td><td>1: Establish a connection after  receiving data through the serial port</td><td></td></tr><tr><td>Response</td><td>[C[CH]_LINK_T] Value is:  <span style="color:green"><strong>value</strong></span>\r\nOK\r\n</td><td></td></tr><tr><td>Example</td><td>Command: AT+C1_LINK_T=1\r\n</td><td></td></tr><tr><td></td><td>Response: [C1_LINK_T] Value is:  1\r\nOK\r\n</td><td></td></tr></tbody></table>
-<p><strong>Description</strong>: This command is valid in TCP Client mode and data transparent mode. This command is used to configure under what conditions the module establishes a connection with TCP Server. When configured as Establish connection after receiving data through serial channel , the module will not initiate a connection to the server until the module&#x27;s serial channel receives the first packet of data and immediately initiates a connection request to the server. After successful connection, the module&#x27;s serial channel will send the first packet of data to the server and start normal data transmission mode.</p>
+<p><strong>Description</strong>: This command is valid in TCP Client mode  and data transparent mode. This command is used to conﬁgure under what conditions the converter establishes a connection with TCP Server. When conﬁgured to establish connection after receiving data through the serial channel, the converter will not initiate a connection to the server until it gets the ﬁrst packet of data, and it will then immediately send a connection request to the server. After a successful connection, the converter&#x27;s serial channel will send the ﬁrst data packet to the server and enter normal data transmission mode.</p>
 <a href="#at3"><button>Back</button></a>
 <hr>
 <h3 class="anchor anchorWithHideOnScrollNavbar_WYt5" id="cch_link_msend-hello-message">C[CH]_LINK_M(Send Hello Message)<a href="#cch_link_msend-hello-message" class="hash-link" aria-label="Direct link to C[CH]_LINK_M(Send Hello Message)" title="Direct link to C[CH]_LINK_M(Send Hello Message)">​</a></h3>
 <table><thead><tr><th><strong>Command format</strong></th><th><strong>Parameters</strong></th><th><strong>Function  Description</strong></th></tr></thead><tbody><tr><td>AT+C[CH]_LINK_M?</td><td>Nil</td><td>Query current value</td></tr><tr><td>AT+C[CH]_LINK_M=<span style="color:blue"><strong>parameter</strong></span></td><td><strong>0: Do not send messages (default)</strong></td><td>Set new value</td></tr><tr><td></td><td>1: Send module name</td><td></td></tr><tr><td></td><td>2: Send module MAC address</td><td></td></tr><tr><td></td><td>3: Send module IP address</td><td></td></tr><tr><td>Response</td><td>[C[CH]_LINK_M] Value is:  <span style="color:green"><strong>value</strong></span>\r\nOK\r\n</td><td></td></tr><tr><td>Example</td><td>Command: AT+C1_LINK_M=1\r\n</td><td></td></tr><tr><td></td><td>Response: [C1_LINK_M] Value is:  1\r\nOK\r\n</td><td></td></tr></tbody></table>
-<p><strong>Description</strong>: The command is valid in TCP Client mode and is valid in both data transparent mode and AT command transmission data mode. This command is used to configure the information that the module sends immediately after the connection is established.</p>
+<p><strong>Description</strong>: The command is valid in TCP Client mode  and is valid in both data transparent mode and AT command transmission data mode. This command is used to conﬁgure the information that the converter sends immediately after the connection is established.</p>
 <a href="#at3"><button>Back</button></a>
 <hr>
 <h2 class="anchor anchorWithHideOnScrollNavbar_WYt5" id="management-commands">Management commands<a href="#management-commands" class="hash-link" aria-label="Direct link to Management commands" title="Direct link to Management commands">​</a></h2>
@@ -354,7 +364,7 @@
 <hr>
 <h3 class="anchor anchorWithHideOnScrollNavbar_WYt5" id="web_portweb-port-number">WEB_PORT(Web port number)<a href="#web_portweb-port-number" class="hash-link" aria-label="Direct link to WEB_PORT(Web port number)" title="Direct link to WEB_PORT(Web port number)">​</a></h3>
 <table><thead><tr><th><strong>Command format</strong></th><th><strong>Parameters</strong></th><th><strong>Function  Description</strong></th></tr></thead><tbody><tr><td>AT+WEB_PORT?</td><td>Nil</td><td>Query current value</td></tr><tr><td>AT+WEB_PORT=<span style="color:blue"><strong>parameter</strong></span></td><td>Setting range: 1~65535, <strong>default: 80</strong></td><td>Set new value</td></tr><tr><td>Response</td><td>[WEB_PORT] Value is:  <span style="color:green"><strong>value</strong></span>\r\nOK\r\n</td><td></td></tr><tr><td>Example</td><td>Command: AT+WEB_PORT=80\r\n</td><td></td></tr><tr><td></td><td>Response: [WEB_PORT] Value is:  80\r\nOK\r\n</td><td></td></tr></tbody></table>
-<p><strong>Description</strong>: This port number to access module&#x27;s web page configuration site through a web browser, and it is not recommended to modify it. If configured with any port number other than 80, when accessing the module through a browser, the address bar should enter &quot;IP: Port&quot;, for example: 192.168.1.88:8000.</p>
+<p><strong>Description</strong>: This port number is used to access the  converter&#x27;s web page conﬁguration site through a web browser, and it is not recommended to modify it. If conﬁgured with any port number other than 80, when accessing the converter  through a browser, the address bar should enter &quot;IP: Port&quot;, for example: 192.168.1.88:8000.</p>
 <p><span style="color:red"><strong>Note:</strong> Some protocols in the Ethernet protocol have default port numbers, which should be avoided. The default occupied port numbers are shown in the</span> <a href="#appendix">appendix</a>.</p>
 <br>
 <a href="#at4"><button>Back</button></a>
@@ -367,7 +377,7 @@
 <h3 class="anchor anchorWithHideOnScrollNavbar_WYt5" id="cch_listenestablish-tcp-listening">C[CH]_LISTEN(Establish TCP listening)<a href="#cch_listenestablish-tcp-listening" class="hash-link" aria-label="Direct link to C[CH]_LISTEN(Establish TCP listening)" title="Direct link to C[CH]_LISTEN(Establish TCP listening)">​</a></h3>
 <table><thead><tr><th><strong>Command format</strong></th><th><strong>Parameters</strong></th><th><strong>Function  Description</strong></th></tr></thead><tbody><tr><td>AT+C[CH]_LISTEN</td><td>Nil</td><td>Execute immediately</td></tr><tr><td>Response</td><td>OK\r\n</td><td></td></tr><tr><td></td><td>TCP listening has been established</td><td></td></tr><tr><td>Error Response</td><td><span style="color:red"><strong>Error Info</strong></span>\r\n</td><td></td></tr><tr><td></td><td>The module is not in TCP Server mode</td><td></td></tr><tr><td>Example</td><td>Command: AT+C1_LISTEN\r\n</td><td></td></tr><tr><td></td><td>Response: OK\r\n</td><td></td></tr></tbody></table>
 <p><strong>Description</strong>: The command is valid when the module is running in TCP Server mode, which means that the command can only be configured correctly when the &quot;C[CH]_OP&quot; command parameter is &quot;0&quot;, otherwise an error will be reported. It can be closed through the &quot;DISCON&quot; command.</p>
-<span style="color:red"><strong>Note</strong>: After configuring this command, it is necessary to check whether the TCP connection has been established through the &quot;C[CH]_TCP_STATUS&quot; command.</span>
+<span style="color:red"><strong>Note</strong>: After conﬁguring this command, check whether the TCP connection has been established using the &quot;C[CH]_TCP_STATUS&quot; command. </span>
 <br>
 <a href="#at5"><button>Back</button></a>
 <hr>
@@ -391,11 +401,19 @@
 <h3 class="anchor anchorWithHideOnScrollNavbar_WYt5" id="cch_sendnumber-of-bytes-of-data-to-be-sent">C[CH]_SEND(Number of bytes of data to be sent)<a href="#cch_sendnumber-of-bytes-of-data-to-be-sent" class="hash-link" aria-label="Direct link to C[CH]_SEND(Number of bytes of data to be sent)" title="Direct link to C[CH]_SEND(Number of bytes of data to be sent)">​</a></h3>
 <table><thead><tr><th><strong>Command format</strong></th><th><strong>Parameters</strong></th><th><strong>Function  Description</strong></th></tr></thead><tbody><tr><td>AT+C[CH]_SEND=<span style="color:blue"><strong>parameter</strong></span></td><td>Set the length of data to be sent from the serial port,  Range: 0~2048, <strong>default: 0 (any length)</strong></td><td>Set new value</td></tr><tr><td>Response</td><td>[C[CH]_SEND] Value is:  <span style="color:green"><strong>value</strong></span>\r\nOK\r\n</td><td></td></tr><tr><td>Example1</td><td>Assuming the module is in TCP mode  and the TCP connection is normal:</td><td></td></tr><tr><td></td><td>Command: AT+C1_TCP_STATUS?\r\n</td><td></td></tr><tr><td></td><td>Response: [C1_TCP_STATUS] Value is:  1\r\nOK\r\n</td><td></td></tr><tr><td></td><td>Command: AT+C1_SEND=5\r\n</td><td></td></tr><tr><td></td><td>Response: [C1_SEND] Value is: 5\r\nOK\r\n</td><td></td></tr><tr><td></td><td>Sending data to module&#x27;s serial port:  12345   Response: 5</td><td></td></tr><tr><td>Example2</td><td>Assuming the module is in TCP mode  and the TCP connection is abnormal:</td><td></td></tr><tr><td></td><td>Command: AT+C1_TCP_STATUS?\r\n</td><td></td></tr><tr><td></td><td>Response: [C1_TCP_STATUS] Value is:  0\r\nOK\r\n</td><td></td></tr><tr><td></td><td>Command: AT+C1_SEND=5\r\n</td><td></td></tr><tr><td></td><td>Response: [C1_SEND] Value is:  5\r\nOK\r\n</td><td></td></tr><tr><td></td><td>Sending data to module serial port:  12345   Response: 0</td><td></td></tr></tbody></table>
 <p><strong>Description</strong>:</p>
-<p>1    If the module is running in TCP Server or TCP Client mode, before configuring this command, it is necessary to check whether the TCP connection has been established by checking from result of the &quot; TCP_STATUS&quot; command;</p>
-<p>2    After successfully configuring the command, the serial port will receive the corresponding return value. The next serial data will be considered as data input and send out data, then it exits the data transmission and enter AT command mode;</p>
-<p>3    If the specified sending length is 0, the serial port will default to pack the inputted data at 50ms frame intervals. Starting from the first byte sent through the serial channel, if the idle time of the serial channel exceeds 50ms thereafter, the data will be immediately sent out. If the continuous byte length of the serial channel reaches 2048, the excess will be automatically discarded;</p>
-<p>4    If the specified sending length is not 0, the serial channel will be packaged according to its length, and the specified length of characters will be immediately packaged and sent to the module&#x27;s serial channel. If it exceeds the specified length, the excess part will be automatically discarded; If it is less than the specified length, it will wait indefinitely;</p>
-<p>5    After the data is successfully sent from the module&#x27;s network port, the module&#x27;s serial channel will immediately output a reply message in the format of &quot;<span style="color:green">len</span>&quot;.<span style="color:green">len</span>: The number of bytes of data successfully sent from the module&#x27;s network port, which users can use to determine whether their data has been successfully sent.</p>
+<ol>
+<li>If the converter is running in TCP Server or TCP Client mode, before conﬁguring this command, it is necessary to check whether the TCP connection has been established by checking the result of the &quot; TCP_STATUS&quot; command.</li>
+<li>After successfully conﬁguring the command, the serial port will receive the corresponding return value. The following serial data will be considered input data, sent as output data, then the data transmission exits and enters AT command mode.</li>
+</ol>
+<p>3 If the speciﬁed sending length is 0, the serial port will default to pack the input data at 50ms frame intervals. Starting from the ﬁrst byte sent over the serial channel, if the channel&#x27;s idle time exceeds 50ms, the data will be sent immediately. If the continuous byte length of the serial channel reaches 2048, the excess will be automatically discarded.</p>
+<ol start="4">
+<li>
+<p>If the speciﬁed sending length is not 0, the serial channel will be packaged according to its length, and the speciﬁed length of characters will be immediately packaged and sent to the converter&#x27;s serial channel. If it exceeds the speciﬁed length, the excess part will be automatically discarded; If it is less than the speciﬁed length, it will wait indeﬁnitely.</p>
+</li>
+<li>
+<p>After the data is successfully sent from the module&#x27;s network port, the module&#x27;s serial channel will immediately output a reply message in the format of &quot;<span style="color:green">len</span>&quot;.<span style="color:green">len</span>: The number of bytes of data successfully sent from the module&#x27;s network port, which users can use to determine whether their data has been successfully sent.</p>
+</li>
+</ol>
 <a href="#at5"><button>Back</button></a>
 <hr>
 <h3 class="anchor anchorWithHideOnScrollNavbar_WYt5" id="cch_rlennumber-of-bytes-of-data-to-be-received">C[CH]_RLEN(Number of bytes of data to be received)<a href="#cch_rlennumber-of-bytes-of-data-to-be-received" class="hash-link" aria-label="Direct link to C[CH]_RLEN(Number of bytes of data to be received)" title="Direct link to C[CH]_RLEN(Number of bytes of data to be received)">​</a></h3>
@@ -406,10 +424,20 @@
 <h3 class="anchor anchorWithHideOnScrollNavbar_WYt5" id="cch_rcvreceiving-data">C[CH]_RCV(Receiving data)<a href="#cch_rcvreceiving-data" class="hash-link" aria-label="Direct link to C[CH]_RCV(Receiving data)" title="Direct link to C[CH]_RCV(Receiving data)">​</a></h3>
 <table><thead><tr><th><strong>Command format</strong></th><th><strong>Parameters</strong></th><th><strong>Function  Description</strong></th></tr></thead><tbody><tr><td>AT+C[CH]_RCV=<span style="color:blue"><strong>parameter</strong></span></td><td>Specify the length of data to be  received from the serial port,  Range: 0~2048, <strong>default: 0 (receive all)</strong></td><td>Set new value and Execute immediately</td></tr><tr><td>Response</td><td>[RCV] Value is:  <span style="color:green"><strong>value</strong></span>\r\nOK\r\n<span style="color:green"><strong>data</strong></span></td><td></td></tr><tr><td></td><td>Explain:  <span style="color:green"><strong>value</strong></span>: Number of received data  bytes</td><td></td></tr><tr><td></td><td><span style="color:green"><strong>data</strong></span>: Received data</td><td></td></tr><tr><td>Example</td><td>Data to be received: abcdef</td><td></td></tr><tr><td></td><td>Command: AT+C1_RCV=0\r\n</td><td></td></tr><tr><td></td><td>Response: [C1_RCV] Value is:  6\r\nOK\r\nabcdef</td><td></td></tr></tbody></table>
 <p><strong>Description</strong>:</p>
-<p>1    If the module is running in TCP Server or TCP Client mode, before configuring this command, it is necessary to check whether the TCP connection has been established by checking from result of the &quot; TCP_STATUS&quot; command；</p>
-<p>2    After successfully configuring the command, the module serial channel will output data from the network port receiving cache, then exit data reception and enter AT command mode;</p>
-<p>3    The size of the cache received by the 3 network ports is 2048 bytes. If the total length of data in the cache received by the network port is equal to 2048 bytes, the network port will no longer receive data;</p>
-<p>4    If the length of the data in the cache received by the network port is less than the specified length set by the &quot;RCV&quot; command, it will not be received. Thus, the number of received data bytes is 0.</p>
+<ol>
+<li>
+<p>If the converter is running in TCP Server or TCP Client mode, before conﬁguring this command, it is necessary to check whether the TCP connection has been established by checking the result of the &quot; C[CH]_TCP_STATUS&quot; command.</p>
+</li>
+<li>
+<p>After successfully conﬁguring the command, the converter serial channel will output data from the network port receiving cache, then exit data reception and enter AT command mode.</p>
+</li>
+<li>
+<p>The size of the cache received by the three network ports is 2048 bytes. If the total length of data received by the network port from the cache is 2048 bytes, the network port will stop receiving data.</p>
+</li>
+<li>
+<p>If the length of the data in the cache received by the network port is less than the speciﬁed length set by the &quot;C[CH]_RCV&quot; command, it will not be received. Thus, the number of received data bytes is 0.</p>
+</li>
+</ol>
 <a href="#at5"><button>Back</button></a>
 <hr>
 <h3 class="anchor anchorWithHideOnScrollNavbar_WYt5" id="cch_clearclear-the-network-port-receiving-cache">C[CH]_CLEAR(Clear the network port receiving cache)<a href="#cch_clearclear-the-network-port-receiving-cache" class="hash-link" aria-label="Direct link to C[CH]_CLEAR(Clear the network port receiving cache)" title="Direct link to C[CH]_CLEAR(Clear the network port receiving cache)">​</a></h3>
