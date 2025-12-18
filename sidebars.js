@@ -1339,7 +1339,7 @@ module.exports = {
 										items: [
 											// 'Product/Modules/Serial-to-Ethernet-Module/WIZ500SR-RP/users-manual-EN',
 											// 'Product/Modules/Serial-to-Ethernet-Module/WIZ500SR-RP/users-manual-KO',
-											'Product/Modules/Serial-to-Ethernet-Module/WIZ500SR-RP/datasheet-en',
+											'Product/Modules/Serial-to-Ethernet-Module/WIZ500SR-RP/datasheet',
 										],
 									},
 									{
