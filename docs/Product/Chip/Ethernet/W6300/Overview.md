@@ -56,7 +56,7 @@ TBD
 
 | **Title** | **Description** | **Notes** |
 | --------- | --------------- | --------- |
-| [![link](/img/products/w5500/w5500_evb/icons/download.png) W6300 Datasheet (EN)](/img/products/w6300/20251204_W6300_DS_V101E.pdf) <br />  | Technical specifications and features of the W6300 chip | - |
+| [![link](/img/products/w5500/w5500_evb/icons/download.png) W6300 Datasheet (EN)](/img/products/w6300/20251204_W6300 DS_V101E.pdf) <br />  | Technical specifications and features of the W6300 chip | - |
 
 
 ---

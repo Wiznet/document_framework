@@ -9,6 +9,6 @@ description: w6300 チップは、WIZnet 技術によるフルハードワイヤ
 
 ## Datasheet
 
-英語 : <a href="/img/products/w6300/20251204_W6300_DS_V101E.pdf" target="_blank">W6300 データシート v1.0.0 [EN]</a>
+英語 : <a href="/img/products/w6300/20251204_W6300 DS_V101E.pdf" target="_blank">W6300 データシート v1.0.0 [EN]</a>
 
 -----
