@@ -464,7 +464,8 @@ export default function ContentWrapper(props) {
       },
       {
         match: ['/Product/iMCU/W55RP20',
-                '/Product/Chip/MCU/W55RP20'],
+                '/Product/Chip/MCU/W55RP20',
+                /^\/Product\/ioNIC\/W55RP20(?!\/W55RP20-S2E)(\/|$)/],
         target: '/Product/Chip/MCU/W55RP20',
       },
       {
@@ -505,17 +506,22 @@ export default function ContentWrapper(props) {
     return () => clearTimeout(timer);
   };
 
+  const isMatch = (pattern) => {
+      if (pattern instanceof RegExp) return pattern.test(location);
+      return location.startsWith(pattern);
+    };
+
   for (const r of redirects) {
     // match가 배열인 경우
     if (Array.isArray(r.match)) {
-      if (r.match.some(m => location.startsWith(m))) {
+      if (r.match.some(isMatch)) {
         return redirectWithDelay(r.target);
       }
     } 
-    // match가 문자열인 경우
-    else if (location.startsWith(r.match)) {
-      return redirectWithDelay(r.target);
-    }
+    // match가 문자열/정규식 단일인 경우
+    else if (isMatch(r.match)) {
+        return redirectWithDelay(r.target);
+      }
   }
 
   if (location.startsWith('/Product/S2E-Module/Industrial/')) {
