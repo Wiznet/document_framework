@@ -91,8 +91,8 @@ DHCP, DNS, MQTT, SNTP, TFTP, HTTP Server
 
 | **Example Name** | **Description** | **Notes** |
 |------------------|-----------------|-----------|
-| ![link](\img\link.png)[📄 Interrupt (KOR)](/img/products/w6300/application/W6300_AN_Interrupt_v100K.pdf) | How to use Interrupt | Interrupt handling guide for W6100 |
-| ![link](\img\link.png)[📄 Interrupt (ENG)](/img/products/w6300/application/W6300_AN_Interrupt_v100E.pdf) | How to use Interrupt | Interrupt handling guide for W6100 |
+| ![link](\img\link.png)[📄 Interrupt (KOR)](/img/products/w6300/application/W6300_AN_Interrupt_v100K.pdf) | How to use Interrupt | Interrupt handling guide for W6300 |
+| ![link](\img\link.png)[📄 Interrupt (ENG)](/img/products/w6300/application/W6300_AN_Interrupt_v100E.pdf) | How to use Interrupt | Interrupt handling guide for W6300 |
 | ![link](\img\link.png)[📄 IPRAW (KOR)](/img/products/w6300/application/W6300_AN_IPRAW_V100K.pdf) | How to use IPRAW | IPRAW mode guide for raw IPv4 communication |
 | ![link](\img\link.png)[📄 IPRAW (ENG)](/img/products/w6300/application/W6300_AN_IPRAW_V100E.pdf) | How to use IPRAW | IPRAW mode guide for raw IPv4 communication |
 | ![link](\img\link.png)[📄 AAC (KOR)](/img/products/w6300/application/W6300_Autoconfiguration_v100K.pdf) | How to implement Auto-Configuration | Stateless & Stateful IPv4/IPv6 address auto-configuration methods |
