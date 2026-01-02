@@ -1721,6 +1721,20 @@ module.exports = {
 									},
 									'Product/Modules/Serial-to-Ethernet-Module/W232N/firmware-update-guide-en',
 								],
+							},
+							{
+								type: 'category',
+								label: 'WIZMC-T1L',
+								link: {type: 'doc', id: 'Product/Modules/Ethernet-Module/WIZMC-T1L/wizmc-t1l'},
+								items: [
+									{
+										type: 'category',
+										label: 'Documentation',
+										items: [
+											'Product/Modules/Serial-to-Ethernet-Module/W232N/W232N-datasheet-kr',
+										],
+									},
+								],
 							},	
 
 							// here
@@ -1914,6 +1928,7 @@ module.exports = {
 							'Product/Modules/Ethernet-Module/wiz850io',
 							'Product/Modules/Ethernet-Module/wizip51s',
 							'Product/Modules/Ethernet-Module/wizip55',
+							'Product/Modules/Ethernet-Module/wizmc-t1l',
 						],
 					},
 					{
@@ -2367,3 +2382,4 @@ module.exports = {
 	},*/
 	],
 }; 
+
