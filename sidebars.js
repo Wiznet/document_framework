@@ -1928,7 +1928,7 @@ module.exports = {
 							'Product/Modules/Ethernet-Module/wiz850io',
 							'Product/Modules/Ethernet-Module/wizip51s',
 							'Product/Modules/Ethernet-Module/wizip55',
-							'Product/Modules/Ethernet-Module/wizmc-t1l',
+							'Product/Modules/Ethernet-Module/WIZMC-T1L/wizmc-t1l',
 						],
 					},
 					{
