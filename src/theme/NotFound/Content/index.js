@@ -300,6 +300,10 @@ export default function ContentWrapper(props) {
 
       /* Open-Source-Hardware */
       {
+        match:  '/Product/Open-Source-Hardware/wiznet-pico-poe',
+        target: '/Product/Modules/PoE/WIZnet-Pico-PoE',
+      },
+      {
         match: ['/Product/Open-Source-Hardware/rp2040_based',
                 '/Product/Open-Source-Hardware/wiznet_ethernet_hat',
                 '/Product/Open-Source-Hardware/wizfi360-evb-pico',

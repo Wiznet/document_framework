@@ -1962,6 +1962,7 @@ module.exports = {
 							//'Product/Modules/PoE/WIZPoE-S1',
 							'Product/Modules/PoE/WIZPoE-P1',
 							'Product/Modules/PoE/WIZPoDL-P1',
+							'Product/Chip/Chip_Related_modules/wiznet-pico-poe',
 						//	'Product/Modules/PoE/raspberrypi-5-hat-poe',
 							]
 					},

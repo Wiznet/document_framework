@@ -1,6 +1,7 @@
 ---
 id: wiznet-pico-poe
 title: WIZnet Pico PoE
+slug: /Product/Modules/PoE/WIZnet-Pico-PoE
 date: 2023-03-09
 keywords:
   - Raspberry Pi Pico
