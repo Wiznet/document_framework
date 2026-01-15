@@ -68,7 +68,7 @@ TBD
 
 The ioLibrary means "Internet Offload Library" for WIZnet chips.  
 It includes drivers and application protocols.  
-The ioLibrary can be used for W6100 and other chips’ application designs.  
+The ioLibrary can be used for W6300 and other chips’ application designs.  
 These will be updated continuously.
 
 | **Resource** | **Description** |
@@ -95,6 +95,10 @@ DHCP, DNS, MQTT, SNTP, TFTP, HTTP Server
 | ![link](\img\link.png)[📄 Interrupt (ENG)](/img/products/w6300/application/W6300_AN_Interrupt_v100E.pdf) | How to use Interrupt | Interrupt handling guide for W6300 |
 | ![link](\img\link.png)[📄 IPRAW (KOR)](/img/products/w6300/application/W6300_AN_IPRAW_V100K.pdf) | How to use IPRAW | IPRAW mode guide for raw IPv4 communication |
 | ![link](\img\link.png)[📄 IPRAW (ENG)](/img/products/w6300/application/W6300_AN_IPRAW_V100E.pdf) | How to use IPRAW | IPRAW mode guide for raw IPv4 communication |
+| ![link](\img\link.png)[📄 PSAA (KOR)](/img/products/w6300/application/W6300_AN_PSAA_V100K.pdf) | How to use PSAA | Prefer Source IPv4/IPv6 Address handling for SOCKET & SOCKET-less modes |
+| ![link](\img\link.png)[📄 PSAA (ENG)](/img/products/w6300/application/W6300_AN_PSAA_V100E.pdf) | How to use PSAA | Prefer Source IPv4/IPv6 Address handling for SOCKET & SOCKET-less modes |
+| ![link](\img\link.png)[📄 SLC (KOR)](/img/products/w6300/application/W6300_AN_SLC_V100K.pdf) | How to use SLC | SLC mode guide for Socket-less command control |
+| ![link](\img\link.png)[📄 SLC (ENG)](/img/products/w6300/application/W6300_AN_SLC_V100E.pdf) | How to use SLC | SLC mode guide for Socket-less command control |
 | ![link](\img\link.png)[📄 AAC (KOR)](/img/products/w6300/application/W6300_Autoconfiguration_v100K.pdf) | How to implement Auto-Configuration | Stateless & Stateful IPv4/IPv6 address auto-configuration methods |
 | ![link](\img\link.png)[📄 AAC (ENG)](/img/products/w6300/application/W6300_Autoconfiguration_v100E.pdf) | How to implement Auto-Configuration | Stateless & Stateful IPv4/IPv6 address auto-configuration methods |
 
