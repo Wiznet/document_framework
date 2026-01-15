@@ -29,7 +29,8 @@ W6300 is a hardwired TCP/IP stack internet controller chip with WIZnet technolog
 
 <details>
 <summary><b>Pin Map</b></summary> 
-TBD
+<img src="/img/products/w6300/overview/W6300_pinmap.png" alt="W6300_Block_Diagram" width="500"/>
+
 </details>
 ---
 ## Features
