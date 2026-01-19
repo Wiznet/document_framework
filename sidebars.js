@@ -1303,8 +1303,8 @@ module.exports = {
 										type: 'category',
 										label: 'Documentation',
 										items: [
-												'Product/Modules/Serial-to-Ethernet-Module/WIZ550SR/datasheet_hardware_spec_characteristics-EN',	
-												'Product/Modules/Serial-to-Ethernet-Module/WIZ550SR/datasheet_hardware_spec_characteristics-KO',
+												'Product/Modules/Serial-to-Ethernet-Module/WIZ550SR/datasheet-EN',	
+												'Product/Modules/Serial-to-Ethernet-Module/WIZ550SR/datasheet-KO',
 											],
 									},
 									{
