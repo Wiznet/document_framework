@@ -117,7 +117,7 @@ Recommended maximum ambient temperature of operation is 70C.
 ### 3D File
 
 -   ![](/img/products/w5500/w5500_evb/icons/download.png)
-    <a href="/img/products/3d-step-files/WW5RP20-EVB-Pico_V100.step" target="_blank"> Download</a>
+    <a href="/img/products/3d-step-files/W55RP20-EVB-Pico_V100.step" target="_blank"> Download</a>
 
 ### Dimension (Unit : mm)
 
