@@ -52,7 +52,7 @@ To transmit TCP or UDP data, follow these steps:
 4.	The Master transmits the data in the Data Phase.
 5.	After completion, the Slave transmits an ACK.
 
-***NACK** : If the Master sends a Data Length exceeding 2048 bytes or if the Slave is not connected to a network, it responds with NACK (0x0B + 3 dummy bytes (0xFF)).
+***NACK** : If the Master sends a Data Length exceeding 2048 bytes, W55RP20-S2E will responds with NACK (0x0B + 3 dummy bytes (0xFF)).
 
 |                                                                                              |
 | :------------------------------------------------------------------------------------------: |
