@@ -16,7 +16,7 @@
 <link rel="search" type="application/opensearchdescription+xml" title="WIZnet Document System" href="/opensearch.xml">
 <link rel="preconnect" href="https://cdn.channel.io">
 <script>!function(){var n=window;if(n.ChannelIO)return(window.console.error||window.console.log||function(){})("ChannelIO script included twice.");var e=function(){e.c(arguments)};function t(){if(!n.ChannelIOInitialized){n.ChannelIOInitialized=!0;var e=document.createElement("script");e.type="text/javascript",e.async=!0,e.src="https://cdn.channel.io/plugin/ch-plugin-web.js",e.charset="UTF-8";var t=document.getElementsByTagName("script")[0];t.parentNode.insertBefore(e,t)}}e.q=[],e.c=function(n){e.q.push(n)},n.ChannelIO=e,"complete"===document.readyState?t():window.attachEvent?window.attachEvent("onload",t):(window.addEventListener("DOMContentLoaded",t,!1),window.addEventListener("load",t,!1))}(),ChannelIO("boot",{pluginKey:"cb95c060-ab4c-45ec-bbe8-fe40a1ea3aec"})</script><link rel="stylesheet" href="/assets/css/styles.e63e7729.css">
-<script src="/assets/js/runtime~main.37fa3203.js" defer="defer"></script>
+<script src="/assets/js/runtime~main.dbabdca3.js" defer="defer"></script>
 <script src="/assets/js/main.415d6648.js" defer="defer"></script>
 </head>
 <body class="navigation-with-keyboard">
@@ -54,7 +54,7 @@ All commands are 4 bytes long. For example, the Data Read Command consists of:</
 <li>The Master transmits the data in the Data Phase.</li>
 <li>After completion, the Slave transmits an ACK.</li>
 </ol>
-<p>*<strong>NACK</strong> : If the Master sends a Data Length exceeding 2048 bytes or if the Slave is not connected to a network, it responds with NACK (0x0B + 3 dummy bytes (0xFF)).</p>
+<p>*<strong>NACK</strong> : If the Master sends a Data Length exceeding 2048 bytes, W55RP20-S2E will responds with NACK (0x0B + 3 dummy bytes (0xFF)).</p>
 <table><thead><tr><th style="text-align:center"></th></tr></thead><tbody><tr><td style="text-align:center"><img src="/img/products/w55rp20-s2e/w55rp20-s2e_spi_tx_data_frame1.png" height="180"></td></tr><tr><td style="text-align:center">Figure: <strong>SPI TX Data Frame ①</strong></td></tr></tbody></table>
 <table><thead><tr><th style="text-align:center"></th></tr></thead><tbody><tr><td style="text-align:center"><img src="/img/products/w55rp20-s2e/w55rp20-s2e_spi_tx_data_frame2.png" height="180"></td></tr><tr><td style="text-align:center">Figure: <strong>SPI TX Data Frame ②</strong></td></tr></tbody></table>
 <h4 class="anchor anchorWithHideOnScrollNavbar_WYt5" id="412-rx-data-frame">4.1.2 RX Data Frame<a href="#412-rx-data-frame" class="hash-link" aria-label="Direct link to 4.1.2 RX Data Frame" title="Direct link to 4.1.2 RX Data Frame">​</a></h4>
