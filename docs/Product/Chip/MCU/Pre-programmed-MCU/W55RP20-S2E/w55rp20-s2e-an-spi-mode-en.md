@@ -6,8 +6,11 @@ date: 2025-03-20
 
 ## 1. Introduction
 
-The W55RP20-S2E operates in SPI Slave Mode and can be controlled using AT Commands. The maximum SPI clock speed supported in this mode is 10 MHz. To communicate with the MCU, it is need to connect the SPI pins and set the UART_SPI_SEL (GPIO13) pin to High to use SPI.  Refer to Figure 1 for the W55RP20-S2E SPI Pinout.<br />
+The W55RP20-S2E operates in SPI Slave Mode and can be controlled using AT Commands. The maximum SPI clock speed supported in this mode is 10 MHz.<br />
+To communicate with the MCU, it is need to connect the SPI pins and set the UART_SPI_SEL (GPIO13) pin to High to use SPI.  Refer to Figure 1 for the W55RP20-S2E SPI Pinout.<br />
 When the W55RP20-S2E (SPI Slave) needs to send data, the SPI_INT (GPIO26) signal should be set to Low so that the SPI Master can read it.
+
+**Note**: The Modbus protocol (Modbus RTU/TCP) is **not supported** when the device is operating in SPI Mode.
 
 ## 2. Github Link
 
@@ -95,6 +98,8 @@ To send an AT command, follow these steps:
 6.	Upon completion, the Slave sends an ACK.
 
 **Note**: refer to the [AT Command Manual](./command-manual-en.md) document for details on the AT CMD format.
+
+**Important**: To save settings applied via AT CMD SET, you must execute the **[SV (Save)](./command-manual-en.md#set-request)** command. If rebooted without SV, all changes will be lost.
 
 |                                                                                              |
 | :------------------------------------------------------------------------------------------: |
