@@ -1980,7 +1980,7 @@ Return value</th>
 
   - **Parameter / Return Value:**
 
-    0: Not used  
+    0: Not used (Internally set to 2000 ms) 1 ~ 60000: SSL receive timeout (unit: millisecond)<br/>
     1 ~ 60000: SSL receive timeout (unit: millisecond)
 
     If the timeout is set, the SSL connection closes when SSL receive timeout over.
@@ -1992,7 +1992,7 @@ Return value</th>
 
 	**With Parameter (Set)**
     - No response
-    - Change SSL receive timeout value
+    - Change SSL receive timeout value (Note: Setting to 0 applies a default value of 2000 ms)
 
 
 
