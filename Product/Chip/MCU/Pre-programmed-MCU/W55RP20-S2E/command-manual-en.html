@@ -16,7 +16,7 @@
 <link rel="search" type="application/opensearchdescription+xml" title="WIZnet Document System" href="/opensearch.xml">
 <link rel="preconnect" href="https://cdn.channel.io">
 <script>!function(){var n=window;if(n.ChannelIO)return(window.console.error||window.console.log||function(){})("ChannelIO script included twice.");var e=function(){e.c(arguments)};function t(){if(!n.ChannelIOInitialized){n.ChannelIOInitialized=!0;var e=document.createElement("script");e.type="text/javascript",e.async=!0,e.src="https://cdn.channel.io/plugin/ch-plugin-web.js",e.charset="UTF-8";var t=document.getElementsByTagName("script")[0];t.parentNode.insertBefore(e,t)}}e.q=[],e.c=function(n){e.q.push(n)},n.ChannelIO=e,"complete"===document.readyState?t():window.attachEvent?window.attachEvent("onload",t):(window.addEventListener("DOMContentLoaded",t,!1),window.addEventListener("load",t,!1))}(),ChannelIO("boot",{pluginKey:"cb95c060-ab4c-45ec-bbe8-fe40a1ea3aec"})</script><link rel="stylesheet" href="/assets/css/styles.e63e7729.css">
-<script src="/assets/js/runtime~main.6988df41.js" defer="defer"></script>
+<script src="/assets/js/runtime~main.15fbf7a6.js" defer="defer"></script>
 <script src="/assets/js/main.415d6648.js" defer="defer"></script>
 </head>
 <body class="navigation-with-keyboard">
@@ -1089,6 +1089,41 @@ The timer restarts when there is an Ethernet data exchange before reaching enter
 <ul>
 <li>No response</li>
 <li>Change inactivity timer value</li>
+</ul>
+</li>
+</ul>
+<hr>
+<h4 class="anchor anchorWithHideOnScrollNavbar_WYt5" id="tr">TR<a href="#tr" class="hash-link" aria-label="Direct link to TR" title="Direct link to TR">​</a></h4>
+<hr>
+<ul>
+<li>
+<p><strong>Format:</strong> <code>TR&lt;Parameter&gt;[CR][LF]</code></p>
+</li>
+<li>
+<p><strong>Meaning:</strong> TCP Retransmission Retry Count</p>
+</li>
+<li>
+<p><strong>Command Type:</strong> Read / Write</p>
+</li>
+<li>
+<p><strong>Parameter / Return Type:</strong> Number</p>
+</li>
+<li>
+<p><strong>Parameter / Return Value:</strong></p>
+<p>0: Not used(Disabled)<br>
+<!-- -->1 ~ 255: Used(Enabled)</p>
+<p>This command sets the maximum number of retransmission attempts for a TCP packet. If the device does not receive an acknowledgment (ACK) from the remote host, it will retry sending the packet up to the specified count. Increasing this value can help maintain connections in unstable or high-latency network environments.</p>
+</li>
+<li>
+<p><strong>Response</strong></p>
+<p><strong>Without Parameter (Get)</strong></p>
+<ul>
+<li>In ASCII: <code>TR5\r\n</code> (Returns the current retry count)</li>
+</ul>
+<p><strong>With Parameter (Set)</strong></p>
+<ul>
+<li>No response</li>
+<li>Changes the TCP retransmission retry count.</li>
 </ul>
 </li>
 </ul>
