@@ -1741,6 +1741,38 @@ Return value</th>
 
 ---
 
+#### TR
+
+---
+
+  - **Format:** `TR<Parameter>[CR][LF]`
+
+  - **Meaning:** TCP Retransmission Retry Count
+
+  - **Command Type:** Read / Write
+
+  - **Parameter / Return Type:** Number
+
+  - **Parameter / Return Value:**
+
+    0: Not used(Disabled)  
+    1 ~ 5: Used(Enabled)
+
+	This command sets the maximum number of retransmission attempts for a TCP packet. If the device does not receive an acknowledgment (ACK) from the remote host, it will retry sending the packet up to the specified count. Increasing this value can help maintain connections in unstable or high-latency network environments.
+
+  - **Response**
+
+	**Without Parameter (Get)**
+    - In ASCII: `TR5\r\n` (Returns the current retry count)
+
+	**With Parameter (Set)**
+    - No response
+    - Changes the TCP retransmission retry count.
+
+
+
+---
+
 #### CP
 
 ---
