@@ -543,6 +543,24 @@ module.exports = {
 													}
 												]
 											 },
+											{ 
+												type: 'category', 
+												label: 'Ethernet Module2',
+												items: [
+													{
+														type: 'link',
+														label: 'WIZ630MJ',
+														href: '/Product/Chip/Ethernet/W6300/#related-modules',
+														// href : '/Product/ioModule/wiz630io',
+														customProps: {
+															openInNewTab: true,
+															id: 'wiz630mj-external',	
+															url: '/Product/ioModule/wiz630mj',
+															ignoreActive: true,
+														}
+													}
+												]
+											 },
 										]
 									},
 								]
@@ -1906,6 +1924,7 @@ module.exports = {
 							'Product/Modules/Ethernet-Module/wiz610io',
 							'Product/Modules/Ethernet-Module/wiz610mj',
 							'Product/Modules/Ethernet-Module/wiz630io',
+							'Product/Modules/Ethernet-Module/wiz630mj',
 							'Product/Modules/Ethernet-Module/wiz810sio',
 							'Product/Modules/Ethernet-Module/wiz810smj',
 							'Product/Modules/Ethernet-Module/wiz810mj',

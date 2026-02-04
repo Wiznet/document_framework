@@ -1,0 +1,197 @@
+---
+id: wiz630mj
+title: WIZ630MJ
+slug: /Product/ioModule/WIZ630MJ/
+date: 2026-02-03
+keywords: [WIZ630MJ, Ethernet Module, W6300, WIZnet, ioModule, IPv6]
+description: WIZ630MJ is a modular Ethernet controller board integrating the W6300 TCP/IP hardwired chip, supporting IPv4 and IPv6 dual stack. It also supports quad-spi and 8bit bus interfaces.
+---
+
+import Tabs from '@theme/Tabs';
+import TabItem from '@theme/TabItem';
+
+# WIZ630MJ
+<h1>WIZ630MJ</h1>
+<div className="main_intro"> 
+  <div className="main_intro_image">
+    <img src="/img/products/wiz630mj/wiz630mj_test.png" width="700" />
+  </div>
+  <div className="w55rp20-text">
+    <p>
+      The <b>WIZ630MJ</b> is a compact Ethernet module that integrates the <b>W6300</b> hardwired TCP/IP chip with an embedded PHY and an RJ45 MAG-JACK. 
+      It supports both <b>IPv4 and IPv6 Dual Stack</b>, enabling flexible networking for modern embedded systems. Notably, 
+      the module provides versatile host interface options by supporting both <b>Quad-SPI and an 8-bit bus interface</b>, 
+      ensuring high-speed data transmission and easy integration with various processors. 
+      By combining all essential Ethernet hardware and flexible connectivity in one module, it eliminates complex PCB design for the transformer and RJ45 interface. 
+      The WIZ630MJ is ideal for developers who want to implement network-enabled systems quickly and reliably.
+    </p>
+  </div>
+</div>
+
+---
+
+## Pin Information
+
+<Tabs groupId="pinout" queryString>
+
+  <TabItem value="all" label="All Pins" default>
+<img src="" width="600" />
+
+### P2
+
+| Pin | Type | Name | Description |
+| --- | ---- | ---- | ----------- |
+| 1 | P | **GND** | Ground |
+| 2 | P | **GND** | Ground |
+| 3 | P | **3V3D** | 3.3 V Power |
+| 4 | I | **MODE0** | SPI/BUS Select pin <br />SPI : Low <br />BUS : High |
+| 5 | I | **SCSn** | SPI Chip select (active low) |
+| 6 | I | **SCLK** | SPI Clock input |
+| 7 | I | **QD0/MOSI/A0** | Qual/Dual-SPI : Data 0 <br /> Single-SPI : Master-Out / Slave-In<br />BUS : Address 0 |
+| 8 | O/I | **QD1/MISO/A1** | Qual/Dual-SPI : Data 1 <br /> Single-SPI : Master-In / Slave-Out<br />BUS : Address 1 |
+| 9 | I | **QD2/RDn** | Qual-SPI : Data 2 <br /> BUS : indicates Read Operation |
+| 10 | I | **QD3/WRn** | Qual-SPI : Data 3 <br /> BUS : indicates Write Operation |
+
+### P3
+
+| Pin | Type | Name | Description |
+| --- | ---- | ---- | ----------- |
+| 1 | I | **RSTn** | Hardware reset (active low, ≥ 1 µs) |
+| 2 | O |  **INTn** | Interrupt output (low-active) |
+| 3 | IO | **D7** | Data Bus pin SPI : DAT [7:0] must be floated.  <br /> BUS : Data is carried over DAT [7:0] between HOST and W6100 |
+| 4 | IO | **D6** | Data Bus pin SPI : DAT [7:0] must be floated.  <br /> BUS : Data is carried over DAT [7:0] between HOST and W6100 |
+| 5 | IO | **D5** | Data Bus pin SPI : DAT [7:0] must be floated.  <br /> BUS : Data is carried over DAT [7:0] between HOST and W6100 |
+| 6 | IO | **D4** | Data Bus pin SPI : DAT [7:0] must be floated.  <br /> BUS : Data is carried over DAT [7:0] between HOST and W6100 |
+| 7 | IO | **D3** | Data Bus pin SPI : DAT [7:0] must be floated.  <br /> BUS : Data is carried over DAT [7:0] between HOST and W6100 |
+| 8 | IO | **D2** | Data Bus pin SPI : DAT [7:0] must be floated.  <br /> BUS : Data is carried over DAT [7:0] between HOST and W6100 |
+| 9 | IO | **D1** | Data Bus pin SPI : DAT [7:0] must be floated.  <br /> BUS : Data is carried over DAT [7:0] between HOST and W6100 |
+| 10 | IO | **D0** | Data Bus pin SPI : DAT [7:0] must be floated.  <br /> BUS : Data is carried over DAT [7:0] between HOST and W6100 |
+
+  </TabItem>
+</Tabs>
+
+---
+
+## Features
+
+<ul>
+  <li>Supports Hardwired TCP/IP protocols: TCP, UDP, IPv6, IPv4, ICMPv6, ICMPv4, IGMP, MLDv1, ARP, PPPoE</li>
+  <li>Dual Stack IPv4/IPv6 support</li>
+  <li>High-speed operation with 150 MHz system clock</li>
+  <li>Up to 80 Mbps throughput via QSPI (4-bit data interface)</li>
+  <li>8 independent sockets with total 64 KB SRAM (4 KB TX/RX per socket)</li>
+  <li>Supports SOCKET-less commands (ARP, ICMPv6 for DAD, NA, RS)</li>
+  <li>Integrated transformer and RJ45 MAG-JACK</li>
+  <li>Supports Ethernet PHY power down & clock switching for low power</li>
+  <li>Supports Wake-on-LAN (UDP)</li>
+  <li>High-speed Quad/Dual/Single-SPI interface (Mode 0/3)</li>
+  <li>Parallel bus mode with 8-bit data and 2 address lines</li>
+  <li>10BaseT / 10Base-Te / 100BaseTX Ethernet PHY integrated</li>
+  <li>Auto-Negotiation and Auto-MDIX supported</li>
+  <li>3.0 V operation (5 V I/O tolerant)</li>
+  <li>Network LEDs for link, speed, duplex, and activity</li>
+  <li>2 × 10-pin headers (2.54 mm pitch)</li>
+  <li>Selectable host interface between QSPI and 8-bit bus via on-board jumper cap</li>
+  <li>Operating temperature: −40 °C to +85 °C</li>
+</ul>
+
+---
+
+## Electrical Characteristics
+
+<Tabs groupId="electrical" queryString>
+  <TabItem value="dc" label="DC Characteristics" default>
+
+| Symbol | Parameter | Pins | Min | Typ | Max | Unit |
+| ------- | ---------- | ---- | --- | --- | --- | ---- |
+| V<sub>DD</sub> | Supply voltage | 3.3 V | 2.97 | 3.3 | 3.63 | V |
+| V<sub>IH</sub> | High-level input | ALL | 2.0 | – | - | V |
+| V<sub>IL</sub> | Low-level input | ALL | – | – | 0.8 | V |
+| V<sub>OH</sub> | High-level output | ALL | 2.4 | 3.3 | – | V |
+| V<sub>OL</sub> | Low-level output | ALL | 0.0 | – | 0.4 | V |
+| I<sub>DD</sub> | Supply current (Normal) | 3.3 V | – | TBD | – | mA |
+| I<sub>PD</sub> | Supply current (Power-down) | 3.3 V | – | TBD | – | mA |
+
+  </TabItem>
+
+  <TabItem value="power" label="Power Dissipation">
+
+| Condition | Min | Typ | Max | Unit |
+| ---------- | --- | --- | --- | ---- |
+| 100M Link | – | TBD | TBD | mA |
+| 10M Link | – | TBD | TBD | mA |
+| 10M-Te Link | – | TBD | TBD | mA |
+| 100M Unlink | – | TBD | TBD | mA |
+| 10M Unlink | – | TBD | TBD | mA |
+| 10M-Te Unlink | – | TBD | TBD | mA |
+| Un-Link (Auto-negotiation mode) | – | TBD | TBD | mA |
+| Power Down mode | – | TBD | TBD | mA |
+
+  </TabItem>
+</Tabs>
+
+---
+
+## Documentation
+
+
+---
+
+## Software Resources
+
+<Tabs groupId="software" queryString>
+  <TabItem value="driver" label="Driver" default>
+
+<h4>Driver</h4>
+
+<table>
+<thead>
+<tr><th>Resource</th><th>Description</th></tr>
+</thead>
+<tbody>
+<tr>
+<td><a href="https://github.com/Wiznet/ioLibrary_Driver" target="_blank"><img src="/img/link.png" width="14"/> ioLibrary_Driver</a></td>
+<td>Official WIZnet driver library supporting W6300 and other Ethernet controllers</td>
+</tr>
+</tbody>
+</table>
+
+<blockquote>
+  <b>Note:</b> The <b>ioLibrary_Driver</b> provides MCU-independent implementations of TCP/IP services for WIZnet chips.<br/>
+  Includes DHCP, DNS, SNTP, MQTT, TFTP, and HTTP server modules.
+</blockquote>
+
+  </TabItem>
+</Tabs>
+
+---
+
+## Hardware Resources
+
+| Title | Revision | Description | Download | Notes |
+|-------|----------|-------------|----------|-------|
+| schematic | 1.0 | Circuit diagram for hardware design reference | ![Altium](https://github.com/Wiznet/Hardware-Files-of-WIZnet/blob/master/05_Network_Module/WIZ630MJ/WIZ630MJ_V100/WIZ630MJ_v1.0_SCH.zip) | — |
+| 3D File | 1.0 | 3D model for mechanical design and visualization | ![STEP](https://github.com/Wiznet/Hardware-Files-of-WIZnet/blob/master/05_Network_Module/WIZ630MJ/WIZ630MJ_V100/WIZ630MJ_v1.0.step) | — |
+| Part list | 1.0 | List of components used in the hardware | ![PDF](https://github.com/Wiznet/Hardware-Files-of-WIZnet/blob/master/05_Network_Module/WIZ630MJ/WIZ630MJ_V100/WIZ630MJ_V1.0_BOM.pdf) | — |
+
+---
+
+## Mechanical Information
+
+<img src="/img/products/wiz630mj/dimension.png" width="500"/>
+
+<ul>
+  <li><b>Form factor:</b> Compact ioModule with integrated RJ45 MAG-JACK</li>
+  <li><b>Pin pitch:</b> 2.54 mm (2 × 10 header)</li>
+  <li><b>Dimensions:</b> 28.0 × 28.0 mm (typ.)</li>
+</ul>
+
+---
+
+## Related Products
+
+| Product | Description |
+|----------|-------------|
+| [W6300 Chip](../../Chip/Ethernet/W6300/Overview.md) | Stand-alone W6300 Ethernet controller (IPv4/IPv6 Dual Stack) |
+| [WIZ630io](./WIZ630io.mdx) | Compact SPI Ethernet module using W6300 chip |
+| [W5500-io](./W5500-io.mdx) | Compact SPI Ethernet module using W5500 chip |
