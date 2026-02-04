@@ -1,0 +1,126 @@
+---
+id: wizip20
+title: WIZ-IP20
+date: 2026-01-15
+---
+
+import Tabs from '@theme/Tabs';
+import TabItem from '@theme/TabItem';
+
+# WIZ-IP20
+<div className="main-card">
+  <img src="/img/products/wiz-ip20/wizip20_3d_original2.png" alt="Wiz-ip20" />
+  <div>
+    <h3>WIZ-IP20</h3>
+    <br />
+    <p>
+      WIZ-IP20 is a Serial to Ethernet converter in Mag Jack based on WIZnet's W55RP20 MCU.
+    </p>
+  </div>
+</div>
+
+### WIZnet S2E Solution
+
+  - WIZnet 'Serial to Ethernet' product is a protocol converter that
+    transmits data sent by serial equipment as TCP/IP data and converts
+    the TCP/IP data received through the network back into serial data
+    to the serial equipment.
+
+
+
+  - With this product, it is possible to **easily add an Ethernet networking function to a device supporting UART/SPI interface**, the
+    devices can be controlled via an Ethernet network - Internet.
+
+ 
+  - We also provide **[Customization Services](#customization-services)** such as change / add functions by customer request.
+
+## Features
+
+**The following key features are included with the WIZ-IP20 product.**
+  - 10/100Mbps Ethernet & Up to 921,600bps serial speed
+  - Easy to add Ethernet networking function through UART or SPI interface
+        of any device / MCU
+  - Support **RS-232C** and **RS-422/485** if an external circuit is configured.
+  - Status pins: PHY link status / TCP connection status / Run status
+  - Support multiple protocols
+    - TCP Server
+    - TCP Client
+    - SSL TCP Client
+    - TCP Mixed
+    - Modbus RTU/ASCII (available only in TCP Server mode)
+    - UDP (multicast supported)
+    - MQTT Client
+    - MQTTS Client
+  - Support custom protocols (Please submit custom protocol requests via [**this link**](https://direct.wiznet.io/custom-firmware-request).)
+    - HTTP
+    - HTTPS
+    - CoAP
+    - External device OTA
+  - Support serial data packing
+  - Support TCP connection password
+  - Configuration is possible via serial AT commands or via Configuration tool
+  - Separate Data UART and Debug UART port
+  - Unique **MAC Address** (WIZnet OUI)
+
+---
+
+## Hardware Design Guide & References
+
+### Pin Assignment
+<img src="/img/products/wiz-ip20/IP20 Pin Description.png" alt="Wiz-ip20 Pin Description" />
+
+---
+
+## Documentation
+
+This section provides key documentation, including user manuals and datasheets, to help you understand product features, specifications, and usage.
+
+- <a href="/img/products/wiz-ip20/WIZ-IP20 User Manual_V1.0_20250925.pdf" target="_blank">WIZ-IP20 User Manual_V1.0</a>
+
+---
+
+## Manuals
+- [How to use Config-tool](./command-manual-en.md)
+- [How to use Web config](./Web_Config_Guide_EN.md)
+- [How to use AT CMD](./command-manual-en.md)
+- [How to connect MQTT](./mqtt-connection-guide-en.md)
+- [How to connet SSL](./ssl-connection-guide-en.md)
+- [How to connet Modbus](./modbus-connection-guide-en.md)
+- [How to upload/update FW](./firmware-update-guide-en.md)
+- [How to do factory reset](./factory-rst-guide-en.md)
+- [How to write MAC Address](./mac_address-write-guide-en.md)
+- [How to design hardware](./hw-design-guide-en.md)
+- [How to use SPI Mode](./w55rp20-s2e-an-spi-mode-en.md)
+
+---
+
+## Hardware Resources
+
+This section provides essential hardware resources, including schematics, 3D models, and part lists for your reference.
+
+| Title | Description | Download | Notes |
+|-------|-------------|----------|-------|
+| Schematic | Circuit diagram for hardware design reference | ![download](/img/products/w5500/w5500_evb/icons/download.png)[download](/img/products/wiz-ip51s/WIZ_IP32_series_reference_schematic_v1.0.pdf) | - |
+
+---
+
+## Mechanical Information
+
+<img src="/img/products/wiz-ip20/IP20 Mechanical Information.png" alt="Wiz-ip20 Mechanical Information" />
+
+<ul>
+  <li><b>Form factor:</b> Plug-in Port module</li>
+  <li><b>Pin pitch:</b> 2.54 mm</li>
+  <li><b>Dimensions:</b> 32.5 × 16.5 mm</li>
+</ul>
+
+---
+
+## Test & Certification
+
+- <a href="/img/products/wiz-ip20/KC적합등록필증_㈜위즈네트_WIZ-IP20.pdf" target="_blank">KC 인증</a>
+- <a href="/img/products/wiz-ip20/FCC_SDoC_WIZ-IP20.pdf" target="_blank">FCC 인증</a>
+- <a href="/img/products/wiz-ip20/CE_DoC_WIZ-IP20.pdf" target="_blank">CE 인증</a>
+
+
+
