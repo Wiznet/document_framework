@@ -1,6 +1,6 @@
 ---
-id: wizip20-io
-title: WIZ-IP20-io
+id: ip20-io
+title: ip20-io
 date: 2026-02-04
 ---
 
@@ -65,6 +65,58 @@ import TabItem from '@theme/TabItem';
 ---
 
 ## Hardware Design Guide & References
+
+### Pin-out
+![Wizip20-io](/img/products/wiz-ip20/ip20-io/wizip20_pinout.png)
+
+WIZ-IP20-IO pinout is directly connected to the GPIO of the W55RP20, which is compatible with RP2040 GPIO numbering. However, GPIO16, GPIO17, GPIO18, GPIO19, GPIO20, and GPIO21 are internally used for SPI communication with the embedded Ethernet controller to provide Ethernet functionality. Therefore, when the Ethernet function is enabled, these pins cannot be used for other purposes.
+
+### I/O Signals
+
+| I/O | Pin Name     | Description                                                                 |
+|:---:|--------------|-----------------------------------------------------------------------------|
+|  O  | TXD          | Data UART TX from WIZ-IP20 (connect to RX of external MCU/device)          |
+|  I  | RXD          | Data UART RX to WIZ-IP20 (connect to TX of external MCU/device)            |
+|  I  | RESETn       | Active-low reset input for WIZ-IP20                                        |
+|  O  | LINK_STATUS  | High when Ethernet link is up, low when link is down                       |
+|  O  | TCP_STATUS   | High when a TCP connection is established, low when disconnected           |
+|  O  | RUN_STATUS   | System run/status indication (e.g., blinking while the module is running)  |
+|  -  | VBUS         | 5V power input to wizip20-io board                                         |
+|  -  | 3V3          | 3.3V power rail generated on-board and used to power WIZ-IP20              |
+|  -  | GND          | Ground reference                                                           |
+
+### UART/USB & Power Connector (J3)
+
+| Pin No. | Signal  | I/O | Description                                                     |
+|:-------:|---------|:---:|-----------------------------------------------------------------|
+| J3-1    | GND     |  -  | Ground                                                          |
+| J3-2    | CTS     |  I  | UART CTS input to wizip20-io (Clear To Send)                   |
+| J3-3    | RTS     |  O  | UART RTS output from wizip20-io (Request To Send)              |
+| J3-4    | TXD     |  O  | UART TX output from wizip20-io (connect to RX of external MCU/device) |
+| J3-5    | RXD     |  I  | UART RX input to wizip20-io (connect to TX of external MCU/device)     |
+| J3-6    | USB_P   |  I/O| USB D+ signal (to on-board USB-UART or USB connector, depending on design) |
+| J3-7    | USB_N   |  I/O| USB D− signal                                                   |
+| J3-8    | GND     |  -  | Ground                                                          |
+ 
+
+On-board 3.3V Power Supply
+
+- wizip20-io uses an on-board 3.3V buck-boost converter (SGM62112-3.3) to generate the 3.3V rail from the 5V input.  
+The 5V line is filtered and fed into U1, and the regulated 3.3V output (3V3) powers the WIZ-IP20 module and related logic.
+
+## Operation Condition
+
+| Item                     | Description                                   |
+|--------------------------|-----------------------------------------------|
+| Operation Temperature MAX| 85°C (including self-heating)                 |
+| Operation Temperature MIN| -40°C                                         |
+| VBUS                     | DC 5V (±10%) input                            |
+| VCC_3V3 Min              | DC 3.0V                                       |
+| VCC_3V3 Typ              | DC 3.3V                                       |
+| VCC_3V3 Max              | DC 3.6V                                       |
+
+Recommended maximum ambient temperature of operation is 70°C.
+
 
 ### Pin Assignment
 <img src="/img/products/wiz-ip20/ip20-io/wizip20_io_back.png"  alt="Wiz-ip20 Pin Description" />
