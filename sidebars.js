@@ -1857,7 +1857,7 @@ module.exports = {
 									// 'Product/Modules/Serial-to-Ethernet-Module/WIZ-IP32/wizse_config_tool_dtu',
 								],
 							},
-							'Product/Modules/Serial-to-Ethernet-Module/WIZ-IP20/ip20-io',
+							'Product/Modules/Serial-to-Ethernet-Module/WIZ-IP20/wizip20',
 							{
 								type: 'category',
 								label: 'WIZ-IP75',
@@ -2389,5 +2389,6 @@ module.exports = {
 	},*/
 	],
 }; 
+
 
 
