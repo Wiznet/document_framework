@@ -26,7 +26,7 @@ date: 2026-02-04
 
 
 
-  - With this product, it is possible to **easily add an Ethernet networking function to a device supporting UART/SPI interface**, the
+  - With this product, it is possible to **easily add an Ethernet networking function to a device supporting UART interface**, the
     devices can be controlled via an Ethernet network - Internet.
 
  
@@ -119,31 +119,21 @@ The 5V line is filtered and fed into U1, and the regulated 3.3V output (3V3) pow
 | VCC_3V3 Typ              | DC 3.3V                                       |
 | VCC_3V3 Max              | DC 3.6V                                       |
 
-## Hardware Design Guide & References
-
-
-
-## Documentation
-
-This section provides key documentation, including user manuals and datasheets, to help you understand product features, specifications, and usage.
-
-- <a href="/img/products/wiz-ip20/WIZ-IP20 User Manual_V1.0_20250925.pdf" target="_blank">WIZ-IP20 User Manual_V1.0</a>
 
 ---
 
 ## Manuals
-- [How to use Config-tool](./command-manual-en.md)
-- [How to use Web config](./Web_Config_Guide_EN.md)
-- [How to use AT CMD](./command-manual-en.md)
-- [How to connect MQTT](./mqtt-connection-guide-en.md)
-- [How to connet SSL](./ssl-connection-guide-en.md)
-- [How to connet Modbus](./modbus-connection-guide-en.md)
-- [How to upload/update FW](./firmware-update-guide-en.md)
-- [How to do factory reset](./factory-rst-guide-en.md)
-- [How to write MAC Address](./mac_address-write-guide-en.md)
-- [How to design hardware](./hw-design-guide-en.md)
-- [How to use SPI Mode](./w55rp20-s2e-an-spi-mode-en.md)
-
+- [How to use Config-tool](https://docs.wiznet.io/Product/Chip/MCU/Pre-programmed-MCU/W55RP20-S2E/command-manual-en)
+- [How to use Web config](https://docs.wiznet.io/Product/Chip/MCU/Pre-programmed-MCU/W55RP20-S2E/Web_Config_Guide_EN)
+- [How to use AT CMD](https://docs.wiznet.io/Product/Chip/MCU/Pre-programmed-MCU/W55RP20-S2E/command-manual-en)
+- [How to connect MQTT](https://docs.wiznet.io/Product/Chip/MCU/Pre-programmed-MCU/W55RP20-S2E/mqtt-connection-guide-en)
+- [How to connet SSL](https://docs.wiznet.io/Product/Chip/MCU/Pre-programmed-MCU/W55RP20-S2E/ssl-connection-guide-en)
+- [How to connet Modbus](https://docs.wiznet.io/Product/Chip/MCU/Pre-programmed-MCU/W55RP20-S2E/modbus-connection-guide-en)
+- [How to upload/update FW](https://docs.wiznet.io/Product/Chip/MCU/Pre-programmed-MCU/W55RP20-S2E/firmware-update-guide-en)
+- [How to do factory reset](https://docs.wiznet.io/Product/Chip/MCU/Pre-programmed-MCU/W55RP20-S2E/factory-rst-guide-en)
+- [How to write MAC Address](https://docs.wiznet.io/Product/Chip/MCU/Pre-programmed-MCU/W55RP20-S2E/mac_address-write-guide-en)
+- [How to design hardware](https://docs.wiznet.io/Product/Chip/MCU/Pre-programmed-MCU/W55RP20-S2E/hw-design-guide-en)
+- [How to use SPI Mode](https://docs.wiznet.io/Product/Chip/MCU/Pre-programmed-MCU/W55RP20-S2E/w55rp20-s2e-an-spi-mode-en)
 ---
 
 ## Hardware Resources
@@ -152,18 +142,9 @@ This section provides essential hardware resources, including schematics, 3D mod
 
 | Title | Description | Download | Notes |
 |-------|-------------|----------|-------|
-| Schematic | Circuit diagram for hardware design reference | ![download](/img/products/w5500/w5500_evb/icons/download.png)[download](/img/products/wiz-ip51s/WIZ_IP32_series_reference_schematic_v1.0.pdf) | - |
+| Schematic | Circuit diagram for hardware design reference | ![download](/img/products/w5500/w5500_evb/icons/download.png)[download](/img/products/wiz-ip20/ip20-io/WIZIP20-io_reference_schematic.pdf) | - |s
 
 ---
 
 ## Dimensions
 ![WIZip20-io Dimensions](/img/products/wiz-ip20/wizip20_io_demension.png)
-## Test & Certification
-
-- <a href="/img/products/wiz-ip20/KC적합등록필증_㈜위즈네트_WIZ-IP20.pdf" target="_blank">KC 인증</a>
-- <a href="/img/products/wiz-ip20/FCC_SDoC_WIZ-IP20.pdf" target="_blank">FCC 인증</a>
-- <a href="/img/products/wiz-ip20/CE_DoC_WIZ-IP20.pdf" target="_blank">CE 인증</a>
-
-
-  <img src="/img/products/wiz-ip20/ip20-io/wizip20_io_front.png" alt="Wiz-ip20-io" /> 
-  <img src="/img/products/wiz-ip20/ip20-io/wizip20_io_back.png"  alt="Wiz-ip20 Pin Description" />
