@@ -1857,7 +1857,21 @@ module.exports = {
 									// 'Product/Modules/Serial-to-Ethernet-Module/WIZ-IP32/wizse_config_tool_dtu',
 								],
 							},
-							'Product/Modules/Serial-to-Ethernet-Module/WIZ-IP20/wizip20',
+							{
+								type: 'category',
+								label: 'WIZ-IP20',
+								link: {type: 'doc', id: 'Product/Modules/Serial-to-Ethernet-Module/WIZ-IP20/wizip20'},
+								items: [
+									{
+										type: 'category',
+										label: 'Related modules', 
+										link: {type: 'doc', id: 'Product/Modules/Serial-to-Ethernet-Module/WIZ-IP20/ip20-io/ip20-io'},
+										items: [
+												// 'Product/Modules/Serial-to-Ethernet-Module/WIZ-IP75/datasheet-ip75',
+										],
+									},
+								],
+							},
 							{
 								type: 'category',
 								label: 'WIZ-IP75',
@@ -2389,6 +2403,7 @@ module.exports = {
 	},*/
 	],
 }; 
+
 
 
 
