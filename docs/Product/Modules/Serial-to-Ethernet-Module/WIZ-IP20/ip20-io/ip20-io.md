@@ -1,10 +1,9 @@
-id: ip20-io
-title: ip20-io
-date: 2026-02-04
 ---
+id: ip20-io
+title: WIZ-IP20-IO
+date: 2026-02-04
 
-import Tabs from '@theme/Tabs';
-import TabItem from '@theme/TabItem';
+---
 
 # WIZ-IP20-io
 <div className="main-card">
@@ -62,14 +61,9 @@ import TabItem from '@theme/TabItem';
   - Unique **MAC Address** (WIZnet OUI)
 
 ---
-@@ -66,6 +66,58 @@ import TabItem from '@theme/TabItem';
-
-## Hardware Design Guide & References
-
-@ -119,60 +62,4 @@ Recommended maximum ambient temperature of operation is 70°C.
 
 ### Pin-out
-
+<img src="/img/products/wiz-ip20/ip20-io/wizip20_io_pinout.png" width="400" />
 
 WIZ-IP20-IO pinout is directly connected to the GPIO of the W55RP20, which is compatible with RP2040 GPIO numbering. However, GPIO16, GPIO17, GPIO18, GPIO19, GPIO20, and GPIO21 are internally used for SPI communication with the embedded Ethernet controller to provide Ethernet functionality. Therefore, when the Ethernet function is enabled, these pins cannot be used for other purposes.
 
@@ -117,7 +111,8 @@ The 5V line is filtered and fed into U1, and the regulated 3.3V output (3V3) pow
 | VCC_3V3 Typ              | DC 3.3V                                       |
 | VCC_3V3 Max              | DC 3.6V                                       |
 
-Recommended maximum ambient temperature of operation is 70°C.
+## Hardware Design Guide & References
+
 
 
 ### Pin Assignment
@@ -165,10 +160,14 @@ This section provides essential hardware resources, including schematics, 3D mod
 <ul>
   <li><b>Form factor:</b> Plug-in Port module</li>
   <li><b>Pin pitch:</b> 2.54 mm</li>
-  <li><b>Dimensions:</b> 32.5 × 16.5 mm</li>
 </ul>
 
 ---
+
+## Dimensions
+
+
+![WIZip20-io Dimensions](/img/products/wiz-ip20/wizip20_io_demension.png)
 
 ## Test & Certification
 
@@ -178,4 +177,4 @@ This section provides essential hardware resources, including schematics, 3D mod
 
 
 
-<img src="/img/products/wiz-ip20/ip20-io/wizip20_io_back.png"  alt="Wiz-ip20 Pin Description" />
+<img src="/img/products/wiz-ip20/ip20-io/wizip20_io_back.png"  alt="Wiz-ip20 Pin Description"  width="600" />
