@@ -7,7 +7,8 @@ date: 2026-02-04
 
 # WIZ-IP20-io
 <div className="main-card">
-  <img src="/img/products/wiz-ip20/ip20-io/wizip20_io_front.png" alt="Wiz-ip20-io" />
+  <img src="/img/products/wiz-ip20/ip20-io/wizip20_io_front.png" alt="Wiz-ip20-io" /> 
+  <img src="/img/products/wiz-ip20/ip20-io/wizip20_io_back.png"  alt="Wiz-ip20 Pin Description" />
   <div>
     <h3>WIZ-IP20-io</h3>
     <br />
@@ -113,13 +114,6 @@ The 5V line is filtered and fed into U1, and the regulated 3.3V output (3V3) pow
 
 ## Hardware Design Guide & References
 
-
-
-### Pin Assignment
-<img src="/img/products/wiz-ip20/ip20-io/wizip20_io_back.png"  alt="Wiz-ip20 Pin Description" />
-
----
-
 ## Documentation
 
 This section provides key documentation, including user manuals and datasheets, to help you understand product features, specifications, and usage.
@@ -153,28 +147,10 @@ This section provides essential hardware resources, including schematics, 3D mod
 
 ---
 
-## Mechanical Information
-
-<img src="/img/products/wiz-ip20/ip20-io/wizip20_io_cross.png"  alt="Wiz-ip20 Mechanical Information" />
-
-<ul>
-  <li><b>Form factor:</b> Plug-in Port module</li>
-  <li><b>Pin pitch:</b> 2.54 mm</li>
-</ul>
-
----
-
 ## Dimensions
-
-
 ![WIZip20-io Dimensions](/img/products/wiz-ip20/wizip20_io_demension.png)
-
 ## Test & Certification
 
 - <a href="/img/products/wiz-ip20/KC적합등록필증_㈜위즈네트_WIZ-IP20.pdf" target="_blank">KC 인증</a>
 - <a href="/img/products/wiz-ip20/FCC_SDoC_WIZ-IP20.pdf" target="_blank">FCC 인증</a>
 - <a href="/img/products/wiz-ip20/CE_DoC_WIZ-IP20.pdf" target="_blank">CE 인증</a>
-
-
-
-<img src="/img/products/wiz-ip20/ip20-io/wizip20_io_back.png"  alt="Wiz-ip20 Pin Description"  width="600" />
