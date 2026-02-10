@@ -32,6 +32,13 @@ date: 2026-02-04
  
   - We also provide **[Customization Services](#customization-services)** such as change / add functions by customer request.
 
+### TOP&BOTTOM
+
+|                                                                      |                                                                         |
+| -------------------------------------------------------------------- | ----------------------------------------------------------------------- |
+| ![](/img/products/wiz-ip20/ip20-io/wizip20_io_front.png) | ![](/img/products/wiz-ip20/ip20-io/wizip20_io_back.png) |
+| **TOP**                                                              | **BOTTOM**                                                              |
+
 ## Features
 
 **The following key features are included with the wizip20-io board.**
@@ -113,6 +120,8 @@ The 5V line is filtered and fed into U1, and the regulated 3.3V output (3V3) pow
 | VCC_3V3 Max              | DC 3.6V                                       |
 
 ## Hardware Design Guide & References
+
+
 
 ## Documentation
 
