@@ -7,8 +7,7 @@ date: 2026-02-04
 
 # WIZ-IP20-io
 <div className="main-card">
-  <img src="/img/products/wiz-ip20/ip20-io/wizip20_io_front.png" alt="Wiz-ip20-io" /> 
-  <img src="/img/products/wiz-ip20/ip20-io/wizip20_io_back.png"  alt="Wiz-ip20 Pin Description" />
+<img src="/img/products/wiz-ip20/ip20-io/wizip20_io_cross.png" alt="Wiz-ip20-io" /> 
   <div>
     <h3>WIZ-IP20-io</h3>
     <br />
@@ -65,6 +64,7 @@ date: 2026-02-04
 
 ### Pin-out
 <img src="/img/products/wiz-ip20/ip20-io/wizip20_io_pinout.png" width="400" />
+
 
 WIZ-IP20-IO pinout is directly connected to the GPIO of the W55RP20, which is compatible with RP2040 GPIO numbering. However, GPIO16, GPIO17, GPIO18, GPIO19, GPIO20, and GPIO21 are internally used for SPI communication with the embedded Ethernet controller to provide Ethernet functionality. Therefore, when the Ethernet function is enabled, these pins cannot be used for other purposes.
 
@@ -154,3 +154,7 @@ This section provides essential hardware resources, including schematics, 3D mod
 - <a href="/img/products/wiz-ip20/KC적합등록필증_㈜위즈네트_WIZ-IP20.pdf" target="_blank">KC 인증</a>
 - <a href="/img/products/wiz-ip20/FCC_SDoC_WIZ-IP20.pdf" target="_blank">FCC 인증</a>
 - <a href="/img/products/wiz-ip20/CE_DoC_WIZ-IP20.pdf" target="_blank">CE 인증</a>
+
+
+  <img src="/img/products/wiz-ip20/ip20-io/wizip20_io_front.png" alt="Wiz-ip20-io" /> 
+  <img src="/img/products/wiz-ip20/ip20-io/wizip20_io_back.png"  alt="Wiz-ip20 Pin Description" />

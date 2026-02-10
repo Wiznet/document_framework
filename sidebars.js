@@ -1865,7 +1865,7 @@ module.exports = {
 									{
 										type: 'category',
 										label: 'Related modules', 
-										link: {type: 'generated-index', slug: '/Product/Modules/Serial-to-Ethernet-Module/WIZ-IP20/wizip20#related-modules'},
+										link: {type: 'generated-index', slug: '/Product/Modules/Serial-to-Ethernet-Module/WIZ-IP20/#related-modules'},
 										items: [
 												'Product/Modules/Serial-to-Ethernet-Module/WIZ-IP20/ip20-io/ip20-io',
 										],
