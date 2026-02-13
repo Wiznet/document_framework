@@ -444,9 +444,9 @@ MA [00 08 DC 00 00 11] [CR] [LF] PW [HELLO] [CR] [LF] LI [192.168.11.5] [CR] [LF
 <td align="center">RW</td>
 </tr>
 <tr class="even">
-<td align="center"><a href="#tr">IT</a></td>
-<td align="center">Options</td>
-<td>TCP Retransmission Retry Count</td>
+<td align="center"><a href="#tr">TR</a></td>
+<td align="center">オプション</td>
+<td>TCP 再送リトライ回数</td>
 <td align="center">RW</td>
 </tr>
 <tr class="odd">
@@ -459,19 +459,19 @@ MA [00 08 DC 00 00 11] [CR] [LF] PW [HELLO] [CR] [LF] LI [192.168.11.5] [CR] [LF
 <tr class="even">
 <td align="center"><a href="#sd">SD</a></td>
 <td align="center">:::</td>
-<td> String to be sent to the serial port upon TCP/UDP connection</td>
+<td>TCP/UDP 接続確立時にシリアルポートへ送信する文字列</td>
 <td align="center">RW</td>
 </tr>
 <tr class="odd">
 <td align="center"><a href="#dd">DD</a></td>
 <td align="center">:::</td>
-<td>String to be sent to the serial port upon TCP/UDP disconnection</td>
+<td>TCP/UDP 切断時にシリアルポートへ送信する文字列</td>
 <td align="center">RW</td>
 </tr>
 <tr class="even">
 <td align="center"><a href="#se">SE</a></td>
 <td align="center">:::</td>
-<td>String to be sent over Ethernet upon TCP/UDP connection</td>
+<td>TCP/UDP 接続確立時にイーサネットへ送信する文字列</td>
 <td align="center">RW</td>
 </tr>
 <tr class="odd">
