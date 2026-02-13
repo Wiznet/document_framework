@@ -46,7 +46,6 @@ date: 2026-02-04
   - Easy to add Ethernet networking function through UART or SPI interface
         of any device / MCU
   - Support **RS-232C** and **RS-422/485** if an external circuit is configured.
-  - Status pins: PHY link status / TCP connection status / Run status
   - Support multiple protocols
     - TCP Server
     - TCP Client
@@ -82,9 +81,6 @@ WIZ-IP20-IO pinout is directly connected to the GPIO of the W55RP20, which is co
 |  O  | TXD          | Data UART TX from WIZ-IP20 (connect to RX of external MCU/device)          |
 |  I  | RXD          | Data UART RX to WIZ-IP20 (connect to TX of external MCU/device)            |
 |  I  | RESETn       | Active-low reset input for WIZ-IP20                                        |
-|  O  | LINK_STATUS  | High when Ethernet link is up, low when link is down                       |
-|  O  | TCP_STATUS   | High when a TCP connection is established, low when disconnected           |
-|  O  | RUN_STATUS   | System run/status indication (e.g., blinking while the module is running)  |
 |  -  | VBUS         | 5V power input to wizip20-io board                                         |
 |  -  | 3V3          | 3.3V power rail generated on-board and used to power WIZ-IP20              |
 |  -  | GND          | Ground reference                                                           |
