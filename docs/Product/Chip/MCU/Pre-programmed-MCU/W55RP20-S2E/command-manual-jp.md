@@ -312,7 +312,7 @@ MA [00 08 DC 00 00 11] [CR] [LF] PW [HELLO] [CR] [LF] LI [192.168.11.5] [CR] [LF
 <td align="center">RO</td>
 </tr>
 <tr class="even">
-<td align="center"v><a href="#st">ST</a></td>
+<td align="center"><a href="#st">ST</a></td>
 <td align="center">:::</td>
 <td>動作状態</td>
 <td align="center">RO</td>
@@ -443,13 +443,13 @@ MA [00 08 DC 00 00 11] [CR] [LF] PW [HELLO] [CR] [LF] LI [192.168.11.5] [CR] [LF
 <td>無通信タイマー値</td>
 <td align="center">RW</td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td align="center"><a href="#tr">IT</a></td>
 <td align="center">Options</td>
 <td>TCP Retransmission Retry Count</td>
 <td align="center">RW</td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td align="center"><a href="#ri">RI</a></td>
 <td align="center">:::</td>
 <td>TCP再接続間隔<br/>
@@ -459,19 +459,19 @@ MA [00 08 DC 00 00 11] [CR] [LF] PW [HELLO] [CR] [LF] LI [192.168.11.5] [CR] [LF
 <tr class="even">
 <td align="center"><a href="#sd">SD</a></td>
 <td align="center">:::</td>
-<td> String to be sent to the serial port upon TCP/UDP connection<br/>
+<td> String to be sent to the serial port upon TCP/UDP connection</td>
 <td align="center">RW</td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td align="center"><a href="#dd">DD</a></td>
 <td align="center">:::</td>
-<td>String to be sent to the serial port upon TCP/UDP disconnection<br/>
+<td>String to be sent to the serial port upon TCP/UDP disconnection</td>
 <td align="center">RW</td>
 </tr>
 <tr class="even">
 <td align="center"><a href="#se">SE</a></td>
 <td align="center">:::</td>
-<td>String to be sent over Ethernet upon TCP/UDP connection<br/>
+<td>String to be sent over Ethernet upon TCP/UDP connection</td>
 <td align="center">RW</td>
 </tr>
 <tr class="odd">

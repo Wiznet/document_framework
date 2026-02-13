@@ -357,7 +357,7 @@ The two additional commands are **MA** and **PW**.
 <td align="center">RO</td>
 </tr>
 <tr class="even">
-<td align="center"v><a href="#st">ST</a></td>
+<td align="center"><a href="#st">ST</a></td>
 <td align="center">:::</td>
 <td>Operation status</td>
 <td align="center">RO</td>
@@ -504,19 +504,19 @@ The two additional commands are **MA** and **PW**.
 <tr class="odd">
 <td align="center"><a href="#sd">SD</a></td>
 <td align="center">:::</td>
-<td> String to be sent to the serial port upon TCP/UDP connection<br/>
+<td> String to be sent to the serial port upon TCP/UDP connection</td>
 <td align="center">RW</td>
 </tr>
 <tr class="even">
 <td align="center"><a href="#dd">DD</a></td>
 <td align="center">:::</td>
-<td>String to be sent to the serial port upon TCP/UDP disconnection<br/>
+<td>String to be sent to the serial port upon TCP/UDP disconnection</td>
 <td align="center">RW</td>
 </tr>
 <tr class="odd">
 <td align="center"><a href="#se">SE</a></td>
 <td align="center">:::</td>
-<td>String to be sent over Ethernet upon TCP/UDP connection<br/>
+<td>String to be sent over Ethernet upon TCP/UDP connection</td>
 <td align="center">RW</td>
 </tr>
 <tr class="odd">
