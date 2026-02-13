@@ -488,11 +488,35 @@ The two additional commands are **MA** and **PW**.
 <td>Inactivity timer value</td>
 <td align="center">RW</td>
 </tr>
+<tr class="odd">
+<td align="center"><a href="#tr">TR</a></td>
+<td align="center">Options</td>
+<td>TCP Retransmission Retry Count</td>
+<td align="center">RW</td>
+</tr>
 <tr class="even">
 <td align="center"><a href="#ri">RI</a></td>
 <td align="center">:::</td>
 <td>TCP Reconnection interval<br/>
 (TCP client only)</td>
+<td align="center">RW</td>
+</tr>
+<tr class="odd">
+<td align="center"><a href="#sd">SD</a></td>
+<td align="center">:::</td>
+<td> String to be sent to the serial port upon TCP/UDP connection<br/>
+<td align="center">RW</td>
+</tr>
+<tr class="even">
+<td align="center"><a href="#dd">DD</a></td>
+<td align="center">:::</td>
+<td>String to be sent to the serial port upon TCP/UDP disconnection<br/>
+<td align="center">RW</td>
+</tr>
+<tr class="odd">
+<td align="center"><a href="#se">SE</a></td>
+<td align="center">:::</td>
+<td>String to be sent over Ethernet upon TCP/UDP connection<br/>
 <td align="center">RW</td>
 </tr>
 <tr class="odd">
@@ -2098,7 +2122,7 @@ Return value</th>
 
   - **Format:** `DD<Parameter>[CR][LF]`
 
-  - **Meaning:** String to be sent to the serial port upon TCP/UDP connection (Disconnect message)
+  - **Meaning:** String to be sent to the serial port upon TCP/UDP disconnection (Disconnect message)
 
   - **Command Type:** Read / Write
 

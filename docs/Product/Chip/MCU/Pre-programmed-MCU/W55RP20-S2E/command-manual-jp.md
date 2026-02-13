@@ -443,11 +443,35 @@ MA [00 08 DC 00 00 11] [CR] [LF] PW [HELLO] [CR] [LF] LI [192.168.11.5] [CR] [LF
 <td>無通信タイマー値</td>
 <td align="center">RW</td>
 </tr>
+<tr class="odd">
+<td align="center"><a href="#tr">IT</a></td>
+<td align="center">Options</td>
+<td>TCP Retransmission Retry Count</td>
+<td align="center">RW</td>
+</tr>
 <tr class="even">
 <td align="center"><a href="#ri">RI</a></td>
 <td align="center">:::</td>
 <td>TCP再接続間隔<br/>
 （TCPClient のみ）</td>
+<td align="center">RW</td>
+</tr>
+<tr class="even">
+<td align="center"><a href="#sd">SD</a></td>
+<td align="center">:::</td>
+<td> String to be sent to the serial port upon TCP/UDP connection<br/>
+<td align="center">RW</td>
+</tr>
+<tr class="even">
+<td align="center"><a href="#dd">DD</a></td>
+<td align="center">:::</td>
+<td>String to be sent to the serial port upon TCP/UDP disconnection<br/>
+<td align="center">RW</td>
+</tr>
+<tr class="even">
+<td align="center"><a href="#se">SE</a></td>
+<td align="center">:::</td>
+<td>String to be sent over Ethernet upon TCP/UDP connection<br/>
 <td align="center">RW</td>
 </tr>
 <tr class="odd">
@@ -1615,6 +1639,38 @@ Google Public DNS (IPv4)
 - 応答なし
 - アイドルタイマー値を変更
 
+
+---
+
+#### TR
+
+---
+
+  - **フォーマット:** `TR<パラメータ>[CR][LF]`
+
+  - **意味:** TCP 再送リトライ回数
+
+  - **コマンド種別:** 読み取り / 書き込み
+
+  - **パラメータ / 戻り値の型:** 数値
+
+  - **パラメータ / 戻り値:**
+
+  0: 使用しない（無効）  
+  1 ~ 5: 使用する（有効）
+
+  本コマンドは、TCP パケットの再送試行回数の上限を設定します。リモートホストから ACK（確認応答）を受信できない場合、指定した回数までパケットの再送を行います。回数を増やすことで、不安定なネットワーク環境や遅延の大きい環境でも接続を維持しやすくなります。
+
+  - **応答**
+
+  **パラメータなし (Get)**  
+  - ASCII表記: `TR5\r\n`（現在のリトライ回数を返す）
+
+  **パラメータあり (Set)**  
+  - 応答なし  
+  - TCP 再送リトライ回数を変更
+
+
 ---
 
 #### CP
@@ -1883,6 +1939,100 @@ TCPClient モード時にサーバーとのTCP接続が確立できなかった�
 **パラメータあり (Set)**
 - 応答なし
 - TCPClient 再接続間隔値を変更
+
+
+---
+
+#### SD
+
+---
+
+  - **フォーマット:** `SD<パラメータ>[CR][LF]`
+
+  - **意味:** TCP/UDP 接続確立時にシリアルポートへ送信する文字列（接続メッセージ）
+
+  - **コマンド種別:** 読み取り / 書き込み
+
+  - **パラメータ / 戻り値の型:** 文字列（最大 30 文字）
+
+  - **パラメータ / 戻り値:**
+
+  未設定 または 空文字: 使用しない  
+  その他: 指定した文字列
+
+  TCP または UDP の接続が確立した際に、ユーザー指定の文字列をシリアルインターフェースへ送信します。
+
+  - **応答**
+
+  **パラメータなし (Get)**  
+  - ASCII表記: `SDconnect\r\n`
+
+  **パラメータあり (Set)**  
+  - 応答なし  
+  - イーサネット接続時にシリアルポートへ送信する接続メッセージを変更
+
+---
+
+#### DD
+
+---
+
+  - **フォーマット:** `DD<パラメータ>[CR][LF]`
+
+  - **意味:** TCP/UDP 切断時にシリアルポートへ送信する文字列（切断メッセージ）
+
+  - **コマンド種別:** 読み取り / 書き込み
+
+  - **パラメータ / 戻り値の型:** 文字列（最大 30 文字）
+
+  - **パラメータ / 戻り値:**
+
+  未設定 または 空文字: 使用しない  
+  その他: 指定した文字列
+
+  TCP または UDP の接続が切断された際に、ユーザー指定の文字列をシリアルインターフェースへ送信します。
+
+  - **応答**
+
+  **パラメータなし (Get)**  
+  - ASCII表記: `DDdisconnect\r\n`
+
+  **パラメータあり (Set)**  
+  - 応答なし  
+  - イーサネット接続終了時にシリアルポートへ送信する切断メッセージを変更
+
+
+
+---
+
+#### SE
+
+---
+
+  - **フォーマット:** `SE<パラメータ>[CR][LF]`
+
+  - **意味:** TCP/UDP 接続確立時にイーサネットへ送信する文字列（接続メッセージ）
+
+  - **コマンド種別:** 読み取り / 書き込み
+
+  - **パラメータ / 戻り値の型:** 文字列（最大 30 文字）
+
+  - **パラメータ / 戻り値:**
+
+  未設定 または 空文字: 使用しない  
+  その他: 指定した文字列
+
+  TCP または UDP の接続が確立した際に、ユーザー指定の文字列をイーサネットへ送信します。
+
+  - **応答**
+
+  **パラメータなし (Get)**  
+  - ASCII表記: `SEconnect\r\n`
+
+  **パラメータあり (Set)**  
+  - 応答なし  
+  - 接続確立時にイーサネットへ送信する接続メッセージを変更
+
 
 ### Modbus設定
 
