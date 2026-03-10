@@ -323,27 +323,32 @@ export default function ContentWrapper(props) {
         match: '/Product/Open-Source-Hardware/PoE',
         target: '/Product/Modules/Open-Source-Hardware/PoE/PoE-Main',
       },
-      {
-        match: ['/Product/Open-Source-Hardware/arduino',
-                '/Product/Open-Source-Hardware/wizarduino_m0_eth',
-                '/Product/Open-Source-Hardware/wizarduino_m0_eth_eng',
-                '/Product/Open-Source-Hardware/wizarduino_mega_wifi',
-                '/Product/Open-Source-Hardware/wizarduino_mega_wifi_eng',
-                '/Product/Open-Source-Hardware/wizfi310_shield',
-                '/Product/Open-Source-Hardware/ioshield_a',
-                '/Product/Open-Source-Hardware/ioshield_k',
-                '/Product/Open-Source-Hardware/ioshield_l',
-                '/Product/Open-Source-Hardware/w5100s_mkr_ethernet_shield',
-                '/Product/Open-Source-Hardware/w5500_ethernet_shield',
-                '/Product/Open-Source-Hardware/w5500_ethernet_shield_jp',
-                '/Product/Open-Source-Hardware/w5500_ethernet_shield_kor',
-                '/Product/Open-Source-Hardware/w6100_mkr_ethernet_shield'],
-        target: '/Product/Chip/Chip_Related_modules/arduino',
-      },
-      {
-        match: '/Product/Open-Source-Hardware',
-        target: '/Product/Modules/Open-Source-Hardware/open_source_hardware',
-      },
+      // {
+      //   match: ['/Product/Open-Source-Hardware/arduino',
+      //           '/Product/Open-Source-Hardware/wizarduino_m0_eth',
+      //           '/Product/Open-Source-Hardware/wizarduino_m0_eth_eng',
+      //           '/Product/Open-Source-Hardware/wizarduino_mega_wifi',
+      //           '/Product/Open-Source-Hardware/wizarduino_mega_wifi_eng',
+      //           '/Product/Open-Source-Hardware/wizfi310_shield',
+      //           '/Product/Open-Source-Hardware/ioshield_a',
+      //           '/Product/Open-Source-Hardware/ioshield_k',
+      //           '/Product/Open-Source-Hardware/ioshield_l',
+      //           '/Product/Open-Source-Hardware/w5100s_mkr_ethernet_shield',
+      //           '/Product/Open-Source-Hardware/w5500_ethernet_shield',
+      //           '/Product/Open-Source-Hardware/w5500_ethernet_shield_jp',
+      //           '/Product/Open-Source-Hardware/w5500_ethernet_shield_kor',
+      //           '/Product/Open-Source-Hardware/w6100_mkr_ethernet_shield'],
+      //   target: '/Product/Chip/Chip_Related_modules/arduino',
+
+      //   http://localhost:3000/Product/Chip/Ethernet/W5500/W5500-Ethernet-Shield/ioshield_l
+      //   https://docs.wiznet.io/Product/Open-Source-Hardware/w5500_ethernet_shield
+      //                                  Product/Chip/Ethernet/W5500/W5500-Ethernet-Shield/
+
+      // },
+      // {
+      //   match: '/Product/Open-Source-Hardware',
+      //   target: '/Product/Modules/Open-Source-Hardware/open_source_hardware',
+      // },
 
       /* Azure-Sphere */
       {
@@ -528,6 +533,13 @@ export default function ContentWrapper(props) {
       }
   }
 
+  if (location.startsWith('/Product/Open-Source-Hardware/')) {
+    const newPath = location.replace(
+      /^\/Product\/Open-Source-Hardware\//,
+      '/Product/Chip/Ethernet/W5500/W5500-Ethernet-Shield/'
+    );
+    return redirectWithDelay(newPath);
+  }
   if (location.startsWith('/Product/S2E-Module/Industrial/')) {
     const newPath = location.replace(
       /^\/Product\/S2E-Module\/Industrial\//,
