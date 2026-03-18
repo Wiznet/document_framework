@@ -3,15 +3,14 @@ id: overview-en
 title: Overview
 date: 2024-10-23
 ---
-
-## Overview
+<img src="/img/products/w55rp20-s2e/s2e-image.png" width="900" />
 
 The **W55RP20-S2E** is a pre-programmed product with an Serial to Ethernet FW and a valid MAC address into the [W55RP20](../../W55RP20/Overview.mdx).
 
 
 ### WIZnet S2E Solution
 
-  - WIZnet 'Serial to Ethernet' product is a protocol converter that
+  - WIZnet **'Serial to Ethernet'** product is a protocol converter that
     transmits data sent by serial equipment as TCP/IP data and converts
     the TCP/IP data received through the network back into serial data
     to the serial equipment.
