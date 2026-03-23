@@ -395,7 +395,7 @@ module.exports = {
 
 									{
 						type: 'category',
-						label: 'Pre-programmed MCU',
+						label: 'Serial to Ethernet',
 						link: {type: 'doc', id: 'Product/Chip/MCU/Pre-programmed-MCU/pre_programmed_mcu'},
 						items: [
 							//'Product/Chip/Pre-programmed-MCU/pre_programmed_mcu',
@@ -414,8 +414,8 @@ module.exports = {
 									{
 										type: 'category',
 										label: 'W55RP20-S2E [EN]',
+										link: { type: 'doc', id: 'Product/Chip/MCU/Pre-programmed-MCU/W55RP20-S2E/overview-en' },
 										items: [
-											'Product/Chip/MCU/Pre-programmed-MCU/W55RP20-S2E/overview-en',
 											'Product/Chip/MCU/Pre-programmed-MCU/W55RP20-S2E/w55rp20-evb-pico-s2e',
 	
 											{

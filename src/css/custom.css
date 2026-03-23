@@ -258,6 +258,16 @@ html[data-theme="dark"] .rlc-description {
   object-fit: contain;
   margin-right: 1rem;
 }
+
+/* Hide the auto-inserted "Overview" child for linked W55RP20-S2E sidebar categories. */
+a.menu__link--sublist[href="/Product/Chip/MCU/Pre-programmed-MCU/W55RP20-S2E/overview-en"]
+  + ul.menu__list
+  > li.menu__list-item:first-child,
+a.menu__link--sublist[href="/Product/Chip/MCU/Pre-programmed-MCU/W55RP20-S2E/overview-jp"]
+  + ul.menu__list
+  > li.menu__list-item:first-child {
+  display: none;
+}
 .main-card h3 {
   margin: 0;
 }
