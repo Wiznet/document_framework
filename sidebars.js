@@ -76,7 +76,15 @@ module.exports = {
 												items: [
 													'Product/Chip/MCU/W55RP20/w55rp20-evb-pico',
 												],
-											}
+											},
+											{
+												type: 'category',
+												label: 'evaluation-boards', 
+												link: {type :'generated-index',  slug: '/Product/Chip/MCU/W55RP20/#evaluation-boards' },
+												items: [
+													'Product/Chip/MCU/W55RP20/w55rp20-arduino',
+												],
+											},
 											// { type: 'link', label: 'serial-to-ethernet-module',  href: '/Product/Chip/MCU/W55RP20/#serial-to-ethernet-module' },
 										]
 									},
