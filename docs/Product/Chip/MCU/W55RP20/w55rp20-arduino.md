@@ -49,9 +49,10 @@ Therefore, both the functions of Raspberry Pi Pico and those of the W5500 are av
 
 ## Hardware Specification
 
-### Pin-out(작성중)
+### Pin-out
 
 ![W55RP20-arduino](/img/products/w55rp20-arduino/pinmap.png)
+
 This product is optimized for an external input DC range of 5V to 3.3V. Excessive heat generation may occur when supplying DC power of 7V or higher.
 
 ## Technical Reference
@@ -78,7 +79,7 @@ This product is optimized for an external input DC range of 5V to 3.3V. Excessiv
 
 ### Dimension (Unit : mm)
 
-![W5500-EVB-RP2040](/img/products/w55rp20-evb-pico/w55rp20-evb-pico-dimension.png)
+![W5500-EVB-RP2040](/img/products/w55rp20-arduino/W55RP20_Arduino_Dimension.png)
 
 ### Firmware Example
 Please refer to below links to find firmware example.
