@@ -463,13 +463,21 @@ module.exports = {
 											},
 										],
 									},
-								],		
-							},	
-						],
-					},
-				],	
-					},
+								],
+							},
 
+							{
+							 type: 'category',
+							 label: 'W55RP20-2S2E',
+							 items: [
+										'Product/Chip/MCU/Pre-programmed-MCU/W55RP20-2S2E/W55RP20-2S2E',
+										
+									],		
+					},	
+				],
+			},
+		],
+	},
 					{
 						type: 'category', 
 						label: 'Ethernet',
