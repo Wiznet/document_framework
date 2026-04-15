@@ -144,3 +144,5 @@ This section provides essential hardware resources, including schematics, 3D mod
 
 ## Dimensions
 ![WIZip20-io Dimensions](/img/products/wiz-ip20/wizip20_io_demension.png)
+
+
