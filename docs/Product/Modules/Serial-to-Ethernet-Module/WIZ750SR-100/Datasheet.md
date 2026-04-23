@@ -116,7 +116,7 @@ TCP connection indicate</td>
 -   WIZ750SR-100-EVB (RS-232)
     -   RS-232C Transceiver, D-SUB9-MALE.
 
-<img src="/img/products/wiz750jr/datasheet/wiz750jr-evb_description.png" width="800" />
+<img src="/img/products/wiz750sr-100/datasheet/WIZ750SR-100-EVB-Description.png" width="800" />
 
 ------------------------------------------------------------------------
 
