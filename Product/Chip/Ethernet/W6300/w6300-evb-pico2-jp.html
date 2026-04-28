@@ -16,7 +16,7 @@
 <link rel="search" type="application/opensearchdescription+xml" title="WIZnet Document System" href="/opensearch.xml">
 <link rel="preconnect" href="https://cdn.channel.io">
 <script>!function(){var n=window;if(n.ChannelIO)return(window.console.error||window.console.log||function(){})("ChannelIO script included twice.");var e=function(){e.c(arguments)};function t(){if(!n.ChannelIOInitialized){n.ChannelIOInitialized=!0;var e=document.createElement("script");e.type="text/javascript",e.async=!0,e.src="https://cdn.channel.io/plugin/ch-plugin-web.js",e.charset="UTF-8";var t=document.getElementsByTagName("script")[0];t.parentNode.insertBefore(e,t)}}e.q=[],e.c=function(n){e.q.push(n)},n.ChannelIO=e,"complete"===document.readyState?t():window.attachEvent?window.attachEvent("onload",t):(window.addEventListener("DOMContentLoaded",t,!1),window.addEventListener("load",t,!1))}(),ChannelIO("boot",{pluginKey:"cb95c060-ab4c-45ec-bbe8-fe40a1ea3aec"})</script><link rel="stylesheet" href="/assets/css/styles.b21d7d76.css">
-<script src="/assets/js/runtime~main.ab58e015.js" defer="defer"></script>
+<script src="/assets/js/runtime~main.c776b911.js" defer="defer"></script>
 <script src="/assets/js/main.4d420d70.js" defer="defer"></script>
 </head>
 <body class="navigation-with-keyboard">
@@ -161,7 +161,7 @@
 <p>フル/ハーフデュプレックス（10 / 100ベース）</p>
 </li>
 <li>
-<p>RJ45（RB1-125BAG1A）内蔵</p>
+<p>RJ45（Support IEEE 802.3af）内蔵</p>
 </li>
 <li>
 <p><strong>電源</strong></p>
@@ -169,8 +169,11 @@
 <li>
 <p>Switch-mode DC-DC converter内蔵（LDOを置き換え、電力効率向上）</p>
 </li>
+<li>
+<p>PoE 対応 (via <a href="/Product/Modules/PoE/WIZPoE-P1">WIZPoE-P1</a>)</p>
+</li>
 </ul>
-<h2 class="anchor anchorWithHideOnScrollNavbar_WYt5" id="ハードウェア仕様">ハードウェア仕様<a href="#ハードウェア仕様" class="hash-link" aria-label="Direct link to ハードウェア仕様" title="Direct link to ハードウェア仕様">​</a></h2>
+<h2 class="anchor anchorWithHideOnScrollNavbar_WYt5" id="ハードウェア仕様">ハードウェア仕様<a href="#ハードウェア仕様" class="hash-link" aria-label="Direct link to ハ  ードウェア仕様" title="Direct link to ハードウェア仕様">​</a></h2>
 <h3 class="anchor anchorWithHideOnScrollNavbar_WYt5" id="ピンアウト-v10">ピンアウト v1.0<a href="#ピンアウト-v10" class="hash-link" aria-label="Direct link to ピンアウト v1.0" title="Direct link to ピンアウト v1.0">​</a></h3>
 <p>ピンアウト画像近日公開</p>
 <p>W6300-EVB-Pico2のピンアウトは、上記の図の通りRP2350のGPIOに直接接続されています。Raspberry Pi Pico2ボードと同じピン配置ですが、GPIO15、GPIO16、GPIO17、GPIO18、GPIO19、GPIO20、GPIO21、GPIO22は基板内でW6300に接続されています。これらのピンは、Ethernet機能を使用するためにW6300とのQSPI通信を可能にします。Ethernet機能を使用する場合、これらのピンは他の用途には使用できません。</p>
@@ -179,12 +182,12 @@
 <h3 class="anchor anchorWithHideOnScrollNavbar_WYt5" id="qspiモードioライン">QSPIモードIOライン<a href="#qspiモードioライン" class="hash-link" aria-label="Direct link to QSPIモードIOライン" title="Direct link to QSPIモードIOライン">​</a></h3>
 <p>各QSPIモードのIOラインは以下の通りです。</p>
 <table><thead><tr><th style="text-align:center">モード</th><th style="text-align:center">I/O</th><th>ピン名</th><th>説明</th></tr></thead><tbody><tr><td style="text-align:center">シングル</td><td style="text-align:center">O</td><td>GPIO18</td><td>W6300のIO0（MOSI）に接続</td></tr><tr><td style="text-align:center">シングル</td><td style="text-align:center">I</td><td>GPIO19</td><td>W6300のIO1（MISO）に接続</td></tr><tr><td style="text-align:center">モード</td><td style="text-align:center">I/O</td><td>ピン名</td><td>説明</td></tr><tr><td style="text-align:center">:----:</td><td style="text-align:center">:--:</td><td>-------</td><td>------------------------------------------</td></tr><tr><td style="text-align:center">Dual</td><td style="text-align:center">I/O</td><td>GPIO18</td><td>W6300のIO0に接続（デュアルモード）</td></tr><tr><td style="text-align:center">Dual</td><td style="text-align:center">I/O</td><td>GPIO19</td><td>W6300のIO1に接続（デュアルモード）</td></tr></tbody></table>
-<table><thead><tr><th style="text-align:center">モード</th><th style="text-align:center">I/O</th><th>ピン名</th><th>説明</th></tr></thead><tbody><tr><td style="text-align:center">Quad</td><td style="text-align:center">I/O</td><td>GPIO18</td><td>W6300のIO0に接続（クアッドモード）</td></tr><tr><td style="text-align:center">Quad</td><td style="text-align:center">I/O</td><td>GPIO19</td><td>W6300のIO1に接続（クアッドモード）</td></tr><tr><td style="text-align:center">Quad</td><td style="text-align:center">I/O</td><td>GPIO20</td><td>W6300  のIO2に接続（クアッドモード）</td></tr><tr><td style="text-align:center">Quad</td><td style="text-align:center">I/O</td><td>GPIO21</td><td>W6300のIO3に接続（クアッドモード）</td></tr></tbody></table>
+<table><thead><tr><th style="text-align:center">モード</th><th style="text-align:center">I/O</th><th>ピン名</th><th>説明</th></tr></thead><tbody><tr><td style="text-align:center">Quad</td><td style="text-align:center">I/O</td><td>GPIO18</td><td>W6300のIO0に接続（クアッドモード）</td></tr><tr><td style="text-align:center">Quad</td><td style="text-align:center">I/O</td><td>GPIO19</td><td>W6300のIO1に接続（クアッドモード）</td></tr><tr><td style="text-align:center">Quad</td><td style="text-align:center">I/O</td><td>GPIO20</td><td>W6300のIO2に接続（クアッドモード）</td></tr><tr><td style="text-align:center">Quad</td><td style="text-align:center">I/O</td><td>GPIO21</td><td>W6300のIO3に接続（クアッドモード）</td></tr></tbody></table>
 <p>GPIOおよびGNDピン以外に、メインの40ピンインターフェースには他に7つのピンがあります：</p>
 <table><thead><tr><th>ピン番号</th><th>ピン名</th><th>説明</th></tr></thead><tbody><tr><td>PIN40</td><td>VBUS</td><td>Micro-USB入力電圧。micro-USBポートのピン1に接続。標準5V。</td></tr><tr><td>PIN39</td><td>VSYS</td><td>メインシステム入力電圧。許容範囲は4.3V～5.5V。オンボードLDOで3.3Vを生成。</td></tr><tr><td>PIN37</td><td>3V3_EN</td><td>オンボードLDOのイネーブルピンに接続。3.3Vを無効化（RP2350とW6300も無電源）するには、このピンをLowに短絡。</td></tr><tr><td>PIN36</td><td>3V3</td><td>RP2350およびW6300へのメイン3.3V電源。オンボードLDOで生成。</td></tr><tr><td>PIN35</td><td>ADC_VREF</td><td>ADC電源（およびリファレンス）電圧。W6300-EVB-Pico2で3.3V電源をフィルタリングして生成。</td></tr><tr><td>PIN33</td><td>AGND</td><td>GPIO26-29用のグランドリファレンス。</td></tr><tr><td>PIN30</td><td>RUN</td><td>RP2350のイネーブルピン。RP2350をリセットするには、このピンをLowに短絡。</td></tr></tbody></table>
 <h3 class="anchor anchorWithHideOnScrollNavbar_WYt5" id="動作条件">動作条件<a href="#動作条件" class="hash-link" aria-label="Direct link to 動作条件" title="Direct link to 動作条件">​</a></h3>
 <table><thead><tr><th>項目</th><th>説明</th></tr></thead><tbody><tr><td>動作温度 最大</td><td>85℃（自己発熱を含む）</td></tr><tr><td>動作温度 最小</td><td>-20℃</td></tr><tr><td>VBUS</td><td>DC 5V（±10%）</td></tr><tr><td>VSYS 最小</td><td>DC 4.3V</td></tr><tr><td>VSYS 最大</td><td>DC 5.5V</td></tr></tbody></table>
-<p>動作時の推奨最大周 囲温度は70℃です。</p>
+<p>動作時の推奨最大周囲温度は70℃です。</p>
 <h2 class="anchor anchorWithHideOnScrollNavbar_WYt5" id="技術リファレンス">技術リファレンス<a href="#技術リファレンス" class="hash-link" aria-label="Direct link to 技術リファレンス" title="Direct link to 技術リファレンス">​</a></h2>
 <h3 class="anchor anchorWithHideOnScrollNavbar_WYt5" id="rp2350-データシート">RP2350 データシート<a href="#rp2350-データシート" class="hash-link" aria-label="Direct link to RP2350 データシート" title="Direct link to RP2350 データシート">​</a></h3>
 <h3 class="anchor anchorWithHideOnScrollNavbar_WYt5" id="w6300-データシート">W6300 データシート<a href="#w6300-データシート" class="hash-link" aria-label="Direct link to W6300 データシート" title="Direct link to W6300 データシート">​</a></h3>
@@ -197,7 +200,7 @@
 <ul>
 <li><a href="https://github.com/Wiznet/Hardware-Files-of-WIZnet/tree/master/02_iEthernet/W6300/W6300-EVB-Pico2_V100" target="_blank" rel="noopener noreferrer">Githubへ</a></li>
 </ul>
-<h3 class="anchor anchorWithHideOnScrollNavbar_WYt5" id="3dファイ  ル">3Dファイル<a href="#3dファイル" class="hash-link" aria-label="Direct link to 3Dファイル" title="Direct link to 3Dファイル">​</a></h3>
+<h3 class="anchor anchorWithHideOnScrollNavbar_WYt5" id="3dファイル">3Dファイル<a href="#3dファイル" class="hash-link" aria-label="Direct link to 3Dファイル" title="Direct link to 3Dファイル">​</a></h3>
 <ul>
 <li><img decoding="async" loading="lazy" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAA2UlEQVQ4T92SYRHCMAxGmYLNATgACTgAB8wBSAAHoIDNASgBCeAAFMD3uGRX1vbgjn/k7rt2SfOSpisGP1rxIf9h8ey5PwXUuvc+M5tWfuKd5WaQgkTJUPqAuXxjaWOVvBNPXst/ko7eAoCJtLCESutVAnQ239RWzh2koXSTGqkFwFvfLbi1xOCW0RbQyoqUDoAIffclYGmAygFhmYs+6IR7ssdG0swqs+8sBQjjdIUxk6T5EGtFUZk72PMzswalnhEQ7aaMa5HonUX/gSfxnN4Vvlc1iWG/2RNMOC5t/gPo0QAAAABJRU5ErkJggg==" width="16" height="16" class="img_ev3q">
 <a href="/img/products/3d-step-files/W6100-EVB-Pico2_V100.step" target="_blank"> ダウンロード</a></li>
