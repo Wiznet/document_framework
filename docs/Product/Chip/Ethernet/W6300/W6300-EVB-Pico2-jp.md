@@ -72,10 +72,11 @@ W6300-EVB-Pico2は、Raspberry Pi RP2350および完全ハードワイヤードT
 - 10 / 100 Ethernet PHY integrated
 - オートネゴシエーション対応
 - フル/ハーフデュプレックス（10 / 100ベース）
-- RJ45（RB1-125BAG1A）内蔵
+- RJ45（Support IEEE 802.3af）内蔵
 
 - **電源**
 - Switch-mode DC-DC converter内蔵（LDOを置き換え、電力効率向上）
+- PoE 対応 (via [WIZPoE-P1](../../../Modules/PoE/WIZPoE-P1.mdx))
 
 ## ハードウェア仕様
 

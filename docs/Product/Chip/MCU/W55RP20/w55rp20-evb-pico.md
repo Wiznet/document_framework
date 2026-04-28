@@ -46,9 +46,10 @@ Therefore, both the functions of Raspberry Pi Pico and those of the W5500 are av
 - Supports Auto Negotiation
   - Full / Half Duplex
   - 10 / 100 Based
-- Built-in RJ45 (POE)
+- Built-in RJ45 (Support IEEE 802.3af)
 - Built-in DCDC (PWM/PFM)
-- Additional modules are installed to enable POE
+- PoE supported (via [WIZPoE-P1](../../../Modules/PoE/WIZPoE-P1.mdx))
+![W55RP20-EVB-PICO-POE](/img/products/w55rp20-evb-pico/w55rp20-evb-pico+POE.png)
 
 ## Hardware Specification
 

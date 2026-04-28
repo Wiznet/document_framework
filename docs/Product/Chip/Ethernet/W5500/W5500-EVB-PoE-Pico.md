@@ -46,6 +46,12 @@ W5500-EVB-Pico-PoE is a microcontroller evaluation board based on the Raspberry 
   - 10 / 100 Based
 - Built-in RJ45
 - Built-in LDO
+- PoE supported (via [WIZPoE-P1](../../../Modules/PoE/WIZPoE-P1.mdx))
+  
+<img 
+  src="/img/products/w5500-evb-pico-poe/w5500-evb-pico-poe-side.png" 
+  width="600"
+/>
 
 ## Hardware Specification
 

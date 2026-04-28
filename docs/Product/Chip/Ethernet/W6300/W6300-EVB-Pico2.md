@@ -74,10 +74,11 @@ W6300-EVB-Pico2 is a microcontroller evaluation board based on the Raspberry Pi 
   - 10 / 100 Ethernet PHY embedded
   - Supports Auto Negotiation
     - Full / Half Duplex(10 / 100 Based)
-  - Built-in RJ45(RB1-125BAG1A)
+  - Built-in RJ45 (Support IEEE 802.3af)
 
 - **Power Supply**
   - Built-in Switch-mode DC-DC converter (replacing LDO for enhanced power efficiency)
+  - PoE supported (via [WIZPoE-P1](../../../Modules/PoE/WIZPoE-P1.mdx))
 
 ## Hardware Specification
 

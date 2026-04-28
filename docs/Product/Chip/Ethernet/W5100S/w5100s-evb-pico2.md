@@ -65,10 +65,11 @@ W5100S-EVB-Pico2 is a microcontroller evaluation board based on the Raspberry Pi
   - Supports Auto Negotiation
     - Full / Half Duplex
     - 10 / 100 Based
-  - Built-in RJ45
+  - Built-in RJ45 (Support IEEE 802.3af)
 
 - **Power Supply**
   - Built-in Switch-mode DC-DC converter (replacing LDO for enhanced power efficiency)
+  - PoE supported (via [WIZPoE-P1](../../../Modules/PoE/WIZPoE-P1.mdx))
 
 
 ## Hardware Specification

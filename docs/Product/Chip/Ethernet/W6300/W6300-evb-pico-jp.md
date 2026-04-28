@@ -51,8 +51,9 @@ W6300-EVB-Picoは、Raspberry Pi RP2040と完全ハードワイヤードTCP/IPco
 - オートネゴシエーション対応
 - フル／ハーフデュプレックス
 - 10 / 100ベース
-- RJ45(RB1-125BAG1A)内蔵
-- LDO (LM8805SF5-33V)内蔵
+- RJ45 (Support IEEE 802.3af)
+- Built-in DCDC (PWM/PFM)
+- PoE 対応 (via [WIZPoE-P1](../../../Modules/PoE/WIZPoE-P1.mdx))
 
 ## ハードウェア仕様
 

@@ -53,8 +53,9 @@ W6300-EVB-Pico is a microcontroller evaluation board based on the Raspberry Pi R
 - Supports Auto Negotiation
   - Full / Half Duplex
   - 10 / 100 Based
-- Built-in RJ45(RB1-125BAG1A)
-- Built-in LDO (LM8805SF5-33V)
+- Built-in RJ45 (Support IEEE 802.3af)
+- Built-in DCDC (PWM/PFM)
+- PoE supported (via [WIZPoE-P1](../../../Modules/PoE/WIZPoE-P1.mdx))
 
 ## Hardware Specification
 
