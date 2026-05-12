@@ -138,7 +138,12 @@ This section provides essential hardware resources, including schematics, 3D mod
 
 | Title | Description | Download | Notes |
 |-------|-------------|----------|-------|
-| Schematic | Circuit diagram for hardware design reference | ![download](/img/products/w5500/w5500_evb/icons/download.png)[download](/img/products/wiz-ip20/ip20-io/WIZIP20-io_reference_schematic.pdf) | - |s
+| Schematic | Circuit diagram for hardware design reference | ![download](/img/products/w5500/w5500_evb/icons/download.png)[download](/img/products/wiz-ip20/ip20-io/WIZIP20-io_reference_schematic.pdf) |  |
+| PCB layout| 	PCB design source for Altium |![download](/img/products/w5500/w5500_evb/icons/download.png)[download](/img/products/wiz-ip20/ip20-io/wizip20-io-v100.PcbDoc)|    |  |
+| 3D File | 3D model for mechanical design and visualization |![download](/img/products/w5500/w5500_evb/icons/download.png) [download](/img/products/wiz-ip20/ip20-io/wizip20-io.step)|  |
+| Part list | List of components used in the hardware |![download](/img/products/w5500/w5500_evb/icons/download.png)[download](/img/products/wiz-ip20/ip20-io/bom-wizip20-io.xlsx)|    |  |
+
+
 
 ---
 

@@ -4,6 +4,8 @@ title: Overview
 date: 2024-10-23
 ---
 
+<img src="/img/products/w55rp20-s2e/s2e-image.png" width="900" />
+
 ## Overview
 
 The **W55RP20-2S2E** is a pre-programmed product with an Serial to Ethernet FW and a valid MAC address into the [W55RP20](../../W55RP20/Overview.mdx).
@@ -93,7 +95,7 @@ The **W55RP20-2S2E** is a pre-programmed product with an Serial to Ethernet FW a
 | 27         | SWCLK       | Debug clock/data<br />Access to the internal Serial Wire Debug multi-drop bus. Provides debug access to both processors, and can be used to download code.         |
 | 28         | SWD         | Debug clock/data                                        |
 | 29         | RUN         | Global asynchronous reset pin<br />Reset when driven low, run when driven high. If no external reset is required, this pin can be tied directly to IOVDD.                              |
-| 30         | RESERVED    | RESERVED PIN                                        |
+| 30         | UART_IF_SEL    | DATA1 UART Interface select pin. High : 485/422, Low or NC : TTL/232 (UART Mode)       |
 | 31         | AVDD        | TOE Analog 3.3V power            |
 | 32         | VBG         | Output of band gap                               |
 | 33         | TOCAP       | External Reference Capacitor<br />This pin must be connected to a 4.7uF capacitor. The trace length to capacitor should be short to stabilize the internal signals.                     |
@@ -110,9 +112,9 @@ The **W55RP20-2S2E** is a pre-programmed product with an Serial to Ethernet FW a
 | 44         | XI          | 25MHz crystal input/output<br />A 25MHz crystal and oscillator is used to connect these pins.   |
 | 45         | XO          | 25MHz crystal input/output<br />A 25MHz crystal and oscillator is used to connect these pins.   |
 | 46         | SPI_INT     | SPI Master Recv data pending pin |
-| 47         | RESERVED    | RESERVED PIN        |
-| 48         | RESERVED    | RESERVED PIN          |
-| 49         | RESERVED    | RESERVED PIN          |
+| 47         | UART1_DTR   | DTR pin for Data1 UART control |
+| 48         | UART1_DSR   | DSR pin for Data1 UART control |
+| 49         | DEBUG       | Output Debug Messages    |
 | 50         | PMODE2      | PHY Operation mode select pins.<br />Default: Pull-up (77kΩ)<br /> |
 | 51         | PMODE1      | PHY Operation mode select pins.<br />Default: Pull-up (77kΩ)<br /> |
 | 52         | PMODE0      | PHY Operation mode select pins.<br />Default: Pull-up (77kΩ)<br /> |
@@ -130,7 +132,7 @@ The **W55RP20-2S2E** is a pre-programmed product with an Serial to Ethernet FW a
 | 64         | IOVDD       | Digital IO Supply<br />Power supply for digital GPIOs, nominal voltage 3.3V    |
 | 65         | UART1_TX    | Debug TX       |
 | 66         | UART1_RX    | Debug RX       |
-| 67         | SPI_SCK     | SCK input pin for Data SPI transmission (SPI MODE) |
+| 67         | UART1_CTS   | SCK Input pin for Data SPI transmission (SPI Mode)      |
 | 68         | UART1_RTS   | Request To Send<br />Connects with the CTS of the connected equipment and sends a low signal when the W55RP20-S2E is in a state where it can receive data.<br /><br />When 485/422 selected by UART_IF_SEL pin, this pin act as 485/422 select pin. <br />NC : 485<br />Low : 422<br /> |
 
 ****BOOT_MODE pin is for Entering W55RP20-2S2E BOOT mode and BOOT pin is for Entering RP2040 core BOOT mode.**
