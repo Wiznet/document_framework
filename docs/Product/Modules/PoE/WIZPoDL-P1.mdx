@@ -45,7 +45,7 @@ import TabItem from '@theme/TabItem';
   | :---: | --------------------- | :-------: | :---: | :-------: | :--: | :----: |
   |   1   | Input Voltage         | Vpse      | 20    |           | 58   |    V   |
   |   2   | Output Voltage        | VCC       | 4.75  |     5     | 5.25 |    V   |
-  |   3   | Output Power          | PWR       |       |     7     |      |    W   |
+  |   3   | MAX Output Power          | PWR       |       |     7.7     |      |    W   |
   |   4   | Switching Frequency   | Freq      | 10    |           | 380  |  kHz   |
   
 
@@ -58,7 +58,7 @@ import TabItem from '@theme/TabItem';
   |   1   | Line Regulation         | VLINE     | TBD   |           | TBD  |    %   |
   |   2   | Load Regulation         | VLOAD     | TBD   |           | TBD  |    %   |
   |   3   | Output Ripple and Noise | VRN       | TBD   |           | TBD  | mVp-p  |
-  |   4   | Output Currnet          | IOUT      | TBD   |           | TBD  |   mA   |
+  |   4   | Output Power            | POUT      |       | Class 10 : 1.23 <br/> Class 11 : 3.2 <br/> Class 13 : 7.7 |      |    W   |
   |   5   | Efficiency @80% Load    | EFF       | TBD   |    TBD    | TBD  |    %   |
 
   </TabItem>
@@ -126,6 +126,20 @@ import TabItem from '@theme/TabItem';
   |   8   | GND| Ground|
   </TabItem>
 </Tabs>
+
+
+## Power Class selction
+
+<a target="_blank" href={require('/img/osh/PoE/WIZPoDL-P1/class_set.png').default}><img src={require('/img/osh/PoE/WIZPoDL-P1/class_set.png').default} alt="wizpoe-p1-class_set" width="600" /></a>
+
+  |  R9  | R10 | R11 | R12 | PoDL Class | 
+  | ---- | --- | --- | --- | ---------- |
+  |  DNP | DNP |  O  |  O  |     10      |
+  |  DNP | DNP | DNP |  O  |     11      |
+  |  DNP |  O  |  O  | DNP |     13 (default) |
+
+
+
 
 ## Mechanical Information
 
