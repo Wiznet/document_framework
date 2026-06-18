@@ -161,8 +161,6 @@ Please refer to below links to find firmware example.
 #### C/C++
 - Ethernet Examples
   - <a href = "/img/application_notes/PICO-C/DHCP_DNS_EXAMPLE_AN_V100.pdf" target ="_blank">DHCP_DNS_EXAMPLE_AN_V100 - English</a>
-  - <a href = "/img/application_notes/PICO-C/FTP_Client_EXAMPLE_AN_V100.pdf" target ="_blank">FTP_Client_EXAMPLE_AN_V100 - English</a>
-  - <a href = "/img/application_notes/PICO-C/FTP_Server_EXAMPLE_AN_V100.pdf" target ="_blank">FTP_Server_EXAMPLE_AN_V100 - English</a>
   - <a href = "/img/application_notes/PICO-C/HTTP_Server_EXAMPLE_AN_V100.pdf" target ="_blank">HTTP_Server_EXAMPLE_AN_V100 - English</a>
   - <a href = "/img/application_notes/PICO-C/LOOPBACK_EXAMPLE_AN_V100.pdf" target ="_blank">LOOPBACK_EXAMPLE_AN_V100 - English</a>
   - <a href = "/img/application_notes/PICO-C/MQTT_Publish_EXAMPLE_AN_V100.pdf" target ="_blank">MQTT_Publish_EXAMPLE_AN_V100 - English</a>
