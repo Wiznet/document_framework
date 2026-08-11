@@ -1,0 +1,131 @@
+---
+id: som-modules
+title: SoM Modules
+sidebar_label: Modules
+slug: /Product/SoM/modules
+date: 2026-08-10
+keywords: [MCU-based Ethernet SoM, Embedded Network Module, ESP32 Ethernet module, SoM lineup, ESP32-W5500-SoM, ESP32-W6300-SoM, W55RP20-SoM, STM32F4-W6300-SoM]
+description: WIZnet SoM lineup compared by host MCU, Ethernet chip, host interface, IP version, and physical layer.
+---
+
+# Modules
+
+Every module in the family is the same idea in a different combination: a host MCU, its memory and
+power circuitry, and a WIZnet Ethernet chip with the complete Ethernet front end, on one solder-down
+module. What changes between them is **which MCU**, **which Ethernet chip**, and **which physical
+layer**.
+
+Pick the row that matches your design, then open the module page for its pinout, electrical values,
+and measured performance.
+
+## Compare all modules
+
+| Module | Host MCU | WIZnet chip | Host interface | IP version | Physical layer | Best for | Status |
+| --- | --- | --- | --- | --- | --- | --- | --- |
+| [**ESP32-W5500-SoM**](/Product/SoM/modules/esp32-w5500-som) | ESP32-S3 | W5500 | SPI | IPv4 | 10/100 RJ45 | A proven, low-risk wired link on an ESP32 design | Draft |
+| [**ESP32-W6300-SoM**](/Product/SoM/modules/esp32-w6300-som) | ESP32-S3 | W6300 | SPI / QSPI | IPv4 / IPv6 | 10/100 RJ45 | IPv6, or more throughput than SPI allows | Draft |
+| W55RP20-SoM | RP2040 | W5500 | SPI | IPv4 | 10/100 RJ45 | Smallest footprint; S2E firmware pre-loaded, custom firmware available | In development |
+| STM32F4-W6300-SoM | STM32F4 | W6300 | SPI / QSPI | IPv4 / IPv6 | 10/100 RJ45 | Industrial designs already standardized on STM32 | In development |
+| T1L-55 / T1L-RP55 | RP2350 | W5500 + T1L | SPI | IPv4 | 10BASE-T1L | Two-wire field cabling over long distance | In development |
+| T1S-RP55 | RP2350 | T1S | SPI | IPv4 | 10BASE-T1S | Two-wire multidrop bus | In development |
+
+:::note
+
+Product names are not final. Rows marked *In development* have no page yet — they are listed so the
+whole lineup can be compared in one place.
+
+:::
+
+## Which module fits
+
+Three questions narrow the list to one or two candidates.
+
+**1. Which MCU does the product use?** The SoM replaces the MCU on the carrier board, so this is
+usually decided already.
+
+| Your MCU / Preference | Look at |
+| --- | --- |
+| ESP32 — or you want Wi-Fi/BLE alongside Ethernet | ESP32-W5500-SoM, ESP32-W6300-SoM |
+| STM32 — or you prefer the STMicroelectronics ecosystem such as STM32CubeIDE and STM32Cube tools | STM32F4-W6300-SoM |
+| RP2040 / RP2350, or no strong MCU preference and compact size matters | W55RP20-SoM |
+| No strong MCU preference, and you want Single-Pair Ethernet (SPE) | T1L-55 / T1L-RP55 / T1S-RP55 modules |
+
+**2. Does it need IPv6?**
+
+| Requirement | Chip | Modules |
+| --- | --- | --- |
+| IPv4 only | [W5500](/Product/Chip/Ethernet/W5500/) | ESP32-W5500-SoM, W55RP20-SoM |
+| IPv4 and IPv6 | [W6300](/Product/Chip/Ethernet/W6300/) | ESP32-W6300-SoM, STM32F4-W6300-SoM |
+
+**3. What is the cable?**
+
+| Cabling | Physical layer | Modules |
+| --- | --- | --- |
+| Standard RJ45, in a rack or a cabinet | 10/100 | All RJ45 modules above |
+| Two wires, long run to a field sensor | 10BASE-T1L | T1L-55, T1L-RP55 |
+| Two wires, several nodes on one bus | 10BASE-T1S | T1S-RP55 |
+
+Powering the node over the same cable is a carrier-board choice, not a module choice — pair any
+module with **WIZPoE-SD** or **WIZPoE-RJ45**.
+
+## Other ways to slice the lineup
+
+The sidebar groups modules by host platform, because that is usually where a design starts. The same
+products, viewed along other axes:
+
+### By host platform
+
+| Host | Toolchain | Modules |
+| --- | --- | --- |
+| ESP32-S3 | ESP-IDF / Arduino / ESPHome | ESP32-W5500-SoM, ESP32-W6300-SoM |
+| STM32F4 | STM32 HAL / CubeIDE | STM32F4-W6300-SoM |
+| RP2040 / RP2350 | Pico SDK, or pre-loaded S2E firmware | W55RP20-SoM, T1L-55 / T1L-RP55, T1S-RP55 |
+
+### By Ethernet chip
+
+| Chip | IP version | Interface | Modules |
+| --- | --- | --- | --- |
+| [W5500](/Product/Chip/Ethernet/W5500/) | IPv4 | SPI | ESP32-W5500-SoM, W55RP20-SoM, T1L-55 / T1L-RP55 |
+| [W6300](/Product/Chip/Ethernet/W6300/) | IPv4 / IPv6 | SPI / QSPI | ESP32-W6300-SoM, STM32F4-W6300-SoM |
+| T1S | IPv4 | SPI | T1S-RP55 |
+
+### By application
+
+| Application | Why these | Modules |
+| --- | --- | --- |
+| Wi-Fi + wired hybrid | Ethernet-first with Wi-Fi backup, wired BLE proxy, ESPHome / Home Assistant | ESP32-W5500-SoM, ESP32-W6300-SoM |
+| Industrial IPv6 | Dual-stack requirement on an STM32 design | STM32F4-W6300-SoM, ESP32-W6300-SoM |
+| Serial-to-Ethernet | S2E firmware pre-loaded, custom firmware available | W55RP20-SoM |
+| Single-pair Ethernet (SPE) | Two-wire field cabling, long reach or multidrop | T1L-55 / T1L-RP55, T1S-RP55 |
+| PoE-powered node | Pair any module with a WIZPoE module on the carrier board | Any, plus WIZPoE-SD / WIZPoE-RJ45 |
+
+## How to read a module page
+
+Every module page follows the same section order, so two modules can be compared by scrolling to the
+same place on both pages.
+
+```text
+Summary ................ positioning, target users, applications
+Features ............... what the module integrates
+Hardware Specification . key specs · block diagram · pinout · operating condition
+Performance ............ measured numbers, always with test conditions
+Documentation .......... datasheet, design guide, manual
+Software Resources ..... driver · examples · tools   (tabbed)
+Hardware Resources ..... schematic · footprint · 3D · dimension · part list
+Test & Certification ... CE / FCC / KC
+Related Products ....... EVB, PoE, sibling modules
+Reference Guides ....... links into the shared Reference section
+How to buy
+Revision History
+```
+
+A section that has no data yet is kept in place with `TBD` rather than deleted — the page shape stays
+comparable across the lineup, and it is visible which data is still outstanding.
+
+:::info Performance numbers
+
+A throughput or power figure is only published together with the conditions it was measured under
+(SDK version, driver version, interface clock, payload size, socket count, measurement point).
+A bare number is not comparable between modules and must not be added.
+
+:::

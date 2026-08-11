@@ -1,0 +1,214 @@
+---
+id: esp32-w5500-som
+title: ESP32-W5500-SoM
+sidebar_label: ESP32-W5500-SoM
+slug: /Product/SoM/modules/esp32-w5500-som
+date: 2026-08-10
+keywords: [ESP32-S3 + W5500 Module, ESP32-S3 + W5500 SoM, MCU-based Ethernet SoM, Embedded Network Module, ESP32 Ethernet module, SoM, ESP32, ESP32-S3, W5500, Ethernet, wsm_driver, ESP-IDF, ESPHome]
+description: ESP32-S3 + W5500 Module — an MCU-based Ethernet SoM combining an ESP32-S3 host with the W5500 hardwired TCP/IP controller.
+---
+
+import Tabs from '@theme/Tabs';
+import TabItem from '@theme/TabItem';
+
+# ESP32-W5500-SoM
+
+*ESP32-S3 + W5500 Module · MCU-based Ethernet SoM*
+
+{/* Hero image — replace with the approved module photo once available.
+    Expected path: /img/products/som/esp32-w5500-som/esp32-w5500-som.png
+<div className="main-card">
+  <img src="/img/products/som/esp32-w5500-som/esp32-w5500-som.png" alt="ESP32-W5500-SoM" />
+  <div>
+    <h3>ESP32-W5500-SoM</h3>
+    <p>ESP32-S3 host with W5500 hardwired TCP/IP Ethernet, ready to mount on a carrier board.</p>
+  </div>
+</div>
+*/}
+
+:::caution Draft
+
+This page is a working draft. Product name, photograph, pinout, electrical values, measured
+performance, and certification links are **TBD** and must be replaced with approved data before
+release.
+
+:::
+
+## Summary
+
+ESP32-W5500-SoM carries an ESP32-S3 host, external flash, power and clock
+circuitry, and the W5500 hardwired TCP/IP controller — including the Ethernet front-end components —
+combined on a single solder-down module.
+
+Unlike a Linux SoM (i.MX, Sitara class), this module runs its own firmware directly on the MCU. The
+carrier board only has to provide power and application I/O; the Ethernet signal chain that
+customers most often get wrong is already solved on the module.
+
+| Item | Detail |
+| --- | --- |
+| Positioning | Proven, stable wired Ethernet reference for ESP32 designs |
+| Target users | ESP32 / ESP-IDF developers, industrial IoT, ESPHome and Home Assistant users |
+| Typical applications | Industrial sensor gateway, PoE sensor node, RS485/Modbus gateway, remote monitoring, wired BLE proxy |
+| Network stack | Hardwired TCP/IP (TOE) or MACRAW + LwIP |
+| Compare with | [ESP32-W6300-SoM](./esp32-w6300-som) — adds IPv6 and QSPI |
+
+## Features
+
+- ESP32-S3 host MCU with Wi-Fi and Bluetooth LE
+- [W5500](/Product/Chip/Ethernet/W5500/) hardwired TCP/IP controller
+  - 8 independent hardware sockets
+  - 10/100 Ethernet PHY embedded, auto-negotiation
+  - SPI host interface
+- Ethernet front-end circuitry integrated on the module
+- Solder-down (SMT) form factor for carrier-board integration
+- Supported by [`wsm_driver`](https://github.com/Wiznet/wsm_driver) as an ESP-IDF component
+- Wi-Fi backup / Ethernet-first hybrid networking possible on a single module
+
+:::note
+
+Chip-level details are documented once on the [W5500 chip page](/Product/Chip/Ethernet/W5500/).
+This page only records values that are specific to the module.
+
+:::
+
+## Hardware Specification
+
+### Key specifications
+
+| Item | Value | Source | Notes |
+| --- | --- | --- | --- |
+| Host MCU | ESP32-S3 | Module datasheet | Exact variant TBD |
+| Flash | TBD | BOM | - |
+| PSRAM | TBD | BOM | - |
+| Ethernet controller | W5500 | BOM / schematic | - |
+| Host interface | SPI | Pinout | Max clock TBD |
+| Ethernet speed | 10/100 Mbps | Chip specification | Module-level validation TBD |
+| IP version | IPv4 | Chip specification | IPv6 → see ESP32-W6300-SoM |
+| Supply voltage | TBD | Electrical specification | - |
+| Operating temperature | TBD | Reliability specification | - |
+| Dimensions | TBD | Mechanical drawing | - |
+| Mounting | SMT (solder-down) | Mechanical drawing | Footprint TBD |
+
+### Block diagram
+
+TBD — add the module block diagram (ESP32-S3, flash, power, W5500, magnetics, carrier interface).
+
+### Pinout
+
+TBD — add the pinout image and the pin table below.
+
+| Pin | Name | Type | Description |
+| --- | --- | --- | --- |
+| TBD | TBD | TBD | TBD |
+
+### Operating condition
+
+| Item | Min | Typ | Max | Unit |
+| --- | --- | --- | --- | --- |
+| Supply voltage | TBD | TBD | TBD | V |
+| Operating temperature | TBD | - | TBD | °C |
+| Ethernet current | TBD | TBD | TBD | mA |
+
+### Carrier board design
+
+Carrier-board rules that apply to every WIZnet SoM are documented once in
+[Reference → Hardware Design](/Product/SoM/reference). Use this page only for the values that are
+specific to ESP32-W5500-SoM.
+
+## Performance
+
+Every performance number must be published together with the conditions under which it was
+measured. Do not publish a bare number.
+
+| Metric | Result | Test condition | Notes |
+| --- | --- | --- | --- |
+| TCP throughput | TBD | ESP-IDF ver., `wsm_driver` ver., SPI clock, payload size, socket count | TBD |
+| UDP throughput | TBD | Same as above | TBD |
+| CPU utilization | TBD | Measured at stated throughput | TBD |
+| Concurrent sockets | TBD | Buffer configuration | TBD |
+| Link-up time | TBD | Cold boot to link up | TBD |
+| Power consumption | TBD | Measurement point and operating mode | TBD |
+
+## Documentation
+
+| Title | Description | Link | Notes |
+| --- | --- | --- | --- |
+| Datasheet | Module electrical and mechanical specification | - | TBD |
+| Hardware Design Guide | Carrier board design rules | - | TBD |
+| User's Manual | Product usage instructions | - | TBD |
+| Getting Started | First bring-up procedure | [Go](/Product/SoM/reference/getting-started) | Shared |
+
+## Software Resources
+
+<Tabs groupId="som-software">
+  <TabItem value="driver" label="Driver" default>
+
+  | Title | Description | Link | Notes |
+  | --- | --- | --- | --- |
+  | `wsm_driver` | ESP-IDF component providing the WIZnet transport and callback layer | [GitHub](https://github.com/Wiznet/wsm_driver) | - |
+  | ESP-IDF | Tested SDK version | - | TBD |
+  | ioLibrary_Driver | W5500 hardwired TCP/IP driver | [GitHub](https://github.com/Wiznet/ioLibrary_Driver) | - |
+
+  </TabItem>
+  <TabItem value="examples" label="Examples">
+
+  | Title | Description | Link | Notes |
+  | --- | --- | --- | --- |
+  | Loopback | Basic socket verification | - | TBD |
+  | DHCP / DNS | Address acquisition and name resolution | - | TBD |
+  | MQTT | Wired MQTT client | - | TBD |
+  | HTTP / TLS | Secure client example | - | TBD |
+  | OTA over Ethernet | Firmware update over the wired link | - | TBD |
+  | ESPHome / Home Assistant | YAML configuration and flashing guide | - | TBD |
+
+  </TabItem>
+  <TabItem value="tools" label="Tools">
+
+  | Title | Description | Link | Notes |
+  | --- | --- | --- | --- |
+  | ESP-IDF | Build, flash, and monitor toolchain | [Docs](https://docs.espressif.com/projects/esp-idf/en/latest/) | - |
+
+  </TabItem>
+</Tabs>
+
+## Hardware Resources
+
+| Title | Description | Download | Notes |
+| --- | --- | --- | --- |
+| Reference schematic | Recommended carrier board circuit | - | TBD |
+| Land pattern / footprint | SMT footprint for carrier board CAD | - | TBD |
+| 3D file | STEP model for mechanical design | - | TBD |
+| Dimension drawing | Mechanical outline | - | TBD |
+| Part list | Components used on the module | - | TBD |
+
+## Test & Certification
+
+| Title | Description | Download | Notes |
+| --- | --- | --- | --- |
+| CE | EU safety certification | - | TBD |
+| FCC | U.S. EMI certification | - | TBD |
+| KC | Korea safety certification | - | TBD |
+
+## Related Products
+
+| Product | Relation | Link |
+| --- | --- | --- |
+| ESP32-EVB | Evaluation and demo platform for this module family | TBD |
+| ESP32-W6300-SoM | IPv6 and QSPI variant | [Go](./esp32-w6300-som) |
+| WIZPoE-SD series | PoE PD power supply for sensor-node designs | TBD |
+| WIZPoE-RJ45 | Integrated PoE + RJ45 magjack connector module | TBD |
+
+## Reference Guides
+
+- [Getting Started](/Product/SoM/reference/getting-started)
+- [Reference index](/Product/SoM/reference)
+
+## How to buy
+
+TBD — add WIZnet eShop and WIZnet Korea shop links after release.
+
+## Revision History
+
+| Doc revision | Date | Product revision | Change |
+| --- | --- | --- | --- |
+| v0.1 (draft) | 2026-08-10 | TBD | Initial draft page |

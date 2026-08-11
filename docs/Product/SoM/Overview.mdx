@@ -1,0 +1,211 @@
+---
+id: som-overview
+title: SoM Overview
+sidebar_label: Overview
+slug: /Product/SoM/overview
+date: 2026-08-11
+keywords: [MCU-based Ethernet SoM, Embedded Network Module, SoM, System on Module, ESP32-S3 + W6300 Module, ESP32 Ethernet module, WIZnet, Ethernet, ESP32, STM32, RP2040, W5500, W6300, industrial IoT, PoE sensor node, Modbus gateway]
+description: WIZnet SoM family — what the modules are, what they remove from your design, how to choose one, and how this documentation is organized.
+---
+
+# WIZnet SoM
+
+*System on Module · MCU-based Ethernet SoM*
+
+A WIZnet SoM carries a host MCU, memory, power and clock circuitry, and a WIZnet Ethernet chip —
+including the complete Ethernet front end — on a single solder-down module. Mount it on your carrier
+board, supply power and application I/O, and the wired network side of the product is done.
+
+:::caution Draft
+
+Family draft. Product names, photographs, electrical values, measured performance, and certification
+links are **TBD** until the SoM specifications are approved.
+
+:::
+
+## What a WIZnet SoM removes from your design
+
+Adding Ethernet to an embedded product is rarely blocked by the software. It is blocked by the
+analog and layout work between the controller and the connector — the part that is hard to review,
+hard to test, and expensive to get wrong late.
+
+| Design task | Without a SoM | With a WIZnet SoM |
+| --- | --- | --- |
+| PHY and magnetics selection | Choose parts, check matching, verify against the chip datasheet | Already selected and validated |
+| 100 Ω differential routing | Controlled-impedance stack-up, length matching, reference-plane discipline | Contained on the module |
+| ESD and surge protection on the line | Select and place protection, verify clamping | Included on the module |
+| Clock accuracy for the PHY | Crystal spec, load capacitance, drift over temperature | Included on the module |
+| EMI behaviour | Usually discovered at the certification lab | Characterized at module level |
+| Power sequencing and reset | Rail order, inrush, reset release timing | Handled on the module |
+| TCP/IP stack | Port and tune a software stack, size the RAM budget | Hardwired in the WIZnet chip |
+| Board respins | Common — the Ethernet section is the usual cause | Removed from the risky area |
+
+What stays yours: enclosure and form factor, connector choice, power input, application I/O, and the
+firmware that makes the product a product.
+
+## What is on the module
+
+```text
+Carrier board  (your design)
+│   power input · application I/O · RJ45 or SPE connector
+│
+└── WIZnet SoM  (solder-down, WIZnet design)
+    ├── Host MCU ............ ESP32-S3 / STM32F4 / RP2040 / RP2350
+    ├── Memory .............. flash (+ PSRAM where fitted)
+    ├── Power & clock ....... regulators, crystal, reset
+    ├── WIZnet chip ......... W5500 / W6300 — hardwired TCP/IP + 10/100 PHY
+    └── Ethernet front end .. magnetics, ESD protection, termination
+```
+
+The host MCU talks to the WIZnet chip over SPI or QSPI. Because the TCP/IP stack is hardwired in the
+WIZnet chip, the MCU does not have to run a software stack to move data — although a MACRAW + LwIP
+path is available when the application needs it.
+
+## Where a SoM sits
+
+Four things in this documentation sound similar and are not. Picking the wrong one costs a design
+cycle.
+
+| | What it is | Ships inside your product? | You design |
+| --- | --- | --- | --- |
+| **[Chip](/Product/Chip/Ethernet/W5500/)** | The Ethernet controller silicon | Yes | Everything around it — PHY front end, layout, power, MCU |
+| **SoM** | MCU + memory + power + Ethernet chip + front end, solder-down | **Yes — this is the production part** | Carrier board: power in, connector, application I/O |
+| **Evaluation board** (W5500-EVB-Pico, W55RP20-EVB-Pico, ESP32-EVB) | A finished board with headers, USB, and RJ45 for bring-up | No — for evaluation and demos | Nothing; you write firmware |
+| **[Module](/Product/Modules/Serial-to-Ethernet-Module/W232N)** (W232N, WIZ-IP20 …) | A finished, enclosed product with its own firmware and configuration tool | It *is* the product | Nothing |
+
+A SoM is also not a Linux SoM. i.MX and Sitara class modules carry an application processor and
+external DRAM and boot an operating system. A WIZnet SoM runs firmware directly on the MCU, which is
+why it starts in milliseconds, draws far less power, and costs a fraction as much — and why it is not
+the right choice if you need a filesystem, a display stack, or a Linux userland.
+
+Typical path: evaluate on an evaluation board → design the carrier board → ship the SoM.
+
+## Who it is for
+
+**You already have an MCU platform and need to add a wired port.**
+The SoM replaces the MCU on your board and brings the network with it. Your existing toolchain,
+build system, and application code carry over — ESP-IDF stays ESP-IDF, CubeIDE stays CubeIDE.
+
+**You are a firmware team without a hardware team.**
+The Ethernet section is the part of the schematic that usually needs an outside review. Here it is
+pre-solved: the carrier board only sees a digital interface and a connector.
+
+**You are going from a working prototype to a shipped product.**
+An evaluation board proves the concept but has a fixed footprint, fixed pinout, and headers you do
+not want in a product. The SoM keeps the same silicon and the same driver while letting you choose
+the form factor, connectors, and I/O.
+
+## Where they are used
+
+| Application | Why a SoM | Modules |
+| --- | --- | --- |
+| Industrial sensor gateway | Wired link that survives an RF-noisy plant floor; hardwired stack keeps the MCU free for the application | ESP32-W6300-SoM, STM32F4-W6300-SoM |
+| PoE sensor node | One cable for power and data; pair with a WIZPoE module on the carrier board | Any RJ45 module + WIZPoE-SD / WIZPoE-RJ45 |
+| RS485 / Modbus gateway | Bridge existing serial field devices onto Ethernet without redesigning them | W55RP20-SoM, ESP32-W5500-SoM |
+| Home and building automation | ESPHome and Home Assistant devices that stay online when Wi-Fi does not | ESP32-W5500-SoM, ESP32-W6300-SoM |
+| Remote monitoring | Ethernet-first with Wi-Fi as backup, on one module | ESP32-W6300-SoM |
+| Long-run or multidrop field wiring | Two-wire single-pair Ethernet instead of a new cable plant | T1L / T1S modules |
+
+## Start here
+
+| Section | Purpose |
+| --- | --- |
+| [Modules](./modules) | Compare the lineup and open a module-specific page. |
+| [Reference](./reference) | Shared hardware, software, and bring-up documentation. |
+
+## Choosing a module
+
+### 1. Choose the host platform
+
+| Host | Why you would pick it | Modules |
+| --- | --- | --- |
+| ESP32-S3 | Wi-Fi and Bluetooth LE alongside wired Ethernet; ESP-IDF / Arduino / ESPHome ecosystem | [ESP32-W5500-SoM](./modules/esp32-w5500-som), [ESP32-W6300-SoM](./modules/esp32-w6300-som) |
+| STM32F4 | Industrial designs already standardized on STM32 HAL / CubeIDE | STM32F4-W6300-SoM *(in development)* |
+| RP2040 / RP2350 | Compact SMT module, pre-loaded S2E firmware, customizable | W55RP20-SoM, SPE modules *(in development)* |
+
+### 2. Choose the Ethernet chip
+
+| Chip | IP version | Host interface | Notes |
+| --- | --- | --- | --- |
+| [W5500](/Product/Chip/Ethernet/W5500/) | IPv4 | SPI | Proven, widely deployed reference |
+| [W6300](/Product/Chip/Ethernet/W6300/) | IPv4 / IPv6 | SPI / QSPI | Dual stack, higher throughput path |
+
+### 3. Confirm the rest
+
+- Host toolchain and the version validated for the module (ESP-IDF, STM32 HAL, Pico SDK).
+- Carrier-board pins consumed: SPI/QSPI data lines, chip select, reset, interrupt.
+- Power rails, inrush, and whether the design is PoE-powered.
+- Connector choice: RJ45 with integrated magnetics, or single-pair Ethernet.
+- Network backend: hardwired TCP/IP (TOE) or MACRAW + LwIP.
+- Module datasheet, reference schematic, land pattern, and certification status.
+
+## Software baseline
+
+Each host platform keeps its own driver and toolchain; there is no single SDK across the family.
+
+| Host | Driver / component | Toolchain |
+| --- | --- | --- |
+| ESP32-S3 | [`wsm_driver`](https://github.com/Wiznet/wsm_driver) — ESP-IDF component providing the WIZnet transport and callback layer | ESP-IDF |
+| STM32F4 | [`ioLibrary_Driver`](https://github.com/Wiznet/ioLibrary_Driver) | STM32 HAL / CubeIDE |
+| RP2040 / RP2350 | Pre-loaded S2E firmware, or `ioLibrary_Driver` for custom firmware | Pico SDK |
+
+Module pages link to the shared [Software Guide](./reference) rather than repeating setup steps.
+
+## Related products
+
+| Product | Relation |
+| --- | --- |
+| ESP32-EVB | Evaluation and demo platform for the ESP32 SoM modules |
+| WIZPoE-SD series | PoE PD power supply for sensor-node carrier boards |
+| WIZPoE-RJ45 | Integrated PoE + RJ45 magjack connector module |
+
+## Naming
+
+"SoM" on its own suggests a Linux application-processor module with external DRAM — i.MX or Sitara
+class. WIZnet SoM products are not that, so the term is used with a qualifier in customer-facing
+material.
+
+| Context | Use |
+| --- | --- |
+| Product family, first mention | WIZnet **MCU-based Ethernet SoM** |
+| Category name, where "SoM" would set the wrong expectation | **Embedded Network Module** |
+| One module, describing what it contains | **ESP32-S3 + W6300 Module** |
+| One module, keeping the family word | **ESP32-S3 + W6300 SoM** |
+| Ordering, part number, page title | **ESP32-W6300-SoM** |
+
+Avoid bare "SoM" as a product descriptor, and "System on Module" without the *MCU-based* qualifier.
+The same rule applies to brochures, the product guide, exhibition panels, and sales material.
+
+## How this documentation is organized
+
+```text
+Products
+├─ Chip ................ silicon-level specifications, registers, drivers
+├─ Modules ............. finished, enclosed products
+└─ SoM ................. solder-down modules for a customer carrier board
+   ├─ Overview ......... family positioning and selection guide   ← you are here
+   ├─ Modules .......... one page per module — values that differ per SKU
+   │  ├─ ESP32 ........ ESP32-W5500-SoM, ESP32-W6300-SoM
+   │  ├─ STM32 ........ STM32F4-W6300-SoM
+   │  └─ RP ........... W55RP20-SoM, T1L-RP55, T1S-RP55
+   └─ Reference ........ procedures shared by every module, written once
+      ├─ Getting Started ... common flow; only build/flash splits per host
+      ├─ Hardware Design ... carrier board rules — one page for the whole family
+      ├─ Software Guide .... one page per toolchain (ESP-IDF, STM32 HAL, Pico SDK)
+      ├─ Examples
+      └─ Troubleshooting
+```
+
+Modules are grouped by host platform because that is where products actually differ. Reference is
+**not** grouped by host, because carrier-board design, magnetics, layout, and network behaviour are
+properties of the WIZnet chip, not of the MCU — writing them per vendor would mean maintaining the
+same text once per host platform. Only the build and flash steps split per toolchain.
+
+Module page URLs stay flat (`/Product/SoM/modules/<module>`) regardless of which group the page sits
+in, so regrouping or renaming a group later does not break published links.
+
+| If the information … | It belongs in … |
+| --- | --- |
+| Changes per SKU or per board revision (pinout, dimensions, measured throughput, certification) | The **module** page |
+| Is the same for every module (bring-up flow, carrier-board rules, backend selection, examples) | A **Reference** page |
+| Describes the WIZnet silicon itself (registers, socket behaviour, errata) | The existing **Chip** page — link to it, do not restate it |

@@ -1,0 +1,132 @@
+---
+id: som-getting-started
+title: SoM Getting Started
+sidebar_label: Getting Started
+slug: /Product/SoM/reference/getting-started
+date: 2026-08-10
+keywords: [MCU-based Ethernet SoM, Embedded Network Module, getting started, bring-up, ESP-IDF, STM32, Pico SDK, wsm_driver, W5500, W6300]
+description: First bring-up procedure shared by every WIZnet SoM.
+---
+
+import Tabs from '@theme/Tabs';
+import TabItem from '@theme/TabItem';
+
+# Getting Started
+
+:::caution Draft
+
+Placeholder pin names, versions, and commands. Replace them with validated values once the first SoM
+board is selected.
+
+:::
+
+This is the shared bring-up path. Steps 1–3 are the same for every module; step 4 differs per host
+platform.
+
+## Prerequisites
+
+| Item | Detail |
+| --- | --- |
+| Hardware | SoM mounted on a carrier board, or the matching evaluation board |
+| Connector | RJ45 with magnetics (or SPE connector, for single-pair modules) |
+| Programming | USB or UART connection to the host MCU |
+| Toolchain | The toolchain for your host platform — see the tabs below |
+| Network | A test network with DHCP, and a host to run the counterpart application |
+
+## 1. Check power and reset
+
+1. Confirm the supply rail is within the range on the module page and stable at the module pins.
+2. Confirm the module leaves reset — reset must be released after the rail is stable.
+3. Confirm the reference clock, if the carrier board supplies one.
+
+Values are per module. See the *Operating condition* table on your
+[module page](/Product/SoM/modules).
+
+## 2. Check the host interface wiring
+
+Verify against the module pinout, before powering the Ethernet side:
+
+| Signal | Check |
+| --- | --- |
+| SPI / QSPI clock and data | Correct pins, correct mode, clock within the module maximum |
+| Chip select | Idle high, driven by the host |
+| Reset | Reachable by the host, correct polarity |
+| Interrupt | Connected if the driver is configured to use it |
+
+:::tip
+
+For a QSPI module, confirm which mode the firmware is built for. SPI and QSPI consume different
+carrier-board pins, and a mode mismatch looks identical to a dead chip.
+
+:::
+
+## 3. Check the Ethernet side
+
+1. Confirm the magnetics and connector wiring against the reference schematic.
+2. Connect the cable and confirm the link LED behaviour described on the module page.
+
+## 4. Build, flash, and run
+
+<Tabs groupId="som-host">
+  <TabItem value="esp32" label="ESP32-S3 (ESP-IDF)" default>
+
+1. Add [`wsm_driver`](https://github.com/Wiznet/wsm_driver) to the project as an ESP-IDF component.
+2. Run `idf.py menuconfig` and select the WIZnet chip, host interface mode, and pin assignment.
+3. Choose the network backend: hardwired TCP/IP (TOE) or MACRAW + LwIP.
+4. Build, flash, and monitor:
+
+```bash
+idf.py set-target esp32s3
+idf.py build
+idf.py -p <PORT> flash monitor
+```
+
+Tested ESP-IDF version: **TBD**.
+
+  </TabItem>
+  <TabItem value="stm32" label="STM32F4 (HAL / CubeIDE)">
+
+1. Configure the SPI/QSPI peripheral, chip-select GPIO, reset GPIO, and interrupt line in CubeMX.
+2. Add [`ioLibrary_Driver`](https://github.com/Wiznet/ioLibrary_Driver) to the project.
+3. Implement the chip-select and SPI read/write callbacks against the HAL.
+4. Build and flash from CubeIDE, or with ST-LINK from the command line.
+
+Tested HAL / CubeIDE version: **TBD**.
+
+  </TabItem>
+  <TabItem value="rp" label="RP2040 / RP2350 (Pico SDK)">
+
+Modules that ship with S2E firmware do not need a build step — configure them with the WIZnet S2E
+Configuration Tool over the network.
+
+For custom firmware:
+
+1. Set up the Pico SDK toolchain.
+2. Add [`ioLibrary_Driver`](https://github.com/Wiznet/ioLibrary_Driver) and the SPI/PIO transport.
+3. Build, then flash the `.uf2` over USB mass storage or via SWD.
+
+Tested Pico SDK version: **TBD**.
+
+  </TabItem>
+</Tabs>
+
+## 5. Verify the network
+
+1. Confirm PHY link up.
+2. Confirm an IP address is obtained (DHCP) or the static address is applied.
+3. Run a loopback test, then a DNS resolution test.
+4. Record the SDK version, driver version, and interface clock alongside any throughput measurement.
+
+## Troubleshooting
+
+| Symptom | Check first |
+| --- | --- |
+| No PHY link | Magnetics wiring, cable, Ethernet-side supply, reset release timing |
+| Chip not detected | Chip select, SPI mode, pin mux, SPI vs QSPI build mismatch, clock too fast |
+| Link up, no traffic | MAC address set, network backend selected, socket configuration, subnet/gateway |
+| Address not obtained | DHCP reachable on the test network, MAC address uniqueness |
+| Throughput below expectation | Interface clock, payload size, socket count, backend choice, MCU load |
+| Build failure | SDK version against the *Tested version* above, component dependency resolution |
+
+Chip-level register and socket behaviour is documented on the
+[W5500](/Product/Chip/Ethernet/W5500/) and [W6300](/Product/Chip/Ethernet/W6300/) chip pages.

@@ -1,0 +1,73 @@
+---
+id: som-reference
+title: SoM Reference
+sidebar_label: Reference
+slug: /Product/SoM/reference
+date: 2026-08-10
+keywords: [MCU-based Ethernet SoM, Embedded Network Module, carrier board design, hardware design, ESP-IDF, STM32, Pico SDK, wsm_driver, WIZnet]
+description: Shared hardware and software reference for the WIZnet SoM family.
+---
+
+# Reference
+
+Procedures that are the same for every WIZnet SoM. Model-specific values stay
+on the [module pages](./modules).
+
+:::caution Draft
+
+Only [Getting Started](/Product/SoM/reference/getting-started) exists so far. The remaining pages are
+scoped below and are **TBD**.
+
+:::
+
+## Reference map
+
+| Topic | Scope | Split per host? | Status |
+| --- | --- | --- | --- |
+| [Getting Started](/Product/SoM/reference/getting-started) | First power-up, wiring check, firmware build, flash, network test | Only the build/flash step, as tabs | Draft |
+| Hardware Design | Power, decoupling, SPI/QSPI routing, reset, interrupt, PHY/magnetics placement, carrier-board layout rules | No — one page for the whole family | TBD |
+| Software Guide | Toolchain setup, driver integration, chip and pin selection | Yes — one page per toolchain | TBD |
+| Network Backend | TOE versus MACRAW + LwIP, socket behaviour | No | Summarized below |
+| Examples | Loopback, DHCP/DNS, MQTT, HTTP, TLS, OTA over Ethernet, ESPHome / Home Assistant | Per host where the code differs | TBD |
+| Troubleshooting | Chip detection, link, address assignment, socket behaviour, throughput loss | No | TBD |
+
+## Where content is allowed to split
+
+The family already spans ESP32, STM32, and RP2040/RP2350, and will grow. Splitting a page per host
+is only justified where the content genuinely differs — otherwise the same text ends up maintained in
+every host directory and drifts apart.
+
+| Content | Splits per host? | Because |
+| --- | --- | --- |
+| Carrier-board design, magnetics, layout, ESD | **No** | These are rules about the WIZnet chip and the Ethernet front end, not about the host MCU |
+| Network backend choice, socket behaviour | **No** | Determined by the WIZnet chip |
+| Toolchain setup, build, flash | **Yes** | `menuconfig` does not exist for STM32, CubeIDE does not exist for ESP32 |
+| Driver integration code | **Yes** | Different component systems and HALs |
+
+## Host platforms
+
+| Host | Driver | Toolchain | Guide |
+| --- | --- | --- | --- |
+| ESP32-S3 | [`wsm_driver`](https://github.com/Wiznet/wsm_driver) | ESP-IDF | TBD |
+| STM32F4 | [`ioLibrary_Driver`](https://github.com/Wiznet/ioLibrary_Driver) | STM32 HAL / CubeIDE | TBD |
+| RP2040 / RP2350 | S2E firmware, or `ioLibrary_Driver` for custom firmware | Pico SDK / Config Tool | TBD |
+
+## Network backend
+
+Every module can present its network interface in one of two ways. The choice affects throughput,
+CPU load, and which APIs the application uses, so record it wherever a performance number is quoted.
+
+| Backend | How it works | Use when |
+| --- | --- | --- |
+| Hardwired TCP/IP (TOE) | The WIZnet chip terminates TCP/UDP in hardware; the MCU reads and writes socket buffers | Lowest MCU load, fixed socket count is acceptable |
+| MACRAW + LwIP | The WIZnet chip passes raw frames; LwIP on the MCU provides the stack | Standard BSD sockets, more sockets, protocols LwIP provides |
+
+## Linking rule
+
+- A module page links to a **specific heading** in this section when the procedure is shared.
+- A reference page links **back to the module page** for any value that varies by SKU or board
+  revision — pin numbers, voltages, clocks, measured performance.
+- Silicon behaviour is not restated here. Link to the
+  [W5500](/Product/Chip/Ethernet/W5500/) or [W6300](/Product/Chip/Ethernet/W6300/) chip page.
+
+This keeps a value written in exactly one place, so a specification change is a one-file edit.

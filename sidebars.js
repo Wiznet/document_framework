@@ -2091,6 +2091,39 @@ module.exports = {
 
 				],
 			},
+			{
+				type: 'category',
+				label: 'SoM',
+				link: {type: 'doc', id: 'Product/SoM/som-overview'},
+				items: [
+					{
+						type: 'category',
+						label: 'Modules',
+						link: {type: 'doc', id: 'Product/SoM/som-modules'},
+						items: [
+							{
+								type: 'category',
+								label: 'ESP32',
+								items: [
+									'Product/SoM/Modules/ESP32/esp32-w5500-som',
+									'Product/SoM/Modules/ESP32/esp32-w6300-som',
+								],
+							},
+							// STM32 / RP groups are added here as those module pages land.
+							// Keep the directory as the sidebar group and the `slug` flat, so a
+							// later regrouping or rebrand does not change published URLs.
+						],
+					},
+					{
+						type: 'category',
+						label: 'Reference',
+						link: {type: 'doc', id: 'Product/SoM/som-reference'},
+						items: [
+							'Product/SoM/Reference/som-getting-started',
+						],
+					},
+				],
+			},
 		],
 	},
 	{
