@@ -1,0 +1,219 @@
+---
+id: esp32-w6300-devkit
+title: ESP32-W6300-DevKit
+sidebar_label: ESP32-W6300-DevKit
+slug: /Product/SoM/modules/esp32-w6300-devkit
+date: 2026-08-11
+keywords: [ESP32-W6300-DevKit, SoM evaluation board, ESP32 Ethernet devkit, ESP32-S3 + W6300, W6300, IPv6, QSPI, WIZnet, ESP-IDF, wsm_driver]
+description: Evaluation board for the ESP32-W6300-SoM — the module on a carrier board with headers, USB, and RJ45 for bring-up and demos.
+---
+
+import Tabs from '@theme/Tabs';
+import TabItem from '@theme/TabItem';
+
+# ESP32-W6300-DevKit
+
+*Evaluation board for [ESP32-W6300-SoM](./esp32-w6300-som)*
+
+{/* Hero image — replace with the approved board photo once available.
+    Expected path: /img/products/som/esp32-w6300-devkit/esp32-w6300-devkit.png
+<div className="main-card">
+  <img src="/img/products/som/esp32-w6300-devkit/esp32-w6300-devkit.png" alt="ESP32-W6300-DevKit" />
+  <div>
+    <h3>ESP32-W6300-DevKit</h3>
+    <p>ESP32-W6300-SoM mounted on a carrier board with USB, RJ45, and breakout headers.</p>
+  </div>
+</div>
+*/}
+
+:::caution Draft
+
+This page is a working draft. Product name, photograph, header pinout, electrical values, and
+certification links are **TBD** and must be replaced with approved data before release.
+
+:::
+
+## Summary
+
+ESP32-W6300-DevKit is the [ESP32-W6300-SoM](./esp32-w6300-som) already mounted on a carrier board,
+with everything needed to power it, program it, and put it on a network.
+
+It is the board to use when the design needs IPv6, or more throughput than SPI allows. The module,
+the driver, and the firmware you develop here carry over unchanged to the production design — only
+the board around the module changes.
+
+| Item | Detail |
+| --- | --- |
+| Purpose | Evaluation, firmware development, demos |
+| Module under test | [ESP32-W6300-SoM](./esp32-w6300-som) — ESP32-S3 + W6300, IPv4/IPv6, SPI/QSPI |
+| Ships inside a product? | No. For production, design a carrier board and solder the SoM |
+| Programming | USB, no external programmer required |
+
+:::tip Which one do I need?
+
+**DevKit** to evaluate and write firmware. **SoM** to ship. See
+[Where a SoM sits](/Product/SoM/overview#where-a-som-sits) for how the two relate.
+
+:::
+
+## What is on the board
+
+```text
+ESP32-W6300-DevKit
+├── ESP32-W6300-SoM ....... the module being evaluated
+├── USB ................... power and programming
+├── RJ45 .................. Ethernet connector
+├── Power .................. regulator and rail selection
+├── Breakout headers ...... module I/O brought out for prototyping
+├── Buttons ............... reset, boot
+└── LEDs .................. power, link, user
+```
+
+Everything except the module is carrier-board circuitry — the part you replace with your own design
+when the product is built.
+
+## Features
+
+- [ESP32-W6300-SoM](./esp32-w6300-som) mounted and pre-validated
+- IPv4 and IPv6 dual stack
+- SPI and QSPI host interface, so both can be measured on the same board
+- USB for power and firmware download, no external programmer
+- RJ45 with integrated magnetics
+- Module I/O broken out to headers for prototyping
+- Reset and boot buttons
+- Compatible with the shared [Getting Started](/Product/SoM/reference/getting-started) procedure
+
+## Hardware Specification
+
+### Key specifications
+
+| Item | Value | Source | Notes |
+| --- | --- | --- | --- |
+| Module | ESP32-W6300-SoM | BOM | - |
+| Host MCU | ESP32-S3 | Module datasheet | Exact variant TBD |
+| Ethernet controller | W6300 | Module datasheet | - |
+| Host interface | SPI / QSPI | Module pinout | Mode selection method TBD |
+| Ethernet speed | 10/100 Mbps | Chip specification | - |
+| IP version | IPv4 / IPv6 | Chip specification | - |
+| USB connector | TBD | Mechanical drawing | - |
+| Input voltage | TBD | Electrical specification | - |
+| Board dimensions | TBD | Mechanical drawing | - |
+
+### Board layout
+
+TBD — add the annotated board photo showing connectors, buttons, LEDs, and headers.
+
+### Header pinout
+
+TBD — add the header pinout image and the table below. QSPI consumes more module pins than SPI, so
+record which headers are unavailable in QSPI mode.
+
+| Header | Pin | Module signal | Available in QSPI mode | Description |
+| --- | --- | --- | --- | --- |
+| TBD | TBD | TBD | TBD | TBD |
+
+### Host interface mode selection
+
+| Mode | Data lines | How it is selected on this board | Notes |
+| --- | --- | --- | --- |
+| SPI | 1 | TBD | TBD |
+| QSPI | 4 | TBD | TBD |
+
+### Power options
+
+| Source | Connector | Notes |
+| --- | --- | --- |
+| USB | TBD | TBD |
+| External supply | TBD | TBD |
+| PoE | Via WIZPoE module | TBD |
+
+### Jumpers and switches
+
+TBD — document each jumper, its default position, and what it selects.
+
+## Getting Started
+
+The bring-up procedure is shared across the family:
+[SoM Getting Started](/Product/SoM/reference/getting-started). On this board, steps 1–3 are already
+done — go directly to build, flash, and run.
+
+## Documentation
+
+| Title | Description | Link | Notes |
+| --- | --- | --- | --- |
+| DevKit user guide | Board usage, headers, jumpers | - | TBD |
+| Module datasheet | Specification of the SoM on this board | [ESP32-W6300-SoM](./esp32-w6300-som) | Draft |
+| Getting Started | First bring-up procedure | [Go](/Product/SoM/reference/getting-started) | Shared |
+
+## Software Resources
+
+<Tabs groupId="som-software">
+  <TabItem value="driver" label="Driver" default>
+
+  | Title | Description | Link | Notes |
+  | --- | --- | --- | --- |
+  | `wsm_driver` | ESP-IDF component providing the WIZnet transport and callback layer | [GitHub](https://github.com/Wiznet/wsm_driver) | - |
+  | ESP-IDF | Tested SDK version | - | TBD |
+
+  </TabItem>
+  <TabItem value="examples" label="Examples">
+
+  | Title | Description | Link | Notes |
+  | --- | --- | --- | --- |
+  | Loopback | Basic socket verification | - | TBD |
+  | DHCP / DNS | Address acquisition and name resolution | - | TBD |
+  | IPv6 / SLAAC | Dual-stack address configuration | - | TBD |
+  | MQTT | Wired MQTT client | - | TBD |
+  | ESPHome / Home Assistant | YAML configuration and flashing guide | - | TBD |
+
+  </TabItem>
+  <TabItem value="tools" label="Tools">
+
+  | Title | Description | Link | Notes |
+  | --- | --- | --- | --- |
+  | ESP-IDF | Build, flash, and monitor toolchain | [Docs](https://docs.espressif.com/projects/esp-idf/en/latest/) | - |
+
+  </TabItem>
+</Tabs>
+
+## Hardware Resources
+
+| Title | Description | Download | Notes |
+| --- | --- | --- | --- |
+| Schematic | DevKit circuit diagram — also a reference for your own carrier board | - | TBD |
+| 3D file | STEP model | - | TBD |
+| Dimension drawing | Mechanical outline | - | TBD |
+| Part list | Components used on the board | - | TBD |
+
+:::note
+
+The DevKit schematic doubles as a worked example of a carrier board. Shared carrier-board rules are
+in [Reference → Hardware Design](/Product/SoM/reference).
+
+:::
+
+## Test & Certification
+
+| Title | Description | Download | Notes |
+| --- | --- | --- | --- |
+| CE | EU safety certification | - | TBD |
+| FCC | U.S. EMI certification | - | TBD |
+| KC | Korea safety certification | - | TBD |
+
+## Related Products
+
+| Product | Relation | Link |
+| --- | --- | --- |
+| ESP32-W6300-SoM | The module evaluated by this board | [Go](./esp32-w6300-som) |
+| ESP32-W5500-DevKit | IPv4 / SPI variant | [Go](./esp32-w5500-devkit) |
+| WIZPoE-SD series | PoE PD power supply | TBD |
+
+## How to buy
+
+TBD — add WIZnet eShop and WIZnet Korea shop links after release.
+
+## Revision History
+
+| Doc revision | Date | Product revision | Change |
+| --- | --- | --- | --- |
+| v0.1 (draft) | 2026-08-11 | TBD | Initial draft page |

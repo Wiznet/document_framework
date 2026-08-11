@@ -2107,6 +2107,8 @@ module.exports = {
 								items: [
 									'Product/SoM/Modules/ESP32/esp32-w5500-som',
 									'Product/SoM/Modules/ESP32/esp32-w6300-som',
+									'Product/SoM/Modules/ESP32/esp32-w5500-devkit',
+									'Product/SoM/Modules/ESP32/esp32-w6300-devkit',
 								],
 							},
 							// STM32 / RP groups are added here as those module pages land.
