@@ -1,0 +1,53 @@
+---
+id: trouble-shooting-EN
+title: Trouble Shooting-[EN]
+date: 2026-08-13
+---
+
+**Supported Languages**  
+\* [English](./Trouble-Shooting-EN.mdx) (current page)  
+\* [Korean](./Trouble-Shooting-KO.mdx)
+
+-----
+
+  - Latest Update: ***Aug. 2026***
+
+-----
+
+
+
+## Common Cases
+
+| Reboot-related Issues |
+| --------------------- |
+
+<details>
+<summary>The module restarts when it cannot communicate with the UDP Remote Host.</summary>
+
+  - WIZ550SR includes a Watchdog function to prevent the system from remaining in a long waiting state during network processing due to network disconnection or data transmission/reception failure.
+
+  - In UDP mode, if the configured Remote Host does not exist on the network or cannot be reached due to a network disconnection, transmitting Serial data may cause the module to wait until a Timeout occurs during network communication processing.
+
+  - If this condition continues for a certain period of time, the module may restart due to the Watchdog. This behavior is intended to recover the system from an infinite waiting state.
+
+  - If situations where the Remote Host is temporarily unavailable or cannot be reached are part of the normal operating environment, and you do not want the module to restart under these conditions, you can adjust the **Retransmission Retry Count (RCR)** value.
+
+|                                                             |
+| ----------------------------------------------------------- |
+| ![](/img/products/wiz550sr/config_tool.png) |
+| Set the Retransmission Retry count to a lower value in ConfigTool |
+
+  - Set **Configuration Tool > Options > TCP timeout > Retransmission Retry count** to
+    `1` to reduce the Timeout processing time when the Remote Host cannot be reached.
+
+  - By lowering the RCR value, the data transmission process can terminate with a Timeout before the Watchdog triggers a restart, preventing the module from restarting when it cannot communicate with the Remote Host.
+
+  > **Note**
+  >
+  > RCR determines the number of retransmission attempts when network communication fails.
+  > Lowering the RCR value reduces the waiting time until a Timeout occurs, but it also reduces the number of retransmission attempts.
+  > **Therefore, we recommend keeping the default setting in normal network environments.**
+  > If situations where the Remote Host does not exist or is temporarily unreachable are part of the normal operating environment,
+  > and you do not want the module to restart under these conditions, adjust the RCR value accordingly.
+
+</details>
