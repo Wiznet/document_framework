@@ -16,8 +16,8 @@
 <link rel="search" type="application/opensearchdescription+xml" title="WIZnet Document System" href="/opensearch.xml">
 <link rel="preconnect" href="https://cdn.channel.io">
 <script>!function(){var n=window;if(n.ChannelIO)return(window.console.error||window.console.log||function(){})("ChannelIO script included twice.");var e=function(){e.c(arguments)};function t(){if(!n.ChannelIOInitialized){n.ChannelIOInitialized=!0;var e=document.createElement("script");e.type="text/javascript",e.async=!0,e.src="https://cdn.channel.io/plugin/ch-plugin-web.js",e.charset="UTF-8";var t=document.getElementsByTagName("script")[0];t.parentNode.insertBefore(e,t)}}e.q=[],e.c=function(n){e.q.push(n)},n.ChannelIO=e,"complete"===document.readyState?t():window.attachEvent?window.attachEvent("onload",t):(window.addEventListener("DOMContentLoaded",t,!1),window.addEventListener("load",t,!1))}(),ChannelIO("boot",{pluginKey:"cb95c060-ab4c-45ec-bbe8-fe40a1ea3aec"})</script><link rel="stylesheet" href="/assets/css/styles.b21d7d76.css">
-<script src="/assets/js/runtime~main.dbf79956.js" defer="defer"></script>
-<script src="/assets/js/main.f8b0314b.js" defer="defer"></script>
+<script src="/assets/js/runtime~main.5c8a926f.js" defer="defer"></script>
+<script src="/assets/js/main.379bd285.js" defer="defer"></script>
 </head>
 <body class="navigation-with-keyboard">
 <svg xmlns="http://www.w3.org/2000/svg" style="display: none;"><defs>
@@ -28,10 +28,46 @@
 <!-- -->* <a href="/Product/Modules/Serial-to-Ethernet-Module/WIZ750SR/trouble-shooting-KO">Korean</a> (current page)</p>
 <hr>
 <ul>
-<li>최종 업데이트: <em><strong>Jan. 2018</strong></em></li>
+<li>최종 업데이트: <em><strong>Aug. 2026</strong></em></li>
 </ul>
 <hr>
 <h2 class="anchor anchorWithHideOnScrollNavbar_WYt5" id="잘-알려진-내용">잘 알려진 내용<a href="#잘-알려진-내용" class="hash-link" aria-label="Direct link to 잘 알려진 내용" title="Direct link to 잘 알려진 내용">​</a></h2>
+<table><thead><tr><th>재부팅 관련 문제</th></tr></thead></table>
+<details class="details_lb9f alert alert--info details_b_Ee" data-collapsed="true"><summary>UDP Remote Host와 통신할 수 없는 환경에서 모듈이 재시작됩니다.</summary><div><div class="collapsibleContent_i85q"><ul>
+<li>
+<p>WIZ750SR에는 펌웨어 V1.4.x 이후부터 네트워크 단절 또는 데이터 송수신 실패 등으로 네트워크 처리 과정에서 장시간
+대기하는 상태를 방지하기 위한 Watchdog 기능이 적용되어 있습니다.</p>
+</li>
+<li>
+<p>UDP 모드에서 설정된 Remote Host가 네트워크에 존재하지 않거나 네트워크 단절 등의 이유로
+통신할 수 없는 상태에서 Serial 데이터를 전송하면, 네트워크 통신을 위한 처리 과정에서 Timeout까지 대기할 수 있습니다.</p>
+</li>
+<li>
+<p>이러한 상태가 일정 시간 이상 지속되는 경우 Watchdog에 의해 모듈이 재시작될 수 있으며,
+이는 무한 대기 상태에서 시스템을 복구하기 위한 동작입니다.</p>
+</li>
+<li>
+<p>Remote Host가 일시적으로 존재하지 않거나 통신할 수 없는 상황이 정상적인 사용 환경에
+포함되어 있고, 이러한 상황에서 모듈이 재시작되는 것을 원하지 않는 경우
+<strong>Retransmission Retry Count(RCR)</strong> 값을 조정할 수 있습니다.</p>
+</li>
+</ul><table><thead><tr><th></th></tr></thead><tbody><tr><td><img decoding="async" loading="lazy" src="/assets/images/config_tool-83d17a843e37fc727d5d861531fe94ca.png" width="643" height="478" class="img_ev3q"></td></tr><tr><td>ConfigTool에서 Retransmission Retry count 값 낮춰서 설정</td></tr></tbody></table><ul>
+<li>
+<p><strong>Configuration Tool &gt; Options &gt; TCP timeout &gt; Retransmission Retry count</strong> 값을
+<code>1</code>로 설정하면 통신할 수 없는 Remote Host에 대한 Timeout 처리 시간을 줄일 수 있습니다.</p>
+</li>
+<li>
+<p>RCR 값을 낮추면 Watchdog에 의한 재시작 전에 데이터 전송 처리가 Timeout으로 종료되므로,
+Remote Host와 통신할 수 없는 상황에서도 모듈의 재시작을 방지할 수 있습니다.</p>
+</li>
+</ul><blockquote>
+<p><strong>참고</strong></p>
+<p>RCR은 네트워크 통신 실패 시 재전송 횟수를 결정하는 설정입니다.
+RCR 값을 낮추면 Timeout까지의 대기시간이 짧아지는 대신 재전송 시도 횟수도 감소합니다.
+<strong>따라서 일반적인 네트워크 환경에서는 기존 설정을 유지하는 것을 권장합니다.</strong>
+Remote Host가 존재하지 않거나 일시적으로 통신할 수 없는 상황이 정상적인 사용 환경에
+포함되어 있고, 해당 상황에서 모듈의 재시작을 원하지 않는 경우 RCR 값을 조정하여 사용하세요.</p>
+</blockquote></div></div></details>
 <table><thead><tr><th>Configuration Tool 관련 문제</th></tr></thead></table>
 <details class="details_lb9f alert alert--info details_b_Ee" data-collapsed="true"><summary>WIZ750SR 제품의 Configuration tool은 어디서 찾을 수 있나요?</summary><div><div class="collapsibleContent_i85q"><ul>
 <li>
@@ -135,7 +171,7 @@ tool을 제공하지 않으며, WIZ107/107SR 제품의 Configuration tool로 제
 </li>
 <li>
 <p><strong>RS-422/485 버전</strong>의 경우 <strong>터미널 블록</strong> 인터페이스를 제공합니다. 이는 사용자 시리얼 장치와의 직접
-연결을 위한 것으로써,   만약 PC에 연결하고자 하면 시중에 판매 중인 RS-422/485 to USB
+연결을 위한 것으로써, 만약 PC에 연결하고자 하면 시중에 판매 중인 RS-422/485 to USB
 커넥터(*별매)를 이용하여 연결 할 수 있습니다.</p>
 </li>
 </ul></div></div></details>

@@ -16,8 +16,8 @@
 <link rel="search" type="application/opensearchdescription+xml" title="WIZnet Document System" href="/opensearch.xml">
 <link rel="preconnect" href="https://cdn.channel.io">
 <script>!function(){var n=window;if(n.ChannelIO)return(window.console.error||window.console.log||function(){})("ChannelIO script included twice.");var e=function(){e.c(arguments)};function t(){if(!n.ChannelIOInitialized){n.ChannelIOInitialized=!0;var e=document.createElement("script");e.type="text/javascript",e.async=!0,e.src="https://cdn.channel.io/plugin/ch-plugin-web.js",e.charset="UTF-8";var t=document.getElementsByTagName("script")[0];t.parentNode.insertBefore(e,t)}}e.q=[],e.c=function(n){e.q.push(n)},n.ChannelIO=e,"complete"===document.readyState?t():window.attachEvent?window.attachEvent("onload",t):(window.addEventListener("DOMContentLoaded",t,!1),window.addEventListener("load",t,!1))}(),ChannelIO("boot",{pluginKey:"cb95c060-ab4c-45ec-bbe8-fe40a1ea3aec"})</script><link rel="stylesheet" href="/assets/css/styles.b21d7d76.css">
-<script src="/assets/js/runtime~main.dbf79956.js" defer="defer"></script>
-<script src="/assets/js/main.f8b0314b.js" defer="defer"></script>
+<script src="/assets/js/runtime~main.5c8a926f.js" defer="defer"></script>
+<script src="/assets/js/main.379bd285.js" defer="defer"></script>
 </head>
 <body class="navigation-with-keyboard">
 <svg xmlns="http://www.w3.org/2000/svg" style="display: none;"><defs>
@@ -28,10 +28,40 @@
 <!-- -->* <a href="/Product/Modules/Serial-to-Ethernet-Module/WIZ750SR/trouble-shooting-KO">Korean</a></p>
 <hr>
 <ul>
-<li>Latest Update: <em><strong>Jan. 2018</strong></em></li>
+<li>Latest Update: <em><strong>Aug. 2026</strong></em></li>
 </ul>
 <hr>
 <h2 class="anchor anchorWithHideOnScrollNavbar_WYt5" id="common-cases">Common Cases<a href="#common-cases" class="hash-link" aria-label="Direct link to Common Cases" title="Direct link to Common Cases">​</a></h2>
+<table><thead><tr><th>Reboot-related Issues</th></tr></thead></table>
+<details class="details_lb9f alert alert--info details_b_Ee" data-collapsed="true"><summary>The module restarts when it cannot communicate with the UDP Remote Host.</summary><div><div class="collapsibleContent_i85q"><ul>
+<li>
+<p>Starting from firmware V1.4.x, WIZ750SR includes a Watchdog function to prevent the system from remaining in a long waiting state during network processing due to network disconnection or data transmission/reception failure.</p>
+</li>
+<li>
+<p>In UDP mode, if the configured Remote Host does not exist on the network or cannot be reached due to a network disconnection, transmitting Serial data may cause the module to wait until a Timeout occurs during network communication processing.</p>
+</li>
+<li>
+<p>If this condition continues for a certain period of time, the module may restart due to the Watchdog. This behavior is intended to recover the system from an infinite waiting state.</p>
+</li>
+<li>
+<p>If situations where the Remote Host is temporarily unavailable or cannot be reached are part of the normal operating environment, and you do not want the module to restart under these conditions, you can adjust the <strong>Retransmission Retry Count (RCR)</strong> value.</p>
+</li>
+</ul><table><thead><tr><th></th></tr></thead><tbody><tr><td><img decoding="async" loading="lazy" src="/assets/images/config_tool-83d17a843e37fc727d5d861531fe94ca.png" width="643" height="478" class="img_ev3q"></td></tr><tr><td>Set the Retransmission Retry count to a lower value in ConfigTool</td></tr></tbody></table><ul>
+<li>
+<p>Set <strong>Configuration Tool &gt; Options &gt; TCP timeout &gt; Retransmission Retry count</strong> to
+<code>1</code> to reduce the Timeout processing time when the Remote Host cannot be reached.</p>
+</li>
+<li>
+<p>By lowering the RCR value, the data transmission process can terminate with a Timeout before the Watchdog triggers a restart, preventing the module from restarting when it cannot communicate with the Remote Host.</p>
+</li>
+</ul><blockquote>
+<p><strong>Note</strong></p>
+<p>RCR determines the number of retransmission attempts when network communication fails.
+Lowering the RCR value reduces the waiting time until a Timeout occurs, but it also reduces the number of retransmission attempts.
+<strong>Therefore, we recommend keeping the default setting in normal network environments.</strong>
+If situations where the Remote Host does not exist or is temporarily unreachable are part of the normal operating environment,
+and you do not want the module to restart under these conditions, adjust the RCR value accordingly.</p>
+</blockquote></div></div></details>
 <table><thead><tr><th>Problems with the Configuration Tool</th></tr></thead></table>
 <details class="details_lb9f alert alert--info details_b_Ee" data-collapsed="true"><summary>Where can I find the Configuration tool for WIZ750SR?</summary><div><div class="collapsibleContent_i85q"><ul>
 <li>
@@ -141,7 +171,7 @@ address range, Different IP address)</li>
 </li>
 </ul></div></div></details>
 <hr>
-<h2 class="anchor anchorWithHideOnScrollNavbar_WYt5" id="problems-cannot-be-solved">Problems cannot be solved!<a href="#problems-cannot-be-solved" class="hash-link" aria-label="Direct link to Problems cannot be solved!" title="Direct link to Problems cannot be solved!">​</a></h2>
+<h2 class="anchor anchorWithHideOnScrollNavbar_WYt5" id="problems-cannot-be-solved">Problems cannot be solved!<a href="#problems-cannot-be-solved" class="hash-link" aria-label="Direct link to Problems cannot be solved!" title="Direct link to Problems cannot be solved!"> ​</a></h2>
 <details class="details_lb9f alert alert--info details_b_Ee" data-collapsed="true"><summary>What is the next step if my problem is still not solved?</summary><div><div class="collapsibleContent_i85q"><ul>
 <li>
 <p>Users can ask questions at the <a href="https://maker.wiznet.io/forum/" target="_blank" rel="noopener noreferrer">WIZnet Forum</a>.</p>
