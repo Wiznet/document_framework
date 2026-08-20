@@ -2109,6 +2109,16 @@ module.exports = {
 									'Product/SoM/Modules/ESP32/esp32-w6300-som',
 									'Product/SoM/Modules/ESP32/esp32-w5500-devkit',
 									'Product/SoM/Modules/ESP32/esp32-w6300-devkit',
+									{
+										type: 'category',
+										label: 'Application Notes',
+										items: [
+											'Product/SoM/Modules/ESP32/Application-Notes/esp32-modbus-tcp-connection-guide-en',
+											'Product/SoM/Modules/ESP32/Application-Notes/esp32-modbus-tcp-connection-guide-kr',
+											'Product/SoM/Modules/ESP32/Application-Notes/esp32-websocket-connection-guide-en',
+											'Product/SoM/Modules/ESP32/Application-Notes/esp32-websocket-connection-guide-kr',
+										],
+									},
 								],
 							},
 							// STM32 / RP groups are added here as those module pages land.

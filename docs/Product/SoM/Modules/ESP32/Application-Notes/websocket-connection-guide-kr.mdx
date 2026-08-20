@@ -1,0 +1,311 @@
+---
+id: esp32-websocket-connection-guide-kr
+title: WebSocket Connection Guide-[KR]
+sidebar_label: WebSocket Connection Guide-[KR]
+slug: /Product/SoM/application-notes/websocket-connection-guide-kr
+date: 2026-08-20
+keywords: [WebSocket, RFC 6455, WebSocket 서버, ws://, ESP32-W5500-SoM, ESP32-W6300-SoM, WIZnet ESP SoM, W5500, W6300, 하드웨어 TCP/IP, TOE, ESP-IDF, wsm_driver, mWebSockets]
+description: WIZnet ESP SoM에서 자체 테스트 페이지를 제공하는 WebSocket 서버를 실행하고, 브라우저에서 프레이밍 경로를 확인하는 방법.
+---
+
+# WebSocket 연결 가이드
+
+WIZnet ESP SoM은 TCP/IP를 MCU가 아니라 WIZnet 이더넷 칩이 처리하는 WebSocket 서버로 동작할 수 있습니다. 장치가 테스트 페이지를 직접 제공하므로 설치할 서버도, 내려받을 클라이언트도, 주소를 고쳐 넣을 HTML 파일도 없습니다. 브라우저에 장치 주소를 입력하면 페이지가 스스로 접속합니다.
+
+> **ESP32-SoM에서 검증했습니다.** W5500과 W6300 양쪽 모두 ESP32-SoM에서, TOE 백엔드로 이더넷과 Wi-Fi 양쪽에서 실행했습니다. 두 인터페이스를 동시에 운용하는 경우도 확인했습니다.
+
+* * *
+
+## WebSocket 서버 개요
+
+하나의 포트가 두 가지를 제공합니다. 브라우저가 `/`를 요청하면 평문 HTTP로 테스트 페이지를 받고, `Upgrade` 헤더와 함께 `/ws`를 요청하면 WebSocket 연결을 받습니다. 서버는 요청을 한 번 읽고 분기합니다. 이것이 이 예제 전체를 "브라우저에 주소를 입력한다"로 만들어 주는 부분입니다.
+
+같은 펌웨어가 W5500과 W6300 양쪽에서 동작하며, menuconfig에서 보드를 선택하면 소스 수정은 필요 없습니다.
+
+| 항목 | 위치 |
+|---|---|
+| 테스트 페이지 및 WebSocket (이더넷) | 포트 80 |
+| 테스트 페이지 및 WebSocket (Wi-Fi, 선택) | 포트 81 |
+| 기본 IP 주소 | 192.168.11.2 |
+| 조립 가능한 최대 메시지 | 2048 바이트 |
+
+**참고:** 두 인터페이스가 서로 다른 포트를 쓰는 것은 의도된 것입니다. `esp_eth` 백엔드에서는 두 인터페이스가 하나의 LwIP 스택을 공유하므로, 같은 포트를 쓰면 bind에서 충돌합니다.
+
+프로토콜 구현은 [mWebSockets](https://github.com/skaarj1989/mWebSockets)(MIT, Dawid Kurek)를 C로 이식해 예제 안에 복사한 것입니다. 네트워크 호출을 드라이버의 소켓 vtable로 바꾸기 위해서입니다. 덕분에 동일한 프로토콜 코드가 WIZnet 하드웨어 소켓과 소프트웨어 LwIP 위에서 동시에 동작합니다.
+
+* * *
+
+## 준비물
+
+### 하드웨어
+
+- WIZnet ESP32-SoM — ESP32-W5500-SoM 또는 ESP32-W6300-SoM
+- 모듈의 RJ45 포트와 PC(또는 네트워크)를 연결할 이더넷 케이블
+- 모듈과 PC를 연결할 USB 케이블
+
+### 소프트웨어
+
+- [ESP-IDF](https://docs.espressif.com/projects/esp-idf/en/stable/esp32s3/get-started/) v6.0 이상
+- [wsm_driver](https://github.com/Wiznet/wsm_driver) 및 [`websocket` 예제](https://github.com/theoim/wsm_driver/tree/ionic-example/examples/websocket)
+- 시리얼 터미널 ([Tera Term](https://osdn.net/projects/ttssh2/releases/) 등)
+- 최신 브라우저 — Chrome, Edge, Firefox, Safari
+
+**참고:** 그 외에는 없습니다. 장치가 자신과 통신하는 페이지를 직접 제공하므로, 설치할 WebSocket 클라이언트도 로컬 HTML 파일에 적어 넣을 주소도 없습니다.
+
+* * *
+
+## WIZnet ESP SoM에서 WebSocket 서버 실행하기
+
+### Step 1: 하드웨어 준비
+
+1. 모듈의 RJ45 포트와 PC(또는 네트워크)를 이더넷 케이블로 연결합니다.
+2. 모듈과 PC를 USB 케이블로 연결합니다.
+
+**참고:** 배선할 것이 없습니다. 이더넷 칩과 ESP32-S3가 한 모듈에 함께 실장되어 이미 연결되어 있습니다. 모듈을 쓰는 이유가 그것입니다.
+
+### Step 2: 보드 선택
+
+타깃을 설정하고 menuconfig를 엽니다.
+
+```bash
+idf.py set-target esp32s3
+idf.py menuconfig
+```
+
+**Component config → WIZnet WSM Driver → Board**를 선택합니다.
+
+사용하는 모듈을 선택합니다. **ESP32-W5500-SoM** 또는 **ESP32-W6300-SoM**입니다.
+
+이 설정 하나가 하드웨어 설정의 전부입니다. 칩과 그 칩이 연결된 GPIO가 모두 여기서 따라옵니다. 메뉴가 칩이 아니라 보드를 묻는 이유가 이것입니다. W6300 SoM과 W6300 Dev-kit은 같은 칩을 서로 다른 핀에 얹고 있어서, 칩 이름만으로는 위치를 알 수 없습니다.
+
+**참고:** `sdkconfig`나 `sdkconfig.defaults`에서 `CONFIG_WSM_DRIVER_CHIP_*`을 직접 설정하지 마십시오. 선택한 보드와 모순되어, 올바른 핀에 잘못된 칩으로 통신하는 상태가 됩니다.
+
+**참고:** ESP32-W6300-SoM에서는 **Component config → WIZnet WSM Driver → W6300 QSPI mode**에서 SPI 폭을 고를 수 있습니다. Quad는 데이터 라인 4개를 사용해 더 빠릅니다. 두 방식 모두 모듈에 이미 배선되어 있으므로, 하드웨어는 건드릴 것 없이 빌드 시점의 선택입니다.
+
+### Step 3: 네트워크 주소 설정
+
+`examples/websocket/inc/net_config.h`를 열어 장치가 사용할 주소를 설정합니다.
+
+```c
+#define NET_MAC_ADDR          {0x00, 0x08, 0xDC, 0x12, 0x34, 0x56}
+#define NET_IP_ADDR           {192, 168, 11, 2}
+#define NET_SUBNET_MASK       {255, 255, 255, 0}
+#define NET_GATEWAY           {192, 168, 11, 1}
+#define NET_DNS_ADDR          {8, 8, 8, 8}
+
+#define WIFI_SSID             ""      /* 비워두면 이더넷 전용 */
+#define WIFI_PASS             ""
+
+#define WS_PORT               80      /* 이더넷 */
+#define WIFI_WS_PORT          81      /* Wi-Fi  */
+#define WS_MAX_MESSAGE_SIZE   2048
+```
+
+장치를 PC와 같은 서브넷에 두십시오. 포트 80을 사용하면 브라우저에서 포트 없이 `http://192.168.11.2`로 접속할 수 있습니다.
+
+**참고:** `WS_MAX_MESSAGE_SIZE`는 프래그먼트를 포함해 재조립된 메시지의 상한입니다. 전송 계층이 아니라 애플리케이션이 버퍼링할 의사가 있는 크기를 뜻합니다. 브라우저는 칩의 2 KB 소켓 버퍼보다 큰 메시지를 보낼 수 있습니다.
+
+### Step 4: 빌드
+
+```bash
+idf.py build
+```
+
+### Step 5: 업로드 및 실행
+
+Windows:
+
+```bash
+idf.py -p COM6 flash monitor
+```
+
+Linux / macOS:
+
+```bash
+idf.py -p /dev/ttyUSB0 flash monitor
+```
+
+칩이 인식되고 서버가 올라옵니다.
+
+```
+I (268) wsm_driver_spi: W5500 version check OK: 0x04
+I (270) wiztoe_net: TOE up: 192.168.11.2 (WIZnet hardware TCP/IP)
+I (272) ws_server: [eth] WebSocket server on port 80
+```
+
+**참고:** `version check OK` 줄을 가장 먼저 확인하십시오. 여기서 mismatch가 나오면 칩이 SPI에 응답하지 않는 것이며, 그 이후 동작은 모두 의미가 없습니다. Troubleshooting을 참고하십시오.
+
+### Step 6: 페이지 열기
+
+브라우저로 **http://192.168.11.2** 에 접속합니다. 페이지가 로드되면서 스스로 접속하며, 별도 조작 없이 상태 표시가 초록으로 바뀝니다.
+
+시리얼 로그에는 두 단계가 모두 보입니다. HTTP로 페이지를 받고, 이어서 소켓이 업그레이드됩니다.
+
+```
+I (7958) ws_tx: client connected from 192.168.11.4
+I (7962) ws: plain HTTP request for "/"
+I (7963) ws_server: [eth] serving the page
+I (8194) ws_tx: client connected from 192.168.11.4
+I (8200) ws: handshake complete (/ws)
+I (8200) ws_server: [eth] connection open
+```
+
+### Step 7: 세 가지 프레이밍 경로 확인
+
+페이지에는 버튼이 세 개 있습니다. 같은 동작을 세 번 보여주는 것이 아니라, 각각 프레이밍 코드의 서로 다른 경로를 지나갑니다. 세 개를 합치면 WebSocket 구현에서 흔히 틀리는 지점을 덮습니다.
+
+| 버튼 | 확인하는 것 |
+|---|---|
+| **Send** | 짧은 텍스트 프레임, 페이로드 길이 125 이하 — 짧은 헤더 형식 |
+| **300 bytes** | 확장 길이 경로. 125를 넘으면 길이 필드 형식이 바뀌고 헤더가 2바이트에서 4바이트로 늘어납니다 |
+| **Binary** | UTF-8이 아닌 페이로드를 담은 바이너리 opcode. 텍스트라고 가정한 서버는 이 데이터를 훼손합니다 |
+
+모든 메시지가 그대로 되돌아오며, 이것이 프레이밍의 양방향을 확인해 줍니다.
+
+```
+I (11522) ws_server: [eth] received 22 bytes: hello from the browser
+I (14582) ws_server: [eth] received 300 bytes: xxxxxxxx...
+I (17121) ws_server: [eth] received 6 binary bytes
+```
+
+**참고:** 페이지를 몇 번 새로 고쳐 보십시오. 연결을 닫고 리스너를 다시 준비시키는 경로이며, WIZnet 칩에서 리스너를 다시 준비시키는 것은 새 연결을 accept하는 것과 다른 동작입니다. Troubleshooting을 참고하십시오.
+
+### Step 8: 완료
+
+장치가 하나의 포트로 페이지를 제공하고 WebSocket 프레임을 에코하고 있으며, TCP는 이더넷 칩에서 종단됩니다.
+
+* * *
+
+## 하나의 포트가 페이지와 소켓을 함께 제공하는 방식
+
+WebSocket 서버는 HTTP 서버가 아닙니다. 그래서 흔한 구성에서는 사용자가 로컬 HTML 파일을 열고 그 안에 장치 주소를 직접 적어 넣게 됩니다. 요청을 한 번 읽어 `Upgrade` 헤더 유무로 분기하면 비용은 거의 들지 않으면서 그 단계가 통째로 사라집니다.
+
+```
+                ESP32 + WIZnet chip
+              ┌─────────────────────┐
+  GET /       │  HTTP               │
+Browser ─────►│    └─ index.html    │
+              │                     │
+  GET /ws     │  WebSocket          │
+Browser ═════►│    └─ echo          │
+              └─────────────────────┘
+```
+
+`ws_read_request()`가 각 요청을 분류합니다.
+
+| 요청 | 결과 |
+|---|---|
+| `Upgrade` 없는 `GET /` | 평문 HTTP로 페이지 제공 |
+| `Upgrade: websocket`이 있는 `GET /ws` | 101 Switching Protocols 후 프레임 교환 |
+| 그 외 | HTTP 오류 응답 |
+
+페이지는 `'ws://' + location.host + '/ws'`를 요청하므로, 브라우저가 페이지를 가져올 때 사용한 주소를 그대로 따라갑니다. 따라서 같은 펌웨어가 이더넷에서도, Wi-Fi에서도, 장치 주소가 바뀐 뒤에도 수정 없이 동작합니다.
+
+**참고:** 인터페이스당 연결은 하나입니다. WIZnet 칩에서는 리스닝 하드웨어 소켓이 그대로 연결이 되므로, LwIP처럼 리스너가 따로 남지 않습니다. 여러 클라이언트를 받으려면 클라이언트 수만큼 하드웨어 소켓이 필요하며, 이는 `tcp_server_multi_socket` 예제가 다룹니다.
+
+* * *
+
+## Wi-Fi에서 두 번째 서버 실행하기
+
+`net_config.h`의 `WIFI_SSID`와 `WIFI_PASS`를 채우고 다시 빌드하면 Wi-Fi 인터페이스에 두 번째 서버가 올라오며, 두 서버가 함께 동작합니다.
+
+### Step 1: DHCP 주소 할당 대기
+
+Wi-Fi 서버는 스테이션이 주소를 받은 뒤에 자체 일정으로 올라옵니다.
+
+```
+I (90642) esp_netif_handlers: sta ip: 192.168.11.8, mask: 255.255.255.0, gw: 192.168.11.1
+I (90643) wifi: got IP 192.168.11.8
+I (90735) ws_server: [wifi] WebSocket server on port 81
+```
+
+### Step 2: 포트를 지정해 접속
+
+`http://192.168.11.8:81` 로 접속합니다. 포트 없는 `http://192.168.11.8`은 응답하지 않습니다. 브라우저가 포트 80으로 보내는데, 그 포트는 이더넷 서버만 사용하기 때문입니다.
+
+### Step 3: 동시 동작 확인
+
+이더넷 쪽 탭을 열어 둔 채로 확인하십시오. 두 서버 모두 유지되며, 로그 접두어(`[eth]` 또는 `[wifi]`)로 어느 쪽이 응답 중인지 알 수 있습니다.
+
+```
+I (106946) ws_server: [eth] serving the page
+I (107041) ws_server: [eth] connection open
+```
+
+이것이 이 예제의 핵심입니다. 동일한 프로토콜 코드가 WIZnet 하드웨어 소켓과 소프트웨어 LwIP를 동시에 구동하며, 각 연결이 사용하는 소켓 vtable만 다릅니다.
+
+* * *
+
+## Troubleshooting
+
+### 부팅 시 `CID mismatch: 0x0000`
+
+보드에 실장된 칩과 다른 칩으로 빌드된 것입니다. `sdkconfig`에 선택한 보드와 모순되는 `CONFIG_WSM_DRIVER_CHIP_*`이 직접 설정돼 있지 않은지 확인하십시오. 보드만 선택하면 충분합니다.
+
+### 페이지는 열리는데 상태가 빨간색으로 유지됨
+
+페이지는 HTTP로 도착했지만 WebSocket이 열리지 않은 것입니다. 시리얼 로그에서 `handshake complete`를 확인하십시오.
+
+| 로그 | 의미 |
+|---|---|
+| `plain HTTP request` 줄도 없음 | 서버에 아무것도 도달하지 않음 |
+| `plain HTTP request for "/ws"` | 업그레이드 헤더가 도착하지 않음 — 중간의 프록시가 제거했을 수 있음 |
+| `handshake: bad version or missing key` | 클라이언트가 RFC 6455를 따르지 않음 |
+
+### `send stopped after 0 of NNNN bytes: errno 5`
+
+응답 도중 클라이언트가 사라진 경우입니다. F5를 길게 누르면 일상적으로 발생합니다. 브라우저가 다음 요청을 시작하려고 이전 페이지 요청을 버리기 때문입니다. 장치의 결함이 아니라 상대측 사정이므로 경고로만 기록합니다.
+
+### `WebSocket server on port 80` 이후 아무 반응 없음
+
+장치는 리스닝 중이지만 도달할 수 없는 상태입니다. PC가 `NET_IP_ADDR`과 같은 서브넷에 있는지, RJ45 링크 LED가 켜져 있는지 확인하십시오.
+
+### Wi-Fi 주소로 접속이 거부됨
+
+원인이 두 가지이며, 시리얼 로그로 구분됩니다.
+
+`[wifi] WebSocket server on port 81`이 이미 출력됐다면 주소는 맞고 포트가 빠진 것입니다. `http://<sta-ip>`가 아니라 `http://<sta-ip>:81`을 사용하십시오. 포트 80은 이더넷이 사용합니다.
+
+그 줄이 아직 없다면 스테이션이 DHCP를 기다리는 중이고 Wi-Fi 서버는 아직 존재하지 않습니다. `wifi:connected with <ssid>`는 AP가 접속을 수락했다는 뜻일 뿐이고, 주소 할당은 별개입니다.
+
+```
+I (567)   wifi:connected with <ssid>, aid = 4, channel 8, rssi: -29
+I (570)   wifi:pm start, type: 1
+I (90642) esp_netif_handlers: sta ip: 192.168.11.8      <- 90초 후
+```
+
+기준 설정에서 이 간격은 재부팅에 따라 2초에서 173초까지 벌어졌습니다. 안테나는 그대로 두었고 RSSI는 -9 ~ -29 dBm이었습니다. 원인은 기본값인 `WIFI_PS_MIN_MODEM` 파워 세이브(`wifi:pm start, type: 1` 줄)와, 브로드캐스트 버퍼링이 부실한 AP의 조합입니다. 스테이션은 DTIM 3을 곱한 307 ms 리슨 인터벌로 깨어나며, 그 창을 놓친 DHCP OFFER는 다음 재시도를 기다립니다. `esp_wifi_start()` 뒤에 `esp_wifi_set_ps(WIFI_PS_NONE)`을 호출하자 같은 보드에서 2.1~2.4초로 안정되었습니다.
+
+예제는 기본값을 유지합니다. 대기 전류를 소모하고, 대부분의 AP에서는 문제가 드러나지 않기 때문입니다.
+
+### 브라우저로 접속한 뒤 서버가 응답하지 않음
+
+접속만 하고 아무것도 보내지 않은 채 끊는 클라이언트는 하드웨어 소켓을 `SOCK_CLOSE_WAIT` 상태로 남깁니다. `wiztoe_accept()`는 이 상태를 established로도 closed로도 처리하지 않으므로, 해당 리스닝 소켓을 잃게 됩니다. 브라우저에서 탭을 닫으면 정확히 이 상황이 됩니다.
+
+이 동작은 Modbus TCP 예제에서 처음 측정되었습니다. 연결·종료를 여섯 번 반복하자 서버가 10초 넘게 응답하지 못했고, 리스너가 하나씩 죽으면서 지속 부하 처리량이 120건 중 120건에서 120건 중 32건으로 떨어졌습니다. 같은 양상이 여기에도 적용되므로 같은 우회 방법을 사용합니다. 약 2초 동안 조용한 리스너를 다시 만드는 것이며, 유휴 서버에서 소켓을 한 번 여는 비용만 들고 그것이 이 상황에서 빠져나오는 유일한 방법입니다.
+
+근본적인 수정은 `wiztoe_accept()`에 속하며, `SOCK_CLOSE_WAIT`를 `SOCK_CLOSED`와 동일하게 처리해야 합니다.
+
+* * *
+
+## 실제 적용 전에 확인할 점
+
+아래는 이 예제가 다루지 않는 범위입니다. 어느 것도 실수가 아니라 의도된 경계입니다.
+
+- **`wss://`가 아니라 `ws://`입니다.** TLS도 인증도 없습니다. 해당 주소에 도달할 수 있으면 누구나 세션을 열 수 있습니다.
+- **타임아웃이 세션 단위가 아니라 읽기 단위입니다.** 1바이트씩 간신히 보내는 클라이언트는 세션을 무한히 유지할 수 있으며, 이는 핸드셰이크 도중에도 마찬가지입니다. 인터페이스당 연결이 하나이므로 다른 모든 사용자가 차단됩니다. 제품용 서버라면 핸드셰이크에 대한 절대 마감 시간, 총 크기 상한, 유휴 세션 제한이 필요합니다.
+- **`send()`에는 마감 시간이 없습니다.** TOE 백엔드에서 `SO_SNDTIMEO`는 받아들여진 뒤 무시되므로, 읽기를 멈춘 클라이언트가 서버 태스크를 붙잡아 둘 수 있습니다. 이는 예제가 아니라 컴포넌트 쪽 사안입니다.
+- **Close 프레임을 검사하기는 하지만 완전히 검증하지는 않습니다.** 1바이트 본문은 거부하고 상대의 close 코드를 되돌려 주지만, 예약된 close 코드는 통과하며 사유 문자열의 UTF-8 유효성은 확인하지 않습니다. RFC 6455는 둘 다 요구합니다.
+- **인터페이스당 연결 하나**입니다. 이유는 위를 참고하십시오.
+
+* * *
+
+## 예제 확장하기
+
+| 목적 | 위치 |
+|---|---|
+| 자체 페이지 제공 | `inc/ws_index_html.h`가 페이지를 문자열 리터럴로 담고 있습니다. CDN도 프레임워크도 쓰지 않는 것은 의도된 것으로, 장치가 인터넷 경로가 없는 망에 놓일 수 있기 때문입니다. 리터럴만 교체하면 되며 다른 부분은 바꿀 필요가 없습니다 |
+| 메시지 상한 변경 | `WS_MAX_MESSAGE_SIZE`. 64비트 길이를 선언한 프레임은 close 코드 1009로 거부합니다 |
+| 제어 프레임 | 이미 처리됩니다. ping은 같은 페이로드로 응답하고, close 프레임은 소켓을 내리기 전에 되돌려 주므로 브라우저가 연결 끊김이 아니라 정상 close 코드를 받습니다 |
+
+**참고:** RFC 6455는 accept 키 유도 방식으로 SHA-1을 규정하고 있어 이 포팅도 SHA-1을 사용합니다. 이는 서명 용도로서 SHA-1의 강도에 대한 판단과는 무관합니다. 이 값은 기밀성이 요구되지 않는 핸드셰이크 토큰입니다. ESP-IDF v6의 mbedTLS 4.0이 저수준 해시 모듈을 `mbedtls/private/` 아래로 옮겼기 때문에, 다이제스트는 `psa_hash_compute(PSA_ALG_SHA_1, ...)`를 통해 계산합니다.

@@ -1,0 +1,401 @@
+---
+id: esp32-modbus-tcp-connection-guide-en
+title: Modbus TCP Connection Guide
+sidebar_label: Modbus TCP Connection Guide
+slug: /Product/SoM/application-notes/modbus-tcp-connection-guide
+date: 2026-08-20
+keywords: [Modbus TCP, Modbus slave, Modbus TCP server, ESP32-W5500-SoM, ESP32-W6300-SoM, WIZnet ESP SoM, W5500, W6300, hardwired TCP/IP, TOE, ESP-IDF, wsm_driver, mbpoll, industrial Ethernet]
+description: Run a Modbus TCP server on the WIZnet ESP SoM, verify it with a Modbus master, and change the device address from a browser.
+---
+
+# Modbus TCP Connection Guide
+
+The WIZnet ESP SoM can run a Modbus TCP server (slave) whose TCP/IP is handled by the WIZnet Ethernet chip rather than by the MCU. A master — a PLC, a SCADA package, or a `mbpoll` command line — reads and writes the device's registers and coils over port 502, and a built-in web dashboard shows the same registers and lets the device's IP address be changed from a browser.
+
+> **Verified on the ESP32-SoM.** Run on the ESP32-SoM with both the W5500 and the W6300, using the TOE backend, over Ethernet and over Wi-Fi — including both interfaces serving at the same time. Every implemented function code and every exception path was exercised against the running device.
+
+* * *
+
+## Modbus TCP Server Overview
+
+The device answers Modbus TCP on port 502 and serves a web dashboard on port 80. The same firmware runs on a W5500 or a W6300 — you select the board in menuconfig, and no source changes are needed.
+
+Two interfaces can run at the same time. The Ethernet server uses the WIZnet chip's hardware TCP/IP; if you fill in Wi-Fi credentials, a second server comes up on the ESP32-S3's own LwIP stack. Both run the same protocol code and differ only in the socket layer each connection carries.
+
+| What | Where |
+|---|---|
+| Modbus TCP server (Ethernet) | port 502 |
+| Modbus TCP server (Wi-Fi, optional) | port 5020 |
+| Web dashboard and settings | port 80 |
+| Default IP address | 192.168.11.2 |
+
+**Note:** The two interfaces bind different ports on purpose. With the `esp_eth` backend they share one LwIP stack, where the same port on both would clash on bind.
+
+* * *
+
+## Required Hardware and Software
+
+### Hardware
+
+- WIZnet ESP32-SoM — the ESP32-W5500-SoM or the ESP32-W6300-SoM
+- Ethernet cable from the module's RJ45 port to your PC or network
+- USB cable from the module to your PC
+
+### Software
+
+- [ESP-IDF](https://docs.espressif.com/projects/esp-idf/en/stable/esp32s3/get-started/) v6.0 or later
+- [wsm_driver](https://github.com/Wiznet/wsm_driver) and the [`modbus_tcp` example](https://github.com/theoim/wsm_driver/tree/ionic-example/examples/modbus_tcp)
+- A serial terminal, such as [Tera Term](https://osdn.net/projects/ttssh2/releases/)
+- A Modbus master — see the table below
+
+### Choosing a Modbus master
+
+There is nothing to install on the device side and no vendor tool involved. The protocol is the interface, so anything that speaks Modbus TCP will work.
+
+| Tool | Platform | Cost | Good for |
+|---|---|---|---|
+| **`tools/mb_probe.py`** (ships with the example) | any, Python 3 | free | one command; checks correctness rather than showing values |
+| [mbpoll](https://github.com/epsilonrt/mbpoll) | Windows / Linux / macOS | free | quick one-liners, scripting, CI |
+| [Modbus Poll](https://www.modbustools.com/modbus_poll.html) | Windows | trial, then paid | the industry default; live register grid, logging |
+| [QModMaster](https://sourceforge.net/projects/qmodmaster/) | Windows / Linux | free | a GUI without a licence |
+| [pymodbus](https://github.com/pymodbus-dev/pymodbus) | any, Python 3 | free | writing your own master or automated tests |
+
+**Start with `tools/mb_probe.py`.** It needs no install, and it checks things a polling GUI will not: every reply's transaction id, protocol id and unit id are matched against the request; writes are read back rather than trusted; and refusals are verified to arrive with the connection still open. Reach for a GUI when you want to watch values move.
+
+**Note:** Modbus Poll and mbpoll are not the same program. The first is a commercial Windows GUI from Modbus Tools; the second is a free command-line tool. Similar names, unrelated projects.
+
+* * *
+
+## How to Run a Modbus TCP Server on the WIZnet ESP SoM
+
+### Step 1: Prepare the hardware
+
+1. Connect an Ethernet cable from the module's RJ45 port to your PC or network.
+2. Connect the module to your PC with a USB cable.
+
+**Note:** There is nothing to wire. The Ethernet chip and the ESP32-S3 are on the same module, already connected — which is what the module is for.
+
+### Step 2: Select the board
+
+Set the target and open menuconfig:
+
+```bash
+idf.py set-target esp32s3
+idf.py menuconfig
+```
+
+Select **Component config → WIZnet WSM Driver → Board**.
+
+Pick your module: **ESP32-W5500-SoM** or **ESP32-W6300-SoM**.
+
+That one setting is the whole hardware configuration. The chip and the GPIOs it sits on both follow from it, which is why the menu asks for a board rather than a chip — the W6300 SoM and the W6300 Dev-kit carry the same chip on different pins, so naming the chip alone would not say where it is.
+
+**Note:** Do not set `CONFIG_WSM_DRIVER_CHIP_*` by hand in `sdkconfig` or `sdkconfig.defaults`. It contradicts the selected board and leaves the driver talking to the wrong chip on the right pins.
+
+**Note:** On the ESP32-W6300-SoM you can also choose the SPI width in **Component config → WIZnet WSM Driver → W6300 QSPI mode**. Quad uses four data lines and is the faster of the two; both are already wired on the module, so this is a build-time choice with nothing to change on the hardware.
+
+### Step 3: Set the network identity
+
+Open `examples/modbus_tcp/inc/net_config.h` and set the address the device should take:
+
+```c
+#define NET_MAC_ADDR          {0x00, 0x08, 0xDC, 0x12, 0x34, 0x56}
+#define NET_IP_ADDR           {192, 168, 11, 2}
+#define NET_SUBNET_MASK       {255, 255, 255, 0}
+#define NET_GATEWAY           {192, 168, 11, 1}
+#define NET_DNS_ADDR          {8, 8, 8, 8}
+
+#define WIFI_SSID             ""      /* leave empty for Ethernet only */
+#define WIFI_PASS             ""
+
+#define MB_PORT               502     /* Ethernet */
+#define WIFI_MB_PORT          5020    /* Wi-Fi    */
+```
+
+Put the device on the same subnet as your PC. Port 502 is the registered Modbus port, so a master reaches the device with no port argument at all.
+
+**Note:** These are the factory defaults. Once the web UI has saved a configuration, the IP, mask, gateway and Modbus port come from NVS instead. Erasing NVS brings these values back.
+
+### Step 4: Build
+
+```bash
+idf.py build
+```
+
+### Step 5: Flash and run
+
+On Windows:
+
+```bash
+idf.py -p COM6 flash monitor
+```
+
+On Linux or macOS:
+
+```bash
+idf.py -p /dev/ttyUSB0 flash monitor
+```
+
+The chip is identified and the server comes up:
+
+```
+I (360) wsm_driver_spi: W5500 version check OK: 0x04
+I (362) wiztoe_net: TOE up: 192.168.11.2 (WIZnet hardware TCP/IP)
+I (447) mb_server: [eth] waiting for link...
+I (451) mb_server: [eth] Modbus TCP server on port 502
+```
+
+**Note:** The `version check OK` line is the one to look for first. If it reports a mismatch, the chip is not answering on SPI and nothing after it will work — see Troubleshooting.
+
+### Step 6: Verify with a Modbus master
+
+Run the bundled probe against the device:
+
+```bash
+python tools/mb_probe.py 192.168.11.2
+```
+
+A healthy server prints the following and exits 0:
+
+```
+--- reads (the startup pattern from mb_datastore_init)
+0x03 holding[0:10]     -> [1000, 1001, 1002, 1003, 1004, 1005, 1006, 1007, 1008, 1009]  OK
+0x04 input[0:8]        -> [0, 1, 4, 9, 16, 25, 36, 49]  OK
+0x01 coils[0:16]       -> [1, 0, 1, 0, 1, 0, 1, 0, 1, 0, 1, 0, 1, 0, 1, 0]  OK
+0x02 discrete[0:16]    -> [1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, 0]  OK
+
+--- writes, each read back
+0x06 holding[5]        -> [48879]  OK
+0x10 holding[20:22]    -> [4369, 8738]  OK
+0x05 coil[1]           -> [1]  OK
+0x0F coils[8:12]       -> [0, 1, 0, 1]  OK
+
+--- refusals (the server must answer, not drop the connection)
+0x03 addr 9000         -> b'\x83\x02'  OK
+0x03 count 0           -> b'\x83\x03'  OK
+0x42 undefined         -> b'\xc2\x01'  OK
+
+15 requests on one connection, 0 failures
+```
+
+48879 is 0xBEEF, and 4369 and 8738 are 0x1111 and 0x2222 — the values the probe wrote, read back. The three `b'\x83...'` lines are exception replies: the function code with its high bit set, followed by the exception code.
+
+Or use a general-purpose master:
+
+```bash
+mbpoll -m tcp -a 1 -r 1 -c 10 192.168.11.2       # read ten holding registers
+mbpoll -m tcp -a 1 -r 6 192.168.11.2 48879       # write 0xBEEF to holding[5]
+mbpoll -m tcp -a 1 -r 6 -c 1 192.168.11.2        # read it back
+```
+
+**Note:** `mbpoll -r 1` addresses the *first* register. The tools number from 1, the wire carries a zero-based address, and this server's holding registers start at 1000.
+
+The serial log names each function code and the size of the reply:
+
+```
+I (486591) mb_tx: master connected from 192.168.11.4
+I (486591) mb_server: [eth] session open
+I (486608) mb_server: [eth] function 0x03 -> 22 bytes
+I (486614) mb_server: [eth] function 0x04 -> 18 bytes
+```
+
+### Step 7: Done
+
+Open **http://192.168.11.2** in a browser while the Modbus server runs. The dashboard shows the server state, the contents of all four register tables, and the current network settings. Values that changed in the last second are highlighted, so you can leave the page open while a master polls and see where it is writing.
+
+* * *
+
+## Supported Function Codes and Data Model
+
+### Function codes
+
+| Code | Function | Code | Function |
+|---|---|---|---|
+| 0x01 | Read Coils | 0x05 | Write Single Coil |
+| 0x02 | Read Discrete Inputs | 0x06 | Write Single Register |
+| 0x03 | Read Holding Registers | 0x0F | Write Multiple Coils |
+| 0x04 | Read Input Registers | 0x10 | Write Multiple Registers |
+
+Anything else is answered with exception 0x01 (illegal function). On Modbus a refusal *is* a response, so the connection stays up.
+
+### Data model
+
+The device holds 64 registers and 64 bits of each kind, filled at startup with a pattern you can recognise at a glance — so a wrong address or a byte-order mistake is visible without a debugger.
+
+| Table | Access | Initial contents |
+|---|---|---|
+| Holding registers | read / write | 1000, 1001, 1002, ... |
+| Input registers | read only | 0, 1, 4, 9, 16, ... (i²) |
+| Coils | read / write | alternating, even addresses on |
+| Discrete inputs | read only | every fourth address on |
+
+**Note:** One master at a time, per interface. On the WIZnet chip the listening hardware socket *becomes* the connection, so there is no spare listener left behind as there is with LwIP. Serving several masters needs one hardware socket per client. One master at a time is the usual Modbus TCP arrangement.
+
+* * *
+
+## How to Run a Second Server over Wi-Fi
+
+Fill in `WIFI_SSID` and `WIFI_PASS` in `net_config.h`, rebuild, and a second Modbus server starts on the Wi-Fi interface. The two run side by side.
+
+### Step 1: Wait for the DHCP lease
+
+The Wi-Fi server comes up on its own schedule, once the station has an address:
+
+```
+I (31790) esp_netif_handlers: sta ip: 192.168.11.8, mask: 255.255.255.0, gw: 192.168.11.1
+I (31791) wifi: got IP 192.168.11.8
+I (31803) mb_server: [wifi] Modbus TCP server on port 5020
+```
+
+### Step 2: Address it with the port
+
+Port 502 belongs to the Ethernet server, so a master given no port will always land there.
+
+```bash
+python tools/mb_probe.py 192.168.11.8 5020
+mbpoll -m tcp -p 5020 -a 1 -r 1 -c 10 192.168.11.8
+```
+
+### Step 3: Run both at once
+
+Leave a master polling over Ethernet while you run the probe over Wi-Fi. Both stay up, and the log prefix (`[eth]` or `[wifi]`) says which one is talking.
+
+**Note:** Each interface keeps its own data model. A register written over Ethernet is *not* visible over Wi-Fi — these are two independent slaves, not a redundant pair.
+
+* * *
+
+## How to Change the Device Address from a Browser
+
+The settings page is the way to re-address a device that is already installed, with no toolchain and no reflash.
+
+### Step 1: Open the settings page
+
+Go to **http://192.168.11.2**. The page serves both the dashboard and the settings form.
+
+### Step 2: Enter the new settings
+
+You can change the IP address, subnet mask, gateway and Modbus port. Fields you leave out keep their current value.
+
+The device refuses settings that cannot work, and tells you which field is wrong:
+
+| Refused | Why |
+|---|---|
+| An address that is not an address, loopback, or multicast | Unreachable |
+| A subnet mask with a hole in it | Not a contiguous mask |
+| A gateway outside its own subnet | Unroutable |
+| Modbus port 0 | Not a port |
+| Modbus port 80 | Reserved for the web UI |
+
+**Note:** Port 80 is refused on purpose. The web UI is the way back in after the rest has been set to something unreachable, so it must not be settable from the page it serves.
+
+### Step 3: Follow the device to its new address
+
+The device saves the settings, answers the request, and *then* applies them. Applying tears down the sockets the request arrived on, so the reply is sent first — and it carries the new address, which the page offers as a link.
+
+**Note:** The new settings survive a reboot. They live in NVS behind a magic number and a version; anything missing, corrupt or from an older layout falls back to `net_config.h` rather than to zeros.
+
+### Step 4: Verify over the API (optional)
+
+The dashboard is backed by a small HTTP API, which the bundled probe exercises:
+
+| Endpoint | Returns |
+|---|---|
+| `GET /` | the page |
+| `GET /api/status` | state, counters, PHY link, MAC, free heap, uptime |
+| `GET /api/registers` | all four tables |
+| `GET /api/config` | current IP, mask, gateway and Modbus port |
+| `POST /api/config` | change any of those |
+
+```bash
+python tools/web_probe.py 192.168.11.2            # read endpoints and every refusal
+python tools/web_probe.py 192.168.11.2 --apply    # plus a real port change and back
+```
+
+`web_probe.py` writes a register over Modbus and reads it back over HTTP, which proves that the protocol server and the web page share one data model rather than keeping two copies.
+
+* * *
+
+## Testing It Properly
+
+Four tools ship with the example. Run them in this order:
+
+```bash
+python tools/mb_probe.py 192.168.11.2       # the protocol: 8 function codes, 3 exceptions
+python tools/web_probe.py 192.168.11.2      # the API and its refusals
+python tools/abuse.py 192.168.11.2          # clients behaving badly, then recovery
+python tools/soak.py 192.168.11.2 --minutes 30
+```
+
+`abuse.py` and `soak.py` exist because the failures that mattered were not visible in the code — they needed the board, a client behaving badly, and enough time for damage to accumulate.
+
+Measured results from a 30-minute soak on the reference setup:
+
+| Measurement | Result |
+|---|---|
+| Web requests served | 5521 / 5522 |
+| Modbus transactions | 2761 / 2761 |
+| Free heap | flat at 351 KB |
+| Half-open connection recovery | 16 / 16 |
+
+**Note:** `soak.py` reports free heap and its low-water mark once a minute rather than a total at the end, because a leak is a trend and a total hides it.
+
+* * *
+
+## Troubleshooting
+
+### `listen(502) failed: errno 95`, right after a version mismatch
+
+Look one line up in the log. If it says
+
+```
+E (440) wsm_driver_spi: W5500 version mismatch: 0x00 (expected 0x04)
+```
+
+the chip is not answering on SPI at all, and the listen failure is a consequence rather than the fault. Check that the board selected in Step 2 matches the module you are holding, and that no hand-set `CONFIG_WSM_DRIVER_CHIP_*` in `sdkconfig` contradicts it.
+
+### The master reports "illegal data address"
+
+Exception 0x02, and usually an off-by-one rather than a bug. Modbus documentation numbers holding registers from 40001 and coils from 1, while the wire carries a zero-based address — `mbpoll -r 1` sends address 0. This server holds 64 of each, so any address past 63, or a read whose count runs past 63, is refused.
+
+### The master reports "illegal data value"
+
+Exception 0x03. A count of zero, a count past the protocol's ceiling (125 registers or 2000 bits per read), or a write whose byte count disagrees with its element count.
+
+### Wi-Fi answers a few requests and then stalls
+
+This is not a Modbus problem. If replies arrive normally and then latency climbs — 45 ms, then 1.2 s, then 1.5 s, then nothing — the station is losing frames to Wi-Fi power save.
+
+The default `WIFI_PS_MIN_MODEM` (the `wifi:pm start, type: 1` line at boot) wakes the radio on a listen interval of 307 ms scaled by the AP's DTIM period, and an AP that buffers poorly drops what does not fit. Adding `esp_wifi_set_ps(WIFI_PS_NONE)` after `esp_wifi_start()` removed the problem entirely on the reference setup; with the default, the same fifteen-request sequence failed at the second and fifth request on consecutive runs.
+
+The example leaves the default in place because it costs idle current and most APs do not show the problem. Request/response protocols expose it more than streaming ones do — a browser reconnects and hides it, a Modbus master times out and reports a failure.
+
+### The server stops answering after a browser was pointed at it
+
+A client that connects and then drops without sending anything leaves the hardware socket in `SOCK_CLOSE_WAIT`, which `wiztoe_accept()` treats as neither established nor closed — so that listening socket is lost. A browser closing a tab does exactly this.
+
+Both servers in this example rebuild a listener that has been silent for about two seconds, which is the escape from that case. `tools/abuse.py` covers it. The underlying fix belongs in `wiztoe_accept()`, which should treat `SOCK_CLOSE_WAIT` the way it treats `SOCK_CLOSED`.
+
+* * *
+
+## Before You Deploy
+
+These are where the example stops. None of them are accidents.
+
+- **No authentication and no transport security.** Plain Modbus TCP on port 502 and plain HTTP on port 80: anyone who can reach the address can write every register *and change the device's IP*. On a segment where that is not acceptable, do not build the web UI in. Modbus Security (MB/TCP over TLS) exists for the protocol side.
+- **Timeouts are per read, not per session.** A peer that sends one byte just often enough keeps its session alive indefinitely, which with one session per interface locks out every other master. A product server wants an absolute deadline on the whole ADU and an idle-session limit.
+- **`send()` has no deadline.** On the TOE backend `SO_SNDTIMEO` is accepted and then ignored, so a master that stops reading can park the server task. This one lives in the component rather than the example.
+- **A settings change can be saved without being applied.** If the Modbus task is stuck inside a send that has no deadline, the new port lands at the next reboot instead. The dashboard says so rather than letting NVS and the running device disagree quietly.
+- **One master per interface**, for the reason in the data model section above.
+
+* * *
+
+## Extending the Example
+
+| Goal | Where |
+|---|---|
+| More registers or coils | `MB_REG_COUNT` and `MB_COIL_COUNT` in `inc/mb_core.h`; bounds checks follow from them |
+| Wire it to real I/O | `mb_datastore_t` is the whole interface — read `ds->coil[n]` where a GPIO should be driven, write `ds->input[n]` where a sensor value should be published |
+| Unit id handling | Echoed, not checked. Over TCP the IP address identifies the slave; a gateway to a serial segment is where it starts to matter |
+
+**Note:** WIZnet's [W55RP20-S2E](https://github.com/WIZnet-ioNIC/W55RP20-S2E) also carries a Modbus implementation, under `port/app/modbus`. It solves a different problem — it is a TCP↔RTU/ASCII *gateway* that forwards frames to a serial slave rather than answering them. Useful as a reference for the MBAP layout, but not a drop-in for a standalone slave.
+

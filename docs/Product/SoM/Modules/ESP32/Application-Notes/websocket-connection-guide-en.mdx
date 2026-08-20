@@ -1,0 +1,312 @@
+---
+id: esp32-websocket-connection-guide-en
+title: WebSocket Connection Guide
+sidebar_label: WebSocket Connection Guide
+slug: /Product/SoM/application-notes/websocket-connection-guide
+date: 2026-08-20
+keywords: [WebSocket, RFC 6455, WebSocket server, ws://, ESP32-W5500-SoM, ESP32-W6300-SoM, WIZnet ESP SoM, W5500, W6300, hardwired TCP/IP, TOE, ESP-IDF, wsm_driver, mWebSockets]
+description: Run a WebSocket server on the WIZnet ESP SoM that serves its own test page, and exercise the framing paths from a browser.
+---
+
+# WebSocket Connection Guide
+
+The WIZnet ESP SoM can run a WebSocket server whose TCP/IP is handled by the WIZnet Ethernet chip rather than by the MCU. The device serves its own test page, so there is no server to install, no client to download, and no HTML file to edit — you type the device's address into a browser and the page connects itself.
+
+> **Verified on the ESP32-SoM.** Run on the ESP32-SoM with both the W5500 and the W6300, using the TOE backend, over Ethernet and over Wi-Fi — including both interfaces serving at the same time.
+
+* * *
+
+## WebSocket Server Overview
+
+One port serves two things. A browser asking for `/` gets the test page over plain HTTP; a browser asking for `/ws` with an `Upgrade` header gets a WebSocket connection. The server reads the request once and branches on it, which is what makes the whole example "type the address into a browser".
+
+The same firmware runs on a W5500 or a W6300 — you select the board in menuconfig, and no source changes are needed.
+
+| What | Where |
+|---|---|
+| Test page and WebSocket (Ethernet) | port 80 |
+| Test page and WebSocket (Wi-Fi, optional) | port 81 |
+| Default IP address | 192.168.11.2 |
+| Largest message assembled | 2048 bytes |
+
+**Note:** The two interfaces bind different ports on purpose. With the `esp_eth` backend they share one LwIP stack, where the same port on both would clash on bind.
+
+The protocol implementation is [mWebSockets](https://github.com/skaarj1989/mWebSockets) (MIT, Dawid Kurek), ported to C and copied into the example so its network calls could be swapped for the driver's socket vtable. That is what lets identical protocol code run on WIZnet hardware sockets and on software LwIP at the same time.
+
+* * *
+
+## Required Hardware and Software
+
+### Hardware
+
+- WIZnet ESP32-SoM — the ESP32-W5500-SoM or the ESP32-W6300-SoM
+- Ethernet cable from the module's RJ45 port to your PC or network
+- USB cable from the module to your PC
+
+### Software
+
+- [ESP-IDF](https://docs.espressif.com/projects/esp-idf/en/stable/esp32s3/get-started/) v6.0 or later
+- [wsm_driver](https://github.com/Wiznet/wsm_driver) and the [`websocket` example](https://github.com/theoim/wsm_driver/tree/ionic-example/examples/websocket)
+- A serial terminal, such as [Tera Term](https://osdn.net/projects/ttssh2/releases/)
+- Any modern browser — Chrome, Edge, Firefox or Safari
+
+**Note:** Nothing else. The device serves the page that talks to it, so there is no WebSocket client to install and no address to edit into a local HTML file.
+
+* * *
+
+## How to Run a WebSocket Server on the WIZnet ESP SoM
+
+### Step 1: Prepare the hardware
+
+1. Connect an Ethernet cable from the module's RJ45 port to your PC or network.
+2. Connect the module to your PC with a USB cable.
+
+**Note:** There is nothing to wire. The Ethernet chip and the ESP32-S3 are on the same module, already connected — which is what the module is for.
+
+### Step 2: Select the board
+
+Set the target and open menuconfig:
+
+```bash
+idf.py set-target esp32s3
+idf.py menuconfig
+```
+
+Select **Component config → WIZnet WSM Driver → Board**.
+
+Pick your module: **ESP32-W5500-SoM** or **ESP32-W6300-SoM**.
+
+That one setting is the whole hardware configuration. The chip and the GPIOs it sits on both follow from it, which is why the menu asks for a board rather than a chip — the W6300 SoM and the W6300 Dev-kit carry the same chip on different pins, so naming the chip alone would not say where it is.
+
+**Note:** Do not set `CONFIG_WSM_DRIVER_CHIP_*` by hand in `sdkconfig` or `sdkconfig.defaults`. It contradicts the selected board and leaves the driver talking to the wrong chip on the right pins.
+
+**Note:** On the ESP32-W6300-SoM you can also choose the SPI width in **Component config → WIZnet WSM Driver → W6300 QSPI mode**. Quad uses four data lines and is the faster of the two; both are already wired on the module, so this is a build-time choice with nothing to change on the hardware.
+
+### Step 3: Set the network identity
+
+Open `examples/websocket/inc/net_config.h` and set the address the device should take:
+
+```c
+#define NET_MAC_ADDR          {0x00, 0x08, 0xDC, 0x12, 0x34, 0x56}
+#define NET_IP_ADDR           {192, 168, 11, 2}
+#define NET_SUBNET_MASK       {255, 255, 255, 0}
+#define NET_GATEWAY           {192, 168, 11, 1}
+#define NET_DNS_ADDR          {8, 8, 8, 8}
+
+#define WIFI_SSID             ""      /* leave empty for Ethernet only */
+#define WIFI_PASS             ""
+
+#define WS_PORT               80      /* Ethernet */
+#define WIFI_WS_PORT          81      /* Wi-Fi    */
+#define WS_MAX_MESSAGE_SIZE   2048
+```
+
+Put the device on the same subnet as your PC. Port 80 lets a browser reach it as `http://192.168.11.2` with no port suffix.
+
+**Note:** `WS_MAX_MESSAGE_SIZE` bounds a reassembled message, fragments included. It is about what the application is willing to buffer, not about the transport — a browser can send more than the chip's 2 KB socket buffer holds.
+
+### Step 4: Build
+
+```bash
+idf.py build
+```
+
+### Step 5: Flash and run
+
+On Windows:
+
+```bash
+idf.py -p COM6 flash monitor
+```
+
+On Linux or macOS:
+
+```bash
+idf.py -p /dev/ttyUSB0 flash monitor
+```
+
+The chip is identified and the server comes up:
+
+```
+I (268) wsm_driver_spi: W5500 version check OK: 0x04
+I (270) wiztoe_net: TOE up: 192.168.11.2 (WIZnet hardware TCP/IP)
+I (272) ws_server: [eth] WebSocket server on port 80
+```
+
+**Note:** The `version check OK` line is the one to look for first. If it reports a mismatch, the chip is not answering on SPI and nothing after it will work — see Troubleshooting.
+
+### Step 6: Open the page
+
+Open **http://192.168.11.2** in a browser. The page loads and connects itself; the status indicator turns green with no further action.
+
+The serial log shows both halves — the page fetched over HTTP, then the socket upgraded:
+
+```
+I (7958) ws_tx: client connected from 192.168.11.4
+I (7962) ws: plain HTTP request for "/"
+I (7963) ws_server: [eth] serving the page
+I (8194) ws_tx: client connected from 192.168.11.4
+I (8200) ws: handshake complete (/ws)
+I (8200) ws_server: [eth] connection open
+```
+
+### Step 7: Exercise the three framing paths
+
+The page has three buttons. They are not three demos of the same thing — each one takes a different path through the framing code, and together they cover what a WebSocket implementation usually gets wrong.
+
+| Button | What it covers |
+|---|---|
+| **Send** | short text frame, payload length ≤ 125 — the short header form |
+| **300 bytes** | the extended-length path: past 125 the length field changes form and the header grows from 2 bytes to 4 |
+| **Binary** | the binary opcode with a non-UTF-8 payload — a server that assumes text mangles this |
+
+Every message comes straight back, which is what confirms both directions of the framing:
+
+```
+I (11522) ws_server: [eth] received 22 bytes: hello from the browser
+I (14582) ws_server: [eth] received 300 bytes: xxxxxxxx...
+I (17121) ws_server: [eth] received 6 binary bytes
+```
+
+**Note:** Reload the page a few times. That is the path that closes the connection and re-arms the listener, and on the WIZnet chip re-arming a listener is a different operation from accepting a new connection — see Troubleshooting.
+
+### Step 8: Done
+
+The device is serving a page and echoing WebSocket frames on one port, with TCP terminated on the Ethernet chip.
+
+* * *
+
+## How One Port Serves Both the Page and the Socket
+
+A WebSocket server is not an HTTP server, so the obvious build leaves the user opening a local HTML file and editing the device's address into it. Reading the request once and branching on whether it carries `Upgrade` costs very little and removes that step entirely.
+
+```
+                ESP32 + WIZnet chip
+              ┌─────────────────────┐
+  GET /       │  HTTP               │
+Browser ─────►│    └─ index.html    │
+              │                     │
+  GET /ws     │  WebSocket          │
+Browser ═════►│    └─ echo          │
+              └─────────────────────┘
+```
+
+`ws_read_request()` classifies each request:
+
+| Request | Result |
+|---|---|
+| `GET /` with no `Upgrade` | the page is served as plain HTTP |
+| `GET /ws` with `Upgrade: websocket` | 101 Switching Protocols, then frames |
+| anything else | an HTTP error is sent |
+
+The page asks for `'ws://' + location.host + '/ws'`, so it follows whatever address the browser used to fetch it. The same firmware therefore works on Ethernet, on Wi-Fi, and after the device's address changes, with nothing to edit.
+
+**Note:** One connection at a time, per interface. On the WIZnet chip the listening hardware socket *becomes* the connection, so there is no spare listener left behind as there is with LwIP. Serving several clients needs one hardware socket per client, which is what the `tcp_server_multi_socket` example demonstrates.
+
+* * *
+
+## How to Run a Second Server over Wi-Fi
+
+Fill in `WIFI_SSID` and `WIFI_PASS` in `net_config.h`, rebuild, and a second server starts on the Wi-Fi interface. The two run side by side.
+
+### Step 1: Wait for the DHCP lease
+
+The Wi-Fi server comes up on its own schedule, once the station has an address:
+
+```
+I (90642) esp_netif_handlers: sta ip: 192.168.11.8, mask: 255.255.255.0, gw: 192.168.11.1
+I (90643) wifi: got IP 192.168.11.8
+I (90735) ws_server: [wifi] WebSocket server on port 81
+```
+
+### Step 2: Open it with the port
+
+Open `http://192.168.11.8:81`. Plain `http://192.168.11.8` will not answer — a browser sends that to port 80, and only the Ethernet server listens there.
+
+### Step 3: Run both at once
+
+Leave the Ethernet tab open while you do it. Both stay up, and the log prefix (`[eth]` or `[wifi]`) says which one is talking.
+
+```
+I (106946) ws_server: [eth] serving the page
+I (107041) ws_server: [eth] connection open
+```
+
+This is the point of the example: identical protocol code driving WIZnet hardware sockets and software LwIP at the same time, differing only in the socket vtable each connection carries.
+
+* * *
+
+## Troubleshooting
+
+### `CID mismatch: 0x0000` at boot
+
+The build selected a different chip than the board carries. Check that `sdkconfig` has no hand-set `CONFIG_WSM_DRIVER_CHIP_*` contradicting the selected board — picking the board is enough.
+
+### The page loads but the status stays red
+
+The page arrived over HTTP, but the WebSocket did not open. Check the serial log for `handshake complete`:
+
+| Log says | Means |
+|---|---|
+| No `plain HTTP request` line either | Nothing reached the server |
+| `plain HTTP request for "/ws"` | The upgrade headers did not arrive — a proxy between the browser and the device can strip them |
+| `handshake: bad version or missing key` | The client is not speaking RFC 6455 |
+
+### `send stopped after 0 of NNNN bytes: errno 5`
+
+A client that went away mid-response. Holding F5 does this routinely — the browser abandons one page request to start the next. It is logged as a warning because it is the peer's business, not a fault on the device.
+
+### Nothing at all after `WebSocket server on port 80`
+
+The device is listening but unreachable. Confirm the PC is on the same subnet as `NET_IP_ADDR`, and that the RJ45 link LEDs are on.
+
+### The Wi-Fi address refuses the connection
+
+Two different causes, and the serial log tells them apart.
+
+If `[wifi] WebSocket server on port 81` has been printed, the address is right but the port is missing: use `http://<sta-ip>:81`, not `http://<sta-ip>`. Ethernet owns port 80.
+
+If that line has not appeared yet, the station is still waiting for DHCP and no Wi-Fi server exists. `wifi:connected with <ssid>` only means the AP accepted the association; the lease is separate:
+
+```
+I (567)   wifi:connected with <ssid>, aid = 4, channel 8, rssi: -29
+I (570)   wifi:pm start, type: 1
+I (90642) esp_netif_handlers: sta ip: 192.168.11.8      <- 90 s later
+```
+
+On the reference setup that gap ranged from 2 s to 173 s across reboots, with the antenna untouched and RSSI between -9 and -29 dBm. The cause is the default `WIFI_PS_MIN_MODEM` power save (the `wifi:pm start, type: 1` line) against an AP that buffers broadcast poorly: the station wakes on a listen interval of 307 ms scaled by a DTIM of 3, and a DHCP OFFER that misses that window waits for the next retry. Calling `esp_wifi_set_ps(WIFI_PS_NONE)` after `esp_wifi_start()` brought the same board to a steady 2.1–2.4 s.
+
+The example leaves the default in place because it costs idle current and most APs do not show the problem.
+
+### The server stops answering after a browser was pointed at it
+
+A client that connects and then drops without sending anything leaves the hardware socket in `SOCK_CLOSE_WAIT`, which `wiztoe_accept()` treats as neither established nor closed — so that listening socket is lost. A browser closing a tab does exactly this.
+
+The behaviour was first measured in the Modbus TCP example, where six connect-and-close cycles took the server out for more than ten seconds, and sustained load fell from 120 of 120 requests served to 32 of 120 as listeners died one at a time. The same shape applies here, so the same workaround is used: a listener that has been silent for about two seconds is rebuilt. That costs a socket open on an idle server, and it is the only escape from the wedged case.
+
+The underlying fix belongs in `wiztoe_accept()`, which should treat `SOCK_CLOSE_WAIT` the way it treats `SOCK_CLOSED`.
+
+* * *
+
+## Before You Deploy
+
+These are where the example stops. None of them are accidents.
+
+- **`ws://`, not `wss://`.** No TLS and no authentication: anything that can reach the address can open a session.
+- **Timeouts are per read, not per session.** A client that sends one byte just often enough keeps its session alive indefinitely — during the handshake as well as after it. With one connection per interface, that locks everyone else out. A product server wants an absolute deadline on the handshake, a cap on its total size, and an idle-session limit.
+- **`send()` has no deadline.** On the TOE backend `SO_SNDTIMEO` is accepted and then ignored, so a client that stops reading can park the server task. This one lives in the component rather than the example.
+- **Close frames are checked, not fully validated.** A 1-byte body is rejected and the peer's close code is echoed back, but reserved close codes pass and the reason string is not checked for valid UTF-8. RFC 6455 asks for both.
+- **One connection per interface**, for the reason given above.
+
+* * *
+
+## Extending the Example
+
+| Goal | Where |
+|---|---|
+| Serve your own page | `inc/ws_index_html.h` holds the page as a string literal — deliberately dependency-free, no CDN and no framework, because the device may be on a network with no route to the internet. Replace the literal; nothing else changes |
+| Change the message ceiling | `WS_MAX_MESSAGE_SIZE`. A frame declaring a 64-bit length is refused with close code 1009 |
+| Control frames | Already handled: ping is answered with the same payload, and a close frame is echoed before the socket goes down, so the browser sees a clean close code rather than a dropped connection |
+
+**Note:** RFC 6455 fixes SHA-1 as the accept-key derivation, so this port uses it. That is not a judgement about SHA-1's strength for signatures — the value is a handshake token with no secrecy requirement. The digest goes through `psa_hash_compute(PSA_ALG_SHA_1, ...)` because mbedTLS 4.0 in ESP-IDF v6 moved the low-level hash modules behind `mbedtls/private/`.
+
