@@ -1,0 +1,65 @@
+---
+id: esp32-wiznet-som
+title: ESP32 + WIZnet SoM (Draft)
+sidebar_label: ESP32 + WIZnet SoM
+slug: /Product/SoM/modules/esp32-wiznet-som
+keywords: [SoM, ESP32, W5500, W6300, wsm_driver]
+---
+
+import Tabs from '@theme/Tabs';
+import TabItem from '@theme/TabItem';
+
+# ESP32 + WIZnet SoM
+
+> Draft module page. Replace this placeholder with the approved module name, photo, mechanical drawing, and measured performance data.
+
+## Summary
+
+This module combines an ESP32 host with a WIZnet Ethernet chip for products that need a compact, reusable wired-network subsystem.
+
+## Key specifications
+
+| Item | Draft value | Confirmation source |
+| --- | --- | --- |
+| Host MCU | ESP32-S3 | SoM datasheet |
+| WIZnet chip | W5500 or W6300 | BOM / schematic |
+| Host interface | SPI or QSPI | Pinout / hardware guide |
+| Network stack | TOE or ESP-IDF LwIP | Software configuration |
+| Operating voltage | TBD | Electrical specification |
+| Operating temperature | TBD | Reliability specification |
+| Ethernet speed | TBD | Chip/module validation |
+
+## Software support
+
+The software starting point is [`wsm_driver`](https://github.com/Wiznet/wsm_driver). See the shared [SoM Software Guide](../reference#software-guide) and [Getting Started](../reference/getting-started) page for the common workflow.
+
+<Tabs groupId="som-resources">
+  <TabItem value="hardware" label="Hardware resources" default>
+
+  | Resource | Description | Link |
+  | --- | --- | --- |
+  | Datasheet | Module electrical and mechanical specification | TBD |
+  | Pinout | Pin assignments and alternate functions | TBD |
+  | Reference schematic | Recommended host and Ethernet circuit | TBD |
+  | Layout guide | Placement, routing, and impedance guidance | TBD |
+
+  </TabItem>
+  <TabItem value="software" label="Software resources">
+
+  | Resource | Description | Link |
+  | --- | --- | --- |
+  | Driver | ESP-IDF WIZnet transport layer | [wsm_driver](https://github.com/Wiznet/wsm_driver) |
+  | Examples | Loopback, DHCP/DNS, MQTT, HTTP, and TLS examples | GitHub `examples/` |
+  | ESP-IDF | Tested SDK version | TBD |
+
+  </TabItem>
+</Tabs>
+
+## Performance data to add
+
+- TCP throughput and UDP throughput with test conditions
+- SPI/QSPI clock and measured CPU utilization
+- Concurrent socket behavior and buffer configuration
+- Link-up time and reset recovery behavior
+- Power consumption by operating mode
+

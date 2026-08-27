@@ -50,7 +50,7 @@ Carrier board  (your design)
 │   power input · application I/O · RJ45 or SPE connector
 │
 └── WIZnet SoM  (solder-down, WIZnet design)
-    ├── Host MCU ............ ESP32-S3 / STM32F4 / RP2040 / RP2350
+    ├── Host MCU ............ ESP32-S3 / STM32F4 / W55RP20 / RP2040 / RP2350
     ├── Memory .............. flash (+ PSRAM where fitted)
     ├── Power & clock ....... regulators, crystal, reset
     ├── WIZnet chip ......... W5500 / W6300 — hardwired TCP/IP + 10/100 PHY
@@ -70,7 +70,7 @@ cycle.
 | --- | --- | --- | --- |
 | **[Chip](/Product/Chip/Ethernet/W5500/)** | The Ethernet controller silicon | Yes | Everything around it — PHY front end, layout, power, MCU |
 | **SoM** | MCU + memory + power + Ethernet chip + front end, solder-down | **Yes — this is the production part** | Carrier board: power in, connector, application I/O |
-| **Evaluation board** (W5500-EVB-Pico, W55RP20-EVB-Pico, ESP32-EVB) | A finished board with headers, USB, and RJ45 for bring-up | No — for evaluation and demos | Nothing; you write firmware |
+| **Evaluation board** (W55RP20-EVB-Pico, W55RP20-EVB-Pico, ESP32-EVB) | A finished board with headers, USB, and RJ45 for bring-up | No — for evaluation and demos | Nothing; you write firmware |
 | **[Module](/Product/Modules/Serial-to-Ethernet-Module/W232N)** (W232N, WIZ-IP20 …) | A finished, enclosed product with its own firmware and configuration tool | It *is* the product | Nothing |
 
 A SoM is also not a Linux SoM. i.MX and Sitara class modules carry an application processor and
@@ -121,7 +121,7 @@ the form factor, connectors, and I/O.
 | --- | --- | --- |
 | ESP32-S3 | Wi-Fi and Bluetooth LE alongside wired Ethernet; ESP-IDF / Arduino / ESPHome ecosystem | [ESP32-W5500-SoM](./modules/esp32-w5500-som), [ESP32-W6300-SoM](./modules/esp32-w6300-som) |
 | STM32F4 | Industrial designs already standardized on STM32 HAL / CubeIDE | STM32F4-W6300-SoM *(in development)* |
-| RP2040 / RP2350 | Compact SMT module, pre-loaded S2E firmware, customizable | W55RP20-SoM, SPE modules *(in development)* |
+| W55RP20 / RP2040 / RP2350 | Compact SMT module, pre-loaded S2E firmware, customizable | W55RP20-SoM, SPE modules *(in development)* |
 
 ### 2. Choose the Ethernet chip
 
@@ -147,7 +147,7 @@ Each host platform keeps its own driver and toolchain; there is no single SDK ac
 | --- | --- | --- |
 | ESP32-S3 | [`wsm_driver`](https://github.com/Wiznet/wsm_driver) — ESP-IDF component providing the WIZnet transport and callback layer | ESP-IDF |
 | STM32F4 | [`ioLibrary_Driver`](https://github.com/Wiznet/ioLibrary_Driver) | STM32 HAL / CubeIDE |
-| RP2040 / RP2350 | Pre-loaded S2E firmware, or `ioLibrary_Driver` for custom firmware | Pico SDK |
+| W55RP20 / RP2040 / RP2350 | Pre-loaded S2E firmware, or `ioLibrary_Driver` for custom firmware | Pico SDK |
 
 Module pages link to the shared [Software Guide](./reference) rather than repeating setup steps.
 

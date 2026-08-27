@@ -24,7 +24,7 @@ and measured performance.
 | --- | --- | --- | --- | --- | --- | --- | --- |
 | [**ESP32-W5500-SoM**](/Product/SoM/modules/esp32-w5500-som) | ESP32-S3 | W5500 | SPI | IPv4 | 10/100 RJ45 | A proven, low-risk wired link on an ESP32 design | Draft |
 | [**ESP32-W6300-SoM**](/Product/SoM/modules/esp32-w6300-som) | ESP32-S3 | W6300 | SPI / QSPI | IPv4 / IPv6 | 10/100 RJ45 | IPv6, or more throughput than SPI allows | Draft |
-| W55RP20-SoM | RP2040 | W5500 | SPI | IPv4 | 10/100 RJ45 | Smallest footprint; S2E firmware pre-loaded, custom firmware available | In development |
+| W55RP20-SoM | W55RP20 | W5500 | SPI | IPv4 | 10/100 RJ45 | Smallest footprint; S2E firmware pre-loaded, custom firmware available | In development |
 | STM32F4-W6300-SoM | STM32F4 | W6300 | SPI / QSPI | IPv4 / IPv6 | 10/100 RJ45 | Industrial designs already standardized on STM32 | In development |
 | T1L-55 / T1L-RP55 | RP2350 | W5500 + T1L | SPI | IPv4 | 10BASE-T1L | Two-wire field cabling over long distance | In development |
 | T1S-RP55 | RP2350 | T1S | SPI | IPv4 | 10BASE-T1S | Two-wire multidrop bus | In development |
@@ -61,7 +61,7 @@ usually decided already.
 | --- | --- |
 | ESP32 — or you want Wi-Fi/BLE alongside Ethernet | ESP32-W5500-SoM, ESP32-W6300-SoM |
 | STM32 — or you prefer the STMicroelectronics ecosystem such as STM32CubeIDE and STM32Cube tools | STM32F4-W6300-SoM |
-| RP2040 / RP2350, or no strong MCU preference and compact size matters | W55RP20-SoM |
+| W55RP20(RP2040 + W5500), or no strong MCU preference and compact size matters | W55RP20-SoM |
 | No strong MCU preference, and you want Single-Pair Ethernet (SPE) | T1L-55 / T1L-RP55 / T1S-RP55 modules |
 
 **2. Does it need IPv6?**
@@ -93,7 +93,7 @@ products, viewed along other axes:
 | --- | --- | --- |
 | ESP32-S3 | ESP-IDF / Arduino / ESPHome | ESP32-W5500-SoM, ESP32-W6300-SoM |
 | STM32F4 | STM32 HAL / CubeIDE | STM32F4-W6300-SoM |
-| RP2040 / RP2350 | Pico SDK, or pre-loaded S2E firmware | W55RP20-SoM, T1L-55 / T1L-RP55, T1S-RP55 |
+| W55RP20 / RP2040 / RP2350 | Pico SDK, or pre-loaded S2E firmware | W55RP20-SoM, T1L-55 / T1L-RP55, T1S-RP55 |
 
 ### By Ethernet chip
 
