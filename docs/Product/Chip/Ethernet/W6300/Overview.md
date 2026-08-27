@@ -56,7 +56,7 @@ W6300 is a hardwired TCP/IP stack internet controller chip with WIZnet technolog
 
 | **Title** | **Description** | **Notes** |
 | --------- | --------------- | --------- |
-| [📄 W6300 Datasheet (EN)](/img/products/w6300/20251204_W6300_DS_V101E.pdf) | Technical specifications and features of the W6300 chip | - |
+| [📄 W6300 Datasheet (EN)](/img/products/w6300/W6300_DS_V102E.pdf) | Technical specifications and features of the W6300 chip | - |
 
 
 ## Software Resources
