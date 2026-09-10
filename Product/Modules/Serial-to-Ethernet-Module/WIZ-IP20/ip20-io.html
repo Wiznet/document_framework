@@ -16,7 +16,7 @@
 <link rel="search" type="application/opensearchdescription+xml" title="WIZnet Document System" href="/opensearch.xml">
 <link rel="preconnect" href="https://cdn.channel.io">
 <script>!function(){var n=window;if(n.ChannelIO)return(window.console.error||window.console.log||function(){})("ChannelIO script included twice.");var e=function(){e.c(arguments)};function t(){if(!n.ChannelIOInitialized){n.ChannelIOInitialized=!0;var e=document.createElement("script");e.type="text/javascript",e.async=!0,e.src="https://cdn.channel.io/plugin/ch-plugin-web.js",e.charset="UTF-8";var t=document.getElementsByTagName("script")[0];t.parentNode.insertBefore(e,t)}}e.q=[],e.c=function(n){e.q.push(n)},n.ChannelIO=e,"complete"===document.readyState?t():window.attachEvent?window.attachEvent("onload",t):(window.addEventListener("DOMContentLoaded",t,!1),window.addEventListener("load",t,!1))}(),ChannelIO("boot",{pluginKey:"cb95c060-ab4c-45ec-bbe8-fe40a1ea3aec"})</script><link rel="stylesheet" href="/assets/css/styles.b21d7d76.css">
-<script src="/assets/js/runtime~main.be801e47.js" defer="defer"></script>
+<script src="/assets/js/runtime~main.689b8133.js" defer="defer"></script>
 <script src="/assets/js/main.379bd285.js" defer="defer"></script>
 </head>
 <body class="navigation-with-keyboard">
@@ -78,7 +78,7 @@ of any device / MCU</li>
 </ul>
 <hr>
 <h3 class="anchor anchorWithHideOnScrollNavbar_WYt5" id="pin-out">Pin-out<a href="#pin-out" class="hash-link" aria-label="Direct link to Pin-out" title="Direct link to Pin-out">​</a></h3>
-<img src="/img/products/wiz-ip20/ip20-io/wizip20_io_pinout.png" width="400">
+<img src="/img/products/wiz-ip20/ip20-io/wizip20_io_pinout.png" width="600">
 <p>WIZ-IP20-IO pinout is directly connected to the GPIO of the W55RP20, which is compatible with RP2040 GPIO numbering. However, GPIO16, GPIO17, GPIO18, GPIO19, GPIO20, and GPIO21 are internally used for SPI communication with the embedded Ethernet controller to provide Ethernet functionality. Therefore, when the Ethernet function is enabled, these pins cannot be used for other purposes.</p>
 <h3 class="anchor anchorWithHideOnScrollNavbar_WYt5" id="io-signals">I/O Signals<a href="#io-signals" class="hash-link" aria-label="Direct link to I/O Signals" title="Direct link to I/O Signals">​</a></h3>
 <table><thead><tr><th style="text-align:center">I/O</th><th>Pin Name</th><th>Description</th></tr></thead><tbody><tr><td style="text-align:center">O</td><td>TXD</td><td>Data UART TX from WIZ-IP20 (connect to RX of external MCU/device)</td></tr><tr><td style="text-align:center">I</td><td>RXD</td><td>Data UART RX to WIZ-IP20 (connect to TX of external MCU/device)</td></tr><tr><td style="text-align:center">I</td><td>RESETn</td><td>Active-low reset input for WIZ-IP20</td></tr><tr><td style="text-align:center">-</td><td>VBUS</td><td>5V power input to wizip20-io board</td></tr><tr><td style="text-align:center">-</td><td>3V3</td><td>3.3V power rail generated on-board and used to power WIZ-IP20</td></tr><tr><td style="text-align:center">-</td><td>GND</td><td>Ground reference</td></tr></tbody></table>
