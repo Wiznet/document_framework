@@ -1350,6 +1350,8 @@ module.exports = {
 												'Product/Modules/Serial-to-Ethernet-Module/WIZ550SR/getting_started-KO',
 												'Product/Modules/Serial-to-Ethernet-Module/WIZ550SR/atcommand_tutorial-EN',
 												'Product/Modules/Serial-to-Ethernet-Module/WIZ550SR/atcommand_tutorial-KO',
+												'Product/Modules/Serial-to-Ethernet-Module/WIZ550SR/trouble-shooting-EN',
+												'Product/Modules/Serial-to-Ethernet-Module/WIZ550SR/trouble-shooting-KO',
 											],
 									},
 									'Product/Modules/Serial-to-Ethernet-Module/WIZ550SR/download',

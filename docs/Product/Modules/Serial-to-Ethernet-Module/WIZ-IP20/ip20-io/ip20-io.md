@@ -69,7 +69,7 @@ date: 2026-02-04
 ---
 
 ### Pin-out
-<img src="/img/products/wiz-ip20/ip20-io/wizip20_io_pinout.png" width="400" />
+<img src="/img/products/wiz-ip20/ip20-io/wizip20_io_pinout.png" width="600" />
 
 
 WIZ-IP20-IO pinout is directly connected to the GPIO of the W55RP20, which is compatible with RP2040 GPIO numbering. However, GPIO16, GPIO17, GPIO18, GPIO19, GPIO20, and GPIO21 are internally used for SPI communication with the embedded Ethernet controller to provide Ethernet functionality. Therefore, when the Ethernet function is enabled, these pins cannot be used for other purposes.
