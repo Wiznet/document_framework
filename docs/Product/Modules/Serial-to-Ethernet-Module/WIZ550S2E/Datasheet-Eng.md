@@ -17,6 +17,12 @@ WIZ550S2E base on RS232 & RS422/485 Interface board as following:
 The revision history will be updated in this page in case of any changes
 of hardware specification or exterior design.
 
+:::note
+The WIZ550S2E base module (TTL) is an active product. The WIZ550S2E-232 and
+WIZ550S2E-485/422 interface boards (RS-232 / RS-422/485 versions) have been
+discontinued, and their information is kept below for reference only.
+:::
+
 -----
 ## Hardware Specification
 
@@ -126,6 +132,10 @@ This pin also serves as the RS485 control.</td>
 
 ### WIZ550S2E-232 Interface board
 
+:::caution
+The WIZ550S2E-232 interface board (RS-232 version) has been discontinued.
+:::
+
    * Line Driver SP3232EBEY
    * System Reset Switch
    * Factory Reset Switch
@@ -139,6 +149,10 @@ This pin also serves as the RS485 control.</td>
 -----
 
 ### WIZ550S2E-485/422 Interface board
+
+:::caution
+The WIZ550S2E-485/422 interface board (RS-422/485 version) has been discontinued.
+:::
 
    * Line Driver SP3485EN
    * System Reset Switch

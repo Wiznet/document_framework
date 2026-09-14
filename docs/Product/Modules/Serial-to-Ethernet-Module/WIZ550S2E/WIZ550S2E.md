@@ -4,16 +4,15 @@ title: WIZ550S2E
 date: 2020-03-10
 ---
 
-:::warning
-**We’ve Moved On!**
+:::info
+**Product Status**
 
-This product has been discontinued as part of our ongoing commitment to innovation.
-
-You can still access resources below.
+  - **WIZ550S2E (TTL)**: Active. The base module is currently available for purchase.
+  - **WIZ550S2E-232 / WIZ550S2E-485/422 (RS-232 / RS-422/485 versions)**: Discontinued. See [WIZ550S2E-232/485 (Discontinued)](WIZ550S2E-RS232-485.md).
 :::
 
 WIZ550S2E is a gateway module that converts serial protocol
-(RS-232/422/485) into TCP/IP protocol. This module enables remote
+(3.3V TTL UART) into TCP/IP protocol. This module enables remote
 gauging, remote management of the device through the network based on
 the Ethernet and the TCP/IP by connecting to existing equipment with
 serial interface. In other words, WIZ550S2E is a protocol converter that

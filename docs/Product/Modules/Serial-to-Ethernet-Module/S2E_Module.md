@@ -27,6 +27,7 @@ interfaces.
 | [WIZ752SR-120](WIZ752SR-120/WIZ752SR-120.mdx) | ![WIZ752SR-120](/img/products/s2e_module/wiz752sr-120/3.png) | 1xTTL(3.3V) | Transformer | 2.00mm Pin Header 1x14 2ea | -40 ~ 85 | 50x30x9 | [WIZ120SR-EVB](WIZ120SR/wiz120sr-evb.md) |
 | [WIZ752SR-125](WIZ752SR-125/WIZ752SR-125.mdx) | ![WIZ752SR-125](/img/products/s2e_module/wiz752sr-125/2.png) | 2xRS232 | RJ-45 | N/A | -40 ~ 85 | 60x89x18 | N/A |
 | [WIZ550SR](WIZ550SR/WIZ550SR.mdx) | ![WIZ550SR](/img/products/wiz550sr/wiz550sr_ds/wiz550sr.png) | 1xTTL(3.3V) | RJ45 | Two 1x11 | -40 ~ 85 | 22x24x13 | [WIZ550SR-EVB](WIZ550SR/Datasheet-EN.md#wiz550sr-evb) |
+| [WIZ550S2E](WIZ550S2E/WIZ550S2E.md) | ![WIZ550S2E](/img/products/wiz550s2e/wiz550-s2e.png) | 1xTTL(3.3V) | RJ-45 | 1x8, 1x9 2.54mm | -40 ~ 85 | 55x30x23.49 | N/A |
 | [WIZ500SR-RP](WIZ500SR-RP/WIZ500SR-RP.mdx) | ![WIZ500SR-RP](/img/products/s2e_module/wiz500sr-rp/wiz500sr-rp-top.png) | 1xTTL(3.3V) |Transformer|1x12<br />2.0mm<br />Pin Header  x 3ea|-20 ~ 85| 50mm x 30mm x 5.7mm | [WIZ500SR-RP-EVB](WIZ500SR-RP/Datasheet.md#wiz500sr-rp-evb-set) |
 | [WIZ505SR-RP](WIZ505SR-RP/WIZ505SR-RP.mdx) | ![WIZ505SR-RP](/img/products/s2e_module/wiz505sr-rp/wiz505sr-rp-side.png) | 1xTTL(3.3V) |RJ-45|2x7<br />2.54mm<br />Pin Header<br />x 1ea|-20 ~ 85| 40mm x 66.5mm x 15mm | [WIZ505SR-RP-EVB](WIZ505SR-RP/wiz505sr-rp-evb-en.mdx) |
 | [WIZ510SR-RP](WIZ510SR-RP/WIZ510SR-RP.mdx) | ![WIZ510SR-RP](/img/products/s2e_module/wiz510sr-rp/wiz510sr-rp-top.png) | 1xTTL(3.3V) |RJ-45|1x4<br />2.54mm<br />Pin Header<br />x 1ea|-20 ~ 85| 76mm x 45mm x 15mm | N/A |
@@ -48,7 +49,7 @@ We do not recommend using them in new design.
 
 |   | Image | UART | LAN Interface | Pin Header & Pitch | Operation Temp (℃) | Dimension (mm) | Evaluation Board |
 | --- | ----- | ---- | ------------- | ------------------ | ------------------- | -------------- | ---------------- |
-| [WIZ550S2E](WIZ550S2E/WIZ550S2E.md) | ![](/img/products/wiz550s2e/wiz550-s2e.png) | 1xTTL(3.3V) | RJ-45 | 1x8, 1x9 2.54mm | -40 ~ 85 | 55x30x23.49 | [WIZ550S2E-EVB](WIZ550S2E/Datasheet-Eng.md#wiz550s2e-232-interface-board) |
+| [WIZ550S2E-232/485](WIZ550S2E/WIZ550S2E-RS232-485.md)<br />RS-232 / RS-422/485 version<br />(WIZ550S2E TTL base module is still active) | ![WIZ550S2E-232](/img/products/wiz550s2e/wiz550s2eds/크기변환_wiz550s2e-232-evb.png) | 1xRS232 or 1xRS422/485 | RJ-45 | N/A | -40 ~ 85 | - | [Interface boards](WIZ550S2E/Datasheet-Eng.md#wiz550s2e-232-interface-board) |
 | [WIZ120SR](WIZ120SR/wiz120sr.md)<br />not recommended for new design | ![WIZ120SR](/img/products/wiz120sr/wiz12sr-1.jpg) | 2xTTL(3.3V) | Transformer | Two 1x14 2mm | 0 ~ 70 | 50x30x9 | [WI120SR-EVB](WIZ120SR/wiz120sr-evb.md) |
 | [WIZ125SR](WIZ125SR/wiz125sr.md)<br />not recommended for new design | ![WIZ125SR](/img/products/wiz125sr/125.jpg) | 2xRS32 DB-9 | RJ-45 | N/A | 0 ~ 70 | 60x89x18 | N/A |
 | [WIZ140SR](WIZ140SR/wiz140sr.md)<br />not recommended for new design | ![WIZ140SR](/img/products/wiz140sr/wiz140sr-web-2.jpg) | 4xTTL(3.3V) | Transformer | 1x14 2.5mm | 0 ~ 70 | 48x36x16 | [	WIZ140SR-EVB](WIZ140SR/wiz140sr-evb.md) |
