@@ -1,27 +1,27 @@
 ---
-id: esp32-w6300-devkit
-title: ESP32-W6300-DevKit
-sidebar_label: ESP32-W6300-DevKit
-slug: /Product/SoM/modules/esp32-w6300-devkit
+id: esp32-w5500-devkit
+title: ESP32-W5500-DevKit
+sidebar_label: ESP32-W5500-DevKit
+slug: /Product/EoE/modules/esp32-w5500-devkit
 date: 2026-08-11
-keywords: [ESP32-W6300-DevKit, SoM evaluation board, ESP32 Ethernet devkit, ESP32-S3 + W6300, W6300, IPv6, QSPI, WIZnet, ESP-IDF, wsm_driver]
-description: Evaluation board for the ESP32-W6300-SoM — the module on a carrier board with headers, USB, and RJ45 for bring-up and demos.
+keywords: [ESP32-W5500-DevKit, EoE evaluation board, ESP32 Ethernet devkit, ESP32-S3 + W5500, W5500, WIZnet, ESP-IDF, wsm_driver]
+description: Evaluation board for the ESP32-W5500-EoE — the module on a carrier board with headers, USB, and RJ45 for bring-up and demos.
 ---
 
 import Tabs from '@theme/Tabs';
 import TabItem from '@theme/TabItem';
 
-# ESP32-W6300-DevKit
+# ESP32-W5500-DevKit
 
-*Evaluation board for [ESP32-W6300-SoM](./esp32-w6300-som)*
+*Evaluation board for [ESP32-W5500-EoE](./esp32-w5500-eoe)*
 
 {/* Hero image — replace with the approved board photo once available.
-    Expected path: /img/products/som/esp32-w6300-devkit/esp32-w6300-devkit.png
+    Expected path: /img/products/eoe/esp32-w5500-devkit/esp32-w5500-devkit.png
 <div className="main-card">
-  <img src="/img/products/som/esp32-w6300-devkit/esp32-w6300-devkit.png" alt="ESP32-W6300-DevKit" />
+  <img src="/img/products/eoe/esp32-w5500-devkit/esp32-w5500-devkit.png" alt="ESP32-W5500-DevKit" />
   <div>
-    <h3>ESP32-W6300-DevKit</h3>
-    <p>ESP32-W6300-SoM mounted on a carrier board with USB, RJ45, and breakout headers.</p>
+    <h3>ESP32-W5500-DevKit</h3>
+    <p>ESP32-W5500-EoE mounted on a carrier board with USB, RJ45, and breakout headers.</p>
   </div>
 </div>
 */}
@@ -35,32 +35,32 @@ certification links are **TBD** and must be replaced with approved data before r
 
 ## Summary
 
-ESP32-W6300-DevKit is the [ESP32-W6300-SoM](./esp32-w6300-som) already mounted on a carrier board,
+ESP32-W5500-DevKit is the [ESP32-W5500-EoE](./esp32-w5500-eoe) already mounted on a carrier board,
 with everything needed to power it, program it, and put it on a network.
 
-It is the board to use when the design needs IPv6, or more throughput than SPI allows. The module,
+Use it to evaluate the module and write firmware before your own carrier board exists. The module,
 the driver, and the firmware you develop here carry over unchanged to the production design — only
 the board around the module changes.
 
 | Item | Detail |
 | --- | --- |
 | Purpose | Evaluation, firmware development, demos |
-| Module under test | [ESP32-W6300-SoM](./esp32-w6300-som) — ESP32-S3 + W6300, IPv4/IPv6, SPI/QSPI |
-| Ships inside a product? | No. For production, design a carrier board and solder the SoM |
+| Module under test | [ESP32-W5500-EoE](./esp32-w5500-eoe) — ESP32-S3 + W5500, IPv4, SPI |
+| Ships inside a product? | No. For production, design a carrier board and solder the EoE |
 | Programming | USB, no external programmer required |
 
 :::tip Which one do I need?
 
-**DevKit** to evaluate and write firmware. **SoM** to ship. See
-[Where a SoM sits](/Product/SoM/overview#where-a-som-sits) for how the two relate.
+**DevKit** to evaluate and write firmware. **EoE** to ship. See
+[Where a EoE sits](/Product/EoE/overview#where-a-eoe-sits) for how the two relate.
 
 :::
 
 ## What is on the board
 
 ```text
-ESP32-W6300-DevKit
-├── ESP32-W6300-SoM ....... the module being evaluated
+ESP32-W5500-DevKit
+├── ESP32-W5500-EoE ....... the module being evaluated
 ├── USB ................... power and programming
 ├── RJ45 .................. Ethernet connector
 ├── Power .................. regulator and rail selection
@@ -74,14 +74,12 @@ when the product is built.
 
 ## Features
 
-- [ESP32-W6300-SoM](./esp32-w6300-som) mounted and pre-validated
-- IPv4 and IPv6 dual stack
-- SPI and QSPI host interface, so both can be measured on the same board
+- [ESP32-W5500-EoE](./esp32-w5500-eoe) mounted and pre-validated
 - USB for power and firmware download, no external programmer
 - RJ45 with integrated magnetics
 - Module I/O broken out to headers for prototyping
 - Reset and boot buttons
-- Compatible with the shared [Getting Started](/Product/SoM/reference/getting-started) procedure
+- Compatible with the shared [Getting Started](/Product/EoE/reference/getting-started) procedure
 
 ## Hardware Specification
 
@@ -89,12 +87,11 @@ when the product is built.
 
 | Item | Value | Source | Notes |
 | --- | --- | --- | --- |
-| Module | ESP32-W6300-SoM | BOM | - |
+| Module | ESP32-W5500-EoE | BOM | - |
 | Host MCU | ESP32-S3 | Module datasheet | Exact variant TBD |
-| Ethernet controller | W6300 | Module datasheet | - |
-| Host interface | SPI / QSPI | Module pinout | Mode selection method TBD |
+| Ethernet controller | W5500 | Module datasheet | - |
+| Host interface | SPI | Module pinout | - |
 | Ethernet speed | 10/100 Mbps | Chip specification | - |
-| IP version | IPv4 / IPv6 | Chip specification | - |
 | USB connector | TBD | Mechanical drawing | - |
 | Input voltage | TBD | Electrical specification | - |
 | Board dimensions | TBD | Mechanical drawing | - |
@@ -105,19 +102,12 @@ TBD — add the annotated board photo showing connectors, buttons, LEDs, and hea
 
 ### Header pinout
 
-TBD — add the header pinout image and the table below. QSPI consumes more module pins than SPI, so
-record which headers are unavailable in QSPI mode.
+TBD — add the header pinout image and the table below. Mark which module pins are consumed by
+on-board circuitry and are therefore not free for prototyping.
 
-| Header | Pin | Module signal | Available in QSPI mode | Description |
-| --- | --- | --- | --- | --- |
-| TBD | TBD | TBD | TBD | TBD |
-
-### Host interface mode selection
-
-| Mode | Data lines | How it is selected on this board | Notes |
+| Header | Pin | Module signal | Description |
 | --- | --- | --- | --- |
-| SPI | 1 | TBD | TBD |
-| QSPI | 4 | TBD | TBD |
+| TBD | TBD | TBD | TBD |
 
 ### Power options
 
@@ -134,7 +124,7 @@ TBD — document each jumper, its default position, and what it selects.
 ## Getting Started
 
 The bring-up procedure is shared across the family:
-[SoM Getting Started](/Product/SoM/reference/getting-started). On this board, steps 1–3 are already
+[EoE Getting Started](/Product/EoE/reference/getting-started). On this board, steps 1–3 are already
 done — go directly to build, flash, and run.
 
 ## Documentation
@@ -142,12 +132,12 @@ done — go directly to build, flash, and run.
 | Title | Description | Link | Notes |
 | --- | --- | --- | --- |
 | DevKit user guide | Board usage, headers, jumpers | - | TBD |
-| Module datasheet | Specification of the SoM on this board | [ESP32-W6300-SoM](./esp32-w6300-som) | Draft |
-| Getting Started | First bring-up procedure | [Go](/Product/SoM/reference/getting-started) | Shared |
+| Module datasheet | Specification of the EoE on this board | [ESP32-W5500-EoE](./esp32-w5500-eoe) | Draft |
+| Getting Started | First bring-up procedure | [Go](/Product/EoE/reference/getting-started) | Shared |
 
 ## Software Resources
 
-<Tabs groupId="som-software">
+<Tabs groupId="eoe-software">
   <TabItem value="driver" label="Driver" default>
 
   | Title | Description | Link | Notes |
@@ -162,7 +152,6 @@ done — go directly to build, flash, and run.
   | --- | --- | --- | --- |
   | Loopback | Basic socket verification | - | TBD |
   | DHCP / DNS | Address acquisition and name resolution | - | TBD |
-  | IPv6 / SLAAC | Dual-stack address configuration | - | TBD |
   | MQTT | Wired MQTT client | - | TBD |
   | ESPHome / Home Assistant | YAML configuration and flashing guide | - | TBD |
 
@@ -188,7 +177,7 @@ done — go directly to build, flash, and run.
 :::note
 
 The DevKit schematic doubles as a worked example of a carrier board. Shared carrier-board rules are
-in [Reference → Hardware Design](/Product/SoM/reference).
+in [Reference → Hardware Design](/Product/EoE/reference).
 
 :::
 
@@ -204,8 +193,8 @@ in [Reference → Hardware Design](/Product/SoM/reference).
 
 | Product | Relation | Link |
 | --- | --- | --- |
-| ESP32-W6300-SoM | The module evaluated by this board | [Go](./esp32-w6300-som) |
-| ESP32-W5500-DevKit | IPv4 / SPI variant | [Go](./esp32-w5500-devkit) |
+| ESP32-W5500-EoE | The module evaluated by this board | [Go](./esp32-w5500-eoe) |
+| ESP32-W6300-DevKit | IPv6 and QSPI variant | [Go](./esp32-w6300-devkit) |
 | WIZPoE-SD series | PoE PD power supply | TBD |
 
 ## How to buy

@@ -2,17 +2,17 @@
 id: esp32-modbus-tcp-connection-guide-kr
 title: Modbus TCP Connection Guide-[KR]
 sidebar_label: Modbus TCP Connection Guide-[KR]
-slug: /Product/SoM/application-notes/modbus-tcp-connection-guide-kr
+slug: /Product/EoE/application-notes/modbus-tcp-connection-guide-kr
 date: 2026-08-20
-keywords: [Modbus TCP, Modbus 슬레이브, Modbus TCP 서버, ESP32-W5500-SoM, ESP32-W6300-SoM, WIZnet ESP SoM, W5500, W6300, 하드웨어 TCP/IP, TOE, ESP-IDF, wsm_driver, mbpoll, 산업용 이더넷]
-description: WIZnet ESP SoM에서 Modbus TCP 서버를 실행하고, Modbus 마스터로 확인하고, 브라우저에서 장치 주소를 변경하는 방법.
+keywords: [Modbus TCP, Modbus 슬레이브, Modbus TCP 서버, ESP32-W5500-EoE, ESP32-W6300-EoE, WIZnet ESP EoE, W5500, W6300, 하드웨어 TCP/IP, TOE, ESP-IDF, wsm_driver, mbpoll, 산업용 이더넷]
+description: WIZnet ESP EoE에서 Modbus TCP 서버를 실행하고, Modbus 마스터로 확인하고, 브라우저에서 장치 주소를 변경하는 방법.
 ---
 
 # Modbus TCP 연결 가이드
 
-WIZnet ESP SoM은 TCP/IP를 MCU가 아니라 WIZnet 이더넷 칩이 처리하는 Modbus TCP 서버(슬레이브)로 동작할 수 있습니다. PLC, SCADA 패키지, `mbpoll` 명령 등 마스터가 포트 502로 장치의 레지스터와 코일을 읽고 씁니다. 내장 웹 대시보드에서 같은 레지스터를 보고, 브라우저에서 장치의 IP 주소를 바꿀 수 있습니다.
+WIZnet ESP EoE은 TCP/IP를 MCU가 아니라 WIZnet 이더넷 칩이 처리하는 Modbus TCP 서버(슬레이브)로 동작할 수 있습니다. PLC, SCADA 패키지, `mbpoll` 명령 등 마스터가 포트 502로 장치의 레지스터와 코일을 읽고 씁니다. 내장 웹 대시보드에서 같은 레지스터를 보고, 브라우저에서 장치의 IP 주소를 바꿀 수 있습니다.
 
-> **ESP32-SoM에서 검증했습니다.** W5500과 W6300 양쪽 모두 ESP32-SoM에서, TOE 백엔드로 이더넷과 Wi-Fi 양쪽에서 실행했습니다. 두 인터페이스를 동시에 운용하는 경우도 확인했습니다. 구현된 모든 기능 코드와 모든 예외 경로를 동작 중인 장치에 대해 확인했습니다.
+> **ESP32-EoE에서 검증했습니다.** W5500과 W6300 양쪽 모두 ESP32-EoE에서, TOE 백엔드로 이더넷과 Wi-Fi 양쪽에서 실행했습니다. 두 인터페이스를 동시에 운용하는 경우도 확인했습니다. 구현된 모든 기능 코드와 모든 예외 경로를 동작 중인 장치에 대해 확인했습니다.
 
 * * *
 
@@ -37,7 +37,7 @@ WIZnet ESP SoM은 TCP/IP를 MCU가 아니라 WIZnet 이더넷 칩이 처리하�
 
 ### 하드웨어
 
-- WIZnet ESP32-SoM — ESP32-W5500-SoM 또는 ESP32-W6300-SoM
+- WIZnet ESP32-EoE — ESP32-W5500-EoE 또는 ESP32-W6300-EoE
 - 모듈의 RJ45 포트와 PC(또는 네트워크)를 연결할 이더넷 케이블
 - 모듈과 PC를 연결할 USB 케이블
 
@@ -66,7 +66,7 @@ WIZnet ESP SoM은 TCP/IP를 MCU가 아니라 WIZnet 이더넷 칩이 처리하�
 
 * * *
 
-## WIZnet ESP SoM에서 Modbus TCP 서버 실행하기
+## WIZnet ESP EoE에서 Modbus TCP 서버 실행하기
 
 ### Step 1: 하드웨어 준비
 
@@ -86,13 +86,13 @@ idf.py menuconfig
 
 **Component config → WIZnet WSM Driver → Board**를 선택합니다.
 
-사용하는 모듈을 선택합니다. **ESP32-W5500-SoM** 또는 **ESP32-W6300-SoM**입니다.
+사용하는 모듈을 선택합니다. **ESP32-W5500-EoE** 또는 **ESP32-W6300-EoE**입니다.
 
-이 설정 하나가 하드웨어 설정의 전부입니다. 칩과 그 칩이 연결된 GPIO가 모두 여기서 따라옵니다. 메뉴가 칩이 아니라 보드를 묻는 이유가 이것입니다. W6300 SoM과 W6300 Dev-kit은 같은 칩을 서로 다른 핀에 얹고 있어서, 칩 이름만으로는 위치를 알 수 없습니다.
+이 설정 하나가 하드웨어 설정의 전부입니다. 칩과 그 칩이 연결된 GPIO가 모두 여기서 따라옵니다. 메뉴가 칩이 아니라 보드를 묻는 이유가 이것입니다. W6300 EoE과 W6300 Dev-kit은 같은 칩을 서로 다른 핀에 얹고 있어서, 칩 이름만으로는 위치를 알 수 없습니다.
 
 **참고:** `sdkconfig`나 `sdkconfig.defaults`에서 `CONFIG_WSM_DRIVER_CHIP_*`을 직접 설정하지 마십시오. 선택한 보드와 모순되어, 올바른 핀에 잘못된 칩으로 통신하는 상태가 됩니다.
 
-**참고:** ESP32-W6300-SoM에서는 **Component config → WIZnet WSM Driver → W6300 QSPI mode**에서 SPI 폭을 고를 수 있습니다. Quad는 데이터 라인 4개를 사용해 더 빠릅니다. 두 방식 모두 모듈에 이미 배선되어 있으므로, 하드웨어는 건드릴 것 없이 빌드 시점의 선택입니다.
+**참고:** ESP32-W6300-EoE에서는 **Component config → WIZnet WSM Driver → W6300 QSPI mode**에서 SPI 폭을 고를 수 있습니다. Quad는 데이터 라인 4개를 사용해 더 빠릅니다. 두 방식 모두 모듈에 이미 배선되어 있으므로, 하드웨어는 건드릴 것 없이 빌드 시점의 선택입니다.
 
 ### Step 3: 네트워크 주소 설정
 

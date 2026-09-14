@@ -2093,30 +2093,30 @@ module.exports = {
 			},
 			{
 				type: 'category',
-				label: 'SoM',
-				link: {type: 'doc', id: 'Product/SoM/som-overview'},
+				label: 'EoE',
+				link: {type: 'doc', id: 'Product/EoE/eoe-overview'},
 				items: [
 					{
 						type: 'category',
 						label: 'Modules',
-						link: {type: 'doc', id: 'Product/SoM/som-modules'},
+						link: {type: 'doc', id: 'Product/EoE/eoe-modules'},
 						items: [
 							{
 								type: 'category',
 								label: 'ESP32',
 								items: [
-									'Product/SoM/Modules/ESP32/esp32-w5500-som',
-									'Product/SoM/Modules/ESP32/esp32-w6300-som',
-									'Product/SoM/Modules/ESP32/esp32-w5500-devkit',
-									'Product/SoM/Modules/ESP32/esp32-w6300-devkit',
+									'Product/EoE/Modules/ESP32/esp32-w5500-eoe',
+									'Product/EoE/Modules/ESP32/esp32-w6300-eoe',
+									'Product/EoE/Modules/ESP32/esp32-w5500-devkit',
+									'Product/EoE/Modules/ESP32/esp32-w6300-devkit',
 									{
 										type: 'category',
 										label: 'Application Notes',
 										items: [
-											'Product/SoM/Modules/ESP32/Application-Notes/esp32-modbus-tcp-connection-guide-en',
-											'Product/SoM/Modules/ESP32/Application-Notes/esp32-modbus-tcp-connection-guide-kr',
-											'Product/SoM/Modules/ESP32/Application-Notes/esp32-websocket-connection-guide-en',
-											'Product/SoM/Modules/ESP32/Application-Notes/esp32-websocket-connection-guide-kr',
+											'Product/EoE/Modules/ESP32/Application-Notes/esp32-modbus-tcp-connection-guide-en',
+											'Product/EoE/Modules/ESP32/Application-Notes/esp32-modbus-tcp-connection-guide-kr',
+											'Product/EoE/Modules/ESP32/Application-Notes/esp32-websocket-connection-guide-en',
+											'Product/EoE/Modules/ESP32/Application-Notes/esp32-websocket-connection-guide-kr',
 										],
 									},
 								],
@@ -2129,9 +2129,9 @@ module.exports = {
 					{
 						type: 'category',
 						label: 'Reference',
-						link: {type: 'doc', id: 'Product/SoM/som-reference'},
+						link: {type: 'doc', id: 'Product/EoE/eoe-reference'},
 						items: [
-							'Product/SoM/Reference/som-getting-started',
+							'Product/EoE/Reference/eoe-getting-started',
 						],
 					},
 				],

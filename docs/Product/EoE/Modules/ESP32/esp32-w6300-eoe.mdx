@@ -1,26 +1,26 @@
 ---
-id: esp32-w6300-som
-title: ESP32-W6300-SoM
-sidebar_label: ESP32-W6300-SoM
-slug: /Product/SoM/modules/esp32-w6300-som
+id: esp32-w6300-eoe
+title: ESP32-W6300-EoE
+sidebar_label: ESP32-W6300-EoE
+slug: /Product/EoE/modules/esp32-w6300-eoe
 date: 2026-08-10
-keywords: [ESP32-S3 + W6300 Module, ESP32-S3 + W6300 SoM, MCU-based Ethernet SoM, Embedded Network Module, ESP32 Ethernet module, SoM, ESP32, ESP32-S3, W6300, IPv6, QSPI, Ethernet, wsm_driver, ESP-IDF]
-description: ESP32-S3 + W6300 Module — an MCU-based Ethernet SoM combining an ESP32-S3 host with the W6300 IPv4/IPv6 hardwired TCP/IP controller.
+keywords: [ESP32-S3 + W6300 Module, ESP32-S3 + W6300 EoE, MCU-based Ethernet EoE, Embedded Network Module, ESP32 Ethernet module, EoE, ESP32, ESP32-S3, W6300, IPv6, QSPI, Ethernet, wsm_driver, ESP-IDF]
+description: ESP32-S3 + W6300 Module — an MCU-based Ethernet EoE combining an ESP32-S3 host with the W6300 IPv4/IPv6 hardwired TCP/IP controller.
 ---
 
 import Tabs from '@theme/Tabs';
 import TabItem from '@theme/TabItem';
 
-# ESP32-W6300-SoM
+# ESP32-W6300-EoE
 
-*ESP32-S3 + W6300 Module · MCU-based Ethernet SoM*
+*ESP32-S3 + W6300 Module · MCU-based Ethernet EoE*
 
 {/* Hero image — replace with the approved module photo once available.
-    Expected path: /img/products/som/esp32-w6300-som/esp32-w6300-som.png
+    Expected path: /img/products/eoe/esp32-w6300-eoe/esp32-w6300-eoe.png
 <div className="main-card">
-  <img src="/img/products/som/esp32-w6300-som/esp32-w6300-som.png" alt="ESP32-W6300-SoM" />
+  <img src="/img/products/eoe/esp32-w6300-eoe/esp32-w6300-eoe.png" alt="ESP32-W6300-EoE" />
   <div>
-    <h3>ESP32-W6300-SoM</h3>
+    <h3>ESP32-W6300-EoE</h3>
     <p>ESP32-S3 host with W6300 IPv4/IPv6 hardwired TCP/IP Ethernet over QSPI.</p>
   </div>
 </div>
@@ -36,11 +36,11 @@ release.
 
 ## Summary
 
-ESP32-W6300-SoM carries an ESP32-S3 host, external flash, power and clock
+ESP32-W6300-EoE carries an ESP32-S3 host, external flash, power and clock
 circuitry, and the W6300 hardwired TCP/IP controller — including the Ethernet front-end components —
 combined on a single solder-down module.
 
-It is the IPv6-capable member of the family. Where ESP32-W5500-SoM targets proven IPv4 designs,
+It is the IPv6-capable member of the family. Where ESP32-W5500-EoE targets proven IPv4 designs,
 this module adds dual-stack IPv4/IPv6 and a QSPI host interface for higher throughput, while
 keeping the ESP32-S3 Wi-Fi and Bluetooth LE radios available for hybrid networking.
 
@@ -50,7 +50,7 @@ keeping the ESP32-S3 Wi-Fi and Bluetooth LE radios available for hybrid networki
 | Target users | ESP32 / ESP-IDF developers, industrial IoT customers requiring IPv6 |
 | Typical applications | Industrial sensor gateway, PoE sensor node, RS485/Modbus gateway, remote monitoring, wired BLE proxy |
 | Network stack | Hardwired TCP/IP (TOE) or MACRAW + LwIP |
-| Compare with | [ESP32-W5500-SoM](./esp32-w5500-som) — IPv4, SPI only |
+| Compare with | [ESP32-W5500-EoE](./esp32-w5500-eoe) — IPv4, SPI only |
 
 ## Features
 
@@ -120,9 +120,9 @@ carrier-board pins are consumed in each mode.
 
 ### Carrier board design
 
-Carrier-board rules that apply to every WIZnet SoM are documented once in
-[Reference → Hardware Design](/Product/SoM/reference). Use this page only for the values that are
-specific to ESP32-W6300-SoM.
+Carrier-board rules that apply to every WIZnet EoE are documented once in
+[Reference → Hardware Design](/Product/EoE/reference). Use this page only for the values that are
+specific to ESP32-W6300-EoE.
 
 ## Performance
 
@@ -146,11 +146,11 @@ measured. Report SPI and QSPI separately.
 | Datasheet | Module electrical and mechanical specification | - | TBD |
 | Hardware Design Guide | Carrier board design rules | - | TBD |
 | User's Manual | Product usage instructions | - | TBD |
-| Getting Started | First bring-up procedure | [Go](/Product/SoM/reference/getting-started) | Shared |
+| Getting Started | First bring-up procedure | [Go](/Product/EoE/reference/getting-started) | Shared |
 
 ## Software Resources
 
-<Tabs groupId="som-software">
+<Tabs groupId="eoe-software">
   <TabItem value="driver" label="Driver" default>
 
   | Title | Description | Link | Notes |
@@ -205,14 +205,14 @@ measured. Report SPI and QSPI separately.
 | Product | Relation | Link |
 | --- | --- | --- |
 | ESP32-W6300-DevKit | Evaluation board carrying this module | [Go](./esp32-w6300-devkit) |
-| ESP32-W5500-SoM | IPv4 / SPI variant | [Go](./esp32-w5500-som) |
+| ESP32-W5500-EoE | IPv4 / SPI variant | [Go](./esp32-w5500-eoe) |
 | WIZPoE-SD series | PoE PD power supply for sensor-node designs | TBD |
 | WIZPoE-RJ45 | Integrated PoE + RJ45 magjack connector module | TBD |
 
 ## Reference Guides
 
-- [Getting Started](/Product/SoM/reference/getting-started)
-- [Reference index](/Product/SoM/reference)
+- [Getting Started](/Product/EoE/reference/getting-started)
+- [Reference index](/Product/EoE/reference)
 
 ## How to buy
 

@@ -1,11 +1,11 @@
 ---
-id: som-modules
-title: SoM Modules
+id: eoe-modules
+title: EoE Modules
 sidebar_label: Modules
-slug: /Product/SoM/modules
+slug: /Product/EoE/modules
 date: 2026-08-10
-keywords: [MCU-based Ethernet SoM, Embedded Network Module, ESP32 Ethernet module, SoM lineup, ESP32-W5500-SoM, ESP32-W6300-SoM, W55RP20-SoM, STM32F4-W6300-SoM]
-description: WIZnet SoM lineup compared by host MCU, Ethernet chip, host interface, IP version, and physical layer.
+keywords: [MCU-based Ethernet EoE, Embedded Network Module, ESP32 Ethernet module, EoE lineup, ESP32-W5500-EoE, ESP32-W6300-EoE, W55RP20-EoE, STM32F4-W6300-EoE]
+description: WIZnet EoE lineup compared by host MCU, Ethernet chip, host interface, IP version, and physical layer.
 ---
 
 # Modules
@@ -22,10 +22,10 @@ and measured performance.
 
 | Module | Host MCU | WIZnet chip | Host interface | IP version | Physical layer | Best for | Status |
 | --- | --- | --- | --- | --- | --- | --- | --- |
-| [**ESP32-W5500-SoM**](/Product/SoM/modules/esp32-w5500-som) | ESP32-S3 | W5500 | SPI | IPv4 | 10/100 RJ45 | A proven, low-risk wired link on an ESP32 design | Draft |
-| [**ESP32-W6300-SoM**](/Product/SoM/modules/esp32-w6300-som) | ESP32-S3 | W6300 | SPI / QSPI | IPv4 / IPv6 | 10/100 RJ45 | IPv6, or more throughput than SPI allows | Draft |
-| W55RP20-SoM | W55RP20 | W5500 | SPI | IPv4 | 10/100 RJ45 | Smallest footprint; S2E firmware pre-loaded, custom firmware available | In development |
-| STM32F4-W6300-SoM | STM32F4 | W6300 | SPI / QSPI | IPv4 / IPv6 | 10/100 RJ45 | Industrial designs already standardized on STM32 | In development |
+| [**ESP32-W5500-EoE**](/Product/EoE/modules/esp32-w5500-eoe) | ESP32-S3 | W5500 | SPI | IPv4 | 10/100 RJ45 | A proven, low-risk wired link on an ESP32 design | Draft |
+| [**ESP32-W6300-EoE**](/Product/EoE/modules/esp32-w6300-eoe) | ESP32-S3 | W6300 | SPI / QSPI | IPv4 / IPv6 | 10/100 RJ45 | IPv6, or more throughput than SPI allows | Draft |
+| W55RP20-EoE | W55RP20 | W5500 | SPI | IPv4 | 10/100 RJ45 | Smallest footprint; S2E firmware pre-loaded, custom firmware available | In development |
+| STM32F4-W6300-EoE | STM32F4 | W6300 | SPI / QSPI | IPv4 / IPv6 | 10/100 RJ45 | Industrial designs already standardized on STM32 | In development |
 | T1L-55 / T1L-RP55 | RP2350 | W5500 + T1L | SPI | IPv4 | 10BASE-T1L | Two-wire field cabling over long distance | In development |
 | T1S-RP55 | RP2350 | T1S | SPI | IPv4 | 10BASE-T1S | Two-wire multidrop bus | In development |
 
@@ -44,32 +44,32 @@ module, driver, and firmware carry over unchanged to the production design.
 
 | DevKit | Module it carries | Notes |
 | --- | --- | --- |
-| [ESP32-W5500-DevKit](/Product/SoM/modules/esp32-w5500-devkit) | ESP32-W5500-SoM | Draft |
-| [ESP32-W6300-DevKit](/Product/SoM/modules/esp32-w6300-devkit) | ESP32-W6300-SoM | Draft — SPI and QSPI both measurable on one board |
+| [ESP32-W5500-DevKit](/Product/EoE/modules/esp32-w5500-devkit) | ESP32-W5500-EoE | Draft |
+| [ESP32-W6300-DevKit](/Product/EoE/modules/esp32-w6300-devkit) | ESP32-W6300-EoE | Draft — SPI and QSPI both measurable on one board |
 
 A DevKit is not a production part. See
-[Where a SoM sits](/Product/SoM/overview#where-a-som-sits).
+[Where a EoE sits](/Product/EoE/overview#where-a-eoe-sits).
 
 ## Which module fits
 
 Three questions narrow the list to one or two candidates.
 
-**1. Which MCU does the product use?** The SoM replaces the MCU on the carrier board, so this is
+**1. Which MCU does the product use?** The EoE replaces the MCU on the carrier board, so this is
 usually decided already.
 
 | Your MCU / Preference | Look at |
 | --- | --- |
-| ESP32 — or you want Wi-Fi/BLE alongside Ethernet | ESP32-W5500-SoM, ESP32-W6300-SoM |
-| STM32 — or you prefer the STMicroelectronics ecosystem such as STM32CubeIDE and STM32Cube tools | STM32F4-W6300-SoM |
-| W55RP20(RP2040 + W5500), or no strong MCU preference and compact size matters | W55RP20-SoM |
+| ESP32 — or you want Wi-Fi/BLE alongside Ethernet | ESP32-W5500-EoE, ESP32-W6300-EoE |
+| STM32 — or you prefer the STMicroelectronics ecosystem such as STM32CubeIDE and STM32Cube tools | STM32F4-W6300-EoE |
+| W55RP20(RP2040 + W5500), or no strong MCU preference and compact size matters | W55RP20-EoE |
 | No strong MCU preference, and you want Single-Pair Ethernet (SPE) | T1L-55 / T1L-RP55 / T1S-RP55 modules |
 
 **2. Does it need IPv6?**
 
 | Requirement | Chip | Modules |
 | --- | --- | --- |
-| IPv4 only | [W5500](/Product/Chip/Ethernet/W5500/) | ESP32-W5500-SoM, W55RP20-SoM |
-| IPv4 and IPv6 | [W6300](/Product/Chip/Ethernet/W6300/) | ESP32-W6300-SoM, STM32F4-W6300-SoM |
+| IPv4 only | [W5500](/Product/Chip/Ethernet/W5500/) | ESP32-W5500-EoE, W55RP20-EoE |
+| IPv4 and IPv6 | [W6300](/Product/Chip/Ethernet/W6300/) | ESP32-W6300-EoE, STM32F4-W6300-EoE |
 
 **3. What is the cable?**
 
@@ -91,25 +91,25 @@ products, viewed along other axes:
 
 | Host | Toolchain | Modules |
 | --- | --- | --- |
-| ESP32-S3 | ESP-IDF / Arduino / ESPHome | ESP32-W5500-SoM, ESP32-W6300-SoM |
-| STM32F4 | STM32 HAL / CubeIDE | STM32F4-W6300-SoM |
-| W55RP20 / RP2040 / RP2350 | Pico SDK, or pre-loaded S2E firmware | W55RP20-SoM, T1L-55 / T1L-RP55, T1S-RP55 |
+| ESP32-S3 | ESP-IDF / Arduino / ESPHome | ESP32-W5500-EoE, ESP32-W6300-EoE |
+| STM32F4 | STM32 HAL / CubeIDE | STM32F4-W6300-EoE |
+| W55RP20 / RP2040 / RP2350 | Pico SDK, or pre-loaded S2E firmware | W55RP20-EoE, T1L-55 / T1L-RP55, T1S-RP55 |
 
 ### By Ethernet chip
 
 | Chip | IP version | Interface | Modules |
 | --- | --- | --- | --- |
-| [W5500](/Product/Chip/Ethernet/W5500/) | IPv4 | SPI | ESP32-W5500-SoM, W55RP20-SoM, T1L-55 / T1L-RP55 |
-| [W6300](/Product/Chip/Ethernet/W6300/) | IPv4 / IPv6 | SPI / QSPI | ESP32-W6300-SoM, STM32F4-W6300-SoM |
+| [W5500](/Product/Chip/Ethernet/W5500/) | IPv4 | SPI | ESP32-W5500-EoE, W55RP20-EoE, T1L-55 / T1L-RP55 |
+| [W6300](/Product/Chip/Ethernet/W6300/) | IPv4 / IPv6 | SPI / QSPI | ESP32-W6300-EoE, STM32F4-W6300-EoE |
 | T1S | IPv4 | SPI | T1S-RP55 |
 
 ### By application
 
 | Application | Why these | Modules |
 | --- | --- | --- |
-| Wi-Fi + wired hybrid | Ethernet-first with Wi-Fi backup, wired BLE proxy, ESPHome / Home Assistant | ESP32-W5500-SoM, ESP32-W6300-SoM |
-| Industrial IPv6 | Dual-stack requirement on an STM32 design | STM32F4-W6300-SoM, ESP32-W6300-SoM |
-| Serial-to-Ethernet | S2E firmware pre-loaded, custom firmware available | W55RP20-SoM |
+| Wi-Fi + wired hybrid | Ethernet-first with Wi-Fi backup, wired BLE proxy, ESPHome / Home Assistant | ESP32-W5500-EoE, ESP32-W6300-EoE |
+| Industrial IPv6 | Dual-stack requirement on an STM32 design | STM32F4-W6300-EoE, ESP32-W6300-EoE |
+| Serial-to-Ethernet | S2E firmware pre-loaded, custom firmware available | W55RP20-EoE |
 | Single-pair Ethernet (SPE) | Two-wire field cabling, long reach or multidrop | T1L-55 / T1L-RP55, T1S-RP55 |
 | PoE-powered node | Pair any module with a WIZPoE module on the carrier board | Any, plus WIZPoE-SD / WIZPoE-RJ45 |
 

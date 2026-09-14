@@ -1,11 +1,11 @@
 ---
-id: som-getting-started
-title: SoM Getting Started
+id: eoe-getting-started
+title: EoE Getting Started
 sidebar_label: Getting Started
-slug: /Product/SoM/reference/getting-started
+slug: /Product/EoE/reference/getting-started
 date: 2026-08-10
-keywords: [MCU-based Ethernet SoM, Embedded Network Module, getting started, bring-up, ESP-IDF, STM32, Pico SDK, wsm_driver, W5500, W6300]
-description: First bring-up procedure shared by every WIZnet SoM.
+keywords: [MCU-based Ethernet EoE, Embedded Network Module, getting started, bring-up, ESP-IDF, STM32, Pico SDK, wsm_driver, W5500, W6300]
+description: First bring-up procedure shared by every WIZnet EoE.
 ---
 
 import Tabs from '@theme/Tabs';
@@ -15,7 +15,7 @@ import TabItem from '@theme/TabItem';
 
 :::caution Draft
 
-Placeholder pin names, versions, and commands. Replace them with validated values once the first SoM
+Placeholder pin names, versions, and commands. Replace them with validated values once the first EoE
 board is selected.
 
 :::
@@ -27,7 +27,7 @@ platform.
 
 | Item | Detail |
 | --- | --- |
-| Hardware | SoM mounted on a carrier board, or the matching evaluation board |
+| Hardware | EoE mounted on a carrier board, or the matching evaluation board |
 | Connector | RJ45 with magnetics (or SPE connector, for single-pair modules) |
 | Programming | USB or UART connection to the host MCU |
 | Toolchain | The toolchain for your host platform — see the tabs below |
@@ -40,7 +40,7 @@ platform.
 3. Confirm the reference clock, if the carrier board supplies one.
 
 Values are per module. See the *Operating condition* table on your
-[module page](/Product/SoM/modules).
+[module page](/Product/EoE/modules).
 
 ## 2. Check the host interface wiring
 
@@ -67,7 +67,7 @@ carrier-board pins, and a mode mismatch looks identical to a dead chip.
 
 ## 4. Build, flash, and run
 
-<Tabs groupId="som-host">
+<Tabs groupId="eoe-host">
   <TabItem value="esp32" label="ESP32-S3 (ESP-IDF)" default>
 
 1. Add [`wsm_driver`](https://github.com/Wiznet/wsm_driver) to the project as an ESP-IDF component.

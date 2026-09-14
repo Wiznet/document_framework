@@ -2,17 +2,17 @@
 id: esp32-websocket-connection-guide-en
 title: WebSocket Connection Guide
 sidebar_label: WebSocket Connection Guide
-slug: /Product/SoM/application-notes/websocket-connection-guide
+slug: /Product/EoE/application-notes/websocket-connection-guide
 date: 2026-08-20
-keywords: [WebSocket, RFC 6455, WebSocket server, ws://, ESP32-W5500-SoM, ESP32-W6300-SoM, WIZnet ESP SoM, W5500, W6300, hardwired TCP/IP, TOE, ESP-IDF, wsm_driver, mWebSockets]
-description: Run a WebSocket server on the WIZnet ESP SoM that serves its own test page, and exercise the framing paths from a browser.
+keywords: [WebSocket, RFC 6455, WebSocket server, ws://, ESP32-W5500-EoE, ESP32-W6300-EoE, WIZnet ESP EoE, W5500, W6300, hardwired TCP/IP, TOE, ESP-IDF, wsm_driver, mWebSockets]
+description: Run a WebSocket server on the WIZnet ESP EoE that serves its own test page, and exercise the framing paths from a browser.
 ---
 
 # WebSocket Connection Guide
 
-The WIZnet ESP SoM can run a WebSocket server whose TCP/IP is handled by the WIZnet Ethernet chip rather than by the MCU. The device serves its own test page, so there is no server to install, no client to download, and no HTML file to edit — you type the device's address into a browser and the page connects itself.
+The WIZnet ESP EoE can run a WebSocket server whose TCP/IP is handled by the WIZnet Ethernet chip rather than by the MCU. The device serves its own test page, so there is no server to install, no client to download, and no HTML file to edit — you type the device's address into a browser and the page connects itself.
 
-> **Verified on the ESP32-SoM.** Run on the ESP32-SoM with both the W5500 and the W6300, using the TOE backend, over Ethernet and over Wi-Fi — including both interfaces serving at the same time.
+> **Verified on the ESP32-EoE.** Run on the ESP32-EoE with both the W5500 and the W6300, using the TOE backend, over Ethernet and over Wi-Fi — including both interfaces serving at the same time.
 
 * * *
 
@@ -39,7 +39,7 @@ The protocol implementation is [mWebSockets](https://github.com/skaarj1989/mWebS
 
 ### Hardware
 
-- WIZnet ESP32-SoM — the ESP32-W5500-SoM or the ESP32-W6300-SoM
+- WIZnet ESP32-EoE — the ESP32-W5500-EoE or the ESP32-W6300-EoE
 - Ethernet cable from the module's RJ45 port to your PC or network
 - USB cable from the module to your PC
 
@@ -54,7 +54,7 @@ The protocol implementation is [mWebSockets](https://github.com/skaarj1989/mWebS
 
 * * *
 
-## How to Run a WebSocket Server on the WIZnet ESP SoM
+## How to Run a WebSocket Server on the WIZnet ESP EoE
 
 ### Step 1: Prepare the hardware
 
@@ -74,13 +74,13 @@ idf.py menuconfig
 
 Select **Component config → WIZnet WSM Driver → Board**.
 
-Pick your module: **ESP32-W5500-SoM** or **ESP32-W6300-SoM**.
+Pick your module: **ESP32-W5500-EoE** or **ESP32-W6300-EoE**.
 
-That one setting is the whole hardware configuration. The chip and the GPIOs it sits on both follow from it, which is why the menu asks for a board rather than a chip — the W6300 SoM and the W6300 Dev-kit carry the same chip on different pins, so naming the chip alone would not say where it is.
+That one setting is the whole hardware configuration. The chip and the GPIOs it sits on both follow from it, which is why the menu asks for a board rather than a chip — the W6300 EoE and the W6300 Dev-kit carry the same chip on different pins, so naming the chip alone would not say where it is.
 
 **Note:** Do not set `CONFIG_WSM_DRIVER_CHIP_*` by hand in `sdkconfig` or `sdkconfig.defaults`. It contradicts the selected board and leaves the driver talking to the wrong chip on the right pins.
 
-**Note:** On the ESP32-W6300-SoM you can also choose the SPI width in **Component config → WIZnet WSM Driver → W6300 QSPI mode**. Quad uses four data lines and is the faster of the two; both are already wired on the module, so this is a build-time choice with nothing to change on the hardware.
+**Note:** On the ESP32-W6300-EoE you can also choose the SPI width in **Component config → WIZnet WSM Driver → W6300 QSPI mode**. Quad uses four data lines and is the faster of the two; both are already wired on the module, so this is a build-time choice with nothing to change on the hardware.
 
 ### Step 3: Set the network identity
 
