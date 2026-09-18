@@ -1,26 +1,30 @@
 ---
-id: eoe-ionic-datasheet-kr
-title: EOE-ioNIC Datasheet [KO]
+id: eoe-w55rp20-datasheet-kr
+title: EOE-W55RP20 Datasheet [KO]
 date: 2026-08-25
-keywords: [wiznet, w55rp20, EOE-ioNIC datasheet, hardwired tcp/ip, serial-to-ethernet, w5500, rp2040, som]
-description: EOE-ioNIC는 W55RP20 기반의 시리얼 to 이더넷 System-on-Module(SoM)입니다.
+keywords: [wiznet, w55rp20, EOE-W55RP20 datasheet, hardwired tcp/ip, serial-to-ethernet, w5500, rp2040, som]
+description: EOE-W55RP20는 W55RP20 기반의 시리얼 to 이더넷 System-on-Module(SoM)입니다.
 ---
 
-<img src="/img/products/EOE-ioNIC/EOE-ioNIC%20.png" alt="EOE-ioNIC 모듈" width="600" />
+<img
+  src="/img/products/EOE-W55RP20/EOE-W55RP20-front.png"
+  alt="EOE-W55RP20 모듈"
+  style={{display: 'block', width: '100%', maxWidth: '560px', height: 'auto', margin: '0 auto 1rem'}}
+/>
 
 ## 개요
 
-본 문서는 **EOE-ioNIC**의 하드웨어 사양서입니다. EOE-ioNIC는 라즈베리파이 RP2040 듀얼코어
+본 문서는 **EOE-W55RP20**의 하드웨어 사양서입니다. EOE-W55RP20는 라즈베리파이 RP2040 듀얼코어
 MCU와 W5500 하드와이어드 TCP/IP(Ethernet Offload Engine) 컨트롤러, 2 MB 플래시를 하나의
 패키지에 통합한 WIZnet **W55RP20** 기반의 시리얼 to 이더넷 **System-on-Module(SoM)** 입니다.
 
-EOE-ioNIC는 고객 캐리어 보드에 실장하는 솔더다운 모듈로, 이더넷 MDI 페어와 2채널 UART,
+EOE-W55RP20는 고객 캐리어 보드에 실장하는 솔더다운 모듈로, 이더넷 MDI 페어와 2채널 UART,
 SPI 호스트 인터페이스, USB, SWD를 70핀 캐슬레이션 엣지 인터페이스로 인출합니다. RJ45 잭과
 USB Type-C, DC 잭, 헤더가 포함된 평가용 보드가 필요하시면
-[EOE-ioNIC-EVB](./EOE-ioNIC-EVB.md) 문서를 참고하십시오.
+[EOE-W55RP20-EVB](./EOE-W55RP20-EVB.md) 문서를 참고하십시오.
 
 :::note
-EOE-ioNIC는 완제품 보드가 아니라 모듈입니다. **RJ45 잭, USB 커넥터, DC 잭, 푸시 버튼,
+EOE-W55RP20는 완제품 보드가 아니라 모듈입니다. **RJ45 잭, USB 커넥터, DC 잭, 푸시 버튼,
 3.3V 레귤레이터가 모듈에 포함되어 있지 않으며** 이는 모두 캐리어 보드의 몫입니다.
 모듈은 3.3V 전원을 직접 공급받아 동작합니다.
 :::
@@ -116,7 +120,7 @@ EOE-ioNIC는 완제품 보드가 아니라 모듈입니다. **RJ45 잭, USB 커�
 | 8 | —   | 미사용 (또는 PoE 페어) |
 
 :::note
-EOE-ioNIC는 PoE를 지원하지 **않습니다.** PoE가 필요하면 캐리어 보드에서 구현해야 하며,
+EOE-W55RP20는 PoE를 지원하지 **않습니다.** PoE가 필요하면 캐리어 보드에서 구현해야 하며,
 이 경우 4/5번 핀과 7/8번 핀의 극성이 서로 반대여야 합니다.
 :::
 
@@ -182,7 +186,7 @@ USB 인터페이스는 W55RP20이 BOOTSEL 모드(리셋 시 `RP_BOOT` 로우)로
 |                          |
 | ------------------------ |
 | TBD                      |
-| ***EOE-ioNIC Revision 1.0 Dimension*** |
+| ***EOE-W55RP20 Revision 1.0 Dimension*** |
 
 - TBD (mm)
 

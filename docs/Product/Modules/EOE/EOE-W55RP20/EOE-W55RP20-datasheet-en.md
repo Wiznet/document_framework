@@ -1,28 +1,32 @@
 ---
-id: eoe-ionic-datasheet-en
-title: EOE-ioNIC Datasheet [EN]
+id: eoe-w55rp20-datasheet-en
+title: EOE-W55RP20 Datasheet [EN]
 date: 2026-08-25
-keywords: [wiznet, w55rp20, EOE-ioNIC datasheet, hardwired tcp/ip, serial-to-ethernet, w5500, rp2040, som]
-description: EOE-ioNIC is a serial-to-Ethernet System-on-Module (SoM) based on the W55RP20.
+keywords: [wiznet, w55rp20, EOE-W55RP20 datasheet, hardwired tcp/ip, serial-to-ethernet, w5500, rp2040, som]
+description: EOE-W55RP20 is a serial-to-Ethernet System-on-Module (SoM) based on the W55RP20.
 ---
 
-<img src="/img/products/EOE-ioNIC/EOE-ioNIC%20.png" alt="EOE-ioNIC module" width="600" />
+<img
+  src="/img/products/EOE-W55RP20/EOE-W55RP20-front.png"
+  alt="EOE-W55RP20 module"
+  style={{display: 'block', width: '100%', maxWidth: '560px', height: 'auto', margin: '0 auto 1rem'}}
+/>
 
 ## Overview
 
-This document is the hardware specification for the **EOE-ioNIC**, a serial-to-Ethernet
+This document is the hardware specification for the **EOE-W55RP20**, a serial-to-Ethernet
 **System-on-Module (SoM)** based on the **W55RP20** — WIZnet's single-package solution
 combining the Raspberry Pi RP2040 dual-core MCU with the W5500 hardwired TCP/IP
 (Ethernet Offload Engine) controller and 2 MB of flash.
 
-The EOE-ioNIC is a solder-down module intended to be mounted on a customer carrier board.
+The EOE-W55RP20 is a solder-down module intended to be mounted on a customer carrier board.
 It brings the Ethernet MDI pair, both UART channels, the SPI host interface, USB and SWD
 out to a 70-pin castellated edge interface. For an out-of-the-box evaluation platform that
 adds an RJ45 jack, USB Type-C, DC jack and headers, see the
-[EOE-ioNIC-EVB](./EOE-ioNIC-EVB.md).
+[EOE-W55RP20-EVB](./EOE-W55RP20-EVB.md).
 
 :::note
-The EOE-ioNIC is a module, not a finished board. It has **no RJ45 jack, no USB connector,
+The EOE-W55RP20 is a module, not a finished board. It has **no RJ45 jack, no USB connector,
 no DC jack, no push buttons and no on-board 3.3V regulator** — those belong to the carrier
 board. The module is powered directly from a 3.3V rail.
 :::
@@ -120,7 +124,7 @@ Typical RJ45 wiring on the carrier board (cable side of the magnetics):
 | 8 | —   | Unused (or PoE pair) |
 
 :::note
-The EOE-ioNIC does **not** include PoE. If PoE is required it must be implemented on the
+The EOE-W55RP20 does **not** include PoE. If PoE is required it must be implemented on the
 carrier board; when it is, pins 4/5 and 7/8 must carry opposite polarity.
 :::
 
@@ -186,7 +190,7 @@ The complete 70-pin edge-interface diagram will be added when the pinout image i
 |                          |
 | ------------------------ |
 | TBD                      |
-| ***EOE-ioNIC Revision 1.0 Dimension*** |
+| ***EOE-W55RP20 Revision 1.0 Dimension*** |
 
 - TBD (mm)
 

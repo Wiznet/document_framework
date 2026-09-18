@@ -1,13 +1,13 @@
 ---
-id: eoe-w63e-evb
-title: EOE-W63E-EVB
+id: eoe-w63-evb
+title: EOE-W63-EVB
 ---
 
 ## Overview
 
 | Item | Specification |
 | --- | --- |
-| Supported module | EOE-W63E |
+| Supported module | EOE-W63 |
 | Ethernet connector | RJ45 jack with integrated magnetics |
 | USB | USB Type-C connected to the ESP32-S3 native USB interface |
 | Power input | USB Type-C or DC jack; the board generates the 3.3 V module rail |

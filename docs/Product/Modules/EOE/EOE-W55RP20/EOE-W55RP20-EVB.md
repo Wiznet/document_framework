@@ -1,13 +1,13 @@
 ---
-id: eoe-ionic-evb
-title: EOE-ioNIC-EVB
+id: eoe-w55rp20-evb
+title: EOE-W55RP20-EVB
 ---
 
 ## Overview
 
 | Item | Specification |
 | --- | --- |
-| Supported module | EOE-ioNIC |
+| Supported module | EOE-W55RP20 |
 | Ethernet connector | RJ45 jack with integrated magnetics |
 | USB | USB Type-C connected to the W55RP20 native USB interface |
 | Power input | USB Type-C or DC jack; the board generates the 3.3 V module rail |

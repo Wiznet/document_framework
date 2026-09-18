@@ -1,25 +1,25 @@
 ---
-id: eoe-w63e-datasheet-kr
-title: EOE-W63E Datasheet [KO]
+id: eoe-w63-datasheet-kr
+title: EOE-W63 Datasheet [KO]
 date: 2026-08-25
-keywords: [wiznet, w6300, esp32-s3, EOE-W63E datasheet, hardwired tcp/ip, ethernet, wifi, ble, som, quad-spi]
-description: EOE-W63E는 ESP32-S3와 WIZnet W6300을 결합한 이더넷 + Wi-Fi/BLE System-on-Module(SoM)입니다.
+keywords: [wiznet, w6300, esp32-s3, EOE-W63 datasheet, hardwired tcp/ip, ethernet, wifi, ble, som, quad-spi]
+description: EOE-W63는 ESP32-S3와 WIZnet W6300을 결합한 이더넷 + Wi-Fi/BLE System-on-Module(SoM)입니다.
 ---
 
 <!-- Product image pending. -->
 
 ## 개요
 
-본 문서는 **EOE-W63E**의 하드웨어 사양서입니다. EOE-W63E는 Espressif **ESP32-S3**
+본 문서는 **EOE-W63**의 하드웨어 사양서입니다. EOE-W63는 Espressif **ESP32-S3**
 Wi-Fi/BLE MCU와 WIZnet **W6300** 하드와이어드 TCP/IP(Ethernet Offload Engine) 컨트롤러를
 전용 **Quad-SPI** 버스로 연결한 이더넷 + Wi-Fi/BLE **System-on-Module(SoM)** 입니다.
 
-EOE-W63E는 고객 캐리어 보드에 실장하는 솔더다운 모듈로, ESP32-S3의 GPIO / ADC / I2C / SPI /
+EOE-W63는 고객 캐리어 보드에 실장하는 솔더다운 모듈로, ESP32-S3의 GPIO / ADC / I2C / SPI /
 USB / UART 신호와 이더넷 MDI 페어를 3개의 헤더로 인출합니다. 평가용 보드가 필요하시면
-[EOE-W63E-EVB](./EOE-W63E-EVB.md) 문서를 참고하십시오.
+[EOE-W63-EVB](./EOE-W63-EVB.md) 문서를 참고하십시오.
 
 :::note
-EOE-W63E는 완제품 보드가 아니라 모듈입니다. **RJ45 잭, USB 커넥터, DC 잭, 푸시 버튼,
+EOE-W63는 완제품 보드가 아니라 모듈입니다. **RJ45 잭, USB 커넥터, DC 잭, 푸시 버튼,
 3.3V 레귤레이터가 모듈에 포함되어 있지 않으며** 이는 모두 캐리어 보드의 몫입니다.
 모듈은 3.3V 전원을 직접 공급받아 동작합니다.
 :::
@@ -127,7 +127,7 @@ J4의 1, 4, 6, 7, 9, 12번 핀은 그라운드입니다.
 | 8 | —   | 미사용 (또는 PoE 페어) |
 
 :::note
-EOE-W63E는 PoE를 지원하지 **않습니다.** PoE가 필요하면 캐리어 보드에서 구현해야 하며,
+EOE-W63는 PoE를 지원하지 **않습니다.** PoE가 필요하면 캐리어 보드에서 구현해야 하며,
 이 경우 4/5번 핀과 7/8번 핀의 극성이 서로 반대여야 합니다.
 :::
 
@@ -182,7 +182,7 @@ GPIO로 구동하십시오.
 |                          |
 | ------------------------ |
 | TBD                      |
-| ***EOE-W63E Revision 1.0 Dimension*** |
+| ***EOE-W63 Revision 1.0 Dimension*** |
 
 - TBD (mm)
 

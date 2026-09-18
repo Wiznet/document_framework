@@ -1,27 +1,27 @@
 ---
-id: eoe-w63e-datasheet-en
-title: EOE-W63E Datasheet [EN]
+id: eoe-w63-datasheet-en
+title: EOE-W63 Datasheet [EN]
 date: 2026-08-25
-keywords: [wiznet, w6300, esp32-s3, EOE-W63E datasheet, hardwired tcp/ip, ethernet, wifi, ble, som, quad-spi]
-description: EOE-W63E is an Ethernet + Wi-Fi/BLE System-on-Module (SoM) combining the ESP32-S3 with the WIZnet W6300.
+keywords: [wiznet, w6300, esp32-s3, EOE-W63 datasheet, hardwired tcp/ip, ethernet, wifi, ble, som, quad-spi]
+description: EOE-W63 is an Ethernet + Wi-Fi/BLE System-on-Module (SoM) combining the ESP32-S3 with the WIZnet W6300.
 ---
 
 <!-- Product image pending. -->
 
 ## Overview
 
-This document is the hardware specification for the **EOE-W63E**, an Ethernet +
+This document is the hardware specification for the **EOE-W63**, an Ethernet +
 Wi-Fi/BLE **System-on-Module (SoM)** that combines the Espressif **ESP32-S3** Wi-Fi/BLE
 MCU with the WIZnet **W6300** hardwired TCP/IP (Ethernet Offload Engine) controller,
 linked over a dedicated **Quad-SPI** bus.
 
-The EOE-W63E is a solder-down module intended to be mounted on a customer carrier board.
+The EOE-W63 is a solder-down module intended to be mounted on a customer carrier board.
 It brings the ESP32-S3 GPIO / ADC / I2C / SPI / USB / UART lines and the Ethernet MDI pair
 out to three headers. For an out-of-the-box evaluation platform, see the
-[EOE-W63E-EVB](./EOE-W63E-EVB.md).
+[EOE-W63-EVB](./EOE-W63-EVB.md).
 
 :::note
-The EOE-W63E is a module, not a finished board. It has **no RJ45 jack, no USB connector,
+The EOE-W63 is a module, not a finished board. It has **no RJ45 jack, no USB connector,
 no DC jack, no push buttons and no on-board 3.3V regulator** — those belong to the carrier
 board. The module is powered directly from a 3.3V rail.
 :::
@@ -131,7 +131,7 @@ Typical RJ45 wiring on the carrier board (cable side of the magnetics):
 | 8 | —   | Unused (or PoE pair) |
 
 :::note
-The EOE-W63E does **not** include PoE. If PoE is required it must be implemented on the
+The EOE-W63 does **not** include PoE. If PoE is required it must be implemented on the
 carrier board; when it is, pins 4/5 and 7/8 must carry opposite polarity.
 :::
 
@@ -187,7 +187,7 @@ The complete header-pinout diagram will be added when the pinout image is availa
 |                          |
 | ------------------------ |
 | TBD                      |
-| ***EOE-W63E Revision 1.0 Dimension*** |
+| ***EOE-W63 Revision 1.0 Dimension*** |
 
 - TBD (mm)
 

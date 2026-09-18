@@ -1,5 +1,5 @@
 ---
-id: eoe-ionic-configuration-tool-guide-en
+id: eoe-w55rp20-configuration-tool-guide-en
 title: Configuration Tool Guide
 ---
 

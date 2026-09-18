@@ -1991,46 +1991,61 @@ module.exports = {
 						items: [
 							{
 								type: 'category',
-								label: 'EOE-ioNIC',
-								link: {type: 'doc', id: 'Product/Modules/EOE/EOE-ioNIC/eoe-ionic'},
+								label: 'EOE-W55RP20',
+								link: {type: 'doc', id: 'Product/Modules/EOE/EOE-W55RP20/eoe-w55rp20'},
 								items: [
 									{
 										type: 'category',
 										label: 'Documentation',
 										items: [
-											'Product/Modules/EOE/EOE-ioNIC/eoe-ionic-datasheet-en',
-											'Product/Modules/EOE/EOE-ioNIC/eoe-ionic-datasheet-kr',
+											'Product/Modules/EOE/EOE-W55RP20/eoe-w55rp20-datasheet-en',
+											'Product/Modules/EOE/EOE-W55RP20/eoe-w55rp20-datasheet-kr',
 										],
 									},
 									{
 										type: 'category',
 										label: 'Setup & Configuration',
 										items: [
-											'Product/Modules/EOE/EOE-ioNIC/eoe-ionic-configuration-tool-guide-en',
+											'Product/Modules/EOE/EOE-W55RP20/eoe-w55rp20-configuration-tool-guide-en',
 										],
 									},
-									'Product/Modules/EOE/EOE-ioNIC/eoe-ionic-evb',
+									// 'Product/Modules/EOE/EOE-W55RP20/eoe-w55rp20-evb', // Pre-release
 								],
 							},
 							{
 								type: 'category',
-								label: 'EOE-W63E',
-								link: {type: 'doc', id: 'Product/Modules/EOE/EOE-W63E/eoe-w63e'},
+								label: 'EOE-W55',
+								link: {type: 'doc', id: 'Product/Modules/EOE/EOE-W55/eoe-w55'},
 								items: [
 									{
 										type: 'category',
 										label: 'Documentation',
 										items: [
-											'Product/Modules/EOE/EOE-W63E/eoe-w63e-datasheet-en',
-											'Product/Modules/EOE/EOE-W63E/eoe-w63e-datasheet-kr',
+											'Product/Modules/EOE/EOE-W55/eoe-w55-datasheet-en',
+											'Product/Modules/EOE/EOE-W55/eoe-w55-datasheet-kr',
 										],
 									},
-									'Product/Modules/EOE/EOE-W63E/eoe-w63e-evb',
+									// 'Product/Modules/EOE/EOE-W55/eoe-w55-evb', // Pre-release
+								],
+							},
+							{
+								type: 'category',
+								label: 'EOE-W63',
+								link: {type: 'doc', id: 'Product/Modules/EOE/EOE-W63/eoe-w63'},
+								items: [
+									{
+										type: 'category',
+										label: 'Documentation',
+										items: [
+											'Product/Modules/EOE/EOE-W63/eoe-w63-datasheet-en',
+											'Product/Modules/EOE/EOE-W63/eoe-w63-datasheet-kr',
+										],
+									},
+									// 'Product/Modules/EOE/EOE-W63/eoe-w63-evb', // Pre-release
 								],
 							},
 						],
-					},
-					{
+					},					{
 						type: 'category',
 						label: 'Wi-Fi Module',
 						link: {type: 'doc', id: 'Product/Modules/Wi-Fi-Module/wi_fi_module'},
