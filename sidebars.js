@@ -1986,6 +1986,52 @@ module.exports = {
 					},
 					{
 						type: 'category',
+						label: 'EOE',
+						link: {type: 'doc', id: 'Product/Modules/EOE/eoe'},
+						items: [
+							{
+								type: 'category',
+								label: 'EOE-ioNIC',
+								link: {type: 'doc', id: 'Product/Modules/EOE/EOE-ioNIC/eoe-ionic'},
+								items: [
+									{
+										type: 'category',
+										label: 'Documentation',
+										items: [
+											'Product/Modules/EOE/EOE-ioNIC/eoe-ionic-datasheet-en',
+											'Product/Modules/EOE/EOE-ioNIC/eoe-ionic-datasheet-kr',
+										],
+									},
+									{
+										type: 'category',
+										label: 'Setup & Configuration',
+										items: [
+											'Product/Modules/EOE/EOE-ioNIC/eoe-ionic-configuration-tool-guide-en',
+										],
+									},
+									'Product/Modules/EOE/EOE-ioNIC/eoe-ionic-evb',
+								],
+							},
+							{
+								type: 'category',
+								label: 'EOE-W63E',
+								link: {type: 'doc', id: 'Product/Modules/EOE/EOE-W63E/eoe-w63e'},
+								items: [
+									{
+										type: 'category',
+										label: 'Documentation',
+										items: [
+											'Product/Modules/EOE/EOE-W63E/eoe-w63e-datasheet-en',
+											'Product/Modules/EOE/EOE-W63E/eoe-w63e-datasheet-kr',
+										],
+									},
+									'Product/Modules/EOE/EOE-W63E/eoe-w63e-evb',
+								],
+							},
+						],
+					},
+					{
+						type: 'category',
 						label: 'Wi-Fi Module',
 						link: {type: 'doc', id: 'Product/Modules/Wi-Fi-Module/wi_fi_module'},
 						items: [
