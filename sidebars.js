@@ -2010,6 +2010,7 @@ module.exports = {
 										],
 									},
 									// 'Product/Modules/EOE/EOE-W55RP20/eoe-w55rp20-evb', // Pre-release
+									
 								],
 							},
 							{
@@ -2039,6 +2040,22 @@ module.exports = {
 										items: [
 											'Product/Modules/EOE/EOE-W63/eoe-w63-datasheet-en',
 											'Product/Modules/EOE/EOE-W63/eoe-w63-datasheet-kr',
+										],
+									},
+									// 'Product/Modules/EOE/EOE-W63/eoe-w63-evb', // Pre-release
+								],
+							},
+							{
+								type: 'category',
+								label: 'EOE-55RPL',
+								link: {type: 'doc', id: 'Product/Modules/EOE/EOE-55RPL/eoe-55rpl'},
+								items: [
+									{
+										type: 'category',
+										label: 'Documentation',
+										items: [
+											'Product/Modules/EOE/EOE-55RPL/eoe-55rpl-datasheet-en',
+											'Product/Modules/EOE/EOE-55RPL/eoe-55rpl-datasheet-kr',
 										],
 									},
 									// 'Product/Modules/EOE/EOE-W63/eoe-w63-evb', // Pre-release
