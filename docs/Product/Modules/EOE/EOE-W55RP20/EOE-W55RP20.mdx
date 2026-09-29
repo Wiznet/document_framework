@@ -11,18 +11,21 @@ title: EOE-W55RP20
 
 ## Overview
 
-A compact module built on the WIZnet W55RP20. The onboard Hardwired TCP/IP engine handles all network processing in silicon, freeing the MCU core entirely for application logic. With Serial-to-Ethernet firmware pre-loaded out of the box, the module can be deployed directly into industrial equipment — no additional firmware development required.
+The EOE-W55RP20 is a compact Ethernet MCU module based on the WIZnet W55RP20, integrating a dual-core Arm Cortex-M0+ MCU and a Hardwired TCP/IP Ethernet controller in a small form factor.
+The module is supplied without application firmware by default, allowing firmware to be configured according to the customer's application requirements.
+WIZnet can provide ready-to-use or customized firmware for various applications, including Serial-to-Ethernet, multi-port Serial-to-Ethernet, SNMP, and other customer-specific network applications.
+This approach allows customers to use the same compact hardware platform while selecting the firmware functionality required for their product.
 
 ## Specifications
 
 | Item | Specification |
 | --- | --- |
-| Type | Serial-to-Ethernet System-on-Module |
+| Type | Customizable Ethernet MCU Module |
 | Main device | W55RP20: dual-core Arm Cortex-M0+ MCU up to 133 MHz, integrated W5500, and 2 MB flash |
 | Ethernet | 10/100 Mbps Ethernet, IPv4 |
 | Host interface | UART or SPI, selected by `SPI_IF_SEL` |
-| Serial interfaces | Up to two TTL UART channels with full modem control (TXD, RXD, RTS, CTS, DTR, DSR) |
-| Serial protocols | MQTT / MQTTS, SSL/TLS, Modbus RTU/ASCII |
+| Serial interfaces | Multiple UART interfaces available depending on firmware and hardware configuration |
+| Available protocols | MQTT / MQTTS, SSL/TLS, Modbus RTU/ASCII |
 | Configuration | Serial AT commands or the Configuration Tool; WIZ VSP (Virtual Serial Port) supported |
 | Debug | SWD and a separate Debug UART |
 | USB | Native USB signals exposed on the module interface |
@@ -47,17 +50,39 @@ A compact module built on the WIZnet W55RP20. The onboard Hardwired TCP/IP engin
   </figure>
 </div>
 
+## Firmware Options
+
+The EOE-W55RP20 is designed as a flexible hardware platform that can support different firmware configurations depending on the customer's application.
+
+Typical firmware options include:
+
+- Serial-to-Ethernet
+- 2-Port Serial-to-Ethernet
+- 3-Port Serial-to-Ethernet
+- 4-Port Serial-to-Ethernet
+- SNMP applications
+- Customer-specific Ethernet applications
+
+Serial-to-Ethernet firmware is available as a standard firmware option.
+For applications requiring multiple serial channels, 2-Port, 3-Port, and 4-Port Serial-to-Ethernet firmware can also be provided upon request.
+Additional protocols or application-specific functions can also be implemented through WIZnet's custom firmware service.
+
 ## Custom Firmware Service
 
-EOE-W55RP20 supports tailored firmware and protocol customization through WIZnet Custom Service.
+WIZnet can configure the EOE-W55RP20 firmware according to customer requirements.
+The module is not limited to a single predefined application. Customers can select the required communication interfaces, network protocols, and application functions.
+Examples include:
 
-Example applications:
+- Number of serial ports
+- Serial-to-Ethernet functionality
+- TCP/UDP communication
+- Modbus communication
+- MQTT communication
+- SNMP applications
+- Device monitoring and control functions
+- Customer-specific network protocols and application logic
 
-- Serial-to-Ethernet conversion
-- Up to two serial ports; the module pins are TTL, so RS-232 and RS-422/485 need a transceiver on the carrier board
-- Modbus RTU and Modbus TCP
-- TCP, UDP, MQTT, HTTP/S, and TLS/SSL
-- Serial baud rate up to 4 Mbps
+Firmware requirements can be discussed and configured with WIZnet according to the target application.
 
 ## Documentation
 
