@@ -195,12 +195,11 @@ The complete 70-pin edge-interface diagram will be added when the pinout image i
 
 ### Dimension
 
-|                          |
-| ------------------------ |
-| TBD                      |
-| ***EOE-W55RP20 Revision 1.0 Dimension*** |
-
-- TBD (mm)
+<img
+  src="/img/products/EOE-W55RP20/eoe-w55rp20-dimension.png"
+  alt="EOE-W55RP20 module"
+  style={{display: 'block', width: '200%', maxWidth: '1000px', height: 'auto', margin: '0 auto 1rem'}}
+/>
 
 ## Manuals
 
