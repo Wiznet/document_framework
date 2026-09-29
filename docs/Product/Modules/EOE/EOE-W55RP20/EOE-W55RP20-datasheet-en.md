@@ -53,6 +53,14 @@ board. The module is powered directly from a 3.3V rail.
 - SWD debug port (`SWCLK` / `SWD`)
 - 70-pin castellated edge interface on all four sides
 
+## Pinout
+
+<img
+  src="/img/products/EOE-W55RP20/eoe-w55rp20-pinout.png"
+  alt="EOE-W55RP20 module"
+  style={{display: 'block', width: '100%', maxWidth: '560px', height: 'auto', margin: '0 auto 1rem'}}
+/>
+
 ## Electrical Specification
 
 | Item | Symbol | Min | Typ | Max | Unit | Remarks |
