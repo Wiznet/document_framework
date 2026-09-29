@@ -58,7 +58,7 @@ board. The module is powered directly from a 3.3V rail.
 <img
   src="/img/products/EOE-W55RP20/eoe-w55rp20-pinout.png"
   alt="EOE-W55RP20 module"
-  style={{display: 'block', width: '100%', maxWidth: '1000px', height: 'auto', margin: '0 auto 1rem'}}
+  style={{display: 'block', width: '200%', maxWidth: '1000px', height: 'auto', margin: '0 auto 1rem'}}
 />
 
 ## Electrical Specification
