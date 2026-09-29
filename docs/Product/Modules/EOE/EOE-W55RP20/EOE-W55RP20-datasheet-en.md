@@ -104,10 +104,8 @@ Both clock sources are fitted on the module. No external clock input is needed.
 
 ### Ethernet MDI Interface
 
-The module implements the full W5500 analog front end: 49.9 Ω 1% differential termination,
-3.3 Ω series matching resistors on each MDI line, and the 12.4 kΩ 1% bandgap reference.
-The carrier board only has to provide the **RJ45 magnetics** (or a magnetics-integrated
-RJ45 jack) and the cable-side termination.
+All circuitry required for the Ethernet MDI interface is already implemented inside the module.
+You only need to connect the MDI pins directly to the LAN transformer.
 
 | Module pin | Signal | Connect to |
 | ---------- | ------ | ---------- |
@@ -118,22 +116,8 @@ RJ45 jack) and the cable-side termination.
 | 33 | MDI_R1_P | Transformer receive pair + |
 | 34 | MDI_R1_N | Transformer receive pair − |
 
-Typical RJ45 wiring on the carrier board (cable side of the magnetics):
-
-| RJ45 pin | Signal | Description |
-| -------- | ------ | ----------- |
-| 1 | TXP | TX+ |
-| 2 | TXN | TX− |
-| 3 | RXP | RX+ |
-| 4 | —   | Unused (or PoE pair) |
-| 5 | —   | Unused (or PoE pair) |
-| 6 | RXN | RX− |
-| 7 | —   | Unused (or PoE pair) |
-| 8 | —   | Unused (or PoE pair) |
-
 :::note
-The EOE-W55RP20 does **not** include PoE. If PoE is required it must be implemented on the
-carrier board; when it is, pins 4/5 and 7/8 must carry opposite polarity.
+The LAN transformer must be selected so that the RCT and TCT pins are isolated from each other.
 :::
 
 ### Status LED Signals
@@ -154,23 +138,6 @@ When repeating these signals with an additional LED on the carrier board, size t
 resistor for the extra load — the module LED is already drawing from the same PHY pin.
 :::
 
-### Control and Mode-Select Pins
-
-These are **pins, not switches or buttons.** Drive them from the carrier board (jumper,
-push button, or host GPIO) as required.
-
-| Module pin | Signal | Function |
-| ---------- | ------ | -------- |
-| 51 / 62 | RSTn      | Active-low reset (4.7 kΩ pull-up on-module) |
-| 41 | RP_BOOT   | RP2040 BOOTSEL — hold low at reset to enumerate as a USB mass-storage device |
-| 13 | FW_BOOT   | Enter W55RP20-S2E firmware boot mode (active low) |
-| 40 | FACT_RSTn | Factory reset — drive low for ≥ 5 s to restore factory settings |
-| 12 | HW_TRIG   | Low: AT command mode / High: gateway mode |
-| 17 | DEBUG     | Debug UART enable |
-| 11 | SPI_IF_SEL   | High: SPI host interface / Low or NC: UART host interface |
-| 10 | UART0_IF_SEL | UART0 interface select (TTL/232 vs 485/422) |
-| 14 | UART1_IF_SEL | UART1 interface select (TTL/232 vs 485/422) |
-
 ### USB Interface
 
 `D_P` (pin 19) and `D_N` (pin 18) are the W55RP20's **native USB** lines — there is no
@@ -188,10 +155,6 @@ in the [Manuals](#manuals) section.
 | 67 | SWCLK | Serial Wire Debug clock |
 | 68 | SWD   | Serial Wire Debug data |
 | 62 | RSTn  | Reset (shared with pin 51) |
-
-### Pin-out
-
-The complete 70-pin edge-interface diagram will be added when the pinout image is available.
 
 ### Dimension
 
