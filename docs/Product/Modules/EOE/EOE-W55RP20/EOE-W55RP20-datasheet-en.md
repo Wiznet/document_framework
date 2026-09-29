@@ -215,20 +215,6 @@ The complete 70-pin edge-interface diagram will be added when the pinout image i
 
 ## Design file
 
-### Schematic
-
-| H/W version | Filetype | Download Link | Remarks |
-| ----------- | -------- | ------------- | ------- |
-| 1.0         | Altium   | TBD           | -       |
-| :::         | PDF      | TBD           | :::     |
-
-### Part list
-
-| H/W version | Filetype | Download Link | Remarks |
-| ----------- | -------- | ------------- | ------- |
-| 1.0         | Excel    | TBD           | -       |
-| :::         | PDF      | TBD           | :::     |
-
 ### 3D file
 
 | H/W version | Filetype | Download Link | Remarks |
