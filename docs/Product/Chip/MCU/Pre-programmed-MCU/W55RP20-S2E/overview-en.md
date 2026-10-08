@@ -70,17 +70,17 @@ The **W55RP20-S2E** is a pre-programmed product with an Serial to Ethernet FW an
 | 6          | AVDD        | TOE Analog 3.3V power                    |
 | 7          | EXRES1      | External Resistor pin<br />Connect a resistor of 12.4KΩ to the AGND.<br />(Refer to the “Reference schematic”)      |
 | 8          | AVDD        | TOE Analog 3.3V power                   |
-| 9          | UART1_TX / SPI_MOSI | Serial data TX / MOSI pin for Data SPI transmission |
+| 9          | UART1_TX / SPI_RX | Serial data TX (UART Mode) / RX pin for Data SPI reception (SPI Mode) |
 | 10         | UART1_RX / SPI_CSn  | Serial data RX / SPI Chip Select pin        |
 | 11         | UART1_CTS   | Clear To Send (RX)<br />Associated with the RTS of the connected device and is used to transmit data when the RTS sent from that pin is low.                                                                                                                                            |
 | 12         | UART1_RTS   | Request To Send<br />Connects with the CTS of the connected equipment and sends a low signal when the W55RP20-S2E is in a state where it can receive data.<br /><br />When 485/422 selected by UART_IF_SEL pin, this pin act as 485/422 select pin. <br />NC : 485<br />Low : 422<br /> |
 | 13         | IOVDD       | Digital IO Supply<br />Power supply for digital GPIOs, nominal voltage 3.3V                                                                                                                                                                                                             |
-| 14         | DTR         | Data Terminal Ready (TX)<br />Connected to the device's DSR pin to show that it is ready to communicate.                                                                                                                                                                                |
-| 15         | DSR         | Data Set Ready (RX)<br />Connected to the device's DTR pin to indicate that it is ready for communication.                                                                                                                                                                              |
+| 14         | UART_DTR | Data Terminal Ready (TX)<br />Connected to the device's DSR pin to show that it is ready to communicate.                                                                                                                                                                                |
+| 15         | UART_DSR | Data Set Ready (RX)<br />Connected to the device's DTR pin to indicate that it is ready for communication.                                                                                                                                                                              |
 | 16         | LINK_STATUS | Link Status signal<br />High : Link<br />Low : UnLink       |
-| 17         | TCP_STATUS  | TCP Connection<br />High : Connect<br />Low : Disconnect        |
+| 17         | STATUS_TCPCONNECT | TCP Connection<br />High : Connect<br />Low : Disconnect        |
 | 18         | UART_IF_SEL | UART Interface select <br /> High : 485/422<br />Low or NC : TTL/232|
-| 19         | UART_SPI_SEL | UART/SPI interface select pin<br />High:SPI, Low/NC:UART |
+| 19         | UART_SPI_IF_SEL | UART/SPI interface select pin<br />High:SPI, Low/NC:UART |
 | 20         | HW_TRIG     | AT Command mode pin<br />High : Gateway Mode (default)<br />Low : AT Command Mode<br />Changes will be reflected after reset                                                                                                                                                                |
 | 21         | BOOT_MODE   | Boot Mode pin<br />Low : Enter W55RP20-S2E BOOT mode<br />Changes will be reflected after reset                                                                                                                                                                                           |
 | 22         | TESTEN      | Factory test mode pin<br />Tie to GND.                      |
@@ -91,7 +91,7 @@ The **W55RP20-S2E** is a pre-programmed product with an Serial to Ethernet FW an
 | 27         | SWCLK       | Debug clock/data<br />Access to the internal Serial Wire Debug multi-drop bus. Provides debug access to both processors, and can be used to download code.         |
 | 28         | SWD         | Debug clock/data                                        |
 | 29         | RUN         | Global asynchronous reset pin<br />Reset when driven low, run when driven high. If no external reset is required, this pin can be tied directly to IOVDD.                              |
-| 30         | RESERVED    | RESERVED PIN                                        |
+| 30         | NC | No Connect |
 | 31         | AVDD        | TOE Analog 3.3V power            |
 | 32         | VBG         | Output of band gap                               |
 | 33         | TOCAP       | External Reference Capacitor<br />This pin must be connected to a 4.7uF capacitor. The trace length to capacitor should be short to stabilize the internal signals.                     |
@@ -102,15 +102,15 @@ The **W55RP20-S2E** is a pre-programmed product with an Serial to Ethernet FW an
 | 38         | DUPLED      | Duplex LED<br />This shows the Duplex status for the connected link.<br />Low: Full-duplex mode<br />High: Half-duplex mode                    |
 | 39         | ACTLED      | Active LED<br />This shows that there is Carrier sense (CRS) from the active Physical Medium Sub-layer (PMD) during TX or RX activity.<br />Low: Carrier sense from the active PMD<br />High: No carrier sense    |
 | 40         | FACT_RESET  | Factory Reset Pin<br />Drive this pin to Low for at least 5.0s then W55RP20-S2E will be reset to factory settings         |
-| 41         | RUN_STATUS  | Switch Toggle every 1.0s when W55RP20-S2E application is working.  |
+| 41         | LED | Switch Toggle every 1.0s when W55RP20-S2E application is working.  |
 | 42         | VDD         | TOE Digital 3.3V Power                                  |
 | 43         | IOVDD       | Digital IO Supply<br />Power supply for digital GPIOs, nominal voltage 3.3V    |
 | 44         | XI          | 25MHz crystal input/output<br />A 25MHz crystal and oscillator is used to connect these pins.   |
 | 45         | XO          | 25MHz crystal input/output<br />A 25MHz crystal and oscillator is used to connect these pins.   |
-| 46         | SPI_INT     | SPI Master Recv data pending pin |
-| 47         | RESERVED    | RESERVED PIN        |
-| 48         | RESERVED    | RESERVED PIN          |
-| 49         | RESERVED    | RESERVED PIN          |
+| 46         | DATA_SPI_INT | SPI Master Recv data pending pin |
+| 47         | NC | No Connect |
+| 48         | NC | No Connect |
+| 49         | NC | No Connect |
 | 50         | PMODE2      | PHY Operation mode select pins.<br />Default: Pull-up (77kΩ)<br /> |
 | 51         | PMODE1      | PHY Operation mode select pins.<br />Default: Pull-up (77kΩ)<br /> |
 | 52         | PMODE0      | PHY Operation mode select pins.<br />Default: Pull-up (77kΩ)<br /> |
@@ -120,7 +120,7 @@ The **W55RP20-S2E** is a pre-programmed product with an Serial to Ethernet FW an
 | 56         | VREG_VOUT   | Voltage regulator output<br />Power output for the internal core voltage regulator, nominal voltage 1.1V, 100mA max current.       |
 | 57         | USB_DM      | USB controller, supporting Full Speed device and Full/Low Speed host. A 27Ω series termination resistor is required on each pin, but bus pull-ups and pull-downs are provided internally.  |
 | 58         | USB_DP      | USB controller            |
-| 59         | USB_VDD     | USB supply<br />Power supply for internal USB Full Speed PHY, nominal voltage 3.3V |
+| 59         | USB_VDDIO | USB supply<br />Power supply for internal USB Full Speed PHY, nominal voltage 3.3V |
 | 60         | IOVDD       | Digital IO Supply<br />Power supply for digital GPIOs, nominal voltage 3.3V |
 | 61         | DVDD        | Digital core power supply, nominal voltage 1.1V. Can be connected to VREG_VOUT, or to some other board-level power supply    |
 | 62         | VDD         | Power supply of the Flash Memory   |
@@ -129,7 +129,7 @@ The **W55RP20-S2E** is a pre-programmed product with an Serial to Ethernet FW an
 | 65         | UART0_TX    | Debug TX       |
 | 66         | UART0_RX    | Debug RX       |
 | 67         | SPI_SCK     | SCK input pin for Data SPI transmission (SPI MODE) |
-| 68         | SPI_MISO    | MISO pin for Data SPI reception (SPI MODE) |
+| 68         | SPI_TX | TX pin for Data SPI transmission (SPI Mode) |
 | 69         | GND    | Ground       |
 
 ****BOOT_MODE pin is for Entering W55RP20-S2E BOOT mode and BOOT pin is for Entering RP2040 core BOOT mode.**

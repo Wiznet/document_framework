@@ -463,17 +463,13 @@ module.exports = {
 											},
 										],
 									},
+									{
+										type: 'doc',
+										id: 'Product/Chip/MCU/Pre-programmed-MCU/W55RP20-2S2E/W55RP20-2S2E',
+										label: 'W55RP20-S2E [2Port]',
+									},
 								],
 							},
-
-							{
-							 type: 'category',
-							 label: 'W55RP20-2S2E',
-							 items: [
-										'Product/Chip/MCU/Pre-programmed-MCU/W55RP20-2S2E/W55RP20-2S2E',
-										
-									],		
-					},	
 				],
 			},
 		],
