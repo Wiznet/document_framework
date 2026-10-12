@@ -166,7 +166,9 @@ export default function DocSidebarItemCategory({
               ? (e) => {
                   onItemClick?.(item);
                   if (href) {
-                    if (isActive) {
+                    // Collapse only when already on the category page itself;
+                    // from a child page, clicking the label navigates to it.
+                    if (isCurrentPage) {
                       e.preventDefault();
                       updateCollapsed();
                     } else {
