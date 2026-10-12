@@ -92,6 +92,13 @@ slug: /
   - [WIZwiki-W7500 mbed Starter Kit](./Chip/MCU/Mbed-WIZwiki-Platform/WIZwiki-W7500-Mbed-Starter-Kit/WIZwiki-W7500-Mbed-Starter-Kit.md)
 
 -----
+
+# Industrial Solutions
+### SNMP
+
+  - [EOE-ioNIC SNMP Module](./Industrial-Solutions/SNMP/SNMP.mdx): Adds SNMP management to your equipment through UART AT commands
+
+-----
 <!-- 
 ## Open Source Hardware
 
