@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 940 230" width="940" height="230" font-family="'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif">
+  <title>EOE-ioNIC SNMP module system diagram: Host MCU, UART (AT commands), EOE-ioNIC module (W55RP20), Ethernet (SNMP), SNMP manager (NMS)</title>
+
+  <!-- card background, keeps the diagram readable in dark mode -->
+  <rect x="0.5" y="0.5" width="939" height="229" rx="12" fill="#ffffff" stroke="#e3e8ee"/>
+
+  <!-- connectors (drawn first so the cards sit on top) -->
+  <line x1="240" y1="115" x2="360" y2="115" stroke="#52606d" stroke-width="2"/>
+  <line x1="580" y1="115" x2="700" y2="115" stroke="#52606d" stroke-width="2"/>
+
+  <!-- Host MCU -->
+  <rect x="20" y="30" width="220" height="170" rx="12" fill="#f6f8fa" stroke="#cdd5dd" stroke-width="1.5"/>
+  <rect x="110" y="52" width="40" height="40" rx="5" fill="none" stroke="#52606d" stroke-width="2"/>
+  <path d="M118 46v6M130 46v6M142 46v6M118 92v6M130 92v6M142 92v6M104 60h6M104 72h6M104 84h6M150 60h6M150 72h6M150 84h6" stroke="#52606d" stroke-width="2"/>
+  <text x="130" y="128" text-anchor="middle" font-size="18" font-weight="600" fill="#1f2933">Host MCU</text>
+  <text x="130" y="154" text-anchor="middle" font-size="14" fill="#52606d">sensor values</text>
+  <text x="130" y="175" text-anchor="middle" font-size="14" fill="#52606d">status values</text>
+
+  <!-- UART link label -->
+  <rect x="266" y="102" width="68" height="26" rx="13" fill="#ffffff" stroke="#52606d" stroke-width="1.5"/>
+  <text x="300" y="120" text-anchor="middle" font-size="13" font-weight="600" fill="#1f2933">UART</text>
+  <text x="300" y="148" text-anchor="middle" font-size="12" fill="#52606d">AT commands</text>
+
+  <!-- EOE-ioNIC module (highlighted) -->
+  <rect x="360" y="30" width="220" height="170" rx="12" fill="#e9f9f5" stroke="#25c2a0" stroke-width="2.5"/>
+  <path d="M440 44v6M452 44v6M464 44v6M476 44v6M488 44v6M500 44v6M440 94v6M452 94v6M464 94v6M476 94v6M488 94v6M500 94v6" stroke="#25c2a0" stroke-width="2"/>
+  <rect x="428" y="50" width="84" height="44" rx="5" fill="#25c2a0"/>
+  <text x="470" y="77" text-anchor="middle" font-size="14" font-weight="700" fill="#ffffff">W55RP20</text>
+  <text x="470" y="128" text-anchor="middle" font-size="18" font-weight="600" fill="#1a8870">EOE-ioNIC module</text>
+  <text x="470" y="154" text-anchor="middle" font-size="14" fill="#52606d">SNMP objects</text>
+  <text x="470" y="175" text-anchor="middle" font-size="14" fill="#52606d">Trap / Inform</text>
+
+  <!-- Ethernet link label -->
+  <rect x="601" y="102" width="78" height="26" rx="13" fill="#ffffff" stroke="#52606d" stroke-width="1.5"/>
+  <text x="640" y="120" text-anchor="middle" font-size="13" font-weight="600" fill="#1f2933">Ethernet</text>
+  <text x="640" y="148" text-anchor="middle" font-size="12" fill="#52606d">SNMP</text>
+
+  <!-- SNMP manager -->
+  <rect x="700" y="30" width="220" height="170" rx="12" fill="#f6f8fa" stroke="#cdd5dd" stroke-width="1.5"/>
+  <rect x="784" y="52" width="52" height="34" rx="3" fill="none" stroke="#52606d" stroke-width="2"/>
+  <polyline points="792,78 802,70 810,74 820,62 828,66" fill="none" stroke="#25c2a0" stroke-width="2" stroke-linejoin="round" stroke-linecap="round"/>
+  <path d="M810 86v8M798 94h24" stroke="#52606d" stroke-width="2" stroke-linecap="round"/>
+  <text x="810" y="128" text-anchor="middle" font-size="18" font-weight="600" fill="#1f2933">SNMP manager (NMS)</text>
+  <text x="810" y="154" text-anchor="middle" font-size="14" fill="#52606d">GET / SET</text>
+  <text x="810" y="175" text-anchor="middle" font-size="14" fill="#52606d">monitoring · control</text>
+</svg>
