@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 940 230" width="940" height="230" font-family="'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif">
-  <title>EOE-ioNIC SNMP module system diagram: Host MCU, UART (AT commands), EOE-ioNIC module (W55RP20), Ethernet (SNMP), SNMP manager (NMS)</title>
+  <title>EOE-W55RP20 SNMP module system diagram: Host MCU, UART (AT commands), EOE-W55RP20 module (W55RP20), Ethernet (SNMP), SNMP manager (NMS)</title>
 
   <!-- card background, keeps the diagram readable in dark mode -->
   <rect x="0.5" y="0.5" width="939" height="229" rx="12" fill="#ffffff" stroke="#e3e8ee"/>
@@ -22,12 +22,12 @@
   <text x="300" y="120" text-anchor="middle" font-size="13" font-weight="600" fill="#1f2933">UART</text>
   <text x="300" y="148" text-anchor="middle" font-size="12" fill="#52606d">AT commands</text>
 
-  <!-- EOE-ioNIC module (highlighted) -->
+  <!-- EOE-W55RP20 module (highlighted) -->
   <rect x="360" y="30" width="220" height="170" rx="12" fill="#e9f9f5" stroke="#25c2a0" stroke-width="2.5"/>
   <path d="M440 44v6M452 44v6M464 44v6M476 44v6M488 44v6M500 44v6M440 94v6M452 94v6M464 94v6M476 94v6M488 94v6M500 94v6" stroke="#25c2a0" stroke-width="2"/>
   <rect x="428" y="50" width="84" height="44" rx="5" fill="#25c2a0"/>
   <text x="470" y="77" text-anchor="middle" font-size="14" font-weight="700" fill="#ffffff">W55RP20</text>
-  <text x="470" y="128" text-anchor="middle" font-size="18" font-weight="600" fill="#1a8870">EOE-ioNIC module</text>
+  <text x="470" y="128" text-anchor="middle" font-size="18" font-weight="600" fill="#1a8870">EOE-W55RP20 module</text>
   <text x="470" y="154" text-anchor="middle" font-size="14" fill="#52606d">SNMP objects</text>
   <text x="470" y="175" text-anchor="middle" font-size="14" fill="#52606d">Trap / Inform</text>
 
