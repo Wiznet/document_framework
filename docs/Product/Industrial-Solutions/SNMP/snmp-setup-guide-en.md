@@ -15,7 +15,7 @@ description: Connecting an SNMP manager, communities, OID mapping, CSV object re
 ---
 # EOE-ioNIC SNMP Module SNMP Setup Guide
 
-Firmware 1.2.0
+<p style={{textAlign: 'right'}}>Firmware 1.2.0</p>
 
 This guide covers installing the SNMP tools on the manager PC, reading and writing over
 SNMPv3, v1/v2c communities, where objects are placed in the OID tree, CSV mapping, and Traps

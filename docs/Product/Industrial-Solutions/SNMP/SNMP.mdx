@@ -17,27 +17,13 @@ import TabItem from '@theme/TabItem';
 
 # EOE-ioNIC SNMP Module
 
-The EOE-ioNIC SNMP module is an embedded Ethernet module that adds SNMP management to your equipment.
-
-## Supported Hardware
-
-This firmware (1.2.0) runs on the following hardware. To purchase, contact [direct.wiznet.io](https://direct.wiznet.io).
-
-| [WIZ-IP20](../../Modules/Serial-to-Ethernet-Module/WIZ-IP20/IP-20.mdx) | [W232N](../../Modules/Serial-to-Ethernet-Module/W232N/W232N.mdx) | [EOE-W55RP20](../../Modules/EOE/EOE-W55RP20/EOE-W55RP20.mdx) |
-|:---:|:---:|:---:|
-| <img src="/img/products/EOE-ioNIC/snmp/wiz-ip20.jpg" alt="WIZ-IP20" style={{height: '140px', width: 'auto', maxWidth: '100%'}} /> | <img src="/img/products/EOE-ioNIC/snmp/w232n.jpg" alt="W232N" style={{height: '140px', width: 'auto', maxWidth: '100%'}} /> | <img src="/img/products/EOE-ioNIC/snmp/eoe-w55rp20.jpg" alt="EOE-W55RP20" style={{height: '140px', width: 'auto', maxWidth: '100%'}} /> |
-| Serial to Ethernet module in a Mag Jack, based on the W55RP20 | Industrial Ethernet to RS-232 converter | Compact Ethernet MCU module based on the W55RP20 |
-
 ## Overview
 
-The module is built on the WIZnet W55RP20, which combines an RP2040 MCU and a W5500 Ethernet controller in one package.
+The EOE-ioNIC SNMP module is an embedded Ethernet module that adds SNMP management to your equipment.
+It is built on the WIZnet W55RP20, which combines an RP2040 MCU and a W5500 Ethernet controller in one package.
 The host MCU only exchanges AT commands over UART. SNMP processing, SNMPv3 authentication and encryption, and TCP/IP are all handled by the module, so the host MCU does not need a network stack.
 
-```text
-   Host MCU      ──UART (AT commands)──  EOE-ioNIC module  ──Ethernet──  SNMP manager (NMS)
-    sensor values                         SNMP objects                    GET / SET
-    status values                         Trap / Inform                   monitoring · control
-```
+![EOE-ioNIC SNMP module system diagram: the host MCU talks to the EOE-ioNIC module over UART with AT commands, and the module talks to the SNMP manager over Ethernet](/img/products/EOE-ioNIC/snmp/snmp-system-diagram.svg)
 
 ## Key Features
 
@@ -51,83 +37,36 @@ The host MCU only exchanges AT commands over UART. SNMP processing, SNMPv3 authe
 - Firmware update over the web interface or UART, verified before installation
 - Diagnostics, watchdog, and factory reset by AT command, web interface or pin
 
----
+## Supported Hardware
 
-## Documentation
+This firmware (1.2.0) runs on the following W55RP20-based hardware. **To purchase, contact [direct.wiznet.io](https://direct.wiznet.io).**
 
-This section provides the reference documentation for the module's AT command interface.
-
-| Title | Description | Link |
-|-------|-------------|------|
-| AT Command Guide | All 61 AT commands, responses, URCs and error codes | ![link](/img/link.png) [EN](./at-command-guide-en.md) |
-
-## Setup & Configuration
-
-This section provides step-by-step guides for connecting the module, setting up an SNMP manager and updating the firmware.
-
-| Title | Description | Link |
-|-------|-------------|------|
-| Getting Started Guide | Step-by-step guide from wiring to reading a value over SNMP | ![link](/img/link.png) [EN](./getting-started-en.md) |
-| SNMP Setup Guide | Connecting an SNMP manager, communities, OID mapping, CSV registration, Traps and Informs | ![link](/img/link.png) [EN](./snmp-setup-guide-en.md) |
-| Firmware Update Guide | Updating the firmware through the web interface or AT commands (UART) | ![link](/img/link.png) [EN](./firmware-update-guide-en.md) |
-
----
-
-## Specifications
-
-| Item | Value |
-|---|---|
-| Objects | 1024 (up to 128 of them strings) |
-| SNMPv3 users | 4 |
-| v1/v2c communities | 4 |
-| Trap/Inform receivers | 4 |
-| TCP/UDP channels | 4 |
-| Socket send size | 1460 bytes |
-| AT command line | 256 bytes |
-
-## Hardware Connections
-
-| Signal | Pins | Direction | Description |
-|---|---|---|---|
-| AT command port | GP4 (TX) · GP5 (RX) | out · in | 115200 8N1 by default, no flow control |
-| AT port flow control | GP6 (CTS) · GP7 (RTS) | in · out | Connect only if flow control is used |
-| Handshake | GP8 (DTR) · GP9 (DSR) | in · out | DSR high means the module is ready for commands |
-| Status outputs | GP10 · GP11 | out | Ethernet link · TCP connection present |
-| Factory reset input | GP18 | in | Internal pull-up. Hold low for 5 s or more to reset |
-| Debug console | GP0 (TX) · GP1 (RX) | out · in | 921600 8N1, separate from the AT port |
-
-- The AT port speed can be set from 9600 to 921600 bps.
-- Flow control: none, RTS/CTS, DTR/DSR or XON/XOFF.
-- For power, operating temperature, dimensions and other electrical and mechanical
-  specifications, see the module hardware datasheet.
-
----
-
-## Quick Start
-
-1. Connect the AT port at 115200 8N1, send `AT` and check that `OK` comes back.
-2. Set the address. Choose DHCP or static with `AT+NETMODE`, then apply it with `AT+SAVE`.
-3. Create an SNMPv3 user. Do not forget `AT+SAVE` after `AT+USMADD`.
-4. Check that the manager can read the module, then create objects and send values.
-
-:::note
-From the factory the module uses the static IP `192.168.11.2` and has no SNMPv3
-users. Reading it before a user exists gives an `Unknown user name` error in the
-manager. It is the error most often seen on a first connection.
-:::
-
-For example, publishing a temperature value over SNMP looks like this:
-
-```text
-AT+OBJADD=1,"temperature",Integer32,RO,VOLATILE    create the object (once)
-AT+SAVE                                            store the definition
-AT+OBJVAL=1,253                                    update the value
-```
-
-A manager reading `1.3.6.1.4.1.52942.1.0` now gets `253`. When the value changes, send
-`AT+OBJVAL` again.
-
-The full procedure is in the [Getting Started Guide](./getting-started-en.md).
+<table style={{display: 'table', width: '100%', tableLayout: 'fixed'}}>
+  <colgroup>
+    <col style={{width: '33.33%'}} />
+    <col style={{width: '33.33%'}} />
+    <col style={{width: '33.33%'}} />
+  </colgroup>
+  <thead>
+    <tr>
+      <th style={{textAlign: 'center'}}><a href="/Product/Modules/Serial-to-Ethernet-Module/WIZ-IP20">WIZ-IP20</a></th>
+      <th style={{textAlign: 'center'}}><a href="/Product/Modules/Serial-to-Ethernet-Module/W232N">W232N</a></th>
+      <th style={{textAlign: 'center'}}><a href="/Product/Modules/EOE/EOE-W55RP20">EOE-W55RP20</a></th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td style={{textAlign: 'center'}}><img src="/img/products/EOE-ioNIC/snmp/wiz-ip20.jpg" alt="WIZ-IP20" style={{width: '100%', height: '140px', objectFit: 'contain'}} /></td>
+      <td style={{textAlign: 'center'}}><img src="/img/products/EOE-ioNIC/snmp/w232n.jpg" alt="W232N" style={{width: '100%', height: '140px', objectFit: 'contain'}} /></td>
+      <td style={{textAlign: 'center'}}><img src="/img/products/EOE-ioNIC/snmp/eoe-w55rp20.jpg" alt="EOE-W55RP20" style={{width: '100%', height: '140px', objectFit: 'contain'}} /></td>
+    </tr>
+    <tr>
+      <td style={{textAlign: 'center'}}><strong>Mag Jack module</strong><br />3.3 V TTL UART</td>
+      <td style={{textAlign: 'center'}}><strong>DIN-rail converter</strong><br />RS-232 (D-SUB9)</td>
+      <td style={{textAlign: 'center'}}><strong>Castellated module</strong><br />3.3 V TTL UART</td>
+    </tr>
+  </tbody>
+</table>
 
 ---
 
@@ -242,6 +181,84 @@ relay state or a device name.
 | **Safe factory defaults** | Out of the box the module answers SNMPv3 only, and the web interface is disabled. |
 | **Updates that fail safely** | New firmware is verified, held in a staging area and installed at the next boot. If the transfer is interrupted or the file is damaged, the running firmware stays in place, and firmware for another product is refused. |
 | **Your product's identity** | The vendor identifier a manager reads (sysObjectID) and the OID range where objects are placed can be set to the end-product manufacturer's values. Each module has a unique MAC address written at the factory. |
+
+---
+
+## Documentation
+
+This section provides the reference documentation for the module's AT command interface.
+
+| Title | Description | Link |
+|-------|-------------|------|
+| AT Command Guide | All 61 AT commands, responses, URCs and error codes | ![link](/img/link.png) [EN](./at-command-guide-en.md) |
+
+## Setup & Configuration
+
+This section provides step-by-step guides for connecting the module, setting up an SNMP manager and updating the firmware.
+
+| Title | Description | Link |
+|-------|-------------|------|
+| Getting Started Guide | Step-by-step guide from wiring to reading a value over SNMP | ![link](/img/link.png) [EN](./getting-started-en.md) |
+| SNMP Setup Guide | Connecting an SNMP manager, communities, OID mapping, CSV registration, Traps and Informs | ![link](/img/link.png) [EN](./snmp-setup-guide-en.md) |
+| Firmware Update Guide | Updating the firmware through the web interface or AT commands (UART) | ![link](/img/link.png) [EN](./firmware-update-guide-en.md) |
+
+---
+
+## Specifications
+
+| Item | Value |
+|---|---|
+| Objects | 1024 (up to 128 of them strings) |
+| SNMPv3 users | 4 |
+| v1/v2c communities | 4 |
+| Trap/Inform receivers | 4 |
+| TCP/UDP channels | 4 |
+| Socket send size | 1460 bytes |
+| AT command line | 256 bytes |
+
+## Hardware Connections
+
+| Signal | Pins | Direction | Description |
+|---|---|---|---|
+| AT command port | GP4 (TX) · GP5 (RX) | out · in | 115200 8N1 by default, no flow control |
+| AT port flow control | GP6 (CTS) · GP7 (RTS) | in · out | Connect only if flow control is used |
+| Handshake | GP8 (DTR) · GP9 (DSR) | in · out | DSR high means the module is ready for commands |
+| Status outputs | GP10 · GP11 | out | Ethernet link · TCP connection present |
+| Factory reset input | GP18 | in | Internal pull-up. Hold low for 5 s or more to reset |
+| Debug console | GP0 (TX) · GP1 (RX) | out · in | 921600 8N1, separate from the AT port |
+
+- The AT port speed can be set from 9600 to 921600 bps.
+- Flow control: none, RTS/CTS, DTR/DSR or XON/XOFF.
+- For power, operating temperature, dimensions and other electrical and mechanical
+  specifications, see the module hardware datasheet.
+
+---
+
+## Quick Start
+
+1. Connect the AT port at 115200 8N1, send `AT` and check that `OK` comes back.
+2. Set the address. Choose DHCP or static with `AT+NETMODE`, then apply it with `AT+SAVE`.
+3. Create an SNMPv3 user. Do not forget `AT+SAVE` after `AT+USMADD`.
+4. Check that the manager can read the module, then create objects and send values.
+
+:::note
+From the factory the module uses the static IP `192.168.11.2` and has no SNMPv3
+users. Reading it before a user exists gives an `Unknown user name` error in the
+manager. It is the error most often seen on a first connection.
+:::
+
+For example, publishing a temperature value over SNMP looks like this:
+
+```text
+AT+OBJADD=1,"temperature",Integer32,RO,VOLATILE    create the object (once)
+AT+SAVE                                            store the definition
+AT+OBJVAL=1,253                                    update the value
+```
+
+A manager reading `1.3.6.1.4.1.52942.1.0` now gets `253`. When the value changes, send
+`AT+OBJVAL` again.
+
+The full procedure is in the [Getting Started Guide](./getting-started-en.md).
 
 ---
 

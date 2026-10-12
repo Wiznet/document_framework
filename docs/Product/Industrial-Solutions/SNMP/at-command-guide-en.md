@@ -12,7 +12,7 @@ description: Reference for all 61 AT commands of the EOE-ioNIC SNMP module
 ---
 # EOE-ioNIC SNMP Module AT Command Guide
 
-Firmware 1.2.0 · 61 commands
+<p style={{textAlign: 'right'}}>Firmware 1.2.0 · 61 commands</p>
 
 AT commands are exchanged on `uart1` (GP4 TX / GP5 RX). The factory default is
 115200 8N1, no flow control.
@@ -20,6 +20,23 @@ AT commands are exchanged on `uart1` (GP4 TX / GP5 RX). The factory default is
 The console log goes out separately on `uart0`, so it never mixes into the AT port.
 
 For installation and connecting an SNMP manager, see the [SNMP Setup Guide](./snmp-setup-guide-en.md).
+
+| Chapter | Contents |
+|---|---|
+| [Chapter 1](#sec-rules) | Syntax and rules |
+| [Chapter 2](#sec-list) | Command list |
+| [Chapter 3](#sec-device) | Device control |
+| [Chapter 4](#sec-net) | Network |
+| [Chapter 5](#sec-snmp) | SNMP agent and product identity |
+| [Chapter 6](#sec-user) | SNMPv3 users and communities |
+| [Chapter 7](#sec-object) | Objects and OID mapping |
+| [Chapter 8](#sec-notify) | Notifications (Trap · Inform) |
+| [Chapter 9](#sec-socket) | TCP · UDP socket channels |
+| [Chapter 10](#sec-web) | Web management |
+| [Chapter 11](#sec-ota) | Firmware update (OTA) |
+| [Chapter 12](#sec-urc) | URCs (unsolicited messages) |
+| [Chapter 13](#sec-error) | Error codes |
+| [Chapter 14](#sec-index) | Alphabetical index |
 
 ---
 

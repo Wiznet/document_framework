@@ -13,7 +13,7 @@ description: Step-by-step guide from wiring an EOE-ioNIC SNMP module to reading 
 ---
 # EOE-ioNIC SNMP Module Getting Started Guide
 
-Firmware 1.2.0
+<p style={{textAlign: 'right'}}>Firmware 1.2.0</p>
 
 This guide takes a new module to the point where it talks to an SNMP manager, in four
 steps.

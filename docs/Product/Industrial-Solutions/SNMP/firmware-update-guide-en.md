@@ -12,7 +12,7 @@ description: Updating EOE-ioNIC SNMP module firmware through the web interface o
 ---
 # EOE-ioNIC SNMP Module Firmware Update Guide
 
-Firmware 1.2.0
+<p style={{textAlign: 'right'}}>Firmware 1.2.0</p>
 
 This guide explains how to replace the firmware of a running module with a new version.
 There are two ways to do it, and both give the same result.
