@@ -2189,6 +2189,36 @@ module.exports = {
 
 				],
 			},
+			{
+				type: 'category',
+				label: 'Industrial Solutions',
+				items:
+				[
+					{
+						type: 'category',
+						label: 'SNMP',
+						link: {type: 'doc', id: 'Product/Industrial-Solutions/SNMP/snmp'},
+						items: [
+							{
+								type: 'category',
+								label: 'Documentation',
+								items: [
+									'Product/Industrial-Solutions/SNMP/at-command-guide-en',
+								],
+							},
+							{
+								type: 'category',
+								label: 'Setup & Configuration',
+								items: [
+									'Product/Industrial-Solutions/SNMP/getting-started-en',
+									'Product/Industrial-Solutions/SNMP/snmp-setup-guide-en',
+									'Product/Industrial-Solutions/SNMP/firmware-update-guide-en',
+								],
+							},
+						],
+					},
+				],
+			},
 		],
 	},
 	{
