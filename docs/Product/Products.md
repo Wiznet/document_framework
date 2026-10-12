@@ -56,9 +56,9 @@ slug: /
  * [WIZ550S2E](./Modules/Serial-to-Ethernet-Module/WIZ550S2E/WIZ550S2E.md)
  * [WIZ107SR](./Modules/Serial-to-Ethernet-Module/WIZ107SR/wiz107sr.md)
  * [WIZ108SR](./Modules/Serial-to-Ethernet-Module/WIZ108SR/wiz108sr.md)
- * [WIZ-IP20](./Modules/Serial-to-Ethernet-Module/WIZ-IP20/IP-20.md)
- * [WIZ-IP75](./Modules/Serial-to-Ethernet-Module/WIZ-IP75/IP-75.md)
- * [WIZ-IP32](./Modules/Serial-to-Ethernet-Module/WIZ-IP32/IP-32.md)
+ * [WIZ-IP20](./Modules/Serial-to-Ethernet-Module/WIZ-IP20/IP-20.mdx)
+ * [WIZ-IP75](./Modules/Serial-to-Ethernet-Module/WIZ-IP75/WIZ-IP75.md)
+ * [WIZ-IP32](./Modules/Serial-to-Ethernet-Module/WIZ-IP32/WIZ-IP32.md)
 
 <!-- ### 2 Serial Port -->
 
