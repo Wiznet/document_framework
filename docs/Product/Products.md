@@ -96,7 +96,7 @@ slug: /
 # Industrial Solutions
 ### SNMP
 
-  - [EOE-ioNIC SNMP Module](./Industrial-Solutions/SNMP/SNMP.mdx): Adds SNMP management to your equipment through UART AT commands
+  - [EOE-W55RP20 SNMP Module](./Industrial-Solutions/SNMP/SNMP.mdx): Adds SNMP management to your equipment through UART AT commands
 
 -----
 <!-- 

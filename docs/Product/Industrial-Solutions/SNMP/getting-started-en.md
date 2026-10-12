@@ -1,17 +1,17 @@
 ---
 id: getting-started-en
-title: EOE-ioNIC SNMP Module Getting Started Guide
+title: EOE-W55RP20 SNMP Module Getting Started Guide
 sidebar_label: Getting Started
 date: 2026-10-12
 keywords:
   - SNMP
   - SNMPv3
   - Getting Started
-  - EOE-ioNIC
+  - EOE-W55RP20
   - W55RP20
-description: Step-by-step guide from wiring an EOE-ioNIC SNMP module to reading a value over SNMP
+description: Step-by-step guide from wiring an EOE-W55RP20 SNMP module to reading a value over SNMP
 ---
-# EOE-ioNIC SNMP Module Getting Started Guide
+# EOE-W55RP20 SNMP Module Getting Started Guide
 
 <p style={{textAlign: 'right'}}>Firmware 1.2.0</p>
 
@@ -32,7 +32,7 @@ written during production, so there is nothing to enter.
 
 ## What you need
 
-- An EOE-ioNIC SNMP module: one of
+- A module running the SNMP firmware: one of
   [WIZ-IP20](https://docs.wiznet.io/Product/Modules/Serial-to-Ethernet-Module/WIZ-IP20),
   [W232N](https://docs.wiznet.io/Product/Modules/Serial-to-Ethernet-Module/W232N) or
   [EOE-W55RP20](https://docs.wiznet.io/Product/Modules/EOE/EOE-W55RP20)

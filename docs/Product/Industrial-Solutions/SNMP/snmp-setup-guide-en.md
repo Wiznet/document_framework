@@ -1,6 +1,6 @@
 ---
 id: snmp-setup-guide-en
-title: EOE-ioNIC SNMP Module SNMP Setup Guide
+title: EOE-W55RP20 SNMP Module SNMP Setup Guide
 sidebar_label: SNMP Setup Guide
 date: 2026-10-12
 keywords:
@@ -10,10 +10,10 @@ keywords:
   - OID
   - Trap
   - Inform
-  - EOE-ioNIC
+  - EOE-W55RP20
 description: Connecting an SNMP manager, communities, OID mapping, CSV object registration, confirmed SET and Traps/Informs
 ---
-# EOE-ioNIC SNMP Module SNMP Setup Guide
+# EOE-W55RP20 SNMP Module SNMP Setup Guide
 
 <p style={{textAlign: 'right'}}>Firmware 1.2.0</p>
 

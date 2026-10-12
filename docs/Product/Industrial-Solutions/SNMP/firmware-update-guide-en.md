@@ -1,16 +1,16 @@
 ---
 id: firmware-update-guide-en
-title: EOE-ioNIC SNMP Module Firmware Update Guide
+title: EOE-W55RP20 SNMP Module Firmware Update Guide
 sidebar_label: Firmware Update Guide
 date: 2026-10-12
 keywords:
   - Firmware Update
   - OTA
   - SNMP
-  - EOE-ioNIC
-description: Updating EOE-ioNIC SNMP module firmware through the web interface or AT commands (UART)
+  - EOE-W55RP20
+description: Updating EOE-W55RP20 SNMP module firmware through the web interface or AT commands (UART)
 ---
-# EOE-ioNIC SNMP Module Firmware Update Guide
+# EOE-W55RP20 SNMP Module Firmware Update Guide
 
 <p style={{textAlign: 'right'}}>Firmware 1.2.0</p>
 
