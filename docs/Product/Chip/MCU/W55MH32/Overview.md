@@ -75,15 +75,15 @@ import TabItem from '@theme/TabItem';
 
 | **Title** | **Description** | **Notes** |
 | --------- | --------------- | --------- |
-| [📄 W55MH32 Datasheet[EN]](/img/products/W55MH32/W55MH32_Datasheet_V1.0.0_EN.pdf) | Technical specifications and features of the W55MH32 chip | - |
-| [📄 W55MH32 Datasheet[CN]](/img/products/W55MH32/W55MH32_Datasheet_V1.0.0_CN.pdf) | Technical specifications and features of the W55MH32 chip | - |
+| [📄 W55MH32 Datasheet[EN]](/img/products/W55MH32/W55MH32_Datasheet_V1.0.1_EN.pdf) | Technical specifications and features of the W55MH32 chip | - |
+| [📄 W55MH32 Datasheet[CN]](/img/products/W55MH32/W55MH32_Datasheet_V1.0.1_CN.pdf) | Technical specifications and features of the W55MH32 chip | - |
 
 ### Technical Documents
 
 | **Title** | **Description** | **Notes** |
 | --------- | --------------- | --------- |
-| [📄 W55MH32 User Manal[EN]](/img/products/W55MH32/W55MH32_User_Manual_V1.0.0_EN.pdf) | Technical specifications and features of the W55MH32 chip | - |
-| [📄 W55MH32 User Manal[CN]](/img/products/W55MH32/W55MH32_User_manual_V1.0.0_CN.pdf) | Technical specifications and features of the W55MH32 chip | - |
+| [📄 W55MH32 User Manal[EN]](/img/products/W55MH32/W55MH32_User_Manual_V1.0.1_EN.pdf) | Technical specifications and features of the W55MH32 chip | - |
+| [📄 W55MH32 User Manal[CN]](/img/products/W55MH32/W55MH32_User_manual_V1.0.1_CN.pdf) | Technical specifications and features of the W55MH32 chip | - |
 
 
 ## Software Resources

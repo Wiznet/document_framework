@@ -1,70 +1,78 @@
 ---
-id: users-manual-EN
+id: users-manual-EN-s1
 title: User's Manual-[EN]
 date: 2020-04-08
 ---
 
 ![](/img/products/wiz750sr/docs_icon.png)
 
-![YouTube Videos](https://youtube.com/playlist?list=PLvBNmp4sXJoP7pAS3KTv2ckAd1qhL5KQn&si=cvcjI-BDIwKODl1c)
-
 -----
 
 W5500S2E Series is one of WIZnet’s Serial to Ethernet module that users can connect with any device that provides serial interface and use the Ethernet network to control and monitor.
 
-W5500S2E can be used in has configuration tools, AT command through serial terminal and website configuration that could all the features in the modules. This includes network settings, serial setting and optional settings 
+W5500S2E can be used in has configuration tools, AT command through serial terminal and website configuration to configure all the features in the modules. 
 
-**This document provides the fastest way to create a TCP connection with a PC.** 
+**This document explains the key feature to create a TCP/UDP connection between a PC with your serial device.** 
 
 -----
 
-Hardware Setup:
-
-Please follow the following image to connect the modules.
-
-
-
-W5500S2E series modules pin are non-identical. Thus, please check carefully to ensure you had connect the module correctly. 
-
 ## Network Settings
 
-### IP Address Settings
+### IP Address Allocation Settings
 
-WIZ750SR provides two ways of assigning the IP address. The allocation of IP address includes the IP address, Gateway address, Subnet mask, and DNS server address.
+W5500S2E modules provides **two kinds of IP address allocation method** for assigning the IP address. The allocation of IP address includes the IP address, Gateway address, Subnet mask, and DNS server address.
 
   - **Static(Manual) IP allocation**
       - Also known as the static allocation; the product will operate according to the network information entered by the user. Both the public IP address and private IP address can be assigned.
-      - In cases of using TCP client or TCP mixed mode, the DNS address must be set if the remote host\[3\] is a domain name\[4\] and not an IP address.
-      - Please refer to the example at [Getting Started Guide: WIZ750SR Factory Settings](./Getting-Started-EN.md#wiz750sr-factory-settings) for assigning a private IP address.
+      - In cases of using TCP client, the DNS address must be set if the remote host\[1\] is a domain name\[2\] and not an IP address.
+      <!-- - Please refer to the example for assigning a private IP address. "Need to modify after the quick start guide has been made"-->
 
 
 
   - **Automatic IP allocation (DHCP)**
-      - This method will automatically assign the IP address integrated in the NAT Router via the DHCP server. Users do not need to do any settings, and devices using the assigned IP from the same router can communicate with each other. Usually a private IP address\[5\] from the dynamic IP allocation range\[6\] is assigned, but there are cases when a public IP is assigned((Example) When an IP address is assigned by an ISP (Internet Service Provider).
+      - This method will automatically assign the IP address integrated in the NAT Router via the DHCP server. Users do not need to do any settings, and devices using the assigned IP from the same router can communicate with each other. Usually a private IP address\[3\] from the dynamic IP allocation range\[4\] is assigned, but there are cases when a public IP is assigned((Example) When an IP address is assigned by an ISP (Internet Service Provider).
       - The DHCP server assigns the IP address, Gateway address, Subnet mask, and DNS address.
-          - In cases of using a router, WIZ750SR can be used in TCP client mode to sync with the external server.
+          - In cases of using a router, W5500S2E module can be used in TCP client mode to sync with the external server.
           - In cases of using TCP server mode, users need to set the router’s [port forwarding](https://en.wikipedia.org/wiki/Port_forwarding) for access of external network.
 
 
 
-1.  Static / DHCP
+**<u>IP address allocation settings</u>**
 
-2.  Network operation modes: TCP server / TCP client / TCP mixed / UDP
+**Config Tool & webpage configuration location:**
 
-3.  Remote host means the destination where the serial device is sending data via the network
+| Tools                 | Settings | Location                              |
+| --------------------- | -------- | ------------------------------------- |
+| Config Tool           | All      | Basic Settings Tab - Network Settings |
+| Webpage Configuration | All      | Basic Settings Tab - Network Settings |
 
-4.  Example) www.google.com
+**Settings:**
 
-5.  Typically will look like 192.168.xxx.xxx in the IPv4 class C range
+| Modes  | AT Command   | Config Tool                                                                        | Webpage Configuration | Default                                 |
+| -----  | ------------ | ---------------------------------------------------------------------------------- | --------------------- | --------------------------------------- |
+| Static | AT+IP_MODE=0 | <u>**Select**</u>: Use the Follow IP Address       | Use DHCP (uncheck)    | <center>![star](\img\star.png)</center> |
+| DHCP   | AT+IP_MODE=1 | <u>**Select**</u>: Get IP Address from DHCP Server | Use DHCP (checked)    |                                         |
 
-6.  Typical router will separate the external IP address for communication with external network and the internal IP address for internal network via router
+**Default IP Addresses:**
+
+| Type          | AT Command  | Config Tool                                    | Webpage Configuration | Default         |
+| ------------- | ----------- | ---------------------------------------------- | --------------------- | --------------- |
+| IP Address    | AT+IP       | Modify and display in **IP address** text box  | Same as Config Tool   | 192.168.1.88    |
+| Subnet Mask   | AT+MARK     | Modify and display in **Subnet Mask** text box | Same as Config Tool   | 255.255.255.0   |
+| Gateway       | AT+GATEWAY  | Modify and display in **Gateway** text box     | Same as Config Tool   | 192.168.1.1     |
+| DNS Server    | AT+DNS      | Modify and display in **DNS Server** text box  | Same as Config Tool   | 114.114.114.114 |
+
+**Reference:**
+
+[1]  Remote host means the destination where the serial device is sending data via the network
+
+[2]  Example: www.google.com
+
+[3]  Typically will look like 192.168.xxx.xxx in the IPv4 class C range
+
+[4] Typical router will separate the external IP address for communication with external network and the internal IP address for internal network via router
     
-
-
-Default IP address of WIZ750SR  
-**Static IP allocation / 192.168.11.2**
-
-
+---
 
 ### Port Number Settings
 
@@ -87,34 +95,72 @@ The range of port numbers are 0 \~ 65535.
 
 The specified port numbers are not mandatory but recommended by IANA for smooth network communication. Registered port numbers are recommended for the user’s application or dynamic port numbers are recommended for temporary usage.
 
-Default Port number of WIZ750SR **5000**
+For all registered ports, please refer to the [default list](wizse_at_command_s1#appendix).
+
+**<u>Port number settings</u>**
+
+**Config Tool & Webpage configuration location:**
+
+| Tools                 | Settings              | Location                                 |
+| --------------------- | --------------------- | ---------------------------------------- |
+| Config Tool           | Local and Remote Port | Basic Settings Tab - Socket Settings     |
+| Config Tool           | Webpage Port          | Basic Settings Tab - Addtional Functions |
+| Webpage Configuration | Local and Remote Port | Channel 1 Tab - Connection               |
+| Webpage Configuration | Webpage Port          | Addtional Options Tab - Device Options   |  
+
+**Settings**
+
+
+| Type         | AT Command    | Config Tool                                                 | Webpage Configuration                          | Default |
+| ------------ | ------------- | ----------------------------------------------------------- | ---------------------------------------------- | ------- |
+| Local Port   | AT+C1_PORT    | Modify and display in **Local Port** text box               | Same as Config Tool                            | 5000    |
+| Remote Port  | AT+C1_CLI_PP1 | Modify and display in **Remote Host** second text box       | Modify and display in **Remote Port** text box | 5000    |
+| Webpage Port | AT+WEB_PORT   | Modify and display in **Embedded Web Server Port** text box | Modify and display in **HTTP Port** text box   | 80      |
+
+**Reference:**
+
+1.  Internet Assigned Numbers Authority, http://www.iana.org
+
+-----
 
 ### Remote Host Settings
 
-When the WIZ750SR is operated in TCP client mode\[2\], the TCP connection to the remote host is done in a fixed interval\[3\] of time, and also 'Remote host' means peer's network information\[4\] when the WIZ750SR is operated in UDP mode. Remote host field can set the 'IP address' or 'domain name' by configuration tool.
+When the W5500S2E is operated in TCP client mode\[1\], the TCP connection to the remote host is done in a fixed interval\[2\] of time, and also 'Remote host' means peer's network information\[3\] when the W5500S2E is operated in UDP mode. Remote host field can set the 'IP address' or 'domain name' by configuration tool.
 
 In cases of the remote host being set as the domain name, the integrated DNS client can automatically change the domain name to an IP address and operate a TCP connection with the destination.
 
 Registered port numbers are recommended for the user’s application.
 
+**<u>Remote Host settings</u>**
 
+**Config Tool & Webpage configuration location:**
 
-Default Remote host settings of WIZ750SR  
-**192.168.11.3 : 5000**
+| Tools                 | Settings | Location                              |
+| --------------------- | -------- | ------------------------------------- |
+| Config Tool           | All      | Channel 1 Tab - Connection            |
+| Webpage Configuration | All      | Basic Settings Tab - Socket Settings  |  
+
+**Settings**
+
+| Type                         | AT Command    | Config Tool                                                        | Webpage Configuration                           | Default                                       |
+| ---------------------------- | ------------- | ------------------------------------------------------------------ | ----------------------------------------------- | --------------------------------------------- |
+| Remote Host (IP address)     | AT+C1_CLI_IP1 | Modify and display in **Remote Host** first text box               | Same as Config Tool                             | 192.168.11.99                                 |
+| DNS Enable                   | AT+DNSEN      | Automatically turns on after setting domain name in **Remote Host**| Same as Config Tool                             | Disabled                                      |
+| Domain Name                  | AT+DOMAIN     | Modify and display in **Remote Host** first text box               | Modify and display in **Remote Host** text box  | iwiznet.cn                                    |
+
+**Reference:**
+
+1.  TCP client mode or TCP server/client mixed mode
+
+2.  Reconnection interval value
+
+3.  In UDP 1:1 mode, data sent from an unspecified remote host are all discarded
 
 -----
-
-1.  Internet Assigned Numbers Authority, http://www.iana.org
-
-2.  TCP client mode or TCP server/client mixed mode
-
-3.  Reconnection interval value
-
-4.  In UDP 1:1 mode, data sent from an unspecified remote host are all discarded
     
 ## Network Operation Mode
 
-WIZ750SR supports four kinds of operation modes based on the network; **TCP server mode, TCP client mode, TCP server/client mixed mode, and UDP mode**. Users can select the network operation mode according to the feature and purpose of the serial device. Each operation modes are explained in detail below.
+W5500S2E supports four kinds of operation modes based on the network; **TCP server mode, TCP client mode, UDP mode and Modbus mode**. Users can select the network operation mode according to the feature and purpose of the serial device. Each operation modes are explained in detail below.
 
 -----
 
@@ -151,22 +197,6 @@ There is an optional feature in TCP client mode.
 
 -----
 
-### TCP Server/Client Mixed Mode
-
-TCP server/client mixed mode operates as both the TCP server and client.
-
-1.  **Operates as TCP server when power is on (listen)**
-2.  **When there are no attempts of connection from the TCP client, the module will switch to TCP client mode if serial data needs to be sent to host (TCP connect & send)**
-3.  **After connection is completed, module will switch back to TCP server mode. (disconnect & listen)**
-
-We recommend the following option during TCP server/client mixed mode.
-
-  - **Inactivity timer**
-      - TCP connection is terminated if there is no data communication during the specified time.
-      - If this option is activated, the module can switch back to TCP server mode once the serial data is sent to host during TCP client mode.
-
------
-
 ### UDP Mode
 
 This mode operates using UDP protocol. Unlike TCP mode, there is no connection process thus the host address setting is mandatory.
@@ -179,7 +209,7 @@ The added feature of UDP mode for WIZ750SR is that communication with multiple h
 
 
   - **1:N UDP Mode**
-      - Module will communicate with the host that initiated data communication. The host address updates when different data communication is initiated.
+      - Module will communicate with all the host that initiated data communication. 
       - Cannot initiate data communication.
       - This mode is recommended for applications where the serial device receives data from multiple hosts.
 
