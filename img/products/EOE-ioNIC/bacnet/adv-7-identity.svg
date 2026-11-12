@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 360" width="720" height="360" font-family="'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif">
+  <title>Your product's identity: AT+BACVENDOR replaces the factory Vendor_Identifier 1697, Vendor_Name WIZnet and Model_Name EOE-W55RP20_BACnet with your own, and the default Device instance comes from the module's MAC address</title>
+  <defs>
+    <marker id="a7" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto">
+      <path d="M0 0 L10 5 L0 10 z" fill="#1a8870"/>
+    </marker>
+    <marker id="a7g" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto">
+      <path d="M0 0 L10 5 L0 10 z" fill="#52606d"/>
+    </marker>
+  </defs>
+  <rect width="720" height="360" fill="#ffffff"/>
+
+  <!-- Factory default -->
+  <rect x="32" y="22" width="276" height="228" rx="14" fill="#f6f8fa" stroke="#cdd5dd" stroke-width="1.5"/>
+  <rect x="98" y="40" width="144" height="28" rx="14" fill="#e3e8ee"/>
+  <text x="170" y="59" text-anchor="middle" font-size="15" font-weight="700" fill="#52606d">Factory default</text>
+  <text x="54" y="94" font-size="13" font-family="Consolas, 'SFMono-Regular', Menlo, monospace" fill="#52606d">Vendor_Identifier</text>
+  <text x="54" y="116" font-size="16" font-weight="700" font-family="Consolas, 'SFMono-Regular', Menlo, monospace" fill="#52606d">1697</text>
+  <text x="54" y="150" font-size="13" font-family="Consolas, 'SFMono-Regular', Menlo, monospace" fill="#52606d">Vendor_Name</text>
+  <text x="54" y="172" font-size="16" font-weight="700" font-family="Consolas, 'SFMono-Regular', Menlo, monospace" fill="#52606d">WIZnet</text>
+  <text x="54" y="206" font-size="13" font-family="Consolas, 'SFMono-Regular', Menlo, monospace" fill="#52606d">Model_Name</text>
+  <text x="54" y="228" font-size="16" font-weight="700" font-family="Consolas, 'SFMono-Regular', Menlo, monospace" fill="#52606d">EOE-W55RP20_BACnet</text>
+
+  <!-- AT+BACVENDOR, at the cards' vertical middle -->
+  <line x1="316" y1="136" x2="404" y2="136" stroke="#1a8870" stroke-width="2.5" marker-end="url(#a7)"/>
+  <text x="360" y="123" text-anchor="middle" font-size="13" font-weight="700" font-family="Consolas, 'SFMono-Regular', Menlo, monospace" fill="#1a8870">AT+BACVENDOR</text>
+
+  <!-- Your product -->
+  <rect x="412" y="22" width="276" height="228" rx="14" fill="#e9f9f5" stroke="#25c2a0" stroke-width="2.5"/>
+  <rect x="474" y="40" width="152" height="28" rx="14" fill="#25c2a0"/>
+  <path d="M489 54l4 4l8-9" fill="none" stroke="#ffffff" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/>
+  <text x="509" y="59" font-size="15" font-weight="700" fill="#ffffff">Your product</text>
+  <text x="434" y="94" font-size="13" font-family="Consolas, 'SFMono-Regular', Menlo, monospace" fill="#52606d">Vendor_Identifier</text>
+  <text x="434" y="116" font-size="16" font-weight="700" fill="#1a8870">your Vendor ID</text>
+  <text x="434" y="150" font-size="13" font-family="Consolas, 'SFMono-Regular', Menlo, monospace" fill="#52606d">Vendor_Name</text>
+  <text x="434" y="172" font-size="16" font-weight="700" fill="#1a8870">Your Company</text>
+  <text x="434" y="206" font-size="13" font-family="Consolas, 'SFMono-Regular', Menlo, monospace" fill="#52606d">Model_Name</text>
+  <text x="434" y="228" font-size="16" font-weight="700" fill="#1a8870">Your Model</text>
+
+  <!-- The default Device instance comes from the MAC -->
+  <rect x="104" y="270" width="232" height="40" rx="20" fill="#ffffff" stroke="#cdd5dd" stroke-width="1.5"/>
+  <text x="220" y="295" text-anchor="middle" font-size="14" font-weight="700" font-family="Consolas, 'SFMono-Regular', Menlo, monospace" fill="#1f2933">MAC 00:08:DC:12:34:56</text>
+  <line x1="340" y1="290" x2="380" y2="290" stroke="#52606d" stroke-width="2" marker-end="url(#a7g)"/>
+  <rect x="384" y="270" width="232" height="40" rx="20" fill="#ffffff" stroke="#cdd5dd" stroke-width="1.5"/>
+  <text x="500" y="295" text-anchor="middle" font-size="14" font-weight="700" fill="#1f2933">Device instance 1193046</text>
+  <text x="360" y="336" text-anchor="middle" font-size="13" fill="#52606d">each module's unique MAC gives the default Device instance</text>
+</svg>

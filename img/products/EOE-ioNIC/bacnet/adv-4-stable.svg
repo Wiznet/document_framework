@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 360" width="720" height="360" font-family="'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif">
+  <title>Stable connections: inside the W55RP20 the RP2040 is busy with BACnet requests, the web interface, a CSV upload and a flash write, while the W5500 keeps handling connections, retransmission and buffering in hardware, so traffic keeps flowing to the BACnet network</title>
+  <defs>
+    <marker id="a4" viewBox="0 0 10 10" refX="9" refY="5" markerUnits="userSpaceOnUse" markerWidth="12" markerHeight="12" orient="auto">
+      <path d="M0 0 L10 5 L0 10 z" fill="#1a8870"/>
+    </marker>
+  </defs>
+  <rect width="720" height="360" fill="#ffffff"/>
+
+  <!-- W55RP20 package -->
+  <rect x="24" y="28" width="472" height="304" rx="18" fill="#fbfcfd" stroke="#b8c2cc" stroke-width="1.5" stroke-dasharray="6 5"/>
+  <text x="44" y="54" font-size="15" font-weight="700" letter-spacing="1" fill="#52606d">W55RP20</text>
+
+  <!-- RP2040: busy with the firmware's work -->
+  <rect x="44" y="70" width="196" height="246" rx="12" fill="#fff8ee" stroke="#f0b45a" stroke-width="2"/>
+  <text x="142" y="100" text-anchor="middle" font-size="19" font-weight="700" fill="#1f2933">RP2040</text>
+  <rect x="100" y="112" width="84" height="26" rx="13" fill="#ffe2b3" stroke="#f0b45a" stroke-width="1.5"/>
+  <path d="M114 118h10M114 132h10M115 118c0 5 8 5 8 7s-8 2-8 7M123 118c0 5-8 5-8 7s8 2 8 7" fill="none" stroke="#8a5300" stroke-width="1.6" stroke-linecap="round"/>
+  <text x="153" y="130" text-anchor="middle" font-size="14" font-weight="700" fill="#8a5300">busy</text>
+  <rect x="62" y="152" width="160" height="32" rx="8" fill="#ffffff" stroke="#f0b45a" stroke-width="1.5"/>
+  <text x="142" y="173" text-anchor="middle" font-size="14" font-weight="600" fill="#8a5300">BACnet requests</text>
+  <rect x="62" y="192" width="160" height="32" rx="8" fill="#ffffff" stroke="#f0b45a" stroke-width="1.5"/>
+  <text x="142" y="213" text-anchor="middle" font-size="14" font-weight="600" fill="#8a5300">Web interface</text>
+  <rect x="62" y="232" width="160" height="32" rx="8" fill="#ffffff" stroke="#f0b45a" stroke-width="1.5"/>
+  <text x="142" y="253" text-anchor="middle" font-size="14" font-weight="600" fill="#8a5300">CSV upload</text>
+  <rect x="62" y="272" width="160" height="32" rx="8" fill="#ffffff" stroke="#f0b45a" stroke-width="1.5"/>
+  <text x="142" y="293" text-anchor="middle" font-size="14" font-weight="600" fill="#8a5300">Flash write</text>
+
+  <!-- SPI between the two dies -->
+  <line x1="240" y1="193" x2="288" y2="193" stroke="#52606d" stroke-width="2"/>
+  <text x="264" y="184" text-anchor="middle" font-size="13" fill="#52606d">SPI</text>
+
+  <!-- W5500: TCP/IP in hardware, not affected -->
+  <rect x="288" y="70" width="196" height="246" rx="12" fill="#e9f9f5" stroke="#25c2a0" stroke-width="2.5"/>
+  <text x="386" y="100" text-anchor="middle" font-size="19" font-weight="700" fill="#1a8870">W5500</text>
+  <rect x="334" y="112" width="104" height="26" rx="13" fill="#ffffff" stroke="#25c2a0" stroke-width="1.5"/>
+  <path d="M346 125l4 4l8-9" fill="none" stroke="#1a8870" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+  <text x="397" y="130" text-anchor="middle" font-size="14" font-weight="700" fill="#1a8870">running</text>
+  <text x="386" y="164" text-anchor="middle" font-size="13" fill="#1a8870">TCP/IP in hardware</text>
+  <rect x="306" y="176" width="160" height="34" rx="8" fill="#25c2a0"/>
+  <text x="386" y="198" text-anchor="middle" font-size="14" font-weight="700" fill="#ffffff">Connections</text>
+  <rect x="306" y="218" width="160" height="34" rx="8" fill="#25c2a0"/>
+  <text x="386" y="240" text-anchor="middle" font-size="14" font-weight="700" fill="#ffffff">Retransmission</text>
+  <rect x="306" y="260" width="160" height="34" rx="8" fill="#25c2a0"/>
+  <text x="386" y="282" text-anchor="middle" font-size="14" font-weight="700" fill="#ffffff">Buffering</text>
+
+  <!-- Traffic keeps flowing -->
+  <line x1="484" y1="193" x2="571" y2="193" stroke="#1a8870" stroke-width="2.5" marker-end="url(#a4)"/>
+  <rect x="504" y="187" width="12" height="12" rx="3" fill="#25c2a0"/>
+  <rect x="522" y="187" width="12" height="12" rx="3" fill="#25c2a0"/>
+  <rect x="540" y="187" width="12" height="12" rx="3" fill="#25c2a0"/>
+  <text x="535" y="224" text-anchor="middle" font-size="14" font-weight="700" fill="#1a8870">keeps</text>
+  <text x="535" y="246" text-anchor="middle" font-size="14" font-weight="700" fill="#1a8870">flowing</text>
+
+  <!-- BACnet network -->
+  <rect x="574" y="122" width="122" height="142" rx="12" fill="#f6f8fa" stroke="#cdd5dd" stroke-width="1.5"/>
+  <line x1="635" y1="150" x2="613" y2="184" stroke="#52606d" stroke-width="2"/>
+  <line x1="635" y1="150" x2="657" y2="184" stroke="#52606d" stroke-width="2"/>
+  <line x1="613" y1="184" x2="657" y2="184" stroke="#52606d" stroke-width="2"/>
+  <circle cx="635" cy="150" r="8" fill="#ffffff" stroke="#52606d" stroke-width="2"/>
+  <circle cx="613" cy="184" r="8" fill="#ffffff" stroke="#52606d" stroke-width="2"/>
+  <circle cx="657" cy="184" r="8" fill="#25c2a0" stroke="#1a8870" stroke-width="2"/>
+  <text x="635" y="222" text-anchor="middle" font-size="16" font-weight="700" fill="#1f2933">BACnet</text>
+  <text x="635" y="242" text-anchor="middle" font-size="13" fill="#52606d">network</text>
+</svg>
