@@ -27,17 +27,74 @@ The host MCU only exchanges AT commands over UART. BACnet protocol processing, B
 
 ![EOE-W55RP20_BACnet module system diagram: the host MCU talks to the EOE-W55RP20_BACnet module over UART with AT commands, and the module talks to a BACnet workstation over Ethernet with BACnet/IP or BACnet/SC](/img/products/EOE-ioNIC/bacnet/bacnet-system-diagram.svg)
 
-## Key Features
+---
 
-- BACnet/IP (Annex J) device, or BACnet/SC (Annex AB) hub connector over TLS 1.3
-- ReadProperty, ReadPropertyMultiple, WriteProperty, WritePropertyMultiple, SubscribeCOV and device management services
-- Up to 256 objects of nine types (Analog, Binary and Multi-state Input, Output and Value), defined with AT commands or registered at once from a CSV file
-- Confirmed writes: the host MCU approves a value written from a workstation before it is applied
-- 10/100 Mbps Ethernet with TCP/IP handled by the W5500 hardware, DHCP or static address, DNS
-- 4 TCP/UDP channels for the host MCU, in addition to BACnet
-- 56 AT commands and a web interface for every setting
-- Firmware update over the web interface or UART, verified before installation
-- Diagnostics, watchdog, and factory reset by AT command, web interface or pin
+## Why EOE-W55RP20_BACnet
+
+### When to Use
+
+<img
+  src="/img/products/EOE-ioNIC/bacnet/when-to-use.svg"
+  alt="Four situations: connecting existing equipment to a BACnet BMS, joining a BACnet/IP site while being ready for BACnet/SC, a host MCU with no room for a BACnet, TCP/IP or TLS stack, and shorter Ethernet design and protocol testing"
+  style={{display: 'block', width: '100%', margin: '0 0 1rem'}}
+/>
+
+- You need to connect existing equipment to a BACnet building management system (BMS)
+- You are joining an existing BACnet/IP site and also need to be ready for BACnet/SC (secure BACnet)
+- The host MCU has no room for a BACnet stack, a TCP/IP stack or TLS
+- You want to shorten the time spent on Ethernet hardware design and protocol testing
+
+### Advantages
+
+<AdvantageCarousel
+  label="Advantages"
+  items={[
+    {
+      img: '/img/products/EOE-ioNIC/bacnet/adv-1-lighter.svg',
+      alt: 'Without the module, your MCU carries the BACnet stack, TLS, the TCP/IP stack and the Ethernet driver. With the module, it keeps only its application and sends values over UART.',
+      title: 'A lighter host MCU',
+      text: 'The module handles BACnet and TCP/IP; the host only exchanges values over UART. Even a small MCU can become a BACnet device.',
+    },
+    {
+      img: '/img/products/EOE-ioNIC/bacnet/adv-2-bip-sc.svg',
+      alt: 'One setting, AT+BACMODE, chooses BACnet/IP on the site LAN or BACnet/SC over TLS through a hub',
+      title: 'BACnet/IP and BACnet/SC in one module',
+      text: 'With a single setting, the same module becomes a BACnet/IP device or a BACnet/SC device that communicates over TLS through a hub. If the site moves to SC, the hardware does not need to change.',
+    },
+    {
+      img: '/img/products/EOE-ioNIC/bacnet/adv-3-confirmed.svg',
+      alt: 'A workstation writes a value, the module asks the host with +BACWRITE, the host approves with AT+BWRACK, and only then does the workstation get a SimpleACK',
+      title: 'Writes the host decides',
+      text: 'Objects that trigger a real action, such as a relay, can be made confirmed: when a workstation writes a value, the module asks the host MCU first and applies it only after approval. If the host refuses, the reason reaches the workstation as a BACnet error.',
+    },
+    {
+      img: '/img/products/EOE-ioNIC/bacnet/adv-4-stable.svg',
+      alt: 'Inside the W55RP20, the RP2040 runs the firmware while the W5500 handles connections, retransmission and buffering in hardware, so traffic keeps flowing to the BACnet network',
+      title: 'Stable connections',
+      text: 'TCP/IP is handled by the W5500 chip, not by software. Connection management, retransmission and buffering happen inside the chip, so communication continues while the firmware is busy with other work.',
+    },
+    {
+      img: '/img/products/EOE-ioNIC/bacnet/adv-5-update.svg',
+      alt: 'New firmware is verified, staged and installed at the next boot; a damaged or wrong file is refused and the running firmware stays',
+      title: 'Updates that fail safely',
+      text: 'New firmware is verified, held in a staging area and installed at the next boot. If the transfer is interrupted or the file is damaged, the running firmware stays in place, and firmware for another product is refused.',
+    },
+    {
+      img: '/img/products/EOE-ioNIC/bacnet/adv-6-defaults.svg',
+      alt: 'Out of the box BACnet and the web interface are off, so nothing is announced on the network, and a factory reset erases the BACnet/SC private key first',
+      title: 'Safe factory defaults',
+      text: 'Out of the box both BACnet and the web interface are disabled, so the module announces nothing over BACnet and opens no web server until it is configured. A factory reset erases the BACnet/SC private key first.',
+    },
+    {
+      img: '/img/products/EOE-ioNIC/bacnet/adv-7-identity.svg',
+      alt: 'The Vendor_Identifier, Vendor_Name and Model_Name of the Device object can be set to your own with AT+BACVENDOR, and the default Device instance comes from the MAC address',
+      title: "Your product's identity",
+      text: "The Vendor_Identifier, Vendor_Name and Model_Name a workstation reads can be set to the end-product manufacturer's values. The factory default is WIZnet's Vendor ID 1697. Each module has a unique MAC address written at the factory, and the default Device instance is derived from this MAC as well.",
+    },
+  ]}
+/>
+
+---
 
 ## Supported Hardware
 
@@ -69,6 +126,18 @@ This firmware (1.0.0) runs on the following W55RP20-based hardware. **To purchas
     </tr>
   </tbody>
 </table>
+
+## Key Features
+
+- BACnet/IP (Annex J) device, or BACnet/SC (Annex AB) hub connector over TLS 1.3
+- ReadProperty, ReadPropertyMultiple, WriteProperty, WritePropertyMultiple, SubscribeCOV and device management services
+- Up to 256 objects of nine types (Analog, Binary and Multi-state Input, Output and Value), defined with AT commands or registered at once from a CSV file
+- Confirmed writes: the host MCU approves a value written from a workstation before it is applied
+- 10/100 Mbps Ethernet with TCP/IP handled by the W5500 hardware, DHCP or static address, DNS
+- 4 TCP/UDP channels for the host MCU, in addition to BACnet
+- 56 AT commands and a web interface for every setting
+- Firmware update over the web interface or UART, verified before installation
+- Diagnostics, watchdog, and factory reset by AT command, web interface or pin
 
 ---
 
@@ -183,73 +252,6 @@ damper position or a fan run command.
 
 </TabItem>
 </Tabs>
-
----
-
-## Why EOE-W55RP20_BACnet
-
-### When to Use
-
-<img
-  src="/img/products/EOE-ioNIC/bacnet/when-to-use.svg"
-  alt="Four situations: connecting existing equipment to a BACnet BMS, joining a BACnet/IP site while being ready for BACnet/SC, a host MCU with no room for a BACnet, TCP/IP or TLS stack, and shorter Ethernet design and protocol testing"
-  style={{display: 'block', width: '100%', margin: '0 0 1rem'}}
-/>
-
-- You need to connect existing equipment to a BACnet building management system (BMS)
-- You are joining an existing BACnet/IP site and also need to be ready for BACnet/SC (secure BACnet)
-- The host MCU has no room for a BACnet stack, a TCP/IP stack or TLS
-- You want to shorten the time spent on Ethernet hardware design and protocol testing
-
-### Advantages
-
-<AdvantageCarousel
-  label="Advantages"
-  items={[
-    {
-      img: '/img/products/EOE-ioNIC/bacnet/adv-1-lighter.svg',
-      alt: 'Without the module, your MCU carries the BACnet stack, TLS, the TCP/IP stack and the Ethernet driver. With the module, it keeps only its application and sends values over UART.',
-      title: 'A lighter host MCU',
-      text: 'The module handles BACnet and TCP/IP; the host only exchanges values over UART. Even a small MCU can become a BACnet device.',
-    },
-    {
-      img: '/img/products/EOE-ioNIC/bacnet/adv-2-bip-sc.svg',
-      alt: 'One setting, AT+BACMODE, chooses BACnet/IP on the site LAN or BACnet/SC over TLS through a hub',
-      title: 'BACnet/IP and BACnet/SC in one module',
-      text: 'With a single setting, the same module becomes a BACnet/IP device or a BACnet/SC device that communicates over TLS through a hub. If the site moves to SC, the hardware does not need to change.',
-    },
-    {
-      img: '/img/products/EOE-ioNIC/bacnet/adv-3-confirmed.svg',
-      alt: 'A workstation writes a value, the module asks the host with +BACWRITE, the host approves with AT+BWRACK, and only then does the workstation get a SimpleACK',
-      title: 'Writes the host decides',
-      text: 'Objects that trigger a real action, such as a relay, can be made confirmed: when a workstation writes a value, the module asks the host MCU first and applies it only after approval. If the host refuses, the reason reaches the workstation as a BACnet error.',
-    },
-    {
-      img: '/img/products/EOE-ioNIC/bacnet/adv-4-stable.svg',
-      alt: 'Inside the W55RP20, the RP2040 runs the firmware while the W5500 handles connections, retransmission and buffering in hardware, so traffic keeps flowing to the BACnet network',
-      title: 'Stable connections',
-      text: 'TCP/IP is handled by the W5500 chip, not by software. Connection management, retransmission and buffering happen inside the chip, so communication continues while the firmware is busy with other work.',
-    },
-    {
-      img: '/img/products/EOE-ioNIC/bacnet/adv-5-update.svg',
-      alt: 'New firmware is verified, staged and installed at the next boot; a damaged or wrong file is refused and the running firmware stays',
-      title: 'Updates that fail safely',
-      text: 'New firmware is verified, held in a staging area and installed at the next boot. If the transfer is interrupted or the file is damaged, the running firmware stays in place, and firmware for another product is refused.',
-    },
-    {
-      img: '/img/products/EOE-ioNIC/bacnet/adv-6-defaults.svg',
-      alt: 'Out of the box BACnet and the web interface are off, so nothing is announced on the network, and a factory reset erases the BACnet/SC private key first',
-      title: 'Safe factory defaults',
-      text: 'Out of the box both BACnet and the web interface are disabled, so the module announces nothing over BACnet and opens no web server until it is configured. A factory reset erases the BACnet/SC private key first.',
-    },
-    {
-      img: '/img/products/EOE-ioNIC/bacnet/adv-7-identity.svg',
-      alt: 'The Vendor_Identifier, Vendor_Name and Model_Name of the Device object can be set to your own with AT+BACVENDOR, and the default Device instance comes from the MAC address',
-      title: "Your product's identity",
-      text: "The Vendor_Identifier, Vendor_Name and Model_Name a workstation reads can be set to the end-product manufacturer's values. The factory default is WIZnet's Vendor ID 1697. Each module has a unique MAC address written at the factory, and the default Device instance is derived from this MAC as well.",
-    },
-  ]}
-/>
 
 ---
 
