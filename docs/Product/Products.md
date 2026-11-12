@@ -98,6 +98,10 @@ slug: /
 
   - [EOE-W55RP20 SNMP Module](./Industrial-Solutions/SNMP/SNMP.mdx): Adds SNMP management to your equipment through UART AT commands
 
+### BACnet
+
+  - [EOE-W55RP20_BACnet Module](./Industrial-Solutions/BACnet/BACnet.mdx): Connects your equipment to a BACnet building automation network through UART AT commands
+
 -----
 <!-- 
 ## Open Source Hardware

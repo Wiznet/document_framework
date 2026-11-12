@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 154" width="800" height="154" font-family="'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif">
+  <title>When to use the EOE-W55RP20_BACnet module: connecting existing equipment to a BACnet BMS, joining a BACnet/IP site while being ready for BACnet/SC, a host MCU with no room for a BACnet, TCP/IP or TLS stack, and shorter Ethernet design and protocol testing</title>
+  <!-- card background, rounded like the system diagram -->
+  <rect x="0.5" y="0.5" width="799" height="153" rx="12" fill="#ffffff" stroke="#e3e8ee"/>
+
+  <!-- 1. Existing equipment to a BMS -->
+  <rect x="8" y="8" width="190" height="138" rx="12" fill="#f6f8fa" stroke="#cdd5dd" stroke-width="1.5"/>
+  <rect x="81" y="22" width="44" height="44" rx="11" fill="#e9f9f5"/>
+  <g transform="translate(81 22) scale(0.6875) translate(-36 -47)">
+    <rect x="43" y="66" width="22" height="26" rx="3" fill="#ffffff" stroke="#1a8870" stroke-width="2"/>
+    <circle cx="54" cy="79" r="6" fill="none" stroke="#1a8870" stroke-width="2"/>
+    <path d="M54 73v12M48 79h12" stroke="#25c2a0" stroke-width="1.5"/>
+    <path d="M67 79h9M73 75l4 4l-4 4" fill="none" stroke="#1a8870" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+    <rect x="79" y="60" width="16" height="36" rx="2" fill="#ffffff" stroke="#1a8870" stroke-width="2"/>
+    <path d="M83 66h3M89 66h3M83 72h3M89 72h3M83 78h3M89 78h3" stroke="#25c2a0" stroke-width="2.5"/>
+    <rect x="85" y="88" width="4" height="8" fill="#1a8870"/>
+  </g>
+  <text x="103" y="92" text-anchor="middle" font-size="15" font-weight="700" fill="#1f2933">Equipment → BMS</text>
+  <text x="103" y="114" text-anchor="middle" font-size="13" fill="#52606d">Put existing equipment</text>
+  <text x="103" y="131" text-anchor="middle" font-size="13" fill="#52606d">on a BACnet BMS</text>
+
+  <!-- 2. BACnet/IP now, ready for BACnet/SC -->
+  <rect x="206" y="8" width="190" height="138" rx="12" fill="#f6f8fa" stroke="#cdd5dd" stroke-width="1.5"/>
+  <rect x="279" y="22" width="44" height="44" rx="11" fill="#e9f9f5"/>
+  <g transform="translate(279 22) scale(0.6875) translate(-388 -47)">
+    <path d="M398 69L392 87H405Z" fill="none" stroke="#1a8870" stroke-width="2" stroke-linejoin="round"/>
+    <circle cx="398" cy="69" r="4" fill="#ffffff" stroke="#1a8870" stroke-width="2"/>
+    <circle cx="392" cy="87" r="4" fill="#ffffff" stroke="#1a8870" stroke-width="2"/>
+    <circle cx="405" cy="87" r="4" fill="#25c2a0" stroke="#1a8870" stroke-width="2"/>
+    <path d="M412 79h10M419 75l4 4l-4 4" fill="none" stroke="#1a8870" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+    <path d="M430 76v-5a7 7 0 0 1 14 0v5" fill="none" stroke="#1a8870" stroke-width="2.5"/>
+    <rect x="427" y="76" width="20" height="16" rx="3" fill="#25c2a0"/>
+    <circle cx="437" cy="83" r="2" fill="#ffffff"/>
+  </g>
+  <text x="301" y="92" text-anchor="middle" font-size="15" font-weight="700" fill="#1f2933">Ready for BACnet/SC</text>
+  <text x="301" y="114" text-anchor="middle" font-size="13" fill="#52606d">Join a BACnet/IP site,</text>
+  <text x="301" y="131" text-anchor="middle" font-size="13" fill="#52606d">move to SC later</text>
+
+  <!-- 3. A small host MCU -->
+  <rect x="404" y="8" width="190" height="138" rx="12" fill="#f6f8fa" stroke="#cdd5dd" stroke-width="1.5"/>
+  <rect x="477" y="22" width="44" height="44" rx="11" fill="#e9f9f5"/>
+  <g transform="translate(477 22) scale(0.6875) translate(-36 -189)">
+    <rect x="54" y="207" width="28" height="28" rx="4" fill="#ffffff" stroke="#1a8870" stroke-width="2"/>
+    <path d="M61 201v6M68 201v6M75 201v6M61 235v6M68 235v6M75 235v6M48 214h6M48 221h6M48 228h6M82 214h6M82 221h6M82 228h6" stroke="#1a8870" stroke-width="2"/>
+    <rect x="62" y="215" width="12" height="12" rx="2" fill="#25c2a0"/>
+  </g>
+  <text x="499" y="92" text-anchor="middle" font-size="15" font-weight="700" fill="#1f2933">A small host MCU</text>
+  <text x="499" y="114" text-anchor="middle" font-size="13" fill="#52606d">No room for a BACnet,</text>
+  <text x="499" y="131" text-anchor="middle" font-size="13" fill="#52606d">TCP/IP or TLS stack</text>
+
+  <!-- 4. Faster development -->
+  <rect x="602" y="8" width="190" height="138" rx="12" fill="#f6f8fa" stroke="#cdd5dd" stroke-width="1.5"/>
+  <rect x="675" y="22" width="44" height="44" rx="11" fill="#e9f9f5"/>
+  <g transform="translate(675 22) scale(0.6875) translate(-388 -189)">
+    <path d="M396 214h6M393 222h8M396 230h6" stroke="#25c2a0" stroke-width="2.5" stroke-linecap="round"/>
+    <circle cx="424" cy="224" r="15" fill="#ffffff" stroke="#1a8870" stroke-width="2.5"/>
+    <rect x="420" y="201" width="8" height="5" rx="1" fill="#1a8870"/>
+    <path d="M424 206v3" stroke="#1a8870" stroke-width="2"/>
+    <path d="M424 224l7-8" stroke="#1a8870" stroke-width="2.5" stroke-linecap="round"/>
+    <circle cx="424" cy="224" r="2.5" fill="#1a8870"/>
+  </g>
+  <text x="697" y="92" text-anchor="middle" font-size="15" font-weight="700" fill="#1f2933">Faster development</text>
+  <text x="697" y="114" text-anchor="middle" font-size="13" fill="#52606d">Less Ethernet design</text>
+  <text x="697" y="131" text-anchor="middle" font-size="13" fill="#52606d">and protocol testing</text>
+</svg>

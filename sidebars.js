@@ -2217,6 +2217,30 @@ module.exports = {
 							},
 						],
 					},
+					{
+						type: 'category',
+						label: 'BACnet',
+						link: {type: 'doc', id: 'Product/Industrial-Solutions/BACnet/bacnet'},
+						items: [
+							{
+								type: 'category',
+								label: 'Documentation',
+								items: [
+									'Product/Industrial-Solutions/BACnet/at-command-guide-en',
+									'Product/Industrial-Solutions/BACnet/pics-en',
+								],
+							},
+							{
+								type: 'category',
+								label: 'Setup & Configuration',
+								items: [
+									'Product/Industrial-Solutions/BACnet/getting-started-en',
+									'Product/Industrial-Solutions/BACnet/bacnet-setup-guide-en',
+									'Product/Industrial-Solutions/BACnet/firmware-update-guide-en',
+								],
+							},
+						],
+					},
 				],
 			},
 		],

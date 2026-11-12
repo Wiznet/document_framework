@@ -218,15 +218,19 @@ This section provides step-by-step guides for connecting the module, setting up 
 
 ## Hardware Connections
 
-| Signal | Pins | Direction | Description |
-|---|---|---|---|
-| AT command port | GP4 (TX) · GP5 (RX) | out · in | 115200 8N1 by default, no flow control |
-| AT port flow control | GP6 (CTS) · GP7 (RTS) | in · out | Connect only if flow control is used |
-| Handshake | GP8 (DTR) · GP9 (DSR) | in · out | DSR high means the module is ready for commands |
-| Status outputs | GP10 · GP11 | out | Ethernet link · TCP connection present |
-| Factory reset input | GP18 | in | Internal pull-up. Hold low for 5 s or more to reset |
-| Debug console | GP0 (TX) · GP1 (RX) | out · in | 921600 8N1, separate from the AT port |
+| Signal | EOE-W55RP20 | WIZ-IP20 | W232N | Direction | Description |
+|---|---|---|---|---|---|
+| AT command port | GP4 (TX) · GP5 (RX) | P5 (TXD) · P3 (RXD) | DB9 3 (TXD) · 2 (RXD) | out · in | 115200 8N1 by default, no flow control |
+| AT port flow control | GP6 (CTS) · GP7 (RTS) | P6 (CTS) · P10 (RTS) | DB9 8 (CTS) · 7 (RTS) | in · out | Connect only if flow control is used |
+| Handshake | GP8 (DTR) · GP9 (DSR) | None | DB9 4 (DTR) · 6 (DSR) | in · out | DSR high means the module is ready for commands |
+| Status outputs | GP10 · GP11 | P13 (LINKLED) · None | LINK · TCP LEDs | out | Ethernet link · TCP connection present |
+| Factory reset input | FACT RSTn (GP18) | None | Switch inside the case | in | Internal pull-up. Hold low for 5 s or more to reset |
+| Debug console | GP0 (TX) · GP1 (RX) | None | None | out · in | 921600 8N1, separate from the AT port |
 
+- The W232N's DB9 is at RS-232 level. The EOE-W55RP20 and WIZ-IP20 pins are 3.3 V TTL.
+- The WIZ-IP20's P13 (LINKLED) and P1 (ACTLED) are the link and activity LED signals driven
+  directly by the Ethernet chip, and they are **low** when lit (GP10 and GP11 are high). The
+  WIZ-IP20 has no DTR/DSR pins, so DTR/DSR flow control cannot be used on it.
 - The AT port speed can be set from 9600 to 921600 bps.
 - Flow control: none, RTS/CTS, DTR/DSR or XON/XOFF.
 - For power, operating temperature, dimensions and other electrical and mechanical

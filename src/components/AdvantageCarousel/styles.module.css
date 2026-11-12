@@ -1,0 +1,162 @@
+.carousel {
+  margin: 1rem 0 2rem;
+}
+
+/* Slides sit in a row; the next one peeks in from the right. */
+.track {
+  position: relative;
+  display: flex;
+  gap: 1rem;
+  overflow-x: auto;
+  scroll-snap-type: x mandatory;
+  scrollbar-width: none;
+  -webkit-overflow-scrolling: touch;
+  padding: 2px 0 6px;
+  outline: none;
+}
+
+.track::-webkit-scrollbar {
+  display: none;
+}
+
+.track:focus-visible {
+  outline: 2px solid var(--ifm-color-primary);
+  outline-offset: 4px;
+  border-radius: 12px;
+}
+
+.slide {
+  flex: 0 0 80%;
+  scroll-snap-align: start;
+  display: flex;
+  flex-direction: column;
+  border: 1px solid var(--ifm-color-emphasis-300);
+  border-radius: 12px;
+  overflow: hidden;
+  background: var(--ifm-background-surface-color);
+  transition: opacity 0.3s ease;
+}
+
+.inactive {
+  opacity: 0.45;
+  cursor: pointer;
+}
+
+.inactive:hover {
+  opacity: 0.7;
+}
+
+/* Lets the last slide scroll all the way to the left edge. */
+.spacer {
+  flex: 0 0 calc(20% - 1rem);
+}
+
+.image {
+  display: block;
+  width: 100%;
+  height: auto;
+  aspect-ratio: 2 / 1;
+  background: #ffffff;
+  border-bottom: 1px solid var(--ifm-color-emphasis-200);
+}
+
+.body {
+  padding: 0.9rem 1.15rem 1.1rem;
+}
+
+.title {
+  margin: 0 0 0.35rem;
+  font-size: 1.05rem;
+  font-weight: 700;
+}
+
+.text {
+  margin: 0;
+  font-size: 0.95rem;
+  line-height: 1.6;
+  color: var(--ifm-color-emphasis-800);
+}
+
+.controls {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 1rem;
+  margin-top: 0.75rem;
+}
+
+.dots {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 6px;
+}
+
+.dot {
+  width: 8px;
+  height: 8px;
+  padding: 0;
+  border: 0;
+  border-radius: 4px;
+  background: var(--ifm-color-emphasis-300);
+  cursor: pointer;
+  transition: width 0.25s ease, background 0.25s ease;
+}
+
+.dot:hover {
+  background: var(--ifm-color-emphasis-500);
+}
+
+.dotActive,
+.dotActive:hover {
+  width: 22px;
+  background: var(--ifm-color-primary);
+}
+
+.nav {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+}
+
+.counter {
+  min-width: 3em;
+  text-align: right;
+  font-size: 0.85rem;
+  font-variant-numeric: tabular-nums;
+  color: var(--ifm-color-emphasis-700);
+}
+
+.arrow {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 32px;
+  height: 32px;
+  padding: 0;
+  border: 1px solid var(--ifm-color-emphasis-300);
+  border-radius: 50%;
+  background: var(--ifm-background-surface-color);
+  color: var(--ifm-font-color-base);
+  cursor: pointer;
+}
+
+.arrow:hover:not(:disabled) {
+  border-color: var(--ifm-color-primary);
+  color: var(--ifm-color-primary);
+}
+
+.arrow:disabled {
+  opacity: 0.35;
+  cursor: default;
+}
+
+@media (max-width: 600px) {
+  .slide {
+    flex-basis: 86%;
+  }
+
+  .spacer {
+    flex-basis: calc(14% - 1rem);
+  }
+}

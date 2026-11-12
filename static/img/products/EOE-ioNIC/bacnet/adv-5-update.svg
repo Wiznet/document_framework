@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 360" width="720" height="360" font-family="'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif">
+  <title>Updates that fail safely: new firmware is verified, held in a staging area and installed at the next boot. A damaged, cut-off or wrong-product file is refused and the running firmware stays.</title>
+  <defs>
+    <marker id="a6" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto">
+      <path d="M0 0 L10 5 L0 10 z" fill="#52606d"/>
+    </marker>
+    <marker id="a6r" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto">
+      <path d="M0 0 L10 5 L0 10 z" fill="#e5484d"/>
+    </marker>
+  </defs>
+  <rect width="720" height="360" fill="#ffffff"/>
+
+  <!-- 1. New firmware -->
+  <rect x="30" y="36" width="140" height="120" rx="12" fill="#f6f8fa" stroke="#cdd5dd" stroke-width="1.5"/>
+  <path d="M86 54h20l12 12v34h-32z" fill="#ffffff" stroke="#52606d" stroke-width="2" stroke-linejoin="round"/>
+  <path d="M106 54v12h12" fill="none" stroke="#52606d" stroke-width="2" stroke-linejoin="round"/>
+  <path d="M93 78h18M93 88h18" stroke="#b8c2cc" stroke-width="2" stroke-linecap="round"/>
+  <text x="100" y="126" text-anchor="middle" font-size="15" font-weight="600" fill="#1f2933">New firmware</text>
+  <text x="100" y="145" text-anchor="middle" font-size="13" font-family="Consolas, 'SFMono-Regular', Menlo, monospace" fill="#52606d">.fwpkg</text>
+
+  <line x1="172" y1="96" x2="198" y2="96" stroke="#52606d" stroke-width="2" marker-end="url(#a6)"/>
+
+  <!-- 2. Verify -->
+  <rect x="200" y="36" width="140" height="120" rx="12" fill="#e9f9f5" stroke="#25c2a0" stroke-width="2"/>
+  <path d="M270 52l20 8v15c0 13-9 22-20 26c-11-4-20-13-20-26v-15z" fill="#25c2a0"/>
+  <path d="M261 77l6 6l12-13" fill="none" stroke="#ffffff" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+  <text x="270" y="126" text-anchor="middle" font-size="15" font-weight="600" fill="#1a8870">Verify</text>
+  <text x="270" y="145" text-anchor="middle" font-size="13" fill="#52606d">header and image</text>
+
+  <line x1="342" y1="96" x2="368" y2="96" stroke="#52606d" stroke-width="2" marker-end="url(#a6)"/>
+
+  <!-- 3. Staging area -->
+  <rect x="370" y="36" width="140" height="120" rx="12" fill="#f6f8fa" stroke="#cdd5dd" stroke-width="1.5"/>
+  <rect x="418" y="58" width="44" height="16" rx="3" fill="#ffffff" stroke="#52606d" stroke-width="2"/>
+  <rect x="418" y="80" width="44" height="16" rx="3" fill="#25c2a0" stroke="#1a8870" stroke-width="2"/>
+  <text x="440" y="126" text-anchor="middle" font-size="15" font-weight="600" fill="#1f2933">Staging area</text>
+  <text x="440" y="145" text-anchor="middle" font-size="13" fill="#52606d">held until reboot</text>
+
+  <line x1="512" y1="96" x2="538" y2="96" stroke="#52606d" stroke-width="2" marker-end="url(#a6)"/>
+
+  <!-- 4. Install at the next boot -->
+  <rect x="540" y="36" width="150" height="120" rx="12" fill="#f6f8fa" stroke="#cdd5dd" stroke-width="1.5"/>
+  <path d="M627 66a17 17 0 1 0 4 16" fill="none" stroke="#52606d" stroke-width="2.5" stroke-linecap="round"/>
+  <path d="M629 56v12h-12" fill="none" stroke="#52606d" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/>
+  <text x="615" y="126" text-anchor="middle" font-size="15" font-weight="600" fill="#1f2933">Install</text>
+  <text x="615" y="145" text-anchor="middle" font-size="13" fill="#52606d">at the next boot</text>
+
+  <!-- A check fails -->
+  <line x1="270" y1="158" x2="270" y2="206" stroke="#e5484d" stroke-width="2" stroke-dasharray="5 4" marker-end="url(#a6r)"/>
+  <text x="282" y="188" font-size="13" fill="#b42318">if a check fails</text>
+
+  <rect x="160" y="208" width="220" height="104" rx="12" fill="#fdecec" stroke="#e5484d" stroke-width="2"/>
+  <circle cx="194" cy="242" r="14" fill="#e5484d"/>
+  <path d="M188 236l12 12M200 236l-12 12" stroke="#ffffff" stroke-width="2.5" stroke-linecap="round"/>
+  <text x="218" y="249" font-size="18" font-weight="700" fill="#b42318">Refused</text>
+  <text x="180" y="278" font-size="13" fill="#7a271a">damaged, cut off or</text>
+  <text x="180" y="297" font-size="13" fill="#7a271a">for another product</text>
+
+  <line x1="382" y1="260" x2="418" y2="260" stroke="#52606d" stroke-width="2" marker-end="url(#a6)"/>
+
+  <!-- The running firmware stays -->
+  <rect x="420" y="208" width="270" height="104" rx="12" fill="#e9f9f5" stroke="#25c2a0" stroke-width="2"/>
+  <circle cx="454" cy="242" r="14" fill="#25c2a0"/>
+  <path d="M447 242l5 5l9-10" fill="none" stroke="#ffffff" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/>
+  <text x="478" y="249" font-size="16" font-weight="700" fill="#1a8870">Running firmware stays</text>
+  <text x="440" y="282" font-size="13" fill="#52606d">the module keeps working</text>
+</svg>

@@ -50,18 +50,23 @@ written during production, so there is nothing to enter.
 
 AT commands are exchanged on UART1.
 
-| Connection | Module pin | Other side |
-|---|---|---|
-| AT port TX | GP4 | RX of the USB-serial adapter |
-| AT port RX | GP5 | TX of the USB-serial adapter |
-| GND | GND | GND of the USB-serial adapter |
-| Ethernet | RJ-45 | Switch or PC |
+| Connection | EOE-W55RP20 | WIZ-IP20 | Other side |
+|---|---|---|---|
+| AT port TX | GP4 | P5 (TXD) | RX of the USB-serial adapter |
+| AT port RX | GP5 | P3 (RXD) | TX of the USB-serial adapter |
+| GND | GND | P9 (GND) | GND of the USB-serial adapter |
+| Ethernet | RJ-45 | RJ-45 | Switch or PC |
+
+The EOE-W55RP20 and WIZ-IP20 pins are 3.3 V TTL, so use a 3.3 V USB-serial adapter.
+
+On the W232N, connect its RS232 port (DB9) to the PC's RS-232 port.
 
 > **Cross TX and RX.** The module's TX goes to the other side's RX. If the two wires are
 > swapped nothing answers, which is the most common mistake on a first connection.
 
-The flow control pins (GP6 CTS, GP7 RTS) do not need to be connected. The factory
-default uses no flow control, and it can be turned on later with `AT+UART`.
+The flow control pins (GP6 CTS · GP7 RTS on the EOE-W55RP20, P6 CTS · P10 RTS on the WIZ-IP20) do not
+need to be connected. The factory default uses no flow control, and it can be turned on later
+with `AT+UART`.
 
 The module boots as soon as power is applied.
 
@@ -108,11 +113,15 @@ The fields are firmware version, model, serial number and product ID.
 
 To check the state from the board alone, without a PC, look at these output pins.
 
-| Pin | When high |
-|---|---|
-| GP10 | The Ethernet link is up |
-| GP11 | At least one TCP connection exists |
-| GP9 (DSR) | The module is ready for AT commands |
+| EOE-W55RP20 | WIZ-IP20 | W232N | When high |
+|---|---|---|---|
+| GP10 | P13 (LINKLED) — when **low** | LINK LED on | The Ethernet link is up |
+| GP11 | None | TCP LED on | At least one TCP connection exists |
+| GP9 (DSR) | None | DB9 pin 6 (DSR) | The module is ready for AT commands |
+
+The WIZ-IP20's P13 (LINKLED) is an LED signal driven directly by the Ethernet chip, so it goes
+**low** when the link is up. The WIZ-IP20 has no TCP connection or DSR pin. Check TCP connections with
+`AT+SOCKSTATUS?`, and whether the module is ready for commands with the `+READY` line at boot.
 
 ---
 
@@ -218,14 +227,16 @@ send `AT+OBJVAL=1,<new value>`. `AT+OBJVAL` needs no `AT+SAVE`.
 
 | Check | Details |
 |---|---|
-| TX/RX direction | The module's TX (GP4) must go to the other side's RX |
+| TX/RX direction | The module's TX (GP4 on the EOE-W55RP20, P5 on the WIZ-IP20, DB9 pin 3 on the W232N) must go to the other side's RX |
 | Speed | The factory default is 115200. A board used elsewhere may have been changed |
-| Port | AT commands are accepted only on UART1 (GP4/GP5). GP0/GP1 carry the debug log only |
+| Port | AT commands are accepted only on UART1 (GP4/GP5 on the EOE-W55RP20, P5/P3 on the WIZ-IP20, the RS232 port on the W232N). The EOE-W55RP20's GP0/GP1 carry the debug log only |
 | Flow control | If only the PC side has it on, the link looks frozen. Turn it off on both sides |
 | GND | Without a GND connection, communication is unreliable |
 
-If nothing works, hold GP18 low for 5 seconds or more to perform a factory reset. The
-AT port returns to 115200 8N1 with no flow control.
+If nothing works, hold the EOE-W55RP20's FACT RSTn pin (GP18) low for 5 seconds or more to perform
+a factory reset. The AT port returns to 115200 8N1 with no flow control. On the W232N, use the factory
+reset switch inside the case. The WIZ-IP20 does not have this pin; if the web interface was left on,
+use Factory reset on its Maintenance tab.
 
 > **A factory reset clears all settings.** Network settings, SNMPv3 users, communities,
 > objects and stored values are all reset. The MAC address, serial number, model name
