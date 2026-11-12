@@ -16,6 +16,7 @@ description: Embedded Ethernet module that connects your equipment to a BACnet b
 import Tabs from '@theme/Tabs';
 import TabItem from '@theme/TabItem';
 import AdvantageCarousel from '@site/src/components/AdvantageCarousel';
+import UseCaseCards from '@site/src/components/UseCaseCards';
 
 # EOE-W55RP20_BACnet Module
 
@@ -27,22 +28,48 @@ The host MCU only exchanges AT commands over UART. BACnet protocol processing, B
 
 ![EOE-W55RP20_BACnet module system diagram: the host MCU talks to the EOE-W55RP20_BACnet module over UART with AT commands, and the module talks to a BACnet workstation over Ethernet with BACnet/IP or BACnet/SC](/img/products/EOE-ioNIC/bacnet/bacnet-system-diagram.svg)
 
+## Key Features
+
+- BACnet/IP (Annex J) device, or BACnet/SC (Annex AB) hub connector over TLS 1.3
+- ReadProperty, ReadPropertyMultiple, WriteProperty, WritePropertyMultiple, SubscribeCOV and device management services
+- Up to 256 objects of nine types (Analog, Binary and Multi-state Input, Output and Value), defined with AT commands or registered at once from a CSV file
+- Confirmed writes: the host MCU approves a value written from a workstation before it is applied
+- 10/100 Mbps Ethernet with TCP/IP handled by the W5500 hardware, DHCP or static address, DNS
+- 4 TCP/UDP channels for the host MCU, in addition to BACnet
+- 56 AT commands and a web interface for every setting
+- Firmware update over the web interface or UART, verified before installation
+- Diagnostics, watchdog, and factory reset by AT command, web interface or pin
+
 ---
 
 ## Why EOE-W55RP20_BACnet
 
 ### When to Use
 
-<img
-  src="/img/products/EOE-ioNIC/bacnet/when-to-use.svg"
-  alt="Four situations: connecting existing equipment to a BACnet BMS, joining a BACnet/IP site while being ready for BACnet/SC, a host MCU with no room for a BACnet, TCP/IP or TLS stack, and shorter Ethernet design and protocol testing"
-  style={{display: 'block', width: '100%', margin: '0 0 1rem'}}
+<UseCaseCards
+  items={[
+    {
+      icon: '/img/products/EOE-ioNIC/bacnet/use-1-equipment.svg',
+      title: 'Existing equipment → BMS',
+      text: 'You need to connect existing equipment to a BACnet building management system (BMS)',
+    },
+    {
+      icon: '/img/products/EOE-ioNIC/bacnet/use-2-sc-ready.svg',
+      title: 'Ready for BACnet/SC',
+      text: 'You are joining an existing BACnet/IP site and also need to be ready for BACnet/SC (secure BACnet)',
+    },
+    {
+      icon: '/img/products/EOE-ioNIC/bacnet/use-3-small-mcu.svg',
+      title: 'A small host MCU',
+      text: 'The host MCU has no room for a BACnet stack, a TCP/IP stack or TLS',
+    },
+    {
+      icon: '/img/products/EOE-ioNIC/bacnet/use-4-faster.svg',
+      title: 'Faster development',
+      text: 'You want to shorten the time spent on Ethernet hardware design and protocol testing',
+    },
+  ]}
 />
-
-- You need to connect existing equipment to a BACnet building management system (BMS)
-- You are joining an existing BACnet/IP site and also need to be ready for BACnet/SC (secure BACnet)
-- The host MCU has no room for a BACnet stack, a TCP/IP stack or TLS
-- You want to shorten the time spent on Ethernet hardware design and protocol testing
 
 ### Advantages
 
@@ -126,18 +153,6 @@ This firmware (1.0.0) runs on the following W55RP20-based hardware. **To purchas
     </tr>
   </tbody>
 </table>
-
-## Key Features
-
-- BACnet/IP (Annex J) device, or BACnet/SC (Annex AB) hub connector over TLS 1.3
-- ReadProperty, ReadPropertyMultiple, WriteProperty, WritePropertyMultiple, SubscribeCOV and device management services
-- Up to 256 objects of nine types (Analog, Binary and Multi-state Input, Output and Value), defined with AT commands or registered at once from a CSV file
-- Confirmed writes: the host MCU approves a value written from a workstation before it is applied
-- 10/100 Mbps Ethernet with TCP/IP handled by the W5500 hardware, DHCP or static address, DNS
-- 4 TCP/UDP channels for the host MCU, in addition to BACnet
-- 56 AT commands and a web interface for every setting
-- Firmware update over the web interface or UART, verified before installation
-- Diagnostics, watchdog, and factory reset by AT command, web interface or pin
 
 ---
 
